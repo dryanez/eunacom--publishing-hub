@@ -1,0 +1,517 @@
+{
+  "classId": "ob-15",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Parto prematuro es el nacimiento entre las {{c1::22+0 y 36+6}} semanas de gestación.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definiciones",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.012"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La amenaza de parto prematuro (APP) es dinámica uterina frecuente (≥ {{c1::4}} en 20 min) con modificaciones cervicales entre las 22 y 34 semanas.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.012"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se llama trabajo de parto prematuro cuando la dilatación cervical es ≥ {{c1::4 cm}}.",
+      "extra": "Es irreversible: el parto es inminente.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definiciones",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.012"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El examen que confirma la APP midiendo el cuello con vejiga vacía es la {{c1::cervicometría transvaginal}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Contracciones y cuello",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.012"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Un cérvix corto es una longitud cervical < {{c1::25 mm}}.",
+      "extra": "Es el predictor independiente más fuerte de parto prematuro.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.012"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 166",
+        "EUNACOM Diciembre 2019 · Pregunta 155",
+        "EUNACOM Agosto 2021 · Pregunta 179"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El predictor más fuerte de parto prematuro es el {{c1::cuello menor a 25 milímetros}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.012"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El antecedente de parto prematuro previo espontáneo multiplica el riesgo por {{c1::2 a 4}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Factores de riesgo",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.012"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Cuello corto sin antecedentes: se indica {{c1::progesterona vaginal}}; el error es hacer un cerclaje de rutina.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.012"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 155",
+        "EUNACOM Agosto 2021 · Pregunta 179",
+        "EUNACOM Julio 2015 · Pregunta 166"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Prevención primaria: progesterona micronizada vaginal {{c1::200 mg}} cada noche hasta las {{c2::36}} semanas.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de intervenciones",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.012"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 159"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El GES N° 21 es la prevención del parto prematuro en población de riesgo con {{c1::cérvix corto}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Prevención GES",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.012"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La progesterona vaginal reduce el parto prematuro espontáneo en un {{c1::40-50%}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de intervenciones",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.012"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cerclaje se reserva para cuello corto con antecedente de {{c1::partos muy prematuros o abortos tardíos}}.",
+      "extra": "Sin ese antecedente, solo progesterona.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz Dic 2019",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.012"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 179",
+        "EUNACOM Julio 2013 · Pregunta 72"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El objetivo real de la tocolisis es frenar la dinámica uterina por {{c1::48 horas}}.",
+      "extra": "Para dar tiempo a los corticoides, al magnesio y al traslado.",
+      "origen": "clase:2",
+      "fuente": "Clase · El nifedipino compra 48 horas",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.012"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La tocolisis NO sirve para {{c1::prolongar el embarazo hasta el término}}.",
+      "extra": "Solo compra tiempo.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tocolisis",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.012"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El tocolítico de primera línea en Chile es {{c1::nifedipino oral}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.012"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 72",
+        "EUNACOM Julio 2024 · Pregunta 73",
+        "EUNACOM Julio 2013 · Pregunta 88"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Nifedipino: dosis de carga de {{c1::20 mg}} vía oral, repetible a los 20-30 minutos (máximo 40 mg en la primera hora).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de intervenciones",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.012"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Nifedipino de mantención: {{c1::10-20 mg}} cada 6-8 horas, por un máximo de 48 horas.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de intervenciones",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.012"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El atosibán es un antagonista de los receptores de {{c1::oxitocina}}; es de segunda línea, seguro pero de alto costo.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Segunda línea",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.012"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La indometacina como tocolítico solo se permite en gestaciones < {{c1::32}} semanas y por < 48 horas.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.012"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con indometacina en gestación mayor a 32 semanas se cierra prematuramente el {{c1::ductus arterioso}} fetal.",
+      "extra": "También causa oligohidramnios.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.012"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 72",
+        "EUNACOM Julio 2024 · Pregunta 73"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El fenoterol (betamimético) está casi en desuso por el riesgo de {{c1::edema pulmonar}} y taquicardia.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Segunda línea",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.012"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante corioamnionitis, DPPNI o eclampsia la conducta es {{c1::interrumpir el embarazo}}, nunca tocolisis.",
+      "extra": "Ahí se nace, no se frena.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.012"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 164"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En trabajo de parto en fase activa los tocolíticos {{c1::ya no sirven}}; el error es insistir con nifedipino.",
+      "extra": "Se administran corticoides igual.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.012"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 11"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antes de indicar tocolíticos hay que descartar contraindicaciones, por ejemplo con {{c1::monitoreo electrónico de la frecuencia cardíaca fetal}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Contraindicaciones",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.012"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 170"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Parto prematuro que no cede a nifedipino y con sospecha de infección intraamniótica sin criterios completos de corioamnionitis: se hace {{c1::amniocentesis}}.",
+      "extra": "Descartar infección antes de seguir tocolisis.",
+      "origen": "libro:sec:2",
+      "fuente": "Banco EUNACOM · parto prematuro",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.012"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 91",
+        "EUNACOM Diciembre 2019 · Pregunta 104",
+        "EUNACOM Diciembre 2017 · Pregunta 165"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Maduración pulmonar: betametasona {{c1::12 mg IM}} cada 24 horas por {{c2::2 dosis}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de intervenciones",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.012"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los corticoides antenatales se indican entre las {{c1::24 y 34}} semanas de gestación.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Corticoides y magnesio",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.012"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los corticoides antenatales reducen la {{c1::membrana hialina}} y la hemorragia intraventricular.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Corticoides y magnesio",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.012"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El sulfato de magnesio en parto inminente < 32 semanas reduce la {{c1::parálisis cerebral}} del prematuro.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Corticoides y magnesio",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.012"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 164"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Neuroprotección: sulfato de magnesio con bolo de {{c1::4 a 5 g}} EV en 30 min y mantención de {{c2::1 g/hora}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de intervenciones",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.012"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con dilatación avanzada ya no actúan tocolíticos ni corticoides; lo que aún protege al recién nacido es el {{c1::sulfato de magnesio}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Dic 2017",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.012"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 164"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Todo parto prematuro con cultivo SGB positivo o desconocido recibe profilaxis con {{c1::penicilina G}} (o ampicilina).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Profilaxis del estreptococo",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.012"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Penicilina G en profilaxis de SGB: {{c1::5 millones UI}} EV de inicio.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de intervenciones",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.012"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-15/01_cervicometria-cervix-corto__cto-gyo_p159.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Cervicometría transvaginal con cérvix corto",
+      "clave": "Las cruces miden el largo del cuello; < 25 mm es cérvix corto",
+      "conducta": "Progesterona vaginal; si hay APP, tocolisis, corticoides y magnesio si < 32 semanas",
+      "fuente": "Manual CTO Ginecología y Obstetricia 14.ª ed., p. 159",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.012"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Corioamnionitis, DPPNI o eclampsia: ¿tocolisis?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1",
+      "pista": "Sin contraindicación y ≥ 32 semanas: ¿qué tocolítico?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.2",
+      "pista": "Sin contraindicación y < 32 semanas: ¿qué se agrega?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.3",
+      "pista": "De 24 a 34 semanas, en cualquier caso: ¿qué fármaco?"
+    }
+  ]
+}

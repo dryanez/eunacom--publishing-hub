@@ -1,0 +1,433 @@
+{
+  "classId": "hem-14",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La vitamina K carboxila los factores {{c1::II, VII, IX y X}} y las proteínas {{c2::C y S}}.",
+      "extra": "Sin carboxilación no fijan calcio ni fosfolípidos: quedan inertes.",
+      "origen": "clase:1",
+      "fuente": "Clase · Vitamina K",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.005"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el déficit de vitamina K el factor {{c1::VII}} cae primero (TP prolongado) y luego el {{c2::IX}} (TTPK prolongado).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Vitamina K",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.005",
+        "1.08.2.002"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causas de déficit de vitamina K: desnutrición, antibióticos prolongados, malabsorción y {{c1::colestasis crónica}}.",
+      "extra": "Sin sales biliares no se absorben las vitaminas liposolubles.",
+      "origen": "clase:2",
+      "fuente": "Clase · Déficit de vitamina K",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.005"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La vitamina K1 normaliza el TP en {{c1::12–24 horas}} en el déficit puro de vitamina K.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Déficit de vitamina K",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.005"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El factor {{c1::V}} es hepático y no depende de vitamina K: mide la síntesis hepática directa.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Hígado vs vitamina K",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.005"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "TP largo con factor V bajo es daño hepático: el error es {{c1::esperar que corrija con vitamina K}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.005"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante colestasis o antibióticos prolongados con coagulopatía, el error es pensar en {{c1::hemofilia}}; es déficit de vitamina K.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.005"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la cirrosis también bajan las proteínas C y S y la antitrombina: el equilibrio hemostático es {{c1::frágil}}.",
+      "extra": "Por eso coexisten sangrado y trombosis.",
+      "origen": "clase:3",
+      "fuente": "Clase · Hígado vs vitamina K",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.005"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Colestasis por tumor de cabeza de páncreas con TP largo, plaquetas y fibrinógeno normales: {{c1::déficit de vitamina K}}, que se corrige con vitamina K {{c2::parenteral}}.",
+      "extra": "No es insuficiencia hepática ni CID.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.005"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El acenocumarol y la warfarina inhiben la {{c1::VKORC1}} (vitamina K epóxido reductasa).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Cumarínicos",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.012"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El rango terapéutico habitual de INR con cumarínicos es {{c1::2 a 3}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Cumarínicos",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.012"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En válvula mecánica mitral la meta de INR es {{c1::2,5 a 3,5}}.",
+      "extra": "Fibrilación auricular con válvula mecánica: acenocumarol, no anticoagulante oral directo.",
+      "origen": "clase:4",
+      "fuente": "Clase · Cumarínicos",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.012"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Potencian los cumarínicos y suben el INR: {{c1::amiodarona, metronidazol, ciprofloxacino y cotrimoxazol}}.",
+      "extra": "Inhiben el CYP2C9.",
+      "origen": "clase:4",
+      "fuente": "Clase · Cumarínicos",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.006"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "INR estable que sube a 6,4 tras iniciar un fármaco nuevo: sospechar {{c1::cotrimoxazol}}.",
+      "extra": "Rifampicina, carbamazepina y fenobarbital son inductores y bajan el INR; controlar INR en 3 a 5 días.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz interacciones",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.006"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "INR 4,5–10 sin sangrado: suspender {{c1::1–2 dosis}} y controlar, sin vitamina K de rutina.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla sobreanticoagulación",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.005"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "INR entre 4,5 y 10 sin sangrado: el error es {{c1::dar vitamina K de rutina}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.005"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "INR > 10 sin sangrado: suspender y dar vitamina K1 oral {{c1::2,5–5 mg}}.",
+      "extra": "La vía oral es más segura y evita la resistencia prolongada.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla sobreanticoagulación",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.005"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 142"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "INR > 10 sin sangrado: el error es dar {{c1::plasma fresco o vitamina K EV}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.005"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Sangrado leve o mucocutáneo con cualquier INR: suspender y dar vitamina K1 oral {{c1::2,5–5 mg}} más hemostasia local.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla sobreanticoagulación",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.005"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hemorragia grave por cumarínico: CCP de 4 factores a {{c1::25–50 UI/kg}} EV más vitamina K {{c2::10 mg}} EV.",
+      "extra": "El CCP aporta II, VII, IX y X; revierte en 10–15 minutos sin sobrecarga de volumen.",
+      "origen": "clase:6",
+      "fuente": "Clase · Reversión urgente",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.002"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La vitamina K EV se diluye en {{c1::100 mL}} de suero y se pasa en {{c2::30 minutos}}.",
+      "extra": "El CCP dura poco; la vitamina K sostiene la reversión.",
+      "origen": "clase:6",
+      "fuente": "Clase · Reversión urgente",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.005"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si no hay CCP en hemorragia grave: plasma fresco congelado a {{c1::15 mL/kg}} más vitamina K EV.",
+      "extra": "Es lento y con riesgo de sobrecarga de volumen.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla sobreanticoagulación",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.005"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 96"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En sangrado grave por cumarínico, usar solo vitamina K es un error: {{c1::demora horas}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.002"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hemorragia digestiva con inestabilidad en paciente con INR 8,5: la conducta es {{c1::CCP más vitamina K EV}}, no vitamina K oral.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.002"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los anticoagulantes orales directos no requieren monitorización con {{c1::TP ni TTPK}}.",
+      "extra": "Su vida media es de 8 a 14 horas con función renal normal.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 DOAC",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.012"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El antídoto del dabigatrán es el {{c1::idarucizumab}}, a dosis de {{c2::5 g}} EV.",
+      "extra": "Neutraliza en minutos.",
+      "origen": "clase:7",
+      "fuente": "Clase · Antídotos",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.012"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hemorragia mayor con dabigatrán: el error es usar {{c1::protamina}}.",
+      "extra": "La protamina revierte la heparina, no el dabigatrán.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.005"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antídoto de los inhibidores del Xa (rivaroxabán, apixabán): {{c1::andexanet alfa}}, o CCP a {{c2::50 UI/kg}} si no hay.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Antídotos",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.012"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El antídoto de la heparina no fraccionada es la {{c1::protamina}}: {{c2::1 mg}} neutraliza 100 UI.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Antídotos",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.012"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las causas más frecuentes de daño hepático crónico en Chile son {{c1::alcohol y hepatitis C}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro · pregunta Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.005",
+        "1.08.2.002"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El tema no tiene GES directo: el control del INR se hace en el {{c1::Programa de Anticoagulación Oral}} de atención primaria.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Programa de anticoagulación oral",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.012"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Cumarínico con sangrado grave: ¿qué se indica?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.2.0",
+      "pista": "Sin sangrado e INR sobre 10: ¿qué conducta?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2.1",
+      "pista": "Sin sangrado e INR 4,5–10: ¿qué conducta?"
+    }
+  ]
+}

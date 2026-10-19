@@ -1,0 +1,618 @@
+{
+  "classId": "ped-02",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sostén cefálico y sonrisa social aparecen a los {{c1::3 meses}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Hitos",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.002"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "A los 6 meses el lactante se sienta con apoyo y {{c1::transfiere objetos de una mano a otra}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Camino esperado",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.002"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La sedestación independiente sin apoyo se logra a los {{c1::8-9 meses}}.",
+      "extra": "Si no se mantiene sentado a los 9 meses, es bandera roja.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Hitos",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.002"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 25"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "A los 12 meses aparece la pinza fina madura y las primeras {{c1::1-2 palabras con sentido}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Hitos",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.002"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "A los 18 meses: marcha autónoma, torre de 3 cubos y vocabulario de {{c1::10 a 20 palabras}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Hitos",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.002"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "A los 24 meses el niño corre, patea pelota y dice frases de {{c1::2 palabras}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Hitos",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.002"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 46"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño de 15 meses que camina solo, dice 3 palabras con significado y arma torre de 3 cubos: desarrollo {{c1::normal}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz EUNACOM Julio 2025 P46",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.002"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 46"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La EEDP se aplica de {{c1::0 a 24 meses}}; el TEPSI, de {{c2::2 a 5 años}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Baterías de tamizaje",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.019",
+        "2.01.3.002"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La EEDP es obligatoria a los {{c1::8 y 18 meses}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Baterías de tamizaje",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.002"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El TEPSI se aplica de forma universal a los {{c1::3 años (36 meses)}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Baterías de tamizaje",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.019"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La EEDP evalúa cuatro áreas: motora, coordinación, lenguaje y {{c1::social}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Baterías de tamizaje",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.002"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El TEPSI evalúa tres áreas: coordinación, lenguaje y {{c1::motricidad}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Baterías de tamizaje",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.019"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "EEDP/TEPSI normal: puntaje {{c1::≥ 85}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Puntajes de corte",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.002"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "EEDP/TEPSI riesgo: puntaje entre {{c1::70 y 84}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Puntajes de corte",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.002"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "EEDP/TEPSI retraso: puntaje {{c1::< 70}}.",
+      "extra": "Evaluación médica y derivación.",
+      "origen": "clase:2",
+      "fuente": "Clase · Puntajes de corte",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.002",
+        "2.01.1.080"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "EEDP o TEPSI entre 70 y 84 puntos: el error es {{c1::derivar de inmediato al especialista}}; corresponde sala de estimulación y reevaluar.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.002"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En riesgo, la EEDP se reevalúa a los {{c1::60 días}} y el TEPSI a los {{c2::90 días}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Baterías de tamizaje",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.002"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si un niño no camina a los 18 meses, el error es {{c1::esperar hasta los 24 meses}}; se hace examen neurológico y se deriva.",
+      "extra": "Los 18 meses son el límite máximo, nunca una variante normal.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.083",
+        "2.01.1.080"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante la regresión de una habilidad, el error es {{c1::observar y controlar en un mes}}; se indica estudio neurológico urgente.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.080",
+        "2.01.1.141"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante un prematuro con hitos atrasados, el error es compararlo con su edad cronológica; se debe calcular la {{c1::edad corregida}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.002"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La edad corregida se calcula restando las semanas que faltaron desde las {{c1::40 semanas}} y se usa hasta los {{c2::2 años}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Edad corregida",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.002"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 128"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ausencia de sonrisa social a los 2-3 meses es un signo de alarma; la falta de fijación y seguimiento ocular se alarma a los {{c1::3 meses}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Banderas rojas",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.080"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ausencia de sostén cefálico a los {{c1::4 meses}} sugiere hipotonía axial marcada.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Banderas rojas",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.080",
+        "2.01.1.084"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los reflejos arcaicos (moro, prensión) que persisten más allá de los {{c1::6 meses}} son bandera roja.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Banderas rojas",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.080",
+        "2.01.1.083"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El TEA se tamiza con {{c1::M-CHAT}} entre los 16 y 30 meses.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 TEA",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.141"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 37"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño que no se relaciona, tiene estereotipias, casi no habla y rigidez ante cambios: {{c1::trastorno del espectro autista}}.",
+      "extra": "Antes se llamaba trastorno generalizado del desarrollo.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz EUNACOM Julio 2015 P78",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.141"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 78",
+        "EUNACOM Julio 2015 · Pregunta 77",
+        "EUNACOM Diciembre 2017 · Pregunta 140"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Retraso global del desarrollo: compromiso de {{c1::2 o más áreas}} bajo -2 DE en menores de 5 años.",
+      "extra": "Si persiste, evoluciona a discapacidad intelectual.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Trastornos del desarrollo",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.080",
+        "2.01.1.141"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante cualquier retraso del desarrollo se descarta siempre {{c1::hipoacusia}} (EOA/PEATC).",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Trastornos del desarrollo",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.080",
+        "2.01.1.086"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa más común de hipertonía espástica en el lactante es la {{c1::parálisis cerebral}}.",
+      "extra": "Piernas en tijera, hiperreflexia, clonus, Babinski persistente.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Síndrome hipertónico",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.083"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 144",
+        "EUNACOM Julio 2019 · Pregunta 133"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Exprematuro con marcha en puntillas, hipertonía e hiperreflexia en piernas y Babinski: {{c1::diplejía espástica}}.",
+      "extra": "Típica de la leucomalacia periventricular.",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz EUNACOM Julio 2019 P159",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.083"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 159"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una preferencia manual antes del año sugiere {{c1::hemiparesia}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Lactante hipertónico",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.083"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hipotonía de origen {{c1::central}} es la más frecuente y conserva la fuerza y los reflejos.",
+      "extra": "Causas: Down, Prader-Willi, hipotiroidismo congénito.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Síndrome hipotónico",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.084"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipotonía con debilidad marcada, arreflexia y fasciculaciones linguales: {{c1::atrofia muscular espinal tipo 1}}.",
+      "extra": "Hipotonía periférica (segunda motoneurona).",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz Síndrome hipotónico",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.084"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lactante hipotónico con constipación, ptosis, llanto débil y antecedente de miel: {{c1::botulismo del lactante}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Síndrome hipotónico",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.084"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante hipotonía, el estudio inicial incluye {{c1::TSH y T4 libre}}, CK y electrolitos.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Síndrome hipotónico",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.084"
+      ]
+    },
+    {
+      "id": "c36",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hitos del lenguaje: balbuceo a los 6 meses y primeras palabras a los {{c1::12 meses}}.",
+      "extra": "",
+      "origen": "libro:sec:7",
+      "fuente": "Libro §7 Lenguaje",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.086",
+        "6.03.1.033"
+      ]
+    },
+    {
+      "id": "c37",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "A los 24 meses se esperan unas {{c1::50 palabras}} y frases de dos palabras.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Lenguaje",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.086",
+        "6.03.1.033"
+      ]
+    },
+    {
+      "id": "c38",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante un retraso del lenguaje, lo primero es descartar {{c1::hipoacusia}} con audiometría o PEATC.",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz Trastornos del lenguaje",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.086",
+        "6.03.1.033"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 108"
+      ]
+    },
+    {
+      "id": "c39",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El {{c1::bilingüismo}} no causa retraso del lenguaje.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Lenguaje",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.086"
+      ]
+    },
+    {
+      "id": "c40",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Alerta de lenguaje: sin palabras a los {{c1::18 meses}} o sin frases a los 24 meses.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Bandera roja lenguaje",
+      "repaso": false,
+      "codigos": [
+        "6.03.3.002",
+        "6.03.1.033"
+      ]
+    },
+    {
+      "id": "c41",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Según Piaget, el niño de 2 a 7 años con pensamiento simbólico, egocéntrico y animista está en la etapa {{c1::preoperacional}}.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Perfil V3 Piaget",
+      "repaso": true,
+      "codigos": [
+        "5.01.3.003"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-02/S1_hitos-dsm__propio.svg",
+      "pregunta": "¿Qué muestra este esquema?",
+      "diagnostico": "Hitos del desarrollo psicomotor con edad habitual y edad límite",
+      "clave": "Cada barra es la edad habitual; el punto rojo es la edad límite de alerta",
+      "conducta": "Superado el límite, examen neurológico y derivación",
+      "fuente": "Dibujo propio (esquema)",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.002",
+        "2.01.1.080"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Prematuro menor de 2 años con hitos atrasados: ¿qué calculas?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1.0",
+      "pista": "EEDP/TEPSI entre 70 y 84: ¿conducta?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1.1",
+      "pista": "EEDP/TEPSI bajo 70: ¿conducta?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.2",
+      "pista": "Perdió una habilidad ya lograda: ¿qué haces?"
+    }
+  ]
+}

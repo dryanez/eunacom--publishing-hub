@@ -1,0 +1,770 @@
+{
+ "classId": "infecto-21",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El virus Epstein-Barr (herpesvirus tipo 4) se transmite por {{c1::saliva}} («enfermedad del beso»).",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Del beso al linfocito atípico",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El VEB infecta los linfocitos {{c1::B}} de la orofaringe vía el receptor CD21.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Del beso al linfocito atípico",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los linfocitos atípicos (de Downey) son linfocitos {{c1::T CD8+}} citotóxicos reactivos.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Del beso al linfocito atípico",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Linfocitos atípicos: más de {{c1::10%}} del frotis sugieren mononucleosis o CMV.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Del beso al linfocito atípico",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 54"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tríada de la mononucleosis: fiebre prolongada, faringoamigdalitis exudativa y {{c1::adenopatías cervicales posteriores}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · La tríada y el bazo",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 152",
+    "EUNACOM Julio 2016 · Pregunta 164"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La fiebre de la mononucleosis dura {{c1::1 a 3 semanas}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · La tríada y el bazo",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las adenopatías de la mononucleosis son cervicales {{c1::posteriores}}, simétricas y dolorosas; en el estreptococo, la cadena anterior.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Mononucleosis",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 152"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La faringoamigdalitis de la mononucleosis es clínicamente {{c1::indistinguible}} de la estreptocócica.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · La tríada y el bazo",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Esplenomegalia en la mononucleosis: {{c1::50 a 60%}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · La tríada y el bazo",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 164",
+    "EUNACOM Diciembre 2025 · Pregunta 54"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La mononucleosis cursa con hepatomegalia y leve alza de {{c1::transaminasas}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · La tríada y el bazo",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Si se da amoxicilina o ampicilina en mononucleosis, aparece un {{c1::exantema maculopapular}} a los 5 a 7 días.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Amoxicilina y exantema",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 169",
+    "EUNACOM Julio 2019 · Pregunta 122",
+    "EUNACOM Julio 2015 · Pregunta 129"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El exantema por aminopenicilinas aparece en el {{c1::90-100%}} de las mononucleosis.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Amoxicilina y exantema",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El exantema post-amoxicilina en mononucleosis {{c1::no}} es alergia verdadera: no se rotula alérgico a penicilina.",
+   "extra": "Mediado por inmunocomplejos transitorios.",
+   "origen": "clase:3",
+   "fuente": "Clase · Amoxicilina y exantema",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 122",
+    "EUNACOM Julio 2015 · Pregunta 129"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hemograma de la mononucleosis: linfocitosis con linfocitos {{c1::atípicos}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Cómo se confirma y qué se indica",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Anticuerpos heterófilos de la mononucleosis: prueba de {{c1::Paul-Bunnell}} o Monotest.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Cómo se confirma y qué se indica",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ante mononucleosis con exantema tras amoxicilina, se solicita {{c1::IgM anti-VCA}} (cápside viral).",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Cómo se confirma y qué se indica",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 169"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Conducta en mononucleosis: suspender la amoxicilina y dar {{c1::reposo relativo}} sin deportes de contacto.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Cómo se confirma y qué se indica",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Sin deportes de contacto por {{c1::3 a 4 semanas}} por riesgo de rotura esplénica.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causa número 1 de síndrome mononucleósico con heterófilos negativos: {{c1::citomegalovirus (CMV)}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Si los heterófilos son negativos",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "CMV adulto: síndrome febril prolongado «tifoídeo» con faringitis y ganglios {{c1::mínimos o ausentes}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Si los heterófilos son negativos",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Adenopatía cervical indolora aislada con exposición a gatos o carne cruda: {{c1::toxoplasmosis aguda}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Si los heterófilos son negativos",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Síndrome retroviral agudo: 2 a 4 semanas tras exposición, con úlceras mucocutáneas {{c1::dolorosas}} y exantema.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Si los heterófilos son negativos",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Heterófilos positivos con exantema tras amoxicilina apuntan a {{c1::VEB}}; negativos con faringitis mínima, a CMV.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "TORCH: Toxoplasma, Otros (sífilis, Chagas, varicela, parvovirus B19), {{c1::Rubéola, CMV, Herpes simple}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Complejo TORCH",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.127"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Clínica común del TORCH: RCIU, microcefalia, hepatoesplenomegalia e ictericia a predominio {{c1::directo}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Complejo TORCH",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.127"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 77",
+    "EUNACOM Julio 2016 · Pregunta 46"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La púrpura trombocitopénica neonatal del TORCH se llama «muffin de {{c1::arándanos}}».",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Complejo TORCH",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.127"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 77"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "CMV congénito: calcificaciones {{c1::periventriculares}} y microcefalia.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · La huella de cada TORCH",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.127"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 18",
+    "EUNACOM Julio 2016 · Pregunta 46",
+    "EUNACOM Diciembre 2018 · Pregunta 77"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causa número 1 de hipoacusia neurosensorial congénita no hereditaria: {{c1::CMV}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · La huella de cada TORCH",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.127"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Toxoplasmosis congénita (tétrada de Sabin): calcificaciones difusas, hidrocefalia, {{c1::coriorretinitis}} y convulsiones.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · La huella de cada TORCH",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.127"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 145"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Rubéola congénita (tríada de Gregg): catarata congénita, hipoacusia neurosensorial y {{c1::cardiopatía (ductus arterioso persistente)}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · La huella de cada TORCH",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.127"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 96"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "RN con ausencia de rojo pupilar bilateral y soplo sistólico: {{c1::rubéola congénita}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · La huella de cada TORCH",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.127"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 96"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hijo de madre con varicela 2 días antes del parto: alto riesgo de varicela neonatal grave; se da {{c1::inmunoglobulina hiperinmune antivaricela}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 TORCH",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.127"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 68"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Leucocitosis con neutrofilia y desviación a izquierda (> 15.000/mm³) sugiere infección {{c1::bacteriana}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Hemograma y VHS",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.010",
+    "2.01.1.030"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Leucopenia se ve en virosis, tifoidea, {{c1::brucelosis}} y sepsis grave; eosinofilia, en parasitosis tisulares.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Hemograma y VHS",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.010",
+    "2.01.1.030"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "VHS mayor de {{c1::100 mm/h}} orienta a endocarditis, TBC, osteomielitis, vasculitis, mieloma o neoplasia.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Hemograma y VHS",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.010",
+    "2.01.1.030"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La PCR sube y baja más rápido que la VHS y sirve para {{c1::seguir la respuesta}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Hemograma y VHS",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.010",
+    "2.01.1.030"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Una adenopatía es patológica si mide más de {{c1::1 cm}} (epitroclear > 0,5 cm, inguinal > 1,5 cm).",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Adenopatía: observar, estudiar o biopsiar",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.010",
+    "2.01.1.030"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Adenopatía blanda, dolorosa y móvil orienta a causa {{c1::reactiva}}; dura, adherida o supraclavicular, a linfoma o metástasis.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Adenopatía: observar, estudiar o biopsiar",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.010",
+    "2.01.1.030"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Biopsia de adenopatía si > 2 cm, crece, es dura, persiste más de 4-6 semanas o hay {{c1::síntomas B}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Adenopatía: observar, estudiar o biopsiar",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.010",
+    "2.01.1.030"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Niño con fiebre, adenopatía y lesiones esplénicas o hepatoesplénicas en la ecografía: {{c1::Bartonella henselae}} (arañazo de gato).",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Adenopatía: observar, estudiar o biopsiar",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.018",
+    "2.01.1.030"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 153",
+    "EUNACOM Enero 2023 · Pregunta 18",
+    "EUNACOM Diciembre 2024 · Pregunta 5"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Síndrome febril prolongado: más de {{c1::14 días}} en el niño y más de 3 semanas en el adulto.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Síndrome febril prolongado",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.018",
+    "2.01.1.030"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En síndrome febril prolongado no se inician {{c1::antibióticos ni corticoides}} empíricos sin diagnóstico.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Síndrome febril prolongado",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.018",
+    "2.01.1.030"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Niño de 4 años con fiebre de 9 días, adenopatías submandibulares y hepatomegalia: según el banco, {{c1::VIH}}.",
+   "extra": "Respuesta del banco; verificar.",
+   "origen": "clase:10",
+   "fuente": "Clase · Síndrome febril prolongado",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.018",
+    "2.01.1.030"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 53"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Niño de 11 años con fiebre de 10 días, faringe congestiva y adenopatías anteriores: según el banco, estudio con {{c1::coprocultivo}}.",
+   "extra": "Respuesta del banco; verificar.",
+   "origen": "clase:10",
+   "fuente": "Clase · Síndrome febril prolongado",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.018",
+    "2.01.1.030"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 86"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-21/01_amigdalitis-mononucleosica__cto-orl_p71.jpg",
+   "pregunta": "¿Qué muestra y qué sospechas?",
+   "diagnostico": "Amigdalitis exudativa de la mononucleosis",
+   "clave": "Placas blanquecinas bilaterales, igual que la estreptocócica",
+   "conducta": "Hemograma + heterófilos o IgM anti-VCA; no dar amoxicilina",
+   "fuente": "Manual CTO Otorrinolaringología 14.ª ed., p. 71",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 152",
+    "EUNACOM Julio 2016 · Pregunta 164"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-21/03_exantema-por-amoxicilina-mononucleosis__cto-derma_p53.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Exantema por amoxicilina en mononucleosis",
+   "clave": "Exantema maculopapular difuso a los 5-7 días de amoxicilina",
+   "conducta": "Suspender amoxicilina; no es alergia; confirmar VEB",
+   "fuente": "Manual CTO Dermatología 14.ª ed., p. 53",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 169",
+    "EUNACOM Julio 2019 · Pregunta 122",
+    "EUNACOM Julio 2015 · Pregunta 129"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-21/04_linfocitos-atipicos__atlas210.jpg",
+   "pregunta": "¿Qué muestra y qué diagnóstico sugiere?",
+   "diagnostico": "Linfocitos atípicos (de Downey)",
+   "clave": "Célula grande de citoplasma abundante y basófilo, > 10% del frotis",
+   "conducta": "Heterófilos o IgM anti-VCA; reposo sin deportes de contacto",
+   "fuente": "Atlas EUNACOM 2026",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ]
+  },
+  {
+   "id": "i04",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-21/01_coriorretinitis_toxoplasma__kanski_p441.jpg",
+   "pregunta": "¿Qué muestra y qué TORCH sugiere?",
+   "diagnostico": "Coriorretinitis por toxoplasmosis congénita",
+   "clave": "Lesión blanca activa junto a una cicatriz",
+   "conducta": "Pensar en tétrada de Sabin; derivar",
+   "fuente": "Kanski, p. 441",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.127"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 145"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.1",
+   "pista": "Faringitis con ganglios posteriores o bazo: ¿qué pides?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.0",
+   "pista": "Heterófilos positivos: ¿qué es y qué indicas?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.1.0",
+   "pista": "Heterófilos negativos y fiebre sin faringitis: ¿qué?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.1.2",
+   "pista": "Heterófilos negativos con úlceras mucosas: ¿qué?"
+  }
+ ]
+}

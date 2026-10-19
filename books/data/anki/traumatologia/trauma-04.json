@@ -1,0 +1,656 @@
+{
+ "classId": "trauma-04",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El diagnóstico de lesión de nervio periférico es {{c1::estrictamente clínico}}: déficit motor, sensitivo y a veces arreflexia distal.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Nervios",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.010",
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Déficit parcial (mueve o siente algo): se asume {{c1::neuroapraxia}} y se observa.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Seddon",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.010",
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Déficit total: no se distingue clínicamente axonotmesis de neurotmesis, por lo que se indica {{c1::exploración quirúrgica}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Seddon",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.010",
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fractura de la {{c1::diáfisis del húmero}} lesiona el nervio radial, que pasa por el surco radial.",
+   "extra": "Quiz Jul 2013 y Ago 2021.",
+   "origen": "libro:tabla",
+   "fuente": "Clase · Tabla nervios",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 41",
+    "EUNACOM Agosto 2021 · Pregunta 103"
+   ],
+   "codigos": [
+    "4.02.2.010",
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Lesión del nervio radial: «mano caída», no extiende {{c1::muñeca ni dedos}}; hipoestesia de la cara posterior del miembro.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Radial",
+   "repaso": false,
+   "imagen": "../../books/figuras/atlas_eunacom_2026/058_alta_trauma_trauma_04_lesiones_neurovasculares.jpg",
+   "codigos": [
+    "4.02.2.010",
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Traumatismo posterior del húmero con caída de muñeca: nervio radial en el {{c1::canal de torsión}} (surco espiral).",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Quiz Jul 2025",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 70"
+   ],
+   "codigos": [
+    "4.02.2.010",
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras osteosíntesis de húmero, imposibilidad de extender la muñeca sin otras alteraciones: {{c1::neurapraxia}} del nervio radial.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Quiz Jul 2017",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 173"
+   ],
+   "codigos": [
+    "4.02.2.010",
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La luxación anterior de hombro o fractura del cuello del húmero lesiona el nervio {{c1::axilar}}: no abduce y pierde la sensibilidad del parche deltoideo.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Axilar",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.010",
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antes de reducir una luxación anterior de hombro se explora la sensibilidad de la {{c1::zona deltoidea}}.",
+   "extra": "",
+   "origen": "clase:19",
+   "fuente": "Clase · Quiz Dic 2025",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 35",
+    "EUNACOM Diciembre 2024 · Pregunta 48"
+   ],
+   "codigos": [
+    "4.02.2.010",
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fractura supracondílea de húmero lesiona el nervio {{c1::mediano}}: no flecta los dedos 1° al 3°.",
+   "extra": "Sensibilidad de los primeros 3 dedos y mitad radial del 4°.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Mediano",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.010",
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fractura medial de codo lesiona el nervio {{c1::cubital}}: no flecta los dedos 4° y 5°.",
+   "extra": "Sensibilidad del 5° dedo y mitad cubital del 4°.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cubital",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 3"
+   ],
+   "codigos": [
+    "4.02.2.010",
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La luxación posterior de cadera (rodilla contra el tablero) lesiona el nervio {{c1::ciático}}.",
+   "extra": "No flecta la rodilla ni dorsiflexiona; baja el reflejo aquiliano (S1).",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Ciático",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.010",
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La parálisis del borracho es compresión del nervio {{c1::radial}}; la de la luna de miel, del plexo braquial.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Compresivas",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.010"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La isquemia arterial aguda se reconoce por las {{c1::6 P}}: dolor, palidez, ausencia de pulsos, parestesias, parálisis y frialdad.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Isquemia",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.021",
+    "4.01.2.023"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El signo característico de lesión arterial es la hemorragia {{c1::pulsátil}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Hemorragia",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.021",
+    "4.01.2.023"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En hemorragia arterial la prioridad es la {{c1::compresión directa}}; el torniquete solo si es exanguinante y no cede.",
+   "extra": "La ligadura es el último recurso.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Hemorragia",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.021",
+    "4.01.2.023"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Embolia arterial: origen {{c1::cardíaco}} (fibrilación auricular, infarto, valvulopatía), inicio brusco y pulsos contralaterales normales.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Isquemia",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.021"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La trombosis in situ ocurre sobre una placa: {{c1::claudicación previa}}, inicio gradual y pulsos contralaterales disminuidos.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Isquemia",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.021"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Manejo inicial de la isquemia aguda: {{c1::heparina no fraccionada EV}} (bolo de 5.000 UI u 80 UI/kg) y traslado urgente a cirugía vascular.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Isquemia",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.021"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El tiempo útil para revascularizar una isquemia aguda es de unas {{c1::6 horas}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Isquemia",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.021"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La embolia se trata con embolectomía con catéter de {{c1::Fogarty}}; la trombosis, con trombolisis o bypass.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Isquemia",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.021"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La luxación de hombro es la más frecuente y en más del {{c1::95%}} es anterior.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Luxación de hombro",
+   "repaso": false,
+   "imagen": "biblioteca/12_traumatologia/trauma-04/23_luxacion-hombro-charretera__sherman_p542.jpg",
+   "codigos": [
+    "4.02.2.012"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La luxación anterior muestra brazo en abducción y rotación externa y el signo de la {{c1::charretera}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Luxación de hombro",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.012"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la radiografía de la luxación anterior la cabeza humeral queda {{c1::subcoracoidea}}.",
+   "extra": "Hill-Sachs en la cabeza humeral y Bankart en el rodete glenoideo.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Luxación de hombro",
+   "repaso": false,
+   "imagen": "biblioteca/12_traumatologia/trauma-04/24_luxacion-hombro-rx-ap__sherman_p542.jpg",
+   "codigos": [
+    "4.02.2.012"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La luxación {{c1::posterior}} de hombro es rara y se asocia a convulsiones y electrocución.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Luxación de hombro",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.012"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Luxación anterior de hombro: {{c1::reducción cerrada precoz}} y cabestrillo por 2-3 semanas.",
+   "extra": "Pregunta real: reducción ortopédica de inmediato.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Luxación de hombro",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 142"
+   ],
+   "codigos": [
+    "4.02.2.012"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En menores de 25 años la {{c1::recidiva}} de la luxación de hombro es muy frecuente: se deriva para evaluar estabilización quirúrgica.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Luxación de hombro",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.012"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Toda luxación es una {{c1::urgencia}}; se diagnostica, se evalúa el estado neurovascular, se inmoviliza y se deriva.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Luxaciones",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.003"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La luxación de codo (habitualmente posterior) se inmoviliza tras reducir con valva braquiopalmar a {{c1::90°}}.",
+   "extra": "Puede lesionar nervio cubital, mediano y arteria braquial.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Luxaciones",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.003"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La reducción se hace con tracción {{c1::suave y progresiva}} y radiografía previa y posterior.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Luxaciones",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.003"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El hueso inmaduro tiene fracturas en {{c1::tallo verde}}, en rodete (torus) y fisarias (Salter-Harris); la mayoría se trata ortopédicamente.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Niño",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-04/21_torus-radio-distal__sherman_p776.jpg",
+   "codigos": [
+    "2.01.2.009"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se sospecha maltrato en fractura de fémur en menores de {{c1::1 año}}, lactante que no camina o fracturas en distintas etapas de consolidación.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Niño",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.009"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fractura {{c1::supracondílea}} de húmero es la fractura de codo más frecuente en el niño de 5-8 años.",
+   "extra": "Se asocia a lesión de arteria braquial, nervio mediano y contractura de Volkmann.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Supracondílea",
+   "repaso": false,
+   "imagen": "biblioteca/12_traumatologia/trauma-04/22_supracondilea-rx-lateral__sherman_p770.jpg",
+   "codigos": [
+    "2.01.2.009"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La supracondílea es urgencia: no se fuerza la extensión y se {{c1::deriva de inmediato}} para reducción con clavos percutáneos.",
+   "extra": "Mala reducción: cúbito varo.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Supracondílea",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.009"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Parestesias nocturnas que mejoran al sacudir las manos con debilidad para tomar objetos: síndrome de {{c1::túnel carpiano}} (nervio mediano).",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real túnel carpiano",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 1",
+    "EUNACOM Agosto 2021 · Pregunta 102",
+    "EUNACOM Diciembre 2022 · Pregunta 175"
+   ],
+   "codigos": [
+    "2.01.2.009"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor y parestesias en dedos anular y meñique con debilidad de su flexión: atrapamiento del nervio {{c1::cubital}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real atrapamiento cubital",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 112",
+    "EUNACOM Julio 2015 · Pregunta 3"
+   ],
+   "codigos": [
+    "4.02.2.010",
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Caída sobre el hombro con leve desplazamiento superior del extremo distal de la clavícula: {{c1::luxación acromioclavicular}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul 2016",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 10"
+   ],
+   "codigos": [
+    "4.02.2.010",
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor intenso que no cede con analgesia horas después del yeso, con llene capilar lento: síndrome {{c1::compartimental}}.",
+   "extra": "",
+   "origen": "clase:16",
+   "fuente": "Clase · Quiz Dic 2022",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 52",
+    "EUNACOM Diciembre 2022 · Pregunta 131"
+   ],
+   "codigos": [
+    "4.02.2.012"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hematoma pulsátil en expansión, frémito y ausencia de pulsos distales: exploración quirúrgica vascular {{c1::inmediata}}.",
+   "extra": "",
+   "origen": "clase:17",
+   "fuente": "Clase · Quiz Perfil V3",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.021"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_traumatologia/trauma-04/23_luxacion-hombro-charretera__sherman_p542.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Luxación anterior de hombro",
+   "clave": "Hombro sin contorno redondo, brazo en abducción y rotación externa",
+   "conducta": "Evaluar nervio axilar y pulso, reducción cerrada precoz y cabestrillo 2-3 semanas",
+   "fuente": "Atlas of Clinical Emergency Medicine (Sherman), p. 542",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 142"
+   ],
+   "codigos": [
+    "4.02.2.012"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_traumatologia/trauma-04/22_supracondilea-rx-lateral__sherman_p770.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Fractura supracondílea de húmero en el niño",
+   "clave": "Desplazamiento posterior del fragmento distal en la radiografía lateral",
+   "conducta": "Urgencia: no forzar extensión, evaluar braquial y mediano, derivar para fijación percutánea",
+   "fuente": "Atlas of Clinical Emergency Medicine (Sherman), p. 770",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.009"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-04/21_torus-radio-distal__sherman_p776.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Fractura en rodete (torus) del radio distal",
+   "clave": "Compresión de la metáfisis con rodete cortical",
+   "conducta": "Valva, radiografías en dos proyecciones y tratamiento ortopédico",
+   "fuente": "Sherman, Atlas of Clinical Emergency Medicine, p. 776",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.009"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Déficit nervioso parcial: ¿conducta?",
+   "codigos": [
+    "4.02.2.010",
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1",
+   "pista": "Déficit nervioso total: ¿conducta?",
+   "codigos": [
+    "4.02.2.010",
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1",
+   "pista": "Hemorragia pulsátil: ¿qué haces primero?",
+   "codigos": [
+    "4.02.2.010",
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.2",
+   "pista": "Miembro pálido, frío y sin pulso: ¿conducta?",
+   "codigos": [
+    "4.02.2.010",
+    "4.02.2.001"
+   ]
+  }
+ ]
+}

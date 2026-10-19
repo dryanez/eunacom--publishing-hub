@@ -1,0 +1,493 @@
+{
+  "classId": "endo-08",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La tormenta tiroidea tiene una mortalidad histórica de {{c1::10 a 30%}} sin tratamiento precoz.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "¿Por qué?",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La tormenta tiroidea se distingue del hipertiroidismo no complicado por la {{c1::falla multiorgánica}}, no por el nivel de T4L o T3.",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Desencadenantes de la tormenta: {{c1::infecciones}}, cirugía sin preparación y abandono brusco de tionamidas.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Los gatillos",
+      "repaso": true,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Otros gatillos de la tormenta: contraste yodado o radioyodo sin cobertura, trauma, cetoacidosis, hipoglicemia y {{c1::parto}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Los gatillos",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La tormenta tiroidea sube la hormona libre porque caen las proteínas transportadoras y hay más receptores {{c1::beta}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Qué convierte un hipertiroidismo en tormenta?",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El diagnóstico de tormenta es {{c1::100% clínico}}; el error es esperar la T4L para tratar.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Burch-Wartofsky: {{c1::45 o más}} puntos hacen la tormenta altamente probable (UCI y rescate inmediato).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Escala de Burch-Wartofsky",
+      "repaso": true,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Burch-Wartofsky de {{c1::25 a 44}} puntos: tormenta inminente.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Escala de Burch-Wartofsky",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Burch-Wartofsky menor de {{c1::25}} puntos: tormenta improbable.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Escala de Burch-Wartofsky",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En Burch-Wartofsky, el evento precipitante identificado suma {{c1::10}} puntos.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Qué suma puntos",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En Burch-Wartofsky la temperatura suma de 5 a {{c1::30}} puntos; 30 si es 40 °C o más.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Qué suma puntos",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En Burch-Wartofsky, coma o convulsiones suman {{c1::30}} puntos en el SNC.",
+      "extra": "Agitación 10, delirio 20.",
+      "origen": "clase:4",
+      "fuente": "Clase · Qué suma puntos",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En Burch-Wartofsky la frecuencia cardíaca de {{c1::140 o más}} suma 25 puntos.",
+      "extra": "Fibrilación auricular suma 10.",
+      "origen": "clase:4",
+      "fuente": "Clase · Qué suma puntos",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En Burch-Wartofsky la ictericia inexplicada suma {{c1::20}} puntos en el dominio digestivo.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Qué suma puntos",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los cuatro pilares del tratamiento: betabloqueo, {{c1::PTU}}, Lugol e hidrocortisona.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Pilar 1: propranolol {{c1::60 a 80 mg}} cada 4 a 6 horas oral o por sonda.",
+      "extra": "O 1 a 2 mg EV lento.",
+      "origen": "clase:6",
+      "fuente": "Clase · Pilares 1 y 2",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El propranolol sobre 160 mg/día inhibe además la {{c1::desyodasa periférica}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Pilares 1 y 2",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tormenta con broncoespasmo severo: en vez de propranolol, {{c1::esmolol o diltiazem}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Pilares 1 y 2",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Pilar 2: PTU con carga de {{c1::500 a 1000 mg}} y luego 200 a 250 mg cada 4 horas.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Pilares 1 y 2",
+      "repaso": true,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la tormenta se prefiere {{c1::PTU}} sobre tiamazol porque bloquea también la conversión de T4 a T3.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Pilar 3: Lugol {{c1::8-10 gotas}} cada 8 horas o SSKI 5 gotas cada 6 horas.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Pilares",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.001",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El Lugol se da al menos {{c1::1 hora después}} del PTU; si se da antes, el yodo es sustrato (Jod-Basedow).",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El yodo inorgánico tras el PTU frena la liberación hormonal por el efecto {{c1::Wolff-Chaikoff}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Primero el PTU",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Pilar 4: hidrocortisona {{c1::100 mg EV cada 8 horas}} (o dexametasona 2 mg EV cada 6 horas).",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Hidrocortisona",
+      "repaso": true,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hidrocortisona se da por {{c1::insuficiencia suprarrenal relativa}} y porque frena la conversión de T4 a T3.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Hidrocortisona",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antipirético de elección en la tormenta: {{c1::paracetamol 1 g cada 6 horas}} más enfriamiento físico.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Fiebre, fluidos y aspirina",
+      "repaso": true,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Fiebre en la tormenta tiroidea: el error es la {{c1::aspirina}}, que desplaza T4 y T3 de la TBG.",
+      "extra": "Sube la fracción libre y puede precipitar el colapso.",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fluidos en la tormenta: {{c1::suero glucosado 5% más fisiológico}}.",
+      "extra": "Hay deshidratación y glucógeno hepático agotado.",
+      "origen": "clase:9",
+      "fuente": "Clase · Fiebre, fluidos y aspirina",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La tormenta obliga a buscar el desencadenante con cultivos y radiografía; el error es {{c1::tratar solo la tiroides}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer de 46 años con neumonía, FA 152 y Burch-Wartofsky 75: UCI, tratamiento multimodal y {{c1::antibióticos}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tormenta refractaria a las 24 a 48 horas: {{c1::plasmaféresis}} o tiroidectomía de salvataje.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Desencadenante y rescate",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer de 35 años con exoftalmo bilateral, bocio difuso y TSH suprimida: {{c1::enfermedad de Graves-Basedow}}.",
+      "extra": "",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz Julio 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 149"
+      ],
+      "codigos": [
+        "1.03.2.001",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tirotoxicosis sin bocio ni exoftalmo: la causa se define con {{c1::cintigrafía tiroidea}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "Banco de preguntas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 35"
+      ],
+      "codigos": [
+        "1.03.2.001",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ojo rojo con temblor, baja de peso y retracción palpebral: pedir {{c1::TSH y T4 libre}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "Banco de preguntas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 145"
+      ],
+      "codigos": [
+        "1.03.2.001"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.2",
+      "pista": "Burch-Wartofsky ≥ 45: ¿dónde y cómo tratas?",
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.2.1",
+      "pista": "¿Cuándo se da el Lugol?",
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2.2",
+      "pista": "Medidas paralelas: ¿antipirético y qué fármaco prohibido?",
+      "codigos": [
+        "1.03.2.001"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.2.3",
+      "pista": "Sin respuesta a 24-48 h: ¿qué haces?",
+      "codigos": [
+        "1.03.2.001"
+      ]
+    }
+  ]
+}

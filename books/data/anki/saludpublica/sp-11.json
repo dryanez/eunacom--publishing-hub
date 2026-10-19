@@ -1,0 +1,461 @@
+{
+  "classId": "sp-11",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los cuatro principios de la bioética de Beauchamp y Childress son autonomía, beneficencia, no maleficencia y {{c1::justicia}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El principio que respeta la capacidad de autodeterminación de la persona competente es la {{c1::autonomía}}.",
+      "extra": "Se operacionaliza con el consentimiento informado y el rechazo de tratamiento.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Principios",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "\"Primum non nocere\" corresponde al principio de {{c1::no maleficencia}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Principios",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Entre beneficencia y no maleficencia, tiene prioridad jerárquica la {{c1::no maleficencia}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Marco de Beauchamp y Childress",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El deber de procurar el mayor bien al paciente, balanceando beneficios y riesgos, es la {{c1::beneficencia}}.",
+      "extra": "Su límite: no caer en el paternalismo.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de principios",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La distribución equitativa de recursos sanitarios escasos, sin discriminación arbitraria, es el principio de {{c1::justicia}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Principios",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El consentimiento informado es un proceso {{c1::dialógico continuo}}, no una firma de papel.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Consentimiento",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los cuatro elementos de validez del consentimiento son información, comprensión, voluntariedad y {{c1::capacidad (competencia)}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Consentimiento",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La ley chilena de deberes y derechos de los pacientes que regula el consentimiento y el rechazo de tratamiento es la Ley {{c1::20.584}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Consentimiento",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primera excepción al consentimiento informado (Ley 20.584): la {{c1::urgencia médica vital}}.",
+      "extra": "Riesgo inminente de muerte o secuela grave en un paciente incapaz y sin representante a tiempo.",
+      "origen": "clase:2",
+      "fuente": "Clase · Consentimiento informado",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un adulto lúcido, informado y capaz que rechaza una transfusión: el médico debe {{c1::respetar su decisión}}.",
+      "extra": "Prevalece la autonomía, incluso con riesgo de muerte.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de principios",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante un adulto testigo de Jehová lúcido que rechaza transfundirse, es error {{c1::sedarlo o forzar el tratamiento}}.",
+      "extra": "Constituye una agresión y vulnera sus derechos.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Rechazo de tratamiento",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cuando un adulto competente rechaza un tratamiento se debe dejar {{c1::constancia escrita y firmada}} en la ficha clínica.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Rechazo de tratamiento",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Al respetar el rechazo de transfusión, igual se deben ofrecer {{c1::alternativas médicas}} (expansores, ácido tranexámico, recuperadores).",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Rechazo de tratamiento",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un niño en riesgo vital cuyos padres rechazan la transfusión: se debe {{c1::transfundir de inmediato}}.",
+      "extra": "Los padres no tienen derecho absoluto sobre la vida del hijo.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el menor con riesgo vital, la autonomía de los padres se subordina a la {{c1::no maleficencia y el derecho a la vida}} del niño.",
+      "extra": "Interés superior del niño.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Menor de edad",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras tratar al niño testigo de Jehová, se interpone una {{c1::medida de protección}} ante el Tribunal de Familia.",
+      "extra": "Después de transfundir, no antes.",
+      "origen": "libro:caso",
+      "fuente": "Libro · caso clínico",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante un niño con hemorragia crítica y padres que se oponen, es error {{c1::esperar una orden judicial o al comité de ética}}.",
+      "extra": "La urgencia vital no se demora.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un adulto inconsciente en urgencia vital se trata de inmediato por {{c1::consentimiento presunto}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El principio del doble efecto justifica opioides a dosis crecientes en dolor refractario de {{c1::fase terminal (agonía)}}.",
+      "extra": "Aunque pueda deprimir la respiración o acortar la vida.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Doble efecto",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el doble efecto, la intención exclusiva del médico es {{c1::aliviar el dolor}}, nunca provocar la muerte.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Doble efecto",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el doble efecto, el efecto positivo {{c1::no debe obtenerse a través}} del efecto negativo (la muerte).",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Doble efecto",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La sedación paliativa con morfina y midazolam en agonía NO es {{c1::eutanasia}}.",
+      "extra": "En la eutanasia la intención es provocar la muerte.",
+      "origen": "clase:4",
+      "fuente": "Clase · Doble efecto",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los Comités de Ética Asistencial (CEA) son órganos multidisciplinarios {{c1::consultivos y no vinculantes}}.",
+      "extra": "La decisión final es del médico tratante.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El CEA {{c1::nunca demora}} una urgencia vital: la reanimación urgente prima.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · CEA",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El CEA se convoca en casos de desacuerdo grave, como la {{c1::futilidad terapéutica}} o la discrepancia familiar.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · CEA",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el modelo de relación médico-paciente de Emanuel, el médico que decide lo mejor sin preguntar es el modelo {{c1::paternalista}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Modelos de relación",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.013"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La Ley 20.584 y el MAIS adoptan un modelo {{c1::centrado en la persona, con decisiones compartidas}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Relación médico-paciente",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.013"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Un familiar pide información de un adulto competente: solo se entrega {{c1::si el paciente lo autoriza}}.",
+      "extra": "El error es entregarla por ser familiar.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.013"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El protocolo para dar malas noticias es {{c1::SPIKES}}.",
+      "extra": "Entorno, percepción, invitación, conocimiento, emociones, estrategia.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Comunicación",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.013"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cuerpo normativo que regula el ejercicio de la profesión médica en Chile es el {{c1::Código Sanitario}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Julio 2024 · Pregunta 167",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.052"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 167"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un anestesista que usa tres pabellones simultáneos como práctica habitual incurre en {{c1::imprudencia}}.",
+      "extra": "Acciones temerarias que aumentan innecesariamente el riesgo. La impericia es falta de conocimientos o habilidades.",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Julio 2024 · Preguntas 63 y 64",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.052"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 64",
+        "EUNACOM Julio 2024 · Pregunta 63"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En un estudio con adolescentes de 16 años de colegios públicos, firma el consentimiento informado {{c1::el apoderado}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Julio 2024 · Pregunta 46",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.056"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 46"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Adulto lúcido y capaz que rechaza: ¿qué haces?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1.0",
+      "pista": "Menor con riesgo vital y padres que rechazan: ¿conducta?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.1",
+      "pista": "Dolor refractario en fase terminal: ¿qué principio?"
+    }
+  ]
+}

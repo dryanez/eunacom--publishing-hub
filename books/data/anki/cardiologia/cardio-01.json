@@ -1,0 +1,562 @@
+{
+ "classId": "cardio-01",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El ECG se interpreta siempre con la misma rutina de {{c1::5 pasos}}: frecuencia, ritmo, eje, intervalos y segmento ST-T-Q.",
+   "extra": "Evita saltar al infarto llamativo y omitir un QT largo o una preexcitación.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El egresado debe tomar una decisión a partir del ECG en menos de {{c1::10 minutos}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Importancia del ECG",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El papel del ECG corre a {{c1::25 mm por segundo}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · El papel y las equivalencias",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el papel del ECG, 1 mm equivale a {{c1::0,04 s}} y 5 mm a {{c2::0,2 s}}.",
+   "extra": "Con esto se mide todo: PR de 5 mm = 200 ms; QRS de 3 mm = 120 ms.",
+   "origen": "clase:2",
+   "fuente": "Clase · El papel y las equivalencias",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La calibración estándar del ECG es de {{c1::10 mm por mV}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · El papel y las equivalencias",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las 12 derivaciones son 6 del plano frontal y {{c1::6 precordiales (V1 a V6)}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Las derivaciones",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Con los electrodos de brazos y piernas invertidos aparecen {{c1::P y QRS negativos en DI}} y una falsa desviación del eje.",
+   "extra": "Error clásico de toma del examen.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cómo se toma",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la anatomía del latido, la onda P es la despolarización {{c1::auricular}} y el QRS la despolarización {{c2::ventricular}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Anatomía del latido",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El intervalo PR representa el {{c1::retraso fisiológico en el nodo AV}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Del nodo sinusal al ventrículo",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En un ritmo regular, la regla de los 300 da: 1 cuadro grande = 300 lpm, 2 = 150, 3 = {{c1::100}} lpm, 4 = {{c2::75}} lpm.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Frecuencia y ritmo",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En un ritmo irregular (p. ej. FA) la frecuencia se estima contando los QRS en {{c1::6 segundos}} y multiplicando por {{c2::10}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Frecuencia y ritmo",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Taquicardia es una FC mayor de {{c1::100 lpm}} y bradicardia, menor de {{c2::60 lpm}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Frecuencia y ritmo",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el ritmo sinusal la onda P es positiva en {{c1::DII, DIII y aVF}} y negativa en {{c2::aVR}}.",
+   "extra": "Una P negativa en DII indica ritmo auricular bajo, ectópico o electrodos invertidos.",
+   "origen": "clase:4",
+   "fuente": "Clase · Frecuencia y ritmo",
+   "repaso": true,
+   "preguntaReal": [],
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Una onda P negativa en DII con positiva en aVR {{c1::descarta}} el ritmo sinusal.",
+   "extra": "Error típico: llamarlo sinusal solo por la frecuencia.",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Para certificar ritmo sinusal toda P debe ir seguida de un QRS y los intervalos {{c1::P-P y R-R}} deben ser constantes.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Frecuencia y ritmo",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El eje normal del QRS está entre {{c1::−30° y +90°}}, con DI y aVF positivos.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · El eje del QRS",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con DI positivo y aVF negativo se mira DII: si es negativo hay desviación del eje a la {{c1::izquierda}}.",
+   "extra": "Sugiere HBAI, HVI o infarto inferior antiguo.",
+   "origen": "clase:5",
+   "fuente": "Clase · El eje del QRS",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "DI negativo y aVF positivo indican desviación del eje a la {{c1::derecha}}: TEP, EPOC o HBPI.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · El eje del QRS",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El intervalo PR normal va de {{c1::120 a 200 ms}}; mayor de 200 ms constante es {{c2::bloqueo AV de 1.er grado}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de intervalos",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un PR menor de 120 ms con onda delta define el síndrome de {{c1::preexcitación (Wolff-Parkinson-White)}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de intervalos",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Ante un PR de 280 ms constante (BAV de 1.er grado), el error es {{c1::indicar marcapaso}}.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Un QRS de {{c1::120 ms o más}} define bloqueo completo de rama o latido de origen ventricular.",
+   "extra": "Normal: menor de 120 ms (< 3 mm).",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de intervalos",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El QTc de Bazett es normal si es menor de {{c1::440 ms}} en el hombre y de {{c2::460 ms}} en la mujer.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de intervalos",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Un QTc mayor de {{c1::500 ms}} implica riesgo inminente de torsión de puntas.",
+   "extra": "Suspender el fármaco y corregir K, Mg y Ca.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Con QTc de 581 ms en tratamiento con claritromicina, el error clásico es {{c1::dar amiodarona}}.",
+   "extra": "Amiodarona también alarga el QT.",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ante una taquicardia, en vez de Bazett se prefiere la corrección de {{c1::Fridericia}}.",
+   "extra": "Bazett sobrecorrige con frecuencias altas.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Paso 4",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El supradesnivel del ST en derivaciones contiguas indica lesión {{c1::transmural}} (SCACEST): se debe reperfundir.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · ST, onda T y onda Q",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Una onda Q patológica dura {{c1::40 ms o más}} o supera el 25% de la R; no cuentan la Q de DIII ni de aVR.",
+   "extra": "Indica necrosis establecida.",
+   "origen": "clase:7",
+   "fuente": "Clase · ST, onda T y onda Q",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la hiperkalemia la primera alteración son las ondas T {{c1::altas, simétricas y en tienda de campaña}}.",
+   "extra": "Luego P plana, PR largo, QRS ancho y onda sinusoidal.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Electrolitos",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Hiperkalemia con QRS ancho o arritmia: se indica de inmediato {{c1::gluconato de calcio endovenoso}}.",
+   "extra": "Estabiliza la membrana; después insulina con glucosa. No atropina ni marcapaso primero.",
+   "origen": "clase:8",
+   "fuente": "Clase · Electrolitos",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hipokalemia se manifiesta con T aplanada y {{c1::onda U prominente}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Electrolitos",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Calcio bajo produce QT {{c1::largo}}; calcio alto produce QT {{c2::corto}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Otras firmas",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La intoxicación digitálica produce ST en {{c1::cubeta}}.",
+   "extra": "También extrasístoles ventriculares y bloqueos.",
+   "origen": "clase:8",
+   "fuente": "Clase · Otras firmas",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La pericarditis aguda muestra supradesnivel del ST {{c1::difuso y cóncavo}} con infradesnivel del PR.",
+   "extra": "Sin imagen especular.",
+   "origen": "clase:8",
+   "fuente": "Clase · Otras firmas",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El hallazgo ECG más frecuente del tromboembolismo pulmonar es la {{c1::taquicardia sinusal}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Otras firmas",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Índice de Sokolow-Lyon: S en V1 + R en V5 o V6 ≥ {{c1::35 mm}} indica HVI.",
+   "extra": "Hipertenso con HVI = alto riesgo cardiovascular.",
+   "origen": "clase:9",
+   "fuente": "Clase · Sokolow-Lyon y Cornell",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Índice de Cornell (R en aVL + S en V3): HVI si es mayor de {{c1::28 mm}} en hombres y de {{c2::20 mm}} en mujeres.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Sokolow-Lyon y Cornell",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Hombre hipertenso con S en V1 19 mm y R en V5 23 mm (Sokolow 42 mm): el error es {{c1::tratarlo como ECG normal}}.",
+   "extra": "Es HVI: intensificar el tratamiento antihipertensivo.",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ante un síncope, el primer examen es el {{c1::electrocardiograma}}; el Holter y el ecocardiograma vienen después.",
+   "extra": "Síncope con FC 40: error típico pedir TAC de cerebro.",
+   "origen": "clase:13",
+   "fuente": "Clase · Quiz Julio 2024 P180",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 180",
+    "EUNACOM Diciembre 2024 · Pregunta 62"
+   ],
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un ECG inicial normal {{c1::no descarta}} un síndrome coronario agudo: se repite cada 15 a 30 minutos y se mide troponina.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Conducta práctica",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-01/01_conduccion-normal-p-qrs-t-pr-160ms__stroobandt-ecg_p228.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Latido normal: P, QRS y T",
+   "clave": "Onda P, QRS y T con PR de 160 ms (normal 120 a 200 ms)",
+   "conducta": "Medir con el papel a 25 mm/s: 1 mm = 0,04 s",
+   "fuente": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials, p. 228",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "PR, QRS o QTc anormales: ¿qué entidades?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1",
+   "pista": "Tras frecuencia, ritmo, eje e intervalos: ¿qué se busca?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.0",
+   "pista": "Voltaje aumentado: ¿qué criterio y diagnóstico?"
+  }
+ ]
+}

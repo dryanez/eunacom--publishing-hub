@@ -1,0 +1,742 @@
+{
+ "classId": "cardio-14",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El SCACEST se debe a un trombo oclusivo {{c1::total}} (trombo rojo, rico en fibrina y hematíes).",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Una arteria cerrada",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La necrosis avanza en frente de onda del subendocardio al subepicardio en las primeras {{c1::6 horas}}.",
+   "extra": "Tiempo es músculo.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el SCACEST el diagnóstico es clínica + ECG: el error es {{c1::esperar la troponina}} para reperfundir.",
+   "extra": "",
+   "origen": "clase:15",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El infarto atípico (sin dolor) se ve en el adulto mayor, la mujer y el {{c1::diabético}}: disnea, síncope, confusión o epigastralgia.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · El dolor que no se pasa",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Infarto tras inhalar cocaína: el fármaco contraindicado es el {{c1::betabloqueador (atenolol)}}; se usan benzodiacepinas y nitratos.",
+   "extra": "",
+   "origen": "clase:15",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 44"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El ECG se interpreta en ≤ {{c1::10 minutos}}; si no es diagnóstico y el dolor persiste, se repite cada 15 a 30 minutos.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Diagnóstico electrocardiográfico",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Supradesnivel del ST en ≥ 2 derivaciones contiguas: ≥ {{c1::1 mm}} en todas salvo V2-V3.",
+   "extra": "Medido en el punto J.",
+   "origen": "clase:3",
+   "fuente": "Clase · Diagnóstico electrocardiográfico",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En V2-V3 el supradesnivel debe ser ≥ {{c1::2 mm}} en el hombre ≥ 40 años, ≥ 2,5 mm en el hombre < 40 años y ≥ {{c2::1,5 mm}} en la mujer.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Diagnóstico electrocardiográfico",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El BCRI nuevo con clínica de infarto es equivalente de SCACEST y se confirma con los criterios de {{c1::Sgarbossa}}.",
+   "extra": "También sirven en ritmo de marcapaso.",
+   "origen": "clase:3",
+   "fuente": "Clase · Diagnóstico electrocardiográfico",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 55",
+    "EUNACOM Julio 2019 · Pregunta 3"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Infradesnivel de V1-V3 con R altas y T positivas es un infarto {{c1::posterior}}; se confirma con V7-V9 (supradesnivel ≥ 0,5 mm).",
+   "extra": "Se trata como SCACEST.",
+   "origen": "clase:3",
+   "fuente": "Clase · Diagnóstico electrocardiográfico",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Infradesnivel difuso con supradesnivel en aVR sugiere lesión del {{c1::tronco}} o enfermedad de tres vasos: coronariografía urgente.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Diagnóstico electrocardiográfico",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Secuencia ECG del infarto: T hiperagudas, supradesnivel convexo, onda Q de necrosis (≥ {{c1::40 ms}}) a las 6-12 horas.",
+   "extra": "Supradesnivel > 4 semanas sugiere aneurisma ventricular.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Evolución",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La imagen {{c1::especular}} (infradesnivel en derivaciones opuestas) separa el infarto de la pericarditis.",
+   "extra": "Pericarditis: ST cóncavo, difuso, PR descendido, sin especular.",
+   "origen": "clase:5",
+   "fuente": "Clase · Qué pared, qué arteria",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "V1-V4 con supradesnivel: pared anterior y septal, arteria {{c1::descendente anterior}}; especular en DIII y aVF.",
+   "extra": "",
+   "origen": "foto",
+   "imagen": "biblioteca/20_cardiologia/cardio-14/01_iam-anterior-sdst-v1-v5-especular-inferior__stroobandt-ecg_p178.jpg",
+   "fuente": "Clase · Territorios (Stroobandt p. 178)",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Supradesnivel de V1-V6 con DI y aVL: infarto anterior extenso por oclusión proximal de la {{c1::DA}}, el de peor pronóstico.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Qué pared, qué arteria",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "DI, aVL, V5-V6: pared lateral, arteria {{c1::circunfleja}} o rama diagonal.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Qué pared, qué arteria",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "DII, DIII y aVF: infarto inferior, coronaria {{c1::derecha}} en el 80-90% (DIII > DII, especular en DI y aVL).",
+   "extra": "",
+   "origen": "foto",
+   "imagen": "biblioteca/20_cardiologia/cardio-14/02_iam-inferior-sdst-ii-iii-avf-especular-i-avl__stroobandt-ecg_p169.jpg",
+   "fuente": "Clase · Territorios (Stroobandt p. 169)",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2018 · Pregunta 42",
+    "EUNACOM Julio 2017 · Pregunta 60",
+    "EUNACOM Diciembre 2024 · Pregunta 157"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Todo infarto inferior exige las derivaciones derechas {{c1::V3R y V4R}}.",
+   "extra": "Supra ≥ 1 mm en V4R confirma infarto del VD.",
+   "origen": "clase:6",
+   "fuente": "Clase · Siempre mirar el VD",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Infarto del VD (hipotensión, yugulares, pulmones limpios): se da {{c1::volumen}}; están contraindicados nitratos, diuréticos y morfina.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Siempre mirar el VD",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El infarto inferior se asocia a bradicardia y BAV habitualmente {{c1::transitorios}}, porque la coronaria derecha irriga el nodo AV.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Killip y arritmias",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Todo SCACEST con menos de {{c1::12 horas}} de síntomas debe reperfundirse.",
+   "extra": "Entre 12 y 48 h se reperfunde si persiste dolor, inestabilidad o arritmias.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Reperfusión",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Regla de los 120 minutos: si la angioplastía primaria es posible en ≤ {{c1::120 minutos}} desde el diagnóstico, se deriva a hemodinamia.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · La regla de los 120 minutos",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 96"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Meta GES de tiempo puerta-balón ≤ {{c1::90 minutos}} (≤ 60 si consulta directo en hospital con hemodinamia).",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Metas de tiempo",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "Si la angioplastía demora más de 120 minutos: fibrinólisis con meta puerta-aguja ≤ {{c1::30 minutos}} y luego traslado.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Metas de tiempo (GES)",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.009"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Hemodinamia a más de 120 minutos: el error es {{c1::esperar el traslado sin fibrinolizar}}.",
+   "extra": "",
+   "origen": "clase:15",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.009"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En shock cardiogénico o con fibrinólisis contraindicada se hace angioplastía {{c1::sin importar el tiempo}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · La regla de los 120 minutos",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Fibrinolítico de elección: {{c1::tenecteplase}} en bolo único ajustado por peso.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tenecteplase",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.009"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tenecteplase: < 60 kg 30 mg; 70-79 kg {{c1::40 mg}}; ≥ 90 kg 50 mg.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tenecteplase",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.009"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En mayores de 75 años el tenecteplase se usa a {{c1::la mitad}} de la dosis.",
+   "extra": "Menos hemorragia intracraneal.",
+   "origen": "clase:8",
+   "fuente": "Clase · Tenecteplase",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.009"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "La estreptoquinasa se da 1,5 millones UI en 30-60 min; no es fibrinoespecífica y {{c1::no se repite}} (hipotensión, alergia).",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tenecteplase",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.009"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Contraindicaciones absolutas de fibrinólisis: ACV hemorrágico previo, ACV isquémico en {{c1::6 meses}}, MAV o tumor intracraneal.",
+   "extra": "Entonces angioplastía aunque tarde.",
+   "origen": "clase:8",
+   "fuente": "Clase · Tenecteplase",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.009"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "También contraindican la fibrinólisis: TEC, cirugía mayor o sangrado digestivo en el último {{c1::mes}}, y sospecha de disección aórtica.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tenecteplase",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.009"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Reperfusión exitosa a los 60-90 minutos: descenso del ST > {{c1::50%}}, alivio del dolor y RIVA.",
+   "extra": "El RIVA es benigno y no se trata.",
+   "origen": "clase:9",
+   "fuente": "Clase · ¿Funcionó?",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.009"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras fibrinólisis exitosa: coronariografía en {{c1::2 a 24 horas}} (estrategia farmacoinvasiva).",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · ¿Funcionó?",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.009"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Si el ST baja < 50% o persiste el dolor a los 90 minutos: {{c1::angioplastía de rescate}} inmediata; no repetir la fibrinólisis.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · ¿Funcionó?",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.009"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Aspirina en el SCACEST: {{c1::250 mg}} masticada y luego 100 mg/día de por vida.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tratamiento coadyuvante",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Con angioplastía primaria el P2Y12 de primera línea es {{c1::ticagrelor 180 mg}} (o prasugrel 60 mg).",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tratamiento coadyuvante",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Con fibrinólisis se usa clopidogrel {{c1::300 mg}} de carga (75 mg sin carga si ≥ 75 años).",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tratamiento coadyuvante",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.009"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 11"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Con fibrinólisis, enoxaparina: bolo EV {{c1::30 mg}} y 1 mg/kg SC cada 12 h (en > 75 años sin bolo y 0,75 mg/kg).",
+   "extra": "En angioplastía primaria: heparina no fraccionada.",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Coadyuvante",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.009"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Oxígeno solo si SatO₂ < {{c1::90%}}; morfina solo si el dolor no cede (retrasa absorción de antiagregantes).",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tratamiento coadyuvante",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La nitroglicerina está contraindicada en infarto del VD, con PAS < 90 y tras {{c1::sildenafil (24 h) o tadalafil (48 h)}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tratamiento coadyuvante",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 145"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Atorvastatina {{c1::80 mg}} en las primeras 24 horas, sin importar el colesterol basal.",
+   "extra": "Evitar AINE: reinfarto y rotura cardíaca.",
+   "origen": "clase:10",
+   "fuente": "Clase · Tratamiento coadyuvante",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "IECA en las primeras 24 h si FEVI ≤ 40%, IC, diabetes o infarto {{c1::anterior}}.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Coadyuvante",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Killip IV es shock cardiogénico, principal causa de muerte intrahospitalaria; se trata con {{c1::angioplastía urgente}}.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Killip y arritmias",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La principal causa de muerte prehospitalaria en el infarto es la {{c1::fibrilación ventricular}}.",
+   "extra": "Principal complicación del infarto inferior: arritmias ventriculares.",
+   "origen": "clase:11",
+   "fuente": "Clase · Killip y arritmias",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2018 · Pregunta 42"
+   ]
+  },
+  {
+   "id": "c46",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las complicaciones mecánicas (rotura de músculo papilar, CIV, rotura de pared libre) aparecen entre los días {{c1::3 y 7}}.",
+   "extra": "",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Complicaciones",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 125"
+   ]
+  },
+  {
+   "id": "c47",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "El infarto agudo del miocardio es el GES N.º {{c1::5}}: ECG ≤ 10 min, fibrinólisis ≤ 30 min, angioplastía ≤ 90 min.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Metas de tiempo (GES)",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c48",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Prevención secundaria al alta: aspirina de por vida, P2Y12 por {{c1::12 meses}}, atorvastatina 80 mg, betabloqueador e IECA.",
+   "extra": "Betabloqueador obligatorio si FEVI < 40%; DAI si FEVI ≤ 35% persistente.",
+   "origen": "clase:12",
+   "fuente": "Clase · Al alta",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c49",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Infarto con supradesnivel, dolor típico y menos de 12 horas: la conducta es {{c1::reperfusión}} (angioplastía o fibrinólisis).",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul. 2025 P52 / Jul. 2015 P60",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 52",
+    "EUNACOM Julio 2015 · Pregunta 60",
+    "EUNACOM Julio 2017 · Pregunta 46",
+    "EUNACOM Julio 2024 · Pregunta 87"
+   ],
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c50",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hombre de 56 años en SAPU, SDST inferior, hemodinamia a 3 horas, 74 kg: tenecteplase {{c1::40 mg}} en ≤ 30 minutos y traslado.",
+   "extra": "Más aspirina 250 mg, clopidogrel 300 mg y enoxaparina.",
+   "origen": "libro:caso",
+   "fuente": "Libro · Caso clínico",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.009"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-14/01_iam-anterior-sdst-v1-v5-especular-inferior__stroobandt-ecg_p178.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "IAM anterior con supradesnivel del ST de V1 a V5",
+   "clave": "ST sube de V1 a V5, con imagen especular en las derivaciones inferiores",
+   "conducta": "Reperfusión inmediata: angioplastía si es posible en ≤ 120 min, si no tenecteplase",
+   "fuente": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials, p. 178",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-14/02_iam-inferior-sdst-ii-iii-avf-especular-i-avl__stroobandt-ecg_p169.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "IAM inferior con supradesnivel en DII, DIII y aVF",
+   "clave": "ST mayor en DIII que en DII, con infradesnivel en DI y aVL: coronaria derecha",
+   "conducta": "Pedir V3R-V4R, reperfundir; si hay VD: volumen y sin nitratos",
+   "fuente": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials, p. 169",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.1",
+   "pista": "SDST o BCRI nuevo: ¿qué se inicia de inmediato?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "Angioplastía posible en ≤ 120 min: ¿estrategia y meta?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.2",
+   "pista": "Hemodinamia a más de 120 min: ¿qué haces?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.2.1",
+   "pista": "ST no baja a los 90 min tras la fibrinólisis: ¿qué sigue?"
+  }
+ ]
+}

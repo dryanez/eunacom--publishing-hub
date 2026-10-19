@@ -1,0 +1,485 @@
+{
+  "classId": "endo-19",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La vitamina D3 (colecalciferol) se sintetiza en la piel desde el {{c1::7-dehidrocolesterol}} por radiación UV-B.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Síntesis",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La radiación solar UV-B aporta el {{c1::80-90%}} de la vitamina D corporal.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · De la piel al calcitriol",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El hígado hidroxila la vitamina D a {{c1::25(OH)D (calcidiol)}} y el riñón, con la 1-alfa-hidroxilasa, a calcitriol.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · De la piel al calcitriol",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El examen para evaluar las reservas de vitamina D es la {{c1::25-hidroxivitamina D}} sérica.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Para evaluar reservas de vitamina D, el error es pedir {{c1::calcitriol (1,25(OH)2D)}}.",
+      "extra": "Puede estar normal o alto por la PTH elevada.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La vida media de la 25(OH)D es de {{c1::2-3 semanas}}, frente a 4-6 horas del calcitriol.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Por qué 25(OH)D",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Deficiencia de vitamina D: 25(OH)D menor de {{c1::20 ng/mL}}.",
+      "extra": "Equivale a 50 nmol/L.",
+      "origen": "clase:3",
+      "fuente": "Clase · Interpretación",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Insuficiencia de vitamina D: 25(OH)D de {{c1::20 a 29 ng/mL}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Interpretación",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Suficiencia de vitamina D: 25(OH)D de {{c1::30 a 50 ng/mL}}.",
+      "extra": "Meta en el adulto mayor.",
+      "origen": "clase:3",
+      "fuente": "Clase · Interpretación",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Deficiencia severa de vitamina D: 25(OH)D menor de {{c1::10-12 ng/mL}}.",
+      "extra": "Riesgo de osteomalacia y miopatía.",
+      "origen": "clase:3",
+      "fuente": "Clase · Interpretación",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Toxicidad por vitamina D: 25(OH)D mayor de {{c1::100-150 ng/mL}}.",
+      "extra": "Hipercalcemia, hipercalciuria y nefrocalcinosis.",
+      "origen": "clase:3",
+      "fuente": "Clase · Interpretación",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El déficit severo y prolongado causa {{c1::osteomalacia}} en el adulto y {{c2::raquitismo}} en el niño en crecimiento.",
+      "extra": "Defecto de mineralización de la matriz osteoide.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Osteomalacia: dolor óseo sordo en pelvis, columna y costillas y {{c1::miopatía proximal}} con marcha de pato.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El perfil de la osteomalacia es calcio normal-bajo, fósforo {{c1::bajo}}, fosfatasas alcalinas {{c2::altas}} y PTH alta.",
+      "extra": "",
+      "origen": "clase:18",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El hiperparatiroidismo secundario al déficit de vitamina D produce {{c1::fosfaturia}} y por eso el fósforo está bajo.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Del déficit a la osteomalacia",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las líneas de {{c1::Looser-Milkman}} (seudofracturas) son patognomónicas de osteomalacia.",
+      "extra": "Bandas radiolúcidas perpendiculares a la cortical en cuello femoral, pubis, escápula y costillas.",
+      "origen": "clase:5",
+      "fuente": "Clase · Clínica",
+      "repaso": true,
+      "imagen": "biblioteca/05_endocrinologia/endo-19/04_looser_milkman__commons.jpg",
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En Paget óseo la fosfatasa alcalina está {{c1::masivamente elevada}} (más de 5 veces) con calcio, fósforo y PTH normales.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla bioquímica",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En osteoporosis primaria calcio, fósforo, fosfatasa alcalina y PTH son {{c1::normales}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla bioquímica",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Dolor óseo, miopatía, FA alta y fósforo bajo es osteomalacia; el error es llamarlo {{c1::osteoporosis}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "PTH alta con calcio normal o bajo: se mide 25(OH)D; el error es llamarlo {{c1::hiperparatiroidismo primario}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Deficiencia (< 20 ng/mL): colecalciferol {{c1::50.000 UI semanal}} por 8 semanas.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Reposición",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Esquema diario alternativo de carga: colecalciferol {{c1::6.000 UI/día}} por 8 semanas.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Reposición",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tras la carga, mantención con colecalciferol {{c1::1.000-2.000 UI/día}} más calcio elemental 1.000 mg/día.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Reposición",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Insuficiencia (20-29 ng/mL): sin carga, colecalciferol {{c1::1.000-2.000 UI/día}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Reposición",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En deficiencia con 25(OH)D menor de 20 ng/mL, el error es dar {{c1::dosis de mantención de entrada}} en vez de la carga.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En osteomalacia no corregida están contraindicados los {{c1::bifosfonatos}}: primero vitamina D y calcio.",
+      "extra": "Empeoran la desmineralización.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se controla la 25(OH)D a los {{c1::3-4 meses}} de iniciada la carga, con calcemia y fosfemia.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Reposición",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adulto mayor institucionalizado sin sol, en latitudes australes, es el perfil de riesgo de {{c1::déficit de vitamina D}}.",
+      "extra": "También malabsorción.",
+      "origen": "clase:5",
+      "fuente": "Clase · Perfil de riesgo",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El lactante que recibe leche fortificada necesita suplemento de {{c1::vitamina D}} para prevenir el raquitismo.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En raquitismo carencial el perfil es fosfatasa alcalina {{c1::elevada}}, fósforo bajo y calcio normal o bajo.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras bypass gástrico con anemia macrocítica y plaquetopenia, se indica {{c1::cianocobalamina (B12)}}.",
+      "extra": "Es un déficit de B12 clásico; el B6 se asocia a isoniazida.",
+      "origen": "clase:14",
+      "fuente": "Pregunta real · déficit B12",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 23",
+        "EUNACOM Julio 2019 · Pregunta 25"
+      ],
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Vegetariana estricta con hijo previo con mielomeningocele y anemia: lo principal es {{c1::folato}}.",
+      "extra": "También debe recibir B12.",
+      "origen": "clase:14",
+      "fuente": "Pregunta real · déficit de folatos",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 11"
+      ],
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/05_endocrinologia/endo-19/04_looser_milkman__commons.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Línea de Looser-Milkman (osteomalacia)",
+      "clave": "Banda radiolúcida estrecha perpendicular a la cortical",
+      "conducta": "Medir 25(OH)D; carga de colecalciferol 50.000 UI semanal por 8 semanas más calcio",
+      "fuente": "Wikimedia Commons, CC BY 3.0",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/05_endocrinologia/endo-19/01_rosario_raquitico__nelson_p646.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Rosario raquítico (raquitismo)",
+      "clave": "Nódulos a lo largo de las costillas en un niño",
+      "conducta": "Vitamina D; FA elevada, fósforo bajo y calcio normal o bajo",
+      "fuente": "Nelson 22.ª ed., p. 646",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.017"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "¿Qué examen pides ante la sospecha?",
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0",
+      "pista": "25(OH)D < 20 con P bajo, FA alta y Looser: ¿qué haces?",
+      "codigos": [
+        "1.02.1.017"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "25(OH)D de 20 a 29: ¿qué indicas?",
+      "codigos": [
+        "1.02.1.017"
+      ]
+    }
+  ]
+}

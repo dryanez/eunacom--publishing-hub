@@ -1,0 +1,415 @@
+{
+ "classId": "cirugia-20",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Obesidad mórbida (grado III): IMC ≥ {{c1::40}}, o ≥ {{c2::35}} con comorbilidades.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Definición",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Obesidad grado I: IMC de {{c1::30 a 34,9}}; grado II: {{c2::35 a 39,9}}.",
+   "extra": "Sobrepeso: 25 a 29,9.",
+   "origen": "libro:tabla",
+   "fuente": "Clase · Tabla IMC",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La circunferencia de cintura que define obesidad abdominal es > {{c1::102 cm}} en hombres y > {{c2::88 cm}} en mujeres.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Definición",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Comorbilidades de la obesidad: DM2, HTA, dislipidemia, {{c1::apnea obstructiva del sueño}}, reflujo, esteatohepatitis y osteoartrosis.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Comorbilidades",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se descartan causas secundarias de obesidad: hipotiroidismo, síndrome de {{c1::Cushing}} y fármacos (corticoides, antipsicóticos, insulina, valproato).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Estudio",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Manejo inicial de la obesidad mórbida: dieta hipocalórica, actividad física, terapia conductual y derivación a un {{c1::equipo multidisciplinario}}.",
+   "extra": "Los fármacos (liraglutida, semaglutida, orlistat) los indica el especialista.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Manejo inicial",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Indicación de cirugía bariátrica: IMC ≥ 40 o ≥ 35 con comorbilidad y fracaso de {{c1::6 meses}} de manejo médico supervisado.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Indicaciones",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La cirugía bariátrica se indica en pacientes de {{c1::18 a 65 años}}, informados y motivados para el control de por vida.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Indicaciones",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Contraindicaciones de la cirugía bariátrica: adicción activa, trastorno psiquiátrico no controlado, {{c1::embarazo}} y enfermedad que limita la vida.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Contraindicaciones",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La {{c1::manga gástrica}} es restrictiva, reseca ~80% del estómago y es la técnica más realizada.",
+   "extra": "Complicaciones: reflujo, fuga de grapas, estenosis.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla técnicas",
+   "repaso": true,
+   "imagen": "biblioteca/10_cirugia/cirugia-20/01_manga-gastrica__harrison_p3134.jpg",
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El {{c1::bypass en Y de Roux}} es mixto (restrictivo y de exclusión del duodeno) y es de elección en reflujo importante y diabetes.",
+   "extra": "Mayor y más sostenida pérdida de peso.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla técnicas",
+   "repaso": true,
+   "imagen": "biblioteca/10_cirugia/cirugia-20/02_bypass-gastrico-en-y-de-roux__harrison_p3134.jpg",
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La derivación biliopancreática es {{c1::malabsortiva}}; se usa poco por desnutrición proteica y déficits vitamínicos.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla técnicas",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La banda gástrica ajustable es restrictiva y reversible, pero hoy está en {{c1::desuso}} por deslizamiento y erosión.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla técnicas",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Con el bypass se espera una pérdida de {{c1::60-70%}} del exceso de peso y mortalidad perioperatoria < 0,5%.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Resultados",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fuga anastomótica es la complicación precoz más temida; su primer signo es la {{c1::taquicardia persistente}} > 120 lpm.",
+   "extra": "Con dolor, fiebre o disnea.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fuga",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sospecha de fuga: {{c1::TAC con contraste}}, aviso al cirujano y reintervención.",
+   "extra": "Bajar la FC con betabloqueador enmascara la alarma.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fuga",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El dumping precoz aparece a los {{c1::10-30 minutos}} de comer: palpitaciones, sudor, mareos, cólicos y diarrea.",
+   "extra": "EUNACOM Jul 2019: bypass con mareos, palpitaciones y diarrea tras comer.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Dumping",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 75"
+   ],
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El dumping tardío ocurre a las {{c1::1 a 3 horas}} y es una hipoglicemia reactiva.",
+   "extra": "La glicemia capilar durante el episodio lo confirma.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Dumping",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El dumping se maneja con comidas pequeñas y frecuentes, evitando {{c1::azúcares simples}}, con más proteínas y fibra y separando líquidos y sólidos.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Dumping",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La obstrucción por {{c1::hernia interna}} (espacio de Petersen) es una complicación tardía del bypass.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tardías",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Complicaciones tardías del bypass: úlcera del margen anastomótico, reflujo tras la manga y {{c1::colelitiasis}} por baja rápida de peso.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tardías",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La colelitiasis tras cirugía bariátrica aparece entre los {{c1::6 y 18 meses}}.",
+   "extra": "Prevención: ácido ursodesoxicólico o colecistectomía.",
+   "origen": "clase:9",
+   "fuente": "Clase · Colelitiasis",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Déficits tras cirugía bariátrica: hierro, B12, folato, calcio, vitamina D, tiamina y {{c1::zinc}}; suplementos de por vida.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Déficits",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Vegana estricta con bypass y VCM 122 fl con anemia macrocítica: déficit de {{c1::vitamina B12}}.",
+   "extra": "",
+   "origen": "clase:16",
+   "fuente": "Clase · Quiz Dic 2018",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con vómitos persistentes tras cirugía bariátrica se repone {{c1::tiamina}} por riesgo de encefalopatía de Wernicke.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Déficits",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se evita el embarazo durante los primeros {{c1::12 a 18 meses}} tras la cirugía bariátrica.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Seguimiento",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-20/02_bypass-gastrico-en-y-de-roux__harrison_p3134.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Bypass gástrico en Y de Roux",
+   "clave": "Reservorio gástrico pequeño unido al yeyuno, con exclusión del duodeno",
+   "conducta": "Elección en reflujo y diabetes; vigilar dumping, hernia interna y déficits",
+   "fuente": "Harrison 21.ª ed., Fig. 402-3",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 75"
+   ],
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-20/01_manga-gastrica__harrison_p3134.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Manga gástrica",
+   "clave": "Estómago reducido a un tubo angosto tras resecar cerca del 80%",
+   "conducta": "Técnica restrictiva más realizada; vigilar reflujo y fuga de grapas",
+   "fuente": "Harrison 21.ª ed., Fig. 402-3",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.060"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Taquicardia > 120 persistente en los primeros días: ¿qué sospechas?",
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Sospecha de fuga: ¿qué examen?",
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.0",
+   "pista": "Síntomas 10-30 minutos después de comer: ¿diagnóstico?",
+   "codigos": [
+    "4.01.1.060"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.2",
+   "pista": "Dolor, vómitos y distensión tras bypass: ¿qué complicación?",
+   "codigos": [
+    "4.01.1.060"
+   ]
+  }
+ ]
+}

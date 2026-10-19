@@ -1,0 +1,547 @@
+{
+  "classId": "neuro-01",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el núcleo isquémico el flujo cae bajo {{c1::10 mL/100 g/min}} y produce necrosis irreversible en minutos.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Núcleo y penumbra",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.07.1.006"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La penumbra isquémica tiene flujo de {{c1::10 a 20 mL/100 g/min}} mantenido por colaterales leptomeníngeas.",
+      "extra": "Neuronas silentes pero viables: es el tejido a rescatar.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.007",
+        "1.07.1.006"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "TOAST: infarto de pequeño vaso o lacunar mide {{c1::< 15 mm}} y se asocia a hipertensión y diabetes.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · TOAST",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.07.1.006"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En un adulto joven con dolor cervical tras trauma o elongación, la causa TOAST de ACV es {{c1::disección arterial}} (otra etiología determinada).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · TOAST",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 119"
+      ],
+      "codigos": [
+        "1.10.2.007",
+        "1.07.1.006"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dolor cervical y cefalea intensa tras deporte, con ptosis y miosis: {{c1::disección carotídea}}.",
+      "extra": "La ptosis con miosis es un síndrome de Horner por compromiso simpático.",
+      "origen": "clase:21",
+      "fuente": "EUNACOM Agosto 2021 · Pregunta 76",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 76",
+        "EUNACOM Enero 2023 · Pregunta 144",
+        "EUNACOM Diciembre 2022 · Pregunta 93"
+      ],
+      "codigos": [
+        "1.10.2.007",
+        "1.07.1.006"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cefalea holocránea progresiva con vómitos matinales, convulsión y déficit focal en usuaria de anticonceptivos orales: {{c1::trombosis venosa cerebral}}.",
+      "extra": "Hipertensión endocraneana más signos focales y convulsión.",
+      "origen": "clase:22",
+      "fuente": "EUNACOM Diciembre 2019 · Pregunta 1",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 1",
+        "EUNACOM Diciembre 2017 · Pregunta 55"
+      ],
+      "codigos": [
+        "1.10.2.007",
+        "1.07.1.006"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "ACM: hemiparesia faciobraquial contralateral y desviación oculocefálica hacia el lado {{c1::de la lesión (ipsilateral)}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Territorios",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.004"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "ACM del hemisferio dominante da {{c1::afasia}}; del no dominante da negligencia hemiespacial.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Territorios",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.004"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Vertebrobasilar: el síndrome {{c1::cruzado}} es par craneal ipsilateral más hemiparesia contralateral.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Vertebrobasilar",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.004"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hemiparesia pura sin afasia, hemianopsia ni negligencia indica infarto {{c1::lacunar}} (motor puro: brazo posterior de la cápsula interna).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Lacunar",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 121",
+        "EUNACOM Diciembre 2018 · Pregunta 24"
+      ],
+      "codigos": [
+        "1.10.1.004",
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Habla fluida, no entiende y sin paresia: es afasia de {{c1::Wernicke (un ACV)}}, no un cuadro psiquiátrico ni un delirium.",
+      "extra": "Error clásico: pensar en psiquiatría.",
+      "origen": "clase:17",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.004"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Afasia de Broca: fluencia baja, comprensión {{c1::conservada}}, repetición alterada.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Afasias",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.004"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Afasia de conducción: lesión del fascículo {{c1::arqueado}}; fluente, comprende, pero no repite.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Afasias",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.004"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síndrome de Gerstmann (giro angular izquierdo): agrafia, acalculia, {{c1::agnosia digital}} y desorientación derecha-izquierda.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Funciones superiores",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.004"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "NIHSS va de 0 a {{c1::42}}; un valor ≥ {{c2::16}} hace sospechar oclusión de gran vaso.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · NIHSS",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.4.001"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Examen inicial del déficit focal agudo: {{c1::TAC de encéfalo sin contraste}}, informado en ≤ 30 min.",
+      "extra": "Busca sangre, no el infarto; la RM no debe retrasar el tratamiento.",
+      "origen": "clase:8",
+      "fuente": "Clase · TAC",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 28"
+      ],
+      "codigos": [
+        "1.10.2.007",
+        "1.07.1.006"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "AngioTAC cerebral y de cuello de inmediato si NIHSS ≥ {{c1::6}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · AngioTAC",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.4.001"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La ventana de trombolisis IV es de hasta {{c1::4.5 horas}} desde el inicio o la última vez visto asintomático.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Trombolisis",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.007",
+        "1.07.1.006"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alteplase: {{c1::0.9 mg/kg}} (máx. {{c2::90 mg}}); 10 % en bolo y 90 % en infusión de 60 min.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Alteplase",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.07.1.006"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tenecteplase: {{c1::0.25 mg/kg}} en bolo único, máximo 25 mg.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tenecteplase",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.07.1.006"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Antes de trombolizar la PA debe ser < {{c1::185/110}} mmHg y luego < {{c2::180/105}} por 24 horas.",
+      "extra": "Labetalol o nicardipino EV si hace falta.",
+      "origen": "clase:10",
+      "fuente": "Clase · Presión",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.007",
+        "1.07.1.006"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "PA 200/115 en candidato a trombolisis: dar {{c1::labetalol hasta < 185/110}} y luego trombolizar; no trombolizar con esa presión.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.07.1.006"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Contraindicación absoluta de trombolisis: antecedente de {{c1::hemorragia intracraneal}} en cualquier momento.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Contraindicaciones",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.07.1.006"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Más de 4.5 horas de evolución sin oclusión de gran vaso: {{c1::aspirina 250 mg e ingreso}}, no trombolisis ni anticoagulación.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · ACV isquémico",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 66"
+      ],
+      "codigos": [
+        "1.10.2.007",
+        "1.07.1.006"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Candidato a trombolisis con oclusión de M1: {{c1::trombolizar y trasladar}} (terapia puente); no esperar la trombectomía.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.07.1.006"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Sin trombolisis, se trata la PA solo si supera {{c1::220/120}} mmHg y se baja máximo {{c2::15 %}} en 24 h.",
+      "extra": "Hipertensión permisiva para perfundir la penumbra.",
+      "origen": "clase:12",
+      "fuente": "Clase · Hipertensión permisiva",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.3.002"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Trombolizado: la aspirina se difiere {{c1::24 horas}} hasta un TAC de control sin sangre.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.07.1.006"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "NIHSS ≤ 3 no cardioembólico: doble antiagregación con AAS + {{c1::clopidogrel}} por 21 días.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · UTAC",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.3.002"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Estatina precoz en ACV isquémico: atorvastatina {{c1::80 mg}}, sin importar el colesterol basal.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · UTAC",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.07.1.006"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES N° 37: ACV isquémico en ≥ 15 años; neuroimagen en ≤ {{c1::30 minutos}} desde el ingreso y trombolisis en ≤ 4.5 horas.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · GES",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.07.1.006"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "AIT con recuperación completa: estudiar la fuente embólica con {{c1::Holter, ecocardiograma y eco-doppler carotídeo}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "EUNACOM Julio 2024 · Pregunta 151",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 151"
+      ],
+      "codigos": [
+        "1.10.2.007",
+        "1.07.1.006"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "ACV sintomático con estenosis carotídea de 60 %: {{c1::endarterectomía}} del lado afectado.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · Pregunta oficial",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hematoma talámico en el TAC (sangre blanca) es ACV hemorrágico: contraindica {{c1::aspirina, anticoagulación y trombolisis}}.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "EUNACOM Diciembre 2025 · Pregunta 26",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 26"
+      ],
+      "codigos": [
+        "1.10.2.007",
+        "1.07.1.006"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hemiparesia armónica con cefalea súbita, hipertenso, conciencia y lenguaje conservados: ACV por compromiso de {{c1::ACM}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "EUNACOM Diciembre 2022 · Pregunta 97",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 97"
+      ],
+      "codigos": [
+        "1.10.2.007",
+        "1.07.1.006"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Somnolencia con hemiparesia braquicrural derecha y compromiso de par craneal: {{c1::infarto de tronco-encéfalo}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "EUNACOM Julio 2017 · Pregunta 84",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 84"
+      ],
+      "codigos": [
+        "1.10.2.007",
+        "1.07.1.006"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1.0",
+      "pista": "Sin sangre y ≤ 4,5 h: ¿conducta?",
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1.0",
+      "pista": "> 4,5 h con oclusión de gran vaso: ¿conducta?",
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1.1",
+      "pista": "> 4,5 h sin gran vaso: ¿conducta?",
+      "codigos": [
+        "1.10.2.007"
+      ]
+    }
+  ]
+}

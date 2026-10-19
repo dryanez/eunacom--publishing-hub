@@ -1,0 +1,458 @@
+{
+  "classId": "hem-15",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La CID es un síndrome {{c1::adquirido}} de activación masiva de trombina, con microtrombosis y hemorragia por consumo.",
+      "extra": "No es una enfermedad hematológica primaria.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la CID, el gatillo es la liberación sistémica de {{c1::factor tisular}}, que con el VIIa genera trombina en todo el lecho vascular.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los microtrombos de la CID causan {{c1::falla multiorgánica}} (riñón, pulmón, hígado, cerebro).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Doble paradoja",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El sangrado de la CID se explica por el consumo de plaquetas y factores I, II, V y VIII, más {{c1::fibrinólisis secundaria}}.",
+      "extra": "Los PDF además interfieren con la agregación plaquetaria.",
+      "origen": "clase:1",
+      "fuente": "Clase · Doble paradoja",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El contexto más frecuente de CID es la {{c1::sepsis por gramnegativos}}, por el lipopolisacárido.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Contextos",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causas obstétricas de CID: {{c1::abruptio placentae}}, embolia de líquido amniótico y sepsis puerperal.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Contextos",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La leucemia promielocítica aguda ({{c1::M3}}) debuta con CID.",
+      "extra": "El tratamiento es ATRA inmediato.",
+      "origen": "clase:2",
+      "fuente": "Clase · Contextos",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En neoplasias sólidas avanzadas la CID es {{c1::crónica y de predominio trombótico}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Contextos",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la CID el laboratorio está alterado {{c1::todo a la vez}}: plaquetas bajas, TP y TTPK largos, fibrinógeno bajo y dímero D alto.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Laboratorio",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la CID el fibrinógeno colapsa a menos de {{c1::100 mg/dL}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Laboratorio",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El fibrinógeno es reactante de fase aguda: {{c1::200 mg/dL}} en un séptico ya traduce consumo.",
+      "extra": "Un valor normal puede ser patológico.",
+      "origen": "clase:3",
+      "fuente": "Clase · Laboratorio",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Un score ISTH de {{c1::5 o más}} puntos define CID manifiesta.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla score ISTH",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Score ISTH: plaquetas > 100.000 = 0; 50.000–100.000 = 1; < 50.000 = {{c1::2}} puntos.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla score ISTH",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Score ISTH: dímero D normal = 0; elevación moderada = {{c1::2}}; elevación severa = {{c2::3}} puntos.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla score ISTH",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Score ISTH: fibrinógeno > 100 mg/dL = 0 puntos; < 100 mg/dL = {{c1::1}} punto.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla score ISTH",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el caso de sepsis urinaria con plaquetas 28.000, TP 26 s, fibrinógeno 70 y dímero D > 20.000, el score ISTH es de {{c1::8}} puntos.",
+      "extra": "Plaquetas 2 + dímero D 3 + TP 2 + fibrinógeno 1.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El tratamiento de la CID es {{c1::tratar la causa desencadenante}}; los hemocomponentes son soporte.",
+      "extra": "Sepsis: antibiótico y foco; obstétrica: vaciamiento; M3: ATRA.",
+      "origen": "clase:5",
+      "fuente": "Clase · Primero la causa",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "CID obstétrica (abruptio, atonía): se resuelve con {{c1::vaciamiento o cesárea urgente}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Primero la causa",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En CID estable sin sangrado, el error es {{c1::transfundir números}}.",
+      "extra": "Se trata la causa y se hace control seriado.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En CID sin sangrado, las plaquetas se transfunden solo si están bajo {{c1::20.000}}.",
+      "extra": "Con sangrado, meta mayor a 50.000.",
+      "origen": "clase:6",
+      "fuente": "Clase · Qué se transfunde",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Plaquetas en CID con sangrado activo: meta > {{c1::50.000}}/µL.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El crioprecipitado repone fibrinógeno cuando está bajo {{c1::100–150 mg/dL}}.",
+      "extra": "Cada bolsa aporta 200–250 mg de fibrinógeno en poco volumen.",
+      "origen": "clase:6",
+      "fuente": "Clase · Qué se transfunde",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El plasma fresco congelado se da a {{c1::15–20 mL/kg}} si el TP o TTPK superan {{c2::1,5 veces}} lo normal.",
+      "extra": "Aporta todos los factores.",
+      "origen": "clase:6",
+      "fuente": "Clase · Qué se transfunde",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En CID con sangrado activo, la heparina está {{c1::contraindicada}}.",
+      "extra": "Solo en CID crónica trombótica (neoplasias sólidas avanzadas).",
+      "origen": "clase:6",
+      "fuente": "Clase · Qué se transfunde",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Puérpera con hemorragia, plaquetas 80.000, TP y TTPA largos y fibrinógeno 90 mg/dL: CID obstétrica, se indica {{c1::plasma fresco congelado}}.",
+      "extra": "Aporta todos los factores, incluido el fibrinógeno.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Diciembre 2017",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.001"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 54"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PTT y SHU: plaquetas bajas con esquistocitos, pero TP y TTPK {{c1::normales}}.",
+      "extra": "En la CID el TP y el TTPK están largos.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la PTI hay solo plaquetas bajas y la coagulación es {{c1::normal}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Feto muerto retenido en gemelar bicorial: gatillo obstétrico de CID, se vigila con {{c1::pruebas de coagulación}}.",
+      "extra": "El dímero D sube normalmente en el embarazo y no sirve.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz gemelar",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con CID manifiesta y sangrado: tratar la causa más {{c1::crioprecipitado, plasma y plaquetas}}.",
+      "extra": "Plasmaféresis es para el PTT.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Plasma fresco congelado: se indica en sangrado activo o procedimiento invasivo con déficit de {{c1::múltiples factores}}.",
+      "extra": "No como expansor de volumen ni para corregir un INR sin sangrado.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La heparina no fraccionada se controla con el {{c1::TTPA}}, que debe mantenerse en {{c2::1,5 a 2,5}} veces el control.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro · pregunta Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-15/01_purpura-equimosis-sepsis__cto-infecto_p38.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Púrpura y equimosis en sepsis con sospecha de CID",
+      "clave": "Lesiones purpúricas y equimosis extensas en un paciente séptico",
+      "conducta": "Tratar la sepsis; pedir plaquetas, TP, TTPK, fibrinógeno y dímero D; calcular score ISTH",
+      "fuente": "Manual CTO Infecciosas 14.ª ed., p. 38",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_verificadas/129_hem_PTT_SHU_y_CID__HarrisonsP_p468_1.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Esquistocitos en el frotis",
+      "clave": "Fragmentos de glóbulos rojos en casco o triángulo",
+      "conducta": "Con TP y TTPK normales: PTT o SHU; con TP y TTPK largos: CID",
+      "fuente": "Harrison, 21.ª ed., p. 468",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.001"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "CID manifiesta: ¿qué se hace primero?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Sin sangrado ni procedimiento: ¿se transfunde?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "Con sangrado: ¿qué hemocomponentes?"
+    }
+  ]
+}

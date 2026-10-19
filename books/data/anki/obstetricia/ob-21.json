@@ -1,0 +1,508 @@
+{
+  "classId": "ob-21",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el embarazo el gasto cardíaco aumenta {{c1::30-50%}}, con máximo a las {{c2::28-32}} semanas.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Cambios hemodinámicos",
+      "repaso": false,
+      "codigos": [
+        "1.01.3.002"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El período más peligroso para la cardiópata son las primeras {{c1::24-72 horas}} del puerperio (autotransfusión).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Por qué el embarazo descompensa el corazón",
+      "repaso": true,
+      "codigos": [
+        "1.01.3.002"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hipertensión pulmonar severa o el síndrome de {{c1::Eisenmenger}} contraindican el embarazo (mortalidad materna 30-50%).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Qué lesiones contraindican el embarazo",
+      "repaso": true,
+      "codigos": [
+        "1.01.3.002"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El síndrome de Marfan con raíz aórtica > {{c1::45 mm}} contraindica el embarazo.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Riesgo muy alto",
+      "repaso": false,
+      "codigos": [
+        "1.01.3.002"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cardiopatía de riesgo muy alto: se da anticoncepción segura y, si ya está embarazada, se evalúa interrupción según la Ley {{c1::21.030}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Qué lesiones contraindican el embarazo",
+      "repaso": false,
+      "codigos": [
+        "1.01.3.002"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Se toleran bien las CIA/CIV pequeñas, el prolapso mitral y las insuficiencias leves, porque el embarazo {{c1::baja la resistencia vascular sistémica}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Lesiones bien toleradas",
+      "repaso": true,
+      "codigos": [
+        "1.01.3.002"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La valvulopatía que más descompensa en el embarazo es la {{c1::estenosis mitral}} (la taquicardia causa edema pulmonar).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Lesiones bien toleradas",
+      "repaso": true,
+      "codigos": [
+        "1.01.3.002"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la cardiópata embarazada están contraindicados {{c1::IECA, ARA-II, amiodarona y estatinas}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.01.3.002"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La warfarina tiene riesgo de embriopatía entre las {{c1::6 y 12}} semanas; se reemplaza por heparina de bajo peso molecular.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Manejo",
+      "repaso": false,
+      "codigos": [
+        "1.01.3.002"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la cardiópata el parto de elección es el {{c1::vaginal}}, con epidural precoz y expulsivo acortado.",
+      "extra": "La cesárea es solo por indicación obstétrica o cardíaca específica.",
+      "origen": "clase:4",
+      "fuente": "Clase · Fármacos, parto y puerperio",
+      "repaso": true,
+      "codigos": [
+        "1.01.3.002"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la cardiópata se evitan la {{c1::metilergonovina}} y los bolos de oxitocina; se monitoriza 48-72 horas tras el parto.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Fármacos, parto y puerperio",
+      "repaso": false,
+      "codigos": [
+        "1.01.3.002"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los gemelos dicigotos son siempre {{c1::bicoriales y biamnióticos}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Diagnóstico y corionicidad",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.007"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La corionicidad se determina por ecografía entre las {{c1::11 y 14}} semanas.",
+      "extra": "Es lo más importante del embarazo múltiple.",
+      "origen": "clase:5",
+      "fuente": "Clase · Diagnóstico y corionicidad",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.007"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El signo lambda indica gestación {{c1::bicorial}}.",
+      "extra": "Extensión triangular de placenta entre las membranas.",
+      "origen": "foto",
+      "fuente": "Clase · Diagnóstico y corionicidad",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.007"
+      ],
+      "imagen": "biblioteca/14_obstetricia/ob-21/03_signo-lambda-eco__obgynus_p137.jpg"
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El signo T (membrana fina en ángulo recto) indica gestación {{c1::monocorial}}.",
+      "extra": "Comparten placenta y vasos: mayor riesgo perinatal.",
+      "origen": "foto",
+      "fuente": "Clase · Diagnóstico y corionicidad",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.007"
+      ],
+      "imagen": "biblioteca/14_obstetricia/ob-21/04_signo-T-monocorial__obgynus_p81.jpg"
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el síndrome de transfusión feto-fetal (solo monocoriales) el donante tiene {{c1::oligohidramnios}} y el receptor polihidramnios.",
+      "extra": "Tratamiento: láser fetoscópico.",
+      "origen": "foto",
+      "fuente": "Clase · Complicaciones fetales y maternas",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.007"
+      ],
+      "imagen": "biblioteca/14_obstetricia/ob-21/02_transfusion-feto-fetal-esquema__nelson_p1315.jpg"
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el gemelar, la discordancia de peso es significativa si es > {{c1::20-25%}}; se maneja como RCIU, con control seriado con Doppler.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Complicaciones fetales y maternas",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.007"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 143"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Gemelo muerto en un bicorial en el 2.º o 3.er trimestre: se vigila el bienestar fetal y las {{c1::pruebas de coagulación}}.",
+      "extra": "Por el riesgo de coagulopatía materna.",
+      "origen": "clase:6",
+      "fuente": "Clase · Complicaciones fetales y maternas",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.007"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 54"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Control ecográfico del gemelar: monocoriales cada {{c1::2 semanas}} desde las 16; bicoriales cada {{c2::4 semanas}} desde las 20.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Control, derivación y cuándo interrumpir",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.007"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Gemelar bicorial biamniótico sin complicaciones: se interrumpe a las {{c1::38}} semanas.",
+      "extra": "A las 36 semanas se mantiene el control ecográfico.",
+      "origen": "clase:7",
+      "fuente": "Clase · Control, derivación y cuándo interrumpir",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.007"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 59"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Gemelar monocorial biamniótico: se interrumpe a las {{c1::36}} semanas.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Control, derivación y cuándo interrumpir",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.007"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Gemelar monoamniótico: se interrumpe a las {{c1::32-34}} semanas, por cesárea.",
+      "extra": "Por el riesgo de enredo de cordones.",
+      "origen": "clase:7",
+      "fuente": "Clase · Control, derivación y cuándo interrumpir",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.007"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Gemelar: la cesárea se hace si el primer gemelo no es cefálico, si es {{c1::monoamniótico}} o si hay ≥ 3 fetos.",
+      "extra": "Si el primero es cefálico y biamniótico, se puede intentar parto vaginal.",
+      "origen": "clase:7",
+      "fuente": "Clase · Control, derivación y cuándo interrumpir",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.007"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Las náuseas y vómitos afectan al {{c1::50-80%}} de las embarazadas, con máximo a las 9-12 semanas.",
+      "extra": "Ceden a las 16-20 semanas.",
+      "origen": "clase:8",
+      "fuente": "Clase · De la náusea a la hiperemesis",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.007"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hiperemesis gravídica: vómitos incoercibles con pérdida de más de {{c1::5%}} del peso, deshidratación y cetonuria.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · De la náusea a la hiperemesis",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.007"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 177"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hiperemesis es más frecuente en el embarazo múltiple y la {{c1::mola hidatidiforme}}, por la β-hCG alta.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · De la náusea a la hiperemesis",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.007"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Vómitos con hipertensión en la segunda mitad del embarazo: sospechar {{c1::HELLP}}, no hiperemesis.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.007"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Primera línea de las náuseas y vómitos del embarazo: {{c1::doxilamina + piridoxina}} oral.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.007"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 179",
+        "EUNACOM Enero 2023 · Pregunta 56",
+        "EUNACOM Diciembre 2017 · Pregunta 178"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si no basta la doxilamina + piridoxina: {{c1::metoclopramida, dimenhidrinato u ondansetrón}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tratamiento ambulatorio u hospitalizado",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.007"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Se hospitaliza la hiperemesis si no tolera líquidos, hay deshidratación, {{c1::cetonuria}} o baja de peso > 5%.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tratamiento ambulatorio u hospitalizado",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.007"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En hiperemesis se da tiamina {{c1::100 mg}} EV antes o junto con la glucosa, para prevenir la encefalopatía de Wernicke.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tratamiento ambulatorio u hospitalizado",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.007"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hidratación de la hiperemesis: suero fisiológico o Ringer con {{c1::dextrosa y potasio}} más antiemético EV.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de conducta inicial",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.007"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-21/03_signo-lambda-eco__obgynus_p137.jpg",
+      "pregunta": "¿Qué signo ves y qué implica?",
+      "diagnostico": "Signo lambda: gemelar bicorial",
+      "clave": "Extensión triangular de placenta entre las membranas",
+      "conducta": "Control ARO, interrupción a las 38 semanas si no hay complicaciones",
+      "fuente": "Ultrasound in Obstetrics and Gynecology: A Practical Approach, Fig. 7.2",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.007"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-21/04_signo-T-monocorial__obgynus_p81.jpg",
+      "pregunta": "¿Qué signo ves y qué implica?",
+      "diagnostico": "Signo T: gemelar monocorial",
+      "clave": "Membrana fina que sale en ángulo recto entre los dos sacos",
+      "conducta": "ARO; eco cada 2 semanas desde las 16; vigilar transfusión feto-fetal",
+      "fuente": "Ultrasound in Obstetrics and Gynecology: A Practical Approach, Fig. 4.20",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.007"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-21/02_transfusion-feto-fetal-esquema__nelson_p1315.jpg",
+      "pregunta": "¿Qué complicación ilustra y cómo se trata?",
+      "diagnostico": "Síndrome de transfusión feto-fetal",
+      "clave": "Donante con oligohidramnios y receptor con polihidramnios en monocorial",
+      "conducta": "Derivación a ARO; láser fetoscópico",
+      "fuente": "Nelson 22.ª ed., Fig. 118.10",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.007"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "HTP severa o Eisenmenger: ¿qué conducta?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1.0",
+      "pista": "Signo lambda: ¿control y momento de interrupción?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.1",
+      "pista": "Signo T: ¿control y momento de interrupción?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.2.1",
+      "pista": "Vómitos sin tolerar líquidos y con cetonuria: ¿qué haces?"
+    }
+  ]
+}

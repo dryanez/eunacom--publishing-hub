@@ -1,0 +1,454 @@
+{
+ "classId": "resp-23",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El SAHOS consiste en apneas de ≥ {{c1::10 segundos}} por colapso de la faringe durante el sueño.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Una faringe que se cierra al dormir",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hipopnea: obstrucción parcial con desaturación ≥ {{c1::3–4 %}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Una faringe que se cierra al dormir",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los microdespertares fragmentan el sueño y producen {{c1::somnolencia diurna}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Una faringe que se cierra al dormir",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hipoxemia intermitente con descarga simpática explica la {{c1::HTA}} del SAHOS.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Una faringe que se cierra al dormir",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Principal factor de riesgo modificable del SAHOS: la {{c1::obesidad}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Obesidad como factor de riesgo de SAHOS: IMC > {{c1::30 kg/m²}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Quién es y qué cuenta",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cuello aumentado como riesgo de SAHOS: > {{c1::43 cm}} en hombres y > 40 cm en mujeres.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Quién es y qué cuenta",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otros factores de SAHOS: sexo masculino, edad mediana, {{c1::retrognatia}} y alcohol o benzodiacepinas nocturnos.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Quién es y qué cuenta",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tríada cardinal del SAHOS: ronquidos intensos, apneas presenciadas y {{c1::somnolencia diurna excesiva}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 13"
+   ],
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Síntoma típico en el SAHOS: el paciente se queda dormido leyendo, viendo TV o {{c1::conduciendo}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Quién es y qué cuenta",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el SAHOS el paciente despierta de la apnea con un {{c1::resoplido o jadeo}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Quién es y qué cuenta",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otras pistas del SAHOS: cefalea matinal, nicturia, fatiga y {{c1::mala memoria}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Quién es y qué cuenta",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 86",
+    "EUNACOM Diciembre 2019 · Pregunta 75"
+   ],
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Escala de Epworth > {{c1::10}}: somnolencia anormal, se debe estudiar.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Epworth sospecha, la polisomnografía confirma",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El Epworth > 10 {{c1::no confirma}} el diagnóstico: solo indica estudio formal.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estándar de oro diagnóstico del SAHOS: {{c1::polisomnografía}} nocturna.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 13",
+    "EUNACOM Agosto 2021 · Pregunta 86",
+    "EUNACOM Diciembre 2019 · Pregunta 75"
+   ],
+   "codigos": [
+    "1.05.1.033",
+    "6.03.4.009"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Alternativa ambulatoria a la polisomnografía: la {{c1::poligrafía respiratoria}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Epworth sospecha, la polisomnografía confirma",
+   "repaso": false,
+   "codigos": [
+    "6.03.4.009"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La polisomnografía registra flujo aéreo, esfuerzo toracoabdominal, SatO2, ECG y {{c1::EEG}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Polisomnografía y CPAP",
+   "repaso": false,
+   "codigos": [
+    "6.03.4.009"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El IAH es el número de {{c1::apneas e hipopneas por hora}} de sueño.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Epworth sospecha, la polisomnografía confirma",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.033",
+    "6.03.4.009"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "IAH normal: < {{c1::5}} eventos por hora.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Severidad y terapia",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "SAHOS leve: IAH de {{c1::5 a 14}} eventos por hora.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Epworth sospecha, la polisomnografía confirma",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "SAHOS moderado: IAH de {{c1::15 a 29}} eventos por hora.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Epworth sospecha, la polisomnografía confirma",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "SAHOS severo: IAH ≥ {{c1::30}} eventos por hora.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Epworth sospecha, la polisomnografía confirma",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 146"
+   ],
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Tratamiento de elección del SAHOS: {{c1::CPAP}} nasal nocturno.",
+   "extra": "Actúa como férula neumática que mantiene abierta la faringe.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 81",
+    "EUNACOM Diciembre 2024 · Pregunta 146"
+   ],
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "CPAP indicado en todo paciente con IAH ≥ {{c1::15}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · ¿Quién necesita CPAP?",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "IAH leve (5–14) también recibe CPAP si hay somnolencia marcada, HTA o profesión de riesgo como {{c1::chofer}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · ¿Quién necesita CPAP?",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "SAHOS leve sin esos factores: baja de peso, evitar alcohol y BZD, y {{c1::dispositivo de avance mandibular}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Severidad y terapia",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "SAHOS severo: CPAP obligatorio y control de la {{c1::HTA}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el SAHOS están contraindicados los {{c1::sedantes y el alcohol}} nocturnos; siempre se baja de peso.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Normal (IAH < 5): solo {{c1::medidas higiénicas}} de sueño.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El CPAP reduce la somnolencia, los {{c1::accidentes}} y la HTA.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · ¿Quién necesita CPAP?",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.033"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-23/02_polisomnografia_real__commons.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Polisomnografía con apneas",
+   "clave": "Pausas del flujo aéreo con desaturación y esfuerzo toracoabdominal",
+   "conducta": "Calcular el IAH: ≥ 15 indica CPAP nasal nocturno",
+   "fuente": "Wikimedia Commons, CC BY-SA 3.0",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.033",
+    "6.03.4.009"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Sospecha de SAHOS: ¿qué examen confirma?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.1",
+   "pista": "IAH 5–14 con somnolencia, HTA o chofer: ¿qué indicas?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.0",
+   "pista": "IAH 5–14 sin esos factores: ¿qué manejo?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.2",
+   "pista": "IAH ≥ 15: ¿qué tratamiento?"
+  }
+ ]
+}

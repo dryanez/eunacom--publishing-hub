@@ -1,0 +1,483 @@
+{
+  "classId": "endo-17",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa más frecuente de hipocalcemia aguda hospitalaria es el {{c1::hipoparatiroidismo postquirúrgico}} tras tiroidectomía total.",
+      "extra": "Aparece entre las 24 y 72 horas postoperatorias.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El hipoparatiroidismo postquirúrgico aparece típicamente entre las {{c1::24 y 72 horas}} postoperatorias.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020",
+        "1.03.2.005"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hipomagnesemia severa (menor de {{c1::1,0 mg/dL}}) causa hipocalcemia por resistencia a la PTH y bloqueo de su secreción.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Causas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Otras causas de hipocalcemia: pancreatitis aguda, sepsis, déficit de vitamina D y {{c1::transfusión masiva}} (el citrato secuestra calcio iónico).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020",
+        "1.03.2.005"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hipocalcemia baja el umbral de despolarización al desestabilizar los {{c1::canales de sodio}} y causa hiperexcitabilidad.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se define hipocalcemia como calcio corregido por albúmina menor de {{c1::8,5 mg/dL}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síntoma más precoz de la hipocalcemia son las {{c1::parestesias periorales y distales}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El espasmo carpopedal ('mano de obstetra') y la hiperreflexia son signos de {{c1::tetania hipocalcémica}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El laringoespasmo con estridor inspiratorio en hipocalcemia {{c1::amenaza la vía aérea}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signo de Chvostek: percutir el nervio facial {{c1::por delante del trago}} contrae los músculos faciales ipsilaterales.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-17/03_signo_chvostek__commons.jpg",
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signo de Trousseau: inflar el manguito sobre la sistólica por {{c1::3 minutos}} provoca espasmo carpopedal.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": true,
+      "imagen": "biblioteca/05_endocrinologia/endo-17/01_signo_trousseau__commons.jpg",
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Entre los signos de Chvostek y Trousseau, el más {{c1::sensible y específico}} es el de Trousseau.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El ECG de la hipocalcemia muestra {{c1::QT prolongado}} a expensas del segmento ST.",
+      "extra": "Riesgo de Torsades de Pointes.",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Rescate en hipocalcemia sintomática: {{c1::gluconato de calcio al 10%}}, 1 a 2 ampollas EV en 10-20 minutos con monitor.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Rescate",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 110",
+        "EUNACOM Diciembre 2018 · Pregunta 25",
+        "EUNACOM Julio 2024 · Pregunta 82"
+      ],
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El gluconato de calcio al 10% se da en {{c1::10 a 20 minutos}}, diluido en 50-100 mL de SG 5%.",
+      "extra": "1 a 2 ampollas equivalen a 90-180 mg de calcio elemental.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020",
+        "1.03.2.005"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Se prefiere gluconato sobre {{c1::cloruro de calcio}}, que produce necrosis tisular si se extravasa.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Rescate",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tras el bolo, la infusión de mantención es de {{c1::10 ampollas}} de gluconato de calcio en 1000 mL de SG 5%.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Rescate",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En hipocalcemia sintomática con Chvostek positivo, el error es subir el calcio oral; se indica {{c1::calcio EV}}.",
+      "extra": "El calcio oral con calcitriol es de mantención.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 25"
+      ],
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Una convulsión por hipocalcemia (calcio de 6,3 mg/dL tras tiroidectomía) se trata con calcio EV; la {{c1::calcitonina}} bajaría aún más el calcio.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 82"
+      ],
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hipocalcemia refractaria a calcio EV repetido obliga a medir {{c1::magnesio}}.",
+      "extra": "Típico en el alcohólico desnutrido.",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si hay hipomagnesemia, se administra {{c1::sulfato de magnesio}} 1 a 2 g EV en 20 minutos.",
+      "extra": "Sin magnesio no se secreta PTH ni actúa en hueso y riñón.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Regla del magnesio",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.020",
+        "1.03.2.005"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Manejo crónico del hipoparatiroidismo: {{c1::carbonato de calcio}} 1 a 3 g/día de calcio elemental con las comidas.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hipoparatiroidismo permanente",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El hipoparatiroidismo permanente requiere {{c1::calcitriol}} 0,25 a 1,0 mcg/día asociado al calcio.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hipoparatiroidismo permanente",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En hipoparatiroidismo el {{c1::colecalciferol}} no sirve: sin PTH el riñón no activa la 1-alfa-hidroxilasa.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hipoparatiroidismo permanente",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el tratamiento crónico la meta de calcio es {{c1::8,0 a 8,5 mg/dL}} para evitar hipercalciuria y nefrocalcinosis.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hipoparatiroidismo permanente",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hipocalcemia crónica estable suele ser asintomática; puede dar {{c1::cataratas}} y calcificación de ganglios basales.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla comparativa",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la hipocalcemia por hipomagnesemia, el fármaco previo obligado es {{c1::sulfato de magnesio EV}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla comparativa",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el hipoparatiroideo medicado con calcio oral, una diarrea abundante causa hipocalcemia por {{c1::malabsorción del calcio oral}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 25"
+      ],
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante una hipercalcemia, el estudio inicial es {{c1::calcemia y PTH}}; PTH alta es hiperparatiroidismo primario.",
+      "extra": "Es el contraste de este tema: aquí el calcio está bajo.",
+      "origen": "libro:sec:1",
+      "fuente": "Contraste con hipercalcemia",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 175",
+        "EUNACOM Diciembre 2017 · Pregunta 32",
+        "EUNACOM Julio 2025 · Pregunta 8",
+        "EUNACOM Julio 2025 · Pregunta 167",
+        "EUNACOM Julio 2017 · Pregunta 78",
+        "EUNACOM Agosto 2021 · Pregunta 121",
+        "EUNACOM Diciembre 2017 · Pregunta 33",
+        "EUNACOM Diciembre 2019 · Pregunta 89",
+        "EUNACOM Julio 2013 · Pregunta 177"
+      ],
+      "codigos": [
+        "1.03.1.020",
+        "1.03.2.005"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La hipocalcemia {{c1::no tiene GES}} directo; solo hay garantías por patología tiroidea u oncológica previa.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Perfil / GES",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/05_endocrinologia/endo-17/01_signo_trousseau__commons.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Signo de Trousseau positivo (hipocalcemia)",
+      "clave": "Espasmo carpopedal al inflar el manguito sobre la sistólica por 3 minutos",
+      "conducta": "Gluconato de calcio 10% EV lento con monitor; medir magnesio si no responde",
+      "fuente": "Wikimedia Commons, Trousseau's Sign of Latent Tetany",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/05_endocrinologia/endo-17/02_qt_calcio_esquema__ecg-basics_p331.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "QT prolongado por hipocalcemia",
+      "clave": "Alargamiento del QT a expensas del segmento ST",
+      "conducta": "Monitor cardíaco y calcio EV; riesgo de Torsades de Pointes",
+      "fuente": "ECG from Basics to Essentials, p. 331",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Tetania o QT largo: ¿qué das primero?",
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0.0",
+      "pista": "No responde al calcio: ¿qué agregas?",
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "Hipocalcemia sin gravedad: ¿tratamiento de mantención?",
+      "codigos": [
+        "1.03.1.020"
+      ]
+    }
+  ]
+}

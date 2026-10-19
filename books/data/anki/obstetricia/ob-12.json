@@ -1,0 +1,500 @@
+{
+  "classId": "ob-12",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mola completa: genoma {{c1::100% paterno}} (androgenética), diploide, habitualmente 46,XX.",
+      "extra": "Óvulo vacío fecundado por un espermatozoide que se duplica.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla completa vs parcial",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Mola completa: cariotipo 46,XX en el {{c1::90%}} y 46,XY en el 10%.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Mola completa",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mola completa: {{c1::ausencia}} total de embrión o tejido fetal, con degeneración hidrópica de todas las vellosidades.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla completa vs parcial",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mola parcial: cariotipo {{c1::triploide}} (69 cromosomas, p. ej. 69,XXY).",
+      "extra": "Óvulo normal fecundado por dos espermatozoides.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla completa vs parcial",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mola parcial: {{c1::sí hay}} embrión, pero malformado y no viable; hidropesía focal.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla completa vs parcial",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "β-hCG en la mola completa: habitualmente {{c1::> 100.000 UI/L}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 82"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la mola parcial la β-hCG es {{c1::normal o discretamente elevada}} y la clínica se parece a un aborto incompleto.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla completa vs parcial",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Riesgo de neoplasia trofoblástica en la mola completa: {{c1::15 a 20%}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla completa vs parcial",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Riesgo de neoplasia trofoblástica en la mola parcial: {{c1::1 a 5%}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla completa vs parcial",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síntoma más común de la mola completa: {{c1::metrorragia}} del primer trimestre (97%).",
+      "extra": "Vesículas en racimo de uvas son patognomónicas.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mola completa: útero {{c1::mayor}} que la edad gestacional en el 50% de los casos, blando.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 65"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Preeclampsia antes de las {{c1::20 semanas}}: pensar en mola (o síndrome antifosfolípido).",
+      "extra": "Pregunta clásica del EUNACOM.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La β-hCG elevada causa hiperemesis severa e {{c1::hipertiroidismo}} (la subunidad beta se parece a la TSH).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Quistes {{c1::tecaluteínicos}} ováricos bilaterales: hiperestimulación de receptores de LH por la hCG.",
+      "extra": "No se puncionan ni se extirpan: involucionan al evacuar.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 65"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ecografía de la mola completa: patrón en {{c1::tormenta de nieve}} (panal de abejas) sin saco ni embrión.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 82"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tratamiento primario de la mola: evacuación con {{c1::AMEU}} (aspiración al vacío) con oxitocina.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento primario",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la mola se desaconseja el {{c1::legrado cortante enérgico}}: riesgo de perforar el miometrio adelgazado.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Evacuación uterina",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Todo el tejido obtenido en la mola se envía a {{c1::estudio histopatológico}}.",
+      "extra": "Confirma si es completa o parcial.",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento primario",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 174"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Histerectomía total con conservación anexial: opción en > 40 años con {{c1::paridad cumplida}}.",
+      "extra": "No exime del seguimiento hormonal.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Paridad cumplida",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Mola en paciente Rh negativa no sensibilizada: {{c1::inmunoglobulina anti-D}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Profilaxis Rh",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Seguimiento postmolar: β-hCG {{c1::semanal}} hasta tres valores consecutivos normales (< 5 UI/L).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.4.008"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 174",
+        "EUNACOM Julio 2015 · Pregunta 155"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Luego del primer control normal, la β-hCG se mide mensual durante {{c1::6 meses}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.4.008"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Durante el seguimiento postmolar la anticoncepción es {{c1::obligatoria}} (ACO o implante).",
+      "extra": "Un embarazo enmascararía una recidiva.",
+      "origen": "clase:4",
+      "fuente": "Clase · Después de evacuar",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 174"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Anticoncepción en el seguimiento postmolar: el {{c1::DIU}} está contraindicado por riesgo de perforación e infección.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Anticoncepción",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "NTG por meseta: 4 o más mediciones de β-hCG en {{c1::3 semanas}} con variación < 10%.",
+      "extra": "Días 1, 7, 14 y 21.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Criterios FIGO",
+      "codigos": [
+        "3.01.4.008"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "NTG por ascenso: 3 o más mediciones consecutivas en {{c1::2 semanas}} con incremento ≥ 10% en cada una.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Criterios FIGO",
+      "codigos": [
+        "3.01.4.008"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "También es NTG la persistencia de β-hCG detectable después de {{c1::6 meses}} de la evacuación.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Criterios FIGO",
+      "codigos": [
+        "3.01.4.008"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Mola parcial con β-hCG que baja: observar; con β-hCG que se estanca o sube es {{c1::neoplasia trofoblástica}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras diagnosticar NTG: estudio de diseminación con TAC y {{c1::etapificar con score FIGO/OMS}}.",
+      "extra": "Metástasis más frecuentes: pulmón.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Manejo NTG",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "NTG de bajo riesgo (score ≤ 6): monoquimioterapia con {{c1::metotrexato}} (o actinomicina D).",
+      "extra": "Curación cercana al 100%.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "NTG de alto riesgo (score ≥ 7): poliquimioterapia {{c1::EMA-CO}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Manejo NTG",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mola informada en la biopsia de un legrado: conducta {{c1::β-hCG seriada}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Jul 2015 · P155",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 155",
+        "EUNACOM Diciembre 2018 · Pregunta 174"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mola persistente 2 meses sin tratar con β-hCG 135.000 y vesículas: neoplasia, tratada en la pregunta con {{c1::histerectomía}} y luego metotrexato.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Jul 2017 · P138",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 138"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-12/01_mola-en-tormenta-de-nieve-eco__cto-gyo_p129.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Mola hidatiforme completa",
+      "clave": "Patrón en tormenta de nieve: útero granular sin saco ni embrión",
+      "conducta": "Evacuar con AMEU y oxitocina; biopsia; β-hCG semanal y anticoncepción",
+      "fuente": "Manual CTO Ginecología y Obstetricia 14.ª ed., p. 129",
+      "codigos": [
+        "3.01.1.008"
+      ],
+      "repaso": true
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Metrorragia con útero grande: ¿qué patrón ecográfico confirma la mola?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0",
+      "pista": "Mola completa: ¿primer tratamiento?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0.0",
+      "pista": "Tras evacuar: ¿cómo evoluciona la β-hCG?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.0.0.1",
+      "pista": "β-hCG estancada o en alza: ¿qué diagnóstico y conducta?"
+    }
+  ]
+}

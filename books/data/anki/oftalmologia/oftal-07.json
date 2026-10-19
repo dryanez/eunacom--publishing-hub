@@ -1,0 +1,548 @@
+{
+ "classId": "oftal-07",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Glaucoma crónico de ángulo abierto: neuropatía óptica crónica con {{c1::ángulo iridocorneal abierto}} y esclerosis de la malla trabecular.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Definición",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.013"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Es la primera causa de ceguera {{c1::irreversible}} y es 100% asintomático durante décadas.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Importancia",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.002"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Factor de riesgo principal modificable: PIO mayor de {{c1::21 mmHg}}; 30-40% tiene glaucoma de presión normal.",
+   "extra": "PIO de 27 con excavación de 0,7 y ángulo abierto; PIO de 28 con excavación 0,7.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 PIO",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 147",
+    "EUNACOM Diciembre 2017 · Pregunta 84"
+   ],
+   "codigos": [
+    "6.02.1.013"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antecedente de padre o hermano con glaucoma multiplica el riesgo por {{c1::4 a 9}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Familiares",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.013"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otros factores: edad mayor de 50-60 años, raza {{c1::negra}}, miopía magna, córnea delgada y diabetes.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Otros factores",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.013"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Glaucoma crónico: ojo blanco, sin dolor y con agudeza visual {{c1::central}} normal hasta fases terminales.",
+   "extra": "20/20 no descarta glaucoma.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clínica",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.013",
+    "6.02.4.001"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El campo visual se pierde desde la periferia: escotoma de {{c1::Bjerrum}} y escalón nasal, luego visión en túnel.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Campo",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-07/01_papila-glaucomatosa_alt1_2__amir-oftalmo_p35.jpg",
+   "codigos": [
+    "6.02.1.013",
+    "6.02.4.001"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se diagnostica tarde porque el haz {{c1::papilomacular}} se conserva hasta fases muy avanzadas.",
+   "extra": "Diabético de 60 años con visión 20/25 y defectos periféricos asimétricos; paciente de 67 años con campo alterado.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Por qué",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 166",
+    "EUNACOM Agosto 2021 · Pregunta 155"
+   ],
+   "codigos": [
+    "6.02.1.013",
+    "6.02.4.001"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Signo de sospecha en APS: excavación/papila mayor de {{c1::0,5}} (normal menor de 0,3-0,4).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Papila",
+   "repaso": true,
+   "imagen": "biblioteca/12_oftalmologia/oftal-07/01_papila-glaucomatosa__amir-oftalmo_p34.jpg",
+   "codigos": [
+    "6.02.1.013",
+    "6.02.4.001"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Asimetría de excavación entre ambos ojos mayor de {{c1::0,2}}.",
+   "extra": "Hermano con glaucoma y excavación 0,7 vs 0,4: derivar.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Asimetría",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.013",
+    "6.02.4.001"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Regla ISNT: anillo neurorretiniano más grueso Inferior > Superior > Nasal > {{c1::Temporal}}; muescas la violan.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 ISNT",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.013",
+    "6.02.4.001"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otros signos papilares: rechazo {{c1::nasalizado}} de vasos y hemorragias en astilla.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Vasos",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.013",
+    "6.02.4.001"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Confirma el oftalmólogo: campimetría {{c1::Humphrey}} (defecto funcional) y OCT de fibras nerviosas (daño estructural).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Confirmación",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-07/02_campimetria-papila-en-gcs__cto-oftalmo_p52.jpg",
+   "codigos": [
+    "6.02.1.013",
+    "6.02.4.001"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primera línea: análogos de prostaglandinas ({{c1::latanoprost}} 0,005%, bimatoprost, travoprost), una gota en la noche.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Primera línea",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.013",
+    "6.02.4.001"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los análogos de PG aumentan la salida {{c1::uveoescleral}} del acuoso.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Mecanismo",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.013",
+    "6.02.4.001"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Efectos adversos de los análogos de PG: hiperemia, {{c1::oscurecimiento del iris}} e hipertricosis (pestañas largas).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Efectos",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.013",
+    "6.02.4.001"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Segunda línea: timolol 0,5%; contraindicado en EPOC, asma o {{c1::bloqueo cardíaco}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Timolol",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.013",
+    "6.02.4.001"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si progresa pese a tratamiento médico máximo: {{c1::trabeculectomía}} o implante de drenaje.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Cirugía",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.013",
+    "6.02.4.001"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Excavación aumentada con antecedente familiar: derivar para tonometría, campimetría y {{c1::OCT}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Conducta APS",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.002"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Glaucoma congénito: malformación del ángulo en los primeros {{c1::3 años}}; más frecuente en varones y a menudo bilateral.",
+   "extra": "Lactante de 5 meses con opacidad corneal, epífora y mayor diámetro; lactante de 35 semanas con diámetro de 14 mm.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Congénito",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 31",
+    "EUNACOM Julio 2024 · Pregunta 83"
+   ],
+   "codigos": [
+    "6.02.1.012"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tríada del lactante: epífora, fotofobia y {{c1::blefarospasmo}}, con córnea grande y opaca.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tríada",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.012"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Diámetro corneal anormal: mayor de {{c1::11 mm}} al nacer y 12 mm al año; ojo agrandado (buftalmos).",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Diámetro",
+   "repaso": true,
+   "imagen": "biblioteca/12_oftalmologia/oftal-07/55_glaucoma-congenito-buftalmos__kanski_p398.jpg",
+   "codigos": [
+    "6.02.1.012"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estrías de {{c1::Haab}}: rupturas de la membrana de Descemet.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Haab",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.012"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Glaucoma congénito: urgencia; examen bajo anestesia y cirugía ({{c1::goniotomía}} o trabeculotomía).",
+   "extra": "Un bebé de ojos grandes y lagrimeo no es dacrioestenosis hasta descartar glaucoma.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.012"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Preguntas oficiales de 2024 sobre glaucoma crónico con «signo de humo de chimenea» (midriasis arreactiva, hemograma y VHS): enunciados confusos y de {{c1::respuesta discutible}}.",
+   "extra": "Posible error del banco.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Humo de chimenea",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 114",
+    "EUNACOM Diciembre 2024 · Pregunta 163"
+   ],
+   "codigos": [
+    "6.02.1.002"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Informe del campo visual: primero la confiabilidad (pérdidas de fijación y falsos positivos menores de {{c1::20%}}).",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Campimetría",
+   "repaso": false,
+   "codigos": [
+    "6.02.4.001"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hemianopsia {{c1::bitemporal}}: lesión del quiasma (adenoma hipofisario, craneofaringioma); homónima: retroquiasmática.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Patrones",
+   "repaso": false,
+   "codigos": [
+    "6.02.4.001"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Escotoma central: neuritis óptica o maculopatía; defecto {{c1::altitudinal}}: isquemia del nervio óptico.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Patrones",
+   "repaso": false,
+   "codigos": [
+    "6.02.4.001"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Oftalmoscopía directa: ojo derecho con ojo derecho; reflejo rojo y acercarse hasta {{c1::2 a 3 cm}}.",
+   "extra": "La mácula está un diámetro papilar hacia temporal.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Oftalmoscopía",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.010"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "No se dilata con tropicamida si hay {{c1::ángulo estrecho}} ni vigilancia pupilar neurológica.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Dilatar",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.010"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Colirios: una gota en el fondo de saco inferior y comprimir el canto interno {{c1::1 a 2 minutos}}.",
+   "extra": "Reduce el efecto sistémico del timolol.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Colirios",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.009"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Entre dos colirios esperar {{c1::5 minutos}}; los ungüentos van al final; desechar el frasco 4 semanas después.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Colirios",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.009"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-07/01_papila-glaucomatosa__amir-oftalmo_p34.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Papila glaucomatosa",
+   "clave": "Excavación aumentada con adelgazamiento del anillo",
+   "conducta": "Derivar; latanoprost nocturno si se confirma",
+   "fuente": "Manual AMIR Oftalmología, p. 34",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 84"
+   ],
+   "codigos": [
+    "6.02.1.013",
+    "6.02.4.001"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-07/01_papila-glaucomatosa_alt1_2__amir-oftalmo_p35.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Pérdida progresiva del campo",
+   "clave": "Campo que se cierra hasta un túnel",
+   "conducta": "Análogo de prostaglandina de por vida",
+   "fuente": "Manual AMIR Oftalmología, p. 35",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 166"
+   ],
+   "codigos": [
+    "6.02.1.013",
+    "6.02.4.001"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-07/55_glaucoma-congenito-buftalmos__kanski_p398.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Buftalmos con opacidad",
+   "clave": "Ojo agrandado con córnea lechosa",
+   "conducta": "Urgencia pediátrica: cirugía",
+   "fuente": "Kanski's Clinical Ophthalmology, 8.ª ed., p. 398",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 31"
+   ],
+   "codigos": [
+    "6.02.1.012"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Adulto con factores de riesgo: ¿qué se mira en la papila?",
+   "codigos": [
+    "6.02.1.013",
+    "6.02.4.001"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Excavación mayor de 0,5 o asimetría mayor de 0,2: ¿conducta?",
+   "codigos": [
+    "6.02.1.013",
+    "6.02.4.001"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.0.0",
+   "pista": "Glaucoma crónico confirmado: ¿tratamiento?",
+   "codigos": [
+    "6.02.1.013",
+    "6.02.4.001"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1",
+   "pista": "Papila normal: ¿conducta?",
+   "codigos": [
+    "6.02.1.013",
+    "6.02.4.001"
+   ]
+  }
+ ]
+}

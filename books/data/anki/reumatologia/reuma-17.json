@@ -1,0 +1,520 @@
+{
+  "classId": "reuma-17",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La espondilitis anquilosante predomina en varones (3:1) de {{c1::15 a 30}} años.",
+      "extra": "El inicio después de los 45 años es muy infrecuente.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Epidemiología",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El HLA-B27 está presente en el {{c1::90-95%}} de los pacientes con espondilitis anquilosante.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La anquilosis total de la columna da la imagen de {{c1::columna en caña de bambú}}.",
+      "extra": "Sindesmofitos verticales finos + osificación de ligamentos.",
+      "origen": "foto",
+      "fuente": "Manual CTO Reumatología 14.ª ed., p. 38",
+      "repaso": true,
+      "imagen": "biblioteca/08_reumatologia/reuma-17/01_columna-en-ea-sindesmofitos-bambu_alt1__cto-reuma_p38.jpg",
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Schöber modificado se mide desde las espinas ilíacas posterosuperiores y un punto {{c1::10 cm}} más arriba.",
+      "extra": "Luego se pide flexión máxima con rodillas extendidas.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Exploración",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Schöber patológico: aumento < {{c1::5 cm}} (es decir, menos de 15 cm en total).",
+      "extra": "Indica rigidez lumbar.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Expansión torácica patológica: < {{c1::2,5 cm}} (medida en el 4.º espacio intercostal).",
+      "extra": "Traduce anquilosis costovertebral con patrón restrictivo.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La distancia occipucio-pared > 0 cm indica pérdida de lordosis cervical y {{c1::cifosis dorsal}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Exploración",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La maniobra de {{c1::Patrick (FABER)}} y la de Gaenslen provocan dolor sacroilíaco.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Maniobras sacroilíacas",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterios de Nueva York modificados: criterio clínico + criterio {{c1::radiológico}} de sacroilitis.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Criterios de Nueva York",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterio radiológico NY: sacroilitis bilateral grado ≥ {{c1::2}} o unilateral grado 3-4.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hallazgos precoces vertebrales: cuadratura de cuerpos y erosiones de esquina de {{c1::Romanus}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Hallazgos radiológicos",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fase avanzada de la EA: sindesmofitos continuos y signo de la {{c1::vía del tren}} (osificación ligamentosa).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Hallazgos radiológicos",
+      "repaso": false,
+      "imagen": "biblioteca/08_reumatologia/reuma-17/01_columna-en-ea-sindesmofitos-bambu_1__amir-reuma_p79.jpg",
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El examen de oro de la sacroilitis precoz (pre-radiológica) es la {{c1::resonancia con STIR}}.",
+      "extra": "Detecta osteítis años antes que la radiografía.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Resonancia",
+      "repaso": true,
+      "imagen": "biblioteca/08_reumatologia/reuma-17/01_columna-en-ea-sindesmofitos-bambu_2__amir-reuma_p79.jpg",
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 125"
+      ],
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primer estudio ante sospecha de EA en APS: {{c1::radiografía}} de sacroilíacas / columna lumbosacra.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · EA",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 97"
+      ],
+      "codigos": [
+        "1.11.1.018",
+        "6.02.1.030"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La manifestación extraarticular más frecuente de la EA es la uveítis anterior aguda ({{c1::25-30%}}).",
+      "extra": "Unilateral, no granulomatosa y recurrente.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Extraarticulares",
+      "repaso": true,
+      "imagen": "_verificadas/049_reuma_EA_Behçet__KumarClark_p1099.jpg",
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 81",
+        "EUNACOM Enero 2023 · Pregunta 98"
+      ],
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La uveítis anterior da ojo rojo doloroso con inyección ciliar, fotofobia y células en cámara anterior ({{c1::Tyndall}}).",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Uveítis",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Afección cardíaca en EA: insuficiencia aórtica y {{c1::bloqueo auriculoventricular}}.",
+      "extra": "Aortitis de la raíz aórtica.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018",
+        "6.02.1.030"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La insuficiencia aórtica aparece en el {{c1::3-10%}} de los pacientes con EA.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Extraarticulares",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pulmón en EA: fibrosis apical bilateral con cavernas que pueden colonizarse por {{c1::Aspergillus}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Extraarticulares",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La columna rígida predispone a fracturas transdiscales ({{c1::chalk stick}}) con traumas menores.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Extraarticulares",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Toda sospecha de uveítis se deriva a {{c1::oftalmología en 24 horas}}.",
+      "extra": "Demora deja sinequias, catarata, glaucoma o pérdida visual.",
+      "origen": "clase:8",
+      "fuente": "Clase · Conducta ante uveítis",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 81"
+      ],
+      "codigos": [
+        "6.02.1.030",
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Uveítis anterior: nunca iniciar {{c1::corticoide tópico}} sin que el oftalmólogo descarte herpes.",
+      "extra": "Queratitis herpética.",
+      "origen": "clase:8",
+      "fuente": "Clase · Conducta ante uveítis",
+      "repaso": false,
+      "codigos": [
+        "6.02.1.030",
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La uveítis {{c1::anterior}} es la más frecuente (cerca del 75%).",
+      "extra": "La posterior es indolora y sin ojo rojo.",
+      "origen": "clase:7",
+      "fuente": "Clase · Uveítis",
+      "repaso": false,
+      "codigos": [
+        "6.02.1.030"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ojo rojo con pupila midriática y córnea opaca es {{c1::glaucoma agudo}}, no uveítis (que tiene miosis).",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Uveítis",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 46"
+      ],
+      "codigos": [
+        "6.02.1.030",
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Primera línea de la EA: {{c1::AINEs}} a dosis plenas continuas más ejercicio.",
+      "extra": "Alivian > 80% y enlentecen sindesmofitos.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 110"
+      ],
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Naproxeno en EA: {{c1::500 mg cada 12 horas}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Indometacina en EA: {{c1::50-75 mg cada 12 horas}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En compromiso axial puro de la EA el {{c1::metotrexato}} no sirve.",
+      "extra": "Tampoco la sulfasalazina, salvo artritis periférica.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se indica anti-TNF si BASDAI ≥ {{c1::4}} tras ≥ 2 AINEs a dosis plenas por al menos 4 semanas.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Terapia biológica",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES: la espondiloartritis con falla de AINEs recibe {{c1::biológicos anti-TNF}} en centros especializados.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Perfil · GES",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Antes de iniciar un anti-TNF se descarta {{c1::tuberculosis latente}} (Rx de tórax más PPD o IGRA) y hepatitis B, C y VIH.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Cribado prebiológico",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La DISH (Forestier) afecta a varones > 60 años con diabetes y las sacroilíacas están {{c1::normales}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-17/01_columna-en-ea-sindesmofitos-bambu_alt1__cto-reuma_p38.jpg",
+      "pregunta": true,
+      "diagnostico": "Columna en caña de bambú (EA)",
+      "clave": "Sindesmofitos verticales finos que fusionan los cuerpos vertebrales",
+      "conducta": "AINEs continuos, ejercicio y reumatología; anti-TNF si falla",
+      "fuente": "Manual CTO Reumatología 14.ª ed., p. 38",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-17/01_columna-en-ea-sindesmofitos-bambu_2__amir-reuma_p79.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Sacroilitis en RM (T1 y STIR)",
+      "clave": "Edema óseo subcondral activo con radiografía a menudo normal",
+      "conducta": "Iniciar AINEs y derivar a reumatología",
+      "fuente": "Manual AMIR Reumatología, p. 79",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_verificadas/049_reuma_EA_Behçet__KumarClark_p1099.jpg",
+      "pregunta": true,
+      "diagnostico": "Uveítis anterior aguda",
+      "clave": "Ojo rojo con inyección ciliar, miosis y fotofobia",
+      "conducta": "Derivar a oftalmología en 24 horas; corticoide tópico por el especialista",
+      "fuente": "Kumar and Clark's Clinical Medicine, p. 1099",
+      "repaso": false,
+      "codigos": [
+        "6.02.1.030"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0.0",
+      "pista": "Sacroilitis radiológica confirmada: ¿primer paso de tratamiento?",
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0.0.0.0",
+      "pista": "AINEs insuficientes tras 2 fármacos: ¿qué escalamiento y qué NO usar?",
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0.0.1",
+      "pista": "Radiografía normal con alta sospecha: ¿qué examen?",
+      "codigos": [
+        "1.11.1.018"
+      ]
+    }
+  ]
+}

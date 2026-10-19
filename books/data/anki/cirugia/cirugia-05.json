@@ -1,0 +1,528 @@
+{
+ "classId": "cirugia-05",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La peritonitis primaria o {{c1::espontánea}} es la infección del líquido ascítico en cirróticos o nefróticos, sin foco intraabdominal.",
+   "extra": "Por traslocación bacteriana; es monomicrobiana.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clasificación",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.003"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El germen más frecuente de la PBE es {{c1::Escherichia coli}} (60%).",
+   "extra": "Luego Klebsiella y neumococo.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clasificación",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.003"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La PBE se confirma por paracentesis con PMN ≥ {{c1::250/mm³}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 PBE",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.003"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "La PBE se trata con {{c1::cefotaxima o ceftriaxona EV}}, más albúmina; la cirugía está contraindicada.",
+   "extra": "La albúmina previene el síndrome hepatorrenal.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 PBE",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.003"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La peritonitis secundaria es más del {{c1::90%}} de las peritonitis quirúrgicas y es polimicrobiana.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Secundaria",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.003"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La peritonitis secundaria se debe a perforación de víscera hueca o {{c1::dehiscencia anastomótica}}; se opera de urgencia.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Secundaria",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.003"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La peritonitis {{c1::terciaria}} aparece tras más de 48 horas de una cirugía aparentemente adecuada, en críticos, con gérmenes multirresistentes.",
+   "extra": "Enterococcus faecium, Candida, Pseudomonas.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Terciaria",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.003"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Cirrótico con ascitis y PMN > 250: el error es {{c1::operar de urgencia}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.003"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El dolor de la úlcera perforada es de inicio hiperagudo, «en {{c1::puñalada}}», en epigastrio, y se generaliza.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Abdomen perforativo",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 162"
+   ],
+   "codigos": [
+    "4.01.2.002"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la úlcera perforada el paciente permanece {{c1::inmóvil}} porque cualquier movimiento aumenta el dolor.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Abdomen perforativo",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.002"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La contractura rígida involuntaria en los cuatro cuadrantes se llama abdomen {{c1::en tabla}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Abdomen perforativo",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.002"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El signo de {{c1::Jobert}} es la desaparición de la matidez hepática por gas libre.",
+   "extra": "Indica neumoperitoneo.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Abdomen perforativo",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 169",
+    "EUNACOM Enero 2023 · Pregunta 174"
+   ],
+   "codigos": [
+    "4.01.2.002"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El examen inicial ante sospecha de úlcera perforada es la {{c1::radiografía de tórax de pie}}.",
+   "extra": "Busca la semiluna de aire subdiafragmática.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Diagnóstico",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-05/01_neumoperitoneo__cto-digestivo_p65.jpg",
+   "codigos": [
+    "4.01.4.001",
+    "4.01.2.002"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La radiografía muestra neumoperitoneo en más del {{c1::75-80%}} de los casos.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "4.01.4.001",
+    "4.01.2.002"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si la radiografía es dudosa y la sospecha persiste, se pide {{c1::TAC de abdomen y pelvis}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.002"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Con sospecha de úlcera perforada, el error es pedir {{c1::endoscopía de entrada}}.",
+   "extra": "La insuflación empeora el cuadro.",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.06.1.030"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antes de operar: cristaloides por {{c1::dos vías gruesas}} y sonda nasogástrica.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.003"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Antibióticos en peritonitis: {{c1::ceftriaxona 2 g/día}} más {{c2::metronidazol 500 mg c/8h}}, o piperacilina/tazobactam.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.003"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La úlcera perforada se cierra con lavado profuso y {{c1::parche de epiplón (técnica de Graham)}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.003",
+    "1.06.1.030"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El lavado peritoneal se hace con suero tibio, {{c1::6 a 10 litros}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.003",
+    "1.06.1.030"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Neumoperitoneo confirmado: el error es tratar {{c1::solo con antibióticos}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.01.4.001",
+    "4.01.2.002"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Fiebre persistente 48 horas después de operar: sospechar {{c1::peritonitis terciaria}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.003"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "H. pylori causa cerca del {{c1::90%}} de las úlceras duodenales y {{c2::70%}} de las gástricas.",
+   "extra": "Luego AINE; menos, estrés, tabaco y Zollinger-Ellison.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Úlcera péptica",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 12"
+   ],
+   "codigos": [
+    "1.06.1.030"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La úlcera {{c1::duodenal}} calma con la comida y es nocturna; la {{c2::gástrica}} empeora con la ingesta y baja de peso.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Úlcera péptica",
+   "repaso": false,
+   "codigos": [
+    "1.06.1.030"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Toda úlcera gástrica se {{c1::biopsia}} para descartar cáncer y se controla hasta cicatrizar.",
+   "extra": "Una EDA de control.",
+   "origen": "clase:2",
+   "fuente": "Clase · Úlcera péptica",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 163"
+   ],
+   "codigos": [
+    "1.06.1.030"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Para confirmar H. pylori sirven ureasa, antígeno fecal o test de aliento; el control no se hace con {{c1::serología}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Úlcera péptica",
+   "repaso": false,
+   "codigos": [
+    "1.06.1.030"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Erradicación de H. pylori por {{c1::14 días}}: IBP + amoxicilina {{c2::1 g}} + claritromicina {{c3::500 mg}}, cada 12 horas.",
+   "extra": "Cuádruple con bismuto si alergia a penicilina o fracaso.",
+   "origen": "clase:3",
+   "fuente": "Clase · Tratamiento",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 12",
+    "EUNACOM Diciembre 2019 · Pregunta 70"
+   ],
+   "codigos": [
+    "1.06.1.030"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El control de erradicación es ≥ {{c1::4 semanas}} tras los antibióticos y 2 semanas sin IBP.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Control",
+   "repaso": false,
+   "codigos": [
+    "1.06.1.030"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tras suspender AINE y tabaco, el IBP se da por {{c1::4 a 8 semanas}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Úlcera péptica",
+   "repaso": false,
+   "codigos": [
+    "1.06.1.030"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La cirugía en úlcera se reserva para perforación, hemorragia que no cede a la endoscopía, obstrucción pilórica y {{c1::úlcera refractaria o sospechosa de cáncer}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Complicaciones",
+   "repaso": false,
+   "codigos": [
+    "1.06.1.030"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En toda mujer en edad fértil con abdomen agudo, lo primero es pedir {{c1::subunidad beta de hCG}}.",
+   "extra": "",
+   "origen": "clase:15",
+   "fuente": "Clase · Quiz abdomen agudo",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.003"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-05/01_neumoperitoneo__cto-digestivo_p65.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Neumoperitoneo",
+   "clave": "Semiluna de aire libre bajo el hemidiafragma",
+   "conducta": "Peritonitis por víscera perforada: reanimación, antibióticos y laparotomía urgente (parche de Graham si es úlcera)",
+   "fuente": "Manual CTO Digestivo 14.ª ed., p. 65",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 169"
+   ],
+   "codigos": [
+    "4.01.2.003"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor epigástrico urente que empeora con el ayuno y se asocia a AINE: {{c1::síndrome ulceroso}} (úlcera péptica).",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic 2025",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 129",
+    "EUNACOM Enero 2023 · Pregunta 70"
+   ],
+   "codigos": [
+    "1.06.1.030"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Úlcera gástrica con ureasa positiva y erradicación de 10 días que fracasa: {{c1::tratamiento erradicador de segunda línea}}.",
+   "extra": "El MINSAL recomienda 14 días.",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul 2015",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 124"
+   ],
+   "codigos": [
+    "1.06.1.030"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antecedente de úlcera gastroduodenal con anemia ferropénica: {{c1::endoscopía digestiva alta}}.",
+   "extra": "El dolor ulceroso sospechado también se estudia con EDA.",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Ene 2023",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 71",
+    "EUNACOM Diciembre 2018 · Pregunta 15"
+   ],
+   "codigos": [
+    "1.06.1.030"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0.0",
+   "pista": "PBE con PMN ≥ 250: ¿tratamiento?",
+   "codigos": [
+    "4.01.2.003",
+    "1.06.1.030"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.0",
+   "pista": "Neumoperitoneo en radiografía: ¿conducta?",
+   "codigos": [
+    "4.01.2.003",
+    "1.06.1.030"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.1",
+   "pista": "Radiografía dudosa con sospecha alta: ¿qué examen?",
+   "codigos": [
+    "4.01.2.003",
+    "1.06.1.030"
+   ]
+  }
+ ]
+}

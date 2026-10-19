@@ -1,0 +1,579 @@
+{
+  "classId": "nefro-21",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La cistitis compromete solo la mucosa vesical y {{c1::nunca da fiebre}}; si hay fiebre o dolor lumbar es pielonefritis.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cistitis",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.011",
+        "4.03.1.015"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El agente principal de PNA es {{c1::E. coli}} (75–85 %), seguido de Klebsiella y Proteus.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.016",
+        "1.09.2.011"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La PNA cursa con bacteriemia en el {{c1::20–30 %}} de los casos.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · De la vejiga al riñón",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.016",
+        "1.09.2.011"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tríada de PNA: fiebre > {{c1::38,5 °C}} con calofríos, dolor lumbar con Giordano + y síntomas urinarios bajos.",
+      "extra": "Los síntomas bajos pueden faltar en el anciano.",
+      "origen": "clase:5",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.016",
+        "1.09.2.011"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hallazgo del sedimento que certifica origen renal de la infección: {{c1::cilindros leucocitarios}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "imagen": "biblioteca/03_nefrologia/nefro-21/02_tipos-de-cilindros__cto-nefro_p34.jpg",
+      "codigos": [
+        "1.09.1.016",
+        "1.09.2.011"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PNA: leucocituria, bacteriuria, microhematuria y {{c1::cilindros leucocitarios}} en el sedimento.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Diagnóstico",
+      "repaso": false,
+      "imagen": "biblioteca/03_nefrologia/nefro-21/01_sedimento-con-leucocituria__cto-nefro_p33.jpg",
+      "codigos": [
+        "1.09.1.016",
+        "4.03.1.015"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En PNA el urocultivo con antibiograma se toma {{c1::antes del primer antibiótico}}, sin retrasar el tratamiento empírico.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": true,
+      "codigos": [
+        "1.09.4.017",
+        "1.02.4.025"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterio de hospitalización en PNA: {{c1::embarazo}} en cualquier trimestre.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Criterios de hospitalización",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 8"
+      ],
+      "codigos": [
+        "1.09.2.011",
+        "1.09.1.016"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Otros criterios de hospitalización en PNA: intolerancia oral, sepsis, falla renal u obstrucción, {{c1::inmunosupresión}} o DM descompensada.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Criterios de hospitalización",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.011",
+        "1.09.1.016"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "PNA no complicada ambulatoria: ciprofloxacino {{c1::500 mg c/12 h por 7 días}}.",
+      "extra": "Control clínico a las 48–72 h.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla esquemas PNA",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 38"
+      ],
+      "codigos": [
+        "1.09.2.011",
+        "1.09.1.016"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa oral en PNA: cefadroxilo o cefixima por {{c1::10 a 14 días}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla esquemas PNA",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.016",
+        "1.09.2.011"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "PNA hospitalizada: {{c1::ceftriaxona}} 1–2 g IV c/24 h o cefotaximo 1–2 g IV c/8 h.",
+      "extra": "Pasar a oral tras 48 h afebril; total 10 a 14 días.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla esquemas PNA",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 138"
+      ],
+      "codigos": [
+        "1.09.2.011",
+        "1.09.1.016"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "PNA con sospecha de BLEE o shock séptico: {{c1::ertapenem 1 g/día o meropenem}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla esquemas PNA",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 38"
+      ],
+      "codigos": [
+        "1.09.2.011",
+        "1.09.1.016"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "E. coli resistente a cefalosporinas es BLEE: el tratamiento de elección es un {{c1::carbapenémico}}.",
+      "extra": "La nitrofurantoína no alcanza el parénquima renal.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Jul. 2013",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 38"
+      ],
+      "codigos": [
+        "1.09.1.011",
+        "4.03.1.015"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PNA en el embarazo: se hospitaliza {{c1::siempre}}, en cualquier semana de gestación.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · PNA en la embarazada",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 8"
+      ],
+      "codigos": [
+        "1.09.2.011",
+        "1.09.1.016"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "PNA en la embarazada: {{c1::ceftriaxona 1 g/día IV}} por 10 a 14 días.",
+      "extra": "Urocultivo de control a los 7 días.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla esquemas PNA",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 8"
+      ],
+      "codigos": [
+        "1.09.4.017",
+        "1.02.4.025"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el embarazo el ciprofloxacino está {{c1::contraindicado}} por toxicidad en el cartílago fetal.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · PNA en la embarazada",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.011",
+        "1.09.1.016"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La nitrofurantoína no sirve en PNA porque {{c1::no alcanza el parénquima renal}}; es solo para cistitis.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Jul. 2024",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.011",
+        "4.03.1.015"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "PNA que sigue febril a las {{c1::48–72 horas}} con antibiótico adecuado: pedir imagen.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.011",
+        "1.09.1.016"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PNA sin respuesta con germen sensible: pedir {{c1::TAC con contraste}} para descartar absceso u obstrucción.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz caso",
+      "repaso": true,
+      "imagen": "biblioteca/07_nefrologia/nefro-21/05_absceso_renal_tac__nelson_p4209.jpg",
+      "codigos": [
+        "1.09.2.011",
+        "1.09.1.016"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "PNA sin respuesta con germen sensible: el error es {{c1::solo cambiar el antibiótico}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Si no responde",
+      "repaso": false,
+      "imagen": "biblioteca/03_nefrologia/nefro-21/03_ecografia-hidronefrosis__bailey-love_p1433.jpg",
+      "codigos": [
+        "1.09.1.016",
+        "1.09.2.011"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PNA con litiasis obstructiva: emergencia urológica; se {{c1::descomprime la vía}} (catéter doble J o nefrostomía).",
+      "extra": "El cálculo se trata después.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Ago. 2021",
+      "repaso": false,
+      "imagen": "biblioteca/03_nefrologia/nefro-21/04_tac-calculos-renales__bailey-love_p1410.jpg",
+      "codigos": [
+        "1.09.2.011",
+        "1.09.1.016"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La cistitis se diagnostica clínicamente; la tira muestra {{c1::leucocito esterasa y nitritos}} positivos.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cistitis",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.011",
+        "4.03.1.015"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Urocultivo en cistitis solo si hay embarazo, hombre, diabetes, sonda, falla de tratamiento o {{c1::recurrencia}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cistitis",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.011",
+        "4.03.1.015"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Cistitis: nitrofurantoína {{c1::100 mg c/6 h por 5 días}}; evitar con TFG < 30 mL/min.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento de la cistitis",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.011",
+        "4.03.1.015"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Cistitis: fosfomicina {{c1::3 g}} en dosis única.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento de la cistitis",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.011",
+        "4.03.1.015"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Cistitis: cotrimoxazol 160/800 c/12 h por 3 días solo si la resistencia local es < {{c1::20 %}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento de la cistitis",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.011",
+        "4.03.1.015"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Cistitis en el embarazo: {{c1::cefadroxilo o amoxicilina}} por 7 días, con urocultivo de control.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento de la cistitis",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.011",
+        "4.03.1.015"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Bacteriuria asintomática: urocultivo ≥ {{c1::10⁵ UFC/mL}} del mismo germen, sin síntomas.",
+      "extra": "Dos muestras en la mujer, una en el hombre.",
+      "origen": "clase:4",
+      "fuente": "Clase · Bacteriuria asintomática",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.005",
+        "1.09.4.017"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La bacteriuria asintomática solo se trata en embarazo, antes de procedimiento urológico con {{c1::sangrado}} y en trasplante renal reciente.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Bacteriuria asintomática",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.005",
+        "1.09.4.017"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Bacteriuria asintomática en adulto mayor, diabético o con sonda: el error es {{c1::tratarla}}.",
+      "extra": "No previene complicaciones y selecciona resistencia.",
+      "origen": "clase:4",
+      "fuente": "Clase · Bacteriuria asintomática",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 51"
+      ],
+      "codigos": [
+        "1.09.1.005",
+        "1.09.4.017"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "ITU recurrente: ≥ {{c1::3}} episodios al año o ≥ 2 en 6 meses.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · ITU recurrente",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.006",
+        "4.03.1.015"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "ITU recurrente asociada al coito: profilaxis antibiótica {{c1::poscoital}} (nitrofurantoína o cotrimoxazol).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · ITU recurrente",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 6",
+        "EUNACOM Julio 2025 · Pregunta 108"
+      ],
+      "codigos": [
+        "1.09.3.006",
+        "4.03.1.015"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Nitrofurantoína profiláctica en paciente con fibrosis pulmonar: se cambia a {{c1::cotrimoxazol}}.",
+      "extra": "Riesgo de toxicidad pulmonar.",
+      "origen": "clase:4",
+      "fuente": "Clase · ITU recurrente",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 93"
+      ],
+      "codigos": [
+        "1.09.3.006",
+        "4.03.1.015"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "ITU febril 7 días después de cirugía transuretral (germen hospitalario): la respuesta oficial es {{c1::imipenem}} (carbapenémico).",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Preguntas reales",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2018 · Pregunta 4"
+      ],
+      "codigos": [
+        "1.09.2.011",
+        "1.09.1.016"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/07_nefrologia/nefro-21/05_absceso_renal_tac__nelson_p4209.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Absceso renal en TAC con contraste",
+      "clave": "Colección hipodensa en el parénquima renal",
+      "conducta": "PNA sin mejoría a las 48–72 h: drenaje del absceso y antibiótico según antibiograma",
+      "fuente": "Nelson Pediatría 22.ª ed., p. 4209",
+      "repaso": true,
+      "codigos": [
+        "1.09.4.017",
+        "1.02.4.025"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "¿Hay criterio de hospitalización?",
+      "codigos": [
+        "1.09.2.011",
+        "1.09.1.016"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0",
+      "pista": "Embarazo con PNA: ¿qué conducta?",
+      "codigos": [
+        "1.09.2.011",
+        "1.09.1.016"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2",
+      "pista": "Sin criterios de hospitalización: ¿qué manejo?",
+      "codigos": [
+        "1.09.2.011",
+        "1.09.1.016"
+      ]
+    }
+  ]
+}

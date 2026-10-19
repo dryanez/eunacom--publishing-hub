@@ -1,0 +1,562 @@
+{
+ "classId": "oftal-02",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Conjuntivitis bacteriana común: S. aureus, neumococo y H. influenzae; secreción {{c1::mucopurulenta}} espesa que pega las pestañas al despertar.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Bacteriana",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-02/02_conjuntivitis_bacteriana__kanski_p147.jpg",
+   "codigos": [
+    "6.02.1.005",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Es una inyección conjuntival difusa, sin dolor profundo ni {{c1::alteración visual}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Bacteriana",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-02/01_conjuntivitis-aguda__cto-oftalmo_p33.jpg",
+   "codigos": [
+    "6.02.1.005",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tratamiento: suero fisiológico y colirio de cloranfenicol 0,5% o ciprofloxacino cada 4 horas por {{c1::7 días}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Tratamiento",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.005",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si la bacteriana no responde en {{c1::48-72 horas}}, derivar a oftalmología.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Derivación",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.005",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Conjuntivitis tratada con cloranfenicol que empeora con edema palpebral y quemosis: {{c1::celulitis orbitaria}}.",
+   "extra": "Hombre de 35 años con colirio cada 8 horas.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Complicación",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 44"
+   ],
+   "codigos": [
+    "6.02.1.005",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Conjuntivitis hiperaguda: {{c1::Neisseria gonorrhoeae}}; secreción purulenta en chorro y quemosis severa.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Gonocócica",
+   "repaso": false,
+   "imagen": "_verificadas/77_conjuntivitis_neonatal__KanskisClini_p152_1.jpg",
+   "codigos": [
+    "6.02.1.005",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El gonococo puede perforar la córnea {{c1::intacta}}; riesgo crítico en 48 horas.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Gonocócica",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.005",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Gonocócica: ceftriaxona {{c1::1 g}} IM o EV (neonatos 25-50 mg/kg) más lavados continuos.",
+   "extra": "Recién nacido de 4 días con Gram de diplococos gramnegativos.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Tratamiento",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.005",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Oftalmia neonatorum gonocócica: aparece a los {{c1::2 a 5 días}} de vida.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Neonatal",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.005",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Recién nacido de 20 días con eritema conjuntival y secreción escasa: {{c1::Chlamydia trachomatis}}.",
+   "extra": "Parto domiciliario sin control prenatal; la gonocócica es más precoz y purulenta.",
+   "origen": "clase:12",
+   "fuente": "Clase · Quiz",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 32",
+    "EUNACOM Agosto 2021 · Pregunta 39"
+   ],
+   "codigos": [
+    "6.02.1.005",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Conjuntivitis viral por {{c1::adenovirus}} (serotipos 8, 19 y 37): contagio mano-ojo y fómites.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Viral",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.008",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Clínica: secreción acuosa, arenilla, folículos en la tarsal inferior y {{c1::adenopatía preauricular dolorosa}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Viral",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-02/01_conjuntivitis_viral__kanski_p155.jpg",
+   "codigos": [
+    "6.02.1.008",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fiebre faringoconjuntival: conjuntivitis con fiebre, {{c1::odinofagia}} y síntomas catarrales; bilateraliza en 2 a 3 días.",
+   "extra": "Niño de 4 años con familiares enfermos: adenovirus.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Fiebre faringoconjuntival",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 123"
+   ],
+   "codigos": [
+    "6.02.1.008",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento viral: compresas frías, lágrimas artificiales, {{c1::lavado de manos}} y aislamiento.",
+   "extra": "Niño con fiebre, odinofagia y ojo rojo bilateral: aseo ocular con suero fisiológico.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tratamiento viral",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 22"
+   ],
+   "codigos": [
+    "6.02.1.008",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Reposo o aislamiento por {{c1::7 a 10 días}} por el alto contagio.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Licencia",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.008",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Preescolar con fiebre, odinofagia y ojo rojo bilateral: la pregunta oficial de 2022 marcó {{c1::ungüento de cloranfenicol}}.",
+   "extra": "Posible discrepancia: el cuadro viral es de soporte.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Discrepancia",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 10"
+   ],
+   "codigos": [
+    "6.02.1.008",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El adenovirus puede dejar infiltrados {{c1::numulares}} subepiteliales corneales.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Complicación",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.008",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Conjuntivitis alérgica: hipersensibilidad tipo {{c1::I}} por IgE y degranulación de mastocitos.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Alérgica",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.007",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo cardinal alérgico: {{c1::prurito}} intenso y bilateral; sin prurito es muy improbable.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Alérgica",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.007",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Quemosis y papilas en {{c1::empedrado}} de la conjuntiva tarsal superior.",
+   "extra": "Escolar de 8 años con prurito estacional.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Alérgica",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-02/02_conjuntivitis-alergica-vernal-papilar-gi__cto-oftalmo_p35.jpg",
+   "codigos": [
+    "6.02.1.007",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tratamiento: evitar el alérgeno, compresas frías y {{c1::olopatadina}} 0,1% cada 12 horas (o ketotifeno).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.007",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Los corticoides tópicos se reservan para casos graves con {{c1::oftalmólogo}}; en APS ninguna conjuntivitis los lleva.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Corticoides",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.007",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Conjuntivitis bacteriana crónica: más de {{c1::4 semanas}} o recurrente; casi siempre blefaroconjuntivitis estafilocócica.",
+   "extra": "Asma y rosácea con ojo rojo bilateral de meses.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Crónica",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 75"
+   ],
+   "codigos": [
+    "6.02.1.006"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otros agentes crónicos: Moraxella lacunata (conjuntivitis angular) y Chlamydia trachomatis ({{c1::tracoma}}).",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Agentes",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.006"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Crónica: higiene palpebral, ungüento de {{c1::eritromicina}} nocturno 2 a 3 semanas y lágrimas artificiales.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.006"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Derivar si no mejora en {{c1::2 semanas}}, o si hay cicatrización, pannus, triquiasis o compromiso corneal.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Derivar",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.006"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se cultiva en conjuntivitis neonatal, hiperaguda, crónica, recurrente, refractaria o en usuarios de {{c1::lentes de contacto}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Cultivo",
+   "repaso": false,
+   "codigos": [
+    "6.02.4.002"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La muestra se toma antes del antibiótico y sin {{c1::anestésico}}: sus conservantes inhiben el crecimiento.",
+   "extra": "Tórula húmeda en el fondo de saco inferior; agar sangre y chocolate.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Técnica",
+   "repaso": true,
+   "codigos": [
+    "6.02.4.002"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Diplococos gramnegativos intracelulares en un cuadro hiperagudo: {{c1::gonococo}}; ceftriaxona sistémica y derivación urgente.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Gram",
+   "repaso": false,
+   "codigos": [
+    "6.02.4.002"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Ungüento oftálmico: cinta de {{c1::1 cm}} en el fondo de saco inferior sin que el tubo toque ojo ni pestañas.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Ungüento",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.001"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si se usan colirios y ungüento, primero los {{c1::colirios}}, se espera 5 minutos y luego el ungüento.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Ungüento",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.001"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-02/02_conjuntivitis_bacteriana__kanski_p147.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Conjuntivitis bacteriana",
+   "clave": "Secreción mucopurulenta que aglutina las pestañas",
+   "conducta": "Cloranfenicol tópico 7 días",
+   "fuente": "Kanski's Clinical Ophthalmology, 8.ª ed., p. 147",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 44"
+   ],
+   "codigos": [
+    "6.02.1.005",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-02/01_conjuntivitis_viral__kanski_p155.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Folículos virales",
+   "clave": "Conjuntiva rosada con pequeños folículos",
+   "conducta": "Soporte y aislamiento",
+   "fuente": "Kanski's Clinical Ophthalmology, 8.ª ed., p. 155",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 123"
+   ],
+   "codigos": [
+    "6.02.1.008",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-02/02_conjuntivitis-alergica-vernal-papilar-gi__cto-oftalmo_p35.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Papilas gigantes (vernal)",
+   "clave": "Papilas en empedrado en el párpado superior evertido",
+   "conducta": "Antihistamínico tópico",
+   "fuente": "Manual CTO Oftalmología 14.ª ed., p. 35",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.007",
+    "2.01.1.095"
+   ]
+  },
+  {
+   "id": "i04",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "_verificadas/77_conjuntivitis_neonatal__KanskisClini_p152_1.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Oftalmía neonatal gonocócica",
+   "clave": "Párpados edematosos y secreción purulenta en chorro",
+   "conducta": "Ceftriaxona sistémica y lavados",
+   "fuente": "Kanski's Clinical Ophthalmology, 8.ª ed., p. 152",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.005",
+    "2.01.1.095"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Secreción mucopurulenta con pestañas pegadas: ¿tratamiento?",
+   "codigos": [
+    "2.01.1.095",
+    "6.02.1.005"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1",
+   "pista": "Secreción acuosa con adenopatía preauricular: ¿diagnóstico y manejo?",
+   "codigos": [
+    "2.01.1.095",
+    "6.02.1.005"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.2",
+   "pista": "Prurito intenso bilateral: ¿tratamiento?",
+   "codigos": [
+    "2.01.1.095",
+    "6.02.1.005"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.3",
+   "pista": "Secreción en chorro con quemosis severa: ¿conducta?",
+   "codigos": [
+    "2.01.1.095",
+    "6.02.1.005"
+   ]
+  }
+ ]
+}

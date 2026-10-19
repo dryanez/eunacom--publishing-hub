@@ -1,0 +1,585 @@
+{
+ "classId": "resp-15",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Exudado pleural con > {{c1::50%}} de linfocitos y escasas células mesoteliales: sospechar TBC o cáncer.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Exudado linfocítico",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.013",
+    "1.05.1.010"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las dos primeras sospechas del exudado linfocítico son {{c1::tuberculosis pleural y derrame neoplásico}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Exudado linfocítico",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.013",
+    "1.05.1.010"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otras causas más lejanas de exudado linfocítico: linfoma y {{c1::pleuritis reumatoidea}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.010"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La pleuritis tuberculosa ocurre por rotura de un {{c1::foco caseoso subpleural}} con hipersensibilidad retardada.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pleuritis TBC",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.013"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Paciente típico de pleuritis TBC: adulto joven con fiebre, tos seca y {{c1::dolor pleurítico}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pleuritis TBC",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.013"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "ADA en líquido pleural ≥ {{c1::40 U/L}} orienta a tuberculosis pleural.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.013"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El ADA ≥ 40 U/L tiene sensibilidad y especificidad > {{c1::90–95%}} para TBC pleural.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pleuritis TBC",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.013"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La TBC pleural es una reacción {{c1::paucibacilar}} inmunológica: hay pocos bacilos.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pleuritis TBC",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.013"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Baciloscopía directa del líquido pleural en TBC: rendimiento < {{c1::10%}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.013"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Una baciloscopía negativa del líquido pleural {{c1::no descarta}} TBC pleural.",
+   "extra": "",
+   "origen": "clase:15",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.013"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Confirmación de TBC pleural: {{c1::biopsia pleural con aguja}} (Cope o Abrams).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pleuritis TBC",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.013",
+    "1.05.5.002"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La biopsia de TBC pleural muestra granulomas con {{c1::necrosis caseosa}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla TBC vs neoplásico",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.013",
+    "1.05.5.002"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La biopsia con aguja demuestra granulomas en más del {{c1::80%}} de los casos.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pleuritis TBC",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.013",
+    "1.05.5.002"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La pleuritis tuberculosa se trata con esquema {{c1::RHZE}} habitual.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pleuritis TBC",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.013"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Líquido de la TBC pleural: amarillo cetrino o {{c1::serofibrinoso}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla TBC vs neoplásico",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.013"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Líquido del derrame neoplásico: {{c1::serohemático o hemorrágico}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla TBC vs neoplásico",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.010"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Derrame neoplásico: adulto mayor de {{c1::50–60 años}}, ADA bajo.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.010"
+   ],
+   "imagen": "_verificadas/342_resp_Derrame_linfocítico_TBC_vs_cán__nelsontext_p3358_1.jpg"
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "ADA bajo en derrame neoplásico: < {{c1::40 U/L}}.",
+   "extra": "Excepción rara: linfomas.",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.010"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causa más común de derrame maligno: {{c1::adenocarcinoma de pulmón}}; también mama, linfoma y mesotelioma.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Derrame maligno",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 120",
+    "EUNACOM Julio 2019 · Pregunta 116"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La citología del líquido pleural diagnostica el {{c1::60%}} de los derrames malignos en la primera muestra.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.010"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Con una segunda muestra de citología la sensibilidad sube a {{c1::80–85%}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Derrame maligno",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.010"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Citología negativa y sospecha persistente: biopsia pleural por {{c1::videotoracoscopía (VATS)}}.",
+   "extra": "Gold standard definitivo.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Derrame maligno",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.010",
+    "1.05.5.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 164",
+    "EUNACOM Diciembre 2019 · Pregunta 87"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Adulto fumador con disnea progresiva, baja de peso y derrame pleural: se sospecha {{c1::derrame pleural maligno}}.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 120"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Derrame linfocítico con pH normal y mononucleares en fumador de 68 años: lo más probable es {{c1::cáncer bronquial}}.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 116"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El derrame maligno corresponde a estadio {{c1::M1a}} en cáncer pulmonar: el objetivo es paliativo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Manejo",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.010"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primera medida paliativa de la disnea por derrame maligno: {{c1::toracocentesis evacuadora}} SOS.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Tratamiento paliativo",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.010"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Pleurodesis química con {{c1::talco estéril}} sella el espacio pleural y evita la recidiva.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.010"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Alternativa a la pleurodesis: catéter pleural tunelizado ({{c1::PleurX}}) con drenaje domiciliario.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Manejo",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.010"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El mesotelioma es el tumor {{c1::primario}} de la pleura.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Mesotelioma",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.042",
+    "1.05.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 20",
+    "EUNACOM Diciembre 2025 · Pregunta 176"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El mesotelioma se asocia casi siempre a exposición a {{c1::asbesto}}.",
+   "extra": "Minería, construcción, astilleros, aislación.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Mesotelioma",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.042"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 20",
+    "EUNACOM Diciembre 2025 · Pregunta 176"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Latencia del mesotelioma tras el asbesto: {{c1::20 a 40 años}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Mesotelioma",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.042"
+   ],
+   "imagen": "biblioteca/02_neumologia/resp-15/10_mesotelioma-tc-engrosamiento-pleural__ctmri-atlas_p242.jpg"
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mesotelioma en TAC: engrosamiento pleural {{c1::nodular o circunferencial}} con retracción del hemitórax.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Mesotelioma",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.042"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El mesotelioma da derrame pleural unilateral {{c1::serohemático}} recurrente.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Mesotelioma",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.042"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el mesotelioma la citología rinde poco: el diagnóstico exige {{c1::biopsia pleural}} con inmunohistoquímica.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Mesotelioma",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.042",
+    "1.05.5.002"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Sobrevida promedio del mesotelioma: {{c1::1 año}}; solo se opera si es muy inicial.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Mesotelioma",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.042"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El mesotelioma es enfermedad profesional notificable según la Ley {{c1::16.744}}.",
+   "extra": "Nivel del Perfil: sospecha y derivación.",
+   "origen": "clase:5",
+   "fuente": "Clase · Mesotelioma",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.042"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "El GES de este tema incluye cáncer de pulmón y {{c1::tuberculosis}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro · Perfil GES",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.013",
+    "1.05.1.010"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Exudado linfocítico: primero se mide el {{c1::ADA}} en líquido pleural.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.013",
+    "1.05.1.010"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "_verificadas/342_resp_Derrame_linfocítico_TBC_vs_cán__nelsontext_p3358_1.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Derrame pleural neoplásico masivo",
+   "clave": "Hemitórax opaco en adulto mayor con líquido serohemático",
+   "conducta": "Citología; si es negativa y persiste la sospecha, VATS; paliar con talco o catéter tunelizado",
+   "fuente": "Nelson Textbook of Pediatrics, p. 3358",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.010"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-15/10_mesotelioma-tc-engrosamiento-pleural__ctmri-atlas_p242.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Mesotelioma pleural",
+   "clave": "Engrosamiento pleural nodular con exposición a asbesto",
+   "conducta": "Biopsia pleural con inmunohistoquímica; derivar; notificar enfermedad profesional",
+   "fuente": "CT and MRI Pathology atlas, p. 242",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.042"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Exudado linfocítico: ¿qué examen decide?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "ADA ≥ 40 U/L: ¿qué diagnóstico y confirmación?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.0",
+   "pista": "Citología positiva: ¿qué manejo?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.1",
+   "pista": "Citología negativa con sospecha: ¿qué sigue?"
+  }
+ ]
+}

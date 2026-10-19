@@ -1,0 +1,512 @@
+{
+  "classId": "ped-01",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En menores de 5 años, el estado nutricional actual se define con el indicador {{c1::peso para la talla (P/T)}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.003",
+        "2.01.1.001"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Desde los 5 hasta los 19 años el diagnóstico nutricional se hace con el {{c1::IMC para la edad (IMC/E)}}.",
+      "extra": "Reemplaza al P/T con los mismos cortes en DE.",
+      "origen": "clase:3",
+      "fuente": "Clase · Después de los cinco años",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.003",
+        "2.01.1.003"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La talla para la edad (T/E) refleja el crecimiento {{c1::crónico}}, mientras que el P/T refleja el estado nutricional {{c1::actual (agudo)}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Antropometría",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.003",
+        "2.01.5.001"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El peso para la edad (P/E) es un indicador de {{c1::desnutrición global}}; no distingue entre desnutrición actual y talla baja.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Antropometría",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.001",
+        "2.01.1.001"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hasta los 24 meses se mide {{c1::acostado (longitud con infantómetro)}}; desde los 2 años, {{c2::de pie (estatura con estadiómetro)}}.",
+      "extra": "Que el niño ya camine no cambia la técnica.",
+      "origen": "clase:1",
+      "fuente": "Clase · Técnica de medición",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.001"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Desnutrición en menores de 5 años: P/T {{c1::≤ -2.0 DE}}.",
+      "extra": "Severa: ≤ -3.0 DE.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Clasificación Z",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.001",
+        "2.01.3.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Riesgo de desnutrición: P/T entre {{c1::-1.0 y -1.9 DE}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Clasificación Z",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.001",
+        "2.01.3.003"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Eutrófico: P/T entre {{c1::-0.9 y +0.9 DE}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Clasificación Z",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.003"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Sobrepeso: P/T o IMC/E entre {{c1::+1.0 y +1.9 DE}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Clasificación Z",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.003",
+        "2.01.3.003"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Obesidad: P/T o IMC/E entre {{c1::+2.0 y +2.9 DE}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Clasificación Z",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.003",
+        "2.01.3.003"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Obesidad severa: P/T o IMC/E {{c1::≥ +3.0 DE}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Clasificación Z",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.003"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Talla baja: T/E {{c1::≤ -2 DE}}.",
+      "extra": "Equivale a estar bajo el percentil 3.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Criterios MINSAL/OMS",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.076",
+        "2.01.3.003"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Niño de 7 años con IMC/E +2.4 DE y P/T +1.6 DE: el error es usar el P/T; el indicador correcto es {{c1::IMC/E}}, que da obesidad.",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz Obesidad",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.003",
+        "2.01.3.003"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Lactante de 3 meses con lactancia materna exclusiva y P/T +2 DE: la conducta es {{c1::mantener la lactancia a libre demanda}}, sin medidas restrictivas.",
+      "extra": "No se agrega agua ni fórmula ni horarios rígidos.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz EUNACOM Julio 2016 P109",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.003",
+        "2.01.3.003"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Bajo los 2 años, ante malnutrición por exceso {{c1::nunca se indica dieta restrictiva}}.",
+      "extra": "La meta es frenar la ganancia de peso y dejar que la talla crezca.",
+      "origen": "clase:7",
+      "fuente": "Clase · Conducta",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.003"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Riesgo de desnutrición en APS: revisar técnica alimentaria y hacer control abreviado en {{c1::15 a 30 días}}.",
+      "extra": "Si no hay ganancia ponderal tras optimizar la dieta, derivar a pediatría.",
+      "origen": "clase:7",
+      "fuente": "Clase · Conducta",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.001",
+        "2.01.3.003"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La velocidad de crecimiento patológica en edad prepuberal es {{c1::< 4 cm/año}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Talla baja",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.076"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Talla blanco-familiar del niño: {{c1::(talla padre + talla madre + 13) / 2}}; en la niña se {{c2::resta}} 13.",
+      "extra": "Rango de ±8,5 cm.",
+      "origen": "clase:4",
+      "fuente": "Clase · Talla baja",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.076"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con talla baja, una edad ósea igual a la cronológica sugiere {{c1::talla baja familiar}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Qué te dice la edad ósea",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.076",
+        "2.01.4.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 14"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Talla baja con edad ósea retrasada, velocidad normal y pubertad aún no iniciada: {{c1::retraso constitucional del crecimiento}}.",
+      "extra": "La talla adulta final es normal.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Talla baja",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.076",
+        "2.01.4.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 58"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En toda niña con talla baja inexplicada se pide {{c1::cariograma}} para descartar síndrome de Turner.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Causas patológicas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.076"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 63"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una edad ósea adelantada se ve en pubertad precoz, hiperplasia suprarrenal congénita, obesidad exógena e {{c1::hipertiroidismo}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Edad ósea",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.006"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la niña, la telarquia (Tanner M2) normal ocurre entre los {{c1::8 y 13 años}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Pubertad",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.072"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el varón, la pubertad empieza con testículo de {{c1::≥ 4 mL}}, entre los 9 y 14 años.",
+      "extra": "",
+      "origen": "libro:sec:6",
+      "fuente": "Libro §6 Pubertad",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.072"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 146"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pubertad precoz: caracteres sexuales antes de los {{c1::8 años}} en la niña y antes de los {{c2::9 años}} en el varón.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Precoz y retrasada",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.072"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño de 8 años con olor axilar, vello púbico escaso y testículos de 4 cc: {{c1::pubertad precoz central}}.",
+      "extra": "Testículos ≥ 4 mL indican estímulo por gonadotropinas.",
+      "origen": "clase:20",
+      "fuente": "Clase · Quiz EUNACOM Julio 2013 P162",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.072"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 162"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Olor axilar y vello púbico con testículos de 2 cc y edad ósea acorde: {{c1::adrenarquia normal}}.",
+      "extra": "",
+      "origen": "libro:sec:6",
+      "fuente": "Libro §6 Variantes",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.072"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 36"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las variantes puberales (telarquia prematura aislada, adrenarquia) se controlan cada {{c1::3 a 6 meses}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Variantes",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.072"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Macrocefalia: PC {{c1::> +2 DE}}; microcefalia: PC {{c2::< -2 DE}}.",
+      "extra": "Importa más la velocidad de crecimiento del PC que una cifra aislada.",
+      "origen": "libro:sec:7",
+      "fuente": "Libro §7 Perímetro cefálico",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.079"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con PC que cruza canales, fontanela tensa y ojos en sol poniente, el examen inicial es la {{c1::ecografía transfontanelar}}.",
+      "extra": "",
+      "origen": "clase:22",
+      "fuente": "Clase · Quiz Macro y microcefalia",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.079"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Desnutrición no grave en APS: aportar {{c1::120 a 150 kcal/kg/día}} con control cada 15 días.",
+      "extra": "",
+      "origen": "libro:sec:8",
+      "fuente": "Libro §8 Desnutrición",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.001"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En desnutrición grave la rehidratación es preferentemente {{c1::oral con ReSoMal}}; la vía EV solo en shock.",
+      "extra": "Riesgo de sobrecarga cardíaca.",
+      "origen": "libro:sec:8",
+      "fuente": "Libro §8 Desnutrición grave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.001"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síndrome de realimentación cursa con hipofosfemia, hipokalemia e {{c1::hipomagnesemia}}.",
+      "extra": "",
+      "origen": "libro:sec:8",
+      "fuente": "Libro §8 Desnutrición",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.001"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Más del {{c1::95%}} de las obesidades infantiles son exógenas (talla normal o alta, edad ósea adelantada).",
+      "extra": "Sospechar causa secundaria si hay talla baja, retraso del desarrollo o dismorfias.",
+      "origen": "libro:sec:8",
+      "fuente": "Libro §8 Obesidad",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.003"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-01/S1_peso-edad-oms-ninas__propio.svg",
+      "pregunta": "¿Qué muestra y qué limitación tiene este indicador?",
+      "diagnostico": "Curva OMS de peso para la edad en niñas (en DE)",
+      "clave": "El P/E avisa que algo se desvió, pero no distingue agudo de crónico",
+      "conducta": "Confirmar el estado nutricional con P/T (menores de 5 años)",
+      "fuente": "Dibujo propio (esquema)",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.001",
+        "2.01.1.001"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "Menor de 5 años con P/T bajo -1 DE: ¿qué haces?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.2",
+      "pista": "Menor de 5 años con P/T sobre +1 DE: ¿qué haces?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0",
+      "pista": "5 a 19 años con IMC/E bajo -1 DE: ¿qué haces?"
+    }
+  ]
+}

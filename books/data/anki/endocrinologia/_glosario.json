@@ -1,0 +1,1807 @@
+{
+ "_doc": "Glosario clicable del mazo Anki (popover en el reverso). 'def' se escribe a mano desde el libro (sin cifras nuevas) y se conserva al regenerar; pagina/clase/t/url los recalcula conceptos.py. Términos y alias: books/scripts/anki/vocab_*.txt.",
+ "libro": "endocrinologia",
+ "pdf": "books/dist/Modulo_1_Medicina_Interna/Manual_EUNACOM_Endocrinologia_Completo_2026.pdf",
+ "terminos": {
+  "Eje_hipotalamo_hipofisis_tiroides": {
+   "termino": "Eje hipotálamo-hipófisis-tiroides",
+   "tipo": "Concepto",
+   "alias": [
+    "eje tiroideo",
+    "eje hipotálamo-hipófisis-tiroides"
+   ],
+   "def": "Retroalimentación negativa: el hipotálamo secreta TRH, que estimula la TSH hipofisaria, y esta promueve en la tiroides la síntesis y secreción de T4 y T3.",
+   "pagina": 7,
+   "clase": "endo-01",
+   "claseTitulo": "1.1 Fisiología Tiroidea, Interpretación de TSH/T4L y Síndrome del Eutiroideo Enfermo",
+   "diapositiva": 10,
+   "t": 595.4,
+   "mmss": "9:55",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-01&t=595&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-01&t=595",
+   "notas": 2
+  },
+  "TSH": {
+   "termino": "TSH",
+   "tipo": "Examen",
+   "alias": [
+    "TSH",
+    "tirotropina"
+   ],
+   "def": "Tirotropina hipofisaria. La TSH ultrasensible es el examen inicial de mayor rendimiento y la prueba de tamizaje de elección ante sospecha de patología tiroidea.",
+   "pagina": 41,
+   "clase": "endo-09",
+   "claseTitulo": "7.9 Nódulo Tiroideo, Clasificación ACR TI-RADS y Criterios de PAAF",
+   "diapositiva": 2,
+   "t": 93.7,
+   "mmss": "1:34",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-09&t=93&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-09&t=93",
+   "notas": 91
+  },
+  "T4_libre": {
+   "termino": "T4 libre",
+   "tipo": "Examen",
+   "alias": [
+    "T4 libre",
+    "T4L",
+    "tiroxina libre"
+   ],
+   "def": "Fracción libre de tiroxina. Mínimas variaciones de T4 libre producen cambios exponenciales de TSH; se interpreta junto a la TSH para distinguir patrón primario de central.",
+   "pagina": 5,
+   "clase": "endo-01",
+   "claseTitulo": "1.1 Fisiología Tiroidea, Interpretación de TSH/T4L y Síndrome del Eutiroideo Enfermo",
+   "diapositiva": 3,
+   "t": 136.9,
+   "mmss": "2:17",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-01&t=136&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-01&t=136",
+   "notas": 40
+  },
+  "T3_reversa": {
+   "termino": "T3 reversa",
+   "tipo": "Examen",
+   "alias": [
+    "T3 reversa",
+    "rT3"
+   ],
+   "def": "Forma metabólicamente inactiva de T3. Las citoquinas inflamatorias inhiben la 5'-desyodasa y desvían la vía hacia ella; está elevada en el eutiroideo enfermo.",
+   "pagina": 6,
+   "clase": "endo-01",
+   "claseTitulo": "1.1 Fisiología Tiroidea, Interpretación de TSH/T4L y Síndrome del Eutiroideo Enfermo",
+   "diapositiva": 5,
+   "t": 286.9,
+   "mmss": "4:47",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-01&t=286&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-01&t=286",
+   "notas": 2
+  },
+  "Eutiroideo_enfermo": {
+   "termino": "Eutiroideo enfermo",
+   "tipo": "Concepto",
+   "alias": [
+    "eutiroideo enfermo",
+    "síndrome del T3 bajo"
+   ],
+   "def": "Respuesta adaptativa de ahorro energético en pacientes críticos: T3 baja y T3 reversa alta. Se observa y no se inicia levotiroxina.",
+   "pagina": 5,
+   "clase": "endo-01",
+   "claseTitulo": "1.1 Fisiología Tiroidea, Interpretación de TSH/T4L y Síndrome del Eutiroideo Enfermo",
+   "diapositiva": 5,
+   "t": 286.9,
+   "mmss": "4:47",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-01&t=286&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-01&t=286",
+   "notas": 2
+  },
+  "Hipotiroidismo_primario": {
+   "termino": "Hipotiroidismo primario",
+   "tipo": "Concepto",
+   "alias": [
+    "hipotiroidismo primario",
+    "hipotiroidismo"
+   ],
+   "def": "Falla intrínseca tiroidea: TSH elevada con T4 libre baja. Su causa más frecuente en el adulto es la tiroiditis de Hashimoto; se trata con levotiroxina.",
+   "pagina": 8,
+   "clase": "endo-02",
+   "claseTitulo": "1.2 Hipotiroidismo Primario y Subclínico: Diagnóstico y Titulación de Levotiroxina",
+   "diapositiva": 13,
+   "t": 697.0,
+   "mmss": "11:37",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-02&t=697&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-02&t=697",
+   "notas": 35
+  },
+  "Hipotiroidismo_subclinico": {
+   "termino": "Hipotiroidismo subclínico",
+   "tipo": "Concepto",
+   "alias": [
+    "hipotiroidismo subclínico",
+    "subclínico"
+   ],
+   "def": "TSH elevada con T4 libre normal. Se trata con levotiroxina en todo paciente con TSH ≥ 10.0 mIU/L, aunque esté asintomático.",
+   "pagina": 8,
+   "clase": "endo-02",
+   "claseTitulo": "1.2 Hipotiroidismo Primario y Subclínico: Diagnóstico y Titulación de Levotiroxina",
+   "diapositiva": 11,
+   "t": 573.5,
+   "mmss": "9:33",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-02&t=573&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-02&t=573",
+   "notas": 14
+  },
+  "Hipotiroidismo_central": {
+   "termino": "Hipotiroidismo central",
+   "tipo": "Concepto",
+   "alias": [
+    "hipotiroidismo central",
+    "hipotiroidismo secundario"
+   ],
+   "def": "Falla hipofisaria o hipotalámica: T4 libre baja con TSH baja o \"normal\" inapropiada. No iniciar levotiroxina sin descartar y tratar antes una insuficiencia suprarrenal.",
+   "pagina": 103,
+   "clase": "endo-23",
+   "claseTitulo": "7.23 Hipopituitarismo, Síndrome de Sheehan y Panhipopituitarismo",
+   "diapositiva": 2,
+   "t": 94.9,
+   "mmss": "1:35",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-23&t=94&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-23&t=94",
+   "notas": 9
+  },
+  "Levotiroxina": {
+   "termino": "Levotiroxina",
+   "tipo": "Farmaco",
+   "alias": [
+    "levotiroxina",
+    "L-tiroxina"
+   ],
+   "def": "Hormona sustitutiva del hipotiroidismo; su dosis se titula según edad y riesgo cardiovascular, con reglas estrictas de administración para no comprometer su absorción.",
+   "pagina": 8,
+   "clase": "endo-02",
+   "claseTitulo": "1.2 Hipotiroidismo Primario y Subclínico: Diagnóstico y Titulación de Levotiroxina",
+   "diapositiva": 12,
+   "t": 624.5,
+   "mmss": "10:24",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-02&t=624&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-02&t=624",
+   "notas": 58
+  },
+  "Coma_mixedematoso": {
+   "termino": "Coma mixedematoso",
+   "tipo": "Concepto",
+   "alias": [
+    "coma mixedematoso",
+    "mixedema"
+   ],
+   "def": "Máxima emergencia del hipotiroidismo severo, con mortalidad histórica del 30 al 50%. Dar hidrocortisona EV antes o junto con la levotiroxina.",
+   "pagina": 13,
+   "clase": "endo-03",
+   "claseTitulo": "1.3 Coma Mixedematoso y Urgencias Hipotiroideas",
+   "diapositiva": 12,
+   "t": 635.2,
+   "mmss": "10:35",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-03&t=635&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-03&t=635",
+   "notas": 27
+  },
+  "Hipotiroidismo_congenito": {
+   "termino": "Hipotiroidismo congénito",
+   "tipo": "Concepto",
+   "alias": [
+    "hipotiroidismo congénito",
+    "tamizaje neonatal"
+   ],
+   "def": "Principal causa prevenible de retraso mental (cretinismo). Se detecta con tamizaje universal GES: TSH en papel filtro de talón.",
+   "pagina": 17,
+   "clase": "endo-04",
+   "claseTitulo": "1.4 Hipotiroidismo en Situaciones Especiales: Embarazo y Tamizaje Neonatal Congénito",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": null,
+   "notas": 12
+  },
+  "Tiroiditis_de_Hashimoto": {
+   "termino": "Tiroiditis de Hashimoto",
+   "tipo": "Concepto",
+   "alias": [
+    "Hashimoto",
+    "tiroiditis crónica autoinmune"
+   ],
+   "def": "Tiroiditis crónica autoinmune, indolora, con bocio firme elástico y anticuerpos positivos. Es la causa más frecuente de hipotiroidismo primario; se trata con levotiroxina de por vida.",
+   "pagina": 20,
+   "clase": "endo-05",
+   "claseTitulo": "1.5 Tiroiditis: Hashimoto, De Quervain (Subaguda), Silente y Fármacos (Amiodarona, Litio)",
+   "diapositiva": 4,
+   "t": 238.9,
+   "mmss": "3:59",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-05&t=238&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-05&t=238",
+   "notas": 8
+  },
+  "Tiroiditis_de_De_Quervain": {
+   "termino": "Tiroiditis de De Quervain",
+   "tipo": "Concepto",
+   "alias": [
+    "De Quervain",
+    "tiroiditis subaguda"
+   ],
+   "def": "Tiroiditis subaguda con dolor cervical anterior intenso que irradia a mandíbula y oídos, VHS muy aumentada y captación de yodo radiactivo casi nula.",
+   "pagina": 20,
+   "clase": "endo-05",
+   "claseTitulo": "1.5 Tiroiditis: Hashimoto, De Quervain (Subaguda), Silente y Fármacos (Amiodarona, Litio)",
+   "diapositiva": 16,
+   "t": 687.0,
+   "mmss": "11:27",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-05&t=686&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-05&t=686",
+   "notas": 10
+  },
+  "Tiroiditis_silente": {
+   "termino": "Tiroiditis silente",
+   "tipo": "Concepto",
+   "alias": [
+    "tiroiditis silente",
+    "tiroiditis indolora",
+    "tiroiditis posparto"
+   ],
+   "def": "Tiroiditis indolora o posparto de evolución en tres fases: tirotoxicosis destructiva, hipotiroidismo transitorio y recuperación. Gammagrafía sin captación.",
+   "pagina": 20,
+   "clase": "endo-05",
+   "claseTitulo": "1.5 Tiroiditis: Hashimoto, De Quervain (Subaguda), Silente y Fármacos (Amiodarona, Litio)",
+   "diapositiva": 3,
+   "t": 185.6,
+   "mmss": "3:06",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-05&t=185&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-05&t=185",
+   "notas": 2
+  },
+  "Anticuerpos_antiperoxidasa": {
+   "termino": "Anticuerpos antiperoxidasa",
+   "tipo": "Examen",
+   "alias": [
+    "anti-TPO",
+    "anticuerpos antiperoxidasa",
+    "antiperoxidasa"
+   ],
+   "def": "Anti-TPO: anticuerpos de la tiroiditis de Hashimoto, causa del hipotiroidismo primario. A títulos elevados predicen progresión de 5% anual en el subclínico.",
+   "pagina": 8,
+   "clase": "endo-02",
+   "claseTitulo": "1.2 Hipotiroidismo Primario y Subclínico: Diagnóstico y Titulación de Levotiroxina",
+   "diapositiva": 1,
+   "t": 32.5,
+   "mmss": "0:33",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-02&t=32&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-02&t=32",
+   "notas": 10
+  },
+  "Amiodarona": {
+   "termino": "Amiodarona",
+   "tipo": "Farmaco",
+   "alias": [
+    "amiodarona"
+   ],
+   "def": "Antiarrítmico con alto contenido de yodo. Puede causar hipotiroidismo o tirotoxicosis: tipo 1 con bocio preexistente (Jod-Basedow) o tipo 2 destructiva.",
+   "pagina": 20,
+   "clase": "endo-05",
+   "claseTitulo": "1.5 Tiroiditis: Hashimoto, De Quervain (Subaguda), Silente y Fármacos (Amiodarona, Litio)",
+   "diapositiva": 5,
+   "t": 308.7,
+   "mmss": "5:09",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-05&t=308&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-05&t=308",
+   "notas": 8
+  },
+  "Litio": {
+   "termino": "Litio",
+   "tipo": "Farmaco",
+   "alias": [
+    "litio"
+   ],
+   "def": "Fármaco que inhibe la proteólisis y liberación de T3/T4 desde el coloide folicular, causando patología tiroidea inducida por fármacos.",
+   "pagina": 20,
+   "clase": "endo-05",
+   "claseTitulo": "1.5 Tiroiditis: Hashimoto, De Quervain (Subaguda), Silente y Fármacos (Amiodarona, Litio)",
+   "diapositiva": 6,
+   "t": 380.9,
+   "mmss": "6:21",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-05&t=380&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-05&t=380",
+   "notas": 4
+  },
+  "Enfermedad_de_Graves": {
+   "termino": "Enfermedad de Graves",
+   "tipo": "Concepto",
+   "alias": [
+    "Graves-Basedow",
+    "enfermedad de Graves",
+    "Graves"
+   ],
+   "def": "Hipertiroidismo autoinmune por TRAb/TSI que activan el receptor de TSH. Con bocio difuso, oftalmopatía y mixedema pretibial; es el 70-80% de los casos en menores de 50 años.",
+   "pagina": 27,
+   "clase": "endo-06",
+   "claseTitulo": "7.6 Enfermedad de Graves-Basedow y Síndromes Tirotóxicos",
+   "diapositiva": 4,
+   "t": 190.0,
+   "mmss": "3:10",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-06&t=190&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-06&t=190",
+   "notas": 25
+  },
+  "Hipertiroidismo": {
+   "termino": "Hipertiroidismo",
+   "tipo": "Concepto",
+   "alias": [
+    "hipertiroidismo",
+    "tirotoxicosis",
+    "síndrome tirotóxico"
+   ],
+   "def": "Exceso de hormona tiroidea. Se distingue de la tirotoxicosis destructiva de las tiroiditis por la captación de yodo (baja vs alta); la tormenta tiroidea es su descompensación extrema.",
+   "pagina": 27,
+   "clase": "endo-06",
+   "claseTitulo": "7.6 Enfermedad de Graves-Basedow y Síndromes Tirotóxicos",
+   "diapositiva": 1,
+   "t": 29.3,
+   "mmss": "0:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-06&t=29&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-06&t=29",
+   "notas": 16
+  },
+  "Bocio_multinodular_toxico": {
+   "termino": "Bocio multinodular tóxico",
+   "tipo": "Concepto",
+   "alias": [
+    "bocio multinodular tóxico",
+    "adenoma tóxico",
+    "Plummer"
+   ],
+   "def": "Bocio con zonas calientes y frías y TSH baja. No remite con fármacos: se trata con radioyodo o cirugía.",
+   "pagina": 33,
+   "clase": "endo-07",
+   "claseTitulo": "7.7 Manejo Terapéutico Comparado: Fármacos, Radioyodo y Cirugía",
+   "diapositiva": 2,
+   "t": 83.5,
+   "mmss": "1:24",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-07&t=83&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-07&t=83",
+   "notas": 6
+  },
+  "TRAb": {
+   "termino": "TRAb",
+   "tipo": "Examen",
+   "alias": [
+    "TRAb",
+    "anticuerpos antirreceptor de TSH"
+   ],
+   "def": "Anticuerpos antirreceptor de TSH de la enfermedad de Graves. Un valor > 1.75 UI/L positivo apoya el diagnóstico; en otras causas no son positivos.",
+   "pagina": 27,
+   "clase": "endo-06",
+   "claseTitulo": "7.6 Enfermedad de Graves-Basedow y Síndromes Tirotóxicos",
+   "diapositiva": 7,
+   "t": 388.3,
+   "mmss": "6:28",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-06&t=388&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-06&t=388",
+   "notas": 5
+  },
+  "Oftalmopatia_de_Graves": {
+   "termino": "Oftalmopatía de Graves",
+   "tipo": "Signo",
+   "alias": [
+    "oftalmopatía",
+    "exoftalmos",
+    "orbitopatía"
+   ],
+   "def": "Orbitopatía distiroidea en 50% de los casos de Graves: proptosis, retracción palpebral, quemosis y diplopía; exacerbada por el tabaquismo.",
+   "pagina": 27,
+   "clase": "endo-06",
+   "claseTitulo": "7.6 Enfermedad de Graves-Basedow y Síndromes Tirotóxicos",
+   "diapositiva": 4,
+   "t": 190.0,
+   "mmss": "3:10",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-06&t=190&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-06&t=190",
+   "notas": 15
+  },
+  "Mixedema_pretibial": {
+   "termino": "Mixedema pretibial",
+   "tipo": "Signo",
+   "alias": [
+    "mixedema pretibial",
+    "dermopatía"
+   ],
+   "def": "Dermopatía infiltrativa de Graves: placas eritemato-violáceas no depresibles por depósito de glucosaminoglicanos. Es signo patognomónico junto con el exoftalmo.",
+   "pagina": 8,
+   "clase": "endo-02",
+   "claseTitulo": "1.2 Hipotiroidismo Primario y Subclínico: Diagnóstico y Titulación de Levotiroxina",
+   "diapositiva": null,
+   "t": 0,
+   "mmss": "0:00",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-02&t=0",
+   "notas": 2
+  },
+  "Metimazol": {
+   "termino": "Metimazol",
+   "tipo": "Farmaco",
+   "alias": [
+    "metimazol",
+    "tiamazol"
+   ],
+   "def": "Tiamazol: fármaco de primera línea del Graves (10-30 mg/día). Riesgo de agranulocitosis; en el primer trimestre del embarazo se prefiere PTU por embriopatía.",
+   "pagina": 27,
+   "clase": "endo-06",
+   "claseTitulo": "7.6 Enfermedad de Graves-Basedow y Síndromes Tirotóxicos",
+   "diapositiva": 16,
+   "t": 903.8,
+   "mmss": "15:04",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-06&t=903&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-06&t=903",
+   "notas": 18
+  },
+  "Propiltiouracilo": {
+   "termino": "Propiltiouracilo",
+   "tipo": "Farmaco",
+   "alias": [
+    "propiltiouracilo",
+    "PTU"
+   ],
+   "def": "Antitiroideo de elección en la tormenta tiroidea: inhibe la síntesis y la conversión periférica de T4 a T3. El yoduro se da al menos 1 hora después de la primera dosis.",
+   "pagina": 38,
+   "clase": "endo-08",
+   "claseTitulo": "7.8 Tormenta Tiroidea y Urgencias Tirotóxicas",
+   "diapositiva": 7,
+   "t": 344.6,
+   "mmss": "5:45",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-08&t=344&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-08&t=344",
+   "notas": 14
+  },
+  "Propranolol": {
+   "termino": "Propranolol",
+   "tipo": "Farmaco",
+   "alias": [
+    "propranolol",
+    "betabloqueo"
+   ],
+   "def": "Betabloqueador que frena el tono simpático en el hipertiroidismo; a dosis > 160 mg/día inhibe la 5'-desyodasa periférica. En feocromocitoma, nunca antes del bloqueo alfa.",
+   "pagina": 38,
+   "clase": "endo-08",
+   "claseTitulo": "7.8 Tormenta Tiroidea y Urgencias Tirotóxicas",
+   "diapositiva": 5,
+   "t": 228.1,
+   "mmss": "3:48",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-08&t=228&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-08&t=228",
+   "notas": 10
+  },
+  "Radioyodo": {
+   "termino": "Radioyodo",
+   "tipo": "Farmaco",
+   "alias": [
+    "radioyodo",
+    "yodo radiactivo",
+    "I-131"
+   ],
+   "def": "Terapia ablativa con I-131. Elección en recidiva de Graves, bocio multinodular tóxico y contraindicación quirúrgica; exige seguimiento anual con TSH por hipotiroidismo.",
+   "pagina": 33,
+   "clase": "endo-07",
+   "claseTitulo": "7.7 Manejo Terapéutico Comparado: Fármacos, Radioyodo y Cirugía",
+   "diapositiva": 10,
+   "t": 462.5,
+   "mmss": "7:43",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-07&t=462&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-07&t=462",
+   "notas": 19
+  },
+  "Cintigrafia_tiroidea": {
+   "termino": "Cintigrafía tiroidea",
+   "tipo": "Examen",
+   "alias": [
+    "cintigrafía tiroidea",
+    "cintigrama",
+    "captación de yodo"
+   ],
+   "def": "Se solicita en un nódulo solo si la TSH está suprimida, para ver si es caliente (hipercaptante). Nunca se pide si la TSH es normal.",
+   "pagina": 41,
+   "clase": "endo-09",
+   "claseTitulo": "7.9 Nódulo Tiroideo, Clasificación ACR TI-RADS y Criterios de PAAF",
+   "diapositiva": 2,
+   "t": 93.7,
+   "mmss": "1:34",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-09&t=93&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-09&t=93",
+   "notas": 14
+  },
+  "Agranulocitosis": {
+   "termino": "Agranulocitosis",
+   "tipo": "Concepto",
+   "alias": [
+    "agranulocitosis"
+   ],
+   "def": "Complicación fatal de las tionamidas (0.3% con tiamazol). Ambos fármacos la comparten; el PTU además causa hepatitis fulminante.",
+   "pagina": 35,
+   "clase": "endo-07",
+   "claseTitulo": "7.7 Manejo Terapéutico Comparado: Fármacos, Radioyodo y Cirugía",
+   "diapositiva": 1,
+   "t": 24.8,
+   "mmss": "0:25",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-07&t=24&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-07&t=24",
+   "notas": 3
+  },
+  "Tormenta_tiroidea": {
+   "termino": "Tormenta tiroidea",
+   "tipo": "Concepto",
+   "alias": [
+    "tormenta tiroidea",
+    "crisis tirotóxica"
+   ],
+   "def": "Máxima descompensación tirotóxica, con mortalidad histórica del 10 al 30%. Diagnóstico clínico; tratamiento multimodal y prohibida la aspirina.",
+   "pagina": 37,
+   "clase": "endo-08",
+   "claseTitulo": "7.8 Tormenta Tiroidea y Urgencias Tirotóxicas",
+   "diapositiva": 11,
+   "t": 545.4,
+   "mmss": "9:05",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-08&t=545&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-08&t=545",
+   "notas": 7
+  },
+  "Escala_de_Burch_Wartofsky": {
+   "termino": "Escala de Burch-Wartofsky",
+   "tipo": "Concepto",
+   "alias": [
+    "Burch-Wartofsky"
+   ],
+   "def": "Escala clínica de puntos para tormenta tiroidea; ≥ 45 puntos la hace altamente probable. Evalúa disfunción orgánica y factor desencadenante.",
+   "pagina": 37,
+   "clase": "endo-08",
+   "claseTitulo": "7.8 Tormenta Tiroidea y Urgencias Tirotóxicas",
+   "diapositiva": 3,
+   "t": 137.3,
+   "mmss": "2:17",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-08&t=137&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-08&t=137",
+   "notas": 9
+  },
+  "Nodulo_tiroideo": {
+   "termino": "Nódulo tiroideo",
+   "tipo": "Concepto",
+   "alias": [
+    "nódulo tiroideo",
+    "nódulos tiroideos"
+   ],
+   "def": "Ante un nódulo ≥ 1 cm o sospechoso, el primer examen es la TSH. Si es normal o elevada, sigue la ecografía de alta resolución con TI-RADS.",
+   "pagina": 41,
+   "clase": "endo-09",
+   "claseTitulo": "7.9 Nódulo Tiroideo, Clasificación ACR TI-RADS y Criterios de PAAF",
+   "diapositiva": 13,
+   "t": 794.2,
+   "mmss": "13:14",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-09&t=794&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-09&t=794",
+   "notas": 2
+  },
+  "TI_RADS": {
+   "termino": "TI-RADS",
+   "tipo": "Examen",
+   "alias": [
+    "TI-RADS",
+    "ACR TI-RADS"
+   ],
+   "def": "Clasificación ecográfica ACR que estratifica el riesgo del nódulo y fija los umbrales en mm para indicar PAAF.",
+   "pagina": 41,
+   "clase": "endo-09",
+   "claseTitulo": "7.9 Nódulo Tiroideo, Clasificación ACR TI-RADS y Criterios de PAAF",
+   "diapositiva": 4,
+   "t": 248.0,
+   "mmss": "4:08",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-09&t=248&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-09&t=248",
+   "notas": 2
+  },
+  "PAAF": {
+   "termino": "PAAF",
+   "tipo": "Examen",
+   "alias": [
+    "PAAF",
+    "punción aspirativa",
+    "citología"
+   ],
+   "def": "Punción aspirativa con aguja fina guiada por ecografía; diagnostica el nódulo sospechoso. Los nódulos calientes casi nunca son malignos (< 1%) y no la requieren.",
+   "pagina": 41,
+   "clase": "endo-09",
+   "claseTitulo": "7.9 Nódulo Tiroideo, Clasificación ACR TI-RADS y Criterios de PAAF",
+   "diapositiva": 4,
+   "t": 248.0,
+   "mmss": "4:08",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-09&t=248&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-09&t=248",
+   "notas": 9
+  },
+  "Clasificacion_de_Bethesda": {
+   "termino": "Clasificación de Bethesda",
+   "tipo": "Concepto",
+   "alias": [
+    "Bethesda"
+   ],
+   "def": "Sistema que estandariza el informe citológico de la PAAF. Bethesda I (no diagnóstica) obliga a repetir PAAF; II sigue con ecografía; V/VI van a cirugía oncológica.",
+   "pagina": 42,
+   "clase": "endo-09",
+   "claseTitulo": "7.9 Nódulo Tiroideo, Clasificación ACR TI-RADS y Criterios de PAAF",
+   "diapositiva": 5,
+   "t": 319.3,
+   "mmss": "5:19",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-09&t=319&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-09&t=319",
+   "notas": 9
+  },
+  "Cancer_papilar_de_tiroides": {
+   "termino": "Cáncer papilar de tiroides",
+   "tipo": "Concepto",
+   "alias": [
+    "cáncer papilar",
+    "carcinoma papilar"
+   ],
+   "def": "El más frecuente (85-90%) y de mejor pronóstico. Disemina por vía linfática, capta I-131 y se sigue con tiroglobulina.",
+   "pagina": 45,
+   "clase": "endo-10",
+   "claseTitulo": "7.10 Cáncer de Tiroides: Subtipos Histológicos y Manejo Oncológico",
+   "diapositiva": 11,
+   "t": 612.4,
+   "mmss": "10:12",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-10&t=612&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-10&t=612",
+   "notas": 3
+  },
+  "Cancer_folicular_de_tiroides": {
+   "termino": "Cáncer folicular de tiroides",
+   "tipo": "Concepto",
+   "alias": [
+    "cáncer folicular",
+    "carcinoma folicular"
+   ],
+   "def": "Representa el 5-10% de los casos. Disemina por vía hematógena a pulmón y hueso, capta I-131 y se sigue con tiroglobulina.",
+   "pagina": 47,
+   "clase": "endo-10",
+   "claseTitulo": "7.10 Cáncer de Tiroides: Subtipos Histológicos y Manejo Oncológico",
+   "diapositiva": 2,
+   "t": 103.2,
+   "mmss": "1:43",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-10&t=103&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-10&t=103",
+   "notas": 3
+  },
+  "Cancer_medular_de_tiroides": {
+   "termino": "Cáncer medular de tiroides",
+   "tipo": "Concepto",
+   "alias": [
+    "cáncer medular",
+    "carcinoma medular"
+   ],
+   "def": "Representa el 3-5% de los casos, asociado a neoplasia endocrina múltiple 2. Su marcador es la calcitonina, además del CEA.",
+   "pagina": 45,
+   "clase": "endo-10",
+   "claseTitulo": "7.10 Cáncer de Tiroides: Subtipos Histológicos y Manejo Oncológico",
+   "diapositiva": 6,
+   "t": 386.3,
+   "mmss": "6:26",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-10&t=386&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-10&t=386",
+   "notas": 13
+  },
+  "Cancer_anaplasico_de_tiroides": {
+   "termino": "Cáncer anaplásico de tiroides",
+   "tipo": "Concepto",
+   "alias": [
+    "anaplásico",
+    "carcinoma anaplásico"
+   ],
+   "def": "Representa el 1-2%, en adultos mayores. Invasión local rápida, sin marcador confiable, refractario y de pronóstico ominoso en pocos meses.",
+   "pagina": 45,
+   "clase": "endo-10",
+   "claseTitulo": "7.10 Cáncer de Tiroides: Subtipos Histológicos y Manejo Oncológico",
+   "diapositiva": 3,
+   "t": 168.8,
+   "mmss": "2:49",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-10&t=168&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-10&t=168",
+   "notas": 4
+  },
+  "Calcitonina": {
+   "termino": "Calcitonina",
+   "tipo": "Examen",
+   "alias": [
+    "calcitonina"
+   ],
+   "def": "Marcador diagnóstico y de seguimiento del carcinoma medular de tiroides, junto con el antígeno carcinoembrionario (CEA).",
+   "pagina": 45,
+   "clase": "endo-10",
+   "claseTitulo": "7.10 Cáncer de Tiroides: Subtipos Histológicos y Manejo Oncológico",
+   "diapositiva": 12,
+   "t": 667.3,
+   "mmss": "11:07",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-10&t=667&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-10&t=667",
+   "notas": 4
+  },
+  "Tiroidectomia": {
+   "termino": "Tiroidectomía",
+   "tipo": "Concepto",
+   "alias": [
+    "tiroidectomía"
+   ],
+   "def": "Tiroidectomía total: estándar en tumores > 4 cm, extensión extratiroidea, adenopatías o multifocalidad. Complicaciones: hipoparatiroidismo y lesión del nervio laríngeo recurrente.",
+   "pagina": 45,
+   "clase": "endo-10",
+   "claseTitulo": "7.10 Cáncer de Tiroides: Subtipos Histológicos y Manejo Oncológico",
+   "diapositiva": 5,
+   "t": 322.6,
+   "mmss": "5:23",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-10&t=322&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-10&t=322",
+   "notas": 20
+  },
+  "Sindrome_de_Cushing": {
+   "termino": "Síndrome de Cushing",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome de Cushing",
+    "hipercortisolismo"
+   ],
+   "def": "Exposición prolongada a glucocorticoides suprafisiológicos. Se demuestra con 2 pruebas de primera línea alteradas y luego se mide ACTH plasmática para ubicar la etiología.",
+   "pagina": 52,
+   "clase": "endo-11",
+   "claseTitulo": "7.11 Síndrome de Cushing: Algoritmo Diagnóstico y Diagnóstico Etiológico",
+   "diapositiva": 4,
+   "t": 256.7,
+   "mmss": "4:17",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-11&t=256&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-11&t=256",
+   "notas": 6
+  },
+  "Enfermedad_de_Cushing": {
+   "termino": "Enfermedad de Cushing",
+   "tipo": "Concepto",
+   "alias": [
+    "enfermedad de Cushing"
+   ],
+   "def": "Adenoma hipofisario productor de ACTH, causa del 80% de los Cushing endógenos y más común en mujeres. Se trata con resección transesfenoidal.",
+   "pagina": 52,
+   "clase": "endo-11",
+   "claseTitulo": "7.11 Síndrome de Cushing: Algoritmo Diagnóstico y Diagnóstico Etiológico",
+   "diapositiva": 1,
+   "t": 27.7,
+   "mmss": "0:28",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-11&t=27&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-11&t=27",
+   "notas": 3
+  },
+  "Cortisol_libre_urinario": {
+   "termino": "Cortisol libre urinario",
+   "tipo": "Examen",
+   "alias": [
+    "cortisol libre urinario",
+    "CLU"
+   ],
+   "def": "Prueba de primera línea para Cushing en orina de 24 horas; idealmente 2 recolecciones.",
+   "pagina": 53,
+   "clase": "endo-11",
+   "claseTitulo": "7.11 Síndrome de Cushing: Algoritmo Diagnóstico y Diagnóstico Etiológico",
+   "diapositiva": 4,
+   "t": 256.7,
+   "mmss": "4:17",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-11&t=256&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-11&t=256",
+   "notas": 4
+  },
+  "Cortisol_salival_nocturno": {
+   "termino": "Cortisol salival nocturno",
+   "tipo": "Examen",
+   "alias": [
+    "cortisol salival"
+   ],
+   "def": "Prueba de primera línea para Cushing a las 23:00 h: en sanos hay ritmo circadiano con cortisol mínimo a la medianoche.",
+   "pagina": 53,
+   "clase": "endo-11",
+   "claseTitulo": "7.11 Síndrome de Cushing: Algoritmo Diagnóstico y Diagnóstico Etiológico",
+   "diapositiva": 4,
+   "t": 256.7,
+   "mmss": "4:17",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-11&t=256&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-11&t=256",
+   "notas": 2
+  },
+  "ACTH": {
+   "termino": "ACTH",
+   "tipo": "Examen",
+   "alias": [
+    "ACTH",
+    "corticotropina"
+   ],
+   "def": "Corticotropina. Su medición plasmática es paso obligatorio en el Cushing: baja orienta a causa suprarrenal; elevada, a causa dependiente de ACTH. Elevada confirma Addison.",
+   "pagina": 52,
+   "clase": "endo-11",
+   "claseTitulo": "7.11 Síndrome de Cushing: Algoritmo Diagnóstico y Diagnóstico Etiológico",
+   "diapositiva": 2,
+   "t": 118.4,
+   "mmss": "1:58",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-11&t=118&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-11&t=118",
+   "notas": 20
+  },
+  "Cateterismo_de_senos_petrosos": {
+   "termino": "Cateterismo de senos petrosos",
+   "tipo": "Examen",
+   "alias": [
+    "senos petrosos"
+   ],
+   "def": "Cateterismo de senos petrosos inferiores con estímulo de CRH: estándar de oro si la RM hipofisaria es negativa o dudosa (< 6 mm).",
+   "pagina": 54,
+   "clase": "endo-11",
+   "claseTitulo": "7.11 Síndrome de Cushing: Algoritmo Diagnóstico y Diagnóstico Etiológico",
+   "diapositiva": 6,
+   "t": 385.6,
+   "mmss": "6:26",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-11&t=385&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-11&t=385",
+   "notas": 1
+  },
+  "Insuficiencia_suprarrenal": {
+   "termino": "Insuficiencia suprarrenal",
+   "tipo": "Concepto",
+   "alias": [
+    "insuficiencia suprarrenal",
+    "insuficiencia adrenal"
+   ],
+   "def": "Incapacidad de la corteza suprarrenal de cubrir los requerimientos de glucocorticoides. Primaria (Addison) o secundaria/terciaria por déficit de ACTH.",
+   "pagina": 56,
+   "clase": "endo-12",
+   "claseTitulo": "7.12 Insuficiencia Suprarrenal Crónica: Primaria (Addison) versus Secundaria",
+   "diapositiva": 0,
+   "t": 5.2,
+   "mmss": "0:05",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-12&t=5&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-12&t=5",
+   "notas": 15
+  },
+  "Enfermedad_de_Addison": {
+   "termino": "Enfermedad de Addison",
+   "tipo": "Concepto",
+   "alias": [
+    "Addison",
+    "insuficiencia suprarrenal primaria"
+   ],
+   "def": "Insuficiencia suprarrenal primaria con ACTH elevada e hiperpigmentación. Se trata con hidrocortisona más fludrocortisona.",
+   "pagina": 56,
+   "clase": "endo-12",
+   "claseTitulo": "7.12 Insuficiencia Suprarrenal Crónica: Primaria (Addison) versus Secundaria",
+   "diapositiva": 9,
+   "t": 495.8,
+   "mmss": "8:16",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-12&t=495&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-12&t=495",
+   "notas": 18
+  },
+  "Test_de_estimulacion_con_ACTH": {
+   "termino": "Test de estimulación con ACTH",
+   "tipo": "Examen",
+   "alias": [
+    "test de ACTH",
+    "test de estimulación",
+    "cosintropina"
+   ],
+   "def": "Patrón de referencia: se inyectan 250 mcg de cosintropina y se mide cortisol a los 30 y 60 minutos. Se usa si el cortisol matinal está entre 3 y 15 mcg/dL.",
+   "pagina": 56,
+   "clase": "endo-12",
+   "claseTitulo": "7.12 Insuficiencia Suprarrenal Crónica: Primaria (Addison) versus Secundaria",
+   "diapositiva": 4,
+   "t": 219.0,
+   "mmss": "3:39",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-12&t=218&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-12&t=218",
+   "notas": 1
+  },
+  "Hidrocortisona": {
+   "termino": "Hidrocortisona",
+   "tipo": "Farmaco",
+   "alias": [
+    "hidrocortisona"
+   ],
+   "def": "Fármaco de elección en la crisis suprarrenal: 100 mg en bolo EV inmediato. A dosis altas tiene efecto mineralocorticoide propio, sin necesidad de fludrocortisona.",
+   "pagina": 59,
+   "clase": "endo-13",
+   "claseTitulo": "7.13 Crisis Suprarrenal Aguda y Shock Refractario",
+   "diapositiva": 15,
+   "t": 922.4,
+   "mmss": "15:22",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-13&t=922&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-13&t=922",
+   "notas": 34
+  },
+  "Fludrocortisona": {
+   "termino": "Fludrocortisona",
+   "tipo": "Farmaco",
+   "alias": [
+    "fludrocortisona"
+   ],
+   "def": "Mineralocorticoide oral (0.05-0.1 mg/día) del Addison; se reinstaura cuando la hidrocortisona baja de 50 mg/día.",
+   "pagina": 59,
+   "clase": "endo-13",
+   "claseTitulo": "7.13 Crisis Suprarrenal Aguda y Shock Refractario",
+   "diapositiva": 16,
+   "t": 991.4,
+   "mmss": "16:31",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-13&t=991&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-13&t=991",
+   "notas": 5
+  },
+  "Crisis_suprarrenal": {
+   "termino": "Crisis suprarrenal",
+   "tipo": "Concepto",
+   "alias": [
+    "crisis suprarrenal",
+    "crisis addisoniana"
+   ],
+   "def": "Falta absoluta o relativa de glucocorticoides en estrés severo; diagnóstico clínico y su retraso lleva a la muerte. Hidrocortisona EV inmediata sin esperar exámenes.",
+   "pagina": 59,
+   "clase": "endo-13",
+   "claseTitulo": "7.13 Crisis Suprarrenal Aguda y Shock Refractario",
+   "diapositiva": 5,
+   "t": 307.6,
+   "mmss": "5:08",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-13&t=307&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-13&t=307",
+   "notas": 6
+  },
+  "Hiperpigmentacion": {
+   "termino": "Hiperpigmentación",
+   "tipo": "Signo",
+   "alias": [
+    "hiperpigmentación"
+   ],
+   "def": "Signo patognomónico de la insuficiencia suprarrenal primaria: el exceso de ACTH estimula melanocitos en pliegues palmares, cicatrices y mucosas.",
+   "pagina": 56,
+   "clase": "endo-12",
+   "claseTitulo": "7.12 Insuficiencia Suprarrenal Crónica: Primaria (Addison) versus Secundaria",
+   "diapositiva": 10,
+   "t": 532.4,
+   "mmss": "8:52",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-12&t=532&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-12&t=532",
+   "notas": 4
+  },
+  "Hiperaldosteronismo_primario": {
+   "termino": "Hiperaldosteronismo primario",
+   "tipo": "Concepto",
+   "alias": [
+    "hiperaldosteronismo primario",
+    "síndrome de Conn",
+    "Conn"
+   ],
+   "def": "Causa endocrina más común de HTA secundaria (8 al 10% de los hipertensos). Adenoma de Conn: cirugía; hiperplasia bilateral: espironolactona.",
+   "pagina": 64,
+   "clase": "endo-14",
+   "claseTitulo": "7.14 Hiperaldosteronismo Primario (Síndrome de Conn) e HTA Secundaria",
+   "diapositiva": 7,
+   "t": 413.7,
+   "mmss": "6:54",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-14&t=413&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-14&t=413",
+   "notas": 15
+  },
+  "Relacion_aldosterona_renina": {
+   "termino": "Relación aldosterona/renina",
+   "tipo": "Examen",
+   "alias": [
+    "aldosterona/renina",
+    "relación aldosterona-renina",
+    "RAR"
+   ],
+   "def": "Prueba de sospecha del hiperaldosteronismo primario: RAR > 20-30 con aldosterona > 15 ng/dL. Corregir antes la hipokalemia y suspender espironolactona.",
+   "pagina": 64,
+   "clase": "endo-14",
+   "claseTitulo": "7.14 Hiperaldosteronismo Primario (Síndrome de Conn) e HTA Secundaria",
+   "diapositiva": 3,
+   "t": 153.4,
+   "mmss": "2:33",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-14&t=153&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-14&t=153",
+   "notas": 7
+  },
+  "Espironolactona": {
+   "termino": "Espironolactona",
+   "tipo": "Farmaco",
+   "alias": [
+    "espironolactona"
+   ],
+   "def": "Antagonista del receptor mineralocorticoide; tratamiento de la hiperplasia bilateral. Puede causar ginecomastia (se rota a eplerenona).",
+   "pagina": 64,
+   "clase": "endo-14",
+   "claseTitulo": "7.14 Hiperaldosteronismo Primario (Síndrome de Conn) e HTA Secundaria",
+   "diapositiva": 8,
+   "t": 474.6,
+   "mmss": "7:55",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-14&t=474&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-14&t=474",
+   "notas": 8
+  },
+  "Feocromocitoma": {
+   "termino": "Feocromocitoma",
+   "tipo": "Concepto",
+   "alias": [
+    "feocromocitoma"
+   ],
+   "def": "Tumor de células cromafines de la médula suprarrenal que secreta catecolaminas. Se prepara con bloqueo alfa antes de operar.",
+   "pagina": 67,
+   "clase": "endo-15",
+   "claseTitulo": "7.15 Feocromocitoma y Paragangliomas: Bloqueo Alfa Obligatorio",
+   "diapositiva": 11,
+   "t": 648.3,
+   "mmss": "10:48",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-15&t=648&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-15&t=648",
+   "notas": 27
+  },
+  "Paraganglioma": {
+   "termino": "Paraganglioma",
+   "tipo": "Concepto",
+   "alias": [
+    "paraganglioma"
+   ],
+   "def": "Tumor similar al feocromocitoma de origen extra-adrenal, en ganglios simpáticos o parasimpáticos.",
+   "pagina": 67,
+   "clase": "endo-15",
+   "claseTitulo": "7.15 Feocromocitoma y Paragangliomas: Bloqueo Alfa Obligatorio",
+   "diapositiva": 1,
+   "t": 29.2,
+   "mmss": "0:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-15&t=29&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-15&t=29",
+   "notas": 2
+  },
+  "Metanefrinas": {
+   "termino": "Metanefrinas",
+   "tipo": "Examen",
+   "alias": [
+    "metanefrinas",
+    "metanefrinas plasmáticas",
+    "metanefrinas urinarias"
+   ],
+   "def": "Metabolitos estables de las catecolaminas; su medición libre en plasma o fraccionada en orina de 24 horas es la prueba de elección, con sensibilidad > 98%.",
+   "pagina": 67,
+   "clase": "endo-15",
+   "claseTitulo": "7.15 Feocromocitoma y Paragangliomas: Bloqueo Alfa Obligatorio",
+   "diapositiva": 3,
+   "t": 148.5,
+   "mmss": "2:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-15&t=148&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-15&t=148",
+   "notas": 7
+  },
+  "Fenoxibenzamina": {
+   "termino": "Fenoxibenzamina",
+   "tipo": "Farmaco",
+   "alias": [
+    "fenoxibenzamina"
+   ],
+   "def": "Bloqueador alfa no selectivo de acción prolongada para preparar al paciente con feocromocitoma durante 10 a 14 días antes de la cirugía.",
+   "pagina": 69,
+   "clase": "endo-15",
+   "claseTitulo": "7.15 Feocromocitoma y Paragangliomas: Bloqueo Alfa Obligatorio",
+   "diapositiva": 5,
+   "t": 275.1,
+   "mmss": "4:35",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-15&t=275&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-15&t=275",
+   "notas": 1
+  },
+  "Bloqueo_alfa": {
+   "termino": "Bloqueo alfa",
+   "tipo": "Farmaco",
+   "alias": [
+    "bloqueo alfa",
+    "alfabloqueo",
+    "doxazosina"
+   ],
+   "def": "Preparación previa mandatoria en el feocromocitoma por 10 a 14 días con fenoxibenzamina o doxazosina. Nunca dar un betabloqueador antes del bloqueo alfa.",
+   "pagina": 67,
+   "clase": "endo-15",
+   "claseTitulo": "7.15 Feocromocitoma y Paragangliomas: Bloqueo Alfa Obligatorio",
+   "diapositiva": 5,
+   "t": 275.1,
+   "mmss": "4:35",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-15&t=275&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-15&t=275",
+   "notas": 8
+  },
+  "Hipercalcemia": {
+   "termino": "Hipercalcemia",
+   "tipo": "Concepto",
+   "alias": [
+    "hipercalcemia"
+   ],
+   "def": "Más del 90% de los casos son hiperparatiroidismo primario (ambulatorio asintomático) o hipercalcemia maligna (hospitalizados). La PTH intacta orienta la causa.",
+   "pagina": 74,
+   "clase": "endo-16",
+   "claseTitulo": "7.16 Hipercalcemia e Hiperparatiroidismo Primario versus Neoplásico",
+   "diapositiva": 12,
+   "t": 736.6,
+   "mmss": "12:17",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-16&t=736&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-16&t=736",
+   "notas": 14
+  },
+  "Hiperparatiroidismo_primario": {
+   "termino": "Hiperparatiroidismo primario",
+   "tipo": "Concepto",
+   "alias": [
+    "hiperparatiroidismo primario",
+    "hiperparatiroidismo"
+   ],
+   "def": "Causa más frecuente de hipercalcemia ambulatoria: PTHi elevada o inapropiadamente normal con calcio > 10.5 mg/dL. Se cura con paratiroidectomía.",
+   "pagina": 74,
+   "clase": "endo-16",
+   "claseTitulo": "7.16 Hipercalcemia e Hiperparatiroidismo Primario versus Neoplásico",
+   "diapositiva": 14,
+   "t": 852.1,
+   "mmss": "14:12",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-16&t=852&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-16&t=852",
+   "notas": 17
+  },
+  "PTH": {
+   "termino": "PTH",
+   "tipo": "Examen",
+   "alias": [
+    "PTH",
+    "paratohormona"
+   ],
+   "def": "Paratohormona. La PTH intacta separa causas dependientes de independientes de hipercalcemia: suprimida orienta a neoplasia o vitamina D.",
+   "pagina": 74,
+   "clase": "endo-16",
+   "claseTitulo": "7.16 Hipercalcemia e Hiperparatiroidismo Primario versus Neoplásico",
+   "diapositiva": 3,
+   "t": 136.9,
+   "mmss": "2:17",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-16&t=136&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-16&t=136",
+   "notas": 17
+  },
+  "Calcio_ionico": {
+   "termino": "Calcio iónico",
+   "tipo": "Examen",
+   "alias": [
+    "calcio iónico"
+   ],
+   "def": "Fracción libre (50%) del calcio total, biológicamente activa y regulada por la PTH; el resto va unido a proteínas (40%) o complejado con aniones (10%).",
+   "pagina": 74,
+   "clase": "endo-16",
+   "claseTitulo": "7.16 Hipercalcemia e Hiperparatiroidismo Primario versus Neoplásico",
+   "diapositiva": 1,
+   "t": 31.9,
+   "mmss": "0:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-16&t=31&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-16&t=31",
+   "notas": 1
+  },
+  "Paratiroidectomia": {
+   "termino": "Paratiroidectomía",
+   "tipo": "Concepto",
+   "alias": [
+    "paratiroidectomía"
+   ],
+   "def": "Resección del adenoma guiada por cintigrama Sestamibi-Tc99m o ecografía; único tratamiento curativo definitivo del hiperparatiroidismo primario.",
+   "pagina": 74,
+   "clase": "endo-16",
+   "claseTitulo": "7.16 Hipercalcemia e Hiperparatiroidismo Primario versus Neoplásico",
+   "diapositiva": 9,
+   "t": 544.9,
+   "mmss": "9:05",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-16&t=544&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-16&t=544",
+   "notas": 8
+  },
+  "Hipocalcemia": {
+   "termino": "Hipocalcemia",
+   "tipo": "Concepto",
+   "alias": [
+    "hipocalcemia"
+   ],
+   "def": "Hiperirritabilidad neuromuscular con signos de Chvostek y Trousseau y QT prolongado. Calcio corregido < 8.5 mg/dL; se trata con gluconato de calcio EV.",
+   "pagina": 78,
+   "clase": "endo-17",
+   "claseTitulo": "7.17 Hipocalcemia Aguda y Crónica: Diagnóstico y Manejo de Emergencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": null,
+   "notas": 21
+  },
+  "Signo_de_Chvostek": {
+   "termino": "Signo de Chvostek",
+   "tipo": "Signo",
+   "alias": [
+    "Chvostek"
+   ],
+   "def": "La percusión ligera del nervio facial por delante del trago desencadena contracción ipsilateral de los músculos faciales; signo de hipocalcemia latente.",
+   "pagina": 78,
+   "clase": "endo-17",
+   "claseTitulo": "7.17 Hipocalcemia Aguda y Crónica: Diagnóstico y Manejo de Emergencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Signo_de_Trousseau": {
+   "termino": "Signo de Trousseau",
+   "tipo": "Signo",
+   "alias": [
+    "Trousseau"
+   ],
+   "def": "Espasmo carpopedal que indica hipocalcemia con irritabilidad neuromuscular.",
+   "pagina": 74,
+   "clase": "endo-16",
+   "claseTitulo": "7.16 Hipercalcemia e Hiperparatiroidismo Primario versus Neoplásico",
+   "diapositiva": null,
+   "t": 0,
+   "mmss": "0:00",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-16&t=0",
+   "notas": 3
+  },
+  "Gluconato_de_calcio": {
+   "termino": "Gluconato de calcio",
+   "tipo": "Farmaco",
+   "alias": [
+    "gluconato de calcio"
+   ],
+   "def": "Tratamiento inmediato de la hipocalcemia aguda sintomática: infusión endovenosa lenta, con monitorización cardíaca.",
+   "pagina": 121,
+   "clase": "endo-16",
+   "claseTitulo": "7.16 Hipercalcemia e Hiperparatiroidismo Primario versus Neoplásico",
+   "diapositiva": null,
+   "t": 0,
+   "mmss": "0:00",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-16&t=0",
+   "notas": 4
+  },
+  "Hipoparatiroidismo": {
+   "termino": "Hipoparatiroidismo",
+   "tipo": "Concepto",
+   "alias": [
+    "hipoparatiroidismo"
+   ],
+   "def": "Complicación de la tiroidectomía total, transitoria o definitiva (1-2% permanente), que produce hipocalcemia.",
+   "pagina": 35,
+   "clase": "endo-07",
+   "claseTitulo": "7.7 Manejo Terapéutico Comparado: Fármacos, Radioyodo y Cirugía",
+   "diapositiva": 6,
+   "t": 301.3,
+   "mmss": "5:01",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-07&t=301&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-07&t=301",
+   "notas": 9
+  },
+  "Osteoporosis": {
+   "termino": "Osteoporosis",
+   "tipo": "Concepto",
+   "alias": [
+    "osteoporosis"
+   ],
+   "def": "Enfermedad esquelética con baja masa ósea y deterioro microarquitectónico que aumenta la fragilidad. Se diagnostica con T-score ≤ -2.5 o fractura por fragilidad.",
+   "pagina": 82,
+   "clase": "endo-18",
+   "claseTitulo": "7.18 Osteoporosis: Densitometría Ósea (DEXA), Criterios FRAX y Tratamiento",
+   "diapositiva": 1,
+   "t": 27.6,
+   "mmss": "0:28",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-18&t=27&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-18&t=27",
+   "notas": 14
+  },
+  "Densitometria_osea": {
+   "termino": "Densitometría ósea",
+   "tipo": "Examen",
+   "alias": [
+    "densitometría ósea",
+    "DEXA",
+    "densitometría"
+   ],
+   "def": "DEXA: diagnostica osteoporosis con T-score ≤ -2.5 en columna lumbar, cuello femoral o cadera total, o fractura por fragilidad. Control cada 1-2 años.",
+   "pagina": 82,
+   "clase": "endo-18",
+   "claseTitulo": "7.18 Osteoporosis: Densitometría Ósea (DEXA), Criterios FRAX y Tratamiento",
+   "diapositiva": 1,
+   "t": 27.6,
+   "mmss": "0:28",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-18&t=27&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-18&t=27",
+   "notas": 5
+  },
+  "T_score": {
+   "termino": "T-score",
+   "tipo": "Concepto",
+   "alias": [
+    "T-score",
+    "T score"
+   ],
+   "def": "Desviaciones estándar respecto al pico de masa ósea del adulto joven. Osteoporosis ≤ -2.5; osteopenia entre -1.0 y -2.5.",
+   "pagina": 82,
+   "clase": "endo-18",
+   "claseTitulo": "7.18 Osteoporosis: Densitometría Ósea (DEXA), Criterios FRAX y Tratamiento",
+   "diapositiva": 1,
+   "t": 27.6,
+   "mmss": "0:28",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-18&t=27&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-18&t=27",
+   "notas": 7
+  },
+  "FRAX": {
+   "termino": "FRAX",
+   "tipo": "Concepto",
+   "alias": [
+    "FRAX"
+   ],
+   "def": "Herramienta de riesgo a 10 años. En osteopenia indica tratar si el riesgo es ≥ 20% para fractura mayor o ≥ 3% para fractura de cadera.",
+   "pagina": 82,
+   "clase": "endo-18",
+   "claseTitulo": "7.18 Osteoporosis: Densitometría Ósea (DEXA), Criterios FRAX y Tratamiento",
+   "diapositiva": 3,
+   "t": 145.2,
+   "mmss": "2:25",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-18&t=145&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-18&t=145",
+   "notas": 4
+  },
+  "Bifosfonatos": {
+   "termino": "Bifosfonatos",
+   "tipo": "Farmaco",
+   "alias": [
+    "bifosfonatos",
+    "alendronato",
+    "ácido zoledrónico",
+    "zoledronato"
+   ],
+   "def": "Tratamiento de primera línea: alendronato 70 mg/semana VO o ácido zoledrónico 5 mg/año EV, con reglas orales estrictas. Evaluar vacaciones terapéuticas a los 3-5 años.",
+   "pagina": 82,
+   "clase": "endo-18",
+   "claseTitulo": "7.18 Osteoporosis: Densitometría Ósea (DEXA), Criterios FRAX y Tratamiento",
+   "diapositiva": 7,
+   "t": 376.1,
+   "mmss": "6:16",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-18&t=376&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-18&t=376",
+   "notas": 11
+  },
+  "Denosumab": {
+   "termino": "Denosumab",
+   "tipo": "Farmaco",
+   "alias": [
+    "denosumab"
+   ],
+   "def": "Anticuerpo monoclonal 60 mg SC semestral que inhibe RANKL; útil en falla renal moderada.",
+   "pagina": 84,
+   "clase": "endo-18",
+   "claseTitulo": "7.18 Osteoporosis: Densitometría Ósea (DEXA), Criterios FRAX y Tratamiento",
+   "diapositiva": 9,
+   "t": 518.3,
+   "mmss": "8:38",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-18&t=518&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-18&t=518",
+   "notas": 1
+  },
+  "Deficit_de_vitamina_D": {
+   "termino": "Déficit de vitamina D",
+   "tipo": "Concepto",
+   "alias": [
+    "déficit de vitamina D",
+    "vitamina D",
+    "hipovitaminosis D"
+   ],
+   "def": "Se asocia a osteoporosis secundaria. Todo paciente tratado recibe calcio elemental 1000 a 1200 mg/día y vitamina D3 800 a 2000 UI/día.",
+   "pagina": 83,
+   "clase": "endo-18",
+   "claseTitulo": "7.18 Osteoporosis: Densitometría Ósea (DEXA), Criterios FRAX y Tratamiento",
+   "diapositiva": 15,
+   "t": 847.4,
+   "mmss": "14:07",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-18&t=847&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-18&t=847",
+   "notas": 22
+  },
+  "25_OH_vitamina_D": {
+   "termino": "25-OH vitamina D",
+   "tipo": "Examen",
+   "alias": [
+    "25-OH vitamina D",
+    "25-hidroxivitamina D",
+    "25OHD"
+   ],
+   "def": "Examen de elección indiscutido para evaluar las reservas de vitamina D (no el calcitriol). Menos de 20 ng/mL es deficiencia.",
+   "pagina": 86,
+   "clase": "endo-19",
+   "claseTitulo": "7.19 Déficit de Vitamina D, Osteomalacia del Adulto y Raquitismo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Osteomalacia": {
+   "termino": "Osteomalacia",
+   "tipo": "Concepto",
+   "alias": [
+    "osteomalacia"
+   ],
+   "def": "Déficit severo y prolongado de vitamina D que impide mineralizar la matriz osteoide en adultos con cartílagos cerrados; fosfatasa alcalina elevada.",
+   "pagina": 86,
+   "clase": "endo-19",
+   "claseTitulo": "7.19 Déficit de Vitamina D, Osteomalacia del Adulto y Raquitismo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Raquitismo": {
+   "termino": "Raquitismo",
+   "tipo": "Concepto",
+   "alias": [
+    "raquitismo"
+   ],
+   "def": "Mineralización defectuosa del hueso por déficit severo de vitamina D en niños en crecimiento activo.",
+   "pagina": 86,
+   "clase": "endo-19",
+   "claseTitulo": "7.19 Déficit de Vitamina D, Osteomalacia del Adulto y Raquitismo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Adenoma_hipofisiario": {
+   "termino": "Adenoma hipofisiario",
+   "tipo": "Concepto",
+   "alias": [
+    "adenoma hipofisiario",
+    "macroadenoma",
+    "microadenoma"
+   ],
+   "def": "Microadenomas < 10 mm y macroadenomas ≥ 10 mm. El macroadenoma no funcionante con compresión quiasmática se opera por vía transesfenoidal endoscópica.",
+   "pagina": 93,
+   "clase": "endo-20",
+   "claseTitulo": "7.20 Masas Selares, Adenomas Hipofisiarios y Apoplejía Hipofisaria",
+   "diapositiva": 10,
+   "t": 570.5,
+   "mmss": "9:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-20&t=570&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-20&t=570",
+   "notas": 14
+  },
+  "Apoplejia_hipofisaria": {
+   "termino": "Apoplejía hipofisaria",
+   "tipo": "Concepto",
+   "alias": [
+    "apoplejía hipofisaria"
+   ],
+   "def": "Crisis aguda sobre un adenoma previo, con sangrado selar. Emergencia neuroendocrina: hidrocortisona EV inmediata, con o sin cirugía descompresiva.",
+   "pagina": 93,
+   "clase": "endo-20",
+   "claseTitulo": "7.20 Masas Selares, Adenomas Hipofisiarios y Apoplejía Hipofisaria",
+   "diapositiva": 6,
+   "t": 368.7,
+   "mmss": "6:09",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-20&t=368&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-20&t=368",
+   "notas": 4
+  },
+  "Hemianopsia_bitemporal": {
+   "termino": "Hemianopsia bitemporal",
+   "tipo": "Signo",
+   "alias": [
+    "hemianopsia bitemporal"
+   ],
+   "def": "Defecto de los campos visuales temporales por compresión del quiasma óptico por un macroadenoma; sugiere masa selar.",
+   "pagina": 93,
+   "clase": "endo-20",
+   "claseTitulo": "7.20 Masas Selares, Adenomas Hipofisiarios y Apoplejía Hipofisaria",
+   "diapositiva": 12,
+   "t": 688.5,
+   "mmss": "11:28",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-20&t=688&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-20&t=688",
+   "notas": 7
+  },
+  "Hiperprolactinemia": {
+   "termino": "Hiperprolactinemia",
+   "tipo": "Concepto",
+   "alias": [
+    "hiperprolactinemia"
+   ],
+   "def": "Trastorno hipotálamo-hipofisario más común. Antes de pensar en tumor se descartan antipsicóticos, metoclopramida, hipotiroidismo primario y embarazo.",
+   "pagina": 97,
+   "clase": "endo-21",
+   "claseTitulo": "7.21 Hiperprolactinemia y Prolactinomas: Diagnóstico y Terapia Médica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Prolactinoma": {
+   "termino": "Prolactinoma",
+   "tipo": "Concepto",
+   "alias": [
+    "prolactinoma"
+   ],
+   "def": "Es el 40-50% de los adenomas hipofisarios. Con prolactina > 100 ng/mL es altamente probable; su tratamiento es médico con cabergolina, nunca quirúrgico de entrada.",
+   "pagina": 97,
+   "clase": "endo-21",
+   "claseTitulo": "7.21 Hiperprolactinemia y Prolactinomas: Diagnóstico y Terapia Médica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": null,
+   "notas": 15
+  },
+  "Prolactina": {
+   "termino": "Prolactina",
+   "tipo": "Examen",
+   "alias": [
+    "prolactina",
+    "PRL"
+   ],
+   "def": "Hormona hipofisaria bajo tono inhibitorio constante de la dopamina hipotalámica por receptores D2. Basal > 25 ng/mL en ayuno y reposo es elevada.",
+   "pagina": 97,
+   "clase": "endo-21",
+   "claseTitulo": "7.21 Hiperprolactinemia y Prolactinomas: Diagnóstico y Terapia Médica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": null,
+   "notas": 23
+  },
+  "Cabergolina": {
+   "termino": "Cabergolina",
+   "tipo": "Farmaco",
+   "alias": [
+    "cabergolina"
+   ],
+   "def": "Agonista dopaminérgico selectivo D2 de acción ultraprolongada; primera línea del prolactinoma (0.5 mg 1-2 veces/semana VO).",
+   "pagina": 97,
+   "clase": "endo-21",
+   "claseTitulo": "7.21 Hiperprolactinemia y Prolactinomas: Diagnóstico y Terapia Médica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": null,
+   "notas": 14
+  },
+  "Acromegalia": {
+   "termino": "Acromegalia",
+   "tipo": "Concepto",
+   "alias": [
+    "acromegalia",
+    "gigantismo"
+   ],
+   "def": "Hipersecreción autónoma de GH tras el cierre de epífisis. Nunca se pide GH basal aislada: se tamiza con IGF-1 y se confirma sin supresión de GH tras sobrecarga de glucosa.",
+   "pagina": 100,
+   "clase": "endo-22",
+   "claseTitulo": "7.22 Acromegalia y Gigantismo: Diagnóstico Bioquímico y Manejo",
+   "diapositiva": 1,
+   "t": 25.8,
+   "mmss": "0:26",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-22&t=25&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-22&t=25",
+   "notas": 18
+  },
+  "IGF_1": {
+   "termino": "IGF-1",
+   "tipo": "Examen",
+   "alias": [
+    "IGF-1",
+    "somatomedina C"
+   ],
+   "def": "Factor de crecimiento insulínico tipo 1: examen de tamizaje de la acromegalia. Un nivel normal para edad y sexo la descarta con 99% de certeza.",
+   "pagina": 100,
+   "clase": "endo-22",
+   "claseTitulo": "7.22 Acromegalia y Gigantismo: Diagnóstico Bioquímico y Manejo",
+   "diapositiva": 10,
+   "t": 588.3,
+   "mmss": "9:48",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-22&t=588&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-22&t=588",
+   "notas": 12
+  },
+  "Octreotido": {
+   "termino": "Octreótido",
+   "tipo": "Farmaco",
+   "alias": [
+    "octreótido",
+    "análogos de somatostatina"
+   ],
+   "def": "Análogo de somatostatina de acción prolongada (LAR 20-30 mg IM mensual); se usa si persiste la enfermedad activa tras la cirugía.",
+   "pagina": 100,
+   "clase": "endo-22",
+   "claseTitulo": "7.22 Acromegalia y Gigantismo: Diagnóstico Bioquímico y Manejo",
+   "diapositiva": 4,
+   "t": 279.4,
+   "mmss": "4:39",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-22&t=279&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-22&t=279",
+   "notas": 1
+  },
+  "Hipopituitarismo": {
+   "termino": "Hipopituitarismo",
+   "tipo": "Concepto",
+   "alias": [
+    "hipopituitarismo",
+    "panhipopituitarismo"
+   ],
+   "def": "Deficiencia de una o más hormonas de la hipófisis anterior o posterior; si compromete todas las estirpes celulares se llama panhipopituitarismo.",
+   "pagina": 103,
+   "clase": "endo-23",
+   "claseTitulo": "7.23 Hipopituitarismo, Síndrome de Sheehan y Panhipopituitarismo",
+   "diapositiva": 1,
+   "t": 27.7,
+   "mmss": "0:28",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-23&t=27&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-23&t=27",
+   "notas": 10
+  },
+  "Sindrome_de_Sheehan": {
+   "termino": "Síndrome de Sheehan",
+   "tipo": "Concepto",
+   "alias": [
+    "Sheehan"
+   ],
+   "def": "Necrosis isquémica posparto de la adenohipófisis por hemorragia obstétrica masiva. Su manifestación más precoz es el fracaso de la lactancia.",
+   "pagina": 103,
+   "clase": "endo-23",
+   "claseTitulo": "7.23 Hipopituitarismo, Síndrome de Sheehan y Panhipopituitarismo",
+   "diapositiva": 1,
+   "t": 27.7,
+   "mmss": "0:28",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-23&t=27&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-23&t=27",
+   "notas": 8
+  },
+  "Diabetes_insipida": {
+   "termino": "Diabetes insípida",
+   "tipo": "Concepto",
+   "alias": [
+    "diabetes insípida"
+   ],
+   "def": "Déficit o resistencia a ADH con poliuria acuosa masiva e hipernatremia; osmolaridad urinaria < 200-300 mOsm/kg. Central vs nefrogénica se distingue con test de Miller.",
+   "pagina": 106,
+   "clase": "endo-24",
+   "claseTitulo": "7.24 Diabetes Insípida, SIADH y Neoplasia Endocrina Múltiple (MEN)",
+   "diapositiva": 1,
+   "t": 25.1,
+   "mmss": "0:25",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-24&t=25&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-24&t=25",
+   "notas": 3
+  },
+  "Diabetes_insipida_nefrogenica": {
+   "termino": "Diabetes insípida nefrogénica",
+   "tipo": "Concepto",
+   "alias": [
+    "diabetes insípida nefrogénica"
+   ],
+   "def": "El túbulo colector no responde a la ADH y no responde a desmopresina. La causa farmacológica número uno es el carbonato de litio.",
+   "pagina": 109,
+   "clase": "endo-24",
+   "claseTitulo": "7.24 Diabetes Insípida, SIADH y Neoplasia Endocrina Múltiple (MEN)",
+   "diapositiva": 3,
+   "t": 138.4,
+   "mmss": "2:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-24&t=138&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-24&t=138",
+   "notas": 1
+  },
+  "Desmopresina": {
+   "termino": "Desmopresina",
+   "tipo": "Farmaco",
+   "alias": [
+    "desmopresina",
+    "DDAVP"
+   ],
+   "def": "DDAVP nasal u oral, tratamiento de la diabetes insípida central. Su test sube la osmolaridad urinaria en la central pero no en la nefrogénica.",
+   "pagina": 107,
+   "clase": "endo-24",
+   "claseTitulo": "7.24 Diabetes Insípida, SIADH y Neoplasia Endocrina Múltiple (MEN)",
+   "diapositiva": 3,
+   "t": 138.4,
+   "mmss": "2:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-24&t=138&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-24&t=138",
+   "notas": 4
+  },
+  "SIADH": {
+   "termino": "SIADH",
+   "tipo": "Concepto",
+   "alias": [
+    "SIADH",
+    "secreción inadecuada de ADH"
+   ],
+   "def": "Causa paradigmática de hiponatremia hipotónica euvolémica, con retención de agua libre. Se trata con restricción de fluidos (500-1000 mL/d).",
+   "pagina": 106,
+   "clase": "endo-24",
+   "claseTitulo": "7.24 Diabetes Insípida, SIADH y Neoplasia Endocrina Múltiple (MEN)",
+   "diapositiva": 12,
+   "t": 663.7,
+   "mmss": "11:04",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-24&t=663&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-24&t=663",
+   "notas": 10
+  },
+  "Hiponatremia": {
+   "termino": "Hiponatremia",
+   "tipo": "Concepto",
+   "alias": [
+    "hiponatremia"
+   ],
+   "def": "En el SIADH es hipotónica y euvolémica por retención de agua libre; corrección máxima < 8-10 mEq/L en 24h para evitar desmielinización osmótica.",
+   "pagina": 106,
+   "clase": "endo-24",
+   "claseTitulo": "7.24 Diabetes Insípida, SIADH y Neoplasia Endocrina Múltiple (MEN)",
+   "diapositiva": 5,
+   "t": 246.6,
+   "mmss": "4:07",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-24&t=246&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-24&t=246",
+   "notas": 11
+  },
+  "Ginecomastia": {
+   "termino": "Ginecomastia",
+   "tipo": "Concepto",
+   "alias": [
+    "ginecomastia"
+   ],
+   "def": "Proliferación benigna del tejido glandular mamario del varón; el motivo de consulta mamario más frecuente. Se distingue de la seudoginecomastia (grasa).",
+   "pagina": 110,
+   "clase": "endo-25",
+   "claseTitulo": "7.25 Ginecomastia: Fisiológica, Farmacológica y Patológica",
+   "diapositiva": 13,
+   "t": 746.4,
+   "mmss": "12:26",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-25&t=746&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-25&t=746",
+   "notas": 22
+  },
+  "Resonancia_de_silla_turca": {
+   "termino": "Resonancia de silla turca",
+   "tipo": "Examen",
+   "alias": [
+    "resonancia de silla turca",
+    "resonancia selar",
+    "RM hipofisaria"
+   ],
+   "def": "Con gadolinio pesquisa el microadenoma hipofisario en el Cushing; si es negativa o dudosa (< 6 mm) se hace cateterismo de senos petrosos.",
+   "pagina": 54,
+   "clase": "endo-11",
+   "claseTitulo": "7.11 Síndrome de Cushing: Algoritmo Diagnóstico y Diagnóstico Etiológico",
+   "diapositiva": 14,
+   "t": 788.6,
+   "mmss": "13:09",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Endocrinolog%C3%ADa&clase=endo-11&t=788&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_endocrinologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=endo-11&t=788",
+   "notas": 1
+  }
+ }
+}

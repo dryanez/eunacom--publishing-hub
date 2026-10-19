@@ -1,0 +1,670 @@
+{
+ "classId": "resp-08",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Joven con cuadro arrastrado, tos seca y poca auscultación: sospecha neumonía {{c1::atípica}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Tres neumonías, tres pistas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 153",
+    "EUNACOM Julio 2013 · Pregunta 107"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La neumonía atípica tiene comienzo {{c1::insidioso}}: tos seca persistente, cefalea y mialgias.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Disociación clínico-radiológica",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neumonía atípica típica en jóvenes, cuarteles y estudiantes: {{c1::Mycoplasma}} y Chlamydophila.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Neumonía atípica",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 153",
+    "EUNACOM Julio 2013 · Pregunta 107"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La disociación clínico-radiológica: auscultación casi normal con {{c1::infiltrados intersticiales bilaterales}} en la Rx.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · La clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 153",
+    "EUNACOM Julio 2013 · Pregunta 107"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mycoplasma carece de pared de {{c1::peptidoglicano}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · ¿Por qué no sirve la amoxicilina?",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Los atípicos tienen resistencia intrínseca a {{c1::penicilinas y cefalosporinas}}: los betalactámicos no actúan.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · ¿Por qué no sirve la amoxicilina?",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Tratamiento de la neumonía atípica: {{c1::macrólido}} (azitromicina o claritromicina) o doxiciclina.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Neumonía atípica",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 15",
+    "EUNACOM Julio 2013 · Pregunta 107"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Azitromicina en la atípica: {{c1::500 mg/día}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · ¿Por qué no sirve la amoxicilina?",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Doxiciclina en la neumonía atípica: {{c1::100 mg}} cada 12 horas.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla diferencial",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Legionella se asocia a diarrea, {{c1::hiponatremia}} y pruebas hepáticas alteradas.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Legionella",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Legionella se contagia en viajeros, por {{c1::torres de enfriamiento}} y agua.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Legionella",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Legionella: {{c1::levofloxacino}} 750 mg/día o azitromicina EV.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Legionella",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neumonía aspirativa: alcoholismo agudo, convulsiones, ACV, demencia o {{c1::anestesia general}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Neumonía aspirativa",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La flora de la aspirativa es mixta: {{c1::anaerobios orales}} y estreptococos.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Neumonía aspirativa",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La aspirativa compromete el segmento apical del {{c1::lóbulo inferior derecho}} o el posterior del lóbulo superior.",
+   "extra": "Segmentos declives, sobre todo derechos.",
+   "origen": "clase:5",
+   "fuente": "Clase · Dónde",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Neumonía aspirativa: {{c1::ampicilina/sulbactam}} o amoxicilina/clavulánico.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Ampicilina/sulbactam en aspirativa: {{c1::1,5–3 g}} cada 6 horas EV.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La neumonía intrahospitalaria aparece después de {{c1::48 horas}} del ingreso y no se estaba incubando.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Neumonía intrahospitalaria",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.030"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Gérmenes de la NIH: Pseudomonas, {{c1::Klebsiella BLEE}} y Acinetobacter.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Neumonía intrahospitalaria",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.030"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La NIH también se debe a {{c1::SAMR}} (Staphylococcus aureus resistente).",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Neumonía intrahospitalaria",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.030"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "NIH: piperacilina/tazobactam {{c1::4,5 g}} cada 6 horas EV.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Neumonía intrahospitalaria",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.030"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "NIH: o cefepime {{c1::2 g}} cada 8 horas EV.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Neumonía intrahospitalaria",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.030"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En NIH con sospecha de SAMR se agrega {{c1::vancomicina}} previa toma de cultivos.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Neumonía intrahospitalaria",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.030"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la NIH la cobertura debe ser {{c1::antipseudomónica}}, no el esquema habitual de NAC.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.030"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tinción de Gram orienta el tratamiento empírico mientras llega el {{c1::cultivo}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Gram de expectoración",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.008"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Diplococos grampositivos lanceolados sugieren {{c1::neumococo}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Gram de expectoración",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.008"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cocos grampositivos en racimos sugieren {{c1::Staphylococcus aureus}} (SAMR si es grave).",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Gram de expectoración",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.008"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 135"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Bacilos gramnegativos en el Gram: Klebsiella, Pseudomonas o {{c1::Haemophilus}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Gram de expectoración",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.008"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Gram interpretable solo con más de {{c1::25}} leucocitos y menos de 10 epiteliales por campo.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Gram de expectoración",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.008"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Los atípicos {{c1::no se ven}} con Gram, porque no tienen pared de peptidoglicano.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Gram de expectoración",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.008"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neumonía necrotizante: varias cavitaciones pequeñas de menos de {{c1::2 cm}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Supuración pulmonar",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.017"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Absceso pulmonar: cavidad única mayor de 2 cm con {{c1::nivel hidroaéreo}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Supuración pulmonar",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.017"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La extensión de la supuración a la pleura es el {{c1::empiema}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Supuración pulmonar",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.017"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Supuración pulmonar: fiebre, expectoración {{c1::fétida}}, vómica y baja de peso.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Supuración pulmonar",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.017"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Supuración pulmonar: se inicia ampicilina-sulbactam o {{c1::clindamicina}} y se pide TAC de tórax.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Conducta",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.017"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se deriva la supuración que no responde en {{c1::7–10 días}} o con empiema (fibrobroncoscopia, drenaje).",
+   "extra": "La fibrobroncoscopia descarta cáncer obstructivo.",
+   "origen": "clase:8",
+   "fuente": "Clase · Conducta",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.017"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "NAC típica en adulto mayor con comorbilidad: el esquema depende del {{c1::lugar de tratamiento}}.",
+   "extra": "Amoxicilina/clavulánico si es ambulatorio.",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo · NAC típica",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 138",
+    "EUNACOM Diciembre 2018 · Pregunta 100",
+    "EUNACOM Diciembre 2024 · Pregunta 132"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "NAC ambulatoria en menor de 65 años sin comorbilidad: {{c1::amoxicilina}}.",
+   "extra": "La HTA no agrava la neumonía.",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo · NAC típica",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 127"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "NAC con hospitalización: {{c1::ceftriaxona}} (o cefotaximo); en EPOC descompensado con neumonía bilateral se hospitaliza.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo · NAC típica",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 105",
+    "EUNACOM Julio 2015 · Pregunta 139",
+    "EUNACOM Diciembre 2024 · Pregunta 132",
+    "EUNACOM Julio 2017 · Pregunta 153"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "NAC grave en UCI: cefalosporina de tercera generación más {{c1::macrólido o quinolona respiratoria}}.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo · NAC típica",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 139"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tos, expectoración y disnea en un adulto mayor con comorbilidades y Rx con infiltrados bilaterales: {{c1::neumonía bilateral}}.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo · Neumonía confirmada",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.027"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 92"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "EPOC con exacerbación de disnea, expectoración y puntada de costado: el diagnóstico es {{c1::neumonía}}.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo · Neumonía confirmada",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.027"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 52"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-08/01_patrones-rx-por-germen_2__cto-infecto_p56.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Infiltrado intersticial bilateral por Mycoplasma",
+   "clave": "Infiltrados intersticiales o reticulonodulares bilaterales con auscultación pobre",
+   "conducta": "Macrólido o doxiciclina; los betalactámicos no sirven",
+   "fuente": "Manual CTO Infecciosas 14.ª ed., p. 56",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-08/01_rx_neumonia_aspirativa_lid__commons.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Neumonía aspirativa del lóbulo inferior derecho",
+   "clave": "Condensación en el segmento declive derecho en paciente con conciencia o deglución alteradas",
+   "conducta": "Ampicilina/sulbactam o amoxicilina/clavulánico",
+   "fuente": "Wikimedia Commons, CC BY-SA 4.0",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-08/01_patrones-rx-por-germen_4__cto-infecto_p56.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Neumonía por Klebsiella del lóbulo superior",
+   "clave": "Condensación del lóbulo superior por bacilo gramnegativo",
+   "conducta": "En el hospital: cobertura antipseudomónica (piperacilina/tazobactam o cefepime)",
+   "fuente": "Manual CTO Infecciosas 14.ª ed., p. 56",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.030"
+   ]
+  },
+  {
+   "id": "i04",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-08/01_patrones-rx-por-germen_3__cto-infecto_p56.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Cavidad pulmonar derecha: tuberculosis cavitada",
+   "clave": "Cavidad única que no es absceso",
+   "conducta": "Toda cavidad obliga a pensar también en tuberculosis",
+   "fuente": "Manual CTO Infecciosas 14.ª ed., p. 56",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.017"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Más de 48 h hospitalizado: ¿qué esquema?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.0",
+   "pista": "Aspiración con conciencia alterada: ¿qué esquema?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.1.0",
+   "pista": "Cuadro atípico: ¿qué tratamiento?"
+  }
+ ]
+}

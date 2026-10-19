@@ -1,0 +1,512 @@
+{
+ "classId": "cirugia-03",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los divertículos colónicos son {{c1::pseudodivertículos}}: herniación de mucosa y submucosa por los puntos de penetración vascular.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.013",
+    "1.06.1.017"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Más del {{c1::90%}} de los divertículos asientan en el sigmoides y el colon descendente.",
+   "extra": "Menor diámetro luminal y mayor presión de segmentación.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Localización",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.013",
+    "1.06.1.017"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La diverticulitis aguda ocurre cuando un {{c1::fecalito}} obstruye el divertículo y causa isquemia, necrosis y microperforación.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Del divertículo a la microperforación",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.008"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "A la diverticulitis aguda se le llama la {{c1::apendicitis izquierda}}.",
+   "extra": "Dolor en FII, fiebre y Blumberg focal.",
+   "origen": "clase:1",
+   "fuente": "Clase · Del divertículo a la microperforación",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 33"
+   ],
+   "codigos": [
+    "4.01.1.013",
+    "1.06.1.017"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cuadro clásico de diverticulitis: dolor constante y progresivo en la {{c1::fosa ilíaca izquierda}}, fiebre y {{c2::constipación}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clínica",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.013",
+    "1.06.1.017"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En un {{c1::20%}} de los casos de diverticulitis se palpa una masa inflamatoria sensible.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clínica",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.013",
+    "1.06.1.017"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El dolor en FII horas después de una colonoscopía con manipulación de pólipos sugiere una {{c1::perforación diverticular iatrogénica}}.",
+   "extra": "Se pide TAC, nunca repetir la colonoscopía.",
+   "origen": "clase:2",
+   "fuente": "Clase · Clínica",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.008"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El examen de elección en la diverticulitis aguda es el {{c1::TAC de abdomen y pelvis con contraste IV}}.",
+   "extra": "Etapifica según Hinchey.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diagnóstico",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-03/01_diverticulitis-tc__cto-digestivo_p142.jpg",
+   "codigos": [
+    "4.01.2.008",
+    "4.01.4.015"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el TAC, la pared colónica engrosada de diverticulitis mide > {{c1::4 mm}}.",
+   "extra": "También: estriación de la grasa pericólica, abscesos y gas extraluminal.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.008",
+    "4.01.4.015"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En fase aguda, la colonoscopía y el enema baritado están {{c1::contraindicados}}.",
+   "extra": "La insuflación puede convertir una microperforación sellada en peritonitis fecal.",
+   "origen": "clase:5",
+   "fuente": "Clase · Reglas que siempre se preguntan",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.008"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hinchey 0: diverticulitis leve con {{c1::engrosamiento parietal}} sin flemón ni absceso.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Hinchey",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.013",
+    "1.06.1.017"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hinchey Ia: {{c1::flemón}} o inflamación pericólica confinada al mesocolon.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Hinchey",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-03/atlas_233_tac_diverticulitis_no_complicada.jpg",
+   "codigos": [
+    "4.01.2.008"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hinchey Ib: absceso pericólico pequeño de menos de {{c1::4 cm}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Hinchey",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.008"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hinchey II: absceso a distancia, pélvico o retroperitoneal, de {{c1::4 cm o más}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Hinchey",
+   "repaso": true,
+   "imagen": "biblioteca/10_cirugia/cirugia-03/atlas_234_tac_absceso_pericolico.jpg",
+   "codigos": [
+    "4.01.2.008"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hinchey III es peritonitis {{c1::purulenta}} generalizada; Hinchey IV es peritonitis {{c2::fecaloidea}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Hinchey",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.008"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hinchey 0 e Ia estable, joven y que tolera la vía oral: manejo {{c1::ambulatorio}} con dieta líquida y paracetamol.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Manejo",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.013",
+    "1.06.1.017"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Ambulatorio: {{c1::ciprofloxacino}} más {{c2::metronidazol}} por vía oral, 7 a 10 días.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Tratamiento médico",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.013",
+    "1.06.1.017"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Hospitalizado: {{c1::ceftriaxona 1-2 g/día EV}} más {{c2::metronidazol 500 mg c/8h EV}}.",
+   "extra": "Cubre gramnegativos y anaerobios.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Manejo",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.013",
+    "1.06.1.017"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En inmunosuprimidos hay umbral bajo para hospitalizar porque pueden {{c1::no tener fiebre ni leucocitosis}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Tratamiento médico",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.013",
+    "1.06.1.017"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un absceso de Hinchey Ib (< 4 cm) se trata con {{c1::antibióticos EV exclusivos}}, sin drenar.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.008"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Absceso diverticular ≥ 4 cm (Hinchey II): {{c1::drenaje percutáneo guiado por TAC}} más antibióticos EV.",
+   "extra": "Evita la colostomía de urgencia.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.008"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Peritonitis generalizada (Hinchey III-IV): {{c1::operación de Hartmann}} de urgencia.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Cirugía",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 33"
+   ],
+   "codigos": [
+    "4.01.2.008"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La operación de Hartmann reseca el sigmoides, cierra el muñón rectal y deja una {{c1::colostomía terminal}} en FII.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Cirugía",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.008",
+    "4.01.3.004"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tras el episodio agudo se hace colonoscopía total a las {{c1::6 a 8 semanas}}.",
+   "extra": "Para descartar cáncer de colon.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Seguimiento",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.013",
+    "1.06.1.017"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hasta un {{c1::2 a 5%}} de las supuestas diverticulitis son en realidad un cáncer de colon.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Reglas",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.013",
+    "1.06.1.017"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Factor de riesgo de diverticulosis y sus complicaciones: dieta baja en {{c1::fibra}}, obesidad, tabaco y AINE.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Factores de riesgo",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.004"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Diverticulosis asintomática en colonoscopía de tamizaje: {{c1::dieta rica en fibra}} y actividad física, sin controles específicos.",
+   "extra": "Sin restringir semillas ni nueces; no se opera.",
+   "origen": "clase:17",
+   "fuente": "Clase · Quiz diverticulosis",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.004"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La colostomía {{c1::terminal}} secciona el colon y aboca el cabo proximal; la {{c2::en asa}} tiene dos bocas y suele ser temporal.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Colostomías",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.004"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La {{c1::ileostomía}} elimina deposiciones líquidas y exige más reposición de agua y electrolitos.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Colostomías",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.004"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un estoma sano es {{c1::rosado, húmedo y brillante}}; pálido, violáceo o negro indica isquemia.",
+   "extra": "Avisar al cirujano.",
+   "origen": "clase:9",
+   "fuente": "Clase · Cuidado del estoma",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.004"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La colostomía se cierra a los {{c1::3 a 6 meses}}, tras estudiar el segmento excluido.",
+   "extra": "Con colonoscopía o enema con contraste.",
+   "origen": "clase:9",
+   "fuente": "Clase · Cierre",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.004"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Para confirmar diverticulitis aguda, el error es {{c1::pedir colonoscopía}}; se pide TAC.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.013",
+    "1.06.1.017"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Absceso < 4 cm (Hinchey Ib): el error es {{c1::drenar cualquier colección pequeña}}.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.008"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-03/atlas_234_tac_absceso_pericolico.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Diverticulitis con absceso pericólico",
+   "clave": "Colección junto al sigmoides inflamado en el TAC",
+   "conducta": "Absceso ≥ 4 cm: drenaje percutáneo y antibióticos EV; < 4 cm: solo antibióticos",
+   "fuente": "Atlas of Clinical Emergency Medicine (Sherman), p. 371",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.008"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.1.1",
+   "pista": "Absceso ≥ 4 cm (Hinchey II): ¿conducta?",
+   "codigos": [
+    "4.01.2.008",
+    "4.01.1.013"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.2",
+   "pista": "Hinchey III o IV: ¿qué cirugía?",
+   "codigos": [
+    "4.01.2.008",
+    "4.01.1.013"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0",
+   "pista": "Hinchey 0 o Ia sin colección: ¿manejo?",
+   "codigos": [
+    "4.01.2.008",
+    "4.01.1.013"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.0",
+   "pista": "Episodio resuelto: ¿qué examen a las 6 a 8 semanas?",
+   "codigos": [
+    "4.01.2.008",
+    "4.01.1.013"
+   ]
+  }
+ ]
+}

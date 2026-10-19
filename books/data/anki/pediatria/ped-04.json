@@ -1,0 +1,595 @@
+{
+  "classId": "ped-04",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La lactancia materna exclusiva (LME) se recomienda durante los primeros {{c1::6 meses}} y complementada hasta los 2 años o más.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Destete",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.007",
+        "3.01.3.004"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La leche materna aporta IgA secretora, lactoferrina, oligosacáridos prebióticos y {{c1::lisozima}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Beneficios",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.007"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Contraindicación materna absoluta de lactancia: infección por {{c1::VIH}} o HTLV-1/2 en países con acceso a fórmula.",
+      "extra": "Son las dos que más se preguntan.",
+      "origen": "clase:1",
+      "fuente": "Clase · Contraindicaciones maternas",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.007",
+        "3.01.3.004"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "TBC bacilífera activa no tratada: se separa transitoriamente hasta {{c1::2 semanas}} de tratamiento efectivo.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Contraindicaciones",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.007"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Contraindicación neonatal de la lactancia: {{c1::galactosemia clásica}}.",
+      "extra": "Requiere fórmula sin lactosa.",
+      "origen": "clase:1",
+      "fuente": "Clase · Contraindicación del lactante",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.007"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Puérpera con COVID-19 leve: {{c1::se mantiene la lactancia con mascarilla}}.",
+      "extra": "El virus no se transmite por la leche.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz EUNACOM Enero 2023 P55",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.004"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 55"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el buen agarre, el labio inferior queda {{c1::evertido}} y se ve más areola por arriba que por abajo.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Técnica",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.007"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La lactancia es a libre demanda: {{c1::8 a 12}} tomas al día.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Técnica de lactancia",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.007"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Lactancia efectiva: al menos {{c1::6 pañales mojados}} diarios desde el día 5.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Técnica de lactancia",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.007"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Ganancia de peso esperada con lactancia efectiva: {{c1::20 a 30 g/día}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Técnica de lactancia",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.007"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 99"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "RN de 10 días con peso bajo el de nacimiento, llanto frecuente y siempre prendido al pecho: {{c1::reforzar la técnica de lactancia}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Técnica",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.007"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 99"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las grietas del pezón casi siempre son por {{c1::mal agarre}}.",
+      "extra": "Se corrige la técnica y se aplica leche materna al final; la lanolina purificada es el tratamiento habitual.",
+      "origen": "clase:3",
+      "fuente": "Clase · Problemas mamarios",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.004"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 127"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La ingurgitación mamaria aparece al {{c1::3.° a 5.° día}}; se trata con vaciado frecuente y compresas tibias antes y frías después.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Problemas mamarios",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.004"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Perla láctea por obstrucción de un conducto: se indica {{c1::frío local antes de dar de mamar}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Problemas mamarios",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.004"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 160"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la mastitis la lactancia {{c1::no se suspende}}.",
+      "extra": "Antibiótico antiestafilocócico si no mejora en 12 a 24 horas.",
+      "origen": "clase:3",
+      "fuente": "Clase · Mastitis",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.004"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Mastitis: fiebre {{c1::≥ 38,4 °C}}, calofríos y zona roja y caliente.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Mastitis",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.004"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antibiótico de la mastitis: {{c1::cloxacilina}} o cefalosporina de primera generación por 10 a 14 días.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Mastitis",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.004"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Leche materna: {{c1::4 horas}} a temperatura ambiente, {{c2::3 a 4 días}} en el refrigerador.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Conservación de la leche",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.004"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La leche materna dura hasta {{c1::6 meses}} en el congelador (-18 °C).",
+      "extra": "Se descongela en refrigerador o baño maría, nunca en microondas.",
+      "origen": "clase:4",
+      "fuente": "Clase · Conservación de la leche",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.004"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El destete se hace gradual: reemplazar una toma cada {{c1::1 a 2 semanas}}.",
+      "extra": "Evita ingurgitación y mastitis.",
+      "origen": "clase:4",
+      "fuente": "Clase · Destete",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.004"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La leche de vaca entera no se da antes de los {{c1::12 meses}}.",
+      "extra": "Riesgo de anemia por microsangrado intestinal.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Destete",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.001"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Vitamina D profiláctica: {{c1::400 UI/día}} desde el mes de vida hasta los 12 meses.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.001",
+        "2.01.3.007"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 146"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el prematuro la vitamina D es {{c1::la misma dosis}}; lo que cambia es el hierro.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.001"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hierro profiláctico en RN de término con LME: {{c1::1 mg/kg/día}} desde los {{c2::4 meses}}.",
+      "extra": "Se agotan los depósitos hepáticos.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.009",
+        "2.01.3.001"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hierro profiláctico en prematuro o < 2.500 g: {{c1::2 a 3 mg/kg/día}} desde los {{c2::2 meses}}.",
+      "extra": "Menor traspaso placentario en el tercer trimestre.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.009",
+        "2.01.3.001"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Prematuro de 33 semanas y 1.950 g a los 2 meses: se inicia {{c1::hierro 2 a 3 mg/kg/día}} hoy.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.009"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La alimentación complementaria se inicia a los {{c1::6 meses cumplidos}} con el almuerzo.",
+      "extra": "Puré con carne desgrasada y 5 mL de aceite vegetal crudo.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Cronograma",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.001"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La segunda comida (cena) se introduce a los {{c1::8 a 9 meses}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.001"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "A los 6 meses el puré lleva {{c1::5 mL de aceite vegetal crudo}} agregado al servir.",
+      "extra": "Fuente de ácidos grasos esenciales omega 3 y 6.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Protocolo MINSAL",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.001"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Prohibido el primer año: sal, azúcar, {{c1::miel}} y leche de vaca.",
+      "extra": "La miel causa botulismo del lactante por Clostridium botulinum.",
+      "origen": "clase:7",
+      "fuente": "Clase · Prohibido el primer año",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.001",
+        "5.01.3.004"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Prematuro de 10 meses según el PNAC recibe {{c1::fórmula de continuación para prematuros}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Destete",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.001"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 122"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Fórmula: una medida rasa por cada {{c1::30 mL}} de agua hervida y enfriada.",
+      "extra": "El sobrante se desecha después de una hora.",
+      "origen": "clase:4",
+      "fuente": "Clase · Higiene de la alimentación",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.004"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antes de los 4 a 5 años se evitan frutos secos enteros, uvas enteras y trozos redondos de salchicha por riesgo de {{c1::aspiración}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Higiene",
+      "repaso": true,
+      "codigos": [
+        "5.01.3.004"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Carotenemia: coloración amarillo-anaranjada de palmas y plantas con escleras {{c1::blancas}}, por exceso de betacaroteno en la dieta.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz EUNACOM Julio 2017 P3",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.105"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 3"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Seis o más manchas café con leche con pecas axilares sugieren {{c1::neurofibromatosis tipo 1}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Manchas pigmentarias",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.105"
+      ]
+    },
+    {
+      "id": "c36",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La mancha mongólica es azul-grisácea, lumbosacra y se {{c1::registra en la ficha}} para no confundirla con maltrato.",
+      "extra": "",
+      "origen": "libro:sec:6",
+      "fuente": "Libro §6 Alteraciones pigmentarias",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.105"
+      ]
+    },
+    {
+      "id": "c37",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tres o más máculas hipomelánicas en hoja de fresno obligan a descartar {{c1::esclerosis tuberosa}}.",
+      "extra": "Se ven mejor con luz de Wood.",
+      "origen": "clase:8",
+      "fuente": "Clase · Manchas pigmentarias",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.105"
+      ]
+    },
+    {
+      "id": "c38",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Placas hipocrómicas con fina descamación en la cara del escolar atópico: {{c1::pitiriasis alba}}; se indica bloqueador solar y emolientes.",
+      "extra": "",
+      "origen": "libro:sec:6",
+      "fuente": "Libro §6 Alteraciones pigmentarias",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.105"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 82"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-04/03_acople_incorrecto_vs_correcto__commons.jpg",
+      "pregunta": "¿Cuál agarre es el correcto y por qué?",
+      "diagnostico": "Comparación de agarre incorrecto y correcto en lactancia",
+      "clave": "Correcto: boca muy abierta, labio inferior evertido, más areola por arriba y mentón contra la mama",
+      "conducta": "Corregir la técnica de lactancia",
+      "fuente": "Wikimedia Commons · BruceBlaus, CC BY-SA 4.0",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.007",
+        "3.01.3.004"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-04/06_pecas-axilares-nf1__nelson_p4649.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Pecas axilares (signo de Crowe), sugerentes de neurofibromatosis tipo 1",
+      "clave": "Pecas pequeñas en la axila junto a manchas café con leche",
+      "conducta": "Derivar para estudio de neurofibromatosis tipo 1",
+      "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 4649",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.105"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-04/07_vitiligo__nelson_p5197.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Vitíligo simétrico",
+      "clave": "Acromía adquirida, bien delimitada y simétrica, en las rodillas",
+      "conducta": "Fotoprotección y derivación; buscar tiroiditis y diabetes tipo 1",
+      "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 5197",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.105"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Recién nacido de término: ¿cuándo empieza el hierro y a qué dosis?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Prematuro o bajo peso: ¿cuándo empieza el hierro y a qué dosis?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0.0",
+      "pista": "A los 6 meses: ¿qué se introduce?"
+    }
+  ]
+}

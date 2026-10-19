@@ -1,0 +1,502 @@
+{
+  "classId": "nefro-12",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Alcalosis metabólica: pH > {{c1::7,45}} y HCO3 > {{c2::28}} mEq/L.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La alcalosis metabólica se perpetúa solo si hay un factor {{c1::generador}} y un factor de {{c2::mantención renal}}.",
+      "extra": "El riñón no logra botar el exceso de bicarbonato.",
+      "origen": "clase:1",
+      "fuente": "Clase · Generar y mantener",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Factor generador de alcalosis metabólica: {{c1::pérdida de H+ o ganancia de HCO3}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Generar y mantener",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Factores de mantención de la alcalosis metabólica: {{c1::volumen bajo, hipocloremia e hipokalemia}}.",
+      "extra": "Impiden que el riñón excrete el exceso de bicarbonato.",
+      "origen": "clase:1",
+      "fuente": "Clase · Generar y mantener",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La compensación respiratoria de la alcalosis metabólica es {{c1::hipoventilación}}, por supresión de los quimiorreceptores del tronco.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Mecanismos",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Compensación en alcalosis metabólica: ΔpCO2 = {{c1::0,7}} × ΔHCO3.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Generar y mantener",
+      "repaso": true,
+      "codigos": [
+        "1.05.4.010",
+        "1.09.1.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La hipoventilación compensatoria rara vez eleva la pCO2 sobre {{c1::55 mmHg}}.",
+      "extra": "La hipoxemia frena la hipoventilación.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Mecanismos",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la alcalosis metabólica baja el calcio {{c1::iónico}} por mayor afinidad con la albúmina.",
+      "extra": "Causa parestesias, Chvostek, Trousseau y tetania.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Mecanismos",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Alcalosis con parestesias periorales y signo de Trousseau: el problema es el {{c1::calcio iónico bajo}} por el pH.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Parestesias y Trousseau con alcalosis: el error es {{c1::buscar solo hipocalcemia total}}.",
+      "extra": "Lo que baja es el calcio iónico por el pH.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La alcalosis metabólica produce hipokalemia por {{c1::redistribución}} y puede dar arritmias.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El examen de elección para clasificar la alcalosis metabólica es el {{c1::cloro urinario}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clasificación",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.003"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Alcalosis sensible a cloro: cloro urinario {{c1::< 20}} mEq/L.",
+      "extra": "VEC bajo, hipotensión.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla cloro urinario",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Alcalosis resistente a cloro: cloro urinario {{c1::> 20}} mEq/L.",
+      "extra": "VEC normal o alto.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla cloro urinario",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causas de alcalosis sensible a cloro: {{c1::vómitos, sonda nasogástrica y diuréticos pasados}}.",
+      "extra": "Pérdida de HCl y depleción de volumen.",
+      "origen": "clase:3",
+      "fuente": "Clase · Cloro urinario",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa estelar de alcalosis sensible a cloro es la pérdida de {{c1::HCl gástrico}} (vómitos, estenosis pilórica).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clasificación",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.003"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Alcalosis resistente a cloro con HTA: {{c1::Conn, Cushing o estenosis de arteria renal}}.",
+      "extra": "Exceso autónomo de mineralocorticoides.",
+      "origen": "clase:3",
+      "fuente": "Clase · Cloro urinario",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Alcalosis resistente a cloro con PA normal: síndrome de {{c1::Bartter}} (asa) o de {{c2::Gitelman}} (distal).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla cloro urinario",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de la alcalosis sensible a cloro: {{c1::suero fisiológico 0,9% más KCl}}.",
+      "extra": "Hay que aportar cloro.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cloro permite botar el HCO3 porque la {{c1::pendrina}} del túbulo colector lo intercambia por cloro.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alcalosis resistente a cloro con HTA: se trata con {{c1::espironolactona}} o cirugía del adenoma.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Bartter y Gitelman se manejan con suplementos de {{c1::potasio y magnesio}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla cloro urinario",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el vómito, la hipovolemia activa la aldosterona: reabsorbe Na y secreta {{c1::H+ y K+}}, causando aciduria paradójica.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Por qué se perpetúa",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Vómitos con cloro urinario < 20: el error es dar {{c1::acetazolamida o ácido clorhídrico}}.",
+      "extra": "La conducta es SF 0,9% + KCl.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Alcalosis sensible a cloro: el error es hidratar con {{c1::suero glucosado}}.",
+      "extra": "Sin cloro no se cura.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "HTA + hipokalemia + cloro urinario > 20: es hiperaldosteronismo primario; el error es pensar en {{c1::vómitos ocultos}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Cloro urinario > 20 con PA normal: el error es llamarla {{c1::sensible a cloro}}.",
+      "extra": "Es Bartter o Gitelman.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "pH normal con HCO3 muy alterado: el error es {{c1::informar gases normales}}.",
+      "extra": "Hay que buscar un trastorno mixto.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.05.4.010",
+        "1.09.1.003"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En trastornos mixtos, el método es calcular la {{c1::pCO2 esperada}} y compararla con la medida.",
+      "extra": "Acidosis: Winter · alcalosis: 0,7 × ΔHCO3.",
+      "origen": "clase:6",
+      "fuente": "Clase · Trastornos mixtos",
+      "repaso": true,
+      "codigos": [
+        "1.05.4.010",
+        "1.09.1.003"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si la pCO2 medida es mayor que la esperada hay {{c1::acidosis respiratoria}} agregada; si es menor, {{c2::alcalosis respiratoria}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Trastornos mixtos",
+      "repaso": false,
+      "codigos": [
+        "1.05.4.010",
+        "1.09.1.003"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los salicilatos causan el clásico trastorno mixto de acidosis metabólica con {{c1::alcalosis respiratoria}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Trastornos mixtos",
+      "repaso": false,
+      "codigos": [
+        "1.05.4.010",
+        "1.09.1.003"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Vómitos con pH 7,50, pCO2 48 y HCO3 36: pCO2 esperada = 0,7 × (36 − 24) + 40 = {{c1::48}}, compensación {{c2::adecuada}}.",
+      "extra": "Una pCO2 mayor de 50 indicaría acidosis respiratoria agregada.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz gases",
+      "repaso": true,
+      "codigos": [
+        "1.05.4.010",
+        "1.09.1.003"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipertenso con hipokalemia, HCO3 34 y cloro urinario 48 mEq/L: sospechar {{c1::hiperaldosteronismo primario}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro · Pregunta Dic. 2021",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.003"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "¿Cloro urinario < 20 mEq/L?",
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0",
+      "pista": "Cloro urinario < 20: ¿cuál es la categoría y el tratamiento?",
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0",
+      "pista": "Cloro > 20 con HTA: ¿qué mecanismo y manejo?",
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.1",
+      "pista": "Cloro > 20 con PA normal: ¿qué síndromes?",
+      "codigos": [
+        "1.09.1.003",
+        "1.05.4.010"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,499 @@
+{
+  "classId": "reuma-16",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las espondiloartritis son {{c1::seronegativas}}: factor reumatoide y ANA constantemente negativos.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Concepto unificador",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El HLA-B27 está presente en más del {{c1::90%}} de las espondilitis anquilosantes.",
+      "extra": "En 50-70% de las formas reactivas, psoriásicas y enteropáticas.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 HLA-B27",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En las espondiloartritis reactivas, psoriásicas y enteropáticas el HLA-B27 aparece en el {{c1::50-70%}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 HLA-B27",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La lesión elemental de las espondiloartritis es la {{c1::entesitis}}.",
+      "extra": "Inflamación de la inserción ósea de tendones y ligamentos.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las espondiloartritis cursan con oligoartritis {{c1::asimétrica}} de predominio en miembros inferiores.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Concepto unificador",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Manifestación extraarticular típica de las espondiloartritis: uveítis anterior aguda {{c1::unilateral}}.",
+      "extra": "También psoriasis, EII e insuficiencia aórtica.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Extraarticular",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La talalgia matinal con dolor exquisito en la inserción aquiliana corresponde a {{c1::entesitis}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Entesitis periférica",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::dactilitis}} (dedo en salchicha) es la inflamación difusa de todo un dedo por tenosinovitis.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Manifestaciones periféricas",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterios ASAS de lumbago inflamatorio: dolor crónico (≥ {{c1::3 meses}}) en menores de 45 años.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Criterios ASAS",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.006"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los criterios ASAS exigen al menos {{c1::4 de 5}} parámetros.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.018",
+        "1.11.1.013"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los 5 parámetros ASAS: edad < 45, inicio insidioso, mejoría con ejercicio, sin mejoría con {{c1::reposo}} y dolor nocturno.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Criterios ASAS",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.006"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Edad de inicio del dolor lumbar inflamatorio: menor de {{c1::45}} años (típicamente 20-35).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Inflamatorio vs Mecánico",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.013",
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El lumbago inflamatorio {{c1::mejora con el ejercicio}} y empeora con el reposo en cama.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 72",
+        "EUNACOM Agosto 2021 · Pregunta 97"
+      ],
+      "codigos": [
+        "1.11.1.013",
+        "1.11.1.006"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El dolor lumbar inflamatorio despierta en la {{c1::segunda mitad de la noche}} y obliga a levantarse.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.013",
+        "1.11.1.006"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Rigidez matinal del lumbago inflamatorio: > {{c1::30 a 60 minutos}}; en el mecánico es breve.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Inflamatorio vs Mecánico",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.013"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El dolor glúteo alternante \"en báscula\" traduce {{c1::sacroilitis}} bilateral.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 72"
+      ],
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Respuesta a AINEs en lumbago inflamatorio: alivio rápido en {{c1::24-48 horas}}.",
+      "extra": "En el mecánico la respuesta es parcial o modesta.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Semiología",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 110"
+      ],
+      "codigos": [
+        "1.11.1.006"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El lumbago mecánico explica el {{c1::90-95%}} de los dolores lumbares.",
+      "extra": "Cede con el reposo y no interrumpe el sueño.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Lumbago mecánico",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.006"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El lumbago mecánico {{c1::mejora con el reposo}} y empeora con la carga y la bipedestación.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Inflamatorio vs Mecánico",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.013"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Joven con dolor lumbar insidioso nocturno que mejora con el movimiento: el error es indicar {{c1::reposo en cama}}.",
+      "extra": "Corresponde a espondiloartritis: AINEs, imagen y reumatología.",
+      "origen": "clase:2",
+      "fuente": "Clase · Lumbago inflamatorio",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.013",
+        "1.11.1.006"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primer estudio de imagen ante sospecha de sacroilitis: {{c1::radiografía de pelvis}} centrada en sacroilíacas.",
+      "extra": "Busca erosiones, esclerosis o anquilosis.",
+      "origen": "foto",
+      "fuente": "Manual AMIR Reumatología, p. 79",
+      "repaso": true,
+      "imagen": "biblioteca/08_reumatologia/reuma-16/01_sacroilitis-rx__amir-reuma_p79.jpg",
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 97"
+      ],
+      "codigos": [
+        "1.11.1.013",
+        "1.11.1.006"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con sospecha de sacroilitis y radiografía normal se solicita {{c1::resonancia con secuencias STIR}}.",
+      "extra": "Detecta edema óseo subcondral (espondiloartritis no radiográfica).",
+      "origen": "foto",
+      "fuente": "Manual AMIR Reumatología, p. 79",
+      "repaso": true,
+      "imagen": "biblioteca/08_reumatologia/reuma-16/02_sacroilitis-rm-stir__amir-reuma_p79.jpg",
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 125"
+      ],
+      "codigos": [
+        "1.11.1.018",
+        "1.11.1.013"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento inicial de la espondiloartritis axial: {{c1::AINEs}} a dosis plenas continuas.",
+      "extra": "Naproxeno o indometacina; ibuprofeno fue la respuesta de la pregunta real.",
+      "origen": "clase:6",
+      "fuente": "Clase · Algoritmo inicial",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 110"
+      ],
+      "codigos": [
+        "1.11.1.013",
+        "1.11.1.006"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El HLA-B27 se asocia en forma superior al 90% con la {{c1::espondilitis anquilosante}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz EUNACOM 2020",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La vasculitis de pequeños vasos {{c1::no}} es manifestación de la espondilitis anquilosante.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · Pregunta AEE",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Lumbago mecánico agudo: naproxeno {{c1::500 mg cada 12 horas}} por pocos días.",
+      "extra": "Mantener actividad habitual; reposo > 2 días retrasa la recuperación.",
+      "origen": "clase:7",
+      "fuente": "Clase · Lumbago mecánico",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.013",
+        "1.11.1.006"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En lumbago mecánico, el reposo en cama de más de {{c1::2 días}} retrasa la recuperación.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Lumbago mecánico",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.013"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Lumbago mecánico: reevaluar a las {{c1::2 a 4 semanas}}; si pasa de 6 semanas, agregar ejercicio y kinesioterapia.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Lumbago mecánico",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.013"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En lumbociática, el Lasègue positivo a {{c1::30 a 70 grados}} orienta a hernia L4-L5 o L5-S1.",
+      "extra": "Se opera solo con déficit progresivo, cauda equina o dolor intratable.",
+      "origen": "clase:7",
+      "fuente": "Clase · Lumbociática",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.013",
+        "1.11.1.006"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Banderas rojas de columna dolorosa: edad < {{c1::20}} o > 50, trauma, cáncer, fiebre, baja de peso, inmunosupresión.",
+      "extra": "También déficit progresivo y cauda equina.",
+      "origen": "clase:8",
+      "fuente": "Clase · Banderas rojas",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.006",
+        "1.11.1.013"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anestesia en silla de montar con retención urinaria sugiere síndrome de {{c1::cauda equina}}.",
+      "extra": "Urgencia: derivar.",
+      "origen": "clase:8",
+      "fuente": "Clase · Banderas rojas",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.013",
+        "1.11.1.006"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-16/01_sacroilitis-rx__amir-reuma_p79.jpg",
+      "pregunta": true,
+      "diagnostico": "Sacroilitis radiográfica",
+      "clave": "Erosiones, esclerosis o fusión de sacroilíacas",
+      "conducta": "AINEs a dosis plenas, VHS/PCR y derivar a reumatología",
+      "fuente": "Manual AMIR Reumatología, p. 79",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.013",
+        "1.11.1.006"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-16/02_sacroilitis-rm-stir__amir-reuma_p79.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Sacroilitis activa en RM STIR",
+      "clave": "Edema óseo subcondral con radiografía eventualmente normal",
+      "conducta": "Espondiloartritis no radiográfica: AINEs y reumatología",
+      "fuente": "Manual AMIR Reumatología, p. 79",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.018",
+        "1.11.1.013"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0.0",
+      "pista": "Lumbago inflamatorio en joven: ¿qué pides y qué indicas?",
+      "codigos": [
+        "1.11.1.013"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0.0.0.1",
+      "pista": "Rx normal con sospecha fuerte de sacroilitis: ¿siguiente estudio?",
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0.0.1",
+      "pista": "Empeora con ejercicio y calma en reposo: ¿diagnóstico y manejo?",
+      "codigos": [
+        "1.11.1.013"
+      ]
+    }
+  ]
+}

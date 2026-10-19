@@ -1,0 +1,409 @@
+{
+ "classId": "oftal-06",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El humor acuoso se produce en el cuerpo ciliar y drena por la malla {{c1::trabecular}} del ángulo iridocorneal.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Predisponen al cierre angular: ojo pequeño ({{c1::hipermetropía}}), cámara anterior estrecha, cristalino engrosado y sexo femenino.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Predisposición",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Desencadenante: midriasis media en penumbra (cine), estrés o {{c1::anticolinérgicos}}, antihistamínicos o gotas midriáticas.",
+   "extra": "Migrañosa con topiramato, estrés, cefalea y pupila en semimidriasis: manitol EV.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Desencadenante",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 80"
+   ],
+   "codigos": [
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En midriasis la raíz del iris ocluye el trabéculo: {{c1::bloqueo pupilar}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Mecanismo",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "PIO normal de 10 a {{c1::21 mmHg}}; en el glaucoma agudo sube a 50, 60 o más de 70 mmHg.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 PIO",
+   "repaso": true,
+   "codigos": [
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Glaucoma agudo: dolor ocular brutal que irradia al hemicráneo, náuseas, vómitos, baja visual y {{c1::halos de colores}}.",
+   "extra": "Se confunde con migraña o ACV.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clínica",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.005",
+    "6.02.5.012"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signos: inyección mixta, edema corneal en {{c1::vidrio esmerilado}}, midriasis media arreactiva y cámara anterior estrecha.",
+   "extra": "Mujer de 50 años con ojo rojo periquerático y pupila midriática; paciente de 48 años que solo cuenta dedos.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Signos",
+   "repaso": true,
+   "imagen": "biblioteca/12_oftalmologia/oftal-06/01_glaucoma-agudo-pupila-media-edema-cornea__amir-oftalmo_p36.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 144",
+    "EUNACOM Diciembre 2018 · Pregunta 149"
+   ],
+   "codigos": [
+    "6.02.2.005",
+    "6.02.5.012"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo pupilar patognomónico: midriasis {{c1::media}} fija y arreactiva.",
+   "extra": "Hipermétrope de 30 años con cefalea 10/10.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pupila",
+   "repaso": true,
+   "imagen": "biblioteca/12_oftalmologia/oftal-06/52_glaucoma-agudo-edema-corneal__kanski_p375.jpg",
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 3"
+   ],
+   "codigos": [
+    "6.02.2.005",
+    "6.02.5.012"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ojo pétreo: palpación bimanual comparativa sobre los párpados {{c1::cerrados}} (mirada hacia abajo); nunca se presiona la córnea.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Ojo pétreo",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.005",
+    "6.02.5.012"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El cortejo vegetativo incluye bradicardia refleja {{c1::vagal}} por el dolor severo.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Bradicardia",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.005",
+    "6.02.5.012"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Objetivo inicial: bajar la PIO por debajo de {{c1::30 mmHg}} para restablecer la perfusión retiniana.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Objetivo",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Manitol EV al 15-20% ({{c1::1,5 a 2 g/kg}}) en 30-45 minutos: osmótico que deshidrata el vítreo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Manitol",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Acetazolamida {{c1::500 mg}} oral (EV si hay vómitos) y luego 250 mg cada 6 horas: frena la producción de acuoso.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Acetazolamida",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Timolol {{c1::0,5%}} cada 12 horas; precaución en asmáticos o bloqueos AV.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Timolol",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tríada de rescate: {{c1::manitol EV, acetazolamida y timolol}}.",
+   "extra": "Migraña o ACV sospechados con ojo pétreo.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tríada",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La pilocarpina 2% solo sirve cuando la PIO ha bajado de {{c1::30-40 mmHg}}: antes el esfínter está isquémico.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Pilocarpina",
+   "repaso": true,
+   "codigos": [
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pilocarpina: causa {{c1::miosis}}, tracciona la raíz del iris y abre el ángulo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Pilocarpina",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento definitivo: iridotomía periférica con láser {{c1::YAG}} una vez transparente la córnea.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Definitivo",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La iridotomía se hace siempre en {{c1::ambos ojos}}: el contralateral tiene 50-70% de riesgo de crisis.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Bilateral",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Prohibido todo colirio {{c1::midriático}} (atropina, tropicamida) en ángulo estrecho no tratado.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Prohibido",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.002"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Uveítis anterior: PIO normal o baja, miosis, Tyndall y sin vómitos; el glaucoma agudo tiene PIO {{c1::muy elevada}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.005",
+    "6.02.5.012"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Uveítis anterior: córnea transparente con {{c1::precipitados queráticos}}; glaucoma agudo: córnea edematosa.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.005",
+    "6.02.5.012"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sin tonómetro, la tensión ocular se estima por {{c1::palpación bidigital}} comparando ambos ojos: un ojo duro como piedra sugiere presión muy elevada.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Tensión palpatoria",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.005",
+    "6.02.5.012"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "PIO de 22 a 35 mmHg: hipertensión ocular moderada; 36 a 50: crisis incipiente; más de {{c1::50}}: glaucoma agudo establecido.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Tabla",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-06/01_glaucoma-agudo-pupila-media-edema-cornea__amir-oftalmo_p36.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Glaucoma agudo",
+   "clave": "Rojo periquerático y córnea sin brillo",
+   "conducta": "Manitol, acetazolamida y timolol; derivar",
+   "fuente": "Manual AMIR Oftalmología, p. 36",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-06/52_glaucoma-agudo-edema-corneal__kanski_p375.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Midriasis media y edema corneal",
+   "clave": "Córnea turbia y pupila de tamaño medio fija",
+   "conducta": "Iridotomía láser bilateral",
+   "fuente": "Kanski's Clinical Ophthalmology, 8.ª ed., p. 375",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 3"
+   ],
+   "codigos": [
+    "6.02.2.005",
+    "6.02.5.012"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Cefalea intensa con vómitos: ¿qué se descarta primero?",
+   "codigos": [
+    "6.02.2.005",
+    "6.02.5.012"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Córnea esmerilada, midriasis media fija y ojo pétreo: ¿tratamiento?",
+   "codigos": [
+    "6.02.2.005",
+    "6.02.5.012"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.0",
+   "pista": "Con la presión ya baja: ¿qué se agrega?",
+   "codigos": [
+    "6.02.2.005",
+    "6.02.5.012"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.0.1",
+   "pista": "Glaucoma agudo: ¿qué fármacos nunca se usan?",
+   "codigos": [
+    "6.02.2.005",
+    "6.02.5.012"
+   ]
+  }
+ ]
+}

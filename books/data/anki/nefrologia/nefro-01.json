@@ -1,0 +1,502 @@
+{
+  "classId": "nefro-01",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio KDIGO de IRA: aumento de creatinina ≥ {{c1::0.3 mg/dL}} en 48 horas.",
+      "extra": "Basta uno de los tres criterios.",
+      "origen": "clase:1",
+      "fuente": "Clase · Criterios KDIGO",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio KDIGO de IRA: creatinina ≥ {{c1::1.5 veces}} la basal conocida en los últimos 7 días.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Criterios KDIGO",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio KDIGO de IRA por diuresis: < {{c1::0.5 mL/kg/h}} por {{c2::6 horas}} o más.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Criterios KDIGO",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "KDIGO estadio 1: creatinina {{c1::1.5–1.9 veces}} la basal o aumento ≥ 0.3 mg/dL.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definición",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.063"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "KDIGO estadio 2: creatinina {{c1::2.0–2.9 veces}} la basal.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definición",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.063"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "KDIGO estadio 3: creatinina ≥ {{c1::3.0 veces}} la basal o ≥ {{c2::4.0 mg/dL}}, o inicio de terapia de reemplazo renal.",
+      "extra": "También anuria por ≥ 12 h.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definición",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.063"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante toda alza aguda de creatinina, el primer paso es descartar {{c1::obstrucción (causa postrenal)}} con ecografía renal y vesical.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Orden del estudio",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los AINEs bloquean las prostaglandinas y por eso impiden la vasodilatación de la arteriola {{c1::aferente}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.010",
+        "2.01.1.063"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los IECA/ARA-II impiden la vasoconstricción de la arteriola {{c1::eferente}} mediada por angiotensina II.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.010",
+        "2.01.1.063"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "AINE + IECA/ARA-II + deshidratación {{c1::anulan la autorregulación renal}} y desencadenan IRA prerrenal.",
+      "extra": "Es el 'doble bloqueo hemodinámico'; revierte al suspender ambos fármacos.",
+      "origen": "clase:23",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Si la presión arterial media cae bajo {{c1::65 mmHg}} la autorregulación renal fracasa.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.010",
+        "2.01.1.063"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "FeNa en IRA prerrenal: {{c1::< 1%}}; en necrosis tubular aguda: {{c2::> 2%}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla prerrenal vs NTA",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Sodio urinario en IRA prerrenal: < {{c1::20 mEq/L}}; en NTA: > {{c2::40 mEq/L}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla prerrenal vs NTA",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En un paciente que usa diuréticos de asa, el índice de elección para distinguir prerrenal es la {{c1::FeUrea}}.",
+      "extra": "El diurético fuerza la natriuresis e invalida la FeNa.",
+      "origen": "clase:5",
+      "fuente": "Clase · Índices urinarios",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "FeUrea < {{c1::35%}} confirma origen prerrenal; > {{c2::50%}} indica NTA.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla prerrenal vs NTA",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Relación BUN/creatinina: normal {{c1::10 a 15:1}}; en IRA prerrenal {{c2::> 20:1}}.",
+      "extra": "La hipoperfusión estimula la reabsorción de urea (ADH).",
+      "origen": "clase:6",
+      "fuente": "Clase · BUN/creatinina",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la NTA la relación BUN/creatinina se mantiene en {{c1::10–15:1 o menos}}, porque el túbulo dañado no reabsorbe urea.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · BUN/creatinina",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La relación BUN/creatinina también sube con {{c1::hemorragia digestiva alta, corticoides, catabolismo intenso y dieta hiperproteica}}.",
+      "extra": "Nunca se interpreta como dato aislado.",
+      "origen": "clase:6",
+      "fuente": "Clase · BUN/creatinina",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Orina prerrenal: osmolaridad > {{c1::500 mOsm/kg}} y densidad > {{c2::1.020}}; en NTA hay isostenuria de {{c3::1.010}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla prerrenal vs NTA",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sedimento de IRA prerrenal: {{c1::cilindros hialinos}}.",
+      "extra": "Es un sedimento prácticamente normal.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Sedimento",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cilindros granulosos pardos ('muddy brown') y células tubulares libres son patognomónicos de {{c1::necrosis tubular aguda}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Sedimento",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cilindros hemáticos con hematíes dismórficos orientan a {{c1::glomerulonefritis aguda}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Sedimento",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cilindros leucocitarios con piuria estéril orientan a {{c1::nefritis túbulo-intersticial aguda}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Sedimento",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Manejo de IRA prerrenal: {{c1::cristaloides isotónicos}} (suero fisiológico 0.9% o Ringer lactato), bolo inicial de {{c2::500 a 1000 mL}}.",
+      "extra": "Además se suspenden AINEs, IECA/ARA-II, aminoglucósidos y diuréticos.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Manejo",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Nunca dar {{c1::furosemida}} para 'forzar la diuresis' en una IRA prerrenal hipovolémica.",
+      "extra": "Aumenta la depleción y precipita necrosis tubular isquémica.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En NTA establecida el manejo es de soporte con {{c1::balance neutro}}: pérdidas insensibles ~500 mL + diuresis del día.",
+      "extra": "El exceso de volumen causa edema pulmonar.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Manejo",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La IRA postrenal representa {{c1::5–10%}} de los casos y exige obstrucción {{c2::bilateral o de un riñón único}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Obstrucción",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En IRA postrenal con globo vesical, el primer paso es instalar {{c1::sonda Foley}}.",
+      "extra": "Si la obstrucción es alta o no cede: Urología urgente (catéter doble J o nefrostomía).",
+      "origen": "clase:4",
+      "fuente": "Clase · Obstrucción",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Diuresis postobstructiva: > {{c1::200 mL/h por 2 horas}} o > {{c2::3 L/día}}; se repone volumen y se controla Na, K y Mg.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Obstrucción",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dolor lumbar agudo intenso con fiebre, vómitos, hematuria y ritmo irregular (FA) corresponde a {{c1::embolia renal}}.",
+      "extra": "Sin la FA podría confundirse con un cólico renal.",
+      "origen": "clase:3",
+      "fuente": "Pregunta real",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 34",
+        "EUNACOM Julio 2017 · Pregunta 18"
+      ],
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mialgias y oliguria 24 h tras ejercicio intenso con creatinina elevada sugieren rabdomiólisis; se estudia con {{c1::creatininkinasa (CK)}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Pregunta real",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 96"
+      ],
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/03_nefrologia/nefro-01/02_ecografia-hidronefrosis__bailey-love_p1433.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Hidronefrosis (IRA postrenal)",
+      "clave": "Pelvis renal dilatada y llena de orina",
+      "conducta": "Descomprimir: sonda Foley si hay globo; Urología si es alta",
+      "fuente": "Bailey & Love 27.ª ed., Fig. 76.15",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/03_nefrologia/nefro-01/01_sedimento-hematuria-glomerular__cto-nefro_p33.jpg",
+      "pregunta": "¿Qué muestra y qué sugiere?",
+      "diagnostico": "Hematíes dismórficos",
+      "clave": "Glóbulos rojos deformados que pasaron por el glomérulo",
+      "conducta": "Glomerulonefritis aguda: derivar",
+      "fuente": "Manual CTO Nefrología 14.ª ed., p. 33",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Obstrucción presente: ¿qué conducta?",
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "FeNa < 1%: ¿qué diagnóstico y manejo?",
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1.0",
+      "pista": "Cilindros granulosos pardos: ¿qué es y qué haces?",
+      "codigos": [
+        "1.09.2.010",
+        "1.09.2.004"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,540 @@
+{
+  "classId": "gin-15",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cáncer de endometrio tipo I (endometrioide): {{c1::estrógeno-dependiente}}, deriva de hiperplasia con atipias y tiene buen pronóstico.",
+      "extra": "Es el 80-85% de los casos.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Bokhman",
+      "codigos": [
+        "3.01.1.024"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cáncer de endometrio tipo II (seroso o de células claras): {{c1::estrógeno-independiente}}, en mujeres mayores con endometrio atrófico; agresivo.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Cáncer de endometrio",
+      "codigos": [
+        "3.01.1.024"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Factor de riesgo más potente para cáncer de endometrio: {{c1::obesidad}} (aromatización periférica a estrona).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.024"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Otros factores de riesgo de cáncer de endometrio: nuliparidad, SOP, {{c1::tamoxifeno}} y síndrome de Lynch.",
+      "extra": "El tamoxifeno actúa como estrógeno en el endometrio.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Factores",
+      "codigos": [
+        "3.01.1.024"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 81",
+        "EUNACOM Diciembre 2019 · Pregunta 11"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Son protectores del endometrio la multiparidad, los {{c1::ACO}} y el DIU con levonorgestrel.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro · pregunta banco AEE",
+      "codigos": [
+        "3.01.1.024"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síntoma cardinal del cáncer de endometrio: {{c1::metrorragia postmenopáusica}} (90% de los casos).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clínica",
+      "codigos": [
+        "3.01.1.024"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Todo sangrado postmenopáusico es {{c1::cáncer de endometrio}} hasta que se demuestre lo contrario.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.024"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Grosor endometrial normal en la postmenopausia: < {{c1::4 a 5 mm}} por ecografía transvaginal.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.024",
+        "3.01.4.005"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sangrado postmenopáusico con endometrio ≥ 4-5 mm: {{c1::biopsia endometrial}} con cánula de Pipelle.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · La regla que nunca falla",
+      "codigos": [
+        "3.01.1.024"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 177",
+        "EUNACOM Enero 2023 · Pregunta 61",
+        "EUNACOM Julio 2017 · Pregunta 147",
+        "EUNACOM Julio 2024 · Pregunta 177",
+        "EUNACOM Julio 2019 · Pregunta 62"
+      ],
+      "imagen": "biblioteca/13_ginecologia/gin-15/04_endometrio-engrosado-eco-histeroscopia__cto-gyo_p69.jpg"
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con terapia de reemplazo hormonal el corte endometrial para biopsiar sube a {{c1::8 mm}}.",
+      "extra": "Error: aplicar el mismo corte de 4-5 mm.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.024"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 46"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Sangrado postmenopáusico: el error es {{c1::observar o dar hormonas}} sin biopsiar.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.024"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si la muestra de Pipelle es insuficiente o se sospecha un pólipo: {{c1::histeroscopía}} diagnóstica con biopsia dirigida.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Diagnóstico",
+      "codigos": [
+        "3.01.1.024"
+      ],
+      "repaso": false,
+      "imagen": "biblioteca/13_ginecologia/gin-15/04_endometrio-engrosado-eco-histeroscopia_alt1__cto-gyo_p69.jpg"
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Células endometriales en el PAP de una postmenopáusica obesa y nulípara: se pide {{c1::ecografía transvaginal}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro · Quiz",
+      "codigos": [
+        "3.01.1.024",
+        "3.01.4.005"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 178",
+        "EUNACOM Julio 2016 · Pregunta 175"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hiperplasia endometrial atípica o compleja se trata con {{c1::histerectomía total}}.",
+      "extra": "Salvo alto deseo de paridad: progestágenos y legrado.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro · Tratamiento",
+      "codigos": [
+        "3.01.1.024"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 176"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tratamiento del cáncer de endometrio: histerectomía total con {{c1::salpingooforectomía bilateral}} y linfadenectomía o ganglio centinela.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Cirugía etapificadora",
+      "codigos": [
+        "3.01.1.024"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antes de operar un cáncer de endometrio confirmado se etapifica por imagen con {{c1::TAC}} de tórax, abdomen y pelvis.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Cirugía etapificadora",
+      "codigos": [
+        "3.01.1.024"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Síndrome de Lynch: riesgo de cáncer de endometrio y colon de {{c1::40-60%}}.",
+      "extra": "Genes de reparación MLH1 y MSH2.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Factores",
+      "codigos": [
+        "3.01.1.024"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síndrome de Lynch: tamizaje anual desde los 30 con ecografía y biopsia endometrial, e {{c1::histerectomía profiláctica}} cumplida la paridad.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Casos especiales",
+      "codigos": [
+        "3.01.1.024"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El cáncer de ovario se diagnostica en estadio III o IV en más del {{c1::70%}} de los casos.",
+      "extra": "Síntomas digestivos vagos: distensión, saciedad precoz, dolor pélvico sordo.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Cáncer de ovario",
+      "codigos": [
+        "3.01.1.028"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tipo histológico más frecuente del cáncer de ovario: carcinoma {{c1::seroso de alto grado}}, que se origina en la fimbria tubárica.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Cáncer de ovario",
+      "codigos": [
+        "3.01.1.028"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Postmenopáusica con dolor abdominal progresivo, baja de peso y masa anexial firme: {{c1::cáncer de ovario}}.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Dic 2018",
+      "codigos": [
+        "3.01.1.028"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 87",
+        "EUNACOM Enero 2023 · Pregunta 64"
+      ],
+      "imagen": "biblioteca/13_ginecologia/gin-15/03_adenocarcinoma-de-ovario-tc-rm_1__cto-radiologia_p141.jpg"
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Quiste simple IOTA benigno: {{c1::unilocular y anecoico}}, sin tabiques, sin componente sólido ni flujo Doppler.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Criterios IOTA",
+      "codigos": [
+        "3.01.1.028",
+        "3.01.4.005"
+      ],
+      "repaso": false,
+      "imagen": "biblioteca/13_ginecologia/gin-15/02_quiste-simple-de-ovario__cto-gyo_p80.jpg"
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Signos de malignidad IOTA: papilas sólidas intracísticas y septos gruesos, ambos > {{c1::3 mm}}.",
+      "extra": "Además ascitis y flujo Doppler central.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 IOTA",
+      "codigos": [
+        "3.01.1.028",
+        "3.01.4.005"
+      ],
+      "repaso": true,
+      "imagen": "biblioteca/13_ginecologia/gin-15/01_masa-anexial-sospechosa-eco__cto-gyo_p80.jpg"
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signo ecográfico de malignidad con flujo Doppler: vascularización {{c1::central}} intralesional.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla IOTA",
+      "codigos": [
+        "3.01.1.028",
+        "3.01.4.005"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Masa anexial con criterios IOTA benignos: control ecográfico en {{c1::6 a 12 semanas}}.",
+      "extra": "Error: cirugía o marcadores de entrada.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.028",
+        "3.01.4.005"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Quiste simple < 5 cm en mujer en edad fértil: control con ecografía transvaginal en {{c1::6 a 8 semanas}} en fase folicular.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz Perfil V3",
+      "codigos": [
+        "3.01.1.028",
+        "3.01.4.005"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "CA-125 es muy predictivo de malignidad en la {{c1::postmenopáusica}} con masa anexial compleja.",
+      "extra": "En jóvenes sube con miomas y endometriosis: poco específico.",
+      "origen": "clase:6",
+      "fuente": "Clase · Marcadores",
+      "codigos": [
+        "3.01.1.028"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Marcadores en mujer joven con tumor germinal: {{c1::alfafetoproteína}} (seno endodérmico), β-hCG (coriocarcinoma) y LDH (disgerminoma).",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Marcadores",
+      "codigos": [
+        "3.01.1.028"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Masa ovárica sospechosa: {{c1::nunca se punciona}}, por rotura capsular y siembra peritoneal.",
+      "extra": "Empeora el estadio (IA a IC).",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.028"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Masa anexial con criterios de malignidad: el error es {{c1::puncionar}} para aliviar o biopsiar; se deriva a ginecología oncológica.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.028"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pilar del tratamiento del cáncer de ovario: cirugía de {{c1::citorreducción}} máxima (R0) seguida de quimioterapia.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.028",
+        "1.08.3.002"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Quimioterapia del cáncer de ovario: {{c1::carboplatino más paclitaxel}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Citorreducción",
+      "codigos": [
+        "3.01.1.028",
+        "1.08.3.002"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 4",
+        "EUNACOM Julio 2015 · Pregunta 158"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tumores germinales en mujer joven: cirugía conservadora y esquema {{c1::BEP}} (bleomicina, etopósido y cisplatino).",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Casos especiales",
+      "codigos": [
+        "3.01.1.028",
+        "1.08.3.002"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cisplatino concomitante con radioterapia se usa en cuello uterino localmente avanzado; la quimio de ovario y endometrio avanzado es {{c1::carboplatino más paclitaxel}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Quimioterapia",
+      "codigos": [
+        "1.08.3.002"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-15/01_masa-anexial-sospechosa-eco__cto-gyo_p80.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Masa anexial sospechosa de malignidad",
+      "clave": "Partes sólidas, tabiques gruesos y flujo Doppler",
+      "conducta": "Derivar a ginecología oncológica; nunca puncionar",
+      "fuente": "Manual CTO Ginecología y Obstetricia 14.ª ed., p. 80",
+      "codigos": [
+        "3.01.1.028",
+        "3.01.4.005"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-15/02_quiste-simple-de-ovario__cto-gyo_p80.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Quiste simple de ovario",
+      "clave": "Pared delgada y contenido anecoico, sin tabiques ni flujo",
+      "conducta": "Control ecográfico en 6 a 12 semanas",
+      "fuente": "Manual CTO Ginecología y Obstetricia 14.ª ed., p. 80",
+      "codigos": [
+        "3.01.1.028",
+        "3.01.4.005"
+      ],
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Endometrio engrosado con sangrado: ¿qué examen?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1.0",
+      "pista": "Masa con criterios benignos: ¿conducta?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.1",
+      "pista": "Masa con criterios malignos: ¿qué se hace y qué no?"
+    }
+  ]
+}

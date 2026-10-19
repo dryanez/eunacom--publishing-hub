@@ -1,0 +1,403 @@
+{
+ "classId": "uro-06",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La epididimitis es la causa más común de escroto agudo del adulto y asciende por vía {{c1::canalicular retrógrada}} desde uretra o vejiga.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.010"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Epididimitis: dolor de 1 a 3 días, escroto rojo y caliente, {{c1::fiebre}} y síntomas urinarios (disuria, secreción).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clínica",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.007"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la epididimitis el signo de Prehn es {{c1::positivo}}: elevar el testículo alivia el dolor.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Signos",
+   "repaso": false,
+   "imagen": "_web/260_uro_Orquiepididimitis__Commons_3.jpg",
+   "codigos": [
+    "4.03.1.007"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la epididimitis el reflejo cremastérico está {{c1::conservado}}; solo se ausenta en la torsión.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Signos",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.007"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Menores de 35 años: la etiología es de transmisión sexual, {{c1::Chlamydia trachomatis}} y {{c2::Neisseria gonorrhoeae}}.",
+   "extra": "Pregunta real Dic 2025: joven con uretritis y escasa secreción.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Etiología",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 161"
+   ],
+   "codigos": [
+    "4.03.1.007",
+    "4.03.1.006"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mayores de 35 años o con HPB: la etiología son enterobacterias, sobre todo {{c1::Escherichia coli}}.",
+   "extra": "Pareja única y 65 años.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Etiología",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 175",
+    "EUNACOM Diciembre 2019 · Pregunta 179"
+   ],
+   "codigos": [
+    "4.03.1.007",
+    "4.03.1.006"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Menores de 35 años: {{c1::ceftriaxona 500 mg IM}} dosis única más {{c2::doxiciclina 100 mg c/12h}} por 10 a 14 días.",
+   "extra": "Ceftriaxona cubre gonococo; doxiciclina, Chlamydia.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Menores de 35",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.007",
+    "4.03.1.006"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la epididimitis por ETS se trata a la {{c1::pareja}} de los últimos 60 días y se indica abstinencia.",
+   "extra": "Notificación ENO de gonorrea y clamidia.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Menores de 35",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.007",
+    "4.03.1.006"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Mayores de 35 años: {{c1::ciprofloxacino 500 mg c/12h}} o levofloxacino 500 mg/día por 10-14 días.",
+   "extra": "Se estudia la vía urinaria baja.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Mayores de 35",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.007"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En menores de 35 el error es dar {{c1::ciprofloxacino solo}}: no cubre bien Chlamydia ni gonococo.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.007",
+    "4.03.1.006"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En varones con coito anal receptivo se cubren entéricos y ETS: ceftriaxona 500 mg IM más {{c1::ciprofloxacino}} por 14 días.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla antimicrobiana",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.007"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Medidas generales de la epididimitis: reposo, {{c1::suspensorio escrotal}}, compresas frías y AINE por 5 a 7 días.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Medidas",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.007"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Sin respuesta tras {{c1::48-72 horas}} de antibiótico: eco Doppler para descartar absceso o infarto testicular.",
+   "extra": "Absceso: drenaje u orquiectomía.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Complicaciones",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.007"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Uretritis gonocócica: incubación de {{c1::2 a 5 días}}, secreción purulenta abundante y diplococos gramnegativos intracelulares.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Uretritis",
+   "repaso": false,
+   "imagen": "biblioteca/19_urologia/uro-06/01_secrecion-uretral-gonococica__nelson_p1602.jpg",
+   "codigos": [
+    "4.03.1.006"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Uretritis no gonocócica: la más frecuente es {{c1::Chlamydia trachomatis}}, con secreción escasa y mucoide.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Uretritis",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.006"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El diagnóstico de uretritis se confirma con {{c1::PCR (NAAT)}} en primera orina o frotis uretral.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Uretritis",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.006"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Tratamiento empírico de la uretritis: ceftriaxona 500 mg IM más {{c1::azitromicina 1 g}} VO, dosis única.",
+   "extra": "Se ofrece VIH y VDRL.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Uretritis",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.006"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sífilis primaria: chancro {{c1::único, indoloro}}, de borde duro y fondo limpio, con adenopatía inguinal indolora.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Sífilis",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.006"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Sífilis primaria: penicilina benzatina {{c1::2,4 millones UI}} IM en dosis única.",
+   "extra": "En alérgicos: doxiciclina 100 mg c/12 h por 14 días.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Sífilis",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.006"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Herpes genital: vesículas agrupadas {{c1::dolorosas}} que recurren; primoinfección con aciclovir 400 mg c/8 h por 7-10 días.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Herpes",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.006"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El chancroide (Haemophilus ducreyi) es una úlcera {{c1::dolorosa}} y blanda de fondo sucio con adenopatía supurada.",
+   "extra": "El linfogranuloma venéreo se trata con doxiciclina 21 días.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Úlceras",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.006"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los condilomas son producidos por VPH tipos {{c1::6 y 11}}; se tratan con podofilotoxina, imiquimod o crioterapia.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Condilomas",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.006"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Tricomoniasis: {{c1::metronidazol 2 g}} VO en dosis única, y a la pareja.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tricomoniasis",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.006"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La uretritis sin tratamiento evoluciona a epididimitis, prostatitis y {{c1::estenosis uretral}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 ITS",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.006"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "_web/260_uro_Orquiepididimitis__Commons_3.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Epididimitis en Doppler",
+   "clave": "Epidídimo engrosado e hipervascular",
+   "conducta": "Menores de 35: ceftriaxona más doxiciclina; mayores: ciprofloxacino",
+   "fuente": "Wikimedia Commons, CC0",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 179"
+   ],
+   "codigos": [
+    "4.03.1.007",
+    "4.03.1.006"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-06/01_secrecion-uretral-gonococica__nelson_p1602.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Secreción uretral gonocócica",
+   "clave": "Secreción purulenta abundante por el meato",
+   "conducta": "Ceftriaxona 500 mg IM más azitromicina 1 g; tratar a la pareja",
+   "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 1602",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.006"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.1.0",
+   "pista": "Epididimitis en menor de 35 años: ¿antibiótico?",
+   "codigos": [
+    "4.03.1.006",
+    "4.03.1.007"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.1",
+   "pista": "Epididimitis en mayor de 35 años: ¿antibiótico?",
+   "codigos": [
+    "4.03.1.006",
+    "4.03.1.007"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.2",
+   "pista": "Sin mejoría a las 72 horas: ¿qué haces?",
+   "codigos": [
+    "4.03.1.006",
+    "4.03.1.007"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0",
+   "pista": "Dolor brusco con cremastérico abolido: ¿qué sospechas?",
+   "codigos": [
+    "4.03.1.006",
+    "4.03.1.007"
+   ]
+  }
+ ]
+}

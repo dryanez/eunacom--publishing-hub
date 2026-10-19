@@ -1,0 +1,1492 @@
+{
+ "_doc": "Glosario clicable del mazo Anki (popover en el reverso). 'def' se escribe a mano desde el libro (sin cifras nuevas) y se conserva al regenerar; pagina/clase/t/url los recalcula conceptos.py. Términos y alias: books/scripts/anki/vocab_*.txt.",
+ "libro": "diabetes",
+ "pdf": "books/dist/Modulo_1_Medicina_Interna/Manual_EUNACOM_Diabetes_Completo_2026.pdf",
+ "terminos": {
+  "Diabetes_mellitus_tipo_1": {
+   "termino": "Diabetes mellitus tipo 1",
+   "tipo": "Concepto",
+   "alias": [
+    "diabetes tipo 1",
+    "DM1",
+    "diabetes mellitus tipo 1"
+   ],
+   "def": "Destrucción autoinmune de las células beta del islote, con déficit absoluto de insulina. Afecta a niños y jóvenes, debuta agudo y tiende a la cetoacidosis diabética.",
+   "pagina": 5,
+   "clase": "diab-01",
+   "claseTitulo": "1.1 Tipos de Diabetes Mellitus: DM1, DM2, LADA y MODY",
+   "diapositiva": 5,
+   "t": 286.4,
+   "mmss": "4:46",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-01&t=286&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-01&t=286",
+   "notas": 19
+  },
+  "Diabetes_mellitus_tipo_2": {
+   "termino": "Diabetes mellitus tipo 2",
+   "tipo": "Concepto",
+   "alias": [
+    "diabetes tipo 2",
+    "DM2",
+    "diabetes mellitus tipo 2"
+   ],
+   "def": "Trastorno poligénico con resistencia periférica a la insulina y pérdida progresiva de la secreción de células beta. Se gatilla por obesidad visceral y sedentarismo.",
+   "pagina": 24,
+   "clase": "diab-06",
+   "claseTitulo": "2.1 Tratamiento Escalonado de la DM2 y Canasta GES MINSAL",
+   "diapositiva": 10,
+   "t": 568.3,
+   "mmss": "9:28",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-06&t=568&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-06&t=568",
+   "notas": 35
+  },
+  "LADA": {
+   "termino": "LADA",
+   "tipo": "Concepto",
+   "alias": [
+    "LADA",
+    "diabetes autoinmune latente del adulto"
+   ],
+   "def": "Diabetes autoinmune del adulto joven normopeso, con anticuerpos anti-GAD positivos, que requiere insulina.",
+   "pagina": 5,
+   "clase": "diab-01",
+   "claseTitulo": "1.1 Tipos de Diabetes Mellitus: DM1, DM2, LADA y MODY",
+   "diapositiva": 5,
+   "t": 286.4,
+   "mmss": "4:46",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-01&t=286&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-01&t=286",
+   "notas": 8
+  },
+  "MODY": {
+   "termino": "MODY",
+   "tipo": "Concepto",
+   "alias": [
+    "MODY"
+   ],
+   "def": "Diabetes monogénica autosómica dominante, antes de los 25 años, en personas delgadas y sin autoinmunidad. MODY-3 responde exquisitamente a dosis bajas de sulfonilureas.",
+   "pagina": 5,
+   "clase": "diab-01",
+   "claseTitulo": "1.1 Tipos de Diabetes Mellitus: DM1, DM2, LADA y MODY",
+   "diapositiva": 4,
+   "t": 234.3,
+   "mmss": "3:54",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-01&t=234&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-01&t=234",
+   "notas": 6
+  },
+  "Prediabetes": {
+   "termino": "Prediabetes",
+   "tipo": "Concepto",
+   "alias": [
+    "prediabetes",
+    "glicemia alterada en ayunas",
+    "intolerancia a la glucosa"
+   ],
+   "def": "Riesgo cardiovascular elevado y alta probabilidad de progresar a diabetes. Incluye glicemia de ayuno alterada (100–125 mg/dL), intolerancia a la glucosa (140–199 mg/dL) y HbA1c 5.7–6.4%.",
+   "pagina": 8,
+   "clase": "diab-02",
+   "claseTitulo": "1.2 Criterios Diagnósticos de Diabetes Mellitus, Prediabetes y Tamizaje en APS",
+   "diapositiva": 3,
+   "t": 124.1,
+   "mmss": "2:04",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-02&t=124&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-02&t=124",
+   "notas": 10
+  },
+  "Hemoglobina_glicosilada": {
+   "termino": "Hemoglobina glicosilada",
+   "tipo": "Examen",
+   "alias": [
+    "HbA1c",
+    "hemoglobina glicosilada",
+    "hemoglobina glicada"
+   ],
+   "def": "Estándar de oro del control metabólico retrospectivo de las últimas 8 a 12 semanas. Diagnóstica de diabetes si es ≥ 6.5%; la PTGO no sirve para el seguimiento.",
+   "pagina": 16,
+   "clase": "diab-04",
+   "claseTitulo": "1.4 Objetivos del Control Metabólico y Metas de HbA1c Individualizadas",
+   "diapositiva": 1,
+   "t": 25.9,
+   "mmss": "0:26",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-04&t=25&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-04&t=25",
+   "notas": 70
+  },
+  "Glicemia_en_ayunas": {
+   "termino": "Glicemia en ayunas",
+   "tipo": "Examen",
+   "alias": [
+    "glicemia en ayunas",
+    "glicemia de ayuno"
+   ],
+   "def": "Glicemia venosa plasmática con ayuno ≥ 8 horas. Un valor ≥ 126 mg/dL es criterio de diabetes; entre 100 y 125 mg/dL es glicemia de ayuno alterada.",
+   "pagina": 8,
+   "clase": "diab-02",
+   "claseTitulo": "1.2 Criterios Diagnósticos de Diabetes Mellitus, Prediabetes y Tamizaje en APS",
+   "diapositiva": 4,
+   "t": 180.8,
+   "mmss": "3:01",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-02&t=180&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-02&t=180",
+   "notas": 15
+  },
+  "Prueba_de_tolerancia_a_la_glucosa": {
+   "termino": "Prueba de tolerancia a la glucosa",
+   "tipo": "Examen",
+   "alias": [
+    "PTGO",
+    "prueba de tolerancia oral a la glucosa",
+    "sobrecarga oral de glucosa",
+    "test de tolerancia"
+   ],
+   "def": "PTGO con 75 g de glucosa. Glicemia a las 2 horas ≥ 200 mg/dL diagnostica diabetes; entre 140 y 199 mg/dL es intolerancia a la glucosa.",
+   "pagina": 8,
+   "clase": "diab-02",
+   "claseTitulo": "1.2 Criterios Diagnósticos de Diabetes Mellitus, Prediabetes y Tamizaje en APS",
+   "diapositiva": 5,
+   "t": 251.4,
+   "mmss": "4:11",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-02&t=251&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-02&t=251",
+   "notas": 23
+  },
+  "Peptido_C": {
+   "termino": "Péptido C",
+   "tipo": "Examen",
+   "alias": [
+    "péptido C"
+   ],
+   "def": "Se libera junto con la insulina endógena. Insulina alta con péptido C indetectable demuestra insulina exógena; si está elevado hay insulinoma o sulfonilurea.",
+   "pagina": 54,
+   "clase": "diab-14",
+   "claseTitulo": "3.4 Hipoglicemias: Tríada de Whipple, Fármacos Culpables y Rescate",
+   "diapositiva": 10,
+   "t": 524.3,
+   "mmss": "8:44",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-14&t=524&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-14&t=524",
+   "notas": 8
+  },
+  "Diabetes_gestacional": {
+   "termino": "Diabetes gestacional",
+   "tipo": "Concepto",
+   "alias": [
+    "diabetes gestacional",
+    "DMG"
+   ],
+   "def": "Intolerancia glucémica desde el segundo trimestre, o ayuno de 100 a 125 mg/dL en las primeras 12 semanas. Induce macrosomía fetal, polihidramnios y distocia de hombros.",
+   "pagina": 12,
+   "clase": "diab-03",
+   "claseTitulo": "1.3 Diabetes y Embarazo: Gestacional (DMG) vs Pregestacional (DMPG)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": null,
+   "notas": 20
+  },
+  "Diabetes_pregestacional": {
+   "termino": "Diabetes pregestacional",
+   "tipo": "Concepto",
+   "alias": [
+    "diabetes pregestacional",
+    "DMPG"
+   ],
+   "def": "Diabetes previa a la concepción, o criterios de no embarazada (dos glicemias de ayuno ≥ 126 mg/dL) en las primeras 12 semanas de gestación.",
+   "pagina": 12,
+   "clase": "diab-03",
+   "claseTitulo": "1.3 Diabetes y Embarazo: Gestacional (DMG) vs Pregestacional (DMPG)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": null,
+   "notas": 3
+  },
+  "Metas_de_HbA1c": {
+   "termino": "Metas de HbA1c",
+   "tipo": "Concepto",
+   "alias": [
+    "meta de HbA1c",
+    "metas de HbA1c"
+   ],
+   "def": "Meta estándar HbA1c < 7.0%; < 7.5% en adulto mayor funcional y 8.0% a 8.5% en el frágil. El ensayo ACCORD mostró más mortalidad al buscar < 6.0%.",
+   "pagina": 16,
+   "clase": "diab-04",
+   "claseTitulo": "1.4 Objetivos del Control Metabólico y Metas de HbA1c Individualizadas",
+   "diapositiva": 5,
+   "t": 233.8,
+   "mmss": "3:54",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-04&t=233&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-04&t=233",
+   "notas": 3
+  },
+  "Estilo_de_vida": {
+   "termino": "Estilo de vida",
+   "tipo": "Concepto",
+   "alias": [
+    "cambios de estilo de vida",
+    "ejercicio físico",
+    "actividad física"
+   ],
+   "def": "Ejercicio y terapia médico-nutricional son la base no farmacológica; reducen la HbA1c en 0.5 a 1.0%. Se prescriben al menos 150 minutos semanales de actividad aeróbica moderada.",
+   "pagina": 18,
+   "clase": "diab-05",
+   "claseTitulo": "1.5 Ejercicio Físico, Cambios de Estilo de Vida y Prevención Cardiovascular",
+   "diapositiva": 0,
+   "t": 5.2,
+   "mmss": "0:05",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-05&t=5&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-05&t=5",
+   "notas": 1
+  },
+  "Riesgo_cardiovascular": {
+   "termino": "Riesgo cardiovascular",
+   "tipo": "Concepto",
+   "alias": [
+    "riesgo cardiovascular",
+    "prevención cardiovascular"
+   ],
+   "def": "La estratificación del riesgo (muy alto, alto, moderado) define la meta de colesterol LDL y la estatina. El diabético con daño de órgano blanco es de riesgo muy alto.",
+   "pagina": 95,
+   "clase": "diab-23",
+   "claseTitulo": "5.4 Dislipidemias: Clasificación de Fredrickson, Riesgo Cardiovascular y Estatinas",
+   "diapositiva": 1,
+   "t": 30.3,
+   "mmss": "0:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-23&t=30&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-23&t=30",
+   "notas": 5
+  },
+  "GES_diabetes": {
+   "termino": "GES diabetes",
+   "tipo": "Concepto",
+   "alias": [
+    "GES",
+    "garantías explícitas en salud"
+   ],
+   "def": "La guía GES usa metformina como primera línea y biterapia a los 3 meses si no se alcanza HbA1c < 7.0%. Canasta: metformina, glibenclamida, NPH, cristalina, jeringas, lancetas y glucómetro.",
+   "pagina": 24,
+   "clase": "diab-06",
+   "claseTitulo": "2.1 Tratamiento Escalonado de la DM2 y Canasta GES MINSAL",
+   "diapositiva": 11,
+   "t": 632.1,
+   "mmss": "10:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-06&t=632&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-06&t=632",
+   "notas": 20
+  },
+  "Metformina": {
+   "termino": "Metformina",
+   "tipo": "Farmaco",
+   "alias": [
+    "metformina"
+   ],
+   "def": "Biguanida que activa AMPK e inhibe la gluconeogénesis hepática. Se suspende con VFG < 30 mL/min por riesgo de acidosis láctica; sus efectos adversos son digestivos.",
+   "pagina": 28,
+   "clase": "diab-07",
+   "claseTitulo": "2.2 Hipoglucemiantes Orales Clásicos: Metformina y Sulfonilureas",
+   "diapositiva": 10,
+   "t": 511.9,
+   "mmss": "8:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-07&t=511&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-07&t=511",
+   "notas": 73
+  },
+  "Sulfonilureas": {
+   "termino": "Sulfonilureas",
+   "tipo": "Farmaco",
+   "alias": [
+    "sulfonilureas",
+    "sulfonilurea",
+    "glibenclamida",
+    "glimepirida",
+    "glicazida"
+   ],
+   "def": "Glibenclamida: secretagogo que cierra canales K-ATP de la célula beta. Debe evitarse en adultos mayores por hipoglicemias prolongadas de 24 a 48 horas.",
+   "pagina": 28,
+   "clase": "diab-07",
+   "claseTitulo": "2.2 Hipoglucemiantes Orales Clásicos: Metformina y Sulfonilureas",
+   "diapositiva": 11,
+   "t": 577.9,
+   "mmss": "9:38",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-07&t=577&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-07&t=577",
+   "notas": 50
+  },
+  "Inhibidores_SGLT2": {
+   "termino": "Inhibidores SGLT2",
+   "tipo": "Farmaco",
+   "alias": [
+    "SGLT2",
+    "inhibidores SGLT2",
+    "empagliflozina",
+    "dapagliflozina",
+    "canagliflozina",
+    "iSGLT2"
+   ],
+   "def": "Gliflozinas: causan glucosuria y natriuresis sin hipoglicemias. Elección en insuficiencia cardíaca y nefropatía; riesgo de micosis genitales y cetoacidosis diabética euglicémica.",
+   "pagina": 31,
+   "clase": "diab-08",
+   "claseTitulo": "2.3 Nuevas Terapias: Inhibidores SGLT2, Agonistas GLP-1 e Inhibidores DPP-4",
+   "diapositiva": 1,
+   "t": 32.3,
+   "mmss": "0:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-08&t=32&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-08&t=32",
+   "notas": 31
+  },
+  "Agonistas_GLP_1": {
+   "termino": "Agonistas GLP-1",
+   "tipo": "Farmaco",
+   "alias": [
+    "GLP-1",
+    "agonistas GLP-1",
+    "liraglutida",
+    "semaglutida",
+    "dulaglutida"
+   ],
+   "def": "Liraglutida, semaglutida, dulaglutida: aumentan insulina glucosa-dependiente, suprimen glucagón y dan saciedad. Útiles en obesidad; contraindicados con carcinoma medular de tiroides o NEM 2.",
+   "pagina": 31,
+   "clase": "diab-08",
+   "claseTitulo": "2.3 Nuevas Terapias: Inhibidores SGLT2, Agonistas GLP-1 e Inhibidores DPP-4",
+   "diapositiva": 3,
+   "t": 151.4,
+   "mmss": "2:31",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-08&t=151&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-08&t=151",
+   "notas": 18
+  },
+  "Inhibidores_DPP_4": {
+   "termino": "Inhibidores DPP-4",
+   "tipo": "Farmaco",
+   "alias": [
+    "DPP-4",
+    "inhibidores DPP-4",
+    "sitagliptina",
+    "vildagliptina",
+    "linagliptina",
+    "iDPP4"
+   ],
+   "def": "Gliptinas: inhiben DPP-4 y prolongan el GLP-1 endógeno. Potencia moderada (HbA1c baja 0.5–0.7%) y sin hipoglicemias, alternativa segura en adultos mayores.",
+   "pagina": 31,
+   "clase": "diab-08",
+   "claseTitulo": "2.3 Nuevas Terapias: Inhibidores SGLT2, Agonistas GLP-1 e Inhibidores DPP-4",
+   "diapositiva": 5,
+   "t": 248.1,
+   "mmss": "4:08",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-08&t=248&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-08&t=248",
+   "notas": 10
+  },
+  "Pioglitazona": {
+   "termino": "Pioglitazona",
+   "tipo": "Farmaco",
+   "alias": [
+    "pioglitazona",
+    "glitazonas",
+    "tiazolidinedionas"
+   ],
+   "def": "Glitazona que retiene líquido; está contraindicada en insuficiencia cardíaca con fracción de eyección reducida, donde se prefiere un iSGLT2.",
+   "pagina": 31,
+   "clase": "diab-08",
+   "claseTitulo": "2.3 Nuevas Terapias: Inhibidores SGLT2, Agonistas GLP-1 e Inhibidores DPP-4",
+   "diapositiva": 10,
+   "t": 527.9,
+   "mmss": "8:48",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-08&t=527&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-08&t=527",
+   "notas": 2
+  },
+  "Insulina_NPH": {
+   "termino": "Insulina NPH",
+   "tipo": "Farmaco",
+   "alias": [
+    "insulina NPH",
+    "NPH"
+   ],
+   "def": "Insulina basal de la estrategia en APS: se agrega NPH nocturna (10 UI o 0.1–0.2 UI/kg) al acostarse, junto con metformina. También se usa cada 12 horas en esquemas basal-bolo.",
+   "pagina": 45,
+   "clase": "diab-12",
+   "claseTitulo": "3.2 Esquemas de Insulinoterapia y Algoritmos de Ajuste de Dosis",
+   "diapositiva": 13,
+   "t": 653.3,
+   "mmss": "10:53",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-12&t=653&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-12&t=653",
+   "notas": 49
+  },
+  "Insulina_glargina": {
+   "termino": "Insulina glargina",
+   "tipo": "Farmaco",
+   "alias": [
+    "glargina",
+    "insulina glargina",
+    "detemir",
+    "degludec"
+   ],
+   "def": "Análogo basal de acción prolongada, una vez al día a la misma hora. Si la glicemia de ayunas está elevada (sin Somogyi) se aumenta la basal nocturna (NPH o glargina).",
+   "pagina": 45,
+   "clase": "diab-12",
+   "claseTitulo": "3.2 Esquemas de Insulinoterapia y Algoritmos de Ajuste de Dosis",
+   "diapositiva": 1,
+   "t": 30.7,
+   "mmss": "0:31",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-12&t=30&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-12&t=30",
+   "notas": 10
+  },
+  "Insulina_cristalina": {
+   "termino": "Insulina cristalina",
+   "tipo": "Farmaco",
+   "alias": [
+    "insulina cristalina",
+    "insulina regular",
+    "insulina rápida"
+   ],
+   "def": "Insulina regular: inicio a los 30–60 minutos, pico a las 2–3 horas, dura 6–8 horas. Única que se usa endovenosa en bomba (CAD, UCI); no indicar esquema móvil aislado.",
+   "pagina": 50,
+   "clase": "diab-13",
+   "claseTitulo": "3.3 Manejo de la Hiperglicemia en el Paciente Hospitalizado",
+   "diapositiva": 11,
+   "t": 618.0,
+   "mmss": "10:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-13&t=617&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-13&t=617",
+   "notas": 6
+  },
+  "Analogos_de_insulina_rapida": {
+   "termino": "Análogos de insulina rápida",
+   "tipo": "Farmaco",
+   "alias": [
+    "lispro",
+    "aspártica",
+    "glulisina",
+    "análogos de acción rápida"
+   ],
+   "def": "Lispro, aspart y glulisina: inician a los 10–15 minutos, pico a la hora y duran 3–5 horas. Se inyectan inmediatamente antes de comer o justo después.",
+   "pagina": 34,
+   "clase": "diab-09",
+   "claseTitulo": "2.4 Tratamiento y Monitoreo de la Diabetes en la Gestante",
+   "diapositiva": 6,
+   "t": 328.2,
+   "mmss": "5:28",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-09&t=328&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-09&t=328",
+   "notas": 3
+  },
+  "Insulina": {
+   "termino": "Insulina",
+   "tipo": "Farmaco",
+   "alias": [
+    "insulina",
+    "insulinoterapia"
+   ],
+   "def": "Hormona cuyo déficit causa la CAD. En la CAD no se administra si el potasio es < 3.3 mEq/L por riesgo de arritmias; al iniciarla, el potasio ingresa a la célula.",
+   "pagina": 68,
+   "clase": "diab-17",
+   "claseTitulo": "4.3 Insulinoterapia Endovenosa y Manejo del Potasio y Bicarbonato",
+   "diapositiva": 2,
+   "t": 95.7,
+   "mmss": "1:36",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-17&t=95&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-17&t=95",
+   "notas": 110
+  },
+  "Esquema_basal_bolo": {
+   "termino": "Esquema basal-bolo",
+   "tipo": "Concepto",
+   "alias": [
+    "basal-bolo",
+    "esquema basal-bolo",
+    "insulinización"
+   ],
+   "def": "1–2 dosis basales más 3 bolos prandiales antes de desayuno, almuerzo y cena. Es obligatorio en todo paciente con DM1; se llega a él desde el esquema basal-plus.",
+   "pagina": 45,
+   "clase": "diab-12",
+   "claseTitulo": "3.2 Esquemas de Insulinoterapia y Algoritmos de Ajuste de Dosis",
+   "diapositiva": 5,
+   "t": 265.6,
+   "mmss": "4:26",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-12&t=265&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-12&t=265",
+   "notas": 2
+  },
+  "Fenomeno_del_alba": {
+   "termino": "Fenómeno del alba",
+   "tipo": "Concepto",
+   "alias": [
+    "fenómeno del alba"
+   ],
+   "def": "Aumento fisiológico de hormona de crecimiento y cortisol en la madrugada (04:00 a 08:00) que eleva la resistencia hepática a la insulina, sin hipoglicemia previa. Se sube la insulina.",
+   "pagina": 46,
+   "clase": "diab-12",
+   "claseTitulo": "3.2 Esquemas de Insulinoterapia y Algoritmos de Ajuste de Dosis",
+   "diapositiva": 4,
+   "t": 195.5,
+   "mmss": "3:16",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-12&t=195&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-12&t=195",
+   "notas": 3
+  },
+  "Efecto_Somogyi": {
+   "termino": "Efecto Somogyi",
+   "tipo": "Concepto",
+   "alias": [
+    "Somogyi"
+   ],
+   "def": "Exceso de insulina basal causa hipoglicemia hacia las 03:00 AM y las hormonas contrarreguladoras producen hiperglicemia matinal de rebote. Se debe bajar la insulina nocturna.",
+   "pagina": 45,
+   "clase": "diab-12",
+   "claseTitulo": "3.2 Esquemas de Insulinoterapia y Algoritmos de Ajuste de Dosis",
+   "diapositiva": 3,
+   "t": 142.1,
+   "mmss": "2:22",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-12&t=142&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-12&t=142",
+   "notas": 10
+  },
+  "Hiperglicemia_hospitalaria": {
+   "termino": "Hiperglicemia hospitalaria",
+   "tipo": "Concepto",
+   "alias": [
+    "hiperglicemia hospitalaria",
+    "paciente hospitalizado"
+   ],
+   "def": "Glicemia > 140 mg/dL en paciente internado, con o sin diabetes previa. La meta en UCI y salas es 140 a 180 mg/dL; se usa esquema basal-corrección o basal-bolo-corrección.",
+   "pagina": 50,
+   "clase": "diab-13",
+   "claseTitulo": "3.3 Manejo de la Hiperglicemia en el Paciente Hospitalizado",
+   "diapositiva": 1,
+   "t": 29.3,
+   "mmss": "0:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-13&t=29&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-13&t=29",
+   "notas": 2
+  },
+  "Hipoglicemia": {
+   "termino": "Hipoglicemia",
+   "tipo": "Concepto",
+   "alias": [
+    "hipoglicemia",
+    "hipoglucemia"
+   ],
+   "def": "Urgencia endocrinológica más frecuente. Los síntomas neuroglucopénicos aparecen con glicemias < 54–50 mg/dL. Con deglución conservada se aplica la regla de los 15.",
+   "pagina": 53,
+   "clase": "diab-14",
+   "claseTitulo": "3.4 Hipoglicemias: Tríada de Whipple, Fármacos Culpables y Rescate",
+   "diapositiva": 7,
+   "t": 341.4,
+   "mmss": "5:41",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-14&t=341&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-14&t=341",
+   "notas": 66
+  },
+  "Triada_de_Whipple": {
+   "termino": "Tríada de Whipple",
+   "tipo": "Concepto",
+   "alias": [
+    "Whipple"
+   ],
+   "def": "Estándar de confirmación: síntomas compatibles con hipoglicemia, glicemia plasmática baja documentada y resolución de los síntomas al elevar la glicemia con glucosa.",
+   "pagina": 53,
+   "clase": "diab-14",
+   "claseTitulo": "3.4 Hipoglicemias: Tríada de Whipple, Fármacos Culpables y Rescate",
+   "diapositiva": 2,
+   "t": 74.5,
+   "mmss": "1:15",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-14&t=74&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-14&t=74",
+   "notas": 3
+  },
+  "Glucagon": {
+   "termino": "Glucagón",
+   "tipo": "Farmaco",
+   "alias": [
+    "glucagón"
+   ],
+   "def": "Dosis de 1 mg IM/SC en hipoglicemia severa. Actúa estimulando la glucogenólisis hepática; es ineficaz en desnutrición severa, ayuno prolongado o alcoholismo agudo.",
+   "pagina": 53,
+   "clase": "diab-14",
+   "claseTitulo": "3.4 Hipoglicemias: Tríada de Whipple, Fármacos Culpables y Rescate",
+   "diapositiva": 13,
+   "t": 692.5,
+   "mmss": "11:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-14&t=692&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-14&t=692",
+   "notas": 5
+  },
+  "Glucosa_endovenosa": {
+   "termino": "Glucosa endovenosa",
+   "tipo": "Farmaco",
+   "alias": [
+    "suero glucosado",
+    "glucosa endovenosa",
+    "dextrosa"
+   ],
+   "def": "En hipoglicemia con paciente inconsciente: glucosa al 30% en bolo EV (20 a 50 ml), seguida de suero glucosado al 10% a 80–100 ml/hora. Prohibido dar líquidos por boca.",
+   "pagina": 53,
+   "clase": "diab-14",
+   "claseTitulo": "3.4 Hipoglicemias: Tríada de Whipple, Fármacos Culpables y Rescate",
+   "diapositiva": 14,
+   "t": 749.8,
+   "mmss": "12:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-14&t=749&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-14&t=749",
+   "notas": 4
+  },
+  "Cetoacidosis_diabetica": {
+   "termino": "Cetoacidosis diabética",
+   "tipo": "Concepto",
+   "alias": [
+    "cetoacidosis diabética",
+    "cetoacidosis",
+    "CAD"
+   ],
+   "def": "Glicemia > 250 mg/dL, acidosis metabólica con anion gap elevado y cetonemia (beta-hidroxibutirato > 3.0 mmol/L). Se resuelve con anion gap ≤ 12 mEq/L.",
+   "pagina": 60,
+   "clase": "diab-15",
+   "claseTitulo": "4.1 Cetoacidosis Diabética (CAD) vs Estado Hiperglicémico Hiperosmolar (EHH)",
+   "diapositiva": 10,
+   "t": 605.9,
+   "mmss": "10:06",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-15&t=605&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-15&t=605",
+   "notas": 74
+  },
+  "Estado_hiperglicemico_hiperosmolar": {
+   "termino": "Estado hiperglicémico hiperosmolar",
+   "tipo": "Concepto",
+   "alias": [
+    "estado hiperglicémico hiperosmolar",
+    "EHH",
+    "coma hiperosmolar"
+   ],
+   "def": "Glicemia > 600 mg/dL, pH > 7.30, bicarbonato > 18 mEq/L y osmolaridad efectiva > 320 mOsm/kg, con cetonas ausentes. Curso insidioso en DM2 con deshidratación extrema.",
+   "pagina": 64,
+   "clase": "diab-16",
+   "claseTitulo": "4.2 Protocolo de Reanimación con Fluidos y Expansión en CAD/EHH",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": null,
+   "notas": 25
+  },
+  "Cetonemia": {
+   "termino": "Cetonemia",
+   "tipo": "Examen",
+   "alias": [
+    "cetonemia",
+    "betahidroxibutirato",
+    "cuerpos cetónicos"
+   ],
+   "def": "Cetonemia positiva (beta-hidroxibutirato > 3.0 mmol/L) define la CAD; está ausente o en trazas en el EHH. Pedirla también en pacientes con iSGLT2 que consultan por náuseas o dolor abdominal.",
+   "pagina": 60,
+   "clase": "diab-15",
+   "claseTitulo": "4.1 Cetoacidosis Diabética (CAD) vs Estado Hiperglicémico Hiperosmolar (EHH)",
+   "diapositiva": 11,
+   "t": 677.1,
+   "mmss": "11:17",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-15&t=677&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-15&t=677",
+   "notas": 8
+  },
+  "Anion_gap": {
+   "termino": "Anion gap",
+   "tipo": "Examen",
+   "alias": [
+    "anion gap",
+    "brecha aniónica"
+   ],
+   "def": "Na⁺ − (Cl⁻ + HCO₃⁻). Elevado (> 10 a 12 mEq/L) en la CAD; normalizado (≤ 12 mEq/L) confirma que los cetoácidos circulantes fueron eliminados.",
+   "pagina": 72,
+   "clase": "diab-18",
+   "claseTitulo": "4.4 Criterios de Resolución de CAD/EHH y Traslape a Insulina Subcutánea",
+   "diapositiva": 8,
+   "t": 391.2,
+   "mmss": "6:31",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-18&t=391&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-18&t=391",
+   "notas": 12
+  },
+  "Osmolaridad_plasmatica": {
+   "termino": "Osmolaridad plasmática",
+   "tipo": "Examen",
+   "alias": [
+    "osmolaridad plasmática",
+    "osmolaridad efectiva"
+   ],
+   "def": "Osmolaridad efectiva = 2 × Na⁺ + (glicemia / 18); no incluye el nitrógeno ureico. En el EHH es > 320 mOsm/kg y se correlaciona con el compromiso de conciencia.",
+   "pagina": 60,
+   "clase": "diab-15",
+   "claseTitulo": "4.1 Cetoacidosis Diabética (CAD) vs Estado Hiperglicémico Hiperosmolar (EHH)",
+   "diapositiva": 3,
+   "t": 172.4,
+   "mmss": "2:52",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-15&t=172&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-15&t=172",
+   "notas": 4
+  },
+  "Gases_arteriales": {
+   "termino": "Gases arteriales",
+   "tipo": "Examen",
+   "alias": [
+    "gases arteriales",
+    "gasometría",
+    "pH arterial"
+   ],
+   "def": "Los criterios gasométricos (pH y bicarbonato) distinguen CAD de EHH. Pedir gases venosos y cetonemia en todo paciente con iSGLT2 y síntomas, sin importar la glicemia.",
+   "pagina": 60,
+   "clase": "diab-15",
+   "claseTitulo": "4.1 Cetoacidosis Diabética (CAD) vs Estado Hiperglicémico Hiperosmolar (EHH)",
+   "diapositiva": null,
+   "t": 0,
+   "mmss": "0:00",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-15&t=0",
+   "notas": 1
+  },
+  "Hipokalemia": {
+   "termino": "Hipokalemia",
+   "tipo": "Concepto",
+   "alias": [
+    "hipokalemia",
+    "hipopotasemia"
+   ],
+   "def": "En la CAD hay un déficit de potasio corporal total de 3 a 5 mEq/kg. Al iniciar insulina e hidratación el potasio ingresa a la célula y puede caer críticamente.",
+   "pagina": 68,
+   "clase": "diab-17",
+   "claseTitulo": "4.3 Insulinoterapia Endovenosa y Manejo del Potasio y Bicarbonato",
+   "diapositiva": 1,
+   "t": 29.9,
+   "mmss": "0:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-17&t=29&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-17&t=29",
+   "notas": 5
+  },
+  "Hiperkalemia": {
+   "termino": "Hiperkalemia",
+   "tipo": "Concepto",
+   "alias": [
+    "hiperkalemia",
+    "hiperpotasemia"
+   ],
+   "def": "En la CAD la potasemia inicial puede ser falsamente normal o elevada, por desplazamiento de potasio al extracelular causado por la acidosis y el déficit de insulina.",
+   "pagina": 68,
+   "clase": "diab-17",
+   "claseTitulo": "4.3 Insulinoterapia Endovenosa y Manejo del Potasio y Bicarbonato",
+   "diapositiva": 8,
+   "t": 502.4,
+   "mmss": "8:22",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-17&t=502&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-17&t=502",
+   "notas": 8
+  },
+  "Suero_fisiologico": {
+   "termino": "Suero fisiológico",
+   "tipo": "Farmaco",
+   "alias": [
+    "suero fisiológico",
+    "solución salina",
+    "NaCl 0,9"
+   ],
+   "def": "Primera hora de la CAD: NaCl 0.9% a 1.000 a 1.500 ml/hora (15 a 20 ml/kg). Luego, con sodio corregido ≥ 135 mEq/L, NaCl 0.45% a 250 a 500 ml/hora.",
+   "pagina": 64,
+   "clase": "diab-16",
+   "claseTitulo": "4.2 Protocolo de Reanimación con Fluidos y Expansión en CAD/EHH",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": null,
+   "notas": 8
+  },
+  "Bicarbonato": {
+   "termino": "Bicarbonato",
+   "tipo": "Farmaco",
+   "alias": [
+    "bicarbonato"
+   ],
+   "def": "En la CAD se restringe exclusivamente a pH < 6.90 con inestabilidad. Su uso indiscriminado induce hipokalemia severa y empeora la acidosis intracelular del SNC.",
+   "pagina": 68,
+   "clase": "diab-17",
+   "claseTitulo": "4.3 Insulinoterapia Endovenosa y Manejo del Potasio y Bicarbonato",
+   "diapositiva": 4,
+   "t": 200.9,
+   "mmss": "3:21",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-17&t=200&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-17&t=200",
+   "notas": 10
+  },
+  "Edema_cerebral": {
+   "termino": "Edema cerebral",
+   "tipo": "Concepto",
+   "alias": [
+    "edema cerebral"
+   ],
+   "def": "Principal causa de muerte en niños y jóvenes tratados por CAD (60–90% de las muertes pediátricas). Aparece a las 4 a 12 horas, con tríada de Cushing; se trata con manitol al 20%.",
+   "pagina": 75,
+   "clase": "diab-19",
+   "claseTitulo": "4.5 Complicaciones Agudas del Tratamiento: Edema Cerebral e Hipofosfemia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": null,
+   "notas": 15
+  },
+  "Hipofosfemia": {
+   "termino": "Hipofosfemia",
+   "tipo": "Concepto",
+   "alias": [
+    "hipofosfemia",
+    "hipofosfatemia"
+   ],
+   "def": "La insulina introduce fósforo a la célula. Con fósforo < 1.0 mg/dL hay debilidad diafragmática, falla ventilatoria y rabdomiólisis; se da fosfato de potasio 20 a 30 mmol EV.",
+   "pagina": 75,
+   "clase": "diab-19",
+   "claseTitulo": "4.5 Complicaciones Agudas del Tratamiento: Edema Cerebral e Hipofosfemia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": null,
+   "notas": 7
+  },
+  "Nefropatia_diabetica": {
+   "termino": "Nefropatía diabética",
+   "tipo": "Concepto",
+   "alias": [
+    "nefropatía diabética",
+    "enfermedad renal diabética"
+   ],
+   "def": "Primera causa de enfermedad renal crónica terminal y hemodiálisis en Chile. Parte con hiperfiltración glomerular; se tamiza cada año con RAC y se inicia IECA o ARA-II.",
+   "pagina": 81,
+   "clase": "diab-20",
+   "claseTitulo": "5.1 Nefropatía Diabética: Tamizaje con RAC y Enfoque Nefroprotector",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": null,
+   "notas": 5
+  },
+  "Relacion_albumina_creatinina": {
+   "termino": "Relación albúmina/creatinina",
+   "tipo": "Examen",
+   "alias": [
+    "relación albuminuria/creatininuria",
+    "RAC",
+    "albuminuria",
+    "microalbuminuria"
+   ],
+   "def": "Examen de tamizaje en primera orina matinal, en mg/g. A2: 30 a 299 mg/g; A3: ≥ 300 mg/g. Se confirma con 2 de 3 muestras positivas en 3 a 6 meses.",
+   "pagina": 81,
+   "clase": "diab-20",
+   "claseTitulo": "5.1 Nefropatía Diabética: Tamizaje con RAC y Enfoque Nefroprotector",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": null,
+   "notas": 30
+  },
+  "Velocidad_de_filtracion_glomerular": {
+   "termino": "Velocidad de filtración glomerular",
+   "tipo": "Examen",
+   "alias": [
+    "VFG",
+    "filtración glomerular",
+    "RFG"
+   ],
+   "def": "Guía el ajuste de la metformina: dosis plena con VFG ≥ 45, máximo 1.000 mg/día entre 30 y 44, y contraindicación absoluta con VFG < 30 mL/min/1.73m².",
+   "pagina": 28,
+   "clase": "diab-07",
+   "claseTitulo": "2.2 Hipoglucemiantes Orales Clásicos: Metformina y Sulfonilureas",
+   "diapositiva": 2,
+   "t": 76.3,
+   "mmss": "1:16",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-07&t=76&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-07&t=76",
+   "notas": 12
+  },
+  "IECA": {
+   "termino": "IECA",
+   "tipo": "Farmaco",
+   "alias": [
+    "IECA",
+    "enalapril",
+    "inhibidores de la ECA"
+   ],
+   "def": "Enalapril: primera línea en el diabético hipertenso con albuminuria (RAC ≥ 30 mg/g) o enfermedad renal crónica, por su efecto nefroprotector. Meta de presión < 130/80 mmHg.",
+   "pagina": 37,
+   "clase": "diab-10",
+   "claseTitulo": "2.5 Diabetes e Hipertensión Arterial: Metas Tensionales y Protección Renal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": null,
+   "notas": 20
+  },
+  "ARA_II": {
+   "termino": "ARA II",
+   "tipo": "Farmaco",
+   "alias": [
+    "ARA II",
+    "losartán",
+    "antagonistas del receptor de angiotensina"
+   ],
+   "def": "Losartán: bloqueador del eje renina-angiotensina de primera línea en el diabético hipertenso con albuminuria o enfermedad renal crónica, junto con los IECA.",
+   "pagina": 81,
+   "clase": "diab-20",
+   "claseTitulo": "5.1 Nefropatía Diabética: Tamizaje con RAC y Enfoque Nefroprotector",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": null,
+   "notas": 7
+  },
+  "Retinopatia_diabetica": {
+   "termino": "Retinopatía diabética",
+   "tipo": "Concepto",
+   "alias": [
+    "retinopatía diabética",
+    "retinopatía"
+   ],
+   "def": "Principal causa de ceguera legal irreversible en adultos en edad laboral. La lesión más precoz son los microaneurismas; la forma proliferativa se define por neovasos.",
+   "pagina": 84,
+   "clase": "diab-21",
+   "claseTitulo": "5.2 Retinopatía Diabética: No Proliferativa vs Proliferativa y GES",
+   "diapositiva": 1,
+   "t": 29.6,
+   "mmss": "0:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-21&t=29&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-21&t=29",
+   "notas": 16
+  },
+  "Fondo_de_ojo": {
+   "termino": "Fondo de ojo",
+   "tipo": "Examen",
+   "alias": [
+    "fondo de ojo",
+    "fotografía de retina"
+   ],
+   "def": "Tamizaje con dilatación pupilar por oftalmólogo o retinografía digital no midriática en APS, al diagnóstico en todo paciente con DM2 y luego anual.",
+   "pagina": 84,
+   "clase": "diab-21",
+   "claseTitulo": "5.2 Retinopatía Diabética: No Proliferativa vs Proliferativa y GES",
+   "diapositiva": 9,
+   "t": 519.2,
+   "mmss": "8:39",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-21&t=519&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-21&t=519",
+   "notas": 8
+  },
+  "Edema_macular": {
+   "termino": "Edema macular",
+   "tipo": "Concepto",
+   "alias": [
+    "edema macular"
+   ],
+   "def": "Engrosamiento o exudación que compromete el centro de la fóvea; causa más frecuente de baja moderada de agudeza visual en DM2. Primera línea: anti-VEGF intravítreo.",
+   "pagina": 84,
+   "clase": "diab-21",
+   "claseTitulo": "5.2 Retinopatía Diabética: No Proliferativa vs Proliferativa y GES",
+   "diapositiva": 5,
+   "t": 280.0,
+   "mmss": "4:40",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-21&t=279&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-21&t=279",
+   "notas": 4
+  },
+  "Anti_VEGF": {
+   "termino": "Anti-VEGF",
+   "tipo": "Farmaco",
+   "alias": [
+    "anti-VEGF",
+    "bevacizumab",
+    "ranibizumab"
+   ],
+   "def": "Ranibizumab y aflibercept intravítreos: tratamiento de primera línea del edema macular diabético con compromiso del centro de la fóvea.",
+   "pagina": 84,
+   "clase": "diab-21",
+   "claseTitulo": "5.2 Retinopatía Diabética: No Proliferativa vs Proliferativa y GES",
+   "diapositiva": 5,
+   "t": 280.0,
+   "mmss": "4:40",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-21&t=279&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-21&t=279",
+   "notas": 1
+  },
+  "Fotocoagulacion_laser": {
+   "termino": "Fotocoagulación láser",
+   "tipo": "Concepto",
+   "alias": [
+    "fotocoagulación",
+    "panfotocoagulación",
+    "láser"
+   ],
+   "def": "Panfotocoagulación con láser de argón: elección en retinopatía proliferativa y no proliferativa muy severa. Destruye retina isquémica, reduce VEGF y hace regresar los neovasos.",
+   "pagina": 84,
+   "clase": "diab-21",
+   "claseTitulo": "5.2 Retinopatía Diabética: No Proliferativa vs Proliferativa y GES",
+   "diapositiva": 10,
+   "t": 578.5,
+   "mmss": "9:38",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-21&t=578&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-21&t=578",
+   "notas": 5
+  },
+  "Pie_diabetico": {
+   "termino": "Pie diabético",
+   "tipo": "Concepto",
+   "alias": [
+    "pie diabético"
+   ],
+   "def": "Resultado de la interacción de tres componentes fisiopatológicos. Se tamiza la neuropatía con monofilamento, se estadifica con Wagner (grado 0 al 5) y el estilete óseo sospecha osteomielitis.",
+   "pagina": 89,
+   "clase": "diab-22",
+   "claseTitulo": "5.3 Pie Diabético: Úlceras, Neuropatía, Clasificación de Wagner y Manejo Quirúrgico",
+   "diapositiva": 12,
+   "t": 708.9,
+   "mmss": "11:49",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-22&t=708&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-22&t=708",
+   "notas": 3
+  },
+  "Clasificacion_de_Wagner": {
+   "termino": "Clasificación de Wagner",
+   "tipo": "Concepto",
+   "alias": [
+    "Wagner"
+   ],
+   "def": "Grado 0 pie de riesgo; 1 úlcera superficial; 2 úlcera profunda; 3 absceso u osteomielitis (hospitalizar); 4 gangrena localizada; 5 gangrena extensa del pie.",
+   "pagina": 89,
+   "clase": "diab-22",
+   "claseTitulo": "5.3 Pie Diabético: Úlceras, Neuropatía, Clasificación de Wagner y Manejo Quirúrgico",
+   "diapositiva": 14,
+   "t": 803.1,
+   "mmss": "13:23",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-22&t=803&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-22&t=803",
+   "notas": 9
+  },
+  "Monofilamento": {
+   "termino": "Monofilamento",
+   "tipo": "Examen",
+   "alias": [
+    "monofilamento",
+    "monofilamento de 10 g"
+   ],
+   "def": "Semmes-Weinstein de 5.07 (10 gramos de fuerza): examen estándar para detectar pérdida de sensibilidad protectora. No percibir el contacto en uno o más puntos define pie de alto riesgo.",
+   "pagina": 89,
+   "clase": "diab-22",
+   "claseTitulo": "5.3 Pie Diabético: Úlceras, Neuropatía, Clasificación de Wagner y Manejo Quirúrgico",
+   "diapositiva": 16,
+   "t": 947.2,
+   "mmss": "15:47",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-22&t=947&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-22&t=947",
+   "notas": 4
+  },
+  "Osteomielitis": {
+   "termino": "Osteomielitis",
+   "tipo": "Concepto",
+   "alias": [
+    "osteomielitis"
+   ],
+   "def": "Se sospecha con la prueba del estilete óseo (probe-to-bone). Un Wagner grado 3 con osteomielitis exige hospitalización obligatoria, aseo quirúrgico y antibióticos endovenosos prolongados.",
+   "pagina": 89,
+   "clase": "diab-22",
+   "claseTitulo": "5.3 Pie Diabético: Úlceras, Neuropatía, Clasificación de Wagner y Manejo Quirúrgico",
+   "diapositiva": 8,
+   "t": 485.9,
+   "mmss": "8:06",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-22&t=485&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-22&t=485",
+   "notas": 6
+  },
+  "Amputacion": {
+   "termino": "Amputación",
+   "tipo": "Concepto",
+   "alias": [
+    "amputación"
+   ],
+   "def": "Wagner 4: revascularización o amputación menor. Wagner 5, gangrena extensa del pie con riesgo vital: amputación mayor (infragenicular o supracondílea).",
+   "pagina": 89,
+   "clase": "diab-22",
+   "claseTitulo": "5.3 Pie Diabético: Úlceras, Neuropatía, Clasificación de Wagner y Manejo Quirúrgico",
+   "diapositiva": 14,
+   "t": 803.1,
+   "mmss": "13:23",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-22&t=803&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-22&t=803",
+   "notas": 1
+  },
+  "Dislipidemia": {
+   "termino": "Dislipidemia",
+   "tipo": "Concepto",
+   "alias": [
+    "dislipidemia",
+    "dislipidemias"
+   ],
+   "def": "El tratamiento se basa en el riesgo cardiovascular global: la meta de LDL depende de la categoría y la estatina es la primera línea. Con TG > 500 mg/dL se priorizan bajarlos.",
+   "pagina": 95,
+   "clase": "diab-23",
+   "claseTitulo": "5.4 Dislipidemias: Clasificación de Fredrickson, Riesgo Cardiovascular y Estatinas",
+   "diapositiva": 7,
+   "t": 336.0,
+   "mmss": "5:36",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-23&t=335&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-23&t=335",
+   "notas": 5
+  },
+  "Hipercolesterolemia_familiar": {
+   "termino": "Hipercolesterolemia familiar",
+   "tipo": "Concepto",
+   "alias": [
+    "hipercolesterolemia familiar"
+   ],
+   "def": "Enfermedad monogénica autosómica dominante, prevalencia 1 en 250 a 300, por mutaciones del receptor LDL. LDL entre 190 y 350 mg/dL desde el nacimiento y xantomas tendinosos.",
+   "pagina": 99,
+   "clase": "diab-24",
+   "claseTitulo": "5.5 Dislipidemias Severas y Genéticas: Hipertrigliceridemia y Pancreatitis",
+   "diapositiva": 9,
+   "t": 468.2,
+   "mmss": "7:48",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-24&t=468&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-24&t=468",
+   "notas": 12
+  },
+  "Colesterol_LDL": {
+   "termino": "Colesterol LDL",
+   "tipo": "Examen",
+   "alias": [
+    "colesterol LDL",
+    "LDL",
+    "LDL-c"
+   ],
+   "def": "Se calcula con Friedewald: CT − HDL − TG/5. Con triglicéridos sobre 400 mg/dL pierde validez y se mide el LDL directo o el colesterol no-HDL.",
+   "pagina": 95,
+   "clase": "diab-23",
+   "claseTitulo": "5.4 Dislipidemias: Clasificación de Fredrickson, Riesgo Cardiovascular y Estatinas",
+   "diapositiva": 10,
+   "t": 491.7,
+   "mmss": "8:12",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-23&t=491&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-23&t=491",
+   "notas": 20
+  },
+  "Trigliceridos": {
+   "termino": "Triglicéridos",
+   "tipo": "Examen",
+   "alias": [
+    "triglicéridos",
+    "hipertrigliceridemia"
+   ],
+   "def": "Hipertrigliceridemia severa (> 500 mg/dL) y crítica (> 1.000 mg/dL): riesgo de pancreatitis aguda. Se indica fibrato inmediato, cero alcohol y dieta con grasas < 15–20% de las calorías.",
+   "pagina": 99,
+   "clase": "diab-24",
+   "claseTitulo": "5.5 Dislipidemias Severas y Genéticas: Hipertrigliceridemia y Pancreatitis",
+   "diapositiva": 10,
+   "t": 529.1,
+   "mmss": "8:49",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-24&t=529&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-24&t=529",
+   "notas": 14
+  },
+  "Estatinas": {
+   "termino": "Estatinas",
+   "tipo": "Farmaco",
+   "alias": [
+    "estatinas",
+    "atorvastatina",
+    "rosuvastatina",
+    "simvastatina",
+    "pravastatina"
+   ],
+   "def": "Inhibidores de la HMG-CoA reductasa, primera línea para reducir morbimortalidad cardiovascular. Alta intensidad: atorvastatina 40 a 80 mg o rosuvastatina 20 a 40 mg (LDL baja ≥ 50%).",
+   "pagina": 95,
+   "clase": "diab-23",
+   "claseTitulo": "5.4 Dislipidemias: Clasificación de Fredrickson, Riesgo Cardiovascular y Estatinas",
+   "diapositiva": 4,
+   "t": 181.0,
+   "mmss": "3:01",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-23&t=180&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-23&t=180",
+   "notas": 11
+  },
+  "Fibratos": {
+   "termino": "Fibratos",
+   "tipo": "Farmaco",
+   "alias": [
+    "fibratos",
+    "fenofibrato",
+    "gemfibrozilo",
+    "bezafibrato"
+   ],
+   "def": "Fenofibrato 160–200 mg/día o gemfibrozilo 600 mg cada 12 horas en hipertrigliceridemia severa. Si se asocia a estatina, preferir fenofibrato: el gemfibrozilo multiplica el riesgo de rabdomiólisis.",
+   "pagina": 99,
+   "clase": "diab-24",
+   "claseTitulo": "5.5 Dislipidemias Severas y Genéticas: Hipertrigliceridemia y Pancreatitis",
+   "diapositiva": 3,
+   "t": 134.9,
+   "mmss": "2:15",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-24&t=134&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-24&t=134",
+   "notas": 4
+  },
+  "Omega_3": {
+   "termino": "Omega-3",
+   "tipo": "Farmaco",
+   "alias": [
+    "omega 3",
+    "omega-3"
+   ],
+   "def": "Pescados grasos 2 veces por semana aportan omega-3, medida del manejo nutricional de la hipertrigliceridemia, junto con comidas fraccionadas.",
+   "pagina": 99,
+   "clase": "diab-24",
+   "claseTitulo": "5.5 Dislipidemias Severas y Genéticas: Hipertrigliceridemia y Pancreatitis",
+   "diapositiva": 6,
+   "t": 288.7,
+   "mmss": "4:49",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-24&t=288&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-24&t=288",
+   "notas": 1
+  },
+  "Pancreatitis_aguda": {
+   "termino": "Pancreatitis aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "pancreatitis aguda",
+    "pancreatitis"
+   ],
+   "def": "Complicación más grave de la hipertrigliceridemia severa, más agresiva y con mayor necrosis que la biliar. Exige fibrato, alcohol prohibido y dieta con restricción severa de grasas.",
+   "pagina": 99,
+   "clase": "diab-24",
+   "claseTitulo": "5.5 Dislipidemias Severas y Genéticas: Hipertrigliceridemia y Pancreatitis",
+   "diapositiva": 1,
+   "t": 27.8,
+   "mmss": "0:28",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-24&t=27&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-24&t=27",
+   "notas": 7
+  },
+  "Quilomicronemia": {
+   "termino": "Quilomicronemia",
+   "tipo": "Concepto",
+   "alias": [
+    "quilomicronemia"
+   ],
+   "def": "Con triglicéridos ≥ 1.000 mg/dL el suero se vuelve lechoso y hay alto riesgo de pancreatitis aguda: fibrato inmediato, cero alcohol y dieta casi sin grasa.",
+   "pagina": 101,
+   "clase": "diab-24",
+   "claseTitulo": "5.5 Dislipidemias Severas y Genéticas: Hipertrigliceridemia y Pancreatitis",
+   "diapositiva": 2,
+   "t": 76.0,
+   "mmss": "1:16",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-24&t=76&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-24&t=76",
+   "notas": 1
+  },
+  "Obesidad": {
+   "termino": "Obesidad",
+   "tipo": "Concepto",
+   "alias": [
+    "obesidad",
+    "sobrepeso"
+   ],
+   "def": "IMC ≥ 30 (grado I 30–34.9, II 35–39.9, III o mórbida ≥ 40); sobrepeso 25–29.9. Se maneja con estilo de vida y déficit calórico; con IMC ≥ 40 o ≥ 35 con comorbilidades se evalúa cirugía.",
+   "pagina": 18,
+   "clase": "diab-05",
+   "claseTitulo": "1.5 Ejercicio Físico, Cambios de Estilo de Vida y Prevención Cardiovascular",
+   "diapositiva": null,
+   "t": 0,
+   "mmss": "0:00",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-05&t=0",
+   "notas": 13
+  },
+  "Indice_de_masa_corporal": {
+   "termino": "Índice de masa corporal",
+   "tipo": "Examen",
+   "alias": [
+    "IMC",
+    "índice de masa corporal"
+   ],
+   "def": "IMC = peso en kg / talla en m². Bajo peso < 18.5, normal 18.5–24.9, sobrepeso 25–29.9, obesidad ≥ 30. En mayores de 65 años el MINSAL usa otros cortes (obesidad ≥ 32).",
+   "pagina": 18,
+   "clase": "diab-05",
+   "claseTitulo": "1.5 Ejercicio Físico, Cambios de Estilo de Vida y Prevención Cardiovascular",
+   "diapositiva": 12,
+   "t": 737.5,
+   "mmss": "12:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-05&t=737&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-05&t=737",
+   "notas": 10
+  },
+  "Sindrome_metabolico": {
+   "termino": "Síndrome metabólico",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome metabólico"
+   ],
+   "def": "Se diagnostica con 3 de 5 criterios. Combina resistencia a la insulina, obesidad abdominal (medida por circunferencia de cintura) y riesgo cardiovascular aumentado.",
+   "pagina": 103,
+   "clase": "diab-25",
+   "claseTitulo": "5.6 Nutrición Clínica: Obesidad, Síndrome Metabólico, Evaluación Nutricional y Trastornos de la Conducta Alimentaria",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-25&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": null,
+   "notas": 3
+  },
+  "Cirugia_bariatrica": {
+   "termino": "Cirugía bariátrica",
+   "tipo": "Concepto",
+   "alias": [
+    "cirugía bariátrica",
+    "bypass gástrico",
+    "manga gástrica"
+   ],
+   "def": "Con IMC ≥ 40, o ≥ 35 con comorbilidades y fracaso del tratamiento médico: manga gástrica o bypass, la terapia más eficaz para bajar de peso, con evaluación multidisciplinaria previa.",
+   "pagina": 18,
+   "clase": "diab-05",
+   "claseTitulo": "1.5 Ejercicio Físico, Cambios de Estilo de Vida y Prevención Cardiovascular",
+   "diapositiva": null,
+   "t": 0,
+   "mmss": "0:00",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-05&t=0",
+   "notas": 5
+  },
+  "Anorexia_nerviosa": {
+   "termino": "Anorexia nerviosa",
+   "tipo": "Concepto",
+   "alias": [
+    "anorexia nerviosa"
+   ],
+   "def": "Restricción de la ingesta con peso significativamente bajo. Se realimenta con 10–15 kcal/kg/día más tiamina para prevenir el síndrome de realimentación, con equipo multidisciplinario.",
+   "pagina": 103,
+   "clase": "diab-25",
+   "claseTitulo": "5.6 Nutrición Clínica: Obesidad, Síndrome Metabólico, Evaluación Nutricional y Trastornos de la Conducta Alimentaria",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-25&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": null,
+   "notas": 1
+  },
+  "Sindrome_de_realimentacion": {
+   "termino": "Síndrome de realimentación",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome de realimentación"
+   ],
+   "def": "En desnutrición grave, la reintroducción brusca de calorías eleva la insulina y arrastra fósforo, potasio y magnesio a la célula. Se previene con 10 a 15 kcal/kg/día y tiamina.",
+   "pagina": 103,
+   "clase": "diab-25",
+   "claseTitulo": "5.6 Nutrición Clínica: Obesidad, Síndrome Metabólico, Evaluación Nutricional y Trastornos de la Conducta Alimentaria",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-25&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": null,
+   "notas": 1
+  },
+  "Desnutricion": {
+   "termino": "Desnutrición",
+   "tipo": "Concepto",
+   "alias": [
+    "desnutrición"
+   ],
+   "def": "Pérdida de peso involuntaria > 5% en 1 mes o > 10% en 6 meses. Se evalúa con albúmina, prealbúmina (más sensible a cambios agudos) y linfocitos < 1.500/mm³.",
+   "pagina": 56,
+   "clase": "diab-14",
+   "claseTitulo": "3.4 Hipoglicemias: Tríada de Whipple, Fármacos Culpables y Rescate",
+   "diapositiva": 5,
+   "t": 254.5,
+   "mmss": "4:14",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-14&t=254&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-14&t=254",
+   "notas": 3
+  },
+  "Hipertension_arterial": {
+   "termino": "Hipertensión arterial",
+   "tipo": "Concepto",
+   "alias": [
+    "hipertensión arterial",
+    "HTA"
+   ],
+   "def": "Diabetes más HTA multiplica por cuatro el riesgo de morbimortalidad cardiovascular. Meta < 130/80 mmHg, con IECA o ARA-II de elección si hay albuminuria.",
+   "pagina": 37,
+   "clase": "diab-10",
+   "claseTitulo": "2.5 Diabetes e Hipertensión Arterial: Metas Tensionales y Protección Renal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": null,
+   "notas": 6
+  },
+  "Enfermedad_renal_cronica": {
+   "termino": "Enfermedad renal crónica",
+   "tipo": "Concepto",
+   "alias": [
+    "enfermedad renal crónica",
+    "ERC"
+   ],
+   "def": "Riesgo muy alto en ERC avanzada y alto en etapa 3a (VFG 45–59 ml/min). En el diabético y el paciente con ERC se controla PA < 130/80 mmHg con IECA o ARA-II si hay albuminuria.",
+   "pagina": 95,
+   "clase": "diab-23",
+   "claseTitulo": "5.4 Dislipidemias: Clasificación de Fredrickson, Riesgo Cardiovascular y Estatinas",
+   "diapositiva": 6,
+   "t": 288.8,
+   "mmss": "4:49",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-23&t=288&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-23&t=288",
+   "notas": 10
+  },
+  "Poliuria": {
+   "termino": "Poliuria",
+   "tipo": "Signo",
+   "alias": [
+    "poliuria",
+    "polidipsia"
+   ],
+   "def": "Síntoma cardinal de hiperglicemia, junto con polidipsia y visión borrosa; con glicemia casual ≥ 200 mg/dL confirma diabetes. En el EHH hay días a semanas de poliuria y polidipsia.",
+   "pagina": 60,
+   "clase": "diab-15",
+   "claseTitulo": "4.1 Cetoacidosis Diabética (CAD) vs Estado Hiperglicémico Hiperosmolar (EHH)",
+   "diapositiva": 4,
+   "t": 226.6,
+   "mmss": "3:47",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-15&t=226&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-15&t=226",
+   "notas": 8
+  },
+  "Acantosis_nigricans": {
+   "termino": "Acantosis nigricans",
+   "tipo": "Signo",
+   "alias": [
+    "acantosis nigricans"
+   ],
+   "def": "Signo de resistencia a la insulina, junto con acrocordones. Ausente en el MODY, que se presenta en jóvenes delgados.",
+   "pagina": 5,
+   "clase": "diab-01",
+   "claseTitulo": "1.1 Tipos de Diabetes Mellitus: DM1, DM2, LADA y MODY",
+   "diapositiva": 2,
+   "t": 108.3,
+   "mmss": "1:48",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Diabetes&clase=diab-01&t=108&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_diabetes",
+   "embed": "http://localhost:8770/embed/embed.html?c=diab-01&t=108",
+   "notas": 6
+  }
+ }
+}

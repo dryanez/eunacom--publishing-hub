@@ -1,0 +1,1743 @@
+{
+ "_doc": "Glosario clicable del mazo Anki (popover en el reverso). 'def' se escribe a mano desde el libro (sin cifras nuevas) y se conserva al regenerar; pagina/clase/t/url los recalcula conceptos.py. Términos y alias: books/scripts/anki/vocab_*.txt.",
+ "libro": "saludpublica",
+ "pdf": "books/dist/Modulo_4_Salud_Publica/Tomo_21_Salud_Publica_Completo_2026.pdf",
+ "terminos": {
+  "FONASA": {
+   "termino": "FONASA",
+   "tipo": "Concepto",
+   "alias": [
+    "FONASA",
+    "Fondo Nacional de Salud"
+   ],
+   "def": "Seguro público del sistema mixto y dual de salud; clasifica a sus asegurados en cuatro tramos (A a D) según ingreso del grupo familiar. Lo fiscaliza la Superintendencia de Salud.",
+   "pagina": 5,
+   "clase": "sp-01",
+   "claseTitulo": "21.1 Sistema de Salud Chileno: FONASA, ISAPRES y Organización de la Red Asistencial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 16
+  },
+  "ISAPRE": {
+   "termino": "ISAPRE",
+   "tipo": "Concepto",
+   "alias": [
+    "ISAPRE",
+    "ISAPRES",
+    "Instituciones de Salud Previsional"
+   ],
+   "def": "Subsistema privado de salud (seguros) del sistema mixto y dual chileno, junto a FONASA. Su fiscalización técnica y financiera corresponde a la Superintendencia de Salud.",
+   "pagina": 5,
+   "clase": "sp-01",
+   "claseTitulo": "21.1 Sistema de Salud Chileno: FONASA, ISAPRES y Organización de la Red Asistencial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 14
+  },
+  "MINSAL": {
+   "termino": "MINSAL",
+   "tipo": "Concepto",
+   "alias": [
+    "MINSAL",
+    "Ministerio de Salud"
+   ],
+   "def": "Ministerio de Salud: ejerce el rol rector, normativo y regulador del sistema, a través de dos subsecretarías (Salud Pública y Redes Asistenciales).",
+   "pagina": 5,
+   "clase": "sp-01",
+   "claseTitulo": "21.1 Sistema de Salud Chileno: FONASA, ISAPRES y Organización de la Red Asistencial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 5
+  },
+  "Superintendencia_de_Salud": {
+   "termino": "Superintendencia de Salud",
+   "tipo": "Concepto",
+   "alias": [
+    "Superintendencia de Salud"
+   ],
+   "def": "Fiscaliza técnica y financieramente a FONASA, ISAPRES y prestadores acreditados; lleva el Registro Nacional de Prestadores Individuales y acredita prestadores institucionales.",
+   "pagina": 9,
+   "clase": "sp-02",
+   "claseTitulo": "21.2 Régimen de Garantías Explícitas en Salud (GES / AUGE): Las 4 Garantías Legales y Reclamos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 10
+  },
+  "Modalidad_de_atencion_institucional": {
+   "termino": "Modalidad de atención institucional",
+   "tipo": "Concepto",
+   "alias": [
+    "modalidad institucional",
+    "modalidad de atención institucional",
+    "MAI"
+   ],
+   "def": "MAI: atención en la Red Pública (CESFAM, SAPU, hospitales públicos). Con Copago Cero tiene gratuidad universal en FONASA; el tramo A solo accede a ella, no a la MLE.",
+   "pagina": 5,
+   "clase": "sp-01",
+   "claseTitulo": "21.1 Sistema de Salud Chileno: FONASA, ISAPRES y Organización de la Red Asistencial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 3
+  },
+  "Atencion_primaria": {
+   "termino": "Atención primaria",
+   "tipo": "Concepto",
+   "alias": [
+    "atención primaria",
+    "APS",
+    "nivel primario"
+   ],
+   "def": "Primer nivel de la red asistencial (CESFAM, CECOSF, postas rurales, SAPU y SAR); resuelve la mayoría de los problemas con énfasis en promoción, prevención, control de crónicos y tamizaje.",
+   "pagina": 5,
+   "clase": "sp-01",
+   "claseTitulo": "21.1 Sistema de Salud Chileno: FONASA, ISAPRES y Organización de la Red Asistencial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 5
+  },
+  "CESFAM": {
+   "termino": "CESFAM",
+   "tipo": "Concepto",
+   "alias": [
+    "CESFAM",
+    "centro de salud familiar"
+   ],
+   "def": "Centro de Salud Familiar: establecimiento de atención primaria que aplica el modelo MAIS, con enfoque familiar y comunitario sobre el territorio asignado.",
+   "pagina": 20,
+   "clase": "sp-05",
+   "claseTitulo": "21.5 Modelo de Atención Integral de Salud Familiar y Comunitaria (MAIS) y Diagnóstico Comunitario",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 4
+  },
+  "Funciones_esenciales_de_la_salud_publica": {
+   "termino": "Funciones esenciales de la salud pública",
+   "tipo": "Concepto",
+   "alias": [
+    "funciones esenciales de la salud pública",
+    "funciones esenciales"
+   ],
+   "def": "FESP definidas por la OPS/OMS, son once: incluyen monitoreo de la situación de salud, vigilancia y control de riesgos, promoción de la salud y participación social.",
+   "pagina": 7,
+   "clase": "sp-01",
+   "claseTitulo": "21.1 Sistema de Salud Chileno: FONASA, ISAPRES y Organización de la Red Asistencial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 1
+  },
+  "Seguridad_social": {
+   "termino": "Seguridad social",
+   "tipo": "Concepto",
+   "alias": [
+    "seguridad social"
+   ],
+   "def": "Conjunto de medidas con que la sociedad protege a las personas frente a contingencias (enfermedad, accidente, invalidez, vejez, cesantía, maternidad y muerte).",
+   "pagina": 7,
+   "clase": "sp-01",
+   "claseTitulo": "21.1 Sistema de Salud Chileno: FONASA, ISAPRES y Organización de la Red Asistencial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 2
+  },
+  "Regimen_GES": {
+   "termino": "Régimen GES",
+   "tipo": "Concepto",
+   "alias": [
+    "GES",
+    "AUGE",
+    "Garantías Explícitas en Salud"
+   ],
+   "def": "Garantías Explícitas en Salud (Ley 19.966): régimen de exigibilidad legal para FONASA e ISAPRES, con cuatro garantías: acceso, oportunidad, protección financiera y calidad.",
+   "pagina": 9,
+   "clase": "sp-02",
+   "claseTitulo": "21.2 Régimen de Garantías Explícitas en Salud (GES / AUGE): Las 4 Garantías Legales y Reclamos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 21
+  },
+  "Proteccion_financiera": {
+   "termino": "Protección financiera",
+   "tipo": "Concepto",
+   "alias": [
+    "garantía de protección financiera",
+    "protección financiera"
+   ],
+   "def": "Garantía GES que limita el copago a un máximo del 20% (0% en FONASA) con deducible tope; todo cobro improcedente debe reembolsarse.",
+   "pagina": 9,
+   "clase": "sp-02",
+   "claseTitulo": "21.2 Régimen de Garantías Explícitas en Salud (GES / AUGE): Las 4 Garantías Legales y Reclamos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 3
+  },
+  "Formulario_de_constancia_GES": {
+   "termino": "Formulario de constancia GES",
+   "tipo": "Concepto",
+   "alias": [
+    "constancia GES",
+    "formulario de notificación GES",
+    "formulario de constancia"
+   ],
+   "def": "Todo médico, público o privado, debe emitirlo ante la sospecha o confirmación de un problema cubierto; una copia va al usuario y otra a la ficha clínica.",
+   "pagina": 9,
+   "clase": "sp-02",
+   "claseTitulo": "21.2 Régimen de Garantías Explícitas en Salud (GES / AUGE): Las 4 Garantías Legales y Reclamos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 1
+  },
+  "Acreditacion_de_prestadores": {
+   "termino": "Acreditación de prestadores",
+   "tipo": "Concepto",
+   "alias": [
+    "acreditación",
+    "acreditación de prestadores"
+   ],
+   "def": "Proceso a cargo de la Superintendencia de Salud que verifica que un prestador institucional cumple estándares de calidad y seguridad del paciente.",
+   "pagina": 11,
+   "clase": "sp-02",
+   "claseTitulo": "21.2 Régimen de Garantías Explícitas en Salud (GES / AUGE): Las 4 Garantías Legales y Reclamos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 2
+  },
+  "Ley_Ricarte_Soto": {
+   "termino": "Ley Ricarte Soto",
+   "tipo": "Concepto",
+   "alias": [
+    "Ley Ricarte Soto",
+    "Ricarte Soto",
+    "Ley 20.850"
+   ],
+   "def": "Ley 20.850 de protección financiera para tratamientos de alto costo; a diferencia del GES, es universal y ampara a todos los residentes sin importar su seguro de salud.",
+   "pagina": 13,
+   "clase": "sp-03",
+   "claseTitulo": "21.3 Ley Ricarte Soto (Tratamientos de Alto Costo) y Programas Alimentarios Nacionales (PNAC y PACAM)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 9
+  },
+  "PNAC": {
+   "termino": "PNAC",
+   "tipo": "Concepto",
+   "alias": [
+    "PNAC",
+    "Programa Nacional de Alimentación Complementaria"
+   ],
+   "def": "Programa Nacional de Alimentación Complementaria: soporte nutricional preventivo y terapéutico en las etapas vulnerables del ciclo vital.",
+   "pagina": 13,
+   "clase": "sp-03",
+   "claseTitulo": "21.3 Ley Ricarte Soto (Tratamientos de Alto Costo) y Programas Alimentarios Nacionales (PNAC y PACAM)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 7
+  },
+  "PACAM": {
+   "termino": "PACAM",
+   "tipo": "Concepto",
+   "alias": [
+    "PACAM",
+    "Programa de Alimentación Complementaria del Adulto Mayor"
+   ],
+   "def": "Programa de Alimentación Complementaria del Adulto Mayor: soporte nutricional para el adulto mayor, junto al PNAC en las etapas vulnerables del ciclo vital.",
+   "pagina": 13,
+   "clase": "sp-03",
+   "claseTitulo": "21.3 Ley Ricarte Soto (Tratamientos de Alto Costo) y Programas Alimentarios Nacionales (PNAC y PACAM)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 4
+  },
+  "Enfermedad_de_notificacion_obligatoria": {
+   "termino": "Enfermedad de notificación obligatoria",
+   "tipo": "Concepto",
+   "alias": [
+    "ENO",
+    "enfermedades de notificación obligatoria",
+    "enfermedad de notificación obligatoria"
+   ],
+   "def": "Enfermedad que el médico debe notificar por ley: de notificación inmediata (ante la simple sospecha) o diaria (al confirmarse o sospecharse, dentro de las 24 horas).",
+   "pagina": 16,
+   "clase": "sp-04",
+   "claseTitulo": "21.4 Enfermedades de Notificación Obligatoria (ENO) y Vigilancia Epidemiológica en Chile",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 5
+  },
+  "EPIVIGILA": {
+   "termino": "EPIVIGILA",
+   "tipo": "Concepto",
+   "alias": [
+    "EPIVIGILA"
+   ],
+   "def": "Sistema informático nacional de notificación de enfermedades de notificación obligatoria; también se puede avisar por teléfono a la Unidad de Epidemiología de la SEREMI.",
+   "pagina": 21,
+   "clase": "sp-05",
+   "claseTitulo": "21.5 Modelo de Atención Integral de Salud Familiar y Comunitaria (MAIS) y Diagnóstico Comunitario",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 1
+  },
+  "Notificacion_inmediata": {
+   "termino": "Notificación inmediata",
+   "tipo": "Concepto",
+   "alias": [
+    "notificación inmediata"
+   ],
+   "def": "Se notifica ante la simple sospecha clínica, sin esperar confirmación de laboratorio, para intervención inmediata (p. ej. meningococo, hanta, rabia, sarampión, cólera).",
+   "pagina": 16,
+   "clase": "sp-04",
+   "claseTitulo": "21.4 Enfermedades de Notificación Obligatoria (ENO) y Vigilancia Epidemiológica en Chile",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 1
+  },
+  "Notificacion_diaria": {
+   "termino": "Notificación diaria",
+   "tipo": "Concepto",
+   "alias": [
+    "notificación diaria"
+   ],
+   "def": "Se notifica dentro de las 24 horas de confirmación o sospecha, por Epivigila (p. ej. TBC, sífilis, VIH, hepatitis A/B/C, coqueluche, Chagas).",
+   "pagina": 16,
+   "clase": "sp-04",
+   "claseTitulo": "21.4 Enfermedades de Notificación Obligatoria (ENO) y Vigilancia Epidemiológica en Chile",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 1
+  },
+  "Brote": {
+   "termino": "Brote",
+   "tipo": "Concepto",
+   "alias": [
+    "brote",
+    "brotes"
+   ],
+   "def": "Aumento de casos que se investiga en orden, cortando la cadena de transmisión; en grupo cerrado se usa cohorte con tasa de ataque y RR, y en población abierta casos y controles.",
+   "pagina": 16,
+   "clase": "sp-04",
+   "claseTitulo": "21.4 Enfermedades de Notificación Obligatoria (ENO) y Vigilancia Epidemiológica en Chile",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 6
+  },
+  "Modelo_MAIS": {
+   "termino": "Modelo MAIS",
+   "tipo": "Concepto",
+   "alias": [
+    "MAIS",
+    "Modelo de Atención Integral de Salud Familiar y Comunitaria"
+   ],
+   "def": "Modelo de Atención Integral de Salud Familiar y Comunitaria: base de la atención primaria; supera el modelo biomédico con enfoque biopsicosocial centrado en las personas.",
+   "pagina": 20,
+   "clase": "sp-05",
+   "claseTitulo": "21.5 Modelo de Atención Integral de Salud Familiar y Comunitaria (MAIS) y Diagnóstico Comunitario",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 2
+  },
+  "Determinantes_de_la_salud": {
+   "termino": "Determinantes de la salud",
+   "tipo": "Concepto",
+   "alias": [
+    "determinantes de la salud",
+    "determinantes sociales"
+   ],
+   "def": "Factores que explican el nivel de salud de una población; la OMS distingue estructurales (ingreso, educación, ocupación, género, etnia) e intermediarios.",
+   "pagina": 20,
+   "clase": "sp-05",
+   "claseTitulo": "21.5 Modelo de Atención Integral de Salud Familiar y Comunitaria (MAIS) y Diagnóstico Comunitario",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 2
+  },
+  "Promocion_de_la_salud": {
+   "termino": "Promoción de la salud",
+   "tipo": "Concepto",
+   "alias": [
+    "promoción de la salud"
+   ],
+   "def": "Proceso que capacita a las personas para aumentar el control sobre su salud (Carta de Ottawa, 1986).",
+   "pagina": 20,
+   "clase": "sp-05",
+   "claseTitulo": "21.5 Modelo de Atención Integral de Salud Familiar y Comunitaria (MAIS) y Diagnóstico Comunitario",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 1
+  },
+  "Genograma": {
+   "termino": "Genograma",
+   "tipo": "Concepto",
+   "alias": [
+    "genograma"
+   ],
+   "def": "Árbol gráfico de 3 generaciones con símbolos estandarizados; muestra la estructura biológica, las patologías y los vínculos de la familia.",
+   "pagina": 20,
+   "clase": "sp-05",
+   "claseTitulo": "21.5 Modelo de Atención Integral de Salud Familiar y Comunitaria (MAIS) y Diagnóstico Comunitario",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 3
+  },
+  "Ecomapa": {
+   "termino": "Ecomapa",
+   "tipo": "Concepto",
+   "alias": [
+    "ecomapa"
+   ],
+   "def": "Círculo familiar central rodeado de sistemas comunitarios; evalúa redes de apoyo social y fuentes de estrés, con vínculos fuertes, débiles o estresantes.",
+   "pagina": 20,
+   "clase": "sp-05",
+   "claseTitulo": "21.5 Modelo de Atención Integral de Salud Familiar y Comunitaria (MAIS) y Diagnóstico Comunitario",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 4
+  },
+  "APGAR_familiar": {
+   "termino": "APGAR familiar",
+   "tipo": "Examen",
+   "alias": [
+    "APGAR familiar"
+   ],
+   "def": "Cuestionario de Smilkstein de 5 preguntas (Adaptación, Participación, Ganancia, Afecto, Recursos) que mide la funcionalidad familiar percibida por el paciente.",
+   "pagina": 20,
+   "clase": "sp-05",
+   "claseTitulo": "21.5 Modelo de Atención Integral de Salud Familiar y Comunitaria (MAIS) y Diagnóstico Comunitario",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 5
+  },
+  "Ciclo_vital_familiar": {
+   "termino": "Ciclo vital familiar",
+   "tipo": "Concepto",
+   "alias": [
+    "ciclo vital familiar",
+    "ciclo de Duvall",
+    "Duvall"
+   ],
+   "def": "Etapas por las que pasa una familia y sus tareas; el modelo de Duvall distingue ocho, y el cambio de etapa es una crisis normativa.",
+   "pagina": 20,
+   "clase": "sp-05",
+   "claseTitulo": "21.5 Modelo de Atención Integral de Salud Familiar y Comunitaria (MAIS) y Diagnóstico Comunitario",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 2
+  },
+  "ASIS": {
+   "termino": "ASIS",
+   "tipo": "Concepto",
+   "alias": [
+    "ASIS",
+    "análisis de situación de salud",
+    "diagnóstico comunitario"
+   ],
+   "def": "Análisis de Situación de Salud: caracteriza el perfil epidemiológico, sociodemográfico y de determinantes de una población territorial, con datos y participación comunitaria, para priorizar.",
+   "pagina": 20,
+   "clase": "sp-05",
+   "claseTitulo": "21.5 Modelo de Atención Integral de Salud Familiar y Comunitaria (MAIS) y Diagnóstico Comunitario",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 2
+  },
+  "Metodo_de_Hanlon": {
+   "termino": "Método de Hanlon",
+   "tipo": "Concepto",
+   "alias": [
+    "Hanlon",
+    "método de Hanlon"
+   ],
+   "def": "Método para priorizar problemas de salud según magnitud, gravedad, eficacia de la intervención y factibilidad: puntaje = (A + B) × C × D.",
+   "pagina": 20,
+   "clase": "sp-05",
+   "claseTitulo": "21.5 Modelo de Atención Integral de Salud Familiar y Comunitaria (MAIS) y Diagnóstico Comunitario",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 2
+  },
+  "Estudio_de_casos_y_controles": {
+   "termino": "Estudio de casos y controles",
+   "tipo": "Concepto",
+   "alias": [
+    "casos y controles",
+    "caso-control",
+    "estudio de casos y controles"
+   ],
+   "def": "Selección por enfermedad y mirada retrospectiva; de elección para enfermedades raras. Su medida de asociación es el odds ratio; sufre sesgo de memoria y de selección.",
+   "pagina": 30,
+   "clase": "sp-06",
+   "claseTitulo": "21.6 Diseños de Estudios Epidemiológicos: Observacionales y Experimentales",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 11
+  },
+  "Estudio_de_cohorte": {
+   "termino": "Estudio de cohorte",
+   "tipo": "Concepto",
+   "alias": [
+    "estudio de cohorte",
+    "cohorte",
+    "cohortes"
+   ],
+   "def": "Se seleccionan sanos según exposición y se siguen en el tiempo; establece la secuencia temporal. Mide incidencia y riesgo relativo.",
+   "pagina": 30,
+   "clase": "sp-06",
+   "claseTitulo": "21.6 Diseños de Estudios Epidemiológicos: Observacionales y Experimentales",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 11
+  },
+  "Estudio_transversal": {
+   "termino": "Estudio transversal",
+   "tipo": "Concepto",
+   "alias": [
+    "estudio transversal",
+    "corte transversal"
+   ],
+   "def": "Mide en un único momento, sin seguimiento; rápido y económico, excelente para medir prevalencia. No calcula incidencia ni riesgo relativo.",
+   "pagina": 30,
+   "clase": "sp-06",
+   "claseTitulo": "21.6 Diseños de Estudios Epidemiológicos: Observacionales y Experimentales",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 1
+  },
+  "Ensayo_clinico_aleatorizado": {
+   "termino": "Ensayo clínico aleatorizado",
+   "tipo": "Concepto",
+   "alias": [
+    "ensayo clínico aleatorizado",
+    "ensayo clínico controlado",
+    "ECA"
+   ],
+   "def": "Estándar de oro para evaluar eficacia y seguridad de intervenciones; la asignación aleatoria equilibra factores de confusión conocidos y desconocidos.",
+   "pagina": 30,
+   "clase": "sp-06",
+   "claseTitulo": "21.6 Diseños de Estudios Epidemiológicos: Observacionales y Experimentales",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 4
+  },
+  "Estudio_ecologico": {
+   "termino": "Estudio ecológico",
+   "tipo": "Concepto",
+   "alias": [
+    "estudio ecológico",
+    "estudios ecológicos"
+   ],
+   "def": "Analiza datos agregados a nivel poblacional (países, comunas, ciudades) y no individuos; su debilidad principal es la falacia ecológica.",
+   "pagina": 30,
+   "clase": "sp-06",
+   "claseTitulo": "21.6 Diseños de Estudios Epidemiológicos: Observacionales y Experimentales",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 2
+  },
+  "Doble_ciego": {
+   "termino": "Doble ciego",
+   "tipo": "Concepto",
+   "alias": [
+    "doble ciego"
+   ],
+   "def": "Paciente y médico tratante o evaluador desconocen qué se administra; en el triple ciego tampoco lo sabe el analista bioestadístico.",
+   "pagina": 31,
+   "clase": "sp-06",
+   "claseTitulo": "21.6 Diseños de Estudios Epidemiológicos: Observacionales y Experimentales",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 2
+  },
+  "Aleatorizacion": {
+   "termino": "Aleatorización",
+   "tipo": "Concepto",
+   "alias": [
+    "aleatorización",
+    "randomización"
+   ],
+   "def": "Distribución al azar en grupo intervención y control; en ensayos clínicos equilibra confusores conocidos y desconocidos.",
+   "pagina": 31,
+   "clase": "sp-06",
+   "claseTitulo": "21.6 Diseños de Estudios Epidemiológicos: Observacionales y Experimentales",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 3
+  },
+  "Prevalencia": {
+   "termino": "Prevalencia",
+   "tipo": "Concepto",
+   "alias": [
+    "prevalencia"
+   ],
+   "def": "Proporción de personas con la enfermedad en un momento dado; se mide en estudios transversales (de prevalencia o corte transversal).",
+   "pagina": 38,
+   "clase": "sp-08",
+   "claseTitulo": "21.8 Pruebas Diagnósticas: Sensibilidad, Especificidad, VPP, VPN y Curvas ROC",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 12
+  },
+  "Incidencia": {
+   "termino": "Incidencia",
+   "tipo": "Concepto",
+   "alias": [
+    "incidencia",
+    "incidencia acumulada",
+    "tasa de incidencia"
+   ],
+   "def": "Casos nuevos en una población en riesgo durante un período; se mide con incidencia acumulada o densidad de incidencia, y requiere seguimiento en el tiempo.",
+   "pagina": 34,
+   "clase": "sp-07",
+   "claseTitulo": "21.7 Medidas de Frecuencia, Asociación e Impacto Potencial en Salud",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 13
+  },
+  "Mortalidad_infantil": {
+   "termino": "Mortalidad infantil",
+   "tipo": "Concepto",
+   "alias": [
+    "mortalidad infantil"
+   ],
+   "def": "Muertes de menores de 1 año / nacidos vivos × 1.000; sus causas principales son las afecciones perinatales y las malformaciones congénitas.",
+   "pagina": 34,
+   "clase": "sp-07",
+   "claseTitulo": "21.7 Medidas de Frecuencia, Asociación e Impacto Potencial en Salud",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 5
+  },
+  "Mortalidad_materna": {
+   "termino": "Mortalidad materna",
+   "tipo": "Concepto",
+   "alias": [
+    "mortalidad materna",
+    "razón de mortalidad materna"
+   ],
+   "def": "Se mide con la razón de mortalidad materna = muertes maternas / nacidos vivos × 100.000.",
+   "pagina": 36,
+   "clase": "sp-07",
+   "claseTitulo": "21.7 Medidas de Frecuencia, Asociación e Impacto Potencial en Salud",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 1
+  },
+  "Letalidad": {
+   "termino": "Letalidad",
+   "tipo": "Concepto",
+   "alias": [
+    "letalidad"
+   ],
+   "def": "Indicador de gravedad de los casos; la letalidad hospitalaria es fallecidos / egresos × 100. Alta letalidad justifica la notificación inmediata (p. ej. hantavirus).",
+   "pagina": 34,
+   "clase": "sp-07",
+   "claseTitulo": "21.7 Medidas de Frecuencia, Asociación e Impacto Potencial en Salud",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 3
+  },
+  "Riesgo_relativo": {
+   "termino": "Riesgo relativo",
+   "tipo": "Concepto",
+   "alias": [
+    "riesgo relativo",
+    "RR"
+   ],
+   "def": "Incidencia en expuestos / incidencia en no expuestos; solo se calcula en cohortes y ensayos clínicos. El valor nulo es 1,0.",
+   "pagina": 34,
+   "clase": "sp-07",
+   "claseTitulo": "21.7 Medidas de Frecuencia, Asociación e Impacto Potencial en Salud",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 10
+  },
+  "Odds_ratio": {
+   "termino": "Odds ratio",
+   "tipo": "Concepto",
+   "alias": [
+    "odds ratio",
+    "OR"
+   ],
+   "def": "(a · d) / (b · c): razón de momios de exposición, la medida de los casos y controles. El valor nulo es 1,0.",
+   "pagina": 34,
+   "clase": "sp-07",
+   "claseTitulo": "21.7 Medidas de Frecuencia, Asociación e Impacto Potencial en Salud",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 3
+  },
+  "Reduccion_del_riesgo_relativo": {
+   "termino": "Reducción del riesgo relativo",
+   "tipo": "Concepto",
+   "alias": [
+    "reducción del riesgo relativo",
+    "RRR"
+   ],
+   "def": "RRR = (Rc - Rt) / Rc = 1 - RR: porcentaje del riesgo basal eliminado; se usa en ensayos clínicos.",
+   "pagina": 34,
+   "clase": "sp-07",
+   "claseTitulo": "21.7 Medidas de Frecuencia, Asociación e Impacto Potencial en Salud",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 2
+  },
+  "Reduccion_absoluta_del_riesgo": {
+   "termino": "Reducción absoluta del riesgo",
+   "tipo": "Concepto",
+   "alias": [
+    "reducción absoluta del riesgo",
+    "RRA"
+   ],
+   "def": "RRA: diferencia entre el riesgo del grupo control y el del tratado; su inverso da el NNT.",
+   "pagina": 34,
+   "clase": "sp-07",
+   "claseTitulo": "21.7 Medidas de Frecuencia, Asociación e Impacto Potencial en Salud",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 5
+  },
+  "NNT": {
+   "termino": "NNT",
+   "tipo": "Concepto",
+   "alias": [
+    "NNT",
+    "número necesario a tratar"
+   ],
+   "def": "Número necesario a tratar: pacientes a tratar para evitar un evento adverso adicional. NNT = 1 / RRA (o 100 / RRA%); se redondea siempre hacia arriba.",
+   "pagina": 34,
+   "clase": "sp-07",
+   "claseTitulo": "21.7 Medidas de Frecuencia, Asociación e Impacto Potencial en Salud",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 5
+  },
+  "NND": {
+   "termino": "NND",
+   "tipo": "Concepto",
+   "alias": [
+    "NND",
+    "número necesario para dañar"
+   ],
+   "def": "Número Necesario para Dañar (NNH): pacientes que hay que exponer para producir un evento adverso adicional; es el reverso del NNT.",
+   "pagina": 35,
+   "clase": "sp-07",
+   "claseTitulo": "21.7 Medidas de Frecuencia, Asociación e Impacto Potencial en Salud",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 1
+  },
+  "Valor_p": {
+   "termino": "Valor p",
+   "tipo": "Concepto",
+   "alias": [
+    "valor p"
+   ],
+   "def": "Probabilidad de que el resultado se deba al azar; cuantifica el error aleatorio y es significativo si p < 0,05.",
+   "pagina": 42,
+   "clase": "sp-09",
+   "claseTitulo": "21.9 Validez, Causalidad, Sesgos y Confusión en Estudios Epidemiológicos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 1
+  },
+  "Tabla_de_contingencia_2x2": {
+   "termino": "Tabla de contingencia 2x2",
+   "tipo": "Concepto",
+   "alias": [
+    "tabla 2x2",
+    "tabla de contingencia",
+    "tabla dos por dos"
+   ],
+   "def": "Cruza exposición o prueba con enfermedad: a expuestos enfermos, b expuestos sanos, c no expuestos enfermos, d no expuestos sanos. Base de todos los cálculos.",
+   "pagina": 34,
+   "clase": "sp-07",
+   "claseTitulo": "21.7 Medidas de Frecuencia, Asociación e Impacto Potencial en Salud",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 1
+  },
+  "Sensibilidad": {
+   "termino": "Sensibilidad",
+   "tipo": "Examen",
+   "alias": [
+    "sensibilidad"
+   ],
+   "def": "Capacidad del test para detectar enfermos = VP / (VP + FN); es independiente de la prevalencia. Con alta sensibilidad, un negativo descarta la patología.",
+   "pagina": 38,
+   "clase": "sp-08",
+   "claseTitulo": "21.8 Pruebas Diagnósticas: Sensibilidad, Especificidad, VPP, VPN y Curvas ROC",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 17
+  },
+  "Especificidad": {
+   "termino": "Especificidad",
+   "tipo": "Examen",
+   "alias": [
+    "especificidad"
+   ],
+   "def": "Capacidad del test para identificar sanos = VN / (VN + FP); es independiente de la prevalencia y una prueba muy específica tiene muy pocos falsos positivos.",
+   "pagina": 38,
+   "clase": "sp-08",
+   "claseTitulo": "21.8 Pruebas Diagnósticas: Sensibilidad, Especificidad, VPP, VPN y Curvas ROC",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 16
+  },
+  "Valor_predictivo_positivo": {
+   "termino": "Valor predictivo positivo",
+   "tipo": "Examen",
+   "alias": [
+    "valor predictivo positivo",
+    "VPP"
+   ],
+   "def": "VPP = VP / (VP + FP): probabilidad de enfermedad si el test es positivo; depende de la prevalencia y aumenta cuando ésta sube.",
+   "pagina": 38,
+   "clase": "sp-08",
+   "claseTitulo": "21.8 Pruebas Diagnósticas: Sensibilidad, Especificidad, VPP, VPN y Curvas ROC",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 6
+  },
+  "Valor_predictivo_negativo": {
+   "termino": "Valor predictivo negativo",
+   "tipo": "Examen",
+   "alias": [
+    "valor predictivo negativo",
+    "VPN"
+   ],
+   "def": "VPN = VN / (VN + FN): probabilidad de estar sano si el test es negativo; depende de la prevalencia y es mayor cuando ésta es baja.",
+   "pagina": 38,
+   "clase": "sp-08",
+   "claseTitulo": "21.8 Pruebas Diagnósticas: Sensibilidad, Especificidad, VPP, VPN y Curvas ROC",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 4
+  },
+  "Razon_de_verosimilitud": {
+   "termino": "Razón de verosimilitud",
+   "tipo": "Examen",
+   "alias": [
+    "razón de verosimilitud",
+    "razones de verosimilitud",
+    "cociente de probabilidad",
+    "likelihood ratio",
+    "LR"
+   ],
+   "def": "Cociente de probabilidad: LR+ = Sensibilidad / (1 - Especificidad). Un LR+ > 10 confiere gran certeza diagnóstica.",
+   "pagina": 40,
+   "clase": "sp-08",
+   "claseTitulo": "21.8 Pruebas Diagnósticas: Sensibilidad, Especificidad, VPP, VPN y Curvas ROC",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 3
+  },
+  "Curva_ROC": {
+   "termino": "Curva ROC",
+   "tipo": "Examen",
+   "alias": [
+    "curva ROC",
+    "ROC"
+   ],
+   "def": "Gráfico de Sensibilidad (eje Y) contra 1 - Especificidad (eje X) para todos los puntos de corte posibles de una prueba continua.",
+   "pagina": 38,
+   "clase": "sp-08",
+   "claseTitulo": "21.8 Pruebas Diagnósticas: Sensibilidad, Especificidad, VPP, VPN y Curvas ROC",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 6
+  },
+  "Error_aleatorio": {
+   "termino": "Error aleatorio",
+   "tipo": "Concepto",
+   "alias": [
+    "error aleatorio"
+   ],
+   "def": "Variabilidad por azar; afecta la precisión, se reduce aumentando el tamaño de la muestra y se evalúa con el valor p y el intervalo de confianza.",
+   "pagina": 42,
+   "clase": "sp-09",
+   "claseTitulo": "21.9 Validez, Causalidad, Sesgos y Confusión en Estudios Epidemiológicos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 1
+  },
+  "Error_sistematico": {
+   "termino": "Error sistemático",
+   "tipo": "Concepto",
+   "alias": [
+    "error sistemático"
+   ],
+   "def": "Sesgo: falla intrínseca del diseño o de la recolección que invalida las conclusiones; no se corrige aumentando la muestra.",
+   "pagina": 42,
+   "clase": "sp-09",
+   "claseTitulo": "21.9 Validez, Causalidad, Sesgos y Confusión en Estudios Epidemiológicos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 1
+  },
+  "Sesgo_de_memoria": {
+   "termino": "Sesgo de memoria",
+   "tipo": "Concepto",
+   "alias": [
+    "sesgo de memoria",
+    "sesgo de recuerdo"
+   ],
+   "def": "Sesgo de recuerdo: el enfermo recuerda mejor las exposiciones pasadas que el sano. Típico de casos y controles; se previene con registros médicos objetivos.",
+   "pagina": 42,
+   "clase": "sp-09",
+   "claseTitulo": "21.9 Validez, Causalidad, Sesgos y Confusión en Estudios Epidemiológicos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 3
+  },
+  "Sesgo_de_Berkson": {
+   "termino": "Sesgo de Berkson",
+   "tipo": "Concepto",
+   "alias": [
+    "sesgo de Berkson",
+    "Berkson"
+   ],
+   "def": "Sesgo de admisión hospitalaria: al seleccionar casos y controles en hospitales (mayor morbilidad). Se evita con controles de base comunitaria o poblacional.",
+   "pagina": 42,
+   "clase": "sp-09",
+   "claseTitulo": "21.9 Validez, Causalidad, Sesgos y Confusión en Estudios Epidemiológicos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 3
+  },
+  "Factor_de_confusion": {
+   "termino": "Factor de confusión",
+   "tipo": "Concepto",
+   "alias": [
+    "factor de confusión",
+    "variable de confusión",
+    "confusor"
+   ],
+   "def": "Tercera variable asociada a la exposición y causa independiente de la enfermedad, sin ser eslabón intermedio. Se controla con estratificación, pareamiento o análisis multivariado.",
+   "pagina": 42,
+   "clase": "sp-09",
+   "claseTitulo": "21.9 Validez, Causalidad, Sesgos y Confusión en Estudios Epidemiológicos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 6
+  },
+  "Criterios_de_Bradford_Hill": {
+   "termino": "Criterios de Bradford Hill",
+   "tipo": "Concepto",
+   "alias": [
+    "Bradford Hill",
+    "criterios de Hill"
+   ],
+   "def": "Criterios de Austin Bradford Hill para evaluar si una asociación es causal; el único indispensable (sine qua non) es la temporalidad.",
+   "pagina": 42,
+   "clase": "sp-09",
+   "claseTitulo": "21.9 Validez, Causalidad, Sesgos y Confusión en Estudios Epidemiológicos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 1
+  },
+  "Tamizaje": {
+   "termino": "Tamizaje",
+   "tipo": "Concepto",
+   "alias": [
+    "tamizaje",
+    "screening",
+    "cribado"
+   ],
+   "def": "Aplicación sistemática de pruebas en poblaciones presuntamente sanas y asintomáticas para detectar precozmente la enfermedad en fase preclínica; clasifica, no diagnostica.",
+   "pagina": 45,
+   "clase": "sp-10",
+   "claseTitulo": "21.10 Tamizaje Poblacional (Screening): Criterios de Wilson-Jungner y Sesgos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 21
+  },
+  "Criterios_de_Wilson_y_Jungner": {
+   "termino": "Criterios de Wilson y Jungner",
+   "tipo": "Concepto",
+   "alias": [
+    "Wilson y Jungner",
+    "Wilson-Jungner"
+   ],
+   "def": "Criterios clásicos aprobados por la OMS que justifican un programa de tamizaje, entre ellos conocer la historia natural y contar con intervención precoz eficaz.",
+   "pagina": 45,
+   "clase": "sp-10",
+   "claseTitulo": "21.10 Tamizaje Poblacional (Screening): Criterios de Wilson-Jungner y Sesgos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 4
+  },
+  "Sesgo_de_adelanto_diagnostico": {
+   "termino": "Sesgo de adelanto diagnóstico",
+   "tipo": "Concepto",
+   "alias": [
+    "sesgo de adelanto",
+    "adelanto diagnóstico",
+    "lead time"
+   ],
+   "def": "Lead-time bias: el diagnóstico precoz alarga la sobrevida aparente sin cambiar el momento de la muerte, simulando un beneficio del tamizaje.",
+   "pagina": 45,
+   "clase": "sp-10",
+   "claseTitulo": "21.10 Tamizaje Poblacional (Screening): Criterios de Wilson-Jungner y Sesgos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 3
+  },
+  "Sesgo_de_duracion": {
+   "termino": "Sesgo de duración",
+   "tipo": "Concepto",
+   "alias": [
+    "sesgo de duración",
+    "length time"
+   ],
+   "def": "Length-time bias: los tumores de progresión lenta pasan más tiempo en fase presintomática detectable y se pesquisan más en el tamizaje.",
+   "pagina": 45,
+   "clase": "sp-10",
+   "claseTitulo": "21.10 Tamizaje Poblacional (Screening): Criterios de Wilson-Jungner y Sesgos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 1
+  },
+  "Prevencion_primaria": {
+   "termino": "Prevención primaria",
+   "tipo": "Concepto",
+   "alias": [
+    "prevención primaria"
+   ],
+   "def": "Promoción y protección específica; evita que aparezca la enfermedad (p. ej. vacuna contra el VPH).",
+   "pagina": 45,
+   "clase": "sp-10",
+   "claseTitulo": "21.10 Tamizaje Poblacional (Screening): Criterios de Wilson-Jungner y Sesgos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 1
+  },
+  "Prevencion_terciaria": {
+   "termino": "Prevención terciaria",
+   "tipo": "Concepto",
+   "alias": [
+    "prevención terciaria"
+   ],
+   "def": "Limita el daño y las secuelas de una enfermedad establecida (p. ej. rehabilitación tras un infarto).",
+   "pagina": 45,
+   "clase": "sp-10",
+   "claseTitulo": "21.10 Tamizaje Poblacional (Screening): Criterios de Wilson-Jungner y Sesgos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 2
+  },
+  "Historia_natural_de_la_enfermedad": {
+   "termino": "Historia natural de la enfermedad",
+   "tipo": "Concepto",
+   "alias": [
+    "historia natural de la enfermedad",
+    "historia natural"
+   ],
+   "def": "Período prepatogénico, fase subclínica, fase clínica y desenlace (curación, cronicidad, discapacidad, muerte); debe conocerse bien para tamizar.",
+   "pagina": 45,
+   "clase": "sp-10",
+   "claseTitulo": "21.10 Tamizaje Poblacional (Screening): Criterios de Wilson-Jungner y Sesgos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 1
+  },
+  "Principio_de_no_maleficencia": {
+   "termino": "Principio de no maleficencia",
+   "tipo": "Concepto",
+   "alias": [
+    "principio de no maleficencia",
+    "no maleficencia"
+   ],
+   "def": "Uno de los cuatro principios de Beauchamp y Childress. En menores con riesgo vital, la autonomía de los padres se subordina a la no maleficencia y al interés superior del niño.",
+   "pagina": 51,
+   "clase": "sp-11",
+   "claseTitulo": "21.11 Principios de la Bioética Clínica, Consentimiento Informado y Rechazo de Tratamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 4
+  },
+  "Consentimiento_informado": {
+   "termino": "Consentimiento informado",
+   "tipo": "Concepto",
+   "alias": [
+    "consentimiento informado"
+   ],
+   "def": "Proceso dialógico continuo entre médico y paciente, no un mero trámite ni una firma; tiene excepciones legales en la Ley 20.584, como la urgencia vital.",
+   "pagina": 51,
+   "clase": "sp-11",
+   "claseTitulo": "21.11 Principios de la Bioética Clínica, Consentimiento Informado y Rechazo de Tratamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 6
+  },
+  "Doble_efecto": {
+   "termino": "Doble efecto",
+   "tipo": "Concepto",
+   "alias": [
+    "doble efecto"
+   ],
+   "def": "Justifica dosis crecientes de opioides o sedantes en pacientes terminales aunque haya riesgo de depresión respiratoria o acortar la vida, si la intención es solo calmar el sufrimiento.",
+   "pagina": 51,
+   "clase": "sp-11",
+   "claseTitulo": "21.11 Principios de la Bioética Clínica, Consentimiento Informado y Rechazo de Tratamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 3
+  },
+  "Comite_de_Etica_Asistencial": {
+   "termino": "Comité de Ética Asistencial",
+   "tipo": "Concepto",
+   "alias": [
+    "Comité de Ética Asistencial",
+    "CEA"
+   ],
+   "def": "CEA: órgano asesor multidisciplinario consultivo y no vinculante; la decisión final es siempre del médico.",
+   "pagina": 52,
+   "clase": "sp-11",
+   "claseTitulo": "21.11 Principios de la Bioética Clínica, Consentimiento Informado y Rechazo de Tratamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 3
+  },
+  "Protocolo_SPIKES": {
+   "termino": "Protocolo SPIKES",
+   "tipo": "Examen",
+   "alias": [
+    "SPIKES"
+   ],
+   "def": "Protocolo para dar malas noticias: preparar el entorno (Setting), explorar qué sabe el paciente (Perception) y avanzar paso a paso en la comunicación.",
+   "pagina": 53,
+   "clase": "sp-11",
+   "claseTitulo": "21.11 Principios de la Bioética Clínica, Consentimiento Informado y Rechazo de Tratamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 1
+  },
+  "Ley_20_584": {
+   "termino": "Ley 20.584",
+   "tipo": "Concepto",
+   "alias": [
+    "Ley 20.584",
+    "Ley de Derechos y Deberes de los Pacientes"
+   ],
+   "def": "Ley de derechos y deberes de los pacientes; regula consentimiento informado y sus excepciones, ficha clínica y confidencialidad, con un modelo centrado en la persona.",
+   "pagina": 55,
+   "clase": "sp-12",
+   "claseTitulo": "21.12 Ley de Deberes y Derechos de los Pacientes (Ley 20.584): Ficha Clínica y Confidencialidad",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 4
+  },
+  "Ficha_clinica": {
+   "termino": "Ficha clínica",
+   "tipo": "Concepto",
+   "alias": [
+    "ficha clínica"
+   ],
+   "def": "Documento donde se deja constancia de la atención y de los rechazos de tratamiento; acceden a ella solo sujetos legalmente habilitados (Ley 20.584).",
+   "pagina": 55,
+   "clase": "sp-12",
+   "claseTitulo": "21.12 Ley de Deberes y Derechos de los Pacientes (Ley 20.584): Ficha Clínica y Confidencialidad",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 7
+  },
+  "Control_de_salud_del_adolescente": {
+   "termino": "Control de salud del adolescente",
+   "tipo": "Concepto",
+   "alias": [
+    "control de salud del adolescente",
+    "supervisión de salud del adolescente"
+   ],
+   "def": "Supervisión de salud del adolescente (10 a 19 años) con atención de su confidencialidad.",
+   "pagina": 55,
+   "clase": "sp-12",
+   "claseTitulo": "21.12 Ley de Deberes y Derechos de los Pacientes (Ley 20.584): Ficha Clínica y Confidencialidad",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 1
+  },
+  "Certificado_medico_de_defuncion": {
+   "termino": "Certificado médico de defunción",
+   "tipo": "Concepto",
+   "alias": [
+    "certificado médico de defunción",
+    "certificado de defunción",
+    "CMD"
+   ],
+   "def": "CMD: el clínico lo firma solo en muertes naturales; alimenta las estadísticas de mortalidad. En muerte médico-legal está prohibido firmarlo y se remite al SML.",
+   "pagina": 58,
+   "clase": "sp-13",
+   "claseTitulo": "21.13 Certificación Médica de Defunción, Autopsias y Deber de Denuncia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 3
+  },
+  "Autopsia_medico_legal": {
+   "termino": "Autopsia médico-legal",
+   "tipo": "Concepto",
+   "alias": [
+    "autopsia médico-legal",
+    "autopsia médico legal",
+    "autopsia judicial"
+   ],
+   "def": "Se efectúa en el Servicio Médico Legal por mandato imperativo de un Fiscal del Ministerio Público; es obligatoria en la muerte médico-legal y no requiere consentimiento familiar.",
+   "pagina": 58,
+   "clase": "sp-13",
+   "claseTitulo": "21.13 Certificación Médica de Defunción, Autopsias y Deber de Denuncia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 2
+  },
+  "Autopsia_clinica": {
+   "termino": "Autopsia clínica",
+   "tipo": "Concepto",
+   "alias": [
+    "autopsia clínica"
+   ],
+   "def": "Requiere consentimiento familiar; se usa en muertes naturales para confirmar diagnóstico, a diferencia de la médico-legal.",
+   "pagina": 58,
+   "clase": "sp-13",
+   "claseTitulo": "21.13 Certificación Médica de Defunción, Autopsias y Deber de Denuncia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 2
+  },
+  "Servicio_Medico_Legal": {
+   "termino": "Servicio Médico Legal",
+   "tipo": "Concepto",
+   "alias": [
+    "Servicio Médico Legal",
+    "SML"
+   ],
+   "def": "SML: institución donde se realiza la autopsia médico-legal por mandato del Fiscal; a él se remiten las muertes que el clínico no puede certificar.",
+   "pagina": 58,
+   "clase": "sp-13",
+   "claseTitulo": "21.13 Certificación Médica de Defunción, Autopsias y Deber de Denuncia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 3
+  },
+  "Deber_de_denuncia": {
+   "termino": "Deber de denuncia",
+   "tipo": "Concepto",
+   "alias": [
+    "deber de denuncia",
+    "artículo 175",
+    "art. 175"
+   ],
+   "def": "Art. 175 letra b) del Código Procesal Penal: el médico debe denunciar delitos de acción pública, sin depender de la voluntad de la víctima, dentro de 24 horas.",
+   "pagina": 58,
+   "clase": "sp-13",
+   "claseTitulo": "21.13 Certificación Médica de Defunción, Autopsias y Deber de Denuncia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 2
+  },
+  "Maltrato_infantil": {
+   "termino": "Maltrato infantil",
+   "tipo": "Concepto",
+   "alias": [
+    "maltrato infantil"
+   ],
+   "def": "Incluye maltrato físico, psicológico o emocional, negligencia, abuso sexual y exposición a violencia intrafamiliar.",
+   "pagina": 59,
+   "clase": "sp-13",
+   "claseTitulo": "21.13 Certificación Médica de Defunción, Autopsias y Deber de Denuncia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 1
+  },
+  "Violencia_intrafamiliar": {
+   "termino": "Violencia intrafamiliar",
+   "tipo": "Concepto",
+   "alias": [
+    "violencia intrafamiliar",
+    "VIF"
+   ],
+   "def": "Ley 20.066: todo maltrato que afecta la vida o la integridad física o psíquica de quien tiene o tuvo una relación familiar o de convivencia con el agresor.",
+   "pagina": 60,
+   "clase": "sp-13",
+   "claseTitulo": "21.13 Certificación Médica de Defunción, Autopsias y Deber de Denuncia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 3
+  },
+  "Ley_IVE": {
+   "termino": "Ley IVE",
+   "tipo": "Concepto",
+   "alias": [
+    "Ley IVE",
+    "Ley 21.030",
+    "interrupción voluntaria del embarazo"
+   ],
+   "def": "Ley 21.030: despenalizó la interrupción voluntaria del embarazo en tres causales taxativas, con protocolos estrictos para la objeción de conciencia.",
+   "pagina": 62,
+   "clase": "sp-14",
+   "claseTitulo": "21.14 Legislación Sanitaria Especial: Ley IVE 21.030, Código Sanitario y Licencias Médicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 1
+  },
+  "Objecion_de_conciencia": {
+   "termino": "Objeción de conciencia",
+   "tipo": "Concepto",
+   "alias": [
+    "objeción de conciencia"
+   ],
+   "def": "Derecho no absoluto: queda suspendido ante peligro vital inminente de la paciente (causal 1) cuando no hay un colega no objetor disponible.",
+   "pagina": 62,
+   "clase": "sp-14",
+   "claseTitulo": "21.14 Legislación Sanitaria Especial: Ley IVE 21.030, Código Sanitario y Licencias Médicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 1
+  },
+  "Codigo_Sanitario": {
+   "termino": "Código Sanitario",
+   "tipo": "Concepto",
+   "alias": [
+    "Código Sanitario"
+   ],
+   "def": "Su art. 112 exige título de médico cirujano para ejercer y el art. 113 define el ejercicio médico y la exclusividad de prescripción de fármacos éticos.",
+   "pagina": 62,
+   "clase": "sp-14",
+   "claseTitulo": "21.14 Legislación Sanitaria Especial: Ley IVE 21.030, Código Sanitario y Licencias Médicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 4
+  },
+  "Licencia_medica": {
+   "termino": "Licencia médica",
+   "tipo": "Concepto",
+   "alias": [
+    "licencia médica",
+    "licencias médicas"
+   ],
+   "def": "Documento que certifica incapacidad laboral transitoria, con control de COMPIN y SUSESO; la Ley 20.585 penaliza el fraude en su otorgamiento.",
+   "pagina": 62,
+   "clase": "sp-14",
+   "claseTitulo": "21.14 Legislación Sanitaria Especial: Ley IVE 21.030, Código Sanitario y Licencias Médicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 3
+  },
+  "Ley_16_744": {
+   "termino": "Ley 16.744",
+   "tipo": "Concepto",
+   "alias": [
+    "Ley 16.744",
+    "accidente del trabajo",
+    "enfermedad profesional"
+   ],
+   "def": "Crea el seguro social obligatorio contra accidentes del trabajo y enfermedades profesionales; la enfermedad profesional es la causada directamente por el ejercicio de la profesión.",
+   "pagina": 62,
+   "clase": "sp-14",
+   "claseTitulo": "21.14 Legislación Sanitaria Especial: Ley IVE 21.030, Código Sanitario y Licencias Médicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 3
+  },
+  "Demografia": {
+   "termino": "Demografía",
+   "tipo": "Concepto",
+   "alias": [
+    "demografía",
+    "pirámide poblacional"
+   ],
+   "def": "Entrega el denominador y la estructura de la población (edad, sexo, natalidad, mortalidad, envejecimiento) con que se planifican las necesidades de salud.",
+   "pagina": 23,
+   "clase": "sp-15",
+   "claseTitulo": "21.15 Gestión y Administración en Salud: Demografía, Planificación, Programación, Organización y Dirección",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 3
+  },
+  "Eficacia": {
+   "termino": "Eficacia",
+   "tipo": "Concepto",
+   "alias": [
+    "eficacia"
+   ],
+   "def": "Se cumple el objetivo; el efecto se mide en condiciones ideales como un ensayo clínico. Componente del método de Hanlon.",
+   "pagina": 20,
+   "clase": "sp-05",
+   "claseTitulo": "21.5 Modelo de Atención Integral de Salud Familiar y Comunitaria (MAIS) y Diagnóstico Comunitario",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 5
+  },
+  "Eficiencia": {
+   "termino": "Eficiencia",
+   "tipo": "Concepto",
+   "alias": [
+    "eficiencia"
+   ],
+   "def": "Resultado logrado con el menor uso de recursos, en relación con el costo.",
+   "pagina": 45,
+   "clase": "sp-10",
+   "claseTitulo": "21.10 Tamizaje Poblacional (Screening): Criterios de Wilson-Jungner y Sesgos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 1
+  },
+  "Efectividad": {
+   "termino": "Efectividad",
+   "tipo": "Concepto",
+   "alias": [
+    "efectividad"
+   ],
+   "def": "Logro del objetivo en condiciones reales, distinto de la eficacia.",
+   "pagina": 45,
+   "clase": "sp-10",
+   "claseTitulo": "21.10 Tamizaje Poblacional (Screening): Criterios de Wilson-Jungner y Sesgos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 2
+  },
+  "Planificacion": {
+   "termino": "Planificación",
+   "tipo": "Concepto",
+   "alias": [
+    "planificación"
+   ],
+   "def": "Define la estrategia a largo plazo (qué y cómo); la programación la traduce en actividades concretas.",
+   "pagina": 23,
+   "clase": "sp-15",
+   "claseTitulo": "21.15 Gestión y Administración en Salud: Demografía, Planificación, Programación, Organización y Dirección",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 2
+  },
+  "Programacion": {
+   "termino": "Programación",
+   "tipo": "Concepto",
+   "alias": [
+    "programación"
+   ],
+   "def": "Traduce el plan en actividades concretas, con su concentración, su rendimiento y el cálculo de las horas necesarias.",
+   "pagina": 23,
+   "clase": "sp-15",
+   "claseTitulo": "21.15 Gestión y Administración en Salud: Demografía, Planificación, Programación, Organización y Dirección",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 2
+  },
+  "Marco_logico": {
+   "termino": "Marco lógico",
+   "tipo": "Concepto",
+   "alias": [
+    "marco lógico"
+   ],
+   "def": "Ordena el programa en cuatro niveles: fin (el más alto), propósito, componentes y actividades.",
+   "pagina": 25,
+   "clase": "sp-15",
+   "claseTitulo": "21.15 Gestión y Administración en Salud: Demografía, Planificación, Programación, Organización y Dirección",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 2
+  },
+  "Liderazgo": {
+   "termino": "Liderazgo",
+   "tipo": "Concepto",
+   "alias": [
+    "liderazgo"
+   ],
+   "def": "Función de la dirección; puede ser transaccional (intercambio de metas y recompensas) o transformacional (inspira y desarrolla al equipo).",
+   "pagina": 23,
+   "clase": "sp-15",
+   "claseTitulo": "21.15 Gestión y Administración en Salud: Demografía, Planificación, Programación, Organización y Dirección",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Salud%20P%C3%BAblica&clase=sp-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_saludpublica",
+   "embed": null,
+   "notas": 1
+  }
+ }
+}

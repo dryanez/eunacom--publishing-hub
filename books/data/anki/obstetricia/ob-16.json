@@ -1,0 +1,443 @@
+{
+  "classId": "ob-16",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La fase latente del parto llega hasta los {{c1::5 cm}} de dilatación (consenso actual FIGO/OMS).",
+      "extra": "Antes se consideraban 4 cm.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fases del parto",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La fase activa del trabajo de parto comienza a partir de los {{c1::5 cm}} de dilatación.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la fase activa la velocidad normal de dilatación es de al menos {{c1::1 cm/hora}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La dinámica regular de la fase activa es de {{c1::3 a 5}} contracciones en 10 minutos.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fases del parto",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La fase latente puede durar hasta {{c1::20 horas}} en primigestas sin ser anormal.",
+      "extra": "Hasta 14 horas en multíparas.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fases del parto",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El período expulsivo va desde la {{c1::dilatación completa (10 cm)}} hasta la expulsión del recién nacido.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fases del parto",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El alumbramiento fisiológico dura menos de {{c1::30 minutos}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Cuatro períodos",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cuarto período es el postparto inmediato, las primeras {{c1::2 horas}}, con vigilancia hemodinámica estricta.",
+      "extra": "Se forma el globo de seguridad de Pinard.",
+      "origen": "clase:1",
+      "fuente": "Clase · Cuatro períodos",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Gestante que pasa de fase latente a activa, sin criterio de gravedad ni contraindicación de parto vaginal: se debe {{c1::conducir el trabajo de parto}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fases del parto",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.010"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 134"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si la dilatación se detiene en fase activa por dinámica insuficiente, sin sufrimiento fetal ni desproporción, se indica {{c1::conducción con oxitocina}}.",
+      "extra": "No es indicación directa de cesárea.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz Julio 2025",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El mecanismo del parto en cefálica consta de {{c1::seis}} movimientos que el feto realiza para franquear la pelvis.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Mecanismos del parto",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con la flexión, la cabeza cambia el diámetro occipito-frontal por el {{c1::suboccipito-bregmático}}, más pequeño.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Mecanismos del parto",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La cabeza se considera encajada cuando desciende hasta el plano de las {{c1::espinas ciáticas}}.",
+      "extra": "Estación 0 de Lee o III plano de Hodge.",
+      "origen": "clase:2",
+      "fuente": "Clase · Seis movimientos",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La rotación interna lleva la cabeza a la variedad {{c1::occípito-púbica}}, la más frecuente para el desprendimiento.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Seis movimientos",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el desprendimiento por extensión el occipucio se apoya bajo la sínfisis del pubis y salen sucesivamente {{c1::frente, ojos, nariz y mentón}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Seis movimientos",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La rotación externa o {{c1::restitución}} deja la cabeza mirando al mismo muslo materno que enfrentaba al inicio.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Seis movimientos",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la salida de los hombros, sale primero el hombro {{c1::anterior}}, bajo el pubis.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Mecanismos del parto",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Score de Bishop evalúa la madurez cervical con cinco parámetros: dilatación, borramiento, altura, consistencia y {{c1::posición}} del cuello.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Score de Bishop",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Un cuello favorable o maduro tiene un Bishop > {{c1::6}} puntos.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con Bishop > 6 se induce directamente con {{c1::oxitocina EV}}.",
+      "extra": "Infusión continua, alta probabilidad de éxito.",
+      "origen": "clase:3",
+      "fuente": "Clase · El cuello decide",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con Bishop ≤ 6 el error es inducir con oxitocina directa; primero hay que {{c1::madurar el cuello}}.",
+      "extra": "La oxitocina sola fracasa en más del 50% de los casos.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Score de Bishop",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Maduración cervical con Bishop ≤ 6: {{c1::misoprostol}} vaginal o balón cervical (Foley).",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Misoprostol para maduración cervical: {{c1::25 a 50 mcg}} vía vaginal cada 4-6 horas.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Score de Bishop",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "RPM de 36 semanas con cuello posterior, duro y sin dilatación (Bishop bajo): se induce con {{c1::misoprostol}}.",
+      "extra": "Con cuello inmaduro, la oxitocina no sirve.",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz Julio 2013",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Romper las membranas con la cabeza flotante en -3 conlleva riesgo de {{c1::prolapso de cordón}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Banco AEE · Bishop bajo",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el Score de Bishop la dilatación puntúa 3 con ≥ {{c1::5 cm}} y el borramiento con ≥ {{c2::80%}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Score de Bishop",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el Score de Bishop, la posición del cuello puntúa 0 si es {{c1::posterior}} y 2 si es anterior.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Bishop punto por punto",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El manejo activo del alumbramiento es obligatorio porque baja la hemorragia postparto en más de {{c1::60%}}.",
+      "extra": "El manejo expectante no se recomienda.",
+      "origen": "clase:4",
+      "fuente": "Clase · Manejo activo",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Manejo activo del alumbramiento: oxitocina {{c1::10 UI IM}} tras la salida del hombro anterior.",
+      "extra": "Dentro del primer minuto de nacer.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Alumbramiento activo",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El segundo paso del alumbramiento activo es la {{c1::tracción controlada del cordón}} con contratracción suprapúbica.",
+      "extra": "Previene la inversión uterina.",
+      "origen": "clase:4",
+      "fuente": "Clase · Manejo activo",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras la placenta se da masaje uterino cada {{c1::15 minutos}} durante las primeras 2 horas.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Manejo activo",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-16/S2_partograma__propio.svg",
+      "pregunta": "¿Qué muestra y cuándo empieza la fase activa?",
+      "diagnostico": "Partograma del trabajo de parto",
+      "clave": "La fase activa parte a los 5 cm, a ≥ 1 cm/hora",
+      "conducta": "Vigilar la curva; si se detiene sin sufrimiento fetal, conducir con oxitocina",
+      "fuente": "Dibujo propio (esquema)",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.010"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Bishop 6 o menos: ¿qué haces primero?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1",
+      "pista": "Bishop mayor a 6: ¿cómo induces?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.2",
+      "pista": "Nace el niño: ¿qué manejo es obligatorio?"
+    }
+  ]
+}

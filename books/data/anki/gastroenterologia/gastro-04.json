@@ -1,0 +1,369 @@
+{
+  "classId": "gastro-04",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la úlcera perforada y en la perforación esofágica la endoscopía está {{c1::contraindicada}}: el aire insuflado agranda la fuga.",
+      "extra": "En el cáustico, en cambio, es la primera medida.",
+      "origen": "clase:1",
+      "fuente": "Clase · Endoscopía prohibida o primera",
+      "repaso": true
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síndrome ulceroso previo + dolor epigástrico brusco {{c1::en puñalada}} que se generaliza + abdomen en tabla: úlcera perforada.",
+      "extra": "Blumberg positivo, ruidos hidroaéreos abolidos.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Úlcera perforada",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 129"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Epigastralgia urente previa, luego dolor difuso, distensión, RHA abolidos y {{c1::pérdida de la matidez hepática}}: perforación de úlcera péptica.",
+      "extra": "La pérdida de matidez hepática es signo de neumoperitoneo.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Jul 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 162"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Abdomen distendido, sin gases, muy doloroso y con pérdida de la matidez hepática: sospechar {{c1::perforación intestinal}} con peritonitis.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Úlcera perforada",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 169",
+        "EUNACOM Enero 2023 · Pregunta 174"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El examen inicial en la úlcera perforada es la {{c1::radiografía de tórax de pie}}, buscando neumoperitoneo.",
+      "extra": "Si no está disponible: radiografía de abdomen de pie.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla urgencias",
+      "repaso": true
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El neumoperitoneo se ve sobre todo bajo el {{c1::hemidiafragma derecho}}, donde el hígado lo hace más visible.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Úlcera perforada",
+      "repaso": false
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tratamiento de la úlcera perforada: cirugía de urgencia con sutura + {{c1::parche de epiplón (Graham)}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Úlcera perforada",
+      "repaso": false
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si en una perforación te ofrecen suero + antibióticos + IBP + cirugía, la respuesta es siempre la {{c1::cirugía}}.",
+      "extra": "Suero, IBP ev y antibióticos acompañan pero no reemplazan.",
+      "origen": "clase:20",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa más frecuente de perforación esofágica es la {{c1::iatrogenia por endoscopía}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Perforación esofágica",
+      "repaso": false
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síndrome de Boerhaave es la {{c1::perforación esofágica espontánea}} tras vómitos intensos.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Perforación esofágica",
+      "repaso": false
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tríada de la perforación esofágica: dolor torácico + vómitos + {{c1::enfisema subcutáneo}}.",
+      "extra": "La complicación temida es la mediastinitis aguda.",
+      "origen": "clase:4",
+      "fuente": "Clase · El esófago también se perfora",
+      "repaso": true
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Vómitos → hematemesis = {{c1::Mallory-Weiss}}; vómitos → dolor torácico + enfisema + sepsis = {{c2::Boerhaave}}.",
+      "extra": "Desgarro mucoso vs perforación transmural.",
+      "origen": "clase:5",
+      "fuente": "Clase · Boerhaave vs Mallory-Weiss",
+      "repaso": true
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Mallory-Weiss se estudia con {{c1::endoscopía digestiva alta}}; suele ceder solo y se hace hemostasia si sangra.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla urgencias",
+      "repaso": false
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Perforación esofágica: examen inicial {{c1::radiografía de tórax}} (neumomediastino); {{c2::TAC de tórax}} si es negativa y la sospecha alta.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Perforación esofágica",
+      "repaso": false
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Dolor torácico y fiebre pocas horas tras una endoscopía: el examen que confirma la perforación esofágica es la {{c1::TAC de tórax}}.",
+      "extra": "La radiografía puede no mostrarla si es muy reciente.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Jul 2013",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 154"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tratamiento de la perforación esofágica es la {{c1::cirugía de urgencia}}; lo conservador solo en perforaciones pequeñas y contenidas.",
+      "extra": "Conservador: régimen cero + antibióticos.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Perforación esofágica",
+      "repaso": false
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ingesta de cáustico: dolor y edema {{c1::desde los labios hasta el epigastrio}}, sialorrea y disfagia.",
+      "extra": "Puede haber hemorragia o perforación.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Cáustico",
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la ingesta de cáustico, la primera medida es la endoscopía digestiva alta precoz, idealmente en las primeras {{c1::12–24 h}}.",
+      "extra": "Gradúa el daño y decide la conducta.",
+      "origen": "clase:7",
+      "fuente": "Clase · Soda cáustica",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 95"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la ingesta de cáustico están contraindicados el {{c1::carbón activado y el lavado gástrico}}.",
+      "extra": "El daño es inmediato e irreversible; ambos lo agravan.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla urgencias",
+      "repaso": true
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la ingesta de cáustico tampoco se {{c1::neutraliza (leche, vinagre) ni se provoca el vómito}}.",
+      "extra": "Reexpone el esófago al cáustico.",
+      "origen": "clase:7",
+      "fuente": "Clase · Soda cáustica",
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La endoscopía en el cáustico evita el período de mayor fragilidad, entre el {{c1::día 3 y la semana 3}}.",
+      "extra": "Además: evaluación psiquiátrica si fue intencional.",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz esofagitis cáustica",
+      "repaso": false
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cáustico con mucosa normal o eritema leve en la EDA: {{c1::observación y realimentación oral progresiva}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · La endoscopía decide",
+      "repaso": false
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cáustico con úlceras o inflamación significativa: {{c1::régimen cero, nutrición parenteral}} y endoscopía de control.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Conducta en cáustico",
+      "repaso": false
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cáustico con necrosis extensa o perforación: régimen cero, nutrición parenteral y {{c1::cirugía de urgencia}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Conducta en cáustico",
+      "repaso": false
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Secuelas tardías del cáustico: {{c1::estenosis esofágica cicatricial}} y riesgo aumentado de carcinoma escamoso.",
+      "extra": "La estenosis se trata con dilataciones o reconstrucción.",
+      "origen": "clase:8",
+      "fuente": "Clase · La endoscopía decide",
+      "repaso": false
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante sospecha de perforación digestiva, el estudio contrastado se hace con {{c1::contraste hidrosoluble}}, nunca bario.",
+      "extra": "El bario en mediastino o peritoneo causa mediastinitis o peritonitis graves.",
+      "origen": "clase:9",
+      "fuente": "Clase · Estudios con contraste",
+      "repaso": false
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La enema baritada está contraindicada en {{c1::colitis fulminante, megacolon tóxico y perforación colónica}}.",
+      "extra": "En sospecha de perforación: TAC con contraste.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Estudios contrastados",
+      "repaso": false
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En un estudio contrastado, la {{c1::extravasación del medio}} indica perforación; un nicho indica úlcera.",
+      "extra": "Defecto de llenado: masa o cuerpo extraño.",
+      "origen": "clase:9",
+      "fuente": "Clase · Estudios con contraste",
+      "repaso": false
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la enema baritada, el cáncer de colon se ve como imagen en {{c1::manzana mordida}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Estudios contrastados",
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-04/01_neumoperitoneo-bajo-diafragma__cto-digestivo_p65.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Neumoperitoneo (víscera hueca perforada, típicamente úlcera péptica)",
+      "clave": "Aire libre bajo el hemidiafragma derecho en radiografía de tórax de pie",
+      "conducta": "Cirugía de urgencia; endoscopía contraindicada",
+      "fuente": "Manual CTO Digestivo 14.ª ed., p. 65",
+      "repaso": false
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-04/02_mallory-weiss-endoscopia__atlas-eunacom.jpg",
+      "pregunta": "Hematemesis tras vómitos intensos. ¿Qué muestra y qué haces?",
+      "diagnostico": "Síndrome de Mallory-Weiss",
+      "clave": "Desgarro de la mucosa en la unión gastroesofágica con sangre fresca",
+      "conducta": "Suele ceder solo; hemostasia endoscópica si sangra",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": false
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-04/10_esofagitis-caustica-endoscopia__knoop_p633.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Esofagitis cáustica",
+      "clave": "Mucosa esofágica quemada tras ingesta de soda cáustica",
+      "conducta": "Graduar el daño por EDA; nunca carbón, lavado ni vómito",
+      "fuente": "Knoop, Atlas of Emergency Medicine, p. 633",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Úlcera + dolor en puñalada: ¿qué examen?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Vómitos + enfisema: ¿qué examen?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2",
+      "pista": "Ingesta de cáustico: ¿primera medida?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.2.0.0",
+      "pista": "Cáustico con necrosis o perforación: ¿conducta?"
+    }
+  ]
+}

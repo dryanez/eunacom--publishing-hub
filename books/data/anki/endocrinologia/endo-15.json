@@ -1,0 +1,501 @@
+{
+  "classId": "endo-15",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "HTA de difícil control con cefalea, palpitaciones y lesión suprarrenal derecha de 5 cm en TAC: {{c1::feocromocitoma}}.",
+      "extra": "El adenoma de Conn da HTA con hipokalemia, sin crisis adrenérgicas.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 82"
+      ],
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La tríada paroxística del feocromocitoma es {{c1::cefalea pulsátil + sudoración profusa + palpitaciones}}, con hipertensión.",
+      "extra": "Especificidad mayor de 90%.",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La regla del 10% del feocromocitoma: 10% son bilaterales, 10% extraadrenales, 10% pediátricos, 10% malignos y {{c1::10%}} sin hipertensión.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Regla del 10%",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hasta un {{c1::35-40%}} de los feocromocitomas son de causa genética hereditaria.",
+      "extra": "Genes: RET, VHL, NF1 y subunidades SDH.",
+      "origen": "clase:2",
+      "fuente": "Clase · Genética",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La prueba de primera línea para el feocromocitoma son las {{c1::metanefrinas}} libres plasmáticas o fraccionadas en orina de 24 horas.",
+      "extra": "Mejor que catecolaminas séricas o AVM.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Diagnóstico",
+      "repaso": true,
+      "codigos": [
+        "4.03.1.023",
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La sensibilidad de las metanefrinas para feocromocitoma es mayor de {{c1::98%}}.",
+      "extra": "Son metabolitos de la degradación de catecolaminas por COMT dentro del propio tumor.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "4.03.1.023",
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante crisis de cefalea, sudor y palpitaciones, el error es pedir {{c1::TC de entrada}}; primero van las metanefrinas.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si las metanefrinas son normales, el feocromocitoma está virtualmente descartado: el error es {{c1::seguir con imágenes}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La localización se hace con {{c1::TC o RM de abdomen y pelvis}}, solo después de confirmar la bioquímica.",
+      "extra": "En RM da señal hiperintensa 'bombilla eléctrica' en T2.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Localización",
+      "repaso": false,
+      "codigos": [
+        "4.03.1.023",
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El feocromocitoma suele ser una masa suprarrenal mayor de {{c1::3 cm}}, vascularizada y heterogénea.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Localización",
+      "repaso": false,
+      "codigos": [
+        "4.03.1.023",
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La MIBG o el PET-CT con DOPA se piden ante paraganglioma extraadrenal, sospecha de malignidad o tumor mayor de {{c1::5 cm}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Imágenes funcionales",
+      "repaso": false,
+      "codigos": [
+        "4.03.1.023",
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En feocromocitoma con taquicardia, el error clásico es dar {{c1::betabloqueador solo}}; primero va el bloqueo alfa.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El betabloqueo sin alfa previo deja el {{c1::alfa-1 sin oposición}}: vasoconstricción masiva, crisis hipertensiva y edema pulmonar.",
+      "extra": "Se bloquea la vasodilatación beta-2 vascular.",
+      "origen": "clase:4",
+      "fuente": "Clase · Por qué nunca beta primero",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La preparación preoperatoria parte con bloqueo alfa durante {{c1::10 a 14 días}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Preparación preoperatoria",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Bloqueo alfa no selectivo en feocromocitoma: {{c1::fenoxibenzamina}}, 10 mg c/12 h hasta 80-100 mg/día.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Preparación preoperatoria",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Bloqueador alfa-1 selectivo alternativo en feocromocitoma: {{c1::doxazosina}}, 2 a 16 mg/día.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Preparación preoperatoria",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Durante el bloqueo alfa se indica {{c1::dieta rica en sal e hidratación abundante}} para reexpandir la volemia contraída.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Preparación preoperatoria",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El betabloqueador (propranolol o atenolol) se agrega {{c1::solo después}} de 2 a 4 días de bloqueo alfa adecuado, si persiste taquicardia.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Preparación",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009",
+        "4.03.1.023"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Operar un feocromocitoma sin preparación alfa es el error clásico; la preparación correcta es alfa {{c1::10-14 días}} más sal y líquidos.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tratamiento definitivo del feocromocitoma es la {{c1::suprarrenalectomía laparoscópica}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si hay carcinoma medular de tiroides y feocromocitoma (NEM 2), se opera primero el {{c1::feocromocitoma}}.",
+      "extra": "El error es operar primero la tiroides.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "NEM 2A (Sipple): mutación de {{c1::RET}}, carcinoma medular de tiroides y feocromocitoma bilateral en más de 50%.",
+      "extra": "También hiperparatiroidismo primario.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla síndromes familiares",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "NEM 2B (Gorlin): carcinoma medular agresivo, {{c1::neuromas mucosos}} y hábito marfanoide.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla síndromes familiares",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Von Hippel-Lindau (gen VHL): hemangioblastomas de retina y SNC y {{c1::carcinoma renal de células claras}}.",
+      "extra": "Feocromocitoma bilateral o múltiple.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla síndromes familiares",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras la cirugía se miden metanefrinas anuales por {{c1::10 años}} y se hace estudio genético familiar.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El feocromocitoma {{c1::no tiene GES}} directo; se deriva de forma prioritaria a endocrinología y cirugía laparoscópica avanzada.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Perfil / GES",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Incidentaloma suprarrenal: masa de {{c1::1 cm o más}} hallada en una imagen pedida por otro motivo.",
+      "extra": "Se responde: ¿es maligno? ¿es funcionante?",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Incidentaloma",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.022"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el incidentaloma, el examen clave para saber si es maligno es la {{c1::TC sin contraste}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Incidentaloma",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.022"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Masa homogénea, de bordes regulares y de {{c1::10 UH o menos}} es un adenoma benigno y no necesita más imágenes.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Incidentaloma",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.022"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Sugieren malignidad o feocromocitoma un tamaño mayor de {{c1::4 cm}} o una densidad mayor de 20 UH.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Incidentaloma",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.022"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "A todo incidentaloma se hace supresión con 1 mg de dexametasona nocturna: cortisol a las 8 h mayor de {{c1::1,8 µg/dL}} indica secreción autónoma.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Incidentaloma",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.022"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En un incidentaloma, la biopsia percutánea casi nunca se indica y siempre se hace {{c1::después de descartar feocromocitoma}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Incidentaloma",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.022"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/05_endocrinologia/endo-15/01_incidentaloma-suprarrenal-mibg__amir-endocrino_p59.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Masa suprarrenal derecha grande (feocromocitoma)",
+      "clave": "Masa suprarrenal mayor de 3 cm, vascular y heterogénea",
+      "conducta": "Metanefrinas para confirmar; bloqueo alfa 10-14 días y suprarrenalectomía",
+      "fuente": "Manual AMIR Endocrinología, p. 59",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/05_endocrinologia/endo-15/01_incidentaloma-suprarrenal-mibg_alt1__amir-endocrino_p58.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Gammagrafía MIBG: foco captante del tumor",
+      "clave": "El tumor aparece como un foco que capta MIBG",
+      "conducta": "Se pide ante paraganglioma extraadrenal, sospecha de malignidad o tumor mayor de 5 cm",
+      "fuente": "Manual AMIR Endocrinología, p. 58",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/05_endocrinologia/endo-15/02_adenoma_suprarrenal_tc__ctmri_p382.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Adenoma suprarrenal benigno en TAC",
+      "clave": "Masa pequeña, homogénea y de bordes regulares",
+      "conducta": "Si es menor de 4 cm, 10 UH o menos y no funcionante, sin más imágenes ni seguimiento",
+      "fuente": "CT & MRI Pathology: A Pocket Atlas, p. 382",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1.0",
+      "pista": "Metanefrinas elevadas: ¿qué haces antes de operar?",
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.0",
+      "pista": "Persiste taquicardia: ¿qué agregas y cuándo?",
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0",
+      "pista": "Metanefrinas normales: ¿qué concluyes?",
+      "codigos": [
+        "1.03.1.009"
+      ]
+    }
+  ]
+}

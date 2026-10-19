@@ -1,0 +1,469 @@
+{
+  "classId": "neuro-23",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Más del {{c1::90 %}} de las caídas del adulto mayor son caídas a nivel.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Una caída a nivel no es menor",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.001",
+        "1.07.2.003"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Permanecer más de {{c1::1 hora}} en el suelo gatilla rabdomiolisis, hipotermia y escaras.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Una caída a nivel no es menor",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.001"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Factor de riesgo modificable más potente de caídas: los {{c1::fármacos}} (psicofármacos, antihipertensivos).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · ¿Por qué se cae?",
+      "repaso": true,
+      "codigos": [
+        "1.07.1.001",
+        "1.07.1.017"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El antihipertensivo asociado a mayor riesgo de caídas en el anciano es el {{c1::atenolol}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.07.1.001",
+        "1.07.1.017"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Psicofármacos que aumentan caídas: benzodiacepinas, antidepresivos, antipsicóticos e hipnóticos {{c1::Z}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · ¿Por qué se cae?",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.001"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los factores extrínsecos (alfombras sueltas, poca luz, baño sin barras) explican 30–{{c1::50 %}} de las caídas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Factores",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.001"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adecuación del entorno tras caídas nocturnas al baño: retirar alfombras, {{c1::iluminación nocturna}} y barras de apoyo.",
+      "extra": "",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "1.07.3.011"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Timed Up and Go: caminar {{c1::3 metros}}, girar 180° y volver a sentarse.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Medir la marcha y el equilibrio",
+      "repaso": true,
+      "codigos": [
+        "1.07.1.017",
+        "1.07.5.003"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "TUG de {{c1::12–14 s}} indica alto riesgo de caídas; > 20 s fragilidad marcada.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Medir la marcha y el equilibrio",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 63"
+      ],
+      "codigos": [
+        "1.07.1.017",
+        "1.07.5.003"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Estación unipodal anormal: menos de {{c1::5 s}}; triplica el riesgo de fractura por caída.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Medir la marcha y el equilibrio",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 63"
+      ],
+      "codigos": [
+        "1.07.1.017",
+        "1.07.5.003"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si TUG o unipodal están alterados: ejercicio de equilibrio y marcha ({{c1::Vivifrail}}), revisar fármacos y el hogar.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Medir la marcha y el equilibrio",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.017",
+        "1.07.5.003"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hipotensión ortostática: caída de PAS ≥ {{c1::20}} o PAD ≥ 10 mmHg a los 3 minutos de pie.",
+      "extra": "Afecta a 1 de cada 5 adultos mayores.",
+      "origen": "clase:4",
+      "fuente": "Clase · Hipotensión ortostática",
+      "repaso": true,
+      "codigos": [
+        "1.07.1.010",
+        "1.07.3.011"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ortostatismo sin taquicardia compensatoria sugiere causa {{c1::neurogénica}}; con taquicardia, hipovolemia o fármacos.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hipotensión ortostática",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.010"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primer paso del tratamiento de la hipotensión ortostática: {{c1::suspender los fármacos causantes}}.",
+      "extra": "Luego medidas no farmacológicas y, al final, fludrocortisona o midodrina.",
+      "origen": "clase:4",
+      "fuente": "Clase · Hipotensión ortostática",
+      "repaso": true,
+      "codigos": [
+        "1.07.1.010"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fármacos de tercer paso en hipotensión ortostática: fludrocortisona o {{c1::midodrina}} (última dosis antes de las 18 h).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hipotensión ortostática",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.010"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Marcha apráxica o magnética con pies pegados al suelo: {{c1::hidrocefalia normotensiva}} o enfermedad vascular frontal.",
+      "extra": "Tap test y derivación a neurocirugía.",
+      "origen": "clase:5",
+      "fuente": "Clase · Patrones de marcha",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.017"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Marcha parkinsoniana: inclinada, pasos cortos, sin braceo, giro {{c1::en bloque}} y congelamiento.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Patrones de marcha",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.017"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Marcha steppage (levanta mucho la rodilla): neuropatía del fibular, radiculopatía {{c1::L5}} o polineuropatía.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Patrones de marcha",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.017"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Marcha anserina con signo de Trendelenburg: debilidad proximal por {{c1::miopatía}} o artrosis severa de cadera.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Patrones de marcha",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.017"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fractura de cadera: extremidad {{c1::acortada, en rotación externa}} con leve abducción e impotencia funcional.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Reconocerla y decidir",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 50"
+      ],
+      "codigos": [
+        "1.07.2.003"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Más del {{c1::90 %}} de las fracturas de cadera del anciano son por caída a nivel sobre hueso osteoporótico.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.07.2.003",
+        "1.07.1.017"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El primer examen ante sospecha de fractura de cadera es la radiografía de {{c1::pelvis y cadera AP}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Reconocerla y decidir",
+      "repaso": false,
+      "codigos": [
+        "1.07.2.003"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Fractura intracapsular desplazada del anciano: {{c1::artroplastia}}, no osteosíntesis.",
+      "extra": "Se rompen los vasos retinaculares: necrosis avascular.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.07.2.003"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Fractura pertrocantérica: {{c1::osteosíntesis}} (clavo cefalomedular o DHS), no prótesis.",
+      "extra": "Hueso muy vascularizado.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.07.2.003"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "Fractura de cadera en ≥ 65 años es la Garantía GES N° {{c1::45}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "GES N° 45",
+      "repaso": true,
+      "codigos": [
+        "1.07.2.003"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES de fractura de cadera: cirugía antes de {{c1::48 horas}} desde el ingreso hospitalario.",
+      "extra": "Sin cirugía, 25–30 % muere al año.",
+      "origen": "clase:7",
+      "fuente": "Clase · Protocolo GES",
+      "repaso": true,
+      "codigos": [
+        "1.07.2.003"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tromboprofilaxis en fractura de cadera: enoxaparina {{c1::40 mg}} SC al día por 28 a 35 días.",
+      "extra": "Error: suspender al alta.",
+      "origen": "clase:7",
+      "fuente": "Clase · Protocolo GES",
+      "repaso": true,
+      "codigos": [
+        "1.07.2.003"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Analgesia multimodal en fractura de cadera: bloqueo de {{c1::fascia ilíaca}} más paracetamol.",
+      "extra": "Minimiza opioides y delirium.",
+      "origen": "clase:7",
+      "fuente": "Clase · Protocolo GES",
+      "repaso": false,
+      "codigos": [
+        "1.07.2.003"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras la cirugía de cadera, ponerse de pie con kinesiología en {{c1::24 a 48 horas}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Protocolo GES",
+      "repaso": false,
+      "codigos": [
+        "1.07.2.003"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Prevención secundaria: calcio 1000–1200 mg, vitamina D y zoledrónico {{c1::5 mg}} EV anual.",
+      "extra": "Alternativa: denosumab 60 mg SC cada 6 meses.",
+      "origen": "clase:7",
+      "fuente": "Clase · Protocolo GES",
+      "repaso": false,
+      "codigos": [
+        "1.07.2.003"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-23/01_rx_fractura_cuello_femur__commons.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Fractura de cuello femoral (intracapsular)",
+      "clave": "Trazo en el cuello del fémur tras caída a nivel, pierna acortada y en rotación externa",
+      "conducta": "Analgesia multimodal, artroplastia antes de 48 h (GES N° 45) y enoxaparina 28–35 días",
+      "fuente": "Wikimedia Commons",
+      "repaso": true,
+      "codigos": [
+        "1.07.2.003"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-23/02_fractura-pertrocanterea_1__cto-trauma_p26.jpg",
+      "pregunta": "¿Qué muestra y qué cirugía corresponde?",
+      "diagnostico": "Osteosíntesis de fractura pertrocantérica",
+      "clave": "Fractura extracapsular fijada con clavo o DHS",
+      "conducta": "Osteosíntesis antes de 48 h; hueso muy vascularizado, sin necrosis avascular",
+      "fuente": "Manual CTO Traumatología 14.ª ed., p. 26",
+      "repaso": false,
+      "codigos": [
+        "1.07.2.003"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0.0",
+      "pista": "Fractura intracapsular desplazada: ¿qué cirugía y en qué plazo?",
+      "codigos": [
+        "1.07.2.003"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0.1",
+      "pista": "Fractura extracapsular: ¿qué cirugía y en qué plazo?",
+      "codigos": [
+        "1.07.2.003"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0",
+      "pista": "TUG o unipodal alterados: ¿qué intervención?",
+      "codigos": [
+        "1.07.1.001"
+      ]
+    }
+  ]
+}

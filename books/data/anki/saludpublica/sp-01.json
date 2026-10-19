@@ -1,0 +1,473 @@
+{
+  "classId": "sp-01",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El sistema de salud chileno es un sistema {{c1::mixto y dual}}: subsistema público (FONASA) y privado (ISAPRES).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Estructura",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.036"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El rol rector, normativo y regulador del sistema de salud lo ejerce el {{c1::Ministerio de Salud (MINSAL)}}.",
+      "extra": "Lo hace a través de dos subsecretarías.",
+      "origen": "clase:1",
+      "fuente": "Clase · Quién manda",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.036",
+        "7.01.3.035"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 66"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::Subsecretaría de Redes Asistenciales}} gestiona y articula los Servicios de Salud del país.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Estructura",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.039",
+        "7.01.3.036"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La Subsecretaría de Redes Asistenciales articula {{c1::29}} Servicios de Salud.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Estructura",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.039"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La Subsecretaría de Redes Asistenciales delega sus funciones a nivel regional en la {{c1::SEREMI de Salud}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 / banco",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.036"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 66"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::Superintendencia de Salud}} fiscaliza a FONASA, ISAPRES y prestadores acreditados, y vela por el cumplimiento de las garantías GES.",
+      "extra": "Es un ente autónomo.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Julio 2024",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.036"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 129"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Para fiscalizar a FONASA, ISAPRES y prestadores, el error clásico es responder Ministerio de Salud; la respuesta es {{c1::Superintendencia de Salud}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.036"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El laboratorio nacional de referencia, público y privado, es el {{c1::Instituto de Salud Pública (ISP)}}.",
+      "extra": "Trampa: no es la Superintendencia de Salud.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Diciembre 2025",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.036",
+        "7.01.3.038"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 126"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La autorización sanitaria para el funcionamiento de laboratorios, clínicas y otros establecimientos de salud la entrega la {{c1::SEREMI de Salud}}.",
+      "extra": "Es la autoridad sanitaria regional.",
+      "origen": "libro:sec:1",
+      "fuente": "Banco · autorización sanitaria",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.038"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 161",
+        "EUNACOM Agosto 2021 · Pregunta 127"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El seguro de salud laboral, accidentes del trabajo y del trayecto lo administran las {{c1::mutualidades de empleadores}}.",
+      "extra": "Por ejemplo, ACHS y Mutual de Seguridad.",
+      "origen": "libro:sec:1",
+      "fuente": "Banco · salud laboral",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.038"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 97"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La cotización legal obligatoria para salud es de {{c1::7%}} de la remuneración imponible.",
+      "extra": "Se complementa con aporte fiscal, sobre todo para los tramos A y B.",
+      "origen": "clase:3",
+      "fuente": "Clase · Financiamiento",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.049"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "FONASA se financia principalmente con el {{c1::aporte estatal (impuestos generales)}}, y en segundo lugar con el aporte de los trabajadores.",
+      "extra": "Los empleadores no aportan a la salud general.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 / banco",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.049"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 94"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La atención primaria municipal se financia principalmente con el {{c1::aporte per cápita}}, según el número de inscritos.",
+      "extra": "Los aportes municipales son complementarios.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Agosto 2021",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.049"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 128"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los tramos A y B de FONASA reciben aporte fiscal y atención {{c1::100% gratuita en la red pública (MAI)}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tramos de FONASA",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.038",
+        "7.01.3.049"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Un afiliado FONASA tramo A que pide una orden para bono en clínica privada: el error es autorizarlo; {{c1::no tiene derecho a Libre Elección}}.",
+      "extra": "Se deriva por interconsulta en la red pública.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de tramos",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.038"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tramo B de FONASA corresponde a ingresos {{c1::≤ 1 ingreso mínimo mensual}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de tramos",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.038"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El tramo D de FONASA corresponde a ingresos {{c1::> 1,46 ingresos mínimos}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de tramos",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.038"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Desde septiembre de {{c1::2022}}, el programa Copago Cero dejó en 0% el copago de todos los tramos en la red pública (MAI).",
+      "extra": "Antes: 10% tramo C y 20% tramo D.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Modalidades",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.038"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La Modalidad de Atención Institucional (MAI) se otorga en la {{c1::red pública}} (CESFAM, SAPU, hospitales públicos).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Modalidades",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.038"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la Modalidad Libre Elección el paciente se atiende con prestadores privados en convenio mediante {{c1::bonos}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Modalidades",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.038"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La atención primaria (APS) resuelve entre el {{c1::80% y 90%}} de los problemas de salud de la población.",
+      "extra": "El libro la describe como puerta de entrada obligatoria a la red pública.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Niveles",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.039"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Son establecimientos de nivel primario: {{c1::CESFAM, CECOSF, postas rurales, SAPU y SAR}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Niveles",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.039"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 31"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El COSAM, centro ambulatorio de especialidad en salud mental, es un establecimiento de nivel {{c1::secundario}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Enero 2023",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.039"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 166"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El {{c1::SAR}} tiene radiología y laboratorio de respuesta rápida, por lo que es más resolutivo que el SAPU.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.039"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las cuatro funciones de un sistema de salud (OMS) son rectoría, financiamiento, provisión de servicios y {{c1::generación de recursos}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Funciones del sistema",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.035"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La función de rectoría del sistema de salud chileno la ejerce el {{c1::Ministerio de Salud}}.",
+      "extra": "FONASA financia, los Servicios de Salud proveen y la Superintendencia fiscaliza.",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.035"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Las funciones esenciales de la salud pública (OPS/OMS) son {{c1::once}}.",
+      "extra": "En Chile las ejerce la autoridad sanitaria: MINSAL y SEREMI.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 FESP",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.002"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El principio de seguridad social en que los que más cotizan y los sanos financian a los enfermos y a quienes menos tienen es la {{c1::solidaridad}}.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.033"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un servicio nacional financiado con impuestos generales es el modelo {{c1::beveridgiano}}; el seguro por cotizaciones es el bismarckiano.",
+      "extra": "Trampa: no llamar bismarckiano al servicio nacional.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.033"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La primera ley de seguridad social en Chile fue la {{c1::Ley 4.054 del Seguro Obrero (1924)}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.034"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En 1952 se creó el {{c1::Servicio Nacional de Salud (SNS)}}, un sistema único estatal.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.034"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los objetivos sanitarios de la década se formalizan en la {{c1::Estrategia Nacional de Salud}} 2021-2030.",
+      "extra": "Está alineada con el ODS 3.",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.037"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "¿Qué se pregunta a un paciente FONASA?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Tramo A: ¿a qué modalidad accede?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "Tramos B, C o D: ¿qué puede elegir?"
+    }
+  ]
+}

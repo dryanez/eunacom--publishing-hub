@@ -41,7 +41,7 @@ a{color:inherit}
 .rec .y{font:800 34px/1 'Plus Jakarta Sans';letter-spacing:.02em}.rec .t{font:700 8px/1 'JetBrains Mono';letter-spacing:.28em;color:var(--mut);margin-top:6px}
 .rec .band{margin-top:auto;height:44%;width:100%;background:linear-gradient(135deg,#1d4ed8,#38bdf8)}
 .rec .lg{font:800 8px/1 'Plus Jakarta Sans';color:var(--blue);position:absolute;top:8px}
-.r1{left:330px;top:230px;transform:rotateZ(7deg);z-index:4}
+.r1{left:330px;top:170px;width:160px;height:226px;transform:rotateY(-8deg) rotateZ(7deg);z-index:4}
 .chip3d{position:absolute;right:0;top:0;background:var(--pink);color:#fff;font-weight:800;font-size:13px;padding:8px 12px;border-radius:10px;transform:rotate(4deg);z-index:6;box-shadow:0 8px 20px -6px rgba(236,72,153,.6)}
 /* planes */
 .plans{background:var(--bg);padding:64px 0 70px}
@@ -63,6 +63,7 @@ a{color:inherit}
 .feat li.y i{color:var(--ok)}.feat li.n{color:#94a3b8}.feat li.n i{color:var(--no)}
 .feat li.hl{font-weight:700}
 .nudge{background:#ecfdf5;border:1px dashed #34d399;color:#065f46;font-size:13.5px;font-weight:600;padding:9px 12px;border-radius:10px;margin-bottom:16px}
+.cbox{display:flex;gap:6px;margin:auto 0 12px}.cbox input{flex:1;min-width:0;border:1.5px solid var(--line);border-radius:10px;padding:9px 11px;font:700 14px "JetBrains Mono";text-transform:uppercase}.cbox button{border:none;background:var(--ink);color:#fff;border-radius:10px;padding:0 14px;font-weight:700;cursor:pointer}.cok{font-size:13px;color:var(--ok);font-weight:700;margin:-6px 0 10px}
 .coupon{font-size:13.5px;color:var(--mut);margin:auto 0 12px;cursor:pointer}.coupon u{text-underline-offset:3px}
 .cta{display:block;text-align:center;text-decoration:none;font-weight:800;font-size:17px;padding:15px;border-radius:999px;border:2px solid var(--blue);color:var(--blue)}
 .star .cta{background:linear-gradient(90deg,var(--blue),#3b82f6);color:#fff;border:none;box-shadow:0 12px 26px -10px rgba(37,99,235,.7)}
@@ -77,6 +78,7 @@ a{color:inherit}
 .recs{display:grid;grid-template-columns:repeat(7,1fr);gap:12px;margin-top:22px}
 .recs .rec{position:relative;width:auto;height:auto;aspect-ratio:3/4.15;padding-top:16px}
 .recs .rec .y{font-size:24px}.recs .rec .t{font-size:6.5px}
+.more{color:var(--mut);font-size:15px;margin-top:14px}.more b{color:var(--ink)}
 .tag{display:inline-block;font:700 12px/1 'JetBrains Mono';letter-spacing:.12em;color:var(--blue);background:#dbeafe;padding:6px 10px;border-radius:6px;margin:34px 0 12px}
 /* comparación */
 .cmp{background:var(--bg);padding:60px 0}
@@ -98,7 +100,7 @@ footer{padding:34px 0;text-align:center;color:var(--mut);font-size:13px}
 </style>
 </head>
 <body>
-<div class="promo">🎁 <b>Solo este mes:</b> el plan de 6 meses incluye los <b>21 tomos AEE</b> y los <b>14 libros de reconstrucciones</b></div>
+<div class="promo">🎁 <b>Solo este mes:</b> el plan de 6 meses incluye la <b>biblioteca completa</b>: 21 tomos AEE, 24 libros de preguntas y +17.800 tarjetas Anki</div>
 <nav class="nav"><div class="wrap"><div class="logo">eunacom<span>app</span></div><a class="btn" href="#planes">Ver planes →</a></div></nav>
 
 <section class="hero"><div class="wrap">
@@ -109,16 +111,16 @@ footer{padding:34px 0;text-align:center;color:var(--mut);font-size:13px}
   <div class="stats">
    <div class="stat"><b>+650</b><span>clases en video</span></div>
    <div class="stat"><b>+11.000</b><span>preguntas reales 2013–2026</span></div>
-   <div class="stat"><b>21</b><span>tomos de libros AEE</span></div>
-   <div class="stat"><b>14</b><span>libros de reconstrucciones</span></div>
+   <div class="stat"><b>46</b><span>libros PDF: 21 tomos + 25 de preguntas</span></div>
+   <div class="stat"><b>+17.800</b><span>tarjetas Anki</span></div>
   </div>
  </div>
  <div class="shelf">
-  <div class="chip3d">+35 libros incluidos</div>
+  <div class="chip3d">46 libros incluidos</div>
   <div class="book b1" style="background-image:url(img/hi_Pediatria.jpg)"></div>
   <div class="book b2" style="background-image:url(img/hi_Cirugia_General.jpg)"></div>
   <div class="book b3" style="background-image:url(img/hi_Cardiologia.jpg)"></div>
-  <div class="rec r1"><span class="lg">eunacomapp</span><span class="y">2025</span><span class="t">RECONSTRUCCIÓN</span><div class="band"></div></div>
+  <div class="book r1" style="background-image:url(img/q_recons.jpg)"></div>
  </div>
 </div></section>
 
@@ -136,11 +138,12 @@ footer{padding:34px 0;text-align:center;color:var(--mut);font-size:13px}
     <li class="y"><i>✓</i>+650 clases en video</li>
     <li class="y"><i>✓</i>Simulacros cronometrados</li>
     <li class="n"><i>✕</i>No incluye los 21 tomos AEE</li>
-    <li class="n"><i>✕</i>No incluye libros de reconstrucciones</li>
+    <li class="n"><i>✕</i>No incluye los 24 libros de preguntas</li>
+    <li class="n"><i>✕</i>No incluye las tarjetas Anki</li>
     <li class="n"><i>✕</i>No incluye guía Perfil V3 código por código</li>
     <li class="n"><i>✕</i>No incluye plan de estudio adaptativo</li>
    </ul>
-   <div class="coupon">¿Tienes un <u>código de descuento</u>? ▾</div>
+   <div class="coupon" onclick="cup(this)">¿Tienes un <u>código de descuento</u>? ▾</div>
    <a class="cta" href="#">Elegir 3 Meses</a>
   </div>
 
@@ -156,11 +159,13 @@ footer{padding:34px 0;text-align:center;color:var(--mut);font-size:13px}
     <li class="y"><i>✓</i>+650 clases en video</li>
     <li class="y"><i>✓</i>Simulacros cronometrados ilimitados</li>
     <li class="y hl"><i>✓</i>21 tomos AEE (todas las especialidades)</li>
-    <li class="y hl"><i>✓</i>14 libros de reconstrucciones 2013–2026</li>
+    <li class="y hl"><i>✓</i>Gran Libro de Reconstrucciones 2013–2025 (2.739 preguntas)</li>
+    <li class="y hl"><i>✓</i>Gran Libro Gordo + 22 Libros Gordos (90 preguntas por tema)</li>
+    <li class="y hl"><i>✓</i>+17.800 tarjetas Anki enlazadas a las clases</li>
     <li class="y hl"><i>✓</i>Guía Perfil V3 código por código</li>
     <li class="y"><i>✓</i>Plan de estudio adaptativo a tu fecha</li>
    </ul>
-   <div class="coupon">¿Tienes un <u>código de descuento</u>? ▾</div>
+   <div class="coupon" onclick="cup(this)">¿Tienes un <u>código de descuento</u>? ▾</div>
    <a class="cta" href="#">Elegir Plan 6 Meses</a>
   </div>
 
@@ -175,7 +180,7 @@ footer{padding:34px 0;text-align:center;color:var(--mut);font-size:13px}
     <li class="y"><i>✓</i>Nuevas clases y reconstrucciones sin costo</li>
     <li class="y"><i>✓</i>Soporte prioritario</li>
    </ul>
-   <div class="coupon">¿Tienes un <u>código de descuento</u>? ▾</div>
+   <div class="coupon" onclick="cup(this)">¿Tienes un <u>código de descuento</u>? ▾</div>
    <a class="cta" href="#">Elegir 1 Año</a>
   </div>
  </div>
@@ -191,8 +196,11 @@ footer{padding:34px 0;text-align:center;color:var(--mut);font-size:13px}
   <img src="img/cov_08.jpg"><img src="img/cov_09.jpg"><img src="img/cov_10.jpg"><img src="img/cov_11.jpg"><img src="img/cov_12.jpg"><img src="img/cov_13.jpg"><img src="img/cov_14.jpg">
   <img src="img/cov_15.jpg"><img src="img/cov_16.jpg"><img src="img/cov_17.jpg"><img src="img/cov_18.jpg"><img src="img/cov_19.jpg"><img src="img/cov_20.jpg"><img src="img/cov_21.jpg">
  </div>
- <span class="tag">14 LIBROS DE RECONSTRUCCIONES · 2013–2026</span>
- <div class="recs" id="recs"></div>
+ <span class="tag">25 LIBROS DE PREGUNTAS · RECONSTRUCCIONES Y 90 PREGUNTAS POR TEMA</span>
+ <div class="covers">
+  <img src="img/q_recons.jpg"><img src="img/q_gordo.jpg"><img src="img/q_perfil.jpg"><img src="img/lg_Cardiologia.jpg"><img src="img/lg_Pediatria.jpg"><img src="img/lg_Cirugia.jpg"><img src="img/lg_Obstetricia.jpg">
+ </div>
+ <p class="more">…y 19 Libros Gordos más, uno por especialidad. Además, <b>+17.800 tarjetas Anki</b> enlazadas a cada clase.</p>
 </div></section>
 
 <section class="cmp"><div class="wrap">
@@ -204,7 +212,10 @@ footer{padding:34px 0;text-align:center;color:var(--mut);font-size:13px}
    <tr><td>Clases en video</td><td class="us">+650</td><td>✕</td></tr>
    <tr><td>Preguntas reales</td><td class="us">+11.000</td><td>Banco</td></tr>
    <tr><td>Libros de estudio</td><td class="us">21 tomos</td><td>Ebooks</td></tr>
-   <tr><td>Reconstrucciones en libro</td><td class="us">14 (2013–2026)</td><td>3</td></tr>
+   <tr><td>Reconstrucciones en libro</td><td class="us">13 años (2013–2025)</td><td>3 años (2023–2025)</td></tr>
+   <tr><td>Libros de 90 preguntas por tema</td><td class="us">23</td><td>✕</td></tr>
+   <tr><td>Tarjetas Anki</td><td class="us">+17.800</td><td>✕</td></tr>
+   <tr><td>Guía Perfil V3 código por código</td><td class="us">✓</td><td>✕</td></tr>
   </tbody>
  </table>
 </div></section>
@@ -212,8 +223,17 @@ footer{padding:34px 0;text-align:center;color:var(--mut);font-size:13px}
 <footer>eunacomapp.cl · Academia Examen EUNACOM</footer>
 <div class="mock">MAQUETA</div>
 <script>
-const g=['#1d4ed8,#38bdf8','#0f766e,#5eead4','#7c3aed,#c4b5fd','#be185d,#f9a8d4','#b45309,#fcd34d','#15803d,#86efac','#0e7490,#67e8f9'];
-document.getElementById('recs').innerHTML=Array.from({length:14},(_,i)=>2013+i).map((y,i)=>`<div class="rec"><span class="lg">eunacomapp</span><span class="y">${y}</span><span class="t">RECONSTRUCCIÓN</span><div class="band" style="background:linear-gradient(135deg,${g[i%7]})"></div></div>`).join('');
+function cup(el){
+ const card=el.closest('.card'),pr=card.querySelector('.price'),base=+pr.firstChild.textContent.replace(/\D/g,'');
+ el.outerHTML='<div class="cbox"><input value="PERFILV3" aria-label="Código"><button>Aplicar</button></div>';
+ card.querySelector('.cbox button').onclick=()=>{
+  const v=card.querySelector('.cbox input').value.trim().toUpperCase(),old=card.querySelector('.cok');old&&old.remove();
+  const m=document.createElement('div');m.className='cok';
+  if(v==='PERFILV3'){const n=Math.round(base*.75/10)*10,h=card.querySelector('h3').textContent,mo=/Año/.test(h)?12:parseInt(h.replace(/\D/g,''));pr.firstChild.textContent='$'+n.toLocaleString('es-CL');card.querySelector('.eq b').textContent='$'+Math.round(n/mo).toLocaleString('es-CL');m.textContent='✓ PERFILV3: 25 % de descuento aplicado';}
+  else{m.style.color='var(--no)';m.textContent='Código no válido';}
+  card.querySelector('.cbox').after(m);
+ };
+}
 </script>
 </body>
 </html>

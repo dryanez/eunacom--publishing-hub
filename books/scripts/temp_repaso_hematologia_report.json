@@ -1,0 +1,644 @@
+{
+ "report": {
+  "topics": {
+   "T8.1": {
+    "steps": 1,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T8.2": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 0.95,
+     "orient": "lr"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T8.3": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T8.4": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 360,
+    "traps": 0,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T8.5": {
+    "steps": 1,
+    "split": false,
+    "algo": {
+     "scale": 0.87,
+     "orient": "lr"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T8.6": {
+    "steps": 6,
+    "split": false,
+    "algo": {
+     "scale": 0.87,
+     "orient": "lr"
+    },
+    "algoH": 300,
+    "traps": 0,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T8.7": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 2,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T8.8": {
+    "steps": 7,
+    "split": false,
+    "algo": {
+     "scale": 0.95,
+     "orient": "lr"
+    },
+    "algoH": 270,
+    "traps": 0,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T8.9": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T8.10": {
+    "steps": 12,
+    "split": false,
+    "algo": {
+     "scale": 0.86,
+     "orient": "lr"
+    },
+    "algoH": 220,
+    "traps": 2,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T8.11": {
+    "steps": 7,
+    "split": false,
+    "algo": {
+     "scale": 0.8,
+     "orient": "td"
+    },
+    "algoH": 270,
+    "traps": 0,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T8.12": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T8.13": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 2,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T8.14": {
+    "steps": 9,
+    "split": false,
+    "algo": {
+     "scale": 0.93,
+     "orient": "td"
+    },
+    "algoH": 265,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T8.15": {
+    "steps": 7,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T8.16": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T8.17": {
+    "steps": 10,
+    "split": false,
+    "algo": {
+     "scale": 0.87,
+     "orient": "lr"
+    },
+    "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T8.18": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T8.19": {
+    "steps": 9,
+    "split": false,
+    "algo": {
+     "scale": 0.94,
+     "orient": "td"
+    },
+    "algoH": 245,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T8.20": {
+    "steps": 16,
+    "split": false,
+    "algo": {
+     "scale": 0.97,
+     "orient": "lr"
+    },
+    "algoH": 300,
+    "traps": 2,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T8.21": {
+    "steps": 7,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T8.22": {
+    "steps": 10,
+    "split": false,
+    "algo": {
+     "scale": 0.82,
+     "orient": "lr"
+    },
+    "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T8.23": {
+    "steps": 14,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 300,
+    "traps": 1,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T8.24": {
+    "steps": 14,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 300,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   }
+  },
+  "warnings": [],
+  "pages": 41,
+  "where": {
+   "COVER": 1,
+   "IDX": 2,
+   "T8.1": 4,
+   "T8.2": 5,
+   "T8.3": 6,
+   "T8.4": 8,
+   "T8.5": 9,
+   "T8.6": 10,
+   "T8.7": 11,
+   "T8.8": 13,
+   "T8.9": 14,
+   "T8.10": 15,
+   "T8.11": 16,
+   "T8.12": 17,
+   "T8.13": 19,
+   "T8.14": 21,
+   "T8.15": 22,
+   "T8.16": 23,
+   "T8.17": 25,
+   "T8.18": 26,
+   "T8.19": 28,
+   "T8.20": 29,
+   "T8.21": 30,
+   "T8.22": 31,
+   "T8.23": 32,
+   "T8.24": 33,
+   "NUM": 34,
+   "DRUG": 37,
+   "GES": 38,
+   "PLAN": 40,
+   "PRIO": 41
+  }
+ },
+ "stars": [
+  {
+   "t": "8.1",
+   "real": 1,
+   "stars": 1,
+   "lg": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "t": "8.2",
+   "real": 3,
+   "stars": 2,
+   "lg": [
+    8,
+    9,
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "t": "8.3",
+   "real": 8,
+   "stars": 3,
+   "lg": [
+    13,
+    14
+   ]
+  },
+  {
+   "t": "8.4",
+   "real": 1,
+   "stars": 1,
+   "lg": [
+    15,
+    16
+   ]
+  },
+  {
+   "t": "8.5",
+   "real": 1,
+   "stars": 1,
+   "lg": [
+    17,
+    18
+   ]
+  },
+  {
+   "t": "8.6",
+   "real": 11,
+   "stars": 3,
+   "lg": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+   ]
+  },
+  {
+   "t": "8.7",
+   "real": 3,
+   "stars": 2,
+   "lg": [
+    29,
+    30,
+    31,
+    32
+   ]
+  },
+  {
+   "t": "8.8",
+   "real": 3,
+   "stars": 2,
+   "lg": [
+    33,
+    34
+   ]
+  },
+  {
+   "t": "8.9",
+   "real": 2,
+   "stars": 1,
+   "lg": [
+    35,
+    36
+   ]
+  },
+  {
+   "t": "8.10",
+   "real": 11,
+   "stars": 3,
+   "lg": [
+    19,
+    20
+   ]
+  },
+  {
+   "t": "8.11",
+   "real": 2,
+   "stars": 1,
+   "lg": [
+    39,
+    40
+   ]
+  },
+  {
+   "t": "8.12",
+   "real": 13,
+   "stars": 3,
+   "lg": [
+    38,
+    41,
+    42,
+    43
+   ]
+  },
+  {
+   "t": "8.13",
+   "real": 10,
+   "stars": 3,
+   "lg": [
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+   ]
+  },
+  {
+   "t": "8.14",
+   "real": 3,
+   "stars": 2,
+   "lg": [
+    50,
+    51,
+    52
+   ]
+  },
+  {
+   "t": "8.15",
+   "real": 1,
+   "stars": 1,
+   "lg": [
+    53,
+    54
+   ]
+  },
+  {
+   "t": "8.16",
+   "real": 11,
+   "stars": 3,
+   "lg": [
+    55,
+    56,
+    57,
+    58,
+    59
+   ]
+  },
+  {
+   "t": "8.17",
+   "real": 4,
+   "stars": 2,
+   "lg": [
+    60,
+    61,
+    62
+   ]
+  },
+  {
+   "t": "8.18",
+   "real": 7,
+   "stars": 3,
+   "lg": [
+    63,
+    64,
+    65
+   ]
+  },
+  {
+   "t": "8.19",
+   "real": 3,
+   "stars": 2,
+   "lg": [
+    66,
+    67,
+    68,
+    69
+   ]
+  },
+  {
+   "t": "8.20",
+   "real": 1,
+   "stars": 1,
+   "lg": [
+    70,
+    71,
+    72
+   ]
+  },
+  {
+   "t": "8.21",
+   "real": 4,
+   "stars": 2,
+   "lg": [
+    73,
+    74,
+    75
+   ]
+  },
+  {
+   "t": "8.22",
+   "real": 6,
+   "stars": 3,
+   "lg": [
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83
+   ]
+  },
+  {
+   "t": "8.23",
+   "real": 5,
+   "stars": 2,
+   "lg": [
+    84,
+    85,
+    86,
+    87
+   ]
+  },
+  {
+   "t": "8.24",
+   "real": 1,
+   "stars": 1,
+   "lg": [
+    88,
+    89,
+    90
+   ]
+  }
+ ],
+ "lg": {
+  "name": "Hémato-oncología",
+  "file": "Libro_Gordo_Hematologia_90Q.pdf",
+  "unassigned": [
+   37
+  ],
+  "byLabel": 88,
+  "byCode": 1,
+  "total": 90,
+  "wordInfo": [
+   {
+    "n": 37,
+    "sug": "8.10 Microangiopatías Trombóticas (MAT): PTT (Déficit A",
+    "title": "Púrpuras vasculares",
+    "code": "1.08.1.013",
+    "stem": "[ATENCIÓN PRIMARIA: Púrpuras vasculares · 1.08.1.013] Paciente de 52 años es evaluado en control médico en Ate"
+   }
+  ],
+  "unassignedInfo": [
+   {
+    "n": 37,
+    "title": "Púrpuras vasculares",
+    "code": "1.08.1.013",
+    "stem": "[ATENCIÓN PRIMARIA: Púrpuras vasculares · 1.08.1.013] Paciente de 52 años es evaluado en control médico en Atención Primaria de Salud (CESFAM) presentando antecedentes y cuadro clínico compatible con Púrpuras vasculares. El pacien"
+   }
+  ]
+ },
+ "stats": {
+  "numbers": 60,
+  "drugs": 34,
+  "ges": 8
+ }
+}

@@ -1,0 +1,508 @@
+{
+  "classId": "ob-07",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el segundo trimestre la placenta produce hormonas {{c1::diabetogénicas}} (lactógeno placentario, cortisol) que causan resistencia a la insulina.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Por qué el embarazo hace resistente a la insulina?",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la hiperglicemia materna, la glucosa cruza la placenta pero la {{c1::insulina}} no: el feto desarrolla hiperinsulinismo.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Resistencia a la insulina",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Todas las embarazadas se piden {{c1::glicemia en ayunas}} en su examen de ingreso.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Dos momentos, dos exámenes",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Glicemia de ayunas del primer trimestre < {{c1::100 mg/dL}}: normal; se tamiza con PTGO a las 24–28 semanas.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Dos momentos, dos exámenes",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Glicemia de ayunas de {{c1::100 a 125 mg/dL}} en dos ocasiones: diabetes gestacional precoz.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Dos momentos, dos exámenes",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.004"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 60"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Glicemia de ayuno de 108 en el primer control: {{c1::repetir la glicemia}}; el error es pedir la PTGO de inmediato.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Glicemia de ayunas ≥ {{c1::126 mg/dL}} en el primer trimestre: diabetes pregestacional (ya existía).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Dos momentos, dos exámenes",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Diabetes pregestacional también si glicemia al azar ≥ {{c1::200 mg/dL}} con síntomas o HbA1c ≥ {{c2::6,5%}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Criterios",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "PTGO con {{c1::75 g}} a las 24–28 semanas a toda embarazada con glicemia normal en el 1.er trimestre.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Criterios",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En Chile el único corte diagnóstico de la PTGO es la glicemia a las 2 horas ≥ {{c1::140 mg/dL}}.",
+      "extra": "Sin importar el valor basal.",
+      "origen": "clase:2",
+      "fuente": "Clase · Dos momentos, dos exámenes",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.004"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 38",
+        "EUNACOM Julio 2024 · Pregunta 9"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "PTGO con 2 horas en 152 y basal normal: es diabetes gestacional; el error es decir que es {{c1::normal}} porque la basal era baja.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "PTGO con glicemia a las 2 horas de 139 mg/dL: {{c1::normal}}, control habitual.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Agosto 2021 P73",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.004"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 73"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Embarazadas de alto riesgo con PTGO normal a las 24–28 semanas: se repite la PTGO a las {{c1::32–34 semanas}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Criterios",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Macrosomía: peso > {{c1::4.000 g}} o sobre el percentil {{c2::90}}.",
+      "extra": "Algunas guías usan 4.500 g.",
+      "origen": "clase:5",
+      "fuente": "Clase · El feto grande",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.009"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mecanismo de la macrosomía diabética: hiperglicemia materna, {{c1::hiperinsulinismo fetal}} y depósito de grasa en hombros y tronco.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Complicaciones",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.009"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trauma obstétrico del feto macrosómico: distocia de hombros, parálisis braquial ({{c1::Erb-Duchenne}}) y fractura de {{c2::clavícula}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Complicaciones",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.009"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipoglicemia neonatal precoz: al cortar el cordón cesa la glucosa materna pero persiste el {{c1::hiperinsulinismo}} fetal.",
+      "extra": "Aparece en las primeras 1–2 horas de vida.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Complicaciones",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En hijo de madre diabética, el exceso de insulina inhibe el surfactante y causa {{c1::enfermedad de membrana hialina}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Complicaciones",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Malformaciones mayores (cardiopatías, regresión caudal, DTN) ocurren solo en la diabetes {{c1::pregestacional}} mal controlada.",
+      "extra": "Daño en la organogénesis, primeras 8 semanas.",
+      "origen": "clase:15",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Diabetes gestacional típica: no aumenta el riesgo de malformación; el error es pedir {{c1::ecocardiografía fetal}} como en la pregestacional.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta de glicemia en ayunas con tratamiento: < {{c1::95 mg/dL}} (idealmente 70–90).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Metas, dieta e insulina",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta postprandial: 1 hora < {{c1::140}} y 2 horas < {{c2::120 mg/dL}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Metas, dieta e insulina",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primera línea de la diabetes gestacional: dieta fraccionada en {{c1::4 comidas y 2 colaciones}} más automonitoreo glucémico.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras el diagnóstico, se reevalúan los perfiles glucémicos en {{c1::1 a 2 semanas}} antes de pensar en insulina.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se indica insulina si más del {{c1::20%}} de los controles superan la meta tras 1–2 semanas de dieta.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Metas, dieta e insulina",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "28% de controles fuera de meta tras dieta: {{c1::iniciar insulina}}; el error es seguir solo con dieta.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Insulina de elección en diabetes gestacional: {{c1::NPH}} más cristalina o análogo rápido antes de las comidas.",
+      "extra": "La insulina no cruza la placenta.",
+      "origen": "clase:4",
+      "fuente": "Clase · Metas, dieta e insulina",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La {{c1::metformina}} no es primera línea en la guía MINSAL, porque cruza la placenta.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Metas, dieta e insulina",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Postparto (6–12 semanas) se reclasifica con PTGO 75 g; ≥ {{c1::140 mg/dL}} indica intolerancia o DM2.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Criterios y metas",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El diagnóstico de macrosomía se sospecha por {{c1::altura uterina}} mayor a la esperada y feto grande a los Leopold.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · El feto grande",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.009"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La ecografía tiene un error de {{c1::10 a 15%}} en la estimación de peso y tiende a sobrestimar.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · El feto grande",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.009"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Sospecha de macrosomía sin otra indicación: control y ecografía; el error es {{c1::inducir solo por el peso estimado}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.009"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En diabetes, la interrupción programada es a las {{c1::38–39 semanas}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Qué haces con el feto grande",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.009"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cesárea electiva con peso estimado ≥ {{c1::4.500 g}} en diabetes y ≥ {{c2::5.000 g}} sin diabetes.",
+      "extra": "Por el riesgo de distocia de hombros.",
+      "origen": "clase:6",
+      "fuente": "Clase · Qué haces con el feto grande",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.009"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 97"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Feto de 4.200 g con distocia de hombros previa en un hijo de 3.900 g, en trabajo de parto: {{c1::cesárea}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Diciembre 2025 P40",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.009"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 40"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-07/01_macrosomia-eco-circunferencia-abdominal__obgynus_p131.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Macrosomía fetal: grasa subcutánea abdominal aumentada",
+      "clave": "Circunferencia abdominal sobre el percentil 95 con capa de grasa subcutánea engrosada",
+      "conducta": "Estudiar y controlar la diabetes, vigilar crecimiento y derivar a ARO; no inducir de rutina",
+      "fuente": "Ultrasound in Obstetrics and Gynecology: A Practical Approach, Fig. 6.10",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.009"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Glicemia de ayunas 100–125 confirmada: ¿qué diagnóstico?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1.1",
+      "pista": "PTGO con 2 horas ≥ 140: ¿qué diagnóstico?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.1.0.1",
+      "pista": "Más del 20% fuera de meta: ¿qué se indica?"
+    }
+  ]
+}

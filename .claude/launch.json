@@ -4,14 +4,47 @@
     {
       "name": "reproductor-suizo",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8766", "--directory", "classes"],
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8766",
+        "--directory",
+        "classes"
+      ],
       "port": 8766
     },
     {
       "name": "clases-preview",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8765", "--directory", "classes/scripts/jsvideo"],
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8765",
+        "--directory",
+        "classes/scripts/jsvideo"
+      ],
       "port": 8765
+    },
+    {
+      "name": "maqueta-planes",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8767",
+        "--directory",
+        "mockups/planes"
+      ],
+      "port": 8767
+    },
+    {
+      "name": "aee-embed",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "classes/scripts/jsvideo/embed/servidor.cjs",
+        "8770"
+      ],
+      "port": 8770
     }
   ]
 }

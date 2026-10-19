@@ -1,0 +1,421 @@
+{
+  "classId": "gastro-21",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La frontera entre hemorragia digestiva alta y baja es el {{c1::ángulo de Treitz}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Alta o baja",
+      "repaso": false
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La melena requiere {{c1::≥ 8 h}} de tránsito intestinal.",
+      "extra": "Por eso indica origen alto.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definiciones",
+      "repaso": false
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hematoquecia también puede aparecer en una {{c1::HDA masiva con tránsito acelerado}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definiciones",
+      "repaso": false
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Al inicio de un sangrado agudo el hematocrito es {{c1::normal}}, porque se pierde sangre completa.",
+      "extra": "Cae recién horas después.",
+      "origen": "clase:2",
+      "fuente": "Clase · La gravedad la marca la hemodinamia",
+      "repaso": true
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La gravedad de una hemorragia digestiva al presentarse la determinan la {{c1::frecuencia cardíaca y la presión arterial}}.",
+      "extra": "Taquicardia → ortostatismo → hipotensión.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El signo más precoz de compromiso hemodinámico en la hemorragia digestiva es la {{c1::taquicardia}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · La gravedad la marca la hemodinamia",
+      "repaso": false
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Reanimación inicial de toda hemorragia digestiva: {{c1::dos vías venosas gruesas + cristaloides}}.",
+      "extra": "Suero fisiológico o Ringer.",
+      "origen": "clase:3",
+      "fuente": "Clase · Estabilizar primero",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 148"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la hemorragia digestiva, la {{c1::transfusión}} no es la reanimación inicial: se reserva para anemia persistente tras reponer o sangrado masivo.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Transfusión",
+      "repaso": false
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "HDA masiva en paciente con estigmas de daño hepático crónico: sospechar {{c1::várices esofágicas}}.",
+      "extra": "Pista: protrombina baja, albúmina baja, VCM alto.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla HDA",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 31",
+        "EUNACOM Julio 2016 · Pregunta 84"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hemorragia variceal: además del suero, {{c1::terlipresina}} + antibióticos + tiamina si es alcohólico.",
+      "extra": "La terlipresina baja la presión portal.",
+      "origen": "clase:4",
+      "fuente": "Clase · Várices esofágicas",
+      "repaso": true
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la hemorragia variceal los antibióticos se dan como profilaxis de {{c1::peritonitis bacteriana espontánea}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Várices esofágicas",
+      "repaso": false
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hemorragia variceal: {{c1::ligadura endoscópica}} en las primeras {{c2::12 horas}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Várices esofágicas",
+      "repaso": true
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Prevención del resangrado variceal: {{c1::propranolol + ligadura}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Várices esofágicas",
+      "repaso": false
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "HDA por úlcera gastroduodenal: {{c1::IBP endovenoso en dosis alta}} + terapia endoscópica según Forrest.",
+      "extra": "Después, erradicar H. pylori.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla HDA",
+      "repaso": true
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la HDA no variceal, la endoscopía se hace dentro de las primeras {{c1::24 horas}}, una vez estabilizado.",
+      "extra": "Endoscopiar sin reanimar aumenta las complicaciones.",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz endoscopía",
+      "repaso": false
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La clasificación de {{c1::Forrest}} ordena las úlceras según su riesgo de resangrado.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Úlcera gastroduodenal",
+      "repaso": false
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Úlcera con vaso visible no sangrante (Forrest IIa): {{c1::terapia endoscópica combinada}} (adrenalina + método térmico o clips) + IBP EV.",
+      "extra": "Alto riesgo de resangrado.",
+      "origen": "clase:20",
+      "fuente": "Clase · Quiz HDA",
+      "repaso": false,
+      "imagen": "biblioteca/01_gastroenterologia/gastro-21/02_ulcera_duodenal_vaso_visible__harrison_p2430.jpg"
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Vómitos alimentarios repetidos seguidos de hematemesis: {{c1::síndrome de Mallory-Weiss}}.",
+      "extra": "Suele ser autolimitado y de buen pronóstico.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Julio 2019 P156",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 156",
+        "EUNACOM Julio 2016 · Pregunta 114",
+        "EUNACOM Julio 2017 · Pregunta 67",
+        "EUNACOM Julio 2024 · Pregunta 36"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "No confundir Mallory-Weiss con {{c1::Boerhaave}}: este es una perforación esofágica transmural que termina en mediastinitis.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Julio 2019 P156",
+      "repaso": false
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sangrado recurrente sin lesión evidente: pensar en {{c1::lesión de Dieulafoy o angiodisplasia}} → hemostasia endoscópica.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla HDA",
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causa más frecuente de hemorragia digestiva baja masiva: {{c1::enfermedad diverticular}}.",
+      "extra": "Angiodisplasias en el adulto mayor.",
+      "origen": "clase:6",
+      "fuente": "Clase · Causas de HDB",
+      "repaso": true
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Paciente joven con rectorragia masiva y sangre que fluye por la válvula ileocecal: {{c1::divertículo de Meckel}}.",
+      "extra": "La sangre viene del delgado, no del colon.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Diciembre 2022 P40",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 40",
+        "EUNACOM Enero 2023 · Pregunta 75"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Escolar con sangrado rectal fresco, indoloro, escaso e intermitente: {{c1::pólipo juvenil}}.",
+      "extra": "Hamartoma; se diagnostica y reseca por colonoscopía.",
+      "origen": "clase:21",
+      "fuente": "Clase · Quiz Julio 2013 P11",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 11"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "HDB no masiva y estable: preparación de colon y {{c1::colonoscopía en 24 h}}.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · Hemorragia digestiva",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 147"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Regla del {{c1::10 %}}: si la colonoscopía no localiza una HDB (masiva), el siguiente paso es la {{c2::endoscopía digestiva alta}}.",
+      "extra": "Puede ser una HDA con tránsito rápido; no laparotomía.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 14"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "HDB masiva no localizada con colonoscopía ni EDA: {{c1::angio-TAC o angiografía}}, que puede embolizar.",
+      "extra": "Para sangrados lentos: cintigrafía con glóbulos rojos marcados.",
+      "origen": "clase:7",
+      "fuente": "Clase · El algoritmo",
+      "repaso": false
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si todo falla en la HDB masiva y sigue inestable, la cirugía habitual es la {{c1::hemicolectomía derecha}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 HDB: algoritmo",
+      "repaso": false
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anemia o sangrado oculto con EDA y colonoscopía normales: el siguiente examen es la {{c1::cápsula endoscópica}}.",
+      "extra": "Sospechar lesión o tumor del intestino delgado; derivar.",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz tumores del delgado",
+      "repaso": false
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los tumores del intestino delgado son raros: menos del {{c1::5 %}} de los tumores digestivos.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tumores del intestino delgado",
+      "repaso": false
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tumor más frecuente del íleon es el {{c1::carcinoide (neuroendocrino)}}; sus metástasis hepáticas dan rubor, diarrea y broncoespasmo.",
+      "extra": "Se mide ácido 5-hidroxiindolacético urinario.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tumores del intestino delgado",
+      "repaso": false
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento del GIST no resecable: {{c1::imatinib}}.",
+      "extra": "Neuroendocrino metastásico: análogos de somatostatina.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tumores del intestino delgado",
+      "repaso": false
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sangrado digestivo bajo por sospecha de divertículo de Meckel: se estudia con {{c1::cintigrafía con tecnecio 99m}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "Pregunta real Diciembre 2025 P165",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 165"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diarrea disentérica con baja de peso: examen de elección {{c1::colonoscopía con biopsias}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "Pregunta real Enero 2023 P74",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 74"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-21/04_varices-esofagicas-ligadura__atlas-eunacom.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Várice esofágica con ligadura endoscópica",
+      "clave": "Cordón varicoso con banda elástica puesta",
+      "conducta": "Cristaloides, terlipresina, antibióticos, tiamina y ligadura en las primeras 12 horas",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": false
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-21/03_mallory-weiss-endoscopia__atlas-eunacom.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Desgarro de Mallory-Weiss",
+      "clave": "Desgarro de la mucosa en la unión gastroesofágica con sangrado fresco",
+      "conducta": "Suele ser autolimitado: observar si está estable",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": false
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-21/01_forrest-ia-iib-iic__cto-digestivo_p63.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Úlcera péptica con sangrado activo (Forrest)",
+      "clave": "Úlcera con sangrado activo en la endoscopía",
+      "conducta": "IBP EV en dosis alta + terapia hemostática endoscópica; erradicar H. pylori",
+      "fuente": "Manual CTO Digestivo 14.ª ed., p. 63",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0.0",
+      "pista": "HDA en cirrótico: ¿qué agregas?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0.1",
+      "pista": "HDA sin cirrosis: ¿manejo?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0.1.1",
+      "pista": "HDB masiva e inestable: ¿secuencia?"
+    }
+  ]
+}

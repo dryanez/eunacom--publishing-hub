@@ -1,0 +1,576 @@
+{
+ "classId": "resp-09",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El absceso pulmonar primario es una lesión {{c1::cavitaria necrótica}} circunscrita del parénquima que contiene pus.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Más del {{c1::85%}} de los abscesos pulmonares se origina en una neumonitis aspirativa no tratada o mal tratada.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La mayoría de los abscesos pulmonares se origina por {{c1::aspiración de flora oral anaerobia}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Factores predisponentes de absceso: periodontitis grave, {{c1::alcoholismo crónico}}, epilepsia, abuso de sedantes y trastornos de deglución.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La flora del absceso es {{c1::polimicrobiana}}, con predominio de anaerobios de la cavidad oral.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Anaerobios típicos del absceso: Fusobacterium nucleatum, {{c1::Prevotella}} y Peptostreptococcus.",
+   "extra": "Asociados a estreptococos del grupo anginosus.",
+   "origen": "clase:2",
+   "fuente": "Clase · Un cuadro lento",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El absceso pulmonar suele presentarse de forma {{c1::subaguda o crónica}} (semanas de evolución), con fiebre vespertina y sudoración nocturna.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cuadro clínico",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Un absceso con baja de peso y sudoración nocturna puede simular {{c1::tuberculosis o neoplasia}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Un cuadro lento",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tos con expectoración purulenta muy abundante y fétida del absceso se llama {{c1::vómica}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · La pista clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la imagen, el absceso es una cavidad redondeada de pared {{c1::gruesa}} con nivel hidroaéreo.",
+   "extra": "Aire arriba, pus abajo.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La cavidad del absceso muestra márgenes irregulares y un {{c1::nivel hidroaéreo}} evidente en su interior.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · La imagen que se pregunta",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El absceso se localiza en segmentos {{c1::dependientes}}: posteriores de lóbulos superiores o apicales de lóbulos inferiores.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · La imagen que se pregunta",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pared de la cavidad en el absceso pulmonar: {{c1::gruesa y regular por dentro}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla cavidades",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cáncer pulmonar cavitado: pared muy gruesa (> {{c1::15 mm}}) y nodular por dentro.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla cavidades",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El cáncer cavitado típico es el carcinoma {{c1::epidermoide}} de lóbulos superiores.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla cavidades",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tuberculosis cavitada: pared fina a moderada con {{c1::halo retráctil}}, nivel hidroaéreo raro, en ápices.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla cavidades",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El quiste hidatídico complicado muestra el signo del {{c1::camalote (nenúfar)}} por la membrana desprendida.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla cavidades",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.001"
+   ],
+   "imagen": "_verificadas/163_resp_Absceso_pulmonar__knoopepub_p740_1.jpg"
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El quiste hidatídico complicado se localiza en las {{c1::bases}} pulmonares, más frecuente la derecha.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla cavidades",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Tratamiento del quiste hidatídico complicado: {{c1::albendazol}} más cirugía conservadora.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Tuberculosis cavitada se trata con esquema de {{c1::4 drogas}} (RHZE) según MINSAL.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tratamiento del absceso pulmonar es {{c1::médico y prolongado}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Más del {{c1::85–90%}} de los abscesos curan solo con antibióticos, sin cirugía ni drenaje.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "No se indica drenaje quirúrgico de rutina: la mayoría drena espontáneamente por el {{c1::árbol bronquial}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Esquema de elección inicial del absceso: {{c1::ampicilina/sulbactam}} EV.",
+   "extra": "Alternativas: ceftriaxona + metronidazol.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Ampicilina/sulbactam en absceso: {{c1::1,5 a 3 g}} cada 6 horas EV.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Médico, anaerobios y largo",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En alérgicos a penicilina, el absceso pulmonar se trata con {{c1::clindamicina}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Con estabilidad clínica se rota a vía oral con {{c1::amoxicilina/ácido clavulánico}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Amoxicilina/clavulánico oral en absceso: {{c1::875/125 mg}} cada 8–12 horas.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Duración total del tratamiento del absceso: {{c1::4 a 6 semanas}}, hasta cerrar la cavidad en la imagen.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Duración",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Todo esquema del absceso debe cubrir {{c1::anaerobios}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Los gérmenes",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Absceso en mayor de 50 años y fumador: la conducta mandatoria es {{c1::fibrobroncoscopía}} para descartar carcinoma.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Regla EUNACOM",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.001",
+    "4.01.2.017"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 135"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fibrobroncoscopía en el absceso busca descartar {{c1::carcinoma broncogénico o cuerpo extraño}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Fibrobroncoscopía y cirugía",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.005"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 135"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Fumador mayor de 50 años con lesión cavitada: siempre se debe sospechar y descartar {{c1::cáncer broncogénico}}.",
+   "extra": "Aunque parezca un absceso típico.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.5.005"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 135"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Absceso típico en la imagen con esputo fétido y sepsis dental: orienta a {{c1::benigno (absceso)}}, no a cáncer.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · ¿Absceso o cáncer?",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cirugía o drenaje percutáneo en absceso solo si falla el tratamiento: cavidad mayor de {{c1::6 cm}}, refractario o hemoptisis masiva.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Fibrobroncoscopía y cirugía",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ante un absceso complicado el estudio de imagen de elección es la {{c1::TAC de tórax}}.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.001"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 165"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Alcohólico fumador con tos purulenta de 7 días, fiebre y apremio que empeora: se solicita {{c1::TAC de tórax}} para valorar cavidad o complicación.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo · radiografía y TAC",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.017"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 165"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Alcohol + mala dentadura + esputo fétido apuntan a {{c1::anaerobios orales aspirados}}.",
+   "extra": "",
+   "origen": "clase:15",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Regla de oro: cavidad de pared gruesa con nivel en {{c1::segmentos dependientes}} sugiere absceso por aspiración.",
+   "extra": "",
+   "origen": "clase:15",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-09/01_absceso-pulmonar__cto-radiologia_p16.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Absceso pulmonar",
+   "clave": "Cavidad de pared gruesa con nivel hidroaéreo",
+   "conducta": "Ampicilina/sulbactam → amox/clav 4–6 semanas; fibrobroncoscopía si > 50 años o fumador",
+   "fuente": "Manual CTO Radiología 14.ª ed., p. 16",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "_verificadas/163_resp_Absceso_pulmonar__knoopepub_p740_1.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Quiste hidatídico pulmonar complicado",
+   "clave": "Signo del camalote: membrana flotante",
+   "conducta": "Albendazol + cirugía conservadora",
+   "fuente": "The Atlas of Emergency Medicine (Knoop), p. 740",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.001"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Cavidad con nivel hidroaéreo: ¿qué tratamiento?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1",
+   "pista": "Mayor de 50 y fumador: ¿qué examen?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.1",
+   "pista": "Falla médica: ¿qué se hace?"
+  }
+ ]
+}

@@ -1,0 +1,480 @@
+{
+ "classId": "trauma-02",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Una fractura expuesta es una fractura con herida de partes blandas que pone el foco en contacto con el {{c1::medio ambiente}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Definición",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.008"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La complicación más temida de la fractura expuesta es la infección y {{c1::osteomielitis}}.",
+   "extra": "El problema no es la fractura sino la exposición.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Riesgos",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.008"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otras complicaciones de la fractura expuesta: lesión neurovascular, síndrome {{c1::compartimental}} y retardo de consolidación.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Riesgos",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.008"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Toda herida cercana a una fractura se considera {{c1::fractura expuesta}} hasta demostrar lo contrario.",
+   "extra": "Aunque el hueso no se vea.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Diagnóstico",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.008"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El diagnóstico de fractura expuesta es {{c1::clínico}}: herida que comunica con el hueso fracturado.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.008"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El manejo de una fractura expuesta comienza por el {{c1::ABC}} del trauma.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tratamiento inicial",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.008"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La medida inicial más importante es irrigar con suero fisiológico, habitualmente {{c1::3 a 10 litros}} a chorro.",
+   "extra": "Remueve restos vegetales, tierra y detritos.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Aseo",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.008"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El antibiótico EV se inicia lo antes posible, idealmente en la {{c1::primera hora}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Antibiótico",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.008"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tratamiento definitivo es el aseo quirúrgico y la {{c1::osteosíntesis}} en pabellón.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cirugía",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.008"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Además del aseo y antibiótico se da analgesia y {{c1::profilaxis antitetánica}} según antecedente vacunal.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pilares",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.008"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Gustilo grado I: herida < {{c1::1 cm}} de baja energía y contaminación mínima.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Gustilo",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-02/01_fractura-expuesta__atls_p210.jpg",
+   "codigos": [
+    "4.02.2.008"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Gustilo grado II: herida > 1 cm, habitualmente menor de {{c1::10 cm}}; grado III: > 10 cm o alta energía.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Gustilo",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.008"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Gustilo III {{c1::B}}: denudación del periostio y hueso expuesto que requiere colgajo; es la que más se infecta.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Gustilo",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-02/21_expuesta-iiib__sherman_p631.jpg",
+   "codigos": [
+    "4.02.2.008"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Gustilo III {{c1::C}}: lesión arterial que requiere reparación, sin importar el tamaño de la herida; III D: amputación.",
+   "extra": "Obliga a cirujano vascular.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Gustilo",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.008"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Gustilo III A: cobertura cutánea {{c1::adecuada}} a pesar de la laceración extensa.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Gustilo",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.008"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Toda fractura por {{c1::arma de fuego}}, catástrofe o alta contaminación es automáticamente grado III.",
+   "extra": "Aunque la herida sea de 1 cm.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Gustilo",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.008"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Gustilo I: antibiótico {{c1::cefazolina}} EV, que cubre gram positivos (S. aureus).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Antibiótico",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.008"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Gustilo II: cefazolina más {{c1::gentamicina}} para sumar cobertura gram negativa.",
+   "extra": "En las preguntas del banco aparece la amikacina.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Antibiótico",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.008"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Gustilo III: cefazolina + gentamicina + {{c1::clindamicina}} (o metronidazol) para cubrir anaerobios.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Antibiótico",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.008"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antes de derivar una fractura expuesta, la herida {{c1::no se sutura}} y se cubre con apósito estéril.",
+   "extra": "Solo un punto si es imprescindible para hemostasia.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Traslado",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.008",
+    "4.02.5.001"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se inmoviliza con {{c1::valva de yeso larga y abierta}}, que incluya la articulación proximal y distal.",
+   "extra": "El yeso circular puede causar síndrome compartimental.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Traslado",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.008",
+    "4.02.5.001"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El apósito se empapa en suero y nunca se {{c1::reintroduce}} el hueso expuesto.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Traslado",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.001"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antes del traslado se controla la hemorragia con {{c1::compresión directa}} y se registra el estado neurovascular antes y después.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Traslado",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.001"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El factor pronóstico más importante para infección es el estado de las {{c1::partes blandas}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Pronóstico",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.008"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el grado III se usa con frecuencia la fijación {{c1::externa}}; el III C exige cirujano vascular.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Cirugía",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.008"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El traslado del traumatizado se hace {{c1::después}} de estabilizar: ABCDE, dos vías venosas, oxígeno y analgesia.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Traslado",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.005"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el traslado se protege la columna con collar rígido y movilización {{c1::en bloque}} (log-roll) si hay mecanismo de riesgo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Traslado",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.005"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el traslado se abriga al paciente para evitar la {{c1::hipotermia}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Traslado",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.005"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Al centro receptor se entrega hora del trauma, mecanismo, hallazgos, tratamientos y tiempo de {{c1::isquemia}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Traslado",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.005"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El casco del motociclista solo lo retira personal entrenado, entre {{c1::dos personas}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Traslado",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.005"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En urgencia se inmoviliza con férulas o valvas acolchadas {{c1::no circulares}} que incluyan las articulaciones vecinas.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Quiz inmovilización",
+   "repaso": false,
+   "codigos": [
+    "1.12.2.001"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-02/21_expuesta-iiib__sherman_p631.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Fractura expuesta Gustilo IIIB",
+   "clave": "Hueso expuesto por herida amplia con daño extenso de partes blandas",
+   "conducta": "Aseo con suero, cefazolina + gentamicina + clindamicina, no suturar y valva abierta",
+   "fuente": "Sherman, Atlas of Clinical Emergency Medicine, p. 631",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.001"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-02/01_fractura-expuesta__atls_p210.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Fractura expuesta con herida amplia",
+   "clave": "Hueso saliendo por una herida amplia",
+   "conducta": "Cubrir con apósito estéril empapado en suero, valva larga abierta y derivar",
+   "fuente": "ATLS 10.ª ed., Fig. 8-6",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.001"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.1.0",
+   "pista": "Gustilo I: ¿qué antibiótico?",
+   "codigos": [
+    "4.02.2.008",
+    "4.02.5.001"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.2",
+   "pista": "Gustilo III: ¿qué esquema antibiótico?",
+   "codigos": [
+    "4.02.2.008",
+    "4.02.5.001"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.2.0",
+   "pista": "Antes de derivar la fractura expuesta: ¿qué haces con la herida y el yeso?",
+   "codigos": [
+    "4.02.2.008",
+    "4.02.5.001"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0",
+   "pista": "Paciente inestable con fractura expuesta: ¿qué va primero?",
+   "codigos": [
+    "4.02.2.008",
+    "4.02.5.001"
+   ]
+  }
+ ]
+}

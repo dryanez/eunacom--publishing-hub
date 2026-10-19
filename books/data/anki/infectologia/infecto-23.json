@@ -1,0 +1,651 @@
+{
+ "classId": "infecto-23",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El virus varicela-zóster es el herpesvirus humano tipo {{c1::3}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Un virus, dos enfermedades",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.011"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La varicela se transmite por aerosoles y líquido vesicular: aislamiento {{c1::aéreo}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cielo estrellado de distribución centrípeta",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.011"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La varicela contagia desde {{c1::48 horas}} antes del exantema.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cielo estrellado de distribución centrípeta",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.011"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La varicela contagia hasta que todas las lesiones están en fase de {{c1::costra}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cielo estrellado de distribución centrípeta",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.011"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Exantema de la varicela: distribución {{c1::centrípeta}} (cuero cabelludo, cara y tronco).",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cielo estrellado de distribución centrípeta",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.011"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 118"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Varicela: polimorfismo regional o «cielo {{c1::estrellado}}»: máculas, pápulas, vesículas, pústulas y costras juntas.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cielo estrellado de distribución centrípeta",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.011"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 118"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las vesículas de la varicela son «gotas de {{c1::rocío}} sobre pétalo de rosa».",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Varicela",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.011"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "Vacuna antivaricela del PNI: a los {{c1::18 y 36 meses}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cielo estrellado de distribución centrípeta",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.011"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Varicela en niño sano: tratamiento {{c1::sintomático}} con antihistamínico (clorfenamina).",
+   "extra": "",
+   "origen": "clase:15",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.011"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Varicela en mayores de {{c1::13 años}}: aciclovir oral.",
+   "extra": "",
+   "origen": "clase:15",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.011"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 118"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En niños con varicela o influenza está contraindicada la {{c1::aspirina}} (síndrome de Reye).",
+   "extra": "Para la fiebre: paracetamol.",
+   "origen": "clase:3",
+   "fuente": "Clase · Piel, cerebelo y una aspirina prohibida",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.010"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Síndrome de Reye: encefalopatía con degeneración grasa microvesicular del {{c1::hígado}} e hiperamonemia.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Complicaciones",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.010"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Complicación más frecuente de la varicela en niños: sobreinfección bacteriana por {{c1::S. pyogenes o S. aureus}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Piel, cerebelo y una aspirina prohibida",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.010"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Sobreinfección bacteriana de la varicela: cefazolina o {{c1::cloxacilina}}; aseo quirúrgico si es necrotizante.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.010"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Complicación neurológica más común de la varicela en niños: {{c1::ataxia cerebelosa}} aguda.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Piel, cerebelo y una aspirina prohibida",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.010"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La ataxia cerebelosa aparece {{c1::1 a 3 semanas}} después del exantema.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Piel, cerebelo y una aspirina prohibida",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.010"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ataxia cerebelosa postvaricela: marcha atáxica, dismetría y nistagmo sin signos {{c1::meníngeos}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Piel, cerebelo y una aspirina prohibida",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.010"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La ataxia cerebelosa postvaricela es autolimitada: el manejo es {{c1::conservador}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.010"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La neumonitis varicelosa es la complicación más letal y típica de adultos, embarazadas y {{c1::fumadores}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Neumonitis varicelosa",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.010"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La neumonitis varicelosa aparece al día {{c1::3 a 5}} del exantema.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Neumonitis varicelosa",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.010"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neumonitis varicelosa: disnea súbita, hipoxemia e infiltrados {{c1::nodulares difusos bilaterales}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Neumonitis varicelosa",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.010"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Mortalidad de la neumonitis varicelosa: > {{c1::20-30%}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Complicaciones",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.010"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Neumonitis varicelosa: aciclovir {{c1::EV}} 10 mg/kg cada 8 h y UCI.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Neumonitis varicelosa",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.010"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la neumonitis varicelosa no se usa aciclovir oral por su {{c1::biodisponibilidad insuficiente}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Neumonitis varicelosa",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.010"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El herpes zóster es la reactivación del VVZ latente en ganglios de la raíz {{c1::dorsal}} o de pares craneanos.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Un virus, dos enfermedades",
+   "repaso": false,
+   "codigos": [
+    "6.01.2.007"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Herpes zóster: dolor neuropático urente que {{c1::precede}} a las vesículas.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Herpes zóster",
+   "repaso": true,
+   "codigos": [
+    "6.01.2.007"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 127",
+    "EUNACOM Julio 2019 · Pregunta 158"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El zóster afecta un dermatoma {{c1::unilateral}} estricto que no cruza la línea media.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Herpes zóster",
+   "repaso": true,
+   "codigos": [
+    "6.01.2.007"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 127",
+    "EUNACOM Julio 2019 · Pregunta 158",
+    "EUNACOM Enero 2023 · Pregunta 116",
+    "EUNACOM Diciembre 2022 · Pregunta 170"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Herpes zóster: aciclovir {{c1::800 mg}} 5 veces al día por 7 días.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Herpes zóster",
+   "repaso": true,
+   "codigos": [
+    "6.01.2.007"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 127"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Alternativa en zóster: valaciclovir {{c1::1 g}} cada 8 h por 7 días.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Herpes zóster",
+   "repaso": true,
+   "codigos": [
+    "6.01.2.007"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 116",
+    "EUNACOM Julio 2019 · Pregunta 158",
+    "EUNACOM Diciembre 2022 · Pregunta 170"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El antiviral del zóster se inicia idealmente en las primeras {{c1::72 horas}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Herpes zóster",
+   "repaso": true,
+   "codigos": [
+    "6.01.2.007"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 116",
+    "EUNACOM Diciembre 2022 · Pregunta 170"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Zóster con VIH o inmunosupresión: se trata con {{c1::aciclovir}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Herpes zóster",
+   "repaso": false,
+   "codigos": [
+    "6.01.2.007"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 127"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neuralgia postherpética: dolor persistente mayor de {{c1::3 meses}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Herpes zóster",
+   "repaso": true,
+   "codigos": [
+    "6.01.2.007"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Neuralgia postherpética: pregabalina, gabapentina o {{c1::amitriptilina}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Herpes zóster",
+   "repaso": false,
+   "codigos": [
+    "6.01.2.007"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo de Hutchinson: vesículas en la {{c1::punta de la nariz}} por compromiso del nervio nasociliar.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · El zóster toca el ojo o el oído",
+   "repaso": true,
+   "codigos": [
+    "6.01.2.007"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Zóster oftálmico (rama V1 del trigémino) predice queratitis, uveítis y ceguera: requiere {{c1::oftalmología urgente}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · El zóster toca el ojo o el oído",
+   "repaso": true,
+   "codigos": [
+    "6.01.2.007"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ramsay-Hunt: ganglio {{c1::geniculado}} del VII par.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · El zóster toca el ojo o el oído",
+   "repaso": false,
+   "codigos": [
+    "6.01.2.007"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tríada de Ramsay-Hunt: parálisis facial periférica, otalgia intensa y vesículas en el {{c1::conducto auditivo externo}} o pabellón.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · El zóster toca el ojo o el oído",
+   "repaso": true,
+   "codigos": [
+    "6.01.2.007"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Ramsay-Hunt: aciclovir a dosis altas más {{c1::corticoides}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "6.01.2.007"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Parálisis facial con vesículas en la oreja no es Bell: «siempre mira la {{c1::oreja}}».",
+   "extra": "",
+   "origen": "clase:15",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": false,
+   "codigos": [
+    "6.01.2.007"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-23/01_varicela__cto-infecto_p127.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Varicela (polimorfismo regional)",
+   "clave": "Máculas, pápulas, vesículas y costras juntas en tronco",
+   "conducta": "Sintomático en niño sano; aciclovir oral > 13 años; nunca aspirina",
+   "fuente": "Manual CTO Infecciosas 14.ª ed., p. 127",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.011"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 118"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-23/03_neumonitis-varicelosa__brant_p491.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Neumonitis varicelosa",
+   "clave": "Infiltrados nodulares difusos bilaterales en adulto con varicela",
+   "conducta": "Aciclovir EV 10 mg/kg c/8 h y UCI",
+   "fuente": "Brant & Helms, Fundamentals of Diagnostic Radiology, p. 491",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.010"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-23/02_herpes-zoster__amir-infecto_p128.jpg",
+   "pregunta": "¿Qué muestra y qué indicas?",
+   "diagnostico": "Herpes zóster",
+   "clave": "Vesículas en racimo en un dermatoma unilateral",
+   "conducta": "Valaciclovir 1 g c/8 h o aciclovir 800 mg 5 veces/día, 7 días",
+   "fuente": "Manual AMIR Infecciosas, p. 128",
+   "repaso": false,
+   "codigos": [
+    "6.01.2.007"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 158",
+    "EUNACOM Diciembre 2022 · Pregunta 170",
+    "EUNACOM Enero 2023 · Pregunta 116"
+   ]
+  },
+  {
+   "id": "i04",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-23/03_zoster-oftalmico__amir-infecto_p128.jpg",
+   "pregunta": "¿Qué signo ves y qué haces?",
+   "diagnostico": "Zóster oftálmico (signo de Hutchinson)",
+   "clave": "Vesículas en la punta de la nariz",
+   "conducta": "Aciclovir sistémico y oftalmología urgente",
+   "fuente": "Manual AMIR Infecciosas, p. 128",
+   "repaso": false,
+   "codigos": [
+    "6.01.2.007"
+   ]
+  },
+  {
+   "id": "i05",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-23/04_vesiculas-en-concha-ramsay-hunt__bailey-love_p736.jpg",
+   "pregunta": "Parálisis facial: ¿qué miras y qué sospechas?",
+   "diagnostico": "Síndrome de Ramsay-Hunt",
+   "clave": "Vesículas y costras en la concha auricular",
+   "conducta": "Aciclovir a dosis altas más corticoides",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 46.30b",
+   "repaso": false,
+   "codigos": [
+    "6.01.2.007"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0.1",
+   "pista": "Varicela en mayor de 13 años: ¿qué indicas?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0.2",
+   "pista": "Disnea e infiltrados en varicela: ¿qué haces?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.1",
+   "pista": "Vesícula en la punta de la nariz: ¿qué conducta?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.2",
+   "pista": "Parálisis facial con lesiones en la oreja: ¿qué tratas?"
+  }
+ ]
+}

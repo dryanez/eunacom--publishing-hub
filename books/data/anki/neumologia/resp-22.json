@@ -1,0 +1,578 @@
+{
+ "classId": "resp-22",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El SDRA es un daño alveolar difuso con ruptura de la barrera {{c1::alvéolo-capilar}} y edema rico en proteínas.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · De la sepsis al pulmón inundado",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.014"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el SDRA el edema se debe a aumento de la {{c1::permeabilidad}}, no a presión hidrostática.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · De la sepsis al pulmón inundado",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.014"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causa más común de SDRA en la UTI: {{c1::sepsis y shock séptico}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología y causas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.014"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas pulmonares directas de SDRA: neumonía grave, {{c1::aspiración}} de contenido gástrico, contusión pulmonar e inhalación de humo.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · De la sepsis al pulmón inundado",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.014"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas indirectas de SDRA: sepsis, politrauma con transfusiones masivas (TRALI), {{c1::pancreatitis}} necrotizante y grandes quemados.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · De la sepsis al pulmón inundado",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.014"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El mecanismo de hipoxemia del SDRA es el {{c1::shunt}}, refractario al oxígeno.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · De la sepsis al pulmón inundado",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.014"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La radiografía del SDRA muestra {{c1::opacidades bilaterales}} (pulmón blanco).",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · De la sepsis al pulmón inundado",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.014",
+    "1.01.4.003"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Para diagnosticar SDRA según Berlín se deben cumplir los {{c1::4 criterios}} simultáneamente.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Criterios de Berlín",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.014"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Berlín, temporalidad: inicio agudo en ≤ {{c1::7 días}} del insulto clínico.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Los cuatro criterios de Berlín",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.014"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Berlín, radiología: opacidades {{c1::bilaterales}} no explicadas por derrames, atelectasias lobares o nódulos.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Los cuatro criterios de Berlín",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.014",
+    "1.01.4.003"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Berlín, origen: la falla respiratoria no se explica por {{c1::falla cardíaca ni sobrecarga de volumen}}.",
+   "extra": "Se descarta con ecocardiograma.",
+   "origen": "clase:2",
+   "fuente": "Clase · Los cuatro criterios de Berlín",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.014"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Berlín, oxigenación: PaFi ≤ 300 medida con PEEP o CPAP ≥ {{c1::5 cmH2O}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Los cuatro criterios de Berlín",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.014"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Clasificar el SDRA con una PaFi medida {{c1::sin PEEP}} es el error; se mide con PEEP o CPAP ≥ 5.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.014"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "SDRA leve: {{c1::200 < PaFi ≤ 300}}; mortalidad de 27 %.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Clasificación de Berlín",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.014"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "SDRA moderado: {{c1::100 < PaFi ≤ 200}}; mortalidad de 32 %.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Clasificación de Berlín",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.014"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "SDRA severo: PaFi ≤ {{c1::100}}; mortalidad cercana al 45 %.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Clasificación de Berlín",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.014"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Opacidades bilaterales con falla cardíaca: es edema cardiogénico y el error es llamarlo {{c1::SDRA}}.",
+   "extra": "Se trata con furosemida + nitroglicerina + CPAP.",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.014"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "El edema cardiogénico se trata con furosemida, {{c1::nitroglicerina}} y CPAP.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · ¿Distrés o edema cardiogénico?",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.014"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El examen que separa SDRA de edema cardiogénico es el {{c1::ecocardiograma}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · ¿Distrés o edema cardiogénico?",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.014"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Ventilación protectora: volumen corriente de {{c1::6 mL/kg}} de peso predicho.",
+   "extra": "Estudio ARDS Network.",
+   "origen": "clase:4",
+   "fuente": "Clase · Ventilación protectora",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.014",
+    "1.05.5.011"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El volumen corriente se calcula con el peso {{c1::ideal (predicho)}}, no con el peso real.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.014",
+    "1.05.5.011"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La presión plateau (meseta) debe ser ≤ {{c1::30 cmH2O}}.",
+   "extra": "Previene volutrauma y barotrauma.",
+   "origen": "clase:4",
+   "fuente": "Clase · Ventilación protectora",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.014",
+    "1.05.5.011"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Para la seguridad se vigila la presión {{c1::plateau}}; el error es vigilar solo la presión peak.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.014",
+    "1.05.5.011"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La ventilación protectora evita el {{c1::volutrauma y barotrauma}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Ventilación protectora",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.014",
+    "1.05.5.011"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Prono precoz en SDRA con PaFi < {{c1::150 mmHg}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Ventilación protectora",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.014"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El prono se mantiene al menos {{c1::16 horas}} consecutivas al día.",
+   "extra": "Estudio PROSEVA.",
+   "origen": "clase:4",
+   "fuente": "Clase · Ventilación protectora",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.014"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "PaFi < 150: el error es mantener al paciente en {{c1::supino estricto}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.014"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En SDRA severo se usa bloqueo neuromuscular con {{c1::cisatracurio}} en las primeras 48 horas.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Ventilación protectora",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.014"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el SDRA moderado se optimiza la PEEP y se evita el balance hídrico {{c1::positivo}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Clasificación de Berlín",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.014",
+    "1.05.5.011"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Intervención de impacto comprobado en SDRA leve: ventilación {{c1::protectora}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Clasificación de Berlín",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.014",
+    "1.05.5.011"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El estudio {{c1::PROSEVA}} demostró reducción de mortalidad con el prono precoz.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Ventilación protectora",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.014"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "COVID-19 grave: SatO2 < 90 % al aire, FR > 30, PaO2/FiO2 < {{c1::300}} o infiltrados sobre 50 %.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 COVID-19 grave",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.011"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "COVID-19 crítico: SDRA, {{c1::shock}} o falla multiorgánica.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 COVID-19 grave",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.011"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Factores de riesgo de COVID grave: edad avanzada, obesidad, diabetes, HTA, inmunosupresión y falta de {{c1::vacunación}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 COVID-19 grave",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.011"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la TAC de COVID se ve vidrio esmerilado bilateral {{c1::periférico}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Cuando el virus llega al pulmón",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.011"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Laboratorio de COVID grave: linfopenia y dímero D, ferritina y {{c1::PCR}} elevados.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Cuando el virus llega al pulmón",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.011"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "COVID con requerimiento de oxígeno: {{c1::dexametasona 6 mg}} diarios por 10 días.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Cuando el virus llega al pulmón",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.011"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En COVID grave el nivel del Perfil es tratamiento inicial y {{c1::derivación a UCI}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 COVID-19 grave",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.011"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-22/01_sdra-infiltrado-bilateral__cto-neumo_p35.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "SDRA: infiltrado alveolar bilateral difuso",
+   "clave": "Opacidades bilaterales algodonosas sin cardiomegalia",
+   "conducta": "Descartar causa cardíaca con eco; ventilación protectora (6 mL/kg, plateau ≤ 30) y prono si PaFi < 150",
+   "fuente": "Manual CTO Neumología 14.ª ed., p. 35",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.014",
+    "1.01.4.003"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/04_respiratorio/resp-22/atlas_029_rx_de_edema_pulmonar_cardiogen.jpg",
+   "pregunta": "¿Qué muestra y en qué se diferencia del SDRA?",
+   "diagnostico": "Edema pulmonar cardiogénico",
+   "clave": "Cardiomegalia, redistribución de flujo y derrame pleural",
+   "conducta": "Furosemida + nitroglicerina + CPAP",
+   "fuente": "Atlas EUNACOM 2026",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.014",
+    "1.01.4.003"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-22/02_lineas-b-kerley__cto-radiologia_p11.jpg",
+   "pregunta": "¿Qué signo es y qué sugiere?",
+   "diagnostico": "Líneas B de Kerley",
+   "clave": "Líneas septales cortas periféricas por edema intersticial hidrostático",
+   "conducta": "Pensar en falla cardíaca: furosemida + nitroglicerina + CPAP",
+   "fuente": "Manual CTO Radiología 14.ª ed., p. 11",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.014",
+    "1.01.4.003"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.1.0",
+   "pista": "Opacidades bilaterales explicadas por el corazón: ¿qué es y cómo se trata?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.1",
+   "pista": "Sin causa cardíaca: ¿cómo clasificas el SDRA?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.1.0",
+   "pista": "PaFi 150–300: ¿qué ventilación?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.1.1",
+   "pista": "PaFi < 150: ¿qué sumas?"
+  }
+ ]
+}

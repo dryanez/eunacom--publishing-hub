@@ -1,0 +1,452 @@
+{
+ "classId": "cirugia-16",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las 5 W de la fiebre postoperatoria: Wind, {{c1::Water}}, {{c2::Wound}}, {{c3::Walking}} y Wonder drugs.",
+   "extra": "Orientan la causa según el día.",
+   "origen": "clase:1",
+   "fuente": "Clase · Cinco W",
+   "repaso": true,
+   "codigos": [
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La causa más frecuente de fiebre postoperatoria en las primeras 24-48 horas es la {{c1::atelectasia}}.",
+   "extra": "Wind, días 1-2.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Wind",
+   "repaso": true,
+   "imagen": "biblioteca/10_cirugia/cirugia-16/atlas_242_atelectasia_rx.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 11",
+    "EUNACOM Diciembre 2019 · Pregunta 173",
+    "EUNACOM Julio 2015 · Pregunta 40"
+   ],
+   "codigos": [
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La atelectasia se favorece por anestesia general, opioides y dolor de herida que limita {{c1::las respiraciones profundas y la tos}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Wind",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fiebre moderada, taquipnea, herida limpia y crepitaciones bibasales el día 1: {{c1::atelectasia}}.",
+   "extra": "Fiebre 38.0-38.5 °C.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Wind",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La atelectasia se trata con {{c1::kinesiterapia respiratoria}}, espirometría incentivada, analgesia y deambulación precoz, sin antibióticos.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Wind",
+   "repaso": true,
+   "codigos": [
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Trampa clásica: indicar {{c1::antibióticos de amplio espectro}} en el día 1 por una fiebre de 38.2 °C con herida limpia y crepitaciones bibasales.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Trampa",
+   "repaso": true,
+   "codigos": [
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el día 3 la fiebre sugiere {{c1::infección urinaria}} asociada a sonda Foley.",
+   "extra": "E. coli, Klebsiella, Enterococcus.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Water",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento de la ITU postoperatoria: {{c1::retirar la sonda Foley}}, urocultivo y antibiótico dirigido.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Water",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La infección del sitio quirúrgico aparece típicamente entre el día {{c1::5 y 7}}.",
+   "extra": "Antes de 48 h sugiere S. pyogenes o Clostridium.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Wound",
+   "repaso": true,
+   "imagen": "biblioteca/10_cirugia/cirugia-16/03_infeccion-herida-operatoria__knoop_p673.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 68"
+   ],
+   "codigos": [
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "ISQ con pus: retirar puntos, {{c1::abrir y drenar}} la herida y hacer curaciones abiertas.",
+   "extra": "Antibióticos solo si hay celulitis extensa o compromiso sistémico.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Wound",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fiebre al día 7-10 con pantorrilla asimétrica y dolorosa: {{c1::trombosis venosa profunda}}.",
+   "extra": "Tríada de Virchow.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Walking",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-16/atlas_244_tvp_pierna.jpg",
+   "codigos": [
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La TVP se confirma con {{c1::eco-Doppler venoso}} y se trata con anticoagulación plena (HBPM).",
+   "extra": "Disnea súbita: pensar en TEP.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Walking",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fiebre por fármacos es un diagnóstico de {{c1::exclusión}}: buen estado general, rash o eosinofilia.",
+   "extra": "Betalactámicos, vancomicina, sulfas, anticonvulsivantes, heparina.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Wonder drugs",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento de la fiebre medicamentosa: {{c1::suspender}} el fármaco sospechoso.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Wonder drugs",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ante un operado febril, lo primero es {{c1::inspeccionar la herida}} retirando el apósito.",
+   "extra": "Luego pulmón, accesos venosos, pantorrillas y orina.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Enfrentamiento",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "También se revisan los accesos venosos para descartar {{c1::flebitis}} o infección de catéter.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Enfrentamiento",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hemorragia postoperatoria precoz (24 h) se debe a un vaso sin ligar, ligadura que se suelta o {{c1::coagulopatía}}.",
+   "extra": "Cursa con hipovolemia, no con fiebre.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Hemorragia",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 148"
+   ],
+   "codigos": [
+    "4.01.2.024"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se sospecha hemorragia postoperatoria con taquicardia, hipotensión, palidez y drenajes hemáticos > {{c1::100-200 mL/h}}.",
+   "extra": "La hemoglobina puede tardar horas en caer.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Hemorragia",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.024"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Manejo inicial de la hemorragia postoperatoria: ABC, {{c1::dos vías gruesas}}, reposición y corrección de coagulopatía.",
+   "extra": "Si sigue inestable: avisar al cirujano para reintervención.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Hemorragia",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.024"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Apendicectomizado hace 6 horas con signos peritoneales difusos y shock: {{c1::dehiscencia de la base apendicular}}.",
+   "extra": "Pregunta disputada: Dic 2018 con el mismo caso daba hemoperitoneo.",
+   "origen": "clase:12",
+   "fuente": "Clase · Quiz Ago 2021",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 123"
+   ],
+   "codigos": [
+    "1.04.4.012"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La PCR sube a las {{c1::6 horas}}, tiene su máximo a las 36-50 horas y su vida media es de 19 horas.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 PCR",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.012"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tras cirugía mayor la PCR sube fisiológicamente hasta el día 2-3 y llega a {{c1::100-150 mg/L}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 PCR",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.012"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Una PCR persistente o con segundo ascenso después del día {{c1::3-4}} sugiere complicación infecciosa, como fuga anastomótica.",
+   "extra": "Se confirma con TAC de abdomen.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 PCR",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.012"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Una PCR baja tiene alto valor predictivo {{c1::negativo}} para complicación infecciosa.",
+   "extra": "Es inespecífica: se lee en tendencia seriada.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 PCR",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.012"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor y aumento de volumen inguinal horas después de una hernioplastia: sospechar {{c1::hematoma}} postoperatorio (hemorragia).",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic 2025",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 87"
+   ],
+   "codigos": [
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El drenaje de una herida con abundante secreción serohemática a las 24 horas se interpreta como {{c1::seroma}}.",
+   "extra": "Pregunta real con descripción pobre.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Wound",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 68"
+   ],
+   "codigos": [
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-16/atlas_242_atelectasia_rx.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Atelectasia basal en radiografía",
+   "clave": "Opacidad basal laminar con pérdida de volumen",
+   "conducta": "Fiebre día 1-2: analgesia, espirometría incentivada y deambulación, sin antibióticos",
+   "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 3415",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 40"
+   ],
+   "codigos": [
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-16/03_infeccion-herida-operatoria__knoop_p673.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Infección de herida operatoria",
+   "clave": "Eritema perilesional, calor y pus en la incisión",
+   "conducta": "Retirar puntos, abrir, drenar y curación abierta; antibiótico solo si hay celulitis extensa",
+   "fuente": "The Atlas of Emergency Medicine (Knoop), p. 673",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-16/atlas_244_tvp_pierna.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Trombosis venosa profunda",
+   "clave": "Pantorrilla asimétrica, edematosa y empastada",
+   "conducta": "Eco-Doppler venoso y anticoagulación con HBPM",
+   "fuente": "Wikimedia Commons, CC BY-SA 3.0",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.005"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Fiebre día 1-2 con crepitaciones bibasales: ¿tratamiento?",
+   "codigos": [
+    "4.01.3.005",
+    "1.04.4.012"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.2",
+   "pista": "Fiebre día 5-7 con pus en la herida: ¿conducta?",
+   "codigos": [
+    "4.01.3.005",
+    "1.04.4.012"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.3",
+   "pista": "Pantorrilla asimétrica día 7-10: ¿examen y tratamiento?",
+   "codigos": [
+    "4.01.3.005",
+    "1.04.4.012"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1",
+   "pista": "Fiebre al día 3 con sonda Foley: ¿conducta?",
+   "codigos": [
+    "4.01.3.005",
+    "1.04.4.012"
+   ]
+  }
+ ]
+}

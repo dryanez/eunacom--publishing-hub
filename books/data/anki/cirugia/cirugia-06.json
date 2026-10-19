@@ -1,0 +1,543 @@
+{
+ "classId": "cirugia-06",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El canal inguinal mide aproximadamente {{c1::4 a 5 cm}} y es oblicuo.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Anatomía",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El piso del canal inguinal está formado por el ligamento inguinal y el ligamento {{c1::lacunar (Gimbernat)}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Anatomía",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hernia inguinal {{c1::indirecta}} es congénita, por persistencia del conducto peritoneovaginal.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Anatomía",
+   "repaso": true,
+   "imagen": "biblioteca/10_cirugia/cirugia-06/03_hernia-inguinoescrotal-tac__ctmri-path_p393.jpg",
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hernia indirecta sale por el anillo inguinal profundo, {{c1::lateral}} a los vasos epigástricos inferiores.",
+   "extra": "El límite medial del orificio son los vasos epigástricos.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla hernias",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hernia directa protruye en el triángulo de {{c1::Hesselbach}}, {{c2::medial}} a los vasos epigástricos.",
+   "extra": "Adquirida: debilidad de la fascia transversalis.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla hernias",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La hernia indirecta es el {{c1::50%}} de las inguinales y la directa el {{c2::25%}}.",
+   "extra": "Las inguinales son el 75% de las hernias de pared.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla hernias",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hernia {{c1::crural}} sale por debajo del ligamento inguinal, medial a la vena femoral.",
+   "extra": "Mujeres multíparas añosas.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla hernias",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 144"
+   ],
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La hernia crural tiene el mayor riesgo de estrangulación, de {{c1::30-40%}}, por su anillo rígido.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla hernias",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con el dedo en el canal y Valsalva, el impulso que choca con la {{c1::punta}} del dedo es hernia indirecta.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Examen con el dedo",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si el impulso empuja la {{c1::cara anterior}} del dedo desde la pared posterior, es hernia directa.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Examen con el dedo",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hernia {{c1::reductible}} entra a la cavidad al acostarse; la {{c2::atascada}} no se reduce pero conserva el flujo vascular.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Formas clínicas",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hernia estrangulada cursa con dolor desproporcionado, piel {{c1::enrojecida y caliente}}, fiebre e íleo.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Formas clínicas",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-06/02_hernia-umbilical-incarcerada__cto-cirugia_p56.jpg",
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Está prohibido el {{c1::taxis}} (reducción manual) en una hernia estrangulada.",
+   "extra": "Se reduce en masa un asa necrosada y causa peritonitis fecaloidea.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Regla de oro",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la hernia de {{c1::Richter}} solo se atrapa el borde antimesentérico del asa, sin obstrucción completa.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Variedades",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hernia de {{c1::Littré}} contiene un divertículo de Meckel; la de {{c2::Amyand}}, el apéndice.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Variedades",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hernia de {{c1::Maydl}} es en «W» con estrangulación del asa intermedia.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Variedades",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El diagnóstico de hernia inguinal es {{c1::clínico}}.",
+   "extra": "La imagen se reserva para dudas, obesos o dolor sin masa.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ante dolor inguinal sin masa palpable hay que descartar {{c1::pubalgia o tendinopatía de aductores}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Cuándo pedir imagen",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hernia del adulto es siempre {{c1::quirúrgica}}; no cicatriza sola.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La técnica abierta de elección en adultos es la de {{c1::Lichtenstein}}, con malla de polipropileno libre de tensión.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La técnica de Lichtenstein reduce la recidiva a menos del {{c1::1-2%}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La laparoscopía (TAPP/TEP) se prefiere en hernias {{c1::bilaterales y recidivadas}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hernia crural se puede reparar con técnica de {{c1::McVay}} (ligamento de Cooper) o malla tipo plug.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Hernia crural",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En menores de 15 años la hernia se trata con {{c1::herniotomía simple}}, sin malla.",
+   "extra": "La hernia pediátrica es indirecta y no se cierra sola.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "GES N° {{c1::58}}: cirugía de la hernia del desarrollo de la pared abdominal en menores de {{c2::15 años}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · GES",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Lactante con hernia inguinal reductible: se opera de forma {{c1::electiva y precoz}}, por riesgo de atascamiento.",
+   "extra": "No se observa, a diferencia de la umbilical.",
+   "origen": "clase:15",
+   "fuente": "Clase · Quiz hernia inguinal",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La eventración ocurre en el {{c1::10-20%}} de las laparotomías.",
+   "extra": "Infección de herida, obesidad, diabetes, tabaco, desnutrición.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Eventración",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La eventración se opera de forma electiva con {{c1::malla}} tras optimizar factores de riesgo; la faja es solo paliativa.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Eventración",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tras reparar una eventración se evitan esfuerzos por {{c1::4 a 6 semanas}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Eventración",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La hernia umbilical del niño se cierra sola hasta los {{c1::4 a 5 años}}.",
+   "extra": "Se opera si persiste, es muy grande o se complica.",
+   "origen": "clase:8",
+   "fuente": "Clase · Línea media",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 3"
+   ],
+   "codigos": [
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hernia umbilical del adulto {{c1::no cierra sola}}; se repara con malla si es sintomática o crece.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Línea media",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hernia {{c1::epigástrica}} es un defecto pequeño de la línea alba entre el xifoides y el ombligo.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Línea media",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La {{c1::pérdida de domicilio}} es cuando más de la mitad de las vísceras viven fuera del abdomen en un saco gigante.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Casos especiales",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-06/01_hernia-inguinal-bilateral-gigante__cto-cirugia_p56.jpg",
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Hernia crural reductible y asintomática: se opera {{c1::pronto}}, aunque no duela.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-06/04_hernia-umbilical-incarcerada-foto__knoop_p201.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Hernia umbilical incarcerada",
+   "clave": "Masa umbilical irreductible con signos inflamatorios",
+   "conducta": "Cirugía urgente sin intentar taxis",
+   "fuente": "The Atlas of Emergency Medicine (Knoop), p. 201",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-06/03_hernia-inguinoescrotal-tac__ctmri-path_p393.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Hernia inguinal indirecta inguinoescrotal",
+   "clave": "Contenido herniario que desciende al escroto por el canal inguinal",
+   "conducta": "Hernioplastia electiva con malla (Lichtenstein); herniotomía sin malla en niños",
+   "fuente": "CT & MRI Pathology: A Pocket Atlas, p. 393",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.090",
+    "4.01.1.021"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.2.1",
+   "pista": "Hernia crural con dolor, piel roja y obstrucción: ¿conducta?",
+   "codigos": [
+    "4.01.1.021",
+    "2.01.1.090"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.2.0",
+   "pista": "Hernia crural reductible: ¿cuándo se opera?",
+   "codigos": [
+    "4.01.1.021",
+    "2.01.1.090"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0",
+   "pista": "Sale lateral a los vasos epigástricos: ¿qué tipo?",
+   "codigos": [
+    "4.01.1.021",
+    "2.01.1.090"
+   ]
+  }
+ ]
+}

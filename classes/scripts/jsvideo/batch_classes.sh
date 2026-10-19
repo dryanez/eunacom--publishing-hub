@@ -9,6 +9,7 @@ for c in "$@"; do
   node "$D/render_class.cjs" "$c" --workers 2 > "$D/out/$c.render.log" 2>&1 || { echo "$(date +%H:%M) $c ERROR render" >> "$LOG"; continue; }
   echo "$(date +%H:%M) $c OK $(tail -1 "$D/out/$c.render.log" | sed 's/.*clase.mp4 //')" >> "$LOG"
   mkdir -p "$HOME/Desktop/Clases_MP4/${c%-*}" && ln -sf "$D/out/$c/${c}_clase.mp4" "$HOME/Desktop/Clases_MP4/${c%-*}/"
-  rm -rf "$D/out/$c/frames"                                   # los cuadros de las animaciones pesan; se regeneran solos
+  PYTHONPATH="$HOME/fotos_tools/pylib" "$HOME/.venvs/manim/bin/python" "$D/subir_r2.py" --keep gastro "$c" >> "$D/out/r2.log" 2>&1 || echo "$(date +%H:%M) $c r2 falló (queda local)" >> "$LOG"
+  rm -rf "$D/out/$c/frames" "$D/out/$c/voz"                                   # los cuadros de las animaciones pesan; se regeneran solos
 done
 echo "$(date +%H:%M) FIN" >> "$LOG"

@@ -1,0 +1,177 @@
+# Vocabulario de términos (semilla del glosario y de los tags de concepto) · cardiología
+# tipo | término | alias separados por ;  [| clase casa opcional]   (alias en MAYÚSCULAS = sigla, se busca con mayúsculas exactas)
+Examen | Electrocardiograma | electrocardiograma; ECG; EKG
+Signo | Onda T | onda T; ondas T
+Signo | Onda Q patológica | onda Q patológica; ondas Q patológicas; onda Q
+Signo | Supradesnivel del ST | supradesnivel del ST; supradesnivel ST; elevación del ST
+Signo | Infradesnivel del ST | infradesnivel del ST; descenso del ST; depresión del ST
+Signo | Intervalo QT | intervalo QT; QTc
+Signo | Intervalo PR | intervalo PR; PR largo; PR corto
+Signo | Complejo QRS | QRS; QRS ancho; QRS estrecho
+Concepto | Bloqueo de rama | bloqueo de rama; BRD; BRI; bloqueo completo de rama izquierda; bloqueo completo de rama derecha
+Concepto | Hipertrofia ventricular izquierda | hipertrofia ventricular izquierda; HVI
+Concepto | Paro cardiorrespiratorio | paro cardiorrespiratorio; paro cardiorespiratorio; paro cardíaco; PCR
+Concepto | RCP | reanimación cardiopulmonar; RCP; compresiones torácicas; maniobras de reanimación
+Concepto | Soporte vital avanzado | ACLS; soporte vital avanzado; soporte vital básico; BLS
+Examen | Desfibrilador externo automático | desfibrilador externo automático; DEA; desfibrilador
+Concepto | Desfibrilación | desfibrilación; descarga no sincronizada
+Concepto | Fibrilación ventricular | fibrilación ventricular; FV
+Concepto | Asistolia | asistolia
+Concepto | Actividad eléctrica sin pulso | actividad eléctrica sin pulso; AESP
+Concepto | Taquicardia ventricular | taquicardia ventricular; TV sin pulso; TV monomorfa; TV polimorfa; TVNS
+Concepto | Taquicardia de complejo ancho | taquicardia de complejo ancho; taquicardia de QRS ancho
+Concepto | Torsión de puntas | torsión de puntas; torsades de pointes; torsade de pointes
+Concepto | Síndrome de QT largo | QT largo; síndrome de QT largo; QT prolongado
+Concepto | Fibrilación auricular | fibrilación auricular; FA; FA paroxística; FA persistente; FA permanente
+Concepto | Flutter auricular | flutter auricular; flutter; aleteo auricular
+Concepto | Taquicardia paroxística supraventricular | taquicardia paroxística supraventricular; TPSV; taquicardia supraventricular; TSV; taquicardia por reentrada nodal
+Concepto | Síndrome de Wolff-Parkinson-White | Wolff-Parkinson-White; WPW; preexcitación; onda delta; vía accesoria
+Concepto | Taquicardia sinusal | taquicardia sinusal
+Concepto | Bradicardia sinusal | bradicardia sinusal; bradicardia
+Concepto | Enfermedad del nodo sinusal | enfermedad del nodo sinusal; síndrome del seno enfermo; disfunción sinusal
+Concepto | Bloqueo aurículo-ventricular | bloqueo aurículo-ventricular; bloqueo auriculoventricular; BAV; BAV completo; BAV de tercer grado; bloqueo AV
+Concepto | Mobitz | Mobitz I; Mobitz II; Wenckebach; bloqueo AV de segundo grado
+Concepto | Extrasístole | extrasístole ventricular; extrasístoles ventriculares; extrasistolía ventricular; extrasístole; EV
+Concepto | Síncope | síncope; síncope cardiogénico; síncope vasovagal
+Examen | Marcapasos | marcapasos; marcapaso; estimulación transcutánea
+Concepto | Cardiodesfibrilador implantable | cardiodesfibrilador implantable; CDI; desfibrilador implantable
+Concepto | Terapia de resincronización cardíaca | terapia de resincronización; resincronización cardíaca; TRC
+Examen | Cardioversión eléctrica | cardioversión eléctrica; cardioversión; cardioversión sincronizada
+Examen | Holter de ritmo | Holter de ritmo; Holter
+Examen | MAPA | MAPA; monitoreo ambulatorio de presión arterial; Holter de presión arterial
+Examen | Test de esfuerzo | test de esfuerzo; prueba de esfuerzo; ergometría; test ergométrico
+Examen | Cintigrafía de perfusión miocárdica | cintigrafía de perfusión miocárdica; cintigrafía miocárdica; SPECT
+Examen | Ecocardiograma | ecocardiograma; ecocardiografía; ecocardiograma transtorácico; ecocardiograma transesofágico; ETE
+Examen | Coronariografía | coronariografía; angiografía coronaria; cateterismo cardíaco; cateterismo
+Examen | Angio-TAC coronario | angio-TAC coronario; angiotac coronario; TAC coronario; score de calcio
+Examen | Resonancia cardíaca | resonancia cardíaca; resonancia magnética cardíaca
+Examen | Angio-TAC de tórax | angiotac de tórax; angio-TAC de tórax; angiotac; angio-TAC
+Examen | Troponina | troponina; troponinas; troponina ultrasensible
+Examen | Péptidos natriuréticos | péptidos natriuréticos; BNP; NT-proBNP; proBNP
+Examen | Dímero D | dímero D; dímeros D
+Examen | CK-MB | CK-MB; CPK-MB; CPK
+Concepto | Dolor torácico | dolor torácico; dolor precordial; dolor torácico agudo
+Concepto | Síndrome coronario agudo | síndrome coronario agudo; SCA
+Concepto | SCACEST | SCACEST; SCA con supradesnivel del ST; infarto con supradesnivel
+Concepto | SCASEST | SCASEST; SCA sin supradesnivel del ST; infarto sin supradesnivel
+Concepto | Infarto agudo al miocardio | infarto agudo al miocardio; infarto agudo del miocardio; IAM; IAMCEST; IAMSEST; infarto de miocardio; infarto
+Concepto | Angina estable | angina estable; angina crónica estable; angina de esfuerzo; enfermedad coronaria crónica
+Concepto | Angina inestable | angina inestable; angina de reposo
+Concepto | Angina de Prinzmetal | angina de Prinzmetal; Prinzmetal; angina vasoespástica; vasoespasmo coronario
+Concepto | Infarto de ventrículo derecho | infarto de ventrículo derecho; infarto del ventrículo derecho; infarto de VD
+Concepto | Rotura de pared libre | rotura de pared libre; rotura cardíaca; rotura del septum; comunicación interventricular post infarto; rotura de músculo papilar
+Concepto | Aneurisma ventricular | aneurisma ventricular; pseudoaneurisma
+Concepto | Síndrome de Dressler | síndrome de Dressler; Dressler
+Concepto | Cardiopatía coronaria | cardiopatía coronaria; enfermedad coronaria; arteriopatía coronaria
+Examen | Angioplastía coronaria | angioplastía coronaria; angioplastía primaria; ICP; intervención coronaria percutánea; stent; stents
+Concepto | Trombolisis | trombolisis; trombolíticos; fibrinolisis
+Farmaco | Aspirina | aspirina; ácido acetilsalicílico; AAS
+Farmaco | Clopidogrel | clopidogrel
+Farmaco | Ticagrelor | ticagrelor
+Farmaco | Prasugrel | prasugrel
+Concepto | Doble antiagregación | doble antiagregación; DAPT; antiagregación plaquetaria; antiagregante; antiagregantes
+Farmaco | Heparina | heparina; heparina no fraccionada; HNF; heparina de bajo peso molecular; HBPM; enoxaparina
+Farmaco | Alteplasa | alteplasa; tenecteplasa; estreptoquinasa; tPA
+Farmaco | Warfarina | warfarina; acenocumarol; antagonistas de vitamina K; AVK; dicumarínicos
+Signo | INR | INR; índice internacional normalizado
+Farmaco | Anticoagulantes orales directos | anticoagulantes orales directos; ACOD; anticoagulante oral directo; NOAC; DOAC
+Farmaco | Apixabán | apixabán; apixaban
+Farmaco | Rivaroxabán | rivaroxabán; rivaroxaban
+Farmaco | Dabigatrán | dabigatrán; dabigatran; idarucizumab
+Concepto | Escala CHA2DS2-VASc | CHA₂DS₂-VASc; CHA2DS2-VASc; CHADS-VASc
+Concepto | Escala TIMI | score TIMI; escala TIMI; TIMI
+Concepto | Escala GRACE | score GRACE; escala GRACE; GRACE
+Concepto | Killip | clasificación de Killip; Killip
+Farmaco | Amiodarona | amiodarona
+Farmaco | Adenosina | adenosina
+Farmaco | Atropina | atropina
+Farmaco | Adrenalina | adrenalina; epinefrina
+Farmaco | Lidocaína | lidocaína
+Farmaco | Sulfato de magnesio | sulfato de magnesio
+Farmaco | Verapamilo | verapamilo
+Farmaco | Diltiazem | diltiazem
+Farmaco | Digoxina | digoxina; digital
+Farmaco | Procainamida | procainamida
+Farmaco | Flecainida | flecainida; propafenona
+Farmaco | Betabloqueadores | betabloqueador; betabloqueadores; beta bloqueadores; bloqueadores beta
+Farmaco | Metoprolol | metoprolol
+Farmaco | Bisoprolol | bisoprolol
+Farmaco | Carvedilol | carvedilol
+Farmaco | Propranolol | propranolol
+Farmaco | Nitroglicerina | nitroglicerina; nitratos; nitrato; isosorbide; dinitrato de isosorbide
+Farmaco | Estatinas | estatina; estatinas; atorvastatina; rosuvastatina
+Farmaco | IECA | IECA; inhibidores de la enzima convertidora; enalapril; captopril
+Farmaco | ARA II | ARA II; ARA-II; antagonistas del receptor de angiotensina; losartán; valsartán
+Farmaco | Sacubitrilo-valsartán | sacubitrilo-valsartán; sacubitrilo; ARNI
+Farmaco | Espironolactona | espironolactona; antagonistas de mineralocorticoides; eplerenona; ARM
+Farmaco | iSGLT2 | iSGLT2; inhibidores SGLT2; empagliflozina; dapagliflozina
+Farmaco | Diuréticos | diurético; diuréticos; diurético de asa; diuréticos tiazídicos
+Farmaco | Furosemida | furosemida
+Farmaco | Hidroclorotiazida | hidroclorotiazida; clortalidona; indapamida
+Farmaco | Amlodipino | amlodipino; nifedipino; calcioantagonistas; bloqueadores de canales de calcio
+Farmaco | Ivabradina | ivabradina
+Farmaco | Nitroprusiato | nitroprusiato
+Farmaco | Labetalol | labetalol; esmolol; clevidipino
+Farmaco | Hidralazina | hidralazina
+Farmaco | Noradrenalina | noradrenalina; norepinefrina
+Farmaco | Dobutamina | dobutamina
+Farmaco | Colchicina | colchicina
+Farmaco | Penicilina benzatina | penicilina benzatina; penicilina benzatínica
+Concepto | Insuficiencia cardíaca | insuficiencia cardíaca; IC; ICFEr; ICFEp; ICFEmr; insuficiencia cardíaca crónica
+Concepto | Insuficiencia cardíaca aguda | insuficiencia cardíaca aguda; ICA; IC descompensada; insuficiencia cardíaca descompensada
+Concepto | Edema agudo de pulmón | edema agudo de pulmón; edema pulmonar agudo; EAP; edema pulmonar cardiogénico
+Concepto | Fracción de eyección | fracción de eyección; FEVI
+Concepto | Clasificación NYHA | NYHA; clase funcional NYHA
+Concepto | Shock cardiogénico | shock cardiogénico
+Concepto | Shock | shock hipovolémico; shock obstructivo; shock distributivo; shock séptico; shock
+Concepto | Miocardiopatía hipertrófica | miocardiopatía hipertrófica; cardiomiopatía hipertrófica; MCH; MCH obstructiva
+Concepto | Muerte súbita | muerte súbita; muerte súbita del joven; muerte súbita cardíaca
+Concepto | Miocardiopatía dilatada | miocardiopatía dilatada; cardiomiopatía dilatada
+Concepto | Miocardiopatía restrictiva | miocardiopatía restrictiva; cardiomiopatía restrictiva; amiloidosis cardíaca
+Concepto | Miocarditis | miocarditis
+Concepto | Cardiopatía chagásica | cardiopatía chagásica; enfermedad de Chagas; Chagas
+Concepto | Takotsubo | Takotsubo; miocardiopatía de estrés
+Signo | Soplo cardíaco | soplo; soplos; soplo sistólico; soplo diastólico; soplo holosistólico
+Signo | Maniobra de Valsalva | Valsalva; maniobra de Valsalva
+Signo | Tercer ruido | tercer ruido; R3; galope
+Signo | Chasquido de apertura | chasquido de apertura; retumbo diastólico
+Signo | Pulso paradójico | pulso paradójico
+Signo | Ingurgitación yugular | ingurgitación yugular; ingurgitación de las venas yugulares; ingurgitación
+Signo | Signo de Kussmaul | Kussmaul
+Signo | Tríada de Beck | tríada de Beck; Beck
+Signo | Roce pericárdico | roce pericárdico
+Signo | Signos periféricos de insuficiencia aórtica | signo de Musset; pulso de Corrigan; signo de Duroziez; pulso en martillo de agua; presión de pulso amplia
+Signo | Disnea paroxística nocturna | disnea paroxística nocturna; ortopnea; DPN
+Concepto | Estenosis aórtica | estenosis aórtica; EAo
+Concepto | Insuficiencia aórtica | insuficiencia aórtica; regurgitación aórtica
+Concepto | Estenosis mitral | estenosis mitral
+Concepto | Insuficiencia mitral | insuficiencia mitral; regurgitación mitral
+Concepto | Prolapso de la válvula mitral | prolapso de la válvula mitral; prolapso mitral; prolapso valvular mitral
+Examen | Reemplazo valvular | reemplazo valvular; recambio valvular; TAVI; valvuloplastía
+Concepto | Fiebre reumática | fiebre reumática; criterios de Jones; Jones; cardiopatía reumática; enfermedad reumática
+Concepto | Cardiopatías congénitas | cardiopatía congénita; cardiopatías congénitas
+Concepto | Comunicación interauricular | comunicación interauricular; CIA
+Concepto | Comunicación interventricular | comunicación interventricular; CIV
+Concepto | Ductus arterioso persistente | ductus arterioso persistente; ductus arterioso; ductus; DAP
+Concepto | Coartación aórtica | coartación aórtica; coartación de la aorta; coartación
+Concepto | Síndrome de Eisenmenger | Eisenmenger
+Concepto | Endocarditis infecciosa | endocarditis infecciosa; endocarditis; endocarditis bacteriana
+Concepto | Criterios de Duke | criterios de Duke; Duke
+Signo | Estigmas periféricos de endocarditis | nódulos de Osler; lesiones de Janeway; manchas de Roth; hemorragias en astilla
+Concepto | Hipertensión arterial | hipertensión arterial; HTA; hipertensión esencial; hipertensión arterial esencial
+Concepto | Hipertensión arterial secundaria | hipertensión secundaria; HTA secundaria; hipertensión renovascular; hiperaldosteronismo primario; feocromocitoma; estenosis de la arteria renal
+Concepto | Crisis hipertensiva | crisis hipertensiva; emergencia hipertensiva; urgencia hipertensiva
+Concepto | Encefalopatía hipertensiva | encefalopatía hipertensiva
+Concepto | Pericarditis aguda | pericarditis aguda; pericarditis; pericarditis constrictiva
+Concepto | Derrame pericárdico | derrame pericárdico
+Concepto | Taponamiento cardíaco | taponamiento cardíaco; taponamiento pericárdico; taponamiento
+Examen | Pericardiocentesis | pericardiocentesis; punción pericárdica
+Concepto | Disección aórtica | disección aórtica; disección de aorta; síndrome aórtico agudo
+Concepto | Clasificación de Stanford | Stanford tipo A; Stanford tipo B; Stanford; DeBakey
+Concepto | Aneurisma de aorta abdominal | aneurisma de aorta abdominal; aneurisma aórtico abdominal; AAA; aneurisma aórtico
+Concepto | Síndrome de Marfan | Marfan; síndrome de Marfan
+Concepto | Tromboembolismo pulmonar | tromboembolismo pulmonar; TEP; embolia pulmonar; embolia pulmonar masiva
+Concepto | Trombosis venosa profunda | trombosis venosa profunda; TVP; enfermedad tromboembólica venosa; ETV
+Concepto | Escala de Wells | escala de Wells; score de Wells; Wells
+Examen | Ecografía Doppler venosa | ecografía Doppler; eco Doppler; ecodoppler; ecotomografía Doppler; compresión ecográfica
+Concepto | Cor pulmonale | cor pulmonale; hipertensión pulmonar; sobrecarga del ventrículo derecho

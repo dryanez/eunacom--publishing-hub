@@ -1,0 +1,506 @@
+{
+ "classId": "orl-17",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El croup es una laringotraqueítis viral con edema {{c1::subglótico}}, limitado por el cricoides inelástico.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Croup",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-17/01_croup-estrechamiento-subglotico-rx__nelson_p3220.jpg",
+   "codigos": [
+    "2.01.1.025",
+    "2.01.2.018"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El virus {{c1::parainfluenza tipo 1}} causa más del 75-80% de los croup.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Etiología",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.025"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El croup afecta sobre todo a niños de {{c1::6 meses a 3 años}}, con pico en otoño e invierno.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Edad",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.025"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En un lactante, 1 mm de edema subglótico reduce el área de la vía aérea en {{c1::75%}} y multiplica la resistencia por 16.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Poiseuille",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.025",
+    "2.01.2.018"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tríada del croup: tos perruna, estridor {{c1::inspiratorio}} y disfonía.",
+   "extra": "Lactante de 12 meses con cuadro gripal y estridor; niño de 18 meses con disfonía y dificultad respiratoria.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Tríada",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 133",
+    "EUNACOM Julio 2018 · Pregunta 139"
+   ],
+   "codigos": [
+    "2.01.1.025",
+    "2.01.2.018"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Taussig I (leve): estridor solo al llorar; {{c1::dexametasona}} oral única y alta.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Taussig I",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.025",
+    "2.01.2.018"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Taussig II (moderado): estridor en {{c1::reposo}} con tiraje; dexametasona + adrenalina nebulizada con oxígeno.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Taussig II",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.025",
+    "2.01.2.018"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Taussig III (severo): estridor inspiratorio y espiratorio, tiraje con cabeceo; adrenalina inmediata + dexametasona {{c1::EV}} + oxígeno.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Taussig III",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.025",
+    "2.01.2.018"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Taussig IV: palidez, cianosis y {{c1::silencio auscultatorio}}; intubación con tubo medio número menor.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Taussig IV",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.025",
+    "2.01.2.018"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Dexametasona {{c1::0,15 a 0,6 mg/kg}}, dosis única, en todos los grados, incluso leves.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Dexametasona",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.025",
+    "2.01.2.018"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La adrenalina nebulizada se indica ante estridor en {{c1::reposo}} (Taussig ≥ II).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Adrenalina",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.025",
+    "2.01.2.018"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Adrenalina corriente 1:1.000 de 4 a 5 mL o racémica al 2,25%, con oxígeno a flujo {{c1::alto}}.",
+   "extra": "La pregunta oficial de 2018 la nombra «racémica al 0,1%».",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Adrenalina",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 158"
+   ],
+   "codigos": [
+    "2.01.1.025",
+    "2.01.2.018"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La adrenalina produce vasoconstricción {{c1::alfa-1}} subglótica y alivia en 10 a 30 minutos.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Mecanismo",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.025"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tras adrenalina se observa {{c1::2 a 4 horas}}: su efecto dura unas 2 horas y puede haber rebote.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Observación",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.025"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sin estridor en reposo y buena entrada de aire tras la observación: alta, porque la {{c1::dexametasona}} ya actúa.",
+   "extra": "Con estridor persistente: hospitalizar.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Alta",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.025"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el croup no sirven el {{c1::salbutamol}} ni los antibióticos: es viral y el edema es subglótico.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Distractores",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.025"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Epiglotitis: infección bacteriana fulminante de la epiglotis que puede ocluir la laringe en {{c1::minutos}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Epiglotitis",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-17/02_epiglotitis-rojo-cereza__cto-pediatria_p50.jpg",
+   "codigos": [
+    "2.01.2.018"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antes por Haemophilus influenzae b; hoy neumococo, S. pyogenes o {{c1::S. aureus}}, en niños de 2 a 7 años y adultos.",
+   "extra": "La vacuna pentavalente del PNI la volvió rara.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Etiología",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.004"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Epiglotitis: fiebre tóxica, odinofagia con {{c1::sialorrea}}, estridor apagado y postura en trípode, sin tos.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Clínica",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.018",
+    "6.03.1.013"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la epiglotitis está prohibido el {{c1::bajalenguas}}: puede causar laringoespasmo fatal y paro.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Regla de oro",
+   "repaso": true,
+   "codigos": [
+    "2.01.2.018"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Epiglotitis: pabellón con anestesista, intubación o traqueostomía y luego {{c1::ceftriaxona}} EV.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Manejo",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.018"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La Rx lateral de cuello en epiglotitis muestra el signo del {{c1::pulgar}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Radiografía",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-17/04_epiglotitis-signo-del-pulgar-rx__commons.jpg",
+   "codigos": [
+    "2.01.2.018"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Croup: inicio progresivo de 1 a 2 días; epiglotitis: hiperagudo, en {{c1::horas}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.025",
+    "2.01.2.018"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La laringomalacia es la causa más frecuente de estridor congénito ({{c1::60 a 75%}}).",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Laringomalacia",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-17/03_laringomalacia-endoscopia__nelson_p3228.jpg",
+   "codigos": [
+    "2.01.1.117",
+    "6.03.1.013"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Laringomalacia: estridor inspiratorio desde las 2 a 4 semanas; empeora con llanto y decúbito dorsal y mejora en {{c1::prono}}.",
+   "extra": "Recién nacido con estridor desde el nacimiento y buen estado general.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Laringomalacia",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 162"
+   ],
+   "codigos": [
+    "2.01.1.117",
+    "6.03.1.013"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Laringomalacia: pico a los 6 meses y resolución en el 90% antes de los {{c1::12 a 18 meses}}.",
+   "extra": "Formas leves: control sano habitual.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Evolución",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 86"
+   ],
+   "codigos": [
+    "2.01.1.117",
+    "6.03.1.013"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Derivar a ORL el estridor con tiraje, cianosis, apneas o falla de medro, o {{c1::atípico}} (bifásico, espiratorio).",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Derivación",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.013",
+    "2.01.1.117"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estridor con hemangioma en la zona de la barba: hemangioma {{c1::subglótico}}, responde a propranolol.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Hemangioma",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.013",
+    "2.01.1.117"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-17/01_croup-estrechamiento-subglotico-rx__nelson_p3220.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Estrechamiento subglótico",
+   "clave": "Rx cervical con columna de aire estrechada bajo las cuerdas",
+   "conducta": "Dexametasona; adrenalina si hay estridor en reposo",
+   "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 3220",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 133"
+   ],
+   "codigos": [
+    "2.01.1.025",
+    "2.01.2.018"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-17/02_epiglotitis-rojo-cereza__cto-pediatria_p50.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Epiglotis rojo cereza",
+   "clave": "Epiglotis edematosa y enrojecida",
+   "conducta": "No deprimir la lengua; vía aérea en pabellón",
+   "fuente": "Manual CTO Pediatría, p. 50",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.004"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-17/04_epiglotitis-signo-del-pulgar-rx__commons.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Signo del pulgar",
+   "clave": "Epiglotis engrosada en Rx lateral de cuello",
+   "conducta": "Intubación en pabellón y ceftriaxona",
+   "fuente": "Wikimedia Commons, CC0",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.018"
+   ]
+  },
+  {
+   "id": "i04",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-17/03_laringomalacia-endoscopia__nelson_p3228.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Laringomalacia",
+   "clave": "Supraglotis colapsada en la nasofibroscopía",
+   "conducta": "Observación y control sano si es leve",
+   "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 3228",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.117",
+    "6.03.1.013"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Babeo, trípode y fiebre alta sin tos: ¿qué se sospecha y qué se evita?",
+   "codigos": [
+    "2.01.1.025",
+    "2.01.2.018"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "Croup con estridor solo al llorar: ¿tratamiento?",
+   "codigos": [
+    "2.01.1.025",
+    "2.01.2.018"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.1",
+   "pista": "Croup con estridor en reposo: ¿tratamiento?",
+   "codigos": [
+    "2.01.1.025",
+    "2.01.2.018"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.1.0",
+   "pista": "Sin estridor tras la observación: ¿conducta?",
+   "codigos": [
+    "2.01.1.025",
+    "2.01.2.018"
+   ]
+  }
+ ]
+}

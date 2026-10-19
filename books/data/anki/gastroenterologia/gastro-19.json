@@ -1,0 +1,373 @@
+{
+  "classId": "gastro-19",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El abdomen agudo es un diagnóstico {{c1::clínico}}: no todos son quirúrgicos ni todos llevan antibióticos.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Principios",
+      "repaso": false
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El signo de Blumberg es {{c1::dolor al descomprimir}} el abdomen, signo de irritación peritoneal.",
+      "extra": "Otros: resistencia muscular, abdomen en tabla, ausencia de ruidos.",
+      "origen": "clase:1",
+      "fuente": "Clase · Signos peritoneales",
+      "repaso": false
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En toda mujer en edad fértil con dolor abdominal bajo, la primera conducta es {{c1::test de embarazo y evaluación ginecológica}}.",
+      "extra": "Operar sin este paso puede pasar por alto un ectópico roto.",
+      "origen": "clase:2",
+      "fuente": "Clase · Mujer en edad fértil",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 62"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer joven con dolor súbito en ambas fosas ilíacas, hipotensión y taquicardia súbitas: sospechar {{c1::embarazo ectópico roto}}.",
+      "extra": "El colapso hemodinámico brusco no es típico de apendicitis.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Enero 2023 P62",
+      "repaso": false
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la apendicitis, el dolor periumbilical migra a la fosa ilíaca derecha en {{c1::12–24 horas}}.",
+      "extra": "Acompañado de anorexia, náuseas y febrícula.",
+      "origen": "clase:3",
+      "fuente": "Clase · El dolor que migra",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 68"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signo de {{c1::Rovsing}}: al comprimir la fosa ilíaca izquierda, el dolor aparece en la derecha.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Esquema del examen físico",
+      "repaso": false,
+      "imagen": "biblioteca/01_gastroenterologia/gastro-19/S1_puntos-apendicitis__propio.svg"
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El signo del psoas positivo sugiere apéndice {{c1::retrocecal}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · El dolor que migra",
+      "repaso": false
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El signo del obturador positivo sugiere apéndice {{c1::pélvico}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · El dolor que migra",
+      "repaso": false
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En niños y mujeres en edad fértil con sospecha de apendicitis, la primera imagen es la {{c1::ecografía}}.",
+      "extra": "La TAC queda para la duda diagnóstica en el adulto.",
+      "origen": "clase:4",
+      "fuente": "Clase · Apendicitis: diagnóstico",
+      "repaso": false
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tratamiento de la apendicitis aguda: {{c1::apendicectomía laparoscópica}}.",
+      "extra": "El diagnóstico es clínico, apoyado por leucocitosis y PCR.",
+      "origen": "clase:4",
+      "fuente": "Clase · Apendicitis: tratamiento",
+      "repaso": true
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En apendicitis con Blumberg y fiebre, la piuria (leucocitos en el sedimento) {{c1::no descarta apendicitis}}: es un hallazgo acompañante frecuente.",
+      "extra": "Apéndice inflamado cercano a la vejiga.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Julio 2016 P68",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 68"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Masa palpable en la fosa ilíaca derecha con varios días de evolución, sin peritonitis difusa: {{c1::plastrón apendicular}}.",
+      "extra": "El epiplón contuvo el proceso.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Plastrón apendicular",
+      "repaso": false
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Plastrón apendicular: primero antibióticos, {{c1::ceftriaxona + metronidazol}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Plastrón vs perforada",
+      "repaso": false
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Plastrón apendicular: apendicectomía diferida (de intervalo) a las {{c1::6–8 semanas}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Plastrón vs perforada",
+      "repaso": true
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La apendicitis perforada con peritonitis difusa va a {{c1::cirugía inmediata con lavado y antibióticos}}, a diferencia del plastrón.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La diverticulitis aguda es la \"apendicitis izquierda\" del paciente {{c1::> 50 años}}: dolor en FII + fiebre + cambio del hábito.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Diverticulitis aguda",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 169",
+        "EUNACOM Diciembre 2018 · Pregunta 57",
+        "EUNACOM Diciembre 2017 · Pregunta 91",
+        "EUNACOM Agosto 2021 · Pregunta 19",
+        "EUNACOM Julio 2016 · Pregunta 130",
+        "EUNACOM Diciembre 2025 · Pregunta 110"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Examen de elección en sospecha de diverticulitis aguda: {{c1::TAC de abdomen y pelvis con contraste}}.",
+      "extra": "Muestra sigmoides engrosado, estrías de la grasa y absceso.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Diverticulitis aguda",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 171",
+        "EUNACOM Julio 2013 · Pregunta 2",
+        "EUNACOM Julio 2015 · Pregunta 34"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la diverticulitis aguda, la {{c1::colonoscopía}} está contraindicada en el episodio agudo por riesgo de perforación.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Colonoscopía: la trampa",
+      "repaso": true
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras una diverticulitis, la colonoscopía se hace a las {{c1::6–8 semanas}} para {{c2::descartar cáncer}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Hinchey",
+      "repaso": false
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hinchey I: {{c1::absceso pericólico pequeño}} → antibióticos (± ambulatorio si es leve).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Hinchey",
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hinchey II (absceso pélvico o a distancia): antibióticos + {{c1::drenaje percutáneo guiado por TAC}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Hinchey",
+      "repaso": false
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hinchey III es peritonitis {{c1::purulenta}}; Hinchey IV es peritonitis {{c2::fecal}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Hinchey",
+      "repaso": false
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diverticulitis Hinchey III–IV: cirugía de urgencia, {{c1::operación de Hartmann}}.",
+      "extra": "Resección de sigmoides + colostomía terminal + cierre del muñón rectal.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Hinchey",
+      "repaso": true
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antibióticos en diverticulitis Hinchey I–II: {{c1::ceftriaxona + metronidazol}}, EV u orales según la gravedad.",
+      "extra": "Más reposo intestinal.",
+      "origen": "clase:8",
+      "fuente": "Clase · Manejo médico",
+      "repaso": false
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fístula colovesical por diverticulitis: {{c1::neumaturia}} e infecciones urinarias recurrentes.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dolor abdominal o lumbar súbito + shock + masa pulsátil: {{c1::aneurisma aórtico abdominal roto}} → reanimar con hipotensión permisiva y a pabellón sin TAC.",
+      "extra": "Error clásico: confundirlo con cólico renal.",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz abdomen agudo",
+      "repaso": false
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Megacolon tóxico: colitis + dilatación colónica {{c1::> 6 cm}} en la radiografía + toxicidad sistémica.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "Pregunta real Diciembre 2025 P18",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 18"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Adulto mayor con dolor abdominal izquierdo y factores de riesgo vascular: si además tiene hematoquecia, pensar en {{c1::colitis isquémica}} antes que diverticulitis.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "Pregunta real Diciembre 2025 P144",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 144"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diverticulitis con buen estado general y sin signos peritoneales corresponde probablemente a {{c1::Hinchey I}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · caso",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 157"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-19/03_diverticulitis-tc-hinchey__cto-digestivo_p142.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Diverticulitis aguda del sigmoides (TAC)",
+      "clave": "Sigmoides engrosado con estrías de la grasa pericólica; buscar absceso o peritonitis",
+      "conducta": "Clasificar por Hinchey: I–II antibióticos ± drenaje; III–IV Hartmann",
+      "fuente": "Manual CTO Digestivo 14.ª ed., p. 142",
+      "repaso": false
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-19/01_apendicitis-eco__cto-radiologia_p41.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Apendicitis aguda en TC",
+      "clave": "Apéndice engrosado con grasa periapendicular inflamada",
+      "conducta": "Apendicectomía laparoscópica",
+      "fuente": "Manual CTO Radiología 14.ª ed., p. 41",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0.1",
+      "pista": "Masa en FID de varios días: ¿conducta?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.1",
+      "pista": "Dolor en FII: ¿qué examen pides?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0.1.0.0",
+      "pista": "Hinchey I–II: ¿tratamiento?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.0.1.0.1",
+      "pista": "Hinchey III–IV: ¿tratamiento?"
+    }
+  ]
+}

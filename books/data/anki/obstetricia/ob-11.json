@@ -1,0 +1,588 @@
+{
+  "classId": "ob-11",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La localización más frecuente del embarazo ectópico es la trompa, en su región {{c1::ampular}} (75-80%).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.1.006"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El ectópico tubárico representa el {{c1::95-97%}} de los casos.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Localizaciones",
+      "codigos": [
+        "3.01.1.006"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El ectópico {{c1::ístmico}} es el que se rompe más precozmente, por escasa distensibilidad.",
+      "extra": "Antes de las 6 semanas.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Localizaciones",
+      "codigos": [
+        "3.01.2.005"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El ectópico {{c1::intersticial o cornual}} se rompe tarde, pero con hemorragia cataclísmica masiva.",
+      "extra": "Por la irrigación de la arteria uterina.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.2.005"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El factor de riesgo mayor más potente es el {{c1::ectópico previo}}, que multiplica el riesgo de 5 a 10 veces.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.1.006"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Otros factores de riesgo mayores: cirugía tubárica previa, {{c1::EIP/Chlamydia}} y reproducción asistida.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Factores de riesgo",
+      "codigos": [
+        "3.01.1.006"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con DIU, el DIU previene mejor el embarazo intrauterino que el ectópico; si hay embarazo, {{c1::sospecha ectópico}}.",
+      "extra": "Pedir ecografía y β-hCG.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Factores de riesgo",
+      "codigos": [
+        "3.01.1.006"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 167",
+        "EUNACOM Diciembre 2018 · Pregunta 81"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tríada del ectópico: amenorrea, {{c1::dolor pélvico}} y metrorragia oscura escasa.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tríada clásica",
+      "codigos": [
+        "3.01.1.006"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El signo de {{c1::Frenkel}} es el dolor a la lateralización cervical; el Douglas abombado produce el grito de Douglas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Examen físico",
+      "codigos": [
+        "3.01.1.006"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El signo de {{c1::Kehr}} (dolor referido al hombro) indica hemoperitoneo por irritación frénica.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Ectópico roto",
+      "codigos": [
+        "3.01.2.005"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En un embarazo normal la β-hCG se duplica cada {{c1::48 horas}}.",
+      "extra": "En el ectópico sube lento, forma meseta o baja.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 β-hCG",
+      "codigos": [
+        "3.01.4.008"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Zona discriminatoria de la β-hCG: {{c1::1.500 a 2.000 UI/L}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.4.008"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "β-hCG sobre la zona discriminatoria con {{c1::útero vacío}} en la ecografía transvaginal confirma el ectópico.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Zona discriminatoria",
+      "codigos": [
+        "3.01.4.008"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 162",
+        "EUNACOM Julio 2016 · Pregunta 3"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "β-hCG sobre la zona discriminatoria y útero vacío: el error es {{c1::pedir otra ecografía en una semana}}.",
+      "extra": "Ya está confirmado.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.4.008"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con β-hCG bajo la zona discriminatoria y estable, {{c1::repetir β-hCG en 48 horas}}; no descarta nada.",
+      "extra": "Puede ser un embarazo normal muy precoz.",
+      "origen": "clase:5",
+      "fuente": "Clase · Zona discriminatoria",
+      "codigos": [
+        "3.01.4.008"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 55",
+        "EUNACOM Julio 2025 · Pregunta 77",
+        "EUNACOM Diciembre 2025 · Pregunta 155",
+        "EUNACOM Julio 2018 · Pregunta 81",
+        "EUNACOM Julio 2013 · Pregunta 124",
+        "EUNACOM Diciembre 2017 · Pregunta 149"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante sospecha de ectópico estable, lo primero es solicitar {{c1::β-hCG plasmática}} y ecografía.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Dic 2018 · P81",
+      "codigos": [
+        "3.01.4.008"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 81",
+        "EUNACOM Julio 2024 · Pregunta 130",
+        "EUNACOM Julio 2016 · Pregunta 3"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hallazgo ecográfico del ectópico: masa anexial en anillo tubárico, signo del {{c1::halo tubárico (bagel)}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Ecografía",
+      "codigos": [
+        "3.01.1.006"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Embarazo de ubicación incierta: el {{c1::pseudosaco}} intrauterino es líquido central sin doble anillo trofoblástico.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Ecografía",
+      "codigos": [
+        "3.01.1.006"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primera pregunta ante un ectópico: ¿está {{c1::hemodinámicamente estable}}? Si no, cirugía de urgencia.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · ¿Está roto?",
+      "codigos": [
+        "3.01.2.005"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 62"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ectópico inestable con test positivo: dos vías, volumen y pabellón; el error es {{c1::dar metotrexato}} o pedir exámenes.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.2.005"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 123"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Confirmación a la cabecera del ectópico roto: ecografía {{c1::FAST}} con líquido libre en Morrison o Douglas.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Ectópico roto",
+      "codigos": [
+        "3.01.2.005"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Reanimación del ectópico roto: dos vías gruesas, cristaloides tibios y sangre {{c1::O Rh negativo}} si no hay tiempo de pruebas cruzadas.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Reanimación y cirugía",
+      "codigos": [
+        "3.01.2.005"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ectópico roto estable: cirugía {{c1::laparoscópica}}; si hay shock descompensado, laparotomía.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Reanimación y cirugía",
+      "codigos": [
+        "3.01.2.005"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ectópico con abundante líquido libre peritoneal: tratamiento {{c1::quirúrgico}} (laparoscopía).",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Jul 2017 · P176",
+      "codigos": [
+        "3.01.2.005"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 176",
+        "EUNACOM Julio 2019 · Pregunta 140"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El metotrexato es un antagonista del {{c1::ácido fólico}} que inhibe la DHFR.",
+      "extra": "Destruye el trofoblasto en división.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Mecanismo",
+      "codigos": [
+        "3.01.1.006"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Metotrexato requiere β-hCG {{c1::< 5.000 UI/L}} (éxito sobre 90%).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.1.006"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Metotrexato requiere masa anexial {{c1::< 3.5 cm}} (3.5 a 4.0 cm según el libro).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.1.006"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Metotrexato requiere estabilidad hemodinámica y {{c1::ausencia de latidos}} (LCF negativos).",
+      "extra": "Los tres criterios: hCG baja, masa chica, sin latidos.",
+      "origen": "clase:6",
+      "fuente": "Clase · Tres criterios",
+      "codigos": [
+        "3.01.1.006"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 29"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Masa mayor de 3,5 cm o latidos presentes: cirugía laparoscópica; el error es {{c1::insistir con metotrexato}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.006"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 149"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Contraindicaciones del metotrexato: hemoperitoneo, LCF (+), {{c1::falla renal o hepática}}, trombocitopenia y lactancia.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Contraindicaciones",
+      "codigos": [
+        "3.01.1.006"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Metotrexato en dosis única: {{c1::50 mg/m²}} IM el día 1.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Protocolo",
+      "codigos": [
+        "3.01.1.006"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Seguimiento con metotrexato: β-hCG los días {{c1::4 y 7}}.",
+      "extra": "El día 4 puede subir levemente: es normal.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.4.008"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Éxito del metotrexato: descenso de β-hCG {{c1::≥ 15%}} entre el día 4 y el día 7.",
+      "extra": "Si no, segunda dosis o cirugía.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.4.008"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras el éxito, la β-hCG se controla cada semana hasta {{c1::< 5 UI/L}} (indetectable).",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Protocolo",
+      "codigos": [
+        "3.01.4.008"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Manejo expectante solo con β-hCG {{c1::< 1.000 UI/L}} en descenso espontáneo y paciente asintomática.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de elección terapéutica",
+      "codigos": [
+        "3.01.1.006"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c36",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Salpingostomía: si desea fertilidad y la trompa {{c1::contralateral}} está ausente o dañada; riesgo de persistencia trofoblástica.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.1.006"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c37",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Salpingectomía: trompa rota, hemoperitoneo, paridad cumplida o {{c1::ectópico recurrente}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de elección terapéutica",
+      "codigos": [
+        "3.01.2.005"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c38",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En el ectópico, la paciente Rh negativa recibe {{c1::inmunoglobulina anti-D}} dentro de 72 horas.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.1.006"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-11/386_ob_Embarazo_ectópico__Rumack_p1121.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Líquido libre en el fondo de saco de Douglas (hemoperitoneo)",
+      "clave": "Zona negra libre al fondo de la pelvis en ecografía FAST",
+      "conducta": "Si hay inestabilidad: reanimación y cirugía de urgencia, sin metotrexato",
+      "fuente": "Diagnostic Ultrasound (Rumack), p. 1121",
+      "codigos": [
+        "3.01.2.005"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-11/01_ectopico-ampular-eco__cto-gyo_p126.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Embarazo ectópico ampular (masa anexial con Doppler)",
+      "clave": "Útero vacío con masa anexial",
+      "conducta": "Si estable, hCG < 5.000, masa < 3.5 cm y sin latidos: metotrexato IM",
+      "fuente": "Manual CTO Ginecología y Obstetricia 14.ª ed., p. 126",
+      "codigos": [
+        "3.01.1.006"
+      ],
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Sospecha de ectópico: ¿primera pregunta?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Estable: ¿β-hCG sobre 1.500 con útero vacío?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "¿Qué tres criterios permiten metotrexato?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.1.1",
+      "pista": "No cumple los criterios: ¿qué conducta?"
+    }
+  ]
+}

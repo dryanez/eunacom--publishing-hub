@@ -1,0 +1,508 @@
+{
+  "classId": "endo-23",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síndrome de Sheehan es la {{c1::necrosis isquémica posparto}} de la adenohipófisis tras hemorragia obstétrica con shock.",
+      "extra": "Causas: inercia uterina, rotura uterina o DPPNI.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el embarazo la hipófisis duplica su tamaño sin más irrigación, porque depende de un sistema portal de {{c1::baja presión}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Sheehan",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el Sheehan hay necrosis de más del {{c1::75-90%}} de la adenohipófisis.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Sheehan",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síntoma más precoz y patognomónico del Sheehan es el {{c1::fracaso de la lactancia}} (agalactia).",
+      "extra": "Por colapso de la prolactina.",
+      "origen": "clase:2",
+      "fuente": "Clase · Secuencia posparto",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras la agalactia aparecen amenorrea persistente y pérdida del {{c1::vello axilar y pubiano}}.",
+      "extra": "Déficit de gonadotropinas y andrógenos adrenales.",
+      "origen": "clase:2",
+      "fuente": "Clase · Secuencia posparto",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El hipotiroidismo secundario del Sheehan da astenia, intolerancia al frío y {{c1::piel seca cérea}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Secuencia posparto",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El déficit corticotropo del Sheehan causa hipotensión, {{c1::hiponatremia}} y crisis hipoglicémicas.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Secuencia posparto",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Histerectomía por inercia uterina, sin lactancia, con amenorrea, astenia e hipotensión a los 6 meses: {{c1::panhipopituitarismo}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 109"
+      ],
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El sello bioquímico del hipopituitarismo es hormona periférica baja con tropina {{c1::baja o inapropiadamente normal}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Eje suprarrenal central: cortisol bajo con ACTH {{c1::baja o normal}}; en el Addison la ACTH está muy alta.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Sello bioquímico",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Eje tiroideo central: T4L baja con TSH {{c1::baja o normal}}; en el hipotiroidismo primario la TSH está muy alta.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Sello bioquímico",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Eje gonadal central: estradiol o testosterona bajos con FSH y LH {{c1::bajas o normales}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Sello bioquímico",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Falla suprarrenal primaria: ACTH muy alta con {{c1::hiperpigmentación}}; en la central la piel es pálida.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla primaria vs central",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la fase tardía, la RM muestra la {{c1::silla turca vacía}}: fosa llena de LCR con una lámina atrófica de glándula.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Imagen",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-23/01_rm_silla_turca_vacia__nelson_p4815.jpg",
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el panhipopituitarismo, el error que mata es dar {{c1::levotiroxina primero}}.",
+      "extra": "Acelera el aclaramiento del cortisol residual y precipita crisis suprarrenal en 24-48 horas.",
+      "origen": "clase:4",
+      "fuente": "Clase · Cortisol antes que tiroides",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Regla de oro: siempre iniciar {{c1::hidrocortisona}} antes que la levotiroxina.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hidrocortisona oral de reemplazo: {{c1::15-20 mg/día}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Terapia sustitutiva",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.014",
+        "1.03.1.012"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La levotiroxina se inicia {{c1::24 a 48 horas}} después de un adecuado reemplazo glucocorticoide.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Terapia sustitutiva",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.014",
+        "1.03.1.012"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Levotiroxina en panhipopituitarismo: {{c1::50-100 mcg/día}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Terapia sustitutiva",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.014",
+        "1.03.1.012"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El orden de reemplazo es hidrocortisona, levotiroxina y luego {{c1::estrógenos o andrógenos}} según edad y deseo de fertilidad.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Cortisol antes que tiroides",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En hipotiroidismo central la levotiroxina se titula con {{c1::T4 libre}} y nunca con TSH.",
+      "extra": "La TSH queda siempre baja.",
+      "origen": "clase:5",
+      "fuente": "Clase · Seguimiento",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La T4 libre se mantiene en el {{c1::tercio medio-alto}} de lo normal.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Seguimiento",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hidrocortisona se ajusta por {{c1::clínica}}: peso, presión arterial y energía.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Seguimiento",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tumor selar con pérdida del campo temporal, piel fría, poco vello y baja libido: examen de elección {{c1::RM de silla turca}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 48"
+      ],
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipogonadismo masculino: se confirma con {{c1::testosterona total matinal}} baja en al menos dos mediciones.",
+      "extra": "Entre las 7 y 11 horas, en ayunas.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Hipogonadismo",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 83"
+      ],
+      "codigos": [
+        "1.03.1.012"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para clasificar el hipogonadismo masculino se miden {{c1::LH y FSH}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Hipogonadismo masculino",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 171"
+      ],
+      "codigos": [
+        "1.03.1.012"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipogonadismo primario: testosterona baja con LH y FSH {{c1::altas}}; el ejemplo es Klinefelter 47,XXY.",
+      "extra": "Testículos pequeños y firmes, talla alta, ginecomastia y azoospermia; cariotipo confirma.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Hipogonadismo",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.012"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipogonadismo secundario: testosterona baja con LH y FSH {{c1::bajas o normales}}; se piden prolactina, ferritina y RM selar.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Hipogonadismo masculino",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 145",
+        "EUNACOM Julio 2019 · Pregunta 50"
+      ],
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causas de hipogonadismo secundario: prolactinoma, tumor selar, opioides, hemocromatosis y {{c1::síndrome de Kallmann}} (con anosmia).",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Hipogonadismo masculino",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el hipogonadismo masculino, primero se {{c1::trata la causa}} (opioides, anabolizantes, peso, cabergolina).",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Testosterona",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.012"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Contraindicaciones de testosterona: APE mayor de {{c1::4 ng/mL}} sin estudio, hematocrito mayor de 50%, cáncer de próstata o mama.",
+      "extra": "También apnea grave, IC descompensada o deseo de fertilidad.",
+      "origen": "clase:7",
+      "fuente": "Clase · Testosterona",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si el hombre desea fertilidad, no se da testosterona porque {{c1::suprime la espermatogénesis}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Testosterona",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Seguimiento de testosterona: a los 3 a 6 meses y luego anual; con hematocrito mayor de {{c1::54%}} se reduce o suspende.",
+      "extra": "Se controlan testosterona, hematocrito y APE.",
+      "origen": "clase:7",
+      "fuente": "Clase · Testosterona",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El hipopituitarismo {{c1::no tiene GES}} directo; hay garantías por patología ginecoobstétrica previa o insuficiencia hormonal crónica.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Seguimiento",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/05_endocrinologia/endo-23/01_rm_silla_turca_vacia__nelson_p4815.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Silla turca vacía (hipopituitarismo, Sheehan tardío)",
+      "clave": "Fosa hipofisaria llena de LCR con lámina atrófica pegada al piso óseo",
+      "conducta": "Medir ejes hormonales; hidrocortisona primero y levotiroxina 24-48 h después",
+      "fuente": "Nelson 22.ª ed., Fig. 645.5A",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.014"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1.1",
+      "pista": "Hipopituitarismo confirmado: ¿qué reemplazas primero?",
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1.0",
+      "pista": "24-48 h después: ¿qué agregas y cómo la titulas?",
+      "codigos": [
+        "1.03.1.014"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "Hormona periférica baja con tropina baja o normal: ¿diagnóstico?",
+      "codigos": [
+        "1.03.1.014"
+      ]
+    }
+  ]
+}

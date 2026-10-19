@@ -500,6 +500,8 @@ function generateSpecialtyExam(specKey) {
   let realQuestionsByCode = {};
   if (fs.existsSync(realQFile)) {
     realQuestionsByCode = JSON.parse(fs.readFileSync(realQFile, 'utf8'));
+    // audit del banco: excluidas no se usan
+    for (const k of Object.keys(realQuestionsByCode)) realQuestionsByCode[k] = realQuestionsByCode[k].filter(q => !(q.audit && q.audit.excluir));
   }
 
   // 5. Cargar preguntas de autoevaluación del manual organizadas por clase

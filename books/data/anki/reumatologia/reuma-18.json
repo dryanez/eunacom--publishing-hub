@@ -1,0 +1,570 @@
+{
+  "classId": "reuma-18",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La artritis psoriásica afecta al {{c1::15-30%}} de los pacientes con psoriasis cutánea.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "imagen": "biblioteca/08_reumatologia/reuma-18/04_psoriasis-en-placas__amir-derma_p39.jpg",
+      "codigos": [
+        "1.11.1.001"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La artritis psoriásica es {{c1::seronegativa}}: factor reumatoide y anti-CCP negativos.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Artritis psoriásica",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.001"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Patrón más frecuente de artritis psoriásica: oligoartritis {{c1::asimétrica}} (≤ 4 articulaciones).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Moll y Wright",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 111"
+      ],
+      "codigos": [
+        "1.11.1.001"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La poliartritis simétrica psoriásica se parece a la AR, pero FR y anti-CCP son negativos y compromete las {{c1::IFD}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Moll y Wright",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.001"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La artritis {{c1::mutilante}} produce reabsorción ósea con telescopaje (dedos en gemelo de teatro).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Moll y Wright",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.001"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El compromiso de interfalángicas distales es característico de {{c1::psoriasis}}; la AR respeta las IFD.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Manual AMIR Reumatología, p. 81",
+      "repaso": true,
+      "imagen": "biblioteca/08_reumatologia/reuma-18/01_artropatia-psoriasica-ifd__amir-reuma_p81.jpg",
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 29"
+      ],
+      "codigos": [
+        "1.11.1.001",
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::dactilitis}} es la tumefacción difusa de todo un dedo por tenosinovitis del flexor y sinovitis interfalángica.",
+      "extra": "Dedo en salchicha; la AR no la produce.",
+      "origen": "foto",
+      "fuente": "Manual AMIR Reumatología, p. 81",
+      "repaso": false,
+      "imagen": "biblioteca/08_reumatologia/reuma-18/02_dactilitis__amir-reuma_p81.jpg",
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 111"
+      ],
+      "codigos": [
+        "1.11.1.001",
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El {{c1::pitting}} ungueal son depresiones puntiformes en dedal de las uñas, típicas de psoriasis.",
+      "extra": "También onicolisis y manchas en gota de aceite.",
+      "origen": "foto",
+      "fuente": "Manual AMIR Dermatología, p. 40",
+      "repaso": true,
+      "imagen": "biblioteca/08_reumatologia/reuma-18/03_pitting-ungueal__amir-derma_p40.jpg",
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 29"
+      ],
+      "codigos": [
+        "1.11.1.001",
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La distrofia ungueal es el principal factor de riesgo de artritis en las {{c1::IFD}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Afectación ungueal",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.001"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Radiología típica de la artritis psoriásica: erosión ósea más {{c1::proliferación perióstica}} simultáneas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Radiología",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.001"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La deformidad en {{c1::lápiz en copa}} (pencil-in-cup) es característica de la fase destructiva psoriásica.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "High-Yield review, p. 1745",
+      "repaso": false,
+      "imagen": "_verificadas/051_reuma_Artritis_psoriásica_y_enteropá__HYallpdfsp_p1745_1.jpg",
+      "codigos": [
+        "1.11.1.001"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Psoriasis con lumbago inflamatorio: la sacroilitis se confirma con {{c1::resonancia de sacroilíacas}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz EUNACOM Julio 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 129",
+        "EUNACOM Julio 2015 · Pregunta 125"
+      ],
+      "codigos": [
+        "1.11.1.001",
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Psoriasis, dolor glúteo nocturno que mejora con la actividad y uveítis: {{c1::espondiloartritis}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz EUNACOM Julio 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 72"
+      ],
+      "codigos": [
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "FARME de primera línea en artritis psoriásica periférica: {{c1::metotrexato}}.",
+      "extra": "Trata la piel y la sinovitis periférica.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.001"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Metotrexato en artritis psoriásica: {{c1::15 a 25 mg/semana}}, más ácido fólico.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.001"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Formas leves de artritis psoriásica periférica se tratan inicialmente con {{c1::AINEs}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tratamiento",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 110"
+      ],
+      "codigos": [
+        "1.11.1.001"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En artritis psoriásica refractaria o axial se usan anti-TNF o anti-IL-17 ({{c1::secukinumab}}).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.001"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Artritis psoriásica axial: derivar a reumatología para terapia biológica {{c1::anti-TNF o anti-IL-17}}.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · Artritis psoriásica",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 97"
+      ],
+      "codigos": [
+        "1.11.1.001",
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La artritis asociada a EII aparece en el {{c1::10-20%}} de los pacientes con colitis ulcerosa o Crohn.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Artritis y EII",
+      "repaso": false,
+      "codigos": [
+        "1.06.1.018"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Artritis periférica tipo 1 en EII: pauciarticular (< 5), grandes articulaciones y curso {{c1::paralelo}} al intestino.",
+      "extra": "Rodillas y tobillos; sigue los brotes de diarrea.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Tipo 1 vs axial",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 142"
+      ],
+      "codigos": [
+        "1.06.1.018",
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Artritis periférica tipo 2 en EII: ≥ 5 articulaciones pequeñas de manos y curso {{c1::independiente}} del intestino.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Artritis y EII",
+      "repaso": false,
+      "codigos": [
+        "1.06.1.018"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El compromiso axial en EII tiene curso {{c1::independiente}} de la actividad intestinal.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.06.1.018",
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El HLA-B27 está en el {{c1::50-70%}} de la espondilitis axial de la EII (tipo 1: ~10%).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Tipo 1 vs axial",
+      "repaso": false,
+      "codigos": [
+        "1.06.1.018",
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En colitis ulcerosa la colectomía {{c1::cura}} la artritis periférica tipo 1 pero no la espondilitis.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Tipo 1 vs axial",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.018",
+        "1.06.1.018"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La colectomía es curativa en {{c1::colitis ulcerosa}} y no en Crohn.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Manejo de la EII",
+      "repaso": false,
+      "codigos": [
+        "1.06.1.018",
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Colitis ulcerosa: inflamación continua y {{c1::superficial}} de recto y colon.",
+      "extra": "Pujo, tenesmo y diarrea mucosanguinolenta.",
+      "origen": "clase:6",
+      "fuente": "Clase · EII",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 164",
+        "EUNACOM Diciembre 2018 · Pregunta 103"
+      ],
+      "codigos": [
+        "1.06.1.018",
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Crohn: cualquier segmento, inflamación {{c1::transmural y discontinua}}, con fístulas.",
+      "extra": "Fístula perianal, aftas orales.",
+      "origen": "clase:6",
+      "fuente": "Clase · EII",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 163",
+        "EUNACOM Enero 2023 · Pregunta 69",
+        "EUNACOM Diciembre 2022 · Pregunta 50"
+      ],
+      "codigos": [
+        "1.06.1.018",
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sospechar EII en artritis o sacroilitis con diarrea de más de {{c1::4 semanas}}, con sangre y moco.",
+      "extra": "También tenesmo, baja de peso, fiebre o anemia.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Sospecha de EII",
+      "repaso": false,
+      "codigos": [
+        "1.06.1.018"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Manifestaciones extraintestinales de EII: eritema nodoso, {{c1::pioderma gangrenoso}}, uveítis y aftas.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · EII",
+      "repaso": false,
+      "codigos": [
+        "1.06.1.018",
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El examen que confirma la EII es la {{c1::colonoscopia con biopsias}}.",
+      "extra": "Antes: hemograma, VHS, PCR, albúmina y calprotectina fecal.",
+      "origen": "clase:6",
+      "fuente": "Clase · EII",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 27",
+        "EUNACOM Diciembre 2022 · Pregunta 127",
+        "EUNACOM Julio 2015 · Pregunta 116"
+      ],
+      "codigos": [
+        "1.06.1.018",
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Colitis ulcerosa leve a moderada: {{c1::mesalazina (5-ASA)}} oral y rectal.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Manejo de la EII",
+      "repaso": true,
+      "codigos": [
+        "1.06.1.018",
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Brote moderado a grave de colitis ulcerosa: corticoides, prednisona {{c1::40 mg/día}}; EV y hospitalizar si es grave.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Manejo de la EII",
+      "repaso": false,
+      "codigos": [
+        "1.06.1.018",
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En artritis con EII, el error es usar {{c1::AINEs prolongados}}, que pueden gatillar un brote intestinal.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Manejo de la EII",
+      "repaso": true,
+      "codigos": [
+        "1.06.1.018",
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En artritis de EII la sulfasalazina sirve en la forma periférica, pero en la axial se usa {{c1::anti-TNF}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Manejo de la EII",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.001",
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-18/02_dactilitis__amir-reuma_p81.jpg",
+      "pregunta": true,
+      "diagnostico": "Dactilitis (dedo en salchicha) psoriásica",
+      "clave": "Tumefacción uniforme y eritematosa de todo un dedo",
+      "conducta": "Metotrexato semanal con ácido fólico; derivar a reumatología",
+      "fuente": "Manual AMIR Reumatología, p. 81",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.001",
+        "1.11.1.018"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-18/03_pitting-ungueal__amir-derma_p40.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Pitting ungueal de psoriasis",
+      "clave": "Depresiones puntiformes en dedal con onicolisis",
+      "conducta": "Buscar artritis de IFD y dactilitis; evaluar CASPAR",
+      "fuente": "Manual AMIR Dermatología, p. 40",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.001",
+        "1.11.1.018"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0.0",
+      "pista": "Artritis psoriásica periférica: ¿cuál es el tratamiento de elección?",
+      "codigos": [
+        "1.11.1.001"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.0",
+      "pista": "Artritis de rodilla durante brote de diarrea en EII: ¿qué tratas?",
+      "codigos": [
+        "1.11.1.001"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1",
+      "pista": "Dolor lumbar inflamatorio crónico en EII: ¿cómo se maneja?",
+      "codigos": [
+        "1.06.1.018"
+      ]
+    }
+  ]
+}

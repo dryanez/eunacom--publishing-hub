@@ -1,0 +1,505 @@
+{
+ "classId": "resp-13",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El neumotórax espontáneo primario ocurre {{c1::sin trauma ni enfermedad pulmonar}} conocida.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clasificación",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.031",
+    "1.05.1.032"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 80"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Paciente típico del NEP: varón de {{c1::15 a 34 años}}, alto, delgado y fumador.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clasificación",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.031",
+    "1.05.1.032"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 80"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El NEP se debe a rotura de {{c1::blebs (bullas subpleurales) apicales}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clasificación",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.031",
+    "1.05.1.032"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El neumotórax secundario complica una enfermedad pulmonar previa, principalmente {{c1::EPOC con enfisema buloso}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clasificación",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.031"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otras causas de neumotórax secundario: TBC secuelar, asma grave, absceso y {{c1::Pneumocystis jirovecii}} en VIH.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clasificación",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.031"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El neumotórax secundario tiene {{c1::mala tolerancia}} (poca reserva funcional) y mayor morbimortalidad.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla NEP vs NES",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.031"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Clínica del neumotórax: dolor pleurítico {{c1::súbito}} (puntada de costado) y murmullo pulmonar disminuido.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo llega",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.031",
+    "1.05.1.032"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 80",
+    "EUNACOM Agosto 2021 · Pregunta 93"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el NEP la tolerancia es buena: dolor pleurítico y {{c1::disnea leve}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla NEP vs NES",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.032"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 93"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La radiografía muestra la línea de la {{c1::pleura visceral}} despegada de la pared costal.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Radiografía",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.031"
+   ],
+   "imagen": "biblioteca/02_neumologia/resp-13/01_neumotorax_alt1__cto-radiologia_p23.jpg"
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el neumotórax hay ausencia de {{c1::trama broncovascular}} en la periferia del pulmón.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tamaño",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.031"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Neumotórax pequeño: separación interpleural < {{c1::2 cm}} en el hilio.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tamaño",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.032"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 93"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Neumotórax pequeño también si es < {{c1::3 cm}} en el vértice.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Tamaño y tipo",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.032"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Neumotórax grande: separación interpleural ≥ {{c1::2 cm}} en el hilio.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tamaño",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.031"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "NEP pequeño, estable y asintomático: {{c1::oxígeno + observación}}; no requiere punción ni tubo de entrada.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.032"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 93"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neumotórax pequeño sin disnea y eupneico: la conducta es {{c1::control radiológico}}.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.032"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 93"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Observación en urgencias del NEP pequeño: {{c1::4 a 6 horas}} con control radiológico.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Conducta",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.032"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El oxígeno a alto flujo acelera la reabsorción porque {{c1::desnitrogena}} la sangre.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Conducta",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.032"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El oxígeno acelera la reabsorción del aire pleural hasta {{c1::4 veces}} (de 1,25% a 4% al día).",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.032"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "NEP grande (≥ 2 cm) o sintomático: evacuación con {{c1::aspiración simple o tubo pleural}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Conducta",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.031"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tubo se conecta a sello de agua o {{c1::válvula de Heimlich}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Conducta",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.031"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Neumotórax secundario (EPOC): casi siempre {{c1::tubo pleural y hospitalización}}, aunque sea pequeño.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Tamaño y tipo",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.031"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Recurrencia del NEP: {{c1::30%}} tras el primer episodio.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla NEP vs NES",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.031",
+    "1.05.1.032"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Recurrencia del NEP tras el segundo episodio: > {{c1::50%}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Cirugía",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.031",
+    "1.05.1.032"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cirugía preventiva del neumotórax: {{c1::VATS}} con resección de blebs y pleurodesis.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Cirugía",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.031"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Indicación clásica de VATS: segundo episodio {{c1::homolateral}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Cirugía",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.031",
+    "1.05.1.032"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "También se opera el primer neumotórax {{c1::contralateral}} o el bilateral sincrónico.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Cirugía",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.031"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Fuga aérea persistente (burbujeo) tras {{c1::48 a 72 horas}} de drenaje: cirugía.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Cirugía",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.031"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Profesiones de riesgo con indicación de cirugía tras el primer episodio: pilotos comerciales y {{c1::buzos profesionales}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Cirugía",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.031"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La pleurodesis puede ser {{c1::química o mecánica}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Cirugía",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.031"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neumotórax con shock y tráquea desviada es {{c1::a tensión}}: descompresión inmediata.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.031"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Población típica del NES: adulto mayor de {{c1::60 años}} con patología pulmonar crónica.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla NEP vs NES",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.031"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Joven con dolor súbito en hemitórax durante deporte, disnea leve y murmullo disminuido: {{c1::neumotórax espontáneo}}.",
+   "extra": "",
+   "origen": "libro:caso",
+   "fuente": "Libro · caso",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.031"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 80"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el caso de NEP pequeño, si la radiografía a las 6 horas no progresa, se {{c1::da de alta}} con reposo e indicaciones de alarma.",
+   "extra": "",
+   "origen": "libro:caso",
+   "fuente": "Libro · caso",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.032"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-13/01_neumotorax_alt1__cto-radiologia_p23.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Neumotórax",
+   "clave": "Línea de pleura visceral despegada y sin trama periférica",
+   "conducta": "Medir el tamaño; pequeño y estable: oxígeno y observar; grande: aspiración o tubo",
+   "fuente": "Manual CTO Radiología 14.ª ed., p. 23",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.031",
+    "1.05.1.032"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Dolor pleurítico súbito: ¿quién es el paciente?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.2.0",
+   "pista": "Primario pequeño y estable: ¿qué se hace?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.2.1",
+   "pista": "Primario grande o sintomático: ¿qué conducta?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.2.2",
+   "pista": "Recurrencia o fuga persistente: ¿qué cirugía?"
+  }
+ ]
+}

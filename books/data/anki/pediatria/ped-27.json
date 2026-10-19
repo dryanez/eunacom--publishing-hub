@@ -1,0 +1,420 @@
+{
+  "classId": "ped-27",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Al nacer el prepucio no es retráctil por {{c1::adherencias balanoprepuciales}} fisiológicas.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Fimosis fisiológica",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.089"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El prepucio es retráctil en ~{{c1::50%}} al año, {{c2::90%}} a los 3 años y 99% a los 16-17 años.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fimosis",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.089"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 21"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fimosis fisiológica asintomática: {{c1::aseo suave y control}}, sin tratamiento.",
+      "extra": "",
+      "origen": "clase:20",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.089"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 21"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la fimosis fisiológica nunca se debe {{c1::retraer el prepucio a la fuerza}}.",
+      "extra": "Produce fisuras, cicatriz y fimosis secundaria.",
+      "origen": "clase:1",
+      "fuente": "Clase · Fimosis fisiológica",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.089"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fimosis patológica: anillo fibroso {{c1::cicatricial}}, por retracción forzada, balanopostitis recurrente o liquen escleroso.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Fimosis patológica",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.089"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Indicaciones de tratar la fimosis: sintomática, cicatricial o con balanopostitis o {{c1::ITU recurrentes}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Fimosis patológica",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.089"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de la fimosis sintomática: {{c1::betametasona}} tópica con retracción suave.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Tratamiento de la fimosis",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.089"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Betametasona en fimosis: {{c1::0,05-0,1%}} dos veces al día por {{c2::4 a 8 semanas}}.",
+      "extra": "Éxito en 70 a 90%.",
+      "origen": "clase:2",
+      "fuente": "Clase · Tratamiento de la fimosis",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.089"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si falla el corticoide, hay cicatriz o liquen escleroso: {{c1::circuncisión}} por urología pediátrica.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Tratamiento de la fimosis",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.089"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::parafimosis}} (prepucio atrapado tras el glande, con edema y dolor) es una urgencia: analgesia y reducción manual.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Parafimosis",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.089"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las sinequias vulvares son la fusión de los labios menores, con un {{c1::rafe translúcido y avascular}} en la línea media.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Sinequias vulvares",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.131"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa de las sinequias es el estado {{c1::hipoestrogénico}} fisiológico más inflamación local.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Sinequias vulvares",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.131"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La mayoría de las sinequias vulvares son {{c1::asintomáticas}}, un hallazgo del control de salud.",
+      "extra": "Complicaciones: goteo post-miccional, disuria, vulvovaginitis, ITU.",
+      "origen": "clase:3",
+      "fuente": "Clase · Sinequias vulvares",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.131"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sinequia parcial o asintomática: {{c1::higiene suave y vaselina}}, y observar.",
+      "extra": "Resuelve espontáneamente, a más tardar con la pubertad.",
+      "origen": "clase:4",
+      "fuente": "Clase · Manejo de sinequias",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.131"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 109",
+        "EUNACOM Agosto 2021 · Pregunta 154"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Sinequia completa que impide ver el meato, o sintomática: {{c1::betametasona 0,05%}} tópica.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Manejo de sinequias",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.131"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 179"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Betametasona en sinequia completa: dos veces al día por {{c1::2 a 4 semanas}}, luego emoliente.",
+      "extra": "Recidivas en 10-15%.",
+      "origen": "clase:4",
+      "fuente": "Clase · Manejo de sinequias",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.131"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 179"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En sinequias vulvares están contraindicadas la {{c1::separación manual forzada}} y la cirugía.",
+      "extra": "Dolor, trauma, recurrencia y daño psicológico.",
+      "origen": "clase:4",
+      "fuente": "Clase · Lo que no se hace",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.131"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diferenciales de la sinequia: himen imperforado y cicatriz por trauma; con lesiones asociadas, considerar {{c1::maltrato}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Diferenciales",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.131"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Enuresis: micción involuntaria durante el sueño en un niño de {{c1::5 años o más}}, con al menos {{c2::2 episodios al mes}} por 3 meses.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Enuresis",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.059"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Enuresis primaria: nunca ha tenido {{c1::6 meses}} seco; es el 80% de los casos.",
+      "extra": "La secundaria reaparece tras 6 meses de continencia.",
+      "origen": "clase:5",
+      "fuente": "Clase · Enuresis",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.059"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Enuresis {{c1::monosintomática}}: solo síntomas nocturnos; la no monosintomática tiene urgencia, polaquiuria o incontinencia diurna.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Enuresis",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.059"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Enuresis secundaria: buscar ITU, {{c1::diabetes mellitus}}, constipación, apnea del sueño, epilepsia o estrés psicosocial.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Enuresis",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.059"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fisiopatología de la enuresis: menos vasopresina nocturna, {{c1::vejiga hiperactiva}} y sueño muy profundo.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Diagrama de causas",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.059"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Al examinar la enuresis se busca fosita o mechón de pelos en la columna {{c1::lumbosacra}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Evaluación",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.059"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Medidas conductuales: orinar antes de dormir, restringir líquidos {{c1::1-2 horas}} antes de acostarse y calendario de días secos.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tratamiento escalonado",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.059"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::alarma de enuresis}} desde los 7 años es el tratamiento de mayor eficacia a largo plazo (~70%).",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tratamiento escalonado",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.059"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Desmopresina en enuresis: {{c1::0,2-0,4 mg}} de noche, para uso puntual o si falla la alarma.",
+      "extra": "Se limita el agua para evitar hiponatremia.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tratamiento escalonado",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.059"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si hay vejiga hiperactiva se usa {{c1::oxibutinina}}; la imipramina está en desuso por su toxicidad.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tratamiento escalonado",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.059"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Se deriva la enuresis no monosintomática refractaria, la secundaria orgánica o la que no responde a {{c1::dos tratamientos}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Enuresis",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.059"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Preescolar asintomático con prepucio que no se retrae: ¿qué haces?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1.1",
+      "pista": "Sinequia completa o sintomática: ¿qué tratamiento?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.2.0",
+      "pista": "Enuresis primaria monosintomática: ¿qué manejo?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.2.1",
+      "pista": "Enuresis no monosintomática o secundaria: ¿qué haces?"
+    }
+  ]
+}

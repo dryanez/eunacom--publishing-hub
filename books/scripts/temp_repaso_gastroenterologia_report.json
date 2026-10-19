@@ -1,0 +1,667 @@
+{
+ "report": {
+  "topics": {
+   "T1.1": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 340,
+    "traps": 1,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T1.2": {
+    "steps": 6,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 300,
+    "traps": 1,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T1.3": {
+    "steps": 6,
+    "split": false,
+    "algo": {
+     "scale": 0.87,
+     "orient": "lr"
+    },
+    "algoH": 300,
+    "traps": 1,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T1.4": {
+    "steps": 7,
+    "split": false,
+    "algo": {
+     "scale": 0.92,
+     "orient": "lr"
+    },
+    "algoH": 270,
+    "traps": 1,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T1.5": {
+    "steps": 6,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 300,
+    "traps": 0,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T1.6": {
+    "steps": 0,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 5,
+    "tight": false,
+    "overflow": false
+   },
+   "T2.1": {
+    "steps": 0,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 4,
+    "tight": false,
+    "overflow": false
+   },
+   "T2.2": {
+    "steps": 0,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 360,
+    "traps": 0,
+    "ask": 5,
+    "tight": false,
+    "overflow": false
+   },
+   "T2.3": {
+    "steps": 6,
+    "split": false,
+    "algo": {
+     "scale": 0.87,
+     "orient": "lr"
+    },
+    "algoH": 300,
+    "traps": 0,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T2.4": {
+    "steps": 1,
+    "split": false,
+    "algo": {
+     "scale": 0.94,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 5,
+    "tight": false,
+    "overflow": false
+   },
+   "T2.5": {
+    "steps": 0,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 5,
+    "tight": false,
+    "overflow": false
+   },
+   "T2.6": {
+    "steps": 0,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 5,
+    "tight": false,
+    "overflow": false
+   },
+   "T3.1": {
+    "steps": 7,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 270,
+    "traps": 1,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T3.2": {
+    "steps": 6,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 300,
+    "traps": 1,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T3.3": {
+    "steps": 7,
+    "split": false,
+    "algo": {
+     "scale": 0.99,
+     "orient": "lr"
+    },
+    "algoH": 270,
+    "traps": 1,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T3.4": {
+    "steps": 0,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 5,
+    "tight": false,
+    "overflow": false
+   },
+   "T4.1": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T4.2": {
+    "steps": 6,
+    "split": false,
+    "algo": {
+     "scale": 0.87,
+     "orient": "lr"
+    },
+    "algoH": 300,
+    "traps": 0,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T5.1": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 290,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T5.2": {
+    "steps": 0,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 2,
+    "ask": 5,
+    "tight": false,
+    "overflow": false
+   },
+   "T5.3": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T5.4": {
+    "steps": 0,
+    "split": false,
+    "algo": {
+     "scale": 0.96,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T6.1": {
+    "steps": 0,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T6.2": {
+    "steps": 1,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T6.3": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 360,
+    "traps": 1,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T6.4": {
+    "steps": 0,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 5,
+    "tight": false,
+    "overflow": false
+   }
+  },
+  "warnings": [],
+  "pages": 36,
+  "where": {
+   "COVER": 1,
+   "IDX": 2,
+   "T1.1": 3,
+   "T1.2": 4,
+   "T1.3": 5,
+   "T1.4": 6,
+   "T1.5": 7,
+   "T1.6": 8,
+   "T2.1": 9,
+   "T2.2": 10,
+   "T2.3": 11,
+   "T2.4": 12,
+   "T2.5": 13,
+   "T2.6": 14,
+   "T3.1": 15,
+   "T3.2": 16,
+   "T3.3": 17,
+   "T3.4": 18,
+   "T4.1": 19,
+   "T4.2": 20,
+   "T5.1": 21,
+   "T5.2": 22,
+   "T5.3": 23,
+   "T5.4": 24,
+   "T6.1": 25,
+   "T6.2": 26,
+   "T6.3": 27,
+   "T6.4": 29,
+   "NUM": 30,
+   "DRUG": 32,
+   "GES": 33,
+   "PLAN": 35,
+   "PRIO": 36
+  }
+ },
+ "stars": [
+  {
+   "t": "1.1",
+   "real": 9,
+   "stars": 2,
+   "lg": [
+    6,
+    9,
+    10
+   ]
+  },
+  {
+   "t": "1.2",
+   "real": 12,
+   "stars": 2,
+   "lg": [
+    7,
+    11,
+    12,
+    74
+   ]
+  },
+  {
+   "t": "1.3",
+   "real": 11,
+   "stars": 2,
+   "lg": [
+    4,
+    13,
+    14
+   ]
+  },
+  {
+   "t": "1.4",
+   "real": 13,
+   "stars": 3,
+   "lg": [
+    15,
+    16
+   ]
+  },
+  {
+   "t": "1.5",
+   "real": 4,
+   "stars": 1,
+   "lg": [
+    2,
+    17,
+    18
+   ]
+  },
+  {
+   "t": "1.6",
+   "real": 0,
+   "stars": 1,
+   "lg": []
+  },
+  {
+   "t": "2.1",
+   "real": 2,
+   "stars": 1,
+   "lg": [
+    19,
+    29,
+    30
+   ]
+  },
+  {
+   "t": "2.2",
+   "real": 20,
+   "stars": 3,
+   "lg": [
+    3,
+    20,
+    28,
+    31,
+    32,
+    64,
+    73
+   ]
+  },
+  {
+   "t": "2.3",
+   "real": 14,
+   "stars": 3,
+   "lg": [
+    21,
+    24,
+    26,
+    33,
+    34
+   ]
+  },
+  {
+   "t": "2.4",
+   "real": 22,
+   "stars": 3,
+   "lg": [
+    23,
+    35,
+    36
+   ]
+  },
+  {
+   "t": "2.5",
+   "real": 10,
+   "stars": 2,
+   "lg": [
+    27
+   ]
+  },
+  {
+   "t": "2.6",
+   "real": 3,
+   "stars": 1,
+   "lg": []
+  },
+  {
+   "t": "3.1",
+   "real": 20,
+   "stars": 3,
+   "lg": [
+    1,
+    38,
+    49,
+    50
+   ]
+  },
+  {
+   "t": "3.2",
+   "real": 11,
+   "stars": 2,
+   "lg": [
+    39,
+    40,
+    41,
+    45,
+    46,
+    51,
+    52,
+    53
+   ]
+  },
+  {
+   "t": "3.3",
+   "real": 12,
+   "stars": 2,
+   "lg": [
+    37,
+    42,
+    44,
+    47,
+    48,
+    54
+   ]
+  },
+  {
+   "t": "3.4",
+   "real": 13,
+   "stars": 3,
+   "lg": [
+    43,
+    55,
+    56,
+    57
+   ]
+  },
+  {
+   "t": "4.1",
+   "real": 18,
+   "stars": 3,
+   "lg": [
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    66,
+    67,
+    69,
+    70
+   ]
+  },
+  {
+   "t": "4.2",
+   "real": 9,
+   "stars": 2,
+   "lg": [
+    65,
+    68,
+    71,
+    72
+   ]
+  },
+  {
+   "t": "5.1",
+   "real": 14,
+   "stars": 3,
+   "lg": [
+    5,
+    22,
+    75,
+    77,
+    78
+   ]
+  },
+  {
+   "t": "5.2",
+   "real": 3,
+   "stars": 1,
+   "lg": [
+    79,
+    80
+   ]
+  },
+  {
+   "t": "5.3",
+   "real": 14,
+   "stars": 3,
+   "lg": [
+    76,
+    81,
+    82
+   ]
+  },
+  {
+   "t": "5.4",
+   "real": 1,
+   "stars": 1,
+   "lg": [
+    8,
+    83,
+    84
+   ]
+  },
+  {
+   "t": "6.1",
+   "real": 19,
+   "stars": 3,
+   "lg": [
+    25,
+    85,
+    86
+   ]
+  },
+  {
+   "t": "6.2",
+   "real": 10,
+   "stars": 2,
+   "lg": [
+    87,
+    88
+   ]
+  },
+  {
+   "t": "6.3",
+   "real": 13,
+   "stars": 3,
+   "lg": [
+    89,
+    90
+   ]
+  },
+  {
+   "t": "6.4",
+   "real": 7,
+   "stars": 1,
+   "lg": []
+  }
+ ],
+ "lg": {
+  "name": "Gastroenterología",
+  "file": "Libro_Gordo_Gastroenterologia_90Q.pdf",
+  "unassigned": [],
+  "byLabel": 42,
+  "byCode": 45,
+  "total": 90,
+  "byEditorial": 3
+ },
+ "stats": {
+  "numbers": 45,
+  "drugs": 41,
+  "ges": 4
+ }
+}

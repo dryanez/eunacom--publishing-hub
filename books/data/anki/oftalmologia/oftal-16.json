@@ -1,0 +1,352 @@
+{
+ "classId": "oftal-16",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los {{c1::álcalis}} (soda cáustica, cal viva, cemento, amoníaco) son mucho más graves que los ácidos.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Álcalis",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.001"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Álcalis: necrosis por {{c1::licuefacción}} con saponificación de lípidos y desnaturalización del colágeno.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Mecanismo álcalis",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-16/01_quemadura_quimica__kanski_p895.jpg",
+   "codigos": [
+    "6.02.2.001"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El álcali no tiene barrera y penetra a cámara anterior, iris y cristalino en {{c1::minutos}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Penetración",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.001"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ácidos (sulfúrico de baterías, clorhídrico o muriático): necrosis por {{c1::coagulación}}; la escara frena su penetración.",
+   "extra": "La excepción es el ácido fluorhídrico.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Ácidos",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.001"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Quemadura química: se {{c1::lava}} primero y se pregunta después.",
+   "extra": "Trabajador con cemento y cal viva en la cara; soda cáustica en los ojos.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Regla de oro",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 173",
+    "EUNACOM Diciembre 2019 · Pregunta 175"
+   ],
+   "codigos": [
+    "6.02.2.001"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "No se retrasa el lavado para ficha, signos vitales, llamar al oftalmólogo ni medir la {{c1::agudeza visual}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Prohibido retrasar",
+   "repaso": true,
+   "codigos": [
+    "6.02.2.001"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antes de lavar se instila una gota de {{c1::anestésico tópico}} (proparacaína) para vencer el blefarospasmo.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Anestésico",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.001"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Irrigar a chorro con suero fisiológico, {{c1::Ringer lactato}} o agua corriente limpia si no hay suero.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Suero",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.001"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Irrigación mínima de {{c1::1 a 2 litros}} durante 20 a 30 minutos ininterrumpidos.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Volumen",
+   "repaso": true,
+   "codigos": [
+    "6.02.2.001"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Evertir los párpados superior e inferior y barrer los fondos de saco con tórula para sacar partículas de {{c1::cal o cemento}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Eversión",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.001"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Meta: pH conjuntival neutro de {{c1::7,0 a 7,5}}, reevaluado 10 minutos después del lavado.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 pH",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.001"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "No se intenta {{c1::neutralizar}} con otro químico: genera reacción exotérmica y quemadura térmica.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Neutralizar",
+   "repaso": true,
+   "codigos": [
+    "6.02.2.002"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Quemadura química ocular con córneas opacas y agudeza de cuenta dedos: igual lavado de 30 minutos; distinto de la {{c1::perforación}}, donde no se toca el ojo.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diferencia",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.001"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo pronóstico más importante: {{c1::isquemia límbica}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Isquemia límbica",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.001"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El limbo alberga las células madre del epitelio corneal; si se destruyen sus vasos, el ojo luce {{c1::blanco}} («porcelana»).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Limbo",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.001"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El ojo blanco y sin vasos tras la quemadura no es mejoría: es necrosis y pronóstico {{c1::pésimo}}.",
+   "extra": "Puede requerir trasplante de limbo.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Ojo blanco",
+   "repaso": true,
+   "codigos": [
+    "6.02.2.001"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La escala de {{c1::Roper-Hall}} gradúa la gravedad de la quemadura según la isquemia límbica.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Roper-Hall",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.001"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pérdida de la capacidad regenerativa corneal: trasplante de {{c1::limbo}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Trasplante",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.001"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Conducta inmediata en álcalis y ácidos: la misma, lavado con suero de {{c1::20-30 minutos}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.001"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mal pronóstico en ácidos: erosiones epiteliales y necrosis {{c1::conjuntival}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.001"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las quemaduras químicas oculares están incluidas en el trauma ocular grave {{c1::GES N.º 48}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 GES",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.002"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cada segundo sin irrigación destruye {{c1::células madre límbicas}} y nubla el pronóstico visual.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.001"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-16/01_quemadura_quimica__kanski_p895.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Quemadura química grave",
+   "clave": "Córnea con defecto epitelial amplio teñido por fluoresceína",
+   "conducta": "Lavado profuso inmediato y derivar",
+   "fuente": "Kanski's Clinical Ophthalmology, 8.ª ed., p. 895",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 173"
+   ],
+   "codigos": [
+    "6.02.2.001"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Contacto ocular reciente con un químico: ¿qué se hace primero?",
+   "codigos": [
+    "6.02.2.001",
+    "6.02.2.002"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Después del anestésico tópico: ¿qué se hace?",
+   "codigos": [
+    "6.02.2.001",
+    "6.02.2.002"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.0",
+   "pista": "Después de irrigar: ¿qué maniobra se hace?",
+   "codigos": [
+    "6.02.2.001",
+    "6.02.2.002"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.0.0.0.0.0.1",
+   "pista": "Limbo blanco y sin vasos: ¿qué significa?",
+   "codigos": [
+    "6.02.2.001",
+    "6.02.2.002"
+   ]
+  }
+ ]
+}

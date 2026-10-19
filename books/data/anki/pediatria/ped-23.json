@@ -1,0 +1,534 @@
+{
+  "classId": "ped-23",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un soplo inocente es {{c1::sistólico}}, de intensidad {{c2::≤ II/VI}}, vibratorio, sin frémito y con segundo ruido normal.",
+      "extra": "Niño asintomático con buen crecimiento: no requiere ECG, Rx ni ecocardiograma.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · Soplo inocente vs patológico",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.054"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 154"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante un soplo inocente en un niño asintomático, la conducta es {{c1::tranquilizar a la familia sin exámenes}}.",
+      "extra": "",
+      "origen": "clase:20",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.054"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 154"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El soplo de {{c1::Still}} es el inocente más frecuente en escolares: sistólico, musical, y disminuye al sentarse.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Soplos",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.054"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Soplo patológico: {{c1::diastólico u holosistólico}}, ≥ III/VI, con frémito o click.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Señales de alarma",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.054"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante un soplo patológico se piden ECG, radiografía de tórax, {{c1::ecocardiograma}} y se deriva a cardiología pediátrica.",
+      "extra": "La cardiopatía congénita operable tiene GES.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Conducta",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.054"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La comunicación interauricular da un soplo eyectivo pulmonar con {{c1::desdoblamiento fijo del segundo ruido}}, y suele ser asintomática.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Trampas del soplo",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.054"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 3"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La comunicación interventricular da un soplo {{c1::holosistólico}} en el borde esternal izquierdo bajo, a veces con frémito.",
+      "extra": "Si el defecto es grande, produce insuficiencia cardíaca.",
+      "origen": "clase:2",
+      "fuente": "Clase · Trampas del soplo",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.054",
+        "2.01.1.052"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 79"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El ductus arterioso persistente da un soplo {{c1::continuo «en maquinaria»}} con pulsos saltones, infraclavicular izquierdo.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Trampas del soplo",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.054"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La tetralogía de Fallot da un soplo eyectivo pulmonar con {{c1::cianosis}}; se evalúa la saturación pre y postductal.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Trampas del soplo",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.054"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La comunicación interventricular grande produce insuficiencia cardíaca a las {{c1::4 a 8 semanas}}, cuando cae la resistencia vascular pulmonar.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Por qué a las 4-8 semanas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.052"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el recién nacido, la IC por cardiopatía obstructiva izquierda dependiente del ductus se presenta como {{c1::shock}} a los 7 a 14 días.",
+      "extra": "Coartación crítica o corazón izquierdo hipoplásico.",
+      "origen": "clase:5",
+      "fuente": "Clase · IC según la edad",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.052"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Lactante con cansancio al mamar, hepatomegalia y galope: el error es diagnosticar {{c1::bronquiolitis}}.",
+      "extra": "Es insuficiencia cardíaca: furosemida y ecocardiograma.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.052"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 173"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Manejo inicial de la IC del lactante: {{c1::furosemida}} EV, y oxígeno si hay hipoxemia.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.052"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 173"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dosis de furosemida EV en la IC del niño: {{c1::1 mg/kg}} (repetible).",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Manejo inicial",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.052"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño previamente sano con IC tras un cuadro viral: sospechar {{c1::miocarditis}}; se pide troponina, ECG y ecocardiograma.",
+      "extra": "Se evitan los bolos de volumen.",
+      "origen": "clase:6",
+      "fuente": "Clase · Miocarditis",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.052",
+        "2.01.2.012"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Taquicardia supraventricular: FC fija {{c1::> 220}} en el lactante y {{c2::> 180}} en el niño mayor, con QRS estrecho y sin ondas P.",
+      "extra": "La sinusal tiene FC < 220, variable y con ondas P.",
+      "origen": "clase:7",
+      "fuente": "Clase · TSV",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.049"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 29"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "TSV estable en el lactante: primero {{c1::maniobras vagales}} (hielo sobre la cara 15 a 30 segundos).",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · TSV",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.049"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si fallan las maniobras vagales en la TSV estable: {{c1::adenosina}} en bolo rápido seguida de suero.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · TSV",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.049"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dosis de adenosina en TSV: {{c1::0,1 mg/kg}} (máx. 6 mg); segunda dosis de {{c2::0,2 mg/kg}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · TSV",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.049"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "TSV inestable: cardioversión sincronizada {{c1::0,5 a 1 J/kg}}, luego {{c2::2 J/kg}}.",
+      "extra": "No se retrasa por obtener una vía venosa.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.049"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 29"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Lactante en shock con FC de 280 y QRS estrecho: el error es {{c1::intentar maniobras vagales o adenosina}} en vez de cardiovertir.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.049"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 29"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síndrome de Wolff-Parkinson-White muestra {{c1::PR corto y onda delta}}; se evitan verapamilo y digoxina.",
+      "extra": "Riesgo de muerte súbita si se asocia a fibrilación auricular.",
+      "origen": "clase:8",
+      "fuente": "Clase · Preexcitación",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.049",
+        "2.01.4.012"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El bloqueo AV completo congénito (FC < 60) se asocia a {{c1::lupus materno (anti-Ro/La)}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Bloqueo y ventriculares",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.049"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síncope con el ejercicio o el susto, a veces con sordera, sugiere síndrome de {{c1::QT largo}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · QT largo",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.049",
+        "2.01.4.012"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "TV o FV sin pulso se manejan como paro con desfibrilación a {{c1::4 J/kg}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Bloqueo y ventriculares",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.049"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estreptococo {{c1::viridans}} causa endocarditis subaguda tras procedimientos dentales; {{c2::S. aureus}} causa la forma aguda.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Endocarditis",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.051"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Endocarditis: antes de iniciar antibióticos se toman al menos {{c1::3 hemocultivos}} de sitios y momentos distintos; luego ecocardiograma.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Endocarditis",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.051"
+      ]
+    },
+    {
+      "id": "c36",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El tratamiento antibiótico EV de la endocarditis dura {{c1::4 a 6 semanas}} según el germen.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Endocarditis",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.051"
+      ]
+    },
+    {
+      "id": "c37",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Endocarditis por S. aureus sensible: {{c1::cloxacilina}}; si es meticilino-resistente, vancomicina.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.051"
+      ]
+    },
+    {
+      "id": "c38",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Profilaxis de endocarditis en alto riesgo antes de procedimiento dental: {{c1::amoxicilina}} {{c2::50 mg/kg}} VO (máx. 2 g).",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Profilaxis",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.051"
+      ]
+    },
+    {
+      "id": "c40",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "QTc normal en niños: {{c1::< 0,44 s}}; es prolongado si {{c2::≥ 0,46 s}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · ECG pediátrico",
+      "repaso": true,
+      "codigos": [
+        "2.01.4.012"
+      ]
+    },
+    {
+      "id": "c41",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El recién nacido tiene eje {{c1::desviado a la derecha}} con R alta en V1; es normal.",
+      "extra": "El ventrículo derecho domina al nacer.",
+      "origen": "clase:10",
+      "fuente": "Clase · ECG pediátrico",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.012"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-23/01_ecg-normal-lactante-5-dias__nelson_p3483.jpg"
+    },
+    {
+      "id": "c42",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El patrón juvenil ({{c1::T negativa en V1-V3}}) es normal hasta la adolescencia.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · ECG pediátrico",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.012"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-23/03_ecg-taquicardia-supraventricular__knoop_p809.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Taquicardia supraventricular",
+      "clave": "Taquicardia regular, QRS estrecho, sin ondas P visibles",
+      "conducta": "Estable: maniobras vagales y adenosina; inestable: cardioversión sincronizada",
+      "fuente": "The Atlas of Emergency Medicine (Knoop), p. 809",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.049"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-23/04_ecg-wolff-parkinson-white__knoop_p809.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Síndrome de Wolff-Parkinson-White",
+      "clave": "PR corto y onda delta (empastamiento inicial del QRS)",
+      "conducta": "Derivar a cardiología para ablación; evitar verapamilo y digoxina",
+      "fuente": "The Atlas of Emergency Medicine (Knoop), p. 809",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.049",
+        "2.01.4.012"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-23/03_endocarditis-vegetaciones-eco__nelson_p3642.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Endocarditis infecciosa con vegetaciones",
+      "clave": "Masas valvulares en el ecocardiograma",
+      "conducta": "3 hemocultivos antes del antibiótico; ATB EV 4 a 6 semanas; hospitalizar y derivar",
+      "fuente": "Nelson Textbook of Pediatrics 22.ª ed., Fig. 486.2",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.051"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "TSV inestable: ¿qué haces?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "TSV estable: ¿qué haces?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1",
+      "pista": "Lactante con hepatomegalia y mal peso: ¿qué haces?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.3.1",
+      "pista": "Soplo con signos de alarma: ¿qué estudio y derivación?"
+    }
+  ]
+}

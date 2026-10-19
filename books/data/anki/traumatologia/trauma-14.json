@@ -1,0 +1,544 @@
+{
+ "classId": "trauma-14",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La displasia de cadera sin tratar evoluciona a {{c1::artrosis precoz}}, dolor crónico y claudicación.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Displasia",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.002"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El signo de {{c1::Ortolani}} reduce una cadera luxada (clic de entrada al abducir); el de {{c2::Barlow}} luxa una cadera reducida.",
+   "extra": "«O de OK, B de Bad».",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Displasia",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-14/05_maniobra-de-ortolani__nelson_p5430.jpg",
+   "codigos": [
+    "4.02.1.002"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la displasia el núcleo de osificación se desplaza hacia {{c1::arriba y afuera}} (normal: cuadrante ínfero-interno) y el arco de Shenton está discontinuo.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Radiografía",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-14/06_displasia-cadera-indice-acetabular__bailey-love_p592.jpg",
+   "codigos": [
+    "4.02.1.002",
+    "4.02.4.004"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Ángulo acetabular sospechoso si > {{c1::30°}}; diagnóstico de displasia si > {{c2::36°}}.",
+   "extra": "Tamizaje con radiografía de pelvis a los 3 meses.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Radiografía",
+   "repaso": true,
+   "codigos": [
+    "4.02.1.002",
+    "4.02.4.004"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Displasia de cadera en el lactante: tratamiento de elección con {{c1::correas de Pavlik}}.",
+   "extra": "«A menor edad, mayor éxito».",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tratamiento",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 137",
+    "EUNACOM Julio 2015 · Pregunta 7"
+   ],
+   "codigos": [
+    "4.02.1.002"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En casos severos o diagnóstico tardío (> 1.5 años) se hace {{c1::reducción cruenta}}.",
+   "extra": "Entre medio: yeso pelvipedio con yugo.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.002"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La escoliosis es una desviación lateral de la columna con rotación vertebral; el test de {{c1::Adams}} muestra giba costal al inclinarse.",
+   "extra": "La giba confirma escoliosis estructural, no actitud postural.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Escoliosis",
+   "repaso": false,
+   "imagen": "_verificadas/257_trauma_Ortopedia_infantil__Zitelli_p862.jpg",
+   "codigos": [
+    "4.02.1.003"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Escoliosis < {{c1::30°}}: ejercicios y observación; {{c2::30-50°}}: corsé; > {{c3::50°}}: cirugía (artrodesis).",
+   "extra": "Ángulo de Cobb.",
+   "origen": "clase:3",
+   "fuente": "Clase · Escoliosis",
+   "repaso": true,
+   "imagen": "biblioteca/18_traumatologia/trauma-14/03_escoliosis-angulo-de-cobb__bailey-love_p603.jpg",
+   "codigos": [
+    "4.02.1.003"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El pie bot (equinovaro) combina cuatro deformidades: {{c1::varo, equino, cavo y aducto}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Pie bot",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-14/07_pie-bot-congenito__talley_p800.jpg",
+   "codigos": [
+    "2.01.1.091"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El pie bot se trata de forma ortopédica con el método de {{c1::Ponseti}} (yesos seriados), lo antes posible.",
+   "extra": "Pregunta real: derivar al nacer.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Pie bot",
+   "repaso": true,
+   "imagen": "biblioteca/18_traumatologia/trauma-14/04_yesos-seriados-ponseti__bailey-love_p599.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 76"
+   ],
+   "codigos": [
+    "2.01.1.091"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Sinovitis transitoria: {{c1::2-4 años}}, infección viral previa y radiografía normal; paracetamol y reposo.",
+   "extra": "Sin fiebre, buen estado general.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla cadera dolorosa",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-14/23_sinovitis-transitoria__sherman_p778.jpg",
+   "codigos": [
+    "4.02.1.009"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Enfermedad de Perthes: {{c1::5-10 años}}, talla baja y actividad intensa; cabeza femoral plana y densa.",
+   "extra": "Necrosis avascular de la cabeza femoral.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla cadera dolorosa",
+   "repaso": true,
+   "imagen": "biblioteca/18_traumatologia/trauma-14/01_enfermedad-de-perthes__bailey-love_p593.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 130"
+   ],
+   "codigos": [
+    "4.02.1.009"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Epifisiólisis: {{c1::12-15 años}}, obesidad y pubertad; signo del «helado caído»; tratamiento quirúrgico.",
+   "extra": "Se suspende la carga y se fija in situ.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla cadera dolorosa",
+   "repaso": true,
+   "imagen": "biblioteca/18_traumatologia/trauma-14/02_epifisiolisis-femoral__bailey-love_p595.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 178"
+   ],
+   "codigos": [
+    "4.02.1.009"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la sinovitis transitoria, si hay duda con artritis séptica se hace {{c1::punción articular}}: el líquido es normal.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Sinovitis",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.009"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Cojera con fiebre en el niño: pensar en {{c1::artritis séptica}} y puncionar.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.009"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El pie plano flexible es fisiológico: el arco aparece de {{c1::puntillas}}; no requiere plantillas.",
+   "extra": "Pregunta real: tranquilizar a los padres.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Pie plano",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 159"
+   ],
+   "codigos": [
+    "4.02.1.007",
+    "2.01.1.091"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El arco longitudinal se forma entre los {{c1::6 y 10 años}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Pie plano",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.007",
+    "2.01.1.091"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se deriva el pie plano {{c1::rígido}}, doloroso o unilateral; se sospecha coalición tarsiana o astrágalo vertical.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Pie plano",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.007",
+    "2.01.1.091"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El pie {{c1::cavo}} tiene arco aumentado; se busca causa neurológica (Charcot-Marie-Tooth o disrafismo).",
+   "extra": "Callosidades en el antepié al trotar.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Pie",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 170",
+    "EUNACOM Diciembre 2022 · Pregunta 89"
+   ],
+   "codigos": [
+    "4.02.1.007",
+    "2.01.1.091"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La torsión tibial interna se resuelve hacia los {{c1::8 años}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Pie",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.007",
+    "2.01.1.091"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fisis es el eslabón más débil del hueso inmaduro; Salter-Harris {{c1::II}} (fisis y metáfisis) es la más frecuente, ~75%.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Salter-Harris",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-14/21_salter-harris__sherman_p764.jpg",
+   "codigos": [
+    "4.02.2.002"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las lesiones Salter-Harris {{c1::III, IV y V}} comprometen el crecimiento (detención, deformidad angular, dismetría).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Salter-Harris",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.002"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor sobre la fisis con radiografía normal en un niño: se trata como {{c1::fractura}} (tipo I).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Salter-Harris",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.002"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Salter-Harris I y II se inmovilizan con yeso {{c1::3-4 semanas}}; III y IV requieren reducción anatómica quirúrgica.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Salter-Harris",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.002"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La escoliosis idiopática del adolescente afecta a niñas de 10-14 años, con curva torácica derecha y Cobb > {{c1::10°}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Columna",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.094"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se pide RM en escoliosis con dolor, curva torácica {{c1::izquierda}}, déficit neurológico o inicio antes de los 10 años.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Columna",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.094"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La enfermedad de Scheuermann es una cifosis torácica rígida > {{c1::45°}} con acuñamiento de 3 o más vértebras.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Columna",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.094"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La espondilólisis en adolescente deportista duele con la {{c1::extensión}}; en la radiografía oblicua se ve el «perro con collar».",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Columna",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-14/24_espondilolistesis-l4l5__sherman_p670.jpg",
+   "codigos": [
+    "2.01.1.094"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El dolor de espalda es poco frecuente en el niño: se buscan causas {{c1::orgánicas}} (infección, tumores, histiocitosis).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Columna",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.094"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Seno dérmico sacrococcígeo obliga a descartar disrafia espinal tipo {{c1::espina bífida oculta}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul 2017",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 132"
+   ],
+   "codigos": [
+    "4.02.1.009"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor dorsal intenso tras esfuerzo en una mujer de 63 años con fractura de muñeca previa: {{c1::fractura vertebral}} osteoporótica.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Ago 2021",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 122"
+   ],
+   "codigos": [
+    "4.02.2.002"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-14/02_epifisiolisis-femoral__bailey-love_p595.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Epifisiólisis femoral",
+   "clave": "Cabeza femoral desplazada hacia atrás y abajo (helado caído)",
+   "conducta": "Adolescente obeso: suspender carga y cirugía (osteosíntesis)",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 39.22",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 178"
+   ],
+   "codigos": [
+    "4.02.1.009"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-14/01_enfermedad-de-perthes__bailey-love_p593.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Enfermedad de Perthes",
+   "clave": "Cabeza femoral más densa y aplanada",
+   "conducta": "Niño de 5-10 años: derivar a ortopedia infantil",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 39.21",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 130"
+   ],
+   "codigos": [
+    "4.02.1.009"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-14/07_pie-bot-congenito__talley_p800.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Pie bot congénito",
+   "clave": "Pies en equino y varo hacia abajo y adentro",
+   "conducta": "Derivar al nacer para método de Ponseti",
+   "fuente": "Talley, Clinical Examination, Fig. 38.24",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 76"
+   ],
+   "codigos": [
+    "2.01.1.091"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.1",
+   "pista": "Escoliosis con Cobb de 30-50°: ¿tratamiento?",
+   "codigos": [
+    "2.01.1.091",
+    "4.02.1.009"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1",
+   "pista": "Deformidad del pie al nacer: ¿conducta?",
+   "codigos": [
+    "2.01.1.091",
+    "4.02.1.009"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.2.0",
+   "pista": "Preescolar con viral previo y radiografía normal: ¿diagnóstico y manejo?",
+   "codigos": [
+    "2.01.1.091",
+    "4.02.1.009"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.2.2",
+   "pista": "Adolescente obeso con helado caído: ¿conducta?",
+   "codigos": [
+    "2.01.1.091",
+    "4.02.1.009"
+   ]
+  }
+ ]
+}

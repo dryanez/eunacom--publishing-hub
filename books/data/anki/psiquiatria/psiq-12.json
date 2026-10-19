@@ -1,0 +1,448 @@
+{
+  "classId": "psiq-12",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La clave decisiva para diferenciar los trastornos psicóticos en las viñetas es la {{c1::cronología}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Diferencial",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Trastorno psicótico breve: duración de al menos {{c1::1 día}} pero menos de {{c2::1 mes}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla diferencial",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el trastorno psicótico breve hay retorno {{c1::completo (ad integrum)}} al nivel de funcionamiento previo.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Psicótico breve",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El trastorno psicótico breve suele aparecer tras un {{c1::estresor grave}} o en el posparto.",
+      "extra": "Antes llamada psicosis reactiva breve.",
+      "origen": "clase:2",
+      "fuente": "Clase · Psicótico breve",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El trastorno psicótico breve exige al menos un síntoma: delirios, alucinaciones, lenguaje desorganizado o {{c1::comportamiento muy desorganizado o catatónico}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Psicótico breve",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Manejo del psicótico breve: contención protegida y {{c1::antipsicótico en dosis baja por tiempo limitado}}.",
+      "extra": "Semanas a pocos meses; pronóstico excelente.",
+      "origen": "clase:2",
+      "fuente": "Clase · Manejo",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Trastorno esquizofreniforme: clínica idéntica a esquizofrenia con duración de {{c1::1 a 6 meses}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla diferencial",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si los síntomas del esquizofreniforme superan los {{c1::6 meses}}, se reclasifica como esquizofrenia.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Diferencial",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Del trastorno esquizofreniforme, entre {{c1::60-80%}} progresa a esquizofrenia.",
+      "extra": "Pronóstico reservado.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla diferencial",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Esquizofrenia: duración de {{c1::6 meses}} o más, con síntomas negativos y deterioro global.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla diferencial",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Trastorno delirante: ideas delirantes que persisten al menos {{c1::1 mes}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Trastorno delirante",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 71"
+      ],
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trastorno delirante: el delirio es {{c1::no bizarro}}, bien estructurado y verosímil.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla diferencial",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 135"
+      ],
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el trastorno delirante nunca se ha cumplido el {{c1::criterio A de esquizofrenia}}.",
+      "extra": "Sin alucinaciones prominentes, desorganización ni síntomas negativos.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Trastorno delirante",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 90"
+      ],
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el trastorno delirante el funcionamiento está {{c1::conservado fuera del núcleo del delirio}}.",
+      "extra": "Trabaja y se cuida, salvo en el tema.",
+      "origen": "clase:4",
+      "fuente": "Clase · Trastorno delirante",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 76"
+      ],
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si hay alucinaciones en el trastorno delirante, son {{c1::secundarias al delirio}} (ej. oler veneno en la comida).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Trastorno delirante",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Delirio celotípico (síndrome de {{c1::Otelo}}): convicción inamovible de infidelidad del cónyuge.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Subtipos",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 108"
+      ],
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El subtipo celotípico tiene muy alto riesgo de {{c1::violencia hacia la pareja y homicidio}}; se evalúa la seguridad.",
+      "extra": "Error típico: tomarlo por celos normales u obsesivo.",
+      "origen": "clase:5",
+      "fuente": "Clase · Subtipos",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Delirio erotomaníaco (síndrome de {{c1::Clérambault}}): cree que alguien de estatus superior lo ama en secreto.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Subtipos",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 17"
+      ],
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Delirio somático de infestación por parásitos: síndrome de {{c1::Ekbom}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Subtipos",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 95"
+      ],
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Delirio persecutorio: creencia de {{c1::conspiración, espionaje o difamación}} contra él.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Subtipos",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 171"
+      ],
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Desconfiado y celoso pero sin pérdida de realidad es {{c1::personalidad paranoide}}, no trastorno delirante.",
+      "extra": "En el delirio hay pérdida del juicio de realidad.",
+      "origen": "clase:11",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Convicción de enfermedad que los exámenes niegan: delirante somático; el error es {{c1::hipocondría o demencia}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Trabaja bien, convicción fija y sin voces: trastorno delirante; el error es {{c1::esquizofrenia}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 109"
+      ],
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante un delirio, el médico {{c1::no debe confrontarlo ni validarlo}}; escucha el sufrimiento que causa.",
+      "extra": "Confrontar rompe la alianza.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento del trastorno delirante: antipsicóticos atípicos como {{c1::aripiprazol o risperidona}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El trastorno delirante suele ser {{c1::crónico y de respuesta variable}} a los psicofármacos.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Psicosis florida tras una pérdida, de 18 días y con recuperación total: {{c1::psicótico breve}}.",
+      "extra": "El error es esquizofrenia.",
+      "origen": "clase:11",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Mismos síntomas de esquizofrenia por 3 meses: {{c1::esquizofreniforme}}.",
+      "extra": "Error típico: esquizofrenia.",
+      "origen": "clase:11",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antes de rotular una psicosis, hay que descartar causa {{c1::orgánica y tóxica}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Diferencial",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El trastorno delirante crónico no esquizofrénico {{c1::no tiene cobertura GES directa}}; se deriva a COSAM.",
+      "extra": "Norma Técnica de Salud Mental MINSAL.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro · GES",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.2.0",
+      "pista": "Delirio celotípico: ¿qué evalúas?",
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0",
+      "pista": "Psicosis menor de 1 mes que sana del todo: ¿qué es?",
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.2",
+      "pista": "Solo un delirio con vida conservada: ¿conducta?",
+      "codigos": [
+        "5.01.1.010"
+      ]
+    }
+  ]
+}

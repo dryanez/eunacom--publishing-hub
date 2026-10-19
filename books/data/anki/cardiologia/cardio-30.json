@@ -1,0 +1,719 @@
+{
+ "classId": "cardio-30",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El objetivo del tratamiento antihipertensivo es reducir la {{c1::morbimortalidad cardiovascular}}, no solo un número.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Principios",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Reducir la sal a menos de {{c1::5 g}} al día; cada kilo menos baja cerca de 1 mmHg.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Principios",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "HTA grado 1 de riesgo bajo, sin daño de órgano blanco: se ensayan medidas de estilo de vida por {{c1::3 a 6 meses}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Del grado y el riesgo",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se inicia fármaco de inmediato si es grado 2 o 3 (≥ {{c1::160/100}}), riesgo alto, diabetes, ERC o ECV.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Principios",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Los IECA producen {{c1::tos seca}} en 10-15% por acumulación de bradicinina.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Inhibidores del eje renina-angiotensina",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 32",
+    "EUNACOM Julio 2019 · Pregunta 92",
+    "EUNACOM Diciembre 2018 · Pregunta 6"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Tos seca con enalapril: se {{c1::cambia a un ARA II}} (losartán); el error es agregar otro fármaco o suspender sin reemplazo.",
+   "extra": "Efecto de clase de los IECA.",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 32",
+    "EUNACOM Julio 2019 · Pregunta 92",
+    "EUNACOM Diciembre 2018 · Pregunta 6"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Los ARA II {{c1::no producen tos}} y son el reemplazo del IECA.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Inhibidores del eje renina-angiotensina",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "IECA y ARA II {{c1::no se combinan}} entre sí.",
+   "extra": "El doble bloqueo no da más efecto.",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 180"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "IECA y ARA II están prohibidos en el {{c1::embarazo}} (teratogénicos) y en el angioedema previo.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clases",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Con IECA/ARA II es esperable un alza de creatinina de hasta {{c1::30%}}; más: sospechar estenosis renal bilateral.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Inhibidores del eje renina-angiotensina",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Efecto adverso típico del amlodipino: edema {{c1::maleolar bilateral}}, dosis-dependiente.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Calcioantagonistas, tiazidas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Edema bimaleolar con amlodipino: se {{c1::suspende el amlodipino}}; el error es subir el diurético.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 85",
+    "EUNACOM Diciembre 2019 · Pregunta 122",
+    "EUNACOM Julio 2019 · Pregunta 51",
+    "EUNACOM Agosto 2021 · Pregunta 134"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El edema por amlodipino no indica insuficiencia cardíaca y no responde a {{c1::diuréticos}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clases",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 134"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Verapamilo y diltiazem frenan el {{c1::nodo AV}}; no se combinan con betabloqueador.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Calcioantagonistas, tiazidas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Las tiazidas causan hipopotasemia, hiponatremia e {{c1::hiperuricemia}}; se evitan en gota.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Calcioantagonistas, tiazidas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Las tiazidas son ineficaces con VFG < {{c1::30 mL/min}} (excepto clortalidona); se usa diurético de asa.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clases",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Espironolactona: hiperpotasemia y {{c1::ginecomastia}} en el varón.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de clases",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "El betabloqueador no es de primera línea: solo con {{c1::indicación propia}} (coronaria, posinfarto, IC, taquiarritmia).",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Calcioantagonistas, tiazidas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 105"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Los betabloqueadores se evitan en asma, bradicardia y {{c1::bloqueo AV}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clases",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Doxazosina (alfabloqueador): hipotensión ortostática con la primera dosis; {{c1::fármaco adicional}}, útil si hay HPB.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de clases",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 36"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primera línea: IECA o ARA II + {{c1::calcioantagonista dihidropiridínico o tiazida}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Monoterapia, combinación y triple",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se inicia con dosis fija combinada si PA ≥ {{c1::160/100}} o riesgo alto.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Monoterapia, combinación y triple",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Monoterapia razonable en grado 1, pacientes frágiles y mayores de {{c1::80 años}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Monoterapia, combinación y triple",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 177"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tras iniciar el tratamiento se reevalúa a las {{c1::4 semanas}}.",
+   "extra": "Antes de escalar: adherencia, técnica, sal, AINE.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Estrategia",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Triple terapia: IECA/ARA II + calcioantagonista + {{c1::tiazida}} a dosis plenas.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Monoterapia, combinación y triple",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "HTA resistente (3 fármacos con un diurético): 4.º fármaco {{c1::espironolactona}} 25-50 mg/día.",
+   "extra": "Y estudiar causa secundaria.",
+   "origen": "clase:4",
+   "fuente": "Clase · Monoterapia, combinación y triple",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Triple terapia sin meta: el error es {{c1::subir el IECA o agregar atenolol}}.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Diabético o proteinuria: primera elección {{c1::IECA}} (enalapril) o ARA II.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · El fármaco según el paciente",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 14",
+    "EUNACOM Diciembre 2017 · Pregunta 9",
+    "EUNACOM Diciembre 2024 · Pregunta 78",
+    "EUNACOM Diciembre 2022 · Pregunta 105"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Diabético con proteinuria: el error es partir con {{c1::amlodipino o atenolol}}.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 78"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Posinfarto y cardiopatía coronaria: betabloqueador más {{c1::IECA/ARA II}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · El fármaco según el paciente",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 86"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Cardiopatía coronaria con PA elevada bajo carvedilol e HCTZ: se agrega {{c1::losartán}}; no otro betabloqueador.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · El fármaco según el paciente",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 86"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Adulto mayor con HTA sistólica aislada: {{c1::calcioantagonista o tiazida}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · El fármaco según el paciente",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Embarazo: fármacos seguros {{c1::metildopa, labetalol y nifedipino}}; nunca IECA ni ARA II.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · El fármaco según el paciente",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Mujer en edad fértil: se evitan IECA y ARA II; el error es {{c1::indicarlos sin advertir}}.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Adulto joven obeso con HTA esencial: se inicia con {{c1::ARA II o IECA}} sin causa secundaria.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Estrategia",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 177"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Con IECA/ARA II ya en uso, el siguiente fármaco que se agrega es un {{c1::calcioantagonista o tiazida}}, no un betabloqueador.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Primera elección",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 180"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Meta en menores de 65 años (diabéticos, coronarios, ERC, ACV): < {{c1::130/80}} mmHg, sin bajar de 120/70.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Cuánto bajar según la edad",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Meta a los 65-79 años: PAS {{c1::130-139}} y PAD < 80 si lo tolera.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Cuánto bajar según la edad",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Meta en ≥ 80 años o frágiles: < {{c1::150/90}} mmHg.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Cuánto bajar según la edad",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 65",
+    "EUNACOM Diciembre 2022 · Pregunta 38"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Paciente de 85 años con PA 145/75 bajo dos fármacos: se {{c1::mantiene}} el tratamiento; el error es escalar.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 65"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El descenso de la PA en crónicos es gradual: en {{c1::4 a 12 semanas}}, no en horas.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Metas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Urgencia hipertensiva sin daño de órgano blanco: no se normaliza de inmediato; el fármaco clásico es {{c1::captopril oral}}.",
+   "extra": "Se ve en el tema 5.4.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Metas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 7"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Adulto mayor con PA 120/80 en tratamiento con amlodipino y edema maleolar: se {{c1::suspende el amlodipino}}, no se cambia el enalapril.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Efectos adversos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 38"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Con IECA/ARA II: creatinina y potasio a las {{c1::1 a 2 semanas}}; revisar si VFG cae > 30% o K > 5,5.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Suspender y reemplazar al culpable",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Angioedema con IECA: suspender {{c1::para siempre}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Suspender y reemplazar al culpable",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c46",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Diabético con 2 tomas ≥ 140/90: se {{c1::inicia tratamiento}} sin pedir MAPA antes.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Principios",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 144"
+   ]
+  },
+  {
+   "id": "c47",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "GES N.º 21: indicador de compensación PA < {{c1::140/90}} mmHg en hipertensos de 15 a 79 años.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Garantías y cuándo derivar",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c48",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se deriva a especialista al hipertenso menor de {{c1::40 años}}, con HTA resistente o sospecha de causa secundaria.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Garantías y cuándo derivar",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Grado 1 de riesgo bajo: ¿qué se hace primero?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1",
+   "pista": "Grado ≥ 2, diabetes o ERC: ¿qué esquema se indica?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.0",
+   "pista": "Sin meta a las 4 semanas con dupla: ¿qué esquema?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.0.0",
+   "pista": "Tres fármacos sin meta: ¿qué agregas?"
+  }
+ ]
+}

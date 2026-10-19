@@ -1,0 +1,2627 @@
+{
+ "_doc": "Glosario clicable del mazo Anki (popover en el reverso). 'def' se escribe a mano desde el libro (sin cifras nuevas) y se conserva al regenerar; pagina/clase/t/url los recalcula conceptos.py. Términos y alias: books/scripts/anki/vocab_*.txt.",
+ "libro": "ginecologia",
+ "pdf": "books/dist/Modulo_3_Materno_Infantil/Tomo_20_Ginecologia_Completo_2026.pdf",
+ "terminos": {
+  "Amenorrea_primaria": {
+   "termino": "Amenorrea primaria",
+   "tipo": "Concepto",
+   "alias": [
+    "amenorrea primaria"
+   ],
+   "def": "Ausencia de menarquia a los 13 años sin caracteres sexuales secundarios, o a los 15 años si existen caracteres sexuales secundarios normales.",
+   "pagina": 5,
+   "clase": "gin-01",
+   "claseTitulo": "20.1 Fisiología del Ciclo Menstrual, Eje Hipotálamo-Hipófisis-Ovario y Estudio de la Amenorrea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Amenorrea_secundaria": {
+   "termino": "Amenorrea secundaria",
+   "tipo": "Concepto",
+   "alias": [
+    "amenorrea secundaria"
+   ],
+   "def": "Primer paso: SIEMPRE solicitar β-hCG para descartar embarazo; luego se sigue un algoritmo escalonado (test de progesterona, gonadotrofinas).",
+   "pagina": 5,
+   "clase": "gin-01",
+   "claseTitulo": "20.1 Fisiología del Ciclo Menstrual, Eje Hipotálamo-Hipófisis-Ovario y Estudio de la Amenorrea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Sindrome_de_Turner": {
+   "termino": "Síndrome de Turner",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome de Turner",
+    "Turner",
+    "45,X"
+   ],
+   "def": "45,X0: talla baja, cuello alado, tórax en escudo, coartación aórtica y disgenesia gonadal con cintillas ováricas.",
+   "pagina": 5,
+   "clase": "gin-01",
+   "claseTitulo": "20.1 Fisiología del Ciclo Menstrual, Eje Hipotálamo-Hipófisis-Ovario y Estudio de la Amenorrea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Sindrome_de_Rokitansky": {
+   "termino": "Síndrome de Rokitansky",
+   "tipo": "Concepto",
+   "alias": [
+    "Rokitansky",
+    "agenesia mülleriana",
+    "síndrome de Mayer-Rokitansky"
+   ],
+   "def": "Cariotipo 46,XX: amenorrea primaria con mamas y vello normales, ovarios normales pero SIN útero (agenesia mülleriana).",
+   "pagina": 5,
+   "clase": "gin-01",
+   "claseTitulo": "20.1 Fisiología del Ciclo Menstrual, Eje Hipotálamo-Hipófisis-Ovario y Estudio de la Amenorrea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Insensibilidad_androgenica": {
+   "termino": "Insensibilidad androgénica",
+   "tipo": "Concepto",
+   "alias": [
+    "insensibilidad androgénica",
+    "síndrome de Morris",
+    "feminización testicular"
+   ],
+   "def": "Síndrome de Morris, 46,XY: fenotipo femenino con mamas, SIN vello púbico/axilar, testículos intraabdominales y sin útero.",
+   "pagina": 9,
+   "clase": "gin-01",
+   "claseTitulo": "20.1 Fisiología del Ciclo Menstrual, Eje Hipotálamo-Hipófisis-Ovario y Estudio de la Amenorrea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Sindrome_de_Asherman": {
+   "termino": "Síndrome de Asherman",
+   "tipo": "Concepto",
+   "alias": [
+    "Asherman",
+    "sinequias uterinas",
+    "sinequias intrauterinas"
+   ],
+   "def": "Sinequias uterinas post-legrados: problema anatómico en el canal uterino que causa amenorrea sin sangrado tras el test.",
+   "pagina": 6,
+   "clase": "gin-01",
+   "claseTitulo": "20.1 Fisiología del Ciclo Menstrual, Eje Hipotálamo-Hipófisis-Ovario y Estudio de la Amenorrea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Sindrome_de_Sheehan": {
+   "termino": "Síndrome de Sheehan",
+   "tipo": "Concepto",
+   "alias": [
+    "Sheehan"
+   ],
+   "def": "Necrosis isquémica hipofisaria postparto; causa de falla central con FSH baja o normal.",
+   "pagina": 6,
+   "clase": "gin-01",
+   "claseTitulo": "20.1 Fisiología del Ciclo Menstrual, Eje Hipotálamo-Hipófisis-Ovario y Estudio de la Amenorrea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Hiperprolactinemia": {
+   "termino": "Hiperprolactinemia",
+   "tipo": "Concepto",
+   "alias": [
+    "hiperprolactinemia",
+    "prolactinoma"
+   ],
+   "def": "Se estudia con prolactina y TSH. PRL > 100 ng/mL sugiere prolactinoma; si está elevada, solicitar RMN de hipófisis.",
+   "pagina": 6,
+   "clase": "gin-01",
+   "claseTitulo": "20.1 Fisiología del Ciclo Menstrual, Eje Hipotálamo-Hipófisis-Ovario y Estudio de la Amenorrea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Insuficiencia_ovarica_prematura": {
+   "termino": "Insuficiencia ovárica prematura",
+   "tipo": "Concepto",
+   "alias": [
+    "insuficiencia ovárica prematura",
+    "falla ovárica prematura"
+   ],
+   "def": "Falla ovárica primaria con FSH elevada (> 30-40 UI/L) en mujeres menores de 40 años (menopausia precoz).",
+   "pagina": 6,
+   "clase": "gin-01",
+   "claseTitulo": "20.1 Fisiología del Ciclo Menstrual, Eje Hipotálamo-Hipófisis-Ovario y Estudio de la Amenorrea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Pubertad_precoz": {
+   "termino": "Pubertad precoz",
+   "tipo": "Concepto",
+   "alias": [
+    "pubertad precoz"
+   ],
+   "def": "Telarquia o pubarquia antes de los 8 años: sospecha y derivación a endocrinología.",
+   "pagina": 8,
+   "clase": "gin-01",
+   "claseTitulo": "20.1 Fisiología del Ciclo Menstrual, Eje Hipotálamo-Hipófisis-Ovario y Estudio de la Amenorrea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Telarquia": {
+   "termino": "Telarquia",
+   "tipo": "Concepto",
+   "alias": [
+    "telarquia",
+    "botón mamario"
+   ],
+   "def": "Inicio del desarrollo mamario. Su ausencia a los 13 años define retraso puberal; precoz si ocurre antes de los 8 años.",
+   "pagina": 8,
+   "clase": "gin-01",
+   "claseTitulo": "20.1 Fisiología del Ciclo Menstrual, Eje Hipotálamo-Hipófisis-Ovario y Estudio de la Amenorrea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Menarquia": {
+   "termino": "Menarquia",
+   "tipo": "Concepto",
+   "alias": [
+    "menarquia",
+    "menarca"
+   ],
+   "def": "Primera menstruación. Los ciclos ovulatorios se instalan 6-12 meses tras ella; su ausencia a los 13 o 15 años define amenorrea primaria.",
+   "pagina": 5,
+   "clase": "gin-01",
+   "claseTitulo": "20.1 Fisiología del Ciclo Menstrual, Eje Hipotálamo-Hipófisis-Ovario y Estudio de la Amenorrea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 6
+  },
+  "GnRH": {
+   "termino": "GnRH",
+   "tipo": "Concepto",
+   "alias": [
+    "GnRH"
+   ],
+   "def": "Su secreción pulsátil hipotalámica estimula la síntesis de FSH y regula el ciclo menstrual; los análogos producen hipoestrogenismo profundo.",
+   "pagina": 5,
+   "clase": "gin-01",
+   "claseTitulo": "20.1 Fisiología del Ciclo Menstrual, Eje Hipotálamo-Hipófisis-Ovario y Estudio de la Amenorrea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Cuerpo_luteo": {
+   "termino": "Cuerpo lúteo",
+   "tipo": "Concepto",
+   "alias": [
+    "cuerpo lúteo"
+   ],
+   "def": "Folículo colapsado bajo influencia de la LH; secreta progesterona y estradiol. Sin fecundación degenera a los 14 días y viene la menstruación.",
+   "pagina": 86,
+   "clase": "gin-16",
+   "claseTitulo": "20.16 Urgencias Ginecológicas Quirúrgicas: Torsión Anexial y Rotura de Quiste Ovárico Hemorrágico",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Test_de_progesterona": {
+   "termino": "Test de progesterona",
+   "tipo": "Examen",
+   "alias": [
+    "test de progesterona",
+    "prueba de progesterona"
+   ],
+   "def": "Medroxiprogesterona 10 mg/día VO por 5-10 días. Si sangra: anovulación con estrógenos presentes (clásico de SOP).",
+   "pagina": 5,
+   "clase": "gin-01",
+   "claseTitulo": "20.1 Fisiología del Ciclo Menstrual, Eje Hipotálamo-Hipófisis-Ovario y Estudio de la Amenorrea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 3
+  },
+  "hCG": {
+   "termino": "β-hCG",
+   "tipo": "Examen",
+   "alias": [
+    "β-hCG",
+    "beta-hCG",
+    "BHCG"
+   ],
+   "def": "Primer paso ante toda amenorrea secundaria: SIEMPRE solicitar β-hCG para descartar embarazo.",
+   "pagina": 5,
+   "clase": "gin-01",
+   "claseTitulo": "20.1 Fisiología del Ciclo Menstrual, Eje Hipotálamo-Hipófisis-Ovario y Estudio de la Amenorrea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Cariotipo": {
+   "termino": "Cariotipo",
+   "tipo": "Examen",
+   "alias": [
+    "cariotipo"
+   ],
+   "def": "En amenorrea primaria sin útero: 46,XX en Rokitansky y 46,XY en insensibilidad a los andrógenos (Morris).",
+   "pagina": 5,
+   "clase": "gin-01",
+   "claseTitulo": "20.1 Fisiología del Ciclo Menstrual, Eje Hipotálamo-Hipófisis-Ovario y Estudio de la Amenorrea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 1
+  },
+  "FSH": {
+   "termino": "FSH",
+   "tipo": "Examen",
+   "alias": [
+    "FSH"
+   ],
+   "def": "Elevada (> 30-40 UI/L): falla ovárica primaria. Baja o normal (< 5 UI/L): falla central, hipotalámica o hipofisaria.",
+   "pagina": 5,
+   "clase": "gin-01",
+   "claseTitulo": "20.1 Fisiología del Ciclo Menstrual, Eje Hipotálamo-Hipófisis-Ovario y Estudio de la Amenorrea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 18
+  },
+  "Prolactina": {
+   "termino": "Prolactina",
+   "tipo": "Examen",
+   "alias": [
+    "prolactina"
+   ],
+   "def": "Se mide en reposo, idealmente en ayunas. Si está elevada: solicitar RMN de hipófisis; > 100 ng/mL sugiere prolactinoma.",
+   "pagina": 6,
+   "clase": "gin-01",
+   "claseTitulo": "20.1 Fisiología del Ciclo Menstrual, Eje Hipotálamo-Hipófisis-Ovario y Estudio de la Amenorrea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Sindrome_de_ovario_poliquistico": {
+   "termino": "Síndrome de ovario poliquístico",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome de ovario poliquístico",
+    "ovario poliquístico",
+    "SOP"
+   ],
+   "def": "Causa anovulatoria más frecuente. Anovulación crónica con hiperandrogenismo y resistencia a la insulina; se diagnostica con los criterios de Rotterdam.",
+   "pagina": 10,
+   "clase": "gin-02",
+   "claseTitulo": "20.2 Síndrome de Ovario Poliquístico (SOP): Criterios de Rotterdam, Resistencia a la Insulina y Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 23
+  },
+  "Criterios_de_Rotterdam": {
+   "termino": "Criterios de Rotterdam",
+   "tipo": "Examen",
+   "alias": [
+    "criterios de Rotterdam",
+    "Rotterdam"
+   ],
+   "def": "Consenso internacional para diagnosticar el SOP: se requieren dos de tres criterios (disfunción ovulatoria, hiperandrogenismo, ovario poliquístico).",
+   "pagina": 10,
+   "clase": "gin-02",
+   "claseTitulo": "20.2 Síndrome de Ovario Poliquístico (SOP): Criterios de Rotterdam, Resistencia a la Insulina y Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Resistencia_a_la_insulina": {
+   "termino": "Resistencia a la insulina",
+   "tipo": "Concepto",
+   "alias": [
+    "resistencia a la insulina",
+    "insulinorresistencia"
+   ],
+   "def": "Pilar metabólico del SOP: presente en el 70-80% de las pacientes, incluso en mujeres no obesas.",
+   "pagina": 10,
+   "clase": "gin-02",
+   "claseTitulo": "20.2 Síndrome de Ovario Poliquístico (SOP): Criterios de Rotterdam, Resistencia a la Insulina y Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Hirsutismo": {
+   "termino": "Hirsutismo",
+   "tipo": "Signo",
+   "alias": [
+    "hirsutismo"
+   ],
+   "def": "Vello terminal en zonas andrógeno-dependientes (Ferriman-Gallwey ≥ 8). Tratamiento inicial: medidas cosméticas y ACO; luego espironolactona.",
+   "pagina": 10,
+   "clase": "gin-02",
+   "claseTitulo": "20.2 Síndrome de Ovario Poliquístico (SOP): Criterios de Rotterdam, Resistencia a la Insulina y Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Acantosis_nigricans": {
+   "termino": "Acantosis nigricans",
+   "tipo": "Signo",
+   "alias": [
+    "acantosis nigricans",
+    "acantosis"
+   ],
+   "def": "Placa hiperpigmentada aterciopelada en el cuello, estigma de resistencia a la insulina en el SOP.",
+   "pagina": 11,
+   "clase": "gin-02",
+   "claseTitulo": "20.2 Síndrome de Ovario Poliquístico (SOP): Criterios de Rotterdam, Resistencia a la Insulina y Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Hiperandrogenismo": {
+   "termino": "Hiperandrogenismo",
+   "tipo": "Concepto",
+   "alias": [
+    "hiperandrogenismo"
+   ],
+   "def": "Hirsutismo clínico, acné severo, alopecia o testosterona elevada; testosterona > 150-200 ng/dL obliga a descartar tumor.",
+   "pagina": 12,
+   "clase": "gin-02",
+   "claseTitulo": "20.2 Síndrome de Ovario Poliquístico (SOP): Criterios de Rotterdam, Resistencia a la Insulina y Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Hiperplasia_suprarrenal_congenita": {
+   "termino": "Hiperplasia suprarrenal congénita",
+   "tipo": "Concepto",
+   "alias": [
+    "hiperplasia suprarrenal congénita",
+    "hiperplasia suprarrenal",
+    "HSC"
+   ],
+   "def": "No clásica: déficit de 21-hidroxilasa. Sospechar si la 17-OH progesterona matinal es > 2 ng/mL; es un descarte obligatorio en hirsutismo.",
+   "pagina": 10,
+   "clase": "gin-02",
+   "claseTitulo": "20.2 Síndrome de Ovario Poliquístico (SOP): Criterios de Rotterdam, Resistencia a la Insulina y Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Anticonceptivos_orales_combinados": {
+   "termino": "Anticonceptivos orales combinados",
+   "tipo": "Farmaco",
+   "alias": [
+    "anticonceptivos orales combinados",
+    "anticonceptivo combinado",
+    "anticonceptivos combinados",
+    "ACO"
+   ],
+   "def": "Tratamiento de elección en SOP si no desea embarazo y en hirsutismo; contraindicados en categoría 4 de la OMS.",
+   "pagina": 10,
+   "clase": "gin-02",
+   "claseTitulo": "20.2 Síndrome de Ovario Poliquístico (SOP): Criterios de Rotterdam, Resistencia a la Insulina y Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Metformina": {
+   "termino": "Metformina",
+   "tipo": "Farmaco",
+   "alias": [
+    "metformina"
+   ],
+   "def": "850 a 1.500 mg/d: indicada ante intolerancia a la glucosa, diabetes gestacional previa o resistencia a la insulina comprobada.",
+   "pagina": 12,
+   "clase": "gin-02",
+   "claseTitulo": "20.2 Síndrome de Ovario Poliquístico (SOP): Criterios de Rotterdam, Resistencia a la Insulina y Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Espironolactona": {
+   "termino": "Espironolactona",
+   "tipo": "Farmaco",
+   "alias": [
+    "espironolactona"
+   ],
+   "def": "50 a 100 mg/d: antagonista del receptor de andrógenos, coadyuvante en hirsutismo severo si persiste tras 6 meses de ACO.",
+   "pagina": 10,
+   "clase": "gin-02",
+   "claseTitulo": "20.2 Síndrome de Ovario Poliquístico (SOP): Criterios de Rotterdam, Resistencia a la Insulina y Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Clomifeno": {
+   "termino": "Clomifeno",
+   "tipo": "Farmaco",
+   "alias": [
+    "clomifeno",
+    "citrato de clomifeno"
+   ],
+   "def": "Modulador selectivo de receptores estrogénicos que aumenta la FSH hipofisaria; alternativa clásica inductora de ovulación (el letrozol lo supera en SOP).",
+   "pagina": 12,
+   "clase": "gin-02",
+   "claseTitulo": "20.2 Síndrome de Ovario Poliquístico (SOP): Criterios de Rotterdam, Resistencia a la Insulina y Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Sangrado_uterino_anormal": {
+   "termino": "Sangrado uterino anormal",
+   "tipo": "Concepto",
+   "alias": [
+    "sangrado uterino anormal",
+    "SUA",
+    "metrorragia",
+    "menorragia"
+   ],
+   "def": "Se clasifica con el sistema FIGO PALM-COEIN. Manifestación cardinal del cáncer de endometrio: metrorragia en la postmenopausia.",
+   "pagina": 14,
+   "clase": "gin-03",
+   "claseTitulo": "20.3 Sangrado Uterino Anormal (SUA): Clasificación FIGO PALM-COEIN, Estudio con Biopsia Endometrial y Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 12
+  },
+  "PALM_COEIN": {
+   "termino": "PALM-COEIN",
+   "tipo": "Concepto",
+   "alias": [
+    "PALM-COEIN",
+    "PALM COEIN"
+   ],
+   "def": "Clasificación FIGO de causas de SUA: estructurales (Pólipo, Adenomiosis, Leiomioma, Malignidad) y no estructurales (COEIN).",
+   "pagina": 14,
+   "clase": "gin-03",
+   "claseTitulo": "20.3 Sangrado Uterino Anormal (SUA): Clasificación FIGO PALM-COEIN, Estudio con Biopsia Endometrial y Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Polipo_endometrial": {
+   "termino": "Pólipo endometrial",
+   "tipo": "Concepto",
+   "alias": [
+    "pólipo endometrial",
+    "pólipos endometriales"
+   ],
+   "def": "Proliferación hiperplásica focal benigna de glándulas y estroma endometrial; la P de PALM.",
+   "pagina": 14,
+   "clase": "gin-03",
+   "claseTitulo": "20.3 Sangrado Uterino Anormal (SUA): Clasificación FIGO PALM-COEIN, Estudio con Biopsia Endometrial y Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Hiperplasia_endometrial": {
+   "termino": "Hiperplasia endometrial",
+   "tipo": "Concepto",
+   "alias": [
+    "hiperplasia endometrial"
+   ],
+   "def": "Con atipias es precursora del adenocarcinoma de endometrio, en contexto de hiperestrogenismo crónico sin oposición de progesterona.",
+   "pagina": 14,
+   "clase": "gin-03",
+   "claseTitulo": "20.3 Sangrado Uterino Anormal (SUA): Clasificación FIGO PALM-COEIN, Estudio con Biopsia Endometrial y Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Biopsia_endometrial": {
+   "termino": "Biopsia endometrial",
+   "tipo": "Examen",
+   "alias": [
+    "biopsia endometrial",
+    "biopsia de endometrio"
+   ],
+   "def": "Ambulatoria (Pipelle): OBLIGATORIA en toda mujer ≥ 45 años con SUA, y en menores de 45 con factores de riesgo.",
+   "pagina": 14,
+   "clase": "gin-03",
+   "claseTitulo": "20.3 Sangrado Uterino Anormal (SUA): Clasificación FIGO PALM-COEIN, Estudio con Biopsia Endometrial y Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Acido_tranexamico": {
+   "termino": "Ácido tranexámico",
+   "tipo": "Farmaco",
+   "alias": [
+    "ácido tranexámico"
+   ],
+   "def": "Antifibrinolítico no hormonal; de elección si la paciente busca embarazo. En hemorragia aguda se da 1 g EV cada 8 horas.",
+   "pagina": 15,
+   "clase": "gin-03",
+   "claseTitulo": "20.3 Sangrado Uterino Anormal (SUA): Clasificación FIGO PALM-COEIN, Estudio con Biopsia Endometrial y Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 8
+  },
+  "DIU_de_levonorgestrel": {
+   "termino": "DIU de levonorgestrel",
+   "tipo": "Farmaco",
+   "alias": [
+    "DIU de levonorgestrel",
+    "DIU hormonal",
+    "SIU-LNG"
+   ],
+   "def": "Tratamiento médico de máxima eficacia para SUA no estructural (Mirena); también primera elección en hiperplasia sin atipia.",
+   "pagina": 18,
+   "clase": "gin-03",
+   "claseTitulo": "20.3 Sangrado Uterino Anormal (SUA): Clasificación FIGO PALM-COEIN, Estudio con Biopsia Endometrial y Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Mioma_uterino": {
+   "termino": "Mioma uterino",
+   "tipo": "Concepto",
+   "alias": [
+    "mioma uterino",
+    "miomatosis uterina",
+    "miomatosis",
+    "leiomioma",
+    "miomas",
+    "mioma"
+   ],
+   "def": "Se clasifica por localización (FIGO). Los asintomáticos tienen conducta expectante.",
+   "pagina": 20,
+   "clase": "gin-04",
+   "claseTitulo": "20.4 Patología Benigna Uterina: Miomatosis Uterina (FIGO 0-8) y Adenomiosis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 30
+  },
+  "Degeneracion_roja": {
+   "termino": "Degeneración roja",
+   "tipo": "Concepto",
+   "alias": [
+    "degeneración roja",
+    "infarto hemorrágico del mioma"
+   ],
+   "def": "Infarto aséptico doloroso típico del embarazo.",
+   "pagina": 20,
+   "clase": "gin-04",
+   "claseTitulo": "20.4 Patología Benigna Uterina: Miomatosis Uterina (FIGO 0-8) y Adenomiosis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Adenomiosis": {
+   "termino": "Adenomiosis",
+   "tipo": "Concepto",
+   "alias": [
+    "adenomiosis"
+   ],
+   "def": "Glándulas y estroma endometrial en el miometrio; cursa con hipermenorrea, dismenorrea secundaria severa y útero globuloso, blando y doloroso.",
+   "pagina": 27,
+   "clase": "gin-05",
+   "claseTitulo": "20.5 Endometriosis y Adenomiosis: Tríada Cardinal, Diagnóstico y Manejo Médico Escalonado",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 11
+  },
+  "Endometriosis": {
+   "termino": "Endometriosis",
+   "tipo": "Concepto",
+   "alias": [
+    "endometriosis"
+   ],
+   "def": "Tríada cardinal: dismenorrea secundaria progresiva, dispareunia profunda e infertilidad. Localización más frecuente: ovarios.",
+   "pagina": 27,
+   "clase": "gin-05",
+   "claseTitulo": "20.5 Endometriosis y Adenomiosis: Tríada Cardinal, Diagnóstico y Manejo Médico Escalonado",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 23
+  },
+  "Endometrioma": {
+   "termino": "Endometrioma",
+   "tipo": "Concepto",
+   "alias": [
+    "endometrioma",
+    "quiste de chocolate"
+   ],
+   "def": "Quiste de chocolate del ovario: en la ecografía, quiste homogéneo con ecos finos en vidrio esmerilado sin papilas.",
+   "pagina": 27,
+   "clase": "gin-05",
+   "claseTitulo": "20.5 Endometriosis y Adenomiosis: Tríada Cardinal, Diagnóstico y Manejo Médico Escalonado",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Dismenorrea": {
+   "termino": "Dismenorrea",
+   "tipo": "Concepto",
+   "alias": [
+    "dismenorrea primaria",
+    "dismenorrea secundaria",
+    "dismenorrea"
+   ],
+   "def": "Primaria: aparece 6-12 meses tras la menarquia con examen normal; se trata con AINE. Secundaria: endometriosis, adenomiosis, miomas, EIP.",
+   "pagina": 27,
+   "clase": "gin-05",
+   "claseTitulo": "20.5 Endometriosis y Adenomiosis: Tríada Cardinal, Diagnóstico y Manejo Médico Escalonado",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 14
+  },
+  "Dispareunia": {
+   "termino": "Dispareunia",
+   "tipo": "Signo",
+   "alias": [
+    "dispareunia"
+   ],
+   "def": "Dolor en la relación sexual. Profunda en la tríada de la endometriosis; en la menopausia se trata con lubricantes y estrógenos vaginales locales.",
+   "pagina": 27,
+   "clase": "gin-05",
+   "claseTitulo": "20.5 Endometriosis y Adenomiosis: Tríada Cardinal, Diagnóstico y Manejo Médico Escalonado",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Tacto_bimanual": {
+   "termino": "Tacto bimanual",
+   "tipo": "Examen",
+   "alias": [
+    "tacto bimanual",
+    "tacto ginecológico",
+    "tacto rectovaginal"
+   ],
+   "def": "Se completa tras el espéculo; el dolor a la movilización cervical sugiere EIP. El rectovaginal evalúa septum, uterosacros y parametrios.",
+   "pagina": 20,
+   "clase": "gin-04",
+   "claseTitulo": "20.4 Patología Benigna Uterina: Miomatosis Uterina (FIGO 0-8) y Adenomiosis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "AINE": {
+   "termino": "AINE",
+   "tipo": "Farmaco",
+   "alias": [
+    "AINE",
+    "antiinflamatorios no esteroidales"
+   ],
+   "def": "Tratamiento de la dismenorrea primaria: ibuprofeno, naproxeno o ácido mefenámico, iniciados al comenzar el dolor o el sangrado.",
+   "pagina": 30,
+   "clase": "gin-05",
+   "claseTitulo": "20.5 Endometriosis y Adenomiosis: Tríada Cardinal, Diagnóstico y Manejo Médico Escalonado",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Agonistas_de_GnRH": {
+   "termino": "Agonistas de GnRH",
+   "tipo": "Farmaco",
+   "alias": [
+    "agonistas de GnRH",
+    "análogos de GnRH"
+   ],
+   "def": "Análogos (leuprolide): producen hipoestrogenismo profundo con reducción del 30-50% del volumen del mioma.",
+   "pagina": 20,
+   "clase": "gin-04",
+   "claseTitulo": "20.4 Patología Benigna Uterina: Miomatosis Uterina (FIGO 0-8) y Adenomiosis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Dienogest": {
+   "termino": "Dienogest",
+   "tipo": "Farmaco",
+   "alias": [
+    "dienogest"
+   ],
+   "def": "2 mg/día oral continuo: tratamiento médico de elección del dolor pélvico en endometriosis; atrofia los focos sin efectos androgénicos.",
+   "pagina": 27,
+   "clase": "gin-05",
+   "claseTitulo": "20.5 Endometriosis y Adenomiosis: Tríada Cardinal, Diagnóstico y Manejo Médico Escalonado",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Prolapso_de_organos_pelvicos": {
+   "termino": "Prolapso de órganos pélvicos",
+   "tipo": "Concepto",
+   "alias": [
+    "prolapso de órganos pélvicos",
+    "prolapso genital",
+    "POP",
+    "prolapso uterino"
+   ],
+   "def": "Descenso de la pared vaginal anterior (cistocele), posterior (rectocele) o del compartimento apical. Se estadifica con POP-Q.",
+   "pagina": 32,
+   "clase": "gin-06",
+   "claseTitulo": "20.6 Prolapso de Órganos Pélvicos (POP-Q) e Incontinencia Urinaria de Esfuerzo vs Urgencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Sistema_POP_Q": {
+   "termino": "Sistema POP-Q",
+   "tipo": "Examen",
+   "alias": [
+    "POP-Q"
+   ],
+   "def": "Estadificación del prolapso con el himen como punto 0 cm. Estadio II: entre -1 cm y +1 cm del himen; IV: eversión completa.",
+   "pagina": 32,
+   "clase": "gin-06",
+   "claseTitulo": "20.6 Prolapso de Órganos Pélvicos (POP-Q) e Incontinencia Urinaria de Esfuerzo vs Urgencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Cistocele": {
+   "termino": "Cistocele",
+   "tipo": "Concepto",
+   "alias": [
+    "cistocele"
+   ],
+   "def": "Prolapso de la pared vaginal anterior; su cirugía es la colporrafia anterior.",
+   "pagina": 32,
+   "clase": "gin-06",
+   "claseTitulo": "20.6 Prolapso de Órganos Pélvicos (POP-Q) e Incontinencia Urinaria de Esfuerzo vs Urgencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Rectocele": {
+   "termino": "Rectocele",
+   "tipo": "Concepto",
+   "alias": [
+    "rectocele"
+   ],
+   "def": "Prolapso de la pared vaginal posterior; su cirugía es la colporrafia posterior.",
+   "pagina": 32,
+   "clase": "gin-06",
+   "claseTitulo": "20.6 Prolapso de Órganos Pélvicos (POP-Q) e Incontinencia Urinaria de Esfuerzo vs Urgencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Incontinencia_urinaria_de_esfuerzo": {
+   "termino": "Incontinencia urinaria de esfuerzo",
+   "tipo": "Concepto",
+   "alias": [
+    "incontinencia urinaria de esfuerzo",
+    "IUE"
+   ],
+   "def": "Escape con el esfuerzo. Tratamiento quirúrgico de elección: cintas mediouretrales libres de tensión (TOT / TVT).",
+   "pagina": 32,
+   "clase": "gin-06",
+   "claseTitulo": "20.6 Prolapso de Órganos Pélvicos (POP-Q) e Incontinencia Urinaria de Esfuerzo vs Urgencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Incontinencia_urinaria_de_urgencia": {
+   "termino": "Incontinencia urinaria de urgencia",
+   "tipo": "Concepto",
+   "alias": [
+    "incontinencia urinaria de urgencia",
+    "vejiga hiperactiva",
+    "IUU"
+   ],
+   "def": "Escape tras deseo imperioso súbito por hiperactividad del detrusor. La cirugía está contraindicada; se trata con reeducación vesical y antimuscarínicos.",
+   "pagina": 32,
+   "clase": "gin-06",
+   "claseTitulo": "20.6 Prolapso de Órganos Pélvicos (POP-Q) e Incontinencia Urinaria de Esfuerzo vs Urgencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Anticolinergicos": {
+   "termino": "Anticolinérgicos",
+   "tipo": "Farmaco",
+   "alias": [
+    "anticolinérgicos",
+    "oxibutinina"
+   ],
+   "def": "Antimuscarínicos (solifenacina, oxibutinina, tolterodina): bloquean receptores M2 y M3 del detrusor; 1.ª línea en incontinencia de urgencia.",
+   "pagina": 32,
+   "clase": "gin-06",
+   "claseTitulo": "20.6 Prolapso de Órganos Pélvicos (POP-Q) e Incontinencia Urinaria de Esfuerzo vs Urgencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Ejercicios_de_Kegel": {
+   "termino": "Ejercicios de Kegel",
+   "tipo": "Concepto",
+   "alias": [
+    "ejercicios de Kegel",
+    "Kegel",
+    "ejercicios de suelo pélvico"
+   ],
+   "def": "Contracción del elevador del ano: fisioterapia del suelo pélvico en el tratamiento leve a moderado de la incontinencia y el prolapso.",
+   "pagina": 32,
+   "clase": "gin-06",
+   "claseTitulo": "20.6 Prolapso de Órganos Pélvicos (POP-Q) e Incontinencia Urinaria de Esfuerzo vs Urgencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Infertilidad": {
+   "termino": "Infertilidad",
+   "tipo": "Concepto",
+   "alias": [
+    "infertilidad conyugal",
+    "infertilidad",
+    "esterilidad"
+   ],
+   "def": "Se estudia con un estudio básico inicial en cuatro pilares: factor masculino, ovulatorio, tuboperitoneal y uterino.",
+   "pagina": 35,
+   "clase": "gin-07",
+   "claseTitulo": "20.7 Infertilidad Conyugal: Estudio Básico Inicial en Cuatro Pilares y Técnicas de Reproducción Asistida",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 16
+  },
+  "Espermiograma": {
+   "termino": "Espermiograma",
+   "tipo": "Examen",
+   "alias": [
+    "espermiograma"
+   ],
+   "def": "Examen inicial de rigor del factor masculino; requiere 3-5 días de abstinencia. Si está alterado, repetir en 1 a 3 meses.",
+   "pagina": 36,
+   "clase": "gin-07",
+   "claseTitulo": "20.7 Infertilidad Conyugal: Estudio Básico Inicial en Cuatro Pilares y Técnicas de Reproducción Asistida",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Histerosalpingografia": {
+   "termino": "Histerosalpingografía",
+   "tipo": "Examen",
+   "alias": [
+    "histerosalpingografía",
+    "HSG"
+   ],
+   "def": "Radiografía con medio de contraste por el cuello en la primera mitad del ciclo; la prueba de Cotte positiva confirma permeabilidad tubárica.",
+   "pagina": 36,
+   "clase": "gin-07",
+   "claseTitulo": "20.7 Infertilidad Conyugal: Estudio Básico Inicial en Cuatro Pilares y Técnicas de Reproducción Asistida",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Inseminacion_intrauterina": {
+   "termino": "Inseminación intrauterina",
+   "tipo": "Concepto",
+   "alias": [
+    "inseminación intrauterina",
+    "inseminación artificial",
+    "IIU"
+   ],
+   "def": "Baja complejidad. Requiere al menos una trompa permeable y REM > 3-5 millones.",
+   "pagina": 36,
+   "clase": "gin-07",
+   "claseTitulo": "20.7 Infertilidad Conyugal: Estudio Básico Inicial en Cuatro Pilares y Técnicas de Reproducción Asistida",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Fertilizacion_in_vitro": {
+   "termino": "Fertilización in vitro",
+   "tipo": "Concepto",
+   "alias": [
+    "fertilización in vitro",
+    "FIV",
+    "ICSI"
+   ],
+   "def": "Alta complejidad (FIV / ICSI). Se indica tras fracaso reiterado de técnicas de baja complejidad (3 a 4 intentos de IIU).",
+   "pagina": 36,
+   "clase": "gin-07",
+   "claseTitulo": "20.7 Infertilidad Conyugal: Estudio Básico Inicial en Cuatro Pilares y Técnicas de Reproducción Asistida",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Reserva_ovarica": {
+   "termino": "Reserva ovárica",
+   "tipo": "Concepto",
+   "alias": [
+    "reserva ovárica",
+    "hormona antimülleriana",
+    "recuento de folículos antrales"
+   ],
+   "def": "Valores < 0.5-1.0 ng/mL indican baja reserva ovárica; es una indicación de técnicas de alta complejidad.",
+   "pagina": 35,
+   "clase": "gin-07",
+   "claseTitulo": "20.7 Infertilidad Conyugal: Estudio Básico Inicial en Cuatro Pilares y Técnicas de Reproducción Asistida",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Anticoncepcion_de_emergencia": {
+   "termino": "Anticoncepción de emergencia",
+   "tipo": "Concepto",
+   "alias": [
+    "anticoncepción de emergencia",
+    "píldora del día después",
+    "píldora de emergencia",
+    "PAE"
+   ],
+   "def": "Píldora de emergencia: levonorgestrel 1.5 mg oral en dosis única en las primeras 72 horas; retrasa o frena el pico de LH y la ovulación.",
+   "pagina": 40,
+   "clase": "gin-08",
+   "claseTitulo": "20.8 Anticoncepción y Planificación Familiar: Criterios Médicos de Elegibilidad OMS y Píldora de Emergencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Levonorgestrel": {
+   "termino": "Levonorgestrel",
+   "tipo": "Farmaco",
+   "alias": [
+    "levonorgestrel"
+   ],
+   "def": "Progestágeno de la píldora de emergencia (1.5 mg dosis única en las primeras 72 horas) y del DIU hormonal (Mirena).",
+   "pagina": 40,
+   "clase": "gin-08",
+   "claseTitulo": "20.8 Anticoncepción y Planificación Familiar: Criterios Médicos de Elegibilidad OMS y Píldora de Emergencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Dispositivo_intrauterino": {
+   "termino": "Dispositivo intrauterino",
+   "tipo": "Concepto",
+   "alias": [
+    "dispositivo intrauterino",
+    "DIU de cobre",
+    "DIU"
+   ],
+   "def": "El DIU liberador de levonorgestrel dura 5 a 8 años. La inserción solo aumenta el riesgo de EIP durante las primeras 3 a 6 semanas.",
+   "pagina": 40,
+   "clase": "gin-08",
+   "claseTitulo": "20.8 Anticoncepción y Planificación Familiar: Criterios Médicos de Elegibilidad OMS y Píldora de Emergencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 23
+  },
+  "Implante_subdermico": {
+   "termino": "Implante subdérmico",
+   "tipo": "Concepto",
+   "alias": [
+    "implante subdérmico",
+    "implante anticonceptivo",
+    "etonogestrel"
+   ],
+   "def": "Etonogestrel en varilla flexible en la cara interna del brazo; método reversible con menor tasa de falla (Pearl 0.05).",
+   "pagina": 41,
+   "clase": "gin-08",
+   "claseTitulo": "20.8 Anticoncepción y Planificación Familiar: Criterios Médicos de Elegibilidad OMS y Píldora de Emergencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Acetato_de_medroxiprogesterona": {
+   "termino": "Acetato de medroxiprogesterona",
+   "tipo": "Farmaco",
+   "alias": [
+    "acetato de medroxiprogesterona",
+    "medroxiprogesterona",
+    "AMPD"
+   ],
+   "def": "Inyectable trimestral 150 mg IM: puede producir amenorrea en 50-70% y retrasar la fertilidad hasta 9-12 meses tras el retiro.",
+   "pagina": 6,
+   "clase": "gin-01",
+   "claseTitulo": "20.1 Fisiología del Ciclo Menstrual, Eje Hipotálamo-Hipófisis-Ovario y Estudio de la Amenorrea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Anticonceptivos_de_solo_progestageno": {
+   "termino": "Anticonceptivos de solo progestágeno",
+   "tipo": "Concepto",
+   "alias": [
+    "solo progestágeno",
+    "minipíldora"
+   ],
+   "def": "Implante, minipíldora y DIU-LNG: NO aumentan el riesgo de trombosis, por lo que son alternativa si no puede recibir estrógeno.",
+   "pagina": 40,
+   "clase": "gin-08",
+   "claseTitulo": "20.8 Anticoncepción y Planificación Familiar: Criterios Médicos de Elegibilidad OMS y Píldora de Emergencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Metodo_de_la_lactancia_amenorrea": {
+   "termino": "Método de la lactancia amenorrea",
+   "tipo": "Concepto",
+   "alias": [
+    "MELA",
+    "método de lactancia amenorrea"
+   ],
+   "def": "Eficaz (~98%) si se cumplen tres condiciones: lactancia exclusiva o casi exclusiva a libre demanda, amenorrea y bebé < 6 meses.",
+   "pagina": 40,
+   "clase": "gin-08",
+   "claseTitulo": "20.8 Anticoncepción y Planificación Familiar: Criterios Médicos de Elegibilidad OMS y Píldora de Emergencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Vaginosis_bacteriana": {
+   "termino": "Vaginosis bacteriana",
+   "tipo": "Concepto",
+   "alias": [
+    "vaginosis bacteriana"
+   ],
+   "def": "Se diagnostica con los criterios de Amsel; pH > 4,5. Tratamiento: metronidazol oral 500 mg c/12h x 7 días.",
+   "pagina": 48,
+   "clase": "gin-09",
+   "claseTitulo": "20.9 Infecciones del Tracto Genital Inferior: Vulvovaginitis (Amsel) y Cervicitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Criterios_de_Amsel": {
+   "termino": "Criterios de Amsel",
+   "tipo": "Examen",
+   "alias": [
+    "criterios de Amsel",
+    "Amsel"
+   ],
+   "def": "Estándar clínico de la vaginosis bacteriana: se requieren al menos 3 de los 4 criterios.",
+   "pagina": 48,
+   "clase": "gin-09",
+   "claseTitulo": "20.9 Infecciones del Tracto Genital Inferior: Vulvovaginitis (Amsel) y Cervicitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Clue_cells": {
+   "termino": "Clue cells",
+   "tipo": "Signo",
+   "alias": [
+    "clue cells",
+    "células clave"
+   ],
+   "def": "Células epiteliales descamadas cubiertas de cocobacilos que borran sus bordes, en más del 20% de las células; criterio de Amsel.",
+   "pagina": 48,
+   "clase": "gin-09",
+   "claseTitulo": "20.9 Infecciones del Tracto Genital Inferior: Vulvovaginitis (Amsel) y Cervicitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Test_de_aminas": {
+   "termino": "Test de aminas",
+   "tipo": "Examen",
+   "alias": [
+    "test de aminas",
+    "prueba de aminas",
+    "test de whiff"
+   ],
+   "def": "Whiff test: al añadir KOH al 10% a la secreción se desprende un fuerte olor a pescado descompuesto; positivo en la vaginosis.",
+   "pagina": 48,
+   "clase": "gin-09",
+   "claseTitulo": "20.9 Infecciones del Tracto Genital Inferior: Vulvovaginitis (Amsel) y Cervicitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Candidiasis_vulvovaginal": {
+   "termino": "Candidiasis vulvovaginal",
+   "tipo": "Concepto",
+   "alias": [
+    "candidiasis vulvovaginal",
+    "candidiasis vaginal",
+    "candidiasis"
+   ],
+   "def": "Prurito intenso, leucorrea en leche cortada adherente y pH ácido normal. Fluconazol 150 mg oral dosis única; en embarazo, clotrimazol óvulos.",
+   "pagina": 48,
+   "clase": "gin-09",
+   "claseTitulo": "20.9 Infecciones del Tracto Genital Inferior: Vulvovaginitis (Amsel) y Cervicitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Tricomoniasis": {
+   "termino": "Tricomoniasis",
+   "tipo": "Concepto",
+   "alias": [
+    "tricomoniasis",
+    "Trichomonas vaginalis",
+    "Trichomonas"
+   ],
+   "def": "ITS con flujo espumoso amarillo-verdoso, cuello en fresa y protozoo flagelado móvil. Metronidazol 2 g dosis única a la paciente y su pareja.",
+   "pagina": 49,
+   "clase": "gin-09",
+   "claseTitulo": "20.9 Infecciones del Tracto Genital Inferior: Vulvovaginitis (Amsel) y Cervicitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Cervicitis": {
+   "termino": "Cervicitis",
+   "tipo": "Concepto",
+   "alias": [
+    "cervicitis"
+   ],
+   "def": "Secreción cervical purulenta (mucopurulenta); causada por clamidia y gonococo.",
+   "pagina": 48,
+   "clase": "gin-09",
+   "claseTitulo": "20.9 Infecciones del Tracto Genital Inferior: Vulvovaginitis (Amsel) y Cervicitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Chlamydia_trachomatis": {
+   "termino": "Chlamydia trachomatis",
+   "tipo": "Concepto",
+   "alias": [
+    "Chlamydia trachomatis",
+    "clamidia",
+    "Chlamydia"
+   ],
+   "def": "Iniciador primario de la EIP (30-40%); se cubre con doxiciclina 100 mg cada 12 horas por 14 días.",
+   "pagina": 58,
+   "clase": "gin-11",
+   "claseTitulo": "20.11 Enfermedad Pélvica Inflamatoria (EIP / PIP): Criterios de Hager, Clasificación de Monif y Esquemas Terapéuticos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Neisseria_gonorrhoeae": {
+   "termino": "Neisseria gonorrhoeae",
+   "tipo": "Concepto",
+   "alias": [
+    "Neisseria gonorrhoeae",
+    "gonococo",
+    "gonorrea"
+   ],
+   "def": "Iniciador primario de la EIP (20-30%); se cubre con ceftriaxona 500 mg IM en dosis única.",
+   "pagina": 58,
+   "clase": "gin-11",
+   "claseTitulo": "20.11 Enfermedad Pélvica Inflamatoria (EIP / PIP): Criterios de Hager, Clasificación de Monif y Esquemas Terapéuticos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Metronidazol": {
+   "termino": "Metronidazol",
+   "tipo": "Farmaco",
+   "alias": [
+    "metronidazol"
+   ],
+   "def": "Vaginosis: 500 mg c/12h x 7 días. Tricomoniasis: 2 g dosis única, con la pareja. Prohibido el alcohol (efecto antabuse).",
+   "pagina": 49,
+   "clase": "gin-09",
+   "claseTitulo": "20.9 Infecciones del Tracto Genital Inferior: Vulvovaginitis (Amsel) y Cervicitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Fluconazol": {
+   "termino": "Fluconazol",
+   "tipo": "Farmaco",
+   "alias": [
+    "fluconazol"
+   ],
+   "def": "150 mg oral en dosis única para candidiasis; contraindicado en el embarazo.",
+   "pagina": 48,
+   "clase": "gin-09",
+   "claseTitulo": "20.9 Infecciones del Tracto Genital Inferior: Vulvovaginitis (Amsel) y Cervicitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Ceftriaxona": {
+   "termino": "Ceftriaxona",
+   "tipo": "Farmaco",
+   "alias": [
+    "ceftriaxona"
+   ],
+   "def": "500 mg IM en dosis única; cubre gonococo en el esquema ambulatorio de la EIP.",
+   "pagina": 50,
+   "clase": "gin-09",
+   "claseTitulo": "20.9 Infecciones del Tracto Genital Inferior: Vulvovaginitis (Amsel) y Cervicitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Doxiciclina": {
+   "termino": "Doxiciclina",
+   "tipo": "Farmaco",
+   "alias": [
+    "doxiciclina"
+   ],
+   "def": "100 mg c/12h por 14 días en EIP (cubre clamidia); también en linfogranuloma venéreo.",
+   "pagina": 50,
+   "clase": "gin-09",
+   "claseTitulo": "20.9 Infecciones del Tracto Genital Inferior: Vulvovaginitis (Amsel) y Cervicitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "pH_vaginal": {
+   "termino": "pH vaginal",
+   "tipo": "Examen",
+   "alias": [
+    "pH vaginal"
+   ],
+   "def": "Normal y ácido < 4.5; alcalino > 4.5 (5.0 a 5.5) en vaginosis, tricomoniasis o atrofia. Se mide en la pared vaginal lateral.",
+   "pagina": 48,
+   "clase": "gin-09",
+   "claseTitulo": "20.9 Infecciones del Tracto Genital Inferior: Vulvovaginitis (Amsel) y Cervicitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Especuloscopia": {
+   "termino": "Especuloscopia",
+   "tipo": "Examen",
+   "alias": [
+    "especuloscopia",
+    "examen con espéculo"
+   ],
+   "def": "Examen en litotomía tras inspeccionar la vulva; en ella se toman las muestras (PAP, pH, fresco, cultivo, PCR de clamidia y gonococo).",
+   "pagina": 51,
+   "clase": "gin-09",
+   "claseTitulo": "20.9 Infecciones del Tracto Genital Inferior: Vulvovaginitis (Amsel) y Cervicitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Sifilis": {
+   "termino": "Sífilis",
+   "tipo": "Concepto",
+   "alias": [
+    "sífilis"
+   ],
+   "def": "Primaria: chancro indoloro. Secundaria: exantema palmo-plantar y condilomas planos.",
+   "pagina": 52,
+   "clase": "gin-09",
+   "claseTitulo": "20.9 Infecciones del Tracto Genital Inferior: Vulvovaginitis (Amsel) y Cervicitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Absceso_de_Bartolino": {
+   "termino": "Absceso de Bartolino",
+   "tipo": "Concepto",
+   "alias": [
+    "absceso de Bartolino",
+    "absceso de la glándula de Bartolino"
+   ],
+   "def": "Dolor agudo intenso, masa fluctuante y eritema. Tratamiento curativo: drenaje quirúrgico con marsupialización (o catéter de Word).",
+   "pagina": 54,
+   "clase": "gin-10",
+   "claseTitulo": "20.10 Patología Vulvar y Glándula de Bartolino: Quiste vs Absceso de Bartolino y Liquen Escleroso",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Quiste_de_Bartolino": {
+   "termino": "Quiste de Bartolino",
+   "tipo": "Concepto",
+   "alias": [
+    "quiste de Bartolino",
+    "quiste de la glándula de Bartolino",
+    "glándula de Bartolino"
+   ],
+   "def": "Retención de moco aséptica e indolora; si es sintomático o recurrente: marsupialización.",
+   "pagina": 54,
+   "clase": "gin-10",
+   "claseTitulo": "20.10 Patología Vulvar y Glándula de Bartolino: Quiste vs Absceso de Bartolino y Liquen Escleroso",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Liquen_escleroso": {
+   "termino": "Liquen escleroso",
+   "tipo": "Concepto",
+   "alias": [
+    "liquen escleroso vulvar",
+    "liquen escleroso"
+   ],
+   "def": "Dermatosis inflamatoria crónica autoinmune, predominante en mujeres postmenopáusicas. Elección: clobetasol 0.05% en ungüento.",
+   "pagina": 54,
+   "clase": "gin-10",
+   "claseTitulo": "20.10 Patología Vulvar y Glándula de Bartolino: Quiste vs Absceso de Bartolino y Liquen Escleroso",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Corticoides_topicos": {
+   "termino": "Corticoides tópicos",
+   "tipo": "Farmaco",
+   "alias": [
+    "clobetasol",
+    "corticoides tópicos"
+   ],
+   "def": "Propionato de clobetasol 0.05% en ungüento cada noche por 4 semanas; tratamiento de elección del liquen escleroso.",
+   "pagina": 54,
+   "clase": "gin-10",
+   "claseTitulo": "20.10 Patología Vulvar y Glándula de Bartolino: Quiste vs Absceso de Bartolino y Liquen Escleroso",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Marsupializacion": {
+   "termino": "Marsupialización",
+   "tipo": "Concepto",
+   "alias": [
+    "marsupialización"
+   ],
+   "def": "Incisión sobre la mucosa vestibular y sutura de los bordes de la glándula a ella, creando un nuevo ostium permanente de drenaje.",
+   "pagina": 54,
+   "clase": "gin-10",
+   "claseTitulo": "20.10 Patología Vulvar y Glándula de Bartolino: Quiste vs Absceso de Bartolino y Liquen Escleroso",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Enfermedad_pelvica_inflamatoria": {
+   "termino": "Enfermedad pélvica inflamatoria",
+   "tipo": "Concepto",
+   "alias": [
+    "enfermedad pélvica inflamatoria",
+    "EIP",
+    "PIP"
+   ],
+   "def": "Infección ascendente polimicrobiana, iniciada por gonococo y clamidia. Se diagnostica con los criterios de Hager y se estadifica con Monif.",
+   "pagina": 58,
+   "clase": "gin-11",
+   "claseTitulo": "20.11 Enfermedad Pélvica Inflamatoria (EIP / PIP): Criterios de Hager, Clasificación de Monif y Esquemas Terapéuticos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 16
+  },
+  "Criterios_de_Hager": {
+   "termino": "Criterios de Hager",
+   "tipo": "Examen",
+   "alias": [
+    "criterios de Hager",
+    "Hager"
+   ],
+   "def": "Criterios mayores mandatorios (los tres): dolor hipogástrico, dolor a la movilización cervical y dolor anexial.",
+   "pagina": 58,
+   "clase": "gin-11",
+   "claseTitulo": "20.11 Enfermedad Pélvica Inflamatoria (EIP / PIP): Criterios de Hager, Clasificación de Monif y Esquemas Terapéuticos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Clasificacion_de_Monif": {
+   "termino": "Clasificación de Monif",
+   "tipo": "Concepto",
+   "alias": [
+    "clasificación de Monif",
+    "Monif"
+   ],
+   "def": "Estadio I: salpingitis sin peritonitis ni masas. Estadio III: absceso tubo-ovárico. Estadio IV: absceso roto con peritonitis generalizada.",
+   "pagina": 58,
+   "clase": "gin-11",
+   "claseTitulo": "20.11 Enfermedad Pélvica Inflamatoria (EIP / PIP): Criterios de Hager, Clasificación de Monif y Esquemas Terapéuticos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Absceso_tuboovarico": {
+   "termino": "Absceso tuboovárico",
+   "tipo": "Concepto",
+   "alias": [
+    "absceso tuboovárico",
+    "absceso tubo-ovárico"
+   ],
+   "def": "Monif III; criterio de hospitalización. Roto con peritonitis y shock séptico (Monif IV): laparotomía de urgencia inmediata.",
+   "pagina": 58,
+   "clase": "gin-11",
+   "claseTitulo": "20.11 Enfermedad Pélvica Inflamatoria (EIP / PIP): Criterios de Hager, Clasificación de Monif y Esquemas Terapéuticos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Pelviperitonitis": {
+   "termino": "Pelviperitonitis",
+   "tipo": "Concepto",
+   "alias": [
+    "pelviperitonitis"
+   ],
+   "def": "Inflamación peritoneal pelviana, habitualmente por EIP o rotura de un absceso tubo-ovárico (Monif IV); abdomen agudo ginecológico.",
+   "pagina": 58,
+   "clase": "gin-11",
+   "claseTitulo": "20.11 Enfermedad Pélvica Inflamatoria (EIP / PIP): Criterios de Hager, Clasificación de Monif y Esquemas Terapéuticos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Dolor_a_la_movilizacion_cervical": {
+   "termino": "Dolor a la movilización cervical",
+   "tipo": "Signo",
+   "alias": [
+    "dolor a la movilización cervical",
+    "signo del chandelier"
+   ],
+   "def": "Hallazgo del tacto bimanual que sugiere EIP; uno de los tres criterios mayores de Hager.",
+   "pagina": 60,
+   "clase": "gin-11",
+   "claseTitulo": "20.11 Enfermedad Pélvica Inflamatoria (EIP / PIP): Criterios de Hager, Clasificación de Monif y Esquemas Terapéuticos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Sindrome_de_Fitz_Hugh_Curtis": {
+   "termino": "Síndrome de Fitz-Hugh-Curtis",
+   "tipo": "Concepto",
+   "alias": [
+    "Fitz-Hugh-Curtis",
+    "perihepatitis"
+   ],
+   "def": "Perihepatitis con adherencias en cuerdas de violín entre hígado y diafragma.",
+   "pagina": 59,
+   "clase": "gin-11",
+   "claseTitulo": "20.11 Enfermedad Pélvica Inflamatoria (EIP / PIP): Criterios de Hager, Clasificación de Monif y Esquemas Terapéuticos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Menopausia": {
+   "termino": "Menopausia",
+   "tipo": "Concepto",
+   "alias": [
+    "menopausia"
+   ],
+   "def": "Diagnóstico clínico: 12 meses continuos de amenorrea en > 45 años. Todo sangrado tras ese plazo obliga a descartar cáncer endometrial.",
+   "pagina": 64,
+   "clase": "gin-12",
+   "claseTitulo": "20.12 Climaterio, Menopausia y Terapia de Reemplazo Hormonal (TRH): Ventana de Oportunidad y Riesgos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Sofocos": {
+   "termino": "Sofocos",
+   "tipo": "Signo",
+   "alias": [
+    "sofocos",
+    "bochornos",
+    "síntomas vasomotores"
+   ],
+   "def": "Síntomas vasomotores (bochornos y sudoración nocturna) en 75% de las mujeres. Sin TRH: paroxetina, venlafaxina o gabapentina.",
+   "pagina": 64,
+   "clase": "gin-12",
+   "claseTitulo": "20.12 Climaterio, Menopausia y Terapia de Reemplazo Hormonal (TRH): Ventana de Oportunidad y Riesgos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Terapia_de_reemplazo_hormonal": {
+   "termino": "Terapia de reemplazo hormonal",
+   "tipo": "Concepto",
+   "alias": [
+    "terapia de reemplazo hormonal",
+    "terapia hormonal de la menopausia",
+    "TRH"
+   ],
+   "def": "Tiene contraindicaciones absolutas; favorable si se inicia en < 60 años o < 10 años postmenopausia. Los estrógenos solos inducen hiperplasia y cáncer de endometrio.",
+   "pagina": 64,
+   "clase": "gin-12",
+   "claseTitulo": "20.12 Climaterio, Menopausia y Terapia de Reemplazo Hormonal (TRH): Ventana de Oportunidad y Riesgos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 13
+  },
+  "Atrofia_vaginal": {
+   "termino": "Atrofia vaginal",
+   "tipo": "Concepto",
+   "alias": [
+    "atrofia vaginal",
+    "síndrome genitourinario de la menopausia"
+   ],
+   "def": "Atrofia vaginal exclusiva: estrógenos tópicos locales (estriol / promestrieno) en crema u óvulos, sin efectos sistémicos ni necesidad de progestágeno.",
+   "pagina": 64,
+   "clase": "gin-12",
+   "claseTitulo": "20.12 Climaterio, Menopausia y Terapia de Reemplazo Hormonal (TRH): Ventana de Oportunidad y Riesgos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Ventana_de_oportunidad": {
+   "termino": "Ventana de oportunidad",
+   "tipo": "Concepto",
+   "alias": [
+    "ventana de oportunidad"
+   ],
+   "def": "Iniciar la TRH en < 60 años o < 10 años postmenopausia da máximo beneficio y mínimo riesgo.",
+   "pagina": 64,
+   "clase": "gin-12",
+   "claseTitulo": "20.12 Climaterio, Menopausia y Terapia de Reemplazo Hormonal (TRH): Ventana de Oportunidad y Riesgos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Osteoporosis": {
+   "termino": "Osteoporosis",
+   "tipo": "Concepto",
+   "alias": [
+    "osteoporosis"
+   ],
+   "def": "Efecto de largo plazo del hipoestrogenismo: pérdida ósea trabecular acelerada con alto riesgo de fracturas (cadera, vértebras, Colles).",
+   "pagina": 64,
+   "clase": "gin-12",
+   "claseTitulo": "20.12 Climaterio, Menopausia y Terapia de Reemplazo Hormonal (TRH): Ventana de Oportunidad y Riesgos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Estrogenos": {
+   "termino": "Estrógenos",
+   "tipo": "Farmaco",
+   "alias": [
+    "estrógenos",
+    "estradiol"
+   ],
+   "def": "Estradiol induce la fase proliferativa del endometrio; los estrógenos solos inducen hiperplasia y cáncer de endometrio.",
+   "pagina": 5,
+   "clase": "gin-01",
+   "claseTitulo": "20.1 Fisiología del Ciclo Menstrual, Eje Hipotálamo-Hipófisis-Ovario y Estudio de la Amenorrea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 19
+  },
+  "Progestagenos": {
+   "termino": "Progestágenos",
+   "tipo": "Farmaco",
+   "alias": [
+    "progestágenos",
+    "progestágeno",
+    "progesterona"
+   ],
+   "def": "Se asocian al estrógeno en la TRH con útero para proteger el endometrio, a costa de un riesgo mamario añadido.",
+   "pagina": 64,
+   "clase": "gin-12",
+   "claseTitulo": "20.12 Climaterio, Menopausia y Terapia de Reemplazo Hormonal (TRH): Ventana de Oportunidad y Riesgos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 19
+  },
+  "Virus_papiloma_humano": {
+   "termino": "Virus papiloma humano",
+   "tipo": "Concepto",
+   "alias": [
+    "virus papiloma humano",
+    "virus del papiloma humano",
+    "VPH",
+    "HPV"
+   ],
+   "def": "Causa el cáncer cervicouterino; los genotipos 16 y 18 positivos derivan directo a colposcopía.",
+   "pagina": 70,
+   "clase": "gin-13",
+   "claseTitulo": "20.13 Cáncer Cervicouterino (CCU) GES, Lesiones Preinvasoras (Bethesda) y Colposcopía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Cancer_cervicouterino": {
+   "termino": "Cáncer cervicouterino",
+   "tipo": "Concepto",
+   "alias": [
+    "cáncer cervicouterino",
+    "cáncer de cuello uterino",
+    "cáncer de cuello",
+    "CCU",
+    "carcinoma cervicouterino"
+   ],
+   "def": "Cubierto por GES. Estadios precoces sin invasión de parametrios: cirugía radical; ≥ IIB: prohibida la cirugía, quimiorradioterapia.",
+   "pagina": 70,
+   "clase": "gin-13",
+   "claseTitulo": "20.13 Cáncer Cervicouterino (CCU) GES, Lesiones Preinvasoras (Bethesda) y Colposcopía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Papanicolau": {
+   "termino": "Papanicolau",
+   "tipo": "Examen",
+   "alias": [
+    "Papanicolau",
+    "Papanicolaou",
+    "PAP"
+   ],
+   "def": "Tamizaje: cada 3 años tras dos exámenes anuales consecutivos negativos. El frotis se fija de inmediato para evitar la desecación.",
+   "pagina": 70,
+   "clase": "gin-13",
+   "claseTitulo": "20.13 Cáncer Cervicouterino (CCU) GES, Lesiones Preinvasoras (Bethesda) y Colposcopía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 13
+  },
+  "Lesion_intraepitelial_de_alto_grado": {
+   "termino": "Lesión intraepitelial de alto grado",
+   "tipo": "Concepto",
+   "alias": [
+    "lesión intraepitelial de alto grado",
+    "LIEAG",
+    "HSIL",
+    "NIC 2",
+    "NIC 3"
+   ],
+   "def": "LIEAG / H-SIL: corresponde a NIE II y III. Derivación inmediata a colposcopía y biopsia (garantía GES < 30 días).",
+   "pagina": 70,
+   "clase": "gin-13",
+   "claseTitulo": "20.13 Cáncer Cervicouterino (CCU) GES, Lesiones Preinvasoras (Bethesda) y Colposcopía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Lesion_intraepitelial_de_bajo_grado": {
+   "termino": "Lesión intraepitelial de bajo grado",
+   "tipo": "Concepto",
+   "alias": [
+    "lesión intraepitelial de bajo grado",
+    "LIEBG",
+    "LSIL",
+    "NIC 1"
+   ],
+   "def": "LIEBG / L-SIL: infección citopática por VPH, NIE I. En mayores de 30 años se deriva a colposcopía o se repite el PAP en 6 meses.",
+   "pagina": 70,
+   "clase": "gin-13",
+   "claseTitulo": "20.13 Cáncer Cervicouterino (CCU) GES, Lesiones Preinvasoras (Bethesda) y Colposcopía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Colposcopia": {
+   "termino": "Colposcopía",
+   "tipo": "Examen",
+   "alias": [
+    "colposcopía"
+   ],
+   "def": "Derivación a colposcopía y biopsia dirigida ante PAP con LIEAG, NIE II-III o VPH 16 o 18 positivo.",
+   "pagina": 70,
+   "clase": "gin-13",
+   "claseTitulo": "20.13 Cáncer Cervicouterino (CCU) GES, Lesiones Preinvasoras (Bethesda) y Colposcopía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Conizacion": {
+   "termino": "Conización",
+   "tipo": "Concepto",
+   "alias": [
+    "conización",
+    "cono LEEP",
+    "asa LEEP",
+    "LEEP"
+   ],
+   "def": "Tratamiento de NIE II / NIE III: resección con asa electroquirúrgica (LEEP) o cono frío con bisturí, con márgenes libres.",
+   "pagina": 70,
+   "clase": "gin-13",
+   "claseTitulo": "20.13 Cáncer Cervicouterino (CCU) GES, Lesiones Preinvasoras (Bethesda) y Colposcopía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Histerectomia_radical": {
+   "termino": "Histerectomía radical",
+   "tipo": "Concepto",
+   "alias": [
+    "histerectomía radical",
+    "Wertheim"
+   ],
+   "def": "Cirugía radical de Wertheim-Meigs en estadios precoces sin invasión de parametrios (IA, IB1, IB2).",
+   "pagina": 71,
+   "clase": "gin-13",
+   "claseTitulo": "20.13 Cáncer Cervicouterino (CCU) GES, Lesiones Preinvasoras (Bethesda) y Colposcopía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Quimiorradioterapia": {
+   "termino": "Quimiorradioterapia",
+   "tipo": "Concepto",
+   "alias": [
+    "quimiorradioterapia",
+    "radioquimioterapia"
+   ],
+   "def": "Con cisplatino en estadios avanzados con invasión de parametrios (≥ IIB), donde la cirugía está prohibida.",
+   "pagina": 70,
+   "clase": "gin-13",
+   "claseTitulo": "20.13 Cáncer Cervicouterino (CCU) GES, Lesiones Preinvasoras (Bethesda) y Colposcopía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Taponaje_vaginal": {
+   "termino": "Taponaje vaginal",
+   "tipo": "Concepto",
+   "alias": [
+    "taponaje vaginal",
+    "taponamiento vaginal"
+   ],
+   "def": "Hemostasia temporal en hemorragia vaginal o cervical masiva, mientras se repone volumen y se traslada a un centro con resolución.",
+   "pagina": 74,
+   "clase": "gin-13",
+   "claseTitulo": "20.13 Cáncer Cervicouterino (CCU) GES, Lesiones Preinvasoras (Bethesda) y Colposcopía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Test_de_VPH": {
+   "termino": "Test de VPH",
+   "tipo": "Examen",
+   "alias": [
+    "test de VPH",
+    "test VPH",
+    "test de ADN-VPH",
+    "ADN-VPH"
+   ],
+   "def": "Test de ADN-VPH: método primario a partir de los 30 años, cada 5 años si es negativo; si VPH 16 o 18 es positivo, derivación directa a colposcopía.",
+   "pagina": 70,
+   "clase": "gin-13",
+   "claseTitulo": "20.13 Cáncer Cervicouterino (CCU) GES, Lesiones Preinvasoras (Bethesda) y Colposcopía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Cancer_de_mama": {
+   "termino": "Cáncer de mama",
+   "tipo": "Concepto",
+   "alias": [
+    "cáncer de mama",
+    "carcinoma de mama",
+    "cáncer mamario"
+   ],
+   "def": "Hormonoterapia 5 a 10 años; tamizaje GES con mamografía bienal de 50 a 69 años. Factores mayores: mutaciones BRCA1 y BRCA2.",
+   "pagina": 76,
+   "clase": "gin-14",
+   "claseTitulo": "20.14 Cáncer de Mama GES, Tamizaje Mamográfico (BI-RADS) y Patología Mamaria Benigna",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Mamografia": {
+   "termino": "Mamografía",
+   "tipo": "Examen",
+   "alias": [
+    "mamografía"
+   ],
+   "def": "Tamizaje GES: mamografía bilateral bienal (cada 2 años) en mujeres de 50 a 69 años.",
+   "pagina": 76,
+   "clase": "gin-14",
+   "claseTitulo": "20.14 Cáncer de Mama GES, Tamizaje Mamográfico (BI-RADS) y Patología Mamaria Benigna",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 5
+  },
+  "BI_RADS": {
+   "termino": "BI-RADS",
+   "tipo": "Examen",
+   "alias": [
+    "BI-RADS",
+    "BIRADS"
+   ],
+   "def": "Estandariza el reporte y la conducta. BI-RADS 3: probablemente benigno (< 2% riesgo); 4 y 5: sospechosos de malignidad.",
+   "pagina": 76,
+   "clase": "gin-14",
+   "claseTitulo": "20.14 Cáncer de Mama GES, Tamizaje Mamográfico (BI-RADS) y Patología Mamaria Benigna",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 11
+  },
+  "Ecografia_mamaria": {
+   "termino": "Ecografía mamaria",
+   "tipo": "Examen",
+   "alias": [
+    "ecografía mamaria",
+    "ecotomografía mamaria"
+   ],
+   "def": "No se usa como tamizaje en la población general; caracteriza una lesión vista en la mamografía (quiste vs sólido).",
+   "pagina": 76,
+   "clase": "gin-14",
+   "claseTitulo": "20.14 Cáncer de Mama GES, Tamizaje Mamográfico (BI-RADS) y Patología Mamaria Benigna",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Fibroadenoma": {
+   "termino": "Fibroadenoma",
+   "tipo": "Concepto",
+   "alias": [
+    "fibroadenoma"
+   ],
+   "def": "Tumor benigno sólido más frecuente en mujeres jóvenes (15 a 35 años).",
+   "pagina": 76,
+   "clase": "gin-14",
+   "claseTitulo": "20.14 Cáncer de Mama GES, Tamizaje Mamográfico (BI-RADS) y Patología Mamaria Benigna",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Cambios_fibroquisticos": {
+   "termino": "Cambios fibroquísticos",
+   "tipo": "Concepto",
+   "alias": [
+    "cambios fibroquísticos",
+    "condición fibroquística",
+    "enfermedad fibroquística",
+    "mastopatía fibroquística",
+    "displasia mamaria"
+   ],
+   "def": "Patología benigna más frecuente en mujeres de 30 a 50 años: mastalgia cíclica premenstrual y nodularidad difusa en bolsa de perdigones.",
+   "pagina": 77,
+   "clase": "gin-14",
+   "claseTitulo": "20.14 Cáncer de Mama GES, Tamizaje Mamográfico (BI-RADS) y Patología Mamaria Benigna",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Piel_de_naranja": {
+   "termino": "Piel de naranja",
+   "tipo": "Signo",
+   "alias": [
+    "piel de naranja"
+   ],
+   "def": "Edema por compromiso de los linfáticos de la piel de la mama.",
+   "pagina": 77,
+   "clase": "gin-14",
+   "claseTitulo": "20.14 Cáncer de Mama GES, Tamizaje Mamográfico (BI-RADS) y Patología Mamaria Benigna",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Tamoxifeno": {
+   "termino": "Tamoxifeno",
+   "tipo": "Farmaco",
+   "alias": [
+    "tamoxifeno"
+   ],
+   "def": "Hormonoterapia en premenopáusicas; efecto agonista estrogénico sobre el endometrio, por lo que se asocia a cáncer de endometrio.",
+   "pagina": 81,
+   "clase": "gin-15",
+   "claseTitulo": "20.15 Cáncer de Endometrio y Masa Anexial / Cáncer de Ovario: Diagnóstico y Marcadores",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Inhibidores_de_aromatasa": {
+   "termino": "Inhibidores de aromatasa",
+   "tipo": "Farmaco",
+   "alias": [
+    "inhibidores de aromatasa",
+    "inhibidor de aromatasa",
+    "anastrozol",
+    "letrozol"
+   ],
+   "def": "Anastrozol y letrozol: hormonoterapia en postmenopáusicas por 5 a 10 años. Letrozol también induce ovulación.",
+   "pagina": 78,
+   "clase": "gin-14",
+   "claseTitulo": "20.14 Cáncer de Mama GES, Tamizaje Mamográfico (BI-RADS) y Patología Mamaria Benigna",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 5
+  },
+  "HER2": {
+   "termino": "HER2",
+   "tipo": "Concepto",
+   "alias": [
+    "HER2",
+    "trastuzumab"
+   ],
+   "def": "Triple negativo: RE (-), RP (-), HER2 (-); agresivo, no responde a hormonoterapia ni trastuzumab.",
+   "pagina": 76,
+   "clase": "gin-14",
+   "claseTitulo": "20.14 Cáncer de Mama GES, Tamizaje Mamográfico (BI-RADS) y Patología Mamaria Benigna",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Biopsia_del_ganglio_centinela": {
+   "termino": "Biopsia del ganglio centinela",
+   "tipo": "Concepto",
+   "alias": [
+    "ganglio centinela",
+    "biopsia del ganglio centinela"
+   ],
+   "def": "De elección en axila clínicamente negativa para evitar vaciamiento y linfedema (tecnecio-99 o azul de metileno).",
+   "pagina": 77,
+   "clase": "gin-14",
+   "claseTitulo": "20.14 Cáncer de Mama GES, Tamizaje Mamográfico (BI-RADS) y Patología Mamaria Benigna",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Cirugia_conservadora_de_mama": {
+   "termino": "Cirugía conservadora de mama",
+   "tipo": "Concepto",
+   "alias": [
+    "cirugía conservadora",
+    "tumorectomía",
+    "cuadrantectomía"
+   ],
+   "def": "Tumorectomía o cuadrantectomía con márgenes libres; exige siempre radioterapia complementaria de la mama restante.",
+   "pagina": 77,
+   "clase": "gin-14",
+   "claseTitulo": "20.14 Cáncer de Mama GES, Tamizaje Mamográfico (BI-RADS) y Patología Mamaria Benigna",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Mutaciones_BRCA": {
+   "termino": "Mutaciones BRCA",
+   "tipo": "Concepto",
+   "alias": [
+    "BRCA1",
+    "BRCA2",
+    "BRCA"
+   ],
+   "def": "BRCA1 y BRCA2: riesgo acumulado de cáncer de mama del 60-80% y de ovario del 20-40%.",
+   "pagina": 76,
+   "clase": "gin-14",
+   "claseTitulo": "20.14 Cáncer de Mama GES, Tamizaje Mamográfico (BI-RADS) y Patología Mamaria Benigna",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Cancer_de_endometrio": {
+   "termino": "Cáncer de endometrio",
+   "tipo": "Concepto",
+   "alias": [
+    "cáncer de endometrio",
+    "carcinoma endometrial",
+    "adenocarcinoma endometrioide"
+   ],
+   "def": "Los estrógenos solos inducen hiperplasia y cáncer de endometrio; se manifiesta como SUA y se diagnostica por biopsia (Pipelle) o histeroscopía.",
+   "pagina": 81,
+   "clase": "gin-15",
+   "claseTitulo": "20.15 Cáncer de Endometrio y Masa Anexial / Cáncer de Ovario: Diagnóstico y Marcadores",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 12
+  },
+  "Cancer_de_ovario": {
+   "termino": "Cáncer de ovario",
+   "tipo": "Concepto",
+   "alias": [
+    "cáncer de ovario",
+    "carcinoma de ovario",
+    "cáncer ovárico"
+   ],
+   "def": "Asesino silencioso: neoplasia ginecológica más letal, diagnóstico tardío con síntomas digestivos vagos. Citorreducción máxima R0 más carboplatino y paclitaxel.",
+   "pagina": 81,
+   "clase": "gin-15",
+   "claseTitulo": "20.15 Cáncer de Endometrio y Masa Anexial / Cáncer de Ovario: Diagnóstico y Marcadores",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Masa_anexial": {
+   "termino": "Masa anexial",
+   "tipo": "Concepto",
+   "alias": [
+    "masa anexial",
+    "tumor anexial",
+    "tumor ovárico",
+    "masa ovárica"
+   ],
+   "def": "Se evalúa con ecografía (reglas IOTA) y marcadores; prohibido puncionar una masa ovárica sospechosa.",
+   "pagina": 81,
+   "clase": "gin-15",
+   "claseTitulo": "20.15 Cáncer de Endometrio y Masa Anexial / Cáncer de Ovario: Diagnóstico y Marcadores",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Criterios_IOTA": {
+   "termino": "Criterios IOTA",
+   "tipo": "Examen",
+   "alias": [
+    "IOTA"
+   ],
+   "def": "Alta sospecha de malignidad: proyecciones papilares sólidas > 3 mm, septos gruesos, ascitis.",
+   "pagina": 81,
+   "clase": "gin-15",
+   "claseTitulo": "20.15 Cáncer de Endometrio y Masa Anexial / Cáncer de Ovario: Diagnóstico y Marcadores",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 3
+  },
+  "CA_125": {
+   "termino": "CA-125",
+   "tipo": "Examen",
+   "alias": [
+    "CA-125",
+    "CA 125"
+   ],
+   "def": "Elevado en el 80% de los carcinomas epiteliales serosos de alto grado; muy predictivo de malignidad en postmenopáusicas con masa anexial.",
+   "pagina": 81,
+   "clase": "gin-15",
+   "claseTitulo": "20.15 Cáncer de Endometrio y Masa Anexial / Cáncer de Ovario: Diagnóstico y Marcadores",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Alfafetoproteina": {
+   "termino": "Alfafetoproteína",
+   "tipo": "Examen",
+   "alias": [
+    "alfafetoproteína",
+    "AFP"
+   ],
+   "def": "Marcador de tumores germinales en mujeres jóvenes (seno endodérmico), junto a β-hCG (coriocarcinoma) y LDH (disgerminoma).",
+   "pagina": 83,
+   "clase": "gin-15",
+   "claseTitulo": "20.15 Cáncer de Endometrio y Masa Anexial / Cáncer de Ovario: Diagnóstico y Marcadores",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Sindrome_de_Lynch": {
+   "termino": "Síndrome de Lynch",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome de Lynch",
+    "Lynch"
+   ],
+   "def": "HNPCC: mutación en genes de reparación de ADN (MLH1, MSH2); confiere un 40-60% de riesgo de cáncer de endometrio y colon.",
+   "pagina": 81,
+   "clase": "gin-15",
+   "claseTitulo": "20.15 Cáncer de Endometrio y Masa Anexial / Cáncer de Ovario: Diagnóstico y Marcadores",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Tumor_germinal": {
+   "termino": "Tumor germinal",
+   "tipo": "Concepto",
+   "alias": [
+    "tumor germinal",
+    "tumores germinales",
+    "disgerminoma"
+   ],
+   "def": "Tumores de mujeres jóvenes; marcadores: alfa-fetoproteína (seno endodérmico), β-hCG (coriocarcinoma) y LDH (disgerminoma).",
+   "pagina": 83,
+   "clase": "gin-15",
+   "claseTitulo": "20.15 Cáncer de Endometrio y Masa Anexial / Cáncer de Ovario: Diagnóstico y Marcadores",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Teratoma_maduro": {
+   "termino": "Teratoma maduro",
+   "tipo": "Concepto",
+   "alias": [
+    "teratoma maduro",
+    "teratoma",
+    "quiste dermoide"
+   ],
+   "def": "Quiste dermoide; quiste ovárico de 5 a 10 cm que es factor predisponente principal de torsión anexial.",
+   "pagina": 86,
+   "clase": "gin-16",
+   "claseTitulo": "20.16 Urgencias Ginecológicas Quirúrgicas: Torsión Anexial y Rotura de Quiste Ovárico Hemorrágico",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Citorreduccion": {
+   "termino": "Citorreducción",
+   "tipo": "Concepto",
+   "alias": [
+    "citorreducción",
+    "cirugía citorreductora"
+   ],
+   "def": "Citorreducción quirúrgica máxima R0 más carboplatino y paclitaxel: tratamiento estándar del cáncer de ovario.",
+   "pagina": 82,
+   "clase": "gin-15",
+   "claseTitulo": "20.15 Cáncer de Endometrio y Masa Anexial / Cáncer de Ovario: Diagnóstico y Marcadores",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Torsion_anexial": {
+   "termino": "Torsión anexial",
+   "tipo": "Concepto",
+   "alias": [
+    "torsión anexial",
+    "torsión ovárica",
+    "torsión de anexo"
+   ],
+   "def": "Dolor pélvico unilateral hiperagudo, súbito y severo. Un flujo arterial en el Doppler NO la descarta; si hay sospecha, se opera.",
+   "pagina": 86,
+   "clase": "gin-16",
+   "claseTitulo": "20.16 Urgencias Ginecológicas Quirúrgicas: Torsión Anexial y Rotura de Quiste Ovárico Hemorrágico",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Detorsion_conservadora": {
+   "termino": "Detorsión conservadora",
+   "tipo": "Concepto",
+   "alias": [
+    "detorsión conservadora",
+    "detorsión"
+   ],
+   "def": "Laparoscopía urgente que desenrolla el pedículo vascular y evalúa la viabilidad del ovario; conducta de elección actual en torsión.",
+   "pagina": 86,
+   "clase": "gin-16",
+   "claseTitulo": "20.16 Urgencias Ginecológicas Quirúrgicas: Torsión Anexial y Rotura de Quiste Ovárico Hemorrágico",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Quiste_ovarico_hemorragico": {
+   "termino": "Quiste ovárico hemorrágico",
+   "tipo": "Concepto",
+   "alias": [
+    "quiste ovárico hemorrágico",
+    "quiste hemorrágico",
+    "quiste ovárico roto",
+    "quiste hemorrágico roto"
+   ],
+   "def": "Roto: dolor súbito postcoital en fase lútea tardía. Manejo: observación conservadora si está hemodinámicamente estable.",
+   "pagina": 86,
+   "clase": "gin-16",
+   "claseTitulo": "20.16 Urgencias Ginecológicas Quirúrgicas: Torsión Anexial y Rotura de Quiste Ovárico Hemorrágico",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Ecografia_Doppler": {
+   "termino": "Ecografía Doppler",
+   "tipo": "Examen",
+   "alias": [
+    "Doppler"
+   ],
+   "def": "En la torsión se aprecia ausencia o disminución del flujo venoso y arterial; un flujo normal no la descarta.",
+   "pagina": 86,
+   "clase": "gin-16",
+   "claseTitulo": "20.16 Urgencias Ginecológicas Quirúrgicas: Torsión Anexial y Rotura de Quiste Ovárico Hemorrágico",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Embarazo_ectopico": {
+   "termino": "Embarazo ectópico",
+   "tipo": "Concepto",
+   "alias": [
+    "embarazo ectópico"
+   ],
+   "def": "Secuela posible de la EIP, junto con infertilidad y dolor pelviano crónico.",
+   "pagina": 58,
+   "clase": "gin-11",
+   "claseTitulo": "20.11 Enfermedad Pélvica Inflamatoria (EIP / PIP): Criterios de Hager, Clasificación de Monif y Esquemas Terapéuticos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Ginecolog%C3%ADa&clase=gin-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_ginecologia",
+   "embed": null,
+   "notas": 2
+  }
+ }
+}

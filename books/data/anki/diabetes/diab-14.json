@@ -1,0 +1,527 @@
+{
+  "classId": "diab-14",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hipoglicemia nivel 1 (valor de alerta): glicemia {{c1::< 70 mg/dL y ≥ 54 mg/dL}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de severidad ADA",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.006",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hipoglicemia nivel 2 (clínicamente significativa): glicemia {{c1::< 54 mg/dL}}.",
+      "extra": "Aparecen los síntomas neuroglucopénicos incipientes.",
+      "origen": "clase:1",
+      "fuente": "Clase · Tres niveles",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.006",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hipoglicemia nivel 3 (severa) se define por {{c1::la clínica}} (compromiso de conciencia, convulsión o necesidad de un tercero), no por una cifra.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Tres niveles",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.004",
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La tríada de Whipple: síntomas compatibles, {{c1::glicemia baja documentada}} y {{c2::alivio al subir la glicemia}}.",
+      "extra": "Síntomas sin glicemia no bastan, ni la glicemia sin síntomas.",
+      "origen": "clase:2",
+      "fuente": "Clase · Tríada de Whipple",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la tríada de Whipple, la glicemia baja documentada es < {{c1::55}} mg/dL en no diabéticos y < {{c2::70}} mg/dL en diabéticos tratados.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Tríada de Whipple",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los síntomas autonómicos (sudor frío, temblor, taquicardia) aparecen {{c1::antes}} que los neuroglucopénicos.",
+      "extra": "Primero la alarma, después el cerebro.",
+      "origen": "clase:3",
+      "fuente": "Clase · Primero la alarma",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los síntomas neuroglucopénicos (confusión, convulsiones, coma) ocurren con glicemias < {{c1::54–50 mg/dL}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Semiología",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Las convulsiones en un diabético tratado con glibenclamida deben hacer pensar primero en {{c1::hipoglicemia}}, aunque la glicemia de hace 3 días fuera alta.",
+      "extra": "Son un síntoma neuroglucopénico; el paciente suele autorreforzar su dosis.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Agosto 2021",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 72",
+        "EUNACOM Diciembre 2019 · Pregunta 86"
+      ],
+      "codigos": [
+        "1.02.2.006",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El {{c1::propranolol}} (betabloqueador no cardioselectivo) enmascara taquicardia, palpitaciones y temblor de la hipoglicemia.",
+      "extra": "Aumenta el riesgo de hipoglicemia inadvertida.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.006",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Bajo propranolol, el síntoma de hipoglicemia que NO se bloquea es la {{c1::sudoración}}.",
+      "extra": "Está mediada por receptores colinérgicos muscarínicos.",
+      "origen": "clase:3",
+      "fuente": "Clase · Primero la alarma",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.006",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Regla de los 15 en paciente consciente: {{c1::15 g}} de carbohidratos simples por boca, esperar {{c2::15 minutos}} y repetir la glicemia capilar.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Rescate",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2020 · Pregunta 11"
+      ],
+      "codigos": [
+        "1.02.2.006",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Equivalentes de 15 g de azúcar simple: {{c1::150 ml}} de jugo o bebida no light, o 3–4 cucharaditas de azúcar.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Detalles del rescate",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras corregir la hipoglicemia con la regla de los 15 se da una {{c1::colación compleja}} (pan, galletas o leche) para evitar la recaída.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Detalles del rescate",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.006",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el paciente consciente que traga bien, el error es indicar {{c1::glucagón o vía venosa de entrada}}.",
+      "extra": "Corresponde la regla de los 15.",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el paciente inconsciente, está prohibido dar {{c1::líquidos o comida por boca}}.",
+      "extra": "Riesgo de broncoaspiración fatal.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Rescate",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.006",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Inconsciente con vía venosa: {{c1::glucosa al 30% EV, 20–50 ml en bolo}}, seguida de suero glucosado al 10%.",
+      "extra": "Equivale a 2 a 4 ampollas de glucosa al 30%.",
+      "origen": "clase:4",
+      "fuente": "Clase · Lo decide la conciencia",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.004"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Inconsciente sin vía venosa o en domicilio: {{c1::glucagón 1 mg IM o SC}}.",
+      "extra": "El glucagón intranasal es de 3 mg si está disponible.",
+      "origen": "clase:4",
+      "fuente": "Clase · Lo decide la conciencia",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.004"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El glucagón es ineficaz en {{c1::desnutrición, ayuno prolongado o alcoholismo agudo}}.",
+      "extra": "No hay glucógeno que liberar.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Inconsciente y sin glucómetro: el error es {{c1::esperar el resultado}} antes de tratar; se da glucosa empírica.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras el rescate se repite la glicemia a los {{c1::15 minutos}} y luego cada {{c2::1 a 2 horas}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Medir primero",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La glibenclamida es la causa más común de hipoglicemia severa prolongada en {{c1::adultos mayores}}; su vida media llega a 10–16 horas.",
+      "extra": "Sus metabolitos activos se acumulan en falla renal, deshidratación e hipoalbuminemia.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Glibenclamida",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hipoglicemia por sulfonilurea (glibenclamida, glimepirida), aun despierto: {{c1::hospitalizar 24–48 horas}} con suero glucosado al 10%.",
+      "extra": "Regla absoluta del EUNACOM.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Glibenclamida",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Paciente con glibenclamida que despertó tras el bolo de glucosa EV: el error es {{c1::darlo de alta}}.",
+      "extra": "La hipoglicemia recurre horas después.",
+      "origen": "clase:7",
+      "fuente": "Clase · Despertó, pero no se va a la casa",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.006",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hipoglicemias por glibenclamida con HbA1c de 8,1%: la conducta es {{c1::reemplazarla por sitagliptina}}, no suspenderla ni agregar una colación.",
+      "extra": "Los inhibidores de DPP-4 no producen hipoglicemia.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Diciembre 2017",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 40"
+      ],
+      "codigos": [
+        "1.02.2.006",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipoglicemia a las 3 de la madrugada en un paciente con insulina NPH nocturna: {{c1::disminuir la NPH nocturna}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz NPH",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 149",
+        "EUNACOM Agosto 2021 · Pregunta 119"
+      ],
+      "codigos": [
+        "1.02.2.006",
+        "1.02.4.018"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipoglicemia con insulina muy alta y péptido C {{c1::indetectable}}: administración subrepticia de insulina exógena.",
+      "extra": "La insulina propia sale con péptido C; la farmacéutica no lo trae.",
+      "origen": "clase:9",
+      "fuente": "Clase · La muestra crítica",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.006",
+        "1.02.4.018"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Insulinoma: glicemia baja con insulina plasmática {{c1::alta}} y péptido C {{c2::elevado}}.",
+      "extra": "Hiperinsulinismo endógeno.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Estudio diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.006",
+        "1.02.4.018"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Insulina y péptido C altos con screening de sulfonilureas positivo: {{c1::hipoglicemia facticia por sulfonilurea}}, no insulinoma.",
+      "extra": "Con screening negativo, es insulinoma.",
+      "origen": "clase:10",
+      "fuente": "Clase · Insulinoma o facticia",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.006",
+        "1.02.4.018"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En no diabéticos con Whipple confirmada la muestra crítica se toma {{c1::durante el episodio}}: glicemia, insulina, péptido C, proinsulina y sulfonilureas en orina.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · La muestra crítica",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.018",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En una persona sin diabetes, la hipoglicemia se confirma con {{c1::glicemia plasmática venosa}}, no con glucómetro.",
+      "extra": "El glucómetro es impreciso en rangos bajos.",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz glicemia capilar",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.015",
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Compromiso de conciencia: tras el ABC, el primer examen es la {{c1::glicemia capilar}}.",
+      "extra": "Si es < 70 mg/dL se da glucosa EV.",
+      "origen": "clase:20",
+      "fuente": "Clase · Quiz conciencia",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.015",
+        "2.01.2.004"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En el alcohólico o desnutrido con compromiso de conciencia, se da {{c1::tiamina 100 mg EV}} antes o junto con la glucosa.",
+      "extra": "",
+      "origen": "libro:sec:6",
+      "fuente": "Libro §6 Compromiso de conciencia",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.015",
+        "2.01.2.004"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hombre operado de bypass gástrico con sudoración y temblor 2 horas después de comer y glicemia 52 mg/dL: {{c1::dumping tardío}}.",
+      "extra": "Hipoglicemia reactiva postprandial, exclusiva del bypass gástrico.",
+      "origen": "pregunta_real",
+      "fuente": "Pregunta real · Dumping tardío",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 73"
+      ],
+      "codigos": [
+        "1.02.2.006",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el automonitoreo con glicemia capilar, el control más útil en el diabético es a primera hora, {{c1::en ayunas}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "Pregunta real · Control capilar",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 78"
+      ],
+      "codigos": [
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La hipoglicemia en diabético se asocia al GES N° {{c1::2}} (Diabetes Mellitus), con urgencia médica en APS.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Digest · GES",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.006"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Inconsciente con vía venosa: ¿qué se administra?",
+      "codigos": [
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Hipoglicemia por sulfonilurea, ya despierto: ¿destino?",
+      "codigos": [
+        "1.02.2.006",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2",
+      "pista": "Inconsciente sin vía venosa: ¿qué se da?",
+      "codigos": [
+        "1.02.2.006"
+      ]
+    }
+  ]
+}

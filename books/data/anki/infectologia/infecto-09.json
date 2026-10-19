@@ -1,0 +1,656 @@
+{
+ "classId": "infecto-09",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Por la Ley 19.779, el test de VIH es {{c1::voluntario, confidencial}} y exige consentimiento informado firmado.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Diagnóstico",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tamizaje local del VIH se hace con {{c1::ELISA de 4.ª generación (Ag p24 + Ac)}} o test rápido.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ante un test de VIH reactivo en APS, se envía una segunda muestra venosa al {{c1::ISP}} para confirmación.",
+   "extra": "Único organismo legalmente facultado.",
+   "origen": "clase:1",
+   "fuente": "Clase · Algoritmo en dos etapas",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Test rápido o ELISA reactivo: el error clásico es {{c1::informar VIH e iniciar TARV}} sin confirmación del ISP.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un resultado reactivo en el CESFAM es solo {{c1::preliminar}}; el paciente aún no tiene diagnóstico confirmado.",
+   "extra": "Contener al paciente y explicar que es presuntivo.",
+   "origen": "libro:caso",
+   "fuente": "Libro · Caso clínico",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tamizaje negativo con exposición reciente (período de ventana): {{c1::repetir en 3 meses}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Tamizaje negativo con exposición reciente: el error es {{c1::descartar la infección}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Todo caso de VIH confirmado ingresa a la Garantía GES N° {{c1::18}} con cobertura gratuita integral.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 TARV GES",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "El SIDA/VIH está cubierto por el GES N° 18, que incluye {{c1::cobertura gratuita integral}} del tratamiento.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Algoritmo en dos etapas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Al confirmar el VIH se solicitan {{c1::CD4 y carga viral}} basales para etapificar y seguir.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Test and Treat",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estrategia {{c1::Test & Treat}}: TARV inmediata a todo paciente confirmado, sin importar CD4 ni carga viral.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 TARV GES",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "VIH confirmado con CD4 altos: el error es {{c1::esperar a que bajen los CD4}} para iniciar TARV.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Esquema de primera línea en Chile: {{c1::tenofovir + lamivudina + dolutegravir}} (TDF/3TC/DTG).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 TARV GES",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El esquema TDF/3TC/DTG se da co-formulado en {{c1::1 pastilla al día}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Test and Treat",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "El dolutegravir es un inhibidor de {{c1::integrasa}} con alta barrera genética y rápida supresión viral.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Test and Treat",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "El dolutegravir ofrece alta barrera genética y {{c1::rápida supresión viral}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Primera línea en el adulto: el error es usar esquemas con {{c1::efavirenz o zidovudina}}.",
+   "extra": "Desplazados por efectos neuropsiquiátricos y anemia.",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Efavirenz y zidovudina fueron desplazados por sus efectos {{c1::neuropsiquiátricos y anemia}}, respectivamente.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Test and Treat",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La etapificación del VIH usa dos ejes: recuento de {{c1::CD4}} y clínica (A, B, C).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Etapificación",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Categorías de CD4: ≥ 500, {{c1::200–499}} y < 200/mm³.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Etapificación",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Categoría clínica A del VIH: {{c1::asintomático}} (o linfadenopatía persistente, primoinfección).",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla de etapificación",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Categoría clínica B: sintomático {{c1::no SIDA}} (muguet, leucoplasia oral vellosa, zóster recurrente).",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla de etapificación",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Categoría clínica C: enfermedad {{c1::marcadora de SIDA}} (Pneumocystis, toxoplasma, criptococo, TBC extrapulmonar, Kaposi).",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla de etapificación",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Etapa SIDA: CD4 < {{c1::200/mm³}} o una patología marcadora; basta uno de los dos.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Qué es SIDA",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "CD4 < 200 sin síntomas es etapa SIDA (A3); el error es llamarlo {{c1::asintomático no SIDA}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El muguet (candidiasis oral) corresponde a la categoría {{c1::B}}: sintomático, pero no SIDA.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Qué es SIDA",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "I = I: carga viral < {{c1::50 copias/mL}} por más de 6 meses anula el riesgo de transmisión sexual.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 I = I",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "I = I exige carga viral indetectable por más de {{c1::6 meses}} continuos.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Sin intervención, la transmisión vertical del VIH es de {{c1::15–40 %}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Transmisión vertical",
+   "repaso": true,
+   "codigos": [
+    "3.01.1.031"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Con el programa completo, la transmisión vertical del VIH baja a menos de {{c1::2 %}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Transmisión vertical",
+   "repaso": false,
+   "codigos": [
+    "3.01.1.031"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La estrategia más efectiva para evitar la transmisión vertical del VIH es el {{c1::tratamiento antirretroviral a la madre}} durante embarazo y parto.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Transmisión vertical",
+   "repaso": true,
+   "codigos": [
+    "3.01.1.031"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2018 · Pregunta 86",
+    "EUNACOM Diciembre 2024 · Pregunta 99",
+    "EUNACOM Diciembre 2018 · Pregunta 165"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Gestante con VIH sin tratamiento (ej. 32 semanas): lo primero es {{c1::iniciar TARV de inmediato}}, sin esperar el CD4.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Transmisión vertical",
+   "repaso": true,
+   "codigos": [
+    "3.01.1.031"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 99",
+    "EUNACOM Diciembre 2018 · Pregunta 165"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El test de VIH en la gestante se hace en el {{c1::primer control prenatal}} y se repite en el tercer trimestre si hay riesgo.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Transmisión vertical",
+   "repaso": false,
+   "codigos": [
+    "3.01.1.031"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En la gestante con VIH el esquema debe incluir {{c1::dolutegravir}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Transmisión vertical",
+   "repaso": false,
+   "codigos": [
+    "3.01.1.031"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En la gestante con VIH se controla la carga viral a las {{c1::34–36 semanas}}.",
+   "extra": "Meta: indetectable.",
+   "origen": "clase:5",
+   "fuente": "Clase · Transmisión vertical",
+   "repaso": false,
+   "codigos": [
+    "3.01.1.031"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cesárea electiva a las {{c1::38 semanas}} si la carga viral es > 1.000 copias/mL o desconocida.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Transmisión vertical",
+   "repaso": true,
+   "codigos": [
+    "3.01.1.031"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Con carga viral > 1.000 copias/mL o desconocida en el parto, se agrega {{c1::zidovudina EV}} intraparto.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Transmisión vertical",
+   "repaso": false,
+   "codigos": [
+    "3.01.1.031"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Con carga viral < {{c1::1.000 copias/mL}} se permite el parto vaginal.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Transmisión vertical",
+   "repaso": true,
+   "codigos": [
+    "3.01.1.031"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 56"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "El recién nacido de madre con VIH recibe {{c1::zidovudina oral}} por 4 semanas.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Transmisión vertical",
+   "repaso": true,
+   "codigos": [
+    "3.01.1.031"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 56"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el recién nacido expuesto al VIH el diagnóstico se hace con {{c1::PCR}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Transmisión vertical",
+   "repaso": false,
+   "codigos": [
+    "3.01.1.031"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En madre con VIH se {{c1::suspende la lactancia}} y se entrega fórmula láctea (cubierta por GES).",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Transmisión vertical",
+   "repaso": false,
+   "codigos": [
+    "3.01.1.031"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Madre con VIH, carga viral indetectable, posparto: el método anticonceptivo de elección es el {{c1::preservativo}}.",
+   "extra": "Protege además de otras ITS.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 VIH y embarazo",
+   "repaso": false,
+   "codigos": [
+    "3.01.1.031"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 33"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neumonía subaguda con tos irritativa, disnea y paciente enflaquecido con VIH: sospechar {{c1::Pneumocystis jirovecii}}.",
+   "extra": "Marcador de SIDA.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla de etapificación",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 60",
+    "EUNACOM Agosto 2021 · Pregunta 25"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primoinfección por VIH: fiebre, odinofagia, úlceras orales y {{c1::adenopatías cervicales}} bilaterales.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla de etapificación",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.014"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 62"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Diarrea acuosa crónica en un paciente con VIH avanzado: sospechar {{c1::Microsporidium}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla de etapificación",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.014"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 115"
+   ]
+  },
+  {
+   "id": "c46",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Varicela necrohemorrágica en un joven con onicomicosis y dermatitis sugiere {{c1::inmunodeficiencia celular (VIH)}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla de etapificación",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.014"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 57"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.1",
+   "pista": "Test reactivo: ¿qué se hace?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.0",
+   "pista": "VIH confirmado por ISP: ¿qué se solicita?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.0.0",
+   "pista": "¿Cuándo y con qué se inicia TARV?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.0.1",
+   "pista": "Tamizaje negativo con exposición reciente: ¿qué hacer?"
+  }
+ ]
+}

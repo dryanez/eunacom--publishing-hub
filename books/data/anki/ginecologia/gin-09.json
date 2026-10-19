@@ -1,0 +1,490 @@
+{
+  "classId": "gin-09",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La vaginosis bacteriana no es una infección inflamatoria sino una {{c1::disbiosis}}: se pierden los lactobacilos y proliferan Gardnerella y anaerobios.",
+      "extra": "Por eso hay mínimo eritema.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Vaginosis",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los criterios de Amsel diagnostican vaginosis bacteriana cuando hay al menos {{c1::3 de 4}} criterios.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Criterios de Amsel",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Amsel: el flujo de la vaginosis es {{c1::homogéneo, fino, blanco-grisáceo}} y baña las paredes vaginales.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Amsel",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 121"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Amsel: el pH vaginal en vaginosis bacteriana es {{c1::> 4.5}} (generalmente 5.0 a 5.5).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Amsel",
+      "codigos": [
+        "3.01.1.019",
+        "3.01.5.008"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Amsel: al agregar KOH al 10% al flujo hay olor a pescado (test de aminas {{c1::positivo}}).",
+      "extra": "Se volatilizan cadaverina y putrescina.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Amsel",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Amsel: las clue cells deben estar presentes en más del {{c1::20%}} de las células epiteliales.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Amsel",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": false,
+      "imagen": "biblioteca/13_ginecologia/gin-09/01_celulas_clave__cdc-phil-3720.jpg"
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de elección de la vaginosis bacteriana: {{c1::metronidazol}} oral 500 mg cada 12 horas por 7 días.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla vulvovaginitis",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 121",
+        "EUNACOM Julio 2024 · Pregunta 116"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa a metronidazol en vaginosis: {{c1::clindamicina}} (300 mg c/12h oral por 7 días).",
+      "extra": "Es la opción cuando se pide clindamicina tópica en óvulos con DIU.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Tratamiento",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 32"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En vaginosis bacteriana, el error clásico es {{c1::tratar también a la pareja}}: no reduce las recurrencias.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con metronidazol se debe evitar el {{c1::alcohol}} por efecto disulfiram.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En usuarias de DIU de cobre con flujo gris de mal olor y cuello normal, el diagnóstico es {{c1::vaginosis bacteriana}}, no EIP.",
+      "extra": "Vaginosis: sin dolor a la movilización cervical.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Vaginosis",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 116",
+        "EUNACOM Julio 2024 · Pregunta 32"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La candidiasis vulvovaginal es causada en 85-90% por {{c1::Candida albicans}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Candidiasis",
+      "codigos": [
+        "2.01.1.106"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Factores de candidiasis: antibióticos de amplio espectro, embarazo, {{c1::diabetes mal compensada}}, inmunosupresión y corticoides.",
+      "extra": "Los antibióticos destruyen los lactobacilos protectores.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Candidiasis",
+      "codigos": [
+        "2.01.1.106"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síntoma cardinal de la candidiasis vulvovaginal: {{c1::prurito vulvar intenso}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Candidiasis",
+      "codigos": [
+        "2.01.1.106"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 178",
+        "EUNACOM Julio 2019 · Pregunta 176"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Flujo de la candidiasis: blanco, espeso y grumoso, {{c1::en leche cortada}}, habitualmente sin olor.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Candidiasis",
+      "codigos": [
+        "2.01.1.106"
+      ],
+      "repaso": false,
+      "imagen": "biblioteca/13_ginecologia/gin-09/01_leucorrea-candidiasica__amir-gyo_p106.jpg"
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "De las tres vulvovaginitis, solo la candidiasis tiene pH {{c1::< 4.5}} (normal) y test de aminas negativo.",
+      "extra": "Si el pH no sube, piensa en Candida.",
+      "origen": "clase:21",
+      "fuente": "Clase · Reglas de oro",
+      "codigos": [
+        "2.01.1.106",
+        "3.01.5.008"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el examen directo con KOH al 10%, la candidiasis muestra {{c1::pseudohifas y esporas}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Candidiasis",
+      "codigos": [
+        "2.01.1.106"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento oral de la candidiasis: {{c1::fluconazol}} 150 mg en dosis única.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Candidiasis",
+      "codigos": [
+        "2.01.1.106"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 178",
+        "EUNACOM Julio 2019 · Pregunta 176"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento tópico de candidiasis: clotrimazol óvulos de 100 mg por {{c1::6 días}} (o 500 mg dosis única).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Candidiasis",
+      "codigos": [
+        "2.01.1.106"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Candidiasis en el embarazo: se usa {{c1::clotrimazol tópico}}; el error es dar fluconazol oral.",
+      "extra": "En gestantes el clotrimazol se usa por 7 días.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "2.01.1.106"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2018 · Pregunta 136",
+        "EUNACOM Julio 2017 · Pregunta 30"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Prurito, leche cortada y pH normal: el error es confundirlo con {{c1::vaginosis}} por el pH.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "2.01.1.106"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La tricomoniasis es causada por {{c1::Trichomonas vaginalis}}, un protozoo flagelado, y es una ITS.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tricomoniasis",
+      "codigos": [
+        "3.01.1.017"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Flujo de la tricomoniasis: abundante, {{c1::amarillo-verdoso y espumoso}}, de mal olor.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tricomoniasis",
+      "codigos": [
+        "3.01.1.017"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 117"
+      ],
+      "imagen": "biblioteca/13_ginecologia/gin-09/02_tricomonas__cdc.jpg"
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signo del cuello uterino en la tricomoniasis: {{c1::cuello en fresa}} (petequias en el exocérvix).",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tricomoniasis",
+      "codigos": [
+        "3.01.1.017"
+      ],
+      "repaso": false,
+      "imagen": "biblioteca/13_ginecologia/gin-09/02_cervix-en-fresa-trichomonas__cto-gyo_p100.jpg"
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Examen de elección para confirmar tricomoniasis: {{c1::frotis fresco}} del flujo con protozoo flagelado móvil.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Jul 2017",
+      "codigos": [
+        "3.01.1.017",
+        "3.01.5.008"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 117"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tricomoniasis: metronidazol {{c1::2 g}} por vía oral en dosis única.",
+      "extra": "Alternativa: 500 mg c/12h por 7 días.",
+      "origen": "clase:5",
+      "fuente": "Clase · Tricomoniasis",
+      "codigos": [
+        "3.01.1.017"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 172"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En tricomoniasis, el error es tratar {{c1::solo a la paciente}}: la pareja se trata siempre y simultáneamente.",
+      "extra": "Es la única de las tres que es ITS.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.017"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La cervicitis mucopurulenta se manifiesta con secreción purulenta por el orificio cervical y cuello {{c1::friable}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Cervicitis",
+      "codigos": [
+        "3.01.1.017"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 79"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Cervicitis mucopurulenta: ceftriaxona {{c1::500 mg}} IM dosis única más doxiciclina 100 mg c/12h por 7 días.",
+      "extra": "Cubre gonococo y Chlamydia, casi siempre juntos.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · cervicitis",
+      "codigos": [
+        "3.01.1.017"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Cervicitis con cultivo Thayer Martin positivo en alérgica a penicilina: el fármaco sigue siendo {{c1::ceftriaxona}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Jul 2019",
+      "codigos": [
+        "3.01.1.017"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 86"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-09/04_vaginosis-bacteriana-especuloscopia__kumar-clark_p1586.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Vaginosis bacteriana",
+      "clave": "Flujo gris homogéneo que baña las paredes vaginales",
+      "conducta": "Confirmar Amsel; metronidazol oral 500 mg c/12h por 7 días, sin tratar a la pareja",
+      "fuente": "Kumar and Clark, p. 1586",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-09/02_cervix-en-fresa-trichomonas__cto-gyo_p100.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Tricomoniasis (cuello en fresa)",
+      "clave": "Petequias rojas sobre el exocérvix",
+      "conducta": "Metronidazol 2 g dosis única a la paciente y a su pareja",
+      "fuente": "Manual CTO Ginecología y Obstetricia 14.ª ed., p. 100",
+      "codigos": [
+        "3.01.1.017"
+      ],
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Flujo con pH alto: ¿qué miras al microscopio?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1",
+      "pista": "Protozoo móvil: ¿diagnóstico y a quién se trata?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2",
+      "pista": "Secreción purulenta del cuello: ¿qué tratamiento?"
+    }
+  ]
+}

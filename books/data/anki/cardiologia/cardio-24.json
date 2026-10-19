@@ -1,0 +1,632 @@
+{
+ "classId": "cardio-24",
+ "cards": [
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hoy la causa más frecuente de IAo en países desarrollados es la enfermedad de la {{c1::raíz aórtica}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Etiología",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas de IAo por raíz dilatada: hipertensión, Marfan, disección tipo A, sífilis y {{c1::espondiloartritis}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas de IAo por valvas: {{c1::bicúspide}}, endocarditis y fiebre reumática.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la IAo crónica el ventrículo se dilata con hipertrofia {{c1::excéntrica}} y logra un volumen de eyección enorme.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La presión arterial en la IAo es {{c1::divergente}}: la sistólica sube y la diastólica cae por el reflujo.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La angina de la IAo ocurre aun con coronarias sanas porque la perfusión coronaria es {{c1::diastólica}} y la presión diastólica está baja.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La IAo crónica es asintomática por años; la {{c1::FEVI}} puede caer antes de que aparezcan síntomas.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · La sangre vuelve al ventrículo",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Presión de pulso amplia (p. ej. 170/45 mmHg) con pulso saltón es {{c1::insuficiencia aórtica}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Presión divergente y signos periféricos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2018 · Pregunta 71",
+    "EUNACOM Enero 2023 · Pregunta 147",
+    "EUNACOM Diciembre 2018 · Pregunta 2"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "PA 170/45, pulso saltón y Musset: insuficiencia aórtica; el error es {{c1::estenosis aórtica}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 147",
+    "EUNACOM Diciembre 2018 · Pregunta 2"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo de Corrigan: pulso saltón o «en martillo de {{c1::agua}}», sube rápido y colapsa.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Signos periféricos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo de Musset: {{c1::cabeceo}} rítmico con cada latido.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Signos periféricos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo de Quincke: pulsación capilar visible en el lecho {{c1::ungueal}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Signos periféricos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo de Müller: pulsación sistólica de la {{c1::úvula}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Signos periféricos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo de Traube: ruido de {{c1::pistoletazo}} sobre la arteria femoral.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Signos periféricos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo de Duroziez: doble soplo {{c1::sistodiastólico}} al comprimir parcialmente la femoral.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Signos periféricos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Signo de Hill: presión poplítea mayor que la braquial en más de {{c1::60 mmHg}}; el más sensible de gravedad.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Signos periféricos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Choque de la punta de la IAo: amplio, hiperdinámico y desplazado hacia abajo y afuera (línea {{c1::axilar media}}).",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Presión divergente",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.017"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 2"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Soplo de la IAo: diastólico, decreciente y {{c1::aspirativo}}, en el borde esternal izquierdo.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · El soplo y el Austin Flint",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 147"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El soplo de la IAo se oye mejor con el paciente sentado, inclinado hacia delante y en {{c1::espiración}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · El soplo y el Austin Flint",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El soplo de la IAo aumenta con el {{c1::handgrip}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Auscultación",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la IAo el soplo sistólico acompañante es por flujo aumentado, no por {{c1::estenosis}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · El soplo y el Austin Flint",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Retumbo apical sin chasquido en una IAo: soplo de Austin Flint; el error es {{c1::estenosis mitral}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Austin Flint: el chorro regurgitante choca contra la valva mitral {{c1::anterior}} y limita su apertura.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · El soplo y el Austin Flint",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El diagnóstico y la gravedad de la IAo se establecen con el ecocardiograma {{c1::Doppler color}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Ecocardiograma Doppler color",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "IAo severa: vena contracta > {{c1::6 mm}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Ecocardiograma Doppler color",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "IAo severa: volumen regurgitante ≥ {{c1::60 mL}} por latido o fracción regurgitante ≥ 50%.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Ecocardiograma Doppler color",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Radiografía de la IAo: cardiomegalia con ventrículo izquierdo «en {{c1::bota}}» (cor bovinum) y aorta dilatada.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Estudio",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Joven de 18 años con coartación operada en la infancia y soplo diastólico: IAo por válvula {{c1::bicúspide}}, no recoartación.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 91"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Marfan: se vigila la raíz con ecocardiograma al menos {{c1::anual}} y se opera con un diámetro ≥ 45 a 50 mm.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Causas especiales",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Aortitis sifilítica: calcificación «en cáscara de huevo» de la aorta ascendente; se trata con {{c1::penicilina}}.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Causas especiales",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "IAo asintomática con VI normal: vasodilatador y control con eco; el error es {{c1::operar de inmediato}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En IAo asintomática se controla la PA con IECA, ARA II o {{c1::dihidropiridínicos}} (amlodipino, nifedipino), meta < 130/80 mmHg.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Cuándo operar y cuándo solo controlar",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la IAo el betabloqueador se usa con cautela porque la bradicardia {{c1::alarga la diástole}} y aumenta la regurgitación.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Cuándo operar y cuándo solo controlar",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "IAo severa asintomática: ecocardiograma cada {{c1::6 a 12 meses}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "IAo severa sintomática: reemplazo valvular {{c1::aunque la FEVI sea normal}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Cuándo operar y cuándo solo controlar",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "IAo severa asintomática: se opera con FEVI ≤ {{c1::55%}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Cuándo operar y cuándo solo controlar",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "IAo severa asintomática: se opera con DFSVI > {{c1::50 mm}} (> 25 mm/m²).",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Cuándo operar y cuándo solo controlar",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se opera la IAo si hay dilatación de la aorta ascendente ≥ {{c1::55 mm}} (≥ 45-50 mm en Marfan o bicúspide).",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Indicaciones",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La derivación de la IAo es antes de la disfunción del VI, porque la FEVI se {{c1::recupera mal}} si se opera tarde.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Cuándo operar y cuándo solo controlar",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "IAo aguda: causas endocarditis, disección tipo A y {{c1::trauma}} torácico; edema pulmonar y shock con presión de pulso poco amplia.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · La insuficiencia aórtica aguda",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la IAo aguda el soplo diastólico es corto y suave y {{c1::R1}} está disminuido por cierre prematuro de la mitral.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 IAo aguda",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "IAo aguda con shock: nitroprusiato, dobutamina y cirugía; el error es {{c1::betabloqueador o balón de contrapulsación}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c46",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "IAo por disección tipo A: cirugía urgente, nunca {{c1::trombolisis}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 IAo aguda",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "c47",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "La cirugía de las válvulas aórtica, mitral y tricúspide (lesiones crónicas) tiene garantía GES desde los {{c1::15 años}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro · GES",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-16/01_insuficiencia-aortica-doppler-color__harrison_p1889.jpg",
+   "pregunta": "¿Qué muestra y qué mides?",
+   "diagnostico": "Insuficiencia aórtica en Doppler color",
+   "clave": "Chorro regurgitante diastólico hacia el ventrículo izquierdo",
+   "conducta": "Severidad: vena contracta > 6 mm; medir DFSVI y FEVI para decidir cirugía",
+   "fuente": "Harrison 21.ª ed., p. 1889",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.017"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "IAo aguda con shock: ¿qué diagnóstico y causas?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "Sin síntomas y VI normal: ¿qué conducta?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.1",
+   "pista": "Síntomas, FEVI ≤ 55% o DFSVI > 50 mm: ¿qué se hace?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.2",
+   "pista": "Aorta ≥ 55 mm (45-50 en Marfan): ¿qué cirugía?"
+  }
+ ]
+}

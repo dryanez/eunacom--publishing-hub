@@ -1,0 +1,3568 @@
+{
+ "_doc": "Glosario clicable del mazo Anki (popover en el reverso). 'def' se escribe a mano desde el libro (sin cifras nuevas) y se conserva al regenerar; pagina/clase/t/url los recalcula conceptos.py. Términos y alias: books/scripts/anki/vocab_*.txt.",
+ "libro": "neumologia",
+ "pdf": "books/dist/Modulo_1_Medicina_Interna/Manual_EUNACOM_Respiratorio_Completo_2026.pdf",
+ "terminos": {
+  "Asma_bronquial": {
+   "termino": "Asma bronquial",
+   "tipo": "Concepto",
+   "alias": [
+    "asma bronquial",
+    "asma",
+    "asmático"
+   ],
+   "def": "Enfermedad inflamatoria crónica de la vía aérea con sibilancias, disnea, tos y limitación variable del flujo. Todo asmático recibe corticoide inhalado; el SABA como monoterapia está proscrito.",
+   "pagina": 12,
+   "clase": "resp-03",
+   "claseTitulo": "1.3 Asma Bronquial Crónica y Manejo GINA/GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 33
+  },
+  "Crisis_asmatica": {
+   "termino": "Crisis asmática",
+   "tipo": "Concepto",
+   "alias": [
+    "crisis asmática",
+    "exacerbación asmática",
+    "broncoespasmo agudo",
+    "asma aguda"
+   ],
+   "def": "Empeoramiento agudo de disnea, tos y sibilancias con caída del flujo espiratorio. Manejo: O2 (SatO2 93–95 %), SABA + ipratropio y corticoide oral en la primera hora; magnesio si es grave refractaria.",
+   "pagina": 8,
+   "clase": "resp-02",
+   "claseTitulo": "1.2 Crisis Asmática en el Adulto",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Asma_grave": {
+   "termino": "Asma grave",
+   "tipo": "Concepto",
+   "alias": [
+    "asma grave",
+    "asma de difícil control"
+   ],
+   "def": "Asma no controlada pese a escalón 4-5 (CI en dosis altas + LABA) con buena técnica y adherencia. Antes de rotularla se descarta asma difícil; el médico general optimiza y deriva al broncopulmonar.",
+   "pagina": 12,
+   "clase": "resp-03",
+   "claseTitulo": "1.3 Asma Bronquial Crónica y Manejo GINA/GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 4
+  },
+  "GINA": {
+   "termino": "GINA",
+   "tipo": "Concepto",
+   "alias": [
+    "GINA"
+   ],
+   "def": "Guía internacional de asma. Evalúa el control en las últimas 4 semanas con 4 criterios y escalona el tratamiento; prefiere CI-formoterol y proscribe el SABA solo.",
+   "pagina": 12,
+   "clase": "resp-03",
+   "claseTitulo": "1.3 Asma Bronquial Crónica y Manejo GINA/GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 7
+  },
+  "EPOC": {
+   "termino": "EPOC",
+   "tipo": "Concepto",
+   "alias": [
+    "EPOC",
+    "enfermedad pulmonar obstructiva crónica"
+   ],
+   "def": "Limitación crónica al flujo aéreo, confirmada solo por espirometría con VEF1/CVF < 0.70 post-broncodilatador. Alargan la sobrevida: cesar el tabaco y el oxígeno domiciliario (≥ 15 h/día).",
+   "pagina": 15,
+   "clase": "resp-04",
+   "claseTitulo": "1.4 Enfermedad Pulmonar Obstructiva Crónica (EPOC) Estable",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 38
+  },
+  "Clasificacion_GOLD": {
+   "termino": "Clasificación GOLD",
+   "tipo": "Concepto",
+   "alias": [
+    "GOLD"
+   ],
+   "def": "Severidad por VEF1 post-BD (GOLD 1 a 4) y grupos clínicos A, B y E. A: un broncodilatador; B y E: LAMA + LABA de inicio.",
+   "pagina": 15,
+   "clase": "resp-04",
+   "claseTitulo": "1.4 Enfermedad Pulmonar Obstructiva Crónica (EPOC) Estable",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Exacerbacion_de_EPOC": {
+   "termino": "Exacerbación de EPOC",
+   "tipo": "Concepto",
+   "alias": [
+    "exacerbación de EPOC",
+    "exacerbación aguda de EPOC",
+    "EPOC exacerbado"
+   ],
+   "def": "Empeoramiento agudo de disnea, tos o expectoración que obliga a ajustar la terapia. Se trata con SABA + ipratropio, prednisona 40 mg por 5 días, O2 con meta 88–92 % y antibiótico según Anthonisen.",
+   "pagina": 19,
+   "clase": "resp-05",
+   "claseTitulo": "1.5 Exacerbación Aguda de EPOC (Anthonisen)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Criterios_de_Anthonisen": {
+   "termino": "Criterios de Anthonisen",
+   "tipo": "Concepto",
+   "alias": [
+    "Anthonisen"
+   ],
+   "def": "Tres síntomas cardinales: más disnea, más volumen y más purulencia del esputo. Se indica antibiótico en el tipo 1 (los 3) o en el tipo 2 si hay purulencia.",
+   "pagina": 19,
+   "clase": "resp-05",
+   "claseTitulo": "1.5 Exacerbación Aguda de EPOC (Anthonisen)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Bronquitis_cronica": {
+   "termino": "Bronquitis crónica",
+   "tipo": "Concepto",
+   "alias": [
+    "bronquitis crónica"
+   ],
+   "def": "Tos con expectoración la mayor parte de los días por al menos 3 meses al año durante 2 años consecutivos. Es el fenotipo mucoso del EPOC; la espirometría define si hay obstrucción.",
+   "pagina": 15,
+   "clase": "resp-04",
+   "claseTitulo": "1.4 Enfermedad Pulmonar Obstructiva Crónica (EPOC) Estable",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Enfisema": {
+   "termino": "Enfisema",
+   "tipo": "Concepto",
+   "alias": [
+    "enfisema",
+    "enfisema pulmonar"
+   ],
+   "def": "Daño pulmonar de la EPOC; el enfisema buloso es causa de neumotórax espontáneo secundario, que casi siempre requiere tubo de drenaje pleural y hospitalización.",
+   "pagina": 57,
+   "clase": "resp-13",
+   "claseTitulo": "3.3 Neumotórax Espontáneo Primario y Secundario",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Cor_pulmonale": {
+   "termino": "Cor pulmonale",
+   "tipo": "Concepto",
+   "alias": [
+    "corazón pulmonar crónico",
+    "cor pulmonale",
+    "corazón pulmonar"
+   ],
+   "def": "Hipertrofia y dilatación del ventrículo derecho por hipertensión pulmonar de causa pulmonar; la más frecuente es el EPOC avanzado. Se confirma con ecocardiograma; lo más eficaz: oxígeno domiciliario.",
+   "pagina": 15,
+   "clase": "resp-04",
+   "claseTitulo": "1.4 Enfermedad Pulmonar Obstructiva Crónica (EPOC) Estable",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 12
+  },
+  "Cesacion_del_tabaco": {
+   "termino": "Cesación del tabaco",
+   "tipo": "Concepto",
+   "alias": [
+    "cesación del tabaco",
+    "cesación tabáquica",
+    "tabaquismo"
+   ],
+   "def": "Única medida que enlentece la caída del VEF1 y la que más sobrevida da en EPOC. Consejo breve (estrategia de las 5 A) más terapia nicotínica, bupropión o vareniclina por 8 a 12 semanas.",
+   "pagina": 15,
+   "clase": "resp-04",
+   "claseTitulo": "1.4 Enfermedad Pulmonar Obstructiva Crónica (EPOC) Estable",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Neumonia_adquirida_en_la_comunidad": {
+   "termino": "Neumonía adquirida en la comunidad",
+   "tipo": "Concepto",
+   "alias": [
+    "neumonía adquirida en la comunidad",
+    "NAC",
+    "neumonía comunitaria"
+   ],
+   "def": "Infección aguda del parénquima adquirida fuera del hospital. Se confirma con radiografía de tórax; el germen más común es Streptococcus pneumoniae. El sitio de manejo se decide con CURB-65.",
+   "pagina": 26,
+   "clase": "resp-06",
+   "claseTitulo": "2.1 Neumonía Adquirida en la Comunidad (NAC): Diagnóstico y Severidad CURB-65",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 32
+  },
+  "Neumonia": {
+   "termino": "Neumonía",
+   "tipo": "Concepto",
+   "alias": [
+    "neumonía",
+    "neumonías"
+   ],
+   "def": "Infección aguda del parénquima pulmonar. Según el contexto se distinguen NAC, atípica, aspirativa e intrahospitalaria, cada una con su microbiología y esquema antibiótico.",
+   "pagina": 33,
+   "clase": "resp-08",
+   "claseTitulo": "2.3 Neumonías Atípicas, Intrahospitalarias y Neumonía Aspirativa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 19
+  },
+  "CURB_65": {
+   "termino": "CURB-65",
+   "tipo": "Concepto",
+   "alias": [
+    "CURB-65",
+    "CRB-65"
+   ],
+   "def": "Score de gravedad de la NAC: Confusión, Urea (BUN > 19), FR ≥ 30, PA sistólica < 90 o diastólica ≤ 60, Edad ≥ 65; 1 punto cada uno. 0-1 ambulatorio, 2 sala, ≥ 3 evaluar UCI.",
+   "pagina": 26,
+   "clase": "resp-06",
+   "claseTitulo": "2.1 Neumonía Adquirida en la Comunidad (NAC): Diagnóstico y Severidad CURB-65",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 17
+  },
+  "Neumonia_atipica": {
+   "termino": "Neumonía atípica",
+   "tipo": "Concepto",
+   "alias": [
+    "neumonía atípica",
+    "neumonías atípicas"
+   ],
+   "def": "Inicio insidioso con tos seca, cefalea y mialgias; auscultación pobre con infiltrados difusos en la radiografía. Resistente a betalactámicos: se trata con macrólidos o doxiciclina.",
+   "pagina": 33,
+   "clase": "resp-08",
+   "claseTitulo": "2.3 Neumonías Atípicas, Intrahospitalarias y Neumonía Aspirativa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Neumonia_aspirativa": {
+   "termino": "Neumonía aspirativa",
+   "tipo": "Concepto",
+   "alias": [
+    "neumonía aspirativa",
+    "neumonía por aspiración",
+    "aspiración"
+   ],
+   "def": "Por microaspiración de contenido orofaríngeo o gástrico (alcoholismo, ACV, demencia). Flora anaerobia mixta en segmentos declives derechos; se trata con ampicilina-sulbactam o amoxicilina-clavulánico.",
+   "pagina": 33,
+   "clase": "resp-08",
+   "claseTitulo": "2.3 Neumonías Atípicas, Intrahospitalarias y Neumonía Aspirativa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 14
+  },
+  "Neumonia_intrahospitalaria": {
+   "termino": "Neumonía intrahospitalaria",
+   "tipo": "Concepto",
+   "alias": [
+    "neumonía intrahospitalaria",
+    "neumonía nosocomial",
+    "NIH"
+   ],
+   "def": "Neumonía que aparece después de 48 horas del ingreso. Predominan gramnegativos (Pseudomonas, Klebsiella BLEE) y SAMR; exige cobertura antipseudomónica (piperacilina-tazobactam o cefepime).",
+   "pagina": 33,
+   "clase": "resp-08",
+   "claseTitulo": "2.3 Neumonías Atípicas, Intrahospitalarias y Neumonía Aspirativa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Streptococcus_pneumoniae": {
+   "termino": "Streptococcus pneumoniae",
+   "tipo": "Concepto",
+   "alias": [
+    "Streptococcus pneumoniae",
+    "neumococo",
+    "S. pneumoniae"
+   ],
+   "def": "Neumococo: patógeno bacteriano más frecuente de la NAC en todos los grupos de edad y gravedad. Su Gram muestra diplococos grampositivos lanceolados.",
+   "pagina": 33,
+   "clase": "resp-08",
+   "claseTitulo": "2.3 Neumonías Atípicas, Intrahospitalarias y Neumonía Aspirativa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Mycoplasma_pneumoniae": {
+   "termino": "Mycoplasma pneumoniae",
+   "tipo": "Concepto",
+   "alias": [
+    "Mycoplasma pneumoniae",
+    "Mycoplasma",
+    "M. pneumoniae"
+   ],
+   "def": "Germen de la neumonía atípica en adultos jóvenes. Carece de pared de peptidoglicano, por eso es resistente a betalactámicos; se trata con azitromicina o doxiciclina.",
+   "pagina": 33,
+   "clase": "resp-08",
+   "claseTitulo": "2.3 Neumonías Atípicas, Intrahospitalarias y Neumonía Aspirativa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Legionella": {
+   "termino": "Legionella",
+   "tipo": "Concepto",
+   "alias": [
+    "Legionella",
+    "Legionella pneumophila"
+   ],
+   "def": "Legionella pneumophila: germen atípico intracelular, asociado a diarrea, hiponatremia y pruebas hepáticas alteradas. Se trata con levofloxacino o azitromicina.",
+   "pagina": 33,
+   "clase": "resp-08",
+   "claseTitulo": "2.3 Neumonías Atípicas, Intrahospitalarias y Neumonía Aspirativa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Haemophilus_influenzae": {
+   "termino": "Haemophilus influenzae",
+   "tipo": "Concepto",
+   "alias": [
+    "Haemophilus influenzae",
+    "H. influenzae"
+   ],
+   "def": "Bacteria más frecuente en las exacerbaciones de EPOC, junto con Streptococcus pneumoniae y Moraxella catarrhalis.",
+   "pagina": 114,
+   "clase": "resp-06",
+   "claseTitulo": "2.1 Neumonía Adquirida en la Comunidad (NAC): Diagnóstico y Severidad CURB-65",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Staphylococcus_aureus": {
+   "termino": "Staphylococcus aureus",
+   "tipo": "Concepto",
+   "alias": [
+    "Staphylococcus aureus",
+    "S. aureus",
+    "estafilococo"
+   ],
+   "def": "En el Gram aparece como cocos grampositivos en racimos; el SAMR (meticilino-resistente) preocupa en neumonía intrahospitalaria y se cubre con vancomicina.",
+   "pagina": 33,
+   "clase": "resp-08",
+   "claseTitulo": "2.3 Neumonías Atípicas, Intrahospitalarias y Neumonía Aspirativa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Pseudomonas_aeruginosa": {
+   "termino": "Pseudomonas aeruginosa",
+   "tipo": "Concepto",
+   "alias": [
+    "Pseudomonas aeruginosa",
+    "Pseudomonas"
+   ],
+   "def": "Gramnegativo nosocomial de la neumonía intrahospitalaria y de pacientes con bronquiectasias, fibrosis quística o corticoides crónicos. Requiere betalactámicos antipseudomónicos.",
+   "pagina": 33,
+   "clase": "resp-08",
+   "claseTitulo": "2.3 Neumonías Atípicas, Intrahospitalarias y Neumonía Aspirativa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Klebsiella_pneumoniae": {
+   "termino": "Klebsiella pneumoniae",
+   "tipo": "Concepto",
+   "alias": [
+    "Klebsiella pneumoniae",
+    "Klebsiella"
+   ],
+   "def": "Bacilo gramnegativo nosocomial; en la neumonía intrahospitalaria suele ser productor de BLEE. Se cubre con piperacilina-tazobactam o cefepime.",
+   "pagina": 33,
+   "clase": "resp-08",
+   "claseTitulo": "2.3 Neumonías Atípicas, Intrahospitalarias y Neumonía Aspirativa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Anaerobios": {
+   "termino": "Anaerobios",
+   "tipo": "Concepto",
+   "alias": [
+    "anaerobios",
+    "anaerobio",
+    "bacterias anaerobias"
+   ],
+   "def": "Bacterias de la flora oral (Peptostreptococcus, Fusobacterium, Prevotella) causantes de neumonía aspirativa y absceso pulmonar. Se cubren con ampicilina-sulbactam.",
+   "pagina": 33,
+   "clase": "resp-08",
+   "claseTitulo": "2.3 Neumonías Atípicas, Intrahospitalarias y Neumonía Aspirativa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Absceso_pulmonar": {
+   "termino": "Absceso pulmonar",
+   "tipo": "Concepto",
+   "alias": [
+    "absceso pulmonar",
+    "absceso de pulmón",
+    "supuración pulmonar"
+   ],
+   "def": "Cavidad necrótica circunscrita con pus, casi siempre por aspiración de anaerobios orales. Se trata con antibióticos 4 a 6 semanas, sin drenaje de rutina; en > 50 años o fumadores, descartar cáncer.",
+   "pagina": 37,
+   "clase": "resp-09",
+   "claseTitulo": "2.4 Absceso Pulmonar y Supuraciones Pleuropulmonares",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Lesion_cavitada": {
+   "termino": "Lesión cavitada",
+   "tipo": "Concepto",
+   "alias": [
+    "lesión cavitada",
+    "lesiones cavitadas",
+    "cavitación"
+   ],
+   "def": "Imagen con cavidad en el pulmón. Diferenciar absceso (pared gruesa regular con nivel hidroaéreo), cáncer cavitado (pared muy gruesa, nodular), tuberculosis y quiste hidatídico.",
+   "pagina": 33,
+   "clase": "resp-08",
+   "claseTitulo": "2.3 Neumonías Atípicas, Intrahospitalarias y Neumonía Aspirativa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Tuberculosis": {
+   "termino": "Tuberculosis",
+   "tipo": "Concepto",
+   "alias": [
+    "tuberculosis",
+    "tuberculosis pulmonar",
+    "TBC"
+   ],
+   "def": "Enfermedad de notificación obligatoria, con programa nacional (PROCET) y GES. Se pesquisa en el sintomático respiratorio, se confirma con GeneXpert, baciloscopía y cultivo; tratamiento RHZE.",
+   "pagina": 40,
+   "clase": "resp-10",
+   "claseTitulo": "2.5 Tuberculosis Pulmonar: Diagnóstico, Programa MINSAL y Tratamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 45
+  },
+  "Sintomatico_respiratorio": {
+   "termino": "Sintomático respiratorio",
+   "tipo": "Concepto",
+   "alias": [
+    "sintomático respiratorio"
+   ],
+   "def": "Persona con tos y expectoración por 2 semanas (15 días) o más. Obliga a pedir de inmediato estudio bacteriológico y molecular para tuberculosis.",
+   "pagina": 40,
+   "clase": "resp-10",
+   "claseTitulo": "2.5 Tuberculosis Pulmonar: Diagnóstico, Programa MINSAL y Tratamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Esquema_RHZE": {
+   "termino": "Esquema RHZE",
+   "tipo": "Concepto",
+   "alias": [
+    "RHZE",
+    "esquema primario",
+    "PROCET"
+   ],
+   "def": "Caso nuevo: 2 meses de rifampicina, isoniazida, pirazinamida y etambutol, más 4 meses de rifampicina e isoniazida, con tratamiento directamente observado. Meníngea y osteoarticular: 12 meses.",
+   "pagina": 40,
+   "clase": "resp-10",
+   "claseTitulo": "2.5 Tuberculosis Pulmonar: Diagnóstico, Programa MINSAL y Tratamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Terapia_preventiva_de_tuberculosis": {
+   "termino": "Terapia preventiva de tuberculosis",
+   "tipo": "Concepto",
+   "alias": [
+    "terapia preventiva",
+    "TPT",
+    "quimioprofilaxis"
+   ],
+   "def": "Con Rx de tórax normal y sin síntomas, es obligatoria en contactos menores de 5 años y en personas con VIH, sin importar PPD o IGRA. Isoniazida 10 mg/kg/día (máximo 300 mg) por 6 meses.",
+   "pagina": 43,
+   "clase": "resp-10",
+   "claseTitulo": "2.5 Tuberculosis Pulmonar: Diagnóstico, Programa MINSAL y Tratamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Derrame_pleural": {
+   "termino": "Derrame pleural",
+   "tipo": "Concepto",
+   "alias": [
+    "derrame pleural",
+    "líquido pleural"
+   ],
+   "def": "Líquido en el espacio pleural: matidez y abolición del murmullo. La ecografía es la más sensible. Toracocentesis si espesor > 10 mm; se clasifica con criterios de Light.",
+   "pagina": 48,
+   "clase": "resp-11",
+   "claseTitulo": "3.1 Derrame Pleural: Diagnóstico Diferencial y Criterios de Light",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 17
+  },
+  "Criterios_de_Light": {
+   "termino": "Criterios de Light",
+   "tipo": "Concepto",
+   "alias": [
+    "criterios de Light",
+    "Light"
+   ],
+   "def": "Exudado si cumple al menos UNO: proteínas LP/suero > 0.5, LDH LP/suero > 0.6 o LDH pleural > 2/3 del límite superior sérico. Si no cumple ninguno, es trasudado.",
+   "pagina": 48,
+   "clase": "resp-11",
+   "claseTitulo": "3.1 Derrame Pleural: Diagnóstico Diferencial y Criterios de Light",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Exudado": {
+   "termino": "Exudado",
+   "tipo": "Concepto",
+   "alias": [
+    "exudado",
+    "exudados"
+   ],
+   "def": "Derrame por permeabilidad capilar aumentada local; cumple al menos un criterio de Light. Causas más frecuentes: paraneumónico, neoplásico y tuberculoso.",
+   "pagina": 48,
+   "clase": "resp-11",
+   "claseTitulo": "3.1 Derrame Pleural: Diagnóstico Diferencial y Criterios de Light",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 16
+  },
+  "Trasudado": {
+   "termino": "Trasudado",
+   "tipo": "Concepto",
+   "alias": [
+    "trasudado",
+    "trasudados"
+   ],
+   "def": "Derrame por alteración de presiones sistémicas; no cumple ningún criterio de Light. Causa más común: insuficiencia cardíaca, luego cirrosis y síndrome nefrótico. Se trata la enfermedad de base.",
+   "pagina": 48,
+   "clase": "resp-11",
+   "claseTitulo": "3.1 Derrame Pleural: Diagnóstico Diferencial y Criterios de Light",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Derrame_paraneumonico": {
+   "termino": "Derrame paraneumónico",
+   "tipo": "Concepto",
+   "alias": [
+    "derrame paraneumónico",
+    "derrame paraneumónico complicado"
+   ],
+   "def": "Exudado asociado a neumonía bacteriana. No complicado: pH > 7.20, resuelve solo con antibióticos. Complicado (pH < 7.20, glucosa baja, LDH > 1.000 U/L) o empiema: requiere drenaje con tubo.",
+   "pagina": 52,
+   "clase": "resp-12",
+   "claseTitulo": "3.2 Derrame Paraneumónico y Empiema Pleural",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Empiema": {
+   "termino": "Empiema",
+   "tipo": "Concepto",
+   "alias": [
+    "empiema",
+    "empiema pleural"
+   ],
+   "def": "Pus macroscópico franco en el espacio pleural, o bacterias en Gram o cultivo del líquido. Exige tubo de drenaje inmediato más antibiótico EV por 2 a 4 semanas con cobertura anaerobia.",
+   "pagina": 52,
+   "clase": "resp-12",
+   "claseTitulo": "3.2 Derrame Paraneumónico y Empiema Pleural",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Neumotorax": {
+   "termino": "Neumotórax",
+   "tipo": "Concepto",
+   "alias": [
+    "neumotórax",
+    "neumotórax espontáneo"
+   ],
+   "def": "Aire en el espacio pleural. Primario: varón joven, alto, delgado y fumador por rotura de blebs; pequeño (< 2 cm) y estable se observa con oxígeno. Secundario (EPOC): casi siempre tubo de drenaje.",
+   "pagina": 56,
+   "clase": "resp-13",
+   "claseTitulo": "3.3 Neumotórax Espontáneo Primario y Secundario",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 20
+  },
+  "Neumotorax_a_tension": {
+   "termino": "Neumotórax a tensión",
+   "tipo": "Concepto",
+   "alias": [
+    "neumotórax a tensión",
+    "neumotórax hipertensivo"
+   ],
+   "def": "Emergencia por válvula unidireccional: shock obstructivo, yugulares ingurgitadas, hipersonoridad y desviación traqueal contralateral. Diagnóstico clínico, sin radiografía: aguja y luego tubo pleural.",
+   "pagina": 59,
+   "clase": "resp-14",
+   "claseTitulo": "3.4 Neumotórax a Tensión y Hemotórax Traumático",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 11
+  },
+  "Hemotorax": {
+   "termino": "Hemotórax",
+   "tipo": "Concepto",
+   "alias": [
+    "hemotórax",
+    "hemotórax masivo"
+   ],
+   "def": "Hemotórax masivo: ≥ 1.500 mL de sangre en la pleura, con matidez y yugulares planas. Hemoderivados y tubo pleural grueso; toracotomía si drena ≥ 1.500 mL inicial o > 200 mL/hora.",
+   "pagina": 59,
+   "clase": "resp-14",
+   "claseTitulo": "3.4 Neumotórax a Tensión y Hemotórax Traumático",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 12
+  },
+  "Pleuritis_tuberculosa": {
+   "termino": "Pleuritis tuberculosa",
+   "tipo": "Concepto",
+   "alias": [
+    "pleuritis tuberculosa",
+    "derrame tuberculoso"
+   ],
+   "def": "Exudado linfocítico por rotura de un foco caseoso subpleural, en adultos jóvenes. ADA ≥ 40 U/L orienta; la baciloscopía rinde poco, se confirma con biopsia pleural y se trata con RHZE.",
+   "pagina": 63,
+   "clase": "resp-15",
+   "claseTitulo": "3.5 Derrame Pleural Neoplásico y Pleuritis Tuberculosa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Derrame_pleural_maligno": {
+   "termino": "Derrame pleural maligno",
+   "tipo": "Concepto",
+   "alias": [
+    "derrame pleural maligno",
+    "derrame pleural neoplásico",
+    "derrame neoplásico"
+   ],
+   "def": "Infiltración tumoral de la pleura, serohemática o hemorrágica; manejo paliativo. Citología rinde 60 % en la primera muestra; si es negativa, biopsia por VATS. Tratamiento: talco o catéter tunelizado.",
+   "pagina": 63,
+   "clase": "resp-15",
+   "claseTitulo": "3.5 Derrame Pleural Neoplásico y Pleuritis Tuberculosa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Mesotelioma": {
+   "termino": "Mesotelioma",
+   "tipo": "Concepto",
+   "alias": [
+    "mesotelioma",
+    "mesotelioma pleural"
+   ],
+   "def": "Tumor primario de la pleura asociado a exposición al asbesto, con derrame unilateral serohemático de repetición y engrosamiento pleural. Requiere biopsia; mal pronóstico y manejo inicial paliativo.",
+   "pagina": 63,
+   "clase": "resp-15",
+   "claseTitulo": "3.5 Derrame Pleural Neoplásico y Pleuritis Tuberculosa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 11
+  },
+  "Nodulo_pulmonar_solitario": {
+   "termino": "Nódulo pulmonar solitario",
+   "tipo": "Concepto",
+   "alias": [
+    "nódulo pulmonar solitario",
+    "nódulo pulmonar",
+    "NPS"
+   ],
+   "def": "Opacidad redondeada única de ≤ 30 mm rodeada de pulmón normal. Primero comparar con imágenes previas (estable ≥ 2 años es benigno); si no hay, TAC. En > 8 mm de riesgo intermedio, PET-CT.",
+   "pagina": 70,
+   "clase": "resp-16",
+   "claseTitulo": "4.1 Nódulo Pulmonar Solitario (NPS): Evaluación y Algoritmo Fleischner",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Metastasis_pulmonares": {
+   "termino": "Metástasis pulmonares",
+   "tipo": "Concepto",
+   "alias": [
+    "metástasis pulmonares",
+    "metástasis pulmonar"
+   ],
+   "def": "Múltiples nódulos redondeados y bien delimitados por vía hematógena (colon, mama, riñón, melanoma). Suelen ser asintomáticas; se confirman con TAC y biopsia si es única o el primario es desconocido.",
+   "pagina": 70,
+   "clase": "resp-16",
+   "claseTitulo": "4.1 Nódulo Pulmonar Solitario (NPS): Evaluación y Algoritmo Fleischner",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Cancer_pulmonar": {
+   "termino": "Cáncer pulmonar",
+   "tipo": "Concepto",
+   "alias": [
+    "cáncer pulmonar",
+    "cáncer de pulmón",
+    "carcinoma broncogénico"
+   ],
+   "def": "Principal causa de muerte por neoplasias en Chile; el tabaco explica el 85–90 % de los casos. Células no pequeñas (adenocarcinoma, epidermoide, células grandes) o células pequeñas (no quirúrgico).",
+   "pagina": 74,
+   "clase": "resp-17",
+   "claseTitulo": "4.2 Cáncer Pulmonar: Tipos Histológicos, Clínica y Manejo Inicial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Carcinoma_escamoso": {
+   "termino": "Carcinoma escamoso",
+   "tipo": "Concepto",
+   "alias": [
+    "carcinoma escamoso",
+    "carcinoma epidermoide"
+   ],
+   "def": "Epidermoide: central, muy ligado al tabaco, tiende a cavitar. Su paraneoplasia clásica es la hipercalcemia tumoral por PTHrP, sin metástasis óseas.",
+   "pagina": 74,
+   "clase": "resp-17",
+   "claseTitulo": "4.2 Cáncer Pulmonar: Tipos Histológicos, Clínica y Manejo Inicial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Cancer_pulmonar_de_celulas_pequenas": {
+   "termino": "Cáncer pulmonar de células pequeñas",
+   "tipo": "Concepto",
+   "alias": [
+    "células pequeñas",
+    "microcítico",
+    "cáncer de células pequeñas",
+    "oat cell"
+   ],
+   "def": "Microcítico: central perihiliar, muy agresivo, con metástasis precoces; es sistémico desde el diagnóstico y sin cirugía de entrada. Se trata con quimioterapia (cisplatino + etopósido) y radioterapia.",
+   "pagina": 74,
+   "clase": "resp-17",
+   "claseTitulo": "4.2 Cáncer Pulmonar: Tipos Histológicos, Clínica y Manejo Inicial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Sindrome_paraneoplasico": {
+   "termino": "Síndrome paraneoplásico",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome paraneoplásico",
+    "síndromes paraneoplásicos",
+    "paraneoplásico"
+   ],
+   "def": "Alteración a distancia no atribuible a invasión ni metástasis. Microcítico: SIADH, Cushing ectópico, Lambert-Eaton; epidermoide: hipercalcemia por PTHrP; adenocarcinoma: osteoartropatía hipertrófica.",
+   "pagina": 74,
+   "clase": "resp-17",
+   "claseTitulo": "4.2 Cáncer Pulmonar: Tipos Histológicos, Clínica y Manejo Inicial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "SIADH": {
+   "termino": "SIADH",
+   "tipo": "Concepto",
+   "alias": [
+    "SIADH"
+   ],
+   "def": "Secreción ectópica de hormona antidiurética con hiponatremia hipotónica; paraneoplasia típica del cáncer pulmonar microcítico.",
+   "pagina": 74,
+   "clase": "resp-17",
+   "claseTitulo": "4.2 Cáncer Pulmonar: Tipos Histológicos, Clínica y Manejo Inicial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Sindrome_de_Eaton_Lambert": {
+   "termino": "Síndrome de Eaton-Lambert",
+   "tipo": "Concepto",
+   "alias": [
+    "Eaton-Lambert",
+    "Lambert-Eaton"
+   ],
+   "def": "Síndrome miasténico paraneoplásico del cáncer microcítico, por anticuerpos anti-canales de calcio dependientes de voltaje.",
+   "pagina": 74,
+   "clase": "resp-17",
+   "claseTitulo": "4.2 Cáncer Pulmonar: Tipos Histológicos, Clínica y Manejo Inicial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Sindrome_de_Pancoast": {
+   "termino": "Síndrome de Pancoast",
+   "tipo": "Concepto",
+   "alias": [
+    "Pancoast",
+    "tumor de Pancoast"
+   ],
+   "def": "Tumor del surco superior (epidermoide o adenocarcinoma) que invade el plexo braquial y la cadena simpática: dolor C8–T1 en cara interna del brazo y síndrome de Horner ipsilateral.",
+   "pagina": 74,
+   "clase": "resp-17",
+   "claseTitulo": "4.2 Cáncer Pulmonar: Tipos Histológicos, Clínica y Manejo Inicial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Sindrome_de_Horner": {
+   "termino": "Síndrome de Horner",
+   "tipo": "Concepto",
+   "alias": [
+    "Horner",
+    "síndrome de Horner"
+   ],
+   "def": "Ptosis palpebral, miosis, enoftalmos y anhidrosis facial ipsilaterales; en el cáncer pulmonar lo produce el tumor de Pancoast al invadir la cadena simpática estrellada.",
+   "pagina": 74,
+   "clase": "resp-17",
+   "claseTitulo": "4.2 Cáncer Pulmonar: Tipos Histológicos, Clínica y Manejo Inicial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Sindrome_de_vena_cava_superior": {
+   "termino": "Síndrome de vena cava superior",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome de vena cava superior",
+    "vena cava superior"
+   ],
+   "def": "Compresión mediastínica por tumor central (microcítico) o adenopatías: edema en esclavina (cara, cuello y miembros superiores), cianosis facial e ingurgitación de venas torácicas colaterales.",
+   "pagina": 74,
+   "clase": "resp-17",
+   "claseTitulo": "4.2 Cáncer Pulmonar: Tipos Histológicos, Clínica y Manejo Inicial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Enfermedad_pulmonar_intersticial_difusa": {
+   "termino": "Enfermedad pulmonar intersticial difusa",
+   "tipo": "Concepto",
+   "alias": [
+    "enfermedad pulmonar intersticial difusa",
+    "enfermedades pulmonares intersticiales",
+    "EPID",
+    "enfermedad intersticial"
+   ],
+   "def": "Grupo de enfermedades con daño alveolar e intersticial difuso: disnea de esfuerzo insidiosa y tos seca, crepitantes tipo velcro y TACAR como examen de elección. Espirometría restrictiva.",
+   "pagina": 78,
+   "clase": "resp-18",
+   "claseTitulo": "4.3 Enfermedades Pulmonares Intersticiales Difusas (EPID) y Fibrosis Pulmonar Idiopática",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Fibrosis_pulmonar_idiopatica": {
+   "termino": "Fibrosis pulmonar idiopática",
+   "tipo": "Concepto",
+   "alias": [
+    "fibrosis pulmonar idiopática",
+    "FPI",
+    "fibrosis pulmonar"
+   ],
+   "def": "EPID de hombres > 60 años, con crepitantes tipo velcro bibasales y acropaquia; patrón NIU en la TACAR. Los corticoides están contraindicados; se tratan con antifibróticos (pirfenidona o nintedanib).",
+   "pagina": 78,
+   "clase": "resp-18",
+   "claseTitulo": "4.3 Enfermedades Pulmonares Intersticiales Difusas (EPID) y Fibrosis Pulmonar Idiopática",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Neumonia_intersticial_usual": {
+   "termino": "Neumonía intersticial usual",
+   "tipo": "Concepto",
+   "alias": [
+    "neumonía intersticial usual",
+    "NIU",
+    "patrón NIU"
+   ],
+   "def": "Patrón NIU de la TACAR, sello de la fibrosis pulmonar idiopática: opacidades reticulares subpleurales basales y panal de abejas. Si es típico en > 60 años, no se requiere biopsia.",
+   "pagina": 78,
+   "clase": "resp-18",
+   "claseTitulo": "4.3 Enfermedades Pulmonares Intersticiales Difusas (EPID) y Fibrosis Pulmonar Idiopática",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 11
+  },
+  "Neumonia_intersticial_no_especifica": {
+   "termino": "Neumonía intersticial no específica",
+   "tipo": "Concepto",
+   "alias": [
+    "neumonía intersticial no específica",
+    "NINE"
+   ],
+   "def": "Patrón NINE: vidrio esmerilado subpleural bilateral que respeta el margen subpleural; característico de las conectivopatías. Responde a corticoides e inmunosupresores.",
+   "pagina": 78,
+   "clase": "resp-18",
+   "claseTitulo": "4.3 Enfermedades Pulmonares Intersticiales Difusas (EPID) y Fibrosis Pulmonar Idiopática",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Neumoconiosis": {
+   "termino": "Neumoconiosis",
+   "tipo": "Concepto",
+   "alias": [
+    "neumoconiosis",
+    "silicosis",
+    "asbestosis",
+    "antracosis"
+   ],
+   "def": "EPID por inhalación crónica de polvo mineral (silicosis, asbestosis, carbón). Patrón restrictivo, sin tratamiento que revierta la fibrosis: se retira al trabajador de la exposición.",
+   "pagina": 78,
+   "clase": "resp-18",
+   "claseTitulo": "4.3 Enfermedades Pulmonares Intersticiales Difusas (EPID) y Fibrosis Pulmonar Idiopática",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Tromboembolismo_pulmonar": {
+   "termino": "Tromboembolismo pulmonar",
+   "tipo": "Concepto",
+   "alias": [
+    "tromboembolismo pulmonar",
+    "TEP",
+    "embolia pulmonar"
+   ],
+   "def": "Oclusión de arterias pulmonares por trombos, > 90 % de venas profundas de las piernas. Disnea súbita y dolor pleurítico; Wells y Dímero D guían el estudio, angio-TAC confirma, se anticoagula.",
+   "pagina": 82,
+   "clase": "resp-19",
+   "claseTitulo": "4.4 Tromboembolismo Pulmonar (TEP) Agudo: Wells, Ginebra y Estratificación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 27
+  },
+  "Trombosis_venosa_profunda": {
+   "termino": "Trombosis venosa profunda",
+   "tipo": "Concepto",
+   "alias": [
+    "trombosis venosa profunda",
+    "TVP"
+   ],
+   "def": "Trombosis de venas ilíacas, femorales o poplíteas, origen de más del 90 % de los TEP. Sus signos clínicos suman 3 puntos en el score de Wells.",
+   "pagina": 82,
+   "clase": "resp-19",
+   "claseTitulo": "4.4 Tromboembolismo Pulmonar (TEP) Agudo: Wells, Ginebra y Estratificación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Triada_de_Virchow": {
+   "termino": "Tríada de Virchow",
+   "tipo": "Concepto",
+   "alias": [
+    "tríada de Virchow"
+   ],
+   "def": "Estasis venosa, lesión endotelial e hipercoagulabilidad: tres condiciones que originan el trombo (inmovilización, cirugía mayor, cáncer, estrógenos).",
+   "pagina": 82,
+   "clase": "resp-19",
+   "claseTitulo": "4.4 Tromboembolismo Pulmonar (TEP) Agudo: Wells, Ginebra y Estratificación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Score_de_Wells": {
+   "termino": "Score de Wells",
+   "tipo": "Concepto",
+   "alias": [
+    "Wells",
+    "score de Wells"
+   ],
+   "def": "Estima la probabilidad clínica de TEP. Si es baja o intermedia (≤ 4), se pide Dímero D; si es alta (> 4), angio-TAC directo, sin Dímero D.",
+   "pagina": 82,
+   "clase": "resp-19",
+   "claseTitulo": "4.4 Tromboembolismo Pulmonar (TEP) Agudo: Wells, Ginebra y Estratificación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 8
+  },
+  "sPESI": {
+   "termino": "sPESI",
+   "tipo": "Concepto",
+   "alias": [
+    "sPESI",
+    "PESI"
+   ],
+   "def": "Score que estratifica el TEP hemodinámicamente estable. Con sPESI = 0 el riesgo es bajo (candidato a alta precoz con ACOD); con ≥ 1 se evalúa ventrículo derecho y troponinas.",
+   "pagina": 82,
+   "clase": "resp-19",
+   "claseTitulo": "4.4 Tromboembolismo Pulmonar (TEP) Agudo: Wells, Ginebra y Estratificación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Hemoptisis": {
+   "termino": "Hemoptisis",
+   "tipo": "Concepto",
+   "alias": [
+    "hemoptisis",
+    "hemoptisis masiva",
+    "hemoptisis amenazante"
+   ],
+   "def": "Expectoración de sangre desde bajo la glotis. Masiva si > 150–200 mL en una hora; la muerte es por asfixia. Decúbito lateral sobre el lado que sangra; control con embolización bronquial.",
+   "pagina": 87,
+   "clase": "resp-20",
+   "claseTitulo": "4.5 Hemoptisis y Bronquiectasias",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 30
+  },
+  "Bronquiectasias": {
+   "termino": "Bronquiectasias",
+   "tipo": "Concepto",
+   "alias": [
+    "bronquiectasias",
+    "bronquiectasia"
+   ],
+   "def": "Dilataciones bronquiales irreversibles tras infección e inflamación crónica. Tos con expectoración purulenta diaria y hemoptisis; se diagnostican con TACAR (signo del anillo de sello).",
+   "pagina": 87,
+   "clase": "resp-20",
+   "claseTitulo": "4.5 Hemoptisis y Bronquiectasias",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 15
+  },
+  "Fibrosis_quistica": {
+   "termino": "Fibrosis quística",
+   "tipo": "Concepto",
+   "alias": [
+    "fibrosis quística"
+   ],
+   "def": "Causa de bronquiectasias, con infecciones respiratorias recurrentes, sinusitis, íleo meconial y esteatorrea. Se diagnostica con el test del sudor; con riesgo de Pseudomonas aeruginosa.",
+   "pagina": 87,
+   "clase": "resp-20",
+   "claseTitulo": "4.5 Hemoptisis y Bronquiectasias",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Insuficiencia_respiratoria": {
+   "termino": "Insuficiencia respiratoria",
+   "tipo": "Concepto",
+   "alias": [
+    "insuficiencia respiratoria",
+    "insuficiencia respiratoria aguda",
+    "falla respiratoria"
+   ],
+   "def": "Se define por gases arteriales: PaO2 < 60 mmHg en aire ambiental a nivel del mar. Tipo 1 hipoxémica (PaCO2 ≤ 45 mmHg); tipo 2 hipercápnica (PaCO2 > 45 mmHg, con acidosis aguda).",
+   "pagina": 94,
+   "clase": "resp-21",
+   "claseTitulo": "5.1 Insuficiencia Respiratoria Aguda: Tipo 1 (Hipoxémica) vs Tipo 2 (Hipercápnica)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Hipoxemia": {
+   "termino": "Hipoxemia",
+   "tipo": "Concepto",
+   "alias": [
+    "hipoxemia"
+   ],
+   "def": "PaO2 < 60 mmHg. Nace de 5 mecanismos: desbalance V/Q (el más frecuente), shunt, hipoventilación, alteración de la difusión y baja PiO2. El gradiente A-a orienta al origen.",
+   "pagina": 95,
+   "clase": "resp-21",
+   "claseTitulo": "5.1 Insuficiencia Respiratoria Aguda: Tipo 1 (Hipoxémica) vs Tipo 2 (Hipercápnica)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 14
+  },
+  "Hipercapnia": {
+   "termino": "Hipercapnia",
+   "tipo": "Concepto",
+   "alias": [
+    "hipercapnia",
+    "narcosis hipercápnica"
+   ],
+   "def": "PaCO2 > 45 mmHg: define la insuficiencia respiratoria tipo 2, con acidosis respiratoria aguda (pH < 7.35). Cursa con cefalea, somnolencia, confusión y asterixis.",
+   "pagina": 96,
+   "clase": "resp-21",
+   "claseTitulo": "5.1 Insuficiencia Respiratoria Aguda: Tipo 1 (Hipoxémica) vs Tipo 2 (Hipercápnica)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Shunt": {
+   "termino": "Shunt",
+   "tipo": "Concepto",
+   "alias": [
+    "shunt",
+    "cortocircuito"
+   ],
+   "def": "Sangre venosa que cruza alvéolos colapsados o inundados (SDRA, edema pulmonar masivo). Es el único mecanismo de hipoxemia que no corrige con O2 al 100 %.",
+   "pagina": 94,
+   "clase": "resp-21",
+   "claseTitulo": "5.1 Insuficiencia Respiratoria Aguda: Tipo 1 (Hipoxémica) vs Tipo 2 (Hipercápnica)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Gradiente_alveolo_arterial": {
+   "termino": "Gradiente alvéolo-arterial",
+   "tipo": "Concepto",
+   "alias": [
+    "gradiente alvéolo-arterial",
+    "gradiente A-a",
+    "D(A-a)O2"
+   ],
+   "def": "P(A-a)O2 = PAO2 - PaO2. Normal 5 a 15 mmHg. Hipoxemia con gradiente normal: causa extrapulmonar (hipoventilación, altura); elevado (> 20 mmHg): daño del parénquima o vascular.",
+   "pagina": 94,
+   "clase": "resp-21",
+   "claseTitulo": "5.1 Insuficiencia Respiratoria Aguda: Tipo 1 (Hipoxémica) vs Tipo 2 (Hipercápnica)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Relacion_PaO2_FiO2": {
+   "termino": "Relación PaO2/FiO2",
+   "tipo": "Concepto",
+   "alias": [
+    "PaO2/FiO2",
+    "PAFI"
+   ],
+   "def": "PaFiO2: mide la oxigenación. Un valor bajo 200 pese a oxígeno de alto flujo es indicación de ventilación mecánica invasiva; en el SDRA gradúa la severidad.",
+   "pagina": 96,
+   "clase": "resp-21",
+   "claseTitulo": "5.1 Insuficiencia Respiratoria Aguda: Tipo 1 (Hipoxémica) vs Tipo 2 (Hipercápnica)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "SDRA": {
+   "termino": "SDRA",
+   "tipo": "Concepto",
+   "alias": [
+    "SDRA",
+    "síndrome de distrés respiratorio agudo",
+    "distrés respiratorio agudo"
+   ],
+   "def": "Inflamación pulmonar con daño alveolar difuso. Berlín: inicio ≤ 7 días, opacidades bilaterales, edema no cardiogénico y PaFiO2 con PEEP ≥ 5. Ventilación protectora (6 mL/kg ideal) y prono ≥ 16 h/día.",
+   "pagina": 98,
+   "clase": "resp-22",
+   "claseTitulo": "5.2 Síndrome de Distrés Respiratorio Agudo (SDRA): Criterios de Berlín",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-22&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 23
+  },
+  "COVID_19": {
+   "termino": "COVID-19",
+   "tipo": "Concepto",
+   "alias": [
+    "COVID-19",
+    "COVID",
+    "SARS-CoV-2"
+   ],
+   "def": "Grave si SatO2 < 90 % al aire, FR > 30 o PaO2/FiO2 < 300. Vidrio esmerilado bilateral en la TAC; oxígeno, dexametasona 6 mg por 10 días, anticoagulación profiláctica y derivación a UCI.",
+   "pagina": 43,
+   "clase": "resp-10",
+   "claseTitulo": "2.5 Tuberculosis Pulmonar: Diagnóstico, Programa MINSAL y Tratamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Ventilacion_mecanica_no_invasiva": {
+   "termino": "Ventilación mecánica no invasiva",
+   "tipo": "Concepto",
+   "alias": [
+    "ventilación mecánica no invasiva",
+    "VMNI",
+    "BiPAP",
+    "VNI"
+   ],
+   "def": "BiPAP: primera línea en EPOC exacerbado con acidosis (pH entre 7.25 y 7.35, PaCO2 > 45) y en edema pulmonar cardiogénico. Reduce la intubación en más del 60 %. Sin mejoría en 1–2 horas, intubar.",
+   "pagina": 96,
+   "clase": "resp-21",
+   "claseTitulo": "5.1 Insuficiencia Respiratoria Aguda: Tipo 1 (Hipoxémica) vs Tipo 2 (Hipercápnica)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 16
+  },
+  "Ventilacion_mecanica_invasiva": {
+   "termino": "Ventilación mecánica invasiva",
+   "tipo": "Concepto",
+   "alias": [
+    "ventilación mecánica invasiva",
+    "VMI",
+    "ventilación mecánica"
+   ],
+   "def": "Indicada en paro, Glasgow ≤ 8, shock, hipoxemia refractaria (PaO2/FiO2 bajo 200), acidosis (pH bajo 7.25) o fracaso de VMNI. Ventilación protectora: VT 6-8 mL/kg ideal, meseta menor de 30 cmH2O.",
+   "pagina": 96,
+   "clase": "resp-21",
+   "claseTitulo": "5.1 Insuficiencia Respiratoria Aguda: Tipo 1 (Hipoxémica) vs Tipo 2 (Hipercápnica)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Intubacion_orotraqueal": {
+   "termino": "Intubación orotraqueal",
+   "tipo": "Concepto",
+   "alias": [
+    "intubación orotraqueal",
+    "intubación",
+    "IOT"
+   ],
+   "def": "Vía aérea invasiva: preoxigenar con FiO2 100 %, laringoscopia y tubo con balón. Se confirma con capnografía, método más confiable. Máximo 3 intentos; si falla, mascarilla laríngea o cricotirotomía.",
+   "pagina": 96,
+   "clase": "resp-21",
+   "claseTitulo": "5.1 Insuficiencia Respiratoria Aguda: Tipo 1 (Hipoxémica) vs Tipo 2 (Hipercápnica)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 9
+  },
+  "CPAP": {
+   "termino": "CPAP",
+   "tipo": "Concepto",
+   "alias": [
+    "CPAP"
+   ],
+   "def": "Presión positiva continua nasal durante el sueño, que actúa como férula neumática de la faringe. Tratamiento de elección del SAHOS con IAH ≥ 15; los sedantes y el alcohol están contraindicados.",
+   "pagina": 101,
+   "clase": "resp-23",
+   "claseTitulo": "5.3 Síndrome de Apnea-Hipoapnea Obstructiva del Sueño (SAHOS)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-23&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 14
+  },
+  "Oxigenoterapia": {
+   "termino": "Oxigenoterapia",
+   "tipo": "Concepto",
+   "alias": [
+    "oxigenoterapia",
+    "oxígeno suplementario"
+   ],
+   "def": "Oxígeno domiciliario en EPOC si en reposo PaO2 ≤ 55 mmHg (o SatO2 ≤ 88 %), o PaO2 56–59 con cor pulmonale, hipertensión pulmonar o Hto > 55 %. Se usa al menos 15 horas al día.",
+   "pagina": 17,
+   "clase": "resp-04",
+   "claseTitulo": "1.4 Enfermedad Pulmonar Obstructiva Crónica (EPOC) Estable",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Apnea_del_sueno": {
+   "termino": "Apnea del sueño",
+   "tipo": "Concepto",
+   "alias": [
+    "apnea del sueño",
+    "apnea-hipoapnea obstructiva del sueño",
+    "SAHOS",
+    "SAOS"
+   ],
+   "def": "SAHOS: obstrucción repetida de la vía aérea superior durante el sueño. Tríada: ronquidos, apneas presenciadas y somnolencia diurna; factor modificable: obesidad. Se confirma con polisomnografía.",
+   "pagina": 101,
+   "clase": "resp-23",
+   "claseTitulo": "5.3 Síndrome de Apnea-Hipoapnea Obstructiva del Sueño (SAHOS)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-23&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 18
+  },
+  "Indice_de_apnea_hipoapnea": {
+   "termino": "Índice de apnea-hipoapnea",
+   "tipo": "Concepto",
+   "alias": [
+    "índice de apnea-hipoapnea",
+    "IAH"
+   ],
+   "def": "IAH: apneas e hipoapneas por hora de sueño. Leve 5 a 14, moderado 15 a 29, severo ≥ 30 eventos/hora; con IAH ≥ 15 se indica CPAP.",
+   "pagina": 101,
+   "clase": "resp-23",
+   "claseTitulo": "5.3 Síndrome de Apnea-Hipoapnea Obstructiva del Sueño (SAHOS)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-23&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Escala_de_Epworth": {
+   "termino": "Escala de Epworth",
+   "tipo": "Concepto",
+   "alias": [
+    "Epworth",
+    "somnolencia diurna"
+   ],
+   "def": "Cuestionario validado de somnolencia diurna; un puntaje > 10 indica somnolencia anormal y estudio formal.",
+   "pagina": 101,
+   "clase": "resp-23",
+   "claseTitulo": "5.3 Síndrome de Apnea-Hipoapnea Obstructiva del Sueño (SAHOS)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-23&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Intoxicacion_por_monoxido_de_carbono": {
+   "termino": "Intoxicación por monóxido de carbono",
+   "tipo": "Concepto",
+   "alias": [
+    "monóxido de carbono",
+    "intoxicación por CO"
+   ],
+   "def": "Gas inodoro de combustión incompleta (braseros, calefones). Bloquea el transporte de O2 y la respiración celular. Cefalea es el síntoma más precoz; O2 al 100 % con reservorio por al menos 6 horas.",
+   "pagina": 104,
+   "clase": "resp-24",
+   "claseTitulo": "5.4 Intoxicación por Monóxido de Carbono e Inhalación de Humo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-24&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Carboxihemoglobina": {
+   "termino": "Carboxihemoglobina",
+   "tipo": "Concepto",
+   "alias": [
+    "carboxihemoglobina",
+    "COHb"
+   ],
+   "def": "COHb: hemoglobina unida a CO; el CO tiene afinidad 200 a 250 veces mayor que el O2. Se mide por co-oximetría; es diagnóstica > 3–5 % en no fumadores. La oximetría de pulso marca falsamente normal.",
+   "pagina": 104,
+   "clase": "resp-24",
+   "claseTitulo": "5.4 Intoxicación por Monóxido de Carbono e Inhalación de Humo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-24&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 16
+  },
+  "Camara_hiperbarica": {
+   "termino": "Cámara hiperbárica",
+   "tipo": "Concepto",
+   "alias": [
+    "cámara hiperbárica",
+    "oxígeno hiperbárico",
+    "oxigenoterapia hiperbárica"
+   ],
+   "def": "Oxígeno hiperbárico en intoxicación por CO si COHb > 25 %, embarazada con COHb > 15 %, pérdida de conciencia, déficit neurológico persistente o isquemia miocárdica.",
+   "pagina": 104,
+   "clase": "resp-24",
+   "claseTitulo": "5.4 Intoxicación por Monóxido de Carbono e Inhalación de Humo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-24&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Inhalacion_de_humo": {
+   "termino": "Inhalación de humo",
+   "tipo": "Concepto",
+   "alias": [
+    "inhalación de humo",
+    "incendio",
+    "cianuro"
+   ],
+   "def": "El humo de incendio en recintos cerrados asocia CO, cianuro (acidosis láctica, coma; hidroxocobalamina) e irritantes con broncoespasmo y edema pulmonar. Tratar con O2 y broncodilatadores; observar.",
+   "pagina": 104,
+   "clase": "resp-24",
+   "claseTitulo": "5.4 Intoxicación por Monóxido de Carbono e Inhalación de Humo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-24&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Ahogamiento": {
+   "termino": "Ahogamiento",
+   "tipo": "Concepto",
+   "alias": [
+    "ahogamiento",
+    "inmersión",
+    "semiahogamiento"
+   ],
+   "def": "Dificultad respiratoria por inmersión o sumersión; el paro es hipóxico. La RCP parte con 5 ventilaciones de rescate y no se drena el agua. Todo ahogado se observa 6 a 8 horas.",
+   "pagina": 107,
+   "clase": "resp-25",
+   "claseTitulo": "5.5 Ahogamiento (Asfixia por Inmersión) e Hipotermia Accidental",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-25&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Hipotermia_accidental": {
+   "termino": "Hipotermia accidental",
+   "tipo": "Concepto",
+   "alias": [
+    "hipotermia accidental",
+    "hipotermia",
+    "onda J",
+    "ondas de Osborn"
+   ],
+   "def": "Temperatura central < 35 °C: leve 32-35, moderada 28-32, grave < 28 (ondas J de Osborn). Recalentamiento escalonado y manipulación cuidadosa por riesgo de fibrilación ventricular.",
+   "pagina": 107,
+   "clase": "resp-25",
+   "claseTitulo": "5.5 Ahogamiento (Asfixia por Inmersión) e Hipotermia Accidental",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-25&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 16
+  },
+  "Reanimacion_cardiopulmonar": {
+   "termino": "Reanimación cardiopulmonar",
+   "tipo": "Concepto",
+   "alias": [
+    "reanimación cardiopulmonar",
+    "RCP",
+    "paro cardiorrespiratorio"
+   ],
+   "def": "En el ahogamiento parte con 5 ventilaciones de rescate y luego compresiones (30:2). En el paro hipotérmico se prolonga hasta recalentar: nadie está muerto hasta que está tibio y muerto.",
+   "pagina": 107,
+   "clase": "resp-25",
+   "claseTitulo": "5.5 Ahogamiento (Asfixia por Inmersión) e Hipotermia Accidental",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-25&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Cirugia_toracica_videoasistida": {
+   "termino": "Cirugía torácica videoasistida",
+   "tipo": "Concepto",
+   "alias": [
+    "VATS",
+    "videotoracoscopía",
+    "toracoscopía"
+   ],
+   "def": "VATS: resección de blebs y pleurodesis en neumotórax con segundo episodio homolateral, primero contralateral, bilateral o fuga aérea persistente. En empiema multiloculado es el estándar de oro.",
+   "pagina": 56,
+   "clase": "resp-13",
+   "claseTitulo": "3.3 Neumotórax Espontáneo Primario y Secundario",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Decorticacion": {
+   "termino": "Decorticación",
+   "tipo": "Concepto",
+   "alias": [
+    "decorticación"
+   ],
+   "def": "Cirugía por toracotomía abierta para quitar la corteza pleural rígida en la fase de organización, cuando el pulmón queda atrapado y no se expande.",
+   "pagina": 53,
+   "clase": "resp-12",
+   "claseTitulo": "3.2 Derrame Paraneumónico y Empiema Pleural",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Pleurodesis": {
+   "termino": "Pleurodesis",
+   "tipo": "Concepto",
+   "alias": [
+    "pleurodesis"
+   ],
+   "def": "Sellado del espacio pleural, química (talco estéril) o mecánica, para impedir la recidiva del aire o del líquido; se usa tras VATS en neumotórax recurrente y en derrame maligno.",
+   "pagina": 57,
+   "clase": "resp-13",
+   "claseTitulo": "3.3 Neumotórax Espontáneo Primario y Secundario",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Embolizacion_de_arterias_bronquiales": {
+   "termino": "Embolización de arterias bronquiales",
+   "tipo": "Concepto",
+   "alias": [
+    "embolización de arterias bronquiales",
+    "arterias bronquiales",
+    "embolización bronquial"
+   ],
+   "def": "Arteriografía con embolización: procedimiento de elección para controlar la hemoptisis masiva, con éxito inicial > 90 %. La cirugía se reserva para el fracaso en sangrado unilateral.",
+   "pagina": 87,
+   "clase": "resp-20",
+   "claseTitulo": "4.5 Hemoptisis y Bronquiectasias",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Disnea": {
+   "termino": "Disnea",
+   "tipo": "Signo",
+   "alias": [
+    "disnea"
+   ],
+   "def": "Síntoma cardinal de las EPID: disnea de esfuerzo insidiosa y lentamente progresiva, con tos seca. En el TEP es súbita e inexplicable.",
+   "pagina": 78,
+   "clase": "resp-18",
+   "claseTitulo": "4.3 Enfermedades Pulmonares Intersticiales Difusas (EPID) y Fibrosis Pulmonar Idiopática",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 22
+  },
+  "Sibilancias": {
+   "termino": "Sibilancias",
+   "tipo": "Signo",
+   "alias": [
+    "sibilancias",
+    "sibilancia",
+    "sibilante"
+   ],
+   "def": "Ruido espiratorio agudo por obstrucción bronquial; síntoma cardinal del asma junto con disnea, opresión torácica y tos. En el tórax silente de la crisis grave desaparecen.",
+   "pagina": 12,
+   "clase": "resp-03",
+   "claseTitulo": "1.3 Asma Bronquial Crónica y Manejo GINA/GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Tos_cronica": {
+   "termino": "Tos crónica",
+   "tipo": "Signo",
+   "alias": [
+    "tos crónica"
+   ],
+   "def": "Tos de más de 8 semanas en el adulto. Si la radiografía es normal y no hay IECA ni tabaco, las causas son goteo posterior, asma y reflujo; se suspende el IECA y se trata empíricamente.",
+   "pagina": 12,
+   "clase": "resp-03",
+   "claseTitulo": "1.3 Asma Bronquial Crónica y Manejo GINA/GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Cianosis": {
+   "termino": "Cianosis",
+   "tipo": "Signo",
+   "alias": [
+    "cianosis"
+   ],
+   "def": "En el síndrome de vena cava superior aparece cianosis facial junto al edema en esclavina y las venas torácicas colaterales ingurgitadas.",
+   "pagina": 74,
+   "clase": "resp-17",
+   "claseTitulo": "4.2 Cáncer Pulmonar: Tipos Histológicos, Clínica y Manejo Inicial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Taquipnea": {
+   "termino": "Taquipnea",
+   "tipo": "Signo",
+   "alias": [
+    "taquipnea"
+   ],
+   "def": "FR > 20 rpm; acompaña la disnea súbita y el dolor pleurítico del TEP.",
+   "pagina": 82,
+   "clase": "resp-19",
+   "claseTitulo": "4.4 Tromboembolismo Pulmonar (TEP) Agudo: Wells, Ginebra y Estratificación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Tiraje": {
+   "termino": "Tiraje",
+   "tipo": "Signo",
+   "alias": [
+    "tiraje",
+    "uso de musculatura accesoria",
+    "musculatura accesoria"
+   ],
+   "def": "Retracción intercostal y supraclavicular por uso de musculatura accesoria; signo de dificultad respiratoria, como en la crisis asmática grave o la IRA tipo 1.",
+   "pagina": 94,
+   "clase": "resp-21",
+   "claseTitulo": "5.1 Insuficiencia Respiratoria Aguda: Tipo 1 (Hipoxémica) vs Tipo 2 (Hipercápnica)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Torax_silente": {
+   "termino": "Tórax silente",
+   "tipo": "Signo",
+   "alias": [
+    "tórax silente",
+    "silencio auscultatorio"
+   ],
+   "def": "Ausencia de sibilancias en una crisis asmática por flujo espiratorio insuficiente. Es signo de paro respiratorio inminente: preparar intubación e ingreso a UPC.",
+   "pagina": 8,
+   "clase": "resp-02",
+   "claseTitulo": "1.2 Crisis Asmática en el Adulto",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Crepitos": {
+   "termino": "Crépitos",
+   "tipo": "Signo",
+   "alias": [
+    "crépitos",
+    "crépitos en velcro",
+    "estertores crepitantes"
+   ],
+   "def": "Estertores crepitantes secos «tipo velcro», tele-inspiratorios y bibasales: hallazgo clásico de fibrosis pulmonar, presente en más del 80–90 % de los casos.",
+   "pagina": 78,
+   "clase": "resp-18",
+   "claseTitulo": "4.3 Enfermedades Pulmonares Intersticiales Difusas (EPID) y Fibrosis Pulmonar Idiopática",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Matidez": {
+   "termino": "Matidez",
+   "tipo": "Signo",
+   "alias": [
+    "matidez",
+    "matidez a la percusión"
+   ],
+   "def": "Sonido mate a la percusión: indica líquido en la pleura, como derrame pleural o hemotórax masivo. En el neumotórax a tensión, en cambio, hay hipersonoridad.",
+   "pagina": 59,
+   "clase": "resp-14",
+   "claseTitulo": "3.4 Neumotórax a Tensión y Hemotórax Traumático",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Ingurgitacion_yugular": {
+   "termino": "Ingurgitación yugular",
+   "tipo": "Signo",
+   "alias": [
+    "ingurgitación yugular"
+   ],
+   "def": "Signo de insuficiencia cardíaca derecha; en EPOC avanzado orienta a cor pulmonale, junto con edema de extremidades, hepatomegalia y segundo ruido pulmonar fuerte.",
+   "pagina": 15,
+   "clase": "resp-04",
+   "claseTitulo": "1.4 Enfermedad Pulmonar Obstructiva Crónica (EPOC) Estable",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Hipocratismo_digital": {
+   "termino": "Hipocratismo digital",
+   "tipo": "Signo",
+   "alias": [
+    "hipocratismo digital",
+    "dedos en palillo de tambor",
+    "acropaquia"
+   ],
+   "def": "Acropaquia: dedos en palillo de tambor y uñas en vidrio de reloj. Presente en el 50 % de los casos de fibrosis pulmonar idiopática.",
+   "pagina": 78,
+   "clase": "resp-18",
+   "claseTitulo": "4.3 Enfermedades Pulmonares Intersticiales Difusas (EPID) y Fibrosis Pulmonar Idiopática",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Asterixis": {
+   "termino": "Asterixis",
+   "tipo": "Signo",
+   "alias": [
+    "asterixis",
+    "flapping"
+   ],
+   "def": "Signo de encefalopatía hipercápnica, junto con somnolencia y letargia; aparece si se da O2 en exceso a un EPOC exacerbado. La meta de SatO2 es 88–92 %.",
+   "pagina": 20,
+   "clase": "resp-05",
+   "claseTitulo": "1.5 Exacerbación Aguda de EPOC (Anthonisen)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Hipertension_pulmonar": {
+   "termino": "Hipertensión pulmonar",
+   "tipo": "Signo",
+   "alias": [
+    "hipertensión pulmonar"
+   ],
+   "def": "Aumento de la presión en la circulación pulmonar; en EPOC avanzado la causa la vasoconstricción hipóxica y lleva al cor pulmonale. Corregir la hipoxemia es el mejor tratamiento.",
+   "pagina": 15,
+   "clase": "resp-04",
+   "claseTitulo": "1.4 Enfermedad Pulmonar Obstructiva Crónica (EPOC) Estable",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Signo_S1Q3T3": {
+   "termino": "Signo S1Q3T3",
+   "tipo": "Signo",
+   "alias": [
+    "S1Q3T3"
+   ],
+   "def": "Onda S profunda en DI, Q e inversión de T en DIII: sobrecarga aguda del ventrículo derecho en TEP. Es muy específico pero poco sensible (< 15–20 %).",
+   "pagina": 82,
+   "clase": "resp-19",
+   "claseTitulo": "4.4 Tromboembolismo Pulmonar (TEP) Agudo: Wells, Ginebra y Estratificación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Broncograma_aereo": {
+   "termino": "Broncograma aéreo",
+   "tipo": "Signo",
+   "alias": [
+    "broncograma aéreo"
+   ],
+   "def": "Bronquios con aire visibles dentro de una condensación alveolar en la radiografía; junto con la condensación o infiltrados nuevos confirma la neumonía.",
+   "pagina": 26,
+   "clase": "resp-06",
+   "claseTitulo": "2.1 Neumonía Adquirida en la Comunidad (NAC): Diagnóstico y Severidad CURB-65",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Nivel_hidroaereo": {
+   "termino": "Nivel hidroaéreo",
+   "tipo": "Signo",
+   "alias": [
+    "nivel hidroaéreo",
+    "niveles hidroaéreos"
+   ],
+   "def": "Línea horizontal de aire y líquido dentro de una cavidad; típico del absceso pulmonar (cavidad de pared gruesa), frecuente en segmentos dependientes.",
+   "pagina": 37,
+   "clase": "resp-09",
+   "claseTitulo": "2.4 Absceso Pulmonar y Supuraciones Pleuropulmonares",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Vidrio_esmerilado": {
+   "termino": "Vidrio esmerilado",
+   "tipo": "Signo",
+   "alias": [
+    "vidrio esmerilado",
+    "vidrio deslustrado"
+   ],
+   "def": "Opacidad pulmonar en la TACAR; predomina en el patrón NINE de las conectivopatías. Su presencia extensa es incompatible con un patrón NIU.",
+   "pagina": 78,
+   "clase": "resp-18",
+   "claseTitulo": "4.3 Enfermedades Pulmonares Intersticiales Difusas (EPID) y Fibrosis Pulmonar Idiopática",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Panal_de_abeja": {
+   "termino": "Panal de abeja",
+   "tipo": "Signo",
+   "alias": [
+    "panal de abeja",
+    "panalización"
+   ],
+   "def": "Honeycombing subpleural basal en la TACAR; define el patrón NIU de la fibrosis pulmonar idiopática.",
+   "pagina": 78,
+   "clase": "resp-18",
+   "claseTitulo": "4.3 Enfermedades Pulmonares Intersticiales Difusas (EPID) y Fibrosis Pulmonar Idiopática",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Consolidacion": {
+   "termino": "Consolidación",
+   "tipo": "Signo",
+   "alias": [
+    "consolidación",
+    "infiltrado pulmonar",
+    "infiltrados bilaterales"
+   ],
+   "def": "Condensación alveolar en la radiografía o TAC que, con broncograma aéreo, confirma la neumonía; no está explicada por derrame ni atelectasia.",
+   "pagina": 98,
+   "clase": "resp-22",
+   "claseTitulo": "5.2 Síndrome de Distrés Respiratorio Agudo (SDRA): Criterios de Berlín",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-22&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Calcificacion": {
+   "termino": "Calcificación",
+   "tipo": "Signo",
+   "alias": [
+    "calcificación",
+    "calcificaciones"
+   ],
+   "def": "En un nódulo, la calcificación central, concéntrica o en «palomitas de maíz» (popcorn, hamartoma) es benigna; la excéntrica, punteada o asimétrica sugiere malignidad.",
+   "pagina": 70,
+   "clase": "resp-16",
+   "claseTitulo": "4.1 Nódulo Pulmonar Solitario (NPS): Evaluación y Algoritmo Fleischner",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Espirometria": {
+   "termino": "Espirometría",
+   "tipo": "Examen",
+   "alias": [
+    "espirometría",
+    "espirometría forzada"
+   ],
+   "def": "Examen que mide VEF1, CVF y su relación. Una prueba válida exige al menos 3 maniobras reproducibles. Define obstrucción, pero nunca confirma restricción: eso lo hace la pletismografía.",
+   "pagina": 5,
+   "clase": "resp-01",
+   "claseTitulo": "1.1 Espirometría y Pruebas de Función Pulmonar",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 15
+  },
+  "VEF1": {
+   "termino": "VEF1",
+   "tipo": "Examen",
+   "alias": [
+    "VEF1",
+    "volumen espiratorio forzado"
+   ],
+   "def": "Volumen espiratorio forzado en el primer segundo. Gradúa la severidad de la obstrucción según su valor post-broncodilatador (leve ≥ 80 %, muy grave < 30 %).",
+   "pagina": 5,
+   "clase": "resp-01",
+   "claseTitulo": "1.1 Espirometría y Pruebas de Función Pulmonar",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 19
+  },
+  "CVF": {
+   "termino": "CVF",
+   "tipo": "Examen",
+   "alias": [
+    "CVF",
+    "capacidad vital forzada"
+   ],
+   "def": "Capacidad vital forzada. Con relación VEF1/CVF normal y CVF < 80 % del predicho solo sugiere restricción; se confirma con pletismografía.",
+   "pagina": 5,
+   "clase": "resp-01",
+   "claseTitulo": "1.1 Espirometría y Pruebas de Función Pulmonar",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Relacion_VEF1_CVF": {
+   "termino": "Relación VEF1/CVF",
+   "tipo": "Examen",
+   "alias": [
+    "VEF1/CVF",
+    "relación VEF1/CVF",
+    "índice de Tiffeneau"
+   ],
+   "def": "Índice de Tiffeneau. Un valor < 0.70 post-broncodilatador define patrón obstructivo (o bajo el percentil 5 / LIN); con relación ≥ 0.70 no hay obstrucción.",
+   "pagina": 5,
+   "clase": "resp-01",
+   "claseTitulo": "1.1 Espirometría y Pruebas de Función Pulmonar",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 14
+  },
+  "Prueba_broncodilatadora": {
+   "termino": "Prueba broncodilatadora",
+   "tipo": "Examen",
+   "alias": [
+    "prueba broncodilatadora",
+    "broncodilatación",
+    "reversibilidad"
+   ],
+   "def": "Espirometría repetida a los 15 minutos de salbutamol 400 mcg. Es positiva si el VEF1 o la CVF suben ≥ 12 % Y ≥ 200 mL: confirma asma; si la obstrucción persiste en un fumador, EPOC.",
+   "pagina": 5,
+   "clase": "resp-01",
+   "claseTitulo": "1.1 Espirometría y Pruebas de Función Pulmonar",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Flujo_espiratorio_maximo": {
+   "termino": "Flujo espiratorio máximo",
+   "tipo": "Examen",
+   "alias": [
+    "flujo espiratorio máximo",
+    "PEF"
+   ],
+   "def": "PEF: se mide con flujómetro, soplando fuerte y rápido tras una inspiración máxima (3 maniobras, la mejor). En la crisis, < 50 % es grave; para el alta se pide > 70 % del valor de referencia.",
+   "pagina": 8,
+   "clase": "resp-02",
+   "claseTitulo": "1.2 Crisis Asmática en el Adulto",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Pletismografia": {
+   "termino": "Pletismografía",
+   "tipo": "Examen",
+   "alias": [
+    "pletismografía",
+    "capacidad pulmonar total"
+   ],
+   "def": "Mide volúmenes pulmonares estáticos. Es el examen que confirma restricción: exige una capacidad pulmonar total (CPT) < 80 %. La espirometría solo la sugiere.",
+   "pagina": 5,
+   "clase": "resp-01",
+   "claseTitulo": "1.1 Espirometría y Pruebas de Función Pulmonar",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Prueba_de_metacolina": {
+   "termino": "Prueba de metacolina",
+   "tipo": "Examen",
+   "alias": [
+    "metacolina",
+    "provocación bronquial"
+   ],
+   "def": "Provocación bronquial con metacolina o histamina inhalada que mide hiperreactividad. Es positiva si el VEF1 cae 20 % o más; su valor está en descartar asma cuando es negativa.",
+   "pagina": 12,
+   "clase": "resp-03",
+   "claseTitulo": "1.3 Asma Bronquial Crónica y Manejo GINA/GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Gasometria_arterial": {
+   "termino": "Gasometría arterial",
+   "tipo": "Examen",
+   "alias": [
+    "gasometría arterial",
+    "gases arteriales",
+    "gasometría",
+    "GSA"
+   ],
+   "def": "Gases en sangre arterial: define la insuficiencia respiratoria (PaO2 < 60 mmHg) y la distingue en tipo 1 y 2 según PaCO2. Se controla a los 20-30 minutos de iniciar la ventilación mecánica.",
+   "pagina": 97,
+   "clase": "resp-21",
+   "claseTitulo": "5.1 Insuficiencia Respiratoria Aguda: Tipo 1 (Hipoxémica) vs Tipo 2 (Hipercápnica)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Pulsioximetria": {
+   "termino": "Pulsioximetría",
+   "tipo": "Examen",
+   "alias": [
+    "pulsioximetría",
+    "oximetría de pulso",
+    "saturación de oxígeno",
+    "SatO2"
+   ],
+   "def": "Mide la saturación de oxígeno (SatO2). En el EPOC exacerbado la meta es 88–92 %; más oxígeno puede causar coma hipercápnico.",
+   "pagina": 20,
+   "clase": "resp-05",
+   "claseTitulo": "1.5 Exacerbación Aguda de EPOC (Anthonisen)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 14
+  },
+  "Radiografia_de_torax": {
+   "termino": "Radiografía de tórax",
+   "tipo": "Examen",
+   "alias": [
+    "radiografía de tórax",
+    "Rx de tórax",
+    "radiografía torácica"
+   ],
+   "def": "Se pide en todo contacto estrecho de un caso bacilífero (junto a anamnesis y examen) para descartar enfermedad activa. En la NAC es el examen que confirma el diagnóstico.",
+   "pagina": 43,
+   "clase": "resp-10",
+   "claseTitulo": "2.5 Tuberculosis Pulmonar: Diagnóstico, Programa MINSAL y Tratamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 6
+  },
+  "TAC_de_torax": {
+   "termino": "TAC de tórax",
+   "tipo": "Examen",
+   "alias": [
+    "TAC de tórax",
+    "tomografía computada de tórax",
+    "TAC",
+    "tomografía computada"
+   ],
+   "def": "Examen de elección ante un nódulo sin imágenes previas (cortes finos con contraste). Los bordes espiculados, tamaño > 8–10 mm y vidrio esmerilado parcial sugieren cáncer.",
+   "pagina": 70,
+   "clase": "resp-16",
+   "claseTitulo": "4.1 Nódulo Pulmonar Solitario (NPS): Evaluación y Algoritmo Fleischner",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 24
+  },
+  "TACAR": {
+   "termino": "TACAR",
+   "tipo": "Examen",
+   "alias": [
+    "TACAR",
+    "TAC de alta resolución"
+   ],
+   "def": "TAC de alta resolución sin contraste, examen de elección en EPID. Un patrón NIU típico en > 60 años hace innecesaria la biopsia pulmonar.",
+   "pagina": 78,
+   "clase": "resp-18",
+   "claseTitulo": "4.3 Enfermedades Pulmonares Intersticiales Difusas (EPID) y Fibrosis Pulmonar Idiopática",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Ecografia_pleural": {
+   "termino": "Ecografía pleural",
+   "tipo": "Examen",
+   "alias": [
+    "ecografía pleural",
+    "ecografía torácica"
+   ],
+   "def": "Examen más sensible para derrame pleural (desde 20 mL) y estándar de seguridad para guiar la toracocentesis. En derrame paraneumónico muestra tabiques y loculaciones.",
+   "pagina": 48,
+   "clase": "resp-11",
+   "claseTitulo": "3.1 Derrame Pleural: Diagnóstico Diferencial y Criterios de Light",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Dimero_D": {
+   "termino": "Dímero D",
+   "tipo": "Examen",
+   "alias": [
+    "dímero D"
+   ],
+   "def": "Se pide solo con probabilidad baja o intermedia de TEP (Wells ≤ 4): negativo descarta con VPN > 99 %. Está contraindicado si la probabilidad es alta.",
+   "pagina": 82,
+   "clase": "resp-19",
+   "claseTitulo": "4.4 Tromboembolismo Pulmonar (TEP) Agudo: Wells, Ginebra y Estratificación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Cintigrafia_V_Q": {
+   "termino": "Cintigrafía V/Q",
+   "tipo": "Examen",
+   "alias": [
+    "cintigrafía V/Q",
+    "cintigrafía ventilación-perfusión",
+    "V/Q"
+   ],
+   "def": "Examen que evalúa la relación ventilación/perfusión (V/Q) del pulmón, cuyo desbalance es un mecanismo frecuente de hipoxemia.",
+   "pagina": 8,
+   "clase": "resp-02",
+   "claseTitulo": "1.2 Crisis Asmática en el Adulto",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Ecocardiograma": {
+   "termino": "Ecocardiograma",
+   "tipo": "Examen",
+   "alias": [
+    "ecocardiograma",
+    "ecocardiografía"
+   ],
+   "def": "En el TEP evalúa la disfunción del ventrículo derecho para estratificar el riesgo; en el cor pulmonale confirma el diagnóstico.",
+   "pagina": 84,
+   "clase": "resp-19",
+   "claseTitulo": "4.4 Tromboembolismo Pulmonar (TEP) Agudo: Wells, Ginebra y Estratificación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Electrocardiograma": {
+   "termino": "Electrocardiograma",
+   "tipo": "Examen",
+   "alias": [
+    "electrocardiograma",
+    "ECG"
+   ],
+   "def": "En el TEP el hallazgo más frecuente es la taquicardia sinusal (40–50 %); el patrón S1Q3T3 y el bloqueo completo de rama derecha son específicos pero poco frecuentes.",
+   "pagina": 82,
+   "clase": "resp-19",
+   "claseTitulo": "4.4 Tromboembolismo Pulmonar (TEP) Agudo: Wells, Ginebra y Estratificación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Troponina": {
+   "termino": "Troponina",
+   "tipo": "Examen",
+   "alias": [
+    "troponina",
+    "troponinas"
+   ],
+   "def": "Se vigila con ECG en la intoxicación por CO en cardiópatas; su elevación o una isquemia aguda en el ECG es indicación de cámara hiperbárica.",
+   "pagina": 104,
+   "clase": "resp-24",
+   "claseTitulo": "5.4 Intoxicación por Monóxido de Carbono e Inhalación de Humo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-24&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Baciloscopia": {
+   "termino": "Baciloscopía",
+   "tipo": "Examen",
+   "alias": [
+    "baciloscopía",
+    "baciloscopías"
+   ],
+   "def": "Ziehl-Neelsen o auramina en 2 muestras de esputo (una inmediata y una matinal en ayunas). Detecta bacilos ácido-alcohol resistentes y permite cuantificar la baciliferia y el potencial contagioso.",
+   "pagina": 40,
+   "clase": "resp-10",
+   "claseTitulo": "2.5 Tuberculosis Pulmonar: Diagnóstico, Programa MINSAL y Tratamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Cultivo_de_Koch": {
+   "termino": "Cultivo de Koch",
+   "tipo": "Examen",
+   "alias": [
+    "cultivo de Koch",
+    "cultivo de micobacterias"
+   ],
+   "def": "Cultivo en medio Löwenstein-Jensen o líquido (MGIT); estándar de oro bacteriológico de tuberculosis. Certifica viabilidad de la micobacteria y permite pruebas de susceptibilidad.",
+   "pagina": 40,
+   "clase": "resp-10",
+   "claseTitulo": "2.5 Tuberculosis Pulmonar: Diagnóstico, Programa MINSAL y Tratamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 1
+  },
+  "GeneXpert": {
+   "termino": "GeneXpert",
+   "tipo": "Examen",
+   "alias": [
+    "GeneXpert",
+    "Xpert MTB/RIF",
+    "test molecular rápido"
+   ],
+   "def": "GeneXpert MTB/RIF: PCR en tiempo real, método de elección inicial normado por MINSAL. Detecta M. tuberculosis en menos de 2 horas y la resistencia a rifampicina (gen rpoB).",
+   "pagina": 40,
+   "clase": "resp-10",
+   "claseTitulo": "2.5 Tuberculosis Pulmonar: Diagnóstico, Programa MINSAL y Tratamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 5
+  },
+  "PPD": {
+   "termino": "PPD",
+   "tipo": "Examen",
+   "alias": [
+    "PPD",
+    "prueba de tuberculina",
+    "tuberculina"
+   ],
+   "def": "Prueba de tuberculina. En el estudio de contactos, la terapia preventiva en menores de 5 años y personas con VIH se indica independiente de su resultado.",
+   "pagina": 43,
+   "clase": "resp-10",
+   "claseTitulo": "2.5 Tuberculosis Pulmonar: Diagnóstico, Programa MINSAL y Tratamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Adenosina_deaminasa": {
+   "termino": "Adenosina deaminasa",
+   "tipo": "Examen",
+   "alias": [
+    "ADA",
+    "adenosina deaminasa"
+   ],
+   "def": "ADA en líquido pleural: un exudado linfocítico con ADA > 40 U/L orienta a derrame tuberculoso.",
+   "pagina": 48,
+   "clase": "resp-11",
+   "claseTitulo": "3.1 Derrame Pleural: Diagnóstico Diferencial y Criterios de Light",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Tincion_de_Gram": {
+   "termino": "Tinción de Gram",
+   "tipo": "Examen",
+   "alias": [
+    "tinción de Gram",
+    "Gram de expectoración"
+   ],
+   "def": "Orienta el tratamiento empírico mientras llega el cultivo (diplococos lanceolados: neumococo; racimos: estafilococo). Solo sirve si la muestra es de calidad; los atípicos no se ven.",
+   "pagina": 33,
+   "clase": "resp-08",
+   "claseTitulo": "2.3 Neumonías Atípicas, Intrahospitalarias y Neumonía Aspirativa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Cultivo_de_expectoracion": {
+   "termino": "Cultivo de expectoración",
+   "tipo": "Examen",
+   "alias": [
+    "cultivo de expectoración",
+    "expectoración"
+   ],
+   "def": "Examen microbiológico de expectoración: Gram, cultivo corriente, baciloscopía y cultivo de Koch. Muestra útil: más de 25 polimorfonucleares y menos de 10 células epiteliales por campo.",
+   "pagina": 40,
+   "clase": "resp-10",
+   "claseTitulo": "2.5 Tuberculosis Pulmonar: Diagnóstico, Programa MINSAL y Tratamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 11
+  },
+  "Hemocultivos": {
+   "termino": "Hemocultivos",
+   "tipo": "Examen",
+   "alias": [
+    "hemocultivos",
+    "hemocultivo"
+   ],
+   "def": "Acompañan a los casos graves de NAC. El antígeno urinario de neumococo y Legionella también se pide en la NAC grave.",
+   "pagina": 36,
+   "clase": "resp-08",
+   "claseTitulo": "2.3 Neumonías Atípicas, Intrahospitalarias y Neumonía Aspirativa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 1
+  },
+  "PCR": {
+   "termino": "PCR",
+   "tipo": "Examen",
+   "alias": [
+    "proteína C reactiva",
+    "PCR"
+   ],
+   "def": "Amplificación de ácidos nucleicos: el GeneXpert MTB/RIF es una PCR en tiempo real que detecta el ADN de M. tuberculosis y la resistencia a rifampicina.",
+   "pagina": 40,
+   "clase": "resp-10",
+   "claseTitulo": "2.5 Tuberculosis Pulmonar: Diagnóstico, Programa MINSAL y Tratamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Toracocentesis": {
+   "termino": "Toracocentesis",
+   "tipo": "Examen",
+   "alias": [
+    "toracocentesis",
+    "punción pleural",
+    "pleurocentesis"
+   ],
+   "def": "Punción pleural, indicada en derrame de causa no clara con espesor > 10 mm. Se punciona por el borde superior de la costilla inferior; el líquido va a citoquímico, ADA, Gram, cultivo y citología.",
+   "pagina": 48,
+   "clase": "resp-11",
+   "claseTitulo": "3.1 Derrame Pleural: Diagnóstico Diferencial y Criterios de Light",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 13
+  },
+  "Pleurostomia": {
+   "termino": "Pleurostomía",
+   "tipo": "Examen",
+   "alias": [
+    "pleurostomía",
+    "tubo de drenaje torácico",
+    "drenaje pleural",
+    "tubo pleural",
+    "drenaje torácico"
+   ],
+   "def": "Tubo de drenaje torácico conectado a sello de agua. Es el tratamiento definitivo tras la descompresión con aguja y se usa en hemotórax (28–32 Fr) y en empiema o derrame paraneumónico complicado.",
+   "pagina": 59,
+   "clase": "resp-14",
+   "claseTitulo": "3.4 Neumotórax a Tensión y Hemotórax Traumático",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Toracotomia": {
+   "termino": "Toracotomía",
+   "tipo": "Examen",
+   "alias": [
+    "toracotomía",
+    "toracotomía de urgencia"
+   ],
+   "def": "Cirugía abierta de urgencia en hemotórax: drenaje inicial ≥ 1.500 mL, débito continuo ≥ 200 mL/hora por 2 a 4 horas, o transfusión persistente. En empiema organizado se hace con decorticación.",
+   "pagina": 60,
+   "clase": "resp-14",
+   "claseTitulo": "3.4 Neumotórax a Tensión y Hemotórax Traumático",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Biopsia_pleural": {
+   "termino": "Biopsia pleural",
+   "tipo": "Examen",
+   "alias": [
+    "biopsia pleural"
+   ],
+   "def": "Con aguja (Cope o Abrams) confirma la pleuritis tuberculosa al mostrar granulomas caseificantes. Si la citología del derrame maligno es negativa, la biopsia por VATS es el estándar definitivo.",
+   "pagina": 63,
+   "clase": "resp-15",
+   "claseTitulo": "3.5 Derrame Pleural Neoplásico y Pleuritis Tuberculosa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Citologia": {
+   "termino": "Citología",
+   "tipo": "Examen",
+   "alias": [
+    "citología",
+    "citología de expectoración",
+    "citología del líquido pleural"
+   ],
+   "def": "Estudio del líquido pleural obtenido por toracocentesis, junto con citoquímico, ADA, Gram y cultivo; se solicita ante sospecha de exudado neoplásico.",
+   "pagina": 48,
+   "clase": "resp-11",
+   "claseTitulo": "3.1 Derrame Pleural: Diagnóstico Diferencial y Criterios de Light",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Broncoscopia": {
+   "termino": "Broncoscopía",
+   "tipo": "Examen",
+   "alias": [
+    "broncoscopía",
+    "fibrobroncoscopía",
+    "broncoscopio"
+   ],
+   "def": "Fibrobroncoscopía: obligatoria en un absceso pulmonar con factores de riesgo de cáncer (edad > 50 años, tabaquismo) o sin respuesta, para descartar un carcinoma broncogénico.",
+   "pagina": 37,
+   "clase": "resp-09",
+   "claseTitulo": "2.4 Absceso Pulmonar y Supuraciones Pleuropulmonares",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 7
+  },
+  "PET_CT": {
+   "termino": "PET-CT",
+   "tipo": "Examen",
+   "alias": [
+    "PET-CT",
+    "PET/CT"
+   ],
+   "def": "PET-CT con 18-FDG: examen no invasivo de elección en nódulo > 8 mm de probabilidad intermedia de cáncer (5–65 %). Si es alta (> 65 %) o hay captación ávida, biopsia o VATS.",
+   "pagina": 70,
+   "clase": "resp-16",
+   "claseTitulo": "4.1 Nódulo Pulmonar Solitario (NPS): Evaluación y Algoritmo Fleischner",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Polisomnografia": {
+   "termino": "Polisomnografía",
+   "tipo": "Examen",
+   "alias": [
+    "polisomnografía",
+    "poligrafía respiratoria"
+   ],
+   "def": "Estándar de oro del SAHOS: registro nocturno supervisado de flujo aéreo, esfuerzo toracoabdominal, SatO2, ECG y EEG; entrega el IAH.",
+   "pagina": 101,
+   "clase": "resp-23",
+   "claseTitulo": "5.3 Síndrome de Apnea-Hipoapnea Obstructiva del Sueño (SAHOS)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-23&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Test_del_sudor": {
+   "termino": "Test del sudor",
+   "tipo": "Examen",
+   "alias": [
+    "test del sudor",
+    "cloro en sudor"
+   ],
+   "def": "Examen diagnóstico de la fibrosis quística: se estimula el sudor con pilocarpina y se mide el cloro. Cloro mayor de 60 mmol/L es diagnóstico en un cuadro compatible; se confirma con dos pruebas.",
+   "pagina": 87,
+   "clase": "resp-20",
+   "claseTitulo": "4.5 Hemoptisis y Bronquiectasias",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 5
+  },
+  "LDH": {
+   "termino": "LDH",
+   "tipo": "Examen",
+   "alias": [
+    "LDH",
+    "lactato deshidrogenasa"
+   ],
+   "def": "En el líquido pleural, la relación LDH LP/suero > 0.6 o LDH pleural > 2/3 del límite sérico define exudado. En el derrame paraneumónico complicado supera 1.000 U/L.",
+   "pagina": 48,
+   "clase": "resp-11",
+   "claseTitulo": "3.1 Derrame Pleural: Diagnóstico Diferencial y Criterios de Light",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 6
+  },
+  "pH_y_glucosa_pleural": {
+   "termino": "pH y glucosa pleural",
+   "tipo": "Examen",
+   "alias": [
+    "pH pleural",
+    "glucosa pleural"
+   ],
+   "def": "pH < 7.20 (medido en jeringa heparinizada) es el parámetro individual más predictivo de derrame complicado; glucosa < 40 mg/dL también indica drenaje con tubo.",
+   "pagina": 52,
+   "clase": "resp-12",
+   "claseTitulo": "3.2 Derrame Paraneumónico y Empiema Pleural",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Salbutamol": {
+   "termino": "Salbutamol",
+   "tipo": "Farmaco",
+   "alias": [
+    "salbutamol",
+    "albuterol"
+   ],
+   "def": "Beta-2 agonista de acción corta (SABA) de rescate. No debe usarse como monoterapia en asma: todo asmático debe recibir además un corticoide inhalado.",
+   "pagina": 14,
+   "clase": "resp-03",
+   "claseTitulo": "1.3 Asma Bronquial Crónica y Manejo GINA/GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Bromuro_de_ipratropio": {
+   "termino": "Bromuro de ipratropio",
+   "tipo": "Farmaco",
+   "alias": [
+    "bromuro de ipratropio",
+    "ipratropio"
+   ],
+   "def": "Anticolinérgico inhalado de acción corta (SAMA). Se asocia a SABA en la crisis asmática moderada o grave y en la exacerbación de EPOC.",
+   "pagina": 21,
+   "clase": "resp-05",
+   "claseTitulo": "1.5 Exacerbación Aguda de EPOC (Anthonisen)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Budesonida": {
+   "termino": "Budesonida",
+   "tipo": "Farmaco",
+   "alias": [
+    "budesonida"
+   ],
+   "def": "Corticoide inhalado; en asma se prefiere combinado con formoterol (160/4.5 mcg) como rescate y mantención (MART), que reduce las exacerbaciones.",
+   "pagina": 12,
+   "clase": "resp-03",
+   "claseTitulo": "1.3 Asma Bronquial Crónica y Manejo GINA/GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Formoterol": {
+   "termino": "Formoterol",
+   "tipo": "Farmaco",
+   "alias": [
+    "formoterol",
+    "budesonida-formoterol"
+   ],
+   "def": "Beta-2 agonista de acción larga (LABA). Combinado con budesonida a demanda es la vía preferida de GINA en el escalón 1-2 y en MART.",
+   "pagina": 12,
+   "clase": "resp-03",
+   "claseTitulo": "1.3 Asma Bronquial Crónica y Manejo GINA/GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Tiotropio": {
+   "termino": "Tiotropio",
+   "tipo": "Farmaco",
+   "alias": [
+    "tiotropio"
+   ],
+   "def": "Anticolinérgico de acción larga (LAMA). En asma se agrega en el escalón 5 (o biológicos, previa derivación); en EPOC es base del tratamiento broncodilatador.",
+   "pagina": 12,
+   "clase": "resp-03",
+   "claseTitulo": "1.3 Asma Bronquial Crónica y Manejo GINA/GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Corticoide_inhalado": {
+   "termino": "Corticoide inhalado",
+   "tipo": "Farmaco",
+   "alias": [
+    "corticoide inhalado",
+    "corticoides inhalados"
+   ],
+   "def": "Piedra angular del tratamiento del asma crónica. En EPOC está contraindicado como monoterapia; solo en terapia triple en exacerbadores con eosinófilos altos. Enjuagar la boca tras usarlo.",
+   "pagina": 12,
+   "clase": "resp-03",
+   "claseTitulo": "1.3 Asma Bronquial Crónica y Manejo GINA/GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 7
+  },
+  "LABA": {
+   "termino": "LABA",
+   "tipo": "Farmaco",
+   "alias": [
+    "LABA",
+    "beta-2 agonista de acción prolongada",
+    "beta agonista de acción prolongada"
+   ],
+   "def": "Beta-2 agonista de acción larga. En EPOC se usa solo (grupo A) o con LAMA (grupos B y E); en asma se asocia siempre a corticoide inhalado.",
+   "pagina": 12,
+   "clase": "resp-03",
+   "claseTitulo": "1.3 Asma Bronquial Crónica y Manejo GINA/GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 10
+  },
+  "SABA": {
+   "termino": "SABA",
+   "tipo": "Farmaco",
+   "alias": [
+    "SABA",
+    "beta-2 agonista de acción corta",
+    "beta agonista de acción corta"
+   ],
+   "def": "Beta-2 agonista de acción corta (ej. salbutamol) para rescate. Como monoterapia aumenta el riesgo de exacerbaciones graves y muerte en asma, por lo que está proscrito.",
+   "pagina": 12,
+   "clase": "resp-03",
+   "claseTitulo": "1.3 Asma Bronquial Crónica y Manejo GINA/GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 6
+  },
+  "LAMA": {
+   "termino": "LAMA",
+   "tipo": "Farmaco",
+   "alias": [
+    "LAMA",
+    "anticolinérgico de acción prolongada"
+   ],
+   "def": "Antimuscarínico de acción larga (ej. tiotropio). Base del tratamiento broncodilatador del EPOC: solo en grupo A y asociado a LABA en grupos B y E.",
+   "pagina": 15,
+   "clase": "resp-04",
+   "claseTitulo": "1.4 Enfermedad Pulmonar Obstructiva Crónica (EPOC) Estable",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Sulfato_de_magnesio": {
+   "termino": "Sulfato de magnesio",
+   "tipo": "Farmaco",
+   "alias": [
+    "sulfato de magnesio"
+   ],
+   "def": "Broncodilatador de rescate: 2 g EV en 20 minutos en crisis asmática grave refractaria a la primera hora de broncodilatadores o con PEF < 50 %. Bloquea la entrada de calcio al músculo liso.",
+   "pagina": 8,
+   "clase": "resp-02",
+   "claseTitulo": "1.2 Crisis Asmática en el Adulto",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Prednisona": {
+   "termino": "Prednisona",
+   "tipo": "Farmaco",
+   "alias": [
+    "prednisona"
+   ],
+   "def": "Corticoide oral de primera elección: 40 a 50 mg en la crisis asmática (5 a 7 días) y 40 mg por exactamente 5 días en la exacerbación de EPOC, sin pauta descendente.",
+   "pagina": 19,
+   "clase": "resp-05",
+   "claseTitulo": "1.5 Exacerbación Aguda de EPOC (Anthonisen)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Corticoide_sistemico": {
+   "termino": "Corticoide sistémico",
+   "tipo": "Farmaco",
+   "alias": [
+    "corticoide sistémico",
+    "corticoides sistémicos",
+    "corticoides",
+    "corticoide"
+   ],
+   "def": "Contraindicado en la fibrosis pulmonar idiopática (con azatioprina aumenta la mortalidad). En el patrón NINE de las conectivopatías, en cambio, la respuesta es favorable.",
+   "pagina": 78,
+   "clase": "resp-18",
+   "claseTitulo": "4.3 Enfermedades Pulmonares Intersticiales Difusas (EPID) y Fibrosis Pulmonar Idiopática",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 12
+  },
+  "Aminofilina": {
+   "termino": "Aminofilina",
+   "tipo": "Farmaco",
+   "alias": [
+    "aminofilina",
+    "teofilina"
+   ],
+   "def": "Metilxantina sin indicación de rutina en la crisis asmática: no da beneficio adicional y tiene alta toxicidad arrítmica.",
+   "pagina": 11,
+   "clase": "resp-02",
+   "claseTitulo": "1.2 Crisis Asmática en el Adulto",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Amoxicilina": {
+   "termino": "Amoxicilina",
+   "tipo": "Farmaco",
+   "alias": [
+    "amoxicilina"
+   ],
+   "def": "Penicilina oral de primera línea en NAC ambulatoria de adulto < 65 años sano: 1 g cada 8 horas por 5 a 7 días. En alérgicos se usa azitromicina o claritromicina.",
+   "pagina": 31,
+   "clase": "resp-07",
+   "claseTitulo": "2.2 Tratamiento Antimicrobiano de la NAC y Criterios GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 12
+  },
+  "Amoxicilina_acido_clavulanico": {
+   "termino": "Amoxicilina-ácido clavulánico",
+   "tipo": "Farmaco",
+   "alias": [
+    "amoxicilina-ácido clavulánico",
+    "amoxicilina/ácido clavulánico",
+    "amoxicilina con ácido clavulánico"
+   ],
+   "def": "Penicilina con inhibidor de betalactamasa. 875/125 mg cada 12 horas por 7 días en NAC ambulatoria de ≥ 65 años o comórbidos (GES); también para aspirativa y para completar el absceso pulmonar.",
+   "pagina": 36,
+   "clase": "resp-08",
+   "claseTitulo": "2.3 Neumonías Atípicas, Intrahospitalarias y Neumonía Aspirativa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Ceftriaxona": {
+   "termino": "Ceftriaxona",
+   "tipo": "Farmaco",
+   "alias": [
+    "ceftriaxona"
+   ],
+   "def": "Cefalosporina EV de 1 a 2 g al día para NAC hospitalizada en sala general (CURB-65 = 2); con azitromicina si se sospecha atípico. En UCI se asocia a levofloxacino.",
+   "pagina": 31,
+   "clase": "resp-07",
+   "claseTitulo": "2.2 Tratamiento Antimicrobiano de la NAC y Criterios GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 11
+  },
+  "Azitromicina": {
+   "termino": "Azitromicina",
+   "tipo": "Farmaco",
+   "alias": [
+    "azitromicina"
+   ],
+   "def": "Macrólido, 500 mg al día. Alternativa en alérgicos a penicilina y tratamiento de elección en neumonía atípica; se asocia a ceftriaxona si hay sospecha de atípicos.",
+   "pagina": 33,
+   "clase": "resp-08",
+   "claseTitulo": "2.3 Neumonías Atípicas, Intrahospitalarias y Neumonía Aspirativa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Claritromicina": {
+   "termino": "Claritromicina",
+   "tipo": "Farmaco",
+   "alias": [
+    "claritromicina"
+   ],
+   "def": "Macrólido, 500 mg cada 12 horas; alternativa a azitromicina en NAC ambulatoria de adulto < 65 años sano alérgico a penicilina, y para neumonía atípica.",
+   "pagina": 31,
+   "clase": "resp-07",
+   "claseTitulo": "2.2 Tratamiento Antimicrobiano de la NAC y Criterios GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Levofloxacino": {
+   "termino": "Levofloxacino",
+   "tipo": "Farmaco",
+   "alias": [
+    "levofloxacino",
+    "moxifloxacino",
+    "quinolonas respiratorias",
+    "fluoroquinolonas",
+    "fluoroquinolona"
+   ],
+   "def": "Quinolona respiratoria, 750 mg al día. En NAC se reserva para alergia grave o sospecha alta de gramnegativos; en UCI se asocia a ceftriaxona. También trata Legionella.",
+   "pagina": 31,
+   "clase": "resp-07",
+   "claseTitulo": "2.2 Tratamiento Antimicrobiano de la NAC y Criterios GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Ampicilina_sulbactam": {
+   "termino": "Ampicilina-sulbactam",
+   "tipo": "Farmaco",
+   "alias": [
+    "ampicilina-sulbactam",
+    "ampicilina/sulbactam"
+   ],
+   "def": "Penicilina con inhibidor de betalactamasa, de elección en neumonía aspirativa y absceso pulmonar por anaerobios (1.5 a 3 g cada 6 horas EV); también alternativa en NAC en sala.",
+   "pagina": 33,
+   "clase": "resp-08",
+   "claseTitulo": "2.3 Neumonías Atípicas, Intrahospitalarias y Neumonía Aspirativa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Piperacilina_tazobactam": {
+   "termino": "Piperacilina-tazobactam",
+   "tipo": "Farmaco",
+   "alias": [
+    "piperacilina-tazobactam",
+    "piperacilina/tazobactam"
+   ],
+   "def": "Betalactámico antipseudomónico, 4.5 g cada 6 horas EV, para neumonía intrahospitalaria; se asocia a vancomicina si hay sospecha de SAMR.",
+   "pagina": 36,
+   "clase": "resp-08",
+   "claseTitulo": "2.3 Neumonías Atípicas, Intrahospitalarias y Neumonía Aspirativa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Clindamicina": {
+   "termino": "Clindamicina",
+   "tipo": "Farmaco",
+   "alias": [
+    "clindamicina"
+   ],
+   "def": "Antibiótico alternativo en alérgicos para el absceso pulmonar o la supuración pulmonar por anaerobios, cuando no se usa ampicilina-sulbactam.",
+   "pagina": 31,
+   "clase": "resp-07",
+   "claseTitulo": "2.2 Tratamiento Antimicrobiano de la NAC y Criterios GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Metronidazol": {
+   "termino": "Metronidazol",
+   "tipo": "Farmaco",
+   "alias": [
+    "metronidazol"
+   ],
+   "def": "Antibiótico de cobertura anaerobia: 500 mg cada 8 horas EV, junto a ceftriaxona 2 g/día, en empiema y derrame paraneumónico complicado.",
+   "pagina": 54,
+   "clase": "resp-12",
+   "claseTitulo": "3.2 Derrame Paraneumónico y Empiema Pleural",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Cefepime": {
+   "termino": "Cefepime",
+   "tipo": "Farmaco",
+   "alias": [
+    "cefepime"
+   ],
+   "def": "Cefalosporina antipseudomónica, 2 g cada 8 horas EV, para neumonía intrahospitalaria; se asocia a vancomicina si hay sospecha de SAMR.",
+   "pagina": 33,
+   "clase": "resp-08",
+   "claseTitulo": "2.3 Neumonías Atípicas, Intrahospitalarias y Neumonía Aspirativa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Vancomicina": {
+   "termino": "Vancomicina",
+   "tipo": "Farmaco",
+   "alias": [
+    "vancomicina"
+   ],
+   "def": "Se agrega al esquema antipseudomónico en neumonía intrahospitalaria cuando hay sospecha de SAMR, y en NAC grave de UCI con riesgo de SAMR.",
+   "pagina": 35,
+   "clase": "resp-08",
+   "claseTitulo": "2.3 Neumonías Atípicas, Intrahospitalarias y Neumonía Aspirativa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Isoniazida": {
+   "termino": "Isoniazida",
+   "tipo": "Farmaco",
+   "alias": [
+    "isoniazida"
+   ],
+   "def": "Antituberculoso (H) que causa hepatitis tóxica y neuropatía periférica por depleción de piridoxina. Es la base de la terapia preventiva: 10 mg/kg/día por 6 meses.",
+   "pagina": 40,
+   "clase": "resp-10",
+   "claseTitulo": "2.5 Tuberculosis Pulmonar: Diagnóstico, Programa MINSAL y Tratamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Rifampicina": {
+   "termino": "Rifampicina",
+   "tipo": "Farmaco",
+   "alias": [
+    "rifampicina"
+   ],
+   "def": "Antituberculoso (R): hepatotoxicidad colestásica y potente inductor del citocromo P450 (anticonceptivos, antirretrovirales, anticoagulantes). Tiñe orina, saliva y lágrimas de rojo-anaranjado, benigno.",
+   "pagina": 40,
+   "clase": "resp-10",
+   "claseTitulo": "2.5 Tuberculosis Pulmonar: Diagnóstico, Programa MINSAL y Tratamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Pirazinamida": {
+   "termino": "Pirazinamida",
+   "tipo": "Farmaco",
+   "alias": [
+    "pirazinamida"
+   ],
+   "def": "Antituberculoso (Z), el más hepatotóxico del esquema. Causa hiperuricemia por inhibir la secreción tubular de ácido úrico y puede gatillar artralgias o gota aguda.",
+   "pagina": 40,
+   "clase": "resp-10",
+   "claseTitulo": "2.5 Tuberculosis Pulmonar: Diagnóstico, Programa MINSAL y Tratamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Etambutol": {
+   "termino": "Etambutol",
+   "tipo": "Farmaco",
+   "alias": [
+    "etambutol"
+   ],
+   "def": "Antituberculoso (E) que causa neuritis óptica retrobulbar dosis-dependiente: discromatopsia rojo-verde, escotoma central y caída de agudeza visual. Exige suspensión inmediata.",
+   "pagina": 40,
+   "clase": "resp-10",
+   "claseTitulo": "2.5 Tuberculosis Pulmonar: Diagnóstico, Programa MINSAL y Tratamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Piridoxina": {
+   "termino": "Piridoxina",
+   "tipo": "Farmaco",
+   "alias": [
+    "piridoxina",
+    "vitamina B6"
+   ],
+   "def": "Vitamina B6, 25 a 50 mg/día; previene la neuropatía por isoniazida en diabéticos, alcohólicos, desnutridos, embarazadas o con insuficiencia renal.",
+   "pagina": 40,
+   "clase": "resp-10",
+   "claseTitulo": "2.5 Tuberculosis Pulmonar: Diagnóstico, Programa MINSAL y Tratamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Heparina_de_bajo_peso_molecular": {
+   "termino": "Heparina de bajo peso molecular",
+   "tipo": "Farmaco",
+   "alias": [
+    "heparina de bajo peso molecular",
+    "HBPM",
+    "enoxaparina"
+   ],
+   "def": "Enoxaparina 1 mg/kg cada 12 horas SC; de elección en TEP con cáncer activo o en gestantes. Con traslape a antagonistas de vitamina K.",
+   "pagina": 83,
+   "clase": "resp-19",
+   "claseTitulo": "4.4 Tromboembolismo Pulmonar (TEP) Agudo: Wells, Ginebra y Estratificación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Warfarina": {
+   "termino": "Warfarina",
+   "tipo": "Farmaco",
+   "alias": [
+    "warfarina",
+    "acenocumarol",
+    "anticoagulantes orales",
+    "anticoagulación oral"
+   ],
+   "def": "Antagonista de vitamina K con meta INR 2.0–3.0, con traslape desde heparina de bajo peso molecular en el TEP.",
+   "pagina": 15,
+   "clase": "resp-04",
+   "claseTitulo": "1.4 Enfermedad Pulmonar Obstructiva Crónica (EPOC) Estable",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Anticoagulantes_orales_directos": {
+   "termino": "Anticoagulantes orales directos",
+   "tipo": "Farmaco",
+   "alias": [
+    "anticoagulantes orales directos",
+    "ACOD",
+    "rivaroxabán",
+    "apixabán"
+   ],
+   "def": "Rivaroxabán o apixabán: primera línea en TEP hemodinámicamente estable, en monoterapia oral. Permiten alta precoz en bajo riesgo.",
+   "pagina": 82,
+   "clase": "resp-19",
+   "claseTitulo": "4.4 Tromboembolismo Pulmonar (TEP) Agudo: Wells, Ginebra y Estratificación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Trombolisis": {
+   "termino": "Trombolisis",
+   "tipo": "Farmaco",
+   "alias": [
+    "trombolisis",
+    "alteplasa",
+    "fibrinolíticos",
+    "fibrinolítico",
+    "fibrinolisis"
+   ],
+   "def": "Alteplasa (rtPA) 100 mg EV en 2 horas, de primera línea en TEP de alto riesgo con shock o PAS < 90 mmHg. Si está contraindicada: embolectomía o trombectomía percutánea.",
+   "pagina": 82,
+   "clase": "resp-19",
+   "claseTitulo": "4.4 Tromboembolismo Pulmonar (TEP) Agudo: Wells, Ginebra y Estratificación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Acido_tranexamico": {
+   "termino": "Ácido tranexámico",
+   "tipo": "Farmaco",
+   "alias": [
+    "ácido tranexámico"
+   ],
+   "def": "Antifibrinolítico (oral o nebulizado) en la hemoptisis leve o mediana, junto con reposo y tratar la causa.",
+   "pagina": 87,
+   "clase": "resp-20",
+   "claseTitulo": "4.5 Hemoptisis y Bronquiectasias",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Antifibroticos": {
+   "termino": "Antifibróticos",
+   "tipo": "Farmaco",
+   "alias": [
+    "pirfenidona",
+    "nintedanib"
+   ],
+   "def": "Pirfenidona y nintedanib: tratamiento específico de la fibrosis pulmonar idiopática; enlentecen la caída de la CVF y reducen las exacerbaciones agudas.",
+   "pagina": 78,
+   "clase": "resp-18",
+   "claseTitulo": "4.3 Enfermedades Pulmonares Intersticiales Difusas (EPID) y Fibrosis Pulmonar Idiopática",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Furosemida": {
+   "termino": "Furosemida",
+   "tipo": "Farmaco",
+   "alias": [
+    "furosemida",
+    "diuréticos"
+   ],
+   "def": "Diurético de asa. En trasudado por insuficiencia cardíaca se trata la enfermedad de base con diuréticos; en cor pulmonale solo con congestión y con cautela, vigilando potasio y bicarbonato.",
+   "pagina": 48,
+   "clase": "resp-11",
+   "claseTitulo": "3.1 Derrame Pleural: Diagnóstico Diferencial y Criterios de Light",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Naloxona": {
+   "termino": "Naloxona",
+   "tipo": "Farmaco",
+   "alias": [
+    "naloxona"
+   ],
+   "def": "Antídoto de los opioides, cuya sobredosis causa hipoventilación alveolar pura (hipercapnia con gradiente A-a normal), una causa de insuficiencia respiratoria tipo 2.",
+   "pagina": 97,
+   "clase": "resp-21",
+   "claseTitulo": "5.1 Insuficiencia Respiratoria Aguda: Tipo 1 (Hipoxémica) vs Tipo 2 (Hipercápnica)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Terapia_nicotinica": {
+   "termino": "Terapia nicotínica",
+   "tipo": "Farmaco",
+   "alias": [
+    "terapia de reemplazo de nicotina",
+    "vareniclina",
+    "bupropión"
+   ],
+   "def": "Reemplazo de nicotina (parche más goma o pastilla) para dejar de fumar. Duplica la tasa de abstinencia junto con apoyo conductual, por 8 a 12 semanas.",
+   "pagina": 15,
+   "clase": "resp-04",
+   "claseTitulo": "1.4 Enfermedad Pulmonar Obstructiva Crónica (EPOC) Estable",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Quimioterapia": {
+   "termino": "Quimioterapia",
+   "tipo": "Farmaco",
+   "alias": [
+    "cisplatino",
+    "quimioterapia",
+    "radioterapia"
+   ],
+   "def": "Tratamiento del cáncer pulmonar microcítico: cisplatino + etopósido más radioterapia torácica y holocraneal profiláctica. En no microcítico I y II lo curativo es la cirugía.",
+   "pagina": 74,
+   "clase": "resp-17",
+   "claseTitulo": "4.2 Cáncer Pulmonar: Tipos Histológicos, Clínica y Manejo Inicial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Talco": {
+   "termino": "Talco",
+   "tipo": "Farmaco",
+   "alias": [
+    "talco",
+    "pleurodesis química"
+   ],
+   "def": "Agente de la pleurodesis química en el derrame pleural maligno recidivante: sella el espacio pleural e impide la recidiva líquida.",
+   "pagina": 63,
+   "clase": "resp-15",
+   "claseTitulo": "3.5 Derrame Pleural Neoplásico y Pleuritis Tuberculosa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neumolog%C3%ADa&clase=resp-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neumologia",
+   "embed": null,
+   "notas": 2
+  }
+ }
+}

@@ -1,0 +1,494 @@
+{
+  "classId": "endo-24",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La diabetes insípida cursa con poliuria de más de {{c1::3 a 5 L/día}} (hasta 15-20 L).",
+      "extra": "Con polidipsia y nicturia.",
+      "origen": "clase:2",
+      "fuente": "Clase · Diabetes insípida",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En diabetes insípida la osmolaridad urinaria es menor de {{c1::300 mOsm/kg}} y la densidad menor de 1.005.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Diabetes insípida",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En diabetes insípida con acceso libre al agua el sodio es normal; con restricción hídrica aparece {{c1::hipernatremia}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Diabetes insípida",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "DI central: falta de ADH por daño hipotalámico o del tallo (TEC, {{c1::neurocirugía}}, histiocitosis, sarcoidosis).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Diabetes insípida",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 124"
+      ],
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Poliuria con hipernatremia tras cirugía selar es DI central; el error es diagnosticar {{c1::SIADH}}.",
+      "extra": "El SIADH retiene agua y causa hiponatremia.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 124"
+      ],
+      "codigos": [
+        "1.09.1.007"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa farmacológica número 1 de DI nefrogénica es el {{c1::carbonato de litio}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 125"
+      ],
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Usuario de litio con poliuria: es DI nefrogénica; el error es pensar en {{c1::polidipsia psicógena}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 125"
+      ],
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Si tras desmopresina la osmolaridad urinaria sube más de {{c1::50-100%}}, es DI central.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Test de Miller",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Si la osmolaridad urinaria sube menos de {{c1::50%}} tras desmopresina, es DI nefrogénica.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Test de Miller",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Polidipsia psicógena: poliuria con osmolaridad plasmática disminuida que se normaliza con el {{c1::test de la sed}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Pregunta real · polidipsia",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 105"
+      ],
+      "codigos": [
+        "1.03.1.015",
+        "1.09.1.007"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de la DI central: {{c1::desmopresina}} (DDAVP) nasal u oral.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Test de Miller",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de la DI nefrogénica: {{c1::hidroclorotiazida + amilorida}} y retirar la causa.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Test de Miller",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En DI que no responde a desmopresina, el error es subir la desmopresina; se indica {{c1::tiazida + amilorida}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El SIADH es la causa paradigmática de hiponatremia hipotónica {{c1::euvolémica}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Por qué es euvolémica",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio de SIADH: sodio menor de {{c1::135}} y osmolaridad plasmática menor de 275.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Criterios",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio de SIADH: osmolaridad urinaria mayor de {{c1::100 mOsm/kg}}, a menudo sobre 300.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Criterios",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio de SIADH: sodio urinario mayor de {{c1::30-40 mEq/L}} pese a la hiponatremia.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Criterios",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para diagnosticar SIADH deben ser normales la función renal, la {{c1::TSH}} y el cortisol.",
+      "extra": "Se descartan hipotiroidismo e insuficiencia suprarrenal.",
+      "origen": "clase:5",
+      "fuente": "Clase · Criterios",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El cáncer pulmonar de células pequeñas causa más del {{c1::70%}} de los SIADH ectópicos.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Criterios",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fármacos que causan SIADH: {{c1::ISRS}}, carbamazepina y ciclofosfamida.",
+      "extra": "Hiponatremia con sodio urinario alto en usuaria de citalopram.",
+      "origen": "clase:5",
+      "fuente": "Clase · Criterios",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tratamiento de base del SIADH es la {{c1::restricción hídrica}} de 500-1000 mL/día.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En hiponatremia euvolémica con sodio urinario alto, el error es dar {{c1::suero fisiológico}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Con convulsiones o coma por hiponatremia se usa {{c1::suero salino hipertónico al 3%}} en infusión lenta.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Restringir y corregir despacio",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La corrección de sodio no debe superar {{c1::8-10 mEq/L}} en 24 horas.",
+      "extra": "Evita la mielinólisis pontina central (desmielinización osmótica).",
+      "origen": "clase:6",
+      "fuente": "Clase · Restringir y corregir despacio",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "NEM 1 (Wermer, gen {{c1::MEN1}}, menina): las 3 P son paratiroides, páncreas y pituitaria.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · NEM",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En NEM 1 el hiperparatiroidismo por hiperplasia de 4 glándulas ocurre en {{c1::95-100%}} y es lo más precoz.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · NEM",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "NEM 1 requiere {{c1::paratiroidectomía subtotal}} porque compromete las 4 glándulas.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla NEM",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "NEM 2A (Sipple, protooncogén {{c1::RET}}): carcinoma medular de tiroides, feocromocitoma e hiperparatiroidismo.",
+      "extra": "Penetrancia del medular 100%; feocromocitoma 50%; HPT 20-30%.",
+      "origen": "clase:7",
+      "fuente": "Clase · NEM",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-24/01_feocromocitoma-men-2a__amir-endocrino_p126.jpg",
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En NEM 2A se opera primero el {{c1::feocromocitoma}}, antes del tiroides.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "NEM 2B (Gorlin): medular precoz, feocromocitoma, {{c1::neuromas mucosos}} y hábito marfanoide, sin hiperparatiroidismo.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · NEM",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En NEM 2B se hace tiroidectomía profiláctica en el {{c1::primer año de vida}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla NEM",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "DI, SIADH y NEM {{c1::no tienen GES}} directo; hay garantías por patología oncológica o neuroquirúrgica asociada.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Perfil / GES",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/05_endocrinologia/endo-24/01_feocromocitoma-men-2a__amir-endocrino_p126.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Feocromocitoma en NEM 2A",
+      "clave": "Masa suprarrenal derecha en la TC",
+      "conducta": "Operar primero el feocromocitoma (con bloqueo alfa), después el tiroides",
+      "fuente": "Manual AMIR Endocrinología, p. 126",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/05_endocrinologia/endo-24/02_neuromas_mucosos_men2b__nelson_p4054.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Neuromas mucosos de la lengua (NEM 2B)",
+      "clave": "Nódulos en lengua, labios y conjuntivas",
+      "conducta": "Tiroidectomía profiláctica en el primer año; descartar feocromocitoma",
+      "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 4054",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.015"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Poliuria que responde a desmopresina: ¿diagnóstico y tratamiento?",
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Poliuria que no responde: ¿diagnóstico, causa y tratamiento?",
+      "codigos": [
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.1",
+      "pista": "Hiponatremia con convulsiones: ¿qué infusión y qué límite?",
+      "codigos": [
+        "1.03.1.015"
+      ]
+    }
+  ]
+}

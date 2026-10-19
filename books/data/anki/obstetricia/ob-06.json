@@ -1,0 +1,504 @@
+{
+  "classId": "ob-06",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Basta {{c1::un solo}} criterio de severidad para clasificar la preeclampsia como severa.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Criterios de severidad",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.003"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio de severidad: PA ≥ {{c1::160/110}} mmHg confirmada en dos tomas separadas por {{c2::15 minutos}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Criterios de severidad",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.003"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio de severidad: plaquetas < {{c1::100.000}}/mm³.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Criterios de severidad",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.003"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio de severidad: transaminasas al {{c1::doble}} del límite superior normal.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Criterios de severidad",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.003"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio de severidad: creatinina > {{c1::1,1 mg/dL}} o duplicación del valor basal.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Criterios de severidad",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.003"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síntomas premonitorios de eclampsia: cefalea refractaria, {{c1::escotomas}}, fosfenos, hiperreflexia con clonus y {{c2::epigastralgia}} que no cede.",
+      "extra": "La epigastralgia se debe a distensión de la cápsula de Glisson.",
+      "origen": "clase:1",
+      "fuente": "Clase · Criterios de severidad",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El edema pulmonar agudo es criterio de {{c1::severidad}} en la preeclampsia.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Criterios de severidad",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.003"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Eclampsia: convulsiones {{c1::tónico-clónicas generalizadas}} y/o coma en una mujer con preeclampsia, sin otra causa neurológica.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Eclampsia",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.004"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La eclampsia ocurre en el anteparto en {{c1::50%}}, intraparto en 25% y puerperio temprano en 25%.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Eclampsia",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.004"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa de muerte materna más frecuente en eclampsia es la {{c1::hemorragia intracerebral}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cuando aparece la convulsión",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.004"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síndrome HELLP (Tennessee): {{c1::hemólisis}}, enzimas hepáticas elevadas y {{c2::plaquetas bajas}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla HELLP",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.004"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 50",
+        "EUNACOM Diciembre 2022 · Pregunta 126",
+        "EUNACOM Agosto 2021 · Pregunta 48"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "HELLP, hemólisis: LDH > {{c1::600 U/L}} o bilirrubina total ≥ {{c2::1,2 mg/dL}} o esquistocitos.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla HELLP",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.004"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "HELLP, enzimas hepáticas: AST ≥ {{c1::70 U/L}} (o el doble del valor normal).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla HELLP",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.004"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "HELLP, plaquetas < {{c1::100.000}}/mm³.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla HELLP",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.004"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dolor epigástrico en puñalada con hemoperitoneo y shock súbito en HELLP: {{c1::rotura hepática}} (hematoma subcapsular).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 HELLP",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.004"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En HELLP, la litiasis vesicular de la ecografía es un {{c1::distractor}}: es un hallazgo frecuente en el embarazo.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz Diciembre 2022 P126",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.004"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 126"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El primer paso de la emergencia hipertensiva es el {{c1::sulfato de magnesio}}, antes que la presión o el parto.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.004"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 48",
+        "EUNACOM Julio 2025 · Pregunta 40",
+        "EUNACOM Diciembre 2022 · Pregunta 63"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Preeclampsia severa que aún no convulsiona: el error es {{c1::esperar a que convulsione}} para dar magnesio.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.004"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Convulsión en embarazada con antecedente de epilepsia y preeclampsia: sulfato de magnesio, no {{c1::antiepilépticos}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.004"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 144"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "PA ya controlada pero convulsiona después: igual se da {{c1::sulfato de magnesio}}, no más antihipertensivo.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz Diciembre 2025 P48",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.004"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El sulfato de magnesio es muy superior a {{c1::diazepam o fenitoína}} para prevenir y tratar las convulsiones eclámpticas.",
+      "extra": "Actúa bloqueando receptores NMDA.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Sulfato de magnesio",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.004"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "MgSO4, carga (Zuspan): {{c1::4 a 5 g}} EV en {{c2::15–20 minutos}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.004"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "MgSO4, mantención: {{c1::1 a 2 g/hora}} en bomba, hasta {{c2::24 horas}} postparto.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.004"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Vigilancia horaria del magnesio: reflejo rotuliano, {{c1::frecuencia respiratoria}} y {{c2::diuresis}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.004"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El primer signo de toxicidad por magnesio es la {{c1::abolición del reflejo rotuliano}} (8–10 mEq/L).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.004"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Depresión respiratoria por magnesio: FR < {{c1::12}} por minuto (10–12 mEq/L).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.004"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Diuresis mínima durante el magnesio: ≥ {{c1::30 mL/hora}}, porque se excreta por el riñón.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Toxicidad",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.004"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Magnesemia terapéutica: {{c1::4 a 7 mEq/L}}; sobre 15 mEq/L hay bloqueo cardíaco y paro.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.004"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antídoto de la toxicidad por magnesio: {{c1::gluconato de calcio al 10%}}, 1 g EV lento.",
+      "extra": "Se suspende la infusión; el error es aumentarla.",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.004"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Crisis hipertensiva (PA ≥ 160/110): {{c1::labetalol EV}}, bolo inicial de 20 mg.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Antihipertensivos EV",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.003"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 45",
+        "EUNACOM Enero 2023 · Pregunta 54"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Labetalol EV, escalada: 20 mg, luego {{c1::40 mg}}, luego 80 mg cada 10–20 minutos.",
+      "extra": "Dosis máxima acumulada 220–300 mg.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Antihipertensivos EV",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.003"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Meta tensional en la crisis: bajar a {{c1::140–150 / 90–100}} mmHg; nunca a cifras normales.",
+      "extra": "Una caída excesiva colapsa la perfusión placentaria.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Antihipertensivos EV",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.003"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa oral en la crisis: nifedipino de liberación rápida {{c1::10 a 20 mg}} oral, tragado, no sublingual.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Antihipertensivos EV",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.003"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 109"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si el labetalol está contraindicado, la alternativa EV es la {{c1::hidralazina}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.003"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En eclampsia y HELLP la única cura es la {{c1::interrupción}} del embarazo, una vez estabilizada la madre, sin esperar edad gestacional.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.004"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 115",
+        "EUNACOM Julio 2013 · Pregunta 140"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Convulsión tónico-clónica con preeclampsia: ¿qué es?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1",
+      "pista": "Emergencia hipertensiva: ¿qué fármaco va primero?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.2.0",
+      "pista": "Hemólisis, enzimas altas y plaquetas bajas: ¿qué conducta?"
+    }
+  ]
+}

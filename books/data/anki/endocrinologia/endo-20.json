@@ -1,0 +1,505 @@
+{
+  "classId": "endo-20",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los adenomas hipofisarios son el {{c1::10-15%}} de las neoplasias intracraneales.",
+      "extra": "Son tumores benignos de la adenohipófisis.",
+      "origen": "clase:1",
+      "fuente": "Clase · Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Microadenoma: menor de {{c1::10 mm}}; macroadenoma: 10 mm o más.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Etiología",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Entre los adenomas hipofisarios, el prolactinoma es el más frecuente con {{c1::40%}}.",
+      "extra": "No funcionantes 30-35%, somatotropinomas 15%, corticotropinomas 10%.",
+      "origen": "clase:1",
+      "fuente": "Clase · Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El craneofaringioma es supraselar, {{c1::quístico y calcificado}}, derivado de la bolsa de Rathke.",
+      "extra": "Bimodal: 5-14 años y mayores de 50.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de masas selares",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-20/05_craneofaringioma_rm__kanski_p830.jpg",
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El meningioma selar muestra {{c1::cola dural}} y es más frecuente en mujeres de edad media.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de masas selares",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El quiste de Rathke es un hallazgo incidental, quístico, intraselar y sin realce: se {{c1::observa}} salvo compresión visual.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de masas selares",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El defecto campimétrico clásico del macroadenoma es la {{c1::hemianopsia bitemporal}}, con visión central conservada.",
+      "extra": "Comprime las fibras nasales decusadas en el centro del quiasma.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "imagen": "biblioteca/05_endocrinologia/endo-20/01_hemianopsia-bitemporal-campimetria__cto-endocrino_p41.jpg",
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 80",
+        "EUNACOM Diciembre 2019 · Pregunta 138"
+      ],
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante una hemianopsia bitemporal, el error es buscar la lesión en el {{c1::occipital}}; es el quiasma.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hemianopsia {{c1::homónima}} indica lesión retroquiasmática (ACV o tumor); el defecto de un solo ojo, lesión del ojo o del nervio óptico.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Campo visual",
+      "repaso": false,
+      "codigos": [
+        "6.02.5.002"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El adenoma comprime el quiasma desde abajo: parte como {{c1::cuadrantanopsia temporal superior}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Campo visual por confrontación",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La invasión del seno cavernoso compromete los pares {{c1::III, IV y VI}} y ramas V1-V2, con oftalmoplejía.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Efecto de masa",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El macroadenoma da cefalea sorda retroocular por distensión del {{c1::diafragma selar}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Efecto de masa",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El estudio triple obligatorio de toda masa selar es {{c1::RM de silla turca + campimetría computarizada + perfil hormonal}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Estudio triple",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante masa selar, el examen es la RM de silla turca; el error es pedir {{c1::radiografía de silla turca o TAC}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 111",
+        "EUNACOM Enero 2023 · Pregunta 123"
+      ],
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Disminución de libido y erecciones, astenia, pérdida del campo temporal y choques con muebles: tumor hipofisario; examen de elección {{c1::RM de silla turca}}.",
+      "extra": "Hay compresión del quiasma más hipopituitarismo.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 111",
+        "EUNACOM Enero 2023 · Pregunta 123"
+      ],
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El perfil hormonal de una masa selar incluye prolactina, IGF-1, cortisol matinal con ACTH, {{c1::TSH + T4L}} y FSH/LH con esteroides sexuales.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Evaluación",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013",
+        "1.10.1.028"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante sospecha de acromegalia (prognatismo, manos gruesas, zapatos más grandes) el primer examen es el {{c1::IGF-1}}.",
+      "extra": "La GH es muy errática y no se pide.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 · IGF-1",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 113",
+        "EUNACOM Diciembre 2025 · Pregunta 32"
+      ],
+      "codigos": [
+        "1.03.1.013",
+        "1.10.1.028"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Amenorrea con galactorrea y hemianopsia bitemporal indican {{c1::macroadenoma hipofisario}} con hiperprolactinemia.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 24"
+      ],
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Regla de oro: el prolactinoma es el único adenoma de tratamiento inicial {{c1::médico con cabergolina}}.",
+      "extra": "Incluso si produce hemianopsia bitemporal.",
+      "origen": "clase:5",
+      "fuente": "Clase · Conducta",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En prolactinoma con hemianopsia, el error es la {{c1::cirugía de entrada}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Macroadenoma no funcionante con compresión quiasmática: {{c1::cirugía transesfenoidal}}.",
+      "extra": "El error es cabergolina u observar.",
+      "origen": "clase:5",
+      "fuente": "Clase · Conducta",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Incidentaloma no funcionante menor de 10 mm y asintomático: {{c1::RM de control a los 12 meses}}, sin cirugía.",
+      "extra": "El error es operar.",
+      "origen": "clase:5",
+      "fuente": "Clase · Conducta",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras la cirugía hipofisaria se hace RM anual, campimetría y seguimiento hormonal por {{c1::hipopituitarismo diferido}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Conducta",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La apoplejía hipofisaria es infarto o {{c1::hemorragia}} de un adenoma preexistente.",
+      "extra": "Gatillantes: anticoagulantes, cirugía mayor, embarazo.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Apoplejía",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-20/02_adenoma-con-sangrado-rm__cto-endocrino_p42.jpg",
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La apoplejía hipofisaria debuta con cefalea en trueno, pérdida visual súbita, {{c1::oftalmoplejía (III par)}} y colapso hemodinámico.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Primera medida en la apoplejía hipofisaria: {{c1::hidrocortisona 100 mg EV}} en bolo.",
+      "extra": "Trata la insuficiencia suprarrenal aguda secundaria a la caída de ACTH.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En cefalea en trueno con ptosis e hipotensión, el error es dar manitol o esperar la cirugía; primero {{c1::hidrocortisona}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En apoplejía, la descompresión transesfenoidal urgente se hace si hay {{c1::pérdida visual progresiva}} o compromiso de conciencia.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Apoplejía",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El campo visual por confrontación es solo tamizaje: un resultado normal {{c1::no descarta}} el defecto y se pide campimetría formal.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Confrontación",
+      "repaso": true,
+      "codigos": [
+        "6.02.5.002",
+        "1.10.4.004"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la confrontación el examinador se sienta a {{c1::50 cm a 1 metro}} del paciente, con los ojos a la misma altura.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Confrontación",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipoglicemia de ayuno con insulina alta y péptido C suprimido: {{c1::hipoglicemia facticia por insulina exógena}}.",
+      "extra": "El péptido C suprimido descarta insulinoma y sulfonilureas.",
+      "origen": "clase:12",
+      "fuente": "Pregunta real · hipoglicemia",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 39"
+      ],
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "Las masas selares {{c1::no tienen GES}} directo; hay garantías por patología neurológica o neuroquirúrgica prioritaria.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Perfil / GES",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/05_endocrinologia/endo-20/04_macroadenoma-rm__amir-endocrino_p24.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Macroadenoma hipofisario (RM)",
+      "clave": "Masa que crece hacia arriba desde la silla turca (10 mm o más)",
+      "conducta": "Estudio triple; cirugía transesfenoidal si no funcionante y compresivo; cabergolina si prolactinoma",
+      "fuente": "Manual AMIR Endocrinología, p. 24",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/05_endocrinologia/endo-20/02_adenoma-con-sangrado-rm__cto-endocrino_p42.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Apoplejía hipofisaria (adenoma con sangrado)",
+      "clave": "Hiperintensidad T1 por sangrado agudo en la silla",
+      "conducta": "Hidrocortisona 100 mg EV inmediata; descompresión urgente si pierde visión",
+      "fuente": "Manual CTO Endocrinología 14.ª ed., p. 42",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Cefalea en trueno con colapso: ¿qué das primero?",
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.0",
+      "pista": "Prolactinoma con hemianopsia: ¿tratamiento?",
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1.1",
+      "pista": "Masa pequeña que no comprime ni hipersecreta: ¿qué haces?",
+      "codigos": [
+        "1.03.1.013"
+      ]
+    }
+  ]
+}

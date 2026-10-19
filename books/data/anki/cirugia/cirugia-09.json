@@ -1,0 +1,815 @@
+{
+ "classId": "cirugia-09",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hora dorada corresponde al {{c1::segundo pico}} de mortalidad del trauma, el objetivo prioritario del ATLS.",
+   "extra": "Hematomas intracraneales, neumotórax a tensión, hemotórax masivo, rotura esplénica o hepática, pelvis inestable.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Trimodal",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.027",
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El primer pico de mortalidad es por lesiones {{c1::incompatibles con la vida}}; el tercero, por sepsis y falla multiorgánica.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Trimodal",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.027",
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La evaluación primaria del ATLS es A-B-C-D-E con {{c1::reanimación simultánea}}; la secundaria viene después.",
+   "extra": "Tratar primero lo que mata primero.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 ATLS",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.027",
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el ABCDE, la A es vía aérea con {{c1::restricción del movimiento cervical}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · ABCDE",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-09/S1_abcde__propio.svg",
+   "codigos": [
+    "4.01.5.014",
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Indicación de vía aérea definitiva: apnea o Glasgow ≤ {{c1::8}}.",
+   "extra": "También quemadura inhalatoria con estridor o volet con insuficiencia severa.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Vía aérea",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 90"
+   ],
+   "codigos": [
+    "4.01.5.014",
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El collar cervical se retira solo durante la intubación, mientras un ayudante mantiene {{c1::alineación manual en línea}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Vía aérea",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.014",
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Si la intubación no es posible tras {{c1::2-3 intentos}}, el rescate es la cricotiroidotomía quirúrgica.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Vía aérea",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.014",
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El neumotórax a tensión se trata con {{c1::descompresión con aguja}} inmediata, sin esperar radiografía.",
+   "extra": "Es un diagnóstico clínico.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Breathing",
+   "repaso": true,
+   "codigos": [
+    "4.01.5.014",
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El neumotórax abierto se cubre con un parche oclusivo sellado en {{c1::tres puntas}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Breathing",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.014",
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El hemotórax masivo se maneja con {{c1::tubo de tórax grueso}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Breathing",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.014",
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hemorragia externa exanguinante se detiene con presión directa o {{c1::torniquete}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Circulación",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.014",
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se instalan dos vías venosas periféricas cortas y gruesas de {{c1::14 o 16G}}.",
+   "extra": "Si no hay acceso: intraóseo (tibia proximal o húmero).",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Circulación",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.014",
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La reanimación hemostática usa relación {{c1::1:1:1}} de glóbulos rojos, plasma y plaquetas.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Circulación",
+   "repaso": true,
+   "codigos": [
+    "4.01.5.014",
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Ácido tranexámico: {{c1::1 g EV}} en bolo, idealmente en los primeros 10 minutos y siempre dentro de las {{c2::3 horas}} del trauma.",
+   "extra": "Más tarde pierde beneficio e incluso aumenta mortalidad.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Circulación",
+   "repaso": true,
+   "codigos": [
+    "4.01.5.014",
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hipotensión permisiva: PAS meta de {{c1::80-90 mmHg}} en trauma cerrado sin TEC, con cristaloides ≤ {{c2::1.000 mL}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Circulación",
+   "repaso": true,
+   "codigos": [
+    "4.01.5.014",
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En C, el error fatal es sobrecargar con {{c1::cristaloides (> 1 L)}}: hemodilución, hipotermia y coagulopatía.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla ATLS",
+   "repaso": true,
+   "codigos": [
+    "4.01.5.014",
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En D se evalúa la Escala de {{c1::Glasgow}} y la simetría, tamaño y fotorreacción de las pupilas.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Disability",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.014",
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En E se gira al paciente en bloque ({{c1::log-roll}}) y se evita la hipotermia con mantas y fluidos tibios a 39 °C.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Exposure",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.014",
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los anexos de la evaluación primaria incluyen monitor, gasometría con lactato, radiografía de tórax y pelvis, y {{c1::Eco-FAST}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Anexos",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Uretrorragia, hematoma perineal «en alas de mariposa» o próstata flotante: {{c1::prohibida la sonda Foley}}.",
+   "extra": "Se pide uretrografía retrógrada o cistostomía suprapúbica.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Sonda Foley",
+   "repaso": true,
+   "imagen": "biblioteca/10_cirugia/cirugia-09/02_uretrografia-lesion-uretral__bailey-love_p227.jpg",
+   "codigos": [
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La meta de diuresis en la reanimación es > {{c1::0.5 mL/kg/h}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Sonda Foley",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ojos de mapache, signo de Battle, rinorraquia u otorraquia: la sonda gástrica va por vía {{c1::orogástrica}}.",
+   "extra": "La sonda nasal puede cruzar la lámina cribiforme.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 SNG",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-09/01_ojos_de_mapache__commons.jpg",
+   "codigos": [
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La evaluación secundaria empieza solo cuando la primaria terminó y el paciente está {{c1::estabilizado}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Evaluación secundaria",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.015",
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "AMPLIA: Alergias, Medicamentos, Patologías previas, {{c1::Libaciones/última comida}} e Incidente.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 AMPLIA",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.015",
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tríada letal del trauma es hipotermia, {{c1::acidosis metabólica}} y {{c2::coagulopatía}}.",
+   "extra": "Si aparece en pabellón: cirugía de control de daños.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Control de daños",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.021",
+    "4.01.2.031"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La cirugía de control de daños consiste en packing, {{c1::cierre temporal del abdomen}} y traslado a UPC.",
+   "extra": "Bolsa de Bogotá o presión negativa.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Control de daños",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.021",
+    "4.01.2.031"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La reintervención planificada (second look) se hace a las {{c1::48-72 horas}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Control de daños",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.021",
+    "4.01.2.031"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Con la tríada letal en pabellón, el error es {{c1::continuar la cirugía definitiva}}.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "2.01.2.021",
+    "4.01.2.031"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Para abrir la vía aérea en trauma se usa la {{c1::tracción mandibular}} o elevación del mentón sin extender el cuello.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Vía aérea",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.022"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La cánula nasofaríngea se evita si hay sospecha de {{c1::fractura de base de cráneo}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Vía aérea",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.022"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Secuencia rápida de intubación: {{c1::etomidato}} como hipnótico y {{c2::succinilcolina}} como relajante.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Intubación",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.018",
+    "1.01.5.005"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El tubo orotraqueal se fija a {{c1::21-23 cm}} en la comisura labial.",
+   "extra": "La punta queda 2-3 cm sobre la carina.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Intubación",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.018",
+    "1.01.5.005"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La confirmación estándar de la posición del tubo es la {{c1::capnografía}}.",
+   "extra": "Un tubo esofágico no da CO2.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Intubación",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 90",
+    "EUNACOM Diciembre 2024 · Pregunta 105"
+   ],
+   "codigos": [
+    "4.01.5.018",
+    "1.01.5.005"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si solo se ventila un pulmón, el tubo está en el bronquio {{c1::derecho}}: se retira unos centímetros.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Intubación",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.018",
+    "1.01.5.005"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cada intento de intubación dura menos de {{c1::30 segundos}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Intubación",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.018",
+    "1.01.5.005"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En «no puedo intubar ni ventilar» se hace {{c1::cricotiroidotomía}} por la membrana entre tiroides y cricoides.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Cricotiroidotomía",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-09/03_cricotiroidotomia-esquema__sherman_p234.jpg",
+   "codigos": [
+    "4.01.5.007",
+    "1.05.5.003"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En menores de {{c1::12 años}} no se hace cricotiroidotomía quirúrgica: se usa punción con aguja gruesa.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Cricotiroidotomía",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.007",
+    "1.05.5.003"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La traqueostomía es un procedimiento {{c1::electivo o semiurgente}} del especialista, no la vía de rescate en urgencia.",
+   "extra": "Estenosis subglótica postintubación con estridor: traqueostomía.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Traqueostomía",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 149"
+   ],
+   "codigos": [
+    "6.03.5.015"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un sangrado centinela tras traqueostomía puede anunciar una fístula {{c1::traqueoinnominada}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Traqueostomía",
+   "repaso": false,
+   "codigos": [
+    "6.03.5.015"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El shock neurogénico (lesión sobre T6) cursa con hipotensión, {{c1::bradicardia}} y piel tibia.",
+   "extra": "El hemorrágico: taquicardia y piel fría.",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Raquimedular",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.020",
+    "1.10.2.021"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el trauma raquimedular se mantiene PAM sobre {{c1::85 mmHg}}; no se usan corticoides de rutina.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Raquimedular",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.020",
+    "1.10.2.021"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La radiografía lateral cervical debe mostrar de C1 hasta la unión {{c1::C7-T1}}; si no, nadador o TAC.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Columna cervical",
+   "repaso": true,
+   "codigos": [
+    "4.01.4.004"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Partes blandas prevertebrales > {{c1::7 mm}} en C2 o {{c2::21 mm}} en C6 sugieren hematoma.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Columna cervical",
+   "repaso": false,
+   "codigos": [
+    "4.01.4.004"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el trauma mayor el estudio de elección de la columna cervical es la {{c1::TAC}}.",
+   "extra": "Los criterios NEXUS negativos evitan imágenes.",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Columna cervical",
+   "repaso": false,
+   "codigos": [
+    "4.01.4.004"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hemorragia clase III: pérdida de {{c1::30-40%}} de la volemia, FC > 120, hipotensión, oliguria y confusión.",
+   "extra": "",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Shock",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.031"
+   ]
+  },
+  {
+   "id": "c46",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hemorragia clase I: menos de {{c1::15%}}; clase II: {{c2::15-30%}}; clase IV: más de 40%.",
+   "extra": "",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Shock",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.031"
+   ]
+  },
+  {
+   "id": "c47",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El shock obstructivo del traumatizado (neumotórax a tensión, taponamiento) cursa con {{c1::ingurgitación yugular}}.",
+   "extra": "",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Shock",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.031"
+   ]
+  },
+  {
+   "id": "c48",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La denudación venosa se hace en la safena mayor delante del {{c1::maléolo interno}}; hoy se prefiere la vía intraósea.",
+   "extra": "",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Denudación",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.010"
+   ]
+  },
+  {
+   "id": "c49",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En START, quien camina es {{c1::verde}}; sin respirar tras abrir la vía aérea, {{c2::negro}}.",
+   "extra": "",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Triage",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.008",
+    "4.02.3.007"
+   ]
+  },
+  {
+   "id": "c50",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En START es rojo si FR > {{c1::30}}, llene capilar > {{c2::2 segundos}} o no obedece órdenes simples.",
+   "extra": "",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Triage",
+   "repaso": true,
+   "codigos": [
+    "4.01.3.008",
+    "4.02.3.007"
+   ]
+  },
+  {
+   "id": "c51",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El traslado del traumatizado se hace tras estabilizar, y se intuba antes si Glasgow ≤ {{c1::8}}.",
+   "extra": "",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Traslado",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.031"
+   ]
+  },
+  {
+   "id": "c52",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fractura de pelvis con anillo inestable: primero {{c1::sábana o hamaca pélvica}} para limitar la hemorragia.",
+   "extra": "EUNACOM Julio 2016 · Pregunta 26.",
+   "origen": "clase:15",
+   "fuente": "Clase · Quiz fractura de pelvis",
+   "repaso": false,
+   "codigos": [
+    "6.03.5.015"
+   ]
+  },
+  {
+   "id": "c53",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor de espalda súbito en una mujer de 67 años al levantar peso en flexión: {{c1::fractura de cuerpo vertebral}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul 2024",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 39"
+   ],
+   "codigos": [
+    "4.01.5.007",
+    "1.05.5.003"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-09/02_uretrografia-lesion-uretral__bailey-love_p227.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Lesión uretral en uretrografía",
+   "clave": "Fuga de contraste desde la uretra tras fractura de pelvis",
+   "conducta": "Nunca sonda Foley a ciegas: cistostomía suprapúbica o uretrografía retrógrada",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 14.28",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.021"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-09/01_ojos_de_mapache__commons.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Ojos de mapache",
+   "clave": "Equimosis periorbitaria bilateral",
+   "conducta": "Sospecha de fractura de base de cráneo: sonda gástrica por la boca, no por la nariz",
+   "fuente": "Wikimedia Commons «Bilateral periorbital ecchymosis (raccoon eyes).jpg»",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.021"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Glasgow ≤ 8 o vía aérea en riesgo: ¿qué haces en A?",
+   "codigos": [
+    "2.01.2.021",
+    "4.01.5.014"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1",
+   "pista": "Signos de neumotórax a tensión: ¿conducta en B?",
+   "codigos": [
+    "2.01.2.021",
+    "4.01.5.014"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.2",
+   "pista": "Uretrorragia o próstata flotante: ¿qué sonda y qué alternativa?",
+   "codigos": [
+    "2.01.2.021",
+    "4.01.5.014"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.3.0.0",
+   "pista": "Tríada letal en pabellón: ¿qué cirugía?",
+   "codigos": [
+    "2.01.2.021",
+    "4.01.5.014"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,568 @@
+{
+  "classId": "nefro-15",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La GNPE es una enfermedad por {{c1::inmunocomplejos}} tras infección por Streptococcus pyogenes (grupo A) nefritogénico.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.021",
+        "2.01.1.068"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tríada del síndrome nefrítico: hematuria glomerular, {{c1::hipertensión}} y {{c2::edema}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 64"
+      ],
+      "codigos": [
+        "1.09.1.021",
+        "1.09.4.012"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Latencia de la GNPE tras faringoamigdalitis: {{c1::1 a 2 semanas}} (7 a 14 días).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 48"
+      ],
+      "codigos": [
+        "1.09.1.021",
+        "1.09.4.012"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Latencia de la GNPE tras impétigo o piodermitis: {{c1::3 a 6 semanas}} (21 a 40 días).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.021",
+        "1.09.4.012"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La GNPE se presenta con orinas color {{c1::té o coca-cola}}, edema periorbitario matinal, HTA y oliguria.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.021",
+        "1.09.4.012"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sedimento de la GNPE: hematíes dismórficos, {{c1::acantocitos}} y cilindros hemáticos.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Laboratorio",
+      "repaso": false,
+      "imagen": "biblioteca/03_nefrologia/nefro-15/01_cilindro-hematico__amir-nefro17_p46.jpg",
+      "codigos": [
+        "1.09.1.021",
+        "2.01.1.068"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la GNPE, la dismorfia de hematíes supera el {{c1::70–80 %}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.09.4.012",
+        "1.09.1.021"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cilindro {{c1::hemático}} es el hallazgo más específico de origen glomerular de la hematuria.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz sedimento",
+      "repaso": true,
+      "imagen": "biblioteca/03_nefrologia/nefro-15/01_cilindro-hematico__amir-nefro17_p46.jpg",
+      "codigos": [
+        "1.09.4.012",
+        "1.09.1.021"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Proteinuria de la GNPE: subnefrótica, menos de {{c1::1 a 2 g/día}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.021",
+        "1.09.4.012"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la GNPE el complemento muestra {{c1::C3 bajo y C4 normal}} en más del 90 %.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 65"
+      ],
+      "codigos": [
+        "1.09.1.021",
+        "1.09.4.012"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El C3 de la GNPE se normaliza espontáneamente a las {{c1::6 a 8 semanas}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.021",
+        "1.09.4.012"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Si el C3 sigue bajo después de {{c1::8–12 semanas}}, no es GNPE: se hace biopsia (lupus o membranoproliferativa).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Cuándo dejar de pensar en GNPE",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.021",
+        "1.09.4.012"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Serología de infección previa: {{c1::ASO}} en foco faríngeo y {{c2::anti-DNAsa B}} en foco cutáneo.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.021",
+        "1.09.4.012"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La GNPE es autolimitada en más del {{c1::95 %}} y cede en 1 a 3 semanas.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.021",
+        "1.09.4.012"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la GNPE típica no se usan {{c1::corticoides ni inmunosupresores}}.",
+      "extra": "Los corticoides solo si hay nefrótico asociado o GN rápidamente progresiva.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 48"
+      ],
+      "codigos": [
+        "2.01.2.007",
+        "1.09.1.021"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de la GNPE: restricción de sodio y líquidos más {{c1::furosemida}}, oral o IV.",
+      "extra": "Es soporte del volumen, no de la inmunidad.",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 83"
+      ],
+      "codigos": [
+        "1.09.1.021",
+        "1.09.4.012"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "GNPE con edema pulmonar o crisis hipertensiva: {{c1::furosemida en bolo IV}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 83"
+      ],
+      "codigos": [
+        "2.01.2.007",
+        "1.09.1.021"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El antibiótico no cambia el daño glomerular ya instalado de la {{c1::GNPE}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · Caso",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.021",
+        "1.09.4.012"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Berger: la hematuria aparece {{c1::24 a 48 horas}} junto a la infección respiratoria (sinfaringítica).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla GNPE vs IgA",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 50",
+        "EUNACOM Julio 2013 · Pregunta 148"
+      ],
+      "codigos": [
+        "1.09.1.021",
+        "1.09.4.012"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la nefropatía por IgA el complemento es {{c1::normal}} (C3 y C4).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla GNPE vs IgA",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 65"
+      ],
+      "codigos": [
+        "1.09.1.021",
+        "1.09.4.012"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La nefropatía por IgA recurre con {{c1::cada infección respiratoria}}; la GNPE es un episodio único.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.021",
+        "1.09.4.012"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Edad típica de GNPE: niños de {{c1::5 a 15 años}}; IgA: adultos jóvenes (2.ª y 3.ª década).",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.068",
+        "1.09.1.021"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Berger: control de PA con {{c1::IECA/ARA-II}} y corticoides si proteinuria > 1 g/d.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla GNPE vs IgA",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.021",
+        "1.09.4.012"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hematuria 2 días después de un catarro con C3 y C4 normales: el diagnóstico es IgA, no {{c1::postestreptocócica}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro · Pregunta Dic. 2019",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.021",
+        "2.01.1.068"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño de 7 años con edema palpebral, orinas oscuras y PA 127/85: {{c1::síndrome nefrítico}}.",
+      "extra": "En escolares, lo más frecuente es la GNPE.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Jul. 2015",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 64"
+      ],
+      "codigos": [
+        "2.01.1.068",
+        "1.09.1.021"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Emergencia hipertensiva: PA habitualmente ≥ {{c1::180/120 mmHg}} con daño agudo de órgano blanco.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Emergencia",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.007",
+        "1.09.1.021"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipertensión severa sin daño de órgano es {{c1::urgencia}}: antihipertensivo oral y control ambulatorio.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Emergencia hipertensiva",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.007",
+        "1.09.1.021"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Emergencia hipertensiva: fármacos IV titulables en unidad crítica, como {{c1::nitroprusiato, labetalol o nicardipino}}.",
+      "extra": "Nitroglicerina si hay SCA o edema pulmonar.",
+      "origen": "clase:6",
+      "fuente": "Clase · Emergencia hipertensiva",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.007",
+        "1.09.1.021"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Nitroprusiato en insuficiencia renal o uso prolongado: vigilar {{c1::intoxicación por tiocianato}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Emergencia hipertensiva",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.007",
+        "1.09.1.021"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la emergencia hipertensiva nunca se usa {{c1::nifedipino sublingual}}.",
+      "extra": "Baja la presión de forma brusca e impredecible.",
+      "origen": "clase:6",
+      "fuente": "Clase · Emergencia hipertensiva",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.007",
+        "1.09.1.021"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Emergencia hipertensiva: bajar la PAM no más de {{c1::25 %}} en la primera hora.",
+      "extra": "Luego 160/100 en 2–6 horas y normalizar en 24–48 horas.",
+      "origen": "clase:6",
+      "fuente": "Clase · Emergencia hipertensiva",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.007",
+        "1.09.1.021"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Disección aórtica: bajar la PAS a < {{c1::120 mmHg}} en 20 minutos, con betabloqueo previo.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Emergencia hipertensiva",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.007",
+        "1.09.1.021"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "ACV isquémico: tratar la PA solo si > {{c1::220/120}} (o < 185/110 si se planea trombólisis).",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Emergencia hipertensiva",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.007",
+        "1.09.1.021"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adulto mayor nefrótico con equimosis periorbitaria espontánea y VHS muy elevada: {{c1::amiloidosis primaria (AL)}}.",
+      "extra": "Mieloma o gammapatía monoclonal; no es nefrítico.",
+      "origen": "clase:11",
+      "fuente": "Clase · Preguntas reales",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 64"
+      ],
+      "codigos": [
+        "1.09.1.021",
+        "1.09.4.012"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/03_nefrologia/nefro-15/02_tira-de-orina-hematuria-proteinuria__cto-pediatria_p81.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Tira de orina con hematuria y proteinuria (síndrome nefrítico)",
+      "clave": "Sangre y proteínas en la tira: orina color té de origen glomerular",
+      "conducta": "Sedimento (dismorfia, cilindros hemáticos), C3 y C4; si hay latencia de 1–2 semanas: sal restringida y furosemida",
+      "fuente": "Manual CTO Pediatría 14.ª ed., p. 81",
+      "repaso": false,
+      "codigos": [
+        "1.09.4.012",
+        "1.09.1.021"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.1",
+      "pista": "Latencia 1–2 semanas (faringe) o 3–6 semanas (piel): ¿qué tratamiento?",
+      "codigos": [
+        "1.09.1.021",
+        "1.09.4.012"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1.0",
+      "pista": "¿Qué control del complemento se pide?",
+      "codigos": [
+        "1.09.1.021",
+        "1.09.4.012"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.0.1",
+      "pista": "C3 bajo más de 8–12 semanas: ¿qué conducta?",
+      "codigos": [
+        "1.09.1.021",
+        "1.09.4.012"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0",
+      "pista": "Hematuria 24–48 h con la infección: ¿qué diagnóstico?",
+      "codigos": [
+        "1.09.1.021",
+        "1.09.4.012"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+ "classId": "orl-05",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La acumetría usa un diapasón de {{c1::512 Hz}} (o 256 Hz) para distinguir hipoacusia de conducción de sensorioneural.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Acumetría",
+   "repaso": true,
+   "imagen": "biblioteca/17_otorrino/orl-05/01_prueba-de-weber-diapason-en-la-frente__bates_p277.jpg",
+   "codigos": [
+    "6.03.1.007",
+    "6.03.1.008"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Weber: el diapasón se apoya en la {{c1::línea media}} (frente, vértex o incisivos); normal, sonido centrado.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Weber",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.007",
+    "6.03.1.008"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hipoacusia de conducción unilateral: el Weber lateraliza hacia el oído {{c1::enfermo}}.",
+   "extra": "El oído enfermo queda aislado del ruido ambiente.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Weber",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.007",
+    "6.03.1.008"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hipoacusia sensorioneural unilateral: el Weber lateraliza hacia el oído {{c1::sano}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Weber",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.007",
+    "6.03.1.008"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Rinne compara la vía {{c1::aérea}} frente al conducto con la vía ósea sobre la mastoides.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Rinne",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.007",
+    "6.03.1.008"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Rinne positivo (VA > VO) es normal y también ocurre en la hipoacusia {{c1::sensorioneural}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Rinne",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.007",
+    "6.03.1.008"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Rinne negativo (VO > VA) es patognomónico de hipoacusia de {{c1::conducción}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Rinne",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.007",
+    "6.03.1.008"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Weber al oído derecho y Rinne positivo bilateral con hipoacusia izquierda: hipoacusia {{c1::sensorioneural izquierda}}.",
+   "extra": "Confirmar con audiometría tonal.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Caso",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.007",
+    "6.03.1.008"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mujer de 48 años con hipoacusia bilateral lenta, empeorada en el embarazo, otoscopía normal y Rinne negativo bilateral sin lateralización: {{c1::otoesclerosis}}.",
+   "extra": "Weber no lateraliza por ser bilateral y simétrica.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Otoesclerosis",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 35"
+   ],
+   "codigos": [
+    "6.03.1.007",
+    "6.03.1.008"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la otoesclerosis la platina del estribo se fija a la ventana oval; se trata con {{c1::estapedostomía}}.",
+   "extra": "Timpanograma con curva As.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Otoesclerosis",
+   "repaso": false,
+   "codigos": [
+    "4.02.4.004"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La audiometría tonal liminar mide umbrales entre {{c1::125 y 8000 Hz}} por vía aérea y ósea.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Audiometría",
+   "repaso": false,
+   "codigos": [
+    "6.03.4.006",
+    "2.01.1.101"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Audición normal: ambas vías entre 0 y {{c1::20-25 dB HL}}, sin separación.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Normal",
+   "repaso": true,
+   "codigos": [
+    "6.03.4.006",
+    "2.01.1.101"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hipoacusia de conducción: vía ósea normal, aérea descendida y brecha óseo-aérea ≥ {{c1::15 dB}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Conducción",
+   "repaso": true,
+   "codigos": [
+    "6.03.4.006",
+    "6.03.1.007"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas de brecha óseo-aérea: cerumen, OME, perforación y {{c1::otoesclerosis}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Conducción",
+   "repaso": false,
+   "codigos": [
+    "6.03.4.006",
+    "6.03.1.007"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hipoacusia sensorioneural: ambas curvas descendidas juntas, con diferencia menor de {{c1::10 dB}} (sin gap).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Sensorioneural",
+   "repaso": true,
+   "codigos": [
+    "6.03.4.006",
+    "6.03.1.008"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas de sensorioneural: presbiacusia, hipoacusia súbita, ototoxicidad y {{c1::neurinoma del acústico}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Sensorioneural",
+   "repaso": false,
+   "codigos": [
+    "6.03.4.006",
+    "6.03.1.008"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hipoacusia mixta: ambas curvas descendidas y {{c1::gap}} óseo-aéreo persistente.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Mixta",
+   "repaso": false,
+   "codigos": [
+    "6.03.4.006",
+    "6.03.1.007"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hipoacusia con tinnitus y examen otoneurológico normal: el examen inicial es la {{c1::audiometría}}.",
+   "extra": "Mujer con hipoacusia y tinnitus (pregunta repetida).",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Primer examen",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 136",
+    "EUNACOM Diciembre 2024 · Pregunta 54"
+   ],
+   "codigos": [
+    "6.03.4.006",
+    "6.03.1.007"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La impedanciometría mide la {{c1::compliance}} del sistema tímpano-oscicular; el timpanograma se clasifica según Jerger.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Impedanciometría",
+   "repaso": false,
+   "codigos": [
+    "6.03.4.008"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Curva A: pico normal centrado entre -100 y +50 daPa; oído medio {{c1::sano}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Curva A",
+   "repaso": false,
+   "codigos": [
+    "6.03.4.008"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Curva {{c1::As}}: pico centrado pero de baja amplitud (rigidez); otoesclerosis o timpanoesclerosis.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Curva As",
+   "repaso": false,
+   "codigos": [
+    "6.03.4.008"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Curva {{c1::Ad}}: amplitud excesiva; disyunción de la cadena oscicular o tímpano monomérico.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Curva Ad",
+   "repaso": false,
+   "codigos": [
+    "6.03.4.008"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Curva {{c1::B}} (plana, sin pico): líquido en el oído medio, clásica de la OME.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Curva B",
+   "repaso": false,
+   "codigos": [
+    "6.03.4.008"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Curva B con volumen del conducto mayor de {{c1::2,5 ml}}: perforación amplia o colleras permeables.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Curva B",
+   "repaso": false,
+   "codigos": [
+    "6.03.4.008"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Curva {{c1::C}}: pico desplazado a presión negativa; disfunción de la trompa de Eustaquio.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Curva C",
+   "repaso": false,
+   "codigos": [
+    "6.03.4.008"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Reflejo estapedial: {{c1::ausente}} en el oído con patología de conducción.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "6.03.4.006",
+    "6.03.1.007"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la hipoacusia sensorioneural el timpanograma es curva {{c1::A}} normal.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.007",
+    "6.03.1.008"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tamizaje auditivo del recién nacido sano: {{c1::emisiones otoacústicas}}; en prematuros, potenciales evocados automatizados.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tamizaje neonatal",
+   "repaso": false,
+   "codigos": [
+    "4.02.4.004"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-05/01_prueba-de-weber-diapason-en-la-frente__bates_p277.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Prueba de Weber",
+   "clave": "Diapasón vibrando apoyado en la frente",
+   "conducta": "Conducción: al enfermo; sensorioneural: al sano",
+   "fuente": "Bates, Guía de exploración física, Fig. 7-44",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.007",
+    "6.03.1.008"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Paciente con hipoacusia: ¿qué se prueba primero con el diapasón?",
+   "codigos": [
+    "6.03.1.007",
+    "6.03.1.008"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Weber al oído enfermo y Rinne negativo: ¿qué tipo de hipoacusia?",
+   "codigos": [
+    "6.03.1.007",
+    "6.03.1.008"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.0",
+   "pista": "Hipoacusia de conducción: ¿qué curvas de Jerger?",
+   "codigos": [
+    "6.03.1.007",
+    "6.03.1.008"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1",
+   "pista": "Weber al oído sano y Rinne positivo: ¿qué tipo de hipoacusia?",
+   "codigos": [
+    "6.03.1.007",
+    "6.03.1.008"
+   ]
+  }
+ ]
+}

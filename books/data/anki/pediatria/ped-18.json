@@ -1,0 +1,503 @@
+{
+  "classId": "ped-18",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el score de Silverman-Andersen, {{c1::0}} es normal y 10 es máxima gravedad (inverso del Apgar).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.126"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Silverman-Andersen: dificultad respiratoria grave con {{c1::≥ 7 puntos}}.",
+      "extra": "1 a 3 leve; 4 a 6 moderada.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Silverman-Andersen",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.126"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los 5 signos del Silverman-Andersen son movimiento toracoabdominal, tiraje, retracción xifoidea, aleteo y {{c1::quejido espiratorio}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Silverman-Andersen",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.126"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Quejido espiratorio audible a distancia sin fonendoscopio puntúa {{c1::2}} en el Silverman-Andersen.",
+      "extra": "Con fonendoscopio puntúa 1.",
+      "origen": "clase:2",
+      "fuente": "Clase · Tabla de puntaje",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.126"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La EMH se debe a déficit de {{c1::surfactante}} (dipalmitoilfosfatidilcolina) de los neumocitos tipo II.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 EMH",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.126"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La EMH es propia del prematuro menor de {{c1::34-35 semanas}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 EMH",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.126"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El hijo de madre diabética tiene riesgo de EMH porque la {{c1::insulina}} inhibe la síntesis de surfactante.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Prematuro sin surfactante",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.126"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El quejido precoz de la EMH es un mecanismo para mantener la {{c1::PEEP}} y evitar el colapso alveolar.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 EMH",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.126"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Rx de EMH: pulmón {{c1::hipoinsuflado}} con patrón en vidrio esmerilado y broncograma aéreo.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Libro · tabla diferencial",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.126"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-18/01_enfermedad-de-membrana-hialina-rx__cto-pediatria_p19.jpg",
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 177"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la EMH el pulmón hipoinsuflado muestra menos de {{c1::7 espacios intercostales}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Membrana hialina",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.126"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tratamiento de la EMH: {{c1::CPAP nasal precoz + surfactante exógeno endotraqueal}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.126"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Prevención de la EMH: {{c1::betametasona prenatal}} a la madre entre las 24 y 34 semanas.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.126"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Dosis de betametasona prenatal: {{c1::12 mg IM c/24h x 2 dosis}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 EMH",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.126"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Dosis de surfactante exógeno: {{c1::100 a 200 mg/kg}} por vía endotraqueal.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 EMH",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.126"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se da surfactante si el prematuro requiere FiO2 > {{c1::30%}} en CPAP.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 EMH",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.126"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El síndrome de dificultad respiratoria del RN y la atención del {{c1::prematuro extremo}} están cubiertos por GES.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Perfil V3 · GES del tema",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.126",
+        "2.01.1.123"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La TTNR se debe a retardo en la reabsorción de {{c1::líquido pulmonar fetal}} (canales ENaC).",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 TTNR",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.126"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Factor de riesgo clásico de TTNR: {{c1::cesárea electiva sin trabajo de parto}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Pulmón húmedo",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.126"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 177"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la TTNR la frecuencia respiratoria es de {{c1::60 a 100 rpm}}, con escaso tiraje y quejido.",
+      "extra": "El neonato «taquipneico pero contento».",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 TTNR",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.126"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Rx de TTNR: pulmón {{c1::hiperinsuflado}}, congestión parahiliar en «sol radiante» y cisuritis.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Libro · tabla diferencial",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.126"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-18/02_taquipnea-transitoria-rx__cto-pediatria_p18.jpg",
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 177"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La TTNR es benigna y se resuelve en {{c1::24 a 72 horas}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.126"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la TTNR (cesárea electiva, pulmón hiperinsuflado) el error es {{c1::dar surfactante sin necesitarlo}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.126"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El SAM ocurre en RN de {{c1::término y postérmino}}, casi nunca en prematuros < 34 semanas.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 SAM",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.125"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el SAM el meconio actúa como válvula, con zonas de {{c1::atelectasia y enfisema}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Aspiración meconial",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.125"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Rx de SAM: hiperinsuflación con infiltrados algodonosos {{c1::en parches}}.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Libro · tabla diferencial",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.125"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-18/03_aspiracion-meconial-rx__cto-pediatria_p20.jpg"
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La complicación mayor del SAM es la {{c1::hipertensión pulmonar persistente del neonato (HPPN)}}.",
+      "extra": "Se maneja con óxido nítrico inhalado y ventilación de alta frecuencia.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.125"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si hay fiebre materna o rotura prolongada de membranas, piensa en {{c1::neumonía connatal}}.",
+      "extra": "Agente típico: estreptococo grupo B.",
+      "origen": "clase:8",
+      "fuente": "Clase · Cuarto diferencial",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.126"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La displasia broncopulmonar se define por oxígeno a los 28 días y a las {{c1::36 semanas}} de edad postmenstrual.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Displasia broncopulmonar",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.021"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "DBP moderada: requiere FiO₂ {{c1::< 30%}} a las 36 semanas.",
+      "extra": "Leve: aire ambiental; severa: FiO₂ ≥ 30% o presión positiva.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 DBP",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.021"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En DBP el oxígeno se ajusta para una saturación de {{c1::92 a 95%}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Displasia broncopulmonar",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.021"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Apnea del prematuro: pausa respiratoria de más de {{c1::20 segundos}}, o menos si hay bradicardia, cianosis o desaturación.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Apneas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.113"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el recién nacido de término la apnea es {{c1::siempre patológica}}.",
+      "extra": "Se descarta sepsis, hipoglicemia, hipoxia, etc.",
+      "origen": "libro:sec:6",
+      "fuente": "Libro §6 Apneas",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.113"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de elección de la apnea del prematuro: {{c1::cafeína}}.",
+      "extra": "Mejora además la DBP y el neurodesarrollo.",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz apneas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.113"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Cafeína: carga de {{c1::20 mg/kg}} y mantención de 5 a 10 mg/kg/día.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Apneas",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.113"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Enterocolitis necrotizante: se ve {{c1::neumatosis intestinal}} en la radiografía.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Complicaciones del prematuro",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.123"
+      ]
+    },
+    {
+      "id": "c36",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hemorragia intraventricular se pesquisa con ecografía transfontanelar los días {{c1::3 a 7}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Complicaciones del prematuro",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.123"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Prematuro sin corticoides: ¿diagnóstico y conducta?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Cesárea electiva de término: ¿diagnóstico y curso?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2",
+      "pista": "Término con meconio: ¿qué diagnóstico y qué riesgo?"
+    }
+  ]
+}

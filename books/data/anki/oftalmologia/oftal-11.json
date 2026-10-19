@@ -1,0 +1,386 @@
+{
+ "classId": "oftal-11",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La oclusión de la arteria central de la retina equivale a un {{c1::infarto cerebral}} isquémico de la retina.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 OACR",
+   "repaso": true,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "OACR: émbolo carotídeo o cardíaco (fibrilación auricular, valvulopatía); en mayores de 65-70 años descartar {{c1::arteritis de células gigantes}} (Horton).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Etiología",
+   "repaso": true,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "OACR: pérdida visual súbita, profunda e {{c1::indolora}} en segundos («se apagó la pantalla»), con ojo blanco.",
+   "extra": "Hombre de 68 años que perdió la visión mientras desayunaba.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clínica",
+   "repaso": true,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Examen pupilar de la OACR: defecto pupilar aferente relativo (pupila de {{c1::Marcus Gunn}}).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Pupila",
+   "repaso": true,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fondo de ojo de la OACR: retina pálida y edematosa con mancha {{c1::rojo cereza}} foveal.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fondo de ojo",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-11/01_mancha-rojo-cereza-oacr__cto-oftalmo_p70.jpg",
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fóvea se ve roja porque carece de células ganglionares y se nutre de la {{c1::coroides}} sana.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fóvea",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Rescate de la OACR: masaje ocular digital, paracentesis y {{c1::acetazolamida o timolol}} para mover el émbolo a una rama periférica.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Rescate",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La ventana de rescate de la OACR es de menos de {{c1::seis horas}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Ventana",
+   "repaso": true,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sospecha de Horton (VHS alta, claudicación mandibular): {{c1::metilprednisolona}} EV urgente para proteger el ojo contralateral.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Horton",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La OACR se estudia como un ACV: eco-Doppler carotídeo, {{c1::ECG u Holter}} y VHS/PCR.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Estudio",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La oclusión de la vena central es la segunda causa vascular de pérdida visual tras la {{c1::retinopatía diabética}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 OVCR",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "OVCR: trombosis en la lámina cribosa favorecida por HTA, edad, glaucoma crónico e {{c1::hipercoagulabilidad}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Factores",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "OVCR: baja visual subaguda o súbita, indolora y menos profunda que la arterial (20/50 a {{c1::20/200}}).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clínica",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fondo de ojo de la OVCR: hemorragias en llamarada en los {{c1::cuatro cuadrantes}} («pizza marinara»), venas dilatadas y exudados algodonosos.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Fondo de ojo",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-11/02_ovcr-hemorragias-en-llama__amir-oftalmo_p15.jpg",
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Además hay {{c1::edema de papila}} y exudados algodonosos (microinfartos).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Papila",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-11/02_ovcr-hemorragias-en-llama_alt1__cto-oftalmo_p71.jpg",
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Complicación mayor de la OVCR isquémica: {{c1::glaucoma neovascular}} (glaucoma de los 100 días).",
+   "extra": "Mujer hipertensa con dolor ocular, ojo rojo y PIO 55 a los tres meses.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Complicación",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La isquemia libera {{c1::VEGF}}, que genera neovasos en el iris (rubeosis) y el ángulo camerular.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Mecanismo",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El glaucoma neovascular aparece alrededor de los {{c1::3 meses}} (90 días) post-oclusión, refractario y doloroso.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Plazo",
+   "repaso": true,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se previene con inyecciones de {{c1::anti-VEGF}} o panfotocoagulación láser.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Prevención",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Seguimiento de la OVCR: perfil lipídico, control de la HTA y presión {{c1::intraocular}} estricta.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Seguimiento",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Complicación a los 90 días de la OACR: {{c1::atrofia óptica}} pálida irreversible.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Rojo cereza: arterial; hemorragias en llama: {{c1::venosa}}. Ambas son indoloras y de ojo blanco.",
+   "extra": "Desprendimiento: retina gris, levantada y móvil.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": true,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fibrilación auricular y pérdida visual súbita con rojo cereza: rescate, derivar y {{c1::anticoagulación}} para prevenir un ACV.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Caso",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-11/01_mancha-rojo-cereza-oacr__cto-oftalmo_p70.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Mancha rojo cereza",
+   "clave": "Retina blanquecina con punto rojo foveal",
+   "conducta": "Rescate, derivar y estudio embólico",
+   "fuente": "Manual CTO Oftalmología 14.ª ed., p. 70",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-11/02_ovcr-hemorragias-en-llama__amir-oftalmo_p15.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Hemorragias en llama",
+   "clave": "Hemorragias masivas en cuatro cuadrantes con venas tortuosas",
+   "conducta": "Derivar; vigilar el glaucoma neovascular",
+   "fuente": "Manual AMIR Oftalmología, p. 15",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-11/02_ovcr-hemorragias-en-llama_alt1__cto-oftalmo_p71.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Oclusión venosa central",
+   "clave": "Retina con hemorragias, exudados algodonosos y edema papilar",
+   "conducta": "Anti-VEGF o láser para prevenir el glaucoma neovascular",
+   "fuente": "Manual CTO Oftalmología 14.ª ed., p. 71",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Pérdida monocular súbita, ojo blanco e indoloro: ¿qué se mira?",
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Retina pálida con rojo cereza: ¿diagnóstico y estudio?",
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.0.0",
+   "pista": "Sospecha de Horton: ¿qué se indica?",
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1",
+   "pista": "Hemorragias en llama: ¿diagnóstico y qué se vigila?",
+   "codigos": [
+    "6.02.2.004"
+   ]
+  }
+ ]
+}

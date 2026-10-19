@@ -1,0 +1,528 @@
+{
+  "classId": "endo-05",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La tiroiditis de De Quervain es la causa más común de {{c1::tiroides dolorosa}}.",
+      "extra": "Post-viral, autolimitada, en mujeres de 30 a 50 años.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "De Quervain suele aparecer {{c1::1 a 3 semanas}} después de una infección respiratoria alta.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · De Quervain",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Clínica de De Quervain: dolor cervical anterior intenso que irradia a {{c1::mandíbula y oídos}}, con tiroides dolorosa y caliente.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · De Quervain",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En De Quervain la VHS es muy elevada, sobre {{c1::60 a 100 mm/h}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cómo se confirma",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En De Quervain la captación de yodo a las 24 horas es casi nula, menor de {{c1::1 a 2%}}.",
+      "extra": "Tiroides \"en blanco\"; en Graves la captación está aumentada.",
+      "origen": "foto",
+      "fuente": "Clase · Cómo se confirma",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-05/02_gammagrafia_en_blanco__openi.jpg",
+      "codigos": [
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Captación de yodo nula indica {{c1::destrucción}} folicular; captación alta indica Graves.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-05/04_cintigramas_panel_graves_vs_blanco__commons.jpg",
+      "codigos": [
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En De Quervain la fase inicial es una tirotoxicosis con TSH {{c1::baja}} y T4L alta, por liberación de hormona ya fabricada.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · De Quervain",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En una tiroiditis destructiva el error es dar {{c1::tiamazol}}: no hay síntesis que bloquear.",
+      "extra": "Solo se usa en amiodarona tipo 1.",
+      "origen": "clase:16",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.003",
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Primera línea en De Quervain: {{c1::AINE}} (ibuprofeno o naproxeno) en casos leves a moderados.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 30",
+        "EUNACOM Julio 2017 · Pregunta 10",
+        "EUNACOM Julio 2013 · Pregunta 114",
+        "EUNACOM Julio 2019 · Pregunta 160"
+      ],
+      "codigos": [
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En De Quervain refractario o muy doloroso: prednisona {{c1::30 a 40 mg/día}}, reducida en 4 a 6 semanas.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Los síntomas adrenérgicos de la fase tirotóxica se tratan con {{c1::propranolol}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En tiroiditis subaguda, el radioyodo y los antitiroideos {{c1::no sirven}} (no captan, no hay síntesis).",
+      "extra": "El paracetamol tampoco es suficiente antiinflamatorio.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Diciembre 2019",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Fase tirotóxica de una tiroiditis destructiva: semanas {{c1::1 a 6}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tres fases",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Fase hipotiroidea de una tiroiditis destructiva: semanas {{c1::6 a 16}}, con TSH alta y T4L baja.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tres fases",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La recuperación a eutiroidismo ocurre en los meses 4 a 6 en más del {{c1::90%}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tres fases",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En la fase hipotiroidea de una tiroiditis destructiva se da {{c1::levotiroxina transitoria}} si hay síntomas.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tres fases",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hashimoto: bocio firme y elástico, {{c1::indoloro}}, con VHS normal.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Tiroiditis indoloras",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-05/01_eco-hashimoto__cto-endocrino_p55.jpg",
+      "codigos": [
+        "1.03.1.005",
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En Hashimoto los anti-TPO son positivos en más del {{c1::90%}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tiroiditis indoloras",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.005",
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hashimoto con hipotiroidismo: {{c1::levotiroxina de por vida}} según TSH (GES).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tiroiditis indoloras",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.005",
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Bocio difuso con anti-TPO 320, TSH normal y T4 total alta por anticonceptivos: control de TSH y T4 en {{c1::un año}}.",
+      "extra": "Los estrógenos elevan la proteína transportadora; es Hashimoto eutiroideo.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Julio 2024",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 115"
+      ],
+      "codigos": [
+        "1.03.1.005",
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tiroiditis silente o postparto: totalmente {{c1::indolora}}, con las tres fases y anti-TPO positivos en 50 a 70%.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tiroiditis indoloras",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.005",
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tiroiditis silente: {{c1::propranolol}} en la fase tóxica y levotiroxina transitoria si hay hipotiroidismo.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tiroiditis indoloras",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tiroiditis infecciosa supurada: eritema, calor, {{c1::fluctuación}} y leucocitosis; se trata con drenaje y antibióticos EV.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tiroiditis indoloras",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La amiodarona de 200 mg aporta {{c1::75 mg}} de yodo.",
+      "extra": "Unas 100 veces el requerimiento diario.",
+      "origen": "clase:5",
+      "fuente": "Clase · Amiodarona",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003",
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La amiodarona puede causar hipotiroidismo por falta de escape al efecto {{c1::Wolff-Chaikoff}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Fármacos",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.005",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Amiodarona tipo 1 (Jod-Basedow): ocurre en {{c1::bocio multinodular o Graves latente}}, con Doppler hipervascular y captación.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Amiodarona",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-05/03_doppler_amiodarona_tipo1__rumack_p1725.jpg",
+      "codigos": [
+        "1.03.1.003",
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Amiodarona tipo 1: {{c1::tiamazol a dosis altas}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Amiodarona tipo 2: tiroiditis destructiva en tiroides {{c1::previamente normal}}, con Doppler avascular y captación nula.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Amiodarona",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Amiodarona tipo 2: prednisona {{c1::40 mg/día}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hombre de 68 años con amiodarona, tiroides normal, Doppler sin vascularización y captación nula: tipo {{c1::2}}.",
+      "extra": "Se trata con corticoide, no con tiamazol.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003",
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El litio produce bocio e hipotiroidismo en {{c1::20–30%}} de los tratados crónicamente.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Litio",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.002",
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Paciente con litio, TSH 8,9 y bocio: {{c1::mantener el litio}} y agregar levotiroxina.",
+      "extra": "El error es suspenderlo.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.002",
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipertiroidismo sin exoftalmo ni bocio, TSH 0,01 y T4L alta: el estudio etiológico es la {{c1::cintigrafía tiroidea}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "Banco de preguntas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 35"
+      ],
+      "codigos": [
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/05_endocrinologia/endo-05/02_gammagrafia_en_blanco__openi.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Tiroiditis subaguda de De Quervain (cintigrama en blanco)",
+      "clave": "Glándula sin captación de yodo (< 1 a 2%)",
+      "conducta": "AINE; prednisona si es refractaria; propranolol; sin antitiroideos",
+      "fuente": "Open-i (NLM), CC BY",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/05_endocrinologia/endo-05/01_eco-hashimoto__cto-endocrino_p55.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Tiroiditis de Hashimoto (ecografía)",
+      "clave": "Tiroides heterogénea y oscura con tractos fibrosos",
+      "conducta": "Levotiroxina según TSH (GES)",
+      "fuente": "Manual CTO Endocrinología 14.ª ed., p. 55",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.005",
+        "1.03.1.002"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Bocio con litio: ¿conducta?",
+      "codigos": [
+        "1.03.1.002",
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Amiodarona con bocio previo y Doppler vascular: ¿tratamiento?",
+      "codigos": [
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "Amiodarona con tiroides normal y captación nula: ¿tratamiento?",
+      "codigos": [
+        "1.03.1.005"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.2.1",
+      "pista": "Dolor post-viral, VHS alta y captación nula: ¿tratamiento?",
+      "codigos": [
+        "1.03.1.005"
+      ]
+    }
+  ]
+}

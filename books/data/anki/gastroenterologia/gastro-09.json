@@ -1,0 +1,379 @@
+{
+  "classId": "gastro-09",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante sospecha de malabsorción, el test de {{c1::Sudán}} en deposiciones confirma la esteatorrea.",
+      "extra": "Sudán confirma; D-xilosa localiza.",
+      "origen": "clase:18",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un test de D-xilosa <b>alterado</b> indica un problema {{c1::parietal (de la pared intestinal)}}: celíaca, Crohn o intestino corto.",
+      "extra": "Baja excreción urinaria de D-xilosa.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla D-xilosa",
+      "repaso": true
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un test de D-xilosa <b>normal</b> en un paciente con esteatorrea orienta a un problema {{c1::enzimático pancreático}} (pancreatitis crónica, fibrosis quística).",
+      "extra": "La pared absorbe bien; faltan enzimas.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla D-xilosa",
+      "repaso": false
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La esteatorrea se ve como deposiciones {{c1::brillantes, que flotan y de mal olor}}.",
+      "extra": "La lientería son restos de alimento sin digerir.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Malabsorción",
+      "repaso": false
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El estándar para cuantificar la esteatorrea es la grasa fecal de {{c1::72 horas}}.",
+      "extra": "En la práctica se parte con Sudán III o esteatocrito.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz laboratorio de malabsorción",
+      "repaso": false
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Para confirmar esteatorrea, la calprotectina y los leucocitos fecales {{c1::no sirven: miden inflamación, no grasa}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz laboratorio de malabsorción",
+      "repaso": false
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Ante sospecha de Giardia en un cuadro de malabsorción: parasitológico y tratamiento con {{c1::tinidazol o metronidazol}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Malabsorción",
+      "repaso": false
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Malabsorción con esteatorrea franca que empeora con las comidas grasas, en un adulto, orienta a {{c1::insuficiencia pancreática exocrina}}.",
+      "extra": "Es una maldigestión; la celíaca suele predominar con ferropenia.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Diciembre 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 17"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una anemia ferropénica refractaria al hierro oral, con o sin diarrea, obliga a descartar {{c1::enfermedad celíaca}}.",
+      "extra": "El hierro se absorbe en el duodeno, la zona más dañada.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 104",
+        "EUNACOM Diciembre 2024 · Pregunta 60"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la celíaca son frecuentes la ferropenia y la hipocalcemia aisladas porque el hierro y el calcio se absorben en el {{c1::duodeno}}.",
+      "extra": "El duodeno es la zona más afectada.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Celíaca: clínica",
+      "repaso": false
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La enfermedad celíaca es gatillada por el gluten de {{c1::trigo, cebada y centeno}}; también la avena por contaminación.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Celíaca: clínica",
+      "repaso": false
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diarrea crónica con baja de peso más lesiones pruriginosas y vesiculares en tronco y extremidades: {{c1::enfermedad celíaca con dermatitis herpetiforme}}.",
+      "extra": "Las EII dan eritema nodoso o pioderma gangrenoso, no vesículas.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz Julio 2019",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 98"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diarrea crónica, baja de peso y anemia en una mujer joven con autoinmunidad propia o familiar (hipotiroidismo, DM1) sugieren {{c1::enfermedad celíaca}}.",
+      "extra": "Puede elevar discretamente las transaminasas.",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz Diciembre 2017",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 73",
+        "EUNACOM Diciembre 2022 · Pregunta 125",
+        "EUNACOM Diciembre 2017 · Pregunta 25"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Vegetariana estricta con diarrea, baja de peso, anemia <b>microcítica</b> e hipoalbuminemia: pensar en {{c1::enfermedad celíaca}}, no en déficit de B12.",
+      "extra": "La B12 daría anemia macrocítica.",
+      "origen": "libro:puntos",
+      "fuente": "Banco EUNACOM · Agosto 2021",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 111"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El estudio inicial de la celíaca es con anticuerpos {{c1::anti-transglutaminasa tisular IgA}} (más antiendomisio) junto con {{c2::IgA total}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Celíaca: diagnóstico",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 120",
+        "EUNACOM Diciembre 2017 · Pregunta 141"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Anticuerpos celíacos negativos con clínica sugerente: verificar {{c1::IgA total}}, porque el déficit de IgA da falsos negativos.",
+      "extra": "El déficit de IgA es más frecuente en celíacos.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Durante el estudio de celíaca el paciente debe {{c1::seguir consumiendo gluten}}; si lo suspende, hay falsos negativos.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica y diagnóstico",
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La biopsia duodenal de la celíaca muestra {{c1::atrofia vellositaria, hiperplasia de criptas y linfocitosis intraepitelial}}.",
+      "extra": "Confirma el diagnóstico.",
+      "origen": "foto",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-09/02_atrofia_vellositaria__pathoma_p114.jpg",
+      "fuente": "Libro §2 Celíaca: diagnóstico",
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El único tratamiento de la enfermedad celíaca es la {{c1::dieta sin gluten estricta y de por vida}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Celíaca: tratamiento",
+      "repaso": true
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con dieta sin gluten, los anticuerpos celíacos habitualmente se negativizan {{c1::al año}}.",
+      "extra": "Seguimiento: mejoría clínica + negativización.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Celíaca: tratamiento",
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para controlar la adherencia a la dieta sin gluten en un celíaco se piden {{c1::anticuerpos antitransglutaminasa o antiendomisio}}.",
+      "extra": "Sirven tanto para diagnóstico como para seguimiento.",
+      "origen": "libro:sec:3",
+      "fuente": "Banco EUNACOM · Diciembre 2017",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 132"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa más frecuente de celíaca que no responde a la dieta es la {{c1::transgresión dietética}} (a menudo por contaminación cruzada).",
+      "extra": "En ese caso los anticuerpos suelen seguir elevados.",
+      "origen": "clase:3",
+      "fuente": "Clase · El celíaco que no responde",
+      "repaso": false
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Celíaco que cumple la dieta, con anticuerpos negativos y malabsorción persistente: sospechar {{c1::linfoma T asociado a enteropatía (linfoma MALT intestinal)}}.",
+      "extra": "Requiere imágenes y biopsias repetidas.",
+      "origen": "clase:3",
+      "fuente": "Clase · El celíaco que no responde",
+      "repaso": true
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lactante con diarrea crónica conocida que se descompensa con vómitos, deshidratación, edema, hipoalbuminemia, hipokalemia y ferropenia: {{c1::crisis celíaca}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Banco EUNACOM · Pediatría",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 113",
+        "EUNACOM Diciembre 2018 · Pregunta 160"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Niño con diarrea crónica y mal incremento ponderal <b>sin</b> síntomas respiratorios: pensar primero en {{c1::enfermedad celíaca}} antes que fibrosis quística.",
+      "extra": "El test del sudor es para fibrosis quística.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Diciembre 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 19"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un celíaco puede consumir libremente {{c1::arroz y maíz}} (también papa, legumbres, carnes, frutas y verduras).",
+      "extra": "Se excluyen trigo, cebada, centeno y avena contaminada.",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz manejo dietético",
+      "repaso": false
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La intolerancia a la lactosa (déficit de lactasa) da diarrea {{c1::osmótica}}, meteorismo y dolor tras los lácteos, sin esteatorrea.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Lactosa vs galactosemia",
+      "repaso": false
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La intolerancia a la lactosa se confirma con el {{c1::test de hidrógeno espirado}} tras una carga de lactosa.",
+      "extra": "Tratamiento: reducir lactosa o lactasa exógena.",
+      "origen": "clase:4",
+      "fuente": "Clase · Lactosa vs galactosa",
+      "repaso": true
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La galactosemia es una enfermedad genética {{c1::autosómica recesiva}} del recién nacido: ictericia, daño hepático, cataratas, retraso y sepsis por E. coli.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Lactosa vs galactosemia",
+      "repaso": false
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la galactosemia el tratamiento es {{c1::fórmula de soya}}; la lactancia materna y la leche sin lactosa están {{c2::prohibidas}}.",
+      "extra": "La leche sin lactosa trae lactasa añadida: libera glucosa y galactosa.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-09/01_dermatitis_herpetiforme__harrison_p413.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Dermatitis herpetiforme (la celíaca de la piel)",
+      "clave": "Pápulas y vesículas agrupadas y excoriadas en los codos",
+      "conducta": "Estudiar celíaca (anti-transglutaminasa IgA + IgA total); responde a la dieta sin gluten",
+      "fuente": "Harrison 21.ª ed., p. 413",
+      "repaso": false
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-09/02_atrofia_vellositaria__pathoma_p114.jpg",
+      "pregunta": "Biopsia duodenal: ¿qué muestra y qué haces?",
+      "diagnostico": "Atrofia vellositaria de enfermedad celíaca",
+      "clave": "Mucosa plana sin vellosidades, hiperplasia de criptas y linfocitosis intraepitelial",
+      "conducta": "Dieta sin gluten estricta y de por vida; control con anticuerpos",
+      "fuente": "Pathoma, Fig. 10.18",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Diarrea sin esteatorrea tras lácteos: ¿qué cuadro y examen?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.0",
+      "pista": "D-xilosa alterada: ¿qué examen pides?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1",
+      "pista": "D-xilosa normal: ¿dónde está el problema?"
+    }
+  ]
+}

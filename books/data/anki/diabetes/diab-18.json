@@ -1,0 +1,376 @@
+{
+  "classId": "diab-18",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La CAD se considera resuelta por la resolución del {{c1::ácido-base}}, no por la simple normalización de la glicemia.",
+      "extra": "La glicemia se corrige antes que la acidosis.",
+      "origen": "clase:1",
+      "fuente": "Clase · La glicemia se corrige antes",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Resolución de CAD: glicemia < {{c1::200 mg/dL}} (necesaria, pero no basta).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Resolución de la CAD",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Resolución de CAD: glicemia < 200 más al menos {{c1::2 de 3}} criterios ácido-base.",
+      "extra": "Bicarbonato, pH venoso y anion gap.",
+      "origen": "clase:2",
+      "fuente": "Clase · Resolución de la CAD",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio de resolución de CAD: bicarbonato ≥ {{c1::18 mEq/L}}.",
+      "extra": "Es el mejor marcador de recuperación.",
+      "origen": "clase:2",
+      "fuente": "Clase · Resolución de la CAD",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio de resolución de CAD: pH venoso > {{c1::7,30}} (o pH arterial > {{c2::7,35}}).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Resolución de la CAD",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio de resolución de CAD: anion gap ≤ {{c1::12 mEq/L}}.",
+      "extra": "Confirma que se eliminaron los cetoácidos.",
+      "origen": "clase:2",
+      "fuente": "Clase · Resolución de la CAD",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Además, la CAD resuelta exige cetonemia < {{c1::0,6 mmol/L}} (o en franco descenso), alerta y tolerancia oral.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Resolución de la CAD",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Glicemia 180, pH venoso 7,32, bicarbonato 19 y anion gap 10: {{c1::CAD resuelta}}.",
+      "extra": "Cumple glicemia < 200 y los 3 criterios ácido-base.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz criterios",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Glicemia 165 con pH 7,21, HCO₃ 12 y anion gap 19: la CAD {{c1::no está resuelta}}; se mantiene la insulina EV y se agrega SG 5%.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El error clásico es {{c1::apagar la bomba porque la glicemia se normalizó}}.",
+      "extra": "La cetoacidosis sigue activa.",
+      "origen": "clase:1",
+      "fuente": "Clase · La glicemia se corrige antes",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hasta resolver la CAD se mantiene la glicemia en {{c1::150–200 mg/dL}} con insulina más SG 5%.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · La glicemia se corrige antes",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "No se apaga la bomba si el pH es < {{c1::7,30}}, aunque la glicemia sea normal.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Resolución de EHH: osmolaridad efectiva < {{c1::315 mOsm/kg}}.",
+      "extra": "Va con el despertar neurológico.",
+      "origen": "clase:3",
+      "fuente": "Clase · Resolución del EHH",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Resolución de EHH: glicemia estable bajo {{c1::250–300 mg/dL}} y paciente en su lucidez basal tolerando alimentación.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Resolución del EHH",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer con EHH, glicemia 240, osmolaridad 309, lúcida y pidiendo comer: {{c1::basal SC y mantener la bomba 1–2 horas más}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz EHH",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La vida media de la insulina cristalina EV es de {{c1::5 a 9 minutos}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La insulina basal SC (NPH o glargina) tarda {{c1::1 a 2 horas}} en absorberse.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · El traslape",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Traslape con NPH o glargina: inyectar la basal SC {{c1::1 a 2 horas antes}} de apagar la bomba EV.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Traslape",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002",
+        "1.02.2.007"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Traslape con análogo ultrarrápido (lispro o aspart): administrarlo {{c1::15 a 30 minutos}} antes de suspender la infusión.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · El traslape",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Apagar la bomba junto con el pinchazo SC (o antes) deja una {{c1::ventana sin insulina}} y causa CAD de rebote.",
+      "extra": "Se reactiva la lipólisis en pocas horas.",
+      "origen": "clase:4",
+      "fuente": "Clase · El traslape",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Joven con CAD resuelta, lúcido, que pide comer: se inyecta la basal SC y {{c1::se mantiene la infusión EV 1 a 2 horas más}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz traslape",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El traslape debe coincidir con una {{c1::comida principal}} (desayuno o almuerzo), para evaluar la tolerancia digestiva.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sin tolerancia oral, el traslape se pospone y {{c1::se mantiene la bomba}}.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · Traslape",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Joven con poliuria, polidipsia y glicemia 360 con dolor abdominal: sospecha CAD y se confirma con {{c1::cetonemia}} y gases venosos.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Pregunta real Julio 2016",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 54"
+      ],
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adolescente deportista con poliuria, polidipsia, astenia y acidosis metabólica con hiperglicemia: {{c1::cetoacidosis diabética}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Pregunta real Diciembre 2018",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 16"
+      ],
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La CAD y el EHH pertenecen al GES N° {{c1::2}} (Diabetes Mellitus).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Digest · GES",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Solo la glicemia bajó de 200: ¿qué se hace?",
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.2.1",
+      "pista": "Criterios cumplidos y tolera la vía oral: ¿cómo se traslapa?",
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "Ningún criterio ácido-base cumplido: ¿conducta?",
+      "codigos": [
+        "1.02.2.002"
+      ]
+    }
+  ]
+}

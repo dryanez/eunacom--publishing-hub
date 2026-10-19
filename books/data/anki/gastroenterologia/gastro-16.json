@@ -1,0 +1,364 @@
+{
+  "classId": "gastro-16",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lesión hepática anecogénica, de pared fina y sin tabiques: {{c1::quiste simple}} → observar.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla lesión hepática",
+      "repaso": false
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Quiste hepático con membranas, tabiques o vesículas hijas en contexto rural con perros: {{c1::quiste hidatídico}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Lesiones quísticas",
+      "repaso": false
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento del quiste hidatídico hepático: {{c1::albendazol + cirugía}} (o PAIR en casos seleccionados).",
+      "extra": "Albendazol antes y después para reducir la siembra.",
+      "origen": "clase:1",
+      "fuente": "Clase · Lesiones quísticas",
+      "repaso": true
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante sospecha de quiste hidatídico, el error es hacer {{c1::punción o biopsia libre}}.",
+      "extra": "Riesgo de anafilaxia y diseminación.",
+      "origen": "clase:4",
+      "fuente": "Clase · Biopsia hepática",
+      "repaso": false
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Absceso hepático amebiano: {{c1::metronidazol}}, habitualmente sin drenaje.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Lesiones quísticas",
+      "repaso": false
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Absceso hepático piógeno en un diabético febril: {{c1::antibióticos endovenosos + drenaje percutáneo}}.",
+      "extra": "Cubrir gramnegativos y anaerobios (ceftriaxona + metronidazol); buscar origen biliar.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz abscesos",
+      "repaso": false
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La lesión hepática benigna más frecuente es el {{c1::hemangioma}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Sólidas benignas",
+      "repaso": false
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lesión hepática hiperecogénica, homogénea y bien delimitada en hígado sano: {{c1::hemangioma}} → {{c2::observar}}.",
+      "extra": "Cirugía solo si es gigante y sintomático.",
+      "origen": "clase:21",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lesión hepática benigna con {{c1::cicatriz central}}: hiperplasia nodular focal → observar.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Sólidas benignas",
+      "repaso": false
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lesión hipoecogénica, única y homogénea en mujer usuaria de anticonceptivos orales: {{c1::adenoma hepático}}.",
+      "extra": "Con AFP normal; el hemangioma sería hiperecogénico.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla lesión hepática",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 93"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Adenoma hepático: suspender estrógenos y resecar si mide {{c1::> 5 cm}} o da síntomas.",
+      "extra": "Riesgo de hemorragia y malignización.",
+      "origen": "clase:21",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lesión heterogénea e irregular en un hígado cirrótico con AFP alta: {{c1::hepatocarcinoma}}.",
+      "extra": "",
+      "origen": "clase:21",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 79",
+        "EUNACOM Diciembre 2022 · Pregunta 164",
+        "EUNACOM Julio 2013 · Pregunta 89"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Nódulo hepático sólido en la ecografía: el estudio continúa con {{c1::TAC o RM trifásico}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Sólidas malignas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 44"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Patrón del hepatocarcinoma en TAC/RM trifásico: {{c1::realce arterial y lavado en fase portal o tardía}}.",
+      "extra": "Hipervascular en fase arterial en un DHC orienta a hepatocarcinoma.",
+      "origen": "clase:3",
+      "fuente": "Clase · Sólidas malignas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 24",
+        "EUNACOM Agosto 2021 · Pregunta 84"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Cirrótico con nódulo > 1 cm con realce arterial y lavado: diagnóstico de hepatocarcinoma {{c1::sin biopsia}}.",
+      "extra": "La biopsia se reserva para imagen atípica o hígado no cirrótico.",
+      "origen": "clase:4",
+      "fuente": "Clase · Biopsia hepática",
+      "repaso": false
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cirrótico con AFP elevada y sospecha de cáncer hepático: el estudio se inicia con {{c1::ecografía abdominal}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Lesiones malignas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 92"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tratamiento del hepatocarcinoma: resección, ablación o {{c1::trasplante (criterios de Milán)}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Lesiones malignas",
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Múltiples lesiones hepáticas hipoecogénicas: {{c1::metástasis}} → buscar el primario.",
+      "extra": "Colon, mama, pulmón, estómago; en colon algunas son resecables.",
+      "origen": "clase:3",
+      "fuente": "Clase · Sólidas malignas",
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Pólipo vesicular: se indica colecistectomía si mide {{c1::≥ 10 mm}}.",
+      "extra": "O si es único, sésil, heterogéneo, crece rápido, > 50 años, con colelitiasis o CEP.",
+      "origen": "clase:6",
+      "fuente": "Clase · Pólipos vesiculares",
+      "repaso": true
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pólipo vesicular pequeño (< 10 mm), homogéneo: {{c1::control ecográfico en 6 meses}}.",
+      "extra": "Son colesterolínicos, los más frecuentes.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Dic 2018",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 54",
+        "EUNACOM Julio 2019 · Pregunta 27"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante sospecha de cáncer de vesícula invasor, la cirugía es {{c1::abierta (colecistectomía radical)}}, no laparoscópica.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Pólipos vesiculares",
+      "repaso": false
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Principal factor de riesgo del cáncer de vesícula: {{c1::colelitiasis de larga data}}.",
+      "extra": "También vesícula en porcelana y pólipos > 1 cm; Chile tiene de las incidencias más altas.",
+      "origen": "clase:5",
+      "fuente": "Clase · Vesícula y vías biliares",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 180"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cáncer de vesícula incidental desde T1b (p. ej. subseroso): {{c1::colecistectomía radical}} (cuña hepática + linfadenectomía).",
+      "extra": "Solo el T1a (mucosa) queda tratado con la colecistectomía simple.",
+      "origen": "clase:5",
+      "fuente": "Clase · Vesícula y vías biliares",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 95"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El GES garantiza la colecistectomía preventiva en la colelitiasis sintomática entre los {{c1::35 y 49 años}}.",
+      "extra": "Prevención del cáncer de vesícula.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Cáncer de vesícula",
+      "repaso": false
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ictericia progresiva indolora con prurito y baja de peso en paciente ya colecistectomizado: {{c1::cáncer de la vía biliar}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Vesícula y vías biliares",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 118"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El colangiocarcinoma más frecuente es el {{c1::hiliar (tumor de Klatskin)}}, que deja la vesícula colapsada.",
+      "extra": "El distal da vesícula palpable, como el de páncreas.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Colangiocarcinoma",
+      "repaso": false
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estudio del colangiocarcinoma: ecografía, colangiorresonancia y {{c1::CA 19-9}}.",
+      "extra": "Resección si es posible; si no, prótesis paliativa.",
+      "origen": "clase:5",
+      "fuente": "Clase · Vesícula y vías biliares",
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-16/01_tc_trifasica_hcc__commons.jpg",
+      "pregunta": "Cirrótico con nódulo hepático: ¿qué muestra y qué haces?",
+      "diagnostico": "Hepatocarcinoma en TAC trifásico",
+      "clave": "Capta contraste en fase arterial y lo lava en fase portal",
+      "conducta": "Diagnóstico sin biopsia; derivar para resección, ablación o trasplante",
+      "fuente": "Wikimedia Commons, Zhenyu Pan et al. (CC BY 4.0)",
+      "repaso": false
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-16/02_quiste-hidatidico-hepatico__cto-radiologia_p43.jpg",
+      "pregunta": "Paciente rural con perros: ¿qué muestra y qué haces?",
+      "diagnostico": "Quiste hidatídico hepático",
+      "clave": "Lesión quística con membranas en su interior",
+      "conducta": "Albendazol + cirugía; nunca punción libre",
+      "fuente": "Manual CTO Radiología 14.ª ed., p. 43",
+      "repaso": false
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-16/01_hemangioma-realce-periferico__cto-radiologia_p51.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Hemangioma hepático",
+      "clave": "Relleno de contraste globular desde la periferia hacia el centro",
+      "conducta": "Observar; cirugía solo si es gigante y sintomático",
+      "fuente": "Manual CTO Radiología 14.ª ed., p. 51",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.1",
+      "pista": "Quiste con tabiques: ¿diagnóstico y conducta?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Sólida hiperecogénica: ¿qué es?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "Sólida hipoecogénica homogénea: ¿conducta?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.2",
+      "pista": "Heterogénea en cirrótico: ¿qué es?"
+    }
+  ]
+}

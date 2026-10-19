@@ -1,0 +1,490 @@
+{
+ "classId": "orl-09",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La rinitis alérgica es hipersensibilidad {{c1::tipo I}} mediada por IgE contra aeroalérgenos.",
+   "extra": "Ácaros, pólenes, caspa de animales y hongos.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.001",
+    "2.01.1.103"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los mastocitos sensibilizados liberan histamina, {{c1::leucotrienos}} y prostaglandinas.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.001",
+    "2.01.1.103"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tétrada de la rinitis alérgica: rinorrea acuosa, obstrucción nasal bilateral, {{c1::prurito}} y estornudos en salva.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Tétrada",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.001",
+    "2.01.1.103"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Rinoscopía: mucosa {{c1::pálida}}, edematosa o azulada, con cornetes inferiores hipertróficos y secreción hialina.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Rinoscopía",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-09/01_facies-rinitis-alergica-perenne__bates_p945.jpg",
+   "codigos": [
+    "6.03.1.001",
+    "2.01.1.103"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ojeras alérgicas: pliegues de {{c1::Dennie-Morgan}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Facies",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.001",
+    "2.01.1.103"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La rinitis alérgica se asocia a asma bronquial: «una sola {{c1::vía aérea}}».",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Asma",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.001",
+    "2.01.1.103"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Niño de 4 años con obstrucción nasal, rinorrea, respiración bucal e infecciones recurrentes: {{c1::rinitis alérgica}}.",
+   "extra": "Causa más frecuente de obstrucción nasal en pediatría.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Diagnóstico",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 167"
+   ],
+   "codigos": [
+    "6.03.1.001",
+    "2.01.1.103"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "ARIA intermitente: síntomas menos de {{c1::4 días}} a la semana o menos de 4 semanas consecutivas.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 ARIA",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.001",
+    "2.01.1.103"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "ARIA persistente: ≥ 4 días a la semana y ≥ {{c1::4 semanas}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 ARIA",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.001",
+    "2.01.1.103"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Moderada a severa: al menos un criterio entre alteración del {{c1::sueño}}, actividades, rendimiento laboral o escolar y molestia intensa.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Severidad",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.001",
+    "2.01.1.103"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Rinitis leve: {{c1::sin alteración funcional}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Severidad",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.001",
+    "2.01.1.103"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primera línea en rinitis moderada a severa o persistente: {{c1::corticoides intranasales}} (fluticasona, mometasona).",
+   "extra": "Estudiante con síntomas 5-6 días a la semana y sueño alterado.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Primera línea",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.001",
+    "2.01.1.103"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los corticoides intranasales son los únicos que controlan la {{c1::obstrucción nasal}} además del prurito y los estornudos.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Corticoides",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.001",
+    "2.01.1.103"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Biodisponibilidad sistémica de los corticoides intranasales: menor de {{c1::1%}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Corticoides",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.001",
+    "2.01.1.103"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antihistamínicos orales de 2.ª generación (cetirizina, desloratadina, loratadina): {{c1::no sedantes}}; para formas leves e intermitentes.",
+   "extra": "Hombre joven con rinorrea serosa y descarga posterior; niño de 8 años con rinorrea intermitente sin obstrucción.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Antihistamínicos",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 111",
+    "EUNACOM Julio 2013 · Pregunta 146"
+   ],
+   "codigos": [
+    "6.03.1.001",
+    "2.01.1.103"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cetirizina {{c1::10 mg}}/día; desloratadina 5 mg/día.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Dosis",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.001",
+    "2.01.1.103"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Rinitis medicamentosa: uso de descongestionantes tópicos (oximetazolina) por más de {{c1::5 a 7 días}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Rinitis medicamentosa",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.001",
+    "2.01.1.103"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Rinitis medicamentosa: taquifilaxia con baja de receptores {{c1::alfa-1}} y vasodilatación de rebote.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Rinitis medicamentosa",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.001",
+    "2.01.1.103"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Rinitis medicamentosa: suspender el vasoconstrictor de inmediato e iniciar {{c1::corticoide intranasal}}.",
+   "extra": "Joven con oximetazolina 4 veces al día por 3 semanas.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Rinitis medicamentosa",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.001",
+    "2.01.1.103"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Rinitis vasomotora: rinorrea acuosa con frío, olores o comida, sin prurito; tratamiento con {{c1::ipratropio}} intranasal.",
+   "extra": "Paciente de 80 años con rinorrea matinal que empeora con cambios de temperatura.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 79"
+   ],
+   "codigos": [
+    "6.03.1.025"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Rinitis infecciosa aguda: rinovirus o coronavirus; lavados con suero y paracetamol, {{c1::autolimitada}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.013",
+    "6.03.4.010"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El prick test identifica sensibilización {{c1::IgE}} a aeroalérgenos; se indica en rinitis persistente o antes de inmunoterapia.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Prick test",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.013",
+    "6.03.4.010"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Prick test positivo: pápula ≥ {{c1::3 mm}} mayor que el control negativo, leída a los 15-20 minutos.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Lectura",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.013",
+    "6.03.4.010"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Antes del prick test se suspenden los {{c1::antihistamínicos}} 5 a 7 días; los corticoides nasales no interfieren.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Preparación",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.013",
+    "6.03.4.010"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Prick test con pólenes de 5 mm pero control de histamina en 0 mm: la prueba no es interpretable (posible anergia por {{c1::antihistamínicos}}).",
+   "extra": "La pregunta oficial marcó «sensibilizado a pólenes»; posible error del banco.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Interpretación",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 126"
+   ],
+   "codigos": [
+    "1.05.4.013",
+    "6.03.4.010"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un prick positivo indica {{c1::sensibilización}}, no enfermedad; se correlaciona con la clínica.",
+   "extra": "Alternativa: IgE específica sérica.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Interpretación",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.013",
+    "6.03.4.010"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Contra ácaros: fundas antiácaros, lavar la ropa de cama a más de {{c1::55 °C}} y retirar alfombras y peluches.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Ácaros",
+   "repaso": false,
+   "codigos": [
+    "6.03.3.003"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Rinorrea crónica es la de más de {{c1::12 semanas}}.",
+   "extra": "Unilateral: niño, cuerpo extraño; adulto, desviación, tumor o fístula de LCR.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Rinorrea crónica",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.025"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fístula de LCR da rinorrea acuosa clara que aumenta al inclinarse; se confirma con {{c1::beta-2 transferrina}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 LCR",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.025"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se deriva la rinorrea unilateral, sanguinolenta o sin respuesta a {{c1::4 semanas}} de tratamiento.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Derivación",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.025"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-09/01_facies-rinitis-alergica-perenne__bates_p945.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Facies de rinitis alérgica",
+   "clave": "Boca entreabierta y ojeras oscuras bajo los ojos",
+   "conducta": "Corticoide intranasal y control ambiental",
+   "fuente": "Bates, Guía de exploración clínica, p. 945",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 167"
+   ],
+   "codigos": [
+    "6.03.1.025"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Rinitis con descongestionante prolongado: ¿diagnóstico y conducta?",
+   "codigos": [
+    "6.03.1.001",
+    "2.01.1.103"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0.0",
+   "pista": "Rinitis persistente moderada a severa: ¿tratamiento?",
+   "codigos": [
+    "6.03.1.001",
+    "2.01.1.103"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.0.1",
+   "pista": "Rinitis leve e intermitente: ¿tratamiento?",
+   "codigos": [
+    "6.03.1.001",
+    "2.01.1.103"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.1",
+   "pista": "Rinorrea acuosa con frío u olores: ¿diagnóstico?",
+   "codigos": [
+    "6.03.1.001",
+    "2.01.1.103"
+   ]
+  }
+ ]
+}

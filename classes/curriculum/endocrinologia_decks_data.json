@@ -6519,39 +6519,39 @@
       {
         "type": "question",
         "nav": "Pregunta Real EUNACOM",
-        "badge": "EUNACOM Diciembre 2024 · Pregunta 126",
-        "notes": "[SLIDE 15] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2024 · Pregunta 126.",
+        "badge": "EUNACOM Julio 2013 · Pregunta 59",
+        "notes": "[SLIDE 15] Pregunta oficial del banco EUNACOM: EUNACOM Julio 2013 · Pregunta 59.",
         "number": 5,
-        "caseText": "Paciente con antecedente de diverticulitis hace 10-15 días tratada con ATB oral (ciprofloxacino + metronidazol), consulta SU por diarrea múltiples episodios, con pujo y tenesmo, fiebre? dolor y sangrado: a.​ Diarrea por clostridium (sg yo era un cuadro clásico de diarrea por CD 2° a uso de ATB) b.​ Reagudización de diverticulitis por rectitis c.​ Absceso diverticular no puede ser CU? - el pujo y tenesmo no orientaría a CU? Vi una similar en una reconstrucción y era CU x eso,, era muy vieja para ser CU",
-        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "caseText": "Paciente de 70 años, diabético en tratamiento farmacológico y hospitalizado por neumonía desde hace 5 días, comienza desde ayer con cuadro de deposiciones diarreicas acuosas asociado a desorientación temporoespacial. Al examen físico destaca abdomen doloroso a palpación profunda, con ruidos hidroaéreos aumentados y ausencia de irritación peritoneal. Se solicita coprocultivo que se informa negativo y leucocitos fecales positivos.",
+        "question": "El tratamiento de elección en este caso es:",
         "options": [
           {
             "id": "A",
-            "text": "Staphylococcus aureus",
-            "isCorrect": true
-          },
-          {
-            "id": "B",
-            "text": "Streptococcus pneumoniae",
+            "text": "Hidratación por vía oral abundante",
             "isCorrect": false
           },
           {
+            "id": "B",
+            "text": "Metronidazol oral",
+            "isCorrect": true
+          },
+          {
             "id": "C",
-            "text": "Escherichia coli",
+            "text": "Ciprofloxacino oral",
             "isCorrect": false
           },
           {
             "id": "D",
-            "text": "Pseudomonas aeruginosa",
+            "text": "Clindamicina ev",
             "isCorrect": false
           },
           {
             "id": "E",
-            "text": "Klebsiella pneumoniae",
+            "text": "Probióticos orales",
             "isCorrect": false
           }
         ],
-        "explanation": "La alternativa correcta es la **A** (Staphylococcus aureus). La insulina es el tratamiento de elección en la diabetes tipo 1 y tiene indicaciones precisas en la diabetes tipo 2. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES)."
+        "explanation": "Diarrea por ATB, probablemente por C. difficile. Se trata con MTZ. Eso sí, primero se debería confirmar el diagnóstico con la PCR para Clostridium difficile."
       },
       {
         "type": "question",
@@ -7315,7 +7315,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **Aciclovir oral** (opción **C**). Es una varicela en mayor de 13 años. La aspirina está contraindicada.. La nefropatía diabética es la primera causa de enfermedad renal terminal en Chile De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+        "explanation": "Varicela en mayor de 13 años se trata con aciclovir oral, los antihistamínicos son solo sintomáticos y la aspirina está contraindicada."
       },
       {
         "type": "bento",

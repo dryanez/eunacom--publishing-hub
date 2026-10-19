@@ -1,0 +1,461 @@
+{
+  "classId": "neuro-16",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Guillain-Barré es la causa más frecuente de {{c1::parálisis flácida aguda}} en el adulto.",
+      "extra": "Polirradiculoneuropatía autoinmune post-infecciosa.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Guillain-Barré nace por {{c1::mimetismo molecular}} tras una infección 1 a 4 semanas antes.",
+      "extra": "Campylobacter, CMV, EBV, influenza.",
+      "origen": "clase:1",
+      "fuente": "Clase · Infección que confunde al inmune",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Guillain-Barré con diarrea previa suele ser por {{c1::Campylobacter jejuni}}; produce anti-GM1 y forma axonal (AMAN).",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Variantes",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Clínica cardinal del Guillain-Barré: debilidad flácida, simétrica y {{c1::ascendente}}.",
+      "extra": "Parte en las piernas y sube en días.",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 24",
+        "EUNACOM Diciembre 2018 · Pregunta 23"
+      ],
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El hallazgo más constante y obligatorio del Guillain-Barré es la {{c1::arreflexia}} generalizada.",
+      "extra": "Pregunta clásica.",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Debilidad ascendente con reflejos vivos: pensar en la {{c1::médula}}, no diagnosticar Guillain-Barré.",
+      "extra": "Reflejos presentes y debilidad al despertar: parálisis periódica hipokalémica.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 165"
+      ],
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El par craneal más comprometido en Guillain-Barré es el facial, con {{c1::diplejía facial}}.",
+      "extra": "Pares craneales en más del 50 %.",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 85",
+        "EUNACOM Julio 2016 · Pregunta 170"
+      ],
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La disautonomía ocurre en hasta el {{c1::65 %}} de los Guillain-Barré graves: presión lábil, arritmias, íleo.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El dolor radicular afecta hasta el {{c1::80 %}} de los Guillain-Barré y a menudo antecede a la debilidad.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 66"
+      ],
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La falla respiratoria del Guillain-Barré viene de debilidad del diafragma por el nervio {{c1::frénico (C3 a C5)}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · La falla respiratoria llega en silencio",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En Guillain-Barré la saturación de oxígeno {{c1::engaña}}: se mantiene normal hasta el final.",
+      "extra": "Se vigila la capacidad vital, no la oximetría.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Regla 20/30/40: CVF < {{c1::20}} mL/kg, PImáx < {{c2::-30}} cmH2O y PEmáx < 40 cmH2O.",
+      "extra": "Se mide cada 4 a 6 horas.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Monitoreo respiratorio",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.013",
+        "1.10.2.012"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El parámetro seriado más importante en Guillain-Barré con disnea es la {{c1::capacidad vital forzada}}.",
+      "extra": "La saturación cae tardíamente.",
+      "origen": "clase:21",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Prueba de cabecera: no poder contar hasta {{c1::20}} en una espiración indica CVF baja y obliga a ir a UCI.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.013",
+        "1.10.2.012"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio de intubación electiva inmediata: CVF menor de {{c1::15}} mL/kg.",
+      "extra": "Otros criterios: compromiso bulbar progresivo y disautonomía grave.",
+      "origen": "clase:4",
+      "fuente": "Clase · Quién va a UCI",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.013",
+        "1.10.2.012"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la intubación del Guillain-Barré nunca se usa {{c1::succinilcolina}} (hiperkalemia fulminante y paro).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Quién va a UCI",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Relajante para intubar en Guillain-Barré: {{c1::rocuronio}} 1,2 mg/kg.",
+      "extra": "No despolarizante, no libera potasio.",
+      "origen": "clase:4",
+      "fuente": "Clase · Quién va a UCI",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El LCR típico del Guillain-Barré muestra disociación {{c1::albúmino-citológica}}: proteínas altas y células normales.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Punción lumbar y EMG",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Un LCR normal en la primera semana {{c1::no descarta}} Guillain-Barré.",
+      "extra": "Se mantiene la sospecha y se trata.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Pleocitosis de más de {{c1::50}} células en el LCR obliga a buscar otra causa (VIH, Lyme, polio).",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Punción lumbar y EMG",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.013",
+        "1.10.1.017"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El signo electrofisiológico más precoz del Guillain-Barré es la onda {{c1::F}} prolongada o ausente.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Punción lumbar y EMG",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Variante más común de Guillain-Barré en Occidente: {{c1::AIDP}} (desmielinizante, más de 85 %).",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Variantes",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síndrome de Miller Fisher es ataxia, arreflexia y oftalmoplejía con anticuerpo anti-{{c1::GQ1b}}.",
+      "extra": "Si además hay compromiso de conciencia: Bickerstaff.",
+      "origen": "clase:6",
+      "fuente": "Clase · Variantes",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.013",
+        "1.10.2.012"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Inmunoglobulina EV en Guillain-Barré: {{c1::0,4 g/kg/día por 5 días}} (total 2 g/kg).",
+      "extra": "Iniciar idealmente antes de 2 semanas, hasta 4.",
+      "origen": "clase:7",
+      "fuente": "Clase · Inmunoterapia",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 86"
+      ],
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Plasmaféresis en Guillain-Barré: 200 a 250 mL/kg en {{c1::4 a 5}} sesiones.",
+      "extra": "Igual eficacia que la inmunoglobulina.",
+      "origen": "clase:7",
+      "fuente": "Clase · Inmunoterapia",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En Guillain-Barré están contraindicados los {{c1::corticoides}}, y no se combinan inmunoglobulina con plasmaféresis.",
+      "extra": "No aceleran la recuperación; combinar solo suma complicaciones.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Prevención de trombosis en Guillain-Barré: enoxaparina {{c1::40 mg}} SC al día más compresión neumática.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Soporte",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Dolor radicular neuropático en Guillain-Barré: {{c1::gabapentina o pregabalina}}; evitar opioides en dosis altas.",
+      "extra": "Los opioides deprimen la respiración.",
+      "origen": "clase:8",
+      "fuente": "Clase · Soporte",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dolor urente y parestesias distales, hipoestesia en calcetín y aquilianos disminuidos: {{c1::polineuropatía}}.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz EUNACOM Jul 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 59",
+        "EUNACOM Julio 2015 · Pregunta 23"
+      ],
+      "codigos": [
+        "1.10.2.013",
+        "1.10.1.017"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para confirmar una polineuropatía diabética se pide {{c1::electromiografía}} con velocidades de conducción.",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz EUNACOM Dic 2017",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 56",
+        "EUNACOM Diciembre 2019 · Pregunta 56"
+      ],
+      "codigos": [
+        "1.10.2.013",
+        "1.10.1.017"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Debilidad aguda con reflejos vivos: ¿qué piensas?",
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Arreflexia con falla respiratoria o bulbar: ¿conducta?",
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.0.0",
+      "pista": "Tras LCR y EMG: ¿qué tratamiento?",
+      "codigos": [
+        "1.10.2.013"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.1",
+      "pista": "Arreflexia sin falla respiratoria: ¿dónde y qué vigilas?",
+      "codigos": [
+        "1.10.2.013"
+      ]
+    }
+  ]
+}

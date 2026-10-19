@@ -1,0 +1,616 @@
+{
+ "classId": "infecto-03",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La causa más frecuente de encefalitis viral esporádica en inmunocompetentes es el {{c1::VHS-1}} (> 90 %).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Encefalitis herpética",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El VHS-1 llega al SNC por transporte axonal {{c1::retrógrado}} a través del nervio olfatorio o trigémino.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Cómo llega el herpes",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El VHS-1 tiene tropismo por los lóbulos {{c1::temporales}} y el sistema límbico, con necrosis hemorrágica.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Encefalitis herpética",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La encefalitis se define por fiebre + alteración de las {{c1::funciones cerebrales superiores}}.",
+   "extra": "A diferencia de la meningitis pura.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Afasia de comprensión en encefalitis herpética: compromiso del lóbulo temporal {{c1::izquierdo dominante}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Encefalitis herpética",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las alucinaciones {{c1::olfatorias o gustativas}} son muy sugerentes de compromiso del lóbulo temporal.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Encefalitis, clínica",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cuadro típico: fiebre, cambios conductuales, afasia y {{c1::crisis convulsivas focales}}.",
+   "extra": "",
+   "origen": "libro:caso",
+   "fuente": "Libro · Caso clínico",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 100",
+    "EUNACOM Diciembre 2018 · Pregunta 126",
+    "EUNACOM Diciembre 2024 · Pregunta 42",
+    "EUNACOM Diciembre 2019 · Pregunta 157",
+    "EUNACOM Julio 2015 · Pregunta 22",
+    "EUNACOM Julio 2019 · Pregunta 65"
+   ],
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la encefalitis herpética los signos meníngeos están {{c1::ausentes o leves}}.",
+   "extra": "No esperes rigidez de nuca.",
+   "origen": "clase:2",
+   "fuente": "Clase · Encefalitis, clínica",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El examen de imagen de elección en la encefalitis herpética es la {{c1::resonancia magnética}}.",
+   "extra": "Muy superior a la TAC.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diagnóstico",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 100"
+   ],
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la RMN se ve hiperintensidad temporal asimétrica en secuencias T2 y {{c1::FLAIR}}, también en la ínsula.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Imagen, LCR y PCR",
+   "repaso": false,
+   "imagen": "biblioteca/07_infectologia/infecto-03/01_rm_encefalitis_herpetica__harrison_p1137.jpg",
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La TAC puede ser normal en las primeras {{c1::48 a 72 horas}} de la encefalitis herpética.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Imagen, LCR y PCR",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "LCR en encefalitis herpética: pleocitosis {{c1::linfocítica}} con glucosa normal.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Imagen, LCR y PCR",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 100",
+    "EUNACOM Diciembre 2018 · Pregunta 126",
+    "EUNACOM Diciembre 2024 · Pregunta 42"
+   ],
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hematíes o xantocromía en el LCR reflejan la necrosis {{c1::hemorrágica}} temporal.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diagnóstico",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El diagnóstico de certeza de encefalitis herpética es la {{c1::PCR para VHS-1}} en LCR.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La PCR para VHS-1 en LCR tiene sensibilidad y especificidad > {{c1::95 %}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "El tratamiento de la encefalitis herpética es {{c1::aciclovir}} EV.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 157",
+    "EUNACOM Julio 2015 · Pregunta 22",
+    "EUNACOM Julio 2019 · Pregunta 65"
+   ],
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Aciclovir en encefalitis: {{c1::10 mg/kg}} cada 8 horas EV.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Duración del aciclovir en encefalitis herpética: {{c1::14 a 21 días}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Ante sospecha de encefalitis, el error es {{c1::esperar la PCR}} para iniciar el aciclovir.",
+   "extra": "Cada hora de retraso empeora el pronóstico.",
+   "origen": "clase:4",
+   "fuente": "Clase · Aciclovir ante la sospecha",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Con aciclovir precoz la mortalidad baja de > 70 % a < {{c1::20 %}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Aciclovir ante la sospecha",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El absceso cerebral es una infección focal {{c1::supurada}} intraparenquimatosa.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Absceso cerebral",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.001"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Primer mecanismo del absceso cerebral: contigüidad, {{c1::50 %}} (sinusitis, otitis crónica, mastoiditis).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Absceso cerebral",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.001"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Diseminación hematógena causa {{c1::30 %}} de los abscesos (cardiopatía cianótica, endocarditis).",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Absceso: de dónde viene",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La sinusitis frontal o etmoidal produce absceso {{c1::frontal}}; la otitis o mastoiditis, absceso temporal o cerebeloso.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Absceso cerebral",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.001"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tríada del absceso: cefalea persistente, fiebre y {{c1::déficit neurológico focal}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Absceso cerebral",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.001"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el absceso cerebral la fiebre está ausente en {{c1::50 %}} de los casos.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Absceso cerebral",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.001"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Imagen del absceso: lesión en {{c1::anillo}} con realce periférico y edema vasogénico.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Absceso cerebral",
+   "repaso": true,
+   "imagen": "biblioteca/07_infectologia/infecto-03/01_abscesos-cerebrales-en-anillo-tc-rm__amir-infecto_p42.jpg",
+   "codigos": [
+    "1.04.2.001"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el absceso cerebral la {{c1::punción lumbar}} está contraindicada por riesgo de herniación.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Absceso cerebral",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Absceso cerebral: ceftriaxona 2 g cada 12 h EV + {{c1::metronidazol}} 500 mg cada 8 h EV.",
+   "extra": "Metronidazol cubre anaerobios del foco ótico o sinusal.",
+   "origen": "clase:6",
+   "fuente": "Clase · Absceso cerebral",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En absceso con antecedente de trauma o cirugía se agrega {{c1::vancomicina}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Absceso cerebral",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se drena quirúrgicamente el absceso si mide > {{c1::2,5 cm}}.",
+   "extra": "Aspiración estereotáxica o escisión.",
+   "origen": "clase:6",
+   "fuente": "Clase · Absceso cerebral",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signos meníngeos marcados orientan a meningitis; en el absceso son {{c1::raros}} (salvo rotura intraventricular).",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En <3 meses los gérmenes de meningitis son SGB, E. coli y {{c1::Listeria}}; en > 3 meses, neumococo y meningococo.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Meningitis según edad",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el lactante la meningitis es inespecífica: fontanela {{c1::abombada}}, irritabilidad, letargia y rechazo alimentario.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Meningitis según edad",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Meningitis en menor de 1 mes: ampicilina + {{c1::cefotaxima}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Meningitis según edad",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Meningitis en mayor de 1 mes: ceftriaxona {{c1::100 mg/kg/día}} + vancomicina.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Meningoencefalitis en el niño",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.015"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Dexametasona en meningitis del niño: {{c1::0,15 mg/kg}} cada 6 h, solo en mayores de 1 mes.",
+   "extra": "Por 2–4 días, antes o junto con el antibiótico.",
+   "origen": "clase:7",
+   "fuente": "Clase · Meningitis según edad",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La secuela más frecuente de la meningitis infantil es la {{c1::sordera}}: audiometría al alta.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Meningitis según edad",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "El GES cubre las {{c1::infecciones del sistema nervioso central}} (encefalitis, absceso, meningitis).",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · GES",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-03/01_rm_encefalitis_herpetica__harrison_p1137.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Encefalitis herpética (VHS-1)",
+   "clave": "Hiperintensidad temporal asimétrica en T2/FLAIR",
+   "conducta": "Aciclovir 10 mg/kg c/8 h EV de inmediato; PCR VHS-1 en LCR confirma",
+   "fuente": "Harrison 21.ª ed., p. 1137",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-03/01_abscesos-cerebrales-en-anillo-tc-rm__amir-infecto_p42.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Absceso cerebral",
+   "clave": "Lesión en anillo con realce periférico y edema vasogénico",
+   "conducta": "Ceftriaxona + metronidazol; cirugía si mide > 2,5 cm; no puncionar",
+   "fuente": "Manual AMIR Infecciosas, p. 42",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.1",
+   "pista": "Conducta, afasia y crisis: ¿qué se inicia ya?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.0",
+   "pista": "Después del aciclovir: ¿qué estudios?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.2.0",
+   "pista": "Lesión en anillo: ¿qué tratamiento?"
+  }
+ ]
+}

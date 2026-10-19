@@ -1,0 +1,336 @@
+{
+  "classId": "gastro-01",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El mecanismo principal de la ERGE es la {{c1::relajación transitoria del esfínter esofágico inferior}}, no una obstrucción.",
+      "extra": "Por eso el tratamiento es funcional y la cirugía es la excepción.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definición",
+      "repaso": false
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La presentación típica de la ERGE es {{c1::pirosis retroesternal}} y {{c2::regurgitación ácida}}, que empeoran al acostarse y tras comidas abundantes.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": false
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una disfonía de predominio matinal, con carraspera y examen normal, es una presentación {{c1::atípica de ERGE}}: se trata con {{c2::IBP}}.",
+      "extra": "Otras atípicas: tos crónica, asma difícil, erosiones dentales, dolor torácico no cardíaco.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Presentación clínica",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 145",
+        "EUNACOM Diciembre 2018 · Pregunta 65"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante dolor torácico no cardíaco atribuido a reflujo, primero hay que {{c1::descartar el corazón}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": false
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Pirosis típica, < 50 años y sin alarma: diagnóstico clínico y prueba con IBP por {{c1::4–8 semanas}}.",
+      "extra": "La respuesta al IBP confirma el diagnóstico.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla ERGE",
+      "repaso": true
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En pirosis típica, < 50 años y sin alarma, el error clásico es {{c1::pedir endoscopía de entrada}}.",
+      "extra": "Se parte con prueba terapéutica con IBP.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El patrón de referencia para el diagnóstico de ERGE es la {{c1::pH-metría esofágica de 24 horas}}.",
+      "extra": "Se reserva para duda diagnóstica, clínica atípica o evaluación prequirúrgica.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Diagnóstico",
+      "repaso": false
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante duda diagnóstica o clínica atípica de reflujo, el error es {{c1::tratar empíricamente de forma indefinida}} en vez de pedir pH-metría.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un solo signo de alarma en un paciente con pirosis obliga a {{c1::endoscopía digestiva alta con biopsias}}.",
+      "extra": "Subir el IBP a ciegas retrasa el diagnóstico.",
+      "origen": "clase:12",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signos de alarma en ERGE: disfagia u odinofagia, {{c1::baja de peso}}, anemia o hemorragia, síntomas nocturnos.",
+      "extra": "Cualquiera obliga a endoscopía.",
+      "origen": "clase:3",
+      "fuente": "Clase · Signos de alarma",
+      "repaso": false
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En ERGE, el inicio de los síntomas después de los {{c1::50}} años es signo de alarma y obliga a endoscopía.",
+      "extra": "Más riesgo de neoplasia.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Diagnóstico",
+      "repaso": false
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Pirosis de más de {{c1::5}} años de evolución obliga a endoscopía por riesgo de {{c2::esófago de Barrett}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Diagnóstico",
+      "repaso": false
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hombre de 56 años con pirosis, disfagia a sólidos, baja de 5 kg y Hb 11,2 g/dL: el error es {{c1::subir el IBP sin estudiar}}.",
+      "extra": "Conducta: endoscopía digestiva alta con biopsias.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz endoscopía",
+      "repaso": false
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Medidas generales en ERGE: fraccionar la alimentación, {{c1::elevar la cabecera de la cama}}, bajar de peso y dejar el tabaco.",
+      "extra": "Evitar alcohol, cafeína y grasas antes de dormir.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El fármaco de elección en ERGE es el {{c1::inhibidor de la bomba de protones (omeprazol, esomeprazol, lansoprazol)}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El IBP se toma en ayunas, {{c1::30–60 minutos}} antes del desayuno.",
+      "extra": "Actúa sobre bombas activadas por la comida.",
+      "origen": "clase:12",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Los antagonistas H2 (ranitidina, famotidina) están {{c1::desplazados}} en ERGE y {{c2::no se combinan con IBP}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hombre de 32 años con pirosis típica sin alarma: iniciar {{c1::omeprazol 20 mg al día}} en ayunas por 4 a 8 semanas.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "ERGE con esofagitis que recurre al suspender el IBP: la conducta es {{c1::reiniciar el IBP}} (mantención).",
+      "extra": "La recurrencia confirma que es reflujo.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 84"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Paciente joven con ERGE grave dependiente o con respuesta incompleta al IBP: indicación de {{c1::cirugía antirreflujo (funduplicatura de Nissen)}}.",
+      "extra": "Otras: hernia hiatal voluminosa sintomática, Barrett con displasia de alto grado.",
+      "origen": "clase:4",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 38"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El esófago de Barrett es la {{c1::metaplasia intestinal}} del epitelio esofágico: el epitelio plano es reemplazado por cilíndrico.",
+      "extra": "Es asintomático; los síntomas son los del reflujo de base.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Barrett",
+      "repaso": false
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La importancia del esófago de Barrett es su riesgo de progresión a {{c1::adenocarcinoma de esófago}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Barrett",
+      "repaso": false
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Barrett con metaplasia sin displasia: {{c1::IBP + vigilancia endoscópica}}; el error es operar por la metaplasia.",
+      "extra": "Lo que decide la cirugía es la displasia, no la metaplasia.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Barrett con displasia de bajo grado: {{c1::ablación endoscópica}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Barrett",
+      "repaso": false
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Barrett con displasia de alto grado: {{c1::resección endoscópica o esofagectomía}}.",
+      "extra": "Error: solo aumentar el IBP y controlar.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla ERGE",
+      "repaso": false
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Línea Z más de 2 cm sobre la impresión diafragmática corresponde a {{c1::hernia hiatal por deslizamiento (tipo I)}}, no a Barrett.",
+      "extra": "El Barrett es un diagnóstico de biopsia, no de centímetros.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 65",
+        "EUNACOM Diciembre 2022 · Pregunta 26",
+        "EUNACOM Agosto 2021 · Pregunta 120"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En ERGE {{c1::no}} se erradica H. pylori; sí es obligatorio en úlcera péptica y linfoma MALT.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-01/02_esofagitis_1__cto-digestivo_p26.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Esofagitis erosiva por reflujo",
+      "clave": "Erosiones de la mucosa esofágica distal",
+      "conducta": "IBP en ayunas + medidas generales; mantener IBP si recurre",
+      "fuente": "Manual CTO Digestivo 14.ª ed., p. 26",
+      "repaso": false
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-01/01_esofago-de-barrett-endoscopia_alt1_1__cto-digestivo_p27.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Esófago de Barrett (sospecha endoscópica)",
+      "clave": "Lengüetas color salmón que ascienden sobre la unión esofagogástrica",
+      "conducta": "Biopsias: sin displasia, IBP + vigilancia; con displasia, tratamiento endoscópico",
+      "fuente": "Manual CTO Digestivo 14.ª ed., p. 27",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Pirosis con signos de alarma: ¿qué examen?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Clínica típica < 50 años sin alarma: ¿qué haces?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "Clínica atípica o duda: ¿qué examen?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.0.0.0",
+      "pista": "Barrett sin displasia: ¿conducta?"
+    }
+  ]
+}

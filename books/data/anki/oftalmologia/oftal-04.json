@@ -1,0 +1,461 @@
+{
+ "classId": "oftal-04",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La córnea es el tejido más inervado del cuerpo (nervio {{c1::oftálmico}}, rama V1 del trigémino).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Córnea",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.021"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tríada protectora corneal: dolor punzante, {{c1::blefarospasmo}} y fotofobia con lagrimeo.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Tríada",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.021"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Examen de cabecera ante dolor corneal: tinción con {{c1::fluoresceína}} bajo luz azul de cobalto.",
+   "extra": "Usuaria de lentes con ojo rojo central muy doloroso.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Diagnóstico",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 156"
+   ],
+   "codigos": [
+    "6.02.1.021"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La queratitis siempre cursa con inyección {{c1::periquerática}} y baja variable de la agudeza visual.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Signos",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.021"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Queratitis herpética por {{c1::VHS-1}}: causa más común de ceguera corneal infecciosa en países desarrollados.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Herpética",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.021",
+    "6.02.2.010"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras la primoinfección el virus queda en el ganglio de {{c1::Gasser}} y se reactiva con fiebre, estrés o inmunosupresión.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Latencia",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.021",
+    "6.02.2.010"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Lesión patognomónica: úlcera {{c1::dendrítica}} ramificada, en árbol o helecho, con botones terminales.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Dendrítica",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-04/01_ulcera-dendritica-con-fluoresceina__cto-oftalmo_p40.jpg",
+   "codigos": [
+    "6.02.1.021",
+    "6.02.2.010"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La queratitis herpética se asocia a {{c1::hipoestesia}} corneal al tocarla con una torunda.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hipoestesia",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-04/01_ulcera-dendritica-con-fluoresceina_alt1__amir-oftalmo_p46.jpg",
+   "codigos": [
+    "6.02.1.021",
+    "6.02.2.010"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Aciclovir ungüento oftálmico al {{c1::3%}}, 5 veces al día, por 10 a 14 días.",
+   "extra": "Joven con herpes labial y dendrita central: aciclovir y derivar.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Aciclovir",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.021",
+    "6.02.2.010"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En inmunodeprimidos se puede asociar aciclovir {{c1::oral}}; alternativa tópica: ganciclovir gel.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Inmunodeprimidos",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.021",
+    "6.02.2.010"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Los corticoides tópicos están {{c1::prohibidos}} en la dendrítica: úlcera geográfica y perforación.",
+   "extra": "Paciente de 35 años con lesión arborescente: dexametasona contraindicada.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Corticoides",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.021",
+    "6.02.2.010"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El corticoide frena la inmunidad local y multiplica la replicación {{c1::viral}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Mecanismo",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.021",
+    "6.02.2.010"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Principal factor de riesgo de la queratitis bacteriana: lentes de contacto blandos, sobre todo {{c1::dormir con ellos}}.",
+   "extra": "Usuaria miope con opacidad corneal focal de 2,1 mm: úlcera corneal.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Lentes de contacto",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 107"
+   ],
+   "codigos": [
+    "6.02.1.021",
+    "6.02.2.010"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En usuarios de lentes, la {{c1::Pseudomonas aeruginosa}} destruye la córnea por elastasas; también S. aureus.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Pseudomonas",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.021",
+    "6.02.2.010"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Infiltrado estromal blanco-amarillento con defecto epitelial e {{c1::hipopión}} precoz.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Clínica",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-04/02_ulcera-corneal-con-hipopion__cto-oftalmo_p39.jpg",
+   "codigos": [
+    "6.02.1.021",
+    "6.02.2.010"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Retirar los lentes y guardarlos para cultivo; colirios reforzados ({{c1::vancomicina + ceftazidima}} o moxifloxacino) y derivar el mismo día.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Manejo",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-04/54_queratitis-bacteriana-hipopion__kanski_p188.jpg",
+   "codigos": [
+    "6.02.1.021",
+    "6.02.2.010"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la queratitis bacteriana el error es {{c1::ocluir}} el ojo con parche.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.015"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Queratitis actínica (soldador o nieve): tinción punteada superficial difusa y bilateral; {{c1::ciclopléjico}} y lubricante; cura en 24-48 horas.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.006"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la actínica el error es el uso repetido de {{c1::anestésico}} tópico: destruye el epitelio corneal.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.021",
+    "6.02.2.010"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Queratitis fúngica (Fusarium): trauma con vegetal; infiltrado de bordes plumosos; {{c1::voriconazol o natamicina}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.015"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Artritis reumatoide con ojo rojo bilateral y fotofobia que empeora en la tarde: queratitis {{c1::sicca}} por Sjögren secundario.",
+   "extra": "Ojo seco.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Ojo seco",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 19"
+   ],
+   "codigos": [
+    "6.02.1.006"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Leucoma corneal: cicatriz blanca y densa del estroma que {{c1::no capta fluoresceína}}, sin dolor ni inyección.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Leucoma",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.015"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas de leucoma: queratitis, trauma, quemadura química, tracoma, sarampión o déficit de {{c1::vitamina A}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Causas",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.015"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Leucoma adherente: riesgo de {{c1::glaucoma secundario}}; leucoma central en niños: ambliopía por privación.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Complicación",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.015"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Leucoma central que compromete la visión: derivar para {{c1::queratoplastia}} (trasplante de córnea).",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.015"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Cualquier úlcera o infiltrado corneal: derivación {{c1::prioritaria}}; no tratar solo con antibiótico tópico.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.015"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-04/01_ulcera-dendritica-con-fluoresceina__cto-oftalmo_p40.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Úlcera dendrítica",
+   "clave": "Árbol verde brillante con botones terminales bajo luz azul",
+   "conducta": "Aciclovir 3% 5 veces al día; nunca corticoides",
+   "fuente": "Manual CTO Oftalmología 14.ª ed., p. 40",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.021",
+    "6.02.2.010"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-04/02_ulcera-corneal-con-hipopion__cto-oftalmo_p39.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Úlcera con hipopión",
+   "clave": "Infiltrado blanco denso y nivel de pus en la cámara anterior",
+   "conducta": "Retirar lentes, antibióticos reforzados y derivar",
+   "fuente": "Manual CTO Oftalmología 14.ª ed., p. 39",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 107"
+   ],
+   "codigos": [
+    "6.02.1.021",
+    "6.02.2.010"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-04/54_queratitis-bacteriana-hipopion__kanski_p188.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Queratitis bacteriana grave",
+   "clave": "Infiltrado denso con hipopión",
+   "conducta": "Urgencia: derivación el mismo día, sin parche",
+   "fuente": "Kanski's Clinical Ophthalmology, 8.ª ed., p. 188",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 156"
+   ],
+   "codigos": [
+    "6.02.1.021",
+    "6.02.2.010"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Ojo rojo doloroso con fluoresceína positiva: ¿qué se mira?",
+   "codigos": [
+    "6.02.1.021",
+    "6.02.2.010"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Dendrítica con botones: ¿tratamiento y qué se evita?",
+   "codigos": [
+    "6.02.1.021",
+    "6.02.2.010"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1",
+   "pista": "Infiltrado blanco en usuario de lentes: ¿conducta?",
+   "codigos": [
+    "6.02.1.021",
+    "6.02.2.010"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.2",
+   "pista": "Punteada difusa bilateral tras UV: ¿tratamiento?",
+   "codigos": [
+    "6.02.1.021",
+    "6.02.2.010"
+   ]
+  }
+ ]
+}

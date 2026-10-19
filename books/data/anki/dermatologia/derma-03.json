@@ -1,0 +1,420 @@
+{
+  "classId": "derma-03",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Regla de oro: la rosácea {{c1::NUNCA tiene comedones}}; si hay comedones es acné.",
+      "extra": "Pápulas, pústulas y eritema pueden ser idénticos al acné.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante eritema facial con pápulas, el error es {{c1::diagnosticar acné del adulto sin buscar comedones}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La rosácea combina disregulación vascular, aumento de catelicidina {{c1::LL-37}} y colonización por Demodex folliculorum.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El ácaro asociado a rosácea es {{c1::Demodex folliculorum}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Por qué se enrojece",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Desencadenantes de flushing en rosácea: sol, calor, {{c1::alcohol}}, picantes y estrés.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Desencadenantes",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Subtipo 1 de rosácea: eritematotelangiectásica = {{c1::eritema fijo centrofacial}}, flushing y telangiectasias finas.",
+      "extra": "Ardor o quemazón.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Subtipos",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Subtipo 2 de rosácea: {{c1::pápulo-pustulosa}}, sin comedones, típica en mujeres de 30 a 50 años.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Subtipos",
+      "repaso": true,
+      "imagen": "biblioteca/11_dermatologia/derma-03/01_rosacea_alt1__amir-derma_p84.jpg",
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Subtipo 3 de rosácea: fimatosa, cuyo prototipo es el {{c1::rinofima}} en varones.",
+      "extra": "Hipertrofia sebácea y fibrosis.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Subtipos",
+      "repaso": false,
+      "imagen": "biblioteca/11_dermatologia/derma-03/02_rinofima__amir-orl_p41.jpg",
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Subtipo 4 de rosácea: {{c1::ocular}} (blefaritis, arenilla, chalazión recurrente), hasta en 50% de los pacientes.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Subtipos",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Medida general en toda rosácea: fotoprotector de amplio espectro FPS {{c1::50+}} diario.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Flushing y eritema vascular de la rosácea: {{c1::brimonidina}} tópica (agonista alfa-2) o láser vascular/IPL.",
+      "extra": "Vasoconstricción temporal.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Rosácea pápulo-pustulosa leve: primera línea tópica = {{c1::metronidazol o ivermectina}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Manejo por subtipo",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 61"
+      ],
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Metronidazol tópico en rosácea: {{c1::0.75% o 1%}} en gel o crema.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Ivermectina tópica en rosácea: concentración {{c1::1%}}.",
+      "extra": "Antiparasitario frente a Demodex y antiinflamatorio.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Ácido azelaico en rosácea pápulo-pustulosa leve: {{c1::15%}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Rosácea pápulo-pustulosa moderada-severa o refractaria: {{c1::doxiciclina oral}} a dosis antiinflamatoria.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Doxiciclina en rosácea pápulo-pustulosa: duración de {{c1::8 a 12 semanas}}.",
+      "extra": "Tabla del libro: 100 mg/día.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla rosácea",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Rosácea ocular: higiene de párpados, lágrimas artificiales y doxiciclina oral a dosis bajas por {{c1::6 semanas}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla rosácea",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Rinofima establecido: no responde a fármacos; se trata con {{c1::cirugía o láser CO₂ ablativo}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Error con rinofima establecido: {{c1::insistir con tratamiento médico}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Corticoide tópico en rosácea: {{c1::contraindicación absoluta}}; mejora al inicio y rebota con rosácea esteroidal.",
+      "extra": "Telangiectasias, atrofia y brote pustuloso.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Error frecuente en rosácea pápulo-pustulosa leve: {{c1::corticoide tópico «para bajar la inflamación»}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El corticoide tópico da mejoría inicial engañosa por {{c1::vasoconstricción transitoria}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Corticoide prohibido",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El adapaleno es de acné y en rosácea produce {{c1::excesiva irritación}} de la piel sensible.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · pregunta rosácea",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Síntomas oculares con rosácea: el error es {{c1::tratarlo solo como conjuntivitis}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer de 30 años con eritema, pápulas y pústulas en mejillas que empeoran con el sol: {{c1::rosácea}}.",
+      "extra": "El lupus cutáneo crónico no tiene tantas pústulas.",
+      "origen": "clase:8",
+      "fuente": "Clase · Quiz Dic 2018",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 61"
+      ],
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Conducta en rosácea pápulo-pustulosa: fotoprotección, evitar desencadenantes y {{c1::metronidazol tópico}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Quiz caso",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-03/01_rosacea_alt1__amir-derma_p84.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Rosácea pápulo-pustulosa",
+      "clave": "Pápulas y pústulas sobre eritema centrofacial, sin comedones",
+      "conducta": "Fotoprotección, evitar desencadenantes; metronidazol o ivermectina tópica; nunca corticoide",
+      "fuente": "Manual AMIR Dermatología, p. 84",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-03/02_rinofima__amir-orl_p41.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Rinofima (rosácea fimatosa)",
+      "clave": "Nariz engrosada, lobulada y bulbosa",
+      "conducta": "Resección quirúrgica, electrocirugía o láser CO₂; no responde a fármacos",
+      "fuente": "Manual AMIR Otorrinolaringología, p. 41",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.026"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1.1",
+      "pista": "Pápulas y pústulas sin comedones: ¿qué tratamiento tópico?",
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.2",
+      "pista": "Nariz bulbosa y fibrosa: ¿qué conducta?",
+      "codigos": [
+        "6.01.1.026"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0",
+      "pista": "Si hay comedones, ¿qué diagnóstico es?",
+      "codigos": [
+        "6.01.1.026"
+      ]
+    }
+  ]
+}

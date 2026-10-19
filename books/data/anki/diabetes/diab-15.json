@@ -1,0 +1,491 @@
+{
+  "classId": "diab-15",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La CAD se produce por un déficit {{c1::absoluto}} de insulina más hormonas contrarreguladoras; el EHH por un déficit {{c2::relativo}} con resistencia severa.",
+      "extra": "CAD: problema de ácido. EHH: problema de agua.",
+      "origen": "clase:1",
+      "fuente": "Clase · Falta total o parcial de insulina",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el EHH la insulina residual en la vena porta basta para frenar la {{c1::cetogénesis}}, pero no la hiperglicemia.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Falta total o parcial de insulina",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cetoácido predominante en la CAD es el {{c1::beta-hidroxibutirato}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002",
+        "1.02.2.007"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "CAD: glicemia > {{c1::250 mg/dL}}, pH < {{c2::7,30}} y HCO₃ < {{c3::18 mEq/L}}.",
+      "extra": "Típicamente glicemia entre 300 y 600 mg/dL.",
+      "origen": "clase:2",
+      "fuente": "Clase · Criterios de CAD",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "CAD: cetonemia con beta-hidroxibutirato > {{c1::3 mmol/L}} o cetonuria {{c2::++}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Criterios de CAD",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "CAD: el anion gap está elevado, > {{c1::10–12 mEq/L}}; se calcula Na − (Cl + HCO₃).",
+      "extra": "Su cierre marca la resolución.",
+      "origen": "clase:2",
+      "fuente": "Clase · Criterios de CAD",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "CAD leve: pH {{c1::7,25–7,30}} y HCO₃ 15–18; moderada: pH 7,00–7,24; severa: pH < {{c2::7,00}}.",
+      "extra": "La severa va a UCI (estupor o coma).",
+      "origen": "clase:2",
+      "fuente": "Clase · Severidad de CAD",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "EHH: glicemia > {{c1::600 mg/dL}} (frecuente 800 a 1.200) con pH > 7,30 y HCO₃ > 18.",
+      "extra": "Cetonas ausentes o trazas.",
+      "origen": "clase:3",
+      "fuente": "Clase · Criterios de EHH",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "EHH: osmolaridad efectiva > {{c1::320 mOsm/kg}}.",
+      "extra": "Normal: 275–295 mOsm/kg.",
+      "origen": "clase:3",
+      "fuente": "Clase · Criterios de EHH",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Osmolaridad efectiva = {{c1::2 × Na + glicemia / 18}}.",
+      "extra": "Si preguntan la fórmula, es esta.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Criterios",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002",
+        "1.02.2.007"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El nitrógeno ureico NO se incluye en la osmolaridad efectiva porque {{c1::cruza libremente las membranas}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Fórmula",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El sodio corregido es Na medido + {{c1::1,6}} × (glicemia − 100) / 100.",
+      "extra": "Ejemplo: Na 132 y glicemia 420 dan ≈ 137 mEq/L.",
+      "origen": "clase:5",
+      "fuente": "Clase · Sodio corregido",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hiperglicemia atrae agua al intravascular y {{c1::diluye el sodio}}; el sodio corregido decide el tipo de suero.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Fórmulas",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002",
+        "1.02.2.007"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El anion gap normal es de {{c1::8 a 12 mEq/L}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Anion gap",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "CAD: paciente joven con {{c1::DM1}}, instalación en menos de 24 a 48 horas; es el debut en 25–30% de los casos.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla CAD vs EHH",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "EHH: adulto mayor con {{c1::DM2}}, instalación insidiosa de días a semanas.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla CAD vs EHH",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Déficit de volumen en CAD: {{c1::3 a 6 litros}}; en EHH: {{c2::8 a 12 litros}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Dos pacientes distintos",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El dolor abdominal y los vómitos de la CAD simulan un abdomen agudo, pero {{c1::no es quirúrgico}}: ceden al corregir la acidosis.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La respiración de Kussmaul es una {{c1::compensación respiratoria}}: barre CO₂ ante la cetoacidosis.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El EHH con coma o signos focales transitorios puede simular {{c1::un ACV}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La principal causa gatillante de CAD y EHH son las {{c1::infecciones}} (neumonía e infección urinaria).",
+      "extra": "Siempre buscar la causa; más del 80% tiene una.",
+      "origen": "clase:5",
+      "fuente": "Clase · Gatillantes",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Joven con poliuria, polidipsia, dolor abdominal, vómitos y glicemia 360: el examen más adecuado es la {{c1::cetonemia}}.",
+      "extra": "Junto con gases venosos.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Julio 2016",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 54"
+      ],
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adolescente con glicemia 312, pH 7,26 y bicarbonato 11: {{c1::cetoacidosis diabética}} como debut de DM1.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Diciembre 2018",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 16"
+      ],
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adulto mayor con glicemia 950, pH 7,37 y cetonemia negativa: {{c1::coma hiperosmolar no cetósico}}.",
+      "extra": "Una cetonuria aislada no hace una cetoacidosis.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Diciembre 2025",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 39"
+      ],
+      "codigos": [
+        "1.02.2.007",
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Primera medida en EHH: {{c1::solución fisiológica 0,9 %}}, 1 a 1,5 litros en la primera hora.",
+      "extra": "El déficit de agua es enorme.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz EHH",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La insulina en EHH se inicia después de hidratar y con potasio sobre {{c1::3,3 mEq/L}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz EHH",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 101"
+      ],
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Los iSGLT2 (dapagliflozina, empagliflozina) pueden causar {{c1::cetoacidosis euglicémica}}, con glicemia < 200–250 mg/dL.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · CAD por iSGLT2",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En usuario de iSGLT2 con náuseas, vómitos, dolor abdominal o disnea, el error es descartar CAD por {{c1::la glicemia normal}}; se piden gases y cetonemia igual.",
+      "extra": "Gatillantes: cirugía, ayuno, infección.",
+      "origen": "clase:6",
+      "fuente": "Clase · CAD por iSGLT2",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer con dapagliflozina, ayuno posquirúrgico, glicemia 176, pH 7,18 y cetonemia 4,5 mmol/L: {{c1::cetoacidosis euglicémica por iSGLT2}}.",
+      "extra": "Anion gap elevado con glicemia < 200 mg/dL.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz iSGLT2",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La tira de cetonuria (nitroprusiato) detecta acetoacetato y acetona, pero {{c1::no el beta-hidroxibutirato}}.",
+      "extra": "Puede subestimar la cetosis al inicio de la CAD.",
+      "origen": "clase:7",
+      "fuente": "Clase · La tira de orina",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002",
+        "1.02.2.007"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La cetonuria no sirve para seguir la CAD en tratamiento; se sigue con {{c1::anion gap, bicarbonato y beta-hidroxibutirato}}.",
+      "extra": "La tira puede subir mientras el paciente mejora.",
+      "origen": "clase:7",
+      "fuente": "Clase · La tira de orina",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.006"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Falsos negativos de la tira de cetonas: tira vencida y {{c1::ácido ascórbico}}; falsos positivos: captopril y mesna.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · La tira de orina",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.006"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cetonuria con glicemia normal orienta a ayuno, vómitos, alcohol o {{c1::iSGLT2}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · La tira de orina",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.006"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La CAD y el EHH se enmarcan en el GES N° {{c1::2}} (Diabetes Mellitus), como urgencia hospitalaria.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Digest · GES",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002",
+        "1.02.2.007"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Acidosis: ¿qué dos datos confirman CAD?",
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Sin acidosis: ¿qué cifras definen el EHH?",
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0",
+      "pista": "Glicemia > 600 y osmolaridad > 320: ¿diagnóstico?",
+      "codigos": [
+        "1.02.2.002"
+      ]
+    }
+  ]
+}

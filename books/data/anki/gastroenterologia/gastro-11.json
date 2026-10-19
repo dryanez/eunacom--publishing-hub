@@ -1,0 +1,365 @@
+{
+  "classId": "gastro-11",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El pólipo {{c1::hiperplásico}} de colon no es premaligno: se observa.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla pólipos",
+      "repaso": false
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El pólipo {{c1::adenomatoso}} es la lesión precursora del cáncer colorrectal.",
+      "extra": "Resecar adenomas previene el cáncer.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Entre los adenomas (tubular, tubulovelloso, velloso), el de mayor riesgo de malignizar es el {{c1::velloso}}.",
+      "extra": "Mientras más grande, más riesgo.",
+      "origen": "foto",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-11/02_polipo_pediculado__harrison_p2433.jpg",
+      "fuente": "Libro §1 Pólipos",
+      "repaso": false
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La secuencia adenoma-carcinoma tarda aproximadamente {{c1::10 años}}.",
+      "extra": "Esa es la ventana del tamizaje.",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Qué pólipo se transforma?",
+      "repaso": false
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras resecar un pólipo adenomatoso se controla con colonoscopía en {{c1::1–3 años}}, según número, tamaño e histología.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Adenoma velloso con displasia de bajo grado resecado por completo: la conducta es {{c1::colonoscopía de control en 3 años}}, no cirugía.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Enero 2023",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 175"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cáncer de colon <b>derecho</b> se presenta típicamente con {{c1::anemia ferropénica y masa palpable}} (sangrado oculto).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Dónde está el tumor",
+      "repaso": true
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cáncer de colon <b>izquierdo</b> se presenta con {{c1::constipación progresiva, cambio del hábito y rectorragia}}.",
+      "extra": "Lumen más estrecho.",
+      "origen": "clase:2",
+      "fuente": "Clase · Dónde está el tumor",
+      "repaso": false
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La complicación más frecuente del cáncer de colon izquierdo es la {{c1::obstrucción intestinal}}.",
+      "extra": "Primera causa de obstrucción del colon en el adulto.",
+      "origen": "foto",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-11/03_obstruccion-de-colon__cto-radiologia_p26.jpg",
+      "fuente": "Libro §2 Clínica",
+      "repaso": false
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cáncer de recto se presenta con hematoquecia, disquecia, {{c1::tenesmo}} y deformación del bolo fecal.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "repaso": false
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Factores de riesgo del cáncer de recto: colitis ulcerosa, {{c1::VIH y VPH}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Dónde está el tumor",
+      "repaso": false
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adulto mayor con constipación reciente (o cambio de hábito) y anemia ferropénica: {{c1::cáncer de colon}} hasta demostrar lo contrario.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 50",
+        "EUNACOM Diciembre 2017 · Pregunta 28"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante sospecha de cáncer colorrectal el diagnóstico se hace con {{c1::colonoscopía total con biopsia}}.",
+      "extra": "Ve todo el colon y confirma.",
+      "origen": "clase:3",
+      "fuente": "Clase · Diagnóstico y etapificación",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 1",
+        "EUNACOM Agosto 2021 · Pregunta 160"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante sospecha de cáncer colorrectal se prefiere colonoscopía completa sobre {{c1::rectosigmoidoscopía}}, porque esta no evalúa el colon proximal.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz colonoscopía",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 31"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Cambio del hábito intestinal en un adulto con un pólipo vesicular pequeño de aspecto benigno: la conducta es {{c1::colonoscopía}}.",
+      "extra": "El pólipo vesicular es un distractor.",
+      "origen": "libro:puntos",
+      "fuente": "Banco EUNACOM · Julio 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 68"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Al paciente <b>sintomático</b> con signos de alarma se le hace {{c1::colonoscopía directa}}, no test de sangre oculta.",
+      "extra": "El test de sangre oculta es tamizaje de asintomáticos.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cáncer colorrectal se etapifica con {{c1::TAC de tórax, abdomen y pelvis}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Diagnóstico y etapificación",
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el cáncer de recto la etapificación agrega {{c1::RM de pelvis y endosonografía}}, con TAC de tórax obligatorio.",
+      "extra": "Puede dar metástasis pulmonares sin pasar por el hígado.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Etapificación",
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El CEA en cáncer colorrectal sirve solo para {{c1::el seguimiento posoperatorio}}; no diagnostica ni tamiza.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · CEA trampa clásica",
+      "repaso": true
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La poliposis adenomatosa familiar evoluciona a cáncer en el {{c1::100 %}} de los casos.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla síndromes hereditarios",
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Joven con \"innumerables pólipos\" adenomatosos en colon y recto: {{c1::colectomía total profiláctica}}.",
+      "extra": "Poliposis adenomatosa familiar; resecar uno a uno es inviable.",
+      "origen": "clase:4",
+      "fuente": "Clase · Síndromes hereditarios",
+      "repaso": true
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síndrome de Lynch (HNPCC) tiene pocos pólipos y alto riesgo: se maneja con {{c1::vigilancia colonoscópica intensiva}}.",
+      "extra": "No colectomía de entrada.",
+      "origen": "clase:4",
+      "fuente": "Clase · Síndromes hereditarios",
+      "repaso": false
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cáncer de colon se opera {{c1::siempre}} (hemicolectomía según localización), incluso en enfermedad avanzada, para evitar la obstrucción.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La quimioterapia del cáncer de colon puede lograr curación incluso con {{c1::metástasis hepáticas resecables}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cáncer de recto agrega {{c1::radioterapia}}, cuya complicación es la rectitis actínica.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES: el tamizaje de cáncer colorrectal en riesgo promedio parte desde los {{c1::50 años}}.",
+      "extra": "Personas asintomáticas.",
+      "origen": "clase:6",
+      "fuente": "Clase · ¿Asintomático o sintomático?",
+      "repaso": true
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El tamizaje de cáncer colorrectal en Chile se hace con {{c1::test inmunoquímico de sangre oculta en deposiciones}} anual o bienal.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz tamizaje",
+      "repaso": false
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Alternativa de tamizaje de cáncer colorrectal en riesgo promedio: colonoscopía cada {{c1::10 años}}.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": false
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Test de sangre oculta positivo en tamizaje: la conducta es {{c1::colonoscopía completa}}, no repetir el test ni pedir CEA.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz sangre oculta",
+      "repaso": true
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En hepatocarcinoma, el cirrótico se tamiza con ecografía cada {{c1::6 meses}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz tamizaje",
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-11/04_poliposis-adenomatosa-familiar__atlas-eunacom.jpg",
+      "pregunta": "Joven con historia familiar de cáncer de colon: ¿qué muestra y qué haces?",
+      "diagnostico": "Poliposis adenomatosa familiar",
+      "clave": "Colon tapizado de cientos de pólipos adenomatosos",
+      "conducta": "Colectomía total profiláctica (100 % maligniza)",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": false
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-11/01_polipo-pediculado_1__cto-digestivo_p119.jpg",
+      "pregunta": "Hallazgo en colonoscopía: ¿qué muestra y qué haces?",
+      "diagnostico": "Pólipo de colon (adenoma hasta demostrar lo contrario)",
+      "clave": "Lesión que protruye hacia el lumen del colon",
+      "conducta": "Polipectomía en la misma colonoscopía y control en 1–3 años según histología",
+      "fuente": "Manual CTO Digestivo 14.ª ed., p. 119",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Con síntomas de alarma: ¿qué examen?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Asintomático de riesgo promedio: ¿qué tamizaje y desde cuándo?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1",
+      "pista": "Pólipo adenomatoso: ¿qué haces?"
+    }
+  ]
+}

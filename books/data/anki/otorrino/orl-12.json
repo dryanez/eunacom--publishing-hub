@@ -1,0 +1,444 @@
+{
+ "classId": "orl-12",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fractura nasal es la fractura {{c1::facial}} más frecuente; el diagnóstico es clínico (epistaxis, laterorrinia, crepitación).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fractura nasal",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-12/01_fractura-huesos-nasales-desviacion__bailey-love_p738.jpg",
+   "codigos": [
+    "6.03.2.012"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La radiografía de huesos propios tiene solo valor {{c1::médico-legal}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Radiografía",
+   "repaso": true,
+   "codigos": [
+    "6.03.2.012"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Todo trauma nasal exige {{c1::rinoscopía anterior}} para descartar hematoma septal.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Hematoma septal",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.013"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hematoma septal: abombamiento {{c1::fluctuante}}, rojo-violáceo, blando y habitualmente bilateral, que ocluye las fosas.",
+   "extra": "Engrosamiento septal bilateral tras una caída.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Hematoma septal",
+   "repaso": true,
+   "imagen": "biblioteca/17_otorrino/orl-12/02_hematoma-septal-bilateral__commons.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 171"
+   ],
+   "codigos": [
+    "6.03.2.013"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El cartílago septal se necrosa en {{c1::24 a 48 horas}} porque se nutre por difusión desde el pericondrio.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Necrosis",
+   "repaso": true,
+   "codigos": [
+    "6.03.2.013",
+    "6.03.5.004"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si no se drena: absceso septal y nariz en {{c1::silla de montar}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Secuelas",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.013",
+    "6.03.5.004"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento del hematoma septal: {{c1::drenaje quirúrgico urgente}} con incisión, taponamiento bilateral compresivo y antibiótico.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.013",
+    "6.03.5.004"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Pelotazo hace 5-7 días con fiebre y aumento de volumen septal bilateral: absceso septal; {{c1::drenaje con bisturí}}.",
+   "extra": "Joven de 28 años con 5 días; joven de 18 años con 7 días y leucocitosis; adolescente con fiebre.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Absceso septal",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 168",
+    "EUNACOM Julio 2015 · Pregunta 101",
+    "EUNACOM Diciembre 2024 · Pregunta 118"
+   ],
+   "codigos": [
+    "6.03.2.013",
+    "6.03.5.004"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El hematoma septal no se observa ni se punciona: se {{c1::drena con bisturí}} y después se tapona.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Trampas",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.013"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mientras se traslada: analgesia, hielo, cabecera elevada y {{c1::amoxicilina-clavulánico}}.",
+   "extra": "Idealmente se drena en las primeras 24 horas.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Nivel primario",
+   "repaso": false,
+   "codigos": [
+    "6.03.5.004"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si se demora: absceso, silla de montar, perforación septal, meningitis y trombosis del {{c1::seno cavernoso}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Complicaciones",
+   "repaso": false,
+   "codigos": [
+    "6.03.5.004"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pólipos nasales: masas lisas, translúcidas, blanco-grisáceas («{{c1::uva pelada}}»), indoloras e insensibles al tacto.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pólipos",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-12/03_poliposis-nasal-orofaringe__bull_p158.jpg",
+   "codigos": [
+    "6.03.1.024",
+    "6.03.1.016"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los pólipos nacen de la mucosa de los senos, sobre todo {{c1::etmoidales}}, y prolapsan a la nariz.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pólipos",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.024",
+    "6.03.1.016"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tríada de Samter (Widal, EREA): poliposis nasal bilateral, {{c1::asma}} de difícil control e intolerancia a AAS y AINE.",
+   "extra": "Asmática con broncoespasmo grave tras ketorolaco.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Samter",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.024"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la tríada de Samter están prohibidos de por vida la aspirina y los {{c1::AINE}} (COX-1): broncoespasmo fatal.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Samter",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.024"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En Samter, bloquear COX-1 desvía el ácido araquidónico a la lipooxigenasa y aumentan los {{c1::cisteinil-leucotrienos}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.024"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Poliposis: corticoide intranasal en dosis altas más ciclos breves de {{c1::prednisona}} oral.",
+   "extra": "Obstrucción completa con pólipos pálidos: prednisona oral 1 mg/kg/día por 7 días.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tratamiento",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 58",
+    "EUNACOM Diciembre 2017 · Pregunta 118"
+   ],
+   "codigos": [
+    "6.03.1.024",
+    "6.03.1.016"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Poliposis refractaria: {{c1::FESS}} (cirugía endoscópica funcional) o dupilumab.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Refractaria",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.024",
+    "6.03.1.016"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Pólipo nasal {{c1::unilateral}} en un adulto: biopsia y TAC por papiloma invertido o neoplasia.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Unilateral",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.024"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El papiloma invertido es benigno pero invasivo, con {{c1::10%}} de degeneración maligna.",
+   "extra": "Masa vegetante unilateral que sangra y destruye hueso.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Papiloma invertido",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.024"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Desviación septal: obstrucción nasal mecánica, fija y {{c1::unilateral}}, congénita o postraumática.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Desviación septal",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.016"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la fosa contralateral el cornete inferior se {{c1::hipertrofia}} de forma compensatoria.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Compensación",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.016"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Corrección definitiva de la desviación: {{c1::septoplastia}} electiva, con turbinoplastia si hay cornete hipertrófico.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.016"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cornete hipertrófico: mucosa rosada, firme y {{c1::muy dolorosa}} al tacto, a diferencia del pólipo.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.024",
+    "6.03.1.016"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fractura nasal sin hematoma septal: frío, analgesia y reevaluación a los {{c1::5 a 7 días}} para reducción cerrada si persiste la deformidad.",
+   "extra": "",
+   "origen": "clase:15",
+   "fuente": "Clase · Fractura sin hematoma",
+   "repaso": false,
+   "codigos": [
+    "6.03.5.004"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-12/01_fractura-huesos-nasales-desviacion__bailey-love_p738.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Laterorrinia tras un golpe",
+   "clave": "Desviación del dorso nasal hacia un lado",
+   "conducta": "Descartar hematoma septal; reevaluar a los 5-7 días",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 46.37",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.013"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-12/02_hematoma-septal-bilateral__commons.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Hematoma septal bilateral",
+   "clave": "Abombamiento violáceo del tabique que ocluye ambas fosas",
+   "conducta": "Drenaje quirúrgico urgente y taponamiento",
+   "fuente": "Wikimedia Commons, CC BY-SA 4.0",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 171"
+   ],
+   "codigos": [
+    "6.03.2.013"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-12/03_poliposis-nasal-orofaringe__bull_p158.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Pólipo nasal hasta la orofaringe",
+   "clave": "Masa translúcida que prolapsa desde la fosa nasal",
+   "conducta": "Corticoide intranasal más prednisona breve",
+   "fuente": "Color Atlas of ENT Diagnosis (Bull), p. 158",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 58"
+   ],
+   "codigos": [
+    "6.03.2.013",
+    "6.03.5.004"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Trauma nasal: ¿qué se hace en la rinoscopía anterior?",
+   "codigos": [
+    "6.03.2.013",
+    "6.03.1.024"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Abombamiento fluctuante del tabique: ¿conducta?",
+   "codigos": [
+    "6.03.2.013",
+    "6.03.1.024"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.0",
+   "pista": "Pólipos bilaterales translúcidos: ¿tratamiento?",
+   "codigos": [
+    "6.03.2.013",
+    "6.03.1.024"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.1",
+   "pista": "Pólipo unilateral en un adulto: ¿conducta?",
+   "codigos": [
+    "6.03.2.013",
+    "6.03.1.024"
+   ]
+  }
+ ]
+}

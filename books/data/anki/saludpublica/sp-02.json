@@ -1,0 +1,462 @@
+{
+  "classId": "sp-02",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Régimen de Garantías Explícitas en Salud (GES) está regulado por la {{c1::Ley 19.966}} y es exigible a FONASA y a las ISAPRES.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Garantías",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las cuatro garantías GES son acceso, oportunidad, protección financiera y {{c1::calidad}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de garantías",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La Garantía de {{c1::Acceso}} obliga a asegurar la prestación a quien cumple los criterios de edad, etapa o condición del decreto.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de garantías",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La Garantía de {{c1::Oportunidad}} fija plazos máximos legales para sospecha, confirmación, tratamiento y seguimiento.",
+      "extra": "Es la que más se reclama, porque tiene un procedimiento legal detrás.",
+      "origen": "clase:1",
+      "fuente": "Clase · Acceso y Oportunidad",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La Garantía de {{c1::Protección Financiera}} regula el copago máximo y el deducible.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de garantías",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En ISAPRE o prestadores privados, el coaseguro máximo GES es de {{c1::20%}} del valor de la canasta.",
+      "extra": "En FONASA es 0%.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Protección financiera",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El deducible GES en ISAPRE es de {{c1::29}} cotizaciones mensuales legales (o 122 UF si es menor) por evento.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Protección Financiera",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La Garantía de {{c1::Calidad}} exige prestadores individuales inscritos en el registro e instituciones acreditadas por la Superintendencia de Salud.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de garantías",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.047",
+        "7.01.3.040"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 18",
+        "EUNACOM Julio 2024 · Pregunta 19"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Registro de Prestadores Individuales de la Superintendencia de Salud corresponde a la garantía de {{c1::calidad}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz Julio 2024",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.047"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 18",
+        "EUNACOM Julio 2024 · Pregunta 19"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La acreditación de prestadores es la medida GES relacionada con la garantía de {{c1::calidad}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Acreditación",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.047"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 42",
+        "EUNACOM Julio 2017 · Pregunta 82"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La acreditación de prestadores individuales e institucionales la realiza la {{c1::Superintendencia de Salud}}.",
+      "extra": "La autorización sanitaria de funcionamiento la da la SEREMI de Salud.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Julio 2015",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.047"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 96"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Un hospital privado no acreditado otorga cirugía GES: se vulnera la garantía de {{c1::calidad}}, aunque la cirugía salga bien.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.047",
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Un prestador con autorización de la SEREMI pero sin acreditar: el error es creer que {{c1::la autorización sanitaria basta para el GES}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.047"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Paciente de 58 años sin criterio etario para colecistectomía preventiva GES: {{c1::no se vulnera ninguna garantía}}, simplemente no cumple el Acceso.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El médico debe entregar el {{c1::Formulario de Constancia de Información al Paciente GES}} ante sospecha o confirmación de un problema GES.",
+      "extra": "Es obligatorio en el sector público y privado.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Formulario GES",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "No entregar el formulario GES es una falta grave, sancionable por la {{c1::Superintendencia de Salud}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Formulario GES",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si el paciente renuncia al GES por escrito, pierde la {{c1::garantía de plazo y el copago regulado}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Formulario GES",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante plazo GES vencido, el primer paso es un {{c1::reclamo por escrito ante el asegurador}} (FONASA o ISAPRE).",
+      "extra": "No es un recurso judicial ni ir directo a la Superintendencia.",
+      "origen": "clase:4",
+      "fuente": "Clase · Plazo vencido",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El reclamo por plazo GES vencido debe presentarse dentro de los {{c1::30 días}} siguientes al vencimiento.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Reclamo",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El asegurador tiene {{c1::48 horas hábiles}} para designar un segundo prestador.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Reclamo",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El segundo prestador tiene hasta {{c1::10 días corridos}} para otorgar la prestación retrasada.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Reclamo",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si el asegurador o el segundo prestador incumplen, el paciente acude a la {{c1::Superintendencia de Salud}}, que designa un tercer prestador.",
+      "extra": "Con cargo al asegurador incumplidor.",
+      "origen": "clase:4",
+      "fuente": "Clase · Plazo vencido",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La salud oral integral GES cubre a niños de {{c1::6 años}}, adolescentes de 12, embarazadas y adultos de 60.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Salud oral",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.015"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "A los 6 años se atiende la salud oral integral porque erupciona el {{c1::primer molar permanente}}.",
+      "extra": "Sellantes, obturaciones y alta odontológica.",
+      "origen": "clase:5",
+      "fuente": "Clase · Otros derechos GES",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.015"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El GES garantiza ayudas técnicas (bastones, andadores, sillas de ruedas) a personas de {{c1::65 años o más}}, con indicación médica.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Ayudas técnicas",
+      "repaso": true,
+      "codigos": [
+        "1.07.3.012"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La agresión sexual aguda es una {{c1::urgencia}}: se atiende de inmediato, sin condicionar la atención a la denuncia.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Agresión sexual",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.053"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En agresión sexual aguda, el error es {{c1::exigir la denuncia antes de atender}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.053"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En agresión sexual aguda, la profilaxis antirretroviral contra VIH se inicia dentro de las {{c1::72 h}}, por 28 días.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Agresión sexual",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.053"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La anticoncepción de emergencia en agresión sexual es {{c1::levonorgestrel}}, idealmente dentro de 72 h y hasta 120 h.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Agresión sexual",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.053"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El equipo de salud debe denunciar la agresión sexual en un plazo de {{c1::24 horas}}.",
+      "extra": "Si la víctima es menor, se piden además medidas de protección.",
+      "origen": "clase:5",
+      "fuente": "Clase · Otros derechos GES",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.053"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El accidente laboral (por ejemplo, en una fábrica) lo cubre la {{c1::mutual de seguridad}}, que administra el seguro laboral.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Banco · accidente laboral",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 102"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La licencia por síntomas de parto prematuro de una embarazada de 28 semanas afiliada a ISAPRE la financia la {{c1::ISAPRE}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Banco · licencia médica",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 6",
+        "EUNACOM Diciembre 2022 · Pregunta 103"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Si cumple edad y condición del decreto: ¿qué garantía?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Plazo vencido: ¿qué garantía y qué sigue?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.3",
+      "pista": "Prestador no acreditado: ¿qué garantía?"
+    }
+  ]
+}

@@ -1,0 +1,1536 @@
+{
+ "_doc": "Glosario clicable del mazo Anki (popover en el reverso). 'def' se escribe a mano desde el libro (sin cifras nuevas) y se conserva al regenerar; pagina/clase/t/url los recalcula conceptos.py. Términos y alias: books/scripts/anki/vocab_*.txt.",
+ "libro": "reumatologia",
+ "pdf": "books/dist/Modulo_1_Medicina_Interna/Manual_EUNACOM_Reumatologia_Completo_2026.pdf",
+ "terminos": {
+  "Monoartritis_aguda": {
+   "termino": "Monoartritis aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "monoartritis aguda",
+    "monoartritis"
+   ],
+   "def": "Inflamación aguda (dolor, eritema, calor, aumento de volumen e impotencia) de una sola articulación, de menos de 4 a 6 semanas. Se considera séptica hasta demostrar lo contrario.",
+   "pagina": 5,
+   "clase": "reuma-01",
+   "claseTitulo": "9.1 Monoartritis Aguda: Enfrentamiento Clínico y Estudio de Líquido Sinovial",
+   "diapositiva": 0,
+   "t": 5.2,
+   "mmss": "0:05",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-01&t=5&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-01&t=5",
+   "notas": 7
+  },
+  "Artritis_septica": {
+   "termino": "Artritis séptica",
+   "tipo": "Concepto",
+   "alias": [
+    "artritis séptica",
+    "artritis infecciosa"
+   ],
+   "def": "Infección articular, con Staphylococcus aureus como germen más frecuente (> 60%) en adultos. No dar corticoides ante sospecha y un Gram negativo no la descarta.",
+   "pagina": 9,
+   "clase": "reuma-02",
+   "claseTitulo": "9.2 Artritis Séptica del Adulto y Protésica: Etiología, Drenaje Urgente y Antimicrobianos",
+   "diapositiva": 4,
+   "t": 221.8,
+   "mmss": "3:42",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-02&t=221&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-02&t=221",
+   "notas": 16
+  },
+  "Gota": {
+   "termino": "Gota",
+   "tipo": "Concepto",
+   "alias": [
+    "gota",
+    "artritis gotosa"
+   ],
+   "def": "Artropatía por cristales de urato monosódico, ligada a hiperuricemia crónica. Un ácido úrico normal no descarta gota aguda; la crisis tiene inicio nocturno hiperagudo.",
+   "pagina": 14,
+   "clase": "reuma-03",
+   "claseTitulo": "9.3 Artritis por Microcristales: Gota vs Condrocalcinosis (Pseudogota)",
+   "diapositiva": 11,
+   "t": 583.8,
+   "mmss": "9:44",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-03&t=583&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-03&t=583",
+   "notas": 16
+  },
+  "Pseudogota": {
+   "termino": "Pseudogota",
+   "tipo": "Concepto",
+   "alias": [
+    "pseudogota",
+    "condrocalcinosis",
+    "enfermedad por depósito de pirofosfato"
+   ],
+   "def": "Artropatía por cristales de pirofosfato de calcio (CPPD) en cartílago, con birrefringencia débilmente positiva. Afecta grandes articulaciones; profilaxis con colchicina 0,5 mg/día.",
+   "pagina": 14,
+   "clase": "reuma-03",
+   "claseTitulo": "9.3 Artritis por Microcristales: Gota vs Condrocalcinosis (Pseudogota)",
+   "diapositiva": 11,
+   "t": 583.8,
+   "mmss": "9:44",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-03&t=583&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-03&t=583",
+   "notas": 14
+  },
+  "Artrosis": {
+   "termino": "Artrosis",
+   "tipo": "Concepto",
+   "alias": [
+    "artrosis",
+    "osteoartritis"
+   ],
+   "def": "Artropatía degenerativa con dolor mecánico que aumenta con el uso y cede en reposo. Respeta metacarpofalángicas y muñecas; compromete IFD (Heberden), IFP (Bouchard) y 1ra CMC.",
+   "pagina": 19,
+   "clase": "reuma-04",
+   "claseTitulo": "9.4 Artrosis / Osteoartritis: Diagnóstico Clínico, Radiología y Terapia Escalonada",
+   "diapositiva": 8,
+   "t": 383.1,
+   "mmss": "6:23",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-04&t=383&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-04&t=383",
+   "notas": 25
+  },
+  "Artritis_idiopatica_juvenil": {
+   "termino": "Artritis idiopática juvenil",
+   "tipo": "Concepto",
+   "alias": [
+    "artritis idiopática juvenil",
+    "AIJ"
+   ],
+   "def": "Artritis de causa desconocida de 6 semanas o más en menores de 16 años. Oligoarticular con ANA positivo implica alto riesgo de uveítis anterior crónica asintomática.",
+   "pagina": 23,
+   "clase": "reuma-05",
+   "claseTitulo": "9.5 Artritis Idiopática Juvenil (AIJ) y Enfermedad de Still del Adulto",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 15
+  },
+  "Enfermedad_de_Still_del_adulto": {
+   "termino": "Enfermedad de Still del adulto",
+   "tipo": "Concepto",
+   "alias": [
+    "Still del adulto",
+    "enfermedad de Still"
+   ],
+   "def": "Fiebre vespertina cotidiana > 39 °C, artritis y rash salmón evanescente. Ferritina sérica muy elevada; en formas leves se usan AINEs a dosis altas.",
+   "pagina": 23,
+   "clase": "reuma-05",
+   "claseTitulo": "9.5 Artritis Idiopática Juvenil (AIJ) y Enfermedad de Still del Adulto",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Artritis_reumatoide": {
+   "termino": "Artritis reumatoide",
+   "tipo": "Concepto",
+   "alias": [
+    "artritis reumatoide",
+    "AR"
+   ],
+   "def": "Artritis inflamatoria de articulaciones pequeñas, como metacarpofalángicas y metatarsofalángicas. Se clasifica por número de articulaciones y serología; exámenes normales no la descartan.",
+   "pagina": 30,
+   "clase": "reuma-06",
+   "claseTitulo": "9.6 Artritis Reumatoide: Fisiopatología, Criterios ACR/EULAR 2010 y Manifestaciones Extraarticulares",
+   "diapositiva": 8,
+   "t": 493.2,
+   "mmss": "8:13",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-06&t=493&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-06&t=493",
+   "notas": 50
+  },
+  "Criterios_ACR_EULAR": {
+   "termino": "Criterios ACR/EULAR",
+   "tipo": "Concepto",
+   "alias": [
+    "ACR/EULAR",
+    "EULAR/ACR",
+    "ACR-EULAR"
+   ],
+   "def": "Criterios de clasificación para artritis reumatoide (ACR/EULAR 2010: puntaje ≥ 6 de 10 confirma). Para LES, EULAR/ACR 2019 exige ANA positivo ≥ 1:80 como criterio de entrada.",
+   "pagina": 30,
+   "clase": "reuma-06",
+   "claseTitulo": "9.6 Artritis Reumatoide: Fisiopatología, Criterios ACR/EULAR 2010 y Manifestaciones Extraarticulares",
+   "diapositiva": 13,
+   "t": 691.1,
+   "mmss": "11:31",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-06&t=691&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-06&t=691",
+   "notas": 8
+  },
+  "Lupus_eritematoso_sistemico": {
+   "termino": "Lupus eritematoso sistémico",
+   "tipo": "Concepto",
+   "alias": [
+    "lupus eritematoso sistémico",
+    "lupus sistémico",
+    "LES"
+   ],
+   "def": "Enfermedad autoinmune sistémica; los ANA son el criterio de entrada y, si son negativos, no puede clasificarse como LES. El anti-Smith es el más específico (> 99%).",
+   "pagina": 39,
+   "clase": "reuma-08",
+   "claseTitulo": "9.8 Lupus Eritematoso Sistémico (LES): Inmunopatogenia, Criterios EULAR/ACR 2019 y Manejo Basal",
+   "diapositiva": 12,
+   "t": 589.9,
+   "mmss": "9:50",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-08&t=589&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-08&t=589",
+   "notas": 30
+  },
+  "Nefritis_lupica": {
+   "termino": "Nefritis lúpica",
+   "tipo": "Concepto",
+   "alias": [
+    "nefritis lúpica"
+   ],
+   "def": "Afecta hasta al 50% de los pacientes con LES y es su principal causa de morbimortalidad. Se origina por inmunocomplejos; el anti-dsDNA se correlaciona con la actividad y el riesgo.",
+   "pagina": 45,
+   "clase": "reuma-09",
+   "claseTitulo": "9.9 Nefritis Lúpica y Compromiso Orgánico Mayor en LES: Clasificación, Biopsia y Terapia Inmunosupresora",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Lupus_cutaneo": {
+   "termino": "Lupus cutáneo",
+   "tipo": "Concepto",
+   "alias": [
+    "lupus cutáneo",
+    "lupus discoide",
+    "lupus subagudo"
+   ],
+   "def": "Manifestaciones cutáneas del lupus. El discoide causa alopecia cicatricial y sólo 5% a 10% evoluciona a LES; el subagudo cura sin cicatriz y se asocia a anti-Ro (SSA).",
+   "pagina": 50,
+   "clase": "reuma-10",
+   "claseTitulo": "9.10 Lupus Cutáneo (Subagudo y Crónico Discoide) y Lupus Inducido por Drogas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 16
+  },
+  "Lupus_inducido_por_drogas": {
+   "termino": "Lupus inducido por drogas",
+   "tipo": "Concepto",
+   "alias": [
+    "lupus inducido por drogas",
+    "lupus farmacológico"
+   ],
+   "def": "Lupus causado típicamente por hidralazina, procainamida, isoniazida y anti-TNF. Respeta riñón y sistema nervioso central; se trata suspendiendo el fármaco causal.",
+   "pagina": 50,
+   "clase": "reuma-10",
+   "claseTitulo": "9.10 Lupus Cutáneo (Subagudo y Crónico Discoide) y Lupus Inducido por Drogas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Sindrome_antifosfolipido": {
+   "termino": "Síndrome antifosfolípido",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome antifosfolípido",
+    "antifosfolípido",
+    "SAF"
+   ],
+   "def": "Exige criterio clínico (trombosis o morbilidad obstétrica) y de laboratorio. En trombosis: warfarina o acenocumarol, INR 2.0 a 3.0; DOACs contraindicados en triple positividad.",
+   "pagina": 57,
+   "clase": "reuma-11",
+   "claseTitulo": "9.11 Síndrome Antifosfolípido (SAF): Criterios de Sydney, Trombosis Vascular y Manejo Obstétrico",
+   "diapositiva": 11,
+   "t": 538.1,
+   "mmss": "8:58",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-11&t=538&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-11&t=538",
+   "notas": 20
+  },
+  "Criterios_de_Sydney": {
+   "termino": "Criterios de Sydney",
+   "tipo": "Concepto",
+   "alias": [
+    "Sydney"
+   ],
+   "def": "Criterios de clasificación usados para diagnosticar el síndrome antifosfolípido.",
+   "pagina": 57,
+   "clase": "reuma-11",
+   "claseTitulo": "9.11 Síndrome Antifosfolípido (SAF): Criterios de Sydney, Trombosis Vascular y Manejo Obstétrico",
+   "diapositiva": 0,
+   "t": 5.2,
+   "mmss": "0:05",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-11&t=5&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-11&t=5",
+   "notas": 2
+  },
+  "Esclerosis_sistemica": {
+   "termino": "Esclerosis sistémica",
+   "tipo": "Concepto",
+   "alias": [
+    "esclerosis sistémica",
+    "esclerodermia"
+   ],
+   "def": "Fibrosis cutánea y visceral. Su principal causa de muerte es la EPID, tratada con micofenolato mofetilo; los corticoides en dosis altas están contraindicados.",
+   "pagina": 62,
+   "clase": "reuma-12",
+   "claseTitulo": "9.12 Esclerosis Sistémica: Cutánea Difusa (Anti-Scl-70) vs Limitada / CREST (Anti-Centrómero) y Crisis Renal",
+   "diapositiva": 9,
+   "t": 431.0,
+   "mmss": "7:11",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-12&t=431&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-12&t=431",
+   "notas": 19
+  },
+  "Sindrome_CREST": {
+   "termino": "Síndrome CREST",
+   "tipo": "Concepto",
+   "alias": [
+    "CREST",
+    "esclerosis sistémica limitada"
+   ],
+   "def": "Variante limitada de esclerosis sistémica: Calcinosis, Raynaud, Esofagopatía, Sclerodactilia y Telangiectasias. Se asocia a anticentrómero y riesgo tardío de hipertensión pulmonar.",
+   "pagina": 62,
+   "clase": "reuma-12",
+   "claseTitulo": "9.12 Esclerosis Sistémica: Cutánea Difusa (Anti-Scl-70) vs Limitada / CREST (Anti-Centrómero) y Crisis Renal",
+   "diapositiva": 12,
+   "t": 537.8,
+   "mmss": "8:58",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-12&t=537&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-12&t=537",
+   "notas": 4
+  },
+  "Crisis_renal_esclerodermica": {
+   "termino": "Crisis renal esclerodérmica",
+   "tipo": "Concepto",
+   "alias": [
+    "crisis renal esclerodérmica",
+    "crisis renal"
+   ],
+   "def": "Hipertensión arterial acelerada con falla renal microangiopática, más riesgo con anti-ARN polimerasa III. Tratamiento de elección: IECA como captopril oral a dosis plenas.",
+   "pagina": 62,
+   "clase": "reuma-12",
+   "claseTitulo": "9.12 Esclerosis Sistémica: Cutánea Difusa (Anti-Scl-70) vs Limitada / CREST (Anti-Centrómero) y Crisis Renal",
+   "diapositiva": 14,
+   "t": 595.5,
+   "mmss": "9:56",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-12&t=595&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-12&t=595",
+   "notas": 7
+  },
+  "Polimiositis": {
+   "termino": "Polimiositis",
+   "tipo": "Concepto",
+   "alias": [
+    "polimiositis"
+   ],
+   "def": "Miopatía inflamatoria por citotoxicidad mediada por linfocitos T CD8+ que invaden miofibras con MHC-I. Respeta músculos faciales y extraoculares, igual que la dermatomiositis.",
+   "pagina": 68,
+   "clase": "reuma-13",
+   "claseTitulo": "9.13 Miopatías Inflamatorias Autoinmunes: Polimiositis, Dermatomiositis y Tamizaje de Cáncer Oculto",
+   "diapositiva": 1,
+   "t": 35.9,
+   "mmss": "0:36",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-13&t=35&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-13&t=35",
+   "notas": 8
+  },
+  "Dermatomiositis": {
+   "termino": "Dermatomiositis",
+   "tipo": "Concepto",
+   "alias": [
+    "dermatomiositis"
+   ],
+   "def": "Miopatía inflamatoria con lesiones cutáneas patognomónicas: eritema en heliotropo y pápulas de Gottron. Todo adulto requiere tamizaje de neoplasia oculta.",
+   "pagina": 68,
+   "clase": "reuma-13",
+   "claseTitulo": "9.13 Miopatías Inflamatorias Autoinmunes: Polimiositis, Dermatomiositis y Tamizaje de Cáncer Oculto",
+   "diapositiva": 11,
+   "t": 523.0,
+   "mmss": "8:43",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-13&t=522&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-13&t=522",
+   "notas": 14
+  },
+  "Fenomeno_de_Raynaud": {
+   "termino": "Fenómeno de Raynaud",
+   "tipo": "Concepto",
+   "alias": [
+    "fenómeno de Raynaud",
+    "Raynaud"
+   ],
+   "def": "Trastorno de los dedos que se distingue en primario (80-90% de casos) y secundario según simetría, úlceras, ANA y capilaroscopía. Dejar el tabaco es mandatorio.",
+   "pagina": 73,
+   "clase": "reuma-14",
+   "claseTitulo": "9.14 Fenómeno de Raynaud Primario vs Secundario y Capilaroscopía Periungueal",
+   "diapositiva": 10,
+   "t": 452.8,
+   "mmss": "7:33",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-14&t=452&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-14&t=452",
+   "notas": 31
+  },
+  "Sindrome_de_Sjogren": {
+   "termino": "Síndrome de Sjögren",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome de Sjögren",
+    "Sjögren"
+   ],
+   "def": "Exocrinopatía autoinmune con xeroftalmia y xerostomía, manejada junto a reumatología, oftalmología y odontología. Riesgo 40 veces mayor de linfoma B, sobre todo MALT.",
+   "pagina": 77,
+   "clase": "reuma-15",
+   "claseTitulo": "9.15 Síndrome de Sjögren y Enfermedad Mixta del Tejido Conectivo (EMTC)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 24
+  },
+  "Enfermedad_mixta_del_tejido_conectivo": {
+   "termino": "Enfermedad mixta del tejido conectivo",
+   "tipo": "Concepto",
+   "alias": [
+    "enfermedad mixta del tejido conectivo",
+    "EMTC"
+   ],
+   "def": "Superposición de lupus, esclerosis sistémica y polimiositis, con anti-U1-RNP en títulos muy altos. La principal causa de mortalidad es la hipertensión arterial pulmonar.",
+   "pagina": 77,
+   "clase": "reuma-15",
+   "claseTitulo": "9.15 Síndrome de Sjögren y Enfermedad Mixta del Tejido Conectivo (EMTC)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Espondiloartritis": {
+   "termino": "Espondiloartritis",
+   "tipo": "Concepto",
+   "alias": [
+    "espondiloartritis",
+    "espondiloartropatía",
+    "espondiloartropatías"
+   ],
+   "def": "Grupo de enfermedades inflamatorias con rasgos comunes, seronegativas (FR y ANA negativos). Derivar a reumatología si hay sospecha o artritis de más de 6 semanas.",
+   "pagina": 85,
+   "clase": "reuma-16",
+   "claseTitulo": "9.16 Espondiloartritis: Concepto Unificador, HLA-B27 y Lumbago Inflamatorio vs Mecánico",
+   "diapositiva": 1,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-16&t=32&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 12
+  },
+  "HLA_B27": {
+   "termino": "HLA-B27",
+   "tipo": "Concepto",
+   "alias": [
+    "HLA-B27",
+    "HLA B27"
+   ],
+   "def": "Marcador genético presente en más del 90% de las espondilitis anquilosantes y en 50-70% de las formas reactivas, psoriásicas y enteropáticas.",
+   "pagina": 85,
+   "clase": "reuma-16",
+   "claseTitulo": "9.16 Espondiloartritis: Concepto Unificador, HLA-B27 y Lumbago Inflamatorio vs Mecánico",
+   "diapositiva": 0,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-16&t=5&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Espondilitis_anquilosante": {
+   "termino": "Espondilitis anquilosante",
+   "tipo": "Concepto",
+   "alias": [
+    "espondilitis anquilosante",
+    "EA"
+   ],
+   "def": "Espondiloartritis axial de varones jóvenes (15 a 30 años), con más del 90% HLA-B27 positivo. Primera línea: AINEs a dosis plenas continuas; si fallan, biológicos anti-TNF.",
+   "pagina": 89,
+   "clase": "reuma-17",
+   "claseTitulo": "9.17 Espondilitis Anquilosante (EA): Sacroilitis Bilateral, Columna en Caña de Bambú y Terapia Anti-TNF",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 16
+  },
+  "Sacroilitis": {
+   "termino": "Sacroilitis",
+   "tipo": "Concepto",
+   "alias": [
+    "sacroilitis"
+   ],
+   "def": "Inflamación de sacroilíacas. Criterio radiológico: sacroilitis bilateral grado ≥ 2 o unilateral grado 3 o 4. El dolor glúteo alternante es su manifestación clínica típica.",
+   "pagina": 89,
+   "clase": "reuma-17",
+   "claseTitulo": "9.17 Espondilitis Anquilosante (EA): Sacroilitis Bilateral, Columna en Caña de Bambú y Terapia Anti-TNF",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 11
+  },
+  "Artritis_psoriasica": {
+   "termino": "Artritis psoriásica",
+   "tipo": "Concepto",
+   "alias": [
+    "artritis psoriásica"
+   ],
+   "def": "Afecta al 15-30% de los pacientes con psoriasis cutánea. Metotrexato es el FARME sintético de primera elección en la forma periférica.",
+   "pagina": 94,
+   "clase": "reuma-18",
+   "claseTitulo": "9.18 Artritis Psoriásica (Dactilitis, Pitting Ungueal) y Artritis Asociada a EII",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Artritis_reactiva": {
+   "termino": "Artritis reactiva",
+   "tipo": "Concepto",
+   "alias": [
+    "artritis reactiva",
+    "síndrome de Reiter",
+    "Reiter"
+   ],
+   "def": "Artritis aséptica que aparece 1 a 4 semanas tras una infección urogenital (Chlamydia) o digestiva. La tríada de Reiter incluye uretritis, conjuntivitis estéril y oligoartritis asimétrica.",
+   "pagina": 98,
+   "clase": "reuma-19",
+   "claseTitulo": "9.19 Artritis Reactiva (Síndrome de Reiter): Tríada Clásica, Chlamydia y Tratamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 16
+  },
+  "Enfermedad_de_Behcet": {
+   "termino": "Enfermedad de Behçet",
+   "tipo": "Concepto",
+   "alias": [
+    "enfermedad de Behçet",
+    "Behçet",
+    "Behcet"
+   ],
+   "def": "Vasculitis sistémica que afecta arterias y venas de pequeño, mediano y gran calibre, asociada a HLA-B51.",
+   "pagina": 102,
+   "clase": "reuma-20",
+   "claseTitulo": "9.20 Enfermedad de Behçet: Aftosis Orogenital Recurrente, Fenómeno de Patergia y Panuveítis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 19
+  },
+  "Arteritis_de_celulas_gigantes": {
+   "termino": "Arteritis de células gigantes",
+   "tipo": "Concepto",
+   "alias": [
+    "arteritis de células gigantes",
+    "arteritis de la temporal",
+    "arteritis temporal"
+   ],
+   "def": "Panarteritis granulomatosa de arterias de gran y mediano calibre, con predilección por ramas carotídeas. La claudicación mandibular es su síntoma más específico (> 90%); riesgo de ceguera.",
+   "pagina": 109,
+   "clase": "reuma-21",
+   "claseTitulo": "9.21 Vasculitis de Vaso Grande y Mediano: Arteritis de la Temporal (Células Gigantes / Urgencia Visual) y Arteritis de Takayasu",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Arteritis_de_Takayasu": {
+   "termino": "Arteritis de Takayasu",
+   "tipo": "Concepto",
+   "alias": [
+    "Takayasu"
+   ],
+   "def": "Arteritis granulomatosa estenosante y aneurismática de gran vaso, en pacientes jóvenes; compromete el cayado aórtico, sus ramas y las arterias renales.",
+   "pagina": 109,
+   "clase": "reuma-21",
+   "claseTitulo": "9.21 Vasculitis de Vaso Grande y Mediano: Arteritis de la Temporal (Células Gigantes / Urgencia Visual) y Arteritis de Takayasu",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Vasculitis_ANCA": {
+   "termino": "Vasculitis ANCA",
+   "tipo": "Concepto",
+   "alias": [
+    "vasculitis ANCA",
+    "ANCA"
+   ],
+   "def": "Vasculitis pauciinmunes asociadas a ANCA: GPA con c-ANCA (anti-PR3); PAM y EGPA con p-ANCA (anti-MPO). Se caracterizan por escasos o nulos depósitos inmunes en la pared vascular.",
+   "pagina": 115,
+   "clase": "reuma-22",
+   "claseTitulo": "9.22 Vasculitis de Vaso Pequeño ANCA Positivas (GPA, PAM, EGPA) y Púrpura de Henoch-Schönlein (Vasculitis por IgA)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-22&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Granulomatosis_con_poliangeitis": {
+   "termino": "Granulomatosis con poliangeítis",
+   "tipo": "Concepto",
+   "alias": [
+    "granulomatosis con poliangeítis",
+    "GPA",
+    "Wegener"
+   ],
+   "def": "Vasculitis ANCA con inflamación granulomatosa y c-ANCA (anti-PR3); nódulos pulmonares cavitados bilaterales. La perforación del tabique nasal ('nariz en silla de montar') es patognomónica.",
+   "pagina": 115,
+   "clase": "reuma-22",
+   "claseTitulo": "9.22 Vasculitis de Vaso Pequeño ANCA Positivas (GPA, PAM, EGPA) y Púrpura de Henoch-Schönlein (Vasculitis por IgA)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-22&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Poliangeitis_microscopica": {
+   "termino": "Poliangeítis microscópica",
+   "tipo": "Concepto",
+   "alias": [
+    "poliangeítis microscópica",
+    "PAM"
+   ],
+   "def": "Vasculitis ANCA sin inflamación granulomatosa ni compromiso de vía aérea superior. Cursa con p-ANCA (anti-MPO), GNRP pauciinmune y hemorragia alveolar.",
+   "pagina": 115,
+   "clase": "reuma-22",
+   "claseTitulo": "9.22 Vasculitis de Vaso Pequeño ANCA Positivas (GPA, PAM, EGPA) y Púrpura de Henoch-Schönlein (Vasculitis por IgA)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-22&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Granulomatosis_eosinofilica_con_poliangeitis": {
+   "termino": "Granulomatosis eosinofílica con poliangeítis",
+   "tipo": "Concepto",
+   "alias": [
+    "EGPA",
+    "Churg-Strauss",
+    "Churg Strauss"
+   ],
+   "def": "Vasculitis ANCA con atopia: asma severo del adulto, eosinofilia > 1.500/uL y mononeuritis múltiple. Asma resistente a corticoides inhalados y poliposis nasal destructiva.",
+   "pagina": 115,
+   "clase": "reuma-22",
+   "claseTitulo": "9.22 Vasculitis de Vaso Pequeño ANCA Positivas (GPA, PAM, EGPA) y Púrpura de Henoch-Schönlein (Vasculitis por IgA)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-22&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Purpura_de_Henoch_Schonlein": {
+   "termino": "Púrpura de Henoch-Schönlein",
+   "tipo": "Concepto",
+   "alias": [
+    "Henoch-Schönlein",
+    "Henoch Schönlein",
+    "vasculitis por IgA",
+    "púrpura de Schönlein"
+   ],
+   "def": "Vasculitis por IgA, con depósitos de IgA1 en capilares y mesangio renal. Las plaquetas son normales; en niños suele ser autolimitada, con reposo, paracetamol y observación.",
+   "pagina": 115,
+   "clase": "reuma-22",
+   "claseTitulo": "9.22 Vasculitis de Vaso Pequeño ANCA Positivas (GPA, PAM, EGPA) y Púrpura de Henoch-Schönlein (Vasculitis por IgA)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-22&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Fibromialgia": {
+   "termino": "Fibromialgia",
+   "tipo": "Concepto",
+   "alias": [
+    "fibromialgia"
+   ],
+   "def": "Dolor nociplástico por sensibilización central, con VSG, PCR y CPK normales. Corticoides y opioides contraindicados; el tratamiento combina ejercicio aeróbico con duloxetina o pregabalina.",
+   "pagina": 122,
+   "clase": "reuma-23",
+   "claseTitulo": "9.23 Fibromialgia y Polimialgia Reumática: Diagnóstico Diferencial, Reactantes de Fase Aguda y Manejo en APS",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-23&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 16
+  },
+  "Polimialgia_reumatica": {
+   "termino": "Polimialgia reumática",
+   "tipo": "Concepto",
+   "alias": [
+    "polimialgia reumática",
+    "PMR"
+   ],
+   "def": "Mayores de 50 años con dolor y rigidez matinal de hombros y caderas; VSG y PCR elevadas, CPK normal. Responde a prednisona 15 a 20 mg/día; sin mejoría en 7 días, descarta casi la PMR.",
+   "pagina": 122,
+   "clase": "reuma-23",
+   "claseTitulo": "9.23 Fibromialgia y Polimialgia Reumática: Diagnóstico Diferencial, Reactantes de Fase Aguda y Manejo en APS",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-23&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 16
+  },
+  "Osteoporosis": {
+   "termino": "Osteoporosis",
+   "tipo": "Concepto",
+   "alias": [
+    "osteoporosis"
+   ],
+   "def": "T-score ≤ -2.5 DE en columna lumbar, cuello femoral o cadera total. Una fractura por fragilidad de cadera o vértebra la define sin requerir densitometría.",
+   "pagina": 125,
+   "clase": "reuma-24",
+   "claseTitulo": "9.24 Osteoporosis y Salud Ósea: Densitometría (T-score vs Z-score), Fracturas por Fragilidad, FRAX y Terapia Farmacológica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-24&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 8
+  },
+  "FRAX": {
+   "termino": "FRAX",
+   "tipo": "Concepto",
+   "alias": [
+    "FRAX"
+   ],
+   "def": "Algoritmo validado por la OMS y calibrado para Chile que estima la probabilidad a 10 años de fractura osteoporótica mayor y de cadera aislada.",
+   "pagina": 125,
+   "clase": "reuma-24",
+   "claseTitulo": "9.24 Osteoporosis y Salud Ósea: Densitometría (T-score vs Z-score), Fracturas por Fragilidad, FRAX y Terapia Farmacológica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-24&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "T_score": {
+   "termino": "T-score",
+   "tipo": "Concepto",
+   "alias": [
+    "T-score",
+    "T score"
+   ],
+   "def": "Desviaciones estándar según criterios OMS: normal ≥ -1.0; osteopenia entre -1.0 y -2.5; osteoporosis ≤ -2.5 DE. Se usa en posmenopáusicas y varones ≥ 50 años.",
+   "pagina": 125,
+   "clase": "reuma-24",
+   "claseTitulo": "9.24 Osteoporosis y Salud Ósea: Densitometría (T-score vs Z-score), Fracturas por Fragilidad, FRAX y Terapia Farmacológica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-24&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Fractura_por_fragilidad": {
+   "termino": "Fractura por fragilidad",
+   "tipo": "Concepto",
+   "alias": [
+    "fractura por fragilidad",
+    "fracturas por fragilidad"
+   ],
+   "def": "Fractura por traumatismo de bajo impacto, como caer desde la propia altura. En adulto mayor, de cadera o vértebra, establece el diagnóstico de osteoporosis con terapia perentoria.",
+   "pagina": 125,
+   "clase": "reuma-24",
+   "claseTitulo": "9.24 Osteoporosis y Salud Ósea: Densitometría (T-score vs Z-score), Fracturas por Fragilidad, FRAX y Terapia Farmacológica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-24&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Tofos": {
+   "termino": "Tofos",
+   "tipo": "Signo",
+   "alias": [
+    "tofos",
+    "tofo"
+   ],
+   "def": "Acúmulos nodulares de cristales de urato rodeados de reacción granulomatosa, en hélix, bolsas olecraneanas, tendón de Aquiles y dedos. Meta de uricemia < 5.0 mg/dL si hay tofos.",
+   "pagina": 14,
+   "clase": "reuma-03",
+   "claseTitulo": "9.3 Artritis por Microcristales: Gota vs Condrocalcinosis (Pseudogota)",
+   "diapositiva": 2,
+   "t": 87.9,
+   "mmss": "1:28",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-03&t=87&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-03&t=87",
+   "notas": 4
+  },
+  "Dactilitis": {
+   "termino": "Dactilitis",
+   "tipo": "Signo",
+   "alias": [
+    "dactilitis"
+   ],
+   "def": "Tumefacción difusa de todo el dedo ('dedo en salchicha') por tenosinovitis flexora y sinovitis de las interfalángicas combinadas.",
+   "pagina": 94,
+   "clase": "reuma-18",
+   "claseTitulo": "9.18 Artritis Psoriásica (Dactilitis, Pitting Ungueal) y Artritis Asociada a EII",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Pitting_ungueal": {
+   "termino": "Pitting ungueal",
+   "tipo": "Signo",
+   "alias": [
+    "pitting ungueal",
+    "pitting"
+   ],
+   "def": "Piqueteado o depresiones puntiformes en la uña, con onicolisis y manchas salmón, típico de psoriasis. Su compromiso se asocia a interfalángicas distales.",
+   "pagina": 94,
+   "clase": "reuma-18",
+   "claseTitulo": "9.18 Artritis Psoriásica (Dactilitis, Pitting Ungueal) y Artritis Asociada a EII",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Eritema_malar": {
+   "termino": "Eritema malar",
+   "tipo": "Signo",
+   "alias": [
+    "eritema malar",
+    "rash malar",
+    "exantema malar"
+   ],
+   "def": "Eritema en alas de mariposa del lupus agudo que respeta los surcos nasogenianos. Forma parte del dominio mucocutáneo de los criterios EULAR/ACR (6 puntos).",
+   "pagina": 39,
+   "clase": "reuma-08",
+   "claseTitulo": "9.8 Lupus Eritematoso Sistémico (LES): Inmunopatogenia, Criterios EULAR/ACR 2019 y Manejo Basal",
+   "diapositiva": 3,
+   "t": 133.1,
+   "mmss": "2:13",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-08&t=133&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-08&t=133",
+   "notas": 4
+  },
+  "Eritema_heliotropo": {
+   "termino": "Eritema heliotropo",
+   "tipo": "Signo",
+   "alias": [
+    "heliotropo"
+   ],
+   "def": "Eritema violáceo en párpados superiores y región periorbitaria, con edema blando (facies aborregada). Lesión patognomónica de dermatomiositis.",
+   "pagina": 68,
+   "clase": "reuma-13",
+   "claseTitulo": "9.13 Miopatías Inflamatorias Autoinmunes: Polimiositis, Dermatomiositis y Tamizaje de Cáncer Oculto",
+   "diapositiva": 3,
+   "t": 134.3,
+   "mmss": "2:14",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-13&t=134&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-13&t=134",
+   "notas": 2
+  },
+  "Papulas_de_Gottron": {
+   "termino": "Pápulas de Gottron",
+   "tipo": "Signo",
+   "alias": [
+    "Gottron"
+   ],
+   "def": "Pápulas eritematovioláceas simétricas sobre el dorso de MCF, IFP e IFD y superficies extensoras de codos y rodillas. Patognomónicas de dermatomiositis.",
+   "pagina": 68,
+   "clase": "reuma-13",
+   "claseTitulo": "9.13 Miopatías Inflamatorias Autoinmunes: Polimiositis, Dermatomiositis y Tamizaje de Cáncer Oculto",
+   "diapositiva": 3,
+   "t": 134.3,
+   "mmss": "2:14",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-13&t=134&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-13&t=134",
+   "notas": 2
+  },
+  "Patergia": {
+   "termino": "Patergia",
+   "tipo": "Signo",
+   "alias": [
+    "patergia",
+    "fenómeno de patergia"
+   ],
+   "def": "Respuesta inflamatoria cutánea inespecífica e hiperreactiva; aparece una pústula estéril 24-48h tras pinchar la piel con una aguja.",
+   "pagina": 102,
+   "clase": "reuma-20",
+   "claseTitulo": "9.20 Enfermedad de Behçet: Aftosis Orogenital Recurrente, Fenómeno de Patergia y Panuveítis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Aftas_orales": {
+   "termino": "Aftas orales",
+   "tipo": "Signo",
+   "alias": [
+    "aftas orales",
+    "aftosis oral",
+    "aftosis orogenital"
+   ],
+   "def": "Úlceras orales dolorosas, recurrentes (≥ 3 veces/año) que curan sin cicatriz. En aftosis orogenital con artralgias, colchicina 1 a 2 mg/día más corticoide tópico.",
+   "pagina": 102,
+   "clase": "reuma-20",
+   "claseTitulo": "9.20 Enfermedad de Behçet: Aftosis Orogenital Recurrente, Fenómeno de Patergia y Panuveítis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Claudicacion_mandibular": {
+   "termino": "Claudicación mandibular",
+   "tipo": "Signo",
+   "alias": [
+    "claudicación mandibular"
+   ],
+   "def": "Dolor y fatiga de maseteros y lengua al masticar alimentos duros, que cede en reposo. Es el síntoma más específico (> 90%) de arteritis de células gigantes.",
+   "pagina": 109,
+   "clase": "reuma-21",
+   "claseTitulo": "9.21 Vasculitis de Vaso Grande y Mediano: Arteritis de la Temporal (Células Gigantes / Urgencia Visual) y Arteritis de Takayasu",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Nodulos_reumatoideos": {
+   "termino": "Nódulos reumatoideos",
+   "tipo": "Signo",
+   "alias": [
+    "nódulos reumatoideos"
+   ],
+   "def": "Nódulos subcutáneos que aparecen con serología intensamente positiva (FR y anti-CCP altos) y enfermedad de larga data; presentes en 20-30%.",
+   "pagina": 38,
+   "clase": "reuma-07",
+   "claseTitulo": "9.7 Artritis Reumatoide: Farmacoterapia, FARME Convencionales, Biológicos y GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Columna_en_cana_de_bambu": {
+   "termino": "Columna en caña de bambú",
+   "tipo": "Signo",
+   "alias": [
+    "caña de bambú"
+   ],
+   "def": "Anquilosis progresiva que fusiona sacroilíacas, cuerpos vertebrales y articulaciones posteriores mediante sindesmofitos verticales, dejando la columna rígida e inmóvil.",
+   "pagina": 89,
+   "clase": "reuma-17",
+   "claseTitulo": "9.17 Espondilitis Anquilosante (EA): Sacroilitis Bilateral, Columna en Caña de Bambú y Terapia Anti-TNF",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Liquido_sinovial": {
+   "termino": "Líquido sinovial",
+   "tipo": "Examen",
+   "alias": [
+    "líquido sinovial",
+    "artrocentesis"
+   ],
+   "def": "Se obtiene por artrocentesis, mandatoria ante derrame agudo no filiado; sólo la celulitis sobre el punto la contraindica. Analizar Gram, cultivo y cristales (luz polarizada).",
+   "pagina": 5,
+   "clase": "reuma-01",
+   "claseTitulo": "9.1 Monoartritis Aguda: Enfrentamiento Clínico y Estudio de Líquido Sinovial",
+   "diapositiva": 11,
+   "t": 700.7,
+   "mmss": "11:41",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-01&t=700&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-01&t=700",
+   "notas": 14
+  },
+  "Cristales_de_urato_monosodico": {
+   "termino": "Cristales de urato monosódico",
+   "tipo": "Examen",
+   "alias": [
+    "urato monosódico",
+    "cristales birrefringentes negativos"
+   ],
+   "def": "Cristales en forma de aguja, intracelulares, con birrefringencia negativa, que causan gota. Se forman con ácido úrico sérico > 6.8 mg/dL (punto de saturación a 37 °C).",
+   "pagina": 14,
+   "clase": "reuma-03",
+   "claseTitulo": "9.3 Artritis por Microcristales: Gota vs Condrocalcinosis (Pseudogota)",
+   "diapositiva": 1,
+   "t": 33.4,
+   "mmss": "0:33",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-03&t=33&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-03&t=33",
+   "notas": 2
+  },
+  "Factor_reumatoide": {
+   "termino": "Factor reumatoide",
+   "tipo": "Examen",
+   "alias": [
+    "factor reumatoide"
+   ],
+   "def": "Autoanticuerpo habitualmente IgM contra la porción Fc de la IgG. Positivo en más del 75% de casos primarios de artritis reumatoide; negativo en espondiloartritis.",
+   "pagina": 32,
+   "clase": "reuma-06",
+   "claseTitulo": "9.6 Artritis Reumatoide: Fisiopatología, Criterios ACR/EULAR 2010 y Manifestaciones Extraarticulares",
+   "diapositiva": 5,
+   "t": 284.5,
+   "mmss": "4:44",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-06&t=284&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-06&t=284",
+   "notas": 5
+  },
+  "Anti_CCP": {
+   "termino": "Anti-CCP",
+   "tipo": "Examen",
+   "alias": [
+    "anti-CCP",
+    "anti CCP",
+    "antipéptido citrulinado"
+   ],
+   "def": "Anticuerpo anti-CCP con especificidad de 96-98% para artritis reumatoide; predice enfermedad erosiva agresiva. Títulos altos (> 3 veces valor normal) suman más puntaje.",
+   "pagina": 30,
+   "clase": "reuma-06",
+   "claseTitulo": "9.6 Artritis Reumatoide: Fisiopatología, Criterios ACR/EULAR 2010 y Manifestaciones Extraarticulares",
+   "diapositiva": 5,
+   "t": 284.5,
+   "mmss": "4:44",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-06&t=284&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-06&t=284",
+   "notas": 11
+  },
+  "ANA": {
+   "termino": "ANA",
+   "tipo": "Examen",
+   "alias": [
+    "anticuerpos antinucleares",
+    "ANA",
+    "FAN"
+   ],
+   "def": "Anticuerpos antinucleares con sensibilidad > 98% pero especificidad ~80-85% para LES. Si son negativos por técnica estándar, el paciente no puede clasificarse como LES.",
+   "pagina": 39,
+   "clase": "reuma-08",
+   "claseTitulo": "9.8 Lupus Eritematoso Sistémico (LES): Inmunopatogenia, Criterios EULAR/ACR 2019 y Manejo Basal",
+   "diapositiva": 5,
+   "t": 271.5,
+   "mmss": "4:31",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-08&t=271&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-08&t=271",
+   "notas": 24
+  },
+  "Anti_DNA_nativo": {
+   "termino": "Anti-DNA nativo",
+   "tipo": "Examen",
+   "alias": [
+    "anti-DNA",
+    "anti-dsDNA",
+    "anti DNA"
+   ],
+   "def": "Anticuerpo anti-ADN de doble hebra, de especificidad sobresaliente (> 95%); su presencia confirma LES idiopático, no farmacológico.",
+   "pagina": 50,
+   "clase": "reuma-10",
+   "claseTitulo": "9.10 Lupus Cutáneo (Subagudo y Crónico Discoide) y Lupus Inducido por Drogas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Anti_Sm": {
+   "termino": "Anti-Sm",
+   "tipo": "Examen",
+   "alias": [
+    "anti-Sm"
+   ],
+   "def": "Anticuerpo anti-Smith, el más específico de LES (> 99%). Su presencia confirma LES idiopático, no farmacológico.",
+   "pagina": 50,
+   "clase": "reuma-10",
+   "claseTitulo": "9.10 Lupus Cutáneo (Subagudo y Crónico Discoide) y Lupus Inducido por Drogas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Anti_Scl_70": {
+   "termino": "Anti-Scl-70",
+   "tipo": "Examen",
+   "alias": [
+    "anti-Scl-70",
+    "anti Scl-70",
+    "Scl-70"
+   ],
+   "def": "Anticuerpo anti-topoisomerasa I, positivo en 30-40% de esclerosis; se asocia a esclerosis difusa con alto riesgo de EPID y crisis renal.",
+   "pagina": 62,
+   "clase": "reuma-12",
+   "claseTitulo": "9.12 Esclerosis Sistémica: Cutánea Difusa (Anti-Scl-70) vs Limitada / CREST (Anti-Centrómero) y Crisis Renal",
+   "diapositiva": 12,
+   "t": 537.8,
+   "mmss": "8:58",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-12&t=537&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-12&t=537",
+   "notas": 3
+  },
+  "Anticentromero": {
+   "termino": "Anticentrómero",
+   "tipo": "Examen",
+   "alias": [
+    "anticentrómero",
+    "anti-centrómero"
+   ],
+   "def": "Anticuerpo asociado a esclerosis limitada (CREST), positivo en 70-80%, con riesgo tardío de hipertensión pulmonar.",
+   "pagina": 62,
+   "clase": "reuma-12",
+   "claseTitulo": "9.12 Esclerosis Sistémica: Cutánea Difusa (Anti-Scl-70) vs Limitada / CREST (Anti-Centrómero) y Crisis Renal",
+   "diapositiva": 3,
+   "t": 134.0,
+   "mmss": "2:14",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-12&t=134&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-12&t=134",
+   "notas": 2
+  },
+  "Capilaroscopia": {
+   "termino": "Capilaroscopía",
+   "tipo": "Examen",
+   "alias": [
+    "capilaroscopía"
+   ],
+   "def": "Examen periungueal no invasivo, de elección para diferenciar Raynaud primario de secundario y descartar conectivopatía. Normal en primario; megacapilares en secundario.",
+   "pagina": 73,
+   "clase": "reuma-14",
+   "claseTitulo": "9.14 Fenómeno de Raynaud Primario vs Secundario y Capilaroscopía Periungueal",
+   "diapositiva": 14,
+   "t": 551.4,
+   "mmss": "9:11",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-14&t=551&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-14&t=551",
+   "notas": 8
+  },
+  "Densitometria_osea": {
+   "termino": "Densitometría ósea",
+   "tipo": "Examen",
+   "alias": [
+    "densitometría ósea",
+    "densitometría"
+   ],
+   "def": "Mide densidad mineral ósea; el diagnóstico OMS usa T-score ≤ -2.5 DE. Una fractura por fragilidad de cadera o vértebra define osteoporosis sin requerirla.",
+   "pagina": 125,
+   "clase": "reuma-24",
+   "claseTitulo": "9.24 Osteoporosis y Salud Ósea: Densitometría (T-score vs Z-score), Fracturas por Fragilidad, FRAX y Terapia Farmacológica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-24&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Biopsia_de_arteria_temporal": {
+   "termino": "Biopsia de arteria temporal",
+   "tipo": "Examen",
+   "alias": [
+    "biopsia de arteria temporal",
+    "biopsia temporal"
+   ],
+   "def": "Estándar de oro confirmatorio de arteritis de células gigantes; requiere ≥ 1.5-2 cm de muestra. No retrasar corticoides por la biopsia: los hallazgos persisten 2 a 4 semanas.",
+   "pagina": 109,
+   "clase": "reuma-21",
+   "claseTitulo": "9.21 Vasculitis de Vaso Grande y Mediano: Arteritis de la Temporal (Células Gigantes / Urgencia Visual) y Arteritis de Takayasu",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "VHS": {
+   "termino": "VHS",
+   "tipo": "Examen",
+   "alias": [
+    "VHS",
+    "velocidad de sedimentación"
+   ],
+   "def": "Velocidad de sedimentación globular, marcadamente acelerada en arteritis de células gigantes (casi siempre > 50 mm/h, con frecuencia > 80 a 100 mm/h).",
+   "pagina": 110,
+   "clase": "reuma-21",
+   "claseTitulo": "9.21 Vasculitis de Vaso Grande y Mediano: Arteritis de la Temporal (Células Gigantes / Urgencia Visual) y Arteritis de Takayasu",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Proteina_C_reactiva": {
+   "termino": "Proteína C reactiva",
+   "tipo": "Examen",
+   "alias": [
+    "proteína C reactiva",
+    "PCR"
+   ],
+   "def": "Reactante de fase aguda, muy elevada en polimialgia reumática. Si está elevada, sospechar otra enfermedad (neoplasia, lupus, AR); en fibromialgia es normal.",
+   "pagina": 122,
+   "clase": "reuma-23",
+   "claseTitulo": "9.23 Fibromialgia y Polimialgia Reumática: Diagnóstico Diferencial, Reactantes de Fase Aguda y Manejo en APS",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-23&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 12
+  },
+  "Colchicina": {
+   "termino": "Colchicina",
+   "tipo": "Farmaco",
+   "alias": [
+    "colchicina"
+   ],
+   "def": "En gota: 1 mg de inicio y luego 0.5 mg a la hora (máximo 1.5 mg el día 1). Profilaxis con 0.5 mg/día por 3 a 6 meses al iniciar alopurinol.",
+   "pagina": 14,
+   "clase": "reuma-03",
+   "claseTitulo": "9.3 Artritis por Microcristales: Gota vs Condrocalcinosis (Pseudogota)",
+   "diapositiva": 12,
+   "t": 637.4,
+   "mmss": "10:37",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-03&t=637&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-03&t=637",
+   "notas": 11
+  },
+  "AINE": {
+   "termino": "AINE",
+   "tipo": "Farmaco",
+   "alias": [
+    "AINE",
+    "AINEs",
+    "antiinflamatorios no esteroidales"
+   ],
+   "def": "Antiinflamatorios no esteroidales: primera línea en espondilitis anquilosante a dosis plenas, como naproxeno 500 mg c/12h. El metotrexato no sirve en compromiso axial.",
+   "pagina": 92,
+   "clase": "reuma-17",
+   "claseTitulo": "9.17 Espondilitis Anquilosante (EA): Sacroilitis Bilateral, Columna en Caña de Bambú y Terapia Anti-TNF",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 41
+  },
+  "Alopurinol": {
+   "termino": "Alopurinol",
+   "tipo": "Farmaco",
+   "alias": [
+    "alopurinol"
+   ],
+   "def": "Inhibidor de la xantina oxidasa. Nunca iniciar ni modificar durante la crisis aguda; se inicia 2 a 4 semanas después de resuelta, a 100 mg/d, con colchicina de profilaxis.",
+   "pagina": 14,
+   "clase": "reuma-03",
+   "claseTitulo": "9.3 Artritis por Microcristales: Gota vs Condrocalcinosis (Pseudogota)",
+   "diapositiva": 17,
+   "t": 768.4,
+   "mmss": "12:48",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-03&t=768&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-03&t=768",
+   "notas": 7
+  },
+  "Metotrexato": {
+   "termino": "Metotrexato",
+   "tipo": "Farmaco",
+   "alias": [
+    "metotrexato"
+   ],
+   "def": "FARME de primera línea en artritis reumatoide, dosificado SIEMPRE semanal (15 a 25 mg/semana), con ácido fólico 24 a 48 horas después. Contraindicado en embarazo.",
+   "pagina": 35,
+   "clase": "reuma-07",
+   "claseTitulo": "9.7 Artritis Reumatoide: Farmacoterapia, FARME Convencionales, Biológicos y GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 26
+  },
+  "Hidroxicloroquina": {
+   "termino": "Hidroxicloroquina",
+   "tipo": "Farmaco",
+   "alias": [
+    "hidroxicloroquina",
+    "cloroquina"
+   ],
+   "def": "Indicada de forma indefinida en LES, a dosis ≤ 5 mg/kg de peso real al día (200 a 400 mg/día), salvo contraindicación oftalmológica comprobada.",
+   "pagina": 39,
+   "clase": "reuma-08",
+   "claseTitulo": "9.8 Lupus Eritematoso Sistémico (LES): Inmunopatogenia, Criterios EULAR/ACR 2019 y Manejo Basal",
+   "diapositiva": 7,
+   "t": 383.3,
+   "mmss": "6:23",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-08&t=383&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-08&t=383",
+   "notas": 10
+  },
+  "Leflunomida": {
+   "termino": "Leflunomida",
+   "tipo": "Farmaco",
+   "alias": [
+    "leflunomida"
+   ],
+   "def": "Inhibe la síntesis de novo de pirimidinas (dihidroorotato deshidrogenasa).",
+   "pagina": 35,
+   "clase": "reuma-07",
+   "claseTitulo": "9.7 Artritis Reumatoide: Farmacoterapia, FARME Convencionales, Biológicos y GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Sulfasalazina": {
+   "termino": "Sulfasalazina",
+   "tipo": "Farmaco",
+   "alias": [
+    "sulfasalazina"
+   ],
+   "def": "Dosis de 2 a 3 g/día oral. Sin eficacia en compromiso axial puro de columna o sacroilíacas; sólo útil si coexiste artritis periférica de rodillas o tobillos.",
+   "pagina": 35,
+   "clase": "reuma-07",
+   "claseTitulo": "9.7 Artritis Reumatoide: Farmacoterapia, FARME Convencionales, Biológicos y GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Anti_TNF": {
+   "termino": "Anti-TNF",
+   "tipo": "Farmaco",
+   "alias": [
+    "anti-TNF",
+    "antiTNF",
+    "infliximab",
+    "adalimumab",
+    "etanercept"
+   ],
+   "def": "Terapia biológica (infliximab, adalimumab, etanercept, golimumab) si fallan AINEs en espondiloartritis axial con BASDAI ≥ 4 tras al menos dos AINEs a dosis plenas por 4 semanas.",
+   "pagina": 89,
+   "clase": "reuma-17",
+   "claseTitulo": "9.17 Espondilitis Anquilosante (EA): Sacroilitis Bilateral, Columna en Caña de Bambú y Terapia Anti-TNF",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 15
+  },
+  "Rituximab": {
+   "termino": "Rituximab",
+   "tipo": "Farmaco",
+   "alias": [
+    "rituximab"
+   ],
+   "def": "Anti-CD20 para inducción de AAV grave (375 mg/m² EV semanal por 4 semanas), alternativa a ciclofosfamida en jóvenes. Mantenimiento de 500 mg EV cada 6 meses.",
+   "pagina": 115,
+   "clase": "reuma-22",
+   "claseTitulo": "9.22 Vasculitis de Vaso Pequeño ANCA Positivas (GPA, PAM, EGPA) y Púrpura de Henoch-Schönlein (Vasculitis por IgA)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-22&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Ciclofosfamida": {
+   "termino": "Ciclofosfamida",
+   "tipo": "Farmaco",
+   "alias": [
+    "ciclofosfamida"
+   ],
+   "def": "Inmunosupresor en AAV grave: pulsos EV de 0.5 a 0.75 g/m² mensuales por 3 a 6 pulsos, o 2 mg/kg/día oral. Se prefiere rituximab en mujeres jóvenes por riesgo de insuficiencia ovárica.",
+   "pagina": 115,
+   "clase": "reuma-22",
+   "claseTitulo": "9.22 Vasculitis de Vaso Pequeño ANCA Positivas (GPA, PAM, EGPA) y Púrpura de Henoch-Schönlein (Vasculitis por IgA)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-22&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Micofenolato": {
+   "termino": "Micofenolato",
+   "tipo": "Farmaco",
+   "alias": [
+    "micofenolato"
+   ],
+   "def": "Inmunosupresor de primera línea en inducción y mantenimiento de nefritis y EPID, a 2 a 3 g/día. Es teratogénico: suspender al menos 6 semanas antes de la concepción.",
+   "pagina": 45,
+   "clase": "reuma-09",
+   "claseTitulo": "9.9 Nefritis Lúpica y Compromiso Orgánico Mayor en LES: Clasificación, Biopsia y Terapia Inmunosupresora",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Prednisona": {
+   "termino": "Prednisona",
+   "tipo": "Farmaco",
+   "alias": [
+    "prednisona",
+    "metilprednisolona",
+    "glucocorticoides",
+    "corticoides"
+   ],
+   "def": "Glucocorticoide: en polimialgia reumática, 15 a 20 mg/día alivian en 24 a 72 horas. Contraindicada en fibromialgia.",
+   "pagina": 122,
+   "clase": "reuma-23",
+   "claseTitulo": "9.23 Fibromialgia y Polimialgia Reumática: Diagnóstico Diferencial, Reactantes de Fase Aguda y Manejo en APS",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-23&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 53
+  },
+  "IECA": {
+   "termino": "IECA",
+   "tipo": "Farmaco",
+   "alias": [
+    "IECA",
+    "captopril",
+    "enalapril"
+   ],
+   "def": "Captopril oral a dosis plenas (6.25-12.5 mg c/8h hasta 50 mg c/8h) es el tratamiento de elección en crisis renal esclerodérmica; no suspender si la creatinina sube levemente.",
+   "pagina": 62,
+   "clase": "reuma-12",
+   "claseTitulo": "9.12 Esclerosis Sistémica: Cutánea Difusa (Anti-Scl-70) vs Limitada / CREST (Anti-Centrómero) y Crisis Renal",
+   "diapositiva": 8,
+   "t": 383.9,
+   "mmss": "6:24",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-12&t=383&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-12&t=383",
+   "notas": 5
+  },
+  "Bifosfonatos": {
+   "termino": "Bifosfonatos",
+   "tipo": "Farmaco",
+   "alias": [
+    "bifosfonatos",
+    "alendronato",
+    "ácido zoledrónico"
+   ],
+   "def": "Alendronato 70 mg vía oral semanal, con ayuno estricto y bipedestación de 30 a 60 min; ácido zoledrónico 5 mg EV una vez al año. Contraindicados en estenosis esofágica o acalasia.",
+   "pagina": 125,
+   "clase": "reuma-24",
+   "claseTitulo": "9.24 Osteoporosis y Salud Ósea: Densitometría (T-score vs Z-score), Fracturas por Fragilidad, FRAX y Terapia Farmacológica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-24&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Denosumab": {
+   "termino": "Denosumab",
+   "tipo": "Farmaco",
+   "alias": [
+    "denosumab"
+   ],
+   "def": "Anticuerpo anti-RANKL, 60 mg subcutáneo cada 6 meses; puede usarse con VFG < 30 mL/min, pero nunca suspenderlo sin bifosfonato por riesgo de rebote.",
+   "pagina": 125,
+   "clase": "reuma-24",
+   "claseTitulo": "9.24 Osteoporosis y Salud Ósea: Densitometría (T-score vs Z-score), Fracturas por Fragilidad, FRAX y Terapia Farmacológica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-24&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Warfarina": {
+   "termino": "Warfarina",
+   "tipo": "Farmaco",
+   "alias": [
+    "warfarina",
+    "acenocumarol",
+    "anticoagulación oral"
+   ],
+   "def": "Anticoagulante cumarínico con INR 2.0 a 3.0 en trombosis venosa y SAF. Teratogénico (embriopatía entre las semanas 6 y 12); contraindicado en embarazo.",
+   "pagina": 58,
+   "clase": "reuma-11",
+   "claseTitulo": "9.11 Síndrome Antifosfolípido (SAF): Criterios de Sydney, Trombosis Vascular y Manejo Obstétrico",
+   "diapositiva": 14,
+   "t": 661.0,
+   "mmss": "11:01",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-11&t=660&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=reuma-11&t=660",
+   "notas": 4
+  },
+  "Ceftriaxona": {
+   "termino": "Ceftriaxona",
+   "tipo": "Farmaco",
+   "alias": [
+    "ceftriaxona"
+   ],
+   "def": "Tratamiento de elección de artritis gonocócica: 1 a 2 g EV al día, asociado a azitromicina 1 g oral para cubrir Chlamydia.",
+   "pagina": 98,
+   "clase": "reuma-19",
+   "claseTitulo": "9.19 Artritis Reactiva (Síndrome de Reiter): Tríada Clásica, Chlamydia y Tratamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Reumatolog%C3%ADa&clase=reuma-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_reumatologia",
+   "embed": null,
+   "notas": 5
+  }
+ }
+}

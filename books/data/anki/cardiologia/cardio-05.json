@@ -1,0 +1,532 @@
+{
+ "classId": "cardio-05",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la FA se anticoagula según el riesgo embólico ({{c1::CHA₂DS₂-VASc}}), no según los síntomas, la frecuencia ni el ritmo.",
+   "extra": "Una paciente asintomática con pulso irregular y factores de riesgo se anticoagula igual.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El trombo de la FA se forma sobre todo en la {{c1::orejuela}} de la aurícula izquierda.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Por qué se anticoagula",
+   "repaso": false,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En CHA₂DS₂-VASc, insuficiencia cardíaca, HTA, diabetes, enfermedad vascular y sexo femenino suman {{c1::1 punto}} cada uno.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · CHA₂DS₂-VASc",
+   "repaso": true,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En CHA₂DS₂-VASc, la edad ≥ 75 años suma {{c1::2 puntos}}; la edad 65-74 años suma {{c2::1 punto}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · CHA₂DS₂-VASc",
+   "repaso": true,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El ACV, AIT o tromboembolismo previo suma {{c1::2 puntos}} en el CHA₂DS₂-VASc.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · CHA₂DS₂-VASc",
+   "repaso": false,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se cuenta como insuficiencia cardíaca en el puntaje una FEVI ≤ {{c1::40%}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 CHA₂DS₂-VASc",
+   "repaso": false,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Anticoagulación obligatoria con CHA₂DS₂-VASc ≥ {{c1::2 en el hombre}} y ≥ {{c2::3 en la mujer}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · A quién se anticoagula",
+   "repaso": true,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se considera anticoagular con puntaje {{c1::1 en el hombre y 2 en la mujer}}, decidiendo con el paciente.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · A quién se anticoagula",
+   "repaso": false,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "No se anticoagula con puntaje {{c1::0 en el hombre y 1 en la mujer}}.",
+   "extra": "Anticoagular a un varón con 0 solo suma riesgo hemorrágico.",
+   "origen": "clase:4",
+   "fuente": "Clase · A quién se anticoagula",
+   "repaso": true,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Mujer de 78 años con FA y puntaje 4: la edad avanzada {{c1::no contraindica}} la anticoagulación; es un factor de riesgo.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · A quién se anticoagula",
+   "repaso": true,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La aspirina (sola o con clopidogrel) {{c1::no previene el ACV}} en la FA y sangra casi tanto como un anticoagulante.",
+   "extra": "Respuesta incorrecta clásica.",
+   "origen": "clase:4",
+   "fuente": "Clase · A quién se anticoagula",
+   "repaso": true,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras una cardioversión con retorno a ritmo sinusal la anticoagulación {{c1::se mantiene}}: el riesgo depende del puntaje.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Regla prohibida",
+   "repaso": false,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El puntaje CHA₂DS₂-VASc se recalcula {{c1::cada año}}.",
+   "extra": "El paciente suma puntos al envejecer o desarrollar HTA o diabetes.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Conducta",
+   "repaso": false,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En la FA no valvular, la primera línea de anticoagulación son los {{c1::ACOD}} (anticoagulantes orales directos).",
+   "extra": "Mitad de hemorragia intracraneal, sin control de INR ni ajuste por dieta.",
+   "origen": "clase:5",
+   "fuente": "Clase · ACOD",
+   "repaso": true,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Apixabán: {{c1::5 mg}} cada 12 horas.",
+   "extra": "Menor riesgo de sangrado; de elección en el adulto mayor.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de anticoagulantes",
+   "repaso": true,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El apixabán baja a 2,5 mg c/12 h si cumple {{c1::2 de 3}} criterios: edad ≥ 80 años, peso ≤ 60 kg o creatinina ≥ 1,5.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de anticoagulantes",
+   "repaso": true,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Rivaroxabán: {{c1::20 mg}} al día con la comida (15 mg si clearance de creatinina 15-50 mL/min).",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de anticoagulantes",
+   "repaso": false,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Dabigatrán: {{c1::150 mg}} cada 12 horas; se elimina por vía renal en un {{c2::80%}}.",
+   "extra": "Antídoto: idarucizumab.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de anticoagulantes",
+   "repaso": false,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Edoxabán: {{c1::60 mg}} al día.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · ACOD",
+   "repaso": false,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antes de indicar un ACOD se mide función renal, hemograma, función hepática y {{c1::peso}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Ajuste de dosis",
+   "repaso": false,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Los ACOD están contraindicados en la {{c1::estenosis mitral reumática moderada o grave}} y en las {{c2::prótesis valvulares mecánicas}}.",
+   "extra": "Más trombosis protésica y sangrado.",
+   "origen": "clase:6",
+   "fuente": "Clase · FA valvular",
+   "repaso": true,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En la FA valvular se usan antagonistas de vitamina K: {{c1::acenocumarol o warfarina}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · FA valvular",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 150"
+   ],
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Meta de INR en la estenosis mitral: {{c1::2,0 a 3,0}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · FA valvular",
+   "repaso": true,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Meta de INR en la prótesis mecánica mitral: {{c1::2,5 a 3,5}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · FA valvular",
+   "repaso": true,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Prótesis mecánica mitral con FA: el error es dar {{c1::apixabán o rivaroxabán}}.",
+   "extra": "Corresponde acenocumarol con INR 2,5-3,5.",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la IRC terminal con clearance bajo 15 mL/min se usa antagonista de vitamina K o {{c1::apixabán}}; no heparinas de bajo peso.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · FA valvular",
+   "repaso": false,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Con antagonistas de vitamina K, el tiempo en rango terapéutico debe ser mayor del {{c1::70%}}.",
+   "extra": "INR cada 4 semanas una vez estable.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Antagonistas de vitamina K",
+   "repaso": false,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Aumentan el efecto de acenocumarol y warfarina los antibióticos, la {{c1::amiodarona}}, el alopurinol y los azoles.",
+   "extra": "Lo disminuyen la rifampicina y la carbamazepina.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Interacciones",
+   "repaso": false,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El puntaje HAS-BLED sirve para {{c1::corregir factores de sangrado modificables}}, no para negar la anticoagulación.",
+   "extra": "HTA, AINE, antiagregantes, alcohol, INR lábil.",
+   "origen": "clase:7",
+   "fuente": "Clase · Sangrado e interacciones",
+   "repaso": true,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La oclusión percutánea de la orejuela izquierda es una opción si hay {{c1::contraindicación real y permanente}} a anticoagular.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Riesgo de sangrado",
+   "repaso": false,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Sangrado mayor con warfarina o acenocumarol: {{c1::vitamina K EV más concentrado de complejo protrombínico}} (o plasma fresco).",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Sangrado e interacciones",
+   "repaso": true,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "El antídoto del dabigatrán es el {{c1::idarucizumab}}; para apixabán o rivaroxabán, {{c2::andexanet alfa}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Sangrado e interacciones",
+   "repaso": true,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Antes de un procedimiento de alto riesgo el ACOD se suspende {{c1::24 a 72 horas}} antes, sin puente con heparina.",
+   "extra": "La warfarina se suspende 5 días antes.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Procedimientos",
+   "repaso": false,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tras una cardioversión se anticoagula al menos {{c1::4 semanas}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el embarazo con FA se usa {{c1::heparina de bajo peso molecular}}; ACOD y warfarina (1.er trimestre) contraindicados.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Embarazo",
+   "repaso": false,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En un ACV isquémico agudo con FA no se anticoagula de inmediato: se espera según el {{c1::tamaño del infarto}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Caso 6",
+   "repaso": false,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mujer de 76 años, HTA y diabética, FA asintomática (puntaje 5): se indica {{c1::ACOD permanente}} y se suspende la aspirina.",
+   "extra": "Apixabán 5 mg c/12 h: solo cumple un criterio de reducción (edad).",
+   "origen": "libro:caso",
+   "fuente": "Libro · Caso clínico",
+   "repaso": true,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Dar aspirina o doble antiagregación para prevenir el ACV en la FA es un {{c1::error clásico}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Errores frecuentes",
+   "repaso": false,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En cada control del paciente con ACOD se evalúa la adherencia: pierden su efecto en {{c1::24 horas}} si se omiten.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Seguimiento",
+   "repaso": false,
+   "codigos": [
+    "1.01.3.003"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Estenosis mitral o válvula mecánica con FA: ¿qué anticoagulante?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "Hombre ≥ 2 o mujer ≥ 3: ¿qué se indica?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.1",
+   "pista": "Hombre 0 o mujer 1: ¿se anticoagula?"
+  }
+ ]
+}

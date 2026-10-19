@@ -1,0 +1,505 @@
+{
+  "classId": "sp-09",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El error que se produce por variabilidad biológica y muestral, sin desviar el promedio, es el error {{c1::aleatorio}}.",
+      "extra": "Afecta la precisión, no la tendencia.",
+      "origen": "clase:1",
+      "fuente": "Clase · Error aleatorio vs sistemático",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El error aleatorio se reduce {{c1::aumentando el tamaño de la muestra}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Error aleatorio",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Un resultado es estadísticamente significativo cuando el valor p es {{c1::< 0,05}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Error aleatorio",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El error sistemático (sesgo) afecta la {{c1::validez interna}} del estudio.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Error sistemático",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El sesgo {{c1::NO}} se corrige aumentando el tamaño de la muestra.",
+      "extra": "El azar se arregla con más muestra; el sesgo, nunca.",
+      "origen": "clase:12",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El sesgo de Berkson (admisión hospitalaria) es un sesgo de {{c1::selección}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Sesgos",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El sesgo de Berkson aparece al elegir casos y controles solo entre pacientes {{c1::hospitalizados}}.",
+      "extra": "No representan a la comunidad general.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de sesgos",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El sesgo de Berkson se previene eligiendo controles de {{c1::base comunitaria o poblacional}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de sesgos",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cuando los trabajadores activos tienen menos morbilidad que la población general, hablamos del sesgo del {{c1::trabajador sano}}.",
+      "extra": "La población general incluye enfermos y jubilados.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Sesgos de selección",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El sesgo del voluntario ocurre porque quienes se ofrecen a participar suelen ser {{c1::más sanos}} que el promedio.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Sesgos de selección",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El sesgo de memoria (recall) es el sesgo clásico de los estudios de {{c1::casos y controles}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el sesgo de memoria, los {{c1::enfermos (casos)}} recuerdan mejor su exposición pasada que los sanos.",
+      "extra": "Por eso se sobreestima el riesgo.",
+      "origen": "libro:caso",
+      "fuente": "Libro · caso clínico",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El sesgo de memoria se previene usando {{c1::registros médicos históricos objetivos}} o cegando al paciente.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de sesgos",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cuando el evaluador indaga más la exposición porque sabe que el paciente está enfermo, es el sesgo del {{c1::entrevistador}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Sesgos de información",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El sesgo del entrevistador se controla con {{c1::enmascaramiento (cegamiento) riguroso del encuestador}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de sesgos",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si los pacientes con un factor de riesgo conocido reciben más exámenes y se les detecta más enfermedad, es el sesgo de {{c1::detección o vigilancia}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Sesgos de información",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.026"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 32"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pacientes con anticonceptivos orales fueron controlados tres veces más seguido y se detectó más hipertensión: sesgo de {{c1::vigilancia}}.",
+      "extra": "Se detecta más en el grupo más vigilado.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz EUNACOM Julio 2017",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.026"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 32"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los sesgos de memoria, entrevistador y vigilancia son sesgos de {{c1::información (o medición)}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Sesgos",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.026"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 170"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si las personas evaluadas olvidan las exposiciones en un estudio retrospectivo, se produce un sesgo de {{c1::información}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Sesgos de información",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.026"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 170"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El enmascaramiento (doble ciego) como medida en estudios epidemiológicos busca disminuir el sesgo de {{c1::información}}.",
+      "extra": "Cegar al evaluador y al paciente evita la medición sesgada.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de sesgos",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.026"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 75"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Validar y estandarizar las encuestas o cuestionarios previamente busca evitar el sesgo de {{c1::información}}.",
+      "extra": "Es un sesgo del instrumento de medición.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Sesgos de información",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.026"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 94",
+        "EUNACOM Diciembre 2017 · Pregunta 70"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una variable de confusión es un factor ajeno que {{c1::distorsiona}} la relación real entre exposición y enfermedad.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Confusión",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para ser confusor, la variable debe estar asociada a la {{c1::exposición}}.",
+      "extra": "Requisito 1 de 3.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Confusión",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para ser confusor, la variable debe ser un factor de riesgo {{c1::independiente}} para la enfermedad.",
+      "extra": "Requisito 2 de 3.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Confusión",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Una variable de confusión NO debe ser un {{c1::paso intermedio en la vía causal}} entre exposición y desenlace.",
+      "extra": "Requisito 3 de 3.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Confusión",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el ejemplo del café y el cáncer, la variable de confusión es el {{c1::tabaquismo}}.",
+      "extra": "Se asocia al café y es la causa real.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Confusión",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si al estratificar por la variable la asociación desaparece, esa variable es un factor de {{c1::confusión}}.",
+      "extra": "Prueba definitiva de confusión.",
+      "origen": "clase:4",
+      "fuente": "Clase · Diagrama confusión",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la fase de diseño, la confusión se controla con aleatorización, restricción y {{c1::emparejamiento (matching)}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Control de confusión",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La aleatorización equilibra confusores {{c1::conocidos y desconocidos}} en los ensayos clínicos.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Control de confusión",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la fase de análisis, la confusión se controla con análisis {{c1::estratificado (Mantel-Haenszel)}} o regresión multivariada.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Control de confusión",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "De los criterios de Bradford Hill, el único obligatorio (sine qua non) es la {{c1::temporalidad}}.",
+      "extra": "La causa debe preceder al efecto.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.026"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 68"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para establecer una asociación causal el requisito indispensable es la {{c1::secuencia temporal}}.",
+      "extra": "Si la causa no antecede al efecto, no puede ser la causa.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz EUNACOM Diciembre 2017",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.026"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 68"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fuerza de la asociación, dosis-respuesta, plausibilidad y consistencia son criterios de {{c1::apoyo}}, no obligatorios.",
+      "extra": "Su ausencia no descarta causalidad.",
+      "origen": "clase:5",
+      "fuente": "Clase · Criterios de Hill",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El criterio de Hill que dice que retirar la exposición reduce el desenlace es la {{c1::evidencia experimental (cesación de la exposición)}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Bradford Hill",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.026"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Erradicar H. pylori reduce la recidiva de la úlcera: argumento causal de {{c1::cesación de la exposición}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Bradford Hill",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.026"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 73"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Cambia aunque agregues muestra: ¿qué tipo de error es?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1.0",
+      "pista": "Al estratificar, la asociación desaparece: ¿qué es?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.1",
+      "pista": "Persiste en todos los estratos: ¿qué sigue?"
+    }
+  ]
+}

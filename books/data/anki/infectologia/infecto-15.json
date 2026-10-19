@@ -1,0 +1,669 @@
+{
+ "classId": "infecto-15",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La enfermedad de Chagas la causa el protozoo hemoflagelado {{c1::Trypanosoma cruzi}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Ciclo biológico",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La vinchuca domiciliaria (Triatoma infestans) fue declarada interrumpida en Chile en {{c1::1999}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · De la vinchuca a la placenta",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La vía de transmisión predominante hoy en Chile es la {{c1::congénita (transplacentaria)}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Vía de contagio más frecuente hoy: el error es responder {{c1::vinchuca domiciliaria}}.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La vinchuca silvestre Mepraia spinolai transmite en zonas rurales del {{c1::norte chico}} (Coquimbo, Valparaíso).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Ciclo biológico",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El insecto defeca al picar y el {{c1::rascado}} inocula el parásito en la herida o conjuntiva.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · De la vinchuca a la placenta",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "Tamizaje prenatal con serología {{c1::IgG}} a toda embarazada que resida o haya nacido de O'Higgins al norte.",
+   "extra": "Incluye extranjeras de zonas endémicas de Sudamérica.",
+   "origen": "clase:2",
+   "fuente": "Clase · Tamizaje prenatal",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Embarazada IgG positiva para Chagas: se trata {{c1::después del parto}} y se estudia al recién nacido.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Tamizaje prenatal",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Embarazada con Chagas: el error es dar {{c1::nifurtimox durante el embarazo}}.",
+   "extra": "Los antiparasitarios están contraindicados en la gestación.",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fase aguda del Chagas: habitualmente {{c1::asintomática}} en adultos.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Fases clínicas",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo de Romaña: edema {{c1::bipalpebral unilateral indoloro}} con adenopatía preauricular.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Fases clínicas",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En niños la fase aguda puede cursar con fiebre prolongada, hepatoesplenomegalia y {{c1::chagoma de inoculación}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Aguda, indeterminada y determinada",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fase crónica indeterminada: IgG positiva, {{c1::asintomático}} y ECG y radiografías normales.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Fases clínicas",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El {{c1::70 %}} de los infectados nunca progresa de la fase indeterminada.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Fases clínicas",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La fase crónica determinada (cardíaca o digestiva) afecta al {{c1::30 %}} de los infectados.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Fases clínicas",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cardiopatía chagásica: ECG con {{c1::BCRD + hemibloqueo anterior izquierdo}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La cardiopatía chagásica da arritmias ventriculares e {{c1::insuficiencia cardíaca}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · El corazón y los megas",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El megacolon y el megaesófago se deben a destrucción de los plexos de {{c1::Meissner y Auerbach}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Megacolon chagásico: constipación severa, fecalomas y {{c1::vólvulo de sigmoides}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · El corazón y los megas",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Megaesófago chagásico: disfagia progresiva y regurgitación, similar a la {{c1::acalasia}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · El corazón y los megas",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Megacolon + BCRD en paciente del norte: el diagnóstico es {{c1::Chagas crónico determinado}}, no Hirschsprung ni cáncer.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En fase aguda y en el recién nacido el diagnóstico es {{c1::parasitológico directo}} (microhematocrito, gota gruesa) o PCR.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Diagnóstico",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la fase crónica el diagnóstico es {{c1::serológico}}: dos técnicas IgG distintas (ELISA + IFI/HAI), confirmadas por el ISP.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el recién nacido de madre con Chagas, el error es pedir {{c1::IgG}}: refleja los anticuerpos maternos.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Adulto con sospecha de Chagas crónico: el error es {{c1::buscar el parásito en sangre}}; la parasitemia es indetectable.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "RN de madre con Chagas: {{c1::microhematocrito o PCR}} al nacer, aunque nazca sano.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · RN de madre con Chagas",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "RN con microhematocrito positivo: tratar de inmediato; la curación supera el {{c1::95 %}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · RN de madre con Chagas",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "RN con microhematocrito negativo: repetir a los {{c1::3 meses}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · RN de madre con Chagas",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se solicita IgG al lactante a los {{c1::9–12 meses}}, cuando ya desaparecieron los anticuerpos maternos.",
+   "extra": "",
+   "origen": "libro:caso",
+   "fuente": "Libro · Caso clínico",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Tratamiento del Chagas: {{c1::nifurtimox o benznidazol}} por 60 días.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Benznidazol: {{c1::5–7 mg/kg/día}} por 60 días.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Antiparasitarios",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Nifurtimox: {{c1::8–10 mg/kg/día}} por 60 días.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Antiparasitarios",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Indicación absoluta de antiparasitario: fase aguda y Chagas {{c1::congénito}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Antiparasitarios",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En fase indeterminada se trata a los menores de {{c1::50 años}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Antiparasitarios",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la cardiopatía chagásica el manejo es de la IC o {{c1::marcapasos}}; el parasiticida es discutido.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla de fases",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Miocardiopatía dilatada: FEVI < {{c1::40 %}}; causas incluyen alcohol, viral, periparto, antraciclinas y Chagas.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Miocardiopatías",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 54"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Disnea de esfuerzo, ortopnea y edema en un joven con corazón dilatado: {{c1::miocardiopatía dilatada}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Miocardiopatías",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 54"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Miocardiopatía hipertrófica: septo ≥ {{c1::15 mm}}, hereditaria.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Miocardiopatías",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 41",
+    "EUNACOM Julio 2013 · Pregunta 179"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Miocardiopatía hipertrófica: soplo sistólico que {{c1::aumenta con Valsalva}}, síncope de esfuerzo y muerte súbita.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Miocardiopatías",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 41",
+    "EUNACOM Julio 2013 · Pregunta 179",
+    "EUNACOM Julio 2019 · Pregunta 28"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un síncope en deportista joven con hermano fallecido súbitamente sugiere miocardiopatía {{c1::hipertrófica}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Miocardiopatías",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 41",
+    "EUNACOM Julio 2013 · Pregunta 179"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un síncope relacionado con el {{c1::ejercicio}} orienta a causa cardiogénica.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Miocardiopatías",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 28"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Miocardiopatía periparto: disnea progresiva en el puerperio; se incluye entre las causas de miocardiopatía {{c1::dilatada}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Miocardiopatías",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 3"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Miocardiopatía restrictiva (amiloidosis, hemocromatosis): insuficiencia cardíaca {{c1::derecha}} con ventrículos pequeños.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Miocardiopatías",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "El médico general inicia el manejo de la IC con IECA/ARA-II, {{c1::betabloqueador}}, espironolactona y diurético, y deriva.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Miocardiopatías",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-15/01_signo_romana__cdc.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Signo de Romaña (Chagas agudo)",
+   "clave": "Edema bipalpebral unilateral indoloro con adenopatía preauricular",
+   "conducta": "Parasitológico directo (microhematocrito/PCR) y nifurtimox o benznidazol por 60 días",
+   "fuente": "CDC",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-15/03_ecg_brd_hbai__ecg-basics_p119.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Cardiopatía chagásica (BCRD + HBAI)",
+   "clave": "Bloqueo completo de rama derecha con hemibloqueo anterior izquierdo",
+   "conducta": "Serología IgG, ecocardiograma; manejo de IC y marcapasos",
+   "fuente": "ECG from Basics to Essentials, p. 119",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-15/02_megaesofago_chagas__commons.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Megaesófago chagásico",
+   "clave": "Esófago dilatado, similar a acalasia",
+   "conducta": "Serología IgG + Rx baritada/TAC; cirugía de resección",
+   "fuente": "Wikimedia Commons",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "RN de madre con Chagas: ¿qué examen al nacer?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0.1",
+   "pista": "Microhematocrito negativo: ¿qué se hace?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.2",
+   "pista": "Adulto IgG (+): ¿qué se evalúa?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.2.0",
+   "pista": "Fase indeterminada: ¿se trata?"
+  }
+ ]
+}

@@ -1,0 +1,484 @@
+{
+ "classId": "trauma-08",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Meniscos y ligamentos no se ven en la radiografía: el estándar de oro es la {{c1::resonancia magnética}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Concepto",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Toda lesión de rodilla cursa con {{c1::dolor e impotencia funcional}}; cada síntoma orienta a una estructura.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Rodilla",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La lesión meniscal ocurre por {{c1::torsión brusca}} (giro con el pie fijo en el suelo).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Meniscos",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El síntoma típico de la lesión meniscal es el {{c1::bloqueo articular}}: la rodilla se queda trabada al caminar.",
+   "extra": "Dolor en la interlínea y sensación de inestabilidad.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Meniscos",
+   "repaso": true,
+   "imagen": "biblioteca/18_traumatologia/trauma-08/04_rm-menisco-medial-roto__ctmri-path_p484.jpg",
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la maniobra de {{c1::Apley}}, el talón apunta al menisco afectado: dolor a la rotación externa indica menisco interno.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Meniscos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Para el diagnóstico de lesión meniscal el examen de elección es la {{c1::RMN}}, no la radiografía.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Meniscos",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El síntoma cardinal de la lesión de los ligamentos cruzados es la {{c1::inestabilidad}} («siento que la rodilla se me va»).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cruzados",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El LCA se lesiona por hiperextensión o desaceleración brusca y da {{c1::cajón anterior}}.",
+   "extra": "Pregunta real: Lachman positivo y hemartros.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 LCA",
+   "repaso": true,
+   "imagen": "biblioteca/18_traumatologia/trauma-08/02_prueba-cajon-rodilla__bailey-love_p477.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 162"
+   ],
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La rotura del LCA es mucho más frecuente que la del LCP y en jóvenes y activos se trata con {{c1::reconstrucción artroscópica}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 LCA",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-08/03_rm-rodilla-lca-lcm-lcl__bailey-love_p487.jpg",
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El LCP se lesiona por hiperflexión o golpe directo anterior («golpe en tablero») y da {{c1::cajón posterior}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 LCP",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El LCP se trata inicialmente de forma {{c1::conservadora}}; se opera en deportistas.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 LCP",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El valgo forzado examina el colateral {{c1::medial}}; el varo forzado, el colateral lateral.",
+   "extra": "Dolor al valgo sin bostezo: esguince colateral medial leve.",
+   "origen": "clase:5",
+   "fuente": "Clase · Colaterales",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-08/01_ligamentos-colaterales-rodilla__bailey-love_p476.jpg",
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La disfunción patelofemoral da dolor {{c1::anterior}}, detrás de la rótula, al subir escaleras, trekking o estar sentado.",
+   "extra": "Sin bloqueo articular.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Patelofemoral",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El diagnóstico de la disfunción patelofemoral es eminentemente {{c1::clínico}}; no requiere RMN de entrada.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Patelofemoral",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El pilar del tratamiento patelofemoral es fortalecer el {{c1::cuádriceps}}, sobre todo el vasto medial.",
+   "extra": "Reposo relativo y AINE en fase aguda.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Patelofemoral",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La causa más frecuente de hemartrosis de rodilla es la rotura del {{c1::LCA}}.",
+   "extra": "También osteocondral, luxación de rótula y fracturas intraarticulares.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Hemartrosis",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El hematoma {{c1::prepatelar}} es una colección superficial delante de la rótula; la hemartrosis es sangre dentro de la articulación.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Hemartrosis",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un derrame que aparece a las 24-48 horas sugiere lesión {{c1::meniscal}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Hemartrosis",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La salida de {{c1::gotas de grasa}} al puncionar un derrame sugiere fractura.",
+   "extra": "La punción solo si el derrame es a tensión.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Hemartrosis",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-08/22_hemartrosis-gotas-de-grasa__sherman_p605.jpg",
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La {{c1::lipohemartrosis}} en la radiografía lateral con haz horizontal sugiere fractura intraarticular.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Hemartrosis",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-08/21_lipohemartrosis-rx__sherman_p605.jpg",
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Radiografía de rodilla según Ottawa: edad ≥ {{c1::55 años}}, dolor aislado de rótula o cabeza del peroné, o no flexiona {{c2::90°}} ni da 4 pasos.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Ottawa rodilla",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Esguince de rodilla que empeora a los 10 días con reacción perióstica en la radiografía de un adolescente: {{c1::osteosarcoma}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Trampas",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Gonalgia sin hallazgos en la rodilla: se examina la {{c1::cadera}}.",
+   "extra": "La patología de cadera da dolor de rodilla.",
+   "origen": "clase:8",
+   "fuente": "Clase · Trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Depresión suprarrotuliana tras caída, sin fractura: rotura del tendón del {{c1::cuádriceps}}.",
+   "extra": "El tendón rotuliano está bajo la rótula.",
+   "origen": "clase:16",
+   "fuente": "Clase · Quiz Jul 2019",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 8"
+   ],
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En fútbol y rugby se lesionan {{c1::LCA}} y meniscos; en corredores, banda iliotibial y fracturas por estrés.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Deporte",
+   "repaso": false,
+   "codigos": [
+    "1.11.3.003"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tríada de la mujer deportista: déficit energético, {{c1::amenorrea}} y osteoporosis.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Deporte",
+   "repaso": false,
+   "codigos": [
+    "1.11.3.003"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Riesgos sistémicos del deportista: muerte súbita, {{c1::golpe de calor}}, rabdomiólisis y conmoción cerebral.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Deporte",
+   "repaso": false,
+   "codigos": [
+    "1.11.3.003"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La evaluación previa a participar busca antecedentes familiares de muerte súbita, soplos y síncope {{c1::con el esfuerzo}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Deporte",
+   "repaso": false,
+   "codigos": [
+    "1.11.3.003"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Obeso con dolor en la cara externa de la cadera, claudicación y dolor a la palpación lateral: {{c1::bursitis trocantérica}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real bursitis",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 159",
+    "EUNACOM Diciembre 2022 · Pregunta 141"
+   ],
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-08/03_rm-rodilla-lca-lcm-lcl__bailey-love_p487.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Rotura de LCA y colaterales en RM",
+   "clave": "Roturas del cruzado anterior y de los colaterales en esquiador",
+   "conducta": "Cajón anterior e inestabilidad: reconstrucción artroscópica en joven activo",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 32.8",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 162"
+   ],
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-08/04_rm-menisco-medial-roto__ctmri-path_p484.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Rotura meniscal en RM",
+   "clave": "Rotura compleja del cuerno posterior del menisco medial",
+   "conducta": "Bloqueo articular: confirmar con RMN, no radiografía",
+   "fuente": "CT & MRI Pathology: A Pocket Atlas, p. 484",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-08/21_lipohemartrosis-rx__sherman_p605.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Lipohemartrosis de rodilla",
+   "clave": "Capa de grasa flotando sobre la sangre dentro de la articulación",
+   "conducta": "Sugiere fractura intraarticular; derivar",
+   "fuente": "Sherman, Atlas of Clinical Emergency Medicine, p. 605",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Bloqueo articular: ¿qué examen confirma?",
+   "codigos": [
+    "4.02.2.011",
+    "1.11.3.003"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "Cajón anterior positivo en joven activo: ¿conducta?",
+   "codigos": [
+    "4.02.2.011",
+    "1.11.3.003"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.1",
+   "pista": "Cajón posterior o golpe de tablero: ¿manejo inicial?",
+   "codigos": [
+    "4.02.2.011",
+    "1.11.3.003"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.2",
+   "pista": "Dolor anterior con escaleras: ¿diagnóstico y tratamiento?",
+   "codigos": [
+    "4.02.2.011",
+    "1.11.3.003"
+   ]
+  }
+ ]
+}

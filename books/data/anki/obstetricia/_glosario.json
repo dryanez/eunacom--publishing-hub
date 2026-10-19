@@ -1,0 +1,1710 @@
+{
+ "_doc": "Glosario clicable del mazo Anki (popover en el reverso). 'def' se escribe a mano desde el libro (sin cifras nuevas) y se conserva al regenerar; pagina/clase/t/url los recalcula conceptos.py. Términos y alias: books/scripts/anki/vocab_*.txt.",
+ "libro": "obstetricia",
+ "pdf": "books/dist/Modulo_3_Materno_Infantil/Tomo_19_Obstetricia_Completo_2026.pdf",
+ "terminos": {
+  "Control_prenatal": {
+   "termino": "Control prenatal",
+   "tipo": "Concepto",
+   "alias": [
+    "control prenatal",
+    "CPN"
+   ],
+   "def": "Debe ser precoz (idealmente antes de las 12 semanas), periódico, continuo e integral. En bajo riesgo: mensual hasta la semana 28, quincenal entre 28 y 36 y semanal desde la 36.",
+   "pagina": 5,
+   "clase": "ob-01",
+   "claseTitulo": "19.1 Control Prenatal de Bajo Riesgo: Calendario, Suplementación (Ácido Fólico, Calcio, Fierro) y Exámenes por Trimestre",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 2
+  },
+  "Fecha_probable_de_parto": {
+   "termino": "Fecha probable de parto",
+   "tipo": "Concepto",
+   "alias": [
+    "fecha probable de parto",
+    "FPP",
+    "regla de Naegele",
+    "Naegele"
+   ],
+   "def": "Regla de Naegele: primer día de la FUM + 7 días - 3 meses. Una vez fijada con la ecografía más precoz, no se cambia con ecografías posteriores.",
+   "pagina": 5,
+   "clase": "ob-01",
+   "claseTitulo": "19.1 Control Prenatal de Bajo Riesgo: Calendario, Suplementación (Ácido Fólico, Calcio, Fierro) y Exámenes por Trimestre",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 2
+  },
+  "Fecha_de_ultima_menstruacion": {
+   "termino": "Fecha de última menstruación",
+   "tipo": "Concepto",
+   "alias": [
+    "FUM"
+   ],
+   "def": "Base de la regla de Naegele. Si la diferencia entre la edad por FUM y la LCN de la ecografía del primer trimestre es mayor a 5-7 días, la edad gestacional se corrige por la ecografía.",
+   "pagina": 5,
+   "clase": "ob-01",
+   "claseTitulo": "19.1 Control Prenatal de Bajo Riesgo: Calendario, Suplementación (Ácido Fólico, Calcio, Fierro) y Exámenes por Trimestre",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 3
+  },
+  "Edad_gestacional": {
+   "termino": "Edad gestacional",
+   "tipo": "Concepto",
+   "alias": [
+    "edad gestacional",
+    "EG"
+   ],
+   "def": "Se calcula por FUM y se valida con la LCN de la ecografía del 1.er trimestre (7-14 semanas); si difieren más de 5-7 días, se corrige por la ecografía precoz.",
+   "pagina": 74,
+   "clase": "ob-14",
+   "claseTitulo": "19.14 Rotura Prematura de Membranas (RPM), Latencia, Profilaxis Antibiótica y Corioamnionitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 8
+  },
+  "Longitud_cefalo_nalgas": {
+   "termino": "Longitud céfalo-nalgas",
+   "tipo": "Concepto",
+   "alias": [
+    "longitud céfalo-nalgas",
+    "LCN"
+   ],
+   "def": "Medida ecográfica del primer trimestre, el método más preciso para fechar la gestación (error de 3-5 días). Se mide entre 45 y 84 mm en la ecografía de 11 a 13+6 semanas.",
+   "pagina": 8,
+   "clase": "ob-02",
+   "claseTitulo": "19.2 Ecografía Obstétrica: 11-14 Semanas (Aneuploidías y Doppler Uterino) & 20-24 Semanas (Morfológica y Cervicometría)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 7
+  },
+  "Acido_folico": {
+   "termino": "Ácido fólico",
+   "tipo": "Farmaco",
+   "alias": [
+    "ácido fólico"
+   ],
+   "def": "Prevención de defectos del tubo neural: 0.4 mg/día periconcepcional hasta las 12 semanas; en alto riesgo (hijo previo con DTN, anticonvulsivantes, diabetes pregestacional) 5 mg/día.",
+   "pagina": 5,
+   "clase": "ob-01",
+   "claseTitulo": "19.1 Control Prenatal de Bajo Riesgo: Calendario, Suplementación (Ácido Fólico, Calcio, Fierro) y Exámenes por Trimestre",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 6
+  },
+  "Carbonato_de_calcio": {
+   "termino": "Carbonato de calcio",
+   "tipo": "Farmaco",
+   "alias": [
+    "carbonato de calcio"
+   ],
+   "def": "Prevención de preeclampsia: 1.000-1.500 mg/día desde las 12-16 semanas hasta el parto. No tomarlo junto con el fierro oral.",
+   "pagina": 5,
+   "clase": "ob-01",
+   "claseTitulo": "19.1 Control Prenatal de Bajo Riesgo: Calendario, Suplementación (Ácido Fólico, Calcio, Fierro) y Exámenes por Trimestre",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 1
+  },
+  "Anemia_en_el_embarazo": {
+   "termino": "Anemia en el embarazo",
+   "tipo": "Concepto",
+   "alias": [
+    "anemia en el embarazo",
+    "anemia del embarazo"
+   ],
+   "def": "Se asocia a parto prematuro, bajo peso de nacimiento e infección puerperal. Fierro oral primero; EV si falla o hay intolerancia; transfusión con Hb menor de 7 g/dL con repercusión hemodinámica.",
+   "pagina": 5,
+   "clase": "ob-01",
+   "claseTitulo": "19.1 Control Prenatal de Bajo Riesgo: Calendario, Suplementación (Ácido Fólico, Calcio, Fierro) y Exámenes por Trimestre",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 2
+  },
+  "Translucencia_nucal": {
+   "termino": "Translucencia nucal",
+   "tipo": "Examen",
+   "alias": [
+    "translucencia nucal",
+    "TN"
+   ],
+   "def": "Espacio sonolúcido retrocervical fetal en la ecografía de 11-14 semanas; patológica si es ≥ 3.0 mm. Se asocia a trisomía 21, cardiopatías congénitas mayores y síndromes genéticos.",
+   "pagina": 8,
+   "clase": "ob-02",
+   "claseTitulo": "19.2 Ecografía Obstétrica: 11-14 Semanas (Aneuploidías y Doppler Uterino) & 20-24 Semanas (Morfológica y Cervicometría)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 7
+  },
+  "Sindrome_de_Down": {
+   "termino": "Síndrome de Down",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome de Down",
+    "trisomía 21"
+   ],
+   "def": "Trisomía 21. Su riesgo aumenta con translucencia nucal engrosada (≥ 3.0 mm) y ausencia de hueso nasal en la ecografía del primer trimestre.",
+   "pagina": 8,
+   "clase": "ob-02",
+   "claseTitulo": "19.2 Ecografía Obstétrica: 11-14 Semanas (Aneuploidías y Doppler Uterino) & 20-24 Semanas (Morfológica y Cervicometría)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 2
+  },
+  "Doppler_de_arterias_uterinas": {
+   "termino": "Doppler de arterias uterinas",
+   "tipo": "Examen",
+   "alias": [
+    "Doppler de arterias uterinas",
+    "arterias uterinas"
+   ],
+   "def": "Tamizaje de preeclampsia en la ecografía de 11-14 semanas. Índice de pulsatilidad sobre el percentil 95 indica alto riesgo de preeclampsia precoz y RCF; se indica aspirina 150 mg/noche.",
+   "pagina": 8,
+   "clase": "ob-02",
+   "claseTitulo": "19.2 Ecografía Obstétrica: 11-14 Semanas (Aneuploidías y Doppler Uterino) & 20-24 Semanas (Morfológica y Cervicometría)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 1
+  },
+  "Cervicometria": {
+   "termino": "Cervicometría",
+   "tipo": "Examen",
+   "alias": [
+    "cervicometría",
+    "longitud cervical"
+   ],
+   "def": "Medición transvaginal de la longitud cervical en la ecografía de 20-24 semanas. Cuello corto: menor a 25 mm antes de las 24 semanas; se indica progesterona vaginal.",
+   "pagina": 8,
+   "clase": "ob-02",
+   "claseTitulo": "19.2 Ecografía Obstétrica: 11-14 Semanas (Aneuploidías y Doppler Uterino) & 20-24 Semanas (Morfológica y Cervicometría)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 7
+  },
+  "Amniocentesis": {
+   "termino": "Amniocentesis",
+   "tipo": "Examen",
+   "alias": [
+    "amniocentesis"
+   ],
+   "def": "Estudio invasivo (cariotipo, PCR de infección fetal) desde las 15-16 semanas; riesgo de pérdida fetal atribuible 0,1-0,3%. La realiza el especialista; en Rh negativa, anti-D dentro de 72 horas.",
+   "pagina": 8,
+   "clase": "ob-02",
+   "claseTitulo": "19.2 Ecografía Obstétrica: 11-14 Semanas (Aneuploidías y Doppler Uterino) & 20-24 Semanas (Morfológica y Cervicometría)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 9
+  },
+  "Registro_basal_no_estresante": {
+   "termino": "Registro basal no estresante",
+   "tipo": "Examen",
+   "alias": [
+    "registro basal no estresante",
+    "RBNE",
+    "non-stress test"
+   ],
+   "def": "Evalúa la FCF en 20-40 minutos. Reactivo: dos o más aceleraciones (15 lpm x 15 seg) en 20 minutos, FCF basal 110-160 y variabilidad de 6-25 lpm. No reactivo: sin aceleraciones tras 40 minutos.",
+   "pagina": 12,
+   "clase": "ob-03",
+   "claseTitulo": "19.3 Evaluación del Bienestar Fetal: Registro Basal No Estresante (RBNE), Perfil Biofísico (Manning) y Doppler Fetal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 17
+  },
+  "Perfil_biofisico_fetal": {
+   "termino": "Perfil biofísico fetal",
+   "tipo": "Examen",
+   "alias": [
+    "perfil biofísico fetal",
+    "perfil biofísico",
+    "PBF",
+    "Manning"
+   ],
+   "def": "Score de Manning: evalúa 5 parámetros, cada uno con 2 puntos: RBNE, respiración, movimientos, tono y líquido amniótico.",
+   "pagina": 12,
+   "clase": "ob-03",
+   "claseTitulo": "19.3 Evaluación del Bienestar Fetal: Registro Basal No Estresante (RBNE), Perfil Biofísico (Manning) y Doppler Fetal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 13
+  },
+  "Frecuencia_cardiaca_fetal": {
+   "termino": "Frecuencia cardíaca fetal",
+   "tipo": "Concepto",
+   "alias": [
+    "frecuencia cardíaca fetal",
+    "FCF"
+   ],
+   "def": "Basal normal entre 110 y 160 latidos por minuto (taquicardia > 160; bradicardia < 110). Variabilidad moderada normal de 6 a 25 lpm, refleja oxigenación cerebral intacta.",
+   "pagina": 12,
+   "clase": "ob-03",
+   "claseTitulo": "19.3 Evaluación del Bienestar Fetal: Registro Basal No Estresante (RBNE), Perfil Biofísico (Manning) y Doppler Fetal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 10
+  },
+  "Aceleraciones": {
+   "termino": "Aceleraciones",
+   "tipo": "Signo",
+   "alias": [
+    "aceleraciones",
+    "aceleración transitoria"
+   ],
+   "def": "Aumento transitorio de la FCF de al menos 15 latidos por minuto sobre la basal, durante al menos 15 segundos (regla 15 x 15); en menores de 32 semanas se acepta 10 x 10.",
+   "pagina": 12,
+   "clase": "ob-03",
+   "claseTitulo": "19.3 Evaluación del Bienestar Fetal: Registro Basal No Estresante (RBNE), Perfil Biofísico (Manning) y Doppler Fetal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 5
+  },
+  "Desaceleraciones": {
+   "termino": "Desaceleraciones",
+   "tipo": "Signo",
+   "alias": [
+    "desaceleraciones",
+    "desaceleración"
+   ],
+   "def": "En un RBNE normal no deben existir. Intraparto, su tipo orienta la causa: tardías (DIP II) por hipoxia útero-placentaria; variables (DIP III) por compresión del cordón.",
+   "pagina": 88,
+   "clase": "ob-17",
+   "claseTitulo": "19.17 Distocias del Trabajo de Parto, Distocia de Hombros y Monitorización Intraparto (CTG FIGO)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 5
+  },
+  "Restriccion_del_crecimiento_fetal": {
+   "termino": "Restricción del crecimiento fetal",
+   "tipo": "Concepto",
+   "alias": [
+    "restricción del crecimiento fetal",
+    "restricción de crecimiento",
+    "RCF"
+   ],
+   "def": "Crecimiento fetal patológico, distinto del PEG constitucional. Se etapifica por Doppler: etapa I (umbilical > P95 o ACM < P5) parto a las 37 semanas; etapa II (diástole ausente) a las 34 semanas.",
+   "pagina": 15,
+   "clase": "ob-04",
+   "claseTitulo": "19.4 Restricción del Crecimiento Fetal (RCF): Fisiopatología, RCF Precoz vs Tardío y Velocimetría Doppler",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 22
+  },
+  "Pequeno_para_la_edad_gestacional": {
+   "termino": "Pequeño para la edad gestacional",
+   "tipo": "Concepto",
+   "alias": [
+    "pequeño para la edad gestacional",
+    "PEG"
+   ],
+   "def": "PEG constitucional: peso fetal estimado entre el percentil 3 y 10 con Doppler de arteria umbilical, cerebral media y uterinas normal, líquido amniótico normal. Pronóstico excelente.",
+   "pagina": 15,
+   "clase": "ob-04",
+   "claseTitulo": "19.4 Restricción del Crecimiento Fetal (RCF): Fisiopatología, RCF Precoz vs Tardío y Velocimetría Doppler",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 5
+  },
+  "Doppler_fetal": {
+   "termino": "Doppler fetal",
+   "tipo": "Examen",
+   "alias": [
+    "Doppler fetal",
+    "Doppler de arteria umbilical",
+    "arteria umbilical",
+    "ductus venoso"
+   ],
+   "def": "En la RCF define el momento del parto: diástole ausente en arteria umbilical, 34 semanas; flujo reverso, 30 semanas por cesárea; onda 'a' reversa en el ductus venoso, parto inmediato.",
+   "pagina": 15,
+   "clase": "ob-04",
+   "claseTitulo": "19.4 Restricción del Crecimiento Fetal (RCF): Fisiopatología, RCF Precoz vs Tardío y Velocimetría Doppler",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 13
+  },
+  "Preeclampsia": {
+   "termino": "Preeclampsia",
+   "tipo": "Concepto",
+   "alias": [
+    "preeclampsia"
+   ],
+   "def": "Hipertensión desde la semana 20 con proteinuria o disfunción de órgano. Se previene con carbonato de calcio (1.000-1.500 mg/día) y, si el Doppler uterino está alterado, aspirina 150 mg/noche.",
+   "pagina": 23,
+   "clase": "ob-05",
+   "claseTitulo": "19.5 Trastornos Hipertensivos del Embarazo: HTA Crónica, HTA Gestacional y Preeclampsia sin Criterios de Severidad",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 24
+  },
+  "Preeclampsia_severa": {
+   "termino": "Preeclampsia severa",
+   "tipo": "Concepto",
+   "alias": [
+    "preeclampsia severa",
+    "preeclampsia con criterios de severidad"
+   ],
+   "def": "Preeclampsia con al menos un criterio de severidad. Plaquetopenia, duplicación de transaminasas o creatinina elevada la definen aun sin proteinuria.",
+   "pagina": 26,
+   "clase": "ob-06",
+   "claseTitulo": "19.6 Emergencias Hipertensivas en el Embarazo: Preeclampsia Severa, Eclampsia, Síndrome HELLP y Sulfato de Magnesio",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 2
+  },
+  "Hipertension_cronica": {
+   "termino": "Hipertensión crónica",
+   "tipo": "Concepto",
+   "alias": [
+    "hipertensión crónica",
+    "HTA crónica"
+   ],
+   "def": "Hipertensión previa o anterior a la semana 20, que persiste más allá de 12 semanas postparto. Si después de la semana 20 aparece proteinuria, es preeclampsia sobreagregada.",
+   "pagina": 23,
+   "clase": "ob-05",
+   "claseTitulo": "19.5 Trastornos Hipertensivos del Embarazo: HTA Crónica, HTA Gestacional y Preeclampsia sin Criterios de Severidad",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 4
+  },
+  "Hipertension_gestacional": {
+   "termino": "Hipertensión gestacional",
+   "tipo": "Concepto",
+   "alias": [
+    "hipertensión gestacional",
+    "HTA gestacional"
+   ],
+   "def": "Hipertensión desde la semana 20, sin proteinuria ni disfunción de órgano blanco; se normaliza en las primeras 12 semanas postparto.",
+   "pagina": 23,
+   "clase": "ob-05",
+   "claseTitulo": "19.5 Trastornos Hipertensivos del Embarazo: HTA Crónica, HTA Gestacional y Preeclampsia sin Criterios de Severidad",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 2
+  },
+  "Eclampsia": {
+   "termino": "Eclampsia",
+   "tipo": "Concepto",
+   "alias": [
+    "eclampsia"
+   ],
+   "def": "Convulsiones tónico-clónicas y/o coma en una mujer con preeclampsia; anteparto (50%), intraparto (25%) o puerperio temprano (25%). Se trata con sulfato de magnesio e interrupción del embarazo.",
+   "pagina": 26,
+   "clase": "ob-06",
+   "claseTitulo": "19.6 Emergencias Hipertensivas en el Embarazo: Preeclampsia Severa, Eclampsia, Síndrome HELLP y Sulfato de Magnesio",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 6
+  },
+  "Sindrome_HELLP": {
+   "termino": "Síndrome HELLP",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome HELLP",
+    "HELLP"
+   ],
+   "def": "Hemólisis, enzimas hepáticas elevadas y plaquetas bajas (criterios de Tennessee). La interrupción del embarazo es la única cura definitiva, tras estabilizar con sulfato de magnesio.",
+   "pagina": 26,
+   "clase": "ob-06",
+   "claseTitulo": "19.6 Emergencias Hipertensivas en el Embarazo: Preeclampsia Severa, Eclampsia, Síndrome HELLP y Sulfato de Magnesio",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 10
+  },
+  "Sulfato_de_magnesio": {
+   "termino": "Sulfato de magnesio",
+   "tipo": "Farmaco",
+   "alias": [
+    "sulfato de magnesio"
+   ],
+   "def": "Previene y trata convulsiones: carga 4 a 5 g EV en 15 a 20 minutos, mantención 1 a 2 g/hora. Controlar reflejo rotuliano, FR ≥ 12 rpm y diuresis ≥ 30 mL/h.",
+   "pagina": 26,
+   "clase": "ob-06",
+   "claseTitulo": "19.6 Emergencias Hipertensivas en el Embarazo: Preeclampsia Severa, Eclampsia, Síndrome HELLP y Sulfato de Magnesio",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 11
+  },
+  "Labetalol": {
+   "termino": "Labetalol",
+   "tipo": "Farmaco",
+   "alias": [
+    "labetalol"
+   ],
+   "def": "Antihipertensivo de elección por su acción alfa y betabloqueadora: oral 100 a 400 mg cada 8 a 12 horas. EV en crisis: 20 mg en 2 minutos, luego 40 mg y 80 mg cada 10-20 min.",
+   "pagina": 26,
+   "clase": "ob-06",
+   "claseTitulo": "19.6 Emergencias Hipertensivas en el Embarazo: Preeclampsia Severa, Eclampsia, Síndrome HELLP y Sulfato de Magnesio",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 6
+  },
+  "Metildopa": {
+   "termino": "Metildopa",
+   "tipo": "Farmaco",
+   "alias": [
+    "metildopa"
+   ],
+   "def": "Antihipertensivo oral de acción central, seguro en el embarazo: 250 a 500 mg cada 8 horas (máximo 2 g/día); de inicio lento y efecto sedante.",
+   "pagina": 23,
+   "clase": "ob-05",
+   "claseTitulo": "19.5 Trastornos Hipertensivos del Embarazo: HTA Crónica, HTA Gestacional y Preeclampsia sin Criterios de Severidad",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 4
+  },
+  "Aspirina": {
+   "termino": "Aspirina",
+   "tipo": "Farmaco",
+   "alias": [
+    "aspirina",
+    "ácido acetilsalicílico"
+   ],
+   "def": "150 mg/día por la noche, iniciada antes de la semana 16 (idealmente entre 11 y 14) y suspendida a la semana 36 si el Doppler de uterinas está alterado. Reduce la preeclampsia pretérmino.",
+   "pagina": 8,
+   "clase": "ob-02",
+   "claseTitulo": "19.2 Ecografía Obstétrica: 11-14 Semanas (Aneuploidías y Doppler Uterino) & 20-24 Semanas (Morfológica y Cervicometría)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 5
+  },
+  "Diabetes_gestacional": {
+   "termino": "Diabetes gestacional",
+   "tipo": "Concepto",
+   "alias": [
+    "diabetes gestacional"
+   ],
+   "def": "Se diagnostica con PTGO 75 g a las 24-28 semanas si la glicemia a las 2 horas es ≥ 140 mg/dL. No aumenta las malformaciones mayores, que son propias de la diabetes pregestacional mal controlada.",
+   "pagina": 31,
+   "clase": "ob-07",
+   "claseTitulo": "19.7 Diabetes Gestacional y Pregestacional: Tamizaje PTGO 75g (24-28 sem), Metas Glucémicas e Insulinoterapia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 7
+  },
+  "Test_de_tolerancia_a_la_glucosa": {
+   "termino": "Test de tolerancia a la glucosa",
+   "tipo": "Examen",
+   "alias": [
+    "PTGO",
+    "test de tolerancia a la glucosa",
+    "sobrecarga de glucosa"
+   ],
+   "def": "PTGO con 75 g de glucosa, universal entre las semanas 24 y 28. Glicemia a las 2 horas ≥ 140 mg/dL es diagnóstica de diabetes gestacional.",
+   "pagina": 31,
+   "clase": "ob-07",
+   "claseTitulo": "19.7 Diabetes Gestacional y Pregestacional: Tamizaje PTGO 75g (24-28 sem), Metas Glucémicas e Insulinoterapia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 11
+  },
+  "Insulina": {
+   "termino": "Insulina",
+   "tipo": "Farmaco",
+   "alias": [
+    "insulina"
+   ],
+   "def": "Se indica si tras 1 a 2 semanas de dieta estricta más del 20% de los controles glucémicos superan las metas. El hiperinsulinismo fetal por la hiperglicemia materna produce macrosomía.",
+   "pagina": 31,
+   "clase": "ob-07",
+   "claseTitulo": "19.7 Diabetes Gestacional y Pregestacional: Tamizaje PTGO 75g (24-28 sem), Metas Glucémicas e Insulinoterapia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 7
+  },
+  "Macrosomia_fetal": {
+   "termino": "Macrosomía fetal",
+   "tipo": "Concepto",
+   "alias": [
+    "macrosomía fetal",
+    "macrosomía",
+    "feto macrosómico"
+   ],
+   "def": "Peso al nacer mayor de 4.000 g o sobre el percentil 90. Se asocia a diabetes y obesidad; el riesgo mayor es la distocia de hombros. En diabetes se programa la interrupción a las 38-39 semanas.",
+   "pagina": 31,
+   "clase": "ob-07",
+   "claseTitulo": "19.7 Diabetes Gestacional y Pregestacional: Tamizaje PTGO 75g (24-28 sem), Metas Glucémicas e Insulinoterapia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 7
+  },
+  "Colestasia_intrahepatica_del_embarazo": {
+   "termino": "Colestasia intrahepática del embarazo",
+   "tipo": "Concepto",
+   "alias": [
+    "colestasia intrahepática",
+    "CIE"
+   ],
+   "def": "Enfermedad hepática propia del embarazo; síntoma cardinal es el prurito palmoplantar nocturno sin exantema. Confirma el diagnóstico la elevación de ácidos biliares; ictericia en 10-15% de los casos.",
+   "pagina": 36,
+   "clase": "ob-08",
+   "claseTitulo": "19.8 Colestasia Intrahepática del Embarazo (CIE): Prurito Palmoplantar, Ácidos Biliares y Ácido Ursodesoxicólico",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 21
+  },
+  "Acido_ursodesoxicolico": {
+   "termino": "Ácido ursodesoxicólico",
+   "tipo": "Farmaco",
+   "alias": [
+    "ácido ursodesoxicólico"
+   ],
+   "def": "Fármaco de elección en la colestasia intrahepática del embarazo: 10 a 15 mg/kg/día por vía oral.",
+   "pagina": 36,
+   "clase": "ob-08",
+   "claseTitulo": "19.8 Colestasia Intrahepática del Embarazo (CIE): Prurito Palmoplantar, Ácidos Biliares y Ácido Ursodesoxicólico",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 1
+  },
+  "Acidos_biliares": {
+   "termino": "Ácidos biliares",
+   "tipo": "Examen",
+   "alias": [
+    "ácidos biliares",
+    "sales biliares"
+   ],
+   "def": "Ácidos biliares séricos totales: estándar de oro en la colestasia intrahepática. Leve a moderada: entre 10 y 39 umol/L.",
+   "pagina": 36,
+   "clase": "ob-08",
+   "claseTitulo": "19.8 Colestasia Intrahepática del Embarazo (CIE): Prurito Palmoplantar, Ácidos Biliares y Ácido Ursodesoxicólico",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 11
+  },
+  "Bacteriuria_asintomatica": {
+   "termino": "Bacteriuria asintomática",
+   "tipo": "Concepto",
+   "alias": [
+    "bacteriuria asintomática"
+   ],
+   "def": "Urocultivo ≥ 10⁵ UFC/mL sin síntomas. En la embarazada siempre se trata (cefadroxilo 500 mg cada 12 horas por 7 días), porque hasta 30 a 40% progresa a pielonefritis.",
+   "pagina": 39,
+   "clase": "ob-09",
+   "claseTitulo": "19.9 Infección del Tracto Urinario en el Embarazo: Bacteriuria Asintomática, Cistitis y Pielonefritis Aguda",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 5
+  },
+  "Pielonefritis_aguda": {
+   "termino": "Pielonefritis aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "pielonefritis aguda",
+    "pielonefritis"
+   ],
+   "def": "Fiebre alta, calofríos, dolor lumbar y puño percusión positiva. En el embarazo requiere hospitalización obligatoria: cefazolina o ceftriaxona EV por 14 días. Riesgo de sepsis, SDRA y parto prematuro.",
+   "pagina": 39,
+   "clase": "ob-09",
+   "claseTitulo": "19.9 Infección del Tracto Urinario en el Embarazo: Bacteriuria Asintomática, Cistitis y Pielonefritis Aguda",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 12
+  },
+  "Cistitis": {
+   "termino": "Cistitis",
+   "tipo": "Concepto",
+   "alias": [
+    "cistitis"
+   ],
+   "def": "Disuria, polaquiuria, urgencia y dolor suprapúbico sin fiebre. Tratamiento ambulatorio con cefadroxilo 500 mg cada 12 horas por 7 días.",
+   "pagina": 39,
+   "clase": "ob-09",
+   "claseTitulo": "19.9 Infección del Tracto Urinario en el Embarazo: Bacteriuria Asintomática, Cistitis y Pielonefritis Aguda",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 4
+  },
+  "Urocultivo": {
+   "termino": "Urocultivo",
+   "tipo": "Examen",
+   "alias": [
+    "urocultivo"
+   ],
+   "def": "Se pide al ingreso del control prenatal (antes de las 12 semanas) para pesquisar bacteriuria asintomática; ≥ 10⁵ UFC/mL sin síntomas indica tratar.",
+   "pagina": 39,
+   "clase": "ob-09",
+   "claseTitulo": "19.9 Infección del Tracto Urinario en el Embarazo: Bacteriuria Asintomática, Cistitis y Pielonefritis Aguda",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 4
+  },
+  "Aborto_espontaneo": {
+   "termino": "Aborto espontáneo",
+   "tipo": "Concepto",
+   "alias": [
+    "aborto espontáneo",
+    "aborto"
+   ],
+   "def": "Pérdida del embarazo antes de las 22 semanas o con feto menor de 500 g. Formas: amenaza, en evolución o inevitable, incompleto, retenido y séptico; se distinguen por sangrado, OCI y ecografía.",
+   "pagina": 50,
+   "clase": "ob-10",
+   "claseTitulo": "19.10 Aborto Espontáneo, Formas Clínicas, Aborto Séptico y Ley IVE 21.030",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 20
+  },
+  "Aborto_septico": {
+   "termino": "Aborto séptico",
+   "tipo": "Concepto",
+   "alias": [
+    "aborto séptico"
+   ],
+   "def": "Sobreinfección polimicrobiana con secreción fétida y fiebre. Requiere hospitalización, antibióticos triples EV y evacuación uterina en 2-4 horas.",
+   "pagina": 50,
+   "clase": "ob-10",
+   "claseTitulo": "19.10 Aborto Espontáneo, Formas Clínicas, Aborto Séptico y Ley IVE 21.030",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 6
+  },
+  "Amenaza_de_aborto": {
+   "termino": "Amenaza de aborto",
+   "tipo": "Concepto",
+   "alias": [
+    "amenaza de aborto"
+   ],
+   "def": "Sangrado escaso a moderado con dolor leve, OCI cerrado y embrión con LCF positivos en la ecografía transvaginal. Reposo relativo y descartar ITU o vaginitis.",
+   "pagina": 54,
+   "clase": "ob-10",
+   "claseTitulo": "19.10 Aborto Espontáneo, Formas Clínicas, Aborto Séptico y Ley IVE 21.030",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 3
+  },
+  "Aborto_retenido": {
+   "termino": "Aborto retenido",
+   "tipo": "Concepto",
+   "alias": [
+    "aborto retenido"
+   ],
+   "def": "Cese del desarrollo sin expulsión; OCI cerrado. Criterio ecográfico: LCN ≥ 7 mm sin LCF o saco ≥ 25 mm sin embrión. Misoprostol 800 mcg vaginal o AMEU.",
+   "pagina": 52,
+   "clase": "ob-10",
+   "claseTitulo": "19.10 Aborto Espontáneo, Formas Clínicas, Aborto Séptico y Ley IVE 21.030",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 5
+  },
+  "Aborto_incompleto": {
+   "termino": "Aborto incompleto",
+   "tipo": "Concepto",
+   "alias": [
+    "aborto incompleto"
+   ],
+   "def": "Expulsión parcial de productos de la concepción, con OCI abierto y restos ovulares en la ecografía. Evacuación uterina con AMEU o misoprostol 800 mcg.",
+   "pagina": 50,
+   "clase": "ob-10",
+   "claseTitulo": "19.10 Aborto Espontáneo, Formas Clínicas, Aborto Séptico y Ley IVE 21.030",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 3
+  },
+  "Ley_IVE": {
+   "termino": "Ley IVE",
+   "tipo": "Concepto",
+   "alias": [
+    "Ley IVE",
+    "ley 21.030",
+    "interrupción voluntaria del embarazo"
+   ],
+   "def": "Ley 21.030: el aborto es legal en tres causales: riesgo vital materno, inviabilidad fetal letal y violación. Fuera de ellas, el aborto es un delito en Chile.",
+   "pagina": 50,
+   "clase": "ob-10",
+   "claseTitulo": "19.10 Aborto Espontáneo, Formas Clínicas, Aborto Séptico y Ley IVE 21.030",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 2
+  },
+  "Misoprostol": {
+   "termino": "Misoprostol",
+   "tipo": "Farmaco",
+   "alias": [
+    "misoprostol"
+   ],
+   "def": "Análogo de PGE1. Dosis estándar 800 mcg vaginal o sublingual, repetible a las 24 horas; éxito mayor de 85-90%. Efectos esperables: dolor cólico y fiebre autolimitada.",
+   "pagina": 50,
+   "clase": "ob-10",
+   "claseTitulo": "19.10 Aborto Espontáneo, Formas Clínicas, Aborto Séptico y Ley IVE 21.030",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 13
+  },
+  "Embarazo_ectopico": {
+   "termino": "Embarazo ectópico",
+   "tipo": "Concepto",
+   "alias": [
+    "embarazo ectópico",
+    "ectópico"
+   ],
+   "def": "Factores de riesgo mayores: cirugía tubárica previa, ectópico previo, infección por Chlamydia o EIP previa. Ante β-hCG ≥ 1.500-2.000 UI/L con útero vacío se confirma el diagnóstico presuntivo.",
+   "pagina": 55,
+   "clase": "ob-11",
+   "claseTitulo": "19.11 Embarazo Ectópico: Localizaciones, Diagnóstico con β-hCG Cuantitativa, Manejo Médico (Metotrexato) vs Quirúrgico",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 21
+  },
+  "Beta_hCG": {
+   "termino": "Beta-hCG",
+   "tipo": "Examen",
+   "alias": [
+    "β-hCG",
+    "beta-hCG",
+    "hCG",
+    "gonadotropina coriónica"
+   ],
+   "def": "En el embarazo intrauterino normal se duplica cada 48 horas. En el ectópico sube lento, forma meseta o desciende. Zona discriminatoria 1.500-2.000 UI/L: debe verse saco gestacional intrauterino.",
+   "pagina": 55,
+   "clase": "ob-11",
+   "claseTitulo": "19.11 Embarazo Ectópico: Localizaciones, Diagnóstico con β-hCG Cuantitativa, Manejo Médico (Metotrexato) vs Quirúrgico",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 28
+  },
+  "Metotrexato": {
+   "termino": "Metotrexato",
+   "tipo": "Farmaco",
+   "alias": [
+    "metotrexato"
+   ],
+   "def": "Tratamiento médico del ectópico en paciente estable, con β-hCG < 5.000 UI/L, masa < 3.5 cm y sin actividad cardíaca. Contraindicado si hay inestabilidad, hemoperitoneo o LCF (+).",
+   "pagina": 55,
+   "clase": "ob-11",
+   "claseTitulo": "19.11 Embarazo Ectópico: Localizaciones, Diagnóstico con β-hCG Cuantitativa, Manejo Médico (Metotrexato) vs Quirúrgico",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 14
+  },
+  "Mola_hidatidiforme": {
+   "termino": "Mola hidatidiforme",
+   "tipo": "Concepto",
+   "alias": [
+    "mola hidatidiforme",
+    "mola completa",
+    "mola parcial",
+    "mola"
+   ],
+   "def": "Mola completa: diploide 100% paterno, sin embrión, imagen en tormenta de nieve, β-hCG > 100.000 UI/L y metrorragia del primer trimestre. Mola parcial: β-hCG normal o moderada, riesgo de NTG bajo.",
+   "pagina": 61,
+   "clase": "ob-12",
+   "claseTitulo": "19.12 Enfermedad Trofoblástica Gestacional: Mola Completa vs Parcial, Criterios de Neoplasia Trofoblástica Gestacional (NTG) y Seguimiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 22
+  },
+  "Neoplasia_trofoblastica_gestacional": {
+   "termino": "Neoplasia trofoblástica gestacional",
+   "tipo": "Concepto",
+   "alias": [
+    "neoplasia trofoblástica",
+    "NTG"
+   ],
+   "def": "Forma persistente o maligna de la enfermedad trofoblástica. Se diagnostica en el seguimiento postmolar según criterios FIGO; la mola completa evoluciona a NTG en 15 a 20%.",
+   "pagina": 61,
+   "clase": "ob-12",
+   "claseTitulo": "19.12 Enfermedad Trofoblástica Gestacional: Mola Completa vs Parcial, Criterios de Neoplasia Trofoblástica Gestacional (NTG) y Seguimiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 9
+  },
+  "Placenta_previa": {
+   "termino": "Placenta previa",
+   "tipo": "Concepto",
+   "alias": [
+    "placenta previa"
+   ],
+   "def": "Placenta que cubre el orificio cervical interno (oclusiva). Sobre una cicatriz de cesárea anterior aumenta el riesgo de acretismo. Es una de las causas de metrorragia de la segunda mitad.",
+   "pagina": 65,
+   "clase": "ob-13",
+   "claseTitulo": "19.13 Metrorragias de la Segunda Mitad del Embarazo: Placenta Previa, DPPNI, Rotura Uterina y Rotura de Vasa Previa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 12
+  },
+  "Desprendimiento_prematuro_de_placenta": {
+   "termino": "Desprendimiento prematuro de placenta",
+   "tipo": "Concepto",
+   "alias": [
+    "desprendimiento prematuro de placenta",
+    "DPPNI",
+    "abruptio placentae"
+   ],
+   "def": "Metrorragia oscura con coágulos, dolor intenso, hipertonía uterina en tabla y sufrimiento fetal precoz. El diagnóstico es clínico: una ecografía normal no lo descarta.",
+   "pagina": 65,
+   "clase": "ob-13",
+   "claseTitulo": "19.13 Metrorragias de la Segunda Mitad del Embarazo: Placenta Previa, DPPNI, Rotura Uterina y Rotura de Vasa Previa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 8
+  },
+  "Rotura_uterina": {
+   "termino": "Rotura uterina",
+   "tipo": "Concepto",
+   "alias": [
+    "rotura uterina"
+   ],
+   "def": "Factores de riesgo: cesárea anterior o miomectomía transmural, trabajo de parto prolongado u obstruido y uso excesivo de oxitocina o misoprostol. Una de las causas de metrorragia de la segunda mitad.",
+   "pagina": 65,
+   "clase": "ob-13",
+   "claseTitulo": "19.13 Metrorragias de la Segunda Mitad del Embarazo: Placenta Previa, DPPNI, Rotura Uterina y Rotura de Vasa Previa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 3
+  },
+  "Vasa_previa": {
+   "termino": "Vasa previa",
+   "tipo": "Concepto",
+   "alias": [
+    "vasa previa"
+   ],
+   "def": "Su rotura vierte sangre 100% fetal: shock hipovolémico y anemia aguda fetal en minutos. Requiere cesárea de emergencia; el test de Apt o Kleihauer-Betke detecta hemoglobina fetal.",
+   "pagina": 65,
+   "clase": "ob-13",
+   "claseTitulo": "19.13 Metrorragias de la Segunda Mitad del Embarazo: Placenta Previa, DPPNI, Rotura Uterina y Rotura de Vasa Previa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 7
+  },
+  "Rotura_prematura_de_membranas": {
+   "termino": "Rotura prematura de membranas",
+   "tipo": "Concepto",
+   "alias": [
+    "rotura prematura de membranas",
+    "RPM"
+   ],
+   "def": "Prohibido el tacto vaginal digital sin trabajo de parto activo: reduce a la mitad el tiempo de latencia. Antibióticos de latencia obligatorios; a partir de las 34 semanas se interrumpe.",
+   "pagina": 74,
+   "clase": "ob-14",
+   "claseTitulo": "19.14 Rotura Prematura de Membranas (RPM), Latencia, Profilaxis Antibiótica y Corioamnionitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 15
+  },
+  "Corioamnionitis": {
+   "termino": "Corioamnionitis",
+   "tipo": "Concepto",
+   "alias": [
+    "corioamnionitis"
+   ],
+   "def": "Infección ovular. Contraindicación formal y absoluta de conducta expectante, tocolisis o corticoides: se indica interrupción inmediata, preferentemente vaginal con oxitocina.",
+   "pagina": 74,
+   "clase": "ob-14",
+   "claseTitulo": "19.14 Rotura Prematura de Membranas (RPM), Latencia, Profilaxis Antibiótica y Corioamnionitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 9
+  },
+  "Periodo_de_latencia": {
+   "termino": "Período de latencia",
+   "tipo": "Concepto",
+   "alias": [
+    "período de latencia",
+    "latencia"
+   ],
+   "def": "Tiempo libre de parto tras la rotura de membranas. Los antibióticos de latencia (ampicilina + eritromicina EV por 48 horas) lo prolongan y reducen corioamnionitis y sepsis neonatal.",
+   "pagina": 74,
+   "clase": "ob-14",
+   "claseTitulo": "19.14 Rotura Prematura de Membranas (RPM), Latencia, Profilaxis Antibiótica y Corioamnionitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 6
+  },
+  "Azitromicina": {
+   "termino": "Azitromicina",
+   "tipo": "Farmaco",
+   "alias": [
+    "azitromicina"
+   ],
+   "def": "Se agrega a la profilaxis con cefazolina 2 g EV en la cesárea si hay trabajo de parto o rotura de membranas.",
+   "pagina": 69,
+   "clase": "ob-13",
+   "claseTitulo": "19.13 Metrorragias de la Segunda Mitad del Embarazo: Placenta Previa, DPPNI, Rotura Uterina y Rotura de Vasa Previa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 1
+  },
+  "Amenaza_de_parto_prematuro": {
+   "termino": "Amenaza de parto prematuro",
+   "tipo": "Concepto",
+   "alias": [
+    "amenaza de parto prematuro",
+    "APP"
+   ],
+   "def": "Contracciones dolorosas y frecuentes (≥ 1 cada 10 minutos o ≥ 4 en 20-30 minutos) con borramiento > 50% y dilatación de 1 a 3 cm, entre las 22 y 34 semanas.",
+   "pagina": 79,
+   "clase": "ob-15",
+   "claseTitulo": "19.15 Síndrome de Parto Prematuro: Amenaza de Parto Prematuro (APP), Tocolíticos, Maduración Pulmonar y Neuroprotección",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 4
+  },
+  "Parto_prematuro": {
+   "termino": "Parto prematuro",
+   "tipo": "Concepto",
+   "alias": [
+    "parto prematuro",
+    "parto de pretérmino"
+   ],
+   "def": "Factores de riesgo mayores: parto prematuro previo (riesgo por 2 a 4), embarazo múltiple, cuello corto en la ecografía de 20-24 semanas, polihidramnios e infecciones maternas.",
+   "pagina": 79,
+   "clase": "ob-15",
+   "claseTitulo": "19.15 Síndrome de Parto Prematuro: Amenaza de Parto Prematuro (APP), Tocolíticos, Maduración Pulmonar y Neuroprotección",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 11
+  },
+  "Tocoliticos": {
+   "termino": "Tocolíticos",
+   "tipo": "Farmaco",
+   "alias": [
+    "tocolíticos",
+    "tocolítico",
+    "tocolisis",
+    "nifedipino"
+   ],
+   "def": "Primera línea en Chile: nifedipino oral por un máximo de 48 horas, solo para permitir el efecto del corticoide. Contraindicados en corioamnionitis.",
+   "pagina": 79,
+   "clase": "ob-15",
+   "claseTitulo": "19.15 Síndrome de Parto Prematuro: Amenaza de Parto Prematuro (APP), Tocolíticos, Maduración Pulmonar y Neuroprotección",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 17
+  },
+  "Corticoides_antenatales": {
+   "termino": "Corticoides antenatales",
+   "tipo": "Farmaco",
+   "alias": [
+    "corticoides antenatales",
+    "betametasona",
+    "maduración pulmonar"
+   ],
+   "def": "Betametasona 12 mg IM cada 24 horas por 2 dosis (o dexametasona 6 mg IM cada 12 horas por 4 dosis) entre las 24 y 34 semanas, para prevenir distrés respiratorio y hemorragia intraventricular.",
+   "pagina": 79,
+   "clase": "ob-15",
+   "claseTitulo": "19.15 Síndrome de Parto Prematuro: Amenaza de Parto Prematuro (APP), Tocolíticos, Maduración Pulmonar y Neuroprotección",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 9
+  },
+  "Progesterona": {
+   "termino": "Progesterona",
+   "tipo": "Farmaco",
+   "alias": [
+    "progesterona"
+   ],
+   "def": "Progesterona natural micronizada vaginal 200 mg cada noche hasta la semana 36 en cuello corto asintomático (< 25 mm); reduce el parto prematuro espontáneo antes de las 34 semanas.",
+   "pagina": 8,
+   "clase": "ob-02",
+   "claseTitulo": "19.2 Ecografía Obstétrica: 11-14 Semanas (Aneuploidías y Doppler Uterino) & 20-24 Semanas (Morfológica y Cervicometría)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 11
+  },
+  "Neuroproteccion_fetal": {
+   "termino": "Neuroprotección fetal",
+   "tipo": "Concepto",
+   "alias": [
+    "neuroprotección"
+   ],
+   "def": "Sulfato de magnesio, obligatorio si el parto es inminente en gestaciones menores de 32 semanas (bolo de 4-5 g en 30 min, luego 1 g/h), para reducir la parálisis cerebral.",
+   "pagina": 79,
+   "clase": "ob-15",
+   "claseTitulo": "19.15 Síndrome de Parto Prematuro: Amenaza de Parto Prematuro (APP), Tocolíticos, Maduración Pulmonar y Neuroprotección",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 3
+  },
+  "Trabajo_de_parto": {
+   "termino": "Trabajo de parto",
+   "tipo": "Concepto",
+   "alias": [
+    "trabajo de parto"
+   ],
+   "def": "Primer período: borramiento y dilatación (fase activa desde 5 cm). Segundo: expulsivo, desde 10 cm. Tercero: alumbramiento. Cuarto: primeras 2 horas postparto, de máxima vigilancia.",
+   "pagina": 88,
+   "clase": "ob-17",
+   "claseTitulo": "19.17 Distocias del Trabajo de Parto, Distocia de Hombros y Monitorización Intraparto (CTG FIGO)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 14
+  },
+  "Score_de_Bishop": {
+   "termino": "Score de Bishop",
+   "tipo": "Concepto",
+   "alias": [
+    "Score de Bishop",
+    "Bishop"
+   ],
+   "def": "Evalúa dilatación, borramiento, altura de la presentación, consistencia y posición del cuello. Bishop > 6: cuello favorable, inducir con oxitocina; < 6: cuello inmaduro.",
+   "pagina": 85,
+   "clase": "ob-16",
+   "claseTitulo": "19.16 Trabajo de Parto Normal, Mecanismos del Parto en Cefálica, Score de Bishop y Manejo Activo del Alumbramiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 10
+  },
+  "Alumbramiento": {
+   "termino": "Alumbramiento",
+   "tipo": "Concepto",
+   "alias": [
+    "alumbramiento",
+    "manejo activo del alumbramiento"
+   ],
+   "def": "Tercer período: desde el nacimiento del feto hasta la expulsión de la placenta y membranas; normal < 30 minutos. Su manejo activo previene la hemorragia postparto inmediata.",
+   "pagina": 85,
+   "clase": "ob-16",
+   "claseTitulo": "19.16 Trabajo de Parto Normal, Mecanismos del Parto en Cefálica, Score de Bishop y Manejo Activo del Alumbramiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 5
+  },
+  "Oxitocina": {
+   "termino": "Oxitocina",
+   "tipo": "Farmaco",
+   "alias": [
+    "oxitocina"
+   ],
+   "def": "Se usa en la inducción con cuello favorable (Bishop > 6), en el alumbramiento dirigido y en la atonía uterina (junto a masaje bimanual y ácido tranexámico). Su exceso es factor de rotura uterina.",
+   "pagina": 85,
+   "clase": "ob-16",
+   "claseTitulo": "19.16 Trabajo de Parto Normal, Mecanismos del Parto en Cefálica, Score de Bishop y Manejo Activo del Alumbramiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 18
+  },
+  "Hemorragia_postparto": {
+   "termino": "Hemorragia postparto",
+   "tipo": "Concepto",
+   "alias": [
+    "hemorragia postparto",
+    "HPP",
+    "HPI",
+    "código rojo"
+   ],
+   "def": "Se clasifica por la regla de las 4T. Manejo inicial de la atonía: masaje uterino bimanual + oxitocina EV + ácido tranexámico 1 g EV en menos de 3 horas.",
+   "pagina": 94,
+   "clase": "ob-18",
+   "claseTitulo": "19.18 Hemorragia Postparto Inmediata (HPI), Código Rojo, Regla de las 4T y Algoritmo Terapéutico Escalonado",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 11
+  },
+  "Atonia_uterina": {
+   "termino": "Atonía uterina",
+   "tipo": "Concepto",
+   "alias": [
+    "atonía uterina",
+    "atonía"
+   ],
+   "def": "Causa de hemorragia postparto por TONO (70% de los casos): falla de contracción miometrial. Factores: sobredistensión uterina, trabajo de parto prolongado, corioamnionitis, multiparidad.",
+   "pagina": 94,
+   "clase": "ob-18",
+   "claseTitulo": "19.18 Hemorragia Postparto Inmediata (HPI), Código Rojo, Regla de las 4T y Algoritmo Terapéutico Escalonado",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 8
+  },
+  "Regla_de_las_4T": {
+   "termino": "Regla de las 4T",
+   "tipo": "Concepto",
+   "alias": [
+    "regla de las 4T",
+    "4T"
+   ],
+   "def": "Etiología de la hemorragia postparto: Tono (70%), Trauma (20%), Tejido (10%) y Trombina (1%).",
+   "pagina": 94,
+   "clase": "ob-18",
+   "claseTitulo": "19.18 Hemorragia Postparto Inmediata (HPI), Código Rojo, Regla de las 4T y Algoritmo Terapéutico Escalonado",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 1
+  },
+  "Acido_tranexamico": {
+   "termino": "Ácido tranexámico",
+   "tipo": "Farmaco",
+   "alias": [
+    "ácido tranexámico"
+   ],
+   "def": "Obligatorio en todos los casos de hemorragia postparto inmediata: 1 g EV dentro de las primeras 3 horas del inicio del sangrado. Reduce la mortalidad materna sin aumentar eventos trombóticos.",
+   "pagina": 94,
+   "clase": "ob-18",
+   "claseTitulo": "19.18 Hemorragia Postparto Inmediata (HPI), Código Rojo, Regla de las 4T y Algoritmo Terapéutico Escalonado",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 3
+  },
+  "Acretismo_placentario": {
+   "termino": "Acretismo placentario",
+   "tipo": "Concepto",
+   "alias": [
+    "acretismo placentario",
+    "acretismo"
+   ],
+   "def": "Adherencia anormal del trofoblasto al miometrio (acreta, increta, percreta). Clásico en placenta previa sobre cicatriz de cesárea; puede requerir histerectomía obstétrica de urgencia.",
+   "pagina": 65,
+   "clase": "ob-13",
+   "claseTitulo": "19.13 Metrorragias de la Segunda Mitad del Embarazo: Placenta Previa, DPPNI, Rotura Uterina y Rotura de Vasa Previa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 3
+  },
+  "Distocia_de_hombros": {
+   "termino": "Distocia de hombros",
+   "tipo": "Concepto",
+   "alias": [
+    "distocia de hombros"
+   ],
+   "def": "Emergencia intraparto anunciada por el signo de la tortuga. Factores: macrosomía, diabetes gestacional, obesidad, parto instrumental. Primera línea: McRoberts + presión suprapúbica.",
+   "pagina": 88,
+   "clase": "ob-17",
+   "claseTitulo": "19.17 Distocias del Trabajo de Parto, Distocia de Hombros y Monitorización Intraparto (CTG FIGO)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 8
+  },
+  "Signo_de_la_tortuga": {
+   "termino": "Signo de la tortuga",
+   "tipo": "Signo",
+   "alias": [
+    "signo de la tortuga"
+   ],
+   "def": "Signo patognomónico de la distocia de hombros: la cabeza fetal se desprende pero se retrae inmediatamente contra el periné materno.",
+   "pagina": 88,
+   "clase": "ob-17",
+   "claseTitulo": "19.17 Distocias del Trabajo de Parto, Distocia de Hombros y Monitorización Intraparto (CTG FIGO)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 1
+  },
+  "Maniobra_de_McRoberts": {
+   "termino": "Maniobra de McRoberts",
+   "tipo": "Concepto",
+   "alias": [
+    "McRoberts"
+   ],
+   "def": "Hiperflexión y abducción de los muslos sobre el abdomen; aplana la lordosis lumbar y rota la sínfisis púbica, desimpactando el hombro anterior. Primera línea junto a la presión suprapúbica.",
+   "pagina": 88,
+   "clase": "ob-17",
+   "claseTitulo": "19.17 Distocias del Trabajo de Parto, Distocia de Hombros y Monitorización Intraparto (CTG FIGO)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 3
+  },
+  "Desaceleraciones_tardias": {
+   "termino": "Desaceleraciones tardías",
+   "tipo": "Signo",
+   "alias": [
+    "desaceleraciones tardías",
+    "desaceleración tardía"
+   ],
+   "def": "DIP II: el nadir ocurre después del acmé de la contracción (desfase > 20 segundos). Por insuficiencia útero-placentaria e hipoxia fetal; sugieren acidosis fetal.",
+   "pagina": 88,
+   "clase": "ob-17",
+   "claseTitulo": "19.17 Distocias del Trabajo de Parto, Distocia de Hombros y Monitorización Intraparto (CTG FIGO)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 2
+  },
+  "Desaceleraciones_variables": {
+   "termino": "Desaceleraciones variables",
+   "tipo": "Signo",
+   "alias": [
+    "desaceleraciones variables",
+    "desaceleración variable"
+   ],
+   "def": "DIP III: descenso brusco en forma de V o W, sin relación fija con la contracción. Por compresión del cordón umbilical; descartar procúbito o prolapso.",
+   "pagina": 90,
+   "clase": "ob-17",
+   "claseTitulo": "19.17 Distocias del Trabajo de Parto, Distocia de Hombros y Monitorización Intraparto (CTG FIGO)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 2
+  },
+  "Aloinmunizacion_Rh": {
+   "termino": "Aloinmunización Rh",
+   "tipo": "Concepto",
+   "alias": [
+    "aloinmunización Rh",
+    "aloinmunización",
+    "isoinmunización"
+   ],
+   "def": "Madre Rh negativa que forma anticuerpos anti-D por exposición a eritrocitos fetales Rh positivos. Se previene con inmunoglobulina anti-D; se define por Coombs indirecto positivo.",
+   "pagina": 103,
+   "clase": "ob-20",
+   "claseTitulo": "19.20 Aloinmunización Rh e Incompatibilidad de Grupo Materno-Fetal: Profilaxis con Inmunoglobulina Anti-D y Manejo de la Gestante Sensibilizada",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 2
+  },
+  "Inmunoglobulina_anti_D": {
+   "termino": "Inmunoglobulina anti-D",
+   "tipo": "Farmaco",
+   "alias": [
+    "inmunoglobulina anti-D",
+    "anti-D",
+    "Rhogam"
+   ],
+   "def": "A toda Rh negativa no sensibilizada: 300 mcg IM a las 28 semanas y dentro de 72 horas tras aborto, ectópico, mola o procedimientos invasivos. Nunca si ya está sensibilizada.",
+   "pagina": 103,
+   "clase": "ob-20",
+   "claseTitulo": "19.20 Aloinmunización Rh e Incompatibilidad de Grupo Materno-Fetal: Profilaxis con Inmunoglobulina Anti-D y Manejo de la Gestante Sensibilizada",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 19
+  },
+  "Test_de_Coombs_indirecto": {
+   "termino": "Test de Coombs indirecto",
+   "tipo": "Examen",
+   "alias": [
+    "Coombs indirecto",
+    "test de Coombs"
+   ],
+   "def": "Se hace en el suero de la madre; detecta anticuerpos anti-D libres. Se solicita en el primer control a toda Rh negativa para saber si está sensibilizada.",
+   "pagina": 103,
+   "clase": "ob-20",
+   "claseTitulo": "19.20 Aloinmunización Rh e Incompatibilidad de Grupo Materno-Fetal: Profilaxis con Inmunoglobulina Anti-D y Manejo de la Gestante Sensibilizada",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 7
+  },
+  "Endometritis_puerperal": {
+   "termino": "Endometritis puerperal",
+   "tipo": "Concepto",
+   "alias": [
+    "endometritis puerperal",
+    "endometritis"
+   ],
+   "def": "Principal causa de morbilidad febril puerperal; debuta al 2.° a 4.° día. Factor de riesgo mayor: parto por cesárea, especialmente de urgencia.",
+   "pagina": 99,
+   "clase": "ob-19",
+   "claseTitulo": "19.19 Infecciones Puerperales: Endometritis Puerperal y Patología Mamaria (Mastitis Congestiva vs Infecciosa vs Absceso)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 11
+  },
+  "Mastitis": {
+   "termino": "Mastitis",
+   "tipo": "Concepto",
+   "alias": [
+    "mastitis",
+    "mastitis infecciosa",
+    "mastitis congestiva"
+   ],
+   "def": "Congestión mamaria: bilateral, sin fiebre ni eritema, se maneja con vaciamiento y calor. Mastitis infecciosa puerperal: unilateral; si no se trata a tiempo, evoluciona a absceso.",
+   "pagina": 99,
+   "clase": "ob-19",
+   "claseTitulo": "19.19 Infecciones Puerperales: Endometritis Puerperal y Patología Mamaria (Mastitis Congestiva vs Infecciosa vs Absceso)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 7
+  },
+  "Absceso_mamario": {
+   "termino": "Absceso mamario",
+   "tipo": "Concepto",
+   "alias": [
+    "absceso mamario",
+    "absceso de mama"
+   ],
+   "def": "Colección fluctuante comprobada por ecografía, complicación de una mastitis infecciosa no tratada o tardía. Requiere drenaje quirúrgico o punción.",
+   "pagina": 99,
+   "clase": "ob-19",
+   "claseTitulo": "19.19 Infecciones Puerperales: Endometritis Puerperal y Patología Mamaria (Mastitis Congestiva vs Infecciosa vs Absceso)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 6
+  },
+  "Cardiopatia_y_embarazo": {
+   "termino": "Cardiopatía y embarazo",
+   "tipo": "Concepto",
+   "alias": [
+    "cardiopatía",
+    "cardiopatías"
+   ],
+   "def": "El aumento de 40-50% del gasto cardíaco y la autotransfusión del postparto descompensan a quienes tienen estenosis valvular o hipertensión pulmonar. Hay lesiones que contraindican el embarazo.",
+   "pagina": 42,
+   "clase": "ob-21",
+   "claseTitulo": "19.21 Cardiopatía, Embarazo Múltiple e Hiperemesis Gravídica: Riesgo Materno, Corionicidad y Manejo Inicial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 3
+  },
+  "Embarazo_multiple": {
+   "termino": "Embarazo múltiple",
+   "tipo": "Concepto",
+   "alias": [
+    "embarazo múltiple",
+    "embarazo gemelar",
+    "gemelar"
+   ],
+   "def": "Sospecha: altura uterina mayor que la edad gestacional, dos polos fetales y dos focos de latidos; se confirma con ecografía. Complicaciones: parto prematuro, RCF, preeclampsia y atonía.",
+   "pagina": 42,
+   "clase": "ob-21",
+   "claseTitulo": "19.21 Cardiopatía, Embarazo Múltiple e Hiperemesis Gravídica: Riesgo Materno, Corionicidad y Manejo Inicial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 10
+  },
+  "Corionicidad": {
+   "termino": "Corionicidad",
+   "tipo": "Concepto",
+   "alias": [
+    "corionicidad",
+    "monocorial",
+    "bicorial"
+   ],
+   "def": "Lo más importante en el embarazo múltiple; se determina entre las 11 y 14 semanas. Signo lambda: bicorial; signo T: monocorial, con riesgo de transfusión feto-fetal.",
+   "pagina": 42,
+   "clase": "ob-21",
+   "claseTitulo": "19.21 Cardiopatía, Embarazo Múltiple e Hiperemesis Gravídica: Riesgo Materno, Corionicidad y Manejo Inicial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 12
+  },
+  "Sindrome_de_transfusion_feto_fetal": {
+   "termino": "Síndrome de transfusión feto-fetal",
+   "tipo": "Concepto",
+   "alias": [
+    "transfusión feto-fetal"
+   ],
+   "def": "Complicación de los gemelos monocoriales: donante con oligohidramnios y receptor con polihidramnios; tratamiento con láser fetoscópico.",
+   "pagina": 43,
+   "clase": "ob-21",
+   "claseTitulo": "19.21 Cardiopatía, Embarazo Múltiple e Hiperemesis Gravídica: Riesgo Materno, Corionicidad y Manejo Inicial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 3
+  },
+  "Hiperemesis_gravidica": {
+   "termino": "Hiperemesis gravídica",
+   "tipo": "Concepto",
+   "alias": [
+    "hiperemesis gravídica",
+    "hiperemesis"
+   ],
+   "def": "Forma grave de las náuseas del embarazo: vómitos incoercibles, pérdida de más de 5% del peso, deshidratación y cetonuria. Se hospitaliza e hidrata, con tiamina 100 mg EV para prevenir Wernicke.",
+   "pagina": 42,
+   "clase": "ob-21",
+   "claseTitulo": "19.21 Cardiopatía, Embarazo Múltiple e Hiperemesis Gravídica: Riesgo Materno, Corionicidad y Manejo Inicial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 7
+  },
+  "Doxilamina_piridoxina": {
+   "termino": "Doxilamina piridoxina",
+   "tipo": "Farmaco",
+   "alias": [
+    "doxilamina",
+    "piridoxina"
+   ],
+   "def": "Primera línea farmacológica de las náuseas y vómitos del embarazo, por vía oral.",
+   "pagina": 43,
+   "clase": "ob-21",
+   "claseTitulo": "19.21 Cardiopatía, Embarazo Múltiple e Hiperemesis Gravídica: Riesgo Materno, Corionicidad y Manejo Inicial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 2
+  },
+  "Estreptococo_grupo_B": {
+   "termino": "Estreptococo grupo B",
+   "tipo": "Concepto",
+   "alias": [
+    "estreptococo grupo B",
+    "Streptococcus agalactiae",
+    "SGB",
+    "EGB"
+   ],
+   "def": "Cultivo vaginorrectal a las 35-37 semanas. Si es positivo: penicilina G EV intraparto; el tratamiento previo al parto es ineficaz y la colonización no es indicación de cesárea.",
+   "pagina": 5,
+   "clase": "ob-01",
+   "claseTitulo": "19.1 Control Prenatal de Bajo Riesgo: Calendario, Suplementación (Ácido Fólico, Calcio, Fierro) y Exámenes por Trimestre",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Obstetricia&clase=ob-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_obstetricia",
+   "embed": null,
+   "notas": 6
+  }
+ }
+}

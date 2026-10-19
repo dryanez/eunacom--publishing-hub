@@ -1,0 +1,453 @@
+{
+  "classId": "neuro-21",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El delirium es una disfunción cerebral {{c1::aguda, difusa y fluctuante}}, no una patología psiquiátrica primaria.",
+      "extra": "Síntoma de descompensación sistémica.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.07.2.005"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Neurobiología del delirium: poca {{c1::acetilcolina}} y exceso de dopamina.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Por qué se confunde?",
+      "repaso": false,
+      "codigos": [
+        "1.07.2.005"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Predisponentes del delirium: edad > {{c1::75}} años, demencia, fragilidad y polifarmacia.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Por qué se confunde?",
+      "repaso": false,
+      "codigos": [
+        "1.07.2.005",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El diagnóstico de delirium es {{c1::clínico}}, con los criterios CAM; no requiere exámenes ni imágenes.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.07.2.005",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "CAM: los dos criterios obligatorios son inicio agudo y fluctuante, e {{c1::inatención}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Criterios CAM",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 172"
+      ],
+      "codigos": [
+        "1.07.2.005",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "CAM positivo = criterios 1 y 2 más {{c1::pensamiento desorganizado o conciencia alterada}} (3 o 4).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Criterios CAM",
+      "repaso": true,
+      "codigos": [
+        "1.07.2.005",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La inatención se pesquisa pidiendo deletrear {{c1::MUNDO}} al revés o los meses en orden inverso.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Criterios CAM",
+      "repaso": false,
+      "codigos": [
+        "1.07.2.005",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El subtipo más frecuente del delirium es el hipoactivo: {{c1::50 %}}; hiperactivo y mixto 25 % cada uno.",
+      "extra": "El más subdiagnosticado y el de peor pronóstico.",
+      "origen": "clase:2",
+      "fuente": "Clase · Criterios CAM",
+      "repaso": true,
+      "codigos": [
+        "1.07.2.005",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Delirium: la conciencia está {{c1::alterada}} y la atención afectada desde el inicio; en la demencia están conservadas.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Delirium, demencia o depresión",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 68",
+        "EUNACOM Julio 2016 · Pregunta 8"
+      ],
+      "codigos": [
+        "1.07.2.005",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Curso del delirium: fluctuante, {{c1::peor de noche}} (sundowning).",
+      "extra": "Demencia: estable y progresiva; depresión: peor en la mañana.",
+      "origen": "clase:3",
+      "fuente": "Clase · Delirium, demencia o depresión",
+      "repaso": false,
+      "codigos": [
+        "1.07.2.005",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Depresión del anciano: responde «{{c1::no sé}}», atención conservada, mejora si se insiste.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Delirium, demencia o depresión",
+      "repaso": false,
+      "codigos": [
+        "1.07.2.005"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Alucinaciones o ideas delirantes de inicio agudo en un anciano hospitalizado: {{c1::delirium}}, no esquizofrenia.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 139",
+        "EUNACOM Julio 2013 · Pregunta 168"
+      ],
+      "codigos": [
+        "1.07.2.005",
+        "1.07.3.002"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "I WATCH DEATH: los dos focos infecciosos más frecuentes de delirium son {{c1::urinario y neumonía}}.",
+      "extra": "Ningún delirium es idiopático.",
+      "origen": "clase:4",
+      "fuente": "Clase · I WATCH DEATH",
+      "repaso": true,
+      "codigos": [
+        "1.07.2.005",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa más prevenible de delirium son los {{c1::fármacos}}, sobre todo anticolinérgicos.",
+      "extra": "Clorfenamina, tricíclicos, pargeverina; también BZD, opioides.",
+      "origen": "clase:4",
+      "fuente": "Clase · I WATCH DEATH",
+      "repaso": false,
+      "codigos": [
+        "1.07.2.005",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Encefalopatía de Wernicke: confusión, oftalmoplejía y ataxia en alcohólico; se da {{c1::tiamina}} EV antes o con la glucosa.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Antes de dar psicofármacos al delirante, descartar {{c1::globo vesical y fecaloma}}.",
+      "extra": "Sonda Foley o evacuación lo resuelve en minutos.",
+      "origen": "clase:4",
+      "fuente": "Clase · I WATCH DEATH",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 119"
+      ],
+      "codigos": [
+        "1.07.2.005",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Delirium con masa hipogástrica mate: {{c1::sonda Foley}}; el error es dar antipsicótico o contener.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.07.2.005"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primera línea del delirium: medidas no farmacológicas del modelo {{c1::HELP}} (reorientar, lentes, audífonos, sueño).",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Medidas no farmacológicas",
+      "repaso": true,
+      "codigos": [
+        "1.07.2.005",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Las sujeciones mecánicas están {{c1::proscritas}} en delirium: agravan la agitación y perpetúan el cuadro.",
+      "extra": "Isquemia, asfixia, rabdomiolisis.",
+      "origen": "clase:5",
+      "fuente": "Clase · Medidas no farmacológicas",
+      "repaso": true,
+      "codigos": [
+        "1.07.2.005",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los antipsicóticos no previenen ni curan el delirium; se reservan para agitación {{c1::con riesgo}} para sí o terceros.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.07.2.005",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Haloperidol en delirium: {{c1::0,5 a 1 mg}} VO o IM, máximo 2 a 3 mg/día.",
+      "extra": "Controlar QTc.",
+      "origen": "clase:6",
+      "fuente": "Clase · ¿Con qué se seda?",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 138",
+        "EUNACOM Diciembre 2022 · Pregunta 96"
+      ],
+      "codigos": [
+        "1.07.2.005"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antipsicóticos atípicos alternativos: quetiapina 12,5 a 25 mg y risperidona {{c1::0,25 a 0,5 mg}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.07.2.005",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En delirium con Parkinson o Lewy el haloperidol está contraindicado; se usa {{c1::quetiapina}}.",
+      "extra": "Riesgo de parkinsonismo severo y síndrome neuroléptico maligno.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.07.2.005",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Las benzodiacepinas están contraindicadas en el delirium común; la excepción es la {{c1::abstinencia alcohólica}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.07.2.005",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Delirium tremens: {{c1::diazepam}} (benzodiacepina) más tiamina y corrección hidroelectrolítica.",
+      "extra": "Aparece 48–72 h tras dejar el alcohol.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz EUNACOM Jul 2025",
+      "repaso": false,
+      "codigos": [
+        "1.07.2.005",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El delirium es la complicación más frecuente del adulto mayor {{c1::hospitalizado}}, sobre todo tras fractura de cadera.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 130"
+      ],
+      "codigos": [
+        "1.07.3.002"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cerca de {{c1::un tercio}} de los ancianos sale de la hospitalización con declive funcional.",
+      "extra": "",
+      "origen": "libro:sec:6",
+      "fuente": "Libro §6 Complicaciones",
+      "repaso": false,
+      "codigos": [
+        "1.07.3.002"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Prevención del delirium hospitalario: movilización precoz y retirar {{c1::sondas y vías}} innecesarias.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Otras complicaciones",
+      "repaso": false,
+      "codigos": [
+        "1.07.3.002",
+        "1.07.2.005"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Alzheimer hospitalizado que se agita y no dice los días de la semana al revés: delirium sobreimpuesto; se trata la causa y {{c1::haloperidol}} en dosis baja.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz EUNACOM Jul 2024",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 131"
+      ],
+      "codigos": [
+        "1.07.2.005",
+        "1.07.3.002"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1.0",
+      "pista": "Delirium confirmado: ¿qué dos causas mecánicas buscas primero?",
+      "codigos": [
+        "1.07.2.005"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.1.0.1",
+      "pista": "Agitación con riesgo: ¿qué fármaco y cuál en Parkinson?",
+      "codigos": [
+        "1.07.2.005"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1.0.2",
+      "pista": "Abstinencia alcohólica con alucinaciones: ¿qué tratamiento?",
+      "codigos": [
+        "1.07.2.005"
+      ]
+    }
+  ]
+}

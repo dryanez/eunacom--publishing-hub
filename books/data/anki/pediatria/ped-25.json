@@ -1,0 +1,393 @@
+{
+  "classId": "ped-25",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Un niño sano menor de 5 años tiene {{c1::6 a 10}} infecciones respiratorias virales por año (más si va a sala cuna).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Normal vs alarma",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.014"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Infecciones leves, con recuperación completa y crecimiento normal en un niño de sala cuna: la conducta es {{c1::tranquilizar}}, sin estudio.",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.014"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las causas más frecuentes de infecciones recurrentes son {{c1::no inmunológicas}}: atopia, sala cuna, adenoides, reflujo, tabaquismo pasivo.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Infecciones recurrentes",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.014"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Signo de alarma (Jeffrey Modell): {{c1::8 o más}} otitis medias, o {{c2::2 o más}} neumonías, en un año.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Signos de alarma",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.014",
+        "2.01.1.056"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Signo de alarma de inmunodeficiencia: {{c1::2 o más}} sinusitis graves o infecciones profundas (meningitis, sepsis, osteomielitis) en un año.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Signos de alarma",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.014",
+        "2.01.1.056"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Otros signos de alarma: candidiasis persistente después del año, {{c1::falla de medro}}, antibióticos EV y antecedente familiar de muertes tempranas por infección.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Signos de alarma",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.014",
+        "2.01.1.056"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estudio inicial ante signos de alarma: hemograma con recuento absoluto, {{c1::IgG, IgA, IgM}}, test de VIH y Rx de tórax.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Estudio inicial",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.014",
+        "2.01.1.056"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si se sospecha un defecto celular no se indican {{c1::vacunas vivas}} (BCG, rotavirus).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Conducta",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.056"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los defectos humorales (linfocitos B) causan infecciones {{c1::piógenas sinopulmonares}} después de los {{c2::6 meses}}.",
+      "extra": "Cuando desaparece la IgG materna.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de inmunodeficiencias",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.056"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 12",
+        "EUNACOM Diciembre 2022 · Pregunta 136"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lactante con candidiasis oral, otitis a repetición y neumonías desde los 6 meses: inmunodeficiencia {{c1::humoral}}.",
+      "extra": "La candidiasis sola no basta para sospechar un defecto celular.",
+      "origen": "libro:caso",
+      "fuente": "Libro · Caso clínico",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.056"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 12",
+        "EUNACOM Diciembre 2022 · Pregunta 136"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Bruton: varón, sin amígdalas, IgG, IgA e IgM muy bajas y linfocitos B ({{c1::CD19}}) ausentes.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Humorales",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.056"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El déficit selectivo de {{c1::IgA}} es la inmunodeficiencia primaria más frecuente, con riesgo de anafilaxia con transfusiones.",
+      "extra": "Se asocia a celiaquía y atopia.",
+      "origen": "clase:3",
+      "fuente": "Clase · Humorales",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.056"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El SCID aparece antes de los {{c1::6 meses}}, sin timo en la Rx; es una urgencia (trasplante de médula).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Celulares",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.056"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "DiGeorge (microdeleción {{c1::22q11}}): cardiopatía, hipocalcemia, timo hipoplásico; los hemoderivados deben ser irradiados.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Celulares",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.056"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Wiskott-Aldrich: {{c1::plaquetas pequeñas}}, eccema e infecciones.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Wiskott-Aldrich",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.056"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-25/01_eccema-wiskott-aldrich__fitzpatrick_p1396.jpg"
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La enfermedad granulomatosa crónica da abscesos por gérmenes {{c1::catalasa positivos}}; se diagnostica con dihidrorrodamina o NBT.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Fagocitos",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.056"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hígado normal: se palpa {{c1::1 a 2 cm}} bajo el reborde costal en el lactante y hasta {{c2::1 cm}} en el escolar.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Hepatomegalia",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.044"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En asma o bronquiolitis, un hígado palpable puede ser {{c1::ptosis por hiperinsuflación}}; se mide por percusión.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Hepatomegalia",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.044"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hepatomegalia aislada con hipoglicemia de ayuno corto y facies de muñeca: {{c1::glucogenosis tipo I}}.",
+      "extra": "Déficit de glucosa-6-fosfatasa: acidosis láctica, hipertrigliceridemia e hiperuricemia.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Hepatomegalia",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.044"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hepatomegalia con ictericia o colestasia: pensar en {{c1::atresia de vías biliares}} o hepatitis.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Hepatomegalia",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.044"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Límite inferior de hemoglobina de los 6 meses a los 5 años: {{c1::11 g/dL}}; 5-11 años {{c2::11,5}}; adolescentes {{c3::12}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Hemograma",
+      "repaso": true,
+      "codigos": [
+        "2.01.4.015"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El nadir fisiológico de hemoglobina a los {{c1::2 a 3 meses}} es normal y no requiere hierro.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz anemia fisiológica",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.015"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Plaquetas normales a cualquier edad: {{c1::150.000 a 450.000/mm³}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Hemograma",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.015"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el lactante predominan los {{c1::linfocitos}} hasta los 4-6 años; un lactante con 60% de linfocitos es normal.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Hemograma",
+      "repaso": true,
+      "codigos": [
+        "2.01.4.015"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Infección bacteriana en el hemograma: leucocitosis {{c1::> 15.000}}, neutrofilia y baciliformes {{c2::> 10%}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Interpretación",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.015"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Eosinofilia: más de {{c1::500/mm³}} (atopia y parasitosis).",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Interpretación",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.015"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-25/01_eccema-wiskott-aldrich__fitzpatrick_p1396.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Eccema en síndrome de Wiskott-Aldrich",
+      "clave": "Eccema con costras y excoriaciones en las manos",
+      "conducta": "Pensar en trombocitopenia con plaquetas pequeñas e infecciones; derivar a inmunología",
+      "fuente": "Fitzpatrick Dermatology, Fig. 144-7",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.056"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.1",
+      "pista": "Signos de alarma de inmunodeficiencia: ¿qué estudio inicial?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.2.0",
+      "pista": "Hepatomegalia persistente o con hipoglicemia: ¿qué haces?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.3.0",
+      "pista": "Lactante con linfocitos predominantes, sin blastos: ¿qué es?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.3.1",
+      "pista": "Blastos, pancitopenia o dolor óseo: ¿qué sospechas?"
+    }
+  ]
+}

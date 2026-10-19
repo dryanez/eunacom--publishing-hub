@@ -1,0 +1,530 @@
+{
+ "classId": "oftal-03",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Orzuelo: infección aguda y {{c1::dolorosa}} de glándulas palpebrales por Staphylococcus aureus.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Orzuelo",
+   "repaso": true,
+   "imagen": "biblioteca/12_oftalmologia/oftal-03/01_orzuelo__amir-oftalmo_p57.jpg",
+   "codigos": [
+    "6.02.1.019",
+    "6.02.1.004"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Orzuelo externo: absceso de las glándulas de {{c1::Zeiss o Moll}} en la base de una pestaña.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Orzuelo externo",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.019",
+    "6.02.1.004"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Orzuelo interno: infección aguda de una glándula de {{c1::Meibomio}} dentro del tarso.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Orzuelo interno",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.019",
+    "6.02.1.004"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Orzuelo: compresas tibias {{c1::3 a 4 veces}} al día más ungüento antibiótico; no se punciona precozmente.",
+   "extra": "Nódulo doloroso en la base de una pestaña.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.019",
+    "6.02.1.004"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Chalazión: inflamación granulomatosa lipídica crónica e {{c1::indolora}} por obstrucción de una glándula de Meibomio.",
+   "extra": "Nódulo palpebral de 6 semanas, firme e indoloro.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Chalazión",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-03/01_chalazion__kanski_p16.jpg",
+   "codigos": [
+    "6.02.1.019",
+    "6.02.1.004"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Chalazión: calor y masaje; si persiste más de {{c1::2 meses}} o causa astigmatismo, curetaje o triamcinolona intralesional.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Chalazión",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.019",
+    "6.02.1.004"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Un «chalazión» recurrente en el mismo sitio de un adulto mayor: sospechar {{c1::carcinoma sebáceo}}.",
+   "extra": "Simula blefaritis crónica unilateral.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Chalazión atípico",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.028"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Blefaritis: inflamación crónica bilateral del borde palpebral, asociada a dermatitis seborreica y {{c1::rosácea}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Blefaritis",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-03/02_blefaritis__amir-oftalmo_p57.jpg",
+   "codigos": [
+    "6.02.1.002"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Blefaritis anterior: escamas grasosas seborreicas o {{c1::collaretes}} estafilocócicos en la base de las pestañas.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Blefaritis anterior",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.002"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Blefaritis posterior: disfunción de las glándulas de {{c1::Meibomio}}; secreción espesa «como pasta dental» y ojo seco evaporativo.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Blefaritis posterior",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.002"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pilar del tratamiento: higiene palpebral diaria con {{c1::champú neutro}} diluido, tras compresas calientes.",
+   "extra": "Hombre con rosácea y escamas: higiene y lágrimas artificiales.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.002"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Doxiciclina oral {{c1::100 mg}}/día por 4 a 6 semanas en casos moderados o con rosácea.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Doxiciclina",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.002"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dacriocistitis aguda: infección del saco lagrimal por obstrucción nasolagrimal; S. aureus y {{c1::S. pneumoniae}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Dacriocistitis",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-03/03_dacriocistitis__amir-oftalmo_p53.jpg",
+   "codigos": [
+    "6.02.1.009",
+    "6.02.1.018"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Clínica: masa roja, dolorosa y caliente en el {{c1::canto interno}} (inferomedial), epífora y reflujo de pus al comprimir el saco.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Dacriocistitis",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-03/03_dacriocistitis_alt1__cto-oftalmo_p30.jpg",
+   "codigos": [
+    "6.02.1.009",
+    "6.02.1.018"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dacriocistitis aguda: antibióticos orales (amoxicilina-clavulánico o {{c1::cefadroxilo}}), calor local y analgesia.",
+   "extra": "Paciente con obstrucción crónica en espera de cirugía que se agudiza.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 106"
+   ],
+   "codigos": [
+    "6.02.1.009",
+    "6.02.1.018"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la fase aguda está prohibido el {{c1::sondaje}} de la vía lagrimal: puede diseminar a celulitis orbitaria.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Sondaje",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.009",
+    "6.02.1.018"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento definitivo tras resolver el cuadro agudo: {{c1::dacriocistorrinostomía}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Definitivo",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.009",
+    "6.02.1.018"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tumor maligno palpebral más frecuente (más del 90%): {{c1::carcinoma basocelular}}, sobre todo en párpado inferior y canto interno.",
+   "extra": "Adulto con lesión pruriginosa en el párpado inferior; paciente de 70 años con nódulo perlado y ulceración.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Basocelular",
+   "repaso": true,
+   "imagen": "biblioteca/12_oftalmologia/oftal-03/56_carcinoma-basocelular-parpado__kanski_p28.jpg",
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 112",
+    "EUNACOM Diciembre 2022 · Pregunta 176"
+   ],
+   "codigos": [
+    "6.02.1.028"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Basocelular: nódulo perlado con telangiectasias o «úlcera {{c1::rodente}}», con madarosis; casi no metastiza.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Basocelular",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.028"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signos de malignidad: madarosis, distorsión del margen, {{c1::ulceración}} persistente, sangrado y crecimiento progresivo.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Alarma",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.028"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tumor palpebral sospechoso: no cauterizar; fotografiar y derivar para biopsia y exéresis con control de márgenes ({{c1::Mohs}}).",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Conducta",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.028"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tumores benignos de conjuntiva: nevo, papiloma (vasos «en penacho», por {{c1::VPH}}) y quiste de inclusión.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Conjuntiva",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-03/57_papiloma-conjuntival__kanski_p482.jpg",
+   "codigos": [
+    "6.02.1.025"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Malignos de conjuntiva: neoplasia escamosa, melanoma y linfoma en «{{c1::carne de salmón}}».",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Conjuntiva",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.025"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tumor conjuntival: evertir el párpado, fotografiar y derivar; {{c1::nunca}} se extirpa en APS.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Conducta",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.025"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Dacrioestenosis congénita: falta de apertura de la válvula de {{c1::Hasner}}, en 6 a 20% de los recién nacidos.",
+   "extra": "Lactante de 4 meses con epífora y reflujo al comprimir el saco: atresia lagrimal congénita.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Congénita",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 60"
+   ],
+   "codigos": [
+    "6.02.1.018"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento inicial: masaje de {{c1::Crigler}}, 2 a 3 veces al día; el 90% se abre antes del año.",
+   "extra": "Si persiste, sondaje por oftalmología.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Crigler",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.018"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Obstrucción adquirida del adulto: involución del conducto en mujeres mayores; evitar sondaje a ciegas y {{c1::antibióticos tópicos}} crónicos.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Adquirida",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.018"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Triquiasis: pestañas de la hilera normal dirigidas al globo; distiquiasis: {{c1::segunda hilera}} desde los orificios de Meibomio.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Pestañas",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.008"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pestañas aberrantes: lubricar, epilar con pinza como medida temporal y derivar para {{c1::electrólisis}}, crioterapia, láser o cirugía.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Pestañas",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.008"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Niña de 12 años con molestias y una lesión herpética periocular: {{c1::aciclovir}}.",
+   "extra": "Fuera del texto del tema; ver queratitis herpética.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Periocular",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 163"
+   ],
+   "codigos": [
+    "6.02.1.002"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-03/01_orzuelo__amir-oftalmo_p57.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Orzuelo",
+   "clave": "Nódulo rojo y doloroso en el borde palpebral",
+   "conducta": "Compresas tibias y ungüento antibiótico",
+   "fuente": "Manual AMIR Oftalmología, p. 57",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.019",
+    "6.02.1.004"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-03/01_chalazion__kanski_p16.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Chalazión",
+   "clave": "Nódulo firme e indoloro en el espesor del párpado",
+   "conducta": "Calor; curetaje si pasa de 2 meses",
+   "fuente": "Kanski's Clinical Ophthalmology, 8.ª ed., p. 16",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.019",
+    "6.02.1.004"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-03/03_dacriocistitis__amir-oftalmo_p53.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Dacriocistitis aguda",
+   "clave": "Tumefacción roja en el canto interno",
+   "conducta": "Antibiótico oral; no sondar",
+   "fuente": "Manual AMIR Oftalmología, p. 53",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 106"
+   ],
+   "codigos": [
+    "6.02.1.019",
+    "6.02.1.004"
+   ]
+  },
+  {
+   "id": "i04",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-03/56_carcinoma-basocelular-parpado__kanski_p28.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Basocelular palpebral",
+   "clave": "Nódulo perlado con ulceración central en párpado inferior",
+   "conducta": "Derivar para biopsia y exéresis con márgenes",
+   "fuente": "Kanski's Clinical Ophthalmology, 8.ª ed., p. 28",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.028"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Nódulo agudo, rojo y doloroso en el párpado: ¿tratamiento?",
+   "codigos": [
+    "6.02.1.019",
+    "6.02.1.004"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1",
+   "pista": "Nódulo crónico indoloro en el tarso: ¿conducta?",
+   "codigos": [
+    "6.02.1.019",
+    "6.02.1.004"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.2",
+   "pista": "Borde palpebral con escamas crónicas: ¿tratamiento?",
+   "codigos": [
+    "6.02.1.019",
+    "6.02.1.004"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.3",
+   "pista": "Masa roja dolorosa en el canto interno: ¿qué no se hace?",
+   "codigos": [
+    "6.02.1.019",
+    "6.02.1.004"
+   ]
+  }
+ ]
+}

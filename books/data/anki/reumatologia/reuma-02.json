@@ -1,0 +1,458 @@
+{
+  "classId": "reuma-02",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La vía de infección más frecuente de la artritis séptica en el adulto es la {{c1::hematógena}}.",
+      "extra": "Foco cutáneo, dental, urinario o catéter.",
+      "origen": "clase:1",
+      "fuente": "Clase · Vías de llegada",
+      "repaso": false,
+      "codigos": [
+        "1.11.2.001"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El agente más frecuente de artritis séptica en el adulto es {{c1::Staphylococcus aureus}}.",
+      "extra": "Cocos grampositivos en racimo.",
+      "origen": "clase:23",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 94"
+      ],
+      "codigos": [
+        "1.11.2.001"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "S. aureus causa más del {{c1::50 a 60%}} de las artritis sépticas del adulto.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Perfiles bacterianos",
+      "repaso": false,
+      "codigos": [
+        "1.11.2.001"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los bacilos gramnegativos causan el {{c1::10 a 15%}} de las artritis sépticas: ancianos frágiles, drogas EV, sondados.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Perfiles bacterianos",
+      "repaso": false,
+      "codigos": [
+        "1.11.2.001",
+        "2.01.1.093"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el adulto joven sexualmente activo, la artritis séptica sugiere {{c1::Neisseria gonorrhoeae}}, con síndrome artritis-dermatitis.",
+      "extra": "Tenosinovitis migratoria y pústulas acrales.",
+      "origen": "clase:2",
+      "fuente": "Clase · Perfiles bacterianos",
+      "repaso": true,
+      "codigos": [
+        "1.11.2.001"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El Gram detecta cocos en 60–75% de las infecciones estafilocócicas, pero solo en < {{c1::25–30%}} de las gonocócicas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.11.2.001"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La fiebre está presente en el {{c1::60 a 80%}} de las artritis sépticas; puede faltar en ancianos o inmunosuprimidos.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.11.2.001"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la artritis séptica la movilidad {{c1::pasiva}} es intolerable; en la bursitis superficial está conservada.",
+      "extra": "Bursitis prepatelar u olecraneana: patología extracapsular.",
+      "origen": "clase:4",
+      "fuente": "Clase · Séptica vs bursitis",
+      "repaso": true,
+      "codigos": [
+        "1.11.2.001"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El mayor factor de riesgo articular para artritis séptica es la {{c1::artritis reumatoide}} previa.",
+      "extra": "También diabetes, diálisis, prótesis, corticoides.",
+      "origen": "clase:3",
+      "fuente": "Clase · Factores de riesgo",
+      "repaso": false,
+      "codigos": [
+        "1.11.2.001"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antes del primer antibiótico se toman {{c1::hemocultivos}} y se hace artrocentesis con Gram y cultivo.",
+      "extra": "El antibiótico negativiza los cultivos.",
+      "origen": "clase:22",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": true,
+      "codigos": [
+        "1.11.2.001",
+        "4.02.4.008"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tratamiento de la artritis séptica descansa en 2 pilares inseparables: antibióticos EV y {{c1::drenaje articular}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Dos pilares",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 95",
+        "EUNACOM Julio 2016 · Pregunta 39",
+        "EUNACOM Julio 2016 · Pregunta 103"
+      ],
+      "codigos": [
+        "1.11.2.001"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Esquema empírico estándar: {{c1::cefazolina 2 g EV cada 8 horas}} (o cloxacilina 2 g EV cada 4 horas).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla esquemas",
+      "repaso": true,
+      "codigos": [
+        "1.11.2.001",
+        "2.01.1.093"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Ante sospecha de SAMR: {{c1::vancomicina 15–20 mg/kg EV cada 12 horas}}, con niveles valle.",
+      "extra": "Alternativa: daptomicina 8–10 mg/kg/día.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla esquemas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 171"
+      ],
+      "codigos": [
+        "1.11.2.001",
+        "2.01.1.093"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Factores de riesgo de SAMR: colonización previa, {{c1::hemodiálisis}}, hospitalización reciente y sepsis grave.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.2.001"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Artritis gonocócica: {{c1::ceftriaxona 1–2 g EV al día}} + azitromicina 1 g VO (cubre Chlamydia).",
+      "extra": "Duración 7–10 días; respuesta en 24–48 horas.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla esquemas",
+      "repaso": true,
+      "codigos": [
+        "1.11.2.001",
+        "2.01.1.093"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Anciano frágil, ITU o drogas EV con riesgo de gramnegativos: agregar {{c1::ceftriaxona 2 g EV al día}} (cefepime si hay riesgo de Pseudomonas).",
+      "extra": "Duración 4–6 semanas.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla esquemas",
+      "repaso": false,
+      "codigos": [
+        "1.11.2.001",
+        "2.01.1.093"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Duración habitual de la artritis séptica estándar: mínimo 2 semanas EV, total {{c1::3 a 4 semanas}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.2.001"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La cadera séptica (adulto o niño) requiere siempre {{c1::aseo quirúrgico urgente}} en pabellón.",
+      "extra": "Riesgo de necrosis avascular de la cabeza femoral.",
+      "origen": "clase:7",
+      "fuente": "Clase · Rodilla vs cadera",
+      "repaso": true,
+      "codigos": [
+        "1.11.2.001",
+        "1.11.5.001"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La rodilla séptica accesible puede drenarse con {{c1::punciones evacuadoras diarias}} con aguja gruesa (16–18 G).",
+      "extra": "Se repite cada 24 horas mientras haya derrame.",
+      "origen": "clase:8",
+      "fuente": "Clase · Punción evacuadora",
+      "repaso": false,
+      "codigos": [
+        "1.11.5.001",
+        "1.11.2.001"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Si a los {{c1::5 a 7 días}} de punciones sigue purulento o no hay mejoría, se pasa a lavado artroscópico o artrotomía.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Punción evacuadora",
+      "repaso": false,
+      "codigos": [
+        "1.11.5.001",
+        "1.11.2.001"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante sospecha de artritis séptica, NO se administran {{c1::corticoides}} intraarticulares ni orales.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Errores críticos",
+      "repaso": false,
+      "codigos": [
+        "1.11.2.001"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En infección protésica estafilocócica se asocia {{c1::rifampicina}} (300–450 mg VO cada 12 h) por su acción sobre el biofilm.",
+      "extra": "Solo tras controlar el inóculo; nunca en monoterapia.",
+      "origen": "clase:9",
+      "fuente": "Clase · Prótesis y biofilm",
+      "repaso": true,
+      "codigos": [
+        "1.11.2.001",
+        "2.01.1.093"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Infección protésica precoz: < {{c1::3 meses}}; tardía: entre 3 y 24 meses.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Prótesis y biofilm",
+      "repaso": false,
+      "codigos": [
+        "1.11.2.001",
+        "1.11.5.001"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El desbridamiento con retención de prótesis (DAIR) solo se hace si los síntomas duran menos de {{c1::3 semanas}}.",
+      "extra": "Si no, recambio en uno o dos tiempos.",
+      "origen": "clase:9",
+      "fuente": "Clase · Prótesis y biofilm",
+      "repaso": false,
+      "codigos": [
+        "1.11.2.001",
+        "2.01.1.093"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La infección de prótesis articular en adultos mayores tiene {{c1::garantía GES}}; el manejo urgente es por especialista.",
+      "extra": "El digest no detalla plazos.",
+      "origen": "clase:9",
+      "fuente": "Perfil · GES",
+      "repaso": false,
+      "codigos": [
+        "1.11.5.001",
+        "1.11.2.001"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El examen más sensible y precoz para osteomielitis es la {{c1::resonancia magnética}}.",
+      "extra": "La radiografía puede ser normal los primeros 10–14 días.",
+      "origen": "clase:10",
+      "fuente": "Clase · Osteomielitis",
+      "repaso": false,
+      "codigos": [
+        "1.04.1.021",
+        "1.11.2.001"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El diagnóstico definitivo de osteomielitis es la {{c1::biopsia ósea con cultivo}}.",
+      "extra": "Tratamiento prolongado, alrededor de 6 semanas, tras derivar.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Osteomielitis",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2018 · Pregunta 161"
+      ],
+      "codigos": [
+        "1.11.2.001"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Diabético con dolor lumbar febril, intenso a la presión vertebral: el diagnóstico es {{c1::discitis lumbar}} (osteomielitis vertebral).",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "EUNACOM Julio 2018 · Pregunta 161",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2018 · Pregunta 161"
+      ],
+      "codigos": [
+        "1.11.2.001"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Artritis séptica en el codo de un niño de 6 años: el agente más probable es {{c1::Staphylococcus aureus}}.",
+      "extra": "Libro: además Kingella kingae en < 4 años.",
+      "origen": "clase:20",
+      "fuente": "Clase · Quiz EUNACOM Agosto 2021",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 94"
+      ],
+      "codigos": [
+        "1.11.2.001"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-02/10_osteomielitis-vertebral-rm__harrison_p1223.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Osteomielitis/espondilodiscitis vertebral en resonancia",
+      "clave": "Disco vertebral destruido y absceso que ocupa el canal",
+      "conducta": "Hemocultivos, VHS/PCR; derivar para biopsia y antibioticoterapia prolongada",
+      "fuente": "Harrison 21.ª ed., Fig. 147-3",
+      "repaso": false,
+      "codigos": [
+        "1.04.1.021",
+        "1.11.2.001"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Cadera séptica: ¿conducta?",
+      "codigos": [
+        "1.11.2.001"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.1",
+      "pista": "Riesgo de SAMR, diálisis o UCI: ¿antibiótico?",
+      "codigos": [
+        "1.11.2.001"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.2",
+      "pista": "Adulto joven con artritis-dermatitis: ¿tratamiento?",
+      "codigos": [
+        "1.11.2.001"
+      ]
+    }
+  ]
+}

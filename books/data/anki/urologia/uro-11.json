@@ -1,0 +1,510 @@
+{
+ "classId": "uro-11",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El carcinoma de células renales predomina en varones de {{c1::50 a 70 años}}; riesgo: tabaco, obesidad, HTA y enfermedad quística adquirida en diálisis.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Epidemiología",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.022"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El CCR de células claras se asocia a mutación del gen {{c1::VHL}} en el cromosoma 3p.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Genética",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.022"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Las células claras son el {{c1::80-85%}} del CCR (túbulo proximal).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Histología",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.022"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Papilar: {{c1::10-15%}} (oncogén MET); cromófobo: 5% con excelente pronóstico.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla subtipos",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.037"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hipercalcemia paraneoplásica del CCR por secreción de {{c1::PTHrP}}.",
+   "extra": "Tratamiento: hidratación, bifosfonatos y nefrectomía.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Paraneoplásicos",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.022"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Policitemia por eritropoyetina ectópica, hipertensión por {{c1::renina}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Paraneoplásicos",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.022"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El síndrome de {{c1::Stauffer}} es disfunción hepática colestásica sin metástasis que revierte al extirpar el tumor.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Stauffer",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.022"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Hipernefroma operado hace 1 año con calcemia de 11,8 mg/dL: se pide {{c1::calcio y paratohormona}}.",
+   "extra": "PTH alta: hiperparatiroidismo primario; baja: probable cáncer.",
+   "origen": "clase:12",
+   "fuente": "Clase · Quiz",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.022"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Solo {{c1::5 a 10%}} debuta con la tríada: hematuria, dolor lumbar y masa palpable.",
+   "extra": "Hoy más del 65% son incidentalomas.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Clínica",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.037"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tríada de Guyon (dolor en flanco, hematuria macroscópica y masa) denota enfermedad {{c1::localmente avanzada o metastásica}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tríada",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.037"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ante una masa renal sólida se pide {{c1::TAC trifásico}} de abdomen y pelvis con contraste.",
+   "extra": "Nefrectomía parcial en tumor sólido de 2,5 cm que capta contraste.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 TAC",
+   "repaso": true,
+   "imagen": "_verificadas/261_uro_Cáncer_renal__ctmri_path_p362_1.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 46"
+   ],
+   "codigos": [
+    "4.03.1.022",
+    "4.03.4.004"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Criterio de malignidad: realce mayor de {{c1::15 a 20 UH}} respecto a la fase simple (neoangiogénesis).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 TAC",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.022",
+    "4.03.4.004"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La biopsia percutánea no se hace de rutina ante masa renal {{c1::resecable}} con realce típico.",
+   "extra": "Expone a hematoma o falsa negatividad.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Biopsia",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.022",
+    "4.03.4.004"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tumor T1 (hasta 4 cm, idealmente hasta 7): {{c1::nefrectomía parcial}}, con la misma sobrevida oncológica.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Cirugía",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.022"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tumores grandes (mayores de 7 cm), centrales o hiliares: nefrectomía {{c1::radical}} en bloque dentro de la fascia de Gerota.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Cirugía",
+   "repaso": false,
+   "imagen": "biblioteca/19_urologia/uro-11/01_pieza-nefrectomia-radical-carcinoma-renal__bailey-love_p1441.jpg",
+   "codigos": [
+    "4.03.1.022"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El CCR es resistente a quimio y radioterapia; en metástasis se usan antiangiogénicos como {{c1::sunitinib}} e inmunoterapia (nivolumab + ipilimumab).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Metástasis",
+   "repaso": false,
+   "imagen": "biblioteca/19_urologia/uro-11/02_rx-torax-metastasis-carcinoma-renal__cxr_p288.jpg",
+   "codigos": [
+    "4.03.1.022",
+    "2.01.1.037"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El cáncer renal tiene garantía {{c1::GES N.º 76}} desde los 15 años.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 GES",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.022"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El {{c1::angiomiolipoma}} es benigno, se reconoce por grasa macroscópica en el TAC y se asocia a esclerosis tuberosa.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Diferencial",
+   "repaso": false,
+   "imagen": "biblioteca/19_urologia/uro-11/03_angiomiolipoma-tac__ctmri-path_p345.jpg",
+   "codigos": [
+    "2.01.1.037"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El angiomiolipoma puede sangrar masivamente si mide más de {{c1::4 cm}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Diferencial",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.037"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El {{c1::oncocitoma}} es benigno e indistinguible por imagen.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Diferencial",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.037"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cerca del {{c1::20%}} de las masas renales menores de 4 cm son benignas.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Diferencial",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.037"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el niño, una masa renal sólida es {{c1::tumor de Wilms}} hasta demostrar otra cosa.",
+   "extra": "Niño de 7 años con orinas oscuras y masa en el flanco de 10 cm.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Niño",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 109",
+    "EUNACOM Enero 2023 · Pregunta 32"
+   ],
+   "codigos": [
+    "2.01.1.037"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Niño de 4 años con orinas oscuras (hematuria) y masa sólida en el flanco: {{c1::tumor de Wilms}}.",
+   "extra": "El hepatoblastoma es hepático y no da hematuria.",
+   "origen": "clase:14",
+   "fuente": "Clase · Quiz",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 77"
+   ],
+   "codigos": [
+    "2.01.1.037"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tumor de Wilms: no se palpa repetidamente ni se biopsia; se estudia con {{c1::imágenes}} y se deriva.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Quiz",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.037"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Principios del tumor sólido: pedir ecografía y TAC con contraste, evitar biopsia si la cirugía curativa es posible y {{c1::derivar dentro de plazos GES}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tumores sólidos",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.037"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Traumatismo contuso de flanco con hematuria macroscópica en paciente estable: {{c1::TAC de abdomen con contraste}} (uro-TAC).",
+   "extra": "El pielo-TAC sin contraste es para litiasis.",
+   "origen": "clase:13",
+   "fuente": "Clase · Quiz",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 50"
+   ],
+   "codigos": [
+    "2.01.1.037"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La nefroureterectomía es para tumores de la {{c1::pelvis renal}}, no para el CCR.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Quiz",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.037"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Niño con estrabismo y pérdida del rojo pupilar (leucocoria): {{c1::retinoblastoma}}.",
+   "extra": "Clásica: leucocoria, proptosis y estrabismo; estrabismo divergente de 2 años.",
+   "origen": "clase:15",
+   "fuente": "Clase · Retinoblastoma",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 27",
+    "EUNACOM Julio 2016 · Pregunta 34"
+   ],
+   "codigos": [
+    "2.01.1.037"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Cáncer renal metastásico: el error es dar {{c1::quimioterapia o radioterapia}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.022",
+    "2.01.1.037"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "_verificadas/261_uro_Cáncer_renal__ctmri_path_p362_1.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Masa renal que realza",
+   "clave": "Masa sólida cortical con realce tras contraste",
+   "conducta": "TAC trifásico; sin biopsia; nefrectomía parcial si es T1",
+   "fuente": "CT & MRI Pathology: A Pocket Atlas, p. 362",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 46"
+   ],
+   "codigos": [
+    "4.03.1.022",
+    "4.03.4.004"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-11/03_angiomiolipoma-tac__ctmri-path_p345.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Angiomiolipoma",
+   "clave": "Masa del riñón izquierdo con densidad de grasa",
+   "conducta": "Benigno; riesgo de sangrado si mide más de 4 cm",
+   "fuente": "CT & MRI Pathology: A Pocket Atlas, p. 345",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.037"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-11/01_pieza-nefrectomia-radical-carcinoma-renal__bailey-love_p1441.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Pieza de nefrectomía radical",
+   "clave": "Riñón completo con el tumor, dentro de la fascia de Gerota",
+   "conducta": "Tumor grande (más de 7 cm), central o hiliar",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 76.22",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.022"
+   ]
+  },
+  {
+   "id": "i04",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-11/02_rx-torax-metastasis-carcinoma-renal__cxr_p288.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Metástasis pulmonares",
+   "clave": "Múltiples nódulos redondos en ambos campos",
+   "conducta": "Antiangiogénicos e inmunoterapia",
+   "fuente": "CXR, Fig. 21.2",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.022"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Masa renal sólida en ecografía: ¿qué examen?",
+   "codigos": [
+    "4.03.1.022",
+    "2.01.1.037"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Tumor T1 periférico: ¿qué cirugía?",
+   "codigos": [
+    "4.03.1.022",
+    "2.01.1.037"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1",
+   "pista": "Tumor grande, central o hiliar: ¿qué cirugía?",
+   "codigos": [
+    "4.03.1.022",
+    "2.01.1.037"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.2",
+   "pista": "Cáncer renal metastásico: ¿qué tratamiento?",
+   "codigos": [
+    "4.03.1.022",
+    "2.01.1.037"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,482 @@
+{
+  "classId": "sp-06",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La epidemiología estudia la {{c1::distribución y los determinantes}} de los estados de salud en poblaciones, y aplica ese conocimiento al control de los problemas.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.013"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La epidemiología {{c1::descriptiva}} responde quién, dónde y cuándo (persona, lugar y tiempo).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Concepto y campo",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.013"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La epidemiología {{c1::analítica}} busca el porqué (asociación y causalidad) y se apoya en el contraste de hipótesis.",
+      "extra": "",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz Julio 2015",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.018"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 99"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un estudio es {{c1::experimental}} cuando el investigador asigna la exposición o el fármaco; si solo observa, es observacional.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clasificación",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.024",
+        "7.01.3.020"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 146"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Según el número de mediciones, el estudio es transversal (una sola medición) o {{c1::longitudinal}} (al menos dos, separadas en el tiempo).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clasificación",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.020"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Si el investigador asigna la exposición, el diseño es un {{c1::ensayo clínico aleatorizado}}.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · Qué diseño corresponde",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.020",
+        "7.01.3.024"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los casos y controles se seleccionan según la {{c1::enfermedad}} y se investiga retrospectivamente la exposición.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.022"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 147"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para enfermedades muy infrecuentes el diseño más adecuado es {{c1::casos y controles}}.",
+      "extra": "También sirve con latencia larga o poco presupuesto.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Julio 2019",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.022"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 110",
+        "EUNACOM Julio 2015 · Pregunta 92"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La medida de asociación de los casos y controles es el {{c1::Odds Ratio (OR)}}.",
+      "extra": "No calcula incidencia ni riesgo relativo directo.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de diseños",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.022"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El gran sesgo de los casos y controles es el sesgo de {{c1::memoria (recall)}} y la selección de controles.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.022"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La cohorte se selecciona por {{c1::exposición}}: sujetos sanos expuestos y no expuestos que se siguen en el tiempo.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.023"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 40",
+        "EUNACOM Diciembre 2024 · Pregunta 49"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El estudio de cohortes es el diseño de elección para exposiciones {{c1::infrecuentes}} (radiación, tóxicos ocupacionales).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Casos y controles vs cohortes",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.023"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La cohorte mide directamente incidencia acumulada, densidad de incidencia y {{c1::riesgo relativo (RR)}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de diseños",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.023"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El gran problema de la cohorte son las {{c1::pérdidas de seguimiento}}; además es costosa y prolongada.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.023"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En una cohorte de fumadores solo se puede calcular la {{c1::incidencia acumulada}} (65 de 2.000), no el RR.",
+      "extra": "Falta el dato de los no fumadores.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Julio 2016",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.023"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 13"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para seguir el desarrollo de obesidad en escolares a lo largo del tiempo, el estudio adecuado es de {{c1::incidencia}} (cohorte).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Banco · estudio de incidencia",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.023",
+        "7.01.3.020"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 123"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Entre cohortes, casos y controles y ensayo no aleatorizado, el observacional que da evidencia de mayor calidad es la {{c1::cohorte}}.",
+      "extra": "El ECA aleatorizado sigue siendo el estándar de oro.",
+      "origen": "libro:sec:2",
+      "fuente": "Banco · mejor diseño",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.020"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 87"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El estudio {{c1::transversal}} mide exposición y enfermedad simultáneamente y calcula prevalencia.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.021"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El estudio transversal no prueba causalidad por su {{c1::ambigüedad temporal}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Estudio transversal",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.021"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La Encuesta Nacional de Salud, que mide la presión arterial en un período breve, entrega directamente la {{c1::prevalencia}}.",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.021"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El ensayo clínico aleatorizado es el {{c1::estándar de oro}} para evaluar eficacia y seguridad de intervenciones.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 ECA",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.024"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 5",
+        "EUNACOM Julio 2019 · Pregunta 124"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::aleatorización}} reparte equilibradamente los factores de confusión conocidos y desconocidos.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · ECA",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.024"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el doble ciego desconocen la intervención el {{c1::paciente y el médico/evaluador}}.",
+      "extra": "En el triple, también el analista.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 ECA",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.024"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fase {{c1::I}} del desarrollo de un fármaco: 20-80 voluntarios sanos; evalúa seguridad y dosis máxima tolerada.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Fases",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.024"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fase {{c1::II}}: 100-300 pacientes enfermos; eficacia preliminar y rango de dosis terapéutica.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Fases",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.024"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fase {{c1::III}}: ensayo multicéntrico de miles de pacientes, contra el tratamiento estándar o placebo, para la aprobación.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Fases",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.024"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fase {{c1::IV}}: farmacovigilancia post-comercialización; detecta reacciones adversas raras o tardías.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Fases",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.024"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un estudio ecológico analiza variables {{c1::agregadas}} de poblaciones (países, comunas), no de individuos.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Libro §4 / esquema",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.025"
+      ],
+      "imagen": "biblioteca/16_salud_publica/sp-06/S1_disenos-estudio__propio.svg",
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 65",
+        "EUNACOM Agosto 2021 · Pregunta 8",
+        "EUNACOM Diciembre 2018 · Pregunta 45"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pesticidas plasmáticos promedio por país correlacionados con mortalidad por cáncer: estudio {{c1::ecológico}}.",
+      "extra": "",
+      "origen": "clase:20",
+      "fuente": "Clase · Quiz Agosto 2021",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.025"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La medida de asociación del estudio ecológico es el {{c1::coeficiente de correlación (r)}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de diseños",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.025"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para evaluar intervenciones focalizadas y pedir financiamiento, la respuesta oficial es el estudio de {{c1::casos y controles}}.",
+      "extra": "Pregunta disputada: ver dudas.",
+      "origen": "libro:puntos",
+      "fuente": "Banco · intervenciones focalizadas",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.022"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 47"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/16_salud_publica/sp-06/S1_disenos-estudio__propio.svg",
+      "pregunta": "¿Qué muestra y cómo elijo el diseño?",
+      "diagnostico": "Árbol de decisión de diseños de estudio",
+      "clave": "Primero: ¿el investigador asigna la exposición? Si no, ¿individuos o poblaciones? Luego, ¿selección por exposición o por enfermedad?",
+      "conducta": "Cohortes si se parte de sanos por exposición; casos y controles si se parte de la enfermedad",
+      "fuente": "Dibujo propio (esquema)",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.020"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.1",
+      "pista": "Si el investigador solo observa: ¿individuos o población?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1.1.0",
+      "pista": "Selección por exposición, sanos al inicio: ¿qué diseño?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.1.1",
+      "pista": "Selección por enfermedad, mirando atrás: ¿qué diseño?"
+    }
+  ]
+}

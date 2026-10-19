@@ -1,0 +1,297 @@
+{
+  "classId": "gastro-12",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dolor anal intenso que comienza con la defecación y persiste minutos, con sangre escasa al papel: {{c1::fisura anal}}.",
+      "extra": "El dolor persiste por espasmo del esfínter interno.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz Julio 2017",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 54"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La fisura anal es un desgarro del {{c1::anodermo}} causado por un bolo fecal duro.",
+      "extra": "",
+      "origen": "foto",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-12/02_fisura_anal_foto__commons.jpg",
+      "fuente": "Libro §1 Fisura anal",
+      "repaso": false
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El diagnóstico de la fisura anal se hace con la {{c1::inspección}} del margen anal.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisura anal",
+      "repaso": false
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tratamiento inicial de la fisura anal es {{c1::baños de asiento + tratar la constipación}} (fibra, agua, laxantes osmóticos).",
+      "extra": "Los baños de asiento relajan el esfínter interno.",
+      "origen": "clase:1",
+      "fuente": "Clase · Fisura anal",
+      "repaso": true
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se considera crónica la fisura anal de más de {{c1::6 semanas}}; si no responde, esfinterotomía lateral interna.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Fisura anal",
+      "repaso": false
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la esfinterotomía de la fisura crónica se secciona el esfínter {{c1::interno}}, nunca el externo (incontinencia).",
+      "extra": "El externo es voluntario.",
+      "origen": "clase:12",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El hemorroide <b>interno</b> se presenta como {{c1::hematoquecia sin dolor}}.",
+      "extra": "Lo contrario de la fisura.",
+      "origen": "clase:2",
+      "fuente": "Clase · Hemorroides",
+      "repaso": false
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los hemorroides internos se clasifican de grado I ({{c1::no protruye}}) a grado IV ({{c2::irreductible}}).",
+      "extra": "",
+      "origen": "foto",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-12/01_prolapso-hemorroidal-grado-iv__cto-digestivo_p149.jpg",
+      "fuente": "Libro §2 Hemorroides",
+      "repaso": false
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante sangrado por hemorroide interno siempre hay que {{c1::descartar otras causas (cáncer, diverticulosis) con rectoscopía o colonoscopía}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Hemorroides",
+      "repaso": true
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tratamiento electivo del hemorroide interno es la {{c1::ligadura con banda elástica}} + tratar la constipación.",
+      "extra": "Grados avanzados: hemorroidectomía.",
+      "origen": "clase:2",
+      "fuente": "Clase · Hemorroides",
+      "repaso": false
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dolor anal agudo con nódulo violáceo visible: {{c1::hemorroide externo trombosado}}.",
+      "extra": "",
+      "origen": "foto",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-12/10_hemorroide-externo-trombosado__knoop_p258.jpg",
+      "fuente": "Libro §2 Hemorroides",
+      "repaso": false
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el hemorroide externo trombosado, la trombectomía sirve solo si consulta dentro de las {{c1::48–72 h}}.",
+      "extra": "Después el trombo se reabsorbe solo: manejo conservador.",
+      "origen": "clase:2",
+      "fuente": "Clase · Hemorroides",
+      "repaso": true
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hemorroide externo trombosado de 6 horas de evolución, muy doloroso: {{c1::trombectomía bajo anestesia local}}.",
+      "extra": "Alivia el dolor de inmediato.",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz Julio 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 27"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hemorroides internos prolapsados y trombosados afuera, extremadamente dolorosos ({{c1::fluxión hemorroidal}}), se tratan con cirugía.",
+      "extra": "Urgente o electiva precoz.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Hemorroides",
+      "repaso": false
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dolor anal que aumenta progresivamente (no súbito) con masa eritematosa fluctuante: {{c1::absceso perianal}}.",
+      "extra": "",
+      "origen": "foto",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-12/11_absceso-perianal__knoop_p257.jpg",
+      "fuente": "Libro §3 Absceso y fístula",
+      "repaso": false
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El absceso perianal se trata con {{c1::drenaje quirúrgico en pabellón}}; los antibióticos solos no bastan.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 41"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Lo que diferencia el absceso perianal del hemorroide trombosado es la {{c1::fluctuación con fiebre y dolor progresivo}}, sin nódulo violáceo.",
+      "extra": "El trombosado da dolor brusco, nódulo violáceo y sin fiebre.",
+      "origen": "libro:caso",
+      "fuente": "Libro · Caso",
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Absceso con sepsis y síntomas urinarios ({{c1::pelvirrectal}}): RM de pelvis + drenaje en pabellón + antibióticos endovenosos.",
+      "extra": "Aquí sí van antibióticos.",
+      "origen": "clase:3",
+      "fuente": "Clase · Absceso perianal y fístula",
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Orificio cutáneo perianal que supura de forma crónica tras un absceso drenado: {{c1::fístula anal}}.",
+      "extra": "Trayecto entre el canal anal y la piel.",
+      "origen": "foto",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-12/02_fistulas-perianales__cto-digestivo_p150.jpg",
+      "fuente": "Libro §3 Absceso y fístula",
+      "repaso": false
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tratamiento de la fístula anal es {{c1::quirúrgico: fistulotomía o sedal}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Absceso perianal y fístula",
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Fisura ≠ fístula: la fisura es una herida de manejo {{c1::médico}}; la fístula es un trayecto de manejo {{c2::quirúrgico}}.",
+      "extra": "Se escriben parecido y se manejan al revés.",
+      "origen": "clase:4",
+      "fuente": "Clase · Fisura no es fístula",
+      "repaso": false
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La fístula anal es la secuela de un {{c1::absceso perianal}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Fisura ≠ fístula",
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-12/10_hemorroide-externo-trombosado__knoop_p258.jpg",
+      "pregunta": "Dolor anal brusco: ¿qué muestra y qué haces?",
+      "diagnostico": "Hemorroide externo trombosado",
+      "clave": "Nódulo perianal violáceo",
+      "conducta": "Baños de asiento; trombectomía si consulta dentro de 48–72 h",
+      "fuente": "Knoop, Atlas of Emergency Medicine, p. 258",
+      "repaso": false
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-12/11_absceso-perianal__knoop_p257.jpg",
+      "pregunta": "Dolor anal creciente y fiebre: ¿qué muestra y qué haces?",
+      "diagnostico": "Absceso perianal",
+      "clave": "Tumefacción perianal roja, fluctuante",
+      "conducta": "Drenaje quirúrgico en pabellón; antibióticos solos no bastan",
+      "fuente": "Knoop, Atlas of Emergency Medicine, p. 257",
+      "repaso": false
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-12/02_fisura_anal_foto__commons.jpg",
+      "pregunta": "Dolor al defecar con sangre al papel: ¿qué muestra y qué haces?",
+      "diagnostico": "Fisura anal",
+      "clave": "Solución de continuidad lineal del margen anal",
+      "conducta": "Baños de asiento + tratar la constipación; esfinterotomía interna si es crónica y no responde",
+      "fuente": "Wikimedia Commons «Anal fissure 1.jpg»",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Dolor al defecar: ¿cuadro y manejo?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.2",
+      "pista": "Nódulo violáceo: ¿manejo y plazo?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.3",
+      "pista": "Masa fluctuante: ¿qué haces?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.3.0",
+      "pista": "Orificio que supura tras absceso: ¿qué es y cómo se trata?"
+    }
+  ]
+}

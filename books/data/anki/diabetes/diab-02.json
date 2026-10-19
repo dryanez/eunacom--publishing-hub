@@ -1,0 +1,532 @@
+{
+  "classId": "diab-02",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Glicemia de ayuno (ayuno ≥ 8 horas) ≥ {{c1::126 mg/dL}} es un criterio diagnóstico de diabetes.",
+      "extra": "Plasmática venosa.",
+      "origen": "clase:1",
+      "fuente": "Clase · Criterios diagnósticos",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.024"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la PTGO con {{c1::75 g}} de glucosa, la glicemia a las 2 horas ≥ {{c2::200 mg/dL}} diagnostica diabetes.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Criterios diagnósticos",
+      "repaso": true,
+      "codigos": [
+        "1.02.4.024",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Una HbA1c ≥ {{c1::6,5 %}} es criterio diagnóstico de diabetes (laboratorio estandarizado NGSP).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Criterios",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.024"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Glicemia al azar ≥ {{c1::200 mg/dL}} con síntomas cardinales (las 4 P) confirma diabetes.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Criterios diagnósticos",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.024"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las 4 P de la hiperglicemia son polidipsia, poliuria, polifagia y {{c1::pérdida de peso inexplicable}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Criterios",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.024"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Síntomas cardinales más glicemia al azar de 248 mg/dL: {{c1::se confirma la diabetes y se trata}} sin esperar otra muestra.",
+      "extra": "Error clásico: pedir glicemia de ayuno para confirmar.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.024"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el asintomático, ayuno ≥ 126, PTGO ≥ 200 o HbA1c ≥ 6,5 % requieren {{c1::una segunda medición en otro día}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · ¿Hay que repetir?",
+      "repaso": true,
+      "codigos": [
+        "1.02.4.017",
+        "1.02.4.024"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Asintomático con una sola glicemia de ayuno de 132 mg/dL: el error es {{c1::diagnosticar con un solo valor}}.",
+      "extra": "Se repite la glicemia de ayuno en otro día.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.024"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Glicemia de ayuno alterada (GAA): ayuno entre {{c1::100 y 125 mg/dL}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Prediabetes",
+      "repaso": true,
+      "codigos": [
+        "1.02.4.024",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Intolerancia a la glucosa oral: PTGO a las 2 horas entre {{c1::140 y 199 mg/dL}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Prediabetes",
+      "repaso": true,
+      "codigos": [
+        "1.02.4.024",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "HbA1c en rango de prediabetes: {{c1::5,7 a 6,4 %}}.",
+      "extra": "Normal: bajo 5,7 %.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla categorías",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.017",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El índice HOMA-IR se calcula como glicemia de ayuno × insulina de ayuno / {{c1::405}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Resistencia a la insulina",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.024",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Un HOMA-IR > {{c1::2,6}} certifica resistencia a la insulina en adultos chilenos.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Prediabetes",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.024"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con HOMA-IR > 2,6 y glicemia normal, el error es {{c1::llamarlo diabetes o prediabetes}}.",
+      "extra": "Es resistencia a la insulina: estilo de vida.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.024"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adolescente con IMC 33, ayuno 96 mg/dL e insulina basal 23 y HOMA ≈ 5,5: se indica {{c1::dieta y ejercicio}}.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Julio 2015",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.024"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se tamiza con glicemia de ayuno a todo adulto con IMC ≥ {{c1::25}} más un factor de riesgo, o mayor de {{c2::45 años}}.",
+      "extra": "Factores: sedentarismo, HTA, dislipidemia, familiar de primer grado diabético.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tamizaje",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.024"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Si la glicemia de ayuno es < 100 mg/dL, se repite el tamizaje cada {{c1::3 años}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tamizaje",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.024"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ayuno 100–125 mg/dL: se solicita {{c1::PTGO con 75 g}}; el error es repetir la glicemia de ayuno.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 158",
+        "EUNACOM Diciembre 2025 · Pregunta 104"
+      ],
+      "codigos": [
+        "1.02.4.024",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Primera glicemia ≥ 126 y segunda < 126: se pide {{c1::PTGO para desempatar}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.02.4.024",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una PTGO con valor a las 2 horas ≥ 200 mg/dL confirma diabetes y {{c1::no requiere repetición}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tamizaje",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.024"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ayuno 117 mg/dL y postcarga 136 mg/dL: diagnóstico de {{c1::prediabetes (GAA)}}.",
+      "extra": "Postcarga < 140: sin intolerancia ni diabetes.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Julio 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 95"
+      ],
+      "codigos": [
+        "1.02.4.024",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el paciente hospitalizado con enfermedad aguda o corticoides, el examen de elección para diagnosticar diabetes es la {{c1::HbA1c}}.",
+      "extra": "La glicemia y la PTGO se alteran por cortisol y catecolaminas.",
+      "origen": "clase:6",
+      "fuente": "Clase · Hiperglicemia de estrés",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 106"
+      ],
+      "codigos": [
+        "1.02.4.017",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante hiperglicemia en el hospitalizado, el error es pedir {{c1::glicemia de ayuno o PTGO}} en lugar de HbA1c.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 106"
+      ],
+      "codigos": [
+        "1.02.4.017",
+        "1.02.4.024"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La HbA1c refleja el promedio de los últimos {{c1::2 a 3 meses}}.",
+      "extra": "Es lo que dura el eritrocito.",
+      "origen": "clase:7",
+      "fuente": "Clase · HbA1c",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.017",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La HbA1c sale falsamente baja en {{c1::anemia hemolítica, hemorragia aguda y hemodiálisis}}.",
+      "extra": "Glóbulos rojos jóvenes.",
+      "origen": "clase:7",
+      "fuente": "Clase · HbA1c",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.017",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La HbA1c sale falsamente alta en {{c1::ferropenia severa prolongada y esplenectomía}}.",
+      "extra": "Glóbulos rojos viejos.",
+      "origen": "clase:7",
+      "fuente": "Clase · HbA1c",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.017",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "Confirmada la DM2 se hace la notificación GES y la confirmación y evaluación inicial en menos de {{c1::45 días}}.",
+      "extra": "GES DM2 en personas de 15 años y más.",
+      "origen": "clase:8",
+      "fuente": "Clase · GES",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.024"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El GES de DM2 garantiza fármacos e insumos: metformina, {{c1::sulfonilureas}} e insulina.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · GES",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.024"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "Control GES: HbA1c cada {{c1::3–6 meses}}, y RAC, fondo de ojo y pies.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · GES",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.017",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Con diabetes recién diagnosticada, HbA1c 7,2 % y sin indicación de insulina, se parte con {{c1::metformina}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Qué sigue",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 132",
+        "EUNACOM Diciembre 2022 · Pregunta 162"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En diabetes con HbA1c ≥ {{c1::9 %}} se plantea terapia combinada precoz.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Qué sigue",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 17"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En prediabetes se parte con {{c1::estilo de vida}}; en ITG con IMC > 35 se puede sumar metformina.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Qué sigue",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.024"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En GAA repetida de 115 mg/dL, la intervención que más reduce la progresión es {{c1::ejercicio aeróbico 150 minutos por semana}}.",
+      "extra": "La metformina queda como segunda línea en alto riesgo.",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz Julio 2025",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.024"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/04_diabetes/diab-02/01_acantosis-nigricans__amir-derma_p30.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Acantosis nigricans",
+      "clave": "Hiperpigmentación aterciopelada en pliegues, con acrocordones",
+      "conducta": "Marcador de resistencia a la insulina: medir glicemia de ayuno y tratar con estilo de vida",
+      "fuente": "Manual AMIR Dermatología, p. 30",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.024"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.2.1",
+      "pista": "Ayuno 100–125: ¿qué examen sigue?",
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.024"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.2.2",
+      "pista": "Asintomático con ayuno ≥ 126: ¿qué haces?",
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.024"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "Hospitalizado o con corticoides: ¿qué examen?",
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.024"
+      ]
+    }
+  ]
+}

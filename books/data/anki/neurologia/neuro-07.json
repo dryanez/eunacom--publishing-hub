@@ -1,0 +1,345 @@
+{
+  "classId": "neuro-07",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cluster: relación hombre:mujer de {{c1::3-4:1}} y más de {{c2::80 %}} fumadores.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Perfil",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.013"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cada ataque de cluster dura {{c1::15 a 180 minutos}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Cluster",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.013"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cluster: dolor unilateral {{c1::periorbitario}} atroz con lagrimeo, rinorrea y Horner ipsilaterales.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Cluster",
+      "repaso": false,
+      "imagen": "biblioteca/09_neurologia/neuro-07/01_sindrome_horner__kanski_p821.jpg",
+      "codigos": [
+        "1.10.1.013"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el cluster el paciente tiene {{c1::agitación psicomotora}}: no tolera acostarse y camina.",
+      "extra": "En la migraña busca reposo; en la neuralgia, inmovilidad.",
+      "origen": "clase:1",
+      "fuente": "Clase · Cluster",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.013"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Gatillante del cluster durante el racimo: {{c1::alcohol}}.",
+      "extra": "Las zonas gatillo cutáneas son de la neuralgia.",
+      "origen": "clase:2",
+      "fuente": "Clase · Gatillantes",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.013"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Cluster, crisis aguda: {{c1::oxígeno 100 %}} a 12–15 L/min con mascarilla con reservorio.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.013"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Cluster: asociar {{c1::sumatriptán 6 mg SC}} (o zolmitriptán 5 mg nasal).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.013"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Profilaxis de cluster: {{c1::verapamilo}} 240–960 mg/día, con ECG seriado.",
+      "extra": "Riesgo de bloqueo AV y bradicardia.",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.013"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Puente mientras sube el verapamilo: {{c1::prednisona}} 60–80 mg por 5–7 días o bloqueo del nervio occipital.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.013"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "SUNCT/SUNA: crisis de {{c1::segundos}} con ojo rojo y lagrimeo prominente.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Otras TACs",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.013"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Neuralgia del trigémino: dolor tipo {{c1::choque eléctrico}} de fracciones de segundo a 2 minutos.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Neuralgia",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 25",
+        "EUNACOM Diciembre 2025 · Pregunta 28"
+      ],
+      "codigos": [
+        "1.10.1.013"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Neuralgia del trigémino compromete sobre todo las ramas {{c1::V2 y V3}} (mejilla, maxilar, mandíbula, arcada dental).",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Neuralgia",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 94"
+      ],
+      "imagen": "biblioteca/09_neurologia/neuro-07/02_distribucion_sensitiva_trigemino__fitzpatrick_p2330.jpg",
+      "codigos": [
+        "1.10.1.013"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sello de la neuralgia del trigémino: {{c1::zonas gatillo}} por estímulos inocuos (lavarse, afeitarse, masticar, brisa).",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Neuralgia",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.013"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Neuralgia del trigémino: paciente {{c1::inmóvil}}, sin síntomas autonómicos y asintomático entre crisis.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Neuralgia",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.013"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Neuralgia limitada a V1 ocurre en < {{c1::5 %}} y obliga a buscar causa secundaria.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Neuralgia",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.013"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Neuralgia clásica: compresión de la raíz en su entrada al puente por un asa de la arteria {{c1::cerebelosa superior}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.013"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Neuralgia del trigémino, primera línea: {{c1::carbamazepina}} 200–1.200 mg/día.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 28",
+        "EUNACOM Julio 2016 · Pregunta 94"
+      ],
+      "codigos": [
+        "1.10.1.013"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Controles de carbamazepina: {{c1::hemograma}} (agranulocitosis, aplasia) y natremia (SIADH).",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.013"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa a carbamazepina con mejor tolerabilidad: {{c1::oxcarbazepina}}.",
+      "extra": "Segunda línea: baclofeno, lamotrigina, gabapentina.",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.013"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Neuralgia en adulto mayor o de alto riesgo quirúrgico: rizotomía percutánea, balón o {{c1::Gamma Knife}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.013"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Dolor neurálgico en la mejilla de segundos de duración es neuralgia del trigémino, {{c1::no cluster}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Quiz Banco EUNACOM",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.013"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Neuralgia occipital de Arnold (dolor cervical alto posterior gatillado al tocar): {{c1::carbamazepina}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · pregunta oficial",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.013"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-07/01_sindrome_horner__kanski_p821.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Síndrome de Horner (ptosis y miosis), cortejo autonómico del cluster",
+      "clave": "Ptosis y miosis ipsilaterales al dolor periorbitario",
+      "conducta": "Oxígeno 100 % a 12–15 L/min + sumatriptán 6 mg SC; profilaxis con verapamilo",
+      "fuente": "Kanski, Oftalmología clínica 8.ª ed., Fig. 19.35A",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.013"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "Dolor orbitario de 15–180 min con cortejo autonómico y agitación: ¿diagnóstico y rescate?",
+      "codigos": [
+        "1.10.1.013"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Segundos con gatillo en V2–V3: ¿diagnóstico y fármaco?",
+      "codigos": [
+        "1.10.1.013"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.0",
+      "pista": "Neuralgia refractaria: ¿cirugía?",
+      "codigos": [
+        "1.10.1.013"
+      ]
+    }
+  ]
+}

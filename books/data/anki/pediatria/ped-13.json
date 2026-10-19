@@ -1,0 +1,545 @@
+{
+  "classId": "ped-13",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El agente más frecuente de ITU en pediatría es {{c1::Escherichia coli}} (> 80-85%).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Por qué se infecta?",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.062"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Proteus mirabilis se asocia a orina {{c1::alcalina}} y litiasis de estruvita.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Etiología",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.062"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el lactante sin control de esfínteres, el método estándar para urocultivo es el {{c1::cateterismo vesical (sondeo)}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · ¿Cómo tomas la muestra?",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.003",
+        "1.04.4.017"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 29",
+        "EUNACOM Julio 2017 · Pregunta 156",
+        "EUNACOM Diciembre 2022 · Pregunta 117"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El estándar de oro microbiológico para urocultivo es la {{c1::punción suprapúbica}}.",
+      "extra": "Se prefiere en neonatos o fimosis severa.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Toma de muestra",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.010",
+        "1.04.4.017"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La bolsa recolectora solo sirve para {{c1::descartar ITU}}, si el sedimento es totalmente normal.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.4.016",
+        "2.01.1.062"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 29",
+        "EUNACOM Julio 2017 · Pregunta 156",
+        "EUNACOM Diciembre 2022 · Pregunta 117"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con bolsa recolectora alterada, el error clásico es {{c1::tratar directo con ese resultado}}.",
+      "extra": "Se confirma con sondeo o punción.",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.062",
+        "1.04.4.017"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 29",
+        "EUNACOM Julio 2017 · Pregunta 156",
+        "EUNACOM Diciembre 2022 · Pregunta 117"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La bolsa recolectora tiene hasta {{c1::85%}} de falsos positivos por contaminación perineal.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Toma de muestra",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.016"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En niños que controlan esfínteres, el urocultivo se toma por {{c1::segundo chorro limpio}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Toma de muestra",
+      "repaso": false,
+      "codigos": [
+        "1.04.4.017"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Urocultivo por segundo chorro limpio: ≥ {{c1::100.000 UFC/mL}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de urocultivo",
+      "repaso": true,
+      "codigos": [
+        "1.04.4.017"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 83",
+        "EUNACOM Julio 2013 · Pregunta 81"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Urocultivo por cateterismo vesical: ≥ {{c1::10.000 a 50.000 UFC/mL}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de urocultivo",
+      "repaso": true,
+      "codigos": [
+        "1.04.4.017"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Urocultivo por punción suprapúbica: ≥ {{c1::1 UFC/mL}} de gramnegativos.",
+      "extra": "Cualquier recuento es significativo.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de urocultivo",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.010",
+        "1.04.4.017"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un urocultivo con ≥ 2 gérmenes sugiere {{c1::contaminación}} y se repite.",
+      "extra": "No se trata la bacteriuria asintomática.",
+      "origen": "clase:6",
+      "fuente": "Clase · Antibiograma",
+      "repaso": false,
+      "codigos": [
+        "1.04.4.017"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tira reactiva con esterasa leucocitaria y nitritos negativos: la ITU es {{c1::improbable}}, pero el diagnóstico exige urocultivo.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Orina completa",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.016"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Leucocituria significativa en sedimento: > {{c1::5 leucocitos}} por campo de 40×.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Orina completa",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.016"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los cilindros leucocitarios en el sedimento sugieren {{c1::pielonefritis}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Orina completa",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.016"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Relación proteína/creatinina en rango nefrótico: > {{c1::2 mg/mg}}.",
+      "extra": "Normal < 0,2 mg/mg.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Orina completa",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.016"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "ITU baja afebril: {{c1::cefadroxilo}} oral por 3 a 5 días.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Cistitis o pielonefritis",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.062"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 135",
+        "EUNACOM Diciembre 2017 · Pregunta 134"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cefadroxilo en cistitis: {{c1::30 a 50 mg/kg/día}} cada 12 horas.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.062"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La nitrofurantoína solo se usa en {{c1::cistitis afebril}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Cistitis o pielonefritis",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.062"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 134"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La nitrofurantoína está contraindicada en {{c1::pielonefritis / ITU febril}}.",
+      "extra": "No alcanza concentraciones en parénquima renal ni en sangre.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.062"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Pielonefritis ambulatoria (> 3 meses, buen estado, tolera vía oral): {{c1::cefadroxilo}} oral por 7 a 10 días.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.062"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cefadroxilo en pielonefritis ambulatoria: {{c1::50 mg/kg/día}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.062"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Se hospitaliza la ITU febril en menores de {{c1::3 meses}}, con vómitos, aspecto séptico o deshidratación.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.062"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "ITU febril hospitalizada: {{c1::cefotaxima EV}} (150 mg/kg/día) o ceftriaxona.",
+      "extra": "Luego vía oral tras 48 h afebril, hasta 10 a 14 días.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.062"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En Chile la E. coli urinaria tiene alta resistencia a {{c1::ampicilina y cotrimoxazol}}.",
+      "extra": "No se usan de primera línea.",
+      "origen": "clase:6",
+      "fuente": "Clase · Antibiograma",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.062"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las E. coli productoras de BLEE se tratan con {{c1::carbapenémicos}} o aminoglucósidos.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Antibiograma",
+      "repaso": false,
+      "codigos": [
+        "1.04.4.017"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 30"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras el primer episodio de ITU febril se pide a todos {{c1::ecografía renal y vesical}}.",
+      "extra": "",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz Perfil V3 eco",
+      "repaso": true,
+      "codigos": [
+        "2.01.4.003"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La uretrocistografía miccional es el estándar de oro para el {{c1::reflujo vésico-ureteral}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Imágenes",
+      "repaso": true,
+      "codigos": [
+        "4.03.1.021",
+        "2.01.1.065"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Indicaciones de UCG: eco alterada, ITU recurrente o ITU febril por germen {{c1::distinto a E. coli}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Imágenes",
+      "repaso": true,
+      "codigos": [
+        "4.03.1.021"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante eco alterada o ITU atípica, el error es {{c1::saltarse el estudio del reflujo (UCG)}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "4.03.1.021"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cintigrama DMSA evalúa {{c1::cicatrices corticales}} permanentes.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Imágenes",
+      "repaso": true,
+      "codigos": [
+        "1.09.4.007"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-13/03_dmsa-cicatriz__atlas.jpg"
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El DMSA para cicatrices se pide a los {{c1::6 meses}} del episodio agudo.",
+      "extra": "Antes los defectos pueden ser reversibles.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Imágenes",
+      "repaso": true,
+      "codigos": [
+        "1.09.4.007"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Función relativa normal de cada riñón en el DMSA: {{c1::45 a 55%}}.",
+      "extra": "",
+      "origen": "libro:sec:10",
+      "fuente": "Libro §10 Cintigrama",
+      "repaso": false,
+      "codigos": [
+        "1.09.4.007"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "MAG3 con furosemida: T½ > {{c1::20 minutos}} indica obstrucción.",
+      "extra": "Menos de 10 minutos es normal.",
+      "origen": "libro:sec:10",
+      "fuente": "Libro §10 Cintigrama",
+      "repaso": false,
+      "codigos": [
+        "1.09.4.007"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primera causa de hidronefrosis neonatal: {{c1::estenosis de la unión pieloureteral}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Malformaciones",
+      "repaso": false,
+      "codigos": [
+        "4.03.1.019",
+        "2.01.1.065"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-13/03_dmsa-cicatriz__atlas.jpg",
+      "pregunta": "¿Qué examen es y qué muestra?",
+      "diagnostico": "Cintigrama renal DMSA con cicatriz cortical",
+      "clave": "Defecto fijo cortical con pérdida de volumen",
+      "conducta": "Se pide a los 6 meses de la pielonefritis",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": false,
+      "codigos": [
+        "1.09.4.007"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-13/02_cistouretrografia_rvu__harrison_p2402.jpg",
+      "pregunta": "¿Qué examen es y qué muestra?",
+      "diagnostico": "Uretrocistografía miccional con reflujo bilateral de alto grado",
+      "clave": "Contraste que asciende por ambos uréteres dilatados",
+      "conducta": "Profilaxis antibiótica y derivación a nefrología o urología",
+      "fuente": "Harrison 21.ª ed., Fig. 316-4A",
+      "repaso": false,
+      "codigos": [
+        "4.03.1.021",
+        "2.01.1.065"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "ITU sin fiebre: ¿qué antibiótico y por cuántos días?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1.0",
+      "pista": "Pielonefritis, buen estado, > 3 meses: ¿manejo?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.1",
+      "pista": "Menor de 3 meses, vómitos o tóxico: ¿manejo?"
+    }
+  ]
+}

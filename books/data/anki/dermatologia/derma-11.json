@@ -1,0 +1,474 @@
+{
+  "classId": "derma-11",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el pénfigo vulgar los autoanticuerpos IgG atacan las {{c1::desmogleínas}} de los desmosomas.",
+      "extra": "Provocan acantolisis.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.010",
+        "6.01.1.020"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Autoantígeno principal del pénfigo vulgar en mucosas: la desmogleína {{c1::3}}; en piel, la desmogleína 1.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.010",
+        "6.01.1.020"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Nivel de la ampolla del pénfigo vulgar: {{c1::intraepidérmica suprabasal}}.",
+      "extra": "Aspecto de hilera de lápidas sepulcrales.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Histología",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.010",
+        "6.01.1.020"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "IFD del pénfigo vulgar: depósito intercelular de IgG y C3 en {{c1::red de pescar}} (malla o panal de abejas).",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Biopsia e IFD",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.010",
+        "6.01.1.020"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El pénfigo vulgar suele debutar con {{c1::úlceras orales dolorosas}}, meses antes de la piel.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · La boca avisa",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.010",
+        "6.01.1.020"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Compromiso de mucosa oral en el pénfigo vulgar: {{c1::70 a 90%}} de los casos.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · La boca avisa",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.010",
+        "6.01.1.020"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La ampolla del pénfigo es {{c1::flácida}}, de techo delgado, y se rompe con facilidad.",
+      "extra": "Se ven más erosiones que ampollas intactas.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Semiología",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.010",
+        "6.01.1.020"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signo de Nikolsky en pénfigo vulgar: {{c1::positivo}}.",
+      "extra": "La epidermis se desprende en bloque al frotar piel sana.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla pénfigo vs penfigoide",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.010",
+        "6.01.1.020"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signo de {{c1::Asboe-Hansen}}: al comprimir el techo de una ampolla intacta, el líquido se extiende lateralmente.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Semiología",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.010",
+        "6.01.1.020"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Autoantígenos del penfigoide ampollar: {{c1::BP180 (colágeno XVII) y BP230}}, de los hemidesmosomas.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.010"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Nivel de la ampolla del penfigoide ampollar: {{c1::subepidérmica}}, con techo epidérmico íntegro.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Penfigoide",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.010"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "IFD del penfigoide ampollar: depósito {{c1::lineal continuo}} de IgG y C3 en la membrana basal.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Penfigoide",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.010"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Penfigoide ampollar: predomina en mayores de {{c1::70 a 80 años}}.",
+      "extra": "Con frecuencia demencia, Parkinson o ACV previo.",
+      "origen": "clase:4",
+      "fuente": "Clase · El anciano que pica",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.010"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síntoma cardinal del penfigoide: {{c1::prurito intenso}}, que puede preceder a las ampollas por meses.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · El anciano que pica",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.010"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La ampolla del penfigoide es {{c1::tensa}} y duroelástica; no se rompe fácilmente y dura días.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Penfigoide",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.010"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signo de Nikolsky en penfigoide ampollar: {{c1::negativo}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla pénfigo vs penfigoide",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.010"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El penfigoide ampollar típicamente {{c1::respeta}} la mucosa oral.",
+      "extra": "Compromiso oral menor a 20%.",
+      "origen": "clase:4",
+      "fuente": "Clase · El anciano que pica",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.010"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de elección del penfigoide ampollar: corticoide tópico de muy alta potencia, el {{c1::clobetasol}}.",
+      "extra": "Menor mortalidad que prednisona oral en ancianos.",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.010",
+        "6.01.1.020"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Clobetasol en penfigoide: crema al {{c1::0.05%}} en todo el cuerpo, 20-40 g/día.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.010"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Si el penfigoide es muy extenso se usa prednisona oral a {{c1::0.5 mg/kg/día}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.010"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Pilar inicial del pénfigo vulgar: {{c1::prednisona}} oral en dosis altas.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.010",
+        "6.01.1.020"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Prednisona en pénfigo vulgar: {{c1::1.0 a 1.5 mg/kg/día}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.010",
+        "6.01.1.020"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Antes de los corticoides, la mortalidad del pénfigo vulgar era mayor a {{c1::70%}}.",
+      "extra": "Por sepsis o deshidratación.",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.010",
+        "6.01.1.020"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para biopsia de ampolla autoinmune se hacen {{c1::dos muestras}} con punch de 3 a 4 mm: una para histología y otra para IFD.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Biopsia e IFD",
+      "repaso": false,
+      "codigos": [
+        "6.01.5.001"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La muestra para histología se toma del borde de una ampolla de menos de {{c1::24 horas}}, en formalina.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Biopsia",
+      "repaso": true,
+      "codigos": [
+        "6.01.5.001"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La muestra para IFD se toma de piel sana perilesional a {{c1::1 cm}} de la ampolla, en medio de Michel o suero, no en formalina.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Biopsia",
+      "repaso": true,
+      "codigos": [
+        "6.01.5.001"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Error frecuente: biopsiar {{c1::una ampolla antigua o solo su techo}}; tiene cambios secundarios.",
+      "extra": "Se toma ampolla reciente más piel perilesional.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Biopsia",
+      "repaso": false,
+      "codigos": [
+        "6.01.5.001"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adulto mayor con lesiones ulceradas sospechosas en la pierna: conducta {{c1::tomar biopsia}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Biopsia",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 114"
+      ],
+      "codigos": [
+        "6.01.5.001"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_verificadas/280_derma_Signo_de_Nikolsky__nelsontext_p5312_1.jpg",
+      "pregunta": "¿Qué signo es y qué orienta?",
+      "diagnostico": "Signo de Nikolsky positivo",
+      "clave": "Al frotar piel sana la epidermis se desprende",
+      "conducta": "Pensar en pénfigo; biopsia con IFD y prednisona en dosis altas",
+      "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 5312",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.010",
+        "6.01.1.020"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/19_dermatologia/derma-11/atlas_082_penfigo_vulgar_oral_erosiones_.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Pénfigo vulgar oral",
+      "clave": "Erosiones dolorosas en mucosa oral que preceden a la piel",
+      "conducta": "Biopsia con IFD; prednisona 1 a 1,5 mg/kg/día y derivar",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.010",
+        "6.01.1.020"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-11/02_penfigoide-ampolloso-tensas__cto-derma_p72.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Penfigoide ampollar",
+      "clave": "Ampollas tensas sobre base eritematosa en abdomen e ingles, en anciano con prurito",
+      "conducta": "Clobetasol tópico de alta potencia; biopsia con IFD lineal",
+      "fuente": "Manual CTO Dermatología 14.ª ed., p. 72",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.010"
+      ]
+    },
+    {
+      "id": "i04",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_web/281_derma_Inmunofluorescencia_directa__Commons_1.jpg",
+      "pregunta": "¿Qué muestra y qué diagnóstico apoya?",
+      "diagnostico": "IFD de pénfigo vulgar",
+      "clave": "Depósito intercelular de IgG y C3 en red de pescar",
+      "conducta": "Confirma pénfigo vulgar; tratar con corticoides sistémicos y rituximab",
+      "fuente": "Wikimedia Commons, CC BY 3.0",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.010",
+        "6.01.1.020"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Ampolla: ¿qué evalúas primero?",
+      "codigos": [
+        "6.01.2.010"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0",
+      "pista": "Flácida, úlceras orales previas: ¿qué diagnóstico y tratamiento?",
+      "codigos": [
+        "6.01.2.010"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0",
+      "pista": "Anciano con prurito y ampolla tensa: ¿tratamiento?",
+      "codigos": [
+        "6.01.2.010"
+      ]
+    }
+  ]
+}

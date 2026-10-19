@@ -1,0 +1,515 @@
+{
+  "classId": "endo-03",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El coma mixedematoso tiene una mortalidad de {{c1::30 a 50%}}.",
+      "extra": "Es la máxima urgencia del hipotiroidismo.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El paciente típico del coma mixedematoso es una {{c1::mujer de edad avanzada}} en invierno, con letargia progresiva, sopor o coma.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · ¿Quién llega?",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-03/01_facies_mixedema__commons.jpg",
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el coma mixedematoso hay un factor gatillante identificable en más del {{c1::90%}} de los casos.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Gatillantes",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.002",
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Gatillantes del coma mixedematoso: frío ambiental, {{c1::infecciones}}, sedantes u opioides, ACV o infarto.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Gatillantes",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hipotermia del coma mixedematoso es una temperatura central menor de {{c1::35 °C}}, frecuente entre 30 y 34 °C.",
+      "extra": "Se mide con termómetro rectal.",
+      "origen": "clase:3",
+      "fuente": "Clase · La tríada",
+      "repaso": true,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tríada del coma mixedematoso: hipotermia, {{c1::alteración del estado mental}} y compromiso cardiovascular y respiratorio.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tríada",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estado mental en el coma mixedematoso: del sopor al coma, o psicosis llamada {{c1::\"locura mixedematosa\"}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · La tríada",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el coma mixedematoso hay bradicardia (< 50), hipotensión con shock {{c1::refractario a volumen}} e hipoventilación con hipercapnia.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · La tríada",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hipoventilación con hipercapnia del coma mixedematoso suele requerir {{c1::intubación y ventilación}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · La tríada",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El shock refractario del coma mixedematoso se explica por {{c1::depresión miocárdica y cronotropismo negativo}} por déficit de hormona tiroidea.",
+      "extra": "Requiere inotrópicos y vasopresores mientras actúa la levotiroxina.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro · Pregunta Julio 2023",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.002",
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Laboratorio del coma mixedematoso: TSH {{c1::> 50–100}} con T4 libre indetectable (salvo el central: TSH baja).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Laboratorio",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El coma mixedematoso cursa con hiponatremia {{c1::< 120–125}} porque no se excreta agua libre (más ADH).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Laboratorio",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 30"
+      ],
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipoglicemia en el coma mixedematoso alerta de {{c1::insuficiencia suprarrenal o hipopituitarismo}} asociados.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Laboratorio",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El coma mixedematoso muestra acidosis {{c1::respiratoria hipercápnica}}, CK alta y anemia.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Laboratorio",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el score de Popoveniuc, un puntaje {{c1::≥ 60}} hace casi seguro el diagnóstico.",
+      "extra": "Usa temperatura, conciencia, corazón y gatillante.",
+      "origen": "clase:4",
+      "fuente": "Clase · Score de Popoveniuc",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Paciente con piel seca, bradicardia, hipotensión, compromiso de conciencia, TSH 100 y T4 libre muy baja: {{c1::coma mixedematoso}}.",
+      "extra": "El compromiso de conciencia lo separa de un hipotiroidismo sin urgencia vital.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Enero 2023",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 153"
+      ],
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Regla de oro del coma mixedematoso: dar {{c1::hidrocortisona EV}} antes o junto con la levotiroxina.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 30"
+      ],
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hidrocortisona en coma mixedematoso: {{c1::100 mg EV en bolo}} y luego 100 mg cada 8 horas.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Hidrocortisona antes",
+      "repaso": true,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La levotiroxina sola acelera la degradación del cortisol y precipita una {{c1::crisis adisoniana}} con colapso vascular y paro.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Hidrocortisona antes",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante sospecha de coma mixedematoso, el error es {{c1::esperar el cortisol sérico}} para dar hidrocortisona.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer de 46 años con anemia perniciosa y vitíligo, sopor, Na 130 y relajación lenta de reflejos: tratamiento inicial {{c1::corticoides EV}} y luego levotiroxina EV.",
+      "extra": "La autoinmunidad poliglandular sugiere reserva suprarrenal limítrofe.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Diciembre 2025",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 30"
+      ],
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Levotiroxina en coma mixedematoso: carga de {{c1::300 a 500 mcg EV en 30 minutos}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.03.2.002",
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Mantención de levotiroxina tras la carga en coma mixedematoso: {{c1::50 a 100 mcg diarios}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La levotiroxina va por vía EV porque el {{c1::íleo mixedematoso}} hace errática la absorción oral.",
+      "extra": "Si no hay formulación EV, por sonda nasogástrica.",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En coma mixedematoso, el error es dar la levotiroxina {{c1::por vía oral}} a un intestino con íleo.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La liotironina (T3) en dosis bajas es una {{c1::opción adicional}} si se dispone.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Orden de rescate: primero {{c1::hidrocortisona}}, segundo levotiroxina, o ambas juntas.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El recalentamiento en coma mixedematoso es {{c1::pasivo}}, con mantas convencionales en sala temperada.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 15"
+      ],
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El recalentamiento activo (baño caliente, manta eléctrica) causa {{c1::vasodilatación brusca}}, shock distributivo e infarto.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Calentar despacio",
+      "repaso": true,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hiponatremia con Na < 120 sintomático en coma mixedematoso: {{c1::NaCl 3% en infusión lenta}}.",
+      "extra": "Si no es sintomática: restricción hídrica con suero glucosado.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la hiponatremia del coma mixedematoso, el error es usar {{c1::hemodiálisis o bolos de suero}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Siempre se toman {{c1::hemocultivos}} y se inicia antibiótico empírico de amplio espectro porque la infección es el gatillante número 1.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer de 78 años en coma, temperatura rectal 31,8 °C, FC 42, Na 118, glicemia 55: intubar, hidrocortisona 100 mg EV con levotiroxina EV y {{c1::recalentamiento pasivo}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El coma mixedematoso es una patología de urgencia vital y cuidados intensivos en {{c1::red de alta complejidad}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Perfil · GES",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/05_endocrinologia/endo-03/01_facies_mixedema__commons.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Facies de mixedema grave",
+      "clave": "Cara infiltrada, apática, de aspecto abotagado",
+      "conducta": "Sospechar coma mixedematoso: hidrocortisona EV y luego levotiroxina EV, recalentamiento pasivo",
+      "fuente": "Wikimedia Commons, Myxedema face (CC BY 2.5)",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.002"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Mixedematosa con hipoventilación: ¿qué haces?",
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "¿Qué fármaco va primero, en todos los casos?",
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0",
+      "pista": "Después del corticoide: ¿qué hormona y dosis?",
+      "codigos": [
+        "1.03.2.002"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.0.0.0",
+      "pista": "Hipotermia: ¿cómo recalentar?",
+      "codigos": [
+        "1.03.2.002"
+      ]
+    }
+  ]
+}

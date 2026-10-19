@@ -1,0 +1,552 @@
+{
+ "report": {
+  "topics": {
+   "T17.1": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 4,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T17.2": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T17.3": {
+    "steps": 7,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T17.4": {
+    "steps": 17,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 260,
+    "traps": 2,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T17.5": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T17.6": {
+    "steps": 7,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T17.7": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T17.8": {
+    "steps": 7,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T17.9": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T17.10": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 0.93,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 5,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T17.11": {
+    "steps": 10,
+    "split": false,
+    "algo": {
+     "scale": 0.97,
+     "orient": "td"
+    },
+    "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T17.12": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T17.13": {
+    "steps": 10,
+    "split": false,
+    "algo": {
+     "scale": 0.88,
+     "orient": "lr"
+    },
+    "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T17.14": {
+    "steps": 9,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 245,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T17.19": {
+    "steps": 12,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T17.15": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 0.93,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 5,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T17.16": {
+    "steps": 20,
+    "split": false,
+    "algo": {
+     "scale": 0.86,
+     "orient": "td"
+    },
+    "algoH": 230,
+    "traps": 2,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T17.17": {
+    "steps": 13,
+    "split": false,
+    "algo": {
+     "scale": 0.79,
+     "orient": "td"
+    },
+    "algoH": 220,
+    "traps": 0,
+    "ask": 4,
+    "tight": true,
+    "overflow": false
+   },
+   "T17.18": {
+    "steps": 22,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 230,
+    "traps": 1,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T17.20": {
+    "steps": 12,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   }
+  },
+  "warnings": [
+   "T17.17: algoritmo al 79 %"
+  ],
+  "pages": 31,
+  "where": {
+   "COVER": 1,
+   "IDX": 2,
+   "T17.1": 3,
+   "T17.2": 5,
+   "T17.3": 6,
+   "T17.4": 7,
+   "T17.5": 8,
+   "T17.6": 9,
+   "T17.7": 10,
+   "T17.8": 11,
+   "T17.9": 12,
+   "T17.10": 13,
+   "T17.11": 15,
+   "T17.12": 16,
+   "T17.13": 17,
+   "T17.14": 18,
+   "T17.19": 19,
+   "T17.15": 20,
+   "T17.16": 22,
+   "T17.17": 23,
+   "T17.18": 24,
+   "T17.20": 25,
+   "NUM": 26,
+   "DRUG": 28,
+   "GES": 28,
+   "PLAN": 30,
+   "PRIO": 31
+  }
+ },
+ "stars": [
+  {
+   "t": "17.1",
+   "real": 22,
+   "stars": 3,
+   "lg": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ]
+  },
+  {
+   "t": "17.2",
+   "real": 11,
+   "stars": 2,
+   "lg": [
+    18
+   ]
+  },
+  {
+   "t": "17.3",
+   "real": 1,
+   "stars": 1,
+   "lg": [
+    2
+   ]
+  },
+  {
+   "t": "17.4",
+   "real": 18,
+   "stars": 3,
+   "lg": []
+  },
+  {
+   "t": "17.5",
+   "real": 17,
+   "stars": 2,
+   "lg": [
+    21,
+    22
+   ]
+  },
+  {
+   "t": "17.6",
+   "real": 19,
+   "stars": 3,
+   "lg": [
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+   ]
+  },
+  {
+   "t": "17.7",
+   "real": 12,
+   "stars": 2,
+   "lg": [
+    30,
+    31,
+    32,
+    33
+   ]
+  },
+  {
+   "t": "17.8",
+   "real": 11,
+   "stars": 2,
+   "lg": [
+    34,
+    35,
+    36
+   ]
+  },
+  {
+   "t": "17.9",
+   "real": 15,
+   "stars": 2,
+   "lg": [
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54
+   ]
+  },
+  {
+   "t": "17.10",
+   "real": 32,
+   "stars": 3,
+   "lg": [
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44
+   ]
+  },
+  {
+   "t": "17.11",
+   "real": 33,
+   "stars": 3,
+   "lg": [
+    45,
+    46
+   ]
+  },
+  {
+   "t": "17.12",
+   "real": 32,
+   "stars": 3,
+   "lg": [
+    56,
+    57
+   ]
+  },
+  {
+   "t": "17.13",
+   "real": 5,
+   "stars": 1,
+   "lg": [
+    58,
+    59,
+    60,
+    61
+   ]
+  },
+  {
+   "t": "17.14",
+   "real": 8,
+   "stars": 1,
+   "lg": [
+    62,
+    63,
+    64,
+    65,
+    66
+   ]
+  },
+  {
+   "t": "17.19",
+   "real": 9,
+   "stars": 1,
+   "lg": []
+  },
+  {
+   "t": "17.15",
+   "real": 10,
+   "stars": 2,
+   "lg": [
+    67,
+    68,
+    69,
+    70,
+    71,
+    72
+   ]
+  },
+  {
+   "t": "17.16",
+   "real": 13,
+   "stars": 2,
+   "lg": [
+    1,
+    20,
+    74,
+    75,
+    76,
+    77
+   ]
+  },
+  {
+   "t": "17.17",
+   "real": 7,
+   "stars": 1,
+   "lg": [
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85
+   ]
+  },
+  {
+   "t": "17.18",
+   "real": 18,
+   "stars": 3,
+   "lg": [
+    55,
+    86,
+    87,
+    88,
+    89,
+    90
+   ]
+  },
+  {
+   "t": "17.20",
+   "real": 2,
+   "stars": 1,
+   "lg": [
+    19,
+    37
+   ]
+  }
+ ],
+ "lg": {
+  "name": "Psiquiatría General",
+  "file": "Libro_Gordo_Psiquiatria_90Q.pdf",
+  "unassigned": [
+   73
+  ],
+  "byLabel": 83,
+  "byCode": 6,
+  "total": 90,
+  "unassignedInfo": [
+   {
+    "n": 73,
+    "title": "Encopresis",
+    "code": "5.01.1.027",
+    "stem": "[ATENCIÓN PRIMARIA: Encopresis · 5.01.1.027] Paciente de 52 años es evaluado en control médico en Atención Primaria de Salud (CESFAM) presentando antecedentes y cuadro clínico compatible con Encopresis. El paciente se encuentra he"
+   }
+  ]
+ },
+ "stats": {
+  "numbers": 52,
+  "drugs": 11,
+  "ges": 9
+ }
+}

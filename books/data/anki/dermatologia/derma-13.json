@@ -1,0 +1,463 @@
+{
+  "classId": "derma-13",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Más de {{c1::50-100}} nevos melanocíticos comunes aumentan el riesgo de melanoma.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Factores de riesgo",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.017"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "ABCDE de la lesión pigmentada: Asimetría, Bordes, Color, {{c1::Diámetro}}, Evolución.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.017"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el ABCDE, el diámetro sospechoso es mayor a {{c1::6 mm}}.",
+      "extra": "Melanomas iniciales pueden ser menores.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 ABCDE",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.017"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El criterio más sensible del ABCDE es la {{c1::E (evolución)}}.",
+      "extra": "También lesión nueva en adulto: el patito feo.",
+      "origen": "clase:15",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.017"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Melanoma de extensión superficial: {{c1::70%}}, el subtipo más frecuente.",
+      "extra": "Espalda en hombres, piernas en mujeres.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla subtipos",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.017"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El melanoma {{c1::nodular}} es el subtipo más agresivo, con fase de crecimiento vertical desde el inicio.",
+      "extra": "Nódulo azul-negro, Breslow alto.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Subtipos",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.017"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El léntigo maligno melanoma aparece en {{c1::cara}} de ancianos con daño solar crónico, precedido por la peca de Hutchinson.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Subtipos",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.017"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El melanoma lentiginoso acral {{c1::no depende}} de la exposición solar; afecta palmas, plantas y uñas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Subtipos",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.017"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Melanoma acral: 5% en caucásicos, pero más de {{c1::50%}} en poblaciones mestizas y chilenas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Subtipos",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.017"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Lesión acral en paciente sin exposición solar: el error es {{c1::descartar melanoma}} porque no toma sol.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.017"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Biopsia de elección ante sospecha de melanoma: {{c1::excisional completa}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 114"
+      ],
+      "codigos": [
+        "6.01.1.017",
+        "6.01.5.001"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La biopsia excisional se hace con margen de {{c1::1 a 2 mm}} de piel sana, incluyendo el tejido celular subcutáneo.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Diagnóstico",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.017"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Están contraindicadas las biopsias por {{c1::rasurado (shave) o punch superficial}} en lesión sospechosa de melanoma.",
+      "extra": "Impiden medir el Breslow real.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Diagnóstico",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.017"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Índice de Breslow se mide desde la capa {{c1::granulosa}} hasta la célula tumoral más profunda.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Breslow",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.017"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El factor pronóstico individual más importante del melanoma localizado es el {{c1::Índice de Breslow}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.017"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Melanoma in situ: margen de ampliación de {{c1::0.5 cm}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Ampliación",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.017"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Breslow ≤ 1.0 mm: margen de ampliación de {{c1::1.0 cm}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Ampliación",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.017"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Breslow 1.01 a 2.0 mm: margen de {{c1::1.0 a 2.0 cm}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Ampliación",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.017"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Breslow > 2.0 mm: margen de {{c1::2.0 cm}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Ampliación",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.017"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se indica ganglio centinela con Breslow > {{c1::0.8 mm}}, sin adenopatías palpables.",
+      "extra": "También si es menor con ulceración o mitosis elevadas.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Ganglio centinela",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.017"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Breslow 0,6 mm sin ulceración: margen de 1 cm; el error es pedir {{c1::ganglio centinela}} igual.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.017",
+        "6.01.5.001"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Breslow > 0,8 mm: el error es omitir el ganglio centinela porque {{c1::no se palpan adenopatías}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.017",
+        "6.01.5.001"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante ABCDE positivo, el error es hacer biopsia shave o punch {{c1::para no dejar cicatriz}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.01.5.001"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Nódulo azul-negro de crecimiento rápido: el error es {{c1::esperar semanas}} para ver evolución; se deriva de inmediato.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.017"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La dermatoscopía usa luz polarizada y aumento de {{c1::10 veces}}.",
+      "extra": "Aumenta la sensibilidad y evita biopsias innecesarias.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Dermatoscopía",
+      "repaso": false,
+      "codigos": [
+        "6.01.4.002"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dermatoscopía de alarma: red atípica, pseudópodos, {{c1::velo azul blanquecino}} y estructuras de regresión.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Dermatoscopía",
+      "repaso": true,
+      "codigos": [
+        "6.01.4.002"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dermatoscopía sospechosa de melanoma: {{c1::biopsia excisional}} con margen de 1 a 3 mm y derivar.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Dermatoscopía",
+      "repaso": true,
+      "codigos": [
+        "6.01.4.002",
+        "6.01.1.017"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si hay más de 50 nevos o antecedente de melanoma, el seguimiento incluye {{c1::mapeo corporal total}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Dermatoscopía",
+      "repaso": false,
+      "codigos": [
+        "6.01.4.002"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_web/277_derma_Nevo_benigno_comparación_ABC__Commons_2.jpg",
+      "pregunta": "¿Qué compara y qué haces?",
+      "diagnostico": "Nevo común frente a melanoma (ABCDE)",
+      "clave": "Nevo redondo, de un color, bordes netos; el melanoma es asimétrico, irregular y policromo",
+      "conducta": "Lesión con ABCDE positivo: biopsia excisional completa con margen de 1 a 2 mm",
+      "fuente": "Wikimedia Commons, dominio público",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.017"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-13/01_melanoma-abcde__amir-derma_p78.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Melanoma",
+      "clave": "Lesión asimétrica, de bordes irregulares y varios tonos",
+      "conducta": "Biopsia excisional completa con hipodermis; Breslow define margen",
+      "fuente": "Manual AMIR Dermatología, p. 78",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.017",
+        "6.01.5.001"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_web/278_derma_Melanoma_nodular__Commons_3.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Melanoma nodular",
+      "clave": "Nódulo cupuliforme negro-azulado que sangra o se ulcera",
+      "conducta": "Derivar de inmediato; biopsia excisional",
+      "fuente": "Wikimedia Commons, CC BY-SA 4.0",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.017"
+      ]
+    },
+    {
+      "id": "i04",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/19_dermatologia/derma-13/atlas_083_melanoma_lentiginoso_acral_en_.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Melanoma lentiginoso acral subungueal",
+      "clave": "Pigmento bajo la uña que invade el pliegue (signo de Hutchinson)",
+      "conducta": "Sospechar melanoma aunque no haya sol; biopsia excisional y derivar",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.017"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Lesión con ABCDE: ¿qué biopsia?",
+      "codigos": [
+        "6.01.5.001"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Breslow 0,8 mm o menos sin ulceración: ¿qué haces?",
+      "codigos": [
+        "6.01.1.017"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "Breslow mayor a 0,8 mm: ¿qué se agrega?",
+      "codigos": [
+        "6.01.1.017"
+      ]
+    }
+  ]
+}

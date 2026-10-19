@@ -1,0 +1,561 @@
+{
+  "classId": "nefro-20",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La HTA secundaria es el {{c1::5–10 %}} de las HTA; la esencial explica 90–95 % del adulto.",
+      "extra": "Predomina bajo los 40 años.",
+      "origen": "clase:6",
+      "fuente": "Clase · HTA esencial",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.008",
+        "2.01.1.061"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa más frecuente de HTA secundaria renovascular curable es la {{c1::estenosis de la arteria renal}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro · ¿Por qué?",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.009",
+        "4.01.1.045"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la EAR el riñón isquémico secreta {{c1::renina}} masiva: angiotensina II, aldosterona e HTA con K bajo.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Un riñón que cree que le falta presión",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.009",
+        "4.01.1.045"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sospechar EAR si la HTA es de inicio brusco en menores de {{c1::30}} o mayores de 55–60 años.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Sospecha clínica",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 1"
+      ],
+      "codigos": [
+        "1.09.1.009",
+        "4.01.1.045"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "HTA refractaria: no cede con {{c1::3 fármacos}} a dosis plenas, uno diurético.",
+      "extra": "Descartar adherencia, bata blanca, AINE y causas secundarias.",
+      "origen": "clase:2",
+      "fuente": "Clase · Sospecha clínica",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 24"
+      ],
+      "codigos": [
+        "1.09.4.013",
+        "1.09.1.008"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Soplo abdominal continuo o sisto-diastólico en flanco o epigastrio: presente en el {{c1::40–50 %}} de las EAR.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Sospecha clínica",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 1"
+      ],
+      "codigos": [
+        "1.09.1.009",
+        "4.01.1.045"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Joven con HTA severa, cefalea y soplo en flanco derecho: {{c1::hipertensión renovascular}} (displasia fibromuscular).",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Dic. 2018",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 1"
+      ],
+      "codigos": [
+        "1.09.1.009",
+        "4.01.1.045"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Creatinina que sube > {{c1::30 %}} en las 2 primeras semanas de IECA/ARA-II: sello de estenosis bilateral o riñón único.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Sospecha",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.009",
+        "4.01.1.045"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Episodios recurrentes de edema pulmonar súbito con función sistólica preservada: {{c1::flash pulmonary edema}} de la EAR.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Sospecha clínica",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.009",
+        "4.01.1.045"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La displasia fibromuscular afecta a {{c1::mujeres de 15 a 35 años}} sin factores de riesgo cardiovascular.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · DFM vs ateroesclerosis",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.009",
+        "4.01.1.045"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Displasia fibromuscular: enfermedad de la capa {{c1::media}}, no inflamatoria ni ateroesclerótica, en los dos tercios distales.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 DFM",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.009",
+        "4.01.1.045"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Imagen angiográfica de la displasia fibromuscular: «{{c1::collar de perlas}}».",
+      "extra": "Estrechamientos alternados con dilataciones.",
+      "origen": "foto",
+      "fuente": "Wikimedia Commons · Collar de perlas",
+      "repaso": true,
+      "imagen": "biblioteca/07_nefrologia/nefro-20/atlas_016_fmd_collar_perlas__commons.jpg",
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 1"
+      ],
+      "codigos": [
+        "1.09.1.009",
+        "4.01.1.045"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Displasia fibromuscular: {{c1::angioplastía con balón sin stent}}.",
+      "extra": "Cura la HTA en más del 70 %.",
+      "origen": "clase:5",
+      "fuente": "Clase · La causa decide el tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.009",
+        "4.01.1.045"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ateroesclerosis renal: mayores de 60, fumadores, diabéticos; placa en el {{c1::ostium}} o tercio proximal.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · DFM vs ateroesclerosis",
+      "repaso": true,
+      "imagen": "biblioteca/07_nefrologia/nefro-20/atlas_325_estenosis_ostial__ctmri_p357.jpg",
+      "codigos": [
+        "1.09.1.009",
+        "4.01.1.045"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Ateroesclerosis renal: tratamiento inicial {{c1::médico intensivo}} (estatinas, antiagregantes, control de PA).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Ateroesclerosis",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.009",
+        "4.01.1.045"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El stent en ateroesclerosis renal se reserva para refractaria, TFG que cae o {{c1::edema pulmonar recurrente}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · La causa decide el tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.009",
+        "4.01.1.045"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El examen inicial de elección ante sospecha de EAR es la ecografía {{c1::Doppler}} de arterias renales.",
+      "extra": "No invasiva, sin radiación ni contraste.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Estrategia diagnóstica",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 24",
+        "EUNACOM Enero 2023 · Pregunta 83"
+      ],
+      "codigos": [
+        "1.09.1.009",
+        "4.01.1.045"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Doppler de EAR significativa: velocidad sistólica máxima > {{c1::180–200 cm/s}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Estrategia diagnóstica",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.009",
+        "4.01.1.045"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Doppler: relación velocidad sistólica reno-aórtica > {{c1::3,5}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Estrategia diagnóstica",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.009",
+        "4.01.1.045"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estenosis significativa en Doppler es > {{c1::60 %}} de la luz vascular.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Estrategia diagnóstica",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.009",
+        "4.01.1.045"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si se planea intervenir: confirmar con {{c1::AngioTAC o angio-RM}}; la arteriografía es el estándar de oro.",
+      "extra": "Trata con angioplastía en el mismo acto.",
+      "origen": "clase:4",
+      "fuente": "Clase · Primero el Doppler",
+      "repaso": false,
+      "imagen": "biblioteca/03_nefrologia/nefro-20/01_angiotc_arteria_renal_fmd__harrison_p2132.jpg",
+      "codigos": [
+        "1.09.4.001",
+        "1.09.1.009"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "HTA en 65 años con atenolol + enalapril a dosis plenas y K 3,4: el siguiente examen es {{c1::Doppler de arterias renales}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Dic. 2022",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 24"
+      ],
+      "codigos": [
+        "1.09.1.009",
+        "4.01.1.045"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "HTA: promedio de PA ≥ {{c1::140/90 mmHg}} en dos o más visitas, tras 5 minutos de reposo sentado.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 HTA esencial",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.008",
+        "2.01.1.061"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "HTA etapa 1: {{c1::140–159/90–99}}; etapa 2: 160–179/100–109; etapa 3: ≥ 180/110 mmHg.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · HTA esencial",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.008",
+        "2.01.1.061"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Retinopatía grado III–IV (hemorragias, exudados, edema de papila) obliga a descartar {{c1::emergencia hipertensiva}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · HTA esencial",
+      "repaso": false,
+      "imagen": "biblioteca/07_nefrologia/nefro-20/01_retinopatia-hipertensiva__harrison_p263.jpg",
+      "codigos": [
+        "1.09.1.008",
+        "2.01.1.061"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Se inicia fármaco desde la etapa {{c1::2}}, o en etapa 1 con riesgo alto, daño de órgano, diabetes o ERC.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento HTA",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.008",
+        "2.01.1.061"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Primera línea en HTA: IECA/ARA-II, {{c1::tiazidas}} y amlodipino; betabloqueadores solo con indicación específica.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.008",
+        "2.01.1.061"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Metas de PA: < {{c1::140/90}} en general y < {{c2::130/80}} en diabetes, ERC con albuminuria y riesgo alto.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento HTA",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.008",
+        "2.01.1.061"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "HTA en el embarazo: {{c1::metildopa, labetalol o nifedipino}}, nunca IECA/ARA-II.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento HTA",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.008",
+        "2.01.1.061"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Sal en el hipertenso: < {{c1::5 g/día}}; ejercicio 150 minutos por semana.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento HTA",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.010",
+        "1.09.1.008"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "MAPA confirma HTA con promedio de 24 h ≥ {{c1::130/80}}, vigilia ≥ 135/85 o sueño ≥ 120/70.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Holter de presión",
+      "repaso": true,
+      "codigos": [
+        "1.09.4.013",
+        "1.09.1.008"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PA alta en consulta y MAPA normal = HTA de {{c1::bata blanca}}; PA normal en consulta y MAPA alta = enmascarada.",
+      "extra": "",
+      "origen": "clase:21",
+      "fuente": "Clase · Quiz MAPA",
+      "repaso": false,
+      "codigos": [
+        "1.09.4.013",
+        "1.09.1.008"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Patrón {{c1::non-dipper}} (descenso nocturno < 10 %) se asocia a mayor riesgo cardiovascular y renal.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Holter de presión",
+      "repaso": false,
+      "codigos": [
+        "1.09.4.013",
+        "1.09.1.008"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "HTA en niños: ≥ percentil {{c1::95}} en tres ocasiones; bajo 10 años predominan las causas secundarias (parénquima renal).",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · HTA en niños",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.008",
+        "2.01.1.061"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/07_nefrologia/nefro-20/atlas_016_fmd_collar_perlas__commons.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Displasia fibromuscular de arteria renal",
+      "clave": "Imagen en collar de perlas: estrechamientos y dilataciones alternados",
+      "conducta": "Mujer joven: angioplastía con balón sin stent; arteriografía es el estándar de oro",
+      "fuente": "Wikimedia Commons CC BY 2.0",
+      "repaso": true,
+      "codigos": [
+        "1.09.4.001",
+        "1.09.1.009"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "¿Hay pistas de estenosis renal?",
+      "codigos": [
+        "1.09.1.009",
+        "4.01.1.045"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Pistas presentes: ¿primer examen?",
+      "codigos": [
+        "1.09.1.009",
+        "4.01.1.045"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.0",
+      "pista": "Mujer joven con estenosis: ¿qué diagnóstico y tratamiento?",
+      "codigos": [
+        "1.09.1.009",
+        "4.01.1.045"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.0.1",
+      "pista": "Mayor de 60 con estenosis: ¿qué tratamiento?",
+      "codigos": [
+        "1.09.1.009",
+        "4.01.1.045"
+      ]
+    }
+  ]
+}

@@ -364,7 +364,7 @@ module.exports = {
         { letter: 'E', text: 'Insuficiencia renal' },
       ],
       correct: 'C',
-      explanation: 'La balanopostitis (en especial la candidiásica) se asocia a diabetes.',
+      explanation: 'Balanopostitis en adulto: descartar diabetes mellitus con glicemia.',
       say: {
         stem: 'Una pregunta real del EUNACOM de diciembre de dos mil diecisiete. Un hombre de sesenta años con eritema y picazón del glande y del prepucio, con signos inflamatorios.',
         question: 'Además de tratarlo, ¿qué enfermedad sistémica se debe descartar?',

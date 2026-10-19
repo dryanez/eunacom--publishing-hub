@@ -1,0 +1,494 @@
+{
+  "classId": "ped-14",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La convulsión febril ocurre entre los {{c1::6 meses y 5 años}} con fiebre y sin infección del SNC.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definición",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.006",
+        "2.01.2.024"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Convulsión febril: temperatura axilar ≥ {{c1::38.0°C}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definición",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para llamarla convulsión febril debe estar ausente {{c1::infección intracraneal, alteración metabólica o crisis afebriles previas}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definición",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las convulsiones febriles afectan al 2-5% de los niños con pico a los {{c1::18 meses}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro · Por qué",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La crisis febril simple constituye {{c1::70-80%}} de los casos.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla simple vs compleja",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Crisis febril simple: semiología {{c1::generalizada}} (tónico-clónica bilateral).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla simple vs compleja",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 158"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Crisis febril simple: duración < {{c1::15 minutos}}, habitualmente < 5 min.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla simple vs compleja",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Crisis febril simple: {{c1::único}} episodio en 24 horas, con recuperación completa.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla simple vs compleja",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La crisis febril compleja requiere {{c1::solo uno}} de los criterios atípicos.",
+      "extra": "Focal, prolongada, repetida o con Todd.",
+      "origen": "clase:15",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterio de crisis compleja: duración > {{c1::15 minutos}}.",
+      "extra": "Status febril si supera los 30 min.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clasificación",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterio de crisis compleja: focalidad motora, es decir {{c1::inicio focal o compromiso asimétrico}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clasificación",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterio de crisis compleja: ≥ {{c1::2 episodios}} en las mismas 24 horas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clasificación",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La parálisis de Todd es la {{c1::paresia focal transitoria postictal}} y define crisis compleja.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clasificación",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante una crisis focal o que se repite en 24 horas, el error es {{c1::llamarla simple porque cede sola}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La crisis febril simple {{c1::NO requiere EEG ni neuroimagen}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 158"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la primera crisis febril simple no se inicia {{c1::ácido valproico}} ni anticonvulsivante de mantención.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Manejo de la crisis febril simple: tratar el foco infeccioso, {{c1::educar a los padres}} y dar de alta.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · caso clínico",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 158"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los antipiréticos alivian el malestar pero {{c1::no previenen la recurrencia}} de las crisis febriles.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Indicación de PL: signos meníngeos o {{c1::fontanela abombada}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Punción lumbar",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.008"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Indicación de PL: letargia o irritabilidad extrema que persiste tras {{c1::1-2 horas}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Punción lumbar",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.008"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Indicación de PL: lactante de 6 a 12 meses con inmunizaciones incompletas contra {{c1::Haemophilus influenzae b o neumococo}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · PL cuándo no se discute",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.008"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Indicación de PL: lactante que recibía {{c1::antibiótico previo}}.",
+      "extra": "Puede enmascarar una meningitis decapitada.",
+      "origen": "clase:3",
+      "fuente": "Clase · PL cuándo no se discute",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.008"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Riesgo de nueva crisis febril: aproximadamente {{c1::30%}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Pronóstico",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El riesgo de recurrencia sube a {{c1::50%}} si el debut fue antes del año.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Pronóstico",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Riesgo de epilepsia futura tras crisis simple: {{c1::1-2%}}.",
+      "extra": "Similar a la población general.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Pronóstico",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Riesgo de epilepsia tras crisis compleja: {{c1::5-10%}}.",
+      "extra": "Más con antecedente familiar o daño previo.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Pronóstico",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estado epiléptico: crisis de más de {{c1::5 minutos}} o dos crisis sin recuperar conciencia.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Estado epiléptico",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.024"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primera línea en estado epiléptico: {{c1::benzodiacepina}} (diazepam, midazolam o lorazepam).",
+      "extra": "Diazepam, midazolam o lorazepam.",
+      "origen": "clase:2",
+      "fuente": "Clase · Estado epiléptico",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.024"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 33"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Diazepam EV en crisis: {{c1::0,2 a 0,5 mg/kg}} (máx. 10 mg).",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Estado epiléptico",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.024"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Si la glicemia capilar es < {{c1::60 mg/dL}} en una crisis: suero glucosado 10%, 2 mL/kg.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Estado epiléptico",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.024"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Segunda línea del estado epiléptico: {{c1::fenitoína, fenobarbital o levetiracetam}}.",
+      "extra": "Refractario: UCI.",
+      "origen": "clase:2",
+      "fuente": "Clase · Estado epiléptico",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.024"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Epilepsia: dos o más crisis no provocadas separadas por más de {{c1::24 horas}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Epilepsia",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.081"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Epilepsia de ausencia: punta-onda a {{c1::3 Hz}} con hiperventilación.",
+      "extra": "Se estudia con EEG; etosuximida o valproato.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Epilepsia",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.081"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 21",
+        "EUNACOM Julio 2016 · Pregunta 78"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Espasmos infantiles (West): {{c1::hipsarritmia}} y retraso del desarrollo.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Epilepsia",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.081"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Contraindicación de PL: signos de hipertensión endocraneana, primero se hace {{c1::TAC}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Contraindicaciones PL",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.008"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "Crisis simple sin signos meníngeos: ¿qué haces?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.1",
+      "pista": "Crisis simple con signos meníngeos o letargia: ¿qué examen?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "Crisis focal, prolongada o repetida: ¿cómo se clasifica?"
+    }
+  ]
+}

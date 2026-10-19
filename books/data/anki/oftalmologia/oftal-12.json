@@ -1,0 +1,494 @@
+{
+ "classId": "oftal-12",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La retinopatía diabética es la primera causa de ceguera {{c1::irreversible}} en edad laboral.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Importancia",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.027"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mecanismo central: pérdida de {{c1::pericitos}} de los capilares retinianos, con microaneurismas y mayor permeabilidad.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Pericitos",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La isquemia retiniana induce {{c1::VEGF}} y neovascularización de vasos frágiles.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 VEGF",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hiperglicemia daña el endotelio por la vía de los polioles (sorbitol), glicación y {{c1::estrés oxidativo}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Hiperglicemia",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primera lesión visible al fondo de ojo: los {{c1::microaneurismas}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Primera lesión",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-12/02_rd-no-proliferativa-hemorragias-exudados__cto-oftalmo_p67.jpg",
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Exudados duros: depósitos de lípidos; exudados algodonosos: microinfartos de la capa de {{c1::fibras nerviosas}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Exudados",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Regla 4-2-1 de la RDNP severa: hemorragias en {{c1::4}} cuadrantes, arrosariamiento venoso en 2 o AMIR en 1; la mitad progresa a RDP en un año.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Regla 4-2-1",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Retinopatía proliferativa: se define solo por la presencia de {{c1::neovasos}} en la papila o la retina.",
+   "extra": "Asintomático con neovasos sobre la papila: RDP.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 RDP",
+   "repaso": false,
+   "imagen": "_verificadas/273_oftal_Retinopatía_diabética_prolifer__KanskisCli_p547_1.jpg",
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los neovasos causan hemorragia vítrea o desprendimiento de retina {{c1::traccional}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Complicaciones",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Edema macular diabético: causa {{c1::más frecuente}} de baja de agudeza visual en diabéticos.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 EMD",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-12/01_retinopatia-diabetica_alt1__cto-oftalmo_p108.jpg",
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El edema macular puede aparecer en {{c1::cualquier}} etapa, tanto en RDNP leve como en RDP.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 EMD",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El EMD se diagnostica con {{c1::OCT macular}} y se trata con anti-VEGF intravítreo (ranibizumab o aflibercept).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "DM2: fondo de ojo con pupila dilatada {{c1::al momento del diagnóstico}} y luego cada año.",
+   "extra": "Paciente de 52 años recién diagnosticado y asintomático.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tamizaje DM2",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "DM1: fondo de ojo a los {{c1::5 años}} del diagnóstico y luego anual.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tamizaje DM1",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En DM2 hasta {{c1::20%}} ya tiene retinopatía al debut, porque la enfermedad es subclínica por años.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Por qué",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento de la RDP: {{c1::panfotocoagulación}} retiniana con láser; destruye retina periférica isquémica y frena el VEGF.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 PRP",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "GES N.º 23: fotocoagulación láser en {{c1::60 días}}; también anti-VEGF y vitrectomía.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 GES",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "RDP asintomática: notificar GES 23 y derivar de forma {{c1::prioritaria}} para láser.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Notificar",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hemorragia vítrea: pérdida visual súbita e {{c1::indolora}} con «telarañas» o lluvia de hollín; ojo blanco.",
+   "extra": "Diabético que solo cuenta dedos o ve movimientos de mano.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Hemorragia vítrea",
+   "repaso": true,
+   "imagen": "biblioteca/12_oftalmologia/oftal-12/01_retinopatia-diabetica__cto-oftalmo_p68.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 179",
+    "EUNACOM Julio 2017 · Pregunta 177"
+   ],
+   "codigos": [
+    "6.02.2.006"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la hemorragia vítrea el reflejo rojo está {{c1::disminuido o ausente}} y no se ve el fondo de ojo.",
+   "extra": "Diabética de 56 años con nefropatía; diabético de 68 años fumador.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Reflejo rojo",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 157",
+    "EUNACOM Diciembre 2019 · Pregunta 91"
+   ],
+   "codigos": [
+    "6.02.2.006"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas de hemorragia vítrea: RDP, desgarro o desprendimiento, oclusión venosa y {{c1::trauma}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Etiología",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.006"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se descarta un desprendimiento concomitante con {{c1::ecografía B}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Ecografía",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.006"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Reposo con cabecera a {{c1::30 a 45°}}, control de glicemia y presión, suspender antiagregantes si es seguro y derivar con urgencia.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Conducta",
+   "repaso": true,
+   "codigos": [
+    "6.02.2.006"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Vitrectomía si la hemorragia no se reabsorbe en {{c1::1 a 3 meses}} o hay desprendimiento traccional.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Vitrectomía",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.006"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Diabético recién diagnosticado con glicemia 380 y visión borrosa fluctuante: se controla la glicemia y se {{c1::difiere}} la receta de lentes.",
+   "extra": "Cambio refractivo transitorio.",
+   "origen": "clase:14",
+   "fuente": "Clase · Quiz",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Diabético con retinopatía en el fondo de ojo: se deriva a {{c1::oftalmología}} y se optimiza el control de glicemia y presión arterial.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Discrepancia",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 124"
+   ],
+   "codigos": [
+    "6.02.2.006"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "RDNP: tratamiento con control de HbA1c y {{c1::anti-VEGF}} si hay edema; seguimiento anual si es leve.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-12/02_rd-no-proliferativa-hemorragias-exudados__cto-oftalmo_p67.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Hemorragias y exudados",
+   "clave": "Puntos y manchas con exudados duros",
+   "conducta": "Control metabólico y seguimiento",
+   "fuente": "Manual CTO Oftalmología 14.ª ed., p. 67",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "_verificadas/273_oftal_Retinopatía_diabética_prolifer__KanskisCli_p547_1.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Neovasos en la papila",
+   "clave": "Maraña de neovasos sobre el disco óptico",
+   "conducta": "Panfotocoagulación y GES 23",
+   "fuente": "Kanski's Clinical Ophthalmology, 8.ª ed., p. 547",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-12/01_retinopatia-diabetica__cto-oftalmo_p68.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Hemorragia vítrea",
+   "clave": "Sangre en la cavidad vítrea que oculta el fondo",
+   "conducta": "Reposo, ecografía B y derivar",
+   "fuente": "Manual CTO Oftalmología 14.ª ed., p. 68",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 91"
+   ],
+   "codigos": [
+    "6.02.2.006"
+   ]
+  },
+  {
+   "id": "i04",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-12/01_retinopatia-diabetica_alt1__cto-oftalmo_p108.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Exudados junto a la mácula",
+   "clave": "Exudados duros en el polo posterior",
+   "conducta": "OCT y anti-VEGF intravítreo",
+   "fuente": "Manual CTO Oftalmología 14.ª ed., p. 108",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Paciente diabético: ¿cuál es el único criterio que define la forma proliferativa?",
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Neovasos presentes: ¿diagnóstico y tratamiento?",
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1",
+   "pista": "Sin neovasos: ¿cómo se clasifica y maneja?",
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.0",
+   "pista": "Edema macular en la OCT: ¿tratamiento?",
+   "codigos": [
+    "6.02.1.023",
+    "1.02.1.015"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,521 @@
+{
+ "classId": "cirugia-08",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La enfermedad pilonidal es adquirida: {{c1::pelos}} que se invaginan en los folículos de la hendidura interglútea.",
+   "extra": "Favorecida por fricción, sudor, obesidad y vello abundante.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Pilonidal",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.018"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Absceso pilonidal agudo: {{c1::drenaje quirúrgico simple}} bajo anestesia local con curetaje de pelos.",
+   "extra": "Se puede sumar antibiótico, pero no lo reemplaza.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Pilonidal",
+   "repaso": true,
+   "imagen": "biblioteca/10_cirugia/cirugia-08/05_absceso_pilonidal__commons.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 19",
+    "EUNACOM Diciembre 2024 · Pregunta 77"
+   ],
+   "codigos": [
+    "4.01.1.018",
+    "4.01.1.055"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El drenaje pilonidal se hace con incisión lateralizada, a {{c1::1-2 cm}} de la línea media.",
+   "extra": "Evita cicatrices viciosas en el fondo del surco.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Pilonidal",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.018",
+    "4.01.1.055"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el absceso pilonidal agudo, el error es la {{c1::resección amplia en fase aguda}}.",
+   "extra": "Dehiscencia e infección.",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.018",
+    "4.01.1.055"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El seno pilonidal crónico se trata con {{c1::resección en bloque electiva}}, en frío.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Pilonidal",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-08/04_sinus_pilonidal_foto__commons.jpg",
+   "codigos": [
+    "4.01.1.018"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Para reducir la recidiva pilonidal se usan colgajos como la técnica de {{c1::Karydakis o Limberg}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Pilonidal",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.018"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los orificios puntiformes de la línea media del surco sacrococcígeo se llaman {{c1::pits}}.",
+   "extra": "Salen pelos y secreción.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Pilonidal",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 43"
+   ],
+   "codigos": [
+    "4.01.1.018"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hidrosadenitis supurativa (enfermedad de {{c1::Verneuil}}) afecta glándulas apocrinas: axilas, ingles, periné y pliegues inframamarios.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hidrosadenitis",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-08/01_hidradenitis-supurativa__cto-derma_p61.jpg",
+   "codigos": [
+    "4.01.1.055"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El principal desencadenante modificable de la hidrosadenitis es el {{c1::tabaquismo}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hidrosadenitis",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.055"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En brotes de hidrosadenitis se usa {{c1::doxiciclina}} o clindamicina + {{c2::rifampicina}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hidrosadenitis",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.055"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En Hurley II y III se agrega el biológico anti-TNF {{c1::adalimumab}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hidrosadenitis",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.055"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La cirugía de la hidrosadenitis se reserva para trayectos fistulosos crónicos: {{c1::destechamiento}} o escisión amplia.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hidrosadenitis",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.055"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tumor mesenquimático benigno más común del cuerpo es el {{c1::lipoma}}.",
+   "extra": "Blando, móvil, indoloro; signo del resbalamiento.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tumores",
+   "repaso": true,
+   "imagen": "biblioteca/10_cirugia/cirugia-08/02_lipomas_multiples__fitzpatrick_p1228.jpg",
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 79"
+   ],
+   "codigos": [
+    "4.01.1.053"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El quiste epidérmico tiene un {{c1::punctum (poro central)}} visible adherido a la epidermis.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tumores",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-08/01_quiste_epidermoide__fitzpatrick_p1102.jpg",
+   "codigos": [
+    "4.01.1.053",
+    "4.01.1.055"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Si la cápsula del quiste epidérmico queda retenida, la recidiva es casi {{c1::100%}}.",
+   "extra": "Hay que extirpar la cápsula íntegra.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tumores",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.053",
+    "4.01.1.055"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Quiste epidérmico infectado: primero {{c1::incisión y drenaje}}; la exéresis de la cápsula se difiere.",
+   "extra": "Antibiótico más drenaje en la pregunta real.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tumores",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 90"
+   ],
+   "codigos": [
+    "4.01.1.053",
+    "4.01.1.055"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Bandera roja de sarcoma: tamaño > {{c1::5 cm}}, localización profunda, crecimiento rápido y fijación a planos profundos.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Banderas rojas",
+   "repaso": false,
+   "imagen": "_verificadas/354_cirugia_Partes_blandas__ctmri_path_p402_1.jpg",
+   "codigos": [
+    "4.01.1.054"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Ante sospecha de sarcoma está prohibida la {{c1::resección marginal a ciegas}}.",
+   "extra": "Primero resonancia y biopsia tru-cut en centro oncológico.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Banderas rojas",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 101"
+   ],
+   "codigos": [
+    "4.01.1.054"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La biopsia de un sarcoma es con aguja gruesa ({{c1::tru-cut}}) planificada en el eje de la futura incisión.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Banderas rojas",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.054"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El {{c1::forúnculo}} es infección del folículo piloso por S. aureus; el {{c2::ántrax}} es la confluencia de varios.",
+   "extra": "Ántrax: pedir glicemia.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Infecciones",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.055"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El flegmón es difuso y se trata con {{c1::antibióticos}}; el absceso es una colección y se trata con {{c2::drenaje}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Infecciones",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.055"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un absceso o forúnculo fluctuante se trata con {{c1::incisión y drenaje}}, no solo antibiótico oral.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Infecciones",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.055"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Si hace falta antibiótico en partes blandas: {{c1::cloxacilina 500 mg c/6h}} o cefadroxilo.",
+   "extra": "Con riesgo de SAMR: cotrimoxazol o clindamicina.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Infecciones",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.055"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El antibiótico se agrega solo si hay celulitis extensa, fiebre, {{c1::inmunosupresión}} o localización facial.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Infecciones",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.055"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La {{c1::paroniquia}} (pliegue ungueal) se drena con una pequeña incisión; el panadizo del pulpejo, por vía {{c2::lateral}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Panadizo",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.055"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los signos de {{c1::Kanavel}} (dedo semiflexionado, edema fusiforme, dolor a la extensión pasiva) indican tenosinovitis supurada: urgencia.",
+   "extra": "Se deriva de inmediato.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Panadizo",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.055"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En toda infección de la mano: elevar, inmovilizar y verificar la vacuna {{c1::antitetánica}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Panadizo",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.055"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El granuloma piogénico es un nódulo {{c1::rojo, friable y pediculado}} que sangra con roces mínimos.",
+   "extra": "Hemangioma capilar lobulado.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Granuloma",
+   "repaso": true,
+   "imagen": "biblioteca/10_cirugia/cirugia-08/04_granuloma-piogenico__nelson_p5179.jpg",
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 62",
+    "EUNACOM Agosto 2021 · Pregunta 31",
+    "EUNACOM Agosto 2021 · Pregunta 32"
+   ],
+   "codigos": [
+    "6.01.1.012"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el embarazo el granuloma piogénico aparece en las encías como {{c1::épulis gravídico}} y puede regresar tras el parto.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Granuloma",
+   "repaso": false,
+   "codigos": [
+    "6.01.1.012"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Granuloma piogénico: {{c1::curetaje con electrocoagulación}} o escisión, y siempre anatomía patológica.",
+   "extra": "Se confunde con melanoma amelanótico.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Granuloma",
+   "repaso": false,
+   "codigos": [
+    "6.01.1.012"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El sangrado del granuloma se controla con presión y {{c1::nitrato de plata}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Granuloma",
+   "repaso": false,
+   "codigos": [
+    "6.01.1.012"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-08/05_absceso_pilonidal__commons.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Absceso pilonidal agudo",
+   "clave": "Masa roja, tensa y fluctuante en el surco interglúteo",
+   "conducta": "Incisión y drenaje simple lateralizado con curetaje; resección electiva después",
+   "fuente": "Wikimedia Commons «Pilonidal abscess.jpg», CC BY-SA 4.0",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 19"
+   ],
+   "codigos": [
+    "4.01.1.018",
+    "4.01.1.055"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-08/04_granuloma-piogenico__nelson_p5179.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Granuloma piogénico",
+   "clave": "Nódulo rojo brillante, pediculado, que sangra con un roce",
+   "conducta": "Curetaje con electrocoagulación o escisión y biopsia",
+   "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 5179",
+   "repaso": false,
+   "codigos": [
+    "6.01.1.012"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor intenso en un miembro con áreas violáceas y crepitación: {{c1::fascitis necrosante}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul 2015",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 28"
+   ],
+   "codigos": [
+    "4.01.1.018, 4.01.1.053"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Absceso pilonidal agudo: ¿qué cirugía?",
+   "codigos": [
+    "4.01.1.055",
+    "4.01.1.018"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.3",
+   "pista": "Masa profunda > 5 cm que crece rápido: ¿conducta?",
+   "codigos": [
+    "4.01.1.055",
+    "4.01.1.018"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.4.0",
+   "pista": "Dedo semiflexionado con dolor a la extensión: ¿conducta?",
+   "codigos": [
+    "4.01.1.055",
+    "4.01.1.018"
+   ]
+  }
+ ]
+}

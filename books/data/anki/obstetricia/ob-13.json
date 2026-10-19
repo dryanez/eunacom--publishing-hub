@@ -1,0 +1,578 @@
+{
+  "classId": "ob-13",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante metrorragia de la segunda mitad del embarazo, {{c1::prohibido el tacto vaginal}} hasta localizar la placenta con ecografía.",
+      "extra": "Un tacto en una previa puede causar hemorragia exanguinante.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.2.011"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 40"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El examen seguro para localizar la placenta es la {{c1::ecografía transvaginal}}: el transductor no toca el OCI.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Nunca toques",
+      "codigos": [
+        "3.01.2.011"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El examen físico inicial en la metrorragia del 3.er trimestre es la {{c1::especuloscopía}} suave, para descartar causas locales.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Estudio inicial",
+      "codigos": [
+        "3.01.2.011"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Placenta previa oclusiva: el tejido placentario cubre {{c1::totalmente}} el orificio cervical interno.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clasificación",
+      "codigos": [
+        "3.01.2.011"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Placenta de inserción baja: borde a menos de {{c1::20 mm (2 cm)}} del OCI sin cubrirlo.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clasificación",
+      "codigos": [
+        "3.01.2.011"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Factor de riesgo más potente de placenta previa: {{c1::cesárea anterior}}.",
+      "extra": "También legrados, multiparidad y edad > 35 años.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.2.011"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Placenta previa: sangrado rojo rutilante, {{c1::indoloro}}, útero blando y relajado, FCF normal.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.2.011"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 106"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Placenta previa asintomática: ecografía a las {{c1::32 semanas}} para confirmar si persiste.",
+      "extra": "Muchas migran hacia el fondo.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Manejo",
+      "codigos": [
+        "3.01.2.011"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 54"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Placenta previa con sangrado pretérmino: corticoides para maduración pulmonar entre las {{c1::24 y 34 semanas}}.",
+      "extra": "También hospitalización en ARO y reposo.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Manejo",
+      "codigos": [
+        "3.01.2.011"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Placenta previa oclusiva: cesárea electiva a las {{c1::36-37 semanas}}.",
+      "extra": "El libro da 36-37; la clase, 37.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Vía de parto",
+      "codigos": [
+        "3.01.2.011"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 40"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Placenta previa con borde entre 10 y 20 mm del OCI: se puede intentar {{c1::parto vaginal}} en centro quirúrgico.",
+      "extra": "Cesárea si el borde está a < 10 mm.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Vía de parto",
+      "codigos": [
+        "3.01.2.011"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Placenta previa sobre cicatriz de cesárea: riesgo de {{c1::acretismo}}; 25% con 1 cesárea y 50% con 2.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Acretismo",
+      "codigos": [
+        "3.01.2.011"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 74"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Acretismo placentario: cesárea programada con {{c1::histerectomía}} total con la placenta in situ.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Acretismo",
+      "codigos": [
+        "3.01.2.011"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "DPPNI: separación de la placenta normoinserta antes del nacimiento, después de las {{c1::20 semanas}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Definición",
+      "codigos": [
+        "3.01.2.010"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Factor de riesgo más frecuente de DPPNI: {{c1::síndrome hipertensivo}} del embarazo (50% de los casos).",
+      "extra": "También trauma, cocaína y tabaco.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.2.010"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tríada del DPPNI: sangre oscura con coágulos, {{c1::dolor intenso}} e hipertonía uterina ('útero leñoso').",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · DPPNI",
+      "codigos": [
+        "3.01.2.010"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 7",
+        "EUNACOM Diciembre 2019 · Pregunta 150"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el DPPNI, una ecografía normal {{c1::no descarta}} el diagnóstico: es clínico.",
+      "extra": "Solo ve el hematoma en 25-50% de los casos.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.2.010"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 166",
+        "EUNACOM Diciembre 2024 · Pregunta 96"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La CID del DPPNI se debe a la liberación masiva de {{c1::tromboplastina}} placentaria.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Complicaciones",
+      "codigos": [
+        "3.01.2.010"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Útero de {{c1::Couvelaire}}: infiltración hemática del miometrio que causa atonía severa.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Complicaciones",
+      "codigos": [
+        "3.01.2.010"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Manejo del DPPNI: estabilizar y {{c1::cesárea de urgencia inmediata}}, por la vía más expedita.",
+      "extra": "Excepción: feto muerto con madre estable y parto inminente.",
+      "origen": "clase:3",
+      "fuente": "Clase · DPPNI",
+      "codigos": [
+        "3.01.2.010"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 49",
+        "EUNACOM Julio 2016 · Pregunta 166",
+        "EUNACOM Diciembre 2019 · Pregunta 150"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras un traumatismo en el embarazo, lo primero a evaluar desde lo obstétrico es la {{c1::vitalidad fetal}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Jul 2016 · P36",
+      "codigos": [
+        "3.01.2.010"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 36"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Rotura uterina: factor de riesgo clave es la {{c1::cicatriz de cesárea previa}}.",
+      "extra": "También oxitocina o misoprostol en exceso.",
+      "origen": "clase:4",
+      "fuente": "Clase · Rotura uterina",
+      "codigos": [
+        "3.01.2.015"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Inminencia de rotura: síndrome de {{c1::Bandl-Frommel}} (anillo de retracción patológico y dolor paroxístico).",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Rotura uterina",
+      "codigos": [
+        "3.01.2.015"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Rotura consumada: dolor desgarrador y {{c1::cese brusco de las contracciones}} con ascenso de la presentación.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.2.015"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 41",
+        "EUNACOM Diciembre 2018 · Pregunta 166",
+        "EUNACOM Julio 2017 · Pregunta 98"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Conducta en la rotura uterina: {{c1::laparotomía/cesárea de urgencia inmediata}}, sin otros exámenes.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.2.015"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 51",
+        "EUNACOM Julio 2025 · Pregunta 132"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Vasa previa: vasos umbilicales sobre el OCI, asociados a inserción {{c1::velamentosa}} del cordón.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Vasa previa",
+      "codigos": [
+        "3.01.2.015"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Vasa previa: metrorragia {{c1::inmediata tras romper las membranas}} con bradicardia fetal y madre estable.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Jul 2016",
+      "codigos": [
+        "3.01.2.015"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la vasa previa la sangre es {{c1::100% fetal}}; se necesita cesárea de emergencia en minutos.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.2.015"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Placenta previa: el sangrado no aparece recién al romper membranas; eso sugiere {{c1::vasa previa}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Jul 2016",
+      "codigos": [
+        "3.01.2.015"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Placenta previa oclusiva asintomática a las 34 semanas: {{c1::cesárea electiva}} a las 36-37 semanas.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz cesárea",
+      "codigos": [
+        "3.01.2.011"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Indicaciones de cesárea: cicatriz corporal o {{c1::dos o más cesáreas}}, desproporción céfalo-pélvica, podálica o transversa.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Indicaciones",
+      "codigos": [
+        "3.01.5.002"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "VIH con carga viral mayor de {{c1::1.000 copias/mL}} es indicación de cesárea.",
+      "extra": "También herpes genital activo.",
+      "origen": "clase:5",
+      "fuente": "Clase · Cesárea",
+      "codigos": [
+        "3.01.5.002"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Incisión de pared más usada en cesárea: {{c1::Pfannenstiel}}; en urgencia, media infraumbilical.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Cesárea",
+      "codigos": [
+        "3.01.5.002"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Histerotomía de la cesárea: segmentaria transversa baja de {{c1::Kerr}}.",
+      "extra": "La incisión corporal obliga a cesárea electiva después.",
+      "origen": "clase:5",
+      "fuente": "Clase · Cesárea",
+      "codigos": [
+        "3.01.5.002"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Profilaxis de cesárea: cefazolina {{c1::2 g EV}} 30-60 minutos antes de la incisión (3 g si pesa 120 kg o más).",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Perioperatorio",
+      "codigos": [
+        "3.01.5.002"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c36",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cesárea electiva sin otra indicación: a las {{c1::39 semanas}}.",
+      "extra": "Disminuye el distrés respiratorio neonatal.",
+      "origen": "clase:6",
+      "fuente": "Clase · Perioperatorio",
+      "codigos": [
+        "3.01.5.002"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c37",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Postoperatorio de cesárea: realimentación a las {{c1::6-8 horas}} y alta a las 48-72 horas.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Postoperatorio",
+      "codigos": [
+        "3.01.5.002"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-13/03_eco-placenta-previa__obgynus_p157.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Placenta previa (ecografía transvaginal)",
+      "clave": "Placenta cubriendo el orificio cervical interno",
+      "conducta": "Sin tacto vaginal; cesárea electiva a las 36-37 semanas si es oclusiva",
+      "fuente": "Ultrasound in Obstetrics and Gynecology: A Practical Approach, p. 157",
+      "codigos": [
+        "3.01.2.011"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-13/04_vasa-previa-doppler__openi.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Vasa previa",
+      "clave": "Vasos fetales cruzando el OCI en Doppler color",
+      "conducta": "Cesárea de emergencia si se rompen las membranas",
+      "fuente": "Open-i (NLM), CC BY",
+      "codigos": [
+        "3.01.2.015"
+      ],
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Sangrado indoloro con útero blando: ¿diagnóstico y conducta?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1",
+      "pista": "Dolor intenso y útero leñoso: ¿diagnóstico y conducta?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.2",
+      "pista": "Cesárea previa y cese de contracciones: ¿qué haces?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.3",
+      "pista": "Sangra al romper membranas: ¿qué es y qué haces?"
+    }
+  ]
+}

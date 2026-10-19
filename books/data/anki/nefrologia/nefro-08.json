@@ -1,0 +1,466 @@
+{
+  "classId": "nefro-08",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En shock o deshidratación con inestabilidad, la prioridad es expandir el intravascular con {{c1::cristaloides isotónicos}} (SF 0.9% o Ringer lactato).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Suero fisiológico 0.9%: Na {{c1::154 mEq/L}}, Cl 154 mEq/L, osmolaridad 308 mOsm/L.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · SF vs Ringer",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Ringer lactato: Na {{c1::130}}, Cl 109, K 4, Ca 3 mEq/L y lactato 28 mEq/L.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · SF vs Ringer",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El lactato del Ringer se metaboliza en el hígado a {{c1::bicarbonato}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · SF vs Ringer",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Grandes volúmenes de SF 0.9% causan acidosis metabólica {{c1::hiperclorémica con anion gap normal}}.",
+      "extra": "También vasoconstricción de la arteriola renal aferente por exceso de cloro.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Anion gap = Na − (Cl + HCO3): con Na 142, Cl 118 y HCO3 16 es {{c1::8}} (normal).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Quiz caso",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En shock séptico o deshidratación severa se prefiere {{c1::Ringer lactato}}, no grandes volúmenes solo de SF.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En shock, incluso con hipernatremia, el error es dar {{c1::suero glucosado 5%}}.",
+      "extra": "Primero SF 0.9% o Ringer.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Suero glucosado 5%: {{c1::67%}} del volumen pasa a las células y solo {{c2::8%}} queda en los vasos.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Dónde se queda cada suero?",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El glucosado 5% se usa como aporte de {{c1::agua libre}} (hipernatremia, hipoglicemia), no para reanimar.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla cristaloides",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Solución salina 3%: Na {{c1::513 mEq/L}}; indicada en hiponatremia sintomática grave.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla cristaloides",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Paciente en shock hipovolémico por diarrea con hipernatremia 156: primero repones volemia con {{c1::suero fisiológico 0.9%}}.",
+      "extra": "Clave oficial discutible; lo habitual es cristaloide isotónico.",
+      "origen": "clase:8",
+      "fuente": "Pregunta real",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 147"
+      ],
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Diabético con vómitos y diarrea, hipotenso y con FeNa 0.5%: el fluido inicial es {{c1::Ringer lactato}}.",
+      "extra": "Primero volemia, después electrolitos.",
+      "origen": "clase:8",
+      "fuente": "Pregunta real",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 31"
+      ],
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diuréticos de asa (furosemida, torsemida) inhiben el cotransportador {{c1::Na-K-2Cl}} del asa gruesa de Henle.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Diuréticos",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.009"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los diuréticos de asa excretan hasta {{c1::20–25%}} del sodio filtrado.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Asa o tiazida",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Efectos adversos del asa: {{c1::hipokalemia, hipomagnesemia, alcalosis metabólica e hiperuricemia}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Asa o tiazida",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las tiazidas bloquean el cotransportador {{c1::Na-Cl}} en el túbulo contorneado distal.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Diuréticos",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.009"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Las tiazidas pierden eficacia diurética con TFG < {{c1::30 mL/min}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Edema con TFG menor de 30: se usa {{c1::furosemida}}, no tiazida.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 56"
+      ],
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Efectos adversos de tiazidas: {{c1::hiponatremia}}, hipokalemia, hipercalcemia, hiperglicemia e hiperuricemia.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 60"
+      ],
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hiponatremia en usuario de diurético: se piensa primero en la {{c1::tiazida}}, no en la furosemida.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipokalemia en usuario de clortalidona con consumo excesivo de sal: la medida es {{c1::restringir el consumo de cloruro de sodio}}.",
+      "extra": "Clave oficial reconocida como difícil.",
+      "origen": "libro:sec:2",
+      "fuente": "Pregunta real",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 50"
+      ],
+      "codigos": [
+        "1.09.3.009"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anasarca: edema con fóvea bilateral, aumento de peso y, en grado extremo, {{c1::ascitis, derrame pleural y edema genital}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Anasarca",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causas principales de anasarca: insuficiencia cardíaca, cirrosis, {{c1::síndrome nefrótico}} y ERC.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Edema",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.020",
+        "1.09.3.009"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Síndrome nefrótico: proteinuria sobre {{c1::3.5 g/día}}, edema periorbitario y albúmina baja.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Anasarca",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fármacos que favorecen edema y se retiran: {{c1::dihidropiridinas, AINE, corticoides y glitazonas}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Anasarca",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Manejo del edema: restricción de sodio < {{c1::2 g/día}} (unos 5 g de sal) y elevación de las piernas.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Manejo anasarca",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Furosemida en edema: {{c1::20–40 mg/día VO}}; 40–80 mg IV si hay anasarca, congestión grave o TFG baja.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Manejo anasarca",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta de diuresis en edema: bajar {{c1::0.5–1 kg/día}}.",
+      "extra": "Si hay resistencia: asociar tiazida o espironolactona.",
+      "origen": "clase:5",
+      "fuente": "Clase · Manejo anasarca",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Cirrosis con ascitis: espironolactona con furosemida en proporción {{c1::100:40}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Manejo anasarca",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Falta volumen e inestable: ¿qué fluido?",
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1.0",
+      "pista": "Sobra volumen con TFG menor de 30: ¿qué diurético?",
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.1",
+      "pista": "Sobra volumen, TFG mayor de 30 e hipertenso: ¿qué diurético y qué vigilar?",
+      "codigos": [
+        "1.09.2.008",
+        "1.09.1.020"
+      ]
+    }
+  ]
+}

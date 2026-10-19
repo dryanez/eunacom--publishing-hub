@@ -1,0 +1,464 @@
+{
+ "classId": "cirugia-21",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El torniquete se coloca {{c1::7 a 10 cm}} sobre el sitio de punción y por menos de {{c2::1 minuto}}.",
+   "extra": "Más tiempo causa hemoconcentración y hemólisis.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Punción venosa",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.008",
+    "4.01.5.027"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las venas de elección en el pliegue del codo son la {{c1::mediana cubital}}, la cefálica y la basílica.",
+   "extra": "Se palpa la vena, no la arteria ni el tendón.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Punción venosa",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.008",
+    "4.01.5.027"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Con mastectomía y disección axilar no se punciona ese brazo: se usa el {{c1::contralateral}}.",
+   "extra": "También se evita fístula AV, hemiparesia, infusión en curso o flebitis.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Punción venosa",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.008",
+    "4.01.5.027"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La aguja se introduce con el bisel {{c1::hacia arriba}} en ángulo de {{c2::15 a 30°}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Punción venosa",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.008",
+    "4.01.5.027"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se suelta el torniquete {{c1::antes}} de retirar la aguja, para evitar hematomas.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Punción venosa",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.008",
+    "4.01.5.027"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tras la punción se comprime con gasa {{c1::2 a 3 minutos}} con el brazo extendido; la punción arterial, 5 minutos.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Punción venosa",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.008",
+    "4.01.5.027"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Nunca se {{c1::reencapucha}} la aguja: va directo al contenedor de cortopunzantes.",
+   "extra": "Ante pinchazo: lavar, notificar y profilaxis según protocolo.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Punción venosa",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.008",
+    "4.01.5.027"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Orden de tubos: hemocultivos, {{c1::citrato (celeste)}}, suero (rojo), heparina (verde), EDTA (lila) y fluoruro (gris).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Punción venosa",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.008",
+    "4.01.5.027"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Catéteres de reanimación con volumen: gris {{c1::16 G}} y verde {{c2::18 G}}; de uso habitual: rosado 20 G y azul 22 G.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Vías",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.008",
+    "4.01.5.027"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Complicaciones de la punción venosa: hematoma, punción arterial, lesión de {{c1::nervio}}, flebitis y síncope vasovagal.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Complicaciones",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.008",
+    "4.01.5.027"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los drenajes {{c1::pasivos}} (Penrose) salen por gravedad; los {{c2::aspirativos}} (Jackson-Pratt, Redon, Hemovac) usan presión negativa.",
+   "extra": "La pleurostomía usa sello de agua.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Drenajes",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.021"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Drenaje con líquido seroso o serohemático y débito decreciente: evolución {{c1::normal}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Clase · Tabla aspecto del líquido",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.021"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Drenaje francamente hemático: sospechar {{c1::hemorragia}}; bilioso o entérico: {{c2::fuga}}; purulento: infección.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Clase · Tabla aspecto del líquido",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.021"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Un drenaje se retira cuando el débito es seroso y < {{c1::30 a 50 mL}} en 24 horas, sin infección.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Drenajes",
+   "repaso": true,
+   "codigos": [
+    "4.01.5.021"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El Penrose se moviliza {{c1::2 a 3 cm}} por día antes de retirarlo.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Drenajes",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.021"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En todo drenaje se mantiene el sistema cerrado, {{c1::bajo el nivel de la herida}} y fijo a la piel.",
+   "extra": "Curación diaria con suero y apósito seco.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Drenajes",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.021"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si un drenaje se obstruye, se {{c1::irriga con suavidad}}; si no, se pide imagen.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Drenajes",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.021"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Gastrostomía con trayecto maduro (> {{c1::4 semanas}}) cuya sonda se sale: se repone una sonda de inmediato por el ostoma.",
+   "extra": "Pregunta real: gastrostomía de 2 meses.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Gastrostomía",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 6"
+   ],
+   "codigos": [
+    "4.01.5.021"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras reponer la sonda de gastrostomía se verifica su posición {{c1::aspirando contenido gástrico}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Gastrostomía",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.021"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si el trayecto de la gastrostomía es reciente (< 2-4 semanas) no se reinserta a ciegas por riesgo de {{c1::falso trayecto}} y peritonitis.",
+   "extra": "Se deriva a endoscopía o estudio con contraste.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Gastrostomía",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.021"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La onicocriptosis es la penetración del borde lateral de la uña en el pliegue, casi siempre del {{c1::ortejo mayor}}.",
+   "extra": "Corte curvo, calzado estrecho, hiperhidrosis, trauma.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Onicocriptosis",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-21/01_onicocriptosis-paso-a-paso__knoop_p361.jpg",
+   "codigos": [
+    "4.01.1.059",
+    "4.01.5.024"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Heifetz I: eritema, edema y dolor; II: {{c1::supuración}}; III: tejido de {{c2::granulación hipertrófico}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Heifetz",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.059",
+    "4.01.5.024"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Heifetz I: baños tibios, {{c1::elevar el borde}} con algodón, corte recto y calzado amplio.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Heifetz",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.059",
+    "4.01.5.024"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En estadios II-III o recidiva se hace {{c1::onicectomía parcial}} con matricectomía química.",
+   "extra": "No se saca la uña completa.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Onicectomía",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.059",
+    "4.01.5.024"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "El bloqueo digital se hace con lidocaína al {{c1::1-2% sin adrenalina}} y torniquete en la base del dedo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Onicectomía",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.059",
+    "4.01.5.024"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La matricectomía química usa {{c1::fenol al 88%}}, tres aplicaciones de 30 segundos.",
+   "extra": "Recidiva < 5%.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Onicectomía",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.059",
+    "4.01.5.024"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras la onicectomía, curación diaria con baños y apósito por {{c1::2 a 4 semanas}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Onicectomía",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.059",
+    "4.01.5.024"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Se agrega antibiótico ({{c1::cloxacilina o cefadroxilo}}) si hay celulitis, diabetes o inmunosupresión.",
+   "extra": "Verificar vacuna antitetánica.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Onicectomía",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.059",
+    "4.01.5.024"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La avulsión total de la uña se reserva para la uña destruida por {{c1::micosis o trauma}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Onicectomía",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.059",
+    "4.01.5.024"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con isquemia o neuropatía diabética avanzada, la onicocriptosis se {{c1::deriva}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Onicectomía",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.059",
+    "4.01.5.024"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-21/01_onicocriptosis-paso-a-paso__knoop_p361.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Onicocriptosis: onicectomía parcial paso a paso",
+   "clave": "Borde lateral de la uña encarnado en el pliegue ungueal",
+   "conducta": "Estadios II-III o recidiva: onicectomía parcial con fenol 88% bajo bloqueo digital sin adrenalina",
+   "fuente": "The Atlas of Emergency Medicine (Knoop), p. 361",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.059",
+    "4.01.5.024"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Heifetz I: ¿manejo?",
+   "codigos": [
+    "4.01.1.059",
+    "4.01.5.024"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "Heifetz II-III en paciente sano: ¿procedimiento?",
+   "codigos": [
+    "4.01.1.059",
+    "4.01.5.024"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.2",
+   "pista": "Recidiva pese al manejo conservador: ¿qué haces?",
+   "codigos": [
+    "4.01.1.059",
+    "4.01.5.024"
+   ]
+  }
+ ]
+}

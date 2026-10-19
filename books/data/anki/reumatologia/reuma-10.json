@@ -1,0 +1,447 @@
+{
+  "classId": "reuma-10",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El lupus discoide es la variante cutánea {{c1::crónica}} más común y afecta áreas fotoexpuestas de cabeza y cuello.",
+      "extra": "Mejillas, dorso nasal, orejas, cuero cabelludo.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Lupus discoide",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.016"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La placa discoide tiene 3 zonas: borde eritematoso con telangiectasias, escama con tapones foliculares y centro {{c1::atrófico}} hipopigmentado.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Morfología",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.016",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El signo de la {{c1::tachuela}} del lupus discoide es el taponamiento folicular de la escama adherente.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Morfología",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.016",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En cuero cabelludo, el lupus discoide causa alopecia {{c1::cicatricial}} irreversible por destrucción folicular.",
+      "extra": "A diferencia de la alopecia areata, que no deja cicatriz.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 14",
+        "EUNACOM Diciembre 2024 · Pregunta 2"
+      ],
+      "codigos": [
+        "6.01.1.016",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Solo el {{c1::5% a 10%}} del lupus discoide aislado evoluciona a LES.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Evolución sistémica",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.016"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el lupus discoide los ANA son positivos en solo {{c1::30–40%}}.",
+      "extra": "Clase: negativos en ~70%.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Evolución sistémica",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.016"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento del lupus discoide: fotoprotección FPS 50+, corticoide tópico potente ({{c1::clobetasol}}) o intralesional, e hidroxicloroquina si es extenso.",
+      "extra": "Hidroxicloroquina 200–400 mg/día.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.016"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El lupus cutáneo subagudo es muy fotosensible: escote en V, espalda alta, hombros y brazos, {{c1::respetando la cara}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Lupus subagudo",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Variantes del lupus subagudo: anular policíclica y {{c1::papuloescamosa (psoriasiforme)}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Lupus subagudo",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El lupus subagudo cura {{c1::sin cicatriz atrófica}} ni alopecia definitiva; puede dejar hipopigmentación transitoria.",
+      "extra": "Diferencia crítica con el discoide.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El lupus subagudo se asocia a anticuerpos anti-{{c1::Ro (SSA)}}, positivos en > 70–80%.",
+      "extra": "Anti-La en 30–50%.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Serología",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El anti-Ro materno IgG daña la conducción fetal entre las semanas {{c1::16 y 24}}.",
+      "extra": "Ecocardiografía fetal seriada.",
+      "origen": "clase:14",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Complicación fetal irreversible del anti-Ro materno: {{c1::bloqueo AV congénito completo}}, que requiere marcapasos definitivo.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz EUNACOM 2021",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las lesiones cutáneas del lupus neonatal son transitorias y desaparecen hacia los {{c1::6 meses}} al degradarse los anticuerpos maternos.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Lupus neonatal",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Bloqueo cardíaco fetal: bradicardia persistente con frecuencia < {{c1::100}} por minuto.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Lupus neonatal",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fármacos clásicos del lupus inducido: {{c1::hidralazina y procainamida}}.",
+      "extra": "También isoniazida, minociclina, metildopa y anti-TNF.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Procainamida produce lupus en 20% tras {{c1::1 año}}; hidralazina, en 5–10% con dosis > 200 mg/día.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Fármacos",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El lupus inducido por drogas respeta típicamente el {{c1::riñón y el SNC}}.",
+      "extra": "Cursa con fiebre, artralgias, mialgias, pleuropericarditis.",
+      "origen": "clase:6",
+      "fuente": "Clase · Respeto visceral",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En lupus por drogas los anticuerpos {{c1::antihistona}} son positivos en > 95%.",
+      "extra": "En el LES idiopático, 50–60%.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla LES vs LID",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En lupus por drogas, anti-dsDNA y anti-Sm son {{c1::negativos}} y C3/C4 normales.",
+      "extra": "Si están presentes: LES idiopático.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla LES vs LID",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Conducta del lupus inducido por drogas: {{c1::suspender el fármaco}} de inmediato.",
+      "extra": "Cede en semanas; AINEs o prednisona baja para alivio.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz EUNACOM 2018",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La biopsia cutánea con inmunofluorescencia directa muestra la {{c1::banda lúpica}} en la unión dermoepidérmica.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Descartar compromiso sistémico",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el lupus cutáneo subagudo, cerca de la {{c1::mitad}} cumple criterios de LES, habitualmente leve.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Descartar compromiso sistémico",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Todo lupus cutáneo sin datos sistémicos se controla con orina y hemograma cada {{c1::6 a 12 meses}} y se deriva a dermatología.",
+      "extra": "Con ANA, anti-dsDNA, C bajo, citopenias o proteinuria: manejo como LES.",
+      "origen": "clase:7",
+      "fuente": "Clase · Descartar compromiso sistémico",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Placas en pómulo y cuero cabelludo con alopecia central de 2 meses: {{c1::lupus cutáneo crónico}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "EUNACOM Diciembre 2024 · Pregunta 2",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 2"
+      ],
+      "codigos": [
+        "6.01.1.016",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer con rash malar, úlceras orales, linfopenia, ANA y anti-DNA (+) e hipocomplementemia: {{c1::LES}}.",
+      "extra": "El FR puede ser positivo en LES; el anti-CCP negativo aleja la AR.",
+      "origen": "clase:9",
+      "fuente": "EUNACOM Diciembre 2018 · Pregunta 28",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 28"
+      ],
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante sospecha de LES con compromiso renal, el examen a solicitar primero son los {{c1::anticuerpos antinucleares (ANA)}}.",
+      "extra": "Los ANA son el examen más sensible (~95%).",
+      "origen": "clase:9",
+      "fuente": "EUNACOM Julio 2017 · Pregunta 74",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 74",
+        "EUNACOM Agosto 2021 · Pregunta 98"
+      ],
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síndrome nefrótico con hipergammaglobulinemia policlonal y complemento bajo: {{c1::lupus}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "EUNACOM Diciembre 2024 · Pregunta 154",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 154"
+      ],
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-10/01_lupus-discoide__cto-reuma_p81.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Lupus eritematoso discoide",
+      "clave": "Placas rojas con escama adherente y atrofia central en la cara",
+      "conducta": "Fotoprotección, corticoide tópico, hidroxicloroquina; descartar LES",
+      "fuente": "Manual CTO Reumatología 14.ª ed., p. 81",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.014",
+        "6.01.1.016"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-10/02_lupus-subagudo-anular__cto-reuma_p81.jpg",
+      "pregunta": "¿Qué muestra y qué pides?",
+      "diagnostico": "Lupus cutáneo subagudo anular",
+      "clave": "Lesiones anulares en cuello y escote, sin cicatriz",
+      "conducta": "Pedir anti-Ro (SSA); en embarazo, vigilar bloqueo AV fetal",
+      "fuente": "Manual CTO Reumatología 14.ª ed., p. 81",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0.0",
+      "pista": "Anti-histona (+), sedimento limpio, anti-DNA (-): ¿conducta?",
+      "codigos": [
+        "6.01.1.016"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.0",
+      "pista": "Placas con tapones córneos y atrofia: ¿diagnóstico y tratamiento?",
+      "codigos": [
+        "6.01.1.016"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1",
+      "pista": "Lesiones anulares fotosensibles sin cicatriz: ¿qué solicitas?",
+      "codigos": [
+        "6.01.1.016"
+      ]
+    }
+  ]
+}

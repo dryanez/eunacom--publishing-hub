@@ -1,0 +1,795 @@
+[
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 64",
+  "year": 2016,
+  "codes": [
+   "1.04.1.009 [gastro-08: Diarrea asociada a antibióticos]"
+  ],
+  "stem": "Una mujer de 28 años, puérpera de 2 meses, con 3 semanas de diarreas con presencia de sangre y dolor abdominal difuso leve. Al examen físico está en buenas condiciones generales, con abdomen blando, sensible a la palpación profunda, sin signos de irritación peritoneal, con meteorismo. El diagnóstico más probable es:",
+  "options": "A) Diarrea debida a Clostridium difficile | B) Colitis ulcerativa | C) Enfermedad de Cröhn | D) Colitis inespecífica | E) Shigellosis",
+  "correcta": "A",
+  "explicacion": "Seguro recibió antibióticos en el puerperio, por lo que se sospecha la diarrea por C. difficile. Las otras opciones no tienen relación con el antecedente de puerperio.",
+  "conf": 0.78,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 126",
+  "year": 2024,
+  "codes": [
+   "1.04.1.009 [gastro-08: Diarrea asociada a antibióticos]"
+  ],
+  "stem": "Paciente con antecedente de diverticulitis hace 10-15 días tratada con ATB oral (ciprofloxacino + metronidazol), consulta SU por diarrea múltiples episodios, con pujo y tenesmo, fiebre? dolor y sangrado: a.​ Diarrea por clostridium (sg yo era un cuadro clásico de diarrea por CD 2° a uso de ATB) b.​ Reagudización de diverticulitis por rectitis c.​ Absceso diverticular no puede ser CU? - el pujo y tenesmo no orientaría a CU? Vi una similar en una reconstrucción y era CU x eso,, era muy vieja para ser CU",
+  "options": "A) Staphylococcus aureus | B) Streptococcus pneumoniae | C) Escherichia coli | D) Pseudomonas aeruginosa | E) Klebsiella pneumoniae",
+  "correcta": "A",
+  "explicacion": "La alternativa correcta es la **A** (Staphylococcus aureus). La insulina es el tratamiento de elección en la diabetes tipo 1 y tiene indicaciones precisas en la diabetes tipo 2. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 113",
+  "year": 2016,
+  "codes": [
+   "1.04.1.009 [gastro-08: Diarrea asociada a antibióticos]"
+  ],
+  "stem": "Una paciente de 43 años es diagnosticada de bronquitis, iniciándose tratamiento con amoxicilina oral por 14 días, con buena respuesta. Al décimo día de tratamiento antibiótico evoluciona con dolor abdominal y diarrea, que en oportunidades es sanguinolenta. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Agregar sales de rehidratación oral | B) Solicitar parasitológico seriado de deposiciones | C) Agregar ciprofloxacino al tratamiento | D) Solicitar colonoscopía | E) Suspender el tratamiento antibiótico y solicitar toxinas de Clostridium difficile en deposiciones",
+  "correcta": "E",
+  "explicacion": "Lo más importante es confirmar el diagnóstico de C. difficile. Sin embargo, las toxinas han sido desplazadas por la PCR (aunque tiene más falsos positivos) y en general no es necesario suspender los antibióticos (en este caso sí se debían suspender, porque no estaban indicados, ya que las bronquitis no se tratan con ATB).",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 132",
+  "year": 2024,
+  "codes": [
+   "1.04.1.009 [gastro-08: Diarrea asociada a antibióticos]"
+  ],
+  "stem": "Un paciente es hospitalizado durante 10 días por causa de una neumonía neumocócica adquirida en la comunidad. Algunos días después de haber sido dado de alta, presenta diarrea líquida abundante, con 5 a 6 evacuaciones al día, asociada a dolor abdominal, malestar general y febrículas hasta 37.3°C. ¿Cuál es el examen de elección para continuar el estudio?",
+  "options": "A) Colonoscopía | B) Parasitológico ampliado de deposiciones | C) Coprocultivo | D) Reacción en cadena de la polimerasa (PCR) para Clostridium difficile | E) Ecografía abdominal",
+  "correcta": "D",
+  "explicacion": "Diarrea por Clostridioides (Clostridium) Difficile: Tras recibir antibióticos, se debe descartar diarrea por Clostridioides difficile mediante PCR, que ha reemplazado las pruebas de toxinas A y B en heces.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2018 · Pregunta 132",
+  "year": 2018,
+  "codes": [
+   "1.04.1.009 [gastro-08: Diarrea asociada a antibióticos]"
+  ],
+  "stem": "Una paciente de 43 años está en tratamiento antibiótico, hace 2 semanas por una neumonía nosocomial. Evoluciona con diarrea acuosa, asociada a dolor abdominal intenso, tipo cólico y fiebre hasta 38,3°C. ¿Cuál es el examen más adecuado para continuar el estudio de esta paciente?",
+  "options": "A) Leucocitos fecales | B) Colonoscopía | C) Parasitológico de deposiciones | D) Toxinas A y B de Clostridium difficile en deposiciones | E) Coprocultivo Respuesta: La diarrea por C. difficile se estudia preferentemente con PCR para C. difficile, en deposiciones. Si no está disponible, pues también sirven las toxinas A y B. La respuesta correcta es: Toxinas A y B de Clostridium difficile en deposiciones ¿Te gustaría que te ayude a buscar material de estudio adicional para alguno de estos temas médicos?",
+  "correcta": "C",
+  "explicacion": "La diarrea por C. difficile se estudia preferentemente con PCR para C. difficile, en deposiciones. Si no está disponible, pues también sirven las toxinas A y B.",
+  "conf": 0.4,
+  "alertas": [
+   "alternativas_mezcladas",
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 100",
+  "year": 2019,
+  "codes": [
+   "1.04.1.010 [reuma-19: Enfermedades de transmisión sexual]"
+  ],
+  "stem": "Un paciente de 24 años mantiene relación sexual casual hace 7 días, con penetración vaginal, sin protección evolucionando con disuria, sin otros síntomas. Al examen físico y genital, no hay alteraciones. ¿Cuál es el agente etiológico más probable?",
+  "options": "A) Mycoplasma genitalium | B) Ureaplasma urealyticum | C) Chlamydia trachomatis | D) Trichomona vaginalis | E) Escherichia coli",
+  "correcta": "C",
+  "explicacion": "Pregunta difícil, ya que A, B, C y D pueden producir ese cuadro clínico. Sin embargo, la Chlamydia es la causa más frecuente de uretritis, después de la gonorrea (la que bastante purulenta, casi siempre; mientras que las demás pueden no serlo).",
+  "conf": 0.9,
+  "alertas": [
+   "explicacion_de_otro_tema"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 61",
+  "year": 2019,
+  "codes": [
+   "1.04.1.010 [reuma-19: Enfermedades de transmisión sexual]"
+  ],
+  "stem": "Un hombre de 34 años consulta por disuria, asociada a secreción uretral purulenta, de un día de evolución. Refiere haber tenido relaciones sexuales sin protección hace una semana. Se realiza tinción de Gram de la secreción uretral, observándose abundantes cocáceas Gram negativas intra y extracelulares. El agente etiológico más probable es:",
+  "options": "A) Neisseria gonorrhoeae | B) Treponema pallidum | C) Chlamydia trachomatis | D) Mycoplasma genitalium | E) Streptococcus pyogenes",
+  "correcta": "A",
+  "explicacion": "Los cocos Gram negativos intra y extracelulares en la secreción uretral purulenta corresponden a Neisseria gonorrhoeae. Se trata con ceftriaxona 250 mg intramuscular en dosis única y, además, se debe cubrir Chlamydia con azitromicina o doxiciclina. Chlamydia no se visualiza con la tinción de Gram.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 110",
+  "year": 2016,
+  "codes": [
+   "1.04.1.010 [reuma-19: Enfermedades de transmisión sexual]"
+  ],
+  "stem": "Un paciente de 24 años mantiene relaciones sexuales, por vía vaginal, sin protección, evolucionando con disuria, sin otros síntomas. Al examen físico y genital, no hay alteraciones. ¿Cuál es el agente etiológico más probable?",
+  "options": "A) Trichomona vaginalis | B) Treponema pallidum | C) Ureaplasma urealyticum | D) Mycoplasma genitalis | E) Chlamydia trachomatis",
+  "correcta": "E",
+  "explicacion": "Pregunta pésima, puede ser cualquiera de las opciones, menos la B. Sin embargo, la causa más frecuente de uretritis no gonocócica es la Chlamydia trachomatis. Si bien le falta clínica para tener una uretritis (solo tiene disuria, sin secreción uretral), pareciera que es lo que se está preguntando, dadas las alternativas.",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2025 · Pregunta 36",
+  "year": 2025,
+  "codes": [
+   "1.04.1.010 [reuma-19: Enfermedades de transmisión sexual]"
+  ],
+  "stem": "Hombre de 25 años con secreción uretral purulenta y disuria de 4 días de evolución. Tinción de Gram: diplococos gram negativos intracelulares. ¿Cuál es el tratamiento de elección?",
+  "options": "A) Azitromicina 1 g oral dosis única | B) Doxiciclina 100 mg c/12h por 7 días | C) Ciprofloxacino 500 mg oral dosis única | D) Amoxicilina 3 g oral dosis única | E) Ceftriaxona 500 mg IM dosis única",
+  "correcta": "E",
+  "explicacion": "Gonorrea uretral: ceftriaxona 500 mg IM dosis única es el tratamiento de elección (guías CDC 2021). Alta resistencia a ciprofloxacino y amoxicilina. Se agrega azitromicina o doxiciclina para cubrir Chlamydia concomitante (coinfección en ~40% de casos).",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2025 · Pregunta 37",
+  "year": 2025,
+  "codes": [
+   "1.04.1.010 [reuma-19: Enfermedades de transmisión sexual]"
+  ],
+  "stem": "Hombre de 30 años consulta por úlcera indolora en glande de 5 días de evolución, bordes indurados, fondo limpio. Sin adenopatías inguinales dolorosas. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Sífilis primaria (chancro sifilítico) | B) Herpes genital | C) Chancroide (Haemophilus ducreyi) | D) Linfogranuloma venéreo | E) Carcinoma espinocelular de pene",
+  "correcta": "A",
+  "explicacion": "Úlcera genital única, indolora, bordes indurados, fondo limpio = chancro sifilítico (sífilis primaria por Treponema pallidum). El herpes es doloroso y con vesículas; el chancroide es doloroso.",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 136",
+  "year": 2019,
+  "codes": [
+   "1.04.1.010 [reuma-19: Enfermedades de transmisión sexual]"
+  ],
+  "stem": "Un paciente consulta porque hace 3 días notó aparición de una úlcera en el pene, ubicada en el glande, de 1 cm de diámetro, de aspecto indurado, fondo limpio y sin otros síntomas. Además, se palpa una adenopatía inguinal derecha indolora. Se solicita VDRL y FTA-ABS, resultando ambos negativos. El diagnóstico más probable es:",
+  "options": "A) Sífilis primaria | B) Chancroide | C) Enfermedad de Behcet | D) Infección por virus papiloma humano | E) Linfogranuloma venéreo",
+  "correcta": "A",
+  "explicacion": "Es un chancro o sífilis primaria clásica. Es frecuente que las pruebas treponémicas y no treponémicas estén negativas al inicio, por lo que el diagnóstico es clínico (a lo más se confirma con una microscopía de campo oscuro).",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2018 · Pregunta 169",
+  "year": 2018,
+  "codes": [
+   "1.04.1.010 [reuma-19: Enfermedades de transmisión sexual]"
+  ],
+  "stem": "Una paciente de 19 años consulta por disuria dolorosa y lesiones vulvares, de 48 horas de evolución. Refiere relaciones sexuales sin protección. Al examen genital, tiene 3 úlceras de fondo amarillento y halo eritematoso. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Molusco contagioso | B) Infección por Chlamydia trachomatis | C) Herpes genital | D) Chancro sifilítico | E) Condiloma acuminado",
+  "correcta": "C",
+  "explicacion": "Diagnóstico: **Herpes genital** (opción **C**). [Pregunta disputada] Es un herpes genital clásico.. La artritis reactiva es una pelvispondiloartropatía que ocurre 1-4 semanas después de una infección. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 86",
+  "year": 2019,
+  "codes": [
+   "1.04.1.010 [reuma-19: Enfermedades de transmisión sexual]"
+  ],
+  "stem": "Una mujer de 26 años, sexualmente activa y alérgica a la penicilina, consulta por disuria y molestias genitales, de 4 días de evolución, asociada a leucorrea. Al examen físico, se observan signos inflamatorios en el cuello uterino, con escasa leucorrea. El cultivo de Thayer Martin es positivo y prueba de aminas, negativa. El tratamiento de elección es:",
+  "options": "A) Ciprofloxacino | B) Ceftriaxona | C) Azitromicina | D) Doxiciclina | E) Penicilina benzatina",
+  "correcta": "B",
+  "explicacion": "Tiene una uretritis y cervicitis gonocócica (cultivo de Thayer Martin positivo) y, por tanto, se debe tratar con ceftriaxona de elección. La azitromicina y el ciprofloxacino también sirven, pero sigue siendo de elección la ceftriaxona. Es cierto que también se debe cubrir Chlamydia, por lo que la única respuesta que cubre todo es la azitromicina, pero se debe simplificar el enfrentamiento de esta pregunta, en que específicamente se pregunta el tratamiento de la gonorrea y, por ello, la respuesta es la B.",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 91",
+  "year": 2015,
+  "codes": [
+   "1.04.1.010 [reuma-19: Enfermedades de transmisión sexual]"
+  ],
+  "stem": "¿Cuál es la conducta más adecuada ante un hombre joven, que presenta múltiples condilomas acuminados perianales?",
+  "options": "A) Descartar otras enfermedades de transmisión sexual | B) Determinar el genotipo del virus papiloma | C) Realizar rectosigmoidoscopía | D) Realizar tratamiento con podofilino | E) Indicar aciclovir oral",
+  "correcta": "A",
+  "explicacion": "Lo más importante en toda ETS es descartar otras ETS, en particular en los condilomas, que no tienen mayores complicaciones.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 145",
+  "year": 2016,
+  "codes": [
+   "1.04.1.010 [reuma-19: Enfermedades de transmisión sexual]"
+  ],
+  "stem": "Una paciente de sexo femenino de 17 años de edad, con antecedente de relaciones sexuales sin protección, consulta prurito vulvar, asociado a ardor progresivo. Refiere sensación de aumento del volumen de la vulva, que luego fue seguido por los síntomas actuales. Al examen físico se observa lo expuesto en la siguiente imagen. Se trata de una infección por:",
+  "options": "A) Treponema pallidum | B) Virus herpes simplex | C) Chlamydia tracomatis | D) Virus papiloma humano | E) Ureaplasma urealyticum",
+  "correcta": "B",
+  "explicacion": "La alternativa correcta es la **B** (Virus herpes simplex). Es un herpes genital clásico.. La artritis reactiva es una pelvispondiloartropatía que ocurre 1-4 semanas después de una infección. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2025 · Pregunta 52",
+  "year": 2025,
+  "codes": [
+   "1.04.1.010 [reuma-19: Enfermedades de transmisión sexual]"
+  ],
+  "stem": "Una mujer de 23 años consulta por disuria de 7 días de evolución asociada a dolor abdominal bajo. En su examen ginecológico tiene especuloscopía con cuello uterino cerrado y sin lesiones y con paredes vaginales sin alteraciones. Al tacto vaginal presenta dolor a la compresión anterior de la vagina. Se solicita sedimento de orina, que muestra presencia de piuria y leucocituria y un urocultivo, que resulta negativo a las 24 horas. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Solicitar urocul2vo de 2empo extendido | B) Solicitar UroTAC | C) Solicitar cistoscopía | D) Iniciar flavoxato vía oral | E) Solicitar panel de reacción de cadena de polimerasa para ITS",
+  "correcta": "E",
+  "explicacion": "La sospecha es una uretritis por Chlamydia (más raro gonococo), dada la disuria con piuria aséptica y el dolor a la palpación uretral (zona anterior de la vagina). Además de solicitar la PCR para ITS, se debe iniciar tratamiento empírico con 1 dosis de cemriaxona (gonococo) + 10 días de doxicilina (clamidia), siendo una opción la azitromicina en monodosis. La piuria aséptica (sedimento con piuria + urocultivo negativo) también se ve en la tuberculosis renal y en las ITU en las que se iniciaron antibióticos antes de tomar el urocultivo.",
+  "conf": 0.5,
+  "alertas": [
+   "texto_corrupto"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 112",
+  "year": 2021,
+  "codes": [
+   "1.04.1.010 [reuma-19: Enfermedades de transmisión sexual]"
+  ],
+  "stem": "Un paciente de 23 años, con antecedente de relación sexual sin protección, consulta porque hace 3 días notó aparición de una úlcera en el pene, ubicada en el glande, indolora, de 1 cm de diámetro, de aspecto indurado. Además, se palpa una adenopatía inguinal derecha indolora. Se solicita VDRL y FTA-ABS, resultando ambos negativos. El diagnóstico más probable es:",
+  "options": "A) Sífilis primaria | B) Chancroide | C) Enfermedad de Behcet | D) Herpes genital | E) Linfogranuloma venéreo",
+  "correcta": "A",
+  "explicacion": "Es un chancro clásico, cuyo diagnóstico es clínico (úlcera indolora) precisamente porque las pruebas suelen salir negativas al inicio (treponémicas y no treponémicas).",
+  "conf": 0.5,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Enero 2023 · Pregunta 40",
+  "year": 2023,
+  "codes": [
+   "1.04.1.010 [reuma-19: Enfermedades de transmisión sexual]"
+  ],
+  "stem": "Mujer con úlcera indolora en la horquilla vulvar y adenopatías inguinales. ¿Cuál es el tratamiento más adecuado?",
+  "options": "A) Penicilina benzatina | B) Aciclovir oral | C) Metronidazol oral | D) Doxiciclina por 21 días | E) Ceftriaxona IM dosis única",
+  "correcta": "A",
+  "explicacion": "Conducta / Tratamiento indicado: **Penicilina benzatina** (opción **A**). Penicilina benzatina. Tratamiento: AINEs (primera línea) + corticoides (segunda línea, a diferencia de otras PEA donde son biológicos) De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.48,
+  "alertas": [
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2022 · Pregunta 178",
+  "year": 2022,
+  "codes": [
+   "1.04.1.010 [reuma-19: Enfermedades de transmisión sexual]"
+  ],
+  "stem": "Una mujer de 25 años, quien mantuvo relaciones sexuales sin protección hace 3 semanas, consulta porque notó aparición de una lesión genital, que se observa como una úlcera en la horquilla vulvar. Además, se palpa una adenopatía inguinal izquierda. No ha tenido otros síntomas. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Tratarla con penicilina benzatina | B) Solicitar PCR para virus herpes simplex | C) Tratar con fluconazol oral | D) Tratar con aciclovir | E) Tratar con doxicilina",
+  "correcta": "A",
+  "explicacion": "Conducta / Tratamiento indicado: **Tratarla con penicilina benzatina** (opción **A**). Tratamiento: AINEs (primera línea) + corticoides (segunda línea, a diferencia de otras PEA donde son biológicos) De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.48,
+  "alertas": [
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 118",
+  "year": 2013,
+  "codes": [
+   "1.04.1.011 [infecto-23: Enfermedades eruptivas no complicadas (varicela, herpes zoster...)]"
+  ],
+  "stem": "Hombre de 18 años, sin antecedentes, con cuadro de 3 días de compromiso del estado general, sensación febril, tos y coriza, que durante el último día se ha asociado a prurito generalizado. Al examen físico destaca presencia de lesiones papulares y vesículas muy pruriginosas en tronco y extremidades, no asociado a otros hallazgos. El tratamiento de elección en este caso es:",
+  "options": "A) Clorfenamina oral | B) Aspirina oral | C) Aciclovir oral | D) Vacuna contra virus herpes 3 | E) Inmunoglobulina G no específica",
+  "correcta": "C",
+  "explicacion": "Conducta / Tratamiento indicado: **Aciclovir oral** (opción **C**). Es una varicela en mayor de 13 años. La aspirina está contraindicada.. La nefropatía diabética es la primera causa de enfermedad renal terminal en Chile De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2018 · Pregunta 127",
+  "year": 2018,
+  "codes": [
+   "1.04.1.011 [infecto-23: Enfermedades eruptivas no complicadas (varicela, herpes zoster...)]"
+  ],
+  "stem": "Una paciente de 41 años, con antecedente de VIH, con baja de peso, consulta por dolor y ardor en la zona derecha del dorso, que se irradia a la región mamaria ipsilateral. En el examen físico se observan vesículas en la espalda y en la mama derecha. El tratamiento de elección es:",
+  "options": "A) Aciclovir | B) Cloxacilina | C) Mupirocina | D) Valganciclovir | E) Azitromicina",
+  "correcta": "A",
+  "explicacion": "Es un herpes zóster, que se trata con aciclovir o valaciclovir. El valganciclovir se usa en las infecciones por CMV.",
+  "conf": 0.35,
+  "alertas": [
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2025 · Pregunta 57",
+  "year": 2025,
+  "codes": [
+   "1.04.1.012 [infecto-18: Fiebre tifoídea y paratifoídea]"
+  ],
+  "stem": "Un niño de 7 años presenta fiebre persistente desde hace 7 días, mayor en la tarde, hasta 38,9 °C, asociada a cefalea, anorexia y dolor abdominal. Al examen físico tiene temperatura: 38,2 °C, frecuencia cardíaca: 62x’ y frecuencia respiratoria: 15x’. Se palpa abdomen sensible de manera difusa, sin signos peritoneales. Se solicita hemograma que muestra hematocrito: 35%, glóbulos blancos: 3.700/mm³ con 70% segmentados, 9% cayados, 16% linfocitos, 5% monocitos, 0% eosinófilos y VHS 65 mm/h. Su proteína C reactiva resulta 6,9 mg/L (valor normal: < 0,5 mg/L). ¿Cuál es el agente etiológico más probable?",
+  "options": "A) Brucella melitensis | B) Salmonella typhi | C) Escherichia coli enterotoxigénica | D) Virus de Epstein-Barr | E) Citomegalovirus",
+  "correcta": "B",
+  "explicacion": "Un cuadro febril inespecífico con dolor abdominal y hemograma con leucopenia, desviación a izquierda y aneosinofilia (hemograma tífico) orienta a fiebre tifoidea por Salmonella typhi. Brucella, EBV y CMV suelen dar linfocitosis o linfocitos atípicos, y E. coli enterotoxigénica causa diarrea acuosa sin ese hemograma.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 72",
+  "year": 2016,
+  "codes": [
+   "1.04.1.013 [infecto-17: Hidatidosis]"
+  ],
+  "stem": "Un hombre de 40 años presenta un cuadro de dolor abdominal, de 3 meses de evolución, leve, intermitente. Al examen físico presenta leve dolor a la palpación del hipocrondrio derecho, por lo que se solicita una ecografía de abdomen, que visualiza una lesión hepática quística, con paredes visibles y gruesas, de 8 cm. En sus exámenes destaca hemograma con hematocrito y plaquetas normales, con 8.000 blancos, 50% de neutrófilos, 40% de linfocitos, 3% de eosinófilos y 7% de monocitos. ¿Qué examen es el más adecuado para confirmar el diagnóstico?",
+  "options": "A) IgG para Toxoplasma gondii | B) Serología para hidatidosis | C) Serología para Triquinella spiralis | D) IgG para Fasciola hepática (Distoma) | E) Examen parasitológico seriado de deposiciones",
+  "correcta": "B",
+  "explicacion": "Es un quiste hidatídico con el patrón ecográfico clásico (lesión quística con paredes y/o tabiques). El diagnóstico se confirmó ya con la Ecografía, pero la serología puede ayudar a confirmarlo y además sirve para el seguimiento postquirúrgico (en que deben disminuir los niveles de anticuerpos). Además, era la única opción relacionada con el diagnóstico.",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 70",
+  "year": 2021,
+  "codes": [
+   "1.04.1.013 [infecto-17: Hidatidosis]"
+  ],
+  "stem": "Un paciente de 34 años presenta un episodio de tos intensa, con salida de abundante líquido salobre, con presencia de membranas blanquecinas y restos hemoptoicos. Su examen físico es normal. ¿Cuál es el examen más adecuado para iniciar el estudio de este paciente?",
+  "options": "A) TAC de tórax y abdomen | B) Parasitológico de deposiciones | C) Radiografía de tórax | D) Ecografía abdominal | E) Colonoscopía",
+  "correcta": "C",
+  "explicacion": "Tiene una vómica, cuadro clásico de la hidatidosis pulmonar. El primer examen siempre es la radiografía de tórax. Luego se puede seguir con TAC y/o ecografía abdominal, en busca de lesiones hepáticas.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 62",
+  "year": 2024,
+  "codes": [
+   "1.04.1.014 [infecto-10: Infección por virus de inmunodeficiencia humana (SIDA)]"
+  ],
+  "stem": "Un paciente de 37 años consulta por fiebre y malestar general de dos días de evolución, asociado a odinofagia. Al examen físico, tiene FC: 96x’, PA: 110/70 mmHg, T°: 38,0°C. Se observan úlceras orales, se palpan adenopatías cervicales bilaterales y se observa un exantema maculopapular eritematoso con distribución predominante en el tronco. Su examen cardiopulmonar es normal. Al examen neurológico, presenta algún grado de confusión y se palpa rigidez de nuca esbozada. Presenta serología negativa para VIH y para virus de Epstein Barr y se realiza una punción lumbar, que da salida a líquido cefalorraquídeo con pleocitosis de predominio mononuclear y glucorraquia de 55 mg/dl. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Primoinfección por VIH | B) Meningoencefalitis por citomegalovirus | C) Meningitis bacteriana aguda | D) Neurosífilis | E) Mononucleosis infecciosa",
+  "correcta": "A",
+  "explicacion": "Síndrome retroviral agudo o primoinfección por VIH: El síndrome retroviral agudo es la primera etapa de la infección por VIH. Se manifiesta clínicamente como un síndrome mononucleósico, que suele incluir fiebre, dolor de garganta, inflamación de los ganglios linfáticos y fatiga. A menudo se acompaña de un exantema rosado. En algunos casos, el síndrome retroviral agudo puede complicarse con meningitis aséptica, de tipo viral, con líquido cefalorraquídeo de predominio de células mononucleares y glucorraquia superior a 40 mg/dL. Durante el período de ventana, que es el tiempo que transcurre entre la infección por VIH y la aparición de anticuerpos detectables en la sangre, la serología para VIH puede ser negativa. Por lo tanto, el examen de elección para diagnosticar el síndrome retroviral agudo es la PCR para VIH o la detección de antígenos del VIH, ya que estas pruebas detectan directamente el virus. En cambio, en la infección crónica por VIH, el diagnóstico se realiza mediante serología (ELISA) y se confirma con Western blot, ya que en esta etapa los anticuerpos contra el VIH ya son detectables en la sangre.",
+  "conf": 0.82,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 56",
+  "year": 2024,
+  "codes": [
+   "1.04.1.014 [infecto-10: Infección por virus de inmunodeficiencia humana (SIDA)]"
+  ],
+  "stem": "Una paciente de 33 años, VIH positivo, cursa un embarazo bien controlado, con tratamiento antirretroviral y cargas virales indetectables. El recién nacido nace a las 38 semanas, por parto vaginal, sin complicaciones. ¿Cuál de los siguientes es el tratamiento antirretroviral de elección para el recién nacido?",
+  "options": "A) Zidovudina (AZT) | B) Lamivudina (3TC) | C) Nevirapina (NVP) | D) Lopinavir (LPV) | E) Abacavir (ABC)",
+  "correcta": "A",
+  "explicacion": "Prevención de la transmisión del VIH de madre a hijo: Para evitar la transmisión del virus de inmunodeficiencia humana (VIH) al recién nacido, la madre debe recibir terapia antirretroviral durante todo el embarazo (medida más importante). El objetivo es lograr cargas virales indetectables, lo que permite un parto vaginal. Si no se logran cargas virales indetectables, se debe realizar una cesárea. El recién nacido debe recibir terapia antirretroviral por varias semanas después del nacimiento. Además, la lactancia materna está absolutamente contraindicada. Para el seguimiento del recién nacido se utiliza la prueba de reacción en cadena de la polimerasa (PCR) para detectar el VIH, ya que las pruebas de ELISA y Western blot pueden dar resultados falsos positivos debido a la presencia de anticuerpos maternos. El esquema de terapia antirretroviral para el recién nacido varía según el riesgo de infección. En recién nacidos de bajo riesgo (por ejemplo, nacidos a término de madres con cargas virales indetectables durante el embarazo) se utiliza zidovudina como monoterapia. En recién nacidos de alto riesgo (por ejemplo, aquellos cuyas madres tenían cargas virales elevadas durante el embarazo) se utiliza una terapia triple que combina zidovudina, lamivudina y nevirapina.",
+  "conf": 0.65,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 99",
+  "year": 2024,
+  "codes": [
+   "1.04.1.014 [infecto-10: Infección por virus de inmunodeficiencia humana (SIDA)]"
+  ],
+  "stem": "Emb de 32 semanas con Vih (+) sin tto, cual es la mejor conducta para prevenir transmision vertical:",
+  "options": "A) Iniciar TARV | B) interrumpir embarazo | C) TARV intraparto | D) Interrupción del embarazo | E) Maduración pulmonar y observación",
+  "correcta": "A",
+  "explicacion": "Conducta / Tratamiento indicado: **Iniciar TARV** (opción **A**). Diagnóstico: PCR (de elección) o inmunofluorescencia directa; beta-D-glucano es inespecífico De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2018 · Pregunta 86",
+  "year": 2018,
+  "codes": [
+   "1.04.1.014 [infecto-10: Infección por virus de inmunodeficiencia humana (SIDA)]"
+  ],
+  "stem": "Pregunta 86 Sin contestar Puntúa como 1,00 Marcar pregunta ¿Cuál es la estrategia más efectiva para evitar la transmisión vertical del VIH, desde la madre embarazada al hijo?",
+  "options": "A) Tratamiento a la madre durante el embarazo y el parto | B) Cesárea electiva | C) Contraindicación de la lactancia materna | D) Tratamiento a la madre durante la lactancia | E) Profilaxis al recién nacido",
+  "correcta": "A",
+  "explicacion": "La triterapia durante el embarazo es la medida más importante. Además, se hace cesárea, se prohíbe la lactancia materna y se le da profilaxis al recién nacido, pero todas esas medidas inciden muy poco, en comparación a la TAR durante el embarazo.",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 57",
+  "year": 2013,
+  "codes": [
+   "1.04.1.014 [infecto-10: Infección por virus de inmunodeficiencia humana (SIDA)]"
+  ],
+  "stem": "Un paciente de 21 años, con antecedente de dermatitis atópica y onicomicosis en manos y pies, es diagnosticado por varicela necrohemorrágica la cual es manejada con aciclovir. ¿Cuál de las siguientes patologías de base es más probable que tenga este paciente?",
+  "options": "A) Inmunodeficiencia por déficit de inmunoglobulina A | B) Inmunodeficiencia por alteración en la fagocitosis | C) Inmunodeficiencia por déficit de inmunoglobulina G | D) Inmunodeficiencia por déficit de complemento | E) Inmunodeficiencia combinada adquirida",
+  "correcta": "E",
+  "explicacion": "Tiene VIH, que es una ID adquirida, de tipo combinada. El déficit de IgA da diarreas y bronquitis. El déficit de IgG da infecciones por Neumococo, meningococo y haemophilus. El déficir de C` da infecciones por meningococo. El déficit de fagocitosis da infecciones por bacterias y aspergillus.",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 115",
+  "year": 2019,
+  "codes": [
+   "1.04.1.014 [infecto-10: Infección por virus de inmunodeficiencia humana (SIDA)]"
+  ],
+  "stem": "Un paciente de 40 años, con antecedente de infección crónica por VIH, diagnosticado hace 4 años, consulta por diarrea de 3 meses, de tipo acuoso, sin fiebre, asociado a dolor abdominal y baja de peso. Al examen físico está afebril, tiene algorra y presenta abdomen blando, depresible, levemente doloroso a la palpación, sin signos peritoneales. ¿Cuál es el agente etiológico más probable?",
+  "options": "A) Salmonella typhi | B) Clostridium difficile | C) Criptococcus sp. | D) Microsporidium | E) Toxoplasma gondii",
+  "correcta": "D",
+  "explicacion": "La diarrea crónica en el paciente VIH es primeramente por Criptosporidium sp. Luego por Isospora Belli y discutiblemente por Microsporidium sp.",
+  "conf": 0.45,
+  "alertas": [
+   "explicacion_admite_duda",
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 60",
+  "year": 2017,
+  "codes": [
+   "1.04.1.014 [infecto-10: Infección por virus de inmunodeficiencia humana (SIDA)]"
+  ],
+  "stem": "Un paciente de 36 años presenta desde hace un mes tos irritativa, que se ha vuelto productiva, con expectoración mucosa y últimamente mucopurulenta, asociada a fiebre y malesar general. Al examen está enflaquecido, satura 93% a FiO2 ambiental, tiene FC: 80x’, PA: 110/60 mmHg y FR: 21 rpm. A su examen pulmonar, se auscultan crépitos difusos en ambos campos pulmonares, más algunas sibilancias. Se solicita una radiografía de tórax que se muestra a continuación: FOTO (Radiografía de tórax AP, con patrón alveolointersticial bilateral difuso). ¿Cuál es el agente etiológico más probable?",
+  "options": "A) Streptococcus pneumoniae | B) Mycobacterium tuberculosis | C) Staphilococcus aureus | D) Mycoplasma pneumoniae | E) Pneumocystis jiroveci",
+  "correcta": "E",
+  "explicacion": "La alternativa correcta es la **E** (Pneumocystis jiroveci). La clínica y la radiografía orientaban mucho a un paciente VIH con infección por PJ.. La neumonía por Pneumocystis jirovecii es la infección oportunista más frecuente como enfermedad de debut en pacientes con VIH. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.45,
+  "alertas": [
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 25",
+  "year": 2021,
+  "codes": [
+   "1.04.1.014 [infecto-10: Infección por virus de inmunodeficiencia humana (SIDA)]"
+  ],
+  "stem": "Un paciente de 34 años, consulta por cuadro de 5 semanas de tos irritativa con expectoración escasa, que ha ido empeorando, agregándose disnea de medianos esfuerzos en los últimos días. Al examen físico, se aprecia enflaquecido, con frecuencia respiratoria de 27 por minuto, frecuencia cardiaca de 90 por minuto, presión arterial de 100/70 mmHg y saturación de 92% con FiO2 ambiental. Examen pulmonar muestra crepitaciones bilaterales difusas, con estertores y algunas sibilancias en ambos campos pulmonares. Se solicita radiografía de tórax que se muestra a continuación (fuente: radiopaedia.org): El diagnóstico más probable es:",
+  "options": "A) Fibrosis pulmonar | B) Asma bronquial | C) Neumonitis viral | D) Neumonía por Mycoplasma pneumoniae | E) Neumonía por Pneumocystis jiroveci",
+  "correcta": "E",
+  "explicacion": "Pregunta difícil, pero parece un cuadro de neumonía por Pneumocystis, en contexto de un paciente joven con VIH, que está debutando (orienta la baja de peso y la radiografía con infiltrado difuso). El mycoplasma es una opción aceptable, pero suele durar 2a4semanas.",
+  "conf": 0.4,
+  "alertas": [
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 141",
+  "year": 2015,
+  "codes": [
+   "1.04.1.016 [infecto-25: Influenza]"
+  ],
+  "stem": "En contexto de un brote de influenza, durante el invierno, un paciente de 22 años presenta un cuadro de rinorrea, congestión nasal, fiebre, mialgias generalizadas y tos seca. Al examen físico presenta 39 grados celsius, con examen pulmonar normal. El tratamiento más adecuado es:",
+  "options": "A) Oseltamivir | B) Zanamivir | C) Aciclovir | D) Valaciclovir | E) Paracetamol",
+  "correcta": "E",
+  "explicacion": "Pregunta demasiado discutible, ya que los pacientes sin antecedentes de riesgo tienen la opción de usar oseltamivir, si así lo quieren, para disminuir el tiempo de influenza y asegurar que no será grave. La guía minsal solo da oseltamivir a pacientes con factores de riesgo o con influenza grave. Sin embargo el tratamiento sintomático es el de elección en la influenza. Se debe evitar la aspirina y el ibuprofeno, por el riesgo de síndrome de Reye. Además por la rinorrea y congestión, se puede sospechar otro virus, distinto a la influenza",
+  "conf": 0.85,
+  "alertas": [
+   "explicacion_admite_duda"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 156",
+  "year": 2013,
+  "codes": [
+   "1.04.1.016 [infecto-25: Influenza]"
+  ],
+  "stem": "Paciente de 66 años, hipertenso en tratamiento, consulta por cuadro de 3 días de compromiso del estado general, sensación febril, tos y coriza, síntomas que se han hecho más intensos en las últimas horas agregándose cefalea y mialgias intensas. Su examen físico muestra temperatura de 38,5ºC, examen pulmonar sin alteraciones. El fármaco de elección para el manejo en este caso es:",
+  "options": "A) Acetaminofeno | B) Oseltamivir | C) Claritromicina | D) Zanamivir | E) Ibuprofeno",
+  "correcta": "A",
+  "explicacion": "Es una influenza (adulto mayor). Mayor de 60 años es indicación de oseltamivir. Sin embargo el tratamiento de elección para la influenza es el tratamiento sintomático, además que lleva 3 días, por lo que el oseltamivir es menos efectivo. Ambas son respuestas correctas. Es una pregunta muy discutible, pero si la pregunta es cuál es el tratamiento de la influenza, la respuesta es: paracetamol. No les puedo prometer que esta haya sido la respuesta. Lean las páginas 6 y 7 del siguiente link: http:// web.minsal.cl/sites/default/files/files/GUIA%20CLINICA%20INFLUENZA%202014_imprimir.pdf",
+  "conf": 0.85,
+  "alertas": [
+   "explicacion_admite_duda"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 147",
+  "year": 2019,
+  "codes": [
+   "1.04.1.018 [infecto-16: Malaria]"
+  ],
+  "stem": "Una paciente realiza un viaje a la selva amazónica y, al cuarto día luego de su regreso, presenta fiebre alta hasta 39,3°C, asociada a cefalea intensa y persistente, con marcado malestar general y mialgias. Se realiza un hemograma, que muestra hematocrito: 24%, hemoglobina: 8 g/dl, glóbulos blancos: 16.000 por mm3, con fórmula diferencial normal, plaquetas: 93.000 por mm3 y VHS: 35 mmHg. El agente etiológico más probable es:",
+  "options": "A) Viruz zika | B) Virus dengue | C) Plasmodium falciparum | D) Salmonella typhi | E) Virus de fiebre amarilla",
+  "correcta": "C",
+  "explicacion": "Pregunta muy difícil, en especial porque es muy infrecuente la malaria por P. falciparum en América, incluyendo la Amazonía. Sin embargo, la presencia de anemia marcada hace que el diagnóstico sea malaria y no las demás opciones. La clínica es compatible también con el dengue. El virus Zika puede tener la misma clínica, pero suele ser menos intensa; a la fiebre amarilla le falta la ictericia; a la fiebre tifoidea le falta la diarrea.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2018 · Pregunta 124",
+  "year": 2018,
+  "codes": [
+   "1.04.1.019 [infecto-24: Micosis invasora (aspergillosis, candidiasis, mucormicosis)]"
+  ],
+  "stem": "Un paciente de 41 años, diabético tipo 1, consulta por fiebre, asociado a rinorrea purulenta y enrojecimiento facial. Al examen físico, se observa eritema de la mejilla izquierda y de la punta de la nariz, con una zona necrótica en el ala nasal. ¿Cuál es el agente etiológico más probable?",
+  "options": "A) Stafilococcus aureus | B) Candida albicans | C) Streptococcus pyogenes | D) Mucor | E) Pseudomona aureginosa",
+  "correcta": "D",
+  "explicacion": "La alternativa correcta es la **D** (Mucor). Es una mucormicosis clásica.. Las causas de hipoglicemia se dividen en dos grandes grupos: en pacientes diabéticos y en pacientes no diabéticos. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.85,
+  "alertas": [
+   "explicacion_de_otro_tema"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 132",
+  "year": 2019,
+  "codes": [
+   "1.04.1.019 [infecto-24: Micosis invasora (aspergillosis, candidiasis, mucormicosis)]"
+  ],
+  "stem": "Un paciente, con antecedente de leucemia mieloide crónica, en quimioterapia hace 2 semanas, presenta un cuadro de tos, con expectoración purulenta, con estrías de sangre, asociada a fiebre y malestar general. Se solicitan exámenes, entre los que destaca VHS: 90 mm/h, PCR: 22 mg/L. Se realiza TAC de tórax, que visualiza una tumoración densa, con un halo radiolúcido. El agente etiológico más probable es:",
+  "options": "A) Pseudomona aureginosa | B) Aspergillus | C) Staphilococcus aureus | D) Candida albicans | E) Mycobacterium tuberculosis",
+  "correcta": "B",
+  "explicacion": "Es una aspergilosis pulmonar clásica. Previamente se había preguntado, con la radiografía, que mostraba el aspergiloma clásico, que en este caso solo se describe. Suele elevar mucho la VHS y se ve tanto en pacientes inmunosuprimidos (como en este caso), como en pacientes con lesiones bronquiales (bronquiectasias o cavernas tuberculosas).",
+  "conf": 0.75,
+  "alertas": [
+   "explicacion_de_otro_tema"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 73",
+  "year": 2016,
+  "codes": [
+   "1.04.1.019 [infecto-24: Micosis invasora (aspergillosis, candidiasis, mucormicosis)]"
+  ],
+  "stem": "Paciente con diagnóstico de una leucemia mieloide aguda, en su cuarto ciclo de quimioterapia, se encuentra hospitalizado por fiebre sin foco, asociado a neutropenia (neutropenia febril), por lo que está en tratamiento con ceftazidima, amykacina y vancomicina, sin mayor respuesta. En sus exámenes de laboratorio presenta neutrófilos 100 por mm3 y en la radiografía de tórax se observa una imagen apical derecha radiopaca, de 3 cm de diámetro, espiculada y con bordes difusos. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Tuberculosis | B) Neumonía intrahospitalaria | C) Aspergilosis invasiva | D) Nocardosis | E) Neumonía por Pneumocystis jiroveci",
+  "correcta": "C",
+  "explicacion": "La aspergilosis es una complicación clásica de la neutropenia prolongada. Además, por ser un hongo, no responde a los antibióticos.",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 40",
+  "year": 2017,
+  "codes": [
+   "1.04.1.019 [infecto-24: Micosis invasora (aspergillosis, candidiasis, mucormicosis)]"
+  ],
+  "stem": "Un paciente de 35 años, consulta por cuadro de 5 semanas de tos irritativa y expec- toración que ha ido empeorando, agregándose disnea importante. Al examen físico se aprecia enflaquecido, con frecuencia respiratoria de 35 por minuto, frecuencia cardia- ca de 92 por minuto, presión arterial de 100/70mmHg y saturación de 93% con FiO2 am- biental. Examen pulmonar muestra crepitaciones, estertores y algunas sibilancias bila- terales. Se solicita radiografía que se muestra a continuación: INSERTAR FOTO El diagnóstico más probable es:",
+  "options": "A) Enfermedad pulmonar infiltrativa difusa | B) Bronquitis chlamydia trachomatis | C) Tuberculosis pulmonar | D) Neumonía por mycoplasma | E) Neumonía por pneumocystis jiroveci",
+  "correcta": "E",
+  "explicacion": "Tanto el cuadro clínico, como la RxTx con compromiso bilateral hacen sospechar una infección por VIH más Pneumocystis.",
+  "conf": 0.45,
+  "alertas": [
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 29",
+  "year": 2016,
+  "codes": [
+   "1.04.1.019 [infecto-24: Micosis invasora (aspergillosis, candidiasis, mucormicosis)]"
+  ],
+  "stem": "Un hombre de 29 años, presenta un cuadro de tos seca, de 5 semanas de evolución, a lo que se ha agregado disnea y malestar general. Al examen físico destaca FC: 100x', PA: 110/70 mmHg, temperatura: 37,5 grados Celsius y FR: 30x'. El examen cardiopulmonar, así como la radiografía de tórax son normales. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Infección por adenovirus | B) Infección por virus influenza | C) Infección por Bordetella pertusis | D) Infección por Pneumocystis jiroveci | E) Infección por Mycobacterium tuberculosis",
+  "correcta": "D",
+  "explicacion": "Pregunta difícil. Parece una infección por Pneumocystis en un paciente VIH, tan inmunosuprimido que no condensa la radiografía. El tiempo de evolución hace imposible el ADV y la influenza (son agudos y de corta evolución). La tos es compatible con Bordetella, pero no la fiebre ni la disnea. Finalmente, no tiene clínica ni radiografía de TBC (falta expectoración, fiebre alta y RxTx alterada).",
+  "conf": 0.4,
+  "alertas": [
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 171",
+  "year": 2024,
+  "codes": [
+   "1.04.1.021 [reuma-02: Osteomielitis]"
+  ],
+  "stem": "Un niño de 7 años es hospitalizado para manejo quirúrgico de una osteomielitis. El antibiograma informa desarrollo de Staphylococcus aureus con el siguiente antibiograma: ¿Cuál de los siguientes antibióticos es de elección para el manejo inicial?",
+  "options": "A) Flucloxacilina | B) Cefazolina | C) Vancomicina | D) Tetraciclina | E) Cotrimoxazol",
+  "correcta": "C",
+  "explicacion": "Tratamiento de Staphylococcus aureus Resistente a la Meticilina: Un antibiograma que muestra Staphylococcus aureus resistente a la meticilina (SARM), siendo resistente a los betalactámicos en general, incluyendo oxacilina y cefalosporinas. El tratamiento de elección para el SARM es la vancomicina.",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2018 · Pregunta 161",
+  "year": 2018,
+  "codes": [
+   "1.04.1.021 [reuma-02: Osteomielitis]"
+  ],
+  "stem": "Un paciente de 60 años, diabético, consulta por dolor lumbar intenso, de 5 días de evolución, asociado a malestar general y fiebre hasta 38,9°C. Al examinarlo, presenta marcado dolor al presionar la zona vertebral lumbar, con una contractura de la musculatura paravertebral. El diagnóstico más probable es:",
+  "options": "A) Espondilitis anquilosante | B) Aplastamiento vertebral | C) Lumbago mecánico | D) Lumbociática | E) Discitis lumbar",
+  "correcta": "E",
+  "explicacion": "Diagnóstico: **Discitis lumbar** (opción **E**). Las miopatías por estatinas son el efecto adverso más frecuente y clínicamente relevante de estos fármacos, afectando al 5-10% de los usuarios. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 25",
+  "year": 2024,
+  "codes": [
+   "1.04.1.022 [gastro-08: Parasitosis intestinales]"
+  ],
+  "stem": "IMAGEN: Parásito intestinal (foto taenia SAGINATA) tratamiento:",
+  "options": "A) Mebendazol | B) Albendazol | C) Praziquantel | D) Ivermectina | E) Derrame pleural",
+  "correcta": "C",
+  "explicacion": "Conducta / Tratamiento indicado: **Praziquantel** (opción **C**). La hipercolesterolemia familiar es la dislipidemia genética más importante para el EUNACOM De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2025 · Pregunta 101",
+  "year": 2025,
+  "codes": [
+   "1.04.1.022 [gastro-08: Parasitosis intestinales]"
+  ],
+  "stem": "Paciente de 45 años con diarrea crónica de 6 meses. Se realiza colonoscopía que muestra imágenes de parásitos adheridos a la mucosa del colon ascendente. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Giardia lamblia (duodenal, no colónica) | B) Entamoeba histolytica (colitis amebiana) | C) Trichuris trichiura (tricocefalosis) | D) Ascaris lumbricoides (se ve en intestino delgado) | E) Cryptosporidium (microscópico, no visible)",
+  "correcta": "C",
+  "explicacion": "Trichuris trichiura (tricocefalosis): parásito de aspecto de \"látigo\" visible en colonoscopía adherido a la mucosa del ciego y colon ascendente. Causa diarrea crónica y en infecciones masivas, disentería. Tratamiento: albendazol 400 mg dosis única o mebendazol.",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 23",
+  "year": 2024,
+  "codes": [
+   "1.04.1.022 [gastro-08: Parasitosis intestinales]"
+  ],
+  "stem": "Una paciente de 28 años consulta ya que lleva varios días eliminando restos de un parásito en sus deposiciones. Se solicita examen parasitológico de deposiciones, que muestra presencia de huevos operculados. ¿Cuál es el antecedente que debe preguntarse dirigidamente para establecer el diagnóstico?",
+  "options": "A) Consumo de mariscos crudos | B) Consumo de sushi de salmón | C) Consumo de carne de vaca cruda | D) Viaje al caribe | E) Contacto con roedores",
+  "correcta": "B",
+  "explicacion": "Teniasis: La presencia de restos del parásito sugiere una infestación por una tenia. De las tenias, solo el Difilobotrium latum tiene huevos operculados y se transmite por el consumo de pescado crudo. El consumo de carne de vaca cruda puede producir una infestación por Taenia saginata, mientras que la carne de cerdo cruda puede transmitir la Taenia solium. Ambas tienen huevos no operculados.",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 134",
+  "year": 2017,
+  "codes": [
+   "1.04.1.022 [gastro-08: Parasitosis intestinales]"
+  ],
+  "stem": "Un paciente de 40 años, con antecedente de infección crónica por VIH, diagnostica- do hace varios años, sin tratamiento, consulta por diarrea de 3 meses, de tipo acuoso, sin fiebre, asociado a dolor abdominal. Al examen físico está afebril y presenta abdo- men balndo, depresible, levemente doloroso a la palpación, sin signos peritoneales. ¿Cuál es el agente etiológico más probable?",
+  "options": "A) Salmonella sp. | B) Shigella sp. | C) Criptococcus | D) Microsporidium | E) Toxoplasma gondii",
+  "correcta": "D",
+  "explicacion": "Pregunta que induce a error. El Criptosporidium es la causa más frecuente de diarrea en el VIH. Sin embargo el criptococo no produce diarrea, sino meningitis y neu- monía. POr otro lado el microsporidium puede producir diarrea, pero su rol patológico es algo muy discutido.",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 167",
+  "year": 2021,
+  "codes": [
+   "1.04.1.022 [gastro-08: Parasitosis intestinales]"
+  ],
+  "stem": "Una paciente de 25 años presenta dolor epigástrico intenso, asociado a vómitos, de 2 días de evolución, que inició luego de comer ceviche. Al examen físico tiene signos vitales normales y su examen abdominal muestra dolor a la palpación epigástrica. ¿Cuál es el agente etiológico más probable?",
+  "options": "A) Ascaris lumbricoides | B) Entoamoeba histolytica | C) Anisakis simplex | D) Fasciola hepatica | E) Enterobius vermicularis",
+  "correcta": "C",
+  "explicacion": "Es una anisakiasis clásica, que se produce por consumir pescado crudo y cursa con dolor gástrico y vómitos de pocos días de duración.",
+  "conf": 0.5,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 168",
+  "year": 2021,
+  "codes": [
+   "1.04.1.022 [gastro-08: Parasitosis intestinales]"
+  ],
+  "stem": "Una adolescente de 14 años presenta cefalea de una semana de evolución. Es traído al servicio de urgencia, tras presentar una convulsión tónico-clónica de 10 minutos de duración, luego de lo que quedó con confusión postictal. Su examen físico no tiene signos focales y al fondo de ojo, se observa una lesión blanquecina, redonda e hiperreflectante en la retina derecha, de 3 mm de diámetro. Se solicita una tomografía axial computada de cerebro, que muestra dos lesiones quísticas de 1 y 3 cm, ubicadas en la zona frontotemporal. Se realiza una punción lumbar, que muestra líquido claro, con proteínas 60 mg/dl, 70 células por mm3, con 80% de mononucleares y presencia de abundantes eosinófilos. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Quiste aracnoidal | B) Hidatidosis cerebral | C) Encefalitis por virus herpes simplex | D) Encefalitis por virus varicela zóster | E) Neurocisticercosis",
+  "correcta": "E",
+  "explicacion": "Es una neurocisticercosis clásica, con mucha información que orienta a ello (imagen clásica, eosinorraquia, fondo de ojo con visualización de cisticerco).",
+  "conf": 0.3,
+  "alertas": [
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 62",
+  "year": 2017,
+  "codes": [
+   "1.04.1.023 [infecto-12: Sífilis secundaria, terciaria y congénita]"
+  ],
+  "stem": "Un paciente es diagnosticado de infección por VIH, hace 3 meses. Está en etapa A3 e inició tratamiento con triterapia antirretroviral al momento del diagnóstico. Consulta ahora por aparición de placas pruriginosas en el tronco, más algunas lesiones similares en las palmas y plantas. Además tiene una lesión parecida en la cara interna de la mejilla derecha. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Pitiriasis rosada | B) Pitiriasis versicolor | C) Síndrome pie mano boca | D) Sífilis secundaria | E) Reacción adversa a la triterapia antirretroviral",
+  "correcta": "D",
+  "explicacion": "Es una sífilis secundaria clásica. Además recordar que el principal factor de riesgo para tener una ETS, es tener otra ETS.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 27",
+  "year": 2021,
+  "codes": [
+   "1.04.1.023 [infecto-12: Sífilis secundaria, terciaria y congénita]"
+  ],
+  "stem": "Una mujer embarazada de 8 semanas se toma un VDRL, que resulta positivo en dilución 1/64. Tiene antecedente de alergia a la amoxicilina. El tratamiento de elección es:",
+  "options": "A) Penicilina | B) Clindamicina | C) Ceftriaxona | D) Eritromicina | E) Doxiciclina",
+  "correcta": "D",
+  "explicacion": "Conducta / Tratamiento indicado: **Eritromicina** (opción **D**). Según los consensos y guías clínicas del MINSAL, esta constituye la conducta estándar de primera línea recomendada para este nivel de atención. Las opciones alternativas (Penicilina, Clindamicina) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 130",
+  "year": 2019,
+  "codes": [
+   "1.04.1.023 [infecto-12: Sífilis secundaria, terciaria y congénita]"
+  ],
+  "stem": "Una paciente de 25 años, con antecedente de sífilis tratada hace un año, cursando un embarazo de 8 semanas, se realiza un VDRL, que resulta positivo en dilución 1/16. La conducta más adecuada es:",
+  "options": "A) Solicitar FTA-ABS | B) Controlar con VDRL seriado | C) Solicitar RPR | D) Administrar ceftriaxona | E) Administrar penicilina benzatina",
+  "correcta": "E",
+  "explicacion": "Debe tratarse por cualquier de las dos siguientes razones: 1. Todo VDRL positivo en el embarazo se trata, incluso antes de confirmarse con las pruebas treponémicas. 2. Alguien que ya tuvo sífilis mantendrá siempre positivas las pruebas treponémicas (FTA-ABS o MHA-TP), por lo que basta que vuelvan a positivizar las pruebas no treponémicas (VDRL o RPR) para indicar tratamiento.",
+  "conf": 0.58,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 37",
+  "year": 2016,
+  "codes": [
+   "1.04.1.023 [infecto-12: Sífilis secundaria, terciaria y congénita]"
+  ],
+  "stem": "Mujer de 25 años, con embarazo de 15 semanas, presenta un VDRL positivo en dilución 1/16. Refiere ser alérgica a la amoxicilina, con una reacción alérgica, que requirió hospitalización, cuando presentó una infección faríngea en la infancia. La conducta más adecuada es:",
+  "options": "A) Tratar con penicilina benzatina, administrando una dosis ahora y otra en una semana. | B) Pedir ANA y anticuerpos anti-DNA | C) Solicitar FTA-abs | D) Tratar con eritromicina | E) Tratar con cefriaxona",
+  "correcta": "D",
+  "explicacion": "Todo VDRL positivo en el embarazo se debe tratar de inmediato, sin esperar la confirmación, aunque sí se confirma con FTA-abs posteriormente. Por ser alérgica a la penicilina, con reacción grave, están contraindicadas la penicilina y la ceftriaxona. La eritromicina y otros macrólidos es el tratamiento de elección de la sífilis en alérgicos y la eritromicina es el macrólido de elección en el embarazo. La recomendación norteamericana es, además, desensibilizar contra la penicilina y tratar con penicilina. Sin embargo, la recomendación del Minsal es eritromicina.",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2025 · Pregunta 54",
+  "year": 2025,
+  "codes": [
+   "1.04.1.025 [orl-13: Síndrome mononucleósico]"
+  ],
+  "stem": "Un paciente de 23 años consulta por fiebre de 7 días de evolución asociada a odinofagia intensa y malestar general. Al examen físico se observa paciente febril, con temperatura: 38,1 °C, frecuencia cardíaca: 100 por minuto y presión arterial: 118/78 mmHg; presenta faringe eritematosa con amígdalas aumentadas de tamaño, se palpan adenopa`as cervicales anteriores bilaterales y, en el examen abdominal, se palpa el hígado 2 cm por debajo del reborde costal. Se solicitan exámenes, destacando: hemograma con hematocrito 39%, hemoglobina 13 g/dL, VCM 88 fL, glóbulos blancos 15.600/mm³ con 70% linfocitos, 20% neutrófilos y 10% monocitos; pruebas hepáticas con SGOT: 262 U/L, SGPT: 214 U/L, GGT: 90 U/L, fosfatasas alcalinas: 95 U/L y bilirrubina total: 1,2 mg/dL. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Infección por virus hepa22s A | B) Leucemia aguda | C) Toxoplasmosis aguda | D) Mononucleosis infecciosa | E) Amigdali2s bacteriana",
+  "correcta": "D",
+  "explicacion": "Tiene una mononucleosis clásica, con el síndrome mononucleósico (odinofagia, adenopatías y fiebre), más los elementos clásicos: linfocitosis, hepatoesplenomegalia y hepaGGs (faltó el rash morbiliforme espontáneo o posterior al uso de aminopenicilinas).",
+  "conf": 0.9,
+  "alertas": [
+   "texto_corrupto"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 152",
+  "year": 2013,
+  "codes": [
+   "1.04.1.025 [orl-13: Síndrome mononucleósico]"
+  ],
+  "stem": "Una paciente de 18 años, sin antecedentes, consulta por cuadro de 3 días de compromiso del estado general, sensación febril, coriza y odinofagia. Al examen físico destacan amígdalas aumentadas de tamaño con exudado blanquecino adherente, adenopatías cervicales, examen pulmonar normal y abdominal con hepatoesplenomegalia. Se solicitan exámenes que muestran lo siguiente: IgM VCA (+), IgG VCA (-), IgM CMV (-), IgG CMV (+), ELISA VIH (-). El diagnóstico más probable es:",
+  "options": "A) Primoinfección por VIH | B) Mononucleosis por Citomegalovirus | C) Mononucleosis por Virus Epstein Barr | D) Síndrome mononucleósico por estreptococo pyogenes | E) Síndrome mononucleósico por leucemia aguda",
+  "correcta": "C",
+  "explicacion": "Diagnóstico: **Mononucleosis por Virus Epstein Barr** (opción **C**). Tiene la IgM VCA positiva. La amigdalitis aguda es un tema frecuente en el EUNACOM, apareciendo tanto en otorrinolaringología como en pediatría e infectología. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 164",
+  "year": 2016,
+  "codes": [
+   "1.04.1.025 [orl-13: Síndrome mononucleósico]"
+  ],
+  "stem": "Paciente de 17 años presenta un cuadro de fiebre, malestar general y odinofagia, de 7 días de evolución. Al examen, presenta lesiones blanquecinas en las amígdalas y congestión de la orofaringe, adenopatías cervicales y se palpa el bazo moderadamente aumentado de tamaño. ¿Cuál es el agente causal más probable?",
+  "options": "A) Adenovirus | B) Virus influenza | C) Virus de Ebstein Barr | D) Citomegalovirus | E) Estreptococo A",
+  "correcta": "C",
+  "explicacion": "Es una mononucleosis clásica, causada por el VEB. La esplenomegalia hace que no sea una faringitis estreptocócica, sino una mononucleosis, con seguridad.",
+  "conf": 0.88,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 169",
+  "year": 2024,
+  "codes": [
+   "1.04.1.025 [orl-13: Síndrome mononucleósico]"
+  ],
+  "stem": "Paciente 18 años con +7 días? faringe eritematosa, adenopatías, múltiples consultas por el cuadro, le dieron amoxicilina. Al examen físico persiste con adenopatías, tenía un exantema rosado??. Conducta: a.​ Solicitar Elisa VIH",
+  "options": "B) IGM anti cápside epstein barr | B) Hemograma y VHS | C) Ecografía | D) Radiografía | E) TAC con contraste",
+  "correcta": "B",
+  "explicacion": "Conducta / Tratamiento indicado: **IGM anti cápside epstein barr** (opción **B**). 90% de las amigdalitis son virales → tratamiento sintomático. Solo las bacterianas requieren antibióticos. De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 45",
+  "year": 2024,
+  "codes": [
+   "1.04.1.026 [infecto-08: Toxicoinfección alimentaria]"
+  ],
+  "stem": "Paciente adulto con dolor abdominal, diarrea + fiebre x campylobacter, ¿cual es el tratamiento?: a.​ Azitromicina",
+  "options": "B) Hidratacion + probioticos | C) Ciprofloxacino | C) Staphylococcus aureus | D) Streptococcus pneumoniae | E) Escherichia coli",
+  "correcta": "A",
+  "explicacion": "Conducta / Tratamiento indicado: **** (opción **A**). Diarrea aguda (<2 semanas), prolongada (2-4 semanas), crónica (>=4 semanas); causas y manejo distintos De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.75,
+  "alertas": [
+   "clave_fuera_de_opciones",
+   "enunciado_cortado_o_raro"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2022 · Pregunta 55",
+  "year": 2022,
+  "codes": [
+   "1.04.1.026 [infecto-08: Toxicoinfección alimentaria]"
+  ],
+  "stem": "Un paciente de 14 años, sin antecedentes de importancia, presenta diarrea desde hace 7 días, asociadas a malestar general y fiebre. Se solicitan exámenes de deposiciones, entre los que destaca DNA Microarray positivo para Campylobacter jejuni. ¿Cuál es la tratamiento más adecuado?",
+  "options": "A) Cotrimoxazol | B) Metronidazol | C) Azitromicina | D) Ciprofloxacino | E) Probióticos",
+  "correcta": "E",
+  "explicacion": "Conducta / Tratamiento indicado: **Probióticos** (opción **E**). Diarrea aguda (<2 semanas), prolongada (2-4 semanas), crónica (>=4 semanas); causas y manejo distintos De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.55,
+  "alertas": null
+ }
+]

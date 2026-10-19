@@ -1,0 +1,479 @@
+{
+ "classId": "uro-02",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La retención aguda de orina cursa con dolor hipogástrico y un {{c1::globo vesical}} palpable y mate que sobrepasa la sínfisis.",
+   "extra": "En el adulto mayor puede dar incontinencia por rebalse.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 RAO",
+   "repaso": false,
+   "imagen": "biblioteca/19_urologia/uro-02/02_ecografia-residuo-postmiccional-grande__bailey-love_p1481.jpg",
+   "codigos": [
+    "4.03.2.006"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causa más frecuente de RAO en el varón añoso: {{c1::hiperplasia prostática}} descompensada por fármacos o alcohol.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Causas",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.001"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fármacos que precipitan RAO: anticolinérgicos, antihistamínicos de 1.ª generación, {{c1::descongestionantes}} y opiáceos.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Causas",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.006",
+    "4.03.1.027"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas neurológicas de RAO: vejiga {{c1::neurogénica}} y shock espinal.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Causas",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.006",
+    "4.03.1.027"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En RAO sin trauma, la primera maniobra es la {{c1::sonda Foley}} transuretral.",
+   "extra": "Alfabloqueante después, no antes.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Foley",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 19"
+   ],
+   "codigos": [
+    "4.03.2.006",
+    "4.03.5.005"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Sonda Foley de {{c1::16-18 Fr}} con lidocaína jalea al 2%.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Foley",
+   "repaso": true,
+   "codigos": [
+    "4.03.2.006",
+    "4.03.5.005"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El balón se infla solo después de ver {{c1::salida de orina}}, con agua bidestilada; nunca aire ni suero.",
+   "extra": "Inflarlo en la uretra causa falsa vía y uretrorragia.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Foley",
+   "repaso": true,
+   "codigos": [
+    "4.03.2.006",
+    "4.03.5.005"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cistostomía suprapúbica por punción si hay trauma uretral, sonda imposible por estenosis o falsa vía, o prostatitis {{c1::aguda grave}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cistostomía",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.006",
+    "4.03.1.027"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Uretrorragia, hematoma perineal «en mariposa» o fractura pélvica: {{c1::prohibida}} la sonda Foley.",
+   "extra": "Puede completar una rotura uretral.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Foley",
+   "repaso": true,
+   "codigos": [
+    "4.03.2.006",
+    "4.03.1.027"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sonda que no pasa y sangra: {{c1::cistostomía}}; el error es insistir con un calibre menor.",
+   "extra": "Tope a los 6 cm con uretrorragia tras RTU previa.",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 5"
+   ],
+   "codigos": [
+    "4.03.5.004",
+    "1.09.5.002"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sospecha de lesión uretral: se estudia con {{c1::uretrocistografía retrógrada}}, no con cistoscopía ni TAC.",
+   "extra": "",
+   "origen": "clase:16",
+   "fuente": "Clase · Quiz Dic 2019",
+   "repaso": false,
+   "imagen": "biblioteca/19_urologia/uro-02/04_uretrografia-retrograda-extravasacion-fractura-pelvica__bailey-love_p227.jpg",
+   "codigos": [
+    "4.03.2.006",
+    "4.03.1.027"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La descompresión de la vejiga debe ser {{c1::continua y completa}}; el clampeo intermitente está obsoleto.",
+   "extra": "Todo paciente con RAO va a urología.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Descompresión",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.006"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Si se evacúan más de {{c1::1.000 mL}}, se observa por riesgo de diuresis post-obstructiva.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Diuresis",
+   "repaso": true,
+   "codigos": [
+    "4.03.2.006",
+    "4.03.1.027"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La diuresis post-obstructiva causa poliuria, hipovolemia e {{c1::hipokalemia}} por pérdida del gradiente medular.",
+   "extra": "La hematuria ex vacuo es un mito.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Diuresis",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.006",
+    "4.03.1.027"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hidronefrosis es la dilatación pielocalicial por obstrucción; se confirma con {{c1::ecografía renal}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Hidronefrosis",
+   "repaso": false,
+   "imagen": "biblioteca/19_urologia/uro-02/01_tac-hidronefrosis-bilateral-obstruccion-vesical__bailey-love_p1482.jpg",
+   "codigos": [
+    "4.03.1.012"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hidronefrosis es urgencia si es bilateral, en {{c1::monorreno}}, con fiebre o deterioro de la función renal.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Hidronefrosis",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.012"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Uropatía obstructiva baja con hidroureteronefrosis bilateral y creatinina alta: lo primero es la {{c1::sonda Foley}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Hidronefrosis",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.012"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La nefrostomía percutánea drena el sistema colector en obstrucción alta con infección, si no se puede pasar el Doble J o en obstrucción {{c1::maligna}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Nefrostomía",
+   "repaso": false,
+   "codigos": [
+    "1.09.5.005"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La cistostomía por punción se hace 2-3 cm sobre la {{c1::sínfisis del pubis}}, en la línea media, con globo palpable.",
+   "extra": "Con lidocaína al 2% y trocar tipo Cystofix.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Cistostomía",
+   "repaso": false,
+   "codigos": [
+    "4.03.5.004",
+    "1.09.5.002"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El trocar de cistostomía es de {{c1::10 a 14 Fr}}; la sonda se cambia cada 4 a 6 semanas.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Cistostomía",
+   "repaso": false,
+   "codigos": [
+    "4.03.5.004",
+    "1.09.5.002"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Contraindicaciones de la punción: vejiga no distendida, cirugía abdominal baja previa, coagulopatía y {{c1::tumor vesical}}.",
+   "extra": "Complicaciones: hematuria, perforación intestinal, falsa vía.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Cistostomía",
+   "repaso": false,
+   "codigos": [
+    "4.03.5.004",
+    "1.09.5.002"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La cistostomía {{c1::abierta}} la hace el urólogo cuando la punción está contraindicada o falla.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Cistostomía",
+   "repaso": false,
+   "codigos": [
+    "4.03.5.003"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La estenosis uretral se sospecha en varón joven con chorro fino, residuo e ITU a repetición tras {{c1::trauma perineal}} o instrumentación.",
+   "extra": "Próstata pequeña y blanda.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Estenosis",
+   "repaso": true,
+   "imagen": "biblioteca/19_urologia/uro-02/03_uretrografia-ascendente-estenosis-uretra-bulbar__bailey-love_p1504.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 55"
+   ],
+   "codigos": [
+    "4.03.1.008"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La estenosis uretral muestra flujo bajo y aplanado en la uroflujometría y se estudia con {{c1::uretrografía}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Estenosis",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.008"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento de la estenosis: dilatación o {{c1::uretrotomía}} interna; en las largas o recidivadas, uretroplastia.",
+   "extra": "Con retención: cistostomía, sin sondeos ciegos.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Estenosis",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.008"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sonda que no avanza en uretra bulbar en un paciente con RTU previa: examen de elección {{c1::uretrografía retrógrada}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Uretrografía",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 142"
+   ],
+   "codigos": [
+    "4.03.5.004",
+    "1.09.5.002"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hidronefrosis con corteza adelgazada y función diferencial de 10% o menos en cintigrafía: {{c1::nefrectomía}}.",
+   "extra": "Con función conservada: pieloplastía.",
+   "origen": "clase:25",
+   "fuente": "Clase · Quiz Jul 2019",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 74"
+   ],
+   "codigos": [
+    "4.03.1.012"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La parafimosis (prepucio que no vuelve, tras sonda o examen) es urgencia: reducción manual con analgesia o {{c1::incisión dorsal}} si falla.",
+   "extra": "",
+   "origen": "clase:26",
+   "fuente": "Clase · Parafimosis",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.012"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En RAO con HPB y sin trauma, el error es empezar con {{c1::alfabloqueante}}; primero se descomprime.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.006",
+    "4.03.1.027"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-02/04_uretrografia-retrograda-extravasacion-fractura-pelvica__bailey-love_p227.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Extravasación de contraste uretral",
+   "clave": "Contraste que escapa de la uretra tras fractura pélvica",
+   "conducta": "Uretrorragia o pelvis rota: no pasar Foley; cistostomía y uretrografía retrógrada",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 14.28",
+   "repaso": false,
+   "codigos": [
+    "4.03.4.005"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-02/03_uretrografia-ascendente-estenosis-uretra-bulbar__bailey-love_p1504.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Estenosis de la uretra bulbar",
+   "clave": "Segmento estrecho en la uretra bulbar",
+   "conducta": "Retención: cistostomía; luego dilatación, uretrotomía o uretroplastia",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 79.9",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 55"
+   ],
+   "codigos": [
+    "4.03.1.008"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Retención sin trauma uretral: ¿primera maniobra?",
+   "codigos": [
+    "4.03.2.006",
+    "4.03.1.027"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1",
+   "pista": "La sonda no pasa o sangra: ¿conducta?",
+   "codigos": [
+    "4.03.2.006",
+    "4.03.1.027"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1",
+   "pista": "Uretrorragia, hematoma perineal o pelvis rota: ¿qué haces?",
+   "codigos": [
+    "4.03.2.006",
+    "4.03.1.027"
+   ]
+  }
+ ]
+}

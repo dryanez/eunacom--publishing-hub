@@ -1,0 +1,417 @@
+{
+  "classId": "gastro-08",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Regla de los 3: diarrea = > {{c1::3}} deposiciones al día; constipación = < {{c2::3}} deposiciones a la semana.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Regla de los 3",
+      "repaso": true
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Diarrea aguda: < {{c1::2}} semanas; prolongada: 2–4 semanas; crónica: ≥ {{c2::4}} semanas.",
+      "extra": "El tiempo define el estudio.",
+      "origen": "clase:1",
+      "fuente": "Clase · Regla de los 3",
+      "repaso": true
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Plan A (sin deshidratación, < 5 % de pérdida de peso): SRO {{c1::100–200 mL}} tras cada deposición, en casa.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla planes de hidratación",
+      "repaso": false
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Plan B (deshidratación moderada, 5–10 %): SRO {{c1::50–100 mL/kg}} en {{c2::4–6 h}}, reevaluando.",
+      "extra": "Si vomita, fraccionar a sorbos.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla planes de hidratación",
+      "repaso": true
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Plan C (deshidratación > 10 %, shock, compromiso de conciencia, íleo o vómitos incoercibles): {{c1::cristaloides endovenosos}}.",
+      "extra": "Suero fisiológico o Ringer lactato.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla planes de hidratación",
+      "repaso": false
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lactante con diarrea acuosa, irritable, mucosas secas, ojos hundidos y pérdida del 7 % del peso que tolera sorbos: {{c1::Plan B}}.",
+      "extra": "No requiere vía endovenosa ni antibióticos.",
+      "origen": "libro:caso",
+      "fuente": "Libro · Caso",
+      "repaso": false
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la diarrea aguda infecciosa está contraindicada la {{c1::loperamida}}: aumenta el riesgo de complicaciones.",
+      "extra": "Sí se pueden usar antieméticos y antiespasmódicos.",
+      "origen": "clase:3",
+      "fuente": "Clase · Fármacos",
+      "repaso": true
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antibiótico en diarrea aguda solo si: {{c1::disentería}}, diarrea del viajero, fiebre persistente > 2–3 días o sepsis.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Fármacos",
+      "repaso": true
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antibiótico de elección en la diarrea aguda del adulto con indicación: {{c1::ciprofloxacino oral}} (ceftriaxona EV si es grave).",
+      "extra": "Ej.: disentería con fiebre en adulto estable.",
+      "origen": "clase:3",
+      "fuente": "Clase · Fármacos",
+      "repaso": false
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Diarrea por cólera o Campylobacter: {{c1::azitromicina}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Fármacos",
+      "repaso": false
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Niño con diarrea acuosa y fiebre de pocas horas, buen estado y sin disentería: {{c1::no indicar antibióticos}}.",
+      "extra": "Hidratación y observación.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Caso representativo",
+      "repaso": false
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dolor en fosa ilíaca derecha con diarrea, sin Blumberg y con inflamación de íleon distal y colon derecho en eco: {{c1::enteritis infecciosa}}.",
+      "extra": "El edema leve del apéndice es acompañante.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz EUNACOM 2017",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 30"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la diarrea prolongada (2–4 semanas) se busca el agente con {{c1::coprocultivo y parasitológico seriado}} (Giardia, Entamoeba).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Cuando la diarrea no se va",
+      "repaso": false
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diarrea con uso de antibióticos en el último mes (u hospitalización reciente): sospechar {{c1::Clostridioides difficile}}.",
+      "extra": "Puede aparecer hasta 2 meses después; puérperas expuestas a antibióticos del parto también.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Diarrea prolongada",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 128",
+        "EUNACOM Julio 2016 · Pregunta 64",
+        "EUNACOM Julio 2025 · Pregunta 110",
+        "EUNACOM Julio 2017 · Pregunta 107"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El examen de elección para Clostridioides difficile es la {{c1::PCR de toxina en deposiciones}}.",
+      "extra": "Reemplazó a las toxinas A y B (siguen sirviendo si no hay PCR).",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz EUNACOM 2024",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 132",
+        "EUNACOM Julio 2019 · Pregunta 178"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Según el libro, C. difficile se trata con {{c1::metronidazol}} y, si falla, {{c2::vancomicina oral}}.",
+      "extra": "La clase menciona hoy vancomicina o fidaxomicina oral como primera línea.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Diarrea prolongada",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 59"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En C. difficile, la respuesta al tratamiento se evalúa {{c1::clínicamente}}, no repitiendo la PCR.",
+      "extra": "La PCR puede quedar positiva por semanas.",
+      "origen": "clase:21",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": false
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diarrea sanguinolenta durante un tratamiento con amoxicilina: {{c1::suspender el antibiótico}} y estudiar C. difficile en deposiciones.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "EUNACOM Julio 2016 · Pregunta 113",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 113"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diarrea crónica en malabsorción: se estudia con {{c1::test de Sudán, D-xilosa y serología celíaca}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Diarrea crónica",
+      "repaso": false
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diarrea crónica o constipación con signos de alarma (nocturna, baja de peso, anemia, edad) → {{c1::colonoscopía}} para descartar cáncer de colon.",
+      "extra": "Aunque los exámenes básicos estén casi normales.",
+      "origen": "clase:21",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 56",
+        "EUNACOM Julio 2016 · Pregunta 50"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Constipación funcional en joven sin alarma (aun con dolicocolon en la Rx): el tratamiento inicial es {{c1::cambios de hábitos}}.",
+      "extra": "Fibra, agua, actividad y horario; el dolicocolon no cambia la conducta.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz EUNACOM 2015",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 119"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dolor anal posdefecación con sangrado e hipertonía del esfínter (fisura anal aguda): {{c1::analgésicos y baños de asiento}}.",
+      "extra": "Solo la crónica usa laxantes y, si no responde, cirugía.",
+      "origen": "libro:puntos",
+      "fuente": "EUNACOM Julio 2015 · Pregunta 42",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 42"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El parasitológico seriado de deposiciones son {{c1::3}} muestras en días distintos, con conservante.",
+      "extra": "Oxiuros: test de Graham. Eosinofilia como pista.",
+      "origen": "clase:5",
+      "fuente": "Clase · Parasitosis",
+      "repaso": false
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Giardia: {{c1::tinidazol 2 g dosis única}} o metronidazol 250 mg cada 8 h por 5 días.",
+      "extra": "Flatulencia, dolor cólico, diarrea con malabsorción.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Parasitosis",
+      "repaso": false
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Entamoeba histolytica (disentería, absceso hepático): {{c1::metronidazol}} seguido de un {{c2::amebicida luminal}}.",
+      "extra": "Metronidazol 500–750 mg cada 8 h por 7–10 días.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Parasitosis",
+      "repaso": false
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Áscaris: albendazol {{c1::400 mg dosis única}}; tricocéfalo: albendazol por {{c2::3 días}}.",
+      "extra": "Alternativa: mebendazol.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Parasitosis",
+      "repaso": false
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Parásitos filiformes adheridos a la mucosa del ciego/colon ascendente en colonoscopía, con diarrea crónica: {{c1::Trichuris trichiura}}.",
+      "extra": "Tricocéfalo; se trata con albendazol o mebendazol.",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz EUNACOM 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 101"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Oxiuros: albendazol o mebendazol, repetir a las {{c1::2 semanas}} y tratar a todo el grupo familiar.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Parasitosis",
+      "repaso": false
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Teniasis: {{c1::praziquantel}}. Strongyloides: {{c2::ivermectina}}.",
+      "extra": "Strongyloides: riesgo de hiperinfección en inmunosuprimidos.",
+      "origen": "clase:5",
+      "fuente": "Clase · Parasitosis",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 25"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tenia con huevos operculados = {{c1::Diphyllobothrium latum}}: preguntar por consumo de pescado crudo (sushi de salmón).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "EUNACOM Julio 2024 · Pregunta 23",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 23"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dolor epigástrico intenso con vómitos tras comer ceviche: {{c1::anisakiasis}} (Anisakis simplex).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "EUNACOM Agosto 2021 · Pregunta 167",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 167"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fecaloma en adulto mayor postrado con opioides: puede dar {{c1::diarrea por rebosamiento}} (paradójica); se diagnostica con tacto rectal.",
+      "extra": "La loperamida lo empeora.",
+      "origen": "clase:6",
+      "fuente": "Clase · Fecaloma",
+      "repaso": false
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fecaloma: {{c1::desimpactación}} (enema, supositorios de glicerina o fragmentación manual) y luego laxante osmótico de mantención.",
+      "extra": "Revisar fármacos constipantes.",
+      "origen": "clase:6",
+      "fuente": "Clase · Fecaloma",
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-08/03_colitis-pseudomembranosa-cdifficile__atlas-eunacom.jpg",
+      "pregunta": "Diarrea tras antibióticos. ¿Qué muestra y qué haces?",
+      "diagnostico": "Colitis pseudomembranosa por Clostridioides difficile",
+      "clave": "Placas blanco-amarillentas (pseudomembranas) sobre la mucosa del colon",
+      "conducta": "PCR de toxina; metronidazol y, si falla, vancomicina oral; control clínico, no con PCR",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": false
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-08/04_giardia-trofozoitos__atlas-eunacom.jpg",
+      "pregunta": "¿Qué muestra y qué indicas?",
+      "diagnostico": "Giardiasis (trofozoítos de Giardia)",
+      "clave": "Trofozoítos con forma de pera y flagelos",
+      "conducta": "Tinidazol 2 g dosis única o metronidazol por 5 días",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0.0",
+      "pista": "Disentería, viajero o sepsis: ¿antibiótico?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Diarrea de 2–4 semanas: ¿qué pides?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2",
+      "pista": "Diarrea ≥ 4 semanas con alarma: ¿examen?"
+    }
+  ]
+}

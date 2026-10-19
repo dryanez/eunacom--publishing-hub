@@ -1,0 +1,506 @@
+{
+  "classId": "psiq-16",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Toxíndrome simpaticomimético (cocaína, pasta base, anfetaminas): taquicardia, HTA, hipertermia y {{c1::midriasis}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla toxíndromes",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 69"
+      ],
+      "codigos": [
+        "5.01.2.003",
+        "5.01.1.013"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Toxíndrome opioide: coma, depresión respiratoria y {{c1::miosis puntiforme}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla toxíndromes",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 1"
+      ],
+      "codigos": [
+        "5.01.1.011",
+        "5.01.2.003"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Toxíndrome anticolinérgico: {{c1::midriasis arreactiva}}, piel seca y roja, taquicardia e hipertermia.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla toxíndromes",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 18",
+        "EUNACOM Julio 2016 · Pregunta 61"
+      ],
+      "codigos": [
+        "5.01.2.003",
+        "5.01.1.013"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Toxíndrome sedante-hipnótico (benzodiacepinas): sopor, ataxia, disartria y pupilas {{c1::normales}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla toxíndromes",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.003",
+        "5.01.1.013"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La cocaína bloquea la recaptación de dopamina, noradrenalina y serotonina, y además bloquea canales de {{c1::sodio}} (efecto proarrítmico).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Cocaína",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.003"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La cocaína causa infarto por {{c1::vasoespasmo coronario}} y agregación plaquetaria.",
+      "extra": "También ACV, disección aórtica y rabdomiólisis.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Cocaína",
+      "repaso": true,
+      "codigos": [
+        "5.01.2.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Primera línea en dolor torácico por cocaína: {{c1::benzodiacepinas EV}}.",
+      "extra": "Reducen el tono simpático, la PA y la FC.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.003",
+        "1.10.2.002"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Dolor torácico por cocaína: diazepam {{c1::5-10 mg}} EV o lorazepam 2-4 mg EV.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Cocaína",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.003"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Dolor torácico por cocaína: además se da AAS {{c1::250 mg}} y nitroglicerina sublingual.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Cocaína",
+      "repaso": true,
+      "codigos": [
+        "5.01.2.003"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el dolor torácico por cocaína están contraindicados los {{c1::betabloqueadores puros}} (propranolol, atenolol).",
+      "extra": "Alfa sin oposición: vasoespasmo coronario y crisis hipertensiva.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "5.01.2.003",
+        "1.10.2.002"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Intoxicación por benzodiacepinas: la depresión respiratoria es rara en monoterapia, pero grave si se combina con {{c1::alcohol u opioides}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Benzodiacepinas",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.003"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El flumazenil está contraindicado en {{c1::consumidores crónicos de benzodiacepinas}} o coingesta de tricíclicos.",
+      "extra": "Precipita abstinencia con convulsiones y status epiléptico.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.003",
+        "5.01.1.013"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Sobredosis de benzodiacepina en usuario habitual: la conducta es {{c1::soporte ventilatorio}}; el error es flumazenil.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "codigos": [
+        "5.01.2.003",
+        "5.01.1.013"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Abstinencia de benzodiacepinas de vida media corta (alprazolam): ansiedad de rebote, insomnio, temblor y {{c1::convulsiones}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Benzodiacepinas",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.003"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Abstinencia de benzodiacepinas: reinstalar una de vida media larga, como {{c1::diazepam o clonazepam}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Benzodiacepinas",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.003",
+        "5.01.1.013"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Retiro gradual de benzodiacepinas: reducir {{c1::10 a 25%}} por semana.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Benzodiacepinas",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.003"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Intoxicación por cannabis: euforia, memoria alterada, apetito, taquicardia e {{c1::hiperemia conjuntival}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Cannabis",
+      "repaso": true,
+      "codigos": [
+        "5.01.2.003",
+        "5.01.1.013"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dosis altas de cannabis pueden gatillar crisis de angustia o un {{c1::brote psicótico}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Cannabis",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.003",
+        "5.01.1.013"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hiperemesis cannabinoide: vómitos cíclicos y alivio con {{c1::baños de agua caliente}}.",
+      "extra": "Signo patognomónico del consumidor crónico.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "5.01.2.003",
+        "5.01.1.013"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hiperemesis cannabinoide: consumidores con más de {{c1::1 año}} de uso diario.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Cannabis",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.003",
+        "5.01.1.013"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El único tratamiento definitivo de la hiperemesis cannabinoide es la {{c1::cesación del cannabis}}.",
+      "extra": "El error es tomarla por gastroenteritis o pancreatitis.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Cannabis",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.003",
+        "5.01.1.013"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Intoxicación por opioides: ventilar y dar {{c1::naloxona}}.",
+      "extra": "Su efecto es más corto que el del opioide: observación prolongada.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Otras intoxicaciones",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.013"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Naloxona en sobredosis de opioides: {{c1::0,4-2 mg}} IV, IM o intranasal, repetible.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Otras sustancias",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.003",
+        "5.01.1.013"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Abstinencia de opioides: bostezos, lagrimeo, rinorrea, piloerección, sin alteración de {{c1::conciencia}}.",
+      "extra": "Molesta, rara vez grave; clonidina y sustitución con buprenorfina o metadona.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Otras",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.013"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dependencia (CIE-10): {{c1::3 o más}} de 6 criterios en el último año.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Clasificación",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.013"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Consumo perjudicial: uso que ya causó {{c1::daño físico o mental}} sin cumplir criterios de dependencia.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Clasificación",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.013"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "DSM-5, trastorno por uso de sustancias grave: {{c1::6 o más}} criterios.",
+      "extra": "Leve 2-3; moderado 4-5.",
+      "origen": "clase:7",
+      "fuente": "Clase · Clasificación",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.003",
+        "1.10.2.002"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tamizaje de consumo: ASSIST para drogas, AUDIT para alcohol y {{c1::CRAFFT}} para adolescentes.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tamizaje",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.011",
+        "5.01.1.035"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "CRAFFT tiene 6 preguntas; {{c1::2 o más}} respuestas afirmativas indican alto riesgo.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Adolescentes",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.035",
+        "5.01.1.011"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Consumo perjudicial sin conciencia de problema: {{c1::entrevista motivacional}}; el error es disulfiram o psicoterapia de entrada.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 73"
+      ],
+      "codigos": [
+        "5.01.1.011",
+        "5.01.1.035"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el adolescente se mantiene la confidencialidad con el límite de la {{c1::seguridad}} y se involucra a la familia.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Adolescentes",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.013"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Orina para drogas: la cocaína se detecta por {{c1::2-4 días}}.",
+      "extra": "El cannabis 3-7 días, hasta un mes en el crónico.",
+      "origen": "clase:9",
+      "fuente": "Clase · Orina",
+      "repaso": false,
+      "codigos": [
+        "5.01.4.002"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un resultado positivo en orina indica {{c1::exposición}}, no intoxicación ni dependencia.",
+      "extra": "Falsos positivos se confirman con cromatografía y espectrometría de masas.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Orina",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.013"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES de consumo de drogas: personas menores de {{c1::20 años}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · GES",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.011",
+        "5.01.1.035"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Dolor torácico tras cocaína: ¿qué das y qué nunca?",
+      "codigos": [
+        "5.01.1.011"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.2",
+      "pista": "Coma, miosis y bradipnea: ¿qué haces?",
+      "codigos": [
+        "5.01.1.011"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.4.0",
+      "pista": "Consumo sin conciencia de problema: ¿qué intervención?",
+      "codigos": [
+        "5.01.1.011"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "classId": "gastro-20",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Embolia mesentérica: dolor súbito e intensísimo con abdomen blando, sin defensa ni Blumberg al inicio = {{c1::disociación clínica}}.",
+      "extra": "Dolor desproporcionado al examen físico.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 100"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La fuente clásica de la embolia de la arteria mesentérica superior es la {{c1::fibrilación auricular}}.",
+      "extra": "En la pregunta, \"ritmo irregular\" la delata.",
+      "origen": "clase:1",
+      "fuente": "Clase · Embolia: disociación clínica",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 100",
+        "EUNACOM Julio 2017 · Pregunta 96"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La arteria que se ocluye típicamente en la embolia mesentérica es la {{c1::arteria mesentérica superior}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Embolia de la AMS",
+      "repaso": false
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Examen de elección ante sospecha de embolia mesentérica: {{c1::angio-TAC mesentérico}}.",
+      "extra": "Muestra el defecto de llene; la Rx y el TAC sin contraste hacen perder tiempo.",
+      "origen": "clase:2",
+      "fuente": "Clase · Embolia: diagnóstico",
+      "repaso": true
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::angiografía}} en la embolia mesentérica, además de diagnosticar, puede ser terapéutica.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Embolia: diagnóstico",
+      "repaso": false
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la embolia mesentérica, el {{c1::lactato elevado}} es la pista de tejido sin oxígeno.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Embolia: diagnóstico",
+      "repaso": false
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Ante la sola sospecha de embolia mesentérica se anticoagula de inmediato con {{c1::heparina}}, sin esperar la confirmación.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Embolia: tratamiento",
+      "repaso": true
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras anticoagular, la embolia mesentérica se trata con {{c1::revascularización (embolectomía o trombólisis)}} ± resección del intestino necrótico.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · Abdomen agudo vascular",
+      "repaso": false
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la embolia mesentérica, el error clásico es {{c1::esperar los signos peritoneales}}: cuando aparecen, el intestino ya se necrosó.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Embolia mesentérica de varias horas de evolución puede ya presentar {{c1::signos peritoneales}} por necrosis.",
+      "extra": "Hematoquecia y peritonitis son tardías.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Embolia de la AMS",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 96"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Terreno de la trombosis venosa mesentérica: {{c1::hipercoagulabilidad}}, cirrosis o cirugía abdominal reciente.",
+      "extra": "Una cesárea reciente es terreno protrombótico.",
+      "origen": "clase:3",
+      "fuente": "Clase · Trombosis venosa mesentérica",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 15"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La trombosis venosa mesentérica da dolor {{c1::subagudo (días)}}, con signos peritoneales más precoces que la embolia.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla abdomen agudo vascular",
+      "repaso": false
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trombosis venosa mesentérica: diagnóstico con {{c1::TAC con contraste}} y tratamiento con {{c2::anticoagulación}}.",
+      "extra": "Cirugía solo si hay necrosis o perforación.",
+      "origen": "clase:3",
+      "fuente": "Clase · Trombosis venosa mesentérica",
+      "repaso": true
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La forma más frecuente de isquemia intestinal es la {{c1::colitis isquémica}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Colitis isquémica",
+      "repaso": false
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La colitis isquémica afecta las \"zonas frontera\" del colon: {{c1::ángulo esplénico}} y unión rectosigmoidea.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Zonas frontera",
+      "repaso": false
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adulto mayor ateroesclerótico, tras hipotensión, con dolor cólico izquierdo + hematoquecia: {{c1::colitis isquémica}}.",
+      "extra": "Es bajo flujo, no un émbolo.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz colitis isquémica",
+      "repaso": true
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Colitis isquémica: la mayoría es transitoria y se resuelve con {{c1::manejo médico}} (reposo intestinal, hidratación, antibióticos).",
+      "extra": "Cirugía solo si necrosis, perforación o estenosis.",
+      "origen": "clase:5",
+      "fuente": "Clase · Colitis isquémica: manejo",
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El examen inicial en colitis isquémica es la {{c1::TAC de abdomen}} (engrosamiento segmentario); la colonoscopía confirma en casos seleccionados.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Colitis isquémica: diagnóstico",
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En el abdomen agudo vascular se usan antibióticos {{c1::ceftriaxona + metronidazol}} por el riesgo de translocación bacteriana.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Manejo común",
+      "repaso": false
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Regla común de las 3 entidades vasculares: cirugía solo si hay {{c1::necrosis o perforación}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Manejo común",
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diferencial metabólico de dolor abdominal con abdomen blando: {{c1::cetoacidosis diabética}} y porfiria.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Diagnóstico diferencial",
+      "repaso": false
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el adulto mayor, el abdomen agudo suele presentarse con dolor leve y mal localizado, a menudo {{c1::sin fiebre ni leucocitosis}}.",
+      "extra": "Puede debutar como delirium, caída o deterioro funcional.",
+      "origen": "clase:8",
+      "fuente": "Clase · Adulto mayor: por qué engaña",
+      "repaso": true
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Fármacos y enfermedades que enmascaran el abdomen agudo del adulto mayor: {{c1::corticoides, AINE y diabetes}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Adulto mayor",
+      "repaso": false
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adulto mayor con abdomen agudo: estabilizar, exámenes (con lactato, lipasa y ECG) y {{c1::TAC de abdomen precoz}}.",
+      "extra": "No esperar la fiebre para estudiar.",
+      "origen": "clase:9",
+      "fuente": "Clase · Adulto mayor: conducta",
+      "repaso": false
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el adulto mayor, la apendicitis suele llegar {{c1::ya perforada}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Causas frecuentes",
+      "repaso": false
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Obstrucción intestinal por bridas sin estrangulación: régimen cero, SNG e hidratación; se opera si no resuelve en {{c1::48 a 72 horas}}.",
+      "extra": "Los proquinéticos están contraindicados.",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz abdomen agudo",
+      "repaso": false
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Megacolon tóxico: antecedente de colitis + dilatación colónica {{c1::> 6 cm}} + signos de toxicidad sistémica.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "Pregunta real Diciembre 2025 P18",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 18"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_verificadas/195_gastro_Isquemia_mesentérica__ctmri_path_p302_1.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Embolia de la arteria mesentérica superior (angio-TAC)",
+      "clave": "Defecto de llene en la arteria mesentérica superior",
+      "conducta": "Heparina inmediata y revascularización; resecar si hay necrosis",
+      "fuente": "CT & MRI Pathology: A Pocket Atlas, p. 302",
+      "repaso": false
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_verificadas/194_gastro_Isquemia_mesentérica__BrantHelms_p880.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Colitis isquémica",
+      "clave": "\"Huellas digitales\" (thumbprinting) en el ángulo esplénico",
+      "conducta": "Manejo médico: reposo intestinal, hidratación y antibióticos",
+      "fuente": "Brant and Helms, Fundamentals of Diagnostic Radiology, p. 880",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "FA + dolor desproporcionado: ¿conducta?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Trombosis venosa mesentérica: ¿tratamiento?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2.0",
+      "pista": "Colitis isquémica: ¿manejo?"
+    }
+  ]
+}

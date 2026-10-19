@@ -1,0 +1,464 @@
+{
+  "classId": "hem-08",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hemólisis con Coombs directo {{c1::negativo}} orienta a defecto intrínseco del glóbulo: membrana, enzima o anclaje GPI.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Coombs negativo",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La esferocitosis hereditaria es la anemia hemolítica {{c1::congénita}} más frecuente en caucásicos.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Esferocitosis hereditaria: herencia autosómica dominante en el {{c1::75 %}} de los casos.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la esferocitosis hay mutación de proteínas del citoesqueleto: {{c1::espectrina, anquirina, banda 3}}.",
+      "extra": "El glóbulo pierde membrana y se hace esfera.",
+      "origen": "clase:2",
+      "fuente": "Clase · Esferocitosis",
+      "repaso": false,
+      "imagen": "biblioteca/06_hematologia/hem-08/02_patogenia-esferocitosis_1__cto-hemato_p30.jpg",
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Clave de examen de esferocitosis: {{c1::colelitiasis}} en joven + esplenomegalia + CHCM alta.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "imagen": "biblioteca/06_hematologia/hem-08/01_colelitiasis-eco__cto-radiologia_p44.jpg",
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En esferocitosis la CHCM es mayor de {{c1::36 g/dL}}: el glóbulo está deshidratado.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Esferocitosis",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El frotis de esferocitosis muestra {{c1::microesferocitos}} densos sin halo central, con Coombs negativo.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Esferocitosis",
+      "repaso": false,
+      "imagen": "biblioteca/06_hematologia/hem-08/01_esferocitosis-hereditaria__amir-hemato_p34.jpg",
+      "codigos": [
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Se confirma esferocitosis con {{c1::fragilidad osmótica}} o citometría con eosina-5-maleimida.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Esferocitosis",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tratamiento de la esferocitosis es la {{c1::esplenectomía}} electiva.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Esferocitosis",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La esplenectomía en esferocitosis se difiere hasta después de los {{c1::5–6 años}} de edad.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Esferocitosis",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Antes de esplenectomizar, siempre {{c1::vacunar}} contra neumococo, meningococo y Haemophilus.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Esferocitosis",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El déficit de G6PD es de herencia recesiva {{c1::ligada al X}} y afecta a varones.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · G6PD",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La G6PD es la única fuente de {{c1::NADPH}} del eritrocito, que mantiene el glutatión reducido.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 G6PD",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003",
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Oxidantes que gatillan crisis de G6PD: habas, {{c1::primaquina, sulfonamidas}}, nitrofurantoína, dapsona.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · G6PD",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hemoglobina oxidada precipita como {{c1::cuerpos de Heinz}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · G6PD",
+      "repaso": false,
+      "imagen": "biblioteca/06_hematologia/hem-08/03_cuerpos-de-heinz__harrison_p470.jpg",
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cuando el bazo extrae los cuerpos de Heinz quedan células {{c1::mordidas}} (degmacitos).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · G6PD",
+      "repaso": false,
+      "imagen": "biblioteca/06_hematologia/hem-08/atlas_018_deficit_de_g6pd_celulas_mordid.jpg",
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La actividad cuantitativa de G6PD se mide {{c1::2 a 3 meses}} después de la crisis.",
+      "extra": "Durante la crisis puede salir normal.",
+      "origen": "clase:5",
+      "fuente": "Clase · G6PD",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En una crisis de G6PD no se mide la enzima: el error es dosificar {{c1::durante la crisis}}.",
+      "extra": "Los reticulocitos jóvenes tienen enzima normal.",
+      "origen": "clase:5",
+      "fuente": "Clase · G6PD",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Manejo del favismo: evitar oxidantes y dar {{c1::soporte}}, suspendiendo el gatillante.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · G6PD",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La HPN es un clon adquirido por mutación somática del gen {{c1::PIGA}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · HPN",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En HPN faltan las proteínas {{c1::CD55 y CD59}}, y el glóbulo se lisa por complemento.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · HPN",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "HPN: la hemólisis intravascular produce orina oscura {{c1::matinal}}.",
+      "extra": "Acidosis leve nocturna activa el complemento.",
+      "origen": "clase:6",
+      "fuente": "Clase · HPN",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La HPN se sospecha por hemólisis intravascular + trombosis {{c1::en sitios inusuales}} (Budd-Chiari, porta) + hipoplasia medular.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · HPN",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estándar de oro de HPN: {{c1::citometría de flujo}} con ausencia de CD55 y CD59.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · HPN",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de HPN grave: {{c1::eculizumab o ravulizumab}} (anti-C5).",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · HPN",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hemólisis intravascular se demuestra con hemoglobinuria o {{c1::hemosiderinuria}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Confirmación",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Las pruebas especiales confirman y derivan: la conducta inicial no espera, se {{c1::suspende el oxidante}}, se hidrata y se transfunde si hay inestabilidad.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Confirmación",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Joven con colelitiasis, bazo, CHCM 37,2 y microesferocitos con Coombs negativo: confirma con {{c1::fragilidad osmótica}}.",
+      "extra": "Padre esplenectomizado: herencia autosómica dominante.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz caso",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño con ictericia neonatal, esplenomegalia y reticulocitos 17 %: {{c1::anemia hemolítica}} congénita.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Agosto 2021",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Microesferocitos con anemia aguda grave: no olvidar que también aparecen en {{c1::AHAI}}; el Coombs directo las separa.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Diciembre 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 21"
+      ],
+      "codigos": [
+        "1.08.1.003",
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sospecha de hemólisis con ictericia y esplenomegalia: parte con {{c1::hemograma con reticulocitos}}, luego Coombs.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Banco · Julio 2013",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 87"
+      ],
+      "codigos": [
+        "1.08.1.003",
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anemia de una semana con macrocitosis y policromasia: se confirma con {{c1::Coombs directo}}.",
+      "extra": "Clave dudosa en el banco (marcada con interrogación).",
+      "origen": "clase:8",
+      "fuente": "Banco · Diciembre 2017",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 52"
+      ],
+      "codigos": [
+        "1.08.4.010"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1.0",
+      "pista": "Crónica familiar con bazo grande: ¿qué examen?",
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1.0",
+      "pista": "G6PD tras oxidante: ¿cuándo mides la enzima?",
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.2.0",
+      "pista": "Hemólisis con trombosis atípica: ¿qué examen?",
+      "codigos": [
+        "1.08.1.003"
+      ]
+    }
+  ]
+}

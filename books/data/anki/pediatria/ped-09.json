@@ -1,0 +1,488 @@
+{
+  "classId": "ped-09",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fiebre sin foco (FOSF): temperatura axilar {{c1::≥ 38.0°C}} de menos de 7 días sin causa en anamnesis y examen.",
+      "extra": "Rectal ≥ 38.3°C.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definiciones",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Fiebre sin foco: temperatura rectal {{c1::≥ 38.3°C}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definiciones",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La infección bacteriana grave oculta más frecuente en el lactante febril es la {{c1::infección urinaria}}.",
+      "extra": "Representa más del 80% de las IBG.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definiciones",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La ITU representa {{c1::> 80%}} de las infecciones bacterianas graves en el lactante febril sin foco.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 IBG",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el neonato (< 28 días) febril predominan {{c1::Streptococcus agalactiae (EGB), E. coli y Listeria}}.",
+      "extra": "El EGB se adquiere en el canal del parto.",
+      "origen": "clase:2",
+      "fuente": "Clase · Los culpables según la edad",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Entre 1 y 3 meses, a los patógenos del neonato se suman {{c1::neumococo y meningococo}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Los culpables según la edad",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Riesgo de IBG en el neonato (< 28 días) febril: {{c1::10 - 15%}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de estratificación",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Todo recién nacido < 28 días con fiebre se {{c1::hospitaliza siempre}}, aunque se vea bien.",
+      "extra": "Ningún examen normal ni el buen aspecto cambian la conducta.",
+      "origen": "clase:3",
+      "fuente": "Clase · Menor de 28 días",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.017"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 99"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante un neonato febril de buen aspecto, el error clásico es {{c1::confiarse del buen aspecto clínico}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El estudio séptico del neonato febril incluye hemograma, hemocultivos, orina por sondeo y {{c1::punción lumbar}}.",
+      "extra": "Rx de tórax solo si hay síntomas respiratorios.",
+      "origen": "clase:3",
+      "fuente": "Clase · Estudio completo",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.017"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 137"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La orina del neonato febril se obtiene por {{c1::cateterismo vesical (sondeo estéril)}}.",
+      "extra": "No por bolsa recolectora.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Grupo 1",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La radiografía de tórax en el neonato febril se pide solo si hay {{c1::síntomas respiratorios}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Estudio completo",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Esquema empírico del neonato febril: {{c1::ampicilina + cefotaxima}} endovenosas.",
+      "extra": "Alternativa: ampicilina + gentamicina.",
+      "origen": "clase:15",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa al esquema neonatal: ampicilina + {{c1::gentamicina}} endovenosa.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Grupo 1",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dosis de ampicilina en el neonato febril: {{c1::200 mg/kg/día}} EV.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Grupo 1",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dosis de cefotaxima en el neonato febril: {{c1::150-200 mg/kg/día}} EV.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Grupo 1",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el recién nacido febril el antibiótico a evitar es {{c1::ceftriaxona}}.",
+      "extra": "Desplaza la bilirrubina y causa kernicterus.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el lactante de 29 a 90 días se aplican los criterios de {{c1::Rochester}} para decidir el manejo.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Grupo 2",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con Rochester, el lactante puede ir a casa solo si cumple {{c1::TODOS}} los criterios; falla uno y se hospitaliza.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Rochester decide",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Rochester: leucocitos entre {{c1::5.000 y 15.000/mm³}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Rochester",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Rochester: baciliformes {{c1::< 1.500/mm³}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Rochester",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Rochester: orina con {{c1::< 10 leucocitos}} por campo de gran aumento.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Rochester",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterio clínico de Rochester: nacido de término ({{c1::≥ 37 semanas}}) sin patología perinatal.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Rochester",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si hay diarrea, Rochester exige frotis de deposiciones con {{c1::< 5 leucocitos}} por campo.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Rochester",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Riesgo de IBG en lactante de 29-90 días con Rochester positivo: {{c1::< 1%}}.",
+      "extra": "Manejo ambulatorio.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de estratificación",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lactante de 29-90 días que cumple Rochester: manejo ambulatorio con control presencial a las {{c1::24 horas}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de estratificación",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lactante de 29-90 días con un solo criterio alterado de Rochester se maneja como {{c1::alto riesgo (hospitalizar)}}.",
+      "extra": "Leucocitos 18.500 y 12% de baciliformes lo sacan del bajo riesgo.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Riesgo de IBG con Rochester negativo (29-90 días): {{c1::> 10%}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de estratificación",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En fiebre sin foco con fontanela abombada, rigidez de nuca y letargia, se hospitaliza, se hace punción lumbar y se inicia {{c1::ampicilina + cefotaxima}}.",
+      "extra": "Se trata como meningitis bacteriana.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Jul 2025",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el lactante > 3 meses con buen estado general, la causa bacteriana oculta más frecuente es la {{c1::ITU}}.",
+      "extra": "La inmensa mayoría son virosis autolimitadas.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Grupo 3",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Fiebre en un lactante > 3 meses: el examen clave es {{c1::orina completa y urocultivo por sondeo}}, no solo hemograma.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Antipirético de elección: paracetamol {{c1::15 mg/kg/dosis}} oral.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "No se usa {{c1::ibuprofeno}} en menores de 6 meses con fiebre.",
+      "extra": "Se indica paracetamol.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.017"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La PCR comienza a subir a las {{c1::4 a 6 horas}} y tiene su pico a las 36 a 50 horas.",
+      "extra": "Una PCR muy precoz puede ser falsamente baja.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 PCR y procalcitonina",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.020"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "PCR < {{c1::20 mg/L}} (2 mg/dL): bajo riesgo de infección bacteriana invasiva.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 PCR y procalcitonina",
+      "repaso": true,
+      "codigos": [
+        "2.01.4.020"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Fiebre sin foco en menor de 28 días: ¿conducta?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "29-90 días cumple todo Rochester: ¿conducta?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "29-90 días falla un criterio: ¿conducta?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.2",
+      "pista": "Mayor de 3 meses con buen estado: ¿qué buscas?"
+    }
+  ]
+}

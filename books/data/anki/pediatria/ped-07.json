@@ -1,0 +1,527 @@
+{
+  "classId": "ped-07",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El signo más sensible de neumonía en un niño con tos y fiebre es la {{c1::taquipnea en reposo}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.015",
+        "2.01.1.024"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Taquipnea OMS en menores de 2 meses: {{c1::≥ 60}} respiraciones por minuto.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.015"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Taquipnea OMS de 2 a 11 meses: {{c1::≥ 50}} respiraciones por minuto.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.015"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Taquipnea OMS de 1 a 4 años: {{c1::≥ 40}} respiraciones por minuto.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.015"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Taquipnea OMS desde los 5 años: {{c1::≥ 30}} respiraciones por minuto.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.015"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lactante de 10 meses con FR 54, fiebre y crépitos localizados sin criterios de gravedad: {{c1::NAC ambulatoria}}.",
+      "extra": "54 supera el umbral de 50 para esa edad.",
+      "origen": "libro:caso",
+      "fuente": "Libro · Caso clínico",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.015"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Recién nacido (< 1 mes): agentes de neumonía son {{c1::S. agalactiae (grupo B), enterobacterias y Listeria}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Etiología",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.024"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 8"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el lactante de 1 a 3 meses con neumonía afebril, tos coqueluchoide y conjuntivitis previa: {{c1::Chlamydia trachomatis}}.",
+      "extra": "Cursa con eosinofilia.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Etiología",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.024"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 16"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La bacteria clásica de la neumonía entre 3 meses y 5 años es el {{c1::Streptococcus pneumoniae}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Etiología",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.015",
+        "2.01.1.024"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 45"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En escolares y adolescentes la neumonía atípica se debe a {{c1::Mycoplasma pneumoniae}} y Chlamydia pneumoniae.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Etiología",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.024"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 15",
+        "EUNACOM Diciembre 2018 · Pregunta 157",
+        "EUNACOM Diciembre 2022 · Pregunta 19"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Escolar con tos seca prolongada, cefalea, mialgias e infiltrado intersticial disociado de la clínica: {{c1::neumonía atípica}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro · Pregunta Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.024"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Fiebre, tos y taquipnea típica: el error es {{c1::pedir radiografía a todos}}; el diagnóstico es clínico.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.015",
+        "2.01.4.001"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La radiografía de tórax se indica por duda diagnóstica, hospitalización, sospecha de complicación o falta de respuesta tras {{c1::48 a 72 horas}} de antibiótico.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Radiografía",
+      "repaso": true,
+      "codigos": [
+        "2.01.4.001",
+        "2.01.1.015"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Consolidación lobar con broncograma aéreo es típica de {{c1::neumococo}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Radiografía",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.001",
+        "2.01.1.024"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 108"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Infiltrado intersticial peribronquial difuso o hiperinsuflación sugiere {{c1::virus o atípicos}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Radiografía",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.001",
+        "2.01.1.024"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La neumonía redonda del niño imita una masa pero {{c1::no es un tumor}}; se trata como neumonía.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Radiografía",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.001"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tratamiento ambulatorio de primera línea de la NAC: {{c1::amoxicilina oral}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.015",
+        "2.01.1.024"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Amoxicilina en NAC: {{c1::80 a 90 mg/kg/día}} cada 8 o 12 horas por 7 días.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.015"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Se usan dosis altas de amoxicilina para vencer la {{c1::resistencia intermedia}} del neumococo (PBP).",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.015"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En neumonía típica no complicada el error es usar amoxicilina con {{c1::ácido clavulánico}}.",
+      "extra": "La resistencia del neumococo es por PBP, no por betalactamasas.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.015"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hospitalizado sin complicaciones: ampicilina EV {{c1::150 a 200 mg/kg/día}} cada 6 horas.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.015",
+        "2.01.1.024"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Neumonía en lactante sin vacunas o con sepsis o sospecha de resistencia: {{c1::cefotaxima o ceftriaxona EV}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.015"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Neumonía atípica del escolar: se trata con {{c1::azitromicina}} o claritromicina; la amoxicilina no sirve.",
+      "extra": "Mycoplasma no tiene pared celular.",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.015",
+        "2.01.1.024"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 157",
+        "EUNACOM Julio 2019 · Pregunta 43"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Azitromicina en atípicos: {{c1::10 mg/kg/día}} el día 1 y luego 5 mg/kg/día los días 2 a 5.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.015"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Claritromicina en atípicos: {{c1::15 mg/kg/día}} cada 12 horas por 7 a 10 días.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.015"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Neumonía en menor de 3 meses: se {{c1::hospitaliza siempre}}.",
+      "extra": "El error es manejarlo ambulatorio.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.015"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hipoxemia como criterio de hospitalización: saturación {{c1::< 93%}} al aire ambiente.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Hospitalización",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.015"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterios de hospitalización: rechazo alimentario, {{c1::tiraje supraclavicular o quejido}}, complicaciones radiológicas y falla ambulatoria.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Hospitalización",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.015"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Persistencia de fiebre tras {{c1::48 horas}} de amoxicilina es fracaso del tratamiento ambulatorio.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Hospitalización",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.015",
+        "2.01.1.024"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fiebre persistente, matidez y abolición del murmullo tras amoxicilina: {{c1::derrame pleural paraneumónico}}.",
+      "extra": "Hospitalizar, ecografía pleural, punción y antibiótico EV.",
+      "origen": "clase:7",
+      "fuente": "Clase · Cuando la fiebre no cede",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.015",
+        "2.01.4.001"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El derrame pleural paraneumónico es la complicación más frecuente de la neumonía bacteriana, sobre todo por {{c1::neumococo}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Derrame pleural",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.015",
+        "2.01.1.024"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Neumonía en la niña de 7 años con dolor abdominal y diarrea: se pide {{c1::radiografía de tórax AP y lateral}}.",
+      "extra": "La neumonía puede manifestarse con síntomas abdominales.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Radiografía",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.001"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 108"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-07/05_neumonia-lobar-pediatrica__sherman_p345.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Neumonía lobar con broncograma aéreo (típica de neumococo)",
+      "clave": "Foco denso bien delimitado con broncograma aéreo",
+      "conducta": "Amoxicilina oral 80-90 mg/kg/día por 7 días si no hay criterios de hospitalización",
+      "fuente": "Atlas of Clinical Emergency Medicine (Sherman), p. 345",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.015",
+        "2.01.4.001"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-07/04_neumonia-intersticial__sherman_p696.jpg",
+      "pregunta": "¿Qué muestra y cuál es el germen sospechado?",
+      "diagnostico": "Infiltrado intersticial peribronquial difuso",
+      "clave": "Infiltrado difuso alrededor de los bronquios en ambos campos",
+      "conducta": "Sospechar virus o Mycoplasma; en escolar con clínica atípica, azitromicina",
+      "fuente": "Atlas of Clinical Emergency Medicine (Sherman), p. 696",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.024",
+        "2.01.4.001"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-07/03_derrame-pleural__cto-neumo_p111.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Derrame pleural paraneumónico derecho",
+      "clave": "Pulmón derecho velado por el líquido",
+      "conducta": "Hospitalizar, ecografía y punción pleural, antibiótico EV",
+      "fuente": "Manual CTO Neumología 14.ª ed., p. 111",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.015",
+        "2.01.4.001"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "Neumonía de 3 meses a 5 años sin hospitalización: ¿antibiótico?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.1",
+      "pista": "Escolar con clínica atípica: ¿antibiótico?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "Neumonía con criterios de hospitalización: ¿tratamiento?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.0",
+      "pista": "Falla a las 48 horas: ¿qué sospechas?"
+    }
+  ]
+}

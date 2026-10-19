@@ -1,0 +1,448 @@
+{
+  "classId": "reuma-20",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Behçet es una vasculitis de vasos de {{c1::cualquier calibre}} (arterias y venas).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Behçet se asocia al alelo HLA-{{c1::B51}}, frecuente en la antigua Ruta de la Seda.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.025",
+        "6.02.1.030"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El Behçet afecta sobre todo a adultos jóvenes de {{c1::20 a 40}} años.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Epidemiología",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las aftas bucales son el criterio {{c1::obligatorio}} del Behçet (presentes en 100%).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Manifestaciones",
+      "repaso": false,
+      "imagen": "biblioteca/08_reumatologia/reuma-20/01_aftas-orales-behcet__amir-reuma_p41.jpg",
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Aftas orales de Behçet: recurren al menos {{c1::3 veces}} en 12 meses.",
+      "extra": "Curan en 1 a 2 semanas.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Manifestaciones",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las aftas orales del Behçet curan {{c1::sin cicatriz}}; las genitales dejan cicatriz atrófica.",
+      "extra": "Es la regla de la cicatriz.",
+      "origen": "clase:2",
+      "fuente": "Clase · Regla de la cicatriz",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025",
+        "6.02.1.030"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las aftas genitales del Behçet (escroto, vulva) son más profundas y {{c1::dejan cicatriz atrófica}}.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Zitelli and Davis' Atlas, p. 737",
+      "repaso": true,
+      "imagen": "_verificadas/052_reuma_Enfermedad_de_Behçet__Zitelli_p737.jpg",
+      "codigos": [
+        "1.11.1.025",
+        "6.02.1.030"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Las aftas genitales aparecen en el {{c1::80-90%}} de los pacientes con Behçet.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Manifestaciones",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La afección ocular ocurre en el {{c1::50-70%}} y es la manifestación más invalidante.",
+      "extra": "Riesgo de ceguera bilateral irreversible.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Manifestaciones",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 52"
+      ],
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El hipopión es un nivel de {{c1::pus estéril}} en la cámara anterior, típico de la uveítis del Behçet.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Kumar and Clark's Clinical Medicine, p. 1099",
+      "repaso": true,
+      "imagen": "_verificadas/049_reuma_EA_Behçet__KumarClark_p1099.jpg",
+      "codigos": [
+        "6.02.1.030"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La complicación ocular más temida del Behçet es la panuveítis con {{c1::vasculitis retiniana oclusiva}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Manifestaciones",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Patergia: pinchazo de la piel del antebrazo con aguja de {{c1::20G}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Patergia",
+      "repaso": false,
+      "imagen": "biblioteca/08_reumatologia/reuma-20/01_prueba_patergia__usuario.jpg",
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La patergia es positiva si a las {{c1::24 a 48 horas}} aparece pápula o pústula estéril ≥ 2 mm.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.025",
+        "6.02.1.030"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Compromiso vascular en Behçet (TVP y tromboflebitis recurrentes): {{c1::25-30%}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Compromiso vascular",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trombosis inusuales del Behçet: cava, Budd-Chiari y senos {{c1::venosos durales}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Compromiso vascular",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los aneurismas de arteria pulmonar del Behçet pueden causar {{c1::hemoptisis masiva}} mortal.",
+      "extra": "Inmunosupresión antes de cirugía.",
+      "origen": "clase:5",
+      "fuente": "Clase · Complicaciones vasculares",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025",
+        "6.02.1.030"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Neuro-Behçet: meningoencefalitis de tronco, meningitis aséptica o trombosis de {{c1::senos durales}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Neuro-Behçet",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025",
+        "6.02.1.030"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterios ICBD: se diagnostica con un puntaje ≥ {{c1::4}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla ICBD",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "ICBD: aftas orales, aftas genitales y lesiones oculares valen {{c1::2 puntos}} cada una.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla ICBD",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "ICBD: lesiones cutáneas, vasculares, patergia y SNC valen {{c1::1 punto}} cada una.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla ICBD",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lesiones cutáneas del Behçet: pseudofoliculitis, {{c1::eritema nodoso}} y pápulas acneiformes.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla ICBD",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Primera línea en aftosis orogenital y artralgias del Behçet: {{c1::colchicina}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.025",
+        "6.02.1.030"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Colchicina en Behçet: {{c1::1 a 2 mg/día}}, con corticoide tópico en orabase.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Panuveítis, trombosis o aneurismas: prednisona 1 mg/kg/día más azatioprina {{c1::2,5 mg/kg/día}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Panuveítis refractaria con riesgo visual inminente: anti-TNF ({{c1::infliximab o adalimumab}}).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Behçet con uveítis o compromiso visceral grave: el error es tratar solo con {{c1::colchicina}}.",
+      "extra": "Requiere corticoides altos, hospitalización y biológico.",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · Behçet",
+      "repaso": false,
+      "codigos": [
+        "6.02.1.030"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Aftas orales aisladas sin otros signos: aftosis idiopática; descartar déficit de {{c1::vitamina B12 o hierro}}.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · Behçet",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Uveítis anterior con ojo rojo doloroso y fotofobia se deriva a oftalmología; la pupila midriática y córnea opaca sugieren {{c1::glaucoma agudo}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · Preguntas reales",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 46",
+        "EUNACOM Enero 2023 · Pregunta 98",
+        "EUNACOM Diciembre 2017 · Pregunta 81"
+      ],
+      "codigos": [
+        "6.02.1.030"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-20/01_aftas-orales-behcet__amir-reuma_p41.jpg",
+      "pregunta": true,
+      "diagnostico": "Aftas orales de Behçet",
+      "clave": "Úlceras superficiales dolorosas con fondo blanquecino y halo eritematoso",
+      "conducta": "Criterios ICBD, patergia y colchicina; ojo con uveítis",
+      "fuente": "Manual AMIR Reumatología, p. 41",
+      "repaso": false,
+      "codigos": [
+        "6.02.1.030",
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_verificadas/049_reuma_EA_Behçet__KumarClark_p1099.jpg",
+      "pregunta": true,
+      "diagnostico": "Uveítis anterior con hipopión",
+      "clave": "Nivel blanquecino de pus estéril en cámara anterior",
+      "conducta": "Hospitalizar, corticoides altos y anti-TNF con oftalmología",
+      "fuente": "Kumar and Clark's Clinical Medicine, p. 1099",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 52"
+      ],
+      "codigos": [
+        "6.02.1.030"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0.0",
+      "pista": "Behçet con compromiso ocular o visceral grave: ¿manejo?",
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0.1",
+      "pista": "Behçet mucocutáneo o articular aislado: ¿fármaco de elección?",
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "Solo aftas orales aisladas: ¿qué piensas y qué descartas?",
+      "codigos": [
+        "1.11.1.025"
+      ]
+    }
+  ]
+}

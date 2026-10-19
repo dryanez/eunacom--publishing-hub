@@ -1,0 +1,2219 @@
+{
+ "_doc": "Glosario clicable del mazo Anki (popover en el reverso). 'def' se escribe a mano desde el libro (sin cifras nuevas) y se conserva al regenerar; pagina/clase/t/url los recalcula conceptos.py. Términos y alias: books/scripts/anki/vocab_*.txt.",
+ "libro": "traumatologia",
+ "pdf": "books/dist/Modulo_2_Cirugia/Tomo_12_Traumatologia_Completo_2026.pdf",
+ "terminos": {
+  "Fractura": {
+   "termino": "Fractura",
+   "tipo": "Concepto",
+   "alias": [
+    "fractura",
+    "fracturas"
+   ],
+   "def": "Signos: dolor intenso, deformidad con desviación de ejes, impotencia funcional y crepitación. Se confirma con radiografía en dos proyecciones que incluyan la articulación proximal y distal.",
+   "pagina": 5,
+   "clase": "trauma-01",
+   "claseTitulo": "12.1 Principios Generales de Fracturas, Consolidación Ósea & Inmovilización",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 90
+  },
+  "Crepitacion_osea": {
+   "termino": "Crepitación ósea",
+   "tipo": "Signo",
+   "alias": [
+    "crepitación",
+    "crepitaciones óseas"
+   ],
+   "def": "Roce de los fragmentos óseos fracturados; es el signo más característico de fractura, pero no se busca vigorosamente para no dañar partes blandas, vasos o nervios.",
+   "pagina": 42,
+   "clase": "trauma-07",
+   "claseTitulo": "12.7 Fracturas de Extremidad Inferior: Pierna, Tobillo & Esguince",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Fractura_expuesta": {
+   "termino": "Fractura expuesta",
+   "tipo": "Concepto",
+   "alias": [
+    "fractura expuesta",
+    "fracturas expuestas"
+   ],
+   "def": "Fractura con herida que pone el foco en contacto con el ambiente; urgencia con riesgo de osteomielitis. Aseo con 3-10 litros de suero, antibiótico EV en la primera hora y cirugía.",
+   "pagina": 10,
+   "clase": "trauma-02",
+   "claseTitulo": "12.2 Fracturas Expuestas: Clasificación Gustilo-Anderson, Antibioticoterapia EV & Aseo Quirúrgico Urgente",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 11
+  },
+  "Clasificacion_de_Gustilo_y_Anderson": {
+   "termino": "Clasificación de Gustilo y Anderson",
+   "tipo": "Concepto",
+   "alias": [
+    "Gustilo"
+   ],
+   "def": "Grado I: herida < 1 cm; II: > 1 cm hasta unos 10 cm; III: > 10 cm, alta energía o arma de fuego. Guía el antibiótico: I cefazolina; II suma gentamicina; III suma clindamicina.",
+   "pagina": 10,
+   "clase": "trauma-02",
+   "claseTitulo": "12.2 Fracturas Expuestas: Clasificación Gustilo-Anderson, Antibioticoterapia EV & Aseo Quirúrgico Urgente",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Osteomielitis": {
+   "termino": "Osteomielitis",
+   "tipo": "Concepto",
+   "alias": [
+    "osteomielitis"
+   ],
+   "def": "Infección ósea: la complicación más temida de la fractura expuesta. En el niño es hematógena en la metáfisis por S. aureus; la radiografía es normal los primeros 10-14 días.",
+   "pagina": 10,
+   "clase": "trauma-02",
+   "claseTitulo": "12.2 Fracturas Expuestas: Clasificación Gustilo-Anderson, Antibioticoterapia EV & Aseo Quirúrgico Urgente",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Pseudoartrosis": {
+   "termino": "Pseudoartrosis",
+   "tipo": "Concepto",
+   "alias": [
+    "pseudoartrosis",
+    "no-unión"
+   ],
+   "def": "Fracaso definitivo de la consolidación: movilidad anormal indolora en el foco, que no consolidará sin cirugía. Hipertrófica (pata de elefante) o atrófica (punta de lápiz).",
+   "pagina": 34,
+   "clase": "trauma-06",
+   "claseTitulo": "12.6 Retardo de Consolidación, Pseudoartrosis & Consolidación Viciosa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 12
+  },
+  "Consolidacion_viciosa": {
+   "termino": "Consolidación viciosa",
+   "tipo": "Concepto",
+   "alias": [
+    "consolidación viciosa",
+    "mala unión"
+   ],
+   "def": "El hueso consolida en posición incorrecta (angulación, rotación o acortamiento), sin dolor. Si es funcionalmente inaceptable se trata con osteotomía correctora.",
+   "pagina": 34,
+   "clase": "trauma-06",
+   "claseTitulo": "12.6 Retardo de Consolidación, Pseudoartrosis & Consolidación Viciosa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Retardo_de_consolidacion": {
+   "termino": "Retardo de consolidación",
+   "tipo": "Concepto",
+   "alias": [
+    "retardo de consolidación",
+    "retraso de consolidación"
+   ],
+   "def": "Curación más lenta de lo esperado, con dolor persistente y callo en maduración, que aún puede consolidar. Se mejora la inmovilización y se suprimen AINE, tabaco y otros factores.",
+   "pagina": 34,
+   "clase": "trauma-06",
+   "claseTitulo": "12.6 Retardo de Consolidación, Pseudoartrosis & Consolidación Viciosa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Osteosintesis": {
+   "termino": "Osteosíntesis",
+   "tipo": "Concepto",
+   "alias": [
+    "osteosíntesis"
+   ],
+   "def": "Fijación quirúrgica del hueso con placas, tornillos o clavos; tratamiento de fracturas desplazadas, inestables, expuestas, conminutas o intraarticulares.",
+   "pagina": 9,
+   "clase": "trauma-01",
+   "claseTitulo": "12.1 Principios Generales de Fracturas, Consolidación Ósea & Inmovilización",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Reduccion_cerrada": {
+   "termino": "Reducción cerrada",
+   "tipo": "Concepto",
+   "alias": [
+    "reducción cerrada"
+   ],
+   "def": "Maniobra de tracción longitudinal y contratracción para alinear una fractura o luxación, con analgesia o sedación y radiografías previa y posterior.",
+   "pagina": 5,
+   "clase": "trauma-01",
+   "claseTitulo": "12.1 Principios Generales de Fracturas, Consolidación Ósea & Inmovilización",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Valva_de_yeso": {
+   "termino": "Valva de yeso",
+   "tipo": "Concepto",
+   "alias": [
+    "valva de yeso",
+    "valva",
+    "férula"
+   ],
+   "def": "Inmovilización de urgencia no circular que deja espacio para el edema, con 8-12 capas de yeso moldeado con la palma e incluyendo la articulación proximal y distal.",
+   "pagina": 5,
+   "clase": "trauma-01",
+   "claseTitulo": "12.1 Principios Generales de Fracturas, Consolidación Ósea & Inmovilización",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 17
+  },
+  "Sindrome_compartimental": {
+   "termino": "Síndrome compartimental",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome compartimental",
+    "compartimental"
+   ],
+   "def": "Dolor desproporcionado y al estiramiento pasivo, compartimento pétreo; los pulsos se pierden tarde. Se retira el yeso y, si no mejora, fasciotomía amplia urgente.",
+   "pagina": 15,
+   "clase": "trauma-03",
+   "claseTitulo": "12.3 Síndrome Compartimental Agudo: Signos Cardinales (5P), Presión Intracompartimental & Fasciotomía Urgente",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 17
+  },
+  "Fasciotomia": {
+   "termino": "Fasciotomía",
+   "tipo": "Concepto",
+   "alias": [
+    "fasciotomía"
+   ],
+   "def": "Tratamiento definitivo del síndrome compartimental: se abre la fascia en toda la longitud del compartimento para liberar la presión.",
+   "pagina": 15,
+   "clase": "trauma-03",
+   "claseTitulo": "12.3 Síndrome Compartimental Agudo: Signos Cardinales (5P), Presión Intracompartimental & Fasciotomía Urgente",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Contractura_de_Volkmann": {
+   "termino": "Contractura de Volkmann",
+   "tipo": "Concepto",
+   "alias": [
+    "Volkmann",
+    "mano en garra"
+   ],
+   "def": "Secuela tardía del síndrome compartimental: fibrosis muscular con mano en garra, incapacidad para extender dedos y muñeca. Kinesioterapia y, si falla, cirugía.",
+   "pagina": 15,
+   "clase": "trauma-03",
+   "claseTitulo": "12.3 Síndrome Compartimental Agudo: Signos Cardinales (5P), Presión Intracompartimental & Fasciotomía Urgente",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Distrofia_simpatico_refleja": {
+   "termino": "Distrofia simpático refleja",
+   "tipo": "Concepto",
+   "alias": [
+    "distrofia simpático refleja",
+    "Sudeck",
+    "SDRC"
+   ],
+   "def": "Complicación tardía (semanas a meses): dolor urente con alodinia que aumenta al mover dedos, cambios tróficos y osteoporosis moteada. También llamada Sudeck o SDRC.",
+   "pagina": 15,
+   "clase": "trauma-03",
+   "claseTitulo": "12.3 Síndrome Compartimental Agudo: Signos Cardinales (5P), Presión Intracompartimental & Fasciotomía Urgente",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Tromboembolismo_pulmonar": {
+   "termino": "Tromboembolismo pulmonar",
+   "tipo": "Concepto",
+   "alias": [
+    "TEP",
+    "tromboembolismo pulmonar"
+   ],
+   "def": "Disnea súbita, dolor pleurítico y desaturación días después de una fractura. Se diagnostica con angioTAC de tórax; el dímero D no sirve en este contexto.",
+   "pagina": 17,
+   "clase": "trauma-03",
+   "claseTitulo": "12.3 Síndrome Compartimental Agudo: Signos Cardinales (5P), Presión Intracompartimental & Fasciotomía Urgente",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Embolia_grasa": {
+   "termino": "Embolia grasa",
+   "tipo": "Concepto",
+   "alias": [
+    "embolia grasa"
+   ],
+   "def": "Fracturas de huesos largos; en horas a 48 horas: distrés respiratorio, compromiso de conciencia y rash petequial en tórax superior, cuello y axilas. Tratamiento de soporte.",
+   "pagina": 17,
+   "clase": "trauma-03",
+   "claseTitulo": "12.3 Síndrome Compartimental Agudo: Signos Cardinales (5P), Presión Intracompartimental & Fasciotomía Urgente",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Trombosis_venosa_profunda": {
+   "termino": "Trombosis venosa profunda",
+   "tipo": "Concepto",
+   "alias": [
+    "trombosis venosa profunda",
+    "TVP"
+   ],
+   "def": "Tríada de Virchow tras fractura; edema asimétrico y pantorrilla empastada. Se confirma con eco-Doppler y se trata con HBPM y luego anticoagulante oral por al menos 3 meses.",
+   "pagina": 53,
+   "clase": "trauma-09",
+   "claseTitulo": "12.9 Lesiones de Partes Blandas: Contusiones, Hematomas, Esguinces & Rotura del Aquiles",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Eco_Doppler_venoso": {
+   "termino": "Eco-Doppler venoso",
+   "tipo": "Examen",
+   "alias": [
+    "ecografía Doppler venosa",
+    "eco-Doppler"
+   ],
+   "def": "Examen que confirma la TVP; el dímero D no la descarta en un paciente con fractura.",
+   "pagina": 17,
+   "clase": "trauma-03",
+   "claseTitulo": "12.3 Síndrome Compartimental Agudo: Signos Cardinales (5P), Presión Intracompartimental & Fasciotomía Urgente",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "AngioTAC_de_torax": {
+   "termino": "AngioTAC de tórax",
+   "tipo": "Examen",
+   "alias": [
+    "angioTAC",
+    "AngioTAC"
+   ],
+   "def": "Examen de elección para el TEP: el trombo se ve oscuro dentro de la arteria pulmonar con contraste.",
+   "pagina": 17,
+   "clase": "trauma-03",
+   "claseTitulo": "12.3 Síndrome Compartimental Agudo: Signos Cardinales (5P), Presión Intracompartimental & Fasciotomía Urgente",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Neuroapraxia": {
+   "termino": "Neuroapraxia",
+   "tipo": "Concepto",
+   "alias": [
+    "neuroapraxia",
+    "neurapraxia"
+   ],
+   "def": "Lesión nerviosa con déficit parcial (mueve o siente algo); se observa. Con déficit total no se distingue axonotmesis de neurotmesis y se explora quirúrgicamente.",
+   "pagina": 21,
+   "clase": "trauma-04",
+   "claseTitulo": "12.4 Lesiones Neurovasculares de las Fracturas: Seddon, Nervio Radial & Lesión Arterial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Clasificacion_de_Seddon": {
+   "termino": "Clasificación de Seddon",
+   "tipo": "Concepto",
+   "alias": [
+    "Seddon",
+    "axonotmesis",
+    "neurotmesis"
+   ],
+   "def": "Clasifica el pronóstico de la lesión nerviosa: neuroapraxia, axonotmesis y neurotmesis; clínicamente solo se distingue el déficit parcial del total.",
+   "pagina": 21,
+   "clase": "trauma-04",
+   "claseTitulo": "12.4 Lesiones Neurovasculares de las Fracturas: Seddon, Nervio Radial & Lesión Arterial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Nervio_radial": {
+   "termino": "Nervio radial",
+   "tipo": "Concepto",
+   "alias": [
+    "nervio radial",
+    "radial"
+   ],
+   "def": "Se lesiona en fracturas de la diáfisis del húmero: mano caída, no extiende muñeca ni dedos, hipoestesia de la cara posterior. La parálisis del borracho es su compresión.",
+   "pagina": 21,
+   "clase": "trauma-04",
+   "claseTitulo": "12.4 Lesiones Neurovasculares de las Fracturas: Seddon, Nervio Radial & Lesión Arterial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 11
+  },
+  "Nervio_axilar": {
+   "termino": "Nervio axilar",
+   "tipo": "Concepto",
+   "alias": [
+    "nervio axilar",
+    "axilar"
+   ],
+   "def": "Se lesiona en la luxación anterior de hombro o fractura del cuello del húmero: no abduce y pierde la sensibilidad del parche deltoideo. Se examina antes y después de reducir.",
+   "pagina": 21,
+   "clase": "trauma-04",
+   "claseTitulo": "12.4 Lesiones Neurovasculares de las Fracturas: Seddon, Nervio Radial & Lesión Arterial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Nervio_mediano": {
+   "termino": "Nervio mediano",
+   "tipo": "Concepto",
+   "alias": [
+    "nervio mediano",
+    "mediano"
+   ],
+   "def": "Se lesiona en la fractura supracondílea de húmero: no flecta los dedos 1° al 3° y pierde la sensibilidad de los primeros 3 dedos y la mitad radial del 4°.",
+   "pagina": 21,
+   "clase": "trauma-04",
+   "claseTitulo": "12.4 Lesiones Neurovasculares de las Fracturas: Seddon, Nervio Radial & Lesión Arterial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Nervio_cubital": {
+   "termino": "Nervio cubital",
+   "tipo": "Concepto",
+   "alias": [
+    "nervio cubital",
+    "cubital"
+   ],
+   "def": "Se lesiona en fracturas mediales de codo: no flecta los dedos 4° y 5° y pierde la sensibilidad del 5° dedo y la mitad cubital del 4°.",
+   "pagina": 21,
+   "clase": "trauma-04",
+   "claseTitulo": "12.4 Lesiones Neurovasculares de las Fracturas: Seddon, Nervio Radial & Lesión Arterial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Nervio_ciatico": {
+   "termino": "Nervio ciático",
+   "tipo": "Concepto",
+   "alias": [
+    "nervio ciático",
+    "ciático"
+   ],
+   "def": "Se lesiona en la luxación posterior de cadera (rodilla contra el tablero): no flecta la rodilla ni dorsiflexiona el pie; baja el reflejo aquiliano.",
+   "pagina": 57,
+   "clase": "trauma-10",
+   "claseTitulo": "12.10 Fractura de Cadera en el Adulto Mayor: Clasificación, Imágenes & Cirugía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Mano_caida": {
+   "termino": "Mano caída",
+   "tipo": "Signo",
+   "alias": [
+    "mano caída",
+    "caída de muñeca"
+   ],
+   "def": "Imposibilidad de extender muñeca y dedos por lesión del nervio radial, típica de fractura de diáfisis humeral.",
+   "pagina": 21,
+   "clase": "trauma-04",
+   "claseTitulo": "12.4 Lesiones Neurovasculares de las Fracturas: Seddon, Nervio Radial & Lesión Arterial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Isquemia_arterial_aguda": {
+   "termino": "Isquemia arterial aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "isquemia arterial aguda",
+    "isquemia aguda",
+    "seis P",
+    "6 P"
+   ],
+   "def": "Las 6 P: dolor, palidez, ausencia de pulsos, parestesias, parálisis y frialdad. Heparina no fraccionada EV y traslado urgente a cirugía vascular; ventana de unas 6 horas.",
+   "pagina": 21,
+   "clase": "trauma-04",
+   "claseTitulo": "12.4 Lesiones Neurovasculares de las Fracturas: Seddon, Nervio Radial & Lesión Arterial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Heparina_no_fraccionada": {
+   "termino": "Heparina no fraccionada",
+   "tipo": "Farmaco",
+   "alias": [
+    "heparina no fraccionada"
+   ],
+   "def": "En la isquemia aguda se da en bolo EV de 5.000 UI u 80 UI/kg antes de trasladar a cirugía vascular.",
+   "pagina": 22,
+   "clase": "trauma-04",
+   "claseTitulo": "12.4 Lesiones Neurovasculares de las Fracturas: Seddon, Nervio Radial & Lesión Arterial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Heparina_de_bajo_peso_molecular": {
+   "termino": "Heparina de bajo peso molecular",
+   "tipo": "Farmaco",
+   "alias": [
+    "HBPM",
+    "enoxaparina"
+   ],
+   "def": "Profilaxis (enoxaparina 40 mg SC al día) y tratamiento de la TVP; se inicia tras estabilizar el sangrado o 6-12 horas después de la cirugía.",
+   "pagina": 17,
+   "clase": "trauma-03",
+   "claseTitulo": "12.3 Síndrome Compartimental Agudo: Signos Cardinales (5P), Presión Intracompartimental & Fasciotomía Urgente",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Embolectomia_de_Fogarty": {
+   "termino": "Embolectomía de Fogarty",
+   "tipo": "Concepto",
+   "alias": [
+    "Fogarty"
+   ],
+   "def": "Tratamiento de la embolia arterial con catéter de Fogarty; la trombosis se trata con trombolisis o bypass.",
+   "pagina": 22,
+   "clase": "trauma-04",
+   "claseTitulo": "12.4 Lesiones Neurovasculares de las Fracturas: Seddon, Nervio Radial & Lesión Arterial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Luxacion_de_hombro": {
+   "termino": "Luxación de hombro",
+   "tipo": "Concepto",
+   "alias": [
+    "luxación de hombro",
+    "luxación anterior de hombro",
+    "luxación glenohumeral"
+   ],
+   "def": "La más frecuente; más del 95% es anterior, con brazo en abducción y rotación externa. Reducción cerrada precoz y cabestrillo por 2-3 semanas; la recidiva es frecuente en < 25 años.",
+   "pagina": 21,
+   "clase": "trauma-04",
+   "claseTitulo": "12.4 Lesiones Neurovasculares de las Fracturas: Seddon, Nervio Radial & Lesión Arterial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Signo_de_la_charretera": {
+   "termino": "Signo de la charretera",
+   "tipo": "Signo",
+   "alias": [
+    "charretera"
+   ],
+   "def": "Pérdida del contorno redondeado del deltoides con acromion prominente en la luxación anterior de hombro.",
+   "pagina": 21,
+   "clase": "trauma-04",
+   "claseTitulo": "12.4 Lesiones Neurovasculares de las Fracturas: Seddon, Nervio Radial & Lesión Arterial",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Luxacion_posterior_de_cadera": {
+   "termino": "Luxación posterior de cadera",
+   "tipo": "Concepto",
+   "alias": [
+    "luxación posterior de cadera",
+    "luxación posterior"
+   ],
+   "def": "Choque frontal (rodilla contra el tablero): posición púdica (aducción y rotación interna). Reducción cerrada bajo anestesia; puede lesionar el nervio ciático.",
+   "pagina": 57,
+   "clase": "trauma-10",
+   "claseTitulo": "12.10 Fractura de Cadera en el Adulto Mayor: Clasificación, Imágenes & Cirugía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Luxofractura_de_tobillo": {
+   "termino": "Luxofractura de tobillo",
+   "tipo": "Concepto",
+   "alias": [
+    "luxofractura de tobillo",
+    "luxofractura"
+   ],
+   "def": "Rotación del pie en carga con fractura de maléolos y luxación del astrágalo. Analgesia, reducción cerrada, valva abierta y osteosíntesis; las Weber C son inestables.",
+   "pagina": 5,
+   "clase": "trauma-01",
+   "claseTitulo": "12.1 Principios Generales de Fracturas, Consolidación Ósea & Inmovilización",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Fractura_de_pelvis": {
+   "termino": "Fractura de pelvis",
+   "tipo": "Concepto",
+   "alias": [
+    "fractura de pelvis"
+   ],
+   "def": "Lesión de alta energía; sangra por los plexos venosos pélvicos y causa shock. Estabilizar con sábana o hamaca pélvica; tacto rectal y vaginal para descartar fractura expuesta.",
+   "pagina": 29,
+   "clase": "trauma-05",
+   "claseTitulo": "12.5 Fracturas de Pelvis & Shock Hipovolémico Pelviano: Clasificación Tile / Young-Burgess & Estabilización Precoz",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Sabana_pelvica": {
+   "termino": "Sábana pélvica",
+   "tipo": "Concepto",
+   "alias": [
+    "sábana pélvica",
+    "hamaca pélvica"
+   ],
+   "def": "Sábana enrollada y apretada alrededor de los trocánteres mayores para cerrar el espacio pélvico y frenar el sangrado venoso en shock.",
+   "pagina": 30,
+   "clase": "trauma-05",
+   "claseTitulo": "12.5 Fracturas de Pelvis & Shock Hipovolémico Pelviano: Clasificación Tile / Young-Burgess & Estabilización Precoz",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Seccion_uretral": {
+   "termino": "Sección uretral",
+   "tipo": "Concepto",
+   "alias": [
+    "sección uretral",
+    "lesión uretral"
+   ],
+   "def": "Sangre en el meato, próstata flotante y globo vesical tras fractura de pelvis. Prohibida la sonda Foley: uretrocistografía retrógrada y cistostomía suprapúbica.",
+   "pagina": 30,
+   "clase": "trauma-05",
+   "claseTitulo": "12.5 Fracturas de Pelvis & Shock Hipovolémico Pelviano: Clasificación Tile / Young-Burgess & Estabilización Precoz",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Uretrocistografia_retrograda": {
+   "termino": "Uretrocistografía retrógrada",
+   "tipo": "Examen",
+   "alias": [
+    "uretrocistografía",
+    "uretrografía"
+   ],
+   "def": "Examen diagnóstico de la sección uretral; muestra la fuga de contraste fuera de la uretra.",
+   "pagina": 30,
+   "clase": "trauma-05",
+   "claseTitulo": "12.5 Fracturas de Pelvis & Shock Hipovolémico Pelviano: Clasificación Tile / Young-Burgess & Estabilización Precoz",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Cistostomia_suprapubica": {
+   "termino": "Cistostomía suprapúbica",
+   "tipo": "Concepto",
+   "alias": [
+    "cistostomía"
+   ],
+   "def": "Drena el globo vesical cuando la sonda Foley está contraindicada por sospecha de sección uretral.",
+   "pagina": 30,
+   "clase": "trauma-05",
+   "claseTitulo": "12.5 Fracturas de Pelvis & Shock Hipovolémico Pelviano: Clasificación Tile / Young-Burgess & Estabilización Precoz",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Politraumatizado": {
+   "termino": "Politraumatizado",
+   "tipo": "Concepto",
+   "alias": [
+    "politraumatizado",
+    "politraumatismo"
+   ],
+   "def": "Lesión de al menos tres sistemas con riesgo vital. Se evalúa con ABCDE, collar cervical y trilogía radiográfica.",
+   "pagina": 29,
+   "clase": "trauma-05",
+   "claseTitulo": "12.5 Fracturas de Pelvis & Shock Hipovolémico Pelviano: Clasificación Tile / Young-Burgess & Estabilización Precoz",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "ABCDE_del_trauma": {
+   "termino": "ABCDE del trauma",
+   "tipo": "Concepto",
+   "alias": [
+    "ABCDE",
+    "ATLS"
+   ],
+   "def": "Vía aérea con collar, ventilación, circulación (comprimir, dos vías, volumen), déficit neurológico y exposición evitando la hipotermia; en orden y sin saltar pasos.",
+   "pagina": 29,
+   "clase": "trauma-05",
+   "claseTitulo": "12.5 Fracturas de Pelvis & Shock Hipovolémico Pelviano: Clasificación Tile / Young-Burgess & Estabilización Precoz",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Trilogia_radiografica": {
+   "termino": "Trilogía radiográfica",
+   "tipo": "Examen",
+   "alias": [
+    "trilogía radiográfica"
+   ],
+   "def": "Columna cervical lateral, tórax AP y pelvis AP, que se piden en todo politraumatizado aunque esté estable.",
+   "pagina": 29,
+   "clase": "trauma-05",
+   "claseTitulo": "12.5 Fracturas de Pelvis & Shock Hipovolémico Pelviano: Clasificación Tile / Young-Burgess & Estabilización Precoz",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Fractura_de_Colles": {
+   "termino": "Fractura de Colles",
+   "tipo": "Concepto",
+   "alias": [
+    "Colles",
+    "dorso de tenedor"
+   ],
+   "def": "Fractura de radio distal con desplazamiento dorsal en «dorso de tenedor», por caída sobre la mano extendida en adulto mayor osteoporótico. Valva antebraquiopalmar y buscar compresión del mediano.",
+   "pagina": 6,
+   "clase": "trauma-01",
+   "claseTitulo": "12.1 Principios Generales de Fracturas, Consolidación Ósea & Inmovilización",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Fractura_de_Smith": {
+   "termino": "Fractura de Smith",
+   "tipo": "Concepto",
+   "alias": [
+    "Smith"
+   ],
+   "def": "Inversa a la de Colles: caída sobre el dorso de la mano flexionada con desplazamiento volar del radio distal.",
+   "pagina": 6,
+   "clase": "trauma-01",
+   "claseTitulo": "12.1 Principios Generales de Fracturas, Consolidación Ósea & Inmovilización",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Fractura_de_escafoides": {
+   "termino": "Fractura de escafoides",
+   "tipo": "Concepto",
+   "alias": [
+    "escafoides",
+    "tabaquera anatómica"
+   ],
+   "def": "Dolor en la tabaquera anatómica tras caída sobre la mano; la radiografía inicial puede ser normal. Espica de pulgar, repetir imagen a los 10-14 días y derivar por riesgo de necrosis.",
+   "pagina": 5,
+   "clase": "trauma-01",
+   "claseTitulo": "12.1 Principios Generales de Fracturas, Consolidación Ósea & Inmovilización",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Fractura_de_cadera": {
+   "termino": "Fractura de cadera",
+   "tipo": "Concepto",
+   "alias": [
+    "fractura de cadera"
+   ],
+   "def": "Adulto mayor osteoporótico con posición impúdica (rotación externa y acortamiento); mortalidad a 2 años de 50%. Siempre quirúrgica, idealmente en 24 a 48 horas.",
+   "pagina": 57,
+   "clase": "trauma-10",
+   "claseTitulo": "12.10 Fractura de Cadera en el Adulto Mayor: Clasificación, Imágenes & Cirugía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Posicion_impudica": {
+   "termino": "Posición impúdica",
+   "tipo": "Signo",
+   "alias": [
+    "impúdica"
+   ],
+   "def": "Abducción, rotación externa y acortamiento: fractura de cadera. «Muestra la ingle».",
+   "pagina": 57,
+   "clase": "trauma-10",
+   "claseTitulo": "12.10 Fractura de Cadera en el Adulto Mayor: Clasificación, Imágenes & Cirugía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Posicion_pudica": {
+   "termino": "Posición púdica",
+   "tipo": "Signo",
+   "alias": [
+    "púdica"
+   ],
+   "def": "Aducción, rotación interna y acortamiento: luxación posterior de cadera. «Se esconde».",
+   "pagina": 57,
+   "clase": "trauma-10",
+   "claseTitulo": "12.10 Fractura de Cadera en el Adulto Mayor: Clasificación, Imágenes & Cirugía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Protesis_de_cadera": {
+   "termino": "Prótesis de cadera",
+   "tipo": "Concepto",
+   "alias": [
+    "prótesis de cadera"
+   ],
+   "def": "Se indica de entrada ante fractura de cuello femoral desplazada en mayor de 65 años, por el alto riesgo de necrosis avascular.",
+   "pagina": 61,
+   "clase": "trauma-10",
+   "claseTitulo": "12.10 Fractura de Cadera en el Adulto Mayor: Clasificación, Imágenes & Cirugía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Cirugia_de_Girdlestone": {
+   "termino": "Cirugía de Girdlestone",
+   "tipo": "Concepto",
+   "alias": [
+    "Girdlestone"
+   ],
+   "def": "Resección de la cabeza femoral en el postrado crónico que ya no camina, para eliminar el dolor sin implantes.",
+   "pagina": 57,
+   "clase": "trauma-10",
+   "claseTitulo": "12.10 Fractura de Cadera en el Adulto Mayor: Clasificación, Imágenes & Cirugía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Necrosis_avascular": {
+   "termino": "Necrosis avascular",
+   "tipo": "Concepto",
+   "alias": [
+    "necrosis avascular"
+   ],
+   "def": "Complicación más frecuente de la fractura de cuello femoral desplazada, por rotura de las arterias circunflejas; también ocurre en la fractura de escafoides.",
+   "pagina": 57,
+   "clase": "trauma-10",
+   "claseTitulo": "12.10 Fractura de Cadera en el Adulto Mayor: Clasificación, Imágenes & Cirugía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Traccion_cutanea": {
+   "termino": "Tracción cutánea",
+   "tipo": "Concepto",
+   "alias": [
+    "tracción cutánea",
+    "tracción de partes blandas",
+    "Buck"
+   ],
+   "def": "Tracción de Buck: 2-4 kg (hasta 10% del peso corporal) en el eje del miembro mientras llega la cirugía; puede lesionar la piel y el nervio peroneo.",
+   "pagina": 58,
+   "clase": "trauma-10",
+   "claseTitulo": "12.10 Fractura de Cadera en el Adulto Mayor: Clasificación, Imágenes & Cirugía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Fractura_de_femur": {
+   "termino": "Fractura de fémur",
+   "tipo": "Concepto",
+   "alias": [
+    "fractura de fémur"
+   ],
+   "def": "Siempre quirúrgica (clavo intramedular o placa); puede perder hasta 1.5 litros de sangre. Radiografía AP y lateral con cadera y rodilla, más pelvis.",
+   "pagina": 20,
+   "clase": "trauma-03",
+   "claseTitulo": "12.3 Síndrome Compartimental Agudo: Signos Cardinales (5P), Presión Intracompartimental & Fasciotomía Urgente",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Clavo_endomedular": {
+   "termino": "Clavo endomedular",
+   "tipo": "Concepto",
+   "alias": [
+    "clavo endomedular",
+    "clavo intramedular"
+   ],
+   "def": "Fijación de elección de las diáfisis de fémur y tibia.",
+   "pagina": 42,
+   "clase": "trauma-07",
+   "claseTitulo": "12.7 Fracturas de Extremidad Inferior: Pierna, Tobillo & Esguince",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Esguince": {
+   "termino": "Esguince",
+   "tipo": "Concepto",
+   "alias": [
+    "esguince",
+    "esguinces"
+   ],
+   "def": "Lesión de ligamentos: grado I microdesgarros, II rotura parcial, III rotura total con inestabilidad. «Un esguince es una fractura hasta que una radiografía demuestre lo contrario».",
+   "pagina": 42,
+   "clase": "trauma-07",
+   "claseTitulo": "12.7 Fracturas de Extremidad Inferior: Pierna, Tobillo & Esguince",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 25
+  },
+  "Esguince_de_tobillo": {
+   "termino": "Esguince de tobillo",
+   "tipo": "Concepto",
+   "alias": [
+    "esguince de tobillo"
+   ],
+   "def": "Casi siempre del ligamento peroneoastragalino anterior por inversión. Grados I y II: PRICE, apoyo progresivo y propiocepción; se deriva el grado III.",
+   "pagina": 56,
+   "clase": "trauma-09",
+   "claseTitulo": "12.9 Lesiones de Partes Blandas: Contusiones, Hematomas, Esguinces & Rotura del Aquiles",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Reglas_de_Ottawa": {
+   "termino": "Reglas de Ottawa",
+   "tipo": "Concepto",
+   "alias": [
+    "Ottawa"
+   ],
+   "def": "Radiografía de tobillo si hay dolor maleolar con dolor óseo posterior o en la punta del maléolo, o incapacidad de dar 4 pasos; de rodilla si edad ≥ 55 años o no flexiona 90°.",
+   "pagina": 43,
+   "clase": "trauma-07",
+   "claseTitulo": "12.7 Fracturas de Extremidad Inferior: Pierna, Tobillo & Esguince",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Clasificacion_de_Weber": {
+   "termino": "Clasificación de Weber",
+   "tipo": "Concepto",
+   "alias": [
+    "Weber"
+   ],
+   "def": "Nivel del rasgo del peroné respecto de la sindesmosis: A infrasindesmal, B transindesmal y C suprasindesmal; las C son inestables.",
+   "pagina": 43,
+   "clase": "trauma-07",
+   "claseTitulo": "12.7 Fracturas de Extremidad Inferior: Pierna, Tobillo & Esguince",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Fractura_de_Maisonneuve": {
+   "termino": "Fractura de Maisonneuve",
+   "tipo": "Concepto",
+   "alias": [
+    "Maisonneuve"
+   ],
+   "def": "Fractura proximal del peroné por transmisión del golpe por la sindesmosis, asociada a lesión del tobillo.",
+   "pagina": 42,
+   "clase": "trauma-07",
+   "claseTitulo": "12.7 Fracturas de Extremidad Inferior: Pierna, Tobillo & Esguince",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 1
+  },
+  "PRICE": {
+   "termino": "PRICE",
+   "tipo": "Concepto",
+   "alias": [
+    "PRICE",
+    "RICE"
+   ],
+   "def": "Protección, reposo, hielo (15-20 minutos cada 2-3 horas), compresión y elevación; tratamiento del esguince grado I y II.",
+   "pagina": 43,
+   "clase": "trauma-07",
+   "claseTitulo": "12.7 Fracturas de Extremidad Inferior: Pierna, Tobillo & Esguince",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Meniscos": {
+   "termino": "Meniscos",
+   "tipo": "Concepto",
+   "alias": [
+    "menisco",
+    "meniscos",
+    "lesión meniscal"
+   ],
+   "def": "Amortiguan y estabilizan la rodilla; se lesionan por torsión brusca con bloqueo articular y dolor en la interlínea. Examen de elección: resonancia magnética.",
+   "pagina": 47,
+   "clase": "trauma-08",
+   "claseTitulo": "12.8 Lesiones de Rodilla: Meniscos, Ligamentos Cruzados y Colaterales & Dolor Patelofemoral",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Maniobra_de_Apley": {
+   "termino": "Maniobra de Apley",
+   "tipo": "Signo",
+   "alias": [
+    "Apley"
+   ],
+   "def": "El talón apunta al menisco afectado: dolor a la rotación externa indica lesión del menisco interno.",
+   "pagina": 51,
+   "clase": "trauma-08",
+   "claseTitulo": "12.8 Lesiones de Rodilla: Meniscos, Ligamentos Cruzados y Colaterales & Dolor Patelofemoral",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Ligamento_cruzado_anterior": {
+   "termino": "Ligamento cruzado anterior",
+   "tipo": "Concepto",
+   "alias": [
+    "LCA",
+    "ligamento cruzado anterior",
+    "cruzado anterior"
+   ],
+   "def": "Rotura por hiperextensión o giro con pie fijo: inestabilidad, hemartros y cajón anterior o Lachman positivo. En jóvenes activos, reconstrucción artroscópica.",
+   "pagina": 47,
+   "clase": "trauma-08",
+   "claseTitulo": "12.8 Lesiones de Rodilla: Meniscos, Ligamentos Cruzados y Colaterales & Dolor Patelofemoral",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Ligamento_cruzado_posterior": {
+   "termino": "Ligamento cruzado posterior",
+   "tipo": "Concepto",
+   "alias": [
+    "LCP",
+    "ligamento cruzado posterior",
+    "cruzado posterior"
+   ],
+   "def": "Lesión por hiperflexión o golpe en el tablero, con cajón posterior; tratamiento inicial conservador.",
+   "pagina": 47,
+   "clase": "trauma-08",
+   "claseTitulo": "12.8 Lesiones de Rodilla: Meniscos, Ligamentos Cruzados y Colaterales & Dolor Patelofemoral",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Cajon_anterior": {
+   "termino": "Cajón anterior",
+   "tipo": "Signo",
+   "alias": [
+    "cajón anterior",
+    "Lachman"
+   ],
+   "def": "Desplazamiento anterior de la tibia con la rodilla flexionada: signo de rotura del LCA, junto con la prueba de Lachman.",
+   "pagina": 47,
+   "clase": "trauma-08",
+   "claseTitulo": "12.8 Lesiones de Rodilla: Meniscos, Ligamentos Cruzados y Colaterales & Dolor Patelofemoral",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Disfuncion_patelofemoral": {
+   "termino": "Disfunción patelofemoral",
+   "tipo": "Concepto",
+   "alias": [
+    "patelofemoral"
+   ],
+   "def": "Dolor anterior de rodilla, detrás de la rótula, al subir escaleras o estar sentado; diagnóstico clínico y tratamiento con fortalecimiento del cuádriceps.",
+   "pagina": 47,
+   "clase": "trauma-08",
+   "claseTitulo": "12.8 Lesiones de Rodilla: Meniscos, Ligamentos Cruzados y Colaterales & Dolor Patelofemoral",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Hemartrosis": {
+   "termino": "Hemartrosis",
+   "tipo": "Concepto",
+   "alias": [
+    "hemartrosis",
+    "lipohemartrosis"
+   ],
+   "def": "Sangre intraarticular con derrame en horas y peloteo rotuliano; la causa más frecuente es la rotura del LCA. Gotas de grasa al puncionar sugieren fractura.",
+   "pagina": 47,
+   "clase": "trauma-08",
+   "claseTitulo": "12.8 Lesiones de Rodilla: Meniscos, Ligamentos Cruzados y Colaterales & Dolor Patelofemoral",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Contusion": {
+   "termino": "Contusión",
+   "tipo": "Concepto",
+   "alias": [
+    "contusión",
+    "contusiones"
+   ],
+   "def": "Golpe directo sin romper la piel con dolor, edema y equimosis. Se trata con AINE, frío 48 horas, luego calor, y reposo relativo.",
+   "pagina": 52,
+   "clase": "trauma-09",
+   "claseTitulo": "12.9 Lesiones de Partes Blandas: Contusiones, Hematomas, Esguinces & Rotura del Aquiles",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Hematoma": {
+   "termino": "Hematoma",
+   "tipo": "Concepto",
+   "alias": [
+    "hematoma",
+    "hematomas"
+   ],
+   "def": "Colección de sangre fluctuante; se apoya con ecografía y se drena solo si es muy grande, muy doloroso o infectado.",
+   "pagina": 52,
+   "clase": "trauma-09",
+   "claseTitulo": "12.9 Lesiones de Partes Blandas: Contusiones, Hematomas, Esguinces & Rotura del Aquiles",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Quiste_de_Baker": {
+   "termino": "Quiste de Baker",
+   "tipo": "Concepto",
+   "alias": [
+    "Baker"
+   ],
+   "def": "Bursa distendida de líquido sinovial en la fosa poplítea; roto, simula una TVP, con el antecedente de un bulto poplíteo previo que desapareció. Analgesia y observación.",
+   "pagina": 53,
+   "clase": "trauma-09",
+   "claseTitulo": "12.9 Lesiones de Partes Blandas: Contusiones, Hematomas, Esguinces & Rotura del Aquiles",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Rotura_del_tendon_de_Aquiles": {
+   "termino": "Rotura del tendón de Aquiles",
+   "tipo": "Concepto",
+   "alias": [
+    "tendón de Aquiles",
+    "Aquiles"
+   ],
+   "def": "Dolor súbito «de pedrada» en el talón al correr, con Thompson alterado; en adulto de mediana edad con actividad esporádica. Se deriva a cirugía.",
+   "pagina": 52,
+   "clase": "trauma-09",
+   "claseTitulo": "12.9 Lesiones de Partes Blandas: Contusiones, Hematomas, Esguinces & Rotura del Aquiles",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Maniobra_de_Thompson": {
+   "termino": "Maniobra de Thompson",
+   "tipo": "Signo",
+   "alias": [
+    "Thompson"
+   ],
+   "def": "Al apretar la pantorrilla el pie no se mueve: confirma la rotura del tendón de Aquiles.",
+   "pagina": 56,
+   "clase": "trauma-09",
+   "claseTitulo": "12.9 Lesiones de Partes Blandas: Contusiones, Hematomas, Esguinces & Rotura del Aquiles",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Fractura_del_tercio_medio_de_clavicula": {
+   "termino": "Fractura del tercio medio de clavícula",
+   "tipo": "Concepto",
+   "alias": [
+    "clavícula"
+   ],
+   "def": "Se trata de forma ortopédica con cabestrillo o vendaje en 8.",
+   "pagina": 5,
+   "clase": "trauma-01",
+   "claseTitulo": "12.1 Principios Generales de Fracturas, Consolidación Ósea & Inmovilización",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Artrosis": {
+   "termino": "Artrosis",
+   "tipo": "Concepto",
+   "alias": [
+    "artrosis",
+    "coxartrosis",
+    "coxoartrosis"
+   ],
+   "def": "Destrucción progresiva del cartílago articular, con dolor mecánico. Escalera: paracetamol y ejercicio, AINE, tramadol, corticoide intraarticular y prótesis.",
+   "pagina": 69,
+   "clase": "trauma-12",
+   "claseTitulo": "12.12 Artrosis & Monoartritis Aguda: Líquido Sinovial, Gota, Pseudogota & Artritis Séptica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 12
+  },
+  "Escalera_analgesica_de_la_artrosis": {
+   "termino": "Escalera analgésica de la artrosis",
+   "tipo": "Concepto",
+   "alias": [
+    "escalera"
+   ],
+   "def": "Paracetamol 1 g c/8 h con ejercicio; luego AINE; luego tramadol; corticoide intraarticular; y prótesis o artrodesis. Con IRC o úlcera se salta de paracetamol a tramadol.",
+   "pagina": 47,
+   "clase": "trauma-08",
+   "claseTitulo": "12.8 Lesiones de Rodilla: Meniscos, Ligamentos Cruzados y Colaterales & Dolor Patelofemoral",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Paracetamol": {
+   "termino": "Paracetamol",
+   "tipo": "Farmaco",
+   "alias": [
+    "paracetamol"
+   ],
+   "def": "Primera línea de la artrosis a dosis de 1 g cada 8 horas, junto con ejercicio de fortalecimiento.",
+   "pagina": 69,
+   "clase": "trauma-12",
+   "claseTitulo": "12.12 Artrosis & Monoartritis Aguda: Líquido Sinovial, Gota, Pseudogota & Artritis Séptica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "AINE": {
+   "termino": "AINE",
+   "tipo": "Farmaco",
+   "alias": [
+    "AINE",
+    "AINEs",
+    "antiinflamatorios"
+   ],
+   "def": "Segunda línea de la artrosis; los COX-1 se asocian a omeprazol y los COX-2 tienen menor riesgo de úlcera. Contraindicados en insuficiencia renal crónica o úlcera.",
+   "pagina": 62,
+   "clase": "trauma-11",
+   "claseTitulo": "12.11 Patología Osteomuscular No Traumática: Lumbago, Hombro Doloroso, Tendinitis & Bursitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 25
+  },
+  "Tramadol": {
+   "termino": "Tramadol",
+   "tipo": "Farmaco",
+   "alias": [
+    "tramadol"
+   ],
+   "def": "Opiáceo débil, tercera línea de la artrosis; reemplaza a los AINE cuando están contraindicados.",
+   "pagina": 69,
+   "clase": "trauma-12",
+   "claseTitulo": "12.12 Artrosis & Monoartritis Aguda: Líquido Sinovial, Gota, Pseudogota & Artritis Séptica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Monoartritis_aguda": {
+   "termino": "Monoartritis aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "monoartritis",
+    "monartritis"
+   ],
+   "def": "Articulación con dolor, aumento de volumen, eritema y calor: se hace artrocentesis y se estudia el líquido antes de dar antibióticos.",
+   "pagina": 69,
+   "clase": "trauma-12",
+   "claseTitulo": "12.12 Artrosis & Monoartritis Aguda: Líquido Sinovial, Gota, Pseudogota & Artritis Séptica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Artrocentesis": {
+   "termino": "Artrocentesis",
+   "tipo": "Examen",
+   "alias": [
+    "artrocentesis",
+    "punción articular"
+   ],
+   "def": "Punción articular (abordaje suprapatelar lateral, aguja 18-21 G) para citoquímico, cristales y Gram/cultivo; contraindicada con celulitis en el sitio.",
+   "pagina": 69,
+   "clase": "trauma-12",
+   "claseTitulo": "12.12 Artrosis & Monoartritis Aguda: Líquido Sinovial, Gota, Pseudogota & Artritis Séptica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Gota": {
+   "termino": "Gota",
+   "tipo": "Concepto",
+   "alias": [
+    "gota",
+    "podagra"
+   ],
+   "def": "Cristales de urato monosódico; podagra nocturna, cristales en aguja con birrefringencia negativa. Crisis: AINE, colchicina o prednisona; nunca iniciar alopurinol en la crisis.",
+   "pagina": 69,
+   "clase": "trauma-12",
+   "claseTitulo": "12.12 Artrosis & Monoartritis Aguda: Líquido Sinovial, Gota, Pseudogota & Artritis Séptica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 11
+  },
+  "Pseudogota": {
+   "termino": "Pseudogota",
+   "tipo": "Concepto",
+   "alias": [
+    "pseudogota",
+    "condrocalcinosis"
+   ],
+   "def": "Cristales de pirofosfato de calcio (romboidales, elongación positiva) en rodilla de adultos mayores. Se previene con colchicina profiláctica.",
+   "pagina": 69,
+   "clase": "trauma-12",
+   "claseTitulo": "12.12 Artrosis & Monoartritis Aguda: Líquido Sinovial, Gota, Pseudogota & Artritis Séptica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Colchicina": {
+   "termino": "Colchicina",
+   "tipo": "Farmaco",
+   "alias": [
+    "colchicina"
+   ],
+   "def": "Crisis de gota: 1 mg al inicio y 0,5 mg una hora después. Tiene muchos efectos adversos (diarrea) y no se deja como profilaxis permanente de gota.",
+   "pagina": 69,
+   "clase": "trauma-12",
+   "claseTitulo": "12.12 Artrosis & Monoartritis Aguda: Líquido Sinovial, Gota, Pseudogota & Artritis Séptica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Alopurinol": {
+   "termino": "Alopurinol",
+   "tipo": "Farmaco",
+   "alias": [
+    "alopurinol"
+   ],
+   "def": "Inhibidor de la xantina oxidasa para gota con 2 o más crisis al año; nunca se inicia ni se suspende durante la crisis. Metas de ácido úrico < 6 y < 7 mg/dL.",
+   "pagina": 70,
+   "clase": "trauma-12",
+   "claseTitulo": "12.12 Artrosis & Monoartritis Aguda: Líquido Sinovial, Gota, Pseudogota & Artritis Séptica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Prednisona": {
+   "termino": "Prednisona",
+   "tipo": "Farmaco",
+   "alias": [
+    "prednisona",
+    "corticoides"
+   ],
+   "def": "Alternativa en la crisis de gota cuando hay contraindicación de AINE y colchicina: 30-40 mg al día por 5 días.",
+   "pagina": 69,
+   "clase": "trauma-12",
+   "claseTitulo": "12.12 Artrosis & Monoartritis Aguda: Líquido Sinovial, Gota, Pseudogota & Artritis Séptica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Artritis_septica": {
+   "termino": "Artritis séptica",
+   "tipo": "Concepto",
+   "alias": [
+    "artritis séptica"
+   ],
+   "def": "Urgencia por destrucción articular rápida; S. aureus lo más frecuente. Artrocentesis antes de antibióticos (> 50.000 leucocitos), drenaje y cloxacilina o cefazolina EV.",
+   "pagina": 69,
+   "clase": "trauma-12",
+   "claseTitulo": "12.12 Artrosis & Monoartritis Aguda: Líquido Sinovial, Gota, Pseudogota & Artritis Séptica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 11
+  },
+  "Criterios_de_Kocher": {
+   "termino": "Criterios de Kocher",
+   "tipo": "Concepto",
+   "alias": [
+    "Kocher"
+   ],
+   "def": "En cadera infantil: fiebre > 38,5 °C, no apoya, VHS > 40 mm/h y leucocitos > 12.000/mm³; estiman la probabilidad de artritis séptica.",
+   "pagina": 70,
+   "clase": "trauma-12",
+   "claseTitulo": "12.12 Artrosis & Monoartritis Aguda: Líquido Sinovial, Gota, Pseudogota & Artritis Séptica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Lumbago_mecanico": {
+   "termino": "Lumbago mecánico",
+   "tipo": "Concepto",
+   "alias": [
+    "lumbago mecánico",
+    "lumbago",
+    "lumbalgia"
+   ],
+   "def": "Aumenta con el movimiento y mejora con el reposo; por debilidad de la musculatura axial. AINE, reposo relativo y kinesioterapia al ceder el dolor, sin imágenes.",
+   "pagina": 84,
+   "clase": "trauma-15",
+   "claseTitulo": "12.15 Lumbago, Cervicalgia & Hombro Doloroso: Manguito Rotador y Capsulitis Adhesiva",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 17
+  },
+  "Lumbociatica": {
+   "termino": "Lumbociática",
+   "tipo": "Concepto",
+   "alias": [
+    "lumbociática",
+    "lumbociáticas"
+   ],
+   "def": "Dolor lumbar irradiado bajo la rodilla por hernia L4-L5 o L5-S1; se maneja como el lumbago, con Lasègue positivo y 80-90% de mejoría en 6-12 semanas.",
+   "pagina": 84,
+   "clase": "trauma-15",
+   "claseTitulo": "12.15 Lumbago, Cervicalgia & Hombro Doloroso: Manguito Rotador y Capsulitis Adhesiva",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Signo_de_Lasegue": {
+   "termino": "Signo de Lasègue",
+   "tipo": "Signo",
+   "alias": [
+    "Lasègue"
+   ],
+   "def": "Dolor a la elevación de la pierna recta a 30-70° en la compresión radicular; el cruzado es más específico.",
+   "pagina": 63,
+   "clase": "trauma-11",
+   "claseTitulo": "12.11 Patología Osteomuscular No Traumática: Lumbago, Hombro Doloroso, Tendinitis & Bursitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Cauda_equina": {
+   "termino": "Cauda equina",
+   "tipo": "Concepto",
+   "alias": [
+    "cauda equina"
+   ],
+   "def": "Anestesia en silla de montar, retención urinaria y debilidad de ambas piernas: urgencia quirúrgica.",
+   "pagina": 85,
+   "clase": "trauma-15",
+   "claseTitulo": "12.15 Lumbago, Cervicalgia & Hombro Doloroso: Manguito Rotador y Capsulitis Adhesiva",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Espondilodiscitis": {
+   "termino": "Espondilodiscitis",
+   "tipo": "Concepto",
+   "alias": [
+    "espondilodiscitis",
+    "discitis"
+   ],
+   "def": "Lumbago con fiebre, VHS y PCR altas, por S. aureus, tuberculosis o brucelosis; cruza el disco. Examen de elección: RM.",
+   "pagina": 62,
+   "clase": "trauma-11",
+   "claseTitulo": "12.11 Patología Osteomuscular No Traumática: Lumbago, Hombro Doloroso, Tendinitis & Bursitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Espondiloartritis": {
+   "termino": "Espondiloartritis",
+   "tipo": "Concepto",
+   "alias": [
+    "espondiloartritis",
+    "espondilitis anquilosante"
+   ],
+   "def": "Lumbago inflamatorio que mejora con el ejercicio y empeora en reposo; puede asociarse a uveítis y psoriasis.",
+   "pagina": 85,
+   "clase": "trauma-15",
+   "claseTitulo": "12.15 Lumbago, Cervicalgia & Hombro Doloroso: Manguito Rotador y Capsulitis Adhesiva",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Manguito_rotador": {
+   "termino": "Manguito rotador",
+   "tipo": "Concepto",
+   "alias": [
+    "manguito rotador"
+   ],
+   "def": "La causa más común de hombro doloroso: dolor nocturno con abducción y elevación y movilidad pasiva conservada. Reposo, AINE y kinesioterapia motora.",
+   "pagina": 84,
+   "clase": "trauma-15",
+   "claseTitulo": "12.15 Lumbago, Cervicalgia & Hombro Doloroso: Manguito Rotador y Capsulitis Adhesiva",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Pinzamiento_subacromial": {
+   "termino": "Pinzamiento subacromial",
+   "tipo": "Concepto",
+   "alias": [
+    "pinzamiento subacromial",
+    "arco doloroso",
+    "Neer",
+    "Hawkins"
+   ],
+   "def": "Dolor al elevar el brazo (arco doloroso) con Neer y Hawkins positivos; es una tendinopatía del manguito rotador. La prueba de Jobe explora el supraespinoso.",
+   "pagina": 86,
+   "clase": "trauma-15",
+   "claseTitulo": "12.15 Lumbago, Cervicalgia & Hombro Doloroso: Manguito Rotador y Capsulitis Adhesiva",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Capsulitis_adhesiva": {
+   "termino": "Capsulitis adhesiva",
+   "tipo": "Concepto",
+   "alias": [
+    "capsulitis adhesiva",
+    "hombro congelado"
+   ],
+   "def": "Hombro congelado: limitación activa y pasiva, con fase dolorosa y luego rigidez. Corticoides y kinesioterapia intensiva.",
+   "pagina": 84,
+   "clase": "trauma-15",
+   "claseTitulo": "12.15 Lumbago, Cervicalgia & Hombro Doloroso: Manguito Rotador y Capsulitis Adhesiva",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Epicondilalgia": {
+   "termino": "Epicondilalgia",
+   "tipo": "Concepto",
+   "alias": [
+    "epicondilalgia",
+    "epicondilitis",
+    "codo de tenista"
+   ],
+   "def": "Codo de tenista: tendinopatía de extensores con dolor a la extensión resistida de la muñeca; reposo, AINE, cincha epicondílea y ejercicios excéntricos; la infiltración empeora a largo plazo.",
+   "pagina": 62,
+   "clase": "trauma-11",
+   "claseTitulo": "12.11 Patología Osteomuscular No Traumática: Lumbago, Hombro Doloroso, Tendinitis & Bursitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Bursitis": {
+   "termino": "Bursitis",
+   "tipo": "Concepto",
+   "alias": [
+    "bursitis"
+   ],
+   "def": "Inflamación de la bursa con eritema y aumento de volumen visible, superficial; a diferencia de la artritis séptica no hay derrame profundo. AINE y frío local.",
+   "pagina": 62,
+   "clase": "trauma-11",
+   "claseTitulo": "12.11 Patología Osteomuscular No Traumática: Lumbago, Hombro Doloroso, Tendinitis & Bursitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Bursitis_trocanterica": {
+   "termino": "Bursitis trocantérica",
+   "tipo": "Concepto",
+   "alias": [
+    "bursitis trocantérica",
+    "pertrocantérica"
+   ],
+   "def": "Dolor sobre el trocánter mayor, que aumenta al caminar y al dormir sobre ese lado; típica en mujeres obesas.",
+   "pagina": 62,
+   "clase": "trauma-11",
+   "claseTitulo": "12.11 Patología Osteomuscular No Traumática: Lumbago, Hombro Doloroso, Tendinitis & Bursitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Tendinitis_de_De_Quervain": {
+   "termino": "Tendinitis de De Quervain",
+   "tipo": "Concepto",
+   "alias": [
+    "De Quervain"
+   ],
+   "def": "Dolor en la zona lateral de la muñeca por el extensor corto y abductor largo del pulgar.",
+   "pagina": 62,
+   "clase": "trauma-11",
+   "claseTitulo": "12.11 Patología Osteomuscular No Traumática: Lumbago, Hombro Doloroso, Tendinitis & Bursitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Fibromialgia": {
+   "termino": "Fibromialgia",
+   "tipo": "Concepto",
+   "alias": [
+    "fibromialgia"
+   ],
+   "def": "Dolor en puntos gatillo, fatiga y trastorno del sueño con VHS y PCR normales. Ejercicio más pregabalina o tricíclicos.",
+   "pagina": 88,
+   "clase": "trauma-15",
+   "claseTitulo": "12.15 Lumbago, Cervicalgia & Hombro Doloroso: Manguito Rotador y Capsulitis Adhesiva",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Cervicobraquialgia": {
+   "termino": "Cervicobraquialgia",
+   "tipo": "Concepto",
+   "alias": [
+    "cervicobraquialgia"
+   ],
+   "def": "Dolor cervical irradiado al brazo: C6 pulgar e índice, C7 dedo medio, C8 meñique; manejo médico con AINE y kinesioterapia.",
+   "pagina": 84,
+   "clase": "trauma-15",
+   "claseTitulo": "12.15 Lumbago, Cervicalgia & Hombro Doloroso: Manguito Rotador y Capsulitis Adhesiva",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Maniobra_de_Spurling": {
+   "termino": "Maniobra de Spurling",
+   "tipo": "Signo",
+   "alias": [
+    "Spurling"
+   ],
+   "def": "Extensión y rotación del cuello con compresión axial; reproduce el dolor radicular cervical.",
+   "pagina": 85,
+   "clase": "trauma-15",
+   "claseTitulo": "12.15 Lumbago, Cervicalgia & Hombro Doloroso: Manguito Rotador y Capsulitis Adhesiva",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Tumor_oseo": {
+   "termino": "Tumor óseo",
+   "tipo": "Concepto",
+   "alias": [
+    "tumor óseo",
+    "tumores óseos"
+   ],
+   "def": "Se presenta como hallazgo incidental, dolor o fractura patológica. Se orienta por edad, localización y aspecto radiológico (benigno: bordes nítidos; maligno: cortical rota).",
+   "pagina": 74,
+   "clase": "trauma-13",
+   "claseTitulo": "12.13 Tumores Óseos Benignos y Malignos: Osteocondroma, Osteoma Osteoide, Osteosarcoma & Ewing",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Osteosarcoma": {
+   "termino": "Osteosarcoma",
+   "tipo": "Concepto",
+   "alias": [
+    "osteosarcoma"
+   ],
+   "def": "Tumor óseo maligno primario más común: adolescentes (y mayores de 65), metáfisis cerca de la rodilla, sol naciente. Cirugía radical más quimioterapia.",
+   "pagina": 74,
+   "clase": "trauma-13",
+   "claseTitulo": "12.13 Tumores Óseos Benignos y Malignos: Osteocondroma, Osteoma Osteoide, Osteosarcoma & Ewing",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Sarcoma_de_Ewing": {
+   "termino": "Sarcoma de Ewing",
+   "tipo": "Concepto",
+   "alias": [
+    "Ewing"
+   ],
+   "def": "Niños y adolescentes, diáfisis o pelvis, telas de cebolla, células pequeñas redondas y azules. Quimioterapia, cirugía y radioterapia.",
+   "pagina": 74,
+   "clase": "trauma-13",
+   "claseTitulo": "12.13 Tumores Óseos Benignos y Malignos: Osteocondroma, Osteoma Osteoide, Osteosarcoma & Ewing",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Osteocondroma": {
+   "termino": "Osteocondroma",
+   "tipo": "Concepto",
+   "alias": [
+    "osteocondroma"
+   ],
+   "def": "Tumor óseo benigno más frecuente: bulto óseo indoloro en joven, crece hacia afuera de la metáfisis. Se observa.",
+   "pagina": 74,
+   "clase": "trauma-13",
+   "claseTitulo": "12.13 Tumores Óseos Benignos y Malignos: Osteocondroma, Osteoma Osteoide, Osteosarcoma & Ewing",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Osteoma_osteoide": {
+   "termino": "Osteoma osteoide",
+   "tipo": "Concepto",
+   "alias": [
+    "osteoma osteoide"
+   ],
+   "def": "Dolor nocturno en jóvenes que cede con aspirina o AINE; nidus radiolúcido con halo esclerótico en la cortical.",
+   "pagina": 74,
+   "clase": "trauma-13",
+   "claseTitulo": "12.13 Tumores Óseos Benignos y Malignos: Osteocondroma, Osteoma Osteoide, Osteosarcoma & Ewing",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Tumor_de_celulas_gigantes": {
+   "termino": "Tumor de células gigantes",
+   "tipo": "Concepto",
+   "alias": [
+    "células gigantes"
+   ],
+   "def": "Adultos de 40 a 50 años, alrededor de la rodilla; localmente agresivo y sin metástasis habitual. Legrado amplio.",
+   "pagina": 75,
+   "clase": "trauma-13",
+   "claseTitulo": "12.13 Tumores Óseos Benignos y Malignos: Osteocondroma, Osteoma Osteoide, Osteosarcoma & Ewing",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Reaccion_periostica": {
+   "termino": "Reacción perióstica",
+   "tipo": "Signo",
+   "alias": [
+    "reacción perióstica",
+    "sol naciente",
+    "telas de cebolla",
+    "Codman"
+   ],
+   "def": "Sol naciente y telas de cebolla indican agresividad; ausente o simple en lesiones benignas.",
+   "pagina": 74,
+   "clase": "trauma-13",
+   "claseTitulo": "12.13 Tumores Óseos Benignos y Malignos: Osteocondroma, Osteoma Osteoide, Osteosarcoma & Ewing",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Displasia_del_desarrollo_de_la_cadera": {
+   "termino": "Displasia del desarrollo de la cadera",
+   "tipo": "Concepto",
+   "alias": [
+    "displasia de cadera",
+    "displasia"
+   ],
+   "def": "Sin tratar evoluciona a artrosis precoz. Ortolani reduce y Barlow luxa; ángulo acetabular > 30° sospechoso y > 36° diagnóstico. Tratamiento con Pavlik.",
+   "pagina": 79,
+   "clase": "trauma-14",
+   "claseTitulo": "12.14 Ortopedia Infantil: Displasia de Cadera, Escoliosis, Pie Bot & Cadera Dolorosa del Niño",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Maniobras_de_Ortolani_y_Barlow": {
+   "termino": "Maniobras de Ortolani y Barlow",
+   "tipo": "Signo",
+   "alias": [
+    "Ortolani",
+    "Barlow"
+   ],
+   "def": "Ortolani reduce una cadera luxada (clic de entrada al abducir); Barlow luxa una cadera reducida.",
+   "pagina": 79,
+   "clase": "trauma-14",
+   "claseTitulo": "12.14 Ortopedia Infantil: Displasia de Cadera, Escoliosis, Pie Bot & Cadera Dolorosa del Niño",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Arnes_de_Pavlik": {
+   "termino": "Arnés de Pavlik",
+   "tipo": "Concepto",
+   "alias": [
+    "Pavlik"
+   ],
+   "def": "Tratamiento de la displasia de cadera del lactante: cadera flexionada y abducida; a menor edad, mayor éxito.",
+   "pagina": 79,
+   "clase": "trauma-14",
+   "claseTitulo": "12.14 Ortopedia Infantil: Displasia de Cadera, Escoliosis, Pie Bot & Cadera Dolorosa del Niño",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Escoliosis": {
+   "termino": "Escoliosis",
+   "tipo": "Concepto",
+   "alias": [
+    "escoliosis"
+   ],
+   "def": "Desviación lateral con rotación; el test de Adams muestra giba. Cobb < 30° ejercicios, 30-50° corsé, > 50° artrodesis.",
+   "pagina": 79,
+   "clase": "trauma-14",
+   "claseTitulo": "12.14 Ortopedia Infantil: Displasia de Cadera, Escoliosis, Pie Bot & Cadera Dolorosa del Niño",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Test_de_Adams": {
+   "termino": "Test de Adams",
+   "tipo": "Signo",
+   "alias": [
+    "Adams"
+   ],
+   "def": "Al inclinarse hacia adelante aparece una giba costal en la escoliosis estructural.",
+   "pagina": 79,
+   "clase": "trauma-14",
+   "claseTitulo": "12.14 Ortopedia Infantil: Displasia de Cadera, Escoliosis, Pie Bot & Cadera Dolorosa del Niño",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Pie_bot": {
+   "termino": "Pie bot",
+   "tipo": "Concepto",
+   "alias": [
+    "pie bot",
+    "equinovaro"
+   ],
+   "def": "Equinovaro congénito: varo, equino, cavo y aducto rígidos. Derivar al nacer para yesos seriados con el método de Ponseti.",
+   "pagina": 79,
+   "clase": "trauma-14",
+   "claseTitulo": "12.14 Ortopedia Infantil: Displasia de Cadera, Escoliosis, Pie Bot & Cadera Dolorosa del Niño",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Metodo_de_Ponseti": {
+   "termino": "Método de Ponseti",
+   "tipo": "Concepto",
+   "alias": [
+    "Ponseti"
+   ],
+   "def": "Yesos seriados que corrigen el pie bot, con inicio precoz; ha desplazado a la cirugía.",
+   "pagina": 79,
+   "clase": "trauma-14",
+   "claseTitulo": "12.14 Ortopedia Infantil: Displasia de Cadera, Escoliosis, Pie Bot & Cadera Dolorosa del Niño",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Pie_plano": {
+   "termino": "Pie plano",
+   "tipo": "Concepto",
+   "alias": [
+    "pie plano"
+   ],
+   "def": "El flexible es fisiológico (el arco aparece de puntillas) y no requiere plantillas; se deriva el rígido, doloroso o unilateral.",
+   "pagina": 80,
+   "clase": "trauma-14",
+   "claseTitulo": "12.14 Ortopedia Infantil: Displasia de Cadera, Escoliosis, Pie Bot & Cadera Dolorosa del Niño",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Sinovitis_transitoria": {
+   "termino": "Sinovitis transitoria",
+   "tipo": "Concepto",
+   "alias": [
+    "sinovitis transitoria"
+   ],
+   "def": "2-4 años, tras infección viral, sin fiebre y con radiografía normal. Paracetamol y reposo.",
+   "pagina": 79,
+   "clase": "trauma-14",
+   "claseTitulo": "12.14 Ortopedia Infantil: Displasia de Cadera, Escoliosis, Pie Bot & Cadera Dolorosa del Niño",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Enfermedad_de_Perthes": {
+   "termino": "Enfermedad de Perthes",
+   "tipo": "Concepto",
+   "alias": [
+    "Perthes"
+   ],
+   "def": "Necrosis avascular de la cabeza femoral a los 5-10 años, en niños de talla baja y muy activos; cabeza plana y densa. Se deriva a ortopedia.",
+   "pagina": 80,
+   "clase": "trauma-14",
+   "claseTitulo": "12.14 Ortopedia Infantil: Displasia de Cadera, Escoliosis, Pie Bot & Cadera Dolorosa del Niño",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Epifisiolisis": {
+   "termino": "Epifisiólisis",
+   "tipo": "Concepto",
+   "alias": [
+    "epifisiólisis",
+    "epifisiolisis"
+   ],
+   "def": "12-15 años, obesidad; signo del helado caído. Cirugía con osteosíntesis.",
+   "pagina": 80,
+   "clase": "trauma-14",
+   "claseTitulo": "12.14 Ortopedia Infantil: Displasia de Cadera, Escoliosis, Pie Bot & Cadera Dolorosa del Niño",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Fractura_fisaria_Salter_Harris": {
+   "termino": "Fractura fisaria (Salter-Harris)",
+   "tipo": "Concepto",
+   "alias": [
+    "Salter-Harris",
+    "disyunción"
+   ],
+   "def": "La fisis es el eslabón débil del hueso inmaduro; Salter-Harris II es la más frecuente (~75%) y III-V comprometen el crecimiento. Radiografía normal no la descarta.",
+   "pagina": 80,
+   "clase": "trauma-14",
+   "claseTitulo": "12.14 Ortopedia Infantil: Displasia de Cadera, Escoliosis, Pie Bot & Cadera Dolorosa del Niño",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Espondilolistesis": {
+   "termino": "Espondilolistesis",
+   "tipo": "Concepto",
+   "alias": [
+    "espondilolistesis",
+    "espondilólisis"
+   ],
+   "def": "Dolor lumbar con la extensión en adolescente deportista; en la radiografía oblicua se ve el «perro con collar».",
+   "pagina": 80,
+   "clase": "trauma-14",
+   "claseTitulo": "12.14 Ortopedia Infantil: Displasia de Cadera, Escoliosis, Pie Bot & Cadera Dolorosa del Niño",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Traumatolog%C3%ADa&clase=trauma-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_traumatologia",
+   "embed": null,
+   "notas": 2
+  }
+ }
+}

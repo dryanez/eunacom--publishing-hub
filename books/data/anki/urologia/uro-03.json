@@ -1,0 +1,543 @@
+{
+ "classId": "uro-03",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La HPB nace en la zona de {{c1::transición}} (95% de los casos); el cáncer de próstata, en la zona {{c2::periférica}} (75-80%).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 McNeal",
+   "repaso": false,
+   "imagen": "biblioteca/19_urologia/uro-03/01_uretra-prostatica-lobulos-cistoscopia__bailey-love_p1404.jpg",
+   "codigos": [
+    "4.03.1.013"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La HPB tiene un componente {{c1::estático}} (masa glandular) y uno {{c2::dinámico}} (tono alfa-1 del músculo liso).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.013"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Síntomas de vaciado (obstructivos): chorro débil, latencia, esfuerzo, goteo terminal e {{c1::intermitencia}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Síntomas",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.013",
+    "4.03.1.027"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Síntomas de llenado (irritativos): polaquiuria, nicturia > 2 veces y {{c1::urgencia}}, por la hipertrofia del detrusor.",
+   "extra": "«Vejiga de lucha» con trabéculas y pseudodivertículos.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Síntomas",
+   "repaso": false,
+   "imagen": "biblioteca/19_urologia/uro-03/02_vejiga-trabeculada-cistoscopia__bailey-love_p1404.jpg",
+   "codigos": [
+    "4.03.1.013",
+    "4.03.1.027"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El tamaño de la próstata {{c1::no se correlaciona}} con la gravedad de los síntomas; un lóbulo medio pequeño puede obstruir mucho.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Tamaño",
+   "repaso": true,
+   "codigos": [
+    "1.09.4.006",
+    "4.03.4.007"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La HPB afecta a cerca del {{c1::50%}} de los varones a los 60 años y 80-90% a los 80.",
+   "extra": "No aparece si se castró antes de la pubertad.",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Epidemiología",
+   "repaso": false,
+   "codigos": [
+    "4.03.3.002"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La HPB requiere {{c1::dihidrotestosterona}} (andrógenos) y envejecimiento.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Epidemiología",
+   "repaso": false,
+   "codigos": [
+    "4.03.3.002"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "IPSS de 7 preguntas: leve {{c1::0-7}}, moderado {{c2::8-19}}, severo {{c3::20-35}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 IPSS",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.013"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En HPB el tacto muestra próstata de consistencia {{c1::fibroelástica}}, lisa, de bordes netos, indolora y simétrica.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tacto",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.013",
+    "1.09.5.007"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Nódulo indurado, asimetría pétrea o pérdida de bordes al tacto: sospechar {{c1::cáncer}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tacto",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.013",
+    "1.09.5.007"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Exámenes indispensables en HPB: sedimento de orina, {{c1::creatinina}} y APE.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Exámenes",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.013",
+    "1.09.5.007"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La ecografía vésico-prostática mide el volumen (aumentada sobre 30-40 cc), el lóbulo medio y el {{c1::residuo postmiccional}}.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Ecografía",
+   "repaso": false,
+   "imagen": "biblioteca/19_urologia/uro-03/03_rm-lobulo-medio-protruye-vejiga__bailey-love_p1482.jpg",
+   "codigos": [
+    "1.09.4.006",
+    "4.03.4.007"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El residuo postmiccional es significativo si supera los {{c1::100 mL}}.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Ecografía",
+   "repaso": true,
+   "codigos": [
+    "1.09.4.006",
+    "4.03.4.007"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Uroflujometría: Qmax > {{c1::15 mL/s}} es normal y < {{c2::10 mL/s}} sugiere obstrucción, con curva aplanada y prolongada.",
+   "extra": "Válida con volumen > 150 mL.",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Uroflujometría",
+   "repaso": false,
+   "codigos": [
+    "4.03.4.013"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La uroflujometría no distingue la obstrucción de un {{c1::detrusor hipocontráctil}}.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Uroflujometría",
+   "repaso": false,
+   "codigos": [
+    "4.03.4.013"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tacto rectal se hace en decúbito lateral {{c1::izquierdo}} con rodillas flectadas; no se masajea si se sospecha prostatitis aguda.",
+   "extra": "Próstata normal: 3-4 cm.",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Tacto",
+   "repaso": false,
+   "codigos": [
+    "1.09.5.007"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "IPSS ≤ 7: observación vigilante y cambios de {{c1::estilo de vida}} (menos líquidos nocturnos, sin cafeína ni alcohol).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Conducta",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.013"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Primera elección en HPB moderada a severa: {{c1::tamsulosina 0.4 mg/día}}, efecto en 48-72 horas.",
+   "extra": "Pregunta real Dic 2017: HPB con residuo y rebalse.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tamsulosina",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 80"
+   ],
+   "codigos": [
+    "4.03.1.013"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tamsulosina no modifica ni el volumen prostático ni el {{c1::APE}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tamsulosina",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.013"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Efecto adverso típico de la tamsulosina: {{c1::eyaculación retrógrada}} e hipotensión ortostática; también síndrome de iris flácido.",
+   "extra": "Avisar antes de cirugía de cataratas.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tamsulosina",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.013"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Inhibidores de la 5-alfa reductasa: {{c1::finasteride 5 mg}} o dutasteride {{c2::0.5 mg}}; reducen el volumen 20-25%.",
+   "extra": "Indicados en próstatas > 40 cc.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Finasteride",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.013"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El finasteride reduce el APE a la {{c1::mitad}} a los 6 meses: se multiplica el valor medido por 2.",
+   "extra": "APE de 2,8 equivale a 5,6.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Finasteride",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.013"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Efectos de los 5-ARI: disfunción eréctil, disminución de libido y {{c1::ginecomastia}}.",
+   "extra": "Efecto lento: 3 a 6 meses.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Finasteride",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.013"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tadalafilo 5 mg/día se indica en HPB si coexiste {{c1::disfunción eréctil}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla fármacos",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.013"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La terapia combinada tamsulosina + dutasteride se prefiere en próstata > {{c1::40 cc}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla fármacos",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.013"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Indicaciones absolutas de cirugía: RAO refractaria o recurrente, ITU recurrente, litiasis vesical, hematuria recurrente e {{c1::hidronefrosis}}.",
+   "extra": "Pregunta real: la RAO es indicación absoluta.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Cirugía",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 8"
+   ],
+   "codigos": [
+    "4.03.1.013",
+    "4.03.1.027"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "GES N° {{c1::10}}: tratamiento quirúrgico de la HPB en personas sintomáticas.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 GES",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.013"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La RTUP es de elección en próstatas < {{c1::80 cc}}; en > 80 cc, adenomectomía abierta o enucleación con láser holmium (HoLEP).",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Cirugía",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 104"
+   ],
+   "codigos": [
+    "4.03.1.013"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El síndrome de RTUP es una {{c1::hiponatremia dilucional}} por absorción del líquido de irrigación hipotónico (glicina) en RTUP monopolar.",
+   "extra": "Confusión, cefalea, HTA, bradicardia y convulsiones.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Síndrome de RTUP",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.013",
+    "4.03.1.027"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El síndrome de RTUP se previene con RTUP {{c1::bipolar}} con solución salina isotónica.",
+   "extra": "Tratamiento: restricción hídrica, furosemida y salino 3%.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Síndrome de RTUP",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.013",
+    "4.03.1.027"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el varón mayor la causa más frecuente de uropatía obstructiva baja es la {{c1::HPB}}; en el niño, las válvulas de uretra posterior.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Uropatía baja",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.027"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Goteo continuo con globo vesical e hidronefrosis bilateral: incontinencia por {{c1::rebalse}}; se descomprime con sonda Foley.",
+   "extra": "",
+   "origen": "clase:22",
+   "fuente": "Clase · Quiz uropatía baja",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.027"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "IPSS 8 a 19: el error es partir con {{c1::finasteride}}; se parte con tamsulosina.",
+   "extra": "",
+   "origen": "clase:17",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.013"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Retención aguda repetida: se opera (RTUP); el error es seguir con {{c1::sonda permanente}}.",
+   "extra": "",
+   "origen": "clase:17",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.013",
+    "4.03.1.027"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-03/01_uretra-prostatica-lobulos-cistoscopia__bailey-love_p1404.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Uretra prostática en HPB",
+   "clave": "Lóbulos laterales que estrechan la uretra",
+   "conducta": "IPSS 8-19: tamsulosina; añadir 5-ARI si > 40 cc",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 75.10",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 80"
+   ],
+   "codigos": [
+    "4.03.1.013"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-03/02_vejiga-trabeculada-cistoscopia__bailey-love_p1404.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Vejiga trabeculada",
+   "clave": "Pared vesical con trabéculas por hipertrofia del detrusor",
+   "conducta": "Vejiga de lucha: sospechar obstrucción baja crónica y medir el residuo",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 75.9",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.013",
+    "4.03.1.027"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.1.1",
+   "pista": "IPSS de 8 a 19: ¿tratamiento inicial?",
+   "codigos": [
+    "4.03.1.013",
+    "4.03.1.027"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.2",
+   "pista": "IPSS de 20 a 35: ¿tratamiento?",
+   "codigos": [
+    "4.03.1.013",
+    "4.03.1.027"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0",
+   "pista": "HPB con complicación orgánica: ¿conducta?",
+   "codigos": [
+    "4.03.1.013",
+    "4.03.1.027"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1",
+   "pista": "Nódulo duro al tacto: ¿qué sospechas?",
+   "codigos": [
+    "4.03.1.013",
+    "4.03.1.027"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,497 @@
+{
+ "report": {
+  "topics": {
+   "T12.1": {
+    "steps": 22,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 250,
+    "traps": 1,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T12.2": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T12.3": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T12.4": {
+    "steps": 12,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T12.5": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T12.6": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T12.7": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T12.8": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T12.9": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T12.10": {
+    "steps": 12,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T12.11": {
+    "steps": 20,
+    "split": false,
+    "algo": {
+     "scale": 0.82,
+     "orient": "td"
+    },
+    "algoH": 230,
+    "traps": 2,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T12.12": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T12.13": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T12.14": {
+    "steps": 12,
+    "split": false,
+    "algo": {
+     "scale": 0.79,
+     "orient": "td"
+    },
+    "algoH": 220,
+    "traps": 0,
+    "ask": 4,
+    "tight": true,
+    "overflow": false
+   },
+   "T12.15": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 0.93,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 5,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   }
+  },
+  "warnings": [
+   "T12.14: algoritmo al 79 %"
+  ],
+  "pages": 26,
+  "where": {
+   "COVER": 1,
+   "IDX": 2,
+   "T12.1": 3,
+   "T12.2": 4,
+   "T12.3": 6,
+   "T12.4": 8,
+   "T12.5": 9,
+   "T12.6": 11,
+   "T12.7": 12,
+   "T12.8": 13,
+   "T12.9": 14,
+   "T12.10": 15,
+   "T12.11": 16,
+   "T12.12": 17,
+   "T12.13": 18,
+   "T12.14": 19,
+   "T12.15": 20,
+   "NUM": 22,
+   "DRUG": 24,
+   "GES": 24,
+   "PLAN": 25,
+   "PRIO": 26
+  }
+ },
+ "stars": [
+  {
+   "t": "12.1",
+   "real": 11,
+   "stars": 3,
+   "lg": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    39,
+    40
+   ]
+  },
+  {
+   "t": "12.2",
+   "real": 0,
+   "stars": 1,
+   "lg": [
+    10,
+    11,
+    12,
+    13
+   ]
+  },
+  {
+   "t": "12.3",
+   "real": 3,
+   "stars": 1,
+   "lg": [
+    14,
+    15,
+    16,
+    17,
+    18
+   ]
+  },
+  {
+   "t": "12.4",
+   "real": 13,
+   "stars": 3,
+   "lg": [
+    21,
+    22,
+    41,
+    42
+   ]
+  },
+  {
+   "t": "12.5",
+   "real": 8,
+   "stars": 2,
+   "lg": [
+    20,
+    27,
+    28,
+    29,
+    30,
+    31
+   ]
+  },
+  {
+   "t": "12.6",
+   "real": 3,
+   "stars": 1,
+   "lg": [
+    32,
+    33,
+    34
+   ]
+  },
+  {
+   "t": "12.7",
+   "real": 4,
+   "stars": 2,
+   "lg": [
+    43,
+    44,
+    45,
+    76
+   ]
+  },
+  {
+   "t": "12.8",
+   "real": 4,
+   "stars": 2,
+   "lg": [
+    59,
+    60,
+    61,
+    62,
+    68,
+    69
+   ]
+  },
+  {
+   "t": "12.9",
+   "real": 5,
+   "stars": 2,
+   "lg": [
+    66,
+    67,
+    73,
+    74
+   ]
+  },
+  {
+   "t": "12.10",
+   "real": 6,
+   "stars": 2,
+   "lg": [
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54
+   ]
+  },
+  {
+   "t": "12.11",
+   "real": 11,
+   "stars": 3,
+   "lg": [
+    19,
+    86,
+    87
+   ]
+  },
+  {
+   "t": "12.12",
+   "real": 18,
+   "stars": 3,
+   "lg": [
+    23,
+    24,
+    25,
+    26,
+    63,
+    64,
+    65
+   ]
+  },
+  {
+   "t": "12.13",
+   "real": 14,
+   "stars": 3,
+   "lg": [
+    81,
+    82,
+    83,
+    84
+   ]
+  },
+  {
+   "t": "12.14",
+   "real": 10,
+   "stars": 2,
+   "lg": [
+    1,
+    55,
+    56,
+    57,
+    58,
+    70,
+    71,
+    72,
+    77,
+    78,
+    79,
+    80
+   ]
+  },
+  {
+   "t": "12.15",
+   "real": 4,
+   "stars": 2,
+   "lg": [
+    37,
+    38,
+    85,
+    88,
+    89,
+    90
+   ]
+  }
+ ],
+ "lg": {
+  "name": "Traumatología",
+  "file": "Libro_Gordo_Traumatologia_90Q.pdf",
+  "unassigned": [
+   2,
+   35,
+   36,
+   75
+  ],
+  "byLabel": 21,
+  "byCode": 39,
+  "total": 90,
+  "wordInfo": [
+   {
+    "n": 2,
+    "sug": "12.1 Principios Generales de Fracturas, Consolidación Ó",
+    "title": "Heridas de la mano no complicadas",
+    "code": "4.02.2.009",
+    "stem": "[URGENCIA: Heridas de la mano no complicadas · 4.02.2.009] Paciente adulto consulta de urgencia en Servicio de"
+   },
+   {
+    "n": 35,
+    "sug": "12.5 Fracturas de Pelvis & Shock Hipovolémico Pelviano:",
+    "title": "Trauma Raquimedular: Clasificación ASIA, Inmovilización Cervical, Shock Neurogénico vs Medular",
+    "code": "4.01.2.020",
+    "stem": "En el contexto del manejo de Trauma Raquimedular: Clasificación ASIA, Inmovilización Cervical, Shock Neurogéni"
+   },
+   {
+    "n": 36,
+    "sug": "12.5 Fracturas de Pelvis & Shock Hipovolémico Pelviano:",
+    "title": "Trauma Raquimedular: Clasificación ASIA, Inmovilización Cervical, Shock Neurogénico vs Medular",
+    "code": "4.02.2.015",
+    "stem": "Una paciente de 67 años consulta por dolor de espalda, que inició de manera súbita, en relación a actividades "
+   },
+   {
+    "n": 75,
+    "sug": "12.14 Ortopedia Infantil: Displasia de Cadera, Escoliosi",
+    "title": "Displasia del Desarrollo de la Cadera (DDC): Maniobras de Ortolani/Barlow, Screening Ecográfico & Correas de Pavlik GES",
+    "code": "1.08.1.001",
+    "stem": "Un paciente tiene dolor y edema en la pantorrilla izquierda. Refiere que desde hace varios meses tenía un bult"
+   }
+  ],
+  "unassignedInfo": [
+   {
+    "n": 2,
+    "title": "Heridas de la mano no complicadas",
+    "code": "4.02.2.009",
+    "stem": "[URGENCIA: Heridas de la mano no complicadas · 4.02.2.009] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/Hospital) con signos cardinales de Heridas de la mano no complicadas. Al examen físico destaca compr"
+   },
+   {
+    "n": 35,
+    "title": "Trauma Raquimedular: Clasificación ASIA, Inmovilización Cervical, Shock Neurogénico vs Medular",
+    "code": "4.01.2.020",
+    "stem": "En el contexto del manejo de Trauma Raquimedular: Clasificación ASIA, Inmovilización Cervical, Shock Neurogénico vs Medular, ¿cuál de las siguientes afirmaciones respecto al diagnóstico y tratamiento representa la conducta correct"
+   },
+   {
+    "n": 36,
+    "title": "Trauma Raquimedular: Clasificación ASIA, Inmovilización Cervical, Shock Neurogénico vs Medular",
+    "code": "4.02.2.015",
+    "stem": "Una paciente de 67 años consulta por dolor de espalda, que inició de manera súbita, en relación a actividades en las que levantaba peso en flexión. El dolor es intenso, por lo que limita sus actividades de la vida diaria. Al exame"
+   },
+   {
+    "n": 75,
+    "title": "Displasia del Desarrollo de la Cadera (DDC): Maniobras de Ortolani/Barlow, Screening Ecográfico & Correas de Pavlik GES",
+    "code": "1.08.1.001",
+    "stem": "Un paciente tiene dolor y edema en la pantorrilla izquierda. Refiere que desde hace varios meses tenía un bulto indoloro en la zona posterior de la rodilla que ahora desapareció. ¿Cuál es el diagnóstico y el tratamiento?"
+   }
+  ],
+  "byEditorial": 26
+ },
+ "stats": {
+  "numbers": 25,
+  "drugs": 3,
+  "ges": 7
+ }
+}

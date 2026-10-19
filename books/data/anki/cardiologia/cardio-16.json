@@ -1,0 +1,654 @@
+{
+ "classId": "cardio-16",
+ "cards": [
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La IC no es un diagnóstico final: siempre hay una {{c1::causa de base}} y con frecuencia un factor descompensante; ambos hay que buscarlos.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · La causa y el descompensante",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 151"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La principal causa de IC con fracción reducida es la cardiopatía {{c1::isquémica}} (infarto previo).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Causas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En zonas endémicas, una causa de miocardiopatía que lleva a IC es la enfermedad de {{c1::Chagas}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · La causa y el descompensante",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los dos descompensantes más preguntados en IC son los {{c1::AINE}} y el nifedipino.",
+   "extra": "También verapamilo, diltiazem y pioglitazona.",
+   "origen": "clase:2",
+   "fuente": "Clase · Lo que descompensa",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 135",
+    "EUNACOM Diciembre 2019 · Pregunta 123"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la IC se activan el sistema renina-angiotensina-aldosterona y el {{c1::simpático}}, que retienen sodio y agua y remodelan el ventrículo.",
+   "extra": "Por eso los fármacos que alargan la vida bloquean estos sistemas.",
+   "origen": "clase:1",
+   "fuente": "Clase · Un corazón que compensa… y se agota",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los diuréticos mejoran la {{c1::congestión}} pero no la sobrevida en IC.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La FEVI normal es de {{c1::55-70%}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Fenotipos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "IC con fracción reducida (IC-FEr): FEVI {{c1::≤ 40%}}.",
+   "extra": "Único fenotipo con tratamiento que reduce la mortalidad comprobada.",
+   "origen": "clase:5",
+   "fuente": "Clase · La fracción de eyección manda",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "IC con fracción levemente reducida (IC-FEmr): FEVI {{c1::41-49%}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · La fracción de eyección manda",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "IC con fracción preservada (IC-FEp): FEVI {{c1::≥ 50%}} con péptidos natriuréticos elevados y alteración estructural o diastólica.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · La fracción de eyección manda",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La IC-FEp es típica de la mujer añosa, {{c1::hipertensa}}, diabética, obesa o con fibrilación auricular.",
+   "extra": "El ventrículo es rígido y de tamaño normal.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Fenotipos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Paciente con síntomas, BNP alto y FEVI normal: es IC con fracción {{c1::preservada}}; el error es decir que no es IC.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La clase funcional {{c1::NYHA}} (I a IV) describe los síntomas de hoy y cambia con el tratamiento.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · NYHA y estadios",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los estadios ACC/AHA (A a D) son {{c1::progresivos}} y no retroceden.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · NYHA y estadios",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "NYHA IV significa síntomas {{c1::en reposo}}.",
+   "extra": "NYHA III: síntomas con esfuerzos mínimos (vestirse, una cuadra plana).",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clase funcional",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estadio B de ACC/AHA: cardiopatía estructural {{c1::sin síntomas}} (p. ej. infarto antiguo con FEVI baja).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Estadios",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Criterios de Framingham: el diagnóstico clínico exige {{c1::2 mayores}}, o 1 mayor y 2 menores.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Framingham",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Criterio mayor de Framingham: cardiomegalia con índice cardiotorácico > {{c1::0,50}} en la radiografía.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Framingham",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Criterio mayor de Framingham: pérdida de peso > {{c1::4,5 kg en 5 días}} con diuréticos.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Framingham",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La ausencia de crépitos no descarta IC crónica: la congestión se ve en el {{c1::cuello y las piernas}}.",
+   "extra": "El sistema linfático pulmonar drena el líquido.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Diagnóstico clínico",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Edema con yugulares ingurgitadas, EPOC y FEVI normal: piensa en {{c1::cor pulmonale}}, no en IC izquierda.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Edema sin ingurgitación yugular orienta a cirrosis, síndrome {{c1::nefrótico}} o insuficiencia venosa.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un ECG totalmente normal hace {{c1::poco probable}} una IC con fracción reducida.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Qué se pide en la primera consulta",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antes de iniciar IECA, ARM o diuréticos se piden creatinina y {{c1::electrolitos}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Exámenes iniciales",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la IC con FEr se pide además ferritina y saturación de transferrina: el déficit de {{c1::hierro}} es tratable con hierro endovenoso.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Exámenes iniciales",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Péptidos natriuréticos en paciente ambulatorio: BNP < {{c1::35}} o NT-proBNP < {{c2::125}} hace muy improbable la IC.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · BNP: sirve para descartar",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Péptidos natriuréticos en urgencia: BNP < {{c1::100}} o NT-proBNP < {{c2::300}} descarta IC como causa de la disnea.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · BNP: sirve para descartar",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El BNP bajo en un disneico descarta IC; el error es {{c1::confirmar IC}} con un BNP alto.",
+   "extra": "Un BNP alto solo obliga a pedir el ecocardiograma.",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los péptidos natriuréticos suben con la edad, la FA, la falla renal, el TEP y la hipertensión pulmonar, y bajan con la {{c1::obesidad}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Falsos positivos y negativos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Obeso con IC y BNP normal: el valor {{c1::no descarta}} la IC.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "El sacubitrilo eleva el BNP pero no el NT-proBNP; con ese fármaco se prefiere el {{c1::NT-proBNP}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Péptidos natriuréticos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El examen de elección para confirmar la IC y medir la FEVI es el ecocardiograma {{c1::Doppler transtorácico}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · El examen de elección",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.006"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 53"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Ortopnea y crépitos en un paciente con infarto previo: el primer examen es el {{c1::ecocardiograma}}, no la coronariografía ni el test de esfuerzo.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.006"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 53"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El BCRI hace inútil la prueba de esfuerzo convencional; para buscar isquemia se pide {{c1::ecocardiografía de estrés}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Ecocardiografía",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.006"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 102"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se repite el ecocardiograma a los {{c1::3 meses}} de tratamiento óptimo para decidir el desfibrilador (FEVI ≤ 35%).",
+   "extra": "No se repite de rutina en el paciente estable.",
+   "origen": "clase:8",
+   "fuente": "Clase · Cómo se usa",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.006"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Paciente con IC descompensada que usa nifedipino: se debe {{c1::suspender el nifedipino}}; el error es agregar más diurético.",
+   "extra": "Efecto inotrópico negativo.",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 135",
+    "EUNACOM Diciembre 2019 · Pregunta 123"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Fármacos que mejoran la sobrevida en IC-FEr: IECA o ARA II, betabloqueador (idealmente {{c1::carvedilol}}) y espironolactona.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 153",
+    "EUNACOM Diciembre 2017 · Pregunta 10",
+    "EUNACOM Julio 2025 · Pregunta 1",
+    "EUNACOM Diciembre 2018 · Pregunta 93",
+    "EUNACOM Diciembre 2017 · Pregunta 8",
+    "EUNACOM Diciembre 2017 · Pregunta 13"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "IC-FEr sintomática ya con IECA, betabloqueador y diurético: se agrega {{c1::espironolactona}}.",
+   "extra": "Monitorizar potasio y función renal.",
+   "origen": "clase:14",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 1",
+    "EUNACOM Diciembre 2018 · Pregunta 93",
+    "EUNACOM Diciembre 2017 · Pregunta 8",
+    "EUNACOM Diciembre 2024 · Pregunta 109"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Furosemida inicial en IC con congestión: {{c1::20-40 mg}} al día, ajustada al peso seco.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Qué hace el médico general",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "IC con náuseas y descompensación en tratamiento con digoxina: pide {{c1::niveles plasmáticos de digoxina}}.",
+   "extra": "Sospecha de intoxicación digitálica.",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic. 2018 P5",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 5"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En IC con FEr, la digoxina no es de primera línea: los pilares son IECA/ARA II, diurético de asa y {{c1::espironolactona}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic. 2017 P13",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 13"
+   ]
+  },
+  {
+   "id": "c46",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Educación en IC: consultar si el peso sube más de {{c1::2 kg en 3 días}}.",
+   "extra": "Pesarse a diario en ayunas.",
+   "origen": "clase:9",
+   "fuente": "Clase · Educación",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c47",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La restricción de líquidos en IC se reserva a la IC avanzada con {{c1::hiponatremia}}.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Educación",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c48",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En IC se indican vacunas contra {{c1::influenza y neumococo}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Educación",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-16/01_cardiomegalia-derrame-bilateral-ic__chest-xray-survival-guide_p160.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Cardiomegalia con pequeños derrames pleurales bilaterales (IC)",
+   "clave": "Corazón agrandado y ángulos costofrénicos borrados",
+   "conducta": "Ecocardiograma Doppler para FEVI; diurético si hay congestión",
+   "fuente": "The Chest X-Ray: A Survival Guide, Fig. 11.24",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Sospecha de IC: ¿qué se pide en la primera consulta?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1",
+   "pista": "BNP elevado o alta sospecha: ¿qué examen?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.0",
+   "pista": "FEVI ≤ 40%: ¿qué fenotipo y qué tratamiento?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.2",
+   "pista": "FEVI ≥ 50%: ¿qué fenotipo y qué manejo?"
+  }
+ ]
+}

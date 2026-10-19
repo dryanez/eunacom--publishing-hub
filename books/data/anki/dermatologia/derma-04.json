@@ -1,0 +1,446 @@
+{
+  "classId": "derma-04",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Alopecia no cicatricial: los {{c1::orificios foliculares están conservados}} y el pelo puede volver a crecer.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Cicatriciales",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Alopecia cicatricial: piel lisa y brillante con {{c1::desaparición total de los orificios foliculares}}; irreversible.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Cicatriciales",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causas de alopecia cicatricial: lupus discoide, {{c1::liquen plano pilar}} y foliculitis decalvante.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Cicatriciales",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alopecia cicatricial: requiere {{c1::biopsia}} y tratamiento inmunosupresor precoz.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo alopecias",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La alopecia androgenética es la causa {{c1::más prevalente}} de alopecia en ambos sexos.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Androgenética",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la alopecia androgenética actúa la {{c1::dihidrotestosterona (DHT)}}, sintetizada por la 5-alfa reductasa tipo 2.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Androgenética",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La DHT acorta el anágeno y produce {{c1::miniaturización folicular}} progresiva.",
+      "extra": "Pelos terminales pasan a vellos finos y despigmentados.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Androgenética",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Patrón masculino de androgenética: retroceso frontotemporal y coronilla (escala de {{c1::Hamilton-Norwood}}).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Androgenética",
+      "repaso": false,
+      "imagen": "biblioteca/11_dermatologia/derma-04/02_androgenetica-hamilton__cto-derma_p62.jpg",
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Patrón femenino de androgenética: escala de {{c1::Ludwig}}, con raya central ensanchada y línea frontal respetada.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Androgenética",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Minoxidil tópico en androgenética: vasodilatador que {{c1::estimula el anágeno}} y aumenta el calibre folicular.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Androgenética",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Minoxidil tópico en androgenética: concentración {{c1::2% o 5%}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Androgenética",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Finasteride oral en androgenética: inhibe la {{c1::5-alfa reductasa}} y reduce la DHT.",
+      "extra": "Dutasteride es alternativa.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Androgenética",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dosis de finasteride en androgenética: {{c1::1 mg/día}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla alopecias",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Finasteride reduce la DHT en aproximadamente {{c1::70%}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Androgenética",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Finasteride está contraindicado en {{c1::mujeres en edad fértil}} por teratogenicidad (feminización de fetos masculinos).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de elección de la androgenética: minoxidil tópico 5% + {{c1::finasteride oral}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla comparativa",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Alopecia areata: autoinmune mediada por linfocitos T {{c1::CD8+}} contra el folículo en anágeno.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Areata",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Alopecia areata: placas redondas de piel {{c1::lisa y normal}}, sin descamación ni eritema.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Areata",
+      "repaso": true,
+      "imagen": "biblioteca/11_dermatologia/derma-04/01_alopecia-areata__cto-derma_p62.jpg",
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signo patognomónico de la alopecia areata: pelos en {{c1::signo de exclamación}} en el borde activo.",
+      "extra": "Cortos, fracturados, más delgados en la base.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Areata",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Alopecia {{c1::total}} = pérdida de todo el cabello; alopecia {{c2::universal}} = pérdida de todo el vello corporal.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Areata",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La alopecia areata se asocia a tiroiditis autoinmune y {{c1::vitíligo}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Areata",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alopecia areata en placas: corticoide {{c1::intralesional (triamcinolona)}}.",
+      "extra": "También corticoide tópico potente o inhibidores de JAK (baricitinib).",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Areata",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 151"
+      ],
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Joven con zona redonda y lisa sin pelo, sin eritema ni descamación, de 2 semanas: {{c1::alopecia areata}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Quiz Dic 2018",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 151"
+      ],
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Efluvio telógeno agudo: aparece {{c1::2 a 3 meses}} después de un estresor fisiológico (parto, cirugía, fiebre alta).",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Efluvio",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Efluvio telógeno: caída difusa con prueba de tracción {{c1::positiva en todo el cuero cabelludo}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Efluvio",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Efluvio telógeno: se resuelve espontáneamente en {{c1::6 meses}} al cesar la causa.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Efluvio",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Conducta en efluvio telógeno: {{c1::tranquilizar}} a la paciente; no requiere tratamiento invasivo.",
+      "extra": "Descartar ferropenia.",
+      "origen": "clase:7",
+      "fuente": "Clase · Quiz caso",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante caída difusa puerperal, la biopsia y el corticoide intralesional {{c1::no corresponden}}.",
+      "extra": "Son para cicatricial y areata.",
+      "origen": "clase:7",
+      "fuente": "Clase · Quiz caso",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En efluvio telógeno el pull test positivo es de más de {{c1::10 pelos con bulbo}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla alopecias",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-04/01_alopecia-areata__cto-derma_p62.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Alopecia areata",
+      "clave": "Placa redonda de piel lisa, sin eritema ni descamación; pelos en signo de exclamación",
+      "conducta": "Corticoide intralesional (triamcinolona); buscar tiroiditis asociada",
+      "fuente": "Manual CTO Dermatología 14.ª ed., p. 62",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-04/02_androgenetica-hamilton__cto-derma_p62.jpg",
+      "pregunta": "¿Qué patrón muestra y qué indicas?",
+      "diagnostico": "Alopecia androgenética masculina (Hamilton)",
+      "clave": "Retroceso de entradas frontotemporales y pérdida del vértice",
+      "conducta": "Minoxidil tópico + finasteride oral 1 mg/día",
+      "fuente": "Manual CTO Dermatología 14.ª ed., p. 62",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.002"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1.1",
+      "pista": "Placa redonda de piel lisa: ¿qué tratamiento?",
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0",
+      "pista": "Piel lisa sin orificios foliculares: ¿qué conducta?",
+      "codigos": [
+        "6.01.1.002"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.2",
+      "pista": "Caída difusa tras un estrés: ¿qué conducta?",
+      "codigos": [
+        "6.01.1.002"
+      ]
+    }
+  ]
+}

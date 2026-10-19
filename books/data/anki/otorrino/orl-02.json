@@ -1,0 +1,454 @@
+{
+ "classId": "orl-02",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La OME es exudado {{c1::no purulento}} en el oído medio con tímpano íntegro y sin signos de infección aguda.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 OME",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-02/01_otitis-media-con-efusion-nivel-hidroaereo__bates_p318.jpg",
+   "codigos": [
+    "6.03.1.021"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La OME es la causa más frecuente de hipoacusia de {{c1::conducción}} en preescolares y escolares.",
+   "extra": "Escolar que no obedece órdenes, mal interpretado como déficit atencional.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 OME",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.021"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Etiología de la OME: disfunción de la trompa de Eustaquio por hipertrofia {{c1::adenoidea}} o rinitis alérgica.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 OME",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.021"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El {{c1::80-90%}} de los derrames serosos se resuelve solo en 3 meses.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 OME",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.021"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Conducta inicial en OME: observar {{c1::12 semanas}} con audiometría e impedanciometría (curva B).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 OME",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.021"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En OME están desaconsejados los antibióticos, antihistamínicos, descongestionantes y {{c1::corticoides}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 OME",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.021"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "OME mayor de 3 meses con hipoacusia bilateral (umbral > {{c1::25-30 dB}}): miringotomía con tubos de ventilación.",
+   "extra": "Escolar de 6 años con curvas B y 25 dB tras 4 meses.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Colleras",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-02/03_tubo-de-ventilacion-timpanica-colleras__bailey-love_p731.jpg",
+   "codigos": [
+    "6.03.1.021"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "OMC simple: perforación central de la pars tensa que {{c1::respeta el annulus}} fibroso.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 OMC simple",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-02/02_perforacion-timpanica-central__bates_p317.jpg",
+   "codigos": [
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Otorrea indolora, intermitente o persistente por más de {{c1::6 a 12 semanas}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 OMC simple",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Gérmenes de la OMC simple: {{c1::Pseudomonas aeruginosa}} y Staphylococcus aureus.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 OMC simple",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Reagudización de OMC simple: gotas de {{c1::ciprofloxacino}} tópico al 0,3% y aseo bajo microscopía.",
+   "extra": "Paciente de 47 años con perforación antigua, otalgia y otorrea de 2 días.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tratamiento",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 148"
+   ],
+   "codigos": [
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Evitar aminoglucósidos tópicos (neomicina) con tímpano perforado por {{c1::ototoxicidad}} cocleovestibular.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Aminoglucósidos",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En fase seca el tratamiento definitivo es la {{c1::timpanoplastia}} electiva.",
+   "extra": "Niño de 8 años con perforación central: audiometría y derivación a ORL.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Fase seca",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 35"
+   ],
+   "codigos": [
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "No se {{c1::tapona}} un oído perforado.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Quiz",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.021"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El colesteatoma es epitelio escamoso {{c1::queratinizante}} en el oído medio: no neoplásico pero osteolítico.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Colesteatoma",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Colesteatoma: perforación {{c1::marginal o atical}} (pars flácida) con escamas nacaradas y otorrea fétida refractaria a antibióticos.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Colesteatoma",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-02/05_colesteatoma-otoscopia__nelson_p5122.jpg",
+   "codigos": [
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El colesteatoma destruye huesecillos, canal de {{c1::Falopio}} (parálisis facial), canal semicircular lateral (fístula) y tegmen tympani (meningitis, absceso).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Complicaciones",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.022",
+    "6.03.4.005"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo de la fístula: vértigo y nistagmo al comprimir el {{c1::trago}}; erosión del canal semicircular lateral.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Signo de la fístula",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.022",
+    "6.03.4.005"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Examen de elección en colesteatoma: TAC de peñasco {{c1::sin contraste}} de alta resolución.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Diagnóstico",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-02/04_colesteatoma-congenito-tac__nelson_p5104.jpg",
+   "codigos": [
+    "6.03.1.022",
+    "6.03.4.005"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento del colesteatoma: {{c1::timpanomastoidectomía}}, siempre quirúrgico.",
+   "extra": "Perforación central con colesteatoma en TAC.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Cirugía",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 153"
+   ],
+   "codigos": [
+    "6.03.1.022",
+    "6.03.4.005"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los antibióticos tópicos solo controlan la {{c1::sobreinfección}} del colesteatoma; no lo curan.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Antibióticos",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El TAC describe masa de partes blandas en el ático con erosión del {{c1::scutum}} y de la apófisis larga del yunque.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 TAC de oídos",
+   "repaso": false,
+   "codigos": [
+    "6.03.4.005"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hallazgos que obligan a derivar urgente: erosión del tegmen, fístula del canal semicircular, canal facial o pared {{c1::sigmoidea}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 TAC de oídos",
+   "repaso": false,
+   "codigos": [
+    "6.03.4.005"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Un TAC normal {{c1::no descarta}} un colesteatoma pequeño: manda la otoscopía.",
+   "extra": "La RM con difusión se reserva para residual o complicación intracraneal.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 TAC de oídos",
+   "repaso": false,
+   "codigos": [
+    "6.03.4.005"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Colesteatoma con fiebre, vértigo e hipoacusia: laberintitis aguda; lo primero son los antibióticos {{c1::endovenosos}}.",
+   "extra": "Paciente de 59 años con otorrea crónica, vértigo persistente y nistagmo: laberintitis.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Laberintitis",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 104",
+    "EUNACOM Julio 2013 · Pregunta 84"
+   ],
+   "codigos": [
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "OMC colesteatomatosa: otorrea {{c1::fétida}} con escamas de queratina; OMC simple: otorrea mucosa no fétida.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-02/01_otitis-media-con-efusion-nivel-hidroaereo__bates_p318.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "OME: nivel de líquido",
+   "clave": "Tímpano íntegro, amarillento, con nivel hidroaéreo",
+   "conducta": "Observar 3 meses; collera si persiste con hipoacusia",
+   "fuente": "Bates, Guía de exploración física, Tabla 7-20",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.021"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-02/02_perforacion-timpanica-central__bates_p317.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Perforación central",
+   "clave": "Perforación en la pars tensa que respeta el borde",
+   "conducta": "Ciprofloxacino tópico; timpanoplastia en fase seca",
+   "fuente": "Bates, Guía de exploración física, Tabla 7-20",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 148"
+   ],
+   "codigos": [
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-02/05_colesteatoma-otoscopia__nelson_p5122.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Colesteatoma en la otoscopía",
+   "clave": "Masa blanca nacarada de queratina tras una perforación atical",
+   "conducta": "TAC de peñasco y timpanomastoidectomía",
+   "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 5122",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 153"
+   ],
+   "codigos": [
+    "6.03.1.022"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Tímpano íntegro con líquido: ¿conducta?",
+   "codigos": [
+    "6.03.1.022",
+    "6.03.1.021"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0.0",
+   "pista": "OME persistente con hipoacusia: ¿qué se indica?",
+   "codigos": [
+    "6.03.1.022",
+    "6.03.1.021"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.0",
+   "pista": "Perforación central con otorrea no fétida: ¿tratamiento?",
+   "codigos": [
+    "6.03.1.022",
+    "6.03.1.021"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.1",
+   "pista": "Perforación marginal con escamas y fetidez: ¿examen y conducta?",
+   "codigos": [
+    "6.03.1.022",
+    "6.03.1.021"
+   ]
+  }
+ ]
+}

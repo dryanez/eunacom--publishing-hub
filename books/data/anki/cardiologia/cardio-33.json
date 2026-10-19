@@ -1,0 +1,546 @@
+{
+ "classId": "cardio-33",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En países desarrollados la pericarditis aguda es idiopática o {{c1::viral}} en más del 80% de los casos.",
+   "extra": "Coxsackie, echovirus, adenovirus, SARS-CoV-2.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Etiología",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El dolor pericárdico se irradia al borde del {{c1::trapecio}} (nervio frénico), casi específico de afectación pericárdica.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diagnóstico",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Para diagnosticar pericarditis aguda se necesitan al menos {{c1::2 de 4}} criterios: dolor, frote, ECG típico y derrame nuevo.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Los cuatro criterios",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El dolor pericárdico aumenta con la inspiración, la tos y el decúbito, y {{c1::alivia al sentarse e inclinarse hacia adelante}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Los cuatro criterios",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 81",
+    "EUNACOM Julio 2015 · Pregunta 59"
+   ],
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "A diferencia del infarto, el dolor pericárdico no es opresivo, no irradia al brazo y no se alivia con {{c1::nitroglicerina}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El signo más específico de pericarditis es el {{c1::frote pericárdico}}, «de cuero nuevo», transitorio.",
+   "extra": "Se ausculta en el borde esternal izquierdo, inclinado hacia adelante y en espiración.",
+   "origen": "clase:2",
+   "fuente": "Clase · Los cuatro criterios",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El derrame pericárdico aparece en cerca del {{c1::60%}} de las pericarditis y suele ser pequeño.",
+   "extra": "No es necesario para el diagnóstico.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pericarditis con troponina elevada o disfunción ventricular se llama {{c1::miopericarditis}}; se restringe el ejercicio.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Los cuatro criterios",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "ECG de pericarditis: supradesnivel del ST {{c1::cóncavo y difuso}}, no territorial.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla comparativa",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 139",
+    "EUNACOM Julio 2019 · Pregunta 81"
+   ],
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El signo electrocardiográfico más precoz y específico de pericarditis es el {{c1::infradesnivel del PR}}.",
+   "extra": "Por inflamación auricular.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 ECG",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En pericarditis, aVR y V1 muestran la imagen opuesta: ST {{c1::descendido}} y PR elevado.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 ECG",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El infradesnivel del segmento TP se llama signo de {{c1::Spodick}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 ECG",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fase I del ECG en pericarditis: ST elevado, PR descendido y ondas T {{c1::positivas}}.",
+   "extra": "Fase III: inversión difusa de T.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 ECG",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fase III del ECG en pericarditis: {{c1::inversión difusa}} de las ondas T.",
+   "extra": "Fase IV: normalización.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 ECG",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El derrame pericárdico grande produce bajo voltaje y {{c1::alternancia eléctrica}} en el ECG.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 ECG",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pericarditis vs infarto: la pericarditis no tiene imagen especular (salvo aVR) ni ondas {{c1::Q}}.",
+   "extra": "El infarto tiene ST convexo, territorial y evoluciona a Q.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla comparativa",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Dolor que mejora al inclinarse con ST cóncavo difuso: el error es {{c1::fibrinolizar como SCACEST}}.",
+   "extra": "Se trata con AINE + colchicina.",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 139"
+   ],
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Joven deportista con ST cóncavo estable con muesca en J y PR sin descenso: es {{c1::repolarización precoz}}, no pericarditis.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Lo que imita a la pericarditis",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ante duda con infarto en un cuadro pericárdico se repite el ECG, se pide troponina y {{c1::ecocardiograma}}.",
+   "extra": "El infarto muestra alteración segmentaria de la motilidad.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 ECG",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La silueta cardíaca en la radiografía solo se agranda si el derrame supera los {{c1::250 mL}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Exámenes",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En un paciente joven con cuadro típico y sin alto riesgo no se estudia la causa: se asume {{c1::viral o idiopática}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Exámenes",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Primera línea de la pericarditis: AINE en dosis plenas más {{c1::colchicina}} más IBP.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Antiinflamatorio más colchicina",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 94",
+    "EUNACOM Diciembre 2022 · Pregunta 29"
+   ],
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Aspirina en pericarditis: {{c1::750-1000 mg}} cada 8 horas durante 1-2 semanas, con IBP.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Antiinflamatorio más colchicina",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Ibuprofeno en pericarditis: {{c1::600 mg}} cada 8 horas durante 1-2 semanas, con IBP.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Antiinflamatorio más colchicina",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Colchicina en pericarditis por {{c1::3 meses}}.",
+   "extra": "Reduce a la mitad las recidivas.",
+   "origen": "clase:5",
+   "fuente": "Clase · Antiinflamatorio más colchicina",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Colchicina: 0,5 mg al día si pesa < 70 kg; {{c1::0,5 mg cada 12 horas}} si pesa ≥ 70 kg.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Antiinflamatorio más colchicina",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la pericarditis posinfarto el AINE de elección es la {{c1::aspirina}}; los otros interfieren con la cicatrización.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la pericarditis los {{c1::corticoides}} no son de primera línea porque aumentan la recurrencia.",
+   "extra": "Se reservan para causas autoinmunes o urémicas, o intolerancia a AINE.",
+   "origen": "clase:5",
+   "fuente": "Clase · Antiinflamatorio más colchicina",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la pericarditis se evitan los {{c1::anticoagulantes}} por el riesgo de hemopericardio.",
+   "extra": "No hay antibióticos empíricos en la viral.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se restringe el ejercicio hasta 1 mes en el no deportista y hasta {{c1::3 meses}} en el deportista de competencia.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se hospitaliza la pericarditis con fiebre mayor de {{c1::38 °C}}, curso subagudo, derrame grande o taponamiento.",
+   "extra": "También troponina elevada, anticoagulantes, inmunosupresión o falla de AINE en 1 semana.",
+   "origen": "clase:6",
+   "fuente": "Clase · Signos de alarma y evolución",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La pericarditis sin alto riesgo se maneja ambulatoria con control a {{c1::la semana}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Signos de alarma y evolución",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La recurrencia de la pericarditis ocurre en {{c1::15 a 30%}} de los pacientes.",
+   "extra": "Es la razón de la colchicina.",
+   "origen": "clase:6",
+   "fuente": "Clase · Signos de alarma y evolución",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El síndrome de Dressler aparece {{c1::2 a 8 semanas}} tras el infarto (autoinmune) con fiebre, pleuritis y derrame.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Etiología",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La pericarditis precoz posinfarto aparece a los {{c1::1 a 3 días}} por inflamación del tejido necrótico transmural.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Etiología",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La pericarditis constrictiva da insuficiencia derecha con signo de {{c1::Kussmaul}}, knock pericárdico y calcificación; el tratamiento es la pericardiectomía.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Signos de alarma y evolución",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Hipotensión + yugulares + ruidos apagados es taponamiento: se hace {{c1::pericardiocentesis}}, no más AINE.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pericarditis tuberculosa y neoplásica dan derrame {{c1::hemorrágico}}, con riesgo de constricción y taponamiento respectivamente.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Etiología",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-33/01_repolarizacion-precoz-st-concavo__stroobandt-ecg_p191.jpg",
+   "pregunta": "¿Qué muestra y qué la diferencia de pericarditis?",
+   "diagnostico": "Repolarización precoz",
+   "clave": "ST cóncavo con muesca en el punto J y T grandes; estable en el tiempo y sin descenso del PR",
+   "conducta": "No se trata como pericarditis; ante duda, ECG seriado, troponina y eco",
+   "fuente": "Stroobandt et al., ECG from Basics to Essentials, p. 191",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.022"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.1",
+   "pista": "≥ 2 de 4 criterios: ¿qué diagnóstico?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "Fiebre, derrame grande, troponina elevada: ¿qué conducta?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.1",
+   "pista": "Pericarditis sin alto riesgo: ¿qué tratamiento?"
+  }
+ ]
+}

@@ -1,0 +1,409 @@
+{
+  "classId": "psiq-11",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Aproximadamente un {{c1::30%}} de los pacientes con esquizofrenia presentan resistencia al tratamiento convencional.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definición",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Esquizofrenia refractaria: fracaso de {{c1::2}} antipsicóticos distintos a dosis plena.",
+      "extra": "Al menos uno debe ser atípico.",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Cuándo es refractaria?",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Esquizofrenia refractaria: cada antipsicótico se usa a dosis plena durante al menos {{c1::6 semanas}}.",
+      "extra": "Con adherencia verificada.",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Cuándo es refractaria?",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para definir refractariedad, al menos uno de los antipsicóticos ensayados debe ser {{c1::de segunda generación (atípico)}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definición",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Antes de llamar refractario a un paciente, hay que verificar {{c1::adherencia y dosis plena}}; si no, es un falso refractario.",
+      "extra": "Corregir adherencia o dosis antes de pasar a clozapina.",
+      "origen": "clase:2",
+      "fuente": "Clase · Diagrama",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El fármaco de elección indiscutido en la esquizofrenia refractaria es {{c1::clozapina}}.",
+      "extra": "También en psicosis con conducta suicida persistente.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La clozapina, además de la esquizofrenia refractaria, está indicada en psicosis con {{c1::conducta suicida persistente}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La clozapina no produce {{c1::síntomas extrapiramidales ni discinesia tardía}}.",
+      "extra": "Por eso se rota a ella en discinesia tardía.",
+      "origen": "clase:7",
+      "fuente": "Clase · El otro lado de la clozapina",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Agranulocitosis por clozapina: ocurre en cerca de {{c1::0,8%}} de los tratados y es potencialmente mortal.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · El otro lado de la clozapina",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La máxima incidencia de agranulocitosis por clozapina ocurre en las primeras {{c1::18 semanas}} de tratamiento.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Monitorización",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Para iniciar clozapina se exigen leucocitos totales {{c1::≥ 3.500/mm³}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Para empezar",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Para iniciar clozapina se exige un RAN {{c1::≥ 2.000/mm³}}.",
+      "extra": "Basta ≥ 1.500/mm³ en neutropenia étnica benigna.",
+      "origen": "clase:3",
+      "fuente": "Clase · Para empezar",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hemograma con clozapina en las semanas 1 a 26: {{c1::semanal}}.",
+      "extra": "Primeros 6 meses.",
+      "origen": "clase:3",
+      "fuente": "Clase · Calendario de hemogramas",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hemograma con clozapina en las semanas 27 a 52: {{c1::quincenal}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Calendario de hemogramas",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Desde el año de tratamiento con clozapina el hemograma es {{c1::mensual}}, mientras la tome y hasta {{c2::4 semanas}} después de suspenderla.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Calendario de hemogramas",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "RAN 1.500–1.999/mm³ con clozapina (neutropenia leve): {{c1::continuar con controles 2 veces por semana}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla RAN",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "RAN 1.000–1.499/mm³ con clozapina (neutropenia moderada): {{c1::suspender temporalmente y hemograma diario}}.",
+      "extra": "Se reanuda al superar 1.500.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla RAN",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "RAN {{c1::< 1.000/mm³}} con clozapina define agranulocitosis severa.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla RAN",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante RAN < 1.000/mm³ con clozapina, el error clásico es {{c1::bajar la dosis o repetir el examen en una semana}}.",
+      "extra": "La única conducta correcta es suspender de inmediato y definitivamente.",
+      "origen": "clase:10",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.008",
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Agranulocitosis por clozapina: {{c1::hospitalizar en aislamiento protector}}, interconsulta a hematología y evaluar G-CSF.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Conducta",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras agranulocitosis por clozapina, la reexposición está {{c1::prohibida de por vida}}.",
+      "extra": "Riesgo de recidiva fulminante y muerte; dejar constancia en la ficha.",
+      "origen": "clase:5",
+      "fuente": "Clase · Agranulocitosis",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En agranulocitosis con fiebre (neutropenia febril) se indican {{c1::antibióticos EV sin demora}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Agranulocitosis",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La miocarditis por clozapina ocurre típicamente en el {{c1::primer mes}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Reacciones adversas",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Miocarditis por clozapina: disnea, dolor precordial, {{c1::taquicardia persistente no explicada}} y fiebre.",
+      "extra": "Estudio: ECG, troponinas y ecocardiograma; suspender el fármaco.",
+      "origen": "clase:10",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El riesgo de convulsiones por clozapina aumenta con dosis {{c1::> 600 mg/día}}.",
+      "extra": "Se maneja bajando la dosis y asociando ácido valproico.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Reacciones adversas",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La acción anticolinérgica potente de la clozapina puede causar {{c1::íleo paralítico}}; se previene con laxantes osmóticos.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Reacciones adversas",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Constipación extrema y distensión en paciente con clozapina es urgencia; el error es {{c1::dar más laxante y observar}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Efectos muy frecuentes pero benignos de la clozapina: {{c1::sialorrea nocturna y sedación}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Reacciones adversas",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "Esquizofrenia refractaria tiene garantía GES N° {{c1::34}} (canasta de esquizofrenia refractaria).",
+      "extra": "La clozapina se rige por el Programa Nacional de Farmacovigilancia con monitoreo hematológico obligatorio.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro · GES",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.2",
+      "pista": "RAN 1.000 a 1.499 con clozapina: ¿qué haces?",
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.3",
+      "pista": "RAN bajo 1.000 con clozapina: ¿qué haces?",
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1",
+      "pista": "Hemograma basal bajo: ¿qué haces?",
+      "codigos": [
+        "1.08.4.008"
+      ]
+    }
+  ]
+}

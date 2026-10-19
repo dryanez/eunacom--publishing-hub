@@ -1,0 +1,422 @@
+{
+  "classId": "nefro-07",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hipernatremia traduce siempre un {{c1::déficit de agua libre}} con hiperosmolaridad plasmática.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hipernatremia: natremia > {{c1::145 mEq/L}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.007",
+        "2.01.1.071"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hipernatremia sostenida ocurre en quien no accede al agua: {{c1::postrados, intubados y lactantes}}.",
+      "extra": "Una subida de 1 a 2% de la osmolaridad ya desencadena sed y ADH.",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Por qué sube el sodio?",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hipernatremia retrae el cerebro y puede desgarrar las {{c1::venas puente}}, con hemorragia subdural o subaracnoidea.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.007",
+        "2.01.1.071"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Déficit de agua libre: DAL = ACT × (Na actual / {{c1::140}} − 1).",
+      "extra": "ACT: 0.6 × peso en hombres, 0.5 × peso en mujeres.",
+      "origen": "clase:2",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El déficit de agua libre se repone en {{c1::48 a 72 horas}}, por vía enteral o con SG 5%.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Velocidad de descenso de la hipernatremia: máximo {{c1::10 a 12 mEq/L}} en 24 horas.",
+      "extra": "Más rápido produce edema cerebral iatrogénico.",
+      "origen": "clase:2",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hipernatremia con shock: primero {{c1::suero fisiológico}} para recuperar la volemia, antes del agua libre.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipernatremia con deshidratación y shock hipovolémico: el primer fluido es {{c1::cristaloide isotónico (suero fisiológico 0.9%)}}.",
+      "extra": "El suero glucosado es hipotónico y no expande el intravascular.",
+      "origen": "clase:2",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Diabetes insípida: poliuria > {{c1::3 a 10 L/día}} de orina diluida (Osm urinaria < 300 mOsm/kg).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Diabetes insípida",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La prueba que distingue DI central de nefrogénica es la {{c1::desmopresina (DDAVP)}} subcutánea o intranasal.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · DDAVP decide",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "DI central: tras DDAVP la osmolaridad urinaria sube más de {{c1::50%}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "DI nefrogénica: tras DDAVP la osmolaridad urinaria {{c1::no cambia}}.",
+      "extra": "El riñón no responde a la ADH.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causas de DI central: {{c1::traumatismo craneoencefálico, cirugía selar, hipofisitis}} o idiopática.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · DDAVP decide",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño operado de cirugía o tumor cerebral con hipernatremia y poliuria diluida: {{c1::diabetes insípida central}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Pregunta real",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 124",
+        "EUNACOM Diciembre 2022 · Pregunta 155"
+      ],
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de la DI central: {{c1::desmopresina}} (DDAVP) oral o intranasal.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla poliuria",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Causa farmacológica emblemática de DI nefrogénica en EUNACOM: {{c1::carbonato de litio}}.",
+      "extra": "Otras: hipercalcemia severa e hipokalemia crónica.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 125"
+      ],
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El litio causa DI nefrogénica porque {{c1::bloquea las acuaporinas-2}} del túbulo colector.",
+      "extra": "Entra a la célula por el canal ENaC.",
+      "origen": "clase:4",
+      "fuente": "Clase · Litio",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "DI nefrogénica por litio: suspender litio si es posible e indicar {{c1::hidroclorotiazida + amilorida}}.",
+      "extra": "La tiazida causa hipovolemia leve y más reabsorción proximal de agua.",
+      "origen": "clase:4",
+      "fuente": "Clase · Litio",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Amilorida en DI por litio: bloquea el canal {{c1::ENaC}}, de modo que el litio no entra a la célula.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Litio",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Polidipsia psicógena: osmolaridad urinaria < {{c1::100 mOsm/kg}}, que se concentra al privar de agua.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Poliuria diferencial",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 105"
+      ],
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con hipernatremia ya establecida, no se priva de agua: se va directo a la {{c1::prueba con desmopresina}}.",
+      "extra": "Privar de agua da riesgo de shock y deshidratación grave.",
+      "origen": "clase:5",
+      "fuente": "Clase · Poliuria diferencial",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Poliuria + osmolaridad plasmática disminuida que normaliza con el test de la sed: {{c1::polidipsia psicógena}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Pregunta real",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La DI da hipernatremia; el SIADH da {{c1::hiponatremia}}. No confundir poliuria diluida con SIADH.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz DI",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Paciente con litio, diuresis de 12.600 mL/día, deshidratación e hipernatremia: {{c1::DI nefrogénica por litio}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Enero 2023",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño con tumor cerebral operado, Na 154, densidad 1.005 y Osm urinaria 100: {{c1::diabetes insípida}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Dic 2022",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lactante con diarrea, Na 162 y deshidratación moderada: lo más importante del tratamiento es {{c1::corregir lento}} para evitar edema cerebral.",
+      "extra": "El descenso máximo es de 10 a 12 mEq/L en 24 horas.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz lactante",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Hipernatremia con shock: ¿qué fluido primero?",
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1",
+      "pista": "Poliuria hipotónica que responde a DDAVP: ¿qué diagnóstico y tratamiento?",
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.2",
+      "pista": "Poliuria que no responde a DDAVP: ¿qué diagnóstico y manejo?",
+      "codigos": [
+        "1.09.1.007",
+        "1.03.1.015"
+      ]
+    }
+  ]
+}

@@ -1460,7 +1460,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Diagnóstico: **Crisis focal secundariamente generalizado** (opción **B**). Esta clase aborda el manejo del traumatismo encéfalo craneano (TEC), diferenciando entre TEC simple y severo según la presencia de signos de alarma. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh."
+        "explanation": "Desviación de cabeza y mirada conjugada al inicio indican crisis focal que se generaliza secundariamente (tónico-clónica con mordedura lateral de lengua)."
       },
       {
         "type": "bento",
@@ -1991,39 +1991,39 @@
       {
         "type": "question",
         "nav": "Pregunta Real EUNACOM",
-        "badge": "EUNACOM Diciembre 2024 · Pregunta 139",
-        "notes": "[SLIDE 16] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2024 · Pregunta 139.",
+        "badge": "EUNACOM Julio 2013 · Pregunta 136",
+        "notes": "[SLIDE 16] Pregunta oficial del banco EUNACOM: EUNACOM Julio 2013 · Pregunta 136.",
         "number": 5,
-        "caseText": "Mujer con cefalea súbita e intensa + signos meníngeos esbozados, con antecedente de pansinusitis cronica y migraña, al control de signos vitales con PA 170/100 ¿Cual es la conducta inicial mas importante? a.​ TAC de cerebro",
-        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "caseText": "Un paciente de 50 años, sin antecedentes, presenta cefalea de inicio súbito mientras hacía deporte, asociado a dolor en la zona cervical posterior y dorsal. Al examen físico presenta reflejo fotomotor conservado, signos meníngeos presentes, fuerza y sensibilidad disminuidas en hemicuerpo izquierdo.",
+        "question": "El diagnóstico más probable es:",
         "options": [
           {
-            "id": "B",
-            "text": "Control de crisis hipertensiva",
-            "isCorrect": false
+            "id": "A",
+            "text": "Hemorragia subaracnoídea",
+            "isCorrect": true
           },
           {
             "id": "B",
-            "text": "Accidente cerebrovascular",
+            "text": "Hematoma epidural",
             "isCorrect": false
           },
           {
             "id": "C",
-            "text": "Epilepsia",
+            "text": "Hematoma subdural",
             "isCorrect": false
           },
           {
             "id": "D",
-            "text": "Esclerosis múltiple",
+            "text": "Hemorragia cerebral intraparenquimatosa",
             "isCorrect": false
           },
           {
             "id": "E",
-            "text": "Enfermedad de Parkinson",
+            "text": "Accidente vascular isquémico",
             "isCorrect": false
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **** (opción **A**). Tratamiento hemorragia subaracnoidea: manejo igual a AVE hemorrágico + neurocirugía para cerrar aneurisma + nimodipino (previene vasoespasmo) por 3 semanas. De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+        "explanation": "La cefalea de inicio súbito durante el esfuerzo, con dolor cervical y signos meníngeos, es la presentación clásica de una hemorragia subaracnoídea, aunque puede acompañarse de déficit focal. El hematoma intraparenquimatoso causa más déficit focal que signos meníngeos, y los hematomas epidural y subdural suelen tener antecedente de trauma. El estudio de elección es el TAC de cerebro sin contraste."
       },
       {
         "type": "question",
@@ -2060,7 +2060,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "La alternativa correcta es la **D** (Angiografía cerebral). Tiene una angina crónica estable, por lo que se debe estudiar con un test de La.... Esta clase aborda el enfrentamiento general de las cefaleas, enfatizando la identificación de signos de alarma para diferenciar causas graves de benignas. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES)."
+        "explanation": "HSA confirmada en TAC: estudio vascular (angio-TAC o angiografía cerebral) para identificar aneurisma."
       },
       {
         "type": "bento",
@@ -3254,7 +3254,7 @@
           },
           {
             "id": "B",
-            "text": "Amitrip2lina",
+            "text": "Amitriptilina",
             "isCorrect": false
           },
           {
@@ -5335,7 +5335,7 @@
           },
           {
             "id": "B",
-            "text": "Disminuir la dosis de carbonato de li2o",
+            "text": "Disminuir la dosis de carbonato de litio",
             "isCorrect": false
           },
           {
@@ -5725,7 +5725,7 @@
           },
           {
             "id": "B",
-            "text": "Disminuir la dosis de carbonato de li2o",
+            "text": "Disminuir la dosis de carbonato de litio",
             "isCorrect": false
           },
           {
@@ -6155,39 +6155,39 @@
       {
         "type": "question",
         "nav": "Pregunta Real EUNACOM",
-        "badge": "EUNACOM Diciembre 2024 · Pregunta 147",
-        "notes": "[SLIDE 12] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2024 · Pregunta 147.",
+        "badge": "EUNACOM Julio 2016 · Pregunta 161",
+        "notes": "[SLIDE 12] Pregunta oficial del banco EUNACOM: EUNACOM Julio 2016 · Pregunta 161.",
         "number": 4,
-        "caseText": "Adulto mayor con temblor al escribir, un temblor esencial ¿Con que se trata? a.​ Propanolol",
-        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "caseText": "Paciente masculino, de 71 años de edad, con un cuadro de 2 años de evolución de temblor de ambas extremidades superiores, lo cual le sucede al escribir, tomar un objeto, o al usar cubiertos. Toma alprazolam 0,5 mg/dl, dos veces por día por cuadro ansioso. Al examen físico no tiene temblor de reposo y se observan reflejos osteotendíneos conservados, con tono muscular y sensibilidad normal. El temblor se acentúa al tratar de tomar un objeto.",
+        "question": "El diagnóstico más probable es:",
         "options": [
           {
             "id": "A",
-            "text": "Accidente cerebrovascular",
-            "isCorrect": true
+            "text": "Hipertiroidismo",
+            "isCorrect": false
           },
           {
             "id": "B",
-            "text": "Epilepsia",
-            "isCorrect": false
-          },
-          {
-            "id": "C",
-            "text": "Esclerosis múltiple",
-            "isCorrect": false
-          },
-          {
-            "id": "D",
             "text": "Enfermedad de Parkinson",
             "isCorrect": false
           },
           {
+            "id": "C",
+            "text": "Temblor esencial",
+            "isCorrect": true
+          },
+          {
+            "id": "D",
+            "text": "Temblor por ansiedad",
+            "isCorrect": false
+          },
+          {
             "id": "E",
-            "text": "Migraña",
+            "text": "Temblor por medicamentos",
             "isCorrect": false
           }
         ],
-        "explanation": "La alternativa correcta es la **A** (Accidente cerebrovascular). Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh. Las opciones alternativas (Epilepsia, Esclerosis múltiple) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente."
+        "explanation": "Es el cuadro típico del temblor esencial: temblor bilateral que aumenta al adoptar una postura y disminuye con el alcohol y las BDZ (benzodiacepinas)."
       },
       {
         "type": "bento",
@@ -10223,39 +10223,39 @@
       {
         "type": "question",
         "nav": "Pregunta Real EUNACOM",
-        "badge": "EUNACOM Diciembre 2024 · Pregunta 64",
-        "notes": "[SLIDE 16] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2024 · Pregunta 64.",
+        "badge": "EUNACOM Julio 2013 · Pregunta 68",
+        "notes": "[SLIDE 16] Pregunta oficial del banco EUNACOM: EUNACOM Julio 2013 · Pregunta 68.",
         "number": 5,
-        "caseText": "Persona hospitalizada operada hace unos días clinica sugiere: a.​ Delirium",
-        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "caseText": "Un paciente de 80 años, autovalente, inicia cuadro de compromiso del estado general, tos y expectoración mucopurulenta, se realiza radiografía de tórax en donde se comprueba diagnóstico de neumonía basal derecha por lo que se hospitaliza para el tratamiento. Durante la hospitalización en la noche el paciente se agita, se saca sonda foley y vías venosas, durante la mañana está tranquilo.",
+        "question": "El diagnóstico más probable es:",
         "options": [
           {
             "id": "A",
-            "text": "Ninguna de las anteriores es correcta",
+            "text": "Síndrome confusional agudo",
             "isCorrect": true
           },
           {
             "id": "B",
-            "text": "Todas las anteriores son correctas",
+            "text": "Delirio",
             "isCorrect": false
           },
           {
             "id": "C",
-            "text": "No se dispone de información suficiente",
+            "text": "Alzheimer",
             "isCorrect": false
           },
           {
             "id": "D",
-            "text": "Otra alternativa no descrita",
+            "text": "Meningitis bacteriana",
             "isCorrect": false
           },
           {
             "id": "E",
-            "text": "Otra alternativa no descrita",
+            "text": "Demencia frontotemporal",
             "isCorrect": false
           }
         ],
-        "explanation": "La alternativa correcta es la **A** (Ninguna de las anteriores es correcta). Esta clase cubre la púrpura de Schonlein-Henoch, también llamada vasculitis por IgA. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES)."
+        "explanation": "De libro. También se llama delirium. Si bien delirio es la traducción al español de la palabra en latín \"delirium\", en Chile se suele usar \"delirio\" para la pérdida de juicio de realidad de los pacientes psicóticos (delirio paranoide, megalomaniaco, erotomaniaco, etc) y delirium para el síndrome confusional agudo."
       },
       {
         "type": "question",
@@ -10292,7 +10292,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Diagnóstico: **Delirium** (opción **C**). Delirium. Esta clase cubre la púrpura de Schonlein-Henoch, también llamada vasculitis por IgA. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh."
+        "explanation": "Delirium: inicio agudo, inatención, desorientación y fluctuación en adulto mayor hospitalizado por infección."
       },
       {
         "type": "bento",

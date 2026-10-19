@@ -1,0 +1,369 @@
+{
+  "classId": "neuro-05",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Seno más afectado en TVC: sagital superior ({{c1::60 %}}); transverso/sigmoideo 40 %.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.1.019"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "TVC: más de {{c1::75–80 %}} son mujeres de 20 a 45 años.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Factores de riesgo",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Factores más preguntados de TVC: anticonceptivos orales, embarazo y {{c1::puerperio}}.",
+      "extra": "Máximo riesgo en las 6 semanas posparto.",
+      "origen": "clase:2",
+      "fuente": "Clase · Factores de riesgo",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 1",
+        "EUNACOM Diciembre 2017 · Pregunta 55"
+      ],
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trombofilias asociadas a TVC: factor V Leiden, mutación de la protrombina, déficit de proteína C/S/antitrombina y {{c1::SAF}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Factores de riesgo",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síntoma cardinal de TVC: cefalea ({{c1::> 90 %}}) progresiva, rebelde a analgésicos, peor en decúbito.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 55"
+      ],
+      "codigos": [
+        "1.10.2.007",
+        "1.10.1.019"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La TVC cursa con crisis convulsivas en {{c1::35–40 %}}, mucho más que el infarto arterial.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Clínica",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 1"
+      ],
+      "codigos": [
+        "1.10.2.007",
+        "1.10.1.019"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cefalea progresiva con vómitos matinales y papiledema configura un síndrome de {{c1::hipertensión endocraneana}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "EUNACOM Diciembre 2025 · Pregunta 169",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 169"
+      ],
+      "imagen": "biblioteca/09_neurologia/neuro-05/02_papiledema__cto-oftalmo_p88.jpg",
+      "codigos": [
+        "1.10.1.019"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trombosis del seno cavernoso: oftalmoplejia dolorosa (pares III, IV y VI), quemosis y {{c1::proptosis}}.",
+      "extra": "Parestesias en V1 y V2.",
+      "origen": "clase:4",
+      "fuente": "Clase · Seno cavernoso",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.1.019"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El TAC sin contraste es normal en {{c1::25–30 %}} de las TVC.",
+      "extra": "Un TAC normal no la descarta.",
+      "origen": "clase:5",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signo de la cuerda: trombo {{c1::hiperdenso}} en una vena cortical o seno, en TAC sin contraste.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.1.019"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signo del delta vacío: en el tercio {{c1::posterior}} del seno sagital superior, con TAC contrastado.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": true,
+      "imagen": "biblioteca/09_neurologia/neuro-05/01_trombosis-de-seno-signo-delta_alt1__cto-radiologia_p64.jpg",
+      "codigos": [
+        "1.10.2.007",
+        "1.10.1.019"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Examen de elección en TVC: {{c1::Angio-RM venosa}} (o AngioTAC en fase venosa).",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.1.019"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de TVC: enoxaparina {{c1::1 mg/kg cada 12 horas}} SC, dosis plena inmediata.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.1.019"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "TVC con infarto hemorrágico: se {{c1::anticoagula igual}}; suspender la heparina por la sangre es un grave error.",
+      "extra": "La sangre viene de la hipertensión venosa retrógrada.",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.019",
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En TVC se usa HNF en vez de HBPM si hay cirugía urgente o ClCr < {{c1::30 mL/min}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.1.019"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Anticoagulación oral de mantención en TVC: acenocumarol o warfarina con INR {{c1::2 a 3}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.1.019"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Duración de anticoagulación en TVC por factor transitorio (ACO, embarazo, puerperio): {{c1::3 a 6 meses}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.1.019"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "HTEC refractaria en TVC: acetazolamida, punción evacuadora o {{c1::craniectomía descompresiva}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.1.019"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Heparina no fraccionada se controla con {{c1::TTPA}}; la HBPM no necesita control rutinario.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro · pregunta oficial",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cefalea progresiva con vómitos matinales y convulsión en usuaria de ACO: {{c1::trombosis venosa cerebral}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "EUNACOM Diciembre 2019 · Pregunta 1",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 1"
+      ],
+      "codigos": [
+        "1.10.2.007",
+        "1.10.1.019"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES: sospecha de TVC se deriva de inmediato a {{c1::neurología y UPC}} para angio-RM/AngioTAC y anticoagulante parenteral.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · GES",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.1.019"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-05/03_tc_venografia_seno_sagital__ctmri_p100.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Defecto de relleno del seno sagital en venografía",
+      "clave": "Falta de contraste en el seno trombosado",
+      "conducta": "Enoxaparina 1 mg/kg c/12 h SC inmediata, aunque haya infarto hemorrágico",
+      "fuente": "CT & MRI Pathology: A Pocket Atlas, p. 100",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.1.019"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-05/01_trombosis-de-seno-signo-delta_alt1__cto-radiologia_p64.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Signo del delta vacío (trombosis del seno sagital superior)",
+      "clave": "Triángulo hipodenso central rodeado por paredes del seno que captan contraste",
+      "conducta": "Confirmar con angio-RM venosa y anticoagular",
+      "fuente": "Manual CTO Radiología 14.ª ed., p. 64",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.1.019"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "TVC sospechada: ¿qué examen confirma?",
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0.1",
+      "pista": "TVC confirmada, incluso con infarto hemorrágico: ¿tratamiento?",
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0.0.1.0",
+      "pista": "Después de la heparina: ¿qué y por cuánto?",
+      "codigos": [
+        "1.10.2.007"
+      ]
+    }
+  ]
+}

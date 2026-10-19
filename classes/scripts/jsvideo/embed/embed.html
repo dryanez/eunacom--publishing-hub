@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AEE · Clase</title>
+<!-- Reproductor embebible de clases AEE (prueba local). Uso: embed.html?c=gastro-10&t=272
+     En producción: misma página en eunacom-examen.cl/embed/clase/<id>?t=…, con login y videos desde R2. -->
+<style>
+  html,body{margin:0;background:#0E1116;color:#E8ECF1;font:14px/1.4 -apple-system,Inter,system-ui,sans-serif;height:100%}
+  .wrap{display:flex;flex-direction:column;height:100%}
+  header{display:flex;align-items:center;gap:10px;padding:8px 12px;border-bottom:1px solid #222a35}
+  .logo{font-weight:700;letter-spacing:.06em;color:#2FD3C7;border:1px solid #2FD3C7;border-radius:4px;padding:1px 6px;font-size:12px}
+  .t{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#B8C2CF}
+  .user{font-size:12px;color:#8A96A6}
+  video{width:100%;flex:1;min-height:0;background:#000}
+  .bar{display:flex;gap:8px;padding:8px 12px;flex-wrap:wrap}
+  .bar button{background:#1A212B;color:#E8ECF1;border:1px solid #2B3644;border-radius:6px;padding:5px 10px;font-size:12px;cursor:pointer}
+  .gate{display:none;flex:1;align-items:center;justify-content:center;flex-direction:column;gap:10px;text-align:center;padding:20px}
+  .gate a{background:#2FD3C7;color:#0E1116;font-weight:600;padding:8px 14px;border-radius:6px;text-decoration:none}
+</style></head>
+<body><div class="wrap">
+  <header><span class="logo">AEE</span><span class="t" id="title">Clase</span><span class="user" id="user">Invitado (prueba)</span></header>
+  <video id="v" controls playsinline preload="metadata"></video>
+  <div class="gate" id="gate"><div>Esta clase es para suscriptores AEE.</div><a href="https://eunacom-examen.cl/?utm_source=anki_embed" target="_blank">Iniciar sesión</a></div>
+  <div class="bar"><button id="back">⟲ −10 s</button><button id="seg">▶ Desde el punto de la tarjeta</button><button id="full">⛶ Pantalla completa</button></div>
+</div>
+<script>
+  const q = new URLSearchParams(location.search), c = q.get('c') || 'gastro-10';
+  const t = parseFloat(q.get('t') || '0'), mm = s => Math.floor(s / 60) + ':' + String(Math.floor(s % 60)).padStart(2, '0');
+  const v = document.getElementById('v');
+  // Prueba local: el MP4 sale de out/<clase>/. En producción: URL firmada de R2 tras verificar la sesión.
+  const SRC = q.get('src') || `../out/${c}/${c}_clase.mp4`;
+  document.getElementById('title').textContent = `${c} · desde ${mm(t)}`;
+  v.src = SRC + '#t=' + t;
+  let jumped = false; const jump = () => { if (!jumped && v.readyState >= 1) { jumped = true; v.currentTime = t; } };
+  ['loadedmetadata', 'canplay'].forEach(e => v.addEventListener(e, jump)); jump();
+  v.addEventListener('error', () => { v.style.display = 'none'; document.getElementById('gate').style.display = 'flex'; });
+  document.getElementById('back').onclick = () => { v.currentTime = Math.max(0, v.currentTime - 10); };
+  document.getElementById('seg').onclick = () => { v.currentTime = t; v.play(); };
+  document.getElementById('full').onclick = () => (v.requestFullscreen || v.webkitEnterFullscreen || (() => {})).call(v);
+</script></body></html>

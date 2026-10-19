@@ -14,7 +14,7 @@ const path = require('path');
 const { execSync } = require('child_process');
 const puppeteer = require('puppeteer');
 
-const CHROME_PATH = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+const CHROME_PATH = process.env.CHROME_PATH || 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
 const DIST_DIR = path.join(__dirname, '..', 'dist');
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const ASSETS_DIR = path.join(__dirname, '..', 'assets');
@@ -39,7 +39,7 @@ if (fs.existsSync(FULL_CURRICULUM_FILE)) {
 
 // Cargar Nuevo Logo AEE en SVG
 let aeeLogoSvg = '';
-const newLogoPath = path.join(ASSETS_DIR, 'aee_logo_new.svg');
+const newLogoPath = path.join(ASSETS_DIR, 'aee-logo-7a-dark.svg');
 if (fs.existsSync(newLogoPath)) {
   aeeLogoSvg = fs.readFileSync(newLogoPath, 'utf8');
 }
@@ -303,7 +303,7 @@ async function renderCoverAndTOC(allQuestionsBySpec) {
     .cover-top {
       display: flex; justify-content: space-between; align-items: center; z-index: 4;
     }
-    .cover-logo-svg svg { width: 250px; height: auto; display: block; }
+    .cover-logo-svg svg { height: 108px; width: auto; display: block; margin-left: -40px; }
     .cover-edition {
       font-family: 'IBM Plex Mono', monospace; font-size: 9pt; font-weight: 700;
       letter-spacing: 0.15em; color: #f43f5e;
@@ -625,7 +625,7 @@ async function main() {
   // 2. Clasificar preguntas en especialidades
   const allQuestionsBySpec = {};
   for (const [code, qList] of Object.entries(bank)) {
-    qList.forEach(q => {
+    qList.filter(q => !(q.audit && q.audit.excluir)).forEach(q => {   // audit del banco: excluidas no
       q.code = code;
       const pfx = code.split('.').slice(0, 2).join('.');
       let specKey = 'saludpublica';
@@ -731,7 +731,7 @@ print("Merge de Reconstrucciones finalizado exitosamente.")
   const pyScriptPath = path.join(__dirname, 'temp_merge_rec.py');
   fs.writeFileSync(pyScriptPath, mergeScript, 'utf8');
 
-  execSync(`python "${pyScriptPath}"`, { stdio: 'inherit' });
+  execSync(`${process.env.PYTHON || (process.platform === 'win32' ? 'python' : 'python3')} "${pyScriptPath}"`, { stdio: 'inherit' });
   if (fs.existsSync(pyScriptPath)) fs.unlinkSync(pyScriptPath);
 
   // Limpiar temporales de módulos

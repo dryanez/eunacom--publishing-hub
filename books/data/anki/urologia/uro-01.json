@@ -1,0 +1,643 @@
+{
+ "classId": "uro-01",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El dolor del cólico renal se debe a la distensión de la {{c1::cápsula renal y pelvis}} mediada por prostaglandinas, no al raspado del cálculo.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El cálculo se enclava en los estrechamientos del uréter: unión pieloureteral, cruce de vasos {{c1::ilíacos}} y unión ureterovesical.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El cólico renal cursa con dolor paroxístico irradiado a genitales, náuseas, vómitos e {{c1::inquietud}} sin posición antiálgica.",
+   "extra": "Microhematuria y puñopercusión positiva.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clínica",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 56"
+   ],
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el adulto mayor con sospecha de cólico renal se descarta un {{c1::aneurisma de aorta}} roto.",
+   "extra": "El TAC también ve apendicitis y diverticulitis.",
+   "origen": "clase:2",
+   "fuente": "Clase · Diferencial",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 48"
+   ],
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El examen de elección del cólico renal es el {{c1::Pielotac}} (TAC de abdomen y pelvis sin contraste).",
+   "extra": "Sensibilidad y especificidad > 98%.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Imagen",
+   "repaso": true,
+   "imagen": "biblioteca/19_urologia/uro-01/02_tac-sin-contraste-calculos-renales__bailey-love_p1410.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 33",
+    "EUNACOM Julio 2019 · Pregunta 20",
+    "EUNACOM Julio 2015 · Pregunta 50",
+    "EUNACOM Julio 2013 · Pregunta 129",
+    "EUNACOM Julio 2025 · Pregunta 90"
+   ],
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El Pielotac detecta cálculos de cualquier composición, incluso los de {{c1::ácido úrico}}, radiolúcidos en la radiografía.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Imagen",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El UroTAC se usa para estudiar hematuria, no el cólico; en el cólico se pide {{c1::pielotac}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Pielotac",
+   "repaso": true,
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La ecografía renal se reserva para {{c1::embarazadas, niños}} o centros sin tomógrafo.",
+   "extra": "Muestra bien la hidronefrosis.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Imagen",
+   "repaso": false,
+   "imagen": "biblioteca/19_urologia/uro-01/03_ecografia-hidronefrosis__bailey-love_p1433.jpg",
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Primera línea del cólico renal: AINE EV, {{c1::ketorolaco 30 mg}} o ketoprofeno {{c2::100 mg}}.",
+   "extra": "No se difiere la analgesia a la espera del TAC.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Analgesia",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 56"
+   ],
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los AINE actúan sobre el mecanismo: inhiben la COX intrarrenal y abolen el {{c1::espasmo ureteral}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Analgesia",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los {{c1::opioides}} (tramadol, morfina) son segunda línea: dolor refractario o AINE contraindicados.",
+   "extra": "Empeoran náuseas e íleo.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Analgesia",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el cólico agudo no se indican {{c1::diuréticos ni sobrehidratación rápida}}: aumentan la presión intraluminal.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": true,
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cálculo < {{c1::5 mm}}: expulsión espontánea en 80-90% en 2 a 4 semanas.",
+   "extra": "Colador de tela, agua y analgésicos.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Conducta",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Cálculo de {{c1::5 a 10 mm}}: terapia médica expulsiva con tamsulosina {{c2::0.4 mg/día}}.",
+   "extra": "Relaja el músculo liso del uréter distal.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Conducta",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cálculo > {{c1::10 mm}} rara vez sale solo: LEOC o ureteroscopía.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Conducta",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La {{c1::LEOC}} se usa en litiasis renal o ureteral proximal; la {{c2::ureteroscopía}} con láser, en uréter medio y distal.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Conducta",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 150",
+    "EUNACOM Diciembre 2024 · Pregunta 91"
+   ],
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El cálculo coraliforme o mayor de 20 mm se resuelve con {{c1::nefrolitotomía percutánea}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Tamaño",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cólico con fiebre o sepsis (pionefrosis), monorreno, anuria o dolor refractario: {{c1::descompresión urgente}} de la vía urinaria.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Banderas rojas",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La descompresión urgente es con catéter {{c1::Doble J}} o nefrostomía percutánea; el cálculo se trata después.",
+   "extra": "Cólico con fiebre e hidroureteronefrosis.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Banderas rojas",
+   "repaso": true,
+   "imagen": "biblioteca/19_urologia/uro-01/04_nefrostomia-percutanea__kumar-clark_p185.jpg",
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 27",
+    "EUNACOM Enero 2023 · Pregunta 100",
+    "EUNACOM Agosto 2021 · Pregunta 100"
+   ],
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el monorreno con obstrucción por cálculo la urgencia es el catéter {{c1::Doble J}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Banderas rojas",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 158"
+   ],
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Cólico con fiebre: el error es {{c1::solo antibiótico oral}}; se drena la vía.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La medida preventiva más costo-efectiva es una ingesta de agua > {{c1::2.5-3.0 litros}} diarios, con orina > 2 L/día.",
+   "extra": "Útil aun con estudio metabólico normal.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Prevención",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 170",
+    "EUNACOM Agosto 2021 · Pregunta 64"
+   ],
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Hipercalciuria idiopática: {{c1::hidroclorotiazida}}; hipocitraturia o ácido úrico: {{c2::citrato de potasio}}.",
+   "extra": "La furosemida es calciúrica.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Prevención",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El cálculo más frecuente es el de {{c1::oxalato de calcio}} (75-80%), radiopaco.",
+   "extra": "Hidratación, dieta baja en sodio y proteína animal, tiazida.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla cálculos",
+   "repaso": false,
+   "codigos": [
+    "1.03.4.011"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los cálculos de {{c1::ácido úrico}} son radiolúcidos, con orina ácida; se tratan con citrato de potasio y alopurinol.",
+   "extra": "Se asocian a gota.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla cálculos",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cálculo de estruvita: {{c1::5-8%}}, coraliforme, orina muy alcalina (> 7.2).",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla cálculos",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La estruvita se asocia a bacterias productoras de ureasa como {{c1::Proteus}}.",
+   "extra": "Clave publicada errónea (Campylobacter) en Dic 2022 P11.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla cálculos",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 126",
+    "EUNACOM Enero 2023 · Pregunta 101",
+    "EUNACOM Diciembre 2022 · Pregunta 11"
+   ],
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La cistina (1-2%) se asocia a {{c1::cistinuria}} congénita y exige hidratación > 4 L/día.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla cálculos",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El fosfato de calcio (5-10%) en orina alcalina obliga a descartar {{c1::hiperparatiroidismo}} y acidosis tubular distal.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla cálculos",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La radiografía simple solo muestra cálculos {{c1::radiopacos}}; su sensibilidad es de 50-60% y no reemplaza al TAC.",
+   "extra": "Sirve para el seguimiento de un cálculo visible.",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Radiografía",
+   "repaso": false,
+   "imagen": "biblioteca/19_urologia/uro-01/01_rx-simple-calculo-renal__bailey-love_p1409.jpg",
+   "codigos": [
+    "1.09.4.004",
+    "4.03.4.001"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La urografía excretora está reemplazada por el Uro-TAC y se evita con alergia al yodo, insuficiencia renal o {{c1::embarazo}}.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Urografía",
+   "repaso": false,
+   "codigos": [
+    "4.03.4.002"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hipercalciuria: calciuria de 24 h > {{c1::250 mg}} en la mujer o > {{c2::300 mg}} en el varón.",
+   "extra": "Se mide 4 a 6 semanas tras el episodio.",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Calciuria",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 49"
+   ],
+   "codigos": [
+    "1.03.4.011"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la hipercalciuria idiopática se indica dieta {{c1::normocálcica}}, baja en sodio y proteína animal, más tiazidas.",
+   "extra": "No se restringe el calcio.",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Calciuria",
+   "repaso": false,
+   "codigos": [
+    "1.03.4.011"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El estudio metabólico completo se pide en litiasis recurrente, monorreno, niños o cálculos bilaterales; en un primer cólico basta {{c1::hidratación}}.",
+   "extra": "",
+   "origen": "clase:26",
+   "fuente": "Clase · Estudio metabólico",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El catéter Doble J no debe quedar olvidado: se recambia o retira en semanas a meses por riesgo de {{c1::incrustación e infección}}.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Doble J",
+   "repaso": false,
+   "codigos": [
+    "1.09.5.003"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cálculo distal de 4 mm sin expulsión tras 4 semanas y mayor dilatación: {{c1::ureteroscopía}}.",
+   "extra": "",
+   "origen": "clase:16",
+   "fuente": "Clase · Quiz Jul 2024",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 150"
+   ],
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-01/02_tac-sin-contraste-calculos-renales__bailey-love_p1410.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Cálculos renales en TAC sin contraste",
+   "clave": "Puntos blancos en cada riñón",
+   "conducta": "Cólico: AINE EV y pielotac; < 5 mm observar, 5-10 mm tamsulosina, > 10 mm LEOC o ureteroscopía",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 75.21a",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 33"
+   ],
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-01/04_nefrostomia-percutanea__kumar-clark_p185.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Nefrostomía percutánea",
+   "clave": "Riñón dilatado y guía hacia la pelvis renal",
+   "conducta": "Obstrucción con fiebre, monorreno o anuria: descompresión urgente con Doble J o nefrostomía",
+   "fuente": "Kumar & Clark, Clinical Medicine, Fig. 8.74",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 27"
+   ],
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-01/03_ecografia-hidronefrosis__bailey-love_p1433.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Hidronefrosis en ecografía",
+   "clave": "Pelvis renal dilatada",
+   "conducta": "La ecografía muestra la hidronefrosis; en embarazadas y niños es el estudio de elección",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 76.15",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Cólico con fiebre, monorreno o anuria: ¿conducta?",
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "Cálculo < 5 mm: ¿manejo?",
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.1",
+   "pista": "Cálculo de 5 a 10 mm: ¿tratamiento?",
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.2",
+   "pista": "Cálculo > 10 mm: ¿resolución?",
+   "codigos": [
+    "4.03.2.001",
+    "1.09.2.001"
+   ]
+  }
+ ]
+}

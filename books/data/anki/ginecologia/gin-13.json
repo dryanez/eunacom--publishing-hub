@@ -1,0 +1,534 @@
+{
+  "classId": "gin-13",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El cáncer cervicouterino está cubierto por el {{c1::GES N° 3}} (tamizaje, diagnóstico, tratamiento y seguimiento).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.013"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cáncer cervicouterino se debe a infección persistente por genotipos oncogénicos del {{c1::VPH}}, sobre todo 16 y 18.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.013"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "VPH 16 se asocia al carcinoma epidermoide; el VPH 18 al {{c1::adenocarcinoma endocervical}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 VPH",
+      "codigos": [
+        "3.01.1.013"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La oncoproteína E6 degrada a {{c1::p53}}; la E7 inactiva a {{c2::pRb}}.",
+      "extra": "Bloquean la apoptosis y generan inestabilidad genómica.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.013"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La vacuna nonavalente contra VPH es gratuita en escolares de {{c1::4.º y 5.º básico}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Tamizaje",
+      "codigos": [
+        "3.01.1.013"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "Tamizaje GES: PAP cada {{c1::3 años}} en mujeres de 25 a 64 años.",
+      "extra": "Tras dos exámenes anuales consecutivos negativos.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.013",
+        "3.01.3.013"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Test de ADN-VPH como tamizaje primario desde los {{c1::30 años}}, cada 5 años si es negativo.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Tamizaje",
+      "codigos": [
+        "3.01.3.013"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "ASC-US significa células escamosas atípicas de {{c1::significado indeterminado}}; ASC-H, no se puede descartar lesión de alto grado.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Bethesda",
+      "codigos": [
+        "3.01.1.016"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "LIEBG (L-SIL) equivale a {{c1::NIE I}}; LIEAG (H-SIL) equivale a NIE II y NIE III.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Bethesda",
+      "codigos": [
+        "3.01.1.016"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La LIEBG regresiona sola en más del {{c1::80%}} dentro de 2 años.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Bethesda",
+      "codigos": [
+        "3.01.1.016"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 159"
+      ],
+      "imagen": "biblioteca/13_ginecologia/gin-13/01_colposcopia_lsil_acetoblanco__williams-gyn_p665.jpg"
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "LIEAG (NIE II-III) tiene alto riesgo de {{c1::progresar a cáncer invasor}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Bethesda",
+      "codigos": [
+        "3.01.1.016"
+      ],
+      "repaso": false,
+      "imagen": "biblioteca/13_ginecologia/gin-13/02_colposcopia_hsil__williams-gyn_p665.jpg"
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "PAP con LIEAG, ASC-H o AGC: colposcopía y biopsia en la UPC en menos de {{c1::30 días}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Derivación",
+      "codigos": [
+        "3.01.1.016"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 21",
+        "EUNACOM Agosto 2021 · Pregunta 51"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante LIEAG, ASC-H o AGC el error es {{c1::repetir el PAP}} para confirmar.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.016"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PAP de alto grado va a colposcopía y biopsia {{c1::sin importar la tipificación de VPH}}.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Dic 2019",
+      "codigos": [
+        "3.01.1.016"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 11"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "ASC-US en mayor de 30 años: se solicita {{c1::test de VPH}}; si es 16 o 18 positivo, colposcopía y biopsia.",
+      "extra": "Error: colposcopía de entrada.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.016"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 91"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "VPH positivo no 16 ni 18 con PAP normal: control en {{c1::6 a 12 meses}}, sin colposcopía inmediata.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Qué hacer con cada resultado",
+      "codigos": [
+        "3.01.1.016",
+        "3.01.3.013"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 172"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "AGC en el PAP: colposcopía con biopsia dirigida y {{c1::legrado endocervical}}.",
+      "extra": "Mayor riesgo de lesión endocervical o endometrial.",
+      "origen": "clase:3",
+      "fuente": "Clase · Bethesda",
+      "codigos": [
+        "3.01.1.016"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 60",
+        "EUNACOM Julio 2025 · Pregunta 59",
+        "EUNACOM Diciembre 2017 · Pregunta 179"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la colposcopía, el ácido acético marca las áreas {{c1::acetoblancas}} y el test de Schiller muestra zonas que no captan lugol.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Colposcopía",
+      "codigos": [
+        "3.01.1.016"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tratamiento de NIE II y NIE III: {{c1::conización}} (LEEP o cono frío) con márgenes libres.",
+      "extra": "Es diagnóstica y curativa.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.016"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 58",
+        "EUNACOM Diciembre 2022 · Pregunta 112",
+        "EUNACOM Diciembre 2024 · Pregunta 12"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "NIE II o NIE III: el error es la {{c1::histerectomía de entrada}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.016"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si hay disociación colpocitológica (PAP NIE III y colposcopía normal) se hace {{c1::cono frío}}, porque el LEEP quema la muestra.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.016"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 157"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primer síntoma del cáncer invasor: {{c1::sinusorragia}} (sangrado postcoital indoloro).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.013"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Leucorrea del cáncer cervical avanzado: serohemática y fétida, {{c1::en agua de lavar carne}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Cáncer invasor",
+      "codigos": [
+        "3.01.1.013"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lesión exofítica friable o ulcerada visible en el cuello: se hace {{c1::biopsia}} (colposcopía y biopsia dirigida), no PAP.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz caso clínico",
+      "codigos": [
+        "3.01.1.013"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 177",
+        "EUNACOM Diciembre 2022 · Pregunta 33",
+        "EUNACOM Enero 2023 · Pregunta 57"
+      ],
+      "imagen": "biblioteca/13_ginecologia/gin-13/04_cancer-cervicouterino-invasor__knoop_p276.jpg"
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "FIGO IIB: invasión de {{c1::parametrios}} sin llegar a la pared pélvica; es el punto de inflexión terapéutico.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 FIGO",
+      "codigos": [
+        "3.01.1.013"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estadios sin invasión de parametrios (IA, IB1, IB2, IIA1): histerectomía radical con linfadenectomía de {{c1::Wertheim-Meigs}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.013"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estadio IIB o mayor: cirugía contraindicada; tratamiento con {{c1::quimiorradioterapia con cisplatino}} y braquiterapia.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.013"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Estadio IIB o mayor: el error es la {{c1::cirugía radical}}, porque no logra bordes libres.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.013"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Toma de PAP: exocérvix con {{c1::espátula de Ayre}} y endocérvix con cepillo.",
+      "extra": "Cuello visualizado con espéculo sin lubricante.",
+      "origen": "clase:5",
+      "fuente": "Clase · Toma de PAP",
+      "codigos": [
+        "3.01.4.007",
+        "3.01.5.014"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 135"
+      ],
+      "imagen": "biblioteca/13_ginecologia/gin-13/05_toma-papanicolau__blausen.png"
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Preparación para el PAP: fuera de la regla y sin relaciones, duchas ni óvulos en las {{c1::48 horas}} previas.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Toma de PAP",
+      "codigos": [
+        "3.01.4.007",
+        "3.01.5.014"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El frotis del PAP se extiende en un solo movimiento y se {{c1::fija de inmediato}} (spray o alcohol 95%).",
+      "extra": "Evita la desecación.",
+      "origen": "clase:5",
+      "fuente": "Clase · Toma de PAP",
+      "codigos": [
+        "3.01.5.014"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Muestra de PAP insatisfactoria por sangre abundante: se {{c1::repite fuera de la menstruación}}.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz Perfil V3",
+      "codigos": [
+        "3.01.4.007"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hemorragia masiva por cáncer cervical que no cede con ácido tranexámico: {{c1::taponaje vaginal}}.",
+      "extra": "Se coloca sonda Foley y se retira a las 24-48 horas.",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz Perfil V3",
+      "codigos": [
+        "3.01.5.013"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 38"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-13/04_cancer-cervicouterino-invasor__knoop_p276.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Cáncer cervicouterino invasor",
+      "clave": "Tumor exofítico, ulcerado y friable que reemplaza el exocérvix",
+      "conducta": "Colposcopía y biopsia dirigida; etapificar y definir cirugía o quimiorradioterapia según parametrios",
+      "fuente": "The Atlas of Emergency Medicine (Knoop), p. 276",
+      "codigos": [
+        "3.01.1.013"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-13/02_colposcopia_hsil__williams-gyn_p665.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Lesión intraepitelial de alto grado (NIE II-III)",
+      "clave": "Lesión blanca opaca con vasos atípicos en la colposcopía",
+      "conducta": "Derivar a la UPC en menos de 30 días; conización con márgenes libres",
+      "fuente": "Williams Gynecology 4.ª ed., Fig. 29-13",
+      "codigos": [
+        "3.01.1.016"
+      ],
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "ASC-US con VPH no 16/18: ¿qué se hace?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "VPH 16 o 18 positivo: ¿qué conducta?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.0",
+      "pista": "Biopsia con NIE II o III: ¿tratamiento?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.1.1.1",
+      "pista": "Cáncer que invade el parametrio: ¿cirugía o qué?"
+    }
+  ]
+}

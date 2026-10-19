@@ -1,0 +1,483 @@
+{
+  "classId": "derma-14",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cáncer cutáneo más frecuente es el carcinoma {{c1::basocelular}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.003"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El CBC deriva de células pluripotenciales de la capa {{c1::basal}} de la epidermis.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 CBC",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.003"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lesión clásica del CBC: pápula {{c1::perlada}} con telangiectasias y borde arrollado.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 63"
+      ],
+      "codigos": [
+        "6.01.1.003"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La ulceración central del CBC se llama úlcera de {{c1::Rodent}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Pápula perlada",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 88"
+      ],
+      "codigos": [
+        "6.01.1.003"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Subtipo de CBC más común: {{c1::nódulo-ulcerativo}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Subtipos",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.003"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El CBC {{c1::superficial}} es una placa eritematosa descamativa en tronco que imita eccema o psoriasis.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Formas clínicas",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El CBC más agresivo localmente es el {{c1::morfeiforme (esclerosante)}}: placa amarillenta tipo cicatriz.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Subtipos",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.003"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Riesgo de metástasis del CBC: menos de {{c1::0.01%}}.",
+      "extra": "Pero destruye cartílago, hueso y órbita si no se trata.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla CBC vs CEC",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.003"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El CEC representa el {{c1::15 - 20%}} de los cánceres de piel no melanoma.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla CBC vs CEC",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.003"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Precursor obligado más común del CEC: la {{c1::queratosis actínica}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 CEC",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 84"
+      ],
+      "codigos": [
+        "6.01.1.003"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lesión del CEC: placa o nódulo {{c1::queratósico costroso}} indurado, que sangra al roce.",
+      "extra": "Escamosa y ulcerada en fotoexpuesto.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 CEC",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 80"
+      ],
+      "codigos": [
+        "6.01.1.003"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En trasplantados renales el riesgo de CEC es {{c1::65 veces}} mayor.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 CEC",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.003"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Localizaciones de alto riesgo del CEC: {{c1::labio inferior, pabellón auricular}} y cuero cabelludo calvo.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 CEC",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 111"
+      ],
+      "codigos": [
+        "6.01.1.003"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Riesgo de metástasis del CEC: {{c1::2-5%}} en piel y hasta 15-20% en labio y oreja.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 CEC",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.003"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Úlcera o placa costrosa indurada del labio inferior que no cicatriza: sospechar {{c1::carcinoma espinocelular}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Quiz labio",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.003"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lesión palpebral de crecimiento lento en un adulto: pensar en carcinoma {{c1::basocelular}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz párpado",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 63"
+      ],
+      "codigos": [
+        "6.01.1.003"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El médico general en sospecha de cáncer de piel toma {{c1::biopsia}} (punch o incisional) y deriva.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.003"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante una lesión sospechosa sin diagnóstico, el error es {{c1::cauterizar o congelar a ciegas}}: impide el estudio histológico.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Qué hace el médico general",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.003",
+        "6.01.3.001"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tratamiento definitivo del cáncer de piel no melanoma es {{c1::quirúrgico}}, con escisión con márgenes.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.003"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Margen de escisión en CBC de bajo riesgo: cerca de {{c1::4 mm}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.003",
+        "6.01.3.001"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Margen de escisión en CEC de alto riesgo: {{c1::6 a 10 mm}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.003",
+        "6.01.3.001"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La cirugía micrográfica de {{c1::Mohs}} se indica en zona H de la cara, recurrente, morfeiforme, mayor de 2 cm o inmunosuprimidos.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.003",
+        "6.01.3.001"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa no quirúrgica en CBC superficial de bajo riesgo: {{c1::imiquimod 5%}}.",
+      "extra": "También 5-fluorouracilo, crioterapia, terapia fotodinámica.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.003",
+        "6.01.3.001"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En CBC avanzado se usan inhibidores de Hedgehog como el {{c1::vismodegib}}; en CEC avanzado, cemiplimab.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.003",
+        "6.01.3.001"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Seguimiento tras cáncer de piel: control cutáneo completo {{c1::anual}}.",
+      "extra": "Cada 6 meses los 2 primeros años en CEC o alto riesgo.",
+      "origen": "clase:4",
+      "fuente": "Clase · Qué hace el médico general",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.003",
+        "6.01.3.001"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La radiación UV{{c1::B}} causa quemadura solar y cáncer; la UVA, envejecimiento.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Fotoprotección",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.003",
+        "6.01.3.001"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Evitar la exposición solar directa entre las {{c1::10 y las 16 horas}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Fotoprotección",
+      "repaso": true,
+      "codigos": [
+        "6.01.3.001",
+        "6.01.1.003"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Protector solar de amplio espectro con FPS {{c1::30 o más}}, idealmente 50.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Fotoprotección",
+      "repaso": true,
+      "codigos": [
+        "6.01.3.001"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-14/01_cbc-nodular-perlado__cto-derma_p99.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Carcinoma basocelular nodular",
+      "clave": "Nódulo perlado translúcido con telangiectasias y borde arrollado",
+      "conducta": "Biopsia y derivar; escisión con margen de 4-5 mm o Mohs si es facial",
+      "fuente": "Manual CTO Dermatología 14.ª ed., p. 99",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.003"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-14/01_cbc-nodular-perlado_alt1__amir-derma_p76.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "CBC nódulo-ulcerativo (úlcera de Rodent)",
+      "clave": "Úlcera central en pápula perlada de la nariz",
+      "conducta": "No cauterizar a ciegas; biopsia y derivar para cirugía",
+      "fuente": "Manual AMIR Dermatología, p. 76",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.003"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-14/02_cec__cto-derma_p100.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Carcinoma espinocelular",
+      "clave": "Placa/nódulo indurado con escama gruesa adherente, que sangra o se ulcera",
+      "conducta": "Biopsia y derivar con prioridad; escisión con márgenes",
+      "fuente": "Manual CTO Dermatología 14.ª ed., p. 100",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.003"
+      ]
+    },
+    {
+      "id": "i04",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-14/02_cec_alt1__amir-derma_p77.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "CEC del labio inferior",
+      "clave": "Lesión ulcerada e indurada en el labio; localización de alto riesgo",
+      "conducta": "Derivar con prioridad; escisión amplia y evaluación ganglionar",
+      "fuente": "Manual AMIR Dermatología, p. 77",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.003",
+        "6.01.3.001"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Tumor fotoexpuesto: ¿cómo lo clasificas por aspecto?",
+      "codigos": [
+        "6.01.1.003"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0",
+      "pista": "Pápula perlada con telangiectasias: ¿conducta?",
+      "codigos": [
+        "6.01.1.003"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "Placa queratósica en labio u oreja: ¿qué implica?",
+      "codigos": [
+        "6.01.1.003"
+      ]
+    }
+  ]
+}

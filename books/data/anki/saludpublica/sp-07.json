@@ -1,0 +1,446 @@
+{
+  "classId": "sp-07",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::prevalencia}} es la proporción de la población que tiene la enfermedad en un momento dado (una fotografía).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Frecuencia",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.009",
+        "7.01.3.014"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::incidencia acumulada}} es casos nuevos divididos por la población sana en riesgo al inicio, en un período.",
+      "extra": "Corresponde a la «tasa de incidencia» de Enero 2023 · P177.",
+      "origen": "clase:1",
+      "fuente": "Clase · Frecuencia",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.014",
+        "7.01.3.019"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 177",
+        "EUNACOM Enero 2023 · Pregunta 177"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si mejora el tratamiento de una enfermedad crónica y la incidencia se mantiene, la prevalencia {{c1::aumenta}}.",
+      "extra": "Los enfermos viven más.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 / banco",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.014"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 47",
+        "EUNACOM Julio 2016 · Pregunta 74"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "En la tabla 2x2, {{c1::a}} son expuestos enfermos, b expuestos sanos, c no expuestos enfermos y d no expuestos sanos.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tabla 2x2",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.019"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El riesgo relativo (RR) es la razón entre la incidencia en {{c1::expuestos y no expuestos}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.019"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 31"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El RR solo se calcula en estudios de {{c1::cohortes y ensayos clínicos}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.019"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "RR = 1 significa {{c1::ausencia de asociación}}; RR > 1 factor de riesgo; RR < 1 factor protector.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 RR y OR",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.019"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El odds ratio (OR) se calcula con el producto cruzado {{c1::(a · d) / (b · c)}} en casos y controles.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · formulario",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.019"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 46",
+        "EUNACOM Agosto 2021 · Pregunta 7"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La medida que estima la diferencia de riesgo entre expuestos y no expuestos es el {{c1::riesgo atribuible}}.",
+      "extra": "RA = Ie - Io.",
+      "origen": "clase:15",
+      "fuente": "Banco · riesgo atribuible",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.019"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 103"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La reducción relativa del riesgo (RRR) es {{c1::(Rc - Rt) / Rc}}, es decir 1 - RR.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · formulario",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.019"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La reducción absoluta del riesgo (RRA) es {{c1::Rc - Rt}}: riesgo del control menos riesgo del tratado.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · formulario",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.019"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El número necesario a tratar es NNT = {{c1::1 / RRA}} (o 100 / RRA en porcentaje).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · formulario",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.019"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El NNT siempre se redondea {{c1::hacia arriba}} al entero más próximo.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 NNT",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.019"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Incidencia 12% con aspirina y 8% con el nuevo fármaco: RRA = 4% y NNT = {{c1::25}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.019"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Incidencia de ACV 6% con warfarina y 2% con DOAC: RRR = {{c1::66,7%}} y NNT = 25.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro · pregunta banco",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.019"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El número necesario para dañar (NND) es {{c1::1 / (Rt daño - Rc daño)}}; mientras más alto, más seguro.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · NND",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.019"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Para el beneficio real de un tratamiento, el error es quedarse solo con la {{c1::reducción relativa}}; hay que calcular RRA y NNT.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.019"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un IC 95% de RR u OR que incluye el {{c1::1,0}} no es estadísticamente significativo (p ≥ 0,05).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.019"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 35",
+        "EUNACOM Julio 2017 · Pregunta 29"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para la reducción absoluta del riesgo (una diferencia), el valor nulo es {{c1::0}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.019"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una {{c1::endemia}} es la presencia habitual de la enfermedad en un área, con frecuencia estable y variación estacional.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz Julio 2015",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.014"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 98"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Brote: epidemia localizada en el espacio y el tiempo; {{c1::pandemia}}: epidemia que cruza continentes.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Términos clave",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.014"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La letalidad es {{c1::muertes por la enfermedad / enfermos de esa enfermedad × 100}}.",
+      "extra": "Mide gravedad; el error es dividir por la población total.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.009"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 3",
+        "EUNACOM Julio 2024 · Pregunta 137",
+        "EUNACOM Julio 2016 · Pregunta 80",
+        "EUNACOM Julio 2013 · Pregunta 119"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La mortalidad proporcional es muertes por una causa / {{c1::muertes totales}} × 100.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.009"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La mortalidad infantil es muertes de menores de 1 año por {{c1::1.000 nacidos vivos}}; es el indicador clásico del nivel de desarrollo de un país.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.009",
+        "2.01.3.014"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 100",
+        "EUNACOM Diciembre 2024 · Pregunta 51"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La mortalidad neonatal comprende los primeros {{c1::27 días}}; la precoz, de 0 a 6 días; la post-neonatal, de 28 días a 11 meses.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.009"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 3"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Comuna con 2.000 nacidos vivos y 16 defunciones de menores de 1 año: mortalidad infantil de {{c1::8 por 1.000}}.",
+      "extra": "",
+      "origen": "clase:20",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.009"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El mejor indicador de efectividad de una campaña de vacunación contra influenza es la {{c1::tasa de incidencia}}; la cobertura es solo de proceso.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Banco · vacuna influenza",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.009"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 2",
+        "EUNACOM Enero 2023 · Pregunta 2",
+        "EUNACOM Diciembre 2022 · Pregunta 122"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La razón de mortalidad materna usa como denominador los {{c1::nacidos vivos}}, por 100.000.",
+      "extra": "Muerte materna: hasta 42 días tras el término del embarazo.",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.007"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En Chile la mayor parte de la mortalidad infantil es {{c1::neonatal}} (prematurez, malformaciones, afecciones perinatales).",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.012",
+        "2.01.3.014"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "¿Qué medida se calcula en cohorte o ensayo?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1",
+      "pista": "¿Qué medida se calcula en casos y controles?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.2",
+      "pista": "IC cruza el valor nulo: ¿qué concluyes?"
+    }
+  ]
+}

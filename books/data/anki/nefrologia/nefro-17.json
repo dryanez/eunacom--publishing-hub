@@ -1,0 +1,512 @@
+{
+  "classId": "nefro-17",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La nefropatía lúpica es el principal determinante de la {{c1::morbimortalidad a largo plazo}} del LES.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La nefropatía lúpica compromete hasta el {{c1::50 %}} de los pacientes con LES en algún momento.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro · ¿Por qué?",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La clínica no predice la lesión histológica del lupus: por eso se {{c1::biopsia}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Inmunocomplejos",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Biopsia renal en LES si la proteinuria confirmada es ≥ {{c1::0,5 g/24 h}}.",
+      "extra": "O índice proteinuria/creatininuria ≥ 0,5.",
+      "origen": "clase:2",
+      "fuente": "Clase · Cuándo biopsiar",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2021 · Reconstrucción oficial"
+      ],
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Sedimento activo en LES que obliga a biopsia: ≥ {{c1::5 hematíes}} por campo, dismórficos o cilindros.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cuándo biopsiar",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tercera indicación de biopsia en LES: {{c1::caída inexplicada de la TFG}}.",
+      "extra": "Basta una de las tres indicaciones.",
+      "origen": "clase:2",
+      "fuente": "Clase · Cuándo biopsiar",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "LES con proteinuria 1,4 g/24 h y creatinina estable: antes de cambiar la inmunosupresión se hace {{c1::biopsia renal}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro · Pregunta Dic. 2021",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Marcadores de actividad renal del lupus: {{c1::anti-dsDNA alto}} y C3 y C4 bajos por consumo de la vía clásica.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cuándo biopsiar",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 113",
+        "EUNACOM Diciembre 2024 · Pregunta 154"
+      ],
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La nefropatía lúpica baja C3 y C4; la IgA y las vasculitis ANCA tienen complemento {{c1::normal}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz Dic. 2018",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 113"
+      ],
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer joven con fotosensibilidad, úlceras orales, HTA, hematuria, proteinuria y C3 bajo: {{c1::nefropatía lúpica}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz Dic. 2018",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 113"
+      ],
+      "codigos": [
+        "1.11.1.014",
+        "1.09.1.006"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Artralgias, úlceras orales, leucopenia y cilindros hemáticos: el examen de tamizaje es {{c1::ANA}}.",
+      "extra": "Sensible en más de 95 %; luego anti-DNA y complemento.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Jul. 2017",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 74",
+        "EUNACOM Agosto 2021 · Pregunta 98",
+        "EUNACOM Diciembre 2018 · Pregunta 28"
+      ],
+      "codigos": [
+        "1.11.1.014",
+        "1.09.1.006"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La clasificación histológica de la nefropatía lúpica es la {{c1::ISN/RPS}}, con {{c2::6}} clases.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clasificación",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Clase I (mesangial mínima): óptica {{c1::normal}} con depósitos mesangiales en la IF; asintomática.",
+      "extra": "Tratamiento basal del LES.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla ISN/RPS",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Clase II (mesangial proliferativa): hipercelularidad mesangial con microhematuria o proteinuria {{c1::leve}}; buen pronóstico.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla ISN/RPS",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Clase II: corticoides a dosis {{c1::bajas}} según síntomas.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla ISN/RPS",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Clase III (focal): compromete < {{c1::50 %}} de los glomérulos.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla ISN/RPS",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Clase IV (difusa): compromete ≥ {{c1::50 %}} de los glomérulos; es la más frecuente y grave.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla ISN/RPS",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Clase IV: asas capilares en «asa de alambre» y depósitos {{c1::subendoteliales}} masivos.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clase IV",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Clase IV se presenta con nefrítico-nefrótico grave, HTA y {{c1::falla renal aguda}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Proliferativas",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Clase V (membranosa lúpica): síndrome {{c1::nefrótico puro}} con depósitos subepiteliales.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · No proliferativas",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Clase V: {{c1::inhibidor de calcineurina o MMF}} más corticoides.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · No proliferativas",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Clase VI (esclerosante): más de {{c1::90 %}} de glomérulos esclerosados; diálisis o trasplante.",
+      "extra": "Daño irreversible, ERC avanzada.",
+      "origen": "clase:3",
+      "fuente": "Clase · No proliferativas",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Clases III y IV son las {{c1::proliferativas}}: requieren inmunosupresión agresiva.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Inducción en clase III/IV: pulsos de metilprednisolona IV {{c1::0,5–1 g/día}} por 3 días.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Inducción y mantenimiento",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tras los pulsos, prednisona oral {{c1::0,5–1 mg/kg/día}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Inducción y mantenimiento",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Inducción en proliferativas: corticoides más {{c1::micofenolato mofetil o ciclofosfamida IV (Euro-Lupus)}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Inducción y mantenimiento",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Mantenimiento a largo plazo de la nefritis lúpica: {{c1::micofenolato o azatioprina}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Inducción y mantenimiento",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La {{c1::hidroxicloroquina}} se da a todo paciente lúpico, salvo contraindicación oftalmológica.",
+      "extra": "Previene recaídas y preserva la función renal.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.014",
+        "1.09.1.006"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Brote lúpico con síndrome nefrítico activo y C3/C4 muy bajos: el paso inicial es hospitalizar y {{c1::biopsiar urgente}}, no solo subir prednisona.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz caso",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El lupus eritematoso sistémico tiene {{c1::garantía GES}} en este perfil.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Perfil GES del tema",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síndrome nefrótico con hipergammaglobulinemia policlonal y complemento bajo: {{c1::lupus}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Preguntas reales",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 154"
+      ],
+      "codigos": [
+        "1.11.1.014",
+        "1.09.1.006"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lupus: eritema malar respeta los {{c1::surcos nasogenianos}} y hay úlceras orales indoloras en paladar duro.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · Caso",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014",
+        "1.09.1.006"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Paciente con lupus: ¿hay daño renal?",
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Daño renal en lupus: ¿qué conducta?",
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "Clase III o IV: ¿qué tratamiento?",
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.2",
+      "pista": "Clase V: ¿qué tratamiento?",
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    }
+  ]
+}

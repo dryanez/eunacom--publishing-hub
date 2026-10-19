@@ -1,0 +1,593 @@
+{
+  "classId": "gin-08",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterios OMS: categoría {{c1::1}} = sin restricción; categoría {{c2::4}} = riesgo inaceptable, contraindicación absoluta.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Categoría 3 OMS: los {{c1::riesgos}} suelen superar las ventajas; no se recomienda salvo que no haya otros métodos.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Categorías",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Categoría 4 para métodos combinados aplica por igual a la vía oral, el {{c1::parche}} y el anillo vaginal.",
+      "extra": "Lo prohibido es el estrógeno, no la vía.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz caso",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Fumadora de {{c1::35 años o más}} que fuma ≥ {{c2::15}} cigarrillos/día: categoría 4 para combinados.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Migraña con {{c1::aura}} a cualquier edad: categoría 4 para métodos combinados (riesgo de ACV isquémico).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 19"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antecedente de TVP/TEP o {{c1::trombofilia}} (Factor V de Leiden, SAF): categoría 4 para combinados.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "HTA severa: PA ≥ {{c1::160/100}} mmHg o con daño de órgano blanco es categoría 4 para combinados.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Categoría 4",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cáncer de mama actual o en los últimos {{c1::5 años}}: categoría 4 para combinados y para solo progestágeno.",
+      "extra": "El DIU de cobre es categoría 1.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Categoría 4",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 171"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Lactancia en las primeras {{c1::6 semanas}} posparto: categoría 4 para combinados.",
+      "extra": "Los estrógenos reducen la leche y aumentan el riesgo trombótico.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Categoría 4",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Enfermedad hepática severa activa (cirrosis descompensada, hepatitis aguda, adenoma): categoría {{c1::4}} para combinados.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Categoría 4",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los métodos de solo progestágeno {{c1::no aumentan}} el riesgo tromboembólico y no alteran la leche materna.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Solo progestágeno",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Mujer con condición categoría 4 para estrógeno: ofrecer {{c1::solo progestágeno o DIU de cobre}}.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Fumadora de 37 años pide el combinado de su amiga: se {{c1::deniega}} y se ofrece alternativa segura.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz caso",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Minipíldora de desogestrel: {{c1::75 mcg/día}} sin descansos; inhibe la ovulación.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Opciones",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Implante de etonogestrel: Índice de Pearl {{c1::0.05}}; método reversible de mayor eficacia.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Implante subdérmico de etonogestrel dura {{c1::3 a 5 años}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Opciones",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Inyectable trimestral de acetato de medroxiprogesterona: {{c1::150 mg IM}}.",
+      "extra": "Retraso de la fertilidad hasta 9-12 meses; amenorrea en 50-70%.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Opciones",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "DIU-LNG (Mirena / Kyleena) dura {{c1::5 a 8 años}} y reduce el sangrado > 90%.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Opciones",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 45",
+        "EUNACOM Diciembre 2022 · Pregunta 171",
+        "EUNACOM Diciembre 2019 · Pregunta 79"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Lactancia a los 8 meses posparto (ya pasadas las 6 semanas): método de elección {{c1::DIU-LNG}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Ene 2023",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 45",
+        "EUNACOM Diciembre 2022 · Pregunta 171"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Usuaria de DIU de cobre con hipermenorrea y dismenorrea: cambiar a {{c1::DIU medicado con progestágeno}}.",
+      "extra": "El DIU de cobre aumenta sangrado y dismenorrea.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 DIU de cobre",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 79"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "T de cobre 380A: duración de {{c1::10 a 12 años}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 DIU de cobre",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "DIU de cobre contraindicado en {{c1::infección pélvica aguda}}, sospecha de embarazo o sangrado genital inexplicado.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 DIU de cobre",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Usuaria de DIU con atraso y guías no visibles: lo primero es {{c1::β-hCG plasmática}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Pregunta real Jul 2017",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 180"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Píldora de anticoncepción de emergencia de elección en Chile: {{c1::levonorgestrel 1.5 mg}} VO en dosis única.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 44"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "PAE de levonorgestrel: lo antes posible, idealmente en las primeras {{c1::72 horas}}; eficacia residual hasta {{c2::120 horas}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 PAE",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mecanismo de la PAE: inhibe o retrasa el pico de {{c1::LH}}; no es abortiva.",
+      "extra": "No interrumpe un embarazo implantado.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Vómito dentro de las primeras {{c1::2 horas}} tras la PAE: repetir la dosis completa.",
+      "extra": "Se puede asociar un antiemético.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Efecto adverso más común de la PAE: {{c1::náuseas y vómitos}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 PAE",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Anticoncepción de emergencia más eficaz: {{c1::DIU de cobre}} dentro de 120 horas postcoito.",
+      "extra": "Falla < 0.1% y protección por 10 años.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Dic 2022",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 172"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Indicaciones de PAE: relación no protegida, violación, rotura de condón, {{c1::expulsión de DIU}} u olvido de comprimidos.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 PAE",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "Anticoncepción: GES de {{c1::prevención y entrega gratuita universal}} en la APS chilena.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro · encabezado GES",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ventana fértil de los métodos naturales: unos {{c1::6 días}} por ciclo; no protegen contra ITS.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Métodos naturales",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.006"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Métodos naturales: Pearl de {{c1::12-24}} con uso típico; 1-5 con uso perfecto.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Ventana fértil",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.006"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Ogino-Knaus: se resta {{c1::18}} al ciclo más corto y {{c2::11}} al más largo.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Métodos naturales",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.006"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Método de Billings: moco cervical {{c1::abundante, claro y filante}} indica fertilidad.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz métodos naturales",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.006"
+      ]
+    },
+    {
+      "id": "c36",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Temperatura basal: alza de {{c1::0,3-0,5 °C}} tras la ovulación; confirma, no predice.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Métodos naturales",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.006"
+      ]
+    },
+    {
+      "id": "c37",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "MELA: eficaz si hay lactancia exclusiva, {{c1::amenorrea}} y bebé menor de 6 meses.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Métodos naturales",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.006"
+      ]
+    },
+    {
+      "id": "c38",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Método natural de menor eficacia: {{c1::coito interrumpido}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Métodos naturales",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.006"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-08/02_implante_subdermico__commons.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Implante subdérmico de etonogestrel",
+      "clave": "Varilla flexible de 4 cm bajo la piel de la cara interna del brazo",
+      "conducta": "Solo progestágeno: seguro en categoría 4 de estrógenos; dura 3 a 5 años",
+      "fuente": "Wikimedia Commons «Implanon 04.jpg», CC BY-SA 4.0",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-08/01_diu_cobre_lng__williams-gyn_p142.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "DIU de cobre y DIU-LNG",
+      "clave": "Dispositivos en T intrauterinos",
+      "conducta": "Cobre 10-12 años; LNG 5-8 años y reduce el sangrado",
+      "fuente": "Williams Gynecology 4.ª ed., Fig. 5-3",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-08/01_diu-normoinserto-eco__cto-gyo_p45.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "DIU normoinserto",
+      "clave": "DIU en posición correcta dentro de la cavidad",
+      "conducta": "Si no se ven las guías y hay atraso: β-hCG",
+      "fuente": "Manual CTO Ginecología y Obstetricia 14.ª ed., p. 45",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.008"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Asesoría de rutina: ¿qué pregunta haces primero?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0",
+      "pista": "Condición categoría 4: ¿qué métodos ofreces?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.0",
+      "pista": "Emergencia dentro de 120 horas: ¿qué indicas?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.1.1",
+      "pista": "Vomitó antes de 2 horas de la PAE: ¿qué haces?"
+    }
+  ]
+}

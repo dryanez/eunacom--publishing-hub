@@ -1,0 +1,462 @@
+{
+  "classId": "endo-01",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El eje tiroideo funciona con retroalimentación negativa: {{c1::TRH}} (hipotálamo) estimula {{c2::TSH}} (adenohipófisis), que estimula la tiroides.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Eje hipotálamo-hipófisis-tiroides",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La tiroides secreta {{c1::T4 (80%)}} y {{c2::T3 (20%)}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Eje tiroideo",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La mayor parte de la T3 circulante proviene de la {{c1::desyodación periférica de T4}} en hígado, riñón y músculo.",
+      "extra": "La T3 es la hormona metabólicamente activa.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Eje tiroideo",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hormona que frena la TSH por retroalimentación negativa es la {{c1::T4 libre}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Eje tiroideo",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.004",
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante cualquier sospecha de patología tiroidea, el examen inicial de elección es la {{c1::TSH ultrasensible}}.",
+      "extra": "Mínimos cambios de T4L producen cambios grandes de TSH.",
+      "origen": "clase:2",
+      "fuente": "Clase · Siempre se parte por la TSH",
+      "repaso": true,
+      "codigos": [
+        "1.03.4.004",
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El valor normal de TSH en adultos (fuera del embarazo) es {{c1::0,4 a 4,0–4,5 mUI/L}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Valor normal de TSH",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para elegir el examen de tamizaje tiroideo en cualquier nivel de atención, la TSH es la prueba más {{c1::sensible y costo-efectiva}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un paciente de 30 años con fatigabilidad, baja de peso y síntomas depresivos: el examen para descartar causa orgánica es la {{c1::TSH}}.",
+      "extra": "La disfunción tiroidea es la causa orgánica que más imita una depresión.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Julio 2013",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipotiroidismo primario: TSH {{c1::alta}} con T4 libre {{c2::baja}}.",
+      "extra": "Es más del 95% de los hipotiroidismos.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de patrones",
+      "repaso": true,
+      "codigos": [
+        "1.03.4.004",
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El hipotiroidismo primario representa más del {{c1::95%}} de los hipotiroidismos.",
+      "extra": "Falla en la glándula.",
+      "origen": "clase:3",
+      "fuente": "Clase · Cuatro patrones",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipotiroidismo subclínico: TSH {{c1::alta}} con T4 libre {{c2::normal}}.",
+      "extra": "Falla tiroidea compensada, asintomática o paucisintomática.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de patrones",
+      "repaso": true,
+      "codigos": [
+        "1.03.4.004",
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Mujer de 54 años con astenia leve, TSH 7,4 mUI/L y T4 libre 1,2 ng/dL (normal 0,8 a 1,8): el diagnóstico es {{c1::hipotiroidismo subclínico}}.",
+      "extra": "TSH sobre el límite normal con T4L dentro del rango.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro · Pregunta Julio 2021",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.003",
+        "1.03.4.004"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipertiroidismo primario: TSH {{c1::suprimida (< 0,1)}} con T4 libre y/o T3 {{c2::elevadas}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Cuatro patrones",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.004",
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipotiroidismo central: T4 libre {{c1::baja}} con TSH {{c2::baja o \"normal\" inapropiada}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.004",
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el hipotiroidismo central la TSH \"inapropiadamente normal\" está entre {{c1::1,0 y 3,5}} mUI/L.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Interpretación cruzada",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.003",
+        "1.03.4.004"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causas del hipotiroidismo central: adenoma, {{c1::síndrome de Sheehan}}, cirugía o radioterapia hipofisaria o hipotalámica.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hipotiroidismo central",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante hipotiroidismo central el estudio de imagen es la {{c1::resonancia de hipófisis}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hipotiroidismo central",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En hipotiroidismo central, antes de dar levotiroxina hay que {{c1::descartar y tratar la insuficiencia suprarrenal}}.",
+      "extra": "Dar hormona tiroidea antes puede precipitar una crisis suprarrenal.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El hipotiroidismo central se controla con {{c1::T4 libre}}, no con TSH.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hipotiroidismo central",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.004",
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer con histerectomía postparto por inercia uterina, agalactia, amenorrea, piel seca e hipotensión: {{c1::panhipopituitarismo (Sheehan)}}.",
+      "extra": "Su hipotiroidismo es central: se descarta insuficiencia suprarrenal antes de levotiroxina.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Julio 2015",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hipotiroidismo primario: iniciar levotiroxina {{c1::1,6 mcg/kg/día}}.",
+      "extra": "Cubierto por GES.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de patrones",
+      "repaso": true,
+      "codigos": [
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El hipotiroidismo en personas de 15 años y más tiene garantía {{c1::GES N° 35}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · Perfil GES",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipotiroidismo subclínico: se trata si TSH {{c1::≥ 10}}, síntomas, anti-TPO (+) o embarazo.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de patrones",
+      "repaso": true,
+      "codigos": [
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hipertiroidismo primario: tratamiento con {{c1::tiamazol y propranolol}} y pedir anticuerpos {{c2::TRAb}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de patrones",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipertiroidismo subclínico: TSH {{c1::baja (< 0,4)}} con T4 libre normal; se observa.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de patrones",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.004",
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipertiroidismo subclínico: se trata si hay {{c1::fibrilación auricular, osteoporosis}} o TSH < 0,1.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de patrones",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el paciente crítico (sepsis, shock, trauma, cetoacidosis) la alteración más precoz es la {{c1::T3 baja}} con TSH y T4L normales.",
+      "extra": "Es el síndrome de T3 baja.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Eutiroideo enfermo",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.003",
+        "1.03.4.004"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el síndrome del eutiroideo enfermo las citoquinas (IL-6, TNF-alfa) inhiben la {{c1::5'-desyodasa}}, y sube la T3 {{c2::reversa}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Eutiroideo enfermo",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.003",
+        "1.03.4.004"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el síndrome del eutiroideo enfermo el error es {{c1::dar levotiroxina o T3}}: no mejora el pronóstico y puede aumentar la mortalidad.",
+      "extra": "Es una respuesta adaptativa de ahorro de energía.",
+      "origen": "clase:6",
+      "fuente": "Clase · Eutiroideo enfermo",
+      "repaso": true,
+      "codigos": [
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Paciente de UCI con T3 total 35 ng/dL, T3 reversa alta y TSH y T4L normales: conducta {{c1::observar, tratar la enfermedad de base y repetir el perfil semanas después del alta}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": true,
+      "codigos": [
+        "1.03.4.004",
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer de 25 años con anticonceptivos orales, T4 total 16 y TSH 0,9: la T4 total sube por mayor {{c1::TBG}}, y el examen que sigue es la {{c2::T4 libre}}.",
+      "extra": "Los estrógenos elevan la TBG sin cambiar la hormona activa.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Diciembre 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 33"
+      ],
+      "codigos": [
+        "1.03.4.004",
+        "1.03.4.003"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Paciente crítico en UCI con T3 baja: ¿conducta?",
+      "codigos": [
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.0",
+      "pista": "TSH alta con T4 libre baja: ¿diagnóstico y tratamiento?",
+      "codigos": [
+        "1.03.4.004",
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1",
+      "pista": "TSH alta con T4 libre normal: ¿diagnóstico?",
+      "codigos": [
+        "1.03.4.004",
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.2",
+      "pista": "T4L baja con TSH baja o normal: ¿qué haces antes de la hormona?",
+      "codigos": [
+        "1.03.4.004",
+        "1.03.4.003"
+      ]
+    }
+  ]
+}

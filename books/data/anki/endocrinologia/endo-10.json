@@ -1,0 +1,489 @@
+{
+  "classId": "endo-10",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cáncer de tiroides es la neoplasia maligna endocrina más prevalente, con relación mujer:hombre de {{c1::3:1}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "¿Por qué?",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.004",
+        "4.01.1.033"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los carcinomas diferenciados son el {{c1::90–95%}} y tienen sobrevida a 10 años mayor de 95%.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Dos células, cuatro cánceres",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Carcinoma papilar: {{c1::85–90%}} de los casos; el más frecuente y de mejor pronóstico.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Dos células, cuatro cánceres",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Carcinoma folicular: {{c1::5–10%}} de los casos.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Dos células, cuatro cánceres",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Carcinoma medular: {{c1::3–5%}} de los casos; nace de las células C.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Dos células, cuatro cánceres",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Carcinoma anaplásico: {{c1::1–2%}} de los casos.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Dos células, cuatro cánceres",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Histología del papilar: papilas, {{c1::cuerpos de psamoma}} y núcleos en vidrio esmerilado.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Papilar y folicular",
+      "repaso": true,
+      "imagen": "biblioteca/05_endocrinologia/endo-10/01_carcinoma_papilar_histologia__pathoma_p171.jpg",
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El papilar disemina por vía {{c1::linfática}} a ganglios cervicales, sin empeorar mucho la sobrevida.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Papilar y folicular",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la ecografía, el cáncer papilar suele verse como un nódulo sólido {{c1::hipoecogénico}}.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Papilar y folicular",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-10/02_eco_carcinoma_papilar__rumack_p738.jpg",
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El folicular disemina por vía {{c1::hematógena}}, a pulmón y hueso (metástasis osteolíticas).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Papilar y folicular",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El carcinoma folicular no se diagnostica por PAAF: se necesita ver {{c1::invasión capsular o vascular}} en la biopsia quirúrgica.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Papilar y folicular",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El carcinoma medular nace de las {{c1::células C parafoliculares}}, derivadas de la cresta neural.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Medular y anaplásico",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Marcadores del carcinoma medular: {{c1::calcitonina y CEA}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Medular y anaplásico",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El carcinoma medular no capta yodo: el radioyodo es {{c1::inútil}} y tampoco sirve la supresión de TSH.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Medular y anaplásico",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El carcinoma medular es hereditario en {{c1::25%}} (NEM 2A o 2B).",
+      "extra": "Por mutación del protooncogén RET.",
+      "origen": "clase:3",
+      "fuente": "Clase · Medular y anaplásico",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Antes de operar un carcinoma medular hay que {{c1::descartar feocromocitoma}} con metanefrinas.",
+      "extra": "Si se omite, crisis adrenérgica en pabellón; si existe, se opera primero.",
+      "origen": "clase:6",
+      "fuente": "Clase · Antes de operar el cuello",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el carcinoma medular se estudia el gen {{c1::RET}}, también en familiares de primer grado.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Antes de operar el cuello",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Carcinoma medular: tratamiento con {{c1::tiroidectomía total y vaciamiento central}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Seguimiento",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.004",
+        "4.01.1.033"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Carcinoma anaplásico: adulto mayor de {{c1::65–70}} años con masa pétrea y fija que crece en semanas.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Medular y anaplásico",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El anaplásico invade recurrente, tráquea y esófago, con disfonía, {{c1::estridor y disfagia}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Medular y anaplásico",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La sobrevida media del carcinoma anaplásico es de {{c1::3 a 6 meses}}.",
+      "extra": "Manejo paliativo.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tiroidectomía total en diferenciado: tumor mayor de {{c1::4 cm}}, ganglios, extensión extratiroidea o multifocalidad.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Cirugía, radioyodo y TSH frenada",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Papilar unifocal de 1 a 4 cm de bajo riesgo: se puede considerar {{c1::lobectomía}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Cirugía, radioyodo y TSH frenada",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.004",
+        "4.01.1.033"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El I-131 ablativo se indica en diferenciados de riesgo {{c1::intermedio y alto}}.",
+      "extra": "Permite que la tiroglobulina sea marcador de recidiva.",
+      "origen": "clase:4",
+      "fuente": "Clase · Cirugía, radioyodo y TSH frenada",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Levotiroxina supresora porque la {{c1::TSH}} actúa como factor de crecimiento del tumor diferenciado.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Cirugía, radioyodo y TSH frenada",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta de TSH supresora en alto riesgo: menor de {{c1::0,1}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Cirugía, radioyodo y TSH frenada",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta de TSH supresora en bajo-moderado riesgo: {{c1::0,1 a 0,5}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Cirugía, radioyodo y TSH frenada",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Marcador de seguimiento del diferenciado: {{c1::tiroglobulina}}, siempre junto a anti-tiroglobulina.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Un marcador para cada célula",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Los anticuerpos anti-Tg dejan la tiroglobulina {{c1::artificialmente baja}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Un marcador para cada célula",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras tiroidectomía total e I-131, la tiroglobulina debe ser indetectable, menor de {{c1::0,2 ng/mL}}.",
+      "extra": "Si sube, hay recidiva.",
+      "origen": "clase:5",
+      "fuente": "Clase · Un marcador para cada célula",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.004",
+        "4.01.1.033"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El seguimiento del diferenciado incluye ecografía de cuello {{c1::anual}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Un marcador para cada célula",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El cáncer de tiroides en personas de 15 años y más tiene GES N° 33: diagnóstico en {{c1::40 días}}, etapificación 30 y cirugía 30.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Qué haces tú como médico general",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.004",
+        "4.01.1.033"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tiroidectomía total más suspensión de levotiroxina por 6 meses: el hallazgo es {{c1::piel seca}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Diciembre 2017",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tiroidectomía reciente con convulsión y calcemia 6,3 mg/dl: {{c1::calcio endovenoso}}.",
+      "extra": "Hipoparatiroidismo postquirúrgico.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Julio 2024",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.004"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Cáncer diferenciado: ¿cirugía de base?",
+      "codigos": [
+        "1.03.1.004",
+        "4.01.1.033"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0",
+      "pista": "Diferenciado de riesgo intermedio o alto: ¿tratamiento adyuvante?",
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "Carcinoma medular confirmado: ¿qué descartas antes de operar?",
+      "codigos": [
+        "1.03.1.004"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.2",
+      "pista": "Carcinoma anaplásico: ¿manejo?",
+      "codigos": [
+        "1.03.1.004"
+      ]
+    }
+  ]
+}

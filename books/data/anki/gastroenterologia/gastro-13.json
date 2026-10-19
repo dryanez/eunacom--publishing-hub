@@ -1,0 +1,393 @@
+{
+  "classId": "gastro-13",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La bilirrubina total normal es {{c1::< 1,1 mg/dL}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Conceptos",
+      "repaso": false
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La ictericia se hace visible sobre {{c1::2,5–3 mg/dL}} de bilirrubina, primero en las {{c2::escleras}}.",
+      "extra": "",
+      "origen": "foto",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-13/10_ictericia-escleral__knoop_p34.jpg",
+      "fuente": "Libro §1 Conceptos",
+      "repaso": true
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La {{c1::carotenemia}} tiñe palmas y plantas pero no las escleras, y es benigna.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Qué bilirrubina sube?",
+      "repaso": false
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Paso 1 ante una ictericia: definir si la bilirrubina elevada es {{c1::indirecta o directa}}.",
+      "extra": "Paso 2 en la directa: transaminasas vs FA/GGT.",
+      "origen": "clase:21",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hiperbilirrubinemia indirecta aislada con el resto de las pruebas hepáticas y hemograma normales en un joven: {{c1::síndrome de Gilbert}}.",
+      "extra": "Benigno: tranquilizar y observar.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla patrón bioquímico",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 90",
+        "EUNACOM Diciembre 2018 · Pregunta 102",
+        "EUNACOM Diciembre 2017 · Pregunta 23"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El síndrome de Gilbert afecta al {{c1::5–10 %}} de la población.",
+      "extra": "Se evidencia con el ayuno o las infecciones.",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Qué bilirrubina sube?",
+      "repaso": false
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Bilirrubina indirecta elevada + anemia + LDH alta + esquistocitos: {{c1::hemólisis}} → tratar la causa.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla patrón bioquímico",
+      "repaso": false
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se habla de hiperbilirrubinemia directa cuando la directa es {{c1::> 30 %}} del total; es siempre patológica.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Qué bilirrubina sube?",
+      "repaso": false
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la hiperbilirrubinemia directa, transaminasas elevadas indican {{c1::hepatitis}}; FA y GGT elevadas indican {{c2::colestasia}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Hepatitis vs colestasia",
+      "repaso": true
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::GGT}} elevada confirma que una fosfatasa alcalina alta es de origen hepatobiliar y no óseo.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Hepatitis vs colestasia",
+      "repaso": false
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Adulto mayor con fosfatasa alcalina aislada, GGT normal y tibia arqueada: origen {{c1::óseo, sugerente de enfermedad de Paget}}.",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz perfil bioquímico",
+      "repaso": false
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer de edad media con FA y GGT muy elevadas, transaminasas casi normales y prurito: sospechar {{c1::cirrosis biliar primaria}}.",
+      "extra": "Hoy colangitis biliar primaria.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Julio 2016",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 174",
+        "EUNACOM Diciembre 2019 · Pregunta 49",
+        "EUNACOM Julio 2018 · Pregunta 54"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La cirrosis biliar primaria se confirma con {{c1::anticuerpos antimitocondriales (AMA)}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Julio 2016",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 136",
+        "EUNACOM Julio 2015 · Pregunta 118"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Paciente con colitis ulcerosa que desarrolla prurito, astenia y colestasia: {{c1::colangitis esclerosante primaria}}.",
+      "extra": "Marcador ANCA; se diagnostica con colangiorresonancia.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Clasificación de la colestasia",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 20",
+        "EUNACOM Diciembre 2018 · Pregunta 13"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Colestasia con dolor e ictericia, sin fiebre: {{c1::coledocolitiasis}}.",
+      "extra": "Puede ser residual tras una colecistectomía.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla patrón bioquímico",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 169"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Coledocolitiasis con vía biliar dilatada en la eco pero sin cálculo visible: el siguiente examen es la {{c1::colangiorresonancia}}.",
+      "extra": "Antes de la CPRE, que es invasiva y tiene riesgo de pancreatitis.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz coledocolitiasis",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 6"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dolor + ictericia + fiebre (tríada de {{c1::Charcot}}) = colangitis aguda.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Diciembre 2018",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 145"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La colangitis aguda se trata con {{c1::CPRE urgente + antibióticos}}.",
+      "extra": "Urgencia: drenaje de la vía biliar.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Colestasia sin dolor (silente) en el adulto mayor con baja de peso: sospechar {{c1::cáncer}}, el más frecuente de {{c2::páncreas}}.",
+      "extra": "Otros: ampolla de Vater, colangiocarcinoma, vesícula.",
+      "origen": "clase:3",
+      "fuente": "Clase · El dolor lo dice todo",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 147",
+        "EUNACOM Enero 2023 · Pregunta 66"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las \"3 D\" del cáncer de páncreas: {{c1::diabetes de reciente inicio, depresión inexplicada y dolor sordo}}.",
+      "extra": "Más baja de peso e ictericia progresiva indolora.",
+      "origen": "clase:4",
+      "fuente": "Clase · Cómo reconocer el cáncer de páncreas",
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signo de {{c1::Courvoisier-Terrier}}: vesícula palpable e indolora con ictericia.",
+      "extra": "Orienta a tumor periampular.",
+      "origen": "clase:4",
+      "fuente": "Clase · Cómo reconocer el cáncer de páncreas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 85"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Toda ictericia se estudia primero con {{c1::ecografía abdominal}} (¿vía biliar dilatada?, ¿colédoco?, ¿masa?).",
+      "extra": "Distingue colestasia extrahepática de intrahepática.",
+      "origen": "clase:6",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-13/01_coledoco-dilatado-eco-colangio-rm__cto-radiologia_p45.jpg",
+      "fuente": "Clase · Siempre primero la ecografía",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 124"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si la ecografía sugiere masa pancreática, el examen de elección es el {{c1::TAC de abdomen con contraste}} (trifásico, protocolo de páncreas).",
+      "extra": "La colangio-RM es de elección para la vía biliar, no el páncreas.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 52"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Solo el {{c1::15–20 %}} de los cánceres de páncreas es resecable al diagnóstico.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento cáncer de páncreas",
+      "repaso": false
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tumor de cabeza de páncreas o periampular resecable se trata con {{c1::duodenopancreatectomía cefálica (Whipple)}} + quimioterapia adyuvante.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz tumores preampulares",
+      "repaso": true
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La quimioterapia paliativa del cáncer de páncreas avanzado es {{c1::FOLFIRINOX o gemcitabina}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento cáncer de páncreas",
+      "repaso": false
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La paliación de la ictericia y el prurito en el cáncer de páncreas irresecable se hace con {{c1::prótesis biliar por CPRE}}.",
+      "extra": "Dolor refractario: bloqueo del plexo celíaco.",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento cáncer de páncreas",
+      "repaso": false
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La sobrevida a 5 años del cáncer de páncreas es {{c1::menor de 10 %}}.",
+      "extra": "El médico general sospecha, estudia y deriva sin demora.",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento cáncer de páncreas",
+      "repaso": false
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El ampuloma da ictericia {{c1::fluctuante}} (el tumor se necrosa y se reabre), anemia o melena.",
+      "extra": "Mejor pronóstico porque obstruye precozmente.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El ampuloma se diagnostica con {{c1::ecoendoscopía o duodenoscopía con biopsia de la papila}}.",
+      "extra": "Se trata con Whipple.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Tumores preampulares",
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-13/01_coledoco-dilatado-eco-colangio-rm_alt1__cto-radiologia_p45.jpg",
+      "pregunta": "Ictericia con dolor cólico: ¿qué muestra y qué haces?",
+      "diagnostico": "Coledocolitiasis en colangiorresonancia",
+      "clave": "Colédoco dilatado con un cálculo que lo obstruye",
+      "conducta": "CPRE para extraer el cálculo (urgente si hay colangitis)",
+      "fuente": "Manual CTO Radiología 14.ª ed., p. 45",
+      "repaso": false
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-13/10_ictericia-escleral__knoop_p34.jpg",
+      "pregunta": "¿Qué muestra y cuál es el primer paso?",
+      "diagnostico": "Ictericia escleral (bilirrubina sobre 2,5–3 mg/dL)",
+      "clave": "Escleras teñidas de amarillo, lo primero en teñirse",
+      "conducta": "Definir bilirrubina directa o indirecta; si es colestasia, ecografía abdominal",
+      "fuente": "Knoop, Atlas of Emergency Medicine, p. 34",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Bilirrubina indirecta: ¿qué dos causas?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1",
+      "pista": "FA/GGT altas: ¿primer examen?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1.0.1",
+      "pista": "Dolor + fiebre: ¿qué es y qué haces?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.1.0.2",
+      "pista": "Colestasia sin dolor: ¿sospecha y examen?"
+    }
+  ]
+}

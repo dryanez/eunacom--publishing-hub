@@ -1,0 +1,467 @@
+{
+  "classId": "ped-19",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Sepsis neonatal precoz: inicio antes de las {{c1::72 horas}} de vida.",
+      "extra": "Transmisión vertical.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clasificación",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La sepsis neonatal precoz se transmite por vía {{c1::vertical}} (intraparto o ascendente).",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Gérmenes principales de la sepsis precoz: {{c1::Streptococcus agalactiae (EGB)}} y E. coli.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El EGB causa el {{c1::50-60%}} de las sepsis precoces.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Microbiología",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el prematuro, el segundo germen más frecuente de sepsis precoz es {{c1::E. coli}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Microbiología",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Factor de riesgo de sepsis precoz: rotura prematura de membranas > {{c1::18 horas}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Factor de riesgo mayor de sepsis precoz: {{c1::corioamnionitis materna}} (fiebre intraparto).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Transmisión vertical",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Profilaxis intraparto adecuada del EGB: penicilina o ampicilina EV iniciada ≥ {{c1::4 horas}} antes del expulsivo.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Factores de riesgo",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Otro factor de riesgo de sepsis precoz: {{c1::hijo previo}} con enfermedad invasora por EGB.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Factores de riesgo",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Sepsis neonatal tardía: inicio después de las {{c1::72 horas}} de vida.",
+      "extra": "Habitualmente días 4 a 28.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clasificación",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La sepsis tardía suele ser {{c1::nosocomial}} (catéteres, tubos endotraqueales, personal de salud) o comunitaria.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Sepsis tardía",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El germen más frecuente de sepsis tardía en UCIN es {{c1::Staphylococcus coagulasa negativo (S. epidermidis)}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Además de los estafilococos, la sepsis tardía puede deberse a Klebsiella, Pseudomonas, Serratia y {{c1::Candida albicans}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Microbiología",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el neonato séptico la señal térmica más frecuente es la {{c1::hipotermia}}, no la fiebre.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Cómo se ve el séptico",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hipotermia neonatal: temperatura < {{c1::36.5°C}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Llene capilar enlentecido en sepsis: más de {{c1::3 segundos}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signos respiratorios de sepsis: quejido, aleteo, retracciones y {{c1::apneas recurrentes}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signos digestivos de sepsis: rechazo alimentario, distensión abdominal y {{c1::residuo gástrico bilioso}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Otros signos",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signos neurológicos de sepsis neonatal: letargia, hipotonía, llanto débil o {{c1::convulsiones sutiles}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hemograma de sepsis: leucopenia < {{c1::5.000/mm³}}, más específica y grave que la leucocitosis.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Laboratorio",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Relación inmaduros/totales (I/T) sugerente de sepsis: > {{c1::0.20}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Trombocitopenia en sepsis neonatal: plaquetas < {{c1::100.000/mm³}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Laboratorio",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Marcadores inflamatorios elevados en sepsis neonatal: {{c1::PCR y procalcitonina}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Laboratorio",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El esquema antibiótico en sepsis neonatal {{c1::no espera el cultivo}}; los hemocultivos se toman antes de tratar.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · El esquema no espera",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Esquema empírico de elección en sepsis precoz: {{c1::ampicilina + gentamicina}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si se sospecha meningitis neonatal, se reemplaza el aminoglucósido por {{c1::cefotaxima}}.",
+      "extra": "Por su penetración en el LCR.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La ampicilina es obligatoria porque {{c1::Listeria monocytogenes}} es resistente intrínseca a todas las cefalosporinas.",
+      "extra": "Cefalosporina de 3.ª generación sola es el error clásico.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La ampicilina en sepsis precoz cubre {{c1::EGB y Listeria}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · El esquema no espera",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Dosis de ampicilina en < 7 días: {{c1::150 a 200 mg/kg/día}} EV cada 12 horas.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Esquemas",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Dosis de gentamicina neonatal: {{c1::4 a 5 mg/kg/día}} EV cada 24 a 36 horas.",
+      "extra": "Sinergia con ampicilina contra EGB.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Esquemas",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Dosis de cefotaxima en sepsis neonatal: {{c1::100-150 mg/kg/día}} EV.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Esquemas",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Esquema empírico en sepsis tardía nosocomial: {{c1::vancomicina + amikacina}}.",
+      "extra": "Meropenem si hay shock séptico o sospecha de Pseudomonas.",
+      "origen": "clase:7",
+      "fuente": "Clase · Sepsis tardía",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Vancomicina en sepsis tardía cubre Staphylococcus coagulasa negativo y {{c1::S. aureus meticilino-resistente}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Esquemas",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.124"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Recién nacido de 10 días con fiebre, rechazo alimentario e hiporreactividad: {{c1::hospitalizar para estudio y manejo}}.",
+      "extra": "Es sepsis hasta demostrar lo contrario.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Julio 2013",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.124"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 99"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Menos de 72 h con signos sutiles: ¿qué esquema?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0",
+      "pista": "Si sospechas meningitis: ¿qué cambias?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "Más de 72 h en UCIN: ¿qué esquema?"
+    }
+  ]
+}

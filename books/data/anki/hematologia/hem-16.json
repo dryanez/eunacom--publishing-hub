@@ -1,0 +1,505 @@
+{
+  "classId": "hem-16",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En las leucemias agudas hay un {{c1::bloqueo madurativo}} y los blastos se acumulan y desplazan la hematopoyesis normal.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Bloqueo madurativo",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.009"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La insuficiencia medular aguda se ve como {{c1::anemia + fiebre + sangrado}} instalados en semanas.",
+      "extra": "Las tres series caen a la vez.",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.009"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 118",
+        "EUNACOM Diciembre 2019 · Pregunta 158",
+        "EUNACOM Diciembre 2022 · Pregunta 85"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El dolor óseo nocturno es muy típico del niño con {{c1::LLA}}.",
+      "extra": "También hepatoesplenomegalia y adenopatías.",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.009"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 154"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hiperplasia gingival es típica de la LMA {{c1::mielomonocítica y monocítica}} (M4/M5).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.009"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Una trombocitopenia aislada no es leucemia: es {{c1::PTI}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.009"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El diagnóstico de leucemia aguda exige {{c1::≥ 20 %}} de blastos en médula ósea o sangre (OMS).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.009"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Excepciones genéticas que sellan LMA sin importar el % de blastos: {{c1::t(8;21), inv(16) y t(15;17)}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Del hemograma al mielograma",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.009"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El hemograma orienta pero no confirma: el examen confirmatorio de leucemia aguda es el {{c1::mielograma}}.",
+      "extra": "Mielograma o biopsia de médula con ≥ 20 % de blastos.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.009"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 24",
+        "EUNACOM Diciembre 2018 · Pregunta 27"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para continuar el estudio de un niño con fiebre, palidez y esplenomegalia se pide primero {{c1::hemograma con frotis}}.",
+      "extra": "Busca citopenias y blastos; el mielograma confirma después.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Julio 2015",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.009"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 15"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Blastos en sangre periférica: el error es {{c1::controlar en unas semanas}}.",
+      "extra": "Corresponde derivación urgente y mielograma.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.009"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El mielograma no se hace en APS ni se posterga por {{c1::plaquetas bajas o fiebre}}.",
+      "extra": "Es derivación urgente a un centro con hematología.",
+      "origen": "clase:9",
+      "fuente": "Clase · Mielograma e intratecal",
+      "repaso": false,
+      "codigos": [
+        "1.08.5.005"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los {{c1::bastones de Auer}} son patognomónicos de LMA y descartan una LLA.",
+      "extra": "Son lisosomas fusionados con peroxidasa.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clasificación",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.009",
+        "2.01.1.032"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los mieloblastos son MPO y Sudán negro {{c1::positivos}}; expresan CD13, CD33 y CD117.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Inmunofenotipo",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.009"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los linfoblastos son MPO {{c1::negativos}} y TdT {{c2::positivos}}.",
+      "extra": "Citoplasma escaso y sin gránulos.",
+      "origen": "clase:5",
+      "fuente": "Clase · Inmunofenotipo",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.009"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "LLA de estirpe B: {{c1::CD19, CD10 y CD22}}; estirpe T: {{c2::CD3 y CD7}}.",
+      "extra": "CD10 es el antígeno CALLA.",
+      "origen": "clase:5",
+      "fuente": "Clase · Inmunofenotipo",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.009"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La LMA predomina en el adulto mayor, con mediana de {{c1::68 años}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Mieloide o linfoide",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.009"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 67"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La LLA tiene su pico entre los {{c1::2 y 5 años}} y es el {{c2::80 %}} de las leucemias infantiles.",
+      "extra": "Es la neoplasia más común en pediatría.",
+      "origen": "clase:7",
+      "fuente": "Clase · LLA infantil",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.009"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La LLA infiltra precozmente {{c1::meninges y testículos}}, santuarios que la quimioterapia sistémica no alcanza.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · LLA infantil",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.009"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Profilaxis intratecal en LLA: {{c1::metotrexato, citarabina y dexametasona}}.",
+      "extra": "El fármaco principal por vía intratecal es el metotrexato.",
+      "origen": "clase:7",
+      "fuente": "Clase · LLA infantil",
+      "repaso": true,
+      "codigos": [
+        "1.08.5.008"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La {{c1::vincristina}} es mortal por vía intratecal: solo se da endovenosa.",
+      "extra": "Se preparan y administran por separado, con doble chequeo.",
+      "origen": "clase:20",
+      "fuente": "Clase · Quiz intratecal",
+      "repaso": false,
+      "codigos": [
+        "1.08.5.008"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Omitir la profilaxis del SNC en LLA infantil es un error: se indica {{c1::quimioterapia más profilaxis intratecal}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.5.008"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Sobrevida libre de enfermedad de la LLA infantil en el protocolo PINDA: {{c1::> 85–90 %}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · LLA infantil",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.009"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La emergencia típica de la LLA al iniciar quimioterapia es el síndrome de {{c1::lisis tumoral}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Mieloide o linfoide",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.009"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La LMA-M3 tiene la translocación {{c1::t(15;17)}}, que forma el gen {{c2::PML-RARA}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 M3",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.009"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La M3 se complica con una {{c1::CID}} hiperfibrinolítica con hemorragia cerebral o pulmonar.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · La M3",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.009"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Auer abundantes + sangrado + fibrinógeno bajo: {{c1::ATRA inmediato}}, sin esperar el PCR de t(15;17).",
+      "extra": "Con soporte de la CID: crioprecipitado y plaquetas.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.009"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Soporte en la CID de la M3: crioprecipitado para fibrinógeno > {{c1::150 mg/dL}} y plaquetas > {{c2::50.000}}/µL.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · caso LMA-M3",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.009"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síndrome de diferenciación del ATRA se trata con {{c1::dexametasona}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · La M3",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.009"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Inducción de la LMA: esquema {{c1::7 + 3}} (citarabina 7 días + daunorrubicina 3 días).",
+      "extra": "Causa aplasia de 3 a 4 semanas.",
+      "origen": "clase:8",
+      "fuente": "Clase · LMA",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.009"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 134"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "LMA de riesgo adverso (cariotipo complejo, TP53): {{c1::trasplante alogénico}} en primera remisión.",
+      "extra": "Riesgo favorable: citarabina en altas dosis.",
+      "origen": "clase:8",
+      "fuente": "Clase · LMA",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.009"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "Las leucemias están cubiertas por el {{c1::GES N° 37}} (≥ 15 años) y el {{c2::GES N° 8}} (menores de 15).",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 GES",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.009"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antes de la punción lumbar en un paciente leucémico se corrigen {{c1::plaquetopenia y coagulopatía}}, coordinando con hematología.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Mielograma e intratecal",
+      "repaso": false,
+      "codigos": [
+        "1.08.5.008"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-16/01_leucemia-aguda-promielocitica-auer__amir-hemato_p44.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Blastos con bastones de Auer (LMA)",
+      "clave": "Inclusiones lineales cristalinas en el citoplasma del blasto",
+      "conducta": "Es LMA, no LLA; si hay CID y fibrinógeno bajo, ATRA de inmediato",
+      "fuente": "Manual AMIR Hematología, p. 44",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.009"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-16/03_infiltracion-gingival__cto-hemato_p63.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Hiperplasia gingival por infiltración leucémica",
+      "clave": "Encías engrosadas, típicas de LMA M4/M5",
+      "conducta": "Hemograma con frotis y derivación urgente para mielograma",
+      "fuente": "Manual CTO Hematología 14.ª ed., p. 63",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.009"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-16/04_lal-frotis-blastos__commons.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Linfoblastos de LLA",
+      "clave": "Células pequeñas, poco citoplasma y sin gránulos",
+      "conducta": "Mielograma con citometría; en LLA, profilaxis intratecal",
+      "fuente": "Wikimedia Commons, CC BY-SA 3.0",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.009"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Blastos en el hemograma: ¿qué se busca?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Auer + CID + sangrado: ¿cuál es la conducta?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "Blastos sin cuadro de M3: ¿qué se hace?"
+    }
+  ]
+}

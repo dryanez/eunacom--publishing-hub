@@ -1,0 +1,574 @@
+{
+ "classId": "cardio-08",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Bradicardia es una frecuencia cardíaca menor de {{c1::60 lpm}}.",
+   "extra": "Una FC de 45 en un joven asintomático no se trata.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Bradicardia",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.002",
+    "1.01.2.009"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ante una bradicardia es obligatorio revisar la lista de medicamentos y el {{c1::potasio}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Causas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.002",
+    "1.01.2.009"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas extrínsecas de bradicardia: betabloqueadores, verapamilo/diltiazem, digoxina, amiodarona, {{c1::donepezilo}}, hiperkalemia e hipotiroidismo.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Por qué late lento",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.002",
+    "1.01.2.009"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El síndrome de taquicardia-bradicardia es una forma de enfermedad del {{c1::nodo sinusal}}: FA que alterna con pausas.",
+   "extra": "Se confirma con Holter de 24 horas.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Enfermedad del nodo sinusal",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.002",
+    "1.01.2.009"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En cualquier síncope con bradicardia el examen inicial es el {{c1::ECG}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Enfermedad del nodo sinusal",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.002",
+    "1.01.2.009"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "BAV de primer grado: PR mayor de {{c1::200 ms}} constante, con todas las P conducidas.",
+   "extra": "Benigno; no requiere marcapaso.",
+   "origen": "clase:3",
+   "fuente": "Clase · Primer y segundo grado",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "PR de 280 ms constante (BAV 1.er grado): se observa; el error es {{c1::implantar marcapaso}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mobitz I (Wenckebach): el PR se {{c1::alarga progresivamente}} hasta que una P no conduce.",
+   "extra": "Nodal, QRS angosto; se observa.",
+   "origen": "clase:3",
+   "fuente": "Clase · Primer y segundo grado",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 163"
+   ],
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mobitz II: PR {{c1::constante}} con una P bloqueada súbita, sin alargamiento previo.",
+   "extra": "Infranodal, QRS ancho, riesgo de asistolia.",
+   "origen": "clase:3",
+   "fuente": "Clase · Primer y segundo grado",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mobitz I es de nivel {{c1::nodal}} (suprahisiano); Mobitz II e infranodal (His-Purkinje).",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de bloqueos AV",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El BAV de alto grado es aquel en que {{c1::dos o más P consecutivas}} se bloquean.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clasificación",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "BAV completo: las P y los QRS son independientes (disociación AV) y el escape es {{c1::lento}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · BAV completo",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 21",
+    "EUNACOM Agosto 2021 · Pregunta 138",
+    "EUNACOM Diciembre 2018 · Pregunta 96"
+   ],
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Escape ventricular (QRS ancho): {{c1::30-40 lpm}}; escape nodal (QRS angosto): {{c2::40-60 lpm}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · BAV completo",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La pérdida súbita y transitoria de conciencia por asistolia o bradicardia extrema se llama síndrome de {{c1::Stokes-Adams}}.",
+   "extra": "Recupera rápido y sin déficit focal; puede haber convulsiones.",
+   "origen": "clase:4",
+   "fuente": "Clase · BAV completo",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el bloqueo completo se observan ondas «a» en {{c1::cañón}} en el pulso yugular y R1 de intensidad variable.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Examen físico",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "P y QRS independientes con FC 32: es BAV completo y requiere {{c1::marcapaso}}; el error es dar solo atropina.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Infarto inferior (coronaria derecha): BAV {{c1::nodal}}, transitorio, QRS angosto, responde a atropina.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Inferior frente a anterior",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Infarto anterior (descendente anterior): BAV {{c1::infranodal}} por necrosis extensa del tabique; exige marcapaso.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Inferior frente a anterior",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La enfermedad de Chagas produce BAV, bloqueo de rama derecha y {{c1::hemibloqueo anterior}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Etiologías",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Bradicardia inestable: hipotensión, shock, alteración de conciencia, dolor isquémico o {{c1::edema pulmonar}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Manejo de urgencia",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.009"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Bradicardia inestable: primer fármaco {{c1::atropina 1 mg EV}} cada 3 a 5 minutos.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Bradicardia inestable",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.009"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La dosis máxima acumulada de atropina es {{c1::3 mg}}.",
+   "extra": "Dosis < 0,5 mg o lentas pueden causar bradicardia paradójica.",
+   "origen": "clase:6",
+   "fuente": "Clase · Bradicardia inestable",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.009"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La atropina sirve en el bloqueo {{c1::nodal}} (Mobitz I, infarto inferior) y poco en el infranodal (Mobitz II y BAV completo con QRS ancho).",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Bradicardia inestable",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.009"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si falla la atropina: {{c1::marcapaso transcutáneo}} a 60-70 lpm, subiendo la corriente hasta lograr captura con pulso.",
+   "extra": "Con sedación y analgesia.",
+   "origen": "clase:6",
+   "fuente": "Clase · Bradicardia inestable",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.009"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Como puente al marcapaso se infunde {{c1::adrenalina o dopamina}}.",
+   "extra": "Adrenalina 2-10 µg/min; dopamina 5-20 µg/kg/min.",
+   "origen": "clase:6",
+   "fuente": "Clase · Bradicardia inestable",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.009"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Bradicardia de 30 lpm con potasio 8,3 y QRS ancho: la conducta inicial es {{c1::gluconato de calcio EV}}, no atropina ni marcapaso.",
+   "extra": "Luego insulina con glucosa.",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.009"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En la intoxicación por betabloqueadores se usa {{c1::glucagón}}; en la digitálica, fragmentos Fab.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Excepción",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.009"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Con atropina sin respuesta en shock, el error es {{c1::repetirla hasta 6 mg o dar amiodarona}}.",
+   "extra": "Corresponde marcapaso transcutáneo + adrenalina.",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.009"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mobitz II o BAV completo estables igual se hospitalizan con monitor, porque el riesgo de {{c1::asistolia}} es alto.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Estable",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Marcapaso definitivo en BAV completo si hay síntomas, pausas ventriculares > {{c1::3 segundos}} o escape < 40 lpm.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Marcapaso definitivo",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Indicación de marcapaso definitivo: BAV completo, {{c1::Mobitz II}} y enfermedad del nodo sinusal sintomática.",
+   "extra": "También bloqueo bifascicular con síncope.",
+   "origen": "clase:7",
+   "fuente": "Clase · Marcapaso definitivo",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 117"
+   ],
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "No tienen indicación de marcapaso: BAV 1.er grado, Mobitz I asintomático, {{c1::FA o flutter}} y BCRI aislado asintomático.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Marcapaso definitivo",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "El implante de marcapaso en el BAV de alto grado y en la enfermedad del nodo sinusal sintomática está cubierto por {{c1::GES}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Marcapaso definitivo (GES)",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El marcapaso {{c1::DDD}} estimula y sensa ambas cámaras y mantiene la sincronía AV.",
+   "extra": "VVI: ventrículo (útil en FA lenta); AAI: aurícula.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Modos del marcapaso",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Complicaciones del implante: neumotórax, infección de la bolsa, {{c1::desplazamiento del electrodo}} y síndrome del marcapaso.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Complicaciones",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Adulto mayor con síncopes: la arritmia que requiere marcapaso definitivo es la {{c1::enfermedad del nodo sinusal}} sintomática.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul. 2016 P117",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 117"
+   ],
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-08/01_bav-primer-grado-pr-280ms__stroobandt-ecg_p228.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "BAV de primer grado",
+   "clave": "PR de 280 ms constante, todas las P conducen",
+   "conducta": "Observación; revisar fármacos; sin marcapaso",
+   "fuente": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials, p. 228",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-08/02_bav-mobitz-i-wenckebach__stroobandt-ecg_p228.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "BAV de segundo grado Mobitz I (Wenckebach)",
+   "clave": "El PR se alarga latido a latido hasta que una P no conduce",
+   "conducta": "Observar y corregir la causa; es nodal y rara vez progresa",
+   "fuente": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials, p. 228",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-08/03_bav-mobitz-ii-qrs-estrecho__stroobandt-ecg_p230.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "BAV de segundo grado Mobitz II",
+   "clave": "PR constante y una P bloqueada súbita, sin alargamiento previo",
+   "conducta": "Hospitalizar con monitor e indicar marcapaso definitivo",
+   "fuente": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials, p. 230",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.002"
+   ]
+  },
+  {
+   "id": "i04",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-08/04_bav-completo-disociacion-av__stroobandt-ecg_p240.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "BAV completo (tercer grado)",
+   "clave": "P regulares y QRS lentos sin relación entre ellos: disociación AV",
+   "conducta": "Marcapaso transcutáneo si está inestable y marcapaso definitivo (GES)",
+   "fuente": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials, p. 240",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.002"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Bradicardia inestable: ¿primer fármaco y dosis?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "No responde a atropina: ¿qué sigue?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1",
+   "pista": "Bradicardia con K alto y QRS ancho: ¿qué primero?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.1",
+   "pista": "Mobitz II o completo estable: ¿qué tratamiento definitivo?"
+  }
+ ]
+}

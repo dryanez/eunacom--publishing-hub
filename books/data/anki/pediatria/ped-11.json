@@ -1,0 +1,530 @@
+{
+  "classId": "ped-11",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa más frecuente de diarrea aguda en el lactante es el {{c1::rotavirus}}.",
+      "extra": "Sobre todo en el niño no vacunado.",
+      "origen": "clase:3",
+      "fuente": "Clase · Qué está causando la diarrea",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.039"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 146",
+        "EUNACOM Julio 2015 · Pregunta 134",
+        "EUNACOM Diciembre 2017 · Pregunta 121"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Sin deshidratación: pérdida de peso {{c1::< 5%}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla grado de deshidratación",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Deshidratación moderada: pérdida del {{c1::5% al 10%}} del peso.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla grado de deshidratación",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Deshidratación grave: pérdida de {{c1::> 10%}} del peso o shock.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla grado de deshidratación",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Deshidratación moderada: al menos 2 signos entre inquieto, ojos hundidos, {{c1::sed con avidez}} y pliegue lento.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Grado de deshidratación",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 65"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Deshidratación grave: letárgico o inconsciente, ojos muy hundidos, no puede beber y pliegue {{c1::> 2 segundos}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla grado de deshidratación",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pliegue cutáneo en deshidratación moderada: desaparece {{c1::lentamente (< 2 segundos)}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla grado de deshidratación",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.006"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-11/01_pliegue_persistente__commons.jpg"
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para decidir el plan de rehidratación no se necesita laboratorio: basta evaluar los {{c1::signos clínicos de hidratación}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Cuatro signos",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Plan A se indica en {{c1::sin deshidratación}} y se hace en el domicilio.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla grado de deshidratación",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.039"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 74"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Plan A: dar más líquidos, {{c1::continuar la alimentación}} y enseñar signos de alarma.",
+      "extra": "No suspender lactancia ni dieta habitual.",
+      "origen": "clase:2",
+      "fuente": "Clase · Plan A",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.039"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Plan A: SRO {{c1::10 mL/kg}} tras cada deposición líquida.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Plan A",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.039"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Plan A: SRO {{c1::5 mL/kg}} tras cada vómito.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Plan A",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.039"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signos de alarma en Plan A para reconsultar: fiebre alta, {{c1::sangre en heces}}, vómitos repetidos y sed intensa.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Plan A",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.039"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La deshidratación moderada se maneja con {{c1::Plan B}}, en el box de observación.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla grado de deshidratación",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Plan B: SRO a {{c1::50 a 100 mL/kg}} en 4 horas.",
+      "extra": "Lactante de 8 kg: 400 a 800 mL.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 65"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el Plan B las SRO se dan fraccionadas con cucharita o jeringa cada {{c1::1 a 2 minutos}}.",
+      "extra": "Si vomita, esperar 10 minutos y reiniciar más lento.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Plan B",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Vómitos incoercibles en Plan B (> 3 en 1 hora): se instala {{c1::sonda nasogástrica (gastroclisis)}} antes de ir a vena.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Plan B",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Gastroclisis con SRO: {{c1::20 mL/kg/hora}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Plan B",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante deshidratación moderada, el error clásico es {{c1::pasar suero endovenoso de entrada}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Reevaluación del Plan B a las {{c1::4 horas}}: si se hidrató, pasa a Plan A; si empeora a severa, Plan C.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Plan B",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Plan C (deshidratación grave o shock): rehidratación {{c1::endovenosa inmediata}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Plan C",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 161",
+        "EUNACOM Julio 2013 · Pregunta 138"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Solución del Plan C: {{c1::Ringer lactato o suero fisiológico}} a 100 mL/kg.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Plan C",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 161"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Plan C en lactante (< 1 año): 30 mL/kg en la {{c1::1.ª hora}}, luego 70 mL/kg en 5 horas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Plan C",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Plan C en ≥ 1 año: 30 mL/kg en {{c1::30 minutos}}, luego 70 mL/kg en 2.5 horas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Plan C",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.006"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Shock descompensado: bolo inicial de {{c1::20 mL/kg}} en 10-15 minutos.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Plan C",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 138"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las SRO de osmolaridad reducida tienen {{c1::245 mOsm/L}} y sodio 75 mEq/L, frente a 311 de la fórmula antigua.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · SRO de osmolaridad reducida",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.039"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las SRO de baja osmolaridad reducen el volumen fecal cerca de un {{c1::30%}} y los vómitos.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · SRO de osmolaridad reducida",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.039"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En diarrea aguda de cualquier niño, los antidiarreicos como {{c1::loperamida}} están prohibidos.",
+      "extra": "Riesgo de íleo y megacolon tóxico.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.039"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El SHU es la primera causa de {{c1::injuria renal aguda intrínseca}} en lactantes y niños pequeños en Chile.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 SHU",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.067"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa típica del SHU es {{c1::E. coli productora de toxina Shiga (O157:H7)}}, por carne molida mal cocida.",
+      "extra": "También Shigella dysenteriae.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 SHU",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.067"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 61"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tríada del SHU: anemia hemolítica microangiopática, {{c1::trombocitopenia}} e injuria renal aguda.",
+      "extra": "Precedida por diarrea con sangre 3 a 7 días antes.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 SHU",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.067"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 17",
+        "EUNACOM Julio 2016 · Pregunta 122"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el frotis del SHU se ven {{c1::esquistocitos}} con Coombs negativo.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 SHU",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.067"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En diarrea disentérica con sospecha de STEC/SHU están contraindicados los {{c1::antibióticos}}.",
+      "extra": "Liberan más toxina Shiga y aumentan el riesgo de SHU.",
+      "origen": "clase:9",
+      "fuente": "Clase · Antidiarreicos prohibidos y SHU",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.067"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En SHU las plaquetas se transfunden solo con {{c1::hemorragia con riesgo vital}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 SHU",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.067"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En SHU la transfusión de glóbulos rojos se hace solo con Hb {{c1::< 6 a 7 g/dL}}.",
+      "extra": "",
+      "origen": "libro:sec:6",
+      "fuente": "Libro §6 Soporte SHU",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.067"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-11/01_pliegue_persistente__commons.jpg",
+      "pregunta": "¿Qué signo muestra y qué grado indica?",
+      "diagnostico": "Signo del pliegue cutáneo lento",
+      "clave": "La piel queda levantada y tarda en volver a su lugar",
+      "conducta": "Si desaparece en < 2 segundos, deshidratación moderada: Plan B",
+      "fuente": "Wikimedia Commons, LowSkinTurgor (CC BY-SA 4.0)",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.006",
+        "2.01.1.039"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Deshidratación moderada: ¿qué plan?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.2",
+      "pista": "Grave o en shock: ¿qué solución y vía?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.3",
+      "pista": "Disentería con fiebre y sospecha de Shigella: ¿qué antibiótico?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.4",
+      "pista": "Diarrea con sangre más compromiso renal: ¿qué NO das?"
+    }
+  ]
+}

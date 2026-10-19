@@ -1,0 +1,521 @@
+{
+  "classId": "ped-17",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Toda ictericia que aparece en las primeras {{c1::24 horas}} de vida es patológica y hemolítica hasta demostrar lo contrario.",
+      "extra": "Error clásico: esperar a ver si es fisiológica.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.121"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 129",
+        "EUNACOM Diciembre 2019 · Pregunta 60"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La ictericia fisiológica aparece {{c1::después de las 24 horas}} de vida (2.° a 3.er día).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiológica",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.121"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el RN de término la ictericia fisiológica tiene su pico al {{c1::3.°-5.° día}} y remite hacia el día 7-10.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiológica",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.121"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 39"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la ictericia fisiológica la bilirrubina sube menos de {{c1::5 mg/dL al día}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiológica",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.121"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Ictericia patológica: aumento de bilirrubina > {{c1::5 mg/dL/día}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Patológica",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.121"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Es criterio de ictericia patológica una bilirrubina total > {{c1::15 mg/dL}} en RN de término sin fototerapia.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Patológica",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.121"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la ictericia fisiológica la bilirrubina directa es < {{c1::1 mg/dL}} (o < 20% del total).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiológica",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.121"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 39"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Ictericia que dura más de {{c1::14 días}} en el término (21 en el prematuro) es patológica.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Pruebas hepáticas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.121",
+        "2.01.4.023"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La inmadurez de la enzima {{c1::glucuroniltransferasa (UGT1A1)}} contribuye a la ictericia fisiológica.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.121"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La incompatibilidad ABO ocurre cuando la madre es {{c1::grupo O}} y el RN es grupo A o B.",
+      "extra": "Puede darse en el primer embarazo.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.121"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 60"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la incompatibilidad ABO el anticuerpo que atraviesa la placenta es de isotipo {{c1::IgG}} anti-A y anti-B.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 ABO",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.121"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La incompatibilidad ABO es la causa más frecuente de ictericia hemolítica y su curso suele ser {{c1::leve a moderado}}.",
+      "extra": "El Coombs directo es débil o incluso negativo.",
+      "origen": "clase:3",
+      "fuente": "Clase · ABO versus Rh",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.121"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Madre Rh positiva e hijo Rh negativo: {{c1::no hay incompatibilidad Rh}}.",
+      "extra": "Solo madre Rh negativa e hijo Rh positivo.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.121"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 129"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La incompatibilidad Rh requiere {{c1::sensibilización previa}}, por eso no suele afectar al primer hijo.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Rh",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.121"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La incompatibilidad Rh da cuadro severo, con anemia hemolítica, hepatoesplenomegalia y riesgo de {{c1::hydrops fetalis}}.",
+      "extra": "Coombs directo francamente positivo.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Rh",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.121"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La ictericia por lactancia ineficaz ocurre en los días {{c1::2 a 5}}, con pérdida de peso > 10%.",
+      "extra": "Se corrige la técnica; no se suspende la lactancia.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Lactancia ineficaz",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.121"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Ante lactancia ineficaz se aumenta la frecuencia de tomas a {{c1::8-12 veces al día}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Lactancia ineficaz",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.121"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La ictericia por leche materna (Arias) comienza hacia los días {{c1::5 a 7}} y su pico es en las semanas 2 a 4.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Leche materna",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.121"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la ictericia por leche materna, con buen peso y buen estado, el error es {{c1::suspender el pecho materno}}.",
+      "extra": "Se tranquiliza a los padres y se mantiene la lactancia.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.121"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fisiológica con bebé sano y activo: se refuerza la lactancia y {{c1::control ambulatorio}}, sin estudio de hemólisis.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.121"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La conducta en la ictericia la define el nomograma de {{c1::Bhutani}}, que cruza bilirrubina con horas de vida.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.121"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-17/S1_bhutani-kramer__propio.svg"
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La fototerapia usa luz azul LED de longitud de onda {{c1::460-490 nm}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Fototerapia",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.121"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La fototerapia actúa por fotoisomerización: convierte la bilirrubina indirecta en {{c1::lumirrubina}}, hidrosoluble.",
+      "extra": "Se excreta sin conjugación hepática.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.121"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En fototerapia se protegen los ojos con {{c1::antifaz opaco}} y pañal mínimo.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Fototerapia",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.121"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La exanguinotransfusión recambia {{c1::dos volemias}} (160 mL/kg) por la vena umbilical.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Exanguinotransfusión",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.121"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Se indica exanguinotransfusión ante falla de fototerapia intensiva o signos de {{c1::encefalopatía aguda}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Bhutani",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.121"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ictericia con bilirrubina directa elevada, acolia y coluria: sospechar {{c1::atresia de vías biliares}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.121",
+        "2.01.4.023"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 154",
+        "EUNACOM Diciembre 2017 · Pregunta 145",
+        "EUNACOM Diciembre 2019 · Pregunta 61",
+        "EUNACOM Julio 2024 · Pregunta 154"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Colestasia: bilirrubina directa > {{c1::1 mg/dL}} (si BT < 5) o > 20% de la total.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Patológica",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.121",
+        "2.01.4.023"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2018 · Pregunta 176"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La cirugía de Kasai tiene mejor resultado si se hace antes de los {{c1::60 días}} de vida.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Colestasia neonatal",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.121",
+        "2.01.4.023"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En atresia de vías biliares tras sospecha de colestasia el primer paso es medir la {{c1::bilirrubina diferenciada}}.",
+      "extra": "Luego ecografía.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz bilirrubina",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.121",
+        "2.01.4.023"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 117"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una ictericia con bilirrubina directa elevada a los 7 días obliga a solicitar {{c1::pruebas hepáticas}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Colestasia",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.023"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2018 · Pregunta 176"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "ALT/AST muy altas orientan a {{c1::hepatitis neonatal}} (TORCH, galactosemia, tirosinemia).",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Pruebas hepáticas",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.023"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "GGT y fosfatasas alcalinas elevadas orientan a {{c1::obstrucción biliar}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Pruebas hepáticas",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.023"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si el INR no corrige con vitamina K parenteral, hay {{c1::falla de síntesis hepática}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Colestasia",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.023"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-17/02_ictericia-neonatal__bates_p848.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Ictericia neonatal en la cara",
+      "clave": "Coloración amarilla de la piel con progresión céfalo-caudal",
+      "conducta": "Medir bilirrubina, ubicar en Bhutani según horas de vida; si < 24 h, estudio hemolítico y fototerapia",
+      "fuente": "Bates' Guide to Physical Examination, p. 848",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.121"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Ictericia antes de 24 h: ¿qué es y qué pides?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1",
+      "pista": "Bhutani en alto riesgo: ¿qué tratamiento?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1.0",
+      "pista": "Fototerapia sin respuesta: ¿qué haces?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.2",
+      "pista": "Ictericia > 14 días con acolia: ¿qué sospechas?"
+    }
+  ]
+}

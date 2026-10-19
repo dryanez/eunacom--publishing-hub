@@ -1,0 +1,557 @@
+{
+ "classId": "infecto-01",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La sepsis es la disfunción orgánica potencialmente mortal causada por una respuesta {{c1::desregulada del huésped}} a la infección (Sepsis-3).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Sepsis-3",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.007",
+    "4.01.2.029"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El concepto de {{c1::SIRS}} fue abandonado en Sepsis-3 por inespecífico.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Qué es la sepsis",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La sepsis se confirma con sospecha de infección + aumento agudo del SOFA basal de ≥ {{c1::2 puntos}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Sepsis-3",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.007",
+    "4.01.2.029"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El qSOFA positivo requiere ≥ {{c1::2}} de 3 criterios y identifica alto riesgo de muerte.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · qSOFA y SOFA",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Criterios qSOFA: FR ≥ {{c1::22 rpm}}, Glasgow < 15 y PAS ≤ 100 mmHg.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · qSOFA y SOFA",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el qSOFA la presión sistólica baja es PAS ≤ {{c1::100 mmHg}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · qSOFA y SOFA",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Fiebre, taquicardia y leucocitosis eran criterios de {{c1::SIRS}}, no forman parte del qSOFA.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · qSOFA y SOFA",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El qSOFA es la herramienta de {{c1::alarma rápida}} en la cabecera; el SOFA ≥ 2 es el que confirma la sepsis.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El shock séptico es un subgrupo de sepsis con colapso {{c1::circulatorio y celular}} profundo.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Shock séptico",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Shock séptico: vasopresor para mantener PAM ≥ {{c1::65 mmHg}} tras resucitación con volumen.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Shock séptico",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Shock séptico: además del vasopresor, lactato > {{c1::2 mmol/L}} pese a la carga de volumen.",
+   "extra": "Equivale a > 18 mg/dL.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Shock séptico",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La mortalidad del shock séptico es > {{c1::40 %}}; la de la sepsis, 10–15 %.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Sepsis vs shock",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La mortalidad de la hipotensión hipovolémica con reposición es < {{c1::5 %}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Sepsis vs shock",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si la PA se estabiliza tras 30 mL/kg de cristaloides, se trata de {{c1::sepsis sin shock}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Shock séptico",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la hipovolemia pura el vasopresor está contraindicado: se requiere {{c1::volumen}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la sepsis sin shock el vasopresor {{c1::no está indicado}} (solo fluidos).",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cada hora de demora en los antibióticos aumenta la mortalidad en {{c1::8 %}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Paquete 1ª hora",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.007",
+    "1.04.4.009"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Paquete de la 1ª hora: lactato, {{c1::2 hemocultivos}}, ATB EV de amplio espectro y cristaloides.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Primeros 60 minutos",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Los hemocultivos se toman antes del antibiótico sin demorarlo más de {{c1::45 minutos}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Primeros 60 minutos",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El lactato elevado se repite a las {{c1::2–4 h}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Paquete 1ª hora",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.007",
+    "1.04.4.009"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Meta de lactato: descenso > {{c1::20 %}} en 2 horas.",
+   "extra": "Mide si mejora la perfusión.",
+   "origen": "clase:4",
+   "fuente": "Clase · Primeros 60 minutos",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cristaloides a {{c1::30 mL/kg}} (Ringer lactato o suero fisiológico) en bolo si hay hipotensión o lactato ≥ 4.",
+   "extra": "Aplica también en el lactante séptico.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Paquete 1ª hora",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 148"
+   ],
+   "codigos": [
+    "1.04.2.007",
+    "1.04.4.009"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se indican cristaloides en bolo si hay hipotensión o lactato ≥ {{c1::4}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Primeros 60 minutos",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "El vasopresor de primera línea en el shock séptico es {{c1::noradrenalina EV}}.",
+   "extra": "Puede iniciarse por vía periférica mientras se instala el CVC.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Escalamiento vasoactivo",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La {{c1::dopamina}} está proscrita en el shock séptico por mayor arritmogenia y mortalidad.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Vasopresores",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se considera refractario si persiste la hipotensión con noradrenalina > {{c1::0,25 mcg/kg/min}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Escalamiento vasoactivo",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Shock refractario: se asocia {{c1::vasopresina}} 0,03 U/min.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Escalamiento vasoactivo",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Shock refractario: hidrocortisona EV {{c1::200 mg/día}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Escalamiento vasoactivo",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Si hay disfunción miocárdica (ScvO₂ < 70 % con PAM adecuada) se agrega {{c1::dobutamina}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Escalamiento vasoactivo",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La fiebre se define como temperatura central ≥ {{c1::38,0 °C}} (axilar ≥ 37,8 °C).",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Termorregulación",
+   "repaso": false,
+   "codigos": [
+    "1.07.3.001",
+    "1.04.4.009"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la hipertermia el punto de ajuste hipotalámico {{c1::no cambia}} y no responde a antipiréticos.",
+   "extra": "Exige enfriamiento activo y tratar la causa.",
+   "origen": "clase:6",
+   "fuente": "Clase · Fiebre, hipertermia e hipotermia",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hipotermia en un paciente séptico: temperatura central < {{c1::35 °C}}, signo de gravedad con peor pronóstico que la fiebre.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Fiebre, hipertermia e hipotermia",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Evitar la aspirina (AAS) en niños con fiebre por riesgo de {{c1::síndrome de Reye}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Termorregulación",
+   "repaso": false,
+   "codigos": [
+    "1.07.3.001",
+    "1.04.4.009"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hemocultivo estándar: {{c1::2 a 3 sets}} (aerobio + anaerobio) de sitios distintos, con 8–10 mL por frasco.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Hemocultivo",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El {{c1::S. aureus}} en sangre nunca es contaminante: repetir hemocultivos y buscar endocarditis.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Hemocultivo",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Probable contaminante en 1 de 2 sets: estafilococo {{c1::coagulasa negativo}}, Corynebacterium, Bacillus, Cutibacterium.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Hemocultivo",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hemocultivo positivo persistente a las 48–72 h bajo tratamiento: buscar {{c1::endocarditis, catéter infectado o foco no drenado}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Hemocultivo",
+   "repaso": false,
+   "codigos": [
+    "1.07.3.001",
+    "1.04.4.009"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "El GES cubre el manejo integral del paciente {{c1::crítico en cuidados intensivos}}, que incluye el shock séptico.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · GES",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.007",
+    "2.01.2.023"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.1",
+   "pista": "qSOFA ≥ 2: ¿qué se inicia?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.0.1",
+   "pista": "PAM < 65 tras el volumen: ¿qué vasopresor?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.0.1.0",
+   "pista": "Shock refractario: ¿qué se agrega?"
+  }
+ ]
+}

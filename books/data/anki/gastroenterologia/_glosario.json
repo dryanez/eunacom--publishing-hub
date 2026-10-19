@@ -1,0 +1,2968 @@
+{
+ "_doc": "Glosario clicable del mazo Anki (popover en el reverso). 'def' se escribe a mano desde el libro (sin cifras nuevas) y se conserva al regenerar; pagina/clase/t/url los recalcula conceptos.py. Términos y alias: books/scripts/anki/vocab_*.txt.",
+ "libro": "gastroenterologia",
+ "pdf": "books/dist/Modulo_1_Medicina_Interna/Manual_EUNACOM_Gastroenterologia_Completo_2026.pdf",
+ "terminos": {
+  "ERGE": {
+   "termino": "ERGE",
+   "tipo": "Concepto",
+   "alias": [
+    "ERGE",
+    "reflujo gastroesofágico",
+    "enfermedad por reflujo"
+   ],
+   "def": "Paso retrógrado del contenido gástrico al esófago, con síntomas o lesión de la mucosa. La cirugía antirreflujo (Nissen) se reserva para ERGE grave dependiente de IBP.",
+   "pagina": 5,
+   "clase": "gastro-01",
+   "claseTitulo": "1.1 Enfermedad por Reflujo Gastroesofágico y Esófago de Barrett",
+   "diapositiva": 0,
+   "t": 5.2,
+   "mmss": "0:05",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-01&t=5&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-01&t=5",
+   "notas": 18
+  },
+  "Esofago_de_Barrett": {
+   "termino": "Esófago de Barrett",
+   "tipo": "Concepto",
+   "alias": [
+    "esófago de Barrett",
+    "Barrett"
+   ],
+   "def": "Metaplasia intestinal del esófago, confirmada por biopsia; se asocia a ERGE de larga data y a adenocarcinoma. Lo que decide la cirugía es la displasia de alto grado, no la metaplasia.",
+   "pagina": 5,
+   "clase": "gastro-01",
+   "claseTitulo": "1.1 Enfermedad por Reflujo Gastroesofágico y Esófago de Barrett",
+   "diapositiva": 8,
+   "t": 508.7,
+   "mmss": "8:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-01&t=508&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-01&t=508",
+   "notas": 11
+  },
+  "Esofagitis_erosiva": {
+   "termino": "Esofagitis erosiva",
+   "tipo": "Concepto",
+   "alias": [
+    "esofagitis erosiva",
+    "esofagitis"
+   ],
+   "def": "Inflamación con daño de la mucosa esofágica visible en la endoscopía. Además del reflujo, hay causas infecciosas (Candida, herpes, citomegalovirus), por pastillas o cáustica.",
+   "pagina": 6,
+   "clase": "gastro-01",
+   "claseTitulo": "1.1 Enfermedad por Reflujo Gastroesofágico y Esófago de Barrett",
+   "diapositiva": 10,
+   "t": 636.2,
+   "mmss": "10:36",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-01&t=636&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-01&t=636",
+   "notas": 7
+  },
+  "Hernia_hiatal": {
+   "termino": "Hernia hiatal",
+   "tipo": "Concepto",
+   "alias": [
+    "hernia hiatal",
+    "hernia de hiato"
+   ],
+   "def": "Ascenso de la unión gastroesofágica o del estómago al tórax. Tipo I, por deslizamiento (> 95 %), es casi normal: solo se trata el reflujo. La paraesofágica (< 5 %) se opera por riesgo de vólvulo.",
+   "pagina": 23,
+   "clase": "gastro-06",
+   "claseTitulo": "1.6 Hernia Hiatal, Hernia Diafragmática y Tumores del Mediastino",
+   "diapositiva": 1,
+   "t": 25.9,
+   "mmss": "0:26",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-06&t=25&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-06&t=25",
+   "notas": 9
+  },
+  "Ulcera_peptica": {
+   "termino": "Úlcera péptica",
+   "tipo": "Concepto",
+   "alias": [
+    "úlcera péptica",
+    "úlcera gastroduodenal",
+    "úlcera duodenal",
+    "úlcera gástrica",
+    "úlceras duodenales",
+    "úlceras gástricas"
+   ],
+   "def": "Lesión gastroduodenal con epigastralgia urente que mejora con alimentos o antiácidos. Causas principales: Helicobacter pylori y AINE; H. pylori siempre se erradica.",
+   "pagina": 9,
+   "clase": "gastro-02",
+   "claseTitulo": "1.2 Úlcera Péptica, Dispepsia Funcional y Helicobacter pylori",
+   "diapositiva": 4,
+   "t": 204.2,
+   "mmss": "3:24",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-02&t=204&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-02&t=204",
+   "notas": 16
+  },
+  "Helicobacter_pylori": {
+   "termino": "Helicobacter pylori",
+   "tipo": "Concepto",
+   "alias": [
+    "Helicobacter pylori",
+    "H. pylori"
+   ],
+   "def": "Bacteria gástrica que porta el 75 % de los chilenos; causa el 90 % de las úlceras duodenales y el 70 % de las gástricas. Se detecta con test de ureasa, test del aliento o antígeno en deposiciones.",
+   "pagina": 9,
+   "clase": "gastro-02",
+   "claseTitulo": "1.2 Úlcera Péptica, Dispepsia Funcional y Helicobacter pylori",
+   "diapositiva": 1,
+   "t": 23.3,
+   "mmss": "0:23",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-02&t=23&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-02&t=23",
+   "notas": 21
+  },
+  "Dispepsia": {
+   "termino": "Dispepsia",
+   "tipo": "Concepto",
+   "alias": [
+    "dispepsia funcional",
+    "dispepsia"
+   ],
+   "def": "Malestar o dolor epigástrico; lo producen la úlcera, el cáncer gástrico y la dispepsia funcional (diagnóstico de exclusión, con endoscopía normal). Endoscopía si hay alarma o edad ≥ 40 años.",
+   "pagina": 9,
+   "clase": "gastro-02",
+   "claseTitulo": "1.2 Úlcera Péptica, Dispepsia Funcional y Helicobacter pylori",
+   "diapositiva": 2,
+   "t": 93.3,
+   "mmss": "1:33",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-02&t=93&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-02&t=93",
+   "notas": 4
+  },
+  "Linfoma_MALT": {
+   "termino": "Linfoma MALT",
+   "tipo": "Concepto",
+   "alias": [
+    "linfoma MALT",
+    "MALT"
+   ],
+   "def": "Linfoma gástrico que regresa con erradicación de H. pylori, sin quimioterapia. Si hay malabsorción y baja de peso con anticuerpos negativos, sospechar linfoma intestinal.",
+   "pagina": 9,
+   "clase": "gastro-02",
+   "claseTitulo": "1.2 Úlcera Péptica, Dispepsia Funcional y Helicobacter pylori",
+   "diapositiva": 5,
+   "t": 280.9,
+   "mmss": "4:41",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-02&t=280&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-02&t=280",
+   "notas": 3
+  },
+  "Acalasia": {
+   "termino": "Acalasia",
+   "tipo": "Concepto",
+   "alias": [
+    "acalasia"
+   ],
+   "def": "Trastorno motor del esófago con disfagia ilógica (líquidos desde el inicio), que se estudia con manometría. Causa regurgitación no ácida y neumonías aspirativas; tratamiento: miotomía del EEI.",
+   "pagina": 13,
+   "clase": "gastro-03",
+   "claseTitulo": "1.3 Disfagia y Trastornos Motores del Esófago",
+   "diapositiva": 3,
+   "t": 166.6,
+   "mmss": "2:47",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-03&t=166&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-03&t=166",
+   "notas": 10
+  },
+  "Diverticulo_de_Zenker": {
+   "termino": "Divertículo de Zenker",
+   "tipo": "Concepto",
+   "alias": [
+    "divertículo de Zenker",
+    "Zenker"
+   ],
+   "def": "Saco del esfínter esofágico superior que causa disfagia alta, halitosis marcada y regurgitación de comida no digerida. Se estudia con esofagograma con bario y se trata quirúrgicamente.",
+   "pagina": 13,
+   "clase": "gastro-03",
+   "claseTitulo": "1.3 Disfagia y Trastornos Motores del Esófago",
+   "diapositiva": 5,
+   "t": 299.3,
+   "mmss": "4:59",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-03&t=299&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-03&t=299",
+   "notas": 5
+  },
+  "Disfagia": {
+   "termino": "Disfagia",
+   "tipo": "Signo",
+   "alias": [
+    "disfagia"
+   ],
+   "def": "Dificultad para tragar. Lógica: progresiva, sólidos antes que líquidos, sugiere obstrucción (cáncer de esófago). Ilógica: fluctuante, desde líquidos, sugiere trastorno motor (acalasia, esclerodermia).",
+   "pagina": 13,
+   "clase": "gastro-03",
+   "claseTitulo": "1.3 Disfagia y Trastornos Motores del Esófago",
+   "diapositiva": 10,
+   "t": 558.1,
+   "mmss": "9:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-03&t=558&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-03&t=558",
+   "notas": 23
+  },
+  "Sindrome_de_Boerhaave": {
+   "termino": "Síndrome de Boerhaave",
+   "tipo": "Concepto",
+   "alias": [
+    "Boerhaave",
+    "perforación esofágica"
+   ],
+   "def": "Perforación transmural del esófago tras vómitos intensos, con dolor torácico, enfisema subcutáneo y sepsis. Se estudia con Rx o TAC de tórax (neumomediastino); causa más frecuente: iatrogénica.",
+   "pagina": 16,
+   "clase": "gastro-04",
+   "claseTitulo": "1.4 Úlcera Perforada, Perforación Esofágica e Ingesta de Cáustico",
+   "diapositiva": 5,
+   "t": 290.5,
+   "mmss": "4:51",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-04&t=290&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-04&t=290",
+   "notas": 9
+  },
+  "Ulcera_perforada": {
+   "termino": "Úlcera perforada",
+   "tipo": "Concepto",
+   "alias": [
+    "úlcera perforada",
+    "perforación de víscera hueca"
+   ],
+   "def": "Complicación de la úlcera con dolor en puñalada y abdomen en tabla. Se confirma con neumoperitoneo en radiografía de tórax de pie y requiere cirugía urgente; la endoscopía está contraindicada.",
+   "pagina": 16,
+   "clase": "gastro-04",
+   "claseTitulo": "1.4 Úlcera Perforada, Perforación Esofágica e Ingesta de Cáustico",
+   "diapositiva": 2,
+   "t": 103.2,
+   "mmss": "1:43",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-04&t=103&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-04&t=103",
+   "notas": 6
+  },
+  "Neumoperitoneo": {
+   "termino": "Neumoperitoneo",
+   "tipo": "Signo",
+   "alias": [
+    "neumoperitoneo"
+   ],
+   "def": "Aire libre en el abdomen, visible como aire subdiafragmático en la radiografía de tórax de pie. Su hallazgo con dolor en puñalada y abdomen en tabla indica perforación: cirugía urgente.",
+   "pagina": 16,
+   "clase": "gastro-04",
+   "claseTitulo": "1.4 Úlcera Perforada, Perforación Esofágica e Ingesta de Cáustico",
+   "diapositiva": 3,
+   "t": 154.6,
+   "mmss": "2:35",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-04&t=154&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-04&t=154",
+   "notas": 8
+  },
+  "Ingesta_de_causticos": {
+   "termino": "Ingesta de cáusticos",
+   "tipo": "Concepto",
+   "alias": [
+    "cáustico",
+    "cáusticos",
+    "soda cáustica"
+   ],
+   "def": "Ingesta de sustancia cáustica: la endoscopía precoz define la conducta. El carbón activado y el lavado gástrico están contraindicados.",
+   "pagina": 16,
+   "clase": "gastro-04",
+   "claseTitulo": "1.4 Úlcera Perforada, Perforación Esofágica e Ingesta de Cáustico",
+   "diapositiva": 7,
+   "t": 402.7,
+   "mmss": "6:43",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-04&t=402&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-04&t=402",
+   "notas": 12
+  },
+  "Cancer_gastrico": {
+   "termino": "Cáncer gástrico",
+   "tipo": "Concepto",
+   "alias": [
+    "cáncer gástrico",
+    "adenocarcinoma gástrico"
+   ],
+   "def": "Primera causa de muerte por cáncer en hombres en Chile, con H. pylori como causa principal. En el adulto, el síndrome pilórico es cáncer gástrico hasta demostrar lo contrario.",
+   "pagina": 20,
+   "clase": "gastro-05",
+   "claseTitulo": "1.5 Cáncer de Esófago y Cáncer Gástrico",
+   "diapositiva": 9,
+   "t": 475.0,
+   "mmss": "7:55",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-05&t=474&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-05&t=474",
+   "notas": 15
+  },
+  "Cancer_de_esofago": {
+   "termino": "Cáncer de esófago",
+   "tipo": "Concepto",
+   "alias": [
+    "cáncer de esófago",
+    "cáncer esofágico",
+    "carcinoma escamoso de esófago"
+   ],
+   "def": "Tumor de esófago: escamoso (tabaco, alcohol) o adenocarcinoma (ERGE, Barrett). Se sospecha ante disfagia lógica progresiva con baja de peso; se estudia con endoscopía y biopsia.",
+   "pagina": 20,
+   "clase": "gastro-05",
+   "claseTitulo": "1.5 Cáncer de Esófago y Cáncer Gástrico",
+   "diapositiva": 9,
+   "t": 475.0,
+   "mmss": "7:55",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-05&t=474&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-05&t=474",
+   "notas": 13
+  },
+  "Ganglio_de_Virchow": {
+   "termino": "Ganglio de Virchow",
+   "tipo": "Signo",
+   "alias": [
+    "ganglio de Virchow",
+    "Virchow"
+   ],
+   "def": "Adenopatía supraclavicular izquierda, una de las formas de presentación del cáncer gástrico, junto con el síndrome pilórico (vómitos posprandiales en aumento) y la masa epigástrica palpable.",
+   "pagina": 20,
+   "clase": "gastro-05",
+   "claseTitulo": "1.5 Cáncer de Esófago y Cáncer Gástrico",
+   "diapositiva": 3,
+   "t": 149.5,
+   "mmss": "2:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-05&t=149&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-05&t=149",
+   "notas": 1
+  },
+  "Hernia_diafragmatica": {
+   "termino": "Hernia diafragmática",
+   "tipo": "Concepto",
+   "alias": [
+    "hernia diafragmática",
+    "Bochdalek",
+    "Morgagni"
+   ],
+   "def": "Según origen: traumática aguda, cirugía urgente; traumática crónica (hallazgo), cirugía electiva. Congénita: primero intubar y ventilar, con reparación diferida.",
+   "pagina": 23,
+   "clase": "gastro-06",
+   "claseTitulo": "1.6 Hernia Hiatal, Hernia Diafragmática y Tumores del Mediastino",
+   "diapositiva": 2,
+   "t": 89.8,
+   "mmss": "1:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-06&t=89&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-06&t=89",
+   "notas": 8
+  },
+  "Tumores_del_mediastino": {
+   "termino": "Tumores del mediastino",
+   "tipo": "Concepto",
+   "alias": [
+    "tumor del mediastino",
+    "tumores del mediastino",
+    "masa mediastínica",
+    "timoma"
+   ],
+   "def": "Masas del mediastino anterior (4 T: Timoma, Terrible linfoma, Teratoma, Tiroides). Se estudian con TAC de tórax con contraste; el timoma se reseca si es grande, sintomático o con miastenia.",
+   "pagina": 23,
+   "clase": "gastro-06",
+   "claseTitulo": "1.6 Hernia Hiatal, Hernia Diafragmática y Tumores del Mediastino",
+   "diapositiva": 7,
+   "t": 285.8,
+   "mmss": "4:46",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-06&t=285&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-06&t=285",
+   "notas": 6
+  },
+  "Sindrome_de_intestino_irritable": {
+   "termino": "Síndrome de intestino irritable",
+   "tipo": "Concepto",
+   "alias": [
+    "intestino irritable",
+    "SII"
+   ],
+   "def": "Trastorno funcional de diagnóstico clínico (Roma IV), sin endoscopía si no hay signos de alarma. Según síntoma: antiespasmódicos; amitriptilina si diarrea; polietilenglicol si constipación.",
+   "pagina": 29,
+   "clase": "gastro-07",
+   "claseTitulo": "2.1 Trastornos Digestivos Funcionales y Síndrome de Intestino Irritable",
+   "diapositiva": 8,
+   "t": 382.8,
+   "mmss": "6:23",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-07&t=382&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-07&t=382",
+   "notas": 15
+  },
+  "Criterios_de_Roma_IV": {
+   "termino": "Criterios de Roma IV",
+   "tipo": "Concepto",
+   "alias": [
+    "Roma IV"
+   ],
+   "def": "Criterios clínicos positivos para el síndrome de intestino irritable (SII). Su diagnóstico no requiere endoscopía si no hay signos de alarma.",
+   "pagina": 29,
+   "clase": "gastro-07",
+   "claseTitulo": "2.1 Trastornos Digestivos Funcionales y Síndrome de Intestino Irritable",
+   "diapositiva": 2,
+   "t": 59.8,
+   "mmss": "1:00",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-07&t=59&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-07&t=59",
+   "notas": 3
+  },
+  "Signos_de_alarma": {
+   "termino": "Signos de alarma",
+   "tipo": "Signo",
+   "alias": [
+    "signos de alarma",
+    "signo de alarma",
+    "banderas rojas"
+   ],
+   "def": "Hallazgos ABCDEFH (anemia, baja de peso, cambio de hábito, disfagia, edad > 50 años, familiar con cáncer, hemorragia, síntomas nocturnos) que obligan a estudiar con endoscopía o colonoscopía.",
+   "pagina": 29,
+   "clase": "gastro-07",
+   "claseTitulo": "2.1 Trastornos Digestivos Funcionales y Síndrome de Intestino Irritable",
+   "diapositiva": 3,
+   "t": 106.5,
+   "mmss": "1:46",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-07&t=106&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-07&t=106",
+   "notas": 19
+  },
+  "Diarrea_aguda": {
+   "termino": "Diarrea aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "diarrea aguda"
+   ],
+   "def": "Viral en su mayoría. Manejo: hidratación (Plan A/B/C), sin antidiarreicos. Antibiótico (ciprofloxacino) solo en disentería, diarrea del viajero, fiebre persistente o sepsis.",
+   "pagina": 99,
+   "clase": "gastro-23",
+   "claseTitulo": "6.1 Diarrea Aguda y Crónica en el Niño",
+   "diapositiva": 1,
+   "t": 23.4,
+   "mmss": "0:23",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-23&t=23&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-23&t=23",
+   "notas": 8
+  },
+  "Diarrea_cronica": {
+   "termino": "Diarrea crónica",
+   "tipo": "Concepto",
+   "alias": [
+    "diarrea crónica"
+   ],
+   "def": "Diarrea de ≥ 4 semanas. Según la clínica: funcional (SII), malabsorción (Sudán, D-xilosa, serología celíaca), EII o cáncer de colon si hay signos de alarma (colonoscopía).",
+   "pagina": 31,
+   "clase": "gastro-08",
+   "claseTitulo": "2.2 Diarrea Aguda, Diarrea Crónica y Constipación",
+   "diapositiva": 21,
+   "t": 558.2,
+   "mmss": "9:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-08&t=558&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-08&t=558",
+   "notas": 13
+  },
+  "Sindrome_disenterico": {
+   "termino": "Síndrome disentérico",
+   "tipo": "Signo",
+   "alias": [
+    "disentería",
+    "síndrome disentérico",
+    "diarrea con sangre"
+   ],
+   "def": "Diarrea con sangre en las deposiciones, por Shigella o E. coli enteroinvasora. Antibiótico: ciprofloxacino oral; cefotaxima endovenosa si hay sepsis. Antidiarreicos contraindicados en pediatría.",
+   "pagina": 31,
+   "clase": "gastro-08",
+   "claseTitulo": "2.2 Diarrea Aguda, Diarrea Crónica y Constipación",
+   "diapositiva": 10,
+   "t": 451.9,
+   "mmss": "7:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-08&t=451&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-08&t=451",
+   "notas": 7
+  },
+  "Clostridioides_difficile": {
+   "termino": "Clostridioides difficile",
+   "tipo": "Concepto",
+   "alias": [
+    "Clostridioides difficile",
+    "Clostridium difficile",
+    "C. difficile"
+   ],
+   "def": "Causa de diarrea tras antibióticos del último mes; se diagnostica con PCR de toxina. Tratamiento: metronidazol → vancomicina oral. Evaluar la respuesta clínicamente, no con PCR de control.",
+   "pagina": 31,
+   "clase": "gastro-08",
+   "claseTitulo": "2.2 Diarrea Aguda, Diarrea Crónica y Constipación",
+   "diapositiva": 4,
+   "t": 161.9,
+   "mmss": "2:42",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-08&t=161&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-08&t=161",
+   "notas": 6
+  },
+  "Constipacion": {
+   "termino": "Constipación",
+   "tipo": "Concepto",
+   "alias": [
+    "constipación",
+    "estreñimiento"
+   ],
+   "def": "Deposiciones duras y < 3 por semana. La funcional se maneja con educación, fibra y agua; con signos de alarma en el adulto mayor, colonoscopía para descartar cáncer.",
+   "pagina": 31,
+   "clase": "gastro-08",
+   "claseTitulo": "2.2 Diarrea Aguda, Diarrea Crónica y Constipación",
+   "diapositiva": 1,
+   "t": 23.2,
+   "mmss": "0:23",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-08&t=23&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-08&t=23",
+   "notas": 20
+  },
+  "Fecaloma": {
+   "termino": "Fecaloma",
+   "tipo": "Concepto",
+   "alias": [
+    "fecaloma"
+   ],
+   "def": "Causa más frecuente de masa abdominal en pediatría; produce encopresis y pseudoincontinencia por rebosamiento. Tratamiento: desimpactar con polietilenglicol oral y mantener con laxante ≥ 4 semanas.",
+   "pagina": 102,
+   "clase": "gastro-24",
+   "claseTitulo": "6.2 Reflujo del Lactante, Dolor Abdominal Crónico y Constipación en el Niño",
+   "diapositiva": 5,
+   "t": 282.6,
+   "mmss": "4:43",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-24&t=282&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-24&t=282",
+   "notas": 9
+  },
+  "Enfermedad_celiaca": {
+   "termino": "Enfermedad celíaca",
+   "tipo": "Concepto",
+   "alias": [
+    "enfermedad celíaca",
+    "celiaquía",
+    "celíaca",
+    "celíaco"
+   ],
+   "def": "Malabsorción con anemia ferropénica refractaria; diagnóstico con anti-transglutaminasa IgA más IgA total, y biopsia duodenal con gluten en la dieta. Tratamiento: dieta sin gluten de por vida.",
+   "pagina": 36,
+   "clase": "gastro-09",
+   "claseTitulo": "2.3 Síndrome de Malabsorción, Enfermedad Celíaca e Intolerancia a la Lactosa",
+   "diapositiva": 2,
+   "t": 104.6,
+   "mmss": "1:45",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-09&t=104&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-09&t=104",
+   "notas": 28
+  },
+  "Intolerancia_a_la_lactosa": {
+   "termino": "Intolerancia a la lactosa",
+   "tipo": "Concepto",
+   "alias": [
+    "intolerancia a la lactosa"
+   ],
+   "def": "Déficit de lactasa, frecuente en el adulto.",
+   "pagina": 36,
+   "clase": "gastro-09",
+   "claseTitulo": "2.3 Síndrome de Malabsorción, Enfermedad Celíaca e Intolerancia a la Lactosa",
+   "diapositiva": 4,
+   "t": 246.3,
+   "mmss": "4:06",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-09&t=246&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-09&t=246",
+   "notas": 2
+  },
+  "Sindrome_de_malabsorcion": {
+   "termino": "Síndrome de malabsorción",
+   "tipo": "Concepto",
+   "alias": [
+    "malabsorción"
+   ],
+   "def": "Malabsorción crónica (≥ 4 semanas) estudiada con test de Sudán, D-xilosa y serología celíaca. Si persiste pese a cumplir la dieta con anticuerpos negativos, sospechar linfoma T asociado a enteropatía.",
+   "pagina": 36,
+   "clase": "gastro-09",
+   "claseTitulo": "2.3 Síndrome de Malabsorción, Enfermedad Celíaca e Intolerancia a la Lactosa",
+   "diapositiva": 0,
+   "t": 5.2,
+   "mmss": "0:05",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-09&t=5&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-09&t=5",
+   "notas": 9
+  },
+  "Esteatorrea": {
+   "termino": "Esteatorrea",
+   "tipo": "Signo",
+   "alias": [
+    "esteatorrea"
+   ],
+   "def": "Deposiciones brillantes, que flotan y de mal olor; se confirma con test de Sudán. Test de D-xilosa alterado = pared intestinal (celíaca, Crohn); normal = enzimas pancreáticas.",
+   "pagina": 36,
+   "clase": "gastro-09",
+   "claseTitulo": "2.3 Síndrome de Malabsorción, Enfermedad Celíaca e Intolerancia a la Lactosa",
+   "diapositiva": 1,
+   "t": 29.0,
+   "mmss": "0:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-09&t=29&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-09&t=29",
+   "notas": 10
+  },
+  "Colitis_ulcerosa": {
+   "termino": "Colitis ulcerosa",
+   "tipo": "Concepto",
+   "alias": [
+    "colitis ulcerosa"
+   ],
+   "def": "Enfermedad autoinmune limitada al colon, continua y desde el recto, solo en la mucosa; clínica de pujo y tenesmo. Su colectomía es curativa.",
+   "pagina": 39,
+   "clase": "gastro-10",
+   "claseTitulo": "2.4 Enfermedad Inflamatoria Intestinal: Colitis Ulcerosa y Enfermedad de Crohn",
+   "diapositiva": 11,
+   "t": 576.9,
+   "mmss": "9:37",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-10&t=576&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-10&t=576",
+   "notas": 13
+  },
+  "Enfermedad_de_Crohn": {
+   "termino": "Enfermedad de Crohn",
+   "tipo": "Concepto",
+   "alias": [
+    "enfermedad de Crohn",
+    "Crohn"
+   ],
+   "def": "Enfermedad inflamatoria intestinal transmural que puede afectar de la boca al ano, en parches y respetando el recto. Basta una característica para diagnosticarla; la cirugía nunca cura.",
+   "pagina": 39,
+   "clase": "gastro-10",
+   "claseTitulo": "2.4 Enfermedad Inflamatoria Intestinal: Colitis Ulcerosa y Enfermedad de Crohn",
+   "diapositiva": 2,
+   "t": 89.9,
+   "mmss": "1:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-10&t=89&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-10&t=89",
+   "notas": 14
+  },
+  "Enfermedad_inflamatoria_intestinal": {
+   "termino": "Enfermedad inflamatoria intestinal",
+   "tipo": "Concepto",
+   "alias": [
+    "enfermedad inflamatoria intestinal",
+    "EII"
+   ],
+   "def": "Causa de diarrea crónica; en EUNACOM, la tríada diarrea disentérica + artralgias migratorias + aftas o nódulos en las piernas es casi patognomónica. Se estudia con colonoscopía.",
+   "pagina": 39,
+   "clase": "gastro-10",
+   "claseTitulo": "2.4 Enfermedad Inflamatoria Intestinal: Colitis Ulcerosa y Enfermedad de Crohn",
+   "diapositiva": 3,
+   "t": 180.6,
+   "mmss": "3:01",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-10&t=180&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-10&t=180",
+   "notas": 12
+  },
+  "Megacolon_toxico": {
+   "termino": "Megacolon tóxico",
+   "tipo": "Concepto",
+   "alias": [
+    "megacolon tóxico"
+   ],
+   "def": "Dilatación del colon > 6 cm con sepsis, urgencia vital; complicación de la colitis ulcerosa. La enema baritada está contraindicada.",
+   "pagina": 39,
+   "clase": "gastro-10",
+   "claseTitulo": "2.4 Enfermedad Inflamatoria Intestinal: Colitis Ulcerosa y Enfermedad de Crohn",
+   "diapositiva": 4,
+   "t": 227.5,
+   "mmss": "3:48",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-10&t=227&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-10&t=227",
+   "notas": 7
+  },
+  "Polipo_adenomatoso": {
+   "termino": "Pólipo adenomatoso",
+   "tipo": "Concepto",
+   "alias": [
+    "pólipo adenomatoso",
+    "pólipos adenomatosos",
+    "adenoma de colon",
+    "adenomas"
+   ],
+   "def": "Pólipo premaligno: la mayoría de los cánceres de colon nacen de un adenoma, por lo que se resecan en la colonoscopía. Los pólipos hiperplásicos son casi siempre benignos.",
+   "pagina": 44,
+   "clase": "gastro-11",
+   "claseTitulo": "2.5 Pólipos y Cáncer Colorrectal · Tamizaje",
+   "diapositiva": 6,
+   "t": 293.0,
+   "mmss": "4:53",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-11&t=292&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-11&t=292",
+   "notas": 4
+  },
+  "Cancer_colorrectal": {
+   "termino": "Cáncer colorrectal",
+   "tipo": "Concepto",
+   "alias": [
+    "cáncer colorrectal",
+    "cáncer de colon",
+    "cáncer de recto"
+   ],
+   "def": "Cáncer de colon y recto; la mayoría nace de un adenoma. Constipación reciente con anemia ferropénica en el adulto mayor obliga a colonoscopía; en el recto se agrega radioterapia.",
+   "pagina": 44,
+   "clase": "gastro-11",
+   "claseTitulo": "2.5 Pólipos y Cáncer Colorrectal · Tamizaje",
+   "diapositiva": 5,
+   "t": 247.4,
+   "mmss": "4:07",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-11&t=247&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-11&t=247",
+   "notas": 23
+  },
+  "Poliposis_adenomatosa_familiar": {
+   "termino": "Poliposis adenomatosa familiar",
+   "tipo": "Concepto",
+   "alias": [
+    "poliposis adenomatosa familiar",
+    "PAF"
+   ],
+   "def": "Cientos de pólipos que malignizan en el 100 % de los casos; se trata con colectomía total profiláctica.",
+   "pagina": 44,
+   "clase": "gastro-11",
+   "claseTitulo": "2.5 Pólipos y Cáncer Colorrectal · Tamizaje",
+   "diapositiva": 4,
+   "t": 200.8,
+   "mmss": "3:21",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-11&t=200&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-11&t=200",
+   "notas": 3
+  },
+  "Sindrome_de_Lynch": {
+   "termino": "Síndrome de Lynch",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome de Lynch",
+    "Lynch"
+   ],
+   "def": "Síndrome de alto riesgo, con pocos pólipos (HNPCC). Requiere vigilancia colonoscópica intensiva.",
+   "pagina": 44,
+   "clase": "gastro-11",
+   "claseTitulo": "2.5 Pólipos y Cáncer Colorrectal · Tamizaje",
+   "diapositiva": 4,
+   "t": 200.8,
+   "mmss": "3:21",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-11&t=200&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-11&t=200",
+   "notas": 1
+  },
+  "Fisura_anal": {
+   "termino": "Fisura anal",
+   "tipo": "Concepto",
+   "alias": [
+    "fisura anal"
+   ],
+   "def": "Herida lineal dolorosa del margen anal, causada por constipación: dolor con la defecación y rectorragia al papel. Manejo médico: baños de asiento y tratar la constipación.",
+   "pagina": 48,
+   "clase": "gastro-12",
+   "claseTitulo": "2.6 Patología Perianal: Fisura, Hemorroides, Absceso y Fístula",
+   "diapositiva": 1,
+   "t": 24.3,
+   "mmss": "0:24",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-12&t=24&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-12&t=24",
+   "notas": 7
+  },
+  "Hemorroides": {
+   "termino": "Hemorroides",
+   "tipo": "Concepto",
+   "alias": [
+    "hemorroides",
+    "hemorroide",
+    "enfermedad hemorroidal"
+   ],
+   "def": "Interna: hematoquecia sin dolor. Externa trombosada: dolor anal agudo con nódulo violáceo visible; baños de asiento y trombectomía solo dentro de 48–72 h.",
+   "pagina": 48,
+   "clase": "gastro-12",
+   "claseTitulo": "2.6 Patología Perianal: Fisura, Hemorroides, Absceso y Fístula",
+   "diapositiva": 2,
+   "t": 71.6,
+   "mmss": "1:12",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-12&t=71&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-12&t=71",
+   "notas": 10
+  },
+  "Absceso_perianal": {
+   "termino": "Absceso perianal",
+   "tipo": "Concepto",
+   "alias": [
+    "absceso perianal",
+    "absceso anorrectal"
+   ],
+   "def": "Dolor anal que aumenta progresivamente, con masa eritematosa fluctuante. Requiere drenaje quirúrgico en pabellón; los antibióticos solos no bastan.",
+   "pagina": 48,
+   "clase": "gastro-12",
+   "claseTitulo": "2.6 Patología Perianal: Fisura, Hemorroides, Absceso y Fístula",
+   "diapositiva": 3,
+   "t": 137.4,
+   "mmss": "2:17",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-12&t=137&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-12&t=137",
+   "notas": 5
+  },
+  "Fistula_perianal": {
+   "termino": "Fístula perianal",
+   "tipo": "Concepto",
+   "alias": [
+    "fístula perianal",
+    "fístula anal"
+   ],
+   "def": "Secuela de un absceso anal que drena a la piel por un orificio que supura de forma crónica.",
+   "pagina": 48,
+   "clase": "gastro-12",
+   "claseTitulo": "2.6 Patología Perianal: Fisura, Hemorroides, Absceso y Fístula",
+   "diapositiva": 3,
+   "t": 137.4,
+   "mmss": "2:17",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-12&t=137&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-12&t=137",
+   "notas": 4
+  },
+  "Ictericia": {
+   "termino": "Ictericia",
+   "tipo": "Signo",
+   "alias": [
+    "ictericia"
+   ],
+   "def": "Coloración amarilla de piel y escleras, visible sobre 2,5–3 mg/dL de bilirrubina. Con dolor sugiere coledocolitiasis o colangitis; en cáncer de páncreas es progresiva e indolora.",
+   "pagina": 54,
+   "clase": "gastro-13",
+   "claseTitulo": "3.1 Ictericia y Colestasia: Enfrentamiento Diagnóstico",
+   "diapositiva": 10,
+   "t": 491.4,
+   "mmss": "8:11",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-13&t=491&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-13&t=491",
+   "notas": 19
+  },
+  "Colestasia": {
+   "termino": "Colestasia",
+   "tipo": "Concepto",
+   "alias": [
+    "colestasia",
+    "colestásico"
+   ],
+   "def": "Obstrucción del flujo biliar, con fosfatasa alcalina y GGT elevadas en la hiperbilirrubinemia directa. Sin dolor en el adulto mayor orienta a cáncer de páncreas; con dolor, a coledocolitiasis.",
+   "pagina": 54,
+   "clase": "gastro-13",
+   "claseTitulo": "3.1 Ictericia y Colestasia: Enfrentamiento Diagnóstico",
+   "diapositiva": 3,
+   "t": 130.8,
+   "mmss": "2:11",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-13&t=130&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-13&t=130",
+   "notas": 8
+  },
+  "Sindrome_de_Gilbert": {
+   "termino": "Síndrome de Gilbert",
+   "tipo": "Concepto",
+   "alias": [
+    "Gilbert"
+   ],
+   "def": "Hiperbilirrubinemia indirecta benigna (5–10 % de la población), con el resto de las pruebas hepáticas normales; se observa. Se diferencia de la hemólisis (LDH alta, esquistocitos, anemia).",
+   "pagina": 54,
+   "clase": "gastro-13",
+   "claseTitulo": "3.1 Ictericia y Colestasia: Enfrentamiento Diagnóstico",
+   "diapositiva": 11,
+   "t": 553.6,
+   "mmss": "9:14",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-13&t=553&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-13&t=553",
+   "notas": 2
+  },
+  "Hepatitis_A": {
+   "termino": "Hepatitis A",
+   "tipo": "Concepto",
+   "alias": [
+    "hepatitis A",
+    "VHA"
+   ],
+   "def": "Infección aguda por VHA, de transmisión fecal-oral y notificación obligatoria inmediata en Chile. Se diagnostica con IgM anti-VHA; la vacuna está en el PNI desde 2018 a los 18 meses.",
+   "pagina": 58,
+   "clase": "gastro-14",
+   "claseTitulo": "3.2 Hepatitis Aguda y Crónica",
+   "diapositiva": 2,
+   "t": 116.3,
+   "mmss": "1:56",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-14&t=116&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-14&t=116",
+   "notas": 6
+  },
+  "Hepatitis_B": {
+   "termino": "Hepatitis B",
+   "tipo": "Concepto",
+   "alias": [
+    "hepatitis B",
+    "VHB",
+    "HBsAg"
+   ],
+   "def": "Infección por VHB, transmitida por vía sexual (principal en adultos), parenteral y vertical. Con AgHBs (+) e IgM anti-HBc (+) es aguda; con IgM anti-HBc (−), crónica.",
+   "pagina": 58,
+   "clase": "gastro-14",
+   "claseTitulo": "3.2 Hepatitis Aguda y Crónica",
+   "diapositiva": 14,
+   "t": 832.4,
+   "mmss": "13:52",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-14&t=832&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-14&t=832",
+   "notas": 6
+  },
+  "Hepatitis_C": {
+   "termino": "Hepatitis C",
+   "tipo": "Concepto",
+   "alias": [
+    "hepatitis C",
+    "VHC"
+   ],
+   "def": "Hepatitis viral de transmisión parenteral (drogas endovenosas, transfusiones previas a 1996, tatuajes); el 80–90 % cronifica. Diagnóstico: anti-VHC como tamizaje y ARN-VHC por PCR como confirmación.",
+   "pagina": 58,
+   "clase": "gastro-14",
+   "claseTitulo": "3.2 Hepatitis Aguda y Crónica",
+   "diapositiva": 6,
+   "t": 371.8,
+   "mmss": "6:12",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-14&t=371&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-14&t=371",
+   "notas": 3
+  },
+  "Hepatitis_autoinmune": {
+   "termino": "Hepatitis autoinmune",
+   "tipo": "Concepto",
+   "alias": [
+    "hepatitis autoinmune"
+   ],
+   "def": "Forma crónica de causa inmune, típica en mujeres con otra enfermedad autoinmune como Hashimoto, con hipergammaglobulinemia. Biopsia con hepatitis de interfase; se trata con corticoides y azatioprina.",
+   "pagina": 58,
+   "clase": "gastro-14",
+   "claseTitulo": "3.2 Hepatitis Aguda y Crónica",
+   "diapositiva": 8,
+   "t": 511.3,
+   "mmss": "8:31",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-14&t=511&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-14&t=511",
+   "notas": 1
+  },
+  "Falla_hepatica_aguda": {
+   "termino": "Falla hepática aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "falla hepática aguda",
+    "insuficiencia hepática aguda",
+    "hepatitis fulminante"
+   ],
+   "def": "Hepatitis fulminante: encefalopatía dentro de las 8 semanas de la ictericia, en hígado previamente sano. Derivar a centro con trasplante si hay encefalopatía o INR ≥ 1,5.",
+   "pagina": 58,
+   "clase": "gastro-14",
+   "claseTitulo": "3.2 Hepatitis Aguda y Crónica",
+   "diapositiva": 3,
+   "t": 190.8,
+   "mmss": "3:11",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-14&t=190&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-14&t=190",
+   "notas": 1
+  },
+  "Cirrosis_hepatica": {
+   "termino": "Cirrosis hepática",
+   "tipo": "Concepto",
+   "alias": [
+    "cirrosis",
+    "daño hepático crónico"
+   ],
+   "def": "Desenlace de la hepatitis crónica (NASH, VHB, VHC, autoinmune); se estadifica con elastografía o biopsia. Biliar primaria: mujer de 40–60 años, prurito, AMA (+) → ácido ursodesoxicólico.",
+   "pagina": 61,
+   "clase": "gastro-15",
+   "claseTitulo": "3.3 Daño Hepático Crónico e Hipertensión Portal",
+   "diapositiva": 1,
+   "t": 34.4,
+   "mmss": "0:34",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-15&t=34&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-15&t=34",
+   "notas": 8
+  },
+  "Hipertension_portal": {
+   "termino": "Hipertensión portal",
+   "tipo": "Concepto",
+   "alias": [
+    "hipertensión portal"
+   ],
+   "def": "Aumento de presión en la vena porta, confirmado por gradiente albúmina sérica-ascítica ≥ 1,1 g/dL. En ascitis a tensión: paracentesis evacuadora con albúmina (~8 g/L).",
+   "pagina": 61,
+   "clase": "gastro-15",
+   "claseTitulo": "3.3 Daño Hepático Crónico e Hipertensión Portal",
+   "diapositiva": 1,
+   "t": 34.4,
+   "mmss": "0:34",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-15&t=34&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-15&t=34",
+   "notas": 2
+  },
+  "Ascitis": {
+   "termino": "Ascitis",
+   "tipo": "Signo",
+   "alias": [
+    "ascitis"
+   ],
+   "def": "Tratamiento de la ascitis no complicada: restricción de sodio más espironolactona ± furosemida. A tensión, paracentesis evacuadora con albúmina; refractaria, considerar TIPS o trasplante.",
+   "pagina": 61,
+   "clase": "gastro-15",
+   "claseTitulo": "3.3 Daño Hepático Crónico e Hipertensión Portal",
+   "diapositiva": 4,
+   "t": 253.1,
+   "mmss": "4:13",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-15&t=253&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-15&t=253",
+   "notas": 10
+  },
+  "Peritonitis_bacteriana_espontanea": {
+   "termino": "Peritonitis bacteriana espontánea",
+   "tipo": "Concepto",
+   "alias": [
+    "peritonitis bacteriana espontánea",
+    "PBE"
+   ],
+   "def": "Infección espontánea del líquido de ascitis. Con ≥ 250 PMN/mm³: cefotaxima o ceftriaxona endovenosa + albúmina (días 1 y 3). Albúmina en el líquido < 1,5 g/dL indica alto riesgo.",
+   "pagina": 61,
+   "clase": "gastro-15",
+   "claseTitulo": "3.3 Daño Hepático Crónico e Hipertensión Portal",
+   "diapositiva": 6,
+   "t": 370.1,
+   "mmss": "6:10",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-15&t=370&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-15&t=370",
+   "notas": 11
+  },
+  "Encefalopatia_hepatica": {
+   "termino": "Encefalopatía hepática",
+   "tipo": "Concepto",
+   "alias": [
+    "encefalopatía hepática"
+   ],
+   "def": "Alteración neurológica con desorientación y asterixis. El precipitante más frecuente es la infección; también hemorragia digestiva, constipación, sedantes o diuréticos.",
+   "pagina": 61,
+   "clase": "gastro-15",
+   "claseTitulo": "3.3 Daño Hepático Crónico e Hipertensión Portal",
+   "diapositiva": 8,
+   "t": 493.3,
+   "mmss": "8:13",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-15&t=493&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-15&t=493",
+   "notas": 2
+  },
+  "Varices_esofagicas": {
+   "termino": "Várices esofágicas",
+   "tipo": "Concepto",
+   "alias": [
+    "várices esofágicas",
+    "várices"
+   ],
+   "def": "Dilataciones venosas del esófago en el cirrótico, pesquisadas con endoscopía. Profilaxis primaria con propranolol; con sangrado activo, terlipresina, antibióticos y ligadura endoscópica.",
+   "pagina": 61,
+   "clase": "gastro-15",
+   "claseTitulo": "3.3 Daño Hepático Crónico e Hipertensión Portal",
+   "diapositiva": 2,
+   "t": 120.6,
+   "mmss": "2:01",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-15&t=120&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-15&t=120",
+   "notas": 5
+  },
+  "Sindrome_hepatorrenal": {
+   "termino": "Síndrome hepatorrenal",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome hepatorrenal"
+   ],
+   "def": "Falla renal funcional del cirrótico avanzado, de muy mal pronóstico. Tratamiento: terlipresina + albúmina y trasplante; cefotaxima o ceftriaxona por 5–7 días para prevenirlo.",
+   "pagina": 61,
+   "clase": "gastro-15",
+   "claseTitulo": "3.3 Daño Hepático Crónico e Hipertensión Portal",
+   "diapositiva": 9,
+   "t": 558.1,
+   "mmss": "9:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-15&t=558&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-15&t=558",
+   "notas": 2
+  },
+  "Hepatocarcinoma": {
+   "termino": "Hepatocarcinoma",
+   "tipo": "Concepto",
+   "alias": [
+    "hepatocarcinoma",
+    "carcinoma hepatocelular"
+   ],
+   "def": "Lesión heterogénea e irregular en hígado con daño crónico (sobre todo cirrosis B o C), con AFP elevada. Se confirma con realce arterial y lavado en TAC o RM trifásica, sin biopsia.",
+   "pagina": 64,
+   "clase": "gastro-16",
+   "claseTitulo": "3.4 Lesiones Hepáticas Focales y Pólipos Vesiculares",
+   "diapositiva": 11,
+   "t": 516.9,
+   "mmss": "8:37",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-16&t=516&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-16&t=516",
+   "notas": 6
+  },
+  "Hemangioma_hepatico": {
+   "termino": "Hemangioma hepático",
+   "tipo": "Concepto",
+   "alias": [
+    "hemangioma"
+   ],
+   "def": "Lesión hepática benigna más frecuente. En la ecografía es hiperecogénica, homogénea y bien delimitada; se observa.",
+   "pagina": 64,
+   "clase": "gastro-16",
+   "claseTitulo": "3.4 Lesiones Hepáticas Focales y Pólipos Vesiculares",
+   "diapositiva": 11,
+   "t": 516.9,
+   "mmss": "8:37",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-16&t=516&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-16&t=516",
+   "notas": 4
+  },
+  "Hiperplasia_nodular_focal": {
+   "termino": "Hiperplasia nodular focal",
+   "tipo": "Concepto",
+   "alias": [
+    "hiperplasia nodular focal",
+    "HNF"
+   ],
+   "def": "Lesión hepática benigna con cicatriz central, sin riesgo; se observa.",
+   "pagina": 64,
+   "clase": "gastro-16",
+   "claseTitulo": "3.4 Lesiones Hepáticas Focales y Pólipos Vesiculares",
+   "diapositiva": 2,
+   "t": 78.1,
+   "mmss": "1:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-16&t=78&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-16&t=78",
+   "notas": 1
+  },
+  "Adenoma_hepatico": {
+   "termino": "Adenoma hepático",
+   "tipo": "Concepto",
+   "alias": [
+    "adenoma hepático",
+    "adenoma hepatocelular"
+   ],
+   "def": "Lesión única, hipoecogénica y homogénea, en mujeres con anticonceptivos orales o esteroides anabólicos. Se suspenden los estrógenos y se reseca si mide > 5 cm o da síntomas.",
+   "pagina": 64,
+   "clase": "gastro-16",
+   "claseTitulo": "3.4 Lesiones Hepáticas Focales y Pólipos Vesiculares",
+   "diapositiva": 11,
+   "t": 516.9,
+   "mmss": "8:37",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-16&t=516&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-16&t=516",
+   "notas": 2
+  },
+  "Absceso_hepatico": {
+   "termino": "Absceso hepático",
+   "tipo": "Concepto",
+   "alias": [
+    "absceso hepático"
+   ],
+   "def": "Lesión hepática hipoecogénica de contornos irregulares, con fiebre y dolor. Si es amebiano: metronidazol 500–750 mg cada 8 h por 7–10 días, seguido de un amebicida luminal.",
+   "pagina": 64,
+   "clase": "gastro-16",
+   "claseTitulo": "3.4 Lesiones Hepáticas Focales y Pólipos Vesiculares",
+   "diapositiva": 1,
+   "t": 23.3,
+   "mmss": "0:23",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-16&t=23&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-16&t=23",
+   "notas": 3
+  },
+  "Quiste_hidatidico": {
+   "termino": "Quiste hidatídico",
+   "tipo": "Concepto",
+   "alias": [
+    "quiste hidatídico",
+    "hidatidosis"
+   ],
+   "def": "Quiste con membrana, tabiques o vesículas hijas (contexto rural, contacto con perros). Tratamiento: albendazol + cirugía o PAIR; evitar la punción libre por riesgo de anafilaxia y siembra.",
+   "pagina": 64,
+   "clase": "gastro-16",
+   "claseTitulo": "3.4 Lesiones Hepáticas Focales y Pólipos Vesiculares",
+   "diapositiva": 1,
+   "t": 23.3,
+   "mmss": "0:23",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-16&t=23&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-16&t=23",
+   "notas": 4
+  },
+  "Polipo_vesicular": {
+   "termino": "Pólipo vesicular",
+   "tipo": "Concepto",
+   "alias": [
+    "pólipo vesicular",
+    "pólipos vesiculares"
+   ],
+   "def": "Lesión de la vesícula: si mide ≥ 10 mm, es heterogénea o hay colelitiasis, se indica colecistectomía; con sospecha de cáncer invasor, cirugía abierta.",
+   "pagina": 64,
+   "clase": "gastro-16",
+   "claseTitulo": "3.4 Lesiones Hepáticas Focales y Pólipos Vesiculares",
+   "diapositiva": 6,
+   "t": 285.3,
+   "mmss": "4:45",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-16&t=285&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-16&t=285",
+   "notas": 3
+  },
+  "Colelitiasis": {
+   "termino": "Colelitiasis",
+   "tipo": "Concepto",
+   "alias": [
+    "colelitiasis",
+    "cálculos biliares"
+   ],
+   "def": "Cálculos en la vesícula que se operan con colecistectomía laparoscópica electiva, incluso asintomáticos, por riesgo de complicaciones y de cáncer de vesícula en Chile.",
+   "pagina": 72,
+   "clase": "gastro-17",
+   "claseTitulo": "4.1 Colelitiasis, Colecistitis, Coledocolitiasis y Colangitis",
+   "diapositiva": 1,
+   "t": 33.0,
+   "mmss": "0:33",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-17&t=33&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-17&t=33",
+   "notas": 9
+  },
+  "Colico_biliar": {
+   "termino": "Cólico biliar",
+   "tipo": "Signo",
+   "alias": [
+    "cólico biliar"
+   ],
+   "def": "Dolor sordo en epigastrio o hipocondrio derecho de 30–60 min que cede solo, tras comidas grasas, con náuseas. Solo dolor; con fiebre sería colecistitis, con ictericia coledocolitiasis.",
+   "pagina": 72,
+   "clase": "gastro-17",
+   "claseTitulo": "4.1 Colelitiasis, Colecistitis, Coledocolitiasis y Colangitis",
+   "diapositiva": 1,
+   "t": 33.0,
+   "mmss": "0:33",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-17&t=33&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-17&t=33",
+   "notas": 3
+  },
+  "Colecistitis_aguda": {
+   "termino": "Colecistitis aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "colecistitis"
+   ],
+   "def": "Inflamación vesicular con dolor y fiebre; es la única patología biliar de resolución quirúrgica urgente (colecistectomía < 72 h). Las crónicas se operan electivamente por riesgo de cáncer.",
+   "pagina": 72,
+   "clase": "gastro-17",
+   "claseTitulo": "4.1 Colelitiasis, Colecistitis, Coledocolitiasis y Colangitis",
+   "diapositiva": 9,
+   "t": 416.5,
+   "mmss": "6:56",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-17&t=416&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-17&t=416",
+   "notas": 8
+  },
+  "Coledocolitiasis": {
+   "termino": "Coledocolitiasis",
+   "tipo": "Concepto",
+   "alias": [
+    "coledocolitiasis"
+   ],
+   "def": "Cálculo en el colédoco que causa dolor e ictericia. Estudio: ecografía, colangiorresonancia y CPRE; va directo a CPRE si hay colangitis o si la ecografía ve el cálculo.",
+   "pagina": 72,
+   "clase": "gastro-17",
+   "claseTitulo": "4.1 Colelitiasis, Colecistitis, Coledocolitiasis y Colangitis",
+   "diapositiva": 20,
+   "t": 743.6,
+   "mmss": "12:24",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-17&t=743&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-17&t=743",
+   "notas": 10
+  },
+  "Colangitis_aguda": {
+   "termino": "Colangitis aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "colangitis"
+   ],
+   "def": "Infección biliar con fiebre e ictericia (Charcot). Lo esencial es el drenaje biliar urgente por CPRE, con volumen y antibióticos; se va directo a CPRE, sin colangiorresonancia.",
+   "pagina": 72,
+   "clase": "gastro-17",
+   "claseTitulo": "4.1 Colelitiasis, Colecistitis, Coledocolitiasis y Colangitis",
+   "diapositiva": 20,
+   "t": 743.6,
+   "mmss": "12:24",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-17&t=743&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-17&t=743",
+   "notas": 19
+  },
+  "Triada_de_Charcot": {
+   "termino": "Tríada de Charcot",
+   "tipo": "Signo",
+   "alias": [
+    "tríada de Charcot",
+    "Charcot"
+   ],
+   "def": "Dolor, ictericia y fiebre juntos, que indican colangitis. Solo dolor sugiere cólico biliar; dolor con fiebre, colecistitis; dolor con ictericia, coledocolitiasis.",
+   "pagina": 72,
+   "clase": "gastro-17",
+   "claseTitulo": "4.1 Colelitiasis, Colecistitis, Coledocolitiasis y Colangitis",
+   "diapositiva": 7,
+   "t": 342.2,
+   "mmss": "5:42",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-17&t=342&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-17&t=342",
+   "notas": 4
+  },
+  "Signo_de_Murphy": {
+   "termino": "Signo de Murphy",
+   "tipo": "Signo",
+   "alias": [
+    "Murphy"
+   ],
+   "def": "Hallazgo que, con dolor persistente (> 6 h) en hipocondrio derecho, fiebre y leucocitosis, apunta a colecistitis. En ecografía se ve con pared > 4 mm y líquido perivesicular.",
+   "pagina": 72,
+   "clase": "gastro-17",
+   "claseTitulo": "4.1 Colelitiasis, Colecistitis, Coledocolitiasis y Colangitis",
+   "diapositiva": 4,
+   "t": 180.4,
+   "mmss": "3:00",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-17&t=180&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-17&t=180",
+   "notas": 3
+  },
+  "Pancreatitis_aguda": {
+   "termino": "Pancreatitis aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "pancreatitis aguda",
+    "pancreatitis"
+   ],
+   "def": "Inflamación del páncreas; diagnóstico con 2 de 3 criterios de Atlanta 2012 (dolor típico, imagen compatible). Realimentación oral precoz; sin antibióticos profilácticos si no está infectada.",
+   "pagina": 75,
+   "clase": "gastro-18",
+   "claseTitulo": "4.2 Pancreatitis Aguda",
+   "diapositiva": 9,
+   "t": 456.4,
+   "mmss": "7:36",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-18&t=456&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-18&t=456",
+   "notas": 33
+  },
+  "Criterios_de_gravedad_de_pancreatitis": {
+   "termino": "Criterios de gravedad de pancreatitis",
+   "tipo": "Concepto",
+   "alias": [
+    "BISAP",
+    "Ranson",
+    "Balthazar"
+   ],
+   "def": "Scores predictivos: BISAP (BUN > 25, alteración de conciencia, SIRS, edad > 60, derrame pleural) es el más simple; APACHE-II es el más usado en UCI; Ranson requiere 48 h.",
+   "pagina": 75,
+   "clase": "gastro-18",
+   "claseTitulo": "4.2 Pancreatitis Aguda",
+   "diapositiva": 6,
+   "t": 294.4,
+   "mmss": "4:54",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-18&t=294&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-18&t=294",
+   "notas": 1
+  },
+  "Apendicitis_aguda": {
+   "termino": "Apendicitis aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "apendicitis"
+   ],
+   "def": "Dolor que migra del ombligo a la fosa ilíaca derecha, con anorexia; diagnóstico clínico que lleva a apendicectomía. Si está perforada, se opera de urgencia con lavado y antibióticos.",
+   "pagina": 82,
+   "clase": "gastro-19",
+   "claseTitulo": "5.1 Abdomen Agudo: Apendicitis y Diverticulitis",
+   "diapositiva": 13,
+   "t": 697.0,
+   "mmss": "11:37",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-19&t=697&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-19&t=697",
+   "notas": 10
+  },
+  "Signo_de_Blumberg": {
+   "termino": "Signo de Blumberg",
+   "tipo": "Signo",
+   "alias": [
+    "Blumberg"
+   ],
+   "def": "Signo peritoneal: dolor al descomprimir la pared abdominal, junto con resistencia muscular y abdomen en tabla.",
+   "pagina": 82,
+   "clase": "gastro-19",
+   "claseTitulo": "5.1 Abdomen Agudo: Apendicitis y Diverticulitis",
+   "diapositiva": 1,
+   "t": 32.9,
+   "mmss": "0:33",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-19&t=32&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-19&t=32",
+   "notas": 6
+  },
+  "Signo_de_Rovsing": {
+   "termino": "Signo de Rovsing",
+   "tipo": "Signo",
+   "alias": [
+    "Rovsing"
+   ],
+   "def": "Signo de apendicitis: al comprimir la fosa ilíaca izquierda, el dolor aparece en la derecha.",
+   "pagina": 82,
+   "clase": "gastro-19",
+   "claseTitulo": "5.1 Abdomen Agudo: Apendicitis y Diverticulitis",
+   "diapositiva": 3,
+   "t": 130.3,
+   "mmss": "2:10",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-19&t=130&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-19&t=130",
+   "notas": 1
+  },
+  "Diverticulitis": {
+   "termino": "Diverticulitis",
+   "tipo": "Concepto",
+   "alias": [
+    "diverticulitis",
+    "enfermedad diverticular"
+   ],
+   "def": "Inflamación de divertículos; se estudia con TAC de abdomen y pelvis, porque la colonoscopía está contraindicada en el episodio agudo. Su fístula colovesical causa neumaturia e infecciones urinarias.",
+   "pagina": 82,
+   "clase": "gastro-19",
+   "claseTitulo": "5.1 Abdomen Agudo: Apendicitis y Diverticulitis",
+   "diapositiva": 11,
+   "t": 588.8,
+   "mmss": "9:49",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-19&t=588&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-19&t=588",
+   "notas": 13
+  },
+  "Clasificacion_de_Hinchey": {
+   "termino": "Clasificación de Hinchey",
+   "tipo": "Concepto",
+   "alias": [
+    "Hinchey"
+   ],
+   "def": "Clasificación de complicaciones: Hinchey I–II (absceso) → antibióticos ± drenaje; Hinchey III–IV (peritonitis) → operación de Hartmann.",
+   "pagina": 82,
+   "clase": "gastro-19",
+   "claseTitulo": "5.1 Abdomen Agudo: Apendicitis y Diverticulitis",
+   "diapositiva": 8,
+   "t": 434.3,
+   "mmss": "7:14",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-19&t=434&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-19&t=434",
+   "notas": 7
+  },
+  "Isquemia_mesenterica": {
+   "termino": "Isquemia mesentérica",
+   "tipo": "Concepto",
+   "alias": [
+    "isquemia mesentérica"
+   ],
+   "def": "Causa de abdomen agudo quirúrgico, asociada a fibrilación auricular y ateroesclerosis.",
+   "pagina": 85,
+   "clase": "gastro-20",
+   "claseTitulo": "5.2 Isquemia Mesentérica y Abdomen Agudo de Origen Vascular",
+   "diapositiva": 14,
+   "t": 786.9,
+   "mmss": "13:07",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-20&t=786&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-20&t=786",
+   "notas": 1
+  },
+  "Colitis_isquemica": {
+   "termino": "Colitis isquémica",
+   "tipo": "Concepto",
+   "alias": [
+    "colitis isquémica"
+   ],
+   "def": "Colitis del adulto mayor, con dolor en hemiabdomen izquierdo y hematoquecia. Suele resolver con manejo médico.",
+   "pagina": 85,
+   "clase": "gastro-20",
+   "claseTitulo": "5.2 Isquemia Mesentérica y Abdomen Agudo de Origen Vascular",
+   "diapositiva": 4,
+   "t": 266.7,
+   "mmss": "4:27",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-20&t=266&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-20&t=266",
+   "notas": 7
+  },
+  "Hemorragia_digestiva_alta": {
+   "termino": "Hemorragia digestiva alta",
+   "tipo": "Concepto",
+   "alias": [
+    "hemorragia digestiva alta",
+    "HDA"
+   ],
+   "def": "Sangrado proximal al ángulo de Treitz (esófago, estómago, duodeno) con hematemesis y melena (requiere ≥ 8 h de tránsito). Manejo: IBP endovenoso + endoscopía urgente con terapia hemostática.",
+   "pagina": 88,
+   "clase": "gastro-21",
+   "claseTitulo": "5.3 Hemorragia Digestiva Alta y Baja",
+   "diapositiva": 1,
+   "t": 30.5,
+   "mmss": "0:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-21&t=30&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-21&t=30",
+   "notas": 7
+  },
+  "Hemorragia_digestiva_baja": {
+   "termino": "Hemorragia digestiva baja",
+   "tipo": "Concepto",
+   "alias": [
+    "hemorragia digestiva baja",
+    "HDB"
+   ],
+   "def": "Sangrado distal al Treitz, con hematoquecia o rectorragia. La causa más frecuente de la masiva es la enfermedad diverticular; en el niño, divertículo de Meckel.",
+   "pagina": 88,
+   "clase": "gastro-21",
+   "claseTitulo": "5.3 Hemorragia Digestiva Alta y Baja",
+   "diapositiva": 1,
+   "t": 30.5,
+   "mmss": "0:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-21&t=30&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-21&t=30",
+   "notas": 7
+  },
+  "Melena": {
+   "termino": "Melena",
+   "tipo": "Signo",
+   "alias": [
+    "melena"
+   ],
+   "def": "Deposición negra y alquitranada que indica hemorragia digestiva alta, de origen proximal al ángulo de Treitz (requiere ≥ 8 h de tránsito). Se asocia a úlcera gastroduodenal.",
+   "pagina": 88,
+   "clase": "gastro-21",
+   "claseTitulo": "5.3 Hemorragia Digestiva Alta y Baja",
+   "diapositiva": 1,
+   "t": 30.5,
+   "mmss": "0:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-21&t=30&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-21&t=30",
+   "notas": 4
+  },
+  "Hematemesis": {
+   "termino": "Hematemesis",
+   "tipo": "Signo",
+   "alias": [
+    "hematemesis"
+   ],
+   "def": "Vómito de sangre de origen digestivo alto. Tras vómitos intensos suele ser Mallory-Weiss (desgarro mucoso, autolimitado, buen pronóstico); no confundir con Boerhaave (perforación).",
+   "pagina": 88,
+   "clase": "gastro-21",
+   "claseTitulo": "5.3 Hemorragia Digestiva Alta y Baja",
+   "diapositiva": 14,
+   "t": 802.4,
+   "mmss": "13:22",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-21&t=802&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-21&t=802",
+   "notas": 2
+  },
+  "Hematoquecia": {
+   "termino": "Hematoquecia",
+   "tipo": "Signo",
+   "alias": [
+    "hematoquecia",
+    "rectorragia"
+   ],
+   "def": "Sangre mezclada con las deposiciones, signo de hemorragia digestiva baja; puede verse en una alta masiva con tránsito acelerado.",
+   "pagina": 88,
+   "clase": "gastro-21",
+   "claseTitulo": "5.3 Hemorragia Digestiva Alta y Baja",
+   "diapositiva": 1,
+   "t": 30.5,
+   "mmss": "0:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-21&t=30&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-21&t=30",
+   "notas": 11
+  },
+  "Clasificacion_de_Forrest": {
+   "termino": "Clasificación de Forrest",
+   "tipo": "Concepto",
+   "alias": [
+    "Forrest"
+   ],
+   "def": "Clasificación usada en la úlcera gastroduodenal para decidir la terapia endoscópica, junto con IBP endovenoso en dosis alta.",
+   "pagina": 88,
+   "clase": "gastro-21",
+   "claseTitulo": "5.3 Hemorragia Digestiva Alta y Baja",
+   "diapositiva": 5,
+   "t": 284.6,
+   "mmss": "4:45",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-21&t=284&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-21&t=284",
+   "notas": 4
+  },
+  "Sindrome_de_Mallory_Weiss": {
+   "termino": "Síndrome de Mallory-Weiss",
+   "tipo": "Concepto",
+   "alias": [
+    "Mallory-Weiss"
+   ],
+   "def": "Desgarro mucoso que causa hematemesis tras vómitos alimentarios; suele ser autolimitado y de buen pronóstico. No confundir con Boerhaave (vómitos → perforación).",
+   "pagina": 88,
+   "clase": "gastro-21",
+   "claseTitulo": "5.3 Hemorragia Digestiva Alta y Baja",
+   "diapositiva": 5,
+   "t": 284.6,
+   "mmss": "4:45",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-21&t=284&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-21&t=284",
+   "notas": 6
+  },
+  "Cuerpo_extrano_digestivo": {
+   "termino": "Cuerpo extraño digestivo",
+   "tipo": "Concepto",
+   "alias": [
+    "cuerpo extraño",
+    "cuerpos extraños"
+   ],
+   "def": "Objeto ingerido que se localiza con radiografía de cuello, tórax y abdomen. El dolor torácico sugiere perforación y mediastinitis; si obstruye o perfora distalmente, es quirúrgico.",
+   "pagina": 92,
+   "clase": "gastro-22",
+   "claseTitulo": "5.4 Cuerpo Extraño Digestivo",
+   "diapositiva": 6,
+   "t": 279.0,
+   "mmss": "4:39",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-22&t=279&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-22&t=279",
+   "notas": 9
+  },
+  "Pila_de_boton": {
+   "termino": "Pila de botón",
+   "tipo": "Concepto",
+   "alias": [
+    "pila de botón",
+    "pilas de botón",
+    "batería de botón"
+   ],
+   "def": "Cuerpo extraño que en el esófago causa quemadura eléctrica y necrosis en pocas horas. Es una emergencia que requiere extracción inmediata.",
+   "pagina": 92,
+   "clase": "gastro-22",
+   "claseTitulo": "5.4 Cuerpo Extraño Digestivo",
+   "diapositiva": 9,
+   "t": 417.2,
+   "mmss": "6:57",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-22&t=417&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-22&t=417",
+   "notas": 5
+  },
+  "Deshidratacion": {
+   "termino": "Deshidratación",
+   "tipo": "Concepto",
+   "alias": [
+    "deshidratación"
+   ],
+   "def": "Manejo por Planes: A (< 5 %): SRO 100–200 mL tras cada deposición; B (5–10 %): SRO 50–100 mL/kg en 4–6 h; C (> 10 %, shock): suero fisiológico en bolo de 20 mL/kg.",
+   "pagina": 99,
+   "clase": "gastro-23",
+   "claseTitulo": "6.1 Diarrea Aguda y Crónica en el Niño",
+   "diapositiva": 1,
+   "t": 23.4,
+   "mmss": "0:23",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-23&t=23&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-23&t=23",
+   "notas": 11
+  },
+  "Reflujo_del_lactante": {
+   "termino": "Reflujo del lactante",
+   "tipo": "Concepto",
+   "alias": [
+    "reflujo del lactante",
+    "regurgitación del lactante"
+   ],
+   "def": "Forma fisiológica en el lactante feliz que crece bien; se maneja educando y tranquilizando, sin fármacos.",
+   "pagina": 102,
+   "clase": "gastro-24",
+   "claseTitulo": "6.2 Reflujo del Lactante, Dolor Abdominal Crónico y Constipación en el Niño",
+   "diapositiva": 1,
+   "t": 28.6,
+   "mmss": "0:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-24&t=28&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-24&t=28",
+   "notas": 1
+  },
+  "Dolor_abdominal_cronico": {
+   "termino": "Dolor abdominal crónico",
+   "tipo": "Concepto",
+   "alias": [
+    "dolor abdominal crónico"
+   ],
+   "def": "Sin signos de alarma es funcional o psicógeno, periumbilical y ligado al estrés escolar. Es la primera causa de consulta gastroenterológica.",
+   "pagina": 102,
+   "clase": "gastro-24",
+   "claseTitulo": "6.2 Reflujo del Lactante, Dolor Abdominal Crónico y Constipación en el Niño",
+   "diapositiva": 3,
+   "t": 194.2,
+   "mmss": "3:14",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-24&t=194&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-24&t=194",
+   "notas": 1
+  },
+  "Estenosis_hipertrofica_del_piloro": {
+   "termino": "Estenosis hipertrófica del píloro",
+   "tipo": "Concepto",
+   "alias": [
+    "estenosis hipertrófica del píloro",
+    "estenosis hipertrófica de píloro",
+    "estenosis pilórica"
+   ],
+   "def": "Vómitos explosivos entre la 2.ª y 6.ª semana con alcalosis hipoclorémica; diagnóstico con ecografía y tratamiento con pilorotomía de Ramstedt.",
+   "pagina": 105,
+   "clase": "gastro-25",
+   "claseTitulo": "6.3 Cirugía Pediátrica Digestiva: Urgencias y Malformaciones",
+   "diapositiva": 5,
+   "t": 320.5,
+   "mmss": "5:20",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-25&t=320&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-25&t=320",
+   "notas": 6
+  },
+  "Invaginacion_intestinal": {
+   "termino": "Invaginación intestinal",
+   "tipo": "Concepto",
+   "alias": [
+    "invaginación intestinal",
+    "invaginación",
+    "intususcepción"
+   ],
+   "def": "Cuadro del lactante de 6–12 meses con llanto en crisis y deposición en «mermelada de grosella»; la reducción neumática es el tratamiento de primera línea.",
+   "pagina": 105,
+   "clase": "gastro-25",
+   "claseTitulo": "6.3 Cirugía Pediátrica Digestiva: Urgencias y Malformaciones",
+   "diapositiva": 4,
+   "t": 268.8,
+   "mmss": "4:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-25&t=268&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-25&t=268",
+   "notas": 5
+  },
+  "Enfermedad_de_Hirschsprung": {
+   "termino": "Enfermedad de Hirschsprung",
+   "tipo": "Concepto",
+   "alias": [
+    "Hirschsprung"
+   ],
+   "def": "Congénita, por aganglionosis: retraso en la eliminación del meconio (> 48 h), distensión y constipación. Se confirma con biopsia rectal y se trata resecando el segmento agangliónico.",
+   "pagina": 105,
+   "clase": "gastro-25",
+   "claseTitulo": "6.3 Cirugía Pediátrica Digestiva: Urgencias y Malformaciones",
+   "diapositiva": 9,
+   "t": 587.7,
+   "mmss": "9:48",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-25&t=587&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-25&t=587",
+   "notas": 5
+  },
+  "Atresia_esofagica": {
+   "termino": "Atresia esofágica",
+   "tipo": "Concepto",
+   "alias": [
+    "atresia esofágica",
+    "atresia de esófago"
+   ],
+   "def": "Se sospecha por sialorrea desde el nacimiento y sonda que no progresa al estómago.",
+   "pagina": 105,
+   "clase": "gastro-25",
+   "claseTitulo": "6.3 Cirugía Pediátrica Digestiva: Urgencias y Malformaciones",
+   "diapositiva": 5,
+   "t": 320.5,
+   "mmss": "5:20",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-25&t=320&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-25&t=320",
+   "notas": 1
+  },
+  "Malrotacion_intestinal": {
+   "termino": "Malrotación intestinal",
+   "tipo": "Concepto",
+   "alias": [
+    "malrotación",
+    "vólvulo"
+   ],
+   "def": "Se sospecha ante vómitos biliosos del recién nacido o lactante por vólvulo: el duodeno no cruza la línea media y el Treitz queda a la derecha. Es emergencia quirúrgica.",
+   "pagina": 105,
+   "clase": "gastro-25",
+   "claseTitulo": "6.3 Cirugía Pediátrica Digestiva: Urgencias y Malformaciones",
+   "diapositiva": 8,
+   "t": 497.5,
+   "mmss": "8:17",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-25&t=497&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-25&t=497",
+   "notas": 4
+  },
+  "Diverticulo_de_Meckel": {
+   "termino": "Divertículo de Meckel",
+   "tipo": "Concepto",
+   "alias": [
+    "Meckel"
+   ],
+   "def": "Resto del conducto onfalomesentérico en el íleon, con mucosa gástrica ectópica que ulcera y sangra. En niños causa hemorragia digestiva baja indolora y abundante; se estudia con cintigrafía Tc-99m.",
+   "pagina": 105,
+   "clase": "gastro-25",
+   "claseTitulo": "6.3 Cirugía Pediátrica Digestiva: Urgencias y Malformaciones",
+   "diapositiva": 3,
+   "t": 191.6,
+   "mmss": "3:12",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-25&t=191&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-25&t=191",
+   "notas": 6
+  },
+  "Enterocolitis_necrotizante": {
+   "termino": "Enterocolitis necrotizante",
+   "tipo": "Concepto",
+   "alias": [
+    "enterocolitis necrotizante"
+   ],
+   "def": "En prematuros: retención, distensión y hematoquecia. En la Rx de abdomen se ve neumatosis intestinal o gas en la vena porta.",
+   "pagina": 105,
+   "clase": "gastro-25",
+   "claseTitulo": "6.3 Cirugía Pediátrica Digestiva: Urgencias y Malformaciones",
+   "diapositiva": 1,
+   "t": 28.2,
+   "mmss": "0:28",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-25&t=28&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-25&t=28",
+   "notas": 6
+  },
+  "Neumotorax_a_tension": {
+   "termino": "Neumotórax a tensión",
+   "tipo": "Concepto",
+   "alias": [
+    "neumotórax a tensión",
+    "neumotórax"
+   ],
+   "def": "Forma hipertensiva del neumotórax: urgencia de diagnóstico clínico que no se confirma con radiografía.",
+   "pagina": 108,
+   "clase": "gastro-26",
+   "claseTitulo": "6.4 Trauma Abdominal y Torácico",
+   "diapositiva": 6,
+   "t": 340.5,
+   "mmss": "5:40",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-26&t=340&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-26&t=340",
+   "notas": 7
+  },
+  "Hemotorax": {
+   "termino": "Hemotórax",
+   "tipo": "Concepto",
+   "alias": [
+    "hemotórax"
+   ],
+   "def": "Sangre en la pleura tras trauma torácico, manejada con tubo pleural. Se indica toracotomía si hay > 1.500 mL inicial, > 200 mL/h por 2–4 h, taponamiento o lesión de grandes vasos.",
+   "pagina": 108,
+   "clase": "gastro-26",
+   "claseTitulo": "6.4 Trauma Abdominal y Torácico",
+   "diapositiva": 6,
+   "t": 340.5,
+   "mmss": "5:40",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-26&t=340&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-26&t=340",
+   "notas": 3
+  },
+  "Taponamiento_cardiaco": {
+   "termino": "Taponamiento cardíaco",
+   "tipo": "Concepto",
+   "alias": [
+    "taponamiento cardíaco",
+    "taponamiento"
+   ],
+   "def": "Acumulación en el pericardio por trauma cerrado o arma blanca; manejo: pericardiocentesis o ventana. Indica toracotomía junto a hemotórax masivo o lesión de grandes vasos.",
+   "pagina": 108,
+   "clase": "gastro-26",
+   "claseTitulo": "6.4 Trauma Abdominal y Torácico",
+   "diapositiva": 6,
+   "t": 340.5,
+   "mmss": "5:40",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-26&t=340&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-26&t=340",
+   "notas": 3
+  },
+  "Trauma_esplenico": {
+   "termino": "Trauma esplénico",
+   "tipo": "Concepto",
+   "alias": [
+    "lesión esplénica",
+    "trauma esplénico",
+    "rotura esplénica",
+    "bazo"
+   ],
+   "def": "Lesión de víscera sólida (bazo, hígado) que causa hemoperitoneo; se maneja de forma conservadora si el paciente está estable. Víscera hueca rota: peritonitis y neumoperitoneo.",
+   "pagina": 108,
+   "clase": "gastro-26",
+   "claseTitulo": "6.4 Trauma Abdominal y Torácico",
+   "diapositiva": 2,
+   "t": 106.6,
+   "mmss": "1:47",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-26&t=106&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-26&t=106",
+   "notas": 1
+  },
+  "Abdomen_en_tabla": {
+   "termino": "Abdomen en tabla",
+   "tipo": "Signo",
+   "alias": [
+    "abdomen en tabla",
+    "resistencia muscular"
+   ],
+   "def": "Signo peritoneal (resistencia muscular, Blumberg positivo, ausencia de ruidos hidroaéreos). Con dolor en puñalada, sugiere úlcera perforada: radiografía de tórax de pie y cirugía urgente.",
+   "pagina": 16,
+   "clase": "gastro-04",
+   "claseTitulo": "1.4 Úlcera Perforada, Perforación Esofágica e Ingesta de Cáustico",
+   "diapositiva": 2,
+   "t": 103.2,
+   "mmss": "1:43",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-04&t=103&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-04&t=103",
+   "notas": 3
+  },
+  "Inhibidor_de_la_bomba_de_protones": {
+   "termino": "Inhibidor de la bomba de protones",
+   "tipo": "Farmaco",
+   "alias": [
+    "inhibidor de la bomba de protones",
+    "inhibidores de la bomba de protones",
+    "IBP",
+    "omeprazol"
+   ],
+   "def": "Fármaco de elección para la ERGE (omeprazol, esomeprazol, lansoprazol); se toma en ayunas, 30–60 minutos antes del desayuno. Prueba terapéutica por 4 a 8 semanas en pirosis y regurgitación típicas.",
+   "pagina": 5,
+   "clase": "gastro-01",
+   "claseTitulo": "1.1 Enfermedad por Reflujo Gastroesofágico y Esófago de Barrett",
+   "diapositiva": 4,
+   "t": 238.1,
+   "mmss": "3:58",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-01&t=238&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-01&t=238",
+   "notas": 34
+  },
+  "AINE": {
+   "termino": "AINE",
+   "tipo": "Farmaco",
+   "alias": [
+    "AINE",
+    "antiinflamatorios no esteroidales",
+    "antiinflamatorio no esteroidal"
+   ],
+   "def": "Antiinflamatorios que lesionan la mucosa gastroduodenal al inhibir las prostaglandinas protectoras. Riesgo mayor con ≥ 65 años, anticoagulantes o H. pylori; se protege con IBP.",
+   "pagina": 9,
+   "clase": "gastro-02",
+   "claseTitulo": "1.2 Úlcera Péptica, Dispepsia Funcional y Helicobacter pylori",
+   "diapositiva": 6,
+   "t": 345.6,
+   "mmss": "5:46",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-02&t=345&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-02&t=345",
+   "notas": 8
+  },
+  "Amoxicilina": {
+   "termino": "Amoxicilina",
+   "tipo": "Farmaco",
+   "alias": [
+    "amoxicilina"
+   ],
+   "def": "Componente de la terapia de primera línea para H. pylori: IBP + amoxicilina 1 g + claritromicina 500 mg, cada 12 h por 14 días. Amoxicilina-clavulánico es causa de hepatitis por fármacos.",
+   "pagina": 9,
+   "clase": "gastro-02",
+   "claseTitulo": "1.2 Úlcera Péptica, Dispepsia Funcional y Helicobacter pylori",
+   "diapositiva": 5,
+   "t": 280.9,
+   "mmss": "4:41",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-02&t=280&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-02&t=280",
+   "notas": 2
+  },
+  "Claritromicina": {
+   "termino": "Claritromicina",
+   "tipo": "Farmaco",
+   "alias": [
+    "claritromicina"
+   ],
+   "def": "Parte de la primera línea para H. pylori: IBP + amoxicilina 1 g + claritromicina 500 mg, cada 12 horas por 14 días. Si falla, se usa cuádruple con bismuto, evitando la claritromicina.",
+   "pagina": 9,
+   "clase": "gastro-02",
+   "claseTitulo": "1.2 Úlcera Péptica, Dispepsia Funcional y Helicobacter pylori",
+   "diapositiva": 5,
+   "t": 280.9,
+   "mmss": "4:41",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-02&t=280&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-02&t=280",
+   "notas": 2
+  },
+  "Bismuto": {
+   "termino": "Bismuto",
+   "tipo": "Farmaco",
+   "alias": [
+    "bismuto"
+   ],
+   "def": "Componente de la terapia cuádruple de segunda línea contra H. pylori (con IBP, tetraciclina y metronidazol) por 14 días, sin claritromicina.",
+   "pagina": 9,
+   "clase": "gastro-02",
+   "claseTitulo": "1.2 Úlcera Péptica, Dispepsia Funcional y Helicobacter pylori",
+   "diapositiva": 5,
+   "t": 280.9,
+   "mmss": "4:41",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-02&t=280&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-02&t=280",
+   "notas": 1
+  },
+  "Metronidazol": {
+   "termino": "Metronidazol",
+   "tipo": "Farmaco",
+   "alias": [
+    "metronidazol"
+   ],
+   "def": "Antibiótico usado en giardiasis (250 mg cada 8 h por 5 días), amebiasis (500–750 mg cada 8 h por 7–10 días) y en la terapia cuádruple con bismuto de segunda línea para H. pylori.",
+   "pagina": 31,
+   "clase": "gastro-08",
+   "claseTitulo": "2.2 Diarrea Aguda, Diarrea Crónica y Constipación",
+   "diapositiva": 5,
+   "t": 223.1,
+   "mmss": "3:43",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-08&t=223&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-08&t=223",
+   "notas": 15
+  },
+  "Misoprostol": {
+   "termino": "Misoprostol",
+   "tipo": "Farmaco",
+   "alias": [
+    "misoprostol"
+   ],
+   "def": "Alternativa protectora para el paciente de riesgo que necesita AINE; el IBP es el fármaco de elección. Es eficaz pero mal tolerado (diarrea) y contraindicado en el embarazo.",
+   "pagina": 9,
+   "clase": "gastro-02",
+   "claseTitulo": "1.2 Úlcera Péptica, Dispepsia Funcional y Helicobacter pylori",
+   "diapositiva": 6,
+   "t": 345.6,
+   "mmss": "5:46",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-02&t=345&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-02&t=345",
+   "notas": 1
+  },
+  "Celecoxib": {
+   "termino": "Celecoxib",
+   "tipo": "Farmaco",
+   "alias": [
+    "celecoxib",
+    "inhibidor selectivo de COX-2"
+   ],
+   "def": "Inhibidor selectivo de COX-2 que se prefiere en riesgo alto o antecedente de úlcera complicada, siempre con IBP.",
+   "pagina": 9,
+   "clase": "gastro-02",
+   "claseTitulo": "1.2 Úlcera Péptica, Dispepsia Funcional y Helicobacter pylori",
+   "diapositiva": 6,
+   "t": 345.6,
+   "mmss": "5:46",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-02&t=345&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-02&t=345",
+   "notas": 1
+  },
+  "Antagonistas_H2": {
+   "termino": "Antagonistas H2",
+   "tipo": "Farmaco",
+   "alias": [
+    "antagonistas H₂",
+    "antagonistas H2",
+    "ranitidina",
+    "famotidina"
+   ],
+   "def": "Ranitidina y famotidina: antisecretores desplazados por los IBP. No protegen bien la mucosa gástrica en quien necesita AINE; ahí se usa un IBP.",
+   "pagina": 5,
+   "clase": "gastro-01",
+   "claseTitulo": "1.1 Enfermedad por Reflujo Gastroesofágico y Esófago de Barrett",
+   "diapositiva": 9,
+   "t": 572.6,
+   "mmss": "9:33",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-01&t=572&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-01&t=572",
+   "notas": 2
+  },
+  "Mesalazina": {
+   "termino": "Mesalazina",
+   "tipo": "Farmaco",
+   "alias": [
+    "mesalazina",
+    "5-ASA",
+    "aminosalicilatos"
+   ],
+   "def": "5-ASA, pilar en la colitis ulcerosa leve-moderada (tópico + oral según extensión); parte del escalonado farmacológico de la EII para inducir y mantener la remisión.",
+   "pagina": 39,
+   "clase": "gastro-10",
+   "claseTitulo": "2.4 Enfermedad Inflamatoria Intestinal: Colitis Ulcerosa y Enfermedad de Crohn",
+   "diapositiva": 5,
+   "t": 289.9,
+   "mmss": "4:50",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-10&t=289&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-10&t=289",
+   "notas": 1
+  },
+  "Corticoides": {
+   "termino": "Corticoides",
+   "tipo": "Farmaco",
+   "alias": [
+    "corticoides",
+    "corticoide",
+    "prednisona",
+    "hidrocortisona"
+   ],
+   "def": "Usados en el brote agudo de colitis (budesonida, prednisona), nunca de mantención; en hepatitis autoinmune se combinan con azatioprina y en hepatitis grave según Maddrey, con abstinencia.",
+   "pagina": 39,
+   "clase": "gastro-10",
+   "claseTitulo": "2.4 Enfermedad Inflamatoria Intestinal: Colitis Ulcerosa y Enfermedad de Crohn",
+   "diapositiva": 5,
+   "t": 289.9,
+   "mmss": "4:50",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-10&t=289&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-10&t=289",
+   "notas": 8
+  },
+  "Azatioprina": {
+   "termino": "Azatioprina",
+   "tipo": "Farmaco",
+   "alias": [
+    "azatioprina",
+    "tiopurinas"
+   ],
+   "def": "Inmunomodulador, junto con metotrexato, para inducir y mantener la remisión en colitis ulcerosa y Crohn. En hepatitis autoinmune con hepatitis de interfase se combina con corticoides.",
+   "pagina": 40,
+   "clase": "gastro-10",
+   "claseTitulo": "2.4 Enfermedad Inflamatoria Intestinal: Colitis Ulcerosa y Enfermedad de Crohn",
+   "diapositiva": 5,
+   "t": 289.9,
+   "mmss": "4:50",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-10&t=289&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-10&t=289",
+   "notas": 1
+  },
+  "Anti_TNF": {
+   "termino": "Anti-TNF",
+   "tipo": "Farmaco",
+   "alias": [
+    "anti-TNF",
+    "infliximab",
+    "adalimumab"
+   ],
+   "def": "Biológico de la EII (infliximab, adalimumab), parte del escalonado para inducir y mantener la remisión junto a 5-ASA, corticoides e inmunomoduladores.",
+   "pagina": 40,
+   "clase": "gastro-10",
+   "claseTitulo": "2.4 Enfermedad Inflamatoria Intestinal: Colitis Ulcerosa y Enfermedad de Crohn",
+   "diapositiva": 5,
+   "t": 289.9,
+   "mmss": "4:50",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-10&t=289&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-10&t=289",
+   "notas": 1
+  },
+  "Loperamida": {
+   "termino": "Loperamida",
+   "tipo": "Farmaco",
+   "alias": [
+    "loperamida"
+   ],
+   "def": "Antidiarreico que no se usa en diarrea aguda infecciosa por aumentar complicaciones; con alto débito (> 1.500 mL/día) se combina con hidratación e IBP.",
+   "pagina": 31,
+   "clase": "gastro-08",
+   "claseTitulo": "2.2 Diarrea Aguda, Diarrea Crónica y Constipación",
+   "diapositiva": 10,
+   "t": 451.9,
+   "mmss": "7:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-08&t=451&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-08&t=451",
+   "notas": 4
+  },
+  "Lactulosa": {
+   "termino": "Lactulosa",
+   "tipo": "Farmaco",
+   "alias": [
+    "lactulosa"
+   ],
+   "def": "Tratamiento de la encefalopatía hepática, junto con rifaximina y tras tratar el precipitante (casi siempre infección). Se titula a 2–3 deposiciones blandas al día. El TIPS está contraindicado.",
+   "pagina": 61,
+   "clase": "gastro-15",
+   "claseTitulo": "3.3 Daño Hepático Crónico e Hipertensión Portal",
+   "diapositiva": 8,
+   "t": 493.3,
+   "mmss": "8:13",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-15&t=493&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-15&t=493",
+   "notas": 2
+  },
+  "Polietilenglicol": {
+   "termino": "Polietilenglicol",
+   "tipo": "Farmaco",
+   "alias": [
+    "polietilenglicol",
+    "PEG"
+   ],
+   "def": "Laxante osmótico: de elección para desimpactar el fecaloma por vía oral (o enema), luego mantención con laxante ≥ 4 semanas. Se usa en el SII con predominio de constipación.",
+   "pagina": 102,
+   "clase": "gastro-24",
+   "claseTitulo": "6.2 Reflujo del Lactante, Dolor Abdominal Crónico y Constipación en el Niño",
+   "diapositiva": 6,
+   "t": 347.9,
+   "mmss": "5:48",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-24&t=347&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-24&t=347",
+   "notas": 3
+  },
+  "Rifaximina": {
+   "termino": "Rifaximina",
+   "tipo": "Farmaco",
+   "alias": [
+    "rifaximina"
+   ],
+   "def": "Antibiótico que se agrega a la lactulosa titulada en la encefalopatía hepática, junto con tratar el precipitante.",
+   "pagina": 61,
+   "clase": "gastro-15",
+   "claseTitulo": "3.3 Daño Hepático Crónico e Hipertensión Portal",
+   "diapositiva": 8,
+   "t": 493.3,
+   "mmss": "8:13",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-15&t=493&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-15&t=493",
+   "notas": 1
+  },
+  "Betabloqueo_no_selectivo": {
+   "termino": "Betabloqueo no selectivo",
+   "tipo": "Farmaco",
+   "alias": [
+    "propranolol",
+    "betabloqueador no selectivo",
+    "betabloqueadores no selectivos",
+    "carvedilol"
+   ],
+   "def": "Propranolol o carvedilol: profilaxis primaria de várices en quien nunca sangró; en quien ya sangró, se usa junto con ligadura. Si está contraindicado, se opta por ligadura endoscópica.",
+   "pagina": 61,
+   "clase": "gastro-15",
+   "claseTitulo": "3.3 Daño Hepático Crónico e Hipertensión Portal",
+   "diapositiva": 2,
+   "t": 120.6,
+   "mmss": "2:01",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-15&t=120&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-15&t=120",
+   "notas": 3
+  },
+  "Octreotide": {
+   "termino": "Octreotide",
+   "tipo": "Farmaco",
+   "alias": [
+    "octreotide",
+    "octreótido",
+    "somatostatina"
+   ],
+   "def": "Análogo de somatostatina; se usa en hemorragia variceal activa (alternativa a terlipresina) y en tumores neuroendocrinos metastásicos.",
+   "pagina": 61,
+   "clase": "gastro-15",
+   "claseTitulo": "3.3 Daño Hepático Crónico e Hipertensión Portal",
+   "diapositiva": 3,
+   "t": 170.5,
+   "mmss": "2:50",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-15&t=170&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-15&t=170",
+   "notas": 2
+  },
+  "Terlipresina": {
+   "termino": "Terlipresina",
+   "tipo": "Farmaco",
+   "alias": [
+    "terlipresina"
+   ],
+   "def": "Vasoconstrictor de la hemorragia variceal activa, con antibióticos y ligadura en las primeras 12 h; también en síndrome hepatorrenal, con albúmina y trasplante.",
+   "pagina": 61,
+   "clase": "gastro-15",
+   "claseTitulo": "3.3 Daño Hepático Crónico e Hipertensión Portal",
+   "diapositiva": 16,
+   "t": 942.0,
+   "mmss": "15:42",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-15&t=941&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-15&t=941",
+   "notas": 6
+  },
+  "Albumina": {
+   "termino": "Albúmina",
+   "tipo": "Farmaco",
+   "alias": [
+    "albúmina"
+   ],
+   "def": "En ascitis a tensión, se usa con paracentesis evacuadora (≈ 8 g por litro extraído). En PBE, para prevenir el síndrome hepatorrenal. Un gradiente ≥ 1,1 g/dL confirma hipertensión portal.",
+   "pagina": 61,
+   "clase": "gastro-15",
+   "claseTitulo": "3.3 Daño Hepático Crónico e Hipertensión Portal",
+   "diapositiva": 4,
+   "t": 253.1,
+   "mmss": "4:13",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-15&t=253&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-15&t=253",
+   "notas": 13
+  },
+  "Ceftriaxona": {
+   "termino": "Ceftriaxona",
+   "tipo": "Farmaco",
+   "alias": [
+    "ceftriaxona"
+   ],
+   "def": "Cefalosporina endovenosa para la peritonitis bacteriana espontánea (≥ 250 PMN/mm³, con albúmina días 1 y 3) y para la hemorragia variceal activa.",
+   "pagina": 61,
+   "clase": "gastro-15",
+   "claseTitulo": "3.3 Daño Hepático Crónico e Hipertensión Portal",
+   "diapositiva": 3,
+   "t": 170.5,
+   "mmss": "2:50",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-15&t=170&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-15&t=170",
+   "notas": 9
+  },
+  "Ciprofloxacino": {
+   "termino": "Ciprofloxacino",
+   "tipo": "Farmaco",
+   "alias": [
+    "ciprofloxacino"
+   ],
+   "def": "Antibiótico oral de elección en disentería, diarrea del viajero, fiebre persistente o sepsis, y en Shigella; también profilaxis tras PBE mientras persista la ascitis.",
+   "pagina": 31,
+   "clase": "gastro-08",
+   "claseTitulo": "2.2 Diarrea Aguda, Diarrea Crónica y Constipación",
+   "diapositiva": 10,
+   "t": 451.9,
+   "mmss": "7:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-08&t=451&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-08&t=451",
+   "notas": 3
+  },
+  "Vancomicina": {
+   "termino": "Vancomicina",
+   "tipo": "Farmaco",
+   "alias": [
+    "vancomicina"
+   ],
+   "def": "Antibiótico oral para la diarrea post-antibióticos por Clostridioides difficile, diagnosticada con PCR de toxina. La respuesta se evalúa clínicamente, no repitiendo la PCR.",
+   "pagina": 31,
+   "clase": "gastro-08",
+   "claseTitulo": "2.2 Diarrea Aguda, Diarrea Crónica y Constipación",
+   "diapositiva": 10,
+   "t": 451.9,
+   "mmss": "7:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-08&t=451&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-08&t=451",
+   "notas": 2
+  },
+  "Espironolactona": {
+   "termino": "Espironolactona",
+   "tipo": "Farmaco",
+   "alias": [
+    "espironolactona"
+   ],
+   "def": "Diurético para la ascitis no complicada, junto con restricción de sodio y ± furosemida.",
+   "pagina": 61,
+   "clase": "gastro-15",
+   "claseTitulo": "3.3 Daño Hepático Crónico e Hipertensión Portal",
+   "diapositiva": 4,
+   "t": 253.1,
+   "mmss": "4:13",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-15&t=253&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-15&t=253",
+   "notas": 1
+  },
+  "Furosemida": {
+   "termino": "Furosemida",
+   "tipo": "Farmaco",
+   "alias": [
+    "furosemida"
+   ],
+   "def": "Diurético que se agrega a restricción de sodio y espironolactona en la ascitis no complicada.",
+   "pagina": 61,
+   "clase": "gastro-15",
+   "claseTitulo": "3.3 Daño Hepático Crónico e Hipertensión Portal",
+   "diapositiva": 4,
+   "t": 253.1,
+   "mmss": "4:13",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-15&t=253&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-15&t=253",
+   "notas": 1
+  },
+  "Acido_ursodesoxicolico": {
+   "termino": "Ácido ursodesoxicólico",
+   "tipo": "Farmaco",
+   "alias": [
+    "ursodesoxicólico",
+    "ácido ursodeoxicólico"
+   ],
+   "def": "Tratamiento de la cirrosis biliar primaria en mujer de 40–60 años con prurito, colestasia y AMA (+).",
+   "pagina": 74,
+   "clase": "gastro-17",
+   "claseTitulo": "4.1 Colelitiasis, Colecistitis, Coledocolitiasis y Colangitis",
+   "diapositiva": 13,
+   "t": 616.0,
+   "mmss": "10:16",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-17&t=616&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-17&t=616",
+   "notas": 2
+  },
+  "Antivirales_de_la_hepatitis_B": {
+   "termino": "Antivirales de la hepatitis B",
+   "tipo": "Farmaco",
+   "alias": [
+    "tenofovir",
+    "entecavir"
+   ],
+   "def": "Tenofovir o entecavir para la hepatitis crónica B (garantía GES): derivar para carga viral, HBeAg y elastografía.",
+   "pagina": 58,
+   "clase": "gastro-14",
+   "claseTitulo": "3.2 Hepatitis Aguda y Crónica",
+   "diapositiva": 4,
+   "t": 233.5,
+   "mmss": "3:53",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-14&t=233&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-14&t=233",
+   "notas": 1
+  },
+  "Antivirales_de_accion_directa": {
+   "termino": "Antivirales de acción directa",
+   "tipo": "Farmaco",
+   "alias": [
+    "antivirales de acción directa",
+    "sofosbuvir"
+   ],
+   "def": "Antivirales que logran más de 95 % de respuesta viral sostenida en 8–12 semanas (curación); reemplazaron al interferón.",
+   "pagina": 58,
+   "clase": "gastro-14",
+   "claseTitulo": "3.2 Hepatitis Aguda y Crónica",
+   "diapositiva": 6,
+   "t": 371.8,
+   "mmss": "6:12",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-14&t=371&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-14&t=371",
+   "notas": 1
+  },
+  "Sales_de_rehidratacion_oral": {
+   "termino": "Sales de rehidratación oral",
+   "tipo": "Farmaco",
+   "alias": [
+    "sales de rehidratación oral",
+    "SRO",
+    "rehidratación oral"
+   ],
+   "def": "Pilar de la hidratación en diarrea aguda. Plan A (sin deshidratación): 100–200 mL tras cada deposición. Plan B (5–10 %): 50–100 mL/kg en 4–6 h. Plan C: suero fisiológico 20 mL/kg en bolo.",
+   "pagina": 99,
+   "clase": "gastro-23",
+   "claseTitulo": "6.1 Diarrea Aguda y Crónica en el Niño",
+   "diapositiva": 11,
+   "t": 568.8,
+   "mmss": "9:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-23&t=568&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-23&t=568",
+   "notas": 7
+  },
+  "Fibra": {
+   "termino": "Fibra",
+   "tipo": "Farmaco",
+   "alias": [
+    "fibra",
+    "psyllium"
+   ],
+   "def": "Parte del tratamiento de la constipación funcional, junto con agua, movilización y laxante osmótico de mantención; en el SII se usa fibra soluble como ajuste dietético.",
+   "pagina": 31,
+   "clase": "gastro-08",
+   "claseTitulo": "2.2 Diarrea Aguda, Diarrea Crónica y Constipación",
+   "diapositiva": 4,
+   "t": 161.9,
+   "mmss": "2:42",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-08&t=161&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-08&t=161",
+   "notas": 4
+  },
+  "Toxina_botulinica": {
+   "termino": "Toxina botulínica",
+   "tipo": "Farmaco",
+   "alias": [
+    "toxina botulínica"
+   ],
+   "def": "Inyección endoscópica en el esfínter esofágico inferior, usada en etapas iniciales o en pacientes no operables; la miotomía es el tratamiento de elección.",
+   "pagina": 13,
+   "clase": "gastro-03",
+   "claseTitulo": "1.3 Disfagia y Trastornos Motores del Esófago",
+   "diapositiva": 4,
+   "t": 234.8,
+   "mmss": "3:55",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-03&t=234&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-03&t=234",
+   "notas": 1
+  },
+  "Endoscopia_digestiva_alta": {
+   "termino": "Endoscopía digestiva alta",
+   "tipo": "Examen",
+   "alias": [
+    "endoscopía digestiva alta",
+    "endoscopía",
+    "endoscopia",
+    "EDA"
+   ],
+   "def": "Examen con endoscopio flexible que permite ver la mucosa, tomar biopsias (cáncer, H. pylori, celiaquía) y hacer terapia (hemostasia, ligadura de várices). Contraindicada en la úlcera perforada.",
+   "pagina": 9,
+   "clase": "gastro-02",
+   "claseTitulo": "1.2 Úlcera Péptica, Dispepsia Funcional y Helicobacter pylori",
+   "diapositiva": 2,
+   "t": 93.3,
+   "mmss": "1:33",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-02&t=93&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-02&t=93",
+   "notas": 71
+  },
+  "Colonoscopia": {
+   "termino": "Colonoscopía",
+   "tipo": "Examen",
+   "alias": [
+    "colonoscopía",
+    "colonoscopia"
+   ],
+   "def": "Diagnóstico con colonoscopía total con biopsia, y resección de adenomas. Tamizaje en riesgo promedio desde los 50 años: test inmunoquímico anual/bienal o colonoscopía cada 10 años.",
+   "pagina": 44,
+   "clase": "gastro-11",
+   "claseTitulo": "2.5 Pólipos y Cáncer Colorrectal · Tamizaje",
+   "diapositiva": 11,
+   "t": 535.8,
+   "mmss": "8:56",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-11&t=535&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-11&t=535",
+   "notas": 37
+  },
+  "pHmetria": {
+   "termino": "pHmetría",
+   "tipo": "Examen",
+   "alias": [
+    "pHmetría",
+    "pH-metría",
+    "impedanciometría"
+   ],
+   "def": "PH-metría esofágica de 24 horas: patrón de referencia para reflujo, reservada para duda diagnóstica, clínica atípica o evaluación prequirúrgica.",
+   "pagina": 5,
+   "clase": "gastro-01",
+   "claseTitulo": "1.1 Enfermedad por Reflujo Gastroesofágico y Esófago de Barrett",
+   "diapositiva": 9,
+   "t": 572.6,
+   "mmss": "9:33",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-01&t=572&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-01&t=572",
+   "notas": 3
+  },
+  "Manometria_esofagica": {
+   "termino": "Manometría esofágica",
+   "tipo": "Examen",
+   "alias": [
+    "manometría"
+   ],
+   "def": "Examen de elección para trastornos motores del esófago: peristalsis disminuida y esfínter esofágico inferior que no relaja. Se indica en la disfagia ilógica.",
+   "pagina": 13,
+   "clase": "gastro-03",
+   "claseTitulo": "1.3 Disfagia y Trastornos Motores del Esófago",
+   "diapositiva": 11,
+   "t": 602.5,
+   "mmss": "10:03",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-03&t=602&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-03&t=602",
+   "notas": 6
+  },
+  "Esofagograma": {
+   "termino": "Esofagograma",
+   "tipo": "Examen",
+   "alias": [
+    "esofagograma",
+    "trago de bario",
+    "radiografía con bario"
+   ],
+   "def": "Esofagograma con bario: muestra acalasia en «pico de pájaro», divertículo de Zenker, estenosis o nicho ulceroso.",
+   "pagina": 13,
+   "clase": "gastro-03",
+   "claseTitulo": "1.3 Disfagia y Trastornos Motores del Esófago",
+   "diapositiva": 4,
+   "t": 234.8,
+   "mmss": "3:55",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-03&t=234&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-03&t=234",
+   "notas": 3
+  },
+  "Ecografia_abdominal": {
+   "termino": "Ecografía abdominal",
+   "tipo": "Examen",
+   "alias": [
+    "ecografía",
+    "ecotomografía"
+   ],
+   "def": "Primer examen de toda ictericia; revisa vía biliar dilatada, colédoco y masas. Si sugiere masa pancreática, se completa con TAC de abdomen con contraste.",
+   "pagina": 57,
+   "clase": "gastro-13",
+   "claseTitulo": "3.1 Ictericia y Colestasia: Enfrentamiento Diagnóstico",
+   "diapositiva": 6,
+   "t": 291.3,
+   "mmss": "4:51",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-13&t=291&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-13&t=291",
+   "notas": 21
+  },
+  "TAC_de_abdomen": {
+   "termino": "TAC de abdomen",
+   "tipo": "Examen",
+   "alias": [
+    "TAC",
+    "tomografía computada",
+    "tomografía"
+   ],
+   "def": "Tomografía computada. En pancreatitis es el tercer criterio: no se necesita si hay dolor típico y lipasa/amilasa > 3 veces el límite; con contraste a las 72 h si hay duda o mala evolución.",
+   "pagina": 75,
+   "clase": "gastro-18",
+   "claseTitulo": "4.2 Pancreatitis Aguda",
+   "diapositiva": 3,
+   "t": 159.6,
+   "mmss": "2:40",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-18&t=159&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-18&t=159",
+   "notas": 35
+  },
+  "Angio_TAC": {
+   "termino": "Angio-TAC",
+   "tipo": "Examen",
+   "alias": [
+    "angio-TAC",
+    "angioTAC",
+    "angiotomografía"
+   ],
+   "def": "Examen diagnóstico en embolia mesentérica o sangrado digestivo masivo; la angiografía puede además ser terapéutica (embolizar). En embolia mesentérica se anticoagula con heparina de inmediato.",
+   "pagina": 85,
+   "clase": "gastro-20",
+   "claseTitulo": "5.2 Isquemia Mesentérica y Abdomen Agudo de Origen Vascular",
+   "diapositiva": 13,
+   "t": 717.4,
+   "mmss": "11:57",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-20&t=717&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-20&t=717",
+   "notas": 5
+  },
+  "Colangiorresonancia": {
+   "termino": "Colangiorresonancia",
+   "tipo": "Examen",
+   "alias": [
+    "colangiorresonancia",
+    "colangio-RM"
+   ],
+   "def": "Examen de elección para la vía biliar; confirma el cálculo del colédoco tras la ecografía y antes de la CPRE, que lo extrae.",
+   "pagina": 72,
+   "clase": "gastro-17",
+   "claseTitulo": "4.1 Colelitiasis, Colecistitis, Coledocolitiasis y Colangitis",
+   "diapositiva": 6,
+   "t": 273.5,
+   "mmss": "4:34",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-17&t=273&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-17&t=273",
+   "notas": 8
+  },
+  "CPRE": {
+   "termino": "CPRE",
+   "tipo": "Examen",
+   "alias": [
+    "CPRE",
+    "colangiopancreatografía retrógrada endoscópica"
+   ],
+   "def": "Examen que extrae el cálculo del colédoco y drena la vía biliar. Va directo a CPRE si hay colangitis o si la ecografía vio el cálculo; después, colecistectomía laparoscópica electiva.",
+   "pagina": 72,
+   "clase": "gastro-17",
+   "claseTitulo": "4.1 Colelitiasis, Colecistitis, Coledocolitiasis y Colangitis",
+   "diapositiva": 6,
+   "t": 273.5,
+   "mmss": "4:34",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-17&t=273&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-17&t=273",
+   "notas": 12
+  },
+  "Test_de_ureasa": {
+   "termino": "Test de ureasa",
+   "tipo": "Examen",
+   "alias": [
+    "test de ureasa"
+   ],
+   "def": "Detecta H. pylori en la biopsia; alternativas: test del aliento con ¹³C-urea o antígeno en deposiciones.",
+   "pagina": 9,
+   "clase": "gastro-02",
+   "claseTitulo": "1.2 Úlcera Péptica, Dispepsia Funcional y Helicobacter pylori",
+   "diapositiva": 11,
+   "t": 633.0,
+   "mmss": "10:33",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-02&t=632&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-02&t=632",
+   "notas": 3
+  },
+  "Test_del_aliento": {
+   "termino": "Test del aliento",
+   "tipo": "Examen",
+   "alias": [
+    "test del aliento",
+    "test de aire espirado"
+   ],
+   "def": "Test no invasivo con ¹³C-urea que detecta H. pylori; se usa como control 4 semanas después de los antibióticos en úlcera duodenal.",
+   "pagina": 9,
+   "clase": "gastro-02",
+   "claseTitulo": "1.2 Úlcera Péptica, Dispepsia Funcional y Helicobacter pylori",
+   "diapositiva": 2,
+   "t": 93.3,
+   "mmss": "1:33",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-02&t=93&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-02&t=93",
+   "notas": 2
+  },
+  "Antigeno_fecal": {
+   "termino": "Antígeno fecal",
+   "tipo": "Examen",
+   "alias": [
+    "antígeno fecal",
+    "antígeno en deposiciones"
+   ],
+   "def": "Test para H. pylori en deposiciones, usado en el control tras erradicación en úlcera duodenal, 4 semanas después de terminar los antibióticos.",
+   "pagina": 9,
+   "clase": "gastro-02",
+   "claseTitulo": "1.2 Úlcera Péptica, Dispepsia Funcional y Helicobacter pylori",
+   "diapositiva": 2,
+   "t": 93.3,
+   "mmss": "1:33",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-02&t=93&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-02&t=93",
+   "notas": 3
+  },
+  "Anticuerpos_antitransglutaminasa": {
+   "termino": "Anticuerpos antitransglutaminasa",
+   "tipo": "Examen",
+   "alias": [
+    "antitransglutaminasa",
+    "anti-transglutaminasa",
+    "IgA antitransglutaminasa"
+   ],
+   "def": "Anti-transglutaminasa tisular IgA (más antiendomisio) junto con IgA total para la enfermedad celíaca; el déficit de IgA da falsos negativos. Se completa con biopsia duodenal.",
+   "pagina": 36,
+   "clase": "gastro-09",
+   "claseTitulo": "2.3 Síndrome de Malabsorción, Enfermedad Celíaca e Intolerancia a la Lactosa",
+   "diapositiva": 9,
+   "t": 480.9,
+   "mmss": "8:01",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-09&t=480&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-09&t=480",
+   "notas": 4
+  },
+  "Biopsia_duodenal": {
+   "termino": "Biopsia duodenal",
+   "tipo": "Examen",
+   "alias": [
+    "biopsia duodenal",
+    "biopsia de duodeno"
+   ],
+   "def": "Confirma enfermedad celíaca con atrofia vellositaria, hiperplasia de criptas y linfocitosis intraepitelial, con el paciente consumiendo gluten.",
+   "pagina": 36,
+   "clase": "gastro-09",
+   "claseTitulo": "2.3 Síndrome de Malabsorción, Enfermedad Celíaca e Intolerancia a la Lactosa",
+   "diapositiva": 2,
+   "t": 104.6,
+   "mmss": "1:45",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-09&t=104&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-09&t=104",
+   "notas": 2
+  },
+  "Test_de_sangre_oculta_en_deposiciones": {
+   "termino": "Test de sangre oculta en deposiciones",
+   "tipo": "Examen",
+   "alias": [
+    "sangre oculta en deposiciones",
+    "test de sangre oculta",
+    "sangre oculta",
+    "test inmunoquímico",
+    "TSOD"
+   ],
+   "def": "Test inmunoquímico de tamizaje poblacional de cáncer de colon (asintomáticos de riesgo promedio, desde los 50 años); si es positivo, colonoscopía. No sirve para estudiar al paciente sintomático.",
+   "pagina": 44,
+   "clase": "gastro-11",
+   "claseTitulo": "2.5 Pólipos y Cáncer Colorrectal · Tamizaje",
+   "diapositiva": 16,
+   "t": 585.5,
+   "mmss": "9:45",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-11&t=585&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-11&t=585",
+   "notas": 4
+  },
+  "Radiografia_de_torax_de_pie": {
+   "termino": "Radiografía de tórax de pie",
+   "tipo": "Examen",
+   "alias": [
+    "radiografía de tórax de pie",
+    "radiografía de tórax"
+   ],
+   "def": "Examen inicial en perforación: busca neumoperitoneo (aire bajo el hemidiafragma derecho) o, en perforación esofágica, neumomediastino y enfisema. La endoscopía está contraindicada.",
+   "pagina": 16,
+   "clase": "gastro-04",
+   "claseTitulo": "1.4 Úlcera Perforada, Perforación Esofágica e Ingesta de Cáustico",
+   "diapositiva": 3,
+   "t": 154.6,
+   "mmss": "2:35",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-04&t=154&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-04&t=154",
+   "notas": 7
+  },
+  "Radiografia_de_abdomen_simple": {
+   "termino": "Radiografía de abdomen simple",
+   "tipo": "Examen",
+   "alias": [
+    "radiografía de abdomen",
+    "radiografía simple de abdomen"
+   ],
+   "def": "Examen inicial del abdomen que muestra patrón de gas y niveles hidroaéreos. Reconoce doble burbuja (atresia duodenal), obstrucción, neumatosis y neumoperitoneo (signo de Rigler).",
+   "pagina": 105,
+   "clase": "gastro-25",
+   "claseTitulo": "6.3 Cirugía Pediátrica Digestiva: Urgencias y Malformaciones",
+   "diapositiva": 1,
+   "t": 28.2,
+   "mmss": "0:28",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-25&t=28&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-25&t=28",
+   "notas": 5
+  },
+  "Lipasa_y_amilasa": {
+   "termino": "Lipasa y amilasa",
+   "tipo": "Examen",
+   "alias": [
+    "lipasa",
+    "amilasa"
+   ],
+   "def": "Enzimas pancreáticas: > 3 veces el límite superior normal, junto con dolor típico, confirma pancreatitis. La lipasa es más sensible y específica y permanece elevada más días.",
+   "pagina": 75,
+   "clase": "gastro-18",
+   "claseTitulo": "4.2 Pancreatitis Aguda",
+   "diapositiva": 2,
+   "t": 96.0,
+   "mmss": "1:36",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-18&t=95&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-18&t=95",
+   "notas": 9
+  },
+  "Paracentesis": {
+   "termino": "Paracentesis",
+   "tipo": "Examen",
+   "alias": [
+    "paracentesis"
+   ],
+   "def": "Punción del líquido de ascitis: en todo cirrótico con ascitis que consulta se hace diagnóstica (descarta PBE). En la ascitis a tensión, evacuadora con albúmina ≈ 8 g por litro extraído.",
+   "pagina": 61,
+   "clase": "gastro-15",
+   "claseTitulo": "3.3 Daño Hepático Crónico e Hipertensión Portal",
+   "diapositiva": 15,
+   "t": 881.9,
+   "mmss": "14:42",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-15&t=881&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-15&t=881",
+   "notas": 6
+  },
+  "Alfafetoproteina": {
+   "termino": "Alfafetoproteína",
+   "tipo": "Examen",
+   "alias": [
+    "alfafetoproteína",
+    "AFP"
+   ],
+   "def": "Marcador que, con una lesión heterogénea e irregular en hígado cirrótico, sugiere hepatocarcinoma.",
+   "pagina": 67,
+   "clase": "gastro-16",
+   "claseTitulo": "3.4 Lesiones Hepáticas Focales y Pólipos Vesiculares",
+   "diapositiva": 11,
+   "t": 516.9,
+   "mmss": "8:37",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-16&t=516&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-16&t=516",
+   "notas": 3
+  },
+  "Calprotectina_fecal": {
+   "termino": "Calprotectina fecal",
+   "tipo": "Examen",
+   "alias": [
+    "calprotectina"
+   ],
+   "def": "Marcador de inflamación intestinal: elevado apoya origen inflamatorio frente a intestino irritable y sirve para seguimiento. Se pide en diarrea junto con hemograma, PCR y TSH.",
+   "pagina": 29,
+   "clase": "gastro-07",
+   "claseTitulo": "2.1 Trastornos Digestivos Funcionales y Síndrome de Intestino Irritable",
+   "diapositiva": 2,
+   "t": 59.8,
+   "mmss": "1:00",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-07&t=59&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-07&t=59",
+   "notas": 3
+  },
+  "Coprocultivo": {
+   "termino": "Coprocultivo",
+   "tipo": "Examen",
+   "alias": [
+    "coprocultivo"
+   ],
+   "def": "Examen para buscar el agente en diarrea prolongada (2–4 sem): coprocultivo, parasitológico seriado (Giardia, Entamoeba) o rotatest.",
+   "pagina": 31,
+   "clase": "gastro-08",
+   "claseTitulo": "2.2 Diarrea Aguda, Diarrea Crónica y Constipación",
+   "diapositiva": 4,
+   "t": 161.9,
+   "mmss": "2:42",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-08&t=161&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-08&t=161",
+   "notas": 1
+  },
+  "Pruebas_hepaticas": {
+   "termino": "Pruebas hepáticas",
+   "tipo": "Examen",
+   "alias": [
+    "pruebas hepáticas",
+    "transaminasas",
+    "GPT",
+    "GOT",
+    "fosfatasa alcalina",
+    "GGT",
+    "bilirrubina"
+   ],
+   "def": "Grupo de exámenes para clasificar la ictericia: bilirrubina indirecta (Gilbert, hemólisis) o directa; en la directa, transaminasas indican hepatitis y FA/GGT colestasia.",
+   "pagina": 54,
+   "clase": "gastro-13",
+   "claseTitulo": "3.1 Ictericia y Colestasia: Enfrentamiento Diagnóstico",
+   "diapositiva": 2,
+   "t": 93.6,
+   "mmss": "1:34",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-13&t=93&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-13&t=93",
+   "notas": 20
+  },
+  "Ecografia_FAST": {
+   "termino": "Ecografía FAST",
+   "tipo": "Examen",
+   "alias": [
+    "FAST",
+    "eco FAST"
+   ],
+   "def": "Eco abdominal que busca líquido libre en el trauma abdominal cerrado. Estable, con FAST negativa y sin signos peritoneales, se observa (o TAC si hay mecanismo de alta energía).",
+   "pagina": 108,
+   "clase": "gastro-26",
+   "claseTitulo": "6.4 Trauma Abdominal y Torácico",
+   "diapositiva": 1,
+   "t": 26.3,
+   "mmss": "0:26",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-26&t=26&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-26&t=26",
+   "notas": 6
+  },
+  "Elastografia": {
+   "termino": "Elastografía",
+   "tipo": "Examen",
+   "alias": [
+    "elastografía",
+    "FibroScan"
+   ],
+   "def": "Elastografía hepática (FibroScan) que estadifica la fibrosis; junto con biopsia separa la inflamación del estadio de fibrosis. Ha reemplazado a la biopsia en la mayoría de los casos.",
+   "pagina": 58,
+   "clase": "gastro-14",
+   "claseTitulo": "3.2 Hepatitis Aguda y Crónica",
+   "diapositiva": 1,
+   "t": 27.3,
+   "mmss": "0:27",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Gastroenterolog%C3%ADa&clase=gastro-14&t=27&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_gastroenterologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=gastro-14&t=27",
+   "notas": 2
+  }
+ }
+}

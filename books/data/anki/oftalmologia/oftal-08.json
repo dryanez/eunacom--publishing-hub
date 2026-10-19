@@ -1,0 +1,492 @@
+{
+ "classId": "oftal-08",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La catarata es la opacificación del cristalino y la primera causa de ceguera {{c1::reversible}} en el mundo y en Chile.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Catarata",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-08/01_catarata_1__amir-oftalmo_p40.jpg",
+   "codigos": [
+    "6.02.1.003"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La catarata senil es más del {{c1::90%}} de los casos y puede ser nuclear, cortical o subcapsular posterior.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Senil",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.003"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Catarata nuclear: núcleo amarillento-pardo que causa {{c1::miopización}} transitoria.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Nuclear",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.003"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Catarata cortical: opacidades radiales en cuña («radios de {{c1::rueda}}»); deslumbramiento nocturno.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Cortical",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.003"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Catarata subcapsular posterior: pérdida visual rápida y deslumbramiento {{c1::diurno}}; mala visión con miosis.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Subcapsular",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.003"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El uso prolongado de {{c1::corticoides}} (tópicos o sistémicos) induce catarata subcapsular posterior, incluso en jóvenes.",
+   "extra": "Asmático con corticoides inhalados y pulsos de prednisona.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Corticoides",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.003"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la diabetes, el sorbitol intracelular acelera la catarata; se ven cataratas corticales {{c1::juveniles}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Diabetes",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.003"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Catarata traumática: opacidad en {{c1::roseta}} o estrella, monocular, tras contusión.",
+   "extra": "Paciente diabético de 68 años con opacidad central en estrella en el rojo pupilar.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Traumática",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 33"
+   ],
+   "codigos": [
+    "6.02.1.003"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Catarata congénita por infecciones TORCH, como {{c1::rubéola}} congénita.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Congénita",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.003"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Catarata: baja visual lenta, bilateral, progresiva y {{c1::indolora}}.",
+   "extra": "Mujer de 78 años con caída del contraste y alteración del rojo pupilar.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clínica",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2018 · Pregunta 171"
+   ],
+   "codigos": [
+    "6.02.1.003",
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Deslumbramiento ante luces directas, sobre todo al conducir de noche con {{c1::faros}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Deslumbramiento",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.003",
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Miopización paradójica o «segunda {{c1::visión}}»: el présbita vuelve a leer de cerca sin anteojos.",
+   "extra": "No es mejoría: el cristalino se engrosa.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Segunda visión",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.003",
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Examen de elección en APS: test del {{c1::reflejo rojo}} con oftalmoscopio directo a un metro.",
+   "extra": "Diabético de 68 años con agudeza 10/20 y opacidad en el rojo pupilar.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Reflejo rojo",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 16"
+   ],
+   "codigos": [
+    "6.02.1.003",
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la catarata el reflejo rojo está {{c1::atenuado}} o recortado por manchas oscuras.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Reflejo rojo",
+   "repaso": false,
+   "imagen": "_verificadas/272_oftal_Catarata__2017BatesG_p1022_1.jpg",
+   "codigos": [
+    "6.02.1.003",
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si la agudeza no mejora con agujero {{c1::estenopeico}} ni cambia la refracción, hay una opacidad de medios, como la catarata.",
+   "extra": "Agudeza 20/40 bilateral.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Estenopeico",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 156"
+   ],
+   "codigos": [
+    "6.02.1.003",
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La catarata no tiene tratamiento médico: ningún {{c1::colirio}} la retrasa ni la revierte; el tratamiento es quirúrgico.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.003"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se opera por el impacto funcional (leer, conducir, caídas) o agudeza corregida ≤ {{c1::0,3}} (20/60).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Indicación",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.003"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Facoemulsificación: microincisión corneal de {{c1::2,2 a 2,7 mm}}, capsulorrexis, ultrasonido e implante de lente intraocular plegable.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Técnica",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.003"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La facoemulsificación es ambulatoria y con anestesia {{c1::tópica}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Anestesia",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.003"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "GES N.º 21: confirmación diagnóstica en {{c1::180 días}} desde la sospecha.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 GES",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.003"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "GES N.º 21: cirugía en un plazo máximo de {{c1::90 días}} tras la indicación, con agudeza corregida ≤ 0,3.",
+   "extra": "El punto clave del libro lo cuenta desde la confirmación diagnóstica.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 GES",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.003"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Catarata senil con compromiso funcional: notificar {{c1::GES 21}} y derivar a oftalmología.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Conducta",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.003"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pupila blanca en un niño: catarata congénita o {{c1::retinoblastoma}}; derivación urgente.",
+   "extra": "Lactante de 7 meses con leucocoria derecha.",
+   "origen": "clase:3",
+   "fuente": "Clase · Leucocoria",
+   "repaso": true,
+   "imagen": "biblioteca/12_oftalmologia/oftal-08/02_leucocoria__amir-oftalmo_p55.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 31"
+   ],
+   "codigos": [
+    "6.02.1.003"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pérdida visual lenta e indolora: refracción, catarata, glaucoma crónico, DMAE seca y retinopatía diabética; derivación {{c1::programada}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Pérdida lenta",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pérdida súbita indolora con ojo blanco: oclusión retiniana, desprendimiento, hemorragia vítrea, neuropatía isquémica o DMAE húmeda: urgencia en {{c1::horas}}.",
+   "extra": "Catarata conocida que pierde la visión en 6 horas: derivar el mismo día.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Pérdida súbita",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pérdida súbita en mayor de 50 años con cefalea: {{c1::arteritis de células gigantes}}; VHS y PCR y corticoide en dosis altas sin esperar la biopsia.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Arteritis",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pérdida súbita dolorosa con ojo rojo: glaucoma agudo, queratitis, uveítis o {{c1::endoftalmitis}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Dolorosa",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pérdida transitoria monocular de minutos («telón»): {{c1::amaurosis fugaz}}; se estudia como un AIT (ateroma carotídeo o embolia).",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Amaurosis fugaz",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Siempre medir la agudeza con y sin estenopeico, buscar {{c1::DPAR}} y mirar el fondo de ojo.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Examen",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-08/01_catarata_1__amir-oftalmo_p40.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Catarata",
+   "clave": "Cristalino blanquecino tras la pupila",
+   "conducta": "Notificar GES 21 y derivar para facoemulsificación",
+   "fuente": "Manual AMIR Oftalmología, p. 40",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2018 · Pregunta 171"
+   ],
+   "codigos": [
+    "6.02.1.003"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "_verificadas/272_oftal_Catarata__2017BatesG_p1022_1.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Catarata madura blanca",
+   "clave": "Pupila blanca por opacidad total del cristalino",
+   "conducta": "Cirugía; sin tratamiento médico",
+   "fuente": "Bates' Guide to Physical Examination, p. 1022",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.003"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-08/02_leucocoria__amir-oftalmo_p55.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Leucocoria",
+   "clave": "Pupila blanca en un niño",
+   "conducta": "Catarata congénita o retinoblastoma: derivar urgente",
+   "fuente": "Manual AMIR Oftalmología, p. 55",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.003"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Baja visual lenta e indolora: ¿qué examen se hace?",
+   "codigos": [
+    "6.02.1.003",
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Reflejo rojo atenuado: ¿diagnóstico?",
+   "codigos": [
+    "6.02.1.003",
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.0",
+   "pista": "Catarata que dificulta leer o conducir: ¿conducta?",
+   "codigos": [
+    "6.02.1.003",
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1",
+   "pista": "Reflejo rojo normal: ¿dónde se busca?",
+   "codigos": [
+    "6.02.1.003",
+    "6.02.2.004"
+   ]
+  }
+ ]
+}

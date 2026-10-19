@@ -1,0 +1,562 @@
+{
+ "classId": "cardio-34",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El taponamiento depende de la {{c1::velocidad}} de acumulación y la presión intrapericárdica, no solo del volumen.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Un derrame de acumulación rápida produce taponamiento con apenas {{c1::100 a 200 mL}}.",
+   "extra": "Uno lento puede llegar a 1-2 litros sin taponamiento.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el taponamiento el pericardio comprime primero las cavidades {{c1::derechas}} durante la diástole.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El taponamiento es un shock {{c1::obstructivo}}: pulmones limpios y venas del cuello llenas.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · El pericardio no se estira rápido",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El pulso paradojal se explica por la interdependencia {{c1::ventricular}}: en inspiración el VD empuja el tabique y el VI se llena menos.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causa neoplásica de taponamiento: pulmón, mama, linfoma o melanoma, con derrame {{c1::hemorrágico}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cuándo pensar en taponamiento",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras un infarto, el taponamiento puede deberse a rotura de la pared libre del {{c1::ventrículo izquierdo}}; se resuelve en pabellón.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cuándo pensar en taponamiento",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La disección aórtica tipo {{c1::A}} puede romperse al saco pericárdico y causar taponamiento.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Causas",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tríada de Beck es hipotensión, ingurgitación yugular y {{c1::ruidos cardíacos apagados}}.",
+   "extra": "Más taquicardia y pulmones limpios.",
+   "origen": "clase:3",
+   "fuente": "Clase · Tríada de Beck y pulso paradojal",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.008"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 3",
+    "EUNACOM Julio 2024 · Pregunta 136"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el taponamiento la yugular muestra onda {{c1::x}} prominente y ausencia de onda y.",
+   "extra": "El llenado ventricular solo ocurre en sístole.",
+   "origen": "clase:3",
+   "fuente": "Clase · Tríada de Beck y pulso paradojal",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el trauma con hemorragia las yugulares pueden {{c1::no estar ingurgitadas}} aunque haya taponamiento (hipovolemia).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Clínica",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Pulso paradojal: caída de la PAS mayor de {{c1::10 mmHg}} durante la inspiración.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Tríada de Beck y pulso paradojal",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.008"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 158"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La PAS que cae al inspirar es pulso paradojal; el error es llamarlo {{c1::signo de Kussmaul}}.",
+   "extra": "Kussmaul: la yugular sube al inspirar (constricción).",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El pulso paradojal también aparece en asma grave, EPOC descompensada y {{c1::TEP masivo}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Clínica",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Cáncer de pulmón con síncope y ruidos apagados: es taponamiento; el error es pensar en {{c1::TEP}}.",
+   "extra": "Lo distingue la disminución de la intensidad de los ruidos.",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.008"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 136"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El examen de elección y que hace el diagnóstico de taponamiento es el {{c1::ecocardiograma}} de cabecera.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Ecocardiograma, ECG y radiografía",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.008"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 158"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En sospecha de taponamiento el error es pedir un {{c1::TAC con contraste}} primero.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo ecocardiográfico del taponamiento: colapso diastólico de la AD y el VD, y VCI dilatada {{c1::sin colapso inspiratorio}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Ecocardiograma, ECG y radiografía",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el trauma, el taponamiento se busca con la ventana {{c1::subxifoidea}} de la ecografía FAST.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Ecocardiograma, ECG y radiografía",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "ECG del taponamiento: bajo voltaje y {{c1::alternancia eléctrica}} (QRS que cambia de amplitud latido a latido).",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Ecocardiograma, ECG y radiografía",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Bajo voltaje y alternancia eléctrica indican derrame con taponamiento; el error es pensar en {{c1::infarto}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la radiografía el derrame grande da silueta en {{c1::botella de agua}} con campos limpios; un tórax normal no excluye el taponamiento.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Ecocardiograma, ECG y radiografía",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dx diferencial del shock obstructivo: TEP masivo, neumotórax a tensión y {{c1::taponamiento}}.",
+   "extra": "El cardiogénico izquierdo tiene congestión pulmonar.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tratamiento de emergencia del taponamiento es la {{c1::pericardiocentesis}} evacuadora inmediata.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Pericardiocentesis y sostén",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.008",
+    "1.01.5.007"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La pericardiocentesis de elección es la guiada por {{c1::ecocardiografía}}; a ciegas subxifoidea solo si hay paro inminente.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Pericardiocentesis y sostén",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.008",
+    "1.01.5.007"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Punción pericárdica clásica: {{c1::1 a 2 cm bajo el xifoides}}, hacia el hombro izquierdo, con el paciente semisentado.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.007"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tras la pericardiocentesis se deja un catéter pigtail durante {{c1::24 a 72 horas}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Pericardiocentesis y sostén",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.007"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El médico general ante un taponamiento debe reconocer, estabilizar y {{c1::derivar}}; punciona solo si hay paro inminente.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Derrame sin taponamiento",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.008",
+    "1.01.5.007"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mientras se prepara la pericardiocentesis se administra {{c1::volumen EV}} y, si hace falta, vasopresores.",
+   "extra": "Aumenta la presión de llenado.",
+   "origen": "clase:6",
+   "fuente": "Clase · Pericardiocentesis y sostén",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el taponamiento se evitan los diuréticos, los {{c1::nitratos}} y la ventilación con presión positiva.",
+   "extra": "Bajan la precarga; la intubación puede precipitar el paro.",
+   "origen": "clase:6",
+   "fuente": "Clase · Pericardiocentesis y sostén",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Hipotensión + yugulares + ruidos apagados: el error es dar {{c1::furosemida o nitroglicerina}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Taponamiento por disección o rotura cardíaca: se lleva a {{c1::pabellón}}; solo puncionar es el error.",
+   "extra": "El drenaje con aguja puede soltar el sello del sangrado.",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si el líquido de la punción coagula es sangre de ventrículo puncionado; el hemopericardio {{c1::no coagula}} (defibrinado).",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.007"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El líquido pericárdico se envía a citología, cultivo (incluida TBC), {{c1::adenosina desaminasa}} y recuento celular.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.007"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Durante la punción, elevación del ST o extrasístoles ventriculares indican contacto con el {{c1::epicardio}}: retirar la aguja unos milímetros.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Derrame sin taponamiento",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.007"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Derrame pericárdico grande: separación en diástole mayor de {{c1::20 mm}}.",
+   "extra": "Pequeño < 10 mm; moderado 10 a 20 mm.",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Derrame sin taponamiento",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Derrame sin taponamiento y estable: se trata la causa con ecocardiograma {{c1::seriado}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Pericardiocentesis y sostén",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pericarditis constrictiva: yugulares con signo de Kussmaul, knock pericárdico y tratamiento con {{c1::pericardiectomía}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla comparativa",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-34/01_derrame-pericardico-eco__pocket-atlas-us_p146.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Derrame pericárdico en ecocardiograma",
+   "clave": "Halo oscuro (libre de ecos) alrededor de las cavidades; en taponamiento, colapso diastólico de AD/VD",
+   "conducta": "Si hay taponamiento: pericardiocentesis guiada por eco",
+   "fuente": "Pocket Atlas of Emergency Ultrasound, p. 146",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-34/02_pulso-paradojal-trazado__bates_p432.jpg",
+   "pregunta": "¿Qué muestra el trazado?",
+   "diagnostico": "Pulso paradojal",
+   "clave": "Caída de la PAS mayor de 10 mmHg durante la inspiración",
+   "conducta": "Sospechar taponamiento; ecocardiograma y pericardiocentesis",
+   "fuente": "Bates, Guide to Physical Examination (2017)",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.008"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Hipotensión + yugulares + ruidos apagados: ¿qué examen?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Taponamiento confirmado: ¿qué conducta?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1",
+   "pista": "Taponamiento por trauma, disección o rotura: ¿a dónde?"
+  }
+ ]
+}

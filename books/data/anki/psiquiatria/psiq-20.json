@@ -1,0 +1,431 @@
+{
+  "classId": "psiq-20",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fases de Masters y Johnson: excitación, meseta, orgasmo y {{c1::resolución}}.",
+      "extra": "Kaplan agrega el deseo como fase inicial.",
+      "origen": "clase:1",
+      "fuente": "Clase · Fases",
+      "repaso": true,
+      "codigos": [
+        "5.01.3.012"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El período refractario masculino ocurre en la fase de {{c1::resolución}}.",
+      "extra": "La mujer puede ser multiorgásmica.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.012"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La erección es un fenómeno vascular bajo control {{c1::parasimpático (S2-S4)}} mediado por óxido nítrico.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Fisiología",
+      "repaso": true,
+      "codigos": [
+        "5.01.3.012"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La emisión depende del simpático ({{c1::T11-L2}}); eyaculación y orgasmo, de los nervios pudendos.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Fisiología",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.012"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Disfunción sexual (DSM-5): síntoma de al menos {{c1::6 meses}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Disfunciones",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.017"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Disfunción sexual (DSM-5): ocurre en el {{c1::75-100%}} de las ocasiones.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.017"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Disfunción eréctil: se estudian factores de {{c1::riesgo vascular}} y se indican iPDE5.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla disfunciones",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.017"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Los iPDE5 están {{c1::contraindicados con nitratos}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.017"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Erecciones matinales o nocturnas conservadas orientan a causa {{c1::psicógena}}.",
+      "extra": "Inicio brusco y situacional también.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.017"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Eyaculación precoz: eyaculación cerca de {{c1::1 minuto}} de la penetración, antes de lo deseado.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla disfunciones",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.017"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Eyaculación precoz: técnica de parada-inicio o compresión y {{c1::ISRS o dapoxetina}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Disfunciones",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.017"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Eyaculación precoz: el error es dar {{c1::alprazolam o sildenafil}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.017"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Los {{c1::ISRS}} retrasan el orgasmo; se puede cambiar a bupropión o mirtazapina.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Fármacos",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.017"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los antipsicóticos reducen el deseo por {{c1::hiperprolactinemia}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.017"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trastorno de dolor genitopélvico y de la penetración: dolor o contracción en la penetración, con examen {{c1::normal}}.",
+      "extra": "Deseo y orgasmo conservados.",
+      "origen": "libro:caso",
+      "fuente": "Libro · caso",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 161",
+        "EUNACOM Julio 2024 · Pregunta 162"
+      ],
+      "codigos": [
+        "5.01.1.017"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Manejo del dolor genitopélvico: descartar causa orgánica, {{c1::dilatadores vaginales}} y terapia sexual.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla disfunciones",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 161",
+        "EUNACOM Julio 2024 · Pregunta 162"
+      ],
+      "codigos": [
+        "5.01.1.017"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trastorno orgásmico femenino: retardo o ausencia de orgasmo; manejo con educación y {{c1::focalización sensorial}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla disfunciones",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.017"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Parafilia: interés sexual {{c1::atípico e intenso}}; no siempre es un trastorno.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Parafilias",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.017"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Trastorno parafílico: patrón de al menos {{c1::6 meses}} con malestar o deterioro, o ejecutado sin consentimiento.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.019"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Exhibicionismo: {{c1::exponer los genitales}} a desconocidos.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Parafilias",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.019"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Voyeurismo: la persona {{c1::mira}} a otros sin su conocimiento; no es exhibicionismo.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Parafilias",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.019"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Frotteurismo: {{c1::tocar o rozar}} a alguien sin consentimiento, en lugares concurridos; es delito.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Parafilias",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.019"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pedofilia: atracción por niños prepúberes en un agente de {{c1::16 años}} o más y 5 años mayor; denuncia.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Parafilias",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.019"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Conducta sexual con un menor o sin consentimiento es un {{c1::delito}} y obliga a la denuncia.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Parafilias",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.019"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La entrevista a un niño víctima de delito sexual se rige por la Ley {{c1::21.057}} (videograbada).",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Conducta",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.019"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Idea intrusiva de ser pedófilo que el paciente rechaza y lo aterra es {{c1::TOC}}, no parafilia.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.017"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La orientación homosexual o bisexual {{c1::no es un trastorno}} y no requiere tratamiento.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.019"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Disforia de género: malestar por incongruencia durante al menos {{c1::6 meses}}.",
+      "extra": "La no conformidad por sí sola no es disforia.",
+      "origen": "clase:9",
+      "fuente": "Clase · Sexo, género y orientación",
+      "repaso": true,
+      "codigos": [
+        "5.01.3.006",
+        "3.01.3.014"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Disforia de género: acompañar, evaluar {{c1::riesgo suicida}} y derivar a equipo especializado.",
+      "extra": "Bloqueo puberal y hormonización los decide el equipo, no el médico general.",
+      "origen": "clase:10",
+      "fuente": "Clase · Disforia",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.006",
+        "3.01.3.014"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Las {{c1::terapias de conversión}} no tienen eficacia y son dañinas.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Disforia",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.006"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.1.1",
+      "pista": "Disfunción eréctil gradual y generalizada: ¿conducta y qué contraindicación?",
+      "codigos": [
+        "5.01.1.017"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.3.0",
+      "pista": "Interés atípico con un menor o sin consentimiento: ¿qué haces?",
+      "codigos": [
+        "5.01.1.017"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0",
+      "pista": "Dolor en la penetración con examen normal: ¿qué es y qué haces?",
+      "codigos": [
+        "5.01.1.017"
+      ]
+    }
+  ]
+}

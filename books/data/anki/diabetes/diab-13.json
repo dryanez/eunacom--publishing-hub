@@ -1,0 +1,510 @@
+{
+  "classId": "diab-13",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hiperglicemia hospitalaria es cualquier glicemia > {{c1::140 mg/dL}} en un paciente internado, sea o no diabético.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Definición y metas",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La meta glicémica del hospitalizado, crítico o no crítico, es {{c1::140 a 180 mg/dL}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Definición y metas",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Metas estrictas < {{c1::110 mg/dL}} en hospitalizados aumentan hipoglicemias y mortalidad (NICE-SUGAR).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Definición y metas",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hiperglicemia de estrés se asocia a más infecciones de herida, estadía prolongada y {{c1::falla multiorgánica}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Definición y metas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Al ingreso se suspenden los orales: {{c1::metformina, sulfonilureas e iSGLT2}}.",
+      "extra": "Se reemplazan por insulina programada.",
+      "origen": "clase:2",
+      "fuente": "Clase · Se suspenden los orales",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La metformina se suspende ante sepsis, hipoperfusión, {{c1::insuficiencia renal aguda}}, hipoxemia o contraste yodado.",
+      "extra": "Riesgo de acidosis láctica.",
+      "origen": "clase:2",
+      "fuente": "Clase · Se suspenden los orales",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La glibenclamida se suspende por hipoglicemia prolongada con {{c1::ingesta irregular o régimen cero}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Se suspenden los orales",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Los iSGLT2 se suspenden ante cirugía mayor o infección por riesgo de {{c1::CAD euglicémica}} y deshidratación.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Se suspenden los orales",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El esquema móvil aislado de cristalina está {{c1::proscrito}} como terapia única.",
+      "extra": "Es reactivo: «persigue» la glicemia y causa montaña rusa glicémica.",
+      "origen": "clase:3",
+      "fuente": "Clase · Esquema móvil",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El esquema móvil aislado no aporta cobertura {{c1::basal}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Esquema móvil",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En el paciente crítico o inestable se usa insulina {{c1::cristalina EV}} en bomba.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Crítico, en ayunas o comiendo",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La insulina EV en bomba exige control de glicemia cada {{c1::1 a 2 horas}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Crítico, en ayunas o comiendo",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Paciente en ayunas en sala: esquema {{c1::basal-corrección}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Crítico, en ayunas o comiendo",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Paciente que tolera alimentación: esquema {{c1::basal-bolo-corrección}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Crítico, en ayunas o comiendo",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dosis total diaria de insulina en el hospitalizado: {{c1::0,2 a 0,4 UI/kg/día}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Dosis basal-bolo",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "De la dosis total, {{c1::50 %}} es basal y 50 % son bolos prandiales de rápida.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Dosis basal-bolo",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La insulina basal hospitalaria es NPH cada {{c1::12 horas}} o glargina una vez al día.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Dosis basal-bolo",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La corrección preprandial se agrega según la glicemia {{c1::capilar}} antes de comer.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Dosis basal-bolo",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.015",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Sepsis, PA 88/55, creatinina 2,2 y metformina: {{c1::suspender metformina}} e iniciar basal más correcciones subcutáneas.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · pregunta Julio 2018",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Colecistectomía en curso, tolera dieta, con glibenclamida y glicemias 220–260: {{c1::basal más bolos prandiales y escala de corrección}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los corticoides causan hiperglicemia dosis-dependiente por {{c1::resistencia a la insulina}} y más gluconeogénesis.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Corticoides",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.006",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con prednisona matinal la hiperglicemia es {{c1::vespertina y postprandial}}, con ayuno casi normal.",
+      "extra": "El ayuno la subestima.",
+      "origen": "clase:6",
+      "fuente": "Clase · Prednisona",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 24"
+      ],
+      "codigos": [
+        "1.02.1.006",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se sospecha diabetes por corticoides con glicemia ≥ {{c1::200 mg/dL}} y prednisona ≥ 10–20 mg/día.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Corticoides",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.006",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En hiperglicemia por prednisona la insulina de elección es la {{c1::NPH matinal}}, junto con la prednisona.",
+      "extra": "Aprox. 0,1 UI/kg por cada 10 mg de prednisona, hasta 0,4 UI/kg.",
+      "origen": "clase:6",
+      "fuente": "Clase · Prednisona",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 24"
+      ],
+      "codigos": [
+        "1.02.1.006",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Al reducir o suspender el corticoide hay que {{c1::bajar la insulina de inmediato}} por riesgo de hipoglicemia.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Prednisona",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con hidrocortisona EV y glicemias altas persistentes, el examen diagnóstico es la {{c1::HbA1c}}.",
+      "extra": "≥ 6,5 % certifica diabetes previa al ingreso.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Enero 2023",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 106",
+        "EUNACOM Diciembre 2025 · Pregunta 93",
+        "EUNACOM Enero 2023 · Pregunta 169"
+      ],
+      "codigos": [
+        "1.02.1.006",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Si la hiperglicemia persiste más de {{c1::3 meses}} tras suspender el corticoide, se reevalúa como DM2 de base.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Corticoides",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.006",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Glicemia capilar si come: {{c1::4 veces al día}} (antes de cada comida y a las 22:00).",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Glicemia capilar",
+      "repaso": true,
+      "codigos": [
+        "1.02.4.015",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En ayunas o con nutrición continua, la glicemia capilar se mide cada {{c1::4 a 6 horas}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Glicemia capilar",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.015",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En shock, hipoperfusión o hipoxemia grave el capilar no es confiable: se confirma con {{c1::glicemia venosa}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Glicemia capilar",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.015",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con NPH nocturna en DM2 ambulatoria, la glicemia capilar clave es la de {{c1::ayunas}}, a primera hora.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Julio 2024",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 78"
+      ],
+      "codigos": [
+        "1.02.4.015",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "HbA1c > 9 % bajo metformina: se indica {{c1::insulina NPH}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Enero 2023",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 151",
+        "EUNACOM Diciembre 2022 · Pregunta 149",
+        "EUNACOM Enero 2023 · Pregunta 150"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Crítico o inestable: ¿qué insulina y vía?",
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "No tolera alimentación: ¿qué esquema?",
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "Tolera alimentación: ¿qué esquema?",
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.2",
+      "pista": "Esquema móvil solo: ¿es aceptable?",
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    }
+  ]
+}

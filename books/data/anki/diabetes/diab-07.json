@@ -1,0 +1,509 @@
+{
+  "classId": "diab-07",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La metformina activa la {{c1::AMPK}} hepática e inhibe la gluconeogénesis y la glucogenólisis.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Mecanismo metformina",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La metformina en monoterapia tiene riesgo de hipoglicemia {{c1::nulo}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Mecanismo metformina",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.006",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Metformina con VFG ≥ {{c1::45}} mL/min: dosis plena, hasta 2.550 mg/día.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · El riñón decide la dosis",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Metformina con VFG de 30 a 44 mL/min: máximo {{c1::1.000 mg/día}}.",
+      "extra": "500 mg cada 12 h y control renal cada 3 meses.",
+      "origen": "clase:2",
+      "fuente": "Clase · El riñón decide la dosis",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Metformina con VFG < {{c1::30}} mL/min: contraindicación absoluta por acidosis láctica.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · El riñón decide la dosis",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.001",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Diabético de 72 años con VFG 24 mL/min en metformina 850 mg cada 12 h: {{c1::suspender de inmediato}} la metformina.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro · pregunta Julio 2018",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.2.001"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La metformina se suspende {{c1::48 horas}} antes de contraste yodado endovenoso o cirugía mayor.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · El riñón decide la dosis",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La metformina es de elección en el adulto mayor si la {{c1::función renal es segura}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Perfil clínico metformina",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 24"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La metformina es neutra en peso o baja {{c1::1 a 2 kg}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Perfil clínico metformina",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Efecto adverso cardinal de la metformina: {{c1::digestivo}} (diarrea, náuseas, meteorismo).",
+      "extra": "Titular lento y tomar con comida.",
+      "origen": "clase:3",
+      "fuente": "Clase · Perfil clínico metformina",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 107"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La metformina causa déficit de vitamina B12 por malabsorción {{c1::ileal}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Perfil clínico metformina",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La glibenclamida se une al receptor {{c1::SUR-1}} y cierra los canales K-ATP de la célula beta.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Glibenclamida",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La glibenclamida libera insulina {{c1::independiente de la glucosa}}: causa hipoglicemia aunque la glicemia ya esté baja.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Glibenclamida",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.006",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Por metabolitos activos la hipoglicemia por glibenclamida puede durar {{c1::24 a 48 horas}}.",
+      "extra": "Eliminación renal; se acumulan en el anciano.",
+      "origen": "clase:4",
+      "fuente": "Clase · Glibenclamida",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.006",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La glibenclamida aumenta el peso entre {{c1::2 y 4 kg}}.",
+      "extra": "Por hiperinsulinemia persistente.",
+      "origen": "clase:5",
+      "fuente": "Clase · Efectos adversos glibenclamida",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La glibenclamida {{c1::agota la célula beta}} con los años.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Efectos adversos glibenclamida",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el adulto mayor la glibenclamida se {{c1::evita}} (criterios de Beers).",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · A quién evitársela",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 118"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Glibenclamida con VFG < {{c1::30}}: contraindicada por hipoglicemia refractaria; con VFG 30–44, precaución o evitar.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · A quién evitársela",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.006",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hipoglicemia severa por glibenclamida tratada con bolo de glucosa: el error fatal es {{c1::dar de alta}}.",
+      "extra": "Recae porque el fármaco sigue circulando.",
+      "origen": "clase:6",
+      "fuente": "Clase · Nunca de alta",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.006",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hipoglicemia por glibenclamida: hospitalizar con suero glucosado al {{c1::10 %}} por al menos {{c2::24 horas}}.",
+      "extra": "Y suspender la glibenclamida.",
+      "origen": "clase:6",
+      "fuente": "Clase · Nunca de alta",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.006",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se considera hipoglicemia severa con glicemia < {{c1::50 mg/dL}} o compromiso de conciencia.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Nunca de alta",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.006",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Anciano con glibenclamida 15 mg/día y convulsiones: la causa más probable es {{c1::hipoglicemia}}, aunque la glicemia previa fuera 185.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Agosto 2021",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 72",
+        "EUNACOM Diciembre 2019 · Pregunta 86"
+      ],
+      "codigos": [
+        "1.02.2.006",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hipoglicemias con glibenclamida 20 mg más metformina y HbA1c 8,1 %: {{c1::reemplazar la glibenclamida por sitagliptina}}.",
+      "extra": "No basta con suspenderla ni agregar colación.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Dic 2017",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 40"
+      ],
+      "codigos": [
+        "1.02.2.006",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Anciano con HbA1c 6,9 % y glibenclamida: se {{c1::suspende la glibenclamida}} y se mantiene la metformina.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Agosto 2021",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 118"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La acidosis láctica por metformina tiene lactato > {{c1::5 mmol/L}} y pH < {{c2::7,35}} con anión gap alto.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Acidosis láctica",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.001",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La acidosis láctica por metformina se distingue de la cetoacidosis por {{c1::cetonas negativas}} y glicemia casi normal.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Acidosis láctica",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.001",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Factores precipitantes de acidosis láctica por metformina: falla renal, {{c1::sepsis, shock y contraste yodado}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Acidosis láctica",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.001",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La mortalidad de la acidosis láctica por metformina es de {{c1::30 a 50 %}}.",
+      "extra": "El libro §1 menciona 40–50 %.",
+      "origen": "clase:2",
+      "fuente": "Clase · El riñón decide la dosis",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.001",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Acidosis láctica por metformina: suspender el fármaco y derivar a {{c1::UCI}}; hemodiálisis si pH < {{c2::7,0}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Acidosis láctica",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.001",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Usuario de metformina con falla renal aguda, vómitos y Kussmaul: lactato alto y cetonas negativas; el error es {{c1::tratarla como cetoacidosis}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Con NPH 30 U mañana y 20 U noche, hipoglicemia a las 3 AM: {{c1::disminuir la NPH nocturna}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Preguntas reales",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 149",
+        "EUNACOM Agosto 2021 · Pregunta 119"
+      ],
+      "codigos": [
+        "1.02.2.006",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Con HbA1c > 9 % bajo metformina se agrega {{c1::insulina NPH}}, no otro oral.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Preguntas reales",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 151",
+        "EUNACOM Diciembre 2022 · Pregunta 149"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.2.006"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Hipoglicemia severa con glibenclamida: ¿qué conducta?",
+      "codigos": [
+        "1.02.2.006",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1",
+      "pista": "VFG 30–44: ¿qué dosis de metformina?",
+      "codigos": [
+        "1.02.1.005",
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.2",
+      "pista": "VFG < 30: ¿qué haces?",
+      "codigos": [
+        "1.02.1.005",
+        "1.02.2.006"
+      ]
+    }
+  ]
+}

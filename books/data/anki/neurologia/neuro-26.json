@@ -1,0 +1,476 @@
+{
+  "classId": "neuro-26",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los cuidados paliativos previenen y alivian el sufrimiento {{c1::sin acelerar ni retrasar la muerte}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Qué son y a quién",
+      "repaso": true,
+      "codigos": [
+        "1.07.3.003"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El «dolor total» incluye lo físico, psicológico, social y {{c1::espiritual}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Qué son y a quién",
+      "repaso": false,
+      "codigos": [
+        "1.07.3.003",
+        "1.08.3.007"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los cuidados paliativos no son solo cáncer: también IC, EPOC, ERC, cirrosis, demencia, ELA y {{c1::fragilidad}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Qué son y a quién",
+      "repaso": false,
+      "codigos": [
+        "1.07.3.003"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El alivio del dolor por cáncer avanzado y cuidados paliativos es la Garantía GES N° {{c1::4}}.",
+      "extra": "Ley 21.375: cuidados paliativos universales.",
+      "origen": "clase:1",
+      "fuente": "Clase · Qué son y a quién",
+      "repaso": true,
+      "codigos": [
+        "1.07.3.003",
+        "1.08.3.008"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La Ley {{c1::20.584}} reconoce el derecho a rechazar o interrumpir un tratamiento.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Qué son y a quién",
+      "repaso": false,
+      "codigos": [
+        "1.07.3.003"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Limitar el esfuerzo terapéutico y la sedación paliativa {{c1::no son eutanasia}}.",
+      "extra": "La indicación es el síntoma, no acortar la vida.",
+      "origen": "clase:1",
+      "fuente": "Clase · Qué son y a quién",
+      "repaso": true,
+      "codigos": [
+        "1.07.3.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La intensidad del dolor se mide con escala numérica de 0 a 10; en demencia o afasia se usa {{c1::PAINAD}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Evaluar el dolor",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.007"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dolor neuropático: ardor, descarga eléctrica o {{c1::alodinia}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Evaluar el dolor",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.007"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La escalera analgésica de la OMS tiene {{c1::3}} peldaños: no opioides, opioide débil y opioide potente.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Evaluar el dolor",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.007"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Dolor leve (1–3): {{c1::paracetamol}} hasta 3 g al día.",
+      "extra": "AINE en el anciano: riñón y estómago.",
+      "origen": "clase:14",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.007"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Dolor moderado (4–6): opioide débil ({{c1::tramadol o codeína}}) más paracetamol.",
+      "extra": "Tramadol: hiponatremia, convulsiones, serotoninérgico.",
+      "origen": "clase:14",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.007"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Dolor intenso (7–10): {{c1::morfina oral de liberación inmediata}} con rescates y titulación.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.007"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Morfina oral inicial: {{c1::5 mg}} cada 4 horas (2,5 mg en el anciano o frágil).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Cómo se usa la morfina",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.007"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dosis de rescate de morfina: {{c1::1/6}} de la dosis diaria total.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Cómo se usa la morfina",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.007"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La dosis subcutánea de morfina es la {{c1::mitad}} de la dosis oral.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Cómo se usa la morfina",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.007",
+        "1.07.3.003"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En insuficiencia renal se evita la morfina: se usa fentanilo, {{c1::oxicodona o metadona}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Cómo se usa la morfina",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.007"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Todo paciente con opioide recibe {{c1::laxante regular}} desde el inicio: no hay tolerancia al estreñimiento.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Efectos adversos",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.007"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las náuseas y la somnolencia por opioides suelen ceder en {{c1::pocos días}}; se usa haloperidol o metoclopramida.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Efectos adversos",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.007"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Neurotoxicidad por opioides (mioclonías, alucinaciones, delirium): {{c1::rotar el opioide}} e hidratar.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Efectos adversos",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.007"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Dolor neuropático: {{c1::gabapentina o pregabalina}}; alternativas amitriptilina, nortriptilina o duloxetina.",
+      "extra": "Dosis bajas en el anciano.",
+      "origen": "clase:5",
+      "fuente": "Clase · Adyuvantes",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.007"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Dolor óseo: AINE, dexametasona y {{c1::radioterapia}}, muy eficaz en metástasis dolorosas.",
+      "extra": "También bifosfonatos o denosumab.",
+      "origen": "clase:5",
+      "fuente": "Clase · Adyuvantes",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.007"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Paciente oncológico terminal: ECOG 3–4, Karnofsky ≤ {{c1::50}} o PPS ≤ 50 %.",
+      "extra": "Pronóstico de meses o menos.",
+      "origen": "clase:6",
+      "fuente": "Clase · Paciente oncológico terminal",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.008"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Disnea en paliativos: {{c1::morfina en dosis baja}}; oxígeno solo si hay hipoxemia.",
+      "extra": "Ventilador sobre la cara; benzodiacepina si hay ansiedad.",
+      "origen": "clase:7",
+      "fuente": "Clase · Síntomas frecuentes",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.008"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Obstrucción intestinal maligna: hioscina, {{c1::octreotida}} y dexametasona.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Síntomas frecuentes",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.008"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipercalcemia maligna: hidratación y ácido {{c1::zoledrónico}}.",
+      "extra": "Confusión, poliuria, estreñimiento.",
+      "origen": "clase:8",
+      "fuente": "Clase · Cuatro urgencias oncológicas",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.008"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Compresión medular maligna: {{c1::dexametasona}} y radioterapia urgente.",
+      "extra": "Dolor de espalda y déficit neurológico.",
+      "origen": "clase:8",
+      "fuente": "Clase · Cuatro urgencias oncológicas",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.008",
+        "1.08.3.007"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signos de la agonía: somnolencia, oliguria, livideces, respiración de {{c1::Cheyne-Stokes}} y estertores.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Los últimos días",
+      "repaso": false,
+      "codigos": [
+        "1.07.3.003",
+        "1.08.3.008"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En los últimos días se simplifica: vía {{c1::subcutánea}}, sin hidratación ni nutrición artificial.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Los últimos días",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 14"
+      ],
+      "codigos": [
+        "1.07.3.003",
+        "1.08.3.008"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Estertores de la agonía: {{c1::butilbromuro de hioscina o escopolamina}} SC y cambio de posición.",
+      "extra": "No aspirar secreciones profundas.",
+      "origen": "clase:10",
+      "fuente": "Clase · Fármacos subcutáneos",
+      "repaso": true,
+      "codigos": [
+        "1.07.3.003",
+        "1.08.3.008"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Agitación terminal: tratar causas reversibles, luego haloperidol y, si no cede, {{c1::midazolam}} SC.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Fármacos subcutáneos",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.008",
+        "1.07.3.003"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Protocolo para comunicar malas noticias: {{c1::SPIKES}}; se conversa antes de la crisis.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Conversar antes de la crisis",
+      "repaso": false,
+      "codigos": [
+        "1.07.3.003",
+        "1.08.3.008"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-26/02_compresion-medular-rm__harrison_p3489.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Compresión medular epidural maligna",
+      "clave": "Masa epidural comprimiendo la médula en RM sagital",
+      "conducta": "Dexametasona y radioterapia urgente",
+      "fuente": "Harrison 21.ª ed., Fig. 442-2",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.008"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-26/01_gammagrafia-metastasis-oseas__bailey-love_p1414.jpg",
+      "pregunta": "¿Qué muestra y qué tratas?",
+      "diagnostico": "Metástasis óseas múltiples",
+      "clave": "Focos múltiples de captación en la gammagrafía",
+      "conducta": "Dolor óseo: AINE, dexametasona, radioterapia, bifosfonatos o denosumab",
+      "fuente": "Bailey & Love 27.ª ed., Fig. 75.27b",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.007"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.1",
+      "pista": "Dolor intenso o no controlado: ¿qué peldaño y qué asociar?",
+      "codigos": [
+        "1.08.3.007"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1.0",
+      "pista": "Dolor con falla renal: ¿qué evitas y qué usas?",
+      "codigos": [
+        "1.08.3.007"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.2",
+      "pista": "Últimos días de vida: ¿qué vía y qué fármacos?",
+      "codigos": [
+        "1.07.3.003"
+      ]
+    }
+  ]
+}

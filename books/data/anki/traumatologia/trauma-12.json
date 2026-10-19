@@ -1,0 +1,732 @@
+{
+ "classId": "trauma-12",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La artrosis es la destrucción progresiva del {{c1::cartílago articular}}, que no tiene capacidad de regeneración.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Artrosis",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.001"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Artrosis secundaria: tras luxaciones crónicas, fractura {{c1::intraarticular}}, artritis reumatoide o secuela de artritis séptica.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Artrosis",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.001"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El dolor de la artrosis es {{c1::mecánico}}: empeora con el uso y mejora con el reposo.",
+   "extra": "El derrame es no inflamatorio.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Artrosis",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.001"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La coxartrosis da dolor {{c1::inguinal}} que aumenta con la marcha y pérdida de rotación interna y flexión.",
+   "extra": "Pregunta real: bilateral con dolor irradiado a muslos.",
+   "origen": "clase:2",
+   "fuente": "Clase · Coxartrosis",
+   "repaso": true,
+   "imagen": "biblioteca/18_traumatologia/trauma-12/01_artrosis-cadera-rx__bailey-love_p535.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 5",
+    "EUNACOM Julio 2018 · Pregunta 14"
+   ],
+   "codigos": [
+    "1.08.1.001"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ante una gonalgia sin causa en la rodilla, se evalúa la {{c1::cadera}}: «la cadera llora por la rodilla».",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Gonalgia",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 139",
+    "EUNACOM Diciembre 2025 · Pregunta 36"
+   ],
+   "codigos": [
+    "1.11.1.015",
+    "4.02.1.004"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primera línea de la artrosis: {{c1::paracetamol 1 g c/8 h}} más ejercicio de fortalecimiento (cuádriceps en rodilla).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Escalera",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.001"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Segunda línea de la artrosis: {{c1::AINE}}; los COX-1 con omeprazol, los COX-2 con menor riesgo de úlcera.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Escalera",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.001"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Tercera línea de la artrosis: opiáceo débil, principalmente {{c1::tramadol}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Escalera",
+   "repaso": true,
+   "codigos": [
+    "4.02.1.001"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cuarta línea de la artrosis: {{c1::corticoides intraarticulares}}; quinta: prótesis o artrodesis.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Escalera",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.001"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Con insuficiencia renal crónica o úlcera gastroduodenal los AINE están contraindicados: se pasa del paracetamol al {{c1::tramadol}}.",
+   "extra": "Aunque sea COX-2 o se agregue omeprazol.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Escalera",
+   "repaso": true,
+   "codigos": [
+    "4.02.1.001"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor de cadera con displasia previa, acortamiento y cojera permanente en una mujer joven: {{c1::prótesis total de cadera}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real artrosis",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 120"
+   ],
+   "codigos": [
+    "1.11.1.015",
+    "4.02.1.004"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor lumbar progresivo con osteofitos en la radiografía lumbar: {{c1::espondiloartrosis}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real columna",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 1"
+   ],
+   "codigos": [
+    "1.11.1.015",
+    "4.02.1.004"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor en la cara lateral de la cadera que aumenta al recostarse sobre ella, movimientos conservados: {{c1::bursitis trocantérica}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real bursitis",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 52",
+    "EUNACOM Julio 2015 · Pregunta 4"
+   ],
+   "codigos": [
+    "1.11.1.015",
+    "4.02.1.004"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Toda articulación inflamada (dolor, aumento de volumen, eritema, calor) exige {{c1::artrocentesis}} para analizar el líquido sinovial.",
+   "extra": "Antes de dar antibióticos.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Monoartritis",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 69",
+    "EUNACOM Diciembre 2025 · Pregunta 112"
+   ],
+   "codigos": [
+    "1.11.1.015",
+    "4.02.5.002"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Del líquido sinovial se pide citoquímico, Gram y cultivo y búsqueda de {{c1::cristales}} con luz polarizada.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Líquido",
+   "repaso": false,
+   "codigos": [
+    "4.02.4.007",
+    "1.11.1.015"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Líquido articular séptico: más de {{c1::50.000}} leucocitos/mm³ con predominio de polimorfonucleares y glucosa muy baja.",
+   "extra": "No inflamatorio: < 2.000; inflamatorio: 2.000-50.000.",
+   "origen": "clase:5",
+   "fuente": "Clase · Tabla líquido",
+   "repaso": true,
+   "imagen": "_verificadas/364_trauma_Artrosis_y_monoartritis__Zitelli_p535.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 126"
+   ],
+   "codigos": [
+    "4.02.4.007",
+    "1.11.1.015"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La presencia de cristales {{c1::no descarta}} infección concomitante.",
+   "extra": "Una pseudogota puede superar 100.000 leucocitos.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Líquido",
+   "repaso": true,
+   "codigos": [
+    "4.02.4.007",
+    "1.11.1.015"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El líquido articular hemorrágico sugiere trauma, fractura intraarticular (con {{c1::gotas de grasa}}) o diátesis hemorrágica.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Líquido",
+   "repaso": false,
+   "codigos": [
+    "4.02.4.007",
+    "1.11.1.015"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La gota es el depósito de cristales de {{c1::urato monosódico}} en un paciente con hiperuricemia.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Gota",
+   "repaso": false,
+   "codigos": [
+    "1.11.2.002"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La {{c1::podagra}} es la monoartritis aguda nocturna de la 1.ª metatarsofalángica; se diagnostica clínicamente sin punción.",
+   "extra": "Desencadenantes: alcohol, carnes, tiazidas, ayuno, trauma.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Gota",
+   "repaso": true,
+   "imagen": "biblioteca/18_traumatologia/trauma-12/05_podagra-primer-ortejo__knoop_p963.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 55"
+   ],
+   "codigos": [
+    "1.11.2.002"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los cristales de urato son en {{c1::aguja}} con birrefringencia {{c2::negativa}}.",
+   "extra": "El ácido úrico sérico puede ser normal en la crisis.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Gota",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-12/02_cristales-urato-liquido-sinovial__harrison_p2905.jpg",
+   "codigos": [
+    "1.11.2.002"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La gota crónica produce {{c1::tofos}} y erosiones «en sacabocados» con borde en alero.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Gota",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-12/21_gota-erosion-mtf__sherman_p589.jpg",
+   "codigos": [
+    "1.11.2.002"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Crisis de gota: {{c1::AINE}} (naproxeno 500 mg c/12 h), colchicina o prednisona 30-40 mg/día.",
+   "extra": "AINE de elección; si hay contraindicación, corticoide.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Gota",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 30",
+    "EUNACOM Julio 2024 · Pregunta 34",
+    "EUNACOM Julio 2019 · Pregunta 112"
+   ],
+   "codigos": [
+    "1.11.2.002"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Colchicina en la crisis: {{c1::1 mg}} al inicio y 0,5 mg una hora después, dentro de las primeras 12-24 horas.",
+   "extra": "Efecto adverso: diarrea.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Gota",
+   "repaso": false,
+   "codigos": [
+    "1.11.2.002"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Nunca se inicia ni se suspende el {{c1::alopurinol}} durante una crisis aguda de gota.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Gota",
+   "repaso": true,
+   "codigos": [
+    "1.11.2.002"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tratamiento crónico de la gota si hay ≥ {{c1::2 crisis}} al año: alopurinol o probenecid.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Gota",
+   "repaso": true,
+   "codigos": [
+    "1.11.2.002"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Metas de ácido úrico: < {{c1::6 mg/dL}} en mujeres y < {{c2::7 mg/dL}} en hombres.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Gota",
+   "repaso": false,
+   "codigos": [
+    "1.11.2.002"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La colchicina no se deja como profilaxis permanente de gota: tiene muchos {{c1::efectos adversos}}; el alopurinol se mantiene.",
+   "extra": "Pregunta real: suspender la colchicina.",
+   "origen": "clase:7",
+   "fuente": "Clase · Gota crónica",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 47"
+   ],
+   "codigos": [
+    "1.11.2.002"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La {{c1::hidroclorotiazida}} puede desencadenar una crisis de gota.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Gota",
+   "repaso": false,
+   "codigos": [
+    "1.11.2.002"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La pseudogota (condrocalcinosis) es por cristales de {{c1::pirofosfato de calcio}} y afecta frecuentemente la rodilla.",
+   "extra": "Causa más frecuente de monoartritis aguda en el adulto mayor.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Pseudogota",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-12/04_condrocalcinosis-rx-rodilla__amir-reuma_p23.jpg",
+   "codigos": [
+    "1.11.1.015"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los cristales de pirofosfato tienen elongación {{c1::positiva}} débil y son romboidales (azulados).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Pseudogota",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-12/03_cristales-pirofosfato-liquido-sinovial__harrison_p2905.jpg",
+   "codigos": [
+    "1.11.1.015"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La prevención de la pseudogota recurrente es {{c1::colchicina}} profiláctica, no alopurinol.",
+   "extra": "Se gatilla con el reposo, por ejemplo tras hospitalizarse.",
+   "origen": "clase:8",
+   "fuente": "Clase · Pseudogota",
+   "repaso": false,
+   "codigos": [
+    "1.11.2.002"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La artritis séptica es una urgencia por destrucción articular rápida; el agente más frecuente es {{c1::Staphylococcus aureus}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Séptica",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.015",
+    "4.02.1.004"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En adultos jóvenes sexualmente activos se piensa en {{c1::Neisseria gonorrhoeae}} (artritis migratoria y tenosinovitis).",
+   "extra": "Ceftriaxona si se sospecha gonococo.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Séptica",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.015",
+    "4.02.1.004"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Factores de riesgo de artritis séptica: diabetes, inmunosupresión, AR, {{c1::prótesis articular}} e infiltraciones previas.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Séptica",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.015",
+    "4.02.1.004"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la artritis séptica se hace {{c1::artrocentesis}} antes de iniciar antibióticos.",
+   "extra": "Más hemocultivos, VHS, PCR y radiografía.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Séptica",
+   "repaso": true,
+   "codigos": [
+    "1.11.1.015",
+    "4.02.1.004"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento de la artritis séptica: {{c1::drenaje articular}} y antibiótico EV antiestafilocócico (cloxacilina o cefazolina) por 2-4 semanas.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Séptica",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.015",
+    "4.02.1.004"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Criterios de Kocher en cadera infantil: fiebre > {{c1::38,5 °C}}, no apoya, VHS > {{c2::40 mm/h}} y leucocitos > {{c3::12.000/mm³}}.",
+   "extra": "La artritis séptica de cadera del niño es urgencia quirúrgica.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Kocher",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.015",
+    "4.02.1.004"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La punción de rodilla se hace por abordaje {{c1::suprapatelar lateral}}, con aguja 18-21 G y asepsia.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Punción",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.002"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La punción articular está contraindicada si hay {{c1::celulitis}} en el sitio de punción.",
+   "extra": "En prótesis, la hace el traumatólogo.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Punción",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.002"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El líquido se reparte en tubos para citoquímico, cristales y {{c1::Gram/cultivo}} (frasco de hemocultivo si hay sospecha de infección).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Punción",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.002"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Líquido turbio con 85.000 leucocitos, 92% PMN y glucosa muy baja: hospitalizar, hemocultivos, antibióticos EV y {{c1::drenaje articular}}.",
+   "extra": "Los corticoides intraarticulares están contraindicados.",
+   "origen": "clase:23",
+   "fuente": "Clase · Quiz líquido séptico",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.015",
+    "4.02.1.004"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Lumbago febril tras pielonefritis con aplastamiento de L2 y L3: {{c1::espondilodiscitis}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul 2013",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 167"
+   ],
+   "codigos": [
+    "4.02.1.001"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Osteomielitis de cadera en niño de 10 años: antibiótico empírico {{c1::cefazolina}} si no hay factores de riesgo de SAMR.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic 2024",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 47"
+   ],
+   "codigos": [
+    "1.11.1.015",
+    "4.02.1.004"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-12/05_podagra-primer-ortejo__knoop_p963.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Podagra",
+   "clave": "Primer ortejo rojo, caliente e hinchado",
+   "conducta": "AINE, colchicina o corticoide en la crisis; alopurinol nunca en agudo",
+   "fuente": "The Atlas of Emergency Medicine (Knoop), p. 963",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 55"
+   ],
+   "codigos": [
+    "1.11.2.002"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-12/03_cristales-pirofosfato-liquido-sinovial__harrison_p2905.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Cristales de pirofosfato de calcio",
+   "clave": "Cristales cortos romboidales, elongación positiva débil",
+   "conducta": "Pseudogota: colchicina profiláctica para prevenir recurrencias",
+   "fuente": "Harrison 21.ª ed., Fig. 372-2B",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.015"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-12/01_artrosis-cadera-rx__bailey-love_p535.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Coxartrosis en la radiografía",
+   "clave": "Disminución del espacio articular de la cadera con osteofitos",
+   "conducta": "Escalera: paracetamol y ejercicio, AINE, tramadol, infiltración, prótesis",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 35.5",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 5"
+   ],
+   "codigos": [
+    "4.02.1.001"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.1",
+   "pista": "Artrosis con insuficiencia renal o úlcera: ¿qué analgesia?",
+   "codigos": [
+    "1.11.1.015",
+    "1.11.2.002"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1",
+   "pista": "Articulación caliente: ¿qué procedimiento?",
+   "codigos": [
+    "1.11.1.015",
+    "1.11.2.002"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.0",
+   "pista": "Más de 50.000 leucocitos con fiebre: ¿diagnóstico y manejo?",
+   "codigos": [
+    "1.11.1.015",
+    "1.11.2.002"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.2",
+   "pista": "Cristales romboidales en rodilla: ¿qué prevención?",
+   "codigos": [
+    "1.11.1.015",
+    "1.11.2.002"
+   ]
+  }
+ ]
+}

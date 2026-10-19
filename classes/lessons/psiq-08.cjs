@@ -360,7 +360,7 @@ module.exports = {
         { letter: 'E', text: 'Trastorno de adaptación' },
       ],
       correct: 'C',
-      explanation: 'Es un TOC clásico, con obsesión de causar daño y compulsión evitativa.',
+      explanation: 'Imágenes intrusivas de dañar al hijo con evitación y miedo a hacerlo: obsesiones de daño con compulsión evitativa, TOC; evaluar riesgo suicida.',
       say: {
         stem: 'Una pregunta real del EUNACOM de agosto de dos mil veintiuno. Una paciente de treinta y dos años tiene imágenes recurrentes en que se ve cortando a su hijo de doce meses con un cuchillo. Eso le produce mucha angustia: nunca se queda sola con el niño y sacó todos los cuchillos de la casa. Está triste, teme perder la tuición y no se lo ha contado a nadie. Ha pensado incluso en morir para proteger a su familia.',
         question: 'El diagnóstico más probable es:',

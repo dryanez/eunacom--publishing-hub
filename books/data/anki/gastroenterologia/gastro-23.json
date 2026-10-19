@@ -1,0 +1,423 @@
+{
+  "classId": "gastro-23",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El agente más frecuente de la diarrea aguda acuosa del lactante es el {{c1::rotavirus}}.",
+      "extra": "Diarrea acuosa, explosiva, ácida, con fiebre; también la diarrea intrahospitalaria del niño suele ser viral.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Hidratación",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 146",
+        "EUNACOM Julio 2015 · Pregunta 134",
+        "EUNACOM Diciembre 2017 · Pregunta 121"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El pilar del tratamiento de la diarrea aguda del niño es la {{c1::hidratación según el grado de deshidratación}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Hidratar según el grado",
+      "repaso": false
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Plan A (sin deshidratación): sales de rehidratación oral {{c1::100–200 mL}} tras cada deposición, en casa.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Hidratación",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 74"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño con gastroenteritis aguda, hidratado y sin signos de alarma: {{c1::probar tolerancia y rehidratar por vía oral (SRO fraccionada en domicilio)}}.",
+      "extra": "Plan A.",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · Plan A",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 76",
+        "EUNACOM Julio 2025 · Pregunta 74"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La deshidratación moderada (Plan B) corresponde a una pérdida de {{c1::5–10 %}} del peso.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Hidratación",
+      "repaso": false
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Plan B: SRO {{c1::50–100 mL/kg}} en {{c2::4–6 h}}, reevaluando.",
+      "extra": "Si vomita se fracciona: sigue siendo vía oral.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 65"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lactante que llora sin lágrimas, con mucosas secas, ojos hundidos, 7 % de baja de peso y que bebe con avidez: deshidratación {{c1::moderada → Plan B}}.",
+      "extra": "Tolera vía oral: no requiere suero EV.",
+      "origen": "libro:caso",
+      "fuente": "Libro · caso",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 65"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Plan C (deshidratación grave {{c1::> 10 %}}, shock o compromiso de conciencia): suero fisiológico EV en bolo.",
+      "extra": "También íleo o vómitos incoercibles.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Hidratación",
+      "repaso": false
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Plan C: bolo EV de suero fisiológico al 0,9 % de {{c1::20 mL/kg}}, repitiendo según respuesta.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 138",
+        "EUNACOM Diciembre 2018 · Pregunta 161"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Lactante con diarrea, somnoliento, con extremidades frías y llene capilar lento: el error es dar SRO; corresponde {{c1::suero fisiológico EV (Plan C)}}.",
+      "extra": "Las sales orales están contraindicadas con compromiso de conciencia; el glucosado no expande.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 161",
+        "EUNACOM Julio 2013 · Pregunta 138"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el Plan C, si no se logra acceso venoso, se usa la {{c1::vía intraósea}}.",
+      "extra": "No se retrasa el volumen.",
+      "origen": "clase:1",
+      "fuente": "Clase · Hidratar según el grado",
+      "repaso": false
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la diarrea aguda pediátrica, los antidiarreicos como la {{c1::loperamida}} están contraindicados.",
+      "extra": "Sí se pueden usar antieméticos si hay vómitos.",
+      "origen": "clase:2",
+      "fuente": "Clase · Fármacos",
+      "repaso": true
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la diarrea aguda del niño, el antibiótico se indica solo ante {{c1::disentería por Shigella o E. coli enteroinvasora}} (con fiebre alta y mal estado general).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Fármacos",
+      "repaso": false
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Disentería por Shigella en un niño: {{c1::ciprofloxacino oral}}; cefotaximo EV si hay sepsis.",
+      "extra": "Excepción a la regla de no usar quinolonas en niños.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Fármacos",
+      "repaso": false
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La Salmonella no tifoidea no complicada {{c1::no se trata con antibióticos}}, porque prolonga el estado de portador.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se habla de diarrea crónica cuando dura más de {{c1::4 semanas}}.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo",
+      "repaso": false
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa más frecuente de diarrea crónica en el lactante y preescolar sano que crece bien es la {{c1::diarrea crónica inespecífica}}.",
+      "extra": "Por exceso de jugos azucarados/hiperosmolares; puede tener restos vegetales.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 62"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Conducta en la diarrea crónica inespecífica: {{c1::suspender los jugos}}, sin exámenes.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Diarrea crónica",
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Preescolar rural con diarrea crónica, flatulencia, dolor cólico y familiares afectados: sospechar {{c1::giardiasis}}.",
+      "extra": "La parasitosis intestinal más frecuente en Chile; también en brotes de jardín infantil.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla",
+      "repaso": false
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de la giardiasis: {{c1::tinidazol o metronidazol}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Diarrea crónica",
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Antes de diagnosticar enfermedad celíaca hay que descartar siempre {{c1::giardiasis}}, que da malabsorción idéntica.",
+      "extra": "",
+      "origen": "clase:21",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El parasitológico seriado de deposiciones se pide con {{c1::3 muestras}} en días alternos, con conservante.",
+      "extra": "Un solo examen pierde casos: la excreción de quistes de Giardia es intermitente.",
+      "origen": "clase:5",
+      "fuente": "Clase · Parasitológico",
+      "repaso": false
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Prurito anal nocturno con sueño intranquilo y bruxismo en un preescolar: el examen de elección es el {{c1::test de Graham}}.",
+      "extra": "Cinta adhesiva perianal en la mañana; los huevos de oxiuro no suelen salir en las deposiciones.",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 120",
+        "EUNACOM Diciembre 2018 · Pregunta 125",
+        "EUNACOM Julio 2024 · Pregunta 143"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Oxiuriasis: mebendazol o albendazol a {{c1::todo el grupo familiar}}, repitiendo a las {{c2::2 semanas}}.",
+      "extra": "Por el ciclo de autoinfección; más uñas cortas y lavado de ropa de cama.",
+      "origen": "clase:20",
+      "fuente": "Clase · Quiz",
+      "repaso": false
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ascariasis en fase pulmonar: tos y eosinofilia (síndrome de {{c1::Löffler}}).",
+      "extra": "Puede obstruir el intestino o la vía biliar; se trata con albendazol.",
+      "origen": "clase:6",
+      "fuente": "Clase · Parasitosis",
+      "repaso": false
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Teniasis (proglótidos en las deposiciones): {{c1::praziquantel}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Parasitosis",
+      "repaso": false
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lactante con esteatorrea, mal incremento ponderal e infecciones respiratorias a repetición (o piel salada): sospechar {{c1::fibrosis quística}}.",
+      "extra": "Neumonías por Pseudomonas y S. aureus.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 135",
+        "EUNACOM Julio 2017 · Pregunta 56",
+        "EUNACOM Diciembre 2024 · Pregunta 125"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Fibrosis quística: el diagnóstico es el {{c1::test del sudor}}, con cloro ≥ {{c2::60 mmol/L}}, confirmado con estudio genético.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Celíaca y fibrosis quística",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 151",
+        "EUNACOM Julio 2025 · Pregunta 6",
+        "EUNACOM Diciembre 2025 · Pregunta 114",
+        "EUNACOM Diciembre 2018 · Pregunta 156"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Manejo inicial de la fibrosis quística mientras se deriva: {{c1::enzimas pancreáticas con cada comida}} y vitaminas A, D, E y K.",
+      "extra": "Además dieta hipercalórica con sal, kinesioterapia respiratoria y vacunas al día.",
+      "origen": "clase:7",
+      "fuente": "Clase · Fibrosis quística",
+      "repaso": false
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Enfermedad celíaca en el niño: desde el año de vida; malabsorción + anemia ferropénica → {{c1::anti-transglutaminasa}} y biopsia duodenal.",
+      "extra": "Dieta sin gluten de por vida.",
+      "origen": "clase:4",
+      "fuente": "Clase · Celíaca",
+      "repaso": false
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Alergia a la proteína de leche de vaca: el diagnóstico es por {{c1::prueba terapéutica con fórmula extensamente hidrolizada y reintroducción}}.",
+      "extra": "No hay test sanguíneo validado.",
+      "origen": "clase:8",
+      "fuente": "Clase · APLV",
+      "repaso": false
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la sospecha de APLV, la fórmula extensamente hidrolizada (o dieta materna sin lácteos) se mantiene {{c1::2–4 semanas}} antes de reintroducir.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 APLV",
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-23/02_pliegue_persistente__commons.jpg",
+      "pregunta": "¿Qué signo muestra y qué indica?",
+      "diagnostico": "Signo del pliegue persistente",
+      "clave": "La piel queda levantada unos segundos y no vuelve",
+      "conducta": "Indica deshidratación: graduarla y elegir el plan de hidratación (A, B o C)",
+      "fuente": "Wikimedia Commons, CC BY-SA 4.0",
+      "repaso": false
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-23/04_giardia-trofozoitos__atlas-eunacom.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Trofozoítos de Giardia lamblia",
+      "clave": "Trofozoítos con forma de pera al microscopio",
+      "conducta": "Tinidazol o metronidazol; descartar Giardia antes de pensar en celíaca",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": false
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-23/03_huevos-enterobius__nelson_p2822.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Huevos de Enterobius vermicularis (oxiuros)",
+      "clave": "Huevos ovalados con un lado aplanado, obtenidos con test de Graham",
+      "conducta": "Mebendazol o albendazol a toda la familia, repetir a las 2 semanas",
+      "fuente": "Nelson 22.ª ed., p. 2822",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.1",
+      "pista": "Deshidratación moderada 5–10 %: ¿qué plan?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.2",
+      "pista": "Deshidratación grave o shock: ¿qué plan?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "Diarrea crónica en niño sano: ¿conducta?"
+    }
+  ]
+}

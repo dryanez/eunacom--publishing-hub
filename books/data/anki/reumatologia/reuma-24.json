@@ -1,0 +1,532 @@
+{
+  "classId": "reuma-24",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La fractura de cadera tiene mortalidad de {{c1::20-30%}} en los 12 meses siguientes.",
+      "extra": "Más del 50% de los sobrevivientes pierde la autovalencia.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fracturas",
+      "repaso": true,
+      "imagen": "biblioteca/08_reumatologia/reuma-24/02_rx_fractura_cuello_femur__commons.jpg",
+      "codigos": [
+        "1.11.1.017",
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fractura por fragilidad: traumatismo de bajo impacto, equivalente a {{c1::caída desde la propia altura}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fracturas",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.017",
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las fracturas osteoporóticas más frecuentes son las {{c1::vertebrales}}, y más de dos tercios son asintomáticas.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Manual AMIR Reumatología, p. 88",
+      "repaso": false,
+      "imagen": "biblioteca/08_reumatologia/reuma-24/01_aplastamientos-vertebrales__amir-reuma_p88.jpg",
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 40"
+      ],
+      "codigos": [
+        "1.11.1.017",
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una fractura vertebral silente se manifiesta por pérdida de estatura (> 3-4 cm) y {{c1::cifosis dorsal}}.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Manual CTO Reumatología 14.ª ed., p. 14",
+      "repaso": false,
+      "imagen": "biblioteca/08_reumatologia/reuma-24/01_aplastamientos-vertebrales_alt1__cto-reuma_p14.jpg",
+      "codigos": [
+        "1.11.1.017",
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La fractura de {{c1::Colles}} (radio distal) es la fractura por fragilidad más precoz en la posmenopáusica.",
+      "extra": "Entre los 50 y 65 años.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fracturas",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.017",
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Fractura por fragilidad de cadera o vértebra: diagnóstico de osteoporosis sin esperar {{c1::densitometría}}.",
+      "extra": "Se inicia tratamiento de inmediato.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.017",
+        "1.11.4.001"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La cirugía de fractura de cadera tiene GES N° {{c1::10}} en personas de 65 años y más.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fracturas",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.017",
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La densitometría (DEXA) mide la DMO en columna lumbar {{c1::L1-L4}} y cadera.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 DEXA",
+      "repaso": false,
+      "codigos": [
+        "1.11.4.001"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "OMS: T-score normal ≥ {{c1::-1,0}} DE.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "imagen": "biblioteca/08_reumatologia/reuma-24/S1_dexa-t-score__propio.svg",
+      "codigos": [
+        "1.11.1.017"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "OMS: osteopenia con T-score entre -1,0 y {{c1::-2,5}} DE.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 173"
+      ],
+      "codigos": [
+        "1.11.1.017",
+        "1.11.4.001"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "OMS: osteoporosis con T-score ≤ {{c1::-2,5}} DE en cualquier sitio.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 148",
+        "EUNACOM Diciembre 2017 · Pregunta 37",
+        "EUNACOM Diciembre 2019 · Pregunta 116",
+        "EUNACOM Julio 2015 · Pregunta 114",
+        "EUNACOM Julio 2024 · Pregunta 121"
+      ],
+      "codigos": [
+        "1.11.1.017",
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El T-score compara con adultos jóvenes sanos y se usa en posmenopáusicas y varones de {{c1::50 años o más}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.017",
+        "1.11.4.001"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Z-score compara con la misma edad y sexo; se usa en premenopáusicas, varones < {{c1::50}} años y niños.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.017",
+        "1.11.4.001"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Un Z-score ≤ {{c1::-2,0}} DE obliga a buscar causas secundarias (corticoides, Cushing).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.017",
+        "1.11.4.001"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "FRAX estima la probabilidad a {{c1::10 años}} de fractura osteoporótica mayor y de cadera.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 FRAX",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.017",
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En osteopenia se trata si FRAX de fractura mayor ≥ {{c1::20%}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla OMS y fármacos",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.017",
+        "1.11.4.001"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En osteopenia se trata si FRAX de fractura de cadera ≥ {{c1::3%}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla OMS y fármacos",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.017",
+        "1.11.4.001"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Pilar universal: calcio elemental {{c1::1.000 a 1.200 mg/día}}, idealmente por dieta.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.017",
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Vitamina D3: {{c1::800 a 2.000 UI/día}} para 25-OH-D ≥ 30 ng/mL.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.017",
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Con omeprazol o hipoclorhidria se prefiere calcio como {{c1::citrato}}.",
+      "extra": "El carbonato requiere medio ácido y comida.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.017",
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Bifosfonato de primera línea en APS: alendronato {{c1::70 mg}} una vez por semana.",
+      "extra": "Risedronato 35 mg semanal.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 37",
+        "EUNACOM Julio 2015 · Pregunta 114"
+      ],
+      "codigos": [
+        "1.11.1.017",
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Alendronato: en ayunas, con vaso lleno de {{c1::agua pura}} y erguido 30 a 60 minutos.",
+      "extra": "Previene esofagitis erosiva.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.017",
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Bifosfonatos orales están contraindicados en estenosis esofágica, acalasia y clearance de creatinina < {{c1::35}} mL/min.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Bifosfonatos orales",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.017",
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Ácido zoledrónico: {{c1::5 mg}} EV en 15 minutos una vez al año.",
+      "extra": "De elección ante intolerancia oral o fractura de cadera reciente.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.017",
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El ácido zoledrónico causa un síndrome pseudogripal en las primeras {{c1::48 horas}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.017",
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Denosumab (anti-RANKL): {{c1::60 mg}} subcutáneo cada 6 meses.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla OMS y fármacos",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.017",
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El antirresortivo de elección en insuficiencia renal avanzada es el {{c1::denosumab}}.",
+      "extra": "Asegurar calcemia normal por riesgo de hipocalcemia.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.017",
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Nunca suspender denosumab sin bifosfonato por riesgo de {{c1::rebote}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.017",
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Teriparatida (PTH 1-34), osteoformador: {{c1::20 mcg}} subcutáneo diario por máximo 24 meses.",
+      "extra": "Para osteoporosis muy severa o falla de bifosfonatos.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.017",
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Osteomalacia: calcio y fósforo bajos con fosfatasas alcalinas muy elevadas y líneas de {{c1::Looser-Milkman}}.",
+      "extra": "En osteoporosis calcio, fósforo y fosfatasas son normales.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.017",
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El corticoide crónico (p. ej. prednisona 10 mg por 6 meses) es un factor de riesgo de osteoporosis {{c1::mayor}}; pedir densitometría.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz factores de riesgo",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 173"
+      ],
+      "codigos": [
+        "4.02.3.004"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer de 40 años con T-score -2,6 y Z-score -2,0: {{c1::osteoporosis secundaria}}; buscar la causa.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · Pregunta AEE",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.017",
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-24/02_rx_fractura_cuello_femur__commons.jpg",
+      "pregunta": true,
+      "diagnostico": "Fractura de cuello femoral",
+      "clave": "Fractura por caída de la propia altura en adulto mayor",
+      "conducta": "Osteoporosis clínica: calcio, vitamina D y antirresortivo sin esperar DEXA; cirugía GES",
+      "fuente": "Wikimedia Commons, CC BY-SA 3.0",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.017",
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-24/01_aplastamientos-vertebrales__amir-reuma_p88.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Aplastamientos vertebrales",
+      "clave": "Cuerpos vertebrales acuñados con cifosis y pérdida de estatura",
+      "conducta": "Osteoporosis clínica: bifosfonato más calcio y vitamina D",
+      "fuente": "Manual AMIR Reumatología, p. 88",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.017",
+        "1.03.1.018"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Fractura de cadera o vértebra por caída de altura: ¿qué haces?",
+      "codigos": [
+        "1.11.1.017"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.0",
+      "pista": "T-score ≤ -2,5: ¿tratamiento de primera línea?",
+      "codigos": [
+        "1.11.1.017"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1.1",
+      "pista": "Osteopenia con FRAX bajo el umbral: ¿manejo?",
+      "codigos": [
+        "1.11.1.017"
+      ]
+    }
+  ]
+}

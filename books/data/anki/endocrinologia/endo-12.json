@@ -1,0 +1,446 @@
+{
+  "classId": "endo-12",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La insuficiencia suprarrenal primaria (Addison) implica destrucción de más del {{c1::90%}} de la corteza.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Dónde está el daño?",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La causa autoinmune explica {{c1::70–80%}} del Addison.",
+      "extra": "Aislada o en síndromes poliglandulares tipo 1 y 2.",
+      "origen": "clase:2",
+      "fuente": "Clase · Las causas",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Etiología infecciosa relevante del Addison: {{c1::tuberculosis suprarrenal}} (segunda causa tras la autoinmune).",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Julio 2015",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 112",
+        "EUNACOM Julio 2019 · Pregunta 102"
+      ],
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Otras causas de Addison: metástasis bilaterales (mama, pulmón, melanoma) y {{c1::hemorragia adrenal}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Las causas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa más frecuente de insuficiencia suprarrenal secundaria en la comunidad es suspender {{c1::corticoides}} de golpe.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Las causas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Insuficiencia suprarrenal secundaria por falta de ACTH: tumores selares, {{c1::apoplejía}} o radioterapia.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Las causas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Clínica común: astenia, baja de peso, náuseas, hipotensión postural e {{c1::hipoglicemia}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Lo común y lo que las separa",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Addison: {{c1::hiperpigmentación}} de piel y mucosas por exceso de ACTH que estimula melanocitos.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Lo común y lo que las separa",
+      "repaso": true,
+      "imagen": "biblioteca/05_endocrinologia/endo-12/01_addison_hiperpigmentacion__fitzpatrick_p1517.jpg",
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hiperpigmentación del Addison se ve en pliegues {{c1::palmares}}, cicatrices recientes y mucosa oral.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Lo común y lo que las separa",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-12/02_addison_b__fitzpatrick_p1517.jpg",
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la insuficiencia suprarrenal secundaria la piel es {{c1::pálida (alabastrina)}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Addison: {{c1::hiperkalemia}} por pérdida de aldosterona; en la secundaria el potasio es normal.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la secundaria el eje renina-angiotensina-aldosterona está {{c1::intacto}}, por eso no hay hiperkalemia.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Dónde está el daño?",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sodio en el Addison: bajo por {{c1::pérdida renal de sal}}; en la secundaria, dilucional por ADH.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Lo común y lo que las separa",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "ACTH en el Addison: {{c1::muy elevada}} (mayor de 100 pg/mL); en la secundaria, baja o inapropiadamente normal.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cortisol plasmático de las 8 h: menor de {{c1::3 mcg/dL}} confirma la insuficiencia.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Cortisol matinal, Synacthen y ACTH",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cortisol de las 8 h mayor de {{c1::15–18 mcg/dL}} descarta la insuficiencia.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Cortisol matinal, Synacthen y ACTH",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cortisol de las 8 h entre {{c1::3 y 15 mcg/dL}} es indeterminado: se hace test de Synacthen.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.006",
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Test de Synacthen: cosintropina {{c1::250 mcg}} EV/IM y cortisol a los 30 y 60 minutos.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Confirmación",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.007",
+        "1.03.4.006"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Respuesta normal al Synacthen: pico de cortisol de {{c1::18 mcg/dL o más}}.",
+      "extra": "Un pico menor confirma insuficiencia.",
+      "origen": "clase:4",
+      "fuente": "Clase · Cortisol matinal, Synacthen y ACTH",
+      "repaso": true,
+      "codigos": [
+        "1.03.4.006",
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño con vómitos, deshidratación, glicemia 36, Na 126 y K 5,8: examen para confirmar es el {{c1::cortisol basal}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Diciembre 2019",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.006",
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para definir si la insuficiencia es primaria o secundaria se mide la {{c1::ACTH plasmática}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Cortisol matinal, Synacthen y ACTH",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hidrocortisona de reemplazo: {{c1::15–25 mg/día}} en 2 o 3 tomas (10, 5 y 2,5 mg).",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Reemplazar lo que falta",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa a la hidrocortisona: prednisona {{c1::3,75–5 mg}} en una toma matinal.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Reemplazar lo que falta",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fludrocortisona: {{c1::0,05–0,1 mg/día}} en una toma matinal, solo en Addison.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Reemplazar lo que falta",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la insuficiencia suprarrenal secundaria {{c1::nunca}} se da fludrocortisona: la aldosterona funciona.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Addison confirmado (cortisol 2,0, ACTH 180, K 5,8): tratamiento {{c1::hidrocortisona más fludrocortisona}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz banco",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.006",
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El seguimiento no se guía por el cortisol plasmático sino por {{c1::clínica}} (peso, PA de pie y sentado, energía), electrolitos y renina.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Reemplazar lo que falta",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.006",
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante fiebre o infección, el paciente debe {{c1::duplicar o triplicar}} la dosis de hidrocortisona.",
+      "extra": "También en cirugías menores.",
+      "origen": "clase:6",
+      "fuente": "Clase · El paciente tiene que saber qué hacer",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Con vómitos o diarrea profusa, el paciente se inyecta hidrocortisona {{c1::100 mg IM}} o consulta de urgencia.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · El paciente tiene que saber qué hacer",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer de 58 años con prednisona 15 mg que la suspende: piel pálida, K 4,2 y ACTH 4 es insuficiencia {{c1::secundaria}} por supresión del eje.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz banco",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La insuficiencia suprarrenal crónica {{c1::no tiene GES directo}}: derivación prioritaria a endocrinología.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · El paciente tiene que saber qué hacer",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.007"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Cortisol entre 3 y 15: ¿qué prueba sigue?",
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.2.0",
+      "pista": "Cortisol bajo con ACTH alta: ¿diagnóstico y tratamiento?",
+      "codigos": [
+        "1.03.1.007"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2.1",
+      "pista": "Cortisol bajo con ACTH baja: ¿tratamiento?",
+      "codigos": [
+        "1.03.1.007"
+      ]
+    }
+  ]
+}

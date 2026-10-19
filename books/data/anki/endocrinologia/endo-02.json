@@ -1,0 +1,527 @@
+{
+  "classId": "endo-02",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa más frecuente de hipotiroidismo primario del adulto en Chile es la {{c1::tiroiditis crónica autoinmune de Hashimoto}}.",
+      "extra": "Mediada por anti-TPO y anti-Tg, con infiltración linfocitaria.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.002",
+        "1.03.4.005"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hombre de 64 años con astenia, TSH 5,6 y T4 libre 1,2 (hipotiroidismo subclínico): se pide {{c1::TSH y T4 libre en 3 meses}}.",
+      "extra": "Pregunta discutible del banco; el manejo del subclínico tiene controversias.",
+      "origen": "pregunta_real",
+      "fuente": "Libro · Subclínico",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 136"
+      ],
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tiroidectomía total por carcinoma y suspensión de levotiroxina: el hallazgo al examen es {{c1::piel seca}}.",
+      "extra": "Mixedema pretibial y exoftalmo son de Graves; melanoplaquias, de Addison.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Diciembre 2017",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 36"
+      ],
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el hipotiroidismo el aumento de peso es moderado, de {{c1::2 a 5 kg}}, por retención de líquido.",
+      "extra": "No explica una obesidad mórbida aislada.",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El signo físico más específico del hipotiroidismo es la {{c1::relajación lenta del reflejo aquiliano}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El mixedema es un edema {{c1::duro que no deja fóvea}}, con facies abotagada y edema periorbitario.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Libro §1 Examen físico",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-02/01_facies_hipotiroidea__fitzpatrick_p1512.jpg",
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síntomas de hipotiroidismo: astenia, intolerancia al frío, {{c1::constipación}}, piel seca, voz ronca y alteraciones menstruales.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-02/01_clinica-del-hipotiroidismo__cto-endocrino_p55.jpg",
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La dislipidemia del hipotiroidismo se debe a {{c1::menos receptores hepáticos de LDL}}, con colesterol total y LDL altos.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Laboratorio",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Colesterol alto con TSH alta: se parte con {{c1::levotiroxina}}; el error es partir con estatinas.",
+      "extra": "El perfil lipídico se normaliza al corregir la TSH.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La anemia del hipotiroidismo aparece en el {{c1::30 a 40%}} y suele ser normocítica normocrómica.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Laboratorio",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anemia macrocítica con hipotiroidismo sugiere {{c1::anemia perniciosa}} (autoinmune asociada).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Laboratorio",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 110"
+      ],
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En sospecha de hipotiroidismo, el examen inicial es la {{c1::TSH}}, idealmente con T4 libre.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Agosto 2021",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 173",
+        "EUNACOM Julio 2024 · Pregunta 172"
+      ],
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer de 27 años con síntomas, TSH 14,7 y T4 libre 0,6: la conducta es {{c1::iniciar levotiroxina oral}}.",
+      "extra": "Aun si fuera subclínico, TSH sobre 10 obliga a tratar.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Agosto 2021",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 15"
+      ],
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Paciente de 84 años con TSH 8,4 y luego 9,2: según el banco, iniciar levotiroxina {{c1::25 ug/día}} (dosis baja por edad).",
+      "extra": "Contradice la regla de observar al anciano con TSH < 10 (ver duda).",
+      "origen": "pregunta_real",
+      "fuente": "Banco de preguntas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 105"
+      ],
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El hipotiroidismo en personas de 15 años y más está cubierto por {{c1::GES N° 35}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipotiroidismo subclínico con TSH ≥ 10: levotiroxina {{c1::siempre}}, aunque sea asintomático.",
+      "extra": "Hay riesgo de progresión y de morbimortalidad cardiovascular.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Subclínico con TSH ≥ 10: el error es {{c1::observar porque es asintomático}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Subclínico con TSH de 4,5–9,9 y sin factores agravantes: {{c1::control de TSH}} sin tratar.",
+      "extra": "Adolescente o joven obeso sin factores: controlar en 6 meses.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 21"
+      ],
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con TSH de 4,5–9,9 se trata si hay embarazo, {{c1::anti-TPO positivo}}, bocio, síntomas o enfermedad cardiovascular.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · ¿A quién se trata?",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002",
+        "1.03.4.005"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Embarazada en primer trimestre con TSH 4,5: {{c1::iniciar levotiroxina}}.",
+      "extra": "Meta de TSH en primer trimestre de 0,4 a 2,5.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Subclínico",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 119"
+      ],
+      "codigos": [
+        "1.03.1.002",
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer de 32 años que planea embarazo, TSH 6,8, anti-TPO alto: levotiroxina {{c1::25 a 50 mcg/día}} con meta de TSH < 2.5.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro · Pregunta Julio 2018",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002",
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En subclínico, los anti-TPO positivos indican Hashimoto y {{c1::duplican el riesgo}} de progresión a hipotiroidismo clínico.",
+      "extra": "",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002",
+        "1.03.4.005"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Mayor de 70–80 años asintomático con TSH menor de 10: {{c1::observación anual}}; tratar causa fibrilación auricular y fracturas.",
+      "extra": "La TSH sube fisiológicamente con la edad.",
+      "origen": "clase:5",
+      "fuente": "Clase · Adulto mayor",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Adulto joven sano: levotiroxina {{c1::1,6 mcg/kg de peso ideal/día}}, habitualmente 75 a 125 mcg/día.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · ¿Con cuánto se parte?",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Adulto mayor o coronario: iniciar levotiroxina con {{c1::25 a 50 mcg/día}} y subir 12,5–25 mcg cada 6–8 semanas.",
+      "extra": "Dosis plena de golpe puede dar angina, infarto o fibrilación auricular.",
+      "origen": "clase:6",
+      "fuente": "Clase · ¿Con cuánto se parte?",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En coronariopatía grave la levotiroxina se parte con {{c1::12,5 mcg/día}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · ¿Con cuánto se parte?",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En coronario o adulto mayor, el error es usar la {{c1::dosis plena de 1,6 mcg/kg}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Paciente de 60 años con infarto previo e hipotiroidismo (TSH 38): levotiroxina {{c1::25 a 50 mcg al día con titulación gradual}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro · Pregunta Diciembre 2016",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer de 62 años con TSH 42,5, T4 libre 0,41 y anti-TPO 650: levotiroxina {{c1::50 mcg/día}} en ayunas y TSH en 6 a 8 semanas.",
+      "extra": "Sin estatinas de entrada.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002",
+        "1.03.4.005"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La levotiroxina se toma en ayunas con agua pura, {{c1::30 a 60 minutos}} antes del desayuno.",
+      "extra": "Alternativa: al acostarse, 3 a 4 horas después de comer.",
+      "origen": "clase:7",
+      "fuente": "Clase · Cómo se toma",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hierro, calcio, antiácidos, sucralfato, colestiramina e IBP se separan de la levotiroxina por {{c1::4 horas}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Cómo se toma",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "TSH alta en control con levotiroxina: primero {{c1::revisar cómo la toma}}; el error es subir la dosis sin preguntar.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El control de TSH tras iniciar o cambiar la levotiroxina se hace a las {{c1::6 a 8 semanas}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Controlar a las 6 a 8 semanas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La meta de TSH con levotiroxina es {{c1::0,5 a 2,5 mUI/L}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Controlar a las 6 a 8 semanas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipotiroidismo central tras cirugía de macroadenoma: levotiroxina y control con {{c1::T4 libre}}, no con TSH.",
+      "extra": "Antes se descarta insuficiencia suprarrenal.",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "Hipotiroidismo clínico, joven sano: ¿dosis?",
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.1",
+      "pista": "Hipotiroidismo clínico, mayor o coronario: ¿dosis?",
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0",
+      "pista": "Subclínico con TSH ≥ 10: ¿conducta?",
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.1.1",
+      "pista": "Subclínico 4,5–9,9 sin factor agravante: ¿conducta?",
+      "codigos": [
+        "1.03.1.002"
+      ]
+    }
+  ]
+}

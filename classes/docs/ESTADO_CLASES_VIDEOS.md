@@ -42,3 +42,11 @@ Al volver: abrir esta sesión y decir «sigue» — o en una sesión nueva: «le
 
 ## Integración de Cardiología — HECHA (19-oct-2026)
 - Fusión sec/topics, figspec, atlas, libros (21 + 21 guías + libro único 1184 págs), reproductor (469 clases) y check_lesson (468/468 OK) completados.
+
+## 19-oct tarde: Repaso, Anki, R2
+- Repaso de última hora: muestra Gastro aprobada (books/dist/Repaso/, generador books/scripts/build_repaso.cjs); agente generando las otras 20.
+- Anki estilo AnKing + glosario tipo AMBOSS: Gastro listo (books/dist/Anki/, LEEME_Anki.md). 4 agentes haciendo el resto con ~/fotos_tools/v3/sec/anki_esp_prompt.txt (endo/diab/nefro/hem · cardio/resp/infecto · neuro/reuma/derma/psiq · cirugia/trauma/uro/orl/oftal). FALTA lanzar: pediatria, obstetricia, ginecologia, saludpublica.
+- «Ver aquí» = iframe a classes/scripts/jsvideo/embed/embed.html (servidor local `node classes/scripts/jsvideo/embed/servidor.cjs 8770`, con Range). Producción pendiente: R2 + página /embed/clase/<id>?t= con login en el sitio (URL real de la app: eunacomapp.cl/mis-clases?subsystem=…; no tiene ruta por clase ni ?t=).
+- Anki: al final, RECONSTRUIR todos los .apkg (build_anki.py <libro>) para que tomen el color de tabla de cada tomo y los códigos por tarjeta (los de endo/diab/nefro/hem se armaron con tablas verdes).
+- Videos → R2: classes/scripts/jsvideo/subir_r2.py (credenciales de ~/Documents/Archive/Apps/sketchy/.env; bucket eunacomvideos, carpeta Clases_V3/<esp>/<clase>.mp4); registro out/r2_subidos.txt. La cola sube y borra cada video nuevo (salvo gastro). Python con expat: ~/.venvs/manim/bin/python + PYTHONPATH=~/fotos_tools/pylib.
+- Anki/videos: extract_sources.cjs marca «video» según el MP4 local; como los MP4 se suben a R2 y se borran, en la reconstrucción final debe contar también out/r2_subidos.txt (y data.js para los tiempos). El reproductor embed debe apuntar a la URL de R2 (falta dominio público o URLs firmadas del bucket eunacomvideos).

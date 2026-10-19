@@ -1,0 +1,572 @@
+{
+ "classId": "oftal-09",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Miopía: ojo largo, foco {{c1::por delante}} de la retina; mala visión de lejos y buena de cerca.",
+   "extra": "Joven de 18 años con 20/60 que mejora a 20/20 con estenopeico; escolar de 9 años con 20/80.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Miopía",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.001",
+    "2.01.1.098"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La miopía se corrige con lentes {{c1::divergentes}}, cóncavos o negativos (-).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Miopía",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.001",
+    "2.01.1.098"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hipermetropía: ojo corto, foco detrás de la retina; astenopía acomodativa con {{c1::cefalea}} frontal vespertina.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Hipermetropía",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.001",
+    "2.01.1.098"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hipermetropía se corrige con lentes {{c1::convergentes}} (+) y predispone al glaucoma agudo por ángulo estrecho.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Hipermetropía",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.001",
+    "2.01.1.098"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Astigmatismo: curvatura corneal asimétrica («balón de rugby»); visión borrosa de lejos y cerca; lentes {{c1::cilíndricos o tóricos}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Astigmatismo",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.001",
+    "2.01.1.098"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Presbicia: pérdida de elasticidad del cristalino desde los {{c1::40 a 45 años}}; el paciente aleja el texto (brazos cortos).",
+   "extra": "Mujer de 45 años que aleja el celular.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Presbicia",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.001",
+    "2.01.1.098"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La presbicia se corrige con lentes {{c1::positivos}} solo para visión cercana.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Presbicia",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.001",
+    "2.01.1.098"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Agujero estenopeico: disco opaco con orificio de {{c1::1,0 a 1,5 mm}}; si la agudeza mejora, el defecto es refractivo.",
+   "extra": "Agudeza 0,6 que mejora a 0,8; niño de 6 años de 20/60 a 20/30.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Estenopeico",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 125",
+    "EUNACOM Julio 2019 · Pregunta 40"
+   ],
+   "codigos": [
+    "6.02.1.001",
+    "2.01.1.098"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Si el estenopeico no mejora la agudeza: lesión {{c1::orgánica}} (catarata, DMAE, neuritis óptica) o ambliopía.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Estenopeico",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.001",
+    "2.01.1.098"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Prematuro de 32 semanas que se acerca a la pantalla, 20/80 que mejora a 20/25: {{c1::ametropía}} (si no corrige del todo, ambliopía anisometrópica).",
+   "extra": "Niño de 5 años.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Niño con ametropía",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 95"
+   ],
+   "codigos": [
+    "6.02.1.001",
+    "2.01.1.098"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ambliopía («ojo flojo»): baja visual sin lesión orgánica por mala estimulación en el período {{c1::crítico}} del desarrollo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Ambliopía",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.011",
+    "2.01.1.096"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas de ambliopía: estrabismo, {{c1::anisometropía}} y privación sensorial (catarata congénita, ptosis completa).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Causas",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.011",
+    "2.01.1.096"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La plasticidad visual madura hasta los {{c1::7 a 8 años}}; después la ambliopía es irreversible.",
+   "extra": "Catarata congénita monocular densa: ambliopía por deprivación.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Ventana",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.011",
+    "2.01.1.096"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Tratamiento de la ambliopía: lentes y parche sobre el ojo {{c1::sano}}.",
+   "extra": "Niño de 4 años con 20/80 en el ojo izquierdo desviado: parche en el derecho.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Parche",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.011",
+    "2.01.1.096"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El estrabismo en menores de 9 años tiene garantía {{c1::GES N.º 41}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 GES",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.011",
+    "2.01.1.096"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Recién nacido y primer año: inspección, seguimiento de la luz y {{c1::reflejo rojo}} bilateral.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tamizaje",
+   "repaso": false,
+   "codigos": [
+    "6.02.3.004"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Un estrabismo que persiste después de los {{c1::4 a 6 meses}} de vida nunca es normal.",
+   "extra": "Lactante de 1-2 meses con estrabismo intermitente, rojo pupilar normal: control habitual.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Estrabismo",
+   "repaso": true,
+   "imagen": "biblioteca/12_oftalmologia/oftal-09/56_esotropia-congenita__kanski_p770.jpg",
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 38",
+    "EUNACOM Diciembre 2022 · Pregunta 115",
+    "EUNACOM Enero 2023 · Pregunta 26"
+   ],
+   "codigos": [
+    "6.02.3.004"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Desde los 3 a 4 años se mide la agudeza con optotipos; se deriva si es menor de {{c1::20/30}} o hay 2 líneas de diferencia entre ojos.",
+   "extra": "Niño de 4 años con 20/40 en un ojo y 20/20 en el otro.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Optotipos",
+   "repaso": true,
+   "codigos": [
+    "6.02.3.004"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Derivar siempre ante leucocoria, asimetría del reflejo rojo, estrabismo, nistagmo, ptosis o antecedente familiar de {{c1::retinoblastoma}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Derivar",
+   "repaso": false,
+   "codigos": [
+    "6.02.3.004"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Desde los 60 años, control oftalmológico cada {{c1::1 a 2 años}}; diabéticos e hipertensos, fondo de ojo al diagnóstico.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Adulto",
+   "repaso": false,
+   "codigos": [
+    "6.02.3.003"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Toma de visión: optotipo de Snellen a {{c1::6 metros}}, cada ojo por separado, primero sin corrección y luego con ella.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Snellen",
+   "repaso": true,
+   "codigos": [
+    "6.02.5.014"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estrabismo: pérdida del paralelismo ocular (3 a 4% de los niños) y principal factor de riesgo de {{c1::ambliopía}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Estrabismo",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.011",
+    "2.01.1.096"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Esotropía congénita antes de los 6 meses; la {{c1::acomodativa}} aparece a los 2-3 años, ligada a hipermetropía, y se corrige con lentes.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Esotropía",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.011",
+    "2.01.1.096"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pseudoestrabismo: puente nasal ancho o epicanto, con reflejo corneal {{c1::simétrico}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Pseudoestrabismo",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.011",
+    "2.01.1.096"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hirschberg: linterna a 33 cm; reflejo desplazado hacia {{c1::temporal}} indica esotropía; hacia nasal, exotropía.",
+   "extra": "Cada mm equivale a unos 7°.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Hirschberg",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-09/54_test-hirschberg__kanski_p759.jpg",
+   "codigos": [
+    "6.02.5.013"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cover test: si al tapar un ojo el otro se mueve para fijar, había una {{c1::tropia}}; en el uncover, una foria es latente.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Cover test",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.004"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Prueba de Brückner: penumbra, oftalmoscopio a 50-80 cm; normal rojo anaranjado simétrico; anormal, {{c1::leucocoria}} o asimetría.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Reflejo rojo",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.006"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Diagnóstico diferencial de la leucocoria: retinoblastoma, catarata congénita, vítreo primario, Coats y {{c1::retinopatía del prematuro}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Leucocoria",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.006"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Retinoblastoma: tumor ocular maligno más frecuente del niño, por mutación del gen {{c1::RB1}}; un tercio a 40% hereditario y bilateral.",
+   "extra": "Niña de 2 años con exotropía izquierda y leucocoria; lactante de 8 meses con madre con prótesis ocular.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Retinoblastoma",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 156",
+    "EUNACOM Diciembre 2017 · Pregunta 83"
+   ],
+   "codigos": [
+    "6.02.1.029"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Retinoblastoma: leucocoria en más del 60% y estrabismo en {{c1::20%}}; derivación urgente, sin biopsia; sobrevida mayor de 95% si es precoz.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Retinoblastoma",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.029"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hemangioma palpebral que cubre la pupila: urgencia; fármaco de elección {{c1::propranolol}} oral (1 a 3 mg/kg/día), no corticoides.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Hemangioma",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-09/55_hemangioma-capilar-palpebral__kanski_p113.jpg",
+   "codigos": [
+    "6.01.2.006"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mancha en vino de Oporto en V1 o párpado superior: síndrome de {{c1::Sturge-Weber}} (glaucoma y epilepsia).",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Sturge-Weber",
+   "repaso": false,
+   "codigos": [
+    "6.01.2.006"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "GES N.º 40: vicios de refracción en {{c1::65 años o más}}, con confirmación diagnóstica y entrega de lentes.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 GES 40",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.031"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si en el adulto mayor la visión no mejora con estenopeico o lentes, derivar a oftalmología: catarata, glaucoma, {{c1::DMAE}} o retinopatía.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Adulto mayor",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.031"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-09/54_test-hirschberg__kanski_p759.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Hirschberg: reflejo temporal",
+   "clave": "Reflejo corneal desplazado hacia temporal en un ojo",
+   "conducta": "Esotropía: derivar por riesgo de ambliopía",
+   "fuente": "Kanski's Clinical Ophthalmology, 8.ª ed., p. 759",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.011",
+    "2.01.1.096"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-09/56_esotropia-congenita__kanski_p770.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Esotropía del lactante",
+   "clave": "Un ojo desviado hacia la nariz",
+   "conducta": "Persistencia sobre 4-6 meses: derivar",
+   "fuente": "Kanski, Clinical Ophthalmology 8.ª ed., Fig. 18.48",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 38"
+   ],
+   "codigos": [
+    "6.02.1.011",
+    "2.01.1.096"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-09/55_hemangioma-capilar-palpebral__kanski_p113.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Hemangioma palpebral",
+   "clave": "Masa vascular del párpado superior que cubre la pupila",
+   "conducta": "Propranolol oral y control oftalmológico",
+   "fuente": "Kanski's Clinical Ophthalmology, 8.ª ed., p. 113",
+   "repaso": false,
+   "codigos": [
+    "6.01.2.006"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Baja de agudeza visual sin dolor ni ojo rojo: ¿qué prueba se hace?",
+   "codigos": [
+    "6.02.1.001",
+    "2.01.1.098"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Mejora con el agujero estenopeico: ¿conducta?",
+   "codigos": [
+    "6.02.1.001",
+    "2.01.1.098"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1",
+   "pista": "No mejora en un adulto: ¿qué se busca?",
+   "codigos": [
+    "6.02.1.001",
+    "2.01.1.098"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.2",
+   "pista": "No mejora en un niño: ¿qué se sospecha?",
+   "codigos": [
+    "6.02.1.001",
+    "2.01.1.098"
+   ]
+  }
+ ]
+}

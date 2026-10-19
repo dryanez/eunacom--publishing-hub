@@ -1,0 +1,585 @@
+{
+ "classId": "cirugia-13",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El quemado de primer grado ({{c1::epidérmico}}) tiene eritema seco sin flictenas y NO se cuenta en la superficie quemada.",
+   "extra": "Cura en 3 a 5 días sin cicatriz.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Profundidad",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Segundo grado superficial: flictenas íntegras, lecho {{c1::rosado y húmedo}}, muy doloroso.",
+   "extra": "Cicatriza en 10 a 14 días.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Profundidad",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-13/01_quemadura_ab_superficial__atls_p230.jpg",
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Segundo grado profundo: lecho pálido y seco, hipoestésico, tarda más de {{c1::21 días}} en epitelizar.",
+   "extra": "Suele requerir escarectomía e injerto.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Profundidad",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-13/02_quemadura_ab_profunda__atls_p230.jpg",
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tercer grado: escara apergaminada, seca, {{c1::indolora}} y sin llenado capilar.",
+   "extra": "Requiere escarectomía y autoinjerto.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Profundidad",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-13/03_quemadura_foto__atls_p230.jpg",
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Regla de los nueve en adultos: cabeza y cuello {{c1::9%}}, tronco anterior {{c2::18%}}, tronco posterior 18%.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Wallace",
+   "repaso": true,
+   "imagen": "biblioteca/10_cirugia/cirugia-13/04_regla_de_los_9__atls_p175.jpg",
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cada extremidad superior vale {{c1::9%}}; cada extremidad inferior {{c2::18%}}; perineo 1%.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Wallace",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La palma de la mano del paciente con los dedos juntos equivale al {{c1::1%}} de la superficie corporal.",
+   "extra": "Útil para quemaduras parcheadas.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Wallace",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Gran quemado GES N° {{c1::56}}: Garcés > {{c2::70}} puntos o 2°-3° grado > {{c3::20%}} de SCQ en adultos.",
+   "extra": "En < 12 años o > 65 años, > 10%.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 GES",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El índice de Garcés es edad + SCQ de 2° grado × 1 + SCQ de 3° grado × {{c1::2}} + SCQ de 4° grado × 3.",
+   "extra": "71-100 severo; > 100 crítico.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 GES",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "También es gran quemado el de 3° grado > {{c1::10%}} de SCQ o la electricidad de alta tensión > {{c2::1.000 voltios}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 GES",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Zonas especiales de gran quemado: cara, cuello, manos, pies, genitales, perineo y {{c1::pliegues de grandes articulaciones}}.",
+   "extra": "Niño con quemadura de palmas y dedos: analgesia EV primero.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 GES",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 77",
+    "EUNACOM Diciembre 2022 · Pregunta 21"
+   ],
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El GES N° 56 exige traslado a centro de alta complejidad antes de {{c1::24 horas}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 GES",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.026"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Parkland: {{c1::4 mL × kg × % SCQ}} de Ringer lactato en 24 horas.",
+   "extra": "Solo 2° y 3° grado.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Parkland",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En Parkland, el 50% se pasa en las primeras {{c1::8 horas}}, contadas desde el {{c2::accidente}}.",
+   "extra": "El resto en las siguientes 16 horas.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Parkland",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En Parkland, contar las 8 horas desde la llegada al hospital es un error: se cuentan desde la {{c1::hora de la quemadura}}.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El suero de elección en el quemado es {{c1::Ringer lactato}}, que evita la acidosis hiperclorémica.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Parkland",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El parámetro para titular los fluidos del quemado es la {{c1::diuresis horaria}} con sonda Foley.",
+   "extra": "Parkland es solo una estimación inicial.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Meta de diuresis en adultos: {{c1::0.5 a 1.0 mL/kg/h}}; en niños, 1.0 a 1.5 mL/kg/h.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Diuresis",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Con mioglobinuria por alta tensión la meta sube a {{c1::1.5 a 2.0 mL/kg/h}}, con alcalinización urinaria.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Diuresis",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signos de injuria inhalatoria: vibrisas chamuscadas, esputo carbonáceo, disfonía y {{c1::estridor}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Inhalación",
+   "repaso": false,
+   "imagen": "../../books/figuras/atlas_eunacom_2026/241_media_cirugia_cirugia_13_quemaduras.jpg",
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ante injuria inhalatoria se {{c1::intuba precozmente}}, antes de que el edema de glotis lo impida.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Inhalación",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El CO tiene una afinidad {{c1::240}} veces mayor que el oxígeno por la hemoglobina.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Monóxido",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la intoxicación por CO el oxímetro de pulso es {{c1::falsamente normal}}; se mide carboxihemoglobina.",
+   "extra": "EUNACOM Diciembre 2025 · Pregunta 10.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Monóxido",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tratamiento inicial del CO es oxígeno al {{c1::100%}} con mascarilla de no reinhalación.",
+   "extra": "Baja la vida media de la COHb de 320 a 80 minutos.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Monóxido",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La quemadura circular de {{c1::3° grado}} en extremidad o tórax requiere escarotomía descompresiva de urgencia.",
+   "extra": "Síndrome compartimental o restricción ventilatoria.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Escarotomía",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-13/08_escarotomia__sherman_p95.jpg",
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La escarotomía no necesita anestesia porque la escara de 3° grado es {{c1::insensible}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Escarotomía",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primeros auxilios: enfriar con agua corriente {{c1::10 a 20 minutos}}; no en grandes quemados por hipotermia.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Curación",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.008"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Cobertura tópica de quemaduras: {{c1::sulfadiazina de plata al 1%}}.",
+   "extra": "Evitar en alergia a sulfas, embarazo a término y recién nacidos.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Curación",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.008"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la quemadura menor no se usan hielo, remedios caseros ni {{c1::antibióticos profilácticos}}.",
+   "extra": "Se verifica la vacuna antitetánica.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Curación",
+   "repaso": true,
+   "codigos": [
+    "4.01.5.008"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un {{c1::injerto}} no lleva irrigación propia; un {{c2::colgajo}} lleva su pedículo vascular.",
+   "extra": "El colgajo cubre hueso, tendón e implantes.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Injertos",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.011"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El injerto sobrevive por imbibición plasmática las primeras {{c1::48 horas}} y luego por neovascularización.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Injertos",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.011"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El injerto de espesor {{c1::parcial}} prende fácil pero se contrae más; el de espesor {{c2::total}} da mejor resultado estético.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Injertos",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.011"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El queloide {{c1::sobrepasa}} los márgenes de la lesión; la cicatriz hipertrófica queda confinada a ellos.",
+   "extra": "Ambos se tratan con corticoide intralesional.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Secuelas",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-13/07_cicatriz-hipertrofica-quemadura__bailey-love_p644.jpg",
+   "codigos": [
+    "4.01.1.056"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Úlcera crónica sobre una cicatriz de quemadura antigua: úlcera de {{c1::Marjolin}}, se confirma con biopsia incisional.",
+   "extra": "Carcinoma escamoso.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Secuelas",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 161"
+   ],
+   "codigos": [
+    "4.01.1.056"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La presoterapia con prendas elásticas dura {{c1::12 a 18 meses}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Secuelas",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.056"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La quemadura solar es una quemadura de primer grado por radiación {{c1::UVB}}.",
+   "extra": "Máximo a las 24-36 horas.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Quemadura solar",
+   "repaso": false,
+   "codigos": [
+    "6.01.2.011"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Prevención: fotoprotector de amplio espectro con FPS ≥ {{c1::30}}, reaplicado cada {{c2::2 horas}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Quemadura solar",
+   "repaso": false,
+   "codigos": [
+    "6.01.2.011"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-13/08_escarotomia__sherman_p95.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Escarotomía en quemadura circular",
+   "clave": "Incisión longitudinal sobre escara circular de tercer grado",
+   "conducta": "Escarotomía descompresiva de urgencia sin anestesia, antes de perder los pulsos",
+   "fuente": "Atlas of Clinical Emergency Medicine (Sherman), p. 95",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-13/07_cicatriz-hipertrofica-quemadura__bailey-love_p644.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Cicatriz hipertrófica postquemadura",
+   "clave": "Cicatriz elevada y enrojecida confinada a los límites de la quemadura",
+   "conducta": "Presoterapia, silicona, kinesiterapia y corticoide intralesional; derivar a plástica",
+   "fuente": "Bailey & Love 27.ª ed., p. 644",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.056"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Vibrisas chamuscadas y estridor: ¿conducta?",
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "Más de 20% de SCQ, zona especial o inhalación: ¿clasificación y traslado?",
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.0.0.0",
+   "pista": "Escara circular con pulsos que se pierden: ¿procedimiento?",
+   "codigos": [
+    "4.01.2.026",
+    "2.01.2.022"
+   ]
+  }
+ ]
+}

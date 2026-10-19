@@ -1,0 +1,600 @@
+{
+  "classId": "ped-03",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Al recién nacido se le administran {{c1::BCG y hepatitis B}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Calendario PNI",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.006",
+        "1.04.3.013"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La BCG previene las formas graves de TBC: {{c1::meníngea y miliar}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Calendario",
+      "repaso": false,
+      "codigos": [
+        "1.04.3.013"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La BCG está contraindicada si el recién nacido pesa {{c1::< 2.000 g}} o tiene inmunodeficiencia conocida.",
+      "extra": "El prematuro espera a alcanzar el peso mínimo.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Calendario",
+      "repaso": false,
+      "codigos": [
+        "1.04.3.013",
+        "2.01.3.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 151"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "A los 2, 4 y 6 meses se administra la vacuna {{c1::hexavalente}} (DTPa-Hib-HB-VIP) intramuscular.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.006",
+        "1.04.3.013"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hexavalente reemplazó a la polio oral viva: el componente de polio es {{c1::VIP inyectable}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Calendario",
+      "repaso": true,
+      "codigos": [
+        "1.04.3.013"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 55"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La neumocócica conjugada se administra a los 2, 4 y {{c1::12}} meses.",
+      "extra": "El refuerzo de los 12 meses.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Calendario PNI",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.006",
+        "1.04.3.013"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 164"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "A los 12 meses se administran {{c1::tresvírica, meningocócica ACWY y refuerzo de neumocócica}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.006",
+        "1.04.3.013"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "A los 18 meses se administran {{c1::hexavalente (4.ª dosis), hepatitis A y varicela}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.006",
+        "1.04.3.013",
+        "1.06.3.001"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La meningocócica conjugada del PNI protege contra los serogrupos A, C, W-135 e {{c1::Y}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Calendario",
+      "repaso": true,
+      "codigos": [
+        "1.04.3.013"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La 2.ª dosis de varicela se indica a los {{c1::36 meses}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Vacunación escolar",
+      "repaso": false,
+      "codigos": [
+        "1.04.3.013"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En 1.° básico se administra la 2.ª dosis de {{c1::tresvírica}} más dTpa.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Calendario PNI",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.006",
+        "1.04.3.013"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La vacuna VPH (Gardasil 9) se da en {{c1::4.° y 5.° básico}} a niñas y niños.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Calendario PNI",
+      "repaso": false,
+      "codigos": [
+        "1.04.3.013"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El refuerzo de dTpa se da en {{c1::8.° básico}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Calendario PNI",
+      "repaso": true,
+      "codigos": [
+        "1.04.3.013"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Nirsevimab es un {{c1::anticuerpo monoclonal}} contra el VRS, no una vacuna.",
+      "extra": "Inmunización pasiva en menores de 6 meses.",
+      "origen": "clase:2",
+      "fuente": "Clase · Vivas vs inactivadas",
+      "repaso": true,
+      "codigos": [
+        "1.04.3.013",
+        "2.01.3.006"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las vacunas vivas atenuadas del PNI son {{c1::BCG, tresvírica y varicela}}.",
+      "extra": "Contraindicadas en inmunosupresión grave y embarazo.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.04.3.013",
+        "2.01.3.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 55"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las vacunas inactivadas (hexavalente, neumocócica, meningocócica) son {{c1::seguras}} en el inmunosuprimido.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Vivas vs inactivadas",
+      "repaso": false,
+      "codigos": [
+        "1.04.3.013"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño con corticoides sistémicos en dosis inmunosupresoras: está contraindicada la {{c1::tresvírica}}, no las inactivadas.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz EUNACOM Diciembre 2025 P131",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.006",
+        "1.04.3.013"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 131"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante corticoides en dosis alta, el error es suspender todo el esquema; se suspenden {{c1::solo las vivas}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.006"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Un resfrío o fiebre baja (< 38.5°C) {{c1::no contraindica}} la vacunación.",
+      "extra": "Diferir genera oportunidades perdidas.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Falsas contraindicaciones",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.006"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El tratamiento antibiótico en curso {{c1::no contraindica}} ninguna vacuna.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Falsas contraindicaciones",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.006"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante alergia al huevo, la tresvírica y la influenza se vacunan {{c1::sin pruebas cutáneas ni cambios}}.",
+      "extra": "El error es pedir test cutáneo o posponer.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 67",
+        "EUNACOM Agosto 2021 · Pregunta 150",
+        "EUNACOM Diciembre 2018 · Pregunta 68",
+        "EUNACOM Julio 2016 · Pregunta 87"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El prematuro se vacuna por edad {{c1::cronológica}}, no corregida.",
+      "extra": "La única excepción es el peso mínimo para la BCG.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 151",
+        "EUNACOM Diciembre 2018 · Pregunta 164"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La fiebre que aparece 7 a 10 días después de las vacunas se atribuye a la {{c1::tresvírica}} (virus vivo).",
+      "extra": "El componente inactivado da fiebre inmediata o al día siguiente.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 103"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Convulsión o hipotonía horas después de la vacuna: reacción a la pertusis {{c1::celular}}; se cambia por acelular.",
+      "extra": "Hoy se usa el componente acelular.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Hexavalente acelular",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.006",
+        "1.04.3.013"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 15",
+        "EUNACOM Diciembre 2019 · Pregunta 71"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antecedente de invaginación intestinal contraindica la vacuna {{c1::rotavirus oral}}.",
+      "extra": "Es una vacuna extra PNI.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz vacunas",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 67",
+        "EUNACOM Agosto 2021 · Pregunta 37"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La vacuna {{c1::rotavirus}} es la que se recomienda fuera del PNI a un lactante de 2 meses.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Vacunas vivas",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 123"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La inyección IM en el lactante se hace en el {{c1::vasto lateral}} a {{c2::90°}}.",
+      "extra": "Nunca en el glúteo: riesgo del ciático y peor respuesta a hepatitis B.",
+      "origen": "clase:4",
+      "fuente": "Clase · Técnica de vacunación",
+      "repaso": true,
+      "codigos": [
+        "4.01.5.020"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el niño que camina y en el adulto, el sitio IM es el {{c1::deltoides}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Técnica",
+      "repaso": false,
+      "codigos": [
+        "4.01.5.020"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La vía subcutánea se aplica a {{c1::45°}} con aguja de 16 mm, formando un pliegue de piel.",
+      "extra": "Para tresvírica y varicela.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Técnica",
+      "repaso": true,
+      "codigos": [
+        "4.01.5.020"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La BCG es intradérmica en el deltoides {{c1::derecho}} y forma un habón de 5 mm; no se frota ni se cubre.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Técnica de vacunación",
+      "repaso": false,
+      "codigos": [
+        "4.01.5.020",
+        "1.04.3.013"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La cadena de frío se mantiene entre {{c1::2 y 8 °C}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Seguridad",
+      "repaso": false,
+      "codigos": [
+        "4.01.5.020"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anafilaxia posvacunal: adrenalina IM {{c1::0,01 mg/kg}} en el vasto lateral.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Seguridad",
+      "repaso": true,
+      "codigos": [
+        "4.01.5.020"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras vacunar, se observa al paciente durante {{c1::15 a 30 minutos}} y se notifican los ESAVI.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Seguridad",
+      "repaso": true,
+      "codigos": [
+        "4.01.5.020"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hijo de madre HBsAg positiva: el error es esperar los 2 meses; se da {{c1::vacuna más inmunoglobulina en las primeras 12 horas}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.06.3.001"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el adulto de riesgo, la hepatitis B se vacuna en esquema de {{c1::0, 1 y 6 meses}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Hepatitis",
+      "repaso": false,
+      "codigos": [
+        "1.06.3.001"
+      ]
+    },
+    {
+      "id": "c36",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hepatitis B en adultos: la respuesta se confirma con anti-HBs {{c1::≥ 10 mUI/mL}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Hepatitis",
+      "repaso": false,
+      "codigos": [
+        "1.06.3.001"
+      ]
+    },
+    {
+      "id": "c37",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Exposición a hepatitis B en no vacunado: vacuna más inmunoglobulina, idealmente en {{c1::24 a 48 horas}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Post-exposición",
+      "repaso": true,
+      "codigos": [
+        "1.06.3.001"
+      ]
+    },
+    {
+      "id": "c38",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el adulto mayor el PNI incluye influenza anual y neumocócica polisacárida {{c1::23-valente}} a los 65 años.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Adulto mayor y cocooning",
+      "repaso": true,
+      "codigos": [
+        "1.07.3.006"
+      ]
+    },
+    {
+      "id": "c39",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La embarazada recibe dTpa desde las {{c1::28 semanas}} de cada gestación.",
+      "extra": "Protege al recién nacido del coqueluche.",
+      "origen": "clase:6",
+      "fuente": "Clase · Cocooning",
+      "repaso": false,
+      "codigos": [
+        "1.04.3.013",
+        "2.01.3.006"
+      ]
+    },
+    {
+      "id": "c40",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Embarazada con vacuna tresvírica pendiente: está {{c1::contraindicada}} en el embarazo; se da en el posparto.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Vacunas PNI",
+      "repaso": false,
+      "codigos": [
+        "1.04.3.013"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Contraindicación real (embarazo o inmunosupresión grave): ¿qué se suspende?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Resfrío, fiebre baja, alergia al huevo o prematurez: ¿qué haces?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2.2",
+      "pista": "Lactante de 12 meses: ¿qué vacunas?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.2.3",
+      "pista": "Lactante de 18 meses: ¿qué vacunas?"
+    }
+  ]
+}

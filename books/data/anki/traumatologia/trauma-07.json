@@ -1,0 +1,562 @@
+{
+ "classId": "trauma-07",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las fracturas de fémur, pierna y tobillo se tratan por regla general de forma {{c1::quirúrgica}}; el yeso es la excepción.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Regla",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Clínica común de fractura de extremidad inferior: dolor intenso, impotencia funcional, deformidad, {{c1::crepitación}} y equimosis.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clínica",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la fractura de fémur se pide radiografía AP y lateral del fémur completo, con cadera y rodilla, más {{c1::pelvis}}.",
+   "extra": "Descarta fractura asociada del cuello femoral o acetábulo.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Fémur",
+   "repaso": true,
+   "imagen": "biblioteca/18_traumatologia/trauma-07/21_femur-espiroidea__sherman_p577.jpg",
+   "codigos": [
+    "4.02.2.007",
+    "4.02.4.003"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fractura diafisaria de fémur se trata con {{c1::clavo intramedular}} o placa.",
+   "extra": "El manejo ortopédico termina en mala unión o pseudoartrosis.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Fémur",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.007",
+    "4.02.4.003"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La fractura de fémur puede perder {{c1::1-1,5 litros}} de sangre: se vigila el shock.",
+   "extra": "Mientras espera cirugía: férula de tracción.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fémur",
+   "repaso": false,
+   "codigos": [
+    "4.02.4.003"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fractura de diáfisis de tibia se asocia a dos complicaciones críticas: síndrome {{c1::compartimental}} y TVP.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pierna",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El síndrome compartimental de la pierna se trata con {{c1::fasciotomía}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pierna",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Torcedura de tobillo: la conducta inicial es solicitar {{c1::radiografía}}; el esguince se diagnostica solo con radiografía normal.",
+   "extra": "«Un esguince es una fractura hasta demostrar lo contrario».",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Esguince vs fractura",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 7"
+   ],
+   "codigos": [
+    "4.02.2.003",
+    "4.01.4.007"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fractura: imposibilidad de apoyar, crepitación y dolor sobre {{c1::prominencias óseas}}; esguince: dolor en ligamentos.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Esguince vs fractura",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.003"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La equimosis de la fractura es inmediata y extensa; la del esguince, {{c1::tardía y localizada}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Esguince vs fractura",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.003"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el tobillo se palpan los maléolos, la base del {{c1::5.º metatarsiano}} y la cabeza del peroné.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Palpación",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-07/23_quinto-metatarsiano-base-rx__knoop_p347.jpg",
+   "codigos": [
+    "4.02.2.013"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fractura de la base del 5.º metatarsiano es una avulsión por tracción del {{c1::peroneo lateral corto}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Palpación",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.013"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un golpe transmitido por la sindesmosis que fractura el peroné proximal es la fractura de {{c1::Maisonneuve}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Palpación",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-07/24_maisonneuve__sherman_p615.jpg",
+   "codigos": [
+    "4.02.2.013"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tratamiento definitivo de la fractura de tobillo es la {{c1::reducción y osteosíntesis}}, sobre todo si hay dos maléolos o sindesmosis inestable.",
+   "extra": "No es RICE con bota.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tobillo",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.013",
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La luxofractura de tobillo se produce por {{c1::rotación}} del pie en carga: maléolos, ligamentos y subluxación del astrágalo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Luxofractura",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-07/22_luxofractura-tobillo-rx__sherman_p540.jpg",
+   "codigos": [
+    "4.02.2.013"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Clasificación de {{c1::Weber}}: A infrasindesmal, B transindesmal, C suprasindesmal; las C son inestables.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Weber",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.013"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Manejo inicial de la luxofractura: analgesia, {{c1::reducción cerrada}} y valva de yeso abierta, en espera de cirugía.",
+   "extra": "Pregunta real Dic 2025.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Luxofractura",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 138"
+   ],
+   "codigos": [
+    "4.02.2.013"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Reglas de {{c1::Ottawa}}: radiografía si hay dolor maleolar con dolor óseo posterior o en la punta del maléolo, o incapacidad de dar 4 pasos.",
+   "extra": "Se piden AP, lateral y mortaja.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Ottawa",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.013"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las luxofractura complican con necrosis cutánea, síndrome {{c1::compartimental}} y artrosis postraumática.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Luxofractura",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.013"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Esguince grado I: {{c1::microdesgarros}}; grado II: rotura parcial con inestabilidad leve; grado III: rotura completa con inestabilidad franca.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Esguince",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.003"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El esguince más frecuente de tobillo es el del ligamento {{c1::peroneoastragalino anterior}} (inversión).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Esguince",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.003"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Esguince grado I y II: {{c1::PRICE}} (protección, reposo, hielo, compresión, elevación) y apoyo progresivo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Esguince",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.003"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el PRICE el hielo se aplica 15-20 minutos cada {{c1::2-3 horas}} durante 48-72 horas.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Esguince",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.003"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El esguince grado II lleva inmovilización semirrígida por {{c1::1-2 semanas}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Esguince",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.003"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se derivan el esguince grado III, la sospecha de lesión de {{c1::sindesmosis}} y los síntomas por más de 6 semanas.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Esguince",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.003"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras el esguince se hace kinesiterapia con ejercicios de {{c1::propiocepción}} para prevenir recidivas.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Esguince",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.003"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El esguince acromioclavicular grado I se trata con cabestrillo por {{c1::1-2 semanas}}; los de dedos, con sindactilia.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Esguince",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.003"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Torcedura con dolor o equimosis: el error es dar el alta como esguince {{c1::sin radiografía}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.003",
+    "4.01.4.007"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Primera imagen del tobillo: radiografía simple; el error es pedir {{c1::TAC o resonancia}} de entrada.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.003",
+    "4.01.4.007"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Dolor intenso bajo el yeso: se {{c1::retira el yeso}} ya; el error es elevar o repetir radiografías.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor de rodilla por torsión jugando fútbol, con dolor al valgo: {{c1::esguince del ligamento colateral medial}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic 2024",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 57"
+   ],
+   "codigos": [
+    "4.02.2.003"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Caída en paracaídas con deformidad en valgo: fractura del {{c1::platillo tibial lateral}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic 2024",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 133"
+   ],
+   "codigos": [
+    "4.02.2.013"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fractura del tercio medio de la clavícula se inmoviliza con {{c1::cabestrillo}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real clavícula",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 100",
+    "EUNACOM Julio 2019 · Pregunta 179"
+   ],
+   "codigos": [
+    "4.02.4.003"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En un adulto mayor con sospecha de fractura de pie, el estudio diagnóstico de elección es {{c1::TAC}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul 2025",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 165"
+   ],
+   "codigos": [
+    "4.02.2.013"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-07/22_luxofractura-tobillo-rx__sherman_p540.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Luxofractura de tobillo",
+   "clave": "Astrágalo subluxado con fractura de maléolos",
+   "conducta": "Analgesia, reducción cerrada, valva abierta y osteosíntesis",
+   "fuente": "Sherman, Atlas of Clinical Emergency Medicine, p. 540",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 138"
+   ],
+   "codigos": [
+    "4.02.2.013"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-07/23_quinto-metatarsiano-base-rx__knoop_p347.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Avulsión de la base del 5.º metatarsiano",
+   "clave": "Fragmento arrancado por el peroneo lateral corto",
+   "conducta": "Se confunde con esguince: radiografía ante dolor en la base del 5.º metatarsiano",
+   "fuente": "The Atlas of Emergency Medicine (Knoop), p. 347",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.013"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-07/21_femur-espiroidea__sherman_p577.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Fractura espiroidea de fémur",
+   "clave": "Trazo espiroideo de la diáfisis femoral",
+   "conducta": "Clavo intramedular; vigilar shock y férula de tracción",
+   "fuente": "Sherman, Atlas of Clinical Emergency Medicine, p. 577",
+   "repaso": false,
+   "codigos": [
+    "4.02.4.003"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Fractura de fémur, tibia o peroné: ¿tratamiento?",
+   "codigos": [
+    "4.02.2.003",
+    "4.02.2.013"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1",
+   "pista": "Dolor intenso bajo el yeso: ¿qué haces?",
+   "codigos": [
+    "4.02.2.003",
+    "4.02.2.013"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.0",
+   "pista": "Fractura o luxofractura de tobillo: ¿conducta?",
+   "codigos": [
+    "4.02.2.003",
+    "4.02.2.013"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.1",
+   "pista": "Torcedura con radiografía normal: ¿diagnóstico?",
+   "codigos": [
+    "4.02.2.003",
+    "4.02.2.013"
+   ]
+  }
+ ]
+}

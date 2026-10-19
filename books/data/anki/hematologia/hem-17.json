@@ -1,0 +1,463 @@
+{
+  "classId": "hem-17",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La LMC tiene cromosoma Filadelfia en el {{c1::95 %}} de los casos: {{c2::t(9;22)}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La t(9;22) forma el gen {{c1::BCR-ABL1}}, una tirosina quinasa siempre activa que bloquea la apoptosis.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Cromosoma Filadelfia",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La LMC es un síndrome {{c1::mieloproliferativo}}; el frotis muestra toda la serie granulocítica sin hiato.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla LMC vs LLC",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.010"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 108",
+        "EUNACOM Diciembre 2017 · Pregunta 53"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "LMC fase crónica: leucocitosis frecuente de {{c1::50.000 a 300.000}}/µL con blastos < {{c2::10 %}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Fase crónica",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el frotis de LMC hay {{c1::basofilia y eosinofilia}}, con plaquetas normales o altas.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Fase crónica",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la LMC la esplenomegalia palpable aparece en más del {{c1::80 %}} de los pacientes.",
+      "extra": "Puede cruzar la línea media y causar saciedad precoz.",
+      "origen": "clase:2",
+      "fuente": "Clase · Fase crónica",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Fase acelerada de LMC: blastos {{c1::10–19 %}} o basófilos ≥ {{c2::20 %}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tres fases",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Crisis blástica de LMC: blastos ≥ {{c1::20 %}}, equivalente a leucemia aguda.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tres fases",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El {{c1::85 %}} de las LMC se diagnostica en fase crónica.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tres fases",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El tratamiento de primera línea de la LMC son los {{c1::inhibidores de tirosina quinasa}} orales: imatinib.",
+      "extra": "Dasatinib y nilotinib son de 2.ª generación.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "LMC confirmada: el error es dar {{c1::quimioterapia clásica}}; se usa ITK oral (imatinib).",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Leucocitosis con toda la serie, basofilia y bazo grande: el error es llamarla {{c1::leucemia aguda}} por ver algún blasto.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La LMC está cubierta por el {{c1::GES N° 37}} (leucemia en ≥ 15 años), con ITK oral.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tres fases",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La LLC es la leucemia del adulto mayor, frecuente sobre los {{c1::70 años}} y muy rara bajo 40.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 LLC",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.010"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 12",
+        "EUNACOM Julio 2019 · Pregunta 164"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La LLC es una proliferación de linfocitos {{c1::B}} maduros que expresan CD19, CD23 y {{c2::CD5}}.",
+      "extra": "CD20 es débil.",
+      "origen": "clase:4",
+      "fuente": "Clase · LLC",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio de LLC: linfocitos B ≥ {{c1::5.000/µL}} persistentes por al menos {{c2::3 meses}}.",
+      "extra": "Confirmado por citometría de flujo.",
+      "origen": "clase:4",
+      "fuente": "Clase · LLC",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las {{c1::sombras de Gümprecht}} son linfocitos frágiles rotos en el frotis, típicos de la LLC.",
+      "extra": "No confundir con los bastones de Auer de la LMA.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La LLC causa {{c1::hipogammaglobulinemia}}, con infecciones respiratorias a repetición.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · LLC",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Autoinmunidad de la LLC: anemia hemolítica por anticuerpos {{c1::calientes}} y PTI.",
+      "extra": "Anemia con Coombs positivo: AHAI, no solo infiltración medular.",
+      "origen": "clase:4",
+      "fuente": "Clase · LLC",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "LLC con anemia y Coombs positivo: el error es atribuirla solo a {{c1::infiltración medular}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "LLC Binet A asintomática: el error es {{c1::iniciar quimioterapia}}; la conducta es observar.",
+      "extra": "El tratamiento precoz no prolonga la sobrevida.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "LLC temprana asintomática (Binet A o Rai 0): {{c1::watch and wait}}, con controles cada 3 a 6 meses.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En LLC se trata solo si Hb < {{c1::10 g/dL}} o plaquetas < {{c2::100.000}}/µL.",
+      "extra": "Binet C o Rai III–IV, o síntomas B severos.",
+      "origen": "clase:16",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de LLC avanzada: {{c1::ibrutinib, acalabrutinib}} (inhibidores de BTK) o {{c2::venetoclax}} (anti-BCL-2).",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 LLC",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En LLC la genética de buen pronóstico es la deleción {{c1::13q}} y la de mal pronóstico, {{c2::17p/TP53}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La LMC se transforma en {{c1::crisis blástica}}; la LLC, en {{c2::síndrome de Richter}} (linfoma agresivo).",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El signo clave de la LMC es la {{c1::esplenomegalia gigante}}; el de la LLC, las {{c2::adenopatías generalizadas indoloras}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La LMC aparece típicamente a los {{c1::40 a 60 años}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Reacción leucemoide: leucocitosis reactiva > {{c1::50.000}}/µL con desviación izquierda, sin clon neoplásico.",
+      "extra": "Causas: sepsis, tuberculosis, C. difficile, hemorragia, hemólisis, corticoides, G-CSF.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Reacción leucemoide",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.014"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La fosfatasa alcalina leucocitaria está {{c1::alta}} en la reacción leucemoide y {{c2::baja}} en la LMC.",
+      "extra": "Reacción leucemoide: granulación tóxica y cuerpos de Döhle; BCR-ABL1 negativo.",
+      "origen": "clase:7",
+      "fuente": "Clase · Reacción leucemoide vs LMC",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.014"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Leucocitosis > 50.000 en sepsis con bandas y granulación tóxica: el error es iniciar {{c1::imatinib o citorreducción}}.",
+      "extra": "Se busca y trata la causa y se repite el hemograma.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.014"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-17/02_llc_sombras_gumprecht__goljan_p580.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Sombras de Gümprecht (LLC)",
+      "clave": "Núcleos aplastados sin citoplasma entre linfocitos pequeños maduros",
+      "conducta": "Citometría de flujo; si es Binet A asintomática, observar",
+      "fuente": "Goljan, Rapid Review Pathology",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-17/01_lmc-leucocitosis-con-desviacion-izquierd__cto-hemato_p53.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Frotis de LMC en fase crónica",
+      "clave": "Mielocitos, metamielocitos y baciliformes sin hiato leucémico",
+      "conducta": "Confirmar BCR-ABL1, derivar e iniciar imatinib (GES N° 37)",
+      "fuente": "Manual CTO Hematología 14.ª ed., p. 53",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.010"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "LMC con blastos < 20 %: ¿qué se hace?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "LLC sin anemia ni plaquetopenia: ¿qué conducta?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "LLC con Hb < 10 o plaquetas < 100.000: ¿qué conducta?"
+    }
+  ]
+}

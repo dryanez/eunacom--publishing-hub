@@ -1,0 +1,652 @@
+{
+ "classId": "infecto-06",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El virus rábico asciende por transporte axonal {{c1::retrógrado}} hasta el asta posterior de la médula y el encéfalo.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Rabia",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.3.012"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La rabia causa encefalomielitis letal con {{c1::hidrofobia}}, espasmos laríngeos y paro cardiorrespiratorio.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Rabia",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.3.012"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Perro o gato doméstico ubicable: observación veterinaria por {{c1::10 días}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Rabia",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.3.012"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Si el perro o gato está sano al día 10, el paciente {{c1::no se vacuna}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si el animal observado enferma, muere o desaparece, se inicia {{c1::vacunación inmediata}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Qué animal fue",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Animal desconocido, vagabundo o provocado: vacunación antirrábica {{c1::inmediata}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Rabia",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.3.012"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Esquema antirrábico postexposición: 5 dosis los días {{c1::0, 3, 7, 14 y 28}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Rabia",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.3.012"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El reservorio silvestre endémico de rabia en Chile es el {{c1::murciélago}} (Tadarida brasiliensis).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Rabia",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.3.012"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Todo contacto con murciélago es exposición {{c1::grave}}, aunque no haya herida.",
+   "extra": "",
+   "origen": "clase:17",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Contacto con murciélago: vacuna antirrábica + {{c1::inmunoglobulina antirrábica}} en el 100 % de los casos.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Clostridium tetani es un bacilo grampositivo {{c1::anaerobio estricto}} formador de esporas.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tétanos",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las esporas germinan en tejidos desvitalizados con bajo potencial {{c1::redox}} (punzantes, quemaduras, fracturas expuestas).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tétanos",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La toxina del tétanos se llama {{c1::tetanoespasmina}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tétanos",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tetanoespasmina bloquea la liberación de {{c1::GABA y glicina}} en las interneuronas de Renshaw.",
+   "extra": "Desinhibición motora: contracción tónica sostenida.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tetanoespasmina degrada la {{c1::sinaptobrevina}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tétanos",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Trismus y risa {{c1::sardónica}} son los signos iniciales del tétanos.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Tétanos",
+   "repaso": true,
+   "imagen": "biblioteca/07_infectologia/infecto-06/01_risa_sardonica__cdc-phil-2857.jpg",
+   "codigos": [
+    "1.04.3.002",
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El arco dorsal rígido del tétanos se llama {{c1::opistótonos}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Tétanos",
+   "repaso": true,
+   "imagen": "biblioteca/07_infectologia/infecto-06/02_opistotonos__cdc-phil.jpg",
+   "codigos": [
+    "1.04.3.002",
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el tétanos la conciencia está {{c1::conservada}} y los espasmos se gatillan con luz o ruido.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tétanos",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La muerte en el tétanos es por paro respiratorio por espasmo {{c1::laríngeo o diafragmático}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tétanos",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tétanos establecido: ingreso a UCI en box {{c1::oscuro y silencioso}} con sedación y relajantes.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Antibiótico del tétanos establecido: {{c1::metronidazol}} EV (o penicilina).",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "IGH-T en tétanos establecido: {{c1::3.000–6.000 UI}} para neutralizar la toxina libre.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Tétanos",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Herida limpia y superficial: refuerzo dT solo si pasaron > {{c1::10 años}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Profilaxis antitetánica",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.008",
+    "1.04.3.002"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Herida sucia o tetanígena: refuerzo dT si pasaron > {{c1::5 años}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Profilaxis antitetánica",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.008",
+    "1.04.3.002"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Son tetanígenas las heridas con tierra, heces, saliva, punción profunda, {{c1::mordedura}} o tejido desvitalizado.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Profilaxis antitetánica",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.008",
+    "1.04.3.002"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "IGH-T profiláctica: {{c1::250 UI}} IM.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Profilaxis antitetánica",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.008",
+    "1.04.3.002"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La IGH-T se da solo si la herida es sucia Y el esquema es {{c1::desconocido o < 3 dosis}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La vacuna dT y la IGH-T se aplican en sitios anatómicos {{c1::separados}}.",
+   "extra": "Para que no se neutralicen.",
+   "origen": "clase:5",
+   "fuente": "Clase · Dos preguntas ante una herida",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Esquema incompleto o desconocido con herida limpia: dT 3 dosis, {{c1::sin IGH-T}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Profilaxis antitetánica",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "≥ 3 dosis con la última hace < 5 años: {{c1::no requiere nada}}, ni en herida sucia.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Profilaxis antitetánica",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "≥ 3 dosis, última 5 a 10 años, herida sucia: solo {{c1::refuerzo dT}} sin IGH-T.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Profilaxis antitetánica",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "≥ 3 dosis, última > 10 años: refuerzo dT en cualquier herida, {{c1::sin IGH-T}}.",
+   "extra": "",
+   "origen": "libro:caso",
+   "fuente": "Libro · Caso clínico",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Mordedura: lavar con agua y jabón por {{c1::10–15 minutos}} e irrigar a presión.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Mordeduras",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.3.012"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "No se sutura la mordedura punzante, con más de {{c1::8–12 horas}} o infectada (la cara es excepción).",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Mordeduras",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.3.012"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Antibiótico profiláctico de mordedura: {{c1::3–5 días}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Mordeduras",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.3.012"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se da antibiótico en mordedura de gato, de {{c1::mano}}, profunda, humana o en inmunosuprimidos.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Mordeduras",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Mordedura: {{c1::amoxicilina-ácido clavulánico}} 875/125 mg cada 12 h.",
+   "extra": "Alérgicos: doxiciclina o clindamicina + ciprofloxacino.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Mordeduras",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.3.012"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Germen de mordedura de gato con infección en < 24 h: {{c1::Pasteurella multocida}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Mordeduras",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.3.012"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En asplenia y alcoholismo la mordedura se complica con {{c1::Capnocytophaga canimorsus}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Mordeduras",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.3.012"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hepatitis B: esquema {{c1::0-1-6 meses}} en personal de salud, hemodiálisis y VIH.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Vacunas especiales",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.3.012"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Rabia preexposición en veterinarios: 3 dosis los días {{c1::0, 7 y 21–28}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Vacunas especiales",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.3.012"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Las vacunas vivas atenuadas (varicela, SRP, fiebre amarilla) están contraindicadas en {{c1::embarazo e inmunosupresión}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Vacunas especiales",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "El GES cubre la prevención y profilaxis postexposición de {{c1::rabia y tétanos}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · GES",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-06/01_risa_sardonica__cdc-phil-2857.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Tétanos: trismus con risa sardónica",
+   "clave": "Mueca fija de la cara por espasmo del masetero, conciencia lúcida",
+   "conducta": "UCI en box oscuro y silencioso, metronidazol EV, IGH-T 3.000–6.000 UI, sedación",
+   "fuente": "CDC PHIL 2857, dominio público",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.2.009"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-06/02_opistotonos__cdc-phil.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Tétanos: opistótonos",
+   "clave": "Arco dorsal rígido por contracción de los extensores",
+   "conducta": "UCI, sedación y relajantes, metronidazol EV e IGH-T",
+   "fuente": "CDC PHIL, dominio público",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.002",
+    "1.04.2.009"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.2",
+   "pista": "Murciélago: ¿qué se indica?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.1.1",
+   "pista": "Herida sucia con < 3 dosis: ¿qué se da?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1",
+   "pista": "Animal desconocido: ¿esquema?"
+  }
+ ]
+}

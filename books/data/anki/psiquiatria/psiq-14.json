@@ -1,0 +1,521 @@
+{
+  "classId": "psiq-14",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En todo paciente agitado se descartan primero la hipoglicemia con {{c1::glicemia capilar}} y la hipoxia con oximetría.",
+      "extra": "El error es sedar sin descartar lo orgánico.",
+      "origen": "clase:13",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "codigos": [
+        "5.01.2.002",
+        "5.01.1.014"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La primera causa que debe descartarse en un paciente agitado es la {{c1::orgánica (delirium hiperactivo)}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Etiología",
+      "repaso": true,
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La agitación psicomotora es un {{c1::síndrome conductual}}, no una enfermedad.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Etiología",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Agitación orgánica: conciencia {{c1::fluctuante}}, desorientado; la psiquiátrica primaria está vigil y orientada.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla etiología",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.002",
+        "5.01.1.014"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Agitación orgánica: alucinaciones {{c1::visuales o táctiles}}; psiquiátrica primaria: auditivas.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla etiología",
+      "repaso": true,
+      "codigos": [
+        "5.01.2.002",
+        "5.01.1.014"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El manejo de la agitación de causa orgánica es {{c1::tratar la causa médica de base}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.002",
+        "5.01.1.014"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El protocolo de contención es escalonado: {{c1::verbal, farmacológica y física}} como último recurso.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 130"
+      ],
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Nunca se entra solo a evaluar a un paciente agitado y se mantiene la {{c1::puerta abierta}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Seguridad",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Seguridad de la escena: el médico se ubica {{c1::entre el paciente y la salida}}.",
+      "extra": "Vía de escape libre para el examinador.",
+      "origen": "clase:5",
+      "fuente": "Clase · Seguridad",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la desescalada verbal se valida el malestar pero {{c1::no se discuten los delirios}}.",
+      "extra": "Voz calma, baja y firme; ofrecer medicación voluntaria.",
+      "origen": "clase:5",
+      "fuente": "Clase · Desescalada verbal",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Agitado y agresivo solo verbal, sin violencia física: el error es {{c1::sujetar o inyectar de entrada}}.",
+      "extra": "Corresponde contención verbal y ambiental.",
+      "origen": "clase:13",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 130"
+      ],
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con RASS +1 (inquieto) se hace {{c1::desescalada verbal y observar}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · RASS",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con RASS +3 (muy agitado) se usan {{c1::haloperidol y lorazepam parenterales}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · RASS",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con RASS +4 (combativo) se indica contención física de {{c1::4 puntos}} y fármacos IM.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · RASS",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 30"
+      ],
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si el paciente colabora, la vía preferida es la oral: lorazepam {{c1::2 mg}} VO o risperidona 2 mg VO.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Farmacológica",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 8"
+      ],
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Esquema IM de elección en urgencias: haloperidol {{c1::5 mg}} + lorazepam 2 a 4 mg.",
+      "extra": "Pueden ir en la misma jeringa.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Farmacológica",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 72"
+      ],
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La benzodiacepina asociada a haloperidol {{c1::previene la distonía aguda}}.",
+      "extra": "Además da sinergia sedante más rápida con menos dosis.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Farmacológica",
+      "repaso": true,
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativas IM con atípicos: olanzapina {{c1::10 mg}} o aripiprazol 9,75 mg.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Farmacológica",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Está prohibido asociar {{c1::olanzapina IM con lorazepam IM}} (o benzodiacepina parenteral).",
+      "extra": "Riesgo de colapso cardiorrespiratorio, hipotensión refractaria y muerte súbita.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Si se usó olanzapina IM, esperar al menos {{c1::2 horas}} antes de una benzodiacepina.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Contraindicación",
+      "repaso": true,
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Haloperidol IM: dosis de {{c1::2,5 a 5 mg}}, máximo 15-20 mg/día.",
+      "extra": "Advertencia: distonía aguda y QTc largo.",
+      "origen": "clase:8",
+      "fuente": "Clase · Dosis y advertencias",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.002",
+        "5.01.1.014"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La contención física mecánica es una medida de {{c1::último recurso}} ante fracaso de lo verbal y farmacológico.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Contención física",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 30"
+      ],
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La contención física requiere un equipo de al menos {{c1::5 personas}} bajo el mando del médico.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Contención física",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La sujeción de 4 puntos se fija a la {{c1::estructura de la cama}}, nunca a las barandas móviles.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Contención física",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la contención mecánica la cabecera se eleva {{c1::30-45°}} para prevenir broncoaspiración.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Contención física",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La contención física exige {{c1::orden médica escrita en la ficha}} (Ley 21.331); el error es una indicación verbal sin registro.",
+      "extra": "Incluye justificación y hora de inicio y término previsto.",
+      "origen": "clase:13",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Control de signos, saturación y perfusión en contención: cada {{c1::15 a 30 minutos}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Contención física",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las sujeciones se retiran {{c1::progresivamente, una a una}}, apenas el paciente se calma.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Contención física",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el adulto mayor con delirium, el error es dar {{c1::benzodiacepina}} en monoterapia.",
+      "extra": "Empeora la desorientación y duplica el riesgo de caídas y broncoaspiración.",
+      "origen": "clase:13",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 24"
+      ],
+      "codigos": [
+        "5.01.1.014",
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Agitación severa en el anciano: haloperidol {{c1::0,5 a 1 mg}} VO o IM.",
+      "extra": "Solo si hay riesgo; nunca dosis de adulto joven.",
+      "origen": "clase:10",
+      "fuente": "Clase · Adulto mayor",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 168"
+      ],
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa atípica en el anciano: quetiapina {{c1::25 mg}} VO.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Adulto mayor",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.002",
+        "5.01.1.014"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el anciano, las benzodiacepinas se usan solo en {{c1::abstinencia de alcohol o sedantes}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Adulto mayor",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 37"
+      ],
+      "codigos": [
+        "5.01.1.014",
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Delirium: alteración de la {{c1::atención y de la conciencia}} de inicio agudo y curso fluctuante.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Delirium",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.014"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La forma más frecuente de delirium es la {{c1::hipoactiva}}, subdiagnosticada y de peor pronóstico.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Delirium",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.014"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tratamiento del delirium: {{c1::tratar la causa}} y medidas no farmacológicas, sin contenciones ni sondas.",
+      "extra": "Reorientar, luz natural, sueño, lentes y audífonos.",
+      "origen": "clase:4",
+      "fuente": "Clase · Delirium",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.014"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.1.1",
+      "pista": "Verbal fracasó o riesgo inminente: ¿qué escalón sigue?",
+      "codigos": [
+        "5.01.2.002"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0",
+      "pista": "Anciano con delirium agitado: ¿qué das?",
+      "codigos": [
+        "5.01.1.014"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.1.0",
+      "pista": "Violencia activa: ¿qué escalón y qué exige?",
+      "codigos": [
+        "5.01.2.002"
+      ]
+    }
+  ]
+}

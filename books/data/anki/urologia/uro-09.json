@@ -1,0 +1,442 @@
+{
+ "classId": "uro-09",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La vigilancia activa es el estándar en bajo riesgo: Gleason 3+3=6 (ISUP 1), APE menor de 10 y {{c1::T1c o T2a}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Vigilancia",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La vigilancia activa consiste en APE cada {{c1::3 a 6 meses}}, tacto semestral y rebiopsia o RM, tratando solo si progresa.",
+   "extra": "Evita el sobretratamiento.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Vigilancia",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Adulto de 83-85 años con Gleason 3+3 en menos de 1% de la muestra y sin diseminación: {{c1::vigilancia activa u observación}}.",
+   "extra": "APE 10 y estudio de diseminación negativo.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Vigilancia",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 103",
+    "EUNACOM Diciembre 2022 · Pregunta 82"
+   ],
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El tratamiento curativo está indicado en riesgo intermedio y alto con expectativa de vida mayor de {{c1::10 años}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Curativo",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las dos alternativas curativas de referencia son {{c1::prostatectomía radical}} y radioterapia externa.",
+   "extra": "Sobrevida global equivalente.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Curativo",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La prostatectomía radical extirpa la próstata, las vesículas seminales y hace {{c1::linfadenectomía}} obturatriz-ilíaca.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Prostatectomía",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hombre de 58 años, ISUP 2 (Gleason 3+4), APE 7,5, cT1c, sin metástasis: {{c1::prostatectomía radical o radioterapia externa}}.",
+   "extra": "La elección depende de los efectos secundarios.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Caso",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Riesgo bajo de D'Amico: T1c-T2a, APE menor de 10 e ISUP 1; manejo {{c1::vigilancia activa}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · D'Amico",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Riesgo intermedio: T2b, APE 10-20 o ISUP 2-3; se estudia con TAC y cintigrama óseo y se trata con cirugía o {{c1::radioterapia + TDA corta}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · D'Amico",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Riesgo alto: T2c-T3a, APE mayor de 20 o ISUP 4-5; {{c1::radioterapia + TDA de 2-3 años}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · D'Amico",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Prostatectomía: disfunción eréctil en {{c1::30-80%}} por lesión de las bandeletas neurovasculares de Walsh.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Secuelas",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Prostatectomía: incontinencia urinaria de esfuerzo en {{c1::5-15%}} por daño del esfínter estriado.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Secuelas",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La radioterapia produce proctitis actínica (rectorragia indolora crónica) y {{c1::cistitis actínica}} (hematuria y polaquiuria).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Secuelas",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La radioterapia causa disfunción eréctil progresiva por endarteritis obliterante a los {{c1::2-3 años}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Secuelas",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Incontinencia de esfuerzo tras prostatectomía, sin residuo: {{c1::kinesiterapia del piso pélvico}}.",
+   "extra": "El esfínter artificial solo si persiste severa tras al menos 1 año.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Incontinencia",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Incontinencia tras prostatectomía: el error es dar {{c1::anticolinérgicos o sonda}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El adenocarcinoma de próstata es {{c1::andrógeno-dependiente}}: en enfermedad metastásica el pilar es la deprivación androgénica.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 TDA",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La TDA busca testosterona de castración, menor de {{c1::50 ng/dL}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 TDA",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Castración quirúrgica: {{c1::orquiectomía bilateral subcapsular}}; médica: agonistas GnRH/LHRH (leuprolide, goserelina).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 TDA",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los agonistas GnRH causan un brote inicial de testosterona ({{c1::flare up}}) en los primeros 7-14 días.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Flare",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El flare se previene con un antiandrógeno periférico, la {{c1::bicalutamida}}, para evitar compresión medular.",
+   "extra": "Si hay metástasis vertebrales.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Flare",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El {{c1::degarelix}}, antagonista puro de GnRH, suprime la testosterona de inmediato sin flare.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Degarelix",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "APE 145, fosfatasas alcalinas 420 y focos osteoblásticos diseminados en el cintigrama: tratamiento de primera línea {{c1::deprivación androgénica}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Caso",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las metástasis del cáncer de próstata son {{c1::osteoblásticas}}: focos hipercaptantes en columna, pelvis y costillas.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Metástasis",
+   "repaso": false,
+   "imagen": "biblioteca/19_urologia/uro-09/01_cintigrama-oseo-bajo-volumen__bailey-love_p1414.jpg",
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Resistente a la castración: antiandrógenos de nueva generación, como {{c1::enzalutamida}}, abiraterona y apalutamida.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla modalidades",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Efectos de la castración: pérdida de libido, osteoporosis, síndrome metabólico y {{c1::ginecomastia}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla modalidades",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.013"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Metástasis ósea: el error es la {{c1::cirugía radical}}; se indica deprivación androgénica.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Localizado con 20 años de vida: el error es dar {{c1::hormonas solas}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-09/01_cintigrama-oseo-bajo-volumen__bailey-love_p1414.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Cintigrama óseo de bajo volumen",
+   "clave": "Pocos focos hipercaptantes",
+   "conducta": "Deprivación androgénica; leuprolide con bicalutamida inicial",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 75.27a",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-09/02_cintigrama-oseo-alto-volumen__bailey-love_p1414.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Cintigrama óseo de alto volumen",
+   "clave": "Muchos focos hipercaptantes en columna, pelvis y fémures",
+   "conducta": "Deprivación androgénica continua",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 75.27b",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Metástasis óseas: ¿tratamiento de base?",
+   "codigos": [
+    "4.03.1.002",
+    "4.01.1.013"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0.0",
+   "pista": "Agonista de GnRH en metastásico: ¿qué se agrega?",
+   "codigos": [
+    "4.03.1.002",
+    "4.01.1.013"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1",
+   "pista": "Localizado de bajo riesgo: ¿conducta?",
+   "codigos": [
+    "4.03.1.002",
+    "4.01.1.013"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.2.0",
+   "pista": "Localizado de riesgo intermedio o alto, más de 10 años de vida: ¿conducta?",
+   "codigos": [
+    "4.03.1.002",
+    "4.01.1.013"
+   ]
+  }
+ ]
+}

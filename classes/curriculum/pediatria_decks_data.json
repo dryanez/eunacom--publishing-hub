@@ -3175,12 +3175,12 @@
         "options": [
           {
             "id": "A",
-            "text": "Laringi2s viral",
+            "text": "Laringitis viral",
             "isCorrect": false
           },
           {
             "id": "B",
-            "text": "Bronquioli2s aguda",
+            "text": "Bronquiolitis aguda",
             "isCorrect": false
           },
           {
@@ -3195,7 +3195,7 @@
           },
           {
             "id": "E",
-            "text": "Traqueí2s bacteriana",
+            "text": "Traqueítis bacteriana",
             "isCorrect": false
           }
         ],
@@ -5182,7 +5182,7 @@
           },
           {
             "id": "B",
-            "text": "Enterocoli2s necro2zante",
+            "text": "Enterocolitis necrotizante",
             "isCorrect": false
           },
           {
@@ -5215,12 +5215,12 @@
           {
             "id": "A",
             "text": "Alergia a proteína de leche",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": "B",
             "text": "estenosis hipertrofica piloro",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": "C",
@@ -5238,7 +5238,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "La alternativa correcta es la **A** (Alergia a proteína de leche). estenosis hipertrofica piloro. Tratamiento: 1. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES). Las opciones alternativas (estenosis hipertrofica piloro, Atresia pilórica) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente."
+        "explanation": "Estenosis hipertrófica del píloro: oliva pilórica palpable y vómitos explosivos en lactante pequeño."
       },
       {
         "type": "bento",
@@ -5582,7 +5582,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **Cardioversión** (opción **A**). SHU: E.coli O157:H7 (STEC); tríada IRA + anemia hemolítica microangiopática + trombocitopenia; NO antibióticos De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+        "explanation": "Taquicardia supraventricular (FC 280) con shock: cardioversión sincronizada inmediata, adenosina solo si hay acceso venoso y estabilidad."
       },
       {
         "type": "bento",
@@ -5917,7 +5917,7 @@
           },
           {
             "id": "C",
-            "text": "Administrar an2emé2cos y enviar a domicilio con hidratación oral",
+            "text": "Administrar antieméticos y enviar a domicilio con hidratación oral",
             "isCorrect": false
           },
           {
@@ -6884,39 +6884,39 @@
       {
         "type": "question",
         "nav": "Pregunta Real EUNACOM",
-        "badge": "EUNACOM Diciembre 2024 · Pregunta 27",
-        "notes": "[SLIDE 10] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2024 · Pregunta 27.",
+        "badge": "EUNACOM Agosto 2021 · Pregunta 71",
+        "notes": "[SLIDE 10] Pregunta oficial del banco EUNACOM: EUNACOM Agosto 2021 · Pregunta 71.",
         "number": 3,
-        "caseText": "Alteración metabólica que se debe buscar en PEG",
-        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "caseText": "Un recién nacido nace por parto vaginal a las 40 semanas y pesa 2.600 gramos.",
+        "question": "¿Cuál de las siguientes complicaciones se presentará con mayor riesgo en las primeras horas de vida?",
         "options": [
           {
             "id": "A",
-            "text": "Hiperglucemia",
+            "text": "Síndrome de dificultad respiratoria del recién nacido",
             "isCorrect": false
           },
           {
             "id": "B",
-            "text": "hipercalcemia c.​ Anemia d.​ Poliglobulia (la poliglobulia no era más de GEG?)",
-            "isCorrect": true
+            "text": "Hiperbilirrubinemia",
+            "isCorrect": false
           },
           {
-            "id": "E",
-            "text": "Trombocitosis",
+            "id": "C",
+            "text": "Anemia",
             "isCorrect": false
           },
           {
             "id": "D",
-            "text": "Ninguna de las anteriores es correcta",
+            "text": "Hiperkalemia",
             "isCorrect": false
           },
           {
             "id": "E",
-            "text": "Todas las anteriores son correctas",
-            "isCorrect": false
+            "text": "Hipoglicemia",
+            "isCorrect": true
           }
         ],
-        "explanation": "La alternativa correcta es la **B** (hipercalcemia c.​ Anemia d.​ Poliglobulia (la poliglobulia no era más de GEG?)). :::tip Las 4 complicaciones graves (EMH, ECN, hemorragia periventricular, muerte) se pueden prevenir con corticoides antenatales en el manejo del parto prematuro. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES)."
+        "explanation": "Es pequeño para la edad gestacional (a las 40 semanas el promedio de peso al nacer es 3.500 gramos). En las primeras horas el riesgo más alto es la hipoglicemia. Además, los PEG no tienen riesgo de anemia, sino de poliglobulia ni de distrés respiratorio."
       },
       {
         "type": "question",
@@ -8443,7 +8443,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "La alternativa correcta es la **A** (Hipoglicemia). :::warning El prematuro NO produce poliglobulia → produce anemia. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES). Las opciones alternativas (Sepsis, Hiperbilirrubinemia) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente."
+        "explanation": "Recién nacido PEG (hijo de madre preeclámptica): la complicación más precoz y frecuente es la hipoglicemia por escasas reservas de glucógeno."
       },
       {
         "type": "bento",
@@ -9876,7 +9876,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **Cardioversión** (opción **A**). SHU: E.coli O157:H7 (STEC); tríada IRA + anemia hemolítica microangiopática + trombocitopenia; NO antibióticos De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+        "explanation": "Taquicardia supraventricular (FC 280) con shock: cardioversión sincronizada inmediata, adenosina solo si hay acceso venoso y estabilidad."
       },
       {
         "type": "question",
@@ -9895,7 +9895,7 @@
           {
             "id": "B",
             "text": "Comunicación interventricular",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": "C",
@@ -9910,7 +9910,7 @@
           {
             "id": "E",
             "text": "Soplo funcional",
-            "isCorrect": true
+            "isCorrect": false
           }
         ],
         "explanation": "Diagnóstico: **Soplo funcional** (opción **E**). El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL)."
@@ -10477,39 +10477,39 @@
       {
         "type": "question",
         "nav": "Pregunta Real EUNACOM",
-        "badge": "EUNACOM Diciembre 2024 · Pregunta 28",
-        "notes": "[SLIDE 17] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2024 · Pregunta 28.",
+        "badge": "EUNACOM Julio 2017 · Pregunta 108",
+        "notes": "[SLIDE 17] Pregunta oficial del banco EUNACOM: EUNACOM Julio 2017 · Pregunta 108.",
         "number": 8,
-        "caseText": "Niño que juega en huerto que evoluciona con sialorrea y miosis a.​ Intoxicación por organofosforado",
-        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "caseText": "Un niño de 4 años, hace 24 horas ingiere 7 comprimidos de algún medicamento desconocido, evolucionando con malestar general, vómitos e ictericia. Se solicitan exá- menes, en los que destaca GOT: 403 UI/L, GPT: 390 UI/L, bilirrubina plasmática total: 5,2 mg/dl.",
+        "question": "¿Cuál es la conducta más adecuada?",
         "options": [
           {
             "id": "A",
-            "text": "Control sano habitual",
-            "isCorrect": true
+            "text": "Administrar L-carnitina endovenosa",
+            "isCorrect": false
           },
           {
             "id": "B",
-            "text": "Derivar a especialista",
+            "text": "Administrar deferoxamina endovenosa",
             "isCorrect": false
           },
           {
             "id": "C",
-            "text": "Hospitalizar",
-            "isCorrect": false
+            "text": "Administrar N-acetil-cisteína endovenosa",
+            "isCorrect": true
           },
           {
             "id": "D",
-            "text": "Observación domiciliaria",
+            "text": "Administrar carbón activado vía oral",
             "isCorrect": false
           },
           {
             "id": "E",
-            "text": "Iniciar tratamiento empírico",
+            "text": "Administrar piridoxina vía oral",
             "isCorrect": false
           }
         ],
-        "explanation": "La alternativa correcta es la **A** (Control sano habitual). 1. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES). Las opciones alternativas (Derivar a especialista, Hospitalizar) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente."
+        "explanation": "Se sospecha intoxicación por paracetamol. Dado la hepatitis. Aún está en ventana para darle la N-acetil-cisteína."
       },
       {
         "type": "bento",

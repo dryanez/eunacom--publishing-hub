@@ -1,0 +1,453 @@
+{
+  "classId": "hem-02",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La ferritina normal es {{c1::30 a 200 ng/mL}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Ferritina",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Sin inflamación, ferritina < {{c1::30 ng/mL}} confirma ferropenia sin estudio de médula.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Ferritina",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con inflamación (PCR alta), ferritina < {{c1::100 ng/mL}} aún es ferropenia concomitante.",
+      "extra": "La ferritina sube por IL-6 como reactante de fase aguda positivo.",
+      "origen": "clase:2",
+      "fuente": "Clase · Ferritina",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La ferritina es un reactante de fase aguda {{c1::positivo}}; la transferrina es un reactante de fase aguda {{c2::negativo}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La transferrina normal es {{c1::200 a 360 mg/dL}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Transferrina",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En ferropenia pura, la transferrina y la TIBC están {{c1::elevadas}}: el hígado sale a buscar hierro.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Parámetros",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.002",
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La ferremia normal es {{c1::50 a 170 µg/dL}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Ferremia",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La ferremia nunca se usa sola porque baja tanto en {{c1::ferropenia}} como en inflamación.",
+      "extra": "Además tiene fluctuación circadiana.",
+      "origen": "clase:3",
+      "fuente": "Clase · Ferremia",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El IST se calcula como hierro sérico ÷ TIBC × {{c1::100}}; normal {{c2::20 a 50 %}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Saturación",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "IST < {{c1::15–20 %}} sugiere ferropenia; IST > 45–50 % sugiere sobrecarga de hierro.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Saturación",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ferropenia: ferritina {{c1::baja}}, transferrina {{c2::alta}}, IST muy bajo.",
+      "extra": "Se pregunta mucho: se cruzan ferritina y transferrina.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla patrones",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Enfermedad crónica: ferritina {{c1::elevada}}, transferrina {{c2::disminuida}}, IST bajo o normal (15–25 %).",
+      "extra": "El hierro queda secuestrado por hepcidina.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla patrones",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En anemia de enfermedad crónica el hierro queda atrapado por {{c1::hepcidina}} inducida por IL-6.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Diagrama",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hemocromatosis hereditaria: ferritina > {{c1::500–1.000 ng/mL}} e IST > {{c2::50–60 %}}.",
+      "extra": "Transferrina baja o normal; mutación del gen HFE.",
+      "origen": "clase:4",
+      "fuente": "Clase · Patrones especiales",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En hemocromatosis la transferrina es {{c1::baja o normal}} y la ferremia está muy alta.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla patrones",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el rasgo talasémico menor el perfil de hierro es {{c1::normal}}: ferritina, transferrina e IST normales.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Talasemia",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Microcitosis no es igual a ferropenia: en rasgo talasémico {{c1::dar hierro}} es mala práctica.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Talasemia",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Ferritina > {{c1::3.000 a 10.000 ng/mL}} orienta a enfermedad de Still del adulto o síndrome de activación macrofágica.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Ferritina extrema",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ferritina muy alta con fiebre y artritis orienta a {{c1::enfermedad de Still del adulto}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ferropenia con inflamación: ferritina < 100 ng/mL con PCR alta e IST < {{c1::15 %}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En ferropenia se da hierro oral {{c1::40 a 100 mg}} de hierro elemental al día (o en días alternos).",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.002",
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En tratamiento con hierro, los reticulocitos se controlan a los {{c1::5-7 días}}.",
+      "extra": "La Hb sube 1-2 g/dL cada 2-3 semanas.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Seguimiento",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.002",
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El hierro se mantiene {{c1::3 a 6 meses}} después de normalizada la hemoglobina, para reponer los depósitos.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Seguimiento",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.002",
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si la Hb no sube al menos {{c1::1 g/dL}} a las 4 semanas de hierro, revisa adherencia, pérdidas, malabsorción o diagnóstico erróneo.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Seguimiento",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.002",
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Tras confirmar ferropenia, el paso clave es {{c1::buscar y tratar la causa}} (pérdidas ginecológicas o digestivas, dieta, malabsorción, embarazo).",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Conducta",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.002",
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En anemia de enfermedades crónicas se trata la {{c1::enfermedad de base}}; no se da hierro.",
+      "extra": "Ejemplo: artritis reumatoide con ferritina 380 y transferrina baja.",
+      "origen": "clase:8",
+      "fuente": "Clase · Quiz caso",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Artritis reumatoide con ferremia baja y transferrina baja: {{c1::anemia por enfermedades crónicas}}.",
+      "extra": "En ferropenia la transferrina estaría alta.",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz Julio 2017",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 58"
+      ],
+      "codigos": [
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Bypass gástrico con anemia macrocítica, plaquetopenia y trastorno de marcha: déficit de {{c1::vitamina B12 (cianocobalamina)}}.",
+      "extra": "La ferritina normal descarta depósitos de hierro vacíos.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz Agosto 2021",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ferropenia en bypass gástrico (duodeno excluido): la vía oral es ineficaz, se da hierro {{c1::endovenoso}}.",
+      "extra": "El duodeno es el sitio principal de absorción.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Julio 2024",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 27"
+      ],
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anemia moderada tras hemorragia posparto: se suplementa con hierro {{c1::oral}}.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Banco · Julio 2024",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 166"
+      ],
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adulto mayor con anemia ferropénica grave y hematocrito 23 %: la respuesta de la pregunta fue {{c1::transfundir glóbulos rojos}}.",
+      "extra": "Pregunta discutible; igual hay que estudiar cáncer digestivo.",
+      "origen": "libro:sec:4",
+      "fuente": "Banco · Diciembre 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 18"
+      ],
+      "codigos": [
+        "1.08.1.002",
+        "1.08.1.001"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Ferritina < 30: ¿qué diagnóstico?",
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.2",
+      "pista": "Ferritina alta con PCR alta: ¿qué conducta?",
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.3.0",
+      "pista": "Ferritina normal/alta con IST > 50: ¿qué diagnóstico?",
+      "codigos": [
+        "1.08.1.002"
+      ]
+    }
+  ]
+}

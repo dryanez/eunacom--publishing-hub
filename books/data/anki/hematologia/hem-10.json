@@ -1,0 +1,465 @@
+{
+  "classId": "hem-10",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En las MAT hay microtrombos plaquetarios, plaquetopenia por consumo y {{c1::esquistocitos}} en el frotis.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · MAT",
+      "repaso": true,
+      "imagen": "biblioteca/06_hematologia/hem-10/02_esquistocitos__harrison_p468.jpg",
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La PTT se debe a ADAMTS13 < {{c1::10 %}} de actividad.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · PTT",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El déficit de ADAMTS13 es autoinmune (anticuerpos IgG) en el {{c1::95 %}} de los adultos.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · PTT",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "ADAMTS13 corta los multímeros gigantes del factor {{c1::von Willebrand}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · PTT",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En PTT y SHU el TP, TTPK y fibrinógeno son {{c1::normales}}: así se separan de la CID.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · MAT vs CID",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.067"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la CID el TP y TTPK están {{c1::prolongados}} y el fibrinógeno bajo.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · MAT vs CID",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La péntada de Moschcowitz incluye trombocitopenia, anemia microangiopática, {{c1::síntomas neurológicos fluctuantes}}, fiebre y compromiso renal.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · PTT",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Para tratar una PTT no se espera la péntada: basta {{c1::trombocitopenia + anemia con esquistocitos}} sin otra causa.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · PTT",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En PTT hay esquistocitos > {{c1::1–2 %}} y LDH > 1.000.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · PTT",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La PTT afecta a adultos, predominio de mujeres de {{c1::20–50 años}}, con órgano dominante el SNC.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El SHU típico afecta a niños de {{c1::1 a 5 años}} tras diarrea con sangre; órgano dominante, el riñón.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · SHU",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.067"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La toxina Shiga viene de E. coli {{c1::O157:H7}} o Shigella y daña el endotelio glomerular.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · SHU",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.067"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La tríada del SHU: anemia microangiopática, plaquetopenia y {{c1::falla renal oligoanúrica}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · SHU",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.067"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El SHU también puede asociarse a {{c1::Streptococcus pneumoniae}} (neumonía, oliguria, Coombs negativo).",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Diciembre 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 61"
+      ],
+      "codigos": [
+        "2.01.1.067"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento urgente de la PTT: {{c1::plasmaféresis}} diaria en UCI (recambio plasmático).",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si la plasmaféresis se retrasa, se da plasma fresco congelado {{c1::15 a 30 mL/kg/día}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Corticoides en PTT: metilprednisolona EV o prednisona {{c1::1 mg/kg/día}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En centros terciarios se usan además {{c1::caplacizumab y rituximab}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.012",
+        "2.01.1.067"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En PTT y SHU está contraindicado {{c1::transfundir plaquetas}}.",
+      "extra": "Echa leña al fuego: más trombosis microvascular.",
+      "origen": "clase:6",
+      "fuente": "Clase · Contraindicación",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.067"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La única excepción para transfundir plaquetas en MAT es la hemorragia {{c1::intracraneal}} activa.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Contraindicación",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Manejo del SHU: soporte hidroelectrolítico y {{c1::diálisis}} si hay oliguria.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · SHU",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.067"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En SHU la hidratación isotónica es precoz pero {{c1::medida}}: ni hipovolemia ni sobrecarga.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · SHU",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.067"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En diarrea por STEC se evitan {{c1::antibióticos, antidiarreicos y AINE}}.",
+      "extra": "Aumentan toxina y riesgo de SHU.",
+      "origen": "clase:7",
+      "fuente": "Clase · SHU",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.067"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En SHU grave se transfunden {{c1::glóbulos rojos}} lento; el coprocultivo o PCR para Shiga no retrasa la derivación.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · SHU",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.067"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cefalea, desorientación, ictericia, HTA, esquistocitos, creatinina 3,5 y plaquetas 50.000: {{c1::PTT}}.",
+      "extra": "Pregunta difícil.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Julio 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 131",
+        "EUNACOM Agosto 2021 · Pregunta 107"
+      ],
+      "codigos": [
+        "1.08.1.012",
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niña de 3 años con diarrea que se hace sanguinolenta, palidez, plaquetas 75.000 y creatinina 2,3: {{c1::SHU}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Julio 2016",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 122",
+        "EUNACOM Diciembre 2019 · Pregunta 17"
+      ],
+      "codigos": [
+        "2.01.1.067"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño sano con petequias tras infección viral y plaquetas 10.000, resto del hemograma normal: {{c1::PTI}}.",
+      "extra": "Se descarta SHU/PTT por falta de anemia hemolítica e IRA.",
+      "origen": "clase:6",
+      "fuente": "Banco · Julio 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 75"
+      ],
+      "codigos": [
+        "1.08.1.012",
+        "2.01.1.067"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Plaquetas que caen de 180.000 a 45.000 a los 5 días de heparina: {{c1::trombocitopenia inducida por heparina (HIT)}} tipo II.",
+      "extra": "Suspender heparina y cambiar a argatrobán.",
+      "origen": "libro:sec:3",
+      "fuente": "Banco · Julio 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 131"
+      ],
+      "codigos": [
+        "1.08.1.012",
+        "2.01.1.067"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adulto con PTI sin sangrado grave y plaquetas en 5.000: {{c1::corticoides 1 mg/kg}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Banco · Diciembre 2024",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 121",
+        "EUNACOM Diciembre 2025 · Pregunta 22"
+      ],
+      "codigos": [
+        "1.08.1.012",
+        "2.01.1.067"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-10/01_esquistocitos__cto-hemato_p10.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Esquistocitos: MAT",
+      "clave": "Glóbulos fragmentados en casco con plaquetopenia",
+      "conducta": "Coagulación; si normal, PTT: plasmaféresis; nunca plaquetas",
+      "fuente": "Manual CTO Hematología 14.ª ed., p. 10",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-10/01_petequias-purpura-en-eeii__amir-hemato_p89.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Petequias por plaquetopenia",
+      "clave": "Petequias y púrpura en piernas",
+      "conducta": "Hemograma y frotis; si esquistocitos, sospechar MAT",
+      "fuente": "Manual AMIR Hematología, p. 89",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Esquistocitos con TP y TTPK alterados: ¿qué diagnóstico?",
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Adulto con síntomas neurológicos y coagulación normal: ¿qué haces?",
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.2",
+      "pista": "MAT en ambos: ¿qué no debes transfundir?",
+      "codigos": [
+        "1.08.1.012"
+      ]
+    }
+  ]
+}

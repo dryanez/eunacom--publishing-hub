@@ -1,0 +1,779 @@
+[
+ {
+  "recTag": "EUNACOM Diciembre 2018 · Pregunta 111",
+  "year": 2018,
+  "codes": [
+   "1.03.1.013 [endo-22: Tumores hipofisiarios]"
+  ],
+  "stem": "Un paciente consulta por disminución del deseo sexual y de las erecciones. Además, presenta astenia y debilidad, que ha ido aumentando, desde hace algunos meses. También, refiere haber chocado con un mueble, por no haberlo visto, resultado con lesiones. Al examen físico se aprecia pálido, con disminución del vello corporal, tiene edema de extremidades inferiores y disminución de la visión en la zona temporal del campo visual. ¿Cuál es el examen de elección para iniciar el estudio de este paciente?",
+  "options": "A) Radiografía de silla turca | B) Prolactinemia | C) Resonancia magnética de silla turca | D) Fondo de ojo | E) TAC de cerebro",
+  "correcta": "C",
+  "explicacion": "Es un tumor hipofisiario clásico, con síntomas compresivos del quiasma e hipopituitarismo. Se estudia con RMN de silla turca.",
+  "conf": 0.82,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2025 · Pregunta 32",
+  "year": 2025,
+  "codes": [
+   "1.03.1.013 [endo-22: Tumores hipofisiarios]"
+  ],
+  "stem": "Un paciente de 30 años presenta astenia, malestar general y sudoración nocturna desde hace dos meses. Al examen físico registra frecuencia cardíaca: 89 lpm, presión arterial: 130/90 mmHg, se observa prognatismo y dedos de las manos gruesos. ¿Cuál de las siguientes hormonas estará elevada con mayor probabilidad?",
+  "options": "A) Tiroxina | B) Factor de crecimiento insulínico 2po 1 (IGF-1) | C) FSH | D) Tirotropina (TSH) | E) ACTH",
+  "correcta": "B",
+  "explicacion": "La sospecha es una acromegalia, que se produce por un tumor hipofisiario productor de GH (somatotrofina u hormona de crecimiento). Sin embargo, el examen de elección es el IGF-1 (insulin growth factor 1, también llamado somatomedina 1) .",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Enero 2023 · Pregunta 123",
+  "year": 2023,
+  "codes": [
+   "1.03.1.013 [endo-22: Tumores hipofisiarios]"
+  ],
+  "stem": "Paciente con astenia, disminución de la libido, disfunción eréctil progresiva y alteración visual en zonas temporales. ¿Cuál es el examen de elección?",
+  "options": "A) RNM de silla turca | B) Campo visual computarizado | C) TAC de cerebro con contraste | D) Testosterona total sérica y FSH/LH | E) Ecografía testicular bilateral",
+  "correcta": "A",
+  "explicacion": "La alternativa correcta es la **A** (RNM de silla turca). RNM de silla turca. Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh. Las opciones alternativas (Campo visual computarizado, TAC de cerebro con contraste) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente.",
+  "conf": 0.78,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 24",
+  "year": 2024,
+  "codes": [
+   "1.03.1.013 [endo-22: Tumores hipofisiarios]"
+  ],
+  "stem": "Una paciente de 32 años, consulta por un cuadro de 6 meses de amenorrea, asociado a secreción mamaria bilateral. No utiliza método anticonceptivo y es sexualmente activa. Además, ha presentado cefalea que ha aumentado en las últimas semanas, de predominio matinal. Al examen mamario se objetiva escasa galactorrea y al examen neurológico se constata presencia de una hemianopsia bitemporal. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Craneofaringioma | B) Macroadenoma hipofisiario | C) Glioma cerebral | D) Apoplejía hipofisiaria | E) Accidente vascular encefálico",
+  "correcta": "B",
+  "explicacion": "Macroadenoma hipofisario: La hemianopsia bitemporal sugiere una compresión del quiasma óptico, y el síndrome de amenorrea-galactorrea indica hiperprolactinemia. En conjunto, estos síntomas apuntan a un macroadenoma hipofisario como el diagnóstico más probable. Es importante diferenciarlo de la apoplejía hipofisaria, que se caracteriza por una cefalea intensa y aguda, acompañada de signos de compresión en la silla turca, como hemianopsia bitemporal y parálisis de los nervios oculomotores.",
+  "conf": 0.72,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 39",
+  "year": 2017,
+  "codes": [
+   "1.03.1.013 [endo-22: Tumores hipofisiarios]"
+  ],
+  "stem": "Un paciente presentó varios episodios de mareos y sudoraciones, objetivándose una hipoglicemia severa de 35 mg/dl en la más grave. Se realiza un test de ayuno y a las 9 horas",
+  "options": "A) Hepatoma | B) Hipoglicemia facticia por insulina | C) Hipoglicemia facticia por sulfonilúreas | D) Insulinoma | E) Hipoglicemia reactiva idiopática",
+  "correcta": "B",
+  "explicacion": "Tiene hipoglicemias de ayuno y no reactiva. La insulina alta es compatible con B, C y D, pero el péptido C suprimido no es compatible con insulinoma ni sulfonilúreas, por lo que obligatoriamente es por insulina exógena.",
+  "conf": 0.12,
+  "alertas": [
+   "enunciado_cortado_o_raro",
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 109",
+  "year": 2015,
+  "codes": [
+   "1.03.1.014 [endo-23: Hipopituitarismo]"
+  ],
+  "stem": "Una paciente de 28 años, se realiza una histerectomía postparto, por una inercia uterina. Usted la atiende 6 meses después, sin lactancia y permaneciendo en amenorrea. Presenta un cuadro de astenia, adinamia y malestar general, asociada a debilidad. Tiene piel seca, con cabello quebradizo, palidez y su presión arterial es de 90/60 mmHg. El diagnóstico más probable es:",
+  "options": "A) Tiroiditis postparto | B) Panhipopituitarismo | C) Depresión postparto | D) Insuficiencia ovárica | E) Hipotiroidismo",
+  "correcta": "B",
+  "explicacion": "Diagnóstico: **Panhipopituitarismo** (opción **B**). Es un síndrome de Sheehan clásico, que cursa con hipopituitarismo.. El hipopituitarismo se define como la hipoproducción de hormonas hipofisiarias. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2022 · Pregunta 48",
+  "year": 2022,
+  "codes": [
+   "1.03.1.014 [endo-23: Hipopituitarismo]"
+  ],
+  "stem": "Un hombre de 49 años presenta un cuadro de algunos meses de evolución de astenia, disminución de la libido y de potencia sexual, además de náuseas, mialgias y malestar general. Refiere, con cierta preocupación, que ha chocado con algunos muebles, por no haberlos visto, mientras caminaba en su casa. Al examen físico, tiene FC: 65x’, PA: 108/66 mmHgm, T°: 35,8°C, presenta piel seca y fría, disminución del vello corporal, examen cardiopulmonar normal y abdomen sin alteraciones. En el examen neurológico destaca afectación temporal del campo visual. ¿Cuál es el examen de elección para evaluar a este paciente?",
+  "options": "A) Niveles plasmáticos de hormona tiroestimulante | B) Radiografía de silla turca | C) Tomografía axial computarizada de suprarrenales | D) Niveles de testosterona y prolactina | E) Resonancia magnética nuclear de silla turca",
+  "correcta": "A",
+  "explicacion": "La alternativa correcta es la **A** (Niveles plasmáticos de hormona tiroestimulante). El hipopituitarismo se define como la hipoproducción de hormonas hipofisiarias. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Enero 2023 · Pregunta 124",
+  "year": 2023,
+  "codes": [
+   "1.03.1.015 [nefro-07: Diabetes insípida]"
+  ],
+  "stem": "Niño operado de cirugía cerebral, luego presenta hipernatremia y poliuria. ¿Diagnóstico más probable?",
+  "options": "A) Síndrome de secreción inadecuada de ADH (SIADH) | B) Diabetes mellitus tipo 1 | C) Hiperaldosteronismo secundario | D) Diabetes insípida central | E) Polidipsia psicogénica",
+  "correcta": "D",
+  "explicacion": "Diagnóstico: **Diabetes insípida central** (opción **D**). Diabetes insípida central. El SIADH se produce por exceso de hormona antidiurética, que retiene agua y causa hiponatremia. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.65,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 80",
+  "year": 2024,
+  "codes": [
+   "1.03.1.015 [nefro-07: Diabetes insípida]"
+  ],
+  "stem": "Hombre con poliuria, polidipsia y nicturia. Toma 8 lts de agua al dia. En los exámenes destaca hiponatremia, como inicia el estudi n o?:",
+  "options": "A) Ecografía renal | B) Electrolitos urinarios (no puede ser esta? Dice estudio inicial, se necesita la osm urinaria y luego deprivar y comparar o no??? -> Pero estudio de deprivación incluye la medición de OsmU y NaU pre y post deprivación), es esta, salía en ensayos anteriores | C) TAC de no se q | D) Test de deprivación de agua (esto es para hipernatremia sg yo) | E) Derivar a psiquiatría f.​ PTGO",
+  "correcta": "B",
+  "explicacion": "La alternativa correcta es la **B** (Electrolitos urinarios (no puede ser esta? Dice estudio inicial, se necesita la osm urinaria y luego deprivar y comparar o no??? -> Pero estudio de deprivación incluye la medición de OsmU y NaU pre y post deprivación), es esta, salía en ensayos anteriores). El SIADH se produce por exceso de hormona antidiurética, que retiene agua y causa hiponatremia. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.6,
+  "alertas": [
+   "alternativas_mezcladas"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 105",
+  "year": 2013,
+  "codes": [
+   "1.03.1.015 [nefro-07: Diabetes insípida]"
+  ],
+  "stem": "Una paciente de 16 años de edad, con cuadro caracterizado por polidipsia y poliuria desde hace aproximadamente 3 semanas, no asociado a otros síntomas. Se realizan exámenes donde destaca osmolaridad plasmática disminuida, por lo que se solicita test de la sed que muestra normalización de diuresis y osmolaridad plasmática. El diagnóstico más probable es:",
+  "options": "A) Polidipsia psicógena | B) Diabetes insípida nefrogénica | C) Diabetes insípida central | D) Hipercalcemia | E) Diabetes mellitus tipo 1",
+  "correcta": "A",
+  "explicacion": "Diagnóstico: **Polidipsia psicógena** (opción **A**). Sd. polidípsico-poliúrico, pero se normaliza con el test de la sed.. El SIADH se produce por exceso de hormona antidiurética, que retiene agua y causa hiponatremia. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.45,
+  "alertas": [
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 111",
+  "year": 2015,
+  "codes": [
+   "1.03.1.016 [gin-01: Hiperprolactinemia]"
+  ],
+  "stem": "Una paciente de 38 años, usuaria de anticonceptivos combinados orales, desde hace 4 meses, consulta por galactorrea de algunas semanas de evolución, sin otros síntomas. Las mamas se palpan sin nódulos y se objetiva la galactorrea al comprimir las mamas. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Solicitar niveles de progesterona | B) Solicitar niveles de prolactina | C) Cambiar los anticonceptivos a progestágenos solos | D) Solicitar TAC de cerebro | E) Solicitar niveles plasmáticos de estradiol, LH y FSH",
+  "correcta": "B",
+  "explicacion": "Conducta / Tratamiento indicado: **Solicitar niveles de prolactina** (opción **B**). Tiene una hiperprolactinemia. No tiene la amenorrea clásica, porque usa anticonceptivos.. Según los consensos y guías clínicas del MINSAL, esta constituye la conducta estándar de primera línea recomendada para este nivel de atención.",
+  "conf": 0.82,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 79",
+  "year": 2013,
+  "codes": [
+   "1.03.1.016 [gin-01: Hiperprolactinemia]"
+  ],
+  "stem": "Una paciente de 26 años, sin antecedentes mórbidos, consulta por historia de tres meses de amenorrea asociada a galactorrea, sin otros síntomas, con prueba de detección de bHCG en orina negativa en dos oportunidades. Su examen físico resulta normal, su índice de masa corporal es de 20. El examen de elección para iniciar el estudio en este caso es:",
+  "options": "A) Hormona estimulante tiroidea | B) Prueba de progesterona | C) Ecografía transvaginal | D) Prolactina | E) Prueba de estrógeno más progesterona",
+  "correcta": "D",
+  "explicacion": "La alternativa correcta es la **D** (Prolactina). Síndrome amenorrea galactorrea, sin embarazo, es hiperprolactinemia.. 1. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2022 · Pregunta 72",
+  "year": 2022,
+  "codes": [
+   "1.03.1.016 [gin-01: Hiperprolactinemia]"
+  ],
+  "stem": "Una paciente de 35 años, usuaria de T de cobre desde hace 5 años, consulta porque, desde hace 8 meses está en amenorrea. Al examen físico tiene galactorrea bilateral a la compresión del pezón, sin otras alteraciones en el examen ginecobstétrico ni en el examen físico general. ¿Cuál es el examen de elección para iniciar el estudio?",
+  "options": "A) Niveles plasmáticos de HCG | B) Resonancia magnética de silla turca | C) Niveles plasmáticos de estradiol, progesterona, LH, FSH y TSH | D) Ecografía transvaginal | E) Prolactinemia",
+  "correcta": "C",
+  "explicacion": "La alternativa correcta es la **C** (Niveles plasmáticos de estradiol, progesterona, LH, FSH y TSH). 1. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES). Las opciones alternativas (Niveles plasmáticos de HCG, Resonancia magnética de silla turca) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 131",
+  "year": 2024,
+  "codes": [
+   "1.03.1.016 [gin-01: Hiperprolactinemia]"
+  ],
+  "stem": "Una paciente de 25 años, sin antecedentes de importancia, consulta por mastalgia bilateral de 5 días de evolución. Al examen físico, se observa galactorrea bilateral al comprimir los pezones. Su FUR fue hace 12 días y no toma medicamentos. ¿Cuál es el examen más adecuado para iniciar el estudio?",
+  "options": "A) Subunidad beta de gonadotropina coriónica humana en plasma | B) Prolactinemia | C) Resonancia magnética de silla turca | D) Ecotomografía mamaria | E) Mamografía",
+  "correcta": "A",
+  "explicacion": "Galactorrea y Amenorrea: Ante una paciente con galactorrea y amenorrea, lo primero es descartar embarazo. Luego, se busca hiperprolactinemia, cuya causa principal son los medicamentos (no en este caso, en que no utiliza medicamentos) y, luego, los adenomas hipofisarios. La última regla fue hace 12 días, lo que reduce la probabilidad de embarazo. Sin embargo, es fundamental descartarlo con una prueba de gonadotropina coriónica humana en plasma.",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 77",
+  "year": 2019,
+  "codes": [
+   "1.03.1.016 [gin-01: Hiperprolactinemia]"
+  ],
+  "stem": "Una paciente de 26 años consulta por dolor mamario bilateral, de 3 semanas de evolución. Su FUR fue hace 12 días. Al examen físico tiene galactorrea bilateral, sin nódulos. ¿Cuál es el examen más adecuado para proseguir el estudio en esta paciente?",
+  "options": "A) Resonancia magnética de mama | B) Ecografía mamaria | C) Prolactinemia | D) Niveles de gonadotropina coriónica | E) Resonancia magnética de silla turca",
+  "correcta": "D",
+  "explicacion": "[Pregunta disputada] Pregunta muy discutible, ya que hay dos respuestas potencialmente correctas: la C y la D. La galactorrea se estudia 1. descartando embarazo y 2. luego prolactinemia. Dado que su FUR fue hace 8 días da a entender que no está embarazada y, por tanto, la respuesta debería ser prolactinemia. Sin embargo, también están las máximas descarte siempre embarazo primero y no le crea a la FUR. Finalmente, el dolor mamario con congestión sugiere algo más embarazo que un prolactinoma. En fin, así es el Eunacom. Si bien en la clase les dije que marcaran la C, hoy amanecí marcando la D; la volvimos a discutir con varios ginecólogos y las opiniones estuvieron divididas, aunque tendió a ganar descartar el embarazo. Si encuentran esta pregunta, sigan su corazón, marquen la que más los convenza a ustedes y sigan.",
+  "conf": 0.55,
+  "alertas": [
+   "explicacion_admite_duda"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 114",
+  "year": 2015,
+  "codes": [
+   "1.03.1.018 [reuma-24: Osteoporosis]"
+  ],
+  "stem": "Una paciente de 65 años, en tratamiento con calcio 2 gramos al día y vitamina D, 600 UI al día, se realiza una densitometría ósea que muestra un T score de -2,7 en la cadera derecha y de -2,8 en la columna lumbar. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Indicar ejercicio aeróbico | B) Indicar reposo relativo | C) Aumentar dosis de vitamina D y calcio | D) Agregar bifosfonatos al tratamiento | E) Mantener el tratamiento",
+  "correcta": "D",
+  "explicacion": "Tiene osteoporosis (T score menor o igual a -2,5). Se deben iniciar los bifosfonatos. Se mantiene el calcio y la vit D",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 175",
+  "year": 2019,
+  "codes": [
+   "1.03.1.020 [endo-17: Hipercalcemias e hipocalcemias]"
+  ],
+  "stem": "Un paciente de 32 años, con antecedente de litiasis renal a repetición se realiza exámenes, que muestran calcio plasmático: 9,8 mg/dl, albúmina: 3,0 g/dl, creatinina plasmática: 0,7 mg/dl, PTH: 90 UI/L (VN: 10 a 55 pg/ml) y calciuria de 200 mg/día (VN: 50 a 150 mg/día) . El diagnóstico más probable es:",
+  "options": "A) Hiperparatiroidismo primario | B) Hiperparatiroidismo secundario | C) Hiperparatiroidismo terciario | D) Hipercalciuria primaria | E) Hipercalciuria familiar",
+  "correcta": "A",
+  "explicacion": "Tiene hipercalcemia, con elevación de la PTH, así que se confirma el diagnóstico de un hiperparatiroidismo primario. El secundario tiene la calcemia baja o normal y suele ser por IRC. El terciario es igual al primario, pero en un paciente con IRC, que tenía uno secundario y luego empezó a tener hipercalcemia, en lugar de la hipocalcemia del secundario. La hipercalcemia maligna tiene PTH baja. La hipercalciuria primaria sí tiene litiasis, pero la PTH y la calcemia son normales. El hiperparatiroidismo primario tiene hipercalciuria secundaria y, por ello, se produce la litiasis también.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 32",
+  "year": 2017,
+  "codes": [
+   "1.03.1.020 [endo-17: Hipercalcemias e hipocalcemias]"
+  ],
+  "stem": "En el estudio de una osteoporosis de una paciente, se pesquisa tiene calcemia de 11 mg/dl, niveles de paratohormona de 155 UI/L (VN: 15 a 55), niveles de vitamina D: (VN: ) y albúmina de 3,8 g/dl. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Hipercalcemia idiopática | B) Hiperparatiroidismo primario | C) Hiperparatiroidismo secundario | D) Hiperparatiroidismo terciario | E) Hipercalcemia familiar",
+  "correcta": "B",
+  "explicacion": "Diagnóstico: **Hiperparatiroidismo primario** (opción **B**). Calcio alto y PTH alta son característicos del HPP.. Clase sobre el tratamiento de la hipercalcemia e hipocalcemia. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2025 · Pregunta 8",
+  "year": 2025,
+  "codes": [
+   "1.03.1.020 [endo-17: Hipercalcemias e hipocalcemias]"
+  ],
+  "stem": "Mujer de 58 años con calcio sérico de 11.8 mg/dL detectado en examen de rutina. Asintomática. Sin uso de suplementos de calcio ni vitamina D. ¿Cuál es el estudio inicial de elección para determinar la causa de la hipercalcemia?",
+  "options": "A) PTH sérica | B) Fósforo sérico | C) Calcitonina | D) Calcio en orina de 24h | E) Vitamina D (25-OH)",
+  "correcta": "A",
+  "explicacion": "PTH es el primer examen a solicitar en hipercalcemia: PTH elevada = hiperparatiroidismo primario (causa más frecuente en ambulatorio). PTH suprimida = hipercalcemia de malignidad, intoxicación vitamina D u otras causas. Orienta todo el estudio.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2025 · Pregunta 167",
+  "year": 2025,
+  "codes": [
+   "1.03.1.020 [endo-17: Hipercalcemias e hipocalcemias]"
+  ],
+  "stem": "Hombre de 55 años asintomático con calcio sérico 11.2 mg/dL, fósforo 2.1 mg/dL (bajo) y PTH 145 pg/mL (elevada). Sin otros hallazgos. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Hiperparatiroidismo primario | B) Hipercalcemia hipocalciúrica familiar | C) Hipercalcemia de malignidad | D) Intoxicación por vitamina D | E) Sarcoidosis",
+  "correcta": "A",
+  "explicacion": "Hipercalcemia + hipofosforemia + PTH inapropiadamente elevada en paciente asintomático = hiperparatiroidismo primario. Es la causa más frecuente de hipercalcemia en pacientes ambulatorios. PTH suprimida en malignidad.",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 78",
+  "year": 2017,
+  "codes": [
+   "1.03.1.020 [endo-17: Hipercalcemias e hipocalcemias]"
+  ],
+  "stem": "Paciente de 63 años, con antecedente de hipernefroma operado hace un año, con buena evolución, consulta por cuadro de astenia y debilidad de 7 días, controlándose exámenes de sangre entre los que destaca calcemia de 11,8 mg/dL (valor normal 8,5- 10,5 mg/dL), albúmina normal. ¿Cuál es el examen de elección para continuar el estudio de este paciente?",
+  "options": "A) Cintigrafía ósea | B) Niveles plasmáticos de calcio y paratohormona | C) TAC de abdomen y pelvis | D) Niveles plasmáticos de vitamina D | E) Resonancia magnética de abdomen y pelvis",
+  "correcta": "B",
+  "explicacion": "Es una hipercalcemia, con la posibilidad de ser secundaria al cáncer. Igualmente se estudia con PTH, ya que si está elevada es un hiperparatiroidismo primario y si está baja, es probablemente un cáncer.",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 121",
+  "year": 2021,
+  "codes": [
+   "1.03.1.020 [endo-17: Hipercalcemias e hipocalcemias]"
+  ],
+  "stem": "Un paciente de 67 años consulta por dolores óseos en múltiples zonas. Se realiza exámenes, entre los que destaca calcemia corregida de 14,4 mg/dl, con pruebas de función renal normales. Además, se solicitan radiografías que muestran imágenes sugerentes de metástasis óseas. ¿Cuál es la conducta más adecuada para proseguir el estudio?",
+  "options": "A) Calciuria de 24 horas | B) Niveles plasmáticos de 25-OH vitamina D | C) Niveles plasmáticos de paratohormona | D) Cintigrafía ósea | E) Niveles plasmáticos de calcio iónico",
+  "correcta": "C",
+  "explicacion": "Aunque tenga imágenes de metástasis, también pueden ser causadas por un hiperparatiroidismo primario (HPP). Por eso es que la hipercalcemia se estudia siempre con PTH: si está elevada es un HPP y si está baja es cáncer. La cintigrafía ósea es una forma de buscar metástasis que no se han visto (en este caso ya las vio la radiografía) y se pide, por ejemplo, en la etapificación del cáncer de próstata con APE mayor a 20; sin embargo, es inespecífica, porque también se altera con otros procesos de hiperactividad ósea (osteoclástica), como el HPP.",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 33",
+  "year": 2017,
+  "codes": [
+   "1.03.1.020 [endo-17: Hipercalcemias e hipocalcemias]"
+  ],
+  "stem": "Una paciente presenta su sexta litiasis urológica, por lo que se realizan exámenes, entre los que destacan creatinina: 1,2 mg/dl, BUN: 30 mg/dl, calcio: 11 mg/dl, fósforo: 2,3 mg/dl, natremia normal, potasemia normal. ¿Cuál es el examen más adecuado para proseguir el estudio diagnóstico?",
+  "options": "A) Paratohormona | B) LH y FSH | C) 25 OH vitamina D | D) Biopsia de médula ósea | E) Índice proteinuria / creatininuria",
+  "correcta": "A",
+  "explicacion": "Diagnóstico: **Paratohormona** (opción **A**). La hipercalcemia se estudia con PTH. Además, la hipofosfemia orienta a un HPP.. Clase sobre el tratamiento de la hipercalcemia e hipocalcemia. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 89",
+  "year": 2019,
+  "codes": [
+   "1.03.1.020 [endo-17: Hipercalcemias e hipocalcemias]"
+  ],
+  "stem": "Un paciente de 35 años ha presentado 6 episodios, en el último año, de litiasis renal por cálculos cálcicos. ¿Qué alteración endocrinológica puede ser causante de esto?",
+  "options": "A) Hipercortisolismo | B) Hipocortisolismo | C) Hiperprolactinemia | D) Hiperparatiroidismo | E) Hipoparatiroidismo",
+  "correcta": "D",
+  "explicacion": "El hiperparatiroidismo produce salida de calcio desde los huesos, lo que aumenta la calcemia y también la calciuria, produciendo litiasis urológica.",
+  "conf": 0.65,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 177",
+  "year": 2013,
+  "codes": [
+   "1.03.1.020 [endo-17: Hipercalcemias e hipocalcemias]"
+  ],
+  "stem": "Un paciente de 50 años, sin antecedentes, acude a realizarse un chequeo, asintomático. Su examen físico es normal. Trae exámenes que se habría tomado la semana pasada donde destaca hemoglobina 14 mg/dL, leucocitos 7.000/mm3, plaquetas 230.000/mm3, creatinina 0.8 mg/dL, calcio 11, albúmina 4, electrocardiograma normal. La conducta más adecuada en este caso es:",
+  "options": "A) Mantener control ambulatorio anual | B) Solicitar cintigrafía ósea | C) Solicitar radiografía de huesos largos y huesos parietales | D) Solicitar niveles de paratohormona | E) Solicitar electroforesis de proteínas",
+  "correcta": "D",
+  "explicacion": "Conducta / Tratamiento indicado: **Solicitar niveles de paratohormona** (opción **D**). Tiene el Calcio elevado (N menor a 10,5). Corregido por albúmina queda igual. Se debe pedir PTH.. Hiperparatiroidismo primario: tratamiento quirúrgico (tumorectomía o paratiroidectomía con implante) De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 172",
+  "year": 2024,
+  "codes": [
+   "1.03.1.020 [endo-17: Hipercalcemias e hipocalcemias]"
+  ],
+  "stem": "¿Cual es el estudio de Hipercalcemia ? a.​ Calcemia y PTH 173.​ Había un AM con alteraciones de memoria creo, con VCM > 100: B12 (ALGUIEN RECUERDA ALGO DE ESTO)",
+  "options": "A) Hemograma y VHS | B) Ecografía | C) Radiografía | D) TAC con contraste | E) Resonancia magnética",
+  "correcta": "A",
+  "explicacion": "La alternativa correcta es la **A** (Hemograma y VHS). Clase sobre el tratamiento de la hipercalcemia e hipocalcemia. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES). Las opciones alternativas (Ecografía, Radiografía) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 167",
+  "year": 2019,
+  "codes": [
+   "1.03.1.021 [endo-09: Nódulo tiroídeo]"
+  ],
+  "stem": "Un paciente de 30 años, presenta un nódulo tiroideo, que en el examen físico se palpa de consistencia elástica, indoloro, sin adenopatías cervicales. Se solicita TSH: 0,2 UI/L (VN: 0,3 a 5,0 UI/L), con T4 y T3 normales. Se solicita ecografía cervical, que muestra un nódulo tiroideo sólido, redondo, de aspecto homogéneo, sin microcalcificaciones, de 3 cm de diámetro. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Realizar cintigrafía tiroidea | B) Realizar punción con aguja fina | C) Controlar con pruebas tiroideas en 6 meses | D) Solicitar niveles de tiroglobulina | E) Realizar cirugía",
+  "correcta": "A",
+  "explicacion": "Pregunta difícil, ya que el manejo general del nódulo tiroideo es 1. solicitar TSH (y T4 libre), 2. solicitar ecografía tiroidea (puede ser simultáneamente con la TSH), 3. si tiene más de 10 mm, solicitar PAAF. Sin embargo, la excepción es cuando está hipertiroideo, en que se debe pedir una cintigrafía tiroidea: como en este caso que la TSH está baja y, por tanto, tiene un hipertiroidismo subclínico (con T4 normal). Si es un nódulo caliente (hipercaptante), se diagnostica el adenoma tóxico y se debe extirpar. Si es frío (capta igual o menos que el resto de la tiroides), se procede a la punción.",
+  "conf": 0.93,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 51",
+  "year": 2019,
+  "codes": [
+   "1.03.1.021 [endo-09: Nódulo tiroídeo]"
+  ],
+  "stem": "Un paciente de 30 años presenta un cuadro de astenia y piel seca. Al examen se detecta un nódulo tiroideo, que se palpa de 15 mm de diámetro, en relación al lóbulo derecho. Se solicita TSH y T4 libre, que resultan normales. ¿Cuál es el examen de elección para continuar el estudio de esta paciente?",
+  "options": "A) Ecografía cervical | B) Biopsia citológica por punción con aguja fina | C) Biopsia excisional | D) Cintigrafía tiroidea | E) Captación de yodo radiactivo",
+  "correcta": "A",
+  "explicacion": "El estudio de un nódulo tiroideo con TSH normal comienza con la ecografía cervical, que describe tamaño, características sospechosas y guía la punción con aguja fina. La captación de yodo radiactivo y la cintigrafía solo se usan si la TSH está suprimida, y la biopsia excisional no es un examen inicial.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 38",
+  "year": 2017,
+  "codes": [
+   "1.03.1.021 [endo-09: Nódulo tiroídeo]"
+  ],
+  "stem": "Un paciente se realiza una ecografía de cuello, como parte del estudio de un nódulo cervical, que visualiza un tumor sólido y redondeado, localizado en el istmo, de 4 mm de diámetro, sin presencia de adenopatías. Sus pruebas tiroideas muestram TSH y T4 libre dentro de rangos normales. ¿Cuál es la conducta más adecuada?.",
+  "options": "A) Iniciar tratamiento levotiroxina | B) Iniciar levotiroxina en dosis de supresión | C) Realizar punción con aguja fina | D) Solicitar cintigrafía con yodo radiactivo | E) Realizar seguimiento ecográfico",
+  "correcta": "E",
+  "explicacion": "Conducta / Tratamiento indicado: **Realizar seguimiento ecográfico** (opción **E**). Al ser un nódulo tan pequeño, no está indicada la punción (mayor a 10 mm se puncionan).. Estudio del nódulo tiroideo: TSH + ecografía. Si TSH suprimida → cintigrafía. De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Enero 2023 · Pregunta 154",
+  "year": 2023,
+  "codes": [
+   "1.03.1.021 [endo-09: Nódulo tiroídeo]"
+  ],
+  "stem": "Paciente con antecedente de AVE isquémico; en ecografía Doppler carotídeo se ve nódulo tiroideo de 10 mm, quístico, bordes regulares, sin vascularización. ¿Cuál es la conducta?",
+  "options": "A) PAAF del nódulo | B) Cintigrafía tiroidea | C) Derivar a cirugía de cuello | D) Controlar con ecografía en un año | E) TSH y T4 libre",
+  "correcta": "D",
+  "explicacion": "Conducta / Tratamiento indicado: **Controlar con ecografía en un año** (opción **D**). Controlar con ecografía en un año. Estudio del nódulo tiroideo: TSH + ecografía. Si TSH suprimida → cintigrafía. De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.88,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 16",
+  "year": 2021,
+  "codes": [
+   "1.03.1.021 [endo-09: Nódulo tiroídeo]"
+  ],
+  "stem": "Un paciente de 32 años, con antecedente de familiar con cáncer de tiroides, acude a la consulta. Trae una ecografía cervical, que muestra un nódulo tiroideo de 7 mm de diámetro de aspecto quístico, sin calcificaciones, con presencia de adenopatías inespecíficas pequeñas. Su TSH y T4 libre son normales. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Realizar punción aspiración con aguja fina | B) Solicitar cintigrafía tiroidea | C) Solicitar captación de yodo radiactivo | D) Solicitar nueva ecografía en 6 meses | E) Realizar tiroidectomía",
+  "correcta": "D",
+  "explicacion": "Los nódulos menores a 10 mm, en especial si son quísticos, se observan, debido a que con altísima probabilidad son un quiste coloideo. Se controla ecográficamente en 6 meses.",
+  "conf": 0.85,
+  "alertas": [
+   "explicacion_de_otro_tema"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 17",
+  "year": 2021,
+  "codes": [
+   "1.03.1.021 [endo-09: Nódulo tiroídeo]"
+  ],
+  "stem": "Un paciente de 30 años presenta un cuadro de astenia y piel seca. Al examen se detecta un nódulo tiroideo, que se palpa de 15 mm de diámetro, en relación al lóbulo derecho. Se solicita TSH, que resulta: 3,5 UI/L y T4 libre de 1,2 ng/dl. ¿Cuál es el examen de elección para continuar el estudio de esta paciente?",
+  "options": "A) Ecografía cervical | B) Biopsia citológica por punción con aguja fina | C) Resonancia magnética nuclear de cuello | D) Cintigrafía tiroidea | E) TAC de cuello",
+  "correcta": "A",
+  "explicacion": "Tiene un nódulo tiroideo eutiroideo (TSH normal: 0,4 a 4,0; T4 libre normal: 0,7 a 1,9). Por tanto, se debe seguir su estudio con ecografía y luego la PAAF. Si hubiese estado hipertiroideo, se debería realizar la cintigrafía.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 23",
+  "year": 2019,
+  "codes": [
+   "1.03.1.021 [endo-09: Nódulo tiroídeo]"
+  ],
+  "stem": "Un paciente de 32 años, con antecedente de madre con cáncer de tiroides, por lo que se realiza una ecografía cervical, que muestra un nódulo tiroideo de 7 mm de diámetro y aspecto quístico. Su TSH y T4 libre son normales. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Realizar punción aspiración con aguja fina | B) Solicitar cintigrafía tiroidea | C) Solicitar captación de yodo radiactivo | D) Solicitar nueva ecografía en 6 meses | E) Realizar tiroidectomía",
+  "correcta": "D",
+  "explicacion": "Todo nódulo tiroideo se estudia con Ecografía y TSH + T4L. Si tiene más de 10 mm, se punciona con PAAF. Si tiene menos de 10 mm, se sigue (este caso). Si tiene TSH baja (hipertiroidismo) se estudia con cintigrafía toroidea.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2022 · Pregunta 101",
+  "year": 2022,
+  "codes": [
+   "1.03.1.021 [endo-09: Nódulo tiroídeo]"
+  ],
+  "stem": "Un hombre de 59 años, fumador, presenta un accidente vascular encefálico, que se maneja rápidamente, por lo que se recupera sin dejar secuelas. Posteriormente, se realiza ecografía Doppler carotidea como estudio de fuente embólica, que no muestra alteraciones arteriales, pero sí identifica la presencia de un nódulo tiroideo de 1 cm de diámetro, de aspecto quístico, bien delimitado y capsulado. Se solicitan pruebas tiroideas que muestran TSH: 2,1 microU/ml (VN: 0,5 a 5,0) y T4 libre que resulta 1,2 ng/dl (VN: 0,9 a 2,2). ¿Cuál es la conducta más adecuada respecto del nódulo tiroideo?",
+  "options": "A) Realizar punción con aguja fina | B) Controlar en 6 meses con nueva ecografía | C) Solicitar cintigrafía con yodo radiactivo | D) Iniciar levotiroxina | E) Realizar biopsia excisional quirúrgica",
+  "correcta": "A",
+  "explicacion": "Conducta / Tratamiento indicado: **Realizar punción con aguja fina** (opción **A**). Estudio del nódulo tiroideo: TSH + ecografía. Si TSH suprimida → cintigrafía. De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 65",
+  "year": 2024,
+  "codes": [
+   "1.03.1.021 [endo-09: Nódulo tiroídeo]"
+  ],
+  "stem": "Un paciente de 50 años consulta porque notó aumento de volumen en la zona anterior de su cuello. Al examen físico se palpa un nódulo de 2 cm de diámetro y consistencia dura. Se solicitan exámenes, entre los que destaca una TSH: 6,2 UI/L. ¿Cuál es el examen más adecuado para proseguir con el estudio?",
+  "options": "A) T4 libre | B) Ecografía cervical | C) Cintigrafía tiroidea | D) Estudio citológico por punción | E) Anticuerpos antitiroideos",
+  "correcta": "B",
+  "explicacion": "Estudio del nódulo tiroideo: El algoritmo para el estudio de un nódulo tiroideo comienza con la medición de la hormona estimulante de la tiroides (TSH). Si la TSH está suprimida, lo que indica hipertiroidismo, el siguiente paso es realizar una gammagrafía tiroidea para determinar si el nódulo es la causa del hipertiroidismo. Un nódulo caliente en la gammagrafía confirma el diagnóstico de adenoma tóxico. Si la TSH es normal o elevada, como en este caso, se debe realizar una ecografía cervical para evaluar las características anatómicas del nódulo. La ecografía permite clasificar el nódulo según el sistema TI-RADS. Un TI-RADS 1 indica un nódulo normal, un TI-RADS 2 indica un nódulo benigno, un TI-RADS 3 o 4 indica un nódulo sospechoso (con mayor grado de sospecha en el TI-RADS 4) y un TI-RADS 5 indica un nódulo altamente sospechoso de malignidad. Los nódulos sospechosos (TI-RADS 3 o 4) mayores a 10 mm se estudian mediante punción aspiración con aguja fina (PAAF), que es lo mismo que biopsia citológica. Los nódulos altamente sospechosos de malignidad (TI-RADS 5) se deben biopsiar independientemente de su tamaño, aunque la biopsia puede ser difícil de realizar en nódulos menores a 5 mm. Los TI-RADS 2 se observan, independientemente del tamaño.",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 22",
+  "year": 2019,
+  "codes": [
+   "1.03.1.021 [endo-09: Nódulo tiroídeo]"
+  ],
+  "stem": "Un paciente de 28 años, fumador, consulta por aumento de volumen cervical. Al examen físico se palpa nódulo paratraqueal derecho, de 3 cm de diámetro y consistencia aumentada, que asciende con la deglución. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Quiste tirogloso | B) Quiste branquial | C) Cáncer de laringe | D) Adenopatía metastásica | E) Nódulo tiroideo",
+  "correcta": "E",
+  "explicacion": "Ascienden con la deglución solo la el QTG y el nódulo tiroideo. Pero el QTG está en la línea media y no en el lado derecho, como este caso.",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 92",
+  "year": 2013,
+  "codes": [
+   "1.03.1.021 [endo-09: Nódulo tiroídeo]"
+  ],
+  "stem": "Mujer de 37 años, sin antecedentes, consulta por aparición de aumento de volumen cervical anterior, no asociado a otros síntomas. Al examen físico destaca nódulo a nivel tiroídeo de consistencia aumentada, que asciende a la deglución. Como parte del estudio se realiza TSH que resulta normal. La conducta inicial más adecuada en este caso es:",
+  "options": "A) Solicitar punción con aguja fina | B) Solicitar Cintigrafía con I131 | C) Solicitar ecografía cervical | D) Solicitar anticuerpos anti tiroperoxidasa | E) Solicitar niveles de T3 y T4L",
+  "correcta": "C",
+  "explicacion": "Eco y PAAF son respuestas correctas. Como no dice el tamaño, primero la ecografía, para ver el aspecto y descartar adenopatías. Así lo dice la guía minsal.",
+  "conf": 0.72,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 25",
+  "year": 2016,
+  "codes": [
+   "1.03.1.021 [endo-09: Nódulo tiroídeo]"
+  ],
+  "stem": "Una paciente de 25 años presenta un nódulo tiroideo de 2 cm de diámetro, a la palpación. Se solicita TSH t T4 libre, que resultan normales. ¿Cuál es el examen de elección para continuar el estudio de esta paciente?",
+  "options": "A) Ecografía cervical | B) Punción aspiración con aguja fina | C) Anticuerpos antiroideos | D) Cintigrafía con yodo radiactivo | E) TAC cervical",
+  "correcta": "A",
+  "explicacion": "Ante un nódulo tiroideo, lo primero es pedir TSH, luego la ecografía y luego la punción con aguja fina (si es mayor a 10 mm).",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 34",
+  "year": 2017,
+  "codes": [
+   "1.03.1.021 [endo-09: Nódulo tiroídeo]"
+  ],
+  "stem": "Un paciente de 36 años consulta por aumento de volumen en la zona anterior del cuello. Al examen físico tiene un nódulo duro, de 2 cm de diámetro, asociado a una adenopatía cervical anterior de consistencia dura. Se solicita una TSH que resulta 6,1 UI/L. ¿Cuál es el examen más adecuado para continuar el estudio?",
+  "options": "A) Punción con aguja fina | B) Ecografía tiroidea | C) Cintigrafía con yodo radiactivo | D) TAC de cuello | E) Resonancia magnética nuclear de cuello",
+  "correcta": "B",
+  "explicacion": "A? Por regla general, la ecografía cervical es el primer examen para un nódulo tiroideo y por eso creo que es la respuesta correcta. Sin embargo, ya cumple criterios de punción con aguja fina (mayor a 15 mm con TSH normal o alta).",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 146",
+  "year": 2017,
+  "codes": [
+   "1.03.1.021 [endo-09: Nódulo tiroídeo]"
+  ],
+  "stem": "Una paciente de 42 años, consulta por adenopatía supraclavicular derecha persis- tente. Al examen físico se palpa además un nódulo cervical paratraqueal derecho de consistencia amentada, que asciende con la deglución, de alrededor de 2 cm de diáme- tro. ¿Cuál es el examen de elección para iniciar el estudio de esta paciente?",
+  "options": "A) Niveles plasmáticos de calcitonina | B) Ecografía cervical | C) TAC de cuello | D) Resonancia magnética de cuello | E) Biopsia quirúrgica",
+  "correcta": "B",
+  "explicacion": "La alternativa correcta es la **B** (Ecografía cervical). Todo nódulo cervical se estudia inicialmente con Ecografía de cuello.. El nódulo tiroideo es frecuente y su importancia radica en descartar cáncer de tiroides y adenoma tóxico. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.5,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 20",
+  "year": 2024,
+  "codes": [
+   "1.03.1.021 [endo-09: Nódulo tiroídeo]"
+  ],
+  "stem": "Hipertiroidismo con nódulo tioideo sólido en ecografía, de 2.5 cm + TSH 0.7. Con qué examen continuar estudio: a.​ Cintigrama tiroideo",
+  "options": "B) PAAF | B) Hemograma y VHS | C) Ecografía | D) Radiografía | E) TAC con contraste",
+  "correcta": "A",
+  "explicacion": "La alternativa correcta es la **A** (). El nódulo tiroideo es frecuente y su importancia radica en descartar cáncer de tiroides y adenoma tóxico. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.5,
+  "alertas": [
+   "clave_fuera_de_opciones",
+   "enunciado_cortado_o_raro"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2025 · Pregunta 45",
+  "year": 2025,
+  "codes": [
+   "1.03.1.023 [endo-25: Ginecomastia]"
+  ],
+  "stem": "Adolescente masculino de 14 años con aumento bilateral del tejido mamario subareolar, sensible al tacto, sin secreción. Sin medicamentos. Desarrollo puberal Tanner 3. ¿Cuál es el diagnóstico y conducta?",
+  "options": "A) Ginecomastia puberal fisiológica; tranquilizar y observar | B) Cáncer de mama masculino; biopsia urgente | C) Hiperprolactinemia; solicitar prolactina | D) Hipogonadismo; solicitar testosterona | E) Tumor testicular; solicitar ecografía testicular",
+  "correcta": "A",
+  "explicacion": "Ginecomastia bilateral en adolescente Tanner 3 sin medicamentos ni masa firme = ginecomastia puberal fisiológica. Ocurre en 50-70% de los púberes. Regresa espontáneamente en 1-2 años.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2025 · Pregunta 30",
+  "year": 2025,
+  "codes": [
+   "1.03.2.002 [endo-03: Mixedema]"
+  ],
+  "stem": "Una paciente de 46 años, con antecedentes de anemia perniciosa y vi`ligo, es traída al servicio de urgencia por un cuadro de malestar general y desorientación. Sus familiaees relatan que ha presentado compromiso del estado general y astenia de 3 semanas de evolución, asociando recientemente a somnolencia y desorientación. Al examen físico está en sopor superficial y sus signos vitales muestran presión arterial: 90/60 mmHg, frecuencia cardíaca: 62 lpm, temperatura: 36 °C. En el examen segmentario se objetiva lengua de gran tamaño y edema de extremidades inferiores. Al examen neurológico está soporosa, no tiene focalidad neurológica y se observa enlentecimiento de la fase de relajación de los reflejos osteotendíneos. Los exámenes de laboratorio muestran sodio: 130 mEq/L, hemoglobina: 10 g/dl, hematocrito: 31%, VCM 102 fL, glóbulos blancos: 5.200/mm³ y plaquetas: 180.000/mm³. Se solicita TAC de cerebro, que no muestra alteraciones. ¿Cuál es el tratamiento inicial más adecuado?",
+  "options": "A) Suero hipertónico endovenoso | B) Suero fisiológico endovenoso | C) Levo2roxina endovenosa | D) Cor2coides endovenosos | E) An2bió2cos endovenosos",
+  "correcta": "D",
+  "explicacion": "Hiponatremia, anemia macrocítica, hiporreflexia con relajación lenta y compromiso de conciencia en una paciente con enfermedad autoinmune corresponden a un coma mixedematoso. La primera medida es administrar corticoides endovenosos y luego levotiroxina endovenosa, porque dar levotiroxina sola puede precipitar una insuficiencia suprarrenal aguda. El suero hipertónico no está indicado en una hiponatremia leve de este tipo.",
+  "conf": 0.9,
+  "alertas": [
+   "texto_corrupto"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Enero 2023 · Pregunta 153",
+  "year": 2023,
+  "codes": [
+   "1.03.2.002 [endo-03: Mixedema]"
+  ],
+  "stem": "Paciente con piel seca, bradicardia, hipotensión, compromiso de conciencia, TSH 100 y T4 libre muy baja. ¿Diagnóstico?",
+  "options": "A) Coma mixedematoso | B) Hipotiroidismo subclínico severo | C) Insuficiencia suprarrenal aguda | D) Encefalopatía hipoglucémica | E) Hipotiroidismo primario descompensado",
+  "correcta": "A",
+  "explicacion": "Diagnóstico: **Coma mixedematoso** (opción **A**). Coma mixedematoso. El hipotiroidismo se presenta con astenia, adinamia, intolerancia al frío, constipación, piel seca, bradipsiquia, caída de la cola de las cejas, bradicardia e hipotermia en casos severos, hiporreflexia y alteraciones de laboratorio como anemia macrocítica, hiponatremia con VEC normal, hiperbilirrubinemia indirecta, dislipidemia (hipercolesterolemia) y aumento de CK. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2022 · Pregunta 6",
+  "year": 2022,
+  "codes": [
+   "1.03.2.002 [endo-03: Mixedema]"
+  ],
+  "stem": "Un paciente de 54 años, con antecedente de diabetes mellitus en tratamiento hipoglicemiante oral, hipertensión arterial e hipotiroidismo, suspende sus medicamentos hace 3 meses. Desde hace 2 semanas comienza con malestar general, asociado a letargo y dificultades en sus actividades de la vida diaria, agregándose compromiso de conciencia, por lo que es llevada a la urgencia. Al examen físico tiene facies edematosa, está hiporreactiva, con temperatura 35,1°C, pulso regular a 50x, presión arterial de 150/100 mHg, arreflexia generalizada y examen cardiopulmonar con ritmo regular en dos tiempos, sin soplo y murmullo pulmonar presente, sin otros ruidos. Sus exámenes de laboratorio muestran glicemia: 270 mg/dl, creatinina: 1,3 mg/dl, sodio plasmático: 129 mEq/L, potasio: 4,7 mEq/L, lo siguiente T4 libre: 0,1 ng/dl, TSH: 100 U/L, hemograma con hematocrito: 36%, hemoglobina: 12 g/dl, blancos: 7.000 por mm3 y plaquetas: 150.000 por mm3, CK: 390 UI/L (VN: 30 a 290) y CK-mb: 30 (VN: 0-25). ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Cetoacidosis diabética | B) Síndrome hiperglicémico hiperosmolar no acidótico | C) Infarto agudo al miocardio | D) Coma mixedematoso | E) Accidente vascular encefálico",
+  "correcta": "A",
+  "explicacion": "Diagnóstico: **Cetoacidosis diabética** (opción **A**). El hipotiroidismo se presenta con astenia, adinamia, intolerancia al frío, constipación, piel seca, bradipsiquia, caída de la cola de las cejas, bradicardia e hipotermia en casos severos, hiporreflexia y alteraciones de laboratorio como anemia macrocítica, hiponatremia con VEC normal, hiperbilirrubinemia indirecta, dislipidemia (hipercolesterolemia) y aumento de CK. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.5,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2018 · Pregunta 20",
+  "year": 2018,
+  "codes": [
+   "1.03.2.003 [endo-13: Insuficiencia suprarrenal aguda]"
+  ],
+  "stem": "Un paciente tiene diarrea de 3 días de evolución, asociada a malestar general marcado y vómitos alimentarios, con deterioro del estado general. Al examen físico se observa deshidratado, con FC: 110 x’, PA: 70/40 mmHg, abdomen doloroso, sin irritación peritoneal. Se solicitan exámenes, entre los que destacan Na+: 126 mEq/L, K+: 4,7 mEq/L, glicemia: 58 mg/dl, PCR: 4,0, blancos: 12.000 por mm3, creatinina 2,3 mg/dl. Se administran 3 litros de suero fisiológico, sin lograr estabilizar al paciente. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Insuficiencia renal aguda | B) Shigelosis | C) Peritonitis aguda | D) Insuficiencia suprarrenal aguda | E) Accidente vascular hemorrágico",
+  "correcta": "D",
+  "explicacion": "Tiene una crisis suprarrenal clásica: shock refractario, hiponatremia, hipoglicemia e hiperkalemia (el K+ está normal en este caso, pero en el límite alto). Sin embargo, también tiene una insuficiencia renal aguda (creatinina elevada), pero el diagnóstico más importante es la insuficiencia suprarrenal.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2025 · Pregunta 79",
+  "year": 2025,
+  "codes": [
+   "1.03.2.004 [endo-16: Hipercalcemia aguda]"
+  ],
+  "stem": "Hombre de 55 años con hipercalcemia severa (Ca 13.5 mg/dL), náuseas, poliuria, confusión y deshidratación. PTH elevada. ¿Cuál es el tratamiento inicial de urgencia?",
+  "options": "A) Resonancia magnética | B) Cintigrafía con sestamibi (localización de adenoma paratiroideo) | C) Hidratación EV con solución salina 0.9% | D) Paratiroidectomía de urgencia | E) Carbonato de calcio oral",
+  "correcta": "C",
+  "explicacion": "Hipercalcemia sintomática/severa (Ca >12 mg/dL con síntomas): tratamiento de urgencia = hidratación EV agresiva con SF 0.9% (200-300 mL/h) para promover calciuria. Luego agregar bifosfonatos (zoledronato) o calcitonina. La cintigrafía es para planificación quirúrgica electiva, no urgente.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2022 · Pregunta 123",
+  "year": 2022,
+  "codes": [
+   "1.03.2.004 [endo-16: Hipercalcemia aguda]"
+  ],
+  "stem": "Un paciente de 76 años, con antecedente de cáncer de próstata avanzado, presenta un cuadro de 2 días de evolución de debilidad y malestar general, al que se agrega obnubilación de conciencia y tendencia al sopor. Al examen físico se aprecia desorientado, con sopor profundo, sin focalidad neurológica, tiene FC: 80x’, PA: 150/100 mmHg y FR: 16x’. El examen torácico y abdominal no aporta mayor información. Se solicitan electrolitos plasmáticos que muestran sodio: 148 mEq/L, potasio: 5 mEq/L, calcio: 14,8 mg/dl y otros exámenes de sangre que muestran creatinina: 1,4 mg/dl, GOT: 50 UI/l, 2, APE: 200 ng/ml. ¿Cuál es la conducta inicial más adecuada?",
+  "options": "A) Administrar calcitonina endovenosa | B) Realizar hemodiálisis de urgencia | C) Administrar ácido zolendrónico endovenoso | D) Administrar gluconato de calcio endovenoso | E) Administrar suero fisiológico endovenoso",
+  "correcta": "E",
+  "explicacion": "Conducta / Tratamiento indicado: **Administrar suero fisiológico endovenoso** (opción **E**). Tratamiento ordenado: 1° soporte, 2° corticoides EV (hidrocortisona), 3° levotiroxina EV (carga 400 µg), 4° T3 EV. De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Enero 2023 · Pregunta 110",
+  "year": 2023,
+  "codes": [
+   "1.03.2.005 [endo-17: Tetania]"
+  ],
+  "stem": "Paciente con tiroidectomía total e hipoparatiroidismo, presenta debilidad, parestesias y signo de Chvostek positivo. ¿Cuál es el tratamiento inicial?",
+  "options": "A) Calcitriol oral más calcio oral | B) Gluconato de calcio endovenoso | C) Carbonato de calcio 1 g oral | D) PTH recombinante subcutáneo | E) Terlipresina endovenosa",
+  "correcta": "B",
+  "explicacion": "Conducta / Tratamiento indicado: **Gluconato de calcio endovenoso** (opción **B**). Gluconato de calcio endovenoso. Sin tratamiento evoluciona a cretinismo (déficit cognitivo irreversible). De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.72,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2018 · Pregunta 25",
+  "year": 2018,
+  "codes": [
+   "1.03.2.005 [endo-17: Tetania]"
+  ],
+  "stem": "Un paciente, con antecedente de tiroidectomía total e hipoparatiroidismo, en tratamiento con levotiroxina, calcio y vitamina D, por vía oral, presenta diarrea aguda, de 2 días de evolución, abundante. Evoluciona con astenia, marcada debilidad, dolor en las extremidades inferiores y calambres. Al examen físico tiene reflejos osteotendíneos vivos y signo de Chvostek positivo. ¿Cuál es la conducta inicial más adecuada?",
+  "options": "A) Suero fisiológico endovenoso | B) Gluconato de calcio endovenoso | C) Suero glucosado con potasio endovenoso | D) Suero Ringer endovenoso | E) Hidrocortisona endovenosa",
+  "correcta": "B",
+  "explicacion": "Conducta / Tratamiento indicado: **Gluconato de calcio endovenoso** (opción **B**). Tiene una hipocalcemia aguda grave clínica. Se debe tratar con gluconato de calcio urgente.. Sin tratamiento evoluciona a cretinismo (déficit cognitivo irreversible). De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 82",
+  "year": 2024,
+  "codes": [
+   "1.03.2.005 [endo-17: Tetania]"
+  ],
+  "stem": "Una mujer de 29 años, con antecedente de tiroidectomía por cáncer de tiroides hace 5 meses, consulta por síntomas de una semana de evolución, consistentes en astenia, nerviosismo y palpitaciones, que han ido en aumento. Además, el día de hoy presentó convulsiones en una oportunidad, por lo que fue traída al Servicio de Urgencia. Al examen físico está en Glasgow 15, sin convulsiones actuales ni focalidad neurológica. Se solicitan exámenes de laboratorio, entre los que destacan glicemia: 120 mg/dl, potasemia: 4,0 mEq/l, natremia: 144 mEq/L, calcemia 6,3 mg/dl, fósforo: 5,5 mg/dl, albúmina: 3,9 g/dl y hematocrito: 48%. ¿Cuál es la conducta inicial más adecuada en esta paciente?",
+  "options": "A) Administrar suero fisiológico | B) Solicitar TAC de cerebro | C) Administrar calcio endovenoso | D) Administrar lorazepam endovenoso | E) Administrar calcitonina",
+  "correcta": "C",
+  "explicacion": "Hipocalcemia Post Tiroidectomía: El cuadro clínico sugiere hipocalcemia por hipoparatiroidismo post tiroidectomía, ya sea por extirpación o isquemia de las glándulas paratiroides. La calcemia baja confirma el diagnóstico. El tratamiento es con gluconato de calcio endovenoso 1g..",
+  "conf": 0.62,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2022 · Pregunta 102",
+  "year": 2022,
+  "codes": [
+   "1.03.2.005 [endo-17: Tetania]"
+  ],
+  "stem": "Una paciente, con antecedente de tiroidectomía total por cáncer de tiroides, con hipoparatiroidismo postquirúrgico, en tratamiento con levotiroxina 100 ug al día y con calcio 450 mg más vitamina D3 175 UI cada 8 horas, presenta diarrea acuosa, desde hace 4 días, a lo que se ha agregado astenia y debilidad, . Al examen físico se constatan signos vitales dentro del rango normal, examen cardiopulmonar normal, examen abdominal con abdomen blando, depresible, sensible a la palpación profunda, examen neurológico con signo de Chvostek y debilidad de las 4 extremidades, con reflejos osteotendíneos claros. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Administrar calcio intravenoso | B) Aumentar la dosis de levotiroxina | C) Administrar suero fisiológico intravenoso | D) Administrar suero Ringer lactato intravenoso | E) Administrar bicarbonato de sodio endovenoso",
+  "correcta": "C",
+  "explicacion": "Conducta / Tratamiento indicado: **Administrar suero fisiológico intravenoso** (opción **C**). Sin tratamiento evoluciona a cretinismo (déficit cognitivo irreversible). De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.5,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2025 · Pregunta 33",
+  "year": 2025,
+  "codes": [
+   "1.03.4.004 [endo-01: T4 libre]"
+  ],
+  "stem": "Una paciente de 25 años acude a chequeo médico. Como antecedente, usa suplementos de vitamina D y anticonceptivos orales. Los exámenes de laboratorio muestran T4 total de 16 ng/mL (valor normal 5 a 12) y TSH de 0,9 mU/L (valor normal 0,5 a 5). El examen físico es normal. ¿Qué examen es el más adecuado para proseguir el estudio?",
+  "options": "A) An2cuerpos an2-receptor de TSH | B) Cin2gra:a 2roidea | C) Triyodo2ronina (T3) | D) T4 libre | E) Tiroglobulina",
+  "correcta": "D",
+  "explicacion": "Por regla general basta con la TSH como screening, en pacientes asintomáticos, por lo que no estaba indicado solicitar T4; al estar normal la TSH, la conducta más adecuada es simplemente observar (y disculparse por haber pedido exámenes de más). En el embarazo, uso de ACO y uso de andrógenos se eleva la TBG (globulina ligante de Groxina), por lo que la T4 total está falsamente elevada, siendo únicamente útil la T4 libre. Lo mismo ocurre en el síndrome nefrótico y el daño hepático en que la TBG disminuye y la T4 total resulta falsamente baja. Insistimos en que bastaba con la TSH.",
+  "conf": 0.85,
+  "alertas": [
+   "texto_corrupto"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 6",
+  "year": 2024,
+  "codes": [
+   "1.04.1.004 [infecto-18: Brucelosis]"
+  ],
+  "stem": "Veterinario expuesto a ganado, dolor articular. Artrocentesis con PMN 70% a.​ brucelosis b.​ Fiebre Q",
+  "options": "C) Cultivo de gonococo | D) Hemocultivo | C) Staphylococcus aureus | D) Streptococcus pneumoniae | E) Escherichia coli",
+  "correcta": "A",
+  "explicacion": "La alternativa correcta es la **A** (). Existen varios tipos de insulina que hay que conocer. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES). Las opciones alternativas (Cultivo de gonococo, Hemocultivo) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente.",
+  "conf": 0.82,
+  "alertas": [
+   "clave_fuera_de_opciones"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 106",
+  "year": 2017,
+  "codes": [
+   "1.04.1.006 [infecto-20: Celulitis bacteriana]"
+  ],
+  "stem": "Una paciente de 30 años presenta una caída, con erosión de la rodilla derecha. Us- ted la evalúa 3 días después, observándose una zona eritematosa que rodea la herida, de 10 cm de diámetro y bordes parcialmente definidos. ¿Cuál es el tratamiento más ade- cuado?",
+  "options": "A) Curación con suero fisiológico y cobertura con apósito | B) Curaciones con povidona yodada | C) Mupirocina tópica | D) Amoxicilina oral por 7 días | E) Cefadroxilo oral por 7 días",
+  "correcta": "E",
+  "explicacion": "Una zona eritematosa de 10 cm alrededor de una herida abrasiva infectada con bordes parcialmente definidos corresponde a una celulitis o erisipela no purulenta, que se trata con un antibiótico oral con cobertura para estreptococo y estafilococo, como cefadroxilo por 7 días. La amoxicilina sola no cubre bien a estafilococos productores de penicilinasa, y las curaciones o la mupirocina tópica no bastan para una infección de tejidos blandos extendida.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 74",
+  "year": 2024,
+  "codes": [
+   "1.04.1.006 [infecto-20: Celulitis bacteriana]"
+  ],
+  "stem": "Tratamiento de elección para paciente afebril y en BCG, con forúnculo con cultivo de secreción: S. Aureus Resistente a: Clinda / Cefa; Sensible a Linezolid / Vanco a.​ Drenaje b.​ Hospitalizar y Vancomicina ev",
+  "options": "C) Linezolid vo | B) Amoxicilina | C) Ibuprofeno | D) Paracetamol | E) Omeprazol",
+  "correcta": "C",
+  "explicacion": "Conducta / Tratamiento indicado: **Linezolid vo** (opción **C**). Alergia a penicilina mediada por IgE: reaccion inmediata (urticaria leve a anafilaxia grave) De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.4,
+  "alertas": [
+   "enunciado_cortado_o_raro",
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 128",
+  "year": 2015,
+  "codes": [
+   "1.04.1.009 [gastro-08: Diarrea asociada a antibióticos]"
+  ],
+  "stem": "Una paciente está en tratamiento con ciprofloxacino por una infección urinaria. Al séptimo día inicia diarrea acuosa, abundante, asociada a dolor abdominal. Al axamen físico se constata dolor a la palpación abdominal, sin irritación peritoneal, con aumento de los ruidos hidroaéreos. Los leucocitos fecales resultan positivos. ¿Cuál es el agente etiológico?",
+  "options": "A) Escherichia coli | B) Clostridium difficile | C) Shiguella flexneri | D) Rotavirus | E) Campilobacter jejuni",
+  "correcta": "B",
+  "explicacion": "Conducta / Tratamiento indicado: **Clostridium difficile** (opción **B**). Diarrea post-ATB es por C. difficile en el 30% de los casos.. DM1 siempre requiere insulina desde el diagnóstico con esquema basal-bolo De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 59",
+  "year": 2013,
+  "codes": [
+   "1.04.1.009 [gastro-08: Diarrea asociada a antibióticos]"
+  ],
+  "stem": "Paciente de 70 años, diabético en tratamiento farmacológico y hospitalizado por neumonía desde hace 5 días, comienza desde ayer con cuadro de deposiciones diarreicas acuosas asociado a desorientación temporoespacial. Al examen físico destaca abdomen doloroso a palpación profunda, con ruidos hidroaéreos aumentados y ausencia de irritación peritoneal. Se solicita coprocultivo que se informa negativo y leucocitos fecales positivos. El tratamiento de elección en este caso es:",
+  "options": "A) Hidratación por vía oral abundante | B) Metronidazol oral | C) Ciprofloxacino oral | D) Clindamicina ev | E) Probióticos orales",
+  "correcta": "B",
+  "explicacion": "Diarrea por ATB, probablemente por C. difficile. Se trata con MTZ. Eso sí, primero se debería confirmar el diagnóstico con la PCR para Clostridium difficile.",
+  "conf": 0.85,
+  "alertas": null
+ }
+]

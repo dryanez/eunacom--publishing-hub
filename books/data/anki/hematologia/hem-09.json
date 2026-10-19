@@ -1,0 +1,487 @@
+{
+  "classId": "hem-09",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las talasemias son defectos {{c1::cuantitativos}} de globina; la drepanocitosis es un defecto {{c2::cualitativo}} (HbS).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Hemoglobinopatías",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La beta-globina está en el cromosoma {{c1::11}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Hemoglobinopatías",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El rasgo talasémico menor es el portador {{c1::heterocigoto}}: asintomático, hallazgo de hemograma.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Talasemia",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Rasgo talasémico: VCM muy bajo de {{c1::60 a 72 fL}} con Hb normal o apenas baja (10–12 g/dL).",
+      "extra": "Microcitosis desproporcionada.",
+      "origen": "clase:3",
+      "fuente": "Clase · Rasgo talasémico",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Rasgo talasémico: glóbulos rojos normales o altos, más de {{c1::5 a 5,5 millones}}.",
+      "extra": "En ferropenia están bajos (< 4 millones).",
+      "origen": "clase:3",
+      "fuente": "Clase · Rasgo talasémico",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Índice de Mentzer = VCM ÷ millones de GR; < {{c1::13}} orienta a talasemia.",
+      "extra": "> 13 orienta a ferropenia.",
+      "origen": "clase:3",
+      "fuente": "Clase · Rasgo talasémico",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el rasgo talasémico el RDW es {{c1::normal}} y la ferritina normal; en ferropenia el RDW es alto.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Rasgo talasémico",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El frotis del rasgo talasémico muestra {{c1::dianocitos}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "imagen": "biblioteca/06_hematologia/hem-09/atlas_126_frotis_con_dianocitos_celulas_.jpg",
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El rasgo talasémico se confirma con electroforesis: HbA2 > {{c1::3,5 %}}.",
+      "extra": "Habitualmente 4 a 7 %.",
+      "origen": "clase:6",
+      "fuente": "Clase · Electroforesis",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el rasgo talasémico, el error grave es {{c1::dar hierro}}: genera sobrecarga.",
+      "extra": "Conducta: consejo genético.",
+      "origen": "clase:14",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Microcitosis, isocitosis (RDW normal) y perfil de hierro normal: {{c1::talasemia}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz banco",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anemia leve con Hto 33 % y VCM 85 en embarazo de 20 semanas: {{c1::hemograma normal}} por hemodilución fisiológica.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Banco · Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La talasemia mayor (Cooley) es el homocigoto {{c1::beta-0}}, con cadenas alfa libres que precipitan.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Talasemia mayor",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Talasemia mayor: anemia grave desde el primer año, dependiente de {{c1::transfusiones}}, con hepatoesplenomegalia masiva.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Talasemia mayor",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La expansión de la médula en talasemia mayor da {{c1::facies de ardilla}} (cráneo en cepillo).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Talasemia mayor",
+      "repaso": false,
+      "imagen": "biblioteca/06_hematologia/hem-09/03_craneo-en-cepillo-talasemia__cto-hemato_p32.jpg",
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La complicación de la talasemia mayor es la hemocromatosis {{c1::transfusional}}: cirrosis, miocardiopatía y diabetes.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Talasemia mayor",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Quelantes de hierro en talasemia mayor: {{c1::deferoxamina o deferasirox}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Talasemia mayor",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La drepanocitosis resulta de sustituir ácido {{c1::glutámico por valina}} en la posición 6 de la cadena beta.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Drepanocitosis",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La HbS polimeriza con hipoxia, acidosis y {{c1::deshidratación}}, formando drepanocitos.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Drepanocitosis",
+      "repaso": false,
+      "imagen": "biblioteca/06_hematologia/hem-09/01_drepanocitos_1__amir-hemato_p38.jpg",
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síndrome torácico agudo es la principal causa de {{c1::muerte}} en adultos falciformes.",
+      "extra": "Además: crisis vasooclusiva y priapismo.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Drepanocitosis",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La autoesplenectomía ocurre hacia los {{c1::5–6 años}}, con asplenia funcional.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Drepanocitosis",
+      "repaso": true,
+      "imagen": "biblioteca/06_hematologia/hem-09/atlas_127_cuerpos_de_howell_jolly_en_fro.jpg",
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La asplenia falciforme predispone a sepsis por {{c1::encapsulados}} (neumococo, Salmonella, Haemophilus).",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Drepanocitosis",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Anemia falciforme HbSS: HbS mayoritaria, más de {{c1::70 a 90 %}}, sin HbA1.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Electroforesis",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El examen confirmatorio de ambas es la {{c1::electroforesis de hemoglobina}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Hemoglobinopatías",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Crisis vasooclusiva: hidratación EV vigorosa con {{c1::cristaloides isotónicos}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Analgesia de la crisis vasooclusiva: opioides potentes como {{c1::morfina EV o fentanilo}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la crisis falciforme se da oxígeno solo si la saturación es < {{c1::92 %}}.",
+      "extra": "No de rutina.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Infección en el falciforme: {{c1::ceftriaxona}}, que cubre neumococo.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La {{c1::hidroxiurea}} sube la HbF, que no polimeriza, y reduce las crisis en más del 50 %.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lactante de 9 meses con Hb 9, VCM 68 y plaquetas 450.000: lo más probable es anemia {{c1::ferropriva}}, no hemoglobinopatía.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Diciembre 2018",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Microesferocitos con anemia aguda, bilirrubina indirecta y LDH altas: {{c1::hemólisis}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Banco · Diciembre 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 21"
+      ],
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Disnea, palidez, ictericia y esplenomegalia: parte con {{c1::hemograma con reticulocitos}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Banco · Julio 2013",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 87"
+      ],
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-09/atlas_126_frotis_con_dianocitos_celulas_.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Dianocitos de rasgo talasémico",
+      "clave": "Glóbulos en diana, microcíticos homogéneos",
+      "conducta": "Electroforesis (HbA2 > 3,5 %); no dar hierro",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-09/01_drepanocitos_1__amir-hemato_p38.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Drepanocitos",
+      "clave": "Glóbulos en hoz o medialuna, rígidos",
+      "conducta": "Electroforesis; en crisis hidratar, opioides y ceftriaxona si hay infección",
+      "fuente": "Manual AMIR Hematología, p. 38",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Ferritina normal, GR altos, RDW normal: ¿qué examen?",
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "HbA2 > 3,5 %: ¿qué diagnóstico y conducta?",
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2",
+      "pista": "Lactante con anemia grave: ¿qué sospechas y tratas?",
+      "codigos": [
+        "1.08.1.003"
+      ]
+    }
+  ]
+}

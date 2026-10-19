@@ -1,0 +1,398 @@
+{
+  "classId": "diab-10",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La coexistencia de diabetes e HTA multiplica por {{c1::cuatro}} el riesgo de morbimortalidad cardiovascular.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro · Por qué",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.010",
+        "1.02.1.008"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el glomérulo diabético la arteriola {{c1::aferente}} está dilatada, por lo que la presión sistémica llega directo al capilar glomerular.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Glomérulo diabético",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hiperfiltración rompe podocitos y membrana basal, causando {{c1::albuminuria}} y glomeruloesclerosis.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Glomérulo diabético",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La angiotensina II contrae sobre todo la arteriola {{c1::eferente}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Arteriola eferente",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "IECA y ARA-II dilatan la arteriola {{c1::eferente}} y bajan la presión intraglomerular.",
+      "extra": "Menos proteinuria y freno del daño renal.",
+      "origen": "clase:2",
+      "fuente": "Clase · Arteriola eferente",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El IECA de elección en el diabético hipertenso con albuminuria es el {{c1::enalapril}} (10 a 20 mg al día).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 SRAA",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El ARA-II de elección es el {{c1::losartán}} (50 mg al día).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 SRAA",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Albuminuria significa RAC ≥ {{c1::30 mg/g}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Qué fármaco se elige",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Diabético hipertenso con RAC ≥ 30 mg/g: fármaco {{c1::IECA o ARA-II}} obligatorio.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Qué fármaco se elige",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Diabético hipertenso con albuminuria: el error es partir con {{c1::atenolol o tiazida}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Diabético sin albuminuria (RAC < 30): primera línea cualquiera: {{c1::IECA, ARA-II, amlodipino o tiazida}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Qué fármaco se elige",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El betabloqueador en el diabético solo se usa con indicación cardíaca: {{c1::infarto previo o insuficiencia cardíaca}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Qué fármaco se elige",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Nunca combinar {{c1::IECA con ARA-II}}: sin beneficio adicional y con más falla renal aguda e hiperkalemia.",
+      "extra": "Demostrado en ONTARGET.",
+      "origen": "clase:4",
+      "fuente": "Clase · Combinación prohibida",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Proteinuria que persiste: se optimiza un solo bloqueador; el error es {{c1::sumar IECA más ARA-II}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con VFG < {{c1::30 mL/min}} se usa IECA o ARA-II vigilando el potasio.",
+      "extra": "Segundo fármaco: furosemida o amlodipino.",
+      "origen": "clase:4",
+      "fuente": "Clase · Riñón avanzado",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La meta de PA en el diabético es < {{c1::130/80 mmHg}}.",
+      "extra": "Se logra de forma gradual, sin hipotensión ortostática en ancianos.",
+      "origen": "clase:5",
+      "fuente": "Clase · Metas",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Diabético con PA 138/83: se trata; el error es {{c1::esperar a 140/90}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con PA inicial ≥ {{c1::140/90 mmHg}} se parte con biterapia.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Metas",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La biterapia es IECA o ARA-II más {{c1::amlodipino}} 5 a 10 mg/día, o más tiazida (hidroclorotiazida o indapamida).",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Metas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "PA ≥ 140/90 en diabético: error clásico es {{c1::monoterapia y esperar}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Diabético con tiazida y atenolol, PA 146/100 y proteinuria: {{c1::agregar enalapril}}.",
+      "extra": "Le falta el bloqueo del SRAA.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Dic 2018",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Diabético con PA 138/83 y proteinuria positiva: se inicia {{c1::enalapril}}; no se toca la metformina si HbA1c está en meta.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz Julio 2013",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diabético con PA 140/90 y 158/87 en dos controles: se inicia {{c1::tratamiento antihipertensivo}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Julio 2024",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La nefropatía incipiente se confirma con {{c1::2 de 3}} muestras de RAC alteradas en 3 a 6 meses.",
+      "extra": "Descartar infección, fiebre y ejercicio.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La microalbuminuria corresponde a RAC de {{c1::30 a 299 mg/g}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Diabético con cardiopatía coronaria previa: IECA o ARA-II más {{c1::betabloqueador cardioselectivo}} (atenolol o bisoprolol).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla antihipertensiva",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Albuminuria: ¿qué antihipertensivo es obligatorio?",
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0.0",
+      "pista": "PA ≥ 140/90: ¿monoterapia o biterapia?",
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "Sin albuminuria: ¿qué fármacos sirven?",
+      "codigos": [
+        "1.02.1.008",
+        "1.02.1.010"
+      ]
+    }
+  ]
+}

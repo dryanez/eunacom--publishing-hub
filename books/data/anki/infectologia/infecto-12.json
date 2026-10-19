@@ -1,0 +1,688 @@
+{
+ "classId": "infecto-12",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El Treponema pallidum se transmite por contacto sexual o vía {{c1::transplacentaria}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Etapas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.023"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sífilis primaria: chancro, úlcera genital única, indurada e {{c1::indolora}} de fondo limpio.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.023"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 37",
+    "EUNACOM Diciembre 2019 · Pregunta 136",
+    "EUNACOM Agosto 2021 · Pregunta 112",
+    "EUNACOM Diciembre 2019 · Pregunta 5"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El chancro sifilítico se acompaña de adenopatías regionales {{c1::duras e indoloras}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Primaria y secundaria",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.023"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 136",
+    "EUNACOM Agosto 2021 · Pregunta 112"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El chancro sifilítico cura solo en {{c1::3–6 semanas}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Etapas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.023"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Úlcera genital indolora con adenopatía inguinal indolora y VDRL reactivo: {{c1::sífilis primaria}}.",
+   "extra": "",
+   "origen": "libro:caso",
+   "fuente": "Libro · Caso clínico",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 37",
+    "EUNACOM Diciembre 2019 · Pregunta 136",
+    "EUNACOM Agosto 2021 · Pregunta 112",
+    "EUNACOM Enero 2023 · Pregunta 40",
+    "EUNACOM Diciembre 2022 · Pregunta 178",
+    "EUNACOM Diciembre 2019 · Pregunta 5"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sífilis secundaria: roséola, exantema maculopapular con compromiso {{c1::palmo-plantar}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.023"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 62"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sífilis secundaria: lesiones perianales húmedas llamadas {{c1::condilomas planos}}.",
+   "extra": "No confundir con los acuminados del VPH.",
+   "origen": "clase:2",
+   "fuente": "Clase · Primaria y secundaria",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.023"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La sífilis {{c1::latente}} es asintomática; se divide en precoz (< 1 año) y tardía (> 1 año).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Etapas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.023"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sífilis terciaria: gomas, aortitis y {{c1::neurosífilis}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Etapas",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.023"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las pruebas {{c1::no treponémicas}} (VDRL, RPR) son cuantitativas y evalúan actividad y respuesta al tratamiento.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Dos pruebas, dos trabajos",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016",
+    "6.01.4.007"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las pruebas treponémicas (FTA-ABS, MHA-TP, ELISA IgG) son {{c1::cualitativas}} y confirman el diagnóstico.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Serología",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016",
+    "6.01.4.007"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Curación serológica: caída de los títulos de VDRL de {{c1::4 veces}} (2 diluciones) a los 6–12 meses.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016",
+    "6.01.4.007"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las treponémicas quedan positivas de por vida (cicatriz serológica) en el {{c1::90 %}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Serología",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Para controlar después de tratar: el error es {{c1::controlar con FTA-ABS}}; se usa VDRL cuantitativo a los 6 y 12 meses.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "VDRL reactivo 1:16 con treponémica reactiva = {{c1::sífilis activa confirmada}}; se trata según tiempo de evolución.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla serológica",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "VDRL bajo (1:2) con treponémica no reactiva = {{c1::falso positivo biológico}}; no se trata.",
+   "extra": "Causas: autoinmune, embarazo, edad.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla serológica",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "VDRL bajo con treponémica negativa: el error es {{c1::tratar por el VDRL}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "VDRL no reactivo con treponémica reactiva: {{c1::cicatriz serológica}} o sífilis primaria muy precoz.",
+   "extra": "Si ya fue tratada: observar.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla serológica",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.016"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 2",
+    "EUNACOM Julio 2024 · Pregunta 70"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Embarazada de 12 semanas con VDRL no reactivo y MHA-TP reactivo: se {{c1::controla con VDRL}} a las 30 semanas.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla serológica",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.016"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 2",
+    "EUNACOM Julio 2024 · Pregunta 70"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ambas pruebas no reactivas: no infectado o período de ventana; con chancro se {{c1::repite en 3 semanas}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.016"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Sífilis precoz (< 1 año): penicilina benzatina {{c1::2.400.000 UI IM}} en dosis única.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.023"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 37",
+    "EUNACOM Enero 2023 · Pregunta 40",
+    "EUNACOM Diciembre 2022 · Pregunta 178"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Sífilis tardía o de duración desconocida: penicilina benzatina 2.400.000 UI IM semanal por {{c1::3 semanas}} consecutivas.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.023"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En sífilis tardía la dosis total de penicilina benzatina es de {{c1::7.2 MU}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.023"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Sífilis secundaria: la conducta es dosis única; el error es dar {{c1::tres dosis semanales}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.023"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 62"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Sífilis latente de duración desconocida: el error es usar {{c1::dosis única}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.023"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Embarazada alérgica a la penicilina con sífilis: {{c1::desensibilización}} obligatoria (en UCI) y luego penicilina.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.023"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 27",
+    "EUNACOM Julio 2019 · Pregunta 130",
+    "EUNACOM Julio 2016 · Pregunta 37"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Embarazada alérgica con sífilis: la doxiciclina y los {{c1::macrólidos (eritromicina)}} no son la conducta; se desensibiliza.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.023"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 27",
+    "EUNACOM Julio 2016 · Pregunta 37"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Embarazada con antecedente de sífilis tratada y VDRL positivo 1/16: se {{c1::administra penicilina benzatina}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.023"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 130"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La reacción de Jarisch-Herxheimer es {{c1::benigna}} y se maneja con paracetamol.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.023"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "El GES N° 35 cubre la prevención y el diagnóstico de la transmisión vertical de {{c1::sífilis}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Sífilis congénita",
+   "repaso": true,
+   "codigos": [
+    "6.01.2.012"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "El tamizaje con VDRL en la gestante se hace en el primer control, a las 28 semanas y {{c1::al parto}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Sífilis congénita",
+   "repaso": true,
+   "codigos": [
+    "6.01.2.012"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sífilis congénita precoz (< 2 años): hepatoesplenomegalia, rinitis sanguinolenta y {{c1::pénfigo palmoplantar}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Sífilis congénita",
+   "repaso": true,
+   "codigos": [
+    "6.01.2.012"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sífilis congénita tardía: tríada de Hutchinson = dientes de Hutchinson, queratitis intersticial y {{c1::sordera}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Sífilis congénita",
+   "repaso": true,
+   "codigos": [
+    "6.01.2.012"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otros signos de sífilis congénita tardía: nariz en silla de montar y {{c1::tibias en sable}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Sífilis congénita",
+   "repaso": false,
+   "codigos": [
+    "6.01.2.012"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Recién nacido de madre con sífilis no tratada o tratada < 4 semanas antes del parto: penicilina G sódica EV por {{c1::10 días}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Sífilis congénita",
+   "repaso": true,
+   "codigos": [
+    "6.01.2.012"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se previene la sífilis congénita tratando a la gestante con benzatina al menos {{c1::30 días}} antes del parto, y a su pareja.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Sífilis congénita",
+   "repaso": false,
+   "codigos": [
+    "6.01.2.012"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El enfoque sindrómico de las ITS trata por síndrome, no por {{c1::agente}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Enfoque sindrómico",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.010"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En toda ITS se ofrece estudio de {{c1::VIH, hepatitis B y sífilis}} y se estudia a las parejas.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Enfoque sindrómico",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 91"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Condilomas acuminados perianales: la conducta es {{c1::descartar otras ITS}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Enfoque sindrómico",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 91"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Secreción uretral purulenta con Gram de diplococos gramnegativos intracelulares: {{c1::gonococo}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Enfoque sindrómico",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 61",
+    "EUNACOM Julio 2025 · Pregunta 36"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Disuria sin otros síntomas ni hallazgos tras una relación sexual sin protección: lo más probable es {{c1::Chlamydia trachomatis}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Enfoque sindrómico",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 100",
+    "EUNACOM Julio 2016 · Pregunta 110"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Úlceras genitales dolorosas de fondo amarillento y halo eritematoso: sospechar {{c1::herpes genital}}.",
+   "extra": "Contraste con el chancro sifilítico indoloro.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Enfoque sindrómico",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 169",
+    "EUNACOM Julio 2016 · Pregunta 145"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-12/01_chancro_sifilitico__cdc-phil-6803.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Chancro sifilítico (sífilis primaria)",
+   "clave": "Úlcera única, indurada, de fondo limpio e indolora",
+   "conducta": "VDRL + treponémica; penicilina benzatina 2.400.000 UI IM dosis única",
+   "fuente": "CDC PHIL 6803",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.023"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-12/01_sifilis-secundaria-palmoplantar__amir-infecto_p59.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Sífilis secundaria (roséola palmoplantar)",
+   "clave": "Exantema maculopapular en palmas y plantas",
+   "conducta": "Penicilina benzatina 2.400.000 UI IM dosis única; estudiar VIH",
+   "fuente": "Manual AMIR Infecciosas, p. 59",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.023"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-12/10_dientes-hutchinson-sifilis-congenita__kanski_p207.jpg",
+   "pregunta": "¿Qué muestra y qué hay que pensar?",
+   "diagnostico": "Sífilis congénita tardía (dientes de Hutchinson)",
+   "clave": "Incisivos pequeños con muesca en el borde",
+   "conducta": "Tríada de Hutchinson: dientes, queratitis intersticial y sordera",
+   "fuente": "Kanski's Clinical Ophthalmology 8.ª ed., p. 207",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.023"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Ambas pruebas reactivas: ¿qué pregunta decide el tratamiento?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0.0",
+   "pista": "Sífilis precoz: ¿qué esquema?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.1",
+   "pista": "Sífilis tardía o desconocida: ¿qué esquema?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1",
+   "pista": "Solo VDRL reactivo: ¿qué conducta?"
+  }
+ ]
+}

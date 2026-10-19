@@ -1,0 +1,557 @@
+{
+ "classId": "cardio-03",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los ritmos desfibrilables del paro son la {{c1::FV}} y la {{c2::TV sin pulso}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo se ven los ritmos",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los ritmos no desfibrilables del paro son la {{c1::asistolia}} y la {{c2::AESP}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo se ven los ritmos",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Con el monitor conectado se clasifica el ritmo con una pausa de menos de {{c1::10 segundos}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Dos vías, dos conductas",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fibrilación ventricular se ve como oscilaciones caóticas {{c1::sin QRS identificables}}.",
+   "extra": "Fina puede confundirse con asistolia: revisar dos derivaciones y subir la ganancia.",
+   "origen": "foto",
+   "imagen": "biblioteca/20_cardiologia/cardio-03/01_fibrilacion-ventricular-ecg__stroobandt-ecg_p307.jpg",
+   "fuente": "Libro §5 · Stroobandt p. 307",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La asistolia se confirma como línea plana en {{c1::dos derivaciones}} y con electrodos bien puestos.",
+   "extra": "Un electrodo suelto no es asistolia.",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo se ven los ritmos",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La AESP es un ritmo {{c1::organizado}} (incluso sinusal) en un paciente sin pulso palpable.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Ritmos del paro",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.004",
+    "1.01.2.006"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Primera descarga en FV/TVsp: {{c1::200 J}} bifásicos (360 J en monofásico).",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de fármacos y manejo",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Inmediatamente después de la descarga se reanuda la RCP por {{c1::2 minutos}}, sin palpar pulso ni mirar el monitor.",
+   "extra": "El corazón recién desfibrilado necesita compresiones.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Recién descargado y FV persistente: el error es {{c1::palpar el pulso o mirar el monitor}} en vez de reanudar la RCP.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En FV/TVsp persistente, la adrenalina se da tras la {{c1::2.ª descarga}}, en dosis de {{c2::1 mg EV}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de fármacos y manejo",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La adrenalina 1 mg EV se repite cada {{c1::3 a 5 minutos}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de fármacos y manejo",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Amiodarona en FV/TVsp refractaria: {{c1::300 mg EV}} en bolo tras la {{c2::3.ª descarga}}; segunda dosis de 150 mg.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de fármacos y manejo",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Dar amiodarona antes de la tercera descarga es un {{c1::error clásico}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Si no hay amiodarona, la alternativa es lidocaína {{c1::1 a 1,5 mg/kg}} EV.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de fármacos y manejo",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En torsión de puntas o hipomagnesemia se agrega sulfato de magnesio {{c1::2 g EV}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de fármacos y manejo",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La desfibrilación es para ritmos {{c1::sin pulso}}; la cardioversión sincronizada, para taquiarritmias con pulso e inestabilidad.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En asistolia o AESP la descarga está {{c1::contraindicada}}.",
+   "extra": "Error típico: descargar 200 J en asistolia.",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En asistolia/AESP se da adrenalina {{c1::lo antes posible}} (en el primer minuto) y se buscan las 5H y 5T.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Vía 2",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.004",
+    "1.01.2.006"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Durante el paro, el ritmo se revisa cada {{c1::2 minutos}}: si aparece un ritmo desfibrilable se pasa a la vía 1.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Asistolia y AESP",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El acceso de elección en el paro es la vía venosa periférica o la {{c1::intraósea}}; nada de fármacos por el tubo orotraqueal.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Vía aérea y monitoreo",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Un CO₂ espirado menor de {{c1::10 mmHg}} en la capnografía exige mejorar las compresiones.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Vía aérea y monitoreo",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las 5H son hipovolemia, hipoxia, hidrogeniones, hipo/hiperkalemia e {{c1::hipotermia}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Las cinco H y las cinco T",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las 5T son trombosis coronaria, trombosis pulmonar, tensión (neumotórax), {{c1::taponamiento}} y tóxicos.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Las cinco H y las cinco T",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se da bicarbonato por acidosis solo si el pH es menor de {{c1::7,1}} o hay intoxicación por tricíclicos.",
+   "extra": "No es de rutina.",
+   "origen": "clase:6",
+   "fuente": "Clase · Las cinco H y las cinco T",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Trombosis pulmonar masiva en el paro: trombólisis con {{c1::alteplasa}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 5T",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.006"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neumotórax a tensión en el paro: descompresión con aguja en el {{c1::2.º espacio intercostal línea medioclavicular}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 5T",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.006"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Paciente en diálisis que colapsa con AESP, QRS ancho y T picudas gigantes: sospechar {{c1::hiperkalemia grave}}.",
+   "extra": "",
+   "origen": "libro:caso",
+   "fuente": "Libro · Caso clínico",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En hiperkalemia con QRS ancho durante el paro se da de inmediato {{c1::gluconato de calcio al 10% EV}}.",
+   "extra": "Luego insulina con glucosa y bicarbonato para desplazar el potasio.",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Gluconato de calcio 10% en el paro: {{c1::10 a 20 mL}} EV en 2-5 min.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de fármacos y manejo",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Bicarbonato de sodio en el paro: {{c1::50 mEq EV}}, solo en hiperkalemia grave, tricíclicos o acidosis previa.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de fármacos y manejo",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Post-paro: mantener la SpO₂ entre {{c1::92 y 98%}} y la PAM ≥ {{c2::65 mmHg}}.",
+   "extra": "Evitar la hiperoxia.",
+   "origen": "clase:7",
+   "fuente": "Clase · Cuidados post-paro",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras recuperar circulación con supradesnivel del ST, se hace {{c1::coronariografía urgente}}, aunque el paciente esté en coma.",
+   "extra": "Error: esperar 72 horas para decidir.",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 4"
+   ],
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El pronóstico neurológico post-paro se posterga al menos {{c1::72 horas}}.",
+   "extra": "Evaluación multimodal.",
+   "origen": "clase:7",
+   "fuente": "Clase · Cuidados post-paro",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Control de temperatura post-paro: mantener entre {{c1::32 y 37,5 °C}} y evitar la fiebre.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Cuidados post-paro",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Paro presenciado sin desfibrilador a mano o no monitorizado: se {{c1::comprime primero}}.",
+   "extra": "Descargar de inmediato exige paro presenciado y desfibrilador a mano.",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Errores frecuentes",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 120",
+    "EUNACOM Agosto 2021 · Pregunta 55",
+    "EUNACOM Julio 2017 · Pregunta 35",
+    "EUNACOM Diciembre 2022 · Pregunta 158"
+   ],
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.006"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-03/01_fibrilacion-ventricular-ecg__stroobandt-ecg_p307.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Fibrilación ventricular",
+   "clave": "Oscilaciones caóticas e irregulares, sin QRS identificables",
+   "conducta": "Descarga de 200 J bifásicos y RCP por 2 minutos sin chequear pulso",
+   "fuente": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials, p. 307",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-03/02_fv-terminada-por-descarga-dai__stroobandt-ecg_p309.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "FV terminada por una descarga",
+   "clave": "Tras el choque, el ritmo caótico se interrumpe",
+   "conducta": "Reanudar de inmediato las compresiones por 2 minutos, sin palpar pulso",
+   "fuente": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials, p. 309",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.006",
+    "1.01.5.004"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Ritmo desfibrilable: ¿qué haces primero?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0.0",
+   "pista": "FV persistente a los 4 minutos: ¿qué fármaco y dosis?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1",
+   "pista": "Asistolia o AESP: ¿se descarga?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.2",
+   "pista": "Retorno de circulación: ¿qué sigue?"
+  }
+ ]
+}

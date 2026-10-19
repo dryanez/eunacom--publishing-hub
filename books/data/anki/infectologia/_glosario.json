@@ -1,0 +1,2840 @@
+{
+ "_doc": "Glosario clicable del mazo Anki (popover en el reverso). 'def' se escribe a mano desde el libro (sin cifras nuevas) y se conserva al regenerar; pagina/clase/t/url los recalcula conceptos.py. Términos y alias: books/scripts/anki/vocab_*.txt.",
+ "libro": "infectologia",
+ "pdf": "books/dist/Modulo_1_Medicina_Interna/Manual_EUNACOM_Infectologia_Completo_2026.pdf",
+ "terminos": {
+  "Sepsis": {
+   "termino": "Sepsis",
+   "tipo": "Concepto",
+   "alias": [
+    "sepsis",
+    "síndrome séptico"
+   ],
+   "def": "Disfunción orgánica potencialmente mortal por respuesta desregulada a la infección (Sepsis-3). Se confirma con sospecha de infección y aumento agudo del SOFA; el SIRS se abandonó.",
+   "pagina": 5,
+   "clase": "infecto-01",
+   "claseTitulo": "1.1 Sepsis y Shock Séptico (Consenso Sepsis-3 & Paquete 1ª Hora)",
+   "diapositiva": 1,
+   "t": 28.5,
+   "mmss": "0:28",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-01&t=28&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-01&t=28",
+   "notas": 10
+  },
+  "Shock_septico": {
+   "termino": "Shock séptico",
+   "tipo": "Concepto",
+   "alias": [
+    "shock séptico"
+   ],
+   "def": "Sepsis con colapso circulatorio: tras el volumen persiste necesidad de vasopresores para PAM ≥ 65 mmHg y lactato > 2 mmol/L. Vasopresor de 1ª línea: noradrenalina.",
+   "pagina": 5,
+   "clase": "infecto-01",
+   "claseTitulo": "1.1 Sepsis y Shock Séptico (Consenso Sepsis-3 & Paquete 1ª Hora)",
+   "diapositiva": 3,
+   "t": 182.6,
+   "mmss": "3:03",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-01&t=182&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-01&t=182",
+   "notas": 10
+  },
+  "SOFA": {
+   "termino": "SOFA",
+   "tipo": "Concepto",
+   "alias": [
+    "SOFA",
+    "qSOFA"
+   ],
+   "def": "Score de disfunción orgánica: un aumento agudo ≥ 2 puntos sobre el basal, con sospecha de infección, confirma sepsis. En urgencias se usa su versión rápida, el qSOFA.",
+   "pagina": 5,
+   "clase": "infecto-01",
+   "claseTitulo": "1.1 Sepsis y Shock Séptico (Consenso Sepsis-3 & Paquete 1ª Hora)",
+   "diapositiva": 2,
+   "t": 109.6,
+   "mmss": "1:50",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-01&t=109&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-01&t=109",
+   "notas": 6
+  },
+  "Lactato": {
+   "termino": "Lactato",
+   "tipo": "Examen",
+   "alias": [
+    "lactato",
+    "ácido láctico"
+   ],
+   "def": "Marcador de hipoperfusión que se mide en la primera hora de la sepsis. > 2 mmol/L tras el volumen define shock séptico; si está elevado se remide a las 2–4 h.",
+   "pagina": 5,
+   "clase": "infecto-01",
+   "claseTitulo": "1.1 Sepsis y Shock Séptico (Consenso Sepsis-3 & Paquete 1ª Hora)",
+   "diapositiva": 4,
+   "t": 253.6,
+   "mmss": "4:14",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-01&t=253&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-01&t=253",
+   "notas": 10
+  },
+  "Hemocultivos": {
+   "termino": "Hemocultivos",
+   "tipo": "Examen",
+   "alias": [
+    "hemocultivo",
+    "hemocultivos"
+   ],
+   "def": "Cultivos de sangre para identificar bacteriemia. Estándar: 2 a 3 sets de sitios distintos, antes del antibiótico. S. aureus en sangre nunca es contaminante; un negativo no descarta bacteriemia.",
+   "pagina": 99,
+   "clase": "infecto-24",
+   "claseTitulo": "5.5 Neutropenia Febril Post-Quimioterapia y Fiebre sin Foco",
+   "diapositiva": 3,
+   "t": 146.7,
+   "mmss": "2:27",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-24&t=146&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-24&t=146",
+   "notas": 19
+  },
+  "Meningitis_bacteriana": {
+   "termino": "Meningitis bacteriana",
+   "tipo": "Concepto",
+   "alias": [
+    "meningitis bacteriana",
+    "meningitis aguda",
+    "meningitis"
+   ],
+   "def": "Infección subaracnoidea, sobre todo por neumococo y meningococo. Fiebre, cefalea y rigidez de nuca. Tratar de inmediato con dexametasona + ceftriaxona + vancomicina; no esperar la TAC.",
+   "pagina": 8,
+   "clase": "infecto-02",
+   "claseTitulo": "1.2 Meningitis Aguda Bacteriana y Viral",
+   "diapositiva": 12,
+   "t": 677.1,
+   "mmss": "11:17",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-02&t=677&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-02&t=677",
+   "notas": 26
+  },
+  "Meningitis_viral": {
+   "termino": "Meningitis viral",
+   "tipo": "Concepto",
+   "alias": [
+    "meningitis viral",
+    "meningitis aséptica"
+   ],
+   "def": "Meningitis de LCR con predominio mononuclear y glucosa normal, a diferencia de la bacteriana (PMN, hipoglucorraquia e hiperproteinorraquia severa).",
+   "pagina": 11,
+   "clase": "infecto-02",
+   "claseTitulo": "1.2 Meningitis Aguda Bacteriana y Viral",
+   "diapositiva": 5,
+   "t": 296.7,
+   "mmss": "4:57",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-02&t=296&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-02&t=296",
+   "notas": 2
+  },
+  "Puncion_lumbar": {
+   "termino": "Punción lumbar",
+   "tipo": "Examen",
+   "alias": [
+    "punción lumbar",
+    "líquido cefalorraquídeo",
+    "LCR"
+   ],
+   "def": "Estudio de elección para el LCR en meningitis. Pedir TAC antes si hay déficit focal, convulsión reciente, Glasgow bajo, papiledema o inmunodepresión severa; nunca retrasar el antibiótico.",
+   "pagina": 8,
+   "clase": "infecto-02",
+   "claseTitulo": "1.2 Meningitis Aguda Bacteriana y Viral",
+   "diapositiva": 5,
+   "t": 296.7,
+   "mmss": "4:57",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-02&t=296&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-02&t=296",
+   "notas": 25
+  },
+  "Signos_meningeos": {
+   "termino": "Signos meníngeos",
+   "tipo": "Signo",
+   "alias": [
+    "signos meníngeos",
+    "rigidez de nuca",
+    "Kernig",
+    "Brudzinski"
+   ],
+   "def": "Rigidez de nuca y signos de irritación meníngea. La tríada fiebre, cefalea y rigidez de nuca está en menos de la mitad de los casos; en el lactante aparecen tarde o faltan.",
+   "pagina": 8,
+   "clase": "infecto-02",
+   "claseTitulo": "1.2 Meningitis Aguda Bacteriana y Viral",
+   "diapositiva": 2,
+   "t": 91.9,
+   "mmss": "1:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-02&t=91&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-02&t=91",
+   "notas": 6
+  },
+  "Encefalitis_herpetica": {
+   "termino": "Encefalitis herpética",
+   "tipo": "Concepto",
+   "alias": [
+    "encefalitis herpética",
+    "encefalitis por VHS",
+    "encefalitis"
+   ],
+   "def": "Encefalitis por VHS-1 con compromiso de lóbulos temporales: cambios conductuales, afasia, convulsiones. Aciclovir EV de inmediato, sin esperar la PCR en LCR; la RMN es la imagen de elección.",
+   "pagina": 12,
+   "clase": "infecto-03",
+   "claseTitulo": "1.3 Encefalitis Aguda por VHS y Absceso Cerebral",
+   "diapositiva": 10,
+   "t": 542.3,
+   "mmss": "9:02",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-03&t=542&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-03&t=542",
+   "notas": 15
+  },
+  "Absceso_cerebral": {
+   "termino": "Absceso cerebral",
+   "tipo": "Concepto",
+   "alias": [
+    "absceso cerebral"
+   ],
+   "def": "Infección focal supurada intraparenquimatosa: cefalea, fiebre y déficit focal. Lesión en anillo en TAC o RMN con contraste. Ceftriaxona + metronidazol; se opera si es grande.",
+   "pagina": 12,
+   "clase": "infecto-03",
+   "claseTitulo": "1.3 Encefalitis Aguda por VHS y Absceso Cerebral",
+   "diapositiva": 5,
+   "t": 276.3,
+   "mmss": "4:36",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-03&t=276&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-03&t=276",
+   "notas": 6
+  },
+  "Fascitis_necrotizante": {
+   "termino": "Fascitis necrotizante",
+   "tipo": "Concepto",
+   "alias": [
+    "fascitis necrotizante",
+    "infección necrotizante"
+   ],
+   "def": "Infección destructiva de fascia profunda y subcutáneo. Signo precoz: dolor desproporcionado al examen. Urgencia quirúrgica (aseo y fasciotomía) más meropenem, vancomicina y clindamicina.",
+   "pagina": 15,
+   "clase": "infecto-04",
+   "claseTitulo": "1.4 Infecciones Invasivas de Partes Blandas y Angina de Ludwig",
+   "diapositiva": 11,
+   "t": 652.9,
+   "mmss": "10:53",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-04&t=652&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-04&t=652",
+   "notas": 6
+  },
+  "Angina_de_Ludwig": {
+   "termino": "Angina de Ludwig",
+   "tipo": "Concepto",
+   "alias": [
+    "angina de Ludwig",
+    "Ludwig"
+   ],
+   "def": "Celulitis gangrenosa bilateral submandibular y sublingual, de origen dental (molares inferiores). Trismus, lengua protruida y estridor: primero asegurar la vía aérea, luego drenaje y antibióticos EV.",
+   "pagina": 15,
+   "clase": "infecto-04",
+   "claseTitulo": "1.4 Infecciones Invasivas de Partes Blandas y Angina de Ludwig",
+   "diapositiva": 5,
+   "t": 325.0,
+   "mmss": "5:25",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-04&t=325&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-04&t=325",
+   "notas": 8
+  },
+  "Gangrena_de_Fournier": {
+   "termino": "Gangrena de Fournier",
+   "tipo": "Concepto",
+   "alias": [
+    "gangrena de Fournier",
+    "Fournier"
+   ],
+   "def": "Fascitis necrotizante polimicrobiana (tipo I) del periné, en diabéticos o tras cirugía perineal. Requiere aseo quirúrgico urgente y antibióticos EV de amplio espectro.",
+   "pagina": 15,
+   "clase": "infecto-04",
+   "claseTitulo": "1.4 Infecciones Invasivas de Partes Blandas y Angina de Ludwig",
+   "diapositiva": 1,
+   "t": 32.1,
+   "mmss": "0:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-04&t=32&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-04&t=32",
+   "notas": 2
+  },
+  "Rabia": {
+   "termino": "Rabia",
+   "tipo": "Concepto",
+   "alias": [
+    "rabia",
+    "virus rábico"
+   ],
+   "def": "Encefalomielitis letal por Lyssavirus, de la saliva de mamíferos, con hidrofobia y espasmos laríngeos. En Chile todo contacto con murciélago es exposición grave: vacuna completa + inmunoglobulina.",
+   "pagina": 25,
+   "clase": "infecto-06",
+   "claseTitulo": "2.2 Rabia y Tétanos: Profilaxis de Heridas y Manejo Clínico",
+   "diapositiva": 1,
+   "t": 34.4,
+   "mmss": "0:34",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-06&t=34&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-06&t=34",
+   "notas": 5
+  },
+  "Tetanos": {
+   "termino": "Tétanos",
+   "tipo": "Concepto",
+   "alias": [
+    "tétanos",
+    "Clostridium tetani"
+   ],
+   "def": "Neurotoxina de Clostridium tetani que bloquea GABA y glicina: trismus, risa sardónica, opistótonos, con mente lúcida. Muere por paro respiratorio. Se previene con toxoide según tipo de herida.",
+   "pagina": 25,
+   "clase": "infecto-06",
+   "claseTitulo": "2.2 Rabia y Tétanos: Profilaxis de Heridas y Manejo Clínico",
+   "diapositiva": 3,
+   "t": 169.0,
+   "mmss": "2:49",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-06&t=169&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-06&t=169",
+   "notas": 12
+  },
+  "Inmunoglobulina_antitetanica": {
+   "termino": "Inmunoglobulina antitetánica",
+   "tipo": "Concepto",
+   "alias": [
+    "inmunoglobulina antitetánica",
+    "inmunoglobulina antirrábica",
+    "vacuna antitetánica",
+    "vacuna antirrábica"
+   ],
+   "def": "Inmunoglobulina humana (IGH-T) que se da junto con la vacuna dT, en sitios separados, en herida sucia con esquema incompleto o desconocido.",
+   "pagina": 25,
+   "clase": "infecto-06",
+   "claseTitulo": "2.2 Rabia y Tétanos: Profilaxis de Heridas y Manejo Clínico",
+   "diapositiva": 11,
+   "t": 602.7,
+   "mmss": "10:03",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-06&t=602&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-06&t=602",
+   "notas": 1
+  },
+  "Accidente_cortopunzante": {
+   "termino": "Accidente cortopunzante",
+   "tipo": "Concepto",
+   "alias": [
+    "accidente cortopunzante",
+    "cortopunzante",
+    "exposición ocupacional"
+   ],
+   "def": "Punción con aguja contaminada. Lavar con agua y jabón, ELISA basal al trabajador e iniciar triterapia antirretroviral (PEP) sin demora, antes de las 72 horas.",
+   "pagina": 22,
+   "clase": "infecto-05",
+   "claseTitulo": "2.1 Manejo de Contactos en Enfermedades Transmisibles y Accidentes Cortopunzantes",
+   "diapositiva": 4,
+   "t": 208.1,
+   "mmss": "3:28",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-05&t=208&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-05&t=208",
+   "notas": 3
+  },
+  "IAAS": {
+   "termino": "IAAS",
+   "tipo": "Concepto",
+   "alias": [
+    "IAAS",
+    "infección asociada a la atención de salud",
+    "infecciones intrahospitalarias",
+    "infección intrahospitalaria"
+   ],
+   "def": "Infecciones asociadas a la atención de salud. Se previenen con precauciones estándar (higiene de manos) y específicas por mecanismo de transmisión: contacto, gotitas o aérea.",
+   "pagina": 28,
+   "clase": "infecto-07",
+   "claseTitulo": "2.3 IAAS, Infecciones de Catéteres Vasculares y Precauciones de Aislamiento",
+   "diapositiva": 12,
+   "t": 666.5,
+   "mmss": "11:07",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-07&t=666&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-07&t=666",
+   "notas": 1
+  },
+  "Infeccion_de_cateter_venoso_central": {
+   "termino": "Infección de catéter venoso central",
+   "tipo": "Concepto",
+   "alias": [
+    "infección de catéter",
+    "catéter venoso central",
+    "bacteriemia asociada a catéter",
+    "CVC"
+   ],
+   "def": "Bacteriemia por gérmenes de la piel que migran por el catéter (S. epidermidis, S. aureus, Candida). Se diagnostica con hemocultivos pareados; se retira ante shock, S. aureus o Candida.",
+   "pagina": 28,
+   "clase": "infecto-07",
+   "claseTitulo": "2.3 IAAS, Infecciones de Catéteres Vasculares y Precauciones de Aislamiento",
+   "diapositiva": 11,
+   "t": 603.8,
+   "mmss": "10:04",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-07&t=603&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-07&t=603",
+   "notas": 12
+  },
+  "Precauciones_de_aislamiento": {
+   "termino": "Precauciones de aislamiento",
+   "tipo": "Concepto",
+   "alias": [
+    "precauciones de aislamiento",
+    "aislamiento de contacto",
+    "aislamiento respiratorio",
+    "aislamiento por gotitas",
+    "precauciones estándar"
+   ],
+   "def": "Estándar en todos; contacto (bata y guantes: multirresistentes, C. difficile con jabón); gotitas (mascarilla quirúrgica: meningococo, influenza); aéreo (N95: TBC, sarampión, varicela).",
+   "pagina": 28,
+   "clase": "infecto-07",
+   "claseTitulo": "2.3 IAAS, Infecciones de Catéteres Vasculares y Precauciones de Aislamiento",
+   "diapositiva": 1,
+   "t": 29.7,
+   "mmss": "0:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-07&t=29&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-07&t=29",
+   "notas": 8
+  },
+  "Botulismo": {
+   "termino": "Botulismo",
+   "tipo": "Concepto",
+   "alias": [
+    "botulismo",
+    "Clostridium botulinum"
+   ],
+   "def": "Parálisis flácida descendente por toxina de C. botulinum (conservas caseras): pares craneanos, parálisis y disautonomía. UCI, ventilación y antitoxina precoz; no revierte la parálisis ya instalada.",
+   "pagina": 30,
+   "clase": "infecto-08",
+   "claseTitulo": "2.4 Intoxicación Alimentaria, Botulismo y Cólera",
+   "diapositiva": 4,
+   "t": 233.0,
+   "mmss": "3:53",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-08&t=233&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-08&t=233",
+   "notas": 11
+  },
+  "Colera": {
+   "termino": "Cólera",
+   "tipo": "Concepto",
+   "alias": [
+    "cólera",
+    "Vibrio cholerae"
+   ],
+   "def": "Diarrea en agua de arroz por toxina de Vibrio cholerae; puede llevar a shock hipovolémico en horas. Prioridad: rehidratación; doxiciclina o azitromicina acortan el cuadro. Notificación inmediata.",
+   "pagina": 30,
+   "clase": "infecto-08",
+   "claseTitulo": "2.4 Intoxicación Alimentaria, Botulismo y Cólera",
+   "diapositiva": 2,
+   "t": 123.0,
+   "mmss": "2:03",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-08&t=123&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-08&t=123",
+   "notas": 15
+  },
+  "Salmonella": {
+   "termino": "Salmonella",
+   "tipo": "Concepto",
+   "alias": [
+    "Salmonella",
+    "salmonelosis"
+   ],
+   "def": "Bacilo gramnegativo entérico: S. enteritidis causa diarrea con fiebre tras huevos crudos o aves (incubación larga); S. Typhi causa la fiebre tifoidea.",
+   "pagina": 30,
+   "clase": "infecto-08",
+   "claseTitulo": "2.4 Intoxicación Alimentaria, Botulismo y Cólera",
+   "diapositiva": 10,
+   "t": 543.2,
+   "mmss": "9:03",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-08&t=543&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-08&t=543",
+   "notas": 3
+  },
+  "Staphylococcus_aureus": {
+   "termino": "Staphylococcus aureus",
+   "tipo": "Concepto",
+   "alias": [
+    "Staphylococcus aureus",
+    "S. aureus",
+    "estafilococo dorado",
+    "SAMR"
+   ],
+   "def": "Coco grampositivo causa de celulitis, foliculitis, forúnculo e impétigo. Hay cepas resistentes (SAMR). Primera línea oral: cefadroxilo, cefalexina o flucloxacilina.",
+   "pagina": 83,
+   "clase": "infecto-20",
+   "claseTitulo": "5.1 Infecciones de Piel Comunitarias: Celulitis, Erisipela y Foliculitis",
+   "diapositiva": 6,
+   "t": 318.0,
+   "mmss": "5:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-20&t=317&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-20&t=317",
+   "notas": 19
+  },
+  "Streptococcus_pyogenes": {
+   "termino": "Streptococcus pyogenes",
+   "tipo": "Concepto",
+   "alias": [
+    "Streptococcus pyogenes",
+    "estreptococo beta hemolítico",
+    "estreptococo del grupo A",
+    "S. pyogenes"
+   ],
+   "def": "Estreptococo betahemolítico grupo A: causa casi exclusiva de erisipela, de escarlatina y de fascitis tipo II. Tratar la faringitis previene la fiebre reumática.",
+   "pagina": 83,
+   "clase": "infecto-20",
+   "claseTitulo": "5.1 Infecciones de Piel Comunitarias: Celulitis, Erisipela y Foliculitis",
+   "diapositiva": 1,
+   "t": 27.8,
+   "mmss": "0:28",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-20&t=27&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-20&t=27",
+   "notas": 6
+  },
+  "Streptococcus_pneumoniae": {
+   "termino": "Streptococcus pneumoniae",
+   "tipo": "Concepto",
+   "alias": [
+    "Streptococcus pneumoniae",
+    "neumococo",
+    "S. pneumoniae"
+   ],
+   "def": "Diplococo grampositivo lanceolado, causa principal de meningitis bacteriana comunitaria junto al meningococo. La dexametasona reduce secuelas auditivas y mortalidad.",
+   "pagina": 8,
+   "clase": "infecto-02",
+   "claseTitulo": "1.2 Meningitis Aguda Bacteriana y Viral",
+   "diapositiva": 1,
+   "t": 30.3,
+   "mmss": "0:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-02&t=30&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-02&t=30",
+   "notas": 7
+  },
+  "Neisseria_meningitidis": {
+   "termino": "Neisseria meningitidis",
+   "tipo": "Concepto",
+   "alias": [
+    "Neisseria meningitidis",
+    "meningococo",
+    "meningococemia"
+   ],
+   "def": "Diplococo gramnegativo, causa de meningitis y meningococcemia con petequias y púrpura. Ceftriaxona inmediata, aislamiento por gotitas, notificación y quimioprofilaxis de contactos íntimos.",
+   "pagina": 8,
+   "clase": "infecto-02",
+   "claseTitulo": "1.2 Meningitis Aguda Bacteriana y Viral",
+   "diapositiva": 1,
+   "t": 30.3,
+   "mmss": "0:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-02&t=30&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-02&t=30",
+   "notas": 12
+  },
+  "Listeria": {
+   "termino": "Listeria",
+   "tipo": "Concepto",
+   "alias": [
+    "Listeria monocytogenes",
+    "Listeria"
+   ],
+   "def": "Listeria monocytogenes, resistente a cefalosporinas. En mayores de 50 años, embarazadas e inmunodeprimidos con meningitis se agrega ampicilina; se previene con lácteos pasteurizados.",
+   "pagina": 11,
+   "clase": "infecto-02",
+   "claseTitulo": "1.2 Meningitis Aguda Bacteriana y Viral",
+   "diapositiva": 4,
+   "t": 228.0,
+   "mmss": "3:48",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-02&t=228&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-02&t=228",
+   "notas": 2
+  },
+  "Pseudomonas_aeruginosa": {
+   "termino": "Pseudomonas aeruginosa",
+   "tipo": "Concepto",
+   "alias": [
+    "Pseudomonas aeruginosa",
+    "Pseudomonas"
+   ],
+   "def": "Bacilo gramnegativo, patógeno más temido en neutropenia febril (shock fulminante). Se cubre con cefepime o piperacilina-tazobactam; también causa foliculitis de tinas calientes.",
+   "pagina": 102,
+   "clase": "infecto-24",
+   "claseTitulo": "5.5 Neutropenia Febril Post-Quimioterapia y Fiebre sin Foco",
+   "diapositiva": 4,
+   "t": 203.1,
+   "mmss": "3:23",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-24&t=203&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-24&t=203",
+   "notas": 7
+  },
+  "BLEE": {
+   "termino": "BLEE",
+   "tipo": "Concepto",
+   "alias": [
+    "BLEE",
+    "betalactamasas de espectro extendido"
+   ],
+   "def": "Betalactamasa de espectro extendido: mecanismo de multirresistencia en enterobacterias. Exige aislamiento de contacto; el abuso de antibióticos selecciona esta resistencia.",
+   "pagina": 28,
+   "clase": "infecto-07",
+   "claseTitulo": "2.3 IAAS, Infecciones de Catéteres Vasculares y Precauciones de Aislamiento",
+   "diapositiva": 1,
+   "t": 29.7,
+   "mmss": "0:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-07&t=29&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-07&t=29",
+   "notas": 2
+  },
+  "VIH": {
+   "termino": "VIH",
+   "tipo": "Concepto",
+   "alias": [
+    "VIH",
+    "virus de inmunodeficiencia humana"
+   ],
+   "def": "Virus que destruye CD4. Test voluntario, confidencial y con consentimiento; tamizaje ELISA y confirmación obligatoria por el ISP. Se trata a todo caso confirmado de inmediato (Test & Treat).",
+   "pagina": 36,
+   "clase": "infecto-09",
+   "claseTitulo": "3.1 Infección por VIH: Diagnóstico, Etapificación y Terapia Antirretroviral (TARV GES)",
+   "diapositiva": 5,
+   "t": 290.5,
+   "mmss": "4:51",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-09&t=290&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-09&t=290",
+   "notas": 49
+  },
+  "SIDA": {
+   "termino": "SIDA",
+   "tipo": "Concepto",
+   "alias": [
+    "SIDA",
+    "síndrome de inmunodeficiencia adquirida"
+   ],
+   "def": "Etapa C del VIH: CD4 < 200/mm³ o patología marcadora (Pneumocystis, criptococo, TBC extrapulmonar, Kaposi). Es candidiasis esofágica, no oral, la que define etapa SIDA.",
+   "pagina": 39,
+   "clase": "infecto-10",
+   "claseTitulo": "3.2 Infecciones Oportunistas Mayores en VIH/SIDA",
+   "diapositiva": 1,
+   "t": 32.4,
+   "mmss": "0:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-10&t=32&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-10&t=32",
+   "notas": 9
+  },
+  "TARV": {
+   "termino": "TARV",
+   "tipo": "Concepto",
+   "alias": [
+    "TARV",
+    "terapia antirretroviral",
+    "tratamiento antirretroviral",
+    "antirretrovirales"
+   ],
+   "def": "Terapia antirretroviral, con cobertura GES. Se inicia de inmediato en todo caso confirmado, sin esperar CD4. 1ª línea en una pastilla diaria: tenofovir + lamivudina + dolutegravir.",
+   "pagina": 36,
+   "clase": "infecto-09",
+   "claseTitulo": "3.1 Infección por VIH: Diagnóstico, Etapificación y Terapia Antirretroviral (TARV GES)",
+   "diapositiva": 2,
+   "t": 124.8,
+   "mmss": "2:05",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-09&t=124&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-09&t=124",
+   "notas": 7
+  },
+  "Profilaxis_post_exposicion": {
+   "termino": "Profilaxis post-exposición",
+   "tipo": "Concepto",
+   "alias": [
+    "profilaxis post exposición",
+    "profilaxis postexposición",
+    "PPE",
+    "PrEP"
+   ],
+   "def": "Antirretrovirales tras exposición de riesgo al VIH (PEP), también ofrecida en ITS de riesgo. En accidente cortopunzante se inicia en horas, antes de las 72 horas.",
+   "pagina": 51,
+   "clase": "infecto-13",
+   "claseTitulo": "3.5 Infecciones de Transmisión Sexual (ITS) II: Uretritis, Úlceras Genitales y VPH",
+   "diapositiva": 7,
+   "t": 400.2,
+   "mmss": "6:40",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-13&t=400&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-13&t=400",
+   "notas": 1
+  },
+  "ELISA": {
+   "termino": "ELISA",
+   "tipo": "Examen",
+   "alias": [
+    "ELISA",
+    "test de ELISA"
+   ],
+   "def": "Prueba de tamizaje de 4ª generación (Ag p24 + anticuerpos) para VIH. Un reactivo se confirma siempre en el ISP; nunca se comunica positividad sin confirmación.",
+   "pagina": 36,
+   "clase": "infecto-09",
+   "claseTitulo": "3.1 Infección por VIH: Diagnóstico, Etapificación y Terapia Antirretroviral (TARV GES)",
+   "diapositiva": 1,
+   "t": 32.0,
+   "mmss": "0:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-09&t=32&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-09&t=32",
+   "notas": 7
+  },
+  "Carga_viral": {
+   "termino": "Carga viral",
+   "tipo": "Examen",
+   "alias": [
+    "carga viral"
+   ],
+   "def": "Cantidad de ARN del VIH en sangre. Indetectable (< 50 copias/mL por más de 6 meses) significa intransmisible (I = I). En gestantes guía la vía del parto.",
+   "pagina": 36,
+   "clase": "infecto-09",
+   "claseTitulo": "3.1 Infección por VIH: Diagnóstico, Etapificación y Terapia Antirretroviral (TARV GES)",
+   "diapositiva": 2,
+   "t": 124.8,
+   "mmss": "2:05",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-09&t=124&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-09&t=124",
+   "notas": 10
+  },
+  "Recuento_de_CD4": {
+   "termino": "Recuento de CD4",
+   "tipo": "Examen",
+   "alias": [
+    "CD4",
+    "linfocitos CD4",
+    "recuento CD4"
+   ],
+   "def": "Linfocitos CD4 que estadifican el VIH; bajo 200/mm³ es etapa SIDA y define cuándo aparecen oportunistas y qué profilaxis indicar (cotrimoxazol con CD4 < 200).",
+   "pagina": 39,
+   "clase": "infecto-10",
+   "claseTitulo": "3.2 Infecciones Oportunistas Mayores en VIH/SIDA",
+   "diapositiva": 1,
+   "t": 32.4,
+   "mmss": "0:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-10&t=32&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-10&t=32",
+   "notas": 20
+  },
+  "Pneumocystis_jirovecii": {
+   "termino": "Pneumocystis jirovecii",
+   "tipo": "Concepto",
+   "alias": [
+    "Pneumocystis jirovecii",
+    "Pneumocystis",
+    "neumonía por Pneumocystis",
+    "PCP"
+   ],
+   "def": "Hongo causa de la neumonía oportunista más frecuente en SIDA (CD4 < 200): disnea, tos seca, desaturación al esfuerzo y LDH alta. Cotrimoxazol en dosis altas; corticoides si hay hipoxemia.",
+   "pagina": 40,
+   "clase": "infecto-10",
+   "claseTitulo": "3.2 Infecciones Oportunistas Mayores en VIH/SIDA",
+   "diapositiva": 16,
+   "t": 902.8,
+   "mmss": "15:03",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-10&t=902&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-10&t=902",
+   "notas": 14
+  },
+  "Toxoplasmosis_cerebral": {
+   "termino": "Toxoplasmosis cerebral",
+   "tipo": "Concepto",
+   "alias": [
+    "toxoplasmosis cerebral",
+    "toxoplasmosis",
+    "Toxoplasma gondii"
+   ],
+   "def": "Reactivación de Toxoplasma con CD4 < 100: lesiones múltiples en anillo con edema. Se trata empíricamente con sulfadiazina + pirimetamina; si no mejora, se sospecha linfoma y se biopsia.",
+   "pagina": 86,
+   "clase": "infecto-21",
+   "claseTitulo": "5.2 Síndrome Mononucleósico y Complejo TORCH",
+   "diapositiva": 5,
+   "t": 251.9,
+   "mmss": "4:12",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-21&t=251&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-21&t=251",
+   "notas": 6
+  },
+  "Criptococosis": {
+   "termino": "Criptococosis",
+   "tipo": "Concepto",
+   "alias": [
+    "criptococosis",
+    "Cryptococcus",
+    "Cryptococcus neoformans"
+   ],
+   "def": "Meningitis por Cryptococcus con CD4 bajo: cefalea insidiosa, poca rigidez de nuca. LCR con presión alta, tinta china y antígeno. Anfotericina B liposomal + flucitosina, luego fluconazol.",
+   "pagina": 39,
+   "clase": "infecto-10",
+   "claseTitulo": "3.2 Infecciones Oportunistas Mayores en VIH/SIDA",
+   "diapositiva": null,
+   "t": 0,
+   "mmss": "0:00",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-10&t=0",
+   "notas": 2
+  },
+  "Tinta_china": {
+   "termino": "Tinta china",
+   "tipo": "Examen",
+   "alias": [
+    "tinta china",
+    "antígeno criptocócico"
+   ],
+   "def": "Tinción del LCR que muestra levaduras encapsuladas con halo claro (Cryptococcus). Es menos sensible que el antígeno criptocócico: un resultado negativo no descarta.",
+   "pagina": 39,
+   "clase": "infecto-10",
+   "claseTitulo": "3.2 Infecciones Oportunistas Mayores en VIH/SIDA",
+   "diapositiva": 7,
+   "t": 391.2,
+   "mmss": "6:31",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-10&t=391&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-10&t=391",
+   "notas": 3
+  },
+  "Candidiasis": {
+   "termino": "Candidiasis",
+   "tipo": "Concepto",
+   "alias": [
+    "candidiasis",
+    "Candida",
+    "candidiasis esofágica",
+    "muguet"
+   ],
+   "def": "Infección por Candida: muguet oral (placas blanquecinas desprendibles, CD4 bajo) se trata con nistatina o fluconazol; la esofágica (odinofagia) define etapa SIDA.",
+   "pagina": 39,
+   "clase": "infecto-10",
+   "claseTitulo": "3.2 Infecciones Oportunistas Mayores en VIH/SIDA",
+   "diapositiva": 9,
+   "t": 512.1,
+   "mmss": "8:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-10&t=512&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-10&t=512",
+   "notas": 6
+  },
+  "Citomegalovirus": {
+   "termino": "Citomegalovirus",
+   "tipo": "Concepto",
+   "alias": [
+    "citomegalovirus",
+    "CMV"
+   ],
+   "def": "Herpesvirus: en el inmunocompetente causa síndrome mononucleósico con anticuerpos heterófilos negativos; congénito es causa de hipoacusia neurosensorial. Ganciclovir si hay enfermedad.",
+   "pagina": 86,
+   "clase": "infecto-21",
+   "claseTitulo": "5.2 Síndrome Mononucleósico y Complejo TORCH",
+   "diapositiva": 15,
+   "t": 753.2,
+   "mmss": "12:33",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-21&t=753&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-21&t=753",
+   "notas": 9
+  },
+  "Complejo_Mycobacterium_avium": {
+   "termino": "Complejo Mycobacterium avium",
+   "tipo": "Concepto",
+   "alias": [
+    "Mycobacterium avium",
+    "MAC"
+   ],
+   "def": "Micobacteria que causa diarrea e infección diseminada en VIH muy avanzado. La profilaxis con azitromicina ya no se recomienda si se inicia TARV.",
+   "pagina": 41,
+   "clase": "infecto-10",
+   "claseTitulo": "3.2 Infecciones Oportunistas Mayores en VIH/SIDA",
+   "diapositiva": 1,
+   "t": 32.4,
+   "mmss": "0:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-10&t=32&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-10&t=32",
+   "notas": 2
+  },
+  "Tuberculosis": {
+   "termino": "Tuberculosis",
+   "tipo": "Concepto",
+   "alias": [
+    "tuberculosis",
+    "TBC",
+    "TB",
+    "Mycobacterium tuberculosis",
+    "bacilo de Koch"
+   ],
+   "def": "Infección por M. tuberculosis, bacilo ácido-alcohol resistente. Esquema nacional diario supervisado de 6 meses: 2 meses con 4 fármacos (RHZE) y 4 meses con rifampicina + isoniazida.",
+   "pagina": 43,
+   "clase": "infecto-11",
+   "claseTitulo": "3.3 Tuberculosis: Formas Extrapulmonares, Diagnóstico y Manejo MDR",
+   "diapositiva": 4,
+   "t": 204.7,
+   "mmss": "3:25",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-11&t=204&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-11&t=204",
+   "notas": 32
+  },
+  "Tuberculosis_extrapulmonar": {
+   "termino": "Tuberculosis extrapulmonar",
+   "tipo": "Concepto",
+   "alias": [
+    "tuberculosis extrapulmonar",
+    "TBC extrapulmonar",
+    "tuberculosis miliar",
+    "mal de Pott",
+    "tuberculosis ganglionar",
+    "meningitis tuberculosa"
+   ],
+   "def": "Pleural (ADA alto), ganglionar (la más frecuente), meníngea, mal de Pott y genitourinaria. Más del 50 % de los casos con VIH. Se trata con el esquema estándar.",
+   "pagina": 43,
+   "clase": "infecto-11",
+   "claseTitulo": "3.3 Tuberculosis: Formas Extrapulmonares, Diagnóstico y Manejo MDR",
+   "diapositiva": 3,
+   "t": 144.4,
+   "mmss": "2:24",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-11&t=144&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-11&t=144",
+   "notas": 8
+  },
+  "Tuberculosis_multirresistente": {
+   "termino": "Tuberculosis multirresistente",
+   "tipo": "Concepto",
+   "alias": [
+    "tuberculosis multirresistente",
+    "TBC MDR",
+    "MDR",
+    "multidrogorresistente"
+   ],
+   "def": "Resistencia a isoniacida y rifampicina. Se sospecha en retratamientos, contactos de casos MDR y VIH; se trata en centro especializado, siempre con tratamiento directamente observado.",
+   "pagina": 43,
+   "clase": "infecto-11",
+   "claseTitulo": "3.3 Tuberculosis: Formas Extrapulmonares, Diagnóstico y Manejo MDR",
+   "diapositiva": 7,
+   "t": 384.7,
+   "mmss": "6:25",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-11&t=384&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-11&t=384",
+   "notas": 1
+  },
+  "Baciloscopia": {
+   "termino": "Baciloscopía",
+   "tipo": "Examen",
+   "alias": [
+    "baciloscopía",
+    "baciloscopia",
+    "BK"
+   ],
+   "def": "Tinción de Ziehl-Neelsen o auramina para ver BAAR en la muestra. Es rápida y económica, pero poco sensible: necesita muchos bacilos por mL.",
+   "pagina": 43,
+   "clase": "infecto-11",
+   "claseTitulo": "3.3 Tuberculosis: Formas Extrapulmonares, Diagnóstico y Manejo MDR",
+   "diapositiva": 4,
+   "t": 204.7,
+   "mmss": "3:25",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-11&t=204&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-11&t=204",
+   "notas": 8
+  },
+  "Cultivo_de_Koch": {
+   "termino": "Cultivo de Koch",
+   "tipo": "Examen",
+   "alias": [
+    "cultivo de Koch",
+    "cultivo de micobacterias"
+   ],
+   "def": "Cultivo de micobacterias en Lowenstein-Jensen (sólido) o MGIT (líquido); es el gold standard y permite el antibiograma. En TBC genitourinaria se hace en orina matinal.",
+   "pagina": 43,
+   "clase": "infecto-11",
+   "claseTitulo": "3.3 Tuberculosis: Formas Extrapulmonares, Diagnóstico y Manejo MDR",
+   "diapositiva": 7,
+   "t": 384.7,
+   "mmss": "6:25",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-11&t=384&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-11&t=384",
+   "notas": 1
+  },
+  "Prueba_de_tuberculina": {
+   "termino": "Prueba de tuberculina",
+   "tipo": "Examen",
+   "alias": [
+    "tuberculina",
+    "PPD",
+    "prueba de tuberculina"
+   ],
+   "def": "PPD intradérmico leído a las 48–72 h midiendo la induración. Positivo ≥ 10 mm (≥ 5 mm en VIH): indica infección, no enfermedad activa. Falsos negativos por anergia.",
+   "pagina": 22,
+   "clase": "infecto-05",
+   "claseTitulo": "2.1 Manejo de Contactos en Enfermedades Transmisibles y Accidentes Cortopunzantes",
+   "diapositiva": 1,
+   "t": 33.9,
+   "mmss": "0:34",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-05&t=33&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-05&t=33",
+   "notas": 17
+  },
+  "GeneXpert": {
+   "termino": "GeneXpert",
+   "tipo": "Examen",
+   "alias": [
+    "GeneXpert",
+    "Xpert MTB/RIF"
+   ],
+   "def": "PCR en tiempo real automatizada: detecta M. tuberculosis y la mutación rpoB de resistencia a rifampicina en menos de 2 horas. Prueba inicial en niños, VIH y contactos de casos resistentes.",
+   "pagina": 43,
+   "clase": "infecto-11",
+   "claseTitulo": "3.3 Tuberculosis: Formas Extrapulmonares, Diagnóstico y Manejo MDR",
+   "diapositiva": 4,
+   "t": 204.7,
+   "mmss": "3:25",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-11&t=204&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-11&t=204",
+   "notas": 4
+  },
+  "IGRA": {
+   "termino": "IGRA",
+   "tipo": "Examen",
+   "alias": [
+    "IGRA",
+    "Quantiferon"
+   ],
+   "def": "Prueba en sangre (QuantiFERON) para infección tuberculosa que no se afecta por la BCG; se usa en el estudio de fiebre prolongada junto al PPD.",
+   "pagina": 99,
+   "clase": "infecto-24",
+   "claseTitulo": "5.5 Neutropenia Febril Post-Quimioterapia y Fiebre sin Foco",
+   "diapositiva": 8,
+   "t": 419.5,
+   "mmss": "6:59",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-24&t=419&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-24&t=419",
+   "notas": 1
+  },
+  "Infeccion_tuberculosa_latente": {
+   "termino": "Infección tuberculosa latente",
+   "tipo": "Concepto",
+   "alias": [
+    "infección tuberculosa latente",
+    "ITL",
+    "quimioprofilaxis"
+   ],
+   "def": "PPD positivo sin enfermedad activa. En contactos menores de 15 años se da isoniazida de entrada sin esperar el PPD; en adultos solo con PPD > 10 mm (> 5 mm en VIH).",
+   "pagina": 22,
+   "clase": "infecto-05",
+   "claseTitulo": "2.1 Manejo de Contactos en Enfermedades Transmisibles y Accidentes Cortopunzantes",
+   "diapositiva": 2,
+   "t": 116.6,
+   "mmss": "1:57",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-05&t=116&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-05&t=116",
+   "notas": 3
+  },
+  "Sifilis": {
+   "termino": "Sífilis",
+   "tipo": "Concepto",
+   "alias": [
+    "sífilis",
+    "Treponema pallidum"
+   ],
+   "def": "Infección por Treponema pallidum, sexual o transplacentaria. Etapas: primaria, secundaria, latente y terciaria. Tratamiento con penicilina benzatina; VDRL cuantitativo sigue la respuesta.",
+   "pagina": 47,
+   "clase": "infecto-12",
+   "claseTitulo": "3.4 Infecciones de Transmisión Sexual (ITS) I: Sífilis en Todas sus Etapas",
+   "diapositiva": 1,
+   "t": 29.2,
+   "mmss": "0:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-12&t=29&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-12&t=29",
+   "notas": 18
+  },
+  "Sifilis_primaria": {
+   "termino": "Sífilis primaria",
+   "tipo": "Concepto",
+   "alias": [
+    "sífilis primaria",
+    "chancro sifilítico",
+    "chancro duro",
+    "chancro"
+   ],
+   "def": "Chancro indurado, único, indoloro y de fondo limpio, con adenopatías duras indoloras. Cura sola en 3–6 semanas. Penicilina benzatina 2.400.000 UI IM dosis única.",
+   "pagina": 48,
+   "clase": "infecto-12",
+   "claseTitulo": "3.4 Infecciones de Transmisión Sexual (ITS) I: Sífilis en Todas sus Etapas",
+   "diapositiva": 12,
+   "t": 598.5,
+   "mmss": "9:59",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-12&t=598&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-12&t=598",
+   "notas": 10
+  },
+  "Sifilis_secundaria": {
+   "termino": "Sífilis secundaria",
+   "tipo": "Concepto",
+   "alias": [
+    "sífilis secundaria",
+    "condilomas planos",
+    "roséola sifilítica"
+   ],
+   "def": "Roseola sifilítica (exantema maculopapular con compromiso palmoplantar), condilomas planos perianales y micropoliadenopatías.",
+   "pagina": 48,
+   "clase": "infecto-12",
+   "claseTitulo": "3.4 Infecciones de Transmisión Sexual (ITS) I: Sífilis en Todas sus Etapas",
+   "diapositiva": 2,
+   "t": 81.2,
+   "mmss": "1:21",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-12&t=81&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-12&t=81",
+   "notas": 4
+  },
+  "Sifilis_terciaria": {
+   "termino": "Sífilis terciaria",
+   "tipo": "Concepto",
+   "alias": [
+    "sífilis terciaria",
+    "goma sifilítico",
+    "gomas",
+    "tabes dorsal"
+   ],
+   "def": "Etapa tardía con gomas, aortitis y neurosífilis. Tratamiento como sífilis tardía: penicilina benzatina 2.400.000 UI IM semanal por 3 semanas.",
+   "pagina": 47,
+   "clase": "infecto-12",
+   "claseTitulo": "3.4 Infecciones de Transmisión Sexual (ITS) I: Sífilis en Todas sus Etapas",
+   "diapositiva": 3,
+   "t": 129.0,
+   "mmss": "2:09",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-12&t=128&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-12&t=128",
+   "notas": 1
+  },
+  "Neurosifilis": {
+   "termino": "Neurosífilis",
+   "tipo": "Concepto",
+   "alias": [
+    "neurosífilis"
+   ],
+   "def": "Compromiso del sistema nervioso por sífilis tardía, más frecuente en coinfectados con VIH. Se trata con penicilina.",
+   "pagina": 47,
+   "clase": "infecto-12",
+   "claseTitulo": "3.4 Infecciones de Transmisión Sexual (ITS) I: Sífilis en Todas sus Etapas",
+   "diapositiva": 1,
+   "t": 29.2,
+   "mmss": "0:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-12&t=29&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-12&t=29",
+   "notas": 1
+  },
+  "Sifilis_congenita": {
+   "termino": "Sífilis congénita",
+   "tipo": "Concepto",
+   "alias": [
+    "sífilis congénita"
+   ],
+   "def": "Transmisión transplacentaria; tamizaje VDRL en el primer control, a las 28 semanas y al parto. Recién nacido de madre no tratada se estudia y recibe penicilina G sódica EV por 10 días.",
+   "pagina": 47,
+   "clase": "infecto-12",
+   "claseTitulo": "3.4 Infecciones de Transmisión Sexual (ITS) I: Sífilis en Todas sus Etapas",
+   "diapositiva": 7,
+   "t": 359.2,
+   "mmss": "5:59",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-12&t=359&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-12&t=359",
+   "notas": 5
+  },
+  "VDRL": {
+   "termino": "VDRL",
+   "tipo": "Examen",
+   "alias": [
+    "VDRL",
+    "RPR"
+   ],
+   "def": "Prueba no treponémica cuantitativa (también RPR): mide actividad y respuesta al tratamiento; curación si cae ≥ 4 veces o 2 diluciones a los 6–12 meses. No confirma por sí sola.",
+   "pagina": 47,
+   "clase": "infecto-12",
+   "claseTitulo": "3.4 Infecciones de Transmisión Sexual (ITS) I: Sífilis en Todas sus Etapas",
+   "diapositiva": 4,
+   "t": 166.3,
+   "mmss": "2:46",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-12&t=166&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-12&t=166",
+   "notas": 12
+  },
+  "FTA_ABS": {
+   "termino": "FTA-ABS",
+   "tipo": "Examen",
+   "alias": [
+    "FTA-ABS",
+    "FTA",
+    "MHA-TP",
+    "TPHA",
+    "pruebas treponémicas",
+    "prueba treponémica"
+   ],
+   "def": "Prueba treponémica cualitativa que confirma el diagnóstico de sífilis. Queda positiva de por vida en el 90 % (cicatriz serológica); no evalúa respuesta ni reinfección.",
+   "pagina": 47,
+   "clase": "infecto-12",
+   "claseTitulo": "3.4 Infecciones de Transmisión Sexual (ITS) I: Sífilis en Todas sus Etapas",
+   "diapositiva": 4,
+   "t": 166.3,
+   "mmss": "2:46",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-12&t=166&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-12&t=166",
+   "notas": 3
+  },
+  "Reaccion_de_Jarisch_Herxheimer": {
+   "termino": "Reacción de Jarisch-Herxheimer",
+   "tipo": "Concepto",
+   "alias": [
+    "Jarisch-Herxheimer",
+    "Jarisch Herxheimer"
+   ],
+   "def": "Reacción benigna tras iniciar penicilina en sífilis. Se maneja con paracetamol; no es alergia ni motivo para suspender el tratamiento.",
+   "pagina": 47,
+   "clase": "infecto-12",
+   "claseTitulo": "3.4 Infecciones de Transmisión Sexual (ITS) I: Sífilis en Todas sus Etapas",
+   "diapositiva": 6,
+   "t": 280.3,
+   "mmss": "4:40",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-12&t=280&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-12&t=280",
+   "notas": 1
+  },
+  "Uretritis": {
+   "termino": "Uretritis",
+   "tipo": "Concepto",
+   "alias": [
+    "uretritis",
+    "uretritis gonocócica",
+    "uretritis no gonocócica"
+   ],
+   "def": "Disuria, prurito y secreción uretral. Gonocócica (purulenta, incubación corta) o no gonocócica (escasa, Chlamydia). Toda uretritis se trata con doble cobertura y se trata a las parejas.",
+   "pagina": 51,
+   "clase": "infecto-13",
+   "claseTitulo": "3.5 Infecciones de Transmisión Sexual (ITS) II: Uretritis, Úlceras Genitales y VPH",
+   "diapositiva": 1,
+   "t": 29.5,
+   "mmss": "0:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-13&t=29&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-13&t=29",
+   "notas": 14
+  },
+  "Neisseria_gonorrhoeae": {
+   "termino": "Neisseria gonorrhoeae",
+   "tipo": "Concepto",
+   "alias": [
+    "Neisseria gonorrhoeae",
+    "gonorrea",
+    "gonococo",
+    "gonocócica"
+   ],
+   "def": "Causa de uretritis gonocócica con secreción purulenta amarilloverdosa; el Gram muestra diplococos gramnegativos intracelulares. Se trata con ceftriaxona 500 mg IM dosis única.",
+   "pagina": 51,
+   "clase": "infecto-13",
+   "claseTitulo": "3.5 Infecciones de Transmisión Sexual (ITS) II: Uretritis, Úlceras Genitales y VPH",
+   "diapositiva": 1,
+   "t": 29.5,
+   "mmss": "0:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-13&t=29&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-13&t=29",
+   "notas": 8
+  },
+  "Chlamydia_trachomatis": {
+   "termino": "Chlamydia trachomatis",
+   "tipo": "Concepto",
+   "alias": [
+    "Chlamydia trachomatis",
+    "Chlamydia",
+    "clamidia"
+   ],
+   "def": "Causa principal de uretritis no gonocócica, con secreción escasa y Gram sin bacterias. Se cubre con doxiciclina o azitromicina; coinfecta con gonococo en el 20–40 %.",
+   "pagina": 51,
+   "clase": "infecto-13",
+   "claseTitulo": "3.5 Infecciones de Transmisión Sexual (ITS) II: Uretritis, Úlceras Genitales y VPH",
+   "diapositiva": 1,
+   "t": 29.5,
+   "mmss": "0:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-13&t=29&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-13&t=29",
+   "notas": 7
+  },
+  "Chancroide": {
+   "termino": "Chancroide",
+   "tipo": "Concepto",
+   "alias": [
+    "chancroide",
+    "Haemophilus ducreyi"
+   ],
+   "def": "Úlcera genital por Haemophilus ducreyi: múltiple, fondo sucio, bordes deshilachados e intensamente dolorosa, con bubón inguinal. Azitromicina 1 g dosis única o ceftriaxona IM.",
+   "pagina": 51,
+   "clase": "infecto-13",
+   "claseTitulo": "3.5 Infecciones de Transmisión Sexual (ITS) II: Uretritis, Úlceras Genitales y VPH",
+   "diapositiva": 5,
+   "t": 279.2,
+   "mmss": "4:39",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-13&t=279&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-13&t=279",
+   "notas": 4
+  },
+  "Herpes_genital": {
+   "termino": "Herpes genital",
+   "tipo": "Concepto",
+   "alias": [
+    "herpes genital",
+    "herpes simple",
+    "VHS",
+    "VHS-1",
+    "VHS-2"
+   ],
+   "def": "Causa más frecuente de úlcera genital: vesículas agrupadas que forman úlceras dolorosas, recurrente, con pródromo de ardor. Aciclovir oral acorta síntomas pero no erradica el virus.",
+   "pagina": 12,
+   "clase": "infecto-03",
+   "claseTitulo": "1.3 Encefalitis Aguda por VHS y Absceso Cerebral",
+   "diapositiva": 1,
+   "t": 32.4,
+   "mmss": "0:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-03&t=32&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-03&t=32",
+   "notas": 15
+  },
+  "VPH": {
+   "termino": "VPH",
+   "tipo": "Concepto",
+   "alias": [
+    "VPH",
+    "virus del papiloma humano"
+   ],
+   "def": "Virus papiloma humano. Genotipos 6 y 11 causan condilomas; 16 y 18, cáncer cervical. Se previene con vacuna y tamizaje con PAP cada 3 años o test de ADN-VPH cada 5 años.",
+   "pagina": 51,
+   "clase": "infecto-13",
+   "claseTitulo": "3.5 Infecciones de Transmisión Sexual (ITS) II: Uretritis, Úlceras Genitales y VPH",
+   "diapositiva": 7,
+   "t": 400.2,
+   "mmss": "6:40",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-13&t=400&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-13&t=400",
+   "notas": 6
+  },
+  "Condiloma_acuminado": {
+   "termino": "Condiloma acuminado",
+   "tipo": "Concepto",
+   "alias": [
+    "condiloma acuminado",
+    "condilomas acuminados",
+    "verrugas genitales"
+   ],
+   "def": "Verruga anogenital exofítica en cresta de gallo por VPH de bajo riesgo (6 y 11). Se trata con podofilotoxina, imiquimod o crioterapia.",
+   "pagina": 51,
+   "clase": "infecto-13",
+   "claseTitulo": "3.5 Infecciones de Transmisión Sexual (ITS) II: Uretritis, Úlceras Genitales y VPH",
+   "diapositiva": 6,
+   "t": 332.1,
+   "mmss": "5:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-13&t=332&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-13&t=332",
+   "notas": 4
+  },
+  "Tricomoniasis": {
+   "termino": "Tricomoniasis",
+   "tipo": "Concepto",
+   "alias": [
+    "tricomoniasis",
+    "Trichomonas vaginalis"
+   ],
+   "def": "ITS por Trichomonas vaginalis, una causa de uretritis no gonocócica; en el Gram solo se ven polimorfonucleares sin bacterias. Se trata también a las parejas.",
+   "pagina": 51,
+   "clase": "infecto-13",
+   "claseTitulo": "3.5 Infecciones de Transmisión Sexual (ITS) II: Uretritis, Úlceras Genitales y VPH",
+   "diapositiva": null,
+   "t": 0,
+   "mmss": "0:00",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-13&t=0",
+   "notas": 1
+  },
+  "Hantavirus": {
+   "termino": "Hantavirus",
+   "tipo": "Concepto",
+   "alias": [
+    "hantavirus",
+    "síndrome cardiopulmonar por hantavirus",
+    "SCPH",
+    "virus Andes"
+   ],
+   "def": "Virus Andes, por inhalación de excretas del ratón colilargo. Fase cardiopulmonar con shock; hemograma con trombocitopenia, hemoconcentración e inmunoblastos. Restricción de fluidos y noradrenalina.",
+   "pagina": 58,
+   "clase": "infecto-14",
+   "claseTitulo": "4.1 Síndrome Pulmonar por Hantavirus (SCPH)",
+   "diapositiva": 11,
+   "t": 585.8,
+   "mmss": "9:46",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-14&t=585&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-14&t=585",
+   "notas": 19
+  },
+  "Enfermedad_de_Chagas": {
+   "termino": "Enfermedad de Chagas",
+   "tipo": "Concepto",
+   "alias": [
+    "enfermedad de Chagas",
+    "Chagas",
+    "Trypanosoma cruzi"
+   ],
+   "def": "Infección por Trypanosoma cruzi; hoy la vía predominante es la congénita (tamizaje IgG a embarazadas). Aguda: parasitológico; crónica: dos serologías IgG. Tratar con nifurtimox o benznidazol.",
+   "pagina": 62,
+   "clase": "infecto-15",
+   "claseTitulo": "4.2 Enfermedad de Chagas: Aguda, Indeterminada y Crónica",
+   "diapositiva": 12,
+   "t": 617.7,
+   "mmss": "10:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-15&t=617&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-15&t=617",
+   "notas": 13
+  },
+  "Signo_de_Romana": {
+   "termino": "Signo de Romaña",
+   "tipo": "Signo",
+   "alias": [
+    "signo de Romaña",
+    "Romaña",
+    "chagoma"
+   ],
+   "def": "Edema bipalpebral unilateral indoloro con adenopatía preauricular: puerta de entrada conjuntival del Chagas agudo, sobre todo en niños.",
+   "pagina": 62,
+   "clase": "infecto-15",
+   "claseTitulo": "4.2 Enfermedad de Chagas: Aguda, Indeterminada y Crónica",
+   "diapositiva": 3,
+   "t": 139.9,
+   "mmss": "2:20",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-15&t=139&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-15&t=139",
+   "notas": 3
+  },
+  "Miocardiopatia_chagasica": {
+   "termino": "Miocardiopatía chagásica",
+   "tipo": "Concepto",
+   "alias": [
+    "miocardiopatía chagásica",
+    "cardiopatía chagásica",
+    "megacolon",
+    "megaesófago"
+   ],
+   "def": "Cardiopatía de la fase crónica determinada: arritmias ventriculares, insuficiencia cardíaca y ECG con bloqueo completo de rama derecha + hemibloqueo anterior izquierdo.",
+   "pagina": 62,
+   "clase": "infecto-15",
+   "claseTitulo": "4.2 Enfermedad de Chagas: Aguda, Indeterminada y Crónica",
+   "diapositiva": 4,
+   "t": 205.8,
+   "mmss": "3:26",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-15&t=205&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-15&t=205",
+   "notas": 9
+  },
+  "Dengue": {
+   "termino": "Dengue",
+   "tipo": "Concepto",
+   "alias": [
+    "dengue"
+   ],
+   "def": "Flavivirus transmitido por Aedes aegypti, con 4 serotipos. Fase crítica al caer la fiebre, con fuga plasmática: vigilar signos de alarma. Soporte con cristaloides; AINEs y aspirina contraindicados.",
+   "pagina": 66,
+   "clase": "infecto-16",
+   "claseTitulo": "4.3 Enfermedades Transmitidas por Mosquitos: Dengue, Malaria y Fiebre Amarilla",
+   "diapositiva": 1,
+   "t": 30.1,
+   "mmss": "0:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-16&t=30&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-16&t=30",
+   "notas": 20
+  },
+  "Malaria": {
+   "termino": "Malaria",
+   "tipo": "Concepto",
+   "alias": [
+    "malaria",
+    "paludismo",
+    "Plasmodium falciparum",
+    "Plasmodium vivax",
+    "Plasmodium"
+   ],
+   "def": "Plasmodium por Anopheles; accesos de calofrío, fiebre y sudoración. Se diagnostica con gota gruesa y frotis con Giemsa. P. vivax: cloroquina + primaquina, contraindicada en déficit de G6PD.",
+   "pagina": 66,
+   "clase": "infecto-16",
+   "claseTitulo": "4.3 Enfermedades Transmitidas por Mosquitos: Dengue, Malaria y Fiebre Amarilla",
+   "diapositiva": 5,
+   "t": 279.3,
+   "mmss": "4:39",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-16&t=279&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-16&t=279",
+   "notas": 7
+  },
+  "Fiebre_amarilla": {
+   "termino": "Fiebre amarilla",
+   "tipo": "Concepto",
+   "alias": [
+    "fiebre amarilla"
+   ],
+   "def": "Flavivirus selvático con fiebre, bradicardia relativa (signo de Faget), ictericia y vómito negro. Se previene con vacuna viva atenuada, contraindicada en embarazadas y lactantes menores de 9 meses.",
+   "pagina": 66,
+   "clase": "infecto-16",
+   "claseTitulo": "4.3 Enfermedades Transmitidas por Mosquitos: Dengue, Malaria y Fiebre Amarilla",
+   "diapositiva": 12,
+   "t": 713.0,
+   "mmss": "11:53",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-16&t=712&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-16&t=712",
+   "notas": 5
+  },
+  "Hidatidosis": {
+   "termino": "Hidatidosis",
+   "tipo": "Concepto",
+   "alias": [
+    "hidatidosis",
+    "equinococosis",
+    "Echinococcus granulosus",
+    "quiste hidatídico"
+   ],
+   "def": "Quiste de Echinococcus granulosus, sobre todo en hígado y pulmón. Eco con vesículas hijas. Albendazol más PAIR o cirugía; la ruptura puede causar anafilaxia.",
+   "pagina": 70,
+   "clase": "infecto-17",
+   "claseTitulo": "4.4 Zoonosis Chilenas Endémicas: Hidatidosis y Triquinosis",
+   "diapositiva": 9,
+   "t": 465.0,
+   "mmss": "7:45",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-17&t=465&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-17&t=465",
+   "notas": 25
+  },
+  "Triquinosis": {
+   "termino": "Triquinosis",
+   "tipo": "Concepto",
+   "alias": [
+    "triquinosis",
+    "Trichinella spiralis",
+    "Trichinella"
+   ],
+   "def": "Parasitosis por carne de cerdo cruda: edema bipalpebral, mialgias y fiebre, con eosinofilia marcada y CPK elevada. Tratamiento con albendazol o mebendazol.",
+   "pagina": 70,
+   "clase": "infecto-17",
+   "claseTitulo": "4.4 Zoonosis Chilenas Endémicas: Hidatidosis y Triquinosis",
+   "diapositiva": 9,
+   "t": 465.0,
+   "mmss": "7:45",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-17&t=465&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-17&t=465",
+   "notas": 15
+  },
+  "Brucelosis": {
+   "termino": "Brucelosis",
+   "tipo": "Concepto",
+   "alias": [
+    "brucelosis",
+    "Brucella",
+    "fiebre de Malta"
+   ],
+   "def": "Zoonosis por Brucella (leche cruda, quesillos de cabra): fiebre ondulante, sudor a paja húmeda, sacroileítis. Doxiciclina + rifampicina por 6 semanas para evitar recaídas.",
+   "pagina": 74,
+   "clase": "infecto-18",
+   "claseTitulo": "4.5 Bacteriosis Zoonóticas: Brucelosis, Leptospirosis y Fiebre Tifoidea",
+   "diapositiva": 2,
+   "t": 76.6,
+   "mmss": "1:17",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-18&t=76&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-18&t=76",
+   "notas": 18
+  },
+  "Leptospirosis": {
+   "termino": "Leptospirosis",
+   "tipo": "Concepto",
+   "alias": [
+    "leptospirosis",
+    "Leptospira",
+    "enfermedad de Weil"
+   ],
+   "def": "Espiroqueta de la orina de ratas, por aguas contaminadas. Anictérica: fiebre bifásica, sufusión conjuntival, dolor de pantorrillas. Weil: ictericia, falla renal y hemorragias; penicilina G EV.",
+   "pagina": 74,
+   "clase": "infecto-18",
+   "claseTitulo": "4.5 Bacteriosis Zoonóticas: Brucelosis, Leptospirosis y Fiebre Tifoidea",
+   "diapositiva": 4,
+   "t": 190.7,
+   "mmss": "3:11",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-18&t=190&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-18&t=190",
+   "notas": 10
+  },
+  "Fiebre_tifoidea": {
+   "termino": "Fiebre tifoidea",
+   "tipo": "Concepto",
+   "alias": [
+    "fiebre tifoidea",
+    "Salmonella typhi",
+    "fiebre entérica"
+   ],
+   "def": "Infección por Salmonella Typhi: fiebre en escalera, bradicardia relativa, manchas rosadas; riesgo de perforación ileal en la semana 3. Ceftriaxona de elección; el Widal no confirma.",
+   "pagina": 74,
+   "clase": "infecto-18",
+   "claseTitulo": "4.5 Bacteriosis Zoonóticas: Brucelosis, Leptospirosis y Fiebre Tifoidea",
+   "diapositiva": 12,
+   "t": 643.1,
+   "mmss": "10:43",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-18&t=643&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-18&t=643",
+   "notas": 2
+  },
+  "Antrax": {
+   "termino": "Ántrax",
+   "tipo": "Concepto",
+   "alias": [
+    "ántrax",
+    "carbunco",
+    "Bacillus anthracis"
+   ],
+   "def": "Carbunco por Bacillus anthracis. Cutáneo: escara negra indolora, sin pus, que nunca se desbrida. Inhalatorio: ensanchamiento mediastínico. Ciprofloxacino o doxiciclina; notificación inmediata.",
+   "pagina": 77,
+   "clase": "infecto-19",
+   "claseTitulo": "4.6 Ántrax (Carbunco Cutáneo y Respiratorio)",
+   "diapositiva": 7,
+   "t": 340.7,
+   "mmss": "5:41",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-19&t=340&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-19&t=340",
+   "notas": 29
+  },
+  "Celulitis": {
+   "termino": "Celulitis",
+   "tipo": "Concepto",
+   "alias": [
+    "celulitis"
+   ],
+   "def": "Infección profunda de dermis y subcutáneo con bordes difusos y mal delimitados, por S. aureus o S. pyogenes. Se marcan los bordes; cefadroxilo, cefalexina o flucloxacilina por 7 a 10 días.",
+   "pagina": 83,
+   "clase": "infecto-20",
+   "claseTitulo": "5.1 Infecciones de Piel Comunitarias: Celulitis, Erisipela y Foliculitis",
+   "diapositiva": 9,
+   "t": 479.5,
+   "mmss": "7:59",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-20&t=479&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-20&t=479",
+   "notas": 23
+  },
+  "Erisipela": {
+   "termino": "Erisipela",
+   "tipo": "Concepto",
+   "alias": [
+    "erisipela"
+   ],
+   "def": "Infección superficial con placa roja brillante, de bordes netos y sobreelevados, casi siempre por S. pyogenes, de inicio súbito con fiebre. Se maneja como la celulitis.",
+   "pagina": 83,
+   "clase": "infecto-20",
+   "claseTitulo": "5.1 Infecciones de Piel Comunitarias: Celulitis, Erisipela y Foliculitis",
+   "diapositiva": 9,
+   "t": 479.5,
+   "mmss": "7:59",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-20&t=479&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-20&t=479",
+   "notas": 11
+  },
+  "Foliculitis": {
+   "termino": "Foliculitis",
+   "tipo": "Concepto",
+   "alias": [
+    "foliculitis",
+    "forúnculo",
+    "carbunco estafilocócico"
+   ],
+   "def": "Inflamación superficial del folículo piloso con pústula indolora, casi siempre por S. aureus. Aseo con clorhexidina o mupirocina tópica; la de tinas calientes (Pseudomonas) es autolimitada.",
+   "pagina": 83,
+   "clase": "infecto-20",
+   "claseTitulo": "5.1 Infecciones de Piel Comunitarias: Celulitis, Erisipela y Foliculitis",
+   "diapositiva": 3,
+   "t": 148.5,
+   "mmss": "2:28",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-20&t=148&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-20&t=148",
+   "notas": 9
+  },
+  "Impetigo": {
+   "termino": "Impétigo",
+   "tipo": "Concepto",
+   "alias": [
+    "impétigo"
+   ],
+   "def": "Piodermia superficial: se trata con mupirocina tópica, y con cefadroxilo si es extenso. Requiere aislamiento de contacto; las estreptocócicas pueden complicarse con glomerulonefritis.",
+   "pagina": 83,
+   "clase": "infecto-20",
+   "claseTitulo": "5.1 Infecciones de Piel Comunitarias: Celulitis, Erisipela y Foliculitis",
+   "diapositiva": 7,
+   "t": 400.8,
+   "mmss": "6:41",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-20&t=400&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-20&t=400",
+   "notas": 6
+  },
+  "Sindrome_mononucleosico": {
+   "termino": "Síndrome mononucleósico",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome mononucleósico",
+    "mononucleosis infecciosa",
+    "mononucleosis"
+   ],
+   "def": "Fiebre, faringitis y adenopatías con linfocitos atípicos. Por VEB, o CMV con heterófilos negativos; también toxoplasmosis o VIH primario. No usar aminopenicilinas: dan exantema.",
+   "pagina": 86,
+   "clase": "infecto-21",
+   "claseTitulo": "5.2 Síndrome Mononucleósico y Complejo TORCH",
+   "diapositiva": 2,
+   "t": 85.0,
+   "mmss": "1:25",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-21&t=84&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-21&t=84",
+   "notas": 17
+  },
+  "Virus_de_Epstein_Barr": {
+   "termino": "Virus de Epstein-Barr",
+   "tipo": "Concepto",
+   "alias": [
+    "Epstein-Barr",
+    "VEB",
+    "EBV"
+   ],
+   "def": "Herpesvirus tipo 4 de la mononucleosis (saliva, infecta linfocitos B): fiebre, faringoamigdalitis exudativa y adenopatías cervicales posteriores. Con amoxicilina da exantema, que no es alergia.",
+   "pagina": 86,
+   "clase": "infecto-21",
+   "claseTitulo": "5.2 Síndrome Mononucleósico y Complejo TORCH",
+   "diapositiva": 15,
+   "t": 753.2,
+   "mmss": "12:33",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-21&t=753&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-21&t=753",
+   "notas": 6
+  },
+  "Complejo_TORCH": {
+   "termino": "Complejo TORCH",
+   "tipo": "Concepto",
+   "alias": [
+    "TORCH",
+    "infección congénita",
+    "rubéola congénita",
+    "toxoplasmosis congénita"
+   ],
+   "def": "Infecciones congénitas: Toxoplasma, Otros, Rubéola, Citomegalovirus y Herpes. Comparten RCIU, hepatoesplenomegalia, ictericia, microcefalia y púrpura (muffin de arándanos).",
+   "pagina": 86,
+   "clase": "infecto-21",
+   "claseTitulo": "5.2 Síndrome Mononucleósico y Complejo TORCH",
+   "diapositiva": 6,
+   "t": 307.5,
+   "mmss": "5:08",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-21&t=307&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-21&t=307",
+   "notas": 7
+  },
+  "Sarampion": {
+   "termino": "Sarampión",
+   "tipo": "Concepto",
+   "alias": [
+    "sarampión",
+    "manchas de Koplik",
+    "Koplik"
+   ],
+   "def": "Paramixovirus de enorme contagiosidad, de notificación inmediata: tos, coriza, conjuntivitis, manchas de Koplik y exantema que parte retroauricular y descama en salvado.",
+   "pagina": 90,
+   "clase": "infecto-22",
+   "claseTitulo": "5.3 Exantemas Febriles de la Infancia: Sarampión, Rubéola, Escarlatina y Kawasaki",
+   "diapositiva": 1,
+   "t": 31.7,
+   "mmss": "0:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-22&t=31&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-22&t=31",
+   "notas": 10
+  },
+  "Rubeola": {
+   "termino": "Rubéola",
+   "tipo": "Concepto",
+   "alias": [
+    "rubéola"
+   ],
+   "def": "Togavirus de cuadro leve, de notificación inmediata: adenopatías retroauriculares y exantema rosado que desaparece en 3 días; manchas de Forchheimer en el paladar.",
+   "pagina": 90,
+   "clase": "infecto-22",
+   "claseTitulo": "5.3 Exantemas Febriles de la Infancia: Sarampión, Rubéola, Escarlatina y Kawasaki",
+   "diapositiva": 2,
+   "t": 88.3,
+   "mmss": "1:28",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-22&t=88&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-22&t=88",
+   "notas": 5
+  },
+  "Escarlatina": {
+   "termino": "Escarlatina",
+   "tipo": "Concepto",
+   "alias": [
+    "escarlatina"
+   ],
+   "def": "Faringoamigdalitis estreptocócica con exantema áspero en papel de lija, líneas de Pastia, facies de Filatov y lengua en frambuesa. Amoxicilina completa para prevenir fiebre reumática.",
+   "pagina": 90,
+   "clase": "infecto-22",
+   "claseTitulo": "5.3 Exantemas Febriles de la Infancia: Sarampión, Rubéola, Escarlatina y Kawasaki",
+   "diapositiva": 3,
+   "t": 138.4,
+   "mmss": "2:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-22&t=138&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-22&t=138",
+   "notas": 11
+  },
+  "Enfermedad_de_Kawasaki": {
+   "termino": "Enfermedad de Kawasaki",
+   "tipo": "Concepto",
+   "alias": [
+    "enfermedad de Kawasaki",
+    "Kawasaki"
+   ],
+   "def": "Vasculitis de lactantes y preescolares: fiebre ≥ 5 días más 4 de 5 criterios clínicos. Inmunoglobulina EV + aspirina antes del décimo día reduce los aneurismas coronarios.",
+   "pagina": 90,
+   "clase": "infecto-22",
+   "claseTitulo": "5.3 Exantemas Febriles de la Infancia: Sarampión, Rubéola, Escarlatina y Kawasaki",
+   "diapositiva": 5,
+   "t": 247.5,
+   "mmss": "4:08",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-22&t=247&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-22&t=247",
+   "notas": 16
+  },
+  "Varicela": {
+   "termino": "Varicela",
+   "tipo": "Concepto",
+   "alias": [
+    "varicela",
+    "virus varicela zóster",
+    "VVZ"
+   ],
+   "def": "Infección por VVZ con exantema centrípeto polimorfo (máculas, vesículas, costras a la vez). Contagia hasta que todas las lesiones están en costra. Aislamiento aéreo; aspirina contraindicada.",
+   "pagina": 95,
+   "clase": "infecto-23",
+   "claseTitulo": "5.4 Varicela No Complicada vs Complicada y Herpes Zóster",
+   "diapositiva": 1,
+   "t": 25.9,
+   "mmss": "0:26",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-23&t=25&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-23&t=25",
+   "notas": 23
+  },
+  "Herpes_zoster": {
+   "termino": "Herpes zóster",
+   "tipo": "Concepto",
+   "alias": [
+    "herpes zóster",
+    "zóster",
+    "culebrilla",
+    "neuralgia posherpética"
+   ],
+   "def": "Reactivación del VVZ: dolor urente en un dermatoma con vesículas en racimo. Aciclovir oral en las primeras 72 horas; Hutchinson (punta de nariz) exige evaluación oftalmológica urgente.",
+   "pagina": 95,
+   "clase": "infecto-23",
+   "claseTitulo": "5.4 Varicela No Complicada vs Complicada y Herpes Zóster",
+   "diapositiva": 1,
+   "t": 25.9,
+   "mmss": "0:26",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-23&t=25&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-23&t=25",
+   "notas": 13
+  },
+  "Neutropenia_febril": {
+   "termino": "Neutropenia febril",
+   "tipo": "Concepto",
+   "alias": [
+    "neutropenia febril",
+    "neutropenia"
+   ],
+   "def": "Fiebre con RAN < 500 células/mm³; suele ser la única alarma. Hemocultivos y antibiótico EV en la primera hora: cefepime o piperacilina-tazobactam. Si persiste al 4°–7° día, pensar en hongos.",
+   "pagina": 99,
+   "clase": "infecto-24",
+   "claseTitulo": "5.5 Neutropenia Febril Post-Quimioterapia y Fiebre sin Foco",
+   "diapositiva": 2,
+   "t": 90.2,
+   "mmss": "1:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-24&t=90&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-24&t=90",
+   "notas": 14
+  },
+  "Fiebre_sin_foco": {
+   "termino": "Fiebre sin foco",
+   "tipo": "Concepto",
+   "alias": [
+    "fiebre sin foco",
+    "fiebre sin foco aparente",
+    "bacteriemia oculta"
+   ],
+   "def": "Fiebre de menos de 7 días con examen y exámenes básicos normales: habitualmente viral, con manejo sintomático. Alarmas: inmunosupresión, neutropenia, catéter o prótesis, inestabilidad.",
+   "pagina": 99,
+   "clase": "infecto-24",
+   "claseTitulo": "5.5 Neutropenia Febril Post-Quimioterapia y Fiebre sin Foco",
+   "diapositiva": 1,
+   "t": 30.4,
+   "mmss": "0:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-24&t=30&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-24&t=30",
+   "notas": 1
+  },
+  "Influenza": {
+   "termino": "Influenza",
+   "tipo": "Concepto",
+   "alias": [
+    "influenza",
+    "gripe"
+   ],
+   "def": "Virus A y B, por gotitas, con fiebre alta brusca, mialgias y tos seca. Oseltamivir en grupos de riesgo, embarazadas y graves, sin esperar. Prevención con vacuna anual; no usar aspirina en niños.",
+   "pagina": 103,
+   "clase": "infecto-25",
+   "claseTitulo": "5.6 Virus Respiratorios: Influenza y COVID-19 (Adulto y Niño)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-25&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": null,
+   "notas": 16
+  },
+  "COVID_19": {
+   "termino": "COVID-19",
+   "tipo": "Concepto",
+   "alias": [
+    "COVID-19",
+    "COVID",
+    "SARS-CoV-2",
+    "coronavirus"
+   ],
+   "def": "SARS-CoV-2: de asintomático a insuficiencia respiratoria. Se clasifica por SpO₂ y disnea. Leve: sintomático; con riesgo, nirmatrelvir/ritonavir; con oxígeno, dexametasona. Niños: vigilar MIS-C.",
+   "pagina": 103,
+   "clase": "infecto-25",
+   "claseTitulo": "5.6 Virus Respiratorios: Influenza y COVID-19 (Adulto y Niño)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-25&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": null,
+   "notas": 19
+  },
+  "PCR": {
+   "termino": "PCR",
+   "tipo": "Examen",
+   "alias": [
+    "PCR",
+    "reacción en cadena de la polimerasa"
+   ],
+   "def": "Técnica molecular. En encefalitis herpética, PCR de VHS-1 en LCR da el diagnóstico de certeza, pero no se espera para iniciar aciclovir.",
+   "pagina": 12,
+   "clase": "infecto-03",
+   "claseTitulo": "1.3 Encefalitis Aguda por VHS y Absceso Cerebral",
+   "diapositiva": 4,
+   "t": 216.0,
+   "mmss": "3:36",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-03&t=216&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-03&t=216",
+   "notas": 15
+  },
+  "Hemograma": {
+   "termino": "Hemograma",
+   "tipo": "Examen",
+   "alias": [
+    "hemograma",
+    "leucocitosis",
+    "leucopenia"
+   ],
+   "def": "Orienta la etiología: linfocitos atípicos en mononucleosis o CMV, neutrofilia en bacterianas, eosinofilia en parasitosis tisulares y trombocitopenia en dengue, malaria o sepsis.",
+   "pagina": 86,
+   "clase": "infecto-21",
+   "claseTitulo": "5.2 Síndrome Mononucleósico y Complejo TORCH",
+   "diapositiva": 8,
+   "t": 413.0,
+   "mmss": "6:53",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-21&t=413&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-21&t=413",
+   "notas": 9
+  },
+  "Urocultivo": {
+   "termino": "Urocultivo",
+   "tipo": "Examen",
+   "alias": [
+    "urocultivo"
+   ],
+   "def": "Cultivo de orina. No se toma sin síntomas ni se trata la bacteriuria asintomática (salvo embarazo o cirugía urológica); en TBC renal da piuria estéril.",
+   "pagina": 28,
+   "clase": "infecto-07",
+   "claseTitulo": "2.3 IAAS, Infecciones de Catéteres Vasculares y Precauciones de Aislamiento",
+   "diapositiva": null,
+   "t": 0,
+   "mmss": "0:00",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-07&t=0",
+   "notas": 2
+  },
+  "Tincion_de_Gram": {
+   "termino": "Tinción de Gram",
+   "tipo": "Examen",
+   "alias": [
+    "tinción de Gram",
+    "Gram"
+   ],
+   "def": "Tinción que orienta el antibiótico en minutos. Uretral: ≥ 5 PMN por campo confirma uretritis y diplococos gramnegativos intracelulares confirman gonorrea.",
+   "pagina": 51,
+   "clase": "infecto-13",
+   "claseTitulo": "3.5 Infecciones de Transmisión Sexual (ITS) II: Uretritis, Úlceras Genitales y VPH",
+   "diapositiva": 1,
+   "t": 29.5,
+   "mmss": "0:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-13&t=29&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-13&t=29",
+   "notas": 15
+  },
+  "Inmunofluorescencia": {
+   "termino": "Inmunofluorescencia",
+   "tipo": "Examen",
+   "alias": [
+    "inmunofluorescencia",
+    "test rápido",
+    "test de influenza"
+   ],
+   "def": "Técnica de detección viral; en influenza se hace en aspirado nasofaríngeo, para pacientes hospitalizados, graves o vigilancia.",
+   "pagina": 36,
+   "clase": "infecto-09",
+   "claseTitulo": "3.1 Infección por VIH: Diagnóstico, Etapificación y Terapia Antirretroviral (TARV GES)",
+   "diapositiva": 9,
+   "t": 482.9,
+   "mmss": "8:03",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-09&t=482&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-09&t=482",
+   "notas": 4
+  },
+  "Serologia": {
+   "termino": "Serología",
+   "tipo": "Examen",
+   "alias": [
+    "serología",
+    "IgM",
+    "IgG"
+   ],
+   "def": "Detección de anticuerpos: EBV (heterófilos, IgM VCA), CMV, toxoplasma y VIH en mononucleosis y fiebre prolongada. IgG positiva solo indica exposición previa.",
+   "pagina": 86,
+   "clase": "infecto-21",
+   "claseTitulo": "5.2 Síndrome Mononucleósico y Complejo TORCH",
+   "diapositiva": 4,
+   "t": 199.4,
+   "mmss": "3:19",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-21&t=199&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-21&t=199",
+   "notas": 21
+  },
+  "Ceftriaxona": {
+   "termino": "Ceftriaxona",
+   "tipo": "Farmaco",
+   "alias": [
+    "ceftriaxona"
+   ],
+   "def": "Cefalosporina de 3ª generación EV: esquema empírico de meningitis, absceso cerebral y tifoidea, y dosis inmediata en meningococcemia. No cubre Listeria.",
+   "pagina": 8,
+   "clase": "infecto-02",
+   "claseTitulo": "1.2 Meningitis Aguda Bacteriana y Viral",
+   "diapositiva": 11,
+   "t": 611.1,
+   "mmss": "10:11",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-02&t=611&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-02&t=611",
+   "notas": 21
+  },
+  "Cefazolina": {
+   "termino": "Cefazolina",
+   "tipo": "Farmaco",
+   "alias": [
+    "cefazolina"
+   ],
+   "def": "Cefalosporina EV para celulitis o erisipela con criterios de hospitalización: toxicidad sistémica, progresión pese a antibiótico oral o comorbilidades descompensadas.",
+   "pagina": 83,
+   "clase": "infecto-20",
+   "claseTitulo": "5.1 Infecciones de Piel Comunitarias: Celulitis, Erisipela y Foliculitis",
+   "diapositiva": 5,
+   "t": 268.4,
+   "mmss": "4:28",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-20&t=268&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-20&t=268",
+   "notas": 3
+  },
+  "Cefepime": {
+   "termino": "Cefepime",
+   "tipo": "Farmaco",
+   "alias": [
+    "cefepime"
+   ],
+   "def": "Cefalosporina antipseudomonas, EV: esquema de neutropenia febril de alto riesgo y de infección de catéter con sepsis o neutropenia.",
+   "pagina": 99,
+   "clase": "infecto-24",
+   "claseTitulo": "5.5 Neutropenia Febril Post-Quimioterapia y Fiebre sin Foco",
+   "diapositiva": 12,
+   "t": 633.6,
+   "mmss": "10:34",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-24&t=633&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-24&t=633",
+   "notas": 4
+  },
+  "Cefotaxima": {
+   "termino": "Cefotaxima",
+   "tipo": "Farmaco",
+   "alias": [
+    "cefotaxima"
+   ],
+   "def": "Cefalosporina de 3ª generación EV: en meningitis del menor de 1 mes se usa con ampicilina (o gentamicina).",
+   "pagina": 12,
+   "clase": "infecto-03",
+   "claseTitulo": "1.3 Encefalitis Aguda por VHS y Absceso Cerebral",
+   "diapositiva": 7,
+   "t": 400.1,
+   "mmss": "6:40",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-03&t=400&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-03&t=400",
+   "notas": 2
+  },
+  "Penicilina": {
+   "termino": "Penicilina",
+   "tipo": "Farmaco",
+   "alias": [
+    "penicilina",
+    "penicilina sódica",
+    "penicilina benzatina",
+    "penicilina G"
+   ],
+   "def": "Tratamiento de elección de la sífilis (benzatina IM); en leptospirosis grave, penicilina G EV. La embarazada alérgica se desensibiliza; la doxiciclina está contraindicada.",
+   "pagina": 47,
+   "clase": "infecto-12",
+   "claseTitulo": "3.4 Infecciones de Transmisión Sexual (ITS) I: Sífilis en Todas sus Etapas",
+   "diapositiva": 6,
+   "t": 280.3,
+   "mmss": "4:40",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-12&t=280&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-12&t=280",
+   "notas": 14
+  },
+  "Amoxicilina": {
+   "termino": "Amoxicilina",
+   "tipo": "Farmaco",
+   "alias": [
+    "amoxicilina",
+    "amoxicilina-ácido clavulánico",
+    "amoxicilina/ácido clavulánico"
+   ],
+   "def": "Aminopenicilina oral. En escarlatina se da completa para prevenir fiebre reumática. En mononucleosis causa exantema que no es alergia verdadera.",
+   "pagina": 86,
+   "clase": "infecto-21",
+   "claseTitulo": "5.2 Síndrome Mononucleósico y Complejo TORCH",
+   "diapositiva": 14,
+   "t": 684.3,
+   "mmss": "11:24",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-21&t=684&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-21&t=684",
+   "notas": 14
+  },
+  "Ampicilina": {
+   "termino": "Ampicilina",
+   "tipo": "Farmaco",
+   "alias": [
+    "ampicilina",
+    "ampicilina-sulbactam"
+   ],
+   "def": "Aminopenicilina EV que se agrega en meningitis de mayores de 50 años, embarazadas e inmunodeprimidos para cubrir Listeria, resistente a cefalosporinas.",
+   "pagina": 11,
+   "clase": "infecto-02",
+   "claseTitulo": "1.2 Meningitis Aguda Bacteriana y Viral",
+   "diapositiva": 11,
+   "t": 611.1,
+   "mmss": "10:11",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-02&t=611&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-02&t=611",
+   "notas": 7
+  },
+  "Cloxacilina": {
+   "termino": "Cloxacilina",
+   "tipo": "Farmaco",
+   "alias": [
+    "cloxacilina"
+   ],
+   "def": "Penicilina antiestafilocócica: EV en celulitis grave y oral en ántrax estafilocócico o adenitis.",
+   "pagina": 83,
+   "clase": "infecto-20",
+   "claseTitulo": "5.1 Infecciones de Piel Comunitarias: Celulitis, Erisipela y Foliculitis",
+   "diapositiva": 5,
+   "t": 268.4,
+   "mmss": "4:28",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-20&t=268&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-20&t=268",
+   "notas": 4
+  },
+  "Piperacilina_tazobactam": {
+   "termino": "Piperacilina-tazobactam",
+   "tipo": "Farmaco",
+   "alias": [
+    "piperacilina-tazobactam",
+    "piperacilina/tazobactam",
+    "piperacilina"
+   ],
+   "def": "Betalactámico de amplio espectro EV, alternativa al cefepime en neutropenia febril de alto riesgo, y para cubrir gramnegativos en infección de catéter.",
+   "pagina": 102,
+   "clase": "infecto-24",
+   "claseTitulo": "5.5 Neutropenia Febril Post-Quimioterapia y Fiebre sin Foco",
+   "diapositiva": 4,
+   "t": 203.1,
+   "mmss": "3:23",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-24&t=203&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-24&t=203",
+   "notas": 2
+  },
+  "Meropenem": {
+   "termino": "Meropenem",
+   "tipo": "Farmaco",
+   "alias": [
+    "meropenem",
+    "imipenem",
+    "ertapenem",
+    "carbapenémicos",
+    "carbapenem"
+   ],
+   "def": "Carbapenem EV de amplio espectro: en fascitis necrotizante va con vancomicina y clindamicina; en carbunco sistémico se usa en triterapia.",
+   "pagina": 15,
+   "clase": "infecto-04",
+   "claseTitulo": "1.4 Infecciones Invasivas de Partes Blandas y Angina de Ludwig",
+   "diapositiva": 3,
+   "t": 200.5,
+   "mmss": "3:21",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-04&t=200&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-04&t=200",
+   "notas": 7
+  },
+  "Vancomicina": {
+   "termino": "Vancomicina",
+   "tipo": "Farmaco",
+   "alias": [
+    "vancomicina"
+   ],
+   "def": "Glucopéptido EV para SAMR y estafilococo coagulasa negativo. En meningitis se asocia a ceftriaxona; en neutropenia febril solo con shock, infección de catéter o mucositis severa.",
+   "pagina": 101,
+   "clase": "infecto-24",
+   "claseTitulo": "5.5 Neutropenia Febril Post-Quimioterapia y Fiebre sin Foco",
+   "diapositiva": 5,
+   "t": 262.4,
+   "mmss": "4:22",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-24&t=262&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-24&t=262",
+   "notas": 12
+  },
+  "Linezolid": {
+   "termino": "Linezolid",
+   "tipo": "Farmaco",
+   "alias": [
+    "linezolid"
+   ],
+   "def": "Antibiótico de los esquemas de TBC multirresistente, junto con bedaquilina, pretomanid y moxifloxacino.",
+   "pagina": 43,
+   "clase": "infecto-11",
+   "claseTitulo": "3.3 Tuberculosis: Formas Extrapulmonares, Diagnóstico y Manejo MDR",
+   "diapositiva": null,
+   "t": 0,
+   "mmss": "0:00",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-11&t=0",
+   "notas": 1
+  },
+  "Clindamicina": {
+   "termino": "Clindamicina",
+   "tipo": "Farmaco",
+   "alias": [
+    "clindamicina"
+   ],
+   "def": "Lincosamida: en fascitis necrotizante bloquea la producción de toxinas estreptocócicas. Alternativa oral en alergia a betalactámicos en celulitis.",
+   "pagina": 15,
+   "clase": "infecto-04",
+   "claseTitulo": "1.4 Infecciones Invasivas de Partes Blandas y Angina de Ludwig",
+   "diapositiva": 4,
+   "t": 274.0,
+   "mmss": "4:34",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-04&t=273&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-04&t=273",
+   "notas": 11
+  },
+  "Azitromicina": {
+   "termino": "Azitromicina",
+   "tipo": "Farmaco",
+   "alias": [
+    "azitromicina"
+   ],
+   "def": "Macrólido: dosis única en uretritis para cubrir Chlamydia, en chancroide y en cólera de niños y embarazadas; opción en tifoidea y profilaxis de coqueluche.",
+   "pagina": 51,
+   "clase": "infecto-13",
+   "claseTitulo": "3.5 Infecciones de Transmisión Sexual (ITS) II: Uretritis, Úlceras Genitales y VPH",
+   "diapositiva": 12,
+   "t": 692.8,
+   "mmss": "11:33",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-13&t=692&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-13&t=692",
+   "notas": 9
+  },
+  "Doxiciclina": {
+   "termino": "Doxiciclina",
+   "tipo": "Farmaco",
+   "alias": [
+    "doxiciclina"
+   ],
+   "def": "Tetraciclina oral: cubre Chlamydia en uretritis, trata cólera en dosis única, brucelosis (con rifampicina), carbunco y leptospirosis leve. Contraindicada en la embarazada con sífilis.",
+   "pagina": 54,
+   "clase": "infecto-13",
+   "claseTitulo": "3.5 Infecciones de Transmisión Sexual (ITS) II: Uretritis, Úlceras Genitales y VPH",
+   "diapositiva": 11,
+   "t": 637.9,
+   "mmss": "10:38",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-13&t=637&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-13&t=637",
+   "notas": 12
+  },
+  "Ciprofloxacino": {
+   "termino": "Ciprofloxacino",
+   "tipo": "Farmaco",
+   "alias": [
+    "ciprofloxacino",
+    "levofloxacino",
+    "fluoroquinolonas",
+    "quinolonas"
+   ],
+   "def": "Quinolona: tratamiento de elección del carbunco, y en dosis única como alternativa de quimioprofilaxis del meningococo. En neutropenia de bajo riesgo se da oral con amoxicilina-clavulánico.",
+   "pagina": 77,
+   "clase": "infecto-19",
+   "claseTitulo": "4.6 Ántrax (Carbunco Cutáneo y Respiratorio)",
+   "diapositiva": 4,
+   "t": 184.1,
+   "mmss": "3:04",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-19&t=184&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-19&t=184",
+   "notas": 10
+  },
+  "Cotrimoxazol": {
+   "termino": "Cotrimoxazol",
+   "tipo": "Farmaco",
+   "alias": [
+    "cotrimoxazol",
+    "trimetoprim-sulfametoxazol",
+    "TMP-SMX"
+   ],
+   "def": "Trimetoprim-sulfametoxazol: tratamiento de Pneumocystis en dosis altas y profilaxis en VIH con CD4 < 200, que previene Pneumocystis y toxoplasmosis.",
+   "pagina": 39,
+   "clase": "infecto-10",
+   "claseTitulo": "3.2 Infecciones Oportunistas Mayores en VIH/SIDA",
+   "diapositiva": 4,
+   "t": 209.6,
+   "mmss": "3:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-10&t=209&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-10&t=209",
+   "notas": 8
+  },
+  "Metronidazol": {
+   "termino": "Metronidazol",
+   "tipo": "Farmaco",
+   "alias": [
+    "metronidazol"
+   ],
+   "def": "Cubre anaerobios: en absceso cerebral de foco ótico o sinusal se asocia a ceftriaxona.",
+   "pagina": 12,
+   "clase": "infecto-03",
+   "claseTitulo": "1.3 Encefalitis Aguda por VHS y Absceso Cerebral",
+   "diapositiva": 6,
+   "t": 343.5,
+   "mmss": "5:44",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-03&t=343&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-03&t=343",
+   "notas": 5
+  },
+  "Gentamicina": {
+   "termino": "Gentamicina",
+   "tipo": "Farmaco",
+   "alias": [
+    "gentamicina",
+    "amikacina",
+    "aminoglucósidos"
+   ],
+   "def": "Aminoglucósido EV: se usa con doxiciclina en las primeras semanas de la brucelosis y en lactantes junto a ampicilina.",
+   "pagina": 28,
+   "clase": "infecto-07",
+   "claseTitulo": "2.3 IAAS, Infecciones de Catéteres Vasculares y Precauciones de Aislamiento",
+   "diapositiva": 4,
+   "t": 241.4,
+   "mmss": "4:01",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-07&t=241&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-07&t=241",
+   "notas": 2
+  },
+  "Rifampicina": {
+   "termino": "Rifampicina",
+   "tipo": "Farmaco",
+   "alias": [
+    "rifampicina"
+   ],
+   "def": "Pilar del esquema de TBC y de la brucelosis (con doxiciclina), y quimioprofilaxis del meningococo. Tiñe orina y lágrimas de naranja; induce el citocromo y baja anticonceptivos y antirretrovirales.",
+   "pagina": 74,
+   "clase": "infecto-18",
+   "claseTitulo": "4.5 Bacteriosis Zoonóticas: Brucelosis, Leptospirosis y Fiebre Tifoidea",
+   "diapositiva": 3,
+   "t": 137.5,
+   "mmss": "2:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-18&t=137&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-18&t=137",
+   "notas": 12
+  },
+  "Isoniacida": {
+   "termino": "Isoniacida",
+   "tipo": "Farmaco",
+   "alias": [
+    "isoniacida",
+    "isoniazida"
+   ],
+   "def": "Fármaco de TBC y de la quimioprofilaxis en contactos menores de 15 años y en recién nacidos de madre bacilífera. Da neuropatía y hepatotoxicidad; se previene con vitamina B6.",
+   "pagina": 22,
+   "clase": "infecto-05",
+   "claseTitulo": "2.1 Manejo de Contactos en Enfermedades Transmisibles y Accidentes Cortopunzantes",
+   "diapositiva": 9,
+   "t": 463.9,
+   "mmss": "7:44",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-05&t=463&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-05&t=463",
+   "notas": 15
+  },
+  "Pirazinamida": {
+   "termino": "Pirazinamida",
+   "tipo": "Farmaco",
+   "alias": [
+    "pirazinamida"
+   ],
+   "def": "Fármaco de la fase inicial de TBC; el más hepatotóxico del esquema, con hiperuricemia que puede gatillar gota.",
+   "pagina": 43,
+   "clase": "infecto-11",
+   "claseTitulo": "3.3 Tuberculosis: Formas Extrapulmonares, Diagnóstico y Manejo MDR",
+   "diapositiva": 6,
+   "t": 327.7,
+   "mmss": "5:28",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-11&t=327&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-11&t=327",
+   "notas": 3
+  },
+  "Etambutol": {
+   "termino": "Etambutol",
+   "tipo": "Farmaco",
+   "alias": [
+    "etambutol"
+   ],
+   "def": "Fármaco de la fase inicial de TBC; causa neuritis óptica retrobulbar dosis-dependiente. Contraindicado en niños pequeños que no pueden colaborar con el examen visual.",
+   "pagina": 43,
+   "clase": "infecto-11",
+   "claseTitulo": "3.3 Tuberculosis: Formas Extrapulmonares, Diagnóstico y Manejo MDR",
+   "diapositiva": 11,
+   "t": 587.1,
+   "mmss": "9:47",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-11&t=587&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-11&t=587",
+   "notas": 3
+  },
+  "Aciclovir": {
+   "termino": "Aciclovir",
+   "tipo": "Farmaco",
+   "alias": [
+    "aciclovir",
+    "valaciclovir"
+   ],
+   "def": "Antiviral: EV inmediato en encefalitis herpética y varicela con neumonitis; oral en herpes genital y zóster, idealmente en las primeras 72 horas.",
+   "pagina": 95,
+   "clase": "infecto-23",
+   "claseTitulo": "5.4 Varicela No Complicada vs Complicada y Herpes Zóster",
+   "diapositiva": 15,
+   "t": 600.7,
+   "mmss": "10:01",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-23&t=600&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-23&t=600",
+   "notas": 23
+  },
+  "Ganciclovir": {
+   "termino": "Ganciclovir",
+   "tipo": "Farmaco",
+   "alias": [
+    "ganciclovir",
+    "valganciclovir"
+   ],
+   "def": "Antiviral EV para enfermedad por CMV (retinitis, colitis, neumonitis); se usa también como terapia anticipada guiada por antigenemia. Valganciclovir oral si es leve.",
+   "pagina": 39,
+   "clase": "infecto-10",
+   "claseTitulo": "3.2 Infecciones Oportunistas Mayores en VIH/SIDA",
+   "diapositiva": 10,
+   "t": 568.8,
+   "mmss": "9:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-10&t=568&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-10&t=568",
+   "notas": 1
+  },
+  "Oseltamivir": {
+   "termino": "Oseltamivir",
+   "tipo": "Farmaco",
+   "alias": [
+    "oseltamivir"
+   ],
+   "def": "Inhibidor de la neuraminidasa para influenza, en grupos de riesgo, embarazadas y formas graves, sin esperar las 48 horas. En adulto sano y leve basta el manejo sintomático.",
+   "pagina": 103,
+   "clase": "infecto-25",
+   "claseTitulo": "5.6 Virus Respiratorios: Influenza y COVID-19 (Adulto y Niño)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-25&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Tenofovir": {
+   "termino": "Tenofovir",
+   "tipo": "Farmaco",
+   "alias": [
+    "tenofovir",
+    "TDF"
+   ],
+   "def": "Antirretroviral (TDF) del esquema de 1ª línea con lamivudina y dolutegravir en una pastilla diaria; también se usa en la gestante con VIH.",
+   "pagina": 36,
+   "clase": "infecto-09",
+   "claseTitulo": "3.1 Infección por VIH: Diagnóstico, Etapificación y Terapia Antirretroviral (TARV GES)",
+   "diapositiva": 2,
+   "t": 124.8,
+   "mmss": "2:05",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-09&t=124&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-09&t=124",
+   "notas": 2
+  },
+  "Emtricitabina": {
+   "termino": "Emtricitabina",
+   "tipo": "Farmaco",
+   "alias": [
+    "emtricitabina",
+    "lamivudina",
+    "FTC",
+    "3TC"
+   ],
+   "def": "Antirretroviral alternativo a lamivudina junto con tenofovir y dolutegravir en el esquema de la gestante con VIH.",
+   "pagina": 36,
+   "clase": "infecto-09",
+   "claseTitulo": "3.1 Infección por VIH: Diagnóstico, Etapificación y Terapia Antirretroviral (TARV GES)",
+   "diapositiva": 2,
+   "t": 124.8,
+   "mmss": "2:05",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-09&t=124&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-09&t=124",
+   "notas": 2
+  },
+  "Dolutegravir": {
+   "termino": "Dolutegravir",
+   "tipo": "Farmaco",
+   "alias": [
+    "dolutegravir",
+    "DTG",
+    "inhibidores de integrasa"
+   ],
+   "def": "Inhibidor de integrasa de la 1ª línea del VIH, con alta barrera genética y rápida supresión viral; también se usa en la gestante.",
+   "pagina": 36,
+   "clase": "infecto-09",
+   "claseTitulo": "3.1 Infección por VIH: Diagnóstico, Etapificación y Terapia Antirretroviral (TARV GES)",
+   "diapositiva": 2,
+   "t": 124.8,
+   "mmss": "2:05",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-09&t=124&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-09&t=124",
+   "notas": 5
+  },
+  "Zidovudina": {
+   "termino": "Zidovudina",
+   "tipo": "Farmaco",
+   "alias": [
+    "zidovudina",
+    "AZT"
+   ],
+   "def": "Antirretroviral que se da EV intraparto si la carga viral es > 1.000 copias/mL o desconocida, y por vía oral al recién nacido por 4 semanas.",
+   "pagina": 36,
+   "clase": "infecto-09",
+   "claseTitulo": "3.1 Infección por VIH: Diagnóstico, Etapificación y Terapia Antirretroviral (TARV GES)",
+   "diapositiva": 5,
+   "t": 290.5,
+   "mmss": "4:51",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-09&t=290&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-09&t=290",
+   "notas": 4
+  },
+  "Fluconazol": {
+   "termino": "Fluconazol",
+   "tipo": "Farmaco",
+   "alias": [
+    "fluconazol"
+   ],
+   "def": "Azol: tratamiento de candidiasis oral y esofágica, y mantención de la criptococosis tras la inducción con anfotericina B.",
+   "pagina": 39,
+   "clase": "infecto-10",
+   "claseTitulo": "3.2 Infecciones Oportunistas Mayores en VIH/SIDA",
+   "diapositiva": 9,
+   "t": 512.1,
+   "mmss": "8:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-10&t=512&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-10&t=512",
+   "notas": 2
+  },
+  "Anfotericina_B": {
+   "termino": "Anfotericina B",
+   "tipo": "Farmaco",
+   "alias": [
+    "anfotericina B",
+    "anfotericina"
+   ],
+   "def": "Antifúngico EV: forma liposomal con flucitosina en la inducción de la meningitis por criptococo; en mucormicosis, con desbridamiento quirúrgico amplio.",
+   "pagina": 42,
+   "clase": "infecto-10",
+   "claseTitulo": "3.2 Infecciones Oportunistas Mayores en VIH/SIDA",
+   "diapositiva": 7,
+   "t": 391.2,
+   "mmss": "6:31",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-10&t=391&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-10&t=391",
+   "notas": 4
+  },
+  "Cloroquina": {
+   "termino": "Cloroquina",
+   "tipo": "Farmaco",
+   "alias": [
+    "cloroquina",
+    "primaquina",
+    "artesunato",
+    "quinina"
+   ],
+   "def": "Antimalárico para P. vivax y P. ovale (elimina formas sanguíneas), siempre con primaquina para los hipnozoítos.",
+   "pagina": 66,
+   "clase": "infecto-16",
+   "claseTitulo": "4.3 Enfermedades Transmitidas por Mosquitos: Dengue, Malaria y Fiebre Amarilla",
+   "diapositiva": 6,
+   "t": 355.0,
+   "mmss": "5:55",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-16&t=354&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-16&t=354",
+   "notas": 4
+  },
+  "Albendazol": {
+   "termino": "Albendazol",
+   "tipo": "Farmaco",
+   "alias": [
+    "albendazol",
+    "praziquantel"
+   ],
+   "def": "Antiparasitario: hidatidosis (con PAIR o cirugía) y triquinosis, 400 mg cada 12 h por 10 a 14 días.",
+   "pagina": 70,
+   "clase": "infecto-17",
+   "claseTitulo": "4.4 Zoonosis Chilenas Endémicas: Hidatidosis y Triquinosis",
+   "diapositiva": 3,
+   "t": 139.5,
+   "mmss": "2:19",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-17&t=139&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-17&t=139",
+   "notas": 9
+  },
+  "Benznidazol": {
+   "termino": "Benznidazol",
+   "tipo": "Farmaco",
+   "alias": [
+    "benznidazol",
+    "nifurtimox"
+   ],
+   "def": "Antiparasitario de Chagas, 60 días. Indicado en fase aguda, Chagas congénito y niños y adultos jóvenes en fase indeterminada; contraindicado en el embarazo.",
+   "pagina": 62,
+   "clase": "infecto-15",
+   "claseTitulo": "4.2 Enfermedad de Chagas: Aguda, Indeterminada y Crónica",
+   "diapositiva": 7,
+   "t": 364.3,
+   "mmss": "6:04",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-15&t=364&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-15&t=364",
+   "notas": 5
+  },
+  "Corticoides": {
+   "termino": "Corticoides",
+   "tipo": "Farmaco",
+   "alias": [
+    "dexametasona",
+    "corticoides"
+   ],
+   "def": "En Pneumocystis con hipoxemia, antes o con cotrimoxazol; en meningitis, dexametasona antes del antibiótico; en COVID con oxígeno. En influenza no tienen lugar.",
+   "pagina": 103,
+   "clase": "infecto-25",
+   "claseTitulo": "5.6 Virus Respiratorios: Influenza y COVID-19 (Adulto y Niño)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-25&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": null,
+   "notas": 19
+  },
+  "Noradrenalina": {
+   "termino": "Noradrenalina",
+   "tipo": "Farmaco",
+   "alias": [
+    "noradrenalina",
+    "vasopresores"
+   ],
+   "def": "Vasopresor de 1ª línea en shock séptico, puede iniciarse por vía periférica. La dopamina está proscrita. También se usa precozmente en el hantavirus.",
+   "pagina": 5,
+   "clase": "infecto-01",
+   "claseTitulo": "1.1 Sepsis y Shock Séptico (Consenso Sepsis-3 & Paquete 1ª Hora)",
+   "diapositiva": 11,
+   "t": 693.6,
+   "mmss": "11:34",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-01&t=693&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-01&t=693",
+   "notas": 4
+  },
+  "Fiebre": {
+   "termino": "Fiebre",
+   "tipo": "Signo",
+   "alias": [
+    "fiebre"
+   ],
+   "def": "Temperatura central ≥ 38,0 °C por pirógenos que suben el punto hipotalámico; distinta de la hipertermia, que no responde a antipiréticos. En neutropénico es a menudo la única alarma de bacteriemia.",
+   "pagina": 99,
+   "clase": "infecto-24",
+   "claseTitulo": "5.5 Neutropenia Febril Post-Quimioterapia y Fiebre sin Foco",
+   "diapositiva": 19,
+   "t": 754.5,
+   "mmss": "12:35",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-24&t=754&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-24&t=754",
+   "notas": 69
+  },
+  "Petequias": {
+   "termino": "Petequias",
+   "tipo": "Signo",
+   "alias": [
+    "petequias",
+    "púrpura",
+    "exantema petequial"
+   ],
+   "def": "Lesiones puntiformes purpúricas: en fiebre tóxica orientan a meningococcemia y progresan a equimosis y púrpura fulminante. Ceftriaxona inmediata sin esperar la punción lumbar.",
+   "pagina": 8,
+   "clase": "infecto-02",
+   "claseTitulo": "1.2 Meningitis Aguda Bacteriana y Viral",
+   "diapositiva": 6,
+   "t": 345.6,
+   "mmss": "5:46",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-02&t=345&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-02&t=345",
+   "notas": 8
+  },
+  "Exantema": {
+   "termino": "Exantema",
+   "tipo": "Signo",
+   "alias": [
+    "exantema",
+    "rash"
+   ],
+   "def": "Erupción cutánea de infecciones como sarampión (retroauricular), rubéola (3 días), escarlatina (papel de lija) y varicela. El patrón y el enantema orientan.",
+   "pagina": 90,
+   "clase": "infecto-22",
+   "claseTitulo": "5.3 Exantemas Febriles de la Infancia: Sarampión, Rubéola, Escarlatina y Kawasaki",
+   "diapositiva": 13,
+   "t": 623.6,
+   "mmss": "10:24",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-22&t=623&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-22&t=623",
+   "notas": 26
+  },
+  "Adenopatias": {
+   "termino": "Adenopatías",
+   "tipo": "Signo",
+   "alias": [
+    "adenopatías",
+    "linfadenopatía"
+   ],
+   "def": "Patológicas si > 1 cm. Blanda y dolorosa orienta a infección reactiva; dura, indolora, adherida o supraclavicular orienta a linfoma o metástasis y se biopsia.",
+   "pagina": 86,
+   "clase": "infecto-21",
+   "claseTitulo": "5.2 Síndrome Mononucleósico y Complejo TORCH",
+   "diapositiva": 5,
+   "t": 251.9,
+   "mmss": "4:12",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-21&t=251&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-21&t=251",
+   "notas": 9
+  },
+  "Esplenomegalia": {
+   "termino": "Esplenomegalia",
+   "tipo": "Signo",
+   "alias": [
+    "esplenomegalia"
+   ],
+   "def": "Agrandamiento del bazo; aparece en mononucleosis por VEB (50-60 %), brucelosis y fiebre tifoidea.",
+   "pagina": 86,
+   "clase": "infecto-21",
+   "claseTitulo": "5.2 Síndrome Mononucleósico y Complejo TORCH",
+   "diapositiva": 15,
+   "t": 753.2,
+   "mmss": "12:33",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-21&t=753&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-21&t=753",
+   "notas": 1
+  },
+  "Crepitacion": {
+   "termino": "Crepitación",
+   "tipo": "Signo",
+   "alias": [
+    "crepitación",
+    "enfisema subcutáneo"
+   ],
+   "def": "Gas en el tejido palpable bajo la piel, por anaerobios; signo duro de necrosis en la fascitis necrotizante, junto a flictenas, anestesia cutánea y shock.",
+   "pagina": 17,
+   "clase": "infecto-04",
+   "claseTitulo": "1.4 Infecciones Invasivas de Partes Blandas y Angina de Ludwig",
+   "diapositiva": 2,
+   "t": 109.4,
+   "mmss": "1:49",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-04&t=109&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-04&t=109",
+   "notas": 4
+  },
+  "Trismus": {
+   "termino": "Trismus",
+   "tipo": "Signo",
+   "alias": [
+    "trismus",
+    "opistótonos",
+    "risa sardónica"
+   ],
+   "def": "Espasmo del masetero que limita la apertura bucal. Signo de tétanos y de la angina de Ludwig, donde alerta riesgo para la vía aérea.",
+   "pagina": 17,
+   "clase": "infecto-04",
+   "claseTitulo": "1.4 Infecciones Invasivas de Partes Blandas y Angina de Ludwig",
+   "diapositiva": 5,
+   "t": 325.0,
+   "mmss": "5:25",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-04&t=325&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-04&t=325",
+   "notas": 5
+  },
+  "Hidrofobia": {
+   "termino": "Hidrofobia",
+   "tipo": "Signo",
+   "alias": [
+    "hidrofobia",
+    "aerofobia"
+   ],
+   "def": "Espasmo de faringe y laringe ante el agua propio de la rabia, por encefalomielitis letal. Se previene con vacuna e inmunoglobulina antes de que el virus llegue al sistema nervioso.",
+   "pagina": 25,
+   "clase": "infecto-06",
+   "claseTitulo": "2.2 Rabia y Tétanos: Profilaxis de Heridas y Manejo Clínico",
+   "diapositiva": 1,
+   "t": 34.4,
+   "mmss": "0:34",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-06&t=34&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-06&t=34",
+   "notas": 1
+  },
+  "Hipotension": {
+   "termino": "Hipotensión",
+   "tipo": "Signo",
+   "alias": [
+    "hipotensión",
+    "hipoperfusión"
+   ],
+   "def": "En sepsis con PAS ≤ 100 mmHg es criterio qSOFA. Si persiste tras el volumen y exige vasopresores para PAM ≥ 65 mmHg, es shock séptico.",
+   "pagina": 5,
+   "clase": "infecto-01",
+   "claseTitulo": "1.1 Sepsis y Shock Séptico (Consenso Sepsis-3 & Paquete 1ª Hora)",
+   "diapositiva": 3,
+   "t": 182.6,
+   "mmss": "3:03",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Infectolog%C3%ADa&clase=infecto-01&t=182&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_infectologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=infecto-01&t=182",
+   "notas": 9
+  }
+ }
+}

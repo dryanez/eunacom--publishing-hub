@@ -1,0 +1,773 @@
+[
+ {
+  "recTag": "EUNACOM Enero 2023 · Pregunta 141",
+  "year": 2023,
+  "codes": [
+   "1.01.1.024 [cardio-06: Taquicardia paroxística supraventricular (TPSV)]"
+  ],
+  "stem": "Paciente con palpitaciones regulares y taquicardia supraventricular en el ECG. ¿Cuál es el tratamiento más adecuado?",
+  "options": "A) Verapamilo 5 mg EV lento | B) Amiodarona 300 mg EV | C) Cardioversión eléctrica sincronizada | D) Metoprolol 5 mg EV | E) Adenosina 6 mg IV en bolo rápido",
+  "correcta": "E",
+  "explicacion": "Conducta / Tratamiento indicado: **Adenosina 6 mg IV en bolo rápido** (opción **E**). Adenosina 6 mg IV en bolo rápido. Las maniobras vagales son el primer paso en el manejo agudo de la TPSV De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 69",
+  "year": 2013,
+  "codes": [
+   "1.01.1.024 [cardio-06: Taquicardia paroxística supraventricular (TPSV)]"
+  ],
+  "stem": "Un paciente de 10 años, es traído por cuadro de inicio agudo de dos horas de evolución caracterizados por palpitaciones y dolor torácico. Al ingreso se conecta a monitor que muestra frecuencia cardiaca de 200 latidos por minutos, regular y QRS angosto. La primera medida para el manejo en este caso es:",
+  "options": "A) Realizar presión orcular | B) Realizar cardioversión eléctrica | C) Administrar adenosina endovenosa | D) Realizar masaje carotídeo | E) Administrar verapamilo endovenoso",
+  "correcta": "D",
+  "explicacion": "Conducta / Tratamiento indicado: **Realizar masaje carotídeo** (opción **D**). Tiene una TPSV y lo primero son las maniobras vagales, luego la adenosina.. Las maniobras vagales son el primer paso en el manejo agudo de la TPSV De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2022 · Pregunta 59",
+  "year": 2022,
+  "codes": [
+   "1.01.1.024 [cardio-06: Taquicardia paroxística supraventricular (TPSV)]"
+  ],
+  "stem": "Un paciente de 28 años consulta por un cuadro de 3 horas de evolución de palpitaciones intensas, asociadas a disnea. Al examen físico, tiene FC: 160 por minuto, regular, PA: 110/70 mmHg, examen cardíaco con ritmo regular en dos tiempos, sin soplos y murmullo pulmonar presente, sin ruidos agregados. Se realiza un electrocardiograma, que se muestra a continuación: ¿Cuál es el tratamiento más adecuado?",
+  "options": "A) Amiodarona 150 mg endovenosa | B) Lidocaína 100 mg endovenosa | C) Adenosina 6mg intravenosa | D) Diltiazem 25 mg endovenoso | E) cardioversión eléctrica",
+  "correcta": "C",
+  "explicacion": "Conducta / Tratamiento indicado: **Adenosina 6mg intravenosa** (opción **C**). Las maniobras vagales son el primer paso en el manejo agudo de la TPSV De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 31",
+  "year": 2024,
+  "codes": [
+   "1.01.1.024 [cardio-06: Taquicardia paroxística supraventricular (TPSV)]"
+  ],
+  "stem": "Mujer con síntomas ansiosos y EKG (taquicardia regular QRS estrecho aprox 150 lpm): a.​ Adenosina",
+  "options": "A) Insuficiencia cardíaca | B) Fibrilación auricular | C) Infarto agudo al miocardio | D) Tromboembolismo pulmonar | E) Pericarditis aguda",
+  "correcta": "A",
+  "explicacion": "La alternativa correcta es la **A** (Insuficiencia cardíaca). La taquicardia paroxística supraventricular (TPSV) es una taquicardia regular de complejos angostos con inicio y término súbitos. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.7,
+  "alertas": [
+   "enunciado_cortado_o_raro"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Enero 2023 · Pregunta 140",
+  "year": 2023,
+  "codes": [
+   "1.01.1.024 [cardio-06: Taquicardia paroxística supraventricular (TPSV)]"
+  ],
+  "stem": "Paciente con palpitaciones paroxísticas; luego de maniobras vagales el ECG muestra intervalo PR corto y onda delta. ¿Diagnóstico más probable?",
+  "options": "A) Taquicardia ventricular paroxística | B) Síndrome de Wolff-Parkinson-White | C) Flutter auricular con conducción variable | D) Taquicardia supraventricular por reentrada nodal | E) Síndrome de Brugada",
+  "correcta": "B",
+  "explicacion": "Diagnóstico: **Síndrome de Wolff-Parkinson-White** (opción **B**). Síndrome de Wolff-Parkinson-White. La taquicardia paroxística supraventricular (TPSV) es una taquicardia regular de complejos angostos con inicio y término súbitos. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 43",
+  "year": 2024,
+  "codes": [
+   "1.01.2.001 [cardio-13: Angina inestable]"
+  ],
+  "stem": "Síndrome adrenérgico por cocaína. Fármaco contraindicado.",
+  "options": "A) Atenolol | B) Captopril | C) Nitroglicerina | D) Diltiazem | E) Amoxicilina",
+  "correcta": "A",
+  "explicacion": "La opción correcta es la **A** (Atenolol). En este escenario clínico, atenolol se encuentra estrictamente contraindicado debido a que su mecanismo de acción interfiere negativamente con la fisiopatología basal del paciente, aumentando la morbimortalidad según los protocolos clínicos vigentes.",
+  "conf": 0.3,
+  "alertas": [
+   "enunciado_cortado_o_raro",
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2022 · Pregunta 98",
+  "year": 2022,
+  "codes": [
+   "1.01.2.002 [cardio-35: Disección aórtica]"
+  ],
+  "stem": "Un paciente de 69 años, con antecedente de hipertensión y diabetes, consulta por dolor torácico intenso EVA 10/10, de carácter lancinante y que se irradia a cuello y dorso. A lo anterior se agregó dolor intenso en la extremidad superior izquierda. Al examen físico tiene FC: 120x’, PA: 200/140 mmHg, ritmo regular en dos tiempos, sin soplos, murmullo pulmonar bilateral conservado, sin otros ruidos, extremidad superior izquierda con disminución del pulso radial y frialdad de la mano. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Pericarditis aguda | B) Disección aórtica | C) Tromboembolismo pulmonar | D) Infarto agudo al miocardio | E) Embolias cardíacas",
+  "correcta": "B",
+  "explicacion": "Diagnóstico: **Disección aórtica** (opción **B**). La combinación cardinal de dolor torácico súbito desgarrador (EVA 10/10) irradiado a región interescapular o dorso, cifras tensionales severas y asimetría de pulsos periféricos en extremidades superiores es patognomónica de disección aórtica aguda. Requiere angio-TAC de tórax inmediato y estabilización hemodinámica con betabloqueadores EV para reducir la fuerza de eyección ventricular (dP/dt).",
+  "conf": 0.95,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2025 · Pregunta 22",
+  "year": 2025,
+  "codes": [
+   "1.01.2.002 [cardio-35: Disección aórtica]"
+  ],
+  "stem": "Paciente masculino de 55 años con dolor torácico desgarrador de inicio súbito, irradiado a la espalda. TA en brazo derecho 185/100 y en brazo izquierdo 140/80. TC: disección de aorta tipo B de Stanford. ¿Cuál es el manejo inicial?",
+  "options": "A) Manejo médico: control de frecuencia cardíaca y presión arterial | B) Cirugía de emergencia | C) Trombólisis sistémica | D) Endoprótesis aórtica de urgencia | E) Anticoagulación con heparina EV",
+  "correcta": "A",
+  "explicacion": "Disección aórtica tipo B de Stanford (no compromete aorta ascendente): manejo médico con betabloqueadores para reducir FC <60 lpm y PA sistólica 100-120 mmHg. Cirugía solo si hay complicaciones.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Enero 2023 · Pregunta 157",
+  "year": 2023,
+  "codes": [
+   "1.01.2.002 [cardio-35: Disección aórtica]"
+  ],
+  "stem": "Paciente con dolor torácico EVA 10/10 retroesternal con irradiación a dorso, pulso radial izquierdo débil y llene capilar enlentecido. ¿Diagnóstico más probable?",
+  "options": "A) SCA con elevación del ST | B) Tromboembolismo pulmonar masivo | C) Disección aórtica | D) Rotura esofágica (Boerhaave) | E) Neumotórax a tensión",
+  "correcta": "C",
+  "explicacion": "Diagnóstico: **Disección aórtica** (opción **C**). Disección aórtica. La combinación cardinal de dolor torácico súbito desgarrador (EVA 10/10) irradiado a región interescapular o dorso, cifras tensionales severas y asimetría de pulsos periféricos en extremidades superiores es patognomónica de disección aórtica aguda. Requiere angio-TAC de tórax inmediato y estabilización hemodinámica con betabloqueadores EV para reducir la fuerza de eyección ventricular (dP/dt).",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 12",
+  "year": 2019,
+  "codes": [
+   "1.01.2.002 [cardio-35: Disección aórtica]"
+  ],
+  "stem": "Un paciente de 70 años, con antecedente de hipertensión, en tratamiento con losartán e hidroclorotiazida, consulta por dolor torácico, EVA 9/10, irradiado a dorso, asociado a malestar general y sudoración. Al examen físico tiene FC: 110x’, PA: 170/110 mmHg, examen pulmonar con crépitos escasos bibasales y examen cardíaco con choque de la punta no desplazado y auscultación con ritmo regular, en dos tiempos, con presencia de un soplo cardíaco diastólico aspirativo, de intensidad IV/VI, de ubicación paraesternal derecho. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Neumotórax | B) Aneurisma de la aorta ascendente | C) Infarto miocárdico con rotura del músculo papilar | D) Tromboembolismo pulmonar | E) Disección aórtica tipo A",
+  "correcta": "E",
+  "explicacion": "Es una clásica disección aórtica, con el soplo diastólico de la insuficiencia aórtica (se diseca la válvula). Es tipo A, porque, al afectar la válvula, obviamente está sobre la subclavia izquierda.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 16",
+  "year": 2013,
+  "codes": [
+   "1.01.2.002 [cardio-35: Disección aórtica]"
+  ],
+  "stem": "Paciente de 50 años, con antecedente de hipertensión en tratamiento irregular con hidroclorotiazida, consulta por dolor torácico de 30 minutos de duración, transfixiante, irradiado a epigastrio, asociado a mareos y diaforesis. Al examen se aprecia pálido, sudoroso, PA 150/90, FC: 110x’, saturación de oxígeno de 93% con FiO2 ambiental, ritmo regular, asociado a soplo diastólico II/ VI y disminución del segundo ruido, abdomen blando, depresible e indoloro, ruidos hidroaéreos presentes. Al ingreso se solicita ECG que muestra alteraciones inespecíficas en pared anterolateral, además troponinas que están con resultado pendiente. El diagnóstico más probable es:",
+  "options": "A) Disección aórtica | B) Infarto agudo al miocardio sin supradesnivel de ST | C) Tromboembolismo pulmonar | D) Infarto mesentérico | E) Pancreatitis aguda",
+  "correcta": "A",
+  "explicacion": "Disección aórtica por el soplo diastólico. La disminución del R2 y el soplo son por la insuficiencia Aórtica",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 144",
+  "year": 2021,
+  "codes": [
+   "1.01.2.002 [cardio-35: Disección aórtica]"
+  ],
+  "stem": "Un paciente de 63 años, con antecedente de hipertensión y dislipidemia, en tratamiento con losartán, hidroclorotiazida y atorvastatina consulta en el servicio de urgencia por dolor torácico intenso, EVA 9/10, irradiado al dorso. Al examen físico está diaforético y angustiado, con FC: 115x’, PA: 220/117 mmHg, examen pulmonar con crépitos escasos bibasales y examen cardíaco con choque de la punta no desplazado y auscultación con ritmo regular, en dos tiempos con ruidos apagados. Se solicita un electrocardiograma que muestra taquicardia sinusal y troponinas plasmáticas, que resultan negativas. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Neumotórax | B) Infarto agudo al miocardio | C) Taponamiento pericárdico | D) Tromboembolismo pulmonar | E) Disección aórtica",
+  "correcta": "E",
+  "explicacion": "Orientan a disección aórtica la irradiación al dorso, la concomitancia con una crisis hipertensiva, el EKG sin signos de isquemia y las troponinas normales, que hacen menos probable un infarto. Se debe estudiar con angioTAC de tórax. Se maneja con drogas antiHTA por vía endovenosa y con cirugía, si es tipo A (sobre subclavia).",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 143",
+  "year": 2019,
+  "codes": [
+   "1.01.2.002 [cardio-35: Disección aórtica]"
+  ],
+  "stem": "Un paciente de 65 años, hipertenso de larga data, mal controlado, consulta por dolor torácico intenso, EVA 8/10, transfixiante. Al examen físico se observa angustiado y sudoroso, con FC: 115x’ PA: 160/110 mmHg, murmullo pulonar presente, simétrico y examen cardíaco con ritmo regular en dos tiempos, con auscultación de un soplo diastólico III/VI en el precordio. Se solicita un electrocardiograma que muestra una taquicardia sinusal y las enzimas cardíacas resultan negativas. El diagnóstico más probable es:",
+  "options": "A) Neumotórax | B) Espasmo esofágico | C) Infarto agudo al miocardio | D) Síndrome aórtico agudo | E) Tromboembolismo pulmonar",
+  "correcta": "D",
+  "explicacion": "Es una disección aórtica clásica, debido al soplo diastólico de la insuficiencia aórtica. Se debe estudiar con angioTAC y, en este caso, por ser probablemente tipo A, se debe operar (ya que está afectando la válvula aórtica y, por ello, se puede asumir que disecó sobre la subclavia izquierda).",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 12",
+  "year": 2017,
+  "codes": [
+   "1.01.2.002 [cardio-35: Disección aórtica]"
+  ],
+  "stem": "Un paciente de 75 años, diabético e hipertenso, consulta por dolor torácico intenso, de inicio súbito, que alcanza un EVA 7/10, de 2 horas de evolución. El dolor tenía una localización retroesternal, pero luego migra a la zona dorsolumbar. Al examen físico destaca disminución de los pulsos de las extremidades inferiores. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Infarto agudo al miocardio | B) Aneurisma de la aorta abdominal complicado | C) Tromboembolismo pulmonar masivo | D) Disección aórtica | E) Neumotórax",
+  "correcta": "D",
+  "explicacion": "Diagnóstico: **Disección aórtica** (opción **D**). Es una disección clásica por la asimetría de pulsos.. La combinación cardinal de dolor torácico súbito desgarrador (EVA 10/10) irradiado a región interescapular o dorso, cifras tensionales severas y asimetría de pulsos periféricos en extremidades superiores es patognomónica de disección aórtica aguda. Requiere angio-TAC de tórax inmediato y estabilización hemodinámica con betabloqueadores EV para reducir la fuerza de eyección ventricular (dP/dt).",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 37",
+  "year": 2015,
+  "codes": [
+   "1.01.2.002 [cardio-35: Disección aórtica]"
+  ],
+  "stem": "Un paciente de 67 años, diabético, hipertenso, presenta dolor torácico intenso, irradiado al dorso, EVA 9/10. Al examen físico está taquicárdico, con presión arterial es de 160/110, examen cardiaco con RR2T y se ausculta un soplo diastólico en el reborde esternal derecho. El diagnóstico más probable es:",
+  "options": "A) Tromboembolismo pulmonar | B) Pericarditis aguda | C) Infarto agudo al miocárdico con rotura de la pared libre | D) Infarto agudo al miocárdico con rotura del tabique interventricular | E) Disección aórtica",
+  "correcta": "E",
+  "explicacion": "Diagnóstico: **Disección aórtica** (opción **E**). El soplo diastólico (rotura de la válvula aórtica) y la HTA orientan a disección.. La combinación cardinal de dolor torácico súbito desgarrador (EVA 10/10) irradiado a región interescapular o dorso, cifras tensionales severas y asimetría de pulsos periféricos en extremidades superiores es patognomónica de disección aórtica aguda. Requiere angio-TAC de tórax inmediato y estabilización hemodinámica con betabloqueadores EV para reducir la fuerza de eyección ventricular (dP/dt).",
+  "conf": 0.82,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2022 · Pregunta 180",
+  "year": 2022,
+  "codes": [
+   "1.01.2.002 [cardio-35: Disección aórtica]"
+  ],
+  "stem": "Un paciente de 60 años, con antecedente de hipertensión arterial e hipotiroidismo, en tratamiento con enalapril y levotiroxina, consulta por dolor torácico intenso, que inició hace 22 horas, inicialmente con EVA 9/10, que se irradiaba al dorso y posteriormente al abdomen. Tomó analgésicos y el dolor disminuyó de intensidad, sin embargo, persiste 5/10, por lo que decidió consultar. Al examen físico, tiene FC: 98x’, PA: 170/112 mmHg, pulsos de extremidades superiores conservados y disminución de los pulsos de las extremidades inferiores; examen cardíaco muestra ritmo regular en dos tiempos, sin soplos y examen pulmonar con murmullo vesicular presenta y simétrico, sin ruidos agregados. Se solicita electrocardiograma que muestra una taquicardia sinusal. ¿Cuál es el examen más adecuado para proseguir el estudio?",
+  "options": "A) Ecocardiograma transtorácico | B) Angiografía coronaria | C) AngioTAC de tórax y abdomen | D) Radiografía de tórax | E) Troponinas plasmáticas",
+  "correcta": "C",
+  "explicacion": "Conducta / Tratamiento indicado: **AngioTAC de tórax y abdomen** (opción **C**). Es el método diagnóstico de elección debido a su alta sensibilidad (>95%) y capacidad para evaluar complicaciones y extensión anatómica con precisión milimétrica antes de decidir la terapéutica invasiva.",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 76",
+  "year": 2019,
+  "codes": [
+   "1.01.2.002 [cardio-35: Disección aórtica]"
+  ],
+  "stem": "Una paciente de 30 años, con antecedente de enfermedad de Marfán, puérpera hace un mes, consulta por dolor torácico precordial, opresivo, irradiado al dorso, EVA 8/10. Al examen físico tiene. Su electrocardiograma muestra taquicardia sinusal, sin otras alteraciones. El examen de elección para iniciar el enfrentamiento de esta paciente es:",
+  "options": "A) Coronariografía | B) Ecocardiograma transtorácico | C) Dímero D | D) AngioTAC de tórax | E) Test de esfuerzo",
+  "correcta": "D",
+  "explicacion": "La sospecha es una disección aórtica, especialmente por el antecedente de enfermedad de Marfán. La taquicardia sinusal es algo inespecífico, que también se puede ver en el IAM (aunque con signos de isquemia) y en el TEP (es más frecuente que el patrón S1Q3T3).",
+  "conf": 0.58,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 46",
+  "year": 2017,
+  "codes": [
+   "1.01.2.004 [cardio-15: Infarto agudo al miocardio]"
+  ],
+  "stem": "Un paciente de 62 años, con antecedentes de dislipidemia y diabetes en tratamiento con dieta e hipoglicemiantes orales, consulta por dolor toráxico opresivo irradiado a ambos hombros intenso EVA 9/10, asociado a disnea y sudoración. Al examen físico, su presión arterial es 140/70 mmHg con frecuencia cardiaca de 80 latidos por minuto. Pre- senta RR3T con presencia de R3, murmullo pulmonar presente con crépitos bibasales. Electrocardiagrama: SDST en V1-V4. La conducta más adecuada es:",
+  "options": "A) Tratamiento anticoagulante | B) Tratamiento antiplaquetario | C) Solicitar AngioTAC de tórax | D) Ecocardiograma bidimensional | E) Coronariografía de urgencia",
+  "correcta": "E",
+  "explicacion": "Es un SCA con SDST, por lo que requiere angioplastía de urgencia (o trombolisis, que no aparecía en las opciones).",
+  "conf": 0.97,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2025 · Pregunta 52",
+  "year": 2025,
+  "codes": [
+   "1.01.2.004 [cardio-15: Infarto agudo al miocardio]"
+  ],
+  "stem": "Hombre de 58 años llega a urgencias con dolor precordial opresivo intenso de 2 horas de evolución, irradiado al brazo izquierdo, sudoración profusa y disnea. ECG: supradesnivel del ST en V1-V4. ¿Cuál es el diagnóstico?",
+  "options": "A) Insuficiencia cardíaca aguda | B) Fibrilación auricular | C) Infarto agudo al miocardio con SDST | D) Tromboembolismo pulmonar | E) Pericarditis aguda",
+  "correcta": "C",
+  "explicacion": "IAM con SDST: dolor precordial opresivo + irradiación + sudoración + ECG con supradesnivel del ST = IAM con SDST (STEMI). Manejo urgente: aspirina + clopidogrel + anticoagulación + reperfusión (angioplastia primaria o trombolisis según disponibilidad).",
+  "conf": 0.95,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 60",
+  "year": 2015,
+  "codes": [
+   "1.01.2.004 [cardio-15: Infarto agudo al miocardio]"
+  ],
+  "stem": "Un paciente de 60 años presenta dolor precordial, irradiado al cuello, de 4 horas de evolución, EVA 9/10. Al examen físico está sudoroso, disneico, con RR2T, sin soplos. Se solicita un ECG que se muestra a continuación: ¿Cuál es el tratamiento más importante en este paciente?",
+  "options": "A) Anticoagulantes | B) Revascularización inmediata | C) Administración de fuidos intravenosos | D) Disminuir la presión arterial | E) Oxigenoterapia y antiarrítmicos",
+  "correcta": "B",
+  "explicacion": "Conducta / Tratamiento indicado: **Revascularización inmediata** (opción **B**). Es un IAM con SDST de la pared inferior. Los más importante es revascularizar.. El tratamiento es carga de volumen agresiva para mantener precarga del VD De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.95,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 125",
+  "year": 2019,
+  "codes": [
+   "1.01.2.004 [cardio-15: Infarto agudo al miocardio]"
+  ],
+  "stem": "Un paciente está hospitalizado por un infarto agudo al miocardio, con supradesnivel del segmento ST, de dos días de evolución. Presenta deterioro del estado general y disnea de reposo, con tendencia a la hipotensión arterial. En su examen físico tiene FC: 115x’, PA: 80/50 mmHg, examen pulmonar con crepitaciones bilaterales intensos y examen cardíaco con ritmo regular en 2 tonos, con soplo sistólico intenso, de localización precordial. El diagnóstico más probable es:",
+  "options": "A) Taponamiento cardíaco por rotura de la pared libre | B) Disfunción valvular aórtica isquémica | C) Rotura del músculo papilar | D) Shock cardiogénico por infarto masivo | E) Disección de la raíz aórtica",
+  "correcta": "C",
+  "explicacion": "Es una rotura clásica del músculo papilar con la insuficiencia mitral secundaria. Insisto, lean el resumen de semiología cardíaca.",
+  "conf": 0.92,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 87",
+  "year": 2024,
+  "codes": [
+   "1.01.2.004 [cardio-15: Infarto agudo al miocardio]"
+  ],
+  "stem": "Un hombre de 62 años, con antecedentes de hipertensión arterial y tabaquismo, consulta por dolor torácico opresivo de 3 horas de evolución, irradiado al brazo izquierdo, acompañado de náuseas y malestar general. Al ingreso, sus signos vitales son: presión arterial 140/85 mmHg, frecuencia cardíaca 95 latidos por minuto, frecuencia respiratoria 18 respiraciones por minuto, saturación de oxígeno 96% con aire ambiente, y temperatura 36,8 °C. El examen cardiopulmonar muestra ruidos cardíacos regulares sin soplos y campos pulmonares limpios sin crépitos ni sibilancias. Se solicita electriocardiograma, que se muestra a continuación (fuente: www.urgenciasyemergen.com): La conducta más adecuada es:",
+  "options": "A) Solicitar angioTAC de tórax | B) Solicitar enzimas cardíacas seriadas | C) Realizar angiografía coronaria de emergencia | D) Anticoagular con heparina y solicitar ecocardiograma transesofágico | E) Iniciar indometacina",
+  "correcta": "C",
+  "explicacion": "Síndrome Coronario Agudo con Bloqueo de Rama Izquierda: El cuadro clínico sugiere un síndrome coronario agudo. El ECG muestra un BCRI, por lo que se maneja como un SCA con supradesnivel del ST, con angiografía coronaria de urgencia y angioplastia o con trombólisis urgente si la angioplastia no está disponible.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 145",
+  "year": 2021,
+  "codes": [
+   "1.01.2.004 [cardio-15: Infarto agudo al miocardio]"
+  ],
+  "stem": "Un paciente de 67 años, usuario de sildenafil, que se automedica como tratamiento de impotencia sexual, presenta dolor torácico intenso, que inició una hora después de haber consumido dicho medicamento. Se solicita un electrocardiograma, que muestra suprdesnivel del segmento ST en las derivaciones inferiores. ¿Qué fármaco está contraindicado en el manejo de este paciente?",
+  "options": "A) Clopidogrel | B) Aspirina | C) Atenolol | D) Nitroglicerina | E) Estreptoquinasa",
+  "correcta": "D",
+  "explicacion": "La opción correcta es la **D** (Nitroglicerina). En este escenario clínico, nitroglicerina se encuentra estrictamente contraindicado debido a que su mecanismo de acción interfiere negativamente con la fisiopatología basal del paciente, aumentando la morbimortalidad según los protocolos clínicos vigentes.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 60",
+  "year": 2017,
+  "codes": [
+   "1.01.2.004 [cardio-15: Infarto agudo al miocardio]"
+  ],
+  "stem": "Un paciente de 65 años, diabético e hipertenso, consulta por dolor precordial opresi- vo intenso, EVA: 9/10, asociado a malestar general y disnea. Al examen físico con fre- cuencia cardiaca de 90 por minuto, presión arterial de 150/90 mmHg, al examen cardia- co se ausculta un ritmo regular y tercer ruido. Se realiza estudio con electrocardiogra- ma que muestra supradesnivel del segmento ST en DII, DIII y AVF. Diagnóstico más pro- bable:",
+  "options": "A) Infarto de pared anterior | B) Infarto de pared inferior | C) Pericarditis | D) Infarto de pared posterior | E) Infarto de pared lateral",
+  "correcta": "B",
+  "explicacion": "Diagnóstico: **Infarto de pared inferior** (opción **B**). DII, DIII y AVF son las derivaciones inferiores.. El infarto del ventrículo derecho (VD) ocurre como extensión del infarto inferior cuando la oclusión de la coronaria derecha es proximal. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 55",
+  "year": 2016,
+  "codes": [
+   "1.01.2.004 [cardio-15: Infarto agudo al miocardio]"
+  ],
+  "stem": "Paciente de 63 años, fumador y diabético, que hace una hora comienza con dolor torácico opresivo, intenso, que se irradia a cuello, con diaforesis y sensación de angustia. Se solicita un electrocardiograma, que muestra ritmo sinusal, a 80 lpm, con bloqueo completo de rama izquierda, que no se había visualizado en electrocardiogramas previos. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Solicitar enzimas cardíacas | B) Solicitar angiografía pulmonar | C) Solicitar ecocardiograma transesofágico | D) Instalar marcapaso externo transitorio | E) Iniciar terapia de reperfusión miocárdica precoz",
+  "correcta": "E",
+  "explicacion": "El BCRI nuevo es equivalente al SDST en el manejo del infarto, así que se debe reperfundir de inmediato, idealmente con angioplastía (o bien con trombolisis si no está disponible la angioplastía en menos de 90 minutos).",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2018 · Pregunta 42",
+  "year": 2018,
+  "codes": [
+   "1.01.2.004 [cardio-15: Infarto agudo al miocardio]"
+  ],
+  "stem": "Un paciente de 60 años consulta por dolor precordial opresivo irradiado a mandíbula de 40 minutos de evolución, asociado a sudoración. El electrocardiograma muestra supradesnivel del segmento ST en derivaciones DII, DIII y aVF. ¿Cuál es la principal complicación temprana de este cuadro?",
+  "options": "A) Insuficiencia mitral aguda. | B) Rotura de pared libre. | C) Arritmias ventriculares. | D) Taponamiento cardíaco. | E) Fibrilación auricular.",
+  "correcta": "C",
+  "explicacion": "El infarto con supradesnivel del ST en cara inferior (DII, DIII, aVF) tiene como complicación temprana más frecuente las arritmias ventriculares, que son la principal causa de muerte en las primeras horas. La rotura de pared libre y la insuficiencia mitral aguda por rotura del músculo papilar son complicaciones mecánicas más tardías y menos frecuentes, y el taponamiento es consecuencia de la rotura.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 11",
+  "year": 2017,
+  "codes": [
+   "1.01.2.004 [cardio-15: Infarto agudo al miocardio]"
+  ],
+  "stem": "Un paciente de 60 años, diabético e hipertenso en tratamiento con dieta, consulta por dolor torácico incitrante, intenso, asociado a sudoración y malestar general. Al examen físico está sudoroso, inquieto, con FC: 70x’, PA: 120/80 mmHg, RR2T sin soplos. Se solicita un electrocardiograma que muestra un bloqueo completo de rama izquierda. ¿Qué tratamiento se debe indicar en este momento?",
+  "options": "A) Aspirina y clopidogrel | B) Lidocaína y heparina | C) Morfina y nitritos | D) Atenolol e hidroclorotiazida | E) Digoxina y enalapril",
+  "correcta": "A",
+  "explicacion": "Conducta / Tratamiento indicado: **Aspirina y clopidogrel** (opción **A**). Es un síndrome coronario agudo. El BCRI es equivalente a un SDST.. El tratamiento es carga de volumen agresiva para mantener precarga del VD De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 157",
+  "year": 2024,
+  "codes": [
+   "1.01.2.004 [cardio-15: Infarto agudo al miocardio]"
+  ],
+  "stem": "ECG con supra st DII, DIII y aVF- medida inicial más adecuada:",
+  "options": "A) Reperfusión | B) Doble antiagregación (PORQUE NO PODRÍA SER) | C) Insuficiencia cardíaca | D) Fibrilación auricular | E) Infarto agudo al miocardio",
+  "correcta": "A",
+  "explicacion": "La alternativa correcta es la **A** (Reperfusión). El infarto del ventrículo derecho (VD) ocurre como extensión del infarto inferior cuando la oclusión de la coronaria derecha es proximal. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 44",
+  "year": 2021,
+  "codes": [
+   "1.01.2.004 [cardio-15: Infarto agudo al miocardio]"
+  ],
+  "stem": "Un paciente de 23 años consulta en el servicio de urgencia, por dolor torácico de 2 horas de evolución, intenso, asociado a diaforesis y palpitaciones, que inició algunos minutos después de haber inhalado cocaína. Al examen físico presenta FC: 120x’, PA: 190/120 mmHg, ritmo regular en dos tonos, sin soplos. Su electrocardiograma muestra supradesnivel de segmento ST en las derivaciones de la pared anterior. ¿Qué fármaco está contraindicado en el manejo de este paciente?",
+  "options": "A) Estreptoquinasa | B) Clopidogrel | C) Nitroglicerina | D) Atenolol | E) Diazepam",
+  "correcta": "D",
+  "explicacion": "El betabloqueo está contraindicado en la intoxicación por cocaína, ya que su esto exacerbaría su acción alfa-adrenérgica, pudiendo generar crisis hipertensivas y muerte. Lo que sí está indicado son las benzodiacepinas.",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2025 · Pregunta 96",
+  "year": 2025,
+  "codes": [
+   "1.01.2.004 [cardio-15: Infarto agudo al miocardio]"
+  ],
+  "stem": "Paciente con IAM con SDST llega a hospital sin capacidad de angioplastia primaria. El centro con ICPP más cercano se encuentra a 60 minutos. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Trombolisis inmediata y traslado a centro con hemodinamia | B) Esperar traslado a centro con angioplastia | C) Angioplastia de rescate de urgencia en el mismo centro | D) Manejo médico solo con heparina y AAS | E) Trombolisis y no trasladar",
+  "correcta": "A",
+  "explicacion": "IAM SDST sin capacidad de ICPP: si el traslado a centro con angioplastia demora >120 min desde el primer contacto médico, se realiza trombolisis inmediata + traslado para angiografía en 3-24h.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 28",
+  "year": 2024,
+  "codes": [
+   "1.01.2.004 [cardio-15: Infarto agudo al miocardio]"
+  ],
+  "stem": "Un paciente de 68 años, con antecedente de diabetes e hipertensión de larga data, mal controlado, consulta por un cuadro de disnea, opresión precordial y malestar general que comenzó hace dos horas. Al examen físico tiene FC: 88 lpm, PA: 220/120 mmHg y se ausculta ritmo regular en dos tiempos sin soplos y murmullo pulmonar presente bilateral, con escasos crépitos basales. Se solicita electrocardiograma que muestra desnivel de 2 milímetros en las derivaciones precordiales izquierdas. ¿Cuál es el fármaco de elección para el control de su presión arterial?",
+  "options": "A) Nitroprusiato endovenoso en infusión continua | B) Nitroglicerina endovenosa en infusión continua | C) Captopril vía oral | D) Hidralazina endovenosa | E) Nifedipino sublingual",
+  "correcta": "B",
+  "explicacion": "Manejo de la hipertensión en el síndrome coronario agudo: El paciente presenta un síndrome coronario agudo con aparente supradesnivel del ST y una crisis hipertensiva con daño a órgano blanco, lo que la clasifica como emergencia hipertensiva. En el contexto de un infarto, la nitroglicerina endovenosa suele ser el fármaco hipotensor de elección. En otras emergencias hipertensivas, como la disección aórtica, se suele utilizar labetalol o nitroprusiato por vía intravenosa.",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 3",
+  "year": 2019,
+  "codes": [
+   "1.01.2.004 [cardio-15: Infarto agudo al miocardio]"
+  ],
+  "stem": "Los enunciados fueron algo más cortos que los de las últimas versiones.",
+  "options": "A) Ninguna de las anteriores es correcta | B) Todas las anteriores son correctas | C) No se dispone de información suficiente | D) Otra alternativa no descrita | E) Otra alternativa no descrita",
+  "correcta": "C",
+  "explicacion": "La alternativa correcta es la **C** (No se dispone de información suficiente). Tiene un SCA con un BCRI reciente, por lo que debe ser manejado igual que un SCA con SDST.. El infarto del ventrículo derecho (VD) ocurre como extensión del infarto inferior cuando la oclusión de la coronaria derecha es proximal. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.5,
+  "alertas": [
+   "alternativas_repetidas"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 88",
+  "year": 2024,
+  "codes": [
+   "1.01.2.005 [cardio-19: Insuficiencia cardíaca aguda]"
+  ],
+  "stem": "(88) Paciente de 82 años con historia de 2 semanas de disnea progresiva FC 92 lpm PA 200/100 SatO2 90%. Al examen físico ingurgitación yugular, ritmo regular en tres tiempos por R3 al examen pulmonar créditos bibasales. ECG: ritmo sinusal con signos de sobrecarga del VI. Diagnóstico más probable:",
+  "options": "A) SCA | B) Disección aórtica | C) NAC | D) IC aguda | E) TEP f.​ Dolor torácico súbito, transfixiante, HTA y soplo diastólico.",
+  "correcta": "D",
+  "explicacion": "Diagnóstico: **IC aguda** (opción **D**). Esta clase aborda la interpretación del equilibrio ácido-base mediante gasometría arterial o venosa. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 152",
+  "year": 2024,
+  "codes": [
+   "1.01.2.005 [cardio-19: Insuficiencia cardíaca aguda]"
+  ],
+  "stem": "Paciente que tenía una insuficiencia cardiaca aguda, con tercer ruido.",
+  "options": "A) Cor pulmonale del EPOC | B) Insuficiencia cardíaca descompensada | C) Fibrilación auricular | D) Infarto agudo al miocardio | E) Tromboembolismo pulmonar",
+  "correcta": "B",
+  "explicacion": "La alternativa correcta es la **B** (Insuficiencia cardíaca descompensada). Esta clase aborda la interpretación del equilibrio ácido-base mediante gasometría arterial o venosa. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Enero 2023 · Pregunta 120",
+  "year": 2023,
+  "codes": [
+   "1.01.2.006 [cardio-03: Paro cardiorespiratorio]"
+  ],
+  "stem": "Diabético hipertenso con dolor torácico súbito, luego compromiso de conciencia y ausencia de pulso. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Desfibrilación inmediata sin RCP previa | B) Iniciar compresiones torácicas externas (RCP) | C) Intubación orotraqueal inmediata | D) Administrar adrenalina 1 mg EV de inmediato | E) Acceso venoso y carga de volumen",
+  "correcta": "B",
+  "explicacion": "Conducta / Tratamiento indicado: **Iniciar compresiones torácicas externas (RCP)** (opción **B**). Iniciar compresiones torácicas externas (RCP). Actualmente no se diferencia el manejo entre agua salada y agua dulce. De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 55",
+  "year": 2021,
+  "codes": [
+   "1.01.2.006 [cardio-03: Paro cardiorespiratorio]"
+  ],
+  "stem": "Un paciente de 60 años, con antecedentes de hipertensión arterial, dislipidemia, diabetes mellitus tipo 2 y tabaquismo de 20 paquetes año, consulta en el servicio de urgencia, por dolor precordial opresivo. Luego de su ingreso, presenta compromiso de conciencia, sin respuesta. Al examen físico no respira y es imposible palpar el pulso carotídeo. Además de solicitar ayuda, la conducta inicial más adecuada es:",
+  "options": "A) Realizar compresiones toráxicas | B) Realizar intubación orotraqueal | C) Dar golpe toráxico | D) Desfibrilar | E) Administrar adrenalina endovenosa",
+  "correcta": "A",
+  "explicacion": "Aunque se trate de un paro presenciado, que clásicamente se manejaba con desfibrilación inmediata, aquello solo ocurre cuando, además, está monitorizado, con desfibrilador a mano y se constata que tiene un ritmo desfibrilable de inmediato. De lo contrario, como en este caso (y la mayoría de los casos reales) siempre se debe solicitar ayuda e inmediatamente iniciar con las compresiones torácicas, mientras llega el resto del equipo con el desfibrilador y el carro de paro (con adrenalina, amiodarona, vías venosas, tubo orotraqueal, laringoscopio, etc.).",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 35",
+  "year": 2017,
+  "codes": [
+   "1.01.2.006 [cardio-03: Paro cardiorespiratorio]"
+  ],
+  "stem": "Un paciente de 60 años, con antecedentes de hipertensión arterial, dislipidemia, dia- betes mellitus tipo 2 y tabaquismo de 50 paquetes año, consulta por dolor precordial opresivo y durante la anamnesis presenta compromiso de conciencia, sin respuesta. Al examen no respira y es imposible palpar el pulso carotídeo. Además de solicitar ayuda, la conducta más adecuada es:",
+  "options": "A) Realizar compresiones toráxicas | B) Realizar intubación orotraqueal | C) Dar golpe toráxico | D) Administrar adrenalina intracardiaca | E) Realizar angioplastia de urgencia",
+  "correcta": "A",
+  "explicacion": "Es un paro, por lo que se debe iniciar RCP. Sin embargo, por ser un paro presencia- do, está indicado poner primero el desfibrilador, aunque no estaba en las opciones.",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 158",
+  "year": 2024,
+  "codes": [
+   "1.01.2.008 [cardio-34: Taponamiento pericárdico]"
+  ],
+  "stem": "Clínica de taponamiento, hipotensión, pulsos disminuidos como realizo el diagnóstico:",
+  "options": "A) Ecocardiograma | B) Hemograma y VHS | C) Ecografía | D) Radiografía | E) TAC con contraste",
+  "correcta": "A",
+  "explicacion": "Diagnóstico: **Ecocardiograma** (opción **A**). El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL). Las opciones alternativas (Hemograma y VHS, Ecografía) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente.",
+  "conf": 0.95,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 3",
+  "year": 2017,
+  "codes": [
+   "1.01.2.008 [cardio-34: Taponamiento pericárdico]"
+  ],
+  "stem": "Un paciente con antecedente de ser fumador de 30 paquetes año, suspendido hace 5 años, consulta por un cuadro de 24 horas de disnea de mínimos esfuerzos, asociada a intolerancia al ejercicio y malestar general. Al examen físico su PA: 90/60 y su FC: 110x’. Además destacan yugulares ingurgitadas a 45 grados y ruidos cardíacos apagados a la auscultación. Su electrocardiograma muestra disminución difusa del voltaje. El diagnóstico más probable es:",
+  "options": "A) Tromboembolismo pulmonar | B) Neumotórax | C) Derrame pleural | D) Infarto agudo al miocardio | E) Taponamiento cardíaco",
+  "correcta": "E",
+  "explicacion": "Diagnóstico: **Taponamiento cardíaco** (opción **E**). Es una clínica de taponamiento clásico. El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL).",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 136",
+  "year": 2024,
+  "codes": [
+   "1.01.2.008 [cardio-34: Taponamiento pericárdico]"
+  ],
+  "stem": "Un paciente de 79 años, con antecedente de cáncer de pulmón en espera de tratamiento, presenta un cuadro de 5 días de malestar general, disnea y episodios de pérdida de conocimiento de pocos segundos de duración, con recuperación completa. El examen físico muestra presión arterial: 80/60 mmHg, frecuencia cardíaca: 110x’ regular, cuello con ingurgitación yugular a 50 grados. El examen pulmonar muestra murmullo pulmonar presente, sin otros ruidos agregados y la auscultación cardíaca es difícil de realizar, ya que los ruidos cardíacos se encuentran apagados. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Tromboembolismo pulmonar | B) Taponamiento cardíaco | C) Derrame pleural | D) Síndrome de la vena cava superior | E) Insuficiencia tricuspídea",
+  "correcta": "B",
+  "explicacion": "Taponamiento Cardíaco: Aunque el antecedente de cáncer, la hipotensión y la disnea sugieren un tromboembolismo pulmonar, la disminución de la intensidad de los ruidos cardíacos apunta a derrame pericárdico con taponamiento, también compatible con el antecedente de cáncer y el resto de la clínica. Se recomienda revisar el resumen de semiología cardíaca.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2018 · Pregunta 4",
+  "year": 2018,
+  "codes": [
+   "1.01.2.009 [cardio-08: Taqui y bradiarritmia con compromiso hemodinámico]"
+  ],
+  "stem": "Un paciente ingresa al servicio de urgencia, por un cuadro de disnea marcada y síncopes. Al examen físico está confuso, con pulso de 200 latidos por minuto, regular y presión arterial de 70/40 mmHg. Además, tiene frialdad de extremidades y piel sudorosa. ¿Cuál es el tratamiento inicial más adecuado en este momento?",
+  "options": "A) Maniobras vagales | B) Amiodarona endovenosa | C) Adenosina endovenosa | D) Desfibrilación | E) Cardioversión eléctrica",
+  "correcta": "E",
+  "explicacion": "Por tener compromiso hemodinámico, da igual de qué taquiarritmia se trate y se debe cardiovertir eléctricamente (no confundir con la desfibrilación, que se usa en el paro con FV o TVSP).",
+  "conf": 0.97,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 177",
+  "year": 2019,
+  "codes": [
+   "1.01.2.009 [cardio-08: Taqui y bradiarritmia con compromiso hemodinámico]"
+  ],
+  "stem": "Un paciente de 65 años, con antecedente de un infarto agudo al miocardio, hace 2 años, presenta un síncope, con compromiso de conciencia que requirió maniobras de reanimación para recuperarse. ¿Qué arritmia es la que debe descartarse en primer lugar?",
+  "options": "A) Taquicardia paroxística supraventricular | B) Bloqueo auriculoventricular completo | C) Síndrome de Wolff Parkinson White | D) Taquicardia ventricular | E) Fibrilación auricular",
+  "correcta": "D",
+  "explicacion": "Si bien cualquier arritmia se puede presentar así, el antecedente de un IAM previo orienta mucho a TV. Además, la TV suele ser más grave y letal que las demás, por lo que la necesidad de maniobras de reanimación orienta también a TV.",
+  "conf": 0.95,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 93",
+  "year": 2024,
+  "codes": [
+   "1.01.2.009 [cardio-08: Taqui y bradiarritmia con compromiso hemodinámico]"
+  ],
+  "stem": "Un paciente hipertenso en tratamiento con losartán e hidroclorotiazida, y con antecedentes de asma en tratamiento con inhaladores, consulta por palpitaciones, asociadas a disnea y angustia. Al examen físico se constata taquicardia con frecuencia cardíaca de 124 latidos por minuto y presión arterial de 80/40 mmHg. Se solicita un electrocardiograma que se muestra a continuación (fuente: myekg.com): ¿Cuál es la conducta más adecuada?",
+  "options": "A) Desfibrilación | B) Amiodarona endovenosa | C) Propranolol endovenoso | D) Adenosina endovenosa | E) Cardioversión eléctrica",
+  "correcta": "E",
+  "explicacion": "Manejo de la Fibrilación Auricular Hemodinámicamente Inestable: En el caso de una fibrilación auricular con respuesta ventricular rápida que cause inestabilidad hemodinámica, se debe realizar cardioversión eléctrica inmediata (no confundirla con la desfibrilación eléctrica, que se usa en el paro). Este manejo se aplica a cualquier tipo de taquiarritmia con hemodinamia inestable. Si la fibrilación auricular hubiera presentado una hemodinamia estable, el manejo inicial habría sido disminuir la frecuencia cardíaca con propranolol endovenoso.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 2",
+  "year": 2017,
+  "codes": [
+   "1.01.2.009 [cardio-08: Taqui y bradiarritmia con compromiso hemodinámico]"
+  ],
+  "stem": "Una paciente de 68 años, con antecedente de diabetes, hipertensión arterial, en tratamiento con enalapril, metformina y aspirina, consulta por un cuadro de palpitaciones, asociado a malestar general y disnea de reposo. Tiene frecuencia cardíaca irregular de 160 lpm, PA: 85/40 mmHg, extremidades pálidas y frías en la zona distal. Su electrocardiograma muestra una fibrilación auricular rápida. ¿Cuál es la conducta inicial más adecuada?",
+  "options": "A) Administrar amiodarona | B) Administrar verapamilo | C) Administrar heparina y clopidogrel | D) Realizar cardioversión eléctrica | E) Administrar nitritos y morfina",
+  "correcta": "D",
+  "explicacion": "Es una FA con hemodinamia inestable y como toda taquiarritmia hemodinámicamente inestable, se debe cardiovertir, de inmediato.",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 25",
+  "year": 2017,
+  "codes": [
+   "1.01.2.009 [cardio-08: Taqui y bradiarritmia con compromiso hemodinámico]"
+  ],
+  "stem": "Una paciente de 68 años, hipertensa de larga data, consulta por disnea de pequeños esfuerzos, fatigabilidad y palpitaciones irregulares. Al examen físico, su presión arterial es de 100/60 mmHg con frecuencia cardiaca de 130 latidos por minuto, irregular, ade- más, presenta ingurgitación yugular y crépitos pulmonares bilaterales. Se solicita un electrocardiograma que se muestra a continuación: INSERTAR FOTO ¿Qué fármaco está contraindicado en esta paciente?",
+  "options": "A) Verapamilo | B) Amiodarona | C) Lanantósido C | D) Heparina | E) Digoxina",
+  "correcta": "A",
+  "explicacion": "Es una pregunta discutible, pero al estar algo hipotenso y en Shock cardiogénico, el verapamilo podría agravar el cuadro, por ser un bloqueador del calcio, que producen vasodilatación periférica (aunque el efecto del verapamilo en la circulación periférica es mínimo).",
+  "conf": 0.55,
+  "alertas": [
+   "explicacion_de_otro_tema",
+   "explicacion_admite_duda"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 92",
+  "year": 2016,
+  "codes": [
+   "1.01.2.009 [cardio-08: Taqui y bradiarritmia con compromiso hemodinámico]"
+  ],
+  "stem": "Hombre de 75 años que hace 4 años tuvo un infarto y actualmente presenta palpitaciones intensas y compromiso de conciencia que se recupera después de reanimación cardiopulmonar ¿Qué arritmia debe descartarse en primer lugar?",
+  "options": "A) Fibrilación Auricular | B) Taquicardia Ventricular | C) Taquicardia paroxística supraventricular | D) Bloqueo A-V de segundo grado mobitz 1 | E) Flutter auricular",
+  "correcta": "B",
+  "explicacion": "También podría haber sido una fibrilación ventricular, pero suelen estar precedidas por taquicardias ventriculares. Los infartos son la primera causa, porque se produce un fenómeno de reentrada alrededor de la zona ventricular infartada y por eso es frecuente la muerte súbita, al tener antecedente de un infarto.",
+  "conf": 0.5,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 139",
+  "year": 2021,
+  "codes": [
+   "1.01.2.009 [cardio-08: Taqui y bradiarritmia con compromiso hemodinámico]"
+  ],
+  "stem": "Un paciente de 64 años, con antecedente de un infarto al miocardio de pared anterior, hace 1 año, consulta por dolor torácico y disnea de reposo de 40 minutos de duración, asociado a palpitaciones. Al examen físico presenta FC: 200x’ y se realiza un electrocardiograma, que se muestra a continuación (fuente: cardioteca.com): ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Taquicardia paroxística supraventricular | B) Flutter auricular | C) Síndrome de Wolff Parkinson White | D) Taquicardia ventricular | E) Fibrilación auricular",
+  "correcta": "D",
+  "explicacion": "Diagnóstico: **Taquicardia ventricular** (opción **D**). La taquicardia ventricular (TV) es una arritmia potencialmente letal que se origina por debajo del haz de His. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.4,
+  "alertas": [
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2025 · Pregunta 150",
+  "year": 2025,
+  "codes": [
+   "1.01.3.003 [cardio-05: Manejo del paciente en tratamiento anticoagulante]"
+  ],
+  "stem": "Un paciente de 62 años, con antecedente de prótesis mecánica de válvula mitral e insuficiencia renal crónica, con un clearence de creatinina estimado de 20 ml/min, presenta un cuadro de palpitaciones. Se realiza electrocardiograma que muestra una taquiarritmia irregular con QRS angosto y ausencia de onda P. ¿Qué tratamiento es el más adecuado para su manejo?",
+  "options": "A) Apixabán | B) Enoxaparina | C) Dabigatrán | D) Acenocumarol | E) Rivaroxabán",
+  "correcta": "D",
+  "explicacion": "Los cumarínicos (warfarina y acenocumarol) son los anticoagulantes de elección en los pacientes con prótesis valvular mecánica (están contraindicados los nuevos anticoagulantes orales), en los pacientes con IRC severa (sí se puede usar el apixabán en la IRC; no se recomiendan heparinas de bajo peso) y en el síndrome an<fosfolípidos.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 155",
+  "year": 2024,
+  "codes": [
+   "1.01.4.001 [cardio-11: Coronariografía]"
+  ],
+  "stem": "Test de esfuerzo alterado cual era el siguiente paso?: a.​ Coronariografía",
+  "options": "A) Insuficiencia cardíaca | B) Fibrilación auricular | C) Infarto agudo al miocardio | D) Tromboembolismo pulmonar | E) Pericarditis aguda",
+  "correcta": "A",
+  "explicacion": "La alternativa correcta es la **A** (Insuficiencia cardíaca). Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh. Las opciones alternativas (Fibrilación auricular, Infarto agudo al miocardio) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente.",
+  "conf": 0.75,
+  "alertas": [
+   "enunciado_cortado_o_raro"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Enero 2023 · Pregunta 163",
+  "year": 2023,
+  "codes": [
+   "1.01.4.002 [cardio-37: Angiotac de tórax y aorta]"
+  ],
+  "stem": "Paciente con dolor retroesternal irradiado a dorso que cedió, presión elevada, sudoración y pulsos distales débiles. ¿Cuál es el examen de elección?",
+  "options": "A) AngioTAC de tórax y abdomen | B) Ecocardiografía transtorácica urgente | C) Coronariografía urgente | D) Radiografía de tórax anteroposterior | E) Resonancia magnética cardíaca",
+  "correcta": "A",
+  "explicacion": "La alternativa correcta es la **A** (AngioTAC de tórax y abdomen). AngioTAC de tórax y abdomen. Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh.",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 61",
+  "year": 2015,
+  "codes": [
+   "1.01.4.005 [cardio-11: Cintigrafía de perfusión miocárdica]"
+  ],
+  "stem": "¿Cuál es el mejor examen para determinar si una insuficiencia cardiaca es de origen isquémico?",
+  "options": "A) Electrocardiograma | B) Holter de electrocardiograma | C) Contigrafia de perfusión miocárdica | D) Ecografía bidimensional | E) Test de esfuerzo",
+  "correcta": "C",
+  "explicacion": "D? La verdad es que tanto la Ecocardiografía, como la Cintigrafía de perfusión son útiles para determinar la etiología isquémica de una ICC. La Ecocadiografía verá zonas hipoquinéticas y necrosadas o fibrosadas. La cintigrafía verá las zonas que se isquemizan con la actividad física.",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 53",
+  "year": 2013,
+  "codes": [
+   "1.01.4.006 [cardio-23: Ecocardiografía]"
+  ],
+  "stem": "Paciente de 67 años, con antecedentes de infarto agudo al miocardio hace 6 meses tratado con stent, hipertensión arterial tratada con enalapril e hidroclorotiazida, y diabetes mellitus tratada con insulina horaria, consulta por cuadro de dos meses de disnea de medianos esfuerzos, asociado a ortopnea y edema de extremidades inferiores que aumenta en las tardes. Al examen cardiopulmonar destaca ritmo regular en dos tiempos sin soplos y murmullo pulmonar presente con crepitaciones bibasales. ¿Cuál de los siguientes es el examen de elección para iniciar el estudio diagnóstico?",
+  "options": "A) Electrocardiograma | B) Coronariografía | C) Test de esfuerzo | D) Radiografía de torax | E) Ecocardiograma",
+  "correcta": "E",
+  "explicacion": "Tiene una insuficiencia cardiaca, secundaria a cardiopatía coronaria. Hay que pedir la Ecocardiografía, para ver la función ventricular.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 102",
+  "year": 2013,
+  "codes": [
+   "1.01.4.006 [cardio-23: Ecocardiografía]"
+  ],
+  "stem": "Paciente de 70 años, con antecedentes de diabetes e hipertensión en tratamiento, con historia de dolor torácico que aparece al esfuerzo y cede espontáneamente, la cual se desencadena cada vez con menor esfuerzo, no asociado a otros síntomas. Actualmente se encuentra asintomático y su examen físico muestra ritmo regular en dos tiempos sin soplos, murmullo pulmonar presente sin ruidos asociados. Se realiza ECG que muestra ritmo regular y QRS ancho compatible con bloqueo completo de rama izquierda. El examen más adecuado para continuar el estudio de este paciente es:",
+  "options": "A) Test de esfuerzo | B) Ecocardiografía de estrés | C) Enzimas cardiacas | D) AngioTAC | E) Coronariografía",
+  "correcta": "B",
+  "explicacion": "Conducta / Tratamiento indicado: **Ecocardiografía de estrés** (opción **B**). El BCRI inutiliza el Test de esfuerzo y se debe pedir la Eco-dobutamina.. Según los consensos y guías clínicas del MINSAL, esta constituye la conducta estándar de primera línea recomendada para este nivel de atención.",
+  "conf": 0.5,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2025 · Pregunta 88",
+  "year": 2025,
+  "codes": [
+   "1.01.4.006 [cardio-23: Ecocardiografía]"
+  ],
+  "stem": "Un paciente de 72 años, con antecedente de hipertensión arterial y diabetes mellitus desde hace 10 años con mal manejo, acude a control. En el examen físico destaca pulso pedio disminuido a derecha y en sus exámenes de laboratorio presenta hemoglobina glicosilada de 8,1%. ¿Qué examen es el más adecuado para proseguir su estudio?",
+  "options": "A) Ecogra:a Doppler de extremidades inferiores | B) Ple2smogra:a de registro de volumen (PVR) de extremidades inferiores | C) Electromiogra:a | D) Radiogra:a de pie | E) TAC de pie",
+  "correcta": "B",
+  "explicacion": "El examen inicial más usado para sospecha de enfermedad arterial periférica es el índice tobillo-brazo (ITB), pero como no aparece entre las alternativas y el paciente es diabético de larga data, la pletismografía de registro de volumen (PVR) aparece como la mejor opción. La PVR evalúa la perfusión arterial aun cuando los vasos estén calcificados, situación frecuente en diabéticos y que falsea el ITB.",
+  "conf": 0.2,
+  "alertas": [
+   "texto_corrupto",
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 180",
+  "year": 2024,
+  "codes": [
+   "1.01.4.007 [cardio-14: Electrocardiograma]"
+  ],
+  "stem": "Un paciente de 70 años, sin antecedentes de importancia presenta un síncope de reposo sin pródromo, con recuperación completa. Al examen físico se encuentra orientado, en Glasgow 15, con frecuencia cardíaca de 40 latidos por minuto. ¿Cuál es el examen de elección para iniciar el estudio?",
+  "options": "A) Monitoreo electrocardiográfico de 24 horas | B) Ecocardiograma | C) TAC de cerebro | D) Resonancia magnética de cerebro | E) Electrocardiograma",
+  "correcta": "E",
+  "explicacion": "Evaluación del Síncope Cardiogénico: En un paciente con sospecha de síncope cardiogénico debido a una bradiarritmia, el electrocardiograma (ECG) es el examen inicial esencial. El ECG puede identificar bloqueos auriculoventriculares, enfermedad del nodo sinusal y alteraciones hidroelectrolíticas como la hiperpotasemia, que se asocian con este tipo de arritmias.",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 62",
+  "year": 2024,
+  "codes": [
+   "1.01.4.007 [cardio-14: Electrocardiograma]"
+  ],
+  "stem": "Síncope en un adulto mayor que iba caminando, pierde conciencia subitamente, se golpea la cabeza y queda con herida en cuero cabelludo, se recupera bien, FC 60. El estudio inicial del cuadro (ojo no decía etiológico):",
+  "options": "A) Estudio inicial con ecg (sería esta si preguntaran la causa) b.​ TAC cerebral (sería esta si preguntan por el estudio del TEC -por ser adulto mayor se debe estudiar-) | B) Insuficiencia cardíaca | C) Fibrilación auricular | D) Infarto agudo al miocardio | E) Tromboembolismo pulmonar",
+  "correcta": "A",
+  "explicacion": "La alternativa correcta es la **A** (Estudio inicial con ecg (sería esta si preguntaran la causa) b.​ TAC cerebral (sería esta si preguntan por el estudio del TEC -por ser adulto mayor se debe estudiar-)). El electrocardiograma es la herramienta diagnóstica más importante en el síndrome coronario agudo (SCA). Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.5,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 85",
+  "year": 2013,
+  "codes": [
+   "1.01.4.008 [cardio-11: Test de esfuerzo]"
+  ],
+  "stem": "Paciente de 57 años, hipertenso en tratamiento con losartan y tabáquico, consulta por historia de 3 semanas de evolución de episodios caracterizados por dolor torácico que aparece al caminar por más de 10 minutos, el cual tiene una duración máxima de 5 minutos y luego cede al reposo, no asociado a otros síntomas. Actualmente se encuentra asintomático y su examen físico es normal. ¿Cuál de los siguientes exámenes es más adecuado para iniciar su estudio?",
+  "options": "A) Radiografía de tórax | B) Ecocardiograma | C) Coronariografía | D) Electrocardiograma | E) Test de esfuerzo",
+  "correcta": "E",
+  "explicacion": "Es una angina de esfuerzo. Si bien hay que pedir un ECG, el TE es el examen para la angina en sí. Además el test de esfuerzo es un ECG y si está malo al inicio, no se prosigue con el examen. En la vida real, sí se pedirá probablemente el ECG, pero se debe simplificar la pregunta, a ¿cómo se estudia una angina estable?... con Test d esfuerzo. Si viniera con soplo, se sospecharía una estenosis aórtica y la respuesta sería Ecografía.",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 7",
+  "year": 2017,
+  "codes": [
+   "1.01.4.014 [cardio-09: Holter de ritmo]"
+  ],
+  "stem": "Una paciente de 67 años, con antecedente de hipertensión arterial y fibrilación auricular, en tratamiento con atenolol, verapamilo y acenocumarol, consulta porque presenta repetidos episodios de malestar, sudoración y ortostatismo, que duran algunos segundos y revierten espontáneamente. Al examen físico destaca frecuencia cardiaca de 60 lpm, irregular y presión arterial 110/70 mmHg. Su examen cardiopulmonar es normal. ¿Cuál es el examen más adecuado para confirmar la sospecha diagnóstica?",
+  "options": "A) Test de esfuerzo | B) Ecocardiograma | C) Ecografía doppler de extremidades inferiores | D) Tilt test | E) Monitoreo electrocardiográfico de 24 horas",
+  "correcta": "E",
+  "explicacion": "La sospecha es una enfermedad del nodo sinusal, en contexto de un síndrome taquicardia/bradicardia (FA + ENS).",
+  "conf": 0.6,
+  "alertas": null
+ }
+]

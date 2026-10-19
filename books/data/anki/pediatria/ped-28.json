@@ -1,0 +1,425 @@
+{
+  "classId": "ped-28",
+  "cards": [
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Debe sospecharse maltrato ante un relato {{c1::inconsistente o que cambia}}, consulta tardía o lesión incompatible con el desarrollo.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Sospecha",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.138"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 150"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Quemadura por inmersión «en guante» o «en calcetín»: bordes {{c1::netos}}, por contacto forzado.",
+      "extra": "Hospitalizar y denunciar.",
+      "origen": "clase:3",
+      "fuente": "Clase · Lesiones sospechosas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.138"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-28/02_quemadura-inmersion-calcetin__nelson_p220.jpg"
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fracturas sospechosas: costillas {{c1::posteriores}}, metafisarias «en esquina» y múltiples de distinta edad.",
+      "extra": "Mecanismo de sacudida, compresión o torsión.",
+      "origen": "clase:3",
+      "fuente": "Clase · Lesiones sospechosas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.138"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síndrome del niño sacudido se presenta en menores de {{c1::1 año}} con irritabilidad, vómitos, letargia o convulsiones.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Niño sacudido",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.138"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño sacudido: hematoma {{c1::subdural}}, hemorragias retinianas y fracturas costales.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Niño sacudido",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.138"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-28/05_hematoma-subdural-abuso-tac__nelson_p781.jpg",
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 150"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante hematoma subdural, equimosis de distintas edades y fracturas costales en un lactante, el examen que sigue es el {{c1::fondo de ojo}}.",
+      "extra": "Busca hemorragias retinianas.",
+      "origen": "libro:caso",
+      "fuente": "Libro · Caso clínico",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.138"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-28/01_hemorragias-retinianas__nelson_p5060.jpg",
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 150"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En menores de {{c1::2 años}} con sospecha de maltrato se solicita serie esquelética.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Estudio",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.138"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el abuso sexual no se {{c1::interroga repetidamente}} al niño.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Abuso sexual",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.138"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante sospecha de maltrato: proteger (hospitalizar si hay riesgo), avisar al {{c1::asistente social}} y denunciar.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Conducta",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.138"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 150"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La denuncia obligatoria del maltrato se hace dentro de {{c1::24 horas}} (art. 175 del Código Procesal Penal).",
+      "extra": "Ante Carabineros, PDI, Fiscalía o tribunales.",
+      "origen": "clase:6",
+      "fuente": "Clase · Conducta",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.138"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante sospecha de maltrato, el error es {{c1::confrontar al presunto agresor}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Conducta",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.138"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Abuso sexual agudo: anticoncepción de emergencia hasta {{c1::120 horas}} y profilaxis post-exposición de VIH dentro de {{c2::72 horas}}.",
+      "extra": "Se deriva al Servicio Médico Legal.",
+      "origen": "clase:6",
+      "fuente": "Clase · Abuso sexual agudo",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.138"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Entrevista centrada en el paciente: ambiente privado, preguntas {{c1::abiertas}} y luego específicas, escucha activa y lenguaje simple.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Entrevista clínica",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.004"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Al terminar la entrevista se resume y se pide que repitan lo entendido, para {{c1::confirmar la comprensión}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Entrevista",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.004"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la entrevista del adolescente se ofrece tiempo {{c1::a solas}} y se explican la confidencialidad y sus límites.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Adolescente",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.009"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La confidencialidad se rompe ante {{c1::riesgo vital, abuso o violencia grave}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Adolescente",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.009"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "HEADSSS: Hogar, Educación, Actividades, Drogas, {{c1::Sexualidad}}, Suicidio y depresión, Seguridad.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · HEADSSS",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.009"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El protocolo para comunicar malas noticias se llama {{c1::SPIKES}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · SPIKES",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.004"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "SPIKES: lugar privado y sin interrupciones, y luego explorar {{c1::qué saben y cuánto quieren saber}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · SPIKES",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.004"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "SPIKES: la información se entrega {{c1::de a poco}}, en lenguaje simple, acogiendo las emociones.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · SPIKES",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.004"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Factores protectores del adolescente: vínculo {{c1::familiar}} sólido, pertenencia escolar y habilidades socioemocionales.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Conductas de riesgo",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.009"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "CRAFFT: {{c1::2 o más}} respuestas positivas indican consumo problemático probable.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Conductas de riesgo",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.009"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "Consumo problemático de alcohol y drogas: GES en menores de {{c1::20 años}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Conductas de riesgo",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.009"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Preguntar directamente por el suicidio {{c1::no aumenta el riesgo}}; para depresión se usa el PHQ-A.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Conductas de riesgo",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.009"
+      ]
+    },
+    {
+      "id": "c37",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Se pide psiquiatría de enlace ante enfermedad crónica con depresión o ansiedad, {{c1::mala adherencia}}, intento de suicidio o autolesiones.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Psiquiatría de enlace",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.012"
+      ]
+    },
+    {
+      "id": "c39",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras un intento de suicidio se asegura la protección y se pide {{c1::evaluación psiquiátrica}} antes del alta.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Psiquiatría de enlace",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.012"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-28/01_hemorragias-retinianas__nelson_p5060.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Hemorragias retinianas (traumatismo craneano abusivo)",
+      "clave": "Múltiples hemorragias en varias capas de la retina",
+      "conducta": "Sospechar niño sacudido: hospitalizar, serie esquelética, coagulación y denuncia en 24 horas",
+      "fuente": "Nelson Textbook of Pediatrics 22.ª ed., Fig. 670.13",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.138"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-28/05_hematoma-subdural-abuso-tac__nelson_p781.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Hematomas subdurales por maltrato",
+      "clave": "Colecciones subdurales en la TAC de un lactante",
+      "conducta": "Fondo de ojo, serie esquelética, hospitalizar y denunciar",
+      "fuente": "Nelson Textbook of Pediatrics 22.ª ed., Fig. 82.8",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.138"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-28/02_quemadura-inmersion-calcetin__nelson_p220.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Quemadura por inmersión «en calcetín»",
+      "clave": "Bordes netos en el pie, por contacto forzado",
+      "conducta": "Hospitalizar, fotografiar, proteger al niño y denunciar",
+      "fuente": "Nelson Textbook of Pediatrics 22.ª ed., Fig. 17.2B",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.138"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Lesión que no calza con el relato: ¿qué estudio pides?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Sospecha de maltrato: ¿qué haces siempre?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2",
+      "pista": "Abuso sexual agudo: ¿qué derivación y profilaxis?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.3",
+      "pista": "Enfermedad crónica y mala adherencia: ¿qué interconsulta?"
+    }
+  ]
+}

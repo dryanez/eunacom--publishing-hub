@@ -1,0 +1,503 @@
+{
+  "classId": "endo-18",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El estándar de oro diagnóstico de la osteoporosis es la {{c1::densitometría DEXA}} axial en columna lumbar (L1-L4) y cadera.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.018",
+        "1.03.4.002"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Diagnóstico OMS de osteoporosis: T-score {{c1::≤ -2,5}} en cualquier sitio evaluado.",
+      "extra": "Rige para posmenopáusicas y hombres de 50 años o más.",
+      "origen": "clase:1",
+      "fuente": "Clase · Cortes de la OMS",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Osteopenia: T-score entre {{c1::-1,0 y -2,5}}.",
+      "extra": "Normal: T-score ≥ -1,0.",
+      "origen": "clase:1",
+      "fuente": "Clase · Cortes de la OMS",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Osteoporosis severa o establecida: T-score ≤ -2,5 más {{c1::una o más fracturas por fragilidad}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.018",
+        "1.03.4.002"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una fractura por fragilidad (cadera, vértebra, húmero proximal) establece el diagnóstico de osteoporosis {{c1::sin importar el T-score}}.",
+      "extra": "Se trata aunque la DEXA muestre osteopenia.",
+      "origen": "clase:2",
+      "fuente": "Clase · Regla EUNACOM",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Fractura de cadera tras caída a nivel con T-score -2,2: el error es {{c1::no tratar porque no llega a -2,5}}.",
+      "extra": "Se indica bifosfonato más calcio y vitamina D.",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una caída desde la propia altura con fractura de Colles, vértebra o cadera se considera {{c1::traumatismo de baja energía}} (fractura por fragilidad).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Regla EUNACOM",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-18/03_fractura_colles__sherman_p569.jpg",
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Se pide DEXA a toda mujer de {{c1::65 años o más}} y a posmenopáusicas más jóvenes con factores de riesgo.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Prevención",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En usuaria crónica de corticoides (artritis reumatoide, prednisona por años) el examen perentorio es la {{c1::densitometría ósea}}; el error es esperar la fractura.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.03.4.002"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En osteopenia se trata si el FRAX a 10 años es ≥ {{c1::20%}} para fractura mayor o ≥ {{c2::3%}} para cadera.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 FRAX",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.018",
+        "1.07.1.015"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En osteopenia sin fractura, el error es dar bifosfonato a todos; primero se {{c1::calcula el FRAX}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se inicia fármaco antiosteoporótico en el uso crónico de prednisona ≥ {{c1::5-7,5 mg/día}} por más de 3 meses.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Cuándo iniciar fármacos",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En FRAX suma un IMC menor de {{c1::20 kg/m²}} y alcohol de 3 o más unidades al día.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Factores del FRAX",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primera línea de tratamiento de la osteoporosis: {{c1::bifosfonatos}}, junto con calcio y vitamina D.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 114"
+      ],
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con T-score ≤ -2,5 ya con calcio y vitamina D, el error es subir los suplementos; se {{c1::agrega bifosfonato}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 114"
+      ],
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alendronato: {{c1::70 mg}} una vez a la semana.",
+      "extra": "Risedronato: 35 mg semanal o 150 mg mensual.",
+      "origen": "clase:7",
+      "fuente": "Clase · Bifosfonatos",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los bifosfonatos inhiben la {{c1::farnesil pirofosfato sintasa}} del osteoclasto y promueven su apoptosis.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Bifosfonatos",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alendronato se toma en {{c1::ayunas}} con un vaso lleno (200-250 mL) de agua de la llave.",
+      "extra": "No con leche, jugos, té ni agua con gas.",
+      "origen": "clase:7",
+      "fuente": "Clase · Reglas de administración",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras tomar el alendronato hay que permanecer erguido {{c1::30 a 60 minutos}} sin acostarse ni comer.",
+      "extra": "Previene la esofagitis erosiva o úlceras esofágicas.",
+      "origen": "clase:7",
+      "fuente": "Clase · Reglas de administración",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa EV: ácido zoledrónico {{c1::5 mg}} una vez al año, en infusión de 15 minutos.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Vía endovenosa",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El ácido zoledrónico EV se prefiere en {{c1::reflujo severo, esofagitis o incapacidad de estar erguido}}.",
+      "extra": "También si no hay adherencia a la vía oral.",
+      "origen": "clase:8",
+      "fuente": "Clase · Vía endovenosa",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Suplementación en todo paciente tratado: calcio {{c1::1000-1200 mg/día}} y vitamina D3 800-2000 UI/día.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Suplementación",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Complicaciones raras del bifosfonato: {{c1::osteonecrosis mandibular}} (extracciones dentales) y fractura atípica subtrocantérica de fémur.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Seguridad",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-18/04_osteonecrosis_mandibular__commons.jpg",
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se evalúan 'vacaciones terapéuticas' del bifosfonato a los {{c1::3-5 años}}; DEXA de control cada 1-2 años.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Seguridad",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Denosumab: {{c1::60 mg SC}} cada 6 meses; inhibe RANKL.",
+      "extra": "Útil en falla renal moderada; al suspenderlo hay efecto rebote rápido.",
+      "origen": "clase:9",
+      "fuente": "Clase · Otras terapias",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Teriparatida (osteoformador): {{c1::20 mcg SC}} diario, máximo 24 meses.",
+      "extra": "Elección en osteoporosis severa con múltiples fracturas vertebrales.",
+      "origen": "clase:9",
+      "fuente": "Clase · Otras terapias",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En hombre u osteoporosis premenopáusica, antes de tratar se {{c1::descarta una causa secundaria}}.",
+      "extra": "El error es iniciar bifosfonato sin estudio.",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa farmacológica más frecuente de osteoporosis secundaria son los {{c1::glucocorticoides}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Osteoporosis secundaria",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se sospecha causa secundaria si el Z-score es ≤ {{c1::-2,0}}.",
+      "extra": "En premenopáusicas y hombres menores de 50 se usa Z-score.",
+      "origen": "clase:5",
+      "fuente": "Clase · Osteoporosis secundaria",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Prevención: calcio {{c1::1000 mg/día}} en adultos y 1200 mg en mujeres mayores de 50 y hombres mayores de 70.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Prevención",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Ejercicio con carga al menos {{c1::150 minutos}} semanales; en el adulto mayor la prioridad es prevenir caídas.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Prevención",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La osteoporosis {{c1::no tiene GES}} directo; hay garantías en GES 16 (adulto mayor con artrosis o fracturas) y atención en APS.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Perfil / GES",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/05_endocrinologia/endo-18/03_fractura_colles__sherman_p569.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Fractura de Colles (radio distal) por fragilidad",
+      "clave": "Fractura distal del radio tras caída a nivel apoyando la mano",
+      "conducta": "Es fractura por fragilidad: diagnóstico de osteoporosis; bifosfonato más calcio y vitamina D",
+      "fuente": "Atlas of Clinical Emergency Medicine (Sherman), p. 569",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/05_endocrinologia/endo-18/04_osteonecrosis_mandibular__commons.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Osteonecrosis mandibular por bifosfonatos",
+      "clave": "Hueso expuesto y necrótico en la boca que no cierra",
+      "conducta": "Se asocia a extracciones dentales; evaluar vacaciones terapéuticas a los 3-5 años",
+      "fuente": "Wikimedia Commons, CC BY-SA 4.0",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/05_endocrinologia/endo-18/05_fractura_atipica_femur__helms_p165.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Fractura atípica subtrocantérica de fémur",
+      "clave": "Engrosamiento de la cortical lateral; dolor de muslo tras más de 5 años de uso",
+      "conducta": "Suspender el bifosfonato y derivar; evaluar vacaciones terapéuticas",
+      "fuente": "Fundamentals of Skeletal Radiology (Helms), p. 165",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.018"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1.0",
+      "pista": "T-score ≤ -2,5: ¿cómo eliges el fármaco?",
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1",
+      "pista": "Osteopenia: ¿qué defines para decidir?",
+      "codigos": [
+        "1.03.1.018"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1",
+      "pista": "No tolera la vía oral: ¿qué fármaco usas?",
+      "codigos": [
+        "1.03.1.018"
+      ]
+    }
+  ]
+}

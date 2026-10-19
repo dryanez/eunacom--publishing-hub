@@ -1,0 +1,2257 @@
+{
+ "_doc": "Glosario clicable del mazo Anki (popover en el reverso). 'def' se escribe a mano desde el libro (sin cifras nuevas) y se conserva al regenerar; pagina/clase/t/url los recalcula conceptos.py. Términos y alias: books/scripts/anki/vocab_*.txt.",
+ "libro": "otorrino",
+ "pdf": "books/dist/Modulo_2_Cirugia/Tomo_14_Otorrinolaringologia_Completo_2026.pdf",
+ "terminos": {
+  "Otitis_media_aguda": {
+   "termino": "Otitis media aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "otitis media aguda",
+    "OMA"
+   ],
+   "def": "Infección del oído medio tras un resfrío viral. Diagnóstico otoscópico: inicio agudo, efusión y tímpano abombado con eritema. Amoxicilina 80-90 mg/kg/día; neumococo el agente más frecuente.",
+   "pagina": 5,
+   "clase": "orl-01",
+   "claseTitulo": "14.1 Otitis Media Aguda (OMA): Diagnóstico Otoscópico, Etiología y Criterios Antimicrobianos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 22
+  },
+  "Abombamiento_timpanico": {
+   "termino": "Abombamiento timpánico",
+   "tipo": "Signo",
+   "alias": [
+    "abombamiento",
+    "abombado"
+   ],
+   "def": "Signo otoscópico más específico de OMA supurada. El eritema aislado, sin abombamiento ni hipomovilidad, no justifica antibióticos.",
+   "pagina": 5,
+   "clase": "orl-01",
+   "claseTitulo": "14.1 Otitis Media Aguda (OMA): Diagnóstico Otoscópico, Etiología y Criterios Antimicrobianos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 12
+  },
+  "Trompa_de_Eustaquio": {
+   "termino": "Trompa de Eustaquio",
+   "tipo": "Concepto",
+   "alias": [
+    "trompa de Eustaquio",
+    "trompa"
+   ],
+   "def": "Conducto que ventila el oído medio. Su disfunción tras una infección viral genera presión negativa, efusión y OMA; también causa la curva C y la OME.",
+   "pagina": 5,
+   "clase": "orl-01",
+   "claseTitulo": "14.1 Otitis Media Aguda (OMA): Diagnóstico Otoscópico, Etiología y Criterios Antimicrobianos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 4
+  },
+  "Amoxicilina": {
+   "termino": "Amoxicilina",
+   "tipo": "Farmaco",
+   "alias": [
+    "amoxicilina"
+   ],
+   "def": "Primera línea en OMA, rinosinusitis bacteriana y faringitis estreptocócica. En OMA, 80-90 mg/kg/día cada 12 horas; en faringitis, 50 mg/kg/día por 10 días. Exantema en mononucleosis.",
+   "pagina": 63,
+   "clase": "orl-13",
+   "claseTitulo": "14.13 Faringoamigdalitis Aguda Bacteriana: Criterios de Centor/McIsaac y Penicilina",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 19
+  },
+  "Amoxicilina_con_acido_clavulanico": {
+   "termino": "Amoxicilina con ácido clavulánico",
+   "tipo": "Farmaco",
+   "alias": [
+    "clavulánico"
+   ],
+   "def": "Se usa en OMA con falla a las 48-72 horas, antibiótico previo en 30 días o conjuntivitis purulenta. Cubre H. influenzae y Moraxella productores de betalactamasas.",
+   "pagina": 6,
+   "clase": "orl-01",
+   "claseTitulo": "14.1 Otitis Media Aguda (OMA): Diagnóstico Otoscópico, Etiología y Criterios Antimicrobianos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 6
+  },
+  "OMA_recurrente": {
+   "termino": "OMA recurrente",
+   "tipo": "Concepto",
+   "alias": [
+    "recurrente",
+    "OMAr"
+   ],
+   "def": "3 episodios en 6 meses o 4 en 12 meses, con resolución entre ellos. Se deriva a ORL para tubos de ventilación; la quimioprofilaxis antibiótica está contraindicada.",
+   "pagina": 73,
+   "clase": "orl-15",
+   "claseTitulo": "14.15 Hipertrofia Adenotonsilar y SAHOS Infantil: Indicaciones Quirúrgicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 11
+  },
+  "Tubos_de_ventilacion_timpanica": {
+   "termino": "Tubos de ventilación timpánica",
+   "tipo": "Concepto",
+   "alias": [
+    "tubos de ventilación",
+    "colleras",
+    "collera"
+   ],
+   "def": "Colleras. Indicadas en OMA recurrente y en OME de más de 3 meses con hipoacusia bilateral sobre 25-30 dB. Restablecen la ventilación del oído medio.",
+   "pagina": 10,
+   "clase": "orl-02",
+   "claseTitulo": "14.2 Otitis Media con Efusión (OME), OMC Simple y Colesteatomatosa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 4
+  },
+  "Otitis_media_con_efusion": {
+   "termino": "Otitis media con efusión",
+   "tipo": "Concepto",
+   "alias": [
+    "otitis media con efusión",
+    "OME",
+    "otitis serosa"
+   ],
+   "def": "Líquido no purulento tras un tímpano íntegro, sin fiebre ni dolor. Causa de hipoacusia de conducción escolar; se observa 3 meses, sin antibióticos ni antihistamínicos.",
+   "pagina": 10,
+   "clase": "orl-02",
+   "claseTitulo": "14.2 Otitis Media con Efusión (OME), OMC Simple y Colesteatomatosa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 13
+  },
+  "Otitis_media_cronica_simple": {
+   "termino": "Otitis media crónica simple",
+   "tipo": "Concepto",
+   "alias": [
+    "OMC simple",
+    "otitis media crónica"
+   ],
+   "def": "Perforación central permanente que respeta el annulus, con otorrea no fétida. Aseo y ciprofloxacino tópico; timpanoplastia en fase seca. Evitar aminoglucósidos tópicos.",
+   "pagina": 10,
+   "clase": "orl-02",
+   "claseTitulo": "14.2 Otitis Media con Efusión (OME), OMC Simple y Colesteatomatosa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 4
+  },
+  "Colesteatoma": {
+   "termino": "Colesteatoma",
+   "tipo": "Concepto",
+   "alias": [
+    "colesteatoma"
+   ],
+   "def": "Epitelio queratinizante en el oído medio, osteolítico. Perforación marginal o atical, escamas nacaradas y otorrea fétida. TAC de peñasco sin contraste y cirugía obligatoria.",
+   "pagina": 10,
+   "clase": "orl-02",
+   "claseTitulo": "14.2 Otitis Media con Efusión (OME), OMC Simple y Colesteatomatosa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 12
+  },
+  "TAC_de_penasco": {
+   "termino": "TAC de peñasco",
+   "tipo": "Examen",
+   "alias": [
+    "TAC de peñasco"
+   ],
+   "def": "Examen de elección para colesteatoma: sin contraste, de alta resolución, muestra erosión del scutum, osículos y canales. En mastoiditis y otitis externa maligna se pide con contraste.",
+   "pagina": 19,
+   "clase": "orl-04",
+   "claseTitulo": "14.4 Complicaciones de Otitis: Mastoiditis Aguda y Tromboflebitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 4
+  },
+  "Timpanoplastia": {
+   "termino": "Timpanoplastia",
+   "tipo": "Concepto",
+   "alias": [
+    "timpanoplastia"
+   ],
+   "def": "Cirugía que cierra la perforación timpánica en la fase seca de la OMC simple o si no cierra la traumática a los 3 meses; restituye la audición.",
+   "pagina": 10,
+   "clase": "orl-02",
+   "claseTitulo": "14.2 Otitis Media con Efusión (OME), OMC Simple y Colesteatomatosa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 3
+  },
+  "Timpanomastoidectomia": {
+   "termino": "Timpanomastoidectomía",
+   "tipo": "Concepto",
+   "alias": [
+    "timpanomastoidectomía",
+    "mastoidectomía"
+   ],
+   "def": "Cirugía del colesteatoma para erradicarlo y prevenir mastoiditis, meningitis y parálisis facial. La mastoidectomía simple se hace en el absceso subperióstico.",
+   "pagina": 19,
+   "clase": "orl-04",
+   "claseTitulo": "14.4 Complicaciones de Otitis: Mastoiditis Aguda y Tromboflebitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 6
+  },
+  "Laberintitis": {
+   "termino": "Laberintitis",
+   "tipo": "Concepto",
+   "alias": [
+    "laberintitis"
+   ],
+   "def": "Vértigo persistente con hipoacusia en un oído con otorrea crónica. Se trata con antibióticos endovenosos; se opera si es secundaria a un colesteatoma.",
+   "pagina": 19,
+   "clase": "orl-04",
+   "claseTitulo": "14.4 Complicaciones de Otitis: Mastoiditis Aguda y Tromboflebitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 4
+  },
+  "Otitis_externa_difusa": {
+   "termino": "Otitis externa difusa",
+   "tipo": "Concepto",
+   "alias": [
+    "otitis externa difusa",
+    "otitis externa",
+    "oído de nadador"
+   ],
+   "def": "Dermo-epidermitis del conducto por humedad y cotonitos; Pseudomonas en 70-80%. Signo del trago positivo. Aseo, gotas de ciprofloxacino y analgesia, sin antibióticos orales.",
+   "pagina": 14,
+   "clase": "orl-03",
+   "claseTitulo": "14.3 Otitis Externa Difusa vs Otitis Externa Maligna en Diabéticos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 8
+  },
+  "Signo_del_trago": {
+   "termino": "Signo del trago",
+   "tipo": "Signo",
+   "alias": [
+    "signo del trago",
+    "trago"
+   ],
+   "def": "Dolor a la presión del trago o a la tracción del pabellón, característico de la otitis externa difusa.",
+   "pagina": 14,
+   "clase": "orl-03",
+   "claseTitulo": "14.3 Otitis Externa Difusa vs Otitis Externa Maligna en Diabéticos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 3
+  },
+  "Otomicosis": {
+   "termino": "Otomicosis",
+   "tipo": "Concepto",
+   "alias": [
+    "otomicosis"
+   ],
+   "def": "Otitis externa por Candida: prurito, poco dolor y secreción grumosa blanquecina. Se trata con aseo y clotrimazol tópico.",
+   "pagina": 15,
+   "clase": "orl-03",
+   "claseTitulo": "14.3 Otitis Externa Difusa vs Otitis Externa Maligna en Diabéticos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 2
+  },
+  "Otitis_externa_maligna": {
+   "termino": "Otitis externa maligna",
+   "tipo": "Concepto",
+   "alias": [
+    "otitis externa maligna",
+    "necrotizante"
+   ],
+   "def": "Osteomielitis de base de cráneo por Pseudomonas en diabéticos mayores. Granulación en el piso del conducto; el facial se afecta primero. Hospitalizar, TAC con contraste, antibiótico EV 6-8 semanas.",
+   "pagina": 14,
+   "clase": "orl-03",
+   "claseTitulo": "14.3 Otitis Externa Difusa vs Otitis Externa Maligna en Diabéticos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 3
+  },
+  "Ciprofloxacino_topico": {
+   "termino": "Ciprofloxacino tópico",
+   "tipo": "Farmaco",
+   "alias": [
+    "ciprofloxacino"
+   ],
+   "def": "Gotas de ciprofloxacino 0,3%, 7 a 10 días, en otitis externa y OMC reagudizada. No es ototóxico con perforación, a diferencia de los aminoglucósidos.",
+   "pagina": 14,
+   "clase": "orl-03",
+   "claseTitulo": "14.3 Otitis Externa Difusa vs Otitis Externa Maligna en Diabéticos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 9
+  },
+  "Otohematoma": {
+   "termino": "Otohematoma",
+   "tipo": "Concepto",
+   "alias": [
+    "otohematoma"
+   ],
+   "def": "Sangre entre pericondrio y cartílago del pabellón tras un golpe. Se drena en 24-48 horas con vendaje compresivo y ciprofloxacino; si no, oreja en coliflor.",
+   "pagina": 15,
+   "clase": "orl-03",
+   "claseTitulo": "14.3 Otitis Externa Difusa vs Otitis Externa Maligna en Diabéticos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 3
+  },
+  "Mucormicosis": {
+   "termino": "Mucormicosis",
+   "tipo": "Concepto",
+   "alias": [
+    "mucormicosis"
+   ],
+   "def": "Infección rinoorbitocerebral del diabético descompensado: escara negra en cornete o paladar y oftalmoplejía. Urgencia vital: desbridamiento y anfotericina B.",
+   "pagina": 16,
+   "clase": "orl-03",
+   "claseTitulo": "14.3 Otitis Externa Difusa vs Otitis Externa Maligna en Diabéticos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 1
+  },
+  "Mastoiditis": {
+   "termino": "Mastoiditis",
+   "tipo": "Concepto",
+   "alias": [
+    "mastoiditis"
+   ],
+   "def": "Complicación de la OMA con oreja despegada, surco retroauricular borrado y eritema mastoideo. Hospitalizar, TAC con contraste y ceftriaxona 100 mg/kg/día EV; mastoidectomía si hay absceso.",
+   "pagina": 19,
+   "clase": "orl-04",
+   "claseTitulo": "14.4 Complicaciones de Otitis: Mastoiditis Aguda y Tromboflebitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 10
+  },
+  "Signo_del_delta_vacio": {
+   "termino": "Signo del delta vacío",
+   "tipo": "Signo",
+   "alias": [
+    "delta vacío"
+   ],
+   "def": "Defecto de llene del seno venoso en TAC con contraste: trombosis séptica del seno sigmoide, con fiebre en picos de sierra y cefalea.",
+   "pagina": 19,
+   "clase": "orl-04",
+   "claseTitulo": "14.4 Complicaciones de Otitis: Mastoiditis Aguda y Tromboflebitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 1
+  },
+  "Miringotomia": {
+   "termino": "Miringotomía",
+   "tipo": "Concepto",
+   "alias": [
+    "miringotomía"
+   ],
+   "def": "Incisión del tímpano para descomprimir el oído medio y obtener cultivo; se asocia al tratamiento endovenoso de la mastoiditis y permite colocar tubos.",
+   "pagina": 19,
+   "clase": "orl-04",
+   "claseTitulo": "14.4 Complicaciones de Otitis: Mastoiditis Aguda y Tromboflebitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 2
+  },
+  "Tromboflebitis_del_seno_sigmoide": {
+   "termino": "Tromboflebitis del seno sigmoide",
+   "tipo": "Concepto",
+   "alias": [
+    "seno sigmoide",
+    "seno lateral"
+   ],
+   "def": "Complicación de mastoiditis: fiebre en picos de sierra, calofríos, cefalea e hipertensión endocraneana. Signo del delta vacío en el TAC.",
+   "pagina": 19,
+   "clase": "orl-04",
+   "claseTitulo": "14.4 Complicaciones de Otitis: Mastoiditis Aguda y Tromboflebitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 2
+  },
+  "Absceso_subperiostico": {
+   "termino": "Absceso subperióstico",
+   "tipo": "Concepto",
+   "alias": [
+    "subperióstico"
+   ],
+   "def": "Pus bajo el periostio mastoideo o de la órbita. En la mastoiditis indica mastoidectomía simple; en Chandler III, el globo se desplaza abajo y afuera.",
+   "pagina": 19,
+   "clase": "orl-04",
+   "claseTitulo": "14.4 Complicaciones de Otitis: Mastoiditis Aguda y Tromboflebitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 5
+  },
+  "Ceftriaxona": {
+   "termino": "Ceftriaxona",
+   "tipo": "Farmaco",
+   "alias": [
+    "ceftriaxona"
+   ],
+   "def": "Cefalosporina endovenosa: 100 mg/kg/día en mastoiditis, base de las infecciones profundas, epiglotitis y complicaciones orbitarias de la rinosinusitis.",
+   "pagina": 20,
+   "clase": "orl-04",
+   "claseTitulo": "14.4 Complicaciones de Otitis: Mastoiditis Aguda y Tromboflebitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 10
+  },
+  "Test_de_Weber": {
+   "termino": "Test de Weber",
+   "tipo": "Signo",
+   "alias": [
+    "Weber"
+   ],
+   "def": "Diapasón de 512 Hz en la línea media. Lateraliza al oído enfermo en la hipoacusia de conducción y al oído sano en la sensorioneural.",
+   "pagina": 25,
+   "clase": "orl-05",
+   "claseTitulo": "14.5 Evaluación Auditiva: Audiometría, Impedanciometría y Diapasones (Rinne y Weber)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 8
+  },
+  "Test_de_Rinne": {
+   "termino": "Test de Rinne",
+   "tipo": "Signo",
+   "alias": [
+    "Rinne"
+   ],
+   "def": "Compara vía aérea y ósea. Positivo (aire mayor) es normal o sensorioneural; negativo (hueso mayor) es patognomónico de hipoacusia de conducción.",
+   "pagina": 25,
+   "clase": "orl-05",
+   "claseTitulo": "14.5 Evaluación Auditiva: Audiometría, Impedanciometría y Diapasones (Rinne y Weber)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 6
+  },
+  "Audiometria_tonal": {
+   "termino": "Audiometría tonal",
+   "tipo": "Examen",
+   "alias": [
+    "audiometría"
+   ],
+   "def": "Mide umbrales de 125 a 8000 Hz por vía aérea y ósea. Brecha de 15 dB o más: conducción; ambas curvas bajas juntas: sensorioneural. Primer examen en hipoacusia con tinnitus.",
+   "pagina": 28,
+   "clase": "orl-06",
+   "claseTitulo": "14.6 Hipoacusia Sensorioneural Súbita, Trauma Acústico y Presbiacusia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 8
+  },
+  "Impedanciometria": {
+   "termino": "Impedanciometría",
+   "tipo": "Examen",
+   "alias": [
+    "impedanciometría",
+    "timpanometría",
+    "timpanograma"
+   ],
+   "def": "Mide la compliance del sistema tímpano-oscicular y entrega el timpanograma de Jerger. Curva B suele ser OME; C, disfunción tubárica; As, otoesclerosis.",
+   "pagina": 25,
+   "clase": "orl-05",
+   "claseTitulo": "14.5 Evaluación Auditiva: Audiometría, Impedanciometría y Diapasones (Rinne y Weber)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 4
+  },
+  "Curvas_de_Jerger": {
+   "termino": "Curvas de Jerger",
+   "tipo": "Concepto",
+   "alias": [
+    "Jerger"
+   ],
+   "def": "A normal; As pico bajo (otoesclerosis); Ad pico excesivo (disyunción de la cadena); B plana (líquido); C pico en presión negativa (trompa).",
+   "pagina": 25,
+   "clase": "orl-05",
+   "claseTitulo": "14.5 Evaluación Auditiva: Audiometría, Impedanciometría y Diapasones (Rinne y Weber)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 1
+  },
+  "Otoesclerosis": {
+   "termino": "Otoesclerosis",
+   "tipo": "Concepto",
+   "alias": [
+    "otoesclerosis"
+   ],
+   "def": "Fijación del estribo en la ventana oval: hipoacusia de conducción progresiva con otoscopía normal, Rinne negativo y curva As, a menudo en el embarazo. Estapedostomía.",
+   "pagina": 25,
+   "clase": "orl-05",
+   "claseTitulo": "14.5 Evaluación Auditiva: Audiometría, Impedanciometría y Diapasones (Rinne y Weber)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 4
+  },
+  "Hipoacusia_de_conduccion": {
+   "termino": "Hipoacusia de conducción",
+   "tipo": "Concepto",
+   "alias": [
+    "hipoacusia de conducción"
+   ],
+   "def": "Lesión del oído externo o medio: Weber al oído enfermo, Rinne negativo, brecha óseo-aérea de 15 dB o más. Cerumen, OME, perforación, otoesclerosis.",
+   "pagina": 25,
+   "clase": "orl-05",
+   "claseTitulo": "14.5 Evaluación Auditiva: Audiometría, Impedanciometría y Diapasones (Rinne y Weber)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 3
+  },
+  "Hipoacusia_sensorioneural": {
+   "termino": "Hipoacusia sensorioneural",
+   "tipo": "Concepto",
+   "alias": [
+    "hipoacusia sensorioneural",
+    "sensorioneural",
+    "neurosensorial"
+   ],
+   "def": "Lesión coclear o del nervio: Weber al oído sano, Rinne positivo, ambas curvas descendidas sin brecha. Presbiacusia, súbita, ototoxicidad y neurinoma.",
+   "pagina": 28,
+   "clase": "orl-06",
+   "claseTitulo": "14.6 Hipoacusia Sensorioneural Súbita, Trauma Acústico y Presbiacusia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 13
+  },
+  "Hipoacusia_sensorioneural_subita": {
+   "termino": "Hipoacusia sensorioneural súbita",
+   "tipo": "Concepto",
+   "alias": [
+    "hipoacusia súbita",
+    "HSNS",
+    "sordera súbita"
+   ],
+   "def": "Caída de 30 dB o más en 3 frecuencias en menos de 72 horas, con otoscopía normal. Urgencia: prednisona 1 mg/kg/día 10-14 días y audiometría; RM con gadolinio después.",
+   "pagina": 28,
+   "clase": "orl-06",
+   "claseTitulo": "14.6 Hipoacusia Sensorioneural Súbita, Trauma Acústico y Presbiacusia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 12
+  },
+  "Prednisona": {
+   "termino": "Prednisona",
+   "tipo": "Farmaco",
+   "alias": [
+    "prednisona"
+   ],
+   "def": "Corticoide oral. 1 mg/kg/día en HSNS (10-14 días), parálisis de Bell (7-10 días), neuronitis vestibular, Ramsay Hunt y poliposis nasal.",
+   "pagina": 37,
+   "clase": "orl-08",
+   "claseTitulo": "14.8 Parálisis Facial Periférica (Bell) vs Síndrome de Ramsay Hunt",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 9
+  },
+  "Presbiacusia": {
+   "termino": "Presbiacusia",
+   "tipo": "Concepto",
+   "alias": [
+    "presbiacusia"
+   ],
+   "def": "Hipoacusia sensorioneural bilateral, simétrica, de agudos en mayores de 65 años: «oigo pero no entiendo». GES N.º 56: audífonos bilaterales y rehabilitación.",
+   "pagina": 28,
+   "clase": "orl-06",
+   "claseTitulo": "14.6 Hipoacusia Sensorioneural Súbita, Trauma Acústico y Presbiacusia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 4
+  },
+  "Trauma_acustico": {
+   "termino": "Trauma acústico",
+   "tipo": "Concepto",
+   "alias": [
+    "trauma acústico"
+   ],
+   "def": "Agudo: ruido sobre 140 dB. Crónico laboral: más de 85 dB, con muesca simétrica en 4000 Hz. Se previene con protectores; el daño no revierte.",
+   "pagina": 28,
+   "clase": "orl-06",
+   "claseTitulo": "14.6 Hipoacusia Sensorioneural Súbita, Trauma Acústico y Presbiacusia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 3
+  },
+  "Tinitus": {
+   "termino": "Tinitus",
+   "tipo": "Concepto",
+   "alias": [
+    "tinitus",
+    "tinnitus",
+    "acúfeno",
+    "acúfenos"
+   ],
+   "def": "Sonido sin fuente externa; el 95% es subjetivo. Pulsátil orienta a causa vascular; unilateral o asimétrico se deriva para RM. Manejo: causa, evitar el silencio absoluto.",
+   "pagina": 28,
+   "clase": "orl-06",
+   "claseTitulo": "14.6 Hipoacusia Sensorioneural Súbita, Trauma Acústico y Presbiacusia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 11
+  },
+  "Schwannoma_vestibular": {
+   "termino": "Schwannoma vestibular",
+   "tipo": "Concepto",
+   "alias": [
+    "schwannoma vestibular",
+    "neurinoma del acústico"
+   ],
+   "def": "Neurinoma del acústico: hipoacusia sensorioneural unilateral progresiva con mala discriminación. Se estudia con RM de CAI con gadolinio; microcirugía o radiocirugía.",
+   "pagina": 28,
+   "clase": "orl-06",
+   "claseTitulo": "14.6 Hipoacusia Sensorioneural Súbita, Trauma Acústico y Presbiacusia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 4
+  },
+  "Barotrauma_otico": {
+   "termino": "Barotrauma ótico",
+   "tipo": "Concepto",
+   "alias": [
+    "barotrauma"
+   ],
+   "def": "Disfunción tubárica en cambios de presión: otalgia y oído tapado. Valsalva suave y descongestionante hasta 3 días; vértigo o sordera tras bucear es urgencia.",
+   "pagina": 30,
+   "clase": "orl-06",
+   "claseTitulo": "14.6 Hipoacusia Sensorioneural Súbita, Trauma Acústico y Presbiacusia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 2
+  },
+  "Perforacion_timpanica_traumatica": {
+   "termino": "Perforación timpánica traumática",
+   "tipo": "Concepto",
+   "alias": [
+    "perforación timpánica"
+   ],
+   "def": "Por hisopo, golpe o explosión: oído seco, sin lavar. Más del 90% de las pequeñas cierra en 4 a 8 semanas; timpanoplastia si no cierra en 3 meses.",
+   "pagina": 10,
+   "clase": "orl-02",
+   "claseTitulo": "14.2 Otitis Media con Efusión (OME), OMC Simple y Colesteatomatosa",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 3
+  },
+  "Vertigo_posicional_paroxistico_benigno": {
+   "termino": "Vértigo posicional paroxístico benigno",
+   "tipo": "Concepto",
+   "alias": [
+    "VPPB"
+   ],
+   "def": "Canalitiasis, sobre todo del canal posterior: crisis de 10 a 60 segundos al mover la cabeza, sin hipoacusia. Dix-Hallpike positivo; maniobra de Epley, sin fármacos.",
+   "pagina": 32,
+   "clase": "orl-07",
+   "claseTitulo": "14.7 Síndrome Vertiginoso Periférico: VPPB, Neuronitis Vestibular y Enfermedad de Ménière",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 9
+  },
+  "Maniobra_de_Dix_Hallpike": {
+   "termino": "Maniobra de Dix-Hallpike",
+   "tipo": "Signo",
+   "alias": [
+    "Dix-Hallpike"
+   ],
+   "def": "Cabeza rotada 45° y extendida 20°: tras latencia de 2 a 5 segundos, vértigo y nistagmo torsional geotrópico que se fatiga. Confirma el VPPB.",
+   "pagina": 32,
+   "clase": "orl-07",
+   "claseTitulo": "14.7 Síndrome Vertiginoso Periférico: VPPB, Neuronitis Vestibular y Enfermedad de Ménière",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 2
+  },
+  "Maniobra_de_Epley": {
+   "termino": "Maniobra de Epley",
+   "tipo": "Concepto",
+   "alias": [
+    "Epley"
+   ],
+   "def": "Reposición canalicular que devuelve las otoconias al utrículo; cura a más del 90% en la misma consulta. Primera línea del VPPB.",
+   "pagina": 32,
+   "clase": "orl-07",
+   "claseTitulo": "14.7 Síndrome Vertiginoso Periférico: VPPB, Neuronitis Vestibular y Enfermedad de Ménière",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 3
+  },
+  "Neuronitis_vestibular": {
+   "termino": "Neuronitis vestibular",
+   "tipo": "Concepto",
+   "alias": [
+    "neuronitis vestibular"
+   ],
+   "def": "Inflamación viral del nervio vestibular: vértigo continuo de 2 a 5 días, náuseas, sin hipoacusia. Sedantes máximo 48 horas y prednisona 1 mg/kg/día 7 días.",
+   "pagina": 32,
+   "clase": "orl-07",
+   "claseTitulo": "14.7 Síndrome Vertiginoso Periférico: VPPB, Neuronitis Vestibular y Enfermedad de Ménière",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 1
+  },
+  "Enfermedad_de_Meniere": {
+   "termino": "Enfermedad de Ménière",
+   "tipo": "Concepto",
+   "alias": [
+    "Ménière"
+   ],
+   "def": "Hidrops endolinfático: vértigo de 20 minutos a 12 horas, hipoacusia fluctuante en graves y acúfeno. Sodio menor de 2 g/día, diurético o betahistina.",
+   "pagina": 32,
+   "clase": "orl-07",
+   "claseTitulo": "14.7 Síndrome Vertiginoso Periférico: VPPB, Neuronitis Vestibular y Enfermedad de Ménière",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 8
+  },
+  "Hidrops_endolinfatico": {
+   "termino": "Hidrops endolinfático",
+   "tipo": "Concepto",
+   "alias": [
+    "hidrops"
+   ],
+   "def": "Exceso de endolinfa por mala reabsorción en el saco endolinfático; causa de la enfermedad de Ménière.",
+   "pagina": 33,
+   "clase": "orl-07",
+   "claseTitulo": "14.7 Síndrome Vertiginoso Periférico: VPPB, Neuronitis Vestibular y Enfermedad de Ménière",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 1
+  },
+  "Protocolo_HINTS": {
+   "termino": "Protocolo HINTS",
+   "tipo": "Concepto",
+   "alias": [
+    "HINTS"
+   ],
+   "def": "Impulso cefálico normal, nistagmo bidireccional o desalineación vertical (skew) indican causa central. Sensibilidad 100%, superior a la RM precoz que falla en 12-20%.",
+   "pagina": 32,
+   "clase": "orl-07",
+   "claseTitulo": "14.7 Síndrome Vertiginoso Periférico: VPPB, Neuronitis Vestibular y Enfermedad de Ménière",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 1
+  },
+  "Nistagmo": {
+   "termino": "Nistagmo",
+   "tipo": "Concepto",
+   "alias": [
+    "nistagmo",
+    "nistagmus"
+   ],
+   "def": "Movimiento ocular rítmico. Periférico: unidireccional y horizontal; central: bidireccional o vertical. En la neuronitis bate hacia el oído sano.",
+   "pagina": 32,
+   "clase": "orl-07",
+   "claseTitulo": "14.7 Síndrome Vertiginoso Periférico: VPPB, Neuronitis Vestibular y Enfermedad de Ménière",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 8
+  },
+  "Betahistina": {
+   "termino": "Betahistina",
+   "tipo": "Farmaco",
+   "alias": [
+    "betahistina"
+   ],
+   "def": "Reduce el volumen endolinfático en Ménière: 16-24 mg cada 12 horas, junto con dieta baja en sodio y diuréticos tiazídicos.",
+   "pagina": 32,
+   "clase": "orl-07",
+   "claseTitulo": "14.7 Síndrome Vertiginoso Periférico: VPPB, Neuronitis Vestibular y Enfermedad de Ménière",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 2
+  },
+  "Paralisis_facial_periferica": {
+   "termino": "Parálisis facial periférica",
+   "tipo": "Concepto",
+   "alias": [
+    "parálisis facial periférica",
+    "parálisis facial"
+   ],
+   "def": "Compromete todo el hemicara: no arruga la frente, lagoftalmos y cae la comisura. La central respeta la frente por la doble inervación del núcleo superior.",
+   "pagina": 37,
+   "clase": "orl-08",
+   "claseTitulo": "14.8 Parálisis Facial Periférica (Bell) vs Síndrome de Ramsay Hunt",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 10
+  },
+  "Paralisis_de_Bell": {
+   "termino": "Parálisis de Bell",
+   "tipo": "Concepto",
+   "alias": [
+    "Bell"
+   ],
+   "def": "Parálisis facial periférica idiopática (60-75%), por HSV-1. Prednisona 1 mg/kg/día 7-10 días en las primeras 72 horas y protección ocular.",
+   "pagina": 37,
+   "clase": "orl-08",
+   "claseTitulo": "14.8 Parálisis Facial Periférica (Bell) vs Síndrome de Ramsay Hunt",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 10
+  },
+  "Lagoftalmos": {
+   "termino": "Lagoftalmos",
+   "tipo": "Signo",
+   "alias": [
+    "lagoftalmos"
+   ],
+   "def": "Imposibilidad de cerrar el ojo. Obliga a lágrimas artificiales, gel nocturno y parche para evitar queratitis por exposición.",
+   "pagina": 37,
+   "clase": "orl-08",
+   "claseTitulo": "14.8 Parálisis Facial Periférica (Bell) vs Síndrome de Ramsay Hunt",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 1
+  },
+  "Sindrome_de_Ramsay_Hunt": {
+   "termino": "Síndrome de Ramsay Hunt",
+   "tipo": "Concepto",
+   "alias": [
+    "Ramsay Hunt"
+   ],
+   "def": "Zóster ótico por VZV del ganglio geniculado: parálisis facial, otalgia y vesículas en concha o CAE. Valaciclovir 1000 mg cada 8 horas más prednisona.",
+   "pagina": 37,
+   "clase": "orl-08",
+   "claseTitulo": "14.8 Parálisis Facial Periférica (Bell) vs Síndrome de Ramsay Hunt",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 7
+  },
+  "Valaciclovir": {
+   "termino": "Valaciclovir",
+   "tipo": "Farmaco",
+   "alias": [
+    "valaciclovir"
+   ],
+   "def": "Antiviral oral: 1000 mg cada 8 horas por 7-10 días en Ramsay Hunt y zóster; alternativa, aciclovir 800 mg cinco veces al día.",
+   "pagina": 37,
+   "clase": "orl-08",
+   "claseTitulo": "14.8 Parálisis Facial Periférica (Bell) vs Síndrome de Ramsay Hunt",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 3
+  },
+  "Herpes_zoster": {
+   "termino": "Herpes zóster",
+   "tipo": "Concepto",
+   "alias": [
+    "herpes zóster",
+    "zóster"
+   ],
+   "def": "Vesículas agrupadas en un dermatoma unilateral. Aciclovir o valaciclovir 7 días; zóster oftálmico (Hutchinson) a oftalmología; neuralgia posherpética con pregabalina.",
+   "pagina": 37,
+   "clase": "orl-08",
+   "claseTitulo": "14.8 Parálisis Facial Periférica (Bell) vs Síndrome de Ramsay Hunt",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 7
+  },
+  "Neuralgia_posherpetica": {
+   "termino": "Neuralgia posherpética",
+   "tipo": "Concepto",
+   "alias": [
+    "neuralgia posherpética",
+    "neuritis posherpética"
+   ],
+   "def": "Dolor por más de 3 meses tras el zóster, más en mayores de 60 años. Primera línea: pregabalina o gabapentina; también amitriptilina y lidocaína en parches.",
+   "pagina": 37,
+   "clase": "orl-08",
+   "claseTitulo": "14.8 Parálisis Facial Periférica (Bell) vs Síndrome de Ramsay Hunt",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 3
+  },
+  "Rinitis_alergica": {
+   "termino": "Rinitis alérgica",
+   "tipo": "Concepto",
+   "alias": [
+    "rinitis alérgica"
+   ],
+   "def": "Hipersensibilidad tipo I por IgE: rinorrea acuosa, obstrucción, prurito y estornudos, con mucosa pálida. Corticoide intranasal en moderada a severa; antihistamínicos en leve.",
+   "pagina": 44,
+   "clase": "orl-09",
+   "claseTitulo": "14.9 Rinitis Alérgica vs No Alérgica: Clasificación ARIA y Corticoides Intranasales",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 8
+  },
+  "Clasificacion_ARIA": {
+   "termino": "Clasificación ARIA",
+   "tipo": "Concepto",
+   "alias": [
+    "ARIA"
+   ],
+   "def": "Intermitente: menos de 4 días a la semana o de 4 semanas. Persistente: 4 o más días y 4 o más semanas. Moderada a severa si hay alteración del sueño, actividades o rendimiento.",
+   "pagina": 44,
+   "clase": "orl-09",
+   "claseTitulo": "14.9 Rinitis Alérgica vs No Alérgica: Clasificación ARIA y Corticoides Intranasales",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 2
+  },
+  "Corticoides_intranasales": {
+   "termino": "Corticoides intranasales",
+   "tipo": "Farmaco",
+   "alias": [
+    "corticoide intranasal",
+    "corticoides intranasales",
+    "fluticasona",
+    "mometasona"
+   ],
+   "def": "Fluticasona o mometasona, una vez al día; única terapia que controla la obstrucción nasal, con biodisponibilidad sistémica menor de 1%. Primera línea en rinitis persistente o moderada a severa.",
+   "pagina": 44,
+   "clase": "orl-09",
+   "claseTitulo": "14.9 Rinitis Alérgica vs No Alérgica: Clasificación ARIA y Corticoides Intranasales",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 9
+  },
+  "Rinitis_medicamentosa": {
+   "termino": "Rinitis medicamentosa",
+   "tipo": "Concepto",
+   "alias": [
+    "rinitis medicamentosa"
+   ],
+   "def": "Rebote por oximetazolina más de 5 a 7 días. Suspender el vasoconstrictor e iniciar corticoide intranasal.",
+   "pagina": 44,
+   "clase": "orl-09",
+   "claseTitulo": "14.9 Rinitis Alérgica vs No Alérgica: Clasificación ARIA y Corticoides Intranasales",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 3
+  },
+  "Oximetazolina": {
+   "termino": "Oximetazolina",
+   "tipo": "Farmaco",
+   "alias": [
+    "oximetazolina"
+   ],
+   "def": "Descongestionante tópico alfa agonista. Más de 5 a 7 días causa taquifilaxia y rinitis medicamentosa.",
+   "pagina": 44,
+   "clase": "orl-09",
+   "claseTitulo": "14.9 Rinitis Alérgica vs No Alérgica: Clasificación ARIA y Corticoides Intranasales",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 3
+  },
+  "Rinitis_vasomotora": {
+   "termino": "Rinitis vasomotora",
+   "tipo": "Concepto",
+   "alias": [
+    "rinitis vasomotora",
+    "vasomotora"
+   ],
+   "def": "Rinorrea acuosa por frío, olores o comida, sin prurito. Tratamiento: ipratropio intranasal.",
+   "pagina": 44,
+   "clase": "orl-09",
+   "claseTitulo": "14.9 Rinitis Alérgica vs No Alérgica: Clasificación ARIA y Corticoides Intranasales",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 1
+  },
+  "Prick_test": {
+   "termino": "Prick test",
+   "tipo": "Examen",
+   "alias": [
+    "prick test",
+    "pruebas cutáneas"
+   ],
+   "def": "Gota de extracto en el antebrazo y lanceta; positivo con pápula de 3 mm o más sobre el control negativo, leída a los 15-20 minutos. Suspender antihistamínicos 5-7 días antes.",
+   "pagina": 44,
+   "clase": "orl-09",
+   "claseTitulo": "14.9 Rinitis Alérgica vs No Alérgica: Clasificación ARIA y Corticoides Intranasales",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 4
+  },
+  "Rinosinusitis_aguda": {
+   "termino": "Rinosinusitis aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "rinosinusitis aguda",
+    "sinusitis aguda",
+    "rinosinusitis"
+   ],
+   "def": "Inflamación nasosinusal de menos de 4 semanas; más del 98% es viral. Es bacteriana con 10 días o más, doble caída o inicio severo. Amoxicilina 7 a 10 días.",
+   "pagina": 47,
+   "clase": "orl-10",
+   "claseTitulo": "14.10 Rinosinusitis Aguda Viral vs Bacteriana: Criterios y Complicaciones Orbitarias",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 4
+  },
+  "Doble_caida": {
+   "termino": "Doble caída",
+   "tipo": "Concepto",
+   "alias": [
+    "doble caída"
+   ],
+   "def": "Mejora de un resfrío a los 4-5 días y recaída súbita con fiebre y rinorrea purulenta: criterio de rinosinusitis bacteriana.",
+   "pagina": 47,
+   "clase": "orl-10",
+   "claseTitulo": "14.10 Rinosinusitis Aguda Viral vs Bacteriana: Criterios y Complicaciones Orbitarias",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 2
+  },
+  "Clasificacion_de_Chandler": {
+   "termino": "Clasificación de Chandler",
+   "tipo": "Concepto",
+   "alias": [
+    "Chandler"
+   ],
+   "def": "I preseptal; II celulitis orbitaria; III absceso subperióstico; IV absceso orbitario; V trombosis del seno cavernoso. Desde el II: hospitalizar, TAC con contraste y antibióticos EV.",
+   "pagina": 47,
+   "clase": "orl-10",
+   "claseTitulo": "14.10 Rinosinusitis Aguda Viral vs Bacteriana: Criterios y Complicaciones Orbitarias",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 5
+  },
+  "Celulitis_orbitaria": {
+   "termino": "Celulitis orbitaria",
+   "tipo": "Concepto",
+   "alias": [
+    "celulitis orbitaria"
+   ],
+   "def": "Postseptal: proptosis, oftalmoplejía dolorosa y quemosis (Chandler II). Emergencia: hospitalizar, TAC con contraste y ceftriaxona más vancomicina o clindamicina.",
+   "pagina": 47,
+   "clase": "orl-10",
+   "claseTitulo": "14.10 Rinosinusitis Aguda Viral vs Bacteriana: Criterios y Complicaciones Orbitarias",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 1
+  },
+  "Celulitis_preseptal": {
+   "termino": "Celulitis preseptal",
+   "tipo": "Concepto",
+   "alias": [
+    "preseptal"
+   ],
+   "def": "Edema palpebral con visión, motilidad y pupila normales y sin proptosis (Chandler I). Antibiótico oral o EV en lactantes.",
+   "pagina": 47,
+   "clase": "orl-10",
+   "claseTitulo": "14.10 Rinosinusitis Aguda Viral vs Bacteriana: Criterios y Complicaciones Orbitarias",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 2
+  },
+  "Rinosinusitis_cronica": {
+   "termino": "Rinosinusitis crónica",
+   "tipo": "Concepto",
+   "alias": [
+    "rinosinusitis crónica",
+    "sinusitis crónica"
+   ],
+   "def": "Síntomas por 12 semanas o más con inflamación en endoscopía o TAC. Lavados salinos y corticoide nasal diario; derivar si falla a las 8-12 semanas.",
+   "pagina": 47,
+   "clase": "orl-10",
+   "claseTitulo": "14.10 Rinosinusitis Aguda Viral vs Bacteriana: Criterios y Complicaciones Orbitarias",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 1
+  },
+  "Triada_de_Samter": {
+   "termino": "Tríada de Samter",
+   "tipo": "Concepto",
+   "alias": [
+    "Samter"
+   ],
+   "def": "Poliposis nasal bilateral, asma de difícil control y broncoespasmo por aspirina o AINE, que quedan prohibidos de por vida.",
+   "pagina": 56,
+   "clase": "orl-12",
+   "claseTitulo": "14.12 Poliposis Nasal, Desviación Septal y Fractura Nasal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 4
+  },
+  "Epistaxis": {
+   "termino": "Epistaxis",
+   "tipo": "Concepto",
+   "alias": [
+    "epistaxis"
+   ],
+   "def": "Anterior (más del 90%) por el plexo de Kiesselbach; posterior (5-10%) por la esfenopalatina en mayores hipertensos. Compresión 10-15 minutos, vasoconstrictor, nitrato de plata, tapón.",
+   "pagina": 51,
+   "clase": "orl-11",
+   "claseTitulo": "14.11 Epistaxis Anterior vs Posterior: Cauterización y Taponamientos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 16
+  },
+  "Plexo_de_Kiesselbach": {
+   "termino": "Plexo de Kiesselbach",
+   "tipo": "Concepto",
+   "alias": [
+    "Kiesselbach"
+   ],
+   "def": "Anastomosis en el tabique anteroinferior de labial superior, palatina mayor, esfenopalatina y etmoidal anterior; origen de la epistaxis anterior.",
+   "pagina": 51,
+   "clase": "orl-11",
+   "claseTitulo": "14.11 Epistaxis Anterior vs Posterior: Cauterización y Taponamientos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 2
+  },
+  "Nitrato_de_plata": {
+   "termino": "Nitrato de plata",
+   "tipo": "Farmaco",
+   "alias": [
+    "nitrato de plata"
+   ],
+   "def": "Cauterización puntual al 75% del vaso visible. Prohibido cauterizar ambos lados del tabique por riesgo de perforación septal.",
+   "pagina": 51,
+   "clase": "orl-11",
+   "claseTitulo": "14.11 Epistaxis Anterior vs Posterior: Cauterización y Taponamientos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 1
+  },
+  "Taponamiento_nasal": {
+   "termino": "Taponamiento nasal",
+   "tipo": "Concepto",
+   "alias": [
+    "taponamiento"
+   ],
+   "def": "Anterior con gasa vaselinada o Merocel por 48 horas. Posterior con sonda Foley 12-14 Fr y balón de 8-10 mL de agua; exige hospitalización y antibiótico.",
+   "pagina": 51,
+   "clase": "orl-11",
+   "claseTitulo": "14.11 Epistaxis Anterior vs Posterior: Cauterización y Taponamientos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 7
+  },
+  "Angiofibroma_nasofaringeo_juvenil": {
+   "termino": "Angiofibroma nasofaríngeo juvenil",
+   "tipo": "Concepto",
+   "alias": [
+    "angiofibroma"
+   ],
+   "def": "Tumor benigno vascular del adolescente varón: epistaxis y obstrucción unilaterales. Se estudia con TAC o RM con contraste; no se biopsia.",
+   "pagina": 51,
+   "clase": "orl-11",
+   "claseTitulo": "14.11 Epistaxis Anterior vs Posterior: Cauterización y Taponamientos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 1
+  },
+  "Hematoma_septal": {
+   "termino": "Hematoma septal",
+   "tipo": "Concepto",
+   "alias": [
+    "hematoma septal",
+    "hematoma nasoseptal"
+   ],
+   "def": "Abombamiento violáceo fluctuante del tabique tras un trauma. Urgencia: drenaje quirúrgico y taponamiento bilateral en 24-48 horas, para evitar necrosis y nariz en silla de montar.",
+   "pagina": 56,
+   "clase": "orl-12",
+   "claseTitulo": "14.12 Poliposis Nasal, Desviación Septal y Fractura Nasal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 7
+  },
+  "Poliposis_nasal": {
+   "termino": "Poliposis nasal",
+   "tipo": "Concepto",
+   "alias": [
+    "poliposis",
+    "pólipos nasales",
+    "pólipo nasal"
+   ],
+   "def": "Masas translúcidas, indoloras y bilaterales de aspecto de uva pelada. Corticoide intranasal más prednisona breve; FESS si es refractaria. Unilateral en adulto: biopsia.",
+   "pagina": 56,
+   "clase": "orl-12",
+   "claseTitulo": "14.12 Poliposis Nasal, Desviación Septal y Fractura Nasal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 7
+  },
+  "Desviacion_septal": {
+   "termino": "Desviación septal",
+   "tipo": "Concepto",
+   "alias": [
+    "desviación septal"
+   ],
+   "def": "Obstrucción nasal fija y unilateral con hipertrofia compensatoria del cornete contralateral. Corrección definitiva con septoplastia.",
+   "pagina": 56,
+   "clase": "orl-12",
+   "claseTitulo": "14.12 Poliposis Nasal, Desviación Septal y Fractura Nasal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 3
+  },
+  "Septoplastia": {
+   "termino": "Septoplastia",
+   "tipo": "Concepto",
+   "alias": [
+    "septoplastia"
+   ],
+   "def": "Cirugía electiva de la desviación septal, con turbinoplastia si hay cornete hipertrófico, ante obstrucción invalidante.",
+   "pagina": 56,
+   "clase": "orl-12",
+   "claseTitulo": "14.12 Poliposis Nasal, Desviación Septal y Fractura Nasal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 1
+  },
+  "Papiloma_invertido": {
+   "termino": "Papiloma invertido",
+   "tipo": "Concepto",
+   "alias": [
+    "papiloma invertido"
+   ],
+   "def": "Tumor benigno unilateral e invasivo, que sangra y destruye hueso; 10% se maligniza. Pólipo unilateral en adulto: biopsia y TAC.",
+   "pagina": 56,
+   "clase": "orl-12",
+   "claseTitulo": "14.12 Poliposis Nasal, Desviación Septal y Fractura Nasal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 2
+  },
+  "Faringoamigdalitis_aguda": {
+   "termino": "Faringoamigdalitis aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "faringoamigdalitis",
+    "amigdalitis"
+   ],
+   "def": "Mayoría viral. Estreptococo del grupo A en 15-30% de los niños de 3 a 14 años. Se decide con McIsaac; penicilina benzatina o amoxicilina 10 días previenen la fiebre reumática.",
+   "pagina": 63,
+   "clase": "orl-13",
+   "claseTitulo": "14.13 Faringoamigdalitis Aguda Bacteriana: Criterios de Centor/McIsaac y Penicilina",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 7
+  },
+  "Escala_de_McIsaac": {
+   "termino": "Escala de McIsaac",
+   "tipo": "Concepto",
+   "alias": [
+    "McIsaac",
+    "Centor"
+   ],
+   "def": "Fiebre mayor de 38 °C, exudado, adenopatías anteriores dolorosas, sin tos y edad (3-14 años +1; 45 o más -1). 0-1 nada; 2-3 test; 4-5 test o tratamiento.",
+   "pagina": 63,
+   "clase": "orl-13",
+   "claseTitulo": "14.13 Faringoamigdalitis Aguda Bacteriana: Criterios de Centor/McIsaac y Penicilina",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 8
+  },
+  "Streptococcus_pyogenes": {
+   "termino": "Streptococcus pyogenes",
+   "tipo": "Concepto",
+   "alias": [
+    "Streptococcus pyogenes",
+    "estreptococo",
+    "SBHGA"
+   ],
+   "def": "Estreptococo betahemolítico del grupo A: 100% sensible a penicilina. El tratamiento previene fiebre reumática y absceso periamigdalino, pero no la glomerulonefritis.",
+   "pagina": 63,
+   "clase": "orl-13",
+   "claseTitulo": "14.13 Faringoamigdalitis Aguda Bacteriana: Criterios de Centor/McIsaac y Penicilina",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 4
+  },
+  "Penicilina_benzatina": {
+   "termino": "Penicilina benzatina",
+   "tipo": "Farmaco",
+   "alias": [
+    "penicilina benzatina"
+   ],
+   "def": "1.200.000 UI IM única si pesa más de 27 kg; 600.000 UI si menos. También en la fiebre reumática, con profilaxis secundaria cada 3 semanas.",
+   "pagina": 63,
+   "clase": "orl-13",
+   "claseTitulo": "14.13 Faringoamigdalitis Aguda Bacteriana: Criterios de Centor/McIsaac y Penicilina",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 2
+  },
+  "Fiebre_reumatica": {
+   "termino": "Fiebre reumática",
+   "tipo": "Concepto",
+   "alias": [
+    "fiebre reumática",
+    "enfermedad reumática"
+   ],
+   "def": "Secuela inmune de la faringitis estreptocócica. Criterios de Jones: infección previa y 2 mayores o 1 mayor y 2 menores. Penicilina benzatina y AAS.",
+   "pagina": 63,
+   "clase": "orl-13",
+   "claseTitulo": "14.13 Faringoamigdalitis Aguda Bacteriana: Criterios de Centor/McIsaac y Penicilina",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 2
+  },
+  "Mononucleosis_infecciosa": {
+   "termino": "Mononucleosis infecciosa",
+   "tipo": "Concepto",
+   "alias": [
+    "mononucleosis"
+   ],
+   "def": "Virus de Epstein-Barr: exudado, adenopatías cervicales incluso posteriores, esplenomegalia y linfocitos atípicos. Soporte; la amoxicilina causa exantema; sin deporte de contacto.",
+   "pagina": 63,
+   "clase": "orl-13",
+   "claseTitulo": "14.13 Faringoamigdalitis Aguda Bacteriana: Criterios de Centor/McIsaac y Penicilina",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 4
+  },
+  "Absceso_periamigdalino": {
+   "termino": "Absceso periamigdalino",
+   "tipo": "Concepto",
+   "alias": [
+    "absceso periamigdalino"
+   ],
+   "def": "Tríada: trismus, voz en papa caliente y úvula desviada al lado sano. Punción o incisión, antibiótico EV con cobertura de anaerobios y dexametasona.",
+   "pagina": 68,
+   "clase": "orl-14",
+   "claseTitulo": "14.14 Complicaciones Supurativas: Absceso Periamigdalino, Parafaríngeo y Retrofaríngeo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 7
+  },
+  "Trismus": {
+   "termino": "Trismus",
+   "tipo": "Signo",
+   "alias": [
+    "trismus"
+   ],
+   "def": "Dificultad para abrir la boca por espasmo del pterigoideo interno; típico del absceso periamigdalino y parafaríngeo.",
+   "pagina": 68,
+   "clase": "orl-14",
+   "claseTitulo": "14.14 Complicaciones Supurativas: Absceso Periamigdalino, Parafaríngeo y Retrofaríngeo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 9
+  },
+  "Absceso_retrofaringeo": {
+   "termino": "Absceso retrofaríngeo",
+   "tipo": "Concepto",
+   "alias": [
+    "retrofaríngeo"
+   ],
+   "def": "Casi exclusivo de menores de 5 años: tortícolis, estridor y espacio prevertebral ensanchado. Riesgo de mediastinitis; TAC con contraste y drenaje en pabellón.",
+   "pagina": 68,
+   "clase": "orl-14",
+   "claseTitulo": "14.14 Complicaciones Supurativas: Absceso Periamigdalino, Parafaríngeo y Retrofaríngeo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 5
+  },
+  "Angina_de_Ludwig": {
+   "termino": "Angina de Ludwig",
+   "tipo": "Concepto",
+   "alias": [
+    "Ludwig"
+   ],
+   "def": "Celulitis del piso de boca, 80% de molares inferiores: induración leñosa con lengua elevada. Prioridad absoluta: asegurar la vía aérea.",
+   "pagina": 68,
+   "clase": "orl-14",
+   "claseTitulo": "14.14 Complicaciones Supurativas: Absceso Periamigdalino, Parafaríngeo y Retrofaríngeo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 4
+  },
+  "Sindrome_de_Lemierre": {
+   "termino": "Síndrome de Lemierre",
+   "tipo": "Concepto",
+   "alias": [
+    "Lemierre"
+   ],
+   "def": "Tromboflebitis séptica de la yugular interna por Fusobacterium tras infección faríngea o parafaríngea.",
+   "pagina": 68,
+   "clase": "orl-14",
+   "claseTitulo": "14.14 Complicaciones Supurativas: Absceso Periamigdalino, Parafaríngeo y Retrofaríngeo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 1
+  },
+  "Hipertrofia_adenotonsilar": {
+   "termino": "Hipertrofia adenotonsilar",
+   "tipo": "Concepto",
+   "alias": [
+    "hipertrofia adenoidea",
+    "adenoides",
+    "hipertrofia adenotonsilar"
+   ],
+   "def": "Mayor entre 2 y 6 años. Causa respiración bucal, facies adenoidea y SAHOS; se estudia con radiografía de cavum.",
+   "pagina": 73,
+   "clase": "orl-15",
+   "claseTitulo": "14.15 Hipertrofia Adenotonsilar y SAHOS Infantil: Indicaciones Quirúrgicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 4
+  },
+  "SAHOS_infantil": {
+   "termino": "SAHOS infantil",
+   "tipo": "Concepto",
+   "alias": [
+    "SAHOS",
+    "apnea del sueño"
+   ],
+   "def": "Ronquido, pausas, sudoración y enuresis; de día hiperactividad. Es la indicación absoluta de adenoamigdalectomía y puede causar cor pulmonale.",
+   "pagina": 73,
+   "clase": "orl-15",
+   "claseTitulo": "14.15 Hipertrofia Adenotonsilar y SAHOS Infantil: Indicaciones Quirúrgicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 8
+  },
+  "Escala_de_Brodsky": {
+   "termino": "Escala de Brodsky",
+   "tipo": "Concepto",
+   "alias": [
+    "Brodsky"
+   ],
+   "def": "Grados 0 a 4 de hipertrofia amigdalina. Grado 4 (amígdalas en beso, más de 75%) tiene alta indicación quirúrgica.",
+   "pagina": 75,
+   "clase": "orl-15",
+   "claseTitulo": "14.15 Hipertrofia Adenotonsilar y SAHOS Infantil: Indicaciones Quirúrgicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 5
+  },
+  "Criterios_de_Paradise": {
+   "termino": "Criterios de Paradise",
+   "tipo": "Concepto",
+   "alias": [
+    "Paradise"
+   ],
+   "def": "7 episodios en 1 año, 5 por año en 2 años o 3 por año en 3 años, documentados y tratados: indicación relativa de amigdalectomía.",
+   "pagina": 73,
+   "clase": "orl-15",
+   "claseTitulo": "14.15 Hipertrofia Adenotonsilar y SAHOS Infantil: Indicaciones Quirúrgicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 1
+  },
+  "Adenoamigdalectomia": {
+   "termino": "Adenoamigdalectomía",
+   "tipo": "Concepto",
+   "alias": [
+    "adenoamigdalectomía",
+    "amigdalectomía"
+   ],
+   "def": "Indicada en SAHOS, sospecha de neoplasia amigdalina, hemorragia severa y criterios de Paradise. No para caseosis ni hipertrofia sin complicaciones.",
+   "pagina": 73,
+   "clase": "orl-15",
+   "claseTitulo": "14.15 Hipertrofia Adenotonsilar y SAHOS Infantil: Indicaciones Quirúrgicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 6
+  },
+  "Radiografia_de_cavum": {
+   "termino": "Radiografía de cavum",
+   "tipo": "Examen",
+   "alias": [
+    "cavum"
+   ],
+   "def": "Rx lateral para estimar la hipertrofia adenoidea; obstructiva si la relación adenoides/nasofaringe es mayor de 0,8. Examen inicial en el preescolar respirador bucal.",
+   "pagina": 73,
+   "clase": "orl-15",
+   "claseTitulo": "14.15 Hipertrofia Adenotonsilar y SAHOS Infantil: Indicaciones Quirúrgicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 4
+  },
+  "Facies_adenoidea": {
+   "termino": "Facies adenoidea",
+   "tipo": "Concepto",
+   "alias": [
+    "facies adenoidea"
+   ],
+   "def": "Cara alargada, boca entreabierta, paladar ojival, maloclusión y ojeras, por respiración bucal crónica.",
+   "pagina": 73,
+   "clase": "orl-15",
+   "claseTitulo": "14.15 Hipertrofia Adenotonsilar y SAHOS Infantil: Indicaciones Quirúrgicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 2
+  },
+  "Disfonia": {
+   "termino": "Disfonía",
+   "tipo": "Concepto",
+   "alias": [
+    "disfonía"
+   ],
+   "def": "Alteración de tono, timbre o intensidad. Más de 2 a 3 semanas en un fumador: sospechar cáncer de laringe y pedir nasofibroscopía.",
+   "pagina": 77,
+   "clase": "orl-16",
+   "claseTitulo": "14.16 Disfonía Crónica y Patología Benigna de Cuerdas Vocales: Nódulos, Pólipos y Edema de Reinke",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 13
+  },
+  "Nodulos_vocales": {
+   "termino": "Nódulos vocales",
+   "tipo": "Concepto",
+   "alias": [
+    "nódulos vocales",
+    "nódulos"
+   ],
+   "def": "Bilaterales y simétricos, en profesionales de la voz. Tratamiento: rehabilitación fonoaudiológica; la cirugía inicial está contraindicada.",
+   "pagina": 77,
+   "clase": "orl-16",
+   "claseTitulo": "14.16 Disfonía Crónica y Patología Benigna de Cuerdas Vocales: Nódulos, Pólipos y Edema de Reinke",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 6
+  },
+  "Polipo_vocal": {
+   "termino": "Pólipo vocal",
+   "tipo": "Concepto",
+   "alias": [
+    "pólipo vocal",
+    "pólipos vocales"
+   ],
+   "def": "Unilateral, tras un trauma vocal agudo; voz bitonal. Se opera con microcirugía laríngea y luego fonoaudiología.",
+   "pagina": 77,
+   "clase": "orl-16",
+   "claseTitulo": "14.16 Disfonía Crónica y Patología Benigna de Cuerdas Vocales: Nódulos, Pólipos y Edema de Reinke",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 2
+  },
+  "Edema_de_Reinke": {
+   "termino": "Edema de Reinke",
+   "tipo": "Concepto",
+   "alias": [
+    "Reinke"
+   ],
+   "def": "Edema gelatinoso de ambas cuerdas en mujeres fumadoras: voz grave. Cese del tabaco y decorticación.",
+   "pagina": 77,
+   "clase": "orl-16",
+   "claseTitulo": "14.16 Disfonía Crónica y Patología Benigna de Cuerdas Vocales: Nódulos, Pólipos y Edema de Reinke",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 5
+  },
+  "Nasofibroscopia": {
+   "termino": "Nasofibroscopía",
+   "tipo": "Examen",
+   "alias": [
+    "nasofibroscopía",
+    "nasofibrolaringoscopía"
+   ],
+   "def": "Visualiza directamente laringe, faringe y cavum. Examen de elección en disfonía persistente, masa cervical y sospecha de cáncer.",
+   "pagina": 77,
+   "clase": "orl-16",
+   "claseTitulo": "14.16 Disfonía Crónica y Patología Benigna de Cuerdas Vocales: Nódulos, Pólipos y Edema de Reinke",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 7
+  },
+  "Croup": {
+   "termino": "Croup",
+   "tipo": "Concepto",
+   "alias": [
+    "croup",
+    "laringitis obstructiva",
+    "laringitis aguda obstructiva"
+   ],
+   "def": "Laringotraqueítis viral subglótica por parainfluenza 1, de 6 meses a 3 años: tos perruna, estridor inspiratorio y disfonía. Dexametasona siempre; adrenalina si hay estridor en reposo.",
+   "pagina": 81,
+   "clase": "orl-17",
+   "claseTitulo": "14.17 Croup / Laringitis Obstructiva vs Epiglotitis Aguda: Escala de Taussig y Manejo de Emergencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 6
+  },
+  "Escala_de_Taussig": {
+   "termino": "Escala de Taussig",
+   "tipo": "Concepto",
+   "alias": [
+    "Taussig"
+   ],
+   "def": "I leve (estridor al llorar), II moderado (en reposo), III severo (bifásico, tiraje), IV agotamiento (cianosis, silencio auscultatorio).",
+   "pagina": 81,
+   "clase": "orl-17",
+   "claseTitulo": "14.17 Croup / Laringitis Obstructiva vs Epiglotitis Aguda: Escala de Taussig y Manejo de Emergencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 5
+  },
+  "Dexametasona": {
+   "termino": "Dexametasona",
+   "tipo": "Farmaco",
+   "alias": [
+    "dexametasona"
+   ],
+   "def": "En croup 0,15 a 0,6 mg/kg, dosis única, en todos los grados; en absceso periamigdalino, una dosis EV reduce edema y trismus.",
+   "pagina": 81,
+   "clase": "orl-17",
+   "claseTitulo": "14.17 Croup / Laringitis Obstructiva vs Epiglotitis Aguda: Escala de Taussig y Manejo de Emergencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 8
+  },
+  "Adrenalina_nebulizada": {
+   "termino": "Adrenalina nebulizada",
+   "tipo": "Farmaco",
+   "alias": [
+    "adrenalina"
+   ],
+   "def": "Vasoconstrictor alfa-1 subglótico en croup con estridor de reposo. Su efecto dura unas 2 horas: observar 2 a 4 horas por rebote.",
+   "pagina": 81,
+   "clase": "orl-17",
+   "claseTitulo": "14.17 Croup / Laringitis Obstructiva vs Epiglotitis Aguda: Escala de Taussig y Manejo de Emergencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 8
+  },
+  "Epiglotitis": {
+   "termino": "Epiglotitis",
+   "tipo": "Concepto",
+   "alias": [
+    "epiglotitis"
+   ],
+   "def": "Infección bacteriana fulminante: fiebre tóxica, babeo, trípode, sin tos. Prohibido el bajalenguas; vía aérea en pabellón y ceftriaxona.",
+   "pagina": 81,
+   "clase": "orl-17",
+   "claseTitulo": "14.17 Croup / Laringitis Obstructiva vs Epiglotitis Aguda: Escala de Taussig y Manejo de Emergencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 6
+  },
+  "Laringomalacia": {
+   "termino": "Laringomalacia",
+   "tipo": "Concepto",
+   "alias": [
+    "laringomalacia"
+   ],
+   "def": "Causa más frecuente de estridor congénito (60-75%): inspiratorio, peor con llanto y supino. Se resuelve en 90% antes de los 12 a 18 meses.",
+   "pagina": 84,
+   "clase": "orl-17",
+   "claseTitulo": "14.17 Croup / Laringitis Obstructiva vs Epiglotitis Aguda: Escala de Taussig y Manejo de Emergencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 4
+  },
+  "Estridor": {
+   "termino": "Estridor",
+   "tipo": "Concepto",
+   "alias": [
+    "estridor"
+   ],
+   "def": "Ruido inspiratorio por obstrucción de la vía aérea alta. Croup, epiglotitis, cuerpo extraño y laringomalacia; tiraje, cianosis o apneas obligan a derivar.",
+   "pagina": 81,
+   "clase": "orl-17",
+   "claseTitulo": "14.17 Croup / Laringitis Obstructiva vs Epiglotitis Aguda: Escala de Taussig y Manejo de Emergencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 17
+  },
+  "Pila_de_boton": {
+   "termino": "Pila de botón",
+   "tipo": "Concepto",
+   "alias": [
+    "pila de botón"
+   ],
+   "def": "Emergencia: en nariz, oído o esófago causa quemadura alcalina y perfora en 2 horas. Extracción inmediata; prohibido irrigar. Doble contorno en la radiografía.",
+   "pagina": 89,
+   "clase": "orl-18",
+   "claseTitulo": "14.18 Cuerpos Extraños en ORL: Pila de Botón como Emergencia Quirúrgica vs Vía Aérea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 5
+  },
+  "Cuerpo_extrano": {
+   "termino": "Cuerpo extraño",
+   "tipo": "Concepto",
+   "alias": [
+    "cuerpo extraño"
+   ],
+   "def": "Nasal: rinorrea unilateral fétida, gancho romo. Oído: semillas sin agua; insecto vivo se mata con vaselina o lidocaína. Vía aérea: broncoscopía rígida.",
+   "pagina": 89,
+   "clase": "orl-18",
+   "claseTitulo": "14.18 Cuerpos Extraños en ORL: Pila de Botón como Emergencia Quirúrgica vs Vía Aérea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 9
+  },
+  "Broncoscopia_rigida": {
+   "termino": "Broncoscopía rígida",
+   "tipo": "Examen",
+   "alias": [
+    "broncoscopía"
+   ],
+   "def": "Diagnóstico y tratamiento del cuerpo extraño bronquial, en pabellón bajo anestesia general, más frecuente en el bronquio derecho.",
+   "pagina": 89,
+   "clase": "orl-18",
+   "claseTitulo": "14.18 Cuerpos Extraños en ORL: Pila de Botón como Emergencia Quirúrgica vs Vía Aérea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 2
+  },
+  "Sindrome_de_penetracion": {
+   "termino": "Síndrome de penetración",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome de penetración"
+   ],
+   "def": "Tos asfíctica súbita con cianosis y estridor mientras el niño come o juega; sugiere aspiración de cuerpo extraño.",
+   "pagina": 89,
+   "clase": "orl-18",
+   "claseTitulo": "14.18 Cuerpos Extraños en ORL: Pila de Botón como Emergencia Quirúrgica vs Vía Aérea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 1
+  },
+  "Sialolitiasis": {
+   "termino": "Sialolitiasis",
+   "tipo": "Concepto",
+   "alias": [
+    "sialolitiasis"
+   ],
+   "def": "Del 80 al 90% en la submandibular (Wharton): cólico al comer. Sialogogos e hidratación; lito mayor de 5 mm, extracción transoral o sialoendoscopía.",
+   "pagina": 93,
+   "clase": "orl-19",
+   "claseTitulo": "14.19 Patología de Glándulas Salivales: Sialolitiasis, Parotiditis y Adenoma Pleomorfo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 1
+  },
+  "Colico_salival": {
+   "termino": "Cólico salival",
+   "tipo": "Concepto",
+   "alias": [
+    "cólico salival"
+   ],
+   "def": "Dolor y aumento de volumen glandular al comer, que cede en 1 a 2 horas; típico de sialolitiasis.",
+   "pagina": 93,
+   "clase": "orl-19",
+   "claseTitulo": "14.19 Patología de Glándulas Salivales: Sialolitiasis, Parotiditis y Adenoma Pleomorfo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 1
+  },
+  "Parotiditis_aguda_supurada": {
+   "termino": "Parotiditis aguda supurada",
+   "tipo": "Concepto",
+   "alias": [
+    "parotiditis"
+   ],
+   "def": "Anciano deshidratado o postoperado: pus por la papila de Stenon, S. aureus en más del 80%. Hospitalizar, hidratar y cloxacilina o cefazolina EV.",
+   "pagina": 93,
+   "clase": "orl-19",
+   "claseTitulo": "14.19 Patología de Glándulas Salivales: Sialolitiasis, Parotiditis y Adenoma Pleomorfo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 4
+  },
+  "Adenoma_pleomorfo": {
+   "termino": "Adenoma pleomorfo",
+   "tipo": "Concepto",
+   "alias": [
+    "adenoma pleomorfo"
+   ],
+   "def": "Tumor parotídeo benigno más frecuente: nódulo firme, móvil, indoloro, sin parálisis facial. PAAF y parotidectomía superficial; la enucleación recidiva en más del 40%.",
+   "pagina": 93,
+   "clase": "orl-19",
+   "claseTitulo": "14.19 Patología de Glándulas Salivales: Sialolitiasis, Parotiditis y Adenoma Pleomorfo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 4
+  },
+  "Parotidectomia_superficial": {
+   "termino": "Parotidectomía superficial",
+   "tipo": "Concepto",
+   "alias": [
+    "parotidectomía"
+   ],
+   "def": "Cirugía del adenoma pleomorfo con disección y preservación obligatoria del nervio facial.",
+   "pagina": 93,
+   "clase": "orl-19",
+   "claseTitulo": "14.19 Patología de Glándulas Salivales: Sialolitiasis, Parotiditis y Adenoma Pleomorfo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 3
+  },
+  "Carcinoma_escamoso_de_cabeza_y_cuello": {
+   "termino": "Carcinoma escamoso de cabeza y cuello",
+   "tipo": "Concepto",
+   "alias": [
+    "carcinoma escamoso",
+    "carcinoma epidermoide"
+   ],
+   "def": "Más del 90% de los cánceres de cabeza y cuello; tabaco y alcohol multiplican el riesgo hasta 30 veces; VPH-16 en orofaringe. Banderas rojas: disfonía, otalgia refleja, úlcera oral.",
+   "pagina": 97,
+   "clase": "orl-20",
+   "claseTitulo": "14.20 Cáncer de Cabeza y Cuello: Carcinoma Escamoso, Banderas Rojas y Masa Cervical",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 2
+  },
+  "Otalgia_refleja": {
+   "termino": "Otalgia refleja",
+   "tipo": "Concepto",
+   "alias": [
+    "otalgia refleja"
+   ],
+   "def": "Dolor de oído unilateral con otoscopía normal por irradiación del glosofaríngeo (Jacobson) o vago (Arnold); bandera roja de tumor faríngeo o laríngeo.",
+   "pagina": 97,
+   "clase": "orl-20",
+   "claseTitulo": "14.20 Cáncer de Cabeza y Cuello: Carcinoma Escamoso, Banderas Rojas y Masa Cervical",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 3
+  },
+  "PAAF": {
+   "termino": "PAAF",
+   "tipo": "Examen",
+   "alias": [
+    "PAAF"
+   ],
+   "def": "Punción aspirativa con aguja fina guiada por ecografía: método de primera línea en masa cervical, con sensibilidad y especificidad sobre 95%. Reemplaza a la biopsia abierta, prohibida.",
+   "pagina": 97,
+   "clase": "orl-20",
+   "claseTitulo": "14.20 Cáncer de Cabeza y Cuello: Carcinoma Escamoso, Banderas Rojas y Masa Cervical",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 5
+  },
+  "Masa_cervical": {
+   "termino": "Masa cervical",
+   "tipo": "Concepto",
+   "alias": [
+    "masa cervical"
+   ],
+   "def": "En el mayor de 40 años, regla del 80: neoplásica, maligna, metastásica y escamosa. Nasofibroscopía, PAAF y TAC; sin biopsia abierta.",
+   "pagina": 97,
+   "clase": "orl-20",
+   "claseTitulo": "14.20 Cáncer de Cabeza y Cuello: Carcinoma Escamoso, Banderas Rojas y Masa Cervical",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 6
+  },
+  "Quiste_tirogloso": {
+   "termino": "Quiste tirogloso",
+   "tipo": "Concepto",
+   "alias": [
+    "quiste tirogloso",
+    "tirogloso"
+   ],
+   "def": "Masa de la línea media, suprahioidea, que asciende al deglutir. Se extirpa electivamente con cirugía de Sistrunk; puede infectarse.",
+   "pagina": 99,
+   "clase": "orl-20",
+   "claseTitulo": "14.20 Cáncer de Cabeza y Cuello: Carcinoma Escamoso, Banderas Rojas y Masa Cervical",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 5
+  },
+  "Quiste_branquial": {
+   "termino": "Quiste branquial",
+   "tipo": "Concepto",
+   "alias": [
+    "quiste branquial"
+   ],
+   "def": "Masa lateral del cuello de crecimiento lento en adultos jóvenes, anterior al borde del esternocleidomastoideo.",
+   "pagina": 99,
+   "clase": "orl-20",
+   "claseTitulo": "14.20 Cáncer de Cabeza y Cuello: Carcinoma Escamoso, Banderas Rojas y Masa Cervical",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 2
+  },
+  "Adenitis_cervical": {
+   "termino": "Adenitis cervical",
+   "tipo": "Concepto",
+   "alias": [
+    "adenitis",
+    "adenitis cervical"
+   ],
+   "def": "En el niño suele ser reactiva o viral; la bacteriana (S. aureus, S. pyogenes) se trata 10 días con amoxicilina-clavulánico o cefadroxilo. Mayor de 2 cm, duro y fijo: sospechar linfoma.",
+   "pagina": 98,
+   "clase": "orl-20",
+   "claseTitulo": "14.20 Cáncer de Cabeza y Cuello: Carcinoma Escamoso, Banderas Rojas y Masa Cervical",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Otorrinolaringolog%C3%ADa&clase=orl-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_otorrino",
+   "embed": null,
+   "notas": 5
+  }
+ }
+}

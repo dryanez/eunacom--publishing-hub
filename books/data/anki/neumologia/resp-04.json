@@ -1,0 +1,708 @@
+{
+ "classId": "resp-04",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se sospecha EPOC con tabaco > {{c1::10–20 paquetes-año}} (o biomasa) y tos, expectoración y disnea progresiva.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Diagnóstico",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.017"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El EPOC se confirma solo con espirometría: VEF1/CVF < {{c1::0,70}} post-broncodilatador.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Diagnóstico",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.005"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 175",
+    "EUNACOM Julio 2015 · Pregunta 135"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Fumador con tos y espirometría normal: {{c1::no es EPOC}}.",
+   "extra": "El error es diagnosticar EPOC por el tabaco.",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.017"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Obstrucción grave que no mejora post-BD (VEF1/CVF 0,35) es {{c1::EPOC}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Confirmación",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.017"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 175"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "GOLD 1: VEF1 post-BD ≥ {{c1::80%}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Dos ejes",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.017"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "GOLD 2: VEF1 post-BD entre {{c1::50 y 79%}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Dos ejes",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.017"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "GOLD 3: VEF1 post-BD entre {{c1::30 y 49%}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Dos ejes",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.017"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "GOLD 4: VEF1 post-BD < {{c1::30%}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Dos ejes",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.017"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El grado GOLD 1–4 describe el pulmón; los grupos {{c1::A, B y E}} deciden el tratamiento.",
+   "extra": "",
+   "origen": "clase:22",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.017"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Grupo A: pocos síntomas, mMRC {{c1::0–1}} y CAT < 10, sin exacerbaciones graves.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Grupos clínicos",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.017"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Grupo B: muy sintomático, mMRC ≥ {{c1::2}} o CAT ≥ 10, sin exacerbaciones graves.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Grupos clínicos",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.017"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 14"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Grupo E: ≥ 2 exacerbaciones moderadas o ≥ {{c1::1 hospitalización}} en el último año, con cualquier síntoma.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Grupos clínicos",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.017"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "GOLD 2024 unificó los grupos C y D en el grupo {{c1::E}} (exacerbadores).",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.017"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Grupo A: {{c1::un broncodilatador de larga acción}} (LAMA o LABA).",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla GOLD",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.017"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Grupo B: doble broncodilatación {{c1::LAMA + LABA}} de inicio.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla GOLD",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.017"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 14"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Grupo E: {{c1::LAMA + LABA}} inicial.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Broncodilatadores",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.017"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Ejemplos de LAMA + LABA: tiotropio + {{c1::olodaterol}} o umeclidinio + vilanterol.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Manejo farmacológico",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.017"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Grupo B disneico sin exacerbaciones: el error es dar {{c1::corticoide inhalado}}.",
+   "extra": "Corresponde LAMA + LABA.",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.017"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 14"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Los corticoides inhalados en monoterapia están {{c1::contraindicados}} en EPOC.",
+   "extra": "Aumentan el riesgo de neumonía bacteriana.",
+   "origen": "clase:5",
+   "fuente": "Clase · El gran cambio respecto del asma",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.017"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Terapia triple (LAMA + LABA + CI) en exacerbador con eosinófilos ≥ {{c1::300/µL}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Solo en triple",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.017"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "También se considera el CI si eosinófilos ≥ {{c1::100/µL}} con historia de asma o ≥ 2 exacerbaciones.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Solo en triple",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.017"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Exacerbador con eosinófilos ≥ 300/µL: el error es dar {{c1::CI solo}}.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.017"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las medidas que aumentan la sobrevida en EPOC son dejar de fumar, {{c1::oxígeno domiciliario}} y cirugía en casos hiperseleccionados.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Lo único que alarga la vida",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.017"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La intervención más costo-efectiva en EPOC es {{c1::dejar de fumar}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Lo único que alarga la vida",
+   "repaso": true,
+   "codigos": [
+    "1.05.3.004"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Los broncodilatadores y corticoides {{c1::no alargan la vida}} en EPOC; mejoran síntomas y exacerbaciones.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.017"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Oxígeno domiciliario en EPOC: al menos {{c1::15 horas al día}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Sobrevida",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.016"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Oxígeno domiciliario si PaO2 en reposo ≤ {{c1::55 mmHg}} (o SatO2 ≤ 88%).",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Criterios de oxigenoterapia",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.016"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Oxígeno domiciliario si PaO2 entre {{c1::56 y 59 mmHg}} con cor pulmonale, hipertensión pulmonar o poliglobulia.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Criterios de oxigenoterapia",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.016"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Poliglobulia que justifica oxígeno con PaO2 56–59: hematocrito > {{c1::55%}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Criterios de oxigenoterapia",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.016"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "PaO2 57 con hematocrito 58%: indicar oxígeno domiciliario; el error es {{c1::esperar a PaO2 ≤ 55}}.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.016"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con PaO2 ≥ {{c1::60 mmHg}} en reposo no hay indicación de oxígeno domiciliario.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Criterios de oxigenoterapia",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.016"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Bronquitis crónica: tos con expectoración ≥ {{c1::3 meses al año}} por 2 años seguidos, sin otra causa.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Bronquitis crónica",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.006"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 155"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La bronquitis crónica es una definición {{c1::clínica}}, no espirométrica; es el fenotipo mucoso del EPOC.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Bronquitis crónica",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.006"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Bronquitis crónica sin obstrucción (VEF1/CVF normal): {{c1::no es EPOC}}, pero el manejo es el del EPOC.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · El límite con el EPOC",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.006"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 155"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La causa más frecuente de cor pulmonale es el {{c1::EPOC avanzado}} con hipoxemia crónica.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Corazón pulmonar",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.008"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cor pulmonale: hipertrofia y dilatación del {{c1::ventrículo derecho}} por hipertensión pulmonar.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Corazón pulmonar crónico",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.008"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cor pulmonale: edema, ingurgitación yugular, hepatomegalia y {{c1::segundo ruido pulmonar fuerte}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Corazón pulmonar crónico",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.008"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El cor pulmonale se confirma con {{c1::ecocardiograma}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Corazón pulmonar",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.008"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cor pulmonale: oxígeno domiciliario > 15 h/día con meta de SatO2 ≥ {{c1::90%}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Corazón pulmonar crónico",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.008"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En cor pulmonale los diuréticos se usan con cuidado por la {{c1::alcalosis metabólica}}, que reduce el impulso respiratorio.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Corazón pulmonar crónico",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.008"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La aparición de cor pulmonale marca {{c1::mal pronóstico}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Corazón pulmonar crónico",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.008"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las 5 A de la cesación: preguntar, aconsejar, evaluar disposición, ayudar y {{c1::acordar seguimiento}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Cesación del tabaco",
+   "repaso": true,
+   "codigos": [
+    "1.05.3.004"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El tratamiento farmacológico de la cesación dura {{c1::8 a 12 semanas}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Cesación del tabaco",
+   "repaso": true,
+   "codigos": [
+    "1.05.3.004"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Fármacos de cesación: reemplazo de nicotina, {{c1::bupropión}} o vareniclina.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Cesación del tabaco",
+   "repaso": true,
+   "codigos": [
+    "1.05.3.004"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El bupropión está contraindicado en {{c1::convulsiones y trastornos de la conducta alimentaria}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Cesación del tabaco",
+   "repaso": true,
+   "codigos": [
+    "1.05.3.004"
+   ]
+  },
+  {
+   "id": "c46",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fumador de 5 a 7 cigarrillos al día que quiere dejarlo: la terapia más adecuada es la {{c1::cognitivo-conductual}}.",
+   "extra": "Fuma demasiado poco para requerir bupropión o nicotina.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Cesación del tabaco",
+   "repaso": true,
+   "codigos": [
+    "1.05.3.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 142"
+   ]
+  },
+  {
+   "id": "c47",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "El GES cubre el EPOC en personas de {{c1::15 años y más}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "GES · EPOC",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.017"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-04/01_epoc_hiperinsuflacion__cxr_p292.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Radiografía de tórax con hiperinsuflación por EPOC",
+   "clave": "Pulmones hiperinsuflados con diafragma aplanado",
+   "conducta": "Confirmar con espirometría: VEF1/CVF < 0,70 post-BD; cese del tabaco",
+   "fuente": "The Chest X-Ray: A Survival Guide, Fig. 22.2",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.017"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-04/01_tipos-de-enfisema__cto-neumo_p43.jpg",
+   "pregunta": "¿Qué muestra?",
+   "diagnostico": "Tipos de enfisema",
+   "clave": "Destrucción del parénquima según el tipo de enfisema",
+   "conducta": "El diagnóstico de EPOC sigue siendo espirométrico",
+   "fuente": "Manual CTO Neumología 14.ª ed., p. 43",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.017"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "_verificadas/161_resp_EPOC_estable__cxrpdf_p296_1.jpg",
+   "pregunta": "¿Qué muestra?",
+   "diagnostico": "Enfisema centrolobulillar con bullas en TC de tórax",
+   "clave": "Zonas hipodensas sin pared (bullas) en lóbulos superiores",
+   "conducta": "Cese del tabaco y LAMA + LABA según el grupo; evaluar oxígeno",
+   "fuente": "Chest X-ray atlas, p. 296",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.017"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Fumador con disnea: ¿qué examen confirma EPOC?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.1",
+   "pista": "Grupo B: ¿qué tratamiento inicial?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.2",
+   "pista": "Grupo E con eosinófilos ≥ 300: ¿qué esquema?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.3",
+   "pista": "Todo EPOC: ¿qué dos medidas alargan la vida?"
+  }
+ ]
+}

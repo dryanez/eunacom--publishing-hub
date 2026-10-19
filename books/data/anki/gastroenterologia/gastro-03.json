@@ -1,0 +1,378 @@
+{
+  "classId": "gastro-03",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Disfagia lógica: progresiva, de {{c1::sólidos a líquidos}}; traduce una obstrucción mecánica que crece.",
+      "extra": "Causa a descartar: cáncer de esófago.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Lógica vs ilógica",
+      "repaso": false
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Disfagia ilógica: fluctuante y afecta a los {{c1::líquidos desde el inicio}}; traduce un trastorno motor.",
+      "extra": "Piensa en el músculo, no en un tumor.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Lógica vs ilógica",
+      "repaso": false
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Disfagia lógica → {{c1::endoscopía digestiva alta con biopsia}}; disfagia ilógica → {{c2::manometría esofágica}}.",
+      "extra": "El patrón clínico elige el examen.",
+      "origen": "clase:21",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2018 · Pregunta 145"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Disfagia lógica progresiva + baja de peso en un adulto mayor o fumador: sospechar {{c1::cáncer de esófago}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla disfagia",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 84",
+        "EUNACOM Julio 2013 · Pregunta 22",
+        "EUNACOM Julio 2016 · Pregunta 49"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cáncer de esófago en fumador → {{c1::carcinoma escamoso}}; con ERGE o Barrett de larga data → {{c2::adenocarcinoma}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cáncer de esófago",
+      "repaso": false
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Paciente que vivió en Brasil con disfagia lógica progresiva y baja de peso: el diagnóstico es {{c1::cáncer de esófago}}, no Chagas.",
+      "extra": "El patrón manda sobre el antecedente epidemiológico.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Jul 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 38"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el cáncer de esófago, la {{c1::endosonografía transesofágica}} evalúa la invasión transmural, el principal factor pronóstico.",
+      "extra": "La etapificación usa además TAC de tórax-abdomen.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Cáncer de esófago",
+      "repaso": false
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El único tratamiento curativo del cáncer de esófago es la {{c1::cirugía}}.",
+      "extra": "La radioterapia tiene un rol relevante en el esófago.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Cáncer de esófago",
+      "repaso": false
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Disfagia lógica intermitente a sólidos sin baja de peso: {{c1::anillo de Schatzki o estenosis péptica}}; examen: EDA, que permite dilatar.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla disfagia",
+      "repaso": false
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Bolo de comida impactado que no deja pasar ni el agua: la conducta es {{c1::endoscopía digestiva alta}} urgente.",
+      "extra": "Retira el bolo y busca causa de base (Schatzki, estenosis, tumor).",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Dic 2024",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 150"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Disfagia ilógica baja con {{c1::regurgitación de alimentos no ácidos}} y neumonías aspirativas a repetición: acalasia.",
+      "extra": "La comida nunca llegó al estómago.",
+      "origen": "clase:3",
+      "fuente": "Clase · Acalasia",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 43"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El examen de elección para confirmar acalasia es la {{c1::manometría esofágica}}.",
+      "extra": "Muestra peristalsis disminuida y EEI hipertónico que no relaja.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla disfagia",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 175"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En acalasia, el esofagograma muestra cuerpo dilatado con imagen en {{c1::pico de pájaro}}.",
+      "extra": "Es típico, pero no es el examen de elección.",
+      "origen": "clase:4",
+      "fuente": "Clase · Acalasia",
+      "repaso": false
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En sospecha de acalasia la EDA se hace igual, para descartar {{c1::pseudoacalasia por cáncer del cardias}}.",
+      "extra": "Pero la EDA no confirma el trastorno motor.",
+      "origen": "libro:caso",
+      "fuente": "Libro · Caso",
+      "repaso": false
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tratamiento de elección de la acalasia es la {{c1::miotomía (esfinterotomía) del EEI}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Acalasia",
+      "repaso": true
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Acalasia en etapa inicial o paciente no operable: {{c1::toxina botulínica endoscópica}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Acalasia",
+      "repaso": true
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Los {{c1::bloqueadores de calcio}} relajan el EEI (útiles en acalasia inicial) pero producen reflujo.",
+      "extra": "No se usan para tratar la ERGE.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Disfagia ilógica + pirosis intensa + Raynaud, esclerodactilia y telangiectasias: {{c1::esclerosis sistémica (CREST)}}.",
+      "extra": "A diferencia de la acalasia, tiene reflujo ácido grave.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Dic 2018",
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Esclerodermia con compromiso esofágico se estudia con manometría + anticuerpos {{c1::anti-Scl-70 y anticentrómero}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla disfagia",
+      "repaso": false
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Disfagia alta + {{c1::halitosis marcada}} + regurgitación de comida no digerida: divertículo de Zenker.",
+      "extra": "La halitosis lo separa de la acalasia.",
+      "origen": "clase:5",
+      "fuente": "Clase · Zenker",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 112",
+        "EUNACOM Diciembre 2019 · Pregunta 53",
+        "EUNACOM Diciembre 2017 · Pregunta 22"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El divertículo de Zenker se diagnostica con {{c1::esofagograma con bario}}.",
+      "extra": "No endoscopía ni manometría.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla disfagia",
+      "repaso": false
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el divertículo de Zenker, la {{c1::endoscopía o la sonda a ciegas}} pueden perforar el divertículo.",
+      "extra": "Por eso el examen inicial es el esofagograma.",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz tránsito EED",
+      "repaso": false
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tratamiento del divertículo de Zenker sintomático: {{c1::miotomía cricofaríngea}} + diverticulectomía.",
+      "extra": "Ni IBP ni dilatación corrigen el mecanismo.",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz divertículos",
+      "repaso": false
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la disfagia orofaríngea la dificultad aparece {{c1::en el momento mismo de tragar}}, con tos, voz húmeda y regurgitación nasal.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Disfagia orofaríngea",
+      "repaso": false
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las causas de disfagia orofaríngea son sobre todo {{c1::neurológicas}}: ACV, Parkinson, demencia, ELA, miastenia.",
+      "extra": "Sospecharla en todo adulto mayor con neumonías a repetición.",
+      "origen": "clase:6",
+      "fuente": "Clase · Disfagia orofaríngea",
+      "repaso": false
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Evaluación inicial de disfagia orofaríngea: {{c1::prueba de deglución de agua en pequeños volúmenes}}; si hay tos o voz húmeda, suspender la vía oral y derivar.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Disfagia orofaríngea",
+      "repaso": false
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Medidas en disfagia orofaríngea: sentar al paciente a {{c1::90°}}, flexionar el mentón y espesar los líquidos.",
+      "extra": "Dieta blanda o triturada en porciones pequeñas.",
+      "origen": "clase:7",
+      "fuente": "Clase · Disfagia orofaríngea",
+      "repaso": false
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tos y voz húmeda con líquidos tras un ACV: se confirma con {{c1::videofluoroscopía o nasofibroscopía de deglución}}.",
+      "extra": "EDA y manometría evalúan la disfagia esofágica, no la orofaríngea.",
+      "origen": "clase:20",
+      "fuente": "Clase · Quiz trastorno de deglución",
+      "repaso": false
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Disfagia orofaríngea de más de {{c1::4 semanas}} o sin vía oral segura: sonda nasogástrica y, a largo plazo, gastrostomía.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Disfagia orofaríngea",
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-03/02_esofagograma-acalasia-pico-de-pajaro__amir-cirugia_p162.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Acalasia",
+      "clave": "Esófago dilatado que termina en punta fina (pico de pájaro)",
+      "conducta": "Confirmar con manometría; EDA para descartar cáncer de cardias; miotomía del EEI",
+      "fuente": "Manual AMIR Cirugía, p. 162",
+      "repaso": false
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-03/10_diverticulo-zenker-esofagograma__harrison_p2459.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Divertículo de Zenker",
+      "clave": "Saco con bario en la unión faringoesofágica",
+      "conducta": "Cirugía: miotomía cricofaríngea + diverticulectomía",
+      "fuente": "Harrison 21.ª ed., Fig. 322-56",
+      "repaso": false
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-03/02_cancer-esofago-distal-obstructivo__harrison_p2460.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Cáncer de esófago distal",
+      "clave": "Lesión irregular y ulcerada que estrecha la luz",
+      "conducta": "Biopsia; etapificar con TAC y endosonografía; cirugía si es resecable",
+      "fuente": "Harrison 21.ª ed., p. 2460",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Disfagia alta + halitosis: ¿qué examen?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Disfagia lógica: ¿qué examen?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "Disfagia ilógica: ¿qué examen?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.1.0.1",
+      "pista": "Trastorno motor sin pirosis ni Raynaud: ¿diagnóstico y tratamiento?"
+    }
+  ]
+}

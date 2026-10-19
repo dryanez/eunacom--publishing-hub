@@ -11,7 +11,7 @@ function loadQuestions(codes) {
   const banco = JSON.parse(fs.readFileSync(path.join(DATA, 'banco_preguntas_v3.json'), 'utf8'));
   const out = [];
   for (const k of codes) {
-    const r = (real[k] || []).filter(q => Number(q.confidence) >= 0.5 || /Dic.*2019/.test(q.recTag || '') );
+    const r = (real[k] || []).filter(q => !(q.audit && q.audit.excluir)).filter(q => Number(q.confidence) >= 0.5 || /Dic.*2019/.test(q.recTag || '') );
     if (r.length) { r.forEach(q => out.push({ stem: q.stem, options: q.options, correcta: q.correcta, explicacion: q.explicacion, recTag: q.recTag })); continue; }
     const b = banco[k] && banco[k].slide;
     if (b) out.push({ stem: `${b.stem} ${b.question}`, options: b.options.map(o => ({ id: o.letter, text: o.text })), correcta: b.correct, explicacion: b.explanation, recTag: `Banco Oficial AEE · Perfil V3 ${k}` });

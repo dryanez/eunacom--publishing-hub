@@ -1,0 +1,503 @@
+{
+ "report": {
+  "topics": {
+   "T13.1": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T13.2": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T13.3": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T13.4": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 0.93,
+     "orient": "td"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T13.5": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T13.6": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T13.7": {
+    "steps": 12,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T13.16": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 380,
+    "traps": 5,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T13.8": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T13.9": {
+    "steps": 9,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 245,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T13.10": {
+    "steps": 10,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T13.11": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T13.12": {
+    "steps": 12,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T13.13": {
+    "steps": 0,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 4,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T13.14": {
+    "steps": 10,
+    "split": false,
+    "algo": {
+     "scale": 0.92,
+     "orient": "td"
+    },
+    "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T13.15": {
+    "steps": 9,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 245,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   }
+  },
+  "warnings": [],
+  "pages": 29,
+  "where": {
+   "COVER": 1,
+   "IDX": 2,
+   "T13.1": 3,
+   "T13.2": 5,
+   "T13.3": 6,
+   "T13.4": 8,
+   "T13.5": 9,
+   "T13.6": 11,
+   "T13.7": 12,
+   "T13.16": 13,
+   "T13.8": 15,
+   "T13.9": 17,
+   "T13.10": 18,
+   "T13.11": 19,
+   "T13.12": 20,
+   "T13.13": 21,
+   "T13.14": 22,
+   "T13.15": 23,
+   "NUM": 24,
+   "DRUG": 26,
+   "GES": 26,
+   "PLAN": 28,
+   "PRIO": 29
+  }
+ },
+ "stars": [
+  {
+   "t": "13.1",
+   "real": 19,
+   "stars": 3,
+   "lg": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "t": "13.2",
+   "real": 5,
+   "stars": 2,
+   "lg": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    20,
+    57,
+    58,
+    59,
+    73
+   ]
+  },
+  {
+   "t": "13.3",
+   "real": 3,
+   "stars": 2,
+   "lg": [
+    18
+   ]
+  },
+  {
+   "t": "13.4",
+   "real": 10,
+   "stars": 3,
+   "lg": [
+    22,
+    23,
+    24,
+    25
+   ]
+  },
+  {
+   "t": "13.5",
+   "real": 6,
+   "stars": 3,
+   "lg": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+   ]
+  },
+  {
+   "t": "13.6",
+   "real": 3,
+   "stars": 2,
+   "lg": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    55
+   ]
+  },
+  {
+   "t": "13.7",
+   "real": 5,
+   "stars": 2,
+   "lg": [
+    38,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45
+   ]
+  },
+  {
+   "t": "13.16",
+   "real": 11,
+   "stars": 3,
+   "lg": [
+    1,
+    2,
+    3,
+    21,
+    37
+   ]
+  },
+  {
+   "t": "13.8",
+   "real": 4,
+   "stars": 2,
+   "lg": [
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+   ]
+  },
+  {
+   "t": "13.9",
+   "real": 2,
+   "stars": 1,
+   "lg": [
+    52,
+    53,
+    54
+   ]
+  },
+  {
+   "t": "13.10",
+   "real": 1,
+   "stars": 1,
+   "lg": [
+    19,
+    60,
+    61,
+    62,
+    63
+   ]
+  },
+  {
+   "t": "13.11",
+   "real": 7,
+   "stars": 3,
+   "lg": [
+    64,
+    65,
+    66
+   ]
+  },
+  {
+   "t": "13.12",
+   "real": 4,
+   "stars": 2,
+   "lg": [
+    67,
+    68,
+    69,
+    70,
+    71,
+    72
+   ]
+  },
+  {
+   "t": "13.13",
+   "real": 2,
+   "stars": 1,
+   "lg": [
+    75,
+    76,
+    77,
+    78,
+    79
+   ]
+  },
+  {
+   "t": "13.14",
+   "real": 0,
+   "stars": 1,
+   "lg": [
+    80,
+    81,
+    82,
+    83,
+    84,
+    85
+   ]
+  },
+  {
+   "t": "13.15",
+   "real": 7,
+   "stars": 3,
+   "lg": [
+    86,
+    87,
+    88,
+    89,
+    90
+   ]
+  }
+ ],
+ "lg": {
+  "name": "Urología",
+  "file": "Libro_Gordo_Urologia_90Q.pdf",
+  "unassigned": [
+   39,
+   56,
+   74
+  ],
+  "byLabel": 74,
+  "byCode": 9,
+  "total": 90,
+  "byEditorial": 4,
+  "wordInfo": [
+   {
+    "n": 39,
+    "sug": "13.2 Uropatía Obstructiva Aguda y Retención Urinaria: S",
+    "title": "Trauma urológico",
+    "code": "4.03.2.008",
+    "stem": "Un paciente de 35 años sufre un traumatismo lumbar de alta energía, evolucionando con hematuria. Al examen fís"
+   },
+   {
+    "n": 56,
+    "sug": "13.1 Cólico Renal y Litiasis Urinaria: TAC sin Contrast",
+    "title": "Malformaciones congénitas nefrourológicas",
+    "code": "4.03.1.019",
+    "stem": "Un recién nacido, con antecedente de pielectasia bilateral, diagnosticada por ecografía obstétrica, presenta r"
+   },
+   {
+    "n": 74,
+    "sug": "13.3 Hiperplasia Prostática Benigna (HPB): IPSS, Tacto ",
+    "title": "Reflujo vésico ureteral",
+    "code": "4.03.1.021",
+    "stem": "[ATENCIÓN PRIMARIA: Reflujo vésico ureteral · 4.03.1.021] Paciente de 52 años es evaluado en control médico en"
+   }
+  ],
+  "unassignedInfo": [
+   {
+    "n": 39,
+    "title": "Trauma urológico",
+    "code": "4.03.2.008",
+    "stem": "Un paciente de 35 años sufre un traumatismo lumbar de alta energía, evolucionando con hematuria. Al examen físico está hemodinámicamente estable, con FC: 75x’ y PA: 120/80 mmHg. ¿Cuál es el examen de elección para precisar el diag"
+   },
+   {
+    "n": 56,
+    "title": "Malformaciones congénitas nefrourológicas",
+    "code": "4.03.1.019",
+    "stem": "Un recién nacido, con antecedente de pielectasia bilateral, diagnosticada por ecografía obstétrica, presenta retraso en la eliminación de orina, por lo que se realiza una ecografía abdominal al tercer día de vida, que visualiza hi"
+   },
+   {
+    "n": 74,
+    "title": "Reflujo vésico ureteral",
+    "code": "4.03.1.021",
+    "stem": "[ATENCIÓN PRIMARIA: Reflujo vésico ureteral · 4.03.1.021] Paciente de 52 años es evaluado en control médico en Atención Primaria de Salud (CESFAM) presentando antecedentes y cuadro clínico compatible con Reflujo vésico ureteral. E"
+   }
+  ]
+ },
+ "stats": {
+  "numbers": 47,
+  "drugs": 14,
+  "ges": 6
+ }
+}

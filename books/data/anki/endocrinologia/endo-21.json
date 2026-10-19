@@ -1,0 +1,507 @@
+{
+  "classId": "endo-21",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La prolactina está bajo un {{c1::freno tónico de dopamina}} hipotalámica a través de receptores D2.",
+      "extra": "Por eso los fármacos anti-D2 la elevan.",
+      "origen": "clase:1",
+      "fuente": "Clase · Una hormona que vive frenada",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los prolactinomas son el {{c1::40-50%}} de los adenomas hipofisarios.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Una hormona que vive frenada",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hiperprolactinemia: prolactina basal mayor de {{c1::25 ng/mL}}, en ayuno y tras 30 min de reposo.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Valor de la prolactina",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Prolactina de 25 a 100 ng/mL orienta a fármacos, hipotiroidismo, estrés o {{c1::microadenoma}}.",
+      "extra": "Se descartan fármacos, TSH y beta-hCG y se repite en reposo.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla prolactina",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Prolactina de 100 a 200 ng/mL sugiere prolactinoma o {{c1::efecto de tallo}}; se pide RM de silla turca con gadolinio.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla prolactina",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Prolactina mayor de {{c1::200 ng/mL}} es casi patognomónica de macroprolactinoma: cabergolina más campimetría.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla prolactina",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En amenorrea con galactorrea, lo primero es la {{c1::beta-hCG}}; el error es pedir resonancia de entrada.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 131",
+        "EUNACOM Diciembre 2019 · Pregunta 77"
+      ],
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Descartado el embarazo, el síndrome de amenorrea-galactorrea se estudia primero con {{c1::prolactina}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 79",
+        "EUNACOM Julio 2015 · Pregunta 111"
+      ],
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El orden ante amenorrea-galactorrea es beta-hCG, luego {{c1::TSH}}, luego revisar fármacos.",
+      "extra": "El hipotiroidismo primario eleva la prolactina vía TRH.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causas fisiológicas de hiperprolactinemia: embarazo, lactancia, estrés o venopunción y {{c1::estimulación del pezón}} o coito reciente.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Regla del descarte previo",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El antipsicótico atípico que más eleva la prolactina es la {{c1::risperidona}}.",
+      "extra": "También haloperidol, metoclopramida, domperidona, ISRS, tricíclicos, verapamilo y opiáceos.",
+      "origen": "clase:2",
+      "fuente": "Clase · Regla del descarte previo",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los fármacos suelen elevar la prolactina entre {{c1::30 y 100 ng/mL}}, rara vez más de 150.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Causas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.016",
+        "1.03.4.008"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Usuaria de risperidona con prolactina 58 ng/mL: es causa farmacológica; el error es buscar un {{c1::macroprolactinoma}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El hipotiroidismo primario eleva la prolactina porque la {{c1::TRH}} es un potente factor liberador de prolactina.",
+      "extra": "Se normaliza al tratar con levotiroxina.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Causas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.016",
+        "1.03.4.008"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Prolactina alta con TSH alta: se trata el hipotiroidismo; el error es iniciar {{c1::cabergolina}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Otras causas de hiperprolactinemia: insuficiencia renal crónica, cirrosis y {{c1::efecto de tallo}} por masas selares no prolactinoma.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Causas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.016",
+        "1.03.4.008"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El efecto de tallo eleva la prolactina de forma moderada, menor de {{c1::100-150 ng/mL}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Causas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.016",
+        "1.03.4.008"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La prolactina inhibe la {{c1::GnRH}}, causando hipogonadismo hipogonadotropo, anovulación y amenorrea.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Una hormona que vive frenada",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La galactorrea aparece en {{c1::50-80%}} de las mujeres con hiperprolactinemia.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el varón el prolactinoma debuta tarde como {{c1::macroadenoma}} con disfunción eréctil, baja libido, cefalea y hemianopsia; la galactorrea es rara.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 123",
+        "EUNACOM Diciembre 2018 · Pregunta 111"
+      ],
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hombre con disfunción eréctil y hemianopsia: se pide RM de silla turca; el error es pensar solo en {{c1::causa testicular}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 123",
+        "EUNACOM Diciembre 2018 · Pregunta 111"
+      ],
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Regla de oro: el tratamiento de todo prolactinoma, micro o macro, es {{c1::cabergolina}}.",
+      "extra": "Es el único adenoma hipofisario que no va a cirugía de entrada.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Cabergolina: {{c1::0,5 mg}} VO, 1 a 2 veces por semana, con las comidas.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La cabergolina normaliza la prolactina en {{c1::85-90%}} de los pacientes.",
+      "extra": "Reduce el tumor en más del 80%.",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con hemianopsia bitemporal por prolactinoma gigante se indica {{c1::cabergolina}}, que libera el quiasma en semanas.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-21/01_prolactinoma-gigante-rm__amir-endocrino_p24.jpg",
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En prolactinoma de cualquier tamaño el error es la {{c1::cirugía transesfenoidal de entrada}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La cirugía del prolactinoma se reserva para {{c1::resistencia o intolerancia severa}} a la cabergolina, o apoplejía con fístula de LCR.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Control del prolactinoma: prolactina a los {{c1::3 meses}} y RM de silla turca al año.",
+      "extra": "Ecocardiograma si dosis altas.",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Amenorrea, galactorrea y hemianopsia bitemporal indican {{c1::macroadenoma hipofisiario}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 24",
+        "EUNACOM Diciembre 2019 · Pregunta 138"
+      ],
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante sospecha de acromegalia el primer examen es el {{c1::IGF-1}}, no la GH.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Contraste · acromegalia",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 113",
+        "EUNACOM Diciembre 2025 · Pregunta 32"
+      ],
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "FSH muy elevada (en 2 muestras separadas por 4 semanas) con estradiol bajo antes de los 40 años: {{c1::insuficiencia ovárica prematura}}.",
+      "extra": "Hipogonadismo hipergonadotropo; la prolactina es normal.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.008"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipoglicemia de ayuno con péptido C suprimido: {{c1::hipoglicemia facticia por insulina exógena}}.",
+      "extra": "El péptido C suprimido descarta insulinoma y sulfonilureas.",
+      "origen": "clase:12",
+      "fuente": "Pregunta real · hipoglicemia",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 39"
+      ],
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La hiperprolactinemia {{c1::no tiene GES}} directo; derivación prioritaria a endocrinología y ginecología o urología.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Perfil / GES",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/05_endocrinologia/endo-21/01_prolactinoma-gigante-rm__amir-endocrino_p24.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Macroprolactinoma gigante (RM)",
+      "clave": "Masa selar grande con extensión supraselar que comprime el quiasma",
+      "conducta": "Cabergolina oral, no cirugía; campimetría y control de prolactina a los 3 meses",
+      "fuente": "Manual AMIR Endocrinología, p. 24",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1.2",
+      "pista": "Sin embarazo, TSH normal ni fármacos: ¿qué estudio sigue?",
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.2.0",
+      "pista": "Prolactinoma confirmado: ¿tratamiento?",
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.2.1",
+      "pista": "Resistente a cabergolina: ¿qué conducta?",
+      "codigos": [
+        "1.03.1.016"
+      ]
+    }
+  ]
+}

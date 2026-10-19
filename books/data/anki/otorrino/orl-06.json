@@ -1,0 +1,529 @@
+{
+ "classId": "orl-06",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "HSNS: caída sensorioneural de al menos {{c1::30 dB}} en al menos 3 frecuencias consecutivas, en menos de 72 horas.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 HSNS",
+   "repaso": true,
+   "codigos": [
+    "6.03.2.018",
+    "6.03.1.008"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Más del {{c1::90%}} de las HSNS son idiopáticas (viral, microvascular o inmunomediada); el 98% es unilateral.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 HSNS",
+   "repaso": true,
+   "codigos": [
+    "6.03.2.018"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Clínica de HSNS: despierta sin oír por un oído, con acúfeno agudo y {{c1::plenitud ótica}}.",
+   "extra": "Vértigo leve en 30-40%.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 HSNS",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.018"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El error más grave es atribuir la HSNS a {{c1::cerumen o disfunción tubárica}} y posponer el tratamiento.",
+   "extra": "Se pierde la ventana terapéutica.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Error",
+   "repaso": true,
+   "codigos": [
+    "6.03.2.018"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "HSNS: otoscopía normal, Weber al oído {{c1::sano}} y Rinne positivo en el oído enfermo.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diapasones",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.018",
+    "6.03.4.011"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hipoacusia súbita con tinnitus y otoscopía normal: el examen inicial es la {{c1::audiometría}}.",
+   "extra": "Hombre de 33 años que despierta sin oír por el oído izquierdo.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Primer examen",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 110"
+   ],
+   "codigos": [
+    "6.03.2.018",
+    "6.03.4.011"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La audiometría debe hacerse en las primeras {{c1::24-48 horas}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Audiometría",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.018",
+    "6.03.4.011"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras tratar, se pide RM de CAI y ángulo pontocerebeloso con {{c1::gadolinio}} para descartar schwannoma vestibular.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 RMN",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-06/01_schwannoma-vestibular-rm-con-contraste__bailey-love_p687.jpg",
+   "codigos": [
+    "6.03.2.018",
+    "6.03.4.011"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El schwannoma vestibular está presente en el {{c1::1 al 3%}} de las HSNS.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Schwannoma",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.018",
+    "6.03.4.011"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Único tratamiento con evidencia: corticoides sistémicos precoces en dosis altas ({{c1::prednisona}} oral).",
+   "extra": "Hipoacusia neurosensorial de 50 dB de 48 horas.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 123"
+   ],
+   "codigos": [
+    "6.03.2.018"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Prednisona {{c1::1 mg/kg/día}} (máximo 60 mg) por 10 a 14 días, luego descenso progresivo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Dosis",
+   "repaso": true,
+   "codigos": [
+    "6.03.2.018"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con contraindicación o respuesta incompleta, el ORL aplica corticoide {{c1::intratimpánico}} (dexametasona o metilprednisolona).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Rescate",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.018"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mal pronóstico de HSNS: tratamiento tardío (> 14 días), pérdida profunda (> {{c1::90 dB}}), edad > 65 años y vértigo severo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Pronóstico",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.018"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "HSNS leve a moderada (26-55 dB): recuperación de {{c1::70 a 80%}}; profunda: menos de 20-30%.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Recuperación",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.018",
+    "6.03.1.008"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Trauma acústico agudo: ruido mayor de {{c1::140 dB}} (explosión o disparo) con acúfeno agudo permanente.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Trauma agudo",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.008",
+    "6.03.2.006"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Trauma acústico crónico: ruido industrial mayor de {{c1::85 dB}} durante años.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Trauma crónico",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.008",
+    "6.03.2.006"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sello audiométrico del trauma acústico crónico: muesca simétrica en {{c1::4000 Hz}}, con recuperación parcial en 8000 Hz.",
+   "extra": "Calderero con 20 años sin protectores.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Trauma crónico",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.008",
+    "6.03.2.006"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Presbiacusia: HSN bilateral, simétrica, progresiva, de {{c1::frecuencias agudas}}, en mayores de 65 años.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Presbiacusia",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.008"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Queja típica de la presbiacusia: «{{c1::oigo pero no entiendo}}», peor con ruido de fondo.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Presbiacusia",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.008"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Presbiacusia: cubierta por el {{c1::GES N.º 56}} en 65 años o más, con audífonos bilaterales y rehabilitación.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 GES",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-06/02_audifono-retroauricular__bailey-love_p734.jpg",
+   "codigos": [
+    "6.03.1.008"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El {{c1::95%}} de los tinitus es subjetivo.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Tinitus",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.031"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tinitus pulsátil sincrónico con el pulso orienta a causa {{c1::vascular}}; el «de clic», a mioclonías del paladar o estapedio.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Tinitus",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.031"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ototóxicos: AAS en dosis altas, aminoglucósidos, {{c1::furosemida}} y cisplatino.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Ototóxicos",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.031"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tinitus unilateral o asimétrico: derivar a ORL y pedir {{c1::RM}} para descartar schwannoma.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Manejo",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.031"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Barotrauma ótico: disfunción de la trompa en cambios de presión; la presión {{c1::negativa}} retrae el tímpano.",
+   "extra": "Otalgia y oído tapado tras sumergirse a 1,5 metros.",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Barotrauma",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 90"
+   ],
+   "codigos": [
+    "6.03.2.006"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento del barotrauma: {{c1::Valsalva}} suave o Toynbee, descongestionante nasal ≤ 3 días y evitar volar o bucear.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Barotrauma",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.006"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Vértigo o hipoacusia neurosensorial tras buceo: sospechar {{c1::fístula perilinfática}}; es urgencia.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Barotrauma",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.006"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Perforación timpánica traumática: oído {{c1::seco}}, sin lavar ni gotas ototóxicas; la mayoría cierra sola.",
+   "extra": "Usuaria de cotonito: control en 1 mes.",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Perforación",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 138"
+   ],
+   "codigos": [
+    "6.03.2.016"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Más del 90% de las perforaciones pequeñas cierran solas en {{c1::4 a 8 semanas}}.",
+   "extra": "Sin cierre a los 3 meses: timpanoplastía.",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Perforación",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.016"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Dolor e hipoacusia tras limpiarse con un cotonito (perforación timpánica traumática): no se lava el oído; se {{c1::observa y controla en un mes}}.",
+   "extra": "Lavar arrastra gérmenes al oído medio; la mayoría cierra sola.",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Discrepancia",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 44"
+   ],
+   "codigos": [
+    "6.03.2.016"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "DS 594: límite de {{c1::85 dB(A)}} por 8 horas; cada 3 dB de aumento reduce a la mitad el tiempo.",
+   "extra": "El protocolo PREXOR vigila a los expuestos.",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Prevención",
+   "repaso": false,
+   "codigos": [
+    "6.03.3.007"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Jerarquía de control del ruido: fuente, aislar el puesto y, al final, {{c1::protectores auditivos}}.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Prevención",
+   "repaso": false,
+   "codigos": [
+    "6.03.3.007"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pistas de lesión retrococlear: asimetría ≥ {{c1::15 dB}}, discriminación baja, reflejo estapedial ausente y tinitus unilateral.",
+   "extra": "",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 VIII par",
+   "repaso": false,
+   "codigos": [
+    "6.03.4.011"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-06/01_schwannoma-vestibular-rm-con-contraste__bailey-love_p687.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Schwannoma vestibular en RM",
+   "clave": "Masa en el CAI y ángulo pontocerebeloso con realce",
+   "conducta": "RM con gadolinio tras iniciar el tratamiento de la HSNS",
+   "fuente": "Bailey & Love 27.ª ed., p. 687",
+   "repaso": false,
+   "codigos": [
+    "6.03.4.011"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-06/02_audifono-retroauricular__bailey-love_p734.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Audífono retroauricular",
+   "clave": "Se apoya detrás de la oreja",
+   "conducta": "GES: audífonos bilaterales en 65 años o más",
+   "fuente": "Bailey & Love 27.ª ed., p. 734",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.008"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Pérdida brusca unilateral: ¿qué se mira primero?",
+   "codigos": [
+    "6.03.2.018",
+    "6.03.1.008"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1",
+   "pista": "Otoscopía normal, Weber al sano, Rinne positivo: ¿diagnóstico?",
+   "codigos": [
+    "6.03.2.018",
+    "6.03.1.008"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.0",
+   "pista": "HSNS: ¿tratamiento inmediato?",
+   "codigos": [
+    "6.03.2.018",
+    "6.03.1.008"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.0.0",
+   "pista": "Respuesta incompleta o contraindicación: ¿qué se hace?",
+   "codigos": [
+    "6.03.2.018",
+    "6.03.1.008"
+   ]
+  }
+ ]
+}

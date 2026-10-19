@@ -1,0 +1,518 @@
+{
+ "classId": "orl-14",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El absceso periamigdalino es la infección profunda del cuello más frecuente en {{c1::adolescentes y adultos jóvenes}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Periamigdalino",
+   "repaso": true,
+   "codigos": [
+    "6.03.2.002",
+    "2.01.2.002"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El pus se acumula entre la cápsula amigdalina y el músculo {{c1::constrictor superior}} de la faringe.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Anatomía",
+   "repaso": true,
+   "codigos": [
+    "6.03.2.002",
+    "2.01.2.002"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Es polimicrobiano: S. pyogenes, S. anginosus y anaerobios orales como {{c1::Fusobacterium necrophorum}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Microbiología",
+   "repaso": true,
+   "codigos": [
+    "6.03.2.002",
+    "2.01.2.002"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tríada del absceso periamigdalino: trismus, voz en «{{c1::papa caliente}}» y úvula desviada al lado contralateral.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Tríada",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-14/02_absceso-periamigdalino__sherman_p259.jpg",
+   "codigos": [
+    "6.03.2.002",
+    "2.01.2.002"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El trismus se debe al espasmo del músculo {{c1::pterigoideo interno}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Trismus",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.002",
+    "2.01.2.002"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La úvula se desvía hacia el lado {{c1::sano}}: el pilar anterior abombado empuja la amígdala a la línea media.",
+   "extra": "Odinofagia severa, fiebre, trismus y desviación contralateral de la úvula.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Úvula",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 48"
+   ],
+   "codigos": [
+    "6.03.2.002",
+    "2.01.2.002"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Amigdalitis exudativa que empeora pese al antibiótico y suma trismo: {{c1::absceso periamigdalino}}.",
+   "extra": "Tercer día de azitromicina; joven de 23 años con trismus y pilar abombado; contractura masticatoria con rigidez de nuca.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Empeora con antibiótico",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 119",
+    "EUNACOM Julio 2017 · Pregunta 170",
+    "EUNACOM Diciembre 2024 · Pregunta 148"
+   ],
+   "codigos": [
+    "4.01.2.001"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Acompañan: otalgia refleja por el nervio {{c1::glosofaríngeo}}, sialorrea y aliento fétido.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Acompañantes",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.002",
+    "2.01.2.002"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primer pilar del tratamiento: {{c1::drenaje}} por punción con aguja gruesa o incisión en el punto de máximo abombamiento.",
+   "extra": "Alivia el trismus casi de inmediato.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Drenaje",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.002",
+    "2.01.2.002"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antibiótico EV con cobertura de anaerobios: amoxicilina-clavulánico o penicilina + {{c1::metronidazol}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Antibiótico",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.002",
+    "2.01.2.002"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Una dosis EV de {{c1::dexametasona}} reduce el edema y el trismus.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Corticoide",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.002",
+    "2.01.2.002"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Amigdalectomía en caliente solo si falla el drenaje o hay compromiso de vía aérea; en frío a las {{c1::4 a 6 semanas}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Amigdalectomía",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.002",
+    "2.01.2.002"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Con una colección purulenta no basta el antibiótico {{c1::oral}}: se drena.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Error",
+   "repaso": true,
+   "codigos": [
+    "6.03.2.002",
+    "2.01.2.002"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Amigdalitis con masa submandibular blanda y dolorosa de 4 cm, sin trismus: {{c1::adenitis supurada}}.",
+   "extra": "Joven de 18 años con exudado purulento.",
+   "origen": "clase:14",
+   "fuente": "Clase · Adenitis",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.002",
+    "2.01.2.002"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El absceso retrofaríngeo es casi exclusivo de menores de {{c1::5 años}}, por supuración de los ganglios de Gilette.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Retrofaríngeo",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.004",
+    "6.03.2.003"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Retrofaríngeo: fiebre, sialorrea, rechazo alimentario, {{c1::tortícolis}} dolorosa y estridor; la orofaringe anterior es normal.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Clínica",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.004",
+    "6.03.2.003"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Rx lateral de cuello en inspiración e hiperextensión: espacio prevertebral ensanchado y pérdida de la {{c1::lordosis}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Radiografía",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-14/03_absceso-retrofaringeo-rx-tc__sherman_p261.jpg",
+   "codigos": [
+    "6.03.2.004",
+    "6.03.2.003"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El examen definitivo del retrofaríngeo es la {{c1::TAC de cuello con contraste}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 TAC",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.004",
+    "6.03.2.003"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La complicación más temida es la mediastinitis necrotizante descendente a través del {{c1::danger space}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Peligro",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.004",
+    "6.03.2.003"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Retrofaríngeo: hospitalizar, intubación cuidadosa, drenaje quirúrgico y {{c1::ceftriaxona + clindamicina}} EV.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Manejo",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.004",
+    "6.03.2.003"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Absceso parafaríngeo: trismus severo, pared lateral de la faringe desplazada hacia medial y masa bajo el {{c1::ángulo mandibular}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Parafaríngeo",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-14/04_absceso-parafaringeo-tc__nelson_p3217.jpg",
+   "codigos": [
+    "6.03.2.003"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Síndrome de {{c1::Lemierre}}: tromboflebitis séptica de la yugular interna por Fusobacterium; riesgo de erosión carotídea.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Lemierre",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.003"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Angina de Ludwig: celulitis gangrenosa del piso de boca; el {{c1::80%}} es odontogénica (2.º y 3.er molar inferior).",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Ludwig",
+   "repaso": true,
+   "imagen": "biblioteca/17_otorrino/orl-14/01_angina-de-ludwig__amir-orl_p55.jpg",
+   "codigos": [
+    "6.03.2.003"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ludwig: induración {{c1::leñosa}} del piso de boca, sin fluctuación, con lengua elevada y empujada hacia atrás.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Ludwig",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.003"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la angina de Ludwig lo primero es la {{c1::vía aérea}} (intubación con fibroscopio o traqueostomía), antes de drenar.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Ludwig",
+   "repaso": true,
+   "codigos": [
+    "6.03.2.003"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "TAC cervical con contraste: distingue {{c1::flemón}} (inflamación difusa, manejo médico) de absceso (colección con realce en anillo, requiere drenaje).",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 TAC cervical",
+   "repaso": false,
+   "codigos": [
+    "6.03.4.004"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hallazgos de gravedad en la TAC: prevertebral ancho, vía aérea estrecha, extensión al mediastino y trombosis {{c1::yugular}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 TAC cervical",
+   "repaso": false,
+   "codigos": [
+    "6.03.4.004"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Mediastinitis necrotizante: mortalidad sobre {{c1::40%}}; el estridor o la disnea inspiratoria obligan a actuar de inmediato.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Alarma",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.004",
+    "6.03.2.003"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Absceso retrofaríngeo en lactantes: TAC con contraste y {{c1::pabellón urgente}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.004",
+    "6.03.2.003"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-14/02_absceso-periamigdalino__sherman_p259.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Absceso periamigdalino",
+   "clave": "Pilar anterior abombado con úvula desviada al lado sano",
+   "conducta": "Punción o drenaje y antibiótico EV",
+   "fuente": "Atlas of Clinical Emergency Medicine (Sherman), p. 259",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 48"
+   ],
+   "codigos": [
+    "6.03.2.002",
+    "2.01.2.002"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-14/03_absceso-retrofaringeo-rx-tc__sherman_p261.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Rx y TC: prevertebral ancho",
+   "clave": "Espacio prevertebral muy ensanchado",
+   "conducta": "Hospitalizar, TAC y drenaje en pabellón",
+   "fuente": "Atlas of Clinical Emergency Medicine (Sherman), p. 261",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.004",
+    "6.03.2.003"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-14/04_absceso-parafaringeo-tc__nelson_p3217.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "TC: absceso parafaríngeo",
+   "clave": "Colección con realce periférico en el espacio lateral de la faringe",
+   "conducta": "Drenaje quirúrgico y antibióticos EV",
+   "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 3217",
+   "repaso": false,
+   "codigos": [
+    "6.03.4.004"
+   ]
+  },
+  {
+   "id": "i04",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-14/01_angina-de-ludwig__amir-orl_p55.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Angina de Ludwig",
+   "clave": "Región submandibular hinchada y dura",
+   "conducta": "Asegurar la vía aérea primero",
+   "fuente": "Manual AMIR Otorrinolaringología, p. 55",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.003"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Pilar abombado y úvula desviada: ¿diagnóstico?",
+   "codigos": [
+    "6.03.2.003",
+    "6.03.2.002"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Absceso periamigdalino: ¿conducta?",
+   "codigos": [
+    "6.03.2.003",
+    "6.03.2.002"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1",
+   "pista": "Niño pequeño con tortícolis y pared posterior abombada: ¿diagnóstico?",
+   "codigos": [
+    "6.03.2.003",
+    "6.03.2.002"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.2.0",
+   "pista": "Piso de boca duro y lengua elevada: ¿qué se asegura primero?",
+   "codigos": [
+    "6.03.2.003",
+    "6.03.2.002"
+   ]
+  }
+ ]
+}

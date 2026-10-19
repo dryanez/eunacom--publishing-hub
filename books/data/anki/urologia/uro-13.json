@@ -1,0 +1,357 @@
+{
+ "classId": "uro-13",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La clasificación NIH de la prostatitis tiene {{c1::4 categorías}}: I aguda, II crónica bacteriana, III dolor pélvico crónico y IV asintomática.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 NIH",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Categoría III (prostatodinia): dolor perineal de más de {{c1::3 meses}} con urocultivos estériles.",
+   "extra": "IIIa inflamatoria, IIIb no inflamatoria.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 NIH",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Categoría IV: hallazgo {{c1::histológico}} incidental en biopsia o semen, sin síntomas.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 NIH",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En las categorías I y II el agente principal es {{c1::E. coli}} (75-80%).",
+   "extra": "Luego Klebsiella, Proteus y Pseudomonas.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Etiología",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Prostatitis aguda: fiebre en agujas, calofríos, dolor perineal al {{c1::sentarse}}, disuria y polaquiuria.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clínica",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Al tacto suave la próstata está aumentada, caliente y {{c1::exquisitamente dolorosa}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tacto rectal",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la prostatitis aguda está contraindicado el {{c1::masaje prostático}}: causa bacteriemia y shock séptico.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Contraindicación",
+   "repaso": true,
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Diagnóstico de la aguda: clínica y {{c1::urocultivo}} de orina emitida; el test de Stamey se reserva para la crónica.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Contraindicación",
+   "repaso": true,
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Retención urinaria en prostatitis aguda: {{c1::cistostomía suprapúbica}} por punción, no sonda Foley.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Retención",
+   "repaso": true,
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antibióticos de elección: {{c1::fluoroquinolonas}} (ciprofloxacino) y cotrimoxazol, por su liposolubilidad.",
+   "extra": "La barrera hematoprostática frena a los betalactámicos.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Antibióticos",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ciprofloxacino {{c1::500 mg}} cada 12 horas VO o levofloxacino 500 mg/día.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Dosis",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cotrimoxazol forte: {{c1::160/800 mg}} cada 12 horas VO.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Dosis",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Duración del tratamiento de la prostatitis aguda: {{c1::3 a 4 semanas}} para evitar la cronicidad.",
+   "extra": "El texto del libro menciona también 2 a 4 semanas en un punto.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Duración",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con sepsis o vómitos se hospitaliza con {{c1::ceftriaxona}} EV ± gentamicina, pasando a VO tras 48 horas afebril.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Sepsis",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fiebre de 39,3 °C con calofríos y próstata caliente y dolorosa: urocultivo sin masaje y {{c1::ciprofloxacino por 4 semanas}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Caso",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Clínica de ITU baja y APE de 14,7 ng/mL: sospechar prostatitis aguda y tratar con {{c1::ciprofloxacino}}.",
+   "extra": "El APE se repite tras tratarla.",
+   "origen": "clase:10",
+   "fuente": "Clase · Quiz",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 101"
+   ],
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Varón de 50 años con disuria, fiebre y dolor perineal, hemodinamia estable: {{c1::ciprofloxacino}}, que cubre prostatitis o ITU.",
+   "extra": "El banco reconoce que no queda claro cuál de las dos es.",
+   "origen": "clase:11",
+   "fuente": "Clase · Quiz",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 48"
+   ],
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Prostatitis crónica bacteriana: ITU recurrentes por el mismo germen, test de {{c1::Meares-Stamey}} positivo.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Categoría II",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Prostatitis crónica bacteriana: fluoroquinolona por {{c1::6 a 12 semanas}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla NIH",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Categoría IIIa: leucocitos con cultivos negativos; tratamiento con alfa-1 bloqueante (tamsulosina) + {{c1::AINE}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla NIH",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Categoría IIIb: sin leucocitos ni bacterias; {{c1::pregabalina}}, fisioterapia del piso pélvico y psicoterapia.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla NIH",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Dolor perineal con cultivos estériles: el error es dar {{c1::más antibióticos}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En prostatitis aguda el error es usar {{c1::betalactámico o nitrofurantoína}}, y tratar solo siete días.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La categoría IV {{c1::no se trata}}: hallazgo inocuo.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla NIH",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.005"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Varón con fiebre y dolor perineal: ¿qué NO se hace?",
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Prostatitis estable con vía oral: ¿tratamiento?",
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1",
+   "pista": "Prostatitis con sepsis o vómitos: ¿conducta?",
+   "codigos": [
+    "4.03.2.005"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.2",
+   "pista": "Prostatitis con retención urinaria: ¿conducta?",
+   "codigos": [
+    "4.03.2.005"
+   ]
+  }
+ ]
+}

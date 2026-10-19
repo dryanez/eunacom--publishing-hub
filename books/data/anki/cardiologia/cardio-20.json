@@ -1,0 +1,638 @@
+{
+ "classId": "cardio-20",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La MCH es una hipertrofia ventricular izquierda {{c1::inexplicada}}, habitualmente asimétrica (septal), no debida a hipertensión ni estenosis aórtica.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Hipertrofia que nadie explica",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Definición ecocardiográfica de MCH: grosor de pared ≥ {{c1::15 mm}} (≥ 13 mm si hay un familiar afectado).",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Hipertrofia que nadie explica",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La MCH se hereda de forma {{c1::autosómica dominante}} (genes del sarcómero MYH7 y MYBPC3); cada hijo tiene 50% de probabilidad.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Genética",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Alteraciones de la MCH: disfunción diastólica, obstrucción dinámica, isquemia y sustrato {{c1::arritmogénico}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cuatro consecuencias",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La obstrucción dinámica ocurre en cerca de {{c1::dos tercios}} de los pacientes con MCH.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cuatro consecuencias",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La obstrucción se debe al movimiento sistólico anterior (SAM) de la válvula {{c1::mitral}} hacia el septo (efecto Venturi).",
+   "extra": "El SAM también causa insuficiencia mitral asociada.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Mecanismo de la obstrucción",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La causa de la disnea en la MCH es la disfunción {{c1::diastólica}} (ventrículo rígido).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Síntoma más frecuente de la MCH: {{c1::disnea}} de esfuerzo; muchos pacientes son asintomáticos.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Qué cuenta el paciente",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La MCH es la primera causa de {{c1::muerte súbita}} del deportista joven (< 35 años).",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El síncope que orienta a causa cardíaca es el que ocurre {{c1::durante el ejercicio}}.",
+   "extra": "No al pararse, ni con la micción o la tos (disautonómico).",
+   "origen": "clase:3",
+   "fuente": "Clase · Alarma: origen cardíaco",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 28"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Síncope con micción o al incorporarse es {{c1::disautonómico}}; el error es pensar en causa cardíaca.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 28"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Señales de alarma de muerte súbita: síncope de esfuerzo y familiar con muerte súbita antes de los {{c1::50 años}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Alarma",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Exploración de la MCH: soplo sistólico eyectivo en el borde esternal izquierdo que {{c1::no se irradia}} a las carótidas.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · El soplo que cambia con las maniobras",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El soplo de la MCH AUMENTA con las maniobras que {{c1::reducen}} el volumen ventricular: Valsalva, de pie y nitratos.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · El soplo que cambia con las maniobras",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 179",
+    "EUNACOM Julio 2016 · Pregunta 41"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El soplo de la MCH DISMINUYE con cuclillas, elevar las piernas y {{c1::handgrip}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · El soplo que cambia con las maniobras",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Soplo que aumenta con Valsalva y de pie: es MCH; el error es {{c1::estenosis aórtica}} (en ella disminuye).",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 179"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la insuficiencia mitral el soplo AUMENTA con el {{c1::handgrip}} y casi no cambia con Valsalva.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Quién cambia cómo con cada maniobra",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El prolapso mitral es el otro soplo que {{c1::aumenta}} de pie y con Valsalva.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Examen físico",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "ECG de la MCH: HVI, ondas {{c1::T invertidas gigantes}} (variante apical) y Q profundas inferolaterales.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · ECG, ecocardiograma y estudio familiar",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Q en DII, DIII y aVF con HVI en un joven: es hipertrofia septal; el error es {{c1::infarto inferior}}.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El examen diagnóstico de la MCH es el ecocardiograma {{c1::Doppler}} transtorácico.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · ECG, ecocardiograma y estudio familiar",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En la MCH un gradiente en el tracto de salida ≥ {{c1::30 mmHg}} define la obstrucción.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Ecocardiograma",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Un gradiente ≥ {{c1::50 mmHg}} con síntomas refractarios es el umbral para reducción septal.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Qué dar y cuándo operar",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El Holter de 24-48 horas busca TV no sostenida y {{c1::fibrilación auricular}} en la MCH.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estudio familiar: a todo familiar de {{c1::primer grado}} se le hace ECG y ecocardiograma.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Diagnóstico",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Septo 18 mm en un atleta de élite: se estudia y se diferencia de MCH; el error es asumir {{c1::siempre}} MCH.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Primera línea sintomática en MCH: {{c1::betabloqueador}} (bisoprolol, propranolol); alarga la diástole y baja el gradiente.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Qué dar y cuándo operar",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "MCH obstructiva con disnea: betabloqueador; el error es dar {{c1::nitratos, diuréticos o digoxina}}.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Si el betabloqueador no se tolera en MCH se usa {{c1::verapamilo}} o diltiazem (solo sin obstrucción grave ni hipotensión).",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Segunda línea en MCH obstructiva sintomática: disopiramida o {{c1::mavacamten}} (inhibidor de la miosina).",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Segunda línea",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Reducción septal en MCH: miectomía septal quirúrgica o ablación septal con {{c1::alcohol}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Qué dar y cuándo operar",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Contraindicados en la forma obstructiva: nitratos, vasodilatadores, digoxina, {{c1::inótropos}} y diuréticos en dosis altas.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Lo que empeora la obstrucción",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "MCH con shock: se trata con volumen y {{c1::fenilefrina}}, no con inótropos.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Lo que empeora la obstrucción",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Medidas generales en MCH: evitar deshidratación y {{c1::alcohol}}, y el ejercicio competitivo intenso.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Medidas y fármacos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "FA en MCH: {{c1::anticoagular}} siempre, aunque el CHA₂DS₂-VASc sea bajo.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Otros",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fase dilatada («burnt-out») de la MCH se trata como IC con fracción {{c1::reducida}}.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Evolución",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras la MCH, otras causas de muerte súbita del joven: coronarias anómalas, {{c1::MAVD}}, canalopatías, WPW, miocarditis y Marfán.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Muerte súbita del joven",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "DAI en MCH: siempre en prevención {{c1::secundaria}} (paro previo o TV sostenida).",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Quién necesita DAI",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Factores para DAI primario en MCH: síncope inexplicado, familiar con muerte súbita, septo ≥ {{c1::30 mm}} y TV no sostenida.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Quién necesita DAI",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Joven con síncope jugando fútbol, disnea de esfuerzo, hermano fallecido a los 25 años y soplo eyectivo: {{c1::miocardiopatía hipertrófica}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Conducta del médico general",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 41"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ante un joven con síncope de esfuerzo: suspende el deporte competitivo, pide ECG y ecocardiograma y {{c1::deriva}} a cardiología.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Qué hace el médico general",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Disnea progresiva en el puerperio (4.º día postparto) en una mujer sin otra causa: {{c1::miocardiopatía periparto}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul. 2024 P3",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 3"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Disnea de esfuerzo, ortopnea, astenia, edema y choque de la punta desplazado en un joven: {{c1::miocardiopatía dilatada}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul. 2015 P54",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 54"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-20/01_mch-pieza-hipertrofia-septal__harrison_p2010.jpg",
+   "pregunta": "¿Qué muestra y qué significa?",
+   "diagnostico": "Hipertrofia septal asimétrica (miocardiopatía hipertrófica)",
+   "clave": "Septo ≥ 15 mm (≥ 13 si hay familiar afectado), sin hipertensión ni estenosis aórtica",
+   "conducta": "Ecocardiograma, betabloqueador, evitar nitratos y diuréticos, estudio familiar",
+   "fuente": "Harrison 21.ª ed., Fig. 259-15",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-20/02_mch-ecocardiograma-septo__harrison_p2011.jpg",
+   "pregunta": "¿Qué muestra y qué mides?",
+   "diagnostico": "Ecocardiograma con septo mucho más grueso que la pared lateral",
+   "clave": "Septo engrosado, SAM y gradiente en el tracto de salida",
+   "conducta": "Gradiente ≥ 30 mmHg define obstrucción; ≥ 50 con síntomas: reducción septal",
+   "fuente": "Harrison 21.ª ed., Fig. 259-16",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Soplo que aumenta con Valsalva en un joven con síncope: ¿qué se pide?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "MCH confirmada: ¿qué se suspende y qué se indica?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.0",
+   "pista": "Síncope inexplicado, TV o septo ≥ 30 mm: ¿qué se evalúa?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.0.1",
+   "pista": "Síntomas con gradiente ≥ 50: ¿qué opciones?"
+  }
+ ]
+}

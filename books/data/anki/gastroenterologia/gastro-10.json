@@ -1,0 +1,426 @@
+{
+  "classId": "gastro-10",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Joven con diarrea disentérica crónica, fiebre y baja de peso: la conducta es {{c1::colonoscopía total con ileoscopía y biopsias escalonadas}}.",
+      "extra": "Confirma la EII y diferencia CU de Crohn.",
+      "origen": "clase:18",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 74",
+        "EUNACOM Diciembre 2017 · Pregunta 27",
+        "EUNACOM Diciembre 2022 · Pregunta 127",
+        "EUNACOM Julio 2015 · Pregunta 116",
+        "EUNACOM Diciembre 2018 · Pregunta 12"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ya sea que sospeches EII o cáncer de colon, la diarrea crónica con sangre y baja de peso se estudia con {{c1::colonoscopía completa}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Colonoscopía",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 103",
+        "EUNACOM Julio 2024 · Pregunta 110"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::calprotectina fecal}} elevada apoya el origen inflamatorio de la diarrea (frente a intestino irritable) y sirve para el seguimiento.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Colonoscopía",
+      "repaso": false
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Los anticuerpos p-ANCA y ASCA en la EII {{c1::orientan pero no diagnostican}}.",
+      "extra": "El diagnóstico es colonoscopía con biopsias.",
+      "origen": "clase:1",
+      "fuente": "Clase · Joven con diarrea con sangre",
+      "repaso": false
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anticuerpo asociado a colitis ulcerosa: {{c1::p-ANCA}}. Asociado a Crohn: {{c2::ASCA}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla CU vs Crohn",
+      "repaso": false
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La colitis ulcerosa compromete el recto en el {{c1::100 %}} de los casos y avanza en forma continua.",
+      "extra": "Sin mucosa sana intercalada.",
+      "origen": "clase:2",
+      "fuente": "Clase · Leer la colonoscopía",
+      "repaso": true
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La inflamación de la colitis ulcerosa se limita a la {{c1::mucosa}}; la del Crohn es {{c2::transmural}}.",
+      "extra": "La profundidad decide las complicaciones.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla CU vs Crohn",
+      "repaso": false
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Colonoscopía con mucosa eritematosa, granular, friable y pseudopólipos, continua desde el recto: {{c1::colitis ulcerosa}}.",
+      "extra": "Clínica de pujo y tenesmo.",
+      "origen": "foto",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-10/01_colitis-ulcerosa-endoscopia_1__cto-digestivo_p103.jpg",
+      "fuente": "Libro §2 Leer la colonoscopía",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 164",
+        "EUNACOM Diciembre 2018 · Pregunta 103"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Úlceras aftosas y aspecto en {{c1::empedrado}}, con mucosa normal entre las lesiones, son la endoscopía típica del Crohn.",
+      "extra": "",
+      "origen": "foto",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-10/02_crohn-endoscopia__cto-digestivo_p104.jpg",
+      "fuente": "Libro §2 Leer la colonoscopía",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 163"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La localización típica de la enfermedad de Crohn es el {{c1::íleon distal y la unión ileocecal}}.",
+      "extra": "Puede ir de la boca al ano.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Leer la colonoscopía",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 16",
+        "EUNACOM Diciembre 2024 · Pregunta 81"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Regla de oro EUNACOM: basta {{c1::UNA}} característica de Crohn (íleon, parches, recto sano, fístula, masa, perianal) para llamarla Crohn.",
+      "extra": "Si es colónica, continua y desde el recto, es CU.",
+      "origen": "clase:2",
+      "fuente": "Clase · Regla de oro",
+      "repaso": true
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Colonoscopía con zonas de mucosa indemne y recto respetado en un joven con disentería: {{c1::enfermedad de Crohn}}.",
+      "extra": "Cualquiera de las dos descarta CU.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Diciembre 2017",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 26"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En un joven con EII, una {{c1::fístula perianal}} (actual o previa) orienta fuertemente a Crohn.",
+      "extra": "Lesión transmural.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Regla de oro",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 110",
+        "EUNACOM Diciembre 2022 · Pregunta 50",
+        "EUNACOM Enero 2023 · Pregunta 69"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Joven con diarrea disentérica crónica y masa dolorosa en fosa ilíaca derecha (plastrón ileal): {{c1::enfermedad de Crohn}}.",
+      "extra": "La CU no da masa ni compromiso ileal.",
+      "origen": "libro:caso",
+      "fuente": "Libro · Caso",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 135"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "EII sin ningún elemento de Crohn (sin fístula, masa, íleon ni parches) y con pujo y tenesmo: elegir {{c1::colitis ulcerosa}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Regla de oro",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 123",
+        "EUNACOM Julio 2024 · Pregunta 176",
+        "EUNACOM Julio 2017 · Pregunta 116"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La manifestación extraintestinal más frecuente de la EII es la {{c1::artritis periférica}}.",
+      "extra": "También espondilitis anquilosante.",
+      "origen": "clase:3",
+      "fuente": "Clase · Manifestaciones extraintestinales",
+      "repaso": false
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La manifestación cutánea más frecuente de la EII es el {{c1::eritema nodoso}}; la otra es el pioderma gangrenoso.",
+      "extra": "",
+      "origen": "clase:3",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-10/10_eritema-nodoso-piernas__knoop_p415.jpg",
+      "fuente": "Clase · Manifestaciones extraintestinales",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 142"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::colangitis esclerosante primaria}} se asocia fuertemente a la colitis ulcerosa.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Manifestaciones extraintestinales",
+      "repaso": true
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La manifestación ocular de la EII es la {{c1::uveítis anterior}} (ojo rojo doloroso).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Manifestaciones extraintestinales",
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Crohn, por ser transmural, se complica con {{c1::fístulas, abscesos perianales y obstrucción por estenosis}}.",
+      "extra": "Y malabsorción si toma el delgado.",
+      "origen": "clase:4",
+      "fuente": "Clase · La profundidad decide la complicación",
+      "repaso": false
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Megacolon tóxico: dilatación del colon {{c1::> 6 cm}} con sepsis; es una urgencia vital.",
+      "extra": "Complicación de la colitis ulcerosa.",
+      "origen": "clase:4",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-10/05_megacolon-toxico-rx__amir-cirugia_p115.jpg",
+      "fuente": "Clase · La profundidad decide la complicación",
+      "repaso": true
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el megacolon tóxico la colonoscopía está {{c1::contraindicada}} (riesgo de perforación): hospitalizar con corticoides endovenosos y evaluación quirúrgica precoz.",
+      "extra": "A lo más, rectoscopía cuidadosa con mínima insuflación.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz endoscopía",
+      "repaso": false
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La colitis ulcerosa aumenta el riesgo de cáncer colorrectal (sobre todo rectal) tras {{c1::8–10 años}} de enfermedad.",
+      "extra": "Obliga a colonoscopías de vigilancia.",
+      "origen": "clase:4",
+      "fuente": "Clase · La profundidad decide la complicación",
+      "repaso": false
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Paciente con CU de larga data con sangrado nuevo: pedir {{c1::colonoscopía completa}}, no rectosigmoidoscopía ni corticoides empíricos.",
+      "extra": "Primero descartar neoplasia.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Agosto 2021",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 21"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El pilar del tratamiento de la colitis ulcerosa leve a moderada es el {{c1::5-ASA (mesalazina, sulfasalazina)}}, tópico + oral según extensión.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento escalonado",
+      "repaso": false
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la EII los corticoides se usan para {{c1::el brote agudo, nunca de mantención}}.",
+      "extra": "Budesonida o prednisona.",
+      "origen": "clase:18",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": false
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Los biológicos anti-TNF usados en EII son {{c1::infliximab y adalimumab}}.",
+      "extra": "Otras dianas: vedolizumab, ustekinumab.",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento escalonado",
+      "repaso": false
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la colitis ulcerosa la colectomía es {{c1::curativa}}; en el Crohn la cirugía {{c2::nunca cura}} (resección económica del segmento complicado).",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Colectomía: cura una, no la otra",
+      "repaso": true
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El débito normal de una ileostomía es líquido-pastoso, de {{c1::500 a 1.000 mL}} al día.",
+      "extra": "Más de 1.500 mL al día es alto débito.",
+      "origen": "clase:8",
+      "fuente": "Clase · Ileostomía",
+      "repaso": false
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ileostomía de alto débito: produce deshidratación con {{c1::insuficiencia renal aguda prerrenal}}, hiponatremia, hipopotasemia e hipomagnesemia.",
+      "extra": "Manejo: hidratación, SRO hipertónicas, loperamida e IBP.",
+      "origen": "clase:8",
+      "fuente": "Clase · Ileostomía",
+      "repaso": false
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un estoma oscuro en el postoperatorio precoz es una {{c1::necrosis isquémica: urgencia quirúrgica}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Ileostomía",
+      "repaso": false
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si se resecó el íleon terminal, falta {{c1::vitamina B12 y sales biliares}} (riesgo de litiasis biliar).",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Ileostomía",
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-10/05_megacolon-toxico-rx__amir-cirugia_p115.jpg",
+      "pregunta": "Paciente con colitis ulcerosa y sepsis: ¿qué muestra y qué haces?",
+      "diagnostico": "Megacolon tóxico",
+      "clave": "Colon dilatado > 6 cm en la radiografía de abdomen",
+      "conducta": "Hospitalizar, régimen cero, corticoides endovenosos y evaluación quirúrgica precoz; no colonoscopía",
+      "fuente": "Manual AMIR Cirugía, p. 115",
+      "repaso": false
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-10/03_crohn-ileal-tc-signo-de-la-cuerda_1__cto-radiologia_p40.jpg",
+      "pregunta": "Joven con diarrea y baja de peso: ¿qué muestra y qué haces?",
+      "diagnostico": "Enfermedad de Crohn ileal",
+      "clave": "Íleon terminal con pared engrosada en la TC (inflamación transmural)",
+      "conducta": "Colonoscopía con ileoscopía y biopsias; derivar a especialista",
+      "fuente": "Manual CTO Radiología 14.ª ed., p. 40",
+      "repaso": false
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-10/11_pioderma-gangrenoso__knoop_p413.jpg",
+      "pregunta": "Paciente con EII: ¿qué muestra?",
+      "diagnostico": "Pioderma gangrenoso",
+      "clave": "Úlcera cutánea, no un nódulo como en el eritema nodoso",
+      "conducta": "Manifestación extraintestinal de EII: tratar la enfermedad de base con el especialista",
+      "fuente": "Knoop, Atlas of Emergency Medicine, p. 413",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Joven con diarrea disentérica crónica: ¿qué examen?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0",
+      "pista": "¿Qué pregunta decide CU vs Crohn?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0.1",
+      "pista": "Sin rasgos de Crohn: ¿diagnóstico y cirugía?"
+    }
+  ]
+}

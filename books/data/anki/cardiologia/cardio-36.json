@@ -1,0 +1,537 @@
+{
+ "classId": "cardio-36",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Un AAA es una dilatación focal y permanente de la aorta abdominal con diámetro ≥ {{c1::3,0 cm}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Definición",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El AAA se localiza en más del 90% de los casos en la porción {{c1::infrarrenal}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Definición",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Según la ley de {{c1::Laplace}}, la tensión de la pared es proporcional al radio: más diámetro, más tensión y más riesgo de rotura.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Una pared que se dilata",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El factor de riesgo más importante del AAA es el {{c1::tabaquismo}} (hasta 5 veces más riesgo).",
+   "extra": "Dejar de fumar es también la medida médica más efectiva.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Factores de riesgo",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 65"
+   ],
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El AAA predomina en el varón mayor de {{c1::65 años}} fumador.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La enfermedad renal {{c1::poliquística}} del adulto se asocia a aneurismas aórticos y cerebrales.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Factores de riesgo",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 86"
+   ],
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las mujeres tienen menos AAA, pero se rompen con diámetros {{c1::menores}} y peor pronóstico.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Factores de riesgo",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El AAA es casi siempre {{c1::asintomático}}; se descubre como hallazgo.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Masa pulsátil y ecografía",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo del AAA: masa pulsátil, expansiva e {{c1::indolora}} en epigastrio o mesogastrio.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Masa pulsátil y ecografía",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 65"
+   ],
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor lumbar o abdominal continuo en un AAA es signo de alarma: sugiere {{c1::expansión}} o rotura inminente.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Masa pulsátil y ecografía",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La radiografía lumbar puede mostrar calcificación de la pared aórtica en «{{c1::cáscara de huevo}}».",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El examen de tamizaje, diagnóstico y seguimiento del AAA es la {{c1::ecografía abdominal}}.",
+   "extra": "Sensibilidad cercana a 100%, sin radiación.",
+   "origen": "clase:2",
+   "fuente": "Clase · Masa pulsátil y ecografía",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 65"
+   ],
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El {{c1::angioTAC}} se pide para planificar la reparación del AAA o ante sospecha de rotura en paciente estable.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Masa pulsátil y ecografía",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Masa pulsátil indolora en un fumador mayor: se pide ecografía; el error es {{c1::TAC sin ecografía o cirugía directa}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 65"
+   ],
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tamizaje: una ecografía única en varones de {{c1::65 a 75 años}} con antecedente de tabaquismo.",
+   "extra": "También a hermanos de un paciente con AAA.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tamizaje",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Vigilancia de AAA de 3,0 a 3,9 cm: ecografía cada {{c1::3 años}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Vigilar o reparar",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Vigilancia de AAA de 4,0 a 4,9 cm: ecografía cada {{c1::12 meses}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Vigilar o reparar",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Vigilancia de AAA de 5,0 a 5,4 cm: ecografía cada {{c1::6 meses}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Vigilar o reparar",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "AAA de 4,5 cm estable: ecografía cada año; el error es {{c1::operar}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se repara el AAA con diámetro ≥ {{c1::5,5 cm}} en hombres.",
+   "extra": "EVAR o cirugía abierta.",
+   "origen": "clase:4",
+   "fuente": "Clase · Vigilar o reparar",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En la mujer el umbral de reparación del AAA es ≥ {{c1::5,0 cm}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Vigilar o reparar",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Mujer con AAA: el error es usar el umbral de {{c1::5,5 cm}}; en ella es 5,0 cm.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Crecimiento rápido que indica reparar: > {{c1::0,5 cm}} en 6 meses (o > 1 cm al año).",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Vigilar o reparar",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "AAA que crece > 0,5 cm en 6 meses: se repara; el error es {{c1::esperar a 5,5 cm}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un AAA sintomático, sacular o infeccioso se repara {{c1::aunque sea más chico}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Vigilar o reparar",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "AAA de 5,8 cm asintomático: se deriva a cirugía vascular; el error es {{c1::control anual o anticoagular}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El trombo mural del aneurisma no se trata con {{c1::anticoagulantes}}.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Errores frecuentes",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento médico del AAA: dejar de fumar, control de PA, estatina y {{c1::aspirina}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Vigilar o reparar",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En pacientes con AAA se evitan las {{c1::fluoroquinolonas}}: se asocian a aneurismas y disecciones.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Vigilar o reparar",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El {{c1::EVAR}} tiene menor mortalidad perioperatoria que la cirugía abierta, pero exige vigilancia de por vida.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Indicaciones",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La complicación temida del EVAR es la {{c1::endofuga}} (tipo II: flujo retrógrado por lumbares o mesentérica inferior).",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Después de la reparación",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tríada de rotura del AAA: dolor súbito, masa pulsátil e {{c1::hipotensión o shock}}.",
+   "extra": "Dolor irradiado a ingle o testículo; se confunde con cólico renal.",
+   "origen": "clase:5",
+   "fuente": "Clase · La emergencia quirúrgica",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 86"
+   ],
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La rotura del AAA tiene mortalidad total de {{c1::80 a 90%}}.",
+   "extra": "La mitad muere antes de llegar al hospital.",
+   "origen": "clase:5",
+   "fuente": "Clase · La emergencia quirúrgica",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ante sospecha de rotura de AAA el examen inicial a la cabecera es la {{c1::ecografía abdominal}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Rotura",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 86"
+   ],
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Rotura de AAA: cirugía de emergencia, laparotomía o {{c1::EVAR de urgencia}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · La emergencia quirúrgica",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la rotura de AAA se usa hipotensión {{c1::permisiva}}, poco cristaloide y transfusión 1:1:1.",
+   "extra": "El error es dar cristaloides en grandes volúmenes.",
+   "origen": "clase:5",
+   "fuente": "Clase · La emergencia quirúrgica",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Dolor torácico desgarrante con asimetría de pulsos es {{c1::disección}}, no AAA.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fístula aortoentérica: sangrado digestivo masivo en un paciente con {{c1::injerto aórtico}} previo.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Rotura",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.022"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Dolor + masa pulsátil + hipotensión: ¿qué conducta?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "AAA ≥ 5,5 cm, que crece o duele: ¿qué conducta?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.1",
+   "pista": "AAA estable bajo el umbral: ¿qué se hace?"
+  }
+ ]
+}

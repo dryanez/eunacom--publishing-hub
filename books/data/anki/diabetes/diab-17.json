@@ -1,0 +1,486 @@
+{
+  "classId": "diab-17",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En toda CAD hay un déficit corporal total de potasio de {{c1::3 a 5 mEq/kg}}, aunque la potasemia inicial sea normal o alta.",
+      "extra": "Por diuresis osmótica y vómitos.",
+      "origen": "clase:1",
+      "fuente": "Clase · El potasio engañoso",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La potasemia inicial de la CAD puede ser normal o alta porque la acidosis y la falta de insulina {{c1::sacan el potasio de la célula}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · El potasio engañoso",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Al iniciar insulina e hidratación, el potasio {{c1::entra masivamente a la célula}} y puede causar hipokalemia crítica y arritmias.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · El potasio engañoso",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.006"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Si el K es < {{c1::3,3 mEq/L}}, la insulina está contraindicada hasta reponer potasio.",
+      "extra": "Mete el poco K extracelular a la célula: FV y paro.",
+      "origen": "clase:2",
+      "fuente": "Clase · Regla del potasio",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 101"
+      ],
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "K < 3,3 mEq/L en CAD: {{c1::KCl 20 a 30 mEq/hora}} hasta que el K supere 3,3.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla del potasio",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con K < 3,3 el error clásico es {{c1::iniciar la insulina y reponer el K después}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "K entre {{c1::3,3 y 5,2 mEq/L}}: se inicia la insulina y se agrega KCl a los sueros.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Regla del potasio",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Con K entre 3,3 y 5,2, se agregan {{c1::20 a 30 mEq de KCl}} por cada litro de hidratación.",
+      "extra": "Meta: potasemia estable entre 4,0 y 5,0 mEq/L.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla del potasio",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "K > {{c1::5,2 mEq/L}}: insulina sin potasio y control de K cada {{c2::2 horas}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Regla del potasio",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con K > 5,2 en CAD, el error es {{c1::tratar la hiperkalemia con calcio}}.",
+      "extra": "La insulina la baja sola; el calcio es para QRS ancho o PR largo.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La insulina de elección en CAD moderada a severa y EHH es la {{c1::cristalina en infusión endovenosa continua}} con bomba.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Insulinoterapia",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002",
+        "1.02.2.007"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Dilución de la insulina cristalina: {{c1::100 UI en 100 ml}} de suero fisiológico (1 UI/ml).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Pauta de la bomba",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Dosis de insulina en CAD: {{c1::0,1 UI/kg/h}}, con o sin bolo inicial de 0,1 UI/kg.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Pauta de la bomba",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa de insulina: {{c1::0,14 UI/kg/h}} continua directa, sin bolo.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Pauta de la bomba",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La meta es bajar la glicemia {{c1::50 a 75 mg/dL por hora}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si la glicemia no baja 50 mg/dL en la primera hora, se {{c1::duplica la infusión de insulina}}.",
+      "extra": "El error es esperar otra hora igual.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El bicarbonato en CAD se indica solo si el pH es < {{c1::6,90}}.",
+      "extra": "Único criterio.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "CAD con pH 7,08 y Kussmaul: el error es dar {{c1::bicarbonato}} por la acidosis.",
+      "extra": "Solo el pH < 6,90 lo justifica.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El bicarbonato induce hipokalemia severa y {{c1::acidosis paradójica del SNC}}: el CO₂ cruza la barrera hematoencefálica y el HCO₃ no.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Bicarbonato",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El bicarbonato prolonga la {{c1::cetosis}} y desvía la curva de la hemoglobina a la izquierda.",
+      "extra": "Empeora la oxigenación tisular.",
+      "origen": "clase:4",
+      "fuente": "Clase · Bicarbonato: casi nunca",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.007"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Con pH < 6,90: {{c1::100 mmol de NaHCO₃ en 400 ml}} de agua destilada con 20 mEq de KCl en 2 horas.",
+      "extra": "Se repite hasta pH ≥ 7,00.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Bicarbonato",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hipokalemia en el ECG: K < {{c1::3,5 mEq/L}} con T aplanada, ST descendido y onda U.",
+      "extra": "QT/QU largo; en lo grave, torsades y FV.",
+      "origen": "clase:6",
+      "fuente": "Clase · ECG",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.006"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/04_diabetes/diab-17/01_ecg-hipopotasemia__cto-nefro_p22.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Hipokalemia: onda U prominente",
+      "clave": "Onda U después de la T, T aplanada y ST descendido",
+      "conducta": "Reponer potasio antes de iniciar la insulina; monitorizar",
+      "fuente": "Manual CTO Nefrología 14.ª ed., p. 22",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.006"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hiperkalemia en el ECG: K > {{c1::5,5 mEq/L}}; lo primero son las T altas, picudas y simétricas de base angosta.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · ECG",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la hiperkalemia avanzada aparecen PR largo, P plana, QRS ancho y patrón {{c1::sinusoidal}}, con riesgo de asistolia.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · ECG",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/04_diabetes/diab-17/02_ecg-hiperpotasemia-t-picudas__cto-cardio_p19.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Hiperkalemia: ondas T picudas",
+      "clave": "T altas, puntiagudas y simétricas en precordiales",
+      "conducta": "Si hay QRS ancho o PR largo: gluconato de calcio 10% EV; si no, monitorizar y no aportar K",
+      "fuente": "Manual CTO Cardiología 14.ª ed., p. 19",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hiperkalemia con QRS ancho o PR largo: {{c1::gluconato de calcio 10%, 10 ml EV}} en 2–3 minutos, sin esperar el laboratorio.",
+      "extra": "Después se baja el K con insulina más glucosa y salbutamol.",
+      "origen": "clase:6",
+      "fuente": "Clase · ECG",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En CAD con T picudas y K > 5,2, el ECG no cambia la regla: {{c1::no se aporta potasio}} pero se monitoriza.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · ECG",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante hiperkalemia con QRS ancho o PR largo, el error es {{c1::esperar el potasio de laboratorio}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "CAD con ECG de T aplanada, ST descendido y onda U y sin K disponible: {{c1::postergar la insulina y reponer potasio}}.",
+      "extra": "El ECG puede ser normal con K alterado: no reemplaza la medición.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz ECG",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer en CAD con K 2,9 que recibe el primer litro de suero: se posterga la insulina y se pasa {{c1::KCl 20–30 mEq/h}}.",
+      "extra": "El pH 7,08 no indica bicarbonato.",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño en CAD con K 5,1: primero suero fisiológico; después, como el K está entre 3,3 y 5,2, {{c1::insulina EV más KCl en los sueros}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz Diciembre 2025",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adolescente con glicemia 312, pH 7,26 y HCO₃ 11: {{c1::cetoacidosis diabética}}; el coma hiperosmolar tiene glicemia > 600 sin acidosis importante.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Diciembre 2018",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 16"
+      ],
+      "codigos": [
+        "1.02.2.002",
+        "1.02.2.007"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La CAD pertenece al GES N° {{c1::2}} (Diabetes Mellitus), como urgencia hospitalaria.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Digest · GES",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002",
+        "1.09.2.006"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "K < 3,3: ¿qué se hace con la insulina?",
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "K entre 3,3 y 5,2: ¿qué se da?",
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.0",
+      "pista": "pH < 6,90: ¿qué se indica?",
+      "codigos": [
+        "1.02.2.002"
+      ]
+    }
+  ]
+}

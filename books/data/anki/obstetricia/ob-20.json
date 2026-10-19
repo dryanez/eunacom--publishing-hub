@@ -1,0 +1,400 @@
+{
+  "classId": "ob-20",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La incompatibilidad Rh ocurre en madre Rh(-) con feto Rh(+) {{c1::heredado del padre}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras la sensibilización los anticuerpos IgG anti-D {{c1::cruzan la placenta}} en embarazos siguientes y hemolizan al feto.",
+      "extra": "Los IgM iniciales no cruzan.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Coombs indirecto se mide en el {{c1::suero de la madre}} y detecta anticuerpos anti-D libres.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Coombs indirecto y directo",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Coombs directo se mide en los {{c1::glóbulos rojos del recién nacido}} y detecta anticuerpos ya adheridos.",
+      "extra": "Si es positivo, el RN tiene enfermedad hemolítica.",
+      "origen": "clase:2",
+      "fuente": "Clase · Coombs indirecto y directo",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Se solicita Coombs indirecto en el {{c1::primer control prenatal}} a toda mujer Rh negativa.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Pruebas de detección",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La inmunoglobulina anti-D es una profilaxis {{c1::pasiva}}: evita que se formen anticuerpos.",
+      "extra": "Si ya hay anticuerpos propios, no sirve.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Profilaxis",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La anti-D se administra a la Rh negativa {{c1::no sensibilizada}} (Coombs indirecto negativo).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · A quién y cuándo",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con Coombs indirecto positivo (ya sensibilizada) {{c1::nunca}} se da anti-D: es inútil.",
+      "extra": "Se sigue con títulos y Doppler.",
+      "origen": "clase:4",
+      "fuente": "Clase · Cuándo la anti-D no sirve",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Profilaxis antenatal de rutina: anti-D {{c1::300 mcg}} IM a las {{c2::28}} semanas.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de anti-D",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Postparto se da una segunda dosis de anti-D dentro de {{c1::72 horas}}, si el recién nacido es Rh positivo.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · A quién y cuándo",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La anti-D postparto es útil hasta el día {{c1::28}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de anti-D",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras aborto, ectópico, trauma o procedimiento invasivo en Rh negativa no sensibilizada: anti-D dentro de {{c1::72 horas}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Eventos que también la piden",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Aborto o legrado con EG < 12 semanas: anti-D {{c1::120 a 250 mcg}} IM.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de anti-D",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Evento sensibilizante con EG ≥ 12 semanas: anti-D {{c1::300 mcg}} IM.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de anti-D",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Gestante AB Rh(-) con D-u positivo se maneja como Rh positiva: {{c1::control habitual}} del embarazo.",
+      "extra": "Sin Coombs seriado ni anti-D.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz Agosto 2021",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.009"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 74"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una madre de grupo {{c1::O}} puede hemolizar a un hijo A o B: incompatibilidad de grupo clásica.",
+      "extra": "Solo una madre Rh negativa hemoliza a un hijo Rh positivo.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Diciembre 2017",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Rh sensibilizada es la paciente con Test de Coombs indirecto {{c1::positivo}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Rh sensibilizada",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la sensibilizada se titulan los anticuerpos mensualmente hasta las {{c1::24}} semanas y luego cada 2 semanas.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Rh sensibilizada",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El título crítico de anticuerpos en la sensibilizada es habitualmente {{c1::1:16 o 1:32}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Cómo sigues a la sensibilizada",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La evaluación no invasiva de la anemia fetal es el Doppler de la arteria {{c1::cerebral media}}.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Cómo sigues a la sensibilizada",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.009"
+      ],
+      "imagen": "biblioteca/14_obstetricia/ob-20/S1_doppler-acm__propio.svg"
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Velocidad sistólica máxima de la ACM ≥ {{c1::1.5 MoM}} indica anemia fetal moderada a severa.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Anemia fetal",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la anemia fetal baja la viscosidad y sube el gasto cardíaco, por lo que la velocidad del flujo {{c1::cerebral}} aumenta.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Anemia fetal",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si el Doppler muestra anemia fetal grave, se confirma con {{c1::cordocentesis}} para medir el hematocrito fetal.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Cómo sigues a la sensibilizada",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hematocrito fetal < {{c1::30%}} (o Hb < 10 g/dL) indica transfusión intravascular intrauterina.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento in utero",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La transfusión intrauterina usa glóbulos rojos O Rh negativo {{c1::leucodepletados e irradiados}}, con supervivencia > 90%.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento in utero",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El hidrops fetal en ecografía muestra {{c1::ascitis, derrame pleural y edema subcutáneo}}.",
+      "extra": "Se busca llegar antes de que aparezca.",
+      "origen": "foto",
+      "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 1437",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.009"
+      ],
+      "imagen": "biblioteca/14_obstetricia/ob-20/02_hidrops-fetal-eco__nelson_p1437.jpg"
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-20/S1_doppler-acm__propio.svg",
+      "pregunta": "¿Qué examen es y qué busca?",
+      "diagnostico": "Doppler de la arteria cerebral media fetal",
+      "clave": "En la anemia fetal sube la velocidad sistólica máxima (≥ 1.5 MoM)",
+      "conducta": "Si hay anemia grave: cordocentesis y transfusión intrauterina",
+      "fuente": "Dibujo propio (esquema)",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-20/02_hidrops-fetal-eco__nelson_p1437.jpg",
+      "pregunta": "¿Qué muestra y a qué se asocia?",
+      "diagnostico": "Hidrops fetal por anemia (aloinmunización Rh)",
+      "clave": "Ascitis, derrame pleural y edema subcutáneo en ecografía",
+      "conducta": "Prevenirlo: seguimiento con títulos y Doppler de ACM; transfusión intrauterina",
+      "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., Fig. 140.1",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.009"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "Coombs indirecto negativo: ¿cuándo das anti-D?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0.0",
+      "pista": "Aborto o trauma en Rh negativa: ¿qué plazo?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0",
+      "pista": "Coombs positivo: ¿qué haces en vez de anti-D?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.0.0",
+      "pista": "Sobre el título crítico: ¿qué examen sigue?"
+    }
+  ]
+}

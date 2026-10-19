@@ -1,0 +1,451 @@
+{
+  "classId": "reuma-07",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La estrategia de la AR es {{c1::Treat-to-Target}}: ajustar el tratamiento cada 1–3 meses hasta la remisión o baja actividad.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Treat-to-Target",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta Treat-to-Target: remisión con DAS28 < {{c1::2.6}}; baja actividad con DAS28 ≤ 3.2.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La ventana de oportunidad para iniciar FARME en AR son los primeros {{c1::3 meses}} desde el inicio de los síntomas.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Ventana de oportunidad",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Los AINEs y analgésicos en AR controlan síntomas pero {{c1::no modifican}} el curso ni evitan la destrucción articular.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Treat-to-Target",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fármaco de primera línea indiscutido en AR: {{c1::metotrexato}}.",
+      "extra": "Antagonista del folato; acción antiinflamatoria por adenosina.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 160"
+      ],
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Metotrexato en AR: dosis inicial 10–15 mg, titulando hasta {{c1::20–25 mg}} una vez por semana, oral o subcutáneo.",
+      "extra": "La vía SC tiene mayor biodisponibilidad y menos efectos digestivos.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Metotrexato",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El metotrexato se da SIEMPRE una vez por {{c1::semana}}, nunca diario: la toma diaria produce aplasia medular y mucositis.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Metotrexato",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Con metotrexato es obligatorio el {{c1::ácido fólico}} 5 mg semanales, 24–48 horas después de la dosis.",
+      "extra": "Libro: 5–10 mg semanales. Reduce náuseas, estomatitis, citopenias y transaminasas.",
+      "origen": "clase:2",
+      "fuente": "Clase · Metotrexato",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Monitorización del metotrexato: {{c1::hemograma y perfil hepático}} basales y cada 1–3 meses.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Monitorización",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se suspende temporalmente el metotrexato si las transaminasas suben > {{c1::3 veces}} el límite superior normal.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Vigilancia de toxicidad",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Metotrexato: contraindicación absoluta en {{c1::embarazo y lactancia}} (teratogénico y abortivo), hepatopatía activa, alcohol y VFG < 30.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tos seca, disnea y fiebre subaguda en un paciente con metotrexato: {{c1::neumonitis}}; diferenciar de Pneumocystis.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Vigilancia de toxicidad",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Leflunomida: inhibe la síntesis de {{c1::pirimidinas}}; dosis 20 mg/día VO.",
+      "extra": "Diarrea, hipertensión, alopecia, hepatopatía.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla FARME",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Leflunomida es muy teratogénica y persiste en el cuerpo: se hace lavado con {{c1::colestiramina}} si se planea embarazo.",
+      "extra": "Clase: 8 g tres veces al día por 11 días.",
+      "origen": "clase:4",
+      "fuente": "Clase · Lavado con colestiramina",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Sulfasalazina: {{c1::2 a 3 g/día}} VO; de elección si hay contraindicación a MTX y la más segura en embarazo.",
+      "extra": "Toxicidad: molestias GI, rash, neutropenia.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 FARME sintéticos",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 46"
+      ],
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hidroxicloroquina: {{c1::200 a 400 mg/día}} (≤ 5 mg/kg peso real/día); potencia moderada, útil en terapia triple.",
+      "extra": "Segura en embarazo.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla FARME",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hidroxicloroquina: toxicidad retiniana (maculopatía en {{c1::ojo de buey}}); control oftalmológico anual tras el 5.º año.",
+      "extra": "Evaluación basal obligatoria.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Hidroxicloroquina",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La terapia triple de AR combina metotrexato + {{c1::sulfasalazina + hidroxicloroquina}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 FARME sintéticos",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El metotrexato tarda {{c1::6 a 12 semanas}} en alcanzar su efecto pleno; por eso se usa prednisona puente.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Terapia de puente",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Terapia puente en AR: prednisona {{c1::5 a 10 mg/día}}, con retiro gradual cuando actúa el FARME.",
+      "extra": "Libro: ≤ 7.5–10 mg/día.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla FARME",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con actividad persistente a las 8 semanas con MTX 15 mg y buena tolerancia: primero {{c1::optimizar la dosis}} a 20–25 mg/semana (o vía SC).",
+      "extra": "Clase · Quiz 2023.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz EUNACOM 2023 P37",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Se indica biológico tras el fracaso de {{c1::dos FARME convencionales}} (incluido MTX a dosis plenas).",
+      "extra": "Libro: DAS28 > 3.2 persistente tras 3–6 meses de MTX optimizado.",
+      "origen": "clase:5",
+      "fuente": "Clase · Biológicos",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Familias de biológicos en AR: anti-TNF, tocilizumab (anti-IL-6), abatacept, {{c1::rituximab}} (anti-CD20) y los inhibidores JAK.",
+      "extra": "Tofacitinib, baricitinib, upadacitinib son orales.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Biológicos",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Antes de un biológico anti-TNF se descarta {{c1::tuberculosis latente}} con PPD o IGRA y radiografía de tórax.",
+      "extra": "Los anti-TNF rompen los granulomas: riesgo de TBC miliar.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antes de biológicos también se pide serología de hepatitis {{c1::B y C}}.",
+      "extra": "Riesgo de reactivación viral.",
+      "origen": "clase:5",
+      "fuente": "Clase · Tamizaje viral",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "PPD ≥ {{c1::5 mm}} o IGRA positivo con Rx normal: isoniazida 300 mg/día + vitamina B6 por 9 meses.",
+      "extra": "Alternativa: rifampicina 4 meses.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Biológicos",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El biológico se inicia solo tras completar al menos {{c1::1 mes}} de tratamiento antituberculoso.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Biológicos",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con deseo de embarazo se suspenden MTX y leflunomida al menos {{c1::3 a 6 meses}} antes; opciones: sulfasalazina o anti-TNF.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 46"
+      ],
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Bajo inmunosupresión están contraindicadas las vacunas {{c1::vivas atenuadas}} (fiebre amarilla, triple vírica, varicela).",
+      "extra": "Sí: antineumocócica y antiinfluenza.",
+      "origen": "clase:7",
+      "fuente": "Clase · Vacunación",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES en AR: acceso garantizado a FARME sintéticos y {{c1::biológicos}} en AR activa refractaria, vía comité.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Canasta GES",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La nefritis es la alteración {{c1::menos probable}} en AR; lo renal suele ser amiloidosis AA o toxicidad por fármacos.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · pregunta Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "AR con deseo de embarazo: ¿qué usas y qué está prohibido?",
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "AR sin embarazo: ¿esquema de inicio?",
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1",
+      "pista": "Actividad moderada-alta persistente: ¿conducta?",
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.0.1.0.0",
+      "pista": "Fallo a dos FARME: ¿qué haces antes del biológico?",
+      "codigos": [
+        "1.11.1.003"
+      ]
+    }
+  ]
+}

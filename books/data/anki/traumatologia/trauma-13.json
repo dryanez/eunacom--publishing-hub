@@ -1,0 +1,489 @@
+{
+ "classId": "trauma-13",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los tumores óseos se presentan como hallazgo incidental, {{c1::dolor}} sordo o nocturno, o fractura en hueso patológico.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clínica",
+   "repaso": true,
+   "codigos": [
+    "4.02.1.009"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Para el diagnóstico de un tumor óseo se mira la {{c1::edad}}, la localización en el hueso (epífisis, metáfisis, diáfisis) y el aspecto radiológico.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.009"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tumor benigno: cortical respetada, partes blandas no invadidas, bordes {{c1::bien delimitados}} y reacción perióstica ausente o simple.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Imagen",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tumor maligno: disrupción de la cortical, invasión de partes blandas, {{c1::mal delimitado}} y reacción perióstica compleja.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Imagen",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La reacción perióstica en «sol naciente» sugiere {{c1::crecimiento rápido}}; en «telas de cebolla», sarcoma de Ewing.",
+   "extra": "El triángulo de Codman es otra reacción perióstica maligna.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Imagen",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tumor óseo benigno más frecuente es el {{c1::osteocondroma}}.",
+   "extra": "Joven con bulto óseo indoloro.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Osteocondroma",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la radiografía, el osteocondroma es un «cachito» de hueso que crece hacia afuera de la {{c1::metáfisis}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Osteocondroma",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-13/02_osteocondroma-perone__bailey-love_p560.jpg",
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El osteocondroma se observa; se opera solo si causa {{c1::compresión}} o dolor por roce.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Osteocondroma",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Joven con dolor nocturno que cede con aspirina o AINE: {{c1::osteoma osteoide}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Osteoma osteoide",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El osteoma osteoide muestra un {{c1::nidus}} radiolúcido pequeño con halo esclerótico, típicamente en la cortical.",
+   "extra": "Si es refractario: cirugía o ablación por radiofrecuencia.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Osteoma osteoide",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-13/03_osteoma-osteoide-tibia__bailey-love_p559.jpg",
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tumor óseo maligno primario más común es el {{c1::osteosarcoma}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Osteosarcoma",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El osteosarcoma tiene distribución bimodal: adolescentes de {{c1::15-20 años}} y adultos mayores de {{c2::65 años}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Osteosarcoma",
+   "repaso": true,
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El osteosarcoma se localiza en la {{c1::metáfisis}} de huesos largos, frecuentemente cerca de la rodilla.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Osteosarcoma",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-13/01_osteosarcoma-esclerotico-femur-distal__bailey-love_p556.jpg",
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Radiografía del osteosarcoma: lesión heterogénea con cortical rota y reacción en {{c1::sol naciente}}.",
+   "extra": "El antecedente de golpe en la rodilla suele aparecer aunque no tenga relación.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Osteosarcoma",
+   "repaso": true,
+   "imagen": "_verificadas/254_trauma_Tumores_óseos__HelmsSkeletal_p53.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 9",
+    "EUNACOM Julio 2013 · Pregunta 94",
+    "EUNACOM Julio 2025 · Pregunta 9"
+   ],
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tratamiento del osteosarcoma es {{c1::cirugía radical}} (a veces con conservación del miembro) más quimioterapia.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Osteosarcoma",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Esguince de rodilla que no mejora con reacción perióstica y partes blandas comprometidas: sospechar {{c1::tumor maligno}} y derivar.",
+   "extra": "Se pide radiografía.",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 39",
+    "EUNACOM Julio 2017 · Pregunta 53",
+    "EUNACOM Diciembre 2022 · Pregunta 154"
+   ],
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El sarcoma de {{c1::Ewing}} afecta a niños y adolescentes, en la diáfisis de huesos largos o en la pelvis.",
+   "extra": "Pregunta real: niño de 13 años con tumor en la pierna.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Ewing",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 152"
+   ],
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El Ewing muestra reacción perióstica en {{c1::telas de cebolla}} y células pequeñas, redondas y azules.",
+   "extra": "Parece un linfoma en la biopsia.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Ewing",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-13/05_sarcoma-de-ewing-perone__bailey-love_p558.jpg",
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El Ewing se trata con {{c1::quimioterapia}}, cirugía y a veces radioterapia.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Ewing",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El tumor de células gigantes ocurre en adultos de {{c1::40 a 50 años}}, en epífisis/metáfisis alrededor de la rodilla.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Células gigantes",
+   "repaso": true,
+   "imagen": "biblioteca/18_traumatologia/trauma-13/04_tumor-celulas-gigantes-radio__bailey-love_p563.jpg",
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tumor de células gigantes es localmente agresivo pero generalmente no da {{c1::metástasis}}; se trata con legrado amplio.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Células gigantes",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Adolescente + metáfisis = osteosarcoma; niño + diáfisis = Ewing; adulto de 40 a 50 años + rodilla = {{c1::células gigantes}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Edad más lugar",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Bordes mal definidos, rotura cortical y {{c1::triángulo de Codman}} en la metáfisis distal del fémur de un adolescente: osteosarcoma.",
+   "extra": "Se deriva para RM de todo el hueso, TC de tórax y biopsia.",
+   "origen": "clase:15",
+   "fuente": "Clase · Quiz Perfil V3",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cortical interrumpida, calcificación de partes blandas, reacción perióstica triangular y zonas osteolíticas y osteoblásticas: {{c1::tumor óseo maligno}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic 2022",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 90",
+    "EUNACOM Enero 2023 · Pregunta 160",
+    "EUNACOM Enero 2023 · Pregunta 161"
+   ],
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Masa en el muslo de un adolescente con sospecha de sarcoma: el examen de elección es la {{c1::resonancia magnética}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real RM",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 163",
+    "EUNACOM Enero 2023 · Pregunta 162",
+    "EUNACOM Diciembre 2022 · Pregunta 138"
+   ],
+   "codigos": [
+    "1.08.1.001"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Síndrome de compresión medular con cáncer de próstata y metástasis óseas: se estudia con {{c1::RM de columna con gadolinio}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic 2024",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 18"
+   ],
+   "codigos": [
+    "1.08.1.001"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-13/01_osteosarcoma-esclerotico-femur-distal__bailey-love_p556.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Osteosarcoma esclerótico del fémur distal",
+   "clave": "Lesión heterogénea metafisaria junto a la rodilla con cortical interrumpida",
+   "conducta": "Derivar: RM, TC de tórax y biopsia; cirugía más quimioterapia",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 37.4",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 9"
+   ],
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-13/05_sarcoma-de-ewing-perone__bailey-love_p558.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Sarcoma de Ewing del peroné",
+   "clave": "Periostio levantado en capas finas («telas de cebolla»)",
+   "conducta": "Niño con lesión diafisaria maligna: quimioterapia, cirugía y radioterapia",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 37.8",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 152"
+   ],
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-13/02_osteocondroma-perone__bailey-love_p560.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Osteocondroma del peroné",
+   "clave": "Proyección ósea de bordes nítidos que sale de la metáfisis",
+   "conducta": "Observar; cirugía solo si comprime o duele por roce",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 37.14",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Joven con bulto óseo duro e indoloro: ¿diagnóstico y conducta?",
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1",
+   "pista": "Dolor nocturno que cede con aspirina: ¿diagnóstico?",
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.0",
+   "pista": "Adolescente con lesión maligna metafisaria: ¿diagnóstico y tratamiento?",
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.2",
+   "pista": "Adulto de 40 a 50 años alrededor de la rodilla: ¿tratamiento?",
+   "codigos": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ]
+  }
+ ]
+}

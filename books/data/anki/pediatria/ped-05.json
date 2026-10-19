@@ -1,0 +1,669 @@
+{
+  "classId": "ped-05",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El agente principal de la bronquiolitis es el {{c1::virus respiratorio sincicial (VRS)}}.",
+      "extra": "Responsable de más del 70% de los casos.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Etiología",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.020",
+        "2.01.1.021"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 72"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La bronquiolitis es el {{c1::primer episodio}} de obstrucción bronquial en un lactante menor de 2 años.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.020"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 158"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pródromo de la bronquiolitis: {{c1::2-3 días}} de coriza y tos antes de la dificultad respiratoria.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.020"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Bronquiolitis típica sin complicación: el error es {{c1::pedir radiografía de tórax a todos}}.",
+      "extra": "Se reserva para duda diagnóstica o sospecha de atelectasia o neumotórax.",
+      "origen": "clase:14",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.020",
+        "2.01.1.021"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante saturación de 90% con cianosis en un lactante con obstrucción bronquial, la primera medida es {{c1::oxígeno}}.",
+      "extra": "El oxígeno es lo único con beneficio claro en la bronquiolitis.",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz EUNACOM Julio 2015 P148",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.020",
+        "2.01.5.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 148"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la bronquiolitis pura, los broncodilatadores y corticoides tienen {{c1::beneficio marginal}}; el pilar es oxígeno e hidratación.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Aclaración terapéutica",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.020",
+        "2.01.1.021"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Score de Tal modificado va de 0 a {{c1::12}} puntos y evalúa 4 variables.",
+      "extra": "FR, sibilancias, cianosis y retracción.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Score de Tal",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.021"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "SBO leve: Tal {{c1::≤ 5}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.028",
+        "2.01.1.021"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "SBO moderado: Tal {{c1::6 a 8}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.028",
+        "2.01.1.021"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "SBO severo: Tal {{c1::9 a 12}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.028",
+        "2.01.1.021"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tal en menores de 6 meses: FR 56-70 suma {{c1::2 puntos}}; > 70 suma 3 puntos.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Score de Tal",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.021"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tal en ≥ 6 meses: FR 46-60 suma {{c1::2 puntos}}; > 60 suma 3 puntos.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Score de Tal",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.021"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sibilancias en toda la espiración con fonendoscopio suman {{c1::2 puntos}}; audibles a distancia suman 3.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Score de Tal",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.021"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cianosis perioral en reposo suma {{c1::2 puntos}} en el Score de Tal.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Score de Tal",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.021"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Retracción intercostal moderada suma {{c1::2 puntos}}; supraclavicular o aleteo nasal intenso suma 3.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Score de Tal",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.021"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lactante de 5 meses con FR 62, sibilancias en toda la espiración, tiraje intercostal moderado y sin cianosis: Tal {{c1::6}} (moderado).",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · Caso clínico",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.021",
+        "2.01.1.028"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El {{c1::tórax silente}} suma 3 puntos en sibilancias: es máxima gravedad, no mejoría.",
+      "extra": "Obstrucción tan extrema que no genera sibilancias.",
+      "origen": "clase:14",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.021",
+        "2.01.1.028"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tal ≤ 5: manejo ambulatorio con salbutamol MDI con aerocámara {{c1::2 puff cada 4 a 6 horas}} por 5 a 7 días.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo escalonado",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.028",
+        "2.01.1.021"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tal moderado: hospitalización abreviada con salbutamol {{c1::2 puff cada 10 minutos}} por 1 hora.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.028",
+        "2.01.1.021"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si tras la 1.ª hora el Tal baja a ≤ 5: {{c1::alta}} con salbutamol 2 puff cada 4 horas y control en 24 horas.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Hospitalización abreviada",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.028",
+        "2.01.1.021"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si tras la 1.ª hora persiste en Tal 6-8: se agrega {{c1::prednisona oral 1 a 2 mg/kg}} y una 2.ª hora de salbutamol.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.028",
+        "2.01.1.021"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si tras la 2.ª hora persiste en Tal 6-8: {{c1::hospitalizar}} para oxigenoterapia.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Hospitalización abreviada",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.028",
+        "2.01.1.021"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tal inicial 9-12: hospitalización inmediata con oxígeno para saturación {{c1::≥ 93%}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 SBO severo",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.028",
+        "2.01.1.021"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tres o más episodios obstructivos en el año en un menor de 2 años con buen estado entre crisis: corticoide inhalado de mantención con {{c1::aerocámara}}.",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz Síndrome bronquial obstructivo",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.028"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Nirsevimab es un {{c1::anticuerpo monoclonal}} anti-VRS dado universalmente a recién nacidos y lactantes menores de 6 meses.",
+      "extra": "Reduce más de 80% las hospitalizaciones.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.020",
+        "2.01.1.021"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estridor inspiratorio y tos perruna entre los 6 meses y 3 años: {{c1::laringitis aguda (croup)}}.",
+      "extra": "Dexametasona oral más adrenalina racémica.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Diagnóstico diferencial",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.020"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Inicio súbito, asfixia inicial y sibilancias unilaterales en un niño de 1 a 3 años: {{c1::cuerpo extraño}}.",
+      "extra": "Broncoscopía rígida urgente.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Diagnóstico diferencial",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.020"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fiebre alta, aspecto tóxico y estridor bifásico: {{c1::traqueítis bacteriana}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Diagnóstico diferencial",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.020"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La IFD en aspirado nasofaríngeo se pide en el niño {{c1::hospitalizado}} para cohortear y vigilancia epidemiológica.",
+      "extra": "No se pide de rutina en lo ambulatorio.",
+      "origen": "clase:11",
+      "fuente": "Clase · Estudio etiológico",
+      "repaso": true,
+      "codigos": [
+        "1.04.4.005",
+        "2.01.4.025"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 151"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Inmunofluorescencia directa: resultado en {{c1::2 a 4 horas}}; un negativo no descarta etiología viral.",
+      "extra": "",
+      "origen": "libro:sec:6",
+      "fuente": "Libro §6 Estudio etiológico",
+      "repaso": false,
+      "codigos": [
+        "1.04.4.005",
+        "2.01.4.025"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Precauciones aéreas (presión negativa y N95) se usan en sarampión, varicela y {{c1::TBC pulmonar}}.",
+      "extra": "VRS e influenza: contacto más gotitas.",
+      "origen": "libro:sec:6",
+      "fuente": "Libro §6 Aislamiento",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.025"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Oxigenoterapia: se indica con saturación {{c1::< 93%}} al aire ambiente (meta 93 a 97%).",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Oxigenoterapia",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.006"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el prematuro la meta de saturación es {{c1::90 a 95%}} para evitar hiperoxia.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Oxigenoterapia",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.006"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cánula nasal de alto flujo en bronquiolitis moderada a grave: {{c1::1 a 2 L/kg/min}}, humidificado y calentado.",
+      "extra": "",
+      "origen": "libro:sec:7",
+      "fuente": "Libro §7 Oxigenoterapia",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.006",
+        "2.01.1.020"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lactante taquipneico con PaCO₂ que se normaliza o sube indica {{c1::agotamiento}} y falla ventilatoria inminente.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Gasometría",
+      "repaso": true,
+      "codigos": [
+        "2.01.4.014"
+      ]
+    },
+    {
+      "id": "c36",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Insuficiencia respiratoria tipo I: PaO₂ {{c1::< 60 mmHg}} con PaCO₂ normal o baja; tipo II: PaCO₂ > 50 mmHg.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Gases",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.014"
+      ]
+    },
+    {
+      "id": "c37",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "pH 7,22, PaCO₂ 62, HCO₃ 24 y PaO₂ 58 en un lactante somnoliento: {{c1::acidosis respiratoria aguda con hipoxemia}}.",
+      "extra": "",
+      "origen": "clase:22",
+      "fuente": "Clase · Quiz Gases en sangre arterial",
+      "repaso": true,
+      "codigos": [
+        "2.01.4.014"
+      ]
+    },
+    {
+      "id": "c38",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Coqueluche: fases catarral, paroxística y {{c1::convaleciente}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Coqueluche",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.006"
+      ]
+    },
+    {
+      "id": "c39",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el lactante menor de 3 a 6 meses con coqueluche predominan {{c1::apneas y cianosis}}, a menudo sin gallito.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tos convulsiva",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 151"
+      ]
+    },
+    {
+      "id": "c40",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Coqueluche: hemograma con linfocitosis {{c1::> 20.000/mm³}}; mal pronóstico sobre 50.000.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Coqueluche",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 151"
+      ]
+    },
+    {
+      "id": "c41",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diagnóstico de coqueluche en las primeras 3 a 4 semanas: {{c1::PCR en aspirado nasofaríngeo}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Coqueluche",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 151"
+      ]
+    },
+    {
+      "id": "c42",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Recién nacido con apneas y madre con tos paroxística emetizante: tratar con {{c1::azitromicina}}.",
+      "extra": "Se evita la eritromicina en menores de 1 mes por estenosis hipertrófica del píloro.",
+      "origen": "clase:21",
+      "fuente": "Clase · Quiz EUNACOM Julio 2017 P72",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 72",
+        "EUNACOM Diciembre 2019 · Pregunta 40"
+      ]
+    },
+    {
+      "id": "c43",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Azitromicina en coqueluche: {{c1::10 mg/kg/día}} por 5 días.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Coqueluche",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.006"
+      ]
+    },
+    {
+      "id": "c44",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La embarazada recibe dTpa desde las {{c1::28 semanas}}; los contactos reciben quimioprofilaxis con macrólido.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Prevención",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.006"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-05/01_distres-en-bronquiolitis__cto-pediatria_p52.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Lactante con dificultad respiratoria por bronquiolitis",
+      "clave": "Respira con esfuerzo, con retracciones y aleteo nasal",
+      "conducta": "Calcular Score de Tal y decidir manejo; oxígeno si saturación < 93%",
+      "fuente": "Manual CTO Pediatría 14.ª ed., p. 52",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.020",
+        "2.01.1.021"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-05/02_rx-bronquiolitis__cto-pediatria_p52.jpg",
+      "pregunta": "¿Qué muestra y se pide siempre?",
+      "diagnostico": "Radiografía con hiperinsuflación por bronquiolitis",
+      "clave": "Hiperinsuflación pulmonar",
+      "conducta": "No se pide de rutina; solo si hay duda o complicación",
+      "fuente": "Manual CTO Pediatría 14.ª ed., p. 52",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.020"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Tal 5 o menos: ¿conducta?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1",
+      "pista": "Tal sigue en 6-8 tras la primera hora: ¿qué agregas?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2",
+      "pista": "Tal 9 a 12: ¿conducta?"
+    }
+  ]
+}

@@ -1614,12 +1614,12 @@
           {
             "id": "A",
             "text": "Iniciar tratamiento profiláctico para la tuberculosis",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": "B",
             "text": "Iniciar tratamiento estándar para la tuberculosis",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": "C",
@@ -1637,7 +1637,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **Iniciar tratamiento profiláctico para la tuberculosis** (opción **A**). Baciloscopías de expectoración: examen de elección; pedir 3-4; sensibilidad 80%; muestra válida si > 50 neutrófilos/campo De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+        "explanation": "Un cultivo MGIT positivo con clínica y Rx compatibles es TBC activa, aunque la baciloscopía sea negativa y el PPD pequeño por inmunosupresión: se inicia tratamiento estándar, no profilaxis."
       },
       {
         "type": "question",
@@ -2591,7 +2591,7 @@
             "isCorrect": true
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **Azitromicina vía oral** (opción **E**). Azitromicina vía oral. Diarrea aguda (<2 semanas), prolongada (2-4 semanas), crónica (>=4 semanas); causas y manejo distintos De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+        "explanation": "Campylobacter se trata con azitromicina oral (macrólido) en disentería o cuadro grave, ciprofloxacino tiene resistencia alta."
       },
       {
         "type": "bento",
@@ -3561,17 +3561,17 @@
         "options": [
           {
             "id": "A",
-            "text": "Radiogra:a de columna lumbar",
+            "text": "Radiografia de columna lumbar",
             "isCorrect": false
           },
           {
             "id": "B",
-            "text": "Resonancia magné2ca nuclear lumbar",
+            "text": "Resonancia magnética nuclear lumbar",
             "isCorrect": true
           },
           {
             "id": "C",
-            "text": "Cin2gra:a ósea",
+            "text": "Cintigrafia ósea",
             "isCorrect": false
           },
           {
@@ -5563,17 +5563,17 @@
         "options": [
           {
             "id": "A",
-            "text": "Fasciolasis hepá2ca",
+            "text": "Fasciolasis hepática",
             "isCorrect": false
           },
           {
             "id": "B",
-            "text": "Neurosis2cercosis",
+            "text": "Neurosisticercosis",
             "isCorrect": false
           },
           {
             "id": "C",
-            "text": "Hida2dosis",
+            "text": "Hidatidosis",
             "isCorrect": false
           },
           {
@@ -6865,7 +6865,7 @@
           },
           {
             "id": "E",
-            "text": "Amigdali2s bacteriana",
+            "text": "Amigdalitis bacteriana",
             "isCorrect": false
           }
         ],
@@ -6874,39 +6874,39 @@
       {
         "type": "question",
         "nav": "Pregunta Real EUNACOM",
-        "badge": "EUNACOM Diciembre 2024 · Pregunta 169",
-        "notes": "[SLIDE 10] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2024 · Pregunta 169.",
+        "badge": "EUNACOM Julio 2016 · Pregunta 164",
+        "notes": "[SLIDE 10] Pregunta oficial del banco EUNACOM: EUNACOM Julio 2016 · Pregunta 164.",
         "number": 4,
-        "caseText": "Paciente 18 años con +7 días? faringe eritematosa, adenopatías, múltiples consultas por el cuadro, le dieron amoxicilina. Al examen físico persiste con adenopatías, tenía un exantema rosado??. Conducta: a.​ Solicitar Elisa VIH",
-        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "caseText": "Paciente de 17 años presenta un cuadro de fiebre, malestar general y odinofagia, de 7 días de evolución. Al examen, presenta lesiones blanquecinas en las amígdalas y congestión de la orofaringe, adenopatías cervicales y se palpa el bazo moderadamente aumentado de tamaño.",
+        "question": "¿Cuál es el agente causal más probable?",
         "options": [
           {
-            "id": "B",
-            "text": "IGM anti cápside epstein barr",
-            "isCorrect": true
-          },
-          {
-            "id": "B",
-            "text": "Hemograma y VHS",
-            "isCorrect": true
-          },
-          {
-            "id": "C",
-            "text": "Ecografía",
+            "id": "A",
+            "text": "Adenovirus",
             "isCorrect": false
           },
           {
+            "id": "B",
+            "text": "Virus influenza",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Virus de Ebstein Barr",
+            "isCorrect": true
+          },
+          {
             "id": "D",
-            "text": "Radiografía",
+            "text": "Citomegalovirus",
             "isCorrect": false
           },
           {
             "id": "E",
-            "text": "TAC con contraste",
+            "text": "Estreptococo A",
             "isCorrect": false
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **IGM anti cápside epstein barr** (opción **B**). 90% de las amigdalitis son virales → tratamiento sintomático. Solo las bacterianas requieren antibióticos. De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+        "explanation": "Es una mononucleosis clásica, causada por el VEB. La esplenomegalia hace que no sea una faringitis estreptocócica, sino una mononucleosis, con seguridad."
       },
       {
         "type": "bento",
@@ -7259,7 +7259,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **Aciclovir oral** (opción **C**). Es una varicela en mayor de 13 años. La aspirina está contraindicada.. La nefropatía diabética es la primera causa de enfermedad renal terminal en Chile De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+        "explanation": "Varicela en mayor de 13 años se trata con aciclovir oral, los antihistamínicos son solo sintomáticos y la aspirina está contraindicada."
       },
       {
         "type": "bento",
@@ -7606,7 +7606,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **Aciclovir oral** (opción **C**). Es una varicela en mayor de 13 años. La aspirina está contraindicada.. La nefropatía diabética es la primera causa de enfermedad renal terminal en Chile De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+        "explanation": "Varicela en mayor de 13 años se trata con aciclovir oral, los antihistamínicos son solo sintomáticos y la aspirina está contraindicada."
       },
       {
         "type": "bento",

@@ -1,0 +1,441 @@
+{
+ "classId": "oftal-10",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Desprendimiento regmatógeno: la retina se separa del {{c1::epitelio pigmentario}} por un desgarro que deja pasar vítreo líquido.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Mecanismo",
+   "repaso": true,
+   "imagen": "biblioteca/12_oftalmologia/oftal-10/54_desprendimiento-retina-desgarro__kanski_p698.jpg",
+   "codigos": [
+    "6.02.2.003"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El desprendimiento regmatógeno es más del {{c1::90%}} de los desprendimientos.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Frecuencia",
+   "repaso": true,
+   "codigos": [
+    "6.02.2.003"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El desgarro suele ocurrir por desprendimiento de {{c1::vítreo posterior}}, que tracciona la retina periférica adelgazada.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Vítreo",
+   "repaso": true,
+   "codigos": [
+    "6.02.2.003"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Principal factor de riesgo: {{c1::miopía magna}}; también cirugía de catarata previa, trauma y antecedentes familiares.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Riesgo",
+   "repaso": true,
+   "codigos": [
+    "6.02.2.003"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primero miodesopsias bruscas (moscas volantes) y luego {{c1::fotopsias}} (destellos en la periferia).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pródromos",
+   "repaso": true,
+   "codigos": [
+    "6.02.2.003",
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las fotopsias se deben a la tracción mecánica del vítreo sobre los {{c1::fotorreceptores}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Fotopsias",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.003",
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Después aparece una sombra o «{{c1::cortina}}» periférica fija que avanza hacia el centro en horas o días.",
+   "extra": "Miope de -7 con sombra que tapa la mitad superior del campo.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cortina",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.003",
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si se desprende la mácula (mácula «off») la agudeza central cae de forma {{c1::brusca e irreversible}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Mácula",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.003",
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El desprendimiento es {{c1::indoloro}} y de ojo blanco; si hay dolor u ojo rojo, sospechar otra causa.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Regla de oro",
+   "repaso": true,
+   "codigos": [
+    "6.02.2.003",
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fondo de ojo (oftalmoscopía indirecta dilatada): retina levantada, móvil, {{c1::grisácea}} y ondulante, con vasos oscuros y tortuosos.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fondo de ojo",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-10/01_dr-regmatogeno-fondo__cto-oftalmo_p65.jpg",
+   "codigos": [
+    "6.02.2.003"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Desprendimiento traccional: bandas fibrosas sin desgarro; típico de la retinopatía diabética {{c1::proliferativa}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Traccional",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.003"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Desprendimiento exudativo o seroso: líquido subretiniano sin tracción ni rotura (melanoma, Vogt-Koyanagi-Harada, {{c1::preeclampsia}}); no es quirúrgico.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Exudativo",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.003"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La {{c1::ecografía}} ocular permite ver el desprendimiento cuando el fondo de ojo no es visible.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Ecografía",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-10/02_ecografia-dr__cto-oftalmo_p66.jpg",
+   "codigos": [
+    "6.02.2.003"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En APS: reposo absoluto, régimen cero y derivación de {{c1::extrema urgencia}}; no se dan colirios.",
+   "extra": "Pérdida de agudeza en días con defecto pupilar aferente y fotopsias: desprendimiento de retina.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Conducta",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 71"
+   ],
+   "codigos": [
+    "6.02.2.003"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mácula aplicada («on»): emergencia quirúrgica máxima, en menos de {{c1::24 a 48 horas}}.",
+   "extra": "Miope de 52 años con agudeza 20/30 y cortina inferior.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Mácula on",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.003"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El desprendimiento de retina regmatógeno no traumático tiene garantía {{c1::GES N.º 22}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 GES",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.003"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cirugía del desprendimiento establecido: {{c1::vitrectomía pars plana}} (gas o silicón y endoláser) o cerclaje escleral.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Cirugía",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.003"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Desgarro retiniano sin desprendimiento: {{c1::fotocoagulación con láser de argón}} profiláctica alrededor del desgarro.",
+   "extra": "Mujer de 55 años con desgarro en herradura.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Láser",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-10/01_dr-regmatogeno-fondo_alt1__amir-oftalmo_p13.jpg",
+   "codigos": [
+    "6.02.1.003"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Peor pronóstico: mácula «off» con desprendimiento foveal de más de {{c1::una semana}}.",
+   "extra": "Con mácula «on», más del 90% conserva la agudeza preoperatoria.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Pronóstico",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.003"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Vitrectomía: posición boca abajo estricta por 1 a 2 semanas; láser: reposo relativo {{c1::48 horas}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Herramientas",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.003"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Oclusión de la arteria central: ceguera casi total en segundos y mancha {{c1::rojo cereza}} macular; estudiar fuente embólica y arteritis.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Arteria central",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Oclusión de la vena central: hemorragias en {{c1::cuatro cuadrantes}} y edema de papila.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Vena central",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hemorragia vítrea: «lluvia de puntos oscuros» o bruma roja, fondo no visible; sospechar retinopatía diabética {{c1::proliferativa}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Hemorragia vítrea",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neuritis óptica: dolor con la movilidad y discromatopsia; glaucoma agudo: dolor, ojo rojo y {{c1::halos}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Diferencial",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pérdida visual súbita unilateral: medir agudeza, pupilas y fondo de ojo, reposo con cabecera elevada y derivar el {{c1::mismo día}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Conducta común",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Líneas rectas onduladas y escotoma central de días en un fumador mayor: DMAE {{c1::neovascular}}; derivar para antiangiogénico.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · DMAE húmeda",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-10/54_desprendimiento-retina-desgarro__kanski_p698.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Desgarro y retina levantada",
+   "clave": "Desgarro retiniano con retina despegada",
+   "conducta": "Reposo, régimen cero y derivar de urgencia",
+   "fuente": "Kanski's Clinical Ophthalmology, 8.ª ed., p. 698",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 71"
+   ],
+   "codigos": [
+    "6.02.2.003"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-10/01_dr-regmatogeno-fondo__cto-oftalmo_p65.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Fondo de ojo en desprendimiento",
+   "clave": "Retina pálida y levantada con vasos oscuros",
+   "conducta": "Vitrectomía o cerclaje; GES 22",
+   "fuente": "Manual CTO Oftalmología 14.ª ed., p. 65",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.003"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-10/01_dr-regmatogeno-fondo_alt1__amir-oftalmo_p13.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Desgarro en herradura",
+   "clave": "Desgarro periférico sin líquido subretiniano",
+   "conducta": "Fotocoagulación láser profiláctica",
+   "fuente": "Manual AMIR Oftalmología, p. 13",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.003"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Miodesopsias y fotopsias bruscas: ¿qué se busca en el fondo de ojo?",
+   "codigos": [
+    "6.02.2.003",
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Retina levantada: ¿conducta?",
+   "codigos": [
+    "6.02.2.003",
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.0.0",
+   "pista": "Mácula «on»: ¿en qué plazo se opera?",
+   "codigos": [
+    "6.02.2.003",
+    "6.02.2.004"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1",
+   "pista": "Solo desgarro, retina aplicada: ¿tratamiento?",
+   "codigos": [
+    "6.02.2.003",
+    "6.02.2.004"
+   ]
+  }
+ ]
+}

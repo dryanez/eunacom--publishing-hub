@@ -1,0 +1,495 @@
+{
+  "classId": "endo-25",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La ginecomastia es la proliferación benigna del {{c1::tejido glandular}} mamario en el varón.",
+      "extra": "Es el motivo de consulta mamario más frecuente en el varón.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definición",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Ginecomastia: disco retroareolar firme, concéntrico al pezón, de {{c1::2 cm o más}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Estrógenos estimulan, andrógenos frenan",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fisiopatología: desbalance entre {{c1::estrógenos (estimulan) y andrógenos (inhiben)}} a favor del estrógeno.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Estrógenos estimulan, andrógenos frenan",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::seudoginecomastia (lipomastia)}} es solo grasa, propia del obeso, y no tiene disco retroareolar.",
+      "extra": "Se distingue con la maniobra en pinza hacia el pezón.",
+      "origen": "clase:2",
+      "fuente": "Clase · Glándula, grasa o cáncer",
+      "repaso": true,
+      "imagen": "biblioteca/05_endocrinologia/endo-25/01_ginecomastia__talley_p503.jpg",
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cáncer de mama masculino: masa unilateral, dura, indolora, {{c1::excéntrica}} o fija, con retracción o secreción sanguinolenta.",
+      "extra": "Se estudia con mamografía o ecografía y biopsia, de forma urgente.",
+      "origen": "clase:2",
+      "fuente": "Clase · Glándula, grasa o cáncer",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cáncer de mama masculino es más frecuente en mayores de 60 años, en Klinefelter y portadores de {{c1::BRCA2}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Diagnóstico diferencial",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La ginecomastia fisiológica tiene distribución {{c1::trimodal}}: neonatal, puberal y del adulto mayor.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tres picos normales",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La ginecomastia neonatal ocurre en el {{c1::60-90%}} de los recién nacidos, por estrógenos maternos.",
+      "extra": "Regresa en semanas.",
+      "origen": "clase:3",
+      "fuente": "Clase · Tres picos normales",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el recién nacido con mamas aumentadas se tranquiliza y no se exprime la mama; el error es pedir {{c1::hormonas o ecografía}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La ginecomastia puberal aparece en Tanner {{c1::2 a 4}}, es bilateral o unilateral y sensible.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tres picos normales",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 45"
+      ],
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La ginecomastia puberal regresa sola en más del {{c1::90%}}, en 6 meses a 2 años.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tres picos normales",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Púber Tanner 2-4 con testículos normales y sin fármacos: {{c1::tranquilizar y control a los 6 meses}}, sin exámenes.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 45"
+      ],
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el púber con examen normal, el error es pedir {{c1::exámenes o biopsia}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Púber que requiere estudio y derivación: persiste más de {{c1::2 años}}, mide más de 5 cm o tiene testículos anormales.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de ginecomastia",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El adulto mayor tiene ginecomastia por menos testosterona y más {{c1::aromatización}} en el tejido graso.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tres picos normales",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los fármacos y drogas explican el {{c1::10-25%}} de las ginecomastias.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · El fármaco",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El fármaco causante más típico de ginecomastia es la {{c1::espironolactona}}, que bloquea el receptor androgénico.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · El fármaco",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Otros causantes: ketoconazol, cimetidina, antiandrógenos, análogos de GnRH, {{c1::finasterida y dutasterida}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · El fármaco",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antipsicóticos y metoclopramida causan ginecomastia por {{c1::hiperprolactinemia}}.",
+      "extra": "También anabolizantes, alcohol, marihuana y opioides.",
+      "origen": "clase:4",
+      "fuente": "Clase · El fármaco",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En ginecomastia por espironolactona, se cambia por {{c1::eplerenona}}.",
+      "extra": "Conserva el beneficio en insuficiencia cardíaca y casi no produce ginecomastia.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con espironolactona, el error es hacer biopsia o suspender sin reemplazo; se cambia a {{c1::eplerenona}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La regresión de la ginecomastia es más probable si se actúa antes de {{c1::12 meses}}; después el tejido se fibrosa.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · El fármaco",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Enfermedades que causan ginecomastia: cirrosis, ERC en diálisis, {{c1::hipertiroidismo}} e hipogonadismo (Klinefelter).",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Enfermedades y tumores",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tumores testiculares de Leydig o Sertoli producen {{c1::estrógenos}}; los germinales y la hCG ectópica producen hCG.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Enfermedades y tumores",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la ginecomastia el examen {{c1::testicular}} es obligatorio (tamaño, consistencia y masas).",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Anamnesis y examen",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se estudia la ginecomastia de crecimiento rápido o disco mayor de {{c1::5 cm}}, a cualquier edad.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Estudio",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El estudio de ginecomastia patológica incluye perfil hepático, creatinina, TSH, testosterona, LH, FSH, estradiol y {{c1::β-hCG}}.",
+      "extra": "Prolactina si hay galactorrea o sospecha de hipogonadismo secundario.",
+      "origen": "clase:7",
+      "fuente": "Clase · Estudio",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "β-hCG elevada: tumor germinal; se pide {{c1::ecografía testicular}} y, si es normal, TC de tórax y abdomen.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Interpretación",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estradiol alto con LH normal o baja: ecografía testicular (tumor de Leydig) y {{c1::TC suprarrenal}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Interpretación",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Testosterona baja con LH alta es hipogonadismo {{c1::primario}}; con LH baja, secundario.",
+      "extra": "Cariotipo si sospechas Klinefelter.",
+      "origen": "clase:8",
+      "fuente": "Clase · Interpretación",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante masa testicular o crecimiento rápido, se piden β-hCG, AFP y ecografía testicular; el error es dar {{c1::tamoxifeno}} y controlar.",
+      "extra": "Derivación urgente a urología/oncología.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El tamoxifeno en ginecomastia es solo por especialista: {{c1::10-20 mg/día}} por 3 meses.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tratamiento y derivación",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Se deriva a cirugía la ginecomastia fibrosa de más de {{c1::1-2 años}} o con impacto psicológico importante.",
+      "extra": "Mastectomía subcutánea.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tratamiento y derivación",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La ginecomastia {{c1::no tiene GES}} específico; la sospecha de cáncer de mama o tumor testicular tiene derivación oncológica prioritaria.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Perfil / GES",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/05_endocrinologia/endo-25/01_ginecomastia__talley_p503.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Ginecomastia bilateral",
+      "clave": "Disco glandular retroareolar de 2 cm o más, concéntrico al pezón",
+      "conducta": "Examen testicular y fármacos; púber sano: tranquilizar y control a los 6 meses",
+      "fuente": "Talley & O'Connor, Clinical Examination, Fig. 29.14",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.023"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.1",
+      "pista": "Masa dura o masa testicular: ¿qué haces y con qué urgencia?",
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.2.1",
+      "pista": "Ginecomastia con fármaco causante: ¿qué conducta?",
+      "codigos": [
+        "1.03.1.023"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.2.2",
+      "pista": "Adulto sin causa, crecimiento rápido o > 5 cm: ¿qué conducta?",
+      "codigos": [
+        "1.03.1.023"
+      ]
+    }
+  ]
+}

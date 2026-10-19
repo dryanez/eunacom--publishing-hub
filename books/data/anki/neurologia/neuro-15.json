@@ -1,0 +1,454 @@
+{
+  "classId": "neuro-15",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La demencia vascular es la segunda causa de demencia en el adulto: {{c1::15–20 %}} de los casos.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Demencia vascular",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La demencia vascular cursa con deterioro {{c1::en escalones}} (stepwise): caída aguda tras cada evento y luego meseta.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Cada infarto, un escalón",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 35"
+      ],
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la demencia vascular predomina la disfunción {{c1::ejecutiva}} y el enlentecimiento, más que la falla de memoria.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Cada infarto, un escalón",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signos de la demencia vascular al examen: {{c1::focalidad}} (paresia, Babinski, marcha de pasos cortos).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Cada infarto, un escalón",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La enfermedad de Binswanger es la enfermedad isquémica de {{c1::pequeño vaso subcortical}} por HTA y diabetes.",
+      "extra": "Imagen: leucoaraiosis periventricular.",
+      "origen": "clase:1",
+      "fuente": "Clase · Cada infarto, un escalón",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Escala de Hachinski: ≥ {{c1::7}} puntos orienta a demencia vascular; ≤ {{c2::4}} a demencia degenerativa tipo Alzheimer.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Demencia vascular",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Prevención secundaria en demencia vascular: control agresivo de riesgo vascular y {{c1::aspirina 100 mg/día}}.",
+      "extra": "Anticoagular si hay fibrilación auricular.",
+      "origen": "clase:2",
+      "fuente": "Clase · Demencia vascular",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La demencia por cuerpos de Lewy es la segunda demencia degenerativa: {{c1::10–15 %}} de los casos.",
+      "extra": "Es una alfa-sinucleinopatía.",
+      "origen": "clase:3",
+      "fuente": "Clase · Criterios de McKeith",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "McKeith: para demencia por cuerpos de Lewy probable se requieren {{c1::2 o más}} criterios nucleares.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Criterios de McKeith",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterio nuclear de Lewy: fluctuaciones cognitivas, parkinsonismo espontáneo, trastorno conductual del sueño REM y alucinaciones {{c1::visuales}} tempranas.",
+      "extra": "Vívidas, detalladas y no amenazantes.",
+      "origen": "clase:3",
+      "fuente": "Clase · Criterios de McKeith",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 129"
+      ],
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En Lewy el parkinsonismo es rigidez y bradicinesia con {{c1::poco temblor}} de reposo.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Criterios de McKeith",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Regla del año: demencia antes o dentro del {{c1::primer año}} del parkinsonismo es cuerpos de Lewy.",
+      "extra": "Si el parkinsonismo precede la demencia por más de 1 año: Parkinson con demencia.",
+      "origen": "clase:4",
+      "fuente": "Clase · Regla del año",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En cuerpos de Lewy están contraindicados los antipsicóticos típicos como el {{c1::haloperidol}}.",
+      "extra": "Hipersensibilidad grave: rigidez, mutismo, hipotensión.",
+      "origen": "clase:5",
+      "fuente": "Clase · Lewy + haloperidol",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con antipsicóticos típicos en Lewy reacciona hasta el {{c1::50 %}} y la mortalidad aumenta de 2 a 3 veces.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Lewy + haloperidol",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Para alucinaciones angustiantes en Lewy, primera elección: {{c1::donepezilo}}.",
+      "extra": "Mejora fluctuaciones y alucinaciones.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si el donepezilo no basta en Lewy, en casos extremos se usa quetiapina {{c1::12,5 mg}} (o pimavanserina).",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Lewy + haloperidol",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La demencia frontotemporal es la primera causa de demencia {{c1::presenil}} (bajo 65 años).",
+      "extra": "Debut entre 45 y 65 años.",
+      "origen": "clase:6",
+      "fuente": "Clase · Frontotemporal",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 85"
+      ],
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la demencia frontotemporal, un {{c1::tercio}} de los casos es familiar autosómico dominante.",
+      "extra": "Tau o TDP-43.",
+      "origen": "clase:6",
+      "fuente": "Clase · Frontotemporal",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La variante conductual de la frontotemporal representa el {{c1::70 %}} de los casos.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Frontotemporal",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Frontotemporal conductual: desinhibición, apatía, pérdida de empatía e {{c1::hiperoralidad}} con memoria conservada.",
+      "extra": "Atracones de dulces, rituales.",
+      "origen": "clase:6",
+      "fuente": "Clase · Frontotemporal",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El contraste clave de la frontotemporal con el Alzheimer es que la {{c1::memoria y la orientación}} están conservadas.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Frontotemporal",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La frontotemporal tiene imagen de atrofia lobar asimétrica en {{c1::filo de cuchillo}}.",
+      "extra": "Frontal y temporal anterior.",
+      "origen": "clase:6",
+      "fuente": "Clase · Frontotemporal",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En frontotemporal NO se usan {{c1::inhibidores de acetilcolinesterasa}}: empeoran agitación y desinhibición.",
+      "extra": "Se usan sertralina o trazodona.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tres perfiles",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Para modular la conducta en frontotemporal se usan ISRS como {{c1::sertralina}} o trazodona.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anciano con ACV previo, labilidad emocional y desinhibición con pérdida de funcionalidad: demencia {{c1::vascular}}.",
+      "extra": "A los 82 años la desinhibición no es frontotemporal, que es presenil.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz EUNACOM Jul 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 35"
+      ],
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Alucinaciones visuales, rigidez, hipocinesia y deterioro de 1 año: demencia por {{c1::cuerpos de Lewy}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz EUNACOM Ene 2023",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 129"
+      ],
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "Las demencias no Alzheimer tienen cobertura en la Garantía GES N° {{c1::85}}.",
+      "extra": "Abordaje multidisciplinario y manejo de síntomas conductuales.",
+      "origen": "libro:sec:4",
+      "fuente": "GES N° 85",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-15/01_rm_demencia_frontotemporal__harrison_p3420.jpg",
+      "pregunta": "¿Qué muestra y qué sospechas?",
+      "diagnostico": "Demencia frontotemporal",
+      "clave": "Atrofia focal asimétrica de lóbulos frontales y temporales anteriores (filo de cuchillo)",
+      "conducta": "Evitar IAChE; ISRS (sertralina, trazodona) para la conducta",
+      "fuente": "Harrison 21.ª ed., p. 3420",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_verificadas/152_neuro_Parkinsonismo_vascular_demenci__HarrisonsP_p234_1.jpg",
+      "pregunta": "¿Qué muestra y qué manejo sigue?",
+      "diagnostico": "Leucoaraiosis (enfermedad de Binswanger)",
+      "clave": "Sustancia blanca periventricular dañada por pequeño vaso",
+      "conducta": "Control agresivo de riesgo vascular y aspirina 100 mg/día",
+      "fuente": "Harrison 21.ª ed., p. 234",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "Alucinaciones + parkinsonismo ≤ 1 año: ¿qué es y qué fármaco?",
+      "codigos": [
+        "1.10.1.005"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "ACV + deterioro en escalones: ¿qué conducta?",
+      "codigos": [
+        "1.10.1.005"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2",
+      "pista": "Conducta alterada bajo 65 años: ¿qué evitar?",
+      "codigos": [
+        "1.10.1.005"
+      ]
+    }
+  ]
+}

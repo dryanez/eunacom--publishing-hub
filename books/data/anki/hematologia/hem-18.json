@@ -1,0 +1,507 @@
+{
+  "classId": "hem-18",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El linfoma debuta con adenopatía {{c1::indolora}}, gomosa o pétrea, > 2 cm y por más de 4–6 semanas, sin foco infeccioso.",
+      "extra": "Más del 80 % debuta así.",
+      "origen": "clase:1",
+      "fuente": "Clase · La adenopatía que no es infección",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.011"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 106",
+        "EUNACOM Julio 2024 · Pregunta 107"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El ganglio supraclavicular izquierdo ({{c1::Virchow}}) es neoplásico hasta demostrar lo contrario.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · La adenopatía que no es infección",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.011"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El diagnóstico de linfoma exige {{c1::biopsia escisional}} del ganglio completo; la PAAF no sirve.",
+      "extra": "La PAAF solo da células sueltas, sin arquitectura.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.08.5.002"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 102",
+        "EUNACOM Julio 2024 · Pregunta 37"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si el ganglio es inaccesible, se usa biopsia con aguja gruesa ({{c1::trucut}}) guiada por imágenes.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · El ganglio entero",
+      "repaso": false,
+      "codigos": [
+        "1.08.5.002"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Adulto joven con adenopatía supraclavicular y síntomas B: el error es la {{c1::PAAF}}; se deriva para biopsia escisional.",
+      "extra": "También se descarta tratar sin confirmación histológica.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": true,
+      "codigos": [
+        "1.08.5.002"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los síntomas B son fiebre > {{c1::38 °C}}, sudoración nocturna y pérdida de peso > {{c2::10 %}} en 6 meses.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.011"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El prurito y el dolor ganglionar con alcohol {{c1::no}} son síntomas B, aunque orientan a Hodgkin.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.011"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La fiebre de {{c1::Pel-Ebstein}} alterna días febriles con períodos afebriles y es propia del Hodgkin.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Síntomas B",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.011",
+        "2.01.1.033"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En Ann Arbor, el sufijo {{c1::B}} indica síntomas B y confiere peor pronóstico.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Síntomas B",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.011"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Hodgkin tiene distribución {{c1::bimodal}}: 15 a 35 años y sobre 60.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hodgkin",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.011"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 4"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La célula de {{c1::Reed-Sternberg}} es gigante, binucleada, en \"ojos de búho\".",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hodgkin",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.011"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Reed-Sternberg: CD{{c1::30}} positivo, CD{{c2::15}} positivo, CD45 negativo.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hodgkin",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.011"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el Hodgkin las células malignas son solo el {{c1::1–2 %}}; el resto es infiltrado inflamatorio.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hodgkin",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.011"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Esclerosis nodular: el {{c1::70 %}} de los Hodgkin; mujer joven con masa en {{c2::mediastino anterior}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Subtipos",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.011"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 4"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Celularidad mixta: {{c1::20 %}} de los Hodgkin; varones mayores, VIH y virus de {{c2::Epstein-Barr}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Subtipos",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.011"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El subtipo de Hodgkin de mal pronóstico es la {{c1::depleción linfocítica}} (< 5 %, ancianos).",
+      "extra": "El predominio linfocítico (5 %) tiene excelente pronóstico.",
+      "origen": "clase:5",
+      "fuente": "Clase · Subtipos",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.011"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Hodgkin se disemina por {{c1::contigüidad}}; el no Hodgkin, por vía {{c2::hematógena}} precoz.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.011"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El compromiso extraganglionar inicial es raro en Hodgkin (< {{c1::5–10 %}}) y frecuente en no Hodgkin (> {{c2::30–40 %}}).",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.011"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El LDCBG es el {{c1::35 %}} de los no Hodgkin; es agresivo pero curable en más del {{c2::60 %}} con R-CHOP.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · No Hodgkin",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.011"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El linfoma folicular (20 %) tiene la translocación {{c1::t(14;18)}} que activa {{c2::BCL-2}}.",
+      "extra": "Es indolente e incurable.",
+      "origen": "clase:6",
+      "fuente": "Clase · No Hodgkin",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.011"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Linfoma folicular asintomático: el error es dar quimioterapia de entrada; se {{c1::observa}}.",
+      "extra": "Control semestral por riesgo de transformación.",
+      "origen": "clase:15",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.011"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El linfoma gástrico MALT temprano se trata {{c1::erradicando Helicobacter pylori}}.",
+      "extra": "Sin quimioterapia ni gastrectomía.",
+      "origen": "clase:7",
+      "fuente": "Clase · MALT",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.011"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ann Arbor: estadio {{c1::III}} = ganglios a ambos lados del diafragma; estadio {{c2::IV}} = órganos extralinfáticos no contiguos.",
+      "extra": "Ganglios arriba y abajo no es estadio IV.",
+      "origen": "clase:10",
+      "fuente": "Clase · Ann Arbor",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.011"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ann Arbor: estadio I = una región ganglionar; estadio II = {{c1::dos o más regiones del mismo lado}} del diafragma.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Ann Arbor",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.011"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En Ann Arbor, X indica masa {{c1::bulky}} (> 10 cm) y E, compromiso extraganglionar contiguo.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Ann Arbor",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.011"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Esquema del Hodgkin (GES 38): {{c1::ABVD}} (doxorrubicina, bleomicina, vinblastina, dacarbazina).",
+      "extra": "Cura más del 85 %.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 GES",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.011",
+        "2.01.1.033"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Toxicidad del ABVD: bleomicina daña el {{c1::pulmón}}; doxorrubicina, el {{c2::corazón}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Esquemas garantizados",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.011"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Esquema del no Hodgkin agresivo B: {{c1::R-CHOP}}; la vincristina causa neuropatía y el rituximab reactiva {{c2::hepatitis B}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Esquemas garantizados",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.011"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "Los linfomas en ≥ 15 años están cubiertos por el {{c1::GES N° 38}}; en menores de 15, por el GES N° 8.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 GES",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.011",
+        "2.01.1.033"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La radiografía de tórax es el primer examen de etapificación; se busca {{c1::ensanchamiento mediastínico}}.",
+      "extra": "Una masa bulky es mayor a un tercio del tórax o 10 cm.",
+      "origen": "clase:11",
+      "fuente": "Clase · Radiografía de tórax",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.001"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 140"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Masa mediastínica con disnea o síndrome de vena cava superior: {{c1::no sedar ni acostar}} sin evaluar la vía aérea.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Radiografía de tórax",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.001"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 140"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La micosis fungoide es un linfoma {{c1::T cutáneo}} que se confunde con eccema, psoriasis o tiña.",
+      "extra": "Se biopsia la piel antes de usar corticoides potentes.",
+      "origen": "clase:8",
+      "fuente": "Clase · Linfomas cutáneos",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.014"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Eritrodermia pruriginosa, adenopatías y células de Sézary: {{c1::síndrome de Sézary}}.",
+      "extra": "",
+      "origen": "clase:23",
+      "fuente": "Clase · Quiz Diciembre 2024",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.014"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 113"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-18/01_celula-de-reed-sternberg__cto-hemato_p69.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Célula de Reed-Sternberg (linfoma de Hodgkin)",
+      "clave": "Célula gigante con dos núcleos en espejo y nucléolos prominentes",
+      "conducta": "Biopsia escisional del ganglio; etapificar con Ann Arbor y tratar con ABVD (GES 38)",
+      "fuente": "Manual CTO Hematología 14.ª ed., p. 69",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.011"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-18/02_ensanchamiento-mediastinico-hodgkin__cto-hemato_p71.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Ensanchamiento mediastínico por masa anterior",
+      "clave": "Mediastino ensanchado en la radiografía de tórax",
+      "conducta": "Biopsia ganglionar; si hay disnea, evaluar vía aérea antes de sedar o acostar",
+      "fuente": "Manual CTO Hematología 14.ª ed., p. 71",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.001"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Con Reed-Sternberg: ¿qué linfoma y qué tratamiento?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1",
+      "pista": "Linfoma folicular asintomático: ¿qué conducta?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.2",
+      "pista": "MALT gástrico temprano: ¿qué tratamiento?"
+    }
+  ]
+}

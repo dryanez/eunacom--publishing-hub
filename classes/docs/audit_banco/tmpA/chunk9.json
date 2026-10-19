@@ -1,0 +1,796 @@
+[
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 132",
+  "year": 2024,
+  "codes": [
+   "1.05.1.027 [resp-08: Neumonías adquiridas en la comunidad (tipo 4 de la Sociedad Chilena de Enf. Respiratorias)]"
+  ],
+  "stem": "IMAGEN: Paciente 66 años con neumonía (clínica e imágen de neumonía monolobar) saturando 94% ¿Cual es el tratamiento?:",
+  "options": "A) Ceftriaxona b.​ Amoxicilina con Ac. clavulánico | B) Derrame pleural | C) Neumotórax | D) Neumonía | E) Atelectasia",
+  "correcta": "A",
+  "explicacion": "Conducta / Tratamiento indicado: **Ceftriaxona b.​ Amoxicilina con Ac. clavulánico** (opción **A**). Según los consensos y guías clínicas del MINSAL, esta constituye la conducta estándar de primera línea recomendada para este nivel de atención.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2018 · Pregunta 100",
+  "year": 2018,
+  "codes": [
+   "1.05.1.027 [resp-08: Neumonías adquiridas en la comunidad (tipo 4 de la Sociedad Chilena de Enf. Respiratorias)]"
+  ],
+  "stem": "Una mujer de 63 años, hipertensa, en tratamiento con enalapril y amlodipino, consulta por tos, con expectoración mucopurulenta, de 3 días de evolución. Además, presenta fiebre, malestar general y dolor torácico con la inspiración máxima. Al examen físico, se constata T°: 38 °C, PA: 120/80 mmHg, FC: 80 lpm, FR: 15 rpm, saturación de oxígeno: 97% y en el examen cardiopulmonar destacan crepitaciones localizados en el lado derecho. Se solicita una radiografía de tórax, que se muestra a continuación: Foto 12 (http://elesfenoides.blogspot.com/2014/07/XXXXXXXXXX-imagenes-1.html) ¿Cuál es el tratamiento más adecuado?",
+  "options": "A) Amoxicilina con ácido clavulánico | B) Ceftriaxona | C) Levofloxacino | D) Clindamicina | E) Azitromicina",
+  "correcta": "A",
+  "explicacion": "Tiene una neumonía del lóbulo superior derecho. En estricto rigor, se puede tratar con amoxicilina, ya que no tiene indicación de ácido clavulánico. Pero de las opciones, la mejor era la A.",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 107",
+  "year": 2013,
+  "codes": [
+   "1.05.1.027 [resp-08: Neumonías adquiridas en la comunidad (tipo 4 de la Sociedad Chilena de Enf. Respiratorias)]"
+  ],
+  "stem": "Paciente de 23 años, sin antecedentes, con cuadro de 2 semanas de rinorrea y coriza, que durante los últimos dos días se asocia a compromiso del estado general, sensación febril, tos con expectoración mucopurulenta y disnea. Al examen físico presenta signos vitales dentro de rangos normales, murmullo pulmonar presente en ambos campos pulmonares asociado a crepitaciones en base derecha. Se solicita una radiografía de tórax que muestra infiltrado intersticial en base derecha. El tratamiento de elección de esta patología es:",
+  "options": "A) Claritromicina | B) Amoxicilina-ácido clavulánico | C) Clindamicina | D) Ceftriaxona | E) Moxifloxacino",
+  "correcta": "A",
+  "explicacion": "Por llevar dos semanas, sospechar mycoplasma. También por el compromiso intersticial. El moxifloxacino sí lo cubre, pero su espectro es muy amplio: cubre también anaerobios. Levofloxacino sí habría sido una respuesta correcta. Todos los macrólidos lo cubren bien y son de elección en los niños, que no pueden usar quinolonas y también en los adulto, en particular la azitromicina, que se toma por menos tiempo.",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2025 · Pregunta 138",
+  "year": 2025,
+  "codes": [
+   "1.05.1.027 [resp-08: Neumonías adquiridas en la comunidad (tipo 4 de la Sociedad Chilena de Enf. Respiratorias)]"
+  ],
+  "stem": "Hombre de 75 años con neumonía adquirida en la comunidad. Sin hospitalización reciente ni antibióticos en los últimos 3 meses. Sin alergias. ¿Cuál es el antibiótico de primera línea más adecuado?",
+  "options": "A) Amoxicilina-clavulánico oral | B) Ciprofloxacino oral | C) Clindamicina oral | D) Cefalexina oral | E) Azitromicina oral",
+  "correcta": "A",
+  "explicacion": "NAC en adulto mayor: mayor riesgo de flora gram negativa, anaerobios y bacterias atípicas. Amoxicilina-clavulánico oral (875/125 mg c/12h) ofrece cobertura ampliada vs amoxicilina sola. En adulto mayor se prefiere sobre amoxicilina sola o macrólidos en monoterapia.",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 153",
+  "year": 2021,
+  "codes": [
+   "1.05.1.027 [resp-08: Neumonías adquiridas en la comunidad (tipo 4 de la Sociedad Chilena de Enf. Respiratorias)]"
+  ],
+  "stem": "Un adolescente de 17 años presenta un cuadro de 5 días de evolución de tos con expectoración mucosa, al que se le ha agregado fiebre hasta 37,6ºC. Al examen físico está en buenas condiciones, con FR: 15x’, saturación oxígeno: 95% y examen pulmonar con murmullo pulmonar presente, auscultándose crepitaciones y sibilancias bilaterales. ¿Cuál es el agente etiológico más probable?",
+  "options": "A) Streptococcus pneumoniae | B) Mycoplasma pneumoniae | C) Chlamydia trachomatis | D) Virus influenza | E) Pneumocystis jiroveci",
+  "correcta": "B",
+  "explicacion": "Que tenga afectación bilateral con crépitos y sibilancias sugiere una neumonía atípica, por Mycoplasma penumoniae, aunque lleve solo 5 días de síntomas (suelen ser cuadros más arrastrados que inician con síntomas respiratorios altos).",
+  "conf": 0.72,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 139",
+  "year": 2016,
+  "codes": [
+   "1.05.1.027 [resp-08: Neumonías adquiridas en la comunidad (tipo 4 de la Sociedad Chilena de Enf. Respiratorias)]"
+  ],
+  "stem": "Un paciente de 60 años presenta un cuadro de malestar general, fiebre y tos, asociada a expectoración mucopurulenta. Evoluciona con dificultad respiratoria, por lo que es llevado al servicio de urgencia. Al examen físico tiene FC: 113x', PA: 100/60 mmHg, FR: 33x' y al examen pulmonar presenta crepitaciones inspiratorias, en el hemicampo pulmonar derecho. La radiografía de tórax muestra condensación en los lóbulos medio e inferior derecho y satura 83%, con FiO2 ambiental, que sube a 90%, con oxígeno al 40%, por mascarilla de recirculación. ¿Cuál es el tratamiento antibiótico de elección para este paciente?",
+  "options": "A) Cefepime más amykacina | B) Ceftriaxona más clindamicina | C) Cloxacilina más metronidazol | D) Cefotaximo más moxifloxacino | E) Piperacilina más tazobactam",
+  "correcta": "D",
+  "explicacion": "Es una neumonía grave, que requiere tratamiento en UCI y ventilación mecánica (insuficiencia respiratoria grave). De los tratamientos, lo más adecuado es cefotaximo o ceftriaxona, más un mácrólido o una quinolona respiratoria.",
+  "conf": 0.72,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 105",
+  "year": 2019,
+  "codes": [
+   "1.05.1.027 [resp-08: Neumonías adquiridas en la comunidad (tipo 4 de la Sociedad Chilena de Enf. Respiratorias)]"
+  ],
+  "stem": "Un paciente con antecedente de enfermedad pulmonar obstructiva crónica presenta un cuadro de 3 días de evolución, de fiebre hasta 38,9°C, asociada a malestar general, tos, expectoración mucopurulenta y aumento de la disnea. Al examen físico se observa con apremio respiratorio de reposo y se auscultan sibilancias difusas, más crepitaciones en la zona posterior del lóbulo inferior derecho. Se solicita una radiografía de tórax, que se muestra a continuación. ¿Qué antibiótico es el más adecuado para el tratamiento de este paciente?",
+  "options": "A) Amoxicilina | B) Claritromicina | C) Clindamicina | D) Cefotaximo | E) Azitromicina",
+  "correcta": "D",
+  "explicacion": "Tiene una neumonía, en contexto de EPOC. En el cuadro clínico no queda del todo claro que requiera hospitalizarse, como para recibir cefotaximo o ceftriaxona (misma cobertura) o si solo requiere tratamiento ambulatorio (con amoxicilina clavulánico, dado que el antecedente de EPOC obliga a cubrir Haemophilus influenzae, lo que también se podría lograr con macrólidos). El apremio respiratorio hace que probablemente la respuesta correcta sea cefotaximo. Además, la B y E son equivalentes, por lo que podemos asumir que no eran la respuesta esperada por quien redactó la pregunta.",
+  "conf": 0.65,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 92",
+  "year": 2021,
+  "codes": [
+   "1.05.1.027 [resp-08: Neumonías adquiridas en la comunidad (tipo 4 de la Sociedad Chilena de Enf. Respiratorias)]"
+  ],
+  "stem": "Un paciente de 76 años, con antecedente de hipertensión arterial, diabetes y dislipidemia, en tratamiento con enalapril, hidroclorotiazida, aspirina, metformina y atorvastatina, fumador de 10 paquetes año, consulta por un cuadro de tos, expectoración y disnea, de 2 días de evolución, por lo que consulta al servicio de urgencia. Al examen físico presenta FR: 25x’, PA: 150/100 mmHg, FC: 90x’, saturación oxígeno: 86%. Su examen pulmonar muestra murmullo pulmonar simétrico, con crepitaciones intensas bilaterales, mayores en las bases y algunas sibilancias. Se solicita radiografía de tórax, que se muestra a continuación (fuente: radiopaedia): El diagnóstico más probable es:",
+  "options": "A) Neumonía bilateral | B) Insuficiencia cardíaca descompensada | C) Bronquiectasias | D) Enfermedad pulmonar obstructiva crónica | E) Fibrosis pulmonar",
+  "correcta": "A",
+  "explicacion": "Si bien la radiografía puede ser de fibrosis, el cuadro agudo, la edad y las comorbilidades hacen muy probable que se trate de una",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 153",
+  "year": 2017,
+  "codes": [
+   "1.05.1.027 [resp-08: Neumonías adquiridas en la comunidad (tipo 4 de la Sociedad Chilena de Enf. Respiratorias)]"
+  ],
+  "stem": "Un adulto de 65 años, con antecedente de EPOC, consulta por aumento de su dis- nea basal asociado a expectoración mucopurulenta y fiebre hasta 38,3°C. Al examen fí- sico presenta frecuencia cardiaca de 95 por minuto, presión arterial 120/80mmHG, sa- tura 91%, frecuencia respiratoria de 27 por minuto. A la auscultación pulmonar presen- ta crépitos en base izquierda y se solicita radiografía que se muestra a continuación: INSERTAR FOTO El tratamiento de elección es:",
+  "options": "A) Cefuroximo oral | B) Penicilina endovenosa | C) Azitromicina oral | D) Amoxicilina oral | E) Ceftriaxona endovenosa",
+  "correcta": "A",
+  "explicacion": "A, C, E? Falta información sobre el estado general del paciente. Además no se sabe la saturación basal del paciente.Una saturación de 91%, por regla general requiere hos- pitalización y por tanto ceftriaxona (yo marque E), pero si basalmente desatura, por ser EPOC, podría bastar el tratamiento oral.",
+  "conf": 0.5,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 139",
+  "year": 2015,
+  "codes": [
+   "1.05.1.027 [resp-08: Neumonías adquiridas en la comunidad (tipo 4 de la Sociedad Chilena de Enf. Respiratorias)]"
+  ],
+  "stem": "Un paciente de 70 años, diagnosticado de EPOC, presenta un cuadro de mayor dificultad respiratoria, asociada a aumento de su expectoración, la que se vuelve mucopurulenta. Además presenta fiebre y disnea de reposo. Al examen físico se aprecia respiratoriamente apremiado, con PA: 120/80, FC: 95x’. Se solicita radiografía que se muestra a continuación: ¿Qué antibiótico debe recibir?",
+  "options": "A) Claritromicina | B) Amoxicilina | C) Cefotaximo | D) Amoxicilina más ácido clavulánico | E) Clindamicina",
+  "correcta": "C",
+  "explicacion": "Era un EPOC descompensado con una neumonía bilateral: se debe manejar hopitalizado, por lo que el ATB de elección es la ceftriaxona (no aparecía en las alternativas, por lo que cefotaximo es la opción más adecuada: tiene el mismo espectro de acción). Sin embargo la Rx original no condensaba claramente y tenía un patrón alveolointersticial (discutible si sospechar mycoplasma, que se trata con macrólidos o levofloxacino, porque la clínica no era arrastrada ni atípica)",
+  "conf": 0.45,
+  "alertas": [
+   "explicacion_de_otro_tema",
+   "explicacion_admite_duda",
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 38",
+  "year": 2019,
+  "codes": [
+   "1.05.1.029 [infecto-10: Neumonías en inmunosuprimidos]"
+  ],
+  "stem": "Un paciente de 34 años, consulta por cuadro de 5 semanas de tos irritativa y expectoración que ha ido empeorando, agregándose disnea de medianos esfuerzos. Al examen físico se aprecia enflaquecido, con frecuencia respiratoria de 27 por minuto, frecuencia cardiaca de 90 por minuto, presión arterial de 100/70 mmHg y saturación de 92% con FiO2 ambiental. Examen pulmonar muestra crepitaciones, estertores y algunas sibilancias bilaterales. Se solicita radiografía que se muestra a continuación: El diagnóstico más probable es:",
+  "options": "A) Fibrosis pulmonar | B) Asma bronquial | C) Neumonitis viral | D) Neumonía por mycoplasma | E) Neumonía por Pneumocystis jiroveci",
+  "correcta": "E",
+  "explicacion": "Es una pregunta difícil, pero que esté enflaquecido más el cuadro clínico, hace que se trate de una neumonía por P. jiroveci. Si hubiese venido sin mayores antecedentes y con un cuadro un poco más corto, sin baja de peso, habría que pensar en Mycoplasma, que puede ser igual. La fibrosis y el asma serían cuadros más crónicos, con radiografías distintas (panal de abejas en fibrosis y normal o hiperinsuflación en asma). La neumonitis viral es aguda.",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 80",
+  "year": 2013,
+  "codes": [
+   "1.05.1.031 [resp-13: Neumotórax moderado y grande]"
+  ],
+  "stem": "Paciente de 18 años, sin antecedentes mórbidos, es traído al servicio de urgencias por cuadro de dolor en hemitórax izquierdo de inicio súbito irradiado a miembro superior ipsilateral, asociado a disnea leve, el cual inició mientras jugaba un partido de basquetbol. Al examen físico se aprecia en buenas condiciones y a la auscultación pulmonar destaca disminución del murmullo pulmonar en hemitórax izquierdo, sin otros síntomas. El diagnóstico más probable es:",
+  "options": "A) Angina inestable | B) Tromboembolismo pulmonar | C) Neumotorax espontáneo | D) Perforación esofágica | E) Contractura muscular",
+  "correcta": "C",
+  "explicacion": "Diagnóstico: **Neumotorax espontáneo** (opción **C**). Clínica muy sugerente de neumotórax. El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL).",
+  "conf": 0.5,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 93",
+  "year": 2021,
+  "codes": [
+   "1.05.1.032 [resp-13: Neumotórax pequeño]"
+  ],
+  "stem": "Un paciente de 28 años consulta por dolor torácico derecho, de 2 días de evolución, que aumenta con la inspiración y con la actividad física. Al examen físico está eupneico, con FR: 15x’, saturación de oxígeno normal, se aprecia disminución del murmullo pulmonar mayor en el lado derecho. Se solicita una radiografía, que se muestra a continuación (Fuente: imgur.com): ¿Cuál es la conducta más adecuada?",
+  "options": "A) Control radiológico en 24 horas | B) Solicitar TAC de tórax | C) Realizar cirugía abierta | D) Drenaje con tubo pleural | E) Realizar videotoracoscopía",
+  "correcta": "A",
+  "explicacion": "Es una pregunta difícil, ya que no se ve bien la radiografía (en el Eunacom original era muy difícil verlo), pero tiene clínica de un neumotórax espontáneo. El manejo es con tubo pleural, pero en los casos en que no hay colapso pulmonar, es posible observarlo, darle analgesia y controlarlo con nuevas radiografías. En este caso, que lleva 2 días sin agravarse, lo más correcto es controlar con radiografía en 24 horas.",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 81",
+  "year": 2016,
+  "codes": [
+   "1.05.1.033 [resp-23: Síndrome de apnea del sueño]"
+  ],
+  "stem": "Un Paciente de 52 años con historia de ronquidos frecuentes, de larga data, que desde hace 5 años, se asocia a somnolencia diurna excesiva y deterioro cognitivo. Al examen físico tiene frecuencia cardiaca de 75x' y presión arterial de 140/100 mmHg. Su IMC es de 35. Se realiza polisomnografía que evidencia índice de apenas de 50 eventos de apnea / hipopnea por hora, con predominio de los eventos obstructivos. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Oxígeno nocturno | B) C-PAP nocturno | C) Cirugía bariátrica | D) Uvulopalatoplastía | E) Dispositivo orofaríngeo",
+  "correcta": "B",
+  "explicacion": "Tiene un síndrome de apnea-hipopnea obstructiva del sueño severa (>30 eventos por hora; moderada es entre 20 y 30; leve es <20), por lo que requiere C- PAP (se indica en la severa y en la que no responde al tratamiento médico de baja de peso y cambios de posición al dormir). La cirugía podría servir, pero requiere de obstrucción anatómica y además, dada la severidad, el C-PAP igual es de elección.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 13",
+  "year": 2017,
+  "codes": [
+   "1.05.1.033 [resp-23: Síndrome de apnea del sueño]"
+  ],
+  "stem": "Un paciente de 43 años, obeso mórbido, consulta por cansancio y somnolencia diur- na. Refiere que ronca en la noche y se queda dormido en las luces rojas del semáforo. En su examen físico destaca PA: 140/90 mmHg, FC: 72x’ y faringe normal. ¿Qué examen es el más adecuado para proseguir el estudio en este paciente?",
+  "options": "A) Poligrafía nocturna | B) Polisomnografía | C) Saturación arterial de oxígeno durante el sueño | D) Monitorización de presión arterial de 24 horas | E) Nasofibroscopía",
+  "correcta": "B",
+  "explicacion": "La alternativa correcta es la **B** (Polisomnografía). Es un SAHOS, que se estudia con polisomnografía.. Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh.",
+  "conf": 0.8,
+  "alertas": [
+   "explicacion_de_otro_tema"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 86",
+  "year": 2021,
+  "codes": [
+   "1.05.1.033 [resp-23: Síndrome de apnea del sueño]"
+  ],
+  "stem": "Un paciente de 78 años, con sobrepeso, presenta alteraciones de la memoria y dificultades para concentrarse, que iniciaron hace 2 años y que han progresado, asociado a hipersomnia y cansancio. ¿Cuál es el examen de elección para iniciar el estudio?",
+  "options": "A) Electrocardiograma | B) Ecocardiograma | C) Polisomnografía | D) RMN de cerebro | E) TAC de cerebro",
+  "correcta": "C",
+  "explicacion": "Tiene una apnea obstructiva del sueño, por el sobrepeso e hipersomnia. Las alteraciones de la memoria son causadas por la privación de sueño adecuado.",
+  "conf": 0.72,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 75",
+  "year": 2019,
+  "codes": [
+   "1.05.1.033 [resp-23: Síndrome de apnea del sueño]"
+  ],
+  "stem": "Un paciente de 78 años, IMC: 32, presenta alteraciones de la memoria, desde hace 2 años, que han progresado, asociado a desconcentración e hipersomnia. ¿Cuál es el diagnóstico de elección para iniciar el estudio?",
+  "options": "A) Electrocardiograma | B) Ecocardiograma | C) Polisomnografía | D) RMN de cerebro | E) TAC de cerebro",
+  "correcta": "C",
+  "explicacion": "Que tenga hipersomnia hace sospechar que haya un SAHOS, por lo que se debe estudiar con una polisomnografía.",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 146",
+  "year": 2024,
+  "codes": [
+   "1.05.1.033 [resp-23: Síndrome de apnea del sueño]"
+  ],
+  "stem": "Paciente con apnea del sueño, tenía polisomnografía con 65 episodios por hora, hipertrofia de cornetes conducta:",
+  "options": "A) CPAP | B) Cirugía de cornetes | C) Laparotomía exploratoria | D) Cirugía laparoscópica | E) Manejo conservador",
+  "correcta": "A",
+  "explicacion": "Conducta / Tratamiento indicado: **CPAP** (opción **A**). Según los consensos y guías clínicas del MINSAL, esta constituye la conducta estándar de primera línea recomendada para este nivel de atención. Las opciones alternativas (Cirugía de cornetes, Laparotomía exploratoria) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2022 · Pregunta 160",
+  "year": 2022,
+  "codes": [
+   "1.05.1.035 [resp-03: Tos crónica]"
+  ],
+  "stem": "Un paciente de 36 años consulta por sensación de opresión precordial y tos, que son más intensas en la noche. Además, refiere disfonía y rinorrea, que se exacerbó durante la primavera. El examen físico no aporta mayor información. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Iniciar omeprazol oral | B) Iniciar antihistamínicos orales | C) Iniciar corticoides orales | D) Iniciar antibióticos orales | E) Iniciar AINEs orales",
+  "correcta": "B",
+  "explicacion": "Conducta / Tratamiento indicado: **Iniciar antihistamínicos orales** (opción **B**). Según los consensos y guías clínicas del MINSAL, esta constituye la conducta estándar de primera línea recomendada para este nivel de atención.",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 152",
+  "year": 2021,
+  "codes": [
+   "1.05.1.036 [resp-10: Tuberculosis pulmonar]"
+  ],
+  "stem": "Un paciente de 42 años consulta por tos de un mes de evolución, sin expectoración. Su esposa está en tratamiento antituberculoso. Su examen físico muestra crépitos escasos bilaterales. Se realizaron baciloscopías de expectoración, que resultan negativas; quantiferón para tuberculosis, que resulta positivo; y radiografía de tórax, que se muestra a continuación (fuente: radiopaedia): La conducta más adecuada es:",
+  "options": "A) Iniciar profilaxis antituberculosa | B) Solicitar reacción de cadena de polimerasa para tuberculosis en expectoración | C) Iniciar tratamiento antibiótico antituberculoso | D) Solicitar cultivo de Koch | E) Solicitar PPD",
+  "correcta": "C",
+  "explicacion": "Es un paciente contacto estrecho y sintomático, que, además, ya tiene una prueba positiva para tuberculosis (el quatiferón). Por tanto, aunque tenga las baciloscopías negativas se debe iniciar el tratamiento y no es necesario pedir la PCR.",
+  "conf": 0.72,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 139",
+  "year": 2013,
+  "codes": [
+   "1.05.1.038 [resp-16: Nódulos pulmonares]"
+  ],
+  "stem": "Paciente de 60 años, fumadora de 30 paquetes año, consulta por compromiso del estado general y baja de peso. Su examen físico es normal, se solicita radiografía de tórax que muestra lo siguiente: La conducta más adecuada en este caso es:",
+  "options": "A) Solicitar TAC de tórax | B) Realizar punción transpleural | C) Instalar tubo pleural con trampa de agua | D) Realizar toracocentesis diagnóstica | E) Realizar broncoscopía rígida",
+  "correcta": "A",
+  "explicacion": "Tiene un nódulo pulmonar solitario parahiliar derecho. Lo primero es el TAC. Luego será la Bx transbronquial, mediante broncoscopía. Si hubiese tenido radiografías previas, lo primero habría sido revisarlas, antes del TAC.",
+  "conf": 0.62,
+  "alertas": [
+   "explicacion_de_otro_tema"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2025 · Pregunta 179",
+  "year": 2025,
+  "codes": [
+   "1.05.2.004 [resp-02: Crisis de asma bronquial]"
+  ],
+  "stem": "Un paciente de 25 años, con antecedente de asma en tratamiento con fluticasona, un puff cada 12 horas, y salbutamol SOS, consulta por un cuadro de disnea que inició hace 48 horas en relación a un cuadro respiratorio alto y que ha ido empeorando, presentando actualmente disnea de mínimos esfuerzos que no ha respondido al uso de salbutamol. Al examen físico se observa taquipneico, con aumento del diámetro anteroposterior del tórax, frecuencia respiratoria de 35 por minuto, saturación de oxígeno 95% y frases con palabras entrecortadas. ¿Cuál de los siguientes exámenes es más adecuado para precisar la severidad del cuadro?",
+  "options": "A) Radiogra:a de tórax | B) Test de metacolina | C) Flujo espiratorio máximo (PEF) | D) Hemograma y VHS | E) Gases en sangre venosa",
+  "correcta": "C",
+  "explicacion": "La severidad de la crisis asmática se determina en base a la clínica. Dentro de los exámenes, son útiles tanto el PEF como los gases en sangre arterial (no venosa, ya que la PaO2 arterial es el parámetro que define el manejo) y suelen pedirse ambos. El PEF suele ser el inicial y más importante para objetivar y seguir el grado de obstrucción y respuesta al tratamiento. Los GSA se solicitan especialmente cuando la crisis es muy severa y hay signos de insuficiencia respiratoria. Los GSA son mucho más importantes en el EPOC descompensado, en que Gende a la hipercarbia y definen la necesidad de ventilación mecánica. En el asma, en cambio, la clínica y el PEF muchas veces son suficientes.",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2018 · Pregunta 99",
+  "year": 2018,
+  "codes": [
+   "1.05.2.005 [cardio-37: Embolia pulmonar masiva]"
+  ],
+  "stem": "Un paciente masculino de 60 años, con antecedente de hipertensión arterial crónica, diabetes y dislipidemia, de larga data, en tratamiento oral. Desde hace 2 meses está en quimioterapia por cáncer de colon. Hoy presenta un síncope luego de levantarse de la cama y se asocia a disnea y dolor torácico. Su FC: 120x’, PA: 90/50 mmHg, FR: 32x’ y saturación de oxígeno: 93%. Su examen pulmonar es inespecífico. Se solicita electrocardiograma que muestra un bloqueo completo de rama derecha, con alteraciones inespecíficas de la repolarización. ¿Cuál es el examen de elección para continuar el estudio en este paciente?",
+  "options": "A) Radiografía de tórax | B) TAC de tórax | C) Dímero D | D) Ecocardiograma | E) AngioTAC de tórax",
+  "correcta": "D",
+  "explicacion": "Es un TEP masivo (compromiso hemodinámico), por lo que se estudia con ecocardiograma (para evaluar la disfunción del ventrículo derecho), y no con el angioTAC (de elección en el TEP no masivo).",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2025 · Pregunta 8",
+  "year": 2025,
+  "codes": [
+   "1.05.2.005 [cardio-37: Embolia pulmonar masiva]"
+  ],
+  "stem": "Un paciente de 60 años, fumador de 20 paquetes-año y con antecedente de trombosis venosa profunda hace 10 años, presenta un cuadro de disnea y malestar general de 7 días de evolución, que empeoró súbitamente hace unas horas, presentando un síncope con recuperación posterior. Al examen físico destaca presión arterial 70/40 mmHg, frecuencia cardíaca 150 lpm, frecuencia respiratoria 40 rpm y saturación de oxígeno de 86%. Se observa ingurgitación yugular y se constata que está desorientado. Se solicita un electrocardiograma, que muestra una taquicardia sinusal y se realiza un AngioTAC, que muestra defectos de llenado en ambas arterias pulmonares. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Trombólisis con tenecteplase | B) Trombólisis con estreptoquinasa | C) Heparina endovenosa | D) Trombectomía abierta quirúrgica | E) Trombectomía intraarterial con catéter",
+  "correcta": "A",
+  "explicacion": "Tiene un probable cáncer de pulmón, complicado con un TEP masivo (inestabilidad hemodinámica, compromiso de conciencia), cuyo tratamiento de elección es la trombólisis sistémica (se prefieren los trombolíticos modernos sobre la estreptoquinasa). Si la trombólisis está contraindicada (ej. hemorragia grave), se procede a la embolectomía generalmente abierta. En cambio, en el TEP no masivo no se tromboliza, sino solo se anticoagula. Comentario aparte, el examen de elección no era el angioTAC, sino el ecocardiograma de urgencia, que confirma el TEP masivo si hay signos de hipertensión pulmonar.",
+  "conf": 0.65,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 159",
+  "year": 2021,
+  "codes": [
+   "1.05.2.006 [resp-05: Enfermedad bronquial obstructiva crónica descompensada]"
+  ],
+  "stem": "Un paciente de 67 años, con antecedente de una enfermedad pulmonar obstructiva crónica, en tratamiento con broncodilatadores inhalados, evoluciona con aumento importante de su disnea basal, asociado a cianosis y angustia. El paciente está vigil y orientado y en su examen físico tiene FR: 35x’, PA: 110/76 mmHg, FC: 110x’ y al examen pulmonar se aprecia uso de musculatura accesoria, cianosis, aumento del diámetro anteroposterior y sibilancias y roncus intensos bilaterales. Su radiografía de tórax se muestra más abajo (fuente: radiopaedia). Se ingresa al servicio de urgencia, recibiendo antibióticos y nebulizaciones con broncodilatadores por una hora, sin mejoría clínica. Se solicitan gases arteriales, que resultan PaCO2: 62 mmHg, PaO2: 56 mmHg, pH:7,29 y HCO3: 27 mEq/L. La conducta más adecuada, a continuación, es:",
+  "options": "A) Ventilación mecánica invasiva | B) Aminofilina endovenosa | C) Oxígeno por cánula nasal de alto flujo | D) Ventilación no invasiva | E) Bicarbonato de sodio endovenoso",
+  "correcta": "D",
+  "explicacion": "Tiene un EPOC descompensado. Además, por tener hipercarbia mayor a 50, está indicado el apoyo ventilatorio, en este caso no invasivo, por no tener compromiso de conciencia. Los gases muestran una insuficiencia respiratoria global (02 < 60 y CO2 > 49), que per sé también se ventila.",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2022 · Pregunta 13",
+  "year": 2022,
+  "codes": [
+   "1.05.2.006 [resp-05: Enfermedad bronquial obstructiva crónica descompensada]"
+  ],
+  "stem": "Una paciente de 72 años, con antecedente de EPOC, con hábito tabáquico suspendido hace 5 años y que, además tiene antecedente de diabetes e hipertensión arterial, consulta por un cuadro de 7 días de aumento de la disnea basal, la que se ha vuelto de pequeños esfuerzos y se ha asociado a mayor tos y expectoración, a lo que se ha agregado sensación febril. Su examen físico muestra frecuencia cardíaca de 105x’, presión arterial de 148/92mmHg, respiración a 37 por minuto, saturación de oxígeno por pulsometría de 87%. La auscultación cardíaca muestra ruidos apagados y el examen pulmonar demuestra aumento del diámetro torácico, con disminución bilateral del murmullo vesicular, asociada a sibilancias, roncus y escasos crépitos bilaterales. Se solicita una radiografía de tórax, que se muestra a continuación (fuente: https://campuskinesico.com): Se inician nebulizaciones con salbutamol, más corticoides y antibióticos de amplio espectro por vía endovenosa y oxígeno por mascarilla al 24%. A la hora siguiente, continúa con apremio respiratorio y taquipnea con examen físico en condiciones similares, además, se reciben los resultados de gases arteriales, que muestran lo siguiente: PaO2: 56 mmHg, PaCO2: 62 mmHg, bicarbonato: 21 mEq/L y pH: 7,26. ¿Cuál es la conducta es más adecuada?",
+  "options": "A) Oxígeno por mascarilla al 50% | B) Ventilación mecánica invasiva | C) Ventilación mecánica no invasiva | D) Teofilina endovenosa y nebulizaciones con formoterol | E) Solicitar TAC de tórax",
+  "correcta": "A",
+  "explicacion": "Conducta / Tratamiento indicado: **Oxígeno por mascarilla al 50%** (opción **A**). Según los consensos y guías clínicas del MINSAL, esta constituye la conducta estándar de primera línea recomendada para este nivel de atención.",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 140",
+  "year": 2015,
+  "codes": [
+   "1.05.2.008 [resp-21: Insuficiencia respiratoria aguda o crónica reagudizada que requiere ventilación mecánica]"
+  ],
+  "stem": "Un paciente presenta una neumonía, con dificultad respiratoria, taquipnea, fiebre y desaturación arterial. Satura 75% a FiO2 ambiental y tiene gases arteriales, con una presión arterial de O2 de 54 mmHg y presión de CO2 de 32 mmHg. ¿Cómo debe administrarse el oxígeno a este paciente?",
+  "options": "A) Por naricera a 0,5 litros por minuto | B) Por naricera a 2 litros por minuto | C) Por mascarilla Venturi, a FiO2 de 24% | D) Por mascarilla Venturi, a FiO2 de 40% | E) Por ventilación mecánica invasiva",
+  "correcta": "E",
+  "explicacion": "Hay evidencia de baja calidad y reciente, muy discutida, que dicen que la ventilación mecánica invasiva tendría mejores resultados en mortalidad y en tiempo de hospitalización, que la oxigenoterapia por mascarilla. Pregunta muy discutible, porque en la vida real, se evaluará primero la respuesta al oxígeno y se irá viendo cuánto necesita para saturar adecuadamente.",
+  "conf": 0.55,
+  "alertas": [
+   "explicacion_admite_duda"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 95",
+  "year": 2013,
+  "codes": [
+   "1.05.2.008 [resp-21: Insuficiencia respiratoria aguda o crónica reagudizada que requiere ventilación mecánica]"
+  ],
+  "stem": "Paciente de 55 años, con antecedente de enfermedad pulmonar obstructiva crónica por tabaquismo, es derivado desde servicio de urgencia rural por aumento de su disnea basal, asociado a sensación febril y luego confusión, al ingreso en nuestro centro se solicitan gases arteriales que muestran pH 7.3, PaCO2 80, PaO2 86 con FiO2 al 100%. En su examen físico destaca sopor superficial, murmullo pulmonar disminuido en ambos campos pulmonares, con sibilancias difusas y crepitaciones en base pulmonar izquierda. La medida más adecuada en este momento es:",
+  "options": "A) Administrar hidrocortisona en bolo | B) Nebulizar con salbutamol | C) Administrar ceftriaxona | D) Intubar e iniciar ventilación mecánica | E) Disminuir el aporte de oxígeno a 24%",
+  "correcta": "D",
+  "explicacion": "Tiene una encefalopatía hipercárbica. Se va a VMI. El CO2 mayor a 65 también es indicación de ventilación mecánica. El BiPAP (VMNI) es una buena opción, pero si está encefalópata, se prefiere la VMI",
+  "conf": 0.5,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 134",
+  "year": 2024,
+  "codes": [
+   "1.05.2.008 [resp-21: Insuficiencia respiratoria aguda o crónica reagudizada que requiere ventilación mecánica]"
+  ],
+  "stem": "Paciente joven hiperventilando saturando 75% a.​ Venturi al 40 %",
+  "options": "B) Venturi al 24% c.​ Ventilación mecánica invasiva | D) Naricera flujo 0.2 ml/kg | E) Naricera flujo 2 ml/kg | D) Ninguna de las anteriores es correcta | E) Todas las anteriores son correctas",
+  "correcta": "B",
+  "explicacion": "La alternativa correcta es la **B** (Venturi al 24% c.​ Ventilación mecánica invasiva). Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh.",
+  "conf": 0.38,
+  "alertas": [
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2025 · Pregunta 10",
+  "year": 2025,
+  "codes": [
+   "1.05.2.010 [resp-24: Intoxicación por monóxido de carbono]"
+  ],
+  "stem": "Un paciente de 27 años presenta cefalea, malestar general, disnea y sensación de opresión precordial, 3 horas después de haber estado expuesto a humo durante un incendio en su casa. Al examen físico registra frecuencia cardíaca 100 lpm, presión arterial 130/85 mmHg, frecuencia respiratoria 35 rpm y saturación de oxígeno de 96%. No presenta cianosis ni uso de musculatura accesoria, y su examen cardiopulmonar es normal. ¿Qué examen es el más adecuado para confirmar la sospecha diagnóstica?",
+  "options": "A) Radiogra:a de tórax | B) TAC de tórax | C) Niveles de carboxihemoglobina | D) Gases en sangre arterial | E) Monitorización transcutánea de niveles de anhídrido carbónico",
+  "correcta": "C",
+  "explicacion": "La sospecha es una intoxicación por monóxido de carbono. La saturación de oxígeno es falsamente normal en la oximetría de pulso. Los gases arteriales suelen ser normales, ya que la PaO2 no se altera, sino que el monóxido de carbono desplaza al oxígeno en la hemoglobina. Tampoco Genen cianosis (“muertos rosados”). El examen diagnóstico de elección es la medición de carboxihemoglobina. El tratamiento de elección es el oxígeno al 100%. La terapia hiperbárica, además, está indicada si la carboxihemoglobina es mayor a 25% (20% en embarazo) o si hay compromiso de conciencia.",
+  "conf": 0.45,
+  "alertas": [
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 41",
+  "year": 2024,
+  "codes": [
+   "1.05.2.010 [resp-24: Intoxicación por monóxido de carbono]"
+  ],
+  "stem": "Una paciente de 25 años fue encontrada inconsciente por su pareja en el baño de su casa, por lo que es llevada de inmediato al servicio de urgencias. Al examen físico, presenta escala de Glasgow: 15 puntos, tiene presión arterial: 110/60 mmHg, frecuencia cardíaca: 115 lpm, frecuencia respiratoria: 12 rpm y saturación de oxígeno: 98%. Su examen cardiopulmonar no muestra alteraciones. Se solicitan exámenes, que muestran glicemia: 98 mg/dl y carboxihemoglobina: 20%. ¿Cuál es la conducta inicial más adecuada?",
+  "options": "A) Administrar oxígeno por naricera de alto flujo | B) Solicitar una TAC de cerebro | C) Realizar terapia hiperbárica | D) Administrar broncodilatadores por vía inhalada | E) Administrar oxígeno por mascarilla de no recirculación",
+  "correcta": "E",
+  "explicacion": "Intoxicación por Monóxido de Carbono: El cuadro clínico apunta a una intoxicación por monóxido de carbono, donde la saturación de oxígeno y la presión arterial de oxígeno permanecen normales. Por ello el diagnóstico se confirma con la carboxihemoglobina, que en este caso está elevada. El tratamiento inicial consiste en administrar oxígeno al 100% con alto flujo, mediante una mascarilla sin recirculación para acelerar la eliminación del monóxido de carbono (el oxígeno compite contra el monóxido de carbono en su unión a la hemoglobina). En casos graves (carboxihemoglobina > 25%), se recomienda, además, la terapia hiperbárica.",
+  "conf": 0.45,
+  "alertas": [
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 144",
+  "year": 2024,
+  "codes": [
+   "1.05.2.010 [resp-24: Intoxicación por monóxido de carbono]"
+  ],
+  "stem": "Paciente encontrada en el baño, tenía carboxiHb de 12% tto de elección:",
+  "options": "A) O2 mascarilla | B) Cámara hiperbarica | C) Ninguna de las anteriores es correcta | D) Todas las anteriores son correctas | E) No se dispone de información suficiente",
+  "correcta": "A",
+  "explicacion": "La alternativa correcta es la **A** (O2 mascarilla). La intoxicación por monóxido de carbono (CO) es una emergencia médica potencialmente letal que requiere reconocimiento y manejo rápido. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.4,
+  "alertas": [
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 21",
+  "year": 2017,
+  "codes": [
+   "1.05.3.003 [resp-10: Programa Nacional de Control de TBC]"
+  ],
+  "stem": "Un paciente de 32 años, lleva un año conviviendo con pacientes bacilíferos, se en- cuentra asintomático y su radiografía de tórax no muestra alteraciones, se solicita un PPD que resulta en 23 mm. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Realizar tratamiento atibiótico con isoniazida, pirazinamida, rifampicina y etambu- tol por 6 meses | B) Repetir PPD en un mes | C) Dar de alta y control en caso de síntomas | D) Solicitar reacción en cadena de polimerasa para mycobacterium tuberculosis en la- vado bronquioloalveolar | E) Indicar isoniazida por 6 meses",
+  "correcta": "E",
+  "explicacion": "Es un contacto, con PPD mayor a 10, por lo que se debe indicar profilaxis antibióti- ca (isoniazida 6 meses es la recomendación del Minsal).",
+  "conf": 0.45,
+  "alertas": [
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 142",
+  "year": 2015,
+  "codes": [
+   "1.05.3.004 [resp-04: Tabaquismo: prevención, cesación y efectos nocivos para la salud]"
+  ],
+  "stem": "Un paciente fuma 5 a 7 cigarrillos al día y consulta porque quiere dejar de fumar. ¿Qué tratamiento es el más adecuado?",
+  "options": "A) Terapia cognitivo conductual | B) Terapia de sustitución con nicotina | C) Sertralina | D) Bupropión | E) Cigarrillo electrónico",
+  "correcta": "A",
+  "explicacion": "Fuma muy poco, como para que requiera burpopión o nicotina. Además la terapia cognitivo conductual siempre es la más efectiva para dejar de fumar.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 7",
+  "year": 2024,
+  "codes": [
+   "1.05.4.001 [resp-06: Radiografía de tórax]"
+  ],
+  "stem": "IMAGEN: Persona en situación de calle con hemitórax radiopaco: a.​ Derrame pleural masivo",
+  "options": "A) Derrame pleural | B) Neumotórax | C) Neumonía | D) Atelectasia | E) Masa pulmonar",
+  "correcta": "A",
+  "explicacion": "La alternativa correcta es la **A** (Derrame pleural). El derrame pleural puede ser asintomático o presentarse con disnea y dolor pleurítico. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.4,
+  "alertas": [
+   "enunciado_cortado_o_raro",
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 165",
+  "year": 2024,
+  "codes": [
+   "1.05.4.002 [resp-16: TAC de tórax]"
+  ],
+  "stem": "Un paciente de 67 años, fumador de 40 paquetes/año presenta tos desde hace 4 meses, con expectoración mucosa y ocasionalmente hemoptoica. Además, ha presentado pérdida de 5 kilogramos peso. Al examen físico tiene FC: 72x’, PA: 120/80 mmHg y se observa hipocratismo digital. Al examen pulmonar disminución del murmullo pulmonar en el lado derecho y crépitos en la misma zona. ¿Cuál es el examen diagnóstico más adecuado para comenzar el manejo?",
+  "options": "A) PET-TC | B) Reacción en cadena de la polimerasa (PCR) para tuberculosis y cultivo para micobacterias | C) Fibrobroncoscopia con lavado bronquioalveolar | D) TAC de tórax | E) Resonancia magnética de tórax",
+  "correcta": "D",
+  "explicacion": "Evaluación Inicial del Cáncer Pulmonar: En un paciente con sospecha de cáncer pulmonar, el examen inicial recomendado es una radiografía de tórax. La tomografía computarizada de tórax también proporciona información muy valiosa y, ante una alta sospecha, se puede pedir como examen inicial. Sin embargo, la radiografía se sigue considerando como el examen inicial.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2025 · Pregunta 58",
+  "year": 2025,
+  "codes": [
+   "1.05.4.002 [resp-16: TAC de tórax]"
+  ],
+  "stem": "Hombre de 60 años con tos de 3 meses de evolución y baja de peso. La radiografía de tórax muestra una masa hiliar derecha. ¿Cuál es el siguiente examen a solicitar?",
+  "options": "A) Resonancia magnética de tórax | B) Radiografía de tórax lateral | C) TAC de tórax con contraste | D) Cintigrafía ósea | E) Ecografía de tórax",
+  "correcta": "C",
+  "explicacion": "Masa pulmonar sospechosa en Rx de tórax: el siguiente paso es TAC de tórax con contraste para caracterizar la lesión (tamaño, morfología, densidad, adenopatías mediastínicas). Es imprescindible para estadificación y planificación de biopsia. La Rx frontal ya fue realizada.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 112",
+  "year": 2017,
+  "codes": [
+   "1.05.4.002 [resp-16: TAC de tórax]"
+  ],
+  "stem": "Un paciente de 68 años, con antecedente de EPOC, fumador de 30 paquetes año, consulta por cuadro de 3 días de hemoptisis escasa, asociada a dificultad respiratoria. Tiene antecedente de hernioplastía hace 7 días. Al examen físico su frecuencia cardiaca es de 100 por minuto, frecuencia respiratoria de 18 por minuto, presión arterial 120/80mmHg, saturación arterial 95% con FiO2 ambiental. Su examen pulmonar mues- tra murmullo presente bilateral con escasas sibilancias. ¿Cuál es el examen más ade- cuado para proseguir con su estudio?",
+  "options": "A) TAC de tórax | B) Cintigrafía V/Q | C) Angiografía pulmonar | D) Ecocardiograma | E) AngioTAC de tórax",
+  "correcta": "E",
+  "explicacion": "La alternativa correcta es la **E** (AngioTAC de tórax). La sospecha es un TEP, que se estudia preferentemente con angioTAC de tórax.. Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh.",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2022 · Pregunta 14",
+  "year": 2022,
+  "codes": [
+   "1.05.4.002 [resp-16: TAC de tórax]"
+  ],
+  "stem": "Un paciente de 45 años vive en situación de marginalidad y hacinamiento, tiene antecedente de alcoholismo y tabaquismo activos; consulta por un cuadro de 3 semanas de evolución de tos con expectoración mucopurulenta, que, en ocasiones, es hemoptoica. También, ha presentado fiebre intermitente, ha bajado de peso cerca de 4 kilogramos y refiere sudoración, que es mayor en la mañana y en la noche. Al examen físico tiene T°: 37,6°C, FC: 83x’, PA: 110/70 mmHg, FR: 15x’, auscultación pulmonar con crepitaciones pulmonares bilaterales, mayores en el lóbulo superior izquierdo y auscultación cardíaca normal. Se tomaron dos baciloscopías, que resultaron negativas y se solicitó una radiografía de tórax, que se muestra a continuación (fuente: https://urgenciasbidasoa.wordpress.com): ¿Cuál es el examen de elección para proseguir el estudio de este paciente?",
+  "options": "A) Reacción en cadena de polimerasa para Mycobacterium tuberculosis | B) PPD (prueba de tuberculina) | C) TAC de tórax | D) Lavado bronquioalveolar | E) Ensayo de liberación de interferón gama",
+  "correcta": "C",
+  "explicacion": "La alternativa correcta es la **C** (TAC de tórax). El tabaquismo es un factor de riesgo mayor con implicaciones cardiovasculares (ACV, infarto, claudicación intermitente, aneurisma de aorta abdominal), oncológicas (cáncer de pulmón, boca, vejiga, lengua, nariz, esófago, laringe) y respiratorias (EPOC, enfisema pulmonar, bronquitis crónica). Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 49",
+  "year": 2013,
+  "codes": [
+   "1.05.4.004 [resp-10: Baciloscopia y cultivo de Koch de expectoración]"
+  ],
+  "stem": "Paciente de 34 años, consulta por cuadro de un mes de compromiso del estado general, tos persistente con expectoración mucopurulenta y en dos ocasiones hemoptóica. Al examen físico destaca sudoroso, frecuencia cardiaca de 60 por minuto, presión arterial de 120/70, examen cardiaco normal y pulmonar con murmullo presente, crepitaciones y sibilancias difusas mayores en ápice izquierdo. El examen más adecuado para el diagnóstico en este caso es:",
+  "options": "A) Baciloscopías seriadas | B) Prueba cutánea de tuberculina | C) Radiografía de tórax | D) TAC de tórax multicorte | E) Hemocultivo",
+  "correcta": "A",
+  "explicacion": "Diagnóstico: **Baciloscopías seriadas** (opción **A**). Sospechar una TBC. Se estudia con BK. La Rx hay que pedirla igual, pero BK es la respuesta.. El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL).",
+  "conf": 0.68,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 99",
+  "year": 2017,
+  "codes": [
+   "1.05.4.004 [resp-10: Baciloscopia y cultivo de Koch de expectoración]"
+  ],
+  "stem": "Un paciente de 70 años, consulta por cuadro de 6 meses de evolución caracterizado por tos con expectoración mucosa que en ocasiones es purulenta y baja de peso, asocia- do a compromiso del estado general, sensación febril ocasional y fatigabilidad. Se le so- licita perfil hemático que muestra hematocrito de 32%, leucocitos 12.000/mm3. Se solicita una radiografía de tórax que se muestra a continuación: INSERTAR FOTO La conducta más adecuada para proseguir con el estudio es:",
+  "options": "A) Realizar broncoscopía | B) Solicitar baciloscopías de expectoración con cultivo de Koch | C) Solicitar TAC de tórax | D) Solicitar angioTAC de tórax | E) Solicitar cultivo de expectoración",
+  "correcta": "B",
+  "explicacion": "Conducta / Tratamiento indicado: **Solicitar baciloscopías de expectoración con cultivo de Koch** (opción **B**). La sospecha es una tuberculosis, por el tiempo de evolución y por la clínica.. Según los consensos y guías clínicas del MINSAL, esta constituye la conducta estándar de primera línea recomendada para este nivel de atención.",
+  "conf": 0.62,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 152",
+  "year": 2016,
+  "codes": [
+   "1.05.4.004 [resp-10: Baciloscopia y cultivo de Koch de expectoración]"
+  ],
+  "stem": "Un paciente de 42 años, fumador de 2,6 paquetes-año, presenta un cuadro de 3 meses de compromiso del estado general, astenia y baja de peso de 3 kilogramos, asociado a tos y expectoración mucopurulenta, que en ocasiones es hemoptoica. Su examen físico no aporta mayor información. Se solicita una radiografía de tórax, que muestra zonas de relleno alveolar en el lóbulo superior derecho. ¿Con qué examen(es) se debe proseguir el estudio?",
+  "options": "A) Baciloscopías de expectoración y cultivo para mycobacterias | B) Elisa VIH | C) Biopsia pulmonar por videtoracoscopía | D) Lavado bronquioalveolar por broncoscopía | E) TAC de tórax",
+  "correcta": "A",
+  "explicacion": "Parece una TBC (cuadro subagudo, con compromiso de los lóbulos superiores), por lo que debe estudiarse con baciloscopías y cultivo.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 115",
+  "year": 2024,
+  "codes": [
+   "1.05.4.004 [resp-10: Baciloscopia y cultivo de Koch de expectoración]"
+  ],
+  "stem": "Paciente con clínica y rayo de TBC, ¿Cual es el primer estudio que se debe realizar?",
+  "options": "A) Iniciar tratamiento b.​ PCR (PCR porque es más sensible que BK y es lo que recomienda la nueva norma de TBC) | C) Baciloscopias por que PCR si era caso sospechoso? si hubiera sido contacto de alguien con TBC, se trata de entrada, pero el solo tenia clinica y rayo, lo que abre la sospecha, y la sospecha se confirma con PCR | C) Hemograma y VHS | D) Ecografía | E) Radiografía",
+  "correcta": "A",
+  "explicacion": "La alternativa correcta es la **A** (Iniciar tratamiento b.​ PCR (PCR porque es más sensible que BK y es lo que recomienda la nueva norma de TBC)). Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh.",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Enero 2023 · Pregunta 92",
+  "year": 2023,
+  "codes": [
+   "1.05.4.004 [resp-10: Baciloscopia y cultivo de Koch de expectoración]"
+  ],
+  "stem": "Paciente enflaquecido, febril, con hemoptisis y baciloscopías negativas. ¿Cuál es el examen más adecuado para continuar el estudio?",
+  "options": "A) Cultivo en medio Löwenstein-Jensen | B) Broncoscopía con lavado broncoalveolar | C) PCR para Mycobacterium tuberculosis | D) Adenosina deaminasa (ADA) en esputo | E) Biopsia pulmonar por toracoscopía",
+  "correcta": "C",
+  "explicacion": "La alternativa correcta es la **C** (PCR para Mycobacterium tuberculosis). PCR para Mycobacterium tuberculosis. Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh.",
+  "conf": 0.4,
+  "alertas": [
+   "alternativas_mezcladas",
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 171",
+  "year": 2017,
+  "codes": [
+   "1.05.4.007 [resp-12: Citoquímico de líquido pleural]"
+  ],
+  "stem": "Un paciente de 40 años, consulta por disnea desde hace 2 semanas, no asociado a otros síntomas. Al examen físico se aprecia matidez a la percusión y disminución del murmullo pulmonar en base izquierda. Se realiza radiografía que se muestra a conti- nuación: INSERTAR FOTO El examen más adecuado para seguir con el estudio es:",
+  "options": "A) TAC | B) AngioTAC | C) Ecocardiografía | D) Análisis citoquímico del líquido pleural | E) Ecografía pleural",
+  "correcta": "D",
+  "explicacion": "La alternativa correcta es la **D** (Análisis citoquímico del líquido pleural). Tiene un derrame pleural, que debe ser puncionado, para analizar el líquido.. Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh.",
+  "conf": 0.72,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2025 · Pregunta 94",
+  "year": 2025,
+  "codes": [
+   "1.05.4.007 [resp-12: Citoquímico de líquido pleural]"
+  ],
+  "stem": "Paciente con derrame pleural unilateral. Se realiza toracocentesis. ¿Cuál es el examen del líquido pleural que permite clasificarlo como exudado o trasudado según los criterios de Light?",
+  "options": "A) Proteínas y LDH en líquido pleural y suero | B) Glucosa en líquido pleural | C) ADA en líquido pleural | D) pH del líquido pleural | E) Recuento celular diferencial",
+  "correcta": "A",
+  "explicacion": "Criterios de Light: proteínas LP/suero >0.5, LDH LP/suero >0.6, LDH LP >2/3 del límite normal = exudado. La presencia de uno o más criterios clasifica como exudado.",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 24",
+  "year": 2013,
+  "codes": [
+   "1.05.4.012 [resp-01: Prueba de provocación bronquial con fármacos]"
+  ],
+  "stem": "Paciente de 20 años, con antecedente de rinitis alérgica y usuaria de anticonceptivos orales, con historia de disnea y tos seca al realizar ejercicios, no asociado a otros síntomas. Actualmente asintomática y su examen físico es normal. El examen de elección para el diagnóstico de esta paciente es:",
+  "options": "A) Test de esfuerzo | B) Test de metacolina | C) Prick test | D) Espirometría | E) PEF",
+  "correcta": "B",
+  "explicacion": "Por ser un asma sin clínica actual, no servirá ni el PEF ni la espirometría. Esta pregunta también es muy discutible, ya que el diagnóstico de asma es clínico y los demás exámenes solo son de apoyo diagnóstico. Además en la mayoría de los libros, guías y recomendaciones se prefiere hacer espirometría y solo solicitar las demás pruebas ante la duda diagnóstica. Sin embargo, el eunacom ha preguntado esto varias veces y ante un examen totalmente normal y clínica muy leve, la espirometría resulta normal y no sirve. Además el test de metacolina es una espirometría, pero en la cual se nebuliza con dosis crecientes de metacolina, para producir la broncoconstricción y medir la reactividad bronquial.",
+  "conf": 0.9,
+  "alertas": [
+   "explicacion_admite_duda"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 163",
+  "year": 2024,
+  "codes": [
+   "1.05.4.012 [resp-01: Prueba de provocación bronquial con fármacos]"
+  ],
+  "stem": "Una paciente de 19 años presenta disnea, asociada a tos y ocasionalmente sibilancias. Refiere que sus síntomas suelen ser más frecuentes e intensos durante la noche. Ha notado aumento en la intensidad y frecuencia de estos síntomas, desde que adoptó un gato hace un mes. Sus signos vitales son normales, satura 98% a FiO2 ambientas y su examen cardiopulmonar es normal. Se solicita una radiografía de tórax, que resulta normal. Se realiza una espirometría basal y postbroncodilatador, que muestra parámetros dentro de la normalidad. ¿Cuál es el examen de elección para confirmar el diagnóstico?",
+  "options": "A) IgE sérica total | B) TAC de tórax | C) Prueba de provocación bronquial con metacolina | D) Prueba cutánea para alérgenos inhalados | E) Serología para Mycoplasma pneumoniae",
+  "correcta": "C",
+  "explicacion": "Diagnóstico de Asma: En un paciente con síntomas compatibles con asma pero sin obstrucción en el examen físico ni en la espirometría, la prueba de provocación bronquial con metacolina se utiliza para confirmar el diagnóstico. Un resultado positivo a la prueba apoya el diagnóstico de asma, que es fundamentalmente clínico.",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 64",
+  "year": 2019,
+  "codes": [
+   "1.05.4.012 [resp-01: Prueba de provocación bronquial con fármacos]"
+  ],
+  "stem": "Una paciente de 21 años presenta rinorrea, congestión nasal, disnea, tos, con expectoración mucosa y sibilancias, que aparecen luego de realizar ejercicio y durante las infecciones respiratorias, siendo mayores en primavera. Su examen físico tiene frecuencia respiratoria 12x’, frecuencia cardíaca 73x’, PA: 120/70 mmHg, examen cardiopulmonar normal. Se solicitar un PEF, que resulta 580 L/min, que equivale al 100% del valor esperado. ¿Cuál de los siguientes es el examen más adecuado para proseguir con el estudio en esta paciente?",
+  "options": "A) Prick test | B) TAC de tórax | C) Espirometría basal y postbroncodilatador | D) Prueba de eosinófilos nasales | E) Prueba de provocación bronquial",
+  "correcta": "E",
+  "explicacion": "Aunque el diagnóstico de asma es principalmente clínico, tanto la espirometría como la prueba de provocación con metacolina son útiles para apoyar el diagnóstico. La espirometría es de elección en los pacientes con obstrucción clínica y la provocación con metacolina es de elección en los pacientes sin nada de obstrucción basal, como en esta paciente.",
+  "conf": 0.72,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 66",
+  "year": 2021,
+  "codes": [
+   "1.05.4.012 [resp-01: Prueba de provocación bronquial con fármacos]"
+  ],
+  "stem": "Una paciente de 21 años presenta rinorrea, congestión nasal, disnea, tos, con expectoración mucosa y sibilancias, que aparecen especialmente luego de realizar ejercicio y durante las infecciones respiratorias, siendo mayores en primavera. Su examen físico tiene frecuencia respiratoria 12x’, frecuencia cardíaca 73x’, PA: 120/70 mmHg, examen cardiopulmonar normal. Se solicitar un PEF, que resulta 580 L/min, que equivale al 98% del valor esperado. Se solicita una radiografía, que resulta normal. ¿Cuál de los siguientes es el examen más adecuado para proseguir con el estudio en esta paciente?",
+  "options": "A) Prick test | B) TAC de tórax | C) Espirometría basal y postbroncodilatador | D) Prueba de eosinófilos nasales | E) Prueba de provocación bronquial",
+  "correcta": "E",
+  "explicacion": "La alternativa correcta es la **E** (Prueba de provocación bronquial). Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh. Las opciones alternativas (Prick test, TAC de tórax) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente.",
+  "conf": 0.72,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 126",
+  "year": 2016,
+  "codes": [
+   "1.05.4.013 [orl-09: Pruebas cutáneas de alergia]"
+  ],
+  "stem": "Un hombre de 30 años, con rinorrea frecuente, se realiza prueba cutánea (prick test), que muestra reacción de 5mm a pólenes y de 0 mm al control histamina. ¿Cuál es la interpretación más adecuada de esta prueba?",
+  "options": "A) Es alérgico | B) Está sensibilizado a pólenes | C) Tiene rinitis vasomotora | D) Tiene sinusitis crónica | E) Anergia cutánea",
+  "correcta": "B",
+  "explicacion": "En mi opinión, es una pregunta con error, ya que el control positivo (con histamina) resulta 0 mm, lo que habitualmente significa que está usando antihistamínicos y el examen no sirve, por la anergia cutánea farmacológica, sin embargo, también resulta negativo para todo lo demás. En cambio, en este caso, resultó positivo para pólenes (>3 mm), lo que es imposible según lo anterior, pero da cuenta que está sensibilizado para pólenes. Por eso, dejaremos como respuesta correcta la B. Lo más correcto es que hubiese dicho que el control con suero fisiológico estaba en 0 mm y no el de la histamina. No es posible afirmar que sea alérgico, ya que ese es un diagnóstico clínico y no mediante el prick test.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 164",
+  "year": 2017,
+  "codes": [
+   "1.05.5.002 [resp-15: Biopsia pleural]"
+  ],
+  "stem": "Un paciente de 80 años, consulta por cuadro de disnea de un mes de evolución que ha aumentado en el último tiempo, asociado a baja de peso. Al examen físico presenta disminución del murmullo pulmonar en el hemitórax izquierdo con matidez a la percu- sión. Se solicita radiografía de tórax que muestra presencia de derrame pleural dere- cho, el que se punciona, dando salida a un líquido pleural con LDH de 300mg/dL, coles- terol 60mg/dL, ADA 15 UI, leucocitos 3.000/mm3 con predominio mononuclear. El exa- men de elección para proseguir con el diagnóstico es:",
+  "options": "A) Broncoscopía | B) Videotoracoscopía | C) Ecografía pleural | D) Ecocardiografía | E) TAC de tórax",
+  "correcta": "B",
+  "explicacion": "Es un exudado pleural mononuclear y por tanto se debe biopsiar. Una forma nue- va de hacer la biopsia es la videotoracoscopía, que tiene más sensibilidad y si está dis- ponible, puede ser de mayor utilidad que las biopsias percutáneas (que no aparecían).",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 135",
+  "year": 2024,
+  "codes": [
+   "1.05.5.005 [resp-09: Fibrobroncoscopia]"
+  ],
+  "stem": "Cáncer vs TBC, tenia baja de peso, hipocratismo digital ¿Cuál es el exámen a realizar? a.​ TC con contraste b.​ Broncoscopía tb",
+  "options": "A) Ninguna de las anteriores es correcta | B) Todas las anteriores son correctas | C) No se dispone de información suficiente | D) Otra alternativa no descrita | E) Otra alternativa no descrita",
+  "correcta": "A",
+  "explicacion": "La alternativa correcta es la **A** (Ninguna de las anteriores es correcta). Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh. Las opciones alternativas (Todas las anteriores son correctas, No se dispone de información suficiente) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente.",
+  "conf": 0.4,
+  "alertas": [
+   "alternativas_repetidas",
+   "enunciado_cortado_o_raro",
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2018 · Pregunta 9",
+  "year": 2018,
+  "codes": [
+   "1.05.5.009 [resp-11: Punción pleural]"
+  ],
+  "stem": "Un paciente de 51 años presenta, desde hace 5 días, un cuadro de disnea, que ha ido en aumento, con compromiso del estado general y fiebre hasta 38°C, asociada a tos y expectoración mucopurulenta. Además, presenta dolor tipo puntada de costado izquierdo. Al examen físico está enflaquecido, tiene PA: 110/70 mmHg, FC: 96x’, FR: 28x’, satura 91% a FiO2 ambiental. En el examen pulmonar se aprecia disminución del murmullo pulmonar en la base izquierda, asociados a estertores bilaterales. Se solicita un hemograma que muestra blancos: 15.000 por mm3, plaquetas: 250.000 por mm3 y hematocrito: 38% y una radiografía de tórax, que se muestra a continuación. Foto 2 (https://www.neumosur.net/files/EB04-24%20XXXXXXX%20XXXXXX.pdf ) ¿Cuál es la conducta inicial más adecuada?",
+  "options": "A) Solicitar baciloscopías de desgarro | B) Realizar cirugía | C) Solicitar ecografía de tórax | D) Solicitar TAC de tórax | E) Realizar toracocentesis evacuadora y diagnóstica",
+  "correcta": "E",
+  "explicacion": "Tiene un derrame pleural izquierdo, por lo que se debe evacuar y estudiar. La clínica orienta a nuemonía o tuberculosis, sin dejar claro cuál es la causa.",
+  "conf": 0.5,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 124",
+  "year": 2024,
+  "codes": [
+   "1.05.5.009 [resp-11: Punción pleural]"
+  ],
+  "stem": "Un paciente de 43 años, con antecedentes de tabaquismo y consumo excesivo de alcohol, consulta por un cuadro de 5 días de evolución caracterizado por sensación febril, tos con expectoración mucopurulenta y en ocasiones hemoptoica. Al examen físico, se observa delgado, con T°: 38,5°C, frecuencia cardíaca: 100x’, PA: 118/76 mmHg, saturación arterial de 95% y frecuencia respiratoria: 17x’. Su examen pulmonar muestra crepitaciones y algunos estertores bilaterales y su examen cardíaco muestra ritmo regular en dos tiempos, sin soplos. Se solicita una radiografía de tórax, que se muestra a continuación: ¿Cuál es la conducta más adecuada?",
+  "options": "A) Realizar una prueba de quantiferón para tuberculosis | B) Realizar una broncoscopia | C) Solicitar una prueba de elisa de cuarta generación para VIH | D) Realizar una toracocentesis diagnóstica y evacuadora | E) Solicitar una tomografía axial computarizada (TAC) de tórax",
+  "correcta": "D",
+  "explicacion": "Derrame Pleural: El cuadro clínico sugiere una tuberculosis activa en la infección inicial o bien una neumonía bacteriana, en ambos casos con derrame pleural izquierdo visible en la radiografía. La toracentesis diagnóstica y evacuadora es la medida más importante. Se debe solicitar PCR para Mycobacterium tuberculosis o, al menos, baciloscopías. El quantiferón-TB solo es útil para la tuberculosis latente, que no se sospecha en este caso al haber síntomas.",
+  "conf": 0.48,
+  "alertas": [
+   "alternativas_mezcladas",
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 120",
+  "year": 2019,
+  "codes": [
+   "1.05.5.009 [resp-11: Punción pleural]"
+  ],
+  "stem": "Un paciente de 30 años, cuyo hermano está en tratamiento antituberculoso, en la fase bisemanal, presenta tos y expectoración mucopurulenta, asociada a fiebre de 38,7°C, desde hace 7 días. Se inició amoxicilina al inicio de los síntomas, con buena respuesta inicial, sin embargo, luego recurren los síntomas. Se solicita una radiografía de tórax, que se muestra a continuación: La conducta más adecuada es;",
+  "options": "A) Agregar ácido clavulánico al tratamiento | B) Solicitar TAC de tórax | C) Solicitar PPD | D) Iniciar tratamiento antituberculoso | E) Realizar estudio de líquido pleural",
+  "correcta": "E",
+  "explicacion": "Es una pregunta discutible, sin embargo, la radiografía muestra únicamente un derrame pleural izquierdo y, por tanto, se debe puncionar y estudiar. Además, queda la duda si se trata de un derrame tuberculoso o de otra causa, ya que respondió parcialmente a la amoxicilina y tiene una clínica aguda, sugerente de neumonía bacteriana, por lo que podría ser paraneumónico. Finalmente, el manejo de los contactos de tuberculosis, se hace apenas se diagnostica el caso y no cuando ya está en la fase bisemanal, en que ya no contagia (además que el estudio de los contactos es con BK y RxTx).",
+  "conf": 0.4,
+  "alertas": [
+   "explicacion_admite_duda",
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Enero 2023 · Pregunta 145",
+  "year": 2023,
+  "codes": [
+   "1.05.5.012 [resp-21: Ventilación mecánica no invasiva]"
+  ],
+  "stem": "Paciente con EPOC exacerbado con pH <7,30 y pCO2 >49 mmHg tras O2, broncodilatadores, antibióticos y corticoides. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Intubación orotraqueal e inicio de VMI | B) Ventilación mecánica no invasiva (VNI/BIPAP) | C) Aumentar FiO2 a 60% | D) Heliox y magnesio endovenoso | E) Traslado a UCI sin cambiar manejo",
+  "correcta": "B",
+  "explicacion": "Conducta / Tratamiento indicado: **Ventilación mecánica no invasiva (VNI/BIPAP)** (opción **B**). Ventilación mecánica no invasiva (VNI/BIPAP). Según los consensos y guías clínicas del MINSAL, esta constituye la conducta estándar de primera línea recomendada para este nivel de atención.",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2025 · Pregunta 163",
+  "year": 2025,
+  "codes": [
+   "1.05.5.012 [resp-21: Ventilación mecánica no invasiva]"
+  ],
+  "stem": "Un paciente de 72 años, con antecedente de tabaquismo de 50 paquetes/año, complicado con enfermedad pulmonar obstructiva crónica severa en tratamiento con salmeterol y fluticasona inhalados, presenta aumento de su tos y disnea desde hace 3 días, agregándose expectoración mucopurulenta y fiebre hasta 38,4 °C. Luego evoluciona con marcado aumento de su disnea, la que se vuelve de reposo. Al examen físico se observa agitado, orientado en tiempo y espacio, disneico, con uso de musculatura accesoria, frecuencia respiratoria: 40 rpm, saturación de oxígeno: 84%, frecuencia cardíaca: 108 lpm y presión arterial: 146/92 mmHg. El examen pulmonar muestra aumento del diámetro torácico, hipersonoridad a la percusión, sibilancias y roncus bilaterales difusos, con algunos crépitos más intensos en el lado derecho. Los gases arteriales muestran: PaO₂: 65 mmHg, PaCO₂: 55 mmHg, HCO₃⁻: 28 mEq/L, pH: 7,29. Su hemograma muestra hematocrito: 50%, hemoglobina: 17 g/dL, plaquetas: 380.000/mm³ y glóbulos blancos: 14.500/mm³. Se inicia nebulización con broncodilatadores y se administran antibióticos y corticoides por vía endovenosa. ¿Cuál es la conducta más adecuada para su manejo respiratorio?",
+  "options": "A) Oxígeno por mascarilla Venturi al 50% | B) Oxígeno por mascarilla de no recirculación | C) Oxígeno por naricera al 24% | D) Oxígeno por cánula nasal de alto flujo a 15 L/min | E) Ven2lación mecánica no invasiva",
+  "correcta": "E",
+  "explicacion": "Tiene hipercarbia, por lo que requiere ventilación mecánica. La regla general es que sea no invasiva (VMNI), a menos que no la tolere o que tenga encefalopatía, casos en los que se maneja con ventilación mecánica invasiva (VMI). El punto de corte de la PaCO2 es 50 mmHg, aunque se debe considerar desde los 45 mmHg, especialmente si está encefalópata o con hipoxia.",
+  "conf": 0.6,
+  "alertas": [
+   "texto_corrupto"
+  ]
+ }
+]

@@ -1,0 +1,604 @@
+{
+  "classId": "ob-10",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Aborto: interrupción del embarazo antes de las {{c1::20 semanas}} o con peso fetal menor a 500 g.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro · ¿Por qué?",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primera pista para clasificar el aborto: el estado del {{c1::orificio cervical interno (OCI)}}, cerrado o abierto.",
+      "extra": "Después, la ecografía transvaginal.",
+      "origen": "clase:1",
+      "fuente": "Clase · El cuello es tu primera pista",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Amenaza de aborto: metrorragia con OCI {{c1::cerrado}} y embrión con LCF positivos en la ecografía.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Manejo de la amenaza de aborto: reposo relativo, abstinencia sexual y {{c1::descartar patología infecciosa cervical o urinaria}}.",
+      "extra": "No hay beneficio de progesterona de rutina.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Amenaza de aborto",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Amenaza de aborto con cuello cerrado y ecografía normal (saco < 18 mm): {{c1::controlar con nueva ecografía en 7 días}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Dic 2017 · P159",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 159"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Aborto en evolución o inevitable: metrorragia con contracciones dolorosas y OCI {{c1::abierto}}.",
+      "extra": "Membranas íntegras (evolución) o rotas (inevitable).",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Aborto en evolución",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Aborto incompleto: OCI {{c1::abierto}} con restos ovulares heterogéneos y endometrio engrosado (> 15 mm).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 20"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Aborto completo: OCI cerrado, útero contraído y línea endometrial {{c1::fina y lineal (< 8-10 mm)}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Conducta en el aborto completo: {{c1::observación ambulatoria}} y control.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de formas de aborto",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio de aborto retenido: LCN {{c1::≥ 7 mm}} sin latidos cardíacos.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 168",
+        "EUNACOM Julio 2019 · Pregunta 22"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio de aborto retenido: saco gestacional (DMSG) {{c1::≥ 25 mm}} sin embrión.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 10",
+        "EUNACOM Agosto 2021 · Pregunta 77",
+        "EUNACOM Julio 2016 · Pregunta 106"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Saco gestacional de 18 mm sin embrión (menor a 25 mm): no confirma aborto; {{c1::repetir la ecografía en 7 días}}.",
+      "extra": "Puede ser un embarazo normal inicial.",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Dic 2019 · P10",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 10",
+        "EUNACOM Agosto 2021 · Pregunta 77",
+        "EUNACOM Julio 2016 · Pregunta 106"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Embrión de 3 mm sin latidos: aún no cumple criterio de aborto retenido; {{c1::nueva ecografía en 7 días}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Jul 2019 · P22",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 168",
+        "EUNACOM Julio 2019 · Pregunta 22"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Embrión de 9 mm sin latidos con cuello cerrado: {{c1::aborto retenido}}; se ofrece misoprostol o AMEU.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz caso clínico",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento médico del aborto < 12 semanas, estable: {{c1::misoprostol}}.",
+      "extra": "Análogo de PGE1.",
+      "origen": "clase:2",
+      "fuente": "Clase · Manejo",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Misoprostol en el aborto: {{c1::800 mcg}} por vía vaginal o sublingual.",
+      "extra": "Segunda dosis a las 24 horas si no hay expulsión.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Éxito del misoprostol en el aborto: {{c1::> 85-90%}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Manejo farmacológico",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El misoprostol puede causar fiebre autolimitada {{c1::< 38°C}}, cólicos, náuseas y diarrea.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Efectos adversos",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Método quirúrgico de elección en embarazos ≤ 12 semanas: {{c1::AMEU}}, mejor que el legrado instrumental.",
+      "extra": "Menos perforación y menos sinequias (Asherman).",
+      "origen": "clase:2",
+      "fuente": "Clase · Manejo",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El legrado uterino instrumental se reserva para úteros {{c1::> 12 semanas}}, sangrado masivo o falta de aspiración.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Manejo quirúrgico",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Aborto con metrorragia importante, hipotensión y taquicardia: {{c1::vaciamiento uterino}} urgente.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Ene 2023 · P48",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 48",
+        "EUNACOM Diciembre 2022 · Pregunta 129"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Toda paciente Rh negativa no sensibilizada con aborto recibe {{c1::inmunoglobulina anti-D}} dentro de las 72 horas.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Manejo",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Dosis de anti-D: {{c1::300 mcg IM}}, o 120 mcg si es < 12 semanas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Profilaxis Rh",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Aborto séptico: fiebre ≥ 38°C, flujo fétido y útero blando y {{c1::muy doloroso}} a la movilización.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Clínica de alarma",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el aborto séptico se da {{c1::el antibiótico antes de evacuar}}, nunca al revés.",
+      "extra": "Evacuar a las 2 a 4 horas de iniciada la cobertura.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 97"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Aborto séptico: antibióticos EV en {{c1::triple asociación}} (ampicilina, gentamicina y metronidazol o clindamicina).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Aborto séptico",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Evacuación uterina en el aborto séptico: a las {{c1::2 a 4 horas}} de iniciados los antibióticos.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Evacuación quirúrgica",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Histerectomía en el aborto séptico: solo si no responde, hay {{c1::necrosis miometrial}}, pelviperitonitis o shock refractario.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Evacuación quirúrgica",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con Clostridium en el aborto séptico: crepitación, {{c1::ictericia por hemólisis}} masiva y oliguria.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Clínica de alarma",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ley 21.030, causal 1: riesgo vital materno, {{c1::sin límite}} de edad gestacional y sin comité.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tres causales",
+      "codigos": [
+        "3.01.3.002"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ley 21.030, causal 2: patología fetal {{c1::letal}}; requiere ratificación de un segundo especialista.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tres causales",
+      "codigos": [
+        "3.01.3.002"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Causal 3 (violación): hasta {{c1::12 semanas}}, o hasta 14 semanas si la paciente es menor de 14 años.",
+      "extra": "Requiere equipo psicosocial; no exige denuncia.",
+      "origen": "clase:5",
+      "fuente": "Clase · Tres causales",
+      "codigos": [
+        "3.01.3.002"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La objeción de conciencia {{c1::no aplica}} si hay riesgo vital inminente y no hay otro médico disponible.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tres causales",
+      "codigos": [
+        "3.01.3.002"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Embarazo de 18 semanas que pide interrupción sin ninguna causal: {{c1::informar que no procede}} y derivar a consejería.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Jul 2025",
+      "codigos": [
+        "3.01.3.002"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 118"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Aborto provocado: interrupción deliberada antes de las {{c1::22 semanas}} o con un feto menor de 500 g.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Aborto provocado",
+      "codigos": [
+        "3.01.2.001"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c36",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante un aborto provocado con sepsis: hospitalizar, antibióticos EV, evacuar y {{c1::resguardar el secreto profesional}}.",
+      "extra": "La atención no se condiciona a confesión ni denuncia.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz aborto provocado",
+      "codigos": [
+        "3.01.2.001"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c37",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antes del alta tras un aborto provocado: consejería y {{c1::anticoncepción}} (DIU o método hormonal).",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Qué haces tú",
+      "codigos": [
+        "3.01.2.001"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c38",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras ≥ 2 abortos, la causa tratable más importante a descartar es el {{c1::síndrome antifosfolípido}}.",
+      "extra": "Panel: anticoagulante lúpico, anticardiolipina, anti-β2-GPI.",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Jul 2025 · P68",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 68"
+      ]
+    },
+    {
+      "id": "c39",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Suplementación periconcepcional en abortos recurrentes: ácido fólico {{c1::5 mg/día}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Jul 2025 · P145",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 145"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-10/01_aborto-precoz-tardio-gestacion-interrump_alt2__cto-gyo_p124.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Saco gestacional sin embrión (aborto retenido)",
+      "clave": "Saco intrauterino sin embrión ni latidos, cavidad no vacía",
+      "conducta": "Si DMSG ≥ 25 mm: misoprostol 800 mcg o AMEU",
+      "fuente": "Manual CTO Ginecología y Obstetricia 14.ª ed., p. 124",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-10/092_ob_Aborto__Rumack_p1116.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Aborto incompleto",
+      "clave": "Restos ovulares como masa con flujo Doppler dentro de la cavidad",
+      "conducta": "Evacuar con AMEU o misoprostol; antibiótico antes si hay fiebre y mal olor",
+      "fuente": "Diagnostic Ultrasound (Rumack), p. 1116",
+      "codigos": [
+        "3.01.1.001"
+      ],
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Metrorragia del 1.er trimestre: ¿qué miras primero?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0",
+      "pista": "Cuello cerrado: ¿qué muestra la ecografía?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "Cuello abierto: ¿qué alarma cambia todo?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.1",
+      "pista": "Cuello abierto con fiebre y mal olor: ¿qué haces?"
+    }
+  ]
+}

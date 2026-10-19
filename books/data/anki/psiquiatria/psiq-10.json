@@ -1,0 +1,528 @@
+{
+  "classId": "psiq-10",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la esquizofrenia la vía {{c1::mesolímbica}} está hiperactiva y produce los síntomas positivos.",
+      "extra": "Exceso de tono D2.",
+      "origen": "clase:2",
+      "fuente": "Clase · Las cuatro vías dopaminérgicas",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La vía {{c1::mesocortical}} hipoactiva produce los síntomas negativos y cognitivos.",
+      "extra": "Respuesta pobre al antipsicótico.",
+      "origen": "clase:2",
+      "fuente": "Clase · Las cuatro vías dopaminérgicas",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Bloquear D2 en la vía nigroestriada produce {{c1::síntomas extrapiramidales}}; en la tuberoinfundibular, hiperprolactinemia.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Las cuatro vías dopaminérgicas",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Delirios, alucinaciones auditivas y habla desorganizada son síntomas {{c1::positivos}}, con excelente respuesta al fármaco.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Síntomas positivos y negativos",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Aplanamiento, abulia, alogia y anhedonia son síntomas {{c1::negativos}}, de respuesta pobre al fármaco.",
+      "extra": "Se manejan con apoyo psicosocial; no subir mucho el antipsicótico.",
+      "origen": "clase:3",
+      "fuente": "Clase · Síntomas positivos y negativos",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 74",
+        "EUNACOM Julio 2016 · Pregunta 172"
+      ],
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El criterio A de esquizofrenia exige {{c1::2 o más}} síntomas activos durante 1 mes; uno debe ser delirio, alucinación o habla desorganizada.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Criterios DSM-5",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 39",
+        "EUNACOM Diciembre 2025 · Pregunta 76"
+      ],
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La esquizofrenia exige {{c1::6 meses}} de duración total, incluyendo pródromo y fase residual.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Criterios DSM-5",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 51"
+      ],
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los criterios D y E de esquizofrenia excluyen esquizoafectivo, bipolar, tóxicos y causa {{c1::orgánica}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Criterios DSM-5",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La esquizofrenia afecta a cerca del {{c1::1 %}} de la población.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Contexto",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El inicio en hombres es a los {{c1::18 a 25}} años y en mujeres a los 25 a 35.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Contexto",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El cannabis habitual en adolescentes multiplica el riesgo de esquizofrenia por {{c1::2 a 4}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Contexto",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En todo primer episodio psicótico se piden drogas en orina y {{c1::TAC de encéfalo o resonancia}}.",
+      "extra": "También TSH, VDRL, VIH, hemograma y electrolitos.",
+      "origen": "clase:6",
+      "fuente": "Clase · Antes de decir esquizofrenia",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La punción lumbar en un primer episodio se pide si hay fiebre, cefalea súbita o {{c1::signos meníngeos}}.",
+      "extra": "Sospecha de encefalitis.",
+      "origen": "clase:6",
+      "fuente": "Clase · Antes de decir esquizofrenia",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El primer episodio de esquizofrenia es GES N° {{c1::34}} desde los 15 años.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · GES 34",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "En el GES 34 el psiquiatra confirma en {{c1::20 días}} y el tratamiento parte en 24 horas desde la confirmación.",
+      "extra": "El médico general notifica GES y deriva.",
+      "origen": "clase:7",
+      "fuente": "Clase · GES 34",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La primera línea son los antipsicóticos {{c1::atípicos}}: bloqueo dual D2 y 5-HT2A, menos efectos extrapiramidales.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Antipsicóticos de segunda generación",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La risperidona se usa a {{c1::2 a 6 mg}}; sobre 6 mg aumentan SEP y prolactina.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Antipsicóticos de segunda generación",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.010",
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La olanzapina se usa a {{c1::10 a 20 mg}}; es sedante y de alto riesgo metabólico.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Antipsicóticos de segunda generación",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La quetiapina en esquizofrenia se usa a {{c1::300 a 800 mg}}.",
+      "extra": "Sedante, casi sin efectos motores.",
+      "origen": "clase:8",
+      "fuente": "Clase · Antipsicóticos de segunda generación",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El aripiprazol (10 a 30 mg) es agonista parcial D2, no engorda y puede causar {{c1::acatisia}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Antipsicóticos de segunda generación",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El control metabólico del atípico se hace basal, al mes, a los {{c1::3 meses}} y luego anual.",
+      "extra": "Peso, cintura, presión, glicemia y perfil lipídico.",
+      "origen": "clase:10",
+      "fuente": "Clase · Control metabólico",
+      "repaso": true,
+      "codigos": [
+        "5.01.5.002",
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Con aumento de peso y glicemia por olanzapina se indica metformina y rotar a {{c1::aripiprazol}}.",
+      "extra": "Error: suspender sin reemplazo.",
+      "origen": "clase:19",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La distonía aguda aparece en las primeras {{c1::24 a 48 horas}}: tortícolis, crisis oculógira, trismus.",
+      "extra": "Paciente vigil y sin fiebre.",
+      "origen": "clase:11",
+      "fuente": "Clase · Efectos extrapiramidales",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 78",
+        "EUNACOM Agosto 2021 · Pregunta 14",
+        "EUNACOM Julio 2016 · Pregunta 62",
+        "EUNACOM Diciembre 2018 · Pregunta 38",
+        "EUNACOM Julio 2015 · Pregunta 73"
+      ],
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La distonía aguda se trata con {{c1::biperideno}} 5 mg IM o EV.",
+      "extra": "Alternativa en preguntas: benzodiacepina (lorazepam) y suspender el antipsicótico.",
+      "origen": "clase:11",
+      "fuente": "Clase · Efectos extrapiramidales",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La inquietud intolerable de las piernas días después de iniciar risperidona es {{c1::acatisia}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Efectos extrapiramidales",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 13",
+        "EUNACOM Diciembre 2018 · Pregunta 36",
+        "EUNACOM Diciembre 2017 · Pregunta 105",
+        "EUNACOM Diciembre 2019 · Pregunta 57"
+      ],
+      "codigos": [
+        "5.01.1.010",
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La acatisia se trata con propranolol {{c1::20 a 80 mg}} o bajando la dosis.",
+      "extra": "Error: subir el antipsicótico.",
+      "origen": "clase:11",
+      "fuente": "Clase · Efectos extrapiramidales",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.010",
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El parkinsonismo farmacológico aparece en semanas a meses y se trata bajando dosis, rotando a atípico o dando {{c1::biperideno temporal}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Efectos extrapiramidales",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La discinesia tardía aparece tras años y el error es dar {{c1::biperideno}}: la empeora.",
+      "extra": "Se rota el fármaco y se evalúa clozapina.",
+      "origen": "clase:19",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fiebre, rigidez y alteración de conciencia con antipsicótico: {{c1::síndrome neuroléptico maligno}}, urgencia vital.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Seguimiento del depósito",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 109",
+        "EUNACOM Julio 2016 · Pregunta 141"
+      ],
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Ante mala adherencia oral se indica antipsicótico de {{c1::depósito}}; el error es subir la dosis oral.",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El decanoato de flufenazina se usa a 12,5 a 50 mg cada {{c1::2 a 4 semanas}}.",
+      "extra": "IM profunda glútea.",
+      "origen": "clase:13",
+      "fuente": "Clase · Cuando falla la adherencia oral",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El haloperidol decanoato se administra cada {{c1::4 semanas}}; se vigila QT y síntomas motores.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Cuando falla la adherencia oral",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras la remisión del primer episodio el antipsicótico se mantiene al menos {{c1::1 a 2 años}} de forma continua.",
+      "extra": "Con recaídas múltiples: indefinido.",
+      "origen": "clase:16",
+      "fuente": "Clase · Cuánto tiempo y cómo mantener",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Sin respuesta tras {{c1::2}} ensayos de antipsicótico se piensa en clozapina.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Cuánto tiempo y cómo mantener",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/20_psiquiatria/psiq-10/atlas_378_distonia_aguda.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Distonía aguda por antipsicótico (crisis oculógira)",
+      "clave": "Ojos desviados hacia arriba tras iniciar el antipsicótico, en las primeras 24 a 48 horas",
+      "conducta": "Biperideno 5 mg IM o EV",
+      "fuente": "The Atlas of Emergency Medicine (Knoop), p. 506",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.010"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.2",
+      "pista": "Más de 6 meses y estudio negativo: ¿qué diagnóstico y qué se notifica?",
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.2.0",
+      "pista": "Inicio de tratamiento: ¿qué fármaco?",
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.2.0.0",
+      "pista": "Espasmo o inquietud tras el antipsicótico: ¿qué es y qué se da?",
+      "codigos": [
+        "5.01.1.010"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.2.0.2",
+      "pista": "Remisión del primer episodio: ¿cuánto se mantiene?",
+      "codigos": [
+        "5.01.1.010"
+      ]
+    }
+  ]
+}

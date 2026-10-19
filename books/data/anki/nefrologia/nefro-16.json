@@ -1,0 +1,563 @@
+{
+  "classId": "nefro-16",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "GNRP: pérdida de más del {{c1::50 %}} de la TFG en días a semanas.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Definición",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.013",
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "GNRP: síndrome nefrítico activo con acantocitos y {{c1::cilindros hemáticos}} (sedimento telescopado).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Definición",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.013",
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "GNRP: semilunas epiteliales en más del {{c1::50 %}} de los glomérulos viables de la biopsia.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Definición",
+      "repaso": true,
+      "imagen": "biblioteca/07_nefrologia/nefro-16/atlas_115_biopsia_renal_con_semiluna_glo.jpg",
+      "codigos": [
+        "1.09.2.013",
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las semilunas se forman por necrosis de la MBG y proliferación de células {{c1::parietales}} en el espacio de Bowman.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Semilunas",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La semiluna {{c1::celular}} es reversible con tratamiento; la {{c2::fibrosa}} es una cicatriz irreversible.",
+      "extra": "El tiempo es riñón.",
+      "origen": "clase:2",
+      "fuente": "Clase · Semilunas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2023 · Reconstrucción oficial"
+      ],
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El factor pronóstico anatomopatológico clave en GNRP es el porcentaje de semilunas {{c1::fibrosas}} y atrofia tubular.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro · Pregunta Dic. 2023",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adulto mayor con síntomas generales (astenia, baja de peso, febrícula, anemia) y nefrítico: pensar en {{c1::GNRP por vasculitis ANCA}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Definición",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 44",
+        "EUNACOM Diciembre 2018 · Reconstrucción oficial"
+      ],
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La GNRP se clasifica por {{c1::inmunofluorescencia}}: lineal, granular o pauciinmune.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · IF divide en tres",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.013",
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "GNRP tipo 1 (anti-MBG): {{c1::10–15 %}}; tipo 2 (inmunocomplejos): 20–30 %; tipo 3 (ANCA): 60 %.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · IF divide en tres",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tipo 1 anti-MBG: depósito {{c1::lineal}} de IgG a lo largo de la MBG.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla GNRP",
+      "repaso": true,
+      "imagen": "biblioteca/07_nefrologia/nefro-16/atlas_116_semilunas_if_lineal__open-i.jpg",
+      "codigos": [
+        "1.09.2.013",
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anti-MBG con hemorragia alveolar y hemoptisis = síndrome de {{c1::Goodpasture}}.",
+      "extra": "Síndrome riñón-pulmón.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clasificación",
+      "repaso": true,
+      "imagen": "biblioteca/07_nefrologia/nefro-16/atlas_014_hemorragia_alveolar_goodpasture__brant-helms_p446.jpg",
+      "codigos": [
+        "1.09.2.013",
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tipo 2 (inmunocomplejos): IF {{c1::granular}} con C3 bajo.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla GNRP",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.013",
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causas de GNRP tipo 2: lupus clase {{c1::IV}}, postinfecciosa grave, endocarditis y crioglobulinemia mixta (VHC).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tipos 1 y 2",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.013",
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Endocarditis subaguda con hematuria dismórfica, cilindros hemáticos y C3 bajo: GN por {{c1::depósito de complejos inmunes}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Jul. 2017",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 154"
+      ],
+      "codigos": [
+        "1.09.2.013",
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tipo 3 pauciinmune: IF {{c1::negativa}} y ANCA positivo; es la causa más frecuente en mayores de 60 años.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clasificación",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.013",
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Poliangeítis microscópica: ANCA-{{c1::p}} (perinuclear) con anti-{{c2::MPO}}.",
+      "extra": "Riñón aislado o capilaritis pulmonar, sin granulomas.",
+      "origen": "clase:5",
+      "fuente": "Clase · Vasculitis ANCA",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Anti-MPO en la PAM supera el {{c1::80 %}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Vasculitis ANCA",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Granulomatosis con poliangeítis (Wegener): ANCA-{{c1::c}} con anti-{{c2::PR3}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Vasculitis ANCA",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Anti-PR3 en la GPA supera el {{c1::90 %}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Vasculitis ANCA",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "GPA: sinusitis destructiva y nariz en {{c1::silla de montar}}, más nódulos pulmonares cavitados.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Vasculitis ANCA",
+      "repaso": false,
+      "imagen": "biblioteca/03_nefrologia/nefro-16/01_nariz_silla_montar__commons.jpg",
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síndrome riñón-pulmón (hemoptisis + GNRP) con ANA negativos y complemento normal en adulta mayor: {{c1::vasculitis sistémica}} (PAM).",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Jul. 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 106"
+      ],
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con sospecha de GNRP la {{c1::biopsia renal}} es el examen que confirma el diagnóstico y clasifica el tipo.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 164"
+      ],
+      "codigos": [
+        "1.09.2.013",
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si la biopsia se retrasa y el deterioro es acelerado o hay compromiso pulmonar, el error es {{c1::postergar el tratamiento inmunosupresor}}.",
+      "extra": "Biopsiar urgente, pero no esperar para tratar.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.013",
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Inducción en GNRP: metilprednisolona IV {{c1::500–1000 mg/día}} por 3 días, luego prednisona 1 mg/kg/día.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.013",
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tras los pulsos de corticoide se asocia {{c1::ciclofosfamida o rituximab}} para inducir remisión.",
+      "extra": "Rituximab, sobre todo en ANCA recidivante.",
+      "origen": "clase:6",
+      "fuente": "Clase · Biopsiar y tratar",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Con ciclofosfamida se da profilaxis de Pneumocystis con {{c1::cotrimoxazol}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.013",
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cotrimoxazol profiláctico: {{c1::160/800 mg}} 3 veces por semana.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Esquema de rescate",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.013",
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Rituximab en vasculitis ANCA: {{c1::375 mg/m²}} semanal por 4 semanas.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Esquema de rescate",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Plasmaféresis: recambio de {{c1::4 L}} diarios con albúmina al 5 %, 7 a 14 sesiones.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Esquema de rescate",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.013",
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La plasmaféresis es obligatoria en {{c1::anti-MBG/Goodpasture}} y en ANCA con hemorragia alveolar.",
+      "extra": "Rescate triple: pulsos + ciclofosfamida + plasmaféresis.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2021 · Reconstrucción oficial"
+      ],
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Plasmaféresis también en vasculitis ANCA con creatinina > {{c1::5,7 mg/dL}} o diálisis.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Biopsiar y tratar",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cefalea intensa con dolor al tocar el cuero cabelludo en adulto mayor: {{c1::arteritis de células gigantes}}.",
+      "extra": "Vasculitis de vaso grande, no es GNRP.",
+      "origen": "clase:16",
+      "fuente": "Clase · Preguntas reales",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 43"
+      ],
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/03_nefrologia/nefro-16/01_nariz_silla_montar__commons.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Nariz en silla de montar (granulomatosis con poliangeítis)",
+      "clave": "Hundimiento del dorso nasal por sinusitis destructiva y perforación del tabique",
+      "conducta": "Sospechar GPA (ANCA-c/anti-PR3); biopsia renal urgente y pulsos de metilprednisolona más ciclofosfamida o rituximab",
+      "fuente": "Wikimedia Commons · Saddle nose 38",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/07_nefrologia/nefro-16/atlas_014_hemorragia_alveolar_goodpasture__brant-helms_p446.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Hemorragia alveolar difusa (síndrome de Goodpasture)",
+      "clave": "Infiltrados alveolares bilaterales con hemoptisis",
+      "conducta": "Pulsos de metilprednisolona + ciclofosfamida + plasmaféresis diaria",
+      "fuente": "Brant y Helms, p. 446",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.013",
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/07_nefrologia/nefro-16/atlas_015_nodulos_pulmonares_cavitados_e.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Nódulos pulmonares cavitados de la GPA",
+      "clave": "Nódulos con cavidades en ambos pulmones",
+      "conducta": "ANCA-c/anti-PR3, biopsia renal y pulsos más ciclofosfamida o rituximab",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "¿Qué muestra la inmunofluorescencia?",
+      "codigos": [
+        "1.09.2.013",
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0",
+      "pista": "IF lineal con anti-MBG +: ¿qué tipo y qué tratamiento?",
+      "codigos": [
+        "1.09.2.013",
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2.0",
+      "pista": "ANCA con hemorragia alveolar o Cr > 5,7: ¿qué se agrega?",
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.2.1",
+      "pista": "Vasculitis ANCA sin hemorragia: ¿qué esquema?",
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,642 @@
+{
+ "classId": "cardio-25",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fiebre reumática aparece {{c1::2 a 4 semanas}} después de una faringoamigdalitis por estreptococo beta-hemolítico del grupo A.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fiebre reumática",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.008"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fiebre reumática afecta sobre todo a niños de {{c1::5 a 15 años}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.008"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El mecanismo de la fiebre reumática es {{c1::mimetismo molecular}}: la proteína M del estreptococo reacciona con miosina y válvula.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · De la garganta al corazón",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.008"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las infecciones de la {{c1::piel}} no causan fiebre reumática de forma clásica.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.008"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fiebre reumática causa más del {{c1::90%}} de las estenosis mitrales.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.010"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Criterios de Jones: evidencia de estreptococo previo + {{c1::2 mayores}}, o 1 mayor + 2 menores.",
+   "extra": "Evidencia: ASLO, anti-DNasa B, cultivo o test rápido.",
+   "origen": "clase:2",
+   "fuente": "Clase · La regla diagnóstica",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.008"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La {{c1::corea de Sydenham}} y la carditis indolente se diagnostican sin evidencia estreptocócica.",
+   "extra": "Aparecen meses después de la infección.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de Jones",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.008"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Criterios mayores de Jones: carditis, poliartritis migratoria, corea, eritema marginado y {{c1::nódulos subcutáneos}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de Jones",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.008"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "De todas las manifestaciones de la fiebre reumática, la única que deja secuelas permanentes es la {{c1::carditis}}.",
+   "extra": "Artritis, corea, eritema y nódulos no dejan huella.",
+   "origen": "clase:5",
+   "fuente": "Clase · Jones: qué es cada criterio",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.008"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La poliartritis de la fiebre reumática es migratoria, de {{c1::grandes}} articulaciones y cede con aspirina.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Carditis y poliartritis",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.008"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El eritema marginado aparece en tronco y raíz de miembros, {{c1::nunca en la cara}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Corea, eritema y nódulos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.008"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los nódulos subcutáneos son indoloros, en superficies extensoras, y se asocian a {{c1::carditis grave}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Corea, eritema y nódulos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.008"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Criterio menor: fiebre ≥ {{c1::38,5 °C}} en riesgo bajo; ≥ 38 °C en riesgo alto.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Criterios menores",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.008"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Criterio menor: VHS ≥ {{c1::60 mm/h}} o PCR ≥ 3 mg/dL (riesgo bajo).",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Criterios menores",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.008"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La carditis de la fiebre reumática es una {{c1::pancarditis}}: endocardio, miocardio y pericardio.",
+   "extra": "Siempre pedir ecocardiograma: detecta carditis subclínica.",
+   "origen": "clase:3",
+   "fuente": "Clase · Carditis",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.008"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Erradicación del estreptococo en fiebre reumática: penicilina benzatina {{c1::1.200.000 UI}} IM en dosis única.",
+   "extra": "600.000 UI si pesa < 27 kg.",
+   "origen": "clase:6",
+   "fuente": "Clase · Cuatro pilares",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.008",
+    "1.01.3.005"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Antiinflamatorio para la artritis de la fiebre reumática: {{c1::aspirina}} 80-100 mg/kg/día.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Cuatro pilares",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.008"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Carditis moderada o grave: {{c1::prednisona}} 1-2 mg/kg/día por 2-4 semanas.",
+   "extra": "En carditis leve alcanza con aspirina.",
+   "origen": "clase:6",
+   "fuente": "Clase · Cuatro pilares",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.008"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Corea de Sydenham: {{c1::ácido valproico o carbamazepina}}; el haloperidol queda para los casos graves.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Cuatro pilares",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.008"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La prevención primaria es efectiva si el antibiótico se inicia dentro de los {{c1::9 días}} del inicio de la faringitis.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Primaria y secundaria",
+   "repaso": true,
+   "codigos": [
+    "1.01.3.005"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Ante faringitis estreptocócica del escolar, el error clásico es usar {{c1::penicilina sódica endovenosa}}; se usa benzatina o amoxicilina.",
+   "extra": "",
+   "origen": "clase:16",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.3.005"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Profilaxis secundaria: penicilina benzatina 1.200.000 UI IM cada {{c1::3 a 4 semanas}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Primaria y secundaria",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.008",
+    "1.01.3.005"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Profilaxis secundaria sin carditis: {{c1::5 años}} o hasta los 21 años, lo que dure más.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Cuánto tiempo",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.008",
+    "1.01.3.005"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Profilaxis secundaria con carditis sin secuela valvular: {{c1::10 años}} o hasta los 21 años.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Cuánto tiempo",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.008",
+    "1.01.3.005"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Profilaxis secundaria con valvulopatía residual: 10 años o hasta los {{c1::40 años}}.",
+   "extra": "A veces de por vida.",
+   "origen": "clase:8",
+   "fuente": "Clase · Cuánto tiempo",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.008",
+    "1.01.3.005"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En carditis con secuela valvular, el error es suspender la profilaxis a los {{c1::21 años}}; corresponde hasta los 40.",
+   "extra": "",
+   "origen": "clase:16",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.008",
+    "1.01.3.005"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Corea meses después de una faringitis: el error es {{c1::exigir ASLO elevada}}.",
+   "extra": "",
+   "origen": "clase:16",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.008"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En estenosis mitral el ventrículo izquierdo permanece {{c1::normal}} y la aurícula izquierda se dilata.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 158"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La complicación más frecuente de la estenosis mitral es la {{c1::fibrilación auricular}}.",
+   "extra": "Genera edema pulmonar y embolias sistémicas.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Estenosis mitral",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 128",
+    "EUNACOM Julio 2017 · Pregunta 80"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la estenosis mitral descompensan la {{c1::taquicardia}} (embarazo, fiebre, ejercicio, FA rápida) porque acorta la diástole.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Del orificio estrecho a la fibrilación",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.010"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Semiología de la EM: R1 intenso, {{c1::chasquido de apertura}} y retumbo diastólico con refuerzo presistólico.",
+   "extra": "Mientras más cerca de R2 el chasquido, más grave.",
+   "origen": "clase:10",
+   "fuente": "Clase · El ritmo de Duroziez",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 158"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la estenosis mitral el refuerzo presistólico {{c1::desaparece en la fibrilación auricular}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · El ritmo de Duroziez",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 80"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El retumbo de la EM se ausculta en el ápex, con el paciente en decúbito {{c1::lateral izquierdo}} y la campana.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Semiología",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 158"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La estenosis mitral tiene pulso pequeño y presión normal, a diferencia de la insuficiencia aórtica con presión de pulso {{c1::amplia}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · El ritmo de Duroziez",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.010"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El área valvular mitral ≤ {{c1::1,5 cm²}} define la estenosis significativa.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Qué muestra el ecocardiograma",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.010"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En la EM, una presión sistólica pulmonar > {{c1::50 mmHg}} marca repercusión.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Qué muestra el ecocardiograma",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.010"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Una anatomía favorable para balón se define por Wilkins ≤ {{c1::8}}.",
+   "extra": "Mide movilidad, grosor, calcio y aparato subvalvular.",
+   "origen": "clase:12",
+   "fuente": "Clase · Puntaje de Wilkins",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.010"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En EM con FA, trombo o embolia previa se indica {{c1::acenocumarol o warfarina}} con INR 2-3.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Médico, anticoagulación e intervención",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 128"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En EM con FA el error es usar un {{c1::anticoagulante oral directo}}.",
+   "extra": "",
+   "origen": "clase:16",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.010"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "EM sintomática con Wilkins ≤ 8, sin trombo ni insuficiencia mitral significativa: {{c1::valvuloplastía con balón}} (Inoue).",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Intervención",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.010"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En EM sintomática con Wilkins 6, el error es indicar {{c1::reemplazo valvular o solo furosemida}}.",
+   "extra": "",
+   "origen": "clase:16",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.010"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En EM nativa con extracción dental, el error es dar {{c1::amoxicilina de rutina}}: no requiere profilaxis de endocarditis.",
+   "extra": "",
+   "origen": "clase:16",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.010"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "Las lesiones crónicas de válvula aórtica, mitral y tricúspide tienen garantía GES de cirugía desde los {{c1::15 años}}; la fiebre reumática no tiene GES propio.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Perfil · GES",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.010"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-25/01_estenosis-mitral-reumatica-eco-y-3d__harrison_p1890.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Estenosis mitral reumática",
+   "clave": "Valvas pegadas en las puntas y aurícula izquierda muy dilatada",
+   "conducta": "Medir área y Wilkins; descartar trombo; si Wilkins ≤ 8 valvuloplastía con balón",
+   "fuente": "Harrison, Principios de Medicina Interna, 21.ª ed., p. 1890",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.010"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-25/02_cardiopatia-reumatica-valva-mitral-palo-de-hockey__harrison_p2808.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Cardiopatía reumática con mitral en palo de hockey",
+   "clave": "Valva anterior engrosada que se abomba hacia el septo en diástole",
+   "conducta": "Cuantificar estenosis y derivar a cardiología; mantener profilaxis secundaria",
+   "fuente": "Harrison, Principios de Medicina Interna, 21.ª ed., p. 2808",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.010",
+    "1.01.1.008"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.1",
+   "pista": "Semanas después de la faringitis: artritis, soplo, corea. ¿Qué diagnóstico y con qué regla?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "Al alta de fiebre reumática: ¿qué profilaxis?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.2.0",
+   "pista": "EM con Wilkins ≤ 8 y sin trombo: ¿qué procedimiento?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.2.1",
+   "pista": "EM con anatomía desfavorable o trombo: ¿qué conducta?"
+  }
+ ]
+}

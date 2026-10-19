@@ -1,0 +1,625 @@
+{
+ "classId": "cardio-38",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La TVP ocurre en las piernas en más del {{c1::90%}} de los casos.",
+   "extra": "En brazos: catéteres centrales, marcapasos y cáncer.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La TVP {{c1::proximal}} (poplítea, femoral, ilíaca, cava) da TEP en cerca de la mitad de los casos si no se trata.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Toda TVP proximal no tratada tiene {{c1::30 a 50%}} de riesgo de embolizar.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Complicaciones",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El antecedente de TVP o TEP previo es el factor individual más importante de {{c1::recurrencia}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se sospecha trombofilia en una TVP en menor de {{c1::45 años}} sin factor de riesgo, con historia familiar o recurrente.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Síndrome antifosfolípido: TVP con TTPA prolongado, VDRL falso positivo y trombocitopenia leve; se trata con {{c1::warfarina}}.",
+   "extra": "No con DOAC.",
+   "origen": "clase:5",
+   "fuente": "Clase · Flegmasia, trombofilia y tromboflebitis",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El SAF se confirma con anticoagulante lúpico, anticardiolipina y anti-beta-2-glicoproteína I positivos en dos ocasiones separadas por {{c1::12 semanas}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Clínica de TVP: pantorrilla más gruesa en > {{c1::3 cm}} que la contralateral, medida 10 cm bajo la tuberosidad tibial.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · La pierna dolorosa y edematosa",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La TVP clásica da dolor, edema asimétrico unilateral, {{c1::empastamiento}} muscular y venas colaterales dilatadas.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · La pierna dolorosa y edematosa",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hasta un tercio de las TVP son asintomáticas y se descubren por una {{c1::embolia pulmonar}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clínica",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El signo de {{c1::Homans}} es poco sensible y específico: no sirve para decidir.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · La pierna dolorosa y edematosa",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor súbito en hueco poplíteo y pantorrilla con artrosis de rodilla: {{c1::quiste de Baker}} roto.",
+   "extra": "El eco-Doppler lo distingue.",
+   "origen": "clase:1",
+   "fuente": "Clase · La pierna dolorosa y edematosa",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El edema bilateral orienta a insuficiencia cardíaca o {{c1::hipoalbuminemia}}, no a TVP.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clínica",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Flegmasia cerulea dolens: TVP ileofemoral masiva con pierna {{c1::cianótica}}, edema a tensión y pulsos ausentes.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Flegmasia, trombofilia y tromboflebitis",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La flegmasia {{c1::alba}} dolens es la forma menos grave: pierna pálida y edematosa.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clínica",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Flegmasia cerulea dolens: heparina de inmediato y trombólisis por catéter o {{c1::trombectomía}} urgente.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Flegmasia, trombofilia y tromboflebitis",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Pierna azul con edema a tensión: flegmasia; el error es tratar solo con {{c1::HBPM}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Wells para TVP: ≥ {{c1::2}} puntos es «TVP probable».",
+   "extra": "< 2 es improbable.",
+   "origen": "clase:2",
+   "fuente": "Clase · Diagrama: Wells, dímero D y eco-Doppler",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Wells de TVP resta 2 puntos si hay un {{c1::diagnóstico alternativo}} tan probable como la TVP.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Wells de TVP: cada uno suma 1 punto, p. ej. cáncer activo, yeso reciente, postración > 3 días y {{c1::TVP previa}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "TVP improbable (Wells < 2): se pide {{c1::dímero D}}.",
+   "extra": "Negativo descarta; positivo, eco-Doppler.",
+   "origen": "clase:2",
+   "fuente": "Clase · Diagrama: Wells, dímero D y eco-Doppler",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "TVP probable (Wells ≥ 2): se pide directo el {{c1::eco-Doppler}} venoso, sin dímero D.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Diagrama: Wells, dímero D y eco-Doppler",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Pierna hinchada con alta probabilidad: eco-Doppler con compresión; el error es el {{c1::dímero D}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Probabilidad baja y dímero D negativo descarta TVP; el error es {{c1::pedir eco igual}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Dímero D positivo no confirma TVP: se hace {{c1::eco-Doppler}}.",
+   "extra": "Se eleva en embarazo, cáncer, infección y cirugía.",
+   "origen": "clase:7",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El examen confirmatorio de elección de la TVP es el eco-Doppler venoso con {{c1::compresión}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de TVP",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Criterio diagnóstico del eco-Doppler en TVP: la vena {{c1::no colapsa}} al comprimirla.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Diagrama: Wells, dímero D y eco-Doppler",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Si el eco-Doppler es negativo y la sospecha persiste, se repite en {{c1::5 a 7 días}}.",
+   "extra": "Detecta extensión proximal de una TVP distal.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En TVP no provocada de un adulto joven se pide estudio de trombofilia {{c1::al terminar}} el tratamiento.",
+   "extra": "La fase aguda y la anticoagulación alteran los resultados.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se anticoagula una TVP de probabilidad alta sin esperar el eco-Doppler si este demora más de {{c1::4 horas}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tratamiento",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La anticoagulación en TVP evita la extensión, el TEP y la recurrencia, pero {{c1::no disuelve}} el trombo.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Enoxaparina en TVP: {{c1::1 mg/kg}} cada 12 horas subcutánea.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Anticoagular de inmediato",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En la TVP con insuficiencia renal grave se prefiere {{c1::heparina no fraccionada}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Anticoagular de inmediato",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Rivaroxabán en TVP: 15 mg cada 12 horas por {{c1::21 días}} y luego 20 mg al día.",
+   "extra": "Sin heparina previa.",
+   "origen": "clase:4",
+   "fuente": "Clase · Anticoagular de inmediato",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Apixabán en TVP: 10 mg cada 12 horas por {{c1::7 días}} y luego 5 mg cada 12 horas.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Anticoagular de inmediato",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Los antagonistas de vitamina K requieren superposición con heparina al menos {{c1::5 días}} hasta INR 2-3.",
+   "extra": "Elección en SAF y válvulas mecánicas.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "TVP provocada por factor transitorio: anticoagular {{c1::3 meses}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Anticoagular de inmediato",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "TVP recurrente, con cáncer activo o SAF: anticoagulación {{c1::indefinida}}.",
+   "extra": "TVP no provocada: 3-6 meses o más.",
+   "origen": "clase:4",
+   "fuente": "Clase · Anticoagular de inmediato",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "TVP confirmada: se indica deambulación; el error es el {{c1::reposo absoluto}}.",
+   "extra": "El reposo no previene el TEP.",
+   "origen": "clase:7",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las medias de compresión alivian dolor y edema, pero no previenen consistentemente el síndrome {{c1::postrombótico}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El filtro de vena cava inferior se usa si la anticoagulación está {{c1::contraindicada}} o fracasa.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tromboflebitis superficial: AINE, calor local y deambulación; se anticoagula si el trombo mide ≥ {{c1::5 cm}} o está cerca de la unión safeno-femoral.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Flegmasia, trombofilia y tromboflebitis",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tromboflebitis {{c1::migratoria}} sugiere cáncer (síndrome de Trousseau).",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Complicaciones",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Operada con disnea e hipotensión: es {{c1::TEP masivo}}; el error es pensar en atelectasia.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 83"
+   ],
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Tromboprofilaxis en el paciente quirúrgico: enoxaparina {{c1::40 mg}} al día.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Complicaciones",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-38/01_tvp-pierna-derecha-edematosa__commons.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "TVP de la pierna derecha",
+   "clave": "Edema asimétrico unilateral de la pierna con aumento de volumen de la pantorrilla",
+   "conducta": "Wells; eco-Doppler con compresión y anticoagulación con HBPM o DOAC",
+   "fuente": "Wikimedia Commons, CC BY-SA 3.0",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "TVP improbable (Wells < 2): ¿qué examen?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1",
+   "pista": "TVP probable (Wells ≥ 2): ¿qué examen?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.0",
+   "pista": "TVP confirmada: ¿qué conducta?"
+  }
+ ]
+}

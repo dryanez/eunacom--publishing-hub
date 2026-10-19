@@ -1,0 +1,512 @@
+{
+  "classId": "endo-16",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Más del 90% de las hipercalcemias se deben a {{c1::hiperparatiroidismo primario}} (ambulatorio) y {{c2::neoplasias}} (hospitalizado).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · ¿Por qué?",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Del calcio total, el {{c1::50%}} es iónico libre (activo) y 40% va unido a proteínas, sobre todo albúmina.",
+      "extra": "El 10% restante va unido a aniones.",
+      "origen": "clase:1",
+      "fuente": "Clase · Fisiología",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Calcio corregido = calcio medido + {{c1::0,8 × (4,0 − albúmina)}}.",
+      "extra": "Albúmina en g/dL y calcio en mg/dL.",
+      "origen": "clase:1",
+      "fuente": "Clase · Corrección por albúmina",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 175"
+      ],
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con albúmina baja, un calcio total aparentemente normal puede ocultar {{c1::una hipercalcemia real}}: siempre se corrige.",
+      "extra": "Error frecuente: darlo por normal.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La PTH aumenta la reabsorción de calcio en el túbulo distal y {{c1::inhibe la reabsorción proximal de fosfato}} (hipofosfatemia).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiología PTH",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.010",
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La PTH activa la {{c1::1-alfa-hidroxilasa}} renal, que convierte la 25-OH vitamina D en calcitriol.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiología PTH",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.010",
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El primer examen ante toda hipercalcemia confirmada es la {{c1::PTH intacta}}.",
+      "extra": "El error es pedir cintigrafía ósea o vitamina D.",
+      "origen": "clase:3",
+      "fuente": "Clase · La PTH divide el camino",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 8",
+        "EUNACOM Julio 2017 · Pregunta 78",
+        "EUNACOM Agosto 2021 · Pregunta 121",
+        "EUNACOM Diciembre 2017 · Pregunta 33",
+        "EUNACOM Julio 2013 · Pregunta 177"
+      ],
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipercalcemia con PTH alta o inapropiadamente normal indica {{c1::hiperparatiroidismo primario}}; con PTH suprimida, neoplasia o vitamina D.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · La PTH divide el camino",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 32"
+      ],
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La tríada bioquímica del hiperparatiroidismo primario es {{c1::calcio alto, fósforo bajo y PTH alta}}.",
+      "extra": "",
+      "origen": "clase:21",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 167"
+      ],
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El hiperparatiroidismo primario se debe en un {{c1::85%}} a un adenoma paratiroideo único benigno.",
+      "extra": "Hiperplasia de las 4 glándulas: 12-15%; carcinoma: menos de 1%.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020",
+        "1.03.4.010"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el hiperparatiroidismo primario el fósforo está bajo, menor de {{c1::2.5 mg/dL}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla diferencial",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En hipercalcemia maligna la PTH está suprimida, menor de {{c1::10 pg/mL}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020",
+        "1.03.4.010"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El mecanismo más frecuente de hipercalcemia maligna es el {{c1::PTHrP}} (80%): epidermoide de pulmón, esófago, cabeza y cuello, cérvix, riñón.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · PTH suprimida",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Metástasis osteolíticas (mama, mieloma múltiple) causan hipercalcemia con PTH {{c1::suprimida}} y fósforo alto o normal.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla diferencial",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Linfomas y granulomas (sarcoidosis, tuberculosis) causan hipercalcemia por exceso de {{c1::calcitriol}} y responden a corticoides.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · PTH suprimida",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la hipercalcemia hipocalciúrica familiar hay mutación del {{c1::CaSR}}, calciuria muy baja y {{c2::no se opera}}.",
+      "extra": "FE de calcio menor de 1%.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla diferencial",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La clínica del hiperparatiroidismo incluye poliuria y polidipsia por {{c1::diabetes insípida nefrogénica}} inducida por calcio.",
+      "extra": "También litiasis cálcica recurrente y nefrocalcinosis.",
+      "origen": "clase:6",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 89"
+      ],
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el ECG, la hipercalcemia {{c1::acorta el intervalo QT}}.",
+      "extra": "La hipocalcemia lo alarga.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Clínica",
+      "repaso": true,
+      "imagen": "biblioteca/05_endocrinologia/endo-16/01_qt_calcio_esquema__ecg-basics_p331.jpg",
+      "codigos": [
+        "1.03.1.020",
+        "1.03.2.004"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La crisis hipercalcémica se define por calcio corregido de {{c1::14 mg/dL o más}}: estupor, arritmias y falla renal.",
+      "extra": "Se maneja en UCI.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de severidad",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La primera medida en la crisis hipercalcémica es {{c1::suero fisiológico 0,9%}}, 200 a 300 mL/hora.",
+      "extra": "El déficit es de 3 a 5 litros.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Manejo",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 123",
+        "EUNACOM Julio 2025 · Pregunta 79",
+        "EUNACOM Julio 2016 · Pregunta 156",
+        "EUNACOM Julio 2015 · Pregunta 67",
+        "EUNACOM Enero 2023 · Pregunta 105"
+      ],
+      "codigos": [
+        "1.03.1.020",
+        "1.03.2.004"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la crisis hipercalcémica, el error es partir con {{c1::furosemida}}, zoledronato o calcitonina solos.",
+      "extra": "La furosemida solo si está euvolémico y sobrecargado.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Bifosfonato EV de elección: {{c1::ácido zoledrónico 4 mg}} en infusión de 15 minutos.",
+      "extra": "Efecto a las 48-72 horas; nadir a los 4-7 días.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Manejo",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.020",
+        "1.03.2.004"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Calcitonina de salmón: {{c1::4 a 8 UI/kg}} cada 12 horas; baja el calcio en 4 a 6 horas pero da taquifilaxia a las 48 horas.",
+      "extra": "Es un puente mientras actúa el bifosfonato.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Manejo",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020",
+        "1.03.2.004"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Los glucocorticoides se agregan solo si la hipercalcemia es por {{c1::exceso de calcitriol}} (linfomas, mieloma, sarcoidosis).",
+      "extra": "El error es usarlos en toda hipercalcemia.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En una crisis en hiperparatiroidismo primario se hidrata y estabiliza; el error es la {{c1::paratiroidectomía de urgencia}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El único tratamiento curativo del hiperparatiroidismo primario es la {{c1::paratiroidectomía}}, mandatoria si es sintomático.",
+      "extra": "Se localiza antes con sestamibi y ecografía cervical.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Cirugía",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Paratiroidectomía en asintomático si la edad es menor de {{c1::50 años}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Quién se opera",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Paratiroidectomía en asintomático si el calcio está más de {{c1::1 mg/dL}} sobre el límite superior normal.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Quién se opera",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio óseo de cirugía: T-score menor de {{c1::−2,5}} o fractura vertebral.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Quién se opera",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio renal de cirugía: VFG menor de {{c1::60}} mL/min, calciuria mayor de 400 mg/día o litiasis en imagen.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Quién se opera",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras la paratiroidectomía, la hipocalcemia e hipofosfatemia graves corresponden al {{c1::síndrome del hueso hambriento}}.",
+      "extra": "Se trata con calcio y calcitriol agresivos.",
+      "origen": "clase:9",
+      "fuente": "Clase · Hueso hambriento",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La hipercalcemia y el hiperparatiroidismo primario {{c1::no tienen GES}} directo; solo por patología oncológica o nefrológica concurrente.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Perfil / GES",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/05_endocrinologia/endo-16/03_osteitis_fibrosa_falanges__helms_p15.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Osteítis fibrosa quística (hiperparatiroidismo avanzado)",
+      "clave": "Lesiones quísticas y resorción subperióstica en falanges",
+      "conducta": "Confirmar con PTH intacta; paratiroidectomía por ser sintomático",
+      "fuente": "Fundamentals of Skeletal Radiology (Helms), p. 15",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/05_endocrinologia/endo-16/04_sestamibi_adenoma_paratiroideo__brant_p1466.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Adenoma paratiroideo en cintigrama con sestamibi",
+      "clave": "Foco que sigue captando, señalado por la flecha",
+      "conducta": "Localizar con sestamibi y ecografía cervical antes de la paratiroidectomía focalizada",
+      "fuente": "Fundamentals of Diagnostic Radiology (Brant and Helms), p. 1466",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.020"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Calcio ≥ 14 con compromiso: ¿qué haces primero?",
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1.0",
+      "pista": "PTH normal y calciuria muy baja: ¿diagnóstico y conducta?",
+      "codigos": [
+        "1.03.1.020"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1.1",
+      "pista": "PTH alta y calciuria no baja: ¿qué conducta?",
+      "codigos": [
+        "1.03.1.020"
+      ]
+    }
+  ]
+}

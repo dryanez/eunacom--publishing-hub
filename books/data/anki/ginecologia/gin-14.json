@@ -1,0 +1,549 @@
+{
+  "classId": "gin-14",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El cáncer de mama está cubierto por el {{c1::GES N° 4}} en personas de 15 años y más.",
+      "extra": "Primera causa de muerte por cáncer en mujeres en Chile.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.030",
+        "4.01.1.035"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "Tamizaje GES de cáncer de mama: mamografía bilateral cada {{c1::2 años}} entre los 50 y 69 años.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.030",
+        "3.01.3.013",
+        "4.01.3.012"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En alto riesgo genético el tamizaje se inicia a los {{c1::30-35 años}} (o 10 años antes del familiar más joven).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Tamizaje",
+      "codigos": [
+        "3.01.1.030",
+        "4.01.3.012"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Las mutaciones BRCA1 y BRCA2 dan un riesgo acumulado de cáncer de mama de {{c1::60-80%}}.",
+      "extra": "Y de cáncer de ovario de 20-40%.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Factores de riesgo",
+      "codigos": [
+        "3.01.1.030"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "BI-RADS 0 significa estudio {{c1::incompleto}}: se complementa con otra imagen (ecografía u otras proyecciones).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla BI-RADS",
+      "codigos": [
+        "3.01.4.002",
+        "3.01.4.006"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 16",
+        "EUNACOM Agosto 2021 · Pregunta 49",
+        "EUNACOM Julio 2025 · Pregunta 41"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una ecografía mamaria BI-RADS 0 en mujer de 45 años se completa con {{c1::mamografía bilateral}}.",
+      "extra": "La mamografía es el examen base.",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz Jul 2025",
+      "codigos": [
+        "3.01.4.006"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 41"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "BI-RADS 1 y 2: control habitual a los {{c1::2 años}} (riesgo de cáncer 0%).",
+      "extra": "BI-RADS 2 es un hallazgo benigno (quistes, fibroadenoma calcificado).",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla BI-RADS",
+      "codigos": [
+        "3.01.4.002"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 166"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "BI-RADS 3 (probablemente benigno): riesgo de malignidad < {{c1::2%}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla BI-RADS",
+      "codigos": [
+        "3.01.4.002"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "BI-RADS 3: conducta es mamografía de control a los {{c1::6 meses}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.4.002",
+        "4.01.4.009"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 179",
+        "EUNACOM Agosto 2021 · Pregunta 174"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "BI-RADS 3: el error es {{c1::biopsiar de entrada}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.4.002"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "BI-RADS 5 (altamente sospechoso): riesgo de malignidad > {{c1::95%}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla BI-RADS",
+      "codigos": [
+        "3.01.4.002"
+      ],
+      "repaso": false,
+      "imagen": "biblioteca/13_ginecologia/gin-14/01_mamografia_carcinoma__bailey_p882.jpg"
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "BI-RADS 4 y 5: {{c1::biopsia con aguja gruesa}} (core biopsy) obligatoria.",
+      "extra": "",
+      "origen": "clase:23",
+      "fuente": "Clase · Reglas de oro",
+      "codigos": [
+        "3.01.4.002",
+        "4.01.3.012"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 93",
+        "EUNACOM Diciembre 2018 · Pregunta 178"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Microcalcificaciones agrupadas no palpables BI-RADS 4: biopsia guiada por {{c1::estereotaxia}}.",
+      "extra": "",
+      "origen": "clase:21",
+      "fuente": "Clase · Quiz Jul 2016",
+      "codigos": [
+        "3.01.4.002",
+        "4.01.3.012"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 134",
+        "EUNACOM Diciembre 2019 · Pregunta 48",
+        "EUNACOM Enero 2023 · Pregunta 156",
+        "EUNACOM Julio 2019 · Pregunta 153"
+      ],
+      "imagen": "biblioteca/13_ginecologia/gin-14/01_microcalcificaciones-sospechosas-mamogra_alt2__amir-gyo_p135.jpg"
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "BI-RADS 4 o 5: el error es hacer {{c1::PAAF}} o solo controlar.",
+      "extra": "La PAAF solo da células sueltas.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.4.002"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adenopatía axilar dura, indolora y fija en mujer mayor: {{c1::cáncer de mama}} hasta demostrar lo contrario.",
+      "extra": "La hidrosadenitis es dolorosa y el lipoma blando.",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz Jul 2015",
+      "codigos": [
+        "4.01.1.035"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 27"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Piel de naranja: edema por compromiso de los {{c1::linfáticos de la piel}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Signos en la piel",
+      "codigos": [
+        "3.01.1.030"
+      ],
+      "repaso": false,
+      "imagen": "biblioteca/13_ginecologia/gin-14/02_piel_de_naranja__bailey_p895.jpg"
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lesión pruriginosa descamativa del pezón y la areola sin respuesta a antimicóticos: {{c1::enfermedad de Paget}} de la mama.",
+      "extra": "Es una forma de cáncer de mama.",
+      "origen": "clase:3",
+      "fuente": "Clase · Piel",
+      "codigos": [
+        "3.01.1.030",
+        "4.01.1.035"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 44",
+        "EUNACOM Diciembre 2022 · Pregunta 173"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fibroadenoma: tumor sólido benigno más frecuente en mujeres de {{c1::15 a 35 años}}; nódulo firme, móvil e indoloro.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Patología benigna",
+      "codigos": [
+        "3.01.1.029",
+        "4.01.1.036"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 161",
+        "EUNACOM Agosto 2021 · Pregunta 50"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ecografía del fibroadenoma: masa hipoecogénica circunscrita, {{c1::más ancha que alta}}, con eje mayor paralelo a la piel.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Fibroadenoma",
+      "codigos": [
+        "3.01.1.029",
+        "3.01.4.006"
+      ],
+      "repaso": false,
+      "imagen": "biblioteca/13_ginecologia/gin-14/03_fibroadenoma-mamografia__cto-radiologia_p132.jpg"
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fibroadenoma < 2-3 cm y estable: {{c1::observación}}; se extirpa si crece o genera dudas.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Fibroadenoma",
+      "codigos": [
+        "3.01.1.029",
+        "4.01.1.036"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 169"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En una mujer joven con nódulo mamario palpable el estudio inicial es la {{c1::ecografía mamaria}}.",
+      "extra": "Mama densa: la mamografía rinde poco.",
+      "origen": "clase:4",
+      "fuente": "Clase · Ecografía mamaria",
+      "codigos": [
+        "3.01.4.006",
+        "4.01.1.036"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 176",
+        "EUNACOM Julio 2016 · Pregunta 21"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Nódulo joven, móvil y benigno: el error es la {{c1::extirpación inmediata}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.029"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Condición fibroquística: mastalgia cíclica premenstrual bilateral con nodularidad en {{c1::bolsa de perdigones}}; manejo sintomático.",
+      "extra": "Es lo más frecuente de 30 a 50 años.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Fibroquística",
+      "codigos": [
+        "3.01.1.029"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Telorrea serohemática unicanalicular espontánea en no lactante: {{c1::papiloma intraductal}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.029",
+        "4.01.1.036"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Telorrea hemática uniporo: el error es atribuirla a {{c1::mastopatía fibroquística}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.029"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Absceso mamario: se trata con {{c1::drenaje quirúrgico}} y antibióticos.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Ecografía mamaria",
+      "codigos": [
+        "4.01.1.036"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 7",
+        "EUNACOM Julio 2019 · Pregunta 77",
+        "EUNACOM Diciembre 2025 · Pregunta 45"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Luminal A: RE y RP positivos, HER2 negativo y Ki-67 bajo; se trata con {{c1::hormonoterapia}}.",
+      "extra": "Rara vez requiere quimioterapia.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Subtipos",
+      "codigos": [
+        "3.01.1.030"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Luminal B (Ki-67 alto o HER2 positivo): {{c1::quimioterapia más hormonoterapia}}.",
+      "extra": "Error: tratarlo solo con hormonoterapia.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.030"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "HER2 enriquecido: quimioterapia más {{c1::trastuzumab}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Subtipos",
+      "codigos": [
+        "3.01.1.030"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c36",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Triple negativo (RE, RP y HER2 negativos): no responde a hormonoterapia ni trastuzumab; se trata con {{c1::quimioterapia}}.",
+      "extra": "Típico de mujeres jóvenes y BRCA1.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Subtipos",
+      "codigos": [
+        "3.01.1.030"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c37",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hormonoterapia: {{c1::tamoxifeno}} en premenopáusicas; inhibidores de aromatasa en postmenopáusicas.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.030"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c38",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cirugía conservadora de mama exige siempre {{c1::radioterapia}} sobre la mama restante.",
+      "extra": "Error: omitirla si el margen quedó libre.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.030"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c39",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Axila clínicamente negativa: biopsia del {{c1::ganglio centinela}}; si es negativo se evita el vaciamiento y el linfedema.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.030"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-14/01_mamografia_carcinoma__bailey_p882.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Carcinoma de mama (BI-RADS 4-5)",
+      "clave": "Masa espiculada hiperdensa en la mamografía",
+      "conducta": "Biopsia con aguja gruesa guiada por imagen; notificar GES",
+      "fuente": "Bailey & Love 27.ª ed., Fig. 53.2",
+      "codigos": [
+        "3.01.1.030",
+        "3.01.4.002"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-14/05_quiste-simple-mama-eco__rumack_p821.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Quiste simple de mama",
+      "clave": "Área anecoica de paredes finas con refuerzo acústico posterior",
+      "conducta": "Se punciona solo si es sintomático",
+      "fuente": "Diagnostic Ultrasound (Rumack), Fig. 20-40",
+      "codigos": [
+        "3.01.1.029",
+        "3.01.4.006"
+      ],
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "BI-RADS 0: ¿qué se hace?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.2.0",
+      "pista": "BI-RADS 3 sin factores de riesgo: ¿conducta?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.3",
+      "pista": "BI-RADS 4 o 5: ¿qué examen?"
+    }
+  ]
+}

@@ -1,0 +1,711 @@
+{
+ "classId": "cardio-29",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Más del {{c1::90%}} de las HTA son primarias o esenciales, sin causa identificable.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La HTA es {{c1::silenciosa}}: la mayoría no tiene síntomas hasta que aparece el daño de órgano blanco.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Una enfermedad que no se siente",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Daño de órgano blanco de la HTA: corazón, cerebro, riñón, retina y {{c1::arterias}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Medición: paciente sentado con {{c1::5 minutos}} de reposo, espalda apoyada y brazo a la altura del corazón.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo se mide bien",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El brazalete debe cubrir al menos el {{c1::80%}} de la circunferencia del brazo.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo se mide bien",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Un brazalete pequeño en un obeso {{c1::sobrestima}} la PA: el error es diagnosticar HTA con esa cifra.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la primera consulta se mide la PA en {{c1::ambos brazos}}; diferencia sostenida > 15-20 mmHg: pensar en disección.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo se mide bien",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se hacen {{c1::2 tomas}} por visita y se promedian; una tercera si difieren > 5 mmHg.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo se mide bien",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hipotensión ortostática: caída de ≥ {{c1::20 mmHg}} sistólica o ≥ 10 mmHg diastólica.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Diagnóstico de HTA en consulta: promedio ≥ {{c1::140/90 mmHg}} en ≥ 2 visitas separadas por 1-2 semanas.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Los cortes que se preguntan",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se diagnostica HTA en la primera consulta si la PA es ≥ {{c1::180/110 mmHg}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Los cortes que se preguntan",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "También se diagnostica en la primera consulta una PA ≥ 140/90 con {{c1::daño de órgano blanco}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Los cortes que se preguntan",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Con ≥ 180/110 o daño de órgano blanco, el error es {{c1::esperar otra visita}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "MAPA: promedio de 24 horas ≥ {{c1::130/80 mmHg}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Los cortes que se preguntan",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015",
+    "1.01.4.011"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "MAPA: promedio diurno (vigilia) ≥ {{c1::135/85 mmHg}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Los cortes que se preguntan",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015",
+    "1.01.4.011"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "MAPA: promedio nocturno (sueño) ≥ {{c1::120/70 mmHg}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Los cortes que se preguntan",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015",
+    "1.01.4.011"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "AMPA: promedio de 7 días ≥ {{c1::135/85 mmHg}}, descartando el primer día.",
+   "extra": "2 tomas en la mañana y 2 en la noche.",
+   "origen": "clase:3",
+   "fuente": "Clase · Los cortes que se preguntan",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El MAPA registra la presión cada 20-30 min de día y 30-60 min de noche, por {{c1::24 horas}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 MAPA",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.011"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El MAPA es válido con al menos {{c1::70%}} de las lecturas esperadas.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de métodos",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.011"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El MAPA es el {{c1::estándar de oro}} para confirmar HTA y estratificar riesgo.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de métodos",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.011"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Bata blanca: consulta ≥ 140/90 con MAPA o AMPA {{c1::normales}}; sin fármaco y control anual.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Bata blanca y enmascarada",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015",
+    "1.01.4.011"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "MAPA 24 h < 130/80 con consulta alta: el error es {{c1::iniciar antihipertensivo}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015",
+    "1.01.4.011"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "HTA enmascarada: consulta normal con MAPA o AMPA {{c1::elevados}}; se trata como HTA.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Bata blanca y enmascarada",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015",
+    "1.01.4.011"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Carga tensional patológica en el MAPA: > {{c1::40%}} de lecturas elevadas.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Bata blanca y enmascarada",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.011"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Patrón dipper: la PA cae entre {{c1::10 y 20%}} durante el sueño.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 MAPA",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.011"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Patrón non-dipper (cae < 10%) o riser: buscar {{c1::SAHOS}}, ERC, hiperaldosteronismo y exceso de sal.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.011"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "HTA grado 1: {{c1::140-159 / 90-99}} mmHg.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Grados, riesgo y órgano blanco",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "HTA grado 2: {{c1::160-179 / 100-109}} mmHg.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Grados, riesgo y órgano blanco",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "HTA grado 3: ≥ {{c1::180/110}} mmHg.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Grados, riesgo y órgano blanco",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "HTA sistólica aislada: PAS ≥ 140 con PAD < {{c1::90}}; típica del adulto mayor por rigidez arterial.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Grados, riesgo y órgano blanco",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tratamiento depende del {{c1::riesgo cardiovascular global}}, no solo del grado de PA.",
+   "extra": "Diabetes, ERC o ECV = alto riesgo.",
+   "origen": "clase:6",
+   "fuente": "Clase · Grados, riesgo y órgano blanco",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fondo de ojo: el grado {{c1::IV}} tiene edema de papila e indica emergencia hipertensiva.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Evaluación inicial",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Exámenes básicos del PSCV: ECG, creatinina con VFG, {{c1::RAC}}, glicemia, perfil lipídico y potasio.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Qué pedir",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "La HTA primaria en personas de {{c1::15 años}} y más es el GES N.º 21.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Qué pedir y qué garantiza",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Diabético hipertenso: primera elección {{c1::IECA o ARA II}} (enalapril); también con proteinuria o ERC.",
+   "extra": "IECA y ARA II son intercambiables; no se combinan.",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Primera elección",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 14",
+    "EUNACOM Diciembre 2017 · Pregunta 9",
+    "EUNACOM Diciembre 2024 · Pregunta 78",
+    "EUNACOM Enero 2023 · Pregunta 180"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Joven obeso con HTA esencial sin causa secundaria: se inicia con {{c1::IECA o ARA II}}.",
+   "extra": "",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Primera elección",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 177"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Adulto mayor o paciente de raza negra: primera elección {{c1::tiazida o calcioantagonista}}.",
+   "extra": "",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Primera elección",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "El betabloqueador no es primera línea: solo con {{c1::indicación propia}} (coronaria, taquiarritmia, IC).",
+   "extra": "",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Primera elección",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 105",
+    "EUNACOM Diciembre 2022 · Pregunta 36"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Cardiopatía coronaria con HTA no controlada bajo carvedilol e HCTZ: se agrega {{c1::losartán}} (ARA II).",
+   "extra": "",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Primera elección",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 86"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Tos seca por IECA (enalapril): se {{c1::cambia por un ARA II}} (losartán); es efecto de clase.",
+   "extra": "",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Primera elección",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 32",
+    "EUNACOM Julio 2019 · Pregunta 92",
+    "EUNACOM Diciembre 2018 · Pregunta 6"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Edema de extremidades inferiores en triple terapia: se {{c1::suspende el amlodipino}}, efecto adverso.",
+   "extra": "Se suspende y reemplaza el fármaco que da el efecto adverso.",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Primera elección",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 85",
+    "EUNACOM Diciembre 2019 · Pregunta 122",
+    "EUNACOM Julio 2019 · Pregunta 51",
+    "EUNACOM Agosto 2021 · Pregunta 134"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En la mujer en edad fértil se evitan {{c1::IECA y ARA II}} por riesgo teratogénico.",
+   "extra": "",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Primera elección",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Adulto mayor de 85 años con PA 145/75 bajo losartán y amlodipino: se {{c1::mantiene el tratamiento}}; meta < 150/90.",
+   "extra": "",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Seguimiento",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 65"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Diabético con 2 tomas ≥ 140/90: se inicia tratamiento y el error es {{c1::pedir MAPA antes de tratar}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 144"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Urgencia hipertensiva sin daño de órgano blanco: el fármaco clásico es {{c1::captopril oral}}.",
+   "extra": "Se ve en el tema 5.4.",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Evaluación inicial",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 7"
+   ]
+  },
+  {
+   "id": "c46",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Adulto mayor con PA controlada en triple terapia (amlodipino, tiazida, enalapril) y edema maleolar: se {{c1::suspende el amlodipino}}.",
+   "extra": "El edema es efecto del calcioantagonista; cambiar el IECA no lo corrige.",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Primera elección",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 38"
+   ]
+  },
+  {
+   "id": "c47",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Medida no farmacológica: reducir la sal a menos de {{c1::5 g}} al día.",
+   "extra": "",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Medidas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "c48",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Ejercicio aeróbico: {{c1::150 minutos}} por semana.",
+   "extra": "",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Medidas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-29/01_retinopatia-hipertensiva-estrella-macular__bates_t7-16.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Retinopatía hipertensiva avanzada",
+   "clave": "Exudados duros en estrella macular y hemorragias dispersas",
+   "conducta": "Grados III-IV: daño avanzado; si hay edema de papila es emergencia hipertensiva",
+   "fuente": "Bates, Guide to Physical Examination and History Taking (2017), Tabla 7-16",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.015"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "PA ≥ 180/110 o con daño de órgano blanco: ¿qué se hace hoy?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1",
+   "pista": "PA < 180/110 sin daño: ¿cómo se confirma?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.0",
+   "pista": "MAPA o AMPA normal con consulta alta: ¿qué diagnóstico y conducta?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.1",
+   "pista": "MAPA ≥ 130/80 o AMPA ≥ 135/85: ¿qué sigue?"
+  }
+ ]
+}

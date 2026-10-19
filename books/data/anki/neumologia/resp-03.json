@@ -1,0 +1,680 @@
+{
+ "classId": "resp-03",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El asma es una enfermedad inflamatoria crónica con síntomas variables y limitación {{c1::variable}} del flujo aéreo espiratorio.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Definición",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 27",
+    "EUNACOM Agosto 2021 · Pregunta 68",
+    "EUNACOM Julio 2019 · Pregunta 63"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El diagnóstico de asma exige clínica compatible más demostrar {{c1::variabilidad o reversibilidad}} del flujo aéreo.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Diagnóstico",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.003"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Espirometría diagnóstica de asma: VEF1 sube > {{c1::12%}} y > 200 mL tras el broncodilatador.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Clínica variable + flujo variable",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.005"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 17"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Otra prueba de asma: variabilidad diurna del PEF > {{c1::10%}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Clínica variable + flujo variable",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.003"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En la metacolina, una caída del VEF1 > {{c1::20%}} demuestra hiperreactividad bronquial.",
+   "extra": "",
+   "origen": "clase:20",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 15"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Síntomas típicos con espirometría normal: se pide {{c1::test de metacolina}}, no se descarta el asma.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 15"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Una espirometría normal {{c1::no descarta}} el asma, porque la obstrucción es variable.",
+   "extra": "",
+   "origen": "clase:20",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La radiografía de tórax en el asma puede mostrar {{c1::hiperinsuflación bilateral}} con horizontalización de costillas.",
+   "extra": "Es inespecífica; el diagnóstico es funcional.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 16"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La {{c1::harina}} es la causa más frecuente de asma laboral.",
+   "extra": "Asbesto, sílice y carbón producen neumoconiosis.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Exposición ocupacional",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 22"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El control del asma se evalúa con {{c1::4 criterios}} GINA referidos a las últimas 4 semanas.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cuatro preguntas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.003"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Criterio GINA: síntomas diurnos > {{c1::2 veces por semana}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cuatro preguntas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.003"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Criterio GINA: uso del inhalador de alivio > {{c1::2 veces por semana}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cuatro preguntas",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.003"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Criterio GINA nocturno: basta {{c1::un despertar}} por asma para contar el criterio.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cuatro preguntas",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.003"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cualquier limitación de la actividad física habitual cuenta como criterio GINA de {{c1::falta de control}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cuatro preguntas",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.003"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Asma bien controlada: {{c1::0}} criterios GINA.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Contar criterios",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.003"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Asma parcialmente controlada: {{c1::1 o 2}} criterios.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Contar criterios",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.003"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Asma no controlada: {{c1::3 o 4}} criterios.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Contar criterios",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.003"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Asma parcial o no controlada: antes de subir el escalón se revisan {{c1::técnica inhalatoria y adherencia}}.",
+   "extra": "El error es subir el escalón de inmediato.",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 127"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El SABA en monoterapia está {{c1::proscrito}}: aumenta exacerbaciones graves y muerte.",
+   "extra": "Alivia pero no desinflama.",
+   "origen": "clase:4",
+   "fuente": "Clase · Nunca salbutamol solo",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 17"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La piedra angular del tratamiento del asma crónica es el {{c1::corticoide inhalado}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 19",
+    "EUNACOM Diciembre 2019 · Pregunta 146"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Asmático solo con salbutamol: la conducta es {{c1::agregar corticoide inhalado}}, no mantener el SABA.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 76",
+    "EUNACOM Julio 2017 · Pregunta 17"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Escalón 1–2 (vía preferida): {{c1::budesonida/formoterol}} a demanda, 160/4,5 mcg, 1 puff.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Escalones GINA",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 146"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Escalón 3: CI/formoterol diario a dosis baja con rescate de la misma combinación, estrategia {{c1::MART}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Escalones GINA",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.003"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Escalón 4: CI/LABA a dosis {{c1::media}} con rescate MART.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Escalones GINA",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.003"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Escalón 5: se agrega {{c1::tiotropio (LAMA)}} o biológicos previa derivación.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Escalones GINA",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.002"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los biológicos del escalón 5 son anti-{{c1::IgE}} o anti-IL5.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Escalones GINA",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.002"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Vía alternativa de los escalones: CI diario más {{c1::SABA}} a demanda; el salbutamol nunca va solo.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Escalones GINA",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.003"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "No controlada con buena técnica: se sube un escalón con CI + LABA; el error son los {{c1::ciclos largos de prednisona oral}}.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.003"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La MART (budesonida/formoterol como mantención y rescate) {{c1::reduce las exacerbaciones}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.003"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Asma grave: no controlada pese a CI dosis alta + LABA, o controlada solo con ese nivel, en el escalón {{c1::4–5}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Asma grave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.002"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antes de rotular un asma grave se descarta el asma {{c1::difícil}} (técnica, adherencia, exposición, comorbilidades).",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Asma grave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.002"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La causa más frecuente de asma difícil es la mala {{c1::técnica inhalatoria y adherencia}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Asma grave",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.002"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Asma grave refractaria: el error es {{c1::manejarla solo en APS}}; se deriva al broncopulmonar.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.002"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tos crónica es la que dura más de {{c1::8 semanas}} en el adulto.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tos crónica",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.035"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tos crónica con radiografía normal, sin IECA ni tabaco: causas más frecuentes son goteo posterior, {{c1::asma}} y reflujo.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tos crónica",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.035"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 160"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tos crónica se trata de forma {{c1::empírica}} y se confirma la causa por la respuesta al tratamiento.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tos crónica",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.035"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 160"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Si la tos es por IECA, al suspenderlo cede en {{c1::1 a 4 semanas}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tos crónica",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.035"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Tos crónica con hemoptisis, baja de peso, disnea o tabaquismo > 20 paq-año: se pide {{c1::TAC de tórax}}.",
+   "extra": "Se piensa en cáncer o tuberculosis.",
+   "origen": "clase:9",
+   "fuente": "Clase · Banderas rojas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.035"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Técnica del MDI: agitar, acoplar a la aerocámara y {{c1::exhalar suave}} antes de partir.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Inhalador presurizado",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.006"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Con MDI y aerocámara se dispara {{c1::una sola vez}} y se hacen 4–6 respiraciones tranquilas.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Inhalador presurizado",
+   "repaso": true,
+   "codigos": [
+    "1.05.5.006"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Entre un puff y el siguiente se esperan {{c1::30–60 segundos}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Inhalador presurizado",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.006"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Tras un corticoide inhalado se {{c1::enjuaga la boca}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Inhalador presurizado",
+   "repaso": true,
+   "codigos": [
+    "1.05.5.006"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Los inhaladores de polvo seco exigen inspiración {{c1::rápida y profunda}} y no se agitan.",
+   "extra": "Al revés que el MDI.",
+   "origen": "clase:7",
+   "fuente": "Clase · Dos detalles",
+   "repaso": true,
+   "codigos": [
+    "1.05.5.006"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En niños y adultos mayores se usa {{c1::mascarilla}} con la aerocámara.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Inhalador presurizado",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.006"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "El GES cubre el asma bronquial en personas de {{c1::15 años y más}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "GES · Asma bronquial",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.019"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-03/S1_prueba-broncodilatadora__propio.svg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Prueba broncodilatadora positiva: curva antes y después del salbutamol",
+   "clave": "El VEF1 sube > 12% y > 200 mL tras el broncodilatador",
+   "conducta": "Confirma asma; iniciar corticoide inhalado y clasificar el control GINA",
+   "fuente": "Dibujo propio (esquema)",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "_web/160_resp_Crisis_asmática_Asma_crónica__Commons_1.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Inhalador presurizado acoplado a aerocámara",
+   "clave": "Labios sellados sobre la boquilla con el inhalador acoplado",
+   "conducta": "Un solo disparo y 4–6 respiraciones tranquilas; revisar la técnica en cada control",
+   "fuente": "Blausen.com staff (2014), CC BY 3.0 · Wikimedia Commons",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.006"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Espirometría normal con sospecha de asma: ¿qué sigue?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.1",
+   "pista": "Asma con 1 a 4 criterios: ¿qué se hace antes de subir?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.2",
+   "pista": "Asma grave refractaria: ¿qué conducta?"
+  }
+ ]
+}

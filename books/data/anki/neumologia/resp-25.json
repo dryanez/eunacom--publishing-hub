@@ -1,0 +1,593 @@
+{
+ "classId": "resp-25",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ya no se habla de ahogamiento seco ni húmedo, sino con muerte, con {{c1::morbilidad}} o sin morbilidad.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Niños pequeños, hombres jóvenes y un pulmón lavado",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.001"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El ahogamiento predomina en niños de {{c1::1 a 4 años}} (piscinas, tinas, canales).",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Niños pequeños, hombres jóvenes y un pulmón lavado",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.001"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Asociados al ahogamiento: alcohol, convulsiones, QT largo y {{c1::trauma cervical}} en clavados.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Niños pequeños, hombres jóvenes y un pulmón lavado",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.001"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Secuencia del ahogamiento: pánico, apnea, laringoespasmo, aspiración, hipoxemia y paro cardíaco por {{c1::hipoxia}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · De la apnea al paro cardíaco por hipoxia",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.001"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El paro del ahogado es {{c1::hipóxico}}: el problema es el oxígeno.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · De la apnea al paro cardíaco por hipoxia",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.001"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La aspiración de agua lava el {{c1::surfactante}} y causa edema pulmonar no cardiogénico.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Niños pequeños, hombres jóvenes y un pulmón lavado",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.001"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el ahogamiento, agua dulce o salada: las diferencias de electrolitos {{c1::no importan}} clínicamente.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Niños pequeños, hombres jóvenes y un pulmón lavado",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.001"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un ahogado asintomático puede {{c1::deteriorarse horas después}}, por eso se observa.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Niños pequeños, hombres jóvenes y un pulmón lavado",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.001"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el paro por ahogamiento la RCP parte con {{c1::5 ventilaciones}} de rescate.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.001"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Después de las ventilaciones, compresiones en relación {{c1::30:2}} (15:2 en niños con dos rescatistas).",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Primero ventilar",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.001"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el ahogado en paro el error es {{c1::drenar el agua}} (Heimlich o boca abajo): no sirve y aumenta el vómito.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas ahogamiento e hipotermia",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.001"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La columna cervical se inmoviliza solo si hay {{c1::mecanismo de trauma}} (clavado, caída).",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Primero ventilar",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.001"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el paro por ahogamiento se usa oxígeno al 100 % y {{c1::desfibrilador}} si el ritmo lo permite.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Primero ventilar",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.001"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Si el agua era fría, la reanimación no se suspende hasta recalentar a {{c1::32–35 °C}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Primero ventilar",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.001",
+    "1.07.1.011"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el hospital, meta de SatO2 > {{c1::94 %}} en el ahogado.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Oxígeno, estudio y observación",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.001"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con hipoxemia persistente en el ahogado: CPAP, VMNI o intubación con {{c1::ventilación protectora}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Oxígeno, estudio y observación",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.001"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el ahogado no se indican {{c1::antibióticos ni corticoides}} profilácticos (solo si hay infección clara).",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas ahogamiento e hipotermia",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.001"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Ahogado asintomático con Rx y saturación normales: observar {{c1::6 a 8 horas}} antes del alta.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Oxígeno, estudio y observación",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.001"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ahogado con tos, disnea, hipoxemia o infiltrados: se {{c1::hospitaliza}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Oxígeno, estudio y observación",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.001"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Peor pronóstico en el ahogamiento: sumersión > {{c1::10 minutos}}, asistolia y pH < 7,0.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Oxígeno, estudio y observación",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.001"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La hipotermia es una temperatura central < {{c1::35 °C}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Reconocimiento y clasificación",
+   "repaso": true,
+   "codigos": [
+    "1.07.1.011"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En hipotermia no sirve el termómetro {{c1::oral}}: se mide temperatura rectal, esofágica o vesical.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Reconocimiento y clasificación",
+   "repaso": false,
+   "codigos": [
+    "1.07.1.011"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hipotermia leve: {{c1::32 a 35 °C}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Hipotermia por temperatura",
+   "repaso": true,
+   "codigos": [
+    "1.07.1.011"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hipotermia moderada: {{c1::28 a 32 °C}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Hipotermia por temperatura",
+   "repaso": true,
+   "codigos": [
+    "1.07.1.011"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hipotermia grave: < {{c1::28 °C}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Hipotermia por temperatura",
+   "repaso": true,
+   "codigos": [
+    "1.07.1.011"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hipotermia leve: {{c1::temblor}}, taquicardia, taquipnea y confusión.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Tabla de trampas clasificación",
+   "repaso": false,
+   "codigos": [
+    "1.07.1.011"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hipotermia moderada: cesa el temblor, hay bradicardia, FA y ondas {{c1::J de Osborn}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Tabla de trampas clasificación",
+   "repaso": true,
+   "codigos": [
+    "1.07.1.011"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hipotermia grave: coma, bradicardia extrema, riesgo de {{c1::FV y asistolia}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Tabla de trampas clasificación",
+   "repaso": false,
+   "codigos": [
+    "1.07.1.011"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Grupos expuestos a hipotermia: adultos mayores, alcohol o drogas, sin hogar, niños pequeños y {{c1::sumergidos en agua fría}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Quién se enfría y qué más descartar",
+   "repaso": false,
+   "codigos": [
+    "1.07.1.011"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En hipotermia se descartan hipoglicemia, sepsis, {{c1::mixedema}}, insuficiencia suprarrenal, intoxicaciones y trauma.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Quién se enfría y qué más descartar",
+   "repaso": false,
+   "codigos": [
+    "1.07.1.011"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En hipotermia hay riesgo de coagulopatía por frío; se pide {{c1::coagulación}}, además de potasio, CK y lactato.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Quién se enfría y qué más descartar",
+   "repaso": false,
+   "codigos": [
+    "1.07.1.011"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los movimientos bruscos en el hipotérmico pueden gatillar {{c1::fibrilación ventricular}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Recalentamiento escalonado",
+   "repaso": true,
+   "codigos": [
+    "1.07.1.011"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hipotermia leve: recalentamiento {{c1::pasivo y externo}} (mantas, ambiente cálido, bebidas calientes dulces).",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Recalentamiento escalonado",
+   "repaso": true,
+   "codigos": [
+    "1.07.1.011"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hipotermia moderada: recalentamiento activo externo y {{c1::suero tibio}} con monitor.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Recalentamiento escalonado",
+   "repaso": true,
+   "codigos": [
+    "1.07.1.011"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El suero fisiológico tibio se da a {{c1::38–42 °C}}, subiendo 0,5 a 2 °C por hora.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Recalentamiento escalonado",
+   "repaso": false,
+   "codigos": [
+    "1.07.1.011"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La bradicardia del hipotérmico es fisiológica: el error es usar {{c1::atropina o marcapaso}}.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas ahogamiento e hipotermia",
+   "repaso": true,
+   "codigos": [
+    "1.07.1.011"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Hipotermia leve: el error es {{c1::sobretratar}} con calor interno.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas ahogamiento e hipotermia",
+   "repaso": false,
+   "codigos": [
+    "1.07.1.011"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hipotermia grave: recalentamiento interno (lavado pleural o peritoneal tibio) y circulación extracorpórea ({{c1::ECMO}}).",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Recalentamiento escalonado",
+   "repaso": true,
+   "codigos": [
+    "1.07.1.011"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Regla del paro hipotérmico: nadie está muerto hasta que está {{c1::tibio y muerto}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.07.1.011"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En paro hipotérmico se da RCP y hasta {{c1::3}} descargas; con < 30 °C se limitan fármacos y descargas.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Nadie está muerto hasta que está tibio",
+   "repaso": false,
+   "codigos": [
+    "1.07.1.011"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Al recalentar puede haber colapso por vasodilatación; se calienta primero el {{c1::tronco}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Nadie está muerto hasta que está tibio",
+   "repaso": false,
+   "codigos": [
+    "1.07.1.011"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-25/10_ecg-hipotermia-ondas-j-osborn__knoop_p551.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Hipotermia con ondas J de Osborn",
+   "clave": "Onda J (deflexión al final del QRS) en un paciente con temperatura central baja",
+   "conducta": "Medir temperatura central; recalentamiento activo externo y suero tibio con monitor si es moderada",
+   "fuente": "Knoop, Atlas of Emergency Medicine, p. 551",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.001",
+    "1.07.1.011"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-25/01_sdra-rx-torax__harrison_p2267.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Edema pulmonar no cardiogénico / SDRA tras aspiración de agua",
+   "clave": "Opacidades bilaterales en ambos pulmones",
+   "conducta": "Oxígeno, CPAP o VMNI; intubación con ventilación protectora si persiste la hipoxemia",
+   "fuente": "Harrison 21.ª ed., Fig. 301-2",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.001",
+    "1.07.1.011"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Ahogado en paro: ¿cómo parte la RCP?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.1",
+   "pista": "Hipotermia moderada: ¿qué recalentamiento?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.2",
+   "pista": "Hipotermia grave: ¿qué recalentamiento y dónde?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.2",
+   "pista": "Ahogado asintomático: ¿qué haces?"
+  }
+ ]
+}

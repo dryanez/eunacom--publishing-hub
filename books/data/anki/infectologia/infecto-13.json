@@ -1,0 +1,703 @@
+{
+ "classId": "infecto-13",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Uretritis gonocócica: secreción {{c1::abundante, espesa y purulenta}} amarilloverdosa.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Uretritis",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 61",
+    "EUNACOM Julio 2025 · Pregunta 36"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La uretritis gonocócica tiene incubación corta de {{c1::2 a 7 días}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Dos uretritis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.010"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Gram de uretritis gonocócica: {{c1::diplococos Gram negativos intracelulares}} en polimorfonucleares.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.5.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 61",
+    "EUNACOM Julio 2025 · Pregunta 36"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La sensibilidad del Gram en varones con gonorrea es > {{c1::95 %}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Dos uretritis",
+   "repaso": false,
+   "codigos": [
+    "1.04.5.004"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Uretritis no gonocócica: Chlamydia trachomatis (40–50 %), Mycoplasma genitalium y {{c1::Trichomonas vaginalis}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Uretritis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.010"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Uretritis no gonocócica: secreción {{c1::escasa, serosa o mucoide}} (gota matinal), incubación de 1 a 3 semanas.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 100",
+    "EUNACOM Julio 2016 · Pregunta 110"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la uretritis no gonocócica el Gram muestra {{c1::solo PMN}}, sin bacterias visibles.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.5.004"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Disuria sin otros síntomas tras relación sexual sin protección: el agente más probable es {{c1::Chlamydia trachomatis}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Uretritis",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 100",
+    "EUNACOM Julio 2016 · Pregunta 110"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La coinfección gonococo-clamidia ocurre en el {{c1::20–40 %}} de los casos.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Uretritis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.010"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Regla de oro del manejo sindrómico: toda uretritis se trata con {{c1::doble cobertura}} (gonococo + clamidia).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Uretritis",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.010"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Uretritis gonocócica: {{c1::ceftriaxona 500 mg IM}} en dosis única.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 36"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Para cubrir Chlamydia en la uretritis: {{c1::doxiciclina 100 mg c/12 h por 7 días}} (o azitromicina 1 g).",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 36"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Gram con diplococos Gram (−): el error es {{c1::tratar solo el gonococo}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.010"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Uretritis gonocócica: el error es usar {{c1::ciprofloxacino}}.",
+   "extra": "Resistencia del gonococo en Chile > 50 %.",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.010"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Uretritis escasa con Gram sin bacterias: el error es {{c1::descartar ITS por el Gram}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.010"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la uretritis se trata a todas las parejas de los últimos {{c1::60 días}} y se indica abstinencia por 7 días.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Doble cobertura",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.010"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mujer alérgica a penicilina con cervicitis mucopurulenta por gonococo: la opción es {{c1::ceftriaxona}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Uretritis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 86"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ante una úlcera genital, el primer dato que las separa es si {{c1::duele}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · ¿Duele?",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.010"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La causa más frecuente de úlcera genital es el {{c1::herpes genital}} (VHS-2 > VHS-1).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Úlceras",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 169",
+    "EUNACOM Julio 2016 · Pregunta 145"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Herpes genital: vesículas {{c1::agrupadas en racimo}} sobre base eritematosa, muy dolorosas.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla úlceras",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 169",
+    "EUNACOM Julio 2016 · Pregunta 145"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El herpes genital es recurrente y lo precede un pródromo de {{c1::ardor o parestesias}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Las dos úlceras que duelen",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 145"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Herpes genital: aciclovir {{c1::400 mg c/8 h}} por 7 a 10 días.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla úlceras",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.010"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El aciclovir no erradica el virus, que queda latente en el ganglio {{c1::sensitivo sacro}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Las dos úlceras que duelen",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.010"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sífilis primaria (chancro duro): úlcera única, indurada, de fondo limpio e {{c1::indolora}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla úlceras",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 37",
+    "EUNACOM Diciembre 2019 · Pregunta 136",
+    "EUNACOM Agosto 2021 · Pregunta 112"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Sífilis primaria: {{c1::penicilina benzatina 2,4 MU IM}} dosis única.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla úlceras",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 40",
+    "EUNACOM Diciembre 2022 · Pregunta 178"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Úlcera indolora e indurada: el error es tratarla con {{c1::aciclovir}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 112",
+    "EUNACOM Enero 2023 · Pregunta 40",
+    "EUNACOM Diciembre 2022 · Pregunta 178"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Chancroide (Haemophilus ducreyi): úlcera múltiple de fondo {{c1::sucio}}, intensamente dolorosa.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla úlceras",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.010"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El chancroide cursa con adenopatía inguinal dolorosa que fistuliza: {{c1::bubón}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla úlceras",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.010"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Chancroide: azitromicina {{c1::1 g}} oral o ceftriaxona 250 mg IM.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla úlceras",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.010"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Úlcera sucia con bubón doloroso: el error es tratarla como {{c1::sífilis}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.010"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "VPH de bajo riesgo, genotipos {{c1::6 y 11}}, causan los condilomas acuminados.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 VPH",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.058"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Condilomas acuminados: verrugas exofíticas \"en {{c1::cresta de gallo}}\".",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · VPH",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.058"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Condilomas: podofilotoxina 0,5 %, imiquimod 5 % o {{c1::crioterapia}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · VPH",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.058"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Ante condilomas acuminados, no basta tratar la verruga: hay que {{c1::descartar otras ITS}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.058"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 91"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "VPH de alto riesgo, genotipos {{c1::16 y 18}}, causan el 70 % del cáncer cervical.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 VPH",
+   "repaso": true,
+   "codigos": [
+    "3.01.3.010"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "Tamizaje GES de cáncer cervicouterino: PAP cada {{c1::3 años}} entre los 25 y 64 años.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · VPH",
+   "repaso": true,
+   "codigos": [
+    "3.01.3.010"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "Alternativa de tamizaje: test de ADN-VPH cada {{c1::5 años}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 VPH",
+   "repaso": false,
+   "codigos": [
+    "3.01.3.010"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La vacuna contra VPH se da en niñas y niños de {{c1::4.º y 5.º básico}}.",
+   "extra": "Una mujer de 22 años ya sexualmente activa con PAP normal: repetir el PAP.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Prevención",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 78"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El molusco contagioso son pápulas redondeadas con {{c1::centro umbilicado}}; no confundir con verrugas.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · VPH",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.058"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El preservativo protege bien contra VIH, gonococo y clamidia, pero menos contra {{c1::herpes, VPH y sífilis}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Enfoque sindrómico",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.003"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En toda ITS se ofrece estudio de {{c1::VIH, hepatitis B y sífilis}}, consejería y preservativo.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Enfoque sindrómico",
+   "repaso": true,
+   "codigos": [
+    "4.03.3.004"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Para confirmar uretritis el Gram debe mostrar ≥ {{c1::5 polimorfonucleares}} por campo.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Enfoque sindrómico",
+   "repaso": false,
+   "codigos": [
+    "1.04.5.004"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el Gram uretral, el frotis se {{c1::rueda}} (no se frota) en el portaobjetos y se fija al calor.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Enfoque sindrómico",
+   "repaso": false,
+   "codigos": [
+    "1.04.5.004"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mujer con disuria y dolor abdominal bajo, cuello cerrado y dolor al tacto: sospechar {{c1::enfermedad inflamatoria pélvica}} y estudiar ITS.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Prevención",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 52"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-13/04_uretritis-gonococica__nelson_p1602.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Uretritis gonocócica",
+   "clave": "Secreción uretral abundante, espesa, purulenta y amarilloverdosa",
+   "conducta": "Ceftriaxona 500 mg IM + doxiciclina 100 mg c/12 h por 7 días; tratar parejas",
+   "fuente": "Nelson Textbook of Pediatrics 22.ª ed., p. 1602",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.010"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-13/01_herpes-genital__cto-derma_p15.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Herpes genital",
+   "clave": "Vesículas agrupadas en racimo sobre base eritematosa",
+   "conducta": "Aciclovir 400 mg c/8 h por 7–10 días",
+   "fuente": "Manual CTO Dermatología 14.ª ed., p. 15",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.010"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-13/01_chancroide__cdc-phil-3728.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Chancroide (Haemophilus ducreyi)",
+   "clave": "Úlcera sucia con exudado necrótico y bordes deshilachados, dolorosa",
+   "conducta": "Azitromicina 1 g oral o ceftriaxona 250 mg IM",
+   "fuente": "CDC PHIL 3728",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.010"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Secreción uretral: ¿qué tratamiento?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1",
+   "pista": "Úlcera genital: ¿qué dato decide?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.0",
+   "pista": "Úlcera indolora: ¿diagnóstico y tratamiento?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.2",
+   "pista": "Verrugas genitales: ¿qué conducta?"
+  }
+ ]
+}

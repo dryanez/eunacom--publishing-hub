@@ -1,0 +1,664 @@
+{
+ "classId": "infecto-24",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el neutropénico no hay pus ni inflamación: la {{c1::fiebre}} suele ser la única alarma de bacteriemia.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · ¿Por qué es una emergencia?",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.020",
+    "2.01.1.034"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Patógeno más temido en la neutropenia febril: {{c1::Pseudomonas aeruginosa}}, con shock fulminante en < 12 h.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · ¿Por qué es una emergencia?",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.020",
+    "2.01.1.034"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Fiebre en neutropenia febril: un registro axilar ≥ {{c1::38,3 °C}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Definiciones",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.020",
+    "2.01.1.034"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "O ≥ 38,0 °C sostenida por más de {{c1::1 hora}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Definiciones",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.020",
+    "2.01.1.034"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Neutropenia: RAN < {{c1::500}}/mm³.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Definiciones",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.020",
+    "2.01.1.034"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "También es neutropenia un RAN < 1.000 con caída prevista bajo 500 en {{c1::48 h}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Definiciones",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.020",
+    "2.01.1.034"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El RAN se calcula como leucocitos × % de neutrófilos, sumando {{c1::segmentados y baciliformes}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Definiciones",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.020",
+    "2.01.1.034"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 58"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Leucocitos 800 con 35% de neutrófilos dan un RAN de {{c1::280/mm³}}: neutropenia febril.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Definiciones",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.020",
+    "2.01.1.034"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Fiebre post-quimioterapia: lo primero es el hemograma para calcular el RAN, no partir por {{c1::imágenes}}.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.020",
+    "2.01.1.034"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Regla de los {{c1::60 minutos}}: antibiótico EV en la primera hora.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · La regla de los 60 minutos",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.020",
+    "2.01.1.034"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 58"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antes del antibiótico se toman {{c1::2 hemocultivos}} (periférico y por el catéter).",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · La regla de los 60 minutos",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.020",
+    "2.01.1.034"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En alto riesgo el error es {{c1::esperar los hemocultivos}} antes de dar el antibiótico.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.020",
+    "2.01.1.034"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Neutropenia febril de alto riesgo: {{c1::cefepime}} 2 g cada 8 h EV.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Estratificación MASCC",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.020",
+    "2.01.1.034"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 58"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Alternativa al cefepime: {{c1::piperacilina-tazobactam}} 4,5 g cada 6 h.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Estratificación MASCC",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.020",
+    "2.01.1.034"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Alto riesgo: MASCC < {{c1::21}}; se hospitaliza en aislamiento.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Estratificación MASCC",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.020",
+    "2.01.1.034"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Bajo riesgo: MASCC ≥ {{c1::21}}; opción ambulatoria seleccionada.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Estratificación MASCC",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.020",
+    "2.01.1.034"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Neutropenia febril de bajo riesgo: ciprofloxacino + {{c1::amoxicilina-clavulánico}} oral.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Estratificación MASCC",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.020",
+    "2.01.1.034"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La {{c1::ceftriaxona}} no cubre Pseudomonas: no es el antibiótico de elección en neutropenia febril.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Estratificación MASCC",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.020",
+    "2.01.1.034"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En alto riesgo estable se usa monoterapia antipseudomónica; la vancomicina de entrada es un {{c1::error}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Vancomicina",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.020",
+    "2.01.1.034"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se agrega vancomicina si hay shock, infección franca del catéter, mucositis severa o sospecha de {{c1::SAMR}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Vancomicina",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.020",
+    "2.01.1.034"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Vancomicina en alto riesgo con shock o catéter: {{c1::15-20 mg/kg}} EV, en UCI.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Vancomicina",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.020",
+    "2.01.1.034"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fiebre persistente al día 4.º-7.º con hemocultivos negativos: sospechar {{c1::micosis invasora}} (aspergilosis o candidiasis).",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Si la fiebre no cede al 4.º-7.º día",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.019"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 73",
+    "EUNACOM Julio 2019 · Pregunta 132"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neutropenia prolongada que no responde a antibióticos de amplio espectro: la causa fúngica más frecuente es {{c1::Aspergillus}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Si la fiebre no cede al 4.º-7.º día",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.019"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 73",
+    "EUNACOM Julio 2019 · Pregunta 132"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ante fiebre persistente al día 4.º-7.º se pide TAC de tórax de alta resolución buscando el signo del {{c1::halo}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Si la fiebre no cede al 4.º-7.º día",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.019"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Micosis invasora en neutropenia febril: {{c1::voriconazol}} EV o equinocandina (caspofungina).",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Si la fiebre no cede al 4.º-7.º día",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.019"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Fiebre al día 4.º-7.º: el error es {{c1::cambiar o suspender antibióticos}}; el hongo no responde a ellos.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.019"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La mucormicosis es un hongo {{c1::angioinvasor}} que causa necrosis (Rhizopus, Mucor).",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Mucormicosis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.019"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mucormicosis: cetoacidosis diabética, neutropenia, corticoides, hierro (deferoxamina), trasplante o {{c1::COVID-19}} grave.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Mucormicosis",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.019"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 124"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mucormicosis rinocerebral: dolor facial, secreción sanguinolenta, escara negra en paladar o cornetes, proptosis y {{c1::oftalmoplejía}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Mucormicosis",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.019"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 124"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Diabético con eritema facial y zona necrótica en el ala nasal: agente {{c1::Mucor}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Mucormicosis",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.019"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 124"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Necrosis que empeora con voriconazol: pensar en {{c1::mucormicosis}}, que no cubre.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Mucormicosis",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.019"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Biopsia de mucormicosis: hifas anchas, {{c1::aseptadas}} y ramificadas en ángulo recto.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Mucormicosis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.019"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Mucormicosis: desbridamiento más {{c1::anfotericina B liposomal}} 5-10 mg/kg/día.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Mucormicosis",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.019"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mucormicosis: además se corrigen la {{c1::acidosis y la glicemia}} y se reduce la inmunosupresión.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Mucormicosis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.019"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La mucormicosis tiene una mortalidad cercana al {{c1::50%}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Mucormicosis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.019"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Paciente con tos seca de 5 semanas, disnea y Rx sin condensación en probable VIH: {{c1::Pneumocystis jirovecii}}.",
+   "extra": "Según el banco; no está detallado en el libro.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Fiebre sin foco",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.019"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 40",
+    "EUNACOM Julio 2016 · Pregunta 29"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Fiebre de menos de {{c1::7 días}} con examen y exámenes básicos normales es habitualmente viral.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Fiebre sin foco",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.024"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Alarmas en fiebre sin foco: inmunosupresión, catéter o prótesis, compromiso hemodinámico y {{c1::edad extrema}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Fiebre sin foco",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.024"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Fiebre prolongada del adulto: más de {{c1::3 semanas}} sin diagnóstico tras estudio inicial.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Fiebre sin foco",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.024"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estudio de fiebre prolongada: hemocultivos × 3, imágenes, {{c1::PPD o IGRA}} y serologías.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Fiebre sin foco",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.024"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En fiebre prolongada no se dan {{c1::antibióticos ni corticoides}} empíricos; se sospecha, estudia y deriva.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Fiebre sin foco",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.024"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-24/03_ectima-gangrenoso__atlas040.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Ectima gangrenoso (Pseudomonas)",
+   "clave": "Úlcera de centro negro con halo eritematoso en neutropénico",
+   "conducta": "Cefepime EV en < 60 min tras 2 hemocultivos",
+   "fuente": "Atlas EUNACOM 2026",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.020",
+    "2.01.1.034"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-24/01_signo-halo-tac__brant_p497.jpg",
+   "pregunta": "¿Qué muestra y qué inicias?",
+   "diagnostico": "Signo del halo (aspergilosis invasora)",
+   "clave": "Nódulo rodeado de un halo en TAC de tórax",
+   "conducta": "Voriconazol EV o caspofungina",
+   "fuente": "Brant & Helms, Fundamentals of Diagnostic Radiology, p. 497",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.019"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 73",
+    "EUNACOM Julio 2019 · Pregunta 132"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-24/02_mucormicosis__fitzpatrick_p1882.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Mucormicosis rinocerebral",
+   "clave": "Edema periorbitario, proptosis y escara negra",
+   "conducta": "Biopsia urgente, desbridamiento y anfotericina B liposomal",
+   "fuente": "Fitzpatrick, Dermatology in General Medicine, p. 1882",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.019"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 124"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "RAN < 500 con fiebre: ¿qué haces en la primera hora?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0.0.0",
+   "pista": "MASCC < 21: ¿dónde y con qué?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.0.1",
+   "pista": "MASCC ≥ 21: ¿qué esquema?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.0.0.0.0.0",
+   "pista": "Fiebre al día 4-7 con cultivos negativos: ¿qué?"
+  }
+ ]
+}

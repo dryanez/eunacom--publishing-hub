@@ -1,0 +1,571 @@
+{
+  "classId": "ped-12",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante un lactante con vómitos, lo primero es mirar si el vómito es {{c1::bilioso}}.",
+      "extra": "Verde es urgencia quirúrgica hasta descartarla.",
+      "origen": "clase:1",
+      "fuente": "Clase · Bilioso y edad",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.046",
+        "2.01.2.019"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Todo vómito bilioso del recién nacido es {{c1::vólvulo por malrotación}} hasta demostrar lo contrario.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.019",
+        "2.01.2.001"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Vómito bilioso en el recién nacido: manejo inicial con régimen cero, SNG, hidratación EV y {{c1::cirugía de urgencia}}.",
+      "extra": "Puede necrosar el intestino en horas.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.019"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Reflujo fisiológico ('regurgitador feliz'): regurgitación sin dolor, con {{c1::buena ganancia de peso}}, en menores de 6 meses.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Regurgitador feliz",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.046"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El reflujo fisiológico afecta a más del {{c1::50%}} de los menores de 6 meses.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 RGE",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.046"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Manejo del RGE fisiológico: tranquilizar, posición {{c1::erguida 20-30 minutos}} tras las tomas y fraccionar tomas.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 RGE",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.046"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el reflujo fisiológico están contraindicados los {{c1::inhibidores de bomba de protones y procinéticos}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Regurgitador feliz",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.046"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 147"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El reflujo fisiológico remite espontáneamente al {{c1::año}} de vida.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 RGE",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.046"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "ERGE del lactante: esofagitis, rechazo alimentario, mala ganancia de peso o {{c1::síntomas respiratorios recurrentes}}.",
+      "extra": "Se estudia y se prueba con omeprazol/esomeprazol.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 ERGE",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.046"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síndrome de Sandifer son posturas distónicas paroxísticas del {{c1::cuello}} asociadas a reflujo.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 ERGE",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.046"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La EHP afecta predominantemente a varones {{c1::primogénitos}} (4:1).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 EHP",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.046"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La EHP se presenta entre las {{c1::2 y 8 semanas}} de vida, con pico a las 3-5 semanas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 EHP",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.046"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 76",
+        "EUNACOM Diciembre 2025 · Pregunta 137"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Vómito de la EHP: postprandial, {{c1::en proyectil y no bilioso}}.",
+      "extra": "La obstrucción es pre-ampular.",
+      "origen": "clase:3",
+      "fuente": "Clase · EHP",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.046"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 155",
+        "EUNACOM Diciembre 2022 · Pregunta 76",
+        "EUNACOM Diciembre 2025 · Pregunta 137",
+        "EUNACOM Julio 2024 · Pregunta 79"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras vomitar, el lactante con EHP {{c1::pide mamar de nuevo con desesperación}} (lactante hambriento).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · EHP",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.046"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 130"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la EHP se palpa la 'oliva pilórica' y se ve la onda peristáltica gástrica de {{c1::izquierda a derecha}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 EHP",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.046"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 72"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Alteración hidroelectrolítica clásica de la EHP: alcalosis metabólica {{c1::hipoclorémica e hipopotasémica}}.",
+      "extra": "Pérdida de HCl y K con los vómitos gástricos.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.046"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Examen de elección en EHP: {{c1::ecografía abdominal}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · EHP",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.046"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 155",
+        "EUNACOM Diciembre 2022 · Pregunta 76"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Eco de EHP: grosor del músculo pilórico {{c1::≥ 3 mm}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 EHP",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.046"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Eco de EHP: longitud del canal pilórico {{c1::≥ 14-15 mm}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 EHP",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.046"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tratamiento de la EHP: {{c1::piloromiotomía de Ramstedt}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.046"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 130"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la EHP no se opera antes de corregir {{c1::la deshidratación y la alcalosis hipoclorémica}}.",
+      "extra": "La anestesia con alcalosis severa produce apnea y arritmias.",
+      "origen": "clase:3",
+      "fuente": "Clase · EHP",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.046"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Invaginación intestinal: primera causa de obstrucción intestinal entre {{c1::3 meses y 2 años}}, con pico a los 6-9 meses.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Invaginación",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.019"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 77"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La invaginación más común es la {{c1::ileocólica}} (90%).",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Invaginación",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.019"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En mayores de 2 años la invaginación se asocia a punto guía como {{c1::divertículo de Meckel, pólipo o linfoma}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Invaginación",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.019"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dolor de la invaginación: cólico en crisis, el niño {{c1::encoge las piernas, palidece}} y entre crisis queda letárgico.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Invaginación",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.019"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 42"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la invaginación los vómitos son inicialmente alimentarios y luego {{c1::biliosos}}.",
+      "extra": "Signo más tardío que el dolor.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Invaginación",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.019"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La deposición en 'jalea de grosella' de la invaginación es un signo {{c1::tardío}}.",
+      "extra": "Sangre oscura y moco por isquemia.",
+      "origen": "clase:4",
+      "fuente": "Clase · Invaginación",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.019"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 77"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la invaginación el examen muestra masa tubular en 'morcilla' y fosa ilíaca derecha {{c1::vacía (signo de Dance)}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Invaginación",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.019"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estándar de oro de la invaginación: ecografía con imagen en {{c1::diana (donut)}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Invaginación",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.019"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 42"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-12/02_invaginacion-eco__cto-pediatria_p70.jpg"
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Invaginación sin peritonitis: reducción {{c1::neumática o hidrostática}} guiada por ecografía.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento invaginación",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.019"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Invaginación con peritonitis, perforación o falla del enema: {{c1::laparotomía urgente}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento invaginación",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.019"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Atresia duodenal: la radiografía de abdomen muestra la {{c1::doble burbuja}}.",
+      "extra": "Vómitos biliosos desde las primeras 24-48 h (se asocia a síndrome de Down).",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Abdomen agudo",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.019"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 33"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el preescolar y escolar, la causa quirúrgica más frecuente de abdomen agudo es la {{c1::apendicitis aguda}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Abdomen agudo por edad",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.001"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la apendicitis el dolor {{c1::precede a los vómitos}}; en la gastroenteritis es al revés.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Abdomen agudo",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.001"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el abdomen agudo pediátrico se examinan siempre {{c1::genitales e ingles}}.",
+      "extra": "Para no perder torsión o hernia.",
+      "origen": "clase:7",
+      "fuente": "Clase · Abdomen agudo",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.001"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-12/01_eco-piloro__cto-pediatria_p65.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Estenosis hipertrófica del píloro",
+      "clave": "Músculo pilórico engrosado y canal alargado",
+      "conducta": "Corregir electrolitos y luego piloromiotomía de Ramstedt",
+      "fuente": "Manual CTO Pediatría 14.ª ed., p. 65",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.046"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-12/02_invaginacion-eco__cto-pediatria_p70.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Invaginación intestinal",
+      "clave": "Anillos concéntricos en 'diana'",
+      "conducta": "Reducción con enema neumático o hidrostático si no hay peritonitis",
+      "fuente": "Manual CTO Pediatría 14.ª ed., p. 70",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.019"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-12/03_doble-burbuja-atresia-duodenal__bailey_p155.jpg",
+      "pregunta": "¿Qué muestra y qué sospechas?",
+      "diagnostico": "Atresia duodenal",
+      "clave": "Doble burbuja: estómago y duodeno dilatado",
+      "conducta": "Vómito bilioso del recién nacido: urgencia quirúrgica",
+      "fuente": "Bailey & Love 27.ª ed., Fig. 9.24",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.019"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Vómito bilioso: ¿qué sospechas y qué haces?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "No bilioso, menor de 6 meses, sin dolor: ¿manejo?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2",
+      "pista": "Proyectil a las 2-8 semanas: ¿qué corriges antes de operar?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.3",
+      "pista": "Dolor cólico en crisis a los 3-12 meses: ¿qué examen y qué tratamiento?"
+    }
+  ]
+}

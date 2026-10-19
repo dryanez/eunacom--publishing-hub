@@ -1,0 +1,429 @@
+{
+  "classId": "psiq-09",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El criterio A del TEPT exige exposición a muerte, lesión grave o {{c1::violencia sexual}}, real o amenazada.",
+      "extra": "Directa, presenciada, de un cercano o exposición repetida.",
+      "origen": "clase:2",
+      "fuente": "Clase · Criterio A",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.006",
+        "5.01.1.005"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un estrés cotidiano sin criterio A hace pensar en trastorno {{c1::adaptativo}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Criterio A",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.006",
+        "5.01.1.005"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El TEPT tiene {{c1::4}} grupos de síntomas: intrusión, evitación, cognición y ánimo negativos, hiperalerta.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Clínica del TEPT",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 86"
+      ],
+      "codigos": [
+        "5.01.1.006",
+        "5.01.1.005"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los flashbacks son episodios {{c1::disociativos}} en que el paciente revive el trauma como presente.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.021"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sobresalto, irritabilidad e insomnio corresponden al grupo de {{c1::hiperalerta y reactividad}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Clínica del TEPT",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.006"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El estrés agudo dura de {{c1::3 días a 1 mes}} tras el trauma.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · El reloj",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 132"
+      ],
+      "codigos": [
+        "5.01.1.005"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El TEPT se diagnostica cuando los síntomas superan {{c1::1 mes}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · El reloj",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 10",
+        "EUNACOM Diciembre 2018 · Pregunta 35"
+      ],
+      "codigos": [
+        "5.01.1.006",
+        "5.01.1.005"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El TEPT es crónico si dura más de {{c1::3 meses}}.",
+      "extra": "Inicio retardado: más de 6 meses.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla estrés agudo vs TEPT",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.005"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El estrés agudo requiere {{c1::9 de 14}} síntomas.",
+      "extra": "Cinco categorías: intrusión, ánimo, disociación, evitación y activación.",
+      "origen": "clase:6",
+      "fuente": "Clase · Estrés agudo completo",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.005"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La clínica del estrés agudo es sobre todo {{c1::disociativa}}: aturdimiento, irrealidad.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Estrés agudo frente a TEPT",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.005",
+        "5.01.1.006"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Trauma hace 2 semanas con hiperalerta es estrés agudo; el error es llamarlo {{c1::TEPT}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.005"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Trauma hace 8 meses con evitación y pesadillas es TEPT; el error es {{c1::estrés agudo o adaptativo}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.005",
+        "5.01.1.006"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Estresor con solo ánimo bajo e insomnio, sin intrusión ni hiperalerta, es {{c1::trastorno adaptativo}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 155"
+      ],
+      "codigos": [
+        "5.01.1.006",
+        "5.01.1.005"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras el estrés agudo se controla a las {{c1::2 a 4 semanas}}: cerca de la mitad evoluciona a TEPT.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Estrés agudo completo",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.005"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la fase aguda se hacen {{c1::primeros auxilios psicológicos}}: seguridad física y escucha sin presionar a contar.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Primeros auxilios psicológicos",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.006",
+        "5.01.1.005"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la fase aguda el error es el {{c1::debriefing psicológico}} obligatorio, individual e inmediato.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Primeros auxilios psicológicos",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.006",
+        "5.01.1.005"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La psicoterapia de primera línea del TEPT es la TCC centrada en el trauma o {{c1::EMDR}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tratamiento del TEPT",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.006"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Los fármacos de primera línea del TEPT son {{c1::sertralina y paroxetina}} (ISRS); también venlafaxina.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tratamiento del TEPT",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.006"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Las pesadillas persistentes del TEPT se tratan con {{c1::prazosina}} al acostarse.",
+      "extra": "Antagonista alfa-1; dosis baja al inicio.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tratamiento del TEPT",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.006"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La dosis de prazosina para pesadillas es de {{c1::1 a 5 mg}} al acostarse.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tratamiento del TEPT",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.006"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El psicofármaco contraindicado en trauma agudo y TEPT son las {{c1::benzodiacepinas}}.",
+      "extra": "No previenen el TEPT y frenan la extinción del miedo.",
+      "origen": "clase:9",
+      "fuente": "Clase · Benzodiacepinas no en trauma",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 67"
+      ],
+      "codigos": [
+        "5.01.1.005",
+        "5.01.1.006"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante pesadillas persistentes el error es dar {{c1::diazepam}} al acostarse; se asocia prazosina.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.006"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Amnesia de información autobiográfica de un evento traumático, sin causa orgánica, es {{c1::amnesia disociativa}}.",
+      "extra": "Va más allá del olvido normal.",
+      "origen": "clase:11",
+      "fuente": "Clase · Disociativos",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 59",
+        "EUNACOM Diciembre 2017 · Pregunta 114"
+      ],
+      "codigos": [
+        "5.01.1.021",
+        "5.01.1.005"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::fuga disociativa}} es un viaje inesperado con amnesia de la propia identidad.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Disociativos",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 12",
+        "EUNACOM Diciembre 2025 · Pregunta 180",
+        "EUNACOM Diciembre 2018 · Pregunta 130"
+      ],
+      "codigos": [
+        "5.01.1.021",
+        "5.01.1.005"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El trastorno de identidad disociativo tiene {{c1::2 o más}} estados de identidad y abuso infantil grave previo.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Disociativos",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.005",
+        "5.01.1.021"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En despersonalización y desrealización el {{c1::examen de realidad}} está conservado.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Disociativos",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.021"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Amnesia o fuga tras estrés sin lesión: primero {{c1::descartar causa orgánica}}; el error es rotular disociativo sin estudiar.",
+      "extra": "TEC, epilepsia, intoxicación, hipoglicemia, tumor.",
+      "origen": "clase:15",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.005",
+        "5.01.1.021"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Menos de 1 mes con hiperalerta o intrusión: ¿diagnóstico?",
+      "codigos": [
+        "5.01.1.005"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1",
+      "pista": "Más de 1 mes con los 4 grupos: ¿diagnóstico?",
+      "codigos": [
+        "5.01.1.006"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.0",
+      "pista": "TEPT con pesadillas persistentes: ¿qué se asocia?",
+      "codigos": [
+        "5.01.1.006"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.2",
+      "pista": "Estresor con solo ánimo e insomnio: ¿diagnóstico?",
+      "codigos": [
+        "5.01.1.006"
+      ]
+    }
+  ]
+}

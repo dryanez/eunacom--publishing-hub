@@ -1,0 +1,453 @@
+{
+ "classId": "trauma-09",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las lesiones de partes blandas afectan músculos, ligamentos, tendones y tejido {{c1::celular subcutáneo}}; el diagnóstico es mayormente clínico.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Partes blandas",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.004"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La contusión es un traumatismo directo sin romper la {{c1::piel}}: dolor, edema y equimosis.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Contusión",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la contusión se pide radiografía si el mecanismo es de {{c1::alta energía}} o el dolor muy invalidante.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Contusión",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Una contusión que se asocia a fractura pasa a ser médico-legalmente una lesión {{c1::grave}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Contusión",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento de la contusión: AINE, frío las primeras {{c1::48 horas}}, luego calor, y reposo relativo.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Contusión",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un hematoma es una colección de sangre; se apoya con {{c1::ecografía}} para distinguir colección de inflamación difusa.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hematoma",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El hematoma se maneja de forma conservadora, pero se {{c1::drena}} si es muy grande, muy doloroso o infectado.",
+   "extra": "Infección: calor, rubor, fiebre.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hematoma",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El esguince es la lesión de los {{c1::ligamentos}} tras un movimiento que supera los límites fisiológicos de la articulación.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Esguince",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.003"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Antes de diagnosticar un esguince de tobillo siempre se pide {{c1::radiografía}} para descartar fractura.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Esguince",
+   "repaso": true,
+   "imagen": "biblioteca/18_traumatologia/trauma-09/01_cajon-anterior-tobillo__bailey-love_p482.jpg",
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Esguince grado I: distensión leve sin equimosis ni inestabilidad; grado II: {{c1::rotura parcial}} con equimosis sin inestabilidad.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Grados",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.004"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Esguince grado III: rotura {{c1::total}} del ligamento con equimosis e inestabilidad articular.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Grados",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.004"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Esguince grado III en el banco: RICE, AINE e inmovilización con {{c1::órtesis removible}}; la cirugía no es el tratamiento inicial.",
+   "extra": "Cirugía solo si la inestabilidad persiste.",
+   "origen": "clase:6",
+   "fuente": "Clase · Esguince",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el esguince grado III el error es indicar {{c1::cirugía}} de entrada.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Esguince grado 1 del colateral medial: frío, analgesia, carga según tolerancia, sin {{c1::inmovilización rígida}}.",
+   "extra": "",
+   "origen": "clase:18",
+   "fuente": "Clase · Quiz Perfil V3",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El quiste de Baker es una bursa distendida de {{c1::líquido sinovial}} en la fosa poplítea.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Baker",
+   "repaso": false,
+   "imagen": "_verificadas/251_trauma_Partes_blandas__ctmri_path_p478_1.jpg",
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El quiste de Baker roto desplaza el líquido a la pantorrilla y simula una {{c1::TVP}}.",
+   "extra": "La clave es el bulto poplíteo previo que desapareció.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Baker",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El quiste de Baker roto se trata con {{c1::analgesia y observación}}; la cirugía es excepcional.",
+   "extra": "Punción solo si es gigante.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Baker",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pantorrilla dolorosa sin bulto poplíteo previo: se descarta {{c1::TVP}} con eco-Doppler venoso.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Baker o TVP",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.004"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La rotura del tendón de Aquiles es de etiología {{c1::degenerativa}} en adultos de mediana edad con actividad esporádica.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Aquiles",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor súbito «como una pedrada» en el talón al correr: rotura del {{c1::tendón de Aquiles}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Aquiles",
+   "repaso": false,
+   "imagen": "_verificadas/252_trauma_Partes_blandas__ecmpdf_p536_1.jpg",
+   "codigos": [
+    "4.02.2.004"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la rotura del Aquiles la maniobra de {{c1::Thompson}} está alterada: al apretar la pantorrilla el pie no se mueve.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Aquiles",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.004"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La rotura del Aquiles se deriva a {{c1::cirugía urgente}} según el libro, antes de que los gastrocnemios se retraigan.",
+   "extra": "No es esguince ni solo bota.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Aquiles",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El Aquiles roto no es esguince de tobillo: el esguince no altera la maniobra de {{c1::Thompson}}.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.004"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tromboflebitis superficial corta alejada de la unión safenofemoral: calor local, {{c1::AINE}}, compresión y deambulación.",
+   "extra": "",
+   "origen": "clase:19",
+   "fuente": "Clase · Quiz tromboflebitis",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Obesa con dolor en la cara lateral de la cadera que aumenta al caminar y limita el sueño: {{c1::bursitis trocantérica}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real bursitis",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 159",
+    "EUNACOM Diciembre 2022 · Pregunta 141"
+   ],
+   "codigos": [
+    "4.02.2.004"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Giro brusco con rodilla semiflexionada, hemartros, cajón anterior y Lachman positivos: lesión del {{c1::LCA}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul 2025",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 162"
+   ],
+   "codigos": [
+    "4.02.2.004"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Depresión suprarrotuliana tras caída en un adulto mayor: rotura del tendón del {{c1::cuádriceps}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul 2019",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 8"
+   ],
+   "codigos": [
+    "4.02.2.004"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor al valgo de rodilla sin bostezo tras torsión: esguince del ligamento {{c1::colateral medial}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic 2024",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 57"
+   ],
+   "codigos": [
+    "4.02.2.003"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "_verificadas/252_trauma_Partes_blandas__ecmpdf_p536_1.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Rotura del tendón de Aquiles",
+   "clave": "Depresión palpable sobre el tendón con Thompson alterado",
+   "conducta": "Cirugía urgente según el libro; derivar al traumatólogo",
+   "fuente": "Atlas of Clinical Emergency Medicine (Sherman), p. 536",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.004"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "_verificadas/251_trauma_Partes_blandas__ctmri_path_p478_1.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Quiste de Baker",
+   "clave": "Colección poplítea entre gastrocnemio medial y semimembranoso",
+   "conducta": "Roto: analgesia con AINE; descartar TVP si no había bulto previo",
+   "fuente": "CT & MRI Pathology: A Pocket Atlas, p. 478",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.011"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Hematoma fluctuante infectado: ¿conducta?",
+   "codigos": [
+    "4.02.2.011",
+    "4.02.2.004"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "Esguince grado III con equimosis e inestabilidad: ¿tratamiento?",
+   "codigos": [
+    "4.02.2.011",
+    "4.02.2.004"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.2.0",
+   "pista": "Pantorrilla dolorosa con bulto poplíteo que desapareció: ¿diagnóstico y manejo?",
+   "codigos": [
+    "4.02.2.011",
+    "4.02.2.004"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.3",
+   "pista": "Pedrada en el talón con Thompson alterado: ¿qué es y qué haces?",
+   "codigos": [
+    "4.02.2.011",
+    "4.02.2.004"
+   ]
+  }
+ ]
+}

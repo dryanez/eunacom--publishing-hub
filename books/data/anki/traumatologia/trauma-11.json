@@ -1,0 +1,654 @@
+{
+ "classId": "trauma-11",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La causa más frecuente de lumbago es el {{c1::lumbago mecánico}}, por debilidad de la musculatura axial (lumbar y abdominal).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Lumbago",
+   "repaso": true,
+   "codigos": [
+    "4.02.1.005"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El lumbago mecánico {{c1::aumenta}} con el movimiento y disminuye con el reposo; el inflamatorio {{c2::mejora}} con el ejercicio.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Clase · Mecánico vs inflamatorio",
+   "repaso": true,
+   "codigos": [
+    "4.02.1.005",
+    "4.02.3.005"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El lumbago inflamatorio (peor en reposo, mejora con ejercicio) sugiere {{c1::espondiloartritis}}.",
+   "extra": "Dolor glúteo nocturno que mejora con la actividad, psoriasis y uveítis.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Lumbago",
+   "repaso": true,
+   "codigos": [
+    "4.02.1.005",
+    "4.02.3.005"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Manejo del lumbago mecánico: reposo relativo (no en cama), {{c1::AINE}} y kinesioterapia cuando cede el dolor.",
+   "extra": "La kinesioterapia no se hace en fase aguda.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Manejo",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 29",
+    "EUNACOM Julio 2025 · Pregunta 95"
+   ],
+   "codigos": [
+    "4.02.1.005"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En lumbago mecánico agudo se evita el reposo en cama {{c1::prolongado}}; no se piden imágenes en fase aguda.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Manejo",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.005"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La lumbociática es dolor lumbar irradiado a las extremidades inferiores; su manejo inicial es {{c1::idéntico}} al del lumbago simple.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Lumbociática",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.005",
+    "4.02.3.005"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La causa más común de hombro doloroso es el síndrome de {{c1::manguito rotador}}.",
+   "extra": "Dolor nocturno, con abducción y elevación sobre el hombro.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hombro",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 82",
+    "EUNACOM Diciembre 2017 · Pregunta 101",
+    "EUNACOM Julio 2013 · Pregunta 141",
+    "EUNACOM Diciembre 2018 · Pregunta 140",
+    "EUNACOM Julio 2024 · Pregunta 119"
+   ],
+   "codigos": [
+    "4.02.1.008"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el manguito rotador la movilidad {{c1::pasiva}} está conservada; en la capsulitis adhesiva está limitada.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hombro",
+   "repaso": true,
+   "codigos": [
+    "4.02.1.008"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Para objetivar la inflamación del manguito rotador el examen de elección es la {{c1::ecografía}}, más costo-efectiva que la RM.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hombro",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.008"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento del manguito rotador: reposo, {{c1::AINE}} y kinesioterapia motora.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hombro",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.008"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La capsulitis adhesiva (hombro congelado) limita el movimiento {{c1::activo y pasivo}} y pasa de una fase dolorosa a rigidez sin dolor.",
+   "extra": "Corticoides y kinesioterapia intensiva.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Capsulitis",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 126"
+   ],
+   "codigos": [
+    "4.02.1.008"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Arco doloroso entre 60-120° con Neer y Hawkins positivos: síndrome de {{c1::pinzamiento subacromial}} (manguito rotador).",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real hombro",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 127"
+   ],
+   "codigos": [
+    "4.02.1.008"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor de hombro tras tenis con ascenso de la cabeza humeral en la radiografía: rotura completa del tendón del {{c1::supraespinoso}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real hombro",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 68"
+   ],
+   "codigos": [
+    "4.02.1.004"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tendinitis se caracteriza por dolor a la palpación y al {{c1::estiramiento}} del tendón involucrado.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tendinitis",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.024"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tendinitis de la {{c1::pata de ganso}}: dolor anteromedial e inferior de la rodilla, común en trekking.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tendinitis",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.024"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tendinitis rotuliana duele en la tuberosidad tibial; en adolescentes es la enfermedad de {{c1::Osgood-Schlatter}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tendinitis",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.024"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El síndrome de la banda iliotibial es la «rodilla del {{c1::maratonista}}»: dolor en la cara lateral de la rodilla.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tendinitis",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.024"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "{{c1::De Quervain}}: dolor lateral de la muñeca por el extensor corto y abductor largo del pulgar.",
+   "extra": "Prueba de Finkelstein.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tendinitis",
+   "repaso": false,
+   "imagen": "_web/363_trauma_Dolor_osteomuscular__Commons_2.jpg",
+   "codigos": [
+    "1.11.1.024"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La bursitis, a diferencia de la tendinitis, presenta {{c1::eritema y aumento de volumen visible}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Bursitis",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.024"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La bursitis {{c1::olecraniana}} es un aumento de volumen en la punta del codo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Bursitis",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-11/01_bursitis-olecraniana__bailey-love_p522.jpg",
+   "codigos": [
+    "1.11.1.024"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La bursitis {{c1::pertrocantérica}} da dolor sobre el trocánter mayor, en la cara externa de la cadera.",
+   "extra": "Obesos o mujeres mayores; dolor al dormir sobre ese lado.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Bursitis",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-11/02_palpacion-bursa-trocanterica__bates_p709.jpg",
+   "codigos": [
+    "1.11.1.024"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento de la bursitis: AINE, frío local y corticoides en {{c1::casos refractarios}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Bursitis",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.024"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La bursitis es superficial y externa a la articulación; la {{c1::artritis séptica}} tiene derrame profundo y limitación de todo el rango.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Bursitis",
+   "repaso": true,
+   "codigos": [
+    "1.11.1.024"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La epicondilalgia lateral o codo de {{c1::tenista}} es una tendinopatía del extensor radial corto del carpo.",
+   "extra": "La medial, codo de golfista, afecta flexores y pronadores.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Epicondilalgia",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.008"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el codo de tenista duele la {{c1::extensión resistida}} de la muñeca o del tercer dedo.",
+   "extra": "En el de golfista, la flexión y pronación resistidas.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Epicondilalgia",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.008"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La epicondilalgia es autolimitada, de {{c1::6-12 meses}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Epicondilalgia",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.008"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento de la epicondilalgia: reposo relativo, AINE, {{c1::cincha epicondílea}} y ejercicios excéntricos.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Epicondilalgia",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.008"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La infiltración con corticoides alivia a corto plazo pero {{c1::empeora}} el resultado a largo plazo y no se repite.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Epicondilalgia",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.008"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Banderas rojas del lumbago: cáncer, {{c1::fiebre}}, baja de peso, dolor nocturno progresivo, drogas EV, déficit neurológico y trauma.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Banderas rojas",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.012"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El síndrome de {{c1::cauda equina}} (anestesia en silla de montar, retención urinaria) es una urgencia quirúrgica.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Banderas rojas",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.012"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La espondilodiscitis (S. aureus, tuberculosis, brucelosis) cruza el disco; los tumores típicamente lo {{c1::respetan}}.",
+   "extra": "Lumbago con fiebre tras pielonefritis.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Banderas rojas",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 167"
+   ],
+   "codigos": [
+    "1.11.1.012"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El examen de elección en lumbago con banderas rojas de infección o tumor es la {{c1::resonancia magnética}}.",
+   "extra": "Se pide además hemograma, VHS, PCR y calcio.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Banderas rojas",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.012"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las metástasis vertebrales provienen de mama, próstata, pulmón, riñón y {{c1::tiroides}}; el mieloma da lesiones líticas e hipercalcemia.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Banderas rojas",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.012"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La osteomielitis aguda hematógena del niño afecta la {{c1::metáfisis}} de huesos largos y se debe a S. aureus.",
+   "extra": "En la anemia falciforme, también Salmonella.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Osteomielitis",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.004"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la osteomielitis aguda la radiografía es normal los primeros {{c1::10-14 días}}; la RM es el examen más precoz.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Osteomielitis",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.004"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Osteomielitis: antibiótico EV antiestafilocócico ({{c1::cloxacilina o cefazolina}}) por 4 a 6 semanas; vancomicina si hay SAMR.",
+   "extra": "Cefazolina empírica en osteomielitis de cadera en niño.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Osteomielitis",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 47"
+   ],
+   "codigos": [
+    "4.02.1.004"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Rodilla con líquido turbio, 50.000 GB, cocos gram positivos en racimos: artritis séptica por {{c1::Staphylococcus aureus}}.",
+   "extra": "Drenaje articular urgente y cloxacilina EV.",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul 2025",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 126"
+   ],
+   "codigos": [
+    "4.02.1.004"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La lumbociática radicular suele deberse a hernia del núcleo pulposo {{c1::L4-L5 o L5-S1}} y el dolor llega bajo la rodilla.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Radiculopatía",
+   "repaso": false,
+   "codigos": [
+    "4.02.3.005"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "L5: dolor en la cara lateral de la pierna y dorso del pie, con debilidad del {{c1::hallux}} (marcha de talones).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Radiculopatía",
+   "repaso": false,
+   "codigos": [
+    "4.02.3.005"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "S1: dolor en planta del pie, marcha de puntillas y reflejo {{c1::aquíleo}} disminuido.",
+   "extra": "L4: reflejo rotuliano disminuido.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Radiculopatía",
+   "repaso": false,
+   "codigos": [
+    "4.02.3.005"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El signo de {{c1::Lasègue}} es positivo con dolor a la elevación de la pierna recta a 30-70°; el cruzado es más específico.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Radiculopatía",
+   "repaso": true,
+   "codigos": [
+    "4.02.3.005"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El {{c1::80-90%}} de las radiculopatías mejora en 6-12 semanas con AINE y actividad; la RM solo si hay alarma.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Radiculopatía",
+   "repaso": false,
+   "codigos": [
+    "4.02.3.005"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-11/01_bursitis-olecraniana__bailey-love_p522.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Bursitis olecraniana",
+   "clave": "Tumefacción redondeada en la punta del codo, fuera de la articulación",
+   "conducta": "AINE y frío local; no es artritis séptica",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 34.37",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.024"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-11/02_palpacion-bursa-trocanterica__bates_p709.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Palpación de la bursa trocantérica",
+   "clave": "Dolor sobre el trocánter mayor con el paciente de costado",
+   "conducta": "Bursitis trocantérica: AINE y frío local",
+   "fuente": "Bates, Guía de exploración física, Fig. 16-65",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.024"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Lumbago que aumenta al moverse: ¿manejo?",
+   "codigos": [
+    "1.11.1.024",
+    "4.02.3.005"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "Hombro con movilidad pasiva conservada: ¿diagnóstico y tratamiento?",
+   "codigos": [
+    "1.11.1.024",
+    "4.02.3.005"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.1",
+   "pista": "Hombro limitado activa y pasivamente: ¿diagnóstico y tratamiento?",
+   "codigos": [
+    "1.11.1.024",
+    "4.02.3.005"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.2.1",
+   "pista": "Aumento de volumen superficial con eritema: ¿diagnóstico y manejo?",
+   "codigos": [
+    "1.11.1.024",
+    "4.02.3.005"
+   ]
+  }
+ ]
+}

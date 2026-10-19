@@ -1,0 +1,774 @@
+[
+ {
+  "recTag": "EUNACOM Julio 2025 · Pregunta 17",
+  "year": 2025,
+  "codes": [
+   "1.05.1.003 [resp-03: Asma bronquial leve y moderada]"
+  ],
+  "stem": "Paciente de 25 años con tos y sibilancias recurrentes. Espirometría muestra VEF1/CVF 68% (< 70%), VEF1 72% del predicho. Post broncodilatador: VEF1 aumenta 15% y 220 mL. ¿Cuál es el diagnóstico?",
+  "options": "A) Asma bronquial | B) EPOC leve | C) Bronquiectasias | D) Fibrosis pulmonar idiopática | E) Traqueomalacia",
+  "correcta": "A",
+  "explicacion": "Obstrucción espirométrica + prueba broncodilatadora positiva (aumento VEF1 ≥12% y ≥200 mL) = asma bronquial. La reversibilidad distingue asma de EPOC.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 22",
+  "year": 2017,
+  "codes": [
+   "1.05.1.003 [resp-03: Asma bronquial leve y moderada]"
+  ],
+  "stem": "¿Cuál de las siguientes sustancias es una causa frecuente de asma pulmonar por ex- posición laboral?",
+  "options": "A) Asbesto | B) Sílice | C) Harina | D) Algodón | E) Carbón",
+  "correcta": "C",
+  "explicacion": "Asbesto, sílice y carbón producen neumoconiosis. La inhalación de harina, produ- ce asma y es la causa más freucuente de asma laboral.",
+  "conf": 0.45,
+  "alertas": [
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2025 · Pregunta 9",
+  "year": 2025,
+  "codes": [
+   "1.05.1.004 [resp-20: Bronquiectasias]"
+  ],
+  "stem": "Un paciente de 40 años, con antecedente de neumonías a repetición y consumo de tabaco de 5 paquetes-año, consulta por tos frecuente y productiva, mayor durante las mañanas, con expectoración mucosa y, en ocasiones, hemoptoica. Al examen físico presenta dedos en palillo de tambor (acropaquias), frecuencia cardíaca 75 lpm y presión arterial 110/70 mmHg. La auscultación cardiopulmonar revela ritmo regular en dos tonos sin soplos, murmullo pulmonar presente y simétrico, con auscultación de crepitaciones y estertores bilaterales. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Bronqui2s crónica | B) Bronquiectasias | C) Carcinoma broncogénico | D) Tuberculosis pulmonar | E) Insuficiencia cardíaca conges2va",
+  "correcta": "B",
+  "explicacion": "Tiene un cuadro compatible con bronquiectasias. Se debe revisar el resumen de semiología respiratoria. El diagnóstico se confirma con TAC de tórax de alta resolución.",
+  "conf": 0.92,
+  "alertas": [
+   "texto_corrupto"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 119",
+  "year": 2016,
+  "codes": [
+   "1.05.1.004 [resp-20: Bronquiectasias]"
+  ],
+  "stem": "Un paciente de 26 años de edad presenta un cuadro de tos con expectoración de algunos años de evolución, mayor en las mañana y que ha presentado hemoptisis. Su examen físico presenta acropaquias y a la auscultación pulmonar hay crepitaciones y estertores bilaterales. El diagnóstico más probable es:",
+  "options": "A) Bronquiectasias | B) Cáncer pulmonar | C) Tuberculosis pulmonar | D) Asma | E) EPOC",
+  "correcta": "A",
+  "explicacion": "Son bronquiectasias clásicas (persona joven con clínica respiratoria, hemoptisis, broncorrea, infecciones recurrentes y estertores y sibilancias). Las acropaquias se ven en A, B y C, pero son más frecuentes en el cáncer de pulmón.",
+  "conf": 0.92,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Enero 2023 · Pregunta 87",
+  "year": 2023,
+  "codes": [
+   "1.05.1.004 [resp-20: Bronquiectasias]"
+  ],
+  "stem": "Paciente con infecciones respiratorias recurrentes y expectoración matinal de 200 mL al día. ¿Cuál es el examen de elección para el estudio?",
+  "options": "A) Broncoscopía con lavado broncoalveolar | B) Espirometría con test de reversibilidad | C) TAC de tórax de alta resolución | D) Radiografía de tórax seriada | E) Cultivo de esputo",
+  "correcta": "C",
+  "explicacion": "La alternativa correcta es la **C** (TAC de tórax de alta resolución). TAC de tórax de alta resolución. El síndrome de Sjögren se manifiesta principalmente con un síndrome de sicca (sequedad), que es su manifestación más frecuente y a veces la única. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2022 · Pregunta 107",
+  "year": 2022,
+  "codes": [
+   "1.05.1.004 [resp-20: Bronquiectasias]"
+  ],
+  "stem": "Una paciente de 45 años, con antecedente de infecciones respiratorias a repetición en la infancia, presenta broncorrea de cerca de 300cc al día, mayor en la mañana, asociada a disnea de esfuerzos y tos con expectoración. Además, refiere cuadros de exacerbación de sus síntomas que ocurren varias veces al año, por lo que usa antibióticos. Al examen físico tiene signos vitales dentro de rango normal y, en la auscultación pulmonar se objetiva espiración prolongada, además de auscultarse estertores y sibilancias bilaterales. Se solicita radiografía de tórax, que se muestra a continuación (fuente: www.sciencephoto.com): ¿Cuál es el examen de elección para proseguir con el diagnóstico?",
+  "options": "A) Recuento de inmunoglobulina A, G y M | B) TAC de tórax | C) Baciloscopías y cultivo para micobacterias | D) Lavado bronquioalveolar | E) Broncoscopía",
+  "correcta": "B",
+  "explicacion": "Diagnóstico: **TAC de tórax** (opción **B**). El síndrome de Sjögren se manifiesta principalmente con un síndrome de sicca (sequedad), que es su manifestación más frecuente y a veces la única. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.72,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 143",
+  "year": 2019,
+  "codes": [
+   "1.05.1.004 [resp-20: Bronquiectasias]"
+  ],
+  "stem": "Un paciente de 32 años, presenta infecciones respiratorias recurrentes, desde su infancia, que en varias ocasiones han requerido de antibióticos, asociado a disnea de esfuerzos. Al examen físico tiene FC: 80x’, PA: 110/70 mmHg, T°: 36,5°C y al examen pulmonar se auscultan múltiples crépitos y sibilancias bilaterales. Se solicita una radiografía de tórax, que se muestra a continuación: Fuente: http://www.lungindia.com/ El examen más adecuado para proseguir el estudio diagnóstico es:",
+  "options": "A) Fibrobroncoscopía | B) Cuantificación de inmunoglobulinas | C) TAC de tórax | D) Test del sudor | E) Espirometría",
+  "correcta": "D",
+  "explicacion": "Tiene imágenes sugerentes de bronquiectasias bilaterales. El resto del cuadro clínico es compatible con una FQ, a pesar de la edad (neumonías bacterianas a repetición: habitualmente por S. aureus y P. aureginosa).",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 18",
+  "year": 2017,
+  "codes": [
+   "1.05.1.004 [resp-20: Bronquiectasias]"
+  ],
+  "stem": "Una paciente de 23 años, que desde la infancia tiene tos frecuente, con expectoración abundante, mayor en la mañana, que en ocasiones es hemoptoica. Además una o dos veces al año, se exacerba los síntomas, con necesidad de uso de antibióticos. Se solicita una radiografía de tórax que se muestra a continuación: FOTO (radiografía de tórax AP con afectación en ambas bases, en patrón broncointersticial). ¿Cuál es el examen más adecuado para proseguir el estudio?",
+  "options": "A) Recuento de inmunoglobulinas | B) Test del sudor | C) Resonancia magnética de tórax | D) TAC de tórax | E) Baciloscopías de expectoración",
+  "correcta": "D",
+  "explicacion": "La alternativa correcta es la **D** (TAC de tórax). La clínica es de bronquiectasias, que se diagnostican preferentemente con un TAC de tórax.. El síndrome de Sjögren se manifiesta principalmente con un síndrome de sicca (sequedad), que es su manifestación más frecuente y a veces la única. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 57",
+  "year": 2019,
+  "codes": [
+   "1.05.1.004 [resp-20: Bronquiectasias]"
+  ],
+  "stem": "Un paciente de 22 años, que desde la infancia tiene infecciones respiratorias a repetición, que requerían uso de antibiótico. Al examen físico, es mesomorfo, con FC: 72x’, PA:120/80 mmHg, su examen físico presenta crepitaciones y estertores bilateral. Se solicita radiografía de tórax que muestra múltiples imágenes de dilataciones bronquiales bilaterales, compatibles con bronquiectasias. ¿Cuál es el examen para proseguir el estudio?",
+  "options": "A) Broncoscopía con biopsia bronquial | B) Prueba de provocación bronquial con metacolina | C) Espirometría | D) Test del sudor | E) Baciloscopías de expectoración",
+  "correcta": "D",
+  "explicacion": "Es una sospecha de FQ en el adulto, tanto por las infecciones bacterianas, como por las bronquiectasias (en otro año, más difícil aún, se puso una RxTx con imágenes que sugerían bronquiectasias). Se estudia con test del sudor. Es una patología AUGE, así que se pregunta bastante. La A serviría para la enfermedad de cilio inmóvil, que suele tener la misma clínica, más situs inversus en la mitad de los casos.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 155",
+  "year": 2016,
+  "codes": [
+   "1.05.1.006 [resp-04: Bronquitis crónica]"
+  ],
+  "stem": "Un paciente de 66 años, fumador de 40 paquetes-año presenta tos con expectoración mucosa, de 4 años de evolución. Tiene broncorrea, mayor en la mañana y presenta 2 infecciones respiratorias al año, que requieren de antibióticos. Su radiografía de tórax y espirometría son normales. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Cáncer de pulmón | B) Tuberculosis pulmonar | C) Fibrosis pulmonar | D) EPOC | E) Bronquitis crónica",
+  "correcta": "E",
+  "explicacion": "Es una bronquitis crónica clásica: fumador con tos y expectoración crónicas, mayores en la mañana. No tiene EPOC, porque su espirometría está normal. Asimismo, la radiografía normal hace improbables las demás opciones. Finalmente, la clínica no es sugerente de ninguna de las otras.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 71",
+  "year": 2024,
+  "codes": [
+   "1.05.1.007 [resp-17: Cáncer bronquial primario]"
+  ],
+  "stem": "Un paciente de 66 años, hipertenso, fumador de 40 paquetes-año consulta por un cuadro de tos, de 2 meses de evolución, con expectoración mucosa o mucopurulenta, en ocasiones hemoptoica asociados a baja de peso. Al examen físico, tiene disminución del murmullo pulmonar bilateral, mayor a derecha, con crepitaciones pulmonar en el lado derecho. Se palpan adenopatías supraclaviculares bilaterales y se constata hipocratismo digital. Se solicita hemograma que muestra hematocrito: 29%, hemoglobina: 9,5 g/dl, leucocitos: 11.000 por mm3, plaquetas: 140.000 por mm3. Se solicita radiografía de tórax, que se muestra a continuación (fuente: www.medicinainternaaldia.com): ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Neumonía multifocal | B) Quiste hidatídico | C) Atelectasia | D) Derrame pleural | E) Cáncer pulmonar",
+  "correcta": "E",
+  "explicacion": "Cáncer de Pulmón: El cuadro clínico y la radiografía sugerían un cáncer de pulmón, pero ninguna de las opciones del Eunacom real tenían dicha respuesta. Así es el Eunacom y no se puede reclamar. Para efectos de subirlo a la plataforma, incluimos la opción.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Enero 2023 · Pregunta 90",
+  "year": 2023,
+  "codes": [
+   "1.05.1.007 [resp-17: Cáncer bronquial primario]"
+  ],
+  "stem": "Paciente fumador con baja de peso, hemoptisis ocasional y dolor costal. Radiografía con masa pulmonar. ¿Diagnóstico más probable?",
+  "options": "A) Tuberculosis pulmonar cavitada | B) Cáncer pulmonar | C) Absceso pulmonar | D) Sarcoidosis pulmonar | E) Linfoma pulmonar primario",
+  "correcta": "B",
+  "explicacion": "Diagnóstico: **Cáncer pulmonar** (opción **B**). Cáncer pulmonar. Esta clase diferencia la fiebre sin foco (FSF) de la fiebre de origen desconocido (FOD). Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2022 · Pregunta 144",
+  "year": 2022,
+  "codes": [
+   "1.05.1.007 [resp-17: Cáncer bronquial primario]"
+  ],
+  "stem": "Una paciente de 63 años, con antecedente de diabetes e hipertensión mal controladas, fumadora de 40 paquetes años y alcohólica activa, consulta por dolor torácico izquierdo, que aumenta con los movimientos respiratorios, asociado a tos con expectoración mucosa, que, en ocasiones es hemoptoica. Ha bajado de peso y refiere disnea de esfuerzos desde hace algunos meses. Al examen físico tiene frecuencia cardíaca: 65x’, PA: 150/98 mmHg, saturación de oxígeno por pulsometría: 95% a FiO2 ambiental, examen pulmonar con murmullo vesicular simétrico, con escasos crépitos a izquierda y, además, refiere dolor a la palpación de quinto arco costal izquierdo. Se solicita una radiografía, que se muestra a continuación (fuente: Radiopaedia): ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Absceso pulmonar | B) Neumonía neumocócica | C) Tuberculosis pulmonar | D) Disección aórtica | E) Cáncer pulmonar",
+  "correcta": "E",
+  "explicacion": "Diagnóstico: **Cáncer pulmonar** (opción **E**). Esta clase diferencia la fiebre sin foco (FSF) de la fiebre de origen desconocido (FOD). Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2018 · Pregunta 11",
+  "year": 2018,
+  "codes": [
+   "1.05.1.007 [resp-17: Cáncer bronquial primario]"
+  ],
+  "stem": "Un paciente de 76 años, jubilado de la minería y fumador de 20 paquetes año consulta por tos y disnea de 2 meses de evolución, asociada a expectoración mucosa, que a veces tiene estrías de sangre. Ha bajado 4 kilogramos de peso y presenta astenia. Su examen pulmonar muestra murmullo pulmonar conservado, bilateral, con escasos crépitos y sibilancias, mayores en el lado derecho. Se solicita una radiografía, que se muestra a continuación: Foto 3 (https://scielo.conicyt.cl/scielo.php?script=sci_arttext&pid=S0717-93082004000400006) ¿Cuál es el examen más adecuado para proseguir con el estudio de este paciente?",
+  "options": "A) TAC de tórax | B) Broncoscopía | C) Baciloscopías | D) PET | E) Resonancia magnética de tórax",
+  "correcta": "A",
+  "explicacion": "Es una pregunta discutible. Lo primero a revisar siempre son las radiografías previas. Luego, el TAC es el examen de elección para el enfrentamieinto del nódulo pulmonar. Sin embargo, el PET/TC ha demostrado ser de gran utilidad (a pesar de falsos positivos), por lo que también es una respuesta potencialmente correcta. Luego se hace la biopsia por broncoscopía.",
+  "conf": 0.78,
+  "alertas": [
+   "explicacion_admite_duda"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 136",
+  "year": 2015,
+  "codes": [
+   "1.05.1.007 [resp-17: Cáncer bronquial primario]"
+  ],
+  "stem": "Un paciente de 60 años, hipertenso, fumador de 25 paquetes-año, consulta por tos de algunos meses de evolución. Su examen pulmonar muestra murmullo pulmonar presente, sin ruidos agregados. Se realiza radiografía que se muestra a continuación. NOTA: la foto original no mostraba nada categórico. Era similar a la que se muestra, pero no tenía flecha.",
+  "options": "A) Cáncer | B) Tuberculosis pulmonar | C) Fibrosis pulmonar | D) Enfermedad pulmonar obstructiva crónica | E) Cardiopatía hipertensiva",
+  "correcta": "A",
+  "explicacion": "La radiografía no mostraba mucho (en la Rx original no había flecha y se veía, usando la imaginación, un engrosamiento bronquial o mediastínico derecho). Casi se veía normal. Pero tos en alguien muy fumador, con examen físico normal, pensar en Cáncer (no tenía secreción como para pensar en bronquitis crónica por cigarrillo).",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 9",
+  "year": 2019,
+  "codes": [
+   "1.05.1.007 [resp-17: Cáncer bronquial primario]"
+  ],
+  "stem": "Un paciente de 55 años, fumador de 20 paquetes años, consulta por tos de 3 meses de evolución, asociado a disnea y expectoración mucosa. Al examen físico se ausculta murmullo pulmonar conservado, sin ruidos agregados. Se solicita una radiografía de tórax, que se muestra a continuación. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Asma bronquial | B) Enfermedad pulmonar obstructiva crónica | C) Cáncer bronquial | D) Hidatidosis pulmonar | E) Enfermedad pulmonar intersticial",
+  "correcta": "C",
+  "explicacion": "Es un cáncer bronquial o pulmonar clásico, tanto por la clínica, como por la imagen. Revisar el resumen de semiología respiratoria.",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 7",
+  "year": 2019,
+  "codes": [
+   "1.05.1.007 [resp-17: Cáncer bronquial primario]"
+  ],
+  "stem": "Un paciente de 60 años, fumador de 40 paquetes años, consulta por disnea de 3 meses de evolución, asociado a tos con expectoración mucosa. Al examen físico tiene FC: 72x’, PA: 110/70 mmHg, FR: 15x’ y a la auscultación pulmonar se constatan escasos crépitos y algunas sibilancias, que son mayores en el campo pulmonar izquierdo. Se realiza una radiografía, que se muestra a continuación: Fuente: radiopaedia.org ¿Cuál es el examen de elección para proseguir el estudio?",
+  "options": "A) Biopsia pulmonar por fibrobroncoscopía | B) TAC de tórax | C) Fibrobroncoscopía con lavado bronquioalveolar | D) Biopsias por videotoracoscopía | E) Resonancia magnética nuclear de tórax",
+  "correcta": "B",
+  "explicacion": "Tiene un tumor pulmonar izquierdo y la clínica sugiere cáncer. Luego de la RxTx se recomienda una TAC, antes de proceder a la biopsia (por broncoscopía, en este caso), ya que que permite ver la ubicación, características y estado de diseminación, además de ayudar a detectar otros diagnósticos diferenciales.",
+  "conf": 0.68,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2025 · Pregunta 29",
+  "year": 2025,
+  "codes": [
+   "1.05.1.007 [resp-17: Cáncer bronquial primario]"
+  ],
+  "stem": "Imagen radiográfica de tórax PA en hombre de 62 años, fumador, que muestra masa hiliar derecha irregular con atelectasia del lóbulo superior derecho. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Carcinoma espinocelular (epidermoide) de pulmón | B) Derrame pleural | C) Neumotórax espontáneo | D) Neumonía por aspiración | E) Adenocarcinoma periférico",
+  "correcta": "A",
+  "explicacion": "Masa hiliar central en fumador con atelectasia lobar = carcinoma espinocelular (epidermoide), el más frecuente en fumadores y de localización central. Produce obstrucción bronquial y atelectasia distal.",
+  "conf": 0.65,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 65",
+  "year": 2021,
+  "codes": [
+   "1.05.1.007 [resp-17: Cáncer bronquial primario]"
+  ],
+  "stem": "Un paciente de 60 años, fumador de 40 paquetes años, consulta por disnea de 3 meses de evolución, asociado a tos con expectoración mucosa, que en ocasiones es hemoptoica y que se ha asociado a baja de peso no cuantificada. Al examen físico tiene FC: 72x’, PA: 110/70 mmHg, FR: 15x’, saturación O2: 95%. A la auscultación pulmonar se constatan escasos crépitos y algunas sibilancias, que son mayores en el campo pulmonar izquierdo. Se realiza una radiografía, que se muestra a continuación (fuente: radiopaedia): ¿Cuál es el examen de elección para proseguir el estudio?",
+  "options": "A) Biopsia pulmonar por fibrobroncoscopía | B) TAC de tórax con contraste | C) Fibrobroncoscopía con lavado bronquioalveolar | D) Biopsias por videotoracoscopía | E) Resonancia magnética nuclear de tórax",
+  "correcta": "B",
+  "explicacion": "Tiene una masa pulmonar (mayor a 3 cm, por lo que se presume maligna), más una clínica sugerente de cáncer. Se prosigue el estudio con una TAC, ya que delimita mejor el tumor y su ubicación, evalúa las adenopatías y descarta otras causas. Luego se biopsia idealmente por broncoscopía, si es accesible por vía bronquial.",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 98",
+  "year": 2016,
+  "codes": [
+   "1.05.1.009 [resp-18: Daño pulmonar secundario a drogas]"
+  ],
+  "stem": "Mujer de 56 años cardiópata y con fibrilación auricular crónica, en tratamiento con espironolactona, isosorbide, hidralazina, amiodarona y anticoagulante oral. Inicia hace 6 meses un cuadro de disnea y tos seca. A la exploración pulmonar tiene crépitos bibasales. Se solicita una radiografía de tórax, que se muestra a continuación: ¿Cuál es la conducta inicial más adecuada?",
+  "options": "A) Suspender amiodarona | B) Solicitar TAC de tórax | C) Aumentar diurético | D) Solicitar ecocardiograma | E) Solicitar fibrobroncoscopia",
+  "correcta": "A",
+  "explicacion": "Si bien es imposible ver bien la radiografía, la historia sugería mucho una fibrosis pulmonar por amiodarona, por lo que se debe suspender.",
+  "conf": 0.82,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Enero 2023 · Pregunta 93",
+  "year": 2023,
+  "codes": [
+   "1.05.1.009 [resp-18: Daño pulmonar secundario a drogas]"
+  ],
+  "stem": "Paciente usuario de amiodarona con disnea progresiva y tos; radiografía con infiltrados bilaterales. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Suspender amiodarona | B) Iniciar corticoides sistémicos | C) Agregar antibiótico de amplio espectro | D) Solicitar broncoscopía diagnóstica | E) Aumentar dosis de amiodarona y agregar corticoide",
+  "correcta": "A",
+  "explicacion": "Conducta / Tratamiento indicado: **Suspender amiodarona** (opción **A**). Suspender amiodarona. Tratamiento: penicilina endovenosa; en forma respiratoria ciprofloxacino + clindamicina. De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2022 · Pregunta 106",
+  "year": 2022,
+  "codes": [
+   "1.05.1.009 [resp-18: Daño pulmonar secundario a drogas]"
+  ],
+  "stem": "Una paciente de 68 años, con antecedente de hipertensión y cardiopatía hipertensiva, en tratamiento con losartán y clortalidona, que, además, tiene fibrilación auricular crónica, en tratamiento con amiodarona y rivaroxabán, consulta por un cuadro de disnea progresiva que se ha instalado en los últimos meses, que actualmente es de medianos esfuerzos y se asocia a tos seca, mayor en la noche. Al examen físico tiene pulso regular a 74x’, PA: 130/80 mmHg, examen pulmonar con crepitaciones bilaterales, examen cardiaco: RR2T sin soplos, con abdomen y extremidades sin alteraciones. Se solicita radiografía de tórax, que se muestra a continuación (fuente: Radiopaedia): ¿Cuál es la conducta más adecuada?",
+  "options": "A) Iniciar salbutamol | B) Agregar espironolactona | C) Suspender el rivaroxabán | D) Suspender la amiodarona | E) Agregar furosemida",
+  "correcta": "D",
+  "explicacion": "Conducta / Tratamiento indicado: **Suspender la amiodarona** (opción **D**). Tratamiento: penicilina endovenosa; en forma respiratoria ciprofloxacino + clindamicina. De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.65,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 87",
+  "year": 2019,
+  "codes": [
+   "1.05.1.010 [resp-15: Derrame pleural neoplásico]"
+  ],
+  "stem": "Un paciente de 56 años, fumador de 20 paquetes año, consulta por disnea progresiva de 2 meses de evolución, asociada a tos irritativa y compromiso del estado general. Sus signos vitales son FC: 88x’, PA: 130/80 mmHg, saturación 93% a FiO2 ambiental y al examen pulmonar presenta matidez y crépitos en la base derecha. Se solicita una radiografía de tórax, que muestra un derrame pleural moderado, a derecha, el que se confirma con la TAC de tórax. Se realiza toracocentesis, que da salida a un líquido pleural opalescente, con LDH: 700 UI/L, mayor a 0,6 en relación a la LDH plasmática y proteínas mayores a 0,5, en relación a las proteínas plasmáticas, con 40 células por mm3, 90% de mononucleares, ADA: 24 UI/L y citología negativa. ¿Cuál es el examen más adecuado para proseguir el estudio?",
+  "options": "A) Biopsia pulmonar por videotoracoscopía | B) Broncoscopía con biopsia pulmonar | C) PET-TC | D) Biopsia pleural por videotoracoscopía | E) Broncoscopía con lavado bronquioalveolar",
+  "correcta": "D",
+  "explicacion": "Tiene un líquido pleural sugerente de cáncer (exudado: cumple todos los criterios de light; mononuclear; con ADA menor a 30). Dado que la radiografía no muestra un tumor pulmonar, se debe proceder a las biopsias pleurales, las que se hacen por videotoracoscopía y, si no está disponible, de manera percutánea.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 120",
+  "year": 2013,
+  "codes": [
+   "1.05.1.010 [resp-15: Derrame pleural neoplásico]"
+  ],
+  "stem": "Paciente de 65 años de edad, fumador de 40 paquetes/año, consulta por disnea progresiva asociada a tos con expectoración escasa mucosa. Al examen físico se aprecia disminución de murmullo pulmonar en base pulmonar izquierda Se solicita radiografía de tórax que muestra derrame pleural en lado izquierdo, el cual se punciona mostrando LDH 250 mg/dL, 300 leucocitos (95% mononucleares) y ADA en 25. El diagnóstico más probable es:",
+  "options": "A) Insuficiencia Cardiaca | B) Derrame pleural maligno | C) Tuberculosis | D) Tromboembolismo pulmonar | E) Enfermedad del tejido conectivo",
+  "correcta": "B",
+  "explicacion": "Diagnóstico: **Derrame pleural maligno** (opción **B**). Exudado mononuclear con ADA baja. Es cáncer. Esta clase aborda la diferenciación entre amigdalitis bacteriana y viral, junto con la difteria y las anginas infecciosas. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.82,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 20",
+  "year": 2017,
+  "codes": [
+   "1.05.1.010 [resp-15: Derrame pleural neoplásico]"
+  ],
+  "stem": "Un paciente de 60 años, fumador de 5 cigarrillos al día, consulta por disnea de esfuerzos que ha aumentado en el último tiempo. Ha bajado de peso cerca de 6 kilogramos en los últimos 3 meses. Como antecedente, trabajó durante 30 años en una fábrica de producción de pizarras de asbesto para la construcción. Al examen físico presenta signos vitales normales, edema de extremidades inferiores, yugulares visibles al decúbito y examen pulmonar con MP presente, disminuido a derecha. Se solicita una radiografía de tórax que muestra derrame pleural marcado en el lado derecho, por lo que se realiza punción pleural, que da salida a líquido con 300 células por mm3, con 90% de mononucleares, ADA: 22 UI/L, proteínas: 6 g/dL, estudio citológico negativo, pH: 7,37, lactato: 3 mmol/L. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Carcinoma pavimentoso | B) Adenocarcinoma | C) Tuberculosis pleural | D) Mesotelioma | E) Silicosis",
+  "correcta": "D",
+  "explicacion": "Tiene un derrame canceroso (exudado mononuclear con ADA baja) y el antecedente de exposición a asbesto está muy relacionado a mesotelioma.",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2025 · Pregunta 176",
+  "year": 2025,
+  "codes": [
+   "1.05.1.010 [resp-15: Derrame pleural neoplásico]"
+  ],
+  "stem": "Un paciente de 45 años consulta por disnea de 2 meses de evolución que ha ido en aumento y se ha asociado a dolor torácico en el hemitórax izquierdo, además de tos seca. Como antecedente, refiere haber vivido gran parte de su infancia junto a una fábrica de fibrocemento. En su examen físico presenta frecuencia cardíaca 82 latidos por minuto, presión arterial 110/70 mmHg, frecuencia respiratoria 22 por minuto; el examen pulmonar muestra abolición del murmullo pulmonar del hemitórax izquierdo y matidez a la percusión en esa zona. Se solicita una radiografía de tórax, que se muestra a continuación: ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Derrame pleural tuberculoso | B) Tromboembolismo pulmonar crónico | C) Carcinoma broncogénico | D) Silicosis pulmonar | E) Mesotelioma maligno",
+  "correcta": "E",
+  "explicacion": "La radiografía muestra un derrame pleural extenso a izquierda. El antecedente de exposición a asbesto (fibrocemento) orienta al mesotelioma como causa del derrame. Fuente imagen: Radiopaedia.",
+  "conf": 0.62,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 116",
+  "year": 2019,
+  "codes": [
+   "1.05.1.010 [resp-15: Derrame pleural neoplásico]"
+  ],
+  "stem": "Un paciente de 68 años presenta tos de 4 meses de evolución, y disnea de esfuerzos. Al examen pulmonar tiene disminución del murmullo pulmonar a derecha, más matidez en la base derecha. Punción pleural con líquido claro, pH: 7,47, células: 70 por mm3, 80% mononucleares, ADA: 20 UI/L, LDH: 167 UI/L, colesterol: 119 mg/dl. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Insuficiencia cardíaca | B) Tuberculosis pleural | C) Empiema | D) Cáncer bronquial | E) Derrame secundario a artritis reumatoide",
+  "correcta": "D",
+  "explicacion": "Si bien la LDH está menor a 180, el colesterol está mayor a 40, por lo que es un exudado (esa era la parte difícil). Además, es de predominio mononuclear, con ADA baja, por lo que probablemente es un cáncer. La A es un transudado. La B y E son exudados MN, pero tienen ADA alta (mayor a 50 o al menos mayor a 30). La C es un exudado PMN, con ADA alta también.",
+  "conf": 0.58,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 156",
+  "year": 2024,
+  "codes": [
+   "1.05.1.011 [resp-12: Derrame pleural paraneumónico complicado]"
+  ],
+  "stem": "Un paciente de 50 años presenta un cuadro clínico de 7 días de evolución, caracterizado por tos con expectoración mucopurulenta abundante y fiebre de hasta 38,7°C. El examen físico muestra disminución del murmullo pulmonar, con abolición del murmullo pulmonar en la base derecha. La radiografía de tórax muestra signos de condensación en el lado derecho y derrame pleural de tamaño moderado Se inicia tratamiento con ceftriaxona 2g al día y se realiza toracocentesis, obteniéndose un líquido pleural con 2.000 células/mm3, 85% de polimorfonucleares, colesterol: 70 mg/dL, LDH: 220 U/L, pH: 7.26 y lactato de 6.1 mmol/L. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Realizar drenaje completo del derrame pleural | B) Agregar metronidazol al tratamiento | C) Solicitar TAC de tórax | D) Solicitar baciloscopías de expectoración | E) Realizar broncoscopia y biopsia",
+  "correcta": "A",
+  "explicacion": "Neumonía con Derrame Paraneumónico: El manejo de una neumonía con derrame paraneumónico complicado (por el lactato pleural > 5 mmol/L) incluye drenaje completo del derrame pleural (medida más importante), tubo pleural y metronidazol para cubrir bacterias anaerobias.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 138",
+  "year": 2015,
+  "codes": [
+   "1.05.1.012 [resp-12: Derrame pleural paraneumónico simple]"
+  ],
+  "stem": "Un paciente de 50 años presenta un cuadro de tos, con expectoración mucopurulenta y fiebre. Al examen físico está se auscultan crepitaciones basales. Se solicita una radiografía de tórax, que se muestra más abajo: NOTA: la radiografía mostraba infiltrados en la base izquierda, que ocupaban el lóbulo inferior izquierdo, pero que permitían ver la cúpula diafragmática, con un pequeño derrame pleural, limitado al ángulo costofrénico. Se punciona el derrame pleural, que muestra un lactato: 2,4 mmol/L, pH: 7,34, con 350 células, 90% de polimorfonucleares. ¿Qué antibiótico debe dejar?",
+  "options": "A) Claritromicina | B) Clindamicina | C) Ceftriaxona | D) Azitromicina | E) Amoxicilina",
+  "correcta": "C",
+  "explicacion": "Por ser una neumonía, con derrame (paraneumónico simple en este caso), se debe manejar hospitalizada (ATS III), por lo que el ATB de elección es la ceftriaxona.",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 63",
+  "year": 2015,
+  "codes": [
+   "1.05.1.015 [resp-19: Embolia pulmonar]"
+  ],
+  "stem": "Un paciente de 40 años, hospitalizado hace 3 días por un síndrome nefrótico, presenta disnea, de inicio súbito. Presenta desaturación arterial hasta 90%, con disminución del murmullo pulmonar a derecha y matidez, por lo que se realiza una radiografía de tórax, que muestra un derrame pleural. Se punciona el derrame, dando salida a un líquido hemorrágico, con LDH: 700, predominio de polimorfonucleares, pH: 7,3 y lactato de 4,0 mmol/L. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Empiema | B) Derrame paraneumónico simple | C) Tromboembolismo pulmonar | D) Transudado pleural | E) Compromiso pleural maligno",
+  "correcta": "C",
+  "explicacion": "El exudado hemorrágico orienta a TEP. También el Sd. nefrótico, que se complica con TEP. También el inicio súbito.",
+  "conf": 0.82,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 21",
+  "year": 2017,
+  "codes": [
+   "1.05.1.015 [resp-19: Embolia pulmonar]"
+  ],
+  "stem": "Un paciente de 55 años, está hospitalizado por una pancreatitis aguda, de diez días de evolución. Presenta un cuadro de fiebre, malestar general y taquipnea de 1 día de evolución. ¿Qué conducta es más adecuada?",
+  "options": "A) Solicitar radiografía de tórax | B) Solicitar TAC de abdomen y pelvis | C) Solicitar ecografía abdominal | D) Solicitar angioTAC de tórax | E) Solicitar colangiopancreatografía retrógrada endoscópica",
+  "correcta": "D",
+  "explicacion": "Conducta / Tratamiento indicado: **Solicitar angioTAC de tórax** (opción **D**). La sospecha es un TEP.. Es el método diagnóstico de elección debido a su alta sensibilidad (>95%) y capacidad para evaluar complicaciones y extensión anatómica con precisión milimétrica antes de decidir la terapéutica invasiva.",
+  "conf": 0.78,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 148",
+  "year": 2021,
+  "codes": [
+   "1.05.1.015 [resp-19: Embolia pulmonar]"
+  ],
+  "stem": "Un paciente de 72 años es hospitalizado por fractura de cadera, manejada con cirugía de prótesis parcial. Al quinto día presenta pérdida de conciencia, luego de ponerse de pie, con recuperación completa algunos minutos después. Luego de ello presenta lipotimias y episodios similares al incorporarse desde la cama. Al examen físico está con FC: 120x’, presión arterial: 100/50 mmHg, extremidades inferiores frías y con cianosis distal y ritmo cardíaco regular, sin soplos y murmullo pulmonar presente. ¿Cuál es el examen más adecuado para confirmar el diagnóstico?",
+  "options": "A) TAC de cerebro | B) Ecocardiograma | C) RMN de cerebro | D) Electrocardiograma | E) AngioTAC de tórax",
+  "correcta": "E",
+  "explicacion": "Tiene clínica sugerente de un TEP. Además, por estar taquicárdico y con tendencia a la hipotensión, sería un TEP masivo, que requiere de trombólisis, en lugar de simple anticoagulación. Sobre el diagnóstico del TEP masivo, se ha enseñado que el ecocardiograma es el examen de elección para enfrentarlo, pero eso solo ocurre cuando el paciente está muy descompensado, de manera que no está en condiciones de ir al angioTAC y, además, existe disponibilidad de realizar una ecocardiografía de urgencia \"al pie de la cama\". En este caso en que su presión sistólica es mayor a 90 mmHg, sí está en condiciones de ir a un angioTAC.",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 140",
+  "year": 2016,
+  "codes": [
+   "1.05.1.015 [resp-19: Embolia pulmonar]"
+  ],
+  "stem": "Puérpera de 15 días, inicia disnea y tos, asociada a expectoración, hemoptoica. Al examen pulmonar tiene murmullo pulmonar presente, con escasos crépitos y satura 90% a FiO2 ambiental. El diagnóstico más probable es:",
+  "options": "A) Tromboembolismo pulmonar | B) Neumonía adquirida en la comunidad | C) Neumonía intrahospitalaria | D) Tuberculosis pulmonar | E) VIH",
+  "correcta": "A",
+  "explicacion": "Diagnóstico: **Tromboembolismo pulmonar** (opción **A**). el antecedente de puerperio orienta muy fuertemente a TEP. La clínica es compatible.. La enfermedad de Behçet es una vasculitis cuyas manifestaciones recuerdan a las pelvispondiloartropatías. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2018 · Pregunta 97",
+  "year": 2018,
+  "codes": [
+   "1.05.1.015 [resp-19: Embolia pulmonar]"
+  ],
+  "stem": "Un paciente de 68 años, con antecedente de cáncer de próstata, en tratamiento con hormonoterapia, consulta por un cuadro de 2 días de evolución de dolor torácico, en el lado izquierdo, tipo puntada de costado, asociado a disnea, tos y fiebre. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Metástasis pulmonares | B) Neumotórax | C) Infarto agudo al miocardio | D) Tromboembolismo pulmonar | E) Distrés respiratorio",
+  "correcta": "D",
+  "explicacion": "Diagnóstico: **Tromboembolismo pulmonar** (opción **D**). Es un TEP clásico.. La enfermedad de Behçet es una vasculitis cuyas manifestaciones recuerdan a las pelvispondiloartropatías. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.72,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 5",
+  "year": 2017,
+  "codes": [
+   "1.05.1.015 [resp-19: Embolia pulmonar]"
+  ],
+  "stem": "Un paciente de 68 años presenta una fractura de cadera, de la que es operado. Al segundo día, presenta un síncope, que se recupera al a los pocos segundos. Su presión arterial es de 100/60 mmHg y su frecuencia cardíaca es 110. Además satura 91% a FiO2 ambiental. Su examen físico muestra murmullo pulmonar presente, sin ruidos agregados y un ritmo regular en 2 tiempos, sin soplos. ¿Cuál es el examen más adecuado para proseguir con el estudio?",
+  "options": "A) Ecocardiograma | B) Radiografía de tórax | C) AngioTAC de tórax | D) TILT test | E) Monitorización electrocardiográfica de 24 horas",
+  "correcta": "C",
+  "explicacion": "La alternativa correcta es la **C** (AngioTAC de tórax). La sospecha es un TEP.. La enfermedad de Behçet es una vasculitis cuyas manifestaciones recuerdan a las pelvispondiloartropatías. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.72,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 121",
+  "year": 2019,
+  "codes": [
+   "1.05.1.015 [resp-19: Embolia pulmonar]"
+  ],
+  "stem": "Un paciente de 56 años, diabético, hospitalizado en su quinto día, por un síndrome nefrótico, presenta un cuadro de disnea y dolor torácico, por lo que se realiza una radiografía de tórax, la que muestra un derrame pleural derecho. Se realiza la punción pleural, dado salida a un líquido pleural de aspecto hemorrágico, con LDH: 650 UI/L, células 80% de polimorfonucleares, 20% de mononucleares, ADA: 30 UI/L. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Derrame paraneumónico | B) Trasudado por hipoalbuminemia | C) Empiema | D) Tromboembolismo pulmonar | E) Derrame pleural canceroso",
+  "correcta": "D",
+  "explicacion": "El antecedente de síndrome nefrótico orienta a TEP y la clínica también. Que tenga un líquido hemorrágico es clásico de TEP, que suele ser un exudado pleural hemorrágico, ya sea de predominio mononuclear o polimorfonuclear.",
+  "conf": 0.68,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2025 · Pregunta 167",
+  "year": 2025,
+  "codes": [
+   "1.05.1.015 [resp-19: Embolia pulmonar]"
+  ],
+  "stem": "Un paciente de 75 años, con antecedentes de diabetes mellitus tipo 2, hipertensión arterial, enfermedad pulmonar obstructiva crónica e insuficiencia cardíaca congestiva en capacidad funcional II, presenta disnea más intensa de la habitual, desde hace 5 días, por lo que ha guardado reposo en cama recibiendo antibióticos y oxigenoterapia. El día de hoy presenta exacerbación súbita de su sintomatología con pérdida de conciencia, que se recupera algunos segundos después, y disnea de reposo. Al examen físico tiene frecuencia cardíaca 125 latidos por minuto, presión arterial 160/100 mmHg, frecuencia respiratoria 30 por minuto y saturación de oxígeno 87%. El examen pulmonar muestra escasas sibilancias bilaterales y crépitos bibasales. El electrocardiograma muestra taquicardia sinusal sin alteraciones del segmento ST y la radiografía de tórax muestra campos pulmonares grandes, sin opacidades. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Infarto agudo de miocardio | B) Disección aór2ca | C) Taponamiento cardíaco | D) Neumonía | E) Tromboembolismo pulmonar",
+  "correcta": "E",
+  "explicacion": "Una descompensación súbita en un paciente con reposo prolongado en cama orienta fuertemente a TEP, aunque al inicio pareciera una exacerbación de su EPOC o de su insuficiencia cardíaca. La taquicardia sinusal es el hallazgo más frecuente en el ECG y la radiografía suele ser normal o sin cambios respecto de su patología de base, lo que es compatible con TEP.",
+  "conf": 0.6,
+  "alertas": [
+   "texto_corrupto"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 134",
+  "year": 2024,
+  "codes": [
+   "1.05.1.015 [resp-19: Embolia pulmonar]"
+  ],
+  "stem": "Una paciente consulta al servicio de urgencias por disnea y malestar de 2 horas de evolución. Refiere un viaje reciente en avión desde Europa hace 12 horas y es usuaria de anticonceptivos orales. Al examen físico, tiene presión arterial: 110/70 mmHg, frecuencia cardíaca: 100x’ y saturación arterial de oxígeno: 90%, su auscultación cardiopulmonar es normal, al igual que el resto de su examen físico. Se solicita un electrocardiograma que muestra taquicardia sinusal a 120 latidos por minuto. ¿Cuál es el examen de elección para continuar con el estudio?",
+  "options": "A) Dímero D | B) Ecocardiograma | C) AngioTAC de tórax | D) Péptido natriurético cerebral | E) Electrocardiograma Holter de 24 horas",
+  "correcta": "C",
+  "explicacion": "Score de Wells para TEP: La paciente presenta dos criterios del score de Wells para TEP: taquicardia y cuadro clínico sugestivo de TEP sin otro diagnóstico más probable. Esto implica un riesgo intermedio que obliga a descartar la condición con imágenes. El angioTAC de tórax es la prueba de elección, ya que la paciente está hemodinámicamente estable. La otra forma de ver el caso es directamente ver que tiene un cuadro clínico compatible, con factores de riesgo y alteraciones en el examen físico, lo que da una probabilidad al menos intermedia de TEP, lo que obliga a solicitar un angioTAC en lugar de sólo un dímero D.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2025 · Pregunta 86",
+  "year": 2025,
+  "codes": [
+   "1.05.1.015 [resp-19: Embolia pulmonar]"
+  ],
+  "stem": "Mujer de 65 años operada de rodilla hace 48 horas presenta disnea súbita, taquicardia 115 lpm, saturación 89% y dolor pleurítico. Se sospecha tromboembolismo pulmonar. ¿Cuál es el examen diagnóstico de elección?",
+  "options": "A) Resonancia magnética | B) Angiografía pulmonar convencional | C) AngioTAC de tórax (protocolo TEP) | D) Radiografía de tórax | E) Ecografía Doppler de extremidades",
+  "correcta": "C",
+  "explicacion": "AngioTAC de tórax (angiografía por TC) es el gold standard diagnóstico de TEP: sensibilidad y especificidad >90%. La angiografía convencional es invasiva y raramente usada. Ecografía Doppler solo si hay contraindicación para TAC. Radiografía es inespecífica.",
+  "conf": 0.58,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 6",
+  "year": 2017,
+  "codes": [
+   "1.05.1.015 [resp-19: Embolia pulmonar]"
+  ],
+  "stem": "Un paciente de 71 años, con antecedente de tabaquismo de 30 paquetes año, presenta tos de 2 meses de evolución de tos, asociado a baja de peso. Hace 2 días inició con disnea, asociada a dolor con tope inspiratorio. Hoy se agregó fiebre y expectoración hemoptoica. Al examen físico tiene FR: 20x’, PA: 110/70 mmHg, FC: 96x’, murmullo pulmonar presente, simétrico, con escasos crépitos bilaterales y ritmo regular en 2 tonos, sin ruidos agregados. ¿Cuál es el estudio más adecuado para el enfrentamiento de este paciente?",
+  "options": "A) Radiografía de tórax | B) Ecocardiografía | C) Hemograma y hemocultivos | D) AngioTAC de tórax | E) Cultivos de expectoración",
+  "correcta": "D",
+  "explicacion": "La alternativa correcta es la **D** (AngioTAC de tórax). La sospecha también es un TEP.. La enfermedad de Behçet es una vasculitis cuyas manifestaciones recuerdan a las pelvispondiloartropatías. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 98",
+  "year": 2019,
+  "codes": [
+   "1.05.1.015 [resp-19: Embolia pulmonar]"
+  ],
+  "stem": "Un paciente de 55 años, está hospitalizado por una pancreatitis aguda, de 10 días de evolución. Presenta un cuadro de fiebre, malestar general y taquipnea de 1 día de evolución. ¿Qué conducta es más adecuada?",
+  "options": "A) Solicitar radiografía de tórax | B) Solicitar TAC de abdomen y pelvis | C) Realizar laparoscopía exploradora | D) Solicitar angioTAC de tórax | E) Realizar colangiopancreatografía retrógrada endoscópica",
+  "correcta": "D",
+  "explicacion": "Conducta / Tratamiento indicado: **Solicitar angioTAC de tórax** (opción **D**). Se sospecha un TEP y se estudia con angioTAC de tórax.. Es el método diagnóstico de elección debido a su alta sensibilidad (>95%) y capacidad para evaluar complicaciones y extensión anatómica con precisión milimétrica antes de decidir la terapéutica invasiva.",
+  "conf": 0.5,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 147",
+  "year": 2021,
+  "codes": [
+   "1.05.1.015 [resp-19: Embolia pulmonar]"
+  ],
+  "stem": "expectoración mucosa, que en ocasiones es hemoptoica, asociado a disnea de esfuerzos. Además, ha bajado de peso 4 kilogramos y presenta dolor torácico, con tope inspiratorio. Al examen físico FC: 110 x', PA: 100/60 mmHg, ritmo regular en dos tiempos, con ruidos cardíacos apagados, asimetría del murmullo pulmonar y crépitos escasos bilaterales, mayores a izquierda. En sus exámenes de laboratorio destaca hematocrito: 30%, hemoglobina: 9,9 g/dl, blancos: 10.000 por mm3, dímero D: 649 ng/ml (valor normal: menor a 100), LDH: 760 Ul/L. Se realiza radiografía de tórax, que se muestra a continuación (fuente: researchgate.net): ¿Cuál la conducta diagnóstica más adecuada a seguir?",
+  "options": "A) Broncoscopía | B) TAC de tórax | C) Videotoracoscopía | D) Baciloscopías de expectoración | E) AngioTAC de tórax",
+  "correcta": "E",
+  "explicacion": "Es una pregunta muy difícil, pero su clínica sugiere un cáncer pulmonar. Su radiografía muestra un derrame izquierdo. Además, actualmente, dado el dolor con tope inspiratorio (que no indican hace cuánto tiempo tiene), la taquicardia, la elevación del dímero D y la LDH, se debe descartar en primer lugar un TEP, en especial, porque tiene el cáncer como factor de riesgo. Por ello, la respuesta es angioTAC de tórax.",
+  "conf": 0.45,
+  "alertas": [
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 175",
+  "year": 2024,
+  "codes": [
+   "1.05.1.017 [resp-04: Enfermedad pulmonar obstructiva crónica leve y moderada]"
+  ],
+  "stem": "Espirometría con VEF1/CVF 0.35, no mejora post broncodilatador, VEF1 50%",
+  "options": "A) Fibrosis pulmonar | B) Insuficiencia cardiaca derecha | C) EPOC | D) Asma | E) Bronquiectasias",
+  "correcta": "C",
+  "explicacion": "La alternativa correcta es la **C** (EPOC). Patrón obstructivo severo no reversible = EPOC. Esta clase aborda las intoxicaciones alimentarias, las diarreas con sus microorganismos y el cólera. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.95,
+  "alertas": [
+   "explicacion_de_otro_tema"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 14",
+  "year": 2017,
+  "codes": [
+   "1.05.1.017 [resp-04: Enfermedad pulmonar obstructiva crónica leve y moderada]"
+  ],
+  "stem": "Un paciente de 65 años, fumador de 40 paquetes año, consulta por disnea de algunos meses de evolución, progresiva, que actualmente le dificulta caminar más de 3 cuadras. Su examen físico demuestra espiración prolongada y algunas sibilancias en ambos campos pulmonares. Actualmente ya no fuma. Se solicita espirometría que muestra lo siguiente: Basal Litros % Post SBT Litros % CVF 2,68 90 CVF 2,96 102 VEF1 1,35 50 VEF1 1,38 51 VEF1/CVF 55 VEF1/CVF 57 FEF25-75 FEF25-75 ¿Cuál es el tratamiento inicial?",
+  "options": "A) Salbutamol inhalado | B) Budesonida inhalada | C) Ipatropio inhalado | D) Fluticasona inhalada | E) Tiotropio inhalado",
+  "correcta": "E",
+  "explicacion": "La espirometría muestra obstrucción persistente (VEF1/CVF bajo, sin respuesta al broncodilatador) en un ex fumador, es decir, EPOC. La base del tratamiento sintomático del EPOC estable es el broncodilatador de larga acción, por lo que el tiotropio inhalado es la opción adecuada. El salbutamol y el ipratropio son de acción corta y los corticoides inhalados solos no son el tratamiento inicial.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 135",
+  "year": 2015,
+  "codes": [
+   "1.05.1.017 [resp-04: Enfermedad pulmonar obstructiva crónica leve y moderada]"
+  ],
+  "stem": "Un paciente de 55 años, fumados de 30 paquetes-año, consulta por disnea de esfuerzos, progresiva. Su examen físico no muestra alteraciones. Se solicita una radiografía de tórax, que no muestra alteraciones y se realiza una espirometría, que muestra un VEF1 de 60%, que no mejora con broncodilatodor. El diagnóstico más proable es:",
+  "options": "A) Bronquitis crónica | B) Hipertensión pulmonar | C) EPOC | D) Asma | E) Fibrosis pulmonar",
+  "correcta": "C",
+  "explicacion": "Si bien el Dg. de EPOC se hace con la relación VEF1/CVF (menor a 70%), el VEF1 bajo orienta mucho. Que no mejore con broncodilatador descarta asma y orienta a EPOC. La pregunta en sí está mala, pero probablemente será EPOC la respuesta correcta.",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 64",
+  "year": 2013,
+  "codes": [
+   "1.05.1.018 [reuma-12: Enfermedades del intersticio pulmonar]"
+  ],
+  "stem": "Mujer de 58 años, fumadora e hipertensa, consulta por historia de un año de disnea de esfuerzos moderados y tos seca, no asociado a otros síntomas. Al examen físico destaca acropaquia y al examen pulmonar murmullo pulmonar disminuido bilateral con presencia de crépitos gruesos difusos. Se solicita radiografía de tórax que muestra imagen en panal de abejas. El diagnóstico más probrable es:",
+  "options": "A) Enfermedad pulmonar obstructiva crónica | B) Tuberculosis | C) Enfermedad pulmonar intersticial difusa | D) Cáncer pulmonar | E) Tromboembolismo pulmonar crónico",
+  "correcta": "C",
+  "explicacion": "Diagnóstico: **Enfermedad pulmonar intersticial difusa** (opción **C**). Es una fibrosis pulmonar.. Esta clase aborda la varicela y el herpes zóster, ambos causados por el virus varicela-zóster (VVZ). Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.92,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 38",
+  "year": 2024,
+  "codes": [
+   "1.05.1.018 [reuma-12: Enfermedades del intersticio pulmonar]"
+  ],
+  "stem": "Una paciente de 58 años, hipertensa, en tratamiento con enalapril e hidroclorotiazida, consulta por un cuadro de 2 años de evolución de disnea progresiva, que ha aumentado en el último tiempo, volviéndose de pequeños esfuerzos. Además, refiere expectoración mucosa, que suele ser mayor en las mañanas. Evita realizar actividad física, transportar carga y subir escaleras, debido a la disnea. Como antecedente, fumó 4 cigarrillos al día, hasta hace un año. En el examen físico, tiene frecuencia cardíaca: 86 lpm, presión arterial: 120/70 mmHg, frecuencia respiratoria basal: 15 rpm, saturación arterial de oxígeno: 93% a FiO2 ambiental. La auscultación cardíaca muestra ritmo regular en dos tiempos, sin presencia de soplos y la auscultación pulmonar muestra murmullo pulmonar presente, disminuido de manera global, con presencia de crepitaciones bilaterales. Además, tiene hipocratismo digital. Se solicita una radiografía de tórax, que se muestra a continuación (fuente: Radiopaedia): ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Asma alérgica | B) Enfermedad pulmonar obstructiva crónica | C) Bronquitis crónica por cigarrillo | D) Fibrosis pulmonar idiopática | E) Insuficiencia cardíaca congestiva",
+  "correcta": "D",
+  "explicacion": "Fibrosis Pulmonar Idiopática: Tanto la historia clínica como la radiografía son compatibles con una fibrosis pulmonar idiopática.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2018 · Pregunta 98",
+  "year": 2018,
+  "codes": [
+   "1.05.1.018 [reuma-12: Enfermedades del intersticio pulmonar]"
+  ],
+  "stem": "Un paciente de 62 años, con antecedente de hipertensión arterial, en tratamiento con enalapril e hidroclorotiazida y fumador de 5 paquetes año, consulta por un cuadro de disnea de esfuerzos de 2 años de evolución, que ha progresado desde entonces. Por ello, en la actualidad, evita subir escaleras y cargar cosas pesadas. Al examen físico se aprecian acropaquías y su examen pulmonar muestra murmullo pulmonar simétrico, con crepitaciones gruesas bilaterales. Se solicita radiografía de tórax, que se muestra a continuación: Foto 11 (https://radiopaedia.org/cases/XXXXXXXXXXXXX-2). El diagnóstico más probable es:",
+  "options": "A) Neumoconiosis | B) Cáncer bronquioloalveolar | C) Bronquiectasias | D) Enfermedad pulmonar obstructiva crónica | E) Fibrosis pulmonar idiopática",
+  "correcta": "E",
+  "explicacion": "Diagnóstico: **Fibrosis pulmonar idiopática** (opción **E**). Tanto por la clínica, como por la radiografía es una fibrosis pulmonar clásica.. Esta clase aborda la varicela y el herpes zóster, ambos causados por el virus varicela-zóster (VVZ). Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Enero 2023 · Pregunta 88",
+  "year": 2023,
+  "codes": [
+   "1.05.1.020 [infecto-17: Hidatidosis pulmonar]"
+  ],
+  "stem": "Paciente con expectoración hemoptoica y eliminación de contenido 'en uvas'. Radiografía con imagen compatible. ¿Diagnóstico más probable?",
+  "options": "A) Quiste hidatídico pulmonar | B) Absceso pulmonar | C) Bronquiectasias | D) Cáncer pulmonar cavitado | E) Aspergilosis pulmonar invasiva",
+  "correcta": "A",
+  "explicacion": "Diagnóstico: **Quiste hidatídico pulmonar** (opción **A**). Quiste hidatídico pulmonar. Esta clase revisa las infecciones oportunistas del VIH. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2025 · Pregunta 11",
+  "year": 2025,
+  "codes": [
+   "1.05.1.020 [infecto-17: Hidatidosis pulmonar]"
+  ],
+  "stem": "Un paciente de 42 años presenta tos seca de 7 días de evolución que hace 3 días se volvió productiva, con secreción de sabor salado. Al examen físico tiene frecuencia cardíaca 68 lpm, presión arterial 120/80 mmHg y frecuencia respiratoria 16 rpm. El examen pulmonar muestra matidez en la zona inferior del campo pulmonar derecho, con disminución del murmullo pulmonar en dicha zona. Los exámenes de laboratorio revelan un hematocrito: 38%, plaquetas: 312.000 por mm³, y glóbulos blancos: 12.000 por mm³, con 10% de eosinófilos. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Derrame pleural tuberculoso | B) Hida2dosis pulmonar | C) Absceso pulmonar | D) Neumonía | E) Carcinoma broncogénico",
+  "correcta": "B",
+  "explicacion": "Es una hidatidosis clásica, con el cuadro clínico de “vómica”, característica del quiste hidatídico pulmonar roto. El no roto suele ser asintomático. El examen de elección es la radiografía de tórax y, luego, se debe seguir el estudio con una TAC para precisar las características del quiste. El tratamiento del quiste hidatídico incluye albendazol oral por 1 a 3 meses, seguido de un procedimiento invasivo. En el caso del pulmonar se debe operar, en cambio, en los hepáticos rara vez se operan y se manejan con inyección de alcohol.",
+  "conf": 0.6,
+  "alertas": [
+   "texto_corrupto"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2022 · Pregunta 56",
+  "year": 2022,
+  "codes": [
+   "1.05.1.020 [infecto-17: Hidatidosis pulmonar]"
+  ],
+  "stem": "Un paciente de 43 años, trabajador agrícola, consulta por un cuadro de tos, asociada a expectoración abundante líquida, con salida de membranas que parecen hollejos de uva. Su signos vitales están dentro de rango normal y su examen pulmonar muestrea murmullo pulmonar presente, con escasos estertores en el lado izquierdo. Se solicita radiografía de tórax, que se muestra a continuación (fuente: Radiopaedia): ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Tuberculoma | B) Aspergiloma | C) Cáncer pulmonar | D) Absceso pulmonar | E) Hidatidosis pulmonar",
+  "correcta": "B",
+  "explicacion": "Diagnóstico: **Aspergiloma** (opción **B**). Esta clase revisa las infecciones oportunistas del VIH. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.5,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2018 · Pregunta 10",
+  "year": 2018,
+  "codes": [
+   "1.05.1.022 [orl-10: Infecciones de las vías aéreas superiores]"
+  ],
+  "stem": "Un paciente de 38 años consulta por malestar general y fiebre de 3 días de evolución, asociada a mialgias, tos seca y rinorrea mucosa abundante. Al examen físico tiene secreción nasal y faringe congestiva y eritematosa. ¿Cuál es el fármaco más adecuado para el manejo de este paciente?",
+  "options": "A) Amoxicilina | B) Aciclovir | C) Acetaminofeno | D) Claritromicina | E) Prednisona",
+  "correcta": "C",
+  "explicacion": "Parece una influenza u otra infección respiratoria alta, por lo que se trata con paracetamol o acetaminofeno.",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 137",
+  "year": 2015,
+  "codes": [
+   "1.05.1.026 [resp-18: Neumoconiosis]"
+  ],
+  "stem": "Un paciente de 67 años, fumador de 15 paquetes-año, pero que dejó de fumar hace 10 años, jubilado de la minería, consulta por disnea de esfuerzos, progresiva, de 6 meses de evolución, asociada a tos. Al examen físico presenta murmullo pulmonar globalmente disminuido, sibilancias y roncus bilaterales, asociados a crepitaciones difusas. Se solicita una radiografía de tórax que se muestra a continuación: NOTA: la radiografía inicial mostraba infiltrados bilaterales, mayores en las zonas centrales, con imágenes verticales, onduladas de 1-2 cm en ambos campos pulmonares. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Bronquitis crónica | B) Neumoconiosis | C) Cáncer de pulmón | D) Limitación crónica del flujo aéreo | E) Fibrosis pulmonar idiopática",
+  "correcta": "B",
+  "explicacion": "Diagnóstico: **Neumoconiosis** (opción **B**). Antecedente de minería orienta a neumoconiosis. La Rx era distinta a la que ahí se muestra.. Las enfermedades intersticiales pulmonares difusas tienen múltiples causas, siendo la fibrosis pulmonar idiopática (FPI/UIP) la más frecuente y de peor pronóstico, sin tratamiento específico más allá del sintomático (oxígeno, salbutamol). Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Enero 2023 · Pregunta 89",
+  "year": 2023,
+  "codes": [
+   "1.05.1.026 [resp-18: Neumoconiosis]"
+  ],
+  "stem": "Trabajador de la minería, fumador leve, con disnea, sibilancias, hiperinsuflación y espirometría obstructiva no reversible. ¿Diagnóstico más probable?",
+  "options": "A) EPOC por tabaquismo | B) Asma ocupacional | C) Fibrosis pulmonar idiopática | D) Silicosis pulmonar | E) Neumoconiosis por carbón (antracosis)",
+  "correcta": "D",
+  "explicacion": "Diagnóstico: **Silicosis pulmonar** (opción **D**). Silicosis pulmonar. Las enfermedades intersticiales pulmonares difusas tienen múltiples causas, siendo la fibrosis pulmonar idiopática (FPI/UIP) la más frecuente y de peor pronóstico, sin tratamiento específico más allá del sintomático (oxígeno, salbutamol). Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2022 · Pregunta 109",
+  "year": 2022,
+  "codes": [
+   "1.05.1.026 [resp-18: Neumoconiosis]"
+  ],
+  "stem": "Un paciente de 48 años, que trabaja como operador de maquinaria de la minería, consulta por disnea de esfuerzo de 2 años de evolución, que ha progresado en el último tiempo, asociado a tos con expectoración mucosa ocasional. Al examen físico tiene PA: 108/72 mmHg, FC: 70x’, aumento del diámetro anteroposterior del tórax, espiración prolongada y, a la auscultación pulmonar, se oyen sibilancias bilaterales. Se realiza espirometría que muestra lo siguiente: VEF1 CVF VEF1/CVF Basal 2.532 cc (59%) 4.870 cc (99%) 52% Postbroncodilatador 2.659 cc (62%) 5.017 cc (102%) 53% ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Enfermedad pulmonar obstructiva crónica | B) Asma bronquial | C) Hipertensión pulmonar | D) Insuficiencia cardíaca | E) Fibrosis pulmonar",
+  "correcta": "E",
+  "explicacion": "Diagnóstico: **Fibrosis pulmonar** (opción **E**). Las enfermedades intersticiales pulmonares difusas tienen múltiples causas, siendo la fibrosis pulmonar idiopática (FPI/UIP) la más frecuente y de peor pronóstico, sin tratamiento específico más allá del sintomático (oxígeno, salbutamol). Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.4,
+  "alertas": [
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 127",
+  "year": 2019,
+  "codes": [
+   "1.05.1.027 [resp-08: Neumonías adquiridas en la comunidad (tipo 4 de la Sociedad Chilena de Enf. Respiratorias)]"
+  ],
+  "stem": "Una paciente de 45 años, hipertensa, presenta un cuadro de 4 días de evolución de malestar general, fiebre hasta 38,8°C, mialgias, cefalea y tos con expectoración mucopuruleta. Al examen físico tiene FR: 13 lpm, FC: 80x’. PA: 120/80 mmHg, examen pulmonar con crépitos en la base izquierda, matidez y aumento de la trasmisión de las vibraciones vocales en la zona. Examen cardíaco normal. Satura 98% a FiO2 ambiental y se solicita una radiografía, que se muestra a continuación: Fuente: www.learningradiology.com ¿Cuál es el tratamiento más adecuado?",
+  "options": "A) Oseltamivir | B) Levofloxacino | C) Ceftriaxona | D) Amoxicilina | E) Claritromicina",
+  "correcta": "D",
+  "explicacion": "Tienen una neumonía típica (con condensación del lóbulo inferior izquierdo), adquirida en la comunidad, sin criterios de hospitalización y en un menor de 65 años, sin antecedentes relevantes (la HTA no agrava las neumonías, salvo las por covid-19), por lo que se debe tratar con amoxicilina sola.",
+  "conf": 0.9,
+  "alertas": [
+   "explicacion_de_otro_tema"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 15",
+  "year": 2017,
+  "codes": [
+   "1.05.1.027 [resp-08: Neumonías adquiridas en la comunidad (tipo 4 de la Sociedad Chilena de Enf. Respiratorias)]"
+  ],
+  "stem": "Un paciente de 21 años presenta un cuadro de malestar general, fiebre y tos con expectoración mucopurulenta, de 2 días de evolución. Al examen físico presenta FC: 70x’, PA: 120/80 mmHg, FR: 17x’ y en la auscultación pulmonar se escuchan crepitaciones en la mitad inferior del campo pulmonar derecho. Satura 93% a FiO2 ambiental y se solicita una radiografía de tórax que se muestra a continuación: FOTO (Radiografía lateral de tórax con condensación del lóbulo inferior). ¿Cuál es el tratamiento antibiótico más adecuado?",
+  "options": "A) Claritromicina | B) Cefadroxilo | C) Clindamicina | D) Cloxacilina | E) Ciprofloxacino",
+  "correcta": "A",
+  "explicacion": "Lo más correcto era dejar amoxicilina, pero de las opciones, el macrólido era la mejor opción, para una NAC de bajo riesgo.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 52",
+  "year": 2017,
+  "codes": [
+   "1.05.1.027 [resp-08: Neumonías adquiridas en la comunidad (tipo 4 de la Sociedad Chilena de Enf. Respiratorias)]"
+  ],
+  "stem": "Un paciente con antecedente de EPOC, fumador de 25 paquetes año, consulta por cuadro de tres días de evolución de exacerbación de su disnea basal y expectoración mucosa, asociado a sensación febril y hace un día se agrega dolor tipo puntada de cos- tado. Al examen se aprecia frecuencia respiratoria de 21 por minuto, frecuencia cardia- ca de 92 por minuto, temperatura de 38,1°C. Al examen pulmonar presenta crepitacio- nes de la cara lateral del hemitórax derecho, asociado a matidez a la percusión. Se soli- cita una radiografía que se muestra a continuación: INSERTAR FOTO El diagnóstico más probable:",
+  "options": "A) Tuberculosis | B) Derrame pleural | C) Neumonía | D) Tromboembolismo pulmonar | E) Cáncer bronquial",
+  "correcta": "C",
+  "explicacion": "Diagnóstico: **Neumonía** (opción **C**). Tanto la clínica, como la radiografía apuntaban a NAC.. El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL).",
+  "conf": 0.85,
+  "alertas": null
+ }
+]

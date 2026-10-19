@@ -1,0 +1,1306 @@
+{
+ "_doc": "Glosario clicable del mazo Anki (popover en el reverso). 'def' se escribe a mano desde el libro (sin cifras nuevas) y se conserva al regenerar; pagina/clase/t/url los recalcula conceptos.py. Términos y alias: books/scripts/anki/vocab_*.txt.",
+ "libro": "dermatologia",
+ "pdf": "books/dist/Modulo_2_Cirugia/Tomo_16_Dermatologia_Completo_2026.pdf",
+ "terminos": {
+  "Lesiones_elementales": {
+   "termino": "Lesiones elementales",
+   "tipo": "Concepto",
+   "alias": [
+    "lesiones elementales",
+    "lesión elemental"
+   ],
+   "def": "Unidades morfológicas básicas con que se describe una dermatosis. Por ejemplo, el comedón es la lesión obligatoria del acné vulgar y el habón es la lesión patognomónica de la urticaria.",
+   "pagina": 5,
+   "clase": "derma-01",
+   "claseTitulo": "16.1 Lesiones Elementales Primarias y Secundarias de la Piel",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Macula": {
+   "termino": "Mácula",
+   "tipo": "Concepto",
+   "alias": [
+    "mácula",
+    "máculas"
+   ],
+   "def": "Lesión plana circunscrita, sin relieve ni depresión detectable a la palpación, de cambio de coloración y diámetro menor a 1 cm.",
+   "pagina": 5,
+   "clase": "derma-01",
+   "claseTitulo": "16.1 Lesiones Elementales Primarias y Secundarias de la Piel",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Papula": {
+   "termino": "Pápula",
+   "tipo": "Concepto",
+   "alias": [
+    "pápula",
+    "pápulas"
+   ],
+   "def": "Elevación sólida circunscrita de la piel, de diámetro menor a 1 cm, que cura sin dejar cicatriz. Puede confluir y formar placas.",
+   "pagina": 5,
+   "clase": "derma-01",
+   "claseTitulo": "16.1 Lesiones Elementales Primarias y Secundarias de la Piel",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 17
+  },
+  "Placa": {
+   "termino": "Placa",
+   "tipo": "Concepto",
+   "alias": [
+    "placa",
+    "placas"
+   ],
+   "def": "Elevación sólida en meseta, con mayor extensión en superficie que en altura y diámetro mayor a 1 cm. Suele formarse por confluencia de pápulas.",
+   "pagina": 24,
+   "clase": "derma-05",
+   "claseTitulo": "16.5 Psoriasis Vulgar: Fenómeno de Koebner, Auspitz y Terapias Tópicas/Sistémicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 34
+  },
+  "Vesicula": {
+   "termino": "Vesícula",
+   "tipo": "Concepto",
+   "alias": [
+    "vesícula",
+    "vesículas"
+   ],
+   "def": "Colección circunscrita de líquido seroso o hemático en la epidermis, de diámetro menor a 0.5 cm.",
+   "pagina": 5,
+   "clase": "derma-01",
+   "claseTitulo": "16.1 Lesiones Elementales Primarias y Secundarias de la Piel",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 11
+  },
+  "Ampolla": {
+   "termino": "Ampolla",
+   "tipo": "Concepto",
+   "alias": [
+    "ampolla",
+    "ampollas"
+   ],
+   "def": "Vesícula de mayor tamaño con líquido. En el pénfigo vulgar es flácida e intraepidérmica suprabasal; en el penfigoide ampollar es tensa y subepidérmica.",
+   "pagina": 54,
+   "clase": "derma-11",
+   "claseTitulo": "16.11 Pénfigo Vulgar (Intraepidérmico) vs Penfigoide Ampollar (Subepidérmico)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 18
+  },
+  "Pustula": {
+   "termino": "Pústula",
+   "tipo": "Concepto",
+   "alias": [
+    "pústula",
+    "pústulas"
+   ],
+   "def": "Colección superficial de contenido purulento desde su inicio. Aparece, por ejemplo, en el acné pápulo-pustuloso y en la rosácea pápulo-pustulosa.",
+   "pagina": 13,
+   "clase": "derma-03",
+   "claseTitulo": "16.3 Rosácea: Subtipos Clínicos y Manejo Médico",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Acne_vulgar": {
+   "termino": "Acné vulgar",
+   "tipo": "Concepto",
+   "alias": [
+    "acné vulgar",
+    "acné"
+   ],
+   "def": "Dermatosis en la que el comedón es la lesión elemental obligatoria. Su forma severa es la nódulo-quística o conglobata, que puede dejar cicatrices.",
+   "pagina": 9,
+   "clase": "derma-02",
+   "claseTitulo": "16.2 Acné Vulgar: Escalonamiento Tópico, Oral e Indicaciones de Isotretinoína",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 25
+  },
+  "Isotretinoina": {
+   "termino": "Isotretinoína",
+   "tipo": "Concepto",
+   "alias": [
+    "isotretinoína"
+   ],
+   "def": "Retinoide oral indicado en acné nódulo-quístico severo, cicatrizante o refractario. Es teratogénica absoluta: exige doble anticoncepción y control lipídico y hepático.",
+   "pagina": 9,
+   "clase": "derma-02",
+   "claseTitulo": "16.2 Acné Vulgar: Escalonamiento Tópico, Oral e Indicaciones de Isotretinoína",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 11
+  },
+  "Rosacea": {
+   "termino": "Rosácea",
+   "tipo": "Concepto",
+   "alias": [
+    "rosácea"
+   ],
+   "def": "Dermatosis que nunca tiene comedones y cursa con eritema centrofacial y crisis de flushing. Los corticoides tópicos están contraindicados porque provocan rosácea esteroidal.",
+   "pagina": 13,
+   "clase": "derma-03",
+   "claseTitulo": "16.3 Rosácea: Subtipos Clínicos y Manejo Médico",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 25
+  },
+  "Alopecia_androgenetica": {
+   "termino": "Alopecia androgenética",
+   "tipo": "Concepto",
+   "alias": [
+    "alopecia androgenética",
+    "alopecia androgénica"
+   ],
+   "def": "Miniaturización folicular mediada por dihidrotestosterona. Responde a finasteride y minoxidil.",
+   "pagina": 17,
+   "clase": "derma-04",
+   "claseTitulo": "16.4 Alopecias: Androgenética, Areata y Efluvio Telógeno",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Alopecia_areata": {
+   "termino": "Alopecia areata",
+   "tipo": "Concepto",
+   "alias": [
+    "alopecia areata"
+   ],
+   "def": "Enfermedad autoinmune mediada por linfocitos T CD8+ que atacan los folículos. Presenta placas alopécicas redondas con pelos en signo de exclamación.",
+   "pagina": 17,
+   "clase": "derma-04",
+   "claseTitulo": "16.4 Alopecias: Androgenética, Areata y Efluvio Telógeno",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Efluvio_telogeno": {
+   "termino": "Efluvio telógeno",
+   "tipo": "Concepto",
+   "alias": [
+    "efluvio telógeno"
+   ],
+   "def": "Caída difusa que aparece 2 a 3 meses después de un estrés, como parto, fiebre alta o cirugía. Se resuelve sola.",
+   "pagina": 17,
+   "clase": "derma-04",
+   "claseTitulo": "16.4 Alopecias: Androgenética, Areata y Efluvio Telógeno",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Psoriasis": {
+   "termino": "Psoriasis",
+   "tipo": "Concepto",
+   "alias": [
+    "psoriasis"
+   ],
+   "def": "Dermatosis inflamatoria mediada por linfocitos T, con placas eritematosas cubiertas de escamas blanco-nacaradas. Los corticoides sistémicos están contraindicados por riesgo de rebote.",
+   "pagina": 24,
+   "clase": "derma-05",
+   "claseTitulo": "16.5 Psoriasis Vulgar: Fenómeno de Koebner, Auspitz y Terapias Tópicas/Sistémicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 26
+  },
+  "Fenomeno_de_Koebner": {
+   "termino": "Fenómeno de Koebner",
+   "tipo": "Concepto",
+   "alias": [
+    "Koebner",
+    "fenómeno de Köebner"
+   ],
+   "def": "Aparición de lesiones psoriásicas típicas sobre piel sana que sufrió un traumatismo mecánico, una herida quirúrgica o un roce.",
+   "pagina": 24,
+   "clase": "derma-05",
+   "claseTitulo": "16.5 Psoriasis Vulgar: Fenómeno de Koebner, Auspitz y Terapias Tópicas/Sistémicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Signo_de_Auspitz": {
+   "termino": "Signo de Auspitz",
+   "tipo": "Concepto",
+   "alias": [
+    "Auspitz"
+   ],
+   "def": "Rocío sangrante patognomónico de la psoriasis: al retirar la membrana transparente quedan papilas con capilares dilatados y un punteado hemorrágico fino.",
+   "pagina": 24,
+   "clase": "derma-05",
+   "claseTitulo": "16.5 Psoriasis Vulgar: Fenómeno de Koebner, Auspitz y Terapias Tópicas/Sistémicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Dermatitis_atopica": {
+   "termino": "Dermatitis atópica",
+   "tipo": "Concepto",
+   "alias": [
+    "dermatitis atópica",
+    "eccema atópico"
+   ],
+   "def": "Dermatosis con prurito intenso, criterio diagnóstico cardinal, que resulta de desregulación Th2 con sobreproducción de IgE. Forma parte de la marcha atópica.",
+   "pagina": 29,
+   "clase": "derma-06",
+   "claseTitulo": "16.6 Dermatitis Atópica: Hanifin y Rajka, Corticoides Tópicos e Hidratación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 11
+  },
+  "Criterios_de_Hanifin_y_Rajka": {
+   "termino": "Criterios de Hanifin y Rajka",
+   "tipo": "Concepto",
+   "alias": [
+    "Hanifin y Rajka",
+    "Hanifin-Rajka"
+   ],
+   "def": "Conjunto de criterios clínicos que se utilizan para el diagnóstico de dermatitis atópica.",
+   "pagina": 29,
+   "clase": "derma-06",
+   "claseTitulo": "16.6 Dermatitis Atópica: Hanifin y Rajka, Corticoides Tópicos e Hidratación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Dermatitis_seborreica": {
+   "termino": "Dermatitis seborreica",
+   "tipo": "Concepto",
+   "alias": [
+    "dermatitis seborreica"
+   ],
+   "def": "Dermatosis con escamas amarillentas y untuosas en surcos nasogenianos y cuero cabelludo. En pacientes con VIH o Parkinson es severa y refractaria al tratamiento convencional.",
+   "pagina": 33,
+   "clase": "derma-07",
+   "claseTitulo": "16.7 Dermatitis Seborreica vs Dermatitis de Contacto (Alérgica vs Irritativa)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 11
+  },
+  "Dermatitis_de_contacto": {
+   "termino": "Dermatitis de contacto",
+   "tipo": "Concepto",
+   "alias": [
+    "dermatitis de contacto",
+    "dermatitis alérgica de contacto",
+    "dermatitis irritativa"
+   ],
+   "def": "La irritativa (80%) es un daño tóxico no inmune con ardor delimitado al contacto. La alérgica (20%) es hipersensibilidad tipo IV con prurito que sobrepasa el área de contacto.",
+   "pagina": 33,
+   "clase": "derma-07",
+   "claseTitulo": "16.7 Dermatitis Seborreica vs Dermatitis de Contacto (Alérgica vs Irritativa)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Urticaria": {
+   "termino": "Urticaria",
+   "tipo": "Concepto",
+   "alias": [
+    "urticaria"
+   ],
+   "def": "Brotes de habones que son agudos si duran menos de 6 semanas y crónicos si duran 6 semanas o más. Los corticoides orales nunca se usan como tratamiento de mantenimiento en la crónica.",
+   "pagina": 38,
+   "clase": "derma-08",
+   "claseTitulo": "16.8 Urticaria Aguda y Crónica: Habones Evanescentes, Angioedema y Antihistamínicos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 17
+  },
+  "Angioedema": {
+   "termino": "Angioedema",
+   "tipo": "Concepto",
+   "alias": [
+    "angioedema"
+   ],
+   "def": "Edema originado en la dermis profunda, el tejido celular subcutáneo y las submucosas. Con compromiso respiratorio o hemodinámico es una bandera roja de anafilaxia.",
+   "pagina": 38,
+   "clase": "derma-08",
+   "claseTitulo": "16.8 Urticaria Aguda y Crónica: Habones Evanescentes, Angioedema y Antihistamínicos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Sindrome_de_Stevens_Johnson": {
+   "termino": "Síndrome de Stevens-Johnson",
+   "tipo": "Concepto",
+   "alias": [
+    "Stevens-Johnson",
+    "SSJ",
+    "Stevens Johnson"
+   ],
+   "def": "Desprendimiento epidérmico con compromiso de mucosas. Se distingue de la necrólisis epidérmica tóxica de forma cuantitativa, según el porcentaje de superficie desprendida.",
+   "pagina": 45,
+   "clase": "derma-09",
+   "claseTitulo": "16.9 Reacciones Medicamentosas Graves: Stevens-Johnson (SSJ) y Necrólisis Epidérmica Tóxica (NET)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 25
+  },
+  "Necrolisis_epidermica_toxica": {
+   "termino": "Necrólisis epidérmica tóxica",
+   "tipo": "Concepto",
+   "alias": [
+    "necrólisis epidérmica tóxica",
+    "NET",
+    "Lyell"
+   ],
+   "def": "Desprendimiento epidérmico en más de 30% de la superficie corporal total, con frecuencia 70-90% de la piel. También se llama síndrome de Lyell.",
+   "pagina": 45,
+   "clase": "derma-09",
+   "claseTitulo": "16.9 Reacciones Medicamentosas Graves: Stevens-Johnson (SSJ) y Necrólisis Epidérmica Tóxica (NET)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 24
+  },
+  "Sindrome_DRESS": {
+   "termino": "Síndrome DRESS",
+   "tipo": "Concepto",
+   "alias": [
+    "DRESS"
+   ],
+   "def": "Reacción medicamentosa con latencia prolongada de 2 a 8 semanas tras iniciar el fármaco. Cursa con erupción y edema facial; los anticonvulsivantes aromáticos son los fármacos más frecuentes.",
+   "pagina": 49,
+   "clase": "derma-10",
+   "claseTitulo": "16.10 Síndrome DRESS: Erupción Medicamentosa con Eosinofilia y Síntomas Sistémicos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 24
+  },
+  "Penfigo_vulgar": {
+   "termino": "Pénfigo vulgar",
+   "tipo": "Concepto",
+   "alias": [
+    "pénfigo vulgar",
+    "pénfigo"
+   ],
+   "def": "Ampolla flácida intraepidérmica suprabasal con Nikolsky positivo y afectación oral inicial. Su autoantígeno son las desmogleínas 1 y 3 y se trata con corticoides orales y rituximab.",
+   "pagina": 54,
+   "clase": "derma-11",
+   "claseTitulo": "16.11 Pénfigo Vulgar (Intraepidérmico) vs Penfigoide Ampollar (Subepidérmico)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 15
+  },
+  "Penfigoide_ampollar": {
+   "termino": "Penfigoide ampollar",
+   "tipo": "Concepto",
+   "alias": [
+    "penfigoide ampollar",
+    "penfigoide"
+   ],
+   "def": "Ampolla tensa subepidérmica con Nikolsky negativo, prurito intenso en ancianos y respeto de la boca. Su autoantígeno son BP180 y BP230; primera línea: corticoide tópico de alta potencia.",
+   "pagina": 54,
+   "clase": "derma-11",
+   "claseTitulo": "16.11 Pénfigo Vulgar (Intraepidérmico) vs Penfigoide Ampollar (Subepidérmico)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 14
+  },
+  "Eritema_multiforme": {
+   "termino": "Eritema multiforme",
+   "tipo": "Concepto",
+   "alias": [
+    "eritema multiforme"
+   ],
+   "def": "Lesiones en diana, con Nikolsky negativo y sin desprendimiento en sábanas. La causa más frecuente es el virus herpes simple, en más de 70% de los casos.",
+   "pagina": 60,
+   "clase": "derma-12",
+   "claseTitulo": "16.12 Eritema Multiforme: Morfología en Diana Clásica y Asociación a Virus Herpes Simple",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 12
+  },
+  "Melanoma": {
+   "termino": "Melanoma",
+   "tipo": "Concepto",
+   "alias": [
+    "melanoma maligno",
+    "melanoma"
+   ],
+   "def": "Según la fuente, sus subtipos son de extensión superficial (70%, el más frecuente en caucásicos), nodular (15%, el más agresivo) y léntigo maligno (10%) en zonas fotoexpuestas.",
+   "pagina": 68,
+   "clase": "derma-13",
+   "claseTitulo": "16.13 Melanoma Maligno: Regla ABCDE, Biopsia Excisional, Índice de Breslow y Márgenes Quirúrgicos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 21
+  },
+  "Regla_ABCDE": {
+   "termino": "Regla ABCDE",
+   "tipo": "Concepto",
+   "alias": [
+    "ABCDE"
+   ],
+   "def": "Herramienta clínica de tamizaje cardinal para melanoma: Asimetría, Bordes, Color heterogéneo, Diámetro mayor a 6 mm y Evolución.",
+   "pagina": 68,
+   "clase": "derma-13",
+   "claseTitulo": "16.13 Melanoma Maligno: Regla ABCDE, Biopsia Excisional, Índice de Breslow y Márgenes Quirúrgicos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Indice_de_Breslow": {
+   "termino": "Índice de Breslow",
+   "tipo": "Concepto",
+   "alias": [
+    "Breslow"
+   ],
+   "def": "Espesor tumoral que guía el margen quirúrgico: ≤ 1.0 mm con margen de 1.0 cm; 1.01 a 2.0 mm con 1.0 a 2.0 cm; mayor a 2.0 mm con 2.0 cm.",
+   "pagina": 68,
+   "clase": "derma-13",
+   "claseTitulo": "16.13 Melanoma Maligno: Regla ABCDE, Biopsia Excisional, Índice de Breslow y Márgenes Quirúrgicos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 11
+  },
+  "Carcinoma_basocelular": {
+   "termino": "Carcinoma basocelular",
+   "tipo": "Concepto",
+   "alias": [
+    "carcinoma basocelular",
+    "CBC",
+    "basocelular"
+   ],
+   "def": "Cáncer cutáneo más frecuente, con pápula perlada y telangiectasias. Su riesgo de metástasis es prácticamente nulo (menor a 0.01%), pero destruye localmente.",
+   "pagina": 73,
+   "clase": "derma-14",
+   "claseTitulo": "16.14 Carcinomas Cutáneos No Melanoma: Carcinoma Basocelular (CBC) vs Carcinoma Espinocelular (CEC)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 14
+  },
+  "Carcinoma_espinocelular": {
+   "termino": "Carcinoma espinocelular",
+   "tipo": "Concepto",
+   "alias": [
+    "carcinoma espinocelular",
+    "CEC",
+    "carcinoma epidermoide",
+    "espinocelular"
+   ],
+   "def": "Nódulo o placa queratósica indurada que suele surgir sobre una queratosis actínica. Tiene potencial metastásico linfático regional, mayor en labio y pabellón auricular.",
+   "pagina": 73,
+   "clase": "derma-14",
+   "claseTitulo": "16.14 Carcinomas Cutáneos No Melanoma: Carcinoma Basocelular (CBC) vs Carcinoma Espinocelular (CEC)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 20
+  },
+  "Queratosis_actinica": {
+   "termino": "Queratosis actínica",
+   "tipo": "Concepto",
+   "alias": [
+    "queratosis actínica",
+    "queratosis actínicas"
+   ],
+   "def": "Lesión premaligna cutánea más común y precursora directa del carcinoma espinocelular. No compromete todo el espesor epidérmico; se palpa antes de verse.",
+   "pagina": 77,
+   "clase": "derma-15",
+   "claseTitulo": "16.15 Lesiones Cutáneas Premalignas: Queratosis Actínica, Cuerno Cutáneo y Nevos Displásicos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 14
+  },
+  "Cuerno_cutaneo": {
+   "termino": "Cuerno cutáneo",
+   "tipo": "Concepto",
+   "alias": [
+    "cuerno cutáneo"
+   ],
+   "def": "Protrusión cónica hiperqueratósica y compacta que semeja un pequeño cuerno. En su base suele subyacer una queratosis actínica o un carcinoma espinocelular.",
+   "pagina": 77,
+   "clase": "derma-15",
+   "claseTitulo": "16.15 Lesiones Cutáneas Premalignas: Queratosis Actínica, Cuerno Cutáneo y Nevos Displásicos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Nevo_displasico": {
+   "termino": "Nevo displásico",
+   "tipo": "Concepto",
+   "alias": [
+    "nevo displásico",
+    "nevos displásicos",
+    "nevo atípico"
+   ],
+   "def": "Nevo melanocítico atípico que la fuente cita como factor de riesgo de melanoma, junto con fototipo claro, quemaduras solares en la infancia y antecedentes familiares.",
+   "pagina": 77,
+   "clase": "derma-15",
+   "claseTitulo": "16.15 Lesiones Cutáneas Premalignas: Queratosis Actínica, Cuerno Cutáneo y Nevos Displásicos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Dermatofitosis": {
+   "termino": "Dermatofitosis",
+   "tipo": "Concepto",
+   "alias": [
+    "dermatofitosis",
+    "tiña",
+    "tinea"
+   ],
+   "def": "Tiñas producidas por hongos filamentosos queratinofílicos (Trichophyton, Microsporum, Epidermophyton). La tiña capitis, exclusiva de niños, requiere antimicótico oral.",
+   "pagina": 81,
+   "clase": "derma-16",
+   "claseTitulo": "16.16 Infecciones Cutáneas Comunes: Micosis Superficiales (Dermatofitosis, Pitiriasis Versicolor), Escabiosis & Pediculosis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Pitiriasis_versicolor": {
+   "termino": "Pitiriasis versicolor",
+   "tipo": "Concepto",
+   "alias": [
+    "pitiriasis versicolor"
+   ],
+   "def": "Infección por la levadura lipofílica Malassezia. En el KOH muestra hifas cortas y esporas redondas («espaguetis con albóndigas») y el signo de la uñada es positivo.",
+   "pagina": 81,
+   "clase": "derma-16",
+   "claseTitulo": "16.16 Infecciones Cutáneas Comunes: Micosis Superficiales (Dermatofitosis, Pitiriasis Versicolor), Escabiosis & Pediculosis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Escabiosis": {
+   "termino": "Escabiosis",
+   "tipo": "Concepto",
+   "alias": [
+    "escabiosis",
+    "sarna"
+   ],
+   "def": "Infestación por el ácaro Sarcoptes scabiei, con prurito nocturno intratable y surcos. Se trata con permetrina al 5% y deben tratarse simultáneamente todos los convivientes.",
+   "pagina": 81,
+   "clase": "derma-16",
+   "claseTitulo": "16.16 Infecciones Cutáneas Comunes: Micosis Superficiales (Dermatofitosis, Pitiriasis Versicolor), Escabiosis & Pediculosis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 13
+  },
+  "Pediculosis": {
+   "termino": "Pediculosis",
+   "tipo": "Concepto",
+   "alias": [
+    "pediculosis",
+    "piojos"
+   ],
+   "def": "Infestación por Pediculus humanus capitis, corporis o Phthirus pubis. La ladilla causa prurito púbico y a veces máculas azuladas en muslos y abdomen.",
+   "pagina": 81,
+   "clase": "derma-16",
+   "claseTitulo": "16.16 Infecciones Cutáneas Comunes: Micosis Superficiales (Dermatofitosis, Pitiriasis Versicolor), Escabiosis & Pediculosis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Hemangioma_infantil": {
+   "termino": "Hemangioma infantil",
+   "tipo": "Concepto",
+   "alias": [
+    "hemangioma infantil",
+    "hemangiomas infantiles",
+    "hemangioma"
+   ],
+   "def": "Tumor vascular benigno más frecuente de la infancia (4 a 10% de los lactantes). No está al nacer, crece 3 a 5 meses y luego involuciona.",
+   "pagina": 86,
+   "clase": "derma-17",
+   "claseTitulo": "16.17 Tumores Benignos de Piel, Hemangiomas Infantiles y Malformaciones Vasculares",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 12
+  },
+  "Malformacion_vascular": {
+   "termino": "Malformación vascular",
+   "tipo": "Concepto",
+   "alias": [
+    "malformación vascular",
+    "malformaciones vasculares",
+    "mancha en vino de Oporto"
+   ],
+   "def": "Error del desarrollo de los vasos, presente desde el nacimiento, que crece con el niño y nunca involuciona. La mancha en vino de Oporto en V1 sugiere Sturge-Weber.",
+   "pagina": 86,
+   "clase": "derma-17",
+   "claseTitulo": "16.17 Tumores Benignos de Piel, Hemangiomas Infantiles y Malformaciones Vasculares",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Loxoscelismo": {
+   "termino": "Loxoscelismo",
+   "tipo": "Concepto",
+   "alias": [
+    "loxoscelismo",
+    "araña de rincón",
+    "Loxosceles laeta"
+   ],
+   "def": "Envenenamiento por la araña de rincón (Loxosceles laeta), que muerde al ser aplastada contra la piel, al dormir o al vestirse. Una lesión única, necrótica y dolorosa debe hacer pensarlo.",
+   "pagina": 91,
+   "clase": "derma-18",
+   "claseTitulo": "16.18 Loxoscelismo (Loxosceles laeta): Cuadro Cutáneo y Cutáneo-Visceral, Manejo y Prevención en la Vivienda",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 20
+  },
+  "Signo_de_Nikolsky": {
+   "termino": "Signo de Nikolsky",
+   "tipo": "Signo",
+   "alias": [
+    "Nikolsky"
+   ],
+   "def": "Signo positivo en el pénfigo vulgar, con ampollas que se rompen al menor roce. Es negativo en el penfigoide ampollar y en el eritema multiforme.",
+   "pagina": 54,
+   "clase": "derma-11",
+   "claseTitulo": "16.11 Pénfigo Vulgar (Intraepidérmico) vs Penfigoide Ampollar (Subepidérmico)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Habon": {
+   "termino": "Habón",
+   "tipo": "Signo",
+   "alias": [
+    "habón",
+    "habones"
+   ],
+   "def": "Lesión elemental patognomónica de la urticaria, evanescente: dura menos de 24 horas y desaparece sin dejar rastro. Si dura más de 24 horas, sugiere vasculitis urticariana.",
+   "pagina": 38,
+   "clase": "derma-08",
+   "claseTitulo": "16.8 Urticaria Aguda y Crónica: Habones Evanescentes, Angioedema y Antihistamínicos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Liquenificacion": {
+   "termino": "Liquenificación",
+   "tipo": "Signo",
+   "alias": [
+    "liquenificación"
+   ],
+   "def": "Engrosamiento cutáneo reactivo, con acentuación exagerada de las cuadrículas normales de la piel, causado por el rascado crónico repetitivo.",
+   "pagina": 29,
+   "clase": "derma-06",
+   "claseTitulo": "16.6 Dermatitis Atópica: Hanifin y Rajka, Corticoides Tópicos e Hidratación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Prurito": {
+   "termino": "Prurito",
+   "tipo": "Signo",
+   "alias": [
+    "prurito"
+   ],
+   "def": "Síntoma cardinal de varias dermatosis. Es criterio diagnóstico obligatorio de dermatitis atópica y de predominio nocturno intratable en la escabiosis.",
+   "pagina": 81,
+   "clase": "derma-16",
+   "claseTitulo": "16.16 Infecciones Cutáneas Comunes: Micosis Superficiales (Dermatofitosis, Pitiriasis Versicolor), Escabiosis & Pediculosis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Telangiectasias": {
+   "termino": "Telangiectasias",
+   "tipo": "Signo",
+   "alias": [
+    "telangiectasias",
+    "telangiectasia"
+   ],
+   "def": "Vasos dilatados, finos y visibles. En la rosácea aparecen con el eritema centrofacial y el rebote por corticoides tópicos las agrava con atrofia cutánea.",
+   "pagina": 13,
+   "clase": "derma-03",
+   "claseTitulo": "16.3 Rosácea: Subtipos Clínicos y Manejo Médico",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Eosinofilia": {
+   "termino": "Eosinofilia",
+   "tipo": "Signo",
+   "alias": [
+    "eosinofilia"
+   ],
+   "def": "Aumento de eosinófilos en sangre periférica (≥ 700/uL o ≥ 10%). Es signo de alarma de DRESS y de Stevens-Johnson.",
+   "pagina": 49,
+   "clase": "derma-10",
+   "claseTitulo": "16.10 Síndrome DRESS: Erupción Medicamentosa con Eosinofilia y Síntomas Sistémicos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Placa_livedoide": {
+   "termino": "Placa livedoide",
+   "tipo": "Signo",
+   "alias": [
+    "placa livedoide",
+    "placa marmórea"
+   ],
+   "def": "A las 6 a 12 horas se forma una placa de bordes geográficos, con zonas eritematosas, violáceas y pálidas isquémicas, a menudo con ampollas hemorrágicas.",
+   "pagina": 91,
+   "clase": "derma-18",
+   "claseTitulo": "16.18 Loxoscelismo (Loxosceles laeta): Cuadro Cutáneo y Cutáneo-Visceral, Manejo y Prevención en la Vivienda",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Dermatoscopia": {
+   "termino": "Dermatoscopía",
+   "tipo": "Examen",
+   "alias": [
+    "dermatoscopía",
+    "dermatoscopio"
+   ],
+   "def": "Observación de la lesión con dermatoscopio (luz polarizada y aumento de 10 veces) que muestra estructuras bajo la epidermis. Una lesión sospechosa se resuelve con biopsia excisional.",
+   "pagina": 70,
+   "clase": "derma-13",
+   "claseTitulo": "16.13 Melanoma Maligno: Regla ABCDE, Biopsia Excisional, Índice de Breslow y Márgenes Quirúrgicos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Biopsia_excisional": {
+   "termino": "Biopsia excisional",
+   "tipo": "Examen",
+   "alias": [
+    "biopsia excisional"
+   ],
+   "def": "Biopsia de elección para una lesión sospechosa de melanoma: excisión completa con margen estrecho de 1 a 2 mm de piel sana, incluyendo el tejido celular subcutáneo.",
+   "pagina": 68,
+   "clase": "derma-13",
+   "claseTitulo": "16.13 Melanoma Maligno: Regla ABCDE, Biopsia Excisional, Índice de Breslow y Márgenes Quirúrgicos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Examen_micologico_directo": {
+   "termino": "Examen micológico directo",
+   "tipo": "Examen",
+   "alias": [
+    "KOH",
+    "examen micológico",
+    "micológico directo"
+   ],
+   "def": "Examen con KOH: 1 a 2 gotas de KOH al 10 a 20% (40% en uñas y pelos), observado a 10 y 40 aumentos. Muestra hifas cortas y esporas redondas en la pitiriasis versicolor.",
+   "pagina": 81,
+   "clase": "derma-16",
+   "claseTitulo": "16.16 Infecciones Cutáneas Comunes: Micosis Superficiales (Dermatofitosis, Pitiriasis Versicolor), Escabiosis & Pediculosis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Prueba_del_parche": {
+   "termino": "Prueba del parche",
+   "tipo": "Examen",
+   "alias": [
+    "test del parche",
+    "prueba del parche",
+    "patch test"
+   ],
+   "def": "Patch test: alérgenos aplicados en la espalda bajo oclusión durante 48 horas. Confirma la dermatitis alérgica y se lee a las 48 y 96 horas.",
+   "pagina": 33,
+   "clase": "derma-07",
+   "claseTitulo": "16.7 Dermatitis Seborreica vs Dermatitis de Contacto (Alérgica vs Irritativa)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Corticoides_topicos": {
+   "termino": "Corticoides tópicos",
+   "tipo": "Farmaco",
+   "alias": [
+    "corticoides tópicos",
+    "corticoide tópico",
+    "corticoides"
+   ],
+   "def": "Antiinflamatorios de uso tópico de alta potencia, como clobetasol en el penfigoide ampollar. Están prohibidos en rosácea porque su suspensión causa rebote severo.",
+   "pagina": 24,
+   "clase": "derma-05",
+   "claseTitulo": "16.5 Psoriasis Vulgar: Fenómeno de Koebner, Auspitz y Terapias Tópicas/Sistémicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 24
+  },
+  "Emolientes": {
+   "termino": "Emolientes",
+   "tipo": "Farmaco",
+   "alias": [
+    "emolientes",
+    "emoliente",
+    "hidratantes"
+   ],
+   "def": "Hidratantes diarios que son la base terapéutica de por vida, aplicados tras el baño (soak and seal). Se combinan con baños cortos de 5 a 10 min con agua tibia.",
+   "pagina": 29,
+   "clase": "derma-06",
+   "claseTitulo": "16.6 Dermatitis Atópica: Hanifin y Rajka, Corticoides Tópicos e Hidratación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Antihistaminicos": {
+   "termino": "Antihistamínicos",
+   "tipo": "Farmaco",
+   "alias": [
+    "antihistamínicos",
+    "antihistamínico",
+    "cetirizina",
+    "loratadina"
+   ],
+   "def": "En urticaria, primera línea son los H1 de segunda generación no sedantes. Si no responden en 2 a 4 semanas se cuadruplica la dosis; no reemplazan a la adrenalina.",
+   "pagina": 38,
+   "clase": "derma-08",
+   "claseTitulo": "16.8 Urticaria Aguda y Crónica: Habones Evanescentes, Angioedema y Antihistamínicos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Peroxido_de_benzoilo": {
+   "termino": "Peróxido de benzoílo",
+   "tipo": "Farmaco",
+   "alias": [
+    "peróxido de benzoílo"
+   ],
+   "def": "Queratolítico y bactericida, al 2.5-5%, que se asocia siempre a antibióticos tópicos en el acné. Nunca se usa en monoterapia con antibióticos tópicos.",
+   "pagina": 9,
+   "clase": "derma-02",
+   "claseTitulo": "16.2 Acné Vulgar: Escalonamiento Tópico, Oral e Indicaciones de Isotretinoína",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Retinoides_topicos": {
+   "termino": "Retinoides tópicos",
+   "tipo": "Farmaco",
+   "alias": [
+    "retinoides tópicos",
+    "adapaleno",
+    "tretinoína"
+   ],
+   "def": "Fármaco de elección en el acné comedoniano puro, como adapaleno al 0.1% o tretinoína al 0.025-0.05%. La isotretinoína oral se reserva para el acné severo.",
+   "pagina": 9,
+   "clase": "derma-02",
+   "claseTitulo": "16.2 Acné Vulgar: Escalonamiento Tópico, Oral e Indicaciones de Isotretinoína",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Doxiciclina": {
+   "termino": "Doxiciclina",
+   "tipo": "Farmaco",
+   "alias": [
+    "doxiciclina",
+    "tetraciclinas"
+   ],
+   "def": "Tetraciclina oral de primera línea en acné inflamatorio moderado-severo, a 100 mg/día por 8 a 12 semanas. También produce fitofotodermatitis por fotosensibilidad.",
+   "pagina": 9,
+   "clase": "derma-02",
+   "claseTitulo": "16.2 Acné Vulgar: Escalonamiento Tópico, Oral e Indicaciones de Isotretinoína",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 11
+  },
+  "Metronidazol": {
+   "termino": "Metronidazol",
+   "tipo": "Farmaco",
+   "alias": [
+    "metronidazol"
+   ],
+   "def": "Tratamiento tópico de primera línea en la rosácea pápulo-pustulosa, al 0.75% o 1% en gel o crema. Las formas vasculares se tratan con brimonidina tópica.",
+   "pagina": 13,
+   "clase": "derma-03",
+   "claseTitulo": "16.3 Rosácea: Subtipos Clínicos y Manejo Médico",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Minoxidil": {
+   "termino": "Minoxidil",
+   "tipo": "Farmaco",
+   "alias": [
+    "minoxidil"
+   ],
+   "def": "Fármaco indicado en la alopecia androgenética, que responde a finasteride y minoxidil.",
+   "pagina": 17,
+   "clase": "derma-04",
+   "claseTitulo": "16.4 Alopecias: Androgenética, Areata y Efluvio Telógeno",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Finasteride": {
+   "termino": "Finasteride",
+   "tipo": "Farmaco",
+   "alias": [
+    "finasteride"
+   ],
+   "def": "Fármaco para la alopecia androgenética. Está contraindicado en mujeres en edad fértil por teratogenicidad.",
+   "pagina": 17,
+   "clase": "derma-04",
+   "claseTitulo": "16.4 Alopecias: Androgenética, Areata y Efluvio Telógeno",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Calcipotriol": {
+   "termino": "Calcipotriol",
+   "tipo": "Farmaco",
+   "alias": [
+    "calcipotriol",
+    "análogos de vitamina D"
+   ],
+   "def": "Análogo de vitamina D que frena la proliferación. Se combina en forma fija con corticoide de alta potencia en psoriasis leve, con sinergia y menor atrofia.",
+   "pagina": 24,
+   "clase": "derma-05",
+   "claseTitulo": "16.5 Psoriasis Vulgar: Fenómeno de Koebner, Auspitz y Terapias Tópicas/Sistémicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Metotrexato": {
+   "termino": "Metotrexato",
+   "tipo": "Farmaco",
+   "alias": [
+    "metotrexato"
+   ],
+   "def": "Fármaco sistémico de primera línea en psoriasis moderada-grave, a 15 a 25 mg una vez por semana con ácido fólico. Está cubierto por GES N° 84.",
+   "pagina": 24,
+   "clase": "derma-05",
+   "claseTitulo": "16.5 Psoriasis Vulgar: Fenómeno de Koebner, Auspitz y Terapias Tópicas/Sistémicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Ciclosporina": {
+   "termino": "Ciclosporina",
+   "tipo": "Farmaco",
+   "alias": [
+    "ciclosporina"
+   ],
+   "def": "Fármaco sistémico para psoriasis que define el dermatólogo. En urticaria crónica es cuarta línea y en penfigoide se asocia si hay refractariedad a corticoides.",
+   "pagina": 27,
+   "clase": "derma-05",
+   "claseTitulo": "16.5 Psoriasis Vulgar: Fenómeno de Koebner, Auspitz y Terapias Tópicas/Sistémicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Prednisona": {
+   "termino": "Prednisona",
+   "tipo": "Farmaco",
+   "alias": [
+    "prednisona"
+   ],
+   "def": "Corticoide sistémico a 1.0 a 1.5 mg/kg/día en el pénfigo vulgar, asociado a rituximab. En el DRESS con compromiso visceral o eosinofilia severa se usa a 0.5 a 1.0 mg/kg/día.",
+   "pagina": 55,
+   "clase": "derma-11",
+   "claseTitulo": "16.11 Pénfigo Vulgar (Intraepidérmico) vs Penfigoide Ampollar (Subepidérmico)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Terbinafina": {
+   "termino": "Terbinafina",
+   "tipo": "Farmaco",
+   "alias": [
+    "terbinafina"
+   ],
+   "def": "Antimicótico oral usado en la tiña capitis. Según el género, Trichophyton responde mejor a terbinafina y Microsporum a griseofulvina.",
+   "pagina": 81,
+   "clase": "derma-16",
+   "claseTitulo": "16.16 Infecciones Cutáneas Comunes: Micosis Superficiales (Dermatofitosis, Pitiriasis Versicolor), Escabiosis & Pediculosis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Permetrina": {
+   "termino": "Permetrina",
+   "tipo": "Farmaco",
+   "alias": [
+    "permetrina"
+   ],
+   "def": "Tratamiento de elección de la escabiosis: permetrina al 5% en crema del cuello a los pies, repetida a los 7 días. En la ladilla se usa al 1% por 10 minutos.",
+   "pagina": 81,
+   "clase": "derma-16",
+   "claseTitulo": "16.16 Infecciones Cutáneas Comunes: Micosis Superficiales (Dermatofitosis, Pitiriasis Versicolor), Escabiosis & Pediculosis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Ivermectina": {
+   "termino": "Ivermectina",
+   "tipo": "Farmaco",
+   "alias": [
+    "ivermectina"
+   ],
+   "def": "Antiparasitario que en la rosácea pápulo-pustulosa es alternativa tópica a metronidazol. En la sarna costrosa o noruega se asocia por vía oral a permetrina.",
+   "pagina": 81,
+   "clase": "derma-16",
+   "claseTitulo": "16.16 Infecciones Cutáneas Comunes: Micosis Superficiales (Dermatofitosis, Pitiriasis Versicolor), Escabiosis & Pediculosis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Imiquimod": {
+   "termino": "Imiquimod",
+   "tipo": "Farmaco",
+   "alias": [
+    "imiquimod"
+   ],
+   "def": "Crema al 5% que modifica la respuesta inmune (agonista TLR-7). Se usa en el tratamiento de campo de cancerización y en el carcinoma basocelular superficial de bajo riesgo.",
+   "pagina": 77,
+   "clase": "derma-15",
+   "claseTitulo": "16.15 Lesiones Cutáneas Premalignas: Queratosis Actínica, Cuerno Cutáneo y Nevos Displásicos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Propranolol": {
+   "termino": "Propranolol",
+   "tipo": "Farmaco",
+   "alias": [
+    "propranolol"
+   ],
+   "def": "Primera línea oral en hemangiomas con riesgo funcional, ulceración o desfiguración, a 2 a 3 mg/kg/día por 6 a 12 meses. Contraindicado en asma, bradicardia y bloqueo AV.",
+   "pagina": 86,
+   "clase": "derma-17",
+   "claseTitulo": "16.17 Tumores Benignos de Piel, Hemangiomas Infantiles y Malformaciones Vasculares",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Aciclovir": {
+   "termino": "Aciclovir",
+   "tipo": "Farmaco",
+   "alias": [
+    "aciclovir"
+   ],
+   "def": "Antiviral para herpes simple: 400 mg cada 8 horas por 7 a 10 días en primoinfección y 5 días en recurrencias. Con 6 o más episodios al año se indica supresión.",
+   "pagina": 60,
+   "clase": "derma-12",
+   "claseTitulo": "16.12 Eritema Multiforme: Morfología en Diana Clásica y Asociación a Virus Herpes Simple",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Dermatolog%C3%ADa&clase=derma-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_dermatologia",
+   "embed": null,
+   "notas": 9
+  }
+ }
+}

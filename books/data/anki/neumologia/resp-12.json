@@ -1,0 +1,632 @@
+{
+ "classId": "resp-12",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El derrame paraneumónico es un {{c1::exudado}} asociado a neumonía bacteriana, absceso o bronquiectasias infectadas.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.012",
+    "1.05.1.011"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El derrame paraneumónico ocurre en hasta el {{c1::40%}} de las neumonías hospitalizadas.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.012"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fase exudativa (no complicado): líquido estéril, predominio de neutrófilos y pH {{c1::> 7,20}}.",
+   "extra": "Resuelve solo con antibióticos.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fases",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.012"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fase fibrinopurulenta: invasión bacteriana, pH {{c1::< 7,20}} y tabiques de fibrina.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fases",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.011"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fase de organización: coraza pleural rígida o {{c1::peel}} que atrapa el pulmón.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fases",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.011"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El empiema se define por {{c1::pus macroscópico}} franco o bacterias en Gram/cultivo.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.011",
+    "1.05.4.008"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El derrame complicado no necesita pus visible: lo define la {{c1::bioquímica}} alterada.",
+   "extra": "Predice que no resolverá solo con antibióticos.",
+   "origen": "clase:2",
+   "fuente": "Clase · Definiciones",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.011"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El mejor predictor individual de derrame complicado es el {{c1::pH pleural}} < 7,20.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Criterios bioquímicos",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.011",
+    "1.05.4.007"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El pH pleural se mide en {{c1::jeringa de gases con heparina}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Criterios bioquímicos",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.011"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Derrame complicado: glucosa pleural < {{c1::40–60 mg/dL}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla bioquímica",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.011"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Derrame complicado: LDH pleural > {{c1::1.000 U/L}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla bioquímica",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.011"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "No complicado: glucosa pleural > {{c1::60 mg/dL}} y LDH < 1.000 U/L.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla bioquímica",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.012"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el empiema, Gram o cultivo son positivos en > {{c1::70%}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla bioquímica",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.011",
+    "1.05.4.008"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Derrame paraneumónico no complicado: conducta {{c1::solo antibióticos EV}} con vigilancia.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla bioquímica",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.012"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Derrame complicado o empiema: {{c1::tubo de drenaje pleural inmediato}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.011",
+    "1.05.5.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 156"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Con pH < 7,20, el error es {{c1::esperar la respuesta al antibiótico}} antes de drenar.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · El error de esperar",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.011",
+    "1.05.5.004"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pus franco a la aspiración es indicación de {{c1::tubo de drenaje torácico}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Indicaciones de tubo",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.004"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Gram o cultivo positivos indican tubo de drenaje {{c1::aunque el líquido se vea claro}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Indicaciones de tubo",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.004",
+    "1.05.4.008"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Glucosa pleural < {{c1::40 mg/dL}} es indicación de tubo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Indicaciones de pleurostomía",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.004"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tabiques, loculaciones o engrosamiento pleural en eco o TAC son indicación de {{c1::tubo}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Indicaciones de tubo",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.004"
+   ],
+   "imagen": "biblioteca/02_neumologia/resp-12/01_derrame-encapsulado_1__cto-neumo_p111.jpg"
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Derrame que ocupa más de {{c1::la mitad del hemitórax}} en la radiografía: indicación de tubo.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Indicaciones de tubo",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.004"
+   ],
+   "imagen": "biblioteca/02_neumologia/resp-12/01_derrame-encapsulado_2__cto-neumo_p111.jpg"
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tubo se conecta a {{c1::trampa de agua}} (sello de agua) con succión suave.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Indicaciones de pleurostomía",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.004"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Succión negativa suave del tubo: {{c1::−10 a −20 cmH2O}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Indicaciones de tubo",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.004"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Calibre del tubo en la clase: {{c1::24–28 Fr}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Indicaciones de tubo",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.004"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Neumonía con derrame: toracocentesis diagnóstica si el derrame es > {{c1::10 mm}}.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.007",
+    "2.01.5.009"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neumonía con derrame menor de 10 mm: {{c1::solo antibióticos}}, sin toracocentesis.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.012"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El antibiótico debe cubrir neumococo, S. aureus y {{c1::anaerobios de la orofaringe}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Antibióticos",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.011",
+    "1.05.1.012"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Primera línea del paraneumónico: {{c1::ampicilina/sulbactam}} 1,5–3 g cada 6 h EV.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Antibióticos",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.011",
+    "1.05.1.012"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Alternativa: ceftriaxona 2 g/día + {{c1::metronidazol}} 500 mg cada 8 h EV.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Antibióticos",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.011",
+    "1.05.1.012"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Si no se usa metronidazol, se puede dar {{c1::clindamicina}} 600 mg cada 8 h.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Antibióticos",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.011"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Duración del antibiótico en derrame complicado: {{c1::2 a 4 semanas}} (mínimo 14 días EV).",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Antibióticos",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.011"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Intrahospitalario o UCI: cubrir Pseudomonas y SAMR con {{c1::piperacilina/tazobactam o cefepime}} + vancomicina.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Antibióticos",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.011"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neumonía con derrame simple que se hospitaliza: el antibiótico de elección es la {{c1::ceftriaxona}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Antibióticos",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.012"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 138"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si el tubo deja de drenar y persisten colecciones tabicadas: {{c1::fibrinolíticos intrapleurales}} (t-PA + DNAsa).",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Escalamiento",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.011"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Fibrinolíticos: alteplasa {{c1::10 mg}} + dornasa alfa 5 mg dos veces al día por 3 días.",
+   "extra": "Esquema MIST-2.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Escalamiento",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.011"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Sepsis pleural que no cede en {{c1::48–72 horas}}: VATS precoz.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Escalamiento",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.011"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Peel grueso con pulmón atrapado: {{c1::toracotomía con decorticación}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Escalamiento",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.011"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el niño, la punción pleural se guía por {{c1::ecografía}} con sedoanalgesia o anestesia local.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Punción en el niño",
+   "repaso": false,
+   "codigos": [
+    "2.01.5.009",
+    "1.05.1.011"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el niño no se punciona si el derrame es < {{c1::10 mm}} en decúbito lateral.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Punción en el niño",
+   "repaso": false,
+   "codigos": [
+    "2.01.5.009"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Examen que clasifica exudado vs trasudado: {{c1::proteínas y LDH}} en líquido y suero (Light).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.007"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 94"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Disnea con matidez y murmullo disminuido en base izquierda y derrame en Rx: se pide {{c1::citoquímico del líquido pleural}}.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.007"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 171"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-12/01_derrame-encapsulado_1__cto-neumo_p111.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Derrame pleural encapsulado (tabicado)",
+   "clave": "Opacidad que no se desplaza, con loculación",
+   "conducta": "Tubo de drenaje; fibrinolíticos o VATS si no drena",
+   "fuente": "Manual CTO Neumología 14.ª ed., p. 111",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.011"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-12/01_derrame-encapsulado_2__cto-neumo_p111.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Derrame masivo izquierdo",
+   "clave": "Hemitórax blanco y mediastino empujado",
+   "conducta": "Más de la mitad del hemitórax: tubo de drenaje",
+   "fuente": "Manual CTO Neumología 14.ª ed., p. 111",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.011",
+    "1.05.5.004"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "_verificadas/166_resp_Derrame_complicado_y_empiema__cxrpdf_p98_1.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Derrame tabicado con septos en ecografía",
+   "clave": "Septos y loculaciones del líquido pleural",
+   "conducta": "Tubo de drenaje y fibrinolíticos o VATS",
+   "fuente": "Chest X-ray atlas, p. 98",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.011"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.1",
+   "pista": "Derrame > 10 mm: ¿qué se hace primero?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.1",
+   "pista": "pH < 7,20, pus o Gram +: ¿qué conducta?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.1.0",
+   "pista": "Tabicado y sigue febril: ¿qué escalamiento?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.1.1",
+   "pista": "Peel y pulmón atrapado: ¿qué cirugía?"
+  }
+ ]
+}

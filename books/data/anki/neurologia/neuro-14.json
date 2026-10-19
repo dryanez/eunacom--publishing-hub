@@ -1,0 +1,544 @@
+{
+  "classId": "neuro-14",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La Enfermedad de Alzheimer es la causa más frecuente de demencia: {{c1::60–70 %}} de los casos.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro · ¿Por qué?",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síntoma inicial cardinal del Alzheimer es la {{c1::amnesia anterógrada}} (no consolida memoria episódica reciente).",
+      "extra": "Se conserva la memoria remota.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El daño del Alzheimer empieza en la {{c1::corteza entorrinal y el hipocampo}}.",
+      "extra": "Por eso lo primero que falla es consolidar lo nuevo.",
+      "origen": "clase:1",
+      "fuente": "Clase · Amiloide, tau y acetilcolina",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las placas seniles extracelulares del Alzheimer están formadas por {{c1::beta-amiloide 42}}.",
+      "extra": "Por corte de la APP con beta y gamma secretasa.",
+      "origen": "clase:1",
+      "fuente": "Clase · Amiloide, tau y acetilcolina",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los ovillos neurofibrilares intracelulares del Alzheimer se forman por hiperfosforilación de la proteína {{c1::tau}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Amiloide, tau y acetilcolina",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el Alzheimer cae la acetilcolina por degeneración de neuronas del {{c1::núcleo basal de Meynert}}.",
+      "extra": "Fundamento de los inhibidores de acetilcolinesterasa.",
+      "origen": "clase:1",
+      "fuente": "Clase · Amiloide, tau y acetilcolina",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La frontera clínica entre deterioro cognitivo leve y demencia es la {{c1::pérdida de autonomía funcional}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Pfeffer ≥ {{c1::6}} puntos define dependencia funcional, es decir, demencia.",
+      "extra": "Pfeffer < 6 con test alterado: DCL.",
+      "origen": "clase:4",
+      "fuente": "Clase · Evaluación cognitiva y funcional",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El deterioro cognitivo leve progresa a demencia {{c1::10–15 %}} al año, frente a 1–2 % en la población sana.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · DCL",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el deterioro cognitivo leve NO se indican {{c1::inhibidores de acetilcolinesterasa}}; se hace estimulación, control vascular y control semestral.",
+      "extra": "Error clásico: iniciar donepezilo en un paciente autónomo.",
+      "origen": "clase:14",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Punto de corte del MoCA: < {{c1::26}} (+1 punto si escolaridad ≤ 12 años).",
+      "extra": "Es el test más sensible para DCL.",
+      "origen": "clase:5",
+      "fuente": "Clase · Tests de cribado",
+      "repaso": true,
+      "codigos": [
+        "1.10.5.003",
+        "5.01.5.004"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Punto de corte del MMSE: < {{c1::24}}, y 21–22 si hay baja escolaridad.",
+      "extra": "Poco sensible para DCL.",
+      "origen": "clase:5",
+      "fuente": "Clase · Tests de cribado",
+      "repaso": false,
+      "codigos": [
+        "1.10.5.003",
+        "5.01.5.004"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Queja propia, déficit leve (recuerda 2 de 3 palabras) y sin pérdida de autonomía: trastorno neurocognitivo {{c1::menor}} (DCL).",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz EUNACOM Jul 2024",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 15"
+      ],
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante sospecha de demencia en paciente de baja escolaridad, el test inicial es el {{c1::MMSE}}, ajustado por escolaridad.",
+      "extra": "El MoCA penaliza la baja escolaridad.",
+      "origen": "clase:27",
+      "fuente": "Clase · Quiz EUNACOM Dic 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 25"
+      ],
+      "codigos": [
+        "5.01.5.004",
+        "1.10.5.003"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con quejas corroboradas, autonomía y MMSE normal (29/30), el siguiente paso para buscar DCL es el {{c1::MoCA}}.",
+      "extra": "El MMSE tiene efecto techo en alta escolaridad.",
+      "origen": "clase:24",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "1.10.5.003",
+        "5.01.5.004"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una alteración precoz en el Alzheimer se ve en el {{c1::test del reloj}} (falla ejecutiva y visuoespacial).",
+      "extra": "Números amontonados o manecillas mal puestas.",
+      "origen": "clase:4",
+      "fuente": "Clase · Evaluación cognitiva y funcional",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.004",
+        "1.10.1.005"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estudio de laboratorio de toda demencia: {{c1::TSH, vitamina B12, VDRL o RPR}}, hemograma, electrolitos, renal y hepático.",
+      "extra": "Descartar causas reversibles antes de tratar.",
+      "origen": "clase:6",
+      "fuente": "Clase · Descartar lo reversible",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.003",
+        "1.10.1.005"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La neuroimagen del estudio de demencia es TAC o RM {{c1::sin contraste}}, obligatoria.",
+      "extra": "Busca subdural crónico, tumores, infartos e hidrocefalia.",
+      "origen": "clase:6",
+      "fuente": "Clase · Descartar lo reversible",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Marcha magnética + incontinencia urinaria + deterioro cognitivo es {{c1::hidrocefalia normotensiva}} (Hakim-Adams), no Alzheimer.",
+      "extra": "Reversible con derivación ventrículo-peritoneal.",
+      "origen": "clase:14",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.005",
+        "1.10.1.003"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anciano con cefalea progresiva, ataxia de la marcha y deterioro cognitivo, con colección hipodensa entre corteza y cráneo: {{c1::hematoma subdural crónico}}.",
+      "extra": "Causa estructural y tratable de deterioro cognitivo.",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz EUNACOM Jul 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 104"
+      ],
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Primera línea en Alzheimer leve a moderada (MMSE 10–24): {{c1::inhibidores de acetilcolinesterasa}}.",
+      "extra": "Donepezilo, rivastigmina, galantamina. GES.",
+      "origen": "clase:7",
+      "fuente": "Clase · IAChE",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Donepezilo: {{c1::5 mg}} de noche, subir a {{c2::10 mg/día}} a las 4–6 semanas.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · IAChE",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Rivastigmina en parche: 4,6 → {{c1::9,5 mg/24 h}}; da menos efectos digestivos.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · IAChE",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antes de iniciar un IAChE se pide {{c1::ECG basal}} por riesgo de bradicardia y síncope.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · IAChE",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Diarrea o incontinencia urinaria con donepezilo: {{c1::bajar la dosis de donepezilo}}, no agregar otro fármaco.",
+      "extra": "Oxibutinina contrarresta el donepezilo.",
+      "origen": "clase:20",
+      "fuente": "Clase · Quiz EUNACOM Dic 2018",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Memantina (antagonista NMDA) se agrega en Alzheimer moderado a severo, con MMSE < {{c1::15}}.",
+      "extra": "Sola o con IAChE; hasta 20 mg/día.",
+      "origen": "clase:8",
+      "fuente": "Clase · Memantina",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.005"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Agitación en Alzheimer sin respuesta a medidas ambientales: {{c1::quetiapina}} 12,5–25 mg en la noche.",
+      "extra": "Antipsicóticos aumentan riesgo de ACV y mortalidad.",
+      "origen": "clase:9",
+      "fuente": "Clase · Agitación y delirios",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 12",
+        "EUNACOM Enero 2023 · Pregunta 128"
+      ],
+      "codigos": [
+        "1.10.1.005",
+        "1.07.2.004"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la agitación de la demencia están contraindicadas las {{c1::benzodiacepinas}}.",
+      "extra": "Empeoran la cognición y causan caídas.",
+      "origen": "clase:9",
+      "fuente": "Clase · Agitación y delirios",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primera línea ante agitación en demencia: buscar dolor oculto como {{c1::retención urinaria, fecaloma o ITU}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Agitación y delirios",
+      "repaso": false,
+      "codigos": [
+        "1.07.2.004",
+        "1.10.1.005"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El Alzheimer y otras demencias es la Garantía GES N° {{c1::85}}, con evaluación diagnóstica integral en 60 días desde la sospecha.",
+      "extra": "Incluye donepezilo, memantina y apoyo al cuidador.",
+      "origen": "libro:sec:3",
+      "fuente": "GES N° 85",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Medida preventiva de deterioro cognitivo en 60–75 años con mejor evidencia: {{c1::ejercicio físico y estudio activo}}.",
+      "extra": "",
+      "origen": "clase:26",
+      "fuente": "Clase · Quiz EUNACOM Jul 2024",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 97"
+      ],
+      "codigos": [
+        "1.10.1.003",
+        "1.07.2.004"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el Alzheimer el paciente suele tener {{c1::anosognosia}}: niega el déficit y consulta la familia.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz EUNACOM Jul 2017",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 34"
+      ],
+      "codigos": [
+        "1.10.1.005",
+        "1.10.1.003"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-14/01_pet-fdg-alzheimer__cto-neuro_p29.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "PET-FDG en Alzheimer",
+      "clave": "Hipometabolismo temporal y parietal frente a un cerebro normal",
+      "conducta": "Evaluación funcional, descartar causas reversibles e iniciar IAChE si es leve a moderado",
+      "fuente": "Manual CTO Neurología 14.ª ed., p. 29",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-14/02_hematoma-subdural-tc__cto-neuro_p174.jpg",
+      "pregunta": "¿Qué muestra y por qué importa en demencia?",
+      "diagnostico": "Hematoma subdural crónico",
+      "clave": "Colección en semiluna entre corteza y cráneo",
+      "conducta": "Causa tratable de deterioro cognitivo; por eso la neuroimagen es obligatoria",
+      "fuente": "Manual CTO Neurología 14.ª ed., p. 174",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_verificadas/154_neuro_Alzheimer_y_DCL__ctmri_path_p106_1.jpg",
+      "pregunta": "¿Qué muestra y qué sospechas?",
+      "diagnostico": "Hidrocefalia normotensiva (Hakim-Adams)",
+      "clave": "Ventriculomegalia desproporcionada a la atrofia",
+      "conducta": "Tríada marcha magnética, incontinencia y demencia; derivación ventrículo-peritoneal",
+      "fuente": "CT & MRI Pathology: A Pocket Atlas, p. 106",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.005",
+        "1.07.1.003"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "¿Qué mide la frontera entre DCL y demencia?",
+      "codigos": [
+        "1.10.1.005"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Test alterado pero autónomo: ¿qué conducta?",
+      "codigos": [
+        "1.10.1.003"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1.1.1",
+      "pista": "Alzheimer con MMSE < 15: ¿qué se agrega?",
+      "codigos": [
+        "1.10.1.005"
+      ]
+    }
+  ]
+}

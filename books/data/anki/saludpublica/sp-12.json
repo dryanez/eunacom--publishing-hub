@@ -1,0 +1,480 @@
+{
+  "classId": "sp-12",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La ficha clínica es el instrumento {{c1::obligatorio}} que registra los eventos y procesos asistenciales de una persona, en papel o digital.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Ficha clínica",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La información de la ficha clínica es de propiedad {{c1::exclusiva e inalienable del paciente}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El establecimiento de salud es el {{c1::custodio y depositario legal}} de la ficha clínica, no su dueño.",
+      "extra": "Debe resguardar integridad, autenticidad y confidencialidad.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Ficha clínica",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El prestador debe conservar la ficha clínica por un mínimo de {{c1::15 años}} desde la última atención.",
+      "extra": "Art. 13 de la Ley 20.584.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los 15 años de custodia de la ficha se cuentan desde {{c1::el último registro de atención}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Naturaleza jurídica",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La ficha clínica es un dato {{c1::sensible}} reservado bajo secreto profesional.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Acceso a la ficha",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El primer sujeto con acceso legal directo a la ficha es el propio {{c1::paciente titular}}, que acredita identidad con cédula.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de acceso",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los padres de un menor o los tutores de un incapaz acceden a la ficha como {{c1::representante legal}}.",
+      "extra": "Acreditan con certificado de nacimiento o poder notarial.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de acceso",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un tercero puede acceder a la ficha si tiene {{c1::mandato (poder) notarial}} del paciente.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Acceso a la ficha",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los herederos del fallecido acceden a la ficha acreditando el vínculo con {{c1::posesión efectiva o certificado de parentesco}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Acceso a la ficha",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los tribunales y la Fiscalía acceden a la ficha mediante {{c1::oficio o requerimiento formal en una causa}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de acceso",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La Superintendencia de Salud y el ISP acceden a la ficha solo en el ejercicio de su {{c1::fiscalización sanitaria}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Acceso a la ficha",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El empleador o la jefatura laboral tiene acceso a la ficha clínica del trabajador: {{c1::NUNCA}}.",
+      "extra": "Es dato sensible; ninguna justificación laboral lo habilita.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de acceso",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El jefe de RR. HH. pide la ficha de urgencia de un trabajador con carta timbrada: la conducta es {{c1::rechazar la solicitud}}.",
+      "extra": "Entregarla es sancionable por la Superintendencia y genera indemnización civil.",
+      "origen": "clase:7",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Entregar la ficha al empleador vulnera el secreto médico y es sancionable por la {{c1::Superintendencia de Salud}}.",
+      "extra": "También indemnizable en sede civil por daño moral.",
+      "origen": "libro:caso",
+      "fuente": "Libro · caso clínico",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Además de la Ley 20.584, los datos de salud están protegidos por la Ley {{c1::19.628}} de Protección de la Vida Privada.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · caso clínico",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Una compañía de seguros accede a la ficha solo con {{c1::poder notarial expreso del paciente}}.",
+      "extra": "El contrato privado no levanta el secreto médico.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de acceso",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Carabineros o PDI acceden a la ficha solo con {{c1::orden del fiscal o del tribunal}}.",
+      "extra": "La policía no puede revisar fichas por su cuenta.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de acceso",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El cónyuge o los familiares de un adulto competente acceden a la ficha solo con {{c1::poder notarial específico}}.",
+      "extra": "Ser familiar no basta.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Acceso a la ficha",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un familiar pide información de un adulto competente: se entrega solo si {{c1::el paciente lo autoriza}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si alguien pide la ficha sin acreditar identidad o representación, se {{c1::no entrega}} hasta que la acredite.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · acceso a la ficha",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si un tercero externo no presenta orden judicial ni poder notarial, se {{c1::rechaza la solicitud}} y se deja constancia de la negativa.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · acceso a la ficha",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El derecho a un trato digno incluye respeto a la intimidad, el pudor y la {{c1::identidad de género}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Otros derechos",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si el paciente no habla español, tiene derecho a {{c1::facilitadores lingüísticos o intérpretes}}.",
+      "extra": "Población indígena o migrante.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Otros derechos",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Fotografiar o grabar a un paciente con fines docentes o de redes sociales exige {{c1::consentimiento informado expreso y por escrito}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Al alta hospitalaria el paciente tiene derecho a recibir la {{c1::epicrisis}}.",
+      "extra": "También a una cuenta hospitalaria detallada.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Otros derechos",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La Ley de {{c1::Consultorio Seguro}} agrava las penas por agresiones al personal de salud.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Entre los deberes del paciente están entregar información {{c1::veraz}} y tratar con respeto al personal.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Deberes del paciente",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.056"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En adolescentes de 16 años que participan en un estudio, firma el consentimiento informado {{c1::el apoderado (representante legal)}}.",
+      "extra": "El adolescente igual tiene derecho a ser escuchado.",
+      "origen": "clase:8",
+      "fuente": "Clase · Quiz EUNACOM Julio 2024",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.056"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 46"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El control de salud del adolescente es una evaluación integral y {{c1::anual}} de los 10 a 19 años.",
+      "extra": "El Control Joven Sano llega hasta los 24.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Adolescente",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.016"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La entrevista psicosocial del adolescente se hace con el esquema {{c1::HEEADSSS}}.",
+      "extra": "Hogar, educación, alimentación, actividades, drogas, sexualidad, suicidio, seguridad.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Adolescente",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.016"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Se entrevista al adolescente {{c1::a solas}}, explicando la confidencialidad y sus límites.",
+      "extra": "Riesgo vital, abuso o delito.",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.016"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Prometer al adolescente confidencialidad {{c1::absoluta}} es incorrecto.",
+      "extra": "Si hay riesgo suicida o maltrato se actúa aunque lo pida reservado.",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.016"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una adolescente de 15 años que pide anticoncepción y reserva se atiende con {{c1::confidencialidad}}.",
+      "extra": "El error es exigir que venga con sus padres. Ley 20.418.",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.016"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En menores de 14 años toda relación sexual es delito: se debe {{c1::denunciar y proteger}}.",
+      "extra": "El error es guardar reserva por confidencialidad.",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.016"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Paciente que acredita identidad: ¿qué haces?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1.0",
+      "pista": "Tercero con orden judicial o poder notarial: ¿qué entregas?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.1",
+      "pista": "Tercero sin documento: ¿conducta?"
+    }
+  ]
+}

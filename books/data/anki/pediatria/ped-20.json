@@ -1,0 +1,518 @@
+{
+  "classId": "ped-20",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hipoglicemia neonatal: glicemia plasmática < {{c1::45 mg/dL}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.120"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En las primeras 4 horas de vida el corte de hipoglicemia es < {{c1::40 mg/dL}}.",
+      "extra": "Por el nadir fisiológico.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definición",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.120"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta terapéutica tras tratar la hipoglicemia: glicemia plasmática > {{c1::50 mg/dL}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.120"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Grupos de riesgo de hipoglicemia: hijo de madre diabética, PEG, GEG, prematuro y {{c1::asfixia perinatal}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.120"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El hijo de madre diabética hace hipoglicemia por {{c1::hiperinsulinismo fetal}} persistente al cortar el cordón.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Por qué hipoglicemia",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.120",
+        "2.01.1.118"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El PEG hace hipoglicemia por {{c1::reservas casi nulas de glucógeno y grasa}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Riesgo",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.120"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 150"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Clínica de hipoglicemia neonatal: temblores finos («jitteriness»), succión débil, {{c1::letargia}}, apneas; en casos extremos convulsiones.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clínica",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.120"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipoglicemia asintomática con glicemia 35 a 44 mg/dL: {{c1::alimentar de inmediato}} y controlar la glicemia.",
+      "extra": "Error: pasar suero de entrada.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.120"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 8"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras alimentar al RN hipoglicémico asintomático, la glicemia se controla a los {{c1::30 a 60 minutos}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Manejo escalonado",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.120"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Volumen de alimentación inicial en hipoglicemia asintomática: {{c1::5 a 10 mL/kg}} de leche materna o fórmula.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Manejo",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.120"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se inicia vía EV si la glicemia persiste < 45 mg/dL tras {{c1::dos alimentaciones}} o baja a < 35 mg/dL.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Manejo",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.120"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipoglicemia sintomática o glicemia < 35 mg/dL: {{c1::tratamiento EV inmediato}}, no solo alimentar.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.120"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Bolo de hipoglicemia sintomática: suero glucosado al {{c1::10%}} (SG10%).",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.120"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Dosis del bolo: SG10% a {{c1::2 mL/kg}} (200 mg/kg de glucosa) EV en 5 minutos.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.120"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tras el bolo, la infusión continua aporta una VIG de {{c1::6 a 8 mg/kg/minuto}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.120"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Nunca usar suero glucosado al {{c1::20% o 50%}} en bolo: hiperosmolaridad e insulina de rebote.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.120"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se reevalúa la glicemia a los {{c1::30 minutos}} del bolo; si sigue < 50 mg/dL se sube la VIG.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Manejo",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.120"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Escalamiento de la VIG si persiste baja: 8 → 10 → {{c1::12}} mg/kg/min.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Manejo",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.120"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "VIG (mg/kg/min) = [velocidad (mL/kg/día) × % de glucosa] / {{c1::144}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Fórmula de VIG",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.120"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En hiperinsulinismo refractario (VIG > 12 mg/kg/min) se usa {{c1::glucagón o diazóxido}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de hipoglicemia",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.120"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hipocalcemia neonatal: calcio total < {{c1::7.0 mg/dL}} en prematuros o < 8.0 mg/dL en término.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Hipocalcemia",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.119"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hipocalcemia precoz (primeras 72 horas) se ve en prematuros, asfixiados e {{c1::hijos de madre diabética}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Hipocalcemia",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.119"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipocalcemia tardía (> 72 horas): leche de vaca no maternizada (exceso de fósforo), hipomagnesemia o {{c1::síndrome de DiGeorge}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Hipocalcemia",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.119"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hipocalcemia sintomática: {{c1::gluconato de calcio al 10%}} a 1 a 2 mL/kg EV lento.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.119"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El gluconato de calcio se pasa lento y con {{c1::monitor cardíaco}}; rápido causa bradicardia o asistolía.",
+      "extra": "Extravasación: necrosis cutánea.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.119"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Policitemia neonatal: hematocrito venoso central > {{c1::65%}} (o Hb > 22 g/dL).",
+      "extra": "El hematocrito capilar sobreestima.",
+      "origen": "clase:4",
+      "fuente": "Clase · Policitemia",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.122"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Policitemia por hipoxia crónica: PEG, hijo de madre diabética, {{c1::postérmino}}, tabaquismo materno.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Policitemia",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.122"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Policitemia asintomática con hematocrito de 65 a 70%: se {{c1::hidrata}} y se controla seriadamente.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Policitemia",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.122"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Policitemia sintomática o Hto > 70%: {{c1::exsanguinotransfusión parcial con suero fisiológico}}.",
+      "extra": "Se lleva el Hto a ~55%.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.122"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el hijo de madre diabética la complicación más frecuente es la {{c1::hipoglicemia}}, entre las 1 y 12 horas.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Hijo de madre diabética",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.118"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el hijo de madre diabética el exceso de insulina retrasa el surfactante y causa {{c1::membrana hialina}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Hijo de madre diabética",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.118"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La miocardiopatía hipertrófica septal del hijo de madre diabética se estudia con {{c1::ecocardiograma}}, evitando inotrópicos.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Hijo de madre diabética",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.118"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hijo de madre diabética: glicemia seriada y observar al menos {{c1::24 horas}}; no dar el alta a las pocas horas.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.118"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El temblor benigno (jitteriness) {{c1::cede al sujetar la extremidad}}, sin movimientos oculares ni apnea.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Convulsiones neonatales",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.115"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa más frecuente de convulsión neonatal es la {{c1::encefalopatía hipóxico-isquémica}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Convulsiones neonatales",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.115"
+      ]
+    },
+    {
+      "id": "c36",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante una convulsión neonatal se mide primero la {{c1::glicemia}} y el calcio, antes del anticonvulsivante.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz convulsiones",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.115"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 26"
+      ]
+    },
+    {
+      "id": "c37",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Primera línea anticonvulsiva neonatal: {{c1::fenobarbital 20 mg/kg}} EV.",
+      "extra": "Segunda línea fenitoína o levetiracetam; piridoxina en refractarias.",
+      "origen": "clase:6",
+      "fuente": "Clase · Convulsiones neonatales",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.115"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "RN de riesgo: ¿qué decide el manejo?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0",
+      "pista": "Sin síntomas, glicemia 35 a 44: ¿qué haces?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "Con síntomas o < 35: ¿qué administras?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.0",
+      "pista": "Después del bolo: ¿qué indicas?"
+    }
+  ]
+}

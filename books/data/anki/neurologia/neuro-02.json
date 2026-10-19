@@ -1,0 +1,514 @@
+{
+  "classId": "neuro-02",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Definición moderna de AIT: déficit transitorio {{c1::sin infarto en la neuroimagen}} (definición tisular, no por 24 horas).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Definición",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.007",
+        "4.01.1.046"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "AIT resuelto con difusión positiva en la RM: se reclasifica como {{c1::infarto cerebral}}, no AIT.",
+      "extra": "Mayor riesgo de recurrencia.",
+      "origen": "clase:10",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "4.01.1.046"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La mayoría de los AIT duran < {{c1::60 minutos}}, típicamente 5 a 20 minutos.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Definición",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "4.01.1.046"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras un AIT, {{c1::10–15 %}} desarrolla un ACV en los siguientes 90 días, la mitad en las primeras 48 horas.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · El aviso",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.3.002"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Amaurosis fugaz: ceguera monocular indolora tipo cortina, por émbolo desde la carótida {{c1::ipsilateral}}.",
+      "extra": "Es un AIT retiniano; apunta a la carótida.",
+      "origen": "clase:2",
+      "fuente": "Clase · Amaurosis",
+      "repaso": false,
+      "imagen": "_verificadas/334_neuro_AIT__KanskisCli_p562_1.jpg",
+      "codigos": [
+        "1.10.2.007",
+        "4.01.1.046"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Imitadores de AIT: migraña con aura, parálisis de Todd, síncope, vértigo periférico y {{c1::hipoglicemia}}.",
+      "extra": "Siempre medir la glicemia.",
+      "origen": "clase:3",
+      "fuente": "Clase · Diagnóstico diferencial",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "4.01.1.046"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Migraña con aura: síntomas visuales {{c1::positivos}} que avanzan lentamente en minutos.",
+      "extra": "El AIT da síntomas negativos de inicio brusco.",
+      "origen": "clase:3",
+      "fuente": "Clase · Diagnóstico diferencial",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "4.01.1.046"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Déficit transitorio después de una crisis focal: {{c1::parálisis de Todd}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Diagnóstico diferencial",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "4.01.1.046"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "ABCD²: A, edad ≥ {{c1::60 años}} = 1 punto.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · ABCD²",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "4.01.1.046"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "ABCD²: B, PA ≥ {{c1::140/90}} mmHg en la primera evaluación = 1 punto.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · ABCD²",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "4.01.1.046"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "ABCD²: C, debilidad unilateral = {{c1::2 puntos}}; habla alterada sin paresia = 1 punto.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · ABCD²",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.007",
+        "4.01.1.046"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "ABCD²: duración ≥ 60 min = {{c1::2}} puntos; 10 a 59 min = {{c2::1}} punto; < 10 min = 0.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · ABCD²",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "4.01.1.046"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "ABCD²: diabetes suma {{c1::1}} punto; el máximo total es {{c2::7}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · ABCD²",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "4.01.1.046"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "ABCD² bajo (0–3): riesgo de ACV a 48 h de {{c1::1.0 %}}; estudio ambulatorio expedito en < 48 h.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla ABCD²",
+      "repaso": false,
+      "codigos": [
+        "1.10.3.002"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "ABCD² moderado (4–5): riesgo a 48 h de {{c1::4.1 %}}; se hospitaliza.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla ABCD²",
+      "repaso": false,
+      "codigos": [
+        "1.10.3.002"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "ABCD² alto (6–7): riesgo a 48 h de {{c1::8.1 %}}; hospitalización inmediata.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla ABCD²",
+      "repaso": false,
+      "codigos": [
+        "1.10.3.002",
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "ABCD² ≥ {{c1::4}} indica hospitalizar en UTAC u observación.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.007",
+        "4.01.1.046"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "ABCD² bajo con AIT en crescendo o FA: {{c1::hospitalizar igual}}; no confiar solo en el puntaje.",
+      "extra": "También: estenosis > 50 % o lesión aguda en la imagen.",
+      "origen": "clase:10",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "4.01.1.046"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "AIT en crescendo: ≥ {{c1::2 episodios}} en 7 días.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 ABCD²",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "4.01.1.046"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estudio del AIT en 24–48 h: neuroimagen (de elección {{c1::RM con difusión}}), vasos del cuello y corazón.",
+      "extra": "Si no hay RM: TAC sin contraste.",
+      "origen": "clase:6",
+      "fuente": "Clase · Estudio etiológico",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.007",
+        "4.01.1.046"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fibrilación auricular paroxística se pesquisa con {{c1::Holter o telemetría}}, además del ECG.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Estudio etiológico",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.3.002"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "AIT carotídeo con soplo cervical ipsilateral: examen de elección {{c1::eco-Doppler de carótidas}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "EUNACOM Julio 2024 · Pregunta 151",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 151"
+      ],
+      "imagen": "biblioteca/09_neurologia/neuro-02/01_estenosis-carotidea-angiografia__cto-neuro_p36.jpg",
+      "codigos": [
+        "1.10.2.007",
+        "1.10.3.002"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "AIT no cardioembólico de alto riesgo: AAS + {{c1::clopidogrel}} iniciados precozmente.",
+      "extra": "CHANCE y POINT.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.10.3.002",
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La doble antiagregación se mantiene exactamente {{c1::21 días}}; luego monoterapia indefinida.",
+      "extra": "Más allá de 3 semanas solo suma sangrado.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.3.002"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "AIT no cardioembólico de alto riesgo: el error es la doble antiagregación {{c1::indefinida}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.3.002"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Clopidogrel en la DAPT: carga de {{c1::300 mg}}, luego 75 mg/día.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Prevención",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "4.01.1.046"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "AIT con fibrilación auricular: anticoagulante oral {{c1::directo (DOAC)}} desde el día 1.",
+      "extra": "No hay masa necrótica que se transforme en hemorrágica.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 151"
+      ],
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "AIT con fibrilación auricular: el error es {{c1::antiagregar o esperar semanas}} para anticoagular.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.3.002"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Estenosis carotídea sintomática de {{c1::70–99 %}} (o 50–69 % en hombres): endarterectomía.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "4.01.1.046"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La endarterectomía carotídea se hace en < {{c1::2 semanas}} del AIT, idealmente en 7 días.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.3.002"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Atorvastatina {{c1::80 mg}} a todo paciente con AIT, a permanencia.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES N° 37: AIT con ABCD² ≥ {{c1::4}} se hospitaliza de inmediato para neuroimagen, ecocardiograma y dúplex carotídeo.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · GES",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.3.002"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_verificadas/140_neuro_AIT__ctmri_path_p94_1.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Infarto agudo en RM de difusión",
+      "clave": "Restricción en DWI aunque el paciente ya esté asintomático",
+      "conducta": "Se reclasifica como infarto cerebral; hospitalizar, estudiar causa y prevención secundaria",
+      "fuente": "CT & MRI Pathology: A Pocket Atlas, p. 94",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "4.01.1.046"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_verificadas/141_neuro_AIT__27thBailey_p973_1.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Estenosis significativa de carótida interna en eco-Doppler",
+      "clave": "Estrechamiento del lumen de la carótida interna",
+      "conducta": "Si es sintomática 70–99 %: endarterectomía en < 2 semanas",
+      "fuente": "Bailey & Love's Short Practice of Surgery, 27th ed., p. 973",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "4.01.1.046"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1.1.0",
+      "pista": "AIT no cardioembólico, ABCD² alto: ¿tratamiento?",
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1.1",
+      "pista": "AIT con fibrilación auricular: ¿tratamiento?",
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1.2",
+      "pista": "AIT con estenosis carotídea sintomática: ¿conducta?",
+      "codigos": [
+        "1.10.2.007"
+      ]
+    }
+  ]
+}

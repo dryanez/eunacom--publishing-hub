@@ -1,0 +1,50 @@
+Trabajas en /Users/felipeyanez/Documents/Archive/Apps/eunacom-fotos (español de Chile). NO hagas commit. NO edites scripts; solo escribe los JSON de tarjetas indicados.
+
+Tarea: escribir tarjetas Anki estilo AnKing (EUNACOM) para los temas: {TEMAS}.
+Para cada tema lee el digest books/data/anki/gastroenterologia/_fuentes/<classId>.md (contiene TODO: libro, tabla, puntos clave, clase con índices [clase:N], algoritmo con ids de nodo [r.0.1], fotos disponibles con su src exacto, preguntas reales). Si necesitas más detalle puedes leer books/scripts/dataset_gastroenterologia.cjs o classes/lessons/<classId>.cjs.
+Escribe books/data/anki/gastroenterologia/<classId>.json (UTF-8, JSON válido, 2 espacios) con este esquema:
+
+{
+  "classId": "gastro-01",
+  "cards": [
+    {"id": "c01", "modelo": "cloze", "tipo": "Concepto",
+     "texto": "En ERGE típica, sin alarma y < 50 años, se indica prueba con {{c1::IBP por 4–8 semanas}} sin endoscopía.",
+     "extra": "La respuesta al IBP confirma el diagnóstico.",
+     "origen": "libro:tabla", "fuente": "Libro · tabla ERGE", "repaso": true,
+     "preguntaReal": ["EUNACOM Enero 2023 · Pregunta 65"]},
+    {"id": "i01", "modelo": "imagen", "tipo": "Imagen",
+     "imagen": "biblioteca/01_gastroenterologia/gastro-01/02_esofagitis_1__cto-digestivo_p26.jpg",
+     "pregunta": "¿Qué muestra y qué haces?",
+     "diagnostico": "Esofagitis erosiva por reflujo", "clave": "Erosiones lineales rojas sobre la unión esofagogástrica",
+     "conducta": "IBP en ayunas; endoscopía si hay alarma", "fuente": "Manual CTO Digestivo 14.ª ed., p. 26", "repaso": false}
+  ],
+  "occlusion": [
+    {"id": "o01", "nodo": "r.0.0", "pista": "Pirosis con signos de alarma: ¿qué examen?"}
+  ]
+}
+
+Campos:
+- id: único en el tema y ESTABLE (c01, c02… para cloze; i01… para imagen; o01… para occlusion). No reutilices ids.
+- modelo: "cloze" | "imagen".  tipo: Cifra | Farmaco | Imagen | Algoritmo | Trampa | GES | Concepto.
+- origen (OBLIGATORIO en cloze; de dónde sale el hecho, se usa para adjuntar una captura del material):
+  "libro:tabla" (la tabla del libro) · "libro:sec:<n>" (sección n del contenido del libro, sin imagen) · "libro:puntos" · "libro:caso" ·
+  "clase:<N>" (diapositiva N de la clase: trampas, reglas de oro, flujo, tarjetas; usa el índice [clase:N] del digest; prefiere clase:N cuando el hecho está en una diapositiva tipo tabla de trampas/reglas de oro/points/flow) ·
+  "algoritmo" (el árbol de decisión) · "foto" (párrafo/diapositiva con foto: entonces pon también "imagen" con el src exacto).
+- imagen: opcional en cloze (solo src exactos de la lista FOTOS DISPONIBLES del tema); obligatoria en modelo imagen.
+- fuente: texto corto legible (p. ej. "Libro §2 Diagnóstico", "Clase · Reglas de oro", "Harrison 21.ª ed., p. 2430").
+- repaso: true en ~25 % de las tarjetas del tema (núcleo de alto rendimiento para el repaso de última hora).
+- preguntaReal: opcional, lista de recTag EXACTOS de la sección PREGUNTAS REALES cuando la tarjeta responde esa pregunta. Intenta que cada pregunta real del tema quede cubierta por al menos una tarjeta.
+- occlusion: 2–4 entradas por tema, cada una tapa UN nodo del algoritmo (ids [r…] del digest; elige nodos de decisión/conducta, no el nodo raíz) con una "pista" (pregunta corta que se ve sobre el recuadro).
+
+Reglas AnKing (estrictas):
+- Un hecho por tarjeta; casi siempre solo {{c1::…}}; máx. 2–3 clozes por nota (c1/c2 solo si son partes inseparables de un mismo hecho). Texto ≤ ~250 caracteres. Nada de listas largas.
+- Cifras, dosis, plazos y fármacos van en tarjetas propias (tipo Cifra o Farmaco), con el número dentro del cloze.
+- Cifras IDÉNTICAS al libro/clase: NO inventes ni redondees ni agregues datos que no estén en el digest. El validador avisa si un número no aparece en las fuentes.
+- Extra corto (1 línea): el porqué o la trampa. Puede ir vacío.
+- Trampas: usa la tabla de trampas ("Error frecuente") → tipo Trampa (p. ej. "Ante X, el error clásico es {{c1::…}}" o pregunta qué NO hacer).
+- GES: si el tema tiene garantía GES, tarjeta(s) tipo GES con lo que dice el digest.
+- Español claro de Chile, sin HTML salvo <b> puntual.
+- Tamaño: 20–35 tarjetas (cloze + imagen) por tema, más las 2–4 occlusion. Si el tema tiene fotos, 1–3 tarjetas de modelo imagen (elige las fotos más representativas; pregunta "¿Qué muestra y qué haces?" u otra corta; diagnóstico, clave visual y conducta en 1–2 líneas, coherentes con el libro).
+
+Al terminar cada tema ejecuta:  python3 books/scripts/anki/validate_cards.py gastroenterologia <classId>
+Corrige TODOS los ERROR. Revisa cada ADV de cifra: si el número no está en las fuentes, corrígelo para que coincida con el libro o elimínalo (solo puedes ignorar ADV de números que sí están escritos de otra forma en el digest, p. ej. "1.ª"). Al final reporta en 3–5 líneas: temas hechos, n.º de tarjetas por tema, y cualquier duda de contenido.

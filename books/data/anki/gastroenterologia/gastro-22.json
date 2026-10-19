@@ -1,0 +1,344 @@
+{
+  "classId": "gastro-22",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante la sospecha de ingesta de un cuerpo extraño, el primer examen es la {{c1::radiografía de cuello, tórax y abdomen}} para localizarlo.",
+      "extra": "Las tres, porque el objeto puede estar en cualquier punto del recorrido.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Evaluación inicial",
+      "repaso": true
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Una radiografía normal no descarta un cuerpo extraño: los objetos {{c1::radiolúcidos}} (plástico, espinas de pescado) pueden no verse.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Evaluación inicial",
+      "repaso": false
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con un cuerpo extraño esofágico, la {{c1::sialorrea}} indica que el paciente no logra tragar ni su saliva (obstrucción completa).",
+      "extra": "Es indicación de endoscopía urgente.",
+      "origen": "clase:1",
+      "fuente": "Clase · Alarma esofágica",
+      "repaso": false
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El dolor torácico con un cuerpo extraño esofágico es {{c1::perforación (y mediastinitis)}} hasta demostrar lo contrario.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Todo cuerpo extraño en el esófago se retira {{c1::siempre por endoscopía digestiva alta}}.",
+      "extra": "Riesgo de perforación y mediastinitis.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla",
+      "repaso": true
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La endoscopía por cuerpo extraño esofágico es urgente si hay obstrucción completa, si es pila u objeto afilado, o si lleva {{c1::> 24 h}} impactado.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Cuerpo extraño en el esófago",
+      "repaso": false
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una pila de botón en el esófago produce {{c1::quemadura eléctrica y necrosis en pocas horas}}.",
+      "extra": "Riesgo de perforación, fístula traqueoesofágica y mediastinitis.",
+      "origen": "clase:2",
+      "fuente": "Clase · Se retira siempre",
+      "repaso": false
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño asintomático con pila de botón en el esófago medio: la conducta es la {{c1::extracción endoscópica inmediata}}.",
+      "extra": "Es una emergencia aunque el niño esté asintomático.",
+      "origen": "libro:caso",
+      "fuente": "Libro · caso",
+      "repaso": true
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la radiografía, la pila de botón en el esófago se reconoce por el signo del {{c1::doble halo}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · caso",
+      "repaso": false
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si la pila de botón ya pasó al estómago y el niño está asintomático, {{c1::igual se retira}}, pero sin carácter de emergencia.",
+      "extra": "Las pilas se sacan en cualquier ubicación.",
+      "origen": "libro:caso",
+      "fuente": "Libro · caso",
+      "repaso": false
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Objeto romo y pequeño ya en el estómago, paciente asintomático: observar con control radiológico cada {{c1::1–2 semanas}}.",
+      "extra": "La mayoría se elimina solo.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla",
+      "repaso": true
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Al observar un objeto romo que pasó el esófago, {{c1::no hay que buscarlo en las deposiciones}}; se controla con radiografía.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · ¿Observar o retirar?",
+      "repaso": false
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se retiran siempre, esté donde esté: pilas, {{c1::≥ 2 imanes}}, objetos afilados o > 5 cm y bolitas absorbentes.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla",
+      "repaso": true
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Un objeto de {{c1::> 5 cm}} se retira siempre, aunque ya esté más allá del esófago.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Más allá del esófago",
+      "repaso": false
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dos o más imanes ingeridos se retiran porque {{c1::se atraen entre asas y producen necrosis y perforación}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Más allá del esófago",
+      "repaso": false
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las bolitas de polímero absorbente se retiran siempre porque {{c1::se expanden con el agua y obstruyen}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Más allá del esófago",
+      "repaso": false
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño asintomático con una moneda en la cámara gástrica: {{c1::observación con control radiológico}}.",
+      "extra": "Moneda = objeto romo, no cáustico, no magnético.",
+      "origen": "libro:caso",
+      "fuente": "Libro · pregunta",
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Un objeto romo en observación se retira por endoscopía si no progresa en {{c1::3–4 semanas}} o si aparecen síntomas.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · pregunta",
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Alimento impactado en el esófago, tolera líquidos y sin dolor: se puede observar hasta {{c1::24 h}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla",
+      "repaso": true
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Alimento impactado en el esófago con dolor o sin poder tragar líquidos: {{c1::endoscopía digestiva alta para desimpactar}}.",
+      "extra": "Riesgo de aspiración y perforación.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 50"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Disfagia retroxifoidea tras comer pollo que no deja pasar ni agua: el error es {{c1::observar}}; corresponde EDA sin demora.",
+      "extra": "No tolera ni líquidos = obstrucción completa.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 50"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras resolver una impactación alimentaria, hay que estudiar el esófago con {{c1::nueva endoscopía}} (esofagitis eosinofílica, estenosis, anillo, tumor).",
+      "extra": "Sobre todo en el adulto mayor.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz",
+      "repaso": false
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si un cuerpo extraño distal produce obstrucción intestinal o perforación, el tratamiento es {{c1::quirúrgico}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Complicaciones",
+      "repaso": false
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante un cuerpo extraño digestivo {{c1::no se hace la maniobra de Heimlich}}: solo sirve en la obstrucción completa de la vía aérea.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Qué no hacer",
+      "repaso": false
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adulto joven atópico con impactaciones alimentarias repetidas: sospechar {{c1::esofagitis eosinofílica}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Afagia aguda",
+      "repaso": false
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Odinofagia intensa en inmunosuprimido o con VIH: pensar en esofagitis {{c1::infecciosa (Candida, herpes, CMV)}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Otras causas",
+      "repaso": false
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fármacos que causan esofagitis por pastillas: {{c1::doxiciclina, bifosfonatos y potasio}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Afagia aguda",
+      "repaso": false
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la afagia aguda, lo primero es evaluar {{c1::la vía aérea y la capacidad de manejar la saliva}}.",
+      "extra": "Luego orientar por contexto; EDA urgente si sialorrea, dolor torácico o sospecha de perforación.",
+      "origen": "clase:5",
+      "fuente": "Clase · Otras causas",
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-22/02_rx_pila_boton__commons.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Pila de botón ingerida",
+      "clave": "Objeto metálico redondo muy denso (doble halo) en un lactante",
+      "conducta": "En el esófago: extracción endoscópica inmediata; en otra ubicación igual se retira",
+      "fuente": "Wikimedia Commons, CC BY-SA 4.0",
+      "repaso": true
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-22/03_bolo-carne-impactado-esofago__harrison_p2454.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Bolo de carne impactado en el esófago (visión endoscópica)",
+      "clave": "Trozo de alimento ocupando la luz esofágica",
+      "conducta": "Endoscopía para desimpactar si duele o no traga; luego estudiar el esófago",
+      "fuente": "Harrison 21.ª ed., p. 2454",
+      "repaso": false
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-22/01_moneda_esofago__nelson_p2925.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Moneda en el esófago",
+      "clave": "Objeto metálico redondo en la radiografía, a nivel esofágico",
+      "conducta": "En el esófago se retira siempre por endoscopía",
+      "fuente": "Nelson 22.ª ed., p. 2925",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0.0",
+      "pista": "Esófago con pila, afilado u obstrucción: ¿conducta?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.1.0",
+      "pista": "Más allá del esófago: pila, imanes o afilado: ¿conducta?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0.1.1",
+      "pista": "Romo, pequeño y asintomático en el estómago: ¿conducta?"
+    }
+  ]
+}

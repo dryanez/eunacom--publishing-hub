@@ -1,0 +1,521 @@
+{
+  "classId": "endo-09",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Solo {{c1::5–10%}} de los nódulos tiroideos son malignos, sobre todo carcinoma papilar.",
+      "extra": "Hasta 50–60% de las mujeres tienen nódulos por ecografía.",
+      "origen": "clase:1",
+      "fuente": "Clase · El problema",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.021",
+        "1.03.4.001"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Factores de alto riesgo de malignidad: radioterapia de cuello en la infancia, familiar con {{c1::carcinoma medular o NEM 2}}, crecimiento rápido y disfonía.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · El problema",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.021"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante un nódulo de 1 cm o sospechoso, el primer examen obligatorio es la {{c1::TSH}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.021"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Nódulo con TSH suprimida (< 0,4): el siguiente paso es el {{c1::cintigrama tiroideo}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Antes que cualquier imagen: la TSH",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 167"
+      ],
+      "codigos": [
+        "1.03.1.021"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El nódulo caliente tiene riesgo de malignidad menor de {{c1::1%}} y no se punciona.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Antes que cualquier imagen: la TSH",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-09/03_gammagrafia-nodulo-caliente__amir-endocrino_p44.jpg",
+      "codigos": [
+        "1.03.1.021"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Nódulo con TSH menor de 0,4: el error es hacer {{c1::PAAF de entrada}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.021"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Nódulo con TSH normal o elevada: el examen siguiente es la {{c1::ecografía con TI-RADS}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Antes que cualquier imagen: la TSH",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 65",
+        "EUNACOM Diciembre 2019 · Pregunta 51",
+        "EUNACOM Agosto 2021 · Pregunta 17",
+        "EUNACOM Julio 2016 · Pregunta 25"
+      ],
+      "codigos": [
+        "1.03.1.021",
+        "1.03.4.001"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con TSH normal o alta el error es pedir {{c1::cintigrama}}; nunca se pide con TSH normal.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.021"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "ACR TI-RADS puntúa 5 características: composición, {{c1::ecogenicidad, forma, márgenes y focos ecogénicos}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 ACR TI-RADS",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.021",
+        "1.03.4.001"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signos de alta sospecha: sólido, {{c1::marcadamente hipoecogénico}}, más alto que ancho, márgenes irregulares y microcalcificaciones.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Lo que hace sospechoso a un nódulo",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-09/04_nodulo_ti-rads_5__rumack_p738.jpg",
+      "codigos": [
+        "1.03.1.021",
+        "1.03.4.001"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las microcalcificaciones sospechosas miden menos de {{c1::1 mm}}, sin sombra acústica (cuerpos de psamoma).",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Lo que hace sospechoso a un nódulo",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-09/01_nodulo-con-criterios-de-malignidad-eco-d__amir-endocrino_p46.jpg",
+      "codigos": [
+        "1.03.1.021",
+        "1.03.4.001"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Forma sospechosa: {{c1::más alto que ancho}} (eje anteroposterior mayor que el transversal).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Lo que hace sospechoso a un nódulo",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.021"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signos de benignidad: aspecto {{c1::espongiforme}} (más del 50% en microquistes), quiste simple anecoico o halo fino.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Lo que hace sospechoso a un nódulo",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.021"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "TR1 y TR2: PAAF en {{c1::ningún tamaño}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · El umbral depende del TI-RADS",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.021",
+        "1.03.4.001"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "TR3 (leve sospecha): PAAF desde {{c1::2,5 cm}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · El umbral depende del TI-RADS",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.021",
+        "1.03.4.001"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "TR4 (sospecha moderada): PAAF desde {{c1::1,5 cm}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · El umbral depende del TI-RADS",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.021",
+        "1.03.4.001"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "TR5 (alta sospecha): PAAF desde {{c1::1 cm}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · El umbral depende del TI-RADS",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.021",
+        "1.03.4.001"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "TR5 de 0,7 cm sin adenopatías: {{c1::seguimiento ecográfico en 6 a 12 meses}}; el error es puncionar por sospechoso.",
+      "extra": "Nunca se puncionan nódulos < 1 cm sin riesgo.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 38",
+        "EUNACOM Agosto 2021 · Pregunta 16",
+        "EUNACOM Diciembre 2019 · Pregunta 23"
+      ],
+      "codigos": [
+        "1.03.1.021",
+        "1.03.4.001"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Nódulo de 1,4 cm clasificado TR5: {{c1::PAAF guiada por ecografía}}.",
+      "extra": "El error es solo controlar.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.021",
+        "1.03.4.001"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Bethesda I (no diagnóstica): {{c1::repetir PAAF}} guiada.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Bethesda",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.021"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Bethesda II (benigno): control ecográfico en {{c1::12 a 24 meses}}, sin cirugía.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Bethesda",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.021"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Bethesda III (atipia indeterminada): repetir PAAF o {{c1::test molecular}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Bethesda",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.021"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Bethesda IV (neoplasia folicular): {{c1::hemitiroidectomía diagnóstica}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Bethesda",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.021"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Bethesda IV no distingue adenoma de carcinoma folicular porque hay que ver {{c1::invasión capsular o vascular}} en la pieza completa.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Bethesda",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.021"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Bethesda IV tiene riesgo de cáncer de {{c1::25–40}}%.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.021"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Bethesda V o VI: {{c1::cirugía oncológica}} (tiroidectomía total ± vaciamiento) con derivación GES.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Bethesda",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.021"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "Bethesda IV, V o VI y adenopatías sospechosas tienen acceso a {{c1::GES de cáncer de tiroides}} desde los 15 años.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Qué haces tú como médico general",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.021"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La levotiroxina supresora en nódulos está {{c1::en desuso}}: ineficaz y riesgosa.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Qué haces tú como médico general",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.021"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Nódulo paratraqueal de 3 cm que asciende con la deglución: diagnóstico más probable {{c1::nódulo tiroideo}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "Banco de preguntas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 22"
+      ],
+      "codigos": [
+        "1.03.1.021"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Nódulo quístico de 10 mm, bordes regulares, sin vascularización: control con ecografía en {{c1::un año}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "Banco de preguntas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 154"
+      ],
+      "codigos": [
+        "1.03.1.021",
+        "1.03.4.001"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Bocio: volumen ecográfico mayor de {{c1::18 mL}} en la mujer o 25 mL en el hombre.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Bocio",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-09/02_bocio-multinodular-eco_1__amir-endocrino_p40.jpg",
+      "codigos": [
+        "1.03.1.001",
+        "1.03.1.021"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El bocio más frecuente del adulto es el {{c1::multinodular}}, en mujeres mayores de 50 años.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Bocio",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.001",
+        "1.03.1.021"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signo de Pemberton (cara congestiva con los brazos arriba) sugiere {{c1::bocio endotorácico}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Bocio: compresión",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.001",
+        "1.03.1.021"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Bocio con disnea o disfagia: TSH, ecografía, TC sin yodo y derivar; el error es {{c1::levotiroxina para reducirlo}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.021",
+        "1.03.4.001"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Nódulo con TSH suprimida: ¿qué examen?",
+      "codigos": [
+        "1.03.1.021"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0",
+      "pista": "Nódulo caliente: ¿se punciona?",
+      "codigos": [
+        "1.03.1.021"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.1.2",
+      "pista": "Bethesda IV: ¿conducta?",
+      "codigos": [
+        "1.03.1.021"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.1.1.3",
+      "pista": "Bethesda V o VI: ¿conducta?",
+      "codigos": [
+        "1.03.1.021"
+      ]
+    }
+  ]
+}

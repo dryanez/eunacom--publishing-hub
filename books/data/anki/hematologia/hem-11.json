@@ -1,0 +1,466 @@
+{
+  "classId": "hem-11",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hemostasia primaria (plaquetas y von Willebrand) da sangrado {{c1::inmediato y superficial}}: petequias, epistaxis, gingivorragia.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": true,
+      "imagen": "biblioteca/06_hematologia/hem-11/01_petequias-purpura-en-eeii__amir-hemato_p89.jpg",
+      "codigos": [
+        "1.08.4.005"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hemostasia secundaria (factores) da sangrado {{c1::profundo y retardado}}: hematomas musculares y hemartrosis.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.005"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El von Willebrand ancla las plaquetas al colágeno por el receptor GP {{c1::Ib/IX/V}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Fisiología",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.005"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El fibrinógeno une las plaquetas a través del receptor {{c1::GP IIb/IIIa}}.",
+      "extra": "Su déficit es la tromboastenia de Glanzmann.",
+      "origen": "clase:1",
+      "fuente": "Clase · Fisiología",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.007"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "In vivo el iniciador real de la coagulación es el complejo factor tisular + {{c1::VIIa}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Fisiología",
+      "repaso": false,
+      "imagen": "biblioteca/06_hematologia/hem-11/S1_cascada-coagulacion__propio.svg",
+      "codigos": [
+        "1.08.4.005"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El TP normal es {{c1::11–13,5 s}} o 70–100 % de actividad.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · TP e INR",
+      "repaso": false,
+      "codigos": [
+        "4.01.4.013"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El INR normal es {{c1::0,8 a 1,2}}.",
+      "extra": "Estandariza el reactivo de cada laboratorio.",
+      "origen": "clase:3",
+      "fuente": "Clase · TP e INR",
+      "repaso": true,
+      "codigos": [
+        "4.01.4.013"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El TP evalúa la vía {{c1::extrínseca}} y común (VII, X, V, II y fibrinógeno).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · TP e INR",
+      "repaso": true,
+      "codigos": [
+        "4.01.4.013"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El factor VII tiene la vida media más corta, {{c1::4–6 h}}, por eso el TP es lo primero en alterarse.",
+      "extra": "Cumarínicos, déficit de vitamina K y falla hepática.",
+      "origen": "clase:3",
+      "fuente": "Clase · TP e INR",
+      "repaso": true,
+      "codigos": [
+        "4.01.4.013"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "TP largo aislado con TTPK normal: déficit de factor {{c1::VII}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "4.01.4.013"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "TP prolongado con sangrado por cumarínicos o déficit de vitamina K: se da {{c1::vitamina K}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "4.01.4.013"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El TTPK normal es {{c1::25–35 s}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · TTPK",
+      "repaso": false,
+      "codigos": [
+        "4.01.4.013"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El TTPK está alterado si supera al control en más de {{c1::6–8 s}} o razón > 1,25.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · TTPK",
+      "repaso": false,
+      "codigos": [
+        "4.01.4.013"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El TTPK evalúa la vía {{c1::intrínseca}} (XII, XI, IX, VIII) y común.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · TTPK",
+      "repaso": true,
+      "codigos": [
+        "4.01.4.013"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La heparina no fraccionada se monitoriza con {{c1::TTPK}}, meta 1,5 a 2,5 veces el control.",
+      "extra": "El INR controla los antagonistas de vitamina K.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": true,
+      "codigos": [
+        "4.01.4.013"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El TTPK sirve para tamizar hemofilia A (VIII), hemofilia B (IX) y {{c1::von Willebrand grave}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · TTPK",
+      "repaso": false,
+      "codigos": [
+        "4.01.4.013",
+        "2.01.4.021"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "TTPK largo aislado: se hace {{c1::prueba de mezcla 1:1}} con plasma normal.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Prueba de mezcla",
+      "repaso": true,
+      "codigos": [
+        "4.01.4.013"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si la prueba de mezcla corrige el TTPK, hay {{c1::déficit de factor}} (VIII, IX, XI).",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Prueba de mezcla",
+      "repaso": true,
+      "codigos": [
+        "4.01.4.013"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si la prueba de mezcla no corrige, hay un {{c1::inhibidor}} (anticoagulante lúpico o anti-VIII).",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Prueba de mezcla",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.005"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "TTPA alargado con trombosis y TP normal: {{c1::anticoagulante lúpico}}.",
+      "extra": "Alarga el TTPA in vitro pero trombosa in vivo.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Diciembre 2019",
+      "repaso": false,
+      "codigos": [
+        "4.01.4.013"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "TP y TTPK ambos largos: vía común o múltiple; se pide fibrinógeno, plaquetas y {{c1::dímero D}} para descartar CID.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "4.01.4.013"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Plaquetas bajas con TP y TTPK normales: primero se revisa el frotis para descartar {{c1::pseudotrombocitopenia por EDTA}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "4.01.4.013"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hemartrosis recurrentes y hematomas profundos en un niño: se espera {{c1::TTPA alargado}} (hemofilia).",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Diciembre 2019",
+      "repaso": false,
+      "codigos": [
+        "4.01.4.013",
+        "2.01.4.021"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño con equimosis, plaquetas y TP normales y TTPA alargado: {{c1::hemofilia}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Diciembre 2019",
+      "repaso": false,
+      "imagen": "_verificadas/019_hem_Pruebas_de_coagulación_Hemofil__Zitelli_p466.jpg",
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 159"
+      ],
+      "codigos": [
+        "4.01.4.013",
+        "2.01.4.021"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "TTPK prolongado que corrige con la mezcla en preoperatorio electivo: {{c1::diferir la cirugía}} y dosificar VIII, IX y XI.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz caso",
+      "repaso": true,
+      "codigos": [
+        "4.01.4.013"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adolescente con hipermenorrea, ecografía normal y plaquetas normales: se pide {{c1::estudio de hemostasia}}.",
+      "extra": "La trombofilia es para quien trombosa, no para quien sangra.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Julio 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 78"
+      ],
+      "codigos": [
+        "1.08.4.005"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Epistaxis desde la infancia, equimosis ante traumas menores y menorragia desde la menarquia: se estudia {{c1::enfermedad de von Willebrand}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Banco · Julio 2017",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 28"
+      ],
+      "codigos": [
+        "1.08.4.005"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sangrado mucocutáneo con plaquetas, TP, TTPK y vWF normales: sospecha de {{c1::trombopatía}}; se pide agregometría.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.007",
+        "4.01.4.013"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tiempo de sangría está en desuso; se usa el analizador {{c1::PFA-100}}, con tiempo de cierre prolongado.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Trombopatías",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.007"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antes de estudiar trombopatías se descartan AAS, AINE, clopidogrel, {{c1::ISRS}}, uremia y hepatopatía.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Trombopatías",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.007"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Agregometría: ristocetina baja con el resto normal sugiere {{c1::von Willebrand o Bernard-Soulier}}; ristocetina normal con el resto bajo, Glanzmann.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Trombopatías",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.007"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_verificadas/019_hem_Pruebas_de_coagulación_Hemofil__Zitelli_p466.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Hemartrosis de rodilla en hemofilia",
+      "clave": "Rodilla aumentada de volumen en un niño",
+      "conducta": "TTPK, prueba de mezcla y dosificar factores VIII y IX",
+      "fuente": "Zitelli, Atlas of Pediatric Physical Diagnosis, p. 466",
+      "repaso": true,
+      "codigos": [
+        "4.01.4.013",
+        "2.01.4.021"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.2",
+      "pista": "TTPK largo solo: ¿qué prueba sigue?",
+      "codigos": [
+        "4.01.4.013"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.2.0",
+      "pista": "La mezcla corrige: ¿qué concluyes y qué dosificas?",
+      "codigos": [
+        "1.08.4.005"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2.1",
+      "pista": "La mezcla no corrige: ¿qué sospechas?",
+      "codigos": [
+        "1.08.4.005"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "classId": "ped-26",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una malformación {{c1::mayor}} compromete la función o exige cirugía; una anomalía {{c2::menor}} no tiene consecuencia funcional.",
+      "extra": "Ej. mayor: cardiopatía, fisura palatina. Ej. menor: epicanto, pliegue palmar único.",
+      "origen": "clase:1",
+      "fuente": "Clase · Dismorfias",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.132"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con {{c1::3 o más}} anomalías menores sube mucho la probabilidad de una malformación mayor.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Dismorfias",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.132"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El {{c1::cariograma}} detecta alteraciones numéricas (trisomías, Turner, Klinefelter) y estructurales grandes.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Evaluación",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.132"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El {{c1::microarray cromosómico}} es de primera línea en malformaciones múltiples o retraso del desarrollo sin causa.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Evaluación",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.132"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El {{c1::95%}} del síndrome de Down es trisomía 21 libre, por no disyunción meiótica.",
+      "extra": "El riesgo aumenta con la edad materna.",
+      "origen": "clase:3",
+      "fuente": "Clase · Genética",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La translocación robertsoniana (habitualmente {{c1::14;21}}) explica el {{c2::3-4%}} de los casos de Down.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Genética",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si el cariograma del Down muestra translocación, se pide el cariograma de {{c1::ambos padres}}.",
+      "extra": "Uno puede ser portador balanceado.",
+      "origen": "clase:3",
+      "fuente": "Clase · Consejo genético",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Recurrencia en translocación: {{c1::10-15%}} si la portadora es la madre y {{c2::2-5%}} si es el padre.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Consejo genético",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tamizaje prenatal del primer trimestre: translucencia nucal {{c1::aumentada}}, PAPP-A {{c2::baja}} y β-hCG libre alta.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Diagnóstico prenatal",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El diagnóstico prenatal se confirma con {{c1::biopsia de vellosidades coriales o amniocentesis}}.",
+      "extra": "El ADN fetal libre es tamizaje, no confirma.",
+      "origen": "clase:5",
+      "fuente": "Clase · Diagnóstico prenatal",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El diagnóstico posnatal de Down se sospecha con la clínica y se confirma con el {{c1::cariograma}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El signo más constante del recién nacido con Down es la {{c1::hipotonía}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Fenotipo",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Facies del Down: fisuras palpebrales {{c1::oblicuas hacia arriba}}, epicanto, puente nasal plano y lengua protruyente.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Fenotipo",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.134"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-26/06_sindrome-down-facies__nelson_p519.jpg"
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las manchas de {{c1::Brushfield}} son puntos claros en el borde del iris en el síndrome de Down.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Fenotipo",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.134"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-26/07_manchas-de-brushfield__nelson_p519.jpg"
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La cardiopatía congénita aparece en cerca del {{c1::50%}} de los niños con Down.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Comorbilidades",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La cardiopatía más característica del Down es el {{c1::canal auriculoventricular}}.",
+      "extra": "Soplo holosistólico (CIV) con S2 desdoblado (CIA).",
+      "origen": "clase:8",
+      "fuente": "Clase · Comorbilidades",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Todo recién nacido con sospecha de Down necesita {{c1::ecocardiograma}}, aunque no haya soplo.",
+      "extra": "La cardiopatía puede ser silente y causar hipertensión pulmonar precoz.",
+      "origen": "clase:8",
+      "fuente": "Clase · Comorbilidades",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Vómito bilioso y signo de la {{c1::doble burbuja}} en un RN con Down: atresia duodenal (cirugía).",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Comorbilidades",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tamizaje de hipotiroidismo en Down: TSH al nacer, a los {{c1::6 y 12 meses}}, luego anual.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Comorbilidades",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Otras comorbilidades digestivas del Down: enfermedad de {{c1::Hirschsprung}} y celiaquía.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Comorbilidades",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Turner es la monosomía {{c1::45,X}}: niña con talla baja, cuello alado y linfedema al nacer.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Turner",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.132"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-26/10_linfedema-mano-turner__nelson_p995.jpg"
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niña con talla baja inexplicada, cuello alado y sin desarrollo puberal: se continúa con {{c1::cariograma}}.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz Turner",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.132"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Klinefelter ({{c1::47,XXY}}): varón alto, testículos pequeños, ginecomastia e infertilidad.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Klinefelter",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.132"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Marfán es autosómico dominante por mutación del gen de la {{c1::fibrilina (FBN1)}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Marfán",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.132"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Marfán: talla alta, aracnodactilia, hiperlaxitud, {{c1::luxación del cristalino}} y raíz aórtica dilatada.",
+      "extra": "Riesgo de insuficiencia aórtica, disección y muerte súbita.",
+      "origen": "clase:11",
+      "fuente": "Clase · Marfán",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.132"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-26/11_signo-de-la-muneca-marfan__nelson_p5613.jpg",
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 76"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Marfán: se diagnostica con criterios de {{c1::Ghent}}, y se piden ecocardiograma y evaluación oftalmológica.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Marfán",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.132"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 76"
+      ]
+    },
+    {
+      "id": "c36",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Manejo del Marfán con dilatación aórtica: restringir ejercicio isométrico intenso y dar {{c1::betabloqueador o losartán}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Marfán",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.132"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-26/06_sindrome-down-facies__nelson_p519.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Síndrome de Down (trisomía 21)",
+      "clave": "Fisuras palpebrales oblicuas hacia arriba, epicanto y puente nasal plano",
+      "conducta": "Cariograma, ecocardiograma a todos, TSH, audición y visión",
+      "fuente": "Nelson Textbook of Pediatrics 22.ª ed., Fig. 57.5E",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-26/07_manchas-de-brushfield__nelson_p519.jpg",
+      "pregunta": "¿Qué muestra y a qué se asocia?",
+      "diagnostico": "Manchas de Brushfield (síndrome de Down)",
+      "clave": "Puntos claros en el borde del iris",
+      "conducta": "Confirmar con cariograma y estudiar comorbilidades",
+      "fuente": "Nelson Textbook of Pediatrics 22.ª ed., Fig. 57.5A",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-26/11_signo-de-la-muneca-marfan__nelson_p5613.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Síndrome de Marfán",
+      "clave": "Signo de la muñeca: el pulgar y el quinto dedo se superponen alrededor de la muñeca",
+      "conducta": "Ecocardiograma y oftalmología; criterios de Ghent",
+      "fuente": "Nelson Textbook of Pediatrics 22.ª ed., Fig. 743.1",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.132"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "RN con Down y vómitos biliosos: ¿qué sospechas?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Cariograma con translocación: ¿a quién estudias?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1",
+      "pista": "Niña con talla baja y cuello alado: ¿qué estudio?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.3",
+      "pista": "Varias anomalías sin síndrome claro: ¿qué estudio y derivación?"
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "classId": "ob-05",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "HTA en el embarazo: PAS ≥ {{c1::140}} y/o PAD ≥ {{c2::90 mmHg}}, confirmada en dos tomas separadas por 4 horas.",
+      "extra": "Una toma ≥ 160/110 se confirma en 15 minutos.",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Qué tipo de hipertensión es?",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.011"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La semana {{c1::20}} separa la HTA crónica de la gestacional y de la preeclampsia.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.011"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "HTA crónica: presente antes del embarazo o diagnosticada antes de la semana {{c1::20}}, o que persiste más de {{c2::12 semanas}} postparto.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clasificación",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.011"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "HTA gestacional: HTA desde la semana 20, {{c1::sin proteinuria}} ni daño de órgano blanco; se normaliza antes de 12 semanas postparto.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clasificación",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.011"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Proteinuria significativa de preeclampsia: ≥ {{c1::300 mg}} en orina de 24 horas o IPC ≥ {{c2::0,3}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · ¿Cómo confirmas cada categoría?",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.012"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 173"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sin proteinuria, igual se diagnostica preeclampsia si hay {{c1::daño de órgano blanco}} (plaquetas, transaminasas, creatinina, edema pulmonar, síntomas visuales o cerebrales, RCF).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Preeclampsia",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.012"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Daño de órgano que define preeclampsia sin proteinuria: plaquetas < {{c1::100.000}}, creatinina > {{c2::1,1 mg/dL}} o duplicación de transaminasas.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Preeclampsia",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.012"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Preeclampsia sobreagregada: HTA crónica previa con aparición brusca de {{c1::proteinuria}}, alza tensional o disfunción orgánica después de la semana 20.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clasificación",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.011"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "PA alta con proteinuria de 280 mg: no es preeclampsia, pero se trata con {{c1::antihipertensivo oral}} (metildopa).",
+      "extra": "El error es diagnosticar preeclampsia igual.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Julio 2018 P10",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.011"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2018 · Pregunta 10"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PA ≥ 140/90 después de la semana 20 en una asintomática: el examen que decide es la {{c1::proteinuria de 24 horas}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Diciembre 2025 P173",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.011"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 173"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sin criterios de severidad la preeclampsia tiene PA {{c1::140–159 / 90–109}} mmHg, sin síntomas ni daño de órgano.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Preeclampsia sin severidad",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.011"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Preeclampsia sin severidad: ingreso a {{c1::ARO}} con hemograma, función hepática, creatinina, ácido úrico, proteinuria, ecografía y Doppler.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Vigilar y programar el parto",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.011"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Preeclampsia sin severidad estable: interrupción programada a las {{c1::37 semanas}}.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.011"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 100"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Preeclampsia sin severidad estable: el error es {{c1::esperar a que aparezcan síntomas}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.011"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "HTA gestacional sin proteinuria: parto a las {{c1::38 a 39 semanas}}.",
+      "extra": "El error es interrumpir antes, como si fuera preeclampsia.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.011"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antihipertensivo de elección en el embarazo: {{c1::labetalol}} oral, 100–400 mg cada 8–12 horas.",
+      "extra": "Acción combinada alfa y betabloqueadora.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Antihipertensivos",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.011"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Metildopa en el embarazo: {{c1::250–500 mg cada 8 horas}} (máx. 2 g/día); seguro pero de inicio lento y sedante.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Antihipertensivos",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.011"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Nifedipino oral de acción retardada en el embarazo: {{c1::10–20 mg cada 12 horas}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Antihipertensivos",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.011"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 141"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antihipertensivos orales seguros en el embarazo: {{c1::labetalol, metildopa y nifedipino}}.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.011"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Los {{c1::IECA y ARA-II}} (enalapril, losartán) están absolutamente contraindicados en todo el embarazo.",
+      "extra": "Causan disgenesia renal, anuria, oligohidramnios, hipoplasia pulmonar y muerte fetal.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Contraindicados",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.011"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "HTA crónica en tratamiento con enalapril: {{c1::suspenderlo}} y cambiar a labetalol o metildopa.",
+      "extra": "El error es mantener el mismo fármaco.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.011"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los diuréticos están contraindicados en el SHE porque reducen el volumen plasmático; solo se usan en {{c1::edema agudo de pulmón}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Contraindicados",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.011"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antecedente de preeclampsia severa previa: indicar {{c1::aspirina}} en dosis baja, idealmente antes de las 16 semanas.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Diciembre 2017 P155",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.011"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 155",
+        "EUNACOM Diciembre 2017 · Pregunta 154"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "HTA con dolor epigástrico, transaminasas elevadas y plaquetopenia después de la semana 20: {{c1::síndrome HELLP}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.011"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 50",
+        "EUNACOM Agosto 2021 · Pregunta 48",
+        "EUNACOM Diciembre 2022 · Pregunta 126"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Flujo plasmático renal en el embarazo aumenta {{c1::50–80%}} y la VFG cerca de {{c2::50%}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Función renal",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.005"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Creatinina normal en el embarazo: {{c1::0,4–0,8 mg/dL}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Función renal",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.005"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En una embarazada, una creatinina de {{c1::1,0 mg/dL}} ya es anormal: se estudia la función renal.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.005"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Urea normal en el embarazo: {{c1::8 a 10 mg/dL}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Función renal",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.005"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La dilatación fisiológica de uréteres, mayor a la {{c1::derecha}}, explica la mayor frecuencia de pielonefritis.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Función renal",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.005"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Proteinuria fisiológica del embarazo: hasta {{c1::300 mg}}/24 horas; la glucosuria es benigna.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Función renal",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.005"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Alteración gasométrica normal del embarazo: alcalosis {{c1::respiratoria}} crónica compensada (PCO2 cercana a 30 mmHg).",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Adaptaciones",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.005"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En preeclampsia, creatinina > {{c1::1,1 mg/dL}} o su duplicación es criterio de severidad.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Qué haces con una creatinina alta",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.005"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Enfermedad renal crónica con creatinina sobre {{c1::1,4 mg/dL}}: más riesgo de preeclampsia y pérdida de función renal; ARO con nefrología.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Qué haces con una creatinina alta",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.005"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "HTA antes de la semana 20: ¿qué diagnóstico y qué fármaco?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1.0",
+      "pista": "Desde la semana 20 sin proteinuria ni daño: ¿qué es y cuándo nace?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.1",
+      "pista": "Hipertensión con proteinuria sin severidad: ¿a qué semana se interrumpe?"
+    }
+  ]
+}

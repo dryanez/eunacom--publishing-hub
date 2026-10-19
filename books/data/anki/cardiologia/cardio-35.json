@@ -1,0 +1,597 @@
+{
+ "classId": "cardio-35",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La disección aórtica comienza con un desgarro de la {{c1::íntima}} que crea una falsa luz en la media.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Un desgarro de la íntima",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 98"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La disección se considera aguda en las primeras {{c1::2 semanas}}.",
+   "extra": "Subaguda hasta 3 meses y crónica después.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.002"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El principal factor de riesgo de la disección aórtica es la {{c1::HTA mal controlada}} (> 70% de los casos).",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Un desgarro de la íntima",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 12",
+    "EUNACOM Diciembre 2017 · Pregunta 12"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En un joven con disección se busca síndrome de {{c1::Marfan}}: talla alta, aracnodactilia, luxación del cristalino.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 76"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otros factores de disección: válvula bicúspide, coartación, cocaína y embarazo (tercer trimestre y {{c1::posparto}}).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 76"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El síndrome aórtico agudo incluye disección, hematoma intramural y úlcera aórtica {{c1::penetrante}}.",
+   "extra": "El angioTAC las distingue.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 143"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Stanford tipo A compromete la aorta {{c1::ascendente}}; es el tipo que decide cirugía.",
+   "extra": "Aunque el desgarro nazca en otro lugar.",
+   "origen": "clase:2",
+   "fuente": "Clase · Stanford A y B",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.002"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Stanford tipo B nace distal a la arteria {{c1::subclavia izquierda}} y compromete solo la aorta descendente.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Stanford A y B",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.002"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Stanford tipo A es cerca del {{c1::65%}} de las disecciones y el tipo B cerca del 35%.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Stanford A y B",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.002"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Disección tipo A sin cirugía: mortalidad de {{c1::1 a 2%}} por hora durante las primeras 48 horas.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Stanford A y B",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.002"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Complicaciones de la tipo A: taponamiento, insuficiencia aórtica masiva e infarto {{c1::inferior}} (coronaria derecha).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clasificación",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 16"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El dolor de la disección es súbito, desgarrante y de {{c1::máxima intensidad desde el inicio}}, a diferencia del infarto.",
+   "extra": "Puede migrar de tórax a dorso, abdomen y piernas.",
+   "origen": "clase:3",
+   "fuente": "Clase · El dolor y los signos de órgano",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 98",
+    "EUNACOM Diciembre 2019 · Pregunta 12",
+    "EUNACOM Agosto 2021 · Pregunta 144",
+    "EUNACOM Diciembre 2017 · Pregunta 12"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tipo A suele dar dolor anterior; la tipo B, dolor {{c1::interescapular o lumbar}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Presentación",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.002"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Clave diagnóstica: diferencia de presión entre ambos brazos > {{c1::20 mmHg}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · El dolor y los signos de órgano",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 22"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un soplo diastólico nuevo de {{c1::insuficiencia aórtica}} con dolor torácico sugiere disección tipo A.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · El dolor y los signos de órgano",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 37"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Soplo diastólico nuevo con dolor torácico: es disección tipo A; el error es pensar en {{c1::rotura de músculo papilar}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 37"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pulso radial izquierdo débil con llene capilar enlentecido y dolor irradiado al dorso sugiere {{c1::disección aórtica}}.",
+   "extra": "Isquemia de extremidad por malperfusión.",
+   "origen": "clase:3",
+   "fuente": "Clase · El dolor y los signos de órgano",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 157"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Manifestaciones por territorio: ACV (carótidas), síncope, isquemia mesentérica, renal y {{c1::paraplejia}} (arterias espinales).",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · El dolor y los signos de órgano",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.002"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hipotensión en una disección indica complicación grave: taponamiento, rotura o {{c1::insuficiencia aórtica aguda}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Presentación",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.002"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "ECG normal o inespecífico y troponina negativa con dolor intenso orientan más a {{c1::disección}} que a infarto.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Presentación",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.002"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con ADD-RS de 0 puntos y dímero D {{c1::negativo}} se descarta la disección.",
+   "extra": "Con 1 o más puntos se pide imagen.",
+   "origen": "clase:4",
+   "fuente": "Clase · Qué examen y cuándo",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.002"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El examen de elección en la disección es el {{c1::angioTAC de tórax, abdomen y pelvis}} con contraste.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Qué examen y cuándo",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.002",
+    "1.01.4.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 180",
+    "EUNACOM Julio 2019 · Pregunta 76",
+    "EUNACOM Enero 2023 · Pregunta 163"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El angioTAC de la disección tiene sensibilidad y especificidad mayores de {{c1::98%}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Qué examen y cuándo",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.002",
+    "1.01.4.002"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si el paciente está inestable, el examen es el ecocardiograma {{c1::transesofágico}} en pabellón o a la cabecera.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Qué examen y cuándo",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.002"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En la radiografía de tórax el ensanchamiento mediastínico es > {{c1::8 cm}}; una radiografía normal no descarta disección.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Qué examen y cuándo",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.002"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Dolor que migra al abdomen con pulsos femorales disminuidos: se pide angioTAC de tórax y abdomen; el error es el {{c1::ecocardiograma transtorácico}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.002",
+    "1.01.4.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 163"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Ante sospecha de disección se pide angioTAC antes que {{c1::coronariografía}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Tratamiento inicial",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.002"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Meta hemodinámica en disección: FC < {{c1::60 lpm}} y PAS 100-120 mmHg en menos de 20 minutos.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Estabilizar y luego definir",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 22"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Primera línea absoluta en disección: betabloqueador EV, {{c1::labetalol o esmolol}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Estabilizar y luego definir",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 22"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la disección el vasodilatador (nitroprusiato) se agrega {{c1::después}} del betabloqueo; solo, la taquicardia refleja aumenta el dP/dt.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Tratamiento inicial",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.002"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En disección con presión alta, el error es dar solo {{c1::nitroprusiato o hidralazina}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.002"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Si hay contraindicación a betabloqueadores en disección (asma grave, bloqueo AV) se usan {{c1::verapamilo o diltiazem}} EV.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Tratamiento inicial",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.002"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Ante sospecha de disección están contraindicados aspirina, heparina y {{c1::fibrinolíticos}}.",
+   "extra": "Causan hemorragia intrapericárdica.",
+   "origen": "clase:6",
+   "fuente": "Clase · Estabilizar y luego definir",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 16",
+    "EUNACOM Agosto 2021 · Pregunta 144"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antes de confirmar la sospecha fundada se da analgesia EV con {{c1::morfina}}: el dolor mantiene la descarga adrenérgica.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Tratamiento inicial",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.002"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Stanford A: {{c1::cirugía de emergencia}} con reemplazo de la aorta ascendente.",
+   "extra": "Aun con ACV o isquemia de órganos.",
+   "origen": "clase:6",
+   "fuente": "Clase · Estabilizar y luego definir",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.002"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Disección tipo A tratada solo con manejo médico es el error; la tipo B no complicada va a {{c1::UCI con manejo médico}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 22"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Stanford B no complicada: manejo médico en UCI; {{c1::TEVAR}} (endoprótesis) si hay complicaciones.",
+   "extra": "Dolor refractario, rotura, malperfusión, crecimiento rápido.",
+   "origen": "clase:6",
+   "fuente": "Clase · Estabilizar y luego definir",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.002"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tras el alta de una disección la PA objetivo es < {{c1::130/80 mmHg}} con betabloqueador como pilar.",
+   "extra": "Control con angioTAC o RM al mes, 6 y 12 meses.",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Tratamiento definitivo",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.002"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-35/01_diseccion-aortica-stanford-debakey__schwartz-absite_f22-1.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Disección aórtica Stanford A (aorta ascendente comprometida)",
+   "clave": "Falsa luz en la media con la aorta ascendente disecada",
+   "conducta": "Labetalol o esmolol EV y cirugía de emergencia",
+   "fuente": "Schwartz's Principles of Surgery ABSITE, 11.ª ed., Fig. 22-1",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.002"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Sospecha alta de disección: ¿qué se hace de inmediato?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0.0",
+   "pista": "Stanford tipo A: ¿qué conducta?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.1",
+   "pista": "Stanford tipo B: ¿qué conducta?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1",
+   "pista": "Disección inestable: ¿qué examen y a dónde?"
+  }
+ ]
+}

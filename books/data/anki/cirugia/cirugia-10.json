@@ -1,0 +1,633 @@
+{
+ "classId": "cirugia-10",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El neumotórax a tensión se forma por un mecanismo de {{c1::válvula unidireccional}}: el aire entra al inspirar y no sale al espirar.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Neumotórax a tensión",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.016",
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El neumotórax a tensión causa shock {{c1::obstructivo}} por colapso del retorno venoso, con desviación traqueal contralateral.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Neumotórax a tensión",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.016",
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neumotórax a tensión: murmullo abolido, {{c1::timpanismo}}, yugulares {{c2::ingurgitadas}} y tráquea desviada al lado contrario.",
+   "extra": "Disnea, hipotensión y taquicardia severas.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Neumotórax a tensión",
+   "repaso": true,
+   "imagen": "biblioteca/10_cirugia/cirugia-10/03_neumotorax-a-tension__cto-cirugia_p71.jpg",
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 123"
+   ],
+   "codigos": [
+    "4.01.2.016",
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El diagnóstico del neumotórax a tensión es {{c1::clínico}}: está prohibido esperar una radiografía.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Neumotórax a tensión",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.016",
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Descompresión con catéter de {{c1::14 o 16G}} en el 5° espacio intercostal línea axilar anterior.",
+   "extra": "ATLS 10.ª acepta también el 2° EIC línea medioclavicular.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Neumotórax a tensión",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 71"
+   ],
+   "codigos": [
+    "4.01.2.016",
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La descompresión con aguja se sigue siempre de un {{c1::tubo pleural}} como drenaje definitivo.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.016",
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El tubo pleural definitivo es una pleurostomía de {{c1::28-32 Fr}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Neumotórax a tensión",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.016",
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Intubar con presión positiva a un neumotórax a tensión sin descomprimir provoca paro en {{c1::AESP}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Neumotórax a tensión",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.016",
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neumotórax traumático en paciente estable, sin tensión: primero {{c1::radiografía de tórax}}.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Quiz Julio 2015",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 32"
+   ],
+   "codigos": [
+    "1.05.2.014"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el politraumatizado con desviación traqueal por neumotórax, la medida más urgente es la {{c1::pleurostomía}}.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Quiz Julio 2024",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 102",
+    "EUNACOM Diciembre 2024 · Pregunta 33"
+   ],
+   "codigos": [
+    "4.01.2.016"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hemotórax masivo: más de {{c1::1.500 mL}} de sangre en la pleura o más de un tercio de la volemia.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hemotórax masivo",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-10/02_hemotorax-derrame-rx__cto-neumo_p111.jpg",
+   "codigos": [
+    "4.01.2.016"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hemotórax masivo también se define por débito continuo > {{c1::200 mL/hora}} durante 2 a 4 horas por el tubo.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hemotórax masivo",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.016"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hemotórax masivo: percusión con {{c1::matidez}} y yugulares {{c2::planas}} por hipovolemia.",
+   "extra": "Al revés que el neumotórax a tensión.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hemotórax masivo",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.016"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las fuentes habituales de hemotórax masivo son vasos sistémicos como arterias mamarias internas, {{c1::intercostales}} o grandes vasos.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hemotórax masivo",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.016"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hemotórax masivo: {{c1::tubo pleural grueso}} (28-32 Fr) y transfusión 1:1:1 en paralelo.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hemotórax masivo",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.016",
+    "4.01.5.026"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Toracotomía de urgencia si el débito inicial es ≥ {{c1::1.500 mL}} o persiste > 200 mL/hora por 2-4 horas.",
+   "extra": "Pinzar el tubo es un error.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hemotórax masivo",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.016",
+    "4.01.5.026"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El tórax volante es la fractura de {{c1::3 o más}} costillas consecutivas en {{c2::2 o más}} sitios.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tórax volante",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-10/01_torax_volante__atls_p127.jpg",
+   "codigos": [
+    "4.01.2.016"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el tórax volante, el segmento se hunde al inspirar y protruye al espirar: movimiento {{c1::paradójico}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tórax volante",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.016"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La causa primaria de la hipoxemia en el tórax volante es la {{c1::contusión pulmonar}} subyacente, no el movimiento paradójico.",
+   "extra": "Hemorragia alveolar, edema y shunt.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tórax volante",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.016"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En tórax volante y contusión pulmonar: oxígeno, {{c1::analgesia potente}} (epidural o paravertebral) y fluidos restringidos.",
+   "extra": "La sobrecarga inunda el pulmón contundido.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tórax volante",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.016"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se intuba si PaO2 < {{c1::60 mmHg}} con FiO2 0.5 o hay fatiga muscular; se usa PEEP.",
+   "extra": "Meta de SatO2 > 92%.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tórax volante",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.016"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tríada de Beck: hipotensión, ruidos cardíacos {{c1::apagados}} e ingurgitación {{c2::yugular}}.",
+   "extra": "Murmullo pulmonar normal y tráquea centrada.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Taponamiento",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 3",
+    "EUNACOM Julio 2024 · Pregunta 136"
+   ],
+   "codigos": [
+    "4.01.2.016",
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El pulso paradójico es una caída de la PAS > {{c1::10 mmHg}} en la inspiración espontánea.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Taponamiento",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.016",
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El taponamiento cardíaco se confirma con {{c1::Eco-FAST subxifoideo}} y se trata con ventana pericárdica o toracotomía.",
+   "extra": "La pericardiocentesis es solo rescate.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Taponamiento",
+   "repaso": true,
+   "imagen": "biblioteca/10_cirugia/cirugia-10/04_taponamiento-eco-fast__pocketus_p146.jpg",
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 158"
+   ],
+   "codigos": [
+    "4.01.2.016",
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El área precordial de {{c1::Zidler}} es la zona donde una herida penetrante sugiere taponamiento cardíaco.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Taponamiento",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.016",
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El neumotórax abierto (herida soplante) se cubre con un parche oclusivo sellado en {{c1::tres lados}}.",
+   "extra": "Funciona como válvula de escape.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Neumotórax abierto",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.016"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Sellar los cuatro lados de la herida sin tubo pleural previo provoca un {{c1::neumotórax a tensión}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Neumotórax abierto",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.016"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hay neumotórax abierto cuando el defecto parietal es mayor a {{c1::dos tercios}} del diámetro traqueal.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Neumotórax abierto",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.016"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fractura costal aislada sin complicaciones se maneja de forma {{c1::ambulatoria}} con analgesia multimodal y kinesiterapia.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Trauma simple",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.014"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En trauma torácico simple, el vendaje {{c1::compresivo}} está contraindicado: favorece atelectasia y neumonía.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Trauma simple",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.014"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se hospitaliza con ≥ 3 costillas fracturadas, > {{c1::65 años}}, EPOC, anticoagulación, saturación baja o dolor no controlado.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Trauma simple",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.014"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Una fractura de costillas 9 a 12 obliga a buscar lesión {{c1::hepática, esplénica o renal}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Trauma simple",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.014"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tubo pleural se instala en el {{c1::triángulo de seguridad}}: 4°-5° espacio intercostal, línea axilar anterior a media.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Pleurostomía",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.026"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tubo se pasa por el borde {{c1::superior}} de la costilla inferior para evitar el paquete vasculonervioso.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Pleurostomía",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.026"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tubo se dirige al vértice en el {{c1::neumotórax}} y a la base y atrás en el {{c2::hemotórax}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Pleurostomía",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.026"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El tubo pleural se retira cuando no hay fuga, el pulmón está expandido y el débito es < {{c1::100-200 mL}} al día.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Pleurostomía",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.026"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Taponamiento cardíaco: sonoridad pulmonar y murmullo {{c1::normales}}, a diferencia del neumotórax y el hemotórax.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.016"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Herida cervical supraclavicular izquierda con derrame pleural días después: {{c1::quilotórax}}.",
+   "extra": "El conducto torácico está en el lado izquierdo.",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul 2013",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 52"
+   ],
+   "codigos": [
+    "4.01.2.016",
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-10/03_neumotorax-a-tension__cto-cirugia_p71.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Neumotórax a tensión",
+   "clave": "Pulmón colapsado con desplazamiento del mediastino",
+   "conducta": "Descompresión inmediata con aguja gruesa sin esperar radiografía y luego tubo pleural",
+   "fuente": "Manual CTO Cirugía 14.ª ed., p. 71",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 123"
+   ],
+   "codigos": [
+    "4.01.2.016",
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-10/04_taponamiento-eco-fast__pocketus_p146.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Derrame pericárdico en eco FAST",
+   "clave": "Colección anecoica alrededor del corazón en la ventana subxifoidea",
+   "conducta": "Taponamiento: pabellón para ventana pericárdica o toracotomía",
+   "fuente": "Pocket Atlas of Emergency Ultrasound (Reardon, Ma), p. 146",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 3"
+   ],
+   "codigos": [
+    "4.01.2.016",
+    "1.01.2.008"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-10/02_hemotorax-derrame-rx__cto-neumo_p111.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Hemotórax",
+   "clave": "Opacidad del hemitórax con matidez y yugulares planas",
+   "conducta": "Tubo pleural grueso, transfusión 1:1:1 y toracotomía si el débito es ≥ 1.500 mL",
+   "fuente": "Manual CTO Neumología 14.ª ed., p. 111",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.016",
+    "4.01.5.026"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Timpanismo, yugulares altas, tráquea desviada: ¿conducta?",
+   "codigos": [
+    "4.01.2.016",
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "Débito pleural inicial > 1.500 mL: ¿qué procedimiento?",
+   "codigos": [
+    "4.01.2.016",
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.2",
+   "pista": "Murmullo normal con tríada de Beck: ¿diagnóstico y examen?",
+   "codigos": [
+    "4.01.2.016",
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.3",
+   "pista": "Tórax volante: ¿cómo se maneja?",
+   "codigos": [
+    "4.01.2.016",
+    "1.05.2.011"
+   ]
+  }
+ ]
+}

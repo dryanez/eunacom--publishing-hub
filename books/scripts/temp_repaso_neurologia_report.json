@@ -1,0 +1,789 @@
+{
+ "report": {
+  "topics": {
+   "T10.1": {
+    "steps": 4,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 320,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T10.2": {
+    "steps": 21,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 230,
+    "traps": 2,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T10.3": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T10.4": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T10.5": {
+    "steps": 6,
+    "split": false,
+    "algo": {
+     "scale": 0.87,
+     "orient": "lr"
+    },
+    "algoH": 300,
+    "traps": 0,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T10.6": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T10.7": {
+    "steps": 21,
+    "split": false,
+    "algo": {
+     "scale": 0.83,
+     "orient": "lr"
+    },
+    "algoH": 250,
+    "traps": 2,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T10.8": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 420,
+    "traps": 3,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T10.9": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 0.87,
+     "orient": "lr"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T10.10": {
+    "steps": 25,
+    "split": false,
+    "algo": {
+     "scale": 0.87,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 200,
+    "traps": 1,
+    "ask": 4,
+    "tight": true,
+    "overflow": false
+   },
+   "T10.11": {
+    "steps": 3,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T10.12": {
+    "steps": 24,
+    "split": false,
+    "algo": {
+     "scale": 0.83,
+     "orient": "lr"
+    },
+    "algoH": 200,
+    "traps": 1,
+    "ask": 4,
+    "tight": true,
+    "overflow": false
+   },
+   "T10.13": {
+    "steps": 23,
+    "split": false,
+    "algo": {
+     "scale": 0.84,
+     "orient": "lr"
+    },
+    "algoH": 220,
+    "traps": 1,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T10.14": {
+    "steps": 5,
+    "split": true,
+    "algo": {
+     "scale": 0.75,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 270,
+    "traps": 4,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T10.15": {
+    "steps": 24,
+    "split": false,
+    "algo": {
+     "scale": 0.89,
+     "orient": "lr"
+    },
+    "algoH": 240,
+    "traps": 1,
+    "ask": 4,
+    "tight": true,
+    "overflow": false
+   },
+   "T10.16": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 0.87,
+     "orient": "lr"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T10.17": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T10.18": {
+    "steps": 4,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 300,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T10.19": {
+    "steps": 24,
+    "split": false,
+    "algo": {
+     "scale": 0.88,
+     "orient": "lr"
+    },
+    "algoH": 200,
+    "traps": 1,
+    "ask": 4,
+    "tight": true,
+    "overflow": false
+   },
+   "T10.20": {
+    "steps": 25,
+    "split": false,
+    "algo": {
+     "scale": 0.82,
+     "orient": "lr"
+    },
+    "algoH": 200,
+    "traps": 1,
+    "ask": 4,
+    "tight": true,
+    "overflow": false
+   },
+   "T10.21": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 360,
+    "traps": 3,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T10.22": {
+    "steps": 24,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 200,
+    "traps": 1,
+    "ask": 4,
+    "tight": true,
+    "overflow": false
+   },
+   "T10.23": {
+    "steps": 26,
+    "split": false,
+    "algo": {
+     "scale": 0.85,
+     "orient": "lr"
+    },
+    "algoH": 260,
+    "traps": 0,
+    "ask": 4,
+    "tight": true,
+    "overflow": false
+   },
+   "T10.24": {
+    "steps": 23,
+    "split": false,
+    "algo": {
+     "scale": 0.85,
+     "orient": "lr"
+    },
+    "algoH": 260,
+    "traps": 1,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T10.25": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T10.26": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 360,
+    "traps": 0,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   }
+  },
+  "warnings": [
+   "T10.14: algoritmo al 75 %"
+  ],
+  "pages": 52,
+  "where": {
+   "COVER": 1,
+   "IDX": 2,
+   "T10.1": 4,
+   "T10.2": 6,
+   "T10.3": 7,
+   "T10.4": 9,
+   "T10.5": 11,
+   "T10.6": 12,
+   "T10.7": 14,
+   "T10.8": 15,
+   "T10.9": 17,
+   "T10.10": 19,
+   "T10.11": 20,
+   "T10.12": 22,
+   "T10.13": 23,
+   "T10.14": 24,
+   "T10.15": 26,
+   "T10.16": 27,
+   "T10.17": 29,
+   "T10.18": 31,
+   "T10.19": 33,
+   "T10.20": 34,
+   "T10.21": 35,
+   "T10.22": 37,
+   "T10.23": 38,
+   "T10.24": 39,
+   "T10.25": 40,
+   "T10.26": 42,
+   "NUM": 44,
+   "DRUG": 47,
+   "GES": 48,
+   "PLAN": 51,
+   "PRIO": 52
+  }
+ },
+ "stars": [
+  {
+   "t": "10.1",
+   "real": 14,
+   "stars": 3,
+   "lg": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    37
+   ]
+  },
+  {
+   "t": "10.2",
+   "real": 15,
+   "stars": 3,
+   "lg": [
+    9,
+    10
+   ]
+  },
+  {
+   "t": "10.3",
+   "real": 14,
+   "stars": 3,
+   "lg": [
+    1,
+    11,
+    12,
+    13,
+    14,
+    15
+   ]
+  },
+  {
+   "t": "10.4",
+   "real": 4,
+   "stars": 2,
+   "lg": [
+    16,
+    17
+   ]
+  },
+  {
+   "t": "10.5",
+   "real": 15,
+   "stars": 3,
+   "lg": [
+    18
+   ]
+  },
+  {
+   "t": "10.6",
+   "real": 4,
+   "stars": 2,
+   "lg": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+   ]
+  },
+  {
+   "t": "10.7",
+   "real": 3,
+   "stars": 1,
+   "lg": [
+    31,
+    32
+   ]
+  },
+  {
+   "t": "10.8",
+   "real": 4,
+   "stars": 2,
+   "lg": [
+    33,
+    34
+   ]
+  },
+  {
+   "t": "10.9",
+   "real": 0,
+   "stars": 1,
+   "lg": [
+    20,
+    35,
+    36
+   ]
+  },
+  {
+   "t": "10.10",
+   "real": 5,
+   "stars": 2,
+   "lg": [
+    21
+   ]
+  },
+  {
+   "t": "10.11",
+   "real": 8,
+   "stars": 3,
+   "lg": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45
+   ]
+  },
+  {
+   "t": "10.12",
+   "real": 5,
+   "stars": 2,
+   "lg": [
+    46,
+    47
+   ]
+  },
+  {
+   "t": "10.13",
+   "real": 3,
+   "stars": 1,
+   "lg": [
+    48,
+    49,
+    50,
+    51
+   ]
+  },
+  {
+   "t": "10.14",
+   "real": 12,
+   "stars": 3,
+   "lg": [
+    52,
+    53,
+    54
+   ]
+  },
+  {
+   "t": "10.15",
+   "real": 6,
+   "stars": 2,
+   "lg": []
+  },
+  {
+   "t": "10.16",
+   "real": 14,
+   "stars": 3,
+   "lg": [
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+   ]
+  },
+  {
+   "t": "10.17",
+   "real": 5,
+   "stars": 2,
+   "lg": [
+    64,
+    65,
+    66,
+    67
+   ]
+  },
+  {
+   "t": "10.18",
+   "real": 2,
+   "stars": 1,
+   "lg": [
+    68
+   ]
+  },
+  {
+   "t": "10.19",
+   "real": 6,
+   "stars": 2,
+   "lg": [
+    69,
+    70,
+    71
+   ]
+  },
+  {
+   "t": "10.20",
+   "real": 4,
+   "stars": 2,
+   "lg": [
+    72
+   ]
+  },
+  {
+   "t": "10.21",
+   "real": 13,
+   "stars": 3,
+   "lg": [
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ]
+  },
+  {
+   "t": "10.22",
+   "real": 4,
+   "stars": 2,
+   "lg": [
+    81,
+    82,
+    83,
+    84
+   ]
+  },
+  {
+   "t": "10.23",
+   "real": 1,
+   "stars": 1,
+   "lg": [
+    85,
+    86,
+    87
+   ]
+  },
+  {
+   "t": "10.24",
+   "real": 8,
+   "stars": 3,
+   "lg": [
+    88,
+    89,
+    90
+   ]
+  },
+  {
+   "t": "10.25",
+   "real": 0,
+   "stars": 1,
+   "lg": []
+  },
+  {
+   "t": "10.26",
+   "real": 1,
+   "stars": 1,
+   "lg": []
+  }
+ ],
+ "lg": {
+  "name": "Neurología",
+  "file": "Libro_Gordo_Neurologia_90Q.pdf",
+  "unassigned": [
+   2,
+   19,
+   38,
+   39,
+   55,
+   56,
+   57,
+   73,
+   74
+  ],
+  "byLabel": 77,
+  "byCode": 4,
+  "total": 90,
+  "wordInfo": [
+   {
+    "n": 2,
+    "sug": "10.10 Primera Crisis Convulsiva del Adulto y Diagnóstico",
+    "title": "Traumatismo encefalocraneano grave",
+    "code": "1.10.2.021",
+    "stem": "Un adolescente de 17 años sufre un accidente de tránsito, en bicicleta, con golpe en la cabeza. Inicialmente e"
+   },
+   {
+    "n": 19,
+    "sug": "10.10 Primera Crisis Convulsiva del Adulto y Diagnóstico",
+    "title": "urémico, etc)",
+    "code": "1.10.2.016",
+    "stem": "[URGENCIA: urémico, etc) · 1.10.2.016] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/"
+   },
+   {
+    "n": 38,
+    "sug": "10.10 Primera Crisis Convulsiva del Adulto y Diagnóstico",
+    "title": "Tumores de región sellar",
+    "code": "1.10.1.028",
+    "stem": "Una mujer de 55 años consulta por cefalea progresiva, de localización interciliar y occipital, asociada a alte"
+   },
+   {
+    "n": 39,
+    "sug": "10.10 Primera Crisis Convulsiva del Adulto y Diagnóstico",
+    "title": "Tumores primarios y metastásicos SNC",
+    "code": "1.10.1.029",
+    "stem": "Un niño de 6 años presenta múltiples en el tronco, que se muestran en la imagen. Su padre tiene lesiones simil"
+   },
+   {
+    "n": 55,
+    "sug": "10.19 Parálisis Facial Periférica (Bell) vs Central y Ne",
+    "title": "Herpes zoster",
+    "code": "1.10.1.009",
+    "stem": "Una mujer de 64 años consulta por dolor intercostal intenso de 3 semanas de evolución, que fue antecedido por "
+   },
+   {
+    "n": 56,
+    "sug": "10.20 Síndrome Vertiginoso Periférico vs Central: VPPB, ",
+    "title": "Lumbago mecánico",
+    "code": "1.10.1.010",
+    "stem": "[ATENCIÓN PRIMARIA: Lumbago mecánico · 1.10.1.010] Paciente de 52 años es evaluado en control médico en Atenci"
+   },
+   {
+    "n": 73,
+    "sug": "10.1 Accidente Cerebrovascular Isquémico: Diagnóstico, ",
+    "title": "Compromiso de conciencia",
+    "code": "1.10.1.002",
+    "stem": "[ATENCIÓN PRIMARIA: Compromiso de conciencia · 1.10.1.002] Paciente de 52 años es evaluado en control médico e"
+   },
+   {
+    "n": 74,
+    "sug": "10.21 Síndrome Confusional Agudo (Delirium): Criterios C",
+    "title": "Encefalopatías tóxico metabólicas (urémica, hepática, etc)",
+    "code": "1.10.2.006",
+    "stem": "Una paciente de 20 años es encontrada inconsciente en el baño por sus familiares, con el piloto del calefont a"
+   }
+  ],
+  "unassignedInfo": [
+   {
+    "n": 2,
+    "title": "Traumatismo encefalocraneano grave",
+    "code": "1.10.2.021",
+    "stem": "Un adolescente de 17 años sufre un accidente de tránsito, en bicicleta, con golpe en la cabeza. Inicialmente está sin signos neurológicos focales, con escala de Glasgow de 15. Se solicita una radiografía de cráneo que muestra una "
+   },
+   {
+    "n": 19,
+    "title": "urémico, etc)",
+    "code": "1.10.2.016",
+    "stem": "[URGENCIA: urémico, etc) · 1.10.2.016] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/Hospital) con signos cardinales de urémico, etc). Al examen físico destaca compromiso hemodinámico/respiratorio agudo. D"
+   },
+   {
+    "n": 38,
+    "title": "Tumores de región sellar",
+    "code": "1.10.1.028",
+    "stem": "Una mujer de 55 años consulta por cefalea progresiva, de localización interciliar y occipital, asociada a alteraciones visuales. Al examen físico, tiene hemianopsia heterónima, sin alteraciones motoras ni de la sensibilidad. ¿En q"
+   },
+   {
+    "n": 39,
+    "title": "Tumores primarios y metastásicos SNC",
+    "code": "1.10.1.029",
+    "stem": "Un niño de 6 años presenta múltiples en el tronco, que se muestran en la imagen. Su padre tiene lesiones similares. INSERTAR FOTO El diagnóstico más probable es:"
+   },
+   {
+    "n": 55,
+    "title": "Herpes zoster",
+    "code": "1.10.1.009",
+    "stem": "Una mujer de 64 años consulta por dolor intercostal intenso de 3 semanas de evolución, que fue antecedido por la aparición de lesiones vesiculares en esa zona. En el examen físico se observa curación de las lesiones, algunas de la"
+   },
+   {
+    "n": 56,
+    "title": "Lumbago mecánico",
+    "code": "1.10.1.010",
+    "stem": "[ATENCIÓN PRIMARIA: Lumbago mecánico · 1.10.1.010] Paciente de 52 años es evaluado en control médico en Atención Primaria de Salud (CESFAM) presentando antecedentes y cuadro clínico compatible con Lumbago mecánico. El paciente se "
+   },
+   {
+    "n": 57,
+    "title": "Lumbociáticas y cervicobraquialgias.",
+    "code": "1.10.1.011",
+    "stem": "[ATENCIÓN PRIMARIA: Lumbociáticas y cervicobraquialgias. · 1.10.1.011] Paciente de 52 años es evaluado en control médico en Atención Primaria de Salud (CESFAM) presentando antecedentes y cuadro clínico compatible con Lumbociáticas"
+   },
+   {
+    "n": 73,
+    "title": "Compromiso de conciencia",
+    "code": "1.10.1.002",
+    "stem": "[ATENCIÓN PRIMARIA: Compromiso de conciencia · 1.10.1.002] Paciente de 52 años es evaluado en control médico en Atención Primaria de Salud (CESFAM) presentando antecedentes y cuadro clínico compatible con Compromiso de conciencia."
+   },
+   {
+    "n": 74,
+    "title": "Encefalopatías tóxico metabólicas (urémica, hepática, etc)",
+    "code": "1.10.2.006",
+    "stem": "Una paciente de 20 años es encontrada inconsciente en el baño por sus familiares, con el piloto del calefont apagado, por lo que es llevada al servicio de urgencia de inmediato, recuperándose parcialmente en el camino. Al examen f"
+   }
+  ]
+ },
+ "stats": {
+  "numbers": 60,
+  "drugs": 38,
+  "ges": 14
+ }
+}

@@ -1,0 +1,1227 @@
+{
+ "_doc": "Glosario clicable del mazo Anki (popover en el reverso). 'def' se escribe a mano desde el libro (sin cifras nuevas) y se conserva al regenerar; pagina/clase/t/url los recalcula conceptos.py. Términos y alias: books/scripts/anki/vocab_*.txt.",
+ "libro": "psiquiatria",
+ "pdf": "books/dist/Modulo_2_Cirugia/Tomo_17_Psiquiatria_Completo_2026.pdf",
+ "terminos": {
+  "Trastorno_depresivo_mayor": {
+   "termino": "Trastorno depresivo mayor",
+   "tipo": "Concepto",
+   "alias": [
+    "trastorno depresivo mayor",
+    "depresión mayor",
+    "episodio depresivo"
+   ],
+   "def": "Al menos 5 de 9 criterios DSM-5 por ≥ 2 semanas, con ánimo deprimido o anhedonia obligatorio. Puede ser psicótico, con delirios congruentes con el ánimo o alucinaciones auditivas.",
+   "pagina": 5,
+   "clase": "psiq-01",
+   "claseTitulo": "17.1 Trastorno Depresivo Mayor: Criterios DSM-5, Escalas, ISRS y Guía GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 12
+  },
+  "Trastorno_bipolar": {
+   "termino": "Trastorno bipolar",
+   "tipo": "Concepto",
+   "alias": [
+    "trastorno bipolar",
+    "bipolar I",
+    "bipolar II",
+    "bipolaridad"
+   ],
+   "def": "Un solo episodio maníaco define Bipolar I, nunca Bipolar II. El carbonato de litio es el estándar de oro en profilaxis y el único fármaco con efecto antisuicida comprobado e independiente.",
+   "pagina": 10,
+   "clase": "psiq-02",
+   "claseTitulo": "17.2 Trastorno Bipolar I y II: Manía vs Hipomanía, Estabilizadores (Litio/Valproato) y Guía GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 2
+  },
+  "Mania": {
+   "termino": "Manía",
+   "tipo": "Concepto",
+   "alias": [
+    "manía",
+    "episodio maníaco",
+    "episodio de manía"
+   ],
+   "def": "Fase maníaca aguda, que es una emergencia médica. Se distingue de la hipomanía, que dura al menos 4 días consecutivos y nunca cursa con psicosis.",
+   "pagina": 10,
+   "clase": "psiq-02",
+   "claseTitulo": "17.2 Trastorno Bipolar I y II: Manía vs Hipomanía, Estabilizadores (Litio/Valproato) y Guía GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 12
+  },
+  "Hipomania": {
+   "termino": "Hipomanía",
+   "tipo": "Concepto",
+   "alias": [
+    "hipomanía",
+    "episodio hipomaníaco"
+   ],
+   "def": "Episodio de al menos 4 días, sin disfunción social ni laboral grave y que nunca cursa con psicosis. Parte del Trastorno Bipolar Tipo II, junto a un episodio depresivo mayor.",
+   "pagina": 10,
+   "clase": "psiq-02",
+   "claseTitulo": "17.2 Trastorno Bipolar I y II: Manía vs Hipomanía, Estabilizadores (Litio/Valproato) y Guía GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 5
+  },
+  "Riesgo_suicida": {
+   "termino": "Riesgo suicida",
+   "tipo": "Concepto",
+   "alias": [
+    "riesgo suicida",
+    "suicidio",
+    "ideación suicida",
+    "intento suicida"
+   ],
+   "def": "Evaluar siempre el riesgo suicida y la seguridad, preguntando por ideación activa. Es una de las primeras causas de muerte en el adolescente chileno; la línea de prevención es el *4141.",
+   "pagina": 14,
+   "clase": "psiq-03",
+   "claseTitulo": "17.3 Evaluación y Manejo del Riesgo Suicida: Factores de Riesgo e Indicación de Hospitalización",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 20
+  },
+  "Depresion_posparto": {
+   "termino": "Depresión posparto",
+   "tipo": "Concepto",
+   "alias": [
+    "depresión posparto",
+    "depresión postparto"
+   ],
+   "def": "Afecta al 10-15% de las puérperas. Se pesquisa con EPDS en APS; se trata con psicoterapia y, si es moderada a severa, con sertralina, fármaco de elección en lactancia.",
+   "pagina": 19,
+   "clase": "psiq-04",
+   "claseTitulo": "17.4 Depresión Posparto y Trastornos Afectivos Perinatales: Blues vs Depresión vs Psicosis Puerperal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 8
+  },
+  "Psicosis_puerperal": {
+   "termino": "Psicosis puerperal",
+   "tipo": "Concepto",
+   "alias": [
+    "psicosis puerperal",
+    "psicosis posparto"
+   ],
+   "def": "Emergencia psiquiátrica absoluta, con riesgo de infanticidio y suicidio: exige hospitalización inmediata con separación protegida. Se trata con antipsicóticos atípicos y estabilizador.",
+   "pagina": 19,
+   "clase": "psiq-04",
+   "claseTitulo": "17.4 Depresión Posparto y Trastornos Afectivos Perinatales: Blues vs Depresión vs Psicosis Puerperal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 5
+  },
+  "Distimia": {
+   "termino": "Distimia",
+   "tipo": "Concepto",
+   "alias": [
+    "distimia",
+    "trastorno depresivo persistente"
+   ],
+   "def": "Ánimo depresivo continuo por al menos 2 años en adultos (1 año en niños y adolescentes) sin cumplir TDM continuo. Tratamiento: ISRS a largo plazo más terapia cognitivo-conductual.",
+   "pagina": 22,
+   "clase": "psiq-05",
+   "claseTitulo": "17.5 Trastorno Depresivo Persistente (Distimia) y Trastorno Adaptativo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 7
+  },
+  "Trastorno_adaptativo": {
+   "termino": "Trastorno adaptativo",
+   "tipo": "Concepto",
+   "alias": [
+    "trastorno adaptativo",
+    "trastornos adaptativos"
+   ],
+   "def": "Respuesta emocional o conductual a un estresor identificable, que inicia dentro de los 3 meses y se resuelve en menos de 6 meses tras el estresor. Tratamiento de elección: psicoterapia breve.",
+   "pagina": 22,
+   "clase": "psiq-05",
+   "claseTitulo": "17.5 Trastorno Depresivo Persistente (Distimia) y Trastorno Adaptativo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 3
+  },
+  "Trastorno_de_panico": {
+   "termino": "Trastorno de pánico",
+   "tipo": "Concepto",
+   "alias": [
+    "trastorno de pánico",
+    "ataque de pánico",
+    "crisis de pánico"
+   ],
+   "def": "Ataques de pánico imprevistos y recurrentes, seguidos de al menos 1 mes de ansiedad anticipatoria o evitación. Un ataque aislado no equivale al trastorno.",
+   "pagina": 28,
+   "clase": "psiq-06",
+   "claseTitulo": "17.6 Trastorno de Pánico y Agorafobia: Manejo Agudo vs Mantenimiento con ISRS",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 5
+  },
+  "Agorafobia": {
+   "termino": "Agorafobia",
+   "tipo": "Concepto",
+   "alias": [
+    "agorafobia"
+   ],
+   "def": "Miedo o ansiedad ante transporte público, espacios abiertos, sitios cerrados, multitudes o estar fuera de casa solo, por temor a no poder escapar o recibir ayuda en una crisis de pánico.",
+   "pagina": 28,
+   "clase": "psiq-06",
+   "claseTitulo": "17.6 Trastorno de Pánico y Agorafobia: Manejo Agudo vs Mantenimiento con ISRS",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 5
+  },
+  "Trastorno_de_ansiedad_generalizada": {
+   "termino": "Trastorno de ansiedad generalizada",
+   "tipo": "Concepto",
+   "alias": [
+    "ansiedad generalizada",
+    "TAG"
+   ],
+   "def": "Preocupación excesiva por múltiples temas, por ≥ 6 meses, con tensión muscular marcada. Primera línea: ISRS (escitalopram, sertralina) o venlafaxina; pregabalina de segunda línea.",
+   "pagina": 32,
+   "clase": "psiq-07",
+   "claseTitulo": "17.7 Trastorno de Ansiedad Generalizada (TAG) y Fobia Social",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 11
+  },
+  "Fobia_social": {
+   "termino": "Fobia social",
+   "tipo": "Concepto",
+   "alias": [
+    "fobia social",
+    "ansiedad social"
+   ],
+   "def": "Miedo a la evaluación negativa, al escrutinio o a la vergüenza en público. Primera línea: ISRS (escitalopram o sertralina) o venlafaxina; en pánico escénico, propranolol como rescate.",
+   "pagina": 32,
+   "clase": "psiq-07",
+   "claseTitulo": "17.7 Trastorno de Ansiedad Generalizada (TAG) y Fobia Social",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 9
+  },
+  "Trastorno_obsesivo_compulsivo": {
+   "termino": "Trastorno obsesivo-compulsivo",
+   "tipo": "Concepto",
+   "alias": [
+    "obsesivo-compulsivo",
+    "TOC",
+    "obsesivo compulsivo"
+   ],
+   "def": "Obsesiones egodistónicas y compulsiones que consumen > 1 hora/día. Psicoterapia de elección: TCC con exposición y prevención de respuesta; la respuesta a fármacos tarda entre 8 y 12 semanas.",
+   "pagina": 35,
+   "clase": "psiq-08",
+   "claseTitulo": "17.8 Trastorno Obsesivo-Compulsivo (TOC): Obsesiones, Compulsiones e ISRS",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 20
+  },
+  "Estres_postraumatico": {
+   "termino": "Estrés postraumático",
+   "tipo": "Concepto",
+   "alias": [
+    "estrés postraumático",
+    "TEPT"
+   ],
+   "def": "Síntomas postraumáticos que persisten > 1 mes (entre 3 días y 1 mes sería estrés agudo). Primera línea: ISRS (sertralina o paroxetina); prazosina para pesadillas refractarias.",
+   "pagina": 38,
+   "clase": "psiq-09",
+   "claseTitulo": "17.9 Trastorno de Estrés Postraumático (TEPT) y Estrés Agudo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 12
+  },
+  "Estres_agudo": {
+   "termino": "Estrés agudo",
+   "tipo": "Concepto",
+   "alias": [
+    "trastorno por estrés agudo",
+    "estrés agudo"
+   ],
+   "def": "Síntomas que duran desde un mínimo de 3 días hasta un máximo de 1 mes tras la exposición al evento traumático. Si pasa de 1 mes con síntomas persistentes, corresponde a TEPT.",
+   "pagina": 38,
+   "clase": "psiq-09",
+   "claseTitulo": "17.9 Trastorno de Estrés Postraumático (TEPT) y Estrés Agudo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 6
+  },
+  "Esquizofrenia": {
+   "termino": "Esquizofrenia",
+   "tipo": "Concepto",
+   "alias": [
+    "esquizofrenia"
+   ],
+   "def": "Al menos 6 meses de evolución continua, con al menos 1 mes de síntomas activos (delirios, alucinaciones o habla desorganizada). GES N° 34 la garantiza en personas de 15 años y más.",
+   "pagina": 44,
+   "clase": "psiq-10",
+   "claseTitulo": "17.10 Esquizofrenia: Síntomas Positivos/Negativos, Antipsicóticos Atípicos y GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 20
+  },
+  "Sintomas_positivos": {
+   "termino": "Síntomas positivos",
+   "tipo": "Concepto",
+   "alias": [
+    "síntomas positivos"
+   ],
+   "def": "Producidos por exceso de tono dopaminérgico: delirios, alucinaciones auditivas, suspicacia extrema y pensamiento desorganizado.",
+   "pagina": 44,
+   "clase": "psiq-10",
+   "claseTitulo": "17.10 Esquizofrenia: Síntomas Positivos/Negativos, Antipsicóticos Atípicos y GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 1
+  },
+  "Sintomas_negativos": {
+   "termino": "Síntomas negativos",
+   "tipo": "Concepto",
+   "alias": [
+    "síntomas negativos"
+   ],
+   "def": "Producidos por déficit dopaminérgico: apatía, abulia, alogia, anhedonia y aplanamiento afectivo, además de déficit cognitivo.",
+   "pagina": 44,
+   "clase": "psiq-10",
+   "claseTitulo": "17.10 Esquizofrenia: Síntomas Positivos/Negativos, Antipsicóticos Atípicos y GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 3
+  },
+  "Esquizofrenia_refractaria": {
+   "termino": "Esquizofrenia refractaria",
+   "tipo": "Concepto",
+   "alias": [
+    "esquizofrenia refractaria",
+    "refractaria"
+   ],
+   "def": "Persistencia de síntomas psicóticos tras el fracaso de ≥ 2 antipsicóticos a dosis plenas por ≥ 6 semanas, al menos uno atípico. La clozapina es el fármaco de elección indiscutido.",
+   "pagina": 49,
+   "clase": "psiq-11",
+   "claseTitulo": "17.11 Clozapina y Esquizofrenia Refractaria: Monitorización de Hemograma",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 6
+  },
+  "Trastorno_delirante": {
+   "termino": "Trastorno delirante",
+   "tipo": "Concepto",
+   "alias": [
+    "trastorno delirante",
+    "delirante crónico"
+   ],
+   "def": "Una o más ideas delirantes de al menos 1 mes, sin alucinaciones prominentes, lenguaje desorganizado ni síntomas negativos. Los delirios no son bizarros y la funcionalidad se preserva.",
+   "pagina": 52,
+   "clase": "psiq-12",
+   "claseTitulo": "17.12 Trastorno Delirante Crónico vs Psicosis Reactiva Breve",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 11
+  },
+  "Psicosis_reactiva_breve": {
+   "termino": "Psicosis reactiva breve",
+   "tipo": "Concepto",
+   "alias": [
+    "psicosis reactiva breve",
+    "trastorno psicótico breve"
+   ],
+   "def": "Síntomas psicóticos de inicio súbito que duran entre 1 día y menos de 1 mes, con restitución completa ad integrum. La cronología es la clave diagnóstica.",
+   "pagina": 52,
+   "clase": "psiq-12",
+   "claseTitulo": "17.12 Trastorno Delirante Crónico vs Psicosis Reactiva Breve",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 4
+  },
+  "Sindrome_neuroleptico_maligno": {
+   "termino": "Síndrome neuroléptico maligno",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome neuroléptico maligno",
+    "SNM"
+   ],
+   "def": "Emergencia con ingreso a UPC: tétrada de hipertermia, rigidez en caño de plomo, inestabilidad autonómica y alteración del sensorio. A diferencia del serotoninérgico, cursa con hiporreflexia.",
+   "pagina": 55,
+   "clase": "psiq-13",
+   "claseTitulo": "17.13 Síndrome Neuroléptico Maligno (SNM): Hipertermia, Rigidez, CPK y Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 31
+  },
+  "Agitacion_psicomotora": {
+   "termino": "Agitación psicomotora",
+   "tipo": "Concepto",
+   "alias": [
+    "agitación psicomotora",
+    "agitación"
+   ],
+   "def": "Síndrome conductual, no una enfermedad, que puede ser hiperactivo, hipoactivo (el más frecuente y de peor pronóstico) o mixto. En agitación aguda severa se usa haloperidol IM con lorazepam.",
+   "pagina": 59,
+   "clase": "psiq-14",
+   "claseTitulo": "17.14 Agitación Psicomotora en Urgencias: Protocolo de Contención Escalonada",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 8
+  },
+  "Contencion": {
+   "termino": "Contención",
+   "tipo": "Concepto",
+   "alias": [
+    "contención mecánica",
+    "contención física",
+    "contención verbal"
+   ],
+   "def": "Medida excepcional de último recurso, ante fracaso de medidas verbales y farmacológicas. Requiere indicación médica escrita, registro en ficha y vigilancia de signos vitales.",
+   "pagina": 59,
+   "clase": "psiq-14",
+   "claseTitulo": "17.14 Agitación Psicomotora en Urgencias: Protocolo de Contención Escalonada",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 7
+  },
+  "Trastorno_por_uso_de_alcohol": {
+   "termino": "Trastorno por uso de alcohol",
+   "tipo": "Concepto",
+   "alias": [
+    "uso de alcohol",
+    "alcoholismo",
+    "dependencia al alcohol"
+   ],
+   "def": "Un instrumento de tamizaje no diagnostica por sí solo el trastorno por uso de alcohol. La escala SAD PERSONS es una herramienta mnemotécnica de tamizaje internacionalmente validada.",
+   "pagina": 69,
+   "clase": "psiq-15",
+   "claseTitulo": "17.15 Trastorno por Uso de Alcohol: Abstinencia, Delirium Tremens (CIWA-Ar) y Encefalopatía Wernicke",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 2
+  },
+  "Delirium_tremens": {
+   "termino": "Delirium tremens",
+   "tipo": "Concepto",
+   "alias": [
+    "delirium tremens"
+   ],
+   "def": "Forma más grave de abstinencia alcohólica, a las 48-72 h, con confusión, agitación, fiebre y zoopsias; es una emergencia médica vital. La alucinosis, en cambio, cursa con sensorio lúcido.",
+   "pagina": 69,
+   "clase": "psiq-15",
+   "claseTitulo": "17.15 Trastorno por Uso de Alcohol: Abstinencia, Delirium Tremens (CIWA-Ar) y Encefalopatía Wernicke",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 6
+  },
+  "Encefalopatia_de_Wernicke": {
+   "termino": "Encefalopatía de Wernicke",
+   "tipo": "Concepto",
+   "alias": [
+    "Wernicke",
+    "encefalopatía de Wernicke"
+   ],
+   "def": "Causada por déficit de tiamina, con tríada de oftalmoplejía, ataxia y confusión. Siempre administrar tiamina antes de cualquier suero glucosado, porque la glucosa puede precipitarla.",
+   "pagina": 69,
+   "clase": "psiq-15",
+   "claseTitulo": "17.15 Trastorno por Uso de Alcohol: Abstinencia, Delirium Tremens (CIWA-Ar) y Encefalopatía Wernicke",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 5
+  },
+  "Sindrome_de_abstinencia": {
+   "termino": "Síndrome de abstinencia",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome de abstinencia",
+    "abstinencia"
+   ],
+   "def": "Se gradúa con CIWA-Ar: leve no requiere benzodiacepinas de rutina; moderada, benzodiacepinas orales supervisadas; con puntaje ≥ 20 es severa y requiere hospitalización inmediata.",
+   "pagina": 69,
+   "clase": "psiq-15",
+   "claseTitulo": "17.15 Trastorno por Uso de Alcohol: Abstinencia, Delirium Tremens (CIWA-Ar) y Encefalopatía Wernicke",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 16
+  },
+  "Intoxicacion_por_sustancias": {
+   "termino": "Intoxicación por sustancias",
+   "tipo": "Concepto",
+   "alias": [
+    "intoxicación por cocaína",
+    "intoxicación por cannabis",
+    "intoxicación"
+   ],
+   "def": "Intoxicación aguda con somnolencia, ataxia, disartria y nistagmo, con signos vitales estables. Un resultado positivo indica exposición, no intoxicación ni dependencia.",
+   "pagina": 73,
+   "clase": "psiq-16",
+   "claseTitulo": "17.16 Intoxicación y Abstinencia por Sustancias (Cocaína, Cannabis, Benzodiacepinas)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 7
+  },
+  "Trastornos_de_personalidad": {
+   "termino": "Trastornos de personalidad",
+   "tipo": "Concepto",
+   "alias": [
+    "trastornos de la personalidad",
+    "trastorno de la personalidad",
+    "trastorno límite",
+    "trastorno antisocial",
+    "trastorno narcisista",
+    "trastorno histriónico"
+   ],
+   "def": "Patrones perdurables, rígidos y egosintónicos que debutan en la adolescencia. El trastorno límite implica miedo al abandono y automutilaciones; la DBT es la psicoterapia de elección.",
+   "pagina": 76,
+   "clase": "psiq-17",
+   "claseTitulo": "17.17 Trastornos de la Personalidad: Clúster A, B y C",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 7
+  },
+  "TDAH": {
+   "termino": "TDAH",
+   "tipo": "Concepto",
+   "alias": [
+    "TDAH",
+    "déficit atencional"
+   ],
+   "def": "Trastorno del neurodesarrollo; el metilfenidato es el fármaco de primera elección en edad escolar. Antes de diagnosticarlo se descartan déficit sensorial, ansiedad, depresión y mala escolarización.",
+   "pagina": 79,
+   "clase": "psiq-18",
+   "claseTitulo": "17.18 Psiquiatría Infanto-Juvenil: TDAH (Metilfenidato), Trastornos de la Conducta Alimentaria",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 6
+  },
+  "Trastornos_de_la_conducta_alimentaria": {
+   "termino": "Trastornos de la conducta alimentaria",
+   "tipo": "Concepto",
+   "alias": [
+    "conducta alimentaria",
+    "anorexia nerviosa",
+    "bulimia nerviosa"
+   ],
+   "def": "Grupo de trastornos psiquiátricos ligados a la alimentación; el material de origen no incluye frases de respaldo, así que conviene revisar sus criterios en el manual.",
+   "pagina": 79,
+   "clase": "psiq-18",
+   "claseTitulo": "17.18 Psiquiatría Infanto-Juvenil: TDAH (Metilfenidato), Trastornos de la Conducta Alimentaria",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 2
+  },
+  "Disforia_de_genero": {
+   "termino": "Disforia de género",
+   "tipo": "Concepto",
+   "alias": [
+    "disforia de género"
+   ],
+   "def": "Malestar clínicamente significativo por incongruencia marcada, de al menos 6 meses, entre el género vivido y el asignado. La orientación homosexual o bisexual no es un trastorno.",
+   "pagina": 83,
+   "clase": "psiq-20",
+   "claseTitulo": "17.20 Sexualidad Humana: Respuesta Sexual, Disfunciones Sexuales, Parafilias, Disforia de Género y Diversidad",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 2
+  },
+  "Parafilias": {
+   "termino": "Parafilias",
+   "tipo": "Concepto",
+   "alias": [
+    "parafilias",
+    "parafilia"
+   ],
+   "def": "Intereses sexuales atípicos e intensos.",
+   "pagina": 83,
+   "clase": "psiq-20",
+   "claseTitulo": "17.20 Sexualidad Humana: Respuesta Sexual, Disfunciones Sexuales, Parafilias, Disforia de Género y Diversidad",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 3
+  },
+  "Disfuncion_sexual": {
+   "termino": "Disfunción sexual",
+   "tipo": "Concepto",
+   "alias": [
+    "disfunciones sexuales",
+    "disfunción sexual",
+    "disfunción eréctil"
+   ],
+   "def": "Síntoma de 6 meses o más, presente en 75-100% de las ocasiones y con malestar clínicamente significativo. Manejo inicial: educación, reducir la ansiedad de desempeño y ajustar el fármaco.",
+   "pagina": 83,
+   "clase": "psiq-20",
+   "claseTitulo": "17.20 Sexualidad Humana: Respuesta Sexual, Disfunciones Sexuales, Parafilias, Disforia de Género y Diversidad",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 4
+  },
+  "Trastorno_facticio": {
+   "termino": "Trastorno facticio",
+   "tipo": "Concepto",
+   "alias": [
+    "trastornos facticios",
+    "trastorno facticio",
+    "Munchausen"
+   ],
+   "def": "Produce síntomas de forma intencional para asumir el rol de enfermo, sin recompensa externa. A diferencia de la simulación, no tiene motivo externo; impuesto a otro es abuso infantil.",
+   "pagina": 63,
+   "clase": "psiq-19",
+   "claseTitulo": "17.19 Psiquiatría General: Clasificaciones (DSM-5/CIE-10), Higiene del Sueño, Trastornos Facticios y Nociones de Psiquiatría Forense",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 3
+  },
+  "Higiene_del_sueno": {
+   "termino": "Higiene del sueño",
+   "tipo": "Concepto",
+   "alias": [
+    "higiene del sueño"
+   ],
+   "def": "Primera medida en el insomnio leve: horarios fijos para acostarse y levantarse, cama solo para dormir, sin siestas largas, cafeína ni alcohol. Va antes de cualquier hipnótico.",
+   "pagina": 63,
+   "clase": "psiq-19",
+   "claseTitulo": "17.19 Psiquiatría General: Clasificaciones (DSM-5/CIE-10), Higiene del Sueño, Trastornos Facticios y Nociones de Psiquiatría Forense",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 5
+  },
+  "Psiquiatria_forense": {
+   "termino": "Psiquiatría forense",
+   "tipo": "Concepto",
+   "alias": [
+    "psiquiatría forense",
+    "imputabilidad"
+   ],
+   "def": "La principal pregunta es la imputabilidad. El «loco o demente» es inimputable y recibe medidas de seguridad, no pena; el alcohol o las drogas no lo eximen.",
+   "pagina": 63,
+   "clase": "psiq-19",
+   "claseTitulo": "17.19 Psiquiatría General: Clasificaciones (DSM-5/CIE-10), Higiene del Sueño, Trastornos Facticios y Nociones de Psiquiatría Forense",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 1
+  },
+  "DSM_5": {
+   "termino": "DSM-5",
+   "tipo": "Concepto",
+   "alias": [
+    "DSM-5",
+    "DSM 5"
+   ],
+   "def": "Sistema de la Asociación Americana de Psiquiatría que aporta los criterios diagnósticos. La clasificación oficial en Chile para ficha, GES y licencias es la CIE-10 (F00-F99).",
+   "pagina": 63,
+   "clase": "psiq-19",
+   "claseTitulo": "17.19 Psiquiatría General: Clasificaciones (DSM-5/CIE-10), Higiene del Sueño, Trastornos Facticios y Nociones de Psiquiatría Forense",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 8
+  },
+  "CIE_10": {
+   "termino": "CIE-10",
+   "tipo": "Concepto",
+   "alias": [
+    "CIE-10",
+    "CIE 10"
+   ],
+   "def": "Clasificación de la OMS, oficial en Chile para la ficha clínica, estadísticas, licencias médicas y GES. Su capítulo F agrupa los trastornos mentales (F00-F99).",
+   "pagina": 63,
+   "clase": "psiq-19",
+   "claseTitulo": "17.19 Psiquiatría General: Clasificaciones (DSM-5/CIE-10), Higiene del Sueño, Trastornos Facticios y Nociones de Psiquiatría Forense",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 7
+  },
+  "Alucinaciones": {
+   "termino": "Alucinaciones",
+   "tipo": "Signo",
+   "alias": [
+    "alucinaciones",
+    "alucinación"
+   ],
+   "def": "Síntoma positivo, típicamente auditivo, que comenta los actos o habla en tercera persona. En el trastorno delirante, si hay alucinaciones, son secundarias al delirio.",
+   "pagina": 44,
+   "clase": "psiq-10",
+   "claseTitulo": "17.10 Esquizofrenia: Síntomas Positivos/Negativos, Antipsicóticos Atípicos y GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 9
+  },
+  "Ideas_delirantes": {
+   "termino": "Ideas delirantes",
+   "tipo": "Signo",
+   "alias": [
+    "ideas delirantes",
+    "delirios",
+    "delirio"
+   ],
+   "def": "Creencias falsas y firmes que persisten. El médico nunca debe confrontar agresivamente el delirio ni validarlo o reforzarlo; por ejemplo, oler veneno en la comida en delirio de perjuicio.",
+   "pagina": 52,
+   "clase": "psiq-12",
+   "claseTitulo": "17.12 Trastorno Delirante Crónico vs Psicosis Reactiva Breve",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 23
+  },
+  "Anhedonia": {
+   "termino": "Anhedonia",
+   "tipo": "Signo",
+   "alias": [
+    "anhedonia"
+   ],
+   "def": "Pérdida de placer o interés. El PHQ-2 pregunta por ánimo deprimido y anhedonia en las últimas 2 semanas; también forma parte de los síntomas negativos de la esquizofrenia.",
+   "pagina": 5,
+   "clase": "psiq-01",
+   "claseTitulo": "17.1 Trastorno Depresivo Mayor: Criterios DSM-5, Escalas, ISRS y Guía GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 5
+  },
+  "Hipertermia": {
+   "termino": "Hipertermia",
+   "tipo": "Signo",
+   "alias": [
+    "hipertermia"
+   ],
+   "def": "Temperatura axilar o rectal típicamente > 38 °C, refractaria a antipiréticos convencionales; en el SNM alcanza frecuentemente 39.5 a 41 °C.",
+   "pagina": 55,
+   "clase": "psiq-13",
+   "claseTitulo": "17.13 Síndrome Neuroléptico Maligno (SNM): Hipertermia, Rigidez, CPK y Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 6
+  },
+  "Temblor": {
+   "termino": "Temblor",
+   "tipo": "Signo",
+   "alias": [
+    "temblor",
+    "temblores"
+   ],
+   "def": "Temblor grosero, ataxia, disartria y confusión son signos de toxicidad por litio, que se gatilla con AINE, tiazidas e IECA. El temblor fino de manos corresponde a toxicidad leve.",
+   "pagina": 12,
+   "clase": "psiq-02",
+   "claseTitulo": "17.2 Trastorno Bipolar I y II: Manía vs Hipomanía, Estabilizadores (Litio/Valproato) y Guía GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 5
+  },
+  "CPK": {
+   "termino": "CPK",
+   "tipo": "Examen",
+   "alias": [
+    "CPK",
+    "creatinfosfoquinasa",
+    "creatinquinasa"
+   ],
+   "def": "Elevación masiva por rabdomiólisis, hallazgo distintivo del SNM. Tras el cuadro, CPK y temperatura deben normalizarse por al menos 14 días antes de reiniciar antipsicóticos.",
+   "pagina": 55,
+   "clase": "psiq-13",
+   "claseTitulo": "17.13 Síndrome Neuroléptico Maligno (SNM): Hipertermia, Rigidez, CPK y Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 4
+  },
+  "Hemograma": {
+   "termino": "Hemograma",
+   "tipo": "Examen",
+   "alias": [
+    "hemograma",
+    "recuento de neutrófilos",
+    "neutropenia"
+   ],
+   "def": "Con clozapina: hemograma semanal los primeros 6 meses, quincenal de los 6 a 12 meses y mensual de por vida. Con RAN 1.000 – 1.499/mm³ se suspende temporalmente la clozapina.",
+   "pagina": 49,
+   "clase": "psiq-11",
+   "claseTitulo": "17.11 Clozapina y Esquizofrenia Refractaria: Monitorización de Hemograma",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 9
+  },
+  "Escala_CIWA_Ar": {
+   "termino": "Escala CIWA-Ar",
+   "tipo": "Examen",
+   "alias": [
+    "CIWA-Ar",
+    "CIWA"
+   ],
+   "def": "Escala estándar internacional para cuantificar la gravedad de la abstinencia alcohólica y guiar fármacos. El diazepam es de primera línea si la función hepática está conservada.",
+   "pagina": 69,
+   "clase": "psiq-15",
+   "claseTitulo": "17.15 Trastorno por Uso de Alcohol: Abstinencia, Delirium Tremens (CIWA-Ar) y Encefalopatía Wernicke",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 5
+  },
+  "Escala_de_Hamilton": {
+   "termino": "Escala de Hamilton",
+   "tipo": "Examen",
+   "alias": [
+    "Hamilton"
+   ],
+   "def": "Escala de evaluación clínica de la depresión. El material de origen no incluye frases de respaldo, así que conviene revisarla en el manual.",
+   "pagina": 65,
+   "clase": "psiq-19",
+   "claseTitulo": "17.19 Psiquiatría General: Clasificaciones (DSM-5/CIE-10), Higiene del Sueño, Trastornos Facticios y Nociones de Psiquiatría Forense",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 1
+  },
+  "PHQ_9": {
+   "termino": "PHQ-9",
+   "tipo": "Examen",
+   "alias": [
+    "PHQ-9"
+   ],
+   "def": "Cuestionario de tamizaje y seguimiento de la depresión que la guía GES N° 21 recomienda en Chile. Puntaje 5-9 indica depresión leve; la respuesta es una baja de al menos 50% del puntaje.",
+   "pagina": 6,
+   "clase": "psiq-01",
+   "claseTitulo": "17.1 Trastorno Depresivo Mayor: Criterios DSM-5, Escalas, ISRS y Guía GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 5
+  },
+  "Escala_de_Edimburgo": {
+   "termino": "Escala de Edimburgo",
+   "tipo": "Examen",
+   "alias": [
+    "Edimburgo",
+    "EPDS"
+   ],
+   "def": "Escala EPDS de tamizaje universal en APS para depresión posparto, durante los controles de salud infantil. Un puntaje ≥ 10 exige confirmación y manejo activo bajo GES N° 21.",
+   "pagina": 19,
+   "clase": "psiq-04",
+   "claseTitulo": "17.4 Depresión Posparto y Trastornos Afectivos Perinatales: Blues vs Depresión vs Psicosis Puerperal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 5
+  },
+  "ISRS": {
+   "termino": "ISRS",
+   "tipo": "Farmaco",
+   "alias": [
+    "ISRS",
+    "inhibidores selectivos de la recaptura de serotonina",
+    "fluoxetina",
+    "sertralina",
+    "escitalopram",
+    "paroxetina"
+   ],
+   "def": "Primera línea en atención primaria: sertralina 50-100 mg/día o escitalopram 10-20 mg/día. En menores de 25 años exige control semanal las primeras 4 semanas por riesgo suicida.",
+   "pagina": 5,
+   "clase": "psiq-01",
+   "claseTitulo": "17.1 Trastorno Depresivo Mayor: Criterios DSM-5, Escalas, ISRS y Guía GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 38
+  },
+  "Litio": {
+   "termino": "Litio",
+   "tipo": "Farmaco",
+   "alias": [
+    "litio"
+   ],
+   "def": "Margen terapéutico muy estrecho, por lo que se controlan niveles plasmáticos. Es el estándar en prevención de recaídas y el único estabilizador con reducción demostrada del riesgo suicida.",
+   "pagina": 10,
+   "clase": "psiq-02",
+   "claseTitulo": "17.2 Trastorno Bipolar I y II: Manía vs Hipomanía, Estabilizadores (Litio/Valproato) y Guía GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 9
+  },
+  "Acido_valproico": {
+   "termino": "Ácido valproico",
+   "tipo": "Farmaco",
+   "alias": [
+    "valproato",
+    "ácido valproico"
+   ],
+   "def": "Excelente en manía disfórica, episodios mixtos y ciclado rápido. En manía aguda grave se combina con un antipsicótico atípico, como estabilizador del ánimo.",
+   "pagina": 10,
+   "clase": "psiq-02",
+   "claseTitulo": "17.2 Trastorno Bipolar I y II: Manía vs Hipomanía, Estabilizadores (Litio/Valproato) y Guía GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 6
+  },
+  "Antipsicoticos_atipicos": {
+   "termino": "Antipsicóticos atípicos",
+   "tipo": "Farmaco",
+   "alias": [
+    "antipsicóticos atípicos",
+    "antipsicótico atípico",
+    "risperidona",
+    "olanzapina",
+    "quetiapina",
+    "aripiprazol"
+   ],
+   "def": "Primera línea farmacológica, con menor propensión a síntomas extrapiramidales y discinesia tardía. Bloquean D2 y 5-HT2A; ejemplos: risperidona, olanzapina, quetiapina y aripiprazol.",
+   "pagina": 44,
+   "clase": "psiq-10",
+   "claseTitulo": "17.10 Esquizofrenia: Síntomas Positivos/Negativos, Antipsicóticos Atípicos y GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 22
+  },
+  "Clozapina": {
+   "termino": "Clozapina",
+   "tipo": "Farmaco",
+   "alias": [
+    "clozapina"
+   ],
+   "def": "Fármaco de elección indiscutido en esquizofrenia refractaria y en psicosis con conducta suicida persistente. Exige control seriado de hemogramas por riesgo de neutropenia.",
+   "pagina": 49,
+   "clase": "psiq-11",
+   "claseTitulo": "17.11 Clozapina y Esquizofrenia Refractaria: Monitorización de Hemograma",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 28
+  },
+  "Haloperidol": {
+   "termino": "Haloperidol",
+   "tipo": "Farmaco",
+   "alias": [
+    "haloperidol"
+   ],
+   "def": "Fármaco para la agitación que pone en riesgo al paciente, combinado con lorazepam IM para sedación más rápida y prevención de distonía aguda.",
+   "pagina": 59,
+   "clase": "psiq-14",
+   "claseTitulo": "17.14 Agitación Psicomotora en Urgencias: Protocolo de Contención Escalonada",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 9
+  },
+  "Benzodiacepinas": {
+   "termino": "Benzodiacepinas",
+   "tipo": "Farmaco",
+   "alias": [
+    "benzodiacepinas",
+    "benzodiazepinas",
+    "diazepam",
+    "lorazepam",
+    "clonazepam",
+    "alprazolam"
+   ],
+   "def": "Primera línea en la isquemia y dolor torácico por cocaína, junto con nitratos. El flumazenil está contraindicado en sobredosis con consumo crónico por riesgo de status epiléptico.",
+   "pagina": 73,
+   "clase": "psiq-16",
+   "claseTitulo": "17.16 Intoxicación y Abstinencia por Sustancias (Cocaína, Cannabis, Benzodiacepinas)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 37
+  },
+  "Tiamina": {
+   "termino": "Tiamina",
+   "tipo": "Farmaco",
+   "alias": [
+    "tiamina",
+    "vitamina B1"
+   ],
+   "def": "Administrar siempre tiamina EV/IM antes de cualquier suero glucosado, porque la glucosa puede precipitar o agravar la encefalopatía de Wernicke. Evita un Wernicke irreversible.",
+   "pagina": 69,
+   "clase": "psiq-15",
+   "claseTitulo": "17.15 Trastorno por Uso de Alcohol: Abstinencia, Delirium Tremens (CIWA-Ar) y Encefalopatía Wernicke",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 5
+  },
+  "Dantroleno": {
+   "termino": "Dantroleno",
+   "tipo": "Farmaco",
+   "alias": [
+    "dantroleno"
+   ],
+   "def": "Relajante muscular que bloquea la liberación de calcio desde el retículo sarcoplásmico. Es fármaco de rescate en UPC para la rigidez extrema y la hipertermia severa del SNM.",
+   "pagina": 55,
+   "clase": "psiq-13",
+   "claseTitulo": "17.13 Síndrome Neuroléptico Maligno (SNM): Hipertermia, Rigidez, CPK y Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 2
+  },
+  "Bromocriptina": {
+   "termino": "Bromocriptina",
+   "tipo": "Farmaco",
+   "alias": [
+    "bromocriptina"
+   ],
+   "def": "Agonista dopaminérgico D2 de rescate en UPC para el síndrome neuroléptico maligno, con dosis de 2.5 a 5 mg cada 8 horas, hasta 20 mg/día.",
+   "pagina": 55,
+   "clase": "psiq-13",
+   "claseTitulo": "17.13 Síndrome Neuroléptico Maligno (SNM): Hipertermia, Rigidez, CPK y Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 1
+  },
+  "Metilfenidato": {
+   "termino": "Metilfenidato",
+   "tipo": "Farmaco",
+   "alias": [
+    "metilfenidato"
+   ],
+   "def": "Psicoestimulante de primera línea para el TDAH en edad escolar, de acción corta o de liberación prolongada.",
+   "pagina": 79,
+   "clase": "psiq-18",
+   "claseTitulo": "17.18 Psiquiatría Infanto-Juvenil: TDAH (Metilfenidato), Trastornos de la Conducta Alimentaria",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 3
+  },
+  "Naltrexona": {
+   "termino": "Naltrexona",
+   "tipo": "Farmaco",
+   "alias": [
+    "naltrexona"
+   ],
+   "def": "Antagonista opioide que bloquea los receptores mu-opioides del sistema de recompensa límbico, reduciendo el craving y el placer del consumo de alcohol.",
+   "pagina": 71,
+   "clase": "psiq-15",
+   "claseTitulo": "17.15 Trastorno por Uso de Alcohol: Abstinencia, Delirium Tremens (CIWA-Ar) y Encefalopatía Wernicke",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 1
+  },
+  "Disulfiram": {
+   "termino": "Disulfiram",
+   "tipo": "Farmaco",
+   "alias": [
+    "disulfiram"
+   ],
+   "def": "Inhibidor irreversible de la aldehído deshidrogenasa.",
+   "pagina": 71,
+   "clase": "psiq-15",
+   "claseTitulo": "17.15 Trastorno por Uso de Alcohol: Abstinencia, Delirium Tremens (CIWA-Ar) y Encefalopatía Wernicke",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 2
+  },
+  "Terapia_electroconvulsiva": {
+   "termino": "Terapia electroconvulsiva",
+   "tipo": "Farmaco",
+   "alias": [
+    "terapia electroconvulsiva",
+    "TEC"
+   ],
+   "def": "Alternativa en urgencias psiquiátricas que requieren combinación de antidepresivo con antipsicótico o terapia electroconvulsiva (TEC).",
+   "pagina": 5,
+   "clase": "psiq-01",
+   "claseTitulo": "17.1 Trastorno Depresivo Mayor: Criterios DSM-5, Escalas, ISRS y Guía GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 4
+  },
+  "Psicoterapia_cognitivo_conductual": {
+   "termino": "Psicoterapia cognitivo-conductual",
+   "tipo": "Farmaco",
+   "alias": [
+    "cognitivo-conductual",
+    "TCC"
+   ],
+   "def": "Psicoterapia de elección para el TOC, con exposición y prevención de respuesta (EPR), y para el trauma, con TCC centrada en el trauma breve. En la distimia se combina con ISRS a largo plazo.",
+   "pagina": 32,
+   "clase": "psiq-07",
+   "claseTitulo": "17.7 Trastorno de Ansiedad Generalizada (TAG) y Fobia Social",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Psiquiatr%C3%ADa&clase=psiq-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_psiquiatria",
+   "embed": null,
+   "notas": 12
+  }
+ }
+}

@@ -1,0 +1,535 @@
+{
+  "classId": "psiq-01",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Para el diagnóstico de episodio depresivo mayor DSM-5 se requieren al menos {{c1::5 de 9}} síntomas casi todos los días.",
+      "extra": "Uno debe ser ánimo deprimido o anhedonia.",
+      "origen": "clase:3",
+      "fuente": "Clase · Diagnóstico DSM-5",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 130",
+        "EUNACOM Diciembre 2019 · Pregunta 170"
+      ],
+      "codigos": [
+        "5.01.1.007",
+        "2.01.1.136"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los síntomas depresivos deben durar al menos {{c1::2 semanas}} para el diagnóstico de depresión mayor.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Diagnóstico DSM-5",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.136",
+        "1.07.1.004"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la depresión mayor es obligatorio uno de dos síntomas: {{c1::ánimo deprimido o anhedonia}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Criterios DSM-5",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.136",
+        "1.07.1.004"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En los criterios DSM-5, el cambio de peso significativo es una variación mayor al {{c1::5% en un mes}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Diagnóstico DSM-5",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.007",
+        "2.01.1.136"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Antes de diagnosticar depresión mayor hay que descartar causa médica o fármaco, {{c1::manía o hipomanía previa}} y preguntar por riesgo suicida.",
+      "extra": "Si hubo manía: bipolar, no ISRS en solitario.",
+      "origen": "clase:4",
+      "fuente": "Clase · Qué descartar",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.136",
+        "1.07.1.004"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La depresión con despertar precoz, peor en la mañana y sin reactividad del ánimo es la {{c1::melancólica}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Cuatro formas de depresión",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.136",
+        "1.07.1.004"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La depresión melancólica grave se trata con un dual, un tricíclico o {{c1::TEC}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Cuatro formas de depresión",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.136",
+        "1.07.1.004"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La depresión con ánimo reactivo, hipersomnia e hiperfagia es la {{c1::atípica}}.",
+      "extra": "Parálisis de plomo y sensibilidad al rechazo.",
+      "origen": "clase:5",
+      "fuente": "Clase · Cuatro formas de depresión",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 32"
+      ],
+      "codigos": [
+        "2.01.1.136",
+        "1.07.1.004"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En la depresión atípica resistente se puede usar bupropión o {{c1::IMAO}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Cuatro formas de depresión",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.136",
+        "1.07.1.004"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los delirios de culpa, ruina o el síndrome de {{c1::Cotard}} definen la depresión psicótica.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Cuatro formas de depresión",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 49"
+      ],
+      "codigos": [
+        "2.01.1.136",
+        "1.07.1.004"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La depresión psicótica se trata con antidepresivo más antipsicótico, o con {{c1::TEC}}.",
+      "extra": "En la adulta mayor con intentos de suicidio previos y delirios: TEC hospitalizada.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de subtipos",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 71"
+      ],
+      "codigos": [
+        "2.01.1.136",
+        "1.07.1.004"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La depresión estacional (otoño e invierno, remite en primavera) se trata con {{c1::fototerapia matinal}} más ISRS.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Cuatro formas de depresión",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.136",
+        "1.07.1.004"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "PHQ-9 de 10 a 14 puntos indica depresión {{c1::moderada}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · PHQ-9 y conducta",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.136",
+        "1.07.1.004"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "PHQ-9 de {{c1::20 a 27}} puntos indica depresión grave: derivación urgente y evaluar hospitalizar.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · PHQ-9 y conducta",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.136",
+        "1.07.1.004"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "PHQ-9 de 15 a 19 puntos es depresión {{c1::moderadamente grave}}: ISRS a dosis plena y psicoterapia.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · PHQ-9 y conducta",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.136",
+        "1.07.1.004"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El PHQ-2 es positivo con {{c1::3 o más}} puntos de 6 y obliga a aplicar el PHQ-9.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tamizaje con PHQ",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.008",
+        "5.01.1.034"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un ítem 9 positivo del PHQ-9 obliga a {{c1::evaluar el riesgo suicida en el mismo acto}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tamizaje con PHQ",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.008",
+        "5.01.1.034"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La primera línea de la depresión en APS son los {{c1::ISRS}} más psicoterapia.",
+      "extra": "Sertralina, escitalopram o fluoxetina.",
+      "origen": "clase:8",
+      "fuente": "Clase · Primera línea ISRS",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 174",
+        "EUNACOM Julio 2013 · Pregunta 174",
+        "EUNACOM Julio 2019 · Pregunta 129"
+      ],
+      "codigos": [
+        "2.01.1.136",
+        "1.07.1.004"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La {{c1::sertralina}} es el ISRS de elección en cardiopatía isquémica y lactancia.",
+      "extra": "Es también la opción en el adulto mayor y en el embarazo.",
+      "origen": "clase:8",
+      "fuente": "Clase · Primera línea ISRS",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 120",
+        "EUNACOM Julio 2018 · Pregunta 166"
+      ],
+      "codigos": [
+        "5.01.1.007",
+        "2.01.1.136"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La dosis de escitalopram en depresión es de {{c1::10 a 20 mg}} al día.",
+      "extra": "El más selectivo, con pocas interacciones.",
+      "origen": "clase:8",
+      "fuente": "Clase · Primera línea ISRS",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.136",
+        "1.07.1.004"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La dosis de fluoxetina en depresión es de {{c1::20 a 60 mg}} al día.",
+      "extra": "Vida media larga: ventajosa ante olvidos.",
+      "origen": "clase:8",
+      "fuente": "Clase · Primera línea ISRS",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.136",
+        "1.07.1.004"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El efecto antidepresivo de un ISRS demora {{c1::2 a 4 semanas}} en aparecer.",
+      "extra": "No suspender por ineficacia precoz; los efectos adversos iniciales son transitorios.",
+      "origen": "clase:8",
+      "fuente": "Clase · Primera línea ISRS",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.007",
+        "2.01.1.136"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante una depresión sin psicosis ni riesgo, el error típico es indicar {{c1::una benzodiacepina sola}}.",
+      "extra": "No tienen efecto antidepresivo.",
+      "origen": "clase:16",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.136",
+        "1.07.1.004"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si hay mejoría parcial con buena tolerancia, lo correcto es {{c1::subir la dosis}} antes de cambiar de familia.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.136"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si hay falla a dosis máxima de un ISRS, se cambia a otro ISRS o a un {{c1::dual (venlafaxina, duloxetina)}}.",
+      "extra": "Escitalopram 20 mg sin respuesta en un recurrente: venlafaxina.",
+      "origen": "clase:9",
+      "fuente": "Clase · Si no responde",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 146",
+        "EUNACOM Julio 2025 · Pregunta 88"
+      ],
+      "codigos": [
+        "2.01.1.136",
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras la remisión completa de un primer episodio, la misma dosis se mantiene {{c1::6 a 12 meses}}.",
+      "extra": "Error: suspender al mejorar.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 75"
+      ],
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con {{c1::3 o más}} episodios depresivos el mantenimiento es indefinido.",
+      "extra": "Error: suspender a los 12 meses.",
+      "origen": "clase:16",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.008",
+        "5.01.1.034"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Riesgo de recaída tras el primer, segundo y tercer episodio: {{c1::50, 70 y 90 %}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Recurrencia",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El bupropión no produce disfunción sexual, pero está prohibido en {{c1::epilepsia}} y en antecedente de bulimia o anorexia.",
+      "extra": "Riesgo de convulsiones.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.136",
+        "5.01.1.008"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La fluoxetina es el antidepresivo de elección en depresión moderada a grave de {{c1::niños y adolescentes}} que no mejoran con psicoterapia.",
+      "extra": "Los tricíclicos no son eficaces en menores.",
+      "origen": "clase:12",
+      "fuente": "Clase · Niños y adolescentes",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 81"
+      ],
+      "codigos": [
+        "2.01.1.136",
+        "5.01.1.034"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En menores de 18 años el síntoma cardinal de la depresión puede ser la {{c1::irritabilidad}} en vez de la tristeza.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Niños y adolescentes",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 39"
+      ],
+      "codigos": [
+        "5.01.1.034",
+        "2.01.1.136"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con un estresor claro y síntomas que no completan el cuadro, el error es diagnosticar depresión mayor en vez de {{c1::trastorno adaptativo}}.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 74"
+      ],
+      "codigos": [
+        "2.01.1.136",
+        "1.07.1.004"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La depresión es GES N° 21 desde los {{c1::15 años}}, con confirmación diagnóstica en APS en 24 horas.",
+      "extra": "Control presencial a las 2 semanas.",
+      "origen": "clase:13",
+      "fuente": "Clase · GES y derivación",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.136"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Psicosis, riesgo suicida alto o bipolar: ¿qué se hace?",
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Depresión sin psicosis ni riesgo: ¿tratamiento inicial?",
+      "codigos": [
+        "2.01.1.136"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0",
+      "pista": "Sin respuesta a 4 a 6 semanas: ¿conducta?",
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.1",
+      "pista": "Remisión completa: ¿qué se hace?",
+      "codigos": [
+        "5.01.1.007"
+      ]
+    }
+  ]
+}

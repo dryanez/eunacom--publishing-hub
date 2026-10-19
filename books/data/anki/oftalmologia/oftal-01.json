@@ -1,0 +1,524 @@
+{
+ "classId": "oftal-01",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Inyección conjuntival (superficial): rojo brillante, máximo en los fondos de saco, vasos móviles que se blanquean con {{c1::fenilefrina}}.",
+   "extra": "Típica de conjuntivitis y blefaritis.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Conjuntival",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-01/01_inyeccion-conjuntival__cto-oftalmo_p33.jpg",
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Inyección ciliar (periquerática): halo violáceo junto a la córnea, vasos fijos, no se blanquea; sello de {{c1::patología intraocular grave}}.",
+   "extra": "Queratitis, uveítis anterior y glaucoma agudo.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Ciliar",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los {{c1::5}} signos de alarma de ojo rojo grave: baja de agudeza visual, dolor real, alteración pupilar, córnea anormal y cámara anterior anormal.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Signos de alarma",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ojo superficial: ardor o arenilla; el dolor {{c1::sordo, terebrante o lancinante}} indica compromiso corneal, uveal o hipertensión ocular.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Dolor",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Miosis unilateral hiporreactiva: uveítis anterior; midriasis media paralítica y arreactiva: {{c1::glaucoma agudo}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pupila",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Córnea con edema en vidrio deslustrado o tinción positiva con {{c1::fluoresceína}} bajo luz azul de cobalto.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Córnea",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cámara anterior anormal: {{c1::hipopión}} (pus), hipema (sangre) o cámara estrecha.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cámara anterior",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-01/03_inyeccion-ciliar-con-hipopion__cto-oftalmo_p39.jpg",
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Glaucoma agudo: cefalea hemicraneana brutal, náuseas, midriasis media fija, {{c1::ojo pétreo}} y PIO mayor de 50 mmHg.",
+   "extra": "Hipermétrope de 30 años con cefalea 10/10; mujer de 50 años con pupila midriática arreactiva; paciente de 48 años con opacidad corneal.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Glaucoma agudo",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 3",
+    "EUNACOM Julio 2013 · Pregunta 144",
+    "EUNACOM Diciembre 2018 · Pregunta 149"
+   ],
+   "codigos": [
+    "2.01.1.097",
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La {{c1::hipermetropía}} predispone al glaucoma agudo: ojo pequeño y ángulo estrecho.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Glaucoma agudo",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.097",
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Uveítis anterior: dolor moderado, fotofobia intensa, miosis hiporreactiva y células en cámara anterior (fenómeno de {{c1::Tyndall}}).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Uveítis",
+   "repaso": false,
+   "imagen": "_verificadas/076_oftal_Ojo_rojo_profundo__AtlasClinDx_p109.jpg",
+   "codigos": [
+    "2.01.1.097",
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Uveítis anterior recurrente o bilateral: buscar {{c1::HLA-B27}} (espondiloartritis), sarcoidosis y tuberculosis.",
+   "extra": "Espondilitis anquilosante, psoriasis, Behçet.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Uveítis",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 81",
+    "EUNACOM Enero 2023 · Pregunta 98",
+    "EUNACOM Julio 2019 · Pregunta 52"
+   ],
+   "codigos": [
+    "2.01.1.097",
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Paciente con artritis psoriática, fotofobia y baja de visión: la pregunta oficial marcó {{c1::glaucoma agudo}}, aunque el cuadro es de uveítis.",
+   "extra": "Posible discrepancia del banco.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Discrepancia",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 46"
+   ],
+   "codigos": [
+    "2.01.1.097",
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Queratitis: dolor punzante, blefarospasmo, fotofobia severa y tinción con fluoresceína {{c1::positiva}}.",
+   "extra": "Usuaria de lentes de contacto con ojo rojo central: tinción con fluoresceína.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Queratitis",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 156"
+   ],
+   "codigos": [
+    "2.01.1.097",
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Artritis reumatoide con ojo rojo y fotofobia bilateral que empeoran en la tarde: queratitis {{c1::sicca}} (Sjögren secundario).",
+   "extra": "Ojo seco.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Ojo seco",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 19"
+   ],
+   "codigos": [
+    "2.01.1.097",
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Endoftalmitis: ojo rojo doloroso postquirúrgico o postraumático con {{c1::hipopión}} y pérdida visual; emergencia máxima.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Endoftalmitis",
+   "repaso": false,
+   "imagen": "_verificadas/276_oftal_Endoftalmitis__KanskisCli_p302_1.jpg",
+   "codigos": [
+    "2.01.1.097",
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hiposfagma: mancha roja homogénea, indolora, con visión y pupilas {{c1::normales}}; sin colirios.",
+   "extra": "Tranquilizar y controlar la presión arterial.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Hiposfagma",
+   "repaso": false,
+   "imagen": "_verificadas/75_hiposfagma__KanskisClini_p178_1.jpg",
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El hiposfagma se reabsorbe solo en {{c1::10 a 14 días}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Hiposfagma",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas del hiposfagma: idiopático, Valsalva (tos, vómito, esfuerzo) o {{c1::traumatismo}} mínimo.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Hiposfagma",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pterigión: pliegue fibrovascular triangular que nace del lado {{c1::nasal}} y avanza sobre la córnea.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Pterigión",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-01/54_pterigion__kanski_p175.jpg",
+   "codigos": [
+    "6.02.1.020"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La pinguécula es un engrosamiento amarillento junto al limbo que {{c1::no invade}} la córnea.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Pinguécula",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.020"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pterigión en APS: lentes con filtro {{c1::UV}}, lágrimas artificiales y antiinflamatorio solo en brotes.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Manejo",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.020"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Exéresis con autoinjerto conjuntival: recidiva menor de {{c1::10%}}.",
+   "extra": "Derivar si crece al centro, causa astigmatismo o es sospechoso.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Cirugía",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.020"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Uveítis anterior: derivar en menos de 24 horas para corticoide tópico y {{c1::ciclopléjico}} (previene sinequias posteriores).",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Uveítis manejo",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.030",
+    "6.02.1.021"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Jamás corticoides tópicos sin diagnóstico oftalmológico: pueden agravar una úlcera, incluso la herpética, y {{c1::perforar la córnea}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Corticoides",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.030",
+    "6.02.1.021"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Queratitis: cultivo, antibiótico tópico (fluoroquinolona), suspender lentes de contacto, {{c1::no parchar}} y derivar el mismo día.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Queratitis manejo",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.030",
+    "6.02.1.021"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Glaucoma agudo: acetazolamida 500 mg, timolol tópico y manitol EV; derivar para iridotomía láser y {{c1::evitar midriáticos}}.",
+   "extra": "Mujer de 54 años con topiramato, cefalea y vómitos: manitol EV.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Glaucoma manejo",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 80"
+   ],
+   "codigos": [
+    "6.02.1.030",
+    "6.02.1.021"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el glaucoma agudo la trampa es dar {{c1::atropina}} u otro midriático.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.030",
+    "6.02.1.021"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Conjuntivitis: pupila normal y reactiva, agudeza visual normal y {{c1::córnea transparente}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.020"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ojo rojo superficial sin alarma (conjuntivitis bacteriana incipiente): colirio de {{c1::cloranfenicol}} 0,5% e higiene.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-01/01_inyeccion-conjuntival__cto-oftalmo_p33.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Inyección conjuntival",
+   "clave": "Rojo brillante más intenso en la periferia",
+   "conducta": "Ojo rojo superficial: manejo en APS",
+   "fuente": "Manual CTO Oftalmología 14.ª ed., p. 33",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-01/03_inyeccion-ciliar-con-hipopion__cto-oftalmo_p39.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Inyección ciliar con hipopión",
+   "clave": "Halo oscuro pegado a la córnea y nivel de pus",
+   "conducta": "Derivación urgente a oftalmología",
+   "fuente": "Manual CTO Oftalmología 14.ª ed., p. 39",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 149"
+   ],
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "_verificadas/75_hiposfagma__KanskisClini_p178_1.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Hiposfagma",
+   "clave": "Mancha roja homogénea y bien delimitada",
+   "conducta": "Tranquilizar; se reabsorbe en 10-14 días",
+   "fuente": "Kanski's Clinical Ophthalmology, 8.ª ed., p. 178",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "i04",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-01/54_pterigion__kanski_p175.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Pterigión nasal",
+   "clave": "Pliegue triangular de conjuntiva que invade la córnea",
+   "conducta": "Fotoprotección; cirugía con autoinjerto si progresa",
+   "fuente": "Kanski's Clinical Ophthalmology, 8.ª ed., p. 175",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.020"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Ojo rojo: ¿qué se mira primero?",
+   "codigos": [
+    "2.01.1.097",
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Conjuntival sin alarma: ¿manejo?",
+   "codigos": [
+    "2.01.1.097",
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.0",
+   "pista": "Midriasis media fija y ojo pétreo: ¿diagnóstico y conducta?",
+   "codigos": [
+    "2.01.1.097",
+    "6.02.2.005"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.1",
+   "pista": "Miosis hiporreactiva con Tyndall: ¿diagnóstico y conducta?",
+   "codigos": [
+    "2.01.1.097",
+    "6.02.2.005"
+   ]
+  }
+ ]
+}

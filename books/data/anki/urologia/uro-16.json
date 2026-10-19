@@ -1,0 +1,563 @@
+{
+ "classId": "uro-16",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Al nacer casi todos los varones tienen prepucio no retráctil por adherencias {{c1::balanoprepuciales}} fisiológicas.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fimosis",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.009"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Solo cerca del {{c1::1%}} mantiene la fimosis en la adolescencia tardía.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fimosis",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.009"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fimosis fisiológica: prepucio sano y flexible que al retraerlo se abre en forma de {{c1::flor}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fimosis",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.009"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fimosis patológica: anillo blanquecino, fibroso e {{c1::inelástico}}; causas: balanopostitis repetidas, retracción forzada o liquen escleroso.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fimosis",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.009"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Niño de 5 años con prepucio sano, no retráctil y asintomático: {{c1::tranquilizar y observar}}.",
+   "extra": "Fisiológica hasta los 6-7 años; nunca retraer a la fuerza.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fimosis",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 62"
+   ],
+   "codigos": [
+    "4.03.1.009"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fimosis sintomática: {{c1::corticoide tópico}} (betametasona 0,05%) por 4 a 8 semanas.",
+   "extra": "Niño de 3 años con prepucio irreductible: corticoide en ungüento.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fimosis",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 114"
+   ],
+   "codigos": [
+    "4.03.1.009"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Circuncisión: fimosis {{c1::cicatricial}} o por liquen escleroso, fracaso del corticoide, balanopostitis o ITU recurrentes y parafimosis recurrente.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Circuncisión",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.009"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fimosis adquirida del adulto: descartar {{c1::diabetes}} y liquen escleroso; la fimosis mantenida aumenta el riesgo de cáncer de pene.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fimosis del adulto",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.009"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Parafimosis: prepucio retraído atrapado tras el surco balanoprepucial, con {{c1::anillo constrictor}} y edema del glande.",
+   "extra": "Urgencia.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Parafimosis",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.009",
+    "4.03.2.003"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causa típica de parafimosis: no {{c1::reponer el prepucio}} tras instalar una sonda Foley o examinar.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Parafimosis",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.009",
+    "4.03.2.003"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Manejo de la parafimosis: analgesia, compresión manual del edema y {{c1::reducción manual}}; si falla, incisión dorsal.",
+   "extra": "Adolescente tras relación sexual, 5 horas, glande rosado.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Parafimosis",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.009",
+    "4.03.5.006"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Balanopostitis: eritema, ardor, prurito y exudado {{c1::sin fiebre}}; si un niño con fimosis tiene fiebre alta, es ITU.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Balanopostitis",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.001"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causa infecciosa más frecuente en el adulto: {{c1::Candida albicans}} (eritema con pápulas satélites).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Candida",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.001"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Todo adulto con balanopostitis requiere {{c1::glicemia}}: puede ser la primera manifestación de diabetes.",
+   "extra": "Hombre de 60 años con eritema y prurito en glande.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diabetes",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.001"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Candidiásica: clotrimazol 1% crema cada 12 horas por {{c1::7 a 14 días}}.",
+   "extra": "Extensa: fluconazol 150 mg en dosis única.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.001"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Balanitis sin respuesta tras {{c1::4 a 6 semanas}}: biopsia para descartar liquen escleroso, eritroplasia de Queyrat o cáncer.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Banderas rojas",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.001"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Priapismo: erección de más de {{c1::4 horas}} no relacionada con estímulo sexual.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Priapismo",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.004"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El priapismo isquémico (bajo flujo) es cerca del {{c1::95%}} de los casos; actúa como síndrome compartimental.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Isquémico",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.004"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Isquémico: doloroso, cuerpos cavernosos {{c1::rígidos}} y glande y cuerpo esponjoso blandos.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Isquémico",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.004"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas del isquémico: alprostadil y papaverina intracavernosos, trazodona, antipsicóticos, {{c1::cocaína}}, drepanocitosis y leucemia.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Causas",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.004"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El priapismo de alto flujo se debe a un trauma perineal que crea una fístula {{c1::arteriocavernosa}}.",
+   "extra": "Es indoloro, parcial y no urgente.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 No isquémico",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.004"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Isquémico: sangre oscura, PO2 < {{c1::30 mmHg}}, PCO2 > 60 y pH < 7,25.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Gasometría",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.004"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "No isquémico: sangre roja con gases arteriales (PO2 > 90 mmHg, pH cercano a {{c1::7,40}}).",
+   "extra": "Niño de 12 años tras caída a horcajadas: Doppler y observación.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Gasometría",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.004"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento del isquémico: analgesia, aspiración de los cuerpos cavernosos y {{c1::fenilefrina intracavernosa}}.",
+   "extra": "Erección dolorosa de 8 horas con glande blando; cocainómano de 24 años.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tratamiento",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 62",
+    "EUNACOM Diciembre 2019 · Pregunta 66",
+    "EUNACOM Diciembre 2025 · Pregunta 94"
+   ],
+   "codigos": [
+    "4.03.2.004"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La pregunta oficial de julio 2018 marcó «vaciamiento quirúrgico» para la misma viñeta que las otras 3 resuelven con {{c1::fenilefrina}}.",
+   "extra": "Posible discrepancia del banco; sigue el manejo escalonado del libro.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Discrepancia",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2018 · Pregunta 66"
+   ],
+   "codigos": [
+    "4.03.2.004"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Fenilefrina: {{c1::200 µg}} cada 3 a 5 minutos, máximo 1 mg en una hora, con monitoreo de PA y FC.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Dosis",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.004"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el priapismo isquémico el {{c1::hielo}}, el ejercicio y la eyaculación no sirven y retrasan la conducta.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Errores",
+   "repaso": true,
+   "codigos": [
+    "4.03.2.004"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La erección depende del {{c1::óxido nítrico}}, la guanilato ciclasa y el GMPc, bajo control parasimpático S2-S4.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Fisiología",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.005"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fosfodiesterasa {{c1::5}} degrada el GMPc; el simpático por alfa-1 produce la detumescencia.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Fisiología",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.005"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La disfunción eréctil vasculogénica precede en {{c1::2 a 5 años}} a la enfermedad coronaria.",
+   "extra": "Siempre estratificar el riesgo cardiovascular.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Causa",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.005"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fármacos que causan disfunción eréctil: tiazidas, {{c1::betabloqueadores}}, espironolactona, ISRS y antiandrógenos.",
+   "extra": "Paciente con tamsulosina, atenolol e hidroclorotiazida: atenolol.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Fármacos",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 32"
+   ],
+   "codigos": [
+    "4.03.1.005"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primera línea de la disfunción eréctil: inhibidores de la fosfodiesterasa 5 ({{c1::sildenafil o tadalafil}}).",
+   "extra": "Hombre de 55 años con HTA controlada con enalapril; adulto mayor con libido conservada.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Tratamiento",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 112",
+    "EUNACOM Diciembre 2024 · Pregunta 107"
+   ],
+   "codigos": [
+    "4.03.1.005"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Sildenafil 50 mg {{c1::una hora}} antes (efecto 4-5 horas); tadalafil 10-20 mg a demanda (hasta 36 horas).",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Dosis",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.005"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Contraindicación absoluta de los iPDE5: {{c1::nitratos}}; no dar nitratos 24 h tras sildenafil ni 48 h tras tadalafil.",
+   "extra": "Usuario de sildenafil con infarto: nitroglicerina contraindicada.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Nitratos",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.005"
+   ]
+  },
+  {
+   "id": "c46",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La testosterona solo se indica con {{c1::hipogonadismo}} confirmado.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Testosterona",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.005"
+   ]
+  },
+  {
+   "id": "c47",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si fallan los iPDE5, el urólogo usa {{c1::alprostadil}} intracavernoso o dispositivo de vacío; tercera línea: prótesis de pene.",
+   "extra": "Diabético de 63 años: la pregunta marcó papaverina intracavernosa (discutida, por el infarto reciente).",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Segunda línea",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 49"
+   ],
+   "codigos": [
+    "4.03.1.005"
+   ]
+  },
+  {
+   "id": "c48",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Eyaculación precoz primaria: {{c1::dapoxetina}} (ISRS de acción corta) más técnicas conductuales (stop-start).",
+   "extra": "Eyaculación antes del minuto en el 90% de los encuentros.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Eyaculación",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 113"
+   ],
+   "codigos": [
+    "4.03.1.005"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Prepucio que no retrae: ¿qué hay que mirar?",
+   "codigos": [
+    "4.03.1.009",
+    "4.03.2.004"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Fimosis sana y sin síntomas: ¿conducta?",
+   "codigos": [
+    "4.03.1.009",
+    "4.03.2.004"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1",
+   "pista": "Prepucio retraído atrapado con glande edematoso: ¿conducta?",
+   "codigos": [
+    "4.03.1.009",
+    "4.03.2.004"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.3.0",
+   "pista": "Erección isquémica dolorosa: ¿conducta?",
+   "codigos": [
+    "4.03.1.009",
+    "4.03.2.004"
+   ]
+  },
+  {
+   "id": "o05",
+   "nodo": "r.3.1",
+   "pista": "Erección indolora tras trauma: ¿conducta?",
+   "codigos": [
+    "4.03.1.009",
+    "4.03.2.004"
+   ]
+  }
+ ]
+}

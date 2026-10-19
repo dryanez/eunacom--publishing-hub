@@ -1,0 +1,495 @@
+{
+  "classId": "psiq-06",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El ataque de pánico requiere al menos {{c1::4 de 13}} síntomas.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cuatro de trece síntomas",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.001"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El ataque de pánico alcanza su pico en menos de {{c1::10 minutos}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.001"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síntoma cognitivo más típico del ataque de pánico es el {{c1::miedo inminente a morir}}.",
+      "extra": "También desrealización, despersonalización y miedo a perder el control.",
+      "origen": "clase:2",
+      "fuente": "Clase · Cuatro de trece síntomas",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.001"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hiperventilación del pánico produce {{c1::alcalosis respiratoria}} con parestesias.",
+      "extra": "Respirar en bolsa no sirve y puede causar hipoxia.",
+      "origen": "clase:1",
+      "fuente": "Clase · De la amígdala al miedo",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.001"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El trastorno de pánico exige ataques imprevistos recurrentes seguidos de {{c1::1 mes}} de miedo a nuevas crisis o evitación.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · De un ataque a un trastorno",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 66",
+        "EUNACOM Enero 2023 · Pregunta 134",
+        "EUNACOM Julio 2013 · Pregunta 128"
+      ],
+      "codigos": [
+        "5.01.1.001"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un ataque de pánico aislado {{c1::no}} equivale a trastorno de pánico.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · De un ataque a un trastorno",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.001"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La agorafobia es miedo en {{c1::2 o más}} situaciones (transporte, espacios abiertos o cerrados) por temor a no poder escapar.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Agorafobia",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 155",
+        "EUNACOM Diciembre 2018 · Pregunta 133",
+        "EUNACOM Diciembre 2019 · Pregunta 31",
+        "EUNACOM Julio 2017 · Pregunta 152"
+      ],
+      "codigos": [
+        "5.01.1.001"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la fobia social el miedo es al {{c1::juicio de otros}}; en la agorafobia, a no poder escapar.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Agorafobia",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.001"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con pánico y agorafobia juntos, el error es diagnosticar {{c1::solo agorafobia}}.",
+      "extra": "Se diagnostica pánico; la agorafobia es una complicación.",
+      "origen": "clase:15",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 113"
+      ],
+      "codigos": [
+        "5.01.1.001"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante un primer episodio con dolor torácico, el error es rotular ansiedad {{c1::sin examinar}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 83",
+        "EUNACOM Diciembre 2017 · Pregunta 103"
+      ],
+      "codigos": [
+        "5.01.4.001"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el primer episodio de pánico el examen obligatorio es el {{c1::ECG de 12 derivaciones}}.",
+      "extra": "Más glicemia capilar, saturación, TSH y tóxicos si hay sospecha.",
+      "origen": "clase:6",
+      "fuente": "Clase · Descartar antes de rotular",
+      "repaso": true,
+      "codigos": [
+        "5.01.4.001",
+        "5.01.1.001"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síndrome coronario agudo dura más de {{c1::20 a 30 minutos}}, a diferencia del pánico.",
+      "extra": "Se descarta con ECG y troponinas.",
+      "origen": "clase:5",
+      "fuente": "Clase · Lo que puede parecer pánico",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.001"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tromboembolismo pulmonar simula pánico con disnea súbita y dolor pleurítico; se estudia con {{c1::angioTAC y dímero D}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Lo que puede parecer pánico",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.001",
+        "5.01.4.001"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cefalea, sudor y palpitaciones con HTA paroxística sugieren {{c1::feocromocitoma}}.",
+      "extra": "Metanefrinas en plasma u orina.",
+      "origen": "clase:5",
+      "fuente": "Clase · Lo que puede parecer pánico",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.001",
+        "5.01.4.001"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "TSH baja con T4 libre alta es {{c1::hipertiroidismo}}, que simula pánico, ansiedad o hipomanía.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Leer la TSH y la T4 libre",
+      "repaso": true,
+      "codigos": [
+        "5.01.4.001",
+        "5.01.1.001"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "TSH alta con T4 libre baja es hipotiroidismo primario, que simula {{c1::depresión o demencia}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Leer la TSH y la T4 libre",
+      "repaso": false,
+      "codigos": [
+        "5.01.4.001"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El hipotiroidismo subclínico se trata si la TSH es mayor de {{c1::10}} o hay síntomas.",
+      "extra": "Es TSH alta con T4L normal.",
+      "origen": "clase:7",
+      "fuente": "Clase · Leer la TSH y la T4 libre",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 161"
+      ],
+      "codigos": [
+        "5.01.4.001"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "TSH baja o normal con T4L baja indica causa {{c1::central}}: estudiar la hipófisis.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Leer la TSH y la T4 libre",
+      "repaso": false,
+      "codigos": [
+        "5.01.4.001"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante cuadro depresivo o ansioso, el mejor examen único para la causa orgánica es la {{c1::TSH}}.",
+      "extra": "",
+      "origen": "clase:22",
+      "fuente": "Clase · Quiz EUNACOM",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 161"
+      ],
+      "codigos": [
+        "5.01.1.001",
+        "5.01.4.001"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con litio, la TSH se controla antes de iniciar y luego cada {{c1::6 a 12 meses}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tiroides y psiquiatría",
+      "repaso": false,
+      "codigos": [
+        "5.01.4.001"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El litio produce hipotiroidismo (hasta 20 %) y se maneja con {{c1::levotiroxina}} sin suspenderlo.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tiroides y psiquiatría",
+      "repaso": false,
+      "codigos": [
+        "5.01.4.001"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la crisis aguda primero va la contención verbal en un box tranquilo y la {{c1::respiración diafragmática lenta}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Manejo en urgencias",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.001"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si la crisis no cede, el rescate es {{c1::lorazepam}} sublingual (o clonazepam).",
+      "extra": "De vida media más corta; evitar vía parenteral salvo agitación extrema.",
+      "origen": "clase:9",
+      "fuente": "Clase · Manejo en urgencias",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 67"
+      ],
+      "codigos": [
+        "5.01.1.001"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Lorazepam sublingual en crisis: {{c1::1 a 2 mg}}.",
+      "extra": "Clonazepam 0,5 a 1 mg.",
+      "origen": "clase:12",
+      "fuente": "Clase · Crisis, puente y mantención",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.001"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante una crisis con ECG normal el error es usar {{c1::adenosina, morfina o intubar}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": false,
+      "codigos": [
+        "5.01.4.001"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El tratamiento de fondo del pánico recurrente es {{c1::ISRS}} más TCC.",
+      "extra": "Sertralina, escitalopram; también paroxetina o venlafaxina.",
+      "origen": "clase:11",
+      "fuente": "Clase · ISRS y TCC",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 12",
+        "EUNACOM Enero 2023 · Pregunta 133",
+        "EUNACOM Diciembre 2018 · Pregunta 37"
+      ],
+      "codigos": [
+        "5.01.1.001"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El ISRS en pánico parte con {{c1::media dosis}} por 1 a 2 semanas.",
+      "extra": "Estimulación 5-HT precoz: más ansiedad los primeros días.",
+      "origen": "clase:10",
+      "fuente": "Clase · El ISRS parte con media dosis",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.001"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Sertralina en pánico: {{c1::25 mg}} por 7 días y luego 50 mg.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Crisis, puente y mantención",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.001"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si empeora los primeros días con el ISRS, el error es {{c1::duplicar o suspender}}.",
+      "extra": "Media dosis, explicar y puente benzodiacepínico.",
+      "origen": "clase:15",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.001"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La benzodiacepina puente dura {{c1::2 a 4 semanas}}, con retiro gradual.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.001"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La benzodiacepina en monoterapia continua produce tolerancia, dependencia y {{c1::rebote agorafóbico}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.001"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La agorafobia se trata con ISRS y TCC con {{c1::exposición en vivo}}; en el embarazo se evitan benzodiacepinas (citalopram).",
+      "extra": "Error: hospitalización prolongada.",
+      "origen": "clase:15",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 103"
+      ],
+      "codigos": [
+        "5.01.1.001"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Primer episodio de pánico en urgencias: ¿qué se hace siempre?",
+      "codigos": [
+        "5.01.1.001"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "ECG normal: ¿conducta inicial?",
+      "codigos": [
+        "5.01.1.001"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0",
+      "pista": "La crisis no cede: ¿qué fármaco?",
+      "codigos": [
+        "5.01.1.001"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.1",
+      "pista": "Crisis recurrentes con ansiedad anticipatoria: ¿tratamiento?",
+      "codigos": [
+        "5.01.1.001"
+      ]
+    }
+  ]
+}

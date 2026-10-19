@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Demo · tarjeta Anki con video AEE</title>
+<!-- Simula el reverso de una tarjeta Anki: término clicable → popover → «Ver aquí» abre el reproductor AEE embebido. -->
+<style>
+  body{margin:0;background:#1E1E1E;color:#E6E6E6;font:18px/1.55 -apple-system,Inter,system-ui,sans-serif;display:flex;justify-content:center}
+  .card{max-width:640px;width:100%;padding:28px 22px}
+  .cloze{color:#4FC3F7;font-weight:600}
+  .term{border-bottom:1px dotted #2FD3C7;cursor:pointer}
+  .extra{color:#AEB6C1;font-size:15px;margin-top:14px}
+  .pop{display:none;margin-top:14px;background:#151A21;border:1px solid #2B3644;border-radius:10px;padding:12px 14px;font-size:14px}
+  .pop b{color:#2FD3C7}
+  .pop .btns{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+  .pop button,.pop a{background:#1A212B;color:#E8ECF1;border:1px solid #2B3644;border-radius:6px;padding:6px 10px;font-size:13px;cursor:pointer;text-decoration:none}
+  .player{display:none;margin-top:12px;border-radius:10px;overflow:hidden;border:1px solid #2B3644}
+  .player iframe{width:100%;aspect-ratio:16/10;border:0;display:block}
+  .tags{margin-top:18px;font-size:11px;color:#6F7A88}
+</style></head>
+<body><div class="card">
+  <div>En la <span class="term" data-t="90">colitis ulcerosa</span> el compromiso es <span class="cloze">continuo desde el recto</span>; en el Crohn es salteado y transmural.</div>
+  <div class="extra">Por eso la CU se cura con colectomía y el Crohn no.</div>
+  <div class="pop" id="pop">
+    <div><b>Colitis ulcerosa</b> · inflamación mucosa continua que parte en el recto y avanza en sentido proximal. Rectorragia con pujo y tenesmo.</div>
+    <div class="btns"><span>📖 Libro Gastro p. 41</span><button id="ver">▶ Ver aquí (1:30)</button><a href="https://eunacom-examen.cl/?utm_source=anki&utm_content=gastro-10" target="_blank">Abrir en AEE ↗</a></div>
+  </div>
+  <div class="player" id="player"><iframe id="ifr" allow="fullscreen; autoplay" allowfullscreen></iframe></div>
+  <div class="tags">AEE_V3::Gastroenterologia::gastro-10_EII · AEE_V3::Concepto::Colitis_ulcerosa · AEE_V3::Perfil::1.06.1.012</div>
+</div>
+<script>
+  document.querySelector('.term').onclick = () => { const p = document.getElementById('pop'); p.style.display = p.style.display === 'block' ? 'none' : 'block'; };
+  document.getElementById('ver').onclick = () => {
+    document.getElementById('ifr').src = 'embed.html?c=gastro-10&t=90';
+    document.getElementById('player').style.display = 'block';
+  };
+</script></body></html>

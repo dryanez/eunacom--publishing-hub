@@ -1,0 +1,463 @@
+{
+ "report": {
+  "topics": {
+   "T20.1": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 360,
+    "traps": 3,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T20.2": {
+    "steps": 10,
+    "split": false,
+    "algo": {
+     "scale": 0.98,
+     "orient": "lr"
+    },
+    "algoH": 300,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T20.3": {
+    "steps": 7,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 270,
+    "traps": 0,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T20.4": {
+    "steps": 12,
+    "split": false,
+    "algo": {
+     "scale": 0.87,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T20.5": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 400,
+    "traps": 3,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T20.6": {
+    "steps": 10,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 220,
+    "traps": 1,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T20.7": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T20.8": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 1,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T20.9": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T20.10": {
+    "steps": 7,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T20.11": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T20.12": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 310,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T20.13": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 360,
+    "traps": 3,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T20.14": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T20.15": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T20.16": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 270,
+    "traps": 2,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   }
+  },
+  "warnings": [],
+  "pages": 30,
+  "where": {
+   "COVER": 1,
+   "IDX": 2,
+   "T20.1": 3,
+   "T20.2": 5,
+   "T20.3": 6,
+   "T20.4": 7,
+   "T20.5": 8,
+   "T20.6": 10,
+   "T20.7": 11,
+   "T20.8": 12,
+   "T20.9": 14,
+   "T20.10": 16,
+   "T20.11": 17,
+   "T20.12": 18,
+   "T20.13": 19,
+   "T20.14": 21,
+   "T20.15": 23,
+   "T20.16": 24,
+   "NUM": 25,
+   "DRUG": 27,
+   "GES": 27,
+   "PLAN": 29,
+   "PRIO": 30
+  }
+ },
+ "stars": [
+  {
+   "t": "20.1",
+   "real": 20,
+   "stars": 3,
+   "lg": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "t": "20.2",
+   "real": 5,
+   "stars": 1,
+   "lg": [
+    8,
+    9,
+    10,
+    37
+   ]
+  },
+  {
+   "t": "20.3",
+   "real": 31,
+   "stars": 3,
+   "lg": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ]
+  },
+  {
+   "t": "20.4",
+   "real": 8,
+   "stars": 2,
+   "lg": [
+    17,
+    18
+   ]
+  },
+  {
+   "t": "20.5",
+   "real": 8,
+   "stars": 2,
+   "lg": [
+    1,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+   ]
+  },
+  {
+   "t": "20.6",
+   "real": 3,
+   "stars": 1,
+   "lg": [
+    30,
+    31,
+    32,
+    33
+   ]
+  },
+  {
+   "t": "20.7",
+   "real": 7,
+   "stars": 1,
+   "lg": [
+    34,
+    35,
+    36
+   ]
+  },
+  {
+   "t": "20.8",
+   "real": 12,
+   "stars": 2,
+   "lg": [
+    41,
+    42,
+    43,
+    44
+   ]
+  },
+  {
+   "t": "20.9",
+   "real": 19,
+   "stars": 3,
+   "lg": [
+    19,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54
+   ]
+  },
+  {
+   "t": "20.10",
+   "real": 7,
+   "stars": 1,
+   "lg": [
+    38,
+    39,
+    40
+   ]
+  },
+  {
+   "t": "20.11",
+   "real": 4,
+   "stars": 1,
+   "lg": [
+    2,
+    55,
+    56,
+    57,
+    58,
+    59
+   ]
+  },
+  {
+   "t": "20.12",
+   "real": 19,
+   "stars": 3,
+   "lg": [
+    60,
+    61
+   ]
+  },
+  {
+   "t": "20.13",
+   "real": 24,
+   "stars": 3,
+   "lg": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72
+   ]
+  },
+  {
+   "t": "20.14",
+   "real": 30,
+   "stars": 3,
+   "lg": [
+    20,
+    74,
+    75,
+    76,
+    77,
+    78
+   ]
+  },
+  {
+   "t": "20.15",
+   "real": 23,
+   "stars": 3,
+   "lg": [
+    73,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87
+   ]
+  },
+  {
+   "t": "20.16",
+   "real": 9,
+   "stars": 2,
+   "lg": [
+    88,
+    89,
+    90
+   ]
+  }
+ ],
+ "lg": {
+  "name": "Ginecología",
+  "file": "Libro_Gordo_Ginecologia_90Q.pdf",
+  "unassigned": [],
+  "byLabel": 83,
+  "byCode": 6,
+  "total": 90,
+  "byEditorial": 1
+ },
+ "stats": {
+  "numbers": 44,
+  "drugs": 11,
+  "ges": 3
+ }
+}

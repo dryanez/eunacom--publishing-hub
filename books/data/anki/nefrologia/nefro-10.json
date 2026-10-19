@@ -1,0 +1,498 @@
+{
+  "classId": "nefro-10",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hipokalemia: K < {{c1::3.5 mEq/L}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clínica",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.006"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Clínica neuromuscular de hipokalemia: debilidad simétrica {{c1::ascendente}}, calambres, mialgias e hiporreflexia.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Clínica",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En músculo liso, la hipokalemia causa {{c1::constipación e íleo paralítico}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hipokalemia severa (K < {{c1::2.0 mEq/L}}): rabdomiolisis y parálisis del diafragma.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primer cambio ECG de hipokalemia: {{c1::aplanamiento o inversión de la onda T}}, con infradesnivel del ST.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signo ECG característico de hipokalemia: {{c1::onda U prominente}}, mejor vista en V2–V4.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Onda U",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la hipokalemia el QT 'largo' es en realidad un intervalo {{c1::QU}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Onda U",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Arritmias de la hipokalemia: ectopias ventriculares, TV polimorfa ({{c1::torsades de pointes}}) y FV.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.006"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En usuarios de digoxina con K bajo se corrige y se mantiene K sobre {{c1::4.0}}.",
+      "extra": "Riesgo de toxicidad digitálica.",
+      "origen": "clase:2",
+      "fuente": "Clase · Onda U",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hipokalemia con K urinario < {{c1::20 mEq/día}}: pérdida extrarrenal (diarrea, fístulas, laxantes).",
+      "extra": "El riñón ahorra potasio.",
+      "origen": "clase:3",
+      "fuente": "Clase · ¿Por dónde se pierde?",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hipokalemia con K urinario > {{c1::20 mEq/día}}: fuga renal.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · ¿Por dónde se pierde?",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipokalemia con fuga renal + HTA: pensar en {{c1::hiperaldosteronismo primario (Conn)}}, estenosis de arteria renal o Cushing.",
+      "extra": "Tratamiento: espironolactona o cirugía del adenoma.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla etiología",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hipokalemia + HTA sin diuréticos: el error es llamarla {{c1::hipertensión esencial}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fuga renal de K con PA normal: diuréticos, {{c1::vómitos}}, Bartter y Gitelman.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla etiología",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipokalemia por redistribución: {{c1::alcalosis metabólica, agonistas beta-2 y exceso de insulina}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla etiología",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causa más frecuente de hipokalemia ambulatoria: {{c1::diuréticos tiazídicos y de asa}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipokalemia en usuario de clortalidona con exceso de sal: la medida es {{c1::disminuir el cloruro de sodio}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Pregunta real",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 140"
+      ],
+      "codigos": [
+        "1.09.2.006"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La vía de elección para reponer potasio, si el paciente tolera, es la {{c1::oral}} (gluconato de K o KCl retard).",
+      "extra": "Evita hiperkalemia de rebote.",
+      "origen": "clase:4",
+      "fuente": "Clase · Reposición",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se indica vía oral si K > {{c1::2.5–3.0 mEq/L}} y sin síntomas.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Reposición",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se indica KCl endovenoso si K < {{c1::2.5 mEq/L}}, hay cambios ECG o intolerancia oral.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Reposición",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "KCl por vena periférica: concentración máxima {{c1::40 mEq/L}}.",
+      "extra": "Evita flebitis química y esclerosis venosa.",
+      "origen": "clase:5",
+      "fuente": "Clase · KCl endovenoso",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "KCl por vena periférica: velocidad máxima {{c1::10–20 mEq/h}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · KCl endovenoso",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dos ampollas de KCl 10% (10 mL) aportan {{c1::26.8 mEq}} de potasio.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · KCl endovenoso",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Vía central permite hasta {{c1::60–80 mEq/L}} y 20–40 mEq/h en paro o arritmia ventricular grave.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · KCl endovenoso",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "KCl por vía central exige siempre {{c1::bomba de infusión continua y monitor ECG}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · KCl endovenoso",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El KCl se diluye en {{c1::suero fisiológico}}; nunca en suero glucosado.",
+      "extra": "La glucosa libera insulina y desplaza el K a la célula.",
+      "origen": "clase:5",
+      "fuente": "Clase · KCl endovenoso",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Error frecuente: usar {{c1::KCl endovenoso de rutina}} en hipokalemia que tolera vía oral y sin síntomas.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Error frecuente: concentrar o acelerar el KCl periférico para corregir {{c1::rápido}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causa más común de hipokalemia refractaria: {{c1::hipomagnesemia}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Magnesio",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El déficit de magnesio abre el canal {{c1::ROMK}} del túbulo colector y produce fuga renal continua de potasio.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Magnesio",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hipokalemia que no sube tras aporte adecuado: medir y reponer {{c1::sulfato de magnesio IV}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Magnesio",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si el K no sube tras 24 h de aporte, el error es {{c1::seguir subiendo el KCl}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/03_nefrologia/nefro-10/01_ecg-hipopotasemia-ondas-u__cto-nefro_p22.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Hipokalemia: onda U",
+      "clave": "Pequeña deflexión positiva tras la T, mejor en V2–V4",
+      "conducta": "Reponer K (oral si tolera); medir Mg si es refractaria",
+      "fuente": "Manual CTO Nefrología 14.ª ed., p. 22",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1.0",
+      "pista": "K < 2,5 sin arritmia grave: ¿cómo repones?",
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1",
+      "pista": "Paro o arritmia ventricular grave: ¿qué vía y ritmo?",
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2",
+      "pista": "K no sube pese al aporte: ¿qué mides y repones?",
+      "codigos": [
+        "1.09.2.006",
+        "1.09.4.010"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,490 @@
+{
+  "classId": "nefro-05",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hiponatremia es principalmente un exceso relativo de {{c1::agua libre}}, más que un déficit de sodio.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Problema de agua",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primer paso ante un sodio bajo: medir la {{c1::osmolaridad plasmática}} para confirmar que es hipotónica.",
+      "extra": "Osm = 2 × Na + glicemia / 18.",
+      "origen": "clase:2",
+      "fuente": "Clase · ¿Es hipotónica?",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Osmolaridad plasmática normal: {{c1::280 a 295}}; ahí el sodio bajo es pseudohiponatremia (triglicéridos, mieloma).",
+      "extra": "No se trata.",
+      "origen": "clase:2",
+      "fuente": "Clase · ¿Es hipotónica?",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hiponatremia hipotónica verdadera: osmolaridad plasmática < {{c1::275}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · ¿Es hipotónica?",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hiperglicemia: se corrige el sodio sumando {{c1::1.6 a 2.0 mEq/L}} por cada 100 mg/dL de glicemia sobre 100.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Osmolaridad",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hiponatremia aguda: < {{c1::48 horas}}; crónica: ≥ 48 horas o de duración desconocida.",
+      "extra": "En la aguda el cerebro no alcanzó a adaptarse.",
+      "origen": "clase:3",
+      "fuente": "Clase · Clasificación",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hiponatremia leve: {{c1::130–134}}; moderada: {{c2::125–129}}; severa: < 125 mEq/L.",
+      "extra": "Pero la urgencia la definen los síntomas.",
+      "origen": "clase:3",
+      "fuente": "Clase · Clasificación",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hiponatremia hipovolémica con Na urinario < 20 mEq/L indica pérdidas {{c1::extrarrenales}} (vómitos, diarrea, tercer espacio).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Volemia y Na urinario",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hiponatremia hipovolémica con Na urinario > 20 mEq/L indica pérdidas {{c1::renales}} (tiazidas, Addison, nefropatía pierde sal).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Volemia y Na urinario",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "SIADH: euvolemia con Na urinario > {{c1::40 mEq/L}} y osmolaridad urinaria > {{c2::100 mOsm/kg}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fármacos que causan SIADH: {{c1::ISRS (sertralina, citalopram) y carbamazepina}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Causas frecuentes",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 49",
+        "EUNACOM Diciembre 2024 · Pregunta 41"
+      ],
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fumador con cáncer pulmonar de células pequeñas, hiponatremia y desorientación sin focalidad: {{c1::SIADH}} por secreción ectópica de ADH.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Causas frecuentes",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 92"
+      ],
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las tiazidas actúan en el túbulo contorneado {{c1::distal}} y bloquean la dilución urinaria; son la causa farmacológica más frecuente de hiponatremia hipovolémica.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "A diferencia de la furosemida, las tiazidas dejan intacta la {{c1::médula hiperosmolar}}, por lo que la ADH sigue reabsorbiendo agua libre.",
+      "extra": "Por eso la hiponatremia por tiazidas es más frecuente y severa.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro · pregunta tiazidas",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.4.016"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hiponatremia con hipokalemia y función renal normal en usuario de tiazida: la causa es {{c1::hidroclorotiazida}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Agosto 2021",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Polidipsia psicógena o 'beer potomania': Na urinario < 20 y osmolaridad urinaria < {{c1::100 mOsm/kg}}.",
+      "extra": "Tratamiento: aporte de solutos y dieta.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla volemia",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hiponatremia hipervolémica (ICC, cirrosis, nefrótico): Na urinario {{c1::< 20 mEq/L}}, por menor volumen arterial efectivo.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 VEC",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.4.016"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Convulsiones, estupor, coma o bradipnea en hiponatremia son una {{c1::emergencia vital}} por edema cerebral.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Urgencia",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hiponatremia sintomática grave: bolo de {{c1::NaCl 3%}} de {{c2::100 a 150 mL}} en 10 a 20 minutos.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Suero al 3%",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El bolo de NaCl 3% puede repetirse hasta {{c1::2 veces más}}, cada 20–30 minutos si persisten los síntomas.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Suero al 3%",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta de la emergencia: subir el sodio {{c1::4 a 6 mEq/L}}; basta para revertir el edema cerebral.",
+      "extra": "No se busca normalizar.",
+      "origen": "clase:6",
+      "fuente": "Clase · Suero al 3%",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante hiponatremia con convulsiones, el error es dar {{c1::suero fisiológico o restricción hídrica}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hiponatremia crónica: no superar {{c1::8 a 10 mEq/L}} en 24 h ni {{c2::18 mEq/L}} en 48 h.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Velocidad de corrección",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Alto riesgo de desmielinización (alcohol, desnutrición, cirrosis, hipokalemia): máximo {{c1::6 a 8 mEq/L}} en 24 h.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Velocidad de corrección",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La corrección demasiado rápida produce {{c1::mielinolisis pontina central}} (desmielinización osmótica).",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Desmielinización",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síndrome de desmielinización osmótica: aparece días 2 a 6 con {{c1::disartria, disfagia y cuadriparesia}}.",
+      "extra": "El paciente primero mejora; luego se deteriora.",
+      "origen": "clase:8",
+      "fuente": "Clase · Desmielinización",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Sobrecorrección accidental: {{c1::suero glucosado 5%}} (3–5 mL/kg/h) + {{c2::desmopresina 1 a 2 mcg}} cada 6–8 h.",
+      "extra": "Para volver a bajar el sodio.",
+      "origen": "clase:8",
+      "fuente": "Clase · Desmielinización",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante sobrecorrección, el error es {{c1::solo suspender el suero y esperar}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hiponatremia asintomática hipovolémica: {{c1::suero fisiológico 0.9%}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Manejo sin urgencia",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "SIADH asintomático: restricción hídrica a menos de {{c1::800 a 1000 mL}} al día, más NaCl oral.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Manejo sin urgencia",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el euvolémico con Na urinario > 40, el error es {{c1::hidratar con suero fisiológico}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/07_nefrologia/nefro-05/atlas_111_rm_de_mielinolisis_pontina_cen.jpg",
+      "pregunta": "¿Qué muestra y qué lo causó?",
+      "diagnostico": "Mielinolisis pontina central",
+      "clave": "Hiperintensidad pontina en la RM",
+      "conducta": "Prevenir: corregir ≤ 8–10 mEq/L/24 h (6–8 si alto riesgo)",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.2.0",
+      "pista": "Hiponatremia con convulsiones: ¿qué indicas?",
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.2.1.1",
+      "pista": "Euvolémico con Na urinario alto: ¿qué manejo?",
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.2.1.0",
+      "pista": "Hipovolémico sin síntomas graves: ¿qué suero?",
+      "codigos": [
+        "1.09.2.007",
+        "1.09.1.010"
+      ]
+    }
+  ]
+}

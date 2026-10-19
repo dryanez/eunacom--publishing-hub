@@ -1,0 +1,482 @@
+{
+  "classId": "gin-06",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Prolapso de pared anterior: {{c1::cistocele / uretrocele}}; de pared posterior: {{c2::rectocele}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definición",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.026"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Prolapso del compartimento apical: {{c1::histerocele}} o prolapso de cúpula vaginal tras histerectomía.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definición",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.026"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Factores de riesgo del prolapso: multiparidad, partos {{c1::instrumentales}}, menopausia, obesidad y aumento crónico de la presión abdominal.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Prolapso",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.026"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "POP-Q: el plano de referencia es el {{c1::himen}} (0 cm).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.026"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "POP-Q estadio II: punto de mayor descenso entre {{c1::-1 cm y +1 cm}} del himen.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.026"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "POP-Q estadio I: punto de mayor descenso a más de 1 cm por {{c1::encima}} del himen (< -1 cm).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 POP-Q",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.026"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "POP-Q estadio III: punto de mayor descenso a más de {{c1::1 cm}} por debajo del himen (> +1 cm).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 POP-Q",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.026"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "POP-Q estadio IV: {{c1::procidencia}} con eversión completa de la longitud vaginal.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.026"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "POP-Q estadio 0: sin prolapso, todos los puntos a {{c1::-3 cm}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 POP-Q",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.026"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Prolapso genital confirmado al examen: el paso siguiente es {{c1::estadificar con POP-Q}}.",
+      "extra": "Recién con eso se decide el tratamiento.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz Jul 2019",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.026"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 45"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Prolapso asintomático: {{c1::observación}}; sintomático: Kegel o pesario y luego cirugía.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.026"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pesario vaginal: conservador de elección en prolapso con {{c1::contraindicación quirúrgica}} o que rechaza cirugía.",
+      "extra": "Ejemplo: paciente con Alzheimer avanzado y prolapso completo.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.026"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 143"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Colporrafia anterior corrige el cistocele; colporrafia posterior corrige el {{c1::rectocele}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.026"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Prolapso apical: opciones quirúrgicas {{c1::histerectomía vaginal o sacrocolpopexia con malla}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.026"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "IUE: pérdida de orina sincrónica con el aumento de {{c1::presión intraabdominal}} (tos, risa, esfuerzo).",
+      "extra": "Sin contracción del detrusor.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.032"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causa principal de la IUE: {{c1::hipermovilidad uretral}} por pérdida del soporte pubocervical.",
+      "extra": "Daño obstétrico del suelo pélvico.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Causa",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.032"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Test de Bonney: el escape de la IUE {{c1::cede}} al elevar el cuello vesical a ambos lados de la uretra.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.032"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Test del hisopo (Q-tip): movilidad uretral > {{c1::30°}} respecto a la horizontal.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.032"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Prueba de esfuerzo: escape visible al toser con {{c1::vejiga llena}}.",
+      "extra": "IUE positiva; IUU negativa.",
+      "origen": "clase:2",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.032"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "IUE leve a moderada: primera línea con {{c1::ejercicios de Kegel}} (kinesioterapia de piso pélvico).",
+      "extra": "Primero se descarta ITU.",
+      "origen": "clase:8",
+      "fuente": "Clase · Quiz caso",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.032"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 47"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "IUE que falla la kinesioterapia: cirugía de elección con {{c1::cabestrillo mediouretral libre de tensión (TOT o TVT)}}.",
+      "extra": "Curación > 85-90%.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.032"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cabestrillos TOT/TVT: tasa de curación > {{c1::85-90%}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.032"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "IUU: escape precedido por {{c1::deseo miccional imperioso}} por hiperactividad del detrusor.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.032"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Vejiga hiperactiva: urgencia con polaquiuria ≥ {{c1::8}} al día y nicturia ≥ {{c2::2}}, sin infección.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 VHA",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.032"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La incontinencia de urgencia {{c1::nunca se opera}}: el sling empeora la urgencia y puede causar retención.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Regla de oro",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.032"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "IUU: reeducación vesical con {{c1::micciones programadas}} y reducción de café, té, alcohol y tabaco.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.032"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "IUU: primera línea farmacológica con {{c1::antimuscarínicos}} (solifenacina, oxibutinina, tolterodina).",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.032"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Oxibutinina: {{c1::5 mg c/8-12h}}; solifenacina 5-10 mg/día.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.032"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antimuscarínicos: contraindicados en {{c1::glaucoma de ángulo estrecho}}.",
+      "extra": "Efectos: boca seca, estreñimiento, visión borrosa.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.032"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Mirabegrón ({{c1::25-50 mg/día}}) es agonista beta-3 sin efectos anticolinérgicos.",
+      "extra": "Precaución en HTA no controlada.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.032"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "IUU refractaria: toxina botulínica intravesical o {{c1::neuromodulación sacra}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.032"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Escape de orina: la primera pregunta es si ocurre con {{c1::esfuerzo o con urgencia}}.",
+      "extra": "Esa pregunta ordena todo el manejo.",
+      "origen": "clase:11",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.032"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-06/02_prolapso-genital__open-i.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Procidencia genital (POP-Q IV)",
+      "clave": "Cuello y útero fuera de la vulva con eversión vaginal completa",
+      "conducta": "Estadificar con POP-Q; pesario si no tolera cirugía; si no, cirugía",
+      "fuente": "Open-i (NLM), CC BY",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.026"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-06/S1_pop-q__propio.svg",
+      "pregunta": "¿Qué muestra y cómo lo usas?",
+      "diagnostico": "Estadificación POP-Q",
+      "clave": "Himen como plano 0; estadio II entre -1 y +1 cm",
+      "conducta": "Observación, Kegel, pesario o cirugía según síntomas",
+      "fuente": "Dibujo propio (esquema)",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.026"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Escape con tos o esfuerzo: ¿qué confirmas al examen?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0.1",
+      "pista": "IUE que no responde a Kegel: ¿qué cirugía?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "Escape con deseo miccional urgente: ¿qué diagnóstico y qué NO haces?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.0",
+      "pista": "Incontinencia de urgencia: ¿tratamiento inicial?"
+    }
+  ]
+}

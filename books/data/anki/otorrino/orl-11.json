@@ -1,0 +1,433 @@
+{
+ "classId": "orl-11",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La epistaxis anterior es más del {{c1::90%}} de los casos y nace en el plexo de Kiesselbach (área de Little).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Anterior",
+   "repaso": true,
+   "imagen": "biblioteca/17_otorrino/orl-11/01_irrigacion-tabique-plexo-kiesselbach__bailey-love_p738.jpg",
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El plexo de Kiesselbach une las arterias labial superior, palatina mayor, {{c1::esfenopalatina}} y etmoidal anterior.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Kiesselbach",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La epistaxis anterior es típica de niños y adultos jóvenes, por hurgado nasal, {{c1::resequedad}} o rinitis alérgica.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Anterior",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La epistaxis posterior es el {{c1::5-10%}} de los casos, pero la más grave.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Posterior",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Epistaxis posterior: ramas de la arteria {{c1::esfenopalatina}} o plexo de Woodruff; adultos mayores hipertensos o anticoagulados.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Posterior",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la epistaxis posterior la sangre cae de forma continua a la {{c1::orofaringe}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Posterior",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Paso 1: sentado con la cabeza hacia {{c1::adelante}} y compresión digital de las alas nasales 10-15 minutos.",
+   "extra": "Resuelve el 70-80% de los episodios.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Paso 1",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La cabeza nunca va hacia {{c1::atrás}}: se deglute sangre, con vómitos y aspiración.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cabeza",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Paso 2: algodón con lidocaína 2% con adrenalina u {{c1::oximetazolina}} por 5 a 10 minutos.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Paso 2",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Paso 3: si se ve el vaso, cauterizar con {{c1::nitrato de plata}} al 75% en forma concéntrica.",
+   "extra": "Niño de 9 años con vaso visible tras compresión y vasoconstrictor.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Paso 3",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Prohibido cauterizar {{c1::ambos lados}} del tabique en la misma sesión: necrosis del cartílago y perforación septal.",
+   "extra": "El cartílago es avascular y se nutre del pericondrio de ambos lados.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Prohibido",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Paso 4: si no se ubica el vaso o falla la cauterización, taponamiento {{c1::anterior}} (gasa con vaselina o Merocel).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Paso 4",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El taponamiento anterior se mantiene por {{c1::48 horas}} y el paciente se maneja ambulatorio.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tapón",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sospecha de epistaxis posterior: falla del tapón anterior, sangre roja fresca por la úvula o epistaxis {{c1::masiva}} en un adulto mayor.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Sospecha",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Taponamiento posterior: sonda Foley {{c1::12-14 Fr}} por la fosa sangrante hasta ver la punta en la orofaringe.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Foley",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El balón se infla con {{c1::8 a 10 mL}} de agua o suero, nunca aire.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Balón",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras el Foley posterior se complementa siempre con taponamiento anterior {{c1::ipsilateral}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Complemento",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Todo taponamiento posterior requiere {{c1::hospitalización}} con monitorización: hipoxemia, bradiarritmia nasovagal y aspiración.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Hospitalización",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Profilaxis con amoxicilina-clavulánico o cefazolina para prevenir el síndrome de {{c1::shock tóxico}} estafilocócico.",
+   "extra": "Paciente de 75 años hipertensa con Foley posterior.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Antibiótico",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El tapón posterior lo retira el ORL a las {{c1::48-72 horas}}; si falla, ligadura endoscópica de la esfenopalatina.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Retiro",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Epistaxis leve: compresión digital de {{c1::15 minutos}}; severa o posterior: ABC, dos vías y Foley posterior.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Gravedad",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Epistaxis recurrente: causas locales como sequedad, rascado, desviación septal y telangiectasias de {{c1::Rendu-Osler-Weber}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Repetición",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.011"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Adolescente varón con epistaxis unilateral y obstrucción nasal: {{c1::angiofibroma nasofaríngeo juvenil}}; imágenes, sin biopsiar.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Angiofibroma",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.011"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas sistémicas: HTA, von Willebrand, hemofilia, trombocitopenia, hepatopatía y {{c1::anticoagulantes}} o AINE.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Sistémicas",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.011"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estudio inicial: PA, rinoscopía, hemograma con plaquetas, {{c1::TP/INR y TTPK}}, función hepática y renal.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Estudio",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.011"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Epistaxis recurrente con punto visible: cauterización, pomadas {{c1::emolientes}}, humidificación y evitar el rascado.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Manejo",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.011"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Epistaxis anterior: ambulatoria con retiro del Merocel a las 48 horas; posterior: hospitalización {{c1::obligatoria}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-11/01_irrigacion-tabique-plexo-kiesselbach__bailey-love_p738.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Irrigación del tabique nasal",
+   "clave": "Cuatro arterias confluyen en la parte anteroinferior del tabique",
+   "conducta": "Origen de más del 90% de las epistaxis",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 46.36",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Epistaxis con shock o sangrado masivo: ¿conducta?",
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1",
+   "pista": "Epistaxis estable: ¿primera medida?",
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.1.0",
+   "pista": "Vaso visible tras el vasoconstrictor: ¿conducta?",
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.1.1",
+   "pista": "Vaso no ubicado o falla: ¿conducta?",
+   "codigos": [
+    "2.01.1.099",
+    "2.01.2.008"
+   ]
+  }
+ ]
+}

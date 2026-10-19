@@ -1,0 +1,444 @@
+{
+  "classId": "reuma-05",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "AIJ es artritis de causa desconocida, de ≥ {{c1::6 semanas}} de duración, en menores de {{c2::16 años}}.",
+      "extra": "Tras descartar causas infecciosas, neoplásicas y hematológicas.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.143",
+        "1.11.1.019"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La AIJ es la causa más frecuente de artritis {{c1::crónica}} en la infancia.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro · ¿Por qué?",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.143"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La AIJ oligoarticular compromete ≤ {{c1::4}} articulaciones en los primeros 6 meses y es el subtipo más frecuente (50%).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Formas clínicas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.143",
+        "1.11.1.019"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La AIJ oligoarticular afecta típicamente a {{c1::niñas}} de 2 a 4 años, en grandes articulaciones como rodillas y tobillos.",
+      "extra": "Clase: menores de 6 años.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clasificación",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.143"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la AIJ oligoarticular los ANA son positivos en {{c1::70–80%}}, con factor reumatoide negativo.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clasificación",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.143"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La AIJ poliarticular compromete ≥ {{c1::5}} articulaciones en los primeros 6 meses.",
+      "extra": "FR positivo: similar a AR del adulto, erosiva y de peor pronóstico.",
+      "origen": "clase:2",
+      "fuente": "Clase · Formas clínicas",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.143",
+        "1.11.1.019"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La AIJ sistémica (Still juvenil) cursa con artritis, fiebre cotidiana en agujas, {{c1::rash salmón}}, visceromegalias y serositis.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clasificación",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.143"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La uveítis anterior crónica de la AIJ oligoarticular es {{c1::asintomática}} (ojo blanco, sin dolor) y puede llevar a ceguera.",
+      "extra": "Sinequias, catarata y glaucoma si no se detecta.",
+      "origen": "clase:3",
+      "fuente": "Clase · Regla de oro oftalmológica",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.143",
+        "1.11.1.019"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El riesgo de uveítis anterior crónica en la AIJ oligoarticular llega hasta {{c1::20–30%}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Alerta",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.143"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Niña con oligoartritis y ANA (+): además de AINEs, la conducta indispensable es derivar a oftalmología para {{c1::lámpara de hendidura}} periódica.",
+      "extra": "Libro: cada 3 a 6 meses.",
+      "origen": "clase:3",
+      "fuente": "Clase · Regla de oro oftalmológica",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.143",
+        "1.11.1.019"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Primer escalón farmacológico en AIJ sin factores de mal pronóstico: {{c1::AINEs}} orales.",
+      "extra": "Si no responde, se escala a metotrexato.",
+      "origen": "clase:15",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.143",
+        "1.11.1.019"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En AIJ oligoarticular, primera línea local: infiltración intraarticular con {{c1::triamcinolona hexacetónida}}.",
+      "extra": "Si falla: metotrexato y anti-TNF.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.143",
+        "1.11.1.019"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Metotrexato en AIJ: {{c1::15 mg/m²/semana}}, oral o subcutáneo.",
+      "extra": "En poliarticular se usa precoz.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.143",
+        "1.11.1.019"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES AIJ: cobertura completa en personas menores de {{c1::17 años}}.",
+      "extra": "Derivación a reumatología pediátrica.",
+      "origen": "libro:sec:1",
+      "fuente": "Perfil · GES",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.143"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La enfermedad de Still del adulto es un trastorno {{c1::autoinflamatorio}} sistémico con desregulación de IL-1, IL-6, IL-18 y TNF-alfa.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Still del adulto",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.019"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tétrada del Still del adulto: fiebre en espigas, artralgias/artritis, exantema salmón evanescente y {{c1::faringitis no exudativa}}.",
+      "extra": "El exantema coincide con los picos febriles.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tétrada",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.019"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Yamaguchi: fiebre ≥ {{c1::39 °C}} intermitente de ≥ 1 semana; artralgias de ≥ 2 semanas.",
+      "extra": "Criterios mayores.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla Yamaguchi",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.019",
+        "2.01.1.143"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Yamaguchi: leucocitosis ≥ {{c1::10.000}}/mm³ con ≥ 80% de polimorfonucleares.",
+      "extra": "Simula infección bacteriana grave.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla Yamaguchi",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.019"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Yamaguchi exige ≥ {{c1::2 criterios mayores}} (más menores y exclusión de infección, neoplasia y vasculitis).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Yamaguchi",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.143"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el Still del adulto el FR y los ANA son {{c1::negativos}}.",
+      "extra": "Si son positivos, se descarta Still.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla Yamaguchi",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.019",
+        "2.01.1.143"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el Still la ferritina está masivamente elevada (> {{c1::1.000 a 5.000}} ng/mL), con ferritina glicosilada baja.",
+      "extra": "Puede superar 10.000.",
+      "origen": "clase:4",
+      "fuente": "Clase · Yamaguchi",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.019"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adolescente con fiebre intermitente, rash macular evanescente, artritis y ferritina muy alta: {{c1::enfermedad de Still / AIJ sistémica}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.143",
+        "1.11.1.019"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Still del adulto: AINEs en formas leves; la mayoría requiere {{c1::prednisona 0.5 a 1 mg/kg/día}}.",
+      "extra": "Ahorradores: metotrexato, anakinra, canakinumab, tocilizumab.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.143",
+        "1.11.1.019"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El SAM en Still se sospecha ante fiebre continua, pancitopenia, fibrinógeno bajo y ferritina > {{c1::10.000}} ng/mL.",
+      "extra": "Trampa: la VHS cae paradójicamente por consumo de fibrinógeno.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.143",
+        "1.11.1.019"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El síndrome de activación macrofágica se trata con pulsos de {{c1::metilprednisolona}} y ciclosporina.",
+      "extra": "Urgencia vital, en UCI.",
+      "origen": "clase:5",
+      "fuente": "Clase · Complicación SAM",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.143",
+        "1.11.1.019"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Poliartritis aguda < 6 semanas tras contacto con niños con eritema infeccioso: {{c1::parvovirus B19}}, autolimitada, con AINEs.",
+      "extra": "Metotrexato antes de 6 semanas es prematuro.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.019",
+        "2.01.1.143"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se deriva a reumatología una poliartritis que persiste más de {{c1::6 semanas}}, con compromiso sistémico o sospecha autoinmune.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Enfrentamiento de poliartritis",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.019",
+        "2.01.1.143"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Poliartritis simétrica de manos y pies con rigidez matinal > 1 hora orienta a {{c1::artritis reumatoide}} (FR y anti-CCP).",
+      "extra": "IFD, dactilitis o psoriasis: artritis psoriásica.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de patrones",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.143",
+        "1.11.1.019"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-05/01_exantema-asalmonado-still__amir-reuma_p57.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Exantema salmón evanescente de Still",
+      "clave": "Máculas rosadas que brotan con la fiebre y desaparecen al bajar la temperatura",
+      "conducta": "Ferritina y criterios; AINEs/corticoides; vigilar SAM; derivar",
+      "fuente": "Manual AMIR Reumatología, p. 57",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.019",
+        "2.01.1.143"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_reumatologia/reuma-05/atlas_215_uveitis_anterior_cronica_de_la.jpg",
+      "pregunta": "¿Qué muestra y qué previene el control?",
+      "diagnostico": "Uveítis anterior crónica de la AIJ",
+      "clave": "Pupila irregular por sinequias y cristalino opaco (catarata)",
+      "conducta": "Lámpara de hendidura periódica por oftalmología en oligoarticular ANA (+)",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.143",
+        "1.11.1.019"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Fiebre en agujas, rash y ferritina > 1.000: ¿diagnóstico y manejo?",
+      "codigos": [
+        "2.01.1.143"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Oligoarticular (hasta 4 articulaciones): ¿qué tamizaje?",
+      "codigos": [
+        "2.01.1.143"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "Poliarticular (5 o más): ¿tratamiento?",
+      "codigos": [
+        "2.01.1.143"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "classId": "hem-04",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la anemia de la inflamación, la IL-6 estimula la síntesis hepática de {{c1::hepcidina}}.",
+      "extra": "También interferón gamma.",
+      "origen": "clase:1",
+      "fuente": "Clase · Hepcidina",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hepcidina degrada la {{c1::ferroportina}}, y el hierro queda atrapado en los macrófagos.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Hepcidina",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la inflamación crónica la vida del glóbulo rojo baja de 120 días a {{c1::80–90 días}}.",
+      "extra": "TNF alfa e interferón además frenan a los progenitores eritroides.",
+      "origen": "clase:1",
+      "fuente": "Clase · Hepcidina",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Anemia de enfermedad crónica inicial: normocítica con VCM {{c1::80 a 95 fL}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Hemograma",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con los meses la anemia inflamatoria se hace microcítica leve, VCM {{c1::72 a 79 fL}}.",
+      "extra": "Rara vez < 70.",
+      "origen": "clase:2",
+      "fuente": "Clase · Hemograma",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La Hb habitual en anemia de enfermedad crónica es {{c1::8,5 a 11,5 g/dL}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Hemograma",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En anemia de enfermedad crónica con Hb < {{c1::8 g/dL}}, busca sangrado u otra anemia sobreagregada.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Hemograma",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Perfil de la inflamación: ferritina {{c1::alta}}, transferrina y TIBC {{c2::bajas}}, ferremia baja.",
+      "extra": "IST de 15 a 25 %.",
+      "origen": "clase:3",
+      "fuente": "Clase · Perfil de hierro",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En anemia de enfermedad crónica la médula (azul de Prusia) muestra hierro en {{c1::macrófagos}} y sideroblastos sin hierro.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Perfil de hierro",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un receptor soluble de transferrina {{c1::elevado}} indica ferropenia asociada a la inflamación.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Perfil de hierro",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la ERC, la anemia se debe primariamente al déficit de {{c1::eritropoyetina}} por fibrosis peritubular.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Fisiopatología renal",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.004"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La anemia renal aparece cuando la VFG baja de {{c1::45–60 mL/min}} (ERC etapa 3 en adelante).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Fisiopatología renal",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.004"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La anemia renal es un modelo mixto: falta de EPO más {{c1::bloqueo funcional de hierro}} por uremia y microinflamación.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 ERC",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.004"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La anemia en insuficiencia renal crónica terminal está garantizada por el GES N° {{c1::1}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · GES",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.004"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Antes de iniciar EPO en un paciente renal hay que dar {{c1::hierro EV}} si falta hierro.",
+      "extra": "EPO sin hierro produce resistencia y fracaso.",
+      "origen": "clase:5",
+      "fuente": "Clase · Hierro antes que EPO",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.004"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se inicia EPO solo con ferritina > {{c1::200 ng/mL}} e IST > {{c2::20 %}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.004"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Dosis inicial de EPO recombinante: {{c1::50 a 100 UI/kg}} 2 a 3 veces por semana.",
+      "extra": "Subcutánea o endovenosa.",
+      "origen": "clase:5",
+      "fuente": "Clase · EPO",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.004"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La darbepoetina alfa se usa {{c1::semanal o cada 2 semanas}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · EPO",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.004"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con EPO, la Hb debe subir {{c1::1 a 2 g/dL}} al mes: ascenso suave.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · EPO",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.004"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta de Hb en ERC con EPO: {{c1::10 a 11,5 g/dL}}, con techo de seguridad de 12 g/dL.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Meta de Hb",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.004"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En ERC con EPO, normalizar la Hb a > {{c1::13 g/dL}} aumenta ACV, trombosis de fístula y muerte.",
+      "extra": "Estudios CHOIR, CREATE y TREAT.",
+      "origen": "clase:6",
+      "fuente": "Clase · Meta de Hb",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.004"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Si la Hb supera 11,5–12 g/dL, se reduce la dosis de EPO en {{c1::25 a 50 %}} o se suspende.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Meta de Hb",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.004"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El efecto adverso más común de la EPO es la {{c1::hipertensión arterial}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Efectos adversos",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.004"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tratamiento de la anemia de la inflamación es tratar la {{c1::enfermedad de base}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En anemia inflamatoria, el error es dar {{c1::hierro empírico}}: queda atrapado igual.",
+      "extra": "Solo si hay ferropenia asociada (ferritina < 100 con PCR alta).",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diferencia de mecanismo: la ferropenia es falta de hierro; la renal es falta de {{c1::eritropoyetina}}; la crónica es secuestro por hepcidina.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.004"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hemodiálisis con ferritina 110 e IST 14 % y Hb 8,7: se da hierro sacarato EV {{c1::100 mg}} por sesión, no se sube la EPO.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz caso",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.004"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Artritis reumatoide con ferremia baja y transferrina baja: anemia de {{c1::enfermedades crónicas}}.",
+      "extra": "La transferrina baja es la huella de la inflamación.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Julio 2017",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 58"
+      ],
+      "codigos": [
+        "1.08.1.001"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.1",
+      "pista": "Ferritina < 100 con PCR alta: ¿qué haces?",
+      "codigos": [
+        "1.08.1.001"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "ERC con ferritina o IST bajos: ¿qué primero?",
+      "codigos": [
+        "1.09.1.004"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1.0",
+      "pista": "Hb > 11,5–12 con EPO: ¿qué conducta?",
+      "codigos": [
+        "1.09.1.004"
+      ]
+    }
+  ]
+}

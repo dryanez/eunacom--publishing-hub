@@ -1,0 +1,395 @@
+{
+  "classId": "gastro-02",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síndrome ulceroso es epigastralgia urente que {{c1::aumenta con el ayuno}} y alivia con la comida o antiácidos.",
+      "extra": "La misma clínica da el cáncer gástrico y la dispepsia funcional.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Síndrome ulceroso",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 129"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "H. pylori causa el {{c1::90 %}} de las úlceras duodenales y el {{c2::70 %}} de las gástricas.",
+      "extra": "La otra gran causa son los AINE.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Causas",
+      "repaso": true
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La prevalencia de H. pylori en Chile alcanza el {{c1::75 %}} de la población.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Causas",
+      "repaso": false
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Paciente con artritis reumatoide en tratamiento con AINE que presenta melena: el diagnóstico más probable es {{c1::úlcera gastroduodenal}}.",
+      "extra": "Los AINE inhiben las prostaglandinas protectoras.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 AINE",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 70"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En dispepsia, la endoscopía digestiva alta es obligatoria si hay signos de alarma o edad {{c1::≥ 40 años}}.",
+      "extra": "Por la alta incidencia de cáncer gástrico en Chile.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Diagnóstico",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 160"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "Guía GES de cáncer gástrico: endoscopía en personas ≥ 40 años con epigastralgia de más de {{c1::15 días}}, aun sin alarma.",
+      "extra": "Con biopsias y test de ureasa.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz GES cáncer gástrico",
+      "repaso": true
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Probar y tratar H. pylori sin endoscopía se reserva para {{c1::menores de 40 años sin signos de alarma}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz GES cáncer gástrico",
+      "repaso": false
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Joven con epigastralgia urente que aumenta en ayuno y con café, más vómitos o dolor nocturno: la conducta es {{c1::endoscopía digestiva alta}}.",
+      "extra": "Las epigastralgias se estudian con EDA.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Diagnóstico",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 70",
+        "EUNACOM Diciembre 2018 · Pregunta 15"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La dispepsia funcional es un diagnóstico de exclusión: requiere una {{c1::endoscopía normal}}.",
+      "extra": "Manejo: educación, manejo del estrés y prueba con IBP.",
+      "origen": "clase:2",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": false
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Métodos para detectar H. pylori: {{c1::test de ureasa}} en biopsia, test del aliento con urea marcada o antígeno en deposiciones.",
+      "extra": "Aliento y antígeno fecal no requieren endoscopía.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Diagnóstico",
+      "repaso": false
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Toda úlcera duodenal se erradica {{c1::aunque el test de H. pylori sea negativo}}.",
+      "extra": "Falsos negativos frecuentes con IBP, antibióticos o sangrado reciente.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 12",
+        "EUNACOM Julio 2019 · Pregunta 163"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Si la úlcera solo se trata con supresión ácida sin erradicar H. pylori, recidiva en el {{c1::90 %}}.",
+      "extra": "El omeprazol trata el reflujo; la úlcera se trata erradicando.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Toda úlcera gástrica exige {{c1::biopsia del borde}} para descartar cáncer.",
+      "extra": "La úlcera duodenal no se maligniza.",
+      "origen": "clase:4",
+      "fuente": "Clase · Duodenal vs gástrica",
+      "repaso": true
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Úlcera gástrica: endoscopía de control con nuevas biopsias a las {{c1::8 a 12 semanas}} hasta confirmar cicatrización.",
+      "extra": "Una biopsia inicial negativa no descarta cáncer.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz seguimiento",
+      "repaso": false
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Úlcera gástrica con H. pylori negativo: {{c1::no se erradica}}, pero igual se hace endoscopía de control.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Erradicación de H. pylori de primera línea: IBP + {{c1::amoxicilina 1 g}} + {{c2::claritromicina 500 mg}}, cada 12 horas.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Erradicación",
+      "repaso": true
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La terapia erradicadora de primera línea de H. pylori dura {{c1::14 días}}.",
+      "extra": "Recomendación MINSAL.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Erradicación",
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Segunda línea de erradicación de H. pylori: terapia cuádruple con {{c1::IBP + bismuto + tetraciclina + metronidazol}}.",
+      "extra": "Evita la claritromicina; repetir el mismo esquema mantiene la resistencia.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Erradicación",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 124"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El linfoma MALT gástrico se trata con {{c1::erradicación de H. pylori}}, no con quimioterapia.",
+      "extra": "Regresa solo con antibióticos.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla erradicación",
+      "repaso": true
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Paciente con ERGE y H. pylori positivo: {{c1::no se erradica}}, porque no hay asociación.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Paciente con antecedente de úlcera duodenal y test de ureasa positivo: la conducta es {{c1::erradicar H. pylori}}.",
+      "extra": "Se erradica a todo antecedente de úlcera.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Erradicación",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 70"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El control de erradicación se hace {{c1::4 semanas}} después de terminar los antibióticos, con el IBP suspendido {{c2::2 semanas}} antes.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Control",
+      "repaso": false
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Control de erradicación en úlcera duodenal: {{c1::antígeno fecal o test del aliento}}; en úlcera gástrica: endoscopía.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla erradicación",
+      "repaso": false
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La complicación más frecuente de la úlcera péptica es la {{c1::hemorragia digestiva alta}}: IBP endovenoso + endoscopía urgente con hemostasia.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Complicaciones",
+      "repaso": false
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Úlcera perforada (dolor en puñalada, abdomen en tabla): radiografía de tórax de pie y cirugía urgente; la {{c1::endoscopía está contraindicada}}.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Factores de riesgo de daño por AINE: edad ≥ {{c1::65}} años, úlcera o hemorragia previa, corticoides, anticoagulantes o antiagregantes.",
+      "extra": "También dosis altas, dos AINE juntos y H. pylori.",
+      "origen": "clase:6",
+      "fuente": "Clase · AINE",
+      "repaso": false
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Gastroprotección en el paciente de riesgo que necesita AINE: agregar un {{c1::IBP}}.",
+      "extra": "Antagonistas H2 y sucralfato no protegen bien la mucosa gástrica.",
+      "origen": "clase:6",
+      "fuente": "Clase · AINE",
+      "repaso": false
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Riesgo alto o antecedente de úlcera complicada que requiere AINE: preferir {{c1::celecoxib + IBP}}.",
+      "extra": "El misoprostol es eficaz pero mal tolerado y contraindicado en embarazo.",
+      "origen": "clase:6",
+      "fuente": "Clase · AINE",
+      "repaso": false
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Úlcera por AINE: suspender el AINE y dar IBP por {{c1::8 semanas}}.",
+      "extra": "Si el AINE es imprescindible: IBP de mantención.",
+      "origen": "clase:6",
+      "fuente": "Clase · AINE",
+      "repaso": false
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anemia ferropénica en paciente con antecedente de úlcera que usa aspirina + AINE: el examen es la {{c1::endoscopía digestiva alta}}.",
+      "extra": "El antígeno fecal no localiza la lesión.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Dic 2022",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 161",
+        "EUNACOM Enero 2023 · Pregunta 71"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La endoscopía digestiva alta requiere ayuno de {{c1::6 a 8 horas}}, consentimiento informado y, con sedación, ir acompañado.",
+      "extra": "No conducir ese día.",
+      "origen": "clase:3",
+      "fuente": "Clase · Procedimiento",
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-02/01_ulcera-gastrica-forrest-iic__cto-digestivo_p63.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Úlcera gástrica",
+      "clave": "Cráter de bordes regulares con fondo blanquecino de fibrina",
+      "conducta": "Biopsia del borde, erradicar si H. pylori (+) y endoscopía de control",
+      "fuente": "Manual CTO Digestivo 14.ª ed., p. 63",
+      "repaso": false
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-02/02_ulcera_duodenal_vaso_visible__harrison_p2430.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Úlcera duodenal con vaso visible",
+      "clave": "Vaso visible en el fondo de la úlcera: alto riesgo de resangrado",
+      "conducta": "IBP endovenoso + terapia hemostática endoscópica; luego erradicar H. pylori",
+      "fuente": "Harrison 21.ª ed., p. 2430",
+      "repaso": false
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-02/03_neumoperitoneo-bajo-diafragma__cto-digestivo_p65.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Neumoperitoneo por úlcera perforada",
+      "clave": "Media luna de aire bajo el diafragma en radiografía de tórax de pie",
+      "conducta": "Cirugía de urgencia; endoscopía contraindicada",
+      "fuente": "Manual CTO Digestivo 14.ª ed., p. 65",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Dispepsia con alarma o ≥ 40 años: ¿qué examen?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0.0",
+      "pista": "Úlcera duodenal: ¿erradicar y cómo controlar?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0.0.1",
+      "pista": "Úlcera gástrica: ¿conducta?"
+    }
+  ]
+}

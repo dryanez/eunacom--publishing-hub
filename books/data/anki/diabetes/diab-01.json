@@ -1,0 +1,596 @@
+{
+  "classId": "diab-01",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La DM1 representa el {{c1::5–10 %}} de las diabetes y la DM2 el {{c2::90–95 %}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Dos mecanismos opuestos",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La DM1 es una destrucción {{c1::autoinmune mediada por linfocitos T}} de las células beta, con déficit absoluto de insulina.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La DM2 se produce por {{c1::resistencia a la insulina}} más pérdida progresiva de la secreción compensatoria de la célula beta.",
+      "extra": "Gatillante modificable: obesidad visceral y sedentarismo.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La DM1 debuta de forma aguda con polidipsia, polifagia, {{c1::marcada baja de peso}} y propensión a CAD.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El fenotipo de resistencia a la insulina en la piel incluye {{c1::acantosis nigricans}} y acrocordones.",
+      "extra": "Orientan a DM2 incluso en un adolescente obeso.",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 33"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Adolescente obeso, asintomático, con dos glicemias de ayuno ≥ 126 y acantosis nigricans: es {{c1::DM2}}, pese a la edad.",
+      "extra": "Un niño obeso con diabetes no es siempre tipo 2, pero la acantosis inclina a resistencia.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Julio 2013",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 33"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La LADA es una forma de DM1 de {{c1::progresión lenta}} que debuta en adultos de {{c2::25 a 45 años}}.",
+      "extra": "Normopesos o con sobrepeso leve.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 LADA",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una LADA se asocia con otra autoinmunidad, como {{c1::tiroiditis de Hashimoto o vitiligo}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 LADA",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 113",
+        "EUNACOM Julio 2013 · Pregunta 34"
+      ],
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Adulto delgado con autoinmunidad previa y falla a metformina y glibenclamida: es {{c1::LADA}}, no una DM2 resistente.",
+      "extra": "Error clásico: seguir subiendo hipoglucemiantes orales.",
+      "origen": "clase:3",
+      "fuente": "Clase · LADA",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 113",
+        "EUNACOM Julio 2013 · Pregunta 34"
+      ],
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El anticuerpo más sensible en LADA es el {{c1::anti-GAD65}}.",
+      "extra": "Otros: anti-IA2, IAA y anti-ZnT8.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Péptido C y anticuerpos",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En la LADA, la conducta es pedir anti-GAD65 y péptido C e {{c1::iniciar insulina}} de inmediato.",
+      "extra": "Sumar orales solo retrasa el tratamiento.",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz caso LADA",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La MODY es una diabetes monogénica de herencia {{c1::autosómica dominante}}.",
+      "extra": "Afecta a varias generaciones: padres, tíos, abuelos.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 MODY",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La MODY se manifiesta típicamente antes de los {{c1::25 años}}, en personas delgadas y con anticuerpos negativos.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 MODY",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2018 · Pregunta 114"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La mutación más frecuente de MODY es la {{c1::MODY-3 (HNF-1alfa)}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 MODY",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La MODY responde de forma excelente a {{c1::sulfonilureas en dosis bajas}}.",
+      "extra": "Dato de examen: familia que se controla bien con glibenclamida.",
+      "origen": "clase:4",
+      "fuente": "Clase · MODY",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2018 · Pregunta 114"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Diabetes antes de los 25 años, normopeso y padre, hermano y abuelo diabéticos: el diagnóstico es {{c1::MODY}}.",
+      "extra": "La LADA es autoinmune y la mitocondrial se hereda por vía materna.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Julio 2018",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2018 · Pregunta 114"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El péptido C refleja la {{c1::reserva endógena de insulina}}.",
+      "extra": "Es subproducto equimolar de la escisión de la proinsulina.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Péptido C",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El péptido C está bajo o indetectable en {{c1::DM1 y LADA avanzada}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Péptido C y anticuerpos",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El péptido C está elevado o normal en la {{c1::DM2}} por la resistencia periférica.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Péptido C",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anticuerpos pancreáticos positivos confirman etiología {{c1::autoinmune}}; negativos orientan a DM2 o MODY.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Péptido C y anticuerpos",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La DM2 se trata inicialmente con {{c1::metformina}} más estilo de vida.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 132",
+        "EUNACOM Diciembre 2022 · Pregunta 162"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con dos glicemias de ayuno ≥ {{c1::126}} mg/dL se confirma diabetes.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Julio 2013",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 132"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Un diabético sintomático con HbA1c > {{c1::9 %}} requiere iniciar insulina.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · caso y preguntas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 17",
+        "EUNACOM Enero 2023 · Pregunta 151",
+        "EUNACOM Julio 2017 · Pregunta 94",
+        "EUNACOM Diciembre 2022 · Pregunta 149"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En un diabético con poliuria, polidipsia, baja de peso y glicemia > 300 mg/dL, el tratamiento inicial es {{c1::insulina}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Enero 2023",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 150"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La insulina de inicio en DM2 con HbA1c > 9 % es la {{c1::insulina NPH}}.",
+      "extra": "También en el síndrome nefrótico con HbA1c > 9 %.",
+      "origen": "libro:caso",
+      "fuente": "Preguntas reales",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 94",
+        "EUNACOM Diciembre 2022 · Pregunta 149"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En DM2 con metformina 2000 mg y glibenclamida 15 mg con HbA1c 8,8 %, lo correcto es {{c1::iniciar insulina}}, no subir dosis de orales.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Julio 2013",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 125"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Si la HbA1c está bajo {{c1::7 %}} no se cambia el tratamiento, aunque no sea el óptimo.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Julio 2017",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 105"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el mayor de 75 años el objetivo de HbA1c es menor a {{c1::8 %}}.",
+      "extra": "HbA1c 7,5 % con metformina: mantener tratamiento.",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Julio 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 24"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En DM2 con coronariopatía y HbA1c 8,2 % bajo metformina, se agrega {{c1::empagliflozina}}.",
+      "extra": "Máximo riesgo cardiovascular: empagliflozina o liraglutida.",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Julio 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 141"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Adulto mayor con infarto reciente y diarrea por metformina: reemplazar por {{c1::sitagliptina}}.",
+      "extra": "Se prefiere sobre la glibenclamida por fragilidad.",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Diciembre 2018",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 107"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "NPH nocturna con hiperglicemia en ayuno y 65 mg/dL a las 3 AM: el ajuste es {{c1::reducir la NPH}} (Somogyi).",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Julio 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 161"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "DM1 de 12 años con HbA1c 11,7 % y una NPH matinal: esquema {{c1::NPH dos dosis más tres refuerzos de insulina cristalina precomidas}}.",
+      "extra": "Idealmente glargina basal más ultrarrápida.",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Julio 2015",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 17"
+      ],
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Corticoides con glicemias prealmuerzo y precena de 230 y 295 mg/dL: se trata con {{c1::insulina}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Julio 2015",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 16"
+      ],
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Paciente de 85 años con hipoglicemia nocturna bajo metformina y glibenclamida: {{c1::suspender la glibenclamida}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Agosto 2021",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 118"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/04_diabetes/diab-01/01_acantosis-cuello__hy_p774.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Acantosis nigricans en el cuello",
+      "clave": "Piel oscura y aterciopelada en cuello y axilas, con acrocordones",
+      "conducta": "Pensar en resistencia a la insulina (DM2); metformina y estilo de vida",
+      "fuente": "High-Yield review, p. 774",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Joven o delgado: ¿qué contexto distingue la forma?",
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1",
+      "pista": "Adulto con falla a orales: ¿qué tipo y qué tratamiento?",
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.2",
+      "pista": "Familia vertical en delgados: ¿qué tipo y qué fármaco?",
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    }
+  ]
+}

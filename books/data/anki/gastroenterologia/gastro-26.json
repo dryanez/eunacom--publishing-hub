@@ -1,0 +1,351 @@
+{
+  "classId": "gastro-26",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el trauma abdominal, la conducta la define {{c1::el mecanismo}}: cerrado, arma blanca o arma de fuego.",
+      "extra": "Cerrado: decide la FAST; arma blanca: la herida; arma de fuego: se explora siempre.",
+      "origen": "clase:5",
+      "fuente": "Clase · Tres mecanismos",
+      "repaso": false
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El trauma abdominal cerrado se evalúa con clínica + {{c1::eco-FAST}}, que busca líquido libre.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla",
+      "repaso": false
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trauma abdominal cerrado, estable, sin signos peritoneales y con FAST negativa: {{c1::observación con reevaluaciones seriadas}}.",
+      "extra": "TAC de abdomen si el mecanismo es de alta energía.",
+      "origen": "libro:caso",
+      "fuente": "Libro · caso",
+      "repaso": true
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trauma abdominal cerrado con inestabilidad, signos peritoneales o líquido libre en la FAST: {{c1::laparotomía}}.",
+      "extra": "Basta cualquiera de los tres.",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo",
+      "repaso": true
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el trauma abdominal, el {{c1::lavado peritoneal diagnóstico}} está obsoleto: lo reemplazó la eco-FAST.",
+      "extra": "Si aparece como alternativa, descártalo.",
+      "origen": "clase:2",
+      "fuente": "Clase · Obsoleto",
+      "repaso": false
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La rotura de víscera hueca en el trauma da {{c1::peritonitis y neumoperitoneo}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Trauma cerrado",
+      "repaso": false
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La lesión de bazo o hígado con paciente estable se maneja de forma {{c1::conservadora}}: decide la estabilidad, no el órgano roto.",
+      "extra": "",
+      "origen": "foto",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-26/01_rotura-esplenica-tc__cto-cirugia_p69.jpg",
+      "fuente": "Clase · Víscera sólida",
+      "repaso": true
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el trauma abdominal por arma blanca decide {{c1::la exploración de la herida}}: ¿penetra el peritoneo?",
+      "extra": "La exploración de la herida no corresponde al trauma cerrado.",
+      "origen": "clase:3",
+      "fuente": "Clase · Arma blanca",
+      "repaso": false
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Herida abdominal por arma blanca que lacera el peritoneo, con paciente estable y sin peritonismo: {{c1::exploración quirúrgica (laparoscopía)}}.",
+      "extra": "Suturar la piel sin explorar deja pasar lesiones de intestino o mesenterio.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 31"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Herida por arma blanca que no penetra el peritoneo, en paciente estable: {{c1::observación}}.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo",
+      "repaso": false
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Arma blanca abdominal con evisceración o inestabilidad: {{c1::exploración quirúrgica}}, aunque no se haya explorado la herida.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Arma blanca",
+      "repaso": false
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El trauma abdominal por arma de fuego se explora quirúrgicamente {{c1::siempre}}, aunque el paciente esté estable.",
+      "extra": "Energía y trayectoria producen lesiones múltiples de vísceras.",
+      "origen": "clase:4",
+      "fuente": "Clase · Arma de fuego",
+      "repaso": true
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Excepción al manejo quirúrgico del arma de fuego abdominal: herida {{c1::claramente tangencial}} que no entra a la cavidad, estable y con TAC.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Arma de fuego",
+      "repaso": false
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trauma torácico cerrado o por arma blanca: clínica + {{c1::radiografía de tórax}} y manejo de las complicaciones.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Trauma torácico",
+      "repaso": false
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Puñalada torácica, paciente estable con murmullo disminuido e hipersonoridad (sin signos de tensión): lo primero es {{c1::pedir radiografía de tórax}}, no puncionar.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 32"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El neumotórax y el hemotórax traumáticos se tratan con {{c1::tubo pleural}}, que además mide el débito.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Trauma torácico",
+      "repaso": false
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El taponamiento cardíaco traumático se descomprime con {{c1::pericardiocentesis o ventana pericárdica}}.",
+      "extra": "La fuente del sangrado se resuelve con toracotomía.",
+      "origen": "clase:6",
+      "fuente": "Clase · Trauma torácico",
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hemotórax masivo con indicación de toracotomía: salida inicial por el tubo > {{c1::1.500 mL}}.",
+      "extra": "Mantener solo el drenaje o transfundir sin controlar la fuente lleva al shock.",
+      "origen": "clase:7",
+      "fuente": "Clase · ¿Cuándo se abre el tórax?",
+      "repaso": true
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "También indica toracotomía un débito sostenido por el tubo pleural de > {{c1::200 mL/h}} por {{c2::2–4 h}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · ¿Cuándo se abre el tórax?",
+      "repaso": false
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Todo trauma torácico por {{c1::arma de fuego}} es indicación de cirugía, igual que en el abdomen.",
+      "extra": "Otras: taponamiento, lesión de grandes vasos o de la vía aérea.",
+      "origen": "clase:7",
+      "fuente": "Clase · ¿Cuándo se abre el tórax?",
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El neumotórax hipertensivo es un diagnóstico {{c1::clínico}}: se trata antes de la radiografía.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Neumotórax hipertensivo",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 71"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trauma con disnea, hipotensión, yugulares ingurgitadas, murmullo abolido y timpanismo en un hemitórax: {{c1::neumotórax hipertensivo}}.",
+      "extra": "El taponamiento no da desviación traqueal ni murmullo disminuido.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Neumotórax hipertensivo",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 123",
+        "EUNACOM Julio 2024 · Pregunta 102"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el neumotórax hipertensivo, la desviación de la tráquea hacia el lado sano es un signo {{c1::tardío}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Neumotórax hipertensivo",
+      "repaso": false
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Descompresión del neumotórax hipertensivo: aguja o catéter de {{c1::14–16 G}} en el {{c2::5.º espacio intercostal}}, por delante de la línea axilar media.",
+      "extra": "Alternativa: 2.º espacio en la línea medioclavicular; sobre el borde superior de la costilla.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Neumotórax hipertensivo",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 71"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras la descompresión con aguja del neumotórax hipertensivo se instala un {{c1::tubo pleural con sello de agua}} y oxígeno; después la radiografía.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Neumotórax hipertensivo",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 102"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el neumotórax a tensión, {{c1::ventilar a presión positiva antes de descomprimir}} lo agrava.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz",
+      "repaso": false
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Puñalada supraclavicular izquierda con derrame pleural días después: sospechar {{c1::quilotórax}} (lesión del conducto torácico).",
+      "extra": "El conducto torácico está en el lado izquierdo; la primera causa es traumática.",
+      "origen": "pregunta_real",
+      "fuente": "Pregunta real EUNACOM",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 52"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-26/01_fast_liquido_libre__atls_p144.jpg",
+      "pregunta": "Trauma abdominal cerrado: ¿qué muestra y qué haces?",
+      "diagnostico": "Eco-FAST positiva",
+      "clave": "Líquido libre intraabdominal (anecoico) en la ecografía",
+      "conducta": "Laparotomía",
+      "fuente": "ATLS 10.ª ed., p. 144",
+      "repaso": false
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-26/03_hemotorax-derrame-rx__cto-neumo_p111.jpg",
+      "pregunta": "Trauma torácico: ¿qué muestra y qué haces?",
+      "diagnostico": "Hemotórax",
+      "clave": "Opacidad basal con borramiento del ángulo costofrénico",
+      "conducta": "Tubo pleural; toracotomía si salida inicial > 1.500 mL o > 200 mL/h por 2–4 h",
+      "fuente": "Manual CTO Neumología 14.ª ed., p. 111",
+      "repaso": false
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-26/04_neumoperitoneo__cto-digestivo_p65.jpg",
+      "pregunta": "¿Qué muestra y qué indica?",
+      "diagnostico": "Neumoperitoneo",
+      "clave": "Aire libre bajo el diafragma",
+      "conducta": "Rotura de víscera hueca: exploración quirúrgica",
+      "fuente": "Manual CTO Digestivo 14.ª ed., p. 65",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0.1",
+      "pista": "Cerrado, estable y FAST negativa: ¿conducta?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Arma blanca que penetra el peritoneo: ¿conducta?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2",
+      "pista": "Arma de fuego abdominal: ¿conducta?"
+    }
+  ]
+}

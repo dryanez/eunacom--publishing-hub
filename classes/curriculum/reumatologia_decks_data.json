@@ -3054,7 +3054,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Diagnóstico: **Cefalea tensional** (opción **A**). Es una cefalea tensional clásica (como la que da al salir del Eunacom).. El tratamiento de la artritis reumatoide se basa en las drogas modificadoras de la artritis reumatoide (DMARs). Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh."
+        "explanation": "Cefalea holocránea occipital de aparición vespertina, sin signos focales: cefalea tensional."
       },
       {
         "type": "bento",
@@ -5539,7 +5539,7 @@
         "options": [
           {
             "id": "A",
-            "text": "Bronqui2s crónica",
+            "text": "Bronquitis crónica",
             "isCorrect": false
           },
           {
@@ -5559,7 +5559,7 @@
           },
           {
             "id": "E",
-            "text": "Insuficiencia cardíaca conges2va",
+            "text": "Insuficiencia cardíaca congestiva",
             "isCorrect": false
           }
         ],
@@ -5600,7 +5600,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "La alternativa correcta es la **C** (TAC de tórax de alta resolución). TAC de tórax de alta resolución. El síndrome de Sjögren se manifiesta principalmente con un síndrome de sicca (sequedad), que es su manifestación más frecuente y a veces la única. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES)."
+        "explanation": "El examen de eleccion para bronquiectasias es el TAC de torax de alta resolucion."
       },
       {
         "type": "bento",
@@ -8071,12 +8071,12 @@
           },
           {
             "id": "C",
-            "text": "Reac2va",
+            "text": "Reactiva",
             "isCorrect": false
           },
           {
             "id": "D",
-            "text": "Psoriá2ca",
+            "text": "Psoriática",
             "isCorrect": true
           },
           {
@@ -8797,7 +8797,7 @@
           },
           {
             "id": "B",
-            "text": "Disección aór2ca",
+            "text": "Disección aórtica",
             "isCorrect": false
           },
           {
@@ -9958,7 +9958,7 @@
             "isCorrect": true
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **Ecografía Doppler de arterias renales** (opción **E**). Todos los antihipertensivos tienen eficacia similar; la elección depende de comorbilidades y efectos adversos De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+        "explanation": "HTA resistente con hipokalemia a pesar de IECA sugiere hiperaldosteronismo secundario de causa renovascular, se continúa con ecografía Doppler de arterias renales."
       },
       {
         "type": "bento",
@@ -10657,12 +10657,12 @@
           {
             "id": "B",
             "text": "Enalapril",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": "C",
             "text": "Hidroclorotiazida",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": "D",
@@ -10675,7 +10675,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **Hidroclorotiazida** (opción **C**). La nefropatía diabética es la primera causa de enfermedad renal terminal en Chile De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+        "explanation": "Diabético hipertenso con proteinuria (IP/C 2,2): el fármaco de elección es un IECA/ARA-II (enalapril) por nefroprotección."
       },
       {
         "type": "bento",

@@ -46,6 +46,7 @@ const beats = [];
 const add = (slide, kind, say, extra = {}) => beats.push({ id: `b${String(beats.length).padStart(3, '0')}`, slide, kind, say, ...extra });
 // En el video: un caso clínico y una pregunta real EUNACOM (el reproductor conserva todas).
 const seenQ = new Set();
+require(path.join(ROOT, 'classes', 'scripts', 'quiz_images.cjs')).attachQuizImages(lesson.slides);   // imagen de la pregunta real (banco)
 const slides = lesson.slides.filter(s => {
   if (s.type !== 'quiz') return true;
   const k = /caso/i.test(s.kicker || '') ? 'caso' : 'pregunta';

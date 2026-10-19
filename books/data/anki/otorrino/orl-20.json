@@ -1,0 +1,546 @@
+{
+ "classId": "orl-20",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Más del {{c1::90%}} de los cánceres de cabeza y cuello son carcinomas de células escamosas.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Histología",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.004",
+    "6.03.1.005"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tabaco y alcohol actúan en sinergia y multiplican el riesgo hasta {{c1::30 veces}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Riesgo",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.004",
+    "6.03.1.005"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El {{c1::VPH-16}} causa carcinomas de orofaringe (amígdala y base de lengua) en adultos jóvenes, con mejor pronóstico.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 VPH",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.004",
+    "6.03.1.005"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Bandera roja: disfonía mayor de {{c1::2 a 3 semanas}} en un fumador: cáncer de laringe.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Disfonía",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.005",
+    "6.03.3.004"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otalgia unilateral persistente con otoscopía normal: dolor referido desde {{c1::faringe o laringe}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Otalgia refleja",
+   "repaso": false,
+   "codigos": [
+    "4.02.6.001"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La otalgia refleja viaja por el glosofaríngeo (nervio de {{c1::Jacobson}}) y el vago (nervio de Arnold).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Nervios",
+   "repaso": false,
+   "codigos": [
+    "4.02.6.001"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Úlcera indurada, leucoplaquia o eritroplasia que no cicatriza en {{c1::2 semanas}}: derivar y biopsiar.",
+   "extra": "Fumador y bebedor con úlcera lingual de 6 semanas.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Lesión oral",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-20/02_leucoplaquia-displasia-lengua__bailey-love_p788.jpg",
+   "codigos": [
+    "6.03.1.004"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Obstrucción nasal unilateral, epistaxis unilateral u OME unilateral en un adulto: cáncer de {{c1::cavum}} (nasofaringe, VEB).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cavum",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.006"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Odinofagia o disfagia unilateral progresiva con sensación constante de {{c1::cuerpo extraño}} faríngeo es bandera roja.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cuerpo extraño",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.018"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otalgia, odinofagia, disfagia, atoramiento y cambios en la resonancia de la voz en un fumador de 66 años: cáncer de {{c1::hipofaringe}}.",
+   "extra": "El de laringe suele dar solo disfonía progresiva.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hipofaringe",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 7"
+   ],
+   "codigos": [
+    "6.03.1.005",
+    "6.03.3.004"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Disfonía de semanas más adenopatía cervical dura en un fumador: examen inicial {{c1::nasofibrolaringoscopía}}.",
+   "extra": "Fumador de 58 años (dos veces) y de 61 años con adenopatía.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Laringe",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 67",
+    "EUNACOM Diciembre 2018 · Pregunta 58"
+   ],
+   "codigos": [
+    "6.03.1.005",
+    "6.03.3.004"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Regla del 80 en masa cervical del mayor de 40 años: 80% neoplásicas, 80% de ellas malignas, 80% metástasis y 80% de {{c1::carcinoma escamoso}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Skandalakis",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.015",
+    "4.01.1.032"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Masa cervical pétrea y fija en fumador mayor de 40 años: {{c1::metástasis}} de carcinoma escamoso hasta demostrar lo contrario.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Axioma",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-20/03_masa-cervical-metastasica__openi.jpg",
+   "codigos": [
+    "6.03.1.015",
+    "4.01.1.032"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Secuencia: nasofibroscopía completa, {{c1::PAAF}} guiada por ecografía y TAC de cuello y tórax.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Secuencia",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.015",
+    "4.01.1.032"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La PAAF tiene sensibilidad y especificidad mayores de {{c1::95%}} y no altera la anatomía ganglionar.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 PAAF",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.015",
+    "4.01.1.032"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Está prohibida la biopsia {{c1::abierta}} del ganglio sin estudio previo: siembra el tumor y empeora el pronóstico.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Prohibido",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.015",
+    "4.01.1.032"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Masa cervical en menores de 15 años: causa {{c1::infecciosa o inflamatoria}} (adenitis); en mayores de 40, neoplásica maligna.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla edad",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.015",
+    "4.01.1.032"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Entre 16 y 40 años: quiste tirogloso, quiste branquial, mononucleosis o {{c1::linfoma}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla edad",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.015",
+    "4.01.1.032"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cáncer de boca: lesión que no cicatriza en 2 a 3 semanas; se palpa, se retiran irritantes y se reevalúa a las 2 semanas; si persiste, {{c1::biopsia}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Boca",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-20/01_carcinoma-de-lengua__bates_p286.jpg",
+   "codigos": [
+    "6.03.1.004"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cáncer de laringe: el más frecuente es el {{c1::glótico}}; el médico general deriva para laringoscopía y biopsia.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Laringe",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.005",
+    "6.03.3.004"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Prevención del cáncer de laringe: cesación del {{c1::tabaco}} (consejería, reemplazo de nicotina, vareniclina) y menos alcohol.",
+   "extra": "Fumador de 50 años asintomático.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Prevención",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.005",
+    "6.03.3.004"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cáncer nasosinusal: exposición a polvo de madera, cuero, níquel o cromo; obstrucción y epistaxis {{c1::unilaterales}}.",
+   "extra": "Carpintero con masa friable y parestesia de la mejilla.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Nasosinusal",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.006",
+    "6.03.1.018"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Odinofagia crónica: más de {{c1::3 a 4 semanas}}; banderas rojas: unilateral, otalgia refleja, masa cervical, baja de peso y tabaco.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Odinofagia crónica",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.006",
+    "6.03.1.018"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Adenitis bacteriana del niño: S. aureus y S. pyogenes; ganglio doloroso y eritematoso; tratamiento por {{c1::10 días}}.",
+   "extra": "Escolar de 6 años con masa submandibular eritematosa de 3 cm: S. aureus.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Adenitis",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 142"
+   ],
+   "codigos": [
+    "2.01.1.004"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Amigdalitis con masa submandibular dolorosa y eritematosa: {{c1::adenitis supurada}}, no absceso periamigdalino.",
+   "extra": "Joven de 18 años con 38,5 °C.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Adenitis supurada",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 92"
+   ],
+   "codigos": [
+    "6.03.1.006",
+    "6.03.1.018"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Ganglio mayor de {{c1::2 cm}}, duro, indoloro, fijo o supraclavicular: sospechar linfoma o leucemia; sin corticoides antes del diagnóstico.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Alarma",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.004"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Masa blanda de la línea media entre el mentón y el cartílago tiroides que asciende al deglutir: {{c1::quiste tirogloso}}.",
+   "extra": "Mujer de 35 años con masa suprahioidea; adulto joven; niño de 4 años que se mueve con la protrusión lingual.",
+   "origen": "clase:16",
+   "fuente": "Clase · Quiste tirogloso",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 31",
+    "EUNACOM Enero 2023 · Pregunta 80",
+    "EUNACOM Julio 2025 · Pregunta 47"
+   ],
+   "codigos": [
+    "6.03.1.015",
+    "4.01.1.032"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento del quiste tirogloso: extirpación electiva con cirugía de {{c1::Sistrunk}} (quiste y cuerpo del hioides).",
+   "extra": "",
+   "origen": "clase:16",
+   "fuente": "Clase · Quiste tirogloso",
+   "repaso": false,
+   "codigos": [
+    "4.02.6.001"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Masa de la línea media submentoniana, eritematosa, dolorosa y fluctuante: {{c1::quiste tirogloso infectado}}.",
+   "extra": "Joven de 17 años con 5 años de evolución; niño de 5 años con 4 cm junto al hioides.",
+   "origen": "clase:16",
+   "fuente": "Clase · Quiste tirogloso infectado",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 111",
+    "EUNACOM Diciembre 2019 · Pregunta 164"
+   ],
+   "codigos": [
+    "4.02.6.001"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Masa lateral del cuello, de crecimiento muy lento, en un adulto joven: {{c1::quiste branquial}}.",
+   "extra": "Joven de 25 años con masa submandibular de 3 cm.",
+   "origen": "clase:16",
+   "fuente": "Clase · Quiste branquial",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 116"
+   ],
+   "codigos": [
+    "6.03.1.015",
+    "4.01.1.032"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Masa de la línea media entre el mentón y el cartílago tiroides, de crecimiento lento, en un joven: {{c1::quiste del conducto tirogloso}}.",
+   "extra": "El adenoma submandibular es lateral.",
+   "origen": "clase:16",
+   "fuente": "Clase · Discrepancia",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 75"
+   ],
+   "codigos": [
+    "4.02.6.001"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-20/01_carcinoma-de-lengua__bates_p286.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Carcinoma de lengua",
+   "clave": "Lesión irregular e indurada en el borde lateral de la lengua",
+   "conducta": "Biopsia y derivación a cabeza y cuello",
+   "fuente": "Bates 12.ª ed., Fig. 7-71",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.004"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-20/02_leucoplaquia-displasia-lengua__bailey-love_p788.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Leucoplaquia con displasia",
+   "clave": "Placa blanca persistente en la lengua",
+   "conducta": "Derivar y biopsiar si dura más de 2 semanas",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 48.11 (a)",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.004"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-20/03_masa-cervical-metastasica__openi.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Masa cervical lateral",
+   "clave": "Masa lateral del cuello en adulto fumador",
+   "conducta": "Nasofibroscopía y PAAF; sin biopsia abierta",
+   "fuente": "Open-i (NLM), CC BY",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 58"
+   ],
+   "codigos": [
+    "6.03.1.015",
+    "4.01.1.032"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Masa cervical pétrea en fumador mayor de 40 años: ¿qué se sospecha?",
+   "codigos": [
+    "6.03.1.015",
+    "4.01.1.032"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Masa cervical sospechosa: ¿estudio inicial?",
+   "codigos": [
+    "6.03.1.015",
+    "4.01.1.032"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1",
+   "pista": "Masa cervical: ¿qué procedimiento está prohibido?",
+   "codigos": [
+    "6.03.1.015",
+    "4.01.1.032"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.2",
+   "pista": "Otalgia unilateral con otoscopía normal: ¿qué se examina?",
+   "codigos": [
+    "6.03.1.015",
+    "4.01.1.032"
+   ]
+  }
+ ]
+}

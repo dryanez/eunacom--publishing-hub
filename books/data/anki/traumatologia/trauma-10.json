@@ -1,0 +1,428 @@
+{
+ "classId": "trauma-10",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La mortalidad a los dos años de una fractura de cadera alcanza el {{c1::50%}}.",
+   "extra": "Es una fractura osteoporótica por excelencia.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Epidemiología",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.004",
+    "1.07.2.003"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el adulto mayor la fractura de cadera ocurre por {{c1::caída de propia altura}}; en el joven requiere un trauma de muy alto impacto.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Mecanismo",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.004",
+    "1.07.2.003"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fractura de cadera: posición {{c1::impúdica}}, con abducción, rotación externa y acortamiento.",
+   "extra": "Muestra la ingle.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clínica",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 50"
+   ],
+   "codigos": [
+    "4.02.2.004",
+    "1.07.2.003"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Luxación posterior de cadera: posición {{c1::púdica}}, con aducción, rotación interna y acortamiento.",
+   "extra": "«Se esconde».",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clínica",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 10",
+    "EUNACOM Diciembre 2017 · Pregunta 98",
+    "EUNACOM Agosto 2021 · Pregunta 99",
+    "EUNACOM Diciembre 2019 · Pregunta 177"
+   ],
+   "codigos": [
+    "4.02.2.004",
+    "1.07.2.003"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Para la fractura de cadera se piden {{c1::pelvis AP}} y cadera AP y axial; no resonancia ni radiografía de fémur.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Imágenes",
+   "repaso": false,
+   "codigos": [
+    "4.02.4.002",
+    "4.01.4.006"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La radiografía de pelvis AP permite comparar ambas caderas y descartar fractura {{c1::contralateral}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Imágenes",
+   "repaso": false,
+   "codigos": [
+    "4.02.4.002",
+    "4.01.4.006"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con radiografías iniciales normales y sospecha clínica de fractura de cadera, el examen de elección es la {{c1::resonancia magnética}}.",
+   "extra": "Detecta fracturas ocultas del cuello femoral.",
+   "origen": "clase:18",
+   "fuente": "Clase · Quiz Perfil V3",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.004",
+    "1.07.2.003"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tratamiento de la fractura de cadera es siempre {{c1::quirúrgico}}, salvo riesgo vital inminente que contraindique la anestesia.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cirugía",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.004",
+    "1.07.2.003"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La cirugía de la fractura de cadera del adulto mayor se hace en las primeras {{c1::24 a 48 horas}}.",
+   "extra": "Reduce la morbimortalidad; es garantía GES.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": true,
+   "codigos": [
+    "4.02.5.004"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Prótesis de entrada si hay las tres condiciones: fractura de {{c1::cuello femoral}}, {{c2::desplazada}} y paciente mayor de {{c3::65 años}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Prótesis",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-10/01_rx_fractura_cuello_femur__commons.jpg",
+   "codigos": [
+    "4.02.2.004",
+    "1.07.2.003"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La complicación más frecuente de la fractura de cuello desplazada es la {{c1::necrosis avascular}} de la cabeza femoral.",
+   "extra": "Se rompen las arterias circunflejas.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Necrosis",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-10/21_necrosis-avascular-cadera__sherman_p545.jpg",
+   "codigos": [
+    "4.02.2.004",
+    "1.07.2.003"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fractura intertrocantérica (extracapsular) se fija con {{c1::tornillo dinámico de cadera (DHS)}}.",
+   "extra": "Osteosíntesis, no prótesis.",
+   "origen": "clase:5",
+   "fuente": "Clase · Cirugías",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-10/02_osteosintesis-intertrocanterea-y-cuello__cto-trauma_p26.jpg",
+   "codigos": [
+    "8.01.1.003"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fractura de cuello en menor de 65 años o no desplazada: {{c1::tornillos canulados}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Cirugías",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.004",
+    "1.07.2.003"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La cirugía de {{c1::Girdlestone}} retira la cabeza femoral (cadera flotante) y es paliativa en el postrado crónico.",
+   "extra": "Elimina el dolor y evita delirium.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Girdlestone",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.004",
+    "1.07.2.003"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El Girdlestone se usa en pacientes que {{c1::ya no caminan}}, sin implantes caros.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Girdlestone",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.004",
+    "1.07.2.003"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La luxación posterior de cadera es típica del «accidente del {{c1::copiloto}}» (rodilla contra el tablero).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Luxación",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-10/22_luxacion-posterior-cadera-rx__sherman_p592.jpg",
+   "codigos": [
+    "4.02.2.004",
+    "1.07.2.003"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La luxación posterior de cadera lesiona con frecuencia el nervio {{c1::ciático}}.",
+   "extra": "Evaluar sensibilidad y motilidad distal.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Luxación",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.004",
+    "1.07.2.003"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento de la luxación posterior: {{c1::reducción cerrada}} bajo anestesia en pabellón y luego inmovilización.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Luxación",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.004",
+    "1.07.2.003"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tracción cutánea de {{c1::Buck}} usa 2-4 kg (hasta 10% del peso corporal) mientras llega la cirugía.",
+   "extra": "En niños: tracción de Bryant.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tracción",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.004"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tracción cutánea puede causar ampollas, úlceras y parálisis del nervio {{c1::peroneo}} en la cabeza del peroné.",
+   "extra": "Mantener rotación neutra.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tracción",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.004"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la fractura de cadera del adulto mayor la tracción no mejora el dolor: se prefiere posicionar con almohadas, analgesia y {{c1::cirugía precoz}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tracción",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.004"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tracción {{c1::esquelética}} (clavo transóseo) la realiza el traumatólogo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tracción",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.004"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Niño obeso de 12 años con dolor de cadera de 3 meses, claudicación y dolor a la rotación: {{c1::epifisiólisis}} de la cabeza femoral.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic 2019",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 111"
+   ],
+   "codigos": [
+    "4.02.2.004",
+    "1.07.2.003"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-10/01_rx_fractura_cuello_femur__commons.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Fractura del cuello femoral",
+   "clave": "Trazo intracapsular del cuello femoral",
+   "conducta": "Desplazada en mayor de 65 años: prótesis de cadera, cirugía precoz",
+   "fuente": "Wikimedia Commons «Cdm hip fracture 343.jpg», CC BY-SA 3.0",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 50"
+   ],
+   "codigos": [
+    "4.02.2.004",
+    "1.07.2.003"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-10/22_luxacion-posterior-cadera-rx__sherman_p592.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Luxación posterior de cadera",
+   "clave": "Cabeza femoral fuera del acetábulo, arriba y atrás",
+   "conducta": "Reducción cerrada bajo anestesia y control del nervio ciático",
+   "fuente": "Atlas of Clinical Emergency Medicine (Sherman), p. 592",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 10"
+   ],
+   "codigos": [
+    "4.02.2.004",
+    "1.07.2.003"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-10/02_osteosintesis-intertrocanterea-y-cuello__cto-trauma_p26.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Osteosíntesis de cadera",
+   "clave": "Tornillo dinámico en intertrocantérica y canulados en cuello",
+   "conducta": "Intertrocantérica: DHS; cuello no desplazado o joven: tornillos canulados",
+   "fuente": "Manual CTO Traumatología 14.ª ed., p. 26",
+   "repaso": false,
+   "codigos": [
+    "8.01.1.003"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0.0",
+   "pista": "Cuello desplazado en mayor de 65 años: ¿qué cirugía?",
+   "codigos": [
+    "4.02.2.004",
+    "1.07.2.003"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0.1",
+   "pista": "Intertrocantérica o cuello no desplazado: ¿qué cirugía?",
+   "codigos": [
+    "4.02.2.004",
+    "1.07.2.003"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.2",
+   "pista": "Postrado crónico con fractura: ¿qué cirugía?",
+   "codigos": [
+    "4.02.2.004",
+    "1.07.2.003"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.0",
+   "pista": "Aducción y rotación interna tras choque: ¿qué haces?",
+   "codigos": [
+    "4.02.2.004",
+    "1.07.2.003"
+   ]
+  }
+ ]
+}

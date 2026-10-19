@@ -1,0 +1,484 @@
+{
+  "classId": "reuma-23",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La polimialgia reumática es casi exclusiva de mayores de {{c1::50}} años (promedio > 70) y 2 veces más frecuente en mujeres.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 PMR",
+      "repaso": true,
+      "codigos": [
+        "1.11.3.002"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La PMR causa dolor y rigidez matinal bilateral en {{c1::cintura escapular y pélvica}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "imagen": "biblioteca/08_reumatologia/reuma-23/02_distribucion_pmr__commons.jpg",
+      "codigos": [
+        "1.11.3.002",
+        "1.11.1.010"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Rigidez matinal de la PMR: más de {{c1::45 a 60 minutos}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 PMR",
+      "repaso": false,
+      "codigos": [
+        "1.11.3.002"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la PMR la movilidad activa está limitada por dolor, la {{c1::pasiva está conservada}} y la fuerza es normal.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 PMR",
+      "repaso": false,
+      "codigos": [
+        "1.11.3.002"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la PMR la VSG es típicamente > {{c1::40-50 mm/h}}, a menudo 80-100.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 PMR",
+      "repaso": true,
+      "codigos": [
+        "1.11.3.002"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la PMR la CPK y la aldolasa son {{c1::normales}}; esto la diferencia de la miositis.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.010"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La PMR se asocia a arteritis de células gigantes en el {{c1::15-20%}}.",
+      "extra": "Preguntar por cefalea temporal y claudicación mandibular.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla FM vs PMR",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.010"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Prednisona en PMR: {{c1::15 a 20 mg/día}} VO.",
+      "extra": "Alivio de > 70-80% en 24-72 horas.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.3.002"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Respuesta de la PMR a prednisona baja: alivio en {{c1::48 a 72 horas}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.11.3.002",
+        "1.11.1.010"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La PMR sin mejoría rotunda en los primeros {{c1::7 días}} de prednisona hace dudar del diagnóstico.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 PMR",
+      "repaso": false,
+      "codigos": [
+        "1.11.3.002"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En PMR el esteroide se desciende muy lento durante {{c1::1 a 2 años}}.",
+      "extra": "Reducir ~1 mg por mes según PCR.",
+      "origen": "clase:3",
+      "fuente": "Clase · Prednisona en PMR",
+      "repaso": false,
+      "codigos": [
+        "1.11.3.002"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Prednisona en PMR: se inicia a 12,5-25 mg/día y casi todos superan {{c1::5 mg}} por más de 3 meses.",
+      "extra": "Eso obliga a prevenir complicaciones del esteroide.",
+      "origen": "clase:4",
+      "fuente": "Clase · Prevención esteroidal",
+      "repaso": false,
+      "codigos": [
+        "1.11.3.002"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Prevención ósea en esteroide prolongado: calcio {{c1::1.000 a 1.200 mg}} y vitamina D 800 a 2.000 UI.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Prevención esteroidal",
+      "repaso": false,
+      "codigos": [
+        "1.11.3.002"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con esteroide prolongado controlar presión, glicemia, lípidos y ojos por riesgo de {{c1::catarata y glaucoma}}.",
+      "extra": "Vacunar contra influenza y neumococo.",
+      "origen": "clase:4",
+      "fuente": "Clase · Prevención esteroidal",
+      "repaso": false,
+      "codigos": [
+        "1.11.3.002"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Nunca suspender el esteroide en forma {{c1::brusca}}: riesgo de insuficiencia suprarrenal.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Prevención esteroidal",
+      "repaso": false,
+      "codigos": [
+        "1.11.3.002"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En PMR con recaídas o dependencia de esteroide se agrega un ahorrador: {{c1::metotrexato o tocilizumab}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Prevención esteroidal",
+      "repaso": false,
+      "codigos": [
+        "1.11.3.002"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La fibromialgia es el arquetipo de dolor {{c1::nociplástico}} por sensibilización central.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Fibromialgia",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.010"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La fibromialgia afecta a mujeres de 20 a 55 años en proporción {{c1::6:1}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Fibromialgia",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.010"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dolor generalizado en {{c1::4 cuadrantes}} por al menos 3 meses define la fibromialgia.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Fibromialgia",
+      "repaso": true,
+      "imagen": "biblioteca/08_reumatologia/reuma-23/01_puntos_fibromialgia__commons.jpg",
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 50"
+      ],
+      "codigos": [
+        "1.11.1.010"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El sueño de la fibromialgia es {{c1::no reparador}}, con fatiga crónica y fibrofog.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Fibromialgia",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.010"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Comorbilidades de la fibromialgia: colon irritable, cefalea {{c1::tensional}}, ansiedad y depresión.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Fibromialgia",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 179"
+      ],
+      "codigos": [
+        "1.11.1.010"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "ACR 2010/2016: fibromialgia con WPI ≥ {{c1::7}} y SSS ≥ 5 (o WPI 4-6 con SSS ≥ 9).",
+      "extra": "Ya no se exigen los 18 puntos dolorosos.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Criterios ACR",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.010"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En fibromialgia VSG, PCR, CPK, TSH, ANA y FR son {{c1::normales}}; si la VSG está alta, buscar otra enfermedad.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Laboratorio",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 50"
+      ],
+      "codigos": [
+        "1.11.1.010"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pilar de primera línea en fibromialgia: educación y {{c1::ejercicio aeróbico de bajo impacto}}.",
+      "extra": "Al menos 30 minutos, 3 a 5 veces por semana.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 179"
+      ],
+      "codigos": [
+        "1.11.1.010"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Duloxetina en fibromialgia: {{c1::30 a 60 mg/día}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.010"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Pregabalina en fibromialgia: {{c1::75 a 150 mg}} en la noche.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 50",
+        "EUNACOM Julio 2016 · Pregunta 179"
+      ],
+      "codigos": [
+        "1.11.1.010"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Amitriptilina en fibromialgia: {{c1::10 a 25 mg}} en la noche.",
+      "extra": "Restituye el sueño profundo.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.010"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En fibromialgia están contraindicados los {{c1::corticoides}} y los opioides mayores.",
+      "extra": "Hiperalgesia paradójica y dependencia.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.010"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Los AINEs en monoterapia tienen {{c1::escasa o nula}} eficacia en fibromialgia.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.010"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Globus faríngeo en paciente con colon irritable, cefalea tensional y fibromialgia: {{c1::trastorno por somatización}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · Pregunta AEE",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.010"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con VSG alta y CPK normal en > 50 años piensa en {{c1::PMR}}; con VSG normal y dolor difuso piensa en fibromialgia.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.010"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-23/02_distribucion_pmr__commons.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Zonas de dolor en PMR",
+      "clave": "Hombros, cuello y caderas bilaterales",
+      "conducta": "VSG, PCR y CPK; prednisona 15-20 mg/día y vigilar cefalea temporal",
+      "fuente": "Wikimedia Commons (ilustración)",
+      "repaso": false,
+      "codigos": [
+        "1.11.3.002"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-23/01_puntos_fibromialgia__commons.jpg",
+      "pregunta": true,
+      "diagnostico": "Puntos sensibles de fibromialgia",
+      "clave": "Dolor difuso en cuatro cuadrantes; antes se contaban 18 puntos",
+      "conducta": "Ejercicio aeróbico más duloxetina o pregabalina; sin corticoides ni opioides",
+      "fuente": "Wikimedia Commons, CC BY-SA 3.0",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.010"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0.0",
+      "pista": "VSG muy alta, CPK y fuerza normales en > 50 años: ¿diagnóstico y tratamiento?",
+      "codigos": [
+        "1.11.1.010"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.0",
+      "pista": "Dolor difuso > 3 meses con laboratorio normal: ¿manejo y qué evitar?",
+      "codigos": [
+        "1.11.1.010"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0.0.1",
+      "pista": "CPK elevada con debilidad real: ¿qué sospechas?",
+      "codigos": [
+        "1.11.1.010"
+      ]
+    }
+  ]
+}

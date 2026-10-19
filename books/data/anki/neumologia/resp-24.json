@@ -1,0 +1,552 @@
+{
+ "classId": "resp-24",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El CO es un gas inodoro, incoloro, no irritante, producido por combustión {{c1::incompleta}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Dos golpes al oxígeno",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.010"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El CO se une a la hemoglobina con afinidad {{c1::200 a 250}} veces mayor que el oxígeno.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Dos golpes al oxígeno",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.010"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El CO forma {{c1::carboxihemoglobina}} y desplaza la curva de disociación a la izquierda.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Dos golpes al oxígeno",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.010"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con la curva a la izquierda, la Hb {{c1::no entrega}} el O2 a los tejidos.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Dos golpes al oxígeno",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.010"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El CO inhibe la {{c1::citocromo c oxidasa}} (complejo IV) y produce acidosis láctica.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Dos golpes al oxígeno",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.010"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El síntoma más precoz de la intoxicación por CO es la cefalea {{c1::holocraneana pulsátil}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cefalea en invierno, en un espacio cerrado",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.010",
+    "1.05.1.024"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Varios afectados a la vez en la misma casa con el mismo {{c1::brasero}}: sospechar CO.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cefalea en invierno, en un espacio cerrado",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.024"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Gravedad neurológica y cardíaca del CO: síncope, convulsiones, coma, ataxia y {{c1::arritmias}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cefalea en invierno, en un espacio cerrado",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.010"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La piel rojo cereza ocurre en menos del {{c1::5 %}}: es raro y tardío.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cefalea en invierno, en un espacio cerrado",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.010"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En intoxicación por CO el oxímetro de pulso marca {{c1::98–100 %}} falsamente normal.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · El saturómetro marca 99%",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.010",
+    "1.05.4.014"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El oxímetro de dos longitudes de onda no distingue la {{c1::carboxihemoglobina}} de la oxihemoglobina.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · El saturómetro marca 99%",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.014"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Cefalea + brasero con SatO2 99 %: el error es dar {{c1::alta por saturación normal}}.",
+   "extra": "Se da O2 100 % y se hace co-oximetría.",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.010"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El examen confirmatorio de CO es la medición de {{c1::COHb por co-oximetría}} en gases arteriales o venosos.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 10"
+   ],
+   "codigos": [
+    "1.05.2.010"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Para confirmar CO el error es pedir gases convencionales o {{c1::TAC de cerebro}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.010"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "COHb diagnóstica: > {{c1::3–5 %}} en no fumadores.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · El saturómetro marca 99%",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.010"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "COHb diagnóstica en fumadores habituales: > {{c1::10 %}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · El saturómetro marca 99%",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.010"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Tratamiento inmediato universal del CO: {{c1::O2 al 100 %}} con mascarilla con reservorio a 15 L/min.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Oxígeno al 100%: desplazar al monóxido",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 41",
+    "EUNACOM Diciembre 2024 · Pregunta 144"
+   ],
+   "codigos": [
+    "1.05.2.010",
+    "1.05.1.024"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El O2 al 100 % se mantiene al menos {{c1::6 horas}} de forma ininterrumpida.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Oxígeno al 100%: desplazar al monóxido",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.010"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En CO no sirve la {{c1::naricera}}: hace falta FiO2 cercana al 100 %.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Oxígeno al 100%: desplazar al monóxido",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.010"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Vida media de la COHb en aire ambiental: {{c1::320 minutos}} (5,5 horas).",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Cinética de la COHb",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.010"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Vida media de la COHb con O2 100 % normobárico: {{c1::80 minutos}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Cinética de la COHb",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.010"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Vida media de la COHb con oxígeno hiperbárico: {{c1::20 a 25 minutos}}.",
+   "extra": "Cámara a 2,5–3 atmósferas.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Cinética de la COHb",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.010"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cámara hiperbárica en cualquier paciente con COHb > {{c1::25 %}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · ¿Cuándo va la cámara hiperbárica?",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.010"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Embarazada con COHb > {{c1::15 %}}: oxígeno hiperbárico.",
+   "extra": "La Hb fetal concentra más CO.",
+   "origen": "clase:5",
+   "fuente": "Clase · ¿Cuándo va la cámara hiperbárica?",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.010"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Indicación clínica de hiperbárico aunque la COHb sea menor: pérdida de conciencia, coma, convulsiones o {{c1::déficit neurológico persistente}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · ¿Cuándo va la cámara hiperbárica?",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.010"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hiperbárico también si hay isquemia miocárdica o acidosis severa con pH < {{c1::7,15}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · ¿Cuándo va la cámara hiperbárica?",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.010"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "COHb de 12 % sin síntomas graves: el error es la {{c1::cámara hiperbárica}}; basta O2 100 % normobárico.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 144"
+   ],
+   "codigos": [
+    "1.05.2.010",
+    "1.05.1.024"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Embarazada con COHb 18 %: el error es tratarla como {{c1::adulto no embarazado}}; va a hiperbárico.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.010"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Síncope durante la exposición: el error es {{c1::esperar el nivel de COHb}}; se da O2 100 % ya y se evalúa hiperbárico.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.010"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La intoxicación leve por CO tiene COHb de {{c1::10–30 %}}, sin pérdida de conciencia ni compromiso cardíaco.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · El cuadro que parece un resfrío familiar",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.024"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La intoxicación leve por CO se confunde con un cuadro {{c1::viral}} familiar en invierno.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · El cuadro que parece un resfrío familiar",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.024"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En la intoxicación leve el O2 100 % continúa hasta COHb < {{c1::3–5 %}} (4 a 6 horas).",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · El cuadro que parece un resfrío familiar",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.024"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En cardiópatas con CO se vigila {{c1::ECG y troponina}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · El cuadro que parece un resfrío familiar",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.024"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Humo de incendio en recinto cerrado: asociar intoxicación por {{c1::cianuro}} (acidosis láctica y coma).",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · El cuadro que parece un resfrío familiar",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 10"
+   ],
+   "codigos": [
+    "1.05.2.010",
+    "1.05.1.024"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Antídoto del cianuro en el humo de incendio: {{c1::hidroxocobalamina}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · El cuadro que parece un resfrío familiar",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.010"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Irritantes como cloro y amoníaco causan broncoespasmo y {{c1::edema pulmonar}}; se observa 6–24 h.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · El cuadro que parece un resfrío familiar",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.024"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Contaminantes que agravan asma y EPOC: {{c1::MP2,5}}, ozono, NO2, SO2 y humo de leña.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · El aire también enferma el pulmón",
+   "repaso": false,
+   "codigos": [
+    "1.05.3.001"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los más afectados por la contaminación: niños, adultos mayores y {{c1::enfermos crónicos}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · El aire también enferma el pulmón",
+   "repaso": false,
+   "codigos": [
+    "1.05.3.001"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En alerta ambiental se sigue el índice de calidad del aire y se reduce el {{c1::ejercicio al aire libre}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · El aire también enferma el pulmón",
+   "repaso": false,
+   "codigos": [
+    "1.05.3.001"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Cefalea + brasero: ¿qué haces de inmediato?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "¿Qué examen y qué valor de COHb confirma?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.1.0",
+   "pista": "Sin criterio hiperbárico: ¿cuál es el manejo?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.0.1.1",
+   "pista": "COHb > 25 %, embarazada > 15 %, síncope: ¿qué indicas?"
+  }
+ ]
+}

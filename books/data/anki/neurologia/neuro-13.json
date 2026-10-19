@@ -1,0 +1,370 @@
+{
+  "classId": "neuro-13",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Temblor de reposo (4–6 Hz) es típico de {{c1::Parkinson}} y cede con el movimiento.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Semiología",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.026",
+        "1.07.1.016"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Temblor postural aparece al mantener una postura antigravitatoria: típico del temblor {{c1::esencial}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Semiología",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.026",
+        "1.07.1.016"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Temblor de intención (peor al acercarse al blanco) indica patología {{c1::cerebelosa}}.",
+      "extra": "Esclerosis múltiple, infarto, fenitoína, alcohol.",
+      "origen": "clase:1",
+      "fuente": "Clase · Semiología",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.026",
+        "1.07.1.016"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Temblor esencial: bilateral, de manos, a {{c1::8–12 Hz}}.",
+      "extra": "Parkinson: 4–6 Hz.",
+      "origen": "clase:2",
+      "fuente": "Clase · Temblor esencial",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.026",
+        "1.07.1.016"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Temblor esencial dificulta la sopa y el vaso, y altera la escritura y la {{c1::espiral}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Temblor esencial",
+      "repaso": false,
+      "imagen": "biblioteca/09_neurologia/neuro-13/02_espiral_temblor_real__commons.jpg",
+      "codigos": [
+        "1.10.1.026"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Temblor esencial puede afectar la cabeza (\"no-no\") y la {{c1::voz}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Temblor esencial",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.026"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Una pierna que tiembla en reposo es {{c1::Parkinson}}, no temblor esencial.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Diagnóstico diferencial",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.026"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Temblor esencial mejora con {{c1::alcohol}}; el examen neurológico es normal.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Temblor esencial",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.026"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Primera línea del temblor esencial: {{c1::propranolol}} 40–160 mg/día.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 85",
+        "EUNACOM Diciembre 2024 · Pregunta 147"
+      ],
+      "codigos": [
+        "1.10.1.026"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Propranolol está contraindicado en asma, bloqueo AV y {{c1::bradicardia}} severa.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.026"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa en temblor esencial (p. ej. asmático): {{c1::primidona}} 25–250 mg/noche.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.026"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Temblor bilateral de acción en adulto mayor, sin temblor de reposo y con tono normal: {{c1::temblor esencial}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "EUNACOM Julio 2016 · Pregunta 161",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 161"
+      ],
+      "codigos": [
+        "1.10.1.026"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Temblor fisiológico exagerado: postural fino por exceso {{c1::adrenérgico}} (ansiedad, cafeína, abstinencia).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Diagnóstico diferencial",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.026",
+        "1.07.1.016"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Temblor fino con baja de peso y palpitaciones: pedir {{c1::TSH}}; no etiquetarlo como esencial.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.026"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Distonía aguda por fármacos: contracción tónica dolorosa por bloqueo {{c1::D2}} con exceso colinérgico relativo.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Distonía aguda",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.005"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Distonía aguda aparece de minutos a {{c1::24–48 horas}} tras metoclopramida o haloperidol.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Distonía aguda",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 38"
+      ],
+      "codigos": [
+        "1.10.2.005"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Crisis oculógira: mirada desviada fija {{c1::hacia arriba}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Distonía aguda",
+      "repaso": false,
+      "imagen": "_web/153_neuro_Temblor_y_distonía_aguda__Open-i_1.jpg",
+      "codigos": [
+        "1.10.2.005"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tortícolis aguda por fármaco: contracción dolorosa del {{c1::esternocleidomastoideo}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Distonía aguda",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.005"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Distonía aguda: {{c1::biperideno}} 2.5–5 mg IM o EV lento.",
+      "extra": "Alternativa: difenhidramina.",
+      "origen": "clase:6",
+      "fuente": "Clase · Distonía aguda",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 38"
+      ],
+      "codigos": [
+        "1.10.2.005"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tras el biperideno parenteral: oral 2 mg cada 8–12 h por {{c1::24–48 horas}} para evitar recurrencia.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Distonía aguda",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.005"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Tortícolis o crisis oculógira tras metoclopramida: error {{c1::pedir TAC o dar anticonvulsivante}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.005"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Neuroléptico + fiebre + rigidez generalizada + compromiso de conciencia: {{c1::síndrome neuroléptico maligno}}, no distonía aguda.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "EUNACOM Enero 2023 · Pregunta 109",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 109"
+      ],
+      "codigos": [
+        "1.10.2.005"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-13/02_espiral_temblor_real__commons.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Espiral de Arquímedes con temblor",
+      "clave": "Líneas temblorosas y espiculadas por temblor de acción",
+      "conducta": "Sospechar temblor esencial (postural, bilateral, familiar): propranolol o primidona; descartar TSH y fármacos",
+      "fuente": "Wikimedia Commons, CC BY-SA 4.0",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.026"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_web/153_neuro_Temblor_y_distonía_aguda__Open-i_1.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Crisis oculógira (distonía aguda)",
+      "clave": "Mirada fija hacia arriba tras un bloqueador D2",
+      "conducta": "Biperideno 2.5–5 mg IM o EV lento y luego oral 24–48 h",
+      "fuente": "Open-i (NLM), CC BY",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.005"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0.0",
+      "pista": "Distonía aguda por metoclopramida: ¿tratamiento?",
+      "codigos": [
+        "1.10.2.005"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1.0",
+      "pista": "Temblor postural con TSH normal y sin fármacos: ¿diagnóstico y fármaco?",
+      "codigos": [
+        "1.10.1.026"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0",
+      "pista": "Temblor de reposo asimétrico con bradicinesia: ¿diagnóstico?",
+      "codigos": [
+        "1.10.1.026"
+      ]
+    }
+  ]
+}

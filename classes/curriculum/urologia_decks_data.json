@@ -1621,15 +1621,15 @@
           {
             "id": "D",
             "text": "Anemia megaloblástica",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": "E",
             "text": "Leucemia mieloide aguda",
-            "isCorrect": true
+            "isCorrect": false
           }
         ],
-        "explanation": "Diagnóstico: **Leucemia mieloide aguda** (opción **E**). La vejiga neurogénica es la pérdida de la función vesical normal por denervación, lo que impide que la vejiga se contraiga adecuadamente. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh."
+        "explanation": "Pancitopenia con VCM muy elevado, hemólisis intramedular y compromiso cognitivo en anciano: déficit de B12 (anemia megaloblástica)."
       },
       {
         "type": "question",
@@ -1666,7 +1666,7 @@
             "isCorrect": true
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **Quimioterapia** (opción **E**). El tratamiento más importante de la vejiga neurogénica es el autocateterismo limpio intermitente con sonda nelaton, que es limpio pero no estéril, e intermitente pero no permanente De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+        "explanation": "LLA con hiperleucocitosis y riesgo de lisis tumoral: el tratamiento definitivo es la quimioterapia, junto a hidratación y medidas de lisis tumoral."
       },
       {
         "type": "bento",

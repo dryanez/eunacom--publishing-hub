@@ -1,0 +1,430 @@
+{
+  "classId": "neuro-08",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Definición ILAE de epilepsia: {{c1::2 crisis no provocadas}} separadas por más de 24 h, o 1 con alto riesgo de recurrencia.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Definición",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Una crisis única es epilepsia si el riesgo de recurrencia a 10 años es > {{c1::60 %}} (EEG epileptiforme o lesión).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Definición",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES N° 28: epilepsia no refractaria en ≥ 15 años; especialista y EEG en ≤ {{c1::30 días}}, con tratamiento garantizado.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · GES",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.007",
+        "1.10.4.005"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Crisis focal con conciencia preservada (antigua focal simple): el paciente {{c1::interactúa y recuerda}}.",
+      "extra": "Clonías focales, marcha jacksoniana o auras.",
+      "origen": "clase:3",
+      "fuente": "Clase · ILAE",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.007",
+        "1.10.4.005"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Signo focal al inicio que termina en convulsión de 4 extremidades: crisis {{c1::focal a tónico-clónica bilateral}}, no generalizada primaria.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "EUNACOM Enero 2023 · Pregunta 143",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 143"
+      ],
+      "codigos": [
+        "1.10.1.007",
+        "1.10.4.005"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Ausencia típica: desconexión de {{c1::5 a 15 segundos}} sin caída ni confusión postictal.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · ILAE",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.007",
+        "1.10.4.005"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "EEG de la ausencia típica: punta-onda generalizada a {{c1::3 Hz}} (patognomónico).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · ILAE",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 140"
+      ],
+      "imagen": "biblioteca/09_neurologia/neuro-08/01_eeg-punta-onda-3-hz__cto-neuro_p73.jpg",
+      "codigos": [
+        "1.10.1.007",
+        "1.10.4.005"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mioclonías matinales al despertar, ausencias y convulsión tras privación de sueño: {{c1::epilepsia mioclónica juvenil}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "EUNACOM Diciembre 2017 · Pregunta 133",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 133",
+        "EUNACOM Diciembre 2019 · Pregunta 41"
+      ],
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Examen neurofisiológico de elección en epilepsia: {{c1::EEG}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "EEG normal con clínica sugerente: repetir con {{c1::privación de sueño}} o video-EEG; no descartar epilepsia.",
+      "extra": "Es normal en la mitad de los epilépticos.",
+      "origen": "clase:12",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ácido valproico: el más potente en crisis {{c1::generalizadas}} (tónico-clónicas, mioclonías, ausencias).",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Fármacos",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Ácido valproico en el embarazo: defectos del tubo neural en {{c1::1–2 %}}, además de cardiopatías, autismo y bajo CI.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Fármacos",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Mujer en edad fértil con epilepsia generalizada: error {{c1::mantener o iniciar valproato}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Epilepsia en mujer fértil o embarazo: {{c1::lamotrigina o levetiracetam}} en monoterapia.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Selección",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Ácido fólico en mujer fértil con epilepsia: {{c1::5 mg/día}}, desde 3 meses antes de concebir.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Quiz caso clínico",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Carbamazepina: clásico de las crisis {{c1::focales}}; tóxica con Stevens-Johnson, hiponatremia y agranulocitosis.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Fármacos",
+      "repaso": false,
+      "imagen": "biblioteca/09_neurologia/neuro-08/02_stevens-johnson-mucosas__fitzpatrick_p390.jpg",
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Carbamazepina es inductor enzimático: baja niveles de anticonceptivos, {{c1::warfarina}} y estatinas.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Fármacos",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Toxicidad crónica de la fenitoína: hiperplasia {{c1::gingival}}, hirsutismo y ataxia.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Fármacos",
+      "repaso": false,
+      "imagen": "_verificadas/149_neuro_Epilepsia_y_fármacos__knoopepub_p174_1.jpg",
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Lamotrigina: titular lento (inicio {{c1::25 mg/día}}, subir cada 2 semanas) por riesgo de rash y Stevens-Johnson.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Fármacos",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Lamotrigina junto a valproato: {{c1::reducir a la mitad}} la dosis de lamotrigina.",
+      "extra": "El valproato duplica su vida media.",
+      "origen": "clase:12",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Levetiracetam actúa sobre la proteína {{c1::SV2A}}; sin interacciones con citocromo P450.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Fármacos",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Efecto adverso típico del levetiracetam: {{c1::irritabilidad, agresividad}} y síntomas psiquiátricos.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Fármacos",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Crisis focal: lamotrigina, levetiracetam o {{c1::carbamazepina}}; la fenitoína quedó relegada.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Selección",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Adulto mayor o polimedicado: {{c1::levetiracetam}} en dosis bajas; evitar carbamazepina y fenitoína.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Monitorizar niveles plasmáticos de rutina solo de {{c1::fenitoína}}; lamotrigina en embarazo (caen en 2.º y 3.er trimestre).",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Seguimiento",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Epilepsia refractaria: falla de {{c1::2}} FAE bien elegidos, tolerados y en dosis plenas; derivar a centro de epilepsia.",
+      "extra": "Cirugía resectiva o estimulador vagal.",
+      "origen": "clase:9",
+      "fuente": "Clase · Seguimiento",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Crisis pese a 2 fármacos bien usados: derivar; el error es agregar un tercero {{c1::indefinidamente}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-08/01_eeg-punta-onda-3-hz__cto-neuro_p73.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Ausencias: punta-onda generalizada a 3 Hz",
+      "clave": "Descargas generalizadas de punta-onda a 3 por segundo",
+      "conducta": "Valproato (o etosuximida); evitar carbamazepina y fenitoína; en mujer fértil, lamotrigina o levetiracetam",
+      "fuente": "Manual CTO Neurología 14.ª ed., p. 73",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-08/02_stevens-johnson-mucosas__fitzpatrick_p390.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Stevens-Johnson en mucosas por antiepiléptico",
+      "clave": "Erosiones y costras hemorrágicas en mucosa oral",
+      "conducta": "Suspender el fármaco causal (carbamazepina o lamotrigina) y manejo hospitalario",
+      "fuente": "Fitzpatrick 7.ª ed., p. 390",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.007"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0.0",
+      "pista": "Crisis focal: ¿fármacos de primera línea?",
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0.1.1",
+      "pista": "Generalizada en mujer en edad fértil: ¿fármaco y suplemento?",
+      "codigos": [
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0.0.0.0",
+      "pista": "Falla de 2 FAE: ¿qué se hace?",
+      "codigos": [
+        "1.10.1.007"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,540 @@
+{
+  "classId": "derma-09",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "SSJ/NET: apoptosis masiva de queratinocitos mediada por linfocitos T {{c1::CD8+}} y células NK vía Fas/FasL.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La principal toxina inductora de apoptosis en SSJ/NET es la {{c1::granulisina}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fármacos de alto riesgo para SSJ/NET (S-A-P-O-C): sulfonamidas, {{c1::alopurinol}}, anticonvulsivantes aromáticos, oxicams y betalactámicos.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fármacos",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Anticonvulsivantes aromáticos que causan SSJ/NET: {{c1::carbamazepina}}, fenitoína, lamotrigina, fenobarbital.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fármacos",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Latencia típica de SSJ/NET tras iniciar el fármaco: {{c1::1 a 4 semanas}}.",
+      "extra": "Nunca a las pocas horas.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "HLA-B*1502 se asocia a SSJ por {{c1::carbamazepina}}; HLA-B*5801 por alopurinol.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Patogenia",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pródromo de SSJ/NET (1 a 3 días antes): síndrome {{c1::pseudogripal}} con fiebre alta y ardor ocular.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En SSJ/NET las dianas son {{c1::atípicas}}: solo 2 anillos concéntricos o centro purpúrico/ampollar.",
+      "extra": "La diana clásica de 3 anillos es del eritema multiforme.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "repaso": true,
+      "imagen": "_verificadas/282_derma_Dianas_atípicas_del_SSJ__HarrisonsP_p414_1.jpg",
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El dolor cutáneo en SSJ/NET es intenso y {{c1::desproporcionado}} a los hallazgos iniciales.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signo de {{c1::Nikolsky}} positivo: la epidermis se desprende en sábana con fricción tangencial suave sobre piel eritematosa.",
+      "extra": "Negativo en eritema multiforme y penfigoide.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El compromiso severo de mucosas ocurre en más del {{c1::90%}} de los casos de SSJ/NET.",
+      "extra": "Oral, ocular y urogenital.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Mucosas",
+      "repaso": false,
+      "imagen": "biblioteca/11_dermatologia/derma-09/01_necrolisis_mucosa_oral__fitzpatrick_p390.jpg",
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El compromiso ocular de SSJ/NET puede causar {{c1::simbléfaron}} y ceguera.",
+      "extra": "Sinequias conjuntivo-palpebrales.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Mucosas",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "SSJ: desprendimiento epidérmico menor a {{c1::10%}} de la superficie corporal más compromiso de mucosas.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla SSJ/NET",
+      "repaso": true,
+      "imagen": "biblioteca/11_dermatologia/derma-09/02_ssj_labios__fitzpatrick_p685.jpg",
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 94",
+        "EUNACOM Julio 2024 · Pregunta 103"
+      ],
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Superposición SSJ/NET: desprendimiento de {{c1::10% a 30%}} de la superficie corporal.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla SSJ/NET",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "NET (síndrome de Lyell): desprendimiento mayor al {{c1::30%}} de la superficie corporal.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla SSJ/NET",
+      "repaso": true,
+      "imagen": "biblioteca/11_dermatologia/derma-09/01_net__amir-derma_p105.jpg",
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 48",
+        "EUNACOM Diciembre 2025 · Pregunta 80"
+      ],
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Mortalidad estimada de la NET: {{c1::30% a 50%}} (sepsis y shock).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla SSJ/NET",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.015"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Amoxicilina hace 14 días + ardor ocular, úlceras orales y exantema: {{c1::síndrome de Stevens-Johnson}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz Jul 2024",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 94",
+        "EUNACOM Julio 2024 · Pregunta 103"
+      ],
+      "codigos": [
+        "6.01.2.015"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dolor cutáneo, eritema generalizado, mucosas y ampollas 2 semanas tras cirugía: {{c1::necrólisis epidérmica tóxica}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Jul 2016",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 48"
+      ],
+      "codigos": [
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Score {{c1::SCORTEN}}: 7 variables independientes, 1 punto cada una, evaluadas en las primeras 24-48 horas.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 SCORTEN",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "SCORTEN: edad ≥ {{c1::40 años}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · SCORTEN",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "SCORTEN: frecuencia cardíaca ≥ {{c1::120}} por minuto.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · SCORTEN",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "SCORTEN: BUN mayor a {{c1::28 mg/dL}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 SCORTEN",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "SCORTEN: bicarbonato sérico menor a {{c1::20}} mEq/L (16 mEq/L suma 1 punto).",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "SCORTEN: superficie desprendida inicial mayor a {{c1::10%}} de BSA.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 SCORTEN",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "SCORTEN de 5 puntos o más: mortalidad sobre {{c1::90%}}.",
+      "extra": "0-1 puntos: ~3%.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 SCORTEN",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La medida que más impacta la sobrevida en SSJ/NET: {{c1::retiro inmediato del fármaco}} causal.",
+      "extra": "Sin esperar exámenes confirmatorios.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "SSJ/NET: traslado a {{c1::UCI o Centro de Quemados}} con ambiente cálido y fluidoterapia agresiva.",
+      "extra": "Se reduce 25-30% el volumen de Parkland.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En SSJ/NET está contraindicado {{c1::desbridar quirúrgicamente}} las flictenas; la epidermis desprendida es un apósito biológico.",
+      "extra": "Gasas vaselinadas no adherentes o plata nanocristalina.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Ojo en SSJ/NET: interconsulta oftalmológica de urgencia con {{c1::lágrimas artificiales}} sin conservantes y lisis de sinequias.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síndrome de piel escaldada estafilocócica: toxinas exfoliativas cortan la {{c1::desmogleína 1}} en el estrato granuloso.",
+      "extra": "Clivaje superficial.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 SSSS",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.014"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Piel escaldada estafilocócica: Nikolsky positivo pero {{c1::mucosas respetadas}} y sin dianas atípicas.",
+      "extra": "Cura en 5 a 7 días sin cicatriz.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 SSSS",
+      "repaso": true,
+      "imagen": "biblioteca/19_dermatologia/derma-09/10_sspe-nikolsky__harrison_p1225.jpg",
+      "codigos": [
+        "6.01.2.014"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Niño con piel escaldada estafilocócica: hospitalizar y {{c1::cloxacilina endovenosa}}.",
+      "extra": "Vancomicina si hay sospecha de SARM; evitar corticoides y AINE.",
+      "origen": "clase:6",
+      "fuente": "Clase · SSSS",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.014"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_verificadas/282_derma_Dianas_atípicas_del_SSJ__HarrisonsP_p414_1.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Dianas atípicas de SSJ/NET",
+      "clave": "Máculas con solo 2 anillos y centro purpúrico/ampollar, dolorosas",
+      "conducta": "Suspender el fármaco, hospitalizar; si BSA > 30% Centro de Quemados",
+      "fuente": "Harrison's, 21.ª ed., p. 414",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.015",
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-09/01_net__amir-derma_p105.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Necrólisis epidérmica tóxica",
+      "clave": "Desprendimiento epidérmico en sábanas con dermis denudada",
+      "conducta": "Retiro del fármaco, UCI/Centro de Quemados, sin desbridar, interconsulta oftalmológica",
+      "fuente": "Manual AMIR Dermatología, p. 105",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.009",
+        "6.01.2.015"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_verificadas/280_derma_Signo_de_Nikolsky__nelsontext_p5312_1.jpg",
+      "pregunta": "¿Qué signo es y qué diagnóstico plantea en un niño?",
+      "diagnostico": "Nikolsky positivo en piel escaldada por estafilococos",
+      "clave": "Epidermis que se despega con fricción suave, mucosas respetadas",
+      "conducta": "Hospitalizar y cloxacilina EV; no corticoides",
+      "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 5312",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.014"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1.0",
+      "pista": "Desprendimiento < 10%: ¿qué conducta?",
+      "codigos": [
+        "6.01.2.015"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.2",
+      "pista": "Desprendimiento > 30%: ¿a dónde se traslada?",
+      "codigos": [
+        "6.01.2.009"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0",
+      "pista": "Nikolsky negativo: ¿qué se reevalúa?",
+      "codigos": [
+        "6.01.2.015"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+recTag;año;codigos;especialidad;estado;clave_banco;clave_propuesta;confianza;motivo;explicacion_corregida;fuente_libro
+EUNACOM Julio 2024 · Pregunta 85;2024;1.10.1.026;Neurología;OK;C;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2016 · Pregunta 161;2016;1.10.1.026;Neurología;OK;C;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2024 · Pregunta 147;2024;1.10.1.026;Neurología;TEXTO_DANADO;A;;alta;Enunciado pregunta por tratamiento del temblor esencial (propranolol) pero las alternativas son de otra pregunta (ACV, epilepsia...), clave A fuera de contexto, explicación genérica ajena;Temblor esencial: temblor postural/de acción bilateral con examen neurológico normal, tratamiento de elección propranolol (alternativa primidona).;Neurología 1.10.1.026 temblor esencial
+EUNACOM Julio 2025 · Pregunta 98;2025;1.10.1.027;Neurología;OK;A;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Enero 2023 · Pregunta 122;2023;1.10.1.027;Neurología;OK;C;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2022 · Pregunta 84;2022;1.10.1.027;Neurología;CLAVE_ERRONEA;E;D;alta;Cuadro típico de trastorno conductual del sueño REM (actúa sus sueños, edad 75), clave E (síndrome confusional agudo) incoherente, explicación habla de otra letra;Trastorno conductual del sueño REM: el paciente actúa sus sueños durante el sueño REM (pérdida de atonía), típico en adultos mayores y sinucleinopatías.;Neurología 1.10.1.027 trastornos del sueño
+EUNACOM Julio 2024 · Pregunta 80;2024;1.10.1.028;Neurología;OK;E;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2017 · Pregunta 142;2017;1.10.1.029;Neurología;FALTA_IMAGEN;A;A;media;Enunciado depende de foto (INSERTAR FOTO) de manchas café con leche;;Neurología 1.10.1.029 neurofibromatosis
+EUNACOM Diciembre 2022 · Pregunta 166;2022;1.10.2.003;Neurología;EXPLICACION_AJENA;B;B;alta;Clave B correcta (desviación cefálica/mirada conjugada = inicio focal con generalización secundaria), explicación habla de TEC;Desviación de cabeza y mirada conjugada al inicio indican crisis focal que se generaliza secundariamente (tónico-clónica con mordedura lateral de lengua).;Neurología 1.10.2.003 epilepsia
+EUNACOM Diciembre 2022 · Pregunta 99;2022;1.10.2.006;Neurología;TEXTO_DANADO;E;C;media;Enunciado cortado («examen de elección para...»), en intoxicación por CO (calefont) el examen de confirmación es carboxihemoglobina, clave E (TAC) dudosa, explicación genérica;Sospecha de intoxicación por monóxido de carbono: se confirma con carboxihemoglobina (co-oximetría), el TAC no es el examen de elección.;Neurología 1.10.2.006
+EUNACOM Julio 2019 · Pregunta 93;2019;1.10.2.007;Neurología;OK;E;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2025 · Pregunta 66;2025;1.10.2.007;Neurología;CLAVE_DISCUTIBLE;A;C;baja;Hemiparesia+afasia a las 5 h sugiere oclusión de gran vaso: trombectomía (ventana hasta 24 h), la clave antiagregación es discutible, alternativas parecen redactadas con pistas;ACV isquémico fuera de ventana de trombolisis (>4,5 h) con déficit severo: evaluar oclusión de gran vaso (angioTAC) para trombectomía mecánica.;Neurología 1.10.2.007 ACV
+EUNACOM Agosto 2021 · Pregunta 76;2021;1.10.2.007;Neurología;OK;E;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2017 · Pregunta 119;2017;1.10.2.007;Neurología;EXPLICACION_AJENA;C;C;alta;Clave correcta, explicación incluye párrafo sobre disección aórtica;La disección de carótida/vertebral aparece tras ejercicios de elongación o trauma cervical, con dolor cervical y cefalea súbita, se estudia con angioTAC/angio-RM.;Neurología 1.10.2.007
+EUNACOM Diciembre 2025 · Pregunta 26;2025;1.10.2.007;Neurología;FALTA_IMAGEN;D;D;media;"Enunciado remite a TAC ""que se muestra a continuación"" sin imagen";;Neurología 1.10.2.007
+EUNACOM Diciembre 2022 · Pregunta 97;2022;1.10.2.007;Neurología;DUPLICADA;A;E;media;Mismo caso que EUNACOM Diciembre 2018 · Pregunta 24 (clave B, lacunar), aquí clave A (ACM) contradice: hemiparesia armónica sin afasia ni déficit sensitivo = lacunar;Hemiparesia armónica pura sin afasia, trastorno sensitivo ni compromiso de conciencia corresponde a infarto lacunar, la ACM suele dar afasia/déficit sensitivo.;Neurología 1.10.2.007 ACV lacunar
+EUNACOM Enero 2023 · Pregunta 121;2023;1.10.2.007;Neurología;OK;E;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2019 · Pregunta 1;2019;1.10.2.007;Neurología;OK;E;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Enero 2023 · Pregunta 144;2023;1.10.2.007;Neurología;EXPLICACION_AJENA;D;D;alta;Clave correcta, explicación incluye párrafo de disección aórtica;Dolor cervical/hemicraneal súbito tras ejercicio con ptosis y miosis (Horner) = disección de carótida interna.;Neurología 1.10.2.007
+EUNACOM Diciembre 2018 · Pregunta 24;2018;1.10.2.007;Neurología;OK;B;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2017 · Pregunta 84;2017;1.10.2.007;Neurología;CLAVE_DISCUTIBLE;C;C;baja;La propia explicación indica que C (infarto troncoencéfalo) y D (enclavamiento) son indistinguibles, pregunta mala;;Neurología 1.10.2.007
+EUNACOM Julio 2013 · Pregunta 28;2013;1.10.2.007;Neurología;TEXTO_DANADO;D;D;media;Alternativas fusionadas (D y e) en una línea, sigue discutible RMN vs TAC, la letra E original perdida;;Neurología 1.10.2.007
+EUNACOM Diciembre 2022 · Pregunta 93;2022;1.10.2.007;Neurología;CLAVE_ERRONEA;B;C;alta;Dolor cervical con deporte + ptosis y miosis = Horner por disección carotídea (igual a Dic 2018/Agosto 2021 con clave disección), parálisis del 3er par da midriasis, no miosis;Ptosis con miosis (Horner) y dolor cervical/facial tras esfuerzo: disección carotídea, la parálisis del III par produce ptosis con midriasis.;Neurología 1.10.2.007
+EUNACOM Diciembre 2017 · Pregunta 55;2017;1.10.2.007;Neurología;OK;A;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Agosto 2021 · Pregunta 178;2021;1.10.2.008;Neurología;EXPLICACION_AJENA;D;D;alta;Clave correcta (HSA en TAC: angiografía/angio-TAC para buscar aneurisma), explicación menciona angina crónica y cefaleas generales;HSA confirmada en TAC: estudio vascular (angio-TAC o angiografía cerebral) para identificar aneurisma.;Neurología 1.10.2.008 HSA
+EUNACOM Julio 2013 · Pregunta 136;2013;1.10.2.008;Neurología;OK;A;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2019 · Pregunta 139;2019;1.10.2.008;Neurología;OK;A;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2024 · Pregunta 139;2024;1.10.2.008;Neurología;TEXTO_DANADO;A;A;baja;Enunciado cortado con respuesta incrustada y alternativas de otra pregunta (letra B duplicada, clave A inexistente);Cefalea súbita con signos meníngeos: lo primero es TAC de cerebro sin contraste (sospecha HSA) y controlar la PA.;Neurología 1.10.2.008
+EUNACOM Diciembre 2018 · Pregunta 23;2018;1.10.2.013;Neurología;EXPLICACION_AJENA;B;B;alta;Clave correcta (Guillain-Barré), explicación incluye texto sobre influenza;Debilidad ascendente arrefléctica 2 semanas tras infección viral: polirradiculoneuropatía desmielinizante aguda (Guillain-Barré).;Neurología 1.10.2.013
+EUNACOM Julio 2013 · Pregunta 165;2013;1.10.2.013;Neurología;OK;E;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2019 · Pregunta 85;2019;1.10.2.013;Neurología;OK;B;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2016 · Pregunta 170;2016;1.10.2.013;Neurología;OK;C;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2024 · Pregunta 86;2024;1.10.2.013;Neurología;TEXTO_DANADO;B;B;baja;Enunciado sin la pregunta final (omitida), clave coherente con Guillain-Barré;;Neurología 1.10.2.013
+EUNACOM Julio 2015 · Pregunta 24;2015;1.10.2.013;Neurología;OK;A;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2018 · Pregunta 126;2018;1.10.2.014;Neurología;OK;B;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2024 · Pregunta 42;2024;1.10.2.014;Neurología;TEXTO_DANADO;A;A;baja;Enunciado cortado («LCR MN y GR:» sin datos) , clave A coherente con encefalitis herpética;;Neurología 1.10.2.014
+EUNACOM Diciembre 2019 · Pregunta 144;2019;1.10.2.015;Neurología;OK;E;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2017 · Pregunta 97;2017;1.10.2.020;Neurología;OK;B;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2025 · Pregunta 142;2025;1.10.2.020;Neurología;OK;E;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2024 · Pregunta 151;2024;1.10.3.002;Neurología;OK;D;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2019 · Pregunta 56;2019;1.10.4.006;Neurología;OK;B;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2017 · Pregunta 56;2017;1.10.4.006;Neurología;OK;B;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2015 · Pregunta 2;2015;1.10.4.006;Neurología;OK;B;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2025 · Pregunta 27;2025;1.10.4.006;Neurología;TEXTO_DANADO;C;C;alta;Ligaturas corruptas en alternativas (magné2ca, Ecogra:a, Electromiogra:a);;Neurología 1.10.4.006
+EUNACOM Diciembre 2018 · Pregunta 29;2018;1.11.1.001;Reumatología;OK;C;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2025 · Pregunta 111;2025;1.11.1.001;Reumatología;TEXTO_DANADO;D;D;alta;Ligaturas corruptas en alternativas (Reac2va, Psoriá2ca);;Reumatología 1.11.1.001
+EUNACOM Diciembre 2019 · Pregunta 129;2019;1.11.1.001;Reumatología;OK;E;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2013 · Pregunta 116;2013;1.11.1.002;Reumatología;EXPLICACION_AJENA;D;D;alta;Clave correcta, explicación incluye trastorno adaptativo;Oligoartritis migratoria tras gastroenteritis (Campylobacter) = artritis reactiva.;Reumatología 1.11.1.002
+EUNACOM Enero 2023 · Pregunta 94;2023;1.11.1.003;Reumatología;OK;D;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2013 · Pregunta 20;2013;1.11.1.003;Reumatología;OK;A;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Agosto 2021 · Pregunta 96;2021;1.11.1.003;Reumatología;OK;B;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2016 · Pregunta 132;2016;1.11.1.003;Reumatología;OK;A;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2013 · Pregunta 160;2013;1.11.1.003;Reumatología;OK;A;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2019 · Pregunta 128;2019;1.11.1.003;Reumatología;OK;B;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2024 · Pregunta 46;2024;1.11.1.003;Reumatología;TEXTO_DANADO;A;;alta;Enunciado pregunta diagnóstico con respuesta incrustada (AR) pero alternativas son exámenes, clave A no corresponde, explicación incoherente;Dolor MCF/IFP con rigidez matinal >1 h: artritis reumatoide, pedir FR/anti-CCP.;Reumatología 1.11.1.003
+EUNACOM Diciembre 2022 · Pregunta 130;2022;1.11.1.003;Reumatología;OK;D;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2017 · Pregunta 46;2017;1.11.1.003;Reumatología;OK;D;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2019 · Pregunta 5;2019;1.11.1.003;Reumatología;OK;C;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2016 · Pregunta 102;2016;1.11.1.004;Reumatología;OK;E;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2017 · Pregunta 121;2017;1.11.1.004;Reumatología;OK;B;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Enero 2023 · Pregunta 95;2023;1.11.1.004;Reumatología;EXPLICACION_AJENA;B;B;alta;Clave correcta, explicación contiene transcripción de un video;Dolor en IFD/IFP con rigidez <30 min, esclerosis y osteofitos: artrosis.;Reumatología 1.11.1.004
+EUNACOM Diciembre 2022 · Pregunta 137;2022;1.11.1.004;Reumatología;EXPLICACION_AJENA;C;C;alta;Clave correcta, explicación contiene transcripción de un video;Dolor de IFD/IFP con rigidez matinal breve, pinzamiento y esclerosis subcondral: osteoartritis.;Reumatología 1.11.1.004
+EUNACOM Enero 2023 · Pregunta 96;2023;1.11.1.007;Reumatología;OK;E;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2019 · Pregunta 64;2019;1.11.1.007;Reumatología;OK;B;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2022 · Pregunta 132;2022;1.11.1.007;Reumatología;EXPLICACION_CONTRADICE;A;A;alta;Clave A (colchicina profiláctica en CPPD) correcta, la explicación dice que colchicina está contraindicada;Para prevenir recurrencias de artritis por pirofosfato de calcio se usa colchicina profiláctica en dosis bajas.;Reumatología 1.11.1.007
+EUNACOM Julio 2017 · Pregunta 2;2017;1.11.1.007;Reumatología;OK;B;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2018 · Pregunta 31;2018;1.11.1.009;Reumatología;OK;B;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2017 · Pregunta 45;2017;1.11.1.009;Reumatología;OK;B;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2024 · Pregunta 16;2024;1.11.1.009;Reumatología;OK;B;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2019 · Pregunta 50;2019;1.11.1.010;Reumatología;OK;B;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2016 · Pregunta 179;2016;1.11.1.010;Reumatología;OK;B;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2018 · Pregunta 28;2018;1.11.1.014;Reumatología;OK;C;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2017 · Pregunta 74;2017;1.11.1.014;Reumatología;OK;D;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2024 · Pregunta 154;2024;1.11.1.014;Reumatología;OK;A;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Agosto 2021 · Pregunta 98;2021;1.11.1.014;Reumatología;OK;D;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2019 · Pregunta 69;2019;1.11.1.015;Reumatología;OK;D;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2025 · Pregunta 112;2025;1.11.1.015;Reumatología;TEXTO_DANADO;D;D;alta;Ligaturas corruptas en alternativas (magné2ca, ecogra:a, ar2cular, an2cuerpos);;Reumatología 1.11.1.015
+EUNACOM Julio 2017 · Pregunta 148;2017;1.11.1.017;Reumatología;OK;D;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2024 · Pregunta 121;2024;1.11.1.017;Reumatología;CLAVE_DISCUTIBLE;E;E;media;"Osteoporosis severa con fractura de cadera: anabólico o denosumab, ""denosumab endovenoso"" es erróneo (es subcutáneo) y ácido zoledrónico C con 5 mg cada 6 meses también (anual), depende de guía";En osteoporosis severa con fracturas se prefiere anabólico (teriparatida/romosozumab) o denosumab subcutáneo, los bifosfonatos son alternativa.;Reumatología 1.11.1.017
+EUNACOM Diciembre 2017 · Pregunta 37;2017;1.11.1.017;Reumatología;OK;A;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2016 · Pregunta 173;2016;1.11.1.017;Reumatología;OK;E;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2019 · Pregunta 116;2019;1.11.1.017;Reumatología;OK;D;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2019 · Pregunta 72;2019;1.11.1.018;Reumatología;OK;B;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2015 · Pregunta 125;2015;1.11.1.018;Reumatología;OK;B;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2024 · Pregunta 110;2024;1.11.1.018;Reumatología;TEXTO_DANADO;A;A;baja;Enunciado y alternativas con anotaciones de duda del autor («??»), clave A (AINE) coherente con espondiloartritis;Espondiloartritis axial: tratamiento inicial con AINE.;Reumatología 1.11.1.018
+EUNACOM Agosto 2021 · Pregunta 97;2021;1.11.1.018;Reumatología;CLAVE_DISCUTIBLE;A;D;media;Espondiloartropatía (psoriasis): examen de elección actual es RMN de sacroilíacas (D) como en Dic 2019 Q129 y Julio 2015 Q125 con clave RMN, aquí clave Rx lumbosacra, inconsistente;Para sospecha de espondiloartritis axial el examen de elección es la RMN de sacroilíacas, la radiografía de sacroilíacas es el primer estudio disponible.;Reumatología 1.11.1.018
+EUNACOM Agosto 2021 · Pregunta 104;2021;1.11.1.020;Reumatología;OK;A;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Agosto 2021 · Pregunta 105;2021;1.11.1.020;Reumatología;CLAVE_DISCUTIBLE;C;C;baja;Paciente con atorvastatina, CPK 3760 y VHS 50: miopatía por estatinas (A) defendible frente a polimiositis (C);;Reumatología 1.11.1.020
+EUNACOM Julio 2017 · Pregunta 104;2017;1.11.1.020;Reumatología;OK;D;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2019 · Pregunta 131;2019;1.11.1.020;Reumatología;OK;A;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2018 · Pregunta 118;2018;1.11.1.020;Reumatología;CLAVE_DISCUTIBLE;A;A;baja;La propia explicación marca la pregunta como disputada (polimiositis vs polimialgia vs cuerpos de inclusión);;Reumatología 1.11.1.020
+EUNACOM Diciembre 2018 · Pregunta 109;2018;1.11.1.020;Reumatología;OK;C;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2024 · Pregunta 149;2024;1.11.1.021;Reumatología;OK;A;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2019 · Pregunta 126;2019;1.11.1.022;Reumatología;OK;D;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2017 · Pregunta 43;2017;1.11.1.025;Reumatología;OK;B;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2017 · Pregunta 157;2017;1.11.1.025;Reumatología;OK;D;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2019 · Pregunta 106;2019;1.11.1.025;Reumatología;OK;D;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2024 · Pregunta 165;2024;1.11.1.025;Reumatología;TEXTO_DANADO;A;;alta;Alternativas genéricas («Ninguna de las anteriores», «Otra alternativa no descrita» repetida), la respuesta (púrpura de Schönlein-Henoch) quedó en el enunciado, clave A inválida;Púrpura palpable en adolescente que no desaparece a la digitopresión: vasculitis IgA (Schönlein-Henoch).;Reumatología 1.11.1.025
+EUNACOM Julio 2016 · Pregunta 103;2016;1.11.2.001;Reumatología;OK;D;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Agosto 2021 · Pregunta 95;2021;1.11.2.001;Reumatología;OK;D;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2016 · Pregunta 39;2016;1.11.2.001;Reumatología;OK;B;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2017 · Pregunta 172;2017;1.11.2.001;Reumatología;CLAVE_DISCUTIBLE;D;B;baja;La explicación admite mala pregunta: alergia a penicilina sin especificar, cefazolina/cloxacilina vs clindamicina;;Reumatología 1.11.2.001
+EUNACOM Diciembre 2017 · Pregunta 47;2017;1.11.2.002;Reumatología;OK;D;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Diciembre 2018 · Pregunta 30;2018;1.11.2.002;Reumatología;OK;A;;alta;Clave coherente con el libro y el cuadro clínico;;
+EUNACOM Julio 2024 · Pregunta 34;2024;1.11.2.002;Reumatología;CLAVE_DISCUTIBLE;E;A;media;Crisis de gota: AINE (D tradicional en Chile), corticoide o colchicina todos válidos, la clave E (prednisona) depende de guía, la explicación lo reconoce;Crisis aguda de gota: AINE, colchicina en dosis bajas o prednisona, el alopurinol no se inicia en la crisis.;Reumatología 1.11.2.002 (dataset_reumatologia_bloque_1: crisis aguda)
+EUNACOM Julio 2019 · Pregunta 112;2019;1.11.2.002;Reumatología;CLAVE_DISCUTIBLE;B;B;baja;Podagra aguda: AINE no está en opciones, colchicina (B) y prednisona (E) ambas aceptables según libro;Podagra aguda: AINE, colchicina o prednisona, alopurinol se inicia después de resuelta la crisis.;Reumatología 1.11.2.002
+EUNACOM Julio 2013 · Pregunta 55;2013;1.11.2.002;Reumatología;CLAVE_DISCUTIBLE;E;E;baja;Gota aguda: colchicina (E) y corticoides (C) válidos según libro, pregunta ambigua (además «metacarpofalángica» de pie es error);Gota aguda: AINE, colchicina o corticoides, alopurinol contraindicado en crisis.;Reumatología 1.11.2.002
+EUNACOM Julio 2015 · Pregunta 8;2015;1.11.4.002;Reumatología;OK;D;;alta;Clave coherente con el libro y el cuadro clínico;;

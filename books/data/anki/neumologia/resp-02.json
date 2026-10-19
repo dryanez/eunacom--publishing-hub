@@ -1,0 +1,616 @@
+{
+ "classId": "resp-02",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la crisis asmática la obstrucción difusa causa {{c1::hiperinsuflación dinámica}} con atrapamiento aéreo.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · ¿Qué pasa en el bronquio?",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hipoxemia de la crisis se debe a un desbalance {{c1::V/Q}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · ¿Qué pasa en el bronquio?",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Al inicio de la crisis la hiperventilación reactiva produce {{c1::alcalosis respiratoria}} con CO2 bajo.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · ¿Qué pasa en el bronquio?",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.010"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Crisis leve a moderada: el paciente habla en {{c1::oraciones o párrafos}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Leve a moderada o grave",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Crisis leve a moderada: PEF entre {{c1::50 y 70%}} del mejor valor personal o teórico.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Leve a moderada o grave",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.009"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Crisis grave: FC > {{c1::120}} lpm y FR > {{c2::30}} rpm.",
+   "extra": "Cualquiera basta para llamarla grave.",
+   "origen": "clase:2",
+   "fuente": "Clase · Grave",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Crisis grave: PEF < {{c1::50%}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Grave",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.009"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la crisis grave el paciente solo dice {{c1::palabras o frases cortas}} y adopta posición de trípode.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Grave",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El {{c1::tórax silente}} (sin sibilancias con esfuerzo respiratorio) indica flujo insuficiente y riesgo de paro.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Signos de paro inminente",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras la taquicardia, la {{c1::bradicardia}} es un signo tardío de paro respiratorio inminente.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Signos de paro inminente",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Pulso paradojal > {{c1::25 mmHg}} es signo de crisis casi fatal.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Signos de riesgo vital",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Confusión o somnolencia en la crisis indican {{c1::hipoxia y agotamiento}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Signos de paro inminente",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El movimiento toracoabdominal paradójico refleja fatiga del {{c1::diafragma}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Signos de paro inminente",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los gases arteriales son mandatorios en crisis {{c1::grave o sin respuesta}} al tratamiento inicial.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Gasometría",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.010"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Lo esperable en la crisis es PaCO2 < {{c1::35 mmHg}} (hipocapnia).",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · El CO2 normal es la alarma",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.010"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En un paciente taquipneico, una PaCO2 de {{c1::38–42 mmHg}} ('normal') indica agotamiento inminente.",
+   "extra": "El error es leerlo como gases normales.",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 179"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "PaCO2 > {{c1::45 mmHg}} con pH < 7,30 es acidosis respiratoria: soporte en UPC.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · El CO2 normal es la alarma",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.010"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Oxigenoterapia en la crisis: SatO2 meta de {{c1::93–95%}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Cuatro pilares",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En embarazadas o cardiópatas la SatO2 meta es ≥ {{c1::95%}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Cuatro pilares",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Salbutamol en la crisis: {{c1::4–8 puff cada 20 minutos}} durante la primera hora, con aerocámara.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Cuatro pilares",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En crisis moderada y grave se agrega {{c1::ipratropio}} al SABA.",
+   "extra": "Reduce las hospitalizaciones.",
+   "origen": "clase:6",
+   "fuente": "Clase · Cuatro pilares",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Ipratropio en la crisis: 4–8 puff o {{c1::500 mcg}} nebulizados cada 20 minutos.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Cuatro pilares",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Corticoide de primera elección en la crisis: {{c1::prednisona 40–50 mg VO}} en la primera hora.",
+   "extra": "Igual de eficaz que la vía EV.",
+   "origen": "clase:6",
+   "fuente": "Clase · Corticoide sistémico",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 179"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Si el paciente vomita o tiene compromiso de conciencia: {{c1::hidrocortisona 200 mg EV}} o metilprednisolona 40 mg EV.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Corticoide sistémico",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En crisis moderada o grave el error es {{c1::esperar a ver si responde al SABA}} antes de dar corticoide.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El MDI con {{c1::aerocámara}} es tan eficaz como la nebulización, con menos taquicardia y depósito orofaríngeo.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Lo que sí y lo que no",
+   "repaso": true,
+   "codigos": [
+    "1.05.5.008"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la crisis asmática NO se usan de rutina {{c1::antibióticos ni aminofilina}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · No de rutina",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Crisis grave refractaria a la primera hora: {{c1::sulfato de magnesio 2 g EV}} en 20 minutos.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la crisis refractaria el error es dar {{c1::aminofilina o antibióticos}} en vez de magnesio.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Intubación en la crisis: secuencia rápida con {{c1::ketamina}} por su efecto broncodilatador.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · A los 60 minutos",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se intuba si hay deterioro de conciencia o pH < {{c1::7,25}} con PaCO2 > 50 mmHg.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Criterios de intubación",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.010"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Alta de urgencia: SatO2 > {{c1::93%}} y PEF > 70% al aire ambiente.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Criterios de alta",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El PEF de alta debe ser > {{c1::70%}} tras 60 minutos del último broncodilatador.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Criterios de alta",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.009"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Receta de egreso: prednisona {{c1::40 mg/día por 5–7 días}}, sin esquema descendente.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Receta de egreso",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Al alta, el error es dar solo salbutamol o un {{c1::ciclo largo con descenso}} de corticoide.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Al alta se inicia o escala el {{c1::corticoide inhalado}} de mantención, además del SABA de rescate.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Receta de egreso",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Control tras el alta en APS o policlínico en ≤ {{c1::7 días hábiles}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Receta de egreso",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El PEF se registra tras {{c1::3 maniobras}} y se anota la mejor.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Cómo medir el PEF",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.009"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Para medir el PEF se inspira al máximo y se sopla {{c1::fuerte y rápido}} (maniobra corta, sin vaciar el pulmón).",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Cómo medir el PEF",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.009"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Variabilidad diaria del PEF > {{c1::20%}} apoya el diagnóstico de asma.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Cómo medir el PEF",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.009"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Nebulización: salbutamol {{c1::2,5–5 mg}} ± ipratropio 0,5 mg en 3–4 mL de suero fisiológico.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Cómo nebulizar",
+   "repaso": true,
+   "codigos": [
+    "1.05.5.008"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se nebuliza con oxígeno a {{c1::6–8 L/min}} durante 5–10 minutos, sentado.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Cómo nebulizar",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.008"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Si hay riesgo de retener CO2 (EPOC), se nebuliza con {{c1::aire}} y el oxígeno va aparte por cánula nasal.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Cómo nebulizar",
+   "repaso": true,
+   "codigos": [
+    "1.05.5.008"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "El GES cubre el manejo de urgencia del asma bronquial {{c1::moderada o grave}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "GES · Manejo de urgencia del asma",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.004"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "_web/160_resp_Crisis_asmática_Asma_crónica__Commons_1.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "MDI con aerocámara valvulada y dispositivo de polvo seco (turbuhaler)",
+   "clave": "Aerocámara acoplada al inhalador presurizado",
+   "conducta": "En la crisis: salbutamol 4–8 puff cada 20 min con aerocámara; es tan eficaz como nebulizar",
+   "fuente": "Wikimedia Commons, CC BY-SA 4.0",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.004",
+    "1.05.4.009"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Signos de paro inminente: ¿qué conducta?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.1",
+   "pista": "PEF < 50% a los 60 min: ¿qué fármaco?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.0",
+   "pista": "PEF > 70% a los 60 min: ¿qué conducta?"
+  }
+ ]
+}

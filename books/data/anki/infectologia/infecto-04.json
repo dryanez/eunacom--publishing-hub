@@ -1,0 +1,638 @@
+{
+ "classId": "infecto-04",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fascitis necrotizante afecta la {{c1::fascia profunda}} y el tejido subcutáneo, con trombosis microvascular.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fascitis",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Fascitis tipo I: polimicrobiana, {{c1::80 %}} de los casos.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fascitis",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tipo I: anaerobios + enterobacterias + estreptococos en {{c1::diabéticos}} o tras cirugía perineal.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fascitis",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La gangrena de {{c1::Fournier}} es una fascitis necrotizante del periné y los genitales.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo reconocerla",
+   "repaso": true,
+   "imagen": "biblioteca/07_infectologia/infecto-04/03_gangrena-fournier__atlas199.jpg",
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Fascitis tipo II: monomicrobiana por Streptococcus pyogenes, {{c1::20 %}} de los casos.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fascitis",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fascitis tipo II afecta a jóvenes tras traumatismos menores o {{c1::varicela}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Dos tipos",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El signo más precoz de la fascitis necrotizante es el {{c1::dolor desproporcionado}} a los hallazgos físicos.",
+   "extra": "La piel parece solo eritematosa.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 172",
+    "EUNACOM Diciembre 2019 · Pregunta 135"
+   ],
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signos duros de necrosis: flictenas {{c1::serohemáticas}}, crepitación, anestesia focal y shock.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Signos cardinales",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 172",
+    "EUNACOM Diciembre 2019 · Pregunta 135"
+   ],
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La crepitación en la fascitis se debe a gas tisular por {{c1::anaerobios}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Signos cardinales",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La anestesia cutánea focal se debe a necrosis de los {{c1::nervios dérmicos}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo reconocerla",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la celulitis el dolor es {{c1::proporcional}} al eritema visible; en la fascitis es desproporcionado.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Celulitis vs fascitis",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Celulitis: calor, rubor y edema con fóvea, con hemodinamia {{c1::estable}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Celulitis vs fascitis",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fascitis necrotizante: shock séptico, lactato elevado y falla {{c1::multiorgánica}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Celulitis vs fascitis",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 172",
+    "EUNACOM Diciembre 2019 · Pregunta 135"
+   ],
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el caso clínico, un LRINEC > {{c1::8}} apoya fascitis necrotizante (hiponatremia, lactato alto, leucocitosis).",
+   "extra": "",
+   "origen": "libro:caso",
+   "fuente": "Libro · Caso clínico",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La medida que define la sobrevida en la fascitis es el {{c1::pabellón inmediato}} con desbridamiento amplio.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 172",
+    "EUNACOM Diciembre 2019 · Pregunta 135"
+   ],
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Ante fascitis sospechada el error es pedir {{c1::TAC o RMN}} si demora la entrada a pabellón.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · El tratamiento es el pabellón",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la fascitis el error es tratar solo con {{c1::antibióticos}} sin cirugía urgente.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Antibióticos EV en fascitis: {{c1::meropenem}} + vancomicina + clindamicina.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 172",
+    "EUNACOM Diciembre 2019 · Pregunta 135"
+   ],
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Meropenem en la fascitis cubre {{c1::enterobacterias y anaerobios}} del tipo I.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Antibióticos",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "La clindamicina se agrega porque {{c1::bloquea la síntesis de toxinas}} estreptocócicas.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Pilares terapéuticos",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.004",
+    "1.04.2.005"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Celulitis simple sin necrosis ni shock: {{c1::cefazolina o cloxacilina}} EV.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Antibióticos",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En celulitis se marca el borde del eritema y se reevalúa en {{c1::12 a 24 horas}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Antibióticos",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La angina de Ludwig es una celulitis gangrenosa {{c1::bilateral}} de los espacios submandibular y sublingual.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Angina de Ludwig",
+   "repaso": true,
+   "imagen": "biblioteca/07_infectologia/infecto-04/02_angina-de-ludwig__amir-orl_p55.jpg",
+   "codigos": [
+    "1.04.2.004",
+    "1.04.2.005"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La angina de Ludwig se origina en {{c1::80 %}} por infección de 2.º o 3.er molar inferior.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Angina de Ludwig",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.004",
+    "1.04.2.005"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ludwig cursa con trismus, lengua {{c1::protruida}} y estridor: el riesgo es la asfixia.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Angina de Ludwig",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.004",
+    "1.04.2.005"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En Ludwig lo primero es {{c1::asegurar la vía aérea}} (fibra óptica o traqueostomía).",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Angina de Ludwig",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Vía aérea en Ludwig: intubación con {{c1::fibra óptica}} o traqueostomía.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Angina de Ludwig",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.004",
+    "1.04.2.005"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En Ludwig el aseo quirúrgico y la fasciotomía {{c1::no se difieren}} por TAC ni RMN.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Angina de Ludwig",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.004",
+    "1.04.2.005"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Ludwig: terapia EV con meropenem + vancomicina + {{c1::clindamicina}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Angina de Ludwig",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.004",
+    "1.04.2.005"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La adenitis aguda es un ganglio cervical unilateral, caliente y doloroso, por S. aureus o {{c1::S. pyogenes}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Adenitis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.001",
+    "1.04.2.004"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El adenoflegmón es la adenitis que ya {{c1::fluctúa}} y se acompaña de fiebre.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Adenitis y flegmones",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Adenitis: antibiótico oral por {{c1::7–10 días}} y drenaje cuando fluctúa.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Adenitis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.001",
+    "1.04.2.004"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Adenitis de origen dental o con anaerobios: {{c1::amoxicilina-ácido clavulánico}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Adenitis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.001",
+    "1.04.2.004"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Adenopatía crónica e indolora sugiere tuberculosis (escrófula): se pide PPD y {{c1::cultivo}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Adenitis y flegmones",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Adenopatía asociada a un gato: enfermedad por arañazo de gato, por {{c1::Bartonella}} (azitromicina).",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Adenitis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.001",
+    "1.04.2.004"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Adenopatía dura, adherida o supraclavicular obliga a descartar {{c1::linfoma o metástasis}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Adenitis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.001",
+    "1.04.2.004"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Retrofaríngeo, parafaríngeo y masticador: trismo, babeo y voz «de {{c1::papa caliente}}».",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Adenitis y flegmones",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Flegmones cervicales: ampicilina-sulbactam o clindamicina + {{c1::ceftriaxona}} EV, TAC con contraste y drenaje.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Otros flegmones",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.001",
+    "1.04.2.004"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "El GES cubre las infecciones graves de {{c1::cabeza, cuello y partes blandas}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · GES",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-04/01_fascitis-necrotizante__cto-infecto_p84.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Fascitis necrotizante tras desbridamiento",
+   "clave": "Dolor desproporcionado, flictenas hemorrágicas, crepitación y shock",
+   "conducta": "Pabellón inmediato con desbridamiento amplio; meropenem + vancomicina + clindamicina",
+   "fuente": "Manual CTO Infecciosas 14.ª ed., p. 84",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-04/03_gangrena-fournier__atlas199.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Gangrena de Fournier",
+   "clave": "Piel violácea con necrosis en periné y genitales, dolor desproporcionado",
+   "conducta": "Urgencia quirúrgica: desbridamiento y triterapia EV",
+   "fuente": "Atlas EUNACOM 2026",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-04/02_angina-de-ludwig__amir-orl_p55.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Angina de Ludwig",
+   "clave": "Cuello hinchado bajo la mandíbula, bilateral, con lengua protruida",
+   "conducta": "Asegurar la vía aérea primero; luego aseo quirúrgico y antibióticos EV",
+   "fuente": "Manual AMIR Otorrinolaringología, p. 55",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Piso de boca comprometido: ¿qué haces primero?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.0",
+   "pista": "Signos duros de necrosis: ¿conducta?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.1",
+   "pista": "Sin signos duros: ¿diagnóstico y antibiótico?"
+  }
+ ]
+}

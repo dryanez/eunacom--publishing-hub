@@ -1,0 +1,381 @@
+{
+  "classId": "neuro-12",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Parkinsonismo por fármacos: bloqueo D2 estriatal con sustancia negra {{c1::sana}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Fármacos",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.010",
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Parkinsonismo por fármacos: debut {{c1::subagudo}}, bilateral y simétrico.",
+      "extra": "Parkinson idiopático: asimétrico.",
+      "origen": "clase:1",
+      "fuente": "Clase · Fármacos",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.006",
+        "1.10.2.010"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antiemético que más causa parkinsonismo crónico: {{c1::metoclopramida}}.",
+      "extra": "La domperidona casi no cruza la BHE.",
+      "origen": "clase:2",
+      "fuente": "Clase · Fármacos",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 40"
+      ],
+      "codigos": [
+        "1.10.2.010",
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Vasodilatadores recetados para el vértigo que causan parkinsonismo: {{c1::flunarizina y cinarizina}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Fármacos",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 40",
+        "EUNACOM Diciembre 2024 · Pregunta 171"
+      ],
+      "codigos": [
+        "1.10.2.010"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antipsicóticos con menor perfil extrapiramidal: {{c1::quetiapina y clozapina}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Fármacos",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.010",
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Parkinsonismo por fármacos: suspender gradualmente el fármaco; el error es {{c1::iniciar levodopa}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.010"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Temblor de reposo asimétrico con niveles de fármacos en rango: Parkinson idiopático; error {{c1::culpar al fármaco}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 99"
+      ],
+      "codigos": [
+        "1.10.1.006",
+        "1.10.2.010"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PSP es una {{c1::tauopatía}}; la tríada es mirada vertical, caídas precoces hacia atrás y rigidez axial.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · PSP",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PSP: la parálisis de la mirada vertical afecta primero la mirada hacia {{c1::abajo}}; el reflejo oculocefálico está conservado.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · PSP",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PSP: caídas precoces {{c1::hacia atrás}} en el primer año de evolución.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · PSP",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PSP en la RM sagital: atrofia mesencefálica o signo del {{c1::colibrí (pingüino)}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · PSP",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "AMS es una alfa-sinucleinopatía con inclusiones en {{c1::oligodendrocitos}} (gliales).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · AMS",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "AMS tiene dos fenotipos: {{c1::parkinsoniano (AMS-P)}} y cerebeloso (AMS-C).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · AMS",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterio cardinal de AMS: falla {{c1::autonómica}} precoz (hipotensión ortostática grave sin taquicardia, vejiga neurogénica).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · AMS",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estridor laríngeo nocturno en parkinsonismo con disautonomía: {{c1::atrofia multisistémica}}; riesgo de muerte súbita.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · AMS",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "AMS en RM axial T2: signo de la {{c1::cruz caliente}} (hot cross bun) por atrofia pontina.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · AMS",
+      "repaso": false,
+      "imagen": "_web/151_neuro_Parkinsonismos_atípicos__Commons_1.jpg",
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Degeneración corticobasal: parkinsonismo asimétrico, apraxia ideomotora y fenómeno de la {{c1::mano ajena}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · DCB",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Parkinsonismo vascular: infartos lacunares múltiples; marcha {{c1::magnética}} a pasos cortos con braceo conservado.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Vascular",
+      "repaso": false,
+      "imagen": "_verificadas/152_neuro_Parkinsonismo_vascular_demenci__HarrisonsP_p234_1.jpg",
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Parkinsonismo vascular: hiperreflexia, {{c1::Babinski}} e incontinencia urinaria; sin temblor en las manos.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Vascular",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Marcha a pasos cortos con braceo normal y Babinski: parkinsonismo vascular; error {{c1::buscar temblor}} en las manos.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Respuesta a levodopa: Parkinson idiopático excelente; parkinsonismos atípicos {{c1::nula o escasa}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla 10.12",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mala respuesta a levodopa o banderas rojas precoces: {{c1::derivación preferente}} a nivel secundario y RM.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Temblor de reposo y micrografía, con dificultad para girarse y caídas, sin deterioro cognitivo: {{c1::Parkinson}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "EUNACOM Julio 2015 · Pregunta 26",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 26",
+        "EUNACOM Diciembre 2018 · Pregunta 22"
+      ],
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_web/151_neuro_Parkinsonismos_atípicos__Commons_1.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Signo de la cruz caliente (hot cross bun) en protuberancia",
+      "clave": "Atrofia pontina que dibuja una cruz en T2 axial",
+      "conducta": "Sospechar atrofia multisistémica: derivación preferente; buscar disautonomía y estridor",
+      "fuente": "Wikimedia Commons, CC BY-SA 4.0",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_verificadas/152_neuro_Parkinsonismo_vascular_demenci__HarrisonsP_p234_1.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Leucoaraiosis e infartos lacunares",
+      "clave": "Hiperintensidades de sustancia blanca periventricular e infartos subcorticales",
+      "conducta": "Parkinsonismo vascular: control de factores vasculares; no esperar respuesta a levodopa",
+      "fuente": "Harrison, Principios de Medicina Interna 21.ª ed., p. 234",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Parkinsonismo con bloqueador D2: ¿conducta?",
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.0",
+      "pista": "Banderas rojas precoces: ¿conducta?",
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "Sin fármacos ni banderas rojas: ¿diagnóstico?",
+      "codigos": [
+        "1.10.1.006"
+      ]
+    }
+  ]
+}

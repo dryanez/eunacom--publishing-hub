@@ -1,0 +1,613 @@
+{
+  "classId": "gin-05",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Endometriosis: tejido endometrial funcional {{c1::fuera de la cavidad uterina}}.",
+      "extra": "Enfermedad inflamatoria crónica estrógeno-dependiente.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Teoría más aceptada de la endometriosis: {{c1::menstruación retrógrada}} (Sampson).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Localización más frecuente de la endometriosis: {{c1::ovarios}} (endometrioma o 'quiste de chocolate').",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.015"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 47"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Endometriosis en tabique rectovaginal o recto-sigmoides causa {{c1::disquecia}} cíclica.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Localizaciones",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Endometriosis en vejiga o uréteres: disuria cíclica y {{c1::hematuria catamenial}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Localizaciones",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Endometriosis en pleura o diafragma: {{c1::neumotórax catamenial}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Localizaciones",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tríada de la endometriosis: dismenorrea progresiva, {{c1::dispareunia profunda}} e {{c2::infertilidad}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.015"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 70"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La dismenorrea de la endometriosis es progresiva y {{c1::no cede con AINEs}} habituales.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Tríada",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.015",
+        "3.01.1.014"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dispareunia profunda de la endometriosis: por tracción de ligamentos {{c1::uterosacros}} y tabique rectovaginal.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tríada",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Infertilidad afecta al {{c1::30-50%}} de las pacientes con endometriosis.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tríada",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Examen físico de la endometriosis: útero en {{c1::retroversión fija}} y nódulos dolorosos en el Douglas y uterosacros.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Tríada",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ecografía del endometrioma: quiste con ecos finos homogéneos en {{c1::vidrio esmerilado}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.015"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 47"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Quiste en vidrio esmerilado sin papilas ni Doppler: es un {{c1::endometrioma benigno}}, no cáncer.",
+      "extra": "El error es pensar en cáncer y operar de urgencia.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Endometrioma con Ca-125 elevado: sigue siendo {{c1::endometrioma}}.",
+      "extra": "El Ca-125 también sube en procesos peritoneales benignos.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Jul 2019",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.015"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 10"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estándar de oro imagenológico en endometriosis profunda: {{c1::resonancia magnética pélvica}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estándar de oro diagnóstico definitivo de endometriosis: {{c1::laparoscopía con biopsia}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.015"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 53"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Dolor típico de endometriosis sin deseo de embarazo: el error es pedir {{c1::laparoscopía de entrada}}; se trata con dienogest continuo.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Primera línea del dolor en endometriosis sin deseo gestacional: {{c1::dienogest 2 mg/día}} oral continuo.",
+      "extra": "Progestágeno que induce decidualización y atrofia de los focos.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativas de primera línea al dienogest: DIU-LNG, implante de etonogestrel o {{c1::ACO continuos}} sin descanso.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Dolor pélvico",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Análogos de GnRH en endometriosis son de segunda línea y se limitan a máximo {{c1::6 meses}}.",
+      "extra": "Riesgo de desmineralización ósea; add-back si se prolongan.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Endometriosis con deseo de embarazo: el tratamiento hormonal {{c1::no mejora la fertilidad}} y solo retrasa la búsqueda.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Infertilidad",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Endometriosis con infertilidad: {{c1::cirugía laparoscópica conservadora o FIV}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz caso",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cistectomía ovárica laparoscópica en endometriomas > {{c1::3-4 cm}} respetando la corteza sana.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Infertilidad",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Indicación quirúrgica en quien no busca embarazo: endometrioma de {{c1::4 cm}} o más.",
+      "extra": "También dolor refractario tras dos líneas médicas o compromiso de uréter/intestino.",
+      "origen": "clase:9",
+      "fuente": "Clase · Cirugía",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adenomiosis: endometrio ectópico {{c1::dentro del miometrio}}.",
+      "extra": "Endometriosis: fuera del útero.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla endometriosis vs adenomiosis",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.015"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 54",
+        "EUNACOM Enero 2023 · Pregunta 60",
+        "EUNACOM Agosto 2021 · Pregunta 116"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adenomiosis típica: multípara de {{c1::35 a 50 años}} con hipermenorrea y dismenorrea tardía.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla endometriosis vs adenomiosis",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.015",
+        "3.01.1.014"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Endometriosis típica: mujer joven de {{c1::20 a 35 años}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla endometriosis vs adenomiosis",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ecografía de la adenomiosis: miometrio heterogéneo con sombras en {{c1::rayos de sol}} y asimetría.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla endometriosis vs adenomiosis",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Útero grande, blando y difuso: es {{c1::adenomiosis}}, no miomatosis.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.015"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 116"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Adenomiosis: primera opción médica {{c1::DIU-LNG}}, más ácido tranexámico y AINEs.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Adenomiosis",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Adenomiosis con paridad cumplida y falla del tratamiento médico: {{c1::histerectomía total}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.015"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 136"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dismenorrea primaria: se debe a exceso de {{c1::prostaglandinas F2α}} endometriales.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Dismenorrea primaria",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.014"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dismenorrea primaria: aparece {{c1::6-12 meses}} tras la menarquia; dura 8-72 horas.",
+      "extra": "Examen físico y ecografía normales.",
+      "origen": "clase:3",
+      "fuente": "Clase · Dismenorrea primaria",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.014"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Dismenorrea primaria: primera línea con {{c1::AINE}} iniciados al comenzar el dolor o el sangrado.",
+      "extra": "Si no responde o desea anticoncepción: anticonceptivos hormonales.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.014"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Ibuprofeno {{c1::400 mg c/8 h}}, naproxeno 500 mg c/12 h o ácido mefenámico 500 mg c/8 h.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Dismenorrea primaria",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.014"
+      ]
+    },
+    {
+      "id": "c36",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Dismenorrea sin respuesta a tratamiento por {{c1::3 meses}}: buscar causa secundaria (laparoscopía).",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Dismenorrea primaria",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.014",
+        "3.01.1.015"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 53"
+      ]
+    },
+    {
+      "id": "c37",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dismenorrea secundaria: dolor progresivo, de inicio tardío y a veces {{c1::no cíclico}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Secundaria y crónico",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.014"
+      ]
+    },
+    {
+      "id": "c38",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dolor pelviano crónico: duración > {{c1::6 meses}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Dolor pelviano crónico",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.014"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-05/01_endometrioma-eco__cto-gyo_p74.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Endometrioma ovárico",
+      "clave": "Quiste homogéneo en vidrio esmerilado",
+      "conducta": "Dienogest si no busca embarazo; cirugía conservadora o FIV si busca",
+      "fuente": "Manual CTO Ginecología y Obstetricia 14.ª ed., p. 74",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-05/01_endometrioma-eco_alt1__amir-gyo_p101.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Endometrioma con Doppler",
+      "clave": "Sin papilas sólidas ni flujo Doppler",
+      "conducta": "Benigno: no operar de urgencia por sospecha de cáncer",
+      "fuente": "Manual AMIR Ginecología y Obstetricia, p. 101",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-05/02_endometriosis-laparoscopia__cto-gyo_p75.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Implantes de endometriosis",
+      "clave": "Lesiones tipo quemadura de pólvora en el peritoneo pélvico",
+      "conducta": "Laparoscopía con biopsia: estándar de oro",
+      "fuente": "Manual CTO Ginecología y Obstetricia 14.ª ed., p. 75",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    },
+    {
+      "id": "i04",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-05/03_adenomiosis-eco__commons.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Adenomiosis",
+      "clave": "Miometrio heterogéneo con rayos de sol y endometrio desdibujado",
+      "conducta": "DIU-LNG; histerectomía si paridad cumplida",
+      "fuente": "Wikimedia Commons, CC0",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.015"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Endometriosis: ¿qué pregunta define el tratamiento?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0",
+      "pista": "Endometriosis sin deseo de embarazo: ¿tratamiento?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0.1.0",
+      "pista": "Endometrioma mayor a 4 cm y busca embarazo: ¿qué haces?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.1",
+      "pista": "Adenomiosis con paridad cumplida y falla médica: ¿conducta?"
+    }
+  ]
+}

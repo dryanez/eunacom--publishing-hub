@@ -1,0 +1,409 @@
+{
+  "classId": "neuro-06",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Migraña sin aura: al menos {{c1::5}} crisis que duran {{c2::4 a 72 horas}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Criterios IHS",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.012"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Migraña sin aura: cumple {{c1::2 de 4}} características (unilateral, pulsátil, moderada-severa, empeora con actividad).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Criterios IHS",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.012",
+        "1.10.1.001"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Migraña con aura: al menos {{c1::2}} crisis; el aura dura de {{c2::5 a 60 minutos}} y la cefalea sigue en < 60 min.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Criterios IHS",
+      "repaso": false,
+      "imagen": "biblioteca/09_neurologia/neuro-06/S1_aura-fortificacion__propio.svg",
+      "codigos": [
+        "1.10.1.012",
+        "1.10.1.001"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Destellos visuales seguidos de cefalea pulsátil con foto y fonofobia, recurrente: {{c1::migraña con aura (clásica)}}.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "EUNACOM Julio 2013 · Pregunta 180",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 180"
+      ],
+      "codigos": [
+        "1.10.1.012",
+        "1.10.1.001"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cefalea tensional: dolor {{c1::opresivo bilateral}} \"en casco\", leve-moderado, que no empeora con la actividad.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Cefalea tensional",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 59"
+      ],
+      "codigos": [
+        "1.10.1.001",
+        "2.01.1.077"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Cefalea tensional: {{c1::nunca}} náuseas ni vómitos; fotofobia O fonofobia, jamás ambas.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Cefalea tensional",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.001",
+        "2.01.1.077"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Prevención de cefalea tensional frecuente o crónica: {{c1::amitriptilina}} 10–25 mg de noche.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Cefalea tensional",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.001"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cefalea típica con examen normal y sin banderas rojas: {{c1::diagnóstico clínico}}, sin TAC de rutina.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.001",
+        "2.01.1.077"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Cefalea nueva en mayor de {{c1::50}} años: pedir VHS y PCR (arteritis de células gigantes), no tratar como migraña.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 43"
+      ],
+      "codigos": [
+        "1.10.2.001",
+        "2.01.1.077"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cefalea en trueno con TAC normal: {{c1::punción lumbar}}, no el alta con analgesia.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.001",
+        "2.01.1.077"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cefalea de HTEC: matutina o que despierta, peor al acostarse o toser, con vómitos explosivos y {{c1::papiledema}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · HTEC",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 166",
+        "EUNACOM Julio 2015 · Pregunta 149"
+      ],
+      "imagen": "biblioteca/09_neurologia/neuro-06/01_papiledema__cto-oftalmo_p88.jpg",
+      "codigos": [
+        "2.01.1.077",
+        "1.10.2.001"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante cefalea por HTEC: TAC con contraste o RM {{c1::antes}} de puncionar.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · HTEC",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.001",
+        "2.01.1.077"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tratar la crisis de migraña en la {{c1::primera hora}} del dolor, no durante el aura.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento agudo",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.012"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Migraña moderada a severa o falla del AINE: {{c1::sumatriptán}} 50–100 mg VO o 6 mg SC.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento agudo",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.012"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Sumatriptán: segunda dosis a las {{c1::2 horas}}; máximo 200 mg/día VO o 12 mg/día SC.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento agudo",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.012"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cefalea por abuso de medicación: AINE < {{c1::15}} días/mes; triptanes o combinados < {{c2::10}} días/mes.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Seguridad",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.001",
+        "1.10.1.012"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Profilaxis de migraña si hay ≥ {{c1::3}} crisis al mes o discapacidad pese al tratamiento agudo.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Profilaxis",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.012"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El objetivo de la profilaxis es reducir las crisis en al menos {{c1::50 %}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Profilaxis",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.012",
+        "1.10.1.001"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Profilaxis en joven ansioso, HTA o temblor: {{c1::propranolol}} 40–160 mg/día.",
+      "extra": "Contraindicado en asma, EPOC, bradicardia y bloqueo AV.",
+      "origen": "clase:11",
+      "fuente": "Clase · Profilaxis",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.012"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Migraña con obesidad: {{c1::topiramato}}; riesgo de glaucoma agudo, litiasis y teratogenia.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Profilaxis",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 80"
+      ],
+      "codigos": [
+        "1.10.1.012"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En mujer en edad fértil, la profilaxis de migraña NO debe ser {{c1::ácido valproico}}.",
+      "extra": "Teratógeno.",
+      "origen": "clase:14",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.012"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Migrañosa con topiramato, ojo rojo, dolor periocular y pupila en semimidriasis fija: {{c1::glaucoma agudo}} (manitol EV).",
+      "extra": "",
+      "origen": "clase:20",
+      "fuente": "EUNACOM Julio 2019 · Pregunta 80",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 80"
+      ],
+      "codigos": [
+        "1.10.1.012"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Status migrañoso: crisis > {{c1::72 horas}} con intervalos libres < 4 horas.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Status migrañoso",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.018"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Crisis de migraña típica con vómitos y sin banderas rojas: tratamiento {{c1::parenteral}} sin neuroimagen.",
+      "extra": "",
+      "origen": "clase:21",
+      "fuente": "Quiz Perfil V3 1.10.2.018",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.012",
+        "2.01.1.077"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-06/01_papiledema__cto-oftalmo_p88.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Papiledema",
+      "clave": "Borde papilar borrado en el fondo de ojo",
+      "conducta": "Bandera roja de HTEC: neuroimagen antes de puncionar y manejo de la causa",
+      "fuente": "Manual CTO Oftalmología 14.ª ed., p. 88",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.011",
+        "1.10.2.001"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-06/S1_aura-fortificacion__propio.svg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Espectro de fortificación (aura visual de migraña)",
+      "clave": "Línea en zigzag que crece en 5–60 minutos, seguida de cefalea",
+      "conducta": "Tratar la cefalea en la primera hora; sin banderas rojas no se pide imagen",
+      "fuente": "Dibujo propio (esquema)",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.012",
+        "1.10.1.001"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1.1.0",
+      "pista": "Migraña leve-moderada: ¿tratamiento?",
+      "codigos": [
+        "1.10.1.012"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1.1",
+      "pista": "Migraña severa o falla del AINE: ¿fármaco?",
+      "codigos": [
+        "1.10.1.012"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0",
+      "pista": "Cefalea con bandera roja: ¿qué se hace?",
+      "codigos": [
+        "1.10.1.001"
+      ]
+    }
+  ]
+}

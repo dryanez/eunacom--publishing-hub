@@ -1,0 +1,594 @@
+{
+  "classId": "ped-10",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Exantema súbito (roséola, sexta enfermedad): agente {{c1::HHV-6}} (y tipo 7).",
+      "extra": "Afecta a lactantes de 6 a 18 meses.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Exantema súbito",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.009"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 70",
+        "EUNACOM Julio 2013 · Pregunta 131",
+        "EUNACOM Enero 2023 · Pregunta 31"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el exantema súbito el exantema aparece {{c1::cuando la fiebre cae bruscamente}}.",
+      "extra": "Maculopapular rosado en tronco que respeta la cara.",
+      "origen": "clase:2",
+      "fuente": "Clase · Exantema súbito",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.009"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 13",
+        "EUNACOM Julio 2024 · Pregunta 52",
+        "EUNACOM Agosto 2021 · Pregunta 35"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Exantema súbito: fiebre alta de {{c1::39-40°C}} durante 3 a 4 días, con buen estado general.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Exantema súbito",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.009"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El exantema súbito es la causa más frecuente de {{c1::convulsión febril}} en lactantes de 6 a 18 meses.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Exantema súbito",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.009"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Manejo del exantema súbito: {{c1::solo observación}}, es autolimitado y sin antiviral.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Exantema súbito",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.009"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 13"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el exantema súbito, el error clásico es confundirlo con {{c1::alergia a la amoxicilina}}.",
+      "extra": "Si se dio amoxicilina antes, la fiebre ya iba a ceder y el rash sale solo.",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.009"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 70",
+        "EUNACOM Agosto 2021 · Pregunta 35"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Eritema infeccioso (quinta enfermedad): agente {{c1::Parvovirus B19}}, en escolares de 5 a 15 años.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Eritema infeccioso",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.009"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 37",
+        "EUNACOM Diciembre 2018 · Pregunta 69",
+        "EUNACOM Diciembre 2017 · Pregunta 127",
+        "EUNACOM Diciembre 2017 · Pregunta 139",
+        "EUNACOM Julio 2015 · Pregunta 132",
+        "EUNACOM Diciembre 2024 · Pregunta 168",
+        "EUNACOM Enero 2023 · Pregunta 30",
+        "EUNACOM Diciembre 2025 · Pregunta 136"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fase inicial del eritema infeccioso: signo de la {{c1::bofetada}} (mejillas rojas que respetan el área perioral).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Eritema infeccioso",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.009"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-10/01_eritema_infeccioso__nelson_p2548.jpg"
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fase intermedia del eritema infeccioso: exantema {{c1::en encaje (reticular)}} en extremidades y tronco.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Eritema infeccioso",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.009"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El exantema del eritema infeccioso recidiva por semanas con {{c1::calor, sol o ejercicio}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Eritema infeccioso",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.009"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Parvovirus B19 puede causar crisis aplásica en pacientes con {{c1::anemia hemolítica de base}} (esferocitosis, drepanocitosis).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Eritema infeccioso",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.009"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Parvovirus B19 en la embarazada puede causar {{c1::hidrops fetal}} grave.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Eritema infeccioso",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.009"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante el eritema infeccioso, el error frecuente es {{c1::pedir estudio de sarampión}}.",
+      "extra": "Poca fiebre, bofetada y encaje.",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.009"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Escarlatina: agente {{c1::Streptococcus pyogenes (SGA)}} productor de toxinas eritrogénicas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Escarlatina",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 71"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la escarlatina el exantema es en {{c1::piel de lija}}, simultáneo a la fiebre alta.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla exantemas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2018 · Pregunta 96"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signo de Pastia: líneas {{c1::hiperpigmentadas en pliegues flexores}} que no palidecen.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Escarlatina",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.008"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Triángulo de Filatow: {{c1::palidez perioral}} con mejillas rojas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Escarlatina",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.008"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La lengua de la escarlatina pasa de fresa blanca a {{c1::aframbuesada}} (roja brillante con papilas hipertróficas).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Escarlatina",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.008"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-10/04_escarlatina_1__cto-pediatria_p102.jpg"
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de escarlatina: {{c1::penicilina V o amoxicilina}} oral por 10 días completos.",
+      "extra": "Alternativa: penicilina benzatina IM dosis única.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Escarlatina",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.008"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El antibiótico en escarlatina se da para prevenir {{c1::fiebre reumática}}, no la glomerulonefritis.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Escarlatina",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2018 · Pregunta 96"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la escarlatina, el error frecuente es {{c1::no dar antibiótico por creer que es “solo un virus”}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.008"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Varicela: agente {{c1::virus varicela zóster}}, con transmisión respiratoria y por gotitas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Varicela",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.009"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Varicela: el patrón de {{c1::cielo estrellado}} es la presencia simultánea de lesiones en todos sus estadios.",
+      "extra": "Mácula, pápula, vesícula, pústula y costra; incluye cuero cabelludo.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Varicela",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.009"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-10/07_varicela_alt1__cto-infecto_p127.jpg"
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La complicación más frecuente de la varicela es la {{c1::sobreinfección bacteriana de la piel}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Varicela",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.009"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En varicela e influenza está contraindicada la {{c1::aspirina}} por riesgo de síndrome de Reye.",
+      "extra": "El antipirético seguro es el paracetamol.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.009"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Para el prurito de la varicela en un escolar se indica {{c1::clorfenamina}}.",
+      "extra": "El aciclovir no es de rutina.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Varicela",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.009"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 33",
+        "EUNACOM Diciembre 2019 · Pregunta 25"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Kawasaki: vasculitis de arterias de mediano calibre con predilección por las {{c1::coronarias}}, en menores de 5 años.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Kawasaki",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.058"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterio obligatorio de Kawasaki: fiebre persistente por {{c1::≥ 5 días}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Diagrama Kawasaki",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.058"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 11",
+        "EUNACOM Diciembre 2017 · Pregunta 128"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Kawasaki se confirma con fiebre más {{c1::4 de 5}} criterios clínicos.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Diagrama Kawasaki",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.058"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 75"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterio de Kawasaki: adenopatía cervical con un ganglio de {{c1::> 1.5 cm}}, unilateral y no supurativa.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Kawasaki",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.058"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterio de Kawasaki: inyección conjuntival bilateral {{c1::no exudativa}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Kawasaki",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.058"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Kawasaki: cambios en la boca con labios {{c1::fisurados}} y lengua aframbuesada.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Kawasaki",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.058"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-10/09_kawasaki-labios-lengua__openi.jpg"
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Kawasaki: el exantema es polimorfo y {{c1::nunca vesicular ni petequial}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Kawasaki",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.058"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de Kawasaki: {{c1::inmunoglobulina EV 2 g/kg}} en infusión única de 10-12 horas.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Kawasaki",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.058"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 11"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La IgEV en Kawasaki debe darse antes del día {{c1::10}} de enfermedad.",
+      "extra": "Baja los aneurismas de 25% a menos de 3-5%.",
+      "origen": "clase:10",
+      "fuente": "Clase · Kawasaki tratamiento",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.058"
+      ]
+    },
+    {
+      "id": "c36",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Aspirina en fase febril de Kawasaki: {{c1::30 a 50 mg/kg/día}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Kawasaki",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.058"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-10/01_eritema_infeccioso__nelson_p2548.jpg",
+      "pregunta": "¿Qué muestra y qué agente es?",
+      "diagnostico": "Eritema infeccioso (signo de la bofetada)",
+      "clave": "Mejillas rojas intensas que respetan el área perioral",
+      "conducta": "Parvovirus B19; manejo de soporte",
+      "fuente": "Nelson 22.ª ed., p. 2548",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.009"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-10/04_escarlatina_1__cto-pediatria_p102.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Lengua aframbuesada de escarlatina",
+      "clave": "Lengua roja brillante con papilas hipertróficas",
+      "conducta": "Penicilina V o amoxicilina por 10 días",
+      "fuente": "Manual CTO Pediatría 14.ª ed., p. 102",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.008"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-10/10_manchas-de-koplik__zitelli_p492.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Manchas de Koplik del sarampión",
+      "clave": "Puntos blanco-azulados sobre base eritematosa en mucosa yugal",
+      "conducta": "Notificación inmediata, aislamiento y vitamina A",
+      "fuente": "Zitelli y Davis, Fig. 12-1",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.009"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "La fiebre cae y sale el exantema: ¿diagnóstico?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.3",
+      "pista": "Vesículas en todos los estadios: ¿diagnóstico y qué fármaco evitar?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.4",
+      "pista": "Tos, coriza, conjuntivitis y Koplik: ¿qué haces?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.6",
+      "pista": "Fiebre de 5 días o más: ¿criterios y tratamiento?"
+    }
+  ]
+}

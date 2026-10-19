@@ -1,0 +1,495 @@
+{
+  "classId": "neuro-20",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El vértigo periférico es el {{c1::85–90 %}} de los vértigos; el central es el 10–15 % y es urgencia vital.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Periférico vs central",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.025",
+        "1.10.1.024"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Vértigo periférico: nistagmo {{c1::unidireccional}} horizontal-rotatorio que se inhibe al fijar la mirada.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Periférico vs central",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.025",
+        "1.10.1.024"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Vértigo central: ataxia desproporcionada, el paciente no puede mantenerse {{c1::de pie}} sin apoyo.",
+      "extra": "El periférico camina aunque se ladee.",
+      "origen": "clase:1",
+      "fuente": "Clase · Periférico vs central",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 29"
+      ],
+      "codigos": [
+        "1.10.1.025",
+        "1.10.1.024"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Nistagmo vertical o que cambia de dirección con la mirada es {{c1::central}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · HINTS",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.025",
+        "1.10.1.024"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el síndrome vestibular agudo, la TAC detecta menos del {{c1::15–20 %}} de los infartos de fosa posterior.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Por qué la imagen no basta",
+      "repaso": false,
+      "codigos": [
+        "6.03.2.017"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La RM con difusión precoz (24–48 h) tiene {{c1::12–20 %}} de falsos negativos para infarto de fosa posterior.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Por qué la imagen no basta",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.024",
+        "6.03.2.017"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "HINTS junto a la cama: sensibilidad {{c1::100 %}} y especificidad 96 % para infarto.",
+      "extra": "Supera a la RM en las primeras 24–48 h.",
+      "origen": "clase:2",
+      "fuente": "Clase · Por qué la imagen no basta",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.024",
+        "6.03.2.017"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "HINTS son tres pruebas: Head Impulse, {{c1::Nistagmo}} y Test of Skew.",
+      "extra": "Basta un signo central para activar código ACV.",
+      "origen": "clase:3",
+      "fuente": "Clase · HINTS",
+      "repaso": false,
+      "codigos": [
+        "6.03.2.017",
+        "1.10.1.018"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Paradoja del Head Impulse: en vértigo continuo, un impulso cefálico {{c1::normal}} orienta a ACV de fosa posterior.",
+      "extra": "En el periférico hay sacada correctiva (anormal).",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.024",
+        "6.03.2.017"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Test of Skew: desalineación vertical al desocluir alternadamente indica lesión de {{c1::tronco}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · HINTS",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.024",
+        "6.03.2.017"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con HINTS central, la TAC normal {{c1::no descarta}} el infarto; se activa código ACV, UTAC y angio-RM (GES 37).",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 29"
+      ],
+      "codigos": [
+        "1.10.1.024",
+        "6.03.2.017"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El VPPB es la causa más frecuente de vértigo y se debe a {{c1::canalitiasis}} del conducto semicircular posterior (85–90 %).",
+      "extra": "Otoconias desprendidas del utrículo.",
+      "origen": "clase:4",
+      "fuente": "Clase · Cristales sueltos",
+      "repaso": false,
+      "codigos": [
+        "6.03.2.017",
+        "1.10.1.025"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "VPPB: crisis de vértigo de menos de {{c1::60 segundos}} (típicamente 10 a 30 s), gatillada por cambios de posición.",
+      "extra": "Sin hipoacusia ni focalidad.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla HINTS y vértigos",
+      "repaso": true,
+      "codigos": [
+        "6.03.2.017",
+        "1.10.1.025"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El VPPB se confirma con la maniobra de {{c1::Dix-Hallpike}}: nistagmo torsional con latencia.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Cristales sueltos",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.025",
+        "6.03.2.017"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El VPPB se cura con la maniobra de {{c1::Epley}} en la misma consulta, más del 80–90 % en la primera sesión.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Cristales sueltos",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 168"
+      ],
+      "codigos": [
+        "1.10.1.025",
+        "6.03.2.017"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el VPPB no se piden imágenes y no se indican {{c1::fármacos antivertiginosos}} (betahistina, dimenhidrinato).",
+      "extra": "Son ineficaces contra los cristales.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.03.2.017",
+        "1.10.1.025"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Neuronitis vestibular: crisis única, continua, de días, {{c1::sin síntomas auditivos}}.",
+      "extra": "2–3 días intensos; mejora en 2–4 semanas.",
+      "origen": "clase:6",
+      "fuente": "Clase · Neuronitis y Menière",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 88",
+        "EUNACOM Julio 2024 · Pregunta 101"
+      ],
+      "codigos": [
+        "1.10.1.025",
+        "6.03.2.017"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Neuronitis vestibular: dimenhidrinato {{c1::50 mg}} cada 8 horas, solo 48–72 horas.",
+      "extra": "El uso prolongado impide la compensación vestibular.",
+      "origen": "clase:6",
+      "fuente": "Clase · Neuronitis y Menière",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.025",
+        "6.03.2.017"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En neuronitis los sedantes vestibulares se usan solo {{c1::48–72 horas}}, no semanas.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.03.2.017",
+        "1.10.1.025"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si hay síntomas auditivos con vértigo agudo de días, se piensa en {{c1::laberintitis}}, no neuronitis.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Neuronitis y Menière",
+      "repaso": false,
+      "codigos": [
+        "6.03.2.017"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Enfermedad de Menière: vértigo de {{c1::20 min a 12 h}} con hipoacusia fluctuante de tonos graves, tinnitus y plenitud.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Neuronitis y Menière",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.025",
+        "6.03.2.017"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Manejo de Menière: sal < {{c1::2 g/día}}, diurético y betahistina 24 mg cada 12 horas.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Neuronitis y Menière",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.025",
+        "6.03.2.017"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa de Menière es la hidropesía {{c1::endolinfática}}.",
+      "extra": "La audiometría confirma la hipoacusia sensorial.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla HINTS y vértigos",
+      "repaso": false,
+      "codigos": [
+        "6.03.2.017",
+        "1.10.1.025"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ataxia cerebelosa: dismetría, disdiadococinesia, temblor intencional y Romberg {{c1::negativo}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Ataxia",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.018"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ataxia sensitiva: empeora al cerrar los ojos, Romberg {{c1::positivo}}; causas B12, tabes y neuropatías.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Ataxia",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.018"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una lesión del hemisferio cerebeloso da ataxia {{c1::ipsilateral}}; la del vermis, marcha de base amplia.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Ataxia",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.018",
+        "6.03.2.017"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ataxia cerebelosa subaguda con factores de riesgo de cáncer pulmonar: pensar en síndrome {{c1::paraneoplásico}}.",
+      "extra": "Cerebelitis autoinmune.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Síndrome atáxico",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 89"
+      ],
+      "codigos": [
+        "1.10.1.018"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ataxia aguda con cefalea o vómitos: {{c1::TAC urgente}} por infarto o hematoma cerebeloso.",
+      "extra": "El edema puede comprimir el tronco.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Perfil V3 ataxia",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.018",
+        "6.03.2.017"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El ACV de fosa posterior confirmado ingresa a la Garantía GES N° {{c1::37}} (UTAC).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 HINTS",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.024",
+        "6.03.2.017"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-20/02_dix_hallpike__usuario.jpg",
+      "pregunta": "¿Qué maniobra es y qué sigue?",
+      "diagnostico": "Maniobra de Dix-Hallpike positiva",
+      "clave": "Vértigo con nistagmo torsional y latencia al acostar con la cabeza girada 45°",
+      "conducta": "VPPB: maniobra de Epley, sin fármacos ni imágenes",
+      "fuente": "Fotografía propia del curso",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.025",
+        "6.03.2.017"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-20/01_maniobra_epley__harrison_p202.jpg",
+      "pregunta": "¿Qué maniobra es y para qué sirve?",
+      "diagnostico": "Maniobra de reposición de Epley",
+      "clave": "Giros cefálicos guiados que devuelven las otoconias al utrículo",
+      "conducta": "Cura más del 80–90 % de los VPPB en la primera sesión",
+      "fuente": "Harrison, p. 202",
+      "repaso": false,
+      "codigos": [
+        "6.03.2.017",
+        "1.10.1.025"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-20/03_atrofia_cerebelosa_sca1_rm__harrison_p3465.jpg",
+      "pregunta": "¿Qué muestra y qué síndrome causa?",
+      "diagnostico": "Atrofia cerebelosa",
+      "clave": "Reducción del volumen cerebeloso en RM",
+      "conducta": "Síndrome atáxico cerebeloso: dismetría, nistagmo, Romberg negativo",
+      "fuente": "Harrison 21.ª ed., Fig. 439-1",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.018"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Vértigo de segundos con la posición: ¿diagnóstico y conducta?",
+      "codigos": [
+        "1.10.1.025"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.2.0",
+      "pista": "HINTS todo periférico: ¿qué es y qué indicas?",
+      "codigos": [
+        "1.10.1.025"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2.1",
+      "pista": "Algún signo central en HINTS: ¿conducta?",
+      "codigos": [
+        "1.10.1.025"
+      ]
+    }
+  ]
+}

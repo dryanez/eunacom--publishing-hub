@@ -1,0 +1,519 @@
+{
+  "classId": "endo-13",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La crisis suprarrenal es un shock {{c1::refractario a volumen y aminas}} por falta de cortisol.",
+      "extra": "Sin cortisol las arteriolas no responden a las catecolaminas (receptores alfa-1).",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Por qué el shock no responde a nada?",
+      "repaso": true,
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Gatillante número 1 de la crisis suprarrenal: la {{c1::infección intercurrente}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · ¿Qué precipita la crisis?",
+      "repaso": true,
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En Addison, la gastroenteritis con vómitos precipita crisis porque no se {{c1::absorbe el fármaco oral}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · ¿Qué precipita la crisis?",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Corticoide crónico: el error es {{c1::suspenderlo de golpe}} o no subir la dosis ante estrés.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · ¿Qué precipita la crisis?",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Crisis suprarrenal sin antecedentes por hemorragia bilateral: síndrome de {{c1::Waterhouse-Friderichsen}} (meningococcemia fulminante).",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · ¿Qué precipita la crisis?",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-13/atlas_104_sindrome_de_waterhouse_frideri.jpg",
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tríada clínica: shock desproporcionado, compromiso de conciencia y {{c1::dolor abdominal con vómitos}}.",
+      "extra": "Simula un abdomen agudo quirúrgico.",
+      "origen": "clase:3",
+      "fuente": "Clase · Cómo llega el paciente",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Dolor abdominal con shock en un Addison: crisis suprarrenal; el error es la {{c1::laparotomía}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la crisis, la piel es hiperpigmentada si es Addison y {{c1::pálida}} si es secundaria o post-corticoides.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Cómo llega el paciente",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tríada de laboratorio de la crisis: hiponatremia, {{c1::hiperkalemia}} (solo primaria) e hipoglicemia.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Lo que muestran los exámenes",
+      "repaso": true,
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hipoglicemia de la crisis se debe a que sin cortisol no hay {{c1::gluconeogénesis}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Lo que muestran los exámenes",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Otros hallazgos: acidosis metabólica y {{c1::azoemia prerrenal}} por hipoperfusión.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Lo que muestran los exámenes",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante sospecha de crisis se toma cortisol, ACTH y electrolitos pero se trata {{c1::sin esperar el resultado}}.",
+      "extra": "El diagnóstico es clínico.",
+      "origen": "clase:4",
+      "fuente": "Clase · Lo que muestran los exámenes",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Shock que no responde a volumen ni a noradrenalina en paciente con corticoide previo: dar {{c1::hidrocortisona}}.",
+      "extra": "El error es subir noradrenalina o dopamina.",
+      "origen": "clase:15",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hidrocortisona en la crisis: {{c1::100 mg EV en bolo}} directo, minuto cero.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Las tres medidas de rescate",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diarrea de 3 días, PA 70/40, Na 126, glicemia 58 y shock que no responde a 3 litros de suero: {{c1::insuficiencia suprarrenal aguda}}.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz Diciembre 2018",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 20"
+      ],
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Cristaloides en la crisis: suero fisiológico 0,9% {{c1::1 a 2 L}} en las primeras 2 h.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Las tres medidas de rescate",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hipoglicemia en la crisis: suero glucosado {{c1::10% o 5%}} en paralelo.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Las tres medidas de rescate",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Sin hidrocortisona: {{c1::dexametasona 4 a 6 mg EV}}.",
+      "extra": "No interfiere con el cortisol medido después.",
+      "origen": "clase:6",
+      "fuente": "Clase · Las tres medidas de rescate",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hidrocortisona a dosis altas tiene efecto {{c1::mineralocorticoide}} porque satura la enzima renal.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · ¿Por qué hidrocortisona y no otro?",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la fase aguda de la crisis el error es agregar {{c1::fludrocortisona}}: la hidrocortisona ya la reemplaza.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Addison con vómitos o diarrea: hidrocortisona {{c1::endovenosa}}; el error es solo subir la dosis oral.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Mantención: hidrocortisona {{c1::50 mg cada 6 h}} (o 200 mg en 24 h en infusión) por 24 a 48 h.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Estabilizar, bajar la dosis",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fludrocortisona se retoma en Addison cuando la hidrocortisona baja de {{c1::50 mg/día}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Estabilizar, bajar la dosis",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras la crisis se buscan hemocultivos, urocultivo, radiografía de tórax y se dan {{c1::antibióticos empíricos}} si hay foco.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Estabilizar, bajar la dosis",
+      "repaso": false,
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hiperplasia suprarrenal congénita: más del {{c1::90%}} es déficit de 21-hidroxilasa.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Un bloqueo, dos consecuencias",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.074",
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "HSC en una recién nacida: genitales ambiguos con cariotipo 46,XX y útero y ovarios {{c1::normales}}.",
+      "extra": "No asignar sexo hasta completar el estudio.",
+      "origen": "clase:12",
+      "fuente": "Clase · HSC",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.074",
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Crisis perdedora de sal en HSC: entre la semana {{c1::1 y 3}} de vida, con hipo-Na, hiper-K e hipoglicemia.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Un bloqueo, dos consecuencias",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.074",
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Lactante de 1–3 semanas con vómitos, hipo-Na e hiper-K: crisis de HSC; el error es pensar en {{c1::estenosis del píloro}}.",
+      "extra": "La estenosis cursa con alcalosis hipoclorémica e hipokalemia.",
+      "origen": "clase:15",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.074",
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Crisis perdedora de sal: SF {{c1::10–20 mL/kg}}, glucosa e hidrocortisona 50–100 mg/m² EV, sin esperar resultados.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · HSC",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 6",
+        "EUNACOM Julio 2019 · Pregunta 70",
+        "EUNACOM Agosto 2021 · Pregunta 58"
+      ],
+      "codigos": [
+        "2.01.1.074",
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niña de 7 años con HSC y diarrea febril de 4 días: además de volumen, {{c1::hidrocortisona endovenosa}}.",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz Diciembre 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 160"
+      ],
+      "codigos": [
+        "2.01.1.074",
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño con dolor abdominal, vómitos, hipoglicemia, hipo-Na e hiper-K y episodio previo: examen {{c1::cortisol basal}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Diciembre 2019",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 114",
+        "EUNACOM Diciembre 2019 · Pregunta 161"
+      ],
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se supone eje suprimido con prednisona ≥ {{c1::20 mg/día}} por más de 3 semanas.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · El corticoide crónico",
+      "repaso": false,
+      "codigos": [
+        "1.03.3.003",
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Prednisona ≥ 20 mg/día por más de 3 semanas: retiro escalonado hasta prednisona {{c1::5 mg/día}} y dosis de estrés.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.3.003",
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dosis de estrés con eje suprimido: duplicar o triplicar la oral en fiebre; hidrocortisona {{c1::50-100 mg EV}} en cirugía mayor o vómitos.",
+      "extra": "",
+      "origen": "libro:sec:7",
+      "fuente": "Libro §7 Complicaciones",
+      "repaso": false,
+      "codigos": [
+        "1.03.3.003"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Corticoide ≥ 3 meses: calcio, vitamina D, {{c1::FRAX}} y bifosfonato si el riesgo es moderado o alto.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · El corticoide crónico",
+      "repaso": false,
+      "codigos": [
+        "1.03.3.003",
+        "1.03.2.003"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Shock refractario con antecedente suprarrenal: ¿qué sospechas?",
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.0",
+      "pista": "Hidrocortisona disponible: ¿dosis y vía?",
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1",
+      "pista": "Sin hidrocortisona: ¿qué usas?",
+      "codigos": [
+        "1.03.2.003"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.0.0.0",
+      "pista": "Tras estabilizar: ¿qué haces?",
+      "codigos": [
+        "1.03.2.003"
+      ]
+    }
+  ]
+}

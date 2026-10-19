@@ -1,0 +1,509 @@
+{
+ "classId": "trauma-03",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El síndrome compartimental aparece de forma {{c1::inmediata}} (minutos a horas), a diferencia de otras complicaciones tardías de la fractura.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Compartimental",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.006"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el síndrome compartimental, al subir la presión colapsa primero el retorno {{c1::venoso}} y luego el flujo arterial.",
+   "extra": "Puede llevar a pérdida de la extremidad en pocas horas.",
+   "origen": "clase:1",
+   "fuente": "Clase · Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor {{c1::desproporcionado}} a la lesión que no cede con analgésicos habituales: síndrome compartimental.",
+   "extra": "Típico de antebrazo o pierna con yeso cerrado.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clínica",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 52",
+    "EUNACOM Diciembre 2022 · Pregunta 131"
+   ],
+   "codigos": [
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El signo más precoz y característico del síndrome compartimental es el dolor al {{c1::estiramiento pasivo}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clínica",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La alteración de pulsos en el síndrome compartimental es un signo {{c1::tardío}}.",
+   "extra": "Si no hay pulsos la isquemia ya es avanzada.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clínica",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el síndrome compartimental el compartimento se siente tenso y {{c1::pétreo}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clínica",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ante síndrome compartimental con yeso, lo primero es {{c1::retirar yesos y vendajes}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Conducta",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-03/01_fasciotomia-antebrazo__atls_p213.jpg",
+   "codigos": [
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si no mejora de inmediato, el tratamiento definitivo es la {{c1::fasciotomía amplia}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Conducta",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-03/02_fasciotomia-pierna__atls_p213.jpg",
+   "codigos": [
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El diagnóstico del síndrome compartimental es {{c1::clínico}}; en caso dudoso se mide la presión del compartimento (invasivo).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Conducta",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La contractura isquémica con {{c1::mano en garra}} es una secuela tardía (semanas o meses) por fibrosis muscular.",
+   "extra": "Tras fractura supracondílea de húmero o antebrazo.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Mano en garra",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-03/05_contractura-antebrazo-compartimental__knoop_p328.jpg",
+   "codigos": [
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La mano en garra se maneja con {{c1::kinesioterapia}} motora y, si falla, cirugía para liberar fascias y tendones.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Mano en garra",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La distrofia simpático refleja (Sudeck o {{c1::SDRC}}) es de aparición tardía, semanas a meses después de la lesión.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Distrofia",
+   "repaso": false,
+   "imagen": "_verificadas/360_trauma_Complicaciones_de_fracturas__BrantHelms_p1203.jpg",
+   "codigos": [
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Distrofia simpático refleja: dolor {{c1::urente}} con alodinia que aumenta al mover dedos o ortejos y cambios tróficos.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Distrofia",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la distrofia simpático refleja la radiografía muestra osteoporosis {{c1::moteada}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Distrofia",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El TEP postfractura se presenta con disnea súbita, dolor pleurítico y desaturación, {{c1::días}} después.",
+   "extra": "EUNACOM Jul 2013: operada de apendicitis, TEP.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 TEP",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 83"
+   ],
+   "codigos": [
+    "1.01.1.006"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El diagnóstico de TEP se hace con {{c1::AngioTAC de tórax}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 TEP",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-03/03_angiotc-tep__cto-neumo_p103.jpg",
+   "codigos": [
+    "1.01.1.006"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el contexto de una fractura el {{c1::dímero D}} no sirve para descartar TEP, porque la propia fractura lo eleva.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 TEP",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.006"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el TEP masivo con hipotensión el tratamiento de elección es la {{c1::trombolisis}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 TEP",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.006"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con sospecha de TEP estable se {{c1::anticoagula de inmediato}} sin esperar el angioTAC, si no hay contraindicación.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 TEP",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049",
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La embolia grasa es propia de fracturas de huesos largos (fémur, tibia, húmero) y aparece en horas a {{c1::24-48 horas}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Embolia grasa",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tríada de la embolia grasa: distrés respiratorio, compromiso de conciencia y {{c1::rash petequial}} en tórax superior, cuello y axilas.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Embolia grasa",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-03/04_embolia-grasa-petequias__hy_p784.jpg",
+   "codigos": [
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tratamiento de la embolia grasa es solo de {{c1::soporte}}; no hay fármacos con eficacia demostrada.",
+   "extra": "",
+   "origen": "clase:16",
+   "fuente": "Clase · Quiz embolia grasa",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.006"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La TVP del traumatizado cumple la tríada de {{c1::Virchow}}: estasis, daño endotelial e hipercoagulabilidad.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 TVP",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049",
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mayor riesgo de TVP: fracturas de {{c1::pelvis, fémur y tibia}}, prótesis de cadera o rodilla, edad avanzada y obesidad.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 TVP",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049",
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La TVP se diagnostica con probabilidad clínica (Wells) y {{c1::ecografía Doppler venosa}}; el dímero D no descarta.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 TVP",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049",
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Tratamiento de la TVP: {{c1::HBPM}} a dosis terapéutica y luego anticoagulante oral por al menos 3 meses si fue provocada por el trauma.",
+   "extra": "Derivar.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 TVP",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.049",
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Profilaxis de TEP con enoxaparina {{c1::40 mg}} SC al día; 10-14 días en fractura de extremidad inferior.",
+   "extra": "Hasta 4-5 semanas tras cirugía de cadera.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Profilaxis",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049",
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tromboflebitis superficial se trata con {{c1::AINE}}, compresas y deambulación.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tromboflebitis",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.049",
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras osteosíntesis de húmero, imposibilidad de extender la muñeca con flexión de dedos conservada: neurapraxia del nervio {{c1::radial}}.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Quiz Jul 2017",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Nunca se pone yeso {{c1::circular}} en una fractura reciente.",
+   "extra": "",
+   "origen": "clase:18",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Separar por el tiempo: horas = compartimental y embolia grasa; días = {{c1::TEP}}; semanas a meses = Volkmann y distrofia.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Cuatro tiempos",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-03/01_fasciotomia-antebrazo__atls_p213.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Fasciotomía del antebrazo",
+   "clave": "Apertura de piel y fascia en toda la longitud del compartimento",
+   "conducta": "Síndrome compartimental sin mejoría tras retirar el yeso: fasciotomía amplia urgente",
+   "fuente": "ATLS 10.ª ed., Fig. 8-8A",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 52"
+   ],
+   "codigos": [
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-03/04_embolia-grasa-petequias__hy_p784.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Petequias de embolia grasa",
+   "clave": "Rash petequial en tórax superior, cuello y axilas",
+   "conducta": "Fractura de hueso largo con distrés y compromiso de conciencia: soporte",
+   "fuente": "Mehlman Medical HY, p. 784",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.001"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-03/03_angiotc-tep__cto-neumo_p103.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "TEP en angioTAC",
+   "clave": "Trombo oscuro dentro de la arteria pulmonar con contraste",
+   "conducta": "Anticoagular de inmediato; trombolisis si hay shock",
+   "fuente": "Manual CTO Neumología 14.ª ed., p. 103",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 83"
+   ],
+   "codigos": [
+    "4.01.1.049",
+    "4.02.2.001"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0.0",
+   "pista": "Compartimental que no mejora tras retirar el yeso: ¿conducta?",
+   "codigos": [
+    "4.02.2.001",
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.2",
+   "pista": "Disnea súbita días después de una fractura: ¿examen?",
+   "codigos": [
+    "4.02.2.001",
+    "4.01.1.049"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1",
+   "pista": "Distrés, conciencia y petequias en horas: ¿diagnóstico y tratamiento?",
+   "codigos": [
+    "4.02.2.001",
+    "4.01.1.049"
+   ]
+  }
+ ]
+}

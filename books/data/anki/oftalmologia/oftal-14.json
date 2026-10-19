@@ -1,0 +1,396 @@
+{
+ "classId": "oftal-14",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La DMAE es la causa principal de ceguera {{c1::central}} legal irreversible en mayores de 60 años, pero nunca produce ceguera total.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 DMAE",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.010"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La mácula tiene la mayor densidad de {{c1::conos}} y la mayor tasa metabólica; el EPR deja de degradar los segmentos externos.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Mácula",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.010"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Factor de riesgo número uno: {{c1::edad}} (mayor de 60-65 años); principal modificable: tabaquismo.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Factor",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.010"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otros factores: antecedentes familiares, raza {{c1::caucásica}} y dieta pobre en antioxidantes.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Otros factores",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.010"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Lesión elemental precursora: las {{c1::drusas}}, depósitos amarillentos entre el EPR y la membrana de Bruch.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Drusas",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-14/01_dmae-seca-drusas__cto-oftalmo_p72.jpg",
+   "codigos": [
+    "6.02.1.010"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las drusas {{c1::blandas y confluentes}} tienen alto riesgo de progresar.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Drusas blandas",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.010"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "DMAE seca o atrófica: {{c1::85 a 90%}} de los casos; progresión lenta con drusas y atrofia geográfica.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Seca",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.010"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "DMAE húmeda: 10-15% de los casos pero causa el {{c1::90%}} de la ceguera severa.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Húmeda",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.010"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "DMAE húmeda: el VEGF induce una membrana neovascular {{c1::coroidea}} que cruza la membrana de Bruch.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Mecanismo",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-14/02_dmae-humeda_alt1__cto-oftalmo_p107.jpg",
+   "codigos": [
+    "6.02.1.010"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Húmeda: hemorragias subretinianas y cicatriz {{c1::disciforme}}; pérdida central brusca en días a semanas.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Evolución",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.010"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Metamorfopsia: ver las líneas rectas torcidas u {{c1::onduladas}}; es el signo más temprano y sensible.",
+   "extra": "Paciente de 77 años con líneas onduladas y escotoma central.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Metamorfopsia",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 150"
+   ],
+   "codigos": [
+    "6.02.1.010"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se pesquisa en el box con la rejilla de {{c1::Amsler}}.",
+   "extra": "Dificultad para leer y objetos deformados pese a lentes recientes.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Amsler",
+   "repaso": true,
+   "imagen": "biblioteca/12_oftalmologia/oftal-14/02_amsler_metamorfopsia_escotoma__kanski_p598.jpg",
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 171",
+    "EUNACOM Enero 2023 · Pregunta 99"
+   ],
+   "codigos": [
+    "6.02.1.010"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Escotoma central: mancha fija que impide ver el centro de las {{c1::caras}}; la visión periférica queda intacta.",
+   "extra": "Fumador de 80 años con lectura lenta y metamorfopsia.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Escotoma",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 105"
+   ],
+   "codigos": [
+    "6.02.1.010"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la DMAE el paciente camina sin tropezar y no requiere {{c1::bastón blanco}}: nunca hay ceguera total.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Periférica",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.010"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "DMAE seca: cese del tabaco y antioxidantes {{c1::AREDS-2}}; frena la progresión pero no regenera tejido atrófico.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 DMAE seca",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.010"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fórmula AREDS-2: vitaminas C y E, zinc, cobre, {{c1::luteína y zeaxantina}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 AREDS-2",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.010"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "DMAE húmeda: inyecciones intravítreas de {{c1::anti-VEGF}} (ranibizumab, aflibercept, brolucizumab), mensuales o bimestrales.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 DMAE húmeda",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.010"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Metamorfopsia de semanas: derivar de urgencia para {{c1::OCT}} y angiografía y anti-VEGF.",
+   "extra": "Mujer de 74 años fumadora con 20/100.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Derivación",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.010"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Detección: rejilla de Amsler periódica en la seca; Amsler más OCT macular y {{c1::angiografía}} en la húmeda.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.010"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Paciente de 77 años con dificultad para leer pese a cambiar lentes y deformación de las imágenes (metamorfopsia): {{c1::degeneración macular relacionada con la edad}}.",
+   "extra": "El glaucoma crónico respeta la visión central hasta etapas tardías.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Discrepancia",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 58"
+   ],
+   "codigos": [
+    "6.02.1.020"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Glaucoma: no da metamorfopsia y afecta primero el campo {{c1::periférico}}; la catarata da visión borrosa difusa sin distorsión.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Diferencial",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.010"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La velocidad de la pérdida visual separa la húmeda (semanas) de la seca ({{c1::años}}).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Velocidad",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.010"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-14/01_dmae-seca-drusas__cto-oftalmo_p72.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Drusas",
+   "clave": "Depósitos amarillentos en el polo posterior",
+   "conducta": "AREDS-2 y dejar de fumar",
+   "fuente": "Manual CTO Oftalmología 14.ª ed., p. 72",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 150"
+   ],
+   "codigos": [
+    "6.02.1.010"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-14/02_dmae-humeda_alt1__cto-oftalmo_p107.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Hemorragia subretiniana",
+   "clave": "Hemorragia macular con líquido",
+   "conducta": "Anti-VEGF intravítreo urgente",
+   "fuente": "Manual CTO Oftalmología 14.ª ed., p. 107",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.010"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-14/02_amsler_metamorfopsia_escotoma__kanski_p598.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Metamorfopsia y escotoma",
+   "clave": "Líneas centrales curvadas y área faltante en la rejilla",
+   "conducta": "Derivar para OCT y anti-VEGF",
+   "fuente": "Kanski's Clinical Ophthalmology, 8.ª ed., Fig. 14.12",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 171"
+   ],
+   "codigos": [
+    "6.02.1.010"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Mayor de 60 años con líneas onduladas: ¿qué prueba se hace?",
+   "codigos": [
+    "6.02.1.010",
+    "6.02.1.020"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0.0",
+   "pista": "Pérdida de días o semanas: ¿sospecha y conducta?",
+   "codigos": [
+    "6.02.1.010",
+    "6.02.1.020"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.0.0.0",
+   "pista": "DMAE húmeda confirmada: ¿tratamiento?",
+   "codigos": [
+    "6.02.1.010",
+    "6.02.1.020"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.0.1",
+   "pista": "Pérdida a lo largo de años: ¿manejo?",
+   "codigos": [
+    "6.02.1.010",
+    "6.02.1.020"
+   ]
+  }
+ ]
+}

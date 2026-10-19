@@ -1,0 +1,503 @@
+{
+ "classId": "uro-15",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hematuria microscópica: {{c1::≥ 3}} eritrocitos por campo de 400x en al menos 2 de 3 sedimentos.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Definición",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.010",
+    "2.01.1.060"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hematuria macroscópica se ve a simple vista con solo {{c1::1 mL}} de sangre en 1 litro de orina.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Definición",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.010",
+    "2.01.1.060"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La tira reactiva positiva se confirma con {{c1::sedimento microscópico}} en fresco, porque hay falsos positivos.",
+   "extra": "Mioglobinuria, hemoglobinuria o antisépticos.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Tira reactiva",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.010",
+    "2.01.1.060"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hematuria glomerular: orina «té cargado» o {{c1::coca-cola}}, homogénea y sin coágulos.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Glomerular",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.010",
+    "2.01.1.060"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Los {{c1::coágulos}} descartan el origen glomerular, porque la uroquinasa y el activador del plasminógeno los lisan.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Coágulos",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.010",
+    "2.01.1.060"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Origen glomerular: hematíes dismórficos > {{c1::80%}}, acantocitos > 5% y cilindros hemáticos.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Sedimento",
+   "repaso": true,
+   "imagen": "biblioteca/19_urologia/uro-15/01_sedimento-hematies-dismorficos__cto-nefro_p33.jpg",
+   "codigos": [
+    "4.03.1.010",
+    "2.01.1.060"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El {{c1::cilindro hemático}} confirma hematuria glomerular: el paciente va a nefrología, no a urología.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cilindros",
+   "repaso": false,
+   "imagen": "biblioteca/19_urologia/uro-15/02_cilindro-hematico__amir-nefro17_p46.jpg",
+   "codigos": [
+    "4.03.1.010",
+    "2.01.1.060"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hematuria glomerular: proteinuria mayor de {{c1::0,5 a 1 g/24 h}}; la urológica, menor de 0,3 g/24 h.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Proteinuria",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.010",
+    "2.01.1.060"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hematuria urológica: orina roja rutilante, a menudo con coágulos y hematíes {{c1::isomórficos}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Urológica",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.010",
+    "2.01.1.060"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hematuria urológica incluye litiasis, cáncer vesical, cáncer renal, HPB e {{c1::infecciones}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Urológica",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.010",
+    "2.01.1.060"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Riesgo oncológico: edad > {{c1::50 años}}, tabaquismo > 10 paquetes/año, aminas aromáticas, hematuria previa e irradiación pélvica.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Banderas rojas",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.010",
+    "2.01.1.060"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estudio de hematuria urológica: urocultivo, {{c1::uro-TAC con fase excretora}} y cistoscopía.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Estudio",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.010",
+    "2.01.1.060"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Microhematuria isomórfica asintomática en fumador de 62 años, exobrero de pinturas: derivar a urología para {{c1::uro-TAC y cistoscopía}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Caso",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.010",
+    "2.01.1.060"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Cólico renal: se pide {{c1::pielo-TAC sin contraste}}, no uro-TAC.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.010",
+    "2.01.1.060"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hematuria masiva: coágulos con inestabilidad hemodinámica, anemia aguda o {{c1::retención urinaria}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Hematuria masiva",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.002"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas de hematuria masiva: tumor vesical, HPB, cistitis hemorrágica (ciclofosfamida, radioterapia, virus BK), litiasis, trauma y {{c1::anticoagulación}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Hematuria masiva",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.002"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Manejo: sonda Foley de {{c1::3 vías}} de 20-24 Fr, lavado vesical manual e irrigación continua hasta que la orina aclare.",
+   "extra": "La sonda fina se obstruye con coágulos.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Hematuria masiva",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.002"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En hematuria masiva se transfunde si hay inestabilidad o hemoglobina bajo {{c1::7 g/dL}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Hematuria masiva",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.002"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Síndrome nefrítico: hematuria dismórfica con cilindros hemáticos, HTA, edema periorbitario, oliguria y proteinuria < {{c1::3,5 g/día}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Nefrítico",
+   "repaso": false,
+   "codigos": [
+    "1.09.1.021"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "GN postestreptocócica: 2-3 semanas tras faringitis (4-6 tras piel); {{c1::C3 bajo}} y ASLO positivo.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 GNPE",
+   "repaso": false,
+   "codigos": [
+    "1.09.1.021"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Nefropatía por {{c1::IgA}}: hematuria 1-3 días después de una infección respiratoria, complemento normal.",
+   "extra": "Pacientes de 20-32 años con coriza y hematuria.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 IgA",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 50",
+    "EUNACOM Julio 2013 · Pregunta 148",
+    "EUNACOM Julio 2015 · Pregunta 65"
+   ],
+   "codigos": [
+    "1.09.1.021"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otras causas de síndrome nefrítico: lupus y vasculitis {{c1::ANCA}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Nefrítico",
+   "repaso": false,
+   "codigos": [
+    "1.09.1.021"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Manejo inicial del nefrítico: reposo relativo, restricción de sal y líquidos, {{c1::furosemida}} si hay sobrecarga y antihipertensivos.",
+   "extra": "GNPE con sobrecarga, HTA o edema: diuréticos.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Manejo nefrítico",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 83",
+    "EUNACOM Julio 2019 · Pregunta 48"
+   ],
+   "codigos": [
+    "1.09.1.021"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Derivar de urgencia a nefrología ante oliguria marcada, creatinina en ascenso rápido o {{c1::hemoptisis}}.",
+   "extra": "Necesidad de biopsia renal.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Derivación",
+   "repaso": false,
+   "codigos": [
+    "1.09.1.021"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estudio del nefrítico: C3 y C4, ASLO, ANA, ANCA, hepatitis B y C y {{c1::VIH}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Estudio nefrítico",
+   "repaso": false,
+   "codigos": [
+    "1.09.1.021"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Anciano con equimosis periorbitaria, edema, proteinuria de 24 h de 8,4 g e hipoalbuminemia: {{c1::amiloidosis primaria}} (síndrome nefrótico).",
+   "extra": "La propia explicación del banco la califica de muy específica.",
+   "origen": "clase:7",
+   "fuente": "Clase · Banco",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 64"
+   ],
+   "codigos": [
+    "1.09.1.021"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Niño de 7 años con 10-15 eritrocitos por campo aislados y sin proteinuria significativa: {{c1::repetir el examen de orina}}.",
+   "extra": "Si persiste: calciuria, función renal e imágenes.",
+   "origen": "clase:14",
+   "fuente": "Clase · Quiz",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 100"
+   ],
+   "codigos": [
+    "4.03.1.010",
+    "2.01.1.060"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Coágulos: el error es {{c1::derivar a nefrología}}; el origen es urológico.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.010",
+    "2.01.1.060"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Isomórfica en fumador mayor de 50: el error es {{c1::controlar en un año}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.010",
+    "2.01.1.060"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Dismórficos y cilindros hemáticos: el error es pedir {{c1::cistoscopía}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.010",
+    "2.01.1.060"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-15/01_sedimento-hematies-dismorficos__cto-nefro_p33.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Hematíes dismórficos",
+   "clave": "Glóbulos rojos deformados en el sedimento",
+   "conducta": "Sobre el 80%, origen glomerular: nefrología",
+   "fuente": "Manual CTO Nefrología 14.ª ed., p. 33",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 148"
+   ],
+   "codigos": [
+    "4.03.1.010",
+    "2.01.1.060"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-15/02_cilindro-hematico__amir-nefro17_p46.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Cilindro hemático",
+   "clave": "Cilindro cilíndrico lleno de glóbulos rojos",
+   "conducta": "Hematuria glomerular: nefrología",
+   "fuente": "Manual AMIR Nefrología 17.ª ed., p. 46",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.010",
+    "2.01.1.060"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Sedimento con GR: ¿cómo se distingue el origen?",
+   "codigos": [
+    "4.03.1.010",
+    "2.01.1.060"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Dismórficos, cilindros y proteinuria: ¿destino?",
+   "codigos": [
+    "4.03.1.010",
+    "2.01.1.060"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1",
+   "pista": "Coágulos e isomórficos: ¿estudio?",
+   "codigos": [
+    "4.03.1.010",
+    "2.01.1.060"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.0",
+   "pista": "Fumador mayor de 50 años: ¿qué se sospecha?",
+   "codigos": [
+    "4.03.1.010",
+    "2.01.1.060"
+   ]
+  }
+ ]
+}

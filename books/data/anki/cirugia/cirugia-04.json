@@ -1,0 +1,611 @@
+{
+ "classId": "cirugia-04",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tetraedro de la obstrucción intestinal es dolor cólico, {{c1::distensión}}, {{c2::vómitos}} y detención de gases y heces.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Tetraedro",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 59",
+    "EUNACOM Enero 2023 · Pregunta 173"
+   ],
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La detención de gases y heces es el signo {{c1::tardío pero constante}} de la obstrucción completa.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Cuatro síntomas",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En obstrucción alta (duodeno/yeyuno) los vómitos son {{c1::precoces, profusos y biliosos}}; en la baja, {{c2::tardíos y fecaloideos}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Tetraedro",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La distensión abdominal es mínima en obstrucción {{c1::alta}} y masiva en obstrucción {{c2::baja}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Tetraedro",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La obstrucción alta cursa con alcalosis {{c1::hipoclorémica}}; la baja o estrangulada, con acidosis {{c2::metabólica}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En toda obstrucción hay que palpar siempre los {{c1::orificios herniarios}} (inguinal, crural, umbilical).",
+   "extra": "Una hernia crural atascada no diagnosticada es un error fatal prevenible.",
+   "origen": "clase:2",
+   "fuente": "Clase · Examen físico",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los ruidos hidroaéreos metálicos y de bazuqueo de la fase inicial dan paso al {{c1::silencio auscultatorio}} cuando el músculo se agota.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Examen físico",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La obstrucción intestinal mecánica acumula hasta {{c1::8-10 litros}} diarios de gas y líquido proximal.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Tetraedro",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La causa más frecuente de obstrucción de intestino delgado son las {{c1::bridas postoperatorias}} (60-70%).",
+   "extra": "Antecedente de cirugía abdominal previa.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 59",
+    "EUNACOM Diciembre 2018 · Pregunta 53",
+    "EUNACOM Julio 2024 · Pregunta 117"
+   ],
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el colon, la causa más frecuente de obstrucción es el {{c1::cáncer colorrectal}} (60%), seguido por el vólvulo de sigmoides.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Delgado vs colon",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 36"
+   ],
+   "codigos": [
+    "4.01.4.002",
+    "1.06.4.001"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La segunda causa de obstrucción de delgado, después de las bridas, son las {{c1::hernias atascadas}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Misma clínica, causas distintas",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El estudio inicial en obstrucción es la {{c1::radiografía simple de abdomen}} de pie y decúbito.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Imágenes",
+   "repaso": true,
+   "imagen": "biblioteca/10_cirugia/cirugia-04/01_niveles-hidroaereos__cto-digestivo_p163.jpg",
+   "codigos": [
+    "4.01.4.002",
+    "1.06.4.001"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En delgado, la radiografía muestra asas dilatadas > {{c1::3 cm}}, niveles hidroaéreos en escalera y válvulas conniventes que cruzan toda la luz.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Imágenes",
+   "repaso": false,
+   "codigos": [
+    "4.01.4.002",
+    "1.06.4.001"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En obstrucción de colon hay distensión periférica en marco > {{c1::6 cm}} en colon y > {{c2::9 cm}} en ciego.",
+   "extra": "Las haustras no cruzan la luz completa.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Imágenes",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-04/04_obstruccion-de-colon__cto-radiologia_p26.jpg",
+   "codigos": [
+    "4.01.4.002",
+    "1.06.4.001"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La radiografía de un vólvulo de sigmoides muestra el signo del {{c1::grano de café}} o asa en omega.",
+   "extra": "Es diagnóstica en más del 80% de los casos.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Imágenes",
+   "repaso": true,
+   "imagen": "biblioteca/10_cirugia/cirugia-04/02_volvulo-de-sigma-grano-de-cafe__cto-radiologia_p26.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 39"
+   ],
+   "codigos": [
+    "4.01.4.002",
+    "1.06.4.001"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El estándar de oro para ubicar la {{c1::zona de transición}} y la causa de la obstrucción es el TAC con contraste IV.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · TAC",
+   "repaso": false,
+   "codigos": [
+    "4.01.4.015",
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Gas en la pared intestinal o en la vena porta indica {{c1::necrosis}} del asa, aunque se vea bien.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · TAC",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-04/10_gas-portal-tac__atlas-eunacom-2026.jpg",
+   "codigos": [
+    "4.01.4.015",
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo de estrangulación: el dolor deja de ser cólico y se vuelve {{c1::continuo y refractario}} a la analgesia.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Estrangulación",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Estrangulación: fiebre > {{c1::38.0 °C}}, taquicardia > 100-110 lpm y leucocitosis > {{c2::15.000/mm³}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Estrangulación",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La estrangulación se acompaña de acidosis metabólica con {{c1::lactato elevado}}, marcador de hipoperfusión.",
+   "extra": "Obliga a cirugía inmediata.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Estrangulación",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 117"
+   ],
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Dolor continuo, fiebre y lactato alto: el error es {{c1::seguir con manejo conservador}}; corresponde laparotomía urgente.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Bridas sin estrangulación: {{c1::régimen cero, SNG a caída libre}} y reposición hidroelectrolítica.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Manejo",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "La reposición hidroelectrolítica en bridas es con {{c1::Ringer lactato o suero fisiológico}} y balance hídrico estricto.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Manejo",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Entre el {{c1::70-80%}} de las obstrucciones por bridas se resuelve en 24 a 48 horas.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Manejo",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Si una obstrucción por bridas no resuelve en {{c1::48-72 horas}}, se indica cirugía con adhesiolisis.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Manejo",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En bridas sin estrangulación, el error es la {{c1::laparotomía inmediata}}.",
+   "extra": "Los laxantes están contraindicados.",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Vólvulo de sigmoides sin necrosis ni peritonitis: {{c1::desvolvulación endoscópica}} con sonda rectal tutora.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Vólvulo",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La sonda rectal tutora se deja por {{c1::24-48 horas}}; la desvolvulación tiene éxito en más del {{c2::80%}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Vólvulo",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La recurrencia del vólvulo supera el {{c1::50%}}, por eso se programa sigmoidectomía electiva.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Vólvulo",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Vólvulo con mucosa necrótica o peritonitis: laparotomía urgente con {{c1::operación de Hartmann}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Vólvulo",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el cáncer obstructivo con válvula ileocecal continente, un ciego > {{c1::10-12 cm}} indica riesgo de perforación diastásica.",
+   "extra": "Es una asa cerrada.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Cáncer obstructivo",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El cáncer de colon obstructivo se trata con resección con colostomía o {{c1::stent colónico}} como puente a cirugía.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Cáncer obstructivo",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mujer añosa con masa bajo el ligamento inguinal y obstrucción: {{c1::hernia crural (femoral) atascada}}.",
+   "extra": "Mayor riesgo de estrangulación de todas las hernias.",
+   "origen": "clase:13",
+   "fuente": "Clase · Quiz hernia femoral",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Mujer añosa sin cirugías previas con obstrucción: el error es asumir bridas; hay que {{c1::buscar hernia crural}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-04/02_volvulo-de-sigma-grano-de-cafe__cto-radiologia_p26.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Vólvulo de sigmoides",
+   "clave": "Asa gigante en omega o grano de café desde la FII",
+   "conducta": "Sin necrosis ni peritonitis: desvolvulación endoscópica y sigmoidectomía electiva",
+   "fuente": "Manual CTO Radiología 14.ª ed., p. 26",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-04/09_rx-asa-delgado-gas__bailey-love_p1309.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Obstrucción de intestino delgado por bridas",
+   "clave": "Asas de delgado distendidas y llenas de gas",
+   "conducta": "SNG a caída libre, hidratación EV y vigilancia 24-48 h",
+   "fuente": "Bailey & Love's Short Practice of Surgery, 27.ª ed., p. 1309",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor abdominal, distensión progresiva, vómitos, sin eliminar gases y asas dilatadas en la imagen: {{c1::obstrucción intestinal}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul 2013",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 73",
+    "EUNACOM Diciembre 2022 · Pregunta 128",
+    "EUNACOM Julio 2018 · Pregunta 46"
+   ],
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Lactante de 4 semanas con vómitos postprandiales abundantes, hambriento y sin ganar peso: estenosis hipertrófica del píloro, tratada con {{c1::pilorotomía de Ramstedt}}.",
+   "extra": "La ecografía confirma el diagnóstico.",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic 2017",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 130"
+   ],
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Recién nacido con síndrome de Down y vómitos alimentarios explosivos con distensión epigástrica: {{c1::atresia duodenal}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Ago 2021",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 175"
+   ],
+   "codigos": [
+    "4.01.2.005"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Lactante de 9 meses con llanto, flexión de caderas y sangre franca por el ano, ecografía en «rosquilla»: invaginación intestinal, tratada con {{c1::reducción neumática}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul 2019",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 114",
+    "EUNACOM Julio 2015 · Pregunta 152"
+   ],
+   "codigos": [
+    "4.01.2.005"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Dolor continuo, fiebre y lactato alto: ¿conducta?",
+   "codigos": [
+    "4.01.2.005",
+    "4.01.4.002"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.0",
+   "pista": "Obstrucción de delgado sin alarma: ¿qué indicas?",
+   "codigos": [
+    "4.01.2.005",
+    "4.01.4.002"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.1",
+   "pista": "Grano de café sin necrosis: ¿qué procedimiento?",
+   "codigos": [
+    "4.01.2.005",
+    "4.01.4.002"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.0",
+   "pista": "Hernia atascada: ¿conducta?",
+   "codigos": [
+    "4.01.2.005",
+    "4.01.4.002"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,487 @@
+{
+  "classId": "ob-01",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El control prenatal debe ser {{c1::precoz}}, periódico, continuo e integral; idealmente se ingresa antes de las {{c2::12 semanas}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Objetivos",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.001"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Calendario del embarazo de bajo riesgo: control {{c1::mensual}} hasta la semana 28.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Calendario",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.001"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Calendario de bajo riesgo: control {{c1::quincenal}} entre las semanas 28 y 36.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Calendario",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.001"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Calendario de bajo riesgo: control {{c1::semanal}} desde la semana 36 hasta el parto.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Calendario",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.001"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Regla de Naegele: FPP = primer día de la FUM {{c1::+ 7 días − 3 meses}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿En qué semana está tu paciente?",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.003"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si la FUM y la ecografía precoz (LCN) difieren más de 5–7 días, la edad gestacional se {{c1::corrige por la ecografía}}.",
+      "extra": "El error clásico es mantener la fecha de última regla.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con ciclos irregulares la FUR no es confiable; el mejor método para fechar es la {{c1::longitud céfalo-nalgas (LCN) ecográfica}} del primer trimestre.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz EUNACOM Diciembre 2018 P90",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.003"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 90"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La ecografía del primer trimestre (LCN) se hace entre las {{c1::7 y 14 semanas}}; es el método más preciso para fechar la gestación.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Validación por ecografía",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.003"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Ácido fólico en bajo riesgo: {{c1::0,4 a 1 mg/día}}, desde 3 meses antes de concebir hasta las 12 semanas.",
+      "extra": "Previene defectos del tubo neural (DTN).",
+      "origen": "clase:2",
+      "fuente": "Clase · Suplementación",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.001"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 95"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Ácido fólico en alto riesgo de DTN: {{c1::4 a 5 mg/día}}, desde 3 meses antes de la concepción hasta las 12 semanas.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Suplementación",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.001"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 163",
+        "EUNACOM Enero 2023 · Pregunta 38"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Alto riesgo de DTN: el error es {{c1::dejarla con 0,4 mg}}, como si fuera de bajo riesgo.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.001"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Son indicaciones de ácido fólico en dosis alta: hijo previo con DTN, madre {{c1::diabética pregestacional}} y uso de {{c2::anticonvulsivantes}} (valproico, carbamazepina).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Suplementación",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.001"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 153"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Vegana estricta con hijo previo con mielomeningocele: el suplemento prioritario es {{c1::ácido fólico}}, no solo B12.",
+      "extra": "El antecedente de DTN manda sobre la dieta vegana.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Diciembre 2025 P38",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.001"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 38"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Carbonato de calcio para prevenir preeclampsia: {{c1::1.000 a 1.500 mg/día}} de calcio elemental.",
+      "extra": "Reduce el riesgo de preeclampsia en más del 50%.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Calcio",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.001"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El calcio se inicia desde las {{c1::12 a 16 semanas}} y se mantiene hasta el parto.",
+      "extra": "No corresponde a las 9 semanas de gestación.",
+      "origen": "clase:2",
+      "fuente": "Clase · Suplementación",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.001"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hierro oral profiláctico: {{c1::30 a 60 mg/día}} desde las 16–20 semanas si hemoglobina o ferritina están en el límite.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Suplementación",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.001"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primer trimestre: se pide grupo y Rh con {{c1::Coombs indirecto}}, hemograma, VDRL, VIH, glicemia y urocultivo.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Batería por trimestre",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.001"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Glicemia de ayuno de 100 a 125 en el primer control: {{c1::repetir la glicemia de ayuno}}, no pedir la PTGO de inmediato.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz Julio 2013 P60",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.001"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Glicemia de ayuno ≥ {{c1::126 mg/dL}} en el primer trimestre sugiere diabetes pregestacional manifiesta.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Primer trimestre",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.001"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La PTGO con {{c1::75 g}} de glucosa se hace a todas las embarazadas entre las {{c2::24 y 28 semanas}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Batería por trimestre",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.001"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la PTGO, una glicemia a las 2 horas ≥ {{c1::140 mg/dL}} diagnostica diabetes gestacional.",
+      "extra": "No se pide una segunda prueba para confirmar.",
+      "origen": "clase:3",
+      "fuente": "Clase · Batería por trimestre",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.001"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El VDRL se repite a las {{c1::28 semanas}} y en el parto; el VIH a las 32–34 semanas y en el parto.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Primer trimestre",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.001"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El cultivo vaginorrectal para Streptococcus agalactiae se toma entre las {{c1::35 y 37 semanas}}.",
+      "extra": "Se toma con tórula en el tercio inferior de la vagina y por el esfínter anal, sin espéculo.",
+      "origen": "clase:3",
+      "fuente": "Clase · Batería por trimestre",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.001"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Cultivo vaginorrectal EGB positivo en una asintomática: {{c1::penicilina G EV solo durante el parto}}, no antibiótico oral antes.",
+      "extra": "El germen recoloniza desde el reservorio digestivo.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.001"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 39",
+        "EUNACOM Diciembre 2022 · Pregunta 52"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tamizaje para anti-D a las 28 semanas aplica a madres Rh(−) con {{c1::Coombs indirecto negativo}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Batería de exámenes",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.001"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Madre Rh(−) no sensibilizada a las 28 semanas: {{c1::inmunoglobulina anti-D 300 mcg IM}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Batería de exámenes",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.001"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Anemia en el embarazo: Hb < {{c1::11 g/dL}} en el 1.er y 3.er trimestre y < {{c2::10,5 g/dL}} en el 2.° trimestre.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Anemia en el embarazo",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.002"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Gravedad de la anemia en el embarazo: leve 10–10,9, moderada {{c1::7–9,9}} y severa < {{c2::7 g/dL}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Anemia",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.002"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cerca del {{c1::90%}} de las anemias del embarazo son ferropénicas.",
+      "extra": "Por la expansión del plasma (+40–50%) y de los glóbulos rojos (+20–30%).",
+      "origen": "clase:4",
+      "fuente": "Clase · Anemia en el embarazo",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.002"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el embarazo, la ferropenia se confirma con ferritina < {{c1::30 ng/mL}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Anemia en el embarazo",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.002"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de la anemia ferropénica leve–moderada estable: {{c1::hierro oral}} 100–200 mg/día de hierro elemental.",
+      "extra": "Fraccionado, lejos de las comidas y sin té, café, leche ni calcio.",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.002"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 53"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Anemia ferropénica estable: el error es indicar {{c1::hierro endovenoso o transfundir}} de entrada.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.002"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El hierro EV se reserva para intolerancia o falla del oral, malabsorción o poco tiempo para el parto; la transfusión, para Hb < {{c1::7 g/dL}} con repercusión.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.002"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con hierro oral la Hb sube al menos {{c1::1 g/dL}} en 2–3 semanas y se controla a las {{c2::4 semanas}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.002"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Antecedente de DTN, diabetes o anticonvulsivantes: ¿qué dosis de ácido fólico?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1.1",
+      "pista": "Entre las 24 y 28 semanas: ¿qué examen toca?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.2.0",
+      "pista": "Cultivo vaginorrectal positivo: ¿qué se indica?"
+    }
+  ]
+}

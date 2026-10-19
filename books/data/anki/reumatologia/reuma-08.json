@@ -1,0 +1,490 @@
+{
+  "classId": "reuma-08",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En LES hay depuración defectuosa de células apoptóticas y activación de células dendríticas plasmocitoides con firma de {{c1::interferón alfa}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Inmunopatogenia",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El daño tisular del LES se debe a {{c1::inmunocomplejos}} que activan la vía clásica del complemento.",
+      "extra": "Glomérulo, piel, pleura, pericardio, articulaciones.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Inmunopatogenia",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El LES afecta en un 90% a mujeres en edad fértil, entre los {{c1::15 y 45 años}} (9:1).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Epidemiología",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Gatillantes de brote lúpico: radiación {{c1::UV (UVB)}}, infecciones, estrés y embarazo/puerperio.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Gatillantes",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterio de entrada obligatorio EULAR/ACR 2019: {{c1::ANA}} positivos en título ≥ 1:80 (HEp-2).",
+      "extra": "Si son negativos no se clasifica como LES.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 74",
+        "EUNACOM Agosto 2021 · Pregunta 98"
+      ],
+      "codigos": [
+        "1.11.1.014",
+        "1.11.4.003"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras el criterio de entrada, el LES se clasifica con un puntaje ≥ {{c1::10}} de dominios ponderados.",
+      "extra": "Solo cuenta el mayor puntaje de cada dominio.",
+      "origen": "clase:2",
+      "fuente": "Clase · Sistema de puntos",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.014",
+        "1.11.4.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dominio mucocutáneo: eritema malar/lupus cutáneo agudo suma {{c1::6}} puntos; úlceras orales, 2 puntos.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Mucocutáneo",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014",
+        "1.11.4.003"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El eritema malar lúpico respeta los {{c1::surcos nasogenianos}}.",
+      "extra": "Diferencia con rosácea; empeora con el sol.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.014",
+        "1.11.4.003"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las úlceras orales del lupus son superficiales, {{c1::indoloras}}, en paladar.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Mucocutáneo",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dominio musculoesquelético (artritis): {{c1::6}} puntos; serositis (derrame pleural/pericárdico): 5 puntos.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Manifestaciones",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014",
+        "1.11.4.003"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Artropatía de Jaccoud: deformidad {{c1::reductible}} de las manos, sin erosiones óseas en la radiografía.",
+      "extra": "Diferencia crucial con AR.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.014",
+        "1.11.4.003"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dominio hematológico: leucopenia < {{c1::4.000}}/mm³ = 3 pts; trombocitopenia < 100.000/mm³ = 4 pts.",
+      "extra": "Anemia hemolítica con Coombs directo (+) = 4 pts.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Dominios",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dominio renal: proteinuria > {{c1::0.5 g/24 horas}} = 4 pts; nefritis clase III o IV en biopsia = 10 pts.",
+      "extra": "Clase II o V = 8 pts.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Dominios",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dominio neuropsiquiátrico: delirium 2 pts, psicosis 3 pts, {{c1::convulsiones}} 5 pts.",
+      "extra": "Distinguir psicosis por corticoides.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Dominios",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Complemento: C3 bajo O C4 bajo = {{c1::3}} pts; C3 Y C4 bajos = 4 pts.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Dominios",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Anti-dsDNA o anti-Sm positivos suman {{c1::6}} puntos en los criterios 2019.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Dominios",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los ANA tienen sensibilidad > {{c1::98%}} y especificidad ~80%: tamizaje de descarte.",
+      "extra": "Libro Gordo: S = 95%.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla autoanticuerpos",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 98"
+      ],
+      "codigos": [
+        "1.11.1.014",
+        "1.11.4.003"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El autoanticuerpo más específico de LES (> 99%) es el anti-{{c1::Smith}}; su sensibilidad es solo 20–30%.",
+      "extra": "No varía con la actividad.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.11.4.003",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El anti-dsDNA (especificidad > 95%) se correlaciona con la {{c1::actividad}} y predice nefritis lúpica proliferativa.",
+      "extra": "Títulos en ascenso anuncian brote.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.11.4.003",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "C3 y C4 bajos más anti-dsDNA elevado indican {{c1::brote lúpico activo}} (consumo de complemento).",
+      "extra": "Riesgo de nefritis.",
+      "origen": "clase:6",
+      "fuente": "Clase · Monitoreo biológico",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 154"
+      ],
+      "codigos": [
+        "1.11.4.003",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anti-Ro y anti-La se asocian a lupus cutáneo subagudo y a {{c1::bloqueo AV congénito}} (lupus neonatal).",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.014",
+        "1.11.4.003"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los anticuerpos {{c1::antihistona}} son positivos en > 95% del lupus inducido por fármacos.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anti-RNP (U1-RNP) es típico de la enfermedad mixta del tejido conectivo y del fenómeno de {{c1::Raynaud}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla autoanticuerpos",
+      "repaso": false,
+      "codigos": [
+        "1.11.4.003"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Todo paciente con LES recibe de forma indefinida {{c1::hidroxicloroquina}}, salvo contraindicación oftalmológica.",
+      "extra": "Menos brotes, menos trombosis, menor mortalidad.",
+      "origen": "clase:7",
+      "fuente": "Clase · Hidroxicloroquina universal",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dosis de hidroxicloroquina: ≤ {{c1::5 mg/kg}} de peso real al día (200–400 mg/día).",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Seguridad retiniana",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hidroxicloroquina: examen oftalmológico basal y controles anuales desde el {{c1::quinto año}}, con campo visual y OCT.",
+      "extra": "Riesgo de maculopatía < 1% en los primeros 5 años.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Seguridad oftalmológica",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Fotoprotección en LES: bloqueador FPS ≥ {{c1::50}} cada 3–4 horas, ropa protectora y evitar el mediodía.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Fotoprotección",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Brotes leves a moderados: prednisona {{c1::5 a 20 mg/día}} y AINEs transitorios.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Brotes",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "LES con compromiso renal u órgano vital: derivación urgente, biopsia renal, pulsos de {{c1::metilprednisolona}} más micofenolato.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · LES",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES lupus: cobertura integral de confirmación y tratamiento en personas de {{c1::15 años y más}}.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Mujer joven con artralgias, úlceras orales, creatinina alta y cilindros hemáticos: el paso a seguir es solicitar {{c1::ANA}}.",
+      "extra": "Sospecha de LES con nefritis.",
+      "origen": "clase:12",
+      "fuente": "EUNACOM Julio 2017 · Pregunta 74",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 74"
+      ],
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-08/01_eritema-malar__cto-reuma_p81.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Eritema malar en alas de mariposa (LES)",
+      "clave": "Puente nasal y mejillas, respetando los surcos nasogenianos",
+      "conducta": "Pedir ANA; si hay LES, hidroxicloroquina y fotoprotección",
+      "fuente": "Manual CTO Reumatología 14.ª ed., p. 81",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.014",
+        "1.11.4.003"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-08/10_ulcera-oral-lupus__nelson_p1907.jpg",
+      "pregunta": "¿Qué muestra y qué hallazgo es?",
+      "diagnostico": "Úlceras orales del lupus",
+      "clave": "Úlceras superficiales indoloras en paladar",
+      "conducta": "Suman 2 puntos en criterios 2019; completar ANA, anti-dsDNA, C3/C4",
+      "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., Fig. 199.1C",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014",
+        "1.11.4.003"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "ANA negativos: ¿clasifica como LES?",
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.1",
+      "pista": "Puntaje ≥ 10: ¿qué inicias?",
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1.0.0",
+      "pista": "Brote con compromiso de órgano mayor: ¿conducta?",
+      "codigos": [
+        "1.11.1.014"
+      ]
+    }
+  ]
+}

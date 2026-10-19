@@ -1,0 +1,595 @@
+{
+ "classId": "cardio-22",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un soplo es un ruido producido por flujo {{c1::turbulento}}: estenosis, insuficiencia, defecto entre cavidades o hiperflujo.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Cómo describir un soplo",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Todo soplo se describe por momento, forma, foco, irradiación, tono y {{c1::grado}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Cómo se describe un soplo",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Escala de Levine: el soplo con {{c1::frémito}} corresponde al grado IV o más y siempre es patológico.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Cómo se describe un soplo",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El grado del soplo no mide la gravedad: una estenosis aórtica crítica con gasto bajo puede sonar {{c1::suave}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Grado de Levine",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "R1 intenso + chasquido de apertura orienta a {{c1::estenosis mitral}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Los otros ruidos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "R2 único o apagado orienta a {{c1::estenosis aórtica grave}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Los otros ruidos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "R2 desdoblado y fijo orienta a {{c1::CIA}}; clic mesosistólico a prolapso mitral.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Los otros ruidos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "R4 orienta a ventrículo {{c1::rígido}} (hipertrofia); R3 a sobrecarga de volumen o falla ventricular.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Otros ruidos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Soplo eyectivo: forma de {{c1::rombo}}, hay un obstáculo; en la EAo el pico más tardío indica más gravedad.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Eyectivo, holosistólico o telesistólico",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Soplos eyectivos: estenosis aórtica, estenosis pulmonar, MCH e hiperflujo pulmonar de la {{c1::CIA}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Soplos sistólicos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El soplo holosistólico («en barra») es el de IM, insuficiencia tricuspídea y {{c1::CIV}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Soplos sistólicos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Soplo telesistólico precedido de clic: {{c1::prolapso mitral}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Soplos sistólicos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La insuficiencia mitral se oye en el ápex con irradiación a la {{c1::axila}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Soplos sistólicos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La estenosis aórtica irradia a las {{c1::carótidas}}; el soplo de la MCH no.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Soplos sistólicos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Todo soplo {{c1::diastólico}} es patológico y exige ecocardiograma; el error es tranquilizar y controlar.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Soplo diastólico decreciente aspirativo en el borde esternal izquierdo: {{c1::insuficiencia aórtica}} (paciente sentado, inclinado, en espiración).",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Soplos diastólicos y continuos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Retumbo diastólico con chasquido de apertura en el ápex, en decúbito lateral izquierdo: {{c1::estenosis mitral}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Soplos diastólicos y continuos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Retumbo diastólico sin chasquido en una IAo grave: soplo de {{c1::Austin Flint}}, no estenosis mitral.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Soplo de Graham Steell: insuficiencia pulmonar por {{c1::hipertensión pulmonar}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Soplos diastólicos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Soplo continuo «en maquinaria» infraclavicular izquierdo con pulso saltón: {{c1::ductus arterioso persistente}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Soplos diastólicos y continuos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.021"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 88"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Niño con infecciones respiratorias recurrentes, intolerancia al esfuerzo y soplo continuo: se piensa en {{c1::ductus arterioso}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Soplos continuos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.021"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 88"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Soplo continuo infraclavicular izquierdo: ductus; el error es {{c1::comunicación interventricular}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.021"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 88"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El zumbido venoso (soplo continuo en la base del cuello) es inocente y desaparece al comprimir la {{c1::yugular}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Soplos continuos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Inspiración profunda (Rivero-Carvallo) aumenta los soplos del corazón {{c1::derecho}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Maniobras",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Soplo holosistólico que aumenta al inspirar: insuficiencia {{c1::tricuspídea}}, no mitral.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Valsalva y ponerse de pie: solo dos soplos aumentan, la {{c1::MCH}} y el prolapso mitral.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Qué le hace cada maniobra",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Soplo eyectivo que aumenta con Valsalva: MCH; el error es {{c1::estenosis aórtica}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cuclillas: aumenta el soplo de la {{c1::estenosis aórtica}} y disminuye el de la MCH.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Qué le hace cada maniobra",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el prolapso mitral, de pie el clic se {{c1::adelanta}} y en cuclillas se retrasa.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Handgrip (más poscarga): aumentan IM, IAo y {{c1::CIV}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Maniobras",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Handgrip disminuye los soplos eyectivos: estenosis aórtica y {{c1::MCH}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Maniobras",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras una pausa postextrasistólica el soplo de la EAo {{c1::aumenta}} y el de la IM no cambia.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Maniobras",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Soplo inocente: sistólico eyectivo de grado {{c1::I-II}}, corto, sin frémito, con ruidos, ECG y radiografía normales.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Inocente o patológico",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Soplo de Still: musical, en el borde esternal izquierdo, que {{c1::disminuye al sentarse}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Soplo inocente",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Soplo sistólico I-II suave en joven asintomático: soplo funcional; el error es pedir {{c1::coronariografía o cirugía}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Esclerosis aórtica del anciano: soplo eyectivo con {{c1::R2 conservado}} y pulso normal.",
+   "extra": "La estenosis verdadera tiene R2 apagado y pulso parvus et tardus.",
+   "origen": "clase:6",
+   "fuente": "Clase · Inocente o patológico",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se pide ecocardiograma ante soplo diastólico, continuo, holosistólico, grado ≥ III, con síntomas, ruidos anormales o ECG/Rx {{c1::alterados}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Pedir ecocardiograma",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fiebre prolongada con soplo nuevo o cambiante es {{c1::endocarditis}} hasta demostrar lo contrario.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Patrones",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mujer joven con palpitaciones y clic mesosistólico: {{c1::prolapso mitral}}.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Patrones",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Presión de pulso amplia, pulsos saltones y soplo diastólico decreciente: {{c1::insuficiencia aórtica}}.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Patrones",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hipertensión en los brazos con pulsos femorales débiles: {{c1::coartación}} aórtica.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Patrones",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La cirugía de las cardiopatías congénitas operables y de las {{c1::válvulas}} tiene garantía GES.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Conducta en atención primaria",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El soplo de pacientes con prótesis valvular o endocarditis previa requiere profilaxis antes de procedimientos {{c1::dentales}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Conducta en atención primaria",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.021"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.1",
+   "pista": "Soplo diastólico o continuo: ¿qué es y qué se pide?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.1",
+   "pista": "Soplo continuo en maquinaria: ¿diagnóstico y conducta?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.2.0",
+   "pista": "Soplo que aumenta con la inspiración: ¿de dónde viene?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.2.2",
+   "pista": "Soplo que aumenta con handgrip: ¿cuáles pueden ser?"
+  }
+ ]
+}

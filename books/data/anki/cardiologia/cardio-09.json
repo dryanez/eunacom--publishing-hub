@@ -1,0 +1,517 @@
+{
+ "classId": "cardio-09",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La extrasístole ventricular es un QRS {{c1::ancho y prematuro}}, sin onda P previa.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Un latido que nace antes de tiempo",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.011"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La extrasístole ventricular se sigue de una pausa compensadora {{c1::completa}}.",
+   "extra": "En la supraventricular la pausa suele ser incompleta.",
+   "origen": "clase:1",
+   "fuente": "Clase · Un latido que nace antes de tiempo",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.011"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "QRS ancho con pausa completa y sin P previa es {{c1::ventricular}}; QRS estrecho con P' prematura es supraventricular.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo se ven",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.011"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "EV una de cada 2 latidos es {{c1::bigeminismo}}; una de cada 3, trigeminismo.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo se ven",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.011"
+   ],
+   "imagen": "biblioteca/20_cardiologia/cardio-09/01_extrasistoles-ventriculares-bigeminismo-trigeminismo-parejas__stroobandt-ecg_p221.jpg"
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las EV benignas se originan típicamente en el tracto de salida del {{c1::ventrículo derecho}} (BCRI con eje inferior).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 EV benignas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.011"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Una EV benigna {{c1::desaparece o disminuye}} con el ejercicio.",
+   "extra": "Si aumenta con el ejercicio, es bandera roja.",
+   "origen": "clase:3",
+   "fuente": "Clase · Cuándo tranquilizar",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.011"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Una carga de EV benigna en el Holter es menor de {{c1::10%}} de los latidos.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Cuándo tranquilizar",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.011"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Gatillantes de EV a suprimir: cafeína, alcohol, tabaco, energizantes y {{c1::descongestionantes}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Cuándo tranquilizar",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.011"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas secundarias a descartar: hipokalemia, hipomagnesemia, hipertiroidismo y {{c1::intoxicación digitálica}}.",
+   "extra": "Digital: EV bigeminadas.",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Causas secundarias",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.011"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Banderas rojas de EV: cardiopatía estructural, síncope, antecedente familiar de {{c1::muerte súbita}}, polimorfas, parejas o TV no sostenida.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Banderas rojas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.011"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Una carga de EV mayor de {{c1::10 a 15%}} puede producir miocardiopatía por extrasístoles.",
+   "extra": "Ecocardiograma y derivar para ablación.",
+   "origen": "clase:4",
+   "fuente": "Clase · Banderas rojas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.011"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estudio inicial de EV: ECG, electrolitos, TSH y {{c1::ecocardiograma}} para descartar cardiopatía estructural.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Estudio inicial",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.011"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La prueba de esfuerzo se pide en EV si hay sospecha de {{c1::isquemia}} o si aumentan con el ejercicio.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Estudio inicial",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.011"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "EV benignas asintomáticas: {{c1::tranquilizar}} y suprimir gatillantes; no se tratan.",
+   "extra": "Tratar el número de extrasístoles no mejora la sobrevida.",
+   "origen": "clase:6",
+   "fuente": "Clase · Qué hacer y qué no",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.011"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "EV muy sintomáticas: primera línea con {{c1::betabloqueador}} (bisoprolol, metoprolol) o verapamilo/diltiazem.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Qué hacer y qué no",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.011"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Flecainida, propafenona y amiodarona están contraindicadas en cardiopatía estructural por el estudio {{c1::CAST}}.",
+   "extra": "Mayor mortalidad con flecainida tras un infarto.",
+   "origen": "clase:6",
+   "fuente": "Clase · Qué hacer y qué no",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.011"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "EV aisladas con corazón sano y carga 2%: el error es indicar {{c1::amiodarona, flecainida o ablación}}.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.011"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Carga de EV 22% con FEVI 40%: ecocardiograma y derivar para {{c1::ablación}}.",
+   "extra": "Miocardiopatía mediada por extrasístoles, potencialmente reversible.",
+   "origen": "clase:14",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.011"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con infarto previo, FEVI baja y EV frecuentes se trata la enfermedad de base con {{c1::betabloqueador}} y tratamiento de la IC.",
+   "extra": "El pronóstico lo define la función ventricular, no el número de EV.",
+   "origen": "clase:7",
+   "fuente": "Clase · Después de un infarto",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.011"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En el embarazo, si las extrasístoles molestan, se usa un betabloqueador cardioselectivo: {{c1::metoprolol}}.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Situaciones especiales",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.011"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El Holter de ritmo es un ECG continuo de {{c1::24 a 48 horas}} con diario de síntomas.",
+   "extra": "Parches adhesivos: 7 a 14 días.",
+   "origen": "clase:9",
+   "fuente": "Clase · Holter de ritmo",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.014"
+   ],
+   "imagen": "biblioteca/20_cardiologia/cardio-09/02_holter-electrodos-y-registrador__blausen.jpg"
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El Holter se indica en palpitaciones, mareo, presíncope o síncope para {{c1::correlacionar el síntoma con el ritmo}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Holter de ritmo",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.014"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Paciente con FA tratada con atenolol y verapamilo con episodios breves de malestar, sudor y ortostatismo: sospechar síndrome {{c1::taquicardia-bradicardia}}; examen: Holter de 24 horas.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 7"
+   ],
+   "codigos": [
+    "1.01.4.014"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Síntomas diarios: Holter de 24-48 horas; semanales: parche de {{c1::7-14 días}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Qué registro pedir",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.014"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Síntomas mensuales: {{c1::monitor de eventos}}; muy infrecuentes o síncope inexplicado: registrador implantable.",
+   "extra": "Error: Holter de 24 horas para un síntoma mensual.",
+   "origen": "clase:10",
+   "fuente": "Clase · Qué registro pedir",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.014"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El síncope vasovagal u ortostático se confirma con la prueba de {{c1::inclinación (tilt test)}}, no con Holter.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Qué registro pedir",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.014"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El Holter de presión (MAPA) es {{c1::otro examen}}; no se confunde con el Holter de ritmo.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Qué registro pedir",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.014"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el informe del Holter, una pausa mayor de {{c1::3 segundos}} en vigilia es patológica.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Emplear el informe",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.014"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pausas sintomáticas o bloqueo Mobitz II/completo en el Holter: derivar para {{c1::marcapaso}}.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Emplear el informe",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.014"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "FA paroxística en el Holter: se calcula el {{c1::CHA₂DS₂-VASc}} para decidir anticoagulación.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Emplear el informe",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.014"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Holter con síntomas pero ritmo sinusal normal en el diario: la arritmia {{c1::se descarta}} como causa.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Informe",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.014"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Síncope de alto riesgo: durante el {{c1::esfuerzo}} o en decúbito, con cardiopatía, historia familiar de muerte súbita o ECG anormal.",
+   "extra": "Se hospitaliza y se monitoriza.",
+   "origen": "clase:12",
+   "fuente": "Clase · Síncope de alto riesgo",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.014"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el ACV criptogénico el Holter busca {{c1::fibrilación auricular paroxística}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Holter de ritmo",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.014"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La extrasístole supraventricular muestra una P' prematura y reinicia el nodo sinusal, con pausa compensadora {{c1::incompleta}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Extrasístoles supraventriculares",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.011"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mujer de 34 años con «saltos» tras café y poco sueño, EV monomorfas con carga 3%: {{c1::tranquilizar}}, suprimir cafeína y control clínico.",
+   "extra": "",
+   "origen": "libro:caso",
+   "fuente": "Libro · Caso clínico",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.011"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-09/01_extrasistoles-ventriculares-bigeminismo-trigeminismo-parejas__stroobandt-ecg_p221.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Extrasístoles ventriculares en bigeminismo, trigeminismo y parejas",
+   "clave": "QRS anchos prematuros sin P previa, con pausa compensadora",
+   "conducta": "Corazón sano y carga baja: tranquilizar; parejas o TVNS: derivar",
+   "fuente": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials, p. 221",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.011"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-09/02_holter-electrodos-y-registrador__blausen.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Holter de ritmo: electrodos y registrador",
+   "clave": "Registro ECG continuo de 24 a 48 horas con diario de síntomas",
+   "conducta": "Pedir en palpitaciones, presíncope o síncope diarios; en síntomas mensuales, monitor de eventos",
+   "fuente": "Ilustración: Blausen.com staff (2014), CC BY 3.0",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.014"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Corazón sano y carga baja: ¿qué conducta?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1",
+   "pista": "Cardiopatía, síncope o carga alta: ¿qué haces?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.2",
+   "pista": "Pausas o bloqueo de alto grado en el Holter: ¿qué indicas?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1",
+   "pista": "Síntoma mensual o menos frecuente: ¿qué registro?"
+  }
+ ]
+}

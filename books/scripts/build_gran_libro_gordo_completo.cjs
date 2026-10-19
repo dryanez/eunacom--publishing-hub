@@ -14,7 +14,8 @@ const path = require('path');
 const { execSync } = require('child_process');
 const puppeteer = require('puppeteer');
 
-const CHROME_PATH = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+const _WIN_CHROME = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+const CHROME_PATH = process.env.CHROME_PATH || [_WIN_CHROME, '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'].find(p => require('fs').existsSync(p));
 const DIST_DIR = path.join(__dirname, '..', 'dist');
 const ASSETS_DIR = path.join(__dirname, '..', 'assets');
 
@@ -44,7 +45,8 @@ const TOMOS = [
 
 // Cargar Nuevo Logo AEE en SVG
 let aeeLogoSvg = '';
-const newLogoPath = path.join(ASSETS_DIR, 'aee_logo_new.svg');
+const aeeLogoLight = fs.readFileSync(path.join(ASSETS_DIR, 'aee-logo-7a-light.svg'), 'utf8');
+const newLogoPath = path.join(ASSETS_DIR, 'aee-logo-7a-dark.svg');
 if (fs.existsSync(newLogoPath)) {
   aeeLogoSvg = fs.readFileSync(newLogoPath, 'utf8');
 }
@@ -103,7 +105,7 @@ async function renderMasterCoverAndIndex() {
     .mc-top {
       display: flex; justify-content: space-between; align-items: center; z-index: 4;
     }
-    .mc-logo svg { width: 250px; height: auto; display: block; }
+    .mc-logo svg { height: 108px; width: auto; display: block; margin-left: -40px; }
     .mc-edition-chip {
       font-family: 'IBM Plex Mono', monospace; font-size: 9pt; font-weight: 700;
       letter-spacing: 0.15em; color: #38bdf8;
@@ -154,8 +156,9 @@ async function renderMasterCoverAndIndex() {
       margin-bottom: 16px;
     }
     .legal-logo svg {
-      width: 180px;
-      height: auto;
+      height: 80px;
+      width: auto;
+      margin-left: -30px;
     }
     .legal-header-tag {
       font-family: 'IBM Plex Mono', monospace;
@@ -318,7 +321,7 @@ async function renderMasterCoverAndIndex() {
   <div class="legal-page">
     <div>
       <div class="legal-top">
-        <div class="legal-logo">${aeeLogoSvg}</div>
+        <div class="legal-logo">${aeeLogoLight}</div>
         <div class="legal-header-tag">Ficha Editorial &amp; Propiedad Intelectual</div>
       </div>
 
@@ -517,7 +520,7 @@ except Exception as e:
   const pyScriptPath = path.join(__dirname, 'temp_merge_gran_libro.py');
   fs.writeFileSync(pyScriptPath, mergeScript, 'utf8');
 
-  execSync(`python "${pyScriptPath}"`, { stdio: 'inherit' });
+  execSync(`${process.env.PYTHON || (process.platform === 'win32' ? 'python' : 'python3')} "${pyScriptPath}"`, { stdio: 'inherit' });
   if (fs.existsSync(pyScriptPath)) fs.unlinkSync(pyScriptPath);
   if (fs.existsSync(coverPdf)) fs.unlinkSync(coverPdf);
 

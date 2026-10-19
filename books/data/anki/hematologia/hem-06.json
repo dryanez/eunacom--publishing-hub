@@ -1,0 +1,501 @@
+{
+  "classId": "hem-06",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la megaloblástica falla la síntesis de {{c1::ADN}}; el ARN y las proteínas siguen, y hay asincronía núcleo-citoplasma.",
+      "extra": "B12 y folato son cofactores del timidilato.",
+      "origen": "clase:1",
+      "fuente": "Clase · Fisiopatología",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La eritropoyesis ineficaz de la megaloblástica eleva {{c1::LDH y bilirrubina indirecta}} (hemólisis intramedular).",
+      "extra": "Reticulocitos bajos.",
+      "origen": "clase:1",
+      "fuente": "Clase · Fisiopatología",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El frotis megaloblástico muestra macroovalocitos y neutrófilos con más de {{c1::5}} lóbulos (pleocariocitos).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "imagen": "biblioteca/06_hematologia/hem-06/01_macroovalocitos-neutrofilo-hipersegmenta__amir-hemato_p29.jpg",
+      "codigos": [
+        "1.08.1.004",
+        "1.08.3.001"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La B12 viene solo de alimentos de origen {{c1::animal}} y se une al factor intrínseco de las células parietales.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Absorción",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La B12 se absorbe en los últimos {{c1::60 cm}} del íleon terminal, vía receptor cubilina.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Absorción",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Las reservas hepáticas de B12 duran {{c1::3 a 5 años}}; las de folato, solo 3 a 4 meses.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Absorción",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El folato se absorbe en el {{c1::yeyuno proximal}}; viene de vegetales verdes crudos, legumbres y frutas.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Absorción",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el déficit de B12 se acumulan homocisteína y {{c1::ácido metilmalónico}}.",
+      "extra": "En folato: homocisteína alta con AMM normal.",
+      "origen": "clase:3",
+      "fuente": "Clase · Neurología",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Solo la B12 daña los nervios: el déficit de folato {{c1::no}} produce daño neurológico.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.023"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La degeneración combinada subaguda afecta cordones {{c1::posteriores y laterales}}.",
+      "extra": "Posteriores: vibración y posición; laterales: espasticidad, Babinski.",
+      "origen": "clase:4",
+      "fuente": "Clase · Neurología",
+      "repaso": false,
+      "imagen": "biblioteca/06_hematologia/hem-06/03_rm-degeneracion-combinada-subaguda__nelson_p639.jpg",
+      "codigos": [
+        "1.10.1.023"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cordones posteriores en déficit de B12: pérdida de vibración y posición, ataxia y {{c1::Romberg positivo}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Neurología",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.023"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La lengua lisa, depapilada y roja del déficit de B12 se llama {{c1::glositis de Hunter}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "imagen": "biblioteca/06_hematologia/hem-06/01_glositis_atrofica_b12__commons.jpg",
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La neurología del déficit de B12 revierte si lleva menos de {{c1::6 a 12 meses}}.",
+      "extra": "Con pérdida axonal puede quedar permanente.",
+      "origen": "clase:4",
+      "fuente": "Clase · Pronóstico",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.023"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa más común de déficit grave de B12 en adultos mayores es la {{c1::anemia perniciosa}}.",
+      "extra": "Gastritis atrófica autoinmune tipo A.",
+      "origen": "clase:5",
+      "fuente": "Clase · Etiología",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En anemia perniciosa los anti-factor intrínseco son {{c1::95 %}} específicos y los anti-células parietales {{c2::90 %}} sensibles.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La anemia perniciosa eleva x{{c1::3}} el riesgo de adenocarcinoma gástrico y tumores carcinoides.",
+      "extra": "Asociada a Hashimoto, vitíligo y DM1.",
+      "origen": "clase:5",
+      "fuente": "Clase · Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Otras causas de déficit de B12: gastrectomía, bypass en Y de Roux, Crohn ileal y metformina o IBP por más de {{c1::3 a 5 años}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fármacos que causan déficit de folato: {{c1::metotrexato, trimetoprima, pirimetamina}}.",
+      "extra": "Fenitoína, fenobarbital y carbamazepina aceleran su catabolismo.",
+      "origen": "clase:5",
+      "fuente": "Clase · Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa más frecuente de macrocitosis megaloblástica en el alcoholismo crónico es el déficit de {{c1::ácido fólico}}.",
+      "extra": "Sin síntomas neurológicos; suplementar también tiamina.",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.001",
+        "1.10.1.023"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "VCM típico en megaloblástica: {{c1::110 a 130 fL}}, a veces con pancitopenia.",
+      "extra": "Ferritina normal o alta por lisis intramedular.",
+      "origen": "clase:6",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Déficit de B12 confirmado con B12 < {{c1::200 pg/mL}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con B12 límite de 200 a 350 pg/mL, un ácido metilmalónico > {{c1::0,4 µmol/L}} sella el déficit.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Déficit de folato: folato intraeritrocitario < {{c1::150 ng/mL}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ácido fólico solo en un déficit de B12 {{c1::corrige la anemia pero progresa la neurología}}, con riesgo de paraplejía irreversible.",
+      "extra": "Regla: B12 primero o junto al folato.",
+      "origen": "clase:7",
+      "fuente": "Clase · Trampa mortal",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.023"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "B12 por malabsorción: {{c1::1.000 µg IM}} diario por 7 días, luego semanal por 4 semanas y mensual de por vida.",
+      "extra": "Cianocobalamina o hidroxocobalamina.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Folato: ácido fólico {{c1::1 a 5 mg/día}} oral por 3 a 4 meses, tras asegurar la B12.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras gastrectomía o bypass gástrico, la B12 se da como profilaxis {{c1::de por vida}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Prevención",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Al iniciar B12 parenteral, vigila la {{c1::kalemia}}: hipopotasemia a las 48–72 h por consumo en eritropoyesis.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Evolución",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras B12: crisis reticulocitaria al día {{c1::5 a 7}} y Hb normal en 4 a 6 semanas.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Evolución",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pancitopenia con VCM 126 fL y parestesias en las 4 extremidades: déficit de {{c1::vitamina B12}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Diciembre 2018",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 117",
+        "EUNACOM Julio 2019 · Pregunta 138",
+        "EUNACOM Enero 2023 · Pregunta 104",
+        "EUNACOM Diciembre 2025 · Pregunta 133"
+      ],
+      "codigos": [
+        "1.08.1.004",
+        "1.10.1.023"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Vegana estricta con anemia macrocítica arregenerativa: el examen siguiente es el nivel de {{c1::vitamina B12}}.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Diciembre 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 141",
+        "EUNACOM Diciembre 2018 · Pregunta 116",
+        "EUNACOM Julio 2016 · Pregunta 67"
+      ],
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Gastrectomizado o con bypass, con anemia macrocítica y neuropatía: se indica {{c1::vitamina B12 (cianocobalamina)}}.",
+      "extra": "El ácido fólico solo sería el error más grave.",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz Julio 2015",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 10",
+        "EUNACOM Julio 2016 · Pregunta 104",
+        "EUNACOM Diciembre 2024 · Pregunta 173",
+        "EUNACOM Julio 2013 · Pregunta 18"
+      ],
+      "codigos": [
+        "1.08.1.004",
+        "1.10.1.023"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-06/01_macroovalocitos-neutrofilo-hipersegmenta__amir-hemato_p29.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Frotis megaloblástico",
+      "clave": "Macroovalocitos y neutrófilo hipersegmentado",
+      "conducta": "Medir B12 y folato; B12 IM si hay neurología o malabsorción",
+      "fuente": "Manual AMIR Hematología, p. 29",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.023"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-06/01_glositis_atrofica_b12__commons.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Glositis atrófica por déficit de B12",
+      "clave": "Lengua lisa, depapilada y dolorosa",
+      "conducta": "Medir B12 y dar B12 IM",
+      "fuente": "Wikimedia Commons, glositis por anemia perniciosa",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.004"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Macrocítica con reticulocitos bajos: ¿qué mides?",
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.0",
+      "pista": "Neurología o AMM alto: ¿qué déficit y qué tratamiento?",
+      "codigos": [
+        "1.08.1.004"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1",
+      "pista": "Sin neurología ni AMM alto: ¿qué déficit y qué tratamiento?",
+      "codigos": [
+        "1.10.1.023"
+      ]
+    }
+  ]
+}

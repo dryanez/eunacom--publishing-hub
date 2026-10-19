@@ -1,0 +1,455 @@
+{
+  "classId": "hem-19",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El mieloma múltiple es un clon de {{c1::células plasmáticas}} en la médula ósea que secreta una inmunoglobulina monoclonal (componente M).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Célula plasmática",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.007"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Proteína del mieloma: IgG en {{c1::55 %}}, IgA en {{c2::20 %}} y cadenas ligeras solas en 20 %.",
+      "extra": "Las cadenas ligeras solas son la proteína de Bence-Jones.",
+      "origen": "clase:1",
+      "fuente": "Clase · Célula plasmática",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.007"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La edad mediana al diagnóstico del mieloma es de {{c1::65 a 70 años}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.007"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "CRAB: {{c1::calcio, insuficiencia renal, anemia y lesiones óseas}} (bone).",
+      "extra": "Un solo criterio = daño de órgano; exige tratamiento inmediato.",
+      "origen": "clase:2",
+      "fuente": "Clase · CRAB",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.007"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "CRAB, C: calcio sérico > {{c1::11 mg/dL}} (o > 1 sobre el límite normal).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · CRAB",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.007"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "CRAB, R: creatinina > {{c1::2 mg/dL}} o clearance < {{c2::40 mL/min}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · CRAB",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.007"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "CRAB, A: hemoglobina < {{c1::10 g/dL}} (o más de 2 bajo el límite normal).",
+      "extra": "Anemia normocítica normocrómica.",
+      "origen": "clase:2",
+      "fuente": "Clase · CRAB",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.007"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "CRAB, B: lesiones líticas {{c1::\"en sacabocado\"}} en cráneo, pelvis, columna o fémur, o fracturas patológicas.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · CRAB",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.007"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hipercalcemia del mieloma se debe a osteoclastos activados por {{c1::RANK-ligando e IL-6}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.007"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El \"riñón de mieloma\" es la obstrucción intratubular por cilindros de {{c1::cadenas ligeras libres}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.007"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Mieloma: VHS típicamente > {{c1::100 mm/h}} con fenómeno de {{c2::Rouleaux}} en el frotis.",
+      "extra": "Pilas de monedas por exceso de inmunoglobulinas.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Laboratorio",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.007",
+        "1.08.4.004"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El examen para demostrar la paraproteína es la {{c1::electroforesis de proteínas}} en suero: pico angosto en zona gamma.",
+      "extra": "Lumbago en adulto mayor con anemia, VHS alta y falla renal: pedir electroforesis.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Diciembre 2022",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.004"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 133"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::inmunofijación}} sérica y urinaria define el isotipo de cadena pesada y ligera.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · De la VHS al pico",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.004"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Sospecha alta de mieloma con electroforesis normal: el error es descartarlo; se piden {{c1::cadenas ligeras libres}} y orina de 24 horas.",
+      "extra": "Mieloma micromolecular.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.007"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El diagnóstico en médula exige plasmocitos ≥ {{c1::10 %}} más al menos 1 criterio CRAB.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.007"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El examen confirmatorio del mieloma es el {{c1::mielograma}} o biopsia de médula ósea.",
+      "extra": "Proteínas altas con albúmina baja indican exceso de globulinas.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Julio 2019",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.007"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mieloma de cadenas ligeras kappa: dolor óseo, anemia, VHS alta e hipogammaglobulinemia con pico {{c1::kappa}}.",
+      "extra": "No es GMSI porque hay daño de órgano.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Julio 2018",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.007"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2018 · Pregunta 37"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adulto mayor con deterioro general, anemia, proteinuria con falla renal y dolor lumbar: {{c1::mieloma múltiple}}.",
+      "extra": "El PSA levemente alto y los quistes simples son distractores.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz Julio 2013",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.007"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 145"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Adulto mayor con dolor óseo, anemia, falla renal y VHS > 100: el error es pensar en {{c1::cáncer de próstata o renal metastásico}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.007"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "GMSI: pico M sérico < {{c1::3 g/dL}} y plasmocitos medulares < {{c2::10 %}}, sin criterios CRAB.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 GMSI",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.007",
+        "1.08.4.004"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La GMSI progresa a mieloma en {{c1::1 % por año}}.",
+      "extra": "Frecuente en mayores de 70 años.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 GMSI",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.007",
+        "1.08.4.004"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "GMSI: el error es dar {{c1::quimioterapia}}; la conducta es observar anualmente.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.007"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Mieloma quiescente: pico M ≥ {{c1::3 g/dL}} y plasmocitos {{c2::10 a 59 %}}, sin CRAB; control cada 3–6 meses.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tres escalones",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.007"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Pico M con 1 criterio CRAB es mieloma activo: el error es {{c1::esperar y controlar}}.",
+      "extra": "Se trata ya.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.007"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Mieloma con calcio y creatinina altos: se indica {{c1::suero fisiológico EV}} y se suspenden los {{c2::AINE}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.007"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mieloma con hipercalcemia grave sintomática (calcio 14,3): primero {{c1::solución salina al 0,9 %}} vigorosa.",
+      "extra": "Los bifosfonatos son parte del manejo óseo, no el primer paso.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Julio 2016",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.007"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Inducción del mieloma sintomático: {{c1::bortezomib + lenalidomida + dexametasona}} (VRd); alternativa CyBorD.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento GES 72",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.007"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Consolidación del mieloma en menores de 65–70 años sin comorbilidad: {{c1::trasplante autólogo}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento GES 72",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.007"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Para las lesiones óseas del mieloma se indica {{c1::ácido zoledrónico o denosumab}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento GES 72",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.007"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El mieloma múltiple en ≥ 15 años está cubierto por el {{c1::GES N° 72}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 GES",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.007",
+        "1.08.4.004"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-19/02_rouleaux__amir-hemato_p74.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Fenómeno de Rouleaux",
+      "clave": "Glóbulos rojos apilados como pilas de monedas",
+      "conducta": "Pedir electroforesis de proteínas y buscar CRAB",
+      "fuente": "Manual AMIR Hematología, p. 74",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.007"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-19/01_lesiones-liticas-en-craneo_alt1__amir-hemato_p73.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Lesiones líticas en cráneo (sacabocado)",
+      "clave": "Agujeros redondos de bordes nítidos sin esclerosis",
+      "conducta": "Criterio B de CRAB: hidratar, suspender AINE y derivar a hematología (GES 72)",
+      "fuente": "Manual AMIR Hematología, p. 73",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.007"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Sin pico en la EFP y sospecha alta: ¿qué se pide?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Pico monoclonal sin CRAB: ¿qué conducta?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "Pico monoclonal con algún CRAB: ¿qué haces?"
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+ "classId": "cirugia-01",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La apendicitis aguda comienza con la {{c1::obstrucción de la luz apendicular}}, casi siempre por un fecalito.",
+   "extra": "Luego vienen presión, isquemia, necrosis y perforación.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-01/01_apendicitis-eco-pieza-rx_alt2__cto-digestivo_p158.jpg",
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La obstrucción apendicular puede deberse a fecalito, {{c1::hiperplasia linfoide}} o parásitos.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Al inicio el dolor de la apendicitis es {{c1::visceral y difuso}}, en epigastrio o región periumbilical.",
+   "extra": "Fibras aferentes viscerales T8-T10.",
+   "origen": "clase:1",
+   "fuente": "Clase · De la obstrucción al dolor",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El dolor de la apendicitis migra a la fosa ilíaca derecha a las {{c1::6 a 12 horas}}.",
+   "extra": "Es la cronología de Murphy: el patrón más específico.",
+   "origen": "clase:1",
+   "fuente": "Clase · De la obstrucción al dolor",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 68"
+   ],
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cuando el dolor migra a la FID se vuelve {{c1::punzante, continuo y bien localizado}} porque se irrita el peritoneo parietal.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Semiología",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El dolor al soltar bruscamente la mano en la FID es el signo de {{c1::Blumberg}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Signos del examen",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El dolor en la FID al comprimir la fosa ilíaca izquierda es el signo de {{c1::Rovsing}}.",
+   "extra": "Por desplazamiento retrógrado de gas colónico.",
+   "origen": "clase:2",
+   "fuente": "Clase · Signos del examen",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El signo del {{c1::psoas}} (dolor al hiperextender la cadera) sugiere apéndice {{c2::retrocecal}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Signos del examen",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El signo del {{c1::obturador}} (dolor a la rotación interna de la cadera flexionada) sugiere apéndice {{c2::pelviano}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Signos del examen",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El signo de McBurney es dolor exquisito en la unión del {{c1::tercio externo con los dos tercios internos}} de la línea espino-umbilical derecha.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Signos del examen",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El score de Alvarado (MANTRELS) tiene un máximo de {{c1::10 puntos}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Alvarado",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el Alvarado, el dolor a la palpación en FID y la leucocitosis valen cada uno {{c1::2 puntos}}.",
+   "extra": "El resto de los criterios vale 1 punto.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Alvarado",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el Alvarado, la leucocitosis puntúa con más de {{c1::10.000 células/mm³}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Alvarado",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el Alvarado, la neutrofilia puntúa con neutrófilos ≥ {{c1::75%}} y la temperatura con ≥ {{c2::37.3 °C}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Alvarado",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Alvarado de {{c1::0 a 3}} puntos: apendicitis muy improbable; se busca un diagnóstico alternativo.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Alvarado",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Alvarado de {{c1::4 a 6}} puntos: probabilidad intermedia, se pide imagen (TAC o ecografía).",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Alvarado decide",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Alvarado de {{c1::7 a 10}} puntos en un hombre joven: pabellón directo sin esperar imágenes.",
+   "extra": "Es la respuesta a la pregunta clásica del caso del hombre de 24 años.",
+   "origen": "clase:3",
+   "fuente": "Clase · Alvarado decide",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el adulto no embarazada con presentación atípica o score intermedio, el estándar de oro es el {{c1::TAC de abdomen y pelvis con contraste IV}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Imágenes",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-01/01_apendicitis-eco-pieza-rx__cto-radiologia_p41.jpg",
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En niños, mujeres en edad fértil y embarazadas, el examen de primera línea es la {{c1::ecografía abdominal}}.",
+   "extra": "Evita radiación ionizante.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Imágenes",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En la ecografía, el apéndice no compresible mayor de {{c1::6 mm}} sugiere apendicitis.",
+   "extra": "En el TAC también se usa un diámetro transverso > 6 mm.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Imágenes",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si la ecografía no es concluyente en una embarazada, se pide {{c1::resonancia magnética}} sin gadolinio.",
+   "extra": "El gadolinio cruza la placenta.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Imágenes",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La masa firme y dolorosa en la FID con más de 5 días de evolución se llama {{c1::plastrón apendicular}}.",
+   "extra": "El epiplón contuvo la perforación.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Complicadas",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 62"
+   ],
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El plastrón flemoso sin colección se trata con {{c1::antibióticos EV}} y apendicectomía diferida.",
+   "extra": "No se opera de urgencia.",
+   "origen": "clase:4",
+   "fuente": "Clase · Plastrón y absceso",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La apendicectomía electiva de intervalo tras un plastrón se programa a las {{c1::8 a 12 semanas}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Complicadas",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un absceso apendicular accesible de {{c1::3-4 cm o más}} se maneja con drenaje percutáneo guiado por imagen y antibióticos.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Complicadas",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Quien distingue un flemón sólido de un absceso con líquido es el {{c1::TAC}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Plastrón y absceso",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-01/atlas_230_tac_plastron_absceso.jpg",
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El abordaje de elección para la apendicectomía es el {{c1::laparoscópico}}.",
+   "extra": "Menos dolor, menos infección de herida y mejor visión de la pelvis.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "La profilaxis estándar en apendicitis es {{c1::cefazolina 2 g EV}} más {{c2::metronidazol 500 mg EV}}.",
+   "extra": "Alternativa: ceftriaxona 1 g EV más metronidazol 500 mg EV.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Profilaxis",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La profilaxis antibiótica se da en la inducción, dentro de los {{c1::60 minutos}} previos a la incisión.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Profilaxis",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En apendicitis no perforada, el error clásico es {{c1::mantener antibióticos varios días}}; basta una dosis única preoperatoria.",
+   "extra": "Es la lógica de la pregunta sobre cefazolina más metronidazol postoperatorio.",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En apendicitis perforada con peritonitis se da antibiótico terapéutico por {{c1::3 a 5 días}}.",
+   "extra": "Hasta apirexia y normalización de leucocitos.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En hombre joven con Alvarado 7 a 10, el error es {{c1::pedir TAC antes de operar}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Ante duda entre torsión ovárica y apendicitis, primero se hace {{c1::ecografía ginecológica}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-01/atlas_053_eco_apendicitis_diana.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Apendicitis aguda en ecografía",
+   "clave": "Apéndice no compresible > 6 mm con imagen en diana",
+   "conducta": "Si es niño, mujer joven o embarazada, confirmar con eco y operar",
+   "fuente": "Atlas of Clinical Emergency Medicine (Sherman), p. 357",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-01/atlas_230_tac_plastron_absceso.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Absceso o plastrón apendicular en TAC",
+   "clave": "Colección con gas en la fosa ilíaca derecha",
+   "conducta": "Absceso ≥ 3-4 cm: drenaje percutáneo y antibióticos; plastrón flemoso: antibióticos y cirugía diferida",
+   "fuente": "Atlas EUNACOM 2026",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.006"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.2",
+   "pista": "Alvarado 7 a 10 en hombre joven: ¿qué haces?",
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.1",
+   "pista": "Alvarado intermedio en embarazada o niño: ¿qué examen?",
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.0",
+   "pista": "Masa firme en FID con más de 5 días: ¿diagnóstico y conducta?",
+   "codigos": [
+    "4.01.2.006"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.1",
+   "pista": "Colección con pus en el TAC: ¿conducta?",
+   "codigos": [
+    "4.01.2.006"
+   ]
+  }
+ ]
+}

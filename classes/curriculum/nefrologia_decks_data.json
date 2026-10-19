@@ -2170,39 +2170,39 @@
       {
         "type": "question",
         "nav": "Pregunta Real EUNACOM",
-        "badge": "EUNACOM Diciembre 2024 · Pregunta 164",
-        "notes": "[SLIDE 9] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2024 · Pregunta 164.",
+        "badge": "EUNACOM Diciembre 2017 · Pregunta 49",
+        "notes": "[SLIDE 9] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2017 · Pregunta 49.",
         "number": 3,
-        "caseText": "Paciente mujer joven sodio bajo osmolaridad sanguínea baja, sodio urinario sobre 100, osmolaridad urinaria 520 (VN 50-1200), VEC normal a.​ SIADH b.​ Uso de diuréticos (creo que era esta, pues el SIADH debería tener osmolaridad urinaria alta, que alguien confirme pls)",
-        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "caseText": "Una paciente de 60 años, con antecedente de hipotiroidismo, hipertensión y depresión, en tratamiento con levotiroxina, enalapril y citalopram se realiza exámenes de control, entre los que destacan sodio plasmático de 127 mEq/L, potasio plasmático de 4,1 mEq/L, creatinina plasmática de 0,9 mg/dl y sodio urinario de 60 mEq/L.",
+        "question": "¿Cuál es la causa más probable de su hiponatremia?",
         "options": [
           {
+            "id": "A",
+            "text": "Uso del enalapril",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Reacción secundaria al citalopram",
+            "isCorrect": true
+          },
+          {
             "id": "C",
+            "text": "Síndrome paraneoplásico",
+            "isCorrect": false
+          },
+          {
+            "id": "D",
             "text": "Insuficiencia suprarrenal",
             "isCorrect": false
           },
           {
-            "id": "D",
-            "text": "Hipotiroidismo",
-            "isCorrect": false
-          },
-          {
-            "id": "C",
-            "text": "Ninguna de las anteriores es correcta",
-            "isCorrect": false
-          },
-          {
-            "id": "D",
-            "text": "Todas las anteriores son correctas",
-            "isCorrect": false
-          },
-          {
             "id": "E",
-            "text": "No se dispone de información suficiente",
+            "text": "Hipotiroidismo descompensado",
             "isCorrect": false
           }
         ],
-        "explanation": "La alternativa correcta es la **A** (). Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh. Las opciones alternativas (Insuficiencia suprarrenal, Hipotiroidismo) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente."
+        "explanation": "Hiponatremia con natriuria alta y euvolemia en paciente con citalopram: SIADH inducido por ISRS."
       },
       {
         "type": "question",
@@ -2549,7 +2549,7 @@
           {
             "id": "C",
             "text": "Consumo de litio",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": "D",
@@ -2559,10 +2559,10 @@
           {
             "id": "E",
             "text": "Síndrome de secreción inadecuada de hormona antidiurética",
-            "isCorrect": true
+            "isCorrect": false
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **Síndrome de secreción inadecuada de hormona antidiurética** (opción **E**). Según los consensos y guías clínicas del MINSAL, esta constituye la conducta estándar de primera línea recomendada para este nivel de atención."
+        "explanation": "Poliuria de 12 L con hipernatremia en tratamiento con litio: diabetes insípida nefrogénica inducida por litio."
       },
       {
         "type": "bento",
@@ -3381,39 +3381,39 @@
       {
         "type": "question",
         "nav": "Pregunta Real EUNACOM",
-        "badge": "EUNACOM Diciembre 2024 · Pregunta 159",
-        "notes": "[SLIDE 16] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2024 · Pregunta 159.",
+        "badge": "EUNACOM Enero 2023 · Pregunta 107",
+        "notes": "[SLIDE 16] Pregunta oficial del banco EUNACOM: EUNACOM Enero 2023 · Pregunta 107.",
         "number": 6,
-        "caseText": "Paciente presenta bradicardia de hasta 35, Hipotensa, K 8, Cual es la primera medida a.​ Gluconato de Ca → Una paciente con bradicardia y potasio como 7-8 (creo que esta había salido antes en algun EUNACOM) b.​ Diálisis de urgencia",
-        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "caseText": "Paciente con bradicardia de 30 lpm e hiperkalemia de 8,3 mEq/L.",
+        "question": "¿Cuál es la conducta inicial más adecuada?",
         "options": [
           {
-            "id": "C",
-            "text": "MCP transitorio (POR QUE ESTA NO ES SI TIENE UN BLOQUEO AV SI EN EL MARCAPASO SE VA A MORIR, porque lo primero en toda hiperK y arritmia es estabilizar membrana con Gluconato Ca)",
+            "id": "A",
+            "text": "Bicarbonato de sodio endovenoso",
             "isCorrect": false
           },
           {
             "id": "B",
-            "text": "Insuficiencia cardíaca",
+            "text": "Insulina + glucosa endovenosa",
             "isCorrect": false
           },
           {
             "id": "C",
-            "text": "Fibrilación auricular",
-            "isCorrect": false
+            "text": "Gluconato de calcio endovenoso",
+            "isCorrect": true
           },
           {
             "id": "D",
-            "text": "Infarto agudo al miocardio",
+            "text": "Kayexalate oral",
             "isCorrect": false
           },
           {
             "id": "E",
-            "text": "Tromboembolismo pulmonar",
+            "text": "Hemodiálisis de urgencia",
             "isCorrect": false
           }
         ],
-        "explanation": "La alternativa correcta es la **A** (). Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh. Las opciones alternativas (MCP transitorio (POR QUE ESTA NO ES SI TIENE , Insuficiencia cardíaca) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente."
+        "explanation": "Conducta / Tratamiento indicado: **Gluconato de calcio endovenoso** (opción **C**). Gluconato de calcio endovenoso. Según los consensos y guías clínicas del MINSAL, esta constituye la conducta estándar de primera línea recomendada para este nivel de atención."
       },
       {
         "type": "bento",
@@ -6173,7 +6173,7 @@
         "options": [
           {
             "id": "A",
-            "text": "An2cuerpos an2nucleares (ANA)",
+            "text": "Anticuerpos antinucleares (ANA)",
             "isCorrect": false
           },
           {
@@ -6183,7 +6183,7 @@
           },
           {
             "id": "C",
-            "text": "An2cuerpos an2citoplasma de neutrófilos (ANCA)",
+            "text": "Anticuerpos anticitoplasma de neutrófilos (ANCA)",
             "isCorrect": false
           },
           {
@@ -6550,7 +6550,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Diagnóstico: **Nefropatía lúpica** (opción **A**). Es un lupus sistémico clásico, con afectación renal.. El trastorno de ansiedad generalizada (TAG) se caracteriza por expectación ansiosa constante sobre múltiples eventos o situaciones, con miedo generalizado a que algo malo ocurra, ya sea a la propia persona, a sus seres queridos o en el entorno. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh."
+        "explanation": "Mujer joven con fotosensibilidad, úlceras orales, HTA, sedimento nefrítico y C3 bajo: nefropatía lúpica."
       },
       {
         "type": "bento",
@@ -7741,7 +7741,7 @@
             "isCorrect": true
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **Ecografía Doppler de arterias renales** (opción **E**). Todos los antihipertensivos tienen eficacia similar; la elección depende de comorbilidades y efectos adversos De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+        "explanation": "HTA resistente con hipokalemia a pesar de IECA sugiere hiperaldosteronismo secundario de causa renovascular, se continúa con ecografía Doppler de arterias renales."
       },
       {
         "type": "bento",
@@ -8061,39 +8061,39 @@
       {
         "type": "question",
         "nav": "Pregunta Real EUNACOM",
-        "badge": "EUNACOM Diciembre 2024 · Pregunta 70",
-        "notes": "[SLIDE 11] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2024 · Pregunta 70.",
+        "badge": "EUNACOM Diciembre 2018 · Pregunta 138",
+        "notes": "[SLIDE 11] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2018 · Pregunta 138.",
         "number": 4,
-        "caseText": "Mujer con hipoacusia neuro con ITU febril → PNA . Qué ATB dejar: a.​ Meropenem",
-        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "caseText": "Una paciente de 82 años presenta un cuadro de fiebre alta, disuria dolorosa y orinas turbias, más hematuria macroscópica. Al examen físico, tiene PA: 120/80, FC: 90x’, T°: 38,9°C. Se solicitan exámenes, entre las que destaca hemograma con 20.000 glóbulos blancos por mm3, PCR: 12 mg/L. El sedimento orina muestra más de 50 glóbulos blancos por campo, con bacterias abundantes y el urocultivo está pendiente.",
+        "question": "¿Cuál es el tratamiento antibiótico de elección?",
         "options": [
           {
-            "id": "B",
+            "id": "A",
             "text": "Gentamicina",
             "isCorrect": false
           },
           {
-            "id": "C",
-            "text": "Amikacina d.​ Nitrofurantoína —> aminoglucosidos estarían contraindicados en hipoacusia neurosensorial o no?? si pq son ototoxicos",
-            "isCorrect": true
+            "id": "B",
+            "text": "Amikacina",
+            "isCorrect": false
           },
           {
             "id": "C",
-            "text": "Staphylococcus aureus",
-            "isCorrect": true
+            "text": "Moxifloxacino",
+            "isCorrect": false
           },
           {
             "id": "D",
-            "text": "Streptococcus pneumoniae",
+            "text": "Ceftazidima",
             "isCorrect": false
           },
           {
             "id": "E",
-            "text": "Escherichia coli",
-            "isCorrect": false
+            "text": "Cefotaximo",
+            "isCorrect": true
           }
         ],
-        "explanation": "La alternativa correcta es la **C** (Amikacina d.​ Nitrofurantoína —> aminoglucosidos estarían contraindicados en hipoacusia neurosensorial o no?? si pq son ototoxicos). Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh."
+        "explanation": "Si bien no tiene indicación evidente de hospitalización, a pesar de ser una pielonrfritis aguda, de las opciones, la más acertada parecía ser el cefotaximo, que cubre muy bien a los gram negativos."
       },
       {
         "type": "bento",
@@ -8406,12 +8406,12 @@
           {
             "id": "B",
             "text": "Enalapril",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": "C",
             "text": "Hidroclorotiazida",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": "D",
@@ -8424,7 +8424,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **Hidroclorotiazida** (opción **C**). La nefropatía diabética es la primera causa de enfermedad renal terminal en Chile De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+        "explanation": "Diabético hipertenso con proteinuria (IP/C 2,2): el fármaco de elección es un IECA/ARA-II (enalapril) por nefroprotección."
       },
       {
         "type": "bento",

@@ -1,0 +1,456 @@
+{
+  "classId": "sp-08",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La sensibilidad es la probabilidad de que la prueba sea positiva en un {{c1::enfermo}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Sensibilidad",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sensibilidad = {{c1::VP / (VP + FN)}}.",
+      "extra": "Se calcula sobre la columna de los enfermos.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla 2x2",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Especificidad = {{c1::VN / (VN + FP)}}.",
+      "extra": "Se calcula sobre la columna de los sanos.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla 2x2",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La especificidad es la probabilidad de que la prueba sea negativa en un {{c1::sano}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Especificidad",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una prueba muy sensible con resultado negativo permite {{c1::descartar}} la enfermedad (SnNOut).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Sensibilidad y especificidad",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una prueba muy específica con resultado positivo permite {{c1::confirmar}} la enfermedad (SpPIn).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Sensibilidad y especificidad",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una prueba con sensibilidad 99% y especificidad 65% sirve sobre todo para {{c1::descartar la enfermedad ante un resultado negativo}}.",
+      "extra": "Un positivo requiere confirmación con una prueba más específica.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro · pregunta banco",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una prueba de tamizaje debe tener obligatoriamente {{c1::alta sensibilidad}}, independiente de la especificidad.",
+      "extra": "Los falsos positivos se resuelven con una prueba confirmatoria.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Diciembre 2018",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 43"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El ELISA detecta VIH en población asintomática por su {{c1::alta sensibilidad}}; el Western Blot confirma por su alta especificidad.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Julio 2019",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 60"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para determinar la utilidad de una prueba diagnóstica se calcula su {{c1::sensibilidad y especificidad}}.",
+      "extra": "La curva ROC solo sirve para pruebas cuantitativas.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Julio 2016",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 28"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un falso negativo es un {{c1::enfermo}} con prueba negativa: el error grave en un tamizaje.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Tabla 2x2",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sensibilidad y especificidad son parámetros {{c1::intrínsecos}}: no cambian con la prevalencia.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "VPP = {{c1::VP / (VP + FP)}}: probabilidad de estar enfermo con test positivo.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla 2x2",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "VPN = {{c1::VN / (VN + FN)}}: probabilidad de estar sano con test negativo.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla 2x2",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los valores predictivos son parámetros {{c1::extrínsecos}}: dependen de la prevalencia.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si la prevalencia aumenta, el VPP {{c1::aumenta}} y el VPN disminuye.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si la prevalencia disminuye, el VPP {{c1::disminuye}} y el VPN aumenta.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Tamizaje poblacional masivo (prevalencia baja): el VPP {{c1::baja mucho}}, con muchos falsos positivos.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con prevalencia distinta, el mismo test mantiene su sensibilidad y especificidad: ambas son {{c1::iguales}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Test con sensibilidad 95% y especificidad 90% en prevalencia 1% vs 25%: el VPP es {{c1::mayor en la población de 25%}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro · pregunta banco",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "LR+ = sensibilidad / (1 - especificidad); un LR+ {{c1::> 10}} confiere gran certeza diagnóstica.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Razones de verosimilitud",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "LR- = (1 - sensibilidad) / especificidad; un LR- {{c1::< 0,1}} descarta prácticamente la patología.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Razones de verosimilitud",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las razones de verosimilitud, a diferencia del VPP y el VPN, {{c1::no dependen de la prevalencia}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Razones de verosimilitud",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La curva ROC grafica la {{c1::sensibilidad}} (eje Y) contra 1 - especificidad (eje X) para distintos puntos de corte.",
+      "extra": "Sirve para pruebas cuantitativas.",
+      "origen": "clase:5",
+      "fuente": "Clase · Curva ROC",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ],
+      "imagen": "biblioteca/16_salud_publica/sp-08/S1_curva-roc__propio.svg"
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Un AUC de {{c1::0,5}} equivale al azar; mayor de 0,90 es excelente y 1,0 la prueba perfecta.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El mejor punto de corte de la curva ROC está más cerca de la esquina {{c1::superior izquierda}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Curva ROC",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La curva ROC con {{c1::mayor área}} bajo la curva es la prueba más exacta al comparar dos pruebas.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Curva ROC",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Test de dengue: 92 positivos entre 100 PCR positivos; la sensibilidad es {{c1::92%}}.",
+      "extra": "360 de 400 sanos negativos dan una especificidad de 90%.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El mejor indicador de efectividad de un tamizaje de cáncer es la disminución de la tasa de {{c1::mortalidad}} específica.",
+      "extra": "La letalidad y la sobrevida se inflan por el sesgo de adelanto (lead-time).",
+      "origen": "libro:puntos",
+      "fuente": "Banco · efectividad de tamizaje",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 141"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un método de screening debe detectar la enfermedad en el período {{c1::entre los cambios bioquímicos y los cambios tisulares}}.",
+      "extra": "Ejemplo: glicemia de ayuno en DM2.",
+      "origen": "libro:puntos",
+      "fuente": "Banco · screening",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 101"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La probabilidad pretest la da la historia y el examen físico; el resultado del test la {{c1::mueve}}, no la reemplaza.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Razonamiento bayesiano",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/16_salud_publica/sp-08/S1_curva-roc__propio.svg",
+      "pregunta": "¿Qué muestra y cómo se interpreta?",
+      "diagnostico": "Curva ROC (sensibilidad vs 1 - especificidad)",
+      "clave": "Cada punto es un punto de corte; mejor prueba = curva más cerca de la esquina superior izquierda, mayor AUC",
+      "conducta": "Elegir el punto de corte y comparar pruebas cuantitativas; AUC 0,5 es azar",
+      "fuente": "Dibujo propio (esquema)",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Detectar enfermos para tamizaje: ¿qué parámetro?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1.0",
+      "pista": "Prevalencia alta: ¿cómo quedan VPP y VPN?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.1",
+      "pista": "Tamizaje masivo con prevalencia baja: ¿VPP y VPN?"
+    }
+  ]
+}

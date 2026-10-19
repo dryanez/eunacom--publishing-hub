@@ -1,0 +1,574 @@
+{
+ "classId": "cardio-13",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el SCASEST la arteria está ocluida solo parcialmente por un trombo {{c1::blanco}} (plaquetario), por eso la fibrinólisis no ayuda.",
+   "extra": "En el SCACEST el trombo es rojo (fibrina y glóbulos rojos).",
+   "origen": "foto",
+   "imagen": "biblioteca/20_cardiologia/cardio-13/02_trombo-coronario-incompleto-vs-completo__pathoma_p75.jpg",
+   "fuente": "Libro §1 · Pathoma p. 75",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La angina inestable cursa con isquemia {{c1::sin necrosis}} (troponina normal); el IAMSEST con troponina sobre el percentil 99.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Un trombo blanco",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.001",
+    "1.01.4.009"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "El infarto agudo del miocardio es el problema GES N.º {{c1::5}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro · GES",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el SCASEST el ECG muestra infradesnivel del ST ≥ {{c1::0,5 mm}} o T negativa, y puede ser normal en la mitad de los casos.",
+   "extra": "",
+   "origen": "foto",
+   "imagen": "biblioteca/20_cardiologia/cardio-13/01_ecg-t-negativas-angina-inestable__stroobandt-ecg_p164.jpg",
+   "fuente": "Clase · Cómo se presenta (Stroobandt p. 164)",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El patrón de {{c1::Wellens}} (T profundas en V2-V3) indica estenosis crítica de la descendente anterior proximal.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo se presenta",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Supradesnivel de aVR con infradesnivel difuso sugiere enfermedad del {{c1::tronco}} o de 3 vasos.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 ECG de alto riesgo",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Braunwald: angina inestable de reposo es el dolor típico en reposo de más de {{c1::20 minutos}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo se presenta",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Angina de reciente comienzo: clase III-IV de la CCS iniciada en los últimos {{c1::2 meses}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo se presenta",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La angina post-IAM es la que reaparece dentro de las primeras {{c1::2 semanas}} tras un infarto.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo se presenta",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Dolor de reposo con troponina normal: es angina inestable y se trata como SCASEST; el error es {{c1::dar de alta}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El protocolo acelerado de troponina ultrasensible se mide a las {{c1::0 y 1 hora}} (o 0 y 2-3 horas).",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Troponina 0/1 h",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.009"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Rule-out por troponina requiere basal muy bajo o delta insignificante, paciente asintomático y GRACE < {{c1::140}} (VPN > 99%).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Troponina",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.009"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Killip I: sin IC; II: crépitos en menos de la mitad o R3; III: {{c1::edema agudo de pulmón}}; IV: shock cardiogénico.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Killip",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Mortalidad intrahospitalaria aproximada: Killip I ~{{c1::5%}}; Killip IV > 60-80%.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Killip-Kimball",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El puntaje TIMI del SCASEST va de 0 a {{c1::7}} puntos; 5-7 es alto riesgo.",
+   "extra": "0-2 bajo; 3-4 intermedio.",
+   "origen": "clase:5",
+   "fuente": "Clase · TIMI, GRACE y CRUSADE",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Variables TIMI: edad ≥ 65, ≥ 3 factores de riesgo, estenosis ≥ 50% previa, aspirina en 7 días, ≥ 2 episodios en 24 h, ST ≥ 0,5 mm y {{c1::troponina elevada}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · TIMI, GRACE y CRUSADE",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "GRACE > {{c1::140}} define alto riesgo isquémico; GRACE < 109 es bajo riesgo.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · TIMI, GRACE y CRUSADE",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El puntaje {{c1::CRUSADE}} estima el riesgo de sangrado y orienta a fondaparinux y acceso radial.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · TIMI, GRACE y CRUSADE",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En el SCASEST la aspirina se da {{c1::250 a 500 mg masticada}} y luego 100 mg/día de por vida.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Tratamiento inmediato",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Segundo antiagregante de primera línea: {{c1::ticagrelor 180 mg}} de carga, luego 90 mg cada 12 horas.",
+   "extra": "Reduce mortalidad y reinfarto frente al clopidogrel.",
+   "origen": "clase:6",
+   "fuente": "Clase · Tratamiento inmediato",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Si no se puede usar ticagrelor (o hay anticoagulación oral): clopidogrel {{c1::300-600 mg}} de carga, luego 75 mg/día.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Tratamiento inmediato",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El ticagrelor está contraindicado con antecedente de hemorragia {{c1::intracraneal}} y puede causar disnea y bradicardia.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 DAPT",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La doble antiagregación se mantiene {{c1::12 meses}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 DAPT",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Anticoagulante de elección en el SCASEST por menor sangrado: {{c1::fondaparinux 2,5 mg/día SC}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Tratamiento inmediato",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Alternativa: enoxaparina {{c1::1 mg/kg cada 12 horas}} SC (cada 24 h si VFG < 30 mL/min).",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Tratamiento inmediato",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si se planifica angioplastía inmediata se usa {{c1::heparina no fraccionada}}; el fondaparinux solo se evita por trombosis del catéter.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Anticoagulación",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Estatina en el SCASEST: atorvastatina {{c1::80 mg/día}} desde las primeras 24 horas.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Tratamiento inmediato",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Betabloqueador oral precoz en el SCASEST si no hay {{c1::insuficiencia cardíaca aguda, shock, bradicardia ni BAV}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Tratamiento inmediato",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.001"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 43"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el SCASEST la fibrinólisis está {{c1::contraindicada}}: no hay oclusión total y solo aumenta el sangrado.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Oxígeno en el SCASEST solo si SatO₂ < {{c1::90%}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Antiisquémicos",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Muy alto riesgo (shock, dolor refractario, arritmia maligna, IC aguda): coronariografía en < {{c1::2 horas}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Cuándo va a hemodinamia",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Alto riesgo (GRACE > 140, troponina con curva o ST dinámico): coronariografía en < {{c1::24 horas}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Cuándo va a hemodinamia",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Bajo riesgo (TIMI 0-1, GRACE < 109, troponina negativa): estrategia {{c1::selectiva}} con prueba no invasiva.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Cuándo va a hemodinamia",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Infradesnivel de V1-V3 con R altas es un infarto {{c1::posterior}}: se trata como SCACEST, no como SCASEST.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Al alta: aspirina de por vida, P2Y12 por 12 meses, atorvastatina 80 mg, betabloqueador (obligatorio si FEVI < {{c1::40%}}) y rehabilitación.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Prevención secundaria",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con FEVI ≤ {{c1::35%}} persistente pese a tratamiento óptimo se evalúa un desfibrilador implantable.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Prevención secundaria",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El infarto tipo 2 eleva la troponina por desbalance aporte-demanda y se trata corrigiendo la {{c1::causa}}; no lleva DAPT de rutina.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Situaciones especiales",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.001",
+    "1.01.4.009"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la intoxicación por cocaína (síndrome adrenérgico) el fármaco contraindicado es el {{c1::atenolol}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic. 2024 P43",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 43"
+   ],
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mujer de 68 años con infradesnivel ST, troponina 48→85 pg/mL y TIMI 5: IAMSEST de alto riesgo, hospitalizar, DAPT + anticoagulante y coronariografía en {{c1::24 horas}}.",
+   "extra": "",
+   "origen": "libro:caso",
+   "fuente": "Libro · Caso clínico",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-13/01_ecg-t-negativas-angina-inestable__stroobandt-ecg_p164.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Angina inestable con T negativas",
+   "clave": "Ondas T negativas en DI y aVL, sin supradesnivel del ST",
+   "conducta": "Tratar como SCASEST: aspirina + ticagrelor + fondaparinux y estratificar (TIMI, GRACE)",
+   "fuente": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials, p. 164",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-13/02_trombo-coronario-incompleto-vs-completo__pathoma_p75.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Trombo coronario incompleto (blanco) frente a completo (rojo)",
+   "clave": "El trombo blanco suboclusivo deja la arteria parcialmente abierta (SCASEST)",
+   "conducta": "Antiagregar y anticoagular; no fibrinolizar",
+   "fuente": "Pathoma (Sattar), Cardiac Pathology, p. 75, Fig. 8.1",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.001"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.1",
+   "pista": "Troponina normal con dolor de reposo: ¿qué entidad y cómo se maneja?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.2",
+   "pista": "Troponina que sube y cae sin supradesnivel: ¿diagnóstico y terapia?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.2.0",
+   "pista": "Muy alto riesgo: ¿cuándo la coronariografía?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.2.1",
+   "pista": "GRACE > 140: ¿cuándo la coronariografía?"
+  }
+ ]
+}

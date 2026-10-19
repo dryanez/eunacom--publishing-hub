@@ -1,0 +1,920 @@
+{
+ "classId": "infecto-22",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El sarampión (paramixovirus) se transmite por vía aérea con R0 de {{c1::12-18}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Sarampión",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.009"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Enantema patognomónico del sarampión: manchas de {{c1::Koplik}} en la mucosa yugal frente al 2.º molar superior.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Sarampión",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.009"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Las manchas de Koplik preceden al exantema en {{c1::24 a 48 horas}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Sarampión",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.009"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Exantema del sarampión: maculopapular confluente que parte {{c1::retroauricular}} y baja lento; descama en salvado.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Sarampión",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.009"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pródromo del sarampión: fiebre alta, tos, coriza y conjuntivitis con {{c1::fotofobia}} (facies gripal llorosa).",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Sarampión",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.009"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Sarampión: soporte más {{c1::vitamina A}} oral; notificación inmediata.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.009"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La rubéola (togavirus) se reconoce por adenopatías {{c1::retroauriculares}}, suboccipitales y cervicales posteriores dolorosas.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Rubéola",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.009"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 23",
+    "EUNACOM Julio 2016 · Pregunta 27"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Exantema de la rubéola: máculas rosadas {{c1::no confluentes}} que desaparecen en 3 días («sarampión de 3 días»).",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Rubéola",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.009"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 23",
+    "EUNACOM Julio 2016 · Pregunta 27"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Enantema de la rubéola: manchas de {{c1::Forchheimer}} (petequias en el paladar blando).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Sarampión vs Rubéola",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.009"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "Sarampión y rubéola son enfermedades de notificación obligatoria {{c1::inmediata}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Rubéola",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.009"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Exantema súbito (HHV-6): fiebre alta de varios días que cede y da paso a un exantema {{c1::rosado}} en lactante.",
+   "extra": "El lactante está en buen estado general.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Exantemas",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.009"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 70",
+    "EUNACOM Julio 2025 · Pregunta 13",
+    "EUNACOM Julio 2024 · Pregunta 52",
+    "EUNACOM Agosto 2021 · Pregunta 35",
+    "EUNACOM Julio 2013 · Pregunta 131",
+    "EUNACOM Enero 2023 · Pregunta 31"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El exantema súbito lo causa el virus {{c1::herpes 6}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Exantemas",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.009"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 131",
+    "EUNACOM Enero 2023 · Pregunta 31"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el exantema súbito el exantema aparece al ceder la fiebre aunque se haya dado amoxicilina: no es {{c1::alergia}}; conducta: control sano habitual.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Exantemas",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.009"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 13",
+    "EUNACOM Diciembre 2018 · Pregunta 70",
+    "EUNACOM Agosto 2021 · Pregunta 35"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Lactante de 11 meses con fiebre de 3 días y luego exantema papular: según el banco, agente {{c1::virus de Epstein-Barr}}.",
+   "extra": "Respuesta del banco; verificar (el cuadro recuerda al exantema súbito).",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Exantemas",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.009"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 43"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La escarlatina la produce Streptococcus pyogenes con exotoxina {{c1::pirogénica}}, tras una faringoamigdalitis.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Escarlatina",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.008"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 71"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Exantema de la escarlatina: micropapular áspero «en {{c1::papel de lija}}».",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Escarlatina",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.008"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2018 · Pregunta 96",
+    "EUNACOM Diciembre 2018 · Pregunta 71"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Líneas de {{c1::Pastia}}: hiperpigmentación petequial en pliegues antecubitales e inguinales de la escarlatina.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Escarlatina",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.008"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2018 · Pregunta 96",
+    "EUNACOM Julio 2013 · Pregunta 48",
+    "EUNACOM Diciembre 2018 · Pregunta 71"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Facies de {{c1::Filatov}}: mejillas rojas con palidez peribucal en la escarlatina.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Escarlatina",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.008"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Lengua de la escarlatina: fresa blanca los primeros 2 días y {{c1::frambuesa}} roja al día 4-5.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Escarlatina",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.008"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Escarlatina: {{c1::amoxicilina}} 50 mg/kg/día por 10 días completos.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Escarlatina",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.008"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El tratamiento de la escarlatina dura {{c1::10 días}} completos para prevenir la fiebre reumática.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Escarlatina",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.008"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la escarlatina, las pautas cortas de antibiótico {{c1::no}} previenen la fiebre reumática.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Escarlatina",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.008"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La escarlatina puede complicarse con glomerulonefritis {{c1::postestreptocócica}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Escarlatina",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.008"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2018 · Pregunta 96"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Examen de oro para confirmar la faringitis de la escarlatina: cultivo de {{c1::secreción faríngea}}; el diagnóstico es clínico.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Escarlatina",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.008"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 48"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Eritema infeccioso (quinta enfermedad): agente {{c1::parvovirus B19}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Eritema infeccioso",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.009"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 37",
+    "EUNACOM Diciembre 2018 · Pregunta 69",
+    "EUNACOM Diciembre 2017 · Pregunta 127",
+    "EUNACOM Diciembre 2017 · Pregunta 139",
+    "EUNACOM Julio 2015 · Pregunta 132",
+    "EUNACOM Diciembre 2024 · Pregunta 168",
+    "EUNACOM Enero 2023 · Pregunta 30",
+    "EUNACOM Diciembre 2025 · Pregunta 136"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo de la {{c1::bofetada}}: mejillas rojo encendido con palidez peribucal en el eritema infeccioso.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Eritema infeccioso",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.009"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 30",
+    "EUNACOM Julio 2015 · Pregunta 132"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras la bofetada, a los 2-3 días aparece un exantema reticulado «en {{c1::encaje}}» que recidiva con calor o sol.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Eritema infeccioso",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.009"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 69",
+    "EUNACOM Diciembre 2017 · Pregunta 139",
+    "EUNACOM Diciembre 2017 · Pregunta 127"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El parvovirus B19 causa crisis {{c1::aplásica}} en anemia hemolítica previa e hidrops fetal en embarazadas.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Eritema infeccioso",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.009"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Exantema pruriginoso pleomorfo (máculas, pápulas, vesículas) desde cuero cabelludo en niño: {{c1::varicela}}; se trata con clorfenamina.",
+   "extra": "Aciclovir solo en > 13 años, grave o inmunodeprimido.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Exantemas",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.009"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 33",
+    "EUNACOM Diciembre 2019 · Pregunta 25"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Niña de 4 años con fiebre y lesiones cutáneas en tronco, extremidades y cara: según el banco, agente {{c1::Coxsackie A16}}.",
+   "extra": "Respuesta del banco; verificar.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Exantemas",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.009"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 32"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Kawasaki es una vasculitis necrotizante de vasos de {{c1::mediano}} calibre en lactantes y preescolares.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Kawasaki: una vasculitis que busca las coronarias",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.058"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Kawasaki es la primera causa de {{c1::cardiopatía adquirida}} en la infancia.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Kawasaki",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.058"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Criterio de Kawasaki: fiebre ≥ {{c1::5 días}} refractaria a antipiréticos más 4 de 5 signos.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Criterios de Kawasaki",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.058"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 11",
+    "EUNACOM Diciembre 2017 · Pregunta 128",
+    "EUNACOM Diciembre 2022 · Pregunta 49",
+    "EUNACOM Enero 2023 · Pregunta 17"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Kawasaki: conjuntivitis bulbar bilateral {{c1::no exudativa}} (sin pus).",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Criterios de Kawasaki",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.058"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 11",
+    "EUNACOM Julio 2017 · Pregunta 75",
+    "EUNACOM Enero 2023 · Pregunta 17"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Kawasaki: labios fisurados, eritema faríngeo y lengua en {{c1::frambuesa}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Criterios de Kawasaki",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.058"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 128",
+    "EUNACOM Julio 2017 · Pregunta 75"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Kawasaki: edema indurado de manos y pies y luego descamación en «dedo de {{c1::guante}}».",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Criterios de Kawasaki",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.058"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 12",
+    "EUNACOM Diciembre 2017 · Pregunta 128"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Kawasaki: adenopatía cervical {{c1::unilateral}} no purulenta ≥ 1,5 cm.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Criterios de Kawasaki",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.058"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Kawasaki: exantema polimorfo, nunca {{c1::vesicular}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Criterios de Kawasaki",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.058"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Complicación temida de Kawasaki: aneurismas de las arterias {{c1::coronarias}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Kawasaki: una vasculitis que busca las coronarias",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.058"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 17",
+    "EUNACOM Diciembre 2022 · Pregunta 49"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Tratamiento de Kawasaki: inmunoglobulina EV {{c1::2 g/kg}} en infusión única más aspirina.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Kawasaki: una vasculitis que busca las coronarias",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.058"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 75"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Aspirina antiinflamatoria en Kawasaki: {{c1::30-50 mg/kg/día}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Kawasaki",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.058"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La IGEV debe darse antes del {{c1::día 10}} de fiebre para bajar los aneurismas del 25% a menos de 3-5%.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Kawasaki: una vasculitis que busca las coronarias",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.058"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ante sospecha de Kawasaki (fiebre ≥ 5 días y 4 de 5 criterios) se pide {{c1::ecocardiograma}}.",
+   "extra": "",
+   "origen": "clase:20",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.058"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 12"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con IGEV más aspirina a tiempo, Kawasaki suele evolucionar con resolución {{c1::completa sin secuelas}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Kawasaki",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.058"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 75"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Lactante con fiebre de 7 días, adenopatías e inyección conjuntival: sospechar {{c1::enfermedad de Kawasaki}} y hospitalizar (inmunoglobulina EV y aspirina).",
+   "extra": "En menores de 6 meses suele ser incompleta: pedir ecocardiograma.",
+   "origen": "clase:5",
+   "fuente": "Clase · Kawasaki: una vasculitis que busca las coronarias",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.058"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 21"
+   ]
+  },
+  {
+   "id": "c46",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Schönlein-Henoch (vasculitis por IgA): púrpura palpable en piernas y glúteos con {{c1::plaquetas y coagulación normales}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Schönlein-Henoch",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.058"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 135",
+    "EUNACOM Julio 2017 · Pregunta 126"
+   ]
+  },
+  {
+   "id": "c47",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tétrada de Schönlein-Henoch: púrpura, artritis, dolor abdominal cólico y compromiso {{c1::renal}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Schönlein-Henoch",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.058"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 53",
+    "EUNACOM Julio 2016 · Pregunta 120",
+    "EUNACOM Julio 2016 · Pregunta 60",
+    "EUNACOM Julio 2019 · Pregunta 26"
+   ]
+  },
+  {
+   "id": "c48",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Para detectar la complicación renal de Schönlein-Henoch se pide {{c1::sedimento de orina}} (y creatininemia).",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Schönlein-Henoch",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.058"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 53",
+    "EUNACOM Julio 2016 · Pregunta 60",
+    "EUNACOM Julio 2016 · Pregunta 120",
+    "EUNACOM Julio 2019 · Pregunta 26",
+    "EUNACOM Julio 2017 · Pregunta 126"
+   ]
+  },
+  {
+   "id": "c49",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Schönlein-Henoch: la complicación abdominal a vigilar es {{c1::invaginación}} y hemorragia digestiva.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Schönlein-Henoch",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.058"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 135"
+   ]
+  },
+  {
+   "id": "c50",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Schönlein-Henoch con dolor abdominal intenso o complicaciones: {{c1::corticoide (prednisona)}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Schönlein-Henoch",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.058"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 30"
+   ]
+  },
+  {
+   "id": "c51",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En Schönlein-Henoch se controlan presión y orina por {{c1::6-12 meses}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Schönlein-Henoch",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.058"
+   ]
+  },
+  {
+   "id": "c52",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Púrpura con fiebre tóxica es meningococcemia; púrpura con plaquetas bajas es {{c1::PTI}}, no Schönlein-Henoch.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Schönlein-Henoch",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.058"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-22/01_manchas_koplik__cdc-phil-6111.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Manchas de Koplik (sarampión)",
+   "clave": "Pápulas blancas milimétricas en la mucosa yugal",
+   "conducta": "Soporte + vitamina A; notificación inmediata",
+   "fuente": "CDC PHIL 6111",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.009"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-22/05_eritema_infeccioso__nelson_p2548.jpg",
+   "pregunta": "¿Qué signo es y qué agente?",
+   "diagnostico": "Eritema infeccioso (parvovirus B19)",
+   "clave": "Signo de la bofetada: mejillas rojo encendido con palidez peribucal",
+   "conducta": "Sintomático; ojo crisis aplásica",
+   "fuente": "Nelson 22.ª ed., p. 2548",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.009"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 30"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-22/03_escarlatina-lengua-pastia_alt1__cto-pediatria_p102.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Líneas de Pastia (escarlatina)",
+   "clave": "Hiperpigmentación petequial lineal en pliegues",
+   "conducta": "Amoxicilina 10 días completos",
+   "fuente": "Manual CTO Pediatría 14.ª ed., p. 102",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.008"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2018 · Pregunta 96"
+   ]
+  },
+  {
+   "id": "i04",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-22/12_kawasaki-conjuntival__atlas042.jpg",
+   "pregunta": "¿Qué muestra y qué sospechas?",
+   "diagnostico": "Kawasaki (conjuntivitis no exudativa)",
+   "clave": "Ojo rojo seco, bulbar y bilateral",
+   "conducta": "Ecocardiograma; IGEV 2 g/kg + aspirina antes del día 10",
+   "fuente": "Atlas EUNACOM 2026",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.058"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 17"
+   ]
+  },
+  {
+   "id": "i05",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-22/10_purpura-palpable-schonlein-henoch__fitzpatrick_p1639.jpg",
+   "pregunta": "¿Qué muestra y qué pides?",
+   "diagnostico": "Púrpura de Schönlein-Henoch",
+   "clave": "Púrpura palpable en extensores y glúteos, plaquetas normales",
+   "conducta": "Sedimento de orina; controlar presión y orina 6-12 meses",
+   "fuente": "Fitzpatrick, Dermatology in General Medicine, p. 1639",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.058"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 60"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Fiebre ≥ 5 días con 4 de 5 criterios: ¿qué haces?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.0",
+   "pista": "Koplik o ganglio retroauricular: ¿qué y qué haces?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.1",
+   "pista": "Faringitis con piel de lija: ¿qué tratamiento?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.2",
+   "pista": "Bofetada y encaje: ¿qué es y qué vigilas?"
+  }
+ ]
+}

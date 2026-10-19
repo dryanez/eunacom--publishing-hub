@@ -1,0 +1,533 @@
+{
+  "classId": "derma-07",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La dermatitis seborreica depende de una respuesta inflamatoria anormal a la levadura {{c1::Malassezia}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Seborreica",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.006"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dermatitis seborreica del adulto: escamas {{c1::grasosas, untuosas y amarillentas}} en zonas de alta densidad sebácea.",
+      "extra": "Cuero cabelludo, surcos nasogenianos, entrecejo, esternal.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Seborreica",
+      "repaso": false,
+      "imagen": "biblioteca/11_dermatologia/derma-07/01_seborreica_cara__fitzpatrick_p260.jpg",
+      "codigos": [
+        "6.01.1.006"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lactante: la dermatitis seborreica se llama {{c1::costra láctea}} y es benigna y autolimitada.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Seborreica",
+      "repaso": false,
+      "imagen": "biblioteca/19_dermatologia/derma-07/atlas_377_costra_lactea_escamas_amarille.jpg",
+      "codigos": [
+        "6.01.1.006"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dermatitis seborreica del lactante de buen aspecto con descamación amarilla oleosa: indicación {{c1::vaselina tópica}} (u observar).",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz Jul 2016",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 12"
+      ],
+      "codigos": [
+        "6.01.1.006",
+        "6.01.1.005"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dermatitis seborreica severa y refractaria obliga a descartar {{c1::VIH}} o enfermedad de Parkinson.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.006"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dermatitis seborreica explosiva en adulto joven con candidiasis oral: solicitar {{c1::test de ELISA para VIH}} con consentimiento.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · pregunta VIH",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.006"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Dermatitis seborreica del adulto: champú de {{c1::ketoconazol 2%}} (o sulfuro de selenio/piritionato de zinc) 2 a 3 veces por semana.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Seborreica",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.006"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dermatitis de contacto irritativa: representa el {{c1::80%}} de las dermatitis de contacto.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Irritativa",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.007"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Contacto irritativa: daño citotóxico directo {{c1::sin base inmunológica}}; no requiere sensibilización previa.",
+      "extra": "Eccema de las amas de casa.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Irritativa",
+      "repaso": false,
+      "imagen": "_web/284_derma_Dermatitis_de_contacto_irrit__Commons_1.jpg",
+      "codigos": [
+        "6.01.1.007"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Contacto irritativa: lesión confinada a la zona de contacto con síntoma cardinal de {{c1::ardor y quemazón}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Irritativa",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.007"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pruebas del parche en dermatitis de contacto irritativa: {{c1::negativas}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Irritativa",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.007",
+        "2.01.1.108"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de la irritativa: evitar el irritante, {{c1::guantes con forro de algodón}} y cremas barrera.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Irritativa",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.007"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Contacto alérgica: hipersensibilidad retardada tipo {{c1::IV}} mediada por linfocitos T, con sensibilización previa.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Alérgica",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.007"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síntoma cardinal de la contacto alérgica: {{c1::prurito intenso}} con lesiones que sobrepasan el área de contacto.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Alérgica",
+      "repaso": true,
+      "imagen": "biblioteca/11_dermatologia/derma-07/01_eccema-de-contacto__cto-derma_p43.jpg",
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 144"
+      ],
+      "codigos": [
+        "6.01.1.007"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Alérgeno de contacto más frecuente del mundo: el {{c1::níquel}} (bisutería, hebillas, botones de jeans).",
+      "extra": "Eccema periumbilical por hebilla.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Alérgica",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.007",
+        "6.01.4.005"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cemento húmedo y curtido de cueros: alérgeno {{c1::cromo (dicromato de potasio)}}.",
+      "extra": "Típico en trabajadores de la construcción.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Alérgica",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.007",
+        "6.01.4.005"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adolescente con lesiones en orejas que se extienden al cuello tras piercings: {{c1::dermatitis de contacto alérgica}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz Jul 2016",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 144"
+      ],
+      "codigos": [
+        "2.01.1.108",
+        "6.01.1.007"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diagnóstico de certeza de la contacto alérgica: {{c1::pruebas epicutáneas del parche (patch test)}} bajo oclusión en la espalda.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Alérgica",
+      "repaso": true,
+      "codigos": [
+        "6.01.4.005",
+        "6.01.1.007"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Patch test: lecturas a las {{c1::48 y 96 horas}}.",
+      "extra": "En la alérgica la reacción persiste o aumenta; en la irritativa se desvanece.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.4.005"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Contacto alérgica: evitar el alérgeno y corticoide tópico de {{c1::mediana o alta potencia}} por 1 a 2 semanas.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Alérgica",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.007"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dermatitis del pañal: la dermatosis más frecuente del lactante, con pico entre los {{c1::9 y 12 meses}}.",
+      "extra": "Es una contacto irritativa.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Pañal",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.108",
+        "6.01.1.005"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dermatitis del pañal irritativa: afecta las zonas {{c1::convexas}} y respeta el fondo de los pliegues.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Pañal",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.005",
+        "2.01.1.108"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Candidiasis del pañal: eritema rojo intenso en pliegues con pápulas y pústulas {{c1::satélites}} y collarete descamativo.",
+      "extra": "Sospechar si persiste más de 3 días o tras antibióticos/diarrea.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Pañal",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.005",
+        "2.01.1.108"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Dermatitis del pañal con lesiones satélite que no responde a óxido de zinc: {{c1::clotrimazol tópico}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz pañal",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 118",
+        "EUNACOM Diciembre 2024 · Pregunta 65",
+        "EUNACOM Diciembre 2022 · Pregunta 142",
+        "EUNACOM Diciembre 2025 · Pregunta 106"
+      ],
+      "codigos": [
+        "6.01.1.005",
+        "2.01.1.108"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Antifúngico tópico para candidiasis del pañal: cada 12 horas por {{c1::7 a 14 días}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Pañal",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.005",
+        "2.01.1.108"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Barrera del pañal: pasta de {{c1::óxido de zinc}} (10 a 40%) o vaselina en cada cambio.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Pañal",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.005",
+        "2.01.1.108"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la dermatitis del pañal no se usan {{c1::corticoides potentes}} ni asociaciones corticoide-antifúngico-antibiótico.",
+      "extra": "Riesgo de atrofia y absorción sistémica.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Pañal",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.005",
+        "2.01.1.108"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lactante con pápulas satélite en muslos tras dermatitis del pañal: {{c1::antimicóticos tópicos en crema}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Pañal",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 70"
+      ],
+      "codigos": [
+        "6.01.1.005",
+        "2.01.1.108"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fototoxicidad: reacción no inmunológica, {{c1::dosis dependiente}}, desde la primera exposición; parece quemadura solar exagerada.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Fotodermatosis",
+      "repaso": true,
+      "imagen": "biblioteca/19_dermatologia/derma-07/10_fototoxicidad-facial__fitzpatrick_p869.jpg",
+      "codigos": [
+        "6.01.1.011"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fotodermatosis: distribución en zonas expuestas, respetando {{c1::párpados superiores, submentoniana y retroauricular}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Fotodermatosis",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.011"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Plantas con furocumarinas (limón, higo, apio, ruda) causan {{c1::fitofotodermatitis}}, con lesiones lineales o bizarras.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Fotodermatosis",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 115"
+      ],
+      "codigos": [
+        "6.01.1.011"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fotodermatosis idiopática más frecuente: {{c1::erupción polimorfa lumínica}}, en mujeres jóvenes en primavera.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Fotodermatosis",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.011"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-07/01_seborreica_cara__fitzpatrick_p260.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Dermatitis seborreica",
+      "clave": "Placas eritematosas con escama amarilla untuosa en surcos nasogenianos y cejas",
+      "conducta": "Ketoconazol 2% (crema/champú); corticoide suave en ciclos cortos; si es severa, pedir VIH",
+      "fuente": "Fitzpatrick 7.ª ed., p. 260",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.006"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/19_dermatologia/derma-07/atlas_377_costra_lactea_escamas_amarille.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Dermatitis seborreica del lactante (costra láctea)",
+      "clave": "Placas rojas con escamas amarillentas oleosas en cuero cabelludo",
+      "conducta": "Observar o vaselina; sin antimicóticos",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.006"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-07/01_eccema-de-contacto__cto-derma_p43.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Eccema de contacto alérgico",
+      "clave": "Eccema pruriginoso con vesículas que sobrepasa la zona de contacto",
+      "conducta": "Evitar alérgeno, corticoide tópico y patch test (48 y 96 h)",
+      "fuente": "Manual CTO Dermatología 14.ª ed., p. 43",
+      "repaso": true,
+      "codigos": [
+        "6.01.4.005",
+        "6.01.1.007"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1.1",
+      "pista": "Sobrepasa el contacto, prurito intenso: ¿qué conducta?",
+      "codigos": [
+        "6.01.4.005"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Confinada y con ardor: ¿qué tratamiento?",
+      "codigos": [
+        "2.01.1.108"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0",
+      "pista": "Surcos nasogenianos y cuero cabelludo: ¿qué tratamiento?",
+      "codigos": [
+        "6.01.1.006"
+      ]
+    }
+  ]
+}

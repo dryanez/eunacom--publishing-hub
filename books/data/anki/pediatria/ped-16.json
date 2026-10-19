@@ -1,0 +1,500 @@
+{
+  "classId": "ped-16",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Pretérmino es el nacido antes de las {{c1::37 semanas}} completas.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.123"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Recién nacido de término: de {{c1::37 a 41 semanas + 6 días}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.128"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Postérmino es el nacido a las {{c1::42 semanas}} o más.",
+      "extra": "Riesgo de insuficiencia placentaria, meconio y macrosomía.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 EG",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.128"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Prematuro extremo: menos de {{c1::28 semanas}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Pretérmino",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.123"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Prematuro tardío: {{c1::34 a 36 semanas + 6 días}}.",
+      "extra": "Son el 70% de la prematurez; riesgo de hipotermia, dificultad respiratoria e hiperbilirrubinemia.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 EG",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.123"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El método de Capurro B se usa desde las {{c1::29 semanas}} y evalúa 5 signos somáticos.",
+      "extra": "Oreja, mama, pezón, piel, pliegues plantares.",
+      "origen": "foto",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.128"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-16/01_test_capurro__usuario.jpg"
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Capurro: EG = (puntaje + {{c1::204}}) / 7.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Capurro",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.128"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En prematuros extremos el método de elección para estimar EG es el {{c1::New Ballard}}.",
+      "extra": "Evalúa signos somáticos y neuromusculares.",
+      "origen": "clase:2",
+      "fuente": "Clase · Ballard",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.128"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las curvas de crecimiento intrauterino usadas en Chile son las de {{c1::Alarcón-Pittaluga}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Clasificación ponderal",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.128"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "PEG: peso al nacer bajo el percentil {{c1::10}} para su EG.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.128"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "AEG: peso entre los percentiles {{c1::10 y 90}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.128"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "GEG: peso sobre el percentil {{c1::90}} para su EG.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.128"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un RN de 35 semanas con peso en el percentil 92 es {{c1::pretérmino GEG}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · matriz de clasificación",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.128"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Complicación cardinal del PEG: {{c1::hipoglicemia}} por escasa reserva de glucógeno hepático.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 PEG",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.128"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 10",
+        "EUNACOM Agosto 2021 · Pregunta 71"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El PEG tiene poca grasa parda, por eso hace {{c1::hipotermia}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 PEG",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.128"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hipoxia intrauterina crónica del PEG aumenta la eritropoyetina y produce {{c1::policitemia (poliglobulia)}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · PEG",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.128"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El GEG hijo de madre diabética hace hipoglicemia por {{c1::hiperinsulinismo fetal}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · GEG",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.128"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El GEG tiene riesgo de trauma obstétrico: {{c1::distocia de hombros}}, fractura de clavícula y parálisis braquial.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 GEG",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.128"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PEG asimétrico: {{c1::insuficiencia placentaria tardía}} (preeclampsia, hipertensión) con cabeza preservada.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · PEG asimétrico y simétrico",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.128"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PEG simétrico: noxa precoz como cromosomopatías, infecciones {{c1::TORCH}} y tóxicos.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · PEG asimétrico y simétrico",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.128"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Manejo del PEG: {{c1::alimentación precoz (primera hora)}} y control frecuente de glicemia.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Manejo del PEG",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.128"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 8"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el PEG el hematocrito se controla a las {{c1::2 a 4 horas}} para pesquisar policitemia.",
+      "extra": "",
+      "origen": "libro:sec:6",
+      "fuente": "Libro §6 PEG y GEG",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.128"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El {{c1::85 a 90%}} de los PEG logra crecimiento recuperador antes de los 2 años.",
+      "extra": "Si no, se deriva a endocrinología.",
+      "origen": "clase:4",
+      "fuente": "Clase · Manejo del PEG",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.128"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Macrosomía: peso mayor de {{c1::4.000 g}}.",
+      "extra": "Descartar hijo de madre diabética.",
+      "origen": "libro:sec:6",
+      "fuente": "Libro §6 GEG",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.128"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el GEG con parálisis braquial de Erb se afectan las raíces {{c1::C5-C6}}.",
+      "extra": "",
+      "origen": "libro:sec:6",
+      "fuente": "Libro §6 GEG",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.128"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Postérmino: complicaciones clásicas son {{c1::aspiración meconial}}, oligohidramnios y piel descamada.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · matriz de clasificación",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.128"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Factor de riesgo de ROP: EG < {{c1::32 semanas}} o peso < 1.500 g.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Retinopatía del prematuro",
+      "repaso": true,
+      "codigos": [
+        "6.02.1.022"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Para evitar ROP la saturación meta en el prematuro es de {{c1::90 a 95%}}.",
+      "extra": "La hiperoxia es factor de riesgo.",
+      "origen": "clase:5",
+      "fuente": "Clase · Retinopatía del prematuro",
+      "repaso": false,
+      "codigos": [
+        "6.02.1.022"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El fondo de ojo por oftalmólogo en el prematuro se hace a las {{c1::4 a 6 semanas}} de vida.",
+      "extra": "También a las 31 semanas de edad postmenstrual.",
+      "origen": "clase:5",
+      "fuente": "Clase · Retinopatía del prematuro",
+      "repaso": true,
+      "codigos": [
+        "6.02.1.022"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La {{c1::retinopatía del prematuro}} tiene garantía GES, con tamizaje con fondo de ojo dilatado por oftalmólogo.",
+      "extra": "También es GES la displasia broncopulmonar del prematuro.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz GES prematuro",
+      "repaso": true,
+      "codigos": [
+        "6.02.1.022",
+        "2.01.1.123"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La ROP que requiere tratamiento se trata con {{c1::láser o antiangiogénico intravítreo}} en pocos días.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Retinopatía del prematuro",
+      "repaso": false,
+      "codigos": [
+        "6.02.1.022"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-16/02_rop-post-laser__kanski_p577.jpg"
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Corticoides prenatales: {{c1::betametasona 12 mg IM cada 24 horas por 2 dosis}} entre las 24 y 34 semanas.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Manejo del prematuro",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.123"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El sulfato de magnesio en < 32 semanas se usa para {{c1::neuroprotección}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Manejo del prematuro",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.123"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Suplemento de vitamina D en el prematuro: {{c1::400 a 800 UI/día}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Suplementos",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.123"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hierro en el prematuro: {{c1::2 a 4 mg/kg/día}} desde el mes de vida.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Suplementos",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.123"
+      ]
+    },
+    {
+      "id": "c36",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El desarrollo del prematuro se evalúa con la {{c1::edad corregida}} hasta los 2 años; las vacunas, con la edad cronológica.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Seguimiento",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.123"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "Pretérmino bajo P10: ¿qué categoría y riesgo?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Término bajo P10: ¿qué vigilas?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "Término sobre P90: ¿qué vigilas?"
+    }
+  ]
+}

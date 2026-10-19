@@ -1,0 +1,453 @@
+{
+  "classId": "reuma-04",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La artrosis es la enfermedad articular más {{c1::prevalente}} y una de las principales causas de discapacidad en adultos mayores.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro · ¿Por qué?",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.004",
+        "4.02.3.003"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El principal factor de riesgo de artrosis es la {{c1::edad avanzada}}.",
+      "extra": "También sexo femenino, obesidad, trauma y genu varo/valgo.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Factores de riesgo",
+      "repaso": false,
+      "codigos": [
+        "4.02.3.003",
+        "1.11.1.004"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El factor de riesgo de artrosis de rodilla modificable con mayor impacto en los síntomas es la {{c1::obesidad}}.",
+      "extra": "Bajar al menos 5–10% del peso más ejercicio de cuádriceps.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.004",
+        "4.02.3.003"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El dolor de la artrosis es de tipo {{c1::mecánico}}: empeora con el uso y cede con el reposo.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.004"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La rigidez matinal de la artrosis dura menos de {{c1::15 a 30 minutos}}.",
+      "extra": "En la AR supera los 45–60 minutos.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla artrosis vs AR",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.004"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los nódulos de Heberden afectan las interfalángicas {{c1::distales}}; los de Bouchard, las proximales.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 102",
+        "EUNACOM Diciembre 2022 · Pregunta 137"
+      ],
+      "codigos": [
+        "1.11.1.004"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La rizartrosis es la artrosis de la primera articulación {{c1::carpometacarpiana}} (base del pulgar).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Cuadro clínico",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.004"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La artrosis típica respeta las articulaciones {{c1::metacarpofalángicas}} y las muñecas.",
+      "extra": "Si están afectadas: AR o hemocromatosis.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.004"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La coxartrosis produce dolor en la {{c1::ingle}}, que irradia a cara anterior de muslo y rodilla.",
+      "extra": "Limita la rotación interna y la abducción.",
+      "origen": "clase:2",
+      "fuente": "Clase · Rodilla y cadera",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 95"
+      ],
+      "codigos": [
+        "1.11.1.004"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La gonartrosis es frecuentemente femorotibial {{c1::medial}}, con deformidad en genu varo.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Localizaciones",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.004"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La artrosis se diagnostica por clínica y radiografía simple {{c1::en carga}}.",
+      "extra": "Bipedestación para rodillas; pelvis AP para cadera.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.004"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signos radiológicos de artrosis: pinzamiento {{c1::asimétrico}} del espacio articular, esclerosis subcondral, osteofitos y geodas.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Cuatro signos",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.004",
+        "1.11.4.004"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la artrosis NO hay {{c1::osteopenia ni erosiones}} en la radiografía; esos son signos de artritis reumatoide.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.004",
+        "1.11.4.004"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En artrosis los reactantes de fase aguda (VHS y PCR) son normales y el FR y anti-CCP son {{c1::negativos}}.",
+      "extra": "FR y ANA en títulos bajos son inespecíficos en adultos mayores.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla artrosis vs AR",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 102"
+      ],
+      "codigos": [
+        "1.11.1.004",
+        "4.02.3.003"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La tumefacción de la artrosis es de consistencia {{c1::dura/ósea}} (osteofitos); en la AR es blanda y pastosa.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla artrosis vs AR",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.004"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El pilar fundamental del manejo de la artrosis son las medidas {{c1::no farmacológicas}}: baja de peso, kinesioterapia, bastón y calzado amortiguador.",
+      "extra": "El bastón va en la mano contralateral.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo escalonado",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.004"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Primera línea farmacológica de la artrosis: {{c1::paracetamol}}.",
+      "extra": "Libro: hasta 1 g cada 8 h; clase: hasta 3–4 g al día.",
+      "origen": "clase:15",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 121"
+      ],
+      "codigos": [
+        "1.11.1.004"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En artrosis de rodilla o manos se recomienda de inicio {{c1::AINEs tópicos}} (diclofenaco o ketoprofeno en gel).",
+      "extra": "Eficacia similar a los orales, mejor seguridad gastrointestinal y renal.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Primera línea",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.004"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Los AINEs orales en artrosis se usan en ciclos cortos y con {{c1::IBP}} si el paciente tiene más de 60 años.",
+      "extra": "Segunda línea tras paracetamol.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Segunda línea",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.004"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Artrosis con insuficiencia cardíaca o falla renal que no controla con paracetamol: se agrega {{c1::tramadol}}, no AINEs.",
+      "extra": "Los AINEs descompensan la IC y dañan el riñón.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Julio 2016 P9",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.004"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Rescate en crisis inflamatoria con derrame en artrosis: infiltración intraarticular de {{c1::corticoide de depósito}} (triamcinolona).",
+      "extra": "Alivio transitorio.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Invasivo",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.004"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La artroplastia total está indicada ante dolor {{c1::refractario invalidante}} y limitación funcional severa pese a tratamiento médico óptimo.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · Artrosis",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.004",
+        "1.11.4.004"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES artrosis: tratamiento médico de cadera y/o rodilla leve o moderada en personas de {{c1::55 años y más}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Perfil · GES",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.004"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES: endoprótesis de cadera en artrosis severa en personas de {{c1::65 años y más}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Garantías en Chile",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.004"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Mujer de 61 años con IFD, IFP y 1ª CMC afectadas, quistes subcondrales y ANA/FR positivos: el diagnóstico es {{c1::artrosis}}.",
+      "extra": "Los marcadores positivos son hallazgo inespecífico.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Julio 2016 P102",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 102"
+      ],
+      "codigos": [
+        "1.11.1.004"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ingle derecha dolorosa al caminar, que cede al reposo, con pinzamiento, osteofitos acetabulares y esclerosis: {{c1::coxartrosis}}.",
+      "extra": "Se inicia paracetamol.",
+      "origen": "libro:caso",
+      "fuente": "Libro · preguntas Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.004"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dolor mecánico con radiografía normal: se busca {{c1::dolor referido o causa periarticular}} (cadera referida a rodilla, bursitis).",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · Artrosis",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.004",
+        "1.11.4.004"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-04/01_heberden-y-bouchard_1__cto-reuma_p64.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Nódulos de Heberden (artrosis nodal de manos)",
+      "clave": "Nódulos duros e indoloros en interfalángicas distales",
+      "conducta": "Medidas no farmacológicas + paracetamol o AINEs tópicos",
+      "fuente": "Manual CTO Reumatología 14.ª ed., p. 64",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.004"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-04/02_artrosis-de-rodilla-rx_1__amir-reuma_p124.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Gonartrosis en radiografía",
+      "clave": "Pinzamiento asimétrico del espacio y esclerosis subcondral",
+      "conducta": "Baja de peso, kinesioterapia y paracetamol; AINEs tópicos",
+      "fuente": "Manual AMIR Reumatología, p. 124",
+      "repaso": false,
+      "codigos": [
+        "1.11.4.004",
+        "1.11.1.004"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-04/02_artrosis-de-rodilla-rx_2__amir-reuma_p124.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Coxartrosis en radiografía",
+      "clave": "Osteofitos en el borde y hueso esclerótico bajo el cartílago",
+      "conducta": "Escalera analgésica; artroplastia si es refractaria (GES ≥ 65 años)",
+      "fuente": "Manual AMIR Reumatología, p. 124",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.004",
+        "1.11.4.004"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Artrosis confirmada: ¿primer pilar de manejo?",
+      "codigos": [
+        "1.11.1.004"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.2",
+      "pista": "Dolor persistente con IC o falla renal: ¿qué usas?",
+      "codigos": [
+        "1.11.1.004"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.3",
+      "pista": "Fallo médico con incapacidad severa: ¿qué sigue?",
+      "codigos": [
+        "1.11.1.004"
+      ]
+    }
+  ]
+}

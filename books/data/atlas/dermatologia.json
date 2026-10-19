@@ -1,0 +1,3491 @@
+{
+ "libro": "dermatologia",
+ "title": "Dermatología",
+ "prefix": "derma",
+ "topics": {
+  "derma-01": "Lesiones elementales",
+  "derma-02": "Acné vulgar",
+  "derma-03": "Rosácea",
+  "derma-04": "Alopecias",
+  "derma-05": "Psoriasis",
+  "derma-06": "Dermatitis atópica",
+  "derma-07": "Seborreica y de contacto",
+  "derma-08": "Urticaria y angioedema",
+  "derma-09": "SSJ / NET",
+  "derma-10": "DRESS y toxidermias",
+  "derma-11": "Pénfigo y penfigoide",
+  "derma-12": "Eritema multiforme y virus",
+  "derma-13": "Melanoma",
+  "derma-14": "CBC y CEC",
+  "derma-15": "Lesiones premalignas",
+  "derma-16": "Micosis y ectoparásitos",
+  "derma-17": "Tumores benignos y vasculares",
+  "derma-18": "Loxoscelismo"
+ },
+ "images": [
+  {
+   "id": "mancha",
+   "n": 1,
+   "src": "_verificadas/285_derma_Mácula_y_mancha__27thBailey_p622_1.jpg",
+   "topic": "derma-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mancha café con leche",
+   "frase": "Mancha = lesión plana mayor de 1 cm: solo cambio de color, sin relieve.",
+   "claves": [
+    {
+     "t": "Lesión plana: cambio de color sin relieve ni depresión",
+     "m": [
+      0.55,
+      0.2,
+      0.12
+     ]
+    },
+    {
+     "t": "Mayor de 1 cm: es mancha, no mácula",
+     "m": [
+      0.33,
+      0.47,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Describir la lesión elemental: el corte de 1 cm separa mácula de mancha.",
+   "codes": [
+    "6.01.3.003"
+   ],
+   "confunde": "Mácula (< 1 cm, p. ej. efélide) y vitíligo (mancha blanco tiza, bordes netos, sin escama).",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "eritema-nudoso",
+   "n": 2,
+   "src": "_web/286_derma_Nódulo__Commons_1.jpg",
+   "topic": "derma-01",
+   "type": "clinica",
+   "size": "full",
+   "title": "Eritema nudoso",
+   "frase": "Paniculitis septal: nódulos pretibiales rojos y dolorosos que no se ulceran ni dejan cicatriz.",
+   "claves": [
+    {
+     "t": "Nódulos eritematosos mal delimitados en la cara anterior de la pierna",
+     "m": [
+      0.32,
+      0.66,
+      0.08
+     ]
+    },
+    {
+     "t": "Bilaterales: también en la otra pierna",
+     "m": [
+      0.75,
+      0.17,
+      0.08
+     ]
+    },
+    {
+     "t": "Se palpan más de lo que se ven: lesión de la hipodermis"
+    }
+   ],
+   "conducta": "Reposo con piernas elevadas, AINE y buscar la causa: hemograma, VHS, ASO, Rx de tórax, PPD y test de embarazo.",
+   "codes": [
+    "6.01.1.009"
+   ],
+   "confunde": "Eritema indurado de Bazin: pantorrillas, se ulcera, deja cicatriz y exige biopsia (TBC).",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "purpura-palpable",
+   "n": 3,
+   "src": "biblioteca/11_dermatologia/derma-01/01_papula-purpura-palpable__cto-derma_p8.jpg",
+   "topic": "derma-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Púrpura palpable",
+   "frase": "No desaparece a la vitropresión: es púrpura; palpable en las piernas = vasculitis.",
+   "claves": [
+    {
+     "t": "Pápulas purpúricas que se palpan",
+     "m": [
+      0.55,
+      0.3,
+      0.08
+     ]
+    },
+    {
+     "t": "Varias lesiones en la pierna",
+     "m": [
+      0.43,
+      0.6,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Buscar la enfermedad de fondo (vasculitis; Schönlein-Henoch en niños) y tratar la causa.",
+   "codes": [
+    "6.01.3.003"
+   ],
+   "confunde": "Eritema (sí desaparece a la vitropresión) y vasculitis urticariana (habón fijo que deja púrpura).",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "vesicula-herpes",
+   "n": 24,
+   "src": "derma-01/vesicula.jpg",
+   "topic": "derma-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Vesículas de herpes simple",
+   "frase": "Vesícula: colección líquida menor de 0,5 cm; en el herpes, agrupadas en racimo.",
+   "claves": [
+    {
+     "t": "Vesícula: contenido líquido, menor de 0,5 cm",
+     "m": [
+      0.53,
+      0.37,
+      0.08
+     ]
+    },
+    {
+     "t": "Agrupadas en racimo sobre base eritematosa",
+     "m": [
+      0.42,
+      0.62,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Herpes simple: aciclovir oral; supresión si hay 6 o más episodios al año.",
+   "codes": [
+    "6.01.1.031"
+   ],
+   "confunde": "Ampolla (líquida, mayor de 0,5–1 cm) y pústula (purulenta desde el inicio).",
+   "q": "EUNACOM Julio 2015 · Pregunta 89",
+   "auto": true
+  },
+  {
+   "id": "ampollas-tensas",
+   "n": 9,
+   "src": "biblioteca/11_dermatologia/derma-01/05_ampolla__cto-derma_p72.jpg",
+   "topic": "derma-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ampollas tensas (penfigoide)",
+   "frase": "Ampolla: colección líquida mayor de 0,5–1 cm; tensa y de pared gruesa en el penfigoide.",
+   "claves": [
+    {
+     "t": "Ampollas de contenido seroso, mayores de 0,5–1 cm",
+     "m": [
+      0.62,
+      0.3,
+      0.09
+     ]
+    },
+    {
+     "t": "Varias ampollas íntegras en la extremidad",
+     "m": [
+      0.35,
+      0.65,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Ampolla tensa en un anciano con prurito: sospechar penfigoide, biopsia con IFD y clobetasol tópico.",
+   "codes": [
+    "6.01.2.010"
+   ],
+   "confunde": "Vesícula (menor de 0,5 cm) y ampolla flácida del pénfigo (se rompe fácil, Nikolsky positivo).",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "habones-cto",
+   "n": 12,
+   "src": "biblioteca/11_dermatologia/derma-01/07_habon__cto-derma_p49.jpg",
+   "topic": "derma-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Habones",
+   "frase": "Habón: placa edematosa con halo eritematoso, EVANESCENTE: dura menos de 24 horas.",
+   "claves": [
+    {
+     "t": "Placa edematosa sobreelevada, rosada o blanquecina",
+     "m": [
+      0.65,
+      0.22,
+      0.09
+     ]
+    },
+    {
+     "t": "Halo eritematoso de borde geográfico",
+     "m": [
+      0.3,
+      0.86,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Antihistamínico H1 de 2.ª generación; preguntar siempre cuánto dura cada lesión.",
+   "codes": [
+    "6.01.1.030"
+   ],
+   "confunde": "Vasculitis urticariana: lesión fija más de 24–48 h, arde y deja púrpura (biopsia).",
+   "q": "EUNACOM Agosto 2021 · Pregunta 34",
+   "auto": false
+  },
+  {
+   "id": "pustulas",
+   "n": 22,
+   "src": "derma-01/pustula.jpg",
+   "topic": "derma-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pústulas palmares",
+   "frase": "Pústula: colección superficial de contenido purulento desde su inicio.",
+   "claves": [
+    {
+     "t": "Pústula de contenido purulento",
+     "m": [
+      0.47,
+      0.4,
+      0.06
+     ]
+    },
+    {
+     "t": "Varias lesiones en la palma",
+     "m": [
+      0.63,
+      0.63,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Reconocer la lesión primaria y buscar la causa (p. ej. acné pustuloso, foliculitis).",
+   "codes": [],
+   "confunde": "Vesícula: contenido seroso o hemático, no purulento.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 55",
+   "auto": false
+  },
+  {
+   "id": "papula-molusco",
+   "n": 20,
+   "src": "derma-01/papula.jpg",
+   "topic": "derma-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pápulas de molusco contagioso",
+   "frase": "Pápula: elevación sólida menor de 1 cm; la del molusco es perlada y umbilicada.",
+   "claves": [
+    {
+     "t": "Pápula sólida, menor de 1 cm",
+     "m": [
+      0.48,
+      0.6,
+      0.08
+     ]
+    },
+    {
+     "t": "Superficie perlada con depresión central",
+     "m": [
+      0.37,
+      0.15,
+      0.05
+     ]
+    },
+    {
+     "t": "Otras pápulas aisladas",
+     "m": [
+      0.93,
+      0.5,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Molusco: autolimitado; curetaje o crioterapia; evitar el rascado y compartir toallas.",
+   "codes": [
+    "6.01.1.031"
+   ],
+   "confunde": "Placa: sólida, mayor de 1 cm, en meseta (confluencia de pápulas).",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "liquenificacion",
+   "n": 19,
+   "src": "derma-01/liquenificacion.jpg",
+   "topic": "derma-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Liquenificación",
+   "frase": "Engrosamiento con cuadrícula cutánea exagerada por rascado crónico repetitivo.",
+   "claves": [
+    {
+     "t": "Cuadrícula normal de la piel acentuada",
+     "m": [
+      0.5,
+      0.42,
+      0.1
+     ]
+    },
+    {
+     "t": "Excoriaciones lineales por rascado",
+     "m": [
+      0.7,
+      0.3,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Cortar el rascado y tratar la dermatosis de fondo (p. ej. dermatitis atópica del adulto).",
+   "codes": [
+    "6.01.1.004"
+   ],
+   "confunde": "Eccema agudo (exudativo, con costras) y placa de psoriasis (escama nacarada).",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "ulcera-escara",
+   "n": 23,
+   "src": "derma-01/ulcera.jpg",
+   "topic": "derma-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Úlcera con escara",
+   "frase": "Escara: tejido necrótico negro, seco y delimitado; la úlcera llega a la dermis y siempre deja cicatriz.",
+   "claves": [
+    {
+     "t": "Escara negra y seca",
+     "m": [
+      0.66,
+      0.37,
+      0.13
+     ]
+    },
+    {
+     "t": "Bien delimitada de la piel sana vecina",
+     "m": [
+      0.52,
+      0.63,
+      0.06
+     ]
+    },
+    {
+     "t": "Otra lesión ulcerada más abajo",
+     "m": [
+      0.12,
+      0.88,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Úlcera = dermis comprometida: buscar la causa (úlcera venosa, por presión, loxoscelismo).",
+   "codes": [],
+   "confunde": "Erosión: compromete solo la epidermis y cura SIN cicatriz.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "comedones",
+   "n": 27,
+   "src": "biblioteca/11_dermatologia/derma-02/01_comedones__fitzpatrick_p66.jpg",
+   "topic": "derma-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Acné comedoniano",
+   "frase": "El comedón es la lesión elemental obligatoria que define al acné.",
+   "claves": [
+    {
+     "t": "Comedones cerrados («puntos blancos»)",
+     "m": [
+      0.43,
+      0.44,
+      0.07
+     ]
+    },
+    {
+     "t": "Múltiples, en la frente",
+     "m": [
+      0.65,
+      0.3,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Retinoide tópico de noche (adapaleno 0,1%) ± peróxido de benzoilo.",
+   "codes": [
+    "6.01.1.001",
+    "2.01.1.104"
+   ],
+   "confunde": "Rosácea: eritema con pápulas y pústulas, NUNCA comedones.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 78",
+   "auto": false
+  },
+  {
+   "id": "acne-pp",
+   "n": 28,
+   "src": "biblioteca/11_dermatologia/derma-02/02_acne_nodular__fitzpatrick_p732.jpg",
+   "topic": "derma-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Acné pápulo-pustuloso",
+   "frase": "Pápulas eritematosas inflamatorias y pústulas superficiales sobre el comedón.",
+   "claves": [
+    {
+     "t": "Pápulas eritematosas inflamatorias",
+     "m": [
+      0.58,
+      0.57,
+      0.08
+     ]
+    },
+    {
+     "t": "Pústulas superficiales",
+     "m": [
+      0.45,
+      0.76,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Leve: peróxido de benzoilo + retinoide ± clindamicina; moderado: doxiciclina oral 8–12 semanas.",
+   "codes": [
+    "6.01.1.001",
+    "2.01.1.104"
+   ],
+   "confunde": "Rosácea pápulo-pustulosa: sobre eritema centrofacial y SIN comedones.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 78",
+   "auto": true,
+   "crop": [
+    0,
+    0,
+    1,
+    0.92
+   ]
+  },
+  {
+   "id": "acne-nq",
+   "n": 25,
+   "src": "_verificadas/080_derma_Acné_nódulo_quístico__derm_pathp_p354_1.jpg",
+   "topic": "derma-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Acné nódulo-quístico",
+   "frase": "Nódulos profundos y dolorosos con alto riesgo de cicatriz: indicación de isotretinoína.",
+   "claves": [
+    {
+     "t": "Nódulos profundos inflamatorios",
+     "m": [
+      0.33,
+      0.62,
+      0.08
+     ]
+    },
+    {
+     "t": "Pústulas sobre los nódulos",
+     "m": [
+      0.8,
+      0.43,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Isotretinoína oral: doble anticoncepción, test de embarazo y control lipídico y hepático.",
+   "codes": [
+    "6.01.1.001"
+   ],
+   "confunde": "Acné pápulo-pustuloso moderado: se trata con doxiciclina oral.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 78",
+   "auto": true
+  },
+  {
+   "id": "rosacea",
+   "n": 31,
+   "src": "biblioteca/11_dermatologia/derma-03/01_rosacea_alt1__amir-derma_p84.jpg",
+   "topic": "derma-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Rosácea pápulo-pustulosa",
+   "frase": "Pápulas y pústulas centrofaciales sobre eritema persistente, SIN comedones.",
+   "claves": [
+    {
+     "t": "Pápulas y pústulas en la mejilla",
+     "m": [
+      0.73,
+      0.42,
+      0.09
+     ]
+    },
+    {
+     "t": "Eritema de base en nariz y mejilla",
+     "m": [
+      0.1,
+      0.27,
+      0.08
+     ]
+    },
+    {
+     "t": "No hay comedones: si los hubiera, sería acné"
+    }
+   ],
+   "conducta": "Metronidazol o ivermectina tópica; doxiciclina oral si es moderada a severa. Nunca corticoide tópico.",
+   "codes": [
+    "6.01.1.026"
+   ],
+   "confunde": "Acné vulgar: siempre tiene comedones.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 61",
+   "auto": true
+  },
+  {
+   "id": "rinofima",
+   "n": 32,
+   "src": "biblioteca/11_dermatologia/derma-03/02_rinofima__amir-orl_p41.jpg",
+   "topic": "derma-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Rinofima (rosácea fimatosa)",
+   "frase": "Nariz bulbosa por hipertrofia sebácea y fibrosis; típica en varones.",
+   "claves": [
+    {
+     "t": "Nariz globulosa, bulbosa y deformada",
+     "m": [
+      0.5,
+      0.38,
+      0.12
+     ]
+    },
+    {
+     "t": "Nódulos lobulados en las alas nasales",
+     "m": [
+      0.6,
+      0.48,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "No responde a fármacos: resección quirúrgica, electrocirugía o láser de CO₂.",
+   "codes": [
+    "6.01.1.026"
+   ],
+   "confunde": "Rosácea pápulo-pustulosa: esa sí responde al tratamiento médico.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 61",
+   "auto": false
+  },
+  {
+   "id": "areata",
+   "n": 34,
+   "src": "biblioteca/11_dermatologia/derma-04/01_alopecia-areata_alt1__amir-derma_p88.jpg",
+   "topic": "derma-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Alopecia areata",
+   "frase": "Placa alopécica redonda, lisa, de piel normal: autoinmune y no cicatricial.",
+   "claves": [
+    {
+     "t": "Piel lisa, sin escama ni eritema",
+     "m": [
+      0.5,
+      0.55,
+      0.12
+     ]
+    },
+    {
+     "t": "Borde de la placa: ahí se buscan los pelos «en signo de exclamación»",
+     "m": [
+      0.8,
+      0.42,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Corticoide intralesional (triamcinolona) o tópico de alta potencia.",
+   "codes": [
+    "6.01.1.002"
+   ],
+   "confunde": "Tiña capitis (escama y pelos rotos, en niños) y alopecia cicatricial (sin orificios foliculares).",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 151",
+   "auto": true
+  },
+  {
+   "id": "hamilton",
+   "n": 35,
+   "src": "biblioteca/11_dermatologia/derma-04/02_androgenetica-hamilton__cto-derma_p62.jpg",
+   "topic": "derma-04",
+   "type": "esquema",
+   "size": "half",
+   "title": "Alopecia androgenética: escala de Hamilton-Norwood",
+   "frase": "Miniaturización folicular por dihidrotestosterona: entradas y luego vértice.",
+   "claves": [
+    {
+     "t": "Retroceso frontotemporal («entradas»)",
+     "m": [
+      0.22,
+      0.2,
+      0.08
+     ]
+    },
+    {
+     "t": "Progresa hacia el vértice",
+     "m": [
+      0.53,
+      0.13,
+      0.08
+     ]
+    },
+    {
+     "t": "Pérdida de la coronilla",
+     "m": [
+      0.87,
+      0.12,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Minoxidil tópico 5% + finasteride oral 1 mg (contraindicado en mujer fértil).",
+   "codes": [
+    "6.01.1.002"
+   ],
+   "confunde": "Patrón femenino (Ludwig): raya central ensanchada, respeta la línea frontal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "psoriasis-placa",
+   "n": 37,
+   "src": "biblioteca/11_dermatologia/derma-05/01_psoriasis-en-placas__amir-derma_p39.jpg",
+   "topic": "derma-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Psoriasis en placas",
+   "frase": "Placas eritematosas bien delimitadas con escama gruesa blanco-nacarada en superficies de extensión.",
+   "claves": [
+    {
+     "t": "Escamas gruesas blanco-nacaradas, no grasosas",
+     "m": [
+      0.25,
+      0.45,
+      0.12
+     ]
+    },
+    {
+     "t": "Placa bien delimitada en superficie de extensión",
+     "m": [
+      0.73,
+      0.42,
+      0.12
+     ]
+    },
+    {
+     "t": "Raspado de Brocq: bujía → membrana despegable → Auspitz (rocío sangrante)"
+    }
+   ],
+   "conducta": "Leve: corticoide potente + calcipotriol. NUNCA corticoides sistémicos (rebote pustuloso).",
+   "codes": [
+    "6.01.1.024"
+   ],
+   "confunde": "Eccema: pliegues flexurales, prurito intenso y liquenificación.",
+   "q": "EUNACOM Julio 2025 · Pregunta 120",
+   "auto": true
+  },
+  {
+   "id": "psoriasis-gotas",
+   "n": 38,
+   "src": "biblioteca/11_dermatologia/derma-05/02_guttata__amir-derma_p40.jpg",
+   "topic": "derma-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Psoriasis en gotas",
+   "frase": "Pápulas milimétricas descamativas «en gotas de lluvia» 1–2 semanas tras una faringoamigdalitis.",
+   "claves": [
+    {
+     "t": "Pápulas pequeñas descamativas en el tronco",
+     "m": [
+      0.62,
+      0.3,
+      0.06
+     ]
+    },
+    {
+     "t": "Erupción generalizada, también en el brazo",
+     "m": [
+      0.9,
+      0.45,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Antibiótico (amoxicilina o penicilina) + fototerapia UVB; excelente pronóstico.",
+   "codes": [
+    "6.01.1.024"
+   ],
+   "confunde": "Pitiriasis rosada: medallón previo y distribución «en árbol de Navidad».",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "pitting",
+   "n": 39,
+   "src": "biblioteca/11_dermatologia/derma-05/03_pitting-ungueal__amir-derma_p40.jpg",
+   "topic": "derma-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pitting ungueal",
+   "frase": "Piqueteado en dedal: pequeñas depresiones cupuliformes de la lámina (psoriasis ungueal).",
+   "claves": [
+    {
+     "t": "Depresiones puntiformes en la lámina ungueal",
+     "m": [
+      0.5,
+      0.55,
+      0.13
+     ]
+    },
+    {
+     "t": "La psoriasis ungueal se asocia a artritis psoriásica"
+    }
+   ],
+   "conducta": "Buscar artritis psoriásica: rigidez matinal de más de 30 minutos, dactilitis, entesitis.",
+   "codes": [
+    "6.01.1.024",
+    "1.11.1.001"
+   ],
+   "confunde": "Onicomicosis: se confirma con KOH antes de un tratamiento oral.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "koebner",
+   "n": 40,
+   "src": "biblioteca/11_dermatologia/derma-05/04_koebner__cto-derma_p10.jpg",
+   "topic": "derma-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fenómeno de Koebner",
+   "frase": "Lesiones psoriásicas típicas sobre piel sana traumatizada (cicatriz, roce, rascado).",
+   "claves": [
+    {
+     "t": "Placas alineadas sobre una cicatriz",
+     "m": [
+      0.42,
+      0.42,
+      0.1
+     ]
+    },
+    {
+     "t": "Otras placas psoriásicas vecinas",
+     "m": [
+      0.82,
+      0.8,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "El trauma local es desencadenante; tratamiento tópico: corticoide potente + calcipotriol.",
+   "codes": [
+    "6.01.1.024"
+   ],
+   "confunde": "El Koebner también aparece en vitíligo, líquen plano y verrugas planas.",
+   "q": "EUNACOM Julio 2015 · Pregunta 88",
+   "auto": true
+  },
+  {
+   "id": "artritis-ps",
+   "n": 41,
+   "src": "biblioteca/11_dermatologia/derma-05/05_artritis-psoriasica-ifd__amir-reuma_p81.jpg",
+   "topic": "derma-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Artritis psoriásica",
+   "frase": "Compromiso de interfalángicas distales asociado a psoriasis ungueal; factor reumatoide negativo.",
+   "claves": [
+    {
+     "t": "Interfalángica distal comprometida",
+     "m": [
+      0.47,
+      0.7,
+      0.08
+     ]
+    },
+    {
+     "t": "Uña distrófica",
+     "m": [
+      0.88,
+      0.82,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "AINE y derivar precozmente a reumatología; nunca corticoides sistémicos.",
+   "codes": [
+    "1.11.1.001"
+   ],
+   "confunde": "Artritis reumatoide: la psoriásica tiene FR y anti-CCP negativos.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 29",
+   "auto": true
+  },
+  {
+   "id": "psoriasis-pustulosa",
+   "n": 44,
+   "src": "biblioteca/19_dermatologia/derma-05/atlas_283_psoriasis_pustulosa_generaliza.jpg",
+   "topic": "derma-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Psoriasis pustulosa generalizada",
+   "frase": "Pústulas estériles confluentes sobre eritema, con fiebre alta: forma grave potencialmente letal.",
+   "claves": [
+    {
+     "t": "Pústulas estériles agrupadas",
+     "m": [
+      0.45,
+      0.45,
+      0.1
+     ]
+    },
+    {
+     "t": "Base eritematosa",
+     "m": [
+      0.22,
+      0.62,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Hospitalización urgente; acitretina o infliximab. Gatillante clásico: suspender corticoides orales.",
+   "codes": [
+    "6.01.1.024",
+    "6.01.2.004"
+   ],
+   "confunde": "Eritrodermia psoriásica: eritema y descamación de más del 90% de la piel.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "liquen-oral",
+   "n": 42,
+   "src": "biblioteca/11_dermatologia/derma-05/11_liquen-plano-gingival__knoop_p274.jpg",
+   "topic": "derma-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Líquen plano oral erosivo",
+   "frase": "Encía eritematosa y erosionada; el líquen plano se resume en las «seis P».",
+   "claves": [
+    {
+     "t": "Encía eritematosa y erosionada",
+     "m": [
+      0.5,
+      0.45,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Líquen oral erosivo: derivar (riesgo de carcinoma espinocelular cercano al 1%); pedir serología de hepatitis C.",
+   "codes": [
+    "6.01.1.015"
+   ],
+   "confunde": "Pénfigo vulgar oral: erosiones dolorosas que preceden a la piel.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "kaposi",
+   "n": 45,
+   "src": "_verificadas/81_eccema_herpetico__nelsontextbo_p1818_1.jpg",
+   "topic": "derma-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eccema herpético de Kaposi",
+   "frase": "Herpes simple diseminado sobre piel atópica: vesículas umbilicadas, erosiones y fiebre. Emergencia.",
+   "claves": [
+    {
+     "t": "Erosiones «en sacabocado» agrupadas",
+     "m": [
+      0.45,
+      0.2,
+      0.08
+     ]
+    },
+    {
+     "t": "Lesiones diseminadas por la cara y la oreja",
+     "m": [
+      0.82,
+      0.6,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Aciclovir endovenoso urgente y hospitalizar.",
+   "codes": [
+    "6.01.1.004",
+    "2.01.1.107"
+   ],
+   "confunde": "Impetiginización: costras melicéricas amarillentas (S. aureus).",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "eccema-atopico",
+   "n": 47,
+   "src": "biblioteca/11_dermatologia/derma-06/01_dermatitis-atopica__amir-derma_p91.jpg",
+   "topic": "derma-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Dermatitis atópica: eccema con rascado",
+   "frase": "El prurito intenso es el criterio cardinal; en niños mayores y adultos, pliegues flexurales.",
+   "claves": [
+    {
+     "t": "Placa eritematosa con descamación",
+     "m": [
+      0.5,
+      0.4,
+      0.1
+     ]
+    },
+    {
+     "t": "Piel seca con escamas finas (xerosis)",
+     "m": [
+      0.3,
+      0.13,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Emolientes diarios («soak and seal») + corticoide tópico según la zona en el brote.",
+   "codes": [
+    "6.01.1.004",
+    "2.01.1.107"
+   ],
+   "confunde": "Dermatitis de contacto: relacionada con el área de contacto; prueba del parche.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 79",
+   "auto": true
+  },
+  {
+   "id": "melicericas",
+   "n": 48,
+   "src": "biblioteca/11_dermatologia/derma-06/03_impetiginizacion-costras-melicericas__amir-derma_p55.jpg",
+   "topic": "derma-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Impetiginización de la dermatitis atópica",
+   "frase": "Sobreinfección por S. aureus: costras melicéricas amarillentas.",
+   "claves": [
+    {
+     "t": "Costras melicéricas amarillentas",
+     "m": [
+      0.48,
+      0.23,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Antibiótico tópico (mupirocina) u oral (cefadroxilo).",
+   "codes": [
+    "2.01.1.107"
+   ],
+   "confunde": "Eccema herpético de Kaposi: vesículas umbilicadas y fiebre (aciclovir EV).",
+   "q": "EUNACOM Julio 2025 · Pregunta 111",
+   "auto": false
+  },
+  {
+   "id": "contacto-irritativa",
+   "n": 49,
+   "src": "_web/284_derma_Dermatitis_de_contacto_irrit__Commons_1.jpg",
+   "topic": "derma-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Dermatitis de contacto irritativa",
+   "frase": "Daño tóxico directo, no inmune (80%): ardor, piel seca y fisurada confinada al contacto.",
+   "claves": [
+    {
+     "t": "Piel seca, agrietada y fisurada",
+     "m": [
+      0.17,
+      0.65,
+      0.08
+     ]
+    },
+    {
+     "t": "Confinada a la zona de contacto",
+     "m": [
+      0.88,
+      0.58,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Retirar el irritante, guantes con forro de algodón y cremas barrera. Parche negativo.",
+   "codes": [
+    "6.01.1.007"
+   ],
+   "confunde": "Contacto alérgica: prurito intenso, vesículas que sobrepasan el contacto, parche positivo.",
+   "q": null,
+   "auto": true,
+   "note": "Los círculos verdes vienen en la foto original."
+  },
+  {
+   "id": "contacto-alergica",
+   "n": 50,
+   "src": "biblioteca/11_dermatologia/derma-07/01_eccema-de-contacto__cto-derma_p43.jpg",
+   "topic": "derma-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eccema de contacto alérgico",
+   "frase": "Hipersensibilidad tipo IV: eccema muy pruriginoso que sobrepasa el área de contacto.",
+   "claves": [
+    {
+     "t": "Eccema descamativo en el dorso de la mano",
+     "m": [
+      0.42,
+      0.35,
+      0.12
+     ]
+    },
+    {
+     "t": "Alérgeno más frecuente: níquel (bisutería, hebillas, botones)"
+    }
+   ],
+   "conducta": "Evitar el alérgeno + corticoide tópico de mediana o alta potencia 1–2 semanas; parche a las 48 y 96 h.",
+   "codes": [
+    "6.01.1.007",
+    "6.01.4.005"
+   ],
+   "confunde": "Contacto irritativa: ardor, confinada al contacto, parche negativo.",
+   "q": "EUNACOM Julio 2016 · Pregunta 144",
+   "auto": true
+  },
+  {
+   "id": "seborreica",
+   "n": 52,
+   "src": "biblioteca/11_dermatologia/derma-07/01_seborreica_cara__fitzpatrick_p260.jpg",
+   "topic": "derma-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Dermatitis seborreica del adulto",
+   "frase": "Escamas grasosas amarillentas en zonas de alta densidad sebácea (Malassezia).",
+   "claves": [
+    {
+     "t": "Entrecejo y cejas",
+     "m": [
+      0.42,
+      0.4,
+      0.07
+     ]
+    },
+    {
+     "t": "Surcos nasogenianos",
+     "m": [
+      0.36,
+      0.66,
+      0.07
+     ]
+    },
+    {
+     "t": "Eritema en la frente",
+     "m": [
+      0.6,
+      0.15,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Champú de ketoconazol 2% + corticoide de baja potencia en ciclos cortos; si es severa y refractaria, pedir VIH.",
+   "codes": [
+    "6.01.1.006"
+   ],
+   "confunde": "Rosácea: pápulas y pústulas sobre eritema, sin escamas grasosas.",
+   "q": "EUNACOM Julio 2016 · Pregunta 12",
+   "auto": true
+  },
+  {
+   "id": "fototoxicidad",
+   "n": 53,
+   "src": "biblioteca/19_dermatologia/derma-07/10_fototoxicidad-facial__fitzpatrick_p869.jpg",
+   "topic": "derma-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fototoxicidad",
+   "frase": "Reacción no inmune y dosis dependiente: parece una quemadura solar exagerada en zonas expuestas.",
+   "claves": [
+    {
+     "t": "Eritema y edema en las mejillas",
+     "m": [
+      0.25,
+      0.82,
+      0.09
+     ]
+    },
+    {
+     "t": "Frente comprometida",
+     "m": [
+      0.48,
+      0.42,
+      0.09
+     ]
+    },
+    {
+     "t": "Respeta zonas sombreadas (párpados superiores, submentoniano)"
+    }
+   ],
+   "conducta": "Suspender el fármaco (doxiciclina, amiodarona, tiazidas…), fotoprotección FPS 50+ y corticoide tópico.",
+   "codes": [
+    "6.01.1.011"
+   ],
+   "confunde": "Fotoalergia: tipo IV, eccematosa y desborda a zonas cubiertas.",
+   "q": "EUNACOM Julio 2017 · Pregunta 115",
+   "auto": false
+  },
+  {
+   "id": "urticaria",
+   "n": 18,
+   "src": "derma-01/habon.jpg",
+   "topic": "derma-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Urticaria aguda",
+   "frase": "Habones evanescentes y pruriginosos: cada lesión desaparece en menos de 24 horas sin marca.",
+   "claves": [
+    {
+     "t": "Habones sobreelevados, rosados",
+     "m": [
+      0.72,
+      0.42,
+      0.09
+     ]
+    },
+    {
+     "t": "Confluyen en placas de borde geográfico",
+     "m": [
+      0.55,
+      0.15,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Antihistamínico H1 de 2.ª generación; si no responde en 2–4 semanas, cuadruplicar la dosis.",
+   "codes": [
+    "6.01.1.030",
+    "6.01.2.016"
+   ],
+   "confunde": "Vasculitis urticariana: fija más de 24–48 h, arde y deja púrpura (biopsia).",
+   "q": "EUNACOM Julio 2025 · Pregunta 20",
+   "auto": true
+  },
+  {
+   "id": "angioedema",
+   "n": 55,
+   "src": "biblioteca/11_dermatologia/derma-08/02_angioedema__cto-derma_p50.jpg",
+   "topic": "derma-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Angioedema labial",
+   "frase": "Edema de dermis profunda y submucosa: tumefacción tensa que tarda 48–72 h en reabsorberse.",
+   "claves": [
+    {
+     "t": "Labio inferior tumefacto, tenso y deformado",
+     "m": [
+      0.5,
+      0.7,
+      0.12
+     ]
+    },
+    {
+     "t": "Buscar estridor, disnea o hipotensión: anafilaxia"
+    }
+   ],
+   "conducta": "Si hay compromiso respiratorio o hemodinámico: adrenalina IM 0,3–0,5 mg en el muslo.",
+   "codes": [
+    "6.01.2.001",
+    "6.01.2.016"
+   ],
+   "confunde": "Habón: dermis superficial, pruriginoso, dura menos de 24 h.",
+   "q": "EUNACOM Diciembre 2022 · Pregunta 152",
+   "auto": true
+  },
+  {
+   "id": "dianas-atipicas",
+   "n": 57,
+   "src": "_verificadas/282_derma_Dianas_atípicas_del_SSJ__HarrisonsP_p414_1.jpg",
+   "topic": "derma-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Stevens-Johnson: dianas atípicas",
+   "frase": "Dianas de solo 2 anillos con centro purpúrico o ampollar, en el tronco, con dolor desproporcionado.",
+   "claves": [
+    {
+     "t": "Diana atípica: centro purpúrico y 2 anillos",
+     "m": [
+      0.53,
+      0.67,
+      0.07
+     ]
+    },
+    {
+     "t": "Máculas que confluyen en el tronco",
+     "m": [
+      0.86,
+      0.55,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Suspender ya el fármaco sospechoso y hospitalizar (UCI o centro de quemados).",
+   "codes": [
+    "6.01.2.015"
+   ],
+   "confunde": "Eritema multiforme: diana típica de 3 anillos, acral, Nikolsky negativo.",
+   "q": "EUNACOM Julio 2024 · Pregunta 94",
+   "auto": true
+  },
+  {
+   "id": "net-mucosas",
+   "n": 58,
+   "src": "biblioteca/11_dermatologia/derma-09/01_necrolisis_mucosa_oral__fitzpatrick_p390.jpg",
+   "topic": "derma-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Necrólisis epidérmica: mucosas",
+   "frase": "Compromiso de mucosas en más del 90%: oral, ocular y urogenital.",
+   "claves": [
+    {
+     "t": "Erosiones de la mucosa oral (A)",
+     "m": [
+      0.5,
+      0.25,
+      0.1
+     ]
+    },
+    {
+     "t": "Costras hemáticas en los labios (B)",
+     "m": [
+      0.75,
+      0.88,
+      0.08
+     ]
+    },
+    {
+     "t": "Compromiso ocular (B)",
+     "m": [
+      0.55,
+      0.63,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Interconsulta oftalmológica desde el día 1 (lágrimas artificiales, lisis de sinequias) para evitar simbléfaron.",
+   "codes": [
+    "6.01.2.009",
+    "6.01.2.015"
+   ],
+   "confunde": "Síndrome de piel escaldada: mucosas respetadas.",
+   "q": "EUNACOM Julio 2016 · Pregunta 48",
+   "auto": false
+  },
+  {
+   "id": "net-piel",
+   "n": 59,
+   "src": "biblioteca/11_dermatologia/derma-09/01_net__amir-derma_p105.jpg",
+   "topic": "derma-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Necrólisis epidérmica tóxica",
+   "frase": "Desprendimiento de más del 30% de la superficie corporal: piel de gran quemado.",
+   "claves": [
+    {
+     "t": "Dermis roja denudada en la espalda",
+     "m": [
+      0.62,
+      0.43,
+      0.12
+     ]
+    },
+    {
+     "t": "Epidermis desprendida en sábanas",
+     "m": [
+      0.25,
+      0.55,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Retiro inmediato del fármaco, centro de quemados a 30–32 °C y nunca desbridar.",
+   "codes": [
+    "6.01.2.009"
+   ],
+   "confunde": "SSJ: menos del 10% desprendido; superposición entre 10 y 30%.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 80",
+   "auto": true,
+   "crop": [
+    0,
+    0,
+    0.415,
+    1
+   ]
+  },
+  {
+   "id": "ssj-labios",
+   "n": 60,
+   "src": "biblioteca/11_dermatologia/derma-09/02_ssj_labios__fitzpatrick_p685.jpg",
+   "topic": "derma-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Stevens-Johnson: labios",
+   "frase": "Queilitis costrosa hemorrágica y estomatitis: 2 o más mucosas comprometidas.",
+   "claves": [
+    {
+     "t": "Erosiones y costras en el labio inferior",
+     "m": [
+      0.5,
+      0.85,
+      0.1
+     ]
+    },
+    {
+     "t": "Erosiones de la mucosa oral",
+     "m": [
+      0.5,
+      0.55,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Suspender el fármaco y hospitalizar; SSJ = menos del 10% de piel desprendida.",
+   "codes": [
+    "6.01.2.015"
+   ],
+   "confunde": "Eritema multiforme major: mucosas, pero sin desprendimiento y Nikolsky negativo.",
+   "q": "EUNACOM Julio 2024 · Pregunta 103",
+   "auto": false
+  },
+  {
+   "id": "sspe",
+   "n": 61,
+   "src": "biblioteca/19_dermatologia/derma-09/10_sspe-nikolsky__harrison_p1225.jpg",
+   "topic": "derma-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Síndrome de piel escaldada estafilocócica",
+   "frase": "Toxinas exfoliativas de S. aureus: erosiones «escaldadas», Nikolsky positivo y mucosas respetadas.",
+   "claves": [
+    {
+     "t": "Erosiones húmedas «escaldadas»",
+     "m": [
+      0.45,
+      0.33,
+      0.09
+     ]
+    },
+    {
+     "t": "Costras periorificiales",
+     "m": [
+      0.62,
+      0.18,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Hospitalizar: cloxacilina EV (vancomicina si se sospecha SARM); sin corticoides.",
+   "codes": [
+    "6.01.2.014"
+   ],
+   "confunde": "SSJ/NET: dianas atípicas y mucosas comprometidas.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "exantema-mp",
+   "n": 5,
+   "src": "biblioteca/11_dermatologia/derma-01/03_exantema-maculopapular__cto-derma_p9.jpg",
+   "topic": "derma-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Exantema morbiliforme (maculopapular)",
+   "frase": "La reacción medicamentosa más frecuente: máculas y pápulas simétricas a los 4–14 días.",
+   "claves": [
+    {
+     "t": "Máculas y pápulas eritematosas confluentes",
+     "m": [
+      0.5,
+      0.55,
+      0.12
+     ]
+    },
+    {
+     "t": "Distribución extensa y simétrica",
+     "m": [
+      0.78,
+      0.3,
+      0.09
+     ]
+    }
+   ],
+   "conducta": "Suspender el fármaco, antihistamínico, corticoide tópico y control en 48–72 h.",
+   "codes": [
+    "6.01.1.025"
+   ],
+   "confunde": "DRESS o SSJ si hay fiebre alta, edema facial, ampollas, mucosas o eosinofilia.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "dress-tronco",
+   "n": 62,
+   "src": "biblioteca/11_dermatologia/derma-10/01_dress_fenitoina_a__fitzpatrick_p395.jpg",
+   "topic": "derma-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "DRESS: exantema del tronco",
+   "frase": "Exantema morbiliforme confluente con fiebre, 2–8 semanas después del fármaco.",
+   "claves": [
+    {
+     "t": "Exantema confluente en el tronco",
+     "m": [
+      0.35,
+      0.5,
+      0.12
+     ]
+    },
+    {
+     "t": "Se extiende a las extremidades",
+     "m": [
+      0.85,
+      0.55,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Retirar el fármaco y pedir hemograma (eosinofilia) y perfil hepático.",
+   "codes": [
+    "6.01.2.013"
+   ],
+   "confunde": "Exantema simple: 4–14 días, sin fiebre alta ni edema facial.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "dress-cara",
+   "n": 63,
+   "src": "biblioteca/11_dermatologia/derma-10/02_dress_fenitoina_b__fitzpatrick_p395.jpg",
+   "topic": "derma-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "DRESS: edema facial",
+   "frase": "El edema periorbitario y malar es el hallazgo que más orienta; Nikolsky negativo.",
+   "claves": [
+    {
+     "t": "Edema malar prominente con lesiones",
+     "m": [
+      0.62,
+      0.38,
+      0.12
+     ]
+    },
+    {
+     "t": "Compromiso de nariz y labio",
+     "m": [
+      0.25,
+      0.55,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Prednisona 0,5–1 mg/kg/día con descenso muy lento, en 2–3 meses.",
+   "codes": [
+    "6.01.2.013"
+   ],
+   "confunde": "Stevens-Johnson/NET: dianas atípicas, ampollas, Nikolsky positivo.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "toxidermia-fija",
+   "n": 64,
+   "src": "biblioteca/11_dermatologia/derma-10/04_toxidermia-fija__knoop_p392.jpg",
+   "topic": "derma-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Toxidermia fija",
+   "frase": "Placa violácea redonda que reaparece siempre en el mismo sitio con el mismo fármaco.",
+   "claves": [
+    {
+     "t": "Placa violácea redonda, bien delimitada",
+     "m": [
+      0.55,
+      0.35,
+      0.13
+     ]
+    },
+    {
+     "t": "Deja mancha parda residual"
+    }
+   ],
+   "conducta": "Suspender el fármaco (AINE, cotrimoxazol, tetraciclinas), corticoide tópico potente y registrar el agente.",
+   "codes": [
+    "6.01.1.025"
+   ],
+   "confunde": "Exantema morbiliforme: máculas y pápulas difusas, no una placa única.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "ifd-penfigo",
+   "n": 65,
+   "src": "_web/281_derma_Inmunofluorescencia_directa__Commons_1.jpg",
+   "topic": "derma-11",
+   "type": "histologia",
+   "size": "half",
+   "title": "IFD de pénfigo vulgar",
+   "frase": "Depósito intercelular de IgG y C3 «en red de pescar» entre los queratinocitos.",
+   "claves": [
+    {
+     "t": "Patrón en red de pescar (panal de abejas)",
+     "m": [
+      0.45,
+      0.38,
+      0.12
+     ]
+    },
+    {
+     "t": "La piel sana perilesional va en medio de Michel, no en formalina"
+    }
+   ],
+   "conducta": "Biopsia: borde de ampolla reciente en formalina + piel sana a 1 cm en medio de Michel.",
+   "codes": [
+    "6.01.5.001",
+    "6.01.1.020"
+   ],
+   "confunde": "Penfigoide: depósito lineal continuo en la membrana basal.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "penfigo-piel",
+   "n": 66,
+   "src": "biblioteca/11_dermatologia/derma-11/01_penfigo-vulgar__amir-derma_p49.jpg",
+   "topic": "derma-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pénfigo vulgar",
+   "frase": "Ampollas flácidas que se rompen y dejan erosiones dolorosas; Nikolsky positivo.",
+   "claves": [
+    {
+     "t": "Erosiones costrosas: ampollas flácidas rotas",
+     "m": [
+      0.29,
+      0.15,
+      0.08
+     ]
+    },
+    {
+     "t": "Lesiones sobre piel aparentemente sana",
+     "m": [
+      0.83,
+      0.68,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Prednisona oral 1–1,5 mg/kg/día + rituximab; biopsia con IFD.",
+   "codes": [
+    "6.01.1.020",
+    "6.01.2.010"
+   ],
+   "confunde": "Penfigoide ampollar: ampolla tensa, Nikolsky negativo, ancianos con prurito.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "penfigoide",
+   "n": 67,
+   "src": "biblioteca/11_dermatologia/derma-11/02_penfigoide-ampolloso-tensas_alt1_1__amir-derma_p49.jpg",
+   "topic": "derma-11",
+   "type": "clinica",
+   "size": "full",
+   "title": "Penfigoide ampollar",
+   "frase": "Ampollas tensas subepidérmicas, Nikolsky negativo, en ancianos con prurito intenso.",
+   "claves": [
+    {
+     "t": "Ampolla tensa de contenido seroso",
+     "m": [
+      0.5,
+      0.43,
+      0.07
+     ]
+    },
+    {
+     "t": "Ampolla de contenido hemorrágico",
+     "m": [
+      0.86,
+      0.13,
+      0.05
+     ]
+    },
+    {
+     "t": "Base eritematosa y edematosa",
+     "m": [
+      0.3,
+      0.55,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Clobetasol tópico en todo el cuerpo; prednisona 0,5 mg/kg/día si es extenso.",
+   "codes": [
+    "6.01.2.010"
+   ],
+   "confunde": "Pénfigo vulgar: ampolla flácida, Nikolsky positivo, boca comprometida.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "penfigo-oral",
+   "n": 69,
+   "src": "biblioteca/19_dermatologia/derma-11/atlas_082_penfigo_vulgar_oral_erosiones_.jpg",
+   "topic": "derma-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pénfigo vulgar oral",
+   "frase": "La boca avisa antes que la piel (70–90%): erosiones dolorosas, rara vez ampollas intactas.",
+   "claves": [
+    {
+     "t": "Erosión en la mucosa yugal",
+     "m": [
+      0.2,
+      0.6,
+      0.07
+     ]
+    },
+    {
+     "t": "Paladar comprometido",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Derivar para biopsia con IFD; prednisona oral en dosis altas.",
+   "codes": [
+    "6.01.1.020"
+   ],
+   "confunde": "Penfigoide ampollar: casi siempre respeta la boca.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "em-pie",
+   "n": 70,
+   "src": "biblioteca/11_dermatologia/derma-12/01_eritema-multiforme__amir-derma_p106.jpg",
+   "topic": "derma-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eritema multiforme",
+   "frase": "Dianas típicas de 3 anillos, acrales y simétricas, tras un herpes simple.",
+   "claves": [
+    {
+     "t": "Diana: centro oscuro, anillo pálido, halo rojo",
+     "m": [
+      0.47,
+      0.42,
+      0.07
+     ]
+    },
+    {
+     "t": "Distribución acral (pie)",
+     "m": [
+      0.78,
+      0.65,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Sintomático (antihistamínico, corticoide tópico); aciclovir si hay herpes activo o recurrencias.",
+   "codes": [
+    "6.01.1.010"
+   ],
+   "confunde": "Stevens-Johnson: diana atípica de 2 anillos, tronco, Nikolsky positivo.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "em-manos",
+   "n": 71,
+   "src": "biblioteca/11_dermatologia/derma-12/02_lesiones-en-diana__cto-derma_p15.jpg",
+   "topic": "derma-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eritema multiforme: dianas en las manos",
+   "frase": "El dorso de las manos es la localización típica: bilateral y simétrica.",
+   "claves": [
+    {
+     "t": "Dianas en el dorso de la mano",
+     "m": [
+      0.76,
+      0.22,
+      0.06
+     ]
+    },
+    {
+     "t": "También en la otra mano",
+     "m": [
+      0.25,
+      0.35,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Autolimitado en 2–4 semanas; aciclovir profiláctico 6 meses si hay 3–5 brotes al año.",
+   "codes": [
+    "6.01.1.010"
+   ],
+   "confunde": "Stevens-Johnson: centrípeto, con desprendimiento epidérmico.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "molusco",
+   "n": 72,
+   "src": "biblioteca/11_dermatologia/derma-12/12_molusco-contagioso-periocular__kumar-clark_p1652.jpg",
+   "topic": "derma-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Molusco contagioso",
+   "frase": "Poxvirus: pápulas perladas umbilicadas de 2 a 5 mm, típicas en niños.",
+   "claves": [
+    {
+     "t": "Pápula perlada umbilicada",
+     "m": [
+      0.59,
+      0.55,
+      0.05
+     ]
+    },
+    {
+     "t": "Varias lesiones periorbitarias",
+     "m": [
+      0.84,
+      0.45,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Autolimitado; curetaje o crioterapia; evitar el rascado y compartir toallas.",
+   "codes": [
+    "6.01.1.031"
+   ],
+   "confunde": "Verruga vulgar: pápula hiperqueratósica rugosa, sin umbilicación.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "tzanck",
+   "n": 73,
+   "src": "biblioteca/11_dermatologia/derma-12/13_tzanck-celulas-gigantes__knoop_p947.jpg",
+   "topic": "derma-12",
+   "type": "histologia",
+   "size": "half",
+   "title": "Test de Tzanck: célula gigante multinucleada",
+   "frase": "Células gigantes multinucleadas: herpes simple o varicela-zóster (no los distingue).",
+   "claves": [
+    {
+     "t": "Célula gigante multinucleada",
+     "m": [
+      0.48,
+      0.4,
+      0.15
+     ]
+    },
+    {
+     "t": "Sensibilidad 60–70%: un negativo no descarta herpes"
+    }
+   ],
+   "conducta": "Destechar una vesícula reciente, raspar el piso y teñir con Giemsa; si es negativo, PCR.",
+   "codes": [
+    "6.01.4.006"
+   ],
+   "confunde": "Pénfigo: queratinocitos acantolíticos aislados, sin multinucleación.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "zoster",
+   "n": 74,
+   "src": "biblioteca/19_dermatologia/derma-12/10_zoster-diseminado__harrison_p1522.jpg",
+   "topic": "derma-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Herpes zóster diseminado",
+   "frase": "Lesiones en distintas etapas (vesículas, pústulas, costras) en inmunosuprimidos.",
+   "claves": [
+    {
+     "t": "Costra hemorrágica",
+     "m": [
+      0.6,
+      0.68,
+      0.07
+     ]
+    },
+    {
+     "t": "Lesiones en otras etapas",
+     "m": [
+      0.36,
+      0.65,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Antiviral dentro de las 72 h: aciclovir, valaciclovir o famciclovir por 7 días.",
+   "codes": [
+    "6.01.1.031",
+    "6.01.2.007"
+   ],
+   "confunde": "Varicela: vesículas en distintos estadios con fiebre y lesiones en mucosas.",
+   "q": "EUNACOM Julio 2019 · Pregunta 158",
+   "auto": false
+  },
+  {
+   "id": "verruga",
+   "n": 75,
+   "src": "biblioteca/19_dermatologia/derma-12/11_verruga-vulgar__fitzpatrick_p1955.jpg",
+   "topic": "derma-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Verruga vulgar",
+   "frase": "VPH 1, 2 y 4: pápula o nódulo hiperqueratósico rugoso.",
+   "claves": [
+    {
+     "t": "Lesión hiperqueratósica en el labio",
+     "m": [
+      0.47,
+      0.72,
+      0.06
+     ]
+    },
+    {
+     "t": "Otra lesión en la comisura",
+     "m": [
+      0.75,
+      0.9,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Ácido salicílico 15–40% + crioterapia cada 2–3 semanas; derivar si no responde en 3 meses.",
+   "codes": [
+    "6.01.1.031"
+   ],
+   "confunde": "Molusco contagioso: pápula perlada umbilicada.",
+   "q": "EUNACOM Julio 2017 · Pregunta 86",
+   "auto": false
+  },
+  {
+   "id": "nevo",
+   "n": 76,
+   "src": "_web/277_derma_Nevo_benigno_comparación_ABC__Commons_2.jpg",
+   "topic": "derma-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Nevo melanocítico común",
+   "frase": "Simétrico, borde regular, color homogéneo y menor de 6 mm: ABCDE negativo.",
+   "claves": [
+    {
+     "t": "Simétrico, borde regular, color homogéneo",
+     "m": [
+      0.52,
+      0.55,
+      0.08
+     ]
+    },
+    {
+     "t": "Estable en el tiempo: la E (evolución) es el criterio más sensible"
+    }
+   ],
+   "conducta": "Benigno: fotografía y control; mapeo si tiene más de 50 nevos o antecedente de melanoma.",
+   "codes": [
+    "6.01.1.017",
+    "6.01.4.002"
+   ],
+   "confunde": "Melanoma: asimetría, bordes irregulares, varios colores, más de 6 mm o evolución.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 178",
+   "auto": true
+  },
+  {
+   "id": "melanoma-nodular",
+   "n": 77,
+   "src": "_web/278_derma_Melanoma_nodular__Commons_3.jpg",
+   "topic": "derma-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Melanoma nodular",
+   "frase": "El subtipo más agresivo: crecimiento vertical desde el inicio, nódulo azul-negro.",
+   "claves": [
+    {
+     "t": "Nódulo negro-azulado en la mejilla",
+     "m": [
+      0.58,
+      0.17,
+      0.06
+     ]
+    },
+    {
+     "t": "A la derecha, la misma zona un año después: E de evolución"
+    }
+   ],
+   "conducta": "Derivar de inmediato y biopsia excisional completa (margen 1–2 mm con hipodermis).",
+   "codes": [
+    "6.01.1.017"
+   ],
+   "confunde": "Nevo común: estable, simétrico y homogéneo.",
+   "q": "EUNACOM Enero 2023 · Pregunta 115",
+   "auto": false
+  },
+  {
+   "id": "melanoma",
+   "n": 78,
+   "src": "biblioteca/11_dermatologia/derma-13/01_melanoma-abcde__amir-derma_p78.jpg",
+   "topic": "derma-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Melanoma: regla ABCDE",
+   "frase": "Asimetría, bordes irregulares, color heterogéneo, diámetro mayor de 6 mm y evolución.",
+   "claves": [
+    {
+     "t": "Asimetría y bordes irregulares",
+     "m": [
+      0.22,
+      0.5,
+      0.08
+     ]
+    },
+    {
+     "t": "Color heterogéneo: negro, azulado, blanco y rojo",
+     "m": [
+      0.63,
+      0.35,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Biopsia excisional completa: nunca shave ni punch (amputan el Breslow).",
+   "codes": [
+    "6.01.1.017",
+    "6.01.5.001"
+   ],
+   "confunde": "Nevo común: simétrico, borde regular, un solo color.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 178",
+   "auto": true
+  },
+  {
+   "id": "melanoma-acral",
+   "n": 80,
+   "src": "biblioteca/19_dermatologia/derma-13/atlas_083_melanoma_lentiginoso_acral_en_.jpg",
+   "topic": "derma-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Melanoma lentiginoso acral subungueal",
+   "frase": "Más de la mitad de los melanomas en Chile; no depende del sol.",
+   "claves": [
+    {
+     "t": "Pigmento que invade el pliegue ungueal (signo de Hutchinson)",
+     "m": [
+      0.62,
+      0.5,
+      0.08
+     ]
+    },
+    {
+     "t": "Lámina ungueal distrófica",
+     "m": [
+      0.55,
+      0.7,
+      0.09
+     ]
+    }
+   ],
+   "conducta": "Sospecharlo aunque no tome sol: biopsia excisional y derivar.",
+   "codes": [
+    "6.01.1.017"
+   ],
+   "confunde": "Melanoniquia sin invasión del pliegue (sin signo de Hutchinson).",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "cbc",
+   "n": 81,
+   "src": "biblioteca/11_dermatologia/derma-14/01_cbc-nodular-perlado__cto-derma_p99.jpg",
+   "topic": "derma-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Carcinoma basocelular nodular",
+   "frase": "Pápula perlada translúcida con telangiectasias y borde arrollado: el cáncer de piel más frecuente.",
+   "claves": [
+    {
+     "t": "Aspecto perlado, translúcido y brillante",
+     "m": [
+      0.45,
+      0.6,
+      0.08
+     ]
+    },
+    {
+     "t": "Telangiectasias superficiales ramificadas",
+     "m": [
+      0.6,
+      0.42,
+      0.06
+     ]
+    },
+    {
+     "t": "Borde arrollado",
+     "m": [
+      0.33,
+      0.5,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Biopsia si hay duda y derivar; escisión con margen cercano a 4 mm o Mohs en la zona H.",
+   "codes": [
+    "6.01.1.003"
+   ],
+   "confunde": "Carcinoma espinocelular: placa queratósica costrosa indurada, que sí metastiza.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 63",
+   "auto": true
+  },
+  {
+   "id": "cbc-rodent",
+   "n": 82,
+   "src": "biblioteca/11_dermatologia/derma-14/01_cbc-nodular-perlado_alt1__amir-derma_p76.jpg",
+   "topic": "derma-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Úlcera de Rodent (CBC ulcerado)",
+   "frase": "El CBC casi no metastiza (< 0,01%), pero destruye cartílago, hueso u órbita.",
+   "claves": [
+    {
+     "t": "Úlcera central que destruye el ala nasal",
+     "m": [
+      0.38,
+      0.4,
+      0.1
+     ]
+    },
+    {
+     "t": "Nariz = zona H de la cara: cirugía de Mohs"
+    }
+   ],
+   "conducta": "Derivar: cirugía micrográfica de Mohs (zona H, recurrente o mayor de 2 cm).",
+   "codes": [
+    "6.01.1.003"
+   ],
+   "confunde": "Carcinoma espinocelular ulcerado (indurado, con riesgo de metástasis).",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 88",
+   "auto": false
+  },
+  {
+   "id": "cec",
+   "n": 83,
+   "src": "biblioteca/11_dermatologia/derma-14/02_cec__cto-derma_p100.jpg",
+   "topic": "derma-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Carcinoma espinocelular",
+   "frase": "Placa o nódulo queratósico indurado que sangra o se ulcera, sobre piel con daño solar.",
+   "claves": [
+    {
+     "t": "Nódulo con costra hiperqueratósica central",
+     "m": [
+      0.5,
+      0.55,
+      0.12
+     ]
+    },
+    {
+     "t": "Piel con daño solar crónico alrededor",
+     "m": [
+      0.2,
+      0.25,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Derivar con prioridad: escisión con margen de 4–6 mm (6–10 mm si es de alto riesgo).",
+   "codes": [
+    "6.01.1.003"
+   ],
+   "confunde": "Queratosis actínica: mácula áspera sin induración.",
+   "q": "EUNACOM Julio 2019 · Pregunta 84",
+   "auto": true
+  },
+  {
+   "id": "cec-labio",
+   "n": 84,
+   "src": "biblioteca/11_dermatologia/derma-14/02_cec_alt1__amir-derma_p77.jpg",
+   "topic": "derma-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Carcinoma espinocelular del labio",
+   "frase": "El labio inferior es de alto riesgo: hasta 15–20% de metástasis.",
+   "claves": [
+    {
+     "t": "Lesión ulcerada del labio inferior",
+     "m": [
+      0.55,
+      0.75,
+      0.11
+     ]
+    },
+    {
+     "t": "Precursor: queilitis actínica"
+    }
+   ],
+   "conducta": "Derivar con prioridad y evaluar los ganglios regionales.",
+   "codes": [
+    "6.01.1.003"
+   ],
+   "confunde": "Carcinoma basocelular: excepcional en mucosas.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 80",
+   "auto": false
+  },
+  {
+   "id": "nevos-displasicos",
+   "n": 85,
+   "src": "_web/279_derma_Nevo_displásico__Commons_1.jpg",
+   "topic": "derma-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Nevos displásicos (atípicos)",
+   "frase": "Marcador de riesgo de melanoma, no lesión maligna; el riesgo sube con más de 50–100 nevos.",
+   "claves": [
+    {
+     "t": "Numerosos nevos en el tronco",
+     "m": [
+      0.55,
+      0.45,
+      0.15
+     ]
+    },
+    {
+     "t": "Buscar el «patito feo»: la lesión distinta de las demás"
+    }
+   ],
+   "conducta": "Atipia leve y estable: fotografía seriada; atipia marcada o cambios: biopsia excisional.",
+   "codes": [
+    "6.01.1.029"
+   ],
+   "confunde": "Melanoma de extensión superficial: ABCDE positivo y evolución.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "cuerno",
+   "n": 86,
+   "src": "biblioteca/11_dermatologia/derma-15/01_cuerno_cutaneo__fitzpatrick_p66.jpg",
+   "topic": "derma-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cuerno cutáneo",
+   "frase": "Protrusión cónica hiperqueratósica: en su base suele haber una queratosis actínica (60%) o un CEC (20%).",
+   "claves": [
+    {
+     "t": "Protrusión cónica hiperqueratósica compacta",
+     "m": [
+      0.52,
+      0.3,
+      0.12
+     ]
+    },
+    {
+     "t": "Base eritematosa: lo que se biopsia",
+     "m": [
+      0.45,
+      0.68,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Biopsiar siempre la base.",
+   "codes": [
+    "6.01.1.029"
+   ],
+   "confunde": "Verruga viral (también puede estar en la base).",
+   "q": "EUNACOM Julio 2019 · Pregunta 84",
+   "auto": true
+  },
+  {
+   "id": "queratosis-actinica",
+   "n": 87,
+   "src": "biblioteca/11_dermatologia/derma-15/01_queratosis-actinica__cto-derma_p96.jpg",
+   "topic": "derma-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Queratosis actínica",
+   "frase": "«Se palpa antes de verse»: mácula eritematosa con escama seca, áspera como papel de lija.",
+   "claves": [
+    {
+     "t": "Mácula eritematosa con escama adherente",
+     "m": [
+      0.45,
+      0.55,
+      0.08
+     ]
+    },
+    {
+     "t": "Piel fotoexpuesta con daño solar",
+     "m": [
+      0.75,
+      0.3,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Aislada: crioterapia; múltiples: tratamiento de campo con imiquimod o 5-fluorouracilo.",
+   "codes": [
+    "6.01.1.029"
+   ],
+   "confunde": "CEC invasor: base indurada o dolor obligan a biopsiar.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "bowen",
+   "n": 88,
+   "src": "biblioteca/19_dermatologia/derma-15/10_enfermedad-de-bowen__fitzpatrick_p2300.jpg",
+   "topic": "derma-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Enfermedad de Bowen",
+   "frase": "Carcinoma espinocelular in situ: placa eritematosa escamosa, solitaria y de crecimiento lento.",
+   "claves": [
+    {
+     "t": "Placa eritematosa, escamosa, bien delimitada",
+     "m": [
+      0.5,
+      0.68,
+      0.1
+     ]
+    },
+    {
+     "t": "No cede con corticoides ni antifúngicos: biopsia"
+    }
+   ],
+   "conducta": "Biopsia; escisión, curetaje, crioterapia, 5-fluorouracilo o imiquimod.",
+   "codes": [
+    "6.01.1.029"
+   ],
+   "confunde": "Eccema numular, psoriasis o tiña: el error clásico.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 81",
+   "auto": true
+  },
+  {
+   "id": "tina-capitis",
+   "n": 36,
+   "src": "biblioteca/11_dermatologia/derma-04/03_tina-capitis__amir-derma_p63.jpg",
+   "topic": "derma-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tiña capitis",
+   "frase": "Exclusiva de niños: placas alopécicas con pelos rotos «en sacapuntas» y escamas.",
+   "claves": [
+    {
+     "t": "Placa alopécica descamativa en la nuca",
+     "m": [
+      0.57,
+      0.55,
+      0.1
+     ]
+    },
+    {
+     "t": "Otra placa vecina",
+     "m": [
+      0.78,
+      0.4,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "SIEMPRE oral: griseofulvina 20–25 mg/kg/día por 6–8 semanas (o terbinafina).",
+   "codes": [
+    "6.01.1.018",
+    "2.01.1.110"
+   ],
+   "confunde": "Alopecia areata: piel lisa sin escama, pelos en signo de exclamación.",
+   "q": "EUNACOM Julio 2017 · Pregunta 20",
+   "auto": true
+  },
+  {
+   "id": "tina-cruris",
+   "n": 90,
+   "src": "_web/376_derma_Tiña_inguinal__Commons_3.jpg",
+   "topic": "derma-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tiña inguinal (cruris)",
+   "frase": "Placa eritematosa en el pliegue inguinal con borde activo; respeta el escroto.",
+   "claves": [
+    {
+     "t": "Borde activo eritematoso y bien definido",
+     "m": [
+      0.66,
+      0.5,
+      0.08
+     ]
+    },
+    {
+     "t": "Descamación sobre la placa",
+     "m": [
+      0.32,
+      0.35,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Antifúngico tópico (terbinafina 1%) 2–3 semanas; KOH del borde activo si hay duda.",
+   "codes": [
+    "6.01.1.018"
+   ],
+   "confunde": "Intértrigo candidiásico: compromete el escroto, con lesiones satélites.",
+   "q": "EUNACOM Julio 2013 · Pregunta 176",
+   "auto": true
+  },
+  {
+   "id": "tina-corporis",
+   "n": 91,
+   "src": "biblioteca/11_dermatologia/derma-16/01_tina-corporis__amir-derma_p62.jpg",
+   "topic": "derma-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tiña corporis",
+   "frase": "Placa anular con borde activo solevantado y descamativo, y centro que aclara.",
+   "claves": [
+    {
+     "t": "Borde activo solevantado y descamativo",
+     "m": [
+      0.66,
+      0.5,
+      0.07
+     ]
+    },
+    {
+     "t": "Centro que aclara",
+     "m": [
+      0.45,
+      0.35,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Terbinafina tópica 1% cada 12 h por 2–3 semanas; KOH raspando el borde.",
+   "codes": [
+    "6.01.1.018",
+    "6.01.4.004"
+   ],
+   "confunde": "Eccema (no dar corticoide a ciegas), pitiriasis rosada y enfermedad de Bowen.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "versicolor",
+   "n": 92,
+   "src": "biblioteca/11_dermatologia/derma-16/02_pitiriasis-versicolor__cto-derma_p21.jpg",
+   "topic": "derma-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pitiriasis versicolor",
+   "frase": "Máculas hipo o hiperpigmentadas con descamación fina al raspar (signo de la uñada).",
+   "claves": [
+    {
+     "t": "Máculas hipopigmentadas confluentes",
+     "m": [
+      0.42,
+      0.3,
+      0.08
+     ]
+    },
+    {
+     "t": "Tronco superior y hombro",
+     "m": [
+      0.85,
+      0.42,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Ketoconazol champú 2% por 2 semanas; KOH: «espaguetis con albóndigas».",
+   "codes": [
+    "6.01.1.018",
+    "6.01.4.004"
+   ],
+   "confunde": "Vitíligo (acrómico, sin escama) y pitiriasis alba.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "escabiosis",
+   "n": 94,
+   "src": "biblioteca/11_dermatologia/derma-16/03_escabiosis-surco_alt1__amir-derma_p69.jpg",
+   "topic": "derma-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Escabiosis",
+   "frase": "Prurito nocturno intenso que afecta a varios en la casa; surcos y vesícula perlada.",
+   "claves": [
+    {
+     "t": "Lesiones excoriadas en la palma",
+     "m": [
+      0.55,
+      0.27,
+      0.08
+     ]
+    },
+    {
+     "t": "Espacio interdigital: buscar el surco acariano",
+     "m": [
+      0.27,
+      0.38,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Permetrina 5% del cuello a los pies, repetir a los 7 días y tratar a TODOS los convivientes.",
+   "codes": [
+    "6.01.1.027",
+    "2.01.1.109"
+   ],
+   "confunde": "Prúrigo infantil: pápulas con punto central, sin surcos ni contactos.",
+   "q": "EUNACOM Julio 2025 · Pregunta 144",
+   "auto": true
+  },
+  {
+   "id": "pitiriasis-rosada",
+   "n": 95,
+   "src": "biblioteca/19_dermatologia/derma-16/10_pitiriasis-rosada-medallon__fitzpatrick_p401.jpg",
+   "topic": "derma-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pitiriasis rosada: placa heráldica",
+   "frase": "Placa oval de 2–5 cm con collarete descamativo; luego el «árbol de Navidad».",
+   "claves": [
+    {
+     "t": "Placa oval rosada (medallón)",
+     "m": [
+      0.45,
+      0.6,
+      0.12
+     ]
+    },
+    {
+     "t": "Collarete de descamación fina",
+     "m": [
+      0.72,
+      0.7,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Explicar la evolución benigna (6–8 semanas), emolientes y antihistamínico; VDRL si hay riesgo sexual.",
+   "codes": [
+    "6.01.1.022"
+   ],
+   "confunde": "Tiña corporis (KOH), sífilis secundaria y psoriasis en gotas.",
+   "q": "EUNACOM Julio 2019 · Pregunta 121",
+   "auto": true
+  },
+  {
+   "id": "tina-pedis",
+   "n": 96,
+   "src": "biblioteca/19_dermatologia/derma-16/atlas_287_tina_pedis_interdigital_macera.jpg",
+   "topic": "derma-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tiña pedis interdigital",
+   "frase": "«Pie de atleta»: maceración y fisuras interdigitales (4.º espacio).",
+   "claves": [
+    {
+     "t": "Maceración y descamación",
+     "m": [
+      0.47,
+      0.32,
+      0.09
+     ]
+    },
+    {
+     "t": "Fisura descamativa",
+     "m": [
+      0.12,
+      0.75,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Terbinafina tópica 2–3 semanas; KOH si hay duda.",
+   "codes": [
+    "6.01.1.018"
+   ],
+   "confunde": "Onicomicosis asociada: se confirma con KOH antes del tratamiento oral.",
+   "q": "EUNACOM Julio 2017 · Pregunta 44",
+   "auto": false
+  },
+  {
+   "id": "queratosis-seborreica",
+   "n": 99,
+   "src": "biblioteca/19_dermatologia/derma-17/03_queratosis-seborreicas__fitzpatrick_p1093.jpg",
+   "topic": "derma-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Queratosis seborreicas",
+   "frase": "Placas verrugosas «pegadas», café a negro, del adulto mayor; no malignizan.",
+   "claves": [
+    {
+     "t": "Placas pardas «pegadas» sobre la piel",
+     "m": [
+      0.4,
+      0.52,
+      0.06
+     ]
+    },
+    {
+     "t": "Múltiples en la cara",
+     "m": [
+      0.72,
+      0.35,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Observar; crioterapia si molestan; biopsia si cambian o hay duda con melanoma.",
+   "codes": [
+    "6.01.1.028"
+   ],
+   "confunde": "Melanoma (ante la duda, biopsia); muchas de golpe con prurito = Leser-Trélat.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "quiste",
+   "n": 109,
+   "src": "biblioteca/19_dermatologia/derma-17/13_quiste-epidermoide__fitzpatrick_p1102.jpg",
+   "topic": "derma-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Quiste epidérmico",
+   "frase": "Nódulo firme y móvil con punctum central y contenido caseoso de queratina.",
+   "claves": [
+    {
+     "t": "Nódulo firme en la mejilla",
+     "m": [
+      0.27,
+      0.72,
+      0.09
+     ]
+    },
+    {
+     "t": "Punctum central: lo distingue del quiste pilar"
+    }
+   ],
+   "conducta": "Extirpar la pared completa fuera de la fase inflamatoria (4–6 semanas después).",
+   "codes": [
+    "6.01.1.028"
+   ],
+   "confunde": "Quiste pilar (liso, sin punctum, cuero cabelludo) y lipoma (blando).",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "lipomas",
+   "n": 110,
+   "src": "biblioteca/19_dermatologia/derma-17/14_lipomas-multiples__fitzpatrick_p1228.jpg",
+   "topic": "derma-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Lipomas múltiples",
+   "frase": "Nódulos subcutáneos blandos, lobulados, móviles e indoloros.",
+   "claves": [
+    {
+     "t": "Nódulo subcutáneo blando en el antebrazo",
+     "m": [
+      0.86,
+      0.45,
+      0.08
+     ]
+    },
+    {
+     "t": "Otro nódulo en el brazo contralateral",
+     "m": [
+      0.12,
+      0.25,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Observar o extirpar; si mide más de 5 cm, es profundo o doloroso: RM y biopsia.",
+   "codes": [
+    "6.01.1.028"
+   ],
+   "confunde": "Liposarcoma: más de 5 cm, profundo, firme, fijo, doloroso o de crecimiento rápido.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "dermatofibroma",
+   "n": 108,
+   "src": "biblioteca/19_dermatologia/derma-17/12_dermatofibroma__fitzpatrick_p594.jpg",
+   "topic": "derma-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Dermatofibroma",
+   "frase": "Pápula firme pardo-rosada de 0,5–1 cm en las piernas de mujeres jóvenes.",
+   "claves": [
+    {
+     "t": "Pápula firme pardo-rosada",
+     "m": [
+      0.52,
+      0.75,
+      0.1
+     ]
+    },
+    {
+     "t": "Al comprimirla lateralmente se deprime: signo del hoyuelo"
+    }
+   ],
+   "conducta": "Benigno y asintomático: se extirpa solo si hay duda o molestia.",
+   "codes": [
+    "6.01.1.028"
+   ],
+   "confunde": "Lesión pigmentada dudosa: ante la duda se extirpa.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "queloide",
+   "n": 111,
+   "src": "biblioteca/19_dermatologia/derma-17/15_queloide-lobulo__nelson_p5268.jpg",
+   "topic": "derma-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Queloide del lóbulo",
+   "frase": "Sobrepasa los bordes de la herida, aparece meses después y no regresa.",
+   "claves": [
+    {
+     "t": "Tumor firme que sobrepasa la perforación del arete",
+     "m": [
+      0.57,
+      0.55,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Triamcinolona intralesional (10–40 mg/mL cada 4–6 semanas) y silicona.",
+   "codes": [
+    "6.01.1.028"
+   ],
+   "confunde": "Cicatriz hipertrófica: respeta los bordes y regresa en 1–2 años.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 64",
+   "auto": true
+  },
+  {
+   "id": "hemangioma-superficial",
+   "n": 100,
+   "src": "biblioteca/19_dermatologia/derma-17/04_hemangioma-superficial-fresa__nelson_p5175.jpg",
+   "topic": "derma-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hemangioma infantil superficial",
+   "frase": "Placa rojo brillante «en fresa»: aparece semanas tras nacer, crece 3–5 meses e involuciona.",
+   "claves": [
+    {
+     "t": "Placa rojo brillante «en fresa»",
+     "m": [
+      0.52,
+      0.5,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "La mayoría se observa (fotos seriadas); propranolol si hay riesgo funcional, ulceración o desfiguración.",
+   "codes": [
+    "6.01.1.013"
+   ],
+   "confunde": "Mancha en vino de Oporto: plana, presente al nacer, no involuciona.",
+   "q": "EUNACOM Julio 2015 · Pregunta 90",
+   "auto": true
+  },
+  {
+   "id": "hemangioma-mixto",
+   "n": 102,
+   "src": "biblioteca/19_dermatologia/derma-17/06_hemangioma-mixto__nelson_p5175.jpg",
+   "topic": "derma-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hemangioma infantil mixto",
+   "frase": "Combina un componente superficial rojo y uno profundo azulado bajo piel normal.",
+   "claves": [
+    {
+     "t": "Componente superficial rojo",
+     "m": [
+      0.6,
+      0.47,
+      0.1
+     ]
+    },
+    {
+     "t": "Componente profundo: abombamiento bajo piel normal",
+     "m": [
+      0.28,
+      0.72,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Cinco o más hemangiomas: ecografía abdominal (compromiso hepático).",
+   "codes": [
+    "6.01.1.013"
+   ],
+   "confunde": "Malformación venosa: masa azulada compresible que crece con el niño.",
+   "q": "EUNACOM Julio 2024 · Pregunta 126",
+   "auto": false
+  },
+  {
+   "id": "hemangioma-periocular",
+   "n": 103,
+   "src": "biblioteca/19_dermatologia/derma-17/07_hemangioma-periocular-segmentario__nelson_p5176.jpg",
+   "topic": "derma-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hemangioma periocular",
+   "frase": "Puede causar ambliopía y astigmatismo: indicación de propranolol.",
+   "claves": [
+    {
+     "t": "Hemangioma en el párpado superior",
+     "m": [
+      0.48,
+      0.42,
+      0.08
+     ]
+    },
+    {
+     "t": "Componente segmentario en frente y sien",
+     "m": [
+      0.75,
+      0.3,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Propranolol oral 2–3 mg/kg/día (partir con 1) y derivar; controlar FC, PA y glicemia.",
+   "codes": [
+    "6.01.1.013"
+   ],
+   "confunde": "Malformación capilar: plana y presente al nacer.",
+   "q": "EUNACOM Agosto 2021 · Pregunta 83",
+   "auto": true
+  },
+  {
+   "id": "hemangioma-segmentario",
+   "n": 97,
+   "src": "biblioteca/19_dermatologia/derma-17/01_hemangioma-infantil-segmentario__fitzpatrick_p1203.jpg",
+   "topic": "derma-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hemangioma infantil segmentario",
+   "frase": "Sigue un territorio de desarrollo: más complicaciones y asociación a síndromes (PHACE).",
+   "claves": [
+    {
+     "t": "Placa roja lobulada en la hemicara",
+     "m": [
+      0.62,
+      0.55,
+      0.1
+     ]
+    },
+    {
+     "t": "Se extiende al cuello y al hombro",
+     "m": [
+      0.75,
+      0.86,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Segmentario facial grande: RM, angio-RM y ecocardiograma; propranolol y derivar.",
+   "codes": [
+    "6.01.1.013"
+   ],
+   "confunde": "Mancha en vino de Oporto: presente al nacer, plana, no involuciona.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "mancha-salmon",
+   "n": 104,
+   "src": "biblioteca/19_dermatologia/derma-17/08_mancha-salmon-nuca__bailey-love_p634.jpg",
+   "topic": "derma-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mancha salmón (nevus simplex)",
+   "frase": "Mácula rosada mal delimitada en el 40–70% de los recién nacidos; en la nuca puede persistir.",
+   "claves": [
+    {
+     "t": "Mácula rosada mal delimitada en la nuca",
+     "m": [
+      0.55,
+      0.6,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Tranquilizar: sin estudio ni tratamiento.",
+   "codes": [
+    "2.01.1.111"
+   ],
+   "confunde": "Mancha en vino de Oporto: bien delimitada, unilateral, se oscurece.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "vino-oporto",
+   "n": 98,
+   "src": "biblioteca/19_dermatologia/derma-17/02_malformacion-capilar-lactante__fitzpatrick_p1694.jpg",
+   "topic": "derma-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Malformación capilar (mancha en vino de Oporto)",
+   "frase": "Presente al nacer, bien delimitada y unilateral; no desaparece y se oscurece con los años.",
+   "claves": [
+    {
+     "t": "Mácula roja bien delimitada, unilateral",
+     "m": [
+      0.62,
+      0.8,
+      0.1
+     ]
+    },
+    {
+     "t": "Mejilla y cuello",
+     "m": [
+      0.9,
+      0.87,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Láser de colorante pulsado (derivar); si compromete V1, descartar Sturge-Weber.",
+   "codes": [
+    "2.01.1.111"
+   ],
+   "confunde": "Hemangioma infantil: no está al nacer, crece y luego involuciona.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "arana",
+   "n": 113,
+   "src": "biblioteca/19_dermatologia/derma-18/01_arana-de-rincon-violin__nelson_p5752.jpg",
+   "topic": "derma-18",
+   "type": "otra",
+   "size": "half",
+   "title": "Araña de rincón (Loxosceles laeta)",
+   "frase": "Pardo amarillenta, 8–15 mm, patas largas y finas, con un violín en el cefalotórax.",
+   "claves": [
+    {
+     "t": "Cefalotórax con la marca en violín",
+     "m": [
+      0.47,
+      0.37,
+      0.07
+     ]
+    },
+    {
+     "t": "Patas largas y finas",
+     "m": [
+      0.82,
+      0.45,
+      0
+     ]
+    }
+   ],
+   "conducta": "Capturarla con un vaso (no con la mano) y llevarla para identificarla; consultar de inmediato.",
+   "codes": [
+    "6.01.2.008",
+    "6.01.3.002"
+   ],
+   "confunde": "La lesión se confunde con pioderma gangrenoso, ectima, fasceítis, celulitis y herpes zóster.",
+   "q": "EUNACOM Enero 2023 · Pregunta 149",
+   "auto": false
+  },
+  {
+   "id": "loxo-placa",
+   "n": 114,
+   "src": "biblioteca/19_dermatologia/derma-18/02_loxoscelismo-placa-violacea__nelson_p5753.jpg",
+   "topic": "derma-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Loxoscelismo cutáneo: placa livedoide",
+   "frase": "A las 6–12 h: placa de bordes geográficos roja, violácea y pálida, a veces con ampolla hemorrágica.",
+   "claves": [
+    {
+     "t": "Placa violácea de bordes geográficos",
+     "m": [
+      0.45,
+      0.48,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Reposo, elevación, frío local (no calor), analgesia y profilaxis antitetánica; control diario 48–72 h.",
+   "codes": [
+    "6.01.2.008"
+   ],
+   "confunde": "Celulitis, ectima, fasceítis necrotizante y herpes zóster.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 89",
+   "auto": true
+  },
+  {
+   "id": "loxo-escara",
+   "n": 117,
+   "src": "biblioteca/19_dermatologia/derma-18/05_loxoscelismo-escara-negra__sherman_p798.jpg",
+   "topic": "derma-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Loxoscelismo: escara negra",
+   "frase": "En 24–72 h se extiende por gravedad y evoluciona a escara negra seca, que demarca en 7–14 días.",
+   "claves": [
+    {
+     "t": "Escara negra seca",
+     "m": [
+      0.45,
+      0.5,
+      0.12
+     ]
+    },
+    {
+     "t": "Bordes geográficos violáceos",
+     "m": [
+      0.25,
+      0.25,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Debridar la escara tardíamente (2–4 semanas), cuando está demarcada; nunca escisión precoz.",
+   "codes": [
+    "6.01.2.008"
+   ],
+   "confunde": "Pioderma gangrenoso, ectima y fasceítis necrotizante.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "loxo-ulcera",
+   "n": 116,
+   "src": "biblioteca/19_dermatologia/derma-18/04_loxoscelismo-ulcera-fibrinosa__nelson_p5753.jpg",
+   "topic": "derma-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Loxoscelismo: úlcera de fondo fibrinoso",
+   "frase": "Al desprenderse la escara queda una úlcera de cicatrización lenta (semanas a meses).",
+   "claves": [
+    {
+     "t": "Úlcera de fondo fibrinoso y bordes netos",
+     "m": [
+      0.42,
+      0.55,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Manejo como herida crónica, con eventual injerto.",
+   "codes": [
+    "6.01.2.008"
+   ],
+   "confunde": "Pioderma gangrenoso: úlcera de borde violáceo y socavado (EII, AR).",
+   "q": null,
+   "auto": false
+  }
+ ],
+ "pairs": [
+  {
+   "a": "melanoma",
+   "b": "nevo",
+   "title": "Melanoma vs nevo común",
+   "la": [
+    "Asimétrico, bordes irregulares",
+    "Varios colores; > 6 mm o en evolución"
+   ],
+   "lb": [
+    "Simétrico, borde regular",
+    "Color homogéneo, < 6 mm, estable"
+   ],
+   "diff": "La E (evolución) es el criterio más sensible: cualquier cambio obliga a biopsia excisional."
+  },
+  {
+   "a": "psoriasis-placa",
+   "b": "eccema-atopico",
+   "title": "Psoriasis vs eccema atópico",
+   "la": [
+    "Placa bien delimitada, escama nacarada",
+    "Superficies de extensión"
+   ],
+   "lb": [
+    "Eccema con xerosis y rascado",
+    "Prurito intenso; pliegues flexurales"
+   ],
+   "diff": "Psoriasis: Auspitz y Koebner. Atopia: sin prurito intenso no hay dermatitis atópica."
+  },
+  {
+   "a": "penfigo-piel",
+   "b": "penfigoide",
+   "title": "Pénfigo vulgar vs penfigoide ampollar",
+   "la": [
+    "Ampollas flácidas que se rompen: erosiones",
+    "Nikolsky positivo; boca en 70–90%"
+   ],
+   "lb": [
+    "Ampollas tensas que resisten días",
+    "Nikolsky negativo; ancianos con prurito"
+   ],
+   "diff": "Intraepidérmica (desmogleína) vs subepidérmica (BP180/BP230): IFD en red vs lineal."
+  },
+  {
+   "a": "em-pie",
+   "b": "dianas-atipicas",
+   "title": "Eritema multiforme vs Stevens-Johnson",
+   "la": [
+    "Diana típica de 3 anillos",
+    "Acral; tras un herpes simple"
+   ],
+   "lb": [
+    "Diana atípica de 2 anillos, centro purpúrico",
+    "Tronco; tras un fármaco"
+   ],
+   "diff": "Cuenta los anillos y busca el Nikolsky: negativo en el eritema multiforme, positivo en el SSJ."
+  },
+  {
+   "a": "net-piel",
+   "b": "sspe",
+   "title": "Necrólisis epidérmica tóxica vs piel escaldada",
+   "la": [
+    "Desprendimiento en sábanas > 30%",
+    "Mucosas comprometidas; fármaco"
+   ],
+   "lb": [
+    "Erosiones superficiales «escaldadas»",
+    "Mucosas respetadas; niño < 6 años"
+   ],
+   "diff": "Ambas tienen Nikolsky positivo: las mucosas deciden. La piel escaldada cura en 5–7 días sin cicatriz."
+  },
+  {
+   "a": "cbc",
+   "b": "cec",
+   "title": "Carcinoma basocelular vs espinocelular",
+   "la": [
+    "Pápula perlada con telangiectasias",
+    "Metástasis < 0,01%"
+   ],
+   "lb": [
+    "Placa o nódulo queratósico costroso",
+    "Sobre queratosis actínica; 2–5% metastiza"
+   ],
+   "diff": "Perlado vs costroso; el espinocelular se deriva con prioridad (labio y oreja: hasta 15–20%)."
+  },
+  {
+   "a": "bowen",
+   "b": "tina-corporis",
+   "title": "Enfermedad de Bowen vs tiña corporis",
+   "la": [
+    "Placa eritematosa escamosa solitaria",
+    "No cede con corticoides ni antifúngicos"
+   ],
+   "lb": [
+    "Placa anular con borde activo",
+    "Centro que aclara; KOH positivo"
+   ],
+   "diff": "Toda placa solitaria que no responde al tratamiento se biopsia."
+  },
+  {
+   "a": "pitiriasis-rosada",
+   "b": "psoriasis-gotas",
+   "title": "Pitiriasis rosada vs psoriasis en gotas",
+   "la": [
+    "Medallón oval con collarete",
+    "Luego «árbol de Navidad» en la espalda"
+   ],
+   "lb": [
+    "Pápulas milimétricas «en gotas»",
+    "1–2 semanas tras faringoamigdalitis"
+   ],
+   "diff": "Busca el medallón previo y pide VDRL si hay riesgo sexual (sífilis secundaria)."
+  },
+  {
+   "a": "hemangioma-superficial",
+   "b": "vino-oporto",
+   "title": "Hemangioma infantil vs malformación capilar",
+   "la": [
+    "No está al nacer; crece 3–5 meses",
+    "Luego involuciona; GLUT-1 positivo"
+   ],
+   "lb": [
+    "Presente al nacer, plana",
+    "Nunca involuciona; GLUT-1 negativo"
+   ],
+   "diff": "Un tumor que crece y se va vs una malformación que crece con el niño."
+  },
+  {
+   "a": "areata",
+   "b": "tina-capitis",
+   "title": "Alopecia areata vs tiña capitis",
+   "la": [
+    "Piel lisa, sin escama",
+    "Pelos en signo de exclamación"
+   ],
+   "lb": [
+    "Placa con escamas y pelos rotos",
+    "Niños; KOH y lámpara de Wood"
+   ],
+   "diff": "La tiña capitis se trata SIEMPRE por vía oral (griseofulvina o terbinafina)."
+  },
+  {
+   "a": "rosacea",
+   "b": "acne-pp",
+   "title": "Rosácea vs acné",
+   "la": [
+    "Pápulas y pústulas sobre eritema",
+    "SIN comedones; mujeres de 30–50 años"
+   ],
+   "lb": [
+    "Comedón + pápulas y pústulas",
+    "Desde la pubertad (andrógenos)"
+   ],
+   "diff": "Busca comedones antes de decidir: si los hay, es acné."
+  },
+  {
+   "a": "contacto-irritativa",
+   "b": "contacto-alergica",
+   "title": "Contacto irritativa vs alérgica",
+   "la": [
+    "Ardor, piel seca y fisurada",
+    "Confinada al contacto; parche negativo"
+   ],
+   "lb": [
+    "Prurito intenso, vesículas",
+    "Sobrepasa el contacto; parche positivo 48–96 h"
+   ],
+   "diff": "Irritativa 80% (no inmune) vs alérgica 20% (tipo IV; el níquel es el alérgeno más frecuente)."
+  },
+  {
+   "a": "urticaria",
+   "b": "purpura-palpable",
+   "title": "Urticaria vs púrpura palpable",
+   "la": [
+    "Habón evanescente < 24 h",
+    "Prurito; sin marca residual"
+   ],
+   "lb": [
+    "Púrpura: no desaparece a la vitropresión",
+    "Vasculitis: buscar la causa"
+   ],
+   "diff": "Habón fijo más de 24–48 h que deja púrpura = vasculitis urticariana: biopsia."
+  }
+ ],
+ "signos": [
+  {
+   "name": "Signo de Nikolsky",
+   "dx": "SSJ/NET, pénfigo vulgar, piel escaldada (negativo en eritema multiforme y penfigoide).",
+   "find": "Nikolsky",
+   "topic": "derma-09",
+   "img": "sspe",
+   "def": "La epidermis se despega con una fricción suave sobre piel eritematosa o perilesional."
+  },
+  {
+   "name": "Signo de Asboe-Hansen",
+   "dx": "Pénfigo vulgar, SSJ/NET.",
+   "find": "Asboe",
+   "topic": "derma-11",
+   "def": "Al comprimir verticalmente una ampolla, el líquido se extiende y despega la piel vecina."
+  },
+  {
+   "name": "Signo de Auspitz (rocío sangrante)",
+   "dx": "Psoriasis.",
+   "find": "Auspitz",
+   "topic": "derma-05",
+   "img": "psoriasis-placa",
+   "def": "Al retirar la membrana del raspado de Brocq queda un punteado hemorrágico fino. Patognomónico."
+  },
+  {
+   "name": "Signo de la bujía (mancha de cera)",
+   "dx": "Psoriasis (1.er paso del raspado de Brocq).",
+   "find": "bujía",
+   "topic": "derma-05",
+   "def": "Al raspar la placa se desprenden virutas blanquecinas, como al raspar una vela."
+  },
+  {
+   "name": "Fenómeno de Koebner",
+   "dx": "Psoriasis, líquen plano, vitíligo, verrugas planas.",
+   "find": "Koebner",
+   "topic": "derma-05",
+   "img": "koebner",
+   "def": "Lesiones típicas que aparecen sobre piel sana traumatizada (herida, roce, rascado)."
+  },
+  {
+   "name": "Signo de Darier",
+   "dx": "Mastocitosis (citado en el solucionario como distractor).",
+   "find": "Darier",
+   "topic": null,
+   "page_pref": 97,
+   "def": "Habón al frotar una lesión."
+  },
+  {
+   "name": "Signo de Hutchinson (uña)",
+   "dx": "Melanoma lentiginoso acral.",
+   "find": "Hutchinson",
+   "topic": "derma-13",
+   "img": "melanoma-acral",
+   "def": "Pigmento que invade el pliegue ungueal cutáneo."
+  },
+  {
+   "name": "Signo de Hutchinson (zóster)",
+   "dx": "Zóster oftálmico: derivar de urgencia a oftalmología.",
+   "find": "Hutchinson",
+   "topic": "derma-12",
+   "def": "Vesículas en la punta de la nariz: anuncian compromiso ocular."
+  },
+  {
+   "name": "Signo de Leser-Trélat",
+   "dx": "Sugiere neoplasia interna, sobre todo digestiva.",
+   "find": "Leser",
+   "topic": "derma-17",
+   "img": "queratosis-seborreica",
+   "def": "Aparición brusca de muchas queratosis seborreicas con prurito."
+  },
+  {
+   "name": "Signo de la uñada (Besnier)",
+   "dx": "Pitiriasis versicolor.",
+   "find": "uñada",
+   "topic": "derma-16",
+   "img": "versicolor",
+   "def": "Descamación fina furfurácea al raspar la mácula."
+  },
+  {
+   "name": "Signo del hoyuelo",
+   "dx": "Dermatofibroma.",
+   "find": "hoyuelo",
+   "topic": "derma-17",
+   "img": "dermatofibroma",
+   "def": "Al comprimir lateralmente la pápula, esta se deprime."
+  },
+  {
+   "name": "Pelos en signo de exclamación",
+   "dx": "Alopecia areata.",
+   "find": "exclamación",
+   "topic": "derma-04",
+   "img": "areata",
+   "def": "Pelos cortos fracturados, más delgados en la base, en el borde de la placa."
+  },
+  {
+   "name": "Prueba de tracción (pull test)",
+   "dx": "Efluvio telógeno.",
+   "find": "pull test",
+   "topic": "derma-04",
+   "def": "Positiva difusa: más de 10 pelos con bulbo al traccionar."
+  },
+  {
+   "name": "Estrías de Wickham",
+   "dx": "Líquen plano.",
+   "find": "Wickham",
+   "topic": "derma-05",
+   "def": "Fina red blanquecina sobre las pápulas violáceas."
+  },
+  {
+   "name": "Signo del patito feo",
+   "dx": "Sospecha de melanoma.",
+   "find": "patito feo",
+   "topic": "derma-13",
+   "img": "nevos-displasicos",
+   "def": "La lesión que no se parece a las demás del paciente."
+  },
+  {
+   "name": "«Árbol de Navidad»",
+   "dx": "Pitiriasis rosada (también: raya central ensanchada en la alopecia femenina).",
+   "find": "Navidad",
+   "topic": "derma-16",
+   "img": "pitiriasis-rosada",
+   "def": "Placas ovales cuyo eje sigue las líneas de Langer en la espalda."
+  },
+  {
+   "name": "Diana en escarapela",
+   "dx": "Eritema multiforme (la diana de 2 anillos es del SSJ).",
+   "find": "escarapela",
+   "topic": "derma-12",
+   "img": "em-pie",
+   "def": "Tres zonas concéntricas: centro oscuro, anillo pálido, halo rojo."
+  },
+  {
+   "name": "Pápulas de Gottron y heliotropo",
+   "dx": "Dermatomiositis: en adultos, buscar neoplasia.",
+   "find": "Gottron",
+   "topic": "derma-01",
+   "def": "Pápulas en los nudillos y eritema violáceo palpebral."
+  }
+ ],
+ "discarded": [
+  {
+   "n": [
+    4,
+    7,
+    11,
+    14,
+    15,
+    16,
+    17,
+    21
+   ],
+   "reason": "Copia casi idéntica (otro tamaño o recorte) de una imagen ya incluida",
+   "src": [
+    "biblioteca/11_dermatologia/derma-01/02_liquenificacion__cto-derma_p9.jpg",
+    "biblioteca/11_dermatologia/derma-01/04_vesicula_alt1_1__amir-derma_p59.jpg",
+    "biblioteca/11_dermatologia/derma-01/06_pustula__amir-derma_p40.jpg",
+    "biblioteca/11_dermatologia/derma-01/09_ulcera__amir-derma_p21.jpg",
+    "biblioteca/11_dermatologia/derma-01/10_papula-umbilicada__amir-derma_p61.jpg",
+    "derma-01/ampolla.jpg",
+    "derma-01/erosion.jpg",
+    "derma-01/placa.jpg"
+   ]
+  },
+  {
+   "n": [
+    13,
+    46,
+    54,
+    56,
+    79,
+    112
+   ],
+   "reason": "Lactante o niño con el torso desnudo: excluida por la regla de menores",
+   "src": [
+    "biblioteca/11_dermatologia/derma-01/08_erosion__amir-derma_p56.jpg",
+    "biblioteca/11_dermatologia/derma-06/01_atopica_lactante__fitzpatrick_p189.jpg",
+    "biblioteca/19_dermatologia/derma-07/atlas_377_costra_lactea_escamas_amarille.jpg",
+    "_verificadas/280_derma_Signo_de_Nikolsky__nelsontext_p5312_1.jpg",
+    "biblioteca/11_dermatologia/derma-13/02_nevus-melanocitico__amir-derma_p99.jpg",
+    "biblioteca/19_dermatologia/derma-17/16_cicatriz-hipertrofica__bailey-love_p644.jpg"
+   ]
+  },
+  {
+   "n": [
+    89
+   ],
+   "reason": "Lámina compuesta con rótulos en inglés y un esquema corporal",
+   "src": [
+    "_verificadas/084_derma_Escabiosis__AtlasClinDx_p176.jpg"
+   ]
+  },
+  {
+   "n": [
+    93
+   ],
+   "reason": "Ilegible: borrosa y sin rótulo",
+   "src": [
+    "biblioteca/11_dermatologia/derma-16/03_escabiosis-surco__cto-derma_p31.jpg"
+   ]
+  },
+  {
+   "n": [
+    101
+   ],
+   "reason": "Ilegible: el hemangioma profundo no se distingue en la foto",
+   "src": [
+    "biblioteca/19_dermatologia/derma-17/05_hemangioma-profundo__nelson_p5175.jpg"
+   ]
+  },
+  {
+   "n": [
+    106
+   ],
+   "reason": "TC con contraste invertido, poco legible para un atlas clínico",
+   "src": [
+    "biblioteca/19_dermatologia/derma-17/10_sturge-weber-tac__nelson_p4657.jpg"
+   ]
+  },
+  {
+   "n": [
+    8,
+    10
+   ],
+   "reason": "Sin rótulo y ambigua (no se sabe qué lesión elemental muestra)",
+   "src": [
+    "biblioteca/11_dermatologia/derma-01/04_vesicula_alt1_2__amir-derma_p59.jpg",
+    "biblioteca/11_dermatologia/derma-01/05_ampolla_alt1__amir-derma_p56.jpg"
+   ]
+  },
+  {
+   "n": [
+    68
+   ],
+   "reason": "Sin rótulo; fase urticarial sin ampollas: no muestra lo que dice el archivo",
+   "src": [
+    "biblioteca/11_dermatologia/derma-11/02_penfigoide-ampolloso-tensas_alt1_2__amir-derma_p49.jpg"
+   ]
+  },
+  {
+   "n": [
+    29
+   ],
+   "reason": "Reacción acneiforme: sin texto en el tomo ni en la clase que la respalde",
+   "src": [
+    "biblioteca/11_dermatologia/derma-02/02_reaccion-acneiforme__cto-derma_p53.jpg"
+   ]
+  },
+  {
+   "n": [
+    6,
+    26,
+    30,
+    33,
+    43,
+    51
+   ],
+   "reason": "Mismo hallazgo que otra imagen incluida, con menos detalle",
+   "src": [
+    "biblioteca/11_dermatologia/derma-01/04_vesicula__cto-derma_p16.jpg",
+    "biblioteca/11_dermatologia/derma-02/01_acne-papulo-pustular__cto-derma_p59.jpg",
+    "biblioteca/11_dermatologia/derma-03/01_rosacea__cto-derma_p60.jpg",
+    "biblioteca/11_dermatologia/derma-04/01_alopecia-areata__cto-derma_p62.jpg",
+    "biblioteca/19_dermatologia/derma-05/10_dactilitis-psoriasica__fitzpatrick_p233.jpg",
+    "biblioteca/11_dermatologia/derma-07/01_eccema-de-contacto_alt1__amir-derma_p93.jpg"
+   ]
+  },
+  {
+   "n": [
+    105
+   ],
+   "reason": "Mancha en vino de Oporto bilateral con la frente oculta: no muestra la clave V1; se prefirió la n.º 98",
+   "src": [
+    "biblioteca/19_dermatologia/derma-17/09_mancha-vino-oporto-cara__kanski_p26.jpg"
+   ]
+  },
+  {
+   "n": [
+    107
+   ],
+   "reason": "Hallazgo ocular inespecífico sin la mancha facial en la misma foto",
+   "src": [
+    "biblioteca/19_dermatologia/derma-17/11_sturge-weber-glaucoma__kanski_p405.jpg"
+   ]
+  },
+  {
+   "n": [
+    115
+   ],
+   "reason": "Misma paciente y etapa intermedia de la úlcera fibrinosa incluida",
+   "src": [
+    "biblioteca/19_dermatologia/derma-18/03_loxoscelismo-ulcera-escara__nelson_p5753.jpg"
+   ]
+  }
+ ],
+ "inventory": {
+  "refs": 238,
+  "unique": 117
+ }
+}

@@ -1,0 +1,725 @@
+{
+ "classId": "resp-06",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "NAC es la infección aguda del parénquima adquirida fuera del hospital o en las primeras {{c1::48 horas}} del ingreso.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Definición",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La NAC es la primera causa de {{c1::muerte infecciosa}} en adultos mayores en Chile.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Por qué importa",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "GES de NAC: personas de {{c1::65 años y más}}, con confirmación radiológica.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · GES",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "GES de NAC: antibiótico en menos de {{c1::24 horas}} desde el ingreso.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · GES",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La bronquitis aguda es casi siempre {{c1::viral}}, con tos < 3 semanas y radiografía normal.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Bronquitis aguda",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.005"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 153"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la bronquitis aguda los antibióticos {{c1::no están indicados}}: no acortan la enfermedad.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Bronquitis aguda",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.005"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Flema purulenta en bronquitis aguda {{c1::no significa infección bacteriana}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Bronquitis aguda",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.005"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La NAC se separa de la bronquitis por taquicardia, taquipnea, fiebre y signos de {{c1::condensación}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo se separa de la NAC",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.005"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Bronquitis con tos > 3 semanas: se reevalúa por tos ferina, asma o {{c1::reflujo}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Bronquitis aguda",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.005"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El germen bacteriano más frecuente de NAC en todas las edades es el {{c1::Streptococcus pneumoniae}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Etiología",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 52"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El neumococo causa más del {{c1::50%}} de las neumonías bacterianas.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Etiología",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el joven sano destacan {{c1::Mycoplasma}} y los virus respiratorios.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Etiología",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 153",
+    "EUNACOM Julio 2013 · Pregunta 107",
+    "EUNACOM Diciembre 2017 · Pregunta 15"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el mayor, fumador o EPOC se asocian {{c1::H. influenzae y Moraxella}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Etiología",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 105",
+    "EUNACOM Julio 2015 · Pregunta 139",
+    "EUNACOM Julio 2017 · Pregunta 153"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con demencia o trastorno deglutorio se sospecha neumonía {{c1::aspirativa}} (anaerobios y gramnegativos).",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Etiología",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Sin radiografía no hay NAC: se exige {{c1::infiltrado nuevo}} (condensación, broncograma aéreo o intersticial).",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Sin radiografía no hay NAC",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.001"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 52",
+    "EUNACOM Agosto 2021 · Pregunta 92"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La radiografía de tórax de la NAC se pide en proyección {{c1::frontal y lateral}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Sin radiografía no hay NAC",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.001"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "PCR, cultivo y TAC {{c1::apoyan}} el diagnóstico de NAC, pero no reemplazan la radiografía.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Sin radiografía no hay NAC",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.001"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un hemitórax radiopaco en la radiografía corresponde a {{c1::derrame pleural masivo}}.",
+   "extra": "Dato de la pregunta real; no es NAC.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Complicaciones supurativas",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.001"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 7"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Muestra de expectoración útil: más de {{c1::25}} polimorfonucleares por campo de 100 aumentos.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Expectoración",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.006"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Muestra útil: menos de {{c1::10}} células epiteliales por campo; si hay muchas escamosas es saliva.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Expectoración",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.006"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la NAC ambulatoria de bajo riesgo el examen de expectoración {{c1::no se pide de rutina}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Cuándo se solicita",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.006"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hemocultivos y antígenos urinarios (neumococo y {{c1::Legionella}}) se piden en la NAC grave.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Cuándo se solicita",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.006"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "CURB-65: C es {{c1::confusión}}, desorientación aguda.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · CURB-65",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "CURB-65: urea > {{c1::42 mg/dL}} (o BUN > 19 mg/dL).",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · CURB-65",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "CURB-65: frecuencia respiratoria ≥ {{c1::30}} por minuto.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · CURB-65",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "CURB-65: PAS < {{c1::90}} mmHg o PAD ≤ 60 mmHg.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · CURB-65",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "CURB-65: edad ≥ {{c1::65}} años; cada parámetro suma 1 punto.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · CURB-65",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "CURB-65 de 0 puntos: mortalidad a 30 días de {{c1::0,7%}}, manejo ambulatorio.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla CURB-65",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "CURB-65 de 1 punto: mortalidad {{c1::2,1%}}; ambulatorio si el punto es la edad.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla CURB-65",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "CURB-65 de 2 puntos: mortalidad {{c1::9,2%}}; sala general o corta estancia.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla CURB-65",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "CURB-65 de 3 puntos: mortalidad {{c1::14,5%}}; sala o UTI, evaluar criterios ATS/IDSA.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla CURB-65",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "CURB-65 de 4 o 5 puntos: mortalidad {{c1::40%}}; UCI inmediata.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla CURB-65",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "CRB-65 (sin urea) para APS: 0 puntos permite manejo {{c1::ambulatorio}} seguro.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · CRB-65",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "CRB-65 de 1 a 2 puntos: {{c1::derivar}} para evaluación hospitalaria.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · CRB-65",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "CRB-65 de 3 o más: {{c1::hospitalización urgente}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · CRB-65",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Criterio mayor ATS/IDSA (basta uno): ventilación invasiva o {{c1::shock séptico con vasopresores}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Criterios ATS/IDSA",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "UCI por criterios menores ATS/IDSA: se necesitan al menos {{c1::3}}.",
+   "extra": "Uno solo no basta.",
+   "origen": "clase:9",
+   "fuente": "Clase · Criterios ATS/IDSA",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Criterio menor ATS/IDSA: PaO2/FiO2 ≤ {{c1::250}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Criterios ATS/IDSA",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Criterio menor ATS/IDSA: leucocitos < {{c1::4.000}} y plaquetas < 100.000.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Criterios ATS/IDSA",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Si la fiebre persiste a las {{c1::72 horas}} de antibiótico adecuado, se repite Rx o TAC.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Fiebre a las 72 horas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fiebre persistente a las 72 horas hace sospechar {{c1::derrame complicado o empiema}}, absceso o germen resistente.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Fiebre a las 72 horas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Toracocentesis ante derrame paraneumónico > {{c1::10 mm}} en decúbito lateral.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Fiebre a las 72 horas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "CURB-65 de 1 punto solo por edad ≥ 65 años: se maneja {{c1::ambulatorio}} si no hay hipoxemia ni riesgo social.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "NAC ambulatoria < 65 años sano: {{c1::amoxicilina}} 1 g cada 8 horas.",
+   "extra": "",
+   "origen": "libro:caso",
+   "fuente": "Libro · caso (tratamiento por lugar)",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 127"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "NAC de bajo riesgo con alergia a penicilina o sospecha de atípico: {{c1::macrólido}} (claritromicina o azitromicina).",
+   "extra": "",
+   "origen": "libro:caso",
+   "fuente": "Libro · caso (tratamiento por lugar)",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 15",
+    "EUNACOM Julio 2013 · Pregunta 107"
+   ]
+  },
+  {
+   "id": "c46",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "NAC ambulatoria ≥ 65 años o comórbido (GES): {{c1::amoxicilina/ácido clavulánico}} 875/125 mg cada 12 horas.",
+   "extra": "",
+   "origen": "libro:caso",
+   "fuente": "Libro · caso (GES)",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 100",
+    "EUNACOM Diciembre 2024 · Pregunta 132",
+    "EUNACOM Julio 2025 · Pregunta 138"
+   ]
+  },
+  {
+   "id": "c47",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "NAC con criterios de hospitalización (CURB-65 = 2): {{c1::ceftriaxona}} EV.",
+   "extra": "Cefotaximo cubre igual.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla CURB-65",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 105",
+    "EUNACOM Julio 2015 · Pregunta 139",
+    "EUNACOM Diciembre 2024 · Pregunta 132",
+    "EUNACOM Julio 2017 · Pregunta 153"
+   ]
+  },
+  {
+   "id": "c48",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "NAC grave en UCI: cefalosporina de tercera generación más {{c1::macrólido o quinolona respiratoria}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla CURB-65",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.027"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 139"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-06/01_consolidacion-lobar__cto-radiologia_p13.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Consolidación lobar: neumonía",
+   "clave": "Opacidad homogénea de un lóbulo con borde nítido en la cisura",
+   "conducta": "Confirma NAC; calcular CURB-65 para decidir el lugar de tratamiento",
+   "fuente": "Manual CTO Radiología 14.ª ed., p. 13",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.001"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-06/02_broncograma-aereo__cto-radiologia_p10.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Broncograma aéreo dentro de una condensación",
+   "clave": "Bronquios con aire visibles dentro del pulmón condensado",
+   "conducta": "Confirma condensación alveolar: NAC si el cuadro clínico es compatible",
+   "fuente": "Manual CTO Radiología 14.ª ed., p. 10",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.001"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.1.0",
+   "pista": "Criterio mayor ATS/IDSA: ¿dónde se trata?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.1.0",
+   "pista": "CURB-65 de 0–1: ¿dónde y con qué control?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.1.1",
+   "pista": "CURB-65 de 2: ¿dónde?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.1.2",
+   "pista": "CURB-65 de 3 o más: ¿qué destino?"
+  }
+ ]
+}

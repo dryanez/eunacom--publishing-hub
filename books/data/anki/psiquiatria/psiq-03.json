@@ -1,0 +1,473 @@
+{
+  "classId": "psiq-03",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La mortalidad por suicidio en Chile ronda los {{c1::10 por 100.000}} habitantes.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Epidemiología",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.001",
+        "5.01.1.029"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las mujeres hacen {{c1::más intentos}} (3 a 4 veces) y los hombres consuman más suicidios (4 a 5 veces).",
+      "extra": "Los hombres usan métodos más letales: ahorcamiento, arma de fuego.",
+      "origen": "clase:1",
+      "fuente": "Clase · Epidemiología",
+      "repaso": true,
+      "codigos": [
+        "5.01.2.001",
+        "5.01.5.003"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El factor de riesgo más potente de suicidio consumado es el {{c1::intento suicida previo}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Factores de riesgo",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.029",
+        "5.01.2.001"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El intento suicida previo multiplica el riesgo de suicidio por {{c1::30 a 40}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Factores de riesgo",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.029",
+        "5.01.2.001"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Edades de mayor riesgo suicida: mayores de 65 años y de {{c1::15 a 24 años}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Factores de riesgo",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.001",
+        "5.01.3.002"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una señal de alarma inminente es la {{c1::calma repentina}} tras desesperanza extrema.",
+      "extra": "También: regalar pertenencias, carta de despedida.",
+      "origen": "clase:3",
+      "fuente": "Clase · Qué sube y qué baja el riesgo",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.001",
+        "5.01.3.002"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Son factores protectores: hijos a cargo, red amplia, empleo y {{c1::alianza terapéutica}} con adherencia.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Qué sube y qué baja el riesgo",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.001"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La entrevista de riesgo parte por ideación pasiva, sigue con ideación activa, planificación y {{c1::acceso al método}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Cómo se pregunta",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.137",
+        "5.01.2.001"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Mito: preguntar por suicidio lo induce. {{c1::Falso}}: alivia y permite intervenir.",
+      "extra": "Evitar el tema es el error típico.",
+      "origen": "clase:5",
+      "fuente": "Clase · Mitos",
+      "repaso": true,
+      "codigos": [
+        "5.01.2.001",
+        "5.01.3.002"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Mito: «quien se quiere suicidar no lo dice». {{c1::Falso}}: casi siempre da señales.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Mitos",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.001",
+        "5.01.3.002"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Mito: «si mejora rápido, el riesgo pasó». Falso: puede ser el momento de {{c1::más riesgo}}.",
+      "extra": "Recupera energía para ejecutar el plan.",
+      "origen": "clase:5",
+      "fuente": "Clase · Mitos",
+      "repaso": true,
+      "codigos": [
+        "5.01.2.001",
+        "5.01.3.002"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En SAD PERSONS cada parámetro presente suma {{c1::1 punto}}; son 10 en total.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · SAD PERSONS",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.001",
+        "5.01.3.002"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En SAD PERSONS la letra «R» es la pérdida del juicio {{c1::racional (psicosis)}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · SAD PERSONS",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.001",
+        "5.01.3.002"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "SAD PERSONS de {{c1::7 a 8}} puntos es riesgo alto: hospitalización obligatoria y vigilancia 1 a 1.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Puntaje y conducta",
+      "repaso": true,
+      "codigos": [
+        "5.01.2.001",
+        "5.01.3.002"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "SAD PERSONS de 5 a 6 puntos: {{c1::psiquiatría urgente}} y definir hospitalización.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Puntaje y conducta",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.001",
+        "5.01.3.002"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "SAD PERSONS de 0 a 2 puntos: manejo ambulatorio con red y control en menos de {{c1::7 días}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Puntaje y conducta",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.001",
+        "5.01.3.002"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Se hospitaliza de inmediato si hay intento reciente de {{c1::mediana o alta letalidad}}.",
+      "extra": "Ahorcamiento, arma, intoxicación grave.",
+      "origen": "clase:8",
+      "fuente": "Clase · Cuándo hospitalizar",
+      "repaso": true,
+      "codigos": [
+        "5.01.5.003",
+        "5.01.1.029"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Voces de comando o delirios de ruina o culpa con ideas suicidas obligan a {{c1::hospitalizar}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Cuándo hospitalizar",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.001",
+        "5.01.3.002"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si no hay red que supervise las {{c1::24 horas}}, la hospitalización manda.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Cuándo hospitalizar",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.001"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras un intento reciente, la vigilancia es {{c1::1 a 1}}: nunca solo, ni en el baño.",
+      "extra": "Retirar cinturón, cordones y fármacos.",
+      "origen": "clase:9",
+      "fuente": "Clase · Paciente tras un intento",
+      "repaso": true,
+      "codigos": [
+        "5.01.5.003",
+        "5.01.1.029"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si el paciente dice que lo volverá a intentar, el error es dar {{c1::alta voluntaria}}; no se da el alta.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": true,
+      "codigos": [
+        "5.01.2.001",
+        "5.01.3.002"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Una «promesa» de no repetirlo no basta: antes de cualquier alta se necesita {{c1::evaluación psiquiátrica}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "5.01.2.001",
+        "5.01.3.002"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tras sobredosis de amitriptilina el examen para estimar el riesgo es el {{c1::electrocardiograma}}.",
+      "extra": "Tricíclicos: trastornos de conducción y arritmias ventriculares (QRS ancho).",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz EUNACOM",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 87"
+      ],
+      "codigos": [
+        "5.01.2.001",
+        "5.01.3.002"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Adolescente tras ingesta de fármacos: pedir {{c1::paracetamolemia}} aunque esté asintomático.",
+      "extra": "Error: alta si se ve bien.",
+      "origen": "clase:15",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": true,
+      "codigos": [
+        "5.01.5.003",
+        "5.01.1.029"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el adolescente que intentó suicidarse el alta es solo tras evaluación de {{c1::psiquiatría infantojuvenil}}.",
+      "extra": "Plan escrito y control en 1 semana.",
+      "origen": "clase:10",
+      "fuente": "Clase · Adolescente",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.003",
+        "5.01.1.029"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El litio reduce intentos y suicidios en bipolar y {{c1::depresión recurrente}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tratamiento antisuicida",
+      "repaso": true,
+      "codigos": [
+        "5.01.5.003",
+        "5.01.2.001"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En esquizofrenia de alto riesgo suicida el fármaco con evidencia es la {{c1::clozapina}}.",
+      "extra": "También en esquizoafectivo.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tratamiento antisuicida",
+      "repaso": true,
+      "codigos": [
+        "5.01.2.001",
+        "5.01.5.003"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En riesgo suicida inminente con depresión psicótica o rechazo alimentario se indica {{c1::TEC}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tratamiento antisuicida",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.001",
+        "5.01.5.003"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En pacientes con riesgo suicida no se recetan {{c1::cajas completas}} de tricíclicos ni benzodiacepinas.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tratamiento antisuicida",
+      "repaso": false,
+      "codigos": [
+        "5.01.2.001",
+        "5.01.3.002"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "La intervención en crisis tiene {{c1::seis}} pasos: contacto, evaluar riesgo, explorar y validar, alternativas, plan y seguimiento.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Intervención en crisis",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.003"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En una crisis, el error es minimizar o {{c1::forzar a contar el trauma}} (debriefing).",
+      "extra": "Se hacen primeros auxilios psicológicos.",
+      "origen": "clase:15",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.003",
+        "5.01.1.029"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Plan letal, intento reciente, psicosis o sin red: ¿conducta?",
+      "codigos": [
+        "5.01.2.001"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0",
+      "pista": "¿Qué tratamiento con evidencia antisuicida?",
+      "codigos": [
+        "5.01.2.001"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "Ideación sin plan y con red sólida: ¿conducta?",
+      "codigos": [
+        "5.01.2.001"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.0",
+      "pista": "Si empeora o persiste: ¿qué se hace?",
+      "codigos": [
+        "5.01.2.001"
+      ]
+    }
+  ]
+}

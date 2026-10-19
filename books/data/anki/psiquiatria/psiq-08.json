@@ -1,0 +1,346 @@
+{
+  "classId": "psiq-08",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El TOC compromete el circuito {{c1::cortico-estriado-tálamo-cortical}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · El círculo del TOC",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.002"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las obsesiones son pensamientos, imágenes o impulsos {{c1::intrusivos y no deseados}} que causan angustia.",
+      "extra": "Temas típicos: contaminación, dudas, orden, daño, tabú.",
+      "origen": "clase:2",
+      "fuente": "Clase · Obsesiones y compulsiones",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.002"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las compulsiones son conductas o {{c1::actos mentales}} (lavar, revisar, rezar, contar) que buscan reducir la angustia.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Obsesiones y compulsiones",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.002"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El ritual da alivio breve, pero {{c1::refuerza}} el círculo obsesión-compulsión.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · El círculo del TOC",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.002"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el TOC las obsesiones o compulsiones consumen más de {{c1::1 hora}} al día o causan deterioro significativo.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.002"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El TOC es {{c1::egodistónico}}: el paciente sabe que es absurdo y sufre.",
+      "extra": "«Sé que no tiene sentido, pero no puedo evitarlo».",
+      "origen": "clase:3",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 155",
+        "EUNACOM Julio 2025 · Pregunta 87",
+        "EUNACOM Julio 2024 · Pregunta 127"
+      ],
+      "codigos": [
+        "5.01.1.002"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La personalidad obsesiva es {{c1::egosintónica}}: el sujeto ve su perfeccionismo como correcto.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · TOC frente a personalidad obsesiva",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.002"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La personalidad obsesiva no tiene {{c1::obsesiones ni rituales}}; el error es tratarla como TOC.",
+      "extra": "Su tratamiento es psicoterapia individual.",
+      "origen": "clase:4",
+      "fuente": "Clase · TOC frente a personalidad obsesiva",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.002"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Imágenes de dañar a un hijo con angustia y evitación son obsesiones de {{c1::TOC}}, no psicosis.",
+      "extra": "Evaluar siempre el riesgo suicida.",
+      "origen": "clase:5",
+      "fuente": "Clase · Lo que asusta al paciente",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 11",
+        "EUNACOM Diciembre 2018 · Pregunta 34",
+        "EUNACOM Diciembre 2019 · Pregunta 15"
+      ],
+      "codigos": [
+        "5.01.1.002"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El miedo a ser pedófilo, con rezo y evitación de niños, es {{c1::TOC}}, no parafilia.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 73",
+        "EUNACOM Julio 2015 · Pregunta 68",
+        "EUNACOM Diciembre 2024 · Pregunta 37"
+      ],
+      "codigos": [
+        "5.01.1.002"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La «voz interior» que ordena lavarse no es alucinación mientras el paciente no la oiga como {{c1::ajena o externa}}.",
+      "extra": "Sabe que es absurdo: TOC, no psicosis.",
+      "origen": "clase:5",
+      "fuente": "Clase · Lo que asusta al paciente",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 13"
+      ],
+      "codigos": [
+        "5.01.1.002"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si cree que le ordenan o le persiguen desde afuera hay que descartar {{c1::psicosis}}.",
+      "extra": "Alucinaciones o delirio.",
+      "origen": "clase:5",
+      "fuente": "Clase · Lo que asusta al paciente",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.002"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La psicoterapia de elección del TOC es la TCC con {{c1::exposición con prevención de respuesta (EPR)}}.",
+      "extra": "Exponerse sin hacer el ritual.",
+      "origen": "clase:6",
+      "fuente": "Clase · EPR y ISRS",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.002"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La primera línea farmacológica del TOC son los {{c1::ISRS}} en dosis altas.",
+      "extra": "Sertralina, fluoxetina; escitalopram o paroxetina también.",
+      "origen": "clase:6",
+      "fuente": "Clase · EPR y ISRS",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 13"
+      ],
+      "codigos": [
+        "5.01.1.002"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En TOC los ISRS se usan hasta el {{c1::doble}} de la dosis de depresión.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · EPR y ISRS",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.002"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Sertralina en TOC: parte en 50 mg y se titula hasta {{c1::150 a 200 mg}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.002"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El ISRS en TOC se evalúa recién tras {{c1::8 a 12 semanas}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Dosis alta y paciencia",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.002"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Si a las {{c1::4 semanas}} no hay cambios, se sube la dosis y se espera 8 a 12 semanas.",
+      "extra": "Error: suspender o pasar a benzodiacepina.",
+      "origen": "clase:11",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.002"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si el TOC no responde, la segunda línea es {{c1::clomipramina}} o potenciación con antipsicótico atípico.",
+      "extra": "Aripiprazol o risperidona en dosis bajas; derivar.",
+      "origen": "clase:7",
+      "fuente": "Clase · Dosis alta y paciencia",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.002"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el TOC las {{c1::benzodiacepinas crónicas}} no sirven.",
+      "extra": "Tampoco antipsicóticos en monoterapia.",
+      "origen": "clase:8",
+      "fuente": "Clase · Errores de manejo",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.002"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Tranquilizar o ayudar al ritual {{c1::refuerza}} el círculo del TOC.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Errores de manejo",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.002"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante dermatitis por lavado de manos, el error es tratar {{c1::solo la piel}}.",
+      "extra": "Hay que tratar también el TOC.",
+      "origen": "clase:8",
+      "fuente": "Clase · Errores de manejo",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.002"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Sabe que es absurdo y sufre: ¿diagnóstico?",
+      "codigos": [
+        "5.01.1.002"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0",
+      "pista": "TOC: ¿tratamiento de base?",
+      "codigos": [
+        "5.01.1.002"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0.0",
+      "pista": "Sin respuesta al ISRS: ¿qué se agrega o cambia?",
+      "codigos": [
+        "5.01.1.002"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.1",
+      "pista": "Cree que es correcto y sin rituales: ¿diagnóstico?",
+      "codigos": [
+        "5.01.1.002"
+      ]
+    }
+  ]
+}

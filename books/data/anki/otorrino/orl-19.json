@@ -1,0 +1,401 @@
+{
+ "classId": "orl-19",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El {{c1::80 a 90%}} de los litos salivales está en la glándula submandibular y su conducto de Wharton.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Sialolitiasis",
+   "repaso": true,
+   "imagen": "biblioteca/17_otorrino/orl-19/01_calculo-conducto-submandibular__bailey-love_p802.jpg",
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Submandibular: conducto largo y {{c1::antigravitatorio}}, saliva rica en mucina, calcio y fosfatos, de pH alcalino.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Por qué submandibular",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cólico salival: dolor y aumento de volumen submandibular {{c1::al comer}}, que cede en 1 a 2 horas.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Cólico salival",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Diagnóstico: palpación {{c1::bimanual}} del piso de boca, ecografía o radiografía oclusal.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento inicial: hidratación, calor, masaje y sialogogos como {{c1::limón}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Lito mayor de {{c1::5 mm}}: extracción transoral (marsupialización) o sialoendoscopía.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Quirúrgico",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Niño de 6 años con dolor y aumento súbito de la parótida: litiasis del conducto de {{c1::Stensen}}.",
+   "extra": "Obstrucción intermitente; analgesia y desobstrucción.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Parotídeo",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 168"
+   ],
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Parotiditis supurada: infección ascendente por el conducto de {{c1::Stenon}}, en ancianos deshidratados o postoperados.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Parotiditis",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Agente en más del {{c1::80%}}: Staphylococcus aureus.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Etiología",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Parotiditis: dolor, eritema preauricular, fiebre, trismus y {{c1::pus}} por la papila de Stenon al exprimir.",
+   "extra": "La papila está frente al segundo molar superior.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clínica",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-19/02_sialadenitis-submandibular-supurada__bailey-love_p802.jpg",
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Parotiditis supurada: hospitalizar, rehidratar y dar {{c1::cloxacilina}} o cefazolina EV.",
+   "extra": "Vancomicina si hay SAMR.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Regla del 80%: 80% de los tumores salivales están en la {{c1::parótida}}, 80% de ellos son benignos y 80% de los benignos son adenomas pleomorfos.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Regla del 80%",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cuanto menor la glándula, más maligno: parótida 20%, submandibular {{c1::50%}}, glándulas menores 80%.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Malignidad",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Adenoma pleomorfo (tumor mixto benigno): nódulo parotídeo firme, móvil, {{c1::indoloro}} y de crecimiento lento.",
+   "extra": "Nódulo preauricular de 4 cm de 6 meses; tumor de 2 cm sobre la rama mandibular.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Adenoma pleomorfo",
+   "repaso": true,
+   "imagen": "biblioteca/17_otorrino/orl-19/03_tumor-parotideo-benigno__bailey-love_p809.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 71",
+    "EUNACOM Julio 2024 · Pregunta 178"
+   ],
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Una masa parotídea con {{c1::parálisis facial}} es cáncer hasta demostrar lo contrario.",
+   "extra": "El adenoma pleomorfo nunca compromete el nervio facial.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Facial",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estudio del adenoma: {{c1::PAAF}} guiada por ecografía y RM o TAC de cuello.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Estudio",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento: {{c1::parotidectomía superficial}} con preservación obligatoria del nervio facial.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Cirugía",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La enucleación simple está prohibida: recurrencia mayor de {{c1::40%}} por pseudópodos microscópicos.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Enucleación",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Carcinoma ex-adenoma pleomorfo: {{c1::5-10%}} a los 15-20 años.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Malignización",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Carcinoma salival: masa pétrea y fija con parálisis facial; parotidectomía total y {{c1::vaciamiento cervical}}.",
+   "extra": "Adenoide quístico y mucoepidermoide.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Cáncer",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cólico al comer se asocia a sialolitiasis; fiebre con pus por Stenon, a parotiditis; nódulo móvil de años, a {{c1::adenoma pleomorfo}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-19/01_calculo-conducto-submandibular__bailey-love_p802.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Cálculo en el Wharton",
+   "clave": "Cálculo en el conducto submandibular bajo la lengua",
+   "conducta": "Sialogogos e hidratación; extracción si es mayor de 5 mm",
+   "fuente": "Bailey & Love 27.ª ed., p. 802",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 168"
+   ],
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-19/02_sialadenitis-submandibular-supurada__bailey-love_p802.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Sialadenitis supurada",
+   "clave": "Aumento de volumen glandular con pus",
+   "conducta": "Hospitalizar y antibiótico antiestafilocócico EV",
+   "fuente": "Bailey & Love 27.ª ed., p. 802",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-19/03_tumor-parotideo-benigno__bailey-love_p809.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Tumor parotídeo benigno",
+   "clave": "Nódulo parotídeo liso, móvil e indoloro",
+   "conducta": "PAAF y parotidectomía superficial",
+   "fuente": "Bailey & Love 27.ª ed., p. 809",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 71"
+   ],
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Dolor al comer en la región submandibular: ¿diagnóstico?",
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1",
+   "pista": "Fiebre, dolor parotídeo y pus por Stenon: ¿diagnóstico?",
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.2.0",
+   "pista": "Nódulo parotídeo móvil sin parálisis facial: ¿conducta?",
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.2.1",
+   "pista": "Masa parotídea fija con parálisis facial: ¿conducta?",
+   "codigos": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ]
+  }
+ ]
+}

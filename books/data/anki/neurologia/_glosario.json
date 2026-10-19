@@ -1,0 +1,1501 @@
+{
+ "_doc": "Glosario clicable del mazo Anki (popover en el reverso). 'def' se escribe a mano desde el libro (sin cifras nuevas) y se conserva al regenerar; pagina/clase/t/url los recalcula conceptos.py. Términos y alias: books/scripts/anki/vocab_*.txt.",
+ "libro": "neurologia",
+ "pdf": "books/dist/Modulo_1_Medicina_Interna/Manual_EUNACOM_Neurologia_Completo_2026.pdf",
+ "terminos": {
+  "ACV_isquemico": {
+   "termino": "ACV isquémico",
+   "tipo": "Concepto",
+   "alias": [
+    "ACV isquémico",
+    "accidente cerebrovascular isquémico",
+    "infarto cerebral",
+    "ictus isquémico"
+   ],
+   "def": "Infarto cerebral por oclusión arterial. La trombolisis IV se indica hasta 4.5 horas desde el inicio de los síntomas; un TAC sin contraste normal no la contraindica.",
+   "pagina": 5,
+   "clase": "neuro-01",
+   "claseTitulo": "10.1 Accidente Cerebrovascular Isquémico: Diagnóstico, Ventana Terapéutica, Trombolisis IV (Alteplase/Tenecteplase) y Trombectomía Mecánica GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Penumbra_isquemica": {
+   "termino": "Penumbra isquémica",
+   "tipo": "Concepto",
+   "alias": [
+    "penumbra isquémica",
+    "penumbra"
+   ],
+   "def": "Tejido cerebral con neuronas silentes pero metabólicamente viables, que rodea el núcleo del infarto. Puede recuperarse si la reperfusión es rápida; si no, el núcleo se expande.",
+   "pagina": 5,
+   "clase": "neuro-01",
+   "claseTitulo": "10.1 Accidente Cerebrovascular Isquémico: Diagnóstico, Ventana Terapéutica, Trombolisis IV (Alteplase/Tenecteplase) y Trombectomía Mecánica GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Ataque_isquemico_transitorio": {
+   "termino": "Ataque isquémico transitorio",
+   "tipo": "Concepto",
+   "alias": [
+    "ataque isquémico transitorio",
+    "AIT"
+   ],
+   "def": "Episodio focal transitorio sin infarto en neuroimagen; la mayoría dura menos de 60 minutos. Es urgencia: la mitad de los infartos posteriores ocurren dentro de 48 horas.",
+   "pagina": 11,
+   "clase": "neuro-02",
+   "claseTitulo": "10.2 Ataque Isquémico Transitorio (AIT): Score ABCD2, Estratificación de Riesgo Precoz y Prevención Secundaria",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 19
+  },
+  "Score_ABCD2": {
+   "termino": "Score ABCD2",
+   "tipo": "Concepto",
+   "alias": [
+    "ABCD2"
+   ],
+   "def": "Escala de estratificación del riesgo de ACV tras un AIT.",
+   "pagina": 11,
+   "clase": "neuro-02",
+   "claseTitulo": "10.2 Ataque Isquémico Transitorio (AIT): Score ABCD2, Estratificación de Riesgo Precoz y Prevención Secundaria",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 11
+  },
+  "Hemorragia_subaracnoidea": {
+   "termino": "Hemorragia subaracnoidea",
+   "tipo": "Concepto",
+   "alias": [
+    "hemorragia subaracnoidea",
+    "HSA"
+   ],
+   "def": "Sangrado en el espacio subaracnoideo. La hidrocefalia aguda ocurre en el 20-30% de las HSA; su ausencia en la primera hora no descarta una HSA.",
+   "pagina": 23,
+   "clase": "neuro-04",
+   "claseTitulo": "10.4 Hemorragia Subaracnoidea (HSA) Aneurismática: Cefalea en Trueno, TAC precoz, Punción Lumbar (xantocromía), Escalas Hunt & Hess y Fisher, Nimodipino",
+   "diapositiva": 15,
+   "t": 875.1,
+   "mmss": "14:35",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-04&t=875&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-04&t=875",
+   "notas": 10
+  },
+  "Aneurisma_cerebral": {
+   "termino": "Aneurisma cerebral",
+   "tipo": "Concepto",
+   "alias": [
+    "aneurisma cerebral",
+    "aneurisma sacular",
+    "aneurismas"
+   ],
+   "def": "Dilatación en puntos de ramificación del Polígono de Willis. Su rotura es la causa no traumática más frecuente de HSA (85%); se trata con coiling o clipaje.",
+   "pagina": 23,
+   "clase": "neuro-04",
+   "claseTitulo": "10.4 Hemorragia Subaracnoidea (HSA) Aneurismática: Cefalea en Trueno, TAC precoz, Punción Lumbar (xantocromía), Escalas Hunt & Hess y Fisher, Nimodipino",
+   "diapositiva": 1,
+   "t": 33.1,
+   "mmss": "0:33",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-04&t=33&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-04&t=33",
+   "notas": 2
+  },
+  "Escala_de_Hunt_y_Hess": {
+   "termino": "Escala de Hunt y Hess",
+   "tipo": "Concepto",
+   "alias": [
+    "Hunt y Hess",
+    "Hunt & Hess",
+    "Hunt-Hess"
+   ],
+   "def": "Escala clínica preoperatoria para estratificar la HSA. El grado I corresponde a asintomático o cefalea leve con rigidez mínima.",
+   "pagina": 23,
+   "clase": "neuro-04",
+   "claseTitulo": "10.4 Hemorragia Subaracnoidea (HSA) Aneurismática: Cefalea en Trueno, TAC precoz, Punción Lumbar (xantocromía), Escalas Hunt & Hess y Fisher, Nimodipino",
+   "diapositiva": 9,
+   "t": 537.3,
+   "mmss": "8:57",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-04&t=537&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-04&t=537",
+   "notas": 2
+  },
+  "Escala_de_Fisher": {
+   "termino": "Escala de Fisher",
+   "tipo": "Concepto",
+   "alias": [
+    "escala de Fisher",
+    "Fisher"
+   ],
+   "def": "Escala tomográfica que predice el riesgo de vasoespasmo según la sangre subaracnoidea e intraventricular en el TAC.",
+   "pagina": 23,
+   "clase": "neuro-04",
+   "claseTitulo": "10.4 Hemorragia Subaracnoidea (HSA) Aneurismática: Cefalea en Trueno, TAC precoz, Punción Lumbar (xantocromía), Escalas Hunt & Hess y Fisher, Nimodipino",
+   "diapositiva": 9,
+   "t": 537.3,
+   "mmss": "8:57",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-04&t=537&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-04&t=537",
+   "notas": 4
+  },
+  "Vasoespasmo": {
+   "termino": "Vasoespasmo",
+   "tipo": "Concepto",
+   "alias": [
+    "vasoespasmo"
+   ],
+   "def": "Complicación tras una HSA que puede causar infartos tardíos. La hipovolemia lo desencadena, por lo que la restricción hídrica está contraindicada.",
+   "pagina": 23,
+   "clase": "neuro-04",
+   "claseTitulo": "10.4 Hemorragia Subaracnoidea (HSA) Aneurismática: Cefalea en Trueno, TAC precoz, Punción Lumbar (xantocromía), Escalas Hunt & Hess y Fisher, Nimodipino",
+   "diapositiva": 11,
+   "t": 671.5,
+   "mmss": "11:11",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-04&t=671&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-04&t=671",
+   "notas": 3
+  },
+  "Trombosis_venosa_cerebral": {
+   "termino": "Trombosis venosa cerebral",
+   "tipo": "Concepto",
+   "alias": [
+    "trombosis venosa cerebral",
+    "trombosis de senos venosos",
+    "TVC"
+   ],
+   "def": "Trombosis de venas cerebrales que afecta sobre todo a mujeres jóvenes con factores protrombóticos. Su pilar es la anticoagulación parenteral plena inmediata, aun con infartos hemorrágicos.",
+   "pagina": 30,
+   "clase": "neuro-05",
+   "claseTitulo": "10.5 Trombosis Venosa Cerebral: Factores Protrombóticos, Sospecha Clínica, Neuroimagen y Anticoagulación Plena",
+   "diapositiva": 6,
+   "t": 338.9,
+   "mmss": "5:39",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-05&t=338&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-05&t=338",
+   "notas": 17
+  },
+  "Migrana": {
+   "termino": "Migraña",
+   "tipo": "Concepto",
+   "alias": [
+    "migraña",
+    "migrañas"
+   ],
+   "def": "Cefalea cuya fase de dolor se origina por activación del sistema trigéminovascular. Sus subtipos con riesgo neurológico incluyen la migraña hemipléjica.",
+   "pagina": 38,
+   "clase": "neuro-06",
+   "claseTitulo": "10.6 Migraña (Fisiopatología, Criterios IHS, Triptanes y Profilaxis) y Cefalea Tensional",
+   "diapositiva": 2,
+   "t": 114.3,
+   "mmss": "1:54",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-06&t=114&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-06&t=114",
+   "notas": 15
+  },
+  "Cefalea_tensional": {
+   "termino": "Cefalea tensional",
+   "tipo": "Concepto",
+   "alias": [
+    "cefalea tensional",
+    "cefalea tipo tensión"
+   ],
+   "def": "Cefalea más frecuente a nivel poblacional, bilateral y opresiva ('en banda o casco'), leve a moderada, que nunca cursa con náuseas ni vómitos.",
+   "pagina": 38,
+   "clase": "neuro-06",
+   "claseTitulo": "10.6 Migraña (Fisiopatología, Criterios IHS, Triptanes y Profilaxis) y Cefalea Tensional",
+   "diapositiva": 4,
+   "t": 251.8,
+   "mmss": "4:12",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-06&t=251&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-06&t=251",
+   "notas": 3
+  },
+  "Neuralgia_del_trigemino": {
+   "termino": "Neuralgia del trigémino",
+   "tipo": "Concepto",
+   "alias": [
+    "neuralgia del trigémino",
+    "neuralgia trigeminal"
+   ],
+   "def": "Paroxismos lancinantes ultrabreves (segundos) en territorio V2-V3, desencadenados por zonas gatillo. Primera línea: carbamazepina; cirugía curativa: descompresión de Jannetta.",
+   "pagina": 44,
+   "clase": "neuro-07",
+   "claseTitulo": "10.7 Cefalea en Racimos (Cluster) y Neuralgia del Trigémino: Diagnóstico Diferencial, Manejo Agudo y Preventivo",
+   "diapositiva": 4,
+   "t": 205.5,
+   "mmss": "3:26",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-07&t=205&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-07&t=205",
+   "notas": 6
+  },
+  "Epilepsia": {
+   "termino": "Epilepsia",
+   "tipo": "Concepto",
+   "alias": [
+    "epilepsia",
+    "epilepsias"
+   ],
+   "def": "Diagnóstico fundamentalmente clínico, basado en anamnesis a testigos; un EEG normal no la descarta. Es refractaria tras fallar dos FAEs bien tolerados y apropiados.",
+   "pagina": 47,
+   "clase": "neuro-08",
+   "claseTitulo": "10.8 Epilepsia del Adulto: Clasificación ILAE, Fármacos Antiepilépticos y Monitorización GES",
+   "diapositiva": 12,
+   "t": 686.4,
+   "mmss": "11:26",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-08&t=686&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-08&t=686",
+   "notas": 15
+  },
+  "Crisis_focal": {
+   "termino": "Crisis focal",
+   "tipo": "Concepto",
+   "alias": [
+    "crisis focal",
+    "crisis focales",
+    "crisis parcial"
+   ],
+   "def": "Crisis que se inicia en una región cerebral y puede propagarse y sincronizarse bilateralmente en toda la corteza.",
+   "pagina": 47,
+   "clase": "neuro-08",
+   "claseTitulo": "10.8 Epilepsia del Adulto: Clasificación ILAE, Fármacos Antiepilépticos y Monitorización GES",
+   "diapositiva": 14,
+   "t": 808.5,
+   "mmss": "13:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-08&t=808&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-08&t=808",
+   "notas": 3
+  },
+  "Crisis_tonico_clonica_generalizada": {
+   "termino": "Crisis tónico-clónica generalizada",
+   "tipo": "Concepto",
+   "alias": [
+    "crisis tónico-clónica",
+    "crisis tonicoclónica",
+    "crisis generalizada"
+   ],
+   "def": "Crisis generalizada tónico-clónica. En crisis idiopáticas, el valproato es el más efectivo en varones; carbamazepina, fenitoína, gabapentina y pregabalina están contraindicadas.",
+   "pagina": 49,
+   "clase": "neuro-08",
+   "claseTitulo": "10.8 Epilepsia del Adulto: Clasificación ILAE, Fármacos Antiepilépticos y Monitorización GES",
+   "diapositiva": 14,
+   "t": 808.5,
+   "mmss": "13:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-08&t=808&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-08&t=808",
+   "notas": 2
+  },
+  "Estado_epileptico": {
+   "termino": "Estado epiléptico",
+   "tipo": "Concepto",
+   "alias": [
+    "status epiléptico",
+    "estado epiléptico",
+    "status convulsivo"
+   ],
+   "def": "Crisis de 5 minutos o más, o crisis repetidas sin recuperación de conciencia entre ellas. Si persiste tras 30 minutos del protocolo, se clasifica como refractario (SEER).",
+   "pagina": 53,
+   "clase": "neuro-09",
+   "claseTitulo": "10.9 Status Epiléptico Convulsivo: Protocolo Escalonado de Rescate y Neurointensivo",
+   "diapositiva": null,
+   "t": 0,
+   "mmss": "0:00",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-09&t=0",
+   "notas": 4
+  },
+  "Primera_crisis_convulsiva": {
+   "termino": "Primera crisis convulsiva",
+   "tipo": "Concepto",
+   "alias": [
+    "primera crisis convulsiva",
+    "primera crisis"
+   ],
+   "def": "Requiere evaluación protocolizada y diferenciar crisis sintomática aguda de crisis no provocada. Se diagnostica epilepsia si el riesgo de recurrencia supera el 60% en 10 años.",
+   "pagina": 59,
+   "clase": "neuro-10",
+   "claseTitulo": "10.10 Primera Crisis Convulsiva del Adulto y Diagnóstico Diferencial con Síncope: Enfrentamiento, Criterios de Inicio de FAE y Banderas Rojas",
+   "diapositiva": 12,
+   "t": 691.2,
+   "mmss": "11:31",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-10&t=691&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-10&t=691",
+   "notas": 6
+  },
+  "Sincope": {
+   "termino": "Síncope",
+   "tipo": "Concepto",
+   "alias": [
+    "síncope",
+    "síncopes"
+   ],
+   "def": "Pérdida transitoria de conciencia. El vasovagal cursa con pródromos autonómicos graduales; si hay mordedura de lengua, se localiza en la punta.",
+   "pagina": 59,
+   "clase": "neuro-10",
+   "claseTitulo": "10.10 Primera Crisis Convulsiva del Adulto y Diagnóstico Diferencial con Síncope: Enfrentamiento, Criterios de Inicio de FAE y Banderas Rojas",
+   "diapositiva": 3,
+   "t": 125.7,
+   "mmss": "2:06",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-10&t=125&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-10&t=125",
+   "notas": 9
+  },
+  "Enfermedad_de_Parkinson": {
+   "termino": "Enfermedad de Parkinson",
+   "tipo": "Concepto",
+   "alias": [
+    "enfermedad de Parkinson",
+    "Parkinson"
+   ],
+   "def": "Diagnóstico clínico: bradicinesia con temblor de reposo (4-6 Hz) y/o rigidez en rueda dentada. Caídas tempranas o parálisis de la mirada vertical hacia abajo sugieren Parkinson-plus.",
+   "pagina": 66,
+   "clase": "neuro-11",
+   "claseTitulo": "10.11 Enfermedad de Parkinson: Criterios Diagnósticos MDS, Terapia con Levodopa y Fluctuaciones Motoras",
+   "diapositiva": 13,
+   "t": 828.0,
+   "mmss": "13:48",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-11&t=828&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-11&t=828",
+   "notas": 19
+  },
+  "Parkinsonismo": {
+   "termino": "Parkinsonismo",
+   "tipo": "Concepto",
+   "alias": [
+    "parkinsonismo",
+    "parkinsonismos",
+    "Parkinson-plus"
+   ],
+   "def": "Síndrome con bradicinesia y rigidez. El inducido por fármacos es la causa secundaria más común y se presenta de forma subaguda, bilateral y simétrica.",
+   "pagina": 72,
+   "clase": "neuro-12",
+   "claseTitulo": "10.12 Parkinsonismos Secundarios, Farmacológicos y Síndromes Parkinson-Plus",
+   "diapositiva": 5,
+   "t": 284.8,
+   "mmss": "4:45",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-12&t=284&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-12&t=284",
+   "notas": 17
+  },
+  "Temblor_esencial": {
+   "termino": "Temblor esencial",
+   "tipo": "Concepto",
+   "alias": [
+    "temblor esencial"
+   ],
+   "def": "Trastorno del movimiento más común, postural y de acción, bilateral y simétrico, de 8 a 12 Hz, que mejora con alcohol. No afecta piernas en reposo; propranolol o primidona son primera línea.",
+   "pagina": 76,
+   "clase": "neuro-13",
+   "claseTitulo": "10.13 Temblor Esencial vs Parkinsoniano y Distonías Agudas por Neurolépticos",
+   "diapositiva": 10,
+   "t": 552.7,
+   "mmss": "9:13",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-13&t=552&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-13&t=552",
+   "notas": 9
+  },
+  "Distonia_aguda": {
+   "termino": "Distonía aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "distonía aguda",
+    "distonías agudas",
+    "distonía"
+   ],
+   "def": "Contracción muscular involuntaria y dolorosa por bloqueo D2 de fármacos como metoclopramida o haloperidol, habitualmente dentro de 24 a 48 horas. Biperideno es la conducta de elección.",
+   "pagina": 76,
+   "clase": "neuro-13",
+   "claseTitulo": "10.13 Temblor Esencial vs Parkinsoniano y Distonías Agudas por Neurolépticos",
+   "diapositiva": 8,
+   "t": 427.5,
+   "mmss": "7:07",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-13&t=427&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-13&t=427",
+   "notas": 5
+  },
+  "Enfermedad_de_Alzheimer": {
+   "termino": "Enfermedad de Alzheimer",
+   "tipo": "Concepto",
+   "alias": [
+    "enfermedad de Alzheimer",
+    "Alzheimer"
+   ],
+   "def": "Causa más prevalente de demencia (> 60-70%); su manifestación inicial es la amnesia anterógrada. El tratamiento de primera línea son los inhibidores de la acetilcolinesterasa.",
+   "pagina": 80,
+   "clase": "neuro-14",
+   "claseTitulo": "10.14 Enfermedad de Alzheimer y Deterioro Cognitivo Leve",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 18
+  },
+  "Deterioro_cognitivo_leve": {
+   "termino": "Deterioro cognitivo leve",
+   "tipo": "Concepto",
+   "alias": [
+    "deterioro cognitivo leve",
+    "DCL"
+   ],
+   "def": "Deterioro cognitivo sin delirium ni trastorno psiquiátrico mayor. No están indicados los inhibidores de acetilcolinesterasa en DCL.",
+   "pagina": 80,
+   "clase": "neuro-14",
+   "claseTitulo": "10.14 Enfermedad de Alzheimer y Deterioro Cognitivo Leve",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Demencia_vascular": {
+   "termino": "Demencia vascular",
+   "tipo": "Concepto",
+   "alias": [
+    "demencia vascular"
+   ],
+   "def": "Segunda causa de demencia en el adulto (15% a 20%), con curso escalonado y signos focales. Manejo: control de factores de riesgo y aspirina 100 mg/día.",
+   "pagina": 88,
+   "clase": "neuro-15",
+   "claseTitulo": "10.15 Demencia Vascular, Demencia por Cuerpos de Lewy y Demencia Frontotemporal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Demencia_por_cuerpos_de_Lewy": {
+   "termino": "Demencia por cuerpos de Lewy",
+   "tipo": "Concepto",
+   "alias": [
+    "cuerpos de Lewy"
+   ],
+   "def": "Segunda demencia neurodegenerativa tras Alzheimer (10% a 15%), con fluctuación cognitiva, alucinaciones visuales y parkinsonismo. Los antipsicóticos típicos están contraindicados.",
+   "pagina": 88,
+   "clase": "neuro-15",
+   "claseTitulo": "10.15 Demencia Vascular, Demencia por Cuerpos de Lewy y Demencia Frontotemporal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Demencia_frontotemporal": {
+   "termino": "Demencia frontotemporal",
+   "tipo": "Concepto",
+   "alias": [
+    "demencia frontotemporal"
+   ],
+   "def": "Causa más común de demencia presenil (< 65 años), con desinhibición, apatía y pérdida de empatía con memoria conservada. Agregación familiar en un tercio de los casos.",
+   "pagina": 88,
+   "clase": "neuro-15",
+   "claseTitulo": "10.15 Demencia Vascular, Demencia por Cuerpos de Lewy y Demencia Frontotemporal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Sindrome_de_Guillain_Barre": {
+   "termino": "Síndrome de Guillain-Barré",
+   "tipo": "Concepto",
+   "alias": [
+    "Guillain-Barré",
+    "Guillain Barré",
+    "SGB"
+   ],
+   "def": "Un LCR inicial normal no descarta SGB. Los corticoides están contraindicados como monoterapia, y la succinilcolina está contraindicada para intubar.",
+   "pagina": 95,
+   "clase": "neuro-16",
+   "claseTitulo": "10.16 Síndrome de Guillain-Barré: Polirradiculoneuropatía Aguda, Albúmino-citológico y Manejo Intensivo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 24
+  },
+  "Miastenia_gravis": {
+   "termino": "Miastenia gravis",
+   "tipo": "Concepto",
+   "alias": [
+    "miastenia gravis",
+    "miastenia"
+   ],
+   "def": "Trastorno autoinmune postsináptico con debilidad fluctuante y fatigabilidad. Las pupilas son siempre normales; la midriasis o arreflexia pupilar descarta miastenia.",
+   "pagina": 101,
+   "clase": "neuro-17",
+   "claseTitulo": "10.17 Miastenia Gravis: Fisiopatología (anti-AChR, anti-MuSK), Crisis Miasténica y Timoma",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 21
+  },
+  "Crisis_miastenica": {
+   "termino": "Crisis miasténica",
+   "tipo": "Concepto",
+   "alias": [
+    "crisis miasténica"
+   ],
+   "def": "Insuficiencia respiratoria o disfagia severa en miastenia. La desencadenan aminoglucósidos, fluoroquinolonas, betabloqueadores, sulfato de magnesio EV y curarizantes.",
+   "pagina": 101,
+   "clase": "neuro-17",
+   "claseTitulo": "10.17 Miastenia Gravis: Fisiopatología (anti-AChR, anti-MuSK), Crisis Miasténica y Timoma",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Timoma": {
+   "termino": "Timoma",
+   "tipo": "Concepto",
+   "alias": [
+    "timoma"
+   ],
+   "def": "Neoplasia epitelial del timo, presente en un 10 a 15% de los pacientes con miastenia. La timectomía es obligatoria si hay timoma comprobado.",
+   "pagina": 101,
+   "clase": "neuro-17",
+   "claseTitulo": "10.17 Miastenia Gravis: Fisiopatología (anti-AChR, anti-MuSK), Crisis Miasténica y Timoma",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Esclerosis_multiple": {
+   "termino": "Esclerosis múltiple",
+   "tipo": "Concepto",
+   "alias": [
+    "esclerosis múltiple"
+   ],
+   "def": "Enfermedad autoinmune desmielinizante del SNC, típica de mujeres de 20-45 años; la forma remitente-recurrente representa el 85% de los debuts.",
+   "pagina": 107,
+   "clase": "neuro-18",
+   "claseTitulo": "10.18 Esclerosis Múltiple: Criterios de McDonald, Bandas Oligoclonales y Terapia Modificadora de Enfermedad",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Criterios_de_McDonald": {
+   "termino": "Criterios de McDonald",
+   "tipo": "Concepto",
+   "alias": [
+    "McDonald"
+   ],
+   "def": "Criterios para diagnosticar EM por diseminación en espacio y en tiempo. Desde 2017, las bandas oligoclonales IgG en LCR sustituyen la diseminación en tiempo.",
+   "pagina": 107,
+   "clase": "neuro-18",
+   "claseTitulo": "10.18 Esclerosis Múltiple: Criterios de McDonald, Bandas Oligoclonales y Terapia Modificadora de Enfermedad",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Paralisis_facial_de_Bell": {
+   "termino": "Parálisis facial de Bell",
+   "tipo": "Concepto",
+   "alias": [
+    "parálisis facial periférica",
+    "parálisis de Bell",
+    "parálisis facial"
+   ],
+   "def": "Representa el 70-80% de las parálisis faciales agudas y afecta toda la hemicara. Tratamiento: prednisona oral 1 mg/kg/día iniciada en < 72 horas.",
+   "pagina": 114,
+   "clase": "neuro-19",
+   "claseTitulo": "10.19 Parálisis Facial Periférica (Bell) vs Central y Neuropatías por Atrapamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 12
+  },
+  "Sindrome_del_tunel_carpiano": {
+   "termino": "Síndrome del túnel carpiano",
+   "tipo": "Concepto",
+   "alias": [
+    "túnel carpiano"
+   ],
+   "def": "Mononeuropatía por atrapamiento más frecuente; parestesias nocturnas en los primeros 3 dedos y medio. Se diagnostica con Phalen y Tinel y se trata con férula neutra o cirugía.",
+   "pagina": 114,
+   "clase": "neuro-19",
+   "claseTitulo": "10.19 Parálisis Facial Periférica (Bell) vs Central y Neuropatías por Atrapamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 8
+  },
+  "VPPB": {
+   "termino": "VPPB",
+   "tipo": "Concepto",
+   "alias": [
+    "vértigo posicional paroxístico benigno",
+    "VPPB"
+   ],
+   "def": "Vértigo más prevalente: dura segundos, es gatillado por cambios posturales y se confirma con Dix-Hallpike (+). Se trata con maniobra de Epley; no requiere neuroimágenes.",
+   "pagina": 119,
+   "clase": "neuro-20",
+   "claseTitulo": "10.20 Síndrome Vertiginoso Periférico vs Central: VPPB, Maniobras de Epley y Protocolo HINTS",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Protocolo_HINTS": {
+   "termino": "Protocolo HINTS",
+   "tipo": "Concepto",
+   "alias": [
+    "HINTS"
+   ],
+   "def": "Evaluación a pie de cama del vértigo agudo. Un impulso cefálico normal, nistagmo bidireccional o skew deviation presente orientan a ACV central.",
+   "pagina": 119,
+   "clase": "neuro-20",
+   "claseTitulo": "10.20 Síndrome Vertiginoso Periférico vs Central: VPPB, Maniobras de Epley y Protocolo HINTS",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Delirium": {
+   "termino": "Delirium",
+   "tipo": "Concepto",
+   "alias": [
+    "delirium",
+    "síndrome confusional agudo",
+    "delírium"
+   ],
+   "def": "Estado confusional de diagnóstico estrictamente clínico; ningún delirium debe catalogarse como idiopático. Debe identificarse y corregirse el gatillante orgánico.",
+   "pagina": 127,
+   "clase": "neuro-21",
+   "claseTitulo": "10.21 Síndrome Confusional Agudo (Delirium): Criterios CAM, Factores Precipitantes y Abordaje Multicomponente",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 27
+  },
+  "Escala_CAM": {
+   "termino": "Escala CAM",
+   "tipo": "Concepto",
+   "alias": [
+    "CAM"
+   ],
+   "def": "Confusion Assessment Method, instrumento validado internacionalmente y por el Ministerio de Salud para diagnosticar delirium.",
+   "pagina": 127,
+   "clase": "neuro-21",
+   "claseTitulo": "10.21 Síndrome Confusional Agudo (Delirium): Criterios CAM, Factores Precipitantes y Abordaje Multicomponente",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Fragilidad": {
+   "termino": "Fragilidad",
+   "tipo": "Concepto",
+   "alias": [
+    "fragilidad",
+    "síndrome de fragilidad"
+   ],
+   "def": "Síndrome de vulnerabilidad biológica con pérdida de reserva homeostática; es dinámico, prevenible y reversible. Con ≥ 3 criterios se diagnostica; con 1 o 2, prefragilidad.",
+   "pagina": 133,
+   "clase": "neuro-22",
+   "claseTitulo": "10.22 Fragilidad, Sarcopenia y Valoración Geriátrica Integral (VGI)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-22&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Sarcopenia": {
+   "termino": "Sarcopenia",
+   "tipo": "Concepto",
+   "alias": [
+    "sarcopenia"
+   ],
+   "def": "Baja fuerza muscular (dinamometría 15 s) hace probable la sarcopenia según EWGSOP2 e impone tratamiento inmediato. Una puntuación ≥ 4 puntos predice sarcopenia.",
+   "pagina": 133,
+   "clase": "neuro-22",
+   "claseTitulo": "10.22 Fragilidad, Sarcopenia y Valoración Geriátrica Integral (VGI)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-22&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Valoracion_geriatrica_integral": {
+   "termino": "Valoración geriátrica integral",
+   "tipo": "Concepto",
+   "alias": [
+    "valoración geriátrica integral",
+    "VGI"
+   ],
+   "def": "Evaluación con instrumentos validados de cuatro esferas: funcional, mental, clínico-nutricional y social. En Chile, el EFAM-Chile se aplica en mayores de 65 años.",
+   "pagina": 133,
+   "clase": "neuro-22",
+   "claseTitulo": "10.22 Fragilidad, Sarcopenia y Valoración Geriátrica Integral (VGI)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-22&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Caidas_del_adulto_mayor": {
+   "termino": "Caídas del adulto mayor",
+   "tipo": "Concepto",
+   "alias": [
+    "caídas",
+    "caída"
+   ],
+   "def": "Síndrome geriátrico que afecta a cerca de 1 de cada 5 adultos mayores. La fractura del extremo proximal del fémur es su complicación más devastadora.",
+   "pagina": 138,
+   "clase": "neuro-23",
+   "claseTitulo": "10.23 Caídas en el Adulto Mayor, Trastornos de la Marcha y Fractura de Cadera GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-23&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 23
+  },
+  "Fractura_de_cadera": {
+   "termino": "Fractura de cadera",
+   "tipo": "Concepto",
+   "alias": [
+    "fractura de cadera"
+   ],
+   "def": "Tríada: extremidad acortada, en rotación externa e impotencia funcional total para la marcha. Su tratamiento está normado por GES N° 45; las benzodiacepinas están contraindicadas.",
+   "pagina": 138,
+   "clase": "neuro-23",
+   "claseTitulo": "10.23 Caídas en el Adulto Mayor, Trastornos de la Marcha y Fractura de Cadera GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-23&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Polifarmacia": {
+   "termino": "Polifarmacia",
+   "tipo": "Concepto",
+   "alias": [
+    "polifarmacia"
+   ],
+   "def": "Uso de ≥ 5 fármacos, factor de riesgo modificable más potente de RAM y caídas. Exige revisar interacciones y adherencia, y aplicar criterios de Beers y STOPP.",
+   "pagina": 143,
+   "clase": "neuro-24",
+   "claseTitulo": "10.24 Polifarmacia, Criterios de Beers / STOPP-START e Incontinencia Urinaria en la Persona Mayor",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-24&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Criterios_de_Beers": {
+   "termino": "Criterios de Beers",
+   "tipo": "Concepto",
+   "alias": [
+    "Beers",
+    "STOPP-START",
+    "STOPP/START"
+   ],
+   "def": "Criterios de la AGS que identifican fármacos cuyos riesgos superan sus beneficios en adultos mayores, como benzodiacepinas, anticolinérgicos potentes y AINEs crónicos.",
+   "pagina": 143,
+   "clase": "neuro-24",
+   "claseTitulo": "10.24 Polifarmacia, Criterios de Beers / STOPP-START e Incontinencia Urinaria en la Persona Mayor",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-24&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Incontinencia_urinaria": {
+   "termino": "Incontinencia urinaria",
+   "tipo": "Concepto",
+   "alias": [
+    "incontinencia urinaria"
+   ],
+   "def": "Pérdida involuntaria de orina demostrable que genera problema social e higiénico. Sus causas transitorias se resumen en DIAPPERS, que incluye delirium.",
+   "pagina": 143,
+   "clase": "neuro-24",
+   "claseTitulo": "10.24 Polifarmacia, Criterios de Beers / STOPP-START e Incontinencia Urinaria en la Persona Mayor",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-24&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Cuidados_paliativos": {
+   "termino": "Cuidados paliativos",
+   "tipo": "Concepto",
+   "alias": [
+    "cuidados paliativos",
+    "paliativos"
+   ],
+   "def": "Previenen y alivian el sufrimiento de enfermedad grave, avanzada y progresiva, sin acelerar ni retrasar la muerte. No incluyen eutanasia ni suicidio asistido.",
+   "pagina": 152,
+   "clase": "neuro-26",
+   "claseTitulo": "10.26 Cuidados Paliativos, Dolor Crónico y Final de Vida",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-26&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Cefalea_en_trueno": {
+   "termino": "Cefalea en trueno",
+   "tipo": "Signo",
+   "alias": [
+    "cefalea en trueno"
+   ],
+   "def": "Cefalea que alcanza su acmé en menos de 1 minuto; es sospecha de HSA hasta demostrar lo contrario. Requiere TAC precoz y punción lumbar si el TAC es normal.",
+   "pagina": 23,
+   "clase": "neuro-04",
+   "claseTitulo": "10.4 Hemorragia Subaracnoidea (HSA) Aneurismática: Cefalea en Trueno, TAC precoz, Punción Lumbar (xantocromía), Escalas Hunt & Hess y Fisher, Nimodipino",
+   "diapositiva": 15,
+   "t": 875.1,
+   "mmss": "14:35",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-04&t=875&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-04&t=875",
+   "notas": 4
+  },
+  "Xantocromia": {
+   "termino": "Xantocromía",
+   "tipo": "Signo",
+   "alias": [
+    "xantocromía"
+   ],
+   "def": "Pigmento amarillo o rosado del LCR por bilirrubina y oxihemoglobina, buscado en punción lumbar tras 6 a 12 horas del inicio de los síntomas en la HSA.",
+   "pagina": 23,
+   "clase": "neuro-04",
+   "claseTitulo": "10.4 Hemorragia Subaracnoidea (HSA) Aneurismática: Cefalea en Trueno, TAC precoz, Punción Lumbar (xantocromía), Escalas Hunt & Hess y Fisher, Nimodipino",
+   "diapositiva": 16,
+   "t": 933.8,
+   "mmss": "15:34",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-04&t=933&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-04&t=933",
+   "notas": 1
+  },
+  "Disociacion_albumino_citologica": {
+   "termino": "Disociación albúmino-citológica",
+   "tipo": "Signo",
+   "alias": [
+    "albúmino-citológica",
+    "disociación albuminocitológica"
+   ],
+   "def": "Hiperproteinorraquia marcada con leucocitos normales (< 10-50/μL) en el LCR. Puede ser normal durante los primeros 7 días de síntomas.",
+   "pagina": 95,
+   "clase": "neuro-16",
+   "claseTitulo": "10.16 Síndrome de Guillain-Barré: Polirradiculoneuropatía Aguda, Albúmino-citológico y Manejo Intensivo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Bandas_oligoclonales": {
+   "termino": "Bandas oligoclonales",
+   "tipo": "Signo",
+   "alias": [
+    "bandas oligoclonales"
+   ],
+   "def": "Patrón tipo 2: dos o más bandas IgG en LCR ausentes en el suero, que reflejan síntesis intratecal de anticuerpos. Según McDonald 2017 sustituyen la diseminación en tiempo.",
+   "pagina": 107,
+   "clase": "neuro-18",
+   "claseTitulo": "10.18 Esclerosis Múltiple: Criterios de McDonald, Bandas Oligoclonales y Terapia Modificadora de Enfermedad",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Nistagmo": {
+   "termino": "Nistagmo",
+   "tipo": "Signo",
+   "alias": [
+    "nistagmo"
+   ],
+   "def": "Nistagmo unidireccional que se inhibe al fijar la mirada indica vértigo periférico. El bidireccional o el vertical puro es categóricamente central.",
+   "pagina": 119,
+   "clase": "neuro-20",
+   "claseTitulo": "10.20 Síndrome Vertiginoso Periférico vs Central: VPPB, Maniobras de Epley y Protocolo HINTS",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Bradicinesia": {
+   "termino": "Bradicinesia",
+   "tipo": "Signo",
+   "alias": [
+    "bradicinesia",
+    "bradiquinesia"
+   ],
+   "def": "Lentitud de movimiento con decremento progresivo en movimientos repetitivos. Es obligatoria para diagnosticar Parkinson, sumada a temblor de reposo o rigidez en rueda dentada.",
+   "pagina": 66,
+   "clase": "neuro-11",
+   "claseTitulo": "10.11 Enfermedad de Parkinson: Criterios Diagnósticos MDS, Terapia con Levodopa y Fluctuaciones Motoras",
+   "diapositiva": 3,
+   "t": 137.3,
+   "mmss": "2:17",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-11&t=137&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-11&t=137",
+   "notas": 6
+  },
+  "Temblor_de_reposo": {
+   "termino": "Temblor de reposo",
+   "tipo": "Signo",
+   "alias": [
+    "temblor de reposo"
+   ],
+   "def": "Aparece con la musculatura relajada y apoyada contra la gravedad, como manos sobre el regazo. En Parkinson es asimétrico y cede con el movimiento voluntario.",
+   "pagina": 66,
+   "clase": "neuro-11",
+   "claseTitulo": "10.11 Enfermedad de Parkinson: Criterios Diagnósticos MDS, Terapia con Levodopa y Fluctuaciones Motoras",
+   "diapositiva": 14,
+   "t": 882.2,
+   "mmss": "14:42",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-11&t=882&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-11&t=882",
+   "notas": 6
+  },
+  "Rigidez_en_rueda_dentada": {
+   "termino": "Rigidez en rueda dentada",
+   "tipo": "Signo",
+   "alias": [
+    "rueda dentada"
+   ],
+   "def": "En Parkinson se asocia invariablemente a bradicinesia e hipomimia, y forma parte de los criterios clínicos diagnósticos.",
+   "pagina": 66,
+   "clase": "neuro-11",
+   "claseTitulo": "10.11 Enfermedad de Parkinson: Criterios Diagnósticos MDS, Terapia con Levodopa y Fluctuaciones Motoras",
+   "diapositiva": 3,
+   "t": 137.3,
+   "mmss": "2:17",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-11&t=137&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-11&t=137",
+   "notas": 1
+  },
+  "Ptosis": {
+   "termino": "Ptosis",
+   "tipo": "Signo",
+   "alias": [
+    "ptosis"
+   ],
+   "def": "Caída palpebral; si el test del hielo la mejora ≥ 2 mm sugiere ptosis miasténica. La parálisis aislada del III par con ptosis sugiere aneurisma de la comunicante posterior.",
+   "pagina": 101,
+   "clase": "neuro-17",
+   "claseTitulo": "10.17 Miastenia Gravis: Fisiopatología (anti-AChR, anti-MuSK), Crisis Miasténica y Timoma",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Afasia": {
+   "termino": "Afasia",
+   "tipo": "Signo",
+   "alias": [
+    "afasia"
+   ],
+   "def": "Trastorno del lenguaje. La anómica falla solo en la denominación; la de conducción se debe a lesión del fascículo arqueado; la global, a oclusión de la ACM o carótida interna.",
+   "pagina": 5,
+   "clase": "neuro-01",
+   "claseTitulo": "10.1 Accidente Cerebrovascular Isquémico: Diagnóstico, Ventana Terapéutica, Trombolisis IV (Alteplase/Tenecteplase) y Trombectomía Mecánica GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Hemiparesia": {
+   "termino": "Hemiparesia",
+   "tipo": "Signo",
+   "alias": [
+    "hemiparesia"
+   ],
+   "def": "Debilidad unilateral de un hemicuerpo; en el criterio clínico puntúa 2 puntos. Suele asociarse a signos piramidales del mismo lado de la paresia facial.",
+   "pagina": 5,
+   "clase": "neuro-01",
+   "claseTitulo": "10.1 Accidente Cerebrovascular Isquémico: Diagnóstico, Ventana Terapéutica, Trombolisis IV (Alteplase/Tenecteplase) y Trombectomía Mecánica GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 5
+  },
+  "TAC_de_cerebro": {
+   "termino": "TAC de cerebro",
+   "tipo": "Examen",
+   "alias": [
+    "TAC de cerebro",
+    "TAC sin contraste",
+    "TAC cerebral",
+    "TAC"
+   ],
+   "def": "Estudio inicial mandatorio sin contraste, con sensibilidad > 98% en las primeras 6 horas. Despachar a un paciente con TAC normal sin punción lumbar es un error grave.",
+   "pagina": 23,
+   "clase": "neuro-04",
+   "claseTitulo": "10.4 Hemorragia Subaracnoidea (HSA) Aneurismática: Cefalea en Trueno, TAC precoz, Punción Lumbar (xantocromía), Escalas Hunt & Hess y Fisher, Nimodipino",
+   "diapositiva": 6,
+   "t": 318.3,
+   "mmss": "5:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-04&t=318&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-04&t=318",
+   "notas": 31
+  },
+  "Resonancia_magnetica": {
+   "termino": "Resonancia magnética",
+   "tipo": "Examen",
+   "alias": [
+    "resonancia magnética",
+    "RM cerebral",
+    "RM"
+   ],
+   "def": "Positiva en más del 85-95% de los pacientes con EM confirmada. Muestra nuevas lesiones T2 o captantes de gadolinio en seguimiento comparado con una previa.",
+   "pagina": 107,
+   "clase": "neuro-18",
+   "claseTitulo": "10.18 Esclerosis Múltiple: Criterios de McDonald, Bandas Oligoclonales y Terapia Modificadora de Enfermedad",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 18
+  },
+  "Puncion_lumbar": {
+   "termino": "Punción lumbar",
+   "tipo": "Examen",
+   "alias": [
+    "punción lumbar"
+   ],
+   "def": "Procedimiento que el médico general debe saber realizar; está contraindicada ante una masa con efecto de volumen. Si el TAC es normal y persiste la sospecha de HSA, es obligatoria.",
+   "pagina": 23,
+   "clase": "neuro-04",
+   "claseTitulo": "10.4 Hemorragia Subaracnoidea (HSA) Aneurismática: Cefalea en Trueno, TAC precoz, Punción Lumbar (xantocromía), Escalas Hunt & Hess y Fisher, Nimodipino",
+   "diapositiva": 15,
+   "t": 875.1,
+   "mmss": "14:35",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-04&t=875&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-04&t=875",
+   "notas": 4
+  },
+  "Electroencefalograma": {
+   "termino": "Electroencefalograma",
+   "tipo": "Examen",
+   "alias": [
+    "electroencefalograma",
+    "EEG"
+   ],
+   "def": "Examen neurofisiológico de elección en epilepsia. Un EEG normal no la descarta; ante alta sospecha se repite con privación de sueño o video-EEG.",
+   "pagina": 47,
+   "clase": "neuro-08",
+   "claseTitulo": "10.8 Epilepsia del Adulto: Clasificación ILAE, Fármacos Antiepilépticos y Monitorización GES",
+   "diapositiva": 5,
+   "t": 253.1,
+   "mmss": "4:13",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-08&t=253&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-08&t=253",
+   "notas": 9
+  },
+  "Maniobra_de_Epley": {
+   "termino": "Maniobra de Epley",
+   "tipo": "Examen",
+   "alias": [
+    "Epley"
+   ],
+   "def": "Maniobra de reposición que es el tratamiento curativo del VPPB y se realiza en la misma consulta. Los fármacos antivertiginosos no están indicados.",
+   "pagina": 119,
+   "clase": "neuro-20",
+   "claseTitulo": "10.20 Síndrome Vertiginoso Periférico vs Central: VPPB, Maniobras de Epley y Protocolo HINTS",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Maniobra_de_Dix_Hallpike": {
+   "termino": "Maniobra de Dix-Hallpike",
+   "tipo": "Examen",
+   "alias": [
+    "Dix-Hallpike"
+   ],
+   "def": "Maniobra diagnóstica del VPPB. Su resultado positivo confirma el diagnóstico definitivo de la enfermedad.",
+   "pagina": 119,
+   "clase": "neuro-20",
+   "claseTitulo": "10.20 Síndrome Vertiginoso Periférico vs Central: VPPB, Maniobras de Epley y Protocolo HINTS",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Angiotomografia": {
+   "termino": "Angiotomografía",
+   "tipo": "Examen",
+   "alias": [
+    "angioTAC",
+    "AngioTAC",
+    "angiotomografía"
+   ],
+   "def": "Estudio vascular que confirma el aneurisma, su cuello y dimensiones. El signo del spot predice expansión inminente del hematoma.",
+   "pagina": 25,
+   "clase": "neuro-04",
+   "claseTitulo": "10.4 Hemorragia Subaracnoidea (HSA) Aneurismática: Cefalea en Trueno, TAC precoz, Punción Lumbar (xantocromía), Escalas Hunt & Hess y Fisher, Nimodipino",
+   "diapositiva": 6,
+   "t": 318.3,
+   "mmss": "5:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-04&t=318&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-04&t=318",
+   "notas": 5
+  },
+  "Alteplase": {
+   "termino": "Alteplase",
+   "tipo": "Farmaco",
+   "alias": [
+    "alteplase"
+   ],
+   "def": "Trombolítico oficial a dosis de 0.9 mg/kg (máximo 90 mg), con ventana de hasta 4.5 horas desde el inicio de los síntomas.",
+   "pagina": 5,
+   "clase": "neuro-01",
+   "claseTitulo": "10.1 Accidente Cerebrovascular Isquémico: Diagnóstico, Ventana Terapéutica, Trombolisis IV (Alteplase/Tenecteplase) y Trombectomía Mecánica GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Tenecteplase": {
+   "termino": "Tenecteplase",
+   "tipo": "Farmaco",
+   "alias": [
+    "tenecteplase"
+   ],
+   "def": "Trombolítico modificado de mayor afinidad por la fibrina y vida media más prolongada; dosis de 0.25 mg/kg en ventana de hasta 4.5 horas.",
+   "pagina": 5,
+   "clase": "neuro-01",
+   "claseTitulo": "10.1 Accidente Cerebrovascular Isquémico: Diagnóstico, Ventana Terapéutica, Trombolisis IV (Alteplase/Tenecteplase) y Trombectomía Mecánica GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Aspirina": {
+   "termino": "Aspirina",
+   "tipo": "Farmaco",
+   "alias": [
+    "aspirina",
+    "AAS",
+    "ácido acetilsalicílico"
+   ],
+   "def": "Antiagregante de 250 mg VO precoz en no trombolizados. Tras trombolisis IV se posterga 24 horas; en ACV menor o AIT de alto riesgo se usa con clopidogrel 21 días.",
+   "pagina": 8,
+   "clase": "neuro-01",
+   "claseTitulo": "10.1 Accidente Cerebrovascular Isquémico: Diagnóstico, Ventana Terapéutica, Trombolisis IV (Alteplase/Tenecteplase) y Trombectomía Mecánica GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Nimodipino": {
+   "termino": "Nimodipino",
+   "tipo": "Farmaco",
+   "alias": [
+    "nimodipino"
+   ],
+   "def": "Único fármaco con alto nivel de evidencia para reducir mortalidad e isquemia cerebral tardía en HSA aneurismática: 60 mg cada 4 horas por 21 días.",
+   "pagina": 23,
+   "clase": "neuro-04",
+   "claseTitulo": "10.4 Hemorragia Subaracnoidea (HSA) Aneurismática: Cefalea en Trueno, TAC precoz, Punción Lumbar (xantocromía), Escalas Hunt & Hess y Fisher, Nimodipino",
+   "diapositiva": 11,
+   "t": 671.5,
+   "mmss": "11:11",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-04&t=671&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-04&t=671",
+   "notas": 2
+  },
+  "Triptanes": {
+   "termino": "Triptanes",
+   "tipo": "Farmaco",
+   "alias": [
+    "triptanes",
+    "sumatriptán"
+   ],
+   "def": "Terapia específica de elección en crisis moderadas a severas o falla de AINEs. Sumatriptán oral 50 a 100 mg o SC 6 mg; no se usan con contraindicaciones cardiovasculares.",
+   "pagina": 38,
+   "clase": "neuro-06",
+   "claseTitulo": "10.6 Migraña (Fisiopatología, Criterios IHS, Triptanes y Profilaxis) y Cefalea Tensional",
+   "diapositiva": 15,
+   "t": 949.8,
+   "mmss": "15:50",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-06&t=949&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-06&t=949",
+   "notas": 5
+  },
+  "Levodopa": {
+   "termino": "Levodopa",
+   "tipo": "Farmaco",
+   "alias": [
+    "levodopa"
+   ],
+   "def": "Estándar de oro de máxima eficacia motora en Parkinson. El fin de dosis (wearing-off) se maneja fraccionando tomas o asociando entacapona (200 mg con cada toma).",
+   "pagina": 66,
+   "clase": "neuro-11",
+   "claseTitulo": "10.11 Enfermedad de Parkinson: Criterios Diagnósticos MDS, Terapia con Levodopa y Fluctuaciones Motoras",
+   "diapositiva": 8,
+   "t": 551.6,
+   "mmss": "9:12",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-11&t=551&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-11&t=551",
+   "notas": 13
+  },
+  "Benzodiacepinas": {
+   "termino": "Benzodiacepinas",
+   "tipo": "Farmaco",
+   "alias": [
+    "benzodiacepinas",
+    "diazepam",
+    "lorazepam",
+    "clonazepam"
+   ],
+   "def": "Fase 1 del status epiléptico: lorazepam 4 mg EV, o midazolam 10 mg IM sin vía venosa, repetible una sola vez a los 5 minutos si persiste la crisis.",
+   "pagina": 53,
+   "clase": "neuro-09",
+   "claseTitulo": "10.9 Status Epiléptico Convulsivo: Protocolo Escalonado de Rescate y Neurointensivo",
+   "diapositiva": 13,
+   "t": 892.5,
+   "mmss": "14:52",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-09&t=892&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-09&t=892",
+   "notas": 10
+  },
+  "Fenitoina": {
+   "termino": "Fenitoína",
+   "tipo": "Farmaco",
+   "alias": [
+    "fenitoína"
+   ],
+   "def": "Alternativa clásica en status: carga de 20 mg/kg EV (dosis habitual en adulto de 1.250 a 1.500 mg), con monitorización ECG y presión por riesgo de hipotensión y arritmias.",
+   "pagina": 54,
+   "clase": "neuro-09",
+   "claseTitulo": "10.9 Status Epiléptico Convulsivo: Protocolo Escalonado de Rescate y Neurointensivo",
+   "diapositiva": 11,
+   "t": 743.5,
+   "mmss": "12:24",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-09&t=743&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-09&t=743",
+   "notas": 9
+  },
+  "Levetiracetam": {
+   "termino": "Levetiracetam",
+   "tipo": "Farmaco",
+   "alias": [
+    "levetiracetam"
+   ],
+   "def": "Se une a SV2A e inhibe la exocitosis de glutamato. Ideal en adultos mayores y polimedicados por nula interacción con citocromo P450, aunque puede causar irritabilidad.",
+   "pagina": 49,
+   "clase": "neuro-08",
+   "claseTitulo": "10.8 Epilepsia del Adulto: Clasificación ILAE, Fármacos Antiepilépticos y Monitorización GES",
+   "diapositiva": 8,
+   "t": 462.1,
+   "mmss": "7:42",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-08&t=462&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-08&t=462",
+   "notas": 8
+  },
+  "Carbamazepina": {
+   "termino": "Carbamazepina",
+   "tipo": "Farmaco",
+   "alias": [
+    "carbamazepina"
+   ],
+   "def": "Bloqueador potente de canales de sodio. Está contraindicada en crisis generalizadas idiopáticas, que empeora, y es inductor enzimático a evitar con anticoagulantes.",
+   "pagina": 49,
+   "clase": "neuro-08",
+   "claseTitulo": "10.8 Epilepsia del Adulto: Clasificación ILAE, Fármacos Antiepilépticos y Monitorización GES",
+   "diapositiva": 8,
+   "t": 462.1,
+   "mmss": "7:42",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-08&t=462&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-08&t=462",
+   "notas": 10
+  },
+  "Acido_valproico": {
+   "termino": "Ácido valproico",
+   "tipo": "Farmaco",
+   "alias": [
+    "ácido valproico",
+    "valproato"
+   ],
+   "def": "Fármaco más efectivo en crisis generalizadas idiopáticas en varones. Formalmente contraindicado en mujeres en edad fértil por su alto índice teratogénico.",
+   "pagina": 47,
+   "clase": "neuro-08",
+   "claseTitulo": "10.8 Epilepsia del Adulto: Clasificación ILAE, Fármacos Antiepilépticos y Monitorización GES",
+   "diapositiva": 13,
+   "t": 745.2,
+   "mmss": "12:25",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-08&t=745&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-08&t=745",
+   "notas": 8
+  },
+  "Plasmaferesis": {
+   "termino": "Plasmaféresis",
+   "tipo": "Farmaco",
+   "alias": [
+    "plasmaféresis",
+    "recambio plasmático"
+   ],
+   "def": "Recambio de 200 a 250 mL/kg de plasma en 4 a 5 sesiones en días alternos. No debe combinarse con inmunoglobulina EV, y los corticoides están contraindicados.",
+   "pagina": 95,
+   "clase": "neuro-16",
+   "claseTitulo": "10.16 Síndrome de Guillain-Barré: Polirradiculoneuropatía Aguda, Albúmino-citológico y Manejo Intensivo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Piridostigmina": {
+   "termino": "Piridostigmina",
+   "tipo": "Farmaco",
+   "alias": [
+    "piridostigmina"
+   ],
+   "def": "Inhibidor reversible de la acetilcolinesterasa, tratamiento sintomático de primera línea en miastenia. Se suspende transitoriamente durante la intubación mecánica.",
+   "pagina": 101,
+   "clase": "neuro-17",
+   "claseTitulo": "10.17 Miastenia Gravis: Fisiopatología (anti-AChR, anti-MuSK), Crisis Miasténica y Timoma",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Donepezilo": {
+   "termino": "Donepezilo",
+   "tipo": "Farmaco",
+   "alias": [
+    "donepezilo"
+   ],
+   "def": "Inhibidor de acetilcolinesterasa de primera línea en Alzheimer leve a moderado (MMSE entre 10 y 24 puntos). En DCL mejora fluctuaciones y reduce alucinaciones.",
+   "pagina": 81,
+   "clase": "neuro-14",
+   "claseTitulo": "10.14 Enfermedad de Alzheimer y Deterioro Cognitivo Leve",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Haloperidol": {
+   "termino": "Haloperidol",
+   "tipo": "Farmaco",
+   "alias": [
+    "haloperidol"
+   ],
+   "def": "Formalmente contraindicado en Parkinson y demencia por cuerpos de Lewy, por parkinsonismo severo, catatonía y síndrome neuroléptico maligno. Allí se usa quetiapina.",
+   "pagina": 128,
+   "clase": "neuro-21",
+   "claseTitulo": "10.21 Síndrome Confusional Agudo (Delirium): Criterios CAM, Factores Precipitantes y Abordaje Multicomponente",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Prednisona": {
+   "termino": "Prednisona",
+   "tipo": "Farmaco",
+   "alias": [
+    "prednisona",
+    "corticoides",
+    "corticoide"
+   ],
+   "def": "Corticoide de elección en parálisis facial de Bell: 1 mg/kg/día (60 mg/día) VO, iniciada en < 72 horas durante 7 a 10 días.",
+   "pagina": 114,
+   "clase": "neuro-19",
+   "claseTitulo": "10.19 Parálisis Facial Periférica (Bell) vs Central y Neuropatías por Atrapamiento",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": null,
+   "notas": 16
+  },
+  "Verapamilo": {
+   "termino": "Verapamilo",
+   "tipo": "Farmaco",
+   "alias": [
+    "verapamilo"
+   ],
+   "def": "Profilaxis de mantenimiento de elección en cluster (240 a 960 mg/día VO), con control de ECG por riesgo de bloqueo AV o bradicardia.",
+   "pagina": 44,
+   "clase": "neuro-07",
+   "claseTitulo": "10.7 Cefalea en Racimos (Cluster) y Neuralgia del Trigémino: Diagnóstico Diferencial, Manejo Agudo y Preventivo",
+   "diapositiva": 3,
+   "t": 144.3,
+   "mmss": "2:24",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Neurolog%C3%ADa&clase=neuro-07&t=144&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_neurologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=neuro-07&t=144",
+   "notas": 3
+  }
+ }
+}

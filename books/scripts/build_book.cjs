@@ -34,6 +34,7 @@ try {
   }
 }
 const matcher = require('./reconstruction_matcher.cjs');
+const { qImageHtml, Q_IMG_CSS } = require('./question_image.cjs');   // q.imagen del banco (Imagen representativa)
 const { autoFigSpec, withFigRefs, mergeAtlas, withAtlasFigs } = require('./figspec_clases.cjs');
 const { applyV3 } = require('./v3_codes.cjs');
 const para = p => /^<figure/.test(p) ? p : `<p>${p}</p>`;
@@ -682,7 +683,7 @@ function topicPageStandard(c, b, x) {
     <div class="qbank">
       <div class="qbank-head"><span>Banco Oficial Academia Examen EUNACOM (AEE) · Tema ${c.topicLabel}</span><span class="qbank-note">Solucionario razonado al final del libro</span></div>
       <div class="qbank-body">
-        ${c.questions.map((q, i) => `<div class="q"><span class="q-tag">${stripTags(q.recTag || `Banco Oficial AEE · Perfil V3 ${c.perfilCode || ''}`)}</span><p class="q-stem"><strong>${i + 1}.</strong> ${q.stem}</p><div class="q-opts">${q.options.map(o => `${o.id}) ${o.text}`).join('<br>')}</div></div>`).join('')}
+        ${c.questions.map((q, i) => `<div class="q"><span class="q-tag">${stripTags(q.recTag || `Banco Oficial AEE · Perfil V3 ${c.perfilCode || ''}`)}</span><p class="q-stem"><strong>${i + 1}.</strong> ${q.stem}</p>${qImageHtml(q)}<div class="q-opts">${q.options.map(o => `${o.id}) ${o.text}`).join('<br>')}</div></div>`).join('')}
       </div>
       ${moreQ ? `<div class="qbank-foot">${moreQ}</div>` : ''}
     </div>`;
@@ -777,7 +778,7 @@ function topicPageTier3(c, b, x) {
     <div class="qbank" style="margin-top:10px">
       <div class="qbank-head"><span>Banco Oficial Academia Examen EUNACOM (AEE) · Tema ${c.topicLabel} (Evaluación Avanzada)</span><span class="qbank-note">Solucionario razonado al final del libro</span></div>
       <div class="qbank-body" style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
-        ${c.questions.map((q, i) => `<div class="q"><span class="q-tag">${stripTags(q.recTag || `Banco Oficial AEE · Perfil V3 ${c.perfilCode || ''}`)}</span><p class="q-stem"><strong>${i + 1}.</strong> ${q.stem}</p><div class="q-opts">${q.options.map(o => `${o.id}) ${o.text}`).join('<br>')}</div></div>`).join('')}
+        ${c.questions.map((q, i) => `<div class="q"><span class="q-tag">${stripTags(q.recTag || `Banco Oficial AEE · Perfil V3 ${c.perfilCode || ''}`)}</span><p class="q-stem"><strong>${i + 1}.</strong> ${q.stem}</p>${qImageHtml(q)}<div class="q-opts">${q.options.map(o => `${o.id}) ${o.text}`).join('<br>')}</div></div>`).join('')}
       </div>
       ${moreQ ? `<div class="qbank-foot">${moreQ}</div>` : ''}
     </div>`;
@@ -1150,6 +1151,7 @@ figure.infig figcaption{font:600 7.4px/1.3 'IBM Plex Sans',sans-serif;letter-spa
 .q-tag{font:700 8px/1 'JetBrains Mono',monospace;color:var(--acc)}
 .q-stem{font:400 9.6px/1.4 'IBM Plex Sans',sans-serif;text-align:justify}
 .q-opts{font:400 9.2px/1.5 'IBM Plex Sans',sans-serif;color:#334155}
+${Q_IMG_CSS}
 
 /* SÍNTESIS */
 .synth-title{display:flex;justify-content:space-between;align-items:flex-end;gap:16px}
@@ -1345,4 +1347,6 @@ async function main() {
   console.log('\n✔ Fin.');
 }
 
-main().catch(e => { console.error(e); process.exit(1); });
+// Ejecutado directamente: compila. Requerido desde otro script (p. ej. build_repaso.cjs): solo expone la paleta y el registro.
+if (require.main === module) main().catch(e => { console.error(e); process.exit(1); });
+module.exports = { SPECIALTIES, ACCENTS, COVER_METADATA, SITE, themeVars, mix, getSvg, md, stripTags };

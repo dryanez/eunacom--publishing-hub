@@ -1,0 +1,438 @@
+{
+  "classId": "neuro-24",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Polifarmacia: consumo habitual de ≥ {{c1::5}} medicamentos.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.07.3.007"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con la edad disminuye el agua corporal: fármacos hidrosolubles como {{c1::digoxina y litio}} suben su concentración.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Por qué el mismo fármaco daña más",
+      "repaso": false,
+      "codigos": [
+        "1.07.3.007"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El aumento de grasa corporal alarga la vida media de fármacos liposolubles como el {{c1::diazepam}} (> 72 h).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Por qué el mismo fármaco daña más",
+      "repaso": false,
+      "codigos": [
+        "1.07.3.007"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el anciano la creatinina normal engaña: se calcula el filtrado con {{c1::Cockcroft-Gault}}.",
+      "extra": "El filtrado cae ~1 mL/min por año desde los 40.",
+      "origen": "clase:18",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": false,
+      "codigos": [
+        "1.07.3.007"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cascada de prescripción: el efecto adverso de un fármaco se toma por enfermedad nueva y se agrega un {{c1::segundo fármaco}}.",
+      "extra": "Se resuelve retirando o bajando el primero.",
+      "origen": "clase:2",
+      "fuente": "Clase · Cascada de prescripción",
+      "repaso": true,
+      "codigos": [
+        "1.07.3.007"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Donepezilo causa incontinencia y diarrea: se {{c1::baja el donepezilo}}; el error es agregar oxibutinina.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 121"
+      ],
+      "codigos": [
+        "1.07.1.012",
+        "1.07.3.007"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Amlodipino produce edema y se agrega {{c1::furosemida}}: ejemplo de cascada de prescripción.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cascada de prescripción",
+      "repaso": false,
+      "codigos": [
+        "1.07.3.007"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Beers y STOPP: evitar benzodiacepinas e hipnóticos Z por caídas, fractura de cadera y {{c1::delirium}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Criterios de Beers y STOPP",
+      "repaso": true,
+      "codigos": [
+        "1.07.3.007"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Insomnio del adulto mayor: primera línea {{c1::higiene del sueño}}, no benzodiacepina ni hipnótico Z.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 108"
+      ],
+      "codigos": [
+        "1.07.3.007"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anticolinérgicos a evitar: clorfenamina, amitriptilina y {{c1::pargeverina}}; causan retención urinaria y confusión.",
+      "extra": "En alergia: loratadina o cetirizina.",
+      "origen": "clase:4",
+      "fuente": "Clase · Criterios de Beers y STOPP",
+      "repaso": false,
+      "codigos": [
+        "1.07.3.007",
+        "1.07.1.012"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "AINE crónico en el anciano daña estómago, riñón, presión y corazón: se prefiere {{c1::paracetamol}} y luego tramadol.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Criterios de Beers y STOPP",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 9"
+      ],
+      "codigos": [
+        "1.07.3.007"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Dolor artrósico con HTA o IC que no cede con paracetamol: {{c1::tramadol}}, no AINE.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.07.3.007"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La sulfonilurea que se evita en el anciano por hipoglicemia grave y prolongada es la {{c1::glibenclamida}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Criterios de Beers y STOPP",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 127"
+      ],
+      "codigos": [
+        "1.07.3.007"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta de HbA1c en > 75 años: < {{c1::8–8,5 %}}.",
+      "extra": "Con HbA1c normal, suspender glibenclamida.",
+      "origen": "clase:4",
+      "fuente": "Clase · Criterios de Beers y STOPP",
+      "repaso": false,
+      "codigos": [
+        "1.07.3.007"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La incontinencia urinaria afecta al 30–{{c1::50 %}} de las mujeres mayores.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Incontinencia",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.012"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causas transitorias de incontinencia: mnemotecnia {{c1::DIAPPERS}}.",
+      "extra": "Delirium, infección, atrofia, psicológica, fármacos, exceso de diuresis, restricción, heces.",
+      "origen": "clase:5",
+      "fuente": "Clase · DIAPPERS",
+      "repaso": true,
+      "codigos": [
+        "1.07.1.012"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En DIAPPERS la «S» es {{c1::retención fecal}} (fecaloma que comprime la vejiga).",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Incontinencia",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.012"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estudio inicial de incontinencia: diario miccional de {{c1::3 días}}, examen ginecológico y rectal, urocultivo y residuo postmiccional.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · DIAPPERS",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.012"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Incontinencia de urgencia: deseo súbito «no alcanzo a llegar»; hiperactividad del {{c1::detrusor}}.",
+      "extra": "Residuo postmiccional normal.",
+      "origen": "clase:6",
+      "fuente": "Clase · Los cuatro tipos",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 121"
+      ],
+      "codigos": [
+        "1.07.1.012"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Incontinencia de esfuerzo: gotas al toser o reír; se trata con {{c1::Kegel}} y luego cirugía TVT o TOT.",
+      "extra": "Estrógeno tópico si hay atrofia.",
+      "origen": "clase:6",
+      "fuente": "Clase · Los cuatro tipos",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 76"
+      ],
+      "codigos": [
+        "1.07.1.012"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Incontinencia por rebose: residuo postmiccional > {{c1::150–200 mL}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Los cuatro tipos",
+      "repaso": true,
+      "codigos": [
+        "1.07.1.012"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Incontinencia por rebose: los {{c1::anticolinérgicos}} están contraindicados; se desobstruye o se hace cateterismo.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 48"
+      ],
+      "codigos": [
+        "1.07.1.012"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Incontinencia funcional: tracto urinario normal pero no llega al baño; se {{c1::adapta el entorno}} y se programa la micción.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Los cuatro tipos",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.012"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primera línea de toda incontinencia: estilo de vida, entrenamiento vesical y {{c1::ejercicios de Kegel}}.",
+      "extra": "Micción cada 2–3 h; evitar café, té, mate, alcohol.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento escalonado",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 131"
+      ],
+      "codigos": [
+        "1.07.1.012"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Oxibutinina en urgencia: {{c1::2,5–5 mg}} cada 8–12 horas.",
+      "extra": "Segunda línea, tras medidas conductuales.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento escalonado",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.012",
+        "1.07.3.007"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Urgencia con riesgo cognitivo: {{c1::mirabegrón}} 25–50 mg/día, sin efectos anticolinérgicos centrales.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento escalonado",
+      "repaso": true,
+      "codigos": [
+        "1.07.1.012"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Rebose por HPB: alfa-bloqueador {{c1::tamsulosina}} o RTU.",
+      "extra": "Vejiga acontráctil: cateterismo intermitente limpio.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento escalonado",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.012"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Urgencia con deterioro cognitivo: {{c1::mirabegrón}}; el error es oxibutinina.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.012",
+        "1.07.3.007"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-24/S1_cascada-prescripcion__propio.svg",
+      "pregunta": "¿Qué esquema es y cuál es la conducta?",
+      "diagnostico": "Cascada de prescripción",
+      "clave": "Fármaco A causa un efecto adverso que se trata con un fármaco B",
+      "conducta": "Retirar o bajar el fármaco A; no agregar B",
+      "fuente": "Dibujo propio (esquema)",
+      "repaso": true,
+      "codigos": [
+        "1.07.3.007"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1.0",
+      "pista": "Incontinencia con residuo alto: ¿tipo y tratamiento?",
+      "codigos": [
+        "1.07.1.012"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1.0",
+      "pista": "Incontinencia de urgencia: ¿qué escalón de tratamiento?",
+      "codigos": [
+        "1.07.1.012"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1.1",
+      "pista": "Incontinencia de esfuerzo: ¿tratamiento?",
+      "codigos": [
+        "1.07.1.012"
+      ]
+    }
+  ]
+}

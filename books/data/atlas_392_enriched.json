@@ -804,7 +804,7 @@
       "opciones": [
         {
           "letter": "A",
-          "text": "Anemia megaloblás2ca"
+          "text": "Anemia megaloblástica"
         },
         {
           "letter": "B",
@@ -812,7 +812,7 @@
         },
         {
           "letter": "C",
-          "text": "Anemia hemolí2ca"
+          "text": "Anemia hemolítica"
         },
         {
           "letter": "D",
@@ -820,7 +820,7 @@
         },
         {
           "letter": "E",
-          "text": "Mielop2sis"
+          "text": "Mieloptisis"
         }
       ],
       "correcta": "A",
@@ -2112,7 +2112,7 @@
         }
       ],
       "correcta": "A",
-      "explicacion": "Diagnóstico: **Asma bronquial** (opción **A**). Tiene un cuadro clínico y espirometría (patrón obstructivo que mejora con BD) compatibles con asma.. La enfermedad mixta del tejido conectivo (EMTC) es una mezcla de manifestaciones de artritis reumatoide (artritis), lupus (úlceras orales, rash malar, pericarditis, lupus cutáneo subagudo), esclerodermia (fenómeno de Raynaud, disfagia, esclerodactilia) y miositis (como en la polimiositis/dermatomiositis), pudiendo además complicarse con síndrome de Sjögren. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh."
+      "explicacion": "Patrón obstructivo con reversibilidad al broncodilatador (mejora VEF1 >12 por ciento) y pocos pack-year: asma bronquial."
     }
   },
   {
@@ -2133,32 +2133,32 @@
     "image_rel_path": "figuras/atlas_eunacom_2026/047_alta_reuma_reuma_12_esclerosis_sistemica.jpg",
     "pregunta": {
       "tipo_origen": "Pregunta Real EUNACOM",
-      "origen_tag": "EUNACOM Diciembre 2024 · Pregunta 66",
-      "enunciado": "Paciente con clínica telangiectasia, esclerodermia, sindrome de raynaud e hipertensión pulmonar, examen de elección para confirmar etiologia diagnóstico: a.​ Ecocardiograma TE (porque no puede ser esta?) (Era un CREST y estaba asi por hipertensión Pulmonar, se dg oficialmente con Cateterismo- además ya te describían el ecocardiograma en la pregunta) b.​ Cateterismo cardiaco derecho c.​ Cintigrama pulmonar, esta hace el dx de Fibrosis pulmonar. d.​ Radiografía tórax",
+      "origen_tag": "EUNACOM Julio 2015 · Pregunta 58",
+      "enunciado": "Un paciente de 62 años, fumador de 30 paquetes años, presenta edema de extremidades inferiores, asociado a astenia, disnea y adinamia. Al examen físico presenta yugulares visibles a 45 grados y aumento de la intensidad del segundo ruido cardiaco. Su electrocardiograma muestra una onda R prominente en V1 más un bloqueo completo de rama derecha. ¿Cuál es el diagnóstico más probable?",
       "opciones": [
         {
-          "letter": "E",
-          "text": "AgioTC de tórax"
+          "letter": "A",
+          "text": "Estenosis tricuspidea"
         },
         {
           "letter": "B",
-          "text": "Hemograma y VHS"
+          "text": "Pericarditis constrictiva"
         },
         {
           "letter": "C",
-          "text": "Ecografía"
+          "text": "Cardiopatía coronaria"
         },
         {
           "letter": "D",
-          "text": "Radiografía"
+          "text": "Cor pulmonale"
         },
         {
           "letter": "E",
-          "text": "TAC con contraste"
+          "text": "Cardiopatía hipertensiva"
         }
       ],
-      "correcta": "A",
-      "explicacion": "Diagnóstico: **** (opción **A**). La esclerodermia (esclerosis sistémica) se clasifica en dos formas: limitada (CREST) y difusa. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh."
+      "correcta": "D",
+      "explicacion": "Diagnóstico: **Cor pulmonale** (opción **D**). Cuadro clásico (insuficiencia cardiaca derecha, por HTP, por enfermedad pulmonar (EPOC).. El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL)."
     }
   },
   {
@@ -2250,7 +2250,7 @@
         }
       ],
       "correcta": "A",
-      "explicacion": "Diagnóstico: **Uveítis anterior aguda** (opción **A**). Uveítis anterior aguda. La celulitis orbitaria es una patología que el médico general debe saber clasificar y manejar de manera urgente. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh."
+      "explicacion": "Uveítis anterior aguda: ojo rojo profundo con fotofobia y baja de AV, asociada a psoriasis."
     }
   },
   {
@@ -3078,7 +3078,7 @@
         }
       ],
       "correcta": "B",
-      "explicacion": "Diagnóstico: **Neumoconiosis** (opción **B**). Antecedente de minería orienta a neumoconiosis. La Rx era distinta a la que ahí se muestra.. Las enfermedades intersticiales pulmonares difusas tienen múltiples causas, siendo la fibrosis pulmonar idiopática (FPI/UIP) la más frecuente y de peor pronóstico, sin tratamiento específico más allá del sintomático (oxígeno, salbutamol). Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh."
+      "explicacion": "Antecedente de mineria con disnea y crepitos difusos orienta a neumoconiosis."
     }
   },
   {
@@ -3380,11 +3380,11 @@
       "opciones": [
         {
           "letter": "A",
-          "text": "Solicitar endoscopía diges2va alta"
+          "text": "Solicitar endoscopía digestiva alta"
         },
         {
           "letter": "B",
-          "text": "Solicitar radiogra:as de cuello"
+          "text": "Solicitar radiografias de cuello"
         },
         {
           "letter": "C",
@@ -3492,7 +3492,7 @@
         }
       ],
       "correcta": "A",
-      "explicacion": "Diagnóstico: **Uveítis anterior aguda** (opción **A**). Uveítis anterior aguda. La celulitis orbitaria es una patología que el médico general debe saber clasificar y manejar de manera urgente. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh."
+      "explicacion": "Uveítis anterior aguda: ojo rojo profundo con fotofobia y baja de AV, asociada a psoriasis."
     }
   },
   {
@@ -3706,7 +3706,7 @@
         },
         {
           "letter": "B",
-          "text": "Ur2caria"
+          "text": "Urticaria"
         },
         {
           "letter": "C",
@@ -3906,7 +3906,7 @@
         }
       ],
       "correcta": "B",
-      "explicacion": "Conducta / Tratamiento indicado: **Correas de Pavlik** (opción **B**). Tiene una displasia de cadera menor a 9 meses, que se trata con arnés de Pavlik.. Tratamiento siempre causal: resolver la obstrucción nasal o nasofaríngea De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+      "explicacion": "Displasia diagnosticada antes de 6-9 meses se trata con arnés de Pavlik."
     }
   },
   {
@@ -4780,7 +4780,7 @@
         }
       ],
       "correcta": "B",
-      "explicacion": "Conducta / Tratamiento indicado: **Tromboemolismo pulmonar** (opción **B**). Tiene un síndrome nefrótico, secundario a una neforpatía membranosa y complicado con un TEP. Congénito (menor 3 meses): test genéticos primero, biopsia de entrada, tratamiento = trasplante renal. De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+      "explicacion": "Síndrome nefrótico (por nefropatía membranosa) con dolor torácico súbito, hipoxemia: tromboembolismo pulmonar por hipercoagulabilidad."
     }
   },
   {
@@ -6298,7 +6298,7 @@
         }
       ],
       "correcta": "E",
-      "explicacion": "Diagnóstico: **Delírium** (opción **E**). Es un síndrome confusional agudo o delirium clásico.. Esta clase cubre la púrpura de Schonlein-Henoch, también llamada vasculitis por IgA. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh."
+      "explicacion": "Es un delirium (síndrome confusional agudo) en una paciente hospitalizada por fractura de cadera."
     }
   },
   {
@@ -6650,7 +6650,7 @@
         },
         {
           "letter": "B",
-          "text": "Taquicardia paroxís2ca supraventricular"
+          "text": "Taquicardia paroxística supraventricular"
         },
         {
           "letter": "C",
@@ -6662,7 +6662,7 @@
         },
         {
           "letter": "E",
-          "text": "Taquicardia auricular mul2focal"
+          "text": "Taquicardia auricular multifocal"
         }
       ],
       "correcta": "D",
@@ -6804,7 +6804,7 @@
         }
       ],
       "correcta": "A",
-      "explicacion": "Tiene un probable cáncer de pulmón, complicado con un TEP masivo (inestabilidad hemodinámica, compromiso de conciencia), cuyo tratamiento de elección es la trombólisis sistémica (se prefieren los trombolíticos modernos sobre la estreptoquinasa). Si la trombólisis está contraindicada (ej. hemorragia grave), se procede a la embolectomía generalmente abierta. En cambio, en el TEP no masivo no se tromboliza, sino solo se anticoagula. Comentario aparte, el examen de elección no era el angioTAC, sino el ecocardiograma de urgencia, que confirma el TEP masivo si hay signos de hipertensión pulmonar."
+      "explicacion": "TEP de alto riesgo (hipotension, sincope, falla de VD, desorientacion): el tratamiento es trombolisis sistemica, si hay contraindicacion se recurre a trombectomia."
     }
   },
   {
@@ -7340,7 +7340,7 @@
         },
         {
           "letter": "B",
-          "text": "Ins2tuto de Salud Pública"
+          "text": "Instituto de Salud Pública"
         },
         {
           "letter": "C",
@@ -7402,7 +7402,7 @@
         }
       ],
       "correcta": "C",
-      "explicacion": "La alternativa correcta es la **C** (TAC de tórax). El tabaquismo es un factor de riesgo mayor con implicaciones cardiovasculares (ACV, infarto, claudicación intermitente, aneurisma de aorta abdominal), oncológicas (cáncer de pulmón, boca, vejiga, lengua, nariz, esófago, laringe) y respiratorias (EPOC, enfisema pulmonar, bronquitis crónica). Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES)."
+      "explicacion": "Sospecha de TBC con baciloscopias negativas: se continua con TAC de torax segun el hallazgo radiologico, el cultivo y la PCR complementan."
     }
   },
   {
@@ -7493,8 +7493,8 @@
           "text": "Amnioinfusión"
         }
       ],
-      "correcta": "A",
-      "explicacion": "RPM a las 35 semanas: manejo conservador con hospitalización, corticoides (betametasona) para maduración pulmonar, antibióticos profilácticos (ampicilina + eritromicina) y monitoreo fetal estrecho."
+      "correcta": "B",
+      "explicacion": "RPM >=34 semanas sin contraindicacion: inducir el parto (con ATB profilacticos), corticoides solo si <34 sem."
     }
   },
   {
@@ -8046,7 +8046,7 @@
         }
       ],
       "correcta": "A",
-      "explicacion": "La alternativa correcta es la **A** (Endoscopía digestiva alta). Parece un cáncer gástrico. Siempre lo primero es confirmarlo con EDA y biopsia. La necrosis tubular aguda (NTA) es la causa más frecuente de insuficiencia renal aguda de tipo renal. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES)."
+      "explicacion": "Pirosis con baja de peso y vómitos en >50 años = síntomas de alarma: EDA con biopsia (cáncer gástrico)."
     }
   },
   {
@@ -8113,32 +8113,32 @@
     "image_rel_path": "figuras/atlas_eunacom_2026/177_media_gastro_gastro_06_hernia_hiatal_diafragmatica_me.jpg",
     "pregunta": {
       "tipo_origen": "Pregunta Real EUNACOM",
-      "origen_tag": "EUNACOM Diciembre 2024 · Pregunta 16",
-      "enunciado": "Niño de 13 años con ginecomastia unilateral y masa 3 cm retroareolar, genitales tanner 3: (repetida años anteriores) a.​ Observar 1 año",
+      "origen_tag": "EUNACOM Julio 2013 · Pregunta 162",
+      "enunciado": "Un niño de 8 años, es traído por presentar mal olor axilar desde hace semanas, no asociado a otros síntomas. Al examen físico se aprecia vello púbico escaso y testículos con volumen de 4cc. Su índice de masa corporal está en percentil 50 para su edad y sexo. El diagnóstico más probable es:",
       "opciones": [
         {
-          "letter": "B",
-          "text": "Eco mamaria"
+          "letter": "A",
+          "text": "Pubertad precoz central"
         },
         {
           "letter": "B",
-          "text": "Control sano habitual"
+          "text": "Pubertad precoz periférica"
         },
         {
           "letter": "C",
-          "text": "Derivar a especialista"
+          "text": "Pubertad temprana"
         },
         {
           "letter": "D",
-          "text": "Hospitalizar"
+          "text": "Hiperplasia suprarrenal"
         },
         {
           "letter": "E",
-          "text": "Observación domiciliaria"
+          "text": "Adrenarquia temprana"
         }
       ],
       "correcta": "A",
-      "explicacion": "La alternativa correcta es la **A** (). :::note El metronidazol en monodosis de 2 g es la elección para tricomoniasis, NO para vaginosis. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES)."
+      "explicacion": "Tiene una pubertad precoz (menos de 9 años en varones), con testículos de 4 cc, por lo que están estimulados por las gonadotropinas. Como hay elevación de gonadotropinas, es porque está activado el eje hipotálamo hipófisis, es decir, es central."
     }
   },
   {
@@ -8586,7 +8586,7 @@
         },
         {
           "letter": "C",
-          "text": "Colangi2s esclerosante primaria"
+          "text": "Colangitis esclerosante primaria"
         },
         {
           "letter": "D",
@@ -8594,7 +8594,7 @@
         },
         {
           "letter": "E",
-          "text": "Colangi2s infecciosa"
+          "text": "Colangitis infecciosa"
         }
       ],
       "correcta": "A",
@@ -9288,7 +9288,7 @@
         }
       ],
       "correcta": "C",
-      "explicacion": "La alternativa correcta es la **C** (TAC de tórax). El tabaquismo es un factor de riesgo mayor con implicaciones cardiovasculares (ACV, infarto, claudicación intermitente, aneurisma de aorta abdominal), oncológicas (cáncer de pulmón, boca, vejiga, lengua, nariz, esófago, laringe) y respiratorias (EPOC, enfisema pulmonar, bronquitis crónica). Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES)."
+      "explicacion": "Sospecha de TBC con baciloscopias negativas: se continua con TAC de torax segun el hallazgo radiologico, el cultivo y la PCR complementan."
     }
   },
   {
@@ -9472,7 +9472,7 @@
         }
       ],
       "correcta": "B",
-      "explicacion": "Conducta / Tratamiento indicado: **Tromboemolismo pulmonar** (opción **B**). Tiene un síndrome nefrótico, secundario a una neforpatía membranosa y complicado con un TEP. Congénito (menor 3 meses): test genéticos primero, biopsia de entrada, tratamiento = trasplante renal. De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+      "explicacion": "Síndrome nefrótico (por nefropatía membranosa) con dolor torácico súbito, hipoxemia: tromboembolismo pulmonar por hipercoagulabilidad."
     }
   },
   {
@@ -9652,7 +9652,7 @@
         },
         {
           "letter": "E",
-          "text": "Amigdali2s bacteriana"
+          "text": "Amigdalitis bacteriana"
         }
       ],
       "correcta": "D",
@@ -9866,11 +9866,11 @@
       "opciones": [
         {
           "letter": "A",
-          "text": "Coronariogra:a"
+          "text": "Coronariografia"
         },
         {
           "letter": "B",
-          "text": "Cin2gra:a miocárdica"
+          "text": "Cintigrafia miocárdica"
         },
         {
           "letter": "C",
@@ -10024,7 +10024,7 @@
         }
       ],
       "correcta": "A",
-      "explicacion": "Diagnóstico: **Asma bronquial** (opción **A**). Tiene un cuadro clínico y espirometría (patrón obstructivo que mejora con BD) compatibles con asma.. La enfermedad mixta del tejido conectivo (EMTC) es una mezcla de manifestaciones de artritis reumatoide (artritis), lupus (úlceras orales, rash malar, pericarditis, lupus cutáneo subagudo), esclerodermia (fenómeno de Raynaud, disfagia, esclerodactilia) y miositis (como en la polimiositis/dermatomiositis), pudiendo además complicarse con síndrome de Sjögren. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh."
+      "explicacion": "Patrón obstructivo con reversibilidad al broncodilatador (mejora VEF1 >12 por ciento) y pocos pack-year: asma bronquial."
     }
   },
   {
@@ -10330,7 +10330,7 @@
         },
         {
           "letter": "B",
-          "text": "Taquicardia paroxís2ca supraventricular"
+          "text": "Taquicardia paroxística supraventricular"
         },
         {
           "letter": "C",
@@ -10342,7 +10342,7 @@
         },
         {
           "letter": "E",
-          "text": "Taquicardia auricular mul2focal"
+          "text": "Taquicardia auricular multifocal"
         }
       ],
       "correcta": "D",
@@ -10530,7 +10530,7 @@
         }
       ],
       "correcta": "B",
-      "explicacion": "Conducta / Tratamiento indicado: **Tromboemolismo pulmonar** (opción **B**). Tiene un síndrome nefrótico, secundario a una neforpatía membranosa y complicado con un TEP. Congénito (menor 3 meses): test genéticos primero, biopsia de entrada, tratamiento = trasplante renal. De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+      "explicacion": "Síndrome nefrótico (por nefropatía membranosa) con dolor torácico súbito, hipoxemia: tromboembolismo pulmonar por hipercoagulabilidad."
     }
   },
   {
@@ -10610,11 +10610,11 @@
         },
         {
           "letter": "C",
-          "text": "Administrar an2bió2cos de amplio espectro por vía endovenosa"
+          "text": "Administrar antibióticos de amplio espectro por vía endovenosa"
         },
         {
           "letter": "D",
-          "text": "Realizar endoscopía diges2va alta"
+          "text": "Realizar endoscopía digestiva alta"
         },
         {
           "letter": "E",
@@ -11082,7 +11082,7 @@
         }
       ],
       "correcta": "C",
-      "explicacion": "La alternativa correcta es la **C** (TAC de tórax). El tabaquismo es un factor de riesgo mayor con implicaciones cardiovasculares (ACV, infarto, claudicación intermitente, aneurisma de aorta abdominal), oncológicas (cáncer de pulmón, boca, vejiga, lengua, nariz, esófago, laringe) y respiratorias (EPOC, enfisema pulmonar, bronquitis crónica). Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES)."
+      "explicacion": "Sospecha de TBC con baciloscopias negativas: se continua con TAC de torax segun el hallazgo radiologico, el cultivo y la PCR complementan."
     }
   },
   {
@@ -12396,11 +12396,11 @@
       "opciones": [
         {
           "letter": "A",
-          "text": "Solicitar endoscopía diges2va alta"
+          "text": "Solicitar endoscopía digestiva alta"
         },
         {
           "letter": "B",
-          "text": "Solicitar radiogra:as de cuello"
+          "text": "Solicitar radiografias de cuello"
         },
         {
           "letter": "C",
@@ -12906,7 +12906,7 @@
         },
         {
           "letter": "B",
-          "text": "Disección aór2ca"
+          "text": "Disección aórtica"
         },
         {
           "letter": "C",
@@ -13060,7 +13060,7 @@
         }
       ],
       "correcta": "E",
-      "explicacion": "Evaluación del Hipotiroidismo Severo: En un paciente con sospecha de hipotiroidismo severo, la evaluación inicial debe incluir la medición de la hormona estimulante de la tiroides (TSH) y, idealmente, también la T4 libre. El manejo del coma mixedematoso (una complicación grave del hipotiroidismo) consiste en la administración de corticosteroides y levotiroxina intravenosos. En este caso, aún no tiene un coma mixedematoso."
+      "explicacion": "Sospecha clínica de hipotiroidismo: TSH como examen inicial, con T4 libre si está alterada."
     }
   },
   {
@@ -13704,7 +13704,7 @@
         }
       ],
       "correcta": "A",
-      "explicacion": "Conducta / Tratamiento indicado: **Iniciar aspirina** (opción **A**). Por ser una paciente de alto riesgo, debe recibir profilaxis de PE con aspirina.. Score de Tal: leve 0-5, moderado 6-8, severo 9-12 puntos (máximo 12) De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+      "explicacion": "Antecedente de preeclampsia y Doppler uterino alterado: alto riesgo, iniciar aspirina profiláctica."
     }
   },
   {
@@ -14415,32 +14415,32 @@
     "image_rel_path": "figuras/atlas_eunacom_2026/314_media_sp_sp_05_genograma.jpg",
     "pregunta": {
       "tipo_origen": "Pregunta Real EUNACOM",
-      "origen_tag": "EUNACOM Diciembre 2024 · Pregunta 156",
-      "enunciado": "Estudiante 4to año medicina, con miedo hablar en público y quedarse en blanco- a.​ Fobia social",
+      "origen_tag": "EUNACOM Julio 2025 · Pregunta 89",
+      "enunciado": "Paciente de 28 años con miedo intenso y síntomas físicos ante situaciones de hablar en público o comer frente a otros. Evita reuniones sociales y ha rechazado ascensos laborales por esto. ¿Cuál es el tratamiento farmacológico de primera línea?",
       "opciones": [
         {
           "letter": "A",
-          "text": "Trastorno de ansiedad generalizada"
+          "text": "Escitalopram (ISRS)"
         },
         {
           "letter": "B",
-          "text": "Trastorno obsesivo compulsivo"
+          "text": "Propranolol a demanda"
         },
         {
           "letter": "C",
-          "text": "Trastorno de estrés postraumático"
+          "text": "Alprazolam a diario"
         },
         {
           "letter": "D",
-          "text": "Episodio depresivo mayor"
+          "text": "Haloperidol"
         },
         {
           "letter": "E",
-          "text": "Trastorno bipolar"
+          "text": "Carbamazepina"
         }
       ],
       "correcta": "A",
-      "explicacion": "La alternativa correcta es la **A** (Trastorno de ansiedad generalizada). Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh. Las opciones alternativas (Trastorno obsesivo compulsivo, Trastorno de estrés postraumático) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente."
+      "explicacion": "Fobia social / trastorno de ansiedad social: el tratamiento farmacológico de primera línea son los ISRS (sertralina, escitalopram, paroxetina). Se combinan con TCC. El propranolol es para situaciones puntuales."
     }
   },
   {
@@ -14578,7 +14578,7 @@
         }
       ],
       "correcta": "B",
-      "explicacion": "La alternativa correcta es la **B** (Diabetes mellitus). Las balanopostitis candidiásicas se asocian a diabetes. También las candidiasis genitales femeninas.. El pie diabético es una de las complicaciones más devastadoras de la diabetes y la principal causa de amputación no traumática de extremidades inferiores. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES)."
+      "explicacion": "Balanopostitis candidiásica recurrente: descartar diabetes mellitus."
     }
   },
   {
@@ -14650,23 +14650,23 @@
       "opciones": [
         {
           "letter": "A",
-          "text": "Cor2sol plasmá2co a las 7:00 y a las 23:00 horas"
+          "text": "Cortisol plasmático a las 7:00 y a las 23:00 horas"
         },
         {
           "letter": "B",
-          "text": "Cor2sol plasmá2co post-dexametasona"
+          "text": "Cortisol plasmático post-dexametasona"
         },
         {
           "letter": "C",
-          "text": "Niveles plasmá2cos de ACTH"
+          "text": "Niveles plasmáticos de ACTH"
         },
         {
           "letter": "D",
-          "text": "Resonancia magné2ca nuclear de abdomen"
+          "text": "Resonancia magnética nuclear de abdomen"
         },
         {
           "letter": "E",
-          "text": "Resonancia magné2ca nuclear de hipófisis"
+          "text": "Resonancia magnética nuclear de hipófisis"
         }
       ],
       "correcta": "B",
@@ -15013,32 +15013,32 @@
     "image_rel_path": "figuras/atlas_eunacom_2026/327_baja_hem_hem_10_ptt_y_shu.jpg",
     "pregunta": {
       "tipo_origen": "Pregunta Real EUNACOM",
-      "origen_tag": "EUNACOM Diciembre 2024 · Pregunta 81",
-      "enunciado": "Paciente joven con diarrea de larga data, sin mucosidad ni sangre, TAC con engrosamiento íleon distal, diagnóstico, *calprotectina fecal elevada (1500 creo): cáncer/Crohn/CU? (Es Crohn) Tenia mas pinta de cancer<—- no porque tenia 20 y tantos. Tenia 48 era viejo. Pero por el nivel de calprotectina y el compromiso de intestino delgado es Crohn…",
+      "origen_tag": "EUNACOM Agosto 2021 · Pregunta 110",
+      "enunciado": "Un paciente de 25 años presenta un cuadro de 3 semanas de dolor abdominal tipo cólico y diarrea acuosa, que en ocasiones es sanguinolenta. Además, ha presentado úlceras orales recidivantes y ha bajado de peso. Al examen físico tiene abdomen blando y depresible, doloroso a la palpación profunda y sin signos de irritación peritoneal y con ruidos hidroaéreos conservados. Hace 4 semanas se realizó manejo quirúrgico de una fístula anorrectal. El diagnóstico más probable es:",
       "opciones": [
         {
           "letter": "A",
-          "text": "Hemograma y VHS"
+          "text": "Colitis parasitaria"
         },
         {
           "letter": "B",
-          "text": "Ecografía"
+          "text": "Enfermedad de Cröhn"
         },
         {
           "letter": "C",
-          "text": "Radiografía"
+          "text": "Enfermedad celíaca"
         },
         {
           "letter": "D",
-          "text": "TAC con contraste"
+          "text": "Colitis ulcerosa"
         },
         {
           "letter": "E",
-          "text": "Resonancia magnética"
+          "text": "Colitis pseudomembranosa"
         }
       ],
-      "correcta": "A",
-      "explicacion": "Diagnóstico: **Hemograma y VHS** (opción **A**). Clase sobre las enfermedades inflamatorias intestinales: colitis ulcerosa y enfermedad de Crohn. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh."
+      "correcta": "B",
+      "explicacion": "Tiene una enfermedad inflamatoria intestinal. Las úlceras orales se ven tanto en colitis ulcerosa como en enfermedad de Cróhn. La fístula anorrectal orienta fuertemente a enfermedad de Cróhn."
     }
   },
   {
@@ -15498,7 +15498,7 @@
         }
       ],
       "correcta": "B",
-      "explicacion": "Diagnóstico: **Crisis focal secundariamente generalizado** (opción **B**). Esta clase aborda el manejo del traumatismo encéfalo craneano (TEC), diferenciando entre TEC simple y severo según la presencia de signos de alarma. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh."
+      "explicacion": "Desviación de cabeza y mirada conjugada al inicio indican crisis focal que se generaliza secundariamente (tónico-clónica con mordedura lateral de lengua)."
     }
   },
   {
@@ -16176,11 +16176,11 @@
         },
         {
           "letter": "C",
-          "text": "Administrar an2bió2cos de amplio espectro por vía endovenosa"
+          "text": "Administrar antibióticos de amplio espectro por vía endovenosa"
         },
         {
           "letter": "D",
-          "text": "Realizar endoscopía diges2va alta"
+          "text": "Realizar endoscopía digestiva alta"
         },
         {
           "letter": "E",
@@ -16464,7 +16464,7 @@
         }
       ],
       "correcta": "C",
-      "explicacion": "Conducta / Tratamiento indicado: **Indicar analgesia endovenosa** (opción **C**). Indicar analgesia endovenosa. El antibiótico de elección en mordeduras es amoxicilina con ácido clavulánico; se indica en mordedura de gato, humana, extensa, en manos, o infectada. De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+      "explicacion": "Quemadura en manos de un niño: analgesia efectiva, cubrir con apósito limpio y derivar por ser zona especial."
     }
   },
   {
@@ -16720,11 +16720,11 @@
       "opciones": [
         {
           "letter": "A",
-          "text": "Solicitar resonancia magné2ca nuclear de rodilla"
+          "text": "Solicitar resonancia magnética nuclear de rodilla"
         },
         {
           "letter": "B",
-          "text": "Solicitar ecogra:a de rodilla"
+          "text": "Solicitar ecografia de rodilla"
         },
         {
           "letter": "C",
@@ -16732,11 +16732,11 @@
         },
         {
           "letter": "D",
-          "text": "Realizar punción ar2cular y estudio de líquido sinovial"
+          "text": "Realizar punción articular y estudio de líquido sinovial"
         },
         {
           "letter": "E",
-          "text": "Solicitar factor reumatoide y an2cuerpos an2nucleares"
+          "text": "Solicitar factor reumatoide y anticuerpos antinucleares"
         }
       ],
       "correcta": "D",

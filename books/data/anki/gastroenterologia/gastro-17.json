@@ -1,0 +1,343 @@
+{
+  "classId": "gastro-17",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Patología biliar: solo dolor = {{c1::cólico biliar}}; dolor + fiebre = {{c2::colecistitis aguda}}.",
+      "extra": "",
+      "origen": "clase:20",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Patología biliar: dolor + ictericia = {{c1::coledocolitiasis}}; dolor + ictericia + fiebre = {{c2::colangitis}}.",
+      "extra": "",
+      "origen": "clase:20",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 67",
+        "EUNACOM Julio 2013 · Pregunta 66"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El cólico biliar dura {{c1::30–60 min}} y cede solo; se desencadena con comidas grasas.",
+      "extra": "Dolor de > 6 h con fiebre ya es colecistitis.",
+      "origen": "clase:2",
+      "fuente": "Clase · Cólico biliar",
+      "repaso": false
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sospecha de colelitiasis (cólico que cedió): el examen de elección es la {{c1::ecografía abdominal}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cólico biliar",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 36",
+        "EUNACOM Enero 2023 · Pregunta 68"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la ecografía, el cálculo biliar se ve como una imagen hiperecogénica con {{c1::sombra acústica posterior}}.",
+      "extra": "",
+      "origen": "foto",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-17/01_colelitiasis-con-sombra-eco__cto-radiologia_p44.jpg",
+      "fuente": "Clase · Cólico biliar",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 174"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Manejo agudo del cólico biliar: {{c1::dipirona + antiespasmódico}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cólico biliar",
+      "repaso": false
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En Chile, toda colelitiasis, incluso asintomática, se trata con {{c1::colecistectomía laparoscópica electiva}}.",
+      "extra": "Por complicaciones y por la alta incidencia de cáncer de vesícula.",
+      "origen": "clase:3",
+      "fuente": "Clase · Toda colelitiasis se opera",
+      "repaso": true
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El GES garantiza la colecistectomía preventiva en la colelitiasis entre los {{c1::35 y 49 años}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · GES",
+      "repaso": true
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Colelitiasis asintomática: la disolución con ursodesoxicólico y la observación {{c1::no protegen del cáncer de vesícula}}.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz colelitiasis",
+      "repaso": false
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Colecistitis aguda: dolor persistente en hipocondrio derecho por {{c1::más de 6 h}}, con fiebre, Murphy y leucocitosis.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Colecistitis aguda",
+      "repaso": false
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Ecografía de colecistitis aguda: cálculo enclavado, pared vesicular {{c1::> 4 mm}}, líquido perivesicular y Murphy ecográfico.",
+      "extra": "",
+      "origen": "foto",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-17/02_colecistitis-eco__cto-radiologia_p44.jpg",
+      "fuente": "Clase · Colecistitis aguda",
+      "repaso": false
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Colecistitis aguda: hospitalizar, antibióticos y colecistectomía laparoscópica precoz en las primeras {{c1::72 h}}.",
+      "extra": "Es la única patología biliar que se opera de urgencia.",
+      "origen": "clase:5",
+      "fuente": "Clase · La única que se opera de urgencia",
+      "repaso": true
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Colecistitis aguda en paciente de muy alto riesgo quirúrgico: {{c1::colecistostomía percutánea}} transitoria.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · La única que se opera de urgencia",
+      "repaso": false
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Dolor + fiebre + Murphy con {{c1::bilirrubina normal}}: colecistitis, no coledocolitiasis ni colangitis.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · caso",
+      "repaso": false
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la ecografía, un colédoco {{c1::> 6–7 mm}} hace sospechar coledocolitiasis.",
+      "extra": "La eco rara vez ve el cálculo coledociano.",
+      "origen": "clase:6",
+      "fuente": "Clase · Eco, colangio-RM, CPRE",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 165",
+        "EUNACOM Diciembre 2019 · Pregunta 93"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Coledocolitiasis sin colangitis y sin cálculo visible en la eco: el siguiente paso es la {{c1::colangiorresonancia}}.",
+      "extra": "Si confirma el cálculo, recién CPRE.",
+      "origen": "clase:6",
+      "fuente": "Clase · Eco, colangio-RM, CPRE",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 146",
+        "EUNACOM Diciembre 2019 · Pregunta 96",
+        "EUNACOM Julio 2017 · Pregunta 73"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Se va directo a CPRE, sin colangiorresonancia, si hay {{c1::colangitis}} o si la ecografía {{c2::ya vio el cálculo en el colédoco}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Eco, colangio-RM, CPRE",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 109"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cálculo en el colédoco visto en la ecografía: {{c1::CPRE con papilotomía y extracción}}, seguida de colecistectomía.",
+      "extra": "La CPRE puede causar pancreatitis: no se usa para diagnosticar.",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz CPRE",
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La tríada de Charcot (dolor + ictericia + fiebre) define la {{c1::colangitis aguda}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Charcot y Reynolds",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 145",
+        "EUNACOM Julio 2017 · Pregunta 101"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Péntada de Reynolds: Charcot + {{c1::hipotensión}} + {{c2::compromiso de conciencia}} (colangitis grave).",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Charcot y Reynolds",
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la colangitis aguda, lo esencial es el {{c1::drenaje biliar urgente por CPRE}}, junto con volumen y antibióticos.",
+      "extra": "Se drena, no se opera; la colecistectomía va después, electiva.",
+      "origen": "clase:8",
+      "fuente": "Clase · Lo esencial es drenar",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 97",
+        "EUNACOM Diciembre 2017 · Pregunta 96",
+        "EUNACOM Julio 2013 · Pregunta 23",
+        "EUNACOM Julio 2025 · Pregunta 152"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antibióticos de amplio espectro en colangitis aguda: {{c1::ceftriaxona + metronidazol}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Lo esencial es drenar",
+      "repaso": false
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En colangitis grave, la {{c1::colecistectomía}} no descomprime el colédoco: se difiere hasta resolver el cuadro.",
+      "extra": "Si no hay CPRE, drenaje percutáneo.",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz colangitis",
+      "repaso": false
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Vesícula en porcelana o escleroatrófica: {{c1::colecistectomía electiva}} por riesgo de cáncer.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Colecistectomizado con colédoco dilatado y colestasia, sin cálculo visible ni colangitis: pedir {{c1::colangiorresonancia}}.",
+      "extra": "Riesgo intermedio; la CPRE se reserva para riesgo alto o cálculo confirmado.",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz colangio-RM",
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-17/01_colelitiasis-con-sombra-eco__cto-radiologia_p44.jpg",
+      "pregunta": "Cólicos que ceden solos: ¿qué muestra y qué haces?",
+      "diagnostico": "Colelitiasis",
+      "clave": "Cálculo blanco en la vesícula con sombra acústica negra detrás",
+      "conducta": "Colecistectomía laparoscópica electiva (GES entre 35 y 49 años)",
+      "fuente": "Manual CTO Radiología 14.ª ed., p. 44",
+      "repaso": false
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-17/02_colecistitis-eco__cto-radiologia_p44.jpg",
+      "pregunta": "Dolor de > 6 h con fiebre y Murphy: ¿qué muestra y qué haces?",
+      "diagnostico": "Colecistitis aguda",
+      "clave": "Pared vesicular > 4 mm con líquido perivesicular",
+      "conducta": "Hospitalizar, antibióticos y colecistectomía laparoscópica en < 72 h",
+      "fuente": "Manual CTO Radiología 14.ª ed., p. 44",
+      "repaso": false
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-17/03_coledocolitiasis-cpre__cto-digestivo_p246.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Coledocolitiasis en CPRE",
+      "clave": "Defecto de relleno (cálculo) dentro del colédoco",
+      "conducta": "Extracción por CPRE; luego colecistectomía electiva",
+      "fuente": "Manual CTO Digestivo 14.ª ed., p. 246",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Dolor + fiebre: ¿diagnóstico y conducta?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.2",
+      "pista": "Dolor + ictericia: ¿diagnóstico y estudio?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.3",
+      "pista": "Dolor + ictericia + fiebre: ¿conducta?"
+    }
+  ]
+}

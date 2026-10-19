@@ -1,0 +1,460 @@
+{
+  "classId": "neuro-17",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La miastenia gravis es una enfermedad autoinmune de la membrana {{c1::postsináptica}} de la placa motora.",
+      "extra": "Menos receptores funcionales de acetilcolina.",
+      "origen": "clase:1",
+      "fuente": "Clase · Faltan receptores",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El sello clínico de la miastenia es la debilidad {{c1::fluctuante}}: peor con el uso, mejor con el reposo.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 74"
+      ],
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los anticuerpos anti-receptor de acetilcolina están en el {{c1::85 %}} de las miastenias generalizadas y 50 % de las oculares puras.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Anticuerpos",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si el anti-AChR es negativo en una miastenia generalizada se pide anti-{{c1::MuSK}}.",
+      "extra": "Fenotipo bulbar severo; responde a rituximab y mal a piridostigmina.",
+      "origen": "clase:6",
+      "fuente": "Clase · Anticuerpos, EMG y tórax",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El anti-MuSK está presente en {{c1::30 a 40 %}} de los seronegativos para anti-receptor.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Anticuerpos",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La miastenia tiene dos picos de edad: mujer de 20 a 40 años (hiperplasia tímica) y hombre de {{c1::50 a 60}} años (timoma).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Anticuerpos",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La miastenia suele debutar con compromiso {{c1::ocular}}: ptosis asimétrica y diplopía binocular.",
+      "extra": "No sigue el territorio de un solo par craneal.",
+      "origen": "clase:3",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 74"
+      ],
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la miastenia las pupilas son {{c1::siempre normales}} y reactivas; una midriasis descarta miastenia.",
+      "extra": "Pensar en III par, botulismo o Miller Fisher.",
+      "origen": "clase:4",
+      "fuente": "Clase · Ptosis: la pupila decide",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ptosis con déficit de aducción y elevación de un solo ojo en diabético: parálisis del {{c1::tercer par}}, no miastenia.",
+      "extra": "No fluctúa.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz EUNACOM Jul 2024",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El compromiso bulbar de la miastenia da voz {{c1::nasal}} que se apaga y fatiga al masticar.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La debilidad de extremidades en la miastenia es de predominio {{c1::proximal}} y simétrico.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Test del hielo: hielo sobre el párpado 2 a 3 minutos; positivo si la hendidura mejora ≥ {{c1::2 mm}}.",
+      "extra": "El frío inhibe la acetilcolinesterasa.",
+      "origen": "clase:5",
+      "fuente": "Clase · Pruebas de cabecera",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Test del hielo: sensibilidad 80 a 90 % y especificidad sobre {{c1::95 %}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Pruebas de cabecera",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Test de Simpson: mirar hacia arriba durante {{c1::60 segundos}}; la ptosis aparece o empeora.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Pruebas de cabecera",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Anti-receptor de acetilcolina tiene especificidad sobre {{c1::98 %}}: confirma el diagnóstico.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Anticuerpos, EMG y tórax",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Estimulación repetitiva a 3 Hz en miastenia: decremento mayor de {{c1::10 %}} del CMAP.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Anticuerpos, EMG y tórax",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.020",
+        "1.10.4.006"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La prueba electrofisiológica más sensible en miastenia es el EMG de {{c1::fibra aislada}} (aumento del jitter).",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Anticuerpos, EMG y tórax",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.020",
+        "1.10.4.006"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En todo paciente con miastenia se pide {{c1::TAC de tórax}} con contraste, aunque no tenga síntomas torácicos.",
+      "extra": "Timoma en 10 a 15 %.",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.020",
+        "1.10.4.006"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Timoma en miastenia: {{c1::10 a 15 %}}; hiperplasia tímica: 65 a 70 %.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Diagnóstico paraclínico",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En miastenia están contraindicados aminoglucósidos y {{c1::fluoroquinolonas}} (caja negra por parálisis respiratoria).",
+      "extra": "Si hay ITU: ceftriaxona o cotrimoxazol.",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El sulfato de magnesio EV está contraindicado en miastenia porque puede causar {{c1::paro respiratorio}}.",
+      "extra": "También en eclampsia con miastenia.",
+      "origen": "clase:7",
+      "fuente": "Clase · Fármacos prohibidos",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Otros fármacos a evitar en miastenia: betabloqueadores, antiarrítmicos y relajantes como {{c1::rocuronio}} (a 1/10 de dosis).",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Fármacos prohibidos",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Piridostigmina: {{c1::30 a 60 mg}} cada 4 a 6 horas, máximo 360 mg al día.",
+      "extra": "Efectos muscarínicos: cólicos, diarrea, sialorrea.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tratamiento crónico",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Prednisona en miastenia: partir con {{c1::10 a 20 mg}} y subir hasta 0,75 a 1 mg/kg.",
+      "extra": "Bolos altos de entrada producen efecto dip.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tratamiento crónico",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Al iniciar prednisona en miastenia, el error clásico son los bolos altos de entrada por el efecto {{c1::dip}}.",
+      "extra": "Empeoramiento paradójico precoz.",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Ahorradores de corticoides en miastenia: {{c1::azatioprina}} o micofenolato.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tratamiento crónico",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La timectomía es indicación absoluta ante {{c1::timoma}}.",
+      "extra": "También en generalizada anti-receptor positiva de 18 a 65 años sin timoma (MGTX).",
+      "origen": "clase:9",
+      "fuente": "Clase · Timectomía",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Crisis miasténica: falla respiratoria o disfagia grave; se hace UCI, intubación electiva y {{c1::plasmaféresis o inmunoglobulina}}.",
+      "extra": "Se suspende la piridostigmina.",
+      "origen": "clase:10",
+      "fuente": "Clase · Crisis miasténica",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la crisis miasténica la inmunoglobulina EV es {{c1::2 g/kg}} en 2 a 5 días.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Crisis miasténica",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Parestesias nocturnas en manos que mejoran al sacudirlas con debilidad: túnel carpiano, se confirma con {{c1::electromiografía}}.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz EUNACOM Jul 2015",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-17/02_test_hielo_a_ptosis__kanski_p851.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Ptosis miasténica",
+      "clave": "Ptosis fluctuante con pupila normal",
+      "conducta": "Test del hielo, anti-receptor de acetilcolina, EMG y TAC de tórax",
+      "fuente": "Kanski, Oftalmología clínica 8.ª ed., p. 851",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-17/01_timoma-tc-mediastino__cto-radiologia_p22.jpg",
+      "pregunta": "¿Qué muestra y qué indica?",
+      "diagnostico": "Timoma en el mediastino anterior",
+      "clave": "Masa mediastínica anterior retroesternal en TAC con contraste",
+      "conducta": "Timectomía (indicación absoluta) y tratamiento de la miastenia",
+      "fuente": "Manual CTO Radiología 14.ª ed., p. 22",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.020"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Ptosis con pupila anormal: ¿qué se descarta?",
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Pupila normal: ¿qué estudios pides?",
+      "codigos": [
+        "1.10.1.020"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.2",
+      "pista": "Miastenia con falla respiratoria: ¿conducta?",
+      "codigos": [
+        "1.10.1.020"
+      ]
+    }
+  ]
+}

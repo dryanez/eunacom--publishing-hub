@@ -1,0 +1,463 @@
+{
+  "classId": "sp-15",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La demografía entrega a la salud pública los {{c1::denominadores}} de sus tasas.",
+      "extra": "Estudia tamaño, estructura y dinámica de las poblaciones.",
+      "origen": "clase:1",
+      "fuente": "Clase · Demografía",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.007"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El indicador de demografía dinámica es la tasa de {{c1::fecundidad}} (también la tasa de mortalidad infantil).",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Diciembre 2022 · Pregunta 153 / Enero 2023 · Pregunta 1",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.007"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 153",
+        "EUNACOM Enero 2023 · Pregunta 1"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El nivel de reemplazo de la tasa global de fecundidad es de {{c1::2,1}} hijos por mujer.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Demografía",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.007"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El crecimiento natural de una población es la natalidad {{c1::menos}} la mortalidad.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Demografía",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.007"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pirámide poblacional de base ancha y cúspide estrecha: {{c1::expansiva}}.",
+      "extra": "Natalidad y mortalidad altas; población joven.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.007"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La pirámide en forma de campana, con lados casi verticales, es la {{c1::estacionaria}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.007"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La pirámide de base angosta y cuerpo ancho es la {{c1::constrictiva}}; es la de Chile.",
+      "extra": "Población que envejece.",
+      "origen": "clase:2",
+      "fuente": "Clase · Tabla de pirámides",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.007"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con pirámide expansiva se priorizan planificación familiar, saneamiento básico y {{c1::vacunación}}.",
+      "extra": "Predominan infecciosas y desnutrición.",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz EUNACOM Enero 2023",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.007"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 7",
+        "EUNACOM Diciembre 2022 · Pregunta 124",
+        "EUNACOM Agosto 2021 · Pregunta 4"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con pirámide constrictiva se priorizan las enfermedades {{c1::crónicas, la dependencia y el adulto mayor}}.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · pirámide de población",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.007"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Llegada de migrantes jóvenes y sanos en edad fértil aumenta la tasa bruta de {{c1::natalidad}}.",
+      "extra": "Se priorizan los programas materno-infantiles.",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz EUNACOM Diciembre 2025",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.007"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 13",
+        "EUNACOM Diciembre 2025 · Pregunta 12"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Índice de envejecimiento = población de 65 años o más / {{c1::menores de 15}} × 100.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Demografía",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.007"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La transición {{c1::epidemiológica}} (Omran) es el paso de enfermedades infecciosas a crónicas, cáncer y lesiones.",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz EUNACOM Julio 2025",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.007"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 117"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si aumenta la velocidad de envejecimiento de la población, aumentan las personas con {{c1::fragilidad}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Diciembre 2024 · Pregunta 138",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.007"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 138"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La administración es el proceso de {{c1::planificar, organizar, dirigir y controlar}} los recursos (Fayol).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.041"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Eficacia: se {{c1::cumple el objetivo}} propuesto.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Eficacia, eficiencia, efectividad",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.041"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Eficiencia: lograr el resultado con el {{c1::menor uso de recursos}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Eficacia, eficiencia, efectividad",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.041"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En atención primaria el pago es {{c1::per cápita}}, por inscrito.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Formas de pago",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.055"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En hospitales el pago es por prestación o por {{c1::GRD (grupos relacionados por el diagnóstico)}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Formas de pago",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.055"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los hospitales de mayor complejidad son establecimientos de {{c1::autogestión en red}} (Ley 19.937).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Establecimientos",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.055"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Índice ocupacional = días cama {{c1::ocupados}} / días cama disponibles × 100.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Fórmulas hospitalarias",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.055"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Promedio de días de estada = días de estada de los egresos / {{c1::egresos}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Fórmulas hospitalarias",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.055"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Rotación o giro de camas = egresos / {{c1::camas disponibles}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Fórmulas hospitalarias",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.055"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La planificación es de {{c1::largo plazo}} (estrategia global); la programación fija actividades y recursos en el corto plazo, anual.",
+      "extra": "",
+      "origen": "clase:20",
+      "fuente": "Clase · Quiz EUNACOM Diciembre 2019",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.042"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 4"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La programación calcula la concentración, el rendimiento y se ordena en una carta {{c1::Gantt}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Programación",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.042"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El mejor indicador para dimensionar el recurso humano obstétrico es el número de {{c1::partos históricos}} del plantel.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Diciembre 2018 · Pregunta 135",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.042"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 135"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El objetivo expresa {{c1::qué}} se quiere lograr; la meta lo cuantifica en cantidad y tiempo.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.043"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los cuatro niveles del marco lógico son fin, propósito, componentes y {{c1::actividades}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.043"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el marco lógico, el propósito es el {{c1::cambio en la población objetivo}}; el fin, el impacto de largo plazo.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Marco lógico",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.043"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Unidad de mando: cada persona responde ante {{c1::un solo jefe}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Organización",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.044"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La estructura formal se representa en el {{c1::organigrama}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.044"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El liderazgo {{c1::transformacional}} inspira y desarrolla al equipo; el transaccional intercambia metas y recompensas.",
+      "extra": "",
+      "origen": "libro:sec:6",
+      "fuente": "Libro §6 Dirección",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.045"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La coordinación entre niveles de atención se concreta en la referencia y {{c1::contrarreferencia}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Dirección",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.045"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Pirámide de base ancha: ¿qué priorizas?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.2.0",
+      "pista": "Pirámide constrictiva: ¿qué priorizas?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.3",
+      "pista": "Llegan migrantes jóvenes: ¿qué sube?"
+    }
+  ]
+}

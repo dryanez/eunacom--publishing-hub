@@ -1,0 +1,484 @@
+{
+  "classId": "sp-10",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tamizaje no diagnostica: {{c1::clasifica}} a personas asintomáticas en alta o baja probabilidad de enfermedad.",
+      "extra": "Los de alta probabilidad pasan a pruebas confirmatorias.",
+      "origen": "clase:2",
+      "fuente": "Clase · Qué es tamizar",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tamizaje que se aplica a toda una cohorte sin selección individual de riesgo es el de {{c1::masa (poblacional)}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Tamizaje",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tamizaje que aprovecha una consulta por otro motivo es el {{c1::oportunístico}}.",
+      "extra": "Ej.: tomar la presión en cada consulta.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Tamizaje",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una prueba de tamizaje debe tener alta {{c1::sensibilidad}}, independiente de la especificidad.",
+      "extra": "Luego se confirma con pruebas más específicas.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 43"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El ELISA sirve para detectar VIH en población asintomática por su alta {{c1::sensibilidad}}.",
+      "extra": "Screening: alta S, E intermedia. Confirmatorias: alta E.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 60"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La utilidad de una prueba diagnóstica se determina calculando su {{c1::sensibilidad y especificidad}}.",
+      "extra": "También sirven las curvas ROC.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 28"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Wilson y Jungner: la enfermedad debe ser un problema de salud {{c1::importante}} para la comunidad.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Wilson y Jungner",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Wilson y Jungner: debe existir una fase {{c1::preclínica (latente) detectable y prolongada}}.",
+      "extra": "Sin ventana antes de los síntomas, no se puede tamizar.",
+      "origen": "clase:3",
+      "fuente": "Clase · Wilson y Jungner",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Wilson y Jungner: el tratamiento precoz debe dar {{c1::más beneficio que el tratamiento en fase sintomática}}.",
+      "extra": "El criterio que más se pregunta.",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · programa de tamizaje",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Wilson y Jungner: la búsqueda de casos debe ser un proceso {{c1::continuo y regular}}, no de una sola vez.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Wilson y Jungner",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si no hay ventaja de tratar temprano, el tamizaje está {{c1::contraindicado}}.",
+      "extra": "Riesgo de sobrediagnóstico sin beneficio.",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · programa de tamizaje",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El sesgo de adelanto (lead-time) aumenta la sobrevida aparente sin {{c1::postergar la fecha de la muerte}}.",
+      "extra": "El paciente solo vive más tiempo \"sabiendo\" que tiene la enfermedad.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sobrevida a 5 años del 60% en tamizados y 20% en sintomáticos, con igual mortalidad a los 10 años: sesgo de {{c1::adelanto diagnóstico (lead-time)}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · caso clínico",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El sesgo de duración (length-time) ocurre porque el tamizaje detecta más tumores {{c1::indolentes y de crecimiento lento}}.",
+      "extra": "Los agresivos se escapan entre rondas.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Para evaluar un tamizaje, desconfía de la {{c1::sobrevida a 5 años}}: puede estar inflada por adelanto o duración.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El único indicador válido de eficacia de un tamizaje es la reducción de la tasa de {{c1::mortalidad específica}}.",
+      "extra": "Idealmente demostrada en un ensayo clínico aleatorizado.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 141"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tamizaje de cáncer de mama se evalúa con la tasa de {{c1::mortalidad por cáncer de mama}}.",
+      "extra": "El tamizaje no reduce la incidencia: solo detecta antes.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz EUNACOM Agosto 2021",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La mortalidad específica por cáncer de mama mide el {{c1::impacto}} del programa de detección precoz.",
+      "extra": "Cobertura y tiempos de atención son indicadores de proceso.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz EUNACOM Diciembre 2025",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.046"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 118"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tamizaje de cáncer cervicouterino (GES): mujeres de {{c1::25 a 64 años}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de programas",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El PAP se repite cada {{c1::3 años}}; con test de VPH, cada 5 años.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de programas",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tamizaje de cáncer de mama (GES): mamografía en mujeres de {{c1::50 a 69 años}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de programas",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La mamografía de tamizaje se repite cada {{c1::2 años}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de programas",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipotiroidismo y fenilcetonuria: tamizaje universal en todo recién nacido con {{c1::gota de sangre en papel filtro}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de programas",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La displasia del desarrollo de caderas se tamiza a los {{c1::3 meses}} con radiografía de pelvis AP.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de programas",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El EMPA (hipertensión y diabetes) se aplica a adultos de {{c1::20 a 64 años}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de programas",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.028"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tamizaje se ubica en la fase {{c1::subclínica (presintomática)}} de la historia natural de la enfermedad.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Historia natural",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.003"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 101"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El PAP que detecta una lesión de alto grado en una mujer asintomática actúa en el período patogénico {{c1::subclínico o presintomático}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.003"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El período prepatogénico es la interacción de {{c1::agente, huésped y ambiente}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Historia natural",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.003"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La prevención primaria actúa {{c1::antes de que exista la enfermedad}}.",
+      "extra": "Incluye promoción y protección específica.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Niveles de prevención",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.004"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 143"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La vacunación es una medida de protección específica, es decir, prevención {{c1::primaria}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Niveles de prevención",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.004"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 167"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tamizaje (PAP, mamografía, PKU/TSH neonatal) es prevención {{c1::secundaria}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz EUNACOM Diciembre 2017",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.004"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 72",
+        "EUNACOM Diciembre 2019 · Pregunta 176",
+        "EUNACOM Julio 2013 · Pregunta 21"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La prevención terciaria limita el daño y {{c1::rehabilita}} cuando la enfermedad ya está establecida.",
+      "extra": "Ej.: control metabólico del diabético, rehabilitación tras infarto.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Niveles de prevención",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.004"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 69",
+        "EUNACOM Julio 2019 · Pregunta 11"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La rehabilitación tras un infarto es prevención terciaria; el error es llamarla {{c1::secundaria}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.004"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Enfermedad rara o fulminante: ¿se tamiza?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1.0",
+      "pista": "Tratamiento precoz mejor y test simple: ¿conducta?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.1",
+      "pista": "Sin ventaja de tratar temprano: ¿qué concluyes?"
+    }
+  ]
+}

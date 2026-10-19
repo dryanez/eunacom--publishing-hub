@@ -1,0 +1,541 @@
+{
+  "classId": "gin-04",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El mioma es el tumor benigno {{c1::sólido}} más común del aparato genital femenino.",
+      "extra": "Crece dependiente de estrógeno y progesterona.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Miomas submucosos: FIGO {{c1::0, 1 y 2}}; son los que más sangran y causan infertilidad.",
+      "extra": "Distorsionan la cavidad endometrial.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "FIGO 0: submucoso totalmente intracavitario y {{c1::pediculado}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla FIGO",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "FIGO 1: submucoso con componente intramural < {{c1::50%}}; FIGO 2: ≥ {{c2::50%}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 FIGO",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "FIGO 3 y 4 son miomas {{c1::intramurales}}; el 3 está en contacto con el endometrio.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 FIGO",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Miomas subserosos (FIGO {{c1::6 y 7}}) producen síntomas compresivos sin aumentar el sangrado.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "FIGO 7 es el mioma {{c1::subseroso pediculado}}; riesgo de torsión aguda.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla FIGO",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Submucoso {{c1::sangra}}; subseroso {{c2::comprime}}.",
+      "extra": "La ubicación decide el síntoma.",
+      "origen": "clase:16",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Más de {{c1::50-60%}} de los miomas son asintomáticos.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síntoma más frecuente del mioma sintomático: {{c1::hemorragia uterina anormal}} (hipermenorrea).",
+      "extra": "Puede llevar a anemia ferropénica.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síntomas compresivos del mioma: polaquiuria, constipación y {{c1::tenesmo vesical}}; puede haber hidronefrosis.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.021",
+        "1.09.5.006"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Al tacto, útero aumentado, irregular, duro e indoloro: {{c1::miomatosis}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.09.5.006"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Al tacto, útero globuloso, blando y doloroso con dismenorrea: {{c1::adenomiosis}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.021",
+        "1.09.5.006"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Útero fijo con nódulos en ligamentos uterosacros al tacto rectovaginal: {{c1::endometriosis profunda}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.09.5.006"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dolor a la movilización del cuello y fondo de saco abombado doloroso: {{c1::EIP}} con absceso.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.09.5.006"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer con retención urinaria, pesadez pélvica y útero aumentado, irregular y firme: {{c1::compresión por miomatosis}}.",
+      "extra": "Se confirma con ecografía transvaginal.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Perfil V3 tacto",
+      "repaso": true,
+      "codigos": [
+        "1.09.5.006"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tacto rectovaginal evalúa septum rectovaginal, ligamentos uterosacros y {{c1::parametrios}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tacto",
+      "repaso": false,
+      "codigos": [
+        "1.09.5.006"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Degeneración más frecuente del mioma: {{c1::hialina}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Degeneraciones",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Degeneración hialina: cerca del {{c1::60%}} de los miomas.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Degeneraciones",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Degeneración roja del mioma: típica del {{c1::2.º o 3.er trimestre}} del embarazo.",
+      "extra": "Infarto hemorrágico: dolor agudo, fiebre moderada y leucocitosis.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Degeneraciones",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Dolor agudo por degeneración roja en el embarazo: manejo {{c1::médico (reposo, hidratación, analgesia)}}, nunca miomectomía.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Degeneración quística y calcificada: frecuentes en la {{c1::postmenopausia}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Degeneraciones",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Degeneración sarcomatosa (leiomiosarcoma): extraordinariamente rara, < {{c1::0.5%}}; sospechar si crece rápido en postmenopáusica.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Degeneraciones",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Mioma asintomático hallado incidentalmente: {{c1::observación y control ecográfico}}; no se opera de rutina.",
+      "extra": "Sin importar su clasificación FIGO.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.021"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 43",
+        "EUNACOM Diciembre 2025 · Pregunta 162",
+        "EUNACOM Diciembre 2019 · Pregunta 154",
+        "EUNACOM Agosto 2021 · Pregunta 79",
+        "EUNACOM Agosto 2021 · Pregunta 166"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Sangrado con endometrio grueso en postmenopáusica con mioma: el error es {{c1::atribuirlo al mioma}}; se biopsia el endometrio.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Mioma submucoso sintomático FIGO 0-1 que desea fertilidad: {{c1::miomectomía histeroscópica}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.021"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 51"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Miomectomía histeroscópica: de elección en submucosos FIGO 0 y 1 menores de {{c1::4-5 cm}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Quirúrgico",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Mioma sintomático, nulípara, que desea preservar el útero: {{c1::miomectomía}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.021"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 63"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Submucoso sintomático con deseo de embarazo: el error es indicar {{c1::histerectomía}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Miomatosis sintomática con anemia y paridad cumplida: {{c1::histerectomía total}}, tratamiento curativo definitivo.",
+      "extra": "Antes se confirma benignidad del endometrio.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.021"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 151"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Mioma intramural que no contacta la cavidad: la miomectomía {{c1::histeroscópica}} no aplica.",
+      "extra": "Se usa laparoscópica o abierta, o histerectomía si paridad cumplida.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz caso",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Análogos de GnRH (leuprolide) reducen el mioma 30-50% y se usan solo como puente preoperatorio de {{c1::3 a 6 meses}}.",
+      "extra": "Más tiempo: osteoporosis.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Farmacológico",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Sangrado por mioma intramural sin distorsión de cavidad: {{c1::DIU-LNG}}, ácido tranexámico y AINEs.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Farmacológico",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Embolización de arterias uterinas: alternativa no quirúrgica, {{c1::desaconsejada}} si hay deseo de gestación.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Quirúrgico",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adenomiosis: glándulas endometriales en el miometrio con hipertrofia muscular reactiva; clínica de {{c1::dismenorrea severa}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-04/03_mioma-eco-transvaginal__commons.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Mioma uterino",
+      "clave": "Nódulo hipoecogénico bien delimitado",
+      "conducta": "Asintomático: control ecográfico; sintomático según fertilidad",
+      "fuente": "Wikimedia Commons, CC0",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-04/02_leiomiomas-tc_1__cto-radiologia_p138.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Mioma que comprime el recto",
+      "clave": "Masa miometrial voluminosa que desplaza órganos pelvianos",
+      "conducta": "Síntomas compresivos: miomectomía o histerectomía según paridad",
+      "fuente": "Manual CTO Radiología 14.ª ed., p. 138",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.021",
+        "1.09.5.006"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-04/01_mioma-intramural-miomas-multiples_alt2__amir-gyo_p121.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Mioma gigante sintomático",
+      "clave": "Útero con mioma gigante extraído por laparotomía",
+      "conducta": "Paridad cumplida: histerectomía total",
+      "fuente": "Manual AMIR Ginecología, p. 121",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.021"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Mioma sintomático: ¿qué pregunta define la cirugía?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.0",
+      "pista": "Submucoso, desea fertilidad: ¿qué cirugía?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "Sintomático, no desea fertilidad: ¿tratamiento?"
+    }
+  ]
+}

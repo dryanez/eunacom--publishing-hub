@@ -1,0 +1,553 @@
+{
+ "classId": "oftal-15",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Clasificación {{c1::BETT}}: trauma ocular cerrado (pared íntegra) vs abierto (herida de espesor total).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 BETT",
+   "repaso": true,
+   "codigos": [
+    "6.02.2.007"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ruptura ocular: herida de espesor total por objeto {{c1::romo}} que eleva bruscamente la presión intraocular.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Ruptura",
+   "repaso": true,
+   "codigos": [
+    "6.02.2.007"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Herida penetrante: un solo orificio de entrada; {{c1::perforante}}: orificio de entrada y de salida.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Penetrante",
+   "repaso": true,
+   "codigos": [
+    "6.02.2.007"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cuerpo extraño intraocular: típico de quien martilla {{c1::metal sobre metal}} sin protección.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 CEIO",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.007"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pupila «en gota o lágrima»: el iris se hernia y el vértice {{c1::apunta hacia la herida}}.",
+   "extra": "Obrero con clavo en el ojo: pupila en pera y cámara plana.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pupila",
+   "repaso": true,
+   "imagen": "_verificadas/079_oftal_Globo_ocular_abierto__Knoop_p93.jpg",
+   "codigos": [
+    "6.02.2.007"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Globo abierto: cámara anterior muy {{c1::plana}} (o muy profunda) e hipotonía ocular marcada.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cámara",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.007"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo de Seidel positivo: la fluoresceína se diluye por la fuga de {{c1::humor acuoso}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Seidel",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.007"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hemorragia subconjuntival masiva en {{c1::360°}} con quemosis tras trauma contuso: sospechar ruptura oculta.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hiposfagma",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.007"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En sospecha de globo abierto, evitar a toda costa el aumento de la {{c1::presión intraocular}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Objetivo",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.007",
+    "6.02.5.003"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Protector ocular {{c1::rígido}} o concha fenestrada que se apoye en el reborde óseo, nunca sobre el ojo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Protección",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.007",
+    "6.02.5.003"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Régimen cero, reposo con cabecera a {{c1::30°}}, analgesia, antieméticos y antibiótico EV; derivar bajo GES.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Conducta",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.007",
+    "6.02.5.003"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En globo abierto está prohibido palpar, medir la PIO ({{c1::tonometría}}), colocar pomadas o colirios y parchar con gasa compresiva.",
+   "extra": "Obrero con clavo: tonometría aplanática contraindicada.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Prohibiciones",
+   "repaso": true,
+   "codigos": [
+    "6.02.2.007",
+    "6.02.5.003"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los antieméticos EV (ondansetrón) evitan la {{c1::maniobra de Valsalva}} del vómito, que expulsaría el contenido intraocular.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Antieméticos",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.007",
+    "6.02.5.003"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Imagen de elección ante sospecha de CEIO: {{c1::TAC de órbita}} sin contraste con cortes finos.",
+   "extra": "Tornero con partícula de acero a alta velocidad.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Imagen",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.007",
+    "6.02.5.003"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La {{c1::resonancia magnética}} está contraindicada ante un cuerpo extraño metálico: puede movilizarlo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 RM",
+   "repaso": true,
+   "codigos": [
+    "6.02.2.007",
+    "6.02.5.003"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antibióticos profilácticos contra la endoftalmitis traumática: ceftazidima + {{c1::vancomicina}} EV o moxifloxacino oral.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Antibióticos",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.007",
+    "6.02.5.003"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El trauma ocular grave está cubierto por el {{c1::GES N.º 48}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 GES",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.007",
+    "6.02.5.003"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hipema: sangre en la cámara anterior por rotura de vasos del iris o cuerpo ciliar tras trauma {{c1::contuso}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Hipema",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-15/01_hipema__kanski_p882.jpg",
+   "codigos": [
+    "6.02.1.014",
+    "6.02.2.002"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hipema: reposo con cabecera a {{c1::30-45°}} para que los eritrocitos decanten, protector rígido y analgesia.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Conducta",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.014",
+    "6.02.2.002"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el hipema se evita la {{c1::aspirina}} y los AINE por riesgo de resangrado.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 AINE",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.014",
+    "6.02.2.002"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Riesgo crítico: resangrado a las {{c1::48-72 horas}}, a menudo más masivo; glaucoma secundario y tinción hemática corneal.",
+   "extra": "Pelotazo con hipema del tercio inferior.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Resangrado",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.014",
+    "6.02.2.002"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La contusión ocular se examina de adelante hacia atrás; primero descartar {{c1::globo abierto}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Contusión",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.002"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fractura en estallido: diplopía vertical, limitación de la mirada hacia arriba por atrapamiento del {{c1::recto inferior}}, enoftalmos e hipoestesia infraorbitaria.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Blow-out",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-15/01_fractura-suelo-orbitario-tc__cto-oftalmo_p94.jpg",
+   "codigos": [
+    "6.02.2.002"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fractura del piso orbitario se confirma con {{c1::TAC de órbitas}}.",
+   "extra": "Puñetazo con diplopía al mirar arriba e hipoestesia de la mejilla.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Blow-out",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.002"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Trauma maxilofacial: esquema {{c1::ABCDE}}, vía aérea con control cervical y siempre examinar los ojos.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Maxilofacial",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.015"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Herida palpebral: primero descartar lesión del {{c1::globo}}; simples se suturan con nylon 6-0 y puntos fuera a los 5 días.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Párpados",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.008"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Derivar en 24 a 48 horas si compromete el margen, el canto interno con el {{c1::canalículo}}, el elevador, el septum o hay pérdida de tejido.",
+   "extra": "Mordedura de perro en el párpado inferior medial.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Derivar",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.008"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Eversión del párpado superior: para descartar cuerpo extraño subtarsal ante {{c1::erosiones verticales}} de la córnea.",
+   "extra": "Ojo rojo con dolor y múltiples erosiones lineales en la mitad superior de la córnea.",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Eversión",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 91"
+   ],
+   "codigos": [
+    "6.02.5.005"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Si hay sospecha de globo abierto, el párpado {{c1::no se evierte}} ni se presiona.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Eversión",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.005"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cuerpo extraño tarsal: anestésico tópico, torula húmeda o irrigación, fluoresceína y ungüento antibiótico por {{c1::3 a 5 días}}.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Cuerpo extraño",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.007"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Nunca se entrega anestésico tópico para la casa ni se {{c1::parcha}} una erosión por cuerpo extraño.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Anestésico",
+   "repaso": true,
+   "codigos": [
+    "6.02.5.007"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Trauma ocular laboral: Ley 16.744; el empleador emite la {{c1::DIAT}} (o el médico) y se deriva a la mutualidad.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Accidente laboral",
+   "repaso": false,
+   "codigos": [
+    "6.02.3.001"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Queratitis actínica («ojo de soldador»): dolor 6 a 12 horas después, erosión punteada bilateral; cura en {{c1::24-48 horas}}.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Soldador",
+   "repaso": false,
+   "codigos": [
+    "6.02.3.001"
+   ]
+  },
+  {
+   "id": "c99",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Niño con edema palpebral, eritema y secreción purulenta que no abre el ojo, sin oftalmoplejía, proptosis ni baja de visión: {{c1::celulitis periorbitaria}}.",
+   "extra": "Orbitaria si hay proptosis, dolor al mover el ojo o baja de visión; ver tema de celulitis.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Párpados",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 1"
+   ],
+   "codigos": [
+    "6.02.2.007"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "_verificadas/079_oftal_Globo_ocular_abierto__Knoop_p93.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Pupila en gota",
+   "clave": "Pupila deformada apuntando hacia la herida",
+   "conducta": "Concha rígida, régimen cero y derivar GES 48",
+   "fuente": "The Atlas of Emergency Medicine (Knoop), p. 93",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.007"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-15/01_hipema__kanski_p882.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Hipema",
+   "clave": "Nivel de sangre en la cámara anterior inferior",
+   "conducta": "Cabecera 30-45°, sin AINE, vigilar el resangrado",
+   "fuente": "Kanski's Clinical Ophthalmology, 8.ª ed., p. 882",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.014",
+    "6.02.2.002"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-15/01_fractura-suelo-orbitario-tc__cto-oftalmo_p94.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Fractura del piso orbitario",
+   "clave": "TAC con atrapamiento del contenido orbitario",
+   "conducta": "Derivar; TAC de órbitas",
+   "fuente": "Manual CTO Oftalmología 14.ª ed., p. 94",
+   "repaso": false,
+   "codigos": [
+    "6.02.2.002"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Trauma ocular reciente: ¿qué se descarta primero?",
+   "codigos": [
+    "6.02.2.007",
+    "6.02.5.003"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Sospecha de globo abierto: ¿cómo se protege el ojo?",
+   "codigos": [
+    "6.02.2.007",
+    "6.02.5.003"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.0.0",
+   "pista": "Sospecha de cuerpo extraño intraocular: ¿qué examen se pide?",
+   "codigos": [
+    "6.02.2.007",
+    "6.02.5.003"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.0.0",
+   "pista": "Hipema traumático: ¿conducta?",
+   "codigos": [
+    "6.02.2.007",
+    "6.02.5.003"
+   ]
+  }
+ ]
+}

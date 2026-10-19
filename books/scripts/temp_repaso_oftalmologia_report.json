@@ -1,0 +1,505 @@
+{
+ "report": {
+  "topics": {
+   "T15.1": {
+    "steps": 10,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T15.2": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 2,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T15.3": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 2,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T15.4": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 2,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T15.5": {
+    "steps": 6,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 300,
+    "traps": 1,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T15.6": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T15.7": {
+    "steps": 1,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T15.8": {
+    "steps": 6,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 300,
+    "traps": 0,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T15.9": {
+    "steps": 12,
+    "split": false,
+    "algo": {
+     "scale": 0.98,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 220,
+    "traps": 0,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T15.10": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 340,
+    "traps": 1,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T15.11": {
+    "steps": 1,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T15.12": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 0.94,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T15.13": {
+    "steps": 1,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T15.14": {
+    "steps": 0,
+    "split": false,
+    "algo": {
+     "scale": 0.87,
+     "orient": "lr"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T15.15": {
+    "steps": 10,
+    "split": false,
+    "algo": {
+     "scale": 0.82,
+     "orient": "lr"
+    },
+    "algoH": 220,
+    "traps": 0,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T15.16": {
+    "steps": 4,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 340,
+    "traps": 1,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T15.17": {
+    "steps": 0,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 340,
+    "traps": 1,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T15.18": {
+    "steps": 12,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 220,
+    "traps": 2,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   }
+  },
+  "warnings": [],
+  "pages": 26,
+  "where": {
+   "COVER": 1,
+   "IDX": 2,
+   "T15.1": 3,
+   "T15.2": 4,
+   "T15.3": 5,
+   "T15.4": 6,
+   "T15.5": 7,
+   "T15.6": 8,
+   "T15.7": 9,
+   "T15.8": 10,
+   "T15.9": 11,
+   "T15.10": 12,
+   "T15.11": 13,
+   "T15.12": 14,
+   "T15.13": 15,
+   "T15.14": 16,
+   "T15.15": 17,
+   "T15.16": 18,
+   "T15.17": 19,
+   "T15.18": 20,
+   "NUM": 21,
+   "DRUG": 23,
+   "GES": 23,
+   "PLAN": 25,
+   "PRIO": 26
+  }
+ },
+ "stars": [
+  {
+   "t": "15.1",
+   "real": 4,
+   "stars": 2,
+   "lg": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "t": "15.2",
+   "real": 7,
+   "stars": 3,
+   "lg": [
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "t": "15.3",
+   "real": 5,
+   "stars": 3,
+   "lg": [
+    12,
+    13,
+    14,
+    15,
+    37,
+    55,
+    73,
+    74
+   ]
+  },
+  {
+   "t": "15.4",
+   "real": 3,
+   "stars": 2,
+   "lg": [
+    16,
+    17,
+    18
+   ]
+  },
+  {
+   "t": "15.5",
+   "real": 0,
+   "stars": 1,
+   "lg": [
+    21,
+    22,
+    23
+   ]
+  },
+  {
+   "t": "15.6",
+   "real": 4,
+   "stars": 2,
+   "lg": [
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+   ]
+  },
+  {
+   "t": "15.7",
+   "real": 8,
+   "stars": 3,
+   "lg": [
+    31,
+    32,
+    33,
+    34
+   ]
+  },
+  {
+   "t": "15.8",
+   "real": 5,
+   "stars": 3,
+   "lg": [
+    35,
+    36
+   ]
+  },
+  {
+   "t": "15.9",
+   "real": 8,
+   "stars": 3,
+   "lg": [
+    1,
+    2,
+    51,
+    52,
+    53,
+    54
+   ]
+  },
+  {
+   "t": "15.10",
+   "real": 1,
+   "stars": 1,
+   "lg": [
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+   ]
+  },
+  {
+   "t": "15.11",
+   "real": 0,
+   "stars": 1,
+   "lg": [
+    49,
+    50
+   ]
+  },
+  {
+   "t": "15.12",
+   "real": 5,
+   "stars": 3,
+   "lg": [
+    20,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62
+   ]
+  },
+  {
+   "t": "15.13",
+   "real": 0,
+   "stars": 1,
+   "lg": [
+    63,
+    64
+   ]
+  },
+  {
+   "t": "15.14",
+   "real": 5,
+   "stars": 3,
+   "lg": [
+    65,
+    66,
+    67
+   ]
+  },
+  {
+   "t": "15.15",
+   "real": 2,
+   "stars": 2,
+   "lg": [
+    19,
+    38,
+    68,
+    69,
+    70,
+    71,
+    72
+   ]
+  },
+  {
+   "t": "15.16",
+   "real": 2,
+   "stars": 2,
+   "lg": [
+    75,
+    76,
+    77
+   ]
+  },
+  {
+   "t": "15.17",
+   "real": 1,
+   "stars": 1,
+   "lg": [
+    78,
+    79,
+    80,
+    81,
+    82
+   ]
+  },
+  {
+   "t": "15.18",
+   "real": 6,
+   "stars": 3,
+   "lg": [
+    56,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90
+   ]
+  }
+ ],
+ "lg": {
+  "name": "Oftalmología",
+  "file": "Libro_Gordo_Oftalmologia_90Q.pdf",
+  "unassigned": [],
+  "byLabel": 80,
+  "byCode": 9,
+  "total": 90,
+  "byEditorial": 1
+ },
+ "stats": {
+  "numbers": 37,
+  "drugs": 13,
+  "ges": 7
+ }
+}

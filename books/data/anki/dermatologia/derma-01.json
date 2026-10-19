@@ -1,0 +1,515 @@
+{
+  "classId": "derma-01",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Mácula: lesión plana de diámetro {{c1::menor a 1 cm}}; si es mayor, se llama mancha.",
+      "extra": "Ambas sin relieve a la palpación.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla lesiones",
+      "repaso": true,
+      "codigos": [
+        "6.01.3.003",
+        "6.01.1.009"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Mancha: lesión plana de diámetro {{c1::mayor a 1 cm}} (vitíligo, café con leche, melasma).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Planas y líquidas",
+      "repaso": false,
+      "codigos": [
+        "6.01.3.003",
+        "6.01.1.009"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una lesión plana que desaparece a la digitopresión (vitropresión positiva) es {{c1::vascular congestiva (eritema)}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Lesiones planas",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.009"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una mancha que NO desaparece a la digitopresión es {{c1::purpúrica, por extravasación hemática}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Lesiones planas",
+      "repaso": false,
+      "codigos": [
+        "6.01.3.003"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Vesícula: colección líquida de diámetro {{c1::menor a 0.5 cm}} en la epidermis.",
+      "extra": "Herpes simple, zóster, varicela.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla lesiones",
+      "repaso": true,
+      "codigos": [
+        "6.01.3.003"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Ampolla o flictena: colección líquida de diámetro {{c1::mayor a 0.5 – 1 cm}}.",
+      "extra": "Pénfigo, penfigoide, quemaduras de 2.° grado.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla lesiones",
+      "repaso": true,
+      "codigos": [
+        "6.01.3.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La pústula se define por su contenido: es {{c1::purulenta desde su inicio}}, no una vesícula infectada después.",
+      "extra": "Acné pustuloso, foliculitis.",
+      "origen": "clase:2",
+      "fuente": "Clase · Planas y líquidas",
+      "repaso": false,
+      "codigos": [
+        "6.01.3.003"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Vesícula vs ampolla: el corte es 0,5 cm; el error clásico es {{c1::confundir tamaño con gravedad}}.",
+      "extra": "El tamaño solo da el nombre.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.01.3.003"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pápula: elevación sólida menor a 1 cm que {{c1::cura sin dejar cicatriz}}.",
+      "extra": "Verruga plana, liquen plano, molusco.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Lesiones sólidas",
+      "repaso": false,
+      "codigos": [
+        "6.01.3.003",
+        "6.01.1.009"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La placa es una elevación sólida {{c1::en meseta}} mayor a 1 cm, formada por confluencia de pápulas.",
+      "extra": "Ej.: psoriasis vulgar.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Lesiones sólidas",
+      "repaso": true,
+      "codigos": [
+        "6.01.3.003",
+        "6.01.1.009"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Pápula vs placa: el error frecuente es {{c1::llamar «placa» a una pápula aislada}}.",
+      "extra": "La placa es mayor a 1 cm y en meseta.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.01.3.003"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Nódulo: lesión sólida de dermis profunda o hipodermis que {{c1::se palpa más de lo que se ve}}.",
+      "extra": "Eritema nudoso, lipoma.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Lesiones sólidas",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.009"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Error frecuente con el nódulo: {{c1::confundirlo con una pápula grande}}.",
+      "extra": "Lo define la profundidad.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.01.3.003"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Habón (roncha): placa edematosa por edema dérmico, patognomónicamente {{c1::evanescente (< 24 horas)}}.",
+      "extra": "Lesión de la urticaria.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Habón",
+      "repaso": true,
+      "codigos": [
+        "6.01.3.003"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante un habón el error es {{c1::no preguntar cuánto dura la lesión}}.",
+      "extra": "Se reconoce por el tiempo, no por la forma.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.01.3.003"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La erosión compromete solo {{c1::la epidermis}} y cura sin dejar cicatriz.",
+      "extra": "Ampolla rota, rascado por sarna.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Secundarias",
+      "repaso": true,
+      "codigos": [
+        "6.01.3.003"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La úlcera destruye la membrana basal, llega a dermis o hipodermis y {{c1::siempre deja cicatriz}}.",
+      "extra": "Úlcera venosa, mal perforante plantar.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Secundarias",
+      "repaso": true,
+      "codigos": [
+        "6.01.3.003",
+        "6.01.1.009"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La erosión cura sin cicatriz porque la capa basal de queratinocitos {{c1::regenera por mitosis}}.",
+      "extra": "La dermis no regenera: repara con tejido de granulación.",
+      "origen": "clase:4",
+      "fuente": "Clase · Erosión vs úlcera",
+      "repaso": false,
+      "codigos": [
+        "6.01.3.003",
+        "6.01.1.009"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Erosión vs úlcera: el error es {{c1::decir «úlcera» de cualquier lesión que sangra}}.",
+      "extra": "Lo que define es la profundidad.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.01.3.003"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La escara es tejido {{c1::necrótico negro y seco}} delimitado de piel sana.",
+      "extra": "Loxoscelismo cutáneo, úlcera por presión.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Secundarias",
+      "repaso": false,
+      "codigos": [
+        "6.01.3.003"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Liquenificación: engrosamiento cutáneo con cuadrículas exageradas por {{c1::rascado crónico repetitivo}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Secundarias",
+      "repaso": false,
+      "imagen": "derma-01/liquenificacion.jpg",
+      "codigos": [
+        "6.01.3.003"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Acantosis nigricans: placas pardas aterciopeladas en cuello y axilas = {{c1::resistencia a la insulina o diabetes}}.",
+      "extra": "De inicio brusco en adulto mayor: neoplasia visceral (gástrica).",
+      "origen": "clase:7",
+      "fuente": "Clase · Piel como ventana",
+      "repaso": true,
+      "codigos": [
+        "6.01.3.003",
+        "6.01.1.009"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pioderma gangrenoso (úlcera violácea y socavada) se asocia a {{c1::enfermedad inflamatoria intestinal o artritis reumatoide}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Piel como ventana",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 42"
+      ],
+      "codigos": [
+        "6.01.3.003",
+        "6.01.1.009"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Eritema nudoso: paniculitis septal con nódulos dolorosos {{c1::pretibiales}} que no se ulceran ni dejan cicatriz.",
+      "extra": "Evoluciona en 2 a 6 semanas con cambio de color contusiforme.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Eritema nudoso",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.009",
+        "6.01.3.003"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causa más frecuente de eritema nudoso en niños: infección {{c1::estreptocócica}}.",
+      "extra": "También TBC, sarcoidosis, EII, fármacos, lepra.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Eritema nudoso",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.009",
+        "6.01.3.003"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síndrome de Löfgren: eritema nudoso + {{c1::adenopatías hiliares bilaterales}} + artritis de tobillos.",
+      "extra": "Es sarcoidosis.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Eritema nudoso",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.009",
+        "6.01.3.003"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estudio inicial del eritema nudoso: hemograma, VHS, PCR, cultivo faríngeo/ASO, {{c1::radiografía de tórax, PPD}} y test de embarazo.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Eritema nudoso",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.009",
+        "6.01.3.003"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Bazin vs eritema nudoso: el error es {{c1::tratar un Bazin como eritema nudoso, sin biopsia}}.",
+      "extra": "Bazin: pantorrilla, crónico, se ulcera y deja cicatriz (tuberculide).",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.009"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Vitíligo: autoinmune; manchas {{c1::acrómicas}} de bordes netos, sin descamación ni atrofia, con Koebner positivo.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Vitíligo",
+      "repaso": true,
+      "codigos": [
+        "6.01.3.003",
+        "6.01.1.009"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el vitíligo se pide {{c1::TSH y anticuerpos antiperoxidasa}} por su asociación con autoinmunidad tiroidea.",
+      "extra": "También glicemia: diabetes tipo 1, anemia perniciosa.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "6.01.3.003",
+        "6.01.1.009"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento inicial del vitíligo: fotoprotección estricta y corticoide tópico potente o {{c1::tacrolimus}} en cara y pliegues.",
+      "extra": "Fototerapia UVB de banda estrecha: derivar.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Vitíligo",
+      "repaso": false,
+      "codigos": [
+        "6.01.3.003",
+        "6.01.1.009"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Vitíligo vs pitiriasis versicolor: la versicolor {{c1::descama y se tiñe con KOH}}; el vitíligo no descama.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Vitíligo",
+      "repaso": false,
+      "codigos": [
+        "6.01.3.003",
+        "6.01.1.009"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "derma-01/placa.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Placa de psoriasis vulgar",
+      "clave": "Placas rojas planas por arriba con escama blanca plateada, en codos",
+      "conducta": "Describir como placa (>1 cm, en meseta); orientar a psoriasis vulgar",
+      "fuente": "Manual AMIR Dermatología",
+      "repaso": true,
+      "codigos": [
+        "6.01.3.003",
+        "6.01.1.009"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_web/286_derma_Nódulo__Commons_1.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Eritema nudoso",
+      "clave": "Nódulos rojos dolorosos en cara anterior de ambas piernas",
+      "conducta": "Buscar causa: ASO/cultivo faríngeo, radiografía de tórax, PPD; reposo y AINE",
+      "fuente": "Wikimedia Commons, CC BY-SA 3.0",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.009",
+        "6.01.3.003"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_verificadas/285_derma_Mácula_y_mancha__27thBailey_p622_1.jpg",
+      "pregunta": "¿Qué lesión elemental es?",
+      "diagnostico": "Mancha (café con leche)",
+      "clave": "Manchas pardas planas de más de 1 cm, sin relieve",
+      "conducta": "Nombrarla mancha por el tamaño; no confundir con mácula",
+      "fuente": "Bailey & Love's Short Practice of Surgery, 27.ª ed., p. 622",
+      "repaso": false,
+      "codigos": [
+        "6.01.3.003",
+        "6.01.1.009"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.3.0",
+      "pista": "Lesión secundaria solo epidermis: ¿cómo se llama?",
+      "codigos": [
+        "6.01.3.003"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.2.3",
+      "pista": "Sólida que dura menos de 24 horas: ¿cuál?",
+      "codigos": [
+        "6.01.3.003"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0",
+      "pista": "Líquida seroso menor a 0,5 cm: ¿cuál?",
+      "codigos": [
+        "6.01.3.003"
+      ]
+    }
+  ]
+}

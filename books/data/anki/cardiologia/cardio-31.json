@@ -1,0 +1,644 @@
+{
+ "classId": "cardio-31",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se sospecha HTA secundaria si el inicio es antes de los {{c1::30 años}}, sin obesidad ni antecedentes familiares.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Cuándo sospechar",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.016"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 171"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Bandera roja: HTA resistente a {{c1::tres fármacos}} a dosis plenas, incluido un diurético, con buena adherencia.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Las banderas rojas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.016"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 81",
+    "EUNACOM Diciembre 2022 · Pregunta 51",
+    "EUNACOM Agosto 2021 · Pregunta 136"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Bandera roja: daño de órgano blanco {{c1::desproporcionado}} a la duración o gravedad de la HTA.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Las banderas rojas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Bandera roja: deterioro de la función renal al iniciar un {{c1::IECA o ARA II}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Las banderas rojas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antes de estudiar una causa secundaria se descartan mala técnica, bata blanca, mala adherencia, exceso de sal y {{c1::fármacos que suben la PA}}.",
+   "extra": "AINE, corticoides, anticonceptivos, pseudoefedrina.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Cuándo sospechar",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas más frecuentes de HTA secundaria en el adulto: enfermedad renal parenquimatosa y {{c1::apnea del sueño}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Panorama",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El estudio de HTA secundaria es {{c1::dirigido por la pista}}; no se piden exámenes endocrinos de rutina a todos.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Panorama",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El hiperaldosteronismo primario (Conn) es la causa {{c1::endocrina}} más frecuente de HTA secundaria.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Síndrome de Conn",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Conn: HTA resistente + hipopotasemia + {{c1::alcalosis metabólica}}, con renina suprimida.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Síndrome de Conn",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Solo la {{c1::mitad}} de los casos de Conn tiene potasio bajo.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Síndrome de Conn",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Potasio normal con HTA resistente: el error es {{c1::descartar el hiperaldosteronismo}}; no lo descarta.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tamizaje de Conn: relación aldosterona/renina (ARR) sospechosa si es > {{c1::20-30}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Síndrome de Conn",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.016"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 171"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras un ARR positivo se hace {{c1::TAC de suprarrenales}}; el adenoma suele medir < 2 cm.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Síndrome de Conn",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Potasio bajo sin diuréticos: se pide {{c1::aldosterona/renina}}; el error es pedir metanefrinas o Doppler renal.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 171"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Conn por adenoma unilateral: {{c1::adrenalectomía}} laparoscópica; hiperplasia bilateral: espironolactona.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Síndrome de Conn",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dos causas de estenosis de arteria renal: aterosclerosis en > {{c1::60 años}} y displasia fibromuscular en mujer < 35 años.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Estenosis de la arteria renal",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Displasia fibromuscular: aspecto de {{c1::collar de perlas}} en la angiografía.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Arteria renal",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estenosis renal: soplo abdominal {{c1::sistodiastólico}} y asimetría del tamaño renal.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Estenosis de la arteria renal",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Creatinina que sube > {{c1::30%}} en las primeras 2 semanas de IECA/ARA II sugiere estenosis de arteria renal.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Estenosis de la arteria renal",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con IECA/ARA II cae la filtración en el riñón estenótico porque se bloquea la contracción de la arteriola {{c1::eferente}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Arteria renal",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Examen de elección en estenosis de arteria renal: {{c1::eco-Doppler}} de arterias renales; confirma angioTAC o angiorresonancia.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Estenosis de la arteria renal",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Soplo abdominal con creatinina que sube bajo IECA: el error es {{c1::subir la dosis del IECA}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Displasia fibromuscular: {{c1::angioplastía}}; aterosclerótica: tratamiento médico y revascularizar solo si hay deterioro.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Estenosis de la arteria renal",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Enfermedad renal parenquimatosa con HTA: tratamiento de elección {{c1::IECA o ARA II}} con control de sal y volumen.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Feocromocitoma: tríada de cefalea pulsátil, {{c1::sudoración}} y palpitaciones, en crisis paroxísticas.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Feocromocitoma",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Feocromocitoma: es raro (< 0,2% de los hipertensos) pero una crisis es {{c1::mortal}} y la cirugía lo cura.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Feocromocitoma",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La regla de los 10 del feocromocitoma: bilateral, extrasuprarrenal, maligno y {{c1::familiar}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Feocromocitoma",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Tamizaje del feocromocitoma: {{c1::metanefrinas}} plasmáticas libres o urinarias de 24 horas.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Feocromocitoma",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras metanefrinas positivas, el tumor se localiza con {{c1::TAC o resonancia}} y, si hace falta, gammagrafía MIBG.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Feocromocitoma",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Antes de la cirugía del feocromocitoma: alfabloqueo por {{c1::10 a 14 días}} (fenoxibenzamina o doxazosina).",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Feocromocitoma",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En feocromocitoma, el error es indicar un {{c1::betabloqueador solo}}: sin alfabloqueo precipita una crisis.",
+   "extra": "Alfa antes que beta.",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "SAHOS: obeso, ronquidos, somnolencia y patrón {{c1::non-dipper}} en el MAPA.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Apnea, coartación y endocrinas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "SAHOS: se confirma con {{c1::polisomnografía}} y se trata con CPAP y baja de peso.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Apnea, coartación y endocrinas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Obeso con ronquidos y non-dipper: el error es tratar solo con {{c1::más antihipertensivos}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Coartación: pulsos femorales débiles y PA mayor en {{c1::los brazos}} que en las piernas (> 20 mmHg).",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Apnea, coartación y endocrinas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cushing: obesidad central y estrías violáceas; se tamiza con {{c1::cortisol libre urinario}} o supresión con dexametasona.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Apnea, coartación y endocrinas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pedir {{c1::TSH}} es razonable en toda HTA de difícil control.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Otras causas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Triple terapia (IECA/ARA II + amlodipino + HCTZ) con PA alta persistente: agregar {{c1::espironolactona}} y estudiar HTA secundaria.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.016"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 81",
+    "EUNACOM Diciembre 2022 · Pregunta 51",
+    "EUNACOM Agosto 2021 · Pregunta 136"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Triple terapia con PA alta: el error es agregar un {{c1::betabloqueador}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 81"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Joven de 37 años con PA 170/110, sin obesidad ni herencia: se estudia como {{c1::HTA secundaria}} (aldosterona/renina).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Cuándo sospechar",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.016"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 171"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La espironolactona se agrega en HTA resistente aun {{c1::sin diagnóstico definitivo}}; el estudio va en paralelo.",
+   "extra": "",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Conducta",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 51"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Rol del médico general: sospechar, estudiar dirigido, iniciar tratamiento y {{c1::derivar}} (nefrología, endocrinología, cardiología).",
+   "extra": "",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Conducta",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "La HTA secundaria queda fuera del GES N.º 21 hasta {{c1::descartar la causa}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Perfil · GES",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-31/01_adenoma-suprarrenal-tc__ctmri-pocket-atlas_p382.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Adenoma suprarrenal (síndrome de Conn)",
+   "clave": "Masa suprarrenal pequeña y homogénea en la TAC",
+   "conducta": "Tras ARR > 20-30, TAC de suprarrenales; adrenalectomía si es unilateral, si no espironolactona",
+   "fuente": "CT & MRI Pathology: A Pocket Atlas, p. 382",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-31/02_feocromocitoma-gammagrafia-mibg__amir-endocrino_p58.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Feocromocitoma en gammagrafía MIBG",
+   "clave": "Captación localizada del tumor tras metanefrinas positivas",
+   "conducta": "Alfabloqueo 10-14 días y luego resección; nunca betabloqueador solo",
+   "fuente": "AMIR Endocrinología, p. 58",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.016"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Potasio bajo con alcalosis y HTA resistente: ¿qué tamizaje?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1",
+   "pista": "Soplo abdominal o creatinina que sube con IECA: ¿qué examen?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.2",
+   "pista": "Cefalea, sudor y palpitaciones: ¿qué examen y qué cuidado previo a la cirugía?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.3",
+   "pista": "Obeso con ronquidos y non-dipper: ¿qué estudio y tratamiento?"
+  }
+ ]
+}

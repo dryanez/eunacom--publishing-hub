@@ -1,0 +1,473 @@
+{
+  "classId": "reuma-12",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La esclerosis sistémica combina vasculopatía obliterante, autoinmunidad y {{c1::fibrosis}} cutánea y visceral.",
+      "extra": "Miofibroblastos depositan colágeno I y III.",
+      "origen": "clase:1",
+      "fuente": "Clase · Tríada",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La forma difusa afecta piel proximal a codos y rodillas y {{c1::tronco}}; la limitada respeta tronco y muslos.",
+      "extra": "El tronco define la forma difusa.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.009",
+        "1.05.1.018"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la forma difusa el Raynaud es de inicio reciente (< {{c1::1 año}}); en la limitada precede por años o décadas.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.009",
+        "1.05.1.018"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Autoanticuerpo de la esclerosis difusa: anti-{{c1::Scl-70}} (topoisomerasa I), con patrón nucleolar.",
+      "extra": "Asociado a fibrosis pulmonar.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla difusa vs limitada",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.009",
+        "1.05.1.018"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Autoanticuerpo asociado al mayor riesgo de crisis renal esclerodérmica: anti-{{c1::ARN polimerasa III}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Anticuerpos",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.009",
+        "1.05.1.018"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Autoanticuerpo del síndrome de CREST: {{c1::anticentrómero}} (ACA), positivo en 70–80%.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz EUNACOM 2020",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 45"
+      ],
+      "codigos": [
+        "1.11.1.009",
+        "1.05.1.018"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "CREST: Calcinosis, Raynaud, {{c1::Esofagopatía}}, Sclerodactilia y Telangiectasias.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 31",
+        "EUNACOM Julio 2024 · Pregunta 16"
+      ],
+      "codigos": [
+        "1.11.1.009",
+        "1.05.1.018"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La esofagopatía de la esclerodermia es atrofia del músculo liso de los {{c1::dos tercios distales}} con reflujo severo y disfagia.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 CREST",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Compromiso digestivo de la esclerodermia: IBP a dosis dobles ({{c1::omeprazol 40 mg cada 12 h}}) más proquinéticos.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Esofagopatía",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009",
+        "1.05.1.018"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La acroosteólisis es la {{c1::resorción}} de las falanges distales por isquemia grave; la calcinosis puede ulcerar los pulpejos.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Acroosteólisis",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009",
+        "1.05.1.018"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El frote tendinoso (sensación de cuero crujiente) es un signo de {{c1::alta agresividad}} en la esclerosis difusa.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Osteomuscular",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La primera causa de muerte en la esclerodermia difusa es la {{c1::EPID}} (enfermedad pulmonar intersticial).",
+      "extra": "Tras los IECA, superó a la crisis renal.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.05.1.018",
+        "1.05.1.021"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La complicación visceral tardía de CREST (tras 10–15 años) es la {{c1::hipertensión arterial pulmonar}} (grupo 1), sin fibrosis.",
+      "extra": "Disnea con edema y sin afectación parenquimatosa.",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz EUNACOM 2023",
+      "repaso": true,
+      "codigos": [
+        "1.05.1.021",
+        "1.05.1.018"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hipertensión pulmonar en esclerodermia: ecocardiograma anual, cateterismo derecho y tratamiento con antagonistas de endotelina y {{c1::sildenafil}}.",
+      "extra": "Bosentán, macitentán.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Manejo por órgano",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La crisis renal esclerodérmica afecta al {{c1::10–15%}} de la forma difusa.",
+      "extra": "Hasta 10% puede ser normotensa.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Crisis renal",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Crisis renal esclerodérmica: hipertensión maligna de inicio brusco con PA > {{c1::180/110}} mmHg, falla renal y microangiopatía.",
+      "extra": "Esquistocitos y plaquetopenia.",
+      "origen": "clase:8",
+      "fuente": "Clase · Crisis renal",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.009",
+        "1.05.1.021"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de elección de la crisis renal esclerodérmica: {{c1::captopril oral}} en dosis rápidamente crecientes (IECA).",
+      "extra": "No suspenderlo si la creatinina sube levemente.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los IECA redujeron la mortalidad de la crisis renal de 90% a menos de {{c1::20%}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Crisis renal",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En esclerosis difusa, prednisona > {{c1::15 mg/día}} está contraindicada: gatilla crisis renal.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "EPID de la esclerodermia: tratamiento de elección con {{c1::micofenolato mofetilo}} 2–3 g/día (o ciclofosfamida EV).",
+      "extra": "Fibrosis progresiva: nintedanib o tocilizumab.",
+      "origen": "clase:5",
+      "fuente": "Clase · Fibrosis vs HTP",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.009",
+        "1.05.1.018"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Compromiso cutáneo inflamatorio de la esclerodermia: {{c1::metotrexato}} 15–20 mg/semana.",
+      "extra": "Más kinesioterapia contra microstomía y contracturas.",
+      "origen": "clase:10",
+      "fuente": "Clase · Manejo cutáneo",
+      "repaso": false,
+      "codigos": [
+        "1.05.1.018",
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "EPI: espirometría restrictiva con DLCO {{c1::disminuida}} (a veces antes que la CVF) y TAC de alta resolución como examen de elección.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Sospechar EPID",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 64"
+      ],
+      "codigos": [
+        "1.05.1.018"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "TAC: NIU muestra {{c1::panalización}} y bronquiectasias de tracción; NINE, vidrio esmerilado simétrico (frecuente en esclerodermia).",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Sospechar EPID",
+      "repaso": false,
+      "codigos": [
+        "1.05.1.018"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fibrosis pulmonar idiopática: varones > 60 años y {{c1::tabaquistas}}; antifibróticos nintedanib o pirfenidona.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Causas de EPI",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 38",
+        "EUNACOM Diciembre 2018 · Pregunta 98"
+      ],
+      "codigos": [
+        "1.05.1.018"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fármacos que causan EPI: amiodarona, nitrofurantoína, {{c1::metotrexato}} y bleomicina.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Causas de EPI",
+      "repaso": false,
+      "codigos": [
+        "1.05.1.018"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Conducta inicial en EPI: retirar agente o exposición, dejar el tabaco, oxígeno si hay hipoxemia, vacunas y derivar a {{c1::neumología}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Conducta inicial",
+      "repaso": false,
+      "codigos": [
+        "1.05.1.018"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Seguimiento de esclerodermia difusa reciente: espirometría con DLCO cada 6 meses y presión arterial {{c1::dos veces por semana}} en casa.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tamizaje visceral",
+      "repaso": false,
+      "codigos": [
+        "1.05.1.018"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Raynaud de larga data + disfagia, pirosis, esclerodactilia y telangiectasias: {{c1::esclerosis sistémica}} limitada (CREST).",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "EUNACOM Diciembre 2018 · Pregunta 31",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 31",
+        "EUNACOM Diciembre 2017 · Pregunta 45",
+        "EUNACOM Julio 2024 · Pregunta 16"
+      ],
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-12/01_esclerodactilia__amir-reuma_p99.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Esclerodactilia (esclerosis sistémica)",
+      "clave": "Piel brillante, tirante, dedos en flexión con calcinosis en pulpejos",
+      "conducta": "Pedir ACA/Scl-70; tamizar HTP con ecocardiograma anual; IBP en reflujo",
+      "fuente": "Manual AMIR Reumatología, p. 99",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.009",
+        "1.05.1.018"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_web/044_reuma_Esclerosis_sistémica__Open-i_1.jpg",
+      "pregunta": "¿Qué cara es y qué diagnóstico sugiere?",
+      "diagnostico": "Facies esclerodérmica",
+      "clave": "Microstomía, pliegues peribucales y telangiectasias",
+      "conducta": "Kinesioterapia precoz y estudio de esclerosis sistémica",
+      "fuente": "Open-i (NLM), CC BY",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_verificadas/47_EPID_NINE_esclerodermia_TAC__nelsontextbo_p3330_1.jpg",
+      "pregunta": "¿Qué patrón muestra el TAC?",
+      "diagnostico": "EPID con patrón NINE",
+      "clave": "Vidrio esmerilado simétrico con respeto subpleural",
+      "conducta": "Micofenolato o ciclofosfamida; derivar a neumología",
+      "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 3330",
+      "repaso": false,
+      "codigos": [
+        "1.05.1.018"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0.0",
+      "pista": "Crisis renal esclerodérmica: ¿tratamiento y qué está prohibido?",
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0.1",
+      "pista": "Esclerosis difusa sin crisis renal: ¿tratamiento de la fibrosis?",
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.0",
+      "pista": "CREST con PSAP elevada: ¿conducta?",
+      "codigos": [
+        "1.11.1.009"
+      ]
+    }
+  ]
+}

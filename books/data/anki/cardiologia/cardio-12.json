@@ -1,0 +1,517 @@
+{
+ "classId": "cardio-12",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tratamiento de la angina estable tiene dos objetivos: reducir el infarto y la {{c1::mortalidad}}, y aliviar los síntomas.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Vivir más y vivir sin dolor",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Nitratos, calcioantagonistas, ivabradina, ranolazina y trimetazidina alivian el dolor pero {{c1::no reducen la mortalidad}}.",
+   "extra": "Aspirina y estatinas sí.",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La terapia médica óptima se mantiene {{c1::siempre}}, también después de un stent o un by-pass.",
+   "extra": "La angioplastía trata una lesión, no la enfermedad.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Dos objetivos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Antiagregación en la angina estable: aspirina {{c1::100 mg/día}}, de por vida.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Fármacos que reducen el infarto",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Si no tolera la aspirina, se usa clopidogrel {{c1::75 mg/día}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Fármacos que reducen el infarto",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La molestia gástrica leve por aspirina se maneja con un {{c1::inhibidor de la bomba de protones}}; no se suspende la aspirina.",
+   "extra": "Solo se suspende por sangrado digestivo mayor.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Errores",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Estatina de alta potencia: atorvastatina {{c1::40-80 mg/día}} o rosuvastatina 20-40 mg/día.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla 2.3.A",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Meta de c-LDL en la angina estable: < {{c1::55 mg/dL}} y reducción ≥ 50% del basal.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Fármacos que reducen el infarto",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Si no se alcanza la meta de LDL con la dosis máxima tolerada de estatina, se agrega {{c1::ezetimibe}}.",
+   "extra": "Luego inhibidor de PCSK9.",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "IECA o ARA II son obligatorios si hay HTA, diabetes, ERC o FEVI ≤ {{c1::40%}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Fármacos que reducen el infarto",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Dosis de enalapril en la angina estable: {{c1::10-20 mg/día}}; losartán 50-100 mg/día.",
+   "extra": "Controlar creatinina y potasio a las 1-2 semanas.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla 2.3.A",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La intervención de mayor impacto en los factores de riesgo es la {{c1::cesación del tabaco}}.",
+   "extra": "PA < 130/80; SGLT2 o GLP-1 en el diabético.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Factores de riesgo",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Primera línea antianginosa: betabloqueador {{c1::cardioselectivo}} (bisoprolol 5-10 mg/día).",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Antianginosos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Meta de frecuencia cardíaca de reposo con el betabloqueador: {{c1::55 a 60 lpm}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Antianginosos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Los betabloqueadores están contraindicados en asma grave, BAV de 2.º/3.er grado, bradicardia y shock; en vasoespasmo y {{c1::cocaína}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Antianginosos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Angina + asma grave: se usa {{c1::amlodipino}}; el error es bisoprolol, atenolol o propranolol.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Amlodipino (dihidropiridínico) en angina: {{c1::5-10 mg/día}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla 2.3.A",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Verapamilo o diltiazem no se combinan con un betabloqueador por riesgo de {{c1::bradicardia y bloqueo AV}}.",
+   "extra": "Tampoco con FEVI baja.",
+   "origen": "clase:6",
+   "fuente": "Clase · Lo que no se hace",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Crisis anginosa: nitroglicerina sublingual {{c1::0,6 mg}} SOS, cada 5 minutos hasta 3 dosis.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Antianginosos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Los nitratos están prohibidos con sildenafil (24 horas) o tadalafil ({{c1::48 horas}}).",
+   "extra": "También en hipotensión, estenosis aórtica grave e infarto del VD.",
+   "origen": "clase:4",
+   "fuente": "Clase · Antianginosos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Nitrato de acción prolongada: isosorbide {{c1::20 mg cada 12 horas}}, con intervalo nocturno libre para evitar tolerancia.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla 2.3.A",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 82"
+   ],
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La ivabradina se considera si la frecuencia es ≥ {{c1::70 lpm}} pese al betabloqueador.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Segunda línea",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Una angina refractaria a dos o tres antianginosos es indicación de {{c1::coronariografía}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Segunda línea",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 4"
+   ],
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La revascularización en la angina estable mejora los síntomas y el pronóstico solo en casos selectos: tronco, {{c1::3 vasos con FEVI baja}} o isquemia extensa.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Stent o by-pass",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Enfermedad de 1 o 2 vasos sin tronco y SYNTAX ≤ {{c1::22}}: angioplastía con stent farmacoactivo.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Stent o by-pass",
+   "repaso": true,
+   "imagen": "biblioteca/20_cardiologia/cardio-12/01_angioplastia-vs-bypass__harrison_p2086.jpg",
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tras el stent en la angina estable: doble antiagregación {{c1::6 meses}}; si fue por un SCA, 12 meses.",
+   "extra": "Aspirina de por vida.",
+   "origen": "clase:5",
+   "fuente": "Clase · Stent o by-pass",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "By-pass de elección: tronco izquierdo ≥ {{c1::50%}} o 3 vasos en diabético o FEVI baja, con SYNTAX ≥ 33.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Stent o by-pass",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el by-pass se injerta la arteria {{c1::mamaria interna}} a la descendente anterior, más venas safenas o arteria radial.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Stent o by-pass",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "SYNTAX bajo ≤ 22 permite stent o cirugía; intermedio 23-32 se discute; alto ≥ {{c1::33}} favorece by-pass.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Puntaje SYNTAX",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La decisión de revascularizar la toma el «equipo del corazón»: cardiólogo clínico, hemodinamista y {{c1::cirujano cardíaco}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Puntaje SYNTAX",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Suspender el clopidogrel tras un stent puede causar {{c1::trombosis del stent}}, que se presenta como infarto con supradesnivel.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Lo que no se hace",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La aspirina no se suspende antes de la cirugía de {{c1::by-pass}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Revascularización",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la mujer, la angina con coronarias normales es disfunción {{c1::microvascular}}: betabloqueador, calcioantagonista, estatina e IECA.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Pacientes distintos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Una crisis que no cede con {{c1::3 dosis}} de nitroglicerina en 15 minutos exige ambulancia: puede ser infarto.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Señales de alarma",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Angina que se acelera o aparece en reposo es angina {{c1::inestable}}: urgencia.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Lo que no se hace",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hombre de 61 años diabético, 2 vasos sin tronco, FEVI 55%: terapia médica óptima y {{c1::angioplastía con stent farmacoactivo}} (no by-pass).",
+   "extra": "",
+   "origen": "libro:caso",
+   "fuente": "Libro · Caso clínico",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-12/01_angioplastia-vs-bypass__harrison_p2086.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Revascularización: angioplastía con stent frente a by-pass",
+   "clave": "Stent trata la lesión culpable; el by-pass con arteria mamaria trata el vaso completo",
+   "conducta": "1-2 vasos sin tronco: stent; tronco ≥ 50% o 3 vasos en diabético o FEVI baja: by-pass",
+   "fuente": "Harrison. Principios de Medicina Interna, 21.ª ed., Fig. 273-5",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Sin asma, bradicardia ni BAV: ¿qué antianginoso primero?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1",
+   "pista": "Asma grave, BAV o bradicardia: ¿qué fármaco?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.3.0",
+   "pista": "1-2 vasos sin tronco: ¿qué revascularización?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.3.1",
+   "pista": "Tronco ≥ 50% o 3 vasos en diabético: ¿qué cirugía?"
+  }
+ ]
+}

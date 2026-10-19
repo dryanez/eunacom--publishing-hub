@@ -1,0 +1,347 @@
+{
+ "classId": "oftal-05",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La pared ocular tiene {{c1::tres}} plexos vasculares: conjuntival, epiescleral superficial y epiescleral profundo.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Plexos",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Prueba de fenilefrina 2,5% o 10%: se reevalúa a los {{c1::10 a 15 minutos}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fenilefrina",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La {{c1::epiescleritis}} blanquea con fenilefrina; la escleritis no blanquea.",
+   "extra": "Hiperemia triangular temporal que desaparece a los 10 minutos.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fenilefrina",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La escleritis no blanquea porque la inflamación está en el plexo {{c1::profundo}} y en los vasos esclerales.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fenilefrina",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Epiescleritis: enrojecimiento sectorial «salmón», habitualmente {{c1::temporal}}, con molestia leve y visión normal.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Epiescleritis",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-05/02_epiescleritis__amir-oftalmo_p47.jpg",
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Epiescleritis afecta sobre todo a adultos jóvenes, más a {{c1::mujeres}}; pupila reactiva y córnea sana.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Epiescleritis",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La epiescleritis es autolimitada en {{c1::1 a 3 semanas}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Evolución",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Epiescleritis: compresas frías, lágrimas artificiales y, si molesta, curso corto de {{c1::AINE}} tópico (nepafenaco, ketorolaco) u oral.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Escleritis: inflamación granulomatosa de la esclera, destructiva; dolor ocular {{c1::terebrante}} que irradia a órbita, frente y mandíbula.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Escleritis",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-05/01_escleritis__cto-oftalmo_p42.jpg",
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El dolor de la escleritis {{c1::despierta}} al paciente de noche; el ojo está rojo oscuro o violáceo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Dolor nocturno",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Más del {{c1::50%}} de las escleritis se asocia a enfermedad reumatológica sistémica.",
+   "extra": "La epiescleritis, menos de 20%.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Asociación",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causa más frecuente de escleritis: {{c1::artritis reumatoide}}; también Wegener, lupus y policondritis recidivante.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Causas",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Complicación temida: {{c1::escleromalacia perforante}}, adelgazamiento escleral que deja ver la coroides.",
+   "extra": "Típica de artritis reumatoide avanzada, indolora.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Complicación",
+   "repaso": false,
+   "imagen": "biblioteca/18_oftalmologia/oftal-05/atlas_372_escleromalacia_perforante_escl.jpg",
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La escleritis {{c1::nunca}} responde a colirios tópicos.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Escleritis: AINE oral en dosis altas ({{c1::indometacina}}); si falla o es necrotizante, prednisona 1 mg/kg/día.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Terapia inmunosupresora de la escleritis: metotrexato, ciclofosfamida o biológicos {{c1::anti-TNF}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Inmunosupresores",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Escleritis: estudio reumatológico completo y derivación {{c1::urgente}} a oftalmología y reumatología.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Derivación",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Paciente con artritis reumatoide, dolor profundo que no deja dormir y violáceo sin blanqueo: {{c1::escleritis}}; AINE oral y derivar.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Caso",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Epiescleritis: amenaza visual nula; escleritis: amenaza {{c1::alta}} (adelgazamiento y perforación).",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Escleritis idiopática sin antecedente claro: igual requiere tratamiento {{c1::sistémico}} y estudio.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-05/02_epiescleritis__amir-oftalmo_p47.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Epiescleritis",
+   "clave": "Cuña salmón bien delimitada, temporal",
+   "conducta": "Lágrimas y AINE tópico; blanquea con fenilefrina",
+   "fuente": "Manual AMIR Oftalmología, p. 47",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-05/01_escleritis__cto-oftalmo_p42.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Escleritis",
+   "clave": "Enrojecimiento violáceo profundo, no blanquea",
+   "conducta": "AINE oral, derivar y estudio reumatológico",
+   "fuente": "Manual CTO Oftalmología 14.ª ed., p. 42",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_oftalmologia/oftal-05/atlas_372_escleromalacia_perforante_escl.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Escleromalacia perforante",
+   "clave": "Esclera traslúcida que deja ver la coroides oscura",
+   "conducta": "Inmunosupresión sistémica urgente",
+   "fuente": "Atlas EUNACOM 2026",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.097"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Ojo rojo sectorial con dolor: ¿qué prueba se hace?",
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Blanquea con fenilefrina: ¿diagnóstico y manejo?",
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1",
+   "pista": "No blanquea y persiste violáceo: ¿diagnóstico?",
+   "codigos": [
+    "2.01.1.097"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.0",
+   "pista": "Escleritis con antecedente autoinmune: ¿conducta?",
+   "codigos": [
+    "2.01.1.097"
+   ]
+  }
+ ]
+}

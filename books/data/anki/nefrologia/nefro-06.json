@@ -1,0 +1,464 @@
+{
+  "classId": "nefro-06",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "SIADH: hiponatremia hipotónica con {{c1::euvolemia}} clínica (sin edema ni deshidratación).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 SIADH",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.4.016"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio SIADH: osmolaridad urinaria > {{c1::100 mOsm/kg}}, frecuentemente > 300.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Criterios de SIADH",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio SIADH: sodio urinario > {{c1::40 mEq/L}} con ingesta normal de sal.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Criterios de SIADH",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El SIADH es un diagnóstico de {{c1::exclusión}}: tiroides, suprarrenal y riñón normales, y sin diuréticos recientes.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Criterios de SIADH",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Para diagnosticar SIADH hay que descartar {{c1::diuréticos (tiazida)}}, porque también suben el sodio urinario.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Criterios de SIADH",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causa paraneoplásica clásica de SIADH: cáncer pulmonar {{c1::de células pequeñas (microcítico)}}, por secreción ectópica de ADH.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Etiología",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 92"
+      ],
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fármacos que causan SIADH: {{c1::ISRS (sertralina, citalopram), carbamazepina}}, ciclofosfamida y antipsicóticos.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Etiología",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 49",
+        "EUNACOM Diciembre 2024 · Pregunta 41"
+      ],
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Otras causas de SIADH: patología del SNC (meningitis, encefalitis, AVC, tumores) y {{c1::neumonía}} bacteriana o viral.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer con citalopram, hiponatremia asintomática, K normal y Na urinario alto: {{c1::SIADH por citalopram}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Dic 2017 P49",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Carbamazepina de inicio reciente con náuseas y confusión: la alteración electrolítica es {{c1::hiponatremia}}.",
+      "extra": "Por SIADH inducido por el fármaco.",
+      "origen": "libro:sec:1",
+      "fuente": "Pregunta real",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 41"
+      ],
+      "codigos": [
+        "1.09.1.010",
+        "1.09.4.016"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento del SIADH euvolémico asintomático: {{c1::restricción hídrica}} de 800 a 1000 mL/día más suplemento de sal.",
+      "extra": "Además se suspende el fármaco causal.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 SIADH vs CSW",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síndrome pierde sal cerebral (CSW) se da en neuroquirúrgicos o hemorragia subaracnoidea por liberación de péptido natriurético {{c1::cerebral (BNP)}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 SIADH vs CSW",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Lo único que separa SIADH de CSW es la {{c1::volemia}}: euvolemia en SIADH, hipovolemia real en CSW.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · SIADH vs CSW",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signos de CSW: hipovolemia, pérdida de peso, balance hídrico negativo, PVC baja y relación BUN/Cr > {{c1::20}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 SIADH vs CSW",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento del síndrome pierde sal cerebral: {{c1::suero fisiológico 0.9%}} (3% si es severo) y fludrocortisona.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · SIADH vs CSW",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Restringir agua en el síndrome pierde sal cerebral es {{c1::fatal}}: provoca shock, isquemia cerebral y vasoespasmo.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Sodio urinario en CSW: {{c1::> 40–80 mEq/L}} (pérdida renal masiva), con osmolaridad urinaria > 300.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla SIADH/CSW/polidipsia",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Ácido úrico plasmático en SIADH: hipouricemia, < {{c1::4 mg/dL}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla SIADH/CSW/polidipsia",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Polidipsia primaria: osmolaridad urinaria < {{c1::100 mOsm/kg}} (orina diluida al máximo).",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Polidipsia primaria",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Polidipsia psicógena: sodio urinario < {{c1::20 mEq/L}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Polidipsia primaria",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para separar SIADH de polidipsia se mira la orina: SIADH {{c1::concentrada}}, polidipsia diluida.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Polidipsia primaria",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de la polidipsia psicógena: {{c1::restringir el agua oral}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla SIADH/CSW/polidipsia",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hiponatremia aguda grave (convulsiones, coma, vómitos, confusión o instalación en < 48 h) es emergencia {{c1::sea cual sea la causa}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Hiponatremia aguda grave",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hiponatremia aguda grave: suero hipertónico {{c1::3%}}, 100–150 mL IV, repetible hasta 2 veces.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Hiponatremia aguda grave",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En hiponatremia aguda grave se controla la natremia cada {{c1::20–60 minutos}} hasta que ceda el cuadro o el Na suba 4–6 mEq/L.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Hiponatremia aguda grave",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Después de la emergencia, corrección ≤ {{c1::8–10 mEq/L}} en 24 horas.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Hiponatremia aguda grave",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si se sobrecorrigió el sodio: {{c1::desmopresina y suero glucosado 5%}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Hiponatremia aguda grave",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el CSW, el suero hipertónico se usa solo si es {{c1::grave}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Hiponatremia aguda grave",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hiponatremia con edema, yugulares y crépitos y Na urinario bajo en IC con diuréticos suspendidos corresponde a hiponatremia {{c1::hipervolémica}}, no SIADH.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Na urinario",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Polidipsia que normaliza diuresis y osmolaridad plasmática con el test de la sed: {{c1::polidipsia primaria}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz polidipsia",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Orina diluida (Osm < 100): ¿qué diagnóstico?",
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Orina concentrada y euvolemia: ¿qué manejo?",
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "Orina concentrada e hipovolemia en neuroquirúrgico: ¿qué manejo?",
+      "codigos": [
+        "1.09.1.010",
+        "1.09.2.007"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1846 @@
+{
+ "_doc": "Glosario clicable del mazo Anki (popover en el reverso). 'def' se escribe a mano desde el libro (sin cifras nuevas) y se conserva al regenerar; pagina/clase/t/url los recalcula conceptos.py. Términos y alias: books/scripts/anki/vocab_*.txt.",
+ "libro": "oftalmologia",
+ "pdf": "books/dist/Modulo_2_Cirugia/Tomo_15_Oftalmologia_Completo_2026.pdf",
+ "terminos": {
+  "Inyeccion_ciliar": {
+   "termino": "Inyección ciliar",
+   "tipo": "Signo",
+   "alias": [
+    "inyección ciliar",
+    "periquerática",
+    "periquerático"
+   ],
+   "def": "Halo violáceo periquerático que no se blanquea con fenilefrina: sello de patología intraocular grave (queratitis, uveítis anterior, glaucoma agudo).",
+   "pagina": 5,
+   "clase": "oftal-01",
+   "claseTitulo": "15.1 Enfrentamiento Clínico del Ojo Rojo: Superficial vs Profundo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Inyeccion_conjuntival": {
+   "termino": "Inyección conjuntival",
+   "tipo": "Signo",
+   "alias": [
+    "inyección conjuntival"
+   ],
+   "def": "Rojo brillante periférico con vasos móviles que se blanquean con fenilefrina; típica de conjuntivitis y blefaritis.",
+   "pagina": 5,
+   "clase": "oftal-01",
+   "claseTitulo": "15.1 Enfrentamiento Clínico del Ojo Rojo: Superficial vs Profundo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Ojo_rojo": {
+   "termino": "Ojo rojo",
+   "tipo": "Concepto",
+   "alias": [
+    "ojo rojo"
+   ],
+   "def": "Distinguir superficial (agudeza normal) de profundo con 5 signos de alarma: baja de agudeza, dolor real, pupila alterada, córnea anormal y cámara anterior anormal. Esos casos se derivan.",
+   "pagina": 5,
+   "clase": "oftal-01",
+   "claseTitulo": "15.1 Enfrentamiento Clínico del Ojo Rojo: Superficial vs Profundo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 17
+  },
+  "Hiposfagma": {
+   "termino": "Hiposfagma",
+   "tipo": "Concepto",
+   "alias": [
+    "hiposfagma"
+   ],
+   "def": "Hemorragia subconjuntival indolora con visión normal; se reabsorbe sola en 10 a 14 días. Sin colirios; tranquilizar y controlar la presión.",
+   "pagina": 7,
+   "clase": "oftal-01",
+   "claseTitulo": "15.1 Enfrentamiento Clínico del Ojo Rojo: Superficial vs Profundo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Pterigion": {
+   "termino": "Pterigión",
+   "tipo": "Concepto",
+   "alias": [
+    "pterigión",
+    "pterigion"
+   ],
+   "def": "Pliegue fibrovascular nasal que invade la córnea por UV. Fotoprotección y lágrimas; cirugía con autoinjerto si crece al centro, con recidiva menor de 10%.",
+   "pagina": 8,
+   "clase": "oftal-01",
+   "claseTitulo": "15.1 Enfrentamiento Clínico del Ojo Rojo: Superficial vs Profundo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Pinguecula": {
+   "termino": "Pinguécula",
+   "tipo": "Concepto",
+   "alias": [
+    "pinguécula"
+   ],
+   "def": "Engrosamiento amarillento de conjuntiva junto al limbo que no invade la córnea.",
+   "pagina": 8,
+   "clase": "oftal-01",
+   "claseTitulo": "15.1 Enfrentamiento Clínico del Ojo Rojo: Superficial vs Profundo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Uveitis_anterior": {
+   "termino": "Uveítis anterior",
+   "tipo": "Concepto",
+   "alias": [
+    "uveítis anterior",
+    "uveítis",
+    "iridociclitis"
+   ],
+   "def": "Ojo rojo profundo con miosis hiporreactiva, fotofobia y Tyndall; asociada a HLA-B27. Derivar en menos de 24 horas para corticoide y ciclopléjico.",
+   "pagina": 5,
+   "clase": "oftal-01",
+   "claseTitulo": "15.1 Enfrentamiento Clínico del Ojo Rojo: Superficial vs Profundo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Fenomeno_de_Tyndall": {
+   "termino": "Fenómeno de Tyndall",
+   "tipo": "Signo",
+   "alias": [
+    "Tyndall"
+   ],
+   "def": "Células inflamatorias en cámara anterior vistas en lámpara de hendidura; signo de uveítis anterior.",
+   "pagina": 6,
+   "clase": "oftal-01",
+   "claseTitulo": "15.1 Enfrentamiento Clínico del Ojo Rojo: Superficial vs Profundo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Endoftalmitis": {
+   "termino": "Endoftalmitis",
+   "tipo": "Concepto",
+   "alias": [
+    "endoftalmitis"
+   ],
+   "def": "Ojo rojo doloroso postquirúrgico o postraumático con hipopión y pérdida visual; emergencia máxima.",
+   "pagina": 78,
+   "clase": "oftal-15",
+   "claseTitulo": "15.15 Trauma Ocular: Sospecha de Globo Ocular Abierto, Hipema Traumático y Conducta",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Hipopion": {
+   "termino": "Hipopión",
+   "tipo": "Signo",
+   "alias": [
+    "hipopión"
+   ],
+   "def": "Nivel de pus estéril en la cámara anterior; indica queratitis grave o endoftalmitis.",
+   "pagina": 5,
+   "clase": "oftal-01",
+   "claseTitulo": "15.1 Enfrentamiento Clínico del Ojo Rojo: Superficial vs Profundo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Hipema": {
+   "termino": "Hipema",
+   "tipo": "Signo",
+   "alias": [
+    "hipema",
+    "hifema"
+   ],
+   "def": "Sangre en cámara anterior tras trauma contuso. Cabecera 30-45°, protector rígido, sin aspirina ni AINE; vigilar resangrado a las 48-72 horas.",
+   "pagina": 77,
+   "clase": "oftal-15",
+   "claseTitulo": "15.15 Trauma Ocular: Sospecha de Globo Ocular Abierto, Hipema Traumático y Conducta",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Conjuntivitis_bacteriana": {
+   "termino": "Conjuntivitis bacteriana",
+   "tipo": "Concepto",
+   "alias": [
+    "conjuntivitis bacteriana"
+   ],
+   "def": "Secreción mucopurulenta que pega las pestañas. Cloranfenicol cada 4 horas por 7 días; si no responde en 48-72 horas, derivar.",
+   "pagina": 10,
+   "clase": "oftal-02",
+   "claseTitulo": "15.2 Conjuntivitis Infecciosas (Bacterianas, Virales) y Alérgicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Conjuntivitis_viral": {
+   "termino": "Conjuntivitis viral",
+   "tipo": "Concepto",
+   "alias": [
+    "conjuntivitis viral",
+    "fiebre faringoconjuntival"
+   ],
+   "def": "Adenovirus: secreción acuosa, folículos y adenopatía preauricular dolorosa. Soporte y aislamiento por 7 a 10 días; sin antibióticos ni corticoides.",
+   "pagina": 10,
+   "clase": "oftal-02",
+   "claseTitulo": "15.2 Conjuntivitis Infecciosas (Bacterianas, Virales) y Alérgicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Conjuntivitis_alergica": {
+   "termino": "Conjuntivitis alérgica",
+   "tipo": "Concepto",
+   "alias": [
+    "conjuntivitis alérgica"
+   ],
+   "def": "IgE tipo I: prurito intenso bilateral y papilas en empedrado. Olopatadina colirio 0,1% cada 12 horas y compresas frías.",
+   "pagina": 10,
+   "clase": "oftal-02",
+   "claseTitulo": "15.2 Conjuntivitis Infecciosas (Bacterianas, Virales) y Alérgicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Conjuntivitis_gonococica": {
+   "termino": "Conjuntivitis gonocócica",
+   "tipo": "Concepto",
+   "alias": [
+    "gonocócica",
+    "oftalmia neonatorum"
+   ],
+   "def": "Hiperaguda: pus en chorro y quemosis severa; perfora la córnea intacta. Ceftriaxona 1 g IM o EV y lavados continuos; en neonatos 25-50 mg/kg.",
+   "pagina": 10,
+   "clase": "oftal-02",
+   "claseTitulo": "15.2 Conjuntivitis Infecciosas (Bacterianas, Virales) y Alérgicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Cloranfenicol": {
+   "termino": "Cloranfenicol",
+   "tipo": "Farmaco",
+   "alias": [
+    "cloranfenicol"
+   ],
+   "def": "Colirio al 0,5% de primera línea en conjuntivitis bacteriana; también ungüento de cloranfenicol.",
+   "pagina": 12,
+   "clase": "oftal-02",
+   "claseTitulo": "15.2 Conjuntivitis Infecciosas (Bacterianas, Virales) y Alérgicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Olopatadina": {
+   "termino": "Olopatadina",
+   "tipo": "Farmaco",
+   "alias": [
+    "olopatadina"
+   ],
+   "def": "Antihistamínico tópico con efecto estabilizador de mastocitos, 0,1% cada 12 horas, para conjuntivitis alérgica.",
+   "pagina": 10,
+   "clase": "oftal-02",
+   "claseTitulo": "15.2 Conjuntivitis Infecciosas (Bacterianas, Virales) y Alérgicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Orzuelo": {
+   "termino": "Orzuelo",
+   "tipo": "Concepto",
+   "alias": [
+    "orzuelo"
+   ],
+   "def": "Infección aguda dolorosa de glándulas palpebrales por S. aureus. Compresas tibias 3 a 4 veces al día y ungüento antibiótico; no se punciona.",
+   "pagina": 14,
+   "clase": "oftal-03",
+   "claseTitulo": "15.3 Patología Palpebral: Orzuelo, Chalazión, Blefaritis y Dacriocistitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Chalazion": {
+   "termino": "Chalazión",
+   "tipo": "Concepto",
+   "alias": [
+    "chalazión"
+   ],
+   "def": "Nódulo indoloro de glándula de Meibomio obstruida. Calor y masaje; curetaje si persiste más de 2 meses.",
+   "pagina": 14,
+   "clase": "oftal-03",
+   "claseTitulo": "15.3 Patología Palpebral: Orzuelo, Chalazión, Blefaritis y Dacriocistitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Blefaritis": {
+   "termino": "Blefaritis",
+   "tipo": "Concepto",
+   "alias": [
+    "blefaritis"
+   ],
+   "def": "Inflamación crónica del borde palpebral. Higiene diaria con champú neutro tras compresas tibias; doxiciclina 100 mg/día por 4 a 6 semanas si hay rosácea.",
+   "pagina": 14,
+   "clase": "oftal-03",
+   "claseTitulo": "15.3 Patología Palpebral: Orzuelo, Chalazión, Blefaritis y Dacriocistitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Dacriocistitis": {
+   "termino": "Dacriocistitis",
+   "tipo": "Concepto",
+   "alias": [
+    "dacriocistitis"
+   ],
+   "def": "Infección del saco lagrimal: masa roja dolorosa en el canto interno con epífora. Antibiótico oral; nunca sondar en fase aguda; luego dacriocistorrinostomía.",
+   "pagina": 14,
+   "clase": "oftal-03",
+   "claseTitulo": "15.3 Patología Palpebral: Orzuelo, Chalazión, Blefaritis y Dacriocistitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Dacriocistorrinostomia": {
+   "termino": "Dacriocistorrinostomía",
+   "tipo": "Concepto",
+   "alias": [
+    "dacriocistorrinostomía"
+   ],
+   "def": "Cirugía definitiva de la obstrucción nasolagrimal del adulto, tras resolver el cuadro agudo.",
+   "pagina": 14,
+   "clase": "oftal-03",
+   "claseTitulo": "15.3 Patología Palpebral: Orzuelo, Chalazión, Blefaritis y Dacriocistitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Carcinoma_basocelular_palpebral": {
+   "termino": "Carcinoma basocelular palpebral",
+   "tipo": "Concepto",
+   "alias": [
+    "basocelular"
+   ],
+   "def": "Tumor maligno palpebral más frecuente (más del 90%): nódulo perlado con úlcera rodente en el párpado inferior. Derivar para biopsia y exéresis con márgenes.",
+   "pagina": 14,
+   "clase": "oftal-03",
+   "claseTitulo": "15.3 Patología Palpebral: Orzuelo, Chalazión, Blefaritis y Dacriocistitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Triquiasis": {
+   "termino": "Triquiasis",
+   "tipo": "Concepto",
+   "alias": [
+    "triquiasis",
+    "distiquiasis"
+   ],
+   "def": "Pestañas mal dirigidas que rozan la córnea; en la distiquiasis son una segunda hilera. Epilar con pinza y derivar para electrólisis, láser o cirugía.",
+   "pagina": 15,
+   "clase": "oftal-03",
+   "claseTitulo": "15.3 Patología Palpebral: Orzuelo, Chalazión, Blefaritis y Dacriocistitis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Queratitis": {
+   "termino": "Queratitis",
+   "tipo": "Concepto",
+   "alias": [
+    "queratitis"
+   ],
+   "def": "Dolor corneal con blefarospasmo, fotofobia y fluoresceína positiva. Herpética con aciclovir, bacteriana con colirios reforzados y retiro de lentes; jamás corticoides.",
+   "pagina": 19,
+   "clase": "oftal-04",
+   "claseTitulo": "15.4 Queratitis Aguda y Úlcera Corneal Herpética (Prohibición de Corticoides)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 17
+  },
+  "Tincion_con_fluoresceina": {
+   "termino": "Tinción con fluoresceína",
+   "tipo": "Examen",
+   "alias": [
+    "fluoresceína"
+   ],
+   "def": "Con luz azul de cobalto muestra defectos epiteliales corneales; examen de cabecera ante dolor corneal.",
+   "pagina": 19,
+   "clase": "oftal-04",
+   "claseTitulo": "15.4 Queratitis Aguda y Úlcera Corneal Herpética (Prohibición de Corticoides)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Ulcera_dendritica": {
+   "termino": "Úlcera dendrítica",
+   "tipo": "Concepto",
+   "alias": [
+    "dendrítica",
+    "dendrita"
+   ],
+   "def": "Lesión ramificada con botones terminales, patognomónica de queratitis herpética por VHS-1. Aciclovir ungüento 3% cinco veces al día por 10 a 14 días.",
+   "pagina": 19,
+   "clase": "oftal-04",
+   "claseTitulo": "15.4 Queratitis Aguda y Úlcera Corneal Herpética (Prohibición de Corticoides)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Aciclovir_topico": {
+   "termino": "Aciclovir tópico",
+   "tipo": "Farmaco",
+   "alias": [
+    "aciclovir"
+   ],
+   "def": "Ungüento oftálmico al 3%, cinco veces al día por 10 a 14 días, para la queratitis herpética.",
+   "pagina": 19,
+   "clase": "oftal-04",
+   "claseTitulo": "15.4 Queratitis Aguda y Úlcera Corneal Herpética (Prohibición de Corticoides)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Leucoma_corneal": {
+   "termino": "Leucoma corneal",
+   "tipo": "Concepto",
+   "alias": [
+    "leucoma"
+   ],
+   "def": "Cicatriz blanca del estroma que no capta fluoresceína. Si es central y baja la visión, queratoplastia; en niños causa ambliopía.",
+   "pagina": 19,
+   "clase": "oftal-04",
+   "claseTitulo": "15.4 Queratitis Aguda y Úlcera Corneal Herpética (Prohibición de Corticoides)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Escleritis": {
+   "termino": "Escleritis",
+   "tipo": "Concepto",
+   "alias": [
+    "escleritis"
+   ],
+   "def": "Dolor terebrante nocturno con ojo violáceo que no blanquea con fenilefrina; más del 50% se asocia a artritis reumatoide u otra enfermedad sistémica. AINE oral o corticoides.",
+   "pagina": 23,
+   "clase": "oftal-05",
+   "claseTitulo": "15.5 Escleritis y Epiescleritis: Prueba de Fenilefrina y Enfermedades Reumatológicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 14
+  },
+  "Epiescleritis": {
+   "termino": "Epiescleritis",
+   "tipo": "Concepto",
+   "alias": [
+    "epiescleritis"
+   ],
+   "def": "Cuña roja salmón benigna que blanquea con fenilefrina. Autolimitada en 1 a 3 semanas; lágrimas y AINE si molesta.",
+   "pagina": 23,
+   "clase": "oftal-05",
+   "claseTitulo": "15.5 Escleritis y Epiescleritis: Prueba de Fenilefrina y Enfermedades Reumatológicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Prueba_de_fenilefrina": {
+   "termino": "Prueba de fenilefrina",
+   "tipo": "Examen",
+   "alias": [
+    "fenilefrina"
+   ],
+   "def": "Gota al 2,5% o 10% y reevaluar a los 10-15 minutos: blanquea la epiescleritis, no la escleritis.",
+   "pagina": 23,
+   "clase": "oftal-05",
+   "claseTitulo": "15.5 Escleritis y Epiescleritis: Prueba de Fenilefrina y Enfermedades Reumatológicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Escleromalacia_perforante": {
+   "termino": "Escleromalacia perforante",
+   "tipo": "Concepto",
+   "alias": [
+    "escleromalacia"
+   ],
+   "def": "Adelgazamiento escleral indoloro que deja ver la coroides, típico de artritis reumatoide avanzada; riesgo de perforación.",
+   "pagina": 23,
+   "clase": "oftal-05",
+   "claseTitulo": "15.5 Escleritis y Epiescleritis: Prueba de Fenilefrina y Enfermedades Reumatológicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Glaucoma_agudo_de_angulo_cerrado": {
+   "termino": "Glaucoma agudo de ángulo cerrado",
+   "tipo": "Concepto",
+   "alias": [
+    "glaucoma agudo",
+    "ángulo cerrado"
+   ],
+   "def": "Cefalea brutal, vómitos, halos, midriasis media fija, córnea en vidrio esmerilado y ojo pétreo. Manitol EV, acetazolamida y timolol; iridotomía láser bilateral.",
+   "pagina": 30,
+   "clase": "oftal-06",
+   "claseTitulo": "15.6 Glaucoma Agudo de Ángulo Cerrado: Cefalea Ocular, Ojo Pétreo, Manitol/Acetazolamida",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 16
+  },
+  "Midriasis_media_arreactiva": {
+   "termino": "Midriasis media arreactiva",
+   "tipo": "Signo",
+   "alias": [
+    "midriasis media",
+    "midriasis"
+   ],
+   "def": "Signo pupilar del glaucoma agudo; la uveítis da miosis hiporreactiva.",
+   "pagina": 30,
+   "clase": "oftal-06",
+   "claseTitulo": "15.6 Glaucoma Agudo de Ángulo Cerrado: Cefalea Ocular, Ojo Pétreo, Manitol/Acetazolamida",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Ojo_petreo": {
+   "termino": "Ojo pétreo",
+   "tipo": "Signo",
+   "alias": [
+    "ojo pétreo"
+   ],
+   "def": "Globo duro a la palpación bimanual comparativa por PIO mayor de 50 mmHg; sello del glaucoma agudo.",
+   "pagina": 30,
+   "clase": "oftal-06",
+   "claseTitulo": "15.6 Glaucoma Agudo de Ángulo Cerrado: Cefalea Ocular, Ojo Pétreo, Manitol/Acetazolamida",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Manitol": {
+   "termino": "Manitol",
+   "tipo": "Farmaco",
+   "alias": [
+    "manitol"
+   ],
+   "def": "Osmótico EV al 15-20% (1,5 a 2 g/kg en 30-45 minutos) que deshidrata el vítreo y baja la PIO en el glaucoma agudo.",
+   "pagina": 30,
+   "clase": "oftal-06",
+   "claseTitulo": "15.6 Glaucoma Agudo de Ángulo Cerrado: Cefalea Ocular, Ojo Pétreo, Manitol/Acetazolamida",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Acetazolamida": {
+   "termino": "Acetazolamida",
+   "tipo": "Farmaco",
+   "alias": [
+    "acetazolamida"
+   ],
+   "def": "Inhibidor de anhidrasa carbónica: 500 mg oral o EV y luego 250 mg cada 6 horas; baja la producción de humor acuoso.",
+   "pagina": 30,
+   "clase": "oftal-06",
+   "claseTitulo": "15.6 Glaucoma Agudo de Ángulo Cerrado: Cefalea Ocular, Ojo Pétreo, Manitol/Acetazolamida",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Timolol": {
+   "termino": "Timolol",
+   "tipo": "Farmaco",
+   "alias": [
+    "timolol"
+   ],
+   "def": "Betabloqueador tópico 0,5% que baja la síntesis de acuoso; contraindicado en EPOC, asma y bloqueo AV.",
+   "pagina": 30,
+   "clase": "oftal-06",
+   "claseTitulo": "15.6 Glaucoma Agudo de Ángulo Cerrado: Cefalea Ocular, Ojo Pétreo, Manitol/Acetazolamida",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Pilocarpina": {
+   "termino": "Pilocarpina",
+   "tipo": "Farmaco",
+   "alias": [
+    "pilocarpina"
+   ],
+   "def": "Miótico 2%: abre el ángulo, pero solo sirve cuando la PIO ya bajó de 30-40 mmHg.",
+   "pagina": 31,
+   "clase": "oftal-06",
+   "claseTitulo": "15.6 Glaucoma Agudo de Ángulo Cerrado: Cefalea Ocular, Ojo Pétreo, Manitol/Acetazolamida",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Iridotomia_laser": {
+   "termino": "Iridotomía láser",
+   "tipo": "Concepto",
+   "alias": [
+    "iridotomía"
+   ],
+   "def": "Orificio periférico en el iris con láser YAG; tratamiento definitivo del cierre angular, siempre bilateral.",
+   "pagina": 31,
+   "clase": "oftal-06",
+   "claseTitulo": "15.6 Glaucoma Agudo de Ángulo Cerrado: Cefalea Ocular, Ojo Pétreo, Manitol/Acetazolamida",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Glaucoma_cronico_de_angulo_abierto": {
+   "termino": "Glaucoma crónico de ángulo abierto",
+   "tipo": "Concepto",
+   "alias": [
+    "glaucoma crónico",
+    "ángulo abierto"
+   ],
+   "def": "Asintomático, con PIO sobre 21, excavación mayor de 0,5 y pérdida periférica del campo. Latanoprost nocturno de por vida; confirmar con campimetría y OCT.",
+   "pagina": 35,
+   "clase": "oftal-07",
+   "claseTitulo": "15.7 Glaucoma Crónico de Ángulo Abierto: Excavación Papilar, Presión Intraocular y Análogos de PG",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Excavacion_papilar": {
+   "termino": "Excavación papilar",
+   "tipo": "Signo",
+   "alias": [
+    "excavación papilar",
+    "excavación"
+   ],
+   "def": "Relación excavación/papila mayor de 0,5 o asimetría mayor de 0,2 entre los ojos: sospecha de glaucoma crónico.",
+   "pagina": 35,
+   "clase": "oftal-07",
+   "claseTitulo": "15.7 Glaucoma Crónico de Ángulo Abierto: Excavación Papilar, Presión Intraocular y Análogos de PG",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Latanoprost": {
+   "termino": "Latanoprost",
+   "tipo": "Farmaco",
+   "alias": [
+    "latanoprost",
+    "análogos de prostaglandinas"
+   ],
+   "def": "Análogo de prostaglandina 0,005%, una gota nocturna; primera línea. Oscurece el iris y alarga las pestañas.",
+   "pagina": 35,
+   "clase": "oftal-07",
+   "claseTitulo": "15.7 Glaucoma Crónico de Ángulo Abierto: Excavación Papilar, Presión Intraocular y Análogos de PG",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Campimetria": {
+   "termino": "Campimetría",
+   "tipo": "Examen",
+   "alias": [
+    "campimetría",
+    "campo visual"
+   ],
+   "def": "Campo visual computarizado de Humphrey: certifica el defecto funcional; escotoma de Bjerrum y visión tubular en el glaucoma.",
+   "pagina": 35,
+   "clase": "oftal-07",
+   "claseTitulo": "15.7 Glaucoma Crónico de Ángulo Abierto: Excavación Papilar, Presión Intraocular y Análogos de PG",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 4
+  },
+  "OCT": {
+   "termino": "OCT",
+   "tipo": "Examen",
+   "alias": [
+    "OCT",
+    "tomografía de coherencia óptica"
+   ],
+   "def": "Tomografía de coherencia óptica: cuantifica el daño de fibras nerviosas en glaucoma y confirma el edema macular.",
+   "pagina": 35,
+   "clase": "oftal-07",
+   "claseTitulo": "15.7 Glaucoma Crónico de Ángulo Abierto: Excavación Papilar, Presión Intraocular y Análogos de PG",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Glaucoma_congenito": {
+   "termino": "Glaucoma congénito",
+   "tipo": "Concepto",
+   "alias": [
+    "glaucoma congénito",
+    "buftalmos"
+   ],
+   "def": "Epífora, fotofobia y blefarospasmo con córnea grande y opaca (mayor de 11 mm al nacer); estrías de Haab. Urgencia con cirugía (goniotomía o trabeculotomía).",
+   "pagina": 35,
+   "clase": "oftal-07",
+   "claseTitulo": "15.7 Glaucoma Crónico de Ángulo Abierto: Excavación Papilar, Presión Intraocular y Análogos de PG",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Catarata": {
+   "termino": "Catarata",
+   "tipo": "Concepto",
+   "alias": [
+    "catarata"
+   ],
+   "def": "Opacidad del cristalino: baja visual lenta e indolora, deslumbramiento y reflejo rojo atenuado. Tratamiento quirúrgico; GES N.º 21 con agudeza corregida ≤ 0,3.",
+   "pagina": 40,
+   "clase": "oftal-08",
+   "claseTitulo": "15.8 Cataratas: Diagnóstico, Indicación Quirúrgica y Facoemulsificación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 27
+  },
+  "Facoemulsificacion": {
+   "termino": "Facoemulsificación",
+   "tipo": "Concepto",
+   "alias": [
+    "facoemulsificación"
+   ],
+   "def": "Cirugía de elección: microincisión de 2,2 a 2,7 mm, ultrasonido e implante de lente plegable, con anestesia tópica.",
+   "pagina": 40,
+   "clase": "oftal-08",
+   "claseTitulo": "15.8 Cataratas: Diagnóstico, Indicación Quirúrgica y Facoemulsificación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Lente_intraocular": {
+   "termino": "Lente intraocular",
+   "tipo": "Concepto",
+   "alias": [
+    "lente intraocular",
+    "LIO"
+   ],
+   "def": "Lente plegable implantada en el saco capsular tras la facoemulsificación.",
+   "pagina": 40,
+   "clase": "oftal-08",
+   "claseTitulo": "15.8 Cataratas: Diagnóstico, Indicación Quirúrgica y Facoemulsificación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Reflejo_rojo": {
+   "termino": "Reflejo rojo",
+   "tipo": "Examen",
+   "alias": [
+    "reflejo rojo",
+    "rojo pupilar"
+   ],
+   "def": "Con oftalmoscopio a 50-80 cm: rojo anaranjado simétrico es normal; blanco (leucocoria) u oscuro obliga a derivar.",
+   "pagina": 44,
+   "clase": "oftal-09",
+   "claseTitulo": "15.9 Vicios de Refracción, Presbicia y Ambliopía en Niños",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Leucocoria": {
+   "termino": "Leucocoria",
+   "tipo": "Concepto",
+   "alias": [
+    "leucocoria"
+   ],
+   "def": "Pupila blanca: retinoblastoma, catarata congénita, vítreo primario, Coats o retinopatía del prematuro; derivación urgente.",
+   "pagina": 44,
+   "clase": "oftal-09",
+   "claseTitulo": "15.9 Vicios de Refracción, Presbicia y Ambliopía en Niños",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Miopia": {
+   "termino": "Miopía",
+   "tipo": "Concepto",
+   "alias": [
+    "miopía"
+   ],
+   "def": "Ojo largo, foco delante de la retina, mala visión de lejos; lentes divergentes (-). Riesgo de desprendimiento de retina.",
+   "pagina": 44,
+   "clase": "oftal-09",
+   "claseTitulo": "15.9 Vicios de Refracción, Presbicia y Ambliopía en Niños",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Hipermetropia": {
+   "termino": "Hipermetropía",
+   "tipo": "Concepto",
+   "alias": [
+    "hipermetropía"
+   ],
+   "def": "Ojo corto; cefalea y astenopía; lentes convergentes (+). Predispone al glaucoma agudo.",
+   "pagina": 44,
+   "clase": "oftal-09",
+   "claseTitulo": "15.9 Vicios de Refracción, Presbicia y Ambliopía en Niños",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Astigmatismo": {
+   "termino": "Astigmatismo",
+   "tipo": "Concepto",
+   "alias": [
+    "astigmatismo"
+   ],
+   "def": "Córnea asimétrica con visión borrosa de lejos y cerca; lentes cilíndricos o tóricos.",
+   "pagina": 44,
+   "clase": "oftal-09",
+   "claseTitulo": "15.9 Vicios de Refracción, Presbicia y Ambliopía en Niños",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Presbicia": {
+   "termino": "Presbicia",
+   "tipo": "Concepto",
+   "alias": [
+    "presbicia"
+   ],
+   "def": "Pérdida de acomodación desde los 40-45 años; lentes positivos para cerca.",
+   "pagina": 44,
+   "clase": "oftal-09",
+   "claseTitulo": "15.9 Vicios de Refracción, Presbicia y Ambliopía en Niños",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Agujero_estenopeico": {
+   "termino": "Agujero estenopeico",
+   "tipo": "Examen",
+   "alias": [
+    "estenopeico"
+   ],
+   "def": "Orificio de 1,0 a 1,5 mm: si mejora la agudeza, el defecto es refractivo; si no, orgánico o ambliopía.",
+   "pagina": 44,
+   "clase": "oftal-09",
+   "claseTitulo": "15.9 Vicios de Refracción, Presbicia y Ambliopía en Niños",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Ambliopia": {
+   "termino": "Ambliopía",
+   "tipo": "Concepto",
+   "alias": [
+    "ambliopía"
+   ],
+   "def": "Baja visual sin lesión orgánica por mala estimulación antes de los 7-8 años (estrabismo, anisometropía, privación). Lentes y parche en el ojo sano.",
+   "pagina": 44,
+   "clase": "oftal-09",
+   "claseTitulo": "15.9 Vicios de Refracción, Presbicia y Ambliopía en Niños",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Estrabismo": {
+   "termino": "Estrabismo",
+   "tipo": "Concepto",
+   "alias": [
+    "estrabismo"
+   ],
+   "def": "Pérdida del paralelismo ocular en 3 a 4% de los niños; principal riesgo de ambliopía. GES N.º 41 en menores de 9 años.",
+   "pagina": 44,
+   "clase": "oftal-09",
+   "claseTitulo": "15.9 Vicios de Refracción, Presbicia y Ambliopía en Niños",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Esotropia": {
+   "termino": "Esotropía",
+   "tipo": "Concepto",
+   "alias": [
+    "esotropía",
+    "endotropía"
+   ],
+   "def": "Desviación hacia adentro; congénita antes de los 6 meses, acomodativa a los 2-3 años por hipermetropía.",
+   "pagina": 44,
+   "clase": "oftal-09",
+   "claseTitulo": "15.9 Vicios de Refracción, Presbicia y Ambliopía en Niños",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Test_de_Hirschberg": {
+   "termino": "Test de Hirschberg",
+   "tipo": "Examen",
+   "alias": [
+    "Hirschberg"
+   ],
+   "def": "Reflejo de linterna a 33 cm: temporal indica esotropía, nasal exotropía; 1 mm equivale a unos 7°.",
+   "pagina": 44,
+   "clase": "oftal-09",
+   "claseTitulo": "15.9 Vicios de Refracción, Presbicia y Ambliopía en Niños",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Cover_test": {
+   "termino": "Cover test",
+   "tipo": "Examen",
+   "alias": [
+    "cover test"
+   ],
+   "def": "Se tapa un ojo; si el otro se mueve para fijar, hay tropia. Si al destapar se alinea, foria latente.",
+   "pagina": 44,
+   "clase": "oftal-09",
+   "claseTitulo": "15.9 Vicios de Refracción, Presbicia y Ambliopía en Niños",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Retinoblastoma": {
+   "termino": "Retinoblastoma",
+   "tipo": "Concepto",
+   "alias": [
+    "retinoblastoma"
+   ],
+   "def": "Tumor ocular maligno infantil por gen RB1, con leucocoria y estrabismo. Derivación urgente sin biopsia; sobrevida mayor de 95% si es precoz.",
+   "pagina": 44,
+   "clase": "oftal-09",
+   "claseTitulo": "15.9 Vicios de Refracción, Presbicia y Ambliopía en Niños",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Desprendimiento_de_retina": {
+   "termino": "Desprendimiento de retina",
+   "tipo": "Concepto",
+   "alias": [
+    "desprendimiento de retina"
+   ],
+   "def": "Miodesopsias, fotopsias y cortina en ojo blanco indoloro. Reposo, régimen cero y cirugía urgente (GES N.º 22); mácula «on» en menos de 24-48 horas.",
+   "pagina": 52,
+   "clase": "oftal-10",
+   "claseTitulo": "15.10 Desprendimiento de Retina: Miodesopsias, Fotopsias y Pérdida de Campo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Fotopsias": {
+   "termino": "Fotopsias",
+   "tipo": "Signo",
+   "alias": [
+    "fotopsias"
+   ],
+   "def": "Destellos periféricos por tracción vítrea sobre fotorreceptores; preceden al desprendimiento de retina.",
+   "pagina": 52,
+   "clase": "oftal-10",
+   "claseTitulo": "15.10 Desprendimiento de Retina: Miodesopsias, Fotopsias y Pérdida de Campo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Miodesopsias": {
+   "termino": "Miodesopsias",
+   "tipo": "Signo",
+   "alias": [
+    "miodesopsias",
+    "moscas volantes"
+   ],
+   "def": "Moscas volantes bruscas por condensación o sangrado vítreo; primer signo del desprendimiento regmatógeno.",
+   "pagina": 52,
+   "clase": "oftal-10",
+   "claseTitulo": "15.10 Desprendimiento de Retina: Miodesopsias, Fotopsias y Pérdida de Campo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Vitrectomia": {
+   "termino": "Vitrectomía",
+   "tipo": "Concepto",
+   "alias": [
+    "vitrectomía"
+   ],
+   "def": "Cirugía del desprendimiento establecido o de la hemorragia vítrea que no se reabsorbe en 1 a 3 meses.",
+   "pagina": 52,
+   "clase": "oftal-10",
+   "claseTitulo": "15.10 Desprendimiento de Retina: Miodesopsias, Fotopsias y Pérdida de Campo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Fotocoagulacion_laser": {
+   "termino": "Fotocoagulación láser",
+   "tipo": "Concepto",
+   "alias": [
+    "fotocoagulación",
+    "panfotocoagulación"
+   ],
+   "def": "Láser que sella un desgarro sin desprendimiento y, panretiniano, trata la retinopatía diabética proliferativa (GES N.º 23, en 60 días).",
+   "pagina": 61,
+   "clase": "oftal-12",
+   "claseTitulo": "15.12 Retinopatía Diabética: No Proliferativa vs Proliferativa y Edema Macular GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Oclusion_de_la_arteria_central_de_la_retina": {
+   "termino": "Oclusión de la arteria central de la retina",
+   "tipo": "Concepto",
+   "alias": [
+    "arteria central",
+    "OACR"
+   ],
+   "def": "Pérdida súbita indolora con DPAR y mancha rojo cereza. Rescate en menos de seis horas, estudio como ACV y descartar arteritis de Horton.",
+   "pagina": 57,
+   "clase": "oftal-11",
+   "claseTitulo": "15.11 Oclusión Vascular Retinal: Arteria (Mancha Rojo Cereza) vs Vena Central",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Mancha_rojo_cereza": {
+   "termino": "Mancha rojo cereza",
+   "tipo": "Signo",
+   "alias": [
+    "rojo cereza"
+   ],
+   "def": "Fóvea roja sobre retina pálida en la oclusión de la arteria central, porque se nutre de la coroides.",
+   "pagina": 57,
+   "clase": "oftal-11",
+   "claseTitulo": "15.11 Oclusión Vascular Retinal: Arteria (Mancha Rojo Cereza) vs Vena Central",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Oclusion_de_la_vena_central_de_la_retina": {
+   "termino": "Oclusión de la vena central de la retina",
+   "tipo": "Concepto",
+   "alias": [
+    "vena central",
+    "OVCR"
+   ],
+   "def": "Hemorragias en llama en 4 cuadrantes y venas tortuosas. Complicación: glaucoma neovascular a los 3 meses; prevenir con anti-VEGF o láser.",
+   "pagina": 57,
+   "clase": "oftal-11",
+   "claseTitulo": "15.11 Oclusión Vascular Retinal: Arteria (Mancha Rojo Cereza) vs Vena Central",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Glaucoma_neovascular": {
+   "termino": "Glaucoma neovascular",
+   "tipo": "Concepto",
+   "alias": [
+    "glaucoma neovascular"
+   ],
+   "def": "Glaucoma de los 100 días: VEGF forma neovasos en el iris y el ángulo; ojo rojo doloroso con PIO alta.",
+   "pagina": 57,
+   "clase": "oftal-11",
+   "claseTitulo": "15.11 Oclusión Vascular Retinal: Arteria (Mancha Rojo Cereza) vs Vena Central",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Retinopatia_diabetica": {
+   "termino": "Retinopatía diabética",
+   "tipo": "Concepto",
+   "alias": [
+    "retinopatía diabética"
+   ],
+   "def": "Principal causa de ceguera irreversible en edad laboral. Fondo de ojo al diagnóstico en DM2 y a los 5 años en DM1; neovasos definen la proliferativa.",
+   "pagina": 61,
+   "clase": "oftal-12",
+   "claseTitulo": "15.12 Retinopatía Diabética: No Proliferativa vs Proliferativa y Edema Macular GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Neovasos": {
+   "termino": "Neovasos",
+   "tipo": "Concepto",
+   "alias": [
+    "neovasos",
+    "neovascularización"
+   ],
+   "def": "Vasos frágiles inducidos por VEGF; definen la retinopatía proliferativa y causan hemorragia vítrea o desprendimiento traccional.",
+   "pagina": 61,
+   "clase": "oftal-12",
+   "claseTitulo": "15.12 Retinopatía Diabética: No Proliferativa vs Proliferativa y Edema Macular GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Edema_macular_diabetico": {
+   "termino": "Edema macular diabético",
+   "tipo": "Concepto",
+   "alias": [
+    "edema macular"
+   ],
+   "def": "Causa más frecuente de baja visual en diabéticos, en cualquier etapa. Se diagnostica con OCT y se trata con anti-VEGF intravítreo.",
+   "pagina": 61,
+   "clase": "oftal-12",
+   "claseTitulo": "15.12 Retinopatía Diabética: No Proliferativa vs Proliferativa y Edema Macular GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Anti_VEGF": {
+   "termino": "Anti-VEGF",
+   "tipo": "Farmaco",
+   "alias": [
+    "anti-VEGF",
+    "VEGF"
+   ],
+   "def": "Ranibizumab, aflibercept o brolucizumab intravítreos: edema macular diabético, DMAE húmeda y prevención del glaucoma neovascular.",
+   "pagina": 61,
+   "clase": "oftal-12",
+   "claseTitulo": "15.12 Retinopatía Diabética: No Proliferativa vs Proliferativa y Edema Macular GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 14
+  },
+  "Hemorragia_vitrea": {
+   "termino": "Hemorragia vítrea",
+   "tipo": "Concepto",
+   "alias": [
+    "hemorragia vítrea"
+   ],
+   "def": "Pérdida súbita indolora con reflejo rojo ausente en diabético proliferativo. Cabecera a 30-45°, ecografía B y derivar.",
+   "pagina": 61,
+   "clase": "oftal-12",
+   "claseTitulo": "15.12 Retinopatía Diabética: No Proliferativa vs Proliferativa y Edema Macular GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Retinopatia_hipertensiva": {
+   "termino": "Retinopatía hipertensiva",
+   "tipo": "Concepto",
+   "alias": [
+    "retinopatía hipertensiva"
+   ],
+   "def": "Clasificación de Keith-Wagener-Barker: I hilo de cobre; II cruces AV; III hemorragias y algodonosos; IV edema de papila (emergencia hipertensiva).",
+   "pagina": 66,
+   "clase": "oftal-13",
+   "claseTitulo": "15.13 Retinopatía Hipertensiva: Cruces AV, Exudados Algodonosos y Edema Papilar",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Clasificacion_de_Keith_Wagener_Barker": {
+   "termino": "Clasificación de Keith-Wagener-Barker",
+   "tipo": "Concepto",
+   "alias": [
+    "Keith-Wagener-Barker"
+   ],
+   "def": "Grado I estrechamiento, II cruces Gunn y Salus, III hemorragias y exudados, IV edema de papila. En el IV, UCI y descenso de la PAM de 20-25%.",
+   "pagina": 66,
+   "clase": "oftal-13",
+   "claseTitulo": "15.13 Retinopatía Hipertensiva: Cruces AV, Exudados Algodonosos y Edema Papilar",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Signos_de_Gunn_y_Salus": {
+   "termino": "Signos de Gunn y Salus",
+   "tipo": "Signo",
+   "alias": [
+    "Gunn",
+    "Salus"
+   ],
+   "def": "Cruces arteriovenosos patológicos: Gunn es el ocultamiento de la vénula; Salus, su deflexión en S.",
+   "pagina": 66,
+   "clase": "oftal-13",
+   "claseTitulo": "15.13 Retinopatía Hipertensiva: Cruces AV, Exudados Algodonosos y Edema Papilar",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Degeneracion_macular_asociada_a_la_edad": {
+   "termino": "Degeneración macular asociada a la edad",
+   "tipo": "Concepto",
+   "alias": [
+    "DMAE",
+    "degeneración macular"
+   ],
+   "def": "Escotoma central y metamorfopsia con periferia intacta. Seca (85-90%): AREDS-2 y dejar de fumar; húmeda: anti-VEGF intravítreo urgente.",
+   "pagina": 70,
+   "clase": "oftal-14",
+   "claseTitulo": "15.14 Degeneración Macular Asociada a la Edad (DMAE) y Escotoma Central",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 13
+  },
+  "Drusas": {
+   "termino": "Drusas",
+   "tipo": "Signo",
+   "alias": [
+    "drusas"
+   ],
+   "def": "Depósitos amarillentos bajo el EPR; lesión precursora de la DMAE.",
+   "pagina": 70,
+   "clase": "oftal-14",
+   "claseTitulo": "15.14 Degeneración Macular Asociada a la Edad (DMAE) y Escotoma Central",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Metamorfopsia": {
+   "termino": "Metamorfopsia",
+   "tipo": "Signo",
+   "alias": [
+    "metamorfopsia"
+   ],
+   "def": "Líneas rectas que se ven onduladas; signo más temprano de DMAE, evaluado con la rejilla de Amsler.",
+   "pagina": 70,
+   "clase": "oftal-14",
+   "claseTitulo": "15.14 Degeneración Macular Asociada a la Edad (DMAE) y Escotoma Central",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Rejilla_de_Amsler": {
+   "termino": "Rejilla de Amsler",
+   "tipo": "Examen",
+   "alias": [
+    "Amsler"
+   ],
+   "def": "Cuadrícula que el paciente mira de cerca para detectar metamorfopsia y escotoma central.",
+   "pagina": 70,
+   "clase": "oftal-14",
+   "claseTitulo": "15.14 Degeneración Macular Asociada a la Edad (DMAE) y Escotoma Central",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Escotoma_central": {
+   "termino": "Escotoma central",
+   "tipo": "Concepto",
+   "alias": [
+    "escotoma central"
+   ],
+   "def": "Mancha fija que impide ver el centro de las caras; típico de DMAE, sin ceguera total.",
+   "pagina": 70,
+   "clase": "oftal-14",
+   "claseTitulo": "15.14 Degeneración Macular Asociada a la Edad (DMAE) y Escotoma Central",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Trauma_ocular_abierto": {
+   "termino": "Trauma ocular abierto",
+   "tipo": "Concepto",
+   "alias": [
+    "globo abierto",
+    "globo ocular abierto"
+   ],
+   "def": "Herida de espesor total. Concha rígida, régimen cero, antieméticos y antibióticos EV, TAC de órbita; prohibido palpar, tonometría y pomadas. GES N.º 48.",
+   "pagina": 77,
+   "clase": "oftal-15",
+   "claseTitulo": "15.15 Trauma Ocular: Sospecha de Globo Ocular Abierto, Hipema Traumático y Conducta",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Signo_de_Seidel": {
+   "termino": "Signo de Seidel",
+   "tipo": "Signo",
+   "alias": [
+    "Seidel"
+   ],
+   "def": "Fluoresceína diluida por fuga de humor acuoso: confirma herida corneal penetrante.",
+   "pagina": 77,
+   "clase": "oftal-15",
+   "claseTitulo": "15.15 Trauma Ocular: Sospecha de Globo Ocular Abierto, Hipema Traumático y Conducta",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Pupila_en_gota": {
+   "termino": "Pupila en gota",
+   "tipo": "Signo",
+   "alias": [
+    "pupila en gota"
+   ],
+   "def": "Pupila deformada que apunta a la herida: iris herniado en un globo abierto.",
+   "pagina": 77,
+   "clase": "oftal-15",
+   "claseTitulo": "15.15 Trauma Ocular: Sospecha de Globo Ocular Abierto, Hipema Traumático y Conducta",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Cuerpo_extrano_intraocular": {
+   "termino": "Cuerpo extraño intraocular",
+   "tipo": "Concepto",
+   "alias": [
+    "cuerpo extraño intraocular",
+    "CEIO"
+   ],
+   "def": "Fragmento metálico retenido tras martillar metal sobre metal; se estudia con TAC de órbita sin contraste; la RM está contraindicada.",
+   "pagina": 77,
+   "clase": "oftal-15",
+   "claseTitulo": "15.15 Trauma Ocular: Sospecha de Globo Ocular Abierto, Hipema Traumático y Conducta",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Fractura_en_estallido_de_la_orbita": {
+   "termino": "Fractura en estallido de la órbita",
+   "tipo": "Concepto",
+   "alias": [
+    "blow-out",
+    "estallido"
+   ],
+   "def": "Diplopía vertical, limitación de la mirada hacia arriba por atrapamiento del recto inferior, enoftalmos e hipoestesia infraorbitaria; TAC de órbitas.",
+   "pagina": 80,
+   "clase": "oftal-15",
+   "claseTitulo": "15.15 Trauma Ocular: Sospecha de Globo Ocular Abierto, Hipema Traumático y Conducta",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Quemadura_quimica_ocular": {
+   "termino": "Quemadura química ocular",
+   "tipo": "Concepto",
+   "alias": [
+    "quemadura química",
+    "causticación"
+   ],
+   "def": "Se lava primero y se pregunta después: 1 a 2 litros de suero por 20 a 30 minutos, evertir párpados y pH de 7,0 a 7,5. Los álcalis son más graves que los ácidos.",
+   "pagina": 83,
+   "clase": "oftal-16",
+   "claseTitulo": "15.16 Quemaduras Químicas Oculares: Lavado Ocular Inmediato y Profuso",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Isquemia_limbica": {
+   "termino": "Isquemia límbica",
+   "tipo": "Concepto",
+   "alias": [
+    "isquemia límbica"
+   ],
+   "def": "Limbo blanco sin vasos tras una quemadura: no es mejoría, es necrosis de células madre y pronóstico pésimo.",
+   "pagina": 83,
+   "clase": "oftal-16",
+   "claseTitulo": "15.16 Quemaduras Químicas Oculares: Lavado Ocular Inmediato y Profuso",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Celulitis_preseptal": {
+   "termino": "Celulitis preseptal",
+   "tipo": "Concepto",
+   "alias": [
+    "celulitis preseptal",
+    "periorbitaria"
+   ],
+   "def": "Por delante del septum: motilidad libre, sin proptosis y visión normal. Amoxicilina-clavulánico oral por 7 a 10 días y control a las 24 horas.",
+   "pagina": 86,
+   "clase": "oftal-17",
+   "claseTitulo": "15.17 Celulitis Preseptal vs Orbitaria (Postseptal): Oftalmoplejía, Proptosis y TAC",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Celulitis_orbitaria": {
+   "termino": "Celulitis orbitaria",
+   "tipo": "Concepto",
+   "alias": [
+    "celulitis orbitaria"
+   ],
+   "def": "Postseptal, de origen sinusal: oftalmoplejía dolorosa, proptosis y baja visual. Hospitalizar, TAC con contraste y ceftriaxona más vancomicina.",
+   "pagina": 86,
+   "clase": "oftal-17",
+   "claseTitulo": "15.17 Celulitis Preseptal vs Orbitaria (Postseptal): Oftalmoplejía, Proptosis y TAC",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Trombosis_del_seno_cavernoso": {
+   "termino": "Trombosis del seno cavernoso",
+   "tipo": "Concepto",
+   "alias": [
+    "seno cavernoso"
+   ],
+   "def": "Bilateralización de la celulitis orbitaria con oftalmoplejía completa y pares III, IV, V1, V2 y VI afectados; emergencia de alta mortalidad.",
+   "pagina": 86,
+   "clase": "oftal-17",
+   "claseTitulo": "15.17 Celulitis Preseptal vs Orbitaria (Postseptal): Oftalmoplejía, Proptosis y TAC",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Proptosis": {
+   "termino": "Proptosis",
+   "tipo": "Concepto",
+   "alias": [
+    "proptosis"
+   ],
+   "def": "Protrusión del globo. Aguda y dolorosa con fiebre: celulitis orbitaria; progresiva e indolora: tumor orbitario u orbitopatía tiroidea.",
+   "pagina": 86,
+   "clase": "oftal-17",
+   "claseTitulo": "15.17 Celulitis Preseptal vs Orbitaria (Postseptal): Oftalmoplejía, Proptosis y TAC",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Oftalmoplejia": {
+   "termino": "Oftalmoplejía",
+   "tipo": "Concepto",
+   "alias": [
+    "oftalmoplejía"
+   ],
+   "def": "Limitación de la motilidad ocular; dolorosa en la celulitis orbitaria, total y bilateral en la trombosis del seno cavernoso.",
+   "pagina": 86,
+   "clase": "oftal-17",
+   "claseTitulo": "15.17 Celulitis Preseptal vs Orbitaria (Postseptal): Oftalmoplejía, Proptosis y TAC",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Neuritis_optica": {
+   "termino": "Neuritis óptica",
+   "tipo": "Concepto",
+   "alias": [
+    "neuritis óptica"
+   ],
+   "def": "Mujer joven con baja visual monocular, dolor al mover el ojo, discromatopsia y DPAR; fondo normal en 65%. RM con gadolinio y metilprednisolona EV; no prednisona oral sola.",
+   "pagina": 91,
+   "clase": "oftal-18",
+   "claseTitulo": "15.18 Neuroftalmología: Neuritis Óptica, Edema de Papila y Defecto Pupilar de Marcus Gunn",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Defecto_pupilar_aferente_relativo": {
+   "termino": "Defecto pupilar aferente relativo",
+   "tipo": "Concepto",
+   "alias": [
+    "DPAR",
+    "Marcus Gunn"
+   ],
+   "def": "Marcus Gunn: con la linterna oscilante ambas pupilas se dilatan al iluminar el ojo enfermo; lesión asimétrica del nervio óptico.",
+   "pagina": 91,
+   "clase": "oftal-18",
+   "claseTitulo": "15.18 Neuroftalmología: Neuritis Óptica, Edema de Papila y Defecto Pupilar de Marcus Gunn",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Papiledema": {
+   "termino": "Papiledema",
+   "tipo": "Concepto",
+   "alias": [
+    "papiledema",
+    "edema de papila"
+   ],
+   "def": "Edema de papila bilateral por hipertensión endocraneana, con visión conservada y sin DPAR. Neuroimagen urgente antes de la punción lumbar.",
+   "pagina": 91,
+   "clase": "oftal-18",
+   "claseTitulo": "15.18 Neuroftalmología: Neuritis Óptica, Edema de Papila y Defecto Pupilar de Marcus Gunn",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 11
+  },
+  "Esclerosis_multiple": {
+   "termino": "Esclerosis múltiple",
+   "tipo": "Concepto",
+   "alias": [
+    "esclerosis múltiple"
+   ],
+   "def": "Mujer de 20 a 40 años con déficits en distintos tiempos y territorios. RM con gadolinio, metilprednisolona 1 g EV por 3 días en el brote y derivación (GES N.º 68).",
+   "pagina": 91,
+   "clase": "oftal-18",
+   "claseTitulo": "15.18 Neuroftalmología: Neuritis Óptica, Edema de Papila y Defecto Pupilar de Marcus Gunn",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Hipertension_endocraneana": {
+   "termino": "Hipertensión endocraneana",
+   "tipo": "Concepto",
+   "alias": [
+    "hipertensión endocraneana",
+    "HTE"
+   ],
+   "def": "Cefalea matutina, vómitos en proyectil y papiledema. Cabecera a 30°, neuroimagen urgente y sin punción lumbar previa.",
+   "pagina": 91,
+   "clase": "oftal-18",
+   "claseTitulo": "15.18 Neuroftalmología: Neuritis Óptica, Edema de Papila y Defecto Pupilar de Marcus Gunn",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Glioma_del_nervio_optico": {
+   "termino": "Glioma del nervio óptico",
+   "tipo": "Concepto",
+   "alias": [
+    "glioma"
+   ],
+   "def": "Tumor de la vía óptica más frecuente en niños, asociado a neurofibromatosis tipo 1: proptosis indolora y mala visión de colores. RM de órbitas.",
+   "pagina": 92,
+   "clase": "oftal-18",
+   "claseTitulo": "15.18 Neuroftalmología: Neuritis Óptica, Edema de Papila y Defecto Pupilar de Marcus Gunn",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Neurofibromatosis_tipo_1": {
+   "termino": "Neurofibromatosis tipo 1",
+   "tipo": "Concepto",
+   "alias": [
+    "neurofibromatosis"
+   ],
+   "def": "Manchas café con leche, pecas axilares y nódulos de Lisch; se asocia a glioma del nervio óptico.",
+   "pagina": 92,
+   "clase": "oftal-18",
+   "claseTitulo": "15.18 Neuroftalmología: Neuritis Óptica, Edema de Papila y Defecto Pupilar de Marcus Gunn",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Discromatopsia": {
+   "termino": "Discromatopsia",
+   "tipo": "Concepto",
+   "alias": [
+    "discromatopsia"
+   ],
+   "def": "Pérdida de la visión de colores, con rojo desaturado en la neuritis óptica; precoz y desproporcionada.",
+   "pagina": 91,
+   "clase": "oftal-18",
+   "claseTitulo": "15.18 Neuroftalmología: Neuritis Óptica, Edema de Papila y Defecto Pupilar de Marcus Gunn",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Tonometria": {
+   "termino": "Tonometría",
+   "tipo": "Concepto",
+   "alias": [
+    "tonometría"
+   ],
+   "def": "Medición de la PIO; prohibida ante sospecha de globo ocular abierto.",
+   "pagina": 77,
+   "clase": "oftal-15",
+   "claseTitulo": "15.15 Trauma Ocular: Sospecha de Globo Ocular Abierto, Hipema Traumático y Conducta",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Oftalmolog%C3%ADa&clase=oftal-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_oftalmologia",
+   "embed": null,
+   "notas": 2
+  }
+ }
+}

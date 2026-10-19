@@ -4903,7 +4903,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Diagnóstico: **Nefropatía lúpica** (opción **A**). Es un lupus sistémico clásico, con afectación renal.. El trastorno de ansiedad generalizada (TAG) se caracteriza por expectación ansiosa constante sobre múltiples eventos o situaciones, con miedo generalizado a que algo malo ocurra, ya sea a la propia persona, a sus seres queridos o en el entorno. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh."
+        "explanation": "Mujer joven con fotosensibilidad, úlceras orales, HTA, sedimento nefrítico y C3 bajo: nefropatía lúpica."
       },
       {
         "type": "bento",
@@ -6181,7 +6181,7 @@
           {
             "id": "A",
             "text": "Ecografía abdominal",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": "B",
@@ -6191,7 +6191,7 @@
           {
             "id": "C",
             "text": "Resonancia magnética nuclear espinal",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": "D",
@@ -6204,7 +6204,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "La alternativa correcta es la **C** (Resonancia magnética nuclear espinal). Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh. Las opciones alternativas (Ecografía abdominal, Ecografía cerebral) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente."
+        "explanation": "Cinco o más hemangiomas cutáneos obligan a ecografía abdominal para descartar hemangiomas hepáticos."
       },
       {
         "type": "bento",

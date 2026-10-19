@@ -1,0 +1,617 @@
+{
+ "classId": "infecto-16",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El virus del dengue es un Flavivirus con {{c1::4 serotipos}}, transmitido por Aedes aegypti.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Dengue",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En Chile el vector del dengue existe en {{c1::Isla de Pascua}} y hallazgos en el extremo norte; la mayoría de casos son importados.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Dengue",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La infección por un serotipo da inmunidad {{c1::de por vida}} a ese serotipo, y cruzada solo temporal contra los otros 3.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · La segunda infección",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La segunda infección por otro serotipo causa dengue grave por amplificación mediada por {{c1::anticuerpos (ADE)}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Dengue",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dengue, fase febril: fiebre alta súbita, cefalea {{c1::retroorbitaria}} y mialgias (\"quebrantahuesos\").",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El exantema del dengue tiene {{c1::islas blancas}} de piel sana dentro del eritema.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La fase febril del dengue ocurre los días {{c1::1 a 3}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Dos fases",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La fase crítica del dengue ocurre los días {{c1::3 a 7}}, cuando cae la fiebre.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Dos fases",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la fase crítica del dengue hay máximo riesgo de {{c1::fuga plasmática}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Dengue",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signos de alarma de dengue: dolor abdominal {{c1::intenso y continuo}}, vómitos persistentes y sangrado de mucosas.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Signos de alarma",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo de alarma de laboratorio en dengue: {{c1::hematocrito ↑ con plaquetas ↓}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Otro signo de alarma: hepatomegalia > {{c1::2 cm}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Signos de alarma",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con un signo de alarma de dengue se {{c1::hospitaliza}} de inmediato con cristaloides y soporte vigoroso.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Signos de alarma",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Hematocrito ↑ con plaquetas < 100.000 en dengue: el error es {{c1::seguir en forma ambulatoria}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Dengue que mejora al bajar la fiebre: el error es {{c1::dar de alta sin educar}} sobre los signos de alarma.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Confirmación de dengue: antígeno {{c1::NS1}} en los primeros 5 días; IgM después del quinto día.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Confirmar y decidir",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dengue sin signos de alarma: manejo ambulatorio con hidratación oral y {{c1::paracetamol}}.",
+   "extra": "",
+   "origen": "libro:caso",
+   "fuente": "Libro · Caso clínico",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En dengue están contraindicados {{c1::AINEs y aspirina}} por riesgo de hemorragia; solo paracetamol.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Dengue con mialgias intensas: el error es indicar {{c1::ketoprofeno, ibuprofeno o aspirina}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dengue, malaria y fiebre amarilla son de notificación obligatoria {{c1::inmediata}} (ENO).",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Confirmar y decidir",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La malaria la transmite la hembra del mosquito {{c1::Anopheles}}; el agente es Plasmodium.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Malaria",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.018"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El Plasmodium más letal, causante de malaria cerebral y hemólisis masiva, es {{c1::P. falciparum}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Malaria",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.018"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 147"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "P. vivax y P. ovale forman {{c1::hipnozoítos}} latentes en el hígado que causan recidivas.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Malaria",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.018"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Acceso palúdico: calofrío con temblor, fiebre de {{c1::40 °C}} con cefalea y luego sudoración profusa.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Malaria",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.018"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La fiebre terciana (P. falciparum/vivax) se repite cada {{c1::48 horas}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Malaria",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.018"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La fiebre cuartana (P. malariae) se repite cada {{c1::72 horas}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Malaria",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.018"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Viajero con fiebre alta, cefalea, mialgias y hematocrito bajo tras la selva amazónica: sospechar {{c1::Plasmodium falciparum}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.018"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 147"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El diagnóstico de certeza de malaria es la {{c1::gota gruesa}} y frotis teñidos con Giemsa.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.018"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 147"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La gota gruesa muestra {{c1::trofozoítos en anillo}} y cuantifica la parasitemia; se toma en el pico febril.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Gota gruesa y tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.018"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Fiebre con anemia en viajero: el error es pedir {{c1::solo serología de dengue}}; corresponde gota gruesa y frotis.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.018"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 147"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Tratamiento de P. falciparum: terapia combinada con artemisinina, {{c1::arteméter-lumefantrina}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Malaria",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.018"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "P. vivax/ovale: {{c1::cloroquina}} elimina las formas sanguíneas.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Gota gruesa y tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.018"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "P. vivax/ovale: se agrega {{c1::primaquina por 14 días}} para erradicar los hipnozoítos.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.018"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Malaria por P. vivax tratada: el error es dar {{c1::solo cloroquina}} sin primaquina.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.018"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La primaquina está contraindicada en el déficit de {{c1::G6PD}} por riesgo de hemólisis.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Malaria",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.018"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fiebre amarilla: fiebre, bradicardia relativa (signo de {{c1::Faget}}), ictericia fulminante y vómito negro.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fiebre amarilla",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La letalidad de la fiebre amarilla es > {{c1::20–50 %}}; no hay antiviral, solo soporte en UCI.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fiebre amarilla",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La vacuna antiamarílica es de virus {{c1::vivo atenuado}} (cepa 17D) y se da en una sola dosis de por vida.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fiebre amarilla",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La vacuna antiamarílica se aplica al menos {{c1::10 días}} antes de viajar a zonas endémicas.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La vacuna antiamarílica está contraindicada en embarazadas, lactantes < {{c1::9 meses}} y timoma o inmunosupresión severa.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fiebre amarilla",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Embarazada que viaja a zona selvática: el error es {{c1::vacunar igual}} contra fiebre amarilla.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-16/01_exantema-del-dengue__cto-infecto_p134.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Dengue (exantema con islas blancas)",
+   "clave": "Eritema que respeta zonas redondeadas de piel sana",
+   "conducta": "NS1 o IgM; paracetamol e hidratación; vigilar signos de alarma; prohibido AINE",
+   "fuente": "Manual CTO Infecciosas 14.ª ed., p. 134",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-16/01_anillos_falciparum__cdc.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Malaria (trofozoítos en anillo de P. falciparum)",
+   "clave": "Anillos dentro del glóbulo rojo en la gota gruesa",
+   "conducta": "Arteméter-lumefantrina; notificar (ENO)",
+   "fuente": "CDC DPDx",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-16/02_gametocitos_falciparum__cdc.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Gametocitos de P. falciparum",
+   "clave": "Gametocitos en forma de banana, exclusivos de falciparum",
+   "conducta": "Terapia combinada con artemisinina",
+   "fuente": "CDC",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.008"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Dengue: ¿qué se evalúa para decidir dónde tratar?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0.1",
+   "pista": "Dengue con signo de alarma: ¿qué conducta?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.1",
+   "pista": "Malaria por vivax u ovale: ¿qué tratamiento?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.2",
+   "pista": "Fiebre con ictericia y hemorragia: ¿qué pensar?"
+  }
+ ]
+}

@@ -1,0 +1,477 @@
+{
+ "classId": "infecto-19",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Bacillus anthracis es un bacilo Gram {{c1::positivo}} formador de esporas, encapsulado e inmóvil.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Una espora que resiste décadas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las esporas de B. anthracis permanecen viables en el suelo por {{c1::décadas}}.",
+   "extra": "Resisten calor, desecación y desinfectantes comunes.",
+   "origen": "clase:1",
+   "fuente": "Clase · Una espora que resiste décadas",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La cápsula antifagocítica de B. anthracis es de ácido poli-D-{{c1::glutámico}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Agente etiológico",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La toxina tripartita del ántrax incluye antígeno protector, factor edematógeno y factor {{c1::letal}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Una espora que resiste décadas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El factor edematógeno (EF) es una {{c1::adenilato ciclasa}} que causa edema masivo.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Agente etiológico",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El factor letal (LF) es una {{c1::metaloproteinasa}} que causa necrosis tisular y colapso macrofágico.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Agente etiológico",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El carbunco cutáneo (pústula maligna) es el {{c1::95%}} de los casos.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · La pústula maligna",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Carbunco cutáneo: esporas entran por microtraumatismos tras contacto con ganado, {{c1::cueros, lana}} o huesos.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · La pústula maligna",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La lesión del carbunco cutáneo parte como una {{c1::pápula}} pruriginosa que pasa a vesícula y a escara.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · La pústula maligna",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Carbunco cutáneo: escara negra central con corona de {{c1::vesículas}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · La pústula maligna",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El edema del carbunco cutáneo es gelatinoso, extenso y no deja {{c1::fóvea}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · La pústula maligna",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La pústula maligna es típicamente {{c1::indolora}} y no produce pus, salvo sobreinfección.",
+   "extra": "Lo separa de las otras escaras negras.",
+   "origen": "clase:2",
+   "fuente": "Clase · La pústula maligna",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El carbunco por inhalación se llama enfermedad de los {{c1::cardadores de lana}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Cardadores de lana",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Carbunco respiratorio: cuadro gripal que evoluciona a disnea fulminante, cianosis y {{c1::shock tóxico}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Cardadores de lana",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Rx de tórax patognomónica del carbunco inhalatorio: {{c1::ensanchamiento mediastínico}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Cardadores de lana",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El ensanchamiento mediastínico del ántrax se debe a linfadenitis y mediastinitis {{c1::hemorrágica necrotizante}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Formas clínicas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Confirmación del carbunco: Gram de la lesión vesicular con bacilos en {{c1::caña de bambú}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Confirmar, notificar y tratar sin tocar",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La confirmación por PCR del ántrax se hace en el {{c1::ISP}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Confirmar, notificar y tratar sin tocar",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "El ántrax es una enfermedad de notificación obligatoria {{c1::inmediata}} (ENO) a la SEREMI.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Confirmar, notificar y tratar sin tocar",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Antibiótico de elección del carbunco cutáneo: {{c1::ciprofloxacino}} oral (o levofloxacino).",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Confirmar, notificar y tratar sin tocar",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Ciprofloxacino en ántrax: 500 mg cada 12 h por {{c1::60 días}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Confirmar, notificar y tratar sin tocar",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Alternativa al ciprofloxacino en ántrax: {{c1::doxiciclina}} 100 mg cada 12 h oral.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Confirmar, notificar y tratar sin tocar",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Ántrax sistémico o inhalatorio: triterapia EV de ciprofloxacino + clindamicina + {{c1::meropenem}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Confirmar, notificar y tratar sin tocar",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el carbunco cutáneo está contraindicado {{c1::desbridar}} la escara: disemina y causa bacteriemia letal.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Confirmar, notificar y tratar sin tocar",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Escara negra DOLOROSA con placa livedoide y flictena: pensar en {{c1::aracnoidismo cutáneo (Loxosceles laeta)}}, no en ántrax.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El ectima gangrenoso lo causa {{c1::Pseudomonas aeruginosa}}, en pacientes neutropénicos.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Úlcera dolorosa con gran adenopatía supurada: {{c1::tularemia}} (Francisella tularensis).",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El agente del aracnoidismo cutáneo es la araña de rincón, {{c1::Loxosceles laeta}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Ante escara negra, la clave diferencial es el {{c1::dolor}}: indolora en ántrax, dolorosa en las demás.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Escara negra indolora + vesículas + gran edema en trabajador de cueros: {{c1::carbunco cutáneo}}.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-19/01_carbunco-cutaneo__cto-infecto_p105.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Carbunco cutáneo (pústula maligna)",
+   "clave": "Escara negra central con corona de vesículas",
+   "conducta": "Gram y cultivo/PCR, notificar ENO inmediata; ciprofloxacino oral; no desbridar",
+   "fuente": "Manual CTO Infecciosas 14.ª ed., p. 105",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-19/02_carbunco-inhalatorio-rx__atlas038.jpg",
+   "pregunta": "¿Qué muestra y qué sospechas?",
+   "diagnostico": "Carbunco inhalatorio",
+   "clave": "Mediastino ensanchado en cuadro gripal que se vuelve fulminante",
+   "conducta": "Triterapia EV (ciprofloxacino + clindamicina + meropenem); notificar",
+   "fuente": "Atlas EUNACOM 2026",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-19/03_loxoscelismo__ecm_p798.jpg",
+   "pregunta": "¿Es carbunco? ¿Qué es?",
+   "diagnostico": "Loxoscelismo cutáneo (araña de rincón)",
+   "clave": "Placa livedoide violácea con necrosis y flictena, muy dolorosa",
+   "conducta": "Manejo de aracnoidismo; no es ántrax",
+   "fuente": "Sherman, Atlas of Clinical Emergency Medicine, p. 798",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  },
+  {
+   "id": "i04",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-19/04_ectima-gangrenoso__atlas040.jpg",
+   "pregunta": "¿Qué lesión es y en quién aparece?",
+   "diagnostico": "Ectima gangrenoso",
+   "clave": "Úlcera necrótica con halo eritematoso, en neutropénico",
+   "conducta": "Cubrir Pseudomonas; no es ántrax",
+   "fuente": "Atlas EUNACOM 2026",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.003"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Escara negra que duele o supura: ¿qué piensas?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.0",
+   "pista": "Escara indolora con exposición a cueros: ¿qué haces?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.0.0",
+   "pista": "Carbunco cutáneo localizado: ¿qué antibiótico?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.0.1",
+   "pista": "Carbunco sistémico o inhalatorio: ¿qué esquema?"
+  }
+ ]
+}

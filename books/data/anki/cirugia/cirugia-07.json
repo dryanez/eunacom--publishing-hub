@@ -1,0 +1,523 @@
+{
+ "classId": "cirugia-07",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fisura anal es un desgarro del anodermo bajo la línea dentada, en más del {{c1::90%}} en la línea media {{c2::posterior}}.",
+   "extra": "Es la zona con menos irrigación.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisura anal",
+   "repaso": true,
+   "imagen": "biblioteca/10_cirugia/cirugia-07/02_fisura_anal_foto__commons.jpg",
+   "codigos": [
+    "4.01.1.016",
+    "4.01.1.020"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor anal lacerante «de cristales rotos» que empieza al defecar y dura horas: {{c1::fisura anal}}.",
+   "extra": "Rectorragia escasa en el papel.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisura anal",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 54"
+   ],
+   "codigos": [
+    "4.01.1.016",
+    "4.01.1.020"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fisura se mantiene por un círculo de dolor, hipertonía e {{c1::isquemia}} del esfínter anal interno.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisura anal",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.016",
+    "4.01.1.020"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La fisura crónica dura más de {{c1::6-8 semanas}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisura anal",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.016",
+    "4.01.1.020"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tríada de Brodie: úlcera con fibras del esfínter, {{c1::plicoma (papila hipertrófica)}} y {{c2::hemorroide centinela}}.",
+   "extra": "Fisura crónica.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisura anal",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.016",
+    "4.01.1.020"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Primera línea de la fisura anal: fibra, agua, baños de asiento y {{c1::diltiazem tópico al 2%}}.",
+   "extra": "Alternativa: nitroglicerina 0.2%.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.016",
+    "4.01.1.020"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El tratamiento médico de la fisura se aplica 2-3 veces al día por {{c1::6 a 8 semanas}} y cura más del 80%.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisura anal",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.016",
+    "4.01.1.020"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fisura crónica refractaria se opera con {{c1::esfinterotomía lateral interna}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.016",
+    "4.01.1.020"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las hemorroides son almohadillas vasculares {{c1::normales}} que contribuyen a la continencia fina.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hemorroides",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.016, 4.01.1.017"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las hemorroides internas están {{c1::sobre}} la línea dentada y son insensibles al dolor.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hemorroides",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-07/01_prolapso-hemorroidal__cto-digestivo_p149.jpg",
+   "codigos": [
+    "4.01.1.016"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hemorroide interna sangra con sangre {{c1::roja rutilante indolora}} al final de la deposición.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hemorroides",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.016"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hemorroides internas grado {{c1::I}} sangran sin prolapso; grado {{c2::II}} prolapsan y se reducen solas.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hemorroides",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.016"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Grado III prolapsa y requiere {{c1::reducción manual}}; grado IV es prolapso {{c2::permanente irreductible}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hemorroides",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.016"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hemorroides grado I-II: dieta o {{c1::bandas elásticas}}; grado III-IV: {{c2::hemorroidectomía}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla orificial",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.016"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La trombosis hemorroidal externa se ve como nódulo {{c1::violáceo y tenso}} con dolor brusco, no defecatorio.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Trombosis",
+   "repaso": false,
+   "imagen": "_verificadas/56_hemorroide_externa_trombosada__27thBaileyLo_p1382_1.jpg",
+   "codigos": [
+    "4.01.1.016"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Trombosis hemorroidal antes de {{c1::72 horas}}: trombectomía bajo anestesia local.",
+   "extra": "Después: calor local, analgésicos y reposo.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Trombosis",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 27"
+   ],
+   "codigos": [
+    "4.01.1.016"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Absceso y fístula anorrectal son dos fases de una misma enfermedad {{c1::criptoglandular}}.",
+   "extra": "Obstrucción de glándulas anales en las criptas de Morgagni.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Abscesos",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.017"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El absceso más frecuente es el perianal (60%), seguido del {{c1::isquiorrectal}} (30%).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Abscesos",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.017"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El dolor del absceso perianal es {{c1::pulsátil y continuo}}, no solo defecatorio.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Abscesos",
+   "repaso": false,
+   "imagen": "_verificadas/237_cirugia_Patología_anorrectal__ecmpdf_p363_1.jpg",
+   "codigos": [
+    "4.01.1.017"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Todo absceso anorrectal se {{c1::drena quirúrgicamente de inmediato}}, sin esperar fluctuación ni usar solo antibióticos.",
+   "extra": "Riesgo de gangrena de Fournier.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Regla de oro",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 41"
+   ],
+   "codigos": [
+    "4.01.1.017"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La fístula aparece en el {{c1::30-50%}} de los pacientes tras drenar un absceso.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fístula",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.017"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La regla de {{c1::Goodsall}} predice el trayecto: orificio anterior recto, orificio posterior curvo a la línea media posterior.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fístula",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.017"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fístula anorrectal se trata con {{c1::fistulotomía o sedal (seton)}} según el trayecto.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla orificial",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.017"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El cáncer anal es un carcinoma {{c1::escamoso}} asociado a VPH 16 y 18, VIH y sexo anal receptivo.",
+   "extra": "Se confunde con hemorroides o fisura.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Cáncer anal",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 89",
+    "EUNACOM Julio 2017 · Pregunta 136"
+   ],
+   "codigos": [
+    "4.01.1.019"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Toda lesión anal que no cura o fisura lateral indurada exige tacto rectal y {{c1::biopsia}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Cáncer anal",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.019"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tratamiento primario del cáncer escamoso anal es la {{c1::quimiorradioterapia (esquema de Nigro)}}, no la cirugía.",
+   "extra": "Mitomicina + 5-FU + radioterapia.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Cáncer anal",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.019"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el prolapso rectal completo se ven pliegues {{c1::concéntricos}}; en la hemorroide prolapsada, {{c2::radiados}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Prolapso",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-07/02_prolapso-rectal-completo__knoop_p259.jpg",
+   "codigos": [
+    "4.01.2.009"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El prolapso rectal es típico de mujeres mayores {{c1::multíparas}} con piso pélvico débil y constipación.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Prolapso",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.009"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Prolapso rectal: reducción manual, fibra y derivación para {{c1::rectopexia}} o rectosigmoidectomía perineal.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Prolapso",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.009"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La anoscopía se hace siempre después del {{c1::tacto rectal}}, en decúbito lateral izquierdo o genupectoral.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Anoscopía",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.003"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La anoscopía se difiere cuando hay dolor intenso, como en fisura aguda o {{c1::absceso}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Anoscopía",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.003"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Adulto joven con rectorragia indolora que gotea al final de la defecación: examen inicial {{c1::anoscopía}}.",
+   "extra": "Con alarma o > 45 años: colonoscopía.",
+   "origen": "clase:16",
+   "fuente": "Clase · Quiz anoscopía",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.003"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Lesión anal que no cura: el error es {{c1::operar primero o llamarla hemorroide}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.019"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-07/02_fisura_anal_foto__commons.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Fisura anal",
+   "clave": "Úlcera alargada en la línea media posterior del margen anal",
+   "conducta": "Fibra, agua, baños de asiento y diltiazem 2%; ELI si es crónica refractaria",
+   "fuente": "Wikimedia Commons «Anal fissure 1.jpg», Public domain",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 54"
+   ],
+   "codigos": [
+    "4.01.1.016",
+    "4.01.1.020"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-07/02_prolapso-rectal-completo__knoop_p259.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Prolapso rectal completo",
+   "clave": "Masa que sale por el ano con pliegues mucosos concéntricos",
+   "conducta": "Reducir, fibra y derivar para cirugía (rectopexia)",
+   "fuente": "The Atlas of Emergency Medicine (Knoop), p. 259",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.009"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.3",
+   "pista": "Dolor pulsátil continuo perianal con masa: ¿conducta?",
+   "codigos": [
+    "4.01.1.016",
+    "4.01.1.020"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.2.0",
+   "pista": "Trombosis hemorroidal antes de 72 h: ¿conducta?",
+   "codigos": [
+    "4.01.1.016",
+    "4.01.1.020"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0",
+   "pista": "Dolor lacerante al defecar: ¿tratamiento?",
+   "codigos": [
+    "4.01.1.016",
+    "4.01.1.020"
+   ]
+  }
+ ]
+}

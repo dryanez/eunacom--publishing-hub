@@ -1,0 +1,635 @@
+{
+ "classId": "cardio-26",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la insuficiencia mitral primaria (orgánica) la {{c1::válvula misma}} está enferma; en la secundaria las valvas son sanas.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Primaria o secundaria",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La causa más frecuente de IM primaria en el adulto es la degeneración {{c1::mixomatosa}} (prolapso, Barlow).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Mecanismos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fiebre reumática es la causa más frecuente de IM en los países {{c1::en desarrollo}} y en la carditis aguda.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Mecanismos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 1"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La IM secundaria (funcional) se produce por valvas sanas con VI dilatado y se maneja como {{c1::insuficiencia cardíaca}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Primaria o secundaria",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Ante valvas sanas con VI dilatado, el error es {{c1::operar la válvula primero}}; se trata la insuficiencia cardíaca.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la IM crónica severa, una FEVI aparentemente normal ya significa {{c1::disfunción ventricular}}.",
+   "extra": "El VI eyecta hacia una aurícula de baja presión.",
+   "origen": "clase:2",
+   "fuente": "Clase · Clínica y auscultación",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La IM crónica es {{c1::asintomática}} por años; luego aparecen fatiga, disnea y FA.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Clínica y auscultación",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Soplo de IM crónica: {{c1::holosistólico}} apical en barra, irradiado a la axila izquierda y el dorso.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Clínica y auscultación",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.019"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 38"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la IM el R1 está {{c1::disminuido}} y suele haber R3.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Clínica y auscultación",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El soplo de IM {{c1::no cambia}} con la inspiración, lo que lo diferencia de la insuficiencia tricuspídea.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Semiología",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El soplo de IM aumenta con handgrip y cuclillas (poscarga) y se {{c1::atenúa}} con Valsalva.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Semiología",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la IM aguda el soplo puede ser corto, suave o {{c1::inaudible}}, porque las presiones de aurícula y ventrículo se igualan.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Semiología",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 124"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La IM aguda (rotura papilar, de cuerdas, endocarditis) da {{c1::edema pulmonar o shock}} porque la aurícula no se adaptó.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · IM aguda",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.019"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 38",
+    "EUNACOM Diciembre 2019 · Pregunta 124"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La rotura papilar por infarto aparece entre el {{c1::2.º y el 7.º día}}, con soplo holosistólico y edema pulmonar.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.019"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 38"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "IM aguda: se estabiliza con {{c1::nitroprusiato}}, diuréticos y balón de contrapulsación, y se opera de urgencia.",
+   "extra": "Bajan la poscarga y el reflujo.",
+   "origen": "clase:8",
+   "fuente": "Clase · IM aguda",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.019"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 124"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Edema pulmonar tras un infarto con soplo nuevo: el error es tratar como {{c1::insuficiencia cardíaca crónica}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Soplo holosistólico apical a la axila: el error es pensar en {{c1::insuficiencia tricuspídea}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El prolapso mitral es el desplazamiento sistólico de las valvas hacia la aurícula > {{c1::2 mm}} sobre el plano del anillo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Prolapso",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El prolapso mitral afecta al {{c1::2 a 3%}} de la población, sobre todo mujeres jóvenes y delgadas.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Prolapso",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El prolapso mitral se asocia a Marfan, Ehlers-Danlos, pectus excavatum y {{c1::escoliosis}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Clic y soplo telesistólico",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hallazgo patognomónico del prolapso: clic {{c1::mesosistólico}} seguido de soplo telesistólico apical.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Clic y soplo telesistólico",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el prolapso, con Valsalva o de pie el clic y el soplo se {{c1::adelantan}} y el soplo se alarga.",
+   "extra": "Menor volumen del VI: prolapsa antes.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla IM vs prolapso",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el prolapso, con cuclillas el clic se {{c1::retrasa}} y el soplo se acorta.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla IM vs prolapso",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la IM clásica, las cuclillas {{c1::aumentan}} la intensidad del soplo.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla IM vs prolapso",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El soplo del prolapso es {{c1::telesistólico}} con clic; el de la IM clásica es holosistólico.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Clic mesosistólico + soplo telesistólico: el error es diagnosticar {{c1::IM clásica}}; es prolapso.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mujer joven con palpitaciones y prolapso: {{c1::eco Doppler}}, tranquilizar y evitar cafeína y tabaco.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Manejo del prolapso",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En el prolapso sin insuficiencia significativa, el betabloqueador en dosis bajas se reserva para las {{c1::palpitaciones sintomáticas}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Manejo del prolapso",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el prolapso sin insuficiencia significativa el error es indicar {{c1::cirugía o profilaxis de endocarditis}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "IM primaria severa: volumen regurgitante ≥ {{c1::60 mL}} y fracción regurgitante ≥ 50%.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Ecocardiograma y criterios",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "IM severa: vena contracta ≥ {{c1::7 mm}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Ecocardiograma y criterios",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "IM severa: área del orificio regurgitante efectivo ≥ {{c1::0,4 cm²}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cirugía en IM severa asintomática si la FEVI es ≤ {{c1::60%}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Criterios quirúrgicos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cirugía en IM severa asintomática si el DTSVI es ≥ {{c1::40 mm}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Criterios quirúrgicos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cirugía en IM severa si hay FA nueva o PSAP > {{c1::50 mmHg}} en reposo.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Criterios quirúrgicos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la IM primaria severa se prefiere {{c1::plastía mitral}} (con anuloplastía) al reemplazo.",
+   "extra": "Preserva el VI y evita la anticoagulación crónica.",
+   "origen": "clase:7",
+   "fuente": "Clase · Criterios quirúrgicos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "IM primaria severa con FEVI 55%: el error es {{c1::seguir controlando}}; indica plastía.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "IM secundaria que persiste sintomática pese al tratamiento óptimo: reparación percutánea con {{c1::clip mitral}} o cirugía.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "IM leve a moderada con VI normal: ecocardiograma cada {{c1::1 a 2 años}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Seguimiento",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "IM severa asintomática: control cada {{c1::6 a 12 meses}}, midiendo DTSVI y FEVI.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Seguimiento",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En IM con FA, a diferencia de la estenosis mitral, los {{c1::anticoagulantes orales directos}} son válidos si la válvula no es mecánica.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Seguimiento",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Embarazo con IM e insuficiencia cardíaca: diuréticos e hidralazina o nitratos; {{c1::IECA y ARA II}} están contraindicados.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Embarazo",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "La cirugía de lesiones crónicas de válvula mitral tiene garantía GES desde los {{c1::15 años}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Perfil · GES",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-26/01_prolapso-mitral-barlow-eco-y-doppler-insuficiencia__harrison_p2042.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Prolapso mitral de Barlow",
+   "clave": "Valvas redundantes que prolapsan hacia la aurícula en sístole, con insuficiencia en el Doppler",
+   "conducta": "Eco Doppler; si no hay insuficiencia significativa, tranquilizar y sin profilaxis de endocarditis",
+   "fuente": "Harrison, Principios de Medicina Interna, 21.ª ed., p. 2042",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-26/02_prolapso-mitral-doppler-color-chorro-regurgitante__harrison_p1890.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Insuficiencia mitral con chorro regurgitante",
+   "clave": "Chorro del ventrículo a la aurícula en sístole; severa con volumen regurgitante ≥ 60 mL",
+   "conducta": "Valorar mecanismo, FEVI y DTSVI; plastía mitral si es primaria severa con indicación",
+   "fuente": "Harrison, Principios de Medicina Interna, 21.ª ed., p. 1890",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.019"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "IM aguda con edema pulmonar o shock: ¿cómo se estabiliza y qué sigue?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1",
+   "pista": "Clic mesosistólico: ¿qué conducta inicial?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.2.0",
+   "pista": "IM funcional con valvas sanas: ¿qué se trata?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.2.1",
+   "pista": "IM primaria severa con indicación: ¿qué procedimiento?"
+  }
+ ]
+}

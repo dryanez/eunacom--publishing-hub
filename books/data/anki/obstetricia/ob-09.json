@@ -1,0 +1,484 @@
+{
+  "classId": "ob-09",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el embarazo la progesterona relaja el uréter y el útero dextrorrotado comprime el uréter {{c1::derecho}}, lo que causa estasis urinaria.",
+      "extra": "Por eso la pielonefritis es más frecuente a la derecha.",
+      "origen": "clase:1",
+      "fuente": "Clase · Por qué se infecta más",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El uropatógeno principal de la ITU en el embarazo es {{c1::Escherichia coli}} (80-85%).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Bacteriuria asintomática: urocultivo con {{c1::≥ 100.000 UFC/mL}} de un único germen, por segundo chorro, sin síntomas.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Bacteriuria asintomática",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La bacteriuria asintomática en la embarazada {{c1::se trata siempre}}, a diferencia de la mujer no gestante.",
+      "extra": "Regla de oro del tema.",
+      "origen": "clase:2",
+      "fuente": "Clase · Regla de oro",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Sin tratar, la bacteriuria asintomática progresa a pielonefritis en el {{c1::30 a 40%}} de las embarazadas.",
+      "extra": "También se asocia a parto prematuro y bajo peso al nacer.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Bacteriuria asintomática",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antibiótico de 1.ª línea para bacteriuria asintomática y cistitis en el libro: {{c1::cefadroxilo}} oral.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Cefadroxilo en bacteriuria o cistitis: {{c1::500 mg cada 12 horas por 7 días}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de manejo",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa a cefadroxilo: nitrofurantoína {{c1::100 mg cada 8 horas por 7 días}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Tratamiento BA",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La nitrofurantoína se evita en las semanas {{c1::36 a 40}} por riesgo teórico de anemia hemolítica neonatal (déficit de G6PD).",
+      "extra": "Antes de eso es segura.",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento ambulatorio",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras tratar una bacteriuria asintomática se pide un {{c1::urocultivo de control}} a los 7 a 14 días de terminado el tratamiento.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Urocultivo de control",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Urocultivo con 60.000 UFC/mL en una embarazada asintomática: no confirma bacteriuria; {{c1::repetir el urocultivo}}.",
+      "extra": "Error frecuente: tratar con menos de cien mil UFC.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 147"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cistitis aguda en la embarazada: disuria, polaquiuria y tenesmo, {{c1::sin fiebre}}; tratamiento ambulatorio.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Cistitis aguda",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cistitis en el primer trimestre sin cefalosporina entre las alternativas: {{c1::nitrofurantoína}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Jul 2016",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 137"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pielonefritis aguda: fiebre ≥ 38.5°C, calofríos, dolor lumbar y {{c1::puñopercusión positiva}}, más frecuente a la derecha.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Pielonefritis",
+      "codigos": [
+        "1.09.2.011",
+        "3.01.1.019"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Toda embarazada con pielonefritis aguda se {{c1::hospitaliza}} sin excepción.",
+      "extra": "Nunca ambulatorio: riesgo de sepsis, SDRA y parto prematuro.",
+      "origen": "clase:4",
+      "fuente": "Clase · Cuando sube al riñón",
+      "codigos": [
+        "1.09.2.011",
+        "3.01.1.019"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Riesgos de la pielonefritis gestacional: sepsis, {{c1::SDRA materno}} y amenaza de parto prematuro.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Riesgos",
+      "codigos": [
+        "1.09.2.011"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antibióticos endovenosos de elección en pielonefritis gestacional: {{c1::cefazolina o ceftriaxona}}.",
+      "extra": "Mismo mecanismo: cefalosporinas.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "1.09.2.011"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 8"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Cefazolina EV en pielonefritis: {{c1::1 g cada 8 horas}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de manejo",
+      "codigos": [
+        "1.09.2.011"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Ceftriaxona EV en pielonefritis: {{c1::1 a 2 g cada 24 horas}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de manejo",
+      "codigos": [
+        "1.09.2.011"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En pielonefritis se mantiene la vía EV hasta {{c1::48 horas}} afebril y asintomática, luego cefadroxilo oral hasta completar 14 días.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Pielonefritis",
+      "codigos": [
+        "1.09.2.011"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Las fluoroquinolonas (ciprofloxacino) están {{c1::contraindicadas}} en el embarazo por toxicidad sobre el cartílago fetal.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · Pregunta banco",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Profilaxis nocturna hasta el parto: tras {{c1::pielonefritis}} o ≥ 2 episodios de ITU en el embarazo.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Profilaxis",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 176"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Profilaxis nocturna: cefadroxilo {{c1::500 mg}} o nitrofurantoína {{c2::100 mg}} cada noche.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de manejo",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dos o más infecciones urinarias tratadas (aunque sean bacteriurias asintomáticas) indican {{c1::profilaxis antibiótica a permanencia}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Jul 2015 · P176",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 176"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Embarazada con fiebre 38,9°C, puñopercusión positiva y sedimento patológico: pielonefritis; antibiótico {{c1::ceftriaxona}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Jul 2024",
+      "codigos": [
+        "1.09.2.011"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 8"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antibiótico de ITU en el embarazo en la pregunta real: {{c1::cefalexina oral por 7 días}}, de primera línea.",
+      "extra": "Ciprofloxacino contraindicado; cotrimoxazol, en el tercer trimestre.",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Jul 2025 · P34",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 34"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Candidiasis en el embarazo con prurito y leucorrea grumosa: se prefiere {{c1::clotrimazol tópico}}.",
+      "extra": "Fluconazol oral también era correcto, pero se evita en el embarazo.",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Jul 2018 · P136",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2018 · Pregunta 136",
+        "EUNACOM Julio 2017 · Pregunta 30"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Candidiasis genital fuera del embarazo: {{c1::fluconazol 150 mg}} vía oral por 1 vez.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Jul 2013 · P178",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 178",
+        "EUNACOM Julio 2019 · Pregunta 176"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Vaginosis bacteriana (flujo gris, pH > 4.5, test de aminas +): {{c1::metronidazol 500 mg cada 12 horas por 7 días}}.",
+      "extra": "Alternativa: clindamicina tópica; no es EPI aunque haya DIU.",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Jul 2025 · P121",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 121",
+        "EUNACOM Julio 2024 · Pregunta 32",
+        "EUNACOM Julio 2024 · Pregunta 116"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Leucorrea amarilla espumosa (tricomoniasis): el examen de elección es el {{c1::frotis fresco}} de la secreción vaginal.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Jul 2017 · P117",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 117",
+        "EUNACOM Julio 2015 · Pregunta 172"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Puérpera con disuria, dispareunia y mucosa genital seca y pálida sin leucorrea: {{c1::atrofia genital}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Jul 2019 · P16",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 16"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antecedente de mortinato por estreptococo grupo B: profilaxis con {{c1::ampicilina endovenosa}} durante el trabajo de parto, sin pedir cultivo.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Dic 2017 · P161",
+      "codigos": [
+        "3.01.1.019"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 161"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Embarazada con urocultivo positivo: ¿fiebre y puñopercusión?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0",
+      "pista": "Sin síntomas: ¿qué recuento define bacteriuria?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2",
+      "pista": "Fiebre y PPL (+): ¿dónde y con qué se trata?"
+    }
+  ]
+}

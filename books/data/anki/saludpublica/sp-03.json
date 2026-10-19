@@ -1,0 +1,383 @@
+{
+  "classId": "sp-03",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La Ley {{c1::20.850 (Ricarte Soto)}} crea el sistema de protección financiera para diagnósticos y tratamientos de alto costo.",
+      "extra": "Promulgada en 2015.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Ricarte Soto",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La Ley Ricarte Soto cubre a toda la población que cumpla el criterio clínico del decreto, sin importar {{c1::el seguro de salud}} (FONASA, ISAPRE, FFAA o sin previsión).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Ley 20.850",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El copago en la Ley Ricarte Soto es {{c1::0%}}, siempre, sin deducibles.",
+      "extra": "El financiamiento es 100% estatal.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · Ricarte Soto vs GES",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Fármaco de alto costo en paciente ISAPRE: el error es decir que {{c1::solo aplica a FONASA}}; tiene cobertura total por Ricarte Soto.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En un tratamiento Ricarte Soto, el error es aplicar el tope de 20% del GES; el copago es {{c1::cero}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La Ley Ricarte Soto cubre fármacos, insumos y dispositivos de alto costo; el GES cubre {{c1::canastas integrales}} (diagnóstico, cirugía, hospitalización, fármacos).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · Ricarte Soto vs GES",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El criterio de inclusión de Ricarte Soto es el {{c1::alto costo financiero}}; el del GES es la prioridad sanitaria (morbimortalidad y años de vida perdidos).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · Ricarte Soto vs GES",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ejemplos de cobertura Ricarte Soto: esclerosis múltiple, {{c1::artritis reumatoide refractaria}}, cáncer de mama HER2 positivo y enfermedad de Crohn.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Ricarte Soto",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Artritis reumatoide refractaria a metotrexato y leflunomida, en una paciente de ISAPRE, con adalimumab: la cobertura es {{c1::100% gratuita, financiada por el Estado}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Quiz representativo",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El acceso a Ricarte Soto se activa con el {{c1::médico especialista tratante}}, en centros públicos o privados acreditados.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Ley 20.850",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El PNAC es un programa {{c1::universal}} del MINSAL, que entrega alimentos en la atención primaria sin importar si el niño es FONASA o ISAPRE.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Niño de ISAPRE con control al día: el error es negarle la leche Purita; {{c1::puede retirarla en el CESFAM}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El PNAC Básico va dirigido a menores de {{c1::6 años}} con estado nutricional normal o sobrepeso, y a gestantes y nodrizas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 PNAC",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La leche Purita Fortificada se entrega a niños de {{c1::6 a 17 meses}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La Purita Cereal se entrega a niños de {{c1::18 meses a 5 años 11 meses}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "{{c1::Purita Mamá}} es el producto del PNAC para gestantes y nodrizas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 PNAC",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El {{c1::PNAC Refuerzo}} es para niños con riesgo de desnutrición o desnutridos y gestantes con bajo peso.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 PNAC",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El PNAC Prematuros entrega fórmula a prematuros extremos de {{c1::< 32 semanas o < 1.500 g}} al nacer.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 PNAC",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para lactantes con APLV el PNAC entrega fórmulas {{c1::extensamente hidrolizadas o a base de aminoácidos libres}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 PNAC",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En fenilcetonuria el PNAC entrega fórmulas libres de {{c1::fenilalanina}}.",
+      "extra": "Es el subprograma de errores innatos del metabolismo.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 PNAC",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El PACAM se dirige a adultos de {{c1::70 años o más}} afiliados a FONASA.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 PACAM",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los productos del PACAM son la {{c1::Crema Años Dorados}} y la Bebida Láctea Años Dorados.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 PACAM",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El requisito para retirar el PACAM es tener el {{c1::EMPAM}} al día y las vacunas al día (influenza y neumocócica).",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Quiz representativo",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Adulto mayor sin síntomas: retira PACAM con EMPAM y vacunas; el error es exigir {{c1::certificado de desnutrición}}.",
+      "extra": "El PACAM no exige estado nutricional alterado.",
+      "origen": "clase:5",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La licencia de una embarazada de 28 semanas afiliada a ISAPRE por síntomas de parto prematuro la paga la {{c1::ISAPRE}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Banco · licencia médica",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 6",
+        "EUNACOM Diciembre 2022 · Pregunta 103"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El descanso postnatal tras un parto prematuro con mortinato es de {{c1::12 semanas}}.",
+      "extra": "Busca la recuperación de la madre.",
+      "origen": "libro:puntos",
+      "fuente": "Banco · descanso postnatal",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 15"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un accidente en una fábrica, durante el trabajo, lo cubre la {{c1::mutual}}, que administra el seguro laboral.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Banco · accidente laboral",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.040"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 102"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Tratamiento de alto costo: ¿qué ley aplica?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Niño menor de 6 años o gestante: ¿qué programa?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2",
+      "pista": "Adulto de 70 años o más: ¿qué programa y requisito?"
+    }
+  ]
+}

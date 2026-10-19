@@ -12,8 +12,10 @@ const fs = require('fs');
 const path = require('path');
 const puppeteer = require('puppeteer');
 const mapper = require('./code_to_manual_mapper.cjs');
+const { qImageHtml, Q_IMG_CSS } = require('./question_image.cjs');   // q.imagen del banco (Imagen representativa)
 
-const CHROME_PATH = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+const _WIN_CHROME = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+const CHROME_PATH = process.env.CHROME_PATH || [_WIN_CHROME, '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'].find(p => require('fs').existsSync(p));
 const DIST_DIR = path.join(__dirname, '..', 'dist');
 const ASSETS_DIR = path.join(__dirname, '..', 'assets');
 
@@ -284,11 +286,11 @@ const SPECIALTIES = {
 
 // Cargar Nuevo Logo AEE en SVG
 let aeeLogoSvg = '';
-const newLogoPath = path.join(ASSETS_DIR, 'aee_logo_new.svg');
+const newLogoPath = path.join(ASSETS_DIR, 'aee-logo-7a-dark.svg');
 if (fs.existsSync(newLogoPath)) {
   aeeLogoSvg = fs.readFileSync(newLogoPath, 'utf8');
 } else {
-  console.warn('No se encontró aee_logo_new.svg');
+  console.warn('No se encontró aee-logo-7a-dark.svg');
 }
 
 function renderHtmlBook(specKey) {
@@ -418,6 +420,7 @@ function renderHtmlBook(specKey) {
         <div class="q-stem">
           <strong class="q-num">${q.number}.</strong>${q.stem}
         </div>
+        ${qImageHtml(q)}
         <div class="q-opts">
           ${q.options.map(opt => `
             <div class="q-opt-line">
@@ -553,9 +556,11 @@ function renderHtmlBook(specKey) {
       align-items: center;
       z-index: 4;
     }
-    .cover-logo-svg {
-      width: 240px;
-      height: auto;
+    .cover-logo-svg svg {
+      height: 104px;
+      width: auto;
+      display: block;
+      margin-left: -40px;
     }
     .cover-edition {
       font-family: 'IBM Plex Mono', monospace;
@@ -960,6 +965,7 @@ function renderHtmlBook(specKey) {
     .sol-full-text {
       margin: 0;
     }
+    ${Q_IMG_CSS}
   </style>
 </head>
 <body>

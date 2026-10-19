@@ -1,0 +1,397 @@
+{
+  "classId": "gastro-14",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La hepatitis se considera crónica cuando dura {{c1::más de 6 meses}}.",
+      "extra": "Aguda < 6 meses: el riesgo es la fulminante; crónica: el riesgo es la cirrosis.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Aguda vs crónica",
+      "repaso": false
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la hepatitis aguda, el marcador pronóstico y criterio de derivación a trasplante es el {{c1::tiempo de protrombina / INR}}.",
+      "extra": "No la bilirrubina ni el nivel de transaminasas.",
+      "origen": "clase:28",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 26"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hepatitis fulminante: encefalopatía que aparece dentro de las {{c1::8 semanas}} de iniciada la ictericia en un hígado previamente sano.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Aguda vs crónica",
+      "repaso": false
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hepatitis crónica se estadifica con {{c1::elastografía (FibroScan) o biopsia hepática}}.",
+      "extra": "Separan grado de inflamación de estadio de fibrosis.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Aguda vs crónica",
+      "repaso": false
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El primer examen ante toda hepatitis aguda es la {{c1::IgM anti-VHA}}.",
+      "extra": "La IgG anti-VHA aislada indica infección pasada o vacunación.",
+      "origen": "clase:2",
+      "fuente": "Clase · Hepatitis A y E",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 23",
+        "EUNACOM Julio 2015 · Pregunta 127",
+        "EUNACOM Diciembre 2022 · Pregunta 146"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pródromo febril seguido de ictericia, coluria y acolia tras un viaje o exposición fecal-oral sugiere {{c1::hepatitis A}}.",
+      "extra": "En niños suele ser anictérica.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Hepatitis A y E",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 127",
+        "EUNACOM Julio 2016 · Pregunta 79"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hepatitis A {{c1::recurrente}} recae a las 4–8 semanas por mecanismo inmune y evoluciona bien.",
+      "extra": "Formas atípicas: colestásica, recurrente y fulminante.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Hepatitis A y E",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 128"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Contactos de hepatitis A: extradomiciliario → {{c1::vacuna}}; conviviente → {{c2::inmunoglobulina más vacuna}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Hepatitis A y E",
+      "repaso": false
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La hepatitis E se comporta como la A salvo en la {{c1::embarazada}}, con letalidad de hasta {{c2::20 %}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Hepatitis A y E",
+      "repaso": false
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En hepatitis A, se deriva a un centro con trasplante si hay encefalopatía o INR {{c1::≥ 1,5}}.",
+      "extra": "Hospitalizar, controlar INR y glicemia; evitar sedantes, paracetamol y alcohol.",
+      "origen": "clase:3",
+      "fuente": "Clase · Hepatitis A complicada",
+      "repaso": true
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hepatitis A con protrombinemia de 52 % sin encefalopatía: la conducta es {{c1::hospitalizar}}.",
+      "extra": "La caída del TP marca gravedad aunque aún no sea fulminante.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · pregunta Julio 2024",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 26"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hepatitis B en el adulto inmunocompetente: {{c1::90 %}} cura y solo el 10 % cronifica.",
+      "extra": "A la inversa del recién nacido: cronifica > 90 %.",
+      "origen": "clase:4",
+      "fuente": "Clase · Hepatitis B",
+      "repaso": false
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Riesgo de contagio de VHB en accidente cortopunzante con fuente AgHBs (+): {{c1::~30 %}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hepatitis B",
+      "repaso": false
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Serología VHB: AgHBs (+) significa {{c1::\"hay virus\" (infección activa)}} e IgM anti-HBc (+) significa {{c2::\"es aguda\"}}.",
+      "extra": "",
+      "origen": "clase:28",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "AgHBs (+) con IgM anti-HBc (−) corresponde a {{c1::hepatitis B crónica}}.",
+      "extra": "Derivar por GES.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla serología B",
+      "repaso": true
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "AgHBs (−) con IgM anti-HBc (+) es el {{c1::período de ventana}}: sigue siendo una infección aguda.",
+      "extra": "El antígeno ya se negativizó y el anti-HBs aún no aparece.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Anti-HBs (+) aislado, sin anti-HBc, indica {{c1::inmunidad por vacuna}}.",
+      "extra": "La vacuna no genera anti-HBc; anti-HBs + anti-HBc IgG = infección resuelta.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "RN de madre AgHBs (+): vacuna + inmunoglobulina anti-HB en las primeras {{c1::12 h}}.",
+      "extra": "No contraindica la lactancia.",
+      "origen": "clase:4",
+      "fuente": "Clase · Hepatitis B",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 144"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La hepatitis crónica por virus {{c1::B y C}} tiene garantía GES (estudio y antivirales).",
+      "extra": "Derivar para carga viral, HBeAg, elastografía y antivirales.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Hepatitis B",
+      "repaso": false
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antivirales para la hepatitis B crónica: {{c1::tenofovir o entecavir}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Hepatitis B",
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Transaminasas elevadas en paciente transfundido antes de 1996: pedir {{c1::anticuerpos totales anti-VHC}}.",
+      "extra": "Si son positivos, confirmar con ARN-VHC por PCR.",
+      "origen": "clase:6",
+      "fuente": "Clase · Hepatitis C",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 119",
+        "EUNACOM Diciembre 2017 · Pregunta 29"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Anti-VHC positivo con ARN-VHC por PCR negativa corresponde a {{c1::infección pasada resuelta}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Hepatitis C",
+      "repaso": false
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hepatitis C: antivirales de acción directa por {{c1::8–12 semanas}}, con curación > 95 %.",
+      "extra": "El interferón quedó obsoleto.",
+      "origen": "clase:6",
+      "fuente": "Clase · Hepatitis C",
+      "repaso": false
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hepatitis alcohólica: relación AST/ALT {{c1::> 2}}, con ambas habitualmente < 300–400 U/L.",
+      "extra": "Virales o tóxicas superan 1.000; más GGT y VCM elevados.",
+      "origen": "clase:7",
+      "fuente": "Clase · Alcohol y fármacos",
+      "repaso": true
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hepatitis alcohólica grave (Maddrey) o con encefalopatía: agregar {{c1::prednisolona}} a la abstinencia y el soporte nutricional.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Alcohol y fármacos",
+      "repaso": false
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antídoto de la hepatitis por paracetamol: {{c1::N-acetilcisteína}}.",
+      "extra": "Útil incluso de forma tardía.",
+      "origen": "clase:7",
+      "fuente": "Clase · Alcohol y fármacos",
+      "repaso": false
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hepatitis aguda con serologías virales negativas y relación temporal con isotretinoína: {{c1::hepatitis por fármacos}}; suspenderlo de inmediato.",
+      "extra": "Diagnóstico por descarte.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Dic 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 83"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Obesa con transaminasas levemente altas, AST/ALT < 1 e hígado hiperecogénico: {{c1::esteatohepatitis no alcohólica (NASH)}}.",
+      "extra": "Las estatinas no se suspenden por alzas menores a 3 veces lo normal.",
+      "origen": "clase:8",
+      "fuente": "Clase · NASH y autoinmunes",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 102"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tratamiento de la NASH: baja de peso {{c1::≥ 7–10 %}}, ejercicio y control metabólico.",
+      "extra": "",
+      "origen": "libro:sec:6",
+      "fuente": "Libro §6 NASH",
+      "repaso": false
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer con prurito, colestasia (FA y GGT altas) y AMA (+): {{c1::cirrosis biliar primaria}}; se trata con ácido ursodesoxicólico.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · NASH y autoinmunes",
+      "repaso": false
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hepatitis autoinmune (mujer, IgG alta, ANA/ASMA/anti-LKM1): tratamiento con {{c1::corticoides + azatioprina}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · NASH y autoinmunes",
+      "repaso": false
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Biopsia hepática con ascitis o coagulopatía: usar la vía {{c1::transyugular}}.",
+      "extra": "Percutánea solo con INR < 1,5 y plaquetas > 50.000.",
+      "origen": "clase:9",
+      "fuente": "Clase · Ecografía y biopsia",
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_verificadas/188_gastro_Hepatitis__Rumack_p1827.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Esteatosis hepática (hígado graso)",
+      "clave": "Hígado hiperecogénico, «brillante»",
+      "conducta": "Descartar alcohol y virus; baja de peso ≥ 7–10 %, ejercicio y control metabólico",
+      "fuente": "Diagnostic Ultrasound (Rumack), p. 1827",
+      "repaso": false
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-14/S1_serologia-vhb__propio.svg",
+      "pregunta": "AgHBs ya negativo e IgM anti-HBc positiva: ¿qué fase es?",
+      "diagnostico": "Período de ventana de la hepatitis B",
+      "clave": "AgHBs negativizado y anti-HBs aún no aparece; solo IgM anti-HBc (+)",
+      "conducta": "Sigue siendo hepatitis B aguda: soporte y vigilar TP",
+      "fuente": "Dibujo propio (esquema)",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Hepatitis aguda: ¿qué serología pides?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0.0",
+      "pista": "Encefalopatía o INR alterado: ¿qué haces?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "Hepatitis crónica: ¿conducta?"
+    }
+  ]
+}

@@ -1067,12 +1067,12 @@
         "options": [
           {
             "id": "A",
-            "text": "Radiogra:a de esófago, estómago y duodeno con doble contraste",
+            "text": "Radiografia de esófago, estómago y duodeno con doble contraste",
             "isCorrect": false
           },
           {
             "id": "B",
-            "text": "Endoscopía diges2va alta",
+            "text": "Endoscopía digestiva alta",
             "isCorrect": false
           },
           {
@@ -1087,7 +1087,7 @@
           },
           {
             "id": "E",
-            "text": "Cin2gra:a de perfusión miocárdica",
+            "text": "Cintigrafia de perfusión miocárdica",
             "isCorrect": false
           }
         ],
@@ -1446,7 +1446,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **EDA** (opción **A**). Trauma torácico (cerrado y arma blanca): clínica + radiografía de tórax con manejo de complicaciones De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+        "explanation": "Disfagia súbita tras ingesta de carne con intolerancia a líquidos sugiere impactación alimentaria esofágica: endoscopía digestiva alta urgente."
       },
       {
         "type": "bento",
@@ -1802,7 +1802,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "La alternativa correcta es la **A** (Endoscopía digestiva alta). Parece un cáncer gástrico. Siempre lo primero es confirmarlo con EDA y biopsia. La necrosis tubular aguda (NTA) es la causa más frecuente de insuficiencia renal aguda de tipo renal. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES)."
+        "explanation": "Pirosis con baja de peso y vómitos en >50 años = síntomas de alarma: EDA con biopsia (cáncer gástrico)."
       },
       {
         "type": "bento",
@@ -2372,7 +2372,7 @@
         "options": [
           {
             "id": "A",
-            "text": "Síndrome de intes2no irritable con predominio de cons2pación",
+            "text": "Síndrome de intestino irritable con predominio de constipación",
             "isCorrect": true
           },
           {
@@ -2382,7 +2382,7 @@
           },
           {
             "id": "C",
-            "text": "Coli2s ulcerosa",
+            "text": "Colitis ulcerosa",
             "isCorrect": false
           },
           {
@@ -2392,7 +2392,7 @@
           },
           {
             "id": "E",
-            "text": "Cons2pación funcional",
+            "text": "Constipación funcional",
             "isCorrect": false
           }
         ],
@@ -2737,7 +2737,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "La alternativa correcta es la **B** (Enteritis infecciosa). En mi opinión es una simple diarrea aguda.. Clase sobre el manejo del cuerpo extraño digestivo. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES)."
+        "explanation": "Diarrea aguda febril con dolor en fosa ilíaca derecha, sin Blumberg y con ileítis terminal en ecografía, orienta a enteritis infecciosa."
       },
       {
         "type": "bento",
@@ -3469,12 +3469,12 @@
         "options": [
           {
             "id": "A",
-            "text": "Coli2s ulcerosa",
+            "text": "Colitis ulcerosa",
             "isCorrect": false
           },
           {
             "id": "B",
-            "text": "Coli2s infecciosa",
+            "text": "Colitis infecciosa",
             "isCorrect": false
           },
           {
@@ -3489,7 +3489,7 @@
           },
           {
             "id": "E",
-            "text": "Síndrome de intes2no irritable con predominio de diarrea Mortalidad Mortalidad proporcional Mortalidad Mortalidad proporcional Patología cardiovascular 60/1000 50% 150/1000 71,4% Cáncer 30/1000 25% 30/1000 14,3% Otras causas de muerte 30/1000 25% 30/1000 14,3% Total 120/1000 100% 210/1000 100% Periodo inicial Periodo tardío",
+            "text": "Síndrome de intestino irritable con predominio de diarrea Mortalidad Mortalidad proporcional Mortalidad Mortalidad proporcional Patología cardiovascular 60/1000 50% 150/1000 71,4% Cáncer 30/1000 25% 30/1000 14,3% Otras causas de muerte 30/1000 25% 30/1000 14,3% Total 120/1000 100% 210/1000 100% Periodo inicial Periodo tardío",
             "isCorrect": false
           }
         ],
@@ -3818,39 +3818,39 @@
       {
         "type": "question",
         "nav": "Pregunta Real EUNACOM",
-        "badge": "EUNACOM Diciembre 2024 · Pregunta 14",
-        "notes": "[SLIDE 11] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2024 · Pregunta 14.",
+        "badge": "EUNACOM Julio 2016 · Pregunta 50",
+        "notes": "[SLIDE 11] Pregunta oficial del banco EUNACOM: EUNACOM Julio 2016 · Pregunta 50.",
         "number": 4,
-        "caseText": "Paciente 50 años aprox con cambio de hábito intestinal y baja de peso 8 kilos: a.​ colonoscopía",
-        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "caseText": "Un paciente de 70 años, consulta por un cuadro de varios meses de evolución de constipación, alternado con diarrea. Su examen físico no aporta mayor información. En sus exámenes destaca hematocrito: 36% y hemoglobina de 12 g/dl.",
+        "question": "¿Qué examen debe solicitarse a continuación?",
         "options": [
           {
             "id": "A",
-            "text": "Ninguna de las anteriores es correcta",
-            "isCorrect": true
+            "text": "Test de sangre oculta en deposiciones",
+            "isCorrect": false
           },
           {
             "id": "B",
-            "text": "Todas las anteriores son correctas",
+            "text": "Ecografía abdominal",
             "isCorrect": false
           },
           {
             "id": "C",
-            "text": "No se dispone de información suficiente",
+            "text": "TAC de abdomen y pelvis",
             "isCorrect": false
           },
           {
             "id": "D",
-            "text": "Otra alternativa no descrita",
-            "isCorrect": false
+            "text": "Colonoscopía",
+            "isCorrect": true
           },
           {
             "id": "E",
-            "text": "Otra alternativa no descrita",
+            "text": "Rectosigmoidoscopía",
             "isCorrect": false
           }
         ],
-        "explanation": "La alternativa correcta es la **A** (Ninguna de las anteriores es correcta). Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh. Las opciones alternativas (Todas las anteriores son correctas, No se dispone de información suficiente) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente."
+        "explanation": "Es un cuadro sugerente de cáncer de colon (constipación y anemia en adulto mayor), que se estudia con colonoscopía."
       },
       {
         "type": "bento",
@@ -6601,12 +6601,12 @@
           },
           {
             "id": "C",
-            "text": "Obstrucción intes2nal",
+            "text": "Obstrucción intestinal",
             "isCorrect": false
           },
           {
             "id": "D",
-            "text": "Coli2s isquémica",
+            "text": "Colitis isquémica",
             "isCorrect": false
           },
           {
@@ -6910,12 +6910,12 @@
           },
           {
             "id": "C",
-            "text": "Obstrucción intes2nal",
+            "text": "Obstrucción intestinal",
             "isCorrect": false
           },
           {
             "id": "D",
-            "text": "Coli2s isquémica",
+            "text": "Colitis isquémica",
             "isCorrect": false
           },
           {
@@ -7591,7 +7591,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **EDA** (opción **A**). Trauma torácico (cerrado y arma blanca): clínica + radiografía de tórax con manejo de complicaciones De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+        "explanation": "Disfagia súbita tras ingesta de carne con intolerancia a líquidos sugiere impactación alimentaria esofágica: endoscopía digestiva alta urgente."
       },
       {
         "type": "bento",
@@ -7912,7 +7912,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "La alternativa correcta es la **B** (Enteritis infecciosa). En mi opinión es una simple diarrea aguda.. Clase sobre el manejo del cuerpo extraño digestivo. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES)."
+        "explanation": "Diarrea aguda febril con dolor en fosa ilíaca derecha, sin Blumberg y con ileítis terminal en ecografía, orienta a enteritis infecciosa."
       },
       {
         "type": "bento",
@@ -8225,7 +8225,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Diagnóstico: **Hernia hiatal por deslizamiento (tipo I)** (opción **B**). Hernia hiatal por deslizamiento (tipo I). Clase sobre diarrea aguda y crónica en pediatría. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh."
+        "explanation": "Línea Z a 20 cm e impresión diafragmática a 30 cm: la unión escamocolumnar está sobre el diafragma, hernia hiatal por deslizamiento tipo I."
       },
       {
         "type": "question",
@@ -8262,7 +8262,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Diagnóstico: **Hernia hiatal directa** (opción **A**). Clase sobre diarrea aguda y crónica en pediatría. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh."
+        "explanation": "La línea Z proximal a la impresión diafragmática indica hernia hiatal por deslizamiento (tipo I, directa), que facilita el reflujo."
       },
       {
         "type": "bento",
@@ -8852,7 +8852,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **EDA** (opción **A**). Trauma torácico (cerrado y arma blanca): clínica + radiografía de tórax con manejo de complicaciones De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+        "explanation": "Disfagia súbita tras ingesta de carne con intolerancia a líquidos sugiere impactación alimentaria esofágica: endoscopía digestiva alta urgente."
       },
       {
         "type": "bento",

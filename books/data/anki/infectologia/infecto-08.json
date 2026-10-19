@@ -1,0 +1,618 @@
+{
+ "classId": "infecto-08",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Incubación ultracorta (< 6 h) con vómitos sin fiebre indica {{c1::toxina preformada}} en el alimento.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Incubación",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.026"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "S. aureus tiene incubación de {{c1::1 a 6 horas}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Toxicoinfecciones",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "S. aureus se asocia a mayonesa casera, cremas, pasteles y {{c1::ensaladas de papa}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Incubación",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.026"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "B. cereus emético tiene incubación de {{c1::1 a 5 horas}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Toxicoinfecciones",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "B. cereus emético se asocia a {{c1::arroz frito o recalentado}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Toxicoinfecciones",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "C. perfringens tiene incubación de {{c1::8 a 16 horas}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Toxicoinfecciones",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "C. perfringens: carnes y guisos recalentados; cólico intenso y diarrea, {{c1::sin vómitos}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Toxicoinfecciones",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Salmonella no tifoidea tiene incubación de {{c1::12 a 48 horas}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Toxicoinfecciones",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Salmonella no tifoidea: huevos crudos, mayonesa o pollo; {{c1::fiebre alta}} y diarrea con estrías.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Toxicoinfecciones",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Incubación > 16 horas con fiebre indica {{c1::invasión bacteriana}} (Salmonella, Campylobacter).",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La intoxicación por toxina preformada es autolimitada: {{c1::no se indican antibióticos}}.",
+   "extra": "Soporte: rehidratación y antieméticos.",
+   "origen": "libro:caso",
+   "fuente": "Libro · Caso clínico",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Antiemético del caso de intoxicación por S. aureus: {{c1::ondansetrón}}.",
+   "extra": "",
+   "origen": "libro:caso",
+   "fuente": "Libro · Caso clínico",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Diarrea disentérica por Campylobacter: {{c1::azitromicina}} oral.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Las horas delatan el mecanismo",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 45",
+    "EUNACOM Diciembre 2022 · Pregunta 55",
+    "EUNACOM Enero 2023 · Pregunta 76"
+   ],
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Vibrio cholerae de importancia: serogrupos {{c1::O1 y O139}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cólera",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El cólera se transmite por agua o {{c1::mariscos bivalvos}} contaminados con heces humanas.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cólera",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La toxina colérica se une al gangliósido {{c1::GM1}} enterocítico.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cólera",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La toxina colérica activa la adenilato ciclasa por ADP-ribosilación de la subunidad {{c1::Gs}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cólera",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el cólera sube el {{c1::AMP cíclico}}, se abren los canales CFTR de cloruro y no se absorbe sodio.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cólera: toxina",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La diarrea del cólera es en «agua de arroz»: blanquecina, sin {{c1::sangre ni olor fétido}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cólera",
+   "repaso": true,
+   "imagen": "biblioteca/07_infectologia/infecto-08/01_colera-agua-arroz__atlas200.jpg",
+   "codigos": [
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Las pérdidas fecales del cólera pueden llegar a {{c1::1 litro por hora}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cólera",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Sin rehidratación el cólera puede matar en menos de {{c1::12 horas}} por shock hipovolémico.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cólera",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La prioridad absoluta en el cólera es la {{c1::rehidratación}} vigorosa.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Cólera tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cólera con shock: {{c1::Ringer lactato}} EV masivo; si tolera, sales de rehidratación oral OMS.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Cólera tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Antibiótico del cólera moderado a severo: doxiciclina {{c1::300 mg}} dosis única.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cólera",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Cólera en niños y embarazadas: azitromicina {{c1::1 g}} dosis única.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cólera",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Incubación del cólera: {{c1::12 a 72 horas}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Toxicoinfecciones",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "El cólera y el botulismo son enfermedades de {{c1::notificación obligatoria inmediata}} (ENO).",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Cólera tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El Clostridium botulinum es un bacilo {{c1::anaerobio}} cuyas esporas contaminan conservas caseras mal esterilizadas.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Botulismo",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.026"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Incubación del botulismo: {{c1::12 a 36 horas}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Toxicoinfecciones",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La toxina botulínica destruye las proteínas {{c1::SNARE (SNAP-25)}} y bloquea la liberación de acetilcolina.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Botulismo",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.026"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tríada del botulismo: pares craneanos, parálisis flácida {{c1::descendente}} y disautonomía.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Botulismo",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.026"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Botulismo, pares craneanos: visión borrosa, diplopía, {{c1::ptosis}}, disfagia y disartria.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Botulismo",
+   "repaso": true,
+   "imagen": "biblioteca/07_infectologia/infecto-08/02_botulismo-lactante__atlas201.jpg",
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Botulismo: la parálisis flácida simétrica es {{c1::sin compromiso sensitivo}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Botulismo",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.026"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Disautonomía del botulismo: midriasis {{c1::arreactiva}}, boca seca, constipación e íleo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Botulismo",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.026"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Botulismo: hospitalización en {{c1::UCI}} por riesgo de paro respiratorio.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Botulismo",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.026"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Tratamiento específico del botulismo: {{c1::antitoxina botulínica equina}} precoz.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La antitoxina botulínica neutraliza la toxina libre pero {{c1::no revierte}} la parálisis ya establecida.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Botulismo manejo",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Prevención del botulismo: evitar conservas caseras y la {{c1::miel}} bajo 1 año.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Prevención",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Agua en emergencias: hervir {{c1::1 minuto}}; refrigerar los alimentos bajo 5 °C.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Prevención",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Verduras regadas con aguas servidas vehiculizan cólera, tifoidea, hepatitis A e {{c1::hidatidosis}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Prevención",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Vacunas de las enfermedades entéricas: hepatitis A, tifoidea {{c1::Vi}} y cólera oral en brotes y viajeros.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Prevención",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-08/01_colera-agua-arroz__atlas200.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Cólera: heces en agua de arroz",
+   "clave": "Deposición líquida con grumos blanquecinos, sin sangre ni olor ni dolor",
+   "conducta": "Rehidratación masiva (SRO o Ringer lactato) + doxiciclina 300 mg única; notificar ENO",
+   "fuente": "Atlas EUNACOM 2026",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-08/02_botulismo-lactante__atlas201.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Botulismo del lactante",
+   "clave": "Hipotonía y cara poco expresiva (parálisis flácida descendente)",
+   "conducta": "UCI, soporte ventilatorio y antitoxina botulínica precoz",
+   "fuente": "Atlas EUNACOM 2026",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.026",
+    "1.04.1.007"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Síntomas neurológicos tras la comida: ¿diagnóstico y manejo?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "Diarrea en agua de arroz masiva: ¿conducta?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.1.0",
+   "pista": "Menos de 6 horas con vómitos: ¿tratamiento?"
+  }
+ ]
+}

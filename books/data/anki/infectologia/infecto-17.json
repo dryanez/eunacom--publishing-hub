@@ -1,0 +1,641 @@
+{
+ "classId": "infecto-17",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la hidatidosis, el hospedero definitivo (gusano adulto en el intestino) es el {{c1::perro}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · El perro, la oveja y el humano",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.013"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los hospederos intermediarios de Echinococcus granulosus son {{c1::ovinos, caprinos y bovinos}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · El perro, la oveja y el humano",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.013"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El ser humano es hospedero {{c1::intermediario accidental}} de la hidatidosis.",
+   "extra": "Se infecta al ingerir huevos de heces de perro.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Hidatidosis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.013"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El perro se infecta al ser alimentado con {{c1::vísceras crudas}} con quistes.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Hidatidosis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.013"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La hidatidosis se localiza en el hígado en {{c1::65-75%}} de los casos (lóbulo derecho).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Hidatidosis",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.013"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Después del hígado, el quiste hidatídico se localiza en el pulmón en {{c1::15-25%}} (bases pulmonares).",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · El perro, la oveja y el humano",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.013"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Examen de elección para diagnosticar el quiste hidatídico hepático: {{c1::ecografía abdominal}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · El quiste se diagnostica con la imagen",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.013"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 72"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las vesículas hijas dentro del quiste dan la imagen en {{c1::rueda de carreta}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · El quiste se diagnostica con la imagen",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.013"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El desprendimiento de la membrana germinativa interna da el signo del {{c1::camalote (nenúfar)}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · El quiste se diagnostica con la imagen",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.013"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la hidatidosis, la serología (Arco 5 / ELISA IgG) {{c1::apoya}} el diagnóstico de la imagen, no lo reemplaza.",
+   "extra": "Valor de apoyo.",
+   "origen": "clase:2",
+   "fuente": "Clase · El quiste se diagnostica con la imagen",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.013"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 72"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El quiste hidatídico hepático suele ser un hallazgo: masa quística {{c1::indolora}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · El quiste se diagnostica con la imagen",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.013"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Complicación más temida del quiste hidatídico: la {{c1::rotura}} con shock anafiláctico y siembra peritoneal.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Lo que más se teme es la rotura",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.013"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La rotura del quiste hidatídico libera líquido muy antigénico que causa {{c1::shock anafiláctico}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Lo que más se teme es la rotura",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.013"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras la rotura de un quiste hidatídico hay siembra {{c1::peritoneal}} de quistes secundarios.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Lo que más se teme es la rotura",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.013"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Antiparasitario de la hidatidosis: {{c1::albendazol}} oral.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Hidatidosis",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.013"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Dosis de albendazol en hidatidosis: {{c1::10-15 mg/kg/día}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Lo que más se teme es la rotura",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.013"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El albendazol en hidatidosis se asocia a {{c1::PAIR}} con escolicida o a cirugía conservadora (periquistectomía).",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Lo que más se teme es la rotura",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.013"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Agentes escolicidas del PAIR: suero salino hipertónico o {{c1::alcohol al 95%}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Hidatidosis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.013"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "PAIR significa punción-aspiración-inyección-{{c1::reaspiración}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Hidatidosis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.013"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La triquinosis la causa el nematodo {{c1::Trichinella spiralis}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Triquinosis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.027"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Triquinosis: se adquiere por carne de {{c1::cerdo}} o cecinas caseras crudas o mal cocidas, sin inspección veterinaria.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Del cerdo clandestino al músculo",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.027"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Inspección veterinaria que previene la triquinosis: la {{c1::triquinoscopía}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Triquinosis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.027"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las larvas de Trichinella se enquistan en músculo estriado activo: diafragma, {{c1::maseteros}}, lengua y bíceps.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Del cerdo clandestino al músculo",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.027"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tríada clásica de la triquinosis: edema bipalpebral bilateral, {{c1::mialgias}} intensas y fiebre alta.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · La tríada y la eosinofilia",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.027"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 56"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La fiebre de la triquinosis es alta y persistente, de {{c1::39-40 °C}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · La tríada y la eosinofilia",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.027"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El edema palpebral de la triquinosis es bilateral y simétrico, con hemorragias {{c1::subconjuntivales}} y en astilla.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · La tríada y la eosinofilia",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.027"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hallazgo de laboratorio cardinal de la triquinosis: {{c1::eosinofilia}} masiva.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · La tríada y la eosinofilia",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.027"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 56"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La eosinofilia de la triquinosis es mayor a {{c1::20-50%}} de los leucocitos.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · La tríada y la eosinofilia",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.027"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la triquinosis las enzimas musculares elevadas son {{c1::CPK}} y LDH.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · La tríada y la eosinofilia",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.027"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Tratamiento de la triquinosis: {{c1::albendazol}} 400 mg c/12 h (o mebendazol) más analgésicos.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · La tríada y la eosinofilia",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.027"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Albendazol en triquinosis: 400 mg cada 12 h por {{c1::10 a 14 días}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · La tríada y la eosinofilia",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.027"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En triquinosis grave (miocarditis o toxicidad sistémica) se agregan {{c1::corticoides (prednisona)}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · La tríada y la eosinofilia",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.027"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "La triquinosis es una enfermedad de {{c1::notificación obligatoria (ENO)}}: se avisa a la SEREMI para decomisar el alimento.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · La tríada y la eosinofilia",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.027"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Complicación temida: en la hidatidosis la rotura con shock anafiláctico; en la triquinosis la {{c1::miocarditis o encefalitis}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.013",
+    "1.04.1.027"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El pulmón es la localización más frecuente del quiste hidatídico en {{c1::niños}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Hidatidosis pulmonar",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.037",
+    "1.05.1.020"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Quiste hidatídico pulmonar: imagen redonda, homogénea, de bordes nítidos; si son múltiples, «{{c1::bolas de cañón}}».",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Hidatidosis pulmonar",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.037",
+    "1.05.1.020"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La ruptura del quiste a bronquio da una vómica de líquido claro, «{{c1::agua de roca}}», con expectoración de membranas.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Hidatidosis pulmonar",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.037",
+    "1.05.1.020"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 70",
+    "EUNACOM Enero 2023 · Pregunta 88",
+    "EUNACOM Diciembre 2025 · Pregunta 11",
+    "EUNACOM Diciembre 2022 · Pregunta 56"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La expectoración de membranas del quiste hidatídico se llama {{c1::hidatidoptisis}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Hidatidosis pulmonar",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.037",
+    "1.05.1.020"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 56"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ante sospecha de quiste hidatídico pulmonar, el estudio se inicia con {{c1::radiografía de tórax}} y TAC.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Hidatidosis pulmonar",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.037",
+    "1.05.1.020"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 70"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Nunca se {{c1::punciona}} un quiste hidatídico pulmonar: riesgo de anafilaxia y diseminación.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Hidatidosis pulmonar",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.037",
+    "1.05.1.020"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento del quiste hidatídico pulmonar: cirugía con {{c1::albendazol}} antes y después.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Hidatidosis pulmonar",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.037",
+    "1.05.1.020"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-17/02_quiste-hidatidico-eco-tc__cto-radiologia_p43.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Quiste hidatídico hepático",
+   "clave": "Vesículas hijas dentro del quiste (rueda de carreta)",
+   "conducta": "Albendazol + PAIR o periquistectomía",
+   "fuente": "Manual CTO Radiología 14.ª ed., p. 43",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.013"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 72"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-17/01_quiste-hidatidico_1__amir-infecto_p189.jpg",
+   "pregunta": "¿Qué signo ves y qué diagnóstico sugiere?",
+   "diagnostico": "Quiste hidatídico (signo del camalote)",
+   "clave": "Membrana germinativa desprendida flotando en el quiste",
+   "conducta": "Albendazol + PAIR o periquistectomía",
+   "fuente": "Manual AMIR Infecciosas, p. 189",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.013"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-17/01_quiste-hidatidico_2__amir-infecto_p189.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Quiste hidatídico pulmonar",
+   "clave": "Imagen redonda, homogénea, de bordes nítidos",
+   "conducta": "Derivar a cirugía con albendazol antes y después; no puncionar",
+   "fuente": "Manual AMIR Infecciosas, p. 189",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.037",
+    "1.05.1.020"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Quiste hidatídico: ¿está roto?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0.0",
+   "pista": "Quiste sin rotura: ¿qué tratamiento?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1",
+   "pista": "Tríada + eosinofilia: ¿es severa?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.1",
+   "pista": "Triquinosis severa: ¿qué se agrega?"
+  }
+ ]
+}

@@ -1,0 +1,377 @@
+{
+ "classId": "uro-14",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Los quistes renales simples se encuentran en más del {{c1::50%}} de las personas mayores de 50 años.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Quiste simple",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.018"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los quistes corticales simples son dilataciones adquiridas de los {{c1::túbulos colectores}}; sin potencial maligno.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Quiste simple",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.018"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Quiste simple en ecografía: contenido {{c1::anecogénico}}, sin ecos ni detritus.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Criterios",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.018"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Quiste simple: pared delgada e imperceptible, forma redonda u oval y {{c1::refuerzo acústico posterior}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Criterios",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.018"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Quiste que cumple los 4 criterios ecográficos: {{c1::tranquilizar y dar el alta}} sin TAC, punción ni controles.",
+   "extra": "Mujer de 54 años con lesión de 3,8 cm.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Conducta",
+   "repaso": true,
+   "imagen": "biblioteca/19_urologia/uro-14/01_quiste-renal-simple-tac__bailey-love_p1412.jpg",
+   "codigos": [
+    "4.03.1.018"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Quiste con tabiques, contenido denso o calcificaciones es complejo y se evalúa con {{c1::TAC con contraste}} (Bosniak).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Bosniak",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.018"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Bosniak I y II: benignos (malignidad {{c1::0%}}); sin seguimiento.",
+   "extra": "II: tabiques < 1 mm, quistes hiperdensos < 3 cm sin realce.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Bosniak I y II",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.018"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Bosniak IIF: malignidad cercana a {{c1::5%}}; TAC a los 6 y 12 meses.",
+   "extra": "Varios tabiques finos o hiperdenso > 3 cm sin realce.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Bosniak IIF",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.018"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Bosniak III: tabiques gruesos con realce; malignidad {{c1::50-60%}}; cirugía.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Bosniak III",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.018"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Bosniak IV: nódulos sólidos con realce; malignidad de {{c1::85-100%}}; resección oncológica.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Bosniak IV",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.018"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Bosniak IIF: el error es {{c1::operar de entrada}}; se sigue con TAC.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.018"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Bosniak III o IV: el error es {{c1::controlar}}; se opera (nefrectomía parcial o radical).",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.018"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La PQRAD es la enfermedad renal hereditaria más frecuente, con herencia autosómica dominante y penetrancia del {{c1::100%}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 PQRAD",
+   "repaso": false,
+   "codigos": [
+    "1.09.1.019"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "PKD1 (cromosoma 16) causa el {{c1::85%}} y es más severa; PKD2 (cromosoma 4) el 15%, más tardía.",
+   "extra": "Codifican policistina-1 y 2 del cilio primario.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Genética",
+   "repaso": false,
+   "codigos": [
+    "1.09.1.019"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "PQRAD: entre la 3.ª y 4.ª década aparecen {{c1::HTA precoz}}, dolor lumbar sordo bilateral, hematuria y nefromegalia palpable.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Clínica",
+   "repaso": false,
+   "imagen": "biblioteca/19_urologia/uro-14/02_rinon-poliquistico-pieza-quirurgica__harrison_p2394.jpg",
+   "codigos": [
+    "1.09.1.019"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Quistes hepáticos en más del {{c1::70%}} de la PQRAD.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Extrarrenal",
+   "repaso": false,
+   "codigos": [
+    "1.09.1.019"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otras complicaciones extrarrenales: diverticulosis colónica y prolapso de {{c1::válvula mitral}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Extrarrenal",
+   "repaso": false,
+   "codigos": [
+    "1.09.1.019"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Aneurismas saculares del polígono de Willis en {{c1::8-10%}} de la PQRAD (20% si hay historia familiar).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Aneurismas",
+   "repaso": false,
+   "codigos": [
+    "1.09.1.019"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "PQRAD con cefalea súbita «la peor de su vida»: hemorragia subaracnoidea; se pide {{c1::TAC de cerebro sin contraste}} urgente.",
+   "extra": "El error es pensar en crisis hipertensiva.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Aneurismas",
+   "repaso": true,
+   "codigos": [
+    "1.09.1.019"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con cefalea atípica o historia familiar de aneurisma: {{c1::angio-RM cerebral}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tamizaje",
+   "repaso": false,
+   "codigos": [
+    "1.09.1.001"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pilar del manejo de la PQRAD: PA menor de 130/80 con {{c1::IECA o ARA-II}}.",
+   "extra": "Caso: padre fallecido en hemodiálisis a los 52 años, creatinina 1,6.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Manejo",
+   "repaso": false,
+   "imagen": "biblioteca/19_urologia/uro-14/03_poliquistosis-renal-tac__bailey-love_p1571.jpg",
+   "codigos": [
+    "1.09.1.001"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la PQRAD progresa a {{c1::falla renal terminal}}; hay GES N.º 7 para enfermedad renal crónica.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 PQRAD",
+   "repaso": false,
+   "codigos": [
+    "1.09.1.019"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-14/01_quiste-renal-simple-tac__bailey-love_p1412.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Quiste simple en TAC",
+   "clave": "Una lesión redonda, homogénea, de densidad agua y pared fina",
+   "conducta": "Bosniak I: alta sin seguimiento",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 75.24",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.018"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-14/02_rinon-poliquistico-pieza-quirurgica__harrison_p2394.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Riñón poliquístico abierto",
+   "clave": "Parénquima reemplazado por múltiples quistes",
+   "conducta": "Control de PA con IECA o ARA-II",
+   "fuente": "Harrison 21.ª ed., Fig. 315-2",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.018"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-14/03_poliquistosis-renal-tac__bailey-love_p1571.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "PQRAD en TAC",
+   "clave": "Ambos riñones enormes con múltiples quistes",
+   "conducta": "Vigilar aneurismas cerebrales si hay riesgo",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 82.23",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.018"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Quiste que cumple los 4 criterios: ¿conducta?",
+   "codigos": [
+    "4.03.1.018",
+    "1.09.1.019"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.1",
+   "pista": "Bosniak IIF: ¿qué seguimiento?",
+   "codigos": [
+    "4.03.1.018",
+    "1.09.1.019"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.2",
+   "pista": "Bosniak III o IV: ¿conducta?",
+   "codigos": [
+    "4.03.1.018",
+    "1.09.1.019"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.2",
+   "pista": "Riñones grandes con historia familiar: ¿manejo?",
+   "codigos": [
+    "4.03.1.018",
+    "1.09.1.019"
+   ]
+  }
+ ]
+}

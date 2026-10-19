@@ -1,0 +1,460 @@
+{
+  "classId": "ob-04",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El PEG constitucional tiene peso entre el percentil {{c1::3 y 10}} con Doppler y líquido amniótico {{c2::estrictamente normales}}.",
+      "extra": "Variante fisiológica sin riesgo de asfixia.",
+      "origen": "clase:1",
+      "fuente": "Clase · PEG versus RCF",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.010"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PEG constitucional: parto {{c1::a término (39–40 semanas)}} sin adelantar el parto.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.010"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "PEG con Doppler normal: el error es {{c1::adelantar el parto por el peso solo}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.010"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "RCF se diagnostica con EPF < percentil {{c1::3}}, por sí solo, independiente del Doppler.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 RCF",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.010"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "RCF también si el EPF está entre P3 y P10 con {{c1::Doppler patológico}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 RCF",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.010"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una caída de más de {{c1::dos canales percentilares}} en ecografías seriadas es RCF, aunque el peso actual no sea bajo.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.010"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante un feto bajo el percentil 10, el examen para distinguir PEG de RCF y etapificar es el {{c1::Doppler de arteria umbilical}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Julio 2016 P56",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.003"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 56",
+        "EUNACOM Julio 2015 · Pregunta 161",
+        "EUNACOM Julio 2019 · Pregunta 123",
+        "EUNACOM Julio 2013 · Pregunta 164"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "RCF precoz (tipo I): debut antes de las {{c1::32 semanas}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · RCF precoz versus tardío",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.010"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "RCF precoz: placentación defectuosa masiva y asociación con {{c1::preeclampsia}} en 50–70%.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clasificación",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.010"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Secuencia Doppler del RCF precoz: arteria umbilical, luego {{c1::cerebral media}}, luego {{c2::ductus venoso}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · RCF precoz versus tardío",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.003"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "RCF tardío (tipo II): debut desde las {{c1::32 semanas}}, por senescencia placentaria.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · RCF precoz versus tardío",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.010"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el RCF tardío la arteria umbilical es normal y se altera la {{c1::cerebral media}} (ACM < P5).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · RCF precoz versus tardío",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.003"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El RCF tardío tiene riesgo de {{c1::hipoxia súbita}} y óbito en el trabajo de parto, en fetos que pasan desapercibidos.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 RCF tardío",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.010"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hipoxemia produce {{c1::vasodilatación cerebral}} (IP de ACM < P5), efecto protector que redistribuye flujo a cerebro, miocardio y suprarrenales.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Secuencia Doppler",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.003"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la arteria umbilical, con la obliteración vellosa se pasa de IP > P95 a flujo diastólico {{c1::ausente}} y luego {{c2::reverso}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Arteria umbilical",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.003"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ductus venoso con onda 'a' {{c1::reversa}}: acidosis y falla miocárdica terminal; máxima urgencia de interrupción.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Ductus venoso",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.003"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 141",
+        "EUNACOM Diciembre 2017 · Pregunta 168"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "RCF etapa I (umbilical > P95 o ACM < P5): interrupción a las {{c1::37 semanas}}.",
+      "extra": "Puede tolerar inducción.",
+      "origen": "clase:3",
+      "fuente": "Clase · Cuatro etapas",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.010"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "RCF etapa II (diástole ausente en umbilical): interrupción a las {{c1::34 semanas}}, por cesárea y con corticoides.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Cuatro etapas",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.010"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "RCF etapa III (diástole reversa en umbilical): interrupción a las {{c1::30 semanas}}, cesárea electiva.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Cuatro etapas",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.010"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 29"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "RCF etapa IV (onda 'a' reversa en ductus venoso): interrupción inmediata, a las {{c1::26 a 28 semanas}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Cuatro etapas",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.010"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Diástole ausente en la arteria umbilical: interrumpir a las 34 semanas; el error es {{c1::solo repetir el Doppler y observar}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.010"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Onda 'a' reversa en el ductus venoso: el error es {{c1::esperar a completar la maduración pulmonar}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.010"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Peso < percentil 3 aunque el Doppler se vea normal: restricción severa, {{c1::cesárea}}; el error es esperar.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz Diciembre 2019 P24",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.010"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 24"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antes de interrumpir, para maduración pulmonar: {{c1::betametasona 12 mg IM cada 24 horas}}, dos dosis.",
+      "extra": "Se da antes de las 34 semanas.",
+      "origen": "clase:4",
+      "fuente": "Clase · Neuroprotección y maduración",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.010"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antes de las 32 semanas se agrega {{c1::sulfato de magnesio}} para neuroprotección fetal.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Neuroprotección y maduración",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.010"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En las etapas II, III y IV la vía del parto es siempre {{c1::cesárea}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Neuroprotección y maduración",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.010"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras diagnosticar RCF, el Doppler se repite seriado cada {{c1::24 horas a 7 días}}, según gravedad.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Neuroprotección y maduración",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.003"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PEG tiene RBNE reactivo; el RCF presenta {{c1::desaceleraciones y pérdida de variabilidad}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla PEG vs RCF",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.010"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras el diagnóstico de RCF severo se hospitaliza en {{c1::ARO}} y se monitoriza con Doppler y RBNE seriado.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · caso clínico",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.010"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-04/088_ob_Restricción_de_crecimiento__us_obgynpd_p127_1.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Arteria umbilical con diástole ausente (RCF etapa II)",
+      "clave": "Ausencia de flujo en diástole en el Doppler umbilical",
+      "conducta": "Hospitalizar en ARO, corticoides e interrumpir a las 34 semanas por cesárea",
+      "fuente": "Ultrasound in Obstetrics and Gynecology: A Practical Approach, p. 127",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.010"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-04/089_ob_Restricción_de_crecimiento__Rumack_p1502.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Ductus venoso con onda 'a' reversa (RCF etapa IV)",
+      "clave": "Onda 'a' invertida en el ductus venoso",
+      "conducta": "Interrupción inmediata por cesárea, con corticoides y sulfato de magnesio",
+      "fuente": "Diagnostic Ultrasound (Rumack), p. 1502",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.010"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-04/299_ob_Restricción_de_crecimiento__us_obgynpd_p129_1.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Vasodilatación de la arteria cerebral media (redistribución)",
+      "clave": "Flujo diastólico alto en la cerebral media",
+      "conducta": "Etapificar con Doppler umbilical y vigilar; en RCF etapa I interrumpir a las 37 semanas",
+      "fuente": "Ultrasound in Obstetrics and Gynecology: A Practical Approach, p. 129",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.003"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "P3–P10 con Doppler normal: ¿qué es y cuándo nace?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.1",
+      "pista": "Diástole ausente en umbilical: ¿cuándo interrumpes?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.3",
+      "pista": "Onda 'a' reversa en ductus venoso: ¿qué haces?"
+    }
+  ]
+}

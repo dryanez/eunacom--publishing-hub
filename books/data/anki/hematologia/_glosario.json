@@ -1,0 +1,2438 @@
+{
+ "_doc": "Glosario clicable del mazo Anki (popover en el reverso). 'def' se escribe a mano desde el libro (sin cifras nuevas) y se conserva al regenerar; pagina/clase/t/url los recalcula conceptos.py. Términos y alias: books/scripts/anki/vocab_*.txt.",
+ "libro": "hematologia",
+ "pdf": "books/dist/Modulo_1_Medicina_Interna/Manual_EUNACOM_Hematologia_Completo_2026.pdf",
+ "terminos": {
+  "Anemia": {
+   "termino": "Anemia",
+   "tipo": "Concepto",
+   "alias": [
+    "anemia",
+    "síndrome anémico"
+   ],
+   "def": "Disminución de la masa de glóbulos rojos, definida por Hb bajo dos desviaciones estándar: Hb < 13.0 g/dL en hombres y < 12.0 g/dL en mujeres adultas no embarazadas.",
+   "pagina": 5,
+   "clase": "hem-01",
+   "claseTitulo": "8.1 Síndrome Anémico: Definición, Índices Eritrocitarios (VCM, HCM) e Índice Reticulocitario",
+   "diapositiva": 4,
+   "t": 221.6,
+   "mmss": "3:42",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-01&t=221&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-01&t=221",
+   "notas": 60
+  },
+  "Hemoglobina": {
+   "termino": "Hemoglobina",
+   "tipo": "Examen",
+   "alias": [
+    "hemoglobina",
+    "Hb"
+   ],
+   "def": "Proteína del glóbulo rojo cuya concentración define la anemia. La mutación de la beta-globina origina talasemias y drepanocitosis (HbS); la electroforesis de Hb confirma ambas.",
+   "pagina": 43,
+   "clase": "hem-09",
+   "claseTitulo": "8.9 Talasemias (Rasgo Beta vs Mayor) y Drepanocitosis / Anemia Falciforme (HbS)",
+   "diapositiva": 6,
+   "t": 328.8,
+   "mmss": "5:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-09&t=328&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-09&t=328",
+   "notas": 38
+  },
+  "VCM": {
+   "termino": "VCM",
+   "tipo": "Examen",
+   "alias": [
+    "VCM",
+    "volumen corpuscular medio"
+   ],
+   "def": "Volumen corpuscular medio (referencia 80 a 100 fL). Orienta la etiología: microcitosis, normocitosis o macrocitosis (> 100 fL, déficit de B12/folato).",
+   "pagina": 5,
+   "clase": "hem-01",
+   "claseTitulo": "8.1 Síndrome Anémico: Definición, Índices Eritrocitarios (VCM, HCM) e Índice Reticulocitario",
+   "diapositiva": 2,
+   "t": 89.5,
+   "mmss": "1:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-01&t=89&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-01&t=89",
+   "notas": 19
+  },
+  "HCM": {
+   "termino": "HCM",
+   "tipo": "Examen",
+   "alias": [
+    "HCM",
+    "hemoglobina corpuscular media"
+   ],
+   "def": "Hemoglobina corpuscular media (normal 27 a 33 pg). Junto con la CHCM define normocromía o hipocromía del glóbulo rojo.",
+   "pagina": 5,
+   "clase": "hem-01",
+   "claseTitulo": "8.1 Síndrome Anémico: Definición, Índices Eritrocitarios (VCM, HCM) e Índice Reticulocitario",
+   "diapositiva": 3,
+   "t": 163.9,
+   "mmss": "2:44",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-01&t=163&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-01&t=163",
+   "notas": 2
+  },
+  "Indice_reticulocitario": {
+   "termino": "Índice reticulocitario",
+   "tipo": "Examen",
+   "alias": [
+    "índice reticulocitario",
+    "reticulocitos",
+    "recuento de reticulocitos"
+   ],
+   "def": "Reticulocitos corregidos por el hematocrito y el factor de maduración. Mide la respuesta de la médula: IRC > 2% es anemia regenerativa y < 2% arregenerativa.",
+   "pagina": 5,
+   "clase": "hem-01",
+   "claseTitulo": "8.1 Síndrome Anémico: Definición, Índices Eritrocitarios (VCM, HCM) e Índice Reticulocitario",
+   "diapositiva": 4,
+   "t": 221.6,
+   "mmss": "3:42",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-01&t=221&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-01&t=221",
+   "notas": 16
+  },
+  "Frotis_de_sangre_periferica": {
+   "termino": "Frotis de sangre periférica",
+   "tipo": "Examen",
+   "alias": [
+    "frotis",
+    "frotis de sangre periférica"
+   ],
+   "def": "Examen que identifica la causa de la anemia por la morfología: hipocromía y microcitosis, esferocitos, células mordidas, cuerpos de Heinz, esquistocitos.",
+   "pagina": 40,
+   "clase": "hem-08",
+   "claseTitulo": "8.8 Esferocitosis Hereditaria, Déficit de G6PD (Favismo) y Hemoglobinuria Paroxística Nocturna (HPN)",
+   "diapositiva": 1,
+   "t": 30.5,
+   "mmss": "0:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-08&t=30&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-08&t=30",
+   "notas": 24
+  },
+  "Ferritina": {
+   "termino": "Ferritina",
+   "tipo": "Examen",
+   "alias": [
+    "ferritina"
+   ],
+   "def": "Mejor parámetro para estimar los depósitos de hierro (normal 30 a 200 ng/mL); < 30 ng/mL confirma ferropenia. Es reactante de fase aguda: sube con la inflamación.",
+   "pagina": 9,
+   "clase": "hem-02",
+   "claseTitulo": "8.2 Perfil de Cinética de Hierro: Ferritina, Transferrina, TIBC y Saturación de Transferrina",
+   "diapositiva": 1,
+   "t": 31.7,
+   "mmss": "0:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-02&t=31&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-02&t=31",
+   "notas": 26
+  },
+  "Transferrina": {
+   "termino": "Transferrina",
+   "tipo": "Examen",
+   "alias": [
+    "transferrina",
+    "TIBC",
+    "capacidad total de fijación de hierro"
+   ],
+   "def": "Glicoproteína hepática que transporta el hierro sérico (normal 200 a 360 mg/dL). Aumenta en la ferropenia pura y baja con la inflamación; el IST normal es 20% a 50%.",
+   "pagina": 9,
+   "clase": "hem-02",
+   "claseTitulo": "8.2 Perfil de Cinética de Hierro: Ferritina, Transferrina, TIBC y Saturación de Transferrina",
+   "diapositiva": 1,
+   "t": 31.7,
+   "mmss": "0:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-02&t=31&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-02&t=31",
+   "notas": 15
+  },
+  "Anemia_ferropenica": {
+   "termino": "Anemia ferropénica",
+   "tipo": "Concepto",
+   "alias": [
+    "anemia ferropénica",
+    "ferropenia",
+    "déficit de hierro"
+   ],
+   "def": "Anemia por déficit de hierro; no es un diagnóstico final: exige buscar el origen del sangrado o la malabsorción. Ferritina < 30 ng/mL, hipocromía y RDW elevado.",
+   "pagina": 12,
+   "clase": "hem-03",
+   "claseTitulo": "8.3 Anemia Ferropénica: Diagnóstico, Algoritmo Causal (Digestivo, Menstrual, Celíaco) y Terapia Oral vs Endovenosa",
+   "diapositiva": 2,
+   "t": 92.9,
+   "mmss": "1:33",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-03&t=92&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-03&t=92",
+   "notas": 36
+  },
+  "Hierro_oral": {
+   "termino": "Hierro oral",
+   "tipo": "Farmaco",
+   "alias": [
+    "hierro oral",
+    "sulfato ferroso"
+   ],
+   "def": "Tratamiento de primera línea de la ferropenia: 40 a 100 mg de hierro elemental al día o en días alternos, en ayunas y con vitamina C.",
+   "pagina": 12,
+   "clase": "hem-03",
+   "claseTitulo": "8.3 Anemia Ferropénica: Diagnóstico, Algoritmo Causal (Digestivo, Menstrual, Celíaco) y Terapia Oral vs Endovenosa",
+   "diapositiva": 13,
+   "t": 745.8,
+   "mmss": "12:26",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-03&t=745&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-03&t=745",
+   "notas": 6
+  },
+  "Hierro_endovenoso": {
+   "termino": "Hierro endovenoso",
+   "tipo": "Farmaco",
+   "alias": [
+    "hierro endovenoso",
+    "hierro sacarosa",
+    "carboximaltosa"
+   ],
+   "def": "Indicado cuando la vía oral es ineficaz, dañina o insuficiente: intolerancia grave, malabsorción (celiaquía, bypass gástrico), EII activa, hemodiálisis y tercer trimestre.",
+   "pagina": 12,
+   "clase": "hem-03",
+   "claseTitulo": "8.3 Anemia Ferropénica: Diagnóstico, Algoritmo Causal (Digestivo, Menstrual, Celíaco) y Terapia Oral vs Endovenosa",
+   "diapositiva": 8,
+   "t": 485.2,
+   "mmss": "8:05",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-03&t=485&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-03&t=485",
+   "notas": 3
+  },
+  "Enfermedad_celiaca": {
+   "termino": "Enfermedad celíaca",
+   "tipo": "Concepto",
+   "alias": [
+    "enfermedad celíaca",
+    "celiaquía"
+   ],
+   "def": "Causa de malabsorción de hierro: en celiaquía activa o tras bypass gástrico la ferropenia se trata con hierro endovenoso.",
+   "pagina": 15,
+   "clase": "hem-03",
+   "claseTitulo": "8.3 Anemia Ferropénica: Diagnóstico, Algoritmo Causal (Digestivo, Menstrual, Celíaco) y Terapia Oral vs Endovenosa",
+   "diapositiva": 13,
+   "t": 745.8,
+   "mmss": "12:26",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-03&t=745&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-03&t=745",
+   "notas": 3
+  },
+  "Anemia_de_la_enfermedad_cronica": {
+   "termino": "Anemia de la enfermedad crónica",
+   "tipo": "Concepto",
+   "alias": [
+    "anemia de la enfermedad crónica",
+    "anemia inflamatoria",
+    "anemia de la inflamación"
+   ],
+   "def": "Anemia de la inflamación (infecciones, cáncer, autoinmunes) mediada por IL-6 y hepcidina. Ferritina elevada, transferrina baja y ferremia baja.",
+   "pagina": 17,
+   "clase": "hem-04",
+   "claseTitulo": "8.4 Anemia de la Enfermedad Crónica / Inflamación vs Anemia en la Enfermedad Renal Crónica (EPO y Manejo)",
+   "diapositiva": 7,
+   "t": 464.6,
+   "mmss": "7:45",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-04&t=464&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-04&t=464",
+   "notas": 4
+  },
+  "Hepcidina": {
+   "termino": "Hepcidina",
+   "tipo": "Concepto",
+   "alias": [
+    "hepcidina"
+   ],
+   "def": "Modulador negativo central del hierro: degrada la ferroportina y atrapa el hierro en enterocitos y macrófagos. La eleva la inflamación crónica.",
+   "pagina": 17,
+   "clase": "hem-04",
+   "claseTitulo": "8.4 Anemia de la Enfermedad Crónica / Inflamación vs Anemia en la Enfermedad Renal Crónica (EPO y Manejo)",
+   "diapositiva": 1,
+   "t": 30.9,
+   "mmss": "0:31",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-04&t=30&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-04&t=30",
+   "notas": 6
+  },
+  "Eritropoyetina": {
+   "termino": "Eritropoyetina",
+   "tipo": "Farmaco",
+   "alias": [
+    "eritropoyetina",
+    "EPO",
+    "agentes estimulantes de la eritropoyesis"
+   ],
+   "def": "Hormona renal que estimula la eritropoyesis. En la enfermedad renal crónica su síntesis cae y causa anemia; la inflamación también atenúa su respuesta.",
+   "pagina": 17,
+   "clase": "hem-04",
+   "claseTitulo": "8.4 Anemia de la Enfermedad Crónica / Inflamación vs Anemia en la Enfermedad Renal Crónica (EPO y Manejo)",
+   "diapositiva": 11,
+   "t": 669.6,
+   "mmss": "11:10",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-04&t=669&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-04&t=669",
+   "notas": 19
+  },
+  "Aplasia_medular": {
+   "termino": "Aplasia medular",
+   "tipo": "Concepto",
+   "alias": [
+    "aplasia medular",
+    "anemia aplástica",
+    "aplasia"
+   ],
+   "def": "Falla medular, casi siempre autoinmune idiopática, con colapso de las tres series y médula hipocelular. Sin esplenomegalia, hepatomegalia ni adenopatías.",
+   "pagina": 21,
+   "clase": "hem-05",
+   "claseTitulo": "8.5 Aplasia Medular e Hipofunción Medular Adquirida vs Fármacos Mielotóxicos",
+   "diapositiva": 4,
+   "t": 222.4,
+   "mmss": "3:42",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-05&t=222&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-05&t=222",
+   "notas": 22
+  },
+  "Pancitopenia": {
+   "termino": "Pancitopenia",
+   "tipo": "Concepto",
+   "alias": [
+    "pancitopenia"
+   ],
+   "def": "Disminución de las tres series celulares: anemia, infecciones por neutropenia y sangrado por trombocitopenia. Con esplenomegalia sospechar hiperesplenismo o mielofibrosis.",
+   "pagina": 21,
+   "clase": "hem-05",
+   "claseTitulo": "8.5 Aplasia Medular e Hipofunción Medular Adquirida vs Fármacos Mielotóxicos",
+   "diapositiva": 14,
+   "t": 673.4,
+   "mmss": "11:13",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-05&t=673&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-05&t=673",
+   "notas": 9
+  },
+  "Globulina_antitimocito": {
+   "termino": "Globulina antitimocito",
+   "tipo": "Farmaco",
+   "alias": [
+    "globulina antitimocítica",
+    "ATG",
+    "ciclosporina"
+   ],
+   "def": "Inmunosupresor (ATG) que, con ciclosporina A y eltrombopag, es la terapia de la aplasia medular en pacientes mayores o sin donante familiar.",
+   "pagina": 21,
+   "clase": "hem-05",
+   "claseTitulo": "8.5 Aplasia Medular e Hipofunción Medular Adquirida vs Fármacos Mielotóxicos",
+   "diapositiva": 6,
+   "t": 325.6,
+   "mmss": "5:26",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-05&t=325&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-05&t=325",
+   "notas": 1
+  },
+  "Trasplante_de_medula_osea": {
+   "termino": "Trasplante de médula ósea",
+   "tipo": "Concepto",
+   "alias": [
+    "trasplante de médula",
+    "trasplante alogénico",
+    "TPH"
+   ],
+   "def": "Trasplante alogénico de progenitores: tratamiento curativo de la aplasia medular en jóvenes con hermano HLA idéntico y de la LMA de riesgo intermedio o adverso.",
+   "pagina": 81,
+   "clase": "hem-16",
+   "claseTitulo": "8.16 Leucemias Agudas: Mieloide Aguda (LMA) y Linfoblástica Aguda (LLA): Blastos >20%, Bastones de Auer y Trasplante",
+   "diapositiva": 8,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-16&t=456&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Anemia_megaloblastica": {
+   "termino": "Anemia megaloblástica",
+   "tipo": "Concepto",
+   "alias": [
+    "anemia megaloblástica",
+    "megaloblástica",
+    "macrocítica"
+   ],
+   "def": "Anemia macrocítica por déficit de B12 o folato, que altera la síntesis de ADN y causa asincronía de maduración núcleo-citoplasmática.",
+   "pagina": 28,
+   "clase": "hem-06",
+   "claseTitulo": "8.6 Anemias Macrocíticas y Megaloblásticas: Déficit de B12 (Anemia Perniciosa/Neuropatía) vs Déficit de Folato",
+   "diapositiva": 4,
+   "t": 266.0,
+   "mmss": "4:26",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-06&t=265&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-06&t=265",
+   "notas": 12
+  },
+  "Deficit_de_vitamina_B12": {
+   "termino": "Déficit de vitamina B12",
+   "tipo": "Concepto",
+   "alias": [
+    "déficit de B12",
+    "vitamina B12",
+    "cobalamina"
+   ],
+   "def": "Vitamina de origen animal, absorbida con factor intrínseco. Su déficit acumula homocisteína y ácido metilmalónico y produce neuropatía.",
+   "pagina": 28,
+   "clase": "hem-06",
+   "claseTitulo": "8.6 Anemias Macrocíticas y Megaloblásticas: Déficit de B12 (Anemia Perniciosa/Neuropatía) vs Déficit de Folato",
+   "diapositiva": 14,
+   "t": 877.9,
+   "mmss": "14:38",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-06&t=877&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-06&t=877",
+   "notas": 16
+  },
+  "Anemia_perniciosa": {
+   "termino": "Anemia perniciosa",
+   "tipo": "Concepto",
+   "alias": [
+    "anemia perniciosa"
+   ],
+   "def": "Causa más común de déficit grave de B12 en adultos mayores: gastritis atrófica autoinmune con ausencia de factor intrínseco y riesgo de cáncer gástrico.",
+   "pagina": 28,
+   "clase": "hem-06",
+   "claseTitulo": "8.6 Anemias Macrocíticas y Megaloblásticas: Déficit de B12 (Anemia Perniciosa/Neuropatía) vs Déficit de Folato",
+   "diapositiva": 5,
+   "t": 350.3,
+   "mmss": "5:50",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-06&t=350&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-06&t=350",
+   "notas": 4
+  },
+  "Anticuerpos_anti_factor_intrinseco": {
+   "termino": "Anticuerpos anti-factor intrínseco",
+   "tipo": "Examen",
+   "alias": [
+    "factor intrínseco",
+    "anti-factor intrínseco"
+   ],
+   "def": "Autoanticuerpos muy específicos de la anemia perniciosa; bloquean el factor intrínseco y la absorción de B12.",
+   "pagina": 28,
+   "clase": "hem-06",
+   "claseTitulo": "8.6 Anemias Macrocíticas y Megaloblásticas: Déficit de B12 (Anemia Perniciosa/Neuropatía) vs Déficit de Folato",
+   "diapositiva": 2,
+   "t": 109.8,
+   "mmss": "1:50",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-06&t=109&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-06&t=109",
+   "notas": 2
+  },
+  "Deficit_de_folato": {
+   "termino": "Déficit de folato",
+   "tipo": "Concepto",
+   "alias": [
+    "folato",
+    "ácido fólico",
+    "déficit de folato"
+   ],
+   "def": "Anemia megaloblástica por desnutrición, alcoholismo o mayor demanda en el embarazo. Las reservas hepáticas se agotan rápido; no causa daño neurológico primario.",
+   "pagina": 28,
+   "clase": "hem-06",
+   "claseTitulo": "8.6 Anemias Macrocíticas y Megaloblásticas: Déficit de B12 (Anemia Perniciosa/Neuropatía) vs Déficit de Folato",
+   "diapositiva": 7,
+   "t": 495.8,
+   "mmss": "8:16",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-06&t=495&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-06&t=495",
+   "notas": 15
+  },
+  "Cianocobalamina": {
+   "termino": "Cianocobalamina",
+   "tipo": "Farmaco",
+   "alias": [
+    "cianocobalamina",
+    "vitamina B12 intramuscular"
+   ],
+   "def": "Forma de vitamina B12 que se administra por vía intramuscular en la malabsorción (anemia perniciosa, gastrectomía): dosis diarias, luego semanales y mensuales de por vida.",
+   "pagina": 28,
+   "clase": "hem-06",
+   "claseTitulo": "8.6 Anemias Macrocíticas y Megaloblásticas: Déficit de B12 (Anemia Perniciosa/Neuropatía) vs Déficit de Folato",
+   "diapositiva": 8,
+   "t": 546.2,
+   "mmss": "9:06",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-06&t=546&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-06&t=546",
+   "notas": 3
+  },
+  "Anemia_hemolitica": {
+   "termino": "Anemia hemolítica",
+   "tipo": "Concepto",
+   "alias": [
+    "anemia hemolítica",
+    "hemólisis"
+   ],
+   "def": "Anemia por destrucción de glóbulos rojos: reticulocitos altos, LDH elevada, bilirrubina indirecta alta y haptoglobina baja.",
+   "pagina": 39,
+   "clase": "hem-08",
+   "claseTitulo": "8.8 Esferocitosis Hereditaria, Déficit de G6PD (Favismo) y Hemoglobinuria Paroxística Nocturna (HPN)",
+   "diapositiva": 8,
+   "t": 477.0,
+   "mmss": "7:57",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-08&t=476&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-08&t=476",
+   "notas": 31
+  },
+  "LDH": {
+   "termino": "LDH",
+   "tipo": "Examen",
+   "alias": [
+    "LDH",
+    "deshidrogenasa láctica"
+   ],
+   "def": "Enzima liberada por la ruptura de los glóbulos rojos; se eleva en la hemólisis junto con reticulocitos altos e ictericia indirecta.",
+   "pagina": 33,
+   "clase": "hem-07",
+   "claseTitulo": "8.7 Anemia Hemolítica Autoinmune (AHAI: Anticuerpos Calientes IgG vs Crioaglutininas IgM) y Test de Coombs Directo",
+   "diapositiva": 13,
+   "t": 778.7,
+   "mmss": "12:59",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-07&t=778&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-07&t=778",
+   "notas": 8
+  },
+  "Haptoglobina": {
+   "termino": "Haptoglobina",
+   "tipo": "Examen",
+   "alias": [
+    "haptoglobina"
+   ],
+   "def": "Proteína que se consume al unirse a la hemoglobina libre; su caída es el marcador más sensible de hemólisis intravascular y extravascular.",
+   "pagina": 33,
+   "clase": "hem-07",
+   "claseTitulo": "8.7 Anemia Hemolítica Autoinmune (AHAI: Anticuerpos Calientes IgG vs Crioaglutininas IgM) y Test de Coombs Directo",
+   "diapositiva": 1,
+   "t": 32.7,
+   "mmss": "0:33",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-07&t=32&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-07&t=32",
+   "notas": 2
+  },
+  "Test_de_Coombs_directo": {
+   "termino": "Test de Coombs directo",
+   "tipo": "Examen",
+   "alias": [
+    "Coombs directo",
+    "test de Coombs",
+    "Coombs"
+   ],
+   "def": "Detecta IgG o complemento fijados a los glóbulos rojos. Positivo confirma la hemólisis autoinmune; negativo en esferocitosis, G6PD y HPN.",
+   "pagina": 33,
+   "clase": "hem-07",
+   "claseTitulo": "8.7 Anemia Hemolítica Autoinmune (AHAI: Anticuerpos Calientes IgG vs Crioaglutininas IgM) y Test de Coombs Directo",
+   "diapositiva": 4,
+   "t": 244.2,
+   "mmss": "4:04",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-07&t=244&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-07&t=244",
+   "notas": 18
+  },
+  "Anemia_hemolitica_autoinmune": {
+   "termino": "Anemia hemolítica autoinmune",
+   "tipo": "Concepto",
+   "alias": [
+    "AHAI",
+    "anemia hemolítica autoinmune"
+   ],
+   "def": "Hemólisis por autoanticuerpos contra la membrana del glóbulo rojo; según el comportamiento térmico es por anticuerpos calientes (IgG) o por crioaglutininas (IgM).",
+   "pagina": 33,
+   "clase": "hem-07",
+   "claseTitulo": "8.7 Anemia Hemolítica Autoinmune (AHAI: Anticuerpos Calientes IgG vs Crioaglutininas IgM) y Test de Coombs Directo",
+   "diapositiva": 5,
+   "t": 296.6,
+   "mmss": "4:57",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-07&t=296&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-07&t=296",
+   "notas": 17
+  },
+  "Crioaglutininas": {
+   "termino": "Crioaglutininas",
+   "tipo": "Concepto",
+   "alias": [
+    "crioaglutininas",
+    "anticuerpos fríos"
+   ],
+   "def": "Anemia hemolítica por IgM que se une al glóbulo rojo en zonas frías (acras). No responde a corticoides ni esplenectomía; se evita el frío.",
+   "pagina": 33,
+   "clase": "hem-07",
+   "claseTitulo": "8.7 Anemia Hemolítica Autoinmune (AHAI: Anticuerpos Calientes IgG vs Crioaglutininas IgM) y Test de Coombs Directo",
+   "diapositiva": 3,
+   "t": 176.5,
+   "mmss": "2:56",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-07&t=176&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-07&t=176",
+   "notas": 8
+  },
+  "Corticoides": {
+   "termino": "Corticoides",
+   "tipo": "Farmaco",
+   "alias": [
+    "prednisona",
+    "corticoides",
+    "metilprednisolona"
+   ],
+   "def": "Tratamiento de primera línea de la PTI (dexametasona en pulsos o prednisona) y de la anemia hemolítica autoinmune por anticuerpos calientes.",
+   "pagina": 58,
+   "clase": "hem-12",
+   "claseTitulo": "8.12 Trombocitopenias y Púrpura Trombocitopénica Inmune (PTI) del Adulto y Niño: Criterios, Sangrado y Terapia GES",
+   "diapositiva": 12,
+   "t": 643.1,
+   "mmss": "10:43",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-12&t=643&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-12&t=643",
+   "notas": 19
+  },
+  "Esferocitosis_hereditaria": {
+   "termino": "Esferocitosis hereditaria",
+   "tipo": "Concepto",
+   "alias": [
+    "esferocitosis hereditaria",
+    "esferocitos"
+   ],
+   "def": "Hemólisis congénita por defecto del citoesqueleto de la membrana: esferocitos sin Coombs, ictericia, esplenomegalia y litiasis biliar pigmentaria.",
+   "pagina": 39,
+   "clase": "hem-08",
+   "claseTitulo": "8.8 Esferocitosis Hereditaria, Déficit de G6PD (Favismo) y Hemoglobinuria Paroxística Nocturna (HPN)",
+   "diapositiva": 2,
+   "t": 90.1,
+   "mmss": "1:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-08&t=90&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-08&t=90",
+   "notas": 3
+  },
+  "Fragilidad_osmotica": {
+   "termino": "Fragilidad osmótica",
+   "tipo": "Examen",
+   "alias": [
+    "fragilidad osmótica"
+   ],
+   "def": "Prueba que muestra la fragilidad de los esferocitos en la esferocitosis hereditaria, junto con CHCM elevada y Coombs negativo.",
+   "pagina": 39,
+   "clase": "hem-08",
+   "claseTitulo": "8.8 Esferocitosis Hereditaria, Déficit de G6PD (Favismo) y Hemoglobinuria Paroxística Nocturna (HPN)",
+   "diapositiva": 12,
+   "t": 701.6,
+   "mmss": "11:42",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-08&t=701&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-08&t=701",
+   "notas": 2
+  },
+  "Deficit_de_G6PD": {
+   "termino": "Déficit de G6PD",
+   "tipo": "Concepto",
+   "alias": [
+    "G6PD",
+    "favismo"
+   ],
+   "def": "Enzimopatía ligada al X; la hemólisis aparece tras oxidantes (habas, infecciones, primaquina, sulfonamidas, nitrofurantoína). Células mordidas y cuerpos de Heinz.",
+   "pagina": 39,
+   "clase": "hem-08",
+   "claseTitulo": "8.8 Esferocitosis Hereditaria, Déficit de G6PD (Favismo) y Hemoglobinuria Paroxística Nocturna (HPN)",
+   "diapositiva": 4,
+   "t": 235.2,
+   "mmss": "3:55",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-08&t=235&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-08&t=235",
+   "notas": 7
+  },
+  "Cuerpos_de_Heinz": {
+   "termino": "Cuerpos de Heinz",
+   "tipo": "Signo",
+   "alias": [
+    "cuerpos de Heinz"
+   ],
+   "def": "Agregados de hemoglobina oxidada en la membrana, visibles con tinción supravital durante la crisis hemolítica del déficit de G6PD.",
+   "pagina": 39,
+   "clase": "hem-08",
+   "claseTitulo": "8.8 Esferocitosis Hereditaria, Déficit de G6PD (Favismo) y Hemoglobinuria Paroxística Nocturna (HPN)",
+   "diapositiva": 4,
+   "t": 235.2,
+   "mmss": "3:55",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-08&t=235&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-08&t=235",
+   "notas": 2
+  },
+  "Hemoglobinuria_paroxistica_nocturna": {
+   "termino": "Hemoglobinuria paroxística nocturna",
+   "tipo": "Concepto",
+   "alias": [
+    "HPN",
+    "hemoglobinuria paroxística nocturna"
+   ],
+   "def": "Trastorno clonal por mutación PIGA: sin CD55 ni CD59 los glóbulos rojos se lisan por complemento. Hemólisis intravascular, orina oscura matutina y ferropenia.",
+   "pagina": 39,
+   "clase": "hem-08",
+   "claseTitulo": "8.8 Esferocitosis Hereditaria, Déficit de G6PD (Favismo) y Hemoglobinuria Paroxística Nocturna (HPN)",
+   "diapositiva": 6,
+   "t": 350.8,
+   "mmss": "5:51",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-08&t=350&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-08&t=350",
+   "notas": 6
+  },
+  "Eculizumab": {
+   "termino": "Eculizumab",
+   "tipo": "Farmaco",
+   "alias": [
+    "eculizumab"
+   ],
+   "def": "Anticuerpo monoclonal inhibidor del complemento C5; fármaco de elección en la HPN sintomática grave.",
+   "pagina": 39,
+   "clase": "hem-08",
+   "claseTitulo": "8.8 Esferocitosis Hereditaria, Déficit de G6PD (Favismo) y Hemoglobinuria Paroxística Nocturna (HPN)",
+   "diapositiva": 7,
+   "t": 429.3,
+   "mmss": "7:09",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-08&t=429&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-08&t=429",
+   "notas": 1
+  },
+  "Talasemia": {
+   "termino": "Talasemia",
+   "tipo": "Concepto",
+   "alias": [
+    "talasemia",
+    "talasemias",
+    "rasgo talasémico"
+   ],
+   "def": "Hemoglobinopatía por mutación del gen de la globina. El rasgo beta es asintomático, con microcitosis marcada y Hb A2 elevada en la electroforesis.",
+   "pagina": 43,
+   "clase": "hem-09",
+   "claseTitulo": "8.9 Talasemias (Rasgo Beta vs Mayor) y Drepanocitosis / Anemia Falciforme (HbS)",
+   "diapositiva": 1,
+   "t": 29.3,
+   "mmss": "0:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-09&t=29&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-09&t=29",
+   "notas": 14
+  },
+  "Talasemia_mayor": {
+   "termino": "Talasemia mayor",
+   "tipo": "Concepto",
+   "alias": [
+    "talasemia mayor",
+    "anemia de Cooley"
+   ],
+   "def": "Beta-talasemia homocigoto (Cooley): ausencia de cadenas beta, eritropoyesis ineficaz y hemólisis extrema; requiere transfusiones y quelantes por la sobrecarga de hierro.",
+   "pagina": 43,
+   "clase": "hem-09",
+   "claseTitulo": "8.9 Talasemias (Rasgo Beta vs Mayor) y Drepanocitosis / Anemia Falciforme (HbS)",
+   "diapositiva": 2,
+   "t": 78.1,
+   "mmss": "1:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-09&t=78&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-09&t=78",
+   "notas": 5
+  },
+  "Drepanocitosis": {
+   "termino": "Drepanocitosis",
+   "tipo": "Concepto",
+   "alias": [
+    "drepanocitosis",
+    "anemia falciforme",
+    "hemoglobina S",
+    "HbS"
+   ],
+   "def": "Hemoglobinopatía por cambio de ácido glutámico por valina en la cadena beta (HbS). Con hipoxia polimeriza y ocluye la microcirculación.",
+   "pagina": 43,
+   "clase": "hem-09",
+   "claseTitulo": "8.9 Talasemias (Rasgo Beta vs Mayor) y Drepanocitosis / Anemia Falciforme (HbS)",
+   "diapositiva": 1,
+   "t": 29.3,
+   "mmss": "0:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-09&t=29&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-09&t=29",
+   "notas": 4
+  },
+  "Crisis_vasooclusiva": {
+   "termino": "Crisis vasooclusiva",
+   "tipo": "Concepto",
+   "alias": [
+    "crisis vasooclusiva",
+    "crisis drepanocítica"
+   ],
+   "def": "Episodio de dolor isquémico óseo intolerable en la drepanocitosis. Se maneja con hidratación endovenosa vigorosa y analgesia escalonada con opioides.",
+   "pagina": 43,
+   "clase": "hem-09",
+   "claseTitulo": "8.9 Talasemias (Rasgo Beta vs Mayor) y Drepanocitosis / Anemia Falciforme (HbS)",
+   "diapositiva": 7,
+   "t": 365.2,
+   "mmss": "6:05",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-09&t=365&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-09&t=365",
+   "notas": 3
+  },
+  "Sindrome_toracico_agudo": {
+   "termino": "Síndrome torácico agudo",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome torácico agudo"
+   ],
+   "def": "Complicación de la drepanocitosis con infiltrados pulmonares y disnea, por oclusión de la microcirculación pulmonar.",
+   "pagina": 43,
+   "clase": "hem-09",
+   "claseTitulo": "8.9 Talasemias (Rasgo Beta vs Mayor) y Drepanocitosis / Anemia Falciforme (HbS)",
+   "diapositiva": 5,
+   "t": 249.2,
+   "mmss": "4:09",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-09&t=249&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-09&t=249",
+   "notas": 1
+  },
+  "Hidroxiurea": {
+   "termino": "Hidroxiurea",
+   "tipo": "Farmaco",
+   "alias": [
+    "hidroxiurea"
+   ],
+   "def": "Tratamiento modificador de elección en la drepanocitosis: induce la síntesis de hemoglobina fetal.",
+   "pagina": 43,
+   "clase": "hem-09",
+   "claseTitulo": "8.9 Talasemias (Rasgo Beta vs Mayor) y Drepanocitosis / Anemia Falciforme (HbS)",
+   "diapositiva": 7,
+   "t": 365.2,
+   "mmss": "6:05",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-09&t=365&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-09&t=365",
+   "notas": 2
+  },
+  "Quelantes_de_hierro": {
+   "termino": "Quelantes de hierro",
+   "tipo": "Farmaco",
+   "alias": [
+    "deferoxamina",
+    "deferasirox",
+    "quelante de hierro"
+   ],
+   "def": "Deferoxamina o deferasirox: tratan la sobrecarga transfusional de hierro (cirrosis, miocardiopatía, diabetes) en la talasemia mayor.",
+   "pagina": 43,
+   "clase": "hem-09",
+   "claseTitulo": "8.9 Talasemias (Rasgo Beta vs Mayor) y Drepanocitosis / Anemia Falciforme (HbS)",
+   "diapositiva": 4,
+   "t": 204.4,
+   "mmss": "3:24",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-09&t=204&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-09&t=204",
+   "notas": 1
+  },
+  "Microangiopatia_trombotica": {
+   "termino": "Microangiopatía trombótica",
+   "tipo": "Concepto",
+   "alias": [
+    "microangiopatía trombótica",
+    "MAT"
+   ],
+   "def": "Microtrombos que producen anemia hemolítica con esquistocitos y trombocitopenia de consumo. Incluye la PTT y el síndrome hemolítico urémico.",
+   "pagina": 47,
+   "clase": "hem-10",
+   "claseTitulo": "8.10 Microangiopatías Trombóticas (MAT): PTT (Déficit ADAMTS13 / Plasmaféresis) vs SHU",
+   "diapositiva": 5,
+   "t": 275.3,
+   "mmss": "4:35",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-10&t=275&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-10&t=275",
+   "notas": 4
+  },
+  "Purpura_trombotica_trombocitopenica": {
+   "termino": "Púrpura trombótica trombocitopénica",
+   "tipo": "Concepto",
+   "alias": [
+    "PTT",
+    "púrpura trombocitopénica trombótica",
+    "ADAMTS13"
+   ],
+   "def": "Déficit grave de ADAMTS13: multímeros ultralargos de vWF forman microtrombos plaquetarios. Es una emergencia con mortalidad altísima sin recambio plasmático.",
+   "pagina": 47,
+   "clase": "hem-10",
+   "claseTitulo": "8.10 Microangiopatías Trombóticas (MAT): PTT (Déficit ADAMTS13 / Plasmaféresis) vs SHU",
+   "diapositiva": 2,
+   "t": 101.6,
+   "mmss": "1:42",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-10&t=101&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-10&t=101",
+   "notas": 20
+  },
+  "Sindrome_hemolitico_uremico": {
+   "termino": "Síndrome hemolítico urémico",
+   "tipo": "Concepto",
+   "alias": [
+    "SHU",
+    "síndrome hemolítico urémico"
+   ],
+   "def": "Anemia microangiopática, trombocitopenia y falla renal aguda; el típico infantil sigue a toxina Shiga de E. coli enterohemorrágica y no se debe a déficit de ADAMTS13.",
+   "pagina": 47,
+   "clase": "hem-10",
+   "claseTitulo": "8.10 Microangiopatías Trombóticas (MAT): PTT (Déficit ADAMTS13 / Plasmaféresis) vs SHU",
+   "diapositiva": 4,
+   "t": 222.8,
+   "mmss": "3:43",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-10&t=222&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-10&t=222",
+   "notas": 15
+  },
+  "Esquistocitos": {
+   "termino": "Esquistocitos",
+   "tipo": "Signo",
+   "alias": [
+    "esquistocitos"
+   ],
+   "def": "Glóbulos rojos fragmentados en el frotis; hallazgo de la anemia hemolítica microangiopática de la PTT y el síndrome hemolítico urémico.",
+   "pagina": 47,
+   "clase": "hem-10",
+   "claseTitulo": "8.10 Microangiopatías Trombóticas (MAT): PTT (Déficit ADAMTS13 / Plasmaféresis) vs SHU",
+   "diapositiva": 12,
+   "t": 695.9,
+   "mmss": "11:36",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-10&t=695&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-10&t=695",
+   "notas": 10
+  },
+  "Plasmaferesis": {
+   "termino": "Plasmaféresis",
+   "tipo": "Concepto",
+   "alias": [
+    "plasmaféresis",
+    "recambio plasmático"
+   ],
+   "def": "Recambio plasmático terapéutico diario más corticoides: tratamiento de emergencia de la PTT; remueve autoanticuerpos anti-ADAMTS13 y multímeros de vWF.",
+   "pagina": 47,
+   "clase": "hem-10",
+   "claseTitulo": "8.10 Microangiopatías Trombóticas (MAT): PTT (Déficit ADAMTS13 / Plasmaféresis) vs SHU",
+   "diapositiva": 6,
+   "t": 319.6,
+   "mmss": "5:20",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-10&t=319&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-10&t=319",
+   "notas": 5
+  },
+  "Hemostasia": {
+   "termino": "Hemostasia",
+   "tipo": "Concepto",
+   "alias": [
+    "hemostasia"
+   ],
+   "def": "Proceso en dos fases: hemostasia primaria (plaquetas y vWF sobre el colágeno) y secundaria (cascada que forma una malla insoluble de fibrina).",
+   "pagina": 55,
+   "clase": "hem-11",
+   "claseTitulo": "8.11 Fisiología de la Hemostasia y Evaluación de Laboratorio: Recuento Plaquetario, TP/INR, TTPK y Fibrinógeno",
+   "diapositiva": 1,
+   "t": 29.0,
+   "mmss": "0:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-11&t=28&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-11&t=28",
+   "notas": 6
+  },
+  "Tiempo_de_protrombina": {
+   "termino": "Tiempo de protrombina",
+   "tipo": "Examen",
+   "alias": [
+    "TP",
+    "INR",
+    "tiempo de protrombina"
+   ],
+   "def": "Evalúa la vía extrínseca y común. Se prolonga primero en el déficit de vitamina K por la corta vida media del factor VII, y en el daño hepático.",
+   "pagina": 68,
+   "clase": "hem-14",
+   "claseTitulo": "8.14 Coagulopatías Adquiridas: Hepatopatía Crónica, Déficit de Vitamina K y Manejo de Anticoagulantes",
+   "diapositiva": 5,
+   "t": 246.9,
+   "mmss": "4:07",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-14&t=246&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-14&t=246",
+   "notas": 43
+  },
+  "TTPK": {
+   "termino": "TTPK",
+   "tipo": "Examen",
+   "alias": [
+    "TTPK",
+    "TTPa",
+    "tiempo de tromboplastina parcial activada"
+   ],
+   "def": "Tiempo de tromboplastina parcial activada (normal 25 a 35 segundos): evalúa la vía intrínseca y la común. Se prolonga en hemofilias y con heparina.",
+   "pagina": 55,
+   "clase": "hem-11",
+   "claseTitulo": "8.11 Fisiología de la Hemostasia y Evaluación de Laboratorio: Recuento Plaquetario, TP/INR, TTPK y Fibrinógeno",
+   "diapositiva": 5,
+   "t": 274.9,
+   "mmss": "4:35",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-11&t=274&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-11&t=274",
+   "notas": 36
+  },
+  "Fibrinogeno": {
+   "termino": "Fibrinógeno",
+   "tipo": "Examen",
+   "alias": [
+    "fibrinógeno"
+   ],
+   "def": "Proteína que forma la fibrina en la hemostasia secundaria. Si está bajo, el hemoderivado de elección es el crioprecipitado.",
+   "pagina": 71,
+   "clase": "hem-15",
+   "claseTitulo": "8.15 Coagulación Intravascular Diseminada (CID): Criterios ISTH, Sepsis/Obstetricia y Manejo",
+   "diapositiva": 11,
+   "t": 568.9,
+   "mmss": "9:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-15&t=568&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-15&t=568",
+   "notas": 18
+  },
+  "Recuento_de_plaquetas": {
+   "termino": "Recuento de plaquetas",
+   "tipo": "Examen",
+   "alias": [
+    "recuento plaquetario",
+    "plaquetas",
+    "recuento de plaquetas"
+   ],
+   "def": "Evalúa la hemostasia primaria. En la trombopatía hay sangrado mucocutáneo con recuento, TP y TTPK normales.",
+   "pagina": 55,
+   "clase": "hem-11",
+   "claseTitulo": "8.11 Fisiología de la Hemostasia y Evaluación de Laboratorio: Recuento Plaquetario, TP/INR, TTPK y Fibrinógeno",
+   "diapositiva": 9,
+   "t": 508.8,
+   "mmss": "8:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-11&t=508&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-11&t=508",
+   "notas": 62
+  },
+  "Trombocitopenia": {
+   "termino": "Trombocitopenia",
+   "tipo": "Concepto",
+   "alias": [
+    "trombocitopenia",
+    "trombocitopenias"
+   ],
+   "def": "Plaquetas disminuidas. Ante trombocitopenia aislada se pide frotis o tubo con citrato para descartar pseudotrombocitopenia.",
+   "pagina": 58,
+   "clase": "hem-12",
+   "claseTitulo": "8.12 Trombocitopenias y Púrpura Trombocitopénica Inmune (PTI) del Adulto y Niño: Criterios, Sangrado y Terapia GES",
+   "diapositiva": 0,
+   "t": 5.2,
+   "mmss": "0:05",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-12&t=5&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-12&t=5",
+   "notas": 8
+  },
+  "Purpura_trombocitopenica_inmune": {
+   "termino": "Púrpura trombocitopénica inmune",
+   "tipo": "Concepto",
+   "alias": [
+    "PTI",
+    "púrpura trombocitopénica inmune"
+   ],
+   "def": "Autoanticuerpos IgG contra glicoproteínas plaquetarias. Diagnóstico de exclusión: trombocitopenia aislada sin esplenomegalia ni adenopatías.",
+   "pagina": 58,
+   "clase": "hem-12",
+   "claseTitulo": "8.12 Trombocitopenias y Púrpura Trombocitopénica Inmune (PTI) del Adulto y Niño: Criterios, Sangrado y Terapia GES",
+   "diapositiva": 3,
+   "t": 156.7,
+   "mmss": "2:37",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-12&t=156&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-12&t=156",
+   "notas": 28
+  },
+  "Inmunoglobulina_endovenosa": {
+   "termino": "Inmunoglobulina endovenosa",
+   "tipo": "Farmaco",
+   "alias": [
+    "inmunoglobulina",
+    "IgIV",
+    "inmunoglobulina endovenosa"
+   ],
+   "def": "IgEV 1 g/kg: terapia de rescate urgente en la PTI por su ascenso plaquetario rápido en 24-48 horas.",
+   "pagina": 59,
+   "clase": "hem-12",
+   "claseTitulo": "8.12 Trombocitopenias y Púrpura Trombocitopénica Inmune (PTI) del Adulto y Niño: Criterios, Sangrado y Terapia GES",
+   "diapositiva": 8,
+   "t": 399.9,
+   "mmss": "6:40",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-12&t=399&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-12&t=399",
+   "notas": 2
+  },
+  "Agonistas_de_trombopoyetina": {
+   "termino": "Agonistas de trombopoyetina",
+   "tipo": "Farmaco",
+   "alias": [
+    "romiplostim",
+    "eltrombopag",
+    "agonistas del receptor de trombopoyetina"
+   ],
+   "def": "Eltrombopag o romiplostim: segunda línea de la PTI; estimulan la médula para producir plaquetas.",
+   "pagina": 61,
+   "clase": "hem-12",
+   "claseTitulo": "8.12 Trombocitopenias y Púrpura Trombocitopénica Inmune (PTI) del Adulto y Niño: Criterios, Sangrado y Terapia GES",
+   "diapositiva": 9,
+   "t": 476.0,
+   "mmss": "7:56",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-12&t=476&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-12&t=476",
+   "notas": 2
+  },
+  "Esplenectomia": {
+   "termino": "Esplenectomía",
+   "tipo": "Concepto",
+   "alias": [
+    "esplenectomía"
+   ],
+   "def": "Segunda línea diferida de la PTI y de la anemia hemolítica autoinmune por anticuerpos calientes. No sirve en la enfermedad por crioaglutininas.",
+   "pagina": 61,
+   "clase": "hem-12",
+   "claseTitulo": "8.12 Trombocitopenias y Púrpura Trombocitopénica Inmune (PTI) del Adulto y Niño: Criterios, Sangrado y Terapia GES",
+   "diapositiva": 12,
+   "t": 643.1,
+   "mmss": "10:43",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-12&t=643&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-12&t=643",
+   "notas": 5
+  },
+  "Trombocitopenia_inducida_por_heparina": {
+   "termino": "Trombocitopenia inducida por heparina",
+   "tipo": "Concepto",
+   "alias": [
+    "trombocitopenia inducida por heparina",
+    "TIH"
+   ],
+   "def": "Caída de plaquetas > 50% a los 5-10 días de heparina, mediada por anticuerpos anti-PF4/heparina. Se suspende la heparina de inmediato.",
+   "pagina": 55,
+   "clase": "hem-11",
+   "claseTitulo": "8.11 Fisiología de la Hemostasia y Evaluación de Laboratorio: Recuento Plaquetario, TP/INR, TTPK y Fibrinógeno",
+   "diapositiva": null,
+   "t": 0,
+   "mmss": "0:00",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-11&t=0",
+   "notas": 1
+  },
+  "Hemofilia_A": {
+   "termino": "Hemofilia A",
+   "tipo": "Concepto",
+   "alias": [
+    "hemofilia A",
+    "factor VIII"
+   ],
+   "def": "Déficit de factor VIII, recesivo ligado al X (gen F8), casi solo en varones. Sangrado intraarticular y muscular; TTPK prolongado.",
+   "pagina": 63,
+   "clase": "hem-13",
+   "claseTitulo": "8.13 Coagulopatías Congénitas: Hemofilia A (Factor VIII), Hemofilia B (Factor IX) y Enfermedad de von Willebrand",
+   "diapositiva": 2,
+   "t": 80.7,
+   "mmss": "1:21",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-13&t=80&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-13&t=80",
+   "notas": 11
+  },
+  "Hemofilia_B": {
+   "termino": "Hemofilia B",
+   "tipo": "Concepto",
+   "alias": [
+    "hemofilia B",
+    "factor IX"
+   ],
+   "def": "Enfermedad de Christmas: déficit de factor IX, recesivo ligado al X (gen F9), con cuadro clínico igual al de la hemofilia A.",
+   "pagina": 63,
+   "clase": "hem-13",
+   "claseTitulo": "8.13 Coagulopatías Congénitas: Hemofilia A (Factor VIII), Hemofilia B (Factor IX) y Enfermedad de von Willebrand",
+   "diapositiva": 9,
+   "t": 427.3,
+   "mmss": "7:07",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-13&t=427&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-13&t=427",
+   "notas": 4
+  },
+  "Enfermedad_de_von_Willebrand": {
+   "termino": "Enfermedad de von Willebrand",
+   "tipo": "Concepto",
+   "alias": [
+    "von Willebrand",
+    "enfermedad de von Willebrand"
+   ],
+   "def": "Trastorno hemorrágico hereditario más frecuente, autosómico dominante. Plaquetas y TP normales; TTPK prolongado o normal.",
+   "pagina": 63,
+   "clase": "hem-13",
+   "claseTitulo": "8.13 Coagulopatías Congénitas: Hemofilia A (Factor VIII), Hemofilia B (Factor IX) y Enfermedad de von Willebrand",
+   "diapositiva": 14,
+   "t": 677.9,
+   "mmss": "11:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-13&t=677&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-13&t=677",
+   "notas": 16
+  },
+  "Desmopresina": {
+   "termino": "Desmopresina",
+   "tipo": "Farmaco",
+   "alias": [
+    "desmopresina",
+    "DDAVP"
+   ],
+   "def": "DDAVP: análogo de vasopresina que libera vWF y FVIII endógenos. Fármaco de elección en la enfermedad de von Willebrand tipo 1.",
+   "pagina": 63,
+   "clase": "hem-13",
+   "claseTitulo": "8.13 Coagulopatías Congénitas: Hemofilia A (Factor VIII), Hemofilia B (Factor IX) y Enfermedad de von Willebrand",
+   "diapositiva": 10,
+   "t": 488.7,
+   "mmss": "8:09",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-13&t=488&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-13&t=488",
+   "notas": 2
+  },
+  "Factor_VIII": {
+   "termino": "Factor VIII",
+   "tipo": "Farmaco",
+   "alias": [
+    "concentrado de factor VIII",
+    "factor VIII recombinante"
+   ],
+   "def": "Forma con el factor IX el complejo tenasa que activa al factor X. Su déficit es la hemofilia A; el vWF lo transporta y protege.",
+   "pagina": 63,
+   "clase": "hem-13",
+   "claseTitulo": "8.13 Coagulopatías Congénitas: Hemofilia A (Factor VIII), Hemofilia B (Factor IX) y Enfermedad de von Willebrand",
+   "diapositiva": 15,
+   "t": 730.8,
+   "mmss": "12:11",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-13&t=730&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-13&t=730",
+   "notas": 1
+  },
+  "Hemartrosis": {
+   "termino": "Hemartrosis",
+   "tipo": "Signo",
+   "alias": [
+    "hemartrosis"
+   ],
+   "def": "Sangrado intraarticular, manifestación cardinal de la hemofilia severa; afecta rodillas, codos y tobillos.",
+   "pagina": 63,
+   "clase": "hem-13",
+   "claseTitulo": "8.13 Coagulopatías Congénitas: Hemofilia A (Factor VIII), Hemofilia B (Factor IX) y Enfermedad de von Willebrand",
+   "diapositiva": 9,
+   "t": 427.3,
+   "mmss": "7:07",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-13&t=427&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-13&t=427",
+   "notas": 11
+  },
+  "Deficit_de_vitamina_K": {
+   "termino": "Déficit de vitamina K",
+   "tipo": "Concepto",
+   "alias": [
+    "déficit de vitamina K",
+    "vitamina K"
+   ],
+   "def": "Falla la carboxilación de los factores II, VII, IX y X. Por desnutrición, antibióticos, malabsorción o colestasis; prolonga primero el TP.",
+   "pagina": 68,
+   "clase": "hem-14",
+   "claseTitulo": "8.14 Coagulopatías Adquiridas: Hepatopatía Crónica, Déficit de Vitamina K y Manejo de Anticoagulantes",
+   "diapositiva": 10,
+   "t": 497.8,
+   "mmss": "8:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-14&t=497&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-14&t=497",
+   "notas": 20
+  },
+  "Warfarina": {
+   "termino": "Warfarina",
+   "tipo": "Farmaco",
+   "alias": [
+    "warfarina",
+    "acenocumarol",
+    "antagonistas de la vitamina K"
+   ],
+   "def": "Antagonista de vitamina K que inhibe VKORC1. Rango habitual de INR de 2.0 a 3.0; el ajuste y la reversión dependen del INR y del sangrado.",
+   "pagina": 68,
+   "clase": "hem-14",
+   "claseTitulo": "8.14 Coagulopatías Adquiridas: Hepatopatía Crónica, Déficit de Vitamina K y Manejo de Anticoagulantes",
+   "diapositiva": 4,
+   "t": 201.2,
+   "mmss": "3:21",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-14&t=201&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-14&t=201",
+   "notas": 6
+  },
+  "Anticoagulantes_orales_directos": {
+   "termino": "Anticoagulantes orales directos",
+   "tipo": "Farmaco",
+   "alias": [
+    "ACOD",
+    "anticoagulantes orales directos",
+    "rivaroxabán",
+    "apixabán",
+    "dabigatrán"
+   ],
+   "def": "Rivaroxabán, apixabán, edoxabán (anti-Xa) y dabigatrán (antitrombina). No requieren monitorización rutinaria con TP ni TTPK.",
+   "pagina": 68,
+   "clase": "hem-14",
+   "claseTitulo": "8.14 Coagulopatías Adquiridas: Hepatopatía Crónica, Déficit de Vitamina K y Manejo de Anticoagulantes",
+   "diapositiva": 7,
+   "t": 366.3,
+   "mmss": "6:06",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-14&t=366&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-14&t=366",
+   "notas": 4
+  },
+  "Heparina": {
+   "termino": "Heparina",
+   "tipo": "Farmaco",
+   "alias": [
+    "heparina",
+    "heparina no fraccionada",
+    "HNF",
+    "HBPM",
+    "enoxaparina"
+   ],
+   "def": "Anticoagulante parenteral; el TTPK controla la heparina no fraccionada. Su antídoto es la protamina y su riesgo, la trombocitopenia inducida por heparina.",
+   "pagina": 114,
+   "clase": "hem-23",
+   "claseTitulo": "8.23 Trombofilias Hereditarias (Factor V Leiden, Protrombina G20210A) y SAF: Cuándo Estudiar y Manejo",
+   "diapositiva": 13,
+   "t": 697.7,
+   "mmss": "11:38",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-23&t=697&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-23&t=697",
+   "notas": 13
+  },
+  "Protamina": {
+   "termino": "Protamina",
+   "tipo": "Farmaco",
+   "alias": [
+    "protamina"
+   ],
+   "def": "Sulfato de protamina: antídoto específico de la heparina no fraccionada.",
+   "pagina": 68,
+   "clase": "hem-14",
+   "claseTitulo": "8.14 Coagulopatías Adquiridas: Hepatopatía Crónica, Déficit de Vitamina K y Manejo de Anticoagulantes",
+   "diapositiva": 11,
+   "t": 551.5,
+   "mmss": "9:11",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-14&t=551&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-14&t=551",
+   "notas": 2
+  },
+  "Plasma_fresco_congelado": {
+   "termino": "Plasma fresco congelado",
+   "tipo": "Farmaco",
+   "alias": [
+    "plasma fresco congelado",
+    "PFC"
+   ],
+   "def": "Aporta todos los factores de coagulación; se indica si el TP o TTPK superan 1.5 veces lo normal en sangrado o procedimiento.",
+   "pagina": 71,
+   "clase": "hem-15",
+   "claseTitulo": "8.15 Coagulación Intravascular Diseminada (CID): Criterios ISTH, Sepsis/Obstetricia y Manejo",
+   "diapositiva": 11,
+   "t": 568.9,
+   "mmss": "9:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-15&t=568&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-15&t=568",
+   "notas": 7
+  },
+  "Concentrado_de_complejo_protrombinico": {
+   "termino": "Concentrado de complejo protrombínico",
+   "tipo": "Farmaco",
+   "alias": [
+    "complejo protrombínico",
+    "CCP"
+   ],
+   "def": "CCP: revierte la anticoagulación en hemorragia mayor por acenocumarol y, con los inhibidores del factor Xa, es parte de su reversión.",
+   "pagina": 68,
+   "clase": "hem-14",
+   "claseTitulo": "8.14 Coagulopatías Adquiridas: Hepatopatía Crónica, Déficit de Vitamina K y Manejo de Anticoagulantes",
+   "diapositiva": 6,
+   "t": 324.3,
+   "mmss": "5:24",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-14&t=324&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-14&t=324",
+   "notas": 6
+  },
+  "Idarucizumab": {
+   "termino": "Idarucizumab",
+   "tipo": "Farmaco",
+   "alias": [
+    "idarucizumab"
+   ],
+   "def": "Anticuerpo monoclonal humanizado, antídoto específico del dabigatrán; lo neutraliza en minutos.",
+   "pagina": 68,
+   "clase": "hem-14",
+   "claseTitulo": "8.14 Coagulopatías Adquiridas: Hepatopatía Crónica, Déficit de Vitamina K y Manejo de Anticoagulantes",
+   "diapositiva": 11,
+   "t": 551.5,
+   "mmss": "9:11",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-14&t=551&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-14&t=551",
+   "notas": 1
+  },
+  "Coagulacion_intravascular_diseminada": {
+   "termino": "Coagulación intravascular diseminada",
+   "tipo": "Concepto",
+   "alias": [
+    "CID",
+    "coagulación intravascular diseminada"
+   ],
+   "def": "Activación sistémica de la coagulación por factor tisular (sepsis, trauma, obstétrica) con colapso de todo el laboratorio hemostático: plaquetas bajas, TP y TTPK prolongados.",
+   "pagina": 71,
+   "clase": "hem-15",
+   "claseTitulo": "8.15 Coagulación Intravascular Diseminada (CID): Criterios ISTH, Sepsis/Obstetricia y Manejo",
+   "diapositiva": 9,
+   "t": 439.1,
+   "mmss": "7:19",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-15&t=439&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-15&t=439",
+   "notas": 33
+  },
+  "Criterios_ISTH": {
+   "termino": "Criterios ISTH",
+   "tipo": "Concepto",
+   "alias": [
+    "ISTH"
+   ],
+   "def": "Score de la ISTH según el grado de alteración del laboratorio: puntaje ≥ 5 define CID manifiesta descompensada.",
+   "pagina": 71,
+   "clase": "hem-15",
+   "claseTitulo": "8.15 Coagulación Intravascular Diseminada (CID): Criterios ISTH, Sepsis/Obstetricia y Manejo",
+   "diapositiva": 10,
+   "t": 497.8,
+   "mmss": "8:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-15&t=497&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-15&t=497",
+   "notas": 6
+  },
+  "Leucemia_mieloide_aguda": {
+   "termino": "Leucemia mieloide aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "LMA",
+    "leucemia mieloide aguda"
+   ],
+   "def": "Leucemia aguda predominante en adultos mayores, con ≥ 20% de blastos mieloides. Tratamiento 7+3; trasplante alogénico en riesgo intermedio o adverso.",
+   "pagina": 78,
+   "clase": "hem-16",
+   "claseTitulo": "8.16 Leucemias Agudas: Mieloide Aguda (LMA) y Linfoblástica Aguda (LLA): Blastos >20%, Bastones de Auer y Trasplante",
+   "diapositiva": 21,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-16&t=854&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": null,
+   "notas": 12
+  },
+  "Leucemia_linfoblastica_aguda": {
+   "termino": "Leucemia linfoblástica aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "LLA",
+    "leucemia linfoblástica aguda"
+   ],
+   "def": "Leucemia aguda de blastos linfoides, muy frecuente en niños, con dolores óseos nocturnos. Diagnóstico con ≥ 20% de blastos.",
+   "pagina": 78,
+   "clase": "hem-16",
+   "claseTitulo": "8.16 Leucemias Agudas: Mieloide Aguda (LMA) y Linfoblástica Aguda (LLA): Blastos >20%, Bastones de Auer y Trasplante",
+   "diapositiva": 2,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-16&t=84&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": null,
+   "notas": 13
+  },
+  "Bastones_de_Auer": {
+   "termino": "Bastones de Auer",
+   "tipo": "Signo",
+   "alias": [
+    "bastones de Auer",
+    "Auer"
+   ],
+   "def": "Inclusiones en los mieloblastos que identifican la estirpe mieloide; en paquetes (células de Faggot) orientan a leucemia promielocítica.",
+   "pagina": 78,
+   "clase": "hem-16",
+   "claseTitulo": "8.16 Leucemias Agudas: Mieloide Aguda (LMA) y Linfoblástica Aguda (LLA): Blastos >20%, Bastones de Auer y Trasplante",
+   "diapositiva": 12,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-16&t=681&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Leucemia_promielocitica_aguda": {
+   "termino": "Leucemia promielocítica aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "promielocítica",
+    "LPA",
+    "leucemia promielocítica"
+   ],
+   "def": "Subtipo M3 con t(15;17) y fusión PML-RARA; cursa con sangrado y coagulopatía. Ante la sospecha se inicia ATRA de inmediato.",
+   "pagina": 78,
+   "clase": "hem-16",
+   "claseTitulo": "8.16 Leucemias Agudas: Mieloide Aguda (LMA) y Linfoblástica Aguda (LLA): Blastos >20%, Bastones de Auer y Trasplante",
+   "diapositiva": 6,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-16&t=322&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": null,
+   "notas": 1
+  },
+  "ATRA": {
+   "termino": "ATRA",
+   "tipo": "Farmaco",
+   "alias": [
+    "ATRA",
+    "ácido transretinoico",
+    "tretinoína"
+   ],
+   "def": "Ácido transretinoico: se inicia ante la sospecha de leucemia promielocítica aguda, sin esperar la confirmación, por su coagulopatía.",
+   "pagina": 78,
+   "clase": "hem-16",
+   "claseTitulo": "8.16 Leucemias Agudas: Mieloide Aguda (LMA) y Linfoblástica Aguda (LLA): Blastos >20%, Bastones de Auer y Trasplante",
+   "diapositiva": 6,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-16&t=322&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Blastos": {
+   "termino": "Blastos",
+   "tipo": "Concepto",
+   "alias": [
+    "blastos",
+    "blastos en sangre periférica"
+   ],
+   "def": "Células inmaduras que se acumulan por el bloqueo madurativo de las leucemias agudas; el diagnóstico exige ≥ 20% en médula o sangre.",
+   "pagina": 78,
+   "clase": "hem-16",
+   "claseTitulo": "8.16 Leucemias Agudas: Mieloide Aguda (LMA) y Linfoblástica Aguda (LLA): Blastos >20%, Bastones de Auer y Trasplante",
+   "diapositiva": 3,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-16&t=142&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": null,
+   "notas": 11
+  },
+  "Mielograma": {
+   "termino": "Mielograma",
+   "tipo": "Examen",
+   "alias": [
+    "mielograma",
+    "aspirado de médula ósea",
+    "biopsia de médula ósea"
+   ],
+   "def": "Aspirado de médula ósea realizado por el hematólogo, que confirma la leucemia aguda (≥ 20% de blastos) y se complementa con citometría de flujo.",
+   "pagina": 80,
+   "clase": "hem-16",
+   "claseTitulo": "8.16 Leucemias Agudas: Mieloide Aguda (LMA) y Linfoblástica Aguda (LLA): Blastos >20%, Bastones de Auer y Trasplante",
+   "diapositiva": 3,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-16&t=142&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": null,
+   "notas": 14
+  },
+  "Citometria_de_flujo": {
+   "termino": "Citometría de flujo",
+   "tipo": "Examen",
+   "alias": [
+    "citometría de flujo",
+    "inmunofenotipo"
+   ],
+   "def": "Técnica que, con la morfología y la citoquímica, diferencia la estirpe mieloide de la linfoide en las leucemias agudas.",
+   "pagina": 78,
+   "clase": "hem-16",
+   "claseTitulo": "8.16 Leucemias Agudas: Mieloide Aguda (LMA) y Linfoblástica Aguda (LLA): Blastos >20%, Bastones de Auer y Trasplante",
+   "diapositiva": 3,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-16&t=142&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Leucemia_mieloide_cronica": {
+   "termino": "Leucemia mieloide crónica",
+   "tipo": "Concepto",
+   "alias": [
+    "LMC",
+    "leucemia mieloide crónica"
+   ],
+   "def": "Neoplasia mieloproliferativa con cromosoma Filadelfia t(9;22): leucocitosis marcada con todas las formas madurativas y esplenomegalia masiva.",
+   "pagina": 83,
+   "clase": "hem-17",
+   "claseTitulo": "8.17 Leucemias Crónicas: Leucemia Mieloide Crónica (LMC, BCR-ABL) vs Leucemia Linfática Crónica (LLC)",
+   "diapositiva": 7,
+   "t": 486.2,
+   "mmss": "8:06",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-17&t=486&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-17&t=486",
+   "notas": 16
+  },
+  "BCR_ABL": {
+   "termino": "BCR-ABL",
+   "tipo": "Concepto",
+   "alias": [
+    "BCR-ABL",
+    "cromosoma Filadelfia",
+    "t(9",
+    "22)"
+   ],
+   "def": "Oncoproteína tirosina quinasa de la t(9;22) en la LMC, constitutivamente activa. Es la diana de los inhibidores de tirosina quinasa.",
+   "pagina": 83,
+   "clase": "hem-17",
+   "claseTitulo": "8.17 Leucemias Crónicas: Leucemia Mieloide Crónica (LMC, BCR-ABL) vs Leucemia Linfática Crónica (LLC)",
+   "diapositiva": 1,
+   "t": 32.0,
+   "mmss": "0:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-17&t=32&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-17&t=32",
+   "notas": 2
+  },
+  "Imatinib": {
+   "termino": "Imatinib",
+   "tipo": "Farmaco",
+   "alias": [
+    "imatinib",
+    "inhibidores de tirosina kinasa",
+    "ITK"
+   ],
+   "def": "Inhibidor de tirosina quinasa oral; tratamiento de elección de la LMC, garantizado por GES N° 37.",
+   "pagina": 83,
+   "clase": "hem-17",
+   "claseTitulo": "8.17 Leucemias Crónicas: Leucemia Mieloide Crónica (LMC, BCR-ABL) vs Leucemia Linfática Crónica (LLC)",
+   "diapositiva": 3,
+   "t": 169.1,
+   "mmss": "2:49",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-17&t=169&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-17&t=169",
+   "notas": 5
+  },
+  "Leucemia_linfatica_cronica": {
+   "termino": "Leucemia linfática crónica",
+   "tipo": "Concepto",
+   "alias": [
+    "LLC",
+    "leucemia linfática crónica"
+   ],
+   "def": "Neoplasia indolente de linfocitos B maduros (CD19, CD23 y CD5). En estadios tempranos asintomáticos no se trata precozmente.",
+   "pagina": 83,
+   "clase": "hem-17",
+   "claseTitulo": "8.17 Leucemias Crónicas: Leucemia Mieloide Crónica (LMC, BCR-ABL) vs Leucemia Linfática Crónica (LLC)",
+   "diapositiva": 10,
+   "t": 653.9,
+   "mmss": "10:54",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-17&t=653&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-17&t=653",
+   "notas": 16
+  },
+  "Celulas_en_sombra_de_Gumprecht": {
+   "termino": "Células en sombra de Gumprecht",
+   "tipo": "Signo",
+   "alias": [
+    "Gumprecht",
+    "sombras de Gumprecht"
+   ],
+   "def": "Núcleos aplastados de linfocitos frágiles en el frotis; hallazgo clásico de la leucemia linfática crónica.",
+   "pagina": 83,
+   "clase": "hem-17",
+   "claseTitulo": "8.17 Leucemias Crónicas: Leucemia Mieloide Crónica (LMC, BCR-ABL) vs Leucemia Linfática Crónica (LLC)",
+   "diapositiva": 12,
+   "t": 799.3,
+   "mmss": "13:19",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-17&t=799&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-17&t=799",
+   "notas": 2
+  },
+  "Linfoma_de_Hodgkin": {
+   "termino": "Linfoma de Hodgkin",
+   "tipo": "Concepto",
+   "alias": [
+    "linfoma de Hodgkin",
+    "Hodgkin"
+   ],
+   "def": "Linfoma de distribución bimodal con células de Reed-Sternberg. Prurito, dolor ganglionar con alcohol y síntomas B; tratamiento ABVD, GES N° 38.",
+   "pagina": 88,
+   "clase": "hem-18",
+   "claseTitulo": "8.18 Linfomas: Linfoma de Hodgkin (Reed-Sternberg, Ann Arbor, Síntomas B) vs Linfomas No Hodgkin (LDGCB y Folicular)",
+   "diapositiva": 9,
+   "t": 533.5,
+   "mmss": "8:53",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-18&t=533&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-18&t=533",
+   "notas": 13
+  },
+  "Celulas_de_Reed_Sternberg": {
+   "termino": "Células de Reed-Sternberg",
+   "tipo": "Signo",
+   "alias": [
+    "Reed-Sternberg"
+   ],
+   "def": "Células gigantes binucleadas en imagen especular (ojos de búho), CD30 positivas y CD15 positivas; diagnóstica del linfoma de Hodgkin.",
+   "pagina": 88,
+   "clase": "hem-18",
+   "claseTitulo": "8.18 Linfomas: Linfoma de Hodgkin (Reed-Sternberg, Ann Arbor, Síntomas B) vs Linfomas No Hodgkin (LDGCB y Folicular)",
+   "diapositiva": 4,
+   "t": 218.1,
+   "mmss": "3:38",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-18&t=218&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-18&t=218",
+   "notas": 3
+  },
+  "Clasificacion_de_Ann_Arbor": {
+   "termino": "Clasificación de Ann Arbor",
+   "tipo": "Concepto",
+   "alias": [
+    "Ann Arbor"
+   ],
+   "def": "Etapificación clínica del linfoma (modificada por Cotswolds) que rige el tratamiento; el sufijo B indica síntomas B y A su ausencia.",
+   "pagina": 88,
+   "clase": "hem-18",
+   "claseTitulo": "8.18 Linfomas: Linfoma de Hodgkin (Reed-Sternberg, Ann Arbor, Síntomas B) vs Linfomas No Hodgkin (LDGCB y Folicular)",
+   "diapositiva": 10,
+   "t": 589.4,
+   "mmss": "9:49",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-18&t=589&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-18&t=589",
+   "notas": 5
+  },
+  "Sintomas_B": {
+   "termino": "Síntomas B",
+   "tipo": "Signo",
+   "alias": [
+    "síntomas B"
+   ],
+   "def": "Fiebre inexplicada mayor a 38.0 °C, sudoración nocturna y baja de peso. Reflejan carga tumoral alta y liberación de citocinas; se designan con sufijo B.",
+   "pagina": 88,
+   "clase": "hem-18",
+   "claseTitulo": "8.18 Linfomas: Linfoma de Hodgkin (Reed-Sternberg, Ann Arbor, Síntomas B) vs Linfomas No Hodgkin (LDGCB y Folicular)",
+   "diapositiva": 15,
+   "t": 849.4,
+   "mmss": "14:09",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-18&t=849&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-18&t=849",
+   "notas": 5
+  },
+  "Linfoma_folicular": {
+   "termino": "Linfoma folicular",
+   "tipo": "Concepto",
+   "alias": [
+    "linfoma folicular"
+   ],
+   "def": "Linfoma no Hodgkin indolente con t(14;18) y BCL-2; incurable con quimioterapia estándar y se observa si está asintomático.",
+   "pagina": 88,
+   "clase": "hem-18",
+   "claseTitulo": "8.18 Linfomas: Linfoma de Hodgkin (Reed-Sternberg, Ann Arbor, Síntomas B) vs Linfomas No Hodgkin (LDGCB y Folicular)",
+   "diapositiva": 6,
+   "t": 337.4,
+   "mmss": "5:37",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-18&t=337&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-18&t=337",
+   "notas": 2
+  },
+  "R_CHOP": {
+   "termino": "R-CHOP",
+   "tipo": "Farmaco",
+   "alias": [
+    "R-CHOP",
+    "CHOP"
+   ],
+   "def": "Esquema con rituximab que cura el linfoma difuso de células B grandes, agresivo, a diferencia del linfoma folicular indolente.",
+   "pagina": 88,
+   "clase": "hem-18",
+   "claseTitulo": "8.18 Linfomas: Linfoma de Hodgkin (Reed-Sternberg, Ann Arbor, Síntomas B) vs Linfomas No Hodgkin (LDGCB y Folicular)",
+   "diapositiva": 12,
+   "t": 711.7,
+   "mmss": "11:52",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-18&t=711&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-18&t=711",
+   "notas": 2
+  },
+  "Rituximab": {
+   "termino": "Rituximab",
+   "tipo": "Farmaco",
+   "alias": [
+    "rituximab"
+   ],
+   "def": "Anticuerpo anti-CD20; se usa en anemia hemolítica por crioaglutininas refractaria, en PTI de segunda línea y en R-CHOP.",
+   "pagina": 34,
+   "clase": "hem-07",
+   "claseTitulo": "8.7 Anemia Hemolítica Autoinmune (AHAI: Anticuerpos Calientes IgG vs Crioaglutininas IgM) y Test de Coombs Directo",
+   "diapositiva": 16,
+   "t": 921.5,
+   "mmss": "15:22",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-07&t=921&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-07&t=921",
+   "notas": 5
+  },
+  "Mieloma_multiple": {
+   "termino": "Mieloma múltiple",
+   "tipo": "Concepto",
+   "alias": [
+    "mieloma múltiple",
+    "mieloma"
+   ],
+   "def": "Clon de células plasmáticas con paraproteína monoclonal (IgG, IgA o cadenas ligeras). VHS muy acelerada y pico monoclonal; el daño de órgano se define por CRAB.",
+   "pagina": 93,
+   "clase": "hem-19",
+   "claseTitulo": "8.19 Mieloma Múltiple: Criterios CRAB, Pico Monoclonal, Gammapatía Monoclonal Incierta (GMSI)",
+   "diapositiva": 8,
+   "t": 462.2,
+   "mmss": "7:42",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-19&t=462&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-19&t=462",
+   "notas": 22
+  },
+  "Criterios_CRAB": {
+   "termino": "Criterios CRAB",
+   "tipo": "Concepto",
+   "alias": [
+    "CRAB"
+   ],
+   "def": "Hipercalcemia, insuficiencia renal, anemia y lesiones óseas: daño de órgano blanco que obliga a iniciar tratamiento del mieloma.",
+   "pagina": 93,
+   "clase": "hem-19",
+   "claseTitulo": "8.19 Mieloma Múltiple: Criterios CRAB, Pico Monoclonal, Gammapatía Monoclonal Incierta (GMSI)",
+   "diapositiva": 15,
+   "t": 648.5,
+   "mmss": "10:48",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-19&t=648&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-19&t=648",
+   "notas": 11
+  },
+  "Electroforesis_de_proteinas": {
+   "termino": "Electroforesis de proteínas",
+   "tipo": "Examen",
+   "alias": [
+    "electroforesis de proteínas",
+    "pico monoclonal",
+    "componente monoclonal"
+   ],
+   "def": "Muestra una espícula angosta en la región gamma (pico monoclonal o componente M); la inmunofijación determina el isotipo.",
+   "pagina": 93,
+   "clase": "hem-19",
+   "claseTitulo": "8.19 Mieloma Múltiple: Criterios CRAB, Pico Monoclonal, Gammapatía Monoclonal Incierta (GMSI)",
+   "diapositiva": 3,
+   "t": 173.4,
+   "mmss": "2:53",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-19&t=173&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-19&t=173",
+   "notas": 2
+  },
+  "Gammapatia_monoclonal_de_significado_incierto": {
+   "termino": "Gammapatía monoclonal de significado incierto",
+   "tipo": "Concepto",
+   "alias": [
+    "GMSI",
+    "gammapatía monoclonal"
+   ],
+   "def": "Condición premaligna frecuente en adultos mayores: pico M < 3.0 g/dL, plasmocitos medulares < 10% y sin criterios CRAB; se observa anualmente.",
+   "pagina": 93,
+   "clase": "hem-19",
+   "claseTitulo": "8.19 Mieloma Múltiple: Criterios CRAB, Pico Monoclonal, Gammapatía Monoclonal Incierta (GMSI)",
+   "diapositiva": 4,
+   "t": 254.1,
+   "mmss": "4:14",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-19&t=254&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-19&t=254",
+   "notas": 4
+  },
+  "Rouleaux": {
+   "termino": "Rouleaux",
+   "tipo": "Signo",
+   "alias": [
+    "rouleaux"
+   ],
+   "def": "Glóbulos rojos en pilas de monedas en el frotis; con VHS > 100 mm/h sugiere mieloma múltiple.",
+   "pagina": 93,
+   "clase": "hem-19",
+   "claseTitulo": "8.19 Mieloma Múltiple: Criterios CRAB, Pico Monoclonal, Gammapatía Monoclonal Incierta (GMSI)",
+   "diapositiva": 3,
+   "t": 173.4,
+   "mmss": "2:53",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-19&t=173&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-19&t=173",
+   "notas": 3
+  },
+  "Neoplasias_mieloproliferativas": {
+   "termino": "Neoplasias mieloproliferativas",
+   "tipo": "Concepto",
+   "alias": [
+    "neoplasias mieloproliferativas",
+    "mieloproliferativo"
+   ],
+   "def": "Proliferación clonal crónica de la médula: policitemia vera, trombocitemia esencial y mielofibrosis primaria; se derivan a hematología.",
+   "pagina": 97,
+   "clase": "hem-20",
+   "claseTitulo": "8.20 Neoplasias Mieloproliferativas (Policitemia Vera JAK2, TE, Mielofibrosis) y Mielodisplasia",
+   "diapositiva": 0,
+   "t": 5.2,
+   "mmss": "0:05",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-20&t=5&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-20&t=5",
+   "notas": 1
+  },
+  "Policitemia_vera": {
+   "termino": "Policitemia vera",
+   "tipo": "Concepto",
+   "alias": [
+    "policitemia vera"
+   ],
+   "def": "Proliferación clonal de las tres series con eritrocitosis, JAK2 V617F en > 95% y EPO suprimida. Prurito acuagénico y eritromelalgia.",
+   "pagina": 97,
+   "clase": "hem-20",
+   "claseTitulo": "8.20 Neoplasias Mieloproliferativas (Policitemia Vera JAK2, TE, Mielofibrosis) y Mielodisplasia",
+   "diapositiva": 12,
+   "t": 707.6,
+   "mmss": "11:48",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-20&t=707&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-20&t=707",
+   "notas": 3
+  },
+  "Mutacion_JAK2": {
+   "termino": "Mutación JAK2",
+   "tipo": "Concepto",
+   "alias": [
+    "JAK2"
+   ],
+   "def": "Mutación V617F que anula el dominio autoinhibitorio y activa continuamente el receptor de EPO; presente en > 95% de la policitemia vera.",
+   "pagina": 97,
+   "clase": "hem-20",
+   "claseTitulo": "8.20 Neoplasias Mieloproliferativas (Policitemia Vera JAK2, TE, Mielofibrosis) y Mielodisplasia",
+   "diapositiva": 3,
+   "t": 191.8,
+   "mmss": "3:12",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-20&t=191&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-20&t=191",
+   "notas": 7
+  },
+  "Trombocitemia_esencial": {
+   "termino": "Trombocitemia esencial",
+   "tipo": "Concepto",
+   "alias": [
+    "trombocitemia esencial"
+   ],
+   "def": "Trombocitosis clonal persistente con mutaciones en JAK2, calreticulina (CALR) o MPL; causa trombosis o sangrados paradójicos.",
+   "pagina": 97,
+   "clase": "hem-20",
+   "claseTitulo": "8.20 Neoplasias Mieloproliferativas (Policitemia Vera JAK2, TE, Mielofibrosis) y Mielodisplasia",
+   "diapositiva": 5,
+   "t": 296.4,
+   "mmss": "4:56",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-20&t=296&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-20&t=296",
+   "notas": 1
+  },
+  "Mielofibrosis": {
+   "termino": "Mielofibrosis",
+   "tipo": "Concepto",
+   "alias": [
+    "mielofibrosis"
+   ],
+   "def": "Neoplasia mieloproliferativa más agresiva: megacariocitos atípicos liberan PDGF y TGF-beta, y la médula se fibrosa. Causa síndrome leucoeritroblástico.",
+   "pagina": 97,
+   "clase": "hem-20",
+   "claseTitulo": "8.20 Neoplasias Mieloproliferativas (Policitemia Vera JAK2, TE, Mielofibrosis) y Mielodisplasia",
+   "diapositiva": 14,
+   "t": 858.2,
+   "mmss": "14:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-20&t=858&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-20&t=858",
+   "notas": 7
+  },
+  "Sindrome_mielodisplasico": {
+   "termino": "Síndrome mielodisplásico",
+   "tipo": "Concepto",
+   "alias": [
+    "mielodisplasia",
+    "síndrome mielodisplásico",
+    "SMD"
+   ],
+   "def": "Neoplasia clonal del adulto mayor con médula hipercelular pero displásica y hematopoyesis ineficaz; anemia macrocítica refractaria y citopenias.",
+   "pagina": 97,
+   "clase": "hem-20",
+   "claseTitulo": "8.20 Neoplasias Mieloproliferativas (Policitemia Vera JAK2, TE, Mielofibrosis) y Mielodisplasia",
+   "diapositiva": 0,
+   "t": 5.2,
+   "mmss": "0:05",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-20&t=5&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-20&t=5",
+   "notas": 6
+  },
+  "Flebotomia": {
+   "termino": "Flebotomía",
+   "tipo": "Farmaco",
+   "alias": [
+    "flebotomía",
+    "sangría"
+   ],
+   "def": "Sangría terapéutica de la policitemia vera, con meta de Hto < 45% más aspirina.",
+   "pagina": 63,
+   "clase": "hem-13",
+   "claseTitulo": "8.13 Coagulopatías Congénitas: Hemofilia A (Factor VIII), Hemofilia B (Factor IX) y Enfermedad de von Willebrand",
+   "diapositiva": 16,
+   "t": 800.4,
+   "mmss": "13:20",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-13&t=800&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-13&t=800",
+   "notas": 6
+  },
+  "Neutropenia_febril": {
+   "termino": "Neutropenia febril",
+   "tipo": "Concepto",
+   "alias": [
+    "neutropenia febril"
+   ],
+   "def": "Fiebre en paciente con quimioterapia o inmunosupresión y neutropenia; no forma pus ni infiltrados evidentes. Urgencia: antibiótico endovenoso antipseudomónico precoz.",
+   "pagina": 105,
+   "clase": "hem-21",
+   "claseTitulo": "8.21 Neutropenia Febril en Oncología: Estratificación MASCC, Monoterapia Antipseudomónica y Urgencia Médica",
+   "diapositiva": 1,
+   "t": 31.8,
+   "mmss": "0:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-21&t=31&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-21&t=31",
+   "notas": 7
+  },
+  "Score_MASCC": {
+   "termino": "Score MASCC",
+   "tipo": "Examen",
+   "alias": [
+    "MASCC"
+   ],
+   "def": "Índice que identifica pacientes de bajo riesgo: ≥ 21 puntos permite manejo ambulatorio selectivo; con < 21 se hospitaliza como alto riesgo.",
+   "pagina": 105,
+   "clase": "hem-21",
+   "claseTitulo": "8.21 Neutropenia Febril en Oncología: Estratificación MASCC, Monoterapia Antipseudomónica y Urgencia Médica",
+   "diapositiva": 4,
+   "t": 206.3,
+   "mmss": "3:26",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-21&t=206&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-21&t=206",
+   "notas": 5
+  },
+  "Cefepime": {
+   "termino": "Cefepime",
+   "tipo": "Farmaco",
+   "alias": [
+    "cefepime"
+   ],
+   "def": "Cefalosporina antipseudomónica, monoterapia endovenosa de elección en la neutropenia febril de alto riesgo, junto con piperacilina/tazobactam.",
+   "pagina": 105,
+   "clase": "hem-21",
+   "claseTitulo": "8.21 Neutropenia Febril en Oncología: Estratificación MASCC, Monoterapia Antipseudomónica y Urgencia Médica",
+   "diapositiva": 12,
+   "t": 640.9,
+   "mmss": "10:41",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-21&t=640&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-21&t=640",
+   "notas": 2
+  },
+  "Meropenem": {
+   "termino": "Meropenem",
+   "tipo": "Farmaco",
+   "alias": [
+    "meropenem",
+    "carbapenémicos"
+   ],
+   "def": "Carbapenem alternativo de primera opción en la neutropenia febril como monoterapia antipseudomónica endovenosa.",
+   "pagina": 105,
+   "clase": "hem-21",
+   "claseTitulo": "8.21 Neutropenia Febril en Oncología: Estratificación MASCC, Monoterapia Antipseudomónica y Urgencia Médica",
+   "diapositiva": 6,
+   "t": 339.7,
+   "mmss": "5:40",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-21&t=339&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-21&t=339",
+   "notas": 2
+  },
+  "Vancomicina": {
+   "termino": "Vancomicina",
+   "tipo": "Farmaco",
+   "alias": [
+    "vancomicina"
+   ],
+   "def": "No va en el esquema empírico de rutina de la neutropenia febril; se reserva para shock séptico, infección de catéter o mucositis grave.",
+   "pagina": 105,
+   "clase": "hem-21",
+   "claseTitulo": "8.21 Neutropenia Febril en Oncología: Estratificación MASCC, Monoterapia Antipseudomónica y Urgencia Médica",
+   "diapositiva": 12,
+   "t": 640.9,
+   "mmss": "10:41",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-21&t=640&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-21&t=640",
+   "notas": 4
+  },
+  "Factor_estimulante_de_colonias": {
+   "termino": "Factor estimulante de colonias",
+   "tipo": "Farmaco",
+   "alias": [
+    "G-CSF",
+    "filgrastim",
+    "factor estimulante de colonias granulocíticas"
+   ],
+   "def": "Citocina que estimula la producción de granulocitos. En la leucocitosis reactiva (reacción leucemoide) no hay clon neoplásico y el BCR-ABL1 es negativo.",
+   "pagina": 83,
+   "clase": "hem-17",
+   "claseTitulo": "8.17 Leucemias Crónicas: Leucemia Mieloide Crónica (LMC, BCR-ABL) vs Leucemia Linfática Crónica (LLC)",
+   "diapositiva": 7,
+   "t": 486.2,
+   "mmss": "8:06",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-17&t=486&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-17&t=486",
+   "notas": 1
+  },
+  "Sindrome_de_lisis_tumoral": {
+   "termino": "Síndrome de lisis tumoral",
+   "tipo": "Concepto",
+   "alias": [
+    "lisis tumoral",
+    "síndrome de lisis tumoral"
+   ],
+   "def": "Urgencia oncológica por destrucción masiva de células tumorales, tras quimioterapia o espontánea, con alteraciones metabólicas y riesgo de falla renal.",
+   "pagina": 109,
+   "clase": "hem-22",
+   "claseTitulo": "8.22 Síndrome de Lisis Tumoral (Cairo-Bishop), Hipercalcemia de Neoplasia y Compresión Medular",
+   "diapositiva": 12,
+   "t": 715.1,
+   "mmss": "11:55",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-22&t=715&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-22&t=715",
+   "notas": 5
+  },
+  "Criterios_de_Cairo_Bishop": {
+   "termino": "Criterios de Cairo-Bishop",
+   "tipo": "Concepto",
+   "alias": [
+    "Cairo-Bishop"
+   ],
+   "def": "Hiperuricemia, hiperkalemia, hiperfosfemia e hipocalcemia; se requieren al menos 2 de las 4 para el síndrome de lisis tumoral.",
+   "pagina": 109,
+   "clase": "hem-22",
+   "claseTitulo": "8.22 Síndrome de Lisis Tumoral (Cairo-Bishop), Hipercalcemia de Neoplasia y Compresión Medular",
+   "diapositiva": 2,
+   "t": 104.5,
+   "mmss": "1:44",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-22&t=104&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-22&t=104",
+   "notas": 5
+  },
+  "Rasburicasa": {
+   "termino": "Rasburicasa",
+   "tipo": "Farmaco",
+   "alias": [
+    "rasburicasa"
+   ],
+   "def": "Urato oxidasa recombinante: degrada el ácido úrico; profilaxis de elección en alto riesgo (Burkitt, leucemias) junto con hidratación agresiva.",
+   "pagina": 109,
+   "clase": "hem-22",
+   "claseTitulo": "8.22 Síndrome de Lisis Tumoral (Cairo-Bishop), Hipercalcemia de Neoplasia y Compresión Medular",
+   "diapositiva": 3,
+   "t": 152.7,
+   "mmss": "2:33",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-22&t=152&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-22&t=152",
+   "notas": 2
+  },
+  "Alopurinol": {
+   "termino": "Alopurinol",
+   "tipo": "Farmaco",
+   "alias": [
+    "alopurinol"
+   ],
+   "def": "Inhibe la xantina oxidasa y bloquea la síntesis de ácido úrico nuevo, pero no degrada el ya formado; útil en riesgo bajo a intermedio.",
+   "pagina": 109,
+   "clase": "hem-22",
+   "claseTitulo": "8.22 Síndrome de Lisis Tumoral (Cairo-Bishop), Hipercalcemia de Neoplasia y Compresión Medular",
+   "diapositiva": 10,
+   "t": 576.7,
+   "mmss": "9:37",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-22&t=576&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-22&t=576",
+   "notas": 3
+  },
+  "Hipercalcemia_maligna": {
+   "termino": "Hipercalcemia maligna",
+   "tipo": "Concepto",
+   "alias": [
+    "hipercalcemia de neoplasia",
+    "hipercalcemia maligna"
+   ],
+   "def": "Urgencia metabólica frecuente en cáncer avanzado y mieloma, por PTHrP o metástasis líticas. Se trata con hidratación salina y ácido zoledrónico.",
+   "pagina": 109,
+   "clase": "hem-22",
+   "claseTitulo": "8.22 Síndrome de Lisis Tumoral (Cairo-Bishop), Hipercalcemia de Neoplasia y Compresión Medular",
+   "diapositiva": 12,
+   "t": 715.1,
+   "mmss": "11:55",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-22&t=715&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-22&t=715",
+   "notas": 1
+  },
+  "Compresion_medular": {
+   "termino": "Compresión medular",
+   "tipo": "Concepto",
+   "alias": [
+    "compresión medular"
+   ],
+   "def": "Emergencia neurológica por colapso vertebral o crecimiento epidural: dolor raquídeo nocturno y luego debilidad motora y compromiso esfinteriano.",
+   "pagina": 109,
+   "clase": "hem-22",
+   "claseTitulo": "8.22 Síndrome de Lisis Tumoral (Cairo-Bishop), Hipercalcemia de Neoplasia y Compresión Medular",
+   "diapositiva": 0,
+   "t": 5.2,
+   "mmss": "0:05",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-22&t=5&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-22&t=5",
+   "notas": 5
+  },
+  "Trombofilia": {
+   "termino": "Trombofilia",
+   "tipo": "Concepto",
+   "alias": [
+    "trombofilia",
+    "trombofilias hereditarias"
+   ],
+   "def": "Estado protrombótico hereditario (factor V Leiden, mutación de protrombina) o adquirido (síndrome antifosfolípido). No se estudia en fase aguda ni con anticoagulantes.",
+   "pagina": 114,
+   "clase": "hem-23",
+   "claseTitulo": "8.23 Trombofilias Hereditarias (Factor V Leiden, Protrombina G20210A) y SAF: Cuándo Estudiar y Manejo",
+   "diapositiva": 2,
+   "t": 102.6,
+   "mmss": "1:43",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-23&t=102&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-23&t=102",
+   "notas": 9
+  },
+  "Factor_V_Leiden": {
+   "termino": "Factor V Leiden",
+   "tipo": "Concepto",
+   "alias": [
+    "factor V Leiden"
+   ],
+   "def": "Trombofilia hereditaria más frecuente por ganancia de función: elimina el sitio de clivaje del factor V por la proteína C activada.",
+   "pagina": 114,
+   "clase": "hem-23",
+   "claseTitulo": "8.23 Trombofilias Hereditarias (Factor V Leiden, Protrombina G20210A) y SAF: Cuándo Estudiar y Manejo",
+   "diapositiva": 1,
+   "t": 30.2,
+   "mmss": "0:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-23&t=30&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-23&t=30",
+   "notas": 6
+  },
+  "Mutacion_de_protrombina": {
+   "termino": "Mutación de protrombina",
+   "tipo": "Concepto",
+   "alias": [
+    "protrombina G20210A",
+    "mutación de protrombina"
+   ],
+   "def": "Mutación G20210A de la protrombina: trombofilia hereditaria por ganancia de función junto con el factor V Leiden.",
+   "pagina": 114,
+   "clase": "hem-23",
+   "claseTitulo": "8.23 Trombofilias Hereditarias (Factor V Leiden, Protrombina G20210A) y SAF: Cuándo Estudiar y Manejo",
+   "diapositiva": 1,
+   "t": 30.2,
+   "mmss": "0:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-23&t=30&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-23&t=30",
+   "notas": 1
+  },
+  "Sindrome_antifosfolipido": {
+   "termino": "Síndrome antifosfolípido",
+   "tipo": "Concepto",
+   "alias": [
+    "SAF",
+    "síndrome antifosfolípido"
+   ],
+   "def": "Trombofilia adquirida autoinmune más frecuente y peligrosa; criterios de Sydney: un criterio clínico más uno de laboratorio. Tratamiento con antagonistas de vitamina K.",
+   "pagina": 114,
+   "clase": "hem-23",
+   "claseTitulo": "8.23 Trombofilias Hereditarias (Factor V Leiden, Protrombina G20210A) y SAF: Cuándo Estudiar y Manejo",
+   "diapositiva": 12,
+   "t": 633.4,
+   "mmss": "10:33",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-23&t=633&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-23&t=633",
+   "notas": 14
+  },
+  "Anticoagulante_lupico": {
+   "termino": "Anticoagulante lúpico",
+   "tipo": "Examen",
+   "alias": [
+    "anticoagulante lúpico",
+    "anticardiolipina",
+    "anti-beta2 glicoproteína"
+   ],
+   "def": "Anticuerpo antifosfolípido que prolonga el TTPK in vitro sin corregir con plasma normal; se confirma repitiendo a las 12 semanas.",
+   "pagina": 115,
+   "clase": "hem-23",
+   "claseTitulo": "8.23 Trombofilias Hereditarias (Factor V Leiden, Protrombina G20210A) y SAF: Cuándo Estudiar y Manejo",
+   "diapositiva": 5,
+   "t": 287.0,
+   "mmss": "4:47",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-23&t=287&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-23&t=287",
+   "notas": 7
+  },
+  "Trombosis_venosa_profunda": {
+   "termino": "Trombosis venosa profunda",
+   "tipo": "Concepto",
+   "alias": [
+    "trombosis venosa profunda",
+    "TVP"
+   ],
+   "def": "Trombosis venosa documentada, criterio clínico del síndrome antifosfolípido junto con la trombosis arterial y la morbilidad obstétrica.",
+   "pagina": 114,
+   "clase": "hem-23",
+   "claseTitulo": "8.23 Trombofilias Hereditarias (Factor V Leiden, Protrombina G20210A) y SAF: Cuándo Estudiar y Manejo",
+   "diapositiva": 13,
+   "t": 697.7,
+   "mmss": "11:38",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-23&t=697&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-23&t=697",
+   "notas": 2
+  },
+  "Medicina_transfusional": {
+   "termino": "Medicina transfusional",
+   "tipo": "Concepto",
+   "alias": [
+    "transfusión",
+    "medicina transfusional",
+    "hemocomponentes"
+   ],
+   "def": "Uso de hemocomponentes según umbrales clínicos y no valores arbitrarios. Reacciones: febril no hemolítica, TRALI y TACO.",
+   "pagina": 117,
+   "clase": "hem-24",
+   "claseTitulo": "8.24 Medicina Transfusional y Manejo de Hemocomponentes: Glóbulos Rojos, Plaquetas, Plasma y Reacciones Adversas",
+   "diapositiva": 14,
+   "t": 681.9,
+   "mmss": "11:22",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-24&t=681&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-24&t=681",
+   "notas": 11
+  },
+  "Globulos_rojos": {
+   "termino": "Glóbulos rojos",
+   "tipo": "Farmaco",
+   "alias": [
+    "glóbulos rojos",
+    "concentrado de glóbulos rojos",
+    "CGR"
+   ],
+   "def": "Una unidad de concentrado aumenta la Hb en 1.0 g/dL y el hematocrito cerca de 3% en el adulto sin sangrado; la transfusión sigue umbrales de Hb.",
+   "pagina": 117,
+   "clase": "hem-24",
+   "claseTitulo": "8.24 Medicina Transfusional y Manejo de Hemocomponentes: Glóbulos Rojos, Plaquetas, Plasma y Reacciones Adversas",
+   "diapositiva": 2,
+   "t": 76.2,
+   "mmss": "1:16",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-24&t=76&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-24&t=76",
+   "notas": 14
+  },
+  "Crioprecipitado": {
+   "termino": "Crioprecipitado",
+   "tipo": "Farmaco",
+   "alias": [
+    "crioprecipitado"
+   ],
+   "def": "Hemoderivado de elección para reponer fibrinógeno cuando está bajo 100 a 150 mg/dL.",
+   "pagina": 71,
+   "clase": "hem-15",
+   "claseTitulo": "8.15 Coagulación Intravascular Diseminada (CID): Criterios ISTH, Sepsis/Obstetricia y Manejo",
+   "diapositiva": 10,
+   "t": 497.8,
+   "mmss": "8:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-15&t=497&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-15&t=497",
+   "notas": 5
+  },
+  "Reaccion_febril_no_hemolitica": {
+   "termino": "Reacción febril no hemolítica",
+   "tipo": "Concepto",
+   "alias": [
+    "reacción febril no hemolítica"
+   ],
+   "def": "Reacción transfusional más frecuente: fiebre por anticuerpos contra leucocitos o citocinas del donante, sin hemólisis. Responde a antipiréticos.",
+   "pagina": 117,
+   "clase": "hem-24",
+   "claseTitulo": "8.24 Medicina Transfusional y Manejo de Hemocomponentes: Glóbulos Rojos, Plaquetas, Plasma y Reacciones Adversas",
+   "diapositiva": 8,
+   "t": 374.9,
+   "mmss": "6:15",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-24&t=374&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-24&t=374",
+   "notas": 1
+  },
+  "TRALI": {
+   "termino": "TRALI",
+   "tipo": "Concepto",
+   "alias": [
+    "TRALI",
+    "lesión pulmonar aguda asociada a transfusión"
+   ],
+   "def": "Edema pulmonar no cardiogénico por anticuerpos anti-HLA del donante, en las primeras 6 horas, con hipotensión; no responde a diuréticos.",
+   "pagina": 117,
+   "clase": "hem-24",
+   "claseTitulo": "8.24 Medicina Transfusional y Manejo de Hemocomponentes: Glóbulos Rojos, Plaquetas, Plasma y Reacciones Adversas",
+   "diapositiva": 10,
+   "t": 497.5,
+   "mmss": "8:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-24&t=497&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-24&t=497",
+   "notas": 4
+  },
+  "Sobrecarga_circulatoria_asociada_a_transfusion": {
+   "termino": "Sobrecarga circulatoria asociada a transfusión",
+   "tipo": "Concepto",
+   "alias": [
+    "TACO",
+    "sobrecarga circulatoria"
+   ],
+   "def": "TACO: hipervolemia con hipertensión e ingurgitación yugular tras la transfusión; responde a furosemida endovenosa.",
+   "pagina": 117,
+   "clase": "hem-24",
+   "claseTitulo": "8.24 Medicina Transfusional y Manejo de Hemocomponentes: Glóbulos Rojos, Plaquetas, Plasma y Reacciones Adversas",
+   "diapositiva": 10,
+   "t": 497.5,
+   "mmss": "8:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-24&t=497&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-24&t=497",
+   "notas": 2
+  },
+  "Neutropenia": {
+   "termino": "Neutropenia",
+   "tipo": "Concepto",
+   "alias": [
+    "neutropenia"
+   ],
+   "def": "Descenso de neutrófilos; con RAN < 100/uL es neutropenia profunda, con riesgo exponencial de shock séptico y bacteriemia por gramnegativos.",
+   "pagina": 105,
+   "clase": "hem-21",
+   "claseTitulo": "8.21 Neutropenia Febril en Oncología: Estratificación MASCC, Monoterapia Antipseudomónica y Urgencia Médica",
+   "diapositiva": 2,
+   "t": 99.8,
+   "mmss": "1:40",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-21&t=99&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-21&t=99",
+   "notas": 4
+  },
+  "Esplenomegalia": {
+   "termino": "Esplenomegalia",
+   "tipo": "Concepto",
+   "alias": [
+    "esplenomegalia"
+   ],
+   "def": "Esplenomegalia palpable masiva es típica de la LMC; en pancitopenia sugiere hiperesplenismo, cirrosis, leucemia o mielofibrosis, y falta en la aplasia.",
+   "pagina": 83,
+   "clase": "hem-17",
+   "claseTitulo": "8.17 Leucemias Crónicas: Leucemia Mieloide Crónica (LMC, BCR-ABL) vs Leucemia Linfática Crónica (LLC)",
+   "diapositiva": 7,
+   "t": 486.2,
+   "mmss": "8:06",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Hematolog%C3%ADa&clase=hem-17&t=486&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_hematologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=hem-17&t=486",
+   "notas": 14
+  }
+ }
+}

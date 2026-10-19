@@ -1,0 +1,646 @@
+{
+  "classId": "gin-03",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Se define SUA como alteración de {{c1::frecuencia, regularidad, duración o volumen}} del sangrado menstrual en mujer no gestante.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definiciones",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.018",
+        "2.01.1.129"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PALM-COEIN: PALM son causas {{c1::estructurales}}; COEIN son causas {{c2::no estructurales}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.018",
+        "2.01.1.129"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PALM = {{c1::Pólipo, Adenomiosis, Leiomioma, Malignidad e hiperplasia}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla PALM-COEIN",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.018"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "COEIN = {{c1::Coagulopatía, Ovulatoria, Endometrial, Iatrogénica, No clasificada}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla PALM-COEIN",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.018"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causa estructural más frecuente de sangrado intermenstrual: {{c1::pólipo endometrial}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · PALM",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.018",
+        "3.01.1.023"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pólipo endometrial sintomático: tratamiento con {{c1::polipectomía histeroscópica}}.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Ene 2023",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.023"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 49",
+        "EUNACOM Diciembre 2024 · Pregunta 124"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adenomiosis: útero {{c1::globuloso y doloroso}} con hipermenorrea y dismenorrea severa.",
+      "extra": "Diagnóstico con RMN pélvica o eco TV Doppler.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Adenomiosis",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.018"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los miomas que más sangran son los {{c1::submucosos}}, porque distorsionan la cavidad endometrial.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · PALM",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.018"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Mujer postmenopáusica con miomas y endometrio grueso: los miomas no explican el sangrado; se {{c1::biopsia el endometrio}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · PALM · Quiz Jul 2015",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.018"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 156"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causa de SUA que siempre se debe descartar en la mujer de mayor edad: {{c1::malignidad e hiperplasia}}.",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.018"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adolescente con hipermenorrea severa desde la menarquia, epistaxis y equimosis: {{c1::enfermedad de von Willebrand}}.",
+      "extra": "Hasta 20% de las adolescentes hospitalizadas por hipermenorrea.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Coagulopatía",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.018",
+        "2.01.1.129"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 85"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Adolescente con hipermenorrea y ecografía sin lesiones: el siguiente paso es {{c1::estudio de hemostasia}}.",
+      "extra": "No tiene indicación de biopsia con endometrio delgado.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Jul 2016",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.018",
+        "2.01.1.129"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 85"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Usuaria de DIU de cobre con flujo muy abundante y anemia: la conducta es {{c1::retirar el DIU}}.",
+      "extra": "El DIU de cobre aumenta el sangrado y la dismenorrea.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla PALM-COEIN",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.018"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 82"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Estudio inicial de todo SUA en mujer en edad fértil: {{c1::β-hCG y ecografía transvaginal}}.",
+      "extra": "Descarta embarazo (p. ej. metrorragia con ACO y dolor).",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla PALM-COEIN",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.018"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 117",
+        "EUNACOM Enero 2023 · Pregunta 53"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Objetivo del estudio del SUA: descartar {{c1::hiperplasia con atipias y adenocarcinoma de endometrio}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Biopsia",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.018",
+        "3.01.1.023"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Biopsia endometrial obligatoria en toda mujer de {{c1::45 años o más}} con SUA.",
+      "extra": "Aunque la ecografía se vea tranquilizadora.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.018",
+        "2.01.1.129"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 5"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Menor de 45 años con SUA se biopsia si tiene factores de riesgo: obesidad, SOP, {{c1::tamoxifeno}}, diabetes o Lynch.",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.018",
+        "2.01.1.129"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Todo sangrado en la {{c1::postmenopausia}} se estudia; el corte ecográfico para biopsiar es > 4 a 5 mm.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.018",
+        "3.01.1.023"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 46",
+        "EUNACOM Julio 2017 · Pregunta 85"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Postmenopausia sin terapia de reemplazo: endometrio < {{c1::4-5 mm}} es compatible con atrofia y se puede observar.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Grosor endometrial",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.018",
+        "3.01.1.023"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 171",
+        "EUNACOM Diciembre 2019 · Pregunta 106",
+        "EUNACOM Julio 2016 · Pregunta 97"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con terapia de reemplazo hormonal el umbral ecográfico sube a {{c1::8 mm}}.",
+      "extra": "Porque el estrógeno engrosa el endometrio.",
+      "origen": "clase:8",
+      "fuente": "Clase · Grosor endometrial",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.018",
+        "3.01.1.023"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En usuaria de TRH combinada con sangrado escaso y examen normal, lo más probable es {{c1::atrofia endometrial}}.",
+      "extra": "El progestágeno de la TRH atrofia el endometrio.",
+      "origen": "clase:8",
+      "fuente": "Clase · Grosor endometrial",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.023"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 36",
+        "EUNACOM Julio 2017 · Pregunta 42"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Método de elección para la biopsia endometrial ambulatoria: {{c1::cánula de Pipelle}}.",
+      "extra": "Si es insuficiente o el canal está estenótico: histeroscopía con biopsia dirigida.",
+      "origen": "clase:3",
+      "fuente": "Clase · Biopsia obligatoria",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.018",
+        "3.01.1.023"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hiperplasia endometrial: proliferación glandular por {{c1::estrógeno sin oposición}} de progesterona.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hiperplasia",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.023"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 120"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hiperplasia sin atipia: riesgo de cáncer < {{c1::5%}} a 20 años; se trata con progestágenos y nueva biopsia a los 3-6 meses.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hiperplasia",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.023"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hiperplasia con atipia: hasta {{c1::25-40%}} tiene un adenocarcinoma concomitante.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hiperplasia",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.023"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hiperplasia endometrial con atipia y paridad cumplida: {{c1::histerectomía total}}.",
+      "extra": "Si desea fertilidad: progestágenos a dosis altas con biopsias seriadas.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Hiperplasia",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.023"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 107",
+        "EUNACOM Julio 2016 · Pregunta 150"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hiperplasia sin atipia: primera elección el {{c1::DIU de levonorgestrel 52 mg}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Hiperplasia",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.023"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Estándar de oro médico del SUA no estructural: {{c1::DIU-LNG (Mirena)}}, reduce el sangrado > 90% a los 6 meses.",
+      "extra": "Después de descartar malignidad.",
+      "origen": "clase:7",
+      "fuente": "Clase · Manejo crónico",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.018",
+        "2.01.1.129"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antifibrinolítico no hormonal de elección si busca embarazo: {{c1::ácido tranexámico}} oral.",
+      "extra": "Reduce la pérdida 40-50%.",
+      "origen": "clase:7",
+      "fuente": "Clase · Manejo crónico",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.018"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Ácido tranexámico oral: {{c1::1g cada 8h}} durante los días de menstruación.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo crónico",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.018"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "AINEs (ácido mefenámico, ibuprofeno) reducen el sangrado en {{c1::30%}} y alivian la dismenorrea.",
+      "extra": "Inhiben prostaglandinas.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo crónico",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.018"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Hemorragia uterina aguda severa: estabilizar con volumen, luego {{c1::estrógenos EV o ACO escalonado}} más ácido tranexámico.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Hemorragia aguda",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Estrógenos conjugados equinos EV: {{c1::25 mg c/4-6h}} en hemorragia uterina aguda.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Urgencia",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Si la hemorragia no cede o hay inestabilidad: {{c1::legrado uterino hemostático}} o sonda Foley intrauterina.",
+      "extra": "Metrorragia anemizante grave: legrado.",
+      "origen": "clase:5",
+      "fuente": "Clase · Hemorragia aguda",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 99"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer de 55 años postmenopáusica con miomas, metrorragia severa e inestable: estabilizar y {{c1::histerectomía de urgencia}}.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz Jul 2025",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 122"
+      ]
+    },
+    {
+      "id": "c36",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cervicorragia por cáncer cervicouterino avanzado: primera medida {{c1::taponamiento vaginal}} y ácido tranexámico.",
+      "extra": "No se legra: el origen no es endometrial.",
+      "origen": "clase:6",
+      "fuente": "Clase · Cervicorragia",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 53"
+      ]
+    },
+    {
+      "id": "c37",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "Ante sospecha de cáncer cervicouterino con cervicorragia, la derivación urgente a oncología ginecológica {{c1::activa el GES}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Cervicorragia",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c38",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Metrorragia de la segunda mitad del embarazo: se estudia con {{c1::ecografía obstétrica}} (placenta previa vs DPPNI).",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Pregunta real (obstetricia)",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 63",
+        "EUNACOM Diciembre 2017 · Pregunta 157"
+      ]
+    },
+    {
+      "id": "c39",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hemorragia del puerperio inmediato con útero sobre el ombligo: la medida inicial es el {{c1::masaje uterino}} y luego uterotónicos.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Pregunta real (puerperio)",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2018 · Pregunta 144",
+        "EUNACOM Julio 2015 · Pregunta 163"
+      ]
+    },
+    {
+      "id": "c40",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Adolescente de 13 años con ciclos de 25 a 50 días y sin anemia: {{c1::tranquilizar y calendario menstrual}}.",
+      "extra": "Ciclos de 21 a 45 días son normales los primeros años.",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz Alteraciones menstruales",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.129"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-03/02_polipo-endometrial-eco__us-obgyn_p245.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Pólipo endometrial",
+      "clave": "Imagen focal ecogénica intracavitaria",
+      "conducta": "Histeroscopía con polipectomía",
+      "fuente": "Ultrasound in Obstetrics and Gynecology: A Practical Approach, p. 245",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.018",
+        "3.01.1.023"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-03/03_cancer-cervicouterino-especuloscopia__knoop_p276.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Cáncer cervicouterino sangrante",
+      "clave": "Cuello ulcerado/friable en especuloscopía",
+      "conducta": "Estabilizar, taponaje, ácido tranexámico y derivar con GES",
+      "fuente": "The Atlas of Emergency Medicine (Knoop), p. 276",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Mujer de 45 años o más con SUA: ¿qué examen es obligatorio?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Menor de 45 años con SUA: ¿cuándo también se biopsia?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "Menor de 45, sin factores de riesgo y eco normal: ¿qué haces?"
+    }
+  ]
+}

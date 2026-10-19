@@ -1,0 +1,525 @@
+{
+  "classId": "diab-25",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "IMC: sobrepeso {{c1::25–29,9}}; obesidad ≥ {{c2::30}}; obesidad mórbida ≥ 40.",
+      "extra": "Grado I 30–34,9 y grado II 35–39,9.",
+      "origen": "clase:2",
+      "fuente": "Clase · IMC y cintura",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.013",
+        "1.01.3.004"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Obesidad abdominal: cintura ≥ {{c1::102 cm}} en hombres y ≥ {{c2::88 cm}} en mujeres.",
+      "extra": "Predice mejor el riesgo cardiometabólico que el IMC.",
+      "origen": "clase:2",
+      "fuente": "Clase · IMC y cintura",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.012",
+        "1.02.1.013"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El IMC no separa grasa de músculo: se equivoca en {{c1::deportistas y en edema}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · IMC y cintura",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.012"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Desnutrición: pérdida involuntaria de peso > {{c1::5% en 1 mes}} o > 10% en 6 meses.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Desnutrición",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.012"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::prealbúmina}} (vida media de 2 a 3 días) es el marcador más sensible a cambios agudos; la albúmina dura 20 días.",
+      "extra": "La albúmina baja también con inflamación.",
+      "origen": "clase:3",
+      "fuente": "Clase · Desnutrición",
+      "repaso": true,
+      "codigos": [
+        "1.02.4.012"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Balance nitrogenado = proteínas ingeridas / 6,25 − ({{c1::NUU + 4 g}}).",
+      "extra": "NUU: nitrógeno ureico urinario de 24 horas.",
+      "origen": "clase:3",
+      "fuente": "Clase · Balance nitrogenado",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.020"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Un NUU > {{c1::10 g/día}} indica estrés metabólico severo; < 5 leve y 5–10 moderado.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Balance nitrogenado",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.016",
+        "1.02.3.014"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un balance nitrogenado negativo persistente exige {{c1::aumentar el aporte proteico-calórico}} (1,5–2 g/kg/día de proteínas en el crítico).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Balance nitrogenado",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.020"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Obeso con glicemia normal y resistencia a la insulina: solo {{c1::dieta y ejercicio}}, sin metformina ni insulina.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Estudio de obesidad",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 20"
+      ],
+      "codigos": [
+        "1.02.1.012",
+        "1.02.1.013"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La meta inicial en obesidad es bajar {{c1::5–10%}} del peso en 6 meses.",
+      "extra": "Ya mejora presión, glicemia y lípidos.",
+      "origen": "clase:4",
+      "fuente": "Clase · Estudio de obesidad",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.012",
+        "1.02.1.013"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Farmacoterapia de la obesidad: IMC ≥ 30 (o ≥ {{c1::27}} con comorbilidad) y fracaso del estilo de vida.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Fármacos y cirugía",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.012",
+        "1.02.1.013"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Agonistas GLP-1 para obesidad: liraglutida {{c1::3 mg}} o semaglutida {{c2::2,4 mg}}.",
+      "extra": "Contraindicados en antecedente de carcinoma medular de tiroides o MEN 2.",
+      "origen": "clase:5",
+      "fuente": "Clase · Fármacos y cirugía",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.012",
+        "1.02.1.013"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Obesidad mórbida: IMC ≥ {{c1::40}}, o ≥ {{c2::35}} con comorbilidad mayor (DM2, HTA, apnea del sueño).",
+      "extra": "El médico general deriva a equipo para cirugía bariátrica.",
+      "origen": "clase:5",
+      "fuente": "Clase · Fármacos y cirugía",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.013",
+        "1.02.1.012"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Técnicas bariátricas más usadas: {{c1::manga gástrica}} (restrictiva) y bypass en Y de Roux (restrictivo y malabsortivo).",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Libro §2 Obesidad mórbida",
+      "repaso": false,
+      "imagen": "biblioteca/04_diabetes/diab-25/02_manga-gastrica__harrison_p3134.jpg",
+      "codigos": [
+        "1.02.1.013",
+        "1.02.1.012"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/04_diabetes/diab-25/02_manga-gastrica__harrison_p3134.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Manga gástrica",
+      "clave": "Resección gástrica que deja un estómago tubular",
+      "conducta": "Obesidad mórbida: derivar a equipo; suplementar B12, hierro y calcio con vitamina D de por vida",
+      "fuente": "Harrison 21.ª ed., Fig. 402-3 (esquema)",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.013",
+        "1.02.1.012"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Régimen para obesidad: déficit de {{c1::500–750 kcal/día}}, que baja cerca de 0,5 kg por semana.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Regímenes",
+      "repaso": true,
+      "codigos": [
+        "1.02.3.012",
+        "1.02.1.012"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Sin supervisión no se baja de {{c1::1.200}} kcal en mujeres ni de {{c2::1.500}} kcal en hombres.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Regímenes",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.012"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Bajar > {{c1::1 kg por semana}} de forma sostenida predispone a colelitiasis.",
+      "extra": "Las dietas de 600–800 kcal son breves y supervisadas.",
+      "origen": "clase:7",
+      "fuente": "Clase · Regímenes",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.012"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Síndrome metabólico: se requieren {{c1::3 de 5}} criterios.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Síndrome metabólico",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.016",
+        "1.02.3.014"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterios de síndrome metabólico: triglicéridos ≥ {{c1::150 mg/dL}} y glicemia de ayunas ≥ {{c2::100 mg/dL}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Síndrome metabólico",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.016",
+        "1.02.3.014"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::acantosis nigricans}} (hiperpigmentación aterciopelada del cuello y las axilas) es marcador de resistencia a la insulina.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Síndrome metabólico",
+      "repaso": false,
+      "imagen": "biblioteca/04_diabetes/diab-25/01_acantosis-nigricans-cuello__hy_p774.jpg",
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 42"
+      ],
+      "codigos": [
+        "1.02.1.016",
+        "1.02.3.014"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/04_diabetes/diab-25/01_acantosis-nigricans-cuello__hy_p774.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Acantosis nigricans",
+      "clave": "Piel oscura, engrosada y aterciopelada en el cuello, a veces con acrocordones",
+      "conducta": "Resistencia a la insulina: buscar prediabetes, dislipidemia e HTA; estilo de vida",
+      "fuente": "High-Yield review, p. 774",
+      "repaso": true,
+      "codigos": [
+        "1.02.3.006"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el síndrome metabólico no existe un fármaco para «el síndrome»: se tratan {{c1::cada uno de sus componentes}} más el estilo de vida.",
+      "extra": "Base: bajar 7–10% del peso.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tratar el componente",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.016",
+        "1.02.3.014"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Prediabetes: glicemia de ayunas {{c1::100–125 mg/dL}} o HbA1c 5,7–6,4%.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Prevención de DM2",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.006"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Prediabetes: la intervención más importante es el estilo de vida, con {{c1::150 minutos}} semanales de ejercicio aeróbico.",
+      "extra": "En el DPP redujo 58% la progresión; la metformina, 31%.",
+      "origen": "clase:9",
+      "fuente": "Clase · Prevención de DM2",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 30"
+      ],
+      "codigos": [
+        "1.02.3.006"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adolescente obeso con acantosis y dos glicemias de ayunas de 130 y 137: {{c1::diabetes mellitus tipo 2}}.",
+      "extra": "Dos glicemias de ayunas ≥ 126 mg/dL confirman la diabetes.",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz Julio 2013",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.006"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anorexia nerviosa: IMC < {{c1::18,5}}, miedo a engordar y distorsión de la imagen corporal.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Anorexia y bulimia",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.002"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Bulimia nerviosa: atracones con conducta compensatoria al menos {{c1::1 vez por semana}} durante 3 meses, con peso normal o alto.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Anorexia y bulimia",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.002",
+        "1.02.1.018"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se hospitaliza en anorexia si el IMC es < {{c1::15}}, FC < 40–50, PA < 90/60 o K < 3 mEq/L.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Sospechar, estabilizar y derivar",
+      "repaso": true,
+      "codigos": [
+        "1.02.3.002"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En bulimia se agrega {{c1::fluoxetina 60 mg/día}}; el bupropión está contraindicado por riesgo de convulsiones.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Sospechar, estabilizar y derivar",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.012"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En desnutrición grave, la realimentación brusca causa síndrome de realimentación con {{c1::hipofosfemia}} como hallazgo central.",
+      "extra": "La insulina arrastra P, K y Mg a la célula.",
+      "origen": "clase:12",
+      "fuente": "Clase · Síndrome de realimentación",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.016",
+        "1.02.1.018"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se parte la realimentación con {{c1::10–15 kcal/kg/día}} y se sube cada 1 a 2 días hasta 30–40.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Síndrome de realimentación",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 4"
+      ],
+      "codigos": [
+        "1.02.1.016",
+        "1.02.1.018"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anorexia con 29 kg: se inicia la alimentación con {{c1::300 kcal}} diarias.",
+      "extra": "Iniciar con 1.200 kcal o más expone a hipofosfemia y arritmias.",
+      "origen": "clase:21",
+      "fuente": "Clase · Quiz Julio 2017",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.018",
+        "1.02.3.001"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En la realimentación se da {{c1::tiamina 100 mg}} antes y durante, y se controlan K, P y Mg a diario.",
+      "extra": "Previene la encefalopatía de Wernicke.",
+      "origen": "clase:12",
+      "fuente": "Clase · Síndrome de realimentación",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.016",
+        "1.02.1.018"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La obesidad mórbida y los TCA no tienen GES específico: se tratan en el Programa de Salud Cardiovascular y {{c1::Elige Vida Sana}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Digest · GES",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.014",
+        "1.02.1.016"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "IMC bajo con miedo a engordar: ¿sospecha y conducta?",
+      "codigos": [
+        "1.02.1.018"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1.0",
+      "pista": "Obeso con glicemia normal: ¿manejo?",
+      "codigos": [
+        "1.02.1.012"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.2",
+      "pista": "IMC ≥ 40 o ≥ 35 con comorbilidad: ¿qué se hace?",
+      "codigos": [
+        "1.02.1.012"
+      ]
+    }
+  ]
+}

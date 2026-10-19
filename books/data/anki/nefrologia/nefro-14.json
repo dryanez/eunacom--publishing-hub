@@ -1,0 +1,476 @@
+{
+  "classId": "nefro-14",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa más frecuente de síndrome nefrótico primario en mayores de 50 años es la {{c1::nefropatía membranosa}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Membranosa",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 26",
+        "EUNACOM Julio 2015 · Pregunta 66"
+      ],
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La membranosa explica el {{c1::30–40 %}} de los nefróticos primarios del adulto mayor de 50 años.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Membranosa",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La membranosa es un nefrótico {{c1::puro}}: sin hematuria significativa ni HTA precoz.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Membranosa",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 66"
+      ],
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La membranosa primaria es autoinmune: anticuerpos contra el receptor {{c1::PLA2R}} (fosfolipasa A2 tipo M).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Membranosa",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Anti-PLA2R está positivo en {{c1::70–80 %}} de las membranosas primarias.",
+      "extra": "La tabla del libro lo da como 75 %.",
+      "origen": "clase:2",
+      "fuente": "Clase · Membranosa",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Membranosa en microscopía óptica con plata: engrosamiento difuso de la MBG con {{c1::espículas (spikes)}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Histología",
+      "repaso": true,
+      "imagen": "biblioteca/07_nefrologia/nefro-14/01_biopsia-membranosa__nelson_p4100.jpg",
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Inmunofluorescencia de la membranosa: depósitos granulares de {{c1::IgG y C3}} subepiteliales.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Histología",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Spikes en la biopsia = {{c1::membranosa}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Tres imágenes",
+      "repaso": false,
+      "imagen": "_verificadas/113_nefro_Membranosa_cambios_mínimos_GEF__nelsontext_p4100_1.jpg",
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Membranosa: causa secundaria que se descarta siempre: {{c1::neoplasia sólida oculta}} (colon, pulmón, mama).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Secundarias",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Otras causas secundarias de membranosa: hepatitis {{c1::B}}, AINEs y lupus clase V.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Secundarias",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Membranosa con anti-PLA2R negativo en adulto mayor de 50 años: sube la sospecha de causa {{c1::secundaria}}.",
+      "extra": "Tamizaje: cáncer sólido oculto y serología VHB.",
+      "origen": "clase:3",
+      "fuente": "Clase · Membranosa secundaria",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En membranosa en adulto mayor, además del anti-PLA2R la conducta prioritaria es buscar {{c1::neoplasia oculta}} (colonoscopía e imagen de tórax).",
+      "extra": "Prednisona sola sirve en cambios mínimos.",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz caso",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de la membranosa: {{c1::rituximab o ciclosporina}}.",
+      "extra": "Inmunosupresión compleja (rituximab / inhibidor de calcineurina).",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla comparación",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La membranosa es la glomerulopatía que más {{c1::trombosa}}: trombosis de vena renal.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Membranosa",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Nefrótico en diabético con HbA1c 6,8 %: no es nefropatía diabética porque la diabetes no es de {{c1::larga data}}; es membranosa.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Dic. 2018",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 26"
+      ],
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Nefrótico en diabética tipo 1 joven con mal control: igual se hace {{c1::biopsia renal}}.",
+      "extra": "Se buscan además ANA y otras causas (lupus).",
+      "origen": "libro:sec:2",
+      "fuente": "Libro · Preguntas reales",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 14",
+        "EUNACOM Agosto 2021 · Pregunta 59"
+      ],
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cambios mínimos: microscopía óptica {{c1::normal}}; la electrónica muestra borramiento de pedicelos.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Cambios mínimos",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cambios mínimos cursa con proteinuria {{c1::selectiva}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Cambios mínimos",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cambios mínimos: {{c1::90 %}} de los nefróticos del niño y 10 % de los adultos.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Cambios mínimos",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 60"
+      ],
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cambios mínimos en el adulto se asocia a {{c1::linfoma de Hodgkin}} y AINEs.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Cambios mínimos",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Cambios mínimos: prednisona oral {{c1::1 mg/kg/día}}, con remisión rápida en más de 80 %.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Cambios mínimos",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño de 2 años con nefrótico puro (proteinuria 4+, albúmina 2,7, sin hematuria): {{c1::prednisona oral en alta dosis}} sin biopsia.",
+      "extra": "La biopsia se reserva para falta de respuesta o nefrótico impuro.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Dic. 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 60"
+      ],
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Nefrótico puro en adulto joven de 35 años sin causa secundaria: la causa más frecuente es {{c1::cambios mínimos}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro · Preguntas reales",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 10",
+        "EUNACOM Julio 2016 · Pregunta 121"
+      ],
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "GEFS compromete solo algunos glomérulos ({{c1::focal}}) y una porción del ovillo ({{c2::segmentaria}}).",
+      "extra": "Con sinequias capsulares y depósito hialino.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 GEFS",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "GEFS: adulto joven y {{c1::afrodescendiente}}, con mutaciones podocitarias o APOL1.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla comparación",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La asociación más clásica de GEFS es el {{c1::VIH}} (nefropatía colapsante).",
+      "extra": "También obesidad severa, heroína e hiperfiltración en riñón único.",
+      "origen": "clase:5",
+      "fuente": "Clase · GEFS",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "GEFS responde {{c1::mal}} a corticoides, progresa a hemodiálisis y recurre en el injerto.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · GEFS",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La enfermedad por cambios mínimos solo se ve con microscopía {{c1::electrónica}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Tres imágenes",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En endocarditis subaguda con hematuria e hipocomplementemia, el diagnóstico es glomerulonefritis por {{c1::depósito de complejos inmunes}}.",
+      "extra": "Hematuria dismórfica: es nefrítico, no nefrótico puro.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro · Preguntas reales",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 154"
+      ],
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Nefrótico en paciente hospitalizado con dolor torácico súbito y desaturación: {{c1::tromboembolismo pulmonar}}, complicación de la membranosa.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro · Preguntas reales",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 3"
+      ],
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/07_nefrologia/nefro-14/01_biopsia-membranosa__nelson_p4100.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Nefropatía membranosa",
+      "clave": "Engrosamiento difuso de la MBG con espículas y depósitos granulares de IgG",
+      "conducta": "Pedir anti-PLA2R y descartar cáncer sólido oculto y VHB; tratar con rituximab o ciclosporina",
+      "fuente": "Nelson Pediatría 22.ª ed., p. 4100",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.022"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "¿Qué muestra la biopsia?",
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0",
+      "pista": "Membranosa con anti-PLA2R positivo: ¿qué tratamiento?",
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0.1",
+      "pista": "Membranosa con anti-PLA2R negativo: ¿qué conducta?",
+      "codigos": [
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1",
+      "pista": "Óptica normal: ¿qué diagnóstico y tratamiento?",
+      "codigos": [
+        "1.09.1.022"
+      ]
+    }
+  ]
+}

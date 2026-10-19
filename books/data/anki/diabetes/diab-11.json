@@ -1,0 +1,534 @@
+{
+  "classId": "diab-11",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las insulinas basales controlan el {{c1::ayuno y entre comidas}}; las prandiales controlan el postprandial de esa comida.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Basal y prandial",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "NPH: inicio 1–2 h, pico {{c1::4–10 h}}, duración 12 a 18 horas.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Insulinas basales",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El pico de la NPH es la principal causa de {{c1::hipoglicemia nocturna}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Insulinas basales",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Glargina y degludec no tienen pico («perfil {{c1::plano}}») y dan mucha menos hipoglicemia nocturna.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Insulinas basales",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Glargina U100 y detemir duran {{c1::20–24 horas}}; degludec y glargina U300 más de 24 horas.",
+      "extra": "Una vez al día.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de perfiles",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Degludec y glargina U300 duran hasta {{c1::42 horas}}, con horario flexible.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Perfiles",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cristalina: inicio {{c1::30–60 min}}, pico 2–3 h, duración 6 a 8 horas.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Insulinas prandiales",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La cristalina se inyecta {{c1::30 minutos}} antes de comer.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Insulinas prandiales",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La {{c1::cristalina}} es la única insulina que se usa por vía endovenosa (bomba de infusión).",
+      "extra": "Cetoacidosis, perioperatorio, UCI.",
+      "origen": "clase:3",
+      "fuente": "Clase · Insulinas prandiales",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Ultrarrápidas (lispro, aspart, glulisina): inicio {{c1::10–15 min}} y duración 3 a 5 horas.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Insulinas prandiales",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Las ultrarrápidas se inyectan {{c1::justo antes de comer}} o incluso inmediatamente después.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Insulinas prandiales",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "NPH con la cena causa hipoglicemia a las 3 AM; la solución es pasarla a {{c1::22:00–23:00 h (al acostarse)}}.",
+      "extra": "El pico se desplaza hacia las 6–8 AM.",
+      "origen": "clase:4",
+      "fuente": "Clase · NPH cena vs acostarse",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "NPH con la cena (20:00 h): pico a las {{c1::2–4 AM}}, coincide con la glicemia más baja.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · NPH cena vs acostarse",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En DM2 se inicia insulina con HbA1c ≥ {{c1::9–10 %}} o ayuno > 250–300 mg/dL.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · ¿Cuándo se inicia insulina?",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 17",
+        "EUNACOM Enero 2023 · Pregunta 151",
+        "EUNACOM Enero 2023 · Pregunta 150"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Obeso con polidipsia, baja de peso y HbA1c > 9 %: se indica {{c1::insulina}} aunque sea obeso.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Dic 2018",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 17"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Falla secundaria: con {{c1::2 o 3}} orales a dosis óptimas persiste sobre la meta tras 3 meses.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · ¿Cuándo se inicia insulina?",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Falla de metformina 2000 mg más glibenclamida 15 mg con HbA1c 8,8 %: {{c1::iniciar insulina}} y no subir orales.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Julio 2013",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 125"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Otras indicaciones de insulina en DM2: VFG < {{c1::30}}, falla hepática grave, embarazo y hospitalización aguda.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · ¿Cuándo se inicia insulina?",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Corticoides en dosis altas (prednisona 40 mg/día) con postprandiales de 280: se {{c1::inicia insulina}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Julio 2025",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Corticoides con glicemias prealmuerzo y precena de 230 y 295 mg/dL: tratamiento con {{c1::insulina}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Julio 2015",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 16"
+      ],
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Inicio de insulina en APS: NPH al acostarse a {{c1::10 UI}} o 0,1–0,2 UI/kg, manteniendo la metformina.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Anciano de 82 años con ayuno 355 y HbA1c 9,5 % con metformina: {{c1::insulina NPH}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Dic 2022",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 149"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Síndrome nefrótico más HbA1c > 9 % en diabético: {{c1::iniciar insulina NPH}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Julio 2017",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 94"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "DM1 con una NPH matinal, ayunos altos e hipoglicemias prealmuerzo: {{c1::dos NPH más tres refuerzos de cristalina}}.",
+      "extra": "Idealmente glargina basal con ultrarrápida.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Julio 2015",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 17"
+      ],
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En DM1 una sola insulina basal es insuficiente y la {{c1::metformina}} no sirve.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Julio 2015",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La insulina no abierta se conserva a {{c1::2–8 °C}} y nunca se congela.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Conservación",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La insulina abierta dura a temperatura ambiente hasta {{c1::28–30 días}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Conservación",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "No rotar los sitios de inyección produce {{c1::lipohipertrofia}}, con absorción errática.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Técnica de inyección",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hiperglicemias inexplicables con mucha insulina: pensar en {{c1::lipohipertrofia}} antes que en resistencia.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Administración",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sitios de inyección subcutánea: abdomen, muslos, brazos o {{c1::glúteos}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Técnica de inyección",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "NPH nocturna con 65 mg/dL a las 3 AM y ayuno alto (Somogyi): {{c1::reducir la NPH}}, no aumentarla.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Julio 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 161"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipotiroidismo, vitíligo y falla a metformina más glibenclamida: LADA, que se trata con {{c1::insulina}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Preguntas reales",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 113",
+        "EUNACOM Julio 2013 · Pregunta 34"
+      ],
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La foto muestra {{c1::lipohipertrofia abdominal}} en sitios repetidos de inyección de insulina.",
+      "extra": "Rotar siempre el sitio.",
+      "origen": "foto",
+      "fuente": "Atlas · lipohipertrofia",
+      "repaso": false,
+      "imagen": "_web/095_diab_Insulinas_titulación_y_técni__Open-i_1.jpg",
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/04_diabetes/diab-11/01_lipohipertrofia__openi.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Lipohipertrofia abdominal",
+      "clave": "Acúmulo de grasa fibrosa en los puntos donde se pincha siempre",
+      "conducta": "Rotar los sitios de inyección; la absorción errática explica hiperglicemias inexplicables",
+      "fuente": "Open-i (NLM), CC BY",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Catabolismo o HbA1c ≥ 9–10 %: ¿qué haces?",
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Falla de orales: ¿qué insulina y cuándo?",
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    }
+  ]
+}

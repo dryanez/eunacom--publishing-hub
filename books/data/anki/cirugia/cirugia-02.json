@@ -1,0 +1,555 @@
+{
+ "classId": "cirugia-02",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La colecistitis aguda se desencadena en la mayoría de los casos por la {{c1::impactación persistente de un cálculo}} en el cuello vesicular o el cístico.",
+   "extra": "Estasis biliar, inflamación química y luego sobreinfección.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Presentación",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.011",
+    "4.01.1.027"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La sobreinfección de la colecistitis es por enterobacterias: {{c1::E. coli, Klebsiella y Enterococo}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Presentación",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.011",
+    "4.01.1.027"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En la colecistitis aguda el dolor en HCD persiste por más de {{c1::6 horas}}, a diferencia del cólico biliar simple.",
+   "extra": "Cólico: 30 minutos a 6 horas, sin fiebre y con Murphy negativo.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Presentación",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.011",
+    "4.01.1.027"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El hallazgo cardinal al examen es el signo de {{c1::Murphy}}: se interrumpe la inspiración profunda al palpar el punto cístico.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Presentación",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.011"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Una bilirrubina total > {{c1::4 mg/dL}} no es propia de la colecistitis aislada.",
+   "extra": "Sospecha coledocolitiasis, colangitis o síndrome de Mirizzi.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Presentación",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.011",
+    "4.01.1.027"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el síndrome de {{c1::Mirizzi}} un cálculo gigante en el bacinete comprime el hepático común y da ictericia.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Formas complicadas",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.011",
+    "4.01.1.027"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En Tokio 2018, el criterio A es inflamación {{c1::local}} (Murphy o masa en HCD); el B, inflamación {{c2::sistémica}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Pilares de Tokio",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.011"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tokio 2018: diagnóstico sospechoso con {{c1::A + B}}; definitivo con {{c2::A + B + C}}.",
+   "extra": "C = hallazgos de imagen.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Tokio 2018",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.011"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En los criterios de Tokio, la fiebre se define como > {{c1::38 °C}} y la leucocitosis como > {{c2::10.000/mm³}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Tokio 2018",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.011"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tokio Grado I: colecistitis sin {{c1::disfunción de órganos}}, con inflamación confinada a la vesícula.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Grados de Tokio",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.011"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Un Grado II de Tokio incluye leucocitosis > {{c1::18.000/mm³}} o síntomas por más de {{c2::72 horas}}.",
+   "extra": "También masa dolorosa palpable o inflamación local marcada.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Severidad",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.011"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tokio Grado III: colecistitis con {{c1::disfunción de al menos un órgano}} (hipotensión con vasopresores, compromiso de conciencia, creatinina alta).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Severidad",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.011"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El examen imagenológico de primera línea en colecistitis aguda es la {{c1::ecografía abdominal}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Exámenes",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-02/01_colelitiasis-colecistitis-eco_alt1__cto-radiologia_p44.jpg",
+   "codigos": [
+    "4.01.4.011",
+    "4.01.2.011"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El signo ecográfico más específico de colecistitis aguda es el {{c1::Murphy ecográfico positivo}}.",
+   "extra": "El engrosamiento de pared es sensible pero inespecífico (ascitis, cirrosis, ICC).",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": false,
+   "codigos": [
+    "4.01.4.011",
+    "4.01.2.011"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En ecografía, la pared vesicular engrosada de colecistitis es ≥ {{c1::4 mm}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Exámenes",
+   "repaso": false,
+   "codigos": [
+    "4.01.4.011",
+    "4.01.2.011"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El TAC se reserva ante sospecha de {{c1::gangrena, enfisema o perforación}}.",
+   "extra": "Enfisematosa: gas por Clostridium perfringens.",
+   "origen": "clase:6",
+   "fuente": "Clase · Otros exámenes",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.011"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La cintigrafía {{c1::HIDA}} es el estudio más sensible: la vesícula no se llena por obstrucción del cístico.",
+   "extra": "Se usa si la ecografía es dudosa y la sospecha alta.",
+   "origen": "clase:6",
+   "fuente": "Clase · Otros exámenes",
+   "repaso": false,
+   "imagen": "_verificadas/350_cirugia_Colecistitis__BrantHelms_p1477.jpg",
+   "codigos": [
+    "4.01.2.011"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tratamiento de elección de la colecistitis Grado I y II es la {{c1::colecistectomía laparoscópica precoz}}.",
+   "extra": "EUNACOM Jul 2025.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 151"
+   ],
+   "codigos": [
+    "4.01.2.011"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La colecistectomía precoz se hace dentro de las primeras {{c1::72 horas}}.",
+   "extra": "Menos morbimortalidad, estadía y conversión.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 151"
+   ],
+   "codigos": [
+    "4.01.2.011"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En Grado III o riesgo anestésico prohibitivo, la conducta de urgencia es la {{c1::colecistostomía percutánea}} guiada por imagen más antibióticos.",
+   "extra": "La colecistectomía se difiere hasta superar la sepsis.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.011"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La visión crítica de Strasberg exige ver solo {{c1::dos estructuras}} entrando a la vesícula: el cístico y la arteria cística.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Visión crítica",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.011"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Con triángulo congelado, la conducta es {{c1::colecistectomía subtotal o conversión a cirugía abierta}}.",
+   "extra": "El error es seccionar la estructura más gruesa.",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.011"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Ante bilirrubina > 4, el error es {{c1::atribuirla a la colecistitis sola}}.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.011",
+    "4.01.1.027"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En colecistitis Grado I o II estable, el error es {{c1::diferir la cirugía a semanas}}.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.011"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Diabético con dolor en HCD y gas en la pared vesicular: {{c1::colecistitis enfisematosa}}, no una colecistitis simple.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.025"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La litiasis vesicular es asintomática en cerca del {{c1::80%}} de los casos.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Litiasis",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.027"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Factores de riesgo de litiasis: sexo femenino, obesidad, multiparidad, embarazo y {{c1::baja rápida de peso}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Litiasis",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.027"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El cólico biliar agudo se maneja con {{c1::AINE o hioscina}} y dieta hipograsa.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Litiasis",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.027"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Los cólicos biliares recidivan en más del {{c1::50%}}, por eso el sintomático se deriva a colecistectomía electiva.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Litiasis",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.027"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Litiásico asintomático hallado en forma incidental: {{c1::observar}}, no operar.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.027"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La litiasis asintomática se opera si hay vesícula en porcelana, cálculos > {{c1::3 cm}}, pólipos ≥ {{c2::1 cm}} o anemia hemolítica crónica.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Litiasis",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.027"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "GES N° {{c1::24}}: colecistectomía preventiva del cáncer vesicular en sintomáticos de {{c2::35 a 49 años}}.",
+   "extra": "Chile tiene una de las tasas más altas de cáncer de vesícula.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 GES",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.027"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "La profilaxis antibiótica de elección en colecistectomía electiva es la {{c1::cefazolina}}.",
+   "extra": "EUNACOM Julio 2024.",
+   "origen": "clase:15",
+   "fuente": "Clase · Quiz Jul 2024",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.011"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La vesícula en {{c1::porcelana}} se asocia a cáncer de vesícula y obliga a operar.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Colecistitis crónica",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.025"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cólicos recurrentes con colelitiasis, hoy asintomático: {{c1::colecistectomía laparoscópica electiva}}.",
+   "extra": "La CPRE solo si hay coledocolitiasis.",
+   "origen": "clase:18",
+   "fuente": "Clase · Colecistitis crónica",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.027"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cólicos que ceden solos, cálculos con sombra acústica y sin pared engrosada ni líquido: {{c1::colelitiasis}}, se programa cirugía electiva.",
+   "extra": "",
+   "origen": "clase:16",
+   "fuente": "Clase · Quiz Ago 2021",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 125"
+   ],
+   "codigos": [
+    "4.01.1.025"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-02/01_colelitiasis-colecistitis-eco__cto-radiologia_p44.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Colelitiasis en ecografía",
+   "clave": "Imágenes hiperecogénicas con sombra acústica posterior",
+   "conducta": "Sin signos inflamatorios: colecistectomía laparoscópica electiva",
+   "fuente": "Manual CTO Radiología 14.ª ed., p. 44",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 125"
+   ],
+   "codigos": [
+    "4.01.1.027"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-02/01_colelitiasis-colecistitis-eco_alt1__cto-radiologia_p44.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Colecistitis aguda en ecografía",
+   "clave": "Pared vesicular engrosada (≥ 4 mm) con líquido perivesicular",
+   "conducta": "Hospitalizar, antibióticos y colecistectomía laparoscópica antes de 72 h",
+   "fuente": "Manual CTO Radiología 14.ª ed., p. 44",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.025"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0.0",
+   "pista": "Tokio Grado I o II: ¿qué conducta?",
+   "codigos": [
+    "4.01.2.011",
+    "4.01.1.027"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0.1",
+   "pista": "Tokio Grado III: ¿qué procedimiento?",
+   "codigos": [
+    "4.01.2.011",
+    "4.01.1.027"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.0",
+   "pista": "Bilirrubina sobre 4 mg/dL: ¿qué sospechas?",
+   "codigos": [
+    "4.01.2.011",
+    "4.01.1.027"
+   ]
+  }
+ ]
+}

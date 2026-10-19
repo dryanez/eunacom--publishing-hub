@@ -1,0 +1,479 @@
+{
+  "classId": "neuro-18",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La esclerosis múltiple es una enfermedad autoinmune desmielinizante del {{c1::SNC}}, más frecuente en mujeres de 20 a 45 años.",
+      "extra": "Relación mujer:hombre 3:1.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los linfocitos T cruzan la barrera hematoencefálica en EM mediante la integrina {{c1::α4 (VLA-4)}}.",
+      "extra": "Es la diana del natalizumab.",
+      "origen": "clase:1",
+      "fuente": "Clase · Linfocitos que atacan la mielina",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El fenómeno de Uhthoff es el empeoramiento transitorio de síntomas con {{c1::calor o fiebre}}.",
+      "extra": "No es un brote: no se trata con corticoides.",
+      "origen": "clase:2",
+      "fuente": "Clase · Tres signos",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El signo de Lhermitte es una descarga eléctrica que baja por la espalda al {{c1::flectar el cuello}}.",
+      "extra": "Cordones posteriores cervicales.",
+      "origen": "clase:2",
+      "fuente": "Clase · Tres signos",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la neuritis óptica el defecto pupilar aferente relativo se llama pupila de {{c1::Marcus Gunn}}.",
+      "extra": "Al iluminar el ojo enfermo, ambas pupilas se dilatan.",
+      "origen": "clase:2",
+      "fuente": "Clase · Tres signos",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Debut típico de EM: síndrome clínicamente aislado, déficit de más de {{c1::24 horas}}.",
+      "extra": "Neuritis óptica, mielitis parcial o síndrome de tronco.",
+      "origen": "clase:3",
+      "fuente": "Clase · El debut",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Neuritis óptica: pérdida visual monocular, dolor al mover el ojo, discromatopsia y {{c1::DPAR}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · El debut",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 17"
+      ],
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la neuritis óptica retrobulbar el fondo de ojo es normal en {{c1::2/3}} de los casos.",
+      "extra": "El tercio restante muestra edema de papila leve.",
+      "origen": "clase:3",
+      "fuente": "Clase · El debut",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La oftalmoplejía internuclear bilateral en un adulto joven es casi diagnóstica de EM; la lesión está en el fascículo {{c1::longitudinal medial}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · El debut",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La forma remitente-recurrente es el {{c1::85 %}} de los debuts de EM.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Brotes o progresión",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La forma primaria progresiva es el {{c1::10–15 %}} de los casos de EM.",
+      "extra": "Progresión desde el inicio, sin brotes.",
+      "origen": "clase:4",
+      "fuente": "Clase · Brotes o progresión",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Más del {{c1::50 %}} de las EMRR no tratadas pasan a secundaria progresiva a los 10–20 años.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Brotes o progresión",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "McDonald 2017: la diseminación en espacio exige ≥ 1 lesión T2 en ≥ {{c1::2}} de 4 zonas del SNC.",
+      "extra": "Periventricular, yuxtacortical, infratentorial y médula.",
+      "origen": "clase:5",
+      "fuente": "Clase · McDonald 2017",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.008",
+        "1.10.4.002"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las lesiones periventriculares ovoides perpendiculares a los ventrículos se llaman dedos de {{c1::Dawson}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla McDonald",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.008",
+        "1.10.4.002"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diseminación en tiempo: lesiones que {{c1::captan y otras que no captan}} gadolinio, o una lesión nueva en el control.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · McDonald 2017",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.008",
+        "1.10.4.007"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En McDonald 2017, primer brote + diseminación en espacio + {{c1::bandas oligoclonales}} confirman EM sin esperar un segundo brote.",
+      "extra": "Las bandas sustituyen la diseminación en tiempo.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.008",
+        "1.10.4.002"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las bandas oligoclonales son ≥ 2 bandas de IgG en el {{c1::LCR ausentes en el suero}} (patrón tipo 2).",
+      "extra": "Reflejan síntesis intratecal.",
+      "origen": "clase:6",
+      "fuente": "Clase · LCR",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.008",
+        "1.10.4.007"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Las bandas oligoclonales son positivas en {{c1::85–95 %}} de las EM; el índice de IgG es > 0,7.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · LCR",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.008",
+        "1.10.4.007"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La neuromielitis óptica tiene mielitis de ≥ {{c1::3}} cuerpos vertebrales y anticuerpo anti-acuaporina 4.",
+      "extra": "Neuritis óptica bilateral grave.",
+      "origen": "clase:6",
+      "fuente": "Clase · LCR y diferenciales",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.008",
+        "1.10.4.007"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En neuromielitis óptica el interferón, el natalizumab y el fingolimod la {{c1::agravan}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.008",
+        "1.10.4.007"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anti-MOG: neuritis bilateral con edema de papila y lesiones de cono medular; responde muy bien a {{c1::corticoides}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · LCR y diferenciales",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.008",
+        "1.10.4.007"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un brote es un déficit neurológico nuevo o agravado de más de {{c1::24 horas}} sin fiebre ni infección.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · El brote",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Brote agudo de EM: metilprednisolona EV {{c1::1 g/día por 3 a 5 días}}, sin descenso oral.",
+      "extra": "Error clásico: prednisona oral con descenso.",
+      "origen": "clase:7",
+      "fuente": "Clase · El brote",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Brote grave sin respuesta a corticoides en 2 semanas: {{c1::plasmaféresis}}, 5 a 7 sesiones.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · El brote",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fármaco de primera línea seguro en el embarazo en EM: {{c1::glatiramero}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Terapia modificadora",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Teriflunomida (14 mg/día) es {{c1::teratogénica}} y hepatotóxica.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Natalizumab (anti-integrina α4) exige vigilar el virus JC por riesgo de {{c1::leucoencefalopatía multifocal progresiva}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El único fármaco con beneficio en la EM primaria progresiva es el {{c1::ocrelizumab}} (anti-CD20).",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Terapia modificadora",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fingolimod requiere {{c1::ECG}} en la primera dosis y vigilar edema macular.",
+      "extra": "Bradicardia transitoria.",
+      "origen": "clase:8",
+      "fuente": "Clase · Terapia modificadora",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La EM remitente-recurrente es la Garantía GES N° {{c1::69}}: RM y punción lumbar en ≤ 60 días y terapia modificadora.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "GES N° 69",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer joven con déficits en distintos territorios y momentos, con recuperación espontánea: {{c1::esclerosis múltiple}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz EUNACOM Jul 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 104"
+      ],
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-18/01_placas-em-rm__cto-radiologia_p73.jpg",
+      "pregunta": "¿Qué muestra y qué criterio cumple?",
+      "diagnostico": "Placas desmielinizantes de esclerosis múltiple",
+      "clave": "Lesiones ovoides periventriculares, yuxtacorticales, infratentoriales y medulares",
+      "conducta": "Diseminación en espacio (≥ 2 de 4 zonas); buscar diseminación en tiempo o bandas oligoclonales",
+      "fuente": "Manual CTO Radiología 14.ª ed., p. 73",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-18/03_linterna-oscilante-dpar__kanski_p820.jpg",
+      "pregunta": "¿Qué signo es y qué sospechas?",
+      "diagnostico": "Defecto pupilar aferente relativo",
+      "clave": "Al pasar la luz al ojo enfermo ambas pupilas se dilatan",
+      "conducta": "Neuritis óptica: metilprednisolona EV 1 g/día por 3 a 5 días y estudio de EM",
+      "fuente": "Kanski, Oftalmología clínica 8.ª ed., p. 820",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.008"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Déficit focal sin fiebre: ¿qué tratamiento del brote?",
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Brote grave refractario a esteroides: ¿qué rescate?",
+      "codigos": [
+        "1.10.1.008"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1.1",
+      "pista": "Mielitis extensa: ¿qué diagnóstico sospechas y qué evitas?",
+      "codigos": [
+        "1.10.1.008"
+      ]
+    }
+  ]
+}

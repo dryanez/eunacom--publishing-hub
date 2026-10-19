@@ -1,0 +1,557 @@
+{
+ "classId": "cirugia-18",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Contusión: reposo, hielo 15-20 minutos cada {{c1::2-3 horas}} por 48 horas, compresión, elevación y analgesia.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Heridas menores",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.025"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Una herida limpia y reciente se cierra primariamente idealmente antes de {{c1::6 a 8 horas}}; en la cara hasta {{c2::24 horas}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Heridas menores",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.025"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las heridas sucias, antiguas, punzantes o por mordedura no se suturan: cierre {{c1::diferido}} a los 3-5 días si no hay infección.",
+   "extra": "No se dan antibióticos profilácticos de rutina.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Heridas menores",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.025"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En toda herida se irriga abundantemente con {{c1::suero fisiológico a presión}} y se desbrida lo mínimo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Heridas menores",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.025"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En piel se usa hilo {{c1::no reabsorbible}} monofilamento y en planos profundos reabsorbible para eliminar el espacio muerto.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Sutura",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.009"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Calibre de hilo: {{c1::5-0 y 6-0}} en cara; 3-0 y 4-0 en tronco y extremidades.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Sutura",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.009"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Retiro de puntos en la cara a los {{c1::3-5 días}}; cuero cabelludo 7; tronco 7-10; extremidades y manos 10-14.",
+   "extra": "El quiz Perfil V3 de cara decía 5-7 días.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Sutura",
+   "repaso": true,
+   "codigos": [
+    "4.01.5.009"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El punto {{c1::colchonero}} alivia la tensión; el {{c2::intradérmico}} da mejor estética.",
+   "extra": "Sutura intradérmica en herida grande de la cara.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Sutura",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 124"
+   ],
+   "codigos": [
+    "4.01.5.009"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primera medida ante hemorragia: {{c1::presión directa}} firme por 10-15 minutos y elevación.",
+   "extra": "La mejor forma de manejar una herida que sangra profusamente.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Hemostasia",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 30"
+   ],
+   "codigos": [
+    "4.01.5.017"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El torniquete se coloca {{c1::5 a 7 cm}} sobre la herida y se anota la hora; solo se retira en pabellón.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Hemostasia",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.017"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Para ligar un vaso se identifica bajo visión; nunca se {{c1::pinza a ciegas}} en el fondo de la herida por riesgo de lesionar nervios.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Hemostasia",
+   "repaso": true,
+   "codigos": [
+    "4.01.5.017"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En una herida de la mano, antes de anestesiar se examinan {{c1::sensibilidad, tendón flexor y perfusión}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Mano",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-18/06_herida-avulsiva-mano__bailey-love_p047.jpg",
+   "codigos": [
+    "4.02.2.009"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La parte amputada se envuelve en gasa húmeda, se pone en una bolsa y esa bolsa {{c1::sobre hielo}}, sin contacto directo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Mano",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.009"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Una herida sobre los nudillos tras un golpe de puño es {{c1::mordedura humana}} hasta demostrar lo contrario.",
+   "extra": "Se trata abierta con amoxicilina/ácido clavulánico.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Mano",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.009"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las heridas de cara cicatrizan bien por su gran {{c1::irrigación}} y pueden cerrarse hasta 24 horas después.",
+   "extra": "No se recortan bordes ni se afeita la ceja.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Cara",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.014"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En heridas profundas de la mejilla se busca lesión del nervio facial y del conducto de {{c1::Stenon}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Cara",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.014"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En herida que cruza el borde bermellón, el primer punto alinea exactamente el {{c1::borde bermellón}}.",
+   "extra": "",
+   "origen": "clase:17",
+   "fuente": "Clase · Quiz Perfil V3 heridas de cara",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.009"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Herida sucia o tetanígena: contaminada con tierra o heces, punzante profunda, aplastamiento, quemadura o de más de {{c1::6 horas}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Antitetánica",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.018"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Esquema completo (≥ 3 dosis) y herida limpia: refuerzo con dT solo si pasaron más de {{c1::10 años}}.",
+   "extra": "Nunca TIG.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Antitetánica",
+   "repaso": true,
+   "codigos": [
+    "4.01.3.018"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Esquema completo y herida sucia: refuerzo con dT si pasaron más de {{c1::5 años}}; no requiere TIG.",
+   "extra": "Caso de 7 años: solo refuerzo de dT.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Antitetánica",
+   "repaso": true,
+   "codigos": [
+    "4.01.3.018"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Vacunación incompleta o desconocida con herida limpia: solo {{c1::vacuna dT}} (esquema 0, 1 y 6 meses).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Antitetánica",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.018"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Vacunación incompleta y herida sucia: vacuna dT más inmunoglobulina antitetánica {{c1::250 UI IM}} en sitios distintos.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Antitetánica",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.018"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Con ≥ 3 dosis previas, la inmunoglobulina antitetánica es {{c1::nunca}} necesaria.",
+   "extra": "Conserva memoria inmunológica.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": true,
+   "codigos": [
+    "4.01.3.018"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La mordedura de gato inocula {{c1::Pasteurella multocida}} profundo y tiene la mayor tasa de infección (hasta 50%).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Mordeduras",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-18/atlas_358_mordedura_gato_mano.jpg",
+   "codigos": [
+    "1.04.3.002"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La mordedura de perro causa más desgarro y aplastamiento; gérmenes como Pasteurella canis y {{c1::Capnocytophaga canimorsus}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Mordeduras",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-18/01_mordedura_perro__bailey_p48.jpg",
+   "codigos": [
+    "1.04.3.002"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La mordedura humana tiene flora agresiva con {{c1::Eikenella corrodens}} y anaerobios orales.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Mordeduras",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.002"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Las mordeduras no se {{c1::suturan}} de entrada; se dejan cicatrizar por segunda intención o cierre diferido a las 48-72 h.",
+   "extra": "Excepción: la cara, por estética.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Mordeduras",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.002",
+    "4.01.2.025"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En las mordeduras lo más efectivo para bajar la carga bacteriana es la {{c1::irrigación profusa a presión}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Mordeduras",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.002",
+    "4.01.2.025"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Antibiótico de elección en mordeduras: {{c1::amoxicilina/ácido clavulánico}} 875/125 mg c/12h por 5-7 días.",
+   "extra": "En alérgicos: doxiciclina 100 mg c/12h.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Mordeduras",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.002"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En Chile el reservorio de la rabia es sobre todo el {{c1::murciélago}}.",
+   "extra": "Lavar con agua y jabón 10-15 minutos y notificar.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Rabia",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.018"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Perro o gato conocido, sano y observable: se observa por {{c1::10 días}} y no se vacuna mientras siga sano.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Rabia",
+   "repaso": true,
+   "codigos": [
+    "4.01.3.018"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Perro callejero o animal silvestre no ubicable: se {{c1::vacuna de inmediato}} sin esperar la observación.",
+   "extra": "Pregunta real: niño mordido por perro callejero.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Rabia",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.018"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Vacuna antirrábica de cultivo celular: 4 dosis IM en los días {{c1::0, 3, 7 y 14}}.",
+   "extra": "En exposición grave se agrega inmunoglobulina.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Rabia",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.018"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Inmunoglobulina antirrábica humana: {{c1::20 UI/kg}}, infiltrada en la herida y el resto IM.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Rabia",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.018"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El queloide {{c1::sobrepasa}} el borde de la herida y no regresa; la hipertrófica queda confinada a ella.",
+   "extra": "Tratamiento inicial: corticoide intralesional.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Cicatrices",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-18/05_queloide-lobulo__nelson_p5268.jpg",
+   "codigos": [
+    "4.01.1.057"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las contracturas sobre articulaciones se tratan con {{c1::plastías en Z}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Cicatrices",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.057"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La escisión simple de un queloide {{c1::recidiva}} con frecuencia.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Cicatrices",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.057"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-18/atlas_358_mordedura_gato_mano.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Mordedura de gato infectada",
+   "clave": "Punciones finas y profundas con celulitis",
+   "conducta": "Irrigar a presión, no suturar y amoxicilina/ácido clavulánico",
+   "fuente": "Open-i (NLM), CC BY",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.009"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-18/05_queloide-lobulo__nelson_p5268.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Queloide del lóbulo",
+   "clave": "Cicatriz firme que sobrepasa el borde de la perforación",
+   "conducta": "Corticoide intralesional con silicona o presoterapia; derivar",
+   "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 5268",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.057"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0.1",
+   "pista": "Esquema completo y herida sucia: ¿qué indicas?",
+   "codigos": [
+    "4.01.3.018",
+    "4.01.2.025"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.1",
+   "pista": "Esquema incompleto y herida sucia: ¿qué administras?",
+   "codigos": [
+    "4.01.3.018",
+    "4.01.2.025"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.0",
+   "pista": "Esquema completo y herida limpia: ¿cuándo se refuerza?",
+   "codigos": [
+    "4.01.3.018",
+    "4.01.2.025"
+   ]
+  }
+ ]
+}

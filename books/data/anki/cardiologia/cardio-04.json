@@ -1,0 +1,737 @@
+{
+ "classId": "cardio-04",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La FA es responsable de {{c1::1 de cada 3}} accidentes cerebrovasculares isquémicos.",
+   "extra": "Suelen ser más extensos y letales que los aterotrombóticos.",
+   "origen": "clase:1",
+   "fuente": "Clase · Por qué la FA da ACV",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La causa más frecuente de FA es la {{c1::hipertensión arterial}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Causas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La FA paroxística cede sola en menos de {{c1::7 días}}; la persistente dura más de 7 días o requiere cardioversión.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clasificación",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un joven con palpitaciones tras varios días de consumo abundante de alcohol tiene {{c1::FA (holiday heart)}}.",
+   "extra": "Muchas ceden solas en horas o días con abstención.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Causas",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 154"
+   ],
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la estenosis mitral, un R1 reforzado con ritmo irregular y disnea orienta a {{c1::FA}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Causas",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 1"
+   ],
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El examen de la FA muestra un pulso {{c1::irregularmente irregular}} y ausencia de onda «a» yugular.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Pulso irregular y ECG",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "ECG de la FA: sin ondas P, ondas {{c1::f}} y R-R {{c2::irregular}}, con QRS habitualmente angosto.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Pulso irregular y ECG",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 127",
+    "EUNACOM Julio 2013 · Pregunta 45"
+   ],
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Las ondas f de la FA oscilan entre {{c1::350 y 600}} por minuto.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Diagnóstico ECG",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Sin tratamiento, la frecuencia ventricular de la FA es de {{c1::100 a 180 lpm}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Pulso irregular y ECG",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La taquicardia auricular multifocal (EPOC grave) es irregular pero tiene P de {{c1::3 o más morfologías}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Diagnóstico ECG",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estudio mínimo de la FA: ECG, electrolitos, TSH y {{c1::ecocardiograma}} (válvulas, aurícula izquierda y FEVI).",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Pulso irregular y ECG",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "FA inestable (hipotensión, shock, edema pulmonar, isquemia): {{c1::cardioversión eléctrica sincronizada inmediata}}.",
+   "extra": "No confundir con desfibrilación. Se anticoagula en paralelo.",
+   "origen": "clase:4",
+   "fuente": "Clase · ¿Está estable?",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "FA con PA 85/40 y extremidades frías: el error es dar {{c1::verapamilo o amiodarona}} en vez de cardiovertir.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En la FA estable, la meta de frecuencia en reposo es menor de {{c1::110 lpm}} (control laxo).",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · ¿Está estable?",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En FA con respuesta ventricular rápida, función conservada y paciente estable, el fármaco de elección es {{c1::metoprolol}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Control de frecuencia",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 128"
+   ],
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Para controlar la frecuencia sin insuficiencia cardíaca se usan betabloqueadores o calcioantagonistas {{c1::no dihidropiridínicos}} (verapamilo, diltiazem).",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de fármacos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "FA con FEVI reducida: NO se usan {{c1::verapamilo ni diltiazem}}; se prefiere betabloqueador o digoxina.",
+   "extra": "Empeoran la falla de bomba.",
+   "origen": "clase:5",
+   "fuente": "Clase · Control de frecuencia",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "FA con EPOC o asma con broncoespasmo: el fármaco contraindicado es el {{c1::betabloqueador (atenolol, carvedilol)}}.",
+   "extra": "Se prefiere el calcioantagonista no dihidropiridínico.",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 150",
+    "EUNACOM Julio 2016 · Pregunta 1"
+   ],
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "La digoxina frena el nodo AV en la insuficiencia cardíaca o en el {{c1::sedentario}}; cuidado en insuficiencia renal e hipokalemia.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de fármacos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la FA preexcitada (WPW) están prohibidos los frenadores del nodo AV: {{c1::adenosina, verapamilo, diltiazem, digoxina y betabloqueadores}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La FA por hipertiroidismo se trata con betabloqueador y {{c1::antitiroideos}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Causa",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La FA de reciente comienzo {{c1::igual se anticoagula}}.",
+   "extra": "Excepción: episodio autolimitado muy breve en paciente de bajo riesgo.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Control de frecuencia",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El control de ritmo se prefiere en el paciente {{c1::joven, muy sintomático}} o con FA de reciente inicio.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Control de ritmo",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Una FA de menos de {{c1::48 horas}} puede cardiovertirse de inmediato.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Regla de las 48 horas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En corazón sano, la cardioversión farmacológica usa antiarrítmicos clase Ic: {{c1::flecainida o propafenona}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Regla de las 48 horas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Dosis oral de flecainida para cardioversión: {{c1::200-300 mg}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Regla de las 48 horas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "FA con infarto previo, IC o FEVI baja: la flecainida está {{c1::contraindicada (estudio CAST)}}; se usa amiodarona EV.",
+   "extra": "Produce arritmias ventriculares letales.",
+   "origen": "libro:caso",
+   "fuente": "Libro · Caso clínico",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Cardioversión química en cardiopatía estructural: {{c1::amiodarona endovenosa}}; otra opción es la cardioversión eléctrica.",
+   "extra": "",
+   "origen": "libro:caso",
+   "fuente": "Libro · Caso clínico",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "FA de más de 48 horas o dudosa: antes de cardiovertir, anticoagular {{c1::3 semanas}} o descartar trombo con {{c2::ETE}}.",
+   "extra": "Tras la cardioversión la aurícula recupera su contracción y puede expulsar el trombo.",
+   "origen": "clase:6",
+   "fuente": "Clase · Regla de las 48 horas",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 173"
+   ],
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tras cardiovertir se mantiene la anticoagulación al menos {{c1::4 semanas}}.",
+   "extra": "De por vida si el CHA₂DS₂-VASc lo indica.",
+   "origen": "clase:6",
+   "fuente": "Clase · Regla de las 48 horas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "FA de más de 48 horas y estable: el error es {{c1::cardiovertir de inmediato}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La ablación con catéter (aislamiento de las venas pulmonares) es primera línea en el joven sintomático y en IC con {{c1::FEVI reducida}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Mantenimiento del ritmo",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los antiarrítmicos son tratamiento sintomático: {{c1::no reemplazan la anticoagulación}}, que se decide por el riesgo y no por el ritmo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Mantenimiento del ritmo",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Paciente con FA paroxística que ya tuvo crisis repetidas de palpitaciones: se indica anticoagulante oral, p. ej. {{c1::acenocumarol}}.",
+   "extra": "Pregunta real de EUNACOM Diciembre 2018.",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic. 2018 P92",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 92"
+   ],
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "FA no valvular con CHA₂DS₂-VASc ≥ 2 en mujer: anticoagulación oral con {{c1::apixabán o rivaroxabán}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul. 2025 P97",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 97"
+   ],
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Flutter típico: macrorreentrada alrededor del anillo {{c1::tricuspídeo}} (istmo cavotricuspídeo).",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Flutter",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.014"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El flutter muestra ondas F en dientes de sierra a {{c1::300 por minuto}}, vistas en DII, DIII y aVF.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Dientes de sierra",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.014"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Flutter con conducción 2:1 produce una taquicardia regular de {{c1::150 lpm}}.",
+   "extra": "150 lpm regular y QRS angosto: pensar en flutter, no en taquicardia sinusal.",
+   "origen": "clase:7",
+   "fuente": "Clase · Dientes de sierra",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.014"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 137",
+    "EUNACOM Diciembre 2018 · Pregunta 95"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La maniobra vagal o adenosina en el flutter {{c1::deja ver las ondas de sierra}} sin terminar la arritmia.",
+   "extra": "Así se distingue de la TPSV, que termina.",
+   "origen": "clase:7",
+   "fuente": "Clase · Dientes de sierra",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.014"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 180"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tratamiento curativo del flutter es la {{c1::ablación por radiofrecuencia del istmo cavotricuspídeo}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Dientes de sierra",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.014"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La ablación del istmo cavotricuspídeo tiene una tasa de éxito mayor del {{c1::95%}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Dientes de sierra",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.014"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el flutter la anticoagulación y la regla de las 48 horas son {{c1::las mismas que en la FA}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Dientes de sierra",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.014"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con antiarrítmicos clase Ic el flutter puede conducirse {{c1::1:1}} (250 a 300 lpm), por lo que se asocia un frenador del nodo AV.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Flutter",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.014"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la FA valvular (estenosis mitral) el anticoagulante es un {{c1::antagonista de la vitamina K}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Situaciones especiales",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Toda persona con ACV o AIT de causa no clara requiere ECG y {{c1::monitoreo prolongado}} para buscar FA paroxística.",
+   "extra": "Cambia la prevención secundaria: anticoagular en vez de antiagregar.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 FA como causa de ACV",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "c46",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Usar aspirina «en vez de» anticoagular en la FA es un {{c1::error clásico}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Errores clásicos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-04/01_fibrilacion-auricular-ecg-12-derivaciones__stroobandt-ecg_p253.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Fibrilación auricular",
+   "clave": "Sin ondas P, ondas f y R-R completamente irregular con QRS angosto",
+   "conducta": "Estable: anticoagular y controlar frecuencia (< 110 lpm); inestable: cardioversión eléctrica",
+   "fuente": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials, p. 253",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-04/02_flutter-auricular-2a1-150-lpm__stroobandt-ecg_p247.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Flutter auricular con conducción 2:1",
+   "clave": "Ondas F en dientes de sierra a 300 por minuto y respuesta ventricular de 150 lpm regular",
+   "conducta": "Anticoagular como en la FA; ablación del istmo cavotricuspídeo",
+   "fuente": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials, p. 247",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.014"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-04/03_flutter-masaje-seno-carotideo__stroobandt-ecg_p247.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Flutter auricular tras masaje carotídeo",
+   "clave": "El bloqueo AV aumenta y las ondas de sierra se hacen evidentes, sin terminar la arritmia",
+   "conducta": "Confirma flutter (la TPSV terminaría); anticoagular y ablación",
+   "fuente": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials, p. 247",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.014"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "FA inestable: ¿qué conducta?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "Estable, menos de 48 horas, control de ritmo: ¿qué fármaco?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.1",
+   "pista": "Más de 48 horas o dudosa: ¿qué debe hacerse antes de cardiovertir?"
+  }
+ ]
+}

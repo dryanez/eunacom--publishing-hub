@@ -1,0 +1,500 @@
+{
+  "classId": "reuma-13",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las miopatías inflamatorias autoinmunes cursan con debilidad de cinturas {{c1::proximal}} simétrica y elevación masiva de CPK.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 131",
+        "EUNACOM Agosto 2021 · Pregunta 104",
+        "EUNACOM Agosto 2021 · Pregunta 105",
+        "EUNACOM Diciembre 2018 · Pregunta 118"
+      ],
+      "codigos": [
+        "1.11.1.020",
+        "1.10.1.021"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La debilidad de la polimiositis y dermatomiositis compromete las cinturas pelviana y escapular, y la fuerza {{c1::distal}} está conservada al inicio.",
+      "extra": "Dificultad para levantarse de la silla, subir escaleras y peinarse.",
+      "origen": "clase:2",
+      "fuente": "Clase · Debilidad proximal",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.020",
+        "1.10.1.021"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En polimiositis y dermatomiositis la musculatura {{c1::facial y extraocular}} está respetada.",
+      "extra": "Ptosis o diplopía orientan a miastenia gravis.",
+      "origen": "clase:2",
+      "fuente": "Clase · Cuadro muscular",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.020",
+        "1.10.1.021"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Debilidad proximal con ptosis o diplopía y CPK normal: pensar en {{c1::miastenia gravis}}, no en miopatía inflamatoria.",
+      "extra": "Se pide anticuerpo anti-receptor de acetilcolina.",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · Miopatías inflamatorias",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El compromiso de musculatura faríngea y esofágica superior produce {{c1::disfagia orofaríngea}} con riesgo de neumonía aspirativa.",
+      "extra": "Signo de severidad extrema.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Cuadro clínico",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mecanismo de la dermatomiositis: microangiopatía mediada por {{c1::complemento e inmunocomplejos}} (depósito de C5b-9 en capilares).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla PM vs DM",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mecanismo de la polimiositis: citotoxicidad directa por linfocitos T {{c1::CD8+}} contra miofibras que expresan MHC-I.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla PM vs DM",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la biopsia de la polimiositis el infiltrado es {{c1::endomisial}}; en la dermatomiositis es perimisial y perivascular.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla PM vs DM",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La lesión histológica característica de la dermatomiositis es la {{c1::atrofia perifascicular}}.",
+      "extra": "El infiltrado perimisial es de linfocitos B y T CD4+.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla PM vs DM",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las lesiones cutáneas patognomónicas están {{c1::ausentes}} en la polimiositis (enfermedad muscular pura).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla PM vs DM",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.020",
+        "1.10.1.021"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El eritema en {{c1::heliotropo}} es una coloración violácea de párpados superiores con edema periorbitario.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Signos cutáneos",
+      "repaso": true,
+      "imagen": "biblioteca/08_reumatologia/reuma-13/03_heliotropo__cto-derma_p119.jpg",
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 104",
+        "EUNACOM Diciembre 2019 · Pregunta 163"
+      ],
+      "codigos": [
+        "1.11.1.020",
+        "1.10.1.021"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las pápulas de {{c1::Gottron}} son pápulas violáceas sobre las articulaciones metacarpofalángicas e interfalángicas.",
+      "extra": "También en superficies extensoras de codos y rodillas (signo de Gottron).",
+      "origen": "foto",
+      "fuente": "Manual AMIR Reumatología, p. 127",
+      "repaso": true,
+      "imagen": "biblioteca/08_reumatologia/reuma-13/01_papulas-de-gottron__amir-reuma_p127.jpg",
+      "codigos": [
+        "1.11.1.020",
+        "1.10.1.021"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El signo del {{c1::chal}} es un eritema violáceo fotosensible en cuello posterior y hombros; si es en el escote, signo en V.",
+      "extra": "Eritema en manto = signo del chal.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Lesiones cutáneas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 163"
+      ],
+      "codigos": [
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las {{c1::manos de mecánico}} (hiperqueratosis y fisuras en caras laterales de los dedos) se asocian al síndrome antisintetasa.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Open-i (NLM), CC BY",
+      "repaso": false,
+      "imagen": "_web/222_reuma_Dermatomiositis_y_polimiosit__Open-i_2.jpg",
+      "codigos": [
+        "1.10.1.021",
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El anticuerpo más frecuente en miositis (20-30%) y que define el síndrome antisintetasa es el anti-{{c1::Jo-1}}.",
+      "extra": "Anti-histidil-tRNA sintetasa.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Autoanticuerpos",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.020",
+        "2.01.1.057"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síndrome antisintetasa: miopatía inflamatoria + {{c1::enfermedad pulmonar intersticial}} + Raynaud + manos de mecánico + artritis no erosiva.",
+      "extra": "Miopatía con EPID y manos de mecánico: anti-Jo-1.",
+      "origen": "clase:5",
+      "fuente": "Clase · Antisintetasa",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.020",
+        "2.01.1.057"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El anticuerpo anti-{{c1::Mi-2}} se asocia a dermatomiositis clásica con buena respuesta a corticoides y bajo riesgo de neoplasia.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Autoanticuerpos",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.020",
+        "2.01.1.057"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los anticuerpos anti-{{c1::TIF-1-gamma y anti-NXP-2}} se asocian a dermatomiositis con muy alto riesgo de cáncer.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Autoanticuerpos",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hasta un {{c1::20% a 30%}} de los adultos con dermatomiositis tiene una neoplasia maligna subyacente.",
+      "extra": "Riesgo mayor en > 50 años y alto durante 3 a 5 años.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Neoplasia oculta",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Adulto con dermatomiositis: además de tratar, es mandatorio el {{c1::tamizaje exhaustivo de neoplasia oculta}}.",
+      "extra": "TAC tórax-abdomen-pelvis, mamografía, eco transvaginal/PAP, PSA, colonoscopía y endoscopía alta.",
+      "origen": "clase:6",
+      "fuente": "Clase · Tamizaje de neoplasia",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 104"
+      ],
+      "codigos": [
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cánceres más frecuentes asociados a dermatomiositis: ovario, mama, pulmón, colon, próstata, páncreas y {{c1::linfoma no Hodgkin}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Neoplasia oculta",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La asociación de neoplasia oculta es mayor en {{c1::dermatomiositis}} (25–30%) que en polimiositis (~10%).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla PM vs DM",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En miopatías inflamatorias la CPK suele estar elevada {{c1::10 a 50}} veces sobre el límite superior normal.",
+      "extra": "También aldolasa, GOT/GPT y LDH de origen muscular.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Diagnóstico",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 104"
+      ],
+      "codigos": [
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La resonancia muscular en secuencias {{c1::STIR / T2}} muestra edema inflamatorio y guía el sitio de biopsia.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El patrón oro diagnóstico de las miopatías inflamatorias es la {{c1::biopsia muscular}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento inicial de la miopatía inflamatoria: prednisona {{c1::1 mg/kg/día}} (máximo 60-80 mg/día).",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Con disfagia orofaríngea o debilidad rápidamente progresiva se usan pulsos de {{c1::metilprednisolona 1 g/día por 3 días}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Se asocia desde el inicio un FARME ahorrador de corticoides: metotrexato {{c1::15 a 25 mg/semana}} o azatioprina 2 a 3 mg/kg/día.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En casos refractarios, compromiso respiratorio o disfagia severa se usa {{c1::inmunoglobulina endovenosa}} (2 g/kg en 2-5 días) o rituximab.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Antecedente de atorvastatina, mialgias y alza de CPK que cede al suspender el fármaco: {{c1::miopatía por estatinas}}.",
+      "extra": "No es polimiositis: no requiere inmunosupresión.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 109"
+      ],
+      "codigos": [
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Miopatía por cuerpos de inclusión: hombre > 50 años, debilidad asimétrica de cuádriceps y {{c1::resistencia a corticoides}}.",
+      "extra": "Vacuolas ribeteadas en la biopsia.",
+      "origen": "clase:7",
+      "fuente": "Clase · Diagnóstico diferencial",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-13/03_heliotropo__cto-derma_p119.jpg",
+      "pregunta": true,
+      "diagnostico": "Eritema en heliotropo (dermatomiositis)",
+      "clave": "Coloración violácea de párpados superiores con edema periorbitario",
+      "conducta": "Pedir CPK, iniciar prednisona 1 mg/kg/día y tamizaje de neoplasia oculta en adultos",
+      "fuente": "Manual CTO Dermatología, p. 119",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-13/01_papulas-de-gottron__amir-reuma_p127.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Pápulas de Gottron (dermatomiositis)",
+      "clave": "Pápulas eritematovioláceas sobre metacarpofalángicas e interfalángicas",
+      "conducta": "CPK, prednisona + FARME ahorrador y tamizaje oncológico",
+      "fuente": "Manual AMIR Reumatología, p. 127",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.020",
+        "1.10.1.021"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0.0",
+      "pista": "Adulto mayor de 45 años con dermatomiositis: ¿qué debes hacer?",
+      "codigos": [
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.0",
+      "pista": "Debilidad proximal con ptosis o diplopía: ¿qué sospechas?",
+      "codigos": [
+        "1.11.1.020"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1",
+      "pista": "Sin compromiso ocular ni piel: ¿qué confirmas y cómo tratas?",
+      "codigos": [
+        "1.11.1.020"
+      ]
+    }
+  ]
+}

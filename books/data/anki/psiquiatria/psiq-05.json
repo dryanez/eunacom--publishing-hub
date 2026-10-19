@@ -1,0 +1,413 @@
+{
+  "classId": "psiq-05",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El trastorno adaptativo es una reacción a un {{c1::estresor identificable}} (divorcio, despido, migración).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Trastorno adaptativo",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 167",
+        "EUNACOM Julio 2016 · Pregunta 128"
+      ],
+      "codigos": [
+        "5.01.1.004"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el adaptativo los síntomas aparecen dentro de los primeros {{c1::3 meses}} del estresor.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Trastorno adaptativo",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.004"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El adaptativo termina antes de {{c1::6 meses}} una vez que cesa el estresor.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Trastorno adaptativo",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.004"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El adaptativo con ánimo bajo no alcanza los {{c1::5}} criterios de depresión mayor.",
+      "extra": "Si los cumple, ya es depresión mayor.",
+      "origen": "clase:1",
+      "fuente": "Clase · Trastorno adaptativo",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 155",
+        "EUNACOM Diciembre 2025 · Pregunta 90"
+      ],
+      "codigos": [
+        "5.01.1.004"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El pilar del tratamiento del adaptativo es la {{c1::psicoterapia breve}} y resolución de problemas.",
+      "extra": "Sin antidepresivos de entrada; evitar benzodiacepinas.",
+      "origen": "clase:1",
+      "fuente": "Clase · Trastorno adaptativo",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.004"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante estresor claro con disfrute conservado, el error es {{c1::iniciar un antidepresivo}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.004"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Un adaptativo que no mejora con psicoterapia obliga a {{c1::reevaluar si evolucionó a depresión}}.",
+      "extra": "Entonces se usa ISRS (sertralina).",
+      "origen": "clase:11",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.004"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El adaptativo con angustia, insomnio y cefalea tensional tras un gatillante laboral es de tipo {{c1::ansioso}}.",
+      "extra": "La cefalea tensional no lo convierte en somatización.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz EUNACOM",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 129",
+        "EUNACOM Diciembre 2022 · Pregunta 108"
+      ],
+      "codigos": [
+        "5.01.1.004"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La distimia exige ánimo bajo continuo por {{c1::2 años}} en adultos.",
+      "extra": "Más días presente que ausente.",
+      "origen": "clase:3",
+      "fuente": "Clase · Distimia",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.004"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En niños y adolescentes la distimia exige solo {{c1::1 año}} de síntomas.",
+      "extra": "Error: exigir 2 años.",
+      "origen": "clase:3",
+      "fuente": "Clase · Distimia",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.004"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la distimia no hay pausas libres de síntomas de más de {{c1::2 meses}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Distimia",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.004"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El distímico consulta diciendo «{{c1::siempre he sido así}}» y lo vive como su forma de ser.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Distimia",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.004"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La distimia se trata con {{c1::ISRS}} prolongado más psicoterapia cognitivo-conductual.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Distimia",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.004"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un episodio depresivo mayor sobre una distimia de base se llama {{c1::depresión doble}}.",
+      "extra": "Error: tratar solo la distimia.",
+      "origen": "clase:4",
+      "fuente": "Clase · Depresión doble",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.004"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ánimo bajo crónico por 2 años o más sin cumplir criterios de depresión mayor continua es {{c1::distimia}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Diagnóstico diferencial",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.004"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tristeza y llanto tras la muerte de un ser querido, sin culpa patológica y con autoestima conservada, es {{c1::duelo no complicado}}.",
+      "extra": "Se acompaña; sin intervención médica.",
+      "origen": "clase:5",
+      "fuente": "Clase · Diagnóstico diferencial",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.004"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los tres ejes del diagnóstico diferencial depresivo son estresor, {{c1::gravedad}} y tiempo.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Diagnóstico diferencial",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.004"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Un adolescente con más de 1 año de síntomas puede tener distimia: el error es {{c1::exigir 2 años}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 81"
+      ],
+      "codigos": [
+        "5.01.1.004",
+        "5.01.1.020"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El trastorno de somatización compromete varios sistemas, con inicio antes de los {{c1::30 años}}.",
+      "extra": "Hoy: trastorno de síntomas somáticos.",
+      "origen": "clase:6",
+      "fuente": "Clase · Trastornos somatomorfos",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 57",
+        "EUNACOM Julio 2019 · Pregunta 88"
+      ],
+      "codigos": [
+        "5.01.1.020"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En los trastornos somatomorfos los síntomas son {{c1::involuntarios}}: no fingen.",
+      "extra": "Así se distinguen del trastorno facticio y la simulación.",
+      "origen": "clase:6",
+      "fuente": "Clase · Trastornos somatomorfos",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 142",
+        "EUNACOM Julio 2015 · Pregunta 70"
+      ],
+      "codigos": [
+        "5.01.1.020"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un déficit neurológico sin lesión (parálisis, afonía, ceguera, crisis no epilépticas) es un trastorno {{c1::conversivo}}.",
+      "extra": "Examen inconsistente, estudios normales.",
+      "origen": "clase:6",
+      "fuente": "Clase · Trastornos somatomorfos",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 155",
+        "EUNACOM Julio 2017 · Pregunta 14",
+        "EUNACOM Diciembre 2019 · Pregunta 73"
+      ],
+      "codigos": [
+        "5.01.1.020"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El signo de {{c1::Hoover}} positivo apoya una paresia conversiva.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Trastornos somatomorfos",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 9",
+        "EUNACOM Diciembre 2024 · Pregunta 82"
+      ],
+      "codigos": [
+        "5.01.1.020"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El manejo inicial del somatomorfo es una evaluación orgánica razonable, reconocer el sufrimiento y {{c1::controles regulares con el mismo médico}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Manejo del somatomorfo",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.020"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En síntomas físicos sin causa que no finge, el error es indicar {{c1::benzodiacepinas o más estudios}}.",
+      "extra": "Tampoco repetir exámenes sin nueva indicación.",
+      "origen": "clase:11",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.020"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En el somatomorfo con depresión o ansiedad se agregan {{c1::ISRS y TCC}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Manejo del somatomorfo",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.020"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si el síntoma depresivo dura menos de 2 semanas o hay estresor claro, el error es diagnosticar {{c1::depresión mayor}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Diagnóstico diferencial",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 142"
+      ],
+      "codigos": [
+        "5.01.1.004"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Muerte de un ser querido sin culpa patológica: ¿qué es?",
+      "codigos": [
+        "5.01.1.004"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "5 de 9 criterios por 2 semanas: ¿diagnóstico y tratamiento?",
+      "codigos": [
+        "5.01.1.004"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2",
+      "pista": "Estresor claro y menos de 5 criterios: ¿diagnóstico?",
+      "codigos": [
+        "5.01.1.004"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.3",
+      "pista": "Ánimo bajo crónico de 2 años o más: ¿diagnóstico?",
+      "codigos": [
+        "5.01.1.004"
+      ]
+    }
+  ]
+}

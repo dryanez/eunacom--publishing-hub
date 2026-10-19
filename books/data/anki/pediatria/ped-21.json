@@ -1,0 +1,582 @@
+{
+  "classId": "ped-21",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tamizaje neonatal de papel filtro pesquisa hipotiroidismo congénito (TSH) y {{c1::fenilcetonuria (fenilalanina)}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de tamizajes",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La muestra de talón en papel filtro se toma entre las {{c1::40 y 48 horas}} de vida, al alta.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Para pesquisar PKU el RN debe haber recibido {{c1::al menos 24-48 horas de alimentación láctea}}.",
+      "extra": "Si no, la fenilalanina sale falsamente normal.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tomar la muestra de talón al cortar el cordón da {{c1::resultados falsos}}.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Cuándo se toma la muestra",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.134"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-21/02_sitio_puncion_talon__minsal-pku-2007.jpg"
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un tamizaje neonatal es {{c1::prevención secundaria}}: detecta la enfermedad ya presente antes de los síntomas.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Diciembre 2017",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El hipotiroidismo congénito es la causa prevenible más frecuente de {{c1::discapacidad intelectual}} en el mundo.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Hipotiroidismo congénito",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.075"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa más común de hipotiroidismo congénito es la {{c1::disgenesia tiroidea}} (85%), sobre todo ectopia.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Hipotiroidismo congénito",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.075"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El {{c1::95%}} de los RN con hipotiroidismo congénito es asintomático al nacer.",
+      "extra": "Por el paso transplacentario de T4 materna.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.075"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signo tardío de hipotiroidismo congénito: fontanela posterior amplia, > {{c1::0.5 cm}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.075"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signos tardíos de hipotiroidismo congénito: llanto ronco, {{c1::macroglosia}} y hernia umbilical.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.075"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Constipación pertinaz, ictericia prolongada, hipotonía y piel fría y seca sugieren {{c1::hipotiroidismo congénito}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Hipotiroidismo congénito",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.075"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si la TSH de talón sale alterada, se confirma de inmediato con {{c1::TSH y T4 libre en sangre venosa}}.",
+      "extra": "Nunca se trata solo con el talón alterado.",
+      "origen": "clase:19",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.075"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento del hipotiroidismo congénito: {{c1::levotiroxina oral}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.075"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Dosis de levotiroxina en hipotiroidismo congénito: {{c1::10 a 15 mcg/kg/día}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.075"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La levotiroxina debe iniciarse antes de los {{c1::15 a 28 días}} de vida para un CI normal.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Hipotiroidismo congénito",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.075"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipotiroidismo tratado con TSH baja y T4 libre alta: {{c1::disminuir la dosis}} de levotiroxina.",
+      "extra": "Está sobretratado; no se suspende.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Julio 2019",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.075"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 53"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El hipotiroidismo congénito está cubierto por GES N° {{c1::34}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 (GES N° 34)",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.075"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La fenilcetonuria (PKU) está cubierta por GES N° {{c1::45}}.",
+      "extra": "Incluye la fórmula libre de fenilalanina.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 (GES N° 45)",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La PKU es autosómica recesiva por déficit de {{c1::fenilalanina hidroxilasa (PAH)}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Fenilcetonuria",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La PKU produce microcefalia, retraso mental, convulsiones y piel y ojos claros por déficit de {{c1::melanina}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Fenilcetonuria",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tratamiento de la PKU: dieta {{c1::restringida en fenilalanina de por vida}} con fórmula enriquecida con tirosina.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Fenilcetonuria",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tamizaje auditivo universal se hace con {{c1::emisiones otoacústicas (EOA)}} antes del alta.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.03.1.014",
+        "6.03.3.001",
+        "6.03.4.007"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 92"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lactante sin tamizaje auditivo en el primer control: indicar {{c1::emisiones otoacústicas}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Diciembre 2024",
+      "repaso": false,
+      "codigos": [
+        "6.03.1.014",
+        "6.03.4.007"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 92"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si la EOA falla, se repite al mes; si persiste alterada, se piden {{c1::PEATC (potenciales evocados)}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tamizaje auditivo",
+      "repaso": true,
+      "codigos": [
+        "6.03.1.014",
+        "6.03.4.007"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta internacional 1-3-6: tamizaje al mes, diagnóstico a los 3 meses e intervención a los {{c1::6 meses}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Hipoacusia neonatal",
+      "repaso": true,
+      "codigos": [
+        "6.03.1.014",
+        "6.03.3.001"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La EOA «pasa» {{c1::no descarta}} hipoacusia tardía ni neuropatía auditiva.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · EOA y PEATC",
+      "repaso": false,
+      "codigos": [
+        "6.03.4.007"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una EOA «refiere» no es diagnóstico: puede deberse a {{c1::vérnix, líquido en oído medio, ruido o movimiento}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · EOA y PEATC",
+      "repaso": false,
+      "codigos": [
+        "6.03.4.007"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En RN de UCIN o con factores de riesgo de hipoacusia se hace {{c1::PEATC directamente}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · EOA y PEATC",
+      "repaso": false,
+      "codigos": [
+        "6.03.1.014",
+        "6.03.4.007"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La principal causa de hipoacusia congénita no genética es la infección por {{c1::CMV}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Hipoacusia neonatal",
+      "repaso": false,
+      "codigos": [
+        "6.03.1.014"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Factor de riesgo de hipoacusia: estadía en UCIN > {{c1::5 días}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Factores de riesgo",
+      "repaso": false,
+      "codigos": [
+        "6.03.1.014"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tamizaje de cardiopatías críticas: oximetría en {{c1::mano derecha (preductal) y un pie (postductal)}} a las 24-48 horas.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tamizaje cardíaco",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.050"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La oximetría de tamizaje es positiva si hay diferencia > {{c1::3%}} entre la mano derecha y el pie.",
+      "extra": "También SatO2 < 90% en cualquier extremidad.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tamizaje cardíaco",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.050"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La cardiopatía congénita acianótica más frecuente es la {{c1::comunicación interventricular}}, con soplo holosistólico.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Cardiopatías",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.050"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 33",
+        "EUNACOM Diciembre 2017 · Pregunta 138"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síndrome de Down con mal incremento, soplo holosistólico y segundo ruido desdoblado: {{c1::canal auriculoventricular}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Cardiopatías",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.050"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 162",
+        "EUNACOM Julio 2017 · Pregunta 111"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El soplo continuo «en maquinaria» con pulsos saltones es del {{c1::ductus arterioso persistente}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Cardiopatías congénitas",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.050"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 89"
+      ]
+    },
+    {
+      "id": "c36",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cianosis intensa desde el primer día, con «huevo colgado» en la radiografía: {{c1::transposición de grandes arterias}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Cardiopatías",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.050"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 62",
+        "EUNACOM Julio 2019 · Pregunta 39"
+      ]
+    },
+    {
+      "id": "c37",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La prueba de hiperoxia sugiere cardiopatía ductus-dependiente si la PaO₂ es < {{c1::150 mmHg}} con FiO₂ 100%.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Manejo inicial",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.050"
+      ]
+    },
+    {
+      "id": "c38",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En cardiopatía ductus-dependiente se inicia {{c1::prostaglandina E1}} y se evita el exceso de oxígeno.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de tamizajes",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.050"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-21/04_hipotiroidismo-congenito-facies__nelson_p4372.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Hipotiroidismo congénito sin tratar",
+      "clave": "Facies abotargada, boca entreabierta y macroglosia",
+      "conducta": "TSH y T4 libre venosa; iniciar levotiroxina oral 10 a 15 mcg/kg/día",
+      "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 4372",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.075"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-21/01_tarjeta_papel_filtro__minsal-pku-2007.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Tarjeta de papel filtro para tamizaje",
+      "clave": "Una gota de sangre de talón llena cada círculo",
+      "conducta": "Muestra a las 40-48 h con alimentación láctea; se miden TSH y fenilalanina",
+      "fuente": "Normas Pesquisa PKU/HC MINSAL 2007, Foto 2",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.134"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "RN aún sin alimentación láctea: ¿qué haces con la muestra?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "¿Cuándo se toma la muestra de talón?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.0",
+      "pista": "TSH de talón alta: ¿qué confirmación pides?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.0.1",
+      "pista": "Fenilalanina alta: ¿qué sospechas?"
+    }
+  ]
+}

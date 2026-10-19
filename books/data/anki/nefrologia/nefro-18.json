@@ -1,0 +1,560 @@
+{
+  "classId": "nefro-18",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "ERC: anomalía de estructura o función renal por más de {{c1::3 meses}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definición",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.012",
+        "2.01.1.064"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "ERC por función: TFGe < {{c1::60 mL/min/1,73 m²}} con CKD-EPI.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Qué es ERC?",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.012",
+        "1.09.3.008"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Albuminuria como marcador de daño: RAC ≥ {{c1::30 mg/g}}.",
+      "extra": "O IPC ≥ 0,2 mg/mg.",
+      "origen": "clase:2",
+      "fuente": "Clase · Marcadores de daño",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Reconstrucción oficial"
+      ],
+      "codigos": [
+        "1.09.1.012",
+        "1.09.3.008"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Índice proteinuria/creatininuria (IPC) que marca daño renal: ≥ {{c1::0,2 mg/mg}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Marcadores de daño",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.012",
+        "1.09.3.008"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Otros marcadores de daño renal: sedimento patológico, riñones < {{c1::9 cm}}, poliquísticos o trasplante renal.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definición",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.012",
+        "2.01.1.064"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa nº 1 de ERC terminal en Chile y el mundo es la {{c1::nefropatía diabética}}, seguida de la nefroangioesclerosis.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.012",
+        "1.09.3.008"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "KDIGO: G1 ≥ {{c1::90}}; G2 {{c2::60–89}} mL/min (solo es ERC si hay daño renal).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Clasificación KDIGO",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.012",
+        "1.09.3.008"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "KDIGO: G3a {{c1::45–59}} y G3b {{c2::30–44}} mL/min.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Clasificación KDIGO",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.012",
+        "1.09.3.008"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "KDIGO: G4 {{c1::15–29}} mL/min; G5 < {{c2::15}} mL/min o diálisis.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Clasificación KDIGO",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.004",
+        "1.09.1.012"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Albuminuria KDIGO: A1 < 30; A2 {{c1::30–300}}; A3 > {{c2::300}} mg/g.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Clasificación KDIGO",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.012",
+        "1.09.3.008"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El clearance de creatinina de 24 h normal es {{c1::90–120 mL/min/1,73 m²}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Clearance de creatinina",
+      "repaso": false,
+      "codigos": [
+        "1.09.4.009",
+        "1.09.1.012"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El clearance de creatinina {{c1::sobreestima}} la TFG en 10–20 % porque la creatinina también se secreta en el túbulo.",
+      "extra": "Más aún en ERC avanzada.",
+      "origen": "clase:4",
+      "fuente": "Clase · Clearance de creatinina",
+      "repaso": false,
+      "codigos": [
+        "1.09.4.009",
+        "1.09.1.012"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El IECA o ARA-II es el pilar nefroprotector con albuminuria {{c1::A2 o A3}}, sea o no hipertenso.",
+      "extra": "Dilatan la arteriola eferente y bajan la presión intraglomerular.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Nefroprotección",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Reconstrucción oficial"
+      ],
+      "codigos": [
+        "1.09.3.008",
+        "1.09.1.017"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Diabético con IPC ≥ 0,2 o RAC ≥ 30: el error es mantener sin tratar porque {{c1::la PA está casi normal}}.",
+      "extra": "Se inicia IECA o ARA-II (enalapril).",
+      "origen": "clase:17",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.008",
+        "1.09.1.017"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras iniciar IECA/ARA-II es esperable que la creatinina suba hasta {{c1::30 %}}: no se suspende.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Nefroprotección",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Reconstrucción oficial"
+      ],
+      "codigos": [
+        "1.09.3.008",
+        "1.09.1.017"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se ajusta o pausa el IECA si la creatinina sube > 30 % o el potasio supera {{c1::5,5 mEq/L}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · IECA o ARA-II",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.008",
+        "1.09.1.017"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los iSGLT2 reducen {{c1::35–40 %}} los eventos renales, con o sin diabetes.",
+      "extra": "Dapagliflozina, empagliflozina.",
+      "origen": "clase:6",
+      "fuente": "Clase · Nefroprotección",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.008",
+        "1.09.1.017"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta de PA en ERC: < {{c1::130/80 mmHg}} (sistólica < 120 si es automatizada, KDIGO 2024).",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Nefroprotección",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.008",
+        "1.09.1.017"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Metformina: suspender si la TFG es < {{c1::30 mL/min}} por acidosis láctica.",
+      "extra": "Se ajusta bajo 45.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 122"
+      ],
+      "codigos": [
+        "1.09.3.008",
+        "1.09.1.017"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En ERC se suspenden los {{c1::AINE}}: son nefrotóxicos.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Fármacos en ERC",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.008",
+        "1.09.1.017"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Restricción dietética en ERC: sodio < {{c1::2 g/día}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Dieta en ERC",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.008",
+        "1.09.1.017"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Proteínas en G3–G5 no dializados: {{c1::0,6–0,8 g/kg/día}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Dieta en ERC",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.008",
+        "1.09.1.017"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES N° 1 cubre la ERC en etapas {{c1::4 y 5}} (TFG < 30).",
+      "extra": "Notificar si es Fonasa o Isapre.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Reconstrucción oficial"
+      ],
+      "codigos": [
+        "1.09.1.012",
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES N° 1: el nefrólogo debe atender en un máximo de {{c1::30 días}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Etapas 4 y 5: entra el GES",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.012",
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "Fístula AV autóloga al menos {{c1::6 meses}} antes de la diálisis, para que madure (arterialización).",
+      "extra": "Evita el catéter venoso central: bacteriemia y estenosis.",
+      "origen": "clase:9",
+      "fuente": "Clase · Fístula y terapia",
+      "repaso": true,
+      "imagen": "biblioteca/07_nefrologia/nefro-18/01_fistula_av_radiocefalica__kumar-clark_p886.jpg",
+      "preguntaReal": [
+        "EUNACOM Julio 2021 · Reconstrucción oficial"
+      ],
+      "codigos": [
+        "1.09.3.004",
+        "1.09.1.012"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES en etapa 5: hemodiálisis {{c1::3 veces por semana}}, 4 horas, o peritoneodiálisis.",
+      "extra": "Más EPO, hierro EV, vitamina D, quelantes y lista de espera de trasplante.",
+      "origen": "clase:9",
+      "fuente": "Clase · Fístula y terapia",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.011",
+        "4.03.3.006"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La complicación intradiálisis más frecuente es la {{c1::hipotensión}}: suspender ultrafiltración, Trendelenburg y SF 100–250 mL.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Complicaciones de diálisis",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.004",
+        "1.09.1.012"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hipotensión durante hemodiálisis: el error es dar {{c1::un vasopresor de entrada}}.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.004",
+        "1.09.1.012"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Peritonitis en peritoneodiálisis: > {{c1::100}} leucocitos/µL con > 50 % PMN en el efluente turbio.",
+      "extra": "Gram, cultivo y antibióticos intraperitoneales empíricos.",
+      "origen": "clase:10",
+      "fuente": "Clase · Complicaciones de diálisis",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.004",
+        "1.09.1.012"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Peritonitis por peritoneodiálisis: el error es {{c1::retirar el catéter de entrada}} o esperar el cultivo.",
+      "extra": "Solo se retira si no responde en 5 días.",
+      "origen": "clase:17",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.004",
+        "1.09.1.012"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El trasplante renal es el tratamiento de elección de la ERC etapa {{c1::5}}, idealmente antes de dializar.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Trasplante",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.011",
+        "4.03.3.006"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Inmunosupresión del trasplante: {{c1::tacrolimus + micofenolato + prednisona}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Rechazo e inmunosupresión",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.011",
+        "4.03.3.006"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trasplantado con dolor sobre el injerto, leucocituria, bacteriuria y alza aguda de creatinina: {{c1::pielonefritis del injerto}}.",
+      "extra": "Con tacrolimus en rango, la toxicidad es improbable.",
+      "origen": "clase:28",
+      "fuente": "Clase · Quiz Dic. 2024",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 103"
+      ],
+      "codigos": [
+        "1.09.3.011",
+        "4.03.3.006"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Falla renal de reciente diagnóstico (IRA vs IRC): examen inicial es la {{c1::ecografía renal}}.",
+      "extra": "Riñones pequeños y sin diferenciación corticomedular indican cronicidad.",
+      "origen": "clase:29",
+      "fuente": "Clase · Quiz Dic. 2017",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 48"
+      ],
+      "codigos": [
+        "1.09.4.005",
+        "1.09.1.012"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/07_nefrologia/nefro-18/01_fistula_av_radiocefalica__kumar-clark_p886.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Fístula arteriovenosa radiocefálica (Brescia-Cimino)",
+      "clave": "Anastomosis radio-cefálica en brazo no dominante, vena arterializada",
+      "conducta": "ERC etapa 4: notificar GES N° 1, nefrólogo en ≤ 30 días y fístula al menos 6 meses antes de dializar",
+      "fuente": "Kumar y Clark, p. 886",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.004",
+        "1.09.1.012"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "ERC con albuminuria: ¿A2 o A3?",
+      "codigos": [
+        "1.09.1.012",
+        "1.09.3.008"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0",
+      "pista": "Albuminuria A2/A3: ¿qué tratamiento?",
+      "codigos": [
+        "1.09.1.012",
+        "1.09.3.008"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0.0.1",
+      "pista": "TFG < 30: ¿qué se activa?",
+      "codigos": [
+        "1.09.1.012",
+        "1.09.3.008"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1",
+      "pista": "Sin albuminuria: ¿qué manejo?",
+      "codigos": [
+        "1.09.1.012",
+        "1.09.3.008"
+      ]
+    }
+  ]
+}

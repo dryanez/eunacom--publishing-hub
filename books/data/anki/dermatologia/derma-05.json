@@ -1,0 +1,521 @@
+{
+  "classId": "derma-05",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La psoriasis se asocia fuertemente al antígeno HLA-{{c1::Cw6}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Eje patogénico de la psoriasis: linfocitos Th1 y Th17 estimulados por {{c1::IL-23}}, que producen IL-17, IL-22 y TNF-alfa.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la psoriasis el recambio de queratinocitos baja de 28 días a solo {{c1::3 a 4 días}}.",
+      "extra": "Paraqueratosis y agranulosis explican la escama.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Psoriasis vulgar en placas: escamas {{c1::blanco-nacaradas}} en codos, rodillas, lumbosacra y cuero cabelludo, bilateral y simétrica.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Semiología",
+      "repaso": true,
+      "imagen": "biblioteca/11_dermatologia/derma-05/01_psoriasis-en-placas__amir-derma_p39.jpg",
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 120",
+        "EUNACOM Julio 2015 · Pregunta 88"
+      ],
+      "codigos": [
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Brocq 1.º: al raspar la placa se desprenden virutas blanquecinas = signo de la {{c1::bujía (mancha de cera)}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Brocq",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Brocq 2.º: tras la bujía se levanta una película transparente continua, la membrana {{c1::de Duncan-Dulck}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Brocq",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signo patognomónico de psoriasis: {{c1::Auspitz}}, punteado hemorrágico (rocío sangrante) al retirar la membrana.",
+      "extra": "Papilas dérmicas elongadas con capilares dilatados.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 120"
+      ],
+      "codigos": [
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fenómeno isomórfico de {{c1::Koebner}}: lesiones psoriásicas sobre piel sana traumatizada (cicatriz, herida, rascado).",
+      "extra": "También en vitíligo y liquen plano.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Koebner",
+      "repaso": true,
+      "imagen": "biblioteca/11_dermatologia/derma-05/04_koebner__cto-derma_p10.jpg",
+      "codigos": [
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Psoriasis ungueal: pitting {{c1::en dedal}}, mancha en «gota de aceite», hiperqueratosis subungueal y onicolisis.",
+      "extra": "Cerca de 50% de los pacientes.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Uñas",
+      "repaso": false,
+      "imagen": "biblioteca/11_dermatologia/derma-05/03_pitting-ungueal__amir-derma_p40.jpg",
+      "codigos": [
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Psoriasis en gotas (guttata): aparece 1 a 2 semanas tras {{c1::faringoamigdalitis estreptocócica}}, en niños y jóvenes.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Guttata",
+      "repaso": true,
+      "imagen": "biblioteca/11_dermatologia/derma-05/02_guttata__amir-derma_p40.jpg",
+      "codigos": [
+        "6.01.1.024",
+        "1.11.1.001"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de psoriasis guttata: {{c1::antibiótico (amoxicilina/penicilina)}} + fototerapia UVB.",
+      "extra": "Excelente pronóstico.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla psoriasis",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Psoriasis invertida: placas rojas, brillantes y húmedas {{c1::sin escamas}} en pliegues; se confunde con intertrigo candidiásico.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Invertida",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.024",
+        "1.11.1.001"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Eritrodermia y psoriasis pustulosa generalizada (von Zumbusch) son formas {{c1::potencialmente letales}} con hipotermia y sepsis.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Formas graves",
+      "repaso": false,
+      "imagen": "biblioteca/19_dermatologia/derma-05/atlas_283_psoriasis_pustulosa_generaliza.jpg",
+      "codigos": [
+        "6.01.1.024",
+        "6.01.2.004"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Artritis psoriásica: seronegativa (FR negativo), asociada a HLA-{{c1::B27}}, con compromiso de interfalángicas distales.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Artritis psoriásica",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.001",
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Artritis psoriásica afecta al {{c1::10% a 30%}} de los pacientes con psoriasis.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Artritis psoriásica",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.024",
+        "1.11.1.001"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dactilitis («dedo en salchicha») + pitting ungueal + artritis de IFD = artritis {{c1::psoriásica}}.",
+      "extra": "Las uñas pueden dar la pista antes que la piel.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Dic 2018",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 29",
+        "EUNACOM Diciembre 2025 · Pregunta 111"
+      ],
+      "codigos": [
+        "1.11.1.001",
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Psoriásico con lumbago inflamatorio y punteado ungueal: examen de elección {{c1::RMN de sacroilíacas}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Artritis psoriásica",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 129"
+      ],
+      "codigos": [
+        "1.11.1.001",
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Psoriasis leve (< 10% de superficie): tópico combinado de corticoide potente + {{c1::calcipotriol}}.",
+      "extra": "Calcipotriol frena la proliferación; el corticoide, la inflamación.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Psoriasis moderada a grave: compromiso mayor a {{c1::10%}} de la superficie corporal o ungueal/articular extenso.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fototerapia en psoriasis moderada a grave: {{c1::UVB de banda estrecha}} o PUVA.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fármaco sistémico clásico de primera línea en psoriasis: {{c1::metotrexato}} oral semanal + ácido fólico.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Metotrexato en psoriasis: {{c1::15 a 25 mg}} una vez por semana.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Otros sistémicos clásicos en psoriasis: acitretina y {{c1::ciclosporina A}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Biológicos en psoriasis: anti-TNF (adalimumab), anti-IL-17 (secukinumab) y anti-{{c1::IL-23}} (ustekinumab, guselkumab).",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "Psoriasis moderada a grave en personas de {{c1::15 años y más}} tiene garantía GES N.° {{c2::84}}.",
+      "extra": "Cubre fototerapia, metotrexato y biológicos.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Regla vital: {{c1::NUNCA corticoides sistémicos}} (orales o IV) en psoriasis; el rebote da pustulosa o eritrodermia letal.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Regla de oro",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Metotrexato requiere control de hemograma y perfil hepático por {{c1::hepatotoxicidad y mielosupresión}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Seguridad",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.001"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Acitretina es teratogénica: se prohíbe el embarazo durante {{c1::3 años}} tras suspenderla.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Seguridad",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antes de iniciar un biológico se descarta {{c1::tuberculosis latente}} (PPD o QuantiFERON).",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Seguridad",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Eritrodermia: eritema y descamación de más del {{c1::90%}} de la superficie corporal; se hospitaliza.",
+      "extra": "Hipotermia, hipoalbuminemia, alto gasto y sepsis.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Eritrodermia",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.004",
+        "1.11.1.001"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Líquen plano: las «seis P» y estrías de {{c1::Wickham}}; se asocia a hepatitis C (pedir serología).",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Líquen plano",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.015"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El líquen oral erosivo tiene riesgo cercano a {{c1::1%}} de carcinoma espinocelular: se deriva y controla.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Líquen plano",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.015"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-05/01_psoriasis-en-placas__amir-derma_p39.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Psoriasis vulgar en placas",
+      "clave": "Placas rojas bien delimitadas con escama gruesa nacarada en extensión; Auspitz y Koebner",
+      "conducta": "Leve: corticoide potente + calcipotriol; moderada-grave: fototerapia/metotrexato/biológico; nunca corticoide oral",
+      "fuente": "Manual AMIR Dermatología, p. 39",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-05/03_pitting-ungueal__amir-derma_p40.jpg",
+      "pregunta": "¿Qué muestra y qué sospechas?",
+      "diagnostico": "Pitting ungueal psoriásico",
+      "clave": "Pequeñas depresiones puntiformes «en dedal» en la uña",
+      "conducta": "Buscar artritis psoriásica (IFD, dactilitis); derivar a reumatología si hay síntomas",
+      "fuente": "Manual AMIR Dermatología, p. 40",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.001",
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/19_dermatologia/derma-05/atlas_283_psoriasis_pustulosa_generaliza.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Psoriasis pustulosa generalizada (von Zumbusch)",
+      "clave": "Pústulas estériles confluentes sobre eritema, con fiebre",
+      "conducta": "Hospitalización urgente; nunca corticoides sistémicos",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.024",
+        "1.11.1.001"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Psoriasis < 10% de superficie: ¿qué tratamiento tópico?",
+      "codigos": [
+        "6.01.1.024"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1",
+      "pista": "Piel extensa sin artritis: ¿qué opciones?",
+      "codigos": [
+        "1.11.1.001"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1",
+      "pista": "¿Qué fármaco sistémico jamás se usa?",
+      "codigos": [
+        "6.01.1.024"
+      ]
+    }
+  ]
+}

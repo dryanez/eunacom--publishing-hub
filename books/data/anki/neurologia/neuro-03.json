@@ -1,0 +1,460 @@
+{
+  "classId": "neuro-03",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Arteriolopatía hipertensiva causa {{c1::80 %}} de las HIE; angiopatía amiloide 15–20 %.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La HIE hipertensiva sangra en núcleos {{c1::profundos}}: putamen, tálamo, puente y cerebelo.",
+      "extra": "Lipohialinosis y microaneurismas de Charcot-Bouchard.",
+      "origen": "clase:1",
+      "fuente": "Clase · Etiología",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hemorragia lobar recurrente en mayor de 65–70 años: {{c1::angiopatía amiloide}}.",
+      "extra": "Microsangrados corticales en gradiente de eco o SWI.",
+      "origen": "clase:1",
+      "fuente": "Clase · Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El hematoma de la HIE se expande activamente en las primeras {{c1::3 a 6 horas}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hemorragia putaminal (la más frecuente, {{c1::50 %}}): hemiplejia faciobraquiocrural contralateral y mirada hacia la lesión.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Topografía",
+      "repaso": true,
+      "imagen": "biblioteca/09_neurologia/neuro-03/01_hematoma-intraparenquimatoso-tc__cto-neuro_p42.jpg",
+      "codigos": [
+        "1.10.2.007",
+        "1.10.2.009"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hemorragia talámica: predomina la {{c1::hemihipoestesia}} contralateral sobre el déficit motor.",
+      "extra": "Ojos hacia abajo y adentro, miosis arreactiva.",
+      "origen": "clase:3",
+      "fuente": "Clase · Topografía",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 26"
+      ],
+      "codigos": [
+        "1.10.2.007",
+        "1.10.2.009"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hemorragia pontina: coma fulminante con pupilas {{c1::puntiformes reactivas}} y sin reflejos oculocefálicos.",
+      "extra": "Pronóstico ominoso.",
+      "origen": "clase:4",
+      "fuente": "Clase · Fosa posterior",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.009",
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hemorragia cerebelosa: cefalea occipital, vértigo y vómitos, {{c1::sin debilidad}} de extremidades al inicio.",
+      "extra": "Por eso se subestima.",
+      "origen": "clase:4",
+      "fuente": "Clase · Fosa posterior",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.2.009"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Vértigo súbito con incapacidad de ponerse de pie, dismetría y nistagmo multidireccional en hipertenso: pedir {{c1::TAC de cerebro}}.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "EUNACOM Diciembre 2025 · Pregunta 29",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.2.009"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Examen de elección en agudo: TAC sin contraste; la sangre es {{c1::hiperdensa}} desde el primer minuto.",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 26"
+      ],
+      "codigos": [
+        "1.10.2.009",
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "HIE con PAS 150–220 mmHg: bajar la PAS a {{c1::130–140 mmHg}}, idealmente en 1 a 2 horas.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Presión arterial",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.2.009"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la HIE, la PAS nunca debe bajar de {{c1::130 mmHg}}; no se tolera hasta 220 como en el infarto.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fármacos EV para la PA en HIE: {{c1::labetalol o nicardipino}} (5–15 mg/h).",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Presión arterial",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "HIE con acenocumarol (INR > 1.4): {{c1::CCP de 4 factores}} + vitamina K EV.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Reversión",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Vitamina K1 en la reversión: {{c1::10 mg}} EV lenta, junto al CCP para evitar rebote del INR.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Reversión",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "HIE con acenocumarol: el plasma fresco es {{c1::inferior al CCP}}; solo si no hay CCP.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "HIE con dabigatrán: antídoto {{c1::idarucizumab}} 5 g EV.",
+      "extra": "Protamina o vitamina K son el error.",
+      "origen": "clase:7",
+      "fuente": "Clase · Reversión",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "HIE con heparina: {{c1::protamina}}, 1 mg por cada 100 UI de HNF.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Reversión",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hematoma cerebeloso ≥ {{c1::3 cm}} o con compresión de tronco o hidrocefalia: evacuación suboccipital urgente.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Cirugía",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.2.009"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hematoma cerebeloso grande sin hemiplejia: el error es {{c1::observarlo}}; hay riesgo de enclavamiento.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.2.009"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cirugía supratentorial en casos seleccionados: hematoma lobar > {{c1::30 mL}} a < 1 cm de la corteza con deterioro.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Cirugía",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.2.009"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "HIE con hidrocefalia o sangre ventricular: {{c1::drenaje ventricular externo}} y monitoreo de PIC.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · HIE",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.009",
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "ICH Score: Glasgow 3–4 suma {{c1::2}} puntos; volumen ≥ 30 mL, sangre ventricular, infratentorial y edad ≥ 80 suman 1 cada uno.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · ICH Score",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.009",
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Mortalidad ICH Score a 30 días: 3 puntos {{c1::72 %}}; 4 puntos 97 %.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · ICH Score",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.2.009"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "HTE: PIC sostenida sobre {{c1::20 mmHg}}; la PPC se calcula PAM − PIC con meta ≥ 60.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Hipertensión endocraneana",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.009"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tríada de Cushing: HTA, {{c1::bradicardia}} y respiración irregular.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Hipertensión endocraneana",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.009"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante masa con efecto de volumen la {{c1::punción lumbar}} está contraindicada.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · HTE",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.009"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Osmoterapia en HTE con herniación: manitol 20 % {{c1::0.25–1 g/kg}} en 15–20 min.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · HTE",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.009"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dexametasona sirve en edema de tumor y absceso; {{c1::no}} en TEC, ACV ni hemorragia.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · HTE",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.009"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-03/02_hematoma_cerebeloso_tc__sherman_p142.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Hematoma cerebeloso",
+      "clave": "Gran mancha hiperdensa en un hemisferio cerebeloso que comprime el tronco",
+      "conducta": "Si es ≥ 3 cm o comprime tronco/hidrocefalia: evacuación suboccipital urgente",
+      "fuente": "Sherman, Atlas of Clinical Emergency Medicine, p. 142",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.2.009"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_verificadas/143_neuro_Hemorragia_intracerebral__ctmri_path_p90_1.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Hematoma lobar con edema",
+      "clave": "Hiperdensidad cortical con edema perilesional",
+      "conducta": "Pensar en angiopatía amiloide si es mayor y normotenso; PAS 130–140 y revertir anticoagulación",
+      "fuente": "CT & MRI Pathology: A Pocket Atlas, p. 90",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.007",
+        "1.10.2.009"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1.0.0",
+      "pista": "Hematoma cerebeloso ≥ 3 cm: ¿conducta?",
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.1",
+      "pista": "Hematoma profundo supratentorial: ¿conducta?",
+      "codigos": [
+        "1.10.2.007"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.2",
+      "pista": "Hemorragia con hidrocefalia: ¿conducta?",
+      "codigos": [
+        "1.10.2.007"
+      ]
+    }
+  ]
+}

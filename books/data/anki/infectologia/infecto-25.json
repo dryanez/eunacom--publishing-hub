@@ -1,0 +1,675 @@
+{
+ "classId": "infecto-25",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La influenza se transmite por {{c1::gotitas}} y tiene brotes invernales.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Influenza",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.016"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Influenza: fiebre alta de inicio {{c1::brusco}}, mialgias, cefalea y tos seca.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Fiebre brusca, mialgias y tos seca",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.016"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 141",
+    "EUNACOM Julio 2013 · Pregunta 156"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El resfrío se distingue de la influenza porque predomina la rinorrea y {{c1::no hay fiebre alta}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Fiebre brusca, mialgias y tos seca",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.016"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La influenza dura {{c1::3-7 días}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Influenza",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.016"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En temporada, el diagnóstico de influenza es {{c1::clínico}}; no se pide PCR a todos.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Fiebre brusca, mialgias y tos seca",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.016"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 141"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "PCR o inmunofluorescencia de aspirado nasofaríngeo se reserva para hospitalizados, graves o {{c1::vigilancia}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Fiebre brusca, mialgias y tos seca",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.016"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Complicaciones de la influenza: neumonía viral o bacteriana secundaria por {{c1::S. pneumoniae}} y S. aureus.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Quién se complica",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.016"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La influenza descompensa enfermedades crónicas: EPOC, asma e {{c1::insuficiencia cardíaca}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Quién se complica",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.016"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Niños con influenza no reciben {{c1::aspirina}} por síndrome de Reye.",
+   "extra": "",
+   "origen": "clase:15",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.016"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Grupos de riesgo de influenza: ≥ {{c1::65 años}}, menores de 5 años, embarazadas, obesidad mórbida e inmunosupresión.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Quién se complica",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.016"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 156"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Antiviral de la influenza: {{c1::oseltamivir}} (inhibidor de la neuraminidasa).",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Oseltamivir: a quién y cuándo",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.016"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Oseltamivir en adultos: {{c1::75 mg}} cada 12 h por 5 días.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Oseltamivir: a quién y cuándo",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.016"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Oseltamivir idealmente dentro de las primeras {{c1::48 horas}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Oseltamivir: a quién y cuándo",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.016"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En influenza grave u hospitalizada el oseltamivir se da {{c1::sin esperar}} las 48 horas ni la confirmación.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Oseltamivir: a quién y cuándo",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.016"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Adulto sano con influenza leve: manejo {{c1::sintomático}} (paracetamol); el oseltamivir es opcional.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Oseltamivir: a quién y cuándo",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.016"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 141"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hombre de 66 años hipertenso con cuadro gripal de 3 días, sin gravedad: según el banco, se indica {{c1::acetaminofeno}}.",
+   "extra": "Respuesta del banco; verificar frente al riesgo por edad.",
+   "origen": "clase:3",
+   "fuente": "Clase · Oseltamivir: a quién y cuándo",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.016"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 156"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Oseltamivir en niños ≤ 15 kg: {{c1::30 mg}} cada 12 h.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Oseltamivir: a quién y cuándo",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.016"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Oseltamivir en niños de 15-23 kg: {{c1::45 mg}} cada 12 h.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Oseltamivir: a quién y cuándo",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.016"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Oseltamivir en niños de 23-40 kg: {{c1::60 mg}} cada 12 h.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Oseltamivir: a quién y cuándo",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.016"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Oseltamivir en lactantes < 1 año: {{c1::3 mg/kg}} por dosis.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tratamiento antiviral",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.016"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Vacuna de influenza: inactivada y {{c1::anual}}, gratuita en el PNI para niños de 6 meses a 5.º básico.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Oseltamivir: a quién y cuándo",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.016"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La quimioprofilaxis postexposición con oseltamivir es solo para contactos de alto riesgo {{c1::no vacunados}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Oseltamivir: a quién y cuándo",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.016"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El COVID-19 se confirma con PCR o test de {{c1::antígeno}}, con mejor rendimiento en los primeros 5-7 días.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Clasificar por gravedad",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.029",
+    "2.01.2.144"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "COVID-19 leve: sin {{c1::disnea ni neumonía}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Clasificar por gravedad",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.029",
+    "2.01.2.144"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "COVID-19 moderado: neumonía con SpO₂ ≥ {{c1::94%}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Clasificar por gravedad",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.029",
+    "2.01.2.144"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "COVID-19 grave: SpO₂ < 94%, FR > {{c1::30}} rpm o infiltrados > 50%.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 COVID-19 adulto",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.029",
+    "2.01.2.144"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "COVID-19 crítico: insuficiencia respiratoria, shock o falla {{c1::multiorgánica}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Clasificar por gravedad",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.029",
+    "2.01.2.144"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Factores de progresión de COVID-19: edad, obesidad, diabetes, enfermedad cardiovascular o renal, inmunosupresión y {{c1::no estar vacunado}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Clasificar por gravedad",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.029",
+    "2.01.2.144"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "COVID-19 leve a moderado: tratamiento {{c1::sintomático}}, aislamiento y signos de alarma.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Tratamiento del COVID-19",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.029",
+    "2.01.2.144"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "COVID-19 con riesgo de progresión: {{c1::nirmatrelvir/ritonavir}} 300/100 mg cada 12 h por 5 días.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Tratamiento del COVID-19",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.029",
+    "2.01.2.144"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Nirmatrelvir/ritonavir se inicia en los primeros {{c1::5 días}} de síntomas.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Tratamiento del COVID-19",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.029",
+    "2.01.2.144"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Alternativa antiviral en COVID-19: {{c1::remdesivir}} por 3 días.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.029",
+    "2.01.2.144"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En COVID-19 los antibióticos solo se usan ante {{c1::sobreinfección bacteriana}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Tratamiento del COVID-19",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.029",
+    "2.01.2.144"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "COVID-19 con oxígeno: {{c1::dexametasona}} 6 mg al día por hasta 10 días.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Tratamiento del COVID-19",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.029",
+    "2.01.2.144"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La dexametasona en COVID-19 leve sin oxígeno no tiene {{c1::beneficio}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Tratamiento del COVID-19",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.029",
+    "2.01.2.144"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se hospitaliza COVID-19 con SpO₂ < {{c1::94%}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Tratamiento del COVID-19",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.029",
+    "2.01.2.144"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "COVID-19 en el niño: habitualmente {{c1::leve}} (fiebre, tos, rinorrea, síntomas digestivos).",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · COVID-19 en el niño",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.144"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signos de gravedad en el niño con COVID-19: retracciones, SpO₂ < 94%, rechazo alimentario, {{c1::somnolencia}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · COVID-19 en el niño",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.144"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antiviral en COVID-19 pediátrico solo para adolescentes de riesgo: ≥ {{c1::12 años}} y ≥ 40 kg.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · COVID-19 en el niño",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.144"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El MIS-C aparece {{c1::2 a 6 semanas}} después de COVID-19 o del contacto.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Síndrome inflamatorio multisistémico pediátrico",
+   "repaso": true,
+   "codigos": [
+    "2.01.2.144"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 36"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "MIS-C: fiebre ≥ {{c1::3 días}} con compromiso de varios órganos.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Síndrome inflamatorio multisistémico pediátrico",
+   "repaso": true,
+   "codigos": [
+    "2.01.2.144"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 36"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El MIS-C puede simular apendicitis por dolor abdominal y {{c1::vómitos}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Síndrome inflamatorio multisistémico pediátrico",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.144"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 36"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Laboratorio del MIS-C: PCR, ferritina, dímero D, troponina y BNP {{c1::elevados}}, con linfopenia y trombocitopenia.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Síndrome inflamatorio multisistémico pediátrico",
+   "repaso": true,
+   "codigos": [
+    "2.01.2.144"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 36"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "MIS-C se diferencia de Kawasaki por la edad mayor, los síntomas digestivos y el {{c1::shock}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 MIS-C",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.144"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "MIS-C es urgencia: UCI pediátrica con {{c1::inmunoglobulina EV}}, corticoides y ecocardiograma.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Síndrome inflamatorio multisistémico pediátrico",
+   "repaso": true,
+   "codigos": [
+    "2.01.2.144"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 36"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-25/01_mis-c-tac-abdominal__nelson_p2620.jpg",
+   "pregunta": "¿Qué muestra y qué cuadro sospechas?",
+   "diagnostico": "MIS-C con compromiso digestivo",
+   "clave": "Dolor abdominal y vómitos que simulan apendicitis, 2-6 semanas tras COVID-19",
+   "conducta": "UCI pediátrica: inmunoglobulina EV, corticoides y ecocardiograma",
+   "fuente": "Nelson 22.ª ed., Fig. 311.4",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.144"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 36"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Fiebre y mialgias con SpO₂ < 94%: ¿qué haces?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1",
+   "pista": "Cuadro leve con riesgo: ¿qué indicas?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.2",
+   "pista": "Cuadro leve en persona sana: ¿qué manejo?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.3.0",
+   "pista": "Niño con COVID previo y PCR/troponina altas: ¿dónde?"
+  }
+ ]
+}

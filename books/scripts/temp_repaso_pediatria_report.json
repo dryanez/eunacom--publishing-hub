@@ -1,0 +1,1014 @@
+{
+ "report": {
+  "topics": {
+   "T18.1": {
+    "steps": 7,
+    "split": false,
+    "algo": {
+     "scale": 0.8,
+     "orient": "td"
+    },
+    "algoH": 270,
+    "traps": 0,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T18.2": {
+    "steps": 15,
+    "split": false,
+    "algo": {
+     "scale": 0.9,
+     "orient": "lr"
+    },
+    "algoH": 300,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T18.3": {
+    "steps": 12,
+    "split": false,
+    "algo": {
+     "scale": 0.93,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 300,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T18.4": {
+    "steps": 9,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 245,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T18.26": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 0.93,
+     "orient": "td"
+    },
+    "algoH": 290,
+    "traps": 0,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T18.28": {
+    "steps": 9,
+    "split": false,
+    "algo": {
+     "scale": 0.84,
+     "orient": "td"
+    },
+    "algoH": 245,
+    "traps": 0,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T18.5": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T18.6": {
+    "steps": 10,
+    "split": false,
+    "algo": {
+     "scale": 0.91,
+     "orient": "lr"
+    },
+    "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T18.7": {
+    "steps": 9,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 245,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T18.8": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T18.23": {
+    "steps": 20,
+    "split": false,
+    "algo": {
+     "scale": 0.83,
+     "orient": "td"
+    },
+    "algoH": 230,
+    "traps": 1,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T18.24": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 0.93,
+     "orient": "td"
+    },
+    "algoH": 270,
+    "traps": 0,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T18.9": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T18.10": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 270,
+    "traps": 2,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T18.11": {
+    "steps": 10,
+    "split": false,
+    "algo": {
+     "scale": 0.82,
+     "orient": "td"
+    },
+    "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T18.12": {
+    "steps": 12,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T18.13": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T18.14": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T18.25": {
+    "steps": 16,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 300,
+    "traps": 2,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T18.27": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 0.91,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 360,
+    "traps": 0,
+    "ask": 4,
+    "tight": true,
+    "overflow": false
+   },
+   "T18.15": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T18.16": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 270,
+    "traps": 0,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T18.17": {
+    "steps": 10,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T18.18": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T18.19": {
+    "steps": 4,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T18.20": {
+    "steps": 6,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 300,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T18.21": {
+    "steps": 17,
+    "split": false,
+    "algo": {
+     "scale": 0.91,
+     "orient": "lr"
+    },
+    "algoH": 280,
+    "traps": 2,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T18.22": {
+    "steps": 12,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   }
+  },
+  "warnings": [],
+  "pages": 41,
+  "where": {
+   "COVER": 1,
+   "IDX": 2,
+   "T18.1": 4,
+   "T18.2": 5,
+   "T18.3": 6,
+   "T18.4": 7,
+   "T18.26": 8,
+   "T18.28": 9,
+   "T18.5": 10,
+   "T18.6": 12,
+   "T18.7": 13,
+   "T18.8": 14,
+   "T18.23": 15,
+   "T18.24": 16,
+   "T18.9": 17,
+   "T18.10": 18,
+   "T18.11": 19,
+   "T18.12": 20,
+   "T18.13": 21,
+   "T18.14": 22,
+   "T18.25": 23,
+   "T18.27": 24,
+   "T18.15": 25,
+   "T18.16": 26,
+   "T18.17": 27,
+   "T18.18": 28,
+   "T18.19": 30,
+   "T18.20": 31,
+   "T18.21": 32,
+   "T18.22": 33,
+   "NUM": 34,
+   "DRUG": 37,
+   "GES": 38,
+   "PLAN": 39,
+   "PRIO": 41
+  }
+ },
+ "stars": [
+  {
+   "t": "18.1",
+   "real": 19,
+   "stars": 3,
+   "lg": [
+    8,
+    9,
+    20,
+    73
+   ]
+  },
+  {
+   "t": "18.2",
+   "real": 18,
+   "stars": 3,
+   "lg": [
+    10
+   ]
+  },
+  {
+   "t": "18.3",
+   "real": 19,
+   "stars": 3,
+   "lg": [
+    11
+   ]
+  },
+  {
+   "t": "18.4",
+   "real": 11,
+   "stars": 3,
+   "lg": [
+    76,
+    80
+   ]
+  },
+  {
+   "t": "18.26",
+   "real": 1,
+   "stars": 1,
+   "lg": []
+  },
+  {
+   "t": "18.28",
+   "real": 1,
+   "stars": 1,
+   "lg": [
+    85
+   ]
+  },
+  {
+   "t": "18.5",
+   "real": 8,
+   "stars": 2,
+   "lg": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    53,
+    74,
+    90
+   ]
+  },
+  {
+   "t": "18.6",
+   "real": 3,
+   "stars": 1,
+   "lg": [
+    26,
+    54
+   ]
+  },
+  {
+   "t": "18.7",
+   "real": 9,
+   "stars": 2,
+   "lg": [
+    27,
+    28
+   ]
+  },
+  {
+   "t": "18.8",
+   "real": 6,
+   "stars": 2,
+   "lg": [
+    29,
+    30,
+    31
+   ]
+  },
+  {
+   "t": "18.23",
+   "real": 5,
+   "stars": 2,
+   "lg": [
+    40,
+    45
+   ]
+  },
+  {
+   "t": "18.24",
+   "real": 6,
+   "stars": 2,
+   "lg": [
+    46,
+    65
+   ]
+  },
+  {
+   "t": "18.9",
+   "real": 0,
+   "stars": 1,
+   "lg": [
+    5,
+    6,
+    32,
+    33,
+    34,
+    35,
+    36,
+    71,
+    72,
+    84
+   ]
+  },
+  {
+   "t": "18.10",
+   "real": 37,
+   "stars": 3,
+   "lg": [
+    47,
+    48,
+    67
+   ]
+  },
+  {
+   "t": "18.11",
+   "real": 14,
+   "stars": 3,
+   "lg": [
+    49,
+    50
+   ]
+  },
+  {
+   "t": "18.12",
+   "real": 10,
+   "stars": 3,
+   "lg": [
+    51,
+    57
+   ]
+  },
+  {
+   "t": "18.13",
+   "real": 15,
+   "stars": 3,
+   "lg": []
+  },
+  {
+   "t": "18.14",
+   "real": 5,
+   "stars": 2,
+   "lg": [
+    52,
+    86
+   ]
+  },
+  {
+   "t": "18.25",
+   "real": 2,
+   "stars": 1,
+   "lg": [
+    59
+   ]
+  },
+  {
+   "t": "18.27",
+   "real": 4,
+   "stars": 1,
+   "lg": [
+    83
+   ]
+  },
+  {
+   "t": "18.15",
+   "real": 11,
+   "stars": 3,
+   "lg": [
+    68
+   ]
+  },
+  {
+   "t": "18.16",
+   "real": 6,
+   "stars": 2,
+   "lg": [
+    69
+   ]
+  },
+  {
+   "t": "18.17",
+   "real": 11,
+   "stars": 3,
+   "lg": [
+    70
+   ]
+  },
+  {
+   "t": "18.18",
+   "real": 2,
+   "stars": 1,
+   "lg": [
+    63
+   ]
+  },
+  {
+   "t": "18.19",
+   "real": 1,
+   "stars": 1,
+   "lg": []
+  },
+  {
+   "t": "18.20",
+   "real": 2,
+   "stars": 1,
+   "lg": [
+    87,
+    88
+   ]
+  },
+  {
+   "t": "18.21",
+   "real": 10,
+   "stars": 3,
+   "lg": [
+    3,
+    89
+   ]
+  },
+  {
+   "t": "18.22",
+   "real": 7,
+   "stars": 2,
+   "lg": []
+  }
+ ],
+ "lg": {
+  "name": "Pediatría General",
+  "file": "Libro_Gordo_Pediatria_90Q.pdf",
+  "unassigned": [
+   1,
+   2,
+   4,
+   7,
+   19,
+   21,
+   22,
+   23,
+   24,
+   25,
+   37,
+   38,
+   39,
+   41,
+   42,
+   43,
+   44,
+   55,
+   56,
+   58,
+   60,
+   61,
+   62,
+   64,
+   66,
+   75,
+   77,
+   78,
+   79,
+   81,
+   82
+  ],
+  "byLabel": 40,
+  "byCode": 11,
+  "total": 90,
+  "unassignedInfo": [
+   {
+    "n": 1,
+    "title": "Leucemias",
+    "code": "2.01.1.032",
+    "stem": "Una niña de 9 meses de edad, estuvo alimentada con lactancia materna exclusiva hasta los 6 meses, momento en que inició la alimentación sólida. Sin embargo, la madre, vegana estricta, consideró que la niña no toleraba bien los ali"
+   },
+   {
+    "n": 2,
+    "title": "Tumores sólidos",
+    "code": "2.01.1.037",
+    "stem": "Un niño de 7 años presenta orinas oscuras, desde hace 5 días, sin otros síntomas. Al examen físico se palpa una masa abdominal en el flanco derecho de 10 cm de diámetro. Se solicitan exámenes entre los que destacan bilirrubina: 1,"
+   },
+   {
+    "n": 4,
+    "title": "Hemorragia digestiva",
+    "code": "2.01.2.010",
+    "stem": "Un lactante de 8 meses, presenta un cuadro de malestar general y vómitos alimenta- rios en varias oportunidades, durante las últimas horas. En el último episodio de vómi- tos, se agregó escasa hematemesis, por lo que acude al serv"
+   },
+   {
+    "n": 7,
+    "title": "SARS Cov 2 COVID 19",
+    "code": "2.01.2.144",
+    "stem": "Un adolescente de 14 años presenta un cuadro de fiebre de 39ºC, desde hace 3 días, asociado a malestar general, dolor abdominal, vómitos y diarrea, seguido de marcado compromiso, por lo que acude al servicio de urgencia. Al examen"
+   },
+   {
+    "n": 19,
+    "title": "Constipación",
+    "code": "2.01.1.038",
+    "stem": "Un niño de 4 años presenta incontinencia fecal, en algunas ocasiones, desde hace dos meses. Sin embargo, en otras ocasiones, pasan muchos días sin defecar y cuando lo hace, sus deposiciones son duras y caprinas. Su examen físico n"
+   },
+   {
+    "n": 21,
+    "title": "Malformaciones vasculares cutáneas",
+    "code": "2.01.1.111",
+    "stem": "Un recién nacido de 10 días presenta un hemangioma en el párpado derecho, de 3 cm de diámetro, que cubre parcialmente la visión. ¿Cuál es la conducta más adecuada en este momento?"
+   },
+   {
+    "n": 22,
+    "title": "Compromiso de conciencia",
+    "code": "2.01.2.004",
+    "stem": "[URGENCIA: Compromiso de conciencia · 2.01.2.004] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/Hospital) con signos cardinales de Compromiso de conciencia. Al examen físico destaca compromiso hemodinámico"
+   },
+   {
+    "n": 23,
+    "title": "Hipertensión endocraneana",
+    "code": "2.01.2.011",
+    "stem": "Un niño de 4 años presenta cefalea de 1 mes de evolución, que es mayor en las mañanas y se asocia a diplopía. Además, ha presentado náuseas y vómitos alimentarios en el último tiempo, que han aumentado su frecuencia. ¿Cuál es la c"
+   },
+   {
+    "n": 24,
+    "title": "Muerte súbita-ALTE, BRUE",
+    "code": "2.01.2.017",
+    "stem": "Un niño de 24 meses es traído por episodios repetidos de llanto, apnea, seguidos de hipotonía y compromiso de conciencia, que luego se recuperan espontáneamente. En algunos de estos episodios, además, presentó movimientos clónicos"
+   },
+   {
+    "n": 25,
+    "title": "Traumatismo encéfalo- craneano",
+    "code": "2.01.2.026",
+    "stem": "[URGENCIA: Traumatismo encéfalo- craneano · 2.01.2.026] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/Hospital) con signos cardinales de Traumatismo encéfalo- craneano. Al examen físico destaca compromiso "
+   },
+   {
+    "n": 37,
+    "title": "Enteroparasitosis",
+    "code": "2.01.1.007",
+    "stem": "Un niño de 4 años presenta intenso prurito anal, desde hace varios días, lo que se ha asociado a dificultades para dormir y bruxismo. ¿Cuál es el examen más adecuado para proseguir el estudio?"
+   },
+   {
+    "n": 38,
+    "title": "Faringoamigdalitis",
+    "code": "2.01.1.023",
+    "stem": "Un niño de 18 meses presenta dolor de garganta y fiebre de 2 días de evolución de hasta 39,0°C, asociado a irritabilidad, malestar general y secreción conjuntival bilateral. Al examen físico, además, se observa faringe eritematosa"
+   },
+   {
+    "n": 39,
+    "title": "Sinusitis",
+    "code": "2.01.1.029",
+    "stem": "Un niño de 6 años, con antecedente de obstrucción nasal y rinorreas frecuentes, mayor en primavera, presenta un cuadro de 10 días de evolución caracterizado por rinorrea mucosa abundante, tos y picos subfebriles hasta 37,8 °C. Ini"
+   },
+   {
+    "n": 41,
+    "title": "Diabetes",
+    "code": "2.01.1.073",
+    "stem": "Un paciente de 12 años consulta por un cuadro de malestar general, asociado a bajo de peso, que en las últimas horas se le agrega poliuria importante. Consulta porque en las últimas horas se agrega gran compromiso del estado gener"
+   },
+   {
+    "n": 42,
+    "title": "Hiperplasia suprarrenal congénita",
+    "code": "2.01.1.074",
+    "stem": "Una lactante de 2 meses con cuadro de dolor abdominal y vómitos desde hace semanas que en las últimas horas ha empeorado asociándose fiebre, taquipnea y compromiso de conciencia. Al su ingreso destaca PA: 40/20, FC 130x’, examen p"
+   },
+   {
+    "n": 43,
+    "title": "Dermatitis del pañal y de contacto",
+    "code": "2.01.1.108",
+    "stem": "Lactante con eritema del pañal que no responde a óxido de zinc y muestra lesiones satélite. ¿Cuál es el tratamiento más adecuado?"
+   },
+   {
+    "n": 44,
+    "title": "Emergencia hipertensiva",
+    "code": "2.01.2.007",
+    "stem": "[URGENCIA: Emergencia hipertensiva · 2.01.2.007] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/Hospital) con signos cardinales de Emergencia hipertensiva. Al examen físico destaca compromiso hemodinámico/r"
+   },
+   {
+    "n": 55,
+    "title": "Hepatitis viral",
+    "code": "2.01.1.010",
+    "stem": "Una niña de 8 años presenta un cuadro de malestar general, fiebre y aparición de ictericia asociado a orinas oscuras que se identifica como coluria. Se solicitan exámenes de laboratorio que muestran GOT 1.525UI/L, GPT 1.216 UI/L, "
+   },
+   {
+    "n": 56,
+    "title": "Adenopatías",
+    "code": "2.01.1.030",
+    "stem": "Niño con adenopatías cervicales y granulomas hepatoesplénicos en la ecografía abdominal. ¿Cuál es el agente etiológico más probable?"
+   },
+   {
+    "n": 58,
+    "title": "Alergias",
+    "code": "2.01.1.055",
+    "stem": "Lactante de 2 meses con diarrea, vómitos y dermatitis perioral y perianal tras introducción de fórmula láctea. Test de parche positivo para proteína de leche de vaca. ¿Cuál es el manejo?"
+   },
+   {
+    "n": 60,
+    "title": "Mesenquimopatías",
+    "code": "2.01.1.057",
+    "stem": "Un niño de 12 años consulta por cansancio, artralgias, dolores musculares generalizados y fiebre. Refiere que las mialgias son intensas, al punto que limitan su actividad física. Al examen físico presenta dolor a la palpación de l"
+   },
+   {
+    "n": 61,
+    "title": "Enterocolitis necrotizante (ECN)",
+    "code": "2.01.1.116",
+    "stem": "Un recién nacido de 10 días de vida, con antecedente de haber nacido prematuro a las 27 semanas, siendo alimentado con fórmula láctea para prematuros por sonda nasogástrica, presenta un cuadro de dos días de evolución de distensió"
+   },
+   {
+    "n": 62,
+    "title": "TORCH",
+    "code": "2.01.1.127",
+    "stem": "RN con microcefalia, calcificaciones periventriculares y coriorretinitis. Madre con serología IgG positiva para CMV y IgM positiva. ¿Cuál es el agente causante de la infección congénita?"
+   },
+   {
+    "n": 64,
+    "title": "Epistaxis",
+    "code": "2.01.2.008",
+    "stem": "[URGENCIA: Epistaxis · 2.01.2.008] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/Hospital) con signos cardinales de Epistaxis. Al examen físico destaca compromiso hemodinámico/respiratorio agudo. De acuerd"
+   },
+   {
+    "n": 66,
+    "title": "Politraumatismos",
+    "code": "2.01.2.021",
+    "stem": "[URGENCIA: Politraumatismos · 2.01.2.021] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/Hospital) con signos cardinales de Politraumatismos. Al examen físico destaca compromiso hemodinámico/respiratorio ag"
+   },
+   {
+    "n": 75,
+    "title": "Mononucleosis infecciosa",
+    "code": "2.01.1.016",
+    "stem": "Un niño de 3 años, con un cuadro de fiebre alta, asociada a malestar general y odinofagia intensa. Se inició tratamiento con amoxicilina, pero a las 48 horas presenta un exantema, que se muestra más abajo. Al examen físico, se apr"
+   },
+   {
+    "n": 77,
+    "title": "Fibrosis quística",
+    "code": "2.01.1.042",
+    "stem": "Niño de 8 meses que sufre desde hace 6 meses diarrea pastosa, abundante. Tiene también antecedente de episodios bronquiales obstructivos y 4 cuadros de infecciones respiratorias, que han requerido de hospitalización. Cuál es el di"
+   },
+   {
+    "n": 78,
+    "title": "Criptorquidia",
+    "code": "2.01.1.088",
+    "stem": "Recién nacido de término sin testículos palpables, pene de 2 cm. Además de solicitar ecografía, ¿cuál es la conducta más adecuada?"
+   },
+   {
+    "n": 79,
+    "title": "Estrabismo",
+    "code": "2.01.1.096",
+    "stem": "Un lactante de 1 mes de vida, acude a control. Al examen físico, presenta estrabismo intermitente y asimétrico de ambos ojos. El resto de la inspección ocular es normal. Su crecimiento pondoestatural es normal, al igual que su des"
+   },
+   {
+    "n": 81,
+    "title": "Dermatitis atópica",
+    "code": "2.01.1.107",
+    "stem": "Una niña de 4 años presenta lesiones cutáneas recurrentes de 2 años de evolución, caracterizadas por pápulas pruriginosas que aparecen en los antebrazos y fosas cubitales, así como en las piernas, fosas poplíteas, cara y cuello. S"
+   },
+   {
+    "n": 82,
+    "title": "Ectoparasitosis",
+    "code": "2.01.1.109",
+    "stem": "Una prescolar de 4 años presenta prurito en la cabeza. Al examen físico se ven abundantes liendres, a menos de 3 cm del cuero cabelludo, sin visualizar piojos. ¿Cuál es la conducta más adecuada?"
+   }
+  ],
+  "wordInfo": [
+   {
+    "n": 2,
+    "sug": "18.1 Evaluación del Crecimiento & Estado Nutricional en",
+    "title": "Tumores sólidos",
+    "code": "2.01.1.037",
+    "stem": "Un niño de 7 años presenta orinas oscuras, desde hace 5 días, sin otros síntomas. Al examen físico se palpa un"
+   },
+   {
+    "n": 4,
+    "sug": "18.28 Pediatría Psicosocial: Maltrato Infantil, Entrevis",
+    "title": "Hemorragia digestiva",
+    "code": "2.01.2.010",
+    "stem": "Un lactante de 8 meses, presenta un cuadro de malestar general y vómitos alimenta- rios en varias oportunidade"
+   },
+   {
+    "n": 21,
+    "sug": "18.13 Infección del Tracto Urinario (ITU) en Pediatría: ",
+    "title": "Malformaciones vasculares cutáneas",
+    "code": "2.01.1.111",
+    "stem": "Un recién nacido de 10 días presenta un hemangioma en el párpado derecho, de 3 cm de diámetro, que cubre parci"
+   },
+   {
+    "n": 22,
+    "sug": "18.24 Reanimación Cardiopulmonar Pediátrica, Intoxicacio",
+    "title": "Compromiso de conciencia",
+    "code": "2.01.2.004",
+    "stem": "[URGENCIA: Compromiso de conciencia · 2.01.2.004] Paciente adulto consulta de urgencia en Servicio de Urgencia"
+   },
+   {
+    "n": 23,
+    "sug": "18.18 Dificultad Respiratoria Neonatal: EMH (Déficit de ",
+    "title": "Hipertensión endocraneana",
+    "code": "2.01.2.011",
+    "stem": "Un niño de 4 años presenta cefalea de 1 mes de evolución, que es mayor en las mañanas y se asocia a diplopía. "
+   },
+   {
+    "n": 24,
+    "sug": "18.24 Reanimación Cardiopulmonar Pediátrica, Intoxicacio",
+    "title": "Muerte súbita-ALTE, BRUE",
+    "code": "2.01.2.017",
+    "stem": "Un niño de 24 meses es traído por episodios repetidos de llanto, apnea, seguidos de hipotonía y compromiso de "
+   },
+   {
+    "n": 25,
+    "sug": "18.15 Atención Inmediata del Recién Nacido & Reanimación",
+    "title": "Traumatismo encéfalo- craneano",
+    "code": "2.01.2.026",
+    "stem": "[URGENCIA: Traumatismo encéfalo- craneano · 2.01.2.026] Paciente adulto consulta de urgencia en Servicio de Ur"
+   },
+   {
+    "n": 39,
+    "sug": "18.25 Inmunodeficiencias Primarias, Infecciones Recurren",
+    "title": "Sinusitis",
+    "code": "2.01.1.029",
+    "stem": "Un niño de 6 años, con antecedente de obstrucción nasal y rinorreas frecuentes, mayor en primavera, presenta u"
+   },
+   {
+    "n": 42,
+    "sug": "18.15 Atención Inmediata del Recién Nacido & Reanimación",
+    "title": "Hiperplasia suprarrenal congénita",
+    "code": "2.01.1.074",
+    "stem": "Una lactante de 2 meses con cuadro de dolor abdominal y vómitos desde hace semanas que en las últimas horas ha"
+   },
+   {
+    "n": 43,
+    "sug": "18.15 Atención Inmediata del Recién Nacido & Reanimación",
+    "title": "Dermatitis del pañal y de contacto",
+    "code": "2.01.1.108",
+    "stem": "Lactante con eritema del pañal que no responde a óxido de zinc y muestra lesiones satélite. ¿Cuál es el tratam"
+   },
+   {
+    "n": 44,
+    "sug": "18.18 Dificultad Respiratoria Neonatal: EMH (Déficit de ",
+    "title": "Emergencia hipertensiva",
+    "code": "2.01.2.007",
+    "stem": "[URGENCIA: Emergencia hipertensiva · 2.01.2.007] Paciente adulto consulta de urgencia en Servicio de Urgencia "
+   },
+   {
+    "n": 55,
+    "sug": "18.3 Programa Nacional de Inmunizaciones (PNI Chile): C",
+    "title": "Hepatitis viral",
+    "code": "2.01.1.010",
+    "stem": "Una niña de 8 años presenta un cuadro de malestar general, fiebre y aparición de ictericia asociado a orinas o"
+   },
+   {
+    "n": 56,
+    "sug": "18.10 Exantemas Infantiles: Diagnóstico Diferencial (Eri",
+    "title": "Adenopatías",
+    "code": "2.01.1.030",
+    "stem": "Niño con adenopatías cervicales y granulomas hepatoesplénicos en la ecografía abdominal. ¿Cuál es el agente et"
+   },
+   {
+    "n": 61,
+    "sug": "18.12 Vómitos en el Lactante: RGE Fisiológico vs Estenos",
+    "title": "Enterocolitis necrotizante (ECN)",
+    "code": "2.01.1.116",
+    "stem": "Un recién nacido de 10 días de vida, con antecedente de haber nacido prematuro a las 27 semanas, siendo alimen"
+   },
+   {
+    "n": 75,
+    "sug": "18.25 Inmunodeficiencias Primarias, Infecciones Recurren",
+    "title": "Mononucleosis infecciosa",
+    "code": "2.01.1.016",
+    "stem": "Un niño de 3 años, con un cuadro de fiebre alta, asociada a malestar general y odinofagia intensa. Se inició t"
+   },
+   {
+    "n": 77,
+    "sug": "18.1 Evaluación del Crecimiento & Estado Nutricional en",
+    "title": "Fibrosis quística",
+    "code": "2.01.1.042",
+    "stem": "Niño de 8 meses que sufre desde hace 6 meses diarrea pastosa, abundante. Tiene también antecedente de episodio"
+   }
+  ],
+  "byEditorial": 8
+ },
+ "stats": {
+  "numbers": 60,
+  "drugs": 24,
+  "ges": 7
+ }
+}

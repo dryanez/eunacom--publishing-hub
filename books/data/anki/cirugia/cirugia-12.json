@@ -1,0 +1,652 @@
+{
+ "classId": "cirugia-12",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El TEC leve es Glasgow {{c1::13-15}}, el moderado {{c2::9-12}} y el grave ≤ {{c3::8}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clasificación",
+   "repaso": true,
+   "codigos": [
+    "1.10.2.019",
+    "2.01.2.026"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El TEC leve representa el {{c1::80%}} de las consultas; el moderado y el grave, 10% cada uno.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clasificación",
+   "repaso": false,
+   "codigos": [
+    "1.10.2.019",
+    "2.01.2.026"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El daño {{c1::secundario}} (hipotensión, hipoxemia, hipertermia, HTE) es el que se puede prevenir y es el objetivo del tratamiento.",
+   "extra": "El daño primario es irreversible.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": true,
+   "codigos": [
+    "2.01.2.026"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Según Monro-Kellie, el cráneo es un compartimento rígido con parénquima (80%), sangre (10%) y {{c1::LCR}} (10%).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Monro-Kellie",
+   "repaso": false,
+   "codigos": [
+    "1.10.2.009"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La presión de perfusión cerebral es PPC = {{c1::PAM − PIC}}; el objetivo es > 60-70 mmHg.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Monro-Kellie",
+   "repaso": false,
+   "codigos": [
+    "1.10.2.009"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En TEC moderado y grave el TAC de encéfalo sin contraste es {{c1::mandatorio}} y se hace de inmediato.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 TAC en TEC",
+   "repaso": true,
+   "codigos": [
+    "1.10.4.001"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En TEC leve se pide TAC con signos de fractura de base: {{c1::ojos de mapache}}, signo de Battle, otorraquia o rinorraquia y hemotímpano.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 TAC en TEC leve",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-12/01_ojos_de_mapache__commons.jpg",
+   "codigos": [
+    "1.10.2.019",
+    "2.01.2.026"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El signo de {{c1::Battle}} es la equimosis retroauricular sobre la apófisis mastoides.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 TAC en TEC leve",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-12/03_signo_de_battle__nelson_p5133.jpg",
+   "codigos": [
+    "1.10.2.019",
+    "2.01.2.026"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En TEC leve, TAC si hay edad ≥ {{c1::65 años}}, vómitos ≥ {{c2::2}} o anticoagulantes.",
+   "extra": "Aunque el Glasgow sea 15.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 TAC en TEC leve",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 142"
+   ],
+   "codigos": [
+    "1.10.2.019",
+    "2.01.2.026"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Indican TAC en TEC leve la pérdida de conciencia > {{c1::5 minutos}} o amnesia retrógrada > {{c2::30 minutos}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 TAC en TEC leve",
+   "repaso": false,
+   "codigos": [
+    "1.10.2.019",
+    "2.01.2.026"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Mecanismo de alta energía: caída de altura > {{c1::1 metro}} (o más de 5 escalones), eyección o atropello.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 TAC en TEC leve",
+   "repaso": false,
+   "codigos": [
+    "1.10.2.019",
+    "2.01.2.026"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "También se pide TAC si el Glasgow es menor de 15 a las {{c1::2 horas}} del impacto.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 TAC en TEC leve",
+   "repaso": false,
+   "codigos": [
+    "1.10.2.019",
+    "2.01.2.026"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Glasgow 15 en mayor de 65 años o anticoagulado: el error es {{c1::dar de alta}} por estar bien al examen.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.10.2.019"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El hematoma epidural es por rotura de la arteria {{c1::meníngea media}} tras fractura de la escama temporal.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Epidural",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.026"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El hematoma epidural cursa con pérdida de conciencia breve, {{c1::intervalo lúcido}} y deterioro brusco con midriasis ipsilateral.",
+   "extra": "La herniación uncal comprime el III par.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Epidural",
+   "repaso": true,
+   "imagen": "biblioteca/10_cirugia/cirugia-12/01_hematoma-epidural-vs-subdural-tc__cto-neuro_p142.jpg",
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 97"
+   ],
+   "codigos": [
+    "2.01.2.026",
+    "1.10.1.002"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el TAC el hematoma epidural es una imagen en {{c1::lente biconvexa}} que {{c2::no cruza}} las suturas.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Epidural",
+   "repaso": false,
+   "codigos": [
+    "1.10.4.001",
+    "2.01.2.026"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El hematoma epidural se trata con {{c1::craneotomía}} y evacuación urgente.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Epidural",
+   "repaso": false,
+   "codigos": [
+    "1.10.4.001",
+    "2.01.2.026"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El hematoma subdural agudo se origina en la rotura de las {{c1::venas puente}} corticales, frecuente en ancianos.",
+   "extra": "Sangrado venoso, deterioro progresivo.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Subdural",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 142"
+   ],
+   "codigos": [
+    "2.01.2.026"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el TAC el subdural es una {{c1::semiluna cóncava}} que {{c2::sí cruza}} las suturas.",
+   "extra": "Peor pronóstico por daño axonal.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Subdural",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-12/01_hematoma-epidural-vs-subdural-tc_alt2__cto-neuro_p174.jpg",
+   "codigos": [
+    "1.10.4.001",
+    "2.01.2.026"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se opera el subdural si el espesor es > {{c1::10 mm}} o el desvío de línea media > {{c2::5 mm}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla hematomas",
+   "repaso": false,
+   "codigos": [
+    "1.10.4.001",
+    "2.01.2.026"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "TEC grave: intubación orotraqueal con secuencia rápida e {{c1::inmovilización cervical}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 TEC grave",
+   "repaso": false,
+   "codigos": [
+    "1.10.2.020",
+    "2.01.2.026"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En TEC grave se eleva la cabecera a {{c1::30°}} con el cuello alineado en posición neutra.",
+   "extra": "Mejora el drenaje venoso.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 TEC grave",
+   "repaso": false,
+   "codigos": [
+    "1.10.2.020",
+    "2.01.2.026"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En TEC grave se evita la {{c1::hipotensión}} a toda costa.",
+   "extra": "Un episodio duplica la mortalidad.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 TEC grave",
+   "repaso": false,
+   "codigos": [
+    "1.10.2.020",
+    "2.01.2.026"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En TEC grave la ventilación busca normocapnia, PaCO2 {{c1::35-40 mmHg}}; la hiperventilación agresiva < 30 está proscrita.",
+   "extra": "Causa vasoconstricción e isquemia.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 TEC grave",
+   "repaso": false,
+   "codigos": [
+    "1.10.2.020",
+    "2.01.2.026"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Terapia hiperosmolar en herniación: salino hipertónico al {{c1::3%}} o manitol al {{c2::20%}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 TEC grave",
+   "repaso": true,
+   "codigos": [
+    "1.10.2.020",
+    "2.01.2.026"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Manitol al 20% se da a {{c1::0.5 a 1.0 g/kg}} EV en infusión de 20 minutos.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 TEC grave",
+   "repaso": false,
+   "codigos": [
+    "1.10.2.020",
+    "2.01.2.026"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el paciente con TEC grave e hipotenso, el error es el {{c1::manitol}}; se prefiere salino hipertónico 3%.",
+   "extra": "El manitol causa diuresis osmótica e hipovolemia.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 TEC grave",
+   "repaso": true,
+   "codigos": [
+    "1.10.2.020",
+    "2.01.2.026"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En todo compromiso de conciencia se parte por ABC y {{c1::glicemia capilar}}.",
+   "extra": "La hipoglicemia es causa reversible.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Conciencia",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.002"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el alcohólico con compromiso de conciencia se da {{c1::tiamina}} antes de la glucosa.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Conciencia",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.002"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Una lesión estructural da focalidad o pupilas {{c1::asimétricas}}; la causa metabólica o tóxica, compromiso simétrico.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Conciencia",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.002"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El Glasgow suma ocular 4, verbal {{c1::5}} y motor {{c2::6}}: máximo 15.",
+   "extra": "Ocular 2 + verbal 2 + retiro 4 = Glasgow 8, con intubación.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Glasgow",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.002"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La cefalea de la HTE es progresiva, {{c1::matutina}} y empeora con tos y decúbito; hay vómitos en proyectil sin náuseas.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 HTE",
+   "repaso": false,
+   "codigos": [
+    "1.10.2.009"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tríada de {{c1::Cushing}}: hipertensión con presión de pulso amplia, bradicardia y respiración irregular.",
+   "extra": "Signo tardío de enclavamiento.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 HTE",
+   "repaso": false,
+   "codigos": [
+    "1.10.2.009"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Ante sospecha de HTE la {{c1::punción lumbar}} está contraindicada.",
+   "extra": "Se pide TAC y neurocirugía urgente.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 HTE",
+   "repaso": true,
+   "codigos": [
+    "1.10.2.009"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El TEC leve se observa en urgencia al menos {{c1::4 a 6 horas}} con controles neurológicos seriados.",
+   "extra": "Pautas de alarma por escrito por 24 a 48 horas.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 TEC leve",
+   "repaso": false,
+   "codigos": [
+    "1.10.2.019"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras un TEC leve de bajo riesgo se da de alta con signos de alarma y un {{c1::acompañante responsable}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 TEC leve",
+   "repaso": false,
+   "codigos": [
+    "1.10.2.019"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La otorragia tras un golpe en la cabeza es {{c1::fractura de peñasco (base de cráneo)}} hasta demostrar lo contrario.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Otorragia",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.015"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la otorragia postraumática no se {{c1::irriga ni tapona}} el conducto; se cubre con gasa estéril y se pide TAC.",
+   "extra": "Riesgo de meningitis.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Otorragia",
+   "repaso": true,
+   "codigos": [
+    "6.03.2.015"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hoy el estudio de elección en TEC es la {{c1::TAC}}; una radiografía normal no descarta lesión intracraneal.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Radiografía de cráneo",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-12/05_fractura-deprimida-tac__knoop_p6.jpg",
+   "codigos": [
+    "4.01.4.003",
+    "2.01.4.005"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En fractura de base de cráneo o trauma facial grave, la sonda gástrica va por vía {{c1::orogástrica}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Sonda nasogástrica",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.019"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-12/01_hematoma-epidural-vs-subdural-tc__cto-neuro_p142.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Hematoma epidural",
+   "clave": "Lente biconvexa hiperdensa que no cruza suturas",
+   "conducta": "Craneotomía urgente con evacuación; neuroprotección si hay herniación",
+   "fuente": "Manual CTO Neurología 14.ª ed., p. 142",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 97"
+   ],
+   "codigos": [
+    "1.10.4.001",
+    "2.01.2.026"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-12/01_hematoma-epidural-vs-subdural-tc_alt2__cto-neuro_p174.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Hematoma subdural",
+   "clave": "Semiluna cóncava que cruza suturas, con desviación de línea media",
+   "conducta": "Craneotomía descompresiva si espesor > 10 mm o shift > 5 mm",
+   "fuente": "Manual CTO Neurología 14.ª ed., p. 174",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 142"
+   ],
+   "codigos": [
+    "1.10.4.001",
+    "2.01.2.026"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-12/01_ojos_de_mapache__commons.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Ojos de mapache",
+   "clave": "Equimosis periorbitaria bilateral sin trauma directo del ojo",
+   "conducta": "Fractura de base de cráneo: TAC de encéfalo y sonda orogástrica",
+   "fuente": "Wikimedia Commons «Bilateral periorbital ecchymosis (raccoon eyes).jpg»",
+   "repaso": false,
+   "codigos": [
+    "1.10.2.019",
+    "2.01.2.026"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Glasgow ≤ 8: ¿primera conducta?",
+   "codigos": [
+    "2.01.2.026",
+    "1.10.2.019"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "TEC leve con alguna bandera roja: ¿qué examen?",
+   "codigos": [
+    "2.01.2.026",
+    "1.10.2.019"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.3",
+   "pista": "Intervalo lúcido y coma brusco: ¿qué haces?",
+   "codigos": [
+    "2.01.2.026",
+    "1.10.2.019"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.1",
+   "pista": "TEC leve sin banderas rojas: ¿conducta?",
+   "codigos": [
+    "2.01.2.026",
+    "1.10.2.019"
+   ]
+  }
+ ]
+}

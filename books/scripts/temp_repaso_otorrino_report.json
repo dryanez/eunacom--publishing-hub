@@ -1,0 +1,566 @@
+{
+ "report": {
+  "topics": {
+   "T14.1": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 270,
+    "traps": 1,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T14.2": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 270,
+    "traps": 1,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T14.3": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 360,
+    "traps": 1,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T14.4": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T14.5": {
+    "steps": 9,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 245,
+    "traps": 0,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T14.6": {
+    "steps": 4,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T14.7": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 270,
+    "traps": 0,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T14.8": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 1,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T14.9": {
+    "steps": 7,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 270,
+    "traps": 0,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T14.10": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T14.11": {
+    "steps": 10,
+    "split": false,
+    "algo": {
+     "scale": 0.86,
+     "orient": "lr"
+    },
+    "algoH": 220,
+    "traps": 1,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T14.12": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T14.13": {
+    "steps": 9,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 245,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T14.14": {
+    "steps": 4,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T14.15": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T14.16": {
+    "steps": 4,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T14.17": {
+    "steps": 9,
+    "split": false,
+    "algo": {
+     "scale": 0.9,
+     "orient": "lr"
+    },
+    "algoH": 245,
+    "traps": 1,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T14.18": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 0.93,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T14.19": {
+    "steps": 1,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T14.20": {
+    "steps": 7,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 270,
+    "traps": 0,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   }
+  },
+  "warnings": [],
+  "pages": 29,
+  "where": {
+   "COVER": 1,
+   "IDX": 2,
+   "T14.1": 3,
+   "T14.2": 4,
+   "T14.3": 5,
+   "T14.4": 7,
+   "T14.5": 8,
+   "T14.6": 9,
+   "T14.7": 10,
+   "T14.8": 11,
+   "T14.9": 12,
+   "T14.10": 13,
+   "T14.11": 14,
+   "T14.12": 15,
+   "T14.13": 16,
+   "T14.14": 17,
+   "T14.15": 18,
+   "T14.16": 19,
+   "T14.17": 20,
+   "T14.18": 21,
+   "T14.19": 22,
+   "T14.20": 23,
+   "NUM": 24,
+   "DRUG": 26,
+   "GES": 27,
+   "PLAN": 28,
+   "PRIO": 29
+  }
+ },
+ "stars": [
+  {
+   "t": "14.1",
+   "real": 3,
+   "stars": 2,
+   "lg": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "t": "14.2",
+   "real": 5,
+   "stars": 3,
+   "lg": [
+    13,
+    14,
+    15
+   ]
+  },
+  {
+   "t": "14.3",
+   "real": 10,
+   "stars": 3,
+   "lg": [
+    16,
+    17,
+    18,
+    21
+   ]
+  },
+  {
+   "t": "14.4",
+   "real": 5,
+   "stars": 3,
+   "lg": []
+  },
+  {
+   "t": "14.5",
+   "real": 3,
+   "stars": 2,
+   "lg": [
+    22,
+    23,
+    24,
+    25
+   ]
+  },
+  {
+   "t": "14.6",
+   "real": 5,
+   "stars": 3,
+   "lg": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    56,
+    57
+   ]
+  },
+  {
+   "t": "14.7",
+   "real": 6,
+   "stars": 3,
+   "lg": [
+    33,
+    34,
+    35,
+    36
+   ]
+  },
+  {
+   "t": "14.8",
+   "real": 1,
+   "stars": 1,
+   "lg": []
+  },
+  {
+   "t": "14.9",
+   "real": 5,
+   "stars": 3,
+   "lg": [
+    1,
+    52,
+    53,
+    54
+   ]
+  },
+  {
+   "t": "14.10",
+   "real": 12,
+   "stars": 3,
+   "lg": [
+    20,
+    38,
+    40,
+    41
+   ]
+  },
+  {
+   "t": "14.11",
+   "real": 0,
+   "stars": 1,
+   "lg": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+   ]
+  },
+  {
+   "t": "14.12",
+   "real": 6,
+   "stars": 3,
+   "lg": [
+    3,
+    49,
+    50,
+    51
+   ]
+  },
+  {
+   "t": "14.13",
+   "real": 19,
+   "stars": 3,
+   "lg": [
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    73
+   ]
+  },
+  {
+   "t": "14.14",
+   "real": 4,
+   "stars": 2,
+   "lg": [
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70
+   ]
+  },
+  {
+   "t": "14.15",
+   "real": 3,
+   "stars": 2,
+   "lg": [
+    71
+   ]
+  },
+  {
+   "t": "14.16",
+   "real": 3,
+   "stars": 2,
+   "lg": [
+    19,
+    37,
+    72
+   ]
+  },
+  {
+   "t": "14.17",
+   "real": 5,
+   "stars": 3,
+   "lg": [
+    55
+   ]
+  },
+  {
+   "t": "14.18",
+   "real": 1,
+   "stars": 1,
+   "lg": [
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ]
+  },
+  {
+   "t": "14.19",
+   "real": 3,
+   "stars": 2,
+   "lg": [
+    81,
+    82,
+    83
+   ]
+  },
+  {
+   "t": "14.20",
+   "real": 12,
+   "stars": 3,
+   "lg": [
+    2,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90
+   ]
+  }
+ ],
+ "lg": {
+  "name": "Otorrinolaringología",
+  "file": "Libro_Gordo_Otorrinolaringologia_90Q.pdf",
+  "unassigned": [
+   39,
+   74
+  ],
+  "byLabel": 76,
+  "byCode": 12,
+  "total": 90,
+  "unassignedInfo": [
+   {
+    "n": 39,
+    "title": "Otorragia",
+    "code": "6.03.2.015",
+    "stem": "[URGENCIA: Otorragia · 6.03.2.015] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/Hospital) con signos cardinales de Otorragia. Al examen físico destaca compromiso hemodinámico/respiratorio agudo. De acuerd"
+   },
+   {
+    "n": 74,
+    "title": "Atresia coanal congénita",
+    "code": "6.03.2.005",
+    "stem": "[URGENCIA: Atresia coanal congénita · 6.03.2.005] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/Hospital) con signos cardinales de Atresia coanal congénita. Al examen físico destaca compromiso hemodinámico"
+   }
+  ],
+  "wordInfo": [
+   {
+    "n": 74,
+    "sug": "14.17 Croup / Laringitis Obstructiva vs Epiglotitis Agud",
+    "title": "Atresia coanal congénita",
+    "code": "6.03.2.005",
+    "stem": "[URGENCIA: Atresia coanal congénita · 6.03.2.005] Paciente adulto consulta de urgencia en Servicio de Urgencia"
+   }
+  ]
+ },
+ "stats": {
+  "numbers": 52,
+  "drugs": 26,
+  "ges": 4
+ }
+}

@@ -1,0 +1,503 @@
+{
+  "classId": "diab-09",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hiperglicemia materna cruza la placenta, pero la {{c1::insulina materna no}}: el páncreas fetal responde con hiperinsulinismo.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Por qué tratar a la madre",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El hiperinsulinismo fetal causa macrosomía, distocia de hombros e {{c1::hipoglicemia neonatal}} al cortar el cordón.",
+      "extra": "Las malformaciones son de la pregestacional.",
+      "origen": "clase:1",
+      "fuente": "Clase · Por qué tratar a la madre",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La terapia médica nutricional controla al {{c1::70–80 %}} de las DMG.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Terapia nutricional",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Aporte calórico: {{c1::30 kcal/kg/día}} en normopeso y 25 kcal/kg/día en sobrepeso.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Terapia nutricional",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En obesidad se usan 20–25 kcal/kg/día, nunca bajo {{c1::1.500 kcal/día}}.",
+      "extra": "Por riesgo de cetonemia nociva para el feto.",
+      "origen": "clase:2",
+      "fuente": "Clase · Terapia nutricional",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Distribución de la dieta: {{c1::40–45 %}} de carbohidratos complejos de bajo índice glicémico.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Terapia nutricional",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fraccionamiento: 4 comidas y 2 a 3 colaciones, con colación nocturna a las {{c1::23:00}}.",
+      "extra": "Previene cetosis de ayuno.",
+      "origen": "clase:2",
+      "fuente": "Clase · Terapia nutricional",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La prueba de dieta dura {{c1::1 a 2 semanas}}, con 4 a 6 hemoglucotest al día.",
+      "extra": "No un mes.",
+      "origen": "clase:3",
+      "fuente": "Clase · Metas de glicemia capilar",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta de ayuno en la gestante: {{c1::70 a 90–95 mg/dL}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Metas de glicemia capilar",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta postprandial: 1 hora < {{c1::140 mg/dL}} o 2 horas < {{c2::120 mg/dL}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Metas de glicemia capilar",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La glicemia de las 3 AM debe ser > {{c1::60 mg/dL}} para descartar hipoglicemia nocturna.",
+      "extra": "Si falla: bajar NPH o sumar colación.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La glicemia capilar se toma en la cara {{c1::lateral del pulpejo}} del dedo medio, anular o meñique.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Técnica",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.015",
+        "1.02.1.002"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Al tomar la glicemia capilar no se debe {{c1::ordeñar el dedo}}: diluye la sangre con líquido tisular.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Técnica",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.015",
+        "1.02.1.002"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En shock o hipoperfusión el capilar no es confiable: se confirma con {{c1::glicemia venosa}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Técnica",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.015",
+        "1.02.1.002"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se inicia insulina si más del {{c1::20 %}} de los controles supera las metas.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · ¿Cuándo se inicia insulina?",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Otro criterio de insulina: circunferencia abdominal fetal ≥ percentil {{c1::75–90}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · ¿Cuándo se inicia insulina?",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El {{c1::polihidramnios}} ecográfico sin otra causa también indica insulina.",
+      "extra": "Basta un criterio.",
+      "origen": "clase:5",
+      "fuente": "Clase · ¿Cuándo se inicia insulina?",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La insulina de elección en el embarazo es la {{c1::insulina humana (NPH y cristalina)}}, categoría B.",
+      "extra": "No cruza la placenta en cantidad significativa.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Insulinas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 133",
+        "EUNACOM Diciembre 2024 · Pregunta 108"
+      ],
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si falla el ayuno se usa {{c1::NPH nocturna}} 0,1–0,2 UI/kg a las 22:00.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · ¿Qué insulina?",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si falla la glicemia postprandial se usa {{c1::insulina cristalina o lispro/aspart}} antes de esa comida.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · ¿Qué insulina?",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ayuno 80–90 y 30 % de postprandiales sobre 150: se indica {{c1::insulina rápida precomida}}, no NPH nocturna.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ayuno alto en 6 de 14 mediciones y postprandiales normales: se inicia {{c1::NPH nocturna}}.",
+      "extra": "Más del 20 % de ayunos fuera de meta.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Perfil V3 glicemia capilar",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la gestante la {{c1::glibenclamida}} está contraindicada: cruza la placenta y causa hipoglicemia neonatal refractaria.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Sulfonilureas prohibidas",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si falla la dieta en DMG, el error es dar un {{c1::hipoglicemiante oral}}; se indica insulina.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Sulfonilureas prohibidas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 133",
+        "EUNACOM Diciembre 2024 · Pregunta 108"
+      ],
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La complicación fetal más frecuente de la DMG mal controlada es la {{c1::macrosomía}} con riesgo de distocia de hombros.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · pregunta Julio 2022",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 9"
+      ],
+      "codigos": [
+        "3.01.1.004",
+        "1.02.1.002"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Feto en percentil 93 con PTGO alterada a las 32 semanas: causa {{c1::DMG}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Julio 2024",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 9"
+      ],
+      "codigos": [
+        "3.01.1.004",
+        "1.02.1.002"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Embarazada con ayuno de 130 mg/dL a las 10 semanas: diabetes {{c1::pregestacional}}.",
+      "extra": "Se confirma con una segunda ≥ 126.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Dic 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 107",
+        "EUNACOM Diciembre 2017 · Pregunta 180",
+        "EUNACOM Diciembre 2018 · Pregunta 176"
+      ],
+      "codigos": [
+        "1.02.1.003",
+        "1.02.1.002"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ayuno 112 mg/dL en el control inicial del embarazo: {{c1::repetir la glicemia de ayuno}}.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo y preguntas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 88",
+        "EUNACOM Diciembre 2019 · Pregunta 44",
+        "EUNACOM Julio 2013 · Pregunta 60"
+      ],
+      "codigos": [
+        "1.02.1.002",
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PTGO normal (86 y 139 mg/dL) sin factores de riesgo: {{c1::control habitual}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Preguntas reales",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 81",
+        "EUNACOM Agosto 2021 · Pregunta 73"
+      ],
+      "codigos": [
+        "1.02.1.002",
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PTGO con basal 98 y 2 h 147 mg/dL a las 28 semanas: {{c1::diabetes gestacional}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Preguntas reales",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 133",
+        "EUNACOM Julio 2016 · Pregunta 38"
+      ],
+      "codigos": [
+        "1.02.1.002",
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el diabético con NPH nocturna, la glicemia capilar clave se controla {{c1::a primera hora en ayunas}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Julio 2024",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 78"
+      ],
+      "codigos": [
+        "1.02.4.015",
+        "1.02.1.002"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "¿Criterios de insulina tras 1–2 semanas de dieta?",
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Ayuno alto: ¿qué insulina?",
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.2",
+      "pista": "¿Se puede usar glibenclamida?",
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    }
+  ]
+}

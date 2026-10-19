@@ -1,0 +1,430 @@
+{
+  "classId": "psiq-07",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El TAG es una preocupación excesiva por {{c1::múltiples temas}} (salud, plata, familia, trabajo), como ruido de fondo continuo.",
+      "extra": "Sin crisis bruscas.",
+      "origen": "clase:1",
+      "fuente": "Clase · Panorama",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 104",
+        "EUNACOM Diciembre 2025 · Pregunta 109"
+      ],
+      "codigos": [
+        "5.01.1.036",
+        "2.01.1.140"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El TAG exige preocupación excesiva la mayor parte de los días durante al menos {{c1::6 meses}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Diagnóstico TAG",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.036",
+        "2.01.1.140"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el TAG la preocupación se asocia a al menos {{c1::3 de 6}} síntomas.",
+      "extra": "Un solo síntoma en niños.",
+      "origen": "clase:3",
+      "fuente": "Clase · Diagnóstico TAG",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.036",
+        "2.01.1.140"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síntoma somático distintivo del TAG es la {{c1::tensión muscular}} (contracturas, bruxismo, cefalea tensional).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 143"
+      ],
+      "codigos": [
+        "5.01.1.036",
+        "2.01.1.140"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El TAG se consulta a menudo por lo somático: cuello, cabeza y {{c1::insomnio}} de conciliación.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cómo llega el paciente con TAG",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.036",
+        "2.01.1.140"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Crisis bruscas con miedo a morir son {{c1::pánico}}, no TAG.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El tratamiento de primera línea del TAG es {{c1::ISRS}} más TCC.",
+      "extra": "Escitalopram o sertralina; venlafaxina como alternativa.",
+      "origen": "clase:8",
+      "fuente": "Clase · ISRS y TCC",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.036",
+        "5.01.1.003"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La venlafaxina en TAG se usa a {{c1::75 a 150 mg}} al día.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · ISRS y TCC",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.036"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el TAG el error clásico es el {{c1::clonazepam crónico}} (indefinido).",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · TAG, fobia social y pánico",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.003"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Las benzodiacepinas pasadas las {{c1::4 a 8 semanas}} producen tolerancia, dependencia y deterioro de memoria.",
+      "extra": "No tratan la preocupación: solo tapan el síntoma.",
+      "origen": "clase:10",
+      "fuente": "Clase · Benzodiacepinas",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.036",
+        "5.01.1.003"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si el ISRS no basta o no se tolera en TAG, la segunda línea es la {{c1::pregabalina}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Benzodiacepinas",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.036",
+        "5.01.1.003"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En niños con TAG el tratamiento de primera línea es la {{c1::terapia cognitivo-conductual}}.",
+      "extra": "",
+      "origen": "clase:20",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.036",
+        "5.01.1.003"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La fobia social es el miedo al {{c1::juicio de otros}}, a la humillación y la vergüenza.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Panorama",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 35",
+        "EUNACOM Diciembre 2017 · Pregunta 106"
+      ],
+      "codigos": [
+        "5.01.1.003"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la fobia social el paciente teme que se note su ansiedad: {{c1::rubor, temblor de voz y sudor}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Fobia social",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 123"
+      ],
+      "codigos": [
+        "5.01.1.003"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La fobia social circunscrita («de actuación») se limita a {{c1::hablar o actuar en público}}.",
+      "extra": "Músicos, expositores, estudiantes.",
+      "origen": "clase:4",
+      "fuente": "Clase · Fobia social",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 156",
+        "EUNACOM Julio 2016 · Pregunta 129",
+        "EUNACOM Julio 2015 · Pregunta 82"
+      ],
+      "codigos": [
+        "5.01.1.003"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En la fobia social generalizada el tratamiento de fondo es {{c1::ISRS}} más TCC.",
+      "extra": "Escitalopram, sertralina o paroxetina.",
+      "origen": "clase:9",
+      "fuente": "Clase · Generalizada o de actuación",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 89"
+      ],
+      "codigos": [
+        "5.01.1.003",
+        "5.01.1.036"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En la fobia social de actuación se usa {{c1::propranolol}} puntual antes del evento.",
+      "extra": "Error: antidepresivo continuo de entrada.",
+      "origen": "clase:13",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 9"
+      ],
+      "codigos": [
+        "5.01.1.003"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Propranolol de actuación: {{c1::10 a 40 mg}} vía oral, 30 a 60 minutos antes.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Generalizada o de actuación",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.036",
+        "2.01.1.140"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En fobia social generalizada el error es indicar {{c1::propranolol o alprazolam diario}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.003",
+        "5.01.1.036"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Quien teme el juicio pero desea relacionarse tiene fobia social; el que no desea socializar tiene personalidad {{c1::esquizoide}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Diferencial fino",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.003"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La timidez normal no produce {{c1::deterioro ni evitación}} incapacitante.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Diferencial fino",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.003"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la agorafobia el miedo es a no poder escapar, no al {{c1::juicio de otros}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Diferencial fino",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.003"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La fobia específica es miedo desproporcionado a un {{c1::estímulo concreto}} (volar, alturas, animales).",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Fobia específica",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 44"
+      ],
+      "codigos": [
+        "5.01.1.003"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La fobia específica afecta a {{c1::7 a 9 %}} de la población y parte en la infancia.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Fobia específica",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.003"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la fobia a sangre e inyecciones hay respuesta {{c1::vasovagal}}: bradicardia, hipotensión y síncope.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Fobia específica",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.003"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La primera línea de la fobia específica es la {{c1::exposición gradual}} con desensibilización sistemática.",
+      "extra": "Sin fármacos de mantención.",
+      "origen": "clase:7",
+      "fuente": "Clase · Fobia específica",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.003"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante miedo intenso a volar o a las inyecciones, el error es indicar {{c1::ISRS de mantención}}.",
+      "extra": "ISRS solo si hay comorbilidad depresiva o ansiosa.",
+      "origen": "clase:13",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.003"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Preocupación difusa por todo, más de seis meses: ¿diagnóstico?",
+      "codigos": [
+        "5.01.1.036"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1.0",
+      "pista": "Fobia social en varias situaciones: ¿tratamiento?",
+      "codigos": [
+        "5.01.1.003"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.1",
+      "pista": "Solo teme hablar en público: ¿qué fármaco puntual?",
+      "codigos": [
+        "5.01.1.036"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.2",
+      "pista": "Crisis bruscas con miedo a morir: ¿a qué cuadro pasas?",
+      "codigos": [
+        "5.01.1.036"
+      ]
+    }
+  ]
+}

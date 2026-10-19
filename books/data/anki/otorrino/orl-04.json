@@ -1,0 +1,467 @@
+{
+ "classId": "orl-04",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La mastoiditis aguda es la complicación {{c1::intratemporal}} más frecuente de la OMA en la infancia.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": true,
+   "codigos": [
+    "6.03.2.001"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La OMA llega a las celdas mastoideas por continuidad a través del {{c1::aditus ad antrum}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.001"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la mastoiditis coalescente la hiperpresión causa necrosis isquémica y lisis de las {{c1::trabéculas}} óseas.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.001"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los gérmenes son los de la OMA; el más agresivo y común es el {{c1::neumococo}} (S. pneumoniae).",
+   "extra": "S. pyogenes, H. influenzae y S. aureus.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Gérmenes",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.001",
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El pus rompe la cortical externa y forma un absceso {{c1::subperióstico}}; también puede causar meningitis, absceso cerebral y tromboflebitis del seno.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Complicaciones",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.001",
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La mastoiditis se ve sobre todo en niños menores de {{c1::2 años}}, con fiebre alta y dolor retroauricular pulsátil tras una OMA.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clínica",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.001"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tríada de la mastoiditis: eritema y edema mastoideo, borramiento del {{c1::surco retroauricular}} y pabellón desplazado hacia adelante y abajo.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tríada",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-04/01_mastoiditis-pabellon-desplazado__sherman_p229.jpg",
+   "codigos": [
+    "6.03.2.001"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El pabellón desplazado hacia adelante y abajo se llama oreja {{c1::despegada o en asa}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pabellón",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.001"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otoscopía: tímpano abombado o perforado con otorrea profusa y caída de la pared {{c1::posterosuperior}} del conducto.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Otoscopía",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.001"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Examen de elección en la mastoiditis: TAC de peñasco y cerebro {{c1::con contraste}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Imagen",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-04/atlas_265_tac_de_penasco_con_mastoiditis.jpg",
+   "codigos": [
+    "6.03.2.001"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El TAC confirma ocupación de celdas, {{c1::pérdida de trabéculas}}, absceso subperióstico y descarta complicaciones intracraneales.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Imagen",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.001"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tromboflebitis séptica del seno sigmoide da fiebre en {{c1::picos de sierra}}, calofríos, cefalea e hipertensión endocraneana.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tromboflebitis",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.001",
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo imagenológico de trombosis del seno: {{c1::delta vacío}} (defecto de llene central rodeado de realce dural).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tromboflebitis",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.001",
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Toda sospecha de mastoiditis se {{c1::hospitaliza}} de inmediato.",
+   "extra": "Niño de 2 años con tumefacción retroauricular y tímpano abombado.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.001",
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Primera línea: ceftriaxona EV {{c1::100 mg/kg/día}} asociada a clindamicina (o vancomicina).",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Antibiótico",
+   "repaso": true,
+   "codigos": [
+    "6.03.2.001",
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se usa vancomicina si hay sospecha de neumococo resistente o {{c1::S. aureus meticilino-resistente}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Vancomicina",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.001",
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se agrega {{c1::miringotomía}} descompresiva con aspiración del pus para cultivo.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Miringotomía",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.001",
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Mastoidectomía simple si hay absceso fluctuante, falta de respuesta en {{c1::24 a 48 horas}} o complicaciones neurológicas.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Cirugía",
+   "repaso": true,
+   "codigos": [
+    "6.03.2.001",
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Tratar una mastoiditis con antibióticos {{c1::orales}} ambulatorios es una negligencia: es una infección osteolítica.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Errores",
+   "repaso": true,
+   "codigos": [
+    "4.02.4.017"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el absceso mastoídeo el médico general hospitaliza, da ceftriaxona y {{c1::no punciona ni incide}} la colección.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Absceso",
+   "repaso": true,
+   "codigos": [
+    "6.03.5.001"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Complicaciones que apuran la cirugía: trombosis del seno sigmoides, absceso cerebeloso o temporal, meningitis y {{c1::parálisis facial}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Complicaciones",
+   "repaso": false,
+   "codigos": [
+    "6.03.5.001"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Adenitis retroauricular: otoscopía {{c1::normal}}, surco respetado y ganglio móvil; tratamiento oral ambulatorio.",
+   "extra": "Cloxacilina o cefadroxilo.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.001"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La mastoidectomía {{c1::radical}} es para el colesteatoma; en la mastoiditis aguda se hace la simple (cortical).",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Quiz",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.001",
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otitis crónica con vértigo persistente y nistagmo de inicio reciente: {{c1::laberintitis aguda}}.",
+   "extra": "Paciente de 59 años con hipoacusia y otorrea de larga data.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Laberintitis",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 104"
+   ],
+   "codigos": [
+    "6.03.5.001"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Laberintitis con fiebre y mal estado general: lo primero son antibióticos {{c1::endovenosos}}.",
+   "extra": "Cirugía si es secundaria a colesteatoma; pregunta discutible.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Laberintitis",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 84"
+   ],
+   "codigos": [
+    "6.03.5.001"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Colesteatoma con perforación central en TAC: {{c1::timpanomastoidectomía}}, para prevenir mastoiditis, meningitis y parálisis facial.",
+   "extra": "Otorrea crónica recurrente de 45 años.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Colesteatoma",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 153"
+   ],
+   "codigos": [
+    "6.03.5.001"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Perforación crónica con otorrea y hipoacusia en niño de 8 años: audiometría y derivación a {{c1::ORL}}.",
+   "extra": "No se tapona un oído perforado.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 OMC simple",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 35"
+   ],
+   "codigos": [
+    "4.02.4.017"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Reagudización de una perforación antigua: tratamiento de primera línea con {{c1::ciprofloxacino}} tópico.",
+   "extra": "Neomicina: ototóxica con tímpano perforado.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 OMC reagudizada",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 148"
+   ],
+   "codigos": [
+    "4.02.4.017"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-04/01_mastoiditis-pabellon-desplazado__sherman_p229.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Pabellón despegado",
+   "clave": "Oreja empujada hacia adelante, con surco retroauricular borrado",
+   "conducta": "Hospitalizar, TAC con contraste y ceftriaxona EV",
+   "fuente": "Atlas of Clinical Emergency Medicine (Sherman), p. 229",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 84"
+   ],
+   "codigos": [
+    "6.03.5.001"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-04/atlas_265_tac_de_penasco_con_mastoiditis.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "TAC: mastoiditis coalescente",
+   "clave": "Celdas ocupadas, pérdida de trabéculas y absceso subperióstico",
+   "conducta": "Mastoidectomía si hay colección",
+   "fuente": "Atlas EUNACOM 2026",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.001"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Otitis reciente con masa tras la oreja: ¿qué distingue mastoiditis de adenitis?",
+   "codigos": [
+    "6.03.2.001",
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1",
+   "pista": "Mastoiditis aguda: ¿conducta inicial?",
+   "codigos": [
+    "6.03.2.001",
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.0",
+   "pista": "Fluctuación o falta de respuesta: ¿qué se hace?",
+   "codigos": [
+    "6.03.2.001",
+    "6.03.1.022"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.1",
+   "pista": "Fiebre en picos de sierra y cefalea: ¿qué se sospecha?",
+   "codigos": [
+    "6.03.2.001",
+    "6.03.1.022"
+   ]
+  }
+ ]
+}

@@ -26,6 +26,8 @@ function loadBank() {
     if (fs.existsSync(p)) {
       try {
         bankCache = JSON.parse(fs.readFileSync(p, 'utf8'));
+        // audit del banco: las preguntas con audit.excluir (texto irrecuperable, falta imagen…) no se usan
+        for (const k of Object.keys(bankCache)) bankCache[k] = (bankCache[k] || []).filter(q => !(q.audit && q.audit.excluir));
         return bankCache;
       } catch (e) {
         console.error(`[reconstruction_matcher] Error cargando ${p}:`, e.message);

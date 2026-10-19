@@ -1,0 +1,535 @@
+{
+ "classId": "cirugia-15",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La anestesia general tiene la tríada de hipnosis y amnesia, {{c1::analgesia}} y {{c2::relajación neuromuscular}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 General",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.007"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "El inductor estándar es el {{c1::propofol}}; causa hipotensión por vasodilatación y depresión miocárdica.",
+   "extra": "Efecto antiemético y despertar rápido.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Inducción",
+   "repaso": true,
+   "codigos": [
+    "4.01.3.007"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En shock o cardiopatía severa se induce con {{c1::etomidato}}, que mantiene la estabilidad hemodinámica.",
+   "extra": "Riesgo de supresión suprarrenal transitoria.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Inducción",
+   "repaso": true,
+   "codigos": [
+    "4.01.3.007"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "La {{c1::ketamina}} (antagonista NMDA) es de elección en shock y en crisis asmática grave.",
+   "extra": "Simpaticomimética y broncodilatadora.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Inducción",
+   "repaso": true,
+   "codigos": [
+    "4.01.3.007"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Paciente en shock que necesita inducción: el error es usar {{c1::propofol}} por costumbre.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.007"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "La {{c1::succinilcolina}} es un relajante despolarizante de inicio ultrarrápido; produce hiperkalemia en gran quemado y denervación.",
+   "extra": "También riesgo de hipertermia maligna.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Relajantes",
+   "repaso": true,
+   "codigos": [
+    "4.01.3.007"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Rocuronio y vecuronio son no despolarizantes y se revierten con {{c1::sugammadex}} (o neostigmina con atropina).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Relajantes",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.007"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La anestesia raquídea deposita el anestésico en el {{c1::LCR}}, habitualmente en L3-L4 o L4-L5.",
+   "extra": "Bloqueo rápido, profundo y predecible.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Neuroaxial",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.007"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La anestesia epidural se inyecta fuera de la duramadre con técnica de {{c1::pérdida de resistencia}} y permite dejar catéter.",
+   "extra": "Ideal en trabajo de parto y toracotomías.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Neuroaxial",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.007",
+    "4.01.3.017"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La complicación neuroaxial más frecuente es la {{c1::hipotensión}} por bloqueo simpático, que se trata con fluidos y efedrina o fenilefrina.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Neuroaxial",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.007"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La cefalea post-punción dural es {{c1::postural}}: empeora al sentarse y alivia al acostarse.",
+   "extra": "Por fuga persistente de LCR.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 CPPD",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.007"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La CPPD se trata primero con reposo, hidratación y {{c1::cafeína}}.",
+   "extra": "El error es poner el parche hemático de entrada.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 CPPD",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.007"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Si la CPPD no cede en {{c1::48-72 horas}}, se hace parche hemático epidural autólogo.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 CPPD",
+   "repaso": true,
+   "codigos": [
+    "4.01.3.007"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los anestésicos locales bloquean los canales de {{c1::sodio}} dependientes de voltaje.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Farmacología",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.007"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los ésteres (procaína, tetracaína) generan alergia por su metabolito {{c1::PABA}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Farmacología",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.007"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las amidas (lidocaína, bupivacaína, ropivacaína) tienen dos «i» en el nombre y se metabolizan en el {{c1::hígado}}.",
+   "extra": "Alergia verdadera casi nunca.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Farmacología",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.007"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Lidocaína sin epinefrina: {{c1::4-5 mg/kg}}, máximo {{c2::300 mg}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla amidas",
+   "repaso": true,
+   "codigos": [
+    "4.01.5.001"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Lidocaína con epinefrina: {{c1::7 mg/kg}}, máximo {{c2::500 mg}}.",
+   "extra": "La epinefrina disminuye la absorción sistémica y prolonga el bloqueo.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla amidas",
+   "repaso": true,
+   "codigos": [
+    "4.01.5.001"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Bupivacaína: {{c1::2 mg/kg}}, máximo {{c2::150 mg}}, la de mayor cardiotoxicidad.",
+   "extra": "Con epinefrina: 2.5 mg/kg o 175 mg.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla amidas",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.028"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La {{c1::ropivacaína}} tiene larga duración y menor cardiotoxicidad que la bupivacaína.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla amidas",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.007"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La LAST se debe a inyección intravascular inadvertida o sobredosis de anestésico local, sobre todo {{c1::bupivacaína}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 LAST",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.028"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pródromos de LAST: sabor {{c1::metálico}}, parestesias periorales, {{c2::tinnitus}} y mareo.",
+   "extra": "Primer aviso, antes de las convulsiones.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 LAST",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 21"
+   ],
+   "codigos": [
+    "4.01.2.028"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras los pródromos la LAST progresa a fasciculaciones, convulsión tónico-clónica, coma y {{c1::apnea}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 LAST",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.028"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La toxicidad cardiovascular de la LAST: bradicardia, bloqueo AV, {{c1::QRS ancho}}, arritmias ventriculares y asistolia.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 LAST",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.028"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Con sabor metálico y tinnitus durante un bloqueo: {{c1::suspender la inyección}}; el error es terminar de pasar la dosis.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.01.5.001"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primer paso en la LAST: suspender el anestésico y dar {{c1::oxígeno al 100%}}.",
+   "extra": "La hipoxia y la acidosis agravan la cardiotoxicidad.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Rescate",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.028"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "La convulsión de la LAST se trata con {{c1::midazolam 1-2 mg EV}}.",
+   "extra": "Propofol en dosis mínimas solo si no hay hipotensión.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Rescate",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.028"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "El antídoto de la LAST es la {{c1::emulsión lipídica al 20% (Intralipid)}}, un «sumidero lipídico».",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Rescate",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.028"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Intralipid: bolo de {{c1::1.5 mL/kg}} en 1 minuto (unos 100 mL en 70 kg) y luego infusión de {{c2::0.25 mL/kg/min}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Rescate",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.028"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Si persiste la inestabilidad, se repite el bolo y se duplica la infusión a {{c1::0.5 mL/kg/min}}.",
+   "extra": "Dosis máxima total 10-12 mL/kg en 30 minutos.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Rescate",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.028"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el paro por LAST se usan dosis {{c1::reducidas}} de adrenalina y se evitan vasopresina, bloqueadores de calcio y betabloqueadores.",
+   "extra": "La RCP puede requerir más de 60 minutos.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 RCP",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.028"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Lidocaína al 1% contiene {{c1::10 mg/mL}}; en 70 kg sin adrenalina el máximo es 300 mg, es decir {{c2::30 mL}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Infiltración",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.001"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La adrenalina no se usa en dedos, ortejos, pene, nariz ni {{c1::pabellón auricular}}.",
+   "extra": "Riesgo de isquemia en circulación terminal.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Infiltración",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.001"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antes de cada inyección de anestésico local se {{c1::aspira}} para evitar la vía intravascular.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Infiltración",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.001"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El bloqueo de Oberst usa {{c1::1 a 2 mL}} de lidocaína 1-2% sin adrenalina a cada lado de la base del dedo.",
+   "extra": "Anillos de gran volumen comprimen los vasos digitales.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Dedos",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.002"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Analgesia postoperatoria multimodal y horaria: paracetamol {{c1::1 g c/6-8 h}} más un AINE.",
+   "extra": "El ketorolaco no más de 5 días.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Dolor",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.017"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si el dolor persiste, se sube la escalera de la OMS: opioide débil ({{c1::tramadol}}) y luego fuerte ({{c2::morfina}}).",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Dolor",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.017"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En depresión respiratoria por opioides se da {{c1::naloxona}}.",
+   "extra": "El síndrome opioide: compromiso de conciencia, FR baja y miosis puntiforme.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Dolor",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 21"
+   ],
+   "codigos": [
+    "4.01.3.017"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0.0.0",
+   "pista": "Convulsión y colapso por anestésico local: ¿cuál es el antídoto?",
+   "codigos": [
+    "4.01.3.007",
+    "4.01.2.028"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Aparece sabor metálico durante la inyección: ¿qué haces?",
+   "codigos": [
+    "4.01.3.007",
+    "4.01.2.028"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.0",
+   "pista": "CPPD que no cede en 2-3 días: ¿qué procedimiento?",
+   "codigos": [
+    "4.01.3.007",
+    "4.01.2.028"
+   ]
+  }
+ ]
+}

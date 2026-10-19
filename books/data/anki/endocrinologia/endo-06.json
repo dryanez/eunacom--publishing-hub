@@ -1,0 +1,524 @@
+{
+  "classId": "endo-06",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tirotoxicosis con captación de yodo normal o alta: hipertiroidismo verdadero (Graves, {{c1::BMNT, adenoma tóxico}}).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿La tiroides fabrica o se vacía?",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Tirotoxicosis con captación nula: buscar tiroiditis o hormona exógena; el error es {{c1::iniciar tiamazol}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Graves es la causa más común de hipertiroidismo en menores de {{c1::50}} años.",
+      "extra": "Es mediada por TRAb estimulantes del receptor de TSH.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Bocio multinodular tóxico y adenoma tóxico: son de adultos mayores, rara vez con oftalmopatía y con TRAb {{c1::negativos}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipertiroidismo apático del adulto mayor: {{c1::fibrilación auricular de novo}} o insuficiencia cardíaca refractaria, sin síntomas floridos.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Hipertiroidismo apático",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Adulto mayor con fibrilación auricular de novo: pedir {{c1::TSH}}; el error es pensar solo en el corazón.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síndrome hipermetabólico: baja de peso con {{c1::buen apetito}}, intolerancia al calor, temblor fino y taquicardia.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signos patognomónicos de Graves: bocio difuso con soplo o frémito, orbitopatía y {{c1::mixedema pretibial}}.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Examen físico",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-06/01_dermopatia_tiroidea_pretibial__fitzpatrick_p1510.jpg",
+      "codigos": [
+        "6.02.3.006",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La orbitopatía de Graves aparece en alrededor del {{c1::50%}} de los casos y la empeora el tabaco.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Examen físico",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-06/02_oftalmopatia-exoftalmos__cto-endocrino_p57.jpg",
+      "codigos": [
+        "6.02.3.006",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El bocio de Graves es difuso, elástico e indoloro, con {{c1::soplo o frémito}}.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Examen físico",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-06/01_graves-bocio-difuso_1__cto-endocrino_p57.jpg",
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el eco Doppler de Graves la glándula está hipervascular, el llamado {{c1::\"infierno tiroideo\"}}.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Libro §3 Ecografía Doppler",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-06/03_eco-doppler-graves_1__amir-endocrino_p38.jpg",
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Retracción palpebral: es el signo {{c1::más frecuente}} de la orbitopatía tiroidea (esclera visible sobre el limbo).",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Orbitopatía",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-06/02_oftalmopatia-exoftalmos_alt1_2__amir-endocrino_p38.jpg",
+      "codigos": [
+        "6.02.3.006",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Proptosis: exoftalmometría de Hertel sobre {{c1::20 mm}} o asimetría mayor de 2 mm.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Orbitopatía",
+      "repaso": false,
+      "codigos": [
+        "6.02.3.006",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Orbitopatía activa: Clinical Activity Score (CAS) de {{c1::3 o más}} sobre 7.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Orbitopatía",
+      "repaso": false,
+      "codigos": [
+        "6.02.3.006",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la TC de la orbitopatía los músculos extraoculares están {{c1::engrosados respetando los tendones}}.",
+      "extra": "El músculo más afectado es el recto inferior.",
+      "origen": "foto",
+      "fuente": "Libro §6 Orbitopatía",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-06/04_tc_orbitopatia_tiroidea__kanski_p98.jpg",
+      "codigos": [
+        "6.02.3.006",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El factor de riesgo modificable más importante de la orbitopatía es el {{c1::tabaquismo}}.",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": true,
+      "codigos": [
+        "6.02.3.006",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Orbitopatía con baja de visión o de colores: {{c1::esteroide EV y derivar de urgencia}}; el error es controlar en el policlínico.",
+      "extra": "Sospecha de neuropatía óptica compresiva.",
+      "origen": "clase:15",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Orbitopatía leve: {{c1::selenio 100 µg cada 12 horas}} por 6 meses, además de tabaco fuera y lubricantes.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Cuándo es urgencia",
+      "repaso": false,
+      "codigos": [
+        "6.02.3.006",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Orbitopatía activa moderada o grave: pulsos semanales de {{c1::metilprednisolona EV}} por 12 semanas.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Cuándo es urgencia",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la confirmación de Graves la TSH está suprimida, menor de {{c1::0,01 mUI/L}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Cómo se confirma",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "TSH suprimida con T4L normal: medir {{c1::T3 libre}} para descartar T3-toxicosis.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003",
+        "1.03.4.003"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Graves con TRAb positivos u orbitopatía: el diagnóstico está hecho; el error es {{c1::pedir cintigrama igual}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.02.3.006",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipertiroidismo sin bocio ni exoftalmo: el examen para saber la causa es la {{c1::cintigrafía tiroidea}}.",
+      "extra": "",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz Diciembre 2017",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 35"
+      ],
+      "codigos": [
+        "6.02.3.006",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cintigrama: Graves es {{c1::difuso y homogéneo}}; adenoma tóxico, un nódulo caliente único; BMNT, áreas calientes y frías.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · El cintigrama",
+      "repaso": true,
+      "imagen": "biblioteca/05_endocrinologia/endo-06/05_cintigramas_panel_causas__commons.jpg",
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer de 35 años con exoftalmo bilateral, bocio difuso, TSH suprimida y T4L alta: {{c1::enfermedad de Graves-Basedow}}.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz Julio 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 149"
+      ],
+      "codigos": [
+        "6.02.3.006",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ojo rojo con temblor, baja de peso y retracción palpebral: el examen a pedir es {{c1::TSH y T4 libre}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "Banco de preguntas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 145"
+      ],
+      "codigos": [
+        "6.02.3.006",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tiamazol: {{c1::10 a 30 mg/día}} en una toma, por 12 a 18 meses.",
+      "extra": "Inhibe la peroxidasa tiroidea.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tratamiento médico",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con tiamazol, el control de T4L se hace a las {{c1::4 a 6 semanas}}.",
+      "extra": "La TSH puede seguir suprimida por meses.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tratamiento médico",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "PTU: indicaciones exclusivas son primer trimestre del embarazo y {{c1::tormenta tiroidea}}.",
+      "extra": "Bloquea además la conversión de T4 a T3.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tratamiento médico",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Graves en el primer trimestre: PTU, y tiamazol desde la semana {{c1::13 a 16}}; el error es mantener tiamazol.",
+      "extra": "El tiamazol produce embriopatía.",
+      "origen": "clase:15",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Fiebre u odinofagia con tiamazol: {{c1::suspender y pedir hemograma urgente}}; el error es dar antibiótico y seguir, o cambiar a PTU.",
+      "extra": "Sospecha de agranulocitosis, en los primeros 90 días.",
+      "origen": "clase:15",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Agranulocitosis por tionamidas: recuento absoluto de neutrófilos menor de {{c1::500/µL}}.",
+      "extra": "Hospitalizar en aislamiento, antibióticos y G-CSF; nunca reexponer.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El radioyodo está contraindicado en {{c1::embarazo y lactancia}}; esperar 6 meses para concebir.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Radioyodo y cirugía",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Graves con orbitopatía activa que recibe radioyodo: profilaxis con {{c1::prednisona 0.4-0.5 mg/kg/día}} por 6 semanas.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "6.02.3.006",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La tiroidectomía se prepara con tiamazol más {{c1::Lugol}} durante 7 a 10 días.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Radioyodo y cirugía",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.1",
+      "pista": "Graves en primer trimestre del embarazo: ¿qué fármaco?",
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0",
+      "pista": "Graves fuera del embarazo: ¿fármaco y duración?",
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "Cintigrama con nódulo(s) caliente(s): ¿diagnóstico y tratamiento?",
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.2",
+      "pista": "Captación nula: ¿qué piensas y qué no das?",
+      "codigos": [
+        "1.03.1.003"
+      ]
+    }
+  ]
+}

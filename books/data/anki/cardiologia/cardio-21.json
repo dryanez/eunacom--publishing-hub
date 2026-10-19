@@ -1,0 +1,635 @@
+{
+ "classId": "cardio-21",
+ "cards": [
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las miocardiopatías se clasifican por el fenotipo del {{c1::ecocardiograma}}: dilatada, hipertrófica, restrictiva y arritmogénica.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Cómo se ordenan",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La miocardiopatía dilatada es la causa más frecuente de IC en el adulto joven y la primera indicación de {{c1::trasplante cardíaco}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Dilatada",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas de miocardiopatía dilatada: alcohol, Chagas, antraciclinas, {{c1::periparto}}, viral y taquicardiomiopatía.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Miocardiopatía alcohólica: consumo > {{c1::80 g}} diarios por más de 5 años; reversible con abstinencia.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Las que se preguntan",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Antraciclinas: el riesgo de miocardiopatía crece con la dosis acumulada sobre {{c1::450-550 mg/m²}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Las que se preguntan",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El trastuzumab causa disfunción ventricular generalmente {{c1::reversible}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Dilatada",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Takotsubo: abombamiento apical por estrés en mujer posmenopáusica, ST elevado, coronarias normales y {{c1::recuperación espontánea}} en semanas.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Dilatada",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Chagas crónico aparece {{c1::10-30 años}} después del contagio (T. cruzi, vinchuca, transfusión).",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Chagas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Miocardiopatía chagásica: BRD + {{c1::hemibloqueo anterior izquierdo}}, arritmias ventriculares y aneurisma apical.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Chagas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Además del corazón, el Chagas afecta el tubo digestivo: {{c1::megaesófago o megacolon}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Chagas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El diagnóstico de Chagas es {{c1::serológico}} (dos pruebas).",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Chagas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Examen de la miocardiopatía dilatada: choque de la punta lateral, {{c1::tercer ruido}} y soplo mitral por dilatación del anillo.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Clínica, diagnóstico y tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 54"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "IC en joven con R3, choque lateral y soplo apical: miocardiopatía dilatada; el error es {{c1::miocardiopatía hipertrófica}}.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 54"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Miocardiopatía dilatada: ventrículo esférico con FEVI < {{c1::40%}} en el ecocardiograma.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Diagnóstico diferencial",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la dilatada se descarta enfermedad coronaria con coronariografía o {{c1::angio-TAC}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento de la miocardiopatía dilatada: los {{c1::cuatro pilares}} de la IC-FEr, la causa y abstinencia de alcohol.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "DAI en la dilatada si a los {{c1::3 meses}} de tratamiento óptimo la FEVI es ≤ 35%.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Miocardiopatía periparto: FEVI < {{c1::45%}} desde el último mes del embarazo hasta 5 meses tras el parto.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Disnea en el puerperio",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 3"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Puérpera con disnea, R3 y crépitos: miocardiopatía periparto; el error es {{c1::TEP o embolia amniótica}}.",
+   "extra": "El TEP es súbito y sin galope.",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 3"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Miocardiopatía periparto en embarazada: hidralazina, nitrato, betabloqueador y diurético; sin {{c1::IECA, ARA II ni espironolactona}}.",
+   "extra": "Solo después del parto.",
+   "origen": "clase:5",
+   "fuente": "Clase · Manejo",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En la periparto se anticoagula si la FEVI es < {{c1::30%}}.",
+   "extra": "Sin recuperar la FEVI: no más embarazos.",
+   "origen": "clase:5",
+   "fuente": "Clase · Manejo",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Chagas crónico: se discute tratamiento antiparasitario con {{c1::benznidazol}} o nifurtimox.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Chagas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Miocardiopatía restrictiva: ventrículos de tamaño normal, aurículas {{c1::gigantes}} y FEVI normal o casi normal.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Restrictiva",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La restrictiva da IC {{c1::derecha}}: Kussmaul, ascitis, edema, PA baja y pulso pequeño.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Restrictiva",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La causa más frecuente de miocardiopatía restrictiva es la {{c1::amiloidosis}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Las causas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Amiloidosis AL: macroglosia y equimosis {{c1::periorbitaria}} (en antifaz), síndrome nefrótico y neuropatía.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Las causas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Amiloidosis ATTR del adulto mayor: síndrome del {{c1::túnel carpiano}} y estenosis del canal lumbar.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Las causas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Equimosis periorbitaria + proteinuria + VHS alta: {{c1::amiloidosis}}; el error es nefrosis lipoidea.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "ECG de bajo voltaje con paredes gruesas: {{c1::amiloidosis}}; el error es hipertrofia hipertensiva.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ecocardiograma de la amiloidosis: paredes engrosadas de aspecto {{c1::brillante y granular}} y dilatación biauricular.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Restrictiva",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tipo de amiloide: inmunofijación sugiere AL; sin componente monoclonal, el centellograma con {{c1::pirofosfato}} confirma ATTR.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Diagnóstico y tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Amiloidosis ATTR se trata con {{c1::tafamidis}}; la AL con quimioterapia dirigida por hematología.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Amiloidosis con IC: se evitan {{c1::digoxina y betabloqueador}}; el error es tratarla como IC-FEr.",
+   "extra": "La digoxina se une al amiloide.",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hemocromatosis (bronceado, diabetes, ferritina alta): se trata con {{c1::flebotomías}} o quelantes.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Restrictiva",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pericarditis constrictiva: pericardio calcificado, golpe pericárdico, interdependencia ventricular; se cura con {{c1::pericardiectomía}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Restrictiva o constrictiva",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Miocarditis: inflamación del miocardio, más frecuente en {{c1::jóvenes y varones}}; causa más común, viral (Coxsackie B).",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Causas y clínica",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Miocarditis: pródromo viral 1-2 semanas antes, dolor torácico, troponina alta y coronarias {{c1::normales}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Causas y clínica",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Examen no invasivo de elección en miocarditis: {{c1::resonancia magnética}} con realce tardío (criterios de Lake Louise).",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Diagnóstico y tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Miocarditis estable: se confirma con RM; el error es la {{c1::biopsia}} de rutina (solo en formas graves).",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c46",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento de la miocarditis: soporte, IECA y betabloqueador al estabilizar; sin {{c1::corticoides}} de rutina ni AINE altos.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c47",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Miocarditis: sin deporte competitivo por {{c1::3 a 6 meses}}.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "c48",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Joven con síncope de esfuerzo, hermano fallecido a los 25 años y soplo eyectivo: miocardiopatía hipertrófica; síncope con relación al ejercicio orienta a causa {{c1::cardiogénica}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Hipertrófica",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 41",
+    "EUNACOM Julio 2013 · Pregunta 179",
+    "EUNACOM Julio 2019 · Pregunta 28"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-21/01_dilatada-pieza-dilatacion-vi__harrison_p1999.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Miocardiopatía dilatada (ventrículo izquierdo masivamente dilatado)",
+   "clave": "Ventrículo esférico dilatado con FEVI baja",
+   "conducta": "Coronariografía o angio-TAC, RM, y los cuatro pilares de la IC-FEr",
+   "fuente": "Harrison 21.ª ed., Fig. 259-2",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-21/02_restrictiva-amiloidosis-pieza__harrison_p2009.jpg",
+   "pregunta": "¿Qué muestra y cuál es la clave?",
+   "diagnostico": "Amiloidosis cardíaca (miocardiopatía restrictiva)",
+   "clave": "Corazón firme y ceroso con aurículas dilatadas; ECG de bajo voltaje con paredes gruesas",
+   "conducta": "Inmunofijación o pirofosfato; evitar digoxina y betabloqueador",
+   "fuente": "Harrison 21.ª ed., Fig. 259-12",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-21/04_miocarditis-rm-realce-tardio__harrison_p2001.jpg",
+   "pregunta": "¿Qué muestra y qué significa?",
+   "diagnostico": "Miocarditis aguda en resonancia",
+   "clave": "Realce tardío mesocárdico (no isquémico) y edema",
+   "conducta": "Soporte, sin corticoides de rutina; sin deporte 3 a 6 meses",
+   "fuente": "Harrison 21.ª ed., Fig. 259-6",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.020"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Dilatada en el puerperio: ¿qué diagnóstico y qué cuidado?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1",
+   "pista": "Dilatada de otra causa: ¿qué tratamiento?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.1",
+   "pista": "Restrictiva sin componente monoclonal: ¿qué examen y tratamiento?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.2.0",
+   "pista": "Miocarditis con shock, bloqueo AV o TV: ¿qué se hace?"
+  }
+ ]
+}

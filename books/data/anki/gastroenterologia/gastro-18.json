@@ -1,0 +1,407 @@
+{
+  "classId": "gastro-18",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El diagnóstico de pancreatitis aguda (Atlanta revisada) requiere {{c1::2 de 3 criterios}}: dolor compatible, lipasa/amilasa elevada e imagen compatible.",
+      "extra": "Con dolor típico + lipasa alta ya está hecho el diagnóstico.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Diagnóstico",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 35",
+        "EUNACOM Julio 2017 · Pregunta 90"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio enzimático de pancreatitis aguda: lipasa o amilasa {{c1::> 3 veces el límite superior normal}}.",
+      "extra": "Con VN < 60 U/L, el corte es > 180 U/L.",
+      "origen": "clase:2",
+      "fuente": "Clase · Dos de tres criterios",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 121"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El dolor típico de pancreatitis aguda es epigástrico, intenso, transfixiante e irradiado {{c1::en faja al dorso}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Diagnóstico",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 88"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Entre lipasa y amilasa, la {{c1::lipasa}} es más sensible, más específica y permanece elevada más días.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Lipasa vs amilasa",
+      "repaso": false
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La magnitud de la elevación de la lipasa {{c1::NO se correlaciona}} con la gravedad de la pancreatitis.",
+      "extra": "Una lipasa muy alta no es más grave.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si el paciente ya tiene dolor típico + lipasa > 3×, {{c1::no se necesita TAC}} para diagnosticar pancreatitis aguda.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · ¿Cuándo pedir un TAC?",
+      "repaso": false
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La TAC con contraste en pancreatitis aguda se pide {{c1::a las 72 horas}} si hay duda diagnóstica o mala evolución.",
+      "extra": "Antes de eso la necrosis aún no es evaluable.",
+      "origen": "clase:3",
+      "fuente": "Clase · ¿Cuándo pedir un TAC?",
+      "repaso": true
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las dos causas más frecuentes de pancreatitis aguda en Chile son la {{c1::litiasis biliar}} y el {{c2::alcohol}}.",
+      "extra": "Biliar: mujer, transaminasas y FA altas. Alcohol: varón.",
+      "origen": "clase:4",
+      "fuente": "Clase · Etiología",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 90"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La hipertrigliceridemia causa pancreatitis aguda con triglicéridos {{c1::> 1000 mg/dL}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Etiología",
+      "repaso": false
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "A todo paciente con pancreatitis aguda se le pide en las primeras 24–48 h {{c1::ecografía abdominal}} (colelitiasis), perfil lipídico y calcemia.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Estudio a todos",
+      "repaso": false
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Atlanta revisada: pancreatitis grave = falla orgánica persistente {{c1::> 48 h}}.",
+      "extra": "Lo que define gravedad es la duración de la falla, no la lipasa.",
+      "origen": "clase:5",
+      "fuente": "Clase · Atlanta revisada",
+      "repaso": true
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pancreatitis moderadamente grave: falla orgánica {{c1::transitoria (< 48 h)}} o una complicación local.",
+      "extra": "Leve: sin falla orgánica ni complicaciones locales.",
+      "origen": "clase:5",
+      "fuente": "Clase · Atlanta revisada",
+      "repaso": false
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El score predictivo de gravedad más simple en pancreatitis aguda es {{c1::BISAP}}.",
+      "extra": "BUN > 25, conciencia, SIRS, > 60 años, derrame pleural.",
+      "origen": "clase:6",
+      "fuente": "Clase · Scores predictivos",
+      "repaso": false
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un {{c1::hematocrito elevado y en ascenso}} (o BUN que sube) a las 24 h predice necrosis y mala evolución.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La intervención que más reduce la mortalidad en pancreatitis aguda es la {{c1::reposición de volumen precoz y agresiva}}.",
+      "extra": "Pérdida masiva al tercer espacio retroperitoneal.",
+      "origen": "clase:7",
+      "fuente": "Clase · El pilar: volumen",
+      "repaso": true
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Cristaloide de preferencia en pancreatitis aguda: {{c1::Ringer lactato}}, a {{c2::5–10 mL/kg/h}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · El pilar: volumen",
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta principal de la reposición en pancreatitis aguda: diuresis {{c1::> 0,5 mL/kg/h}}.",
+      "extra": "Ajustar además por FC y hematocrito.",
+      "origen": "clase:7",
+      "fuente": "Clase · El pilar: volumen",
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La analgesia en pancreatitis aguda es potente con {{c1::opioides}}; la meperidina ya no se prefiere.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Analgesia, nutrición y antibióticos",
+      "repaso": false
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En pancreatitis aguda se realimenta por vía oral precozmente, dentro de {{c1::24–72 h}}, apenas cede el dolor, incluso en la grave.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Nutrición",
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pancreatitis aguda grave que no tolera vía oral: nutrición {{c1::enteral por sonda (nasoyeyunal o nasogástrica)}}; se evita la parenteral.",
+      "extra": "Mantiene la barrera intestinal y reduce infecciones.",
+      "origen": "clase:22",
+      "fuente": "Clase · Quiz alimentación",
+      "repaso": false
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En pancreatitis aguda no infectada, incluso necrótica estéril, el error clásico es indicar {{c1::antibióticos profilácticos}}.",
+      "extra": "Solo con necrosis infectada demostrada o colangitis.",
+      "origen": "clase:8",
+      "fuente": "Clase · Antibióticos: la trampa",
+      "repaso": true
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En pancreatitis biliar, la CPRE urgente ({{c1::< 24 h}}) se indica solo si hay {{c2::colangitis u obstrucción biliar persistente}}.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · ¿CPRE o colecistectomía?",
+      "repaso": true
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pancreatitis biliar leve resuelta: {{c1::colecistectomía laparoscópica en el mismo ingreso}}.",
+      "extra": "Diferirla se asocia a alta recurrencia.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Dolor epigástrico + ictericia + vía biliar dilatada con lipasa < 3×: no es pancreatitis, es {{c1::coledocolitiasis}}.",
+      "extra": "Sin tríada de Charcot completa no es colangitis.",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz Julio 2013 P66",
+      "repaso": false
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si coexisten pancreatitis aguda y coledocolitiasis, el diagnóstico que \"manda\" es {{c1::la pancreatitis}}, por ser la más grave.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Julio 2013 P121",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 121"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante dolor abdominal desproporcionado al examen, FA y acidosis láctica (sospecha de isquemia mesentérica), el examen es {{c1::angio-TAC de abdomen}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 5"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tríada clásica de pancreatitis crónica: {{c1::calcificaciones pancreáticas + esteatorrea + diabetes}}.",
+      "extra": "Causa más frecuente: alcohol (junto con tabaco).",
+      "origen": "clase:10",
+      "fuente": "Clase · Pancreatitis crónica",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 140",
+        "EUNACOM Julio 2024 · Pregunta 138"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En pancreatitis crónica, la amilasa y la lipasa {{c1::suelen ser normales}}; se diagnostica por imágenes.",
+      "extra": "Calcificaciones en Rx/TAC, Wirsung dilatado, elastasa fecal baja.",
+      "origen": "clase:11",
+      "fuente": "Clase · Pancreatitis crónica",
+      "repaso": false
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La esteatorrea de la pancreatitis crónica se trata con {{c1::enzimas pancreáticas junto con cada comida}}.",
+      "extra": "Más vitaminas liposolubles y B12.",
+      "origen": "clase:20",
+      "fuente": "Clase · Quiz pancreatitis crónica",
+      "repaso": false
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Paciente con dolor en FII, febril y Blumberg positivo en FII: examen de elección {{c1::TAC de abdomen y pelvis}}.",
+      "extra": "Sospecha de diverticulitis complicada.",
+      "origen": "pregunta_real",
+      "fuente": "Pregunta real Enero 2023 P72",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 72"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ictericia obstructiva progresiva con baja de peso y vía biliar dilatada (sospecha de tumor pancreático): siguiente examen {{c1::angio-TAC de páncreas y vía biliar}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "Pregunta real Julio 2025 P100",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 100"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pancreatitis crónica con cambio del dolor o baja de peso rápida obliga a re-estudiar por mayor riesgo de {{c1::cáncer de páncreas}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Cuándo derivar",
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-18/02_pancreatitis-necrotizante-tc__cto-radiologia_p47.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Pancreatitis aguda necrotizante (TC con contraste)",
+      "clave": "Zonas del páncreas sin captación de contraste (tejido necrótico)",
+      "conducta": "Volumen agresivo y soporte; sin antibióticos salvo necrosis infectada demostrada",
+      "fuente": "Manual CTO Radiología 14.ª ed., p. 47",
+      "repaso": false
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-18/01_signo_grey_turner__commons.jpg",
+      "pregunta": "¿Qué signo es y qué sugiere?",
+      "diagnostico": "Signo de Grey Turner: pancreatitis hemorrágica",
+      "clave": "Equimosis en los flancos por sangre retroperitoneal",
+      "conducta": "Pancreatitis grave: hospitalizar, Ringer lactato agresivo ajustado a diuresis",
+      "fuente": "Wikimedia Commons, CC BY 2.0",
+      "repaso": false
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-18/03_seudoquiste__cto-digestivo_p261.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Seudoquiste pancreático",
+      "clave": "Colección líquida de pared fina junto al páncreas",
+      "conducta": "Si es sintomático, derivar para endoscopía o cirugía",
+      "fuente": "Manual CTO Digestivo 14.ª ed., p. 261",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Cumple 2 de 3: ¿cuál es el pilar del manejo?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.0.0",
+      "pista": "Pancreatitis biliar con colangitis: ¿qué haces?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.0.1",
+      "pista": "Pancreatitis biliar leve sin colangitis: ¿conducta?"
+    }
+  ]
+}

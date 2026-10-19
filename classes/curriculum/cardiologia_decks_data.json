@@ -472,7 +472,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **Iniciar compresiones torácicas externas (RCP)** (opción **B**). Iniciar compresiones torácicas externas (RCP). Actualmente no se diferencia el manejo entre agua salada y agua dulce. De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+        "explanation": "Sin pulso ni conciencia: iniciar RCP de inmediato y desfibrilar apenas disponible el desfibrilador."
       },
       {
         "type": "question",
@@ -850,7 +850,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **Iniciar compresiones torácicas externas (RCP)** (opción **B**). Iniciar compresiones torácicas externas (RCP). Actualmente no se diferencia el manejo entre agua salada y agua dulce. De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+        "explanation": "Sin pulso ni conciencia: iniciar RCP de inmediato y desfibrilar apenas disponible el desfibrilador."
       },
       {
         "type": "bento",
@@ -3179,12 +3179,12 @@
         "options": [
           {
             "id": "A",
-            "text": "Coronariogra:a",
+            "text": "Coronariografia",
             "isCorrect": false
           },
           {
             "id": "B",
-            "text": "Cin2gra:a miocárdica",
+            "text": "Cintigrafia miocárdica",
             "isCorrect": false
           },
           {
@@ -3481,12 +3481,12 @@
         "options": [
           {
             "id": "A",
-            "text": "Coronariogra:a",
+            "text": "Coronariografia",
             "isCorrect": false
           },
           {
             "id": "B",
-            "text": "Cin2gra:a miocárdica",
+            "text": "Cintigrafia miocárdica",
             "isCorrect": false
           },
           {
@@ -3542,7 +3542,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **Solicitar test de esfuerzo** (opción **B**). Fibrosis pulmonar idiopática: la más frecuente y de peor pronóstico; sin tratamiento específico De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+        "explanation": "Angina de esfuerzo con ECG basal normal: se solicita test de esfuerzo para confirmar isquemia y estratificar riesgo."
       },
       {
         "type": "bento",
@@ -4614,12 +4614,12 @@
           {
             "id": "A",
             "text": "Trombolisis inmediata y traslado a centro con hemodinamia",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": "B",
             "text": "Esperar traslado a centro con angioplastia",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": "C",
@@ -4637,7 +4637,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "IAM SDST sin capacidad de ICPP: si el traslado a centro con angioplastia demora >120 min desde el primer contacto médico, se realiza trombolisis inmediata + traslado para angiografía en 3-24h."
+        "explanation": "Si el centro con hemodinamia está a <120 min del primer contacto, se traslada para angioplastia primaria, trombolisis solo si se excede ese tiempo."
       },
       {
         "type": "bento",
@@ -5013,12 +5013,12 @@
           {
             "id": "A",
             "text": "Trombolisis inmediata y traslado a centro con hemodinamia",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": "B",
             "text": "Esperar traslado a centro con angioplastia",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": "C",
@@ -5036,7 +5036,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "IAM SDST sin capacidad de ICPP: si el traslado a centro con angioplastia demora >120 min desde el primer contacto médico, se realiza trombolisis inmediata + traslado para angiografía en 3-24h."
+        "explanation": "Si el centro con hemodinamia está a <120 min del primer contacto, se traslada para angioplastia primaria, trombolisis solo si se excede ese tiempo."
       },
       {
         "type": "bento",
@@ -5379,22 +5379,22 @@
         "options": [
           {
             "id": "A",
-            "text": "Ecogra:a Doppler de extremidades inferiores",
+            "text": "Ecografia Doppler de extremidades inferiores",
             "isCorrect": false
           },
           {
             "id": "B",
-            "text": "Ple2smogra:a de registro de volumen (PVR) de extremidades inferiores",
+            "text": "Pletismografia de registro de volumen (PVR) de extremidades inferiores",
             "isCorrect": true
           },
           {
             "id": "C",
-            "text": "Electromiogra:a",
+            "text": "Electromiografia",
             "isCorrect": false
           },
           {
             "id": "D",
-            "text": "Radiogra:a de pie",
+            "text": "Radiografia de pie",
             "isCorrect": false
           },
           {
@@ -6076,7 +6076,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "La alternativa correcta es la **B** (Insuficiencia cardíaca descompensada). Esta clase aborda la interpretación del equilibrio ácido-base mediante gasometría arterial o venosa. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES)."
+        "explanation": "IC con tercer ruido: IC descompensada (edema pulmonar cardiogénico)."
       },
       {
         "type": "bento",
@@ -6421,7 +6421,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "La alternativa correcta es la **B** (Insuficiencia cardíaca descompensada). Esta clase aborda la interpretación del equilibrio ácido-base mediante gasometría arterial o venosa. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES)."
+        "explanation": "IC con tercer ruido: IC descompensada (edema pulmonar cardiogénico)."
       },
       {
         "type": "bento",
@@ -7367,7 +7367,7 @@
           },
           {
             "id": "B",
-            "text": "Estenosis aór2ca",
+            "text": "Estenosis aórtica",
             "isCorrect": true
           },
           {
@@ -7377,7 +7377,7 @@
           },
           {
             "id": "D",
-            "text": "Insuficiencia aór2ca",
+            "text": "Insuficiencia aórtica",
             "isCorrect": false
           },
           {
@@ -7399,22 +7399,22 @@
         "options": [
           {
             "id": "A",
-            "text": "Ecogra:a Doppler de extremidades inferiores",
+            "text": "Ecografia Doppler de extremidades inferiores",
             "isCorrect": false
           },
           {
             "id": "B",
-            "text": "Ple2smogra:a de registro de volumen (PVR) de extremidades inferiores",
+            "text": "Pletismografia de registro de volumen (PVR) de extremidades inferiores",
             "isCorrect": true
           },
           {
             "id": "C",
-            "text": "Electromiogra:a",
+            "text": "Electromiografia",
             "isCorrect": false
           },
           {
             "id": "D",
-            "text": "Radiogra:a de pie",
+            "text": "Radiografia de pie",
             "isCorrect": false
           },
           {
@@ -8218,7 +8218,7 @@
           },
           {
             "id": "B",
-            "text": "Insuficiencia aór2ca",
+            "text": "Insuficiencia aórtica",
             "isCorrect": false
           },
           {
@@ -8228,7 +8228,7 @@
           },
           {
             "id": "D",
-            "text": "Estenosis aór2ca",
+            "text": "Estenosis aórtica",
             "isCorrect": false
           },
           {
@@ -9278,7 +9278,7 @@
           },
           {
             "id": "E",
-            "text": "Diuré2cos 2azídicos",
+            "text": "Diuréticos 2azídicos",
             "isCorrect": false
           }
         ],
@@ -9477,7 +9477,7 @@
           },
           {
             "id": "E",
-            "text": "Diuré2cos 2azídicos",
+            "text": "Diuréticos 2azídicos",
             "isCorrect": false
           }
         ],
@@ -9766,17 +9766,17 @@
           },
           {
             "id": "B",
-            "text": "Agregar un diuré2co al tratamiento",
+            "text": "Agregar un diurético al tratamiento",
             "isCorrect": false
           },
           {
             "id": "C",
-            "text": "Solicitar ecogra:a Doppler renal",
+            "text": "Solicitar ecografia Doppler renal",
             "isCorrect": false
           },
           {
             "id": "D",
-            "text": "Solicitar niveles plasmá2cos de aldosterona",
+            "text": "Solicitar niveles plasmáticos de aldosterona",
             "isCorrect": true
           },
           {
@@ -9822,7 +9822,7 @@
             "isCorrect": true
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **Agregar espironolactona e iniciar estudio de HTA secundaria** (opción **E**). Agregar espironolactona e iniciar estudio de HTA secundaria. Tratamiento: corticoides orales (detener avance) + cirugía vascular (desobstruir arterias) De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+        "explanation": "HTA resistente con 3 fármacos incl. diurético: se agrega espironolactona y se estudia HTA secundaria (aldosteronismo, renovascular, apnea)."
       },
       {
         "type": "bento",
@@ -11009,7 +11009,7 @@
         "options": [
           {
             "id": "A",
-            "text": "Ecogra:a abdominal",
+            "text": "Ecografia abdominal",
             "isCorrect": true
           },
           {
@@ -11024,12 +11024,12 @@
           },
           {
             "id": "D",
-            "text": "Ecocardiogra:a transesofágica",
+            "text": "Ecocardiografia transesofágica",
             "isCorrect": false
           },
           {
             "id": "E",
-            "text": "Resonancia magné2ca nuclear de abdomen",
+            "text": "Resonancia magnética nuclear de abdomen",
             "isCorrect": false
           }
         ],
@@ -11371,7 +11371,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Tiene un probable cáncer de pulmón, complicado con un TEP masivo (inestabilidad hemodinámica, compromiso de conciencia), cuyo tratamiento de elección es la trombólisis sistémica (se prefieren los trombolíticos modernos sobre la estreptoquinasa). Si la trombólisis está contraindicada (ej. hemorragia grave), se procede a la embolectomía generalmente abierta. En cambio, en el TEP no masivo no se tromboliza, sino solo se anticoagula. Comentario aparte, el examen de elección no era el angioTAC, sino el ecocardiograma de urgencia, que confirma el TEP masivo si hay signos de hipertensión pulmonar."
+        "explanation": "TEP de alto riesgo (hipotension, sincope, falla de VD, desorientacion): el tratamiento es trombolisis sistemica, si hay contraindicacion se recurre a trombectomia."
       },
       {
         "type": "question",

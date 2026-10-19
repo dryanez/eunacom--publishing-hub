@@ -1,0 +1,627 @@
+{
+ "classId": "resp-21",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La insuficiencia respiratoria aguda se define por PaO2 < {{c1::60 mmHg}} respirando aire ambiental a nivel del mar.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · La definición es gasométrica",
+   "repaso": true,
+   "codigos": [
+    "2.01.2.013",
+    "1.05.4.010"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "PaO2 < 60 mmHg equivale a SatO2 < {{c1::90 %}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · La definición es gasométrica",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.010"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "60 mmHg es el umbral porque ahí está la {{c1::inflexión de la curva de disociación}} de la oxihemoglobina.",
+   "extra": "Bajo 60, la saturación cae en picada.",
+   "origen": "clase:1",
+   "fuente": "Clase · La definición es gasométrica",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.010"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El mecanismo más frecuente de hipoxemia es el {{c1::desbalance V/Q bajo}} (NAC, EPOC, asma, TEP).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Mecanismos de hipoxemia",
+   "repaso": true,
+   "codigos": [
+    "2.01.2.013"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Bajo V/Q: el gradiente A-a está elevado, pero {{c1::corrige}} con oxígeno suplementario.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Mecanismos de hipoxemia",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.013"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El único mecanismo de hipoxemia que NO corrige con O2 al 100 % es el {{c1::shunt}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 140"
+   ],
+   "codigos": [
+    "2.01.2.013"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas de shunt: {{c1::SDRA}}, edema cardiogénico masivo y atelectasia lobar total.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cinco caminos a la hipoxemia",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.013"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hipoventilación alveolar pura: hipercapnia con gradiente A-a {{c1::normal}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "2.01.2.013"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Gradiente A-a: {{c1::PAO2 − PaO2}}, con PAO2 = 150 − PaCO2/0,8 en aire ambiental.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Cómo se calcula el gradiente A-a",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.010"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Gradiente A-a normal en el joven: {{c1::5 a 15 mmHg}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Cómo se calcula el gradiente A-a",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.010"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El gradiente A-a normal aumenta con la edad: {{c1::Edad/4 + 4}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Cómo se calcula el gradiente A-a",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.010"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hipoxemia con gradiente A-a normal: el problema está {{c1::fuera del pulmón}} (hipoventilación o altura).",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Cómo se calcula el gradiente A-a",
+   "repaso": true,
+   "codigos": [
+    "2.01.2.013",
+    "1.05.4.010"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Gradiente A-a elevado (> 20 mmHg): daño del {{c1::parénquima o la circulación pulmonar}} (neumonía, SDRA, edema, TEP).",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Cómo se calcula el gradiente A-a",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.013",
+    "1.05.4.010"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "IRA tipo 1 (hipoxémica): PaO2 < 60 con PaCO2 {{c1::≤ 45 mmHg}} y gradiente A-a elevado.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Cómo se ve cada tipo",
+   "repaso": true,
+   "codigos": [
+    "2.01.2.013"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "IRA tipo 2 (hipercápnica): PaCO2 > {{c1::45 mmHg}}, con acidosis respiratoria si es aguda.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Cómo se ve cada tipo",
+   "repaso": true,
+   "codigos": [
+    "2.01.2.013"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En la IRA tipo 2 aguda el pH es < {{c1::7,35}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Cómo se ve cada tipo",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.013",
+    "1.05.4.010"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Clínica de la IRA tipo 1: taquipnea, taquicardia, uso de musculatura accesoria, sudoración y {{c1::cianosis}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Cómo se ve cada tipo",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.013"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La narcosis por CO2 da cefalea, somnolencia, confusión y {{c1::asterixis}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Cómo se ve cada tipo",
+   "repaso": true,
+   "codigos": [
+    "2.01.2.013"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sobredosis de opioides con coma, miosis y bradipnea: IRA tipo 2 por hipoventilación; se ventila con bolsa-mascarilla y se da {{c1::naloxona}}.",
+   "extra": "",
+   "origen": "libro:caso",
+   "fuente": "Libro · Caso clínico",
+   "repaso": true,
+   "codigos": [
+    "2.01.2.013",
+    "1.05.2.008"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Meta de SatO2 en IRA tipo 1 sin retención: {{c1::92–96 %}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Oxígeno: el dispositivo según el paciente",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.009"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La cánula nasal entrega 1–5 L/min, con FiO2 de {{c1::24 a 40 %}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Oxígeno: el dispositivo según el paciente",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.009"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La cánula nasal de alto flujo llega hasta {{c1::60 L/min}} y se usa si PaFi < 200.",
+   "extra": "Reduce el trabajo respiratorio.",
+   "origen": "clase:6",
+   "fuente": "Clase · Oxígeno: el dispositivo según el paciente",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 125"
+   ],
+   "codigos": [
+    "1.05.2.008",
+    "1.05.2.009"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En el retenedor de CO2 (EPOC) se usa {{c1::mascarilla Venturi}} con FiO2 fija (24, 28, 35 o 50 %).",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Oxígeno: el dispositivo según el paciente",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 134"
+   ],
+   "codigos": [
+    "1.05.2.009"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el retenedor de CO2 el error es el {{c1::exceso de oxígeno}}: empeora la hipoventilación.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Oxígeno: el dispositivo según el paciente",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.009"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "VMNI BiPAP en EPOC exacerbado con pH entre {{c1::7,25 y 7,35}} y PaCO2 > 45 mmHg.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · VMNI o intubación",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 145",
+    "EUNACOM Diciembre 2025 · Pregunta 163"
+   ],
+   "codigos": [
+    "1.05.5.012"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Además del EPOC con acidosis, la VMNI es de primera línea en el {{c1::edema pulmonar agudo cardiogénico}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · VMNI o intubación",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.012"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La VMNI reduce la intubación en más del {{c1::60 %}} y disminuye la mortalidad.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · VMNI o intubación",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.012"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La VMNI se reevalúa a las {{c1::1–2 horas}}; si falla, se intuba.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · VMNI o intubación",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 95"
+   ],
+   "codigos": [
+    "1.05.5.012",
+    "1.05.5.011"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Intubación y VMI si Glasgow ≤ {{c1::8}}, shock o paro.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.5.011",
+    "1.05.2.008"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fatiga muscular con {{c1::respiración paradójica}} es indicación de VMI.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Cuándo intubar y cómo programar",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.011"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Nivel del Perfil: ante indicación de VMI se reconoce y se {{c1::deriva a UCI}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Cuándo intubar y cómo programar",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.011",
+    "1.05.2.008"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Ventilación protectora: volumen corriente de {{c1::6–8 mL/kg}} de peso ideal.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Cuándo intubar y cómo programar",
+   "repaso": true,
+   "codigos": [
+    "4.01.5.023",
+    "1.05.5.011"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Ventilación protectora: presión meseta < {{c1::30 cmH2O}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Cuándo intubar y cómo programar",
+   "repaso": true,
+   "codigos": [
+    "4.01.5.023",
+    "1.05.5.011"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Programación inicial del ventilador: FR {{c1::12–16}}, PEEP 5 cmH2O, I:E 1:2.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Cuándo intubar y cómo programar",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.023"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En pacientes obstructivos se deja más tiempo de espiración para evitar el {{c1::atrapamiento aéreo}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Cuándo intubar y cómo programar",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.023"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Preoxigenación para intubar: bolsa-mascarilla con FiO2 100 % durante {{c1::3–5 minutos}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Del material a la confirmación",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.007"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El método más confiable para confirmar el tubo es la {{c1::capnografía}} (onda sostenida).",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Del material a la confirmación",
+   "repaso": true,
+   "codigos": [
+    "1.05.5.007"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Profundidad del tubo a nivel de los dientes: {{c1::21 cm}} en la mujer y 23 cm en el hombre.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Del material a la confirmación",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.007"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Si falla la intubación: máximo {{c1::3 intentos}} y vía aérea alternativa (mascarilla laríngea o cricotirotomía).",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Del material a la confirmación",
+   "repaso": true,
+   "codigos": [
+    "1.05.5.007",
+    "4.01.5.030"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Aspiración traqueal: menos de {{c1::10–15 segundos}} por pasada, con sonda < mitad del diámetro del tubo.",
+   "extra": "Se suspende si hay desaturación o bradicardia.",
+   "origen": "clase:10",
+   "fuente": "Clase · Aspirar y asegurar la vía aérea",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.001"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Vía aérea quirúrgica de emergencia cuando no se puede intubar ni ventilar: {{c1::cricotirotomía}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Aspirar y asegurar la vía aérea",
+   "repaso": true,
+   "codigos": [
+    "4.01.5.030"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La traqueostomía electiva se plantea ante intubación prolongada de más de {{c1::10–14 días}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Aspirar y asegurar la vía aérea",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.030"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "IR crónica: PaO2 < 60 con compensación renal, es decir, {{c1::HCO3 elevado}} y pH casi normal.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Cuando la hipoxemia se vuelve estable",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.023"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Oxigenoterapia domiciliaria en la IR crónica: más de {{c1::15 horas}} al día.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Cuando la hipoxemia se vuelve estable",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.023"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0.1",
+   "pista": "Tipo 1 que no corrige con O2 al 100 %: ¿qué mecanismo?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.0",
+   "pista": "Tipo 2 con gradiente normal: ¿mecanismo y manejo?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.1.0",
+   "pista": "Tipo 2 sin Glasgow ≤ 8 ni shock: ¿qué soporte?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.1.1",
+   "pista": "Glasgow ≤ 8, shock o falla de VMNI: ¿qué haces?"
+  }
+ ]
+}

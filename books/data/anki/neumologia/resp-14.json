@@ -1,0 +1,577 @@
+{
+ "classId": "resp-14",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El neumotórax a tensión se produce por un mecanismo de {{c1::válvula unidireccional}}: el aire entra al inspirar y no sale.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el neumotórax a tensión la presión intrapleural supera a la {{c1::atmosférica}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Una válvula",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El mediastino y la tráquea se desplazan hacia el hemitórax {{c1::contralateral}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las cavas comprimidas reducen el retorno venoso y causan shock {{c1::obstructivo}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El paro del neumotórax a tensión es en {{c1::AESP}} (actividad eléctrica sin pulso).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El diagnóstico del neumotórax a tensión es {{c1::estrictamente clínico}}: no se pide radiografía.",
+   "extra": "Demora = muerte en minutos.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.011"
+   ],
+   "imagen": "biblioteca/02_neumologia/resp-14/01_neumotorax-a-tension-tc-rx__cto-cirugia_p71.jpg"
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La regla de no esperar la radiografía es para el paciente {{c1::inestable}}; si está estable, primero la radiografía.",
+   "extra": "",
+   "origen": "clase:18",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tétrada del neumotórax a tensión: shock, {{c1::yugulares ingurgitadas}}, tráquea desviada y timpanismo.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diagnóstico",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el neumotórax a tensión la tráquea se desvía hacia el lado {{c1::contrario}} a la lesión.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · El diagnóstico es clínico",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La percusión del neumotórax a tensión es {{c1::hipersonora (timpánica)}} y el murmullo está abolido.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diagnóstico",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las yugulares ingurgitadas se deben a la obstrucción mecánica del retorno venoso en la {{c1::aurícula derecha}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primer paso del tratamiento: {{c1::descompresión con aguja}} gruesa.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Descompresión",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.011",
+    "1.05.5.004"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La aguja de descompresión es de calibre {{c1::14 o 16 Gauge}}, de al menos 5 cm.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Descompresión",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sitio de la descompresión: {{c1::2.º espacio intercostal}}, línea medioclavicular.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Descompresión",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La aguja se inserta por encima del borde superior de la {{c1::3.ª costilla}}.",
+   "extra": "Evita el paquete vasculonervioso.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Descompresión",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Alternativa ATLS de descompresión: {{c1::5.º espacio intercostal}}, línea axilar anterior.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Aguja primero, tubo después",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras la aguja, el neumotórax a tensión pasa a {{c1::neumotórax simple}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Descompresión",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Segundo paso: tubo pleural de {{c1::28 a 32 French}}, 5.º espacio intercostal línea axilar media.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Pleurostomía",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.011",
+    "1.05.5.004"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tubo pleural se conecta a una {{c1::trampa de agua}} bajo sello.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Pleurostomía",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.004"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Intubar con presión positiva sin descomprimir un neumotórax a tensión {{c1::precipita el paro cardíaco}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.011"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El hemotórax masivo es la acumulación rápida de ≥ {{c1::1.500 mL}} de sangre en la pleura.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Hemotórax",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.013"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hemotórax masivo también si supera {{c1::un tercio}} de la volemia.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Hemotórax",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.013"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Vasos que sangran en el hemotórax: intercostales, mamaria interna o {{c1::grandes vasos hiliares}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Hemotórax",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.013"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hemotórax masivo: percusión con {{c1::matidez}} y yugulares planas.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.013"
+   ],
+   "imagen": "biblioteca/02_neumologia/resp-14/02_hemotorax-masivo-rx__cto-neumo_p111.jpg"
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las yugulares están planas en el hemotórax por shock {{c1::hipovolémico}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Sangre en la pleura",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.013"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neumotórax a tensión: shock {{c1::obstructivo}}; hemotórax masivo: shock hipovolémico.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.011",
+    "1.05.2.013"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Taponamiento cardíaco: yugulares ingurgitadas, pulmones con murmullo {{c1::conservado}} y percusión normal.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.013"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primera conducta en el taponamiento: {{c1::pericardiocentesis o ventana pericárdica}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla diferencial",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.013"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hemotórax masivo, primera línea: {{c1::tubo pleural + hemoderivados}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla diferencial",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.013",
+    "1.05.5.004"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Reanimación del hemotórax con hemoderivados en relación {{c1::1:1:1}} (glóbulos rojos, plasma, plaquetas).",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Hemotórax conducta",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.013"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En hemotórax se evita el exceso de {{c1::cristaloides}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Hemotórax conducta",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.013"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tubo pleural en el hemotórax: calibre {{c1::28–32 Fr}}, para drenar y medir el débito.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Hemotórax conducta",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.013",
+    "1.05.5.004"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Toracotomía de urgencia si el drenaje inicial es ≥ {{c1::1.500 mL}} de sangre fresca.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Toracotomía",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.013"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Toracotomía si el débito es > {{c1::200 mL/hora}} durante 2 a 4 horas consecutivas.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Toracotomía",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.013"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tercer criterio de toracotomía: necesidad {{c1::persistente de transfusión}} pese a adecuada expansión volumétrica.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Toracotomía",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.013"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tórax volante se manifiesta con {{c1::respiración paradójica}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Lesiones que matan primero",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.013"
+   ],
+   "imagen": "_verificadas/168_resp_Neumotórax_a_tensión_y_hemotór__lrpdf_p352_1.jpg"
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "El GES de politraumatizado grave cubre el manejo inmediato de {{c1::lesiones torácicas con riesgo vital}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro · Perfil GES",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.013"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Trauma torácico en shock: primero se mira {{c1::las yugulares}} (ingurgitadas o planas).",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.011",
+    "1.05.2.013"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-14/01_neumotorax-a-tension-tc-rx__cto-cirugia_p71.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Neumotórax a tensión",
+   "clave": "Pulmón colapsado y mediastino desplazado al lado contrario",
+   "conducta": "Clínico: aguja 14–16 G en 2.º EIC y luego tubo 28–32 Fr",
+   "fuente": "Manual CTO Cirugía 14.ª ed., p. 71",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.011",
+    "1.05.5.004"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-14/02_hemotorax-masivo-rx__cto-neumo_p111.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Hemotórax masivo",
+   "clave": "Hemitórax opaco con matidez y yugulares planas",
+   "conducta": "Tubo pleural grueso + hemoderivados 1:1:1; toracotomía si 1.500 mL o 200 mL/h",
+   "fuente": "Manual CTO Neumología 14.ª ed., p. 111",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.013",
+    "1.05.5.004"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "_verificadas/168_resp_Neumotórax_a_tensión_y_hemotór__lrpdf_p352_1.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Tórax volante",
+   "clave": "Fracturas costales segmentarias con respiración paradójica",
+   "conducta": "Manejo de la insuficiencia respiratoria según prioridad ATLS",
+   "fuente": "Learning Radiology (Herring), p. 352",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.013"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0.0",
+   "pista": "Timpanismo + tráquea desviada: ¿qué conducta?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0.1",
+   "pista": "Pulmones normales con ruidos apagados: ¿qué sospechas?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1",
+   "pista": "Yugulares planas: ¿qué diagnóstico y manejo?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.0",
+   "pista": "Débito ≥ 1.500 mL o > 200 mL/h: ¿qué se hace?"
+  }
+ ]
+}

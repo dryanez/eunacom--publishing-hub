@@ -1,0 +1,612 @@
+{
+ "classId": "resp-19",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los trombos del TEP provienen en más del 90 % de las venas {{c1::ilíacas, femorales y poplíteas}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tríada de Virchow en el TEP: estasis venosa, lesión endotelial e {{c1::hipercoagulabilidad}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · De la pierna al pulmón",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas de hipercoagulabilidad: cáncer, trombofilias (factor V Leiden), síndrome antifosfolípido y {{c1::estrógenos / anticonceptivos combinados}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · De la pierna al pulmón",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 134"
+   ],
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El síntoma más común del TEP es la disnea súbita e inexplicable, presente en más del {{c1::80 %}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · ¿Cómo se presenta?",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 63",
+    "EUNACOM Julio 2016 · Pregunta 140"
+   ],
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El dolor torácico pleurítico del TEP se debe a un {{c1::infarto pulmonar}} periférico subpleural.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clínica y ECG",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 97"
+   ],
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Síncope o hipotensión en un TEP marcan {{c1::TEP masivo}} con falla del ventrículo derecho.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · ¿Cómo se presenta?",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 99"
+   ],
+   "codigos": [
+    "1.05.2.005"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El hallazgo ECG más frecuente en el TEP es la {{c1::taquicardia sinusal}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · ¿Cómo se presenta?",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La taquicardia sinusal aparece en el {{c1::40–50 %}} de los TEP.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · ¿Cómo se presenta?",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El patrón {{c1::S1Q3T3}} y el bloqueo de rama derecha son específicos de TEP pero poco sensibles.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · ¿Cómo se presenta?",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "S1Q3T3 y BRD aparecen en menos del {{c1::15–20 %}} de los TEP.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · ¿Cómo se presenta?",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el Wells, signos de TVP suman {{c1::+3}} puntos.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Score de Wells",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el Wells, TEP como diagnóstico más probable suma {{c1::+3}} puntos.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Score de Wells",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el Wells, FC > 100 lpm suma {{c1::+1,5}} puntos.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Score de Wells",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Wells {{c1::≤ 4}} puntos = probabilidad baja o intermedia: se pide dímero D.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un dímero D negativo en Wells ≤ 4 descarta el TEP con VPN > {{c1::99 %}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Dímero D o angioTAC",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Dímero D ajustado por edad en > 50 años: edad × {{c1::10 ug/L}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Algoritmo diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Wells > 4: el error clásico es {{c1::pedir dímero D}}; se indica angioTAC directo.",
+   "extra": "Un dímero D negativo no excluye en probabilidad alta.",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 5",
+    "EUNACOM Agosto 2021 · Pregunta 148"
+   ],
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Estable con Wells ≤ 4: el error es pedir {{c1::angioTAC de entrada}}; corresponde dímero D.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si el dímero D sale positivo se pasa al {{c1::angioTAC de arterias pulmonares}}.",
+   "extra": "El dímero D positivo no confirma nada.",
+   "origen": "clase:4",
+   "fuente": "Clase · Dímero D o angioTAC",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 86",
+    "EUNACOM Diciembre 2017 · Pregunta 21",
+    "EUNACOM Diciembre 2019 · Pregunta 98"
+   ],
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estándar diagnóstico en la práctica clínica del TEP: {{c1::angioTAC de arterias pulmonares}} con contraste.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 6",
+    "EUNACOM Agosto 2021 · Pregunta 147"
+   ],
+   "codigos": [
+    "1.05.1.015",
+    "4.01.4.010"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "TEP de alto riesgo: shock o PAS < {{c1::90 mmHg}} por más de 15 minutos.",
+   "extra": "Sin hipovolemia ni sepsis.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Estratificación",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.005"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La mortalidad temprana del TEP de alto riesgo es > {{c1::15–30 %}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · ¿Cuánto riesgo tiene este TEP?",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.005"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En un TEP estable el riesgo se estratifica con el score {{c1::sPESI}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · ¿Cuánto riesgo tiene este TEP?",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El sPESI suma 1 punto por FC ≥ {{c1::110 lpm}} y PAS < 100 mmHg.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Estratificación",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el sPESI suma 1 punto la edad > {{c1::80 años}}, el cáncer activo, IC/EPOC y SatO2 < 90 %.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Estratificación",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "sPESI = {{c1::0}}: bajo riesgo, mortalidad a 30 días < 1 % y alta precoz con ACOD.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · ¿Cuánto riesgo tiene este TEP?",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "sPESI ≥ 1: se evalúa el VD con eco o angioTAC y se miden {{c1::troponinas}} o NT-proBNP.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · ¿Cuánto riesgo tiene este TEP?",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Riesgo intermedio-alto: VD disfuncionante y troponinas positivos; se maneja en {{c1::UCI/UTI}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla estratificación",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Normotenso con VD dilatado y troponinas positivas: el error es {{c1::trombolizar de entrada}}.",
+   "extra": "Se anticoagula y se monitoriza.",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "TEP de alto riesgo con shock: trombólisis sistémica con {{c1::alteplasa 100 mg EV en 2 horas}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · TEP masivo: reperfundir ya",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 8"
+   ],
+   "codigos": [
+    "1.05.2.005"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En paro inminente, la alteplasa se da en bolo de {{c1::0,6 mg/kg en 15 min}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · TEP masivo: reperfundir ya",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.005"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "TEP con shock o PAS < 90: el error es dar {{c1::solo heparina en sala}}.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.005"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si la trombólisis está contraindicada, la alternativa es la {{c1::embolectomía o trombectomía}} quirúrgica o por catéter.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · TEP masivo: reperfundir ya",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.005"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el TEP masivo se da volumen con {{c1::cautela}}: el exceso agrava el VD.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · TEP masivo: reperfundir ya",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.005"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si el paciente es demasiado inestable para trasladarse, se hace {{c1::eco en la cama}}.",
+   "extra": "",
+   "origen": "clase:21",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 99"
+   ],
+   "codigos": [
+    "1.05.2.005"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "TEP estable, primera línea: anticoagulantes orales directos, p. ej. {{c1::rivaroxabán 15 mg c/12 h por 21 días}}, luego 20 mg/día.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Anticoagular: con qué y por cuánto",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En cáncer activo o embarazo el anticoagulante de elección es {{c1::enoxaparina 1 mg/kg c/12 h SC}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Anticoagular: con qué y por cuánto",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Si se traslapa a acenocumarol o warfarina, la meta de INR es {{c1::2–3}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Anticoagular: con qué y por cuánto",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "TEP provocado por factor transitorio: anticoagulación mínima de {{c1::3 meses}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Contraindicación para anticoagular: se instala {{c1::filtro de vena cava inferior}}; el error es anticoagular igual.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.015"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-19/01_angiotc-tep__cto-neumo_p103.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "TEP: defecto de llenado en arteria pulmonar",
+   "clave": "Defecto de llenado intraluminal en el angioTAC",
+   "conducta": "Estratificar: shock = alteplasa; estable = ACOD según sPESI",
+   "fuente": "Manual CTO Neumología 14.ª ed., p. 103",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.015",
+    "1.05.2.005"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-19/01_ecg_tep_s1q3t3__ecg-basics_p195.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Sobrecarga aguda del VD por TEP (S1Q3T3)",
+   "clave": "S profunda en DI, Q e inversión de T en DIII",
+   "conducta": "Es específico pero poco sensible: confirmar con dímero D o angioTAC según Wells",
+   "fuente": "ECG from Basics to Essentials, p. 195",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.015",
+    "1.05.2.005"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Shock o PAS < 90 con sospecha de TEP: ¿qué categoría?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "TEP de alto riesgo: ¿qué tratamiento y dosis?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.0",
+   "pista": "Wells ≤ 4: ¿qué examen pides primero?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.1",
+   "pista": "Wells > 4: ¿qué examen y qué NO pides?"
+  }
+ ]
+}

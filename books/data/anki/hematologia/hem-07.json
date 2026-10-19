@@ -1,0 +1,467 @@
+{
+  "classId": "hem-07",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los cuatro pilares de la hemólisis: IRC > 2 %, LDH alta, bilirrubina {{c1::indirecta}} alta y haptoglobina baja.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Pilares",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En hemólisis la bilirrubina indirecta suele estar entre {{c1::2 y 5 mg/dL}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Pilares",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En hemólisis la haptoglobina cae a < {{c1::10 mg/dL}}.",
+      "extra": "Se consume al unir hemoglobina libre.",
+      "origen": "clase:1",
+      "fuente": "Clase · Pilares",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En hemólisis el VCM puede estar algo alto porque los {{c1::reticulocitos}} son células grandes.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Pilares",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La AHAI por anticuerpos calientes es el {{c1::80 a 90 %}} de las AHAI; las crioaglutininas, 10 a 15 %.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "AHAI caliente: autoanticuerpo {{c1::IgG}} con máxima afinidad a 37 °C.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Anticuerpos calientes",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En AHAI caliente la hemólisis es {{c1::extravascular en el bazo}}, por macrófagos con receptores Fc-gamma.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Anticuerpos calientes",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El frotis de AHAI caliente muestra {{c1::microesferocitos}}.",
+      "extra": "Pierden membrana, no volumen.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "imagen": "biblioteca/06_hematologia/hem-07/01_esferocitos__amir-hemato_p34.jpg",
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "AHAI caliente puede ser idiopática o secundaria a {{c1::LES, LLC}} o fármacos como metildopa y cefalosporinas.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Crioaglutininas: autoanticuerpo {{c1::IgM}} que se une a 0–4 °C en las acras y fija complemento.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Crioaglutininas",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las crioaglutininas se asocian a {{c1::Mycoplasma}}, VEB y linfoma B.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las crioaglutininas dan acrocianosis, livedo reticularis y {{c1::Raynaud}} con el frío.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "imagen": "biblioteca/06_hematologia/hem-07/01_raynaud-palidez-cianosis__amir-reuma_p98.jpg",
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El frotis de crioaglutininas muestra {{c1::autoaglutinación}} de glóbulos rojos.",
+      "extra": "Aparece al enfriarse la muestra.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "imagen": "biblioteca/06_hematologia/hem-07/atlas_123_autoaglutinacion_por_crioaglut.jpg",
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La prueba confirmatoria de AHAI es el {{c1::Coombs directo}}.",
+      "extra": "Detecta anticuerpo o complemento ya fijado in vivo.",
+      "origen": "clase:4",
+      "fuente": "Clase · Coombs",
+      "repaso": true,
+      "imagen": "biblioteca/06_hematologia/hem-07/S1_coombs__propio.svg",
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 52"
+      ],
+      "codigos": [
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Coombs directo en AHAI caliente: positivo para {{c1::IgG}} (± C3d).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Coombs",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Coombs directo en crioaglutininas: positivo {{c1::solo para C3d}}, con IgG negativo.",
+      "extra": "La IgM ya se soltó a 37 °C.",
+      "origen": "clase:4",
+      "fuente": "Clase · Coombs",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La ictericia de la hemólisis es {{c1::flavínica}} (amarillo pálido) y no hay coluria verdadera.",
+      "extra": "La bilirrubina indirecta no filtra por el glomérulo.",
+      "origen": "clase:5",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "imagen": "biblioteca/06_hematologia/hem-07/02_ictericia_escleral__commons.jpg",
+      "codigos": [
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síndrome de Evans es AHAI más {{c1::trombocitopenia inmune}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "AHAI caliente: prednisona {{c1::1 a 1,5 mg/kg/día}}.",
+      "extra": "Responde el 70 a 80 % en 7 a 14 días.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Crisis hemolítica con descompensación: metilprednisolona {{c1::1 g EV}} por 3 días.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El descenso de prednisona es muy lento, en {{c1::3 a 6 meses}}; suspender rápido gatilla recaídas.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En AHAI se agrega ácido fólico {{c1::5 mg/día}} porque la médula acelerada consume folato.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Las crioaglutininas {{c1::no}} responden a corticoides ni a esplenectomía.",
+      "extra": "Se evita el frío y se usa rituximab si es grave.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Corticorrefractario = sin respuesta a las {{c1::3 semanas}}; corticodependiente = recae bajo 15 a 20 mg/día de prednisona.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Segunda línea",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Segunda línea en AHAI caliente: rituximab {{c1::375 mg/m²}} semanal por 4 semanas.",
+      "extra": "Anti-CD20.",
+      "origen": "clase:8",
+      "fuente": "Clase · Segunda línea",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antes de la esplenectomía se vacuna contra neumococo, meningococo y Hib al menos {{c1::2 semanas}} antes.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Segunda línea",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En AHAI las pruebas cruzadas son {{c1::siempre incompatibles}}: se transfunde solo con riesgo vital.",
+      "extra": "Shock, ángor o compromiso de conciencia: unidad menos incompatible, lenta, con corticoide EV previo.",
+      "origen": "clase:9",
+      "fuente": "Clase · Transfusión",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "AHAI grave: Hb < {{c1::7}}, disnea de reposo, dolor torácico o LDH > 1.500 UI/L; se hospitaliza.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Gravedad",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ictericia, disnea, palidez y esplenomegalia: el examen inicial es {{c1::hemograma con reticulocitos}}, luego Coombs.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Banco · Julio 2013",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 87"
+      ],
+      "codigos": [
+        "1.08.1.003",
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anemia aguda grave con microesferocitos, bilirrubina indirecta y LDH altas: {{c1::hemólisis}} (probable AHAI).",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Diciembre 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 21"
+      ],
+      "codigos": [
+        "1.08.1.003",
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-07/01_esferocitos__amir-hemato_p34.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Microesferocitos de AHAI caliente",
+      "clave": "Glóbulos pequeños y redondos sin centro claro",
+      "conducta": "Coombs directo; prednisona 1 a 1,5 mg/kg/día",
+      "fuente": "Manual AMIR Hematología, p. 34",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-07/atlas_123_autoaglutinacion_por_crioaglut.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Autoaglutinación por crioaglutininas",
+      "clave": "Glóbulos pegados en racimos",
+      "conducta": "Coombs directo (solo C3d); evitar el frío",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.010"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Coombs solo C3d: ¿qué diagnóstico y conducta?",
+      "codigos": [
+        "1.08.4.010"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.2.0",
+      "pista": "IgG sin gravedad: ¿qué tratamiento?",
+      "codigos": [
+        "1.08.1.003"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2.1",
+      "pista": "IgG grave: ¿qué tratamiento y qué evitas?",
+      "codigos": [
+        "1.08.1.003"
+      ]
+    }
+  ]
+}

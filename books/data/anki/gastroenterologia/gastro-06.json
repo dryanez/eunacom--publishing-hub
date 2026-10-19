@@ -1,0 +1,283 @@
+{
+  "classId": "gastro-06",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La hernia hiatal tipo I (por deslizamiento) corresponde a más del {{c1::95}} % de los casos.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Hernia hiatal",
+      "repaso": false
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la hernia hiatal tipo I, lo que asciende al tórax es la {{c1::unión gastroesofágica}}.",
+      "extra": "Es prácticamente una variante normal.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Hernia hiatal",
+      "repaso": false
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hernia hiatal tipo I asintomática (hallazgo en endoscopía): conducta = {{c1::observar}}; tratar el reflujo solo si hay síntomas.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La hernia hiatal paraesofágica (tipos II–IV) corresponde a menos del {{c1::5}} % de los casos.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Hernia hiatal",
+      "repaso": false
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la hernia paraesofágica, lo que sube junto al esófago es el {{c1::fondo gástrico}}; la unión gastroesofágica queda en su sitio.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Hernia hiatal",
+      "repaso": false
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hernia paraesofágica se trata con {{c1::cirugía electiva}} (reparación + funduplicatura), urgente si se complica.",
+      "extra": "Por riesgo de vólvulo, incarceración y estrangulación.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hernia paraesofágica puede dar anemia ferropénica por sangrado de las {{c1::lesiones de Cameron}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz hernia hiatal",
+      "repaso": false
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En endoscopía, una línea Z más arriba que la impresión hiatal diafragmática indica {{c1::hernia hiatal por deslizamiento (directa)}}.",
+      "extra": "Ej.: línea Z a 28 cm e impresión hiatal a 37 cm de la arcada.",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz EUNACOM 2021",
+      "repaso": false
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante una hernia hiatal tipo I asintomática, el error es {{c1::operarla}}: la cirugía es para la paraesofágica o la ERGE grave refractaria.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hernia diafragmática traumática del adulto es más frecuente al lado {{c1::izquierdo}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Hernia diafragmática",
+      "repaso": false
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hernia diafragmática traumática crónica se ve en la Rx de tórax como {{c1::asas intestinales o cámara gástrica en el hemitórax}}.",
+      "extra": "Puede aparecer años después del trauma.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Hernia diafragmática",
+      "repaso": false
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hernia diafragmática traumática aguda (compromiso respiratorio o víscera estrangulada): {{c1::cirugía de urgencia}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hernia diafragmática traumática crónica asintomática (hallazgo): el error es observar; la conducta es {{c1::cirugía electiva}}.",
+      "extra": "Nunca se observa: previene obstrucción y estrangulación.",
+      "origen": "clase:13",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tumores del mediastino anterior, regla de las 4 T: Timoma, Terrible linfoma, {{c1::Teratoma}} y {{c2::Tiroides (bocio endotorácico)}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Mediastino",
+      "repaso": true
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el mediastino medio predominan los {{c1::quistes broncogénicos y pericárdicos}}, las adenopatías y los aneurismas.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Mediastino",
+      "repaso": false
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el mediastino posterior predominan los {{c1::tumores neurogénicos}} (neurinoma, ganglioneuroma).",
+      "extra": "Son los más frecuentes del mediastino en total.",
+      "origen": "clase:3",
+      "fuente": "Clase · Mediastino",
+      "repaso": false
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Toda masa mediastínica, en cualquier compartimento, se estudia con {{c1::TAC de tórax con contraste}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Masa mediastínica",
+      "repaso": true
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En sospecha de tumor germinal mediastínico se piden los marcadores {{c1::alfa-fetoproteína y beta-hCG}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Estudio",
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Masa en mediastino anterior + diplopía y debilidad fluctuante que mejora con reposo orientan a {{c1::timoma con miastenia gravis}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz caso",
+      "repaso": false
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El timoma asociado a miastenia gravis se trata con {{c1::timectomía}}.",
+      "extra": "Puede además mejorar la miastenia.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante una miastenia gravis (ptosis fluctuante que empeora en la tarde) hay que buscar un {{c1::timoma}} con TAC de tórax con contraste.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz EUNACOM 2024",
+      "repaso": false
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El linfoma mediastínico se trata con {{c1::quimioterapia}}, no con cirugía.",
+      "extra": "El teratoma maduro, en cambio, se reseca.",
+      "origen": "clase:4",
+      "fuente": "Clase · Masa mediastínica",
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-06/01_hernia-de-hiato-paraesofagica-rx__cto-digestivo_p35.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Hernia hiatal paraesofágica",
+      "clave": "Fondo gástrico en el tórax al lado del esófago, con la unión gastroesofágica en su sitio",
+      "conducta": "Cirugía electiva (reparación + funduplicatura); urgente si se complica",
+      "fuente": "Manual CTO Digestivo 14.ª ed., p. 35",
+      "repaso": false
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_web/176_gastro_Hernia_hiatal_diafragmática___Commons_1.jpg",
+      "pregunta": "Adulto con trauma toracoabdominal previo. ¿Qué muestra y qué haces?",
+      "diagnostico": "Hernia diafragmática traumática",
+      "clave": "Estómago o asas intestinales en el hemitórax izquierdo",
+      "conducta": "Siempre se opera: urgencia si es aguda o complicada; electiva si es crónica",
+      "fuente": "Wikimedia Commons, CC BY 2.0",
+      "repaso": false
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-06/03_masa-mediastinica-anterior-tc__atlas-eunacom.jpg",
+      "pregunta": "¿Qué muestra y qué piensas?",
+      "diagnostico": "Masa del mediastino anterior",
+      "clave": "Masa delante de los grandes vasos en TAC",
+      "conducta": "Pensar en las 4 T; completar con marcadores o biopsia; timoma con miastenia: timectomía",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "Hernia hiatal tipo I: ¿conducta?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.1",
+      "pista": "Hernia paraesofágica: ¿conducta?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "Hernia diafragmática traumática: ¿se observa?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.2",
+      "pista": "Masa mediastínica: ¿examen?"
+    }
+  ]
+}

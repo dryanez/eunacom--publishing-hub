@@ -1,0 +1,634 @@
+{
+ "classId": "trauma-01",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El signo más característico de una fractura es la {{c1::crepitación ósea}}.",
+   "extra": "No se busca vigorosamente para no dañar partes blandas.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clínica",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 100"
+   ],
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signos de fractura: dolor intenso, deformidad con desviación de ejes, equimosis, {{c1::impotencia funcional}} y crepitación.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clínica",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antes de centrarse en el hueso se hace el {{c1::ABC}} del trauma; fémur y pelvis pueden causar shock hipovolémico.",
+   "extra": "Clase: manejo ABC con reposición e inmovilización provisoria.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 ABC",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Una fractura de fémur puede perder hasta {{c1::1.5 litros}} de sangre.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 ABC",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.001"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se opera la fractura {{c1::expuesta}}, intraarticular, desplazada irreductible, conminuta, segmentaria o inestable.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Indicación quirúrgica",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fractura expuesta es una {{c1::urgencia quirúrgica}} que requiere aseo prolijo y estabilización para prevenir osteomielitis.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Indicación quirúrgica",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un escalón articular milimétrico en una fractura intraarticular predispone a {{c1::artrosis}} postraumática precoz.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Indicación quirúrgica",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fractura {{c1::segmentaria}}: dos rasgos en el mismo hueso con un segmento intermedio móvil y alto riesgo vascular.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Indicación quirúrgica",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fractura de pierna muy desplazada, irreductible y conminuta: {{c1::reducción y osteosíntesis}}.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Quiz fractura de pierna",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la {{c1::pseudoartrosis}} el hueso no pega (atrófica por falta de sangre, hipertrófica por falta de estabilidad).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Consolidación",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la consolidación {{c1::viciosa}} el hueso pega en posición anatómica incorrecta (angulado, rotado o cabalgado).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Consolidación",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fractura cerrada, estable, poco desplazada y extraarticular: tratamiento {{c1::ortopédico}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Ortopédico",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La inmovilización debe incluir la articulación {{c1::proximal y distal}} al foco.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Ortopédico",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se hace control radiográfico a los {{c1::5-7 días}}, porque al ceder el edema el yeso se afloja.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Ortopédico",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El yeso se retira en general a las {{c1::4-6 semanas}} en antebrazo y muñeca y 8-12 semanas en tibia.",
+   "extra": "Más corto en niños.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Ortopédico",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Todo paciente con sospecha de fractura se inmoviliza {{c1::antes de moverlo}} o trasladarlo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Inmovilización",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-01/01_ferula-fractura-tobillo__atls_p217.jpg",
+   "codigos": [
+    "4.02.5.001"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antes de inmovilizar se retiran anillos y reloj y se examinan {{c1::pulsos, sensibilidad y movilidad distal}}.",
+   "extra": "Se registran antes y después.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Inmovilización",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.001"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la urgencia se prefiere la {{c1::valva de yeso}} (no circular) porque deja espacio para el edema.",
+   "extra": "8-12 capas de venda de yeso, moldeada con la palma.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Inmovilización",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.032"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El yeso circular se coloca cuando el edema cede, a las {{c1::24-72 horas}}, y lo pone traumatología.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Valvas",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.032"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La valva {{c1::antebraquiopalmar}} inmoviliza muñeca y antebrazo; la suropédica, tobillo y pierna.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Valvas",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.032"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Yeso muy ajustado con dolor desproporcionado y parestesias: {{c1::síndrome compartimental}}; se abre el yeso de inmediato.",
+   "extra": "Fasciotomía si no cede.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Yeso",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 57",
+    "EUNACOM Enero 2023 · Pregunta 158",
+    "EUNACOM Julio 2024 · Pregunta 4"
+   ],
+   "codigos": [
+    "4.02.3.002"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Al abrir el yeso se cortan {{c1::todas las capas, incluido el algodón}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Yeso",
+   "repaso": false,
+   "codigos": [
+    "4.02.3.002"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La compresión por yeso afecta al nervio {{c1::peroneo}} en la cabeza del peroné y al cubital en el codo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Yeso",
+   "repaso": false,
+   "codigos": [
+    "4.02.3.002"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las úlceras por presión bajo el yeso aparecen en talón, maléolos y {{c1::cabeza del peroné}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Yeso",
+   "repaso": false,
+   "codigos": [
+    "4.02.3.002"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En fractura de huesos largos se piden {{c1::dos proyecciones perpendiculares}} (AP y lateral) que incluyan la articulación proximal y distal.",
+   "extra": "Sospecha de fractura de tobillo: radiografías.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Radiografía",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 7"
+   ],
+   "codigos": [
+    "4.02.4.003"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El signo de la {{c1::almohadilla grasa}} del codo sugiere fractura oculta.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Radiografía",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-01/24_codo-almohadilla-grasa__sherman_p770.jpg",
+   "codigos": [
+    "4.02.4.003"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Si la radiografía es normal pero la clínica sugiere fractura, se inmoviliza y se repite a los {{c1::7-10 días}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Radiografía",
+   "repaso": false,
+   "codigos": [
+    "4.02.4.003"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fractura de {{c1::Colles}} es del radio distal con desplazamiento dorsal, en «dorso de tenedor», por caída sobre la mano extendida.",
+   "extra": "Adulto mayor osteoporótico.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Muñeca",
+   "repaso": true,
+   "imagen": "biblioteca/18_traumatologia/trauma-01/21_colles-dorso-de-tenedor__sherman_p569.jpg",
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 141",
+    "EUNACOM Julio 2016 · Pregunta 65"
+   ],
+   "codigos": [
+    "4.02.2.005"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la fractura de {{c1::Smith}} el desplazamiento es volar; la de Barton compromete el borde articular.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Muñeca",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.005"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la fractura de muñeca se coloca valva y se busca compresión del nervio {{c1::mediano}} (parestesias de los tres primeros dedos).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Muñeca",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.005"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La fractura de radio distal poco desplazada y estable se trata con yeso por {{c1::4-6 semanas}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Muñeca",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-01/22_radio-distal-rx__sherman_p569.jpg",
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor en la {{c1::tabaquera anatómica}} tras caída sobre la mano: fractura de escafoides hasta demostrar lo contrario.",
+   "extra": "Dolor a la compresión axial del pulgar.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Escafoides",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 99"
+   ],
+   "codigos": [
+    "4.02.2.005"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con radiografía inicial normal y sospecha de escafoides: yeso en {{c1::espica de pulgar}} y repetir imagen a los 10-14 días.",
+   "extra": "Riesgo de necrosis avascular por irrigación retrógrada.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Escafoides",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-01/23_escafoides-rx__sherman_p662.jpg",
+   "codigos": [
+    "4.02.2.005"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antes de reducir una luxación anterior de hombro se explora la sensibilidad de la {{c1::zona deltoidea}} (nervio axilar).",
+   "extra": "",
+   "origen": "clase:16",
+   "fuente": "Clase · Quiz Dic 2025",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.001"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras osteosíntesis de húmero, imposibilidad de extender la muñeca: lesión del nervio {{c1::radial}}.",
+   "extra": "",
+   "origen": "clase:17",
+   "fuente": "Clase · Quiz Ago 2021",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.005"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Luxofractura de tobillo: analgesia, reducción cerrada y {{c1::valva de yeso}}, en espera de cirugía.",
+   "extra": "",
+   "origen": "clase:15",
+   "fuente": "Clase · Quiz luxofractura",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fractura de clavícula suele tratarse de forma {{c1::ortopédica}} con inmovilización.",
+   "extra": "Cabestrillo en fractura del tercio medio.",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul 2019",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 179",
+    "EUNACOM Diciembre 2017 · Pregunta 100"
+   ],
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Caída en paracaídas con deformidad en valgo de rodilla: fractura del {{c1::platillo tibial lateral}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic 2024",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 133"
+   ],
+   "codigos": [
+    "4.02.2.005"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En un adulto mayor con sospecha de fractura de pie, el estudio de elección es {{c1::TAC}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul 2025",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 165"
+   ],
+   "codigos": [
+    "4.02.2.005"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-01/21_colles-dorso-de-tenedor__sherman_p569.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Fractura de Colles",
+   "clave": "Deformidad en dorso de tenedor por desplazamiento dorsal del radio distal",
+   "conducta": "Analgesia, valva antebraquiopalmar, radiografía AP y lateral y buscar compresión del mediano",
+   "fuente": "Sherman, Atlas of Clinical Emergency Medicine, p. 569",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 141"
+   ],
+   "codigos": [
+    "4.02.2.005"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-01/23_escafoides-rx__sherman_p662.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Fractura de escafoides",
+   "clave": "Fractura sutil, con dolor en la tabaquera anatómica",
+   "conducta": "Espica de pulgar y repetir imagen a los 10-14 días; derivar",
+   "fuente": "Sherman, Atlas of Clinical Emergency Medicine, p. 662",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 99"
+   ],
+   "codigos": [
+    "4.02.2.005"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-01/02_piel-palida-luxofractura-tobillo__atls_p209.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Luxofractura de tobillo con piel pálida",
+   "clave": "Piel pálida y tensa sobre el maléolo",
+   "conducta": "Reducir pronto y revisar circulación y nervios después de la maniobra",
+   "fuente": "ATLS 10.ª ed., Fig. 8-5",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.001"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Fractura con inestabilidad hemodinámica: ¿qué haces primero?",
+   "codigos": [
+    "4.02.2.007",
+    "4.02.2.005"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "Dolor desproporcionado o pérdida neurovascular: ¿qué sospechas?",
+   "codigos": [
+    "4.02.2.007",
+    "4.02.2.005"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.1",
+   "pista": "Fractura expuesta, conminuta o intraarticular: ¿conducta?",
+   "codigos": [
+    "4.02.2.007",
+    "4.02.2.005"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.2",
+   "pista": "Fractura estable sin desplazamiento: ¿inmovilización?",
+   "codigos": [
+    "4.02.2.007",
+    "4.02.2.005"
+   ]
+  }
+ ]
+}

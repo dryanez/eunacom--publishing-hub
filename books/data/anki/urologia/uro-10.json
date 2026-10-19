@@ -1,0 +1,521 @@
+{
+ "classId": "uro-10",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El cáncer de testículo tiene su pico entre los {{c1::20 y 35 años}}; es la neoplasia sólida más común del varón joven.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Epidemiología",
+   "repaso": true,
+   "codigos": [
+    "4.03.3.003",
+    "4.03.1.004"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Su curación global supera el {{c1::95%}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Epidemiología",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La criptorquidia aumenta el riesgo de tumor germinal {{c1::4 a 10}} veces, incluso en el testículo contralateral descendido.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Criptorquidia",
+   "repaso": true,
+   "codigos": [
+    "4.03.3.003",
+    "4.03.1.004"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La orquidopexia precoz disminuye pero {{c1::no erradica}} el riesgo de cáncer, y deja la gónada palpable.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Criptorquidia",
+   "repaso": false,
+   "codigos": [
+    "4.03.3.003",
+    "4.03.1.004"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Más del {{c1::95%}} de los tumores testiculares son de células germinales.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Histología",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Seminoma {{c1::50-55%}}; no seminoma 40-45%.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Histología",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "No seminomas: carcinoma embrionario, teratoma, coriocarcinoma y tumor del {{c1::saco vitelino}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Histología",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Presentación típica: nódulo intratesticular {{c1::duro, pétreo e indoloro}}, que no transilumina.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clínica",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Menos del {{c1::10-15%}} debuta con dolor agudo por necrosis hemorrágica intratumoral.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clínica",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El primer examen es la ecografía {{c1::Doppler testicular}} bilateral, con sensibilidad cercana al 100%.",
+   "extra": "Masa sólida hipoecogénica heterogénea con flujo aumentado.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Ecografía",
+   "repaso": false,
+   "imagen": "biblioteca/19_urologia/uro-10/01_ecografia-tumor-testicular-pequeno__bailey-love_p1528.jpg",
+   "codigos": [
+    "4.03.1.024",
+    "4.03.4.008"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las masas intratesticulares son malignas en más del {{c1::95%}}; las extratesticulares (epidídimo, hidrocele) suelen ser benignas.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Ecografía",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.024",
+    "4.03.4.008"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Marcadores obligatorios antes de la orquiectomía: {{c1::AFP, b-hCG y LDH}}.",
+   "extra": "Y en el seguimiento.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Marcadores",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El seminoma puro {{c1::nunca}} eleva la AFP.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 AFP",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "«Seminoma» con AFP elevada de 350 ng/mL: se reclasifica y se trata como {{c1::no seminoma}} (radiorresistente, requiere BEP).",
+   "extra": "Hay un componente embrionario o de saco vitelino no identificado.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 AFP",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Vida media de la AFP: {{c1::5-7 días}}; de la b-hCG: 24-36 horas.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 AFP",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La b-hCG la produce el coriocarcinoma y está elevada en {{c1::15-20%}} de los seminomas.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 b-hCG",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La LDH es un marcador {{c1::inespecífico}} proporcional a la masa tumoral.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 LDH",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Marcadores persistentes elevados tras la cirugía indican enfermedad {{c1::residual}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Seguimiento",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tumor del saco vitelino: AFP elevada en más de {{c1::90%}} y b-hCG normal.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla marcadores",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Coriocarcinoma puro: AFP normal y b-hCG {{c1::masivamente elevada}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla marcadores",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El teratoma tiene AFP, b-hCG y LDH {{c1::normales}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla marcadores",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El seminoma es {{c1::radiosensible}}; los no seminomas son radiorresistentes.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla marcadores",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El abordaje es la orquiectomía {{c1::inguinal}} radical con clampeo alto del cordón en el anillo inguinal profundo.",
+   "extra": "Tumor de 30 años con eco sólida: orquiectomía radical.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Cirugía",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 162"
+   ],
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La punción o vía {{c1::transescrotal}} está contraindicada: contamina el drenaje inguinal y causa recidiva local.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Prohibición",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El testículo drena a los ganglios {{c1::lumboaórticos}}; la piel escrotal, a los inguinales superficiales.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Linfáticos",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras la orquiectomía se etapifica con {{c1::TAC de tórax, abdomen y pelvis}}.",
+   "extra": "El primer escalón es el retroperitoneo.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Etapificación",
+   "repaso": false,
+   "imagen": "biblioteca/19_urologia/uro-10/03_tac-masa-retroperitoneal-residual__bailey-love_p1530.jpg",
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Seminoma estadio I: observación, radioterapia o {{c1::1 ciclo de carboplatino}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "No seminoma avanzado: quimioterapia {{c1::BEP}} (bleomicina, etopósido, cisplatino).",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con masas ganglionares residuales tras quimioterapia se hace {{c1::linfadenectomía retroperitoneal}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antes de la quimioterapia se ofrece {{c1::criopreservación de semen}}.",
+   "extra": "La linfadenectomía puede causar eyaculación retrógrada.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Fertilidad",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El cáncer de testículo tiene garantía {{c1::GES N.º 20}} desde los 15 años.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 GES",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tumor más frecuente en el testículo criptorquídeo es el {{c1::seminoma}}.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Criptorquidia",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.004"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Seguimiento: autoexamen testicular {{c1::mensual}} desde la adolescencia y examen clínico anual.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Seguimiento",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.004"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-10/01_ecografia-tumor-testicular-pequeno__bailey-love_p1528.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Nódulo hipoecogénico testicular",
+   "clave": "Zona oscura y redonda dentro del tejido testicular",
+   "conducta": "Marcadores y orquiectomía inguinal radical",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 80.16",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 162"
+   ],
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-10/03_tac-masa-retroperitoneal-residual__bailey-love_p1530.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Masa retroperitoneal en TAC",
+   "clave": "Ganglios retroperitoneales aumentados",
+   "conducta": "Estadio II: radioterapia o BEP x3",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 80.20",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.024"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-10/02_metastasis-pulmonares-bala-de-canon__bailey-love_p1529.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Balas de cañón",
+   "clave": "Nódulos redondos en ambos pulmones",
+   "conducta": "Estadio III: BEP de 3-4 ciclos",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 80.19",
+   "repaso": false,
+   "codigos": [
+    "1.12.1.002"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.1",
+   "pista": "Masa sólida intratesticular: ¿qué se pide antes de operar?",
+   "codigos": [
+    "4.03.1.024",
+    "4.03.1.004"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "Masa sólida intratesticular: ¿qué cirugía?",
+   "codigos": [
+    "4.03.1.024",
+    "4.03.1.004"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0",
+   "pista": "Lesión extratesticular en la ecografía: ¿qué se concluye?",
+   "codigos": [
+    "4.03.1.024",
+    "4.03.1.004"
+   ]
+  }
+ ]
+}

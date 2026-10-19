@@ -1,0 +1,413 @@
+{
+ "classId": "uro-12",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El cáncer de vejiga es la segunda neoplasia urológica más prevalente, tras el cáncer de {{c1::próstata}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Epidemiología",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.003"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Más del {{c1::90-95%}} es carcinoma urotelial (de células transicionales).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Histología",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.003"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El tabaquismo es el principal factor de riesgo y multiplica el riesgo por {{c1::3 a 4}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Tabaco",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.003"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otros riesgos: tinturas y caucho (benzidina), {{c1::ciclofosfamida}} y Schistosoma haematobium (carcinoma escamoso).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Riesgos",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.003"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En más del {{c1::85%}} el síntoma inicial es hematuria macroscópica total, indolora, intermitente y con coágulos.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clínica",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.003",
+    "4.03.1.010"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hematuria indolora con coágulos en fumador mayor: {{c1::cáncer de vejiga}} hasta demostrar lo contrario.",
+   "extra": "Mujer fumadora de 30 paq/año y hombre de 67 años: ambos cáncer de vejiga.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clínica",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 159",
+    "EUNACOM Diciembre 2017 · Pregunta 77"
+   ],
+   "codigos": [
+    "4.03.1.003",
+    "4.03.1.010"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Irritación vesical (polaquiuria, tenesmo) refractaria a antibióticos sugiere {{c1::carcinoma in situ}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 CIS",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.003",
+    "4.03.1.010"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estudio de hematuria macroscópica: sedimento con urocultivo, ecografía, {{c1::uro-TAC}} y cistoscopía.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Estudio",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.003",
+    "4.03.5.002"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Hematuria con urocultivo negativo y TAC normal: se sigue con {{c1::cistoscopía}} para ver la mucosa vesical.",
+   "extra": "Fumador de 68 años con coágulos.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cistoscopía",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 45"
+   ],
+   "codigos": [
+    "4.03.1.003",
+    "4.03.5.002"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La cistoscopía muestra tumores papilares vegetantes, en {{c1::frondas de helecho}} o coliflor.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cistoscopía",
+   "repaso": false,
+   "imagen": "biblioteca/19_urologia/uro-12/01_cistoscopia-tumor-papilar-pTa__bailey-love_p1467.jpg",
+   "codigos": [
+    "4.03.1.003",
+    "4.03.5.002"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La RTUV es diagnóstica y terapéutica y debe llegar al músculo {{c1::detrusor}}.",
+   "extra": "El patólogo debe certificar su presencia.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 RTUV",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.003",
+    "4.03.5.002"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "RTUV sin músculo en la muestra: se {{c1::repite o completa}}; el error es clasificarlo como superficial.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.003"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La citología de orina es complementaria y {{c1::no reemplaza}} la cistoscopía.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Citología",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.003",
+    "4.03.5.002"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Disuria y polaquiuria de 6 meses con urocultivos negativos y mucosa vaginal atrófica: la pregunta oficial acepta {{c1::cistoscopía}}.",
+   "extra": "Discutible: cistitis intersticial vs atrofia genital.",
+   "origen": "clase:12",
+   "fuente": "Clase · Quiz",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 85"
+   ],
+   "codigos": [
+    "4.03.1.023"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El cáncer no músculo invasivo (Ta, T1, Tis) es el {{c1::75%}} de los casos.",
+   "extra": "El invasivo (≥ T2) es el 25%.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 CVNMI",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.003"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "T1 invade la {{c1::lámina propia}} pero no el músculo; Tis es carcinoma in situ plano de alto grado.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Estadios",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.003"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "CVNMI: RTUV completa más instilaciones de {{c1::BCG}} o mitomicina C.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.003"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La recidiva intravesical del cáncer no invasivo es de {{c1::50-70%}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.003"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Carcinoma urotelial de alto grado T1 con detrusor indemne tras RTUV: tratamiento adyuvante {{c1::BCG intravesical}}.",
+   "extra": "Inducción semanal por 6 semanas y mantención de 1 a 3 años.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Caso",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.003"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cáncer músculo invasivo (≥ T2): quimioterapia neoadyuvante con {{c1::cisplatino}} y cistectomía radical.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 CVMI",
+   "repaso": false,
+   "imagen": "biblioteca/19_urologia/uro-12/02_rm-cancer-vesical-invasor__bailey-love_p1471.jpg",
+   "codigos": [
+    "4.03.1.003"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el hombre la cistectomía radical extirpa vejiga, próstata y {{c1::vesículas seminales}}; en la mujer, vejiga, útero, ovarios y pared vaginal.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Cistectomía",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.003"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Derivación urinaria tras cistectomía: conducto ileal de {{c1::Bricker}} o neovejiga ortotópica.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Derivación",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.003"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La cistectomía en no invasivo se reserva para {{c1::falla del BCG}} o invasión muscular.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Cistectomía",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.003"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Aspecto del invasivo: sólido, {{c1::sésil}} y ulcerado; del no invasivo: papilar y digitiforme.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.003"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El cáncer vesical tiene garantía {{c1::GES N.º 69}} desde los 15 años.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 GES",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.003"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-12/01_cistoscopia-tumor-papilar-pTa__bailey-love_p1467.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Tumor papilar pTa",
+   "clave": "Lesión vegetante en frondas, en cistoscopía",
+   "conducta": "Resección transuretral con músculo en la muestra",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 77.48",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 45"
+   ],
+   "codigos": [
+    "4.03.1.003",
+    "4.03.5.002"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-12/02_rm-cancer-vesical-invasor__bailey-love_p1471.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Cáncer vesical invasor",
+   "clave": "Engrosamiento sólido de la pared en vez de frondas",
+   "conducta": "Cisplatino y cistectomía radical",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 77.51b",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.003"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Hematuria indolora en fumador sin infección: ¿qué examen?",
+   "codigos": [
+    "4.03.1.003",
+    "4.03.5.002"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Tumor que no invade el músculo: ¿tratamiento?",
+   "codigos": [
+    "4.03.1.003",
+    "4.03.5.002"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1",
+   "pista": "Tumor músculo invasivo (T2 o más): ¿tratamiento?",
+   "codigos": [
+    "4.03.1.003",
+    "4.03.5.002"
+   ]
+  }
+ ]
+}

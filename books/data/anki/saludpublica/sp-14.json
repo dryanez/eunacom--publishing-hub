@@ -1,0 +1,455 @@
+{
+  "classId": "sp-14",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La Ley {{c1::21.030}} despenalizó la interrupción voluntaria del embarazo (IVE) en tres causales taxativas.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Ley IVE",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.002"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las tres causales de la IVE son riesgo vital de la mujer, {{c1::inviabilidad fetal}} y violación.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.002"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causal 1 de la IVE: riesgo vital {{c1::actual o inminente}} de la mujer.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Causal 1",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.002"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La Causal 1 (riesgo vital) {{c1::no tiene límite}} de edad gestacional.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de causales",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.002"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La Causal 1 requiere el diagnóstico del médico tratante y la ratificación de {{c1::un segundo especialista}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de causales",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.002"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causal 2: patología congénita del feto {{c1::incompatible con la vida extrauterina}} independiente.",
+      "extra": "Ej.: anencefalia.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Causal 2",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.002"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La Causal 2 (inviabilidad fetal) {{c1::no tiene límite}} de edad gestacional.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de causales",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.002"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la Causal 3 la interrupción es posible hasta las {{c1::12 semanas}} de gestación.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.002"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En niñas menores de 14 años, la Causal 3 se extiende hasta las {{c1::14 semanas}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Causal 3",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.002"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La Causal 3 requiere evaluación previa de un {{c1::equipo de salud}} que constate los hechos concordantes con la edad gestacional.",
+      "extra": "No se exige denuncia penal ni sentencia judicial.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de causales",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.002"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La objeción de conciencia debe manifestarse {{c1::previamente, por escrito}}, ante el director del establecimiento.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.002"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El médico objetor debe {{c1::informar y derivar de inmediato}} a la paciente a un médico no objetor.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Objeción de conciencia",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.002"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En Causal 1 con riesgo de muerte inminente y sin otro médico disponible, el objetor {{c1::DEBE intervenir}}.",
+      "extra": "La objeción queda suspendida por ley.",
+      "origen": "libro:caso",
+      "fuente": "Libro · caso clínico",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.002"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante riesgo vital sin otro médico, trasladar a la paciente a un hospital a 3 horas es un {{c1::error}}.",
+      "extra": "El deber de preservar la vida prima sobre la objeción.",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.002"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Embarazo de 18 semanas sin ninguna causal: la interrupción {{c1::no procede}}; se informa y se deriva a consejería.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz EUNACOM Julio 2025",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.002"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 118"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sin ninguna de las tres causales, la conducta es {{c1::informar y derivar a apoyo psicosocial}}.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · solicitud de IVE",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.002"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Art. {{c1::112}} del Código Sanitario exige el título de médico cirujano para ejercer la medicina.",
+      "extra": "Extranjeros: revalidación o EUNACOM aprobado.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Código Sanitario",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La prescripción de fármacos éticos es exclusiva de médicos cirujanos, odontólogos y {{c1::matronas}} (en su ámbito).",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Código Sanitario",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ejercer la medicina sin título habilitante es el delito de {{c1::ejercicio ilegal de la profesión}} (intrusismo).",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Código Sanitario",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cuerpo normativo que regula el ejercicio de la profesión médica en Chile es el {{c1::Código Sanitario}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Julio 2024 · Pregunta 167",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.052"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 167"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un anestesista con tres pabellones simultáneos como práctica habitual comete {{c1::imprudencia}}.",
+      "extra": "La impericia es falta de conocimientos o habilidades.",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Julio 2024 · Preguntas 63 y 64",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.052"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 64",
+        "EUNACOM Julio 2024 · Pregunta 63"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La licencia médica certifica una incapacidad laboral {{c1::transitoria}} y da origen al subsidio por incapacidad laboral (SIL).",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Licencias médicas",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.054"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::COMPIN}} autoriza, reduce o rechaza las licencias médicas.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Licencias médicas",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.054"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 53"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La ley que sanciona el fraude en licencias médicas es la Ley {{c1::20.585}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.054"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La multa a beneficio fiscal por licencias fraudulentas va de 50 a {{c1::500 UTM}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Licencias médicas",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.054"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La emisión fraudulenta de licencias se sanciona con presidio menor, multa e {{c1::inhabilitación temporal o perpetua}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Licencias médicas",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.054"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La licencia tipo 1 corresponde a enfermedad o accidente {{c1::común}}, p. ej. una amigdalitis aguda.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz EUNACOM Enero 2023",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.054"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 5",
+        "EUNACOM Diciembre 2022 · Pregunta 174"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los riesgos laborales son físicos, químicos, biológicos, ergonómicos y {{c1::psicosociales}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Salud ocupacional",
+      "repaso": false,
+      "codigos": [
+        "1.11.3.001"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la jerarquía de control de riesgos laborales, los elementos de protección personal van {{c1::al final}}.",
+      "extra": "Primero eliminar, sustituir, ingeniería y medidas administrativas.",
+      "origen": "clase:5",
+      "fuente": "Clase · Riesgos laborales",
+      "repaso": true,
+      "codigos": [
+        "1.11.3.001"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::Ley 16.744}} crea el seguro social obligatorio contra accidentes del trabajo y enfermedades profesionales.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Ley 16.744",
+      "repaso": true,
+      "codigos": [
+        "4.02.3.001"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El accidente de trayecto es el ocurrido en el camino directo entre la {{c1::habitación y el lugar de trabajo}}.",
+      "extra": "Se considera accidente del trabajo.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Ley 16.744",
+      "repaso": true,
+      "codigos": [
+        "4.02.3.001"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La licencia tipo 5 corresponde a accidente del trabajo o de trayecto, y la tipo 6 a {{c1::enfermedad profesional}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Ley 16.744",
+      "repaso": true,
+      "codigos": [
+        "4.02.3.001"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.1.1",
+      "pista": "Objetor con riesgo vital y sin otro médico: ¿qué hace?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0",
+      "pista": "Sin ninguna causal: ¿conducta?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.2.1",
+      "pista": "Fuera del límite semanal en violación: ¿qué sigue?"
+    }
+  ]
+}

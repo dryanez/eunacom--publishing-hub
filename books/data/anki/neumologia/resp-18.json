@@ -1,0 +1,587 @@
+{
+ "classId": "resp-18",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las EPID se presentan con disnea de esfuerzo insidiosa y {{c1::tos seca}} irritativa persistente.",
+   "extra": "Evoluciona en meses o años.",
+   "origen": "clase:1",
+   "fuente": "Clase · ¿Cómo llega este paciente?",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.018"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la FPI, los estertores crepitantes secos tipo {{c1::velcro}} son tele-inspiratorios y bibasales.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · ¿Cómo llega este paciente?",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.018"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Los crépitos tipo velcro bibasales están presentes en más del {{c1::80–90 %}} de los pacientes con fibrosis.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Enfrentamiento clínico",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.018"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La acropaquia (dedos en {{c1::palillo de tambor}} y uñas en vidrio de reloj) es parte de la semiología clásica de la FPI.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · ¿Cómo llega este paciente?",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.018"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La acropaquia aparece en alrededor del {{c1::50 %}} de los casos de FPI.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Enfrentamiento clínico",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.018"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Disnea progresiva + tos seca + velcro + acropaquia en un adulto mayor: el examen de elección es la {{c1::TACAR sin contraste}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · La TACAR decide el patrón",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 64",
+    "EUNACOM Diciembre 2018 · Pregunta 98"
+   ],
+   "codigos": [
+    "1.05.1.018"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El sello tomográfico de la FPI es el patrón {{c1::NIU}} (neumonía intersticial usual).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 TACAR y patrón NIU",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 38"
+   ],
+   "codigos": [
+    "1.05.1.018"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el patrón NIU, la TACAR muestra opacidades reticulares {{c1::subpleurales y basales}} bilaterales.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · NIU vs NINE",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.018"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El hallazgo clave del patrón NIU es el {{c1::panal de abejas}} subpleural.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · NIU vs NINE",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.018"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el NIU, la fibrosis tira de la vía aérea y produce {{c1::bronquiectasias por tracción}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · NIU vs NINE",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.018"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Para hablar de patrón NIU no debe haber hallazgos incompatibles como {{c1::nódulos difusos o vidrio esmerilado extenso}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 TACAR y patrón NIU",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.018"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "NIU definitivo en un paciente > 60 años sin otra causa: el error es {{c1::pedir biopsia pulmonar}}.",
+   "extra": "El diagnóstico de FPI se hace sin biopsia.",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas NIU vs NINE",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.018"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con patrón NIU típico y edad > {{c1::60 años}} no se requiere biopsia pulmonar.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.018"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El patrón NINE se caracteriza por {{c1::vidrio esmerilado}} subpleural bilateral.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · NIU vs NINE",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.018"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el NINE el vidrio esmerilado {{c1::respeta}} el espacio subpleural inmediato.",
+   "extra": "En el NIU la zona subpleural está comprometida.",
+   "origen": "clase:3",
+   "fuente": "Clase · NIU vs NINE",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.018"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El patrón NINE es característico de las {{c1::conectivopatías}} (esclerodermia, lupus, artritis reumatoide).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 TACAR y patrón NIU",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.018"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Paciente típico NIU: hombre > 60–65 años, fumador. Paciente típico NINE: {{c1::mujer joven a madura, no fumadora}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla NIU vs NINE",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.018"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Corticoides en la FPI: están {{c1::contraindicados}} (dañan).",
+   "extra": "En el NINE sí hay respuesta favorable.",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas NIU vs NINE",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.018"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El estudio {{c1::PANTHER}} mostró que corticoides + azatioprina aumentan la mortalidad en la FPI.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · La trampa de los corticoides",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.018"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "El tratamiento específico de la FPI son los antifibróticos {{c1::pirfenidona o nintedanib}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.018"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los antifibróticos enlentecen la caída de la {{c1::capacidad vital forzada}} y reducen las exacerbaciones agudas.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Causas secundarias y terapéutica",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.018"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En el NINE el tratamiento es inmunosupresión con {{c1::micofenolato o azatioprina}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas NIU vs NINE",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.018"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Fármaco que más produce toxicidad pulmonar intersticial en cardiología: {{c1::amiodarona}}.",
+   "extra": "Acumula fosfolípidos.",
+   "origen": "clase:4",
+   "fuente": "Clase · Antes de decir idiopática",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.009"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Además de la amiodarona, inducen EPID el metotrexato, la bleomicina y la {{c1::nitrofurantoína}} en uso crónico.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Antes de decir idiopática",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.009"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Paciente con amiodarona que desarrolla disnea, tos seca y crépitos bibasales: la conducta es {{c1::suspender la amiodarona}}.",
+   "extra": "",
+   "origen": "clase:16",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 98",
+    "EUNACOM Enero 2023 · Pregunta 93",
+    "EUNACOM Diciembre 2022 · Pregunta 106"
+   ],
+   "codigos": [
+    "1.05.1.009"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antes de decir EPID idiopática hay que buscar causa secundaria: {{c1::fármacos}}, conectivopatías y neumonitis por hipersensibilidad.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Antes de decir idiopática",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.018",
+    "1.05.1.009"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La silicosis se da en minería, canteras, arenado y cerámica, con nódulos en lóbulos {{c1::superiores}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Polvos minerales",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 137",
+    "EUNACOM Enero 2023 · Pregunta 89",
+    "EUNACOM Diciembre 2022 · Pregunta 109"
+   ],
+   "codigos": [
+    "1.05.1.026"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo radiológico de la silicosis: adenopatías hiliares en {{c1::cáscara de huevo}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Polvos minerales",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.026"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La silicosis aumenta el riesgo de {{c1::tuberculosis}} y cáncer.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Polvos minerales",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.026"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La asbestosis produce fibrosis {{c1::basal}} con placas pleurales calcificadas.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Polvos minerales",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.026"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La asbestosis eleva el riesgo de {{c1::mesotelioma}} y cáncer de pulmón, sobre todo en fumadores.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Polvos minerales",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.026"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El diagnóstico de neumoconiosis se basa en la {{c1::historia ocupacional}} y la radiografía o TACAR; la espirometría es restrictiva.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Diagnóstico y manejo",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.026"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En neumoconiosis no hay tratamiento que revierta la fibrosis: se {{c1::retira al trabajador de la exposición}} y se trata la TBC latente.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Diagnóstico y manejo",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.026"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las neumoconiosis son enfermedades profesionales amparadas por la Ley {{c1::16.744}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Diagnóstico y manejo",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.026"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En prevención laboral, el primer paso de la jerarquía es {{c1::eliminar o sustituir el agente}}; las mascarillas van al final.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Cuidar el pulmón del polvo y del humo",
+   "repaso": false,
+   "codigos": [
+    "1.05.3.002"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "A los expuestos a sílice, asbesto y carbón se les hace vigilancia con {{c1::espirometría y radiografía}} periódicas.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Cuidar el pulmón del polvo y del humo",
+   "repaso": false,
+   "codigos": [
+    "1.05.3.002"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el hogar, evitar leña o parafina sin ventilación y el humo de {{c1::tabaco ajeno}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Cuidar el pulmón del polvo y del humo",
+   "repaso": false,
+   "codigos": [
+    "1.05.3.002"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los inhalantes causan también asma ocupacional, EPOC y neumonitis por {{c1::hipersensibilidad}} (pulmón del granjero o de las aves).",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Otras enfermedades por inhalantes",
+   "repaso": false,
+   "codigos": [
+    "1.05.3.002"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-18/01_fpi-rx-y-tc_alt1__cto-neumo_p73.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Patrón NIU con panal de abejas (FPI)",
+   "clave": "Quistes subpleurales basales bilaterales con reticulación",
+   "conducta": "Sin biopsia si > 60 años; antifibróticos (pirfenidona o nintedanib), sin corticoides",
+   "fuente": "Manual CTO Neumología 14.ª ed., p. 73",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.018",
+    "1.05.1.009"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-18/03_acropaquias__amir-reuma_p113.jpg",
+   "pregunta": "¿Qué signo es y con qué se asocia?",
+   "diagnostico": "Acropaquia",
+   "clave": "Dedos en palillo de tambor y uñas en vidrio de reloj",
+   "conducta": "Con disnea y velcro: TACAR para buscar NIU",
+   "fuente": "Manual AMIR Reumatología, p. 113",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.018",
+    "1.05.1.009"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-18/10_silicosis-cronica-rx__harrison_p2210.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Silicosis crónica",
+   "clave": "Nódulos pequeños de lóbulos superiores",
+   "conducta": "Retirar de la exposición, tratar TBC latente y vigilar cáncer",
+   "fuente": "Harrison, Principios de Medicina Interna, p. 2210",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.018",
+    "1.05.1.009"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Paciente con EPID que usa amiodarona: ¿qué haces?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1",
+   "pista": "Sin fármaco tóxico: ¿qué examen pides?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.0",
+   "pista": "TACAR con patrón NIU: ¿diagnóstico y tratamiento?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.1",
+   "pista": "TACAR con patrón NINE: ¿qué buscas?"
+  }
+ ]
+}

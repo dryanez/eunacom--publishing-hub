@@ -1,0 +1,627 @@
+{
+ "classId": "infecto-10",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El Pneumocystis jirovecii aparece con CD4 < {{c1::200/mm³}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Los CD4 como reloj",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Toxoplasma y criptococo se reactivan con CD4 < {{c1::100/mm³}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Los CD4 como reloj",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El complejo Mycobacterium avium (MAC) aparece con CD4 < {{c1::50/mm³}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Los CD4 como reloj",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La infección oportunista pulmonar definitoria de SIDA más frecuente es la neumonía por {{c1::Pneumocystis jirovecii}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Pneumocystis",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014",
+    "1.05.1.029"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 25",
+    "EUNACOM Diciembre 2017 · Pregunta 60",
+    "EUNACOM Diciembre 2019 · Pregunta 38"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "P. jirovecii es un hongo atípico que produce un exudado {{c1::espumoso intraalveolar}} rico en fibrina.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Un hongo que llena el alvéolo",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Clínica de Pneumocystis: disnea subaguda de semanas, tos {{c1::seca}} y fiebre, con desaturación al caminar.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Pneumocystis",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.029"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 25",
+    "EUNACOM Diciembre 2017 · Pregunta 60",
+    "EUNACOM Diciembre 2019 · Pregunta 38"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La radiografía de Pneumocystis muestra infiltrado intersticial bilateral perihiliar en {{c1::alas de mariposa}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Cómo se reconoce",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.029"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 25",
+    "EUNACOM Diciembre 2017 · Pregunta 60",
+    "EUNACOM Diciembre 2019 · Pregunta 38"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En Pneumocystis la LDH sérica está elevada, > {{c1::400–500 UI/L}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Cómo se reconoce",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.029"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Tratamiento de Pneumocystis: {{c1::cotrimoxazol (TMP-SMX) EV}} en dosis altas.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Pneumocystis",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.029"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 25",
+    "EUNACOM Diciembre 2017 · Pregunta 60",
+    "EUNACOM Diciembre 2019 · Pregunta 38"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El cotrimoxazol en dosis altas para Pneumocystis se da por {{c1::21 días}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.029"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En Pneumocystis se agregan corticoides si PaO2 < {{c1::70 mmHg}} o gradiente A-a ≥ 35 mmHg.",
+   "extra": "Reducen la inflamación por lisis del hongo; mortalidad a la mitad.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.029"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 25",
+    "EUNACOM Diciembre 2017 · Pregunta 60",
+    "EUNACOM Diciembre 2019 · Pregunta 38"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se agregan corticoides en Pneumocystis si el gradiente A-a es ≥ {{c1::35 mmHg}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.029"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Pneumocystis con PaO2 < 70: el error es dar {{c1::solo antibiótico, o el corticoide después}} del cotrimoxazol.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.029"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La causa número uno de masa cerebral focal en el VIH es la {{c1::toxoplasmosis cerebral}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Toxoplasmosis",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La toxoplasmosis cerebral es una reactivación de quistes latentes con CD4 < {{c1::100/mm³}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · La masa cerebral número uno",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Toxoplasmosis en TAC/RM: múltiples lesiones con {{c1::realce en anillo}} y edema perilesional.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · La masa cerebral número uno",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La toxoplasmosis cerebral predomina en los {{c1::ganglios basales}} y la unión córtico-subcortical.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · La masa cerebral número uno",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Prueba terapéutica antitoxoplasma: {{c1::sulfadiazina + pirimetamina}} + ácido folínico.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La prueba terapéutica antitoxoplasma dura {{c1::10 a 14 días}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Se trata primero",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Lesiones en anillo que no mejoran a los 14 días: sospechar {{c1::linfoma primario del SNC}} (virus Epstein-Barr) y biopsia estereotáxica.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Se trata primero",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Lesiones en anillo en ganglios basales en VIH: el error es {{c1::biopsia o radioterapia de entrada}}.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Sin respuesta antitoxoplasma a los 14 días, el error es {{c1::seguir con el mismo tratamiento}}.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La meningitis criptocócica cursa con cefalea insidiosa y {{c1::poca o nula rigidez de nuca}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Cefalea insidiosa",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.004"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Cefalea insidiosa con poca rigidez de nuca en VIH: el error es {{c1::descartar meningitis}} por falta de rigidez.",
+   "extra": "Se hace punción lumbar.",
+   "origen": "clase:14",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.004"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En criptococosis meníngea la presión de apertura del LCR es > {{c1::30 cm H2O}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Cefalea insidiosa",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.004"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El diagnóstico de meningitis criptocócica usa {{c1::tinta china}} (levaduras con halo) y antígeno criptocócico (CrAg).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Criptococo",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.004"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Inducción de la meningitis criptocócica: {{c1::anfotericina B liposomal + flucitosina}} por 2 semanas.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Cefalea insidiosa",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.004"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Tras la inducción de la criptococosis, se consolida y mantiene con {{c1::fluconazol}} oral.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Cefalea insidiosa",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.004"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La candidiasis {{c1::esofágica}} (odinofagia, disfagia retroesternal) define etapa SIDA.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Candidiasis y diarrea",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.005"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Diarrea acuosa crónica con CD4 < 100–200: buscar Cryptosporidium, Cystoisospora y {{c1::microsporidios}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Candidiasis y diarrea",
+   "repaso": true,
+   "codigos": [
+    "1.06.1.012"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 115"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Colitis con dolor y hematoquezia y CD4 < 50: sospechar {{c1::CMV}}, que se trata con ganciclovir.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Candidiasis y diarrea",
+   "repaso": false,
+   "codigos": [
+    "1.06.1.012"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Antigenemia de CMV positiva: {{c1::infección no es enfermedad}}; la retinitis o colitis requieren clínica o biopsia.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · CMV y criptococo",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.001"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Profilaxis con cotrimoxazol forte 1 comp/día si CD4 < {{c1::200/mm³}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla de profilaxis",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.006"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cotrimoxazol protege además contra toxoplasma si CD4 < {{c1::100/mm³}} con IgG (+).",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla de profilaxis",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.006"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La profilaxis con cotrimoxazol se suspende con CD4 > 200 por ≥ {{c1::3 meses}} con TARV.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla de profilaxis",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.006"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Profilaxis de MAC con CD4 < 50: {{c1::azitromicina 1.200 mg}} una vez por semana.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla de profilaxis",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.006"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Con PPD ≥ 5 mm se da profilaxis de TBC con {{c1::isoniazida 300 mg/día + piridoxina}} por 9 meses.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla de profilaxis",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.006"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el VIH se usan vacunas {{c1::inactivadas}}; las vacunas vivas se evitan con CD4 < 200.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Prevención",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.006"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 57"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Lactante VIH+ con carga viral detectable: la vacuna contraindicada es la {{c1::tres vírica}} (virus vivos atenuados).",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Prevención",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.006"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 57"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En neutropenia profunda se indica {{c1::aislamiento protector}}.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Prevenir oportunistas",
+   "repaso": false,
+   "codigos": [
+    "1.08.3.010"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-10/06_neumonia-por-p-jirovecii-rx__amir-infecto_p152.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Neumonía por Pneumocystis jirovecii",
+   "clave": "Infiltrados intersticiales bilaterales perihiliares en alas de mariposa",
+   "conducta": "Cotrimoxazol EV dosis altas 21 días; corticoides si PaO2 < 70 o A-a ≥ 35",
+   "fuente": "Manual AMIR Infecciosas, p. 152",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-10/02_toxoplasmosis-cerebral-tc_alt1__amir-infecto_p154.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Toxoplasmosis cerebral",
+   "clave": "Lesiones con realce en anillo en ganglios basales",
+   "conducta": "Prueba terapéutica 10–14 días con sulfadiazina + pirimetamina + ácido folínico",
+   "fuente": "Manual AMIR Infecciosas, p. 154",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-10/07_tinta-china-criptococo__cto-infecto_p142.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Criptococo (tinta china)",
+   "clave": "Levaduras rodeadas de halo refringente",
+   "conducta": "Anfotericina B liposomal + flucitosina; luego fluconazol",
+   "fuente": "Manual CTO Infecciosas 14.ª ed., p. 142",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.014"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0.0",
+   "pista": "Pneumocystis con PaO2 < 70: ¿qué asocias?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1",
+   "pista": "Déficit focal con anillos: ¿qué conducta inicial?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.1",
+   "pista": "Sin mejoría a los 14 días: ¿qué se hace?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.2",
+   "pista": "Meninges en VIH avanzado: ¿qué examen y tratamiento?"
+  }
+ ]
+}

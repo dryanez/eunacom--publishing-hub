@@ -1,0 +1,551 @@
+{
+ "classId": "cardio-19",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El shock es un estado de {{c1::hipoperfusión}} tisular aguda; la hipotensión puede faltar al principio.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Qué es el shock",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La PAM es el producto del {{c1::gasto cardíaco}} por la resistencia vascular sistémica.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Presión = gasto por resistencia",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Signos de hipoperfusión: oliguria < 0,5 mL/kg/h, confusión y lactato > {{c1::2 mmol/L}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo se reconoce y se clasifica",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Shock: PAS < {{c1::90}} o PAM < 65 mmHg, con signos de hipoperfusión.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo se reconoce",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tres datos a la cabecera orientan el tipo de shock: temperatura de la piel, {{c1::yugulares}} y pulmones.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Tres preguntas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Piel caliente al inicio del shock orienta a shock {{c1::distributivo}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Tres preguntas",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Shock cardiogénico: gasto muy bajo, presión capilar pulmonar {{c1::alta}} y resistencia alta; piel fría, yugulares altas y crépitos.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Cuatro tipos de shock",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Shock hipovolémico: gasto bajo, presión de llenado {{c1::baja}}, resistencia alta; yugulares planas y mucosas secas.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Cuatro tipos de shock",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Shock distributivo: gasto {{c1::alto o normal}} con resistencia baja y piel caliente al inicio.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Cuatro tipos de shock",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Shock obstructivo: gasto muy bajo, yugulares muy altas y pulmones {{c1::limpios}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Cuatro tipos de shock",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas de shock obstructivo: TEP masivo, taponamiento cardíaco y {{c1::neumotórax a tensión}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Obstructivo",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Gasto alto, resistencia baja, piel caliente: es shock {{c1::distributivo}}; el error es llamarlo cardiogénico.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Yugulares altas, pulmones limpios e hipotensión: shock {{c1::obstructivo}}; el error es dar diurético.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Yugulares planas, piel fría y sangrado: shock hipovolémico, se da {{c1::volumen}}; el error es noradrenalina sola.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Shock hipovolémico: se trata con volumen o sangre y control de la {{c1::fuente}}; los vasopresores solo de puente.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Hipovolémico y distributivo",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Anafilaxia: {{c1::adrenalina}} intramuscular, 0,3-0,5 mg en el muslo, más volumen.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Distributivo",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sepsis con shock: antibiótico en la primera hora, 30 mL/kg de cristaloide y {{c1::noradrenalina}} para PAM ≥ 65.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Taponamiento cardíaco: tríada de {{c1::Beck}} (hipotensión, yugulares ingurgitadas, ruidos apagados) y pericardiocentesis.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Obstructivo",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neumotórax a tensión es un diagnóstico clínico: se descomprime sin esperar la {{c1::radiografía}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Obstructivo",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "TEP masivo con shock: anticoagulación y {{c1::trombolisis}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Obstructivo",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El shock cardiogénico es hipoperfusión por falla de bomba con volumen adecuado y {{c1::congestión}} pulmonar o presiones de llenado altas.",
+   "extra": "Perfil frío y húmedo, Killip IV.",
+   "origen": "clase:6",
+   "fuente": "Clase · Qué es y por qué ocurre",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La mortalidad del shock cardiogénico es de {{c1::40-50%}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Qué es y por qué ocurre",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La causa principal del shock cardiogénico es el infarto agudo, en alrededor de {{c1::80%}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Causas",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Complicaciones mecánicas del infarto: rotura de músculo papilar, {{c1::CIV}} y rotura de pared libre.",
+   "extra": "Requieren cirugía de urgencia.",
+   "origen": "clase:6",
+   "fuente": "Clase · Causas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ante shock cardiogénico por infarto se pide ecocardiograma urgente para descartar una {{c1::complicación mecánica}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En todo shock con sospecha isquémica la {{c1::coronariografía}} es parte del manejo.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Coronariografía",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Shock cardiogénico por IAM: angioplastía {{c1::sin importar el tiempo}} de evolución; el error es esperar o fibrinolizar tarde.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fibrinólisis en el shock cardiogénico por infarto se usa solo si no hay {{c1::hemodinamia}} disponible.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Vasopresor de primera línea en el shock cardiogénico: {{c1::noradrenalina}}, no dopamina ni fenilefrina.",
+   "extra": "Menos arritmias y menor mortalidad.",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Noradrenalina en shock cardiogénico: {{c1::0,05-1 mcg/kg/min}} en infusión continua para PAM ≥ 65 mmHg.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Abrir la arteria; sostener presión y gasto",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Inótropo del shock cardiogénico: {{c1::dobutamina}}, 2,5-20 mcg/kg/min, asociada a noradrenalina si hay hipotensión.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Abrir la arteria; sostener presión y gasto",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Shock cardiogénico con crépitos y presión de llenado alta: el error es {{c1::dar volumen}}.",
+   "extra": "Está congestionado.",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se da volumen en shock con infarto de ventrículo derecho: yugulares altas, pulmón limpio; el error es dar {{c1::nitratos}}.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Con PA baja no se dan {{c1::nitroglicerina ni furosemida}}: bajan una presión que ya está baja.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Lo que no se debe hacer",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La taquicardia del shock es compensadora: no se da {{c1::betabloqueador}} por ella.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Lo que no se debe hacer",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Soporte mecánico en shock cardiogénico: balón de contrapulsación, Impella y {{c1::ECMO venoarterial}}.",
+   "extra": "Puente a recuperación o trasplante.",
+   "origen": "clase:9",
+   "fuente": "Clase · Cuando los fármacos no bastan",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El paciente en shock cardiogénico se deriva a un centro con UCI cardiológica y {{c1::hemodinamia}}, con noradrenalina ya iniciada.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Soporte",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Meta del shock: PAM ≥ {{c1::65 mmHg}}, lactato en descenso y diuresis > 0,5 mL/kg/h.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Enfoque práctico",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Índice de shock (FC / PAS) > {{c1::0,9-1,0}} anticipa deterioro aun con presión aceptable.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Enfoque práctico",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.007"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Anciano con disnea, PA 200/100, R3, yugulares y crépitos: es {{c1::IC aguda}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Pregunta real Dic. 2024 P88",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.005"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 88",
+    "EUNACOM Diciembre 2024 · Pregunta 152"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.1",
+   "pista": "Yugulares altas y pulmones limpios: ¿qué tipo de shock?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.2",
+   "pista": "Yugulares altas y crépitos: ¿diagnóstico y fármacos?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.2.0",
+   "pista": "Shock cardiogénico por infarto: ¿qué conducta?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1",
+   "pista": "Hipotensión por alérgeno: ¿qué se da?"
+  }
+ ]
+}

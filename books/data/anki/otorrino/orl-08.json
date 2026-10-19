@@ -1,0 +1,455 @@
+{
+ "classId": "orl-08",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La porción superior del núcleo facial (frente y párpados) recibe fibras de {{c1::ambos hemisferios}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Anatomía",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.016"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La porción inferior (peribucal y mejilla) recibe solo fibras del hemisferio {{c1::contralateral}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Anatomía",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.016"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Parálisis facial central: se {{c1::respeta la frente}} y solo cae la mitad inferior de la cara.",
+   "extra": "Hombre de 60 años que arruga la frente y cierra ambos ojos.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Central",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.016"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Parálisis facial central: código ACV y {{c1::TAC de cerebro}} urgente; tratarla como Bell es un error grave.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Central",
+   "repaso": true,
+   "codigos": [
+    "1.10.1.016"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Parálisis facial periférica: compromete todo el hemicara, con {{c1::lagoftalmos}}, no arruga la frente y cae la comisura.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Periférica",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.016"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo de Bell: al intentar cerrar el ojo parético, el globo se desvía hacia {{c1::arriba y afuera}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Signo de Bell",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-08/03_paralisis-facial-periferica-bell__amir-orl_p29.jpg",
+   "codigos": [
+    "1.10.1.016"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La parálisis de Bell causa el {{c1::60-75%}} de las parálisis faciales periféricas agudas.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Bell",
+   "repaso": true,
+   "codigos": [
+    "1.10.1.016"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Bell: reactivación de {{c1::HSV-1}} con edema del nervio facial intratemporal.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Bell",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.016"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Bell se instala en 24-48 horas, con dolor retroauricular y {{c1::disgeusia}} (cuerda del tímpano, 2/3 anteriores de la lengua).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Bell",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.016"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tratamiento de Bell: prednisona {{c1::1 mg/kg/día}} (máximo 60 mg) por 7 a 10 días, iniciada en las primeras 72 horas.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.10.1.016"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En Bell los antivirales {{c1::solos}} no sirven; se suman a los corticoides solo en casos severos (House-Brackmann IV-VI).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Antivirales",
+   "repaso": true,
+   "codigos": [
+    "1.10.1.016"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Protección ocular obligatoria: lágrimas artificiales, gel lubricante nocturno y {{c1::parche}} para evitar queratitis por exposición.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Protección",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.016"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ramsay Hunt: reactivación de VZV en el ganglio {{c1::geniculado}}; segunda causa de periférica.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Ramsay Hunt",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.016",
+    "1.10.1.009"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tríada de Ramsay Hunt: parálisis periférica, otalgia intensa y {{c1::vesículas}} en concha, CAE o tímpano.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tríada",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-08/02_vesiculas-en-concha-ramsay-hunt__bailey-love_p736.jpg",
+   "codigos": [
+    "1.10.1.016",
+    "1.10.1.009"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ramsay Hunt puede comprometer el VIII par: hipoacusia sensorioneural y {{c1::vértigo}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 VIII par",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.016",
+    "1.10.1.009"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Ramsay Hunt: recuperación completa de solo {{c1::30-50%}} sin tratamiento precoz; peor que Bell.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Pronóstico",
+   "repaso": true,
+   "codigos": [
+    "1.10.1.016",
+    "1.10.1.009"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Ramsay Hunt: valaciclovir {{c1::1000 mg}} cada 8 horas por 7-10 días más prednisona 1 mg/kg/día por 10-14 días.",
+   "extra": "Aciclovir 800 mg 5 veces al día como alternativa.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.10.1.016",
+    "1.10.1.009"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En Ramsay Hunt se agrega analgesia potente por riesgo de {{c1::neuralgia posherpética}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Analgesia",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.016",
+    "1.10.1.009"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Herpes zóster: vesículas agrupadas sobre base eritematosa en un {{c1::dermatoma}} unilateral que no cruza la línea media.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Zóster",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-08/04_herpes-zoster-dermatoma__nelson_p2565.jpg",
+   "codigos": [
+    "1.10.1.009"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento del zóster: aciclovir 800 mg 5 veces al día o valaciclovir {{c1::1 g}} cada 8 horas por 7 días.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Zóster",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.009"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Zóster grave en inmunosuprimidos: {{c1::aciclovir endovenoso}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Zóster",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.009"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo de Hutchinson: vesículas en la punta de la nariz; zóster oftálmico (V1), urgencia a {{c1::oftalmología}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Hutchinson",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.009"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Neuralgia posherpética: dolor persistente más de {{c1::3 meses}}, sobre todo en mayores de 60 años.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Neuralgia",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.009"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primera línea de la neuralgia posherpética: {{c1::pregabalina}} o gabapentina.",
+   "extra": "Mujer de 64 años con dolor intercostal tras zóster cicatrizado.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Neuralgia",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 5"
+   ],
+   "codigos": [
+    "1.10.1.009"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otras opciones: amitriptilina y parches de {{c1::lidocaína}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Neuralgia",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.009"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La vacuna recombinante contra zóster se recomienda desde los {{c1::50 años}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Vacuna",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.009"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Bell: otoscopía normal; Ramsay Hunt: vesículas; central: {{c1::frente respetada}} y cierre ocular normal.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.016"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-08/03_paralisis-facial-periferica-bell__amir-orl_p29.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Parálisis de Bell derecha",
+   "clave": "Comisura desviada y ojo derecho que no cierra",
+   "conducta": "Prednisona en 72 horas y protección ocular",
+   "fuente": "Manual AMIR Otorrinolaringología, p. 29",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.016"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-08/02_vesiculas-en-concha-ramsay-hunt__bailey-love_p736.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Vesículas en la concha",
+   "clave": "Vesículas dolorosas en concha y conducto",
+   "conducta": "Valaciclovir + prednisona + protección ocular",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 46.30b",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.016",
+    "1.10.1.009"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-08/04_herpes-zoster-dermatoma__nelson_p2565.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Zóster en un dermatoma",
+   "clave": "Vesículas agrupadas en un dermatoma unilateral",
+   "conducta": "Antiviral por 7 días y analgesia",
+   "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 2565",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 5"
+   ],
+   "codigos": [
+    "1.10.1.009"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Asimetría facial con frente que se arruga: ¿qué es?",
+   "codigos": [
+    "1.10.1.016",
+    "1.10.1.009"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1",
+   "pista": "Asimetría con toda la hemicara afectada: ¿qué se pregunta?",
+   "codigos": [
+    "1.10.1.016",
+    "1.10.1.009"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.0",
+   "pista": "Periférica sin vesículas: ¿tratamiento?",
+   "codigos": [
+    "1.10.1.016",
+    "1.10.1.009"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.1",
+   "pista": "Periférica con vesículas en concha: ¿tratamiento?",
+   "codigos": [
+    "1.10.1.016",
+    "1.10.1.009"
+   ]
+  }
+ ]
+}

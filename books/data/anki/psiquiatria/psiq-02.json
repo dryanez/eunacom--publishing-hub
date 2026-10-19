@@ -1,0 +1,488 @@
+{
+  "classId": "psiq-02",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un solo episodio maníaco en la vida basta para diagnosticar trastorno bipolar {{c1::I}}.",
+      "extra": "Error: exigir depresión previa.",
+      "origen": "clase:1",
+      "fuente": "Clase · Clasificación",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 82"
+      ],
+      "codigos": [
+        "5.01.1.009"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El bipolar II exige al menos un episodio de {{c1::hipomanía}} y uno de depresión mayor.",
+      "extra": "Si alguna vez hubo manía, es bipolar I.",
+      "origen": "clase:1",
+      "fuente": "Clase · Clasificación",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.009"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La ciclotimia exige fluctuación de síntomas hipomaníacos y depresivos durante al menos {{c1::2 años}}.",
+      "extra": "Los síntomas no alcanzan criterios de episodio.",
+      "origen": "clase:1",
+      "fuente": "Clase · Clasificación",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.009"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Para el diagnóstico de manía se necesitan al menos {{c1::3 de 7}} síntomas (cuatro si el ánimo es solo irritable).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Criterios de manía",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.009"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Descansarse tras dormir solo 2 o 3 horas corresponde a {{c1::disminución de la necesidad de sueño}}, síntoma de manía.",
+      "extra": "Insomnio sin fatiga.",
+      "origen": "clase:2",
+      "fuente": "Clase · Criterios de manía",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 34",
+        "EUNACOM Enero 2023 · Pregunta 165"
+      ],
+      "codigos": [
+        "5.01.1.009"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La manía dura al menos {{c1::7 días}}, o cualquier duración si requiere hospitalización.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Manía versus hipomanía",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.009"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La hipomanía dura al menos {{c1::4 días}} y no produce deterioro significativo.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Manía versus hipomanía",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.009"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si hay psicosis u hospitalización, el episodio es {{c1::manía}}, no hipomanía.",
+      "extra": "La hipomanía nunca cursa con psicosis.",
+      "origen": "clase:3",
+      "fuente": "Clase · Manía versus hipomanía",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.009"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una manía con delirio de grandeza y gasto imprudente de 5 días define bipolar {{c1::I}}; se hospitaliza.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Caso clínico",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 77"
+      ],
+      "codigos": [
+        "5.01.1.009"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El tratamiento de la manía aguda es un antipsicótico atípico más un {{c1::estabilizador (litio o valproato)}}.",
+      "extra": "Olanzapina, risperidona o quetiapina.",
+      "origen": "clase:5",
+      "fuente": "Clase · Manía aguda",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 92"
+      ],
+      "codigos": [
+        "5.01.1.009"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En la manía con agitación intensa se usa {{c1::haloperidol con lorazepam}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Manía aguda",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.009"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La manía aguda se hospitaliza de forma protegida según el GES N° {{c1::52}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Manía aguda",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.009"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En un paciente bipolar nunca se indica {{c1::antidepresivo en monoterapia}}.",
+      "extra": "Riesgo de viraje maníaco y ciclado rápido (más de 4 episodios al año).",
+      "origen": "clase:6",
+      "fuente": "Clase · Depresión bipolar",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.009"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En la depresión bipolar se usan quetiapina, lurasidona o {{c1::lamotrigina}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Depresión bipolar",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.009"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Euforia, verborrea e insomnio tras iniciar un ISRS: se suspende el fármaco y se sospecha {{c1::bipolar}}; error: subir la dosis.",
+      "extra": "Viraje por antidepresivo.",
+      "origen": "clase:15",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 130",
+        "EUNACOM Diciembre 2018 · Pregunta 128",
+        "EUNACOM Diciembre 2019 · Pregunta 13",
+        "EUNACOM Julio 2017 · Pregunta 178"
+      ],
+      "codigos": [
+        "5.01.1.009"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El hipomaníaco que viró con sertralina se trata con un antipsicótico atípico como la {{c1::quetiapina}}.",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz EUNACOM",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.009"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La quetiapina en depresión bipolar se usa a {{c1::300 mg}} al día.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Depresión bipolar",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.009"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La litemia de profilaxis es de {{c1::0,6 a 1,0 mEq/L}}.",
+      "extra": "En manía aguda: 0,8 a 1,2.",
+      "origen": "clase:7",
+      "fuente": "Clase · Litio",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.009",
+        "5.01.4.003"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La litemia se mide en muestra tomada a las {{c1::12 horas}} de la última dosis.",
+      "extra": "Nivel valle.",
+      "origen": "clase:7",
+      "fuente": "Clase · Litio",
+      "repaso": true,
+      "codigos": [
+        "5.01.4.003"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antes de iniciar litio se piden riñón, tiroides, electrolitos, ECG y {{c1::test de embarazo}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Litio",
+      "repaso": false,
+      "codigos": [
+        "5.01.4.003"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El litio sube su nivel con AINE, {{c1::tiazidas}}, IECA y ARA-II.",
+      "extra": "Reducen su excreción renal; también deshidratación y dieta sin sal.",
+      "origen": "clase:7",
+      "fuente": "Clase · Litio",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 120"
+      ],
+      "codigos": [
+        "5.01.4.003"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La toxicidad crónica por litio daña riñón y tiroides y causa {{c1::diabetes insípida nefrogénica}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Litio",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.009"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Litemia de {{c1::1,5 a 2,0}}: náuseas, diarrea y temblor fino; se suspende el litio y se hidrata.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Litemia y conducta",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.009",
+        "5.01.4.003"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Litemia de 2,0 a 2,5 con temblor grosero, ataxia y confusión: hospitalizar y dar {{c1::suero fisiológico}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Litemia y conducta",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 120"
+      ],
+      "codigos": [
+        "5.01.1.009",
+        "5.01.4.003"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la intoxicación por litio los {{c1::diuréticos y el carbón activado}} no sirven.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Litemia y conducta",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.009",
+        "5.01.4.003"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En litemia mayor de {{c1::2,5}} con convulsiones, arritmias o coma se indica hemodiálisis si hay compromiso grave.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Litemia y conducta",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.009",
+        "5.01.4.003"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El rango de valproato es de {{c1::50 a 100 µg/mL}}; se controlan hígado y plaquetas.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Valproato, lamotrigina, carbamazepina",
+      "repaso": false,
+      "codigos": [
+        "5.01.4.003",
+        "5.01.1.009"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El valproato es teratogénico: produce {{c1::defectos del tubo neural}} (espina bífida).",
+      "extra": "En la mujer que planea embarazo se cambia antes, de forma planificada.",
+      "origen": "clase:12",
+      "fuente": "Clase · Valproato y embarazo",
+      "repaso": true,
+      "codigos": [
+        "5.01.4.003",
+        "5.01.1.009"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Para reemplazar valproato ante un embarazo planificado se usa lamotrigina o {{c1::antipsicótico atípico}}.",
+      "extra": "No suspender todo de golpe.",
+      "origen": "clase:12",
+      "fuente": "Clase · Valproato y embarazo",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.009"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La lamotrigina exige titulación lenta por riesgo de {{c1::rash y Stevens-Johnson}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Valproato, lamotrigina, carbamazepina",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.009",
+        "5.01.4.003"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La carbamazepina tiene nivel de {{c1::4 a 12 µg/mL}}; repetir a las 3-4 semanas y pedir sodio y hemograma.",
+      "extra": "Autoinducción; riesgo de aplasia e hiponatremia.",
+      "origen": "clase:10",
+      "fuente": "Clase · Qué pedir con cada estabilizador",
+      "repaso": false,
+      "codigos": [
+        "5.01.4.003"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La carbamazepina es inductora: con anticonceptivos hay que usar {{c1::un método alternativo}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": false,
+      "codigos": [
+        "5.01.4.003"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Manía o psicosis: ¿qué conducta inicial?",
+      "codigos": [
+        "5.01.1.009"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0",
+      "pista": "Con litio: ¿qué se controla y cuál es la meta?",
+      "codigos": [
+        "5.01.1.009"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "Sin psicosis, 4 días: ¿qué diagnóstico?",
+      "codigos": [
+        "5.01.1.009"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.0",
+      "pista": "Depresión en bipolar: ¿qué no se hace?",
+      "codigos": [
+        "5.01.1.009"
+      ]
+    }
+  ]
+}

@@ -821,7 +821,7 @@
         "options": [
           {
             "id": "A",
-            "text": "Radiogra:a de tórax",
+            "text": "Radiografia de tórax",
             "isCorrect": false
           },
           {
@@ -1504,7 +1504,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "La alternativa correcta es la **C** (EPOC). Patrón obstructivo severo no reversible = EPOC. Esta clase aborda las intoxicaciones alimentarias, las diarreas con sus microorganismos y el cólera. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES)."
+        "explanation": "Obstruccion severa sin reversibilidad = EPOC."
       },
       {
         "type": "question",
@@ -2038,7 +2038,7 @@
           {
             "id": "A",
             "text": "Oxígeno por mascarilla al 50%",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": "B",
@@ -2048,7 +2048,7 @@
           {
             "id": "C",
             "text": "Ventilación mecánica no invasiva",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": "D",
@@ -2061,7 +2061,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **Oxígeno por mascarilla al 50%** (opción **A**). Según los consensos y guías clínicas del MINSAL, esta constituye la conducta estándar de primera línea recomendada para este nivel de atención."
+        "explanation": "EPOC exacerbado con acidosis respiratoria (pH 7,26, PaCO2 62) pese a tratamiento y paciente vigil: corresponde ventilacion mecanica no invasiva, subir FiO2 a 50% no corrige la hipercapnia."
       },
       {
         "type": "question",
@@ -2612,39 +2612,39 @@
       {
         "type": "question",
         "nav": "Pregunta Real EUNACOM",
-        "badge": "EUNACOM Diciembre 2024 · Pregunta 132",
-        "notes": "[SLIDE 17] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2024 · Pregunta 132.",
+        "badge": "EUNACOM Diciembre 2019 · Pregunta 127",
+        "notes": "[SLIDE 17] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2019 · Pregunta 127.",
         "number": 6,
-        "caseText": "IMAGEN: Paciente 66 años con neumonía (clínica e imágen de neumonía monolobar) saturando 94% ¿Cual es el tratamiento?:",
-        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "caseText": "Una paciente de 45 años, hipertensa, presenta un cuadro de 4 días de evolución de malestar general, fiebre hasta 38,8°C, mialgias, cefalea y tos con expectoración mucopuruleta. Al examen físico tiene FR: 13 lpm, FC: 80x’. PA: 120/80 mmHg, examen pulmonar con crépitos en la base izquierda, matidez y aumento de la trasmisión de las vibraciones vocales en la zona. Examen cardíaco normal. Satura 98% a FiO2 ambiental y se solicita una radiografía, que se muestra a continuación: Fuente: www.learningradiology.com",
+        "question": "¿Cuál es el tratamiento más adecuado?",
         "options": [
           {
             "id": "A",
-            "text": "Ceftriaxona b.​ Amoxicilina con Ac. clavulánico",
-            "isCorrect": true
+            "text": "Oseltamivir",
+            "isCorrect": false
           },
           {
             "id": "B",
-            "text": "Derrame pleural",
+            "text": "Levofloxacino",
             "isCorrect": false
           },
           {
             "id": "C",
-            "text": "Neumotórax",
+            "text": "Ceftriaxona",
             "isCorrect": false
           },
           {
             "id": "D",
-            "text": "Neumonía",
-            "isCorrect": false
+            "text": "Amoxicilina",
+            "isCorrect": true
           },
           {
             "id": "E",
-            "text": "Atelectasia",
+            "text": "Claritromicina",
             "isCorrect": false
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **Ceftriaxona b.​ Amoxicilina con Ac. clavulánico** (opción **A**). Según los consensos y guías clínicas del MINSAL, esta constituye la conducta estándar de primera línea recomendada para este nivel de atención."
+        "explanation": "Tienen una neumonía típica (con condensación del lóbulo inferior izquierdo), adquirida en la comunidad, sin criterios de hospitalización y en un menor de 65 años, sin antecedentes relevantes (la HTA no agrava las neumonías, salvo las por covid-19), por lo que se debe tratar con amoxicilina sola."
       },
       {
         "type": "bento",
@@ -7633,7 +7633,7 @@
           },
           {
             "id": "B",
-            "text": "Disección aór2ca",
+            "text": "Disección aórtica",
             "isCorrect": false
           },
           {
@@ -7993,7 +7993,7 @@
         "options": [
           {
             "id": "A",
-            "text": "Bronqui2s crónica",
+            "text": "Bronquitis crónica",
             "isCorrect": false
           },
           {
@@ -8013,7 +8013,7 @@
           },
           {
             "id": "E",
-            "text": "Insuficiencia cardíaca conges2va",
+            "text": "Insuficiencia cardíaca congestiva",
             "isCorrect": false
           }
         ],
@@ -8054,7 +8054,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "La alternativa correcta es la **C** (TAC de tórax de alta resolución). TAC de tórax de alta resolución. El síndrome de Sjögren se manifiesta principalmente con un síndrome de sicca (sequedad), que es su manifestación más frecuente y a veces la única. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES)."
+        "explanation": "El examen de eleccion para bronquiectasias es el TAC de torax de alta resolucion."
       },
       {
         "type": "bento",
@@ -8564,39 +8564,39 @@
       {
         "type": "question",
         "nav": "Pregunta Real EUNACOM",
-        "badge": "EUNACOM Diciembre 2024 · Pregunta 134",
-        "notes": "[SLIDE 16] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2024 · Pregunta 134.",
+        "badge": "EUNACOM Julio 2013 · Pregunta 95",
+        "notes": "[SLIDE 16] Pregunta oficial del banco EUNACOM: EUNACOM Julio 2013 · Pregunta 95.",
         "number": 5,
-        "caseText": "Paciente joven hiperventilando saturando 75% a.​ Venturi al 40 %",
-        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "caseText": "Paciente de 55 años, con antecedente de enfermedad pulmonar obstructiva crónica por tabaquismo, es derivado desde servicio de urgencia rural por aumento de su disnea basal, asociado a sensación febril y luego confusión, al ingreso en nuestro centro se solicitan gases arteriales que muestran pH 7.3, PaCO2 80, PaO2 86 con FiO2 al 100%. En su examen físico destaca sopor superficial, murmullo pulmonar disminuido en ambos campos pulmonares, con sibilancias difusas y crepitaciones en base pulmonar izquierda.",
+        "question": "La medida más adecuada en este momento es:",
         "options": [
           {
+            "id": "A",
+            "text": "Administrar hidrocortisona en bolo",
+            "isCorrect": false
+          },
+          {
             "id": "B",
-            "text": "Venturi al 24% c.​ Ventilación mecánica invasiva",
+            "text": "Nebulizar con salbutamol",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Administrar ceftriaxona",
+            "isCorrect": false
+          },
+          {
+            "id": "D",
+            "text": "Intubar e iniciar ventilación mecánica",
             "isCorrect": true
           },
           {
-            "id": "D",
-            "text": "Naricera flujo 0.2 ml/kg",
-            "isCorrect": false
-          },
-          {
             "id": "E",
-            "text": "Naricera flujo 2 ml/kg",
-            "isCorrect": false
-          },
-          {
-            "id": "D",
-            "text": "Ninguna de las anteriores es correcta",
-            "isCorrect": false
-          },
-          {
-            "id": "E",
-            "text": "Todas las anteriores son correctas",
+            "text": "Disminuir el aporte de oxígeno a 24%",
             "isCorrect": false
           }
         ],
-        "explanation": "La alternativa correcta es la **B** (Venturi al 24% c.​ Ventilación mecánica invasiva). Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh."
+        "explanation": "Tiene una encefalopatía hipercárbica. Se va a VMI. El CO2 mayor a 65 también es indicación de ventilación mecánica. El BiPAP (VMNI) es una buena opción, pero si está encefalópata, se prefiere la VMI"
       },
       {
         "type": "question",
@@ -9524,7 +9524,7 @@
         "options": [
           {
             "id": "A",
-            "text": "Radiogra:a de tórax",
+            "text": "Radiografia de tórax",
             "isCorrect": false
           },
           {

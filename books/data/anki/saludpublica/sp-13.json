@@ -1,0 +1,523 @@
+{
+  "classId": "sp-13",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::causa básica}} de defunción es la enfermedad o lesión inicial que inició la cadena patológica que llevó a la muerte.",
+      "extra": "Es la que el INE tabula en las estadísticas.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.051"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el certificado de defunción, la Parte I es la {{c1::cadena de acontecimientos}} que condujo directamente a la muerte.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 CMD",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.051"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la Parte II del certificado se anotan los {{c1::estados mórbidos contribuyentes}} fuera de la cadena causal (diabetes, hipertensión).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Parte II",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.051"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa básica se anota en la {{c1::última línea}} de la Parte I, con las intermedias e inmediata por encima.",
+      "extra": "",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.050"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Nunca se escribe como causa única o básica el {{c1::paro cardiorrespiratorio}}.",
+      "extra": "Todos mueren por paro: no sirve para diagnóstico ni estadística.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.051"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "'Falla multiorgánica' y 'colapso vascular' son {{c1::mecanismos de muerte inespecíficos}} que no deben consignarse como causa.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Reglas de oro",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.051"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La cadena del certificado debe tener una relación fisiopatológica {{c1::lógica y directa}} desde la causa básica hasta la inmediata.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Reglas de oro",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.051"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cáncer de próstata que sufre TEP, falla respiratoria, paro cardíaco y muerte: la causa inmediata es la {{c1::falla respiratoria}}.",
+      "extra": "El paro cardíaco nunca se escribe.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz EUNACOM Enero 2023",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.051"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 4"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En esa misma cadena, el cáncer de próstata es la causa {{c1::básica}} y el tromboembolismo pulmonar la {{c2::intermedia}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz EUNACOM Enero 2023",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.051"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 145"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diabético de 20 años con enfermedad renal terminal que muere por hiperkalemia y paro: causa básica {{c1::diabetes mellitus tipo 2}}.",
+      "extra": "",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.050"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una muerte {{c1::violenta}} (homicidio, suicidio, trauma, accidente) es médico-legal: el clínico NO firma el certificado.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.051"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La intoxicación o envenenamiento (químico, medicamentoso o drogas) es una muerte {{c1::médico-legal}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Cuándo no firmar",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.051"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si el origen fue un trauma, la muerte sigue siendo médico-legal aunque ocurra {{c1::semanas después en la UCI}}.",
+      "extra": "El error es firmar porque la causa inmediata fue médica.",
+      "origen": "libro:caso",
+      "fuente": "Libro · caso clínico",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.051"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante una muerte médico-legal, el clínico debe preservar el cuerpo y {{c1::notificar a la Fiscalía o a la policía}} para remitirlo al SML.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Cuándo no firmar",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.051"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En una muerte natural firma el certificado el {{c1::médico tratante}}; en una médico-legal, solo el médico legista del SML.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · Muerte natural vs médico-legal",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.051"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La autopsia clínica se realiza en {{c1::Anatomía Patológica del hospital}}, en muertes naturales conocidas.",
+      "extra": "Confirma diagnósticos y sirve para docencia.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Autopsias",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.051"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La autopsia clínica exige {{c1::autorización firmada de los familiares directos}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Autopsias",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.051"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La autopsia médico-legal se hace en el SML por orden del {{c1::fiscal}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Autopsias",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.051"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la autopsia médico-legal la familia {{c1::no puede oponerse}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.051"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El deber de denuncia de delitos debe cumplirse dentro de {{c1::24 horas}} desde que se toma conocimiento del hecho.",
+      "extra": "Plazo fatal.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El deber de denuncia penal está en los artículos {{c1::175 y 176}} del Código Procesal Penal.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Deber de denuncia",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.052"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer golpeada por su cónyuge con fractura mandibular: la obligación es denunciar en 24 horas, sin depender de la {{c1::autorización de la víctima}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro · pregunta Perfil V3",
+      "repaso": true,
+      "codigos": [
+        "5.01.3.013"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cuerpo normativo que regula el ejercicio de la profesión médica en Chile es el {{c1::Código Sanitario}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz EUNACOM Julio 2024",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.052"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 167"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un anestesista con tres pabellones simultáneos como práctica habitual comete {{c1::imprudencia}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Julio 2024 · Preguntas 63 y 64",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.052"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 64",
+        "EUNACOM Julio 2024 · Pregunta 63"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante una infección de notificación obligatoria inmediata, se debe {{c1::notificar inmediatamente a la SEREMI}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Diciembre 2024 · Pregunta 52",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.051"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 52"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Es señal de maltrato infantil la lesión que {{c1::no coincide con el mecanismo relatado}} o con la edad del niño.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Maltrato infantil",
+      "repaso": true,
+      "codigos": [
+        "5.01.3.008"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La equimosis en un lactante que aún no camina o en zonas protegidas (orejas, cuello, tronco, glúteos, genitales) sugiere {{c1::maltrato}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Maltrato infantil",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.008"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las fracturas costales posteriores o {{c1::metafisarias}} y las quemaduras por inmersión sugieren maltrato.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Maltrato infantil",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.008"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En sospecha de maltrato se piden radiografías de esqueleto en menores de {{c1::2 años}}, fondo de ojo y neuroimagen.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Maltrato infantil",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.008"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lactante de 4 meses con fractura espiroidea de fémur y mecanismo incoherente: hospitalizar para protección, registrar y {{c1::denunciar}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": true,
+      "codigos": [
+        "5.01.3.008"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niña de 6 años que relata un tocamiento genital sin lesiones: proteger, registrar el relato textual y denunciar en {{c1::24 horas}}.",
+      "extra": "Sin interrogatorios repetidos; la ausencia de lesiones no descarta abuso.",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.010"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La violencia intrafamiliar sigue un ciclo de tensión, explosión y {{c1::luna de miel}}.",
+      "extra": "",
+      "origen": "libro:sec:6",
+      "fuente": "Libro §6 VIF",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.013"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En sospecha de VIF se pregunta de forma {{c1::directa y a solas}}.",
+      "extra": "",
+      "origen": "libro:sec:6",
+      "fuente": "Libro §6 VIF",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.013"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En violencia intrafamiliar activa se evita la {{c1::terapia de pareja y la mediación}}.",
+      "extra": "",
+      "origen": "libro:sec:6",
+      "fuente": "Libro §6 VIF",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.013"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estadísticas de mortalidad: su fuente primaria es el {{c1::certificado médico de defunción}}.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.011"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/16_salud_publica/sp-13/01_formulario_cmd__manual-cmd.jpg",
+      "pregunta": "¿Qué muestra y cómo se llena?",
+      "diagnostico": "Certificado Médico de Defunción vigente en Chile",
+      "clave": "Se llena hacia atrás, desde el final, pero se razona hacia adelante desde la causa básica",
+      "conducta": "Anotar causa inmediata, intermedia y básica reales; nunca solo paro cardiorrespiratorio",
+      "fuente": "Manual correcto llenado CMD (ESP U. de Chile / Colegio Médico), Anexo 2",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.051"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/16_salud_publica/sp-13/02_secuencia_causas__manual-cmd.jpg",
+      "pregunta": "¿Qué muestra y cómo se interpreta?",
+      "diagnostico": "Secuencia de causas de defunción",
+      "clave": "De la causa básica nace la intermedia y luego la inmediata (ej.: cirrosis, hipertensión portal, várices)",
+      "conducta": "Consignar una cadena lógica y directa, con la causa básica en la última línea de la Parte I",
+      "fuente": "Manual correcto llenado CMD, Fig. 2",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.051"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Origen violento o dudoso: ¿qué haces con el certificado?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1.0",
+      "pista": "Lesiones por posible delito: ¿a quién y en cuánto tiempo?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0",
+      "pista": "Enfermedad natural pura: ¿quién firma?"
+    }
+  ]
+}

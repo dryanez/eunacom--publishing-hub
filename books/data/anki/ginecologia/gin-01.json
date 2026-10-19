@@ -1,0 +1,612 @@
+{
+  "classId": "gin-01",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la fase folicular, la {{c1::FSH}} recluta una cohorte de folículos y selecciona al folículo dominante.",
+      "extra": "El folículo dominante secreta estradiol creciente.",
+      "origen": "clase:1",
+      "fuente": "Clase · Ciclo en tres actos",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.008"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El pico de LH se gatilla por retroalimentación {{c1::positiva}} del estradiol sobre la hipófisis.",
+      "extra": "Es el mecanismo que explica la ovulación.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.008"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El pico de LH requiere estradiol > {{c1::200 pg/mL}} sostenido por más de 48 horas.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Pico ovulatorio",
+      "repaso": true,
+      "codigos": [
+        "1.03.4.008"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La ovulación ocurre aproximadamente {{c1::36 horas}} después del inicio del pico de LH.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Pico ovulatorio",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.008"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la fase lútea el cuerpo lúteo secreta {{c1::progesterona}}, que vuelve secretor al endometrio.",
+      "extra": "Sin fecundación, el cuerpo lúteo degenera a los 14 días y viene la menstruación.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fase lútea",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.008"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Teoría de las dos células: la teca produce andrógenos bajo {{c1::LH}}; la granulosa los aromatiza a estrógenos bajo {{c2::FSH}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fase folicular",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.008"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Amenorrea primaria: ausencia de menarquia a los {{c1::15 años}} si hay caracteres sexuales secundarios normales.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Definición",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.012",
+        "1.03.1.010"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 32"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Amenorrea primaria sin caracteres sexuales secundarios: ausencia de menarquia a los {{c1::13 años}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Definición",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.012",
+        "1.03.1.010"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Niña de 14 años con Tanner 2, vello axilar y sin menarquia: la conducta es {{c1::controlar en un año}}, no estudiar.",
+      "extra": "Aún no cumple la definición de amenorrea primaria (15 años con desarrollo puberal).",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz Jul 2016",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.012",
+        "3.01.3.011"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 32"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Amenorrea primaria con mamas y vello normales, sin útero y 46,XX: {{c1::síndrome de Rokitansky}}.",
+      "extra": "Ovarios normales; fértil por sus propios ovocitos.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla amenorrea primaria",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.012",
+        "1.03.1.010"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mamas desarrolladas pero sin vello púbico ni axilar, sin útero y 46,XY: {{c1::síndrome de Morris}}.",
+      "extra": "Mutación del receptor de andrógenos.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla amenorrea primaria",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.012",
+        "1.03.1.010"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En Morris las mamas se desarrollan porque la testosterona se {{c1::aromatiza}} a estrógenos.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Morris",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.010"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los testículos del síndrome de Morris se extirpan {{c1::después de la pubertad}} por riesgo de gonadoblastoma.",
+      "extra": "En Swyer la gonadectomía es de inmediato.",
+      "origen": "clase:9",
+      "fuente": "Clase · Alarmas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.010"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Amenorrea primaria con talla baja, cuello alado y FSH elevada: {{c1::síndrome de Turner}} (45,X0).",
+      "extra": "Ovarios afuncionales: cintillas ováricas.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla amenorrea primaria",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.012",
+        "1.03.1.010",
+        "1.03.4.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 153"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Amenorrea primaria con anosmia y FSH/LH muy bajas: {{c1::síndrome de Kallmann}}.",
+      "extra": "Hipogonadismo hipogonadotropo por falla de migración de neuronas GnRH.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla amenorrea primaria",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.012",
+        "1.03.1.010",
+        "1.03.4.008"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Amenorrea primaria con anosmia: el error clásico es pedir {{c1::cariotipo pensando en Turner}}.",
+      "extra": "La anosmia define Kallmann.",
+      "origen": "clase:12",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.010"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Himen imperforado: dolor cíclico sin sangrado, útero presente y {{c1::criptomenorrea}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla amenorrea primaria",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.010"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Amenorrea secundaria: cese de menstruaciones por ≥ {{c1::3 meses}} con ciclos previos regulares, o ≥ {{c2::6 meses}} si eran oligomenorreicas.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Definición",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.012"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Primer paso ante cualquier amenorrea secundaria: {{c1::β-hCG}}.",
+      "extra": "Es la causa más común, incluso con test previo negativo.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.012"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 25",
+        "EUNACOM Julio 2024 · Pregunta 131"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Tras descartar embarazo en la amenorrea secundaria se piden {{c1::TSH y prolactina}}.",
+      "extra": "Hipotiroidismo primario e hiperprolactinemia.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Algoritmo",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.012",
+        "1.03.1.010"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 115"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Test de progesterona: medroxiprogesterona {{c1::10 mg/día VO por 5-10 días}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Test de progesterona",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.012"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Test de progesterona positivo (sangra) indica {{c1::anovulación con estrógenos presentes}}; la causa más frecuente es SOP.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.012",
+        "1.03.1.010"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 131"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Test de progesterona positivo: el error es confundirlo con {{c1::falla ovárica}}.",
+      "extra": "Si sangra, hay estrógenos suficientes.",
+      "origen": "clase:12",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.010"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Test de estrógeno + progesterona sin sangrado: problema {{c1::anatómico}} (síndrome de Asherman).",
+      "extra": "El diagnóstico se confirma con histeroscopía.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Test combinado",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.012"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 84"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Amenorrea tras legrados repetidos con flujo decreciente: {{c1::síndrome de Asherman}}, se confirma con histeroscopía.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Jul 2024",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.012"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 84"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "FSH > {{c1::30-40 UI/L}} en mujer menor de 40 años: insuficiencia ovárica prematura.",
+      "extra": "Tratamiento: terapia hormonal hasta los cincuenta años.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Gonadotrofinas",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.012",
+        "1.03.4.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 12"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Amenorrea con FSH y LH bajas o normales y estradiol bajo: {{c1::hipogonadismo hipogonadotropo}} (hipotalámico o hipofisario).",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Ago 2021",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.012",
+        "1.03.1.010",
+        "1.03.4.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 18",
+        "EUNACOM Julio 2019 · Pregunta 89",
+        "EUNACOM Diciembre 2018 · Pregunta 19",
+        "EUNACOM Julio 2013 · Pregunta 32"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Amenorrea en deportista con bajo peso y FSH baja: {{c1::amenorrea hipotalámica funcional}}.",
+      "extra": "Riesgo de pérdida de masa ósea; el tratamiento es recuperar peso y bajar el ejercicio.",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz FSH, estradiol y prolactina",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.010",
+        "1.03.4.008"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síndrome de Sheehan: necrosis isquémica hipofisaria {{c1::posparto}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Gonadotrofinas",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.012"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Prolactina elevada inhibe los pulsos de {{c1::GnRH}} y produce galactorrea y amenorrea.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Hiperprolactinemia",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante galactorrea fuera de embarazo y lactancia, se solicita primero {{c1::prolactina plasmática}}.",
+      "extra": "",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz Jul 2015",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.016"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 111",
+        "EUNACOM Julio 2013 · Pregunta 79",
+        "EUNACOM Enero 2023 · Pregunta 59"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fármacos que elevan la prolactina: antipsicóticos, metoclopramida, metildopa, ISRS, verapamilo y {{c1::anticonceptivos con estrógenos}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Causas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Prolactina > {{c1::100 ng/mL}} sugiere prolactinoma; > {{c2::200 ng/mL}} un macroadenoma casi seguro.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Hiperprolactinemia",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Prolactinoma: tratamiento de primera línea con {{c1::cabergolina}} 0,25-0,5 mg 1-2 veces por semana.",
+      "extra": "Mejor tolerada que bromocriptina; cirugía transesfenoidal si hay resistencia o intolerancia.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Macroprolactinoma con compresión del quiasma produce {{c1::hemianopsia bitemporal}}.",
+      "extra": "Resonancia urgente más cabergolina.",
+      "origen": "clase:9",
+      "fuente": "Clase · Alarmas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    },
+    {
+      "id": "c36",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primer signo de pubertad en la niña: {{c1::telarquia}} (Tanner M2) entre los 8 y 13 años.",
+      "extra": "",
+      "origen": "clase:21",
+      "fuente": "Clase · Quiz Pubertad normal",
+      "repaso": true,
+      "codigos": [
+        "1.03.3.001"
+      ]
+    },
+    {
+      "id": "c37",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Pubertad precoz en niñas: telarquia o pubarquia antes de los {{c1::8 años}}.",
+      "extra": "Se deriva a endocrinología.",
+      "origen": "clase:2",
+      "fuente": "Clase · Pubertad",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.011",
+        "1.03.3.001"
+      ]
+    },
+    {
+      "id": "c38",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los primeros ciclos tras la menarquia suelen ser {{c1::anovulatorios e irregulares}} hasta 2-3 años posmenarquia.",
+      "extra": "Adolescente con ciclos de 26 a 35 días: controlar con calendario menstrual.",
+      "origen": "clase:20",
+      "fuente": "Clase · Quiz Jul 2017",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.011",
+        "1.03.3.001"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 89"
+      ]
+    },
+    {
+      "id": "c39",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Amenorrea primaria con dispareunia y vagina corta: sospechar agenesia mülleriana y pedir {{c1::ecografía pélvica}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Sin útero",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.012",
+        "1.03.1.010"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 113"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-01/01_macroprolactinoma-rm__amir-endocrino_p24.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Macroprolactinoma",
+      "clave": "Tumor selar que sobrepasa la silla turca",
+      "conducta": "Cabergolina; campos visuales ante hemianopsia bitemporal",
+      "fuente": "Manual AMIR Endocrinología, p. 24",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.016"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Amenorrea con β-hCG negativa: ¿qué se pide ahora?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.0",
+      "pista": "Test de progesterona con sangrado: ¿qué significa?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1.0",
+      "pista": "Estrógeno + progesterona sin sangrado: ¿qué sospechas y cómo confirmas?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.0.1.1.0",
+      "pista": "FSH alta: ¿qué diagnóstico y qué conducta?"
+    }
+  ]
+}

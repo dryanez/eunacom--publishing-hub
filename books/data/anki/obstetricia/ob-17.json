@@ -1,0 +1,552 @@
+{
+  "classId": "ob-17",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La fase activa prolongada es una dilatación que progresa a < {{c1::1 cm/hora}} con dinámica uterina adecuada.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Distocias",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.021"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La detención secundaria de la dilatación es el cese de progresión por {{c1::2 horas o más}} en fase activa con dinámica adecuada.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Trastornos de la progresión",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.021"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Detención del descenso en el expulsivo: sin progresión por {{c1::1 hora}} en multíparas o {{c2::2 horas}} en primíparas.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Distocias",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.021"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2018 · Pregunta 149"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La desproporción céfalo-pélvica (asinclitismo, suturas cabalgadas, caput voluminoso) se resuelve con {{c1::cesárea}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Desproporción céfalo-pélvica",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.021"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Detención de fase activa por dinámica insuficiente, sin desproporción ni sufrimiento fetal: {{c1::conducción con oxitocina}}, no cesárea.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Banco EUNACOM · Julio 2025",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.021"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 141"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La prueba de trabajo de parto se hace con feto {{c1::cefálico}} cuando la vía de parto es dudosa.",
+      "extra": "Pelvis límite, cesárea segmentaria previa, feto de peso límite.",
+      "origen": "clase:2",
+      "fuente": "Clase · Prueba de trabajo de parto",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.012"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La prueba de trabajo de parto fracasa y se indica cesárea si hay detención de la dilatación por {{c1::2 horas o más}} con dinámica adecuada.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Prueba de trabajo de parto",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.012"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Fase activa sin progreso con membranas íntegras: antes de hablar de distocia se hace {{c1::rotura artificial de membranas y anestesia epidural}}.",
+      "extra": "Después, oxitocina si la dinámica es insuficiente.",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz Diciembre 2019",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.012"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 109",
+        "EUNACOM Julio 2017 · Pregunta 159"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Podálica a las 36 semanas confirmada: versión externa cefálica a las {{c1::36-37}} semanas, con éxito de {{c2::50-60%}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Qué haces con una podálica",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.013"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si persiste la podálica se programa cesárea electiva a las {{c1::39}} semanas; el error es el parto vaginal podálico sin equipo entrenado.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.013"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Podálica en trabajo de parto avanzado: la conducta es {{c1::operación cesárea}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Presentaciones anómalas",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.013"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 160"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La situación transversa en trabajo de parto se resuelve con {{c1::cesárea}}; el error es intentar el parto vaginal.",
+      "extra": "Por riesgo de prolapso de cordón y rotura uterina.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.013"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En presentación de cara solo puede nacer por vía vaginal la variedad {{c1::mento-anterior}}; con mentón posterior se indica cesárea.",
+      "extra": "",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz Julio 2017",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.013"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 135",
+        "EUNACOM Diciembre 2024 · Pregunta 23"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante prolapso de cordón con membranas rotas, la resolución es {{c1::cesárea inmediata}}.",
+      "extra": "Mientras tanto, el tacto vaginal descomprime el cordón.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Presentaciones anómalas",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.017"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 148",
+        "EUNACOM Julio 2017 · Pregunta 160"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Bradicardia fetal tras rotura de membranas: se sospecha {{c1::procidencia de cordón}} y se confirma con tacto vaginal.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Banco EUNACOM · procidencia",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.017"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 97"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Factores de riesgo de distocia de hombros: macrosomía ({{c1::> 4.000-4.500 g}}), diabetes gestacional y obesidad.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Distocia de hombros",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.021"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El signo de la tortuga: la cabeza se desprende y se {{c1::retrae contra el periné}}; anuncia distocia de hombros.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.021"
+      ],
+      "imagen": "biblioteca/14_obstetricia/ob-17/385_signo_tortuga__knoop_p292.jpg"
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En distocia de hombros está prohibida la maniobra de {{c1::Kristeller}} (presión del fondo uterino).",
+      "extra": "Impacta más el hombro y puede romper el útero.",
+      "origen": "clase:6",
+      "fuente": "Clase · Lo que nunca debes hacer",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.021"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Traccionar o balancear la cabeza fetal lesiona las raíces {{c1::C5-C6}} del plexo braquial (parálisis de Erb-Duchenne).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Distocia de hombros",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.021"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La primera maniobra en la distocia de hombros es {{c1::McRoberts}} (hiperflexión de los muslos sobre el abdomen).",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Julio 2017",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.021"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 168",
+        "EUNACOM Diciembre 2019 · Pregunta 102"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "McRoberts se asocia a la presión {{c1::suprapúbica (Mazzanti)}} como primera línea.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · La secuencia de rescate",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.021"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 33"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La maniobra de Zavanelli consiste en {{c1::reintroducir la cabeza fetal}} y hacer cesárea de emergencia; es de último recurso.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Distocia de hombros",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.021"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La línea de base normal de la FCF es de {{c1::110 a 160}} lpm.",
+      "extra": "Bradicardia < 110; taquicardia > 160.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Monitorización",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.009"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Una aceleración es un aumento de la FCF de ≥ {{c1::15}} lpm y ≥ {{c2::15}} segundos.",
+      "extra": "Signo de reactividad y bienestar.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Monitorización",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.009"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las desaceleraciones tempranas (DIP I) coinciden con la contracción 'en espejo' y son {{c1::benignas}}.",
+      "extra": "Compresión de la cabeza fetal: reflejo vagal, sin hipoxia.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.009"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las desaceleraciones tardías (DIP II) reflejan {{c1::insuficiencia útero-placentaria}} con hipoxia fetal.",
+      "extra": "Su nadir es posterior al acmé de la contracción.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de desaceleraciones",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.009"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Tardías recurrentes sin variabilidad: reanimación intrauterina y {{c1::cesárea}}; el error es aumentar la oxitocina.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.017"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 170",
+        "EUNACOM Julio 2013 · Pregunta 54",
+        "EUNACOM Julio 2017 · Pregunta 71"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Reanimación intrauterina: oxígeno materno, decúbito lateral izquierdo, bolo de cristaloides y {{c1::suspender la oxitocina}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Monitorización",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.017"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 169"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las desaceleraciones variables (DIP III) se deben a {{c1::compresión del cordón umbilical}}; son graves si duran > 60 s o bajan a < 70 lpm.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de desaceleraciones",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.009"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El patrón sinusoidal es patognomónico de {{c1::anemia fetal severa}}.",
+      "extra": "Isoinmunización Rh, rotura de vasa previa.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.009"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La categoría III del monitoreo (sin variabilidad + tardías o bradicardia) exige {{c1::cesárea de urgencia}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.017"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 22",
+        "EUNACOM Julio 2016 · Pregunta 88"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trazado intraparto con buena FCF, buena variabilidad y aceleraciones, sin desaceleraciones: registro {{c1::tipo I}}.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Julio 2019",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 58",
+        "EUNACOM Julio 2015 · Pregunta 169"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Registro basal no estresante no reactivo (sin 2 aceleraciones de 15 lpm × 15 s en 20 min): {{c1::repetirlo 20 minutos más}}.",
+      "extra": "El feto puede estar en sueño fisiológico.",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz Julio 2013",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.009"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 25"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-17/01_maniobra_mcroberts__williams_p515.jpg",
+      "pregunta": "¿Qué maniobra es y cuándo la haces?",
+      "diagnostico": "Maniobra de McRoberts en distocia de hombros",
+      "clave": "Hiperflexión y abducción de los muslos sobre el abdomen",
+      "conducta": "Primera línea, junto con presión suprapúbica (Mazzanti); nunca Kristeller",
+      "fuente": "Williams Obstetricia, Fig. 20-14, p. 515",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.021"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-17/01_deceleraciones-tardias-variables-precoce_1__cto-gyo_p172.jpg",
+      "pregunta": "¿Qué tipo de desaceleración es y qué haces?",
+      "diagnostico": "Desaceleración tardía (DIP II)",
+      "clave": "La caída llega después del acmé de la contracción y se recupera lento",
+      "conducta": "Reanimación intrauterina; si no revierte, cesárea",
+      "fuente": "Manual CTO Ginecología y Obstetricia 14.ª ed., p. 172",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.009"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-17/01_deceleraciones-tardias-variables-precoce_alt1__cto-gyo_p173.jpg",
+      "pregunta": "¿Qué desaceleración muestra y qué causa?",
+      "diagnostico": "Desaceleraciones variables (DIP III)",
+      "clave": "Caídas bruscas en V, sin relación fija con la contracción",
+      "conducta": "Vigilar; si son graves, descartar prolapso de cordón",
+      "fuente": "Manual CTO Ginecología y Obstetricia 14.ª ed., p. 173",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.009"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "Signo de la tortuga: ¿qué maniobras haces primero?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0.0",
+      "pista": "Si no cede: ¿qué maniobras sigues?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "Desaceleración tardía: ¿qué conducta?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.2",
+      "pista": "Desaceleración variable: ¿qué haces?"
+    }
+  ]
+}

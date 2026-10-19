@@ -1,0 +1,484 @@
+{
+  "classId": "derma-06",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dermatitis atópica: defecto de barrera por mutación con pérdida de función del gen de la {{c1::filagrina}}.",
+      "extra": "Pérdida transepidérmica de agua y xerosis.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La dermatitis atópica tiene desregulación inmune {{c1::Th2}} con sobreproducción de IgE.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Marcha atópica: dermatitis atópica → alergia alimentaria → {{c1::asma}} → rinitis alérgica.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Marcha atópica",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El criterio cardinal indispensable de Hanifin y Rajka es el {{c1::prurito intenso}}.",
+      "extra": "Sin prurito intenso no hay dermatitis atópica.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hanifin y Rajka: se exigen {{c1::3 o más}} criterios mayores y 3 menores.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Hanifin y Rajka",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dermatitis atópica del lactante (< 2 años): eccema agudo exudativo en {{c1::mejillas}}, cuero cabelludo y caras extensoras.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Topografía",
+      "repaso": true,
+      "imagen": "biblioteca/11_dermatologia/derma-06/01_atopica_lactante__fitzpatrick_p189.jpg",
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signo clave del lactante atópico: {{c1::respeta el área del pañal}} (microclima húmedo previene la sequedad).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el lactante atópico la cara respeta el {{c1::triángulo nasogeniano perioral}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Topografía",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dermatitis atópica infantil (2 a 12 años): afecta los pliegues {{c1::flexurales}} (fosas antecubitales y poplíteas).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Topografía",
+      "repaso": true,
+      "imagen": "biblioteca/11_dermatologia/derma-06/01_dermatitis-atopica__amir-derma_p91.jpg",
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 79"
+      ],
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dermatitis atópica del adulto (> 12 años): pliegues, cuello, manos y párpados con {{c1::liquenificación marcada}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Topografía",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niña de 4 años con pápulas pruriginosas recidivantes en fosas cubitales, poplíteas, cara y cuello: {{c1::dermatitis atópica}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Quiz Dic 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 79"
+      ],
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Escabiosis y urticaria se diferencian de la atópica: la sarna compromete {{c1::pliegues interdigitales}} y es contagiosa.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz Dic 2025",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Pilar del tratamiento de base: {{c1::emolientes}} diarios inmediatamente tras el baño (soak and seal).",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Baños en dermatitis atópica: cortos, de {{c1::5 a 10 min}}, con agua tibia y jabón syndet.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Cara, párpados y pliegues: corticoide de {{c1::baja potencia}} (hidrocortisona) o inhibidor de calcineurina.",
+      "extra": "Evita atrofia y estrías.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hidrocortisona tópica en cara del lactante atópico: {{c1::1%}} en crema.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · Caso lactante",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Inhibidores de calcineurina tópicos en dermatitis atópica: {{c1::tacrolimus}} (0.03-0.1%) y pimecrolimus.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tronco y extremidades: corticoide de {{c1::mediana a alta potencia}} (betametasona, mometasona).",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Duración del corticoide tópico de mediana-alta potencia en el brote: {{c1::7 a 14 días}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Error en el lactante atópico: {{c1::betametasona de alta potencia en la cara}}, que produce atrofia.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Quiz caso",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Impetiginización por S. aureus en atópico: costras {{c1::melicéricas}} amarillentas.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Complicaciones",
+      "repaso": false,
+      "imagen": "biblioteca/11_dermatologia/derma-06/03_impetiginizacion-costras-melicericas__amir-derma_p55.jpg",
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Impetiginización del atópico: antibiótico tópico ({{c1::mupirocina}}) u oral (cefadroxilo).",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Complicaciones",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Eccema herpético de Kaposi: infección diseminada por {{c1::virus herpes simple}} sobre piel atópica.",
+      "extra": "Vesículas umbilicadas dolorosas con fiebre.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Complicaciones",
+      "repaso": true,
+      "imagen": "_verificadas/81_eccema_herpetico__nelsontextbo_p1818_1.jpg",
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Eccema herpético de Kaposi (emergencia): {{c1::aciclovir endovenoso}} urgente y hospitalizar.",
+      "extra": "Riesgo de diseminación visceral y queratitis.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño atópico con fiebre y vesículas umbilicadas agrupadas: {{c1::eccema herpético de Kaposi}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · pregunta Kaposi",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dermatitis del pañal compromete justo el área del pañal; la atópica {{c1::la respeta}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · pregunta lactante",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dermatitis seborreica del lactante: costra láctea en cuero cabelludo con escama {{c1::amarilla oleosa}}; en lactante de buen aspecto se observa.",
+      "extra": "Puede usarse vaselina o aceite mineral para remover la escama.",
+      "origen": "clase:9",
+      "fuente": "Digest · preguntas reales",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 12"
+      ],
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La dermatitis seborreica del lactante, a diferencia de la atópica, {{c1::no respeta el pañal}} ni causa prurito intenso.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · pregunta lactante",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-06/01_atopica_lactante__fitzpatrick_p189.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Dermatitis atópica del lactante",
+      "clave": "Eccema exudativo en mejillas respetando el pañal",
+      "conducta": "Emolientes, baños cortos con syndet, hidrocortisona 1% en cara",
+      "fuente": "Fitzpatrick 7.ª ed., p. 189",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_verificadas/81_eccema_herpetico__nelsontextbo_p1818_1.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Eccema herpético de Kaposi",
+      "clave": "Vesículas umbilicadas agrupadas y erosiones sobre piel atópica, con fiebre",
+      "conducta": "Emergencia: hospitalizar y aciclovir endovenoso",
+      "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 1818",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-06/03_impetiginizacion-costras-melicericas__amir-derma_p55.jpg",
+      "pregunta": "¿Qué complicación es y qué haces?",
+      "diagnostico": "Impetiginización por S. aureus",
+      "clave": "Costras melicéricas amarillentas",
+      "conducta": "Mupirocina tópica u oral (cefadroxilo)",
+      "fuente": "Manual AMIR Dermatología, p. 55",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.004",
+        "2.01.1.107"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.1.1",
+      "pista": "Vesículas umbilicadas y fiebre: ¿qué conducta?",
+      "codigos": [
+        "6.01.1.004"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0",
+      "pista": "Lactante: ¿qué zona respeta?",
+      "codigos": [
+        "6.01.1.004"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.0",
+      "pista": "Costras melicéricas amarillentas: ¿qué tratamiento?",
+      "codigos": [
+        "6.01.1.004"
+      ]
+    }
+  ]
+}

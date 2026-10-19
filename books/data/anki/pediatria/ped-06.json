@@ -1,0 +1,496 @@
+{
+  "classId": "ped-06",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El agente más frecuente de la laringitis aguda obstructiva es el virus {{c1::parainfluenza tipo 1}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.002",
+        "2.01.1.025"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La tríada del croup es {{c1::disfonía, tos perruna y estridor inspiratorio}}, típicamente nocturna.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.002",
+        "2.01.1.025"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 133"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El croup afecta a niños de {{c1::6 meses a 3 años}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · Diagnóstico diferencial del estridor",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.002",
+        "2.01.1.025"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El edema es subglótico porque el {{c1::cricoides}} es el único anillo cartilaginoso completo y no se expande.",
+      "extra": "Poco edema genera mucha resistencia.",
+      "origen": "clase:1",
+      "fuente": "Clase · Por qué un poco de edema causa ruido",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.002"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el lactante, 1 mm de edema reduce el área de la vía aérea en {{c1::75%}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.002"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Croup grado I: estridor inspiratorio {{c1::solo al llorar o agitarse}}, sin tiraje en reposo.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Grados",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.002",
+        "2.01.1.025"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Croup grado II: estridor inspiratorio {{c1::en reposo}} con tiraje leve a moderado.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Grados",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.002",
+        "2.01.1.025"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Croup grado III: estridor {{c1::bifásico (inspiratorio y espiratorio)}} en reposo con tiraje severo.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Grados",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.002",
+        "2.01.1.025"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 158"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el grado IV un estridor que se apaga con cianosis y compromiso de conciencia es {{c1::agotamiento}}, no mejoría.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.002",
+        "2.01.1.022"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La dexametasona está indicada en {{c1::todos los grados}} de laringitis, incluso el grado I.",
+      "extra": "Reduce edema, reconsultas y hospitalizaciones.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.002",
+        "2.01.1.025"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dexametasona oral en croup: {{c1::0.15 a 0.6 mg/kg}} en dosis única.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.002",
+        "2.01.1.025"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estridor solo con el llanto: el error es no tratar por ser leve; se da {{c1::dexametasona oral}} y se envía a casa.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.002"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estridor en reposo con disnea marcada: {{c1::adrenalina nebulizada}} más dexametasona.",
+      "extra": "El error es dar solo dexametasona y esperar.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.002",
+        "2.01.1.025"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 158"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Adrenalina corriente (1:1.000) nebulizada: {{c1::0.5 mL/kg/dosis}}, máximo 5 mL.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.002"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La adrenalina actúa por estímulo {{c1::alfa-1}} con vasoconstricción y alivia el edema en 10-30 minutos.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.002"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El efecto de la adrenalina dura {{c1::90 a 120 minutos}}, por lo que puede haber efecto rebote.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.002"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Tras adrenalina nebulizada el error es el alta inmediata; se observa un mínimo de {{c1::2 horas}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.002"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el croup grado III el orden de manejo es oxígeno, {{c1::adrenalina racémica nebulizada}} y corticoides.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz EUNACOM Diciembre 2018 P158",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.002",
+        "2.01.1.025"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 158"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño de 2 años con estridor en reposo y tiraje leve, sin disnea marcada: {{c1::dexametasona oral}} con observación breve.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz Caso clínico",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.002"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Epiglotitis: fiebre alta, aspecto tóxico, sialorrea, posición de trípode y {{c1::ausencia de tos perruna}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.002",
+        "2.01.2.018"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la sospecha de epiglotitis nunca se examina la orofaringe con {{c1::bajalenguas}}: riesgo de espasmo laríngeo fatal.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Banderas rojas",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.002",
+        "2.01.2.018"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Epiglotitis: se asegura la vía aérea en {{c1::pabellón}} y se da cefotaxima.",
+      "extra": "El niño se mantiene tranquilo en brazos de sus padres.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Diagnóstico diferencial",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.002",
+        "2.01.2.018"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Agente de la epiglotitis aguda: {{c1::Haemophilus influenzae tipo b}}.",
+      "extra": "Más probable en el niño sin vacunas.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Diagnóstico diferencial",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.018"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la radiografía lateral de cuello, la epiglotitis se ve como signo del {{c1::pulgar}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Banderas rojas",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.018",
+        "2.01.2.002"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La epiglotis en la epiglotitis se ve de color {{c1::rojo cereza}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Banderas rojas",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.018"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Croup que no responde a adrenalina, con fiebre alta y pus traqueal: {{c1::traqueítis bacteriana}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Banderas rojas",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.002",
+        "2.01.2.018"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Traqueítis bacteriana: intubación orotraqueal y {{c1::cloxacilina o cefotaxima}}.",
+      "extra": "Agente principal: Staphylococcus aureus.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Diagnóstico diferencial",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.018"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Crisis de asfixia súbita al comer o jugar, afebril y con afonía: {{c1::cuerpo extraño laríngeo}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Diagnóstico diferencial",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.018",
+        "2.01.1.022"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estridor inspiratorio desde las primeras semanas que cede en prono: {{c1::laringomalacia}}.",
+      "extra": "Causa más frecuente de estridor crónico; se observa y se resuelve sola.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Estridor",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.022"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lactante con coriza, estridor inspiratorio que aumenta con el llanto y murmullo conservado: {{c1::laringitis aguda obstructiva}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz EUNACOM Julio 2024 P133",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.025"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 133"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-06/01_croup_campanario__nelson_p3220.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Signo del campanario (laringotraqueítis viral)",
+      "clave": "La tráquea subglótica se estrecha en punta",
+      "conducta": "Dexametasona oral en todos los grados; adrenalina nebulizada si hay disnea",
+      "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 3220",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.025",
+        "2.01.2.002"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-06/02_epiglotitis-signo-pulgar__commons.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Epiglotitis aguda: signo del pulgar",
+      "clave": "Epiglotis engrosada en la radiografía lateral de cuello",
+      "conducta": "Asegurar la vía aérea en pabellón; sin bajalenguas",
+      "fuente": "Wikimedia Commons, CC0",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.018",
+        "2.01.2.002"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-06/01_epiglotitis-rojo-cereza-diagnostico-dife__cto-pediatria_p50.jpg",
+      "pregunta": "¿Qué muestra y qué no debes hacer?",
+      "diagnostico": "Epiglotis edematosa rojo cereza (epiglotitis)",
+      "clave": "Epiglotis roja, brillante y muy edematosa",
+      "conducta": "No examinar la faringe con bajalenguas; vía aérea en pabellón",
+      "fuente": "Manual CTO Pediatría 14.ª ed., p. 50",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.018"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Estridor solo al llorar (grado I): ¿qué indicas?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.2",
+      "pista": "Estridor en reposo con disnea marcada: ¿qué indicas?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2.0",
+      "pista": "Mejoró tras adrenalina: ¿qué haces antes del alta?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.2.1",
+      "pista": "No mejora y hay agotamiento: ¿conducta?"
+    }
+  ]
+}

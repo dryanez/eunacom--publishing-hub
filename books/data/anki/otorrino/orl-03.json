@@ -1,0 +1,539 @@
+{
+ "classId": "orl-03",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La otitis externa difusa (oído de nadador) es una {{c1::dermo-epidermitis}} del conducto auditivo externo.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Otitis externa",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-03/01_otitis-externa-aguda-conducto-edematoso__bates_p276.jpg",
+   "codigos": [
+    "6.03.1.019",
+    "6.03.3.006"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Predisponentes: humedad, rascado y {{c1::cotonitos}}, que barren el cerumen protector y alteran el pH ácido.",
+   "extra": "Niño de 9 años con conducto estrecho que impide ver el tímpano.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Predisponentes",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 170",
+    "EUNACOM Julio 2015 · Pregunta 102"
+   ],
+   "codigos": [
+    "6.03.1.019",
+    "6.03.3.006"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Pseudomonas aeruginosa causa más del {{c1::70-80%}} de las otitis externas difusas; S. aureus 15-20%.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Etiología",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.019"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo del trago positivo: dolor a la presión del trago o a la {{c1::tracción del pabellón}}.",
+   "extra": "Otalgia con prurito, conducto edematoso y tímpano íntegro.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clínica",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 160"
+   ],
+   "codigos": [
+    "6.03.1.019"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento de la otitis externa difusa: aseo del CAE, gotas de {{c1::ciprofloxacino}} 0,3% ± corticoide y analgesia.",
+   "extra": "Adulto de 35 años con conducto edematoso y tímpano normal.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tratamiento",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 46"
+   ],
+   "codigos": [
+    "6.03.1.019"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Gotas de ciprofloxacino: 3 a 4 gotas cada 8-12 horas por {{c1::7 a 10 días}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Duración",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.019"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la otitis externa difusa simple {{c1::no}} se dan antibióticos orales: las gotas alcanzan concentraciones locales muy superiores.",
+   "extra": "Solo con celulitis periauricular o inmunosupresión.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Orales",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.019",
+    "6.03.3.006"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Durante el tratamiento se prohíbe el ingreso de {{c1::agua}} al oído.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Medidas",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.019",
+    "6.03.3.006"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otomicosis (Candida): prurito, poco dolor y secreción grumosa blanquecina; tratamiento con {{c1::clotrimazol}} tópico.",
+   "extra": "Adulto de 35 años con secreción grumosa que cubre el tímpano.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Otomicosis",
+   "repaso": true,
+   "imagen": "biblioteca/17_otorrino/orl-03/02_otomicosis-otitis-externa-fungica__bailey-love_p728.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 157"
+   ],
+   "codigos": [
+    "4.02.4.017"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La otitis externa maligna es una {{c1::osteomielitis}} de la base del cráneo por Pseudomonas, en diabéticos mayores o inmunodeprimidos.",
+   "extra": "No es neoplasia.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 OEM",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.019",
+    "1.02.1.014"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En la OEM, Pseudomonas aeruginosa causa más del {{c1::95%}} de los casos.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla OEM",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.019"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "OEM: otalgia terebrante, {{c1::nocturna}}, que no cede con analgésicos, con otorrea fétida.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Clínica",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.019",
+    "1.02.1.014"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hallazgo patognomónico de OEM: tejido de {{c1::granulación}} en el piso del CAE, en la unión osteocartilaginosa.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Otoscopía",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-03/05_otitis-externa-maligna-granulacion__bull_p80.jpg",
+   "codigos": [
+    "6.03.1.019",
+    "1.02.1.014"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El par craneal más afectado en la OEM es el {{c1::VII}} (facial); luego IX, X, XI y XII.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Pares craneales",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.019",
+    "1.02.1.014"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Examen de elección en la OEM: TAC de peñasco y base de cráneo {{c1::con contraste}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Imagen",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.019",
+    "1.02.1.014"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "OEM: hospitalizar, controlar la glicemia y dar ciprofloxacino o {{c1::ceftazidima}} EV.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.019",
+    "1.02.1.014"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La antibioticoterapia endovenosa de la OEM dura un mínimo de {{c1::6 a 8 semanas}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Duración",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.019",
+    "1.02.1.014"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "OEM estadio III (base de cráneo): pares IX, X, XI y XII; mortalidad de {{c1::30 a 50%}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Estadios OEM",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.019",
+    "1.02.1.014"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Prevención: secar el CAE tras el baño, tapones en nadadores y {{c1::no usar hisopos}}.",
+   "extra": "Gotas acidificantes (ácido acético, alcohol boricado) si recurre.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Prevención",
+   "repaso": false,
+   "codigos": [
+    "6.03.3.006"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Lavado de oídos con agua a {{c1::37 °C}}: fría o caliente provoca vértigo calórico.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Lavado",
+   "repaso": false,
+   "codigos": [
+    "6.03.5.010"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antes del lavado se ablanda el cerumen {{c1::3 a 5 días}} con gotas cerumenolíticas.",
+   "extra": "El chorro va a la pared posterosuperior, nunca al tímpano.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Lavado",
+   "repaso": false,
+   "codigos": [
+    "6.03.5.010"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Contraindican el lavado: perforación timpánica, {{c1::cirugía de oído}}, otitis aguda y cuerpo extraño orgánico.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Contraindicaciones",
+   "repaso": true,
+   "codigos": [
+    "6.03.5.010"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mucormicosis rinoorbitocerebral: cetoacidosis, escara negra en cornete o paladar y oftalmoplejía; desbridamiento y {{c1::anfotericina B}}.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Mucormicosis",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-03/04_mucormicosis-rinoorbitaria-diabetica__fitzpatrick_p1882.jpg",
+   "codigos": [
+    "1.02.1.014"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Úlcera que toca hueso (probe-to-bone): sospechar {{c1::osteomielitis}}; estudiar con radiografía, VHS y PCR.",
+   "extra": "DM con polineuropatía, dedos en garra y pulsos disminuidos: mejorar el calzado.",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Pie diabético",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 93"
+   ],
+   "codigos": [
+    "1.02.1.014"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Balanopostitis candidiásica recurrente en un adulto: descartar {{c1::diabetes mellitus}}.",
+   "extra": "Prurito intenso en glande con anillo fibrótico prepucial.",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Diabetes",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 15",
+    "EUNACOM Diciembre 2017 · Pregunta 74"
+   ],
+   "codigos": [
+    "4.02.4.017"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El otohematoma es sangre entre el {{c1::pericondrio}} y el cartílago del pabellón, tras un golpe en luchadores o rugby.",
+   "extra": "",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Otohematoma",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-03/03_otohematoma-pabellon__bailey-love_p727.jpg",
+   "codigos": [
+    "6.03.2.014"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sin drenaje, el cartílago se necrosa y queda la «oreja en {{c1::coliflor}}».",
+   "extra": "",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Otohematoma",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.014"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El otohematoma se drena en {{c1::24 a 48 horas}}, siempre antes de 7 días.",
+   "extra": "Luego vendaje compresivo y ciprofloxacino.",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Otohematoma",
+   "repaso": false,
+   "codigos": [
+    "6.03.5.005"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pabellón eritematoso y aumentado de volumen tras un piercing: el agente es {{c1::Pseudomonas aeruginosa}}.",
+   "extra": "Pericondritis.",
+   "origen": "libro:sec:7",
+   "fuente": "Libro §7 Pericondritis",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 167",
+    "EUNACOM Enero 2023 · Pregunta 113"
+   ],
+   "codigos": [
+    "6.03.2.014"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Otitis externa difusa: ambulatoria y con pares craneales {{c1::indemnes}}; en la maligna, hospitalización.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.019",
+    "6.03.3.006"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-03/01_otitis-externa-aguda-conducto-edematoso__bates_p276.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Otitis externa aguda",
+   "clave": "Conducto rojo y edematoso, con la luz casi cerrada",
+   "conducta": "Aseo y gotas de ciprofloxacino, sin antibiótico oral",
+   "fuente": "Bates, Guía de exploración física, Fig. 7-43",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 46"
+   ],
+   "codigos": [
+    "6.03.1.019"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-03/02_otomicosis-otitis-externa-fungica__bailey-love_p728.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Otomicosis",
+   "clave": "Masa blanquecina y grumosa en el conducto",
+   "conducta": "Aseo y clotrimazol tópico",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 46.11",
+   "repaso": false,
+   "codigos": [
+    "4.02.4.017"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-03/05_otitis-externa-maligna-granulacion__bull_p80.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Granulación en el conducto",
+   "clave": "Tejido de granulación que abulta desde el piso del conducto",
+   "conducta": "Hospitalizar, TAC con contraste y antibiótico EV",
+   "fuente": "Color Atlas of ENT Diagnosis (Bull), p. 80",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.019",
+    "1.02.1.014"
+   ]
+  },
+  {
+   "id": "i04",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-03/03_otohematoma-pabellon__bailey-love_p727.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Otohematoma",
+   "clave": "Pabellón tumefacto y violáceo, con relieves borrados",
+   "conducta": "Drenaje en 24-48 horas y vendaje compresivo",
+   "fuente": "Bailey & Love 27.ª ed., p. 727",
+   "repaso": false,
+   "codigos": [
+    "6.03.5.005"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Otalgia con dolor a la tracción: ¿qué se pregunta primero?",
+   "codigos": [
+    "6.03.1.019",
+    "1.02.1.014"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Sospecha de otitis externa maligna: ¿conducta?",
+   "codigos": [
+    "6.03.1.019",
+    "1.02.1.014"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.0",
+   "pista": "Otitis externa maligna: ¿tratamiento?",
+   "codigos": [
+    "6.03.1.019",
+    "1.02.1.014"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.0",
+   "pista": "Secreción grumosa con prurito: ¿tratamiento?",
+   "codigos": [
+    "6.03.1.019",
+    "1.02.1.014"
+   ]
+  }
+ ]
+}

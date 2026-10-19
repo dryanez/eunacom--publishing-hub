@@ -1,0 +1,601 @@
+{
+ "classId": "cardio-11",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La angina estable se debe a una placa {{c1::fija}} (cápsula gruesa, núcleo lipídico pequeño) que no se rompe.",
+   "extra": "En el SCA la placa se rompe y hay trombo.",
+   "origen": "clase:1",
+   "fuente": "Clase · Placa fija y desbalance",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Una estenosis es significativa desde {{c1::70%}} del diámetro luminal (≥ {{c2::50%}} en el tronco izquierdo).",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Placa fija y desbalance",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001",
+    "1.01.4.001"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La angina estable aparece cuando la demanda de oxígeno sube y se agota la {{c1::reserva coronaria}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Agravan la angina sin cambiar la placa: anemia, hipoxemia, estenosis aórtica, taquicardia y {{c1::tirotoxicosis}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Evaluación inicial",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Angina típica de Diamond-Forrester cumple {{c1::los 3 criterios}}: dolor opresivo retroesternal, gatillado por esfuerzo o estrés, y cede con reposo o NTG en < 5 min.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Angina típica, atípica y no anginosa",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cumplir 2 de 3 criterios es angina {{c1::atípica}}; cumplir 0 o 1 es dolor no anginoso.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Angina típica, atípica y no anginosa",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El dolor de la angina típica cede con reposo o nitroglicerina en menos de {{c1::5 minutos}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Angina típica, atípica y no anginosa",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En mujeres, ancianos y diabéticos el equivalente anginoso puede ser {{c1::disnea de esfuerzo o epigastralgia}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Angina típica, atípica y no anginosa",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 151",
+    "EUNACOM Diciembre 2019 · Pregunta 118"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Dolor epigástrico de esfuerzo en un diabético: es angina de pared inferior; el error es tratarlo como {{c1::dispepsia}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Angina de esfuerzo estable de reciente comienzo (3 semanas) se estudia de forma {{c1::ambulatoria}}; si es clase III-IV en 2 meses, es inestable.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Angina típica, atípica y no anginosa",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "CCS clase II: angina al caminar más de {{c1::2 cuadras}} planas o subir más de un piso.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clasificación CCS",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "CCS clase III: angina al caminar {{c1::1 a 2 cuadras}} planas o subir un solo tramo de escaleras.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clasificación CCS",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "CCS clase IV: incapacidad de hacer {{c1::cualquier actividad}} sin angina, incluso en reposo mínimo.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clasificación CCS",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La estenosis aórtica y la miocardiopatía hipertrófica también producen dolor de {{c1::esfuerzo}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Evaluación inicial",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La respuesta a la nitroglicerina {{c1::no es prueba diagnóstica}}: también alivia el espasmo esofágico.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Evaluación inicial",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La primera prueba en la angina estable si puede ejercitarse y el ECG basal es interpretable es la {{c1::ergometría (Bruce)}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Ergometría",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.008"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 85",
+    "EUNACOM Diciembre 2025 · Pregunta 2",
+    "EUNACOM Agosto 2021 · Pregunta 180"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Ergometría positiva: infradesnivel horizontal o descendente del ST ≥ {{c1::1 mm}} medido a {{c2::80 ms}} del punto J.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Ergometría",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.008"
+   ],
+   "imagen": "biblioteca/20_cardiologia/cardio-11/01_ecg-postejercicio-infradesnivel-st__stroobandt-ecg_p166.jpg"
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El puntaje de {{c1::Duke}} de la ergometría clasifica el riesgo en bajo, intermedio y alto.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Ergometría",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.008"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Alto riesgo en ergometría: infradesnivel del ST ≥ {{c1::2 mm}} o en ≥ 5 derivaciones.",
+   "extra": "Va a coronariografía.",
+   "origen": "clase:4",
+   "fuente": "Clase · Ergometría",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.008"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 4",
+    "EUNACOM Diciembre 2024 · Pregunta 155"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Alto riesgo en ergometría: infradesnivel precoz (estadio 1 de Bruce, < 5 METs) o caída de la PAS mayor de {{c1::10 mmHg}}.",
+   "extra": "También TV sostenida.",
+   "origen": "clase:4",
+   "fuente": "Clase · Ergometría",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.008"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Ergometría con ST ≥ 2 mm: el error es {{c1::repetir otra prueba funcional}}; corresponde coronariografía.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.008",
+    "1.01.4.001"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Angina con BCRI, marcapaso, WPW, HVI o digoxina: no sirve la ergometría; se usa {{c1::eco con dobutamina o SPECT}}.",
+   "extra": "El ST basal ya está alterado.",
+   "origen": "clase:6",
+   "fuente": "Clase · Imagen de estrés",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.008",
+    "1.01.4.005"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la cintigrafía de perfusión, un defecto reversible en reposo es {{c1::isquemia}}; un defecto fijo es cicatriz.",
+   "extra": "",
+   "origen": "foto",
+   "imagen": "biblioteca/20_cardiologia/cardio-11/02_spect-estres-reposo-defecto-anterior__harrison_p1876.jpg",
+   "fuente": "Clase · Cintigrafía SPECT (Harrison)",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.005"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El mejor examen para determinar si una insuficiencia cardíaca es de origen isquémico es la {{c1::cintigrafía de perfusión miocárdica}}.",
+   "extra": "También sirve para viabilidad miocárdica.",
+   "origen": "clase:6",
+   "fuente": "Clase · Imagen de estrés",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 61"
+   ],
+   "codigos": [
+    "1.01.4.005"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El estrés farmacológico usa dobutamina (eco) o {{c1::dipiridamol, adenosina o regadenosón}} (cintigrafía).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Imagen de estrés",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.005"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El angioTAC coronario tiene un valor predictivo negativo > {{c1::98%}}: descarta enfermedad en riesgo bajo-intermedio.",
+   "extra": "Limita el calcio extenso y la taquicardia.",
+   "origen": "clase:6",
+   "fuente": "Clase · Imagen de estrés y angioTAC",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.001"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Indicaciones de coronariografía: alto riesgo en pruebas no invasivas, angina refractaria o FEVI < {{c1::50%}} sin causa.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Coronariografía",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.001"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 4"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Una estenosis intermedia (50-69%) se evalúa con la reserva fraccional de flujo: significativa si FFR ≤ {{c1::0,80}}.",
+   "extra": "",
+   "origen": "foto",
+   "imagen": "biblioteca/20_cardiologia/cardio-11/04_ffr-0-78-estenosis-significativa__harrison_p1907.jpg",
+   "fuente": "Clase · Coronariografía (Harrison)",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.001"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Son hallazgos de alto riesgo de la coronariografía el compromiso del {{c1::tronco izquierdo}} o de la descendente anterior proximal.",
+   "extra": "",
+   "origen": "foto",
+   "imagen": "biblioteca/20_cardiologia/cardio-11/03_coronariografia-estenosis-tronco-circunfleja__harrison_p1883.jpg",
+   "fuente": "Clase · Coronariografía (Harrison)",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.001"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Flujo TIMI 0 = oclusión sin flujo; I = penetración sin perfusión; II = flujo lento; III = {{c1::flujo normal}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Informe",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.001"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Enfermedad de 1 o 2 vasos sin tronco: angioplastía con {{c1::stent farmacoactivo}} (SYNTAX bajo ≤ 22).",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Coronariografía",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.001"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tronco izquierdo o 3 vasos (diabético, FEVI baja, SYNTAX alto ≥ 33): cirugía de {{c1::by-pass}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Coronariografía",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.001"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El acceso de elección en la coronariografía es el {{c1::radial}}.",
+   "extra": "Complicaciones < 2%: hematoma, pseudoaneurisma, nefropatía por contraste.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Complicaciones",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.001"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Arterias normales o ateromatosis no significativa con angina: pensar en vasoespasmo, disfunción {{c1::microvascular}} o MINOCA.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Cómo se usa",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.001"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En angina crónica estable persistente con aspirina y estatina, se agrega un fármaco antianginoso como {{c1::dinitrato de isosorbide}}.",
+   "extra": "Pregunta real dic. 2019; lo más importante es revascularizar si corresponde.",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic. 2019 P82",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 82"
+   ],
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor de 20 minutos en reposo que cede solo, en un migrañoso tratado con propranolol, orienta a angina {{c1::vasomotora}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul. 2013 P172",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 172"
+   ],
+   "codigos": [
+    "1.01.1.001"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hombre de 61 años con angina típica clase II-III y ergometría con ST 2 mm en V4-V6 y caída de PAS: {{c1::terapia médica óptima y coronariografía}}.",
+   "extra": "",
+   "origen": "libro:caso",
+   "fuente": "Libro · Caso clínico",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.001",
+    "1.01.4.008"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-11/01_ecg-postejercicio-infradesnivel-st__stroobandt-ecg_p166.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Ergometría positiva: infradesnivel del ST post-esfuerzo",
+   "clave": "Infradesnivel horizontal o descendente del ST ≥ 1 mm a 80 ms del punto J",
+   "conducta": "Si es de alto riesgo (ST ≥ 2 mm, precoz, caída de PAS): coronariografía",
+   "fuente": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials, p. 166",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.008"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-11/02_spect-estres-reposo-defecto-anterior__harrison_p1876.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Cintigrafía SPECT con defecto anterior y anteroseptal en el estrés",
+   "clave": "Defecto de perfusión que aparece con el estrés y se corrige en reposo: isquemia reversible",
+   "conducta": "Isquemia extensa: derivar a coronariografía; si no, terapia médica óptima",
+   "fuente": "Harrison. Principios de Medicina Interna, 21.ª ed., Fig. 241-5",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.005"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-11/03_coronariografia-estenosis-tronco-circunfleja__harrison_p1883.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Coronariografía con estenosis del tronco izquierdo y circunfleja",
+   "clave": "Estenosis ≥ 50% del tronco izquierdo es significativa",
+   "conducta": "Tronco izquierdo o 3 vasos: valorar cirugía de by-pass",
+   "fuente": "Harrison. Principios de Medicina Interna, 21.ª ed., Fig. 241-10",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.001"
+   ]
+  },
+  {
+   "id": "i04",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-11/04_ffr-0-78-estenosis-significativa__harrison_p1907.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Reserva fraccional de flujo (FFR) 0,78",
+   "clave": "FFR ≤ 0,80 define una estenosis intermedia como significativa",
+   "conducta": "Tratar como lesión significativa (revascularización según anatomía)",
+   "fuente": "Harrison. Principios de Medicina Interna, 21.ª ed., Fig. 242-8",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.001"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "ECG interpretable y puede ejercitarse: ¿qué prueba?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Ergometría de alto riesgo: ¿qué sigue?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1",
+   "pista": "ECG no interpretable o no puede ejercitarse: ¿qué prueba?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.2",
+   "pista": "Riesgo bajo y se quiere descartar enfermedad: ¿qué examen?"
+  }
+ ]
+}

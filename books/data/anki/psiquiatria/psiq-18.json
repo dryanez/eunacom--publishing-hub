@@ -1,0 +1,516 @@
+{
+  "classId": "psiq-18",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El TDAH se asocia a un déficit de {{c1::dopamina y noradrenalina}} en la corteza prefrontal.",
+      "extra": "Heredabilidad cercana al 75%.",
+      "origen": "clase:1",
+      "fuente": "Clase · Diagrama",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.028",
+        "2.01.1.082"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "TDAH: al menos {{c1::6}} síntomas de inatención y/o hiperactividad-impulsividad durante 6 meses.",
+      "extra": "En adultos bastan 5 síntomas.",
+      "origen": "clase:2",
+      "fuente": "Clase · Criterios",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 70",
+        "EUNACOM Julio 2024 · Pregunta 155"
+      ],
+      "codigos": [
+        "5.01.1.028",
+        "2.01.1.082"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "TDAH: varios síntomas deben estar presentes antes de los {{c1::12 años}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 176",
+        "EUNACOM Julio 2015 · Pregunta 86"
+      ],
+      "codigos": [
+        "5.01.1.028",
+        "2.01.1.082"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "TDAH exige síntomas en al menos {{c1::2 entornos}} (colegio y casa); distraído solo en el colegio no es TDAH.",
+      "extra": "El error es dar metilfenidato de entrada.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 111"
+      ],
+      "codigos": [
+        "5.01.1.028",
+        "2.01.1.082"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La presentación más frecuente de TDAH es la {{c1::combinada}}; la inatenta pasa desapercibida, sobre todo en niñas.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Presentaciones",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.028",
+        "2.01.1.082"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fármaco de primera línea del TDAH: {{c1::metilfenidato}}.",
+      "extra": "Se asocia a psicopedagogía y adecuaciones (PIE).",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.142",
+        "5.01.1.028"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Metilfenidato: bloquea la recaptación de {{c1::dopamina y noradrenalina}} prefrontal.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 TDAH",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.028",
+        "2.01.1.082"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Anorexia nerviosa: IMC menor de {{c1::18,5}} en adultos o percentil peso/talla menor del 5.º en niños.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Anorexia",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 145",
+        "EUNACOM Julio 2025 · Pregunta 4"
+      ],
+      "codigos": [
+        "5.01.1.018",
+        "2.01.1.139"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterios de anorexia: peso bajo, miedo intenso a engordar y {{c1::distorsión de la imagen corporal}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Anorexia",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 168",
+        "EUNACOM Julio 2015 · Pregunta 80"
+      ],
+      "codigos": [
+        "5.01.1.018",
+        "2.01.1.139"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signos de desnutrición en anorexia: bradicardia, hipotermia, piel amarilla seca por hipercarotenemia y {{c1::lanugo}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Anorexia",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.018",
+        "2.01.1.139"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La amenorrea ya no es criterio obligatorio de anorexia en el {{c1::DSM-5}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Cuerpo y hospitalización",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.018",
+        "2.01.1.139"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hospitalizar en anorexia si el QTc es mayor de {{c1::460 ms}}.",
+      "extra": "También bradicardia severa, arritmias e hipokalemia severa.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Hospitalización",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.018",
+        "2.01.1.139"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Anorexia grave con IMC 13,7, FC 36 y QTc largo: {{c1::hospitalizar de inmediato}}; el error es manejo ambulatorio.",
+      "extra": "Jamás iniciar psicofármacos ambulatorios.",
+      "origen": "clase:20",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.018",
+        "2.01.1.139"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Bulimia nerviosa: atracones con conductas compensatorias al menos {{c1::1 vez por semana}} durante 3 meses.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Bulimia",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 45",
+        "EUNACOM Diciembre 2024 · Pregunta 141"
+      ],
+      "codigos": [
+        "5.01.1.018",
+        "2.01.1.139"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "A diferencia de la anorexia, la bulimia suele cursar con peso {{c1::normal o sobrepeso}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Bulimia",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.018",
+        "2.01.1.139"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signos de bulimia: erosión del esmalte, hipertrofia de {{c1::parótidas}} y signo de Russell (callos en los nudillos).",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Bulimia",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 76"
+      ],
+      "codigos": [
+        "5.01.1.018",
+        "2.01.1.139"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fármaco de elección en bulimia: fluoxetina {{c1::60 mg/día}} más TCC.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.018",
+        "2.01.1.139"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trastorno por atracones: atracones sin {{c1::conductas compensatorias}}, con obesidad y culpa.",
+      "extra": "Tratamiento: TCC; lisdexanfetamina o topiramato.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla AN/BN/atracón",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.018",
+        "2.01.1.139"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Realimentación lenta: iniciar con {{c1::1.000-1.200 kcal/día}}.",
+      "extra": "Con fósforo, magnesio y tiamina.",
+      "origen": "clase:7",
+      "fuente": "Clase · Realimentación",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.018",
+        "2.01.1.139"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "TEA: dos dominios, déficit de comunicación social y patrones {{c1::restringidos y repetitivos}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 TEA",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 1"
+      ],
+      "codigos": [
+        "5.01.1.023"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tamizaje de TEA con M-CHAT entre los {{c1::16 y 30 meses}}.",
+      "extra": "Controles de 18 y 24 meses.",
+      "origen": "clase:10",
+      "fuente": "Clase · TEA",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.023",
+        "5.01.1.024"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "TEA con sospecha: se deriva e inicia intervención temprana; el error es {{c1::esperar y observar}}.",
+      "extra": "Se descarta hipoacusia con audiometría.",
+      "origen": "clase:20",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 105"
+      ],
+      "codigos": [
+        "5.01.1.023",
+        "5.01.1.024"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En TEA no hay fármaco para el núcleo; {{c1::risperidona o aripiprazol}} solo para irritabilidad grave, por especialista.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · TEA",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.023",
+        "5.01.1.024"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Discapacidad intelectual: CI menor de {{c1::70}} más déficit adaptativo.",
+      "extra": "Leve 50-69; moderada 35-49; grave 20-34.",
+      "origen": "clase:11",
+      "fuente": "Clase · Discapacidad intelectual",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.023",
+        "5.01.1.024"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trastorno específico del aprendizaje de la lectura: {{c1::dislexia}}.",
+      "extra": "Persistente por 6 meses o más.",
+      "origen": "clase:11",
+      "fuente": "Clase · Aprendizaje",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 87"
+      ],
+      "codigos": [
+        "5.01.1.024"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "TOD: enojo, actitud discutidora y vengativa por al menos {{c1::6 meses}}, sin violar derechos ajenos.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · TOD y disocial",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.031",
+        "5.01.1.026"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Trastorno disocial en un niño (agresión, robo, fugas): entrenamiento a padres; el error es {{c1::risperidona de entrada}}.",
+      "extra": "",
+      "origen": "clase:20",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 145",
+        "EUNACOM Julio 2025 · Pregunta 38"
+      ],
+      "codigos": [
+        "5.01.1.031",
+        "5.01.1.030"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Ansiedad por separación: miedo excesivo por {{c1::4 semanas}} o más, con pico a los 7-9 años.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Ansiedad infantil",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.030",
+        "5.01.1.031"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Enuresis: al menos {{c1::2 veces por semana}} durante 3 meses, en un niño de 5 años o más.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Enuresis",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.026",
+        "5.01.1.030"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primera línea en enuresis (desde los 7 años): {{c1::alarma de enuresis}}.",
+      "extra": "El error es castigar o dar imipramina.",
+      "origen": "clase:16",
+      "fuente": "Clase · Enuresis",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.026",
+        "5.01.1.030"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Desmopresina en enuresis: {{c1::0,2-0,4 mg}} oral nocturna, restringiendo líquidos desde 1 hora antes.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Enuresis",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.026",
+        "5.01.1.030"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síndrome de Tourette: 2 o más tics motores y un tic vocal por más de {{c1::1 año}}, con inicio antes de los 18 años.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Tics",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.026",
+        "5.01.1.030"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Anorexia con signos de gravedad: ¿conducta?",
+      "codigos": [
+        "5.01.1.018"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1",
+      "pista": "Atracones y purgas con peso normal: ¿diagnóstico y tratamiento?",
+      "codigos": [
+        "5.01.1.028"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.2",
+      "pista": "Atracones sin compensación: ¿qué haces?",
+      "codigos": [
+        "5.01.1.028"
+      ]
+    }
+  ]
+}

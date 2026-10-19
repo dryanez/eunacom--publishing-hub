@@ -1,0 +1,520 @@
+{
+  "classId": "derma-08",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La lesión elemental patognomónica de la urticaria es el {{c1::habón (roncha)}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Habón",
+      "repaso": false,
+      "imagen": "biblioteca/11_dermatologia/derma-08/01_habones__cto-derma_p49.jpg",
+      "codigos": [
+        "6.01.1.030",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El habón se produce por degranulación de {{c1::mastocitos}} dérmicos con liberación de histamina.",
+      "extra": "Edema de dermis papilar y media.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Habón",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.030",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterio patognomónico del habón: es {{c1::evanescente}} (desaparece en < 24 horas sin dejar huella).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.030",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cada habón dura entre {{c1::30 minutos}} y pocas horas.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Habón",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.030",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Habón fijo más de 24 a 48 horas o con púrpura residual (hemosiderina): {{c1::vasculitis urticariana}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Habón",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.030",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Vasculitis urticariana: estudio diagnóstico con {{c1::biopsia cutánea obligatoria}}.",
+      "extra": "Se estudia LES e hipocomplementemia.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla urticaria",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.030",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síntoma de la vasculitis urticariana: {{c1::ardor, dolor o quemazón}}; en la urticaria común es prurito intenso.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.016",
+        "6.01.1.030"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pregunta clave para confirmar urticaria: ¿cada roncha {{c1::desaparece en menos de 24 horas sin marca}}, apareciendo otras en sitios distintos?",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · pregunta semiológica",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.030",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Angioedema: edema de dermis profunda, tejido subcutáneo y submucosas; cursa con {{c1::tensión, ardor o dolor}} más que prurito.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Angioedema",
+      "repaso": false,
+      "imagen": "biblioteca/11_dermatologia/derma-08/02_angioedema__cto-derma_p50.jpg",
+      "codigos": [
+        "6.01.2.001",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El angioedema tarda {{c1::48 a 72 horas}} en reabsorberse.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Angioedema",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.001",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Banderas rojas de anafilaxia: compromiso {{c1::respiratorio, hemodinámico}} o cólicos con vómitos tras exposición alérgica.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Anafilaxia",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.001",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento inmediato de la anafilaxia: {{c1::adrenalina intramuscular}} en la cara anterolateral del muslo.",
+      "extra": "Antihistamínicos y corticoides nunca la reemplazan.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Anafilaxia",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 152",
+        "EUNACOM Diciembre 2024 · Pregunta 84"
+      ],
+      "codigos": [
+        "6.01.2.001",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Adrenalina IM en adulto con anafilaxia: {{c1::0.3 a 0.5 mg}} (1:1.000 sin diluir).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Anafilaxia",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.001",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Adrenalina IM en niño con rash urticarial, edema de labios, taquicardia y dolor abdominal: {{c1::0,01 mg/kg}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Quiz Ene 2023",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 178"
+      ],
+      "codigos": [
+        "6.01.2.001",
+        "2.01.1.055"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niña con edema de labios, habones generalizados y dolor abdominal: fármaco inmediato {{c1::adrenalina}}.",
+      "extra": "Hay compromiso digestivo: es anafilaxia.",
+      "origen": "clase:2",
+      "fuente": "Clase · Angioedema y anafilaxia",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 152"
+      ],
+      "codigos": [
+        "6.01.2.001",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alérgico a mariscos con 2 reacciones anafilácticas previas: indicar {{c1::adrenalina SOS}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Angioedema y anafilaxia",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 84"
+      ],
+      "codigos": [
+        "6.01.2.001",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Antihistamínicos y corticoides son fármacos secundarios en anafilaxia porque {{c1::tardan horas en actuar}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Anafilaxia",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.001",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Urticaria aguda: brotes de duración menor a {{c1::6 semanas}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Clasificación",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.030",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Urticaria crónica: brotes diarios o casi diarios durante {{c1::6 semanas o más}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Clasificación",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.030",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causa más frecuente de urticaria aguda: {{c1::infecciones virales}} respiratorias o digestivas.",
+      "extra": "También fármacos (AINE, betalactámicos) y alimentos.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Clasificación",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.030",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Urticaria crónica espontánea (80%): mediada por autoanticuerpos {{c1::IgG}} contra el receptor FcεRI o la IgE.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Clasificación",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.030",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Primera línea en urticaria: antihistamínico H1 de {{c1::segunda generación}} (no sedante) a dosis estándar.",
+      "extra": "Cetirizina, levocetirizina, desloratadina.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Algoritmo",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 20"
+      ],
+      "codigos": [
+        "6.01.1.030",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Mujer con urticaria aguda de 48 horas, sin angioedema ni compromiso hemodinámico: {{c1::levocetirizina oral}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Quiz Jul 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 20"
+      ],
+      "codigos": [
+        "6.01.2.016",
+        "6.01.1.030"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Niño con habones evanescentes, dermografismo y cuadro viral reciente: {{c1::antihistamínicos orales}}.",
+      "extra": "Sin estudio alérgico.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz Ago 2021",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 34"
+      ],
+      "codigos": [
+        "2.01.1.055",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Segunda línea en urticaria crónica: {{c1::cuadruplicar}} el antihistamínico H1 si no hay control a las 2 a 4 semanas.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Algoritmo",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.030",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras fracasar la dosis estándar, el antihistamínico de segunda generación se sube hasta {{c1::4 veces}} la dosis estándar.",
+      "extra": "Ej.: cetirizina hasta 40 mg/día.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.055",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tercera línea en urticaria crónica: {{c1::omalizumab}} (anti-IgE), 300 mg subcutáneo mensual.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Algoritmo",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.030",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Cuarta línea en urticaria crónica: {{c1::ciclosporina A}} oral.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Algoritmo",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.030",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Corticoides orales en urticaria crónica: {{c1::NUNCA como mantenimiento}}; solo rescate ultracorto de 3 a 5 días.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Trampa grave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.030",
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Antihistamínicos de primera generación (clorfenamina) {{c1::ya no se recomiendan}} por sedación y efecto anticolinérgico.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · pregunta urticaria refractaria",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.016",
+        "6.01.1.030"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Urticaria + angioedema por AINE sin vía aérea ni hipotensión: suspender el AINE y dar {{c1::antihistamínico H1}}; no es anafilaxia.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.016"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-08/01_habones__cto-derma_p49.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Urticaria con habones",
+      "clave": "Elevaciones rosadas de bordes geográficos con halo pálido, evanescentes",
+      "conducta": "Descartar anafilaxia; antihistamínico H1 de 2.ª generación; cuadruplicar si no hay control",
+      "fuente": "Manual CTO Dermatología 14.ª ed., p. 49",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.016",
+        "6.01.1.030"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-08/02_angioedema__cto-derma_p50.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Angioedema labial",
+      "clave": "Tumefacción difusa tensa de labios",
+      "conducta": "Evaluar vía aérea y hemodinamia; si hay compromiso, adrenalina IM",
+      "fuente": "Manual CTO Dermatología 14.ª ed., p. 50",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.001",
+        "6.01.2.016"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Habones con estridor o hipotensión: ¿qué conducta?",
+      "codigos": [
+        "6.01.1.030"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Lesión fija más de 24 a 48 horas: ¿qué estudio?",
+      "codigos": [
+        "6.01.1.030"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1.1",
+      "pista": "Urticaria crónica sin control a dosis estándar: ¿qué paso?",
+      "codigos": [
+        "6.01.1.030"
+      ]
+    }
+  ]
+}

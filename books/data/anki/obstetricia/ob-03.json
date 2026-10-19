@@ -1,0 +1,457 @@
+{
+  "classId": "ob-03",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El RBNE evalúa la integridad del sistema nervioso {{c1::autónomo}} fetal en un feto sin trabajo de parto.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 RBNE",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.009"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "FCF basal normal: entre {{c1::110 y 160}} lpm.",
+      "extra": "Taquicardia > 160 lpm; bradicardia < 110 lpm.",
+      "origen": "clase:1",
+      "fuente": "Clase · Qué mide cada parámetro",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.009"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Variabilidad moderada (normal) de la FCF: {{c1::6 a 25 lpm}}; refleja oxigenación cerebral intacta.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Qué mide cada parámetro",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.009"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Variabilidad mínima (< 5 lpm) o silente es signo de {{c1::hipoxia o sueño}}; la ausente es alarma extrema.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Variabilidad",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.009"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Aceleración: aumento de la FCF de al menos {{c1::15 lpm}} por al menos {{c2::15 segundos}} (regla 15 × 15).",
+      "extra": "En < 32 semanas se acepta 10 × 10.",
+      "origen": "clase:1",
+      "fuente": "Clase · Qué mide cada parámetro",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.009"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "RBNE reactivo: {{c1::2 o más}} aceleraciones 15 × 15 en {{c2::20 minutos}}, con FCF basal y variabilidad normales.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.009"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En condiciones basales normales {{c1::no deben existir}} desaceleraciones en el RBNE.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 RBNE",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.009"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Un RBNE reactivo tiene un valor predictivo negativo de muerte fetal en los siguientes 7 días > {{c1::99%}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Interpretación",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.009"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa benigna más frecuente de RBNE no reactivo es el {{c1::ciclo de sueño profundo fetal}}.",
+      "extra": "Dura 20–40 minutos.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.009"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "RBNE sin aceleraciones a los 20 minutos: {{c1::prolongar y estimular hasta los 40 minutos}}, no concluir sufrimiento fetal.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.009"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 25"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El estímulo usado para despertar al feto en un RBNE no reactivo es {{c1::vibroacústico}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.009"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "RBNE no reactivo tras 40 minutos: {{c1::perfil biofísico o Doppler}}, no interrumpir sin más estudio.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.009"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Disminución de movimientos fetales con latidos presentes: el primer examen es el {{c1::RBNE}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz Perfil V3 3.01.5.005",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.005"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 58"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En bajo riesgo, la vigilancia anteparto es el control habitual más el {{c1::registro diario de movimientos fetales}} por la madre.",
+      "extra": "RBNE, PBF y Doppler seriados se reservan para alto riesgo (RCF, diabetes, SHE, embarazo prolongado).",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz Perfil V3 3.01.5.005",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.005"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El perfil biofísico (Manning) evalúa {{c1::5}} variables, cada una con {{c2::0 o 2}} puntos.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Perfil biofísico de Manning",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.011"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las 5 variables del PBF: reactividad (RBNE), respiración, movimientos corporales, tono y {{c1::líquido amniótico}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Perfil biofísico de Manning",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.011"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "PBF, movimientos respiratorios normales: al menos {{c1::1 episodio de ≥ 30 segundos}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Manning",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.011"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "PBF, movimientos corporales normales: al menos {{c1::3}} movimientos de cuerpo o extremidades.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Manning",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.011"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PBF, tono normal: al menos 1 episodio de {{c1::extensión activa con retorno a la flexión}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 PBF",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.011"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "PBF, líquido amniótico normal: un bolsillo vertical único ≥ {{c1::2 cm}} (ILA entre 5 y 24).",
+      "extra": "El oligohidramnios refleja hipoperfusión renal fetal crónica.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Manning",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.011"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tono fetal es el último parámetro en {{c1::perderse}} en la cascada de hipoxia fetal progresiva.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.011"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PBF 10/10 u 8/10 con líquido normal: feto sano, {{c1::manejo conservador}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Perfil biofísico de Manning",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.011"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "PBF 8/10 con oligohidramnios: marca {{c1::hipoxia crónica}}; no hay que tranquilizarse por el puntaje alto.",
+      "extra": "En embarazo de término se considera interrumpir.",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.011"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 83",
+        "EUNACOM Agosto 2021 · Pregunta 54",
+        "EUNACOM Diciembre 2019 · Pregunta 156"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PBF 8/10 con oligoamnios a las 40 semanas: {{c1::inducir el parto}}; no obliga a cesárea.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz Diciembre 2018 P83",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.011"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PBF 6/10: sospecha de asfixia; si es de término se {{c1::interrumpe}}, si es pretérmino se repite en 24 horas o se evalúa con Doppler.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Interpretación",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.011"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "PBF ≤ 4/10: {{c1::interrupción inmediata}} del embarazo; el error es repetir el examen en unos días.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.011"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Insuficiencia placentaria: la hipoxemia causa {{c1::vasodilatación cerebral}} (centralización) y baja el IP de la arteria cerebral media.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Perfil V3 3.01.5.003",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.005"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La anemia fetal se evalúa con la {{c1::velocidad sistólica máxima}} de la arteria cerebral media, no con su pulsatilidad.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Perfil V3 3.01.5.003",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.005"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La descompensación cardíaca fetal se refleja en el {{c1::ductus venoso}} alterado.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Perfil V3 3.01.5.003",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.005"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Disminución de movimientos fetales en una embarazada con edema y astenia: se solicita {{c1::Doppler fetal}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Pregunta real Diciembre 2022 P16",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.005"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 16"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "RBNE no reactivo con bolsillo de líquido de 1 × 1 cm en embarazo de 36 semanas con cesárea previa y Bishop 3: {{c1::interrumpir por cesárea}}.",
+      "extra": "Hipoxia crónica con cuello desfavorable.",
+      "origen": "algoritmo",
+      "fuente": "Banco · Enero 2023 P43",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.011"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 43"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-03/01_rctg-normal-reactivo__cto-gyo_p171.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "RBNE reactivo",
+      "clave": "FCF basal 110–160 lpm, variabilidad moderada y ≥ 2 aceleraciones de 15 × 15 en 20 minutos, sin desaceleraciones",
+      "conducta": "Feto bien oxigenado: sin más estudio, control habitual",
+      "fuente": "Manual CTO Ginecología y Obstetricia 14.ª ed., p. 171",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.009"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "RBNE que cumple 2 aceleraciones 15 × 15: ¿qué concluyes?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Sin aceleraciones a los 20 minutos: ¿qué haces?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.0",
+      "pista": "Sigue no reactivo tras estimular: ¿qué examen sigue?"
+    }
+  ]
+}

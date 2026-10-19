@@ -1,0 +1,445 @@
+{
+  "classId": "reuma-01",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Monoartritis aguda es la inflamación de una sola articulación con evolución menor a {{c1::4 a 6 semanas}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definición",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.015"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La articulación más comprometida en la monoartritis aguda es la {{c1::rodilla}} (50%).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definición",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.015"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las 4 categorías de monoartritis aguda: infecciosa, {{c1::microcristalina}}, inicio de artropatía inflamatoria sistémica y hemartrosis/mecánica.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Cuatro orígenes",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.015"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Regla de oro: toda monoartritis aguda se considera {{c1::séptica}} hasta que la artrocentesis demuestre lo contrario.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.015"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La destrucción osteocartilaginosa irreversible de una artritis séptica no tratada ocurre en menos de {{c1::48 a 72 horas}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro · ¿Por qué?",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.015"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante un derrame articular agudo no filiado, la conducta inicial es la {{c1::artrocentesis diagnóstica}}.",
+      "extra": "Mandatoria e inaplazable.",
+      "origen": "clase:2",
+      "fuente": "Clase · Artrocentesis",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 69",
+        "EUNACOM Diciembre 2025 · Pregunta 112",
+        "EUNACOM Julio 2015 · Pregunta 8"
+      ],
+      "codigos": [
+        "1.11.5.001",
+        "4.02.4.009"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La artrocentesis se hace siempre {{c1::antes}} de la primera dosis de antibiótico.",
+      "extra": "El antibiótico previo esteriliza el cultivo.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.015",
+        "1.11.4.002"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La única contraindicación absoluta de la artrocentesis es {{c1::celulitis/infección cutánea}} sobre el sitio de punción.",
+      "extra": "Riesgo de inoculación iatrogénica.",
+      "origen": "clase:2",
+      "fuente": "Clase · Artrocentesis",
+      "repaso": true,
+      "codigos": [
+        "1.11.5.001",
+        "1.11.1.015"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El líquido sinovial se envía para citoquímico con diferencial, Gram, cultivo y {{c1::cristales con luz polarizada}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cuatro pilares",
+      "repaso": false,
+      "codigos": [
+        "1.11.4.002",
+        "4.02.4.009"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Abordaje habitual de la punción de rodilla: {{c1::suprarrotuliano lateral}}, 1 cm por fuera del polo superior de la rótula.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Punción de rodilla",
+      "repaso": false,
+      "codigos": [
+        "1.11.5.001"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la punción de rodilla, una prótesis articular contraindica que la haga el médico general: la realiza el {{c1::traumatólogo}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Punción de rodilla",
+      "repaso": false,
+      "codigos": [
+        "1.11.5.001"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si hay posibilidad de infección articular, NO se inyecta {{c1::corticoide}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Punción de rodilla",
+      "repaso": false,
+      "codigos": [
+        "1.11.5.001"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Líquido sinovial normal: leucocitos < {{c1::200}}/mm³ y PMN < 25%.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla líquido sinovial",
+      "repaso": false,
+      "codigos": [
+        "1.11.4.002",
+        "4.02.4.009"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Líquido no inflamatorio (tipo I): leucocitos {{c1::200 a 2.000}}/mm³ con PMN < 25%.",
+      "extra": "Artrosis, trauma leve, meniscopatía.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla líquido sinovial",
+      "repaso": false,
+      "codigos": [
+        "1.11.4.002",
+        "4.02.4.009"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Líquido inflamatorio (tipo II): leucocitos {{c1::2.000 a 50.000}}/mm³ con PMN > 50%.",
+      "extra": "AR, gota, pseudogota, espondiloartritis.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla líquido sinovial",
+      "repaso": true,
+      "codigos": [
+        "1.11.4.002",
+        "4.02.4.009"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Líquido séptico (tipo III): leucocitos > {{c1::50.000}}/mm³ y PMN > {{c2::90%}}.",
+      "extra": "Opaco, purulento, viscosidad muy baja.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla líquido sinovial",
+      "repaso": true,
+      "codigos": [
+        "1.11.4.002",
+        "4.02.4.009"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el líquido séptico la glucosa sinovial es < {{c1::50%}} de la glicemia.",
+      "extra": "Consumo metabólico por bacterias y leucocitos.",
+      "origen": "clase:5",
+      "fuente": "Clase · Glucosa y Gram",
+      "repaso": false,
+      "codigos": [
+        "1.11.4.002",
+        "4.02.4.009"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Líquido sinovial hemorrágico incoagulable sugiere rotura de ligamentos cruzados, fractura intraarticular, anticoagulantes o {{c1::hemofilia}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Líquido hemorrágico",
+      "repaso": false,
+      "codigos": [
+        "1.11.4.002"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La gota hiperaguda puede superar los {{c1::50.000}} leucocitos, por lo que siempre se busca cristales y se tiñe con Gram.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Trampa de los cristales",
+      "repaso": false,
+      "codigos": [
+        "4.02.4.009"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los cristales no descartan infección: coexisten hasta en un {{c1::5%}} de los casos.",
+      "extra": "Con líquido purulento y duda, cubrir infección.",
+      "origen": "clase:5",
+      "fuente": "Clase · Trampa de los cristales",
+      "repaso": true,
+      "codigos": [
+        "4.02.4.009",
+        "1.11.4.002"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cocos grampositivos en racimos orientan a {{c1::Staphylococcus aureus}} (cloxacilina o cefazolina).",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Leer el Gram",
+      "repaso": false,
+      "codigos": [
+        "4.02.4.009",
+        "1.11.1.015"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cocos grampositivos en cadenas o pares orientan a {{c1::estreptococos}} (pyogenes y neumococo).",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Leer el Gram",
+      "repaso": false,
+      "codigos": [
+        "4.02.4.009",
+        "1.11.1.015"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diplococos gramnegativos intracelulares en el líquido articular orientan a {{c1::Neisseria gonorrhoeae}}.",
+      "extra": "Difícil de ver en el Gram.",
+      "origen": "clase:6",
+      "fuente": "Clase · Leer el Gram",
+      "repaso": false,
+      "codigos": [
+        "4.02.4.009"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Un Gram negativo {{c1::no descarta}} artritis séptica: se decide tratar por clínica y recuento celular.",
+      "extra": "Libro: sensibilidad 60–75% en S. aureus, mucho menor en gonococo y gramnegativos.",
+      "origen": "clase:6",
+      "fuente": "Clase · Leer el Gram",
+      "repaso": true,
+      "codigos": [
+        "4.02.4.009",
+        "1.11.1.015"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Artritis séptica probable: hospitalizar, {{c1::hemocultivos x 2}}, antibiótico EV empírico inmediato y drenaje articular urgente.",
+      "extra": "Nunca esperar el cultivo (48 a 72 horas).",
+      "origen": "clase:7",
+      "fuente": "Clase · Decisión terapéutica",
+      "repaso": true,
+      "codigos": [
+        "4.02.4.009",
+        "1.11.1.015"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cristales de urato monosódico tienen birrefringencia {{c1::negativa}}; los de pirofosfato, positiva.",
+      "extra": "Gota vs pseudogota.",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · Monoartritis",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.015"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Pseudogota aguda con Gram negativo y sin sospecha infecciosa: {{c1::AINEs y reposo articular}}.",
+      "extra": "Condrocalcinosis en rx; el ácido úrico alto es distractor.",
+      "origen": "algoritmo",
+      "fuente": "Libro · pregunta Perfil V3",
+      "repaso": true,
+      "codigos": [
+        "4.02.4.009"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la gota aguda, jamás se parte {{c1::alopurinol}} durante la crisis.",
+      "extra": "En la crisis: AINEs o colchicina.",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · Gota aguda",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.015",
+        "4.02.4.009"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Monoartritis inflamatoria sin cristales ni infección: sospechar debut de {{c1::artritis reumatoide}} y derivar a estudio reumatológico.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · Monoartritis",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.015",
+        "1.11.4.002"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-01/01_cristales-de-urato-luz-polarizada__cto-reuma_p49.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Cristales de urato monosódico en luz polarizada",
+      "clave": "Agujas finas y brillantes, birrefringencia negativa",
+      "conducta": "Gota aguda: AINEs o colchicina, sin descartar infección si el cuadro lo sugiere",
+      "fuente": "Manual CTO Reumatología 14.ª ed., p. 49",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.015",
+        "4.02.4.009"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Celulitis sobre el sitio de punción: ¿qué significa?",
+      "codigos": [
+        "1.11.5.001"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.0",
+      "pista": "Líquido séptico (> 50.000 GB o Gram +): ¿conducta?",
+      "codigos": [
+        "4.02.4.009"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1.1",
+      "pista": "Cristales de birrefringencia positiva: ¿diagnóstico y manejo?",
+      "codigos": [
+        "1.11.5.001"
+      ]
+    }
+  ]
+}

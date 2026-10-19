@@ -1,0 +1,580 @@
+{
+ "classId": "resp-11",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Examen físico del derrame: amplexión y vibraciones vocales {{c1::disminuidas}}, matidez hídrica y murmullo abolido.",
+   "extra": "El líquido no transmite la voz.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Semiología",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.043"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La matidez del derrame sigue la curva parabólica de {{c1::Damoiseau}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Semiología",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.043"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el límite superior del derrame puede auscultarse soplo pleurítico o {{c1::egofonía}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Cómo se reconoce un derrame",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.043"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La radiografía de tórax de pie detecta derrames > {{c1::150–200 mL}} (borra el ángulo costofrénico).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Confirmación radiológica",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.043"
+   ],
+   "imagen": "biblioteca/02_neumologia/resp-11/01_derrame-pleural__cto-neumo_p111.jpg"
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La ecografía torácica detecta derrames desde {{c1::20 mL}}.",
+   "extra": "Es el examen más sensible y guía la punción.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Confirmación radiológica",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.003"
+   ],
+   "imagen": "_web/341_resp_Derrame_pleural__Open-i_1.jpg"
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La {{c1::ecografía}} es el estándar de seguridad para guiar la toracocentesis.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Imagen",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.003",
+    "1.05.5.009"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Toracocentesis diagnóstica en derrame de causa no clara con espesor > {{c1::10 mm}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Criterios de Light",
+   "repaso": true,
+   "codigos": [
+    "1.05.5.009",
+    "1.05.4.007"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 171",
+    "EUNACOM Diciembre 2018 · Pregunta 9",
+    "EUNACOM Julio 2024 · Pregunta 124",
+    "EUNACOM Julio 2019 · Pregunta 120"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Derrame pleural en radiografía sin causa clara: la conducta es {{c1::puncionar y estudiar el líquido}} (citoquímico).",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.007",
+    "1.05.5.009"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 171",
+    "EUNACOM Julio 2019 · Pregunta 120"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Derrame con fiebre, tos mucopurulenta y puntada de costado: toracocentesis {{c1::evacuadora y diagnóstica}}.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.009"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 9",
+    "EUNACOM Julio 2024 · Pregunta 124"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se clasifica como exudado si cumple al menos {{c1::UNO}} de los tres criterios de Light.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.007"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Light 1: proteínas LP/suero > {{c1::0,5}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Light",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.007"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Light 2: LDH LP/suero > {{c1::0,6}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Light",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.007"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Light 3: LDH del líquido pleural > {{c1::2/3}} del límite superior normal sérico (habitualmente > 200 U/L).",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Light",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.007"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si no cumple ninguno de los criterios de Light, es {{c1::trasudado}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Criterios de Light",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.007"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Para aplicar Light se miden {{c1::proteínas y LDH}} en líquido pleural y en suero.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Criterios de Light",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.007"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 94"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Los criterios de Light tienen sensibilidad de {{c1::98%}} para exudado.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Light basta uno",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.007"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El trasudado se debe a alteración de presiones {{c1::hidrostáticas o coloidosmóticas}} sistémicas.",
+   "extra": "La pleura está sana.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Etiología",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.043"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La causa más común de trasudado pleural es la {{c1::insuficiencia cardíaca}}, típicamente bilateral.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Etiología",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.043"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otras causas de trasudado: cirrosis con ascitis y {{c1::síndrome nefrótico}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Light",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.043"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Manejo del trasudado: {{c1::tratar la enfermedad de base}} (diuréticos), sin estudio invasivo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Etiología",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.043"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El exudado se debe a {{c1::permeabilidad capilar aumentada}} local de la pleura.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Etiología",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.043"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas más frecuentes de exudado: paraneumónico, {{c1::neoplásico}} y tuberculoso.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.043"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Exudado paraneumónico: predominio de {{c1::neutrófilos}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Etiología",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.043"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Exudado tuberculoso: linfocítico con {{c1::ADA}} elevada.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Etiología",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.043"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Derrame linfocítico con ADA > {{c1::40 U/L}} orienta a tuberculosis pleural.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Qué hacer con cada resultado",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.043"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Linfocítico con ADA baja, fumador y baja de peso: sospechar {{c1::neoplasia}} (citología y biopsia pleural).",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Qué hacer con cada resultado",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.043"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El {{c1::TEP}} puede dar derrame trasudado o exudado, frecuentemente serohemático.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.043"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Un solo criterio de Light positivo basta para exudado, {{c1::aunque los otros dos sean normales}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · El TEP no respeta la regla",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.007"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sitio de punción: línea axilar {{c1::posterior}}, un espacio bajo la matidez (habitualmente 7.º–8.º).",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Técnica",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.009",
+    "4.01.5.029"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La aguja se introduce por el borde {{c1::superior}} de la costilla inferior, para no lesionar el paquete vasculonervioso.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · La toracocentesis",
+   "repaso": true,
+   "codigos": [
+    "1.05.5.009",
+    "4.01.5.029"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Posición para toracocentesis: paciente {{c1::sentado e inclinado hacia adelante}}, marcando el punto con ecografía.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · La toracocentesis",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.009"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Para fines diagnósticos bastan {{c1::30–60 mL}} de líquido pleural.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Técnica",
+   "repaso": true,
+   "codigos": [
+    "1.05.5.009"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Toracocentesis de alivio: hasta {{c1::1.000–1.500 mL}} por sesión.",
+   "extra": "Detener si hay tos, dolor u opresión: riesgo de edema pulmonar por reexpansión.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Técnica",
+   "repaso": true,
+   "codigos": [
+    "1.05.5.009"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El pH pleural se toma en {{c1::jeringa heparinizada sin aire}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Técnica",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.009"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Complicaciones de la toracocentesis: neumotórax, hemotórax, lesión hepática o esplénica, infección y {{c1::reacción vasovagal}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Técnica",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.009"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si se sospecha neumotórax tras la punción se pide {{c1::radiografía de control}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Técnica",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.009"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Precauciones de coagulación para puncionar: INR sobre 1,5 o plaquetas bajo {{c1::50.000}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Técnica",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.009"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neumotórax mayor de 15% en joven con dolor pleurítico y disminución del murmullo: se trata con {{c1::tubo pleural}}.",
+   "extra": "Pregunta real de síndrome de ocupación pleural.",
+   "origen": "libro:sec:3",
+   "fuente": "Pregunta real · tubo pleural",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.043"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 143"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-11/01_derrame-pleural__cto-neumo_p111.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Derrame pleural",
+   "clave": "Borramiento del ángulo costofrénico con borde en menisco",
+   "conducta": "Ecografía y toracocentesis diagnóstica; Light para exudado vs trasudado",
+   "fuente": "Manual CTO Neumología 14.ª ed., p. 111",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.043",
+    "1.05.5.009"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "_web/341_resp_Derrame_pleural__Open-i_1.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Derrame pleural en ecografía",
+   "clave": "Líquido anecoico (negro) sobre el diafragma",
+   "conducta": "Marcar el punto de punción y guiar la toracocentesis",
+   "fuente": "Open-i (NLM), CC BY",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.003",
+    "1.05.5.009"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Derrame de causa no clara: ¿qué procedimiento?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0.0",
+   "pista": "Ningún criterio de Light: ¿qué es y qué se hace?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.1.1",
+   "pista": "Linfocitos con ADA alta: ¿qué diagnóstico?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.0.1.2",
+   "pista": "Linfocitos con ADA baja en fumador: ¿qué sospechas?"
+  }
+ ]
+}

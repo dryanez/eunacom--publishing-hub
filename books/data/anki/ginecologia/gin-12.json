@@ -1,0 +1,464 @@
+{
+  "classId": "gin-12",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Menopausia: cese de menstruaciones por {{c1::12 meses consecutivos}} sin otra causa.",
+      "extra": "Diagnóstico retrospectivo y clínico.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.027",
+        "1.03.1.011"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El diagnóstico de menopausia es {{c1::clínico}}: no se piden exámenes hormonales de rutina en mujeres en edad habitual.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Diagnóstico",
+      "codigos": [
+        "3.01.1.027",
+        "1.03.1.011"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La FSH y el estradiol se piden solo ante sospecha de {{c1::insuficiencia ovárica prematura}} (menores de 40-45 años).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Diagnóstico",
+      "codigos": [
+        "3.01.1.027"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Insuficiencia ovárica prematura: FSH > {{c1::30-40 UI/L}} con estradiol < 20 pg/mL.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Diagnóstico",
+      "codigos": [
+        "3.01.1.027"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los síntomas vasomotores (bochornos y sudoración nocturna) afectan al {{c1::75%}} de las mujeres.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Manifestaciones",
+      "codigos": [
+        "3.01.1.027",
+        "1.03.1.011"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síntomas a mediano plazo: el {{c1::síndrome genitourinario de la menopausia}} (sequedad, dispareunia, disuria, ITU recurrentes).",
+      "extra": "Por atrofia del epitelio estrógeno-dependiente.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Manifestaciones",
+      "codigos": [
+        "3.01.1.027",
+        "1.03.1.011"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Consecuencias a largo plazo del hipoestrogenismo: {{c1::osteoporosis}} y mayor riesgo cardiovascular.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Diagnóstico",
+      "codigos": [
+        "3.01.1.027"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Ventana de oportunidad de la TRH: iniciar en < {{c1::60 años}} o dentro de los primeros 10 años desde la menopausia.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.027",
+        "1.03.1.011"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Mujer de 65 años sin terapia previa: el error es iniciar TRH {{c1::porque tiene síntomas}}; fuera de la ventana no se inicia.",
+      "extra": "Sube el riesgo de eventos coronarios, ACV y demencia.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.027"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fuera de la ventana de oportunidad, iniciar TRH aumenta el riesgo de eventos {{c1::coronarios, ACV y demencia}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Ventana",
+      "codigos": [
+        "3.01.1.027"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer con útero y síntomas climatéricos: TRH con {{c1::estrógeno más progestágeno}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla TRH",
+      "codigos": [
+        "3.01.1.027",
+        "3.01.3.005"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 78",
+        "EUNACOM Diciembre 2018 · Pregunta 88",
+        "EUNACOM Diciembre 2025 · Pregunta 178"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El progestágeno en la TRH se agrega solo para proteger el {{c1::endometrio}}.",
+      "extra": "Sin él, el estrógeno solo produce hiperplasia y cáncer de endometrio.",
+      "origen": "clase:3",
+      "fuente": "Clase · Con útero o sin útero",
+      "codigos": [
+        "3.01.1.027",
+        "3.01.3.005"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 165"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer histerectomizada con bochornos: {{c1::estrógeno solo}}; nunca agregar progestágeno.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.027",
+        "3.01.3.005"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 139",
+        "EUNACOM Agosto 2021 · Pregunta 165",
+        "EUNACOM Diciembre 2024 · Pregunta 19"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la histerectomizada, el error es {{c1::agregar progestágeno}} igual: sube el riesgo mamario sin beneficio.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.027",
+        "3.01.3.005"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Bochornos con útero intacto: el error es dar {{c1::estrógeno solo}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.027"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Vía transdérmica de estrógenos de elección en HTA, {{c1::hipertrigliceridemia}} o sobrepeso por evitar el primer paso hepático.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.027",
+        "3.01.3.005"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 87",
+        "EUNACOM Julio 2016 · Pregunta 148",
+        "EUNACOM Julio 2024 · Pregunta 75"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Histerectomía radical con triglicéridos muy altos y bochornos: estrógeno en {{c1::parches}}.",
+      "extra": "Sin útero: estrógeno solo.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Jul 2019",
+      "codigos": [
+        "3.01.1.027",
+        "3.01.3.005"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 87",
+        "EUNACOM Julio 2016 · Pregunta 148"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Contraindicación absoluta de TRH: antecedente personal o sospecha de {{c1::cáncer de mama}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Contraindicaciones",
+      "codigos": [
+        "3.01.1.027"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Contraindicaciones absolutas de TRH: cáncer de endometrio, {{c1::TVP/TEP}}, enfermedad coronaria o ACV.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Contraindicaciones",
+      "codigos": [
+        "3.01.1.027"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sangrado uterino anormal no filiado: {{c1::primero hay que estudiarlo}} antes de dar TRH.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Contraindicaciones",
+      "codigos": [
+        "3.01.1.027"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Cáncer de mama previo con bochornos severos: el error es dar TRH {{c1::porque los síntomas son severos}}.",
+      "extra": "Se usan alternativas no hormonales.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.027"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa no hormonal para bochornos con cáncer de mama: {{c1::venlafaxina}}.",
+      "extra": "Incluso con hormonodependiente en anastrozol; ni tibolona ni TRH.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Perfil V3",
+      "codigos": [
+        "1.03.1.011"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativas no hormonales para bochornos: paroxetina en dosis baja, venlafaxina o {{c1::gabapentina}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Alternativas",
+      "codigos": [
+        "3.01.1.027",
+        "1.03.1.011"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Paroxetina y tamoxifeno {{c1::no se combinan}}: la paroxetina inhibe CYP2D6; en ellas se usa venlafaxina.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Alternativas",
+      "codigos": [
+        "3.01.1.027"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Atrofia vulvovaginal exclusiva: estrógenos {{c1::tópicos locales}} (estriol o promestrieno), de mínima absorción sistémica.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla TRH",
+      "codigos": [
+        "3.01.1.027",
+        "3.01.3.005"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 43",
+        "EUNACOM Enero 2023 · Pregunta 47"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Estrógeno tópico vaginal: fase inicial diaria por 2 semanas y mantención {{c1::2 o 3 veces por semana}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Perfil V3",
+      "codigos": [
+        "3.01.1.027",
+        "1.07.3.010"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 42"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dispareunia por atrofia en la persona mayor: {{c1::lubricantes, hidratantes}} y estrógenos vaginales locales.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Sexualidad",
+      "codigos": [
+        "1.07.3.010"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 61",
+        "EUNACOM Diciembre 2018 · Pregunta 180"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sexualidad en la persona mayor: cambia, pero {{c1::el interés se mantiene}}; se pregunta sin prejuicios y se revisan fármacos.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Sexualidad",
+      "codigos": [
+        "1.07.3.010"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los inhibidores de PDE-5 en la disfunción eréctil están contraindicados con {{c1::nitratos}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Sexualidad",
+      "codigos": [
+        "1.07.3.010"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la persona mayor sexualmente activa se educa en prevención de ITS: {{c1::VIH y sífilis}} aumentan en mayores.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Sexualidad",
+      "codigos": [
+        "1.07.3.010"
+      ],
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Contraindicación absoluta: ¿qué se ofrece para los bochornos?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Fuera de la ventana: ¿se inicia TRH?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1.0",
+      "pista": "Con útero intacto: ¿qué esquema?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.1.1",
+      "pista": "Histerectomizada: ¿qué esquema?"
+    }
+  ]
+}

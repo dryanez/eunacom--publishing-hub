@@ -1,0 +1,3241 @@
+{
+ "_doc": "Glosario clicable del mazo Anki (popover en el reverso). 'def' se escribe a mano desde el libro (sin cifras nuevas) y se conserva al regenerar; pagina/clase/t/url los recalcula conceptos.py. Términos y alias: books/scripts/anki/vocab_*.txt.",
+ "libro": "cardiologia",
+ "pdf": "books/dist/Modulo_1_Medicina_Interna/Manual_EUNACOM_Cardiologia_Completo_2026.pdf",
+ "terminos": {
+  "Electrocardiograma": {
+   "termino": "Electrocardiograma",
+   "tipo": "Examen",
+   "alias": [
+    "electrocardiograma",
+    "ECG",
+    "EKG"
+   ],
+   "def": "Registro de 12 derivaciones de la actividad eléctrica del corazón. Ante todo dolor torácico agudo se toma e interpreta en ≤ 10 minutos, sin esperar la troponina.",
+   "pagina": 51,
+   "clase": "cardio-10",
+   "claseTitulo": "2.1 Dolor Torácico Agudo en Urgencias: Enfoque Inicial y Diagnósticos que No se Pueden Pasar",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 62
+  },
+  "Onda_T": {
+   "termino": "Onda T",
+   "tipo": "Signo",
+   "alias": [
+    "onda T",
+    "ondas T"
+   ],
+   "def": "Representa la repolarización ventricular. Las T negativas simétricas sugieren isquemia y las acuminadas, hiperkalemia; se revisa en el paso cinco de la lectura sistemática.",
+   "pagina": 6,
+   "clase": "cardio-01",
+   "claseTitulo": "1.1 Lectura Sistemática del Electrocardiograma",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Onda_Q_patologica": {
+   "termino": "Onda Q patológica",
+   "tipo": "Signo",
+   "alias": [
+    "onda Q patológica",
+    "ondas Q patológicas",
+    "onda Q"
+   ],
+   "def": "Q de 40 ms o más de duración, o mayor del 25% del voltaje del QRS (no cuentan la de DIII ni la de aVR); indica necrosis miocárdica previa.",
+   "pagina": 6,
+   "clase": "cardio-01",
+   "claseTitulo": "1.1 Lectura Sistemática del Electrocardiograma",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Supradesnivel_del_ST": {
+   "termino": "Supradesnivel del ST",
+   "tipo": "Signo",
+   "alias": [
+    "supradesnivel del ST",
+    "supradesnivel ST",
+    "elevación del ST"
+   ],
+   "def": "Elevación del ST que indica lesión transmural (SCACEST) y obliga a reperfundir sin esperar la troponina. En V4R ≥ 1 mm confirma infarto del ventrículo derecho.",
+   "pagina": 77,
+   "clase": "cardio-15",
+   "claseTitulo": "2.6 Complicaciones del Infarto: Ventrículo Derecho, Complicaciones Mecánicas y Angina de Prinzmetal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 14
+  },
+  "Infradesnivel_del_ST": {
+   "termino": "Infradesnivel del ST",
+   "tipo": "Signo",
+   "alias": [
+    "infradesnivel del ST",
+    "descenso del ST",
+    "depresión del ST"
+   ],
+   "def": "Descenso del ST que indica isquemia subendocárdica. En la ergometría, ≥ 2,0 mm o precoz es de alto riesgo y lleva a coronariografía.",
+   "pagina": 206,
+   "clase": "cardio-11",
+   "claseTitulo": "2.2 Angina Crónica Estable: Diagnóstico, Estratificación Funcional y Coronariografía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Intervalo_QT": {
+   "termino": "Intervalo QT",
+   "tipo": "Signo",
+   "alias": [
+    "intervalo QT",
+    "QTc"
+   ],
+   "def": "Va del inicio del QRS al final de la T y refleja la actividad eléctrica ventricular total. Un QTc > 500 ms es riesgo crítico de torsión de puntas: se suspende el fármaco causante.",
+   "pagina": 32,
+   "clase": "cardio-07",
+   "claseTitulo": "1.7 Taquicardia de Complejo Ancho, Taquicardia Ventricular, QT Largo y Cardioversión Eléctrica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Intervalo_PR": {
+   "termino": "Intervalo PR",
+   "tipo": "Signo",
+   "alias": [
+    "intervalo PR",
+    "PR largo",
+    "PR corto"
+   ],
+   "def": "Retraso fisiológico en el nodo AV. PR corto con onda delta en ritmo sinusal define preexcitación (Wolff-Parkinson-White).",
+   "pagina": 27,
+   "clase": "cardio-06",
+   "claseTitulo": "1.6 Taquicardia Paroxística Supraventricular y Síndrome de Wolff-Parkinson-White",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Complejo_QRS": {
+   "termino": "Complejo QRS",
+   "tipo": "Signo",
+   "alias": [
+    "QRS",
+    "QRS ancho",
+    "QRS estrecho"
+   ],
+   "def": "Despolarización ventricular. Un QRS ancho en un bloqueo AV sugiere origen infranodal, con riesgo de progresar a bloqueo completo; una taquicardia de QRS ancho se asume ventricular.",
+   "pagina": 36,
+   "clase": "cardio-08",
+   "claseTitulo": "1.8 Bradicardias, Bloqueos Aurículo-Ventriculares y Marcapasos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 47
+  },
+  "Bloqueo_de_rama": {
+   "termino": "Bloqueo de rama",
+   "tipo": "Concepto",
+   "alias": [
+    "bloqueo de rama",
+    "BRD",
+    "BRI",
+    "bloqueo completo de rama izquierda",
+    "bloqueo completo de rama derecha"
+   ],
+   "def": "Retraso de la conducción por una rama del haz de His, con QRS ancho. El BCRI hace no interpretable el ECG de esfuerzo; el bloqueo de rama derecha con desdoblamiento fijo de R2 sugiere CIA.",
+   "pagina": 143,
+   "clase": "cardio-27",
+   "claseTitulo": "4.6 Cardiopatías Congénitas del Adulto: CIA, CIV, Ductus y Coartación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-27&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Hipertrofia_ventricular_izquierda": {
+   "termino": "Hipertrofia ventricular izquierda",
+   "tipo": "Concepto",
+   "alias": [
+    "hipertrofia ventricular izquierda",
+    "HVI"
+   ],
+   "def": "Aumento de la masa del VI. En el ECG: Sokolow-Lyon ≥ 35 mm. Documentarla califica al hipertenso como de alto riesgo cardiovascular (daño de órgano blanco).",
+   "pagina": 7,
+   "clase": "cardio-01",
+   "claseTitulo": "1.1 Lectura Sistemática del Electrocardiograma",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Paro_cardiorrespiratorio": {
+   "termino": "Paro cardiorrespiratorio",
+   "tipo": "Concepto",
+   "alias": [
+    "paro cardiorrespiratorio",
+    "paro cardiorespiratorio",
+    "paro cardíaco",
+    "PCR"
+   ],
+   "def": "Interrupción brusca y potencialmente reversible de la actividad del corazón y la respiración: inconsciencia, sin respiración (o gasping) y sin pulso. Conducta: pedir ayuda y comprimir de inmediato.",
+   "pagina": 10,
+   "clase": "cardio-02",
+   "claseTitulo": "1.2 Paro Cardiorrespiratorio: Reconocimiento, RCP de Alta Calidad y Desfibrilador Externo Automático",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 3
+  },
+  "RCP": {
+   "termino": "RCP",
+   "tipo": "Concepto",
+   "alias": [
+    "reanimación cardiopulmonar",
+    "RCP",
+    "compresiones torácicas",
+    "maniobras de reanimación"
+   ],
+   "def": "Reanimación cardiopulmonar. De alta calidad: compresiones de 100 a 120 por minuto y de al menos 5 cm. Es lo primero ante un paro, antes de intubar, canalizar o pedir un ECG.",
+   "pagina": 10,
+   "clase": "cardio-02",
+   "claseTitulo": "1.2 Paro Cardiorrespiratorio: Reconocimiento, RCP de Alta Calidad y Desfibrilador Externo Automático",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 12
+  },
+  "Desfibrilador_externo_automatico": {
+   "termino": "Desfibrilador externo automático",
+   "tipo": "Examen",
+   "alias": [
+    "desfibrilador externo automático",
+    "DEA",
+    "desfibrilador"
+   ],
+   "def": "Equipo que analiza el ritmo e indica la descarga. Se conecta mientras se comprime; tras descargar se reanuda la RCP sin buscar pulso. No se usa en pacientes con pulso.",
+   "pagina": 10,
+   "clase": "cardio-02",
+   "claseTitulo": "1.2 Paro Cardiorrespiratorio: Reconocimiento, RCP de Alta Calidad y Desfibrilador Externo Automático",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Desfibrilacion": {
+   "termino": "Desfibrilación",
+   "tipo": "Concepto",
+   "alias": [
+    "desfibrilación",
+    "descarga no sincronizada"
+   ],
+   "def": "Descarga no sincronizada de energía alta en el paro por FV o TV sin pulso. Se distingue de la cardioversión, sincronizada y con pulso.",
+   "pagina": 31,
+   "clase": "cardio-07",
+   "claseTitulo": "1.7 Taquicardia de Complejo Ancho, Taquicardia Ventricular, QT Largo y Cardioversión Eléctrica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Fibrilacion_ventricular": {
+   "termino": "Fibrilación ventricular",
+   "tipo": "Concepto",
+   "alias": [
+    "fibrilación ventricular",
+    "FV"
+   ],
+   "def": "Oscilaciones caóticas sin QRS identificables; ritmo desfibrilable y el más frecuente del paro súbito presenciado. Se descarga y se reanudan de inmediato las compresiones.",
+   "pagina": 14,
+   "clase": "cardio-03",
+   "claseTitulo": "1.3 ACLS: Ritmos Desfibrilables y No Desfibrilables, Fármacos y Cuidados Post-Paro",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 16
+  },
+  "Asistolia": {
+   "termino": "Asistolia",
+   "tipo": "Concepto",
+   "alias": [
+    "asistolia"
+   ],
+   "def": "Ritmo de paro no desfibrilable: la descarga está contraindicada. Se comprime, se da adrenalina lo antes posible y se buscan las causas reversibles (5H y 5T).",
+   "pagina": 14,
+   "clase": "cardio-03",
+   "claseTitulo": "1.3 ACLS: Ritmos Desfibrilables y No Desfibrilables, Fármacos y Cuidados Post-Paro",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 11
+  },
+  "Actividad_electrica_sin_pulso": {
+   "termino": "Actividad eléctrica sin pulso",
+   "tipo": "Concepto",
+   "alias": [
+    "actividad eléctrica sin pulso",
+    "AESP"
+   ],
+   "def": "Paro con ritmo organizado pero sin pulso, no desfibrilable. Se hace RCP continua, adrenalina y se corrige la causa reversible (p. ej., hiperkalemia grave).",
+   "pagina": 14,
+   "clase": "cardio-03",
+   "claseTitulo": "1.3 ACLS: Ritmos Desfibrilables y No Desfibrilables, Fármacos y Cuidados Post-Paro",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Taquicardia_ventricular": {
+   "termino": "Taquicardia ventricular",
+   "tipo": "Concepto",
+   "alias": [
+    "taquicardia ventricular",
+    "TV sin pulso",
+    "TV monomorfa",
+    "TV polimorfa",
+    "TVNS"
+   ],
+   "def": "Tres o más latidos ventriculares consecutivos a más de 100 lpm; sostenida si dura más de 30 segundos. Sin pulso es ritmo de paro desfibrilable; estable: amiodarona.",
+   "pagina": 31,
+   "clase": "cardio-07",
+   "claseTitulo": "1.7 Taquicardia de Complejo Ancho, Taquicardia Ventricular, QT Largo y Cardioversión Eléctrica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 12
+  },
+  "Taquicardia_de_complejo_ancho": {
+   "termino": "Taquicardia de complejo ancho",
+   "tipo": "Concepto",
+   "alias": [
+    "taquicardia de complejo ancho",
+    "taquicardia de QRS ancho"
+   ],
+   "def": "Taquicardia con QRS ≥ 120 ms; se asume ventricular hasta demostrar lo contrario. Verapamilo y diltiazem están contraindicados; si es estable, amiodarona.",
+   "pagina": 31,
+   "clase": "cardio-07",
+   "claseTitulo": "1.7 Taquicardia de Complejo Ancho, Taquicardia Ventricular, QT Largo y Cardioversión Eléctrica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Torsion_de_puntas": {
+   "termino": "Torsión de puntas",
+   "tipo": "Concepto",
+   "alias": [
+    "torsión de puntas",
+    "torsades de pointes",
+    "torsade de pointes"
+   ],
+   "def": "TV polimorfa con QRS que giran alrededor de la línea de base, asociada a QTc > 500 ms. Se trata con sulfato de magnesio 2 g EV, suspendiendo el fármaco causante; no se usa amiodarona.",
+   "pagina": 32,
+   "clase": "cardio-07",
+   "claseTitulo": "1.7 Taquicardia de Complejo Ancho, Taquicardia Ventricular, QT Largo y Cardioversión Eléctrica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Sindrome_de_QT_largo": {
+   "termino": "Síndrome de QT largo",
+   "tipo": "Concepto",
+   "alias": [
+    "QT largo",
+    "síndrome de QT largo",
+    "QT prolongado"
+   ],
+   "def": "QTc prolongado (alarma > 500 ms), congénito o adquirido (macrólidos, fluoroquinolonas, antipsicóticos). Conducta: suspender el fármaco, monitorizar y corregir potasio y magnesio.",
+   "pagina": 31,
+   "clase": "cardio-07",
+   "claseTitulo": "1.7 Taquicardia de Complejo Ancho, Taquicardia Ventricular, QT Largo y Cardioversión Eléctrica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Fibrilacion_auricular": {
+   "termino": "Fibrilación auricular",
+   "tipo": "Concepto",
+   "alias": [
+    "fibrilación auricular",
+    "FA",
+    "FA paroxística",
+    "FA persistente",
+    "FA permanente"
+   ],
+   "def": "Arritmia con ausencia de ondas P y R-R irregulares. Se anticoagula según CHA₂DS₂-VASc, no según los síntomas; en FA rápida estable con FEVI conservada, control de frecuencia con betabloqueador.",
+   "pagina": 18,
+   "clase": "cardio-04",
+   "claseTitulo": "1.4 Fibrilación Auricular y Flutter Auricular: Diagnóstico, Control de Frecuencia y de Ritmo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 72
+  },
+  "Flutter_auricular": {
+   "termino": "Flutter auricular",
+   "tipo": "Concepto",
+   "alias": [
+    "flutter auricular",
+    "flutter",
+    "aleteo auricular"
+   ],
+   "def": "Macrorreentrada auricular derecha: ondas F en dientes de sierra a 300 por minuto y conducción 2:1 con 150 lpm. Se anticoagula igual que la FA.",
+   "pagina": 18,
+   "clase": "cardio-04",
+   "claseTitulo": "1.4 Fibrilación Auricular y Flutter Auricular: Diagnóstico, Control de Frecuencia y de Ritmo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 13
+  },
+  "Taquicardia_paroxistica_supraventricular": {
+   "termino": "Taquicardia paroxística supraventricular",
+   "tipo": "Concepto",
+   "alias": [
+    "taquicardia paroxística supraventricular",
+    "TPSV",
+    "taquicardia supraventricular",
+    "TSV",
+    "taquicardia por reentrada nodal"
+   ],
+   "def": "Taquicardia regular de QRS estrecho de inicio y término bruscos. Primero maniobras vagales; si fallan, adenosina 6 mg EV rápido.",
+   "pagina": 26,
+   "clase": "cardio-06",
+   "claseTitulo": "1.6 Taquicardia Paroxística Supraventricular y Síndrome de Wolff-Parkinson-White",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 18
+  },
+  "Sindrome_de_Wolff_Parkinson_White": {
+   "termino": "Síndrome de Wolff-Parkinson-White",
+   "tipo": "Concepto",
+   "alias": [
+    "Wolff-Parkinson-White",
+    "WPW",
+    "preexcitación",
+    "onda delta",
+    "vía accesoria"
+   ],
+   "def": "Preexcitación por vía accesoria: PR corto y onda delta con taquicardias paroxísticas. Están prohibidos los fármacos que frenan el nodo AV; se usa cardioversión o procainamida.",
+   "pagina": 26,
+   "clase": "cardio-06",
+   "claseTitulo": "1.6 Taquicardia Paroxística Supraventricular y Síndrome de Wolff-Parkinson-White",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 17
+  },
+  "Taquicardia_sinusal": {
+   "termino": "Taquicardia sinusal",
+   "tipo": "Concepto",
+   "alias": [
+    "taquicardia sinusal"
+   ],
+   "def": "Taquicardia regular de origen sinusal, habitualmente secundaria a otra causa. No se confunde con la FA, que es irregular.",
+   "pagina": 19,
+   "clase": "cardio-04",
+   "claseTitulo": "1.4 Fibrilación Auricular y Flutter Auricular: Diagnóstico, Control de Frecuencia y de Ritmo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Bradicardia_sinusal": {
+   "termino": "Bradicardia sinusal",
+   "tipo": "Concepto",
+   "alias": [
+    "bradicardia sinusal",
+    "bradicardia"
+   ],
+   "def": "Frecuencia cardíaca menor de 60 lpm con origen sinusal; puede ser fisiológica o patológica. Si es sintomática: atropina; en hiperkalemia grave, primero gluconato de calcio EV.",
+   "pagina": 36,
+   "clase": "cardio-08",
+   "claseTitulo": "1.8 Bradicardias, Bloqueos Aurículo-Ventriculares y Marcapasos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 21
+  },
+  "Enfermedad_del_nodo_sinusal": {
+   "termino": "Enfermedad del nodo sinusal",
+   "tipo": "Concepto",
+   "alias": [
+    "enfermedad del nodo sinusal",
+    "síndrome del seno enfermo",
+    "disfunción sinusal"
+   ],
+   "def": "Síndrome del seno enfermo: bradicardia persistente, pausas sinusales y síndrome taquicardia-bradicardia. Si es sintomática, requiere marcapaso definitivo.",
+   "pagina": 36,
+   "clase": "cardio-08",
+   "claseTitulo": "1.8 Bradicardias, Bloqueos Aurículo-Ventriculares y Marcapasos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Bloqueo_auriculo_ventricular": {
+   "termino": "Bloqueo aurículo-ventricular",
+   "tipo": "Concepto",
+   "alias": [
+    "bloqueo aurículo-ventricular",
+    "bloqueo auriculoventricular",
+    "BAV",
+    "BAV completo",
+    "BAV de tercer grado",
+    "bloqueo AV"
+   ],
+   "def": "Alteración de la conducción de aurículas a ventrículos. El BAV completo muestra disociación AV con FC cercana a 30-40 lpm; el de tercer grado y el Mobitz II requieren marcapaso.",
+   "pagina": 36,
+   "clase": "cardio-08",
+   "claseTitulo": "1.8 Bradicardias, Bloqueos Aurículo-Ventriculares y Marcapasos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 31
+  },
+  "Mobitz": {
+   "termino": "Mobitz",
+   "tipo": "Concepto",
+   "alias": [
+    "Mobitz I",
+    "Mobitz II",
+    "Wenckebach",
+    "bloqueo AV de segundo grado"
+   ],
+   "def": "BAV de segundo grado. Mobitz I: PR se alarga hasta que una P no conduce. Mobitz II: P bloqueada sin alargamiento previo, QRS ancho, alto riesgo; indicación de marcapaso definitivo.",
+   "pagina": 36,
+   "clase": "cardio-08",
+   "claseTitulo": "1.8 Bradicardias, Bloqueos Aurículo-Ventriculares y Marcapasos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Extrasistole": {
+   "termino": "Extrasístole",
+   "tipo": "Concepto",
+   "alias": [
+    "extrasístole ventricular",
+    "extrasístoles ventriculares",
+    "extrasistolía ventricular",
+    "extrasístole",
+    "EV"
+   ],
+   "def": "Latido prematuro. Aisladas y asintomáticas en corazón sano son benignas (educar, quitar gatillantes); en cardiopatía estructural, los antiarrítmicos clase I aumentan la mortalidad.",
+   "pagina": 41,
+   "clase": "cardio-09",
+   "claseTitulo": "1.9 Extrasístoles Ventriculares y Holter de Ritmo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 64
+  },
+  "Sincope": {
+   "termino": "Síncope",
+   "tipo": "Concepto",
+   "alias": [
+    "síncope",
+    "síncope cardiogénico",
+    "síncope vasovagal"
+   ],
+   "def": "Pérdida transitoria de conciencia. El que ocurre durante el ejercicio o en reposo sin pródromos sugiere causa cardíaca; con la micción, la tos o al incorporarse es disautonómico.",
+   "pagina": 106,
+   "clase": "cardio-20",
+   "claseTitulo": "3.5 Miocardiopatía Hipertrófica y Muerte Súbita del Joven",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 27
+  },
+  "Marcapasos": {
+   "termino": "Marcapasos",
+   "tipo": "Examen",
+   "alias": [
+    "marcapasos",
+    "marcapaso",
+    "estimulación transcutánea"
+   ],
+   "def": "Dispositivo que estimula el corazón en bradiarritmias. Indicado en enfermedad del nodo sinusal sintomática, BAV de tercer grado y Mobitz II.",
+   "pagina": 36,
+   "clase": "cardio-08",
+   "claseTitulo": "1.8 Bradicardias, Bloqueos Aurículo-Ventriculares y Marcapasos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 25
+  },
+  "Cardiodesfibrilador_implantable": {
+   "termino": "Cardiodesfibrilador implantable",
+   "tipo": "Concepto",
+   "alias": [
+    "cardiodesfibrilador implantable",
+    "CDI",
+    "desfibrilador implantable"
+   ],
+   "def": "Dispositivo que trata arritmias ventriculares con descarga. Indicado en prevención secundaria tras TV/FV y con FEVI ≤ 35% tras terapia óptima.",
+   "pagina": 32,
+   "clase": "cardio-07",
+   "claseTitulo": "1.7 Taquicardia de Complejo Ancho, Taquicardia Ventricular, QT Largo y Cardioversión Eléctrica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Terapia_de_resincronizacion_cardiaca": {
+   "termino": "Terapia de resincronización cardíaca",
+   "tipo": "Concepto",
+   "alias": [
+    "terapia de resincronización",
+    "resincronización cardíaca",
+    "TRC"
+   ],
+   "def": "Marcapaso biventricular. Indicada con ritmo sinusal, FEVI ≤ 35%, síntomas pese a tratamiento óptimo y BCRI con QRS ≥ 150 ms; se usa combinada con DAI (TRC-D).",
+   "pagina": 91,
+   "clase": "cardio-17",
+   "claseTitulo": "3.2 Insuficiencia Cardíaca Crónica: Tratamiento con los Cuatro Pilares (GDMT) y Dispositivos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Cardioversion_electrica": {
+   "termino": "Cardioversión eléctrica",
+   "tipo": "Examen",
+   "alias": [
+    "cardioversión eléctrica",
+    "cardioversión",
+    "cardioversión sincronizada"
+   ],
+   "def": "Descarga sincronizada con el QRS que termina una taquiarritmia con pulso. Si hay inestabilidad, se indica de inmediato, sin esperar ECG de 12 derivaciones ni fármacos.",
+   "pagina": 31,
+   "clase": "cardio-07",
+   "claseTitulo": "1.7 Taquicardia de Complejo Ancho, Taquicardia Ventricular, QT Largo y Cardioversión Eléctrica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 23
+  },
+  "Holter_de_ritmo": {
+   "termino": "Holter de ritmo",
+   "tipo": "Examen",
+   "alias": [
+    "Holter de ritmo",
+    "Holter"
+   ],
+   "def": "Registro ECG ambulatorio continuo para detectar arritmias y cuantificar la carga de extrasístoles. No se confunde con el MAPA.",
+   "pagina": 41,
+   "clase": "cardio-09",
+   "claseTitulo": "1.9 Extrasístoles Ventriculares y Holter de Ritmo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 18
+  },
+  "MAPA": {
+   "termino": "MAPA",
+   "tipo": "Examen",
+   "alias": [
+    "MAPA",
+    "monitoreo ambulatorio de presión arterial",
+    "Holter de presión arterial"
+   ],
+   "def": "Monitoreo ambulatorio de presión arterial de 24 horas. Confirma HTA con 24 horas ≥ 130/80 y diurno ≥ 135/85, y evalúa el descenso nocturno.",
+   "pagina": 157,
+   "clase": "cardio-29",
+   "claseTitulo": "5.1 Hipertensión Arterial: Diagnóstico, MAPA y Etapificación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-29&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 14
+  },
+  "Test_de_esfuerzo": {
+   "termino": "Test de esfuerzo",
+   "tipo": "Examen",
+   "alias": [
+    "test de esfuerzo",
+    "prueba de esfuerzo",
+    "ergometría",
+    "test ergométrico"
+   ],
+   "def": "Ergometría (Bruce): primera prueba si el paciente puede ejercitarse y el ECG es interpretable. Positiva con infradesnivel del ST ≥ 1 mm a 80 ms del punto J.",
+   "pagina": 56,
+   "clase": "cardio-11",
+   "claseTitulo": "2.2 Angina Crónica Estable: Diagnóstico, Estratificación Funcional y Coronariografía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 16
+  },
+  "Cintigrafia_de_perfusion_miocardica": {
+   "termino": "Cintigrafía de perfusión miocárdica",
+   "tipo": "Examen",
+   "alias": [
+    "cintigrafía de perfusión miocárdica",
+    "cintigrafía miocárdica",
+    "SPECT"
+   ],
+   "def": "Imagen de estrés (SPECT) que compara la captación del trazador en esfuerzo y en reposo. Se usa cuando el ECG basal no es interpretable o el paciente no puede ejercitarse.",
+   "pagina": 57,
+   "clase": "cardio-11",
+   "claseTitulo": "2.2 Angina Crónica Estable: Diagnóstico, Estratificación Funcional y Coronariografía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Ecocardiograma": {
+   "termino": "Ecocardiograma",
+   "tipo": "Examen",
+   "alias": [
+    "ecocardiograma",
+    "ecocardiografía",
+    "ecocardiograma transtorácico",
+    "ecocardiograma transesofágico",
+    "ETE"
+   ],
+   "def": "Ecografía cardíaca: muestra la vegetación en la endocarditis, mide la FEVI y define la complicación valvular. El hemocultivo, no el eco, da el diagnóstico etiológico.",
+   "pagina": 147,
+   "clase": "cardio-28",
+   "claseTitulo": "4.7 Endocarditis Infecciosa: Criterios de Duke, Tratamiento y Profilaxis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-28&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 53
+  },
+  "Coronariografia": {
+   "termino": "Coronariografía",
+   "tipo": "Examen",
+   "alias": [
+    "coronariografía",
+    "angiografía coronaria",
+    "cateterismo cardíaco",
+    "cateterismo"
+   ],
+   "def": "Define la anatomía coronaria. Estenosis ≥ 70% (≥ 50% en el tronco) es significativa; 1-2 vasos sin tronco: stent; tronco o 3 vasos: by-pass.",
+   "pagina": 56,
+   "clase": "cardio-11",
+   "claseTitulo": "2.2 Angina Crónica Estable: Diagnóstico, Estratificación Funcional y Coronariografía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 27
+  },
+  "Angio_TAC_coronario": {
+   "termino": "Angio-TAC coronario",
+   "tipo": "Examen",
+   "alias": [
+    "angio-TAC coronario",
+    "angiotac coronario",
+    "TAC coronario",
+    "score de calcio"
+   ],
+   "def": "Examen anatómico no invasivo con VPN > 98%; descarta enfermedad en riesgo bajo a intermedio. Lo limitan el calcio extenso y la taquicardia.",
+   "pagina": 60,
+   "clase": "cardio-11",
+   "claseTitulo": "2.2 Angina Crónica Estable: Diagnóstico, Estratificación Funcional y Coronariografía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Angio_TAC_de_torax": {
+   "termino": "Angio-TAC de tórax",
+   "tipo": "Examen",
+   "alias": [
+    "angiotac de tórax",
+    "angio-TAC de tórax",
+    "angiotac",
+    "angio-TAC"
+   ],
+   "def": "Examen confirmatorio de elección del TEP en el paciente estable, también para la disección aórtica. En el paciente inestable se prefiere el ecocardiograma.",
+   "pagina": 191,
+   "clase": "cardio-37",
+   "claseTitulo": "5.9 Tromboembolismo Pulmonar",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-37&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 22
+  },
+  "Troponina": {
+   "termino": "Troponina",
+   "tipo": "Examen",
+   "alias": [
+    "troponina",
+    "troponinas",
+    "troponina ultrasensible"
+   ],
+   "def": "Biomarcador de elección de necrosis miocárdica: sube 1 a 3 horas después del inicio, máximo a las 12-24 horas y se mantiene elevada 7 a 14 días. Se interpreta por su curva (delta).",
+   "pagina": 51,
+   "clase": "cardio-10",
+   "claseTitulo": "2.1 Dolor Torácico Agudo en Urgencias: Enfoque Inicial y Diagnósticos que No se Pueden Pasar",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 31
+  },
+  "Peptidos_natriureticos": {
+   "termino": "Péptidos natriuréticos",
+   "tipo": "Examen",
+   "alias": [
+    "péptidos natriuréticos",
+    "BNP",
+    "NT-proBNP",
+    "proBNP"
+   ],
+   "def": "Marcadores de IC: elevados apoyan el diagnóstico, incluso con FEVI normal (IC con fracción preservada). No se descarta una IC solo porque la eyección es normal.",
+   "pagina": 86,
+   "clase": "cardio-16",
+   "claseTitulo": "3.1 Insuficiencia Cardíaca Crónica: Diagnóstico, Fenotipos y Péptidos Natriuréticos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 13
+  },
+  "Dimero_D": {
+   "termino": "Dímero D",
+   "tipo": "Examen",
+   "alias": [
+    "dímero D",
+    "dímeros D"
+   ],
+   "def": "Se pide solo con probabilidad baja o intermedia (Wells ≤ 4): si es negativo descarta el TEP. Es muy poco específico; con probabilidad alta no se pide.",
+   "pagina": 191,
+   "clase": "cardio-37",
+   "claseTitulo": "5.9 Tromboembolismo Pulmonar",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-37&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 14
+  },
+  "CK_MB": {
+   "termino": "CK-MB",
+   "tipo": "Examen",
+   "alias": [
+    "CK-MB",
+    "CPK-MB",
+    "CPK"
+   ],
+   "def": "Enzima cardíaca que sube a las 4-6 horas y se normaliza en 48-72 horas; quedó obsoleta para el diagnóstico, pero sirve para detectar un reinfarto precoz.",
+   "pagina": 51,
+   "clase": "cardio-10",
+   "claseTitulo": "2.1 Dolor Torácico Agudo en Urgencias: Enfoque Inicial y Diagnósticos que No se Pueden Pasar",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Dolor_toracico": {
+   "termino": "Dolor torácico",
+   "tipo": "Concepto",
+   "alias": [
+    "dolor torácico",
+    "dolor precordial",
+    "dolor torácico agudo"
+   ],
+   "def": "Motivo de consulta frecuente en urgencia. Primero ECG en ≤ 10 minutos y se descartan los cinco diagnósticos letales: infarto, disección aórtica, TEP, neumotórax a tensión y rotura esofágica.",
+   "pagina": 51,
+   "clase": "cardio-10",
+   "claseTitulo": "2.1 Dolor Torácico Agudo en Urgencias: Enfoque Inicial y Diagnósticos que No se Pueden Pasar",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 11
+  },
+  "Sindrome_coronario_agudo": {
+   "termino": "Síndrome coronario agudo",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome coronario agudo",
+    "SCA"
+   ],
+   "def": "Isquemia aguda por rotura o erosión de una placa. Un ECG normal no lo descarta: si la sospecha persiste, se repite el ECG cada 15 a 30 minutos y se mide la troponina.",
+   "pagina": 51,
+   "clase": "cardio-10",
+   "claseTitulo": "2.1 Dolor Torácico Agudo en Urgencias: Enfoque Inicial y Diagnósticos que No se Pueden Pasar",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 9
+  },
+  "SCACEST": {
+   "termino": "SCACEST",
+   "tipo": "Concepto",
+   "alias": [
+    "SCACEST",
+    "SCA con supradesnivel del ST",
+    "infarto con supradesnivel"
+   ],
+   "def": "Emergencia tiempo-dependiente por trombo oclusivo total, con supradesnivel del ST o equivalentes (BCRI nuevo). Se diagnostica con clínica y ECG, y se reperfunde sin esperar la troponina.",
+   "pagina": 70,
+   "clase": "cardio-14",
+   "claseTitulo": "2.5 SCA con Supradesnivel del ST: Diagnóstico Electrocardiográfico y Reperfusión GES",
+   "diapositiva": 7,
+   "t": 367.7,
+   "mmss": "6:08",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-14&t=367&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=cardio-14&t=367",
+   "notas": 16
+  },
+  "SCASEST": {
+   "termino": "SCASEST",
+   "tipo": "Concepto",
+   "alias": [
+    "SCASEST",
+    "SCA sin supradesnivel del ST",
+    "infarto sin supradesnivel"
+   ],
+   "def": "Trombo parcialmente oclusivo sin supradesnivel del ST: angina inestable (troponina normal) o infarto sin supradesnivel (troponina elevada). Se estratifica con TIMI y GRACE.",
+   "pagina": 65,
+   "clase": "cardio-13",
+   "claseTitulo": "2.4 SCA sin Supradesnivel del ST: Angina Inestable e Infarto sin Supradesnivel",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 13
+  },
+  "Infarto_agudo_al_miocardio": {
+   "termino": "Infarto agudo al miocardio",
+   "tipo": "Concepto",
+   "alias": [
+    "infarto agudo al miocardio",
+    "infarto agudo del miocardio",
+    "IAM",
+    "IAMCEST",
+    "IAMSEST",
+    "infarto de miocardio",
+    "infarto"
+   ],
+   "def": "Necrosis miocárdica por isquemia. Las arritmias son la complicación temprana más frecuente; la FV de las primeras horas causa más muertes antes de llegar al hospital.",
+   "pagina": 77,
+   "clase": "cardio-15",
+   "claseTitulo": "2.6 Complicaciones del Infarto: Ventrículo Derecho, Complicaciones Mecánicas y Angina de Prinzmetal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 95
+  },
+  "Angina_estable": {
+   "termino": "Angina estable",
+   "tipo": "Concepto",
+   "alias": [
+    "angina estable",
+    "angina crónica estable",
+    "angina de esfuerzo",
+    "enfermedad coronaria crónica"
+   ],
+   "def": "Dolor opresivo de esfuerzo que cede con el reposo. Se estudia con prueba de esfuerzo; la aspirina y las estatinas reducen la mortalidad, y los antianginosos solo alivian el dolor.",
+   "pagina": 61,
+   "clase": "cardio-12",
+   "claseTitulo": "2.3 Angina Crónica Estable: Terapia Médica Óptima, Revascularización y Prevención Secundaria",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 12
+  },
+  "Angina_inestable": {
+   "termino": "Angina inestable",
+   "tipo": "Concepto",
+   "alias": [
+    "angina inestable",
+    "angina de reposo"
+   ],
+   "def": "SCASEST con isquemia sin necrosis: troponinas normales. Formas: reposo, reciente comienzo (últimos 2 meses) y crescendo. Un primer ECG o troponina normal no la descarta.",
+   "pagina": 65,
+   "clase": "cardio-13",
+   "claseTitulo": "2.4 SCA sin Supradesnivel del ST: Angina Inestable e Infarto sin Supradesnivel",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Angina_de_Prinzmetal": {
+   "termino": "Angina de Prinzmetal",
+   "tipo": "Concepto",
+   "alias": [
+    "angina de Prinzmetal",
+    "Prinzmetal",
+    "angina vasoespástica",
+    "vasoespasmo coronario"
+   ],
+   "def": "Dolor nocturno de reposo por vasoespasmo, con ST elevado transitorio. Tratamiento: calcioantagonista más nitrato; los betabloqueadores no selectivos están prohibidos.",
+   "pagina": 77,
+   "clase": "cardio-15",
+   "claseTitulo": "2.6 Complicaciones del Infarto: Ventrículo Derecho, Complicaciones Mecánicas y Angina de Prinzmetal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Infarto_de_ventriculo_derecho": {
+   "termino": "Infarto de ventrículo derecho",
+   "tipo": "Concepto",
+   "alias": [
+    "infarto de ventrículo derecho",
+    "infarto del ventrículo derecho",
+    "infarto de VD"
+   ],
+   "def": "Complicación del infarto inferior: hipotensión, yugulares ingurgitadas y pulmón limpio; V4R con supradesnivel ≥ 1 mm. Se trata con volumen; evitar nitratos, diuréticos y morfina.",
+   "pagina": 77,
+   "clase": "cardio-15",
+   "claseTitulo": "2.6 Complicaciones del Infarto: Ventrículo Derecho, Complicaciones Mecánicas y Angina de Prinzmetal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Rotura_de_pared_libre": {
+   "termino": "Rotura de pared libre",
+   "tipo": "Concepto",
+   "alias": [
+    "rotura de pared libre",
+    "rotura cardíaca",
+    "rotura del septum",
+    "comunicación interventricular post infarto",
+    "rotura de músculo papilar"
+   ],
+   "def": "Complicación mecánica más letal del infarto (mortalidad > 90%): hemopericardio con taponamiento y colapso súbito. Requiere pericardiocentesis y toracotomía de rescate.",
+   "pagina": 78,
+   "clase": "cardio-15",
+   "claseTitulo": "2.6 Complicaciones del Infarto: Ventrículo Derecho, Complicaciones Mecánicas y Angina de Prinzmetal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Aneurisma_ventricular": {
+   "termino": "Aneurisma ventricular",
+   "tipo": "Concepto",
+   "alias": [
+    "aneurisma ventricular",
+    "pseudoaneurisma"
+   ],
+   "def": "Complicación tardía del infarto (semanas a meses): adelgazamiento fibrótico con ST elevado persistente y riesgo de trombo mural. Se anticoagula; cirugía si hay síntomas.",
+   "pagina": 78,
+   "clase": "cardio-15",
+   "claseTitulo": "2.6 Complicaciones del Infarto: Ventrículo Derecho, Complicaciones Mecánicas y Angina de Prinzmetal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Sindrome_de_Dressler": {
+   "termino": "Síndrome de Dressler",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome de Dressler",
+    "Dressler"
+   ],
+   "def": "Pericarditis autoinmune tardía del infarto (2 a 8 semanas), con fiebre, pleuritis y derrame. Se trata con aspirina en dosis altas o colchicina.",
+   "pagina": 78,
+   "clase": "cardio-15",
+   "claseTitulo": "2.6 Complicaciones del Infarto: Ventrículo Derecho, Complicaciones Mecánicas y Angina de Prinzmetal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Cardiopatia_coronaria": {
+   "termino": "Cardiopatía coronaria",
+   "tipo": "Concepto",
+   "alias": [
+    "cardiopatía coronaria",
+    "enfermedad coronaria",
+    "arteriopatía coronaria"
+   ],
+   "def": "Enfermedad por obstrucción de las arterias coronarias. En un adulto mayor con angina, síncope o disnea y soplo sistólico se estudia primero con ecocardiograma (posible estenosis aórtica).",
+   "pagina": 123,
+   "clase": "cardio-23",
+   "claseTitulo": "4.2 Estenosis Aórtica: Semiología, Severidad Ecocardiográfica y Reemplazo Valvular",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-23&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Angioplastia_coronaria": {
+   "termino": "Angioplastía coronaria",
+   "tipo": "Examen",
+   "alias": [
+    "angioplastía coronaria",
+    "angioplastía primaria",
+    "ICP",
+    "intervención coronaria percutánea",
+    "stent",
+    "stents"
+   ],
+   "def": "Intervención percutánea con stent farmacoactivo; de elección en enfermedad de 1 o 2 vasos sin tronco y SYNTAX bajo. Exige doble antiagregación y no reemplaza la terapia médica.",
+   "pagina": 61,
+   "clase": "cardio-12",
+   "claseTitulo": "2.3 Angina Crónica Estable: Terapia Médica Óptima, Revascularización y Prevención Secundaria",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 15
+  },
+  "Trombolisis": {
+   "termino": "Trombolisis",
+   "tipo": "Concepto",
+   "alias": [
+    "trombolisis",
+    "trombolíticos",
+    "fibrinolisis"
+   ],
+   "def": "Fibrinólisis en el SCACEST cuando no hay hemodinamia oportuna; se usa tenecteplase en bolo según peso. El ACV isquémico en los últimos 6 meses la contraindica de forma absoluta.",
+   "pagina": 70,
+   "clase": "cardio-14",
+   "claseTitulo": "2.5 SCA con Supradesnivel del ST: Diagnóstico Electrocardiográfico y Reperfusión GES",
+   "diapositiva": 7,
+   "t": 367.7,
+   "mmss": "6:08",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-14&t=367&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=cardio-14&t=367",
+   "notas": 22
+  },
+  "Aspirina": {
+   "termino": "Aspirina",
+   "tipo": "Farmaco",
+   "alias": [
+    "aspirina",
+    "ácido acetilsalicílico",
+    "AAS"
+   ],
+   "def": "Antiagregante: 100 mg/día de por vida en la angina estable; reduce el infarto y la muerte cardiovascular. El riesgo es el sangrado digestivo; no se suspende por una molestia gástrica leve.",
+   "pagina": 61,
+   "clase": "cardio-12",
+   "claseTitulo": "2.3 Angina Crónica Estable: Terapia Médica Óptima, Revascularización y Prevención Secundaria",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 27
+  },
+  "Clopidogrel": {
+   "termino": "Clopidogrel",
+   "tipo": "Farmaco",
+   "alias": [
+    "clopidogrel"
+   ],
+   "def": "Antiagregante plaquetario: 75 mg/día en intolerancia a la aspirina y como segundo antiagregante tras el stent. No se suspende antes de la fecha indicada sin hablar con el cardiólogo.",
+   "pagina": 61,
+   "clase": "cardio-12",
+   "claseTitulo": "2.3 Angina Crónica Estable: Terapia Médica Óptima, Revascularización y Prevención Secundaria",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Ticagrelor": {
+   "termino": "Ticagrelor",
+   "tipo": "Farmaco",
+   "alias": [
+    "ticagrelor"
+   ],
+   "def": "Antiagregante de primera línea sobre el clopidogrel en SCASEST: reduce la mortalidad cardiovascular. Contraindicado si hubo hemorragia intracraneal; puede dar disnea y bradicardia.",
+   "pagina": 68,
+   "clase": "cardio-13",
+   "claseTitulo": "2.4 SCA sin Supradesnivel del ST: Angina Inestable e Infarto sin Supradesnivel",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Doble_antiagregacion": {
+   "termino": "Doble antiagregación",
+   "tipo": "Concepto",
+   "alias": [
+    "doble antiagregación",
+    "DAPT",
+    "antiagregación plaquetaria",
+    "antiagregante",
+    "antiagregantes"
+   ],
+   "def": "Aspirina más un inhibidor P2Y12 (clopidogrel o ticagrelor) tras stent o SCA. No es rutina en la angina estable sin stent reciente.",
+   "pagina": 61,
+   "clase": "cardio-12",
+   "claseTitulo": "2.3 Angina Crónica Estable: Terapia Médica Óptima, Revascularización y Prevención Secundaria",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Heparina": {
+   "termino": "Heparina",
+   "tipo": "Farmaco",
+   "alias": [
+    "heparina",
+    "heparina no fraccionada",
+    "HNF",
+    "heparina de bajo peso molecular",
+    "HBPM",
+    "enoxaparina"
+   ],
+   "def": "Anticoagulante parenteral: en el TEP estable, heparina de bajo peso molecular; en el inestable o con insuficiencia renal grave, heparina no fraccionada en bolo e infusión continua.",
+   "pagina": 191,
+   "clase": "cardio-37",
+   "claseTitulo": "5.9 Tromboembolismo Pulmonar",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-37&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 22
+  },
+  "Alteplasa": {
+   "termino": "Alteplasa",
+   "tipo": "Farmaco",
+   "alias": [
+    "alteplasa",
+    "tenecteplasa",
+    "estreptoquinasa",
+    "tPA"
+   ],
+   "def": "Fibrinolítico (rt-PA) del TEP de alto riesgo: 100 mg en infusión de 2 horas. Se acompaña de heparina no fraccionada y tiene las mismas contraindicaciones absolutas que en el infarto.",
+   "pagina": 191,
+   "clase": "cardio-37",
+   "claseTitulo": "5.9 Tromboembolismo Pulmonar",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-37&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Warfarina": {
+   "termino": "Warfarina",
+   "tipo": "Farmaco",
+   "alias": [
+    "warfarina",
+    "acenocumarol",
+    "antagonistas de vitamina K",
+    "AVK",
+    "dicumarínicos"
+   ],
+   "def": "Antagonista de vitamina K; la única opción en la FA valvular (estenosis mitral reumática y prótesis mecánicas). Exige control frecuente del INR e interactúa con muchos fármacos y alimentos.",
+   "pagina": 23,
+   "clase": "cardio-05",
+   "claseTitulo": "1.5 Anticoagulación en Fibrilación Auricular: CHA₂DS₂-VASc, Anticoagulantes Directos y Antagonistas de Vitamina K",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 14
+  },
+  "INR": {
+   "termino": "INR",
+   "tipo": "Signo",
+   "alias": [
+    "INR",
+    "índice internacional normalizado"
+   ],
+   "def": "Controla la anticoagulación con antagonistas de vitamina K; meta 2,0 a 3,0 en estenosis mitral y 2,5 a 3,5 en prótesis mecánicas mitrales. Un INR alto sin sangrado: vitamina K oral.",
+   "pagina": 23,
+   "clase": "cardio-05",
+   "claseTitulo": "1.5 Anticoagulación en Fibrilación Auricular: CHA₂DS₂-VASc, Anticoagulantes Directos y Antagonistas de Vitamina K",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Anticoagulantes_orales_directos": {
+   "termino": "Anticoagulantes orales directos",
+   "tipo": "Farmaco",
+   "alias": [
+    "anticoagulantes orales directos",
+    "ACOD",
+    "anticoagulante oral directo",
+    "NOAC",
+    "DOAC"
+   ],
+   "def": "Primera línea en la FA no valvular: más eficaces o equivalentes a la warfarina, sin control de laboratorio. Contraindicados en estenosis mitral reumática moderada o grave y en prótesis mecánicas.",
+   "pagina": 23,
+   "clase": "cardio-05",
+   "claseTitulo": "1.5 Anticoagulación en Fibrilación Auricular: CHA₂DS₂-VASc, Anticoagulantes Directos y Antagonistas de Vitamina K",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 14
+  },
+  "Apixaban": {
+   "termino": "Apixabán",
+   "tipo": "Farmaco",
+   "alias": [
+    "apixabán",
+    "apixaban"
+   ],
+   "def": "ACOD de primera línea en FA no valvular; menor riesgo de sangrado y de elección en el adulto mayor. Baja la dosis si cumple al menos dos de: edad ≥ 80 años, peso ≤ 60 kg o creatinina ≥ 1,5 mg/dL.",
+   "pagina": 23,
+   "clase": "cardio-05",
+   "claseTitulo": "1.5 Anticoagulación en Fibrilación Auricular: CHA₂DS₂-VASc, Anticoagulantes Directos y Antagonistas de Vitamina K",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Rivaroxaban": {
+   "termino": "Rivaroxabán",
+   "tipo": "Farmaco",
+   "alias": [
+    "rivaroxabán",
+    "rivaroxaban"
+   ],
+   "def": "ACOD tomado una vez al día con la comida. Se reduce a 15 mg si el clearance de creatinina es de 15 a 50 mL/min. Su antídoto es andexanet alfa.",
+   "pagina": 23,
+   "clase": "cardio-05",
+   "claseTitulo": "1.5 Anticoagulación en Fibrilación Auricular: CHA₂DS₂-VASc, Anticoagulantes Directos y Antagonistas de Vitamina K",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Dabigatran": {
+   "termino": "Dabigatrán",
+   "tipo": "Farmaco",
+   "alias": [
+    "dabigatrán",
+    "dabigatran",
+    "idarucizumab"
+   ],
+   "def": "ACOD inhibidor de la trombina, con alta eliminación renal (80%). Su antídoto es idarucizumab; requiere función renal conservada.",
+   "pagina": 23,
+   "clase": "cardio-05",
+   "claseTitulo": "1.5 Anticoagulación en Fibrilación Auricular: CHA₂DS₂-VASc, Anticoagulantes Directos y Antagonistas de Vitamina K",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Escala_CHA2DS2_VASc": {
+   "termino": "Escala CHA2DS2-VASc",
+   "tipo": "Concepto",
+   "alias": [
+    "CHA₂DS₂-VASc",
+    "CHA2DS2-VASc",
+    "CHADS-VASc"
+   ],
+   "def": "Puntaje de riesgo embólico en la FA no valvular: insuficiencia cardíaca, HTA, edad, diabetes, ACV previo, enfermedad vascular y sexo. Decide la anticoagulación y se recalcula cada año.",
+   "pagina": 23,
+   "clase": "cardio-05",
+   "claseTitulo": "1.5 Anticoagulación en Fibrilación Auricular: CHA₂DS₂-VASc, Anticoagulantes Directos y Antagonistas de Vitamina K",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Escala_TIMI": {
+   "termino": "Escala TIMI",
+   "tipo": "Concepto",
+   "alias": [
+    "score TIMI",
+    "escala TIMI",
+    "TIMI"
+   ],
+   "def": "Puntaje de riesgo del SCASEST de 0 a 7 puntos; 5-7 es alto riesgo y 0-1 bajo riesgo, para la estrategia selectiva.",
+   "pagina": 66,
+   "clase": "cardio-13",
+   "claseTitulo": "2.4 SCA sin Supradesnivel del ST: Angina Inestable e Infarto sin Supradesnivel",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Escala_GRACE": {
+   "termino": "Escala GRACE",
+   "tipo": "Concepto",
+   "alias": [
+    "score GRACE",
+    "escala GRACE",
+    "GRACE"
+   ],
+   "def": "Puntaje que estima la mortalidad intrahospitalaria con edad, FC, presión, creatinina, Killip, paro, ST y troponina. GRACE > 140 es alto riesgo (invasiva precoz); < 109 es bajo riesgo.",
+   "pagina": 65,
+   "clase": "cardio-13",
+   "claseTitulo": "2.4 SCA sin Supradesnivel del ST: Angina Inestable e Infarto sin Supradesnivel",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Killip": {
+   "termino": "Killip",
+   "tipo": "Concepto",
+   "alias": [
+    "clasificación de Killip",
+    "Killip"
+   ],
+   "def": "Clasificación pronóstica del infarto según la insuficiencia cardíaca, de I (sin IC) a IV (shock cardiogénico). Mide congestión y gravedad.",
+   "pagina": 65,
+   "clase": "cardio-13",
+   "claseTitulo": "2.4 SCA sin Supradesnivel del ST: Angina Inestable e Infarto sin Supradesnivel",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Amiodarona": {
+   "termino": "Amiodarona",
+   "tipo": "Farmaco",
+   "alias": [
+    "amiodarona"
+   ],
+   "def": "Antiarrítmico de elección en la TV monomorfa estable (150 mg EV en 10 minutos) y en la FV/TV sin pulso refractaria. Prolonga el QT: contraindicada en torsión de puntas.",
+   "pagina": 31,
+   "clase": "cardio-07",
+   "claseTitulo": "1.7 Taquicardia de Complejo Ancho, Taquicardia Ventricular, QT Largo y Cardioversión Eléctrica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 19
+  },
+  "Adenosina": {
+   "termino": "Adenosina",
+   "tipo": "Farmaco",
+   "alias": [
+    "adenosina"
+   ],
+   "def": "Segunda línea en la TPSV tras las maniobras vagales: 6 mg EV en bolo ultrarrápido y flush de suero. Prohibida en la preexcitación con FA.",
+   "pagina": 26,
+   "clase": "cardio-06",
+   "claseTitulo": "1.6 Taquicardia Paroxística Supraventricular y Síndrome de Wolff-Parkinson-White",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 18
+  },
+  "Atropina": {
+   "termino": "Atropina",
+   "tipo": "Farmaco",
+   "alias": [
+    "atropina"
+   ],
+   "def": "Anticolinérgico para la bradicardia sintomática: 1 mg EV cada 3 a 5 minutos, máximo acumulado de 3 mg. Efectiva en bloqueos nodales; falla en bloqueos infranodales y con potasio muy elevado.",
+   "pagina": 36,
+   "clase": "cardio-08",
+   "claseTitulo": "1.8 Bradicardias, Bloqueos Aurículo-Ventriculares y Marcapasos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Adrenalina": {
+   "termino": "Adrenalina",
+   "tipo": "Farmaco",
+   "alias": [
+    "adrenalina",
+    "epinefrina"
+   ],
+   "def": "Vasopresor del paro cardíaco: 1 mg EV lo antes posible, repetida cada 3 a 5 minutos. Se da junto con la RCP continua y la búsqueda de causas reversibles.",
+   "pagina": 14,
+   "clase": "cardio-03",
+   "claseTitulo": "1.3 ACLS: Ritmos Desfibrilables y No Desfibrilables, Fármacos y Cuidados Post-Paro",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Lidocaina": {
+   "termino": "Lidocaína",
+   "tipo": "Farmaco",
+   "alias": [
+    "lidocaína"
+   ],
+   "def": "Antiarrítmico alternativo en la FV/TV sin pulso refractaria si no hay amiodarona: 1 a 1,5 mg/kg EV.",
+   "pagina": 14,
+   "clase": "cardio-03",
+   "claseTitulo": "1.3 ACLS: Ritmos Desfibrilables y No Desfibrilables, Fármacos y Cuidados Post-Paro",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Sulfato_de_magnesio": {
+   "termino": "Sulfato de magnesio",
+   "tipo": "Farmaco",
+   "alias": [
+    "sulfato de magnesio"
+   ],
+   "def": "Tratamiento de la torsión de puntas: 2 g EV en 10 minutos, aunque el magnesio sea normal.",
+   "pagina": 34,
+   "clase": "cardio-07",
+   "claseTitulo": "1.7 Taquicardia de Complejo Ancho, Taquicardia Ventricular, QT Largo y Cardioversión Eléctrica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Verapamilo": {
+   "termino": "Verapamilo",
+   "tipo": "Farmaco",
+   "alias": [
+    "verapamilo"
+   ],
+   "def": "Calcioantagonista no dihidropiridínico, tercera línea en la TPSV. Contraindicado en hipotensión, IC con FEVI reducida, QRS ancho de origen incierto y preexcitación.",
+   "pagina": 27,
+   "clase": "cardio-06",
+   "claseTitulo": "1.6 Taquicardia Paroxística Supraventricular y Síndrome de Wolff-Parkinson-White",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 21
+  },
+  "Diltiazem": {
+   "termino": "Diltiazem",
+   "tipo": "Farmaco",
+   "alias": [
+    "diltiazem"
+   ],
+   "def": "Calcioantagonista no dihidropiridínico, antianginoso de segunda línea. No se combina con betabloqueadores por riesgo de bradicardia y bloqueo AV; contraindicado con FEVI baja.",
+   "pagina": 61,
+   "clase": "cardio-12",
+   "claseTitulo": "2.3 Angina Crónica Estable: Terapia Médica Óptima, Revascularización y Prevención Secundaria",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 15
+  },
+  "Digoxina": {
+   "termino": "Digoxina",
+   "tipo": "Farmaco",
+   "alias": [
+    "digoxina",
+    "digital"
+   ],
+   "def": "Alivia síntomas o controla la frecuencia en FA en la IC, sin efecto en mortalidad. Se acumula en la falla renal; en la FA con función conservada no es de primera línea.",
+   "pagina": 107,
+   "clase": "cardio-20",
+   "claseTitulo": "3.5 Miocardiopatía Hipertrófica y Muerte Súbita del Joven",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 17
+  },
+  "Procainamida": {
+   "termino": "Procainamida",
+   "tipo": "Farmaco",
+   "alias": [
+    "procainamida"
+   ],
+   "def": "Antiarrítmico clase IA, alternativa en la TV estable y en la taquicardia antidrómica del WPW. Prolonga el QT.",
+   "pagina": 27,
+   "clase": "cardio-06",
+   "claseTitulo": "1.6 Taquicardia Paroxística Supraventricular y Síndrome de Wolff-Parkinson-White",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Flecainida": {
+   "termino": "Flecainida",
+   "tipo": "Farmaco",
+   "alias": [
+    "flecainida",
+    "propafenona"
+   ],
+   "def": "Antiarrítmico clase I; contraindicado en cardiopatía estructural, pues el estudio CAST mostró mayor mortalidad. No se indica a quien tiene extrasístoles asintomáticas.",
+   "pagina": 41,
+   "clase": "cardio-09",
+   "claseTitulo": "1.9 Extrasístoles Ventriculares y Holter de Ritmo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Betabloqueadores": {
+   "termino": "Betabloqueadores",
+   "tipo": "Farmaco",
+   "alias": [
+    "betabloqueador",
+    "betabloqueadores",
+    "beta bloqueadores",
+    "bloqueadores beta"
+   ],
+   "def": "Solo bisoprolol, carvedilol y metoprolol succinato reducen la mortalidad en IC con fracción reducida; atenolol y propranolol no. Los no selectivos están prohibidos en el vasoespasmo.",
+   "pagina": 90,
+   "clase": "cardio-17",
+   "claseTitulo": "3.2 Insuficiencia Cardíaca Crónica: Tratamiento con los Cuatro Pilares (GDMT) y Dispositivos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 70
+  },
+  "Metoprolol": {
+   "termino": "Metoprolol",
+   "tipo": "Farmaco",
+   "alias": [
+    "metoprolol"
+   ],
+   "def": "Betabloqueador cardioselectivo: primera línea para controlar la frecuencia en FA estable con FEVI conservada. En IC con FEVI reducida se usa la forma succinato (liberación prolongada).",
+   "pagina": 41,
+   "clase": "cardio-09",
+   "claseTitulo": "1.9 Extrasístoles Ventriculares y Holter de Ritmo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Bisoprolol": {
+   "termino": "Bisoprolol",
+   "tipo": "Farmaco",
+   "alias": [
+    "bisoprolol"
+   ],
+   "def": "Betabloqueador cardioselectivo, primera línea antianginosa (5-10 mg/día), con meta de FC de reposo de 55-60 lpm. Reduce la mortalidad en IC con FEVI reducida.",
+   "pagina": 61,
+   "clase": "cardio-12",
+   "claseTitulo": "2.3 Angina Crónica Estable: Terapia Médica Óptima, Revascularización y Prevención Secundaria",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Carvedilol": {
+   "termino": "Carvedilol",
+   "tipo": "Farmaco",
+   "alias": [
+    "carvedilol"
+   ],
+   "def": "Betabloqueador que reduce la mortalidad en la IC con fracción reducida; dosis inicial de 3,125 mg cada 12 horas. No se reemplaza por atenolol.",
+   "pagina": 90,
+   "clase": "cardio-17",
+   "claseTitulo": "3.2 Insuficiencia Cardíaca Crónica: Tratamiento con los Cuatro Pilares (GDMT) y Dispositivos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Propranolol": {
+   "termino": "Propranolol",
+   "tipo": "Farmaco",
+   "alias": [
+    "propranolol"
+   ],
+   "def": "Betabloqueador no selectivo: contraindicado en la angina de Prinzmetal, pues puede desencadenar un espasmo coronario masivo.",
+   "pagina": 78,
+   "clase": "cardio-15",
+   "claseTitulo": "2.6 Complicaciones del Infarto: Ventrículo Derecho, Complicaciones Mecánicas y Angina de Prinzmetal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Nitroglicerina": {
+   "termino": "Nitroglicerina",
+   "tipo": "Farmaco",
+   "alias": [
+    "nitroglicerina",
+    "nitratos",
+    "nitrato",
+    "isosorbide",
+    "dinitrato de isosorbide"
+   ],
+   "def": "Nitrato: 0,6 mg sublingual SOS (hasta 3 dosis cada 5 minutos) en la crisis anginosa. Alivia el dolor pero no reduce la mortalidad; contraindicada con sildenafil o tadalafil.",
+   "pagina": 61,
+   "clase": "cardio-12",
+   "claseTitulo": "2.3 Angina Crónica Estable: Terapia Médica Óptima, Revascularización y Prevención Secundaria",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 43
+  },
+  "Estatinas": {
+   "termino": "Estatinas",
+   "tipo": "Farmaco",
+   "alias": [
+    "estatina",
+    "estatinas",
+    "atorvastatina",
+    "rosuvastatina"
+   ],
+   "def": "Estatinas de alta potencia (atorvastatina, rosuvastatina) para c-LDL < 55 mg/dL; estabilizan la placa y reducen la mortalidad. Si no basta, se agrega ezetimibe.",
+   "pagina": 61,
+   "clase": "cardio-12",
+   "claseTitulo": "2.3 Angina Crónica Estable: Terapia Médica Óptima, Revascularización y Prevención Secundaria",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 11
+  },
+  "IECA": {
+   "termino": "IECA",
+   "tipo": "Farmaco",
+   "alias": [
+    "IECA",
+    "inhibidores de la enzima convertidora",
+    "enalapril",
+    "captopril"
+   ],
+   "def": "Inhibidor de la enzima convertidora: primer grupo que mejoró la sobrevida en IC. Efectos adversos: tos seca (se cambia a ARA II), hipotensión, hiperkalemia y angioedema; contraindicado en el embarazo.",
+   "pagina": 90,
+   "clase": "cardio-17",
+   "claseTitulo": "3.2 Insuficiencia Cardíaca Crónica: Tratamiento con los Cuatro Pilares (GDMT) y Dispositivos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 60
+  },
+  "ARA_II": {
+   "termino": "ARA II",
+   "tipo": "Farmaco",
+   "alias": [
+    "ARA II",
+    "ARA-II",
+    "antagonistas del receptor de angiotensina",
+    "losartán",
+    "valsartán"
+   ],
+   "def": "Alternativa al IECA cuando hay tos (losartán, candesartán, valsartán). Nunca se combinan IECA con ARA II en IC; contraindicados en el embarazo.",
+   "pagina": 90,
+   "clase": "cardio-17",
+   "claseTitulo": "3.2 Insuficiencia Cardíaca Crónica: Tratamiento con los Cuatro Pilares (GDMT) y Dispositivos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 41
+  },
+  "Sacubitrilo_valsartan": {
+   "termino": "Sacubitrilo-valsartán",
+   "tipo": "Farmaco",
+   "alias": [
+    "sacubitrilo-valsartán",
+    "sacubitrilo",
+    "ARNI"
+   ],
+   "def": "ARNI: ARA II más inhibidor de la neprilisina. Primera elección en IC con fracción reducida; superó al enalapril en reducir la muerte cardiovascular.",
+   "pagina": 90,
+   "clase": "cardio-17",
+   "claseTitulo": "3.2 Insuficiencia Cardíaca Crónica: Tratamiento con los Cuatro Pilares (GDMT) y Dispositivos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Espironolactona": {
+   "termino": "Espironolactona",
+   "tipo": "Farmaco",
+   "alias": [
+    "espironolactona",
+    "antagonistas de mineralocorticoides",
+    "eplerenona",
+    "ARM"
+   ],
+   "def": "Antagonista de la aldosterona que reduce la mortalidad en IC sintomática con FEVI ≤ 35-40%. Es el diurético que se agrega para mejorar el pronóstico, no la hidroclorotiazida.",
+   "pagina": 90,
+   "clase": "cardio-17",
+   "claseTitulo": "3.2 Insuficiencia Cardíaca Crónica: Tratamiento con los Cuatro Pilares (GDMT) y Dispositivos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 18
+  },
+  "iSGLT2": {
+   "termino": "iSGLT2",
+   "tipo": "Farmaco",
+   "alias": [
+    "iSGLT2",
+    "inhibidores SGLT2",
+    "empagliflozina",
+    "dapagliflozina"
+   ],
+   "def": "Dapagliflozina o empagliflozina: reducen la hospitalización por IC y la muerte cardiovascular, en diabéticos y no diabéticos, sin titulación.",
+   "pagina": 90,
+   "clase": "cardio-17",
+   "claseTitulo": "3.2 Insuficiencia Cardíaca Crónica: Tratamiento con los Cuatro Pilares (GDMT) y Dispositivos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Diureticos": {
+   "termino": "Diuréticos",
+   "tipo": "Farmaco",
+   "alias": [
+    "diurético",
+    "diuréticos",
+    "diurético de asa",
+    "diuréticos tiazídicos"
+   ],
+   "def": "Los de asa alivian la congestión pero no reducen la mortalidad. Para mejorar el pronóstico en IC se agrega espironolactona, no una tiazida.",
+   "pagina": 90,
+   "clase": "cardio-17",
+   "claseTitulo": "3.2 Insuficiencia Cardíaca Crónica: Tratamiento con los Cuatro Pilares (GDMT) y Dispositivos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 33
+  },
+  "Furosemida": {
+   "termino": "Furosemida",
+   "tipo": "Farmaco",
+   "alias": [
+    "furosemida"
+   ],
+   "def": "Diurético de asa que alivia la congestión y los edemas, no la mortalidad. Se usa la dosis mínima que mantenga el peso seco, para evitar hipovolemia, falla renal e hipokalemia.",
+   "pagina": 90,
+   "clase": "cardio-17",
+   "claseTitulo": "3.2 Insuficiencia Cardíaca Crónica: Tratamiento con los Cuatro Pilares (GDMT) y Dispositivos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 16
+  },
+  "Hidroclorotiazida": {
+   "termino": "Hidroclorotiazida",
+   "tipo": "Farmaco",
+   "alias": [
+    "hidroclorotiazida",
+    "clortalidona",
+    "indapamida"
+   ],
+   "def": "Tiazida que sola no mejora el pronóstico en IC. En la HTA se usa en combinación (12,5 a 25 mg/día).",
+   "pagina": 92,
+   "clase": "cardio-17",
+   "claseTitulo": "3.2 Insuficiencia Cardíaca Crónica: Tratamiento con los Cuatro Pilares (GDMT) y Dispositivos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Amlodipino": {
+   "termino": "Amlodipino",
+   "tipo": "Farmaco",
+   "alias": [
+    "amlodipino",
+    "nifedipino",
+    "calcioantagonistas",
+    "bloqueadores de canales de calcio"
+   ],
+   "def": "Calcioantagonista dihidropiridínico, antianginoso de segunda línea. Efecto adverso típico: edema maleolar bilateral que no responde a diuréticos; se suspende el fármaco.",
+   "pagina": 161,
+   "clase": "cardio-30",
+   "claseTitulo": "5.2 Hipertensión Arterial: Tratamiento Farmacológico, Metas y GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-30&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 25
+  },
+  "Ivabradina": {
+   "termino": "Ivabradina",
+   "tipo": "Farmaco",
+   "alias": [
+    "ivabradina"
+   ],
+   "def": "Reduce la frecuencia sinusal sin efecto inotrópico; segunda línea antianginosa si la frecuencia es ≥ 70 lpm pese al betabloqueador. Mejora la tolerancia al esfuerzo, no la mortalidad.",
+   "pagina": 61,
+   "clase": "cardio-12",
+   "claseTitulo": "2.3 Angina Crónica Estable: Terapia Médica Óptima, Revascularización y Prevención Secundaria",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Nitroprusiato": {
+   "termino": "Nitroprusiato",
+   "tipo": "Farmaco",
+   "alias": [
+    "nitroprusiato"
+   ],
+   "def": "Vasodilatador EV, el más potente en la crisis hipertensiva. Riesgo de toxicidad por tiocianato y cianuro; se asocia a un betabloqueador para evitar la taquicardia refleja.",
+   "pagina": 171,
+   "clase": "cardio-32",
+   "claseTitulo": "5.4 Crisis Hipertensivas: Urgencia versus Emergencia Hipertensiva",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-32&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Labetalol": {
+   "termino": "Labetalol",
+   "tipo": "Farmaco",
+   "alias": [
+    "labetalol",
+    "esmolol",
+    "clevidipino"
+   ],
+   "def": "Bloqueador alfa y beta EV para la emergencia hipertensiva; contraindicado en bradicardia, bloqueo AV e IC aguda. Seguro en el embarazo.",
+   "pagina": 171,
+   "clase": "cardio-32",
+   "claseTitulo": "5.4 Crisis Hipertensivas: Urgencia versus Emergencia Hipertensiva",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-32&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Hidralazina": {
+   "termino": "Hidralazina",
+   "tipo": "Farmaco",
+   "alias": [
+    "hidralazina"
+   ],
+   "def": "Vasodilatador usado con isosorbide en IC si no se toleran IECA, ARA II ni ARNI, o en pacientes afroamericanos con clase III-IV.",
+   "pagina": 91,
+   "clase": "cardio-17",
+   "claseTitulo": "3.2 Insuficiencia Cardíaca Crónica: Tratamiento con los Cuatro Pilares (GDMT) y Dispositivos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Noradrenalina": {
+   "termino": "Noradrenalina",
+   "tipo": "Farmaco",
+   "alias": [
+    "noradrenalina",
+    "norepinefrina"
+   ],
+   "def": "Vasopresor de primera línea en el shock, para llevar la PAM a ≥ 65 mmHg; tiene menos arritmias y menor mortalidad que la dopamina.",
+   "pagina": 102,
+   "clase": "cardio-19",
+   "claseTitulo": "3.4 Shock Cardiogénico y Diagnóstico Diferencial de los Cuatro Shocks",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Dobutamina": {
+   "termino": "Dobutamina",
+   "tipo": "Farmaco",
+   "alias": [
+    "dobutamina"
+   ],
+   "def": "Inótropo beta-1 del shock cardiogénico (2,5-20 mcg/kg/min); si hay hipotensión, se asocia a noradrenalina.",
+   "pagina": 57,
+   "clase": "cardio-11",
+   "claseTitulo": "2.2 Angina Crónica Estable: Diagnóstico, Estratificación Funcional y Coronariografía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Colchicina": {
+   "termino": "Colchicina",
+   "tipo": "Farmaco",
+   "alias": [
+    "colchicina"
+   ],
+   "def": "En la pericarditis aguda reduce a la mitad las recidivas, por eso es parte del tratamiento de primera línea junto a aspirina o AINE.",
+   "pagina": 175,
+   "clase": "cardio-33",
+   "claseTitulo": "5.5 Pericarditis Aguda",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-33&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Penicilina_benzatina": {
+   "termino": "Penicilina benzatina",
+   "tipo": "Farmaco",
+   "alias": [
+    "penicilina benzatina",
+    "penicilina benzatínica"
+   ],
+   "def": "Erradica el estreptococo en la fiebre reumática: 1.200.000 UI IM en dosis única. También es la profilaxis secundaria cada 3 a 4 semanas.",
+   "pagina": 132,
+   "clase": "cardio-25",
+   "claseTitulo": "4.4 Fiebre Reumática, Prevención y Estenosis Mitral Reumática",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-25&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Insuficiencia_cardiaca": {
+   "termino": "Insuficiencia cardíaca",
+   "tipo": "Concepto",
+   "alias": [
+    "insuficiencia cardíaca",
+    "IC",
+    "ICFEr",
+    "ICFEp",
+    "ICFEmr",
+    "insuficiencia cardíaca crónica"
+   ],
+   "def": "Síndrome clínico: síntomas típicos (disnea, ortopnea, fatiga) con o sin congestión, por alteración estructural o funcional que reduce el gasto cardíaco. Principal causa: la cardiopatía isquémica.",
+   "pagina": 86,
+   "clase": "cardio-16",
+   "claseTitulo": "3.1 Insuficiencia Cardíaca Crónica: Diagnóstico, Fenotipos y Péptidos Natriuréticos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 86
+  },
+  "Insuficiencia_cardiaca_aguda": {
+   "termino": "Insuficiencia cardíaca aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "insuficiencia cardíaca aguda",
+    "ICA",
+    "IC descompensada",
+    "insuficiencia cardíaca descompensada"
+   ],
+   "def": "Inicio rápido o empeoramiento brusco de la IC; de novo o descompensación de una IC crónica. Se clasifica por perfil clínico (caliente o frío, húmedo o seco).",
+   "pagina": 96,
+   "clase": "cardio-18",
+   "claseTitulo": "3.3 Insuficiencia Cardíaca Aguda y Edema Agudo de Pulmón",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Edema_agudo_de_pulmon": {
+   "termino": "Edema agudo de pulmón",
+   "tipo": "Concepto",
+   "alias": [
+    "edema agudo de pulmón",
+    "edema pulmonar agudo",
+    "EAP",
+    "edema pulmonar cardiogénico"
+   ],
+   "def": "Forma más dramática de IC aguda: disnea de reposo, ortopnea y expectoración rosada espumosa. Se trata con vasodilatador y diurético en el perfil caliente y húmedo.",
+   "pagina": 96,
+   "clase": "cardio-18",
+   "claseTitulo": "3.3 Insuficiencia Cardíaca Aguda y Edema Agudo de Pulmón",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 25
+  },
+  "Fraccion_de_eyeccion": {
+   "termino": "Fracción de eyección",
+   "tipo": "Concepto",
+   "alias": [
+    "fracción de eyección",
+    "FEVI"
+   ],
+   "def": "Fracción de sangre que expulsa el VI. IC con FE reducida: FEVI ≤ 40%; preservada: FEVI ≥ 50%. Orienta el tratamiento.",
+   "pagina": 90,
+   "clase": "cardio-17",
+   "claseTitulo": "3.2 Insuficiencia Cardíaca Crónica: Tratamiento con los Cuatro Pilares (GDMT) y Dispositivos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 57
+  },
+  "Clasificacion_NYHA": {
+   "termino": "Clasificación NYHA",
+   "tipo": "Concepto",
+   "alias": [
+    "NYHA",
+    "clase funcional NYHA"
+   ],
+   "def": "Clasificación funcional de la IC según síntomas. DAI y TRC se indican con NYHA II-III o II-IV pese al tratamiento óptimo.",
+   "pagina": 91,
+   "clase": "cardio-17",
+   "claseTitulo": "3.2 Insuficiencia Cardíaca Crónica: Tratamiento con los Cuatro Pilares (GDMT) y Dispositivos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Shock_cardiogenico": {
+   "termino": "Shock cardiogénico",
+   "tipo": "Concepto",
+   "alias": [
+    "shock cardiogénico"
+   ],
+   "def": "Hipoperfusión por falla de bomba con volumen adecuado y congestión; en el infarto es Killip IV. Se trata con noradrenalina y dobutamina, sin rellenar con líquidos.",
+   "pagina": 102,
+   "clase": "cardio-19",
+   "claseTitulo": "3.4 Shock Cardiogénico y Diagnóstico Diferencial de los Cuatro Shocks",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 20
+  },
+  "Shock": {
+   "termino": "Shock",
+   "tipo": "Concepto",
+   "alias": [
+    "shock hipovolémico",
+    "shock obstructivo",
+    "shock distributivo",
+    "shock séptico",
+    "shock"
+   ],
+   "def": "Hipoperfusión tisular aguda con lactato elevado. Se clasifica en cardiogénico, hipovolémico, distributivo y obstructivo; meta de PAM ≥ 65 mmHg.",
+   "pagina": 102,
+   "clase": "cardio-19",
+   "claseTitulo": "3.4 Shock Cardiogénico y Diagnóstico Diferencial de los Cuatro Shocks",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 43
+  },
+  "Miocardiopatia_hipertrofica": {
+   "termino": "Miocardiopatía hipertrófica",
+   "tipo": "Concepto",
+   "alias": [
+    "miocardiopatía hipertrófica",
+    "cardiomiopatía hipertrófica",
+    "MCH",
+    "MCH obstructiva"
+   ],
+   "def": "Hipertrofia ventricular izquierda inexplicada, habitualmente septal. Causa más frecuente de muerte súbita del deportista joven; el soplo aumenta con Valsalva.",
+   "pagina": 106,
+   "clase": "cardio-20",
+   "claseTitulo": "3.5 Miocardiopatía Hipertrófica y Muerte Súbita del Joven",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 42
+  },
+  "Muerte_subita": {
+   "termino": "Muerte súbita",
+   "tipo": "Concepto",
+   "alias": [
+    "muerte súbita",
+    "muerte súbita del joven",
+    "muerte súbita cardíaca"
+   ],
+   "def": "En el deportista joven (menores de 35 años) la causa más frecuente es la miocardiopatía hipertrófica. El síncope en el esfuerzo orienta a causa cardíaca; en prevención secundaria se indica DAI.",
+   "pagina": 106,
+   "clase": "cardio-20",
+   "claseTitulo": "3.5 Miocardiopatía Hipertrófica y Muerte Súbita del Joven",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Miocardiopatia_dilatada": {
+   "termino": "Miocardiopatía dilatada",
+   "tipo": "Concepto",
+   "alias": [
+    "miocardiopatía dilatada",
+    "cardiomiopatía dilatada"
+   ],
+   "def": "Dilatación ventricular con disfunción sistólica. Es la causa más frecuente de IC en el adulto joven; se trata con la terapia de la IC con fracción reducida.",
+   "pagina": 110,
+   "clase": "cardio-21",
+   "claseTitulo": "3.6 Miocardiopatía Dilatada, Miocardiopatía Restrictiva y Miocarditis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Miocardiopatia_restrictiva": {
+   "termino": "Miocardiopatía restrictiva",
+   "tipo": "Concepto",
+   "alias": [
+    "miocardiopatía restrictiva",
+    "cardiomiopatía restrictiva",
+    "amiloidosis cardíaca"
+   ],
+   "def": "Rigidez del miocardio por infiltración o fibrosis, con ventrículos de tamaño normal, función sistólica normal y llenado diastólico restringido. Causa más frecuente: la amiloidosis.",
+   "pagina": 110,
+   "clase": "cardio-21",
+   "claseTitulo": "3.6 Miocardiopatía Dilatada, Miocardiopatía Restrictiva y Miocarditis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Miocarditis": {
+   "termino": "Miocarditis",
+   "tipo": "Concepto",
+   "alias": [
+    "miocarditis"
+   ],
+   "def": "Inflamación aguda del miocardio, más frecuente en jóvenes y varones. La causa más común es viral; puede evolucionar a miocardiopatía dilatada.",
+   "pagina": 110,
+   "clase": "cardio-21",
+   "claseTitulo": "3.6 Miocardiopatía Dilatada, Miocardiopatía Restrictiva y Miocarditis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Cardiopatia_chagasica": {
+   "termino": "Cardiopatía chagásica",
+   "tipo": "Concepto",
+   "alias": [
+    "cardiopatía chagásica",
+    "enfermedad de Chagas",
+    "Chagas"
+   ],
+   "def": "Miocardiopatía chagásica crónica, 10-30 años después del contagio: bloqueo de rama derecha, hemibloqueo anterior izquierdo, arritmias ventriculares, aneurisma apical e IC derecha.",
+   "pagina": 110,
+   "clase": "cardio-21",
+   "claseTitulo": "3.6 Miocardiopatía Dilatada, Miocardiopatía Restrictiva y Miocarditis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Takotsubo": {
+   "termino": "Takotsubo",
+   "tipo": "Concepto",
+   "alias": [
+    "Takotsubo",
+    "miocardiopatía de estrés"
+   ],
+   "def": "Miocardiopatía de estrés; imita un infarto (cuadro coronario sin lesión obstructiva). Se cuenta entre las causas de troponina elevada con curva.",
+   "pagina": 52,
+   "clase": "cardio-10",
+   "claseTitulo": "2.1 Dolor Torácico Agudo en Urgencias: Enfoque Inicial y Diagnósticos que No se Pueden Pasar",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Soplo_cardiaco": {
+   "termino": "Soplo cardíaco",
+   "tipo": "Signo",
+   "alias": [
+    "soplo",
+    "soplos",
+    "soplo sistólico",
+    "soplo diastólico",
+    "soplo holosistólico"
+   ],
+   "def": "Ruido por flujo turbulento: estenosis, insuficiencia, defecto entre cavidades o mayor velocidad. El grado no mide la gravedad; un soplo con frémito siempre es patológico.",
+   "pagina": 120,
+   "clase": "cardio-22",
+   "claseTitulo": "4.1 Paciente con Soplo: Semiología y Maniobras Dinámicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-22&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 89
+  },
+  "Maniobra_de_Valsalva": {
+   "termino": "Maniobra de Valsalva",
+   "tipo": "Signo",
+   "alias": [
+    "Valsalva",
+    "maniobra de Valsalva"
+   ],
+   "def": "Disminuye el retorno venoso. En la miocardiopatía hipertrófica aumenta el soplo; en el prolapso mitral adelanta el clic.",
+   "pagina": 106,
+   "clase": "cardio-20",
+   "claseTitulo": "3.5 Miocardiopatía Hipertrófica y Muerte Súbita del Joven",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 12
+  },
+  "Tercer_ruido": {
+   "termino": "Tercer ruido",
+   "tipo": "Signo",
+   "alias": [
+    "tercer ruido",
+    "R3",
+    "galope"
+   ],
+   "def": "Galope (R3) por sobrecarga de volumen; signo de congestión en la IC y la miocardiopatía dilatada. Sugiere IC aguda cuando va con crépitos.",
+   "pagina": 110,
+   "clase": "cardio-21",
+   "claseTitulo": "3.6 Miocardiopatía Dilatada, Miocardiopatía Restrictiva y Miocarditis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Chasquido_de_apertura": {
+   "termino": "Chasquido de apertura",
+   "tipo": "Signo",
+   "alias": [
+    "chasquido de apertura",
+    "retumbo diastólico"
+   ],
+   "def": "Ruido agudo diastólico que, con un R1 intenso y retumbo mesodiastólico, orienta a estenosis mitral.",
+   "pagina": 120,
+   "clase": "cardio-22",
+   "claseTitulo": "4.1 Paciente con Soplo: Semiología y Maniobras Dinámicas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-22&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Pulso_paradojico": {
+   "termino": "Pulso paradójico",
+   "tipo": "Signo",
+   "alias": [
+    "pulso paradójico"
+   ],
+   "def": "Descenso exagerado de la presión arterial en inspiración; signo del taponamiento cardíaco. También aparece en asma grave, EPOC descompensada y TEP masivo.",
+   "pagina": 52,
+   "clase": "cardio-10",
+   "claseTitulo": "2.1 Dolor Torácico Agudo en Urgencias: Enfoque Inicial y Diagnósticos que No se Pueden Pasar",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Ingurgitacion_yugular": {
+   "termino": "Ingurgitación yugular",
+   "tipo": "Signo",
+   "alias": [
+    "ingurgitación yugular",
+    "ingurgitación de las venas yugulares",
+    "ingurgitación"
+   ],
+   "def": "Signo de congestión venosa: en la IC se examina a 45°, y en el taponamiento es marcada (onda x prominente, sin onda y). Parte de la tríada de Beck.",
+   "pagina": 179,
+   "clase": "cardio-34",
+   "claseTitulo": "5.6 Taponamiento Cardíaco y Pericardiocentesis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-34&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Signo_de_Kussmaul": {
+   "termino": "Signo de Kussmaul",
+   "tipo": "Signo",
+   "alias": [
+    "Kussmaul"
+   ],
+   "def": "Aumento de la presión venosa yugular en inspiración; se ve en la pericarditis constrictiva y no en el taponamiento.",
+   "pagina": 179,
+   "clase": "cardio-34",
+   "claseTitulo": "5.6 Taponamiento Cardíaco y Pericardiocentesis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-34&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Triada_de_Beck": {
+   "termino": "Tríada de Beck",
+   "tipo": "Signo",
+   "alias": [
+    "tríada de Beck",
+    "Beck"
+   ],
+   "def": "Hipotensión, ingurgitación yugular y ruidos cardíacos apagados, con pulmones limpios; clásica del taponamiento cardíaco.",
+   "pagina": 179,
+   "clase": "cardio-34",
+   "claseTitulo": "5.6 Taponamiento Cardíaco y Pericardiocentesis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-34&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Signos_perifericos_de_insuficiencia_aortica": {
+   "termino": "Signos periféricos de insuficiencia aórtica",
+   "tipo": "Signo",
+   "alias": [
+    "signo de Musset",
+    "pulso de Corrigan",
+    "signo de Duroziez",
+    "pulso en martillo de agua",
+    "presión de pulso amplia"
+   ],
+   "def": "Pulso de Corrigan, Musset (oscilación de la cabeza), Quincke (pulsación capilar ungueal), Müller y Traube; reflejan una presión de pulso amplia.",
+   "pagina": 127,
+   "clase": "cardio-24",
+   "claseTitulo": "4.3 Insuficiencia Aórtica: Signos Periféricos, Ecocardiograma e Indicación Quirúrgica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-24&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Disnea_paroxistica_nocturna": {
+   "termino": "Disnea paroxística nocturna",
+   "tipo": "Signo",
+   "alias": [
+    "disnea paroxística nocturna",
+    "ortopnea",
+    "DPN"
+   ],
+   "def": "Disnea nocturna que despierta al paciente con IC. Es criterio mayor de Framingham, junto con la ortopnea.",
+   "pagina": 86,
+   "clase": "cardio-16",
+   "claseTitulo": "3.1 Insuficiencia Cardíaca Crónica: Diagnóstico, Fenotipos y Péptidos Natriuréticos",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Estenosis_aortica": {
+   "termino": "Estenosis aórtica",
+   "tipo": "Concepto",
+   "alias": [
+    "estenosis aórtica",
+    "EAo"
+   ],
+   "def": "Obstrucción fija a la salida del VI; la más frecuente es la degenerativa calcificada. Síntomas cardinales: angina, síncope y disnea. Sintomática: reemplazo valvular, sin esperar.",
+   "pagina": 123,
+   "clase": "cardio-23",
+   "claseTitulo": "4.2 Estenosis Aórtica: Semiología, Severidad Ecocardiográfica y Reemplazo Valvular",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-23&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 43
+  },
+  "Insuficiencia_aortica": {
+   "termino": "Insuficiencia aórtica",
+   "tipo": "Concepto",
+   "alias": [
+    "insuficiencia aórtica",
+    "regurgitación aórtica"
+   ],
+   "def": "Reflujo diastólico de la aorta al VI. Cursa con presión de pulso amplia y signos periféricos; el signo de Hill > 60 mmHg es el más sensible de gravedad.",
+   "pagina": 127,
+   "clase": "cardio-24",
+   "claseTitulo": "4.3 Insuficiencia Aórtica: Signos Periféricos, Ecocardiograma e Indicación Quirúrgica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-24&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 13
+  },
+  "Estenosis_mitral": {
+   "termino": "Estenosis mitral",
+   "tipo": "Concepto",
+   "alias": [
+    "estenosis mitral"
+   ],
+   "def": "Estrechamiento del orificio mitral (normal 4 a 6 cm²), casi siempre reumático. Cursa con retumbo diastólico y chasquido de apertura; si hay FA, solo antagonistas de vitamina K.",
+   "pagina": 131,
+   "clase": "cardio-25",
+   "claseTitulo": "4.4 Fiebre Reumática, Prevención y Estenosis Mitral Reumática",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-25&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 16
+  },
+  "Insuficiencia_mitral": {
+   "termino": "Insuficiencia mitral",
+   "tipo": "Concepto",
+   "alias": [
+    "insuficiencia mitral",
+    "regurgitación mitral"
+   ],
+   "def": "Regurgitación sistólica a la aurícula izquierda. Primaria (degeneración mixomatosa) o secundaria al remodelado ventricular. Soplo holosistólico apical irradiado a la axila.",
+   "pagina": 138,
+   "clase": "cardio-26",
+   "claseTitulo": "4.5 Insuficiencia Mitral y Prolapso de la Válvula Mitral",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-26&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Prolapso_de_la_valvula_mitral": {
+   "termino": "Prolapso de la válvula mitral",
+   "tipo": "Concepto",
+   "alias": [
+    "prolapso de la válvula mitral",
+    "prolapso mitral",
+    "prolapso valvular mitral"
+   ],
+   "def": "Degeneración mixomatosa (enfermedad de Barlow): clic mesosistólico con soplo telesistólico; típico de mujeres jóvenes y Marfan.",
+   "pagina": 138,
+   "clase": "cardio-26",
+   "claseTitulo": "4.5 Insuficiencia Mitral y Prolapso de la Válvula Mitral",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-26&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Reemplazo_valvular": {
+   "termino": "Reemplazo valvular",
+   "tipo": "Examen",
+   "alias": [
+    "reemplazo valvular",
+    "recambio valvular",
+    "TAVI",
+    "valvuloplastía"
+   ],
+   "def": "Indicado en la estenosis severa sintomática o con FEVI < 50%. La prótesis mecánica es duradera pero exige anticoagulación de por vida.",
+   "pagina": 123,
+   "clase": "cardio-23",
+   "claseTitulo": "4.2 Estenosis Aórtica: Semiología, Severidad Ecocardiográfica y Reemplazo Valvular",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-23&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Fiebre_reumatica": {
+   "termino": "Fiebre reumática",
+   "tipo": "Concepto",
+   "alias": [
+    "fiebre reumática",
+    "criterios de Jones",
+    "Jones",
+    "cardiopatía reumática",
+    "enfermedad reumática"
+   ],
+   "def": "Enfermedad autoinmune que aparece 2 a 4 semanas después de una faringoamigdalitis estreptocócica. Se diagnostica con criterios de Jones; su secuela es la valvulopatía, sobre todo mitral.",
+   "pagina": 131,
+   "clase": "cardio-25",
+   "claseTitulo": "4.4 Fiebre Reumática, Prevención y Estenosis Mitral Reumática",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-25&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 17
+  },
+  "Cardiopatias_congenitas": {
+   "termino": "Cardiopatías congénitas",
+   "tipo": "Concepto",
+   "alias": [
+    "cardiopatía congénita",
+    "cardiopatías congénitas"
+   ],
+   "def": "Defectos cardíacos de nacimiento. En el adulto, la que más se diagnostica es la CIA; los defectos residuales se derivan a una unidad especializada.",
+   "pagina": 142,
+   "clase": "cardio-27",
+   "claseTitulo": "4.6 Cardiopatías Congénitas del Adulto: CIA, CIV, Ductus y Coartación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-27&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Comunicacion_interauricular": {
+   "termino": "Comunicación interauricular",
+   "tipo": "Concepto",
+   "alias": [
+    "comunicación interauricular",
+    "CIA"
+   ],
+   "def": "La cardiopatía congénita que más se diagnostica en el adulto; el tipo más común es el ostium secundum. Soplo sistólico con desdoblamiento fijo de R2 y bloqueo de rama derecha.",
+   "pagina": 142,
+   "clase": "cardio-27",
+   "claseTitulo": "4.6 Cardiopatías Congénitas del Adulto: CIA, CIV, Ductus y Coartación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-27&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 19
+  },
+  "Comunicacion_interventricular": {
+   "termino": "Comunicación interventricular",
+   "tipo": "Concepto",
+   "alias": [
+    "comunicación interventricular",
+    "CIV"
+   ],
+   "def": "Defecto acianótico más común en el niño; soplo holosistólico rudo «en barra» con frémito. Se cierra si Qp:Qs > 1,5 con sobrecarga ventricular izquierda.",
+   "pagina": 142,
+   "clase": "cardio-27",
+   "claseTitulo": "4.6 Cardiopatías Congénitas del Adulto: CIA, CIV, Ductus y Coartación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-27&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 14
+  },
+  "Ductus_arterioso_persistente": {
+   "termino": "Ductus arterioso persistente",
+   "tipo": "Concepto",
+   "alias": [
+    "ductus arterioso persistente",
+    "ductus arterioso",
+    "ductus",
+    "DAP"
+   ],
+   "def": "Comunicación aorta-arteria pulmonar que debía cerrarse al nacer. Soplo continuo «en maquinaria de vapor» bajo la clavícula izquierda y pulso saltón.",
+   "pagina": 142,
+   "clase": "cardio-27",
+   "claseTitulo": "4.6 Cardiopatías Congénitas del Adulto: CIA, CIV, Ductus y Coartación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-27&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Coartacion_aortica": {
+   "termino": "Coartación aórtica",
+   "tipo": "Concepto",
+   "alias": [
+    "coartación aórtica",
+    "coartación de la aorta",
+    "coartación"
+   ],
+   "def": "Estrechez de la aorta; causa de hipertensión del joven, con signo del 3 y muescas costales (Roesler). Tras la cirugía persisten hipertensión y riesgo de aneurismas.",
+   "pagina": 142,
+   "clase": "cardio-27",
+   "claseTitulo": "4.6 Cardiopatías Congénitas del Adulto: CIA, CIV, Ductus y Coartación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-27&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 14
+  },
+  "Sindrome_de_Eisenmenger": {
+   "termino": "Síndrome de Eisenmenger",
+   "tipo": "Concepto",
+   "alias": [
+    "Eisenmenger"
+   ],
+   "def": "Inversión del cortocircuito por hipertensión pulmonar fija; contraindica el cierre del defecto. El embarazo suele desenmascararla.",
+   "pagina": 142,
+   "clase": "cardio-27",
+   "claseTitulo": "4.6 Cardiopatías Congénitas del Adulto: CIA, CIV, Ductus y Coartación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-27&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Endocarditis_infecciosa": {
+   "termino": "Endocarditis infecciosa",
+   "tipo": "Concepto",
+   "alias": [
+    "endocarditis infecciosa",
+    "endocarditis",
+    "endocarditis bacteriana"
+   ],
+   "def": "Infección microbiana del endocardio con vegetaciones. Se sospecha ante fiebre con soplo nuevo; hemocultivos antes del antibiótico. La subaguda suele ser por Streptococcus viridans.",
+   "pagina": 147,
+   "clase": "cardio-28",
+   "claseTitulo": "4.7 Endocarditis Infecciosa: Criterios de Duke, Tratamiento y Profilaxis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-28&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 36
+  },
+  "Criterios_de_Duke": {
+   "termino": "Criterios de Duke",
+   "tipo": "Concepto",
+   "alias": [
+    "criterios de Duke",
+    "Duke"
+   ],
+   "def": "Criterios modificados para el diagnóstico de endocarditis: definida con 2 mayores, o 1 mayor y 3 menores, o 5 menores. Mayores: hemocultivos típicos y evidencia ecocardiográfica.",
+   "pagina": 147,
+   "clase": "cardio-28",
+   "claseTitulo": "4.7 Endocarditis Infecciosa: Criterios de Duke, Tratamiento y Profilaxis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-28&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Estigmas_perifericos_de_endocarditis": {
+   "termino": "Estigmas periféricos de endocarditis",
+   "tipo": "Signo",
+   "alias": [
+    "nódulos de Osler",
+    "lesiones de Janeway",
+    "manchas de Roth",
+    "hemorragias en astilla"
+   ],
+   "def": "Hemorragias en astilla, nódulos de Osler (dolorosos), lesiones de Janeway (indoloras) y manchas de Roth (retinianas). Son fenómenos inmunológicos o embólicos.",
+   "pagina": 147,
+   "clase": "cardio-28",
+   "claseTitulo": "4.7 Endocarditis Infecciosa: Criterios de Duke, Tratamiento y Profilaxis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-28&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Hipertension_arterial": {
+   "termino": "Hipertensión arterial",
+   "tipo": "Concepto",
+   "alias": [
+    "hipertensión arterial",
+    "HTA",
+    "hipertensión esencial",
+    "hipertensión arterial esencial"
+   ],
+   "def": "Presión elevada sostenida, habitualmente silenciosa, que daña órganos blanco. Se confirma en una visita si ≥ 180/110 mmHg o ≥ 140/90 con daño de órgano blanco; el diabético tiene meta < 130/80.",
+   "pagina": 157,
+   "clase": "cardio-29",
+   "claseTitulo": "5.1 Hipertensión Arterial: Diagnóstico, MAPA y Etapificación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-29&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 39
+  },
+  "Hipertension_arterial_secundaria": {
+   "termino": "Hipertensión arterial secundaria",
+   "tipo": "Concepto",
+   "alias": [
+    "hipertensión secundaria",
+    "HTA secundaria",
+    "hipertensión renovascular",
+    "hiperaldosteronismo primario",
+    "feocromocitoma",
+    "estenosis de la arteria renal"
+   ],
+   "def": "HTA con causa identificable: enfermedad renal, apnea del sueño, hiperaldosteronismo primario (el más frecuente de las endocrinas) y estenosis de la arteria renal.",
+   "pagina": 165,
+   "clase": "cardio-31",
+   "claseTitulo": "5.3 Hipertensión Arterial Secundaria: Cuándo Sospecharla y Cómo Estudiarla",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-31&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 16
+  },
+  "Crisis_hipertensiva": {
+   "termino": "Crisis hipertensiva",
+   "tipo": "Concepto",
+   "alias": [
+    "crisis hipertensiva",
+    "emergencia hipertensiva",
+    "urgencia hipertensiva"
+   ],
+   "def": "Elevación aguda y severa de la presión, PAS ≥ 180 mmHg o PAD ≥ 120 mmHg. Emergencia: con daño agudo de órgano blanco; urgencia: sin daño agudo, sin fármacos endovenosos.",
+   "pagina": 171,
+   "clase": "cardio-32",
+   "claseTitulo": "5.4 Crisis Hipertensivas: Urgencia versus Emergencia Hipertensiva",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-32&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 17
+  },
+  "Encefalopatia_hipertensiva": {
+   "termino": "Encefalopatía hipertensiva",
+   "tipo": "Concepto",
+   "alias": [
+    "encefalopatía hipertensiva"
+   ],
+   "def": "Emergencia hipertensiva con cefalea, vómitos, confusión, convulsiones y papiledema. Se trata con labetalol, nicardipino o nitroprusiato.",
+   "pagina": 171,
+   "clase": "cardio-32",
+   "claseTitulo": "5.4 Crisis Hipertensivas: Urgencia versus Emergencia Hipertensiva",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-32&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Pericarditis_aguda": {
+   "termino": "Pericarditis aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "pericarditis aguda",
+    "pericarditis",
+    "pericarditis constrictiva"
+   ],
+   "def": "Inflamación del pericardio, con o sin derrame; la causa más frecuente es idiopática o viral. Se trata con AINE o aspirina más colchicina; se evitan los anticoagulantes.",
+   "pagina": 175,
+   "clase": "cardio-33",
+   "claseTitulo": "5.5 Pericarditis Aguda",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-33&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 34
+  },
+  "Derrame_pericardico": {
+   "termino": "Derrame pericárdico",
+   "tipo": "Concepto",
+   "alias": [
+    "derrame pericárdico"
+   ],
+   "def": "Líquido en el saco pericárdico, que se busca con ecocardiograma o ecografía a la cabecera. Puede evolucionar a taponamiento cardíaco.",
+   "pagina": 103,
+   "clase": "cardio-19",
+   "claseTitulo": "3.4 Shock Cardiogénico y Diagnóstico Diferencial de los Cuatro Shocks",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Taponamiento_cardiaco": {
+   "termino": "Taponamiento cardíaco",
+   "tipo": "Concepto",
+   "alias": [
+    "taponamiento cardíaco",
+    "taponamiento pericárdico",
+    "taponamiento"
+   ],
+   "def": "Compresión del corazón por derrame pericárdico a tensión; depende de la velocidad de acumulación. Se confirma con ecocardiograma y se trata con pericardiocentesis.",
+   "pagina": 179,
+   "clase": "cardio-34",
+   "claseTitulo": "5.6 Taponamiento Cardíaco y Pericardiocentesis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-34&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 36
+  },
+  "Pericardiocentesis": {
+   "termino": "Pericardiocentesis",
+   "tipo": "Examen",
+   "alias": [
+    "pericardiocentesis",
+    "punción pericárdica"
+   ],
+   "def": "Punción y drenaje del saco pericárdico guiada por ecocardiografía; tratamiento de emergencia del taponamiento. Complicaciones: punción ventricular, arritmias y neumotórax.",
+   "pagina": 179,
+   "clase": "cardio-34",
+   "claseTitulo": "5.6 Taponamiento Cardíaco y Pericardiocentesis",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-34&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 11
+  },
+  "Diseccion_aortica": {
+   "termino": "Disección aórtica",
+   "tipo": "Concepto",
+   "alias": [
+    "disección aórtica",
+    "disección de aorta",
+    "síndrome aórtico agudo"
+   ],
+   "def": "Dolor súbito «desgarrante» que migra a la espalda, con asimetría de pulsos o presión en los brazos. Se confirma con angioTAC; no se antiagrega, anticoagula ni fibrinoliza.",
+   "pagina": 51,
+   "clase": "cardio-10",
+   "claseTitulo": "2.1 Dolor Torácico Agudo en Urgencias: Enfoque Inicial y Diagnósticos que No se Pueden Pasar",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 14
+  },
+  "Clasificacion_de_Stanford": {
+   "termino": "Clasificación de Stanford",
+   "tipo": "Concepto",
+   "alias": [
+    "Stanford tipo A",
+    "Stanford tipo B",
+    "Stanford",
+    "DeBakey"
+   ],
+   "def": "Decide la conducta: tipo A (aorta ascendente), cirugía de emergencia; tipo B (aorta descendente, distal a la subclavia izquierda), manejo médico si no hay complicaciones.",
+   "pagina": 184,
+   "clase": "cardio-35",
+   "claseTitulo": "5.7 Disección Aórtica Aguda",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-35&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Aneurisma_de_aorta_abdominal": {
+   "termino": "Aneurisma de aorta abdominal",
+   "tipo": "Concepto",
+   "alias": [
+    "aneurisma de aorta abdominal",
+    "aneurisma aórtico abdominal",
+    "AAA",
+    "aneurisma aórtico"
+   ],
+   "def": "Dilatación focal de la aorta abdominal con diámetro ≥ 3,0 cm, mayormente infrarrenal. Suele ser asintomático; se detecta con ecografía.",
+   "pagina": 188,
+   "clase": "cardio-36",
+   "claseTitulo": "5.8 Aneurisma de Aorta Abdominal",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-36&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 29
+  },
+  "Sindrome_de_Marfan": {
+   "termino": "Síndrome de Marfan",
+   "tipo": "Concepto",
+   "alias": [
+    "Marfan",
+    "síndrome de Marfan"
+   ],
+   "def": "Enfermedad del tejido conectivo con riesgo de disección aórtica y dilatación de la raíz. Se opera la aorta ascendente a diámetros menores (≥ 45 a 50 mm).",
+   "pagina": 127,
+   "clase": "cardio-24",
+   "claseTitulo": "4.3 Insuficiencia Aórtica: Signos Periféricos, Ecocardiograma e Indicación Quirúrgica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-24&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Tromboembolismo_pulmonar": {
+   "termino": "Tromboembolismo pulmonar",
+   "tipo": "Concepto",
+   "alias": [
+    "tromboembolismo pulmonar",
+    "TEP",
+    "embolia pulmonar",
+    "embolia pulmonar masiva"
+   ],
+   "def": "Obstrucción de arterias pulmonares por un émbolo. Se clasifica en provocado, asociado a cáncer o no provocado, lo que decide la duración de la anticoagulación; el masivo causa shock obstructivo.",
+   "pagina": 191,
+   "clase": "cardio-37",
+   "claseTitulo": "5.9 Tromboembolismo Pulmonar",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-37&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 51
+  },
+  "Trombosis_venosa_profunda": {
+   "termino": "Trombosis venosa profunda",
+   "tipo": "Concepto",
+   "alias": [
+    "trombosis venosa profunda",
+    "TVP",
+    "enfermedad tromboembólica venosa",
+    "ETV"
+   ],
+   "def": "Trombo en el sistema venoso profundo, sobre todo de las piernas. Se estima la probabilidad con Wells para TVP y se confirma con eco-Doppler.",
+   "pagina": 196,
+   "clase": "cardio-38",
+   "claseTitulo": "5.10 Trombosis Venosa Profunda",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-38&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 35
+  },
+  "Escala_de_Wells": {
+   "termino": "Escala de Wells",
+   "tipo": "Concepto",
+   "alias": [
+    "escala de Wells",
+    "score de Wells",
+    "Wells"
+   ],
+   "def": "Puntaje de probabilidad pretest del TEP. Wells ≤ 4: se pide dímero D; Wells > 4: angioTAC directo, sin dímero D.",
+   "pagina": 191,
+   "clase": "cardio-37",
+   "claseTitulo": "5.9 Tromboembolismo Pulmonar",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-37&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 14
+  },
+  "Ecografia_Doppler_venosa": {
+   "termino": "Ecografía Doppler venosa",
+   "tipo": "Examen",
+   "alias": [
+    "ecografía Doppler",
+    "eco Doppler",
+    "ecodoppler",
+    "ecotomografía Doppler",
+    "compresión ecográfica"
+   ],
+   "def": "Examen de elección para confirmar la TVP; con probabilidad alta de TVP se solicita directamente. No se pide en el edema maleolar bilateral y simétrico por amlodipino.",
+   "pagina": 163,
+   "clase": "cardio-30",
+   "claseTitulo": "5.2 Hipertensión Arterial: Tratamiento Farmacológico, Metas y GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-30&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Cor_pulmonale": {
+   "termino": "Cor pulmonale",
+   "tipo": "Concepto",
+   "alias": [
+    "cor pulmonale",
+    "hipertensión pulmonar",
+    "sobrecarga del ventrículo derecho"
+   ],
+   "def": "Falla del ventrículo derecho por enfermedad pulmonar, como la EPOC. Cursa con edema y yugulares ingurgitadas con ventrículo izquierdo normal.",
+   "pagina": 142,
+   "clase": "cardio-27",
+   "claseTitulo": "4.6 Cardiopatías Congénitas del Adulto: CIA, CIV, Ductus y Coartación",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cardiolog%C3%ADa&clase=cardio-27&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cardiologia",
+   "embed": null,
+   "notas": 4
+  }
+ }
+}

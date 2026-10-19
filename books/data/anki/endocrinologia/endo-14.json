@@ -1,0 +1,524 @@
+{
+  "classId": "endo-14",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El hiperaldosteronismo primario está presente en el {{c1::8 al 10%}} de todos los pacientes hipertensos.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · ¿Por qué?",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El hiperaldosteronismo primario está presente hasta en el {{c1::20%}} de los pacientes con hipertensión arterial resistente.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · ¿Por qué?",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El sello bioquímico del hiperaldosteronismo primario es {{c1::aldosterona elevada con renina suprimida}}.",
+      "extra": "El volumen expandido y la presión de perfusión renal frenan la renina.",
+      "origen": "clase:1",
+      "fuente": "Clase · Aldosterona sin freno",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La aldosterona activa el canal {{c1::ENaC}} del túbulo colector cortical: retiene sodio y pierde potasio e hidrogeniones.",
+      "extra": "Resultado: HTA, hipokalemia y alcalosis.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009",
+        "1.09.1.009"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Debes sospechar hiperaldosteronismo en la HTA {{c1::resistente}}: no controlada con 3 antihipertensivos a dosis plenas, uno de ellos diurético.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Sospecha",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Debes sospechar hiperaldosteronismo en la HTA con {{c1::hipokalemia}}, espontánea o inducida por tiazidas en dosis bajas.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Sospecha",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Debes sospechar hiperaldosteronismo primario en la HTA de inicio antes de los {{c1::35-40 años}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Sospecha",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La prueba de tamizaje de primera elección en la sospecha de hiperaldosteronismo es la {{c1::relación aldosterona / renina plasmática (RAR)}}.",
+      "extra": "La imagen se pide solo después de la confirmación bioquímica.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tamizaje",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 32"
+      ],
+      "codigos": [
+        "1.03.1.009",
+        "1.09.1.009"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La RAR sugiere hiperaldosteronismo primario si es mayor de {{c1::20 a 30}}, con aldosterona plasmática mayor de {{c2::15 ng/dL}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Antes de medir la RAR hay que {{c1::corregir la hipokalemia}}, porque la hipokalemia inhibe la aldosterona y da falsos negativos.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · RAR primero",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Antes de medir la RAR se suspende la espironolactona o eplerenona por al menos {{c1::4-6 semanas}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tamizaje",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009",
+        "1.09.1.009"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la sospecha de hiperaldosteronismo, el orden correcto es {{c1::RAR primero, imagen después}}.",
+      "extra": "El error es pedir TC suprarrenal antes de la confirmación bioquímica.",
+      "origen": "clase:15",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El test confirmatorio del hiperaldosteronismo es la {{c1::sobrecarga salina}}: la aldosterona no se suprime.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Confirmación",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La infusión salina confirmatoria usa {{c1::2 litros de suero fisiológico en 4 horas}}; la alternativa oral es sal por 3 días.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Confirmación",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009",
+        "1.09.1.009"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En personas sanas, tras la sobrecarga salina la aldosterona se suprime a menos de {{c1::5-10 ng/dL}}.",
+      "extra": "En el hiperaldosteronismo primario no se suprime.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Confirmación",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009",
+        "1.09.1.009"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La causa más frecuente de hiperaldosteronismo primario es la hiperplasia suprarrenal bilateral, con {{c1::60-65%}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Etiología",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.009",
+        "1.09.1.009"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El adenoma productor de aldosterona (síndrome de Conn) explica el {{c1::30-35%}} de los casos.",
+      "extra": "Es un tumor benigno, unilateral, único y bien delimitado.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009",
+        "1.09.1.009"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El estándar de oro para confirmar la lateralización unilateral es el {{c1::muestreo venoso suprarrenal}} (gradiente aldosterona/cortisol).",
+      "extra": "Se hace en candidatos a cirugía curativa.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Localización",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009",
+        "1.09.1.009"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El hiperaldosteronismo primario es la causa {{c1::endocrinológica más frecuente}} de hipertensión arterial secundaria.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para localizar el origen se pide primero una {{c1::TC de corte fino de las suprarrenales}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Localización",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009",
+        "1.09.1.009"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El adenoma de Conn se trata con {{c1::suprarrenalectomía laparoscópica unilateral}}, que es curativa.",
+      "extra": "Normaliza la kalemia en el 100%.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 82"
+      ],
+      "codigos": [
+        "1.03.1.009",
+        "1.09.1.009"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En la hiperplasia bilateral el tratamiento de elección es {{c1::médico e indefinido}} con antagonistas del receptor mineralocorticoide.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009",
+        "1.09.1.009"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La espironolactona en hiperaldosteronismo se usa en dosis de {{c1::25 a 100 mg/día}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 42"
+      ],
+      "codigos": [
+        "1.03.1.009",
+        "1.09.1.009"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la hiperplasia bilateral no se opera: la {{c1::suprarrenalectomía bilateral}} dejaría una insuficiencia suprarrenal permanente.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro · Pregunta Diciembre 2018",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009",
+        "1.09.1.009"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si la espironolactona causa ginecomastia o disfunción sexual en un varón, se cambia a {{c1::eplerenona}}.",
+      "extra": "La ginecomastia es efecto antiandrogénico de la espironolactona; la eplerenona es selectiva.",
+      "origen": "clase:8",
+      "fuente": "Clase · Quiz",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el hiperaldosteronismo secundario (estenosis de arteria renal) la renina está {{c1::francamente elevada}}, mayor de 5 ng/mL/h.",
+      "extra": "En el primario está suprimida (menor de 0,6 ng/mL/h).",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla primario vs secundario",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el hiperaldosteronismo secundario la RAR es baja o normal, menor de {{c1::10}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla primario vs secundario",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Joven con HTA severa y soplo abdominal en el flanco derecho sugiere {{c1::hipertensión renovascular}}.",
+      "extra": "El estudio inicial es la ecografía Doppler de arterias renales.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 1"
+      ],
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En HTA de difícil control con creatinina algo elevada e hiperkalemia, el estudio a pedir es la {{c1::ecografía Doppler de arterias renales}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 83",
+        "EUNACOM Diciembre 2022 · Pregunta 24"
+      ],
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "HTA resistente con crisis hipertensivas y TAC con lesión suprarrenal de 5 cm, con cefalea y palpitaciones, sugiere {{c1::feocromocitoma}}.",
+      "extra": "El feocromocitoma da crisis paroxísticas, no hipokalemia.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "HTA resistente con buena adherencia: se agrega {{c1::espironolactona}} como cuarto fármaco y se estudia una causa secundaria.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipertenso joven con hipokalemia, Na 150 y K 2,6 mEq/L: la causa más probable es el {{c1::hiperaldosteronismo primario}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 45",
+        "EUNACOM Julio 2016 · Pregunta 59",
+        "EUNACOM Diciembre 2022 · Pregunta 121"
+      ],
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El hiperaldosteronismo primario no tiene GES propio: rigen las garantías de {{c1::hipertensión arterial primaria (GES 21)}} hasta la confirmación y resolución quirúrgica.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Perfil / GES",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/05_endocrinologia/endo-14/01_adenoma_suprarrenal_rm__ctmri_p383.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Adenoma suprarrenal productor de aldosterona (síndrome de Conn)",
+      "clave": "Nódulo pequeño, homogéneo y unilateral en la suprarrenal",
+      "conducta": "Confirmar con RAR y sobrecarga salina; suprarrenalectomía laparoscópica unilateral",
+      "fuente": "CT & MRI Pathology: A Pocket Atlas, p. 383",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_verificadas/105_endo_Hiperaldosteronismo_primario__ctmri_path_p383_1.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Hiperaldosteronismo primario: adenoma de Conn vs hiperplasia bilateral",
+      "clave": "La TAC suprarrenal distingue nódulo unilateral de engrosamiento bilateral",
+      "conducta": "Muestreo venoso suprarrenal; cirugía si es unilateral, espironolactona si es bilateral",
+      "fuente": "CT & MRI Pathology: A Pocket Atlas, p. 383",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.009"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "RAR alta: ¿cómo confirmas y lateralizas?",
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1",
+      "pista": "Adenoma unilateral: ¿qué conducta?",
+      "codigos": [
+        "1.03.1.009"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.2",
+      "pista": "Hiperplasia bilateral: ¿qué tratamiento?",
+      "codigos": [
+        "1.03.1.009"
+      ]
+    }
+  ]
+}

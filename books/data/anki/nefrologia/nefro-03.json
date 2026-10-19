@@ -1,0 +1,381 @@
+{
+  "classId": "nefro-03",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La cifra aislada de creatinina o BUN {{c1::no es indicación}} de diálisis urgente: manda la clínica (AEIOU).",
+      "extra": "Creatinina 8 mg/dL asintomático se maneja médicamente.",
+      "origen": "clase:1",
+      "fuente": "Clase · Creatinina sola",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.023",
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Regla AEIOU: A = {{c1::acidosis}}, E = {{c2::electrolitos (hiperkalemia)}}, I = intoxicaciones, O = sobrecarga de volumen, U = uremia sintomática.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · AEIOU",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.023",
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio A de AEIOU: pH < {{c1::7.15}} refractario a bicarbonato.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla AEIOU",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.023",
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Error frecuente en criterio A: dializar una acidosis {{c1::leve compensada (pH 7.30)}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla AEIOU",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.023",
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio E de AEIOU: K > {{c1::6.5 mEq/L}} con cambios en el ECG o refractaria al manejo médico.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla AEIOU",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.023",
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cambios ECG de hiperkalemia grave: ondas T {{c1::picudas}} y ensanchamiento del {{c2::QRS}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 AEIOU",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.004",
+        "1.09.1.023"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En hiperkalemia grave con ECG alterado, antes de dializar hay que dar {{c1::gluconato de calcio IV}}.",
+      "extra": "Luego insulina + glucosa y salbutamol; la diálisis es para lo refractario.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla AEIOU",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.023",
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hiperkalemia 8.3 mEq/L con bradicardia: conducta inicial {{c1::gluconato de calcio endovenoso}}.",
+      "extra": "Estabiliza la membrana miocárdica.",
+      "origen": "clase:11",
+      "fuente": "Quiz Enero 2023 · P107",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.023",
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Paciente en hemodiálisis que falta a su sesión y presenta tetraparesia y FC 40 lpm: {{c1::hiperkalemia}}.",
+      "extra": "Primer examen: ECG; primer tratamiento: gluconato de calcio IV.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz hiperkalemia",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.023",
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Intoxicaciones dializables (SLIME): {{c1::Salicilatos, Litio, Isopropanol, Metanol, Etilenglicol}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · AEIOU",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.023",
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Error frecuente en criterio I: creer que la intoxicación por {{c1::benzodiacepinas}} se dializa.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla AEIOU",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.023",
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Intoxicación grave por litio con neurotoxicidad y falla renal: tratamiento {{c1::hemodiálisis de urgencia}}.",
+      "extra": "Es pequeño y poco unido a proteínas; el carbón activado no sirve.",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz litio",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.023",
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterio O: edema pulmonar agudo refractario a {{c1::dosis máximas de furosemida IV}} o en paciente anúrico.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 AEIOU",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.004",
+        "1.09.1.023"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa más común de diálisis urgente en el servicio de urgencias es el {{c1::edema pulmonar refractario a diuréticos}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.023",
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Error frecuente en criterio O: esperar horas con {{c1::bolos repetidos de furosemida}} en un anúrico.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla AEIOU",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.023",
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterio U (uremia sintomática): {{c1::pericarditis, encefalopatía o sangrado activo}} por uremia.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 AEIOU",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.004",
+        "1.09.1.023"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La encefalopatía urémica cursa con letargia, mioclonías y {{c1::asterixis}}, y puede llegar a convulsiones o coma.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Síndrome urémico",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.023",
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La pericarditis urémica (roce pericárdico) es {{c1::indicación formal de diálisis urgente}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Síndrome urémico",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.023",
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la diálisis por pericarditis urémica está contraindicada la {{c1::heparina}}, por riesgo de taponamiento hemorrágico.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.023",
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El sangrado mucocutáneo urémico se revierte transitoriamente con {{c1::desmopresina 0.3 mcg/kg}}.",
+      "extra": "Falla la adhesión plaquetaria (factor von Willebrand).",
+      "origen": "clase:2",
+      "fuente": "Clase · Síndrome urémico",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.023",
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Acceso vascular de elección en hemodiálisis de urgencia: catéter de doble lumen (Mahurkar) en la vena {{c1::yugular interna derecha}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Acceso vascular",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.023",
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el acceso vascular para diálisis se debe evitar la vena {{c1::subclavia}}, para no comprometer futuras fístulas arteriovenosas.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Acceso",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Complicación neurológica clásica de la primera sesión de diálisis: {{c1::síndrome de desequilibrio dialítico}} (edema cerebral osmótico).",
+      "extra": "Cefalea, vómitos, agitación, convulsiones.",
+      "origen": "clase:4",
+      "fuente": "Clase · Primera sesión",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.023",
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Prevención del desequilibrio dialítico: sesiones iniciales de {{c1::2 horas}} y a flujo bajo.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Acceso",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La enfermedad renal crónica terminal tiene garantía {{c1::GES}}, con acceso a hemodiálisis y trasplante.",
+      "extra": "El tema de IRA no tiene GES específico.",
+      "origen": "libro:sec:1",
+      "fuente": "Perfil · GES",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.023"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Potasio > 6,5 con ECG alterado: ¿qué das primero?",
+      "codigos": [
+        "1.09.1.023",
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.2",
+      "pista": "Pericarditis urémica: ¿qué diálisis y qué evitas?",
+      "codigos": [
+        "1.09.1.023",
+        "1.09.3.004"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.3",
+      "pista": "Acidosis, tóxico, edema o encefalopatía: ¿qué conducta?",
+      "codigos": [
+        "1.09.1.023",
+        "1.09.3.004"
+      ]
+    }
+  ]
+}

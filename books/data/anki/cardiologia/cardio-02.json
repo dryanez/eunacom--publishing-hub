@@ -1,0 +1,549 @@
+{
+ "classId": "cardio-02",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El paro cardiorrespiratorio se reconoce por inconsciencia, ausencia de respiración (o {{c1::gasping}}) y ausencia de pulso carotídeo.",
+   "extra": "El gasping no es respirar y no debe retrasar la reanimación.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Reconocimiento",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.006",
+    "1.05.2.012"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El pulso carotídeo se busca por no más de {{c1::10 segundos}}; ante la duda, se comprime.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La cadena de supervivencia en Chile tiene {{c1::6 eslabones}}; los tres primeros dependen del primer testigo.",
+   "extra": "Reconocer/activar, RCP inmediata y desfibrilación precoz.",
+   "origen": "clase:2",
+   "fuente": "Clase · Cadena de supervivencia",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La secuencia de la RCP es {{c1::C-A-B}}: primero circulación (compresiones), luego vía aérea y ventilación.",
+   "extra": "En el paro cardíaco presenciado lo que falta es flujo, no oxígeno.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Secuencia",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.006",
+    "1.05.2.012"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sin conciencia, respiración ni pulso, el primer gesto es pedir ayuda e {{c1::iniciar compresiones torácicas}}.",
+   "extra": "No intubar, canalizar, pedir ECG ni dar adrenalina antes.",
+   "origen": "clase:2",
+   "fuente": "Clase · El primer gesto",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 120",
+    "EUNACOM Diciembre 2022 · Pregunta 158",
+    "EUNACOM Agosto 2021 · Pregunta 55",
+    "EUNACOM Julio 2017 · Pregunta 35"
+   ],
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Ante un paro sin conciencia, respiración ni pulso, el error típico es {{c1::intubar o pedir un ECG primero}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El golpe precordial {{c1::no se recomienda}} en el paro.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Secuencia",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.006",
+    "1.05.2.012"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se descarga primero (antes de comprimir) solo si el paro es {{c1::presenciado, monitorizado y con ritmo desfibrilable constatado}}.",
+   "extra": "Se exigen las tres condiciones a la vez.",
+   "origen": "clase:5",
+   "fuente": "Clase · El DEA",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Paro presenciado sin desfibrilador a mano: el error es {{c1::esperar el desfibrilador sin comprimir}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La frecuencia de compresión en el adulto es de {{c1::100 a 120}} por minuto.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla RCP por edad",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La profundidad de compresión en el adulto es de al menos {{c1::5 cm}}, sin exceder {{c2::6 cm}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla RCP por edad",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Compresiones de 3 cm a 140 por minuto: se corrige a {{c1::≥ 5 cm y 100-120 por minuto}}.",
+   "extra": "Error típico: dar pausas para buscar pulso.",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "preguntaReal": [],
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Entre compresiones se debe permitir la {{c1::expansión torácica completa}}, sin apoyarse en el tórax.",
+   "extra": "El retorno elástico llena el ventrículo.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Parámetros",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Las interrupciones de las compresiones deben ser menores de {{c1::10 segundos}}, con fracción de compresión mayor del {{c2::80%}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Compresiones de alta calidad",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se releva al reanimador que comprime cada {{c1::2 minutos}}.",
+   "extra": "La calidad cae a los 1 o 2 minutos aunque no se note.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Parámetros",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Sin vía aérea avanzada la relación compresión:ventilación del adulto es {{c1::30:2}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla RCP por edad",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Con vía aérea avanzada las compresiones son continuas y se da {{c1::1 ventilación cada 6 segundos}}.",
+   "extra": "Evitar la hiperventilación.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Paciente intubado en RCP: el error es seguir con {{c1::30 a 2 e hiperventilar}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Con dos reanimadores en el niño y el lactante, la relación compresión:ventilación es {{c1::15:2}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla RCP por edad",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el niño la profundidad de compresión es de al menos {{c1::1/3 del tórax (≈ 5 cm)}}; en el lactante, ≈ 4 cm.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla RCP por edad",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la embarazada avanzada se desplaza el útero hacia la {{c1::izquierda}} para liberar la vena cava.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Técnica",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Un CO₂ espirado menor de {{c1::10 mmHg}} en la capnografía indica compresiones ineficaces.",
+   "extra": "Un alza súbita sugiere retorno de la circulación espontánea.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La mejor herramienta para monitorizar la calidad de la RCP y confirmar el tubo orotraqueal es la {{c1::capnografía}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Capnografía",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El ritmo inicial más frecuente del paro súbito de origen cardíaco es la {{c1::fibrilación ventricular}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · El DEA",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Sin desfibrilar, la sobrevida cae cerca de un {{c1::10%}} por cada minuto.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · El DEA",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Parches del DEA: uno bajo la clavícula {{c1::derecha}} y otro en la axila {{c2::izquierda}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · El DEA",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras la descarga del DEA se reanuda la RCP de inmediato por {{c1::2 minutos}} sin buscar pulso.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · El DEA",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El DEA {{c1::no se usa}} en un paciente con pulso.",
+   "extra": "Si indica descarga no indicada (asistolia, AESP) se continúa con RCP.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 DEA",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el paro de causa respiratoria (asfixia, ahogamiento, opioides, asma) el ritmo suele ser {{c1::asistolia o AESP}}.",
+   "extra": "La ventilación pesa tanto como las compresiones.",
+   "origen": "clase:6",
+   "fuente": "Clase · Respiratorio y perioperatorio",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En el paro por sobredosis de opioides se agrega {{c1::naloxona}} mientras se reanima.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Paro respiratorio",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.006",
+    "1.05.2.012"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El ahogamiento comienza con {{c1::5 ventilaciones de rescate}}.",
+   "extra": "No se diferencia el manejo entre agua salada y dulce.",
+   "origen": "clase:7",
+   "fuente": "Clase · Situaciones especiales",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En el paro perioperatorio por toxicidad de anestésico local se agrega {{c1::emulsión lipídica al 20%}}.",
+   "extra": "Hipertermia maligna: dantroleno.",
+   "origen": "clase:6",
+   "fuente": "Clase · Paro en pabellón",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el atragantamiento con obstrucción completa del adulto se aplica la maniobra de {{c1::Heimlich}}; si pierde la conciencia, se inicia RCP.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Situaciones especiales",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la embarazada con paro sin respuesta se prepara la {{c1::cesárea de emergencia}}.",
+   "extra": "Mejora el retorno venoso y la sobrevida de la madre.",
+   "origen": "clase:7",
+   "fuente": "Clase · Situaciones especiales",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la hipotermia grave se comprime y se {{c1::recalienta}}: nadie está muerto hasta que está tibio y muerto.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Situaciones especiales",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor torácico opresivo que se desploma sin pulso en el SAPU: pedir ayuda, comprimir y {{c1::conectar el DEA en cuanto esté listo}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Quiz caso clínico",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-02/01_rcp-compresiones-manos-sobre-esternon__blausen.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Posición de las manos para compresiones torácicas",
+   "clave": "Talón de una mano sobre la otra en la mitad inferior del esternón, brazos rectos",
+   "conducta": "100 a 120 por minuto y al menos 5 cm de profundidad",
+   "fuente": "Ilustración: Blausen.com staff (2014), CC BY 3.0",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.006",
+    "1.05.5.010"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Sin pulso ni respiración: ¿qué haces primero?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0.0",
+   "pista": "Descarga indicada: ¿qué sigue?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1",
+   "pista": "Paro de causa respiratoria: ¿qué priorizas?"
+  }
+ ]
+}

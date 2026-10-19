@@ -1,0 +1,523 @@
+{
+  "classId": "diab-22",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El pie diabético resulta de neuropatía, {{c1::enfermedad arterial periférica}} y un traumatismo desencadenante.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Tres componentes y un traumatismo",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.014",
+        "1.02.1.011"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La neuropatía es el componente principal del pie diabético en más del {{c1::80%}} de los casos.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Tres componentes y un traumatismo",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.014",
+        "1.02.1.011"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Neuropatía motora: atrofia de la musculatura intrínseca con dedos {{c1::en garra o martillo}} y cabezas metatarsianas prominentes.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Los componentes",
+      "repaso": false,
+      "imagen": "biblioteca/04_diabetes/diab-22/06_pie-neuropatico__openi.jpg",
+      "codigos": [
+        "1.02.1.011"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Neuropatía autonómica: {{c1::anhidrosis}}, con piel seca, escamosa e hiperqueratósica propensa a fisuras.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Los componentes",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.011"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El examen estándar para detectar la pérdida de sensibilidad protectora es el monofilamento de Semmes-Weinstein {{c1::5.07 (10 gramos)}}.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Libro §2 Tamizaje",
+      "repaso": true,
+      "imagen": "biblioteca/04_diabetes/diab-22/07_monofilamento.jpg",
+      "codigos": [
+        "1.02.1.014"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/04_diabetes/diab-22/07_monofilamento.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Test del monofilamento de 10 g",
+      "clave": "Se apoya perpendicular en la planta hasta que se dobla, 1 a 2 segundos",
+      "conducta": "Un solo punto no percibido define un pie de alto riesgo: educación, calzado y podología",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.014"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El monofilamento se aplica en el 1.º, 3.º y 5.º {{c1::pulpejo digital}} y en las cabezas de los metatarsianos.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Examen del pie",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.014"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Para el tamizaje anual de neuropatía, el error es pedir {{c1::electromiografía}} en vez de monofilamento.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.011"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Wagner 0: pie de riesgo sin úlcera; conducta {{c1::educación, calzado terapéutico y podología}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de Wagner",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 93"
+      ],
+      "codigos": [
+        "1.02.1.014"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Wagner 1: úlcera {{c1::superficial}} (todo el espesor cutáneo) sin tendón ni hueso; conducta descarga y curación avanzada.",
+      "extra": "Típico mal perforante plantar.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de Wagner",
+      "repaso": false,
+      "codigos": [
+        "1.02.5.001"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Wagner 3: úlcera profunda con {{c1::absceso, osteomielitis o artritis séptica}}; hospitalización obligatoria.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de Wagner",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.014"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Wagner 4: gangrena {{c1::localizada}} (dedos, talón o antepié); Wagner 5: gangrena {{c2::extensa de todo el pie}}.",
+      "extra": "Wagner 4 es la lesión negruzca y momificada de dos dedos sin pulsos.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.014"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La úlcera neuropática clásica es {{c1::indolora}}, plantar y con rodete de hiperqueratosis; el pie está tibio y con pulsos.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Úlcera neuropática vs isquémica",
+      "repaso": true,
+      "imagen": "biblioteca/04_diabetes/diab-22/01_ulcera-necrosis-pie-diabetico_2__cto-endocrino_p114.jpg",
+      "codigos": [
+        "1.02.1.011"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/04_diabetes/diab-22/01_ulcera-necrosis-pie-diabetico_2__cto-endocrino_p114.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Úlcera neuropática plantar (mal perforante)",
+      "clave": "Úlcera en zona de apoyo con rodete de callo, indolora, pie tibio con pulsos",
+      "conducta": "Wagner 1: descarga estricta y curación avanzada; estilete óseo para descartar osteomielitis",
+      "fuente": "Manual CTO Endocrinología 14.ª ed., p. 114",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.011",
+        "1.02.5.001"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La úlcera isquémica es distal (pulpejos, bordes), de lecho pálido, {{c1::dolorosa}}, con pie frío y pulsos ausentes.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Úlcera neuropática vs isquémica",
+      "repaso": false,
+      "imagen": "biblioteca/04_diabetes/diab-22/04_ulcera-isquemica__talley_p142.jpg",
+      "codigos": [
+        "1.02.1.011"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/04_diabetes/diab-22/04_ulcera-isquemica__talley_p142.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Úlcera isquémica distal",
+      "clave": "Lecho pálido o necrótico en la punta del dedo, bordes excavados, sin callo",
+      "conducta": "Medir ITB y derivar a cirugía vascular; no desbridar agresivo ni amputar sin evaluar perfusión",
+      "fuente": "Talley and O'Connor, Clinical Examination, p. 142",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.019",
+        "1.02.4.008"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La prueba del estilete óseo (probe-to-bone) positiva confirma {{c1::osteomielitis}} con VPP > 90%.",
+      "extra": "Se clasifica como Wagner 3.",
+      "origen": "foto",
+      "fuente": "Libro §4 Estilete óseo",
+      "repaso": true,
+      "imagen": "biblioteca/04_diabetes/diab-22/05_osteomielitis__ctmri_p522.jpg",
+      "codigos": [
+        "1.02.1.014"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras estilete positivo se pide radiografía simple; en casos precoces es más útil la {{c1::resonancia magnética}}.",
+      "extra": "La resorción cortical y la lisis ósea son tardías.",
+      "origen": "clase:8",
+      "fuente": "Clase · Estilete óseo",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.014"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con estilete que toca hueso, el error es {{c1::curación ambulatoria}}; corresponde hospitalizar.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.5.001"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La medida no quirúrgica más importante para cicatrizar una úlcera plantar es la {{c1::descarga de presión (off-loading)}}.",
+      "extra": "Sin ella ninguna úlcera cicatriza.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.014"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En Wagner 1 el error es usar {{c1::pomadas o antisépticos}}; no se usan povidona, agua oxigenada ni alcohol.",
+      "extra": "Se lava con suero fisiológico tibio.",
+      "origen": "clase:14",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.014"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El cultivo debe ser de {{c1::tejido profundo}} (o biopsia ósea), nunca hisopado superficial.",
+      "extra": "Y solo si hay signos clínicos de infección.",
+      "origen": "clase:9",
+      "fuente": "Clase · Pilares del manejo",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.014"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Celulitis leve, menor de 2 cm: {{c1::cefadroxilo o cloxacilina VO}}, 7 a 14 días.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Antibióticos",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.014"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Infección moderada (celulitis mayor de 2 cm): amoxicilina-clavulánico o {{c1::ciprofloxacino + clindamicina}}, 14 a 21 días.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Antibióticos",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.014"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Infección severa u osteomielitis (Wagner 3 a 5): {{c1::ceftriaxona + metronidazol EV}}.",
+      "extra": "Osteomielitis: según cultivo de biopsia ósea.",
+      "origen": "clase:10",
+      "fuente": "Clase · Antibióticos",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.014"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El tratamiento antibiótico de la osteomielitis dura {{c1::4 a 6 semanas}} en total.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Antibióticos",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.014"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Úlcera plantar purulenta con compromiso de tendones, sin osteomielitis ni sepsis: {{c1::antibióticos EV y desbridación quirúrgica}} hospitalizado.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Pregunta real Julio 2013",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 143"
+      ],
+      "codigos": [
+        "1.02.1.014"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En gangrena localizada (Wagner 4) se estudia la irrigación con {{c1::eco-Doppler o angioTAC}} antes de resecar.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Pilares del manejo",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.008"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En gangrena seca de dedos, el error es la {{c1::amputación mayor}} de entrada.",
+      "extra": "Corresponde estudio vascular y amputación menor.",
+      "origen": "clase:14",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.019",
+        "1.02.4.008"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Índice tobillo-brazo: normal {{c1::0,9 a 1,3}}; < 0,9 confirma enfermedad arterial periférica.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · ITB",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 146"
+      ],
+      "codigos": [
+        "4.01.1.047",
+        "1.02.1.019"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el diabético, un ITB > {{c1::1,3}} es falsamente normal por calcificación; se usa el índice dedo-brazo o eco-Doppler.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · ITB",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.014",
+        "1.02.1.011"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Claudicación a los 120 metros en un diabético fumador con pulsos débiles: el examen de elección es el {{c1::ITB}}.",
+      "extra": "",
+      "origen": "clase:21",
+      "fuente": "Clase · Quiz Enero 2023",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 146"
+      ],
+      "codigos": [
+        "1.02.1.014",
+        "1.02.1.011"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Manejo inicial de la isquemia crónica: suspender tabaco, estatina de alta intensidad y {{c1::aspirina 100 mg}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Pie isquémico",
+      "repaso": false,
+      "codigos": [
+        "4.01.1.047"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Balanopostitis candidiásica recurrente en un adulto: descartar {{c1::diabetes}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "Pregunta real Diciembre 2017",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 74",
+        "EUNACOM Julio 2016 · Pregunta 15"
+      ],
+      "codigos": [
+        "1.02.1.014",
+        "1.02.1.011"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El pie diabético se enmarca en el GES N° {{c1::2}} (Diabetes Mellitus), con canasta integral de curaciones.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Digest · GES",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.014",
+        "4.01.1.051"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1.1",
+      "pista": "Absceso u osteomielitis: ¿conducta?",
+      "codigos": [
+        "1.02.1.014"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Úlcera superficial o con tendón: ¿cómo se maneja?",
+      "codigos": [
+        "1.02.1.014"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.2",
+      "pista": "Gangrena: ¿qué se hace?",
+      "codigos": [
+        "1.02.1.014"
+      ]
+    }
+  ]
+}

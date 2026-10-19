@@ -1,0 +1,485 @@
+{
+  "classId": "endo-04",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el embarazo la hCG estimula débilmente el receptor de TSH y los estrógenos {{c1::duplican la TBG}}.",
+      "extra": "Por eso los rangos normales de TSH de no embarazadas no aplican.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiología materna",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002",
+        "2.01.1.075"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La desyodasa placentaria tipo 3 degrada la T4 a {{c1::T3 reversa}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Por qué cambian las reglas?",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Durante el primer trimestre el feto depende de la {{c1::T4 materna}} para el desarrollo cerebral.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Por qué cambian las reglas?",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta de TSH en el 1° trimestre del embarazo: {{c1::< 2,5 mUI/L}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Metas de TSH",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta de TSH en el 2° y 3° trimestre del embarazo: {{c1::< 3,0 mUI/L}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Metas de TSH",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hipotiroidea conocida que confirma embarazo: subir la levotiroxina {{c1::20 a 30%}} de inmediato.",
+      "extra": "Equivale a 2 comprimidos extra por semana.",
+      "origen": "clase:2",
+      "fuente": "Clase · Regla de oro",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La hipotiroidea que confirma embarazo debe subir la dosis {{c1::de inmediato}}, no esperar el control médico.",
+      "extra": "La demanda fetal parte temprano.",
+      "origen": "clase:2",
+      "fuente": "Clase · Regla de oro",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer de 29 años con levotiroxina 75 mcg, TSH 1,8 y 5 semanas de amenorrea: aumentar la dosis {{c1::25 a 30%}} (2 comprimidos semanales) y TSH en 4 semanas.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro · Pregunta Diciembre 2018",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002",
+        "2.01.1.075"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipotiroidismo clínico gestacional: TSH {{c1::> 2,5}} con T4L baja, o TSH ≥ 10 con cualquier T4L.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002",
+        "2.01.1.075"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipotiroidismo subclínico gestacional: TSH entre {{c1::2,5 y 10}} con T4L normal.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · En la embarazada, se trata",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la embarazada, todo hipotiroidismo clínico o subclínico con TSH > 2,5 se trata con {{c1::levotiroxina}}.",
+      "extra": "Más aún con anti-TPO positivo.",
+      "origen": "clase:3",
+      "fuente": "Clase · En la embarazada, se trata",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Embarazada en primer trimestre con TSH 4,5: {{c1::iniciar levotiroxina}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "Banco de preguntas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 119"
+      ],
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primigesta de 8 semanas con TSH 5,2 y T4L normal: levotiroxina {{c1::50 mcg/día}} y TSH en 4 semanas.",
+      "extra": "Hipotiroidismo subclínico gestacional.",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la embarazada tratada, la TSH se controla cada {{c1::4 semanas}} hasta la mitad del embarazo.",
+      "extra": "Y al menos una vez entre las semanas 26 y 32.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Monitoreo",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.002",
+        "2.01.1.075"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el embarazo se controla además la TSH al menos una vez entre las semanas {{c1::26 y 32}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · En la embarazada, se trata",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El hipotiroidismo materno no tratado aumenta el riesgo de aborto, {{c1::preeclampsia}} y déficit cognitivo del hijo.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla embarazo vs congénito",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa más frecuente de hipotiroidismo en el embarazo es la {{c1::tiroiditis de Hashimoto}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El hipotiroidismo congénito es la primera causa {{c1::prevenible}} de retraso mental.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hipotiroidismo congénito",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.075",
+        "2.01.4.024"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La incidencia de hipotiroidismo congénito en Chile es de 1 cada {{c1::2.500–3.000}} recién nacidos.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hipotiroidismo congénito",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.075",
+        "2.01.4.024"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa más frecuente de hipotiroidismo congénito es la {{c1::disgenesia tiroidea (ectopia)}}, en más del 85%.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hipotiroidismo congénito",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.075",
+        "2.01.4.024"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la disgenesia tiroidea, la ectopia es {{c1::50–60%}} y la agenesia 20–30%.",
+      "extra": "El 10–15% restante es dishormonogénesis.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Congénito",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.002",
+        "2.01.1.075"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Más del {{c1::95%}} de los recién nacidos con hipotiroidismo congénito son asintomáticos por la T4 materna transplacentaria.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Libro §3 Congénito",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-04/01_hipotiroidismo_congenito__nelson_p4372.jpg",
+      "codigos": [
+        "2.01.1.075",
+        "2.01.4.024"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síntomas tardíos del hipotiroidismo congénito: ictericia prolongada, {{c1::macroglosia}}, hernia umbilical, hipotonía y llanto ronco.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Libro §3 Congénito",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-04/02_hipotiroidismo_tratado__nelson_p4372.jpg",
+      "codigos": [
+        "2.01.1.075",
+        "2.01.4.024"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El tamizaje neonatal de hipotiroidismo congénito es {{c1::universal}} y garantizado por GES.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Talón a las 40–48 horas",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.075",
+        "2.01.4.024"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El tamizaje neonatal se toma por punción de talón en papel filtro entre las {{c1::40 y 48 horas}} de vida.",
+      "extra": "Se evita así el pico fisiológico de TSH de las primeras 24 horas.",
+      "origen": "clase:5",
+      "fuente": "Clase · Talón a las 40–48 horas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.075",
+        "2.01.4.024"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se confirma con TSH y T4 libre venosas si la TSH de talón es {{c1::> 15–20}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Talón a las 40–48 horas",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.075",
+        "2.01.4.024"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hipotiroidismo congénito confirmado: levotiroxina {{c1::10–15 mcg/kg/día}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Talón a las 40–48 horas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.075",
+        "2.01.4.024"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La levotiroxina del hipotiroidismo congénito debe iniciarse antes de los {{c1::15 días}} de vida.",
+      "extra": "Garantiza neurodesarrollo normal.",
+      "origen": "clase:5",
+      "fuente": "Clase · Talón a las 40–48 horas",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.075",
+        "2.01.4.024"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Tamizaje neonatal alterado en recién nacido asintomático: {{c1::confirmar de inmediato y tratar}} sin esperar síntomas ni estudios etiológicos.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.075",
+        "2.01.4.024"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tamizaje neonatal de TSH y fenilcetonuria es {{c1::prevención secundaria}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Diciembre 2019",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.075",
+        "2.01.4.024"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Lactante con hipotiroidismo congénito, TSH suprimida y T4 libre sobre lo normal: {{c1::disminuir la dosis}} (sobretratado), no suspender.",
+      "extra": "La glándula no se recupera.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Julio 2019",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 53"
+      ],
+      "codigos": [
+        "2.01.1.075",
+        "2.01.4.024"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hijo de madre con hipotiroidismo post radioyodo por Graves: se piden {{c1::TSH y T4 libre a las 48 horas}} de vida.",
+      "extra": "Los anticuerpos TRAb pueden pasar al niño (pregunta disputada).",
+      "origen": "pregunta_real",
+      "fuente": "Banco de preguntas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 88"
+      ],
+      "codigos": [
+        "1.03.1.002"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "Hipotiroidea conocida embarazada: ¿qué haces con la dosis?",
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.1.0",
+      "pista": "Embarazada con TSH sobre la meta: ¿conducta?",
+      "codigos": [
+        "1.03.1.002"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "Recién nacido: ¿qué tamizaje y cuándo?",
+      "codigos": [
+        "2.01.1.075",
+        "2.01.4.024"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.0.0",
+      "pista": "Congénito confirmado: ¿dosis y plazo?",
+      "codigos": [
+        "1.03.1.002"
+      ]
+    }
+  ]
+}

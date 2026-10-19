@@ -1,0 +1,490 @@
+{
+  "classId": "nefro-04",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el síndrome cardiorrenal tipo 1 el principal mecanismo de la caída de filtración es la {{c1::congestión venosa renal retrógrada}}, no solo el bajo gasto.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Congestión",
+      "repaso": true,
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En congestión venosa, al subir la presión en la vena renal aumenta la presión en el espacio de {{c1::Bowman}} y colapsa el gradiente transglomerular.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Cardiorrenal",
+      "repaso": false,
+      "codigos": [
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En IC descompensada con creatinina elevada, la {{c1::descongestión con furosemida IV}} suele mejorar la función renal.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El síndrome cardiorrenal se clasifica en {{c1::5 tipos}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Cardiorrenal",
+      "repaso": false,
+      "codigos": [
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cardiorrenal tipo 1: {{c1::insuficiencia cardíaca aguda descompensada}} que gatilla IRA.",
+      "extra": "Tipo 2: cardiopatía crónica que induce ERC progresiva.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Cardiorrenal",
+      "repaso": false,
+      "codigos": [
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cardiorrenal tipo 5: enfermedad sistémica (sepsis o {{c1::amiloidosis}}) que daña corazón y riñón a la vez.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Cardiorrenal",
+      "repaso": false,
+      "codigos": [
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterios de Framingham para IC: {{c1::2 mayores o 1 mayor y 2 menores}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Confirmar IC",
+      "repaso": false,
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "BNP > {{c1::100 pg/mL}} o NT-proBNP > {{c2::300 pg/mL}} apoya el diagnóstico de IC; un valor normal casi la descarta.",
+      "extra": "En ERC ambos péptidos suben por menor depuración.",
+      "origen": "clase:2",
+      "fuente": "Clase · Confirmar IC",
+      "repaso": true,
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "FEVI reducida ≤ {{c1::40%}}, levemente reducida {{c2::41–49%}}, preservada ≥ {{c3::50%}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Confirmar IC",
+      "repaso": true,
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Cuatro pilares de la IC con FEVI reducida: IECA/ARA-II (o sacubitrilo-valsartán), {{c1::betabloqueador}}, {{c2::espironolactona}} e {{c3::iSGLT2}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Cuatro pilares",
+      "repaso": true,
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Betabloqueadores de la IC: {{c1::carvedilol, bisoprolol o metoprolol succinato}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Cuatro pilares",
+      "repaso": false,
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los diuréticos de asa en IC se usan solo para {{c1::aliviar la congestión}}; no mejoran el pronóstico.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Cuatro pilares",
+      "repaso": false,
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "IC sintomática pese a IECA y betabloqueo (con furosemida): el siguiente fármaco que aumenta la sobrevida es {{c1::espironolactona}}.",
+      "extra": "Controlar potasio y función renal.",
+      "origen": "clase:12",
+      "fuente": "Pregunta real",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 153",
+        "EUNACOM Diciembre 2017 · Pregunta 8",
+        "EUNACOM Diciembre 2018 · Pregunta 93",
+        "EUNACOM Julio 2025 · Pregunta 1"
+      ],
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En IC con enalapril (IECA) no se suma {{c1::losartán}}: el doble bloqueo del sistema renina-angiotensina da hiperkalemia y falla renal sin beneficio.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz 153",
+      "repaso": false,
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En IC con hipertensión sin betabloqueo, el fármaco a agregar para aumentar la sobrevida es {{c1::carvedilol}}.",
+      "extra": "El betabloqueo aumenta la sobrevida.",
+      "origen": "clase:3",
+      "fuente": "Pregunta real",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 10"
+      ],
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En IC descompensada con nifedipino, el fármaco que se debe {{c1::suspender}} es el nifedipino, por su efecto inotrópico negativo.",
+      "extra": "Se debería agregar betabloqueo con cuidado.",
+      "origen": "libro:sec:4",
+      "fuente": "Pregunta real",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 135",
+        "EUNACOM Diciembre 2019 · Pregunta 123"
+      ],
+      "codigos": [
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Náuseas y descompensación de IC en un paciente con insuficiencia renal que usa digoxina: se pide {{c1::nivel plasmático de digoxina}} (sospecha de intoxicación digitálica).",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Pregunta real",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 5"
+      ],
+      "codigos": [
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Al iniciar IECA/ARA-II con riñón comprometido se acepta un alza de creatinina de hasta {{c1::30%}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Descompensada y riñón",
+      "repaso": true,
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Al iniciar IECA/ARA-II, con K > {{c1::5.5 mEq/L}} o mayor alza de creatinina se reevalúa la dosis.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Descompensada y riñón",
+      "repaso": false,
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En IC aguda descompensada se da oxígeno si SpO2 < {{c1::90%}}, furosemida IV y vasodilatadores si la presión lo permite.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 IC",
+      "repaso": false,
+      "codigos": [
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síndrome hepatorrenal es una falla renal {{c1::funcional}} por vasodilatación esplácnica y vasoconstricción renal refleja.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En SHR la vasodilatación esplácnica está mediada por {{c1::óxido nítrico}}; se activan el simpático y el eje renina-angiotensina.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hepatorrenal",
+      "repaso": false,
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "SHR: sodio urinario muy bajo y sedimento {{c1::normal}}.",
+      "extra": "Na urinario < 10 mEq/L por vasoconstricción renal extrema.",
+      "origen": "clase:4",
+      "fuente": "Clase · Hepatorrenal",
+      "repaso": false,
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El síndrome hepatorrenal es un diagnóstico de {{c1::exclusión}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio SHR: Cr sube ≥ {{c1::0.3 mg/dL en 48 h}} o ≥ {{c2::50%}} sobre el basal, en cirrosis con ascitis.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla SHR",
+      "repaso": false,
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Prueba obligatoria para SHR: suspender diuréticos y dar {{c1::albúmina 1 g/kg/día}} (máx 100 g) por {{c2::48 horas}} sin mejoría.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla SHR",
+      "repaso": true,
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "SHR exige proteinuria < {{c1::500 mg/día}} y sin hematuria (< 50 hematíes).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla SHR",
+      "repaso": false,
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para diagnosticar SHR no debe haber {{c1::shock, nefrotóxicos (AINE, aminoglucósidos, contraste) ni daño parenquimatoso}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de elección del SHR: {{c1::terlipresina}} 1–2 mg c/4–6 h IV + albúmina 20–40 g/día.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento SHR",
+      "repaso": true,
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa a terlipresina en UCI para SHR: {{c1::noradrenalina IV + albúmina}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento SHR",
+      "repaso": false,
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Única terapia curativa del síndrome hepatorrenal: {{c1::trasplante hepático}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento SHR",
+      "repaso": true,
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "Garantías GES de este tema: {{c1::GES #3 Insuficiencia Cardíaca y GES #74 Cirrosis Hepática}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Perfil · GES",
+      "repaso": false,
+      "codigos": [
+        "1.01.1.018"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Cardiorrenal tipo 1: ¿qué conducta?",
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Cirrosis con ascitis y alza de creatinina: ¿qué haces primero?",
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1",
+      "pista": "Sin mejoría con albúmina a las 48 h: ¿qué diagnóstico y tratamiento?",
+      "codigos": [
+        "1.06.2.012",
+        "1.01.1.018"
+      ]
+    }
+  ]
+}

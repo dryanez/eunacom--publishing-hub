@@ -1,0 +1,510 @@
+{
+  "classId": "hem-13",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hemofilia A y B se heredan de forma {{c1::recesiva ligada al cromosoma X}}.",
+      "extra": "Afecta a varones; las mujeres son portadoras asintomáticas.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Genética",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Una madre portadora transmite la hemofilia al {{c1::50 %}} de sus hijos varones.",
+      "extra": "Y el estado de portadora al 50 % de sus hijas.",
+      "origen": "clase:1",
+      "fuente": "Clase · Hemofilia ligada al X",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hasta un {{c1::30 %}} de las hemofilias no tiene antecedente familiar: son mutaciones de novo.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Hemofilia ligada al X",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hemofilia A es déficit de factor {{c1::VIII}} (85 % de los casos) y la hemofilia B de factor {{c2::IX}} (15 %).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Tenasa",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El factor VIIIa y el IXa forman el complejo {{c1::tenasa}}, que activa el {{c2::factor X}} sobre la plaqueta activada.",
+      "extra": "Sin tenasa no hay explosión de trombina ni coágulo de fibrina.",
+      "origen": "clase:2",
+      "fuente": "Clase · Tenasa",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hemofilia severa: actividad del factor menor a {{c1::1 %}}.",
+      "extra": "Hemartrosis desde la lactancia.",
+      "origen": "clase:3",
+      "fuente": "Clase · Gravedad",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hemofilia moderada: actividad del factor entre {{c1::1 % y 5 %}}.",
+      "extra": "Sangrado espontáneo ocasional y grave ante traumas leves.",
+      "origen": "clase:3",
+      "fuente": "Clase · Gravedad",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hemofilia leve: actividad del factor entre {{c1::5 % y 40 %}}.",
+      "extra": "No sangra espontáneamente; se descubre en cirugía, exodoncia o preoperatorio.",
+      "origen": "clase:3",
+      "fuente": "Clase · Gravedad",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La manifestación cardinal de la hemofilia severa es la {{c1::hemartrosis}}.",
+      "extra": "Más del 75 % de los sangrados; rodilla, codo, tobillo, hombro y cadera.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.006",
+        "1.08.2.003"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 159"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El depósito de {{c1::hemosiderina}} en la sinovial causa sinovitis crónica y artropatía hemofílica.",
+      "extra": "Destruye el cartílago; termina en anquilosis y atrofia muscular.",
+      "origen": "clase:4",
+      "fuente": "Clase · Hemartrosis",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El hematoma del {{c1::psoas}} da dolor lumbar o en fosa ilíaca, cadera en flexión y parestesias del nervio femoral.",
+      "extra": "Engaña como un cuadro abdominal o de columna.",
+      "origen": "clase:5",
+      "fuente": "Clase · Hematomas peligrosos",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En hemofilia, las plaquetas y el TP son {{c1::normales}} y el {{c2::TTPK}} está francamente prolongado.",
+      "extra": "El TTPK corrige con plasma normal (mezcla 1:1).",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 159"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El diagnóstico definitivo y la distinción entre hemofilia A y B se hacen {{c1::dosificando los factores VIII y IX}}.",
+      "extra": "Niño con TTPA triplicado y hermano muerto por hemorragia: pedir factores VIII y IX.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Enero 2023",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 35",
+        "EUNACOM Diciembre 2022 · Pregunta 135"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante una hemartrosis en hemofílico, lo primero es {{c1::infundir el factor de inmediato}}, sin esperar radiografía ni TAC.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En hemofilia A, 1 UI/kg de factor VIII eleva el nivel plasmático en {{c1::2 %}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hemartrosis en hemofilia A: factor VIII a {{c1::25–30 UI/kg}}, con meta de {{c2::40–50 %}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Sangrado del SNC o politrauma en hemofilia A: factor VIII a {{c1::50 UI/kg}}, meta {{c2::100 %}}, antes del TAC.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En hemofilia B, 1 UI/kg de factor IX eleva el nivel en {{c1::1 %}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hemofilia B: factor IX a {{c1::40–50 UI/kg}} en hemartrosis y {{c2::100 UI/kg}} en sangrado vital.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En hemofilia nunca se indican {{c1::aspirina ni AINE}}; la analgesia es con {{c2::paracetamol u opioides}}.",
+      "extra": "Inhiben las plaquetas y pueden precipitar hemorragias masivas.",
+      "origen": "clase:11",
+      "fuente": "Clase · Lo que nunca se hace",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el hemofílico están prohibidas las inyecciones {{c1::intramusculares}}.",
+      "extra": "Riesgo de hematoma sofocante.",
+      "origen": "clase:11",
+      "fuente": "Clase · Lo que nunca se hace",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La artrocentesis de una hemartrosis está contraindicada, salvo sospecha de {{c1::artritis séptica}} y con factor al {{c2::100 %}}.",
+      "extra": "Niño con rodilla a tensión y TTPK largo: factor VIII, no aguja.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz hemartrosis",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La hemofilia y otras coagulopatías congénitas están cubiertas por el {{c1::GES N° 32}}.",
+      "extra": "Incluye profilaxis domiciliaria y tratamiento a demanda con factores liofilizados.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 GES",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.006",
+        "1.08.2.003"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La enfermedad de von Willebrand es el trastorno hemorrágico hereditario {{c1::más frecuente}}; se hereda de forma {{c2::autosómica dominante}}.",
+      "extra": "Afecta por igual a hombres y mujeres.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 von Willebrand",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.006",
+        "2.01.1.036"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El von Willebrand permite la adhesión de la plaqueta al colágeno por el receptor {{c1::GP Ib}} y {{c2::transporta el factor VIII}}.",
+      "extra": "Por eso falla la hemostasia primaria y también baja el VIII.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 von Willebrand",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.006",
+        "2.01.1.036"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Von Willebrand tipo 1: déficit {{c1::parcial}} del factor, con {{c2::75 a 80 %}} de los casos.",
+      "extra": "Sangrado mucocutáneo leve a moderado.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tres tipos",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Von Willebrand tipo 2: déficit {{c1::cualitativo}} (15 %); tipo 3: ausencia total, autosómica {{c2::recesiva}}.",
+      "extra": "El tipo 3 tiene VIII menor a 1–2 % y se parece a una hemofilia severa con hemartrosis.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tres tipos",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El von Willebrand sangra por las {{c1::mucosas}}: epistaxis, menorragia, equimosis y sangrado tras exodoncia.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla comparativa",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 164",
+        "EUNACOM Diciembre 2022 · Pregunta 23"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En von Willebrand el TTPK es {{c1::normal o levemente prolongado}}, según cuánto baje el factor VIII.",
+      "extra": "Un TTPA normal no lo descarta.",
+      "origen": "clase:8",
+      "fuente": "Clase · Qué examen pedir",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 22",
+        "EUNACOM Julio 2017 · Pregunta 28",
+        "EUNACOM Diciembre 2019 · Pregunta 130",
+        "EUNACOM Julio 2013 · Pregunta 77",
+        "EUNACOM Julio 2015 · Pregunta 14"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Adolescente con menorragia desde la menarquia y epistaxis, plaquetas y TTPA normales: se estudia {{c1::von Willebrand}}.",
+      "extra": "Sospecha de hemostasia alterada tras ecografía ginecológica normal: estudio de hemostasia.",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz Agosto 2021",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.005"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 78"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En el von Willebrand tipo 1 el fármaco de elección es la {{c1::desmopresina (DDAVP)}}.",
+      "extra": "Libera las reservas endoteliales de vWF y VIII.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.006",
+        "1.08.2.003"
+      ]
+    },
+    {
+      "id": "c36",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La desmopresina tiene efecto antidiurético: vigilar {{c1::hiponatremia}} y limitar líquidos.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Desmopresina",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    },
+    {
+      "id": "c37",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En hemorragia grave o von Willebrand tipos 2 y 3 se usa {{c1::concentrado de factor VIII con vWF}}.",
+      "extra": "El ácido tranexámico es coadyuvante en sangrado oral o exodoncia, no en hematuria.",
+      "origen": "clase:10",
+      "fuente": "Clase · Casos graves",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-13/02_hematoma_psoas_tc__nelson_p3858.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Hematoma del psoas en hemofilia",
+      "clave": "Aumento de volumen del músculo psoas en la tomografía de abdomen",
+      "conducta": "Infundir factor VIII o IX de inmediato; evitar inyecciones y AINE",
+      "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 3858",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_verificadas/019_hem_Pruebas_de_coagulación_Hemofil__Zitelli_p466.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Hemartrosis aguda de rodilla en niño con hemofilia",
+      "clave": "Rodilla globulosa, caliente y a tensión",
+      "conducta": "Factor de inmediato; no puncionar; inmovilizar y frío local",
+      "fuente": "Zitelli y Davis, Atlas of Pediatric Physical Diagnosis, p. 466",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.006"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Varón con hemartrosis y TTPK largo: ¿qué se sospecha?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Von Willebrand tipo 1: ¿qué fármaco?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "Von Willebrand grave o tipos 2 y 3: ¿qué se infunde?"
+    }
+  ]
+}

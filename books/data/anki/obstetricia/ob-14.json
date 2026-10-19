@@ -1,0 +1,508 @@
+{
+  "classId": "ob-14",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "RPM: pérdida de continuidad de las membranas con salida de líquido amniótico {{c1::antes del inicio del trabajo de parto}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro · ¿Por qué?",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diagnóstico de RPM: {{c1::especuloscopía estéril}}, nunca tacto vaginal digital.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 75"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El tacto vaginal digital en sospecha de RPM {{c1::acorta la latencia}} y multiplica la infección intraamniótica.",
+      "extra": "Error frecuente en la tabla de trampas.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Maniobras para evidenciar el líquido en la especuloscopía: {{c1::Valsalva}} o empujar la presentación (Tarnier).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Especuloscopía",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Test de cristalización: líquido seco con aspecto de {{c1::hoja de helecho}} por sales de sodio y mucina.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Pruebas auxiliares",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 75"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Test de nitrazina: el papel vira a azul con pH {{c1::> 6.5}}; el pH vaginal normal es 3.8-4.5.",
+      "extra": "Falsos positivos: semen, sangre, orina infectada, vaginosis.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Pruebas auxiliares",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Nitrazina con pH ácido (5) y especuloscopía normal: RPM poco probable; {{c1::conducta expectante}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Jul 2018 · P121",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2018 · Pregunta 121"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Biomarcador de elección ante duda: {{c1::PAMG-1}} (AmniSure), con sensibilidad y especificidad > 98-99%.",
+      "extra": "También IGFBP-1 (Actim PROM).",
+      "origen": "clase:1",
+      "fuente": "Clase · Cómo confirmas",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 75",
+        "EUNACOM Julio 2016 · Pregunta 16"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Corte clave del manejo de la RPM: las {{c1::34 semanas}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Manejo según EG",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "RPM con 34 semanas o más sin infección: {{c1::inducir el parto}} de inmediato.",
+      "extra": "El riesgo de esperar supera al de la prematuridad.",
+      "origen": "clase:2",
+      "fuente": "Clase · Manejo",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 16",
+        "EUNACOM Julio 2015 · Pregunta 165",
+        "EUNACOM Diciembre 2019 · Pregunta 103",
+        "EUNACOM Julio 2019 · Pregunta 128"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "RPM de 34 semanas o más: el error es {{c1::esperar el inicio espontáneo}} del parto.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si el Bishop es desfavorable en RPM ≥ 34 semanas, la maduración se hace con {{c1::misoprostol}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Manejo ≥ 34 sem",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 96"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "RPM ≥ 34 semanas: profilaxis con {{c1::penicilina o ampicilina EV}} si SGB (+) o desconocido, o latencia > 12-18 horas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Manejo ≥ 34 sem",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "RPM entre 24 y 33+6 semanas sin infección: {{c1::manejo expectante}} con hospitalización en ARO.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Manejo 24-33+6",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antibióticos de latencia: {{c1::ampicilina más eritromicina}}, EV por 48 horas y luego oral hasta 7 días.",
+      "extra": "Prolongan la latencia y bajan la sepsis neonatal.",
+      "origen": "clase:4",
+      "fuente": "Clase · Fármacos",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Ampicilina EV de latencia: {{c1::2 g cada 6 horas}} por 48 horas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Antibióticos de latencia",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Eritromicina EV de latencia: {{c1::250 mg cada 6 horas}} por 48 horas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Antibióticos de latencia",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fase oral de latencia: amoxicilina {{c1::500 mg cada 8 horas}} más eritromicina (o azitromicina 1 g única) hasta 7 días.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Antibióticos de latencia",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Corticoides de maduración pulmonar: betametasona {{c1::12 mg IM cada 24 horas por 2 dosis}}.",
+      "extra": "Entre 24 y 34 semanas.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Corticoides",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 85"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa a betametasona: dexametasona {{c1::6 mg IM cada 12 horas por 4 dosis}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Corticoides",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Neuroprotección fetal: {{c1::sulfato de magnesio}} si el parto es inminente en < 32 semanas.",
+      "extra": "Reduce la parálisis cerebral.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Sulfato de magnesio: bolo de {{c1::4-5 g}} en 30 minutos y luego 1 g/h.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Neuroprotección",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la RPM la tocolisis de rescate dura como máximo {{c1::48 horas}}, para completar los corticoides.",
+      "extra": "Nunca como mantenimiento.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tocolisis de rescate",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "RPM menor de 24 semanas (previable): {{c1::consejería familiar}} sobre hipoplasia pulmonar y deformidades.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de manejo por EG",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio mayor de Gibbs: fiebre materna axilar {{c1::≥ 38.0°C}} en dos tomas (o ≥ 38.5°C en una).",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Criterios de Gibbs",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Corioamnionitis: fiebre más {{c1::2 o más}} criterios menores (taquicardia, dolor uterino, fetidez, leucocitosis).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Corioamnionitis",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Gibbs: taquicardia materna > 100 lpm y taquicardia fetal sostenida {{c1::> 160 lpm}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Criterios de Gibbs",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Gibbs: leucocitosis materna {{c1::> 15.000/mm³}} con desviación izquierda.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Criterios de Gibbs",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Corioamnionitis clínica contraindica {{c1::corticoides y tocolisis}}; no se espera nada.",
+      "extra": "Error frecuente: dar corticoides o tocolíticos.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Corioamnionitis: {{c1::interrumpir el embarazo ya}}, sin importar la edad gestacional.",
+      "extra": "Gana sobre el corte de 34 semanas.",
+      "origen": "clase:12",
+      "fuente": "Clase · Reglas de oro",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 105",
+        "EUNACOM Julio 2016 · Pregunta 66"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antibióticos de la corioamnionitis: {{c1::ampicilina 2 g cada 6 horas}} más gentamicina 5 mg/kg/día EV.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Conducta",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si la corioamnionitis termina en cesárea, se agrega {{c1::clindamicina}} 900 mg cada 8 horas EV para anaerobios.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Conducta",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la corioamnionitis la vía de parto preferente es la {{c1::vaginal}} (inducción rápida); cesárea solo por distocia.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Conducta",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antibióticos de la corioamnionitis se mantienen hasta {{c1::48 horas afebril}} postparto.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Conducta",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-14/01_cristalizacion_helecho__commons.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Test de cristalización en hoja de helecho positivo (líquido amniótico)",
+      "clave": "Cristales arboriformes de sales de sodio y mucina al microscopio",
+      "conducta": "Confirma RPM: ≥ 34 sem inducir; < 34 sem manejo expectante en ARO",
+      "fuente": "Wikimedia Commons «Positive Fern Test.jpg», CC BY-SA 2.0",
+      "codigos": [
+        "3.01.2.014"
+      ],
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "RPM con fiebre y 2 criterios de Gibbs: ¿qué diagnóstico y conducta?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1",
+      "pista": "RPM de 34 semanas o más sin infección: ¿qué haces?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.2",
+      "pista": "RPM menor de 34 semanas sin infección: ¿qué haces?"
+    }
+  ]
+}

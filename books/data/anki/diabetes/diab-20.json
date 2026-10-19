@@ -1,0 +1,424 @@
+{
+  "classId": "diab-20",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La nefropatía diabética es la {{c1::primera causa}} de enfermedad renal terminal y de ingreso a hemodiálisis.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Del glomérulo a la diálisis",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.014",
+        "1.02.1.009"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La nefropatía diabética parte con {{c1::hiperfiltración glomerular}}, que sube la presión intraglomerular.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Del glomérulo a la diálisis",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.014",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La lesión anatomopatológica clásica de la nefropatía diabética es la glomeruloesclerosis nodular de {{c1::Kimmelstiel-Wilson}}.",
+      "extra": "Con engrosamiento de la membrana basal e hipertrofia mesangial.",
+      "origen": "foto",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": true,
+      "imagen": "biblioteca/04_diabetes/diab-20/01_glomeruloesclerosis_nodular_esquema__goljan_p1050.jpg",
+      "codigos": [
+        "1.09.1.014",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/04_diabetes/diab-20/01_glomeruloesclerosis_nodular_esquema__goljan_p1050.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Glomeruloesclerosis nodular de Kimmelstiel-Wilson",
+      "clave": "Nódulos mesangiales en el glomérulo, con membrana basal engrosada",
+      "conducta": "Tamizaje anual con RAC; si hay albuminuria persistente, IECA o ARA II",
+      "fuente": "Goljan, Rapid Review Pathology, Link 20-48",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.004"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La albuminuria es el {{c1::primer signo detectable}} de la nefropatía diabética.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Del glomérulo a la diálisis",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.014",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En DM2 el tamizaje de nefropatía parte {{c1::desde el diagnóstico}} y luego cada 12 meses.",
+      "extra": "Hay años de hiperglicemia asintomática previa.",
+      "origen": "clase:2",
+      "fuente": "Clase · Tamizaje",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.010",
+        "1.09.1.014"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En DM1 el tamizaje de nefropatía parte a los {{c1::5 años}} del debut y luego es anual.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Tamizaje",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.010",
+        "1.09.1.014"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En DM2 recién diagnosticada, el error es {{c1::esperar 5 años}} como en DM1 para pedir la RAC.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El examen de tamizaje de elección es la razón albúmina/creatinina (RAC) en {{c1::la primera orina de la mañana}}.",
+      "extra": "Se expresa en mg/g.",
+      "origen": "clase:2",
+      "fuente": "Clase · Tamizaje",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.004"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La orina de 24 horas ya no se recomienda como tamizaje porque es {{c1::engorrosa y propensa a errores}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Tamizaje",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Albuminuria A1 (normal a mínima): RAC < {{c1::30 mg/g}}.",
+      "extra": "Control anual; sin IECA si es normotenso.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla KDIGO",
+      "repaso": true,
+      "codigos": [
+        "1.02.4.004"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Albuminuria A2 (antigua microalbuminuria): RAC {{c1::30 a 299 mg/g}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla KDIGO",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.004",
+        "1.02.4.019"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Albuminuria A3 (antigua macroalbuminuria): RAC ≥ {{c1::300 mg/g}}.",
+      "extra": "Riesgo muy alto.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla KDIGO",
+      "repaso": true,
+      "codigos": [
+        "1.02.4.004"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La albuminuria patológica exige {{c1::2 de 3 muestras}} positivas en un lapso de 3 a 6 meses.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Clasificar y confirmar",
+      "repaso": true,
+      "codigos": [
+        "1.02.4.004"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El error clásico es etiquetar nefropatía con {{c1::una sola RAC alterada}}; se repite.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.010",
+        "1.09.1.014"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Falsos positivos de la RAC: ITU, fiebre, ejercicio intenso, {{c1::hematuria}} e insuficiencia cardíaca aguda.",
+      "extra": "Se trata la causa y se repite la RAC.",
+      "origen": "clase:3",
+      "fuente": "Clase · Clasificar y confirmar",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.009"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer diabética con RAC 140 mg/g y fiebre con ITU: se {{c1::trata la ITU y se repite la RAC}} al resolverse.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz RAC",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.014",
+        "1.02.1.009"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primera RAC de 85 mg/g, sin ITU ni ejercicio: {{c1::repetir la RAC}} para confirmar con 2 de 3 muestras en 3 a 6 meses.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz microalbuminuria",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.004",
+        "1.02.4.019"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Con albuminuria persistente (RAC ≥ 30 mg/g) se indica {{c1::IECA o ARA II}}, incluso en normotensos.",
+      "extra": "Enalapril o losartán.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Nefroprotección",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 76"
+      ],
+      "codigos": [
+        "1.09.1.014",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El error clásico es no tratar la albuminuria porque {{c1::la PA es normal}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.02.4.004"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los IECA y ARA II dilatan la {{c1::arteriola eferente}} y bajan la presión intraglomerular.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Nunca se combinan {{c1::IECA y ARA II}}: hiperkalemia y falla renal aguda sin beneficio.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.009"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Los iSGLT2 (dapagliflozina, empagliflozina) se agregan al diabético con ERC si la VFG es > {{c1::20–25 ml/min}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Nefroprotección",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.014",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En A3 (RAC ≥ 300 mg/g): IECA o ARA II a {{c1::dosis máxima}}, iSGLT2 y derivar.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla KDIGO",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diabético con nefropatía, HTA reciente, creatinina 1,5 y proteinuria: tratamiento de elección {{c1::enalapril}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Pregunta real Enero 2023",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 84",
+        "EUNACOM Julio 2015 · Pregunta 62",
+        "EUNACOM Diciembre 2018 · Pregunta 114"
+      ],
+      "codigos": [
+        "1.09.1.014",
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diabético con índice proteinuria/creatininuria de 0,3: está indicado {{c1::un IECA}}, independiente de la cifra de presión.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz Julio 2013",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.014",
+        "1.02.4.004"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer de 67 años con clearance de 12 mL/min, HbA1c 8,5% y RAC 1.100 mg/g: el examen dio como correcta la {{c1::semaglutida}}.",
+      "extra": "Metformina contraindicada (VFG < 30) e iSGLT2 solo con VFG > 20–25.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz Diciembre 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 37"
+      ],
+      "codigos": [
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La nefropatía diabética se enmarca en el GES N° {{c1::2}} (Diabetes Mellitus Tipo 2) y en el GES de Enfermedad Renal Crónica.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Digest · GES",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.014",
+        "1.02.1.010"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "RAC ≥ 30: ¿qué se hace antes de etiquetar?",
+      "codigos": [
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1",
+      "pista": "A2 confirmada: ¿qué se indica?",
+      "codigos": [
+        "1.02.1.010"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.2",
+      "pista": "A3 confirmada: ¿conducta?",
+      "codigos": [
+        "1.02.1.010"
+      ]
+    }
+  ]
+}

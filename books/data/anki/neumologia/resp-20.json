@@ -1,0 +1,637 @@
+{
+ "classId": "resp-20",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hemoptisis es sangre que viene del árbol traqueobronquial o parénquima {{c1::bajo la glotis}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · ¿Qué es, y cuándo es amenazante?",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.019"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hay que diferenciar la hemoptisis de la {{c1::hematemesis}} y de la epistaxis posterior.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · ¿Qué es, y cuándo es amenazante?",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.019"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hemoptisis: sale con tos y carraspeo, es {{c1::rojo rutilante y espumosa}}, de pH alcalino.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Tabla de trampas hemoptisis vs hematemesis",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.019"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hematemesis: sale con náuseas y vómitos, es oscura en concho de café y de pH {{c1::ácido}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Tabla de trampas hemoptisis vs hematemesis",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.019"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hemoptisis contiene mucus y {{c1::macrófagos alveolares}}; la hematemesis, restos de alimentos.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Tabla de trampas hemoptisis vs hematemesis",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.019"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pródromo de la hemoptisis: {{c1::cosquilleo laríngeo}} y opresión torácica; de la hematemesis: dolor epigástrico y náuseas.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Tabla de trampas hemoptisis vs hematemesis",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.019"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas frecuentes de hemoptisis: bronquiectasias, cáncer, TBC y {{c1::aspergiloma}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Tabla de trampas hemoptisis vs hematemesis",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.019"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hemoptisis amenazante: > {{c1::150–200 mL en 1 hora}} o > 500–600 mL en 24 horas.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · ¿Qué es, y cuándo es amenazante?",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.007",
+    "4.01.2.018"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Es amenazante cualquier volumen que comprometa vía aérea, {{c1::oxigenación}} o hemodinamia.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · ¿Qué es, y cuándo es amenazante?",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.007",
+    "4.01.2.018"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En la hemoptisis masiva el sangrado es de origen bronquial en el {{c1::90 %}} de los casos.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · ¿De dónde sangra y de qué se muere?",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.007"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La circulación bronquial es de {{c1::alta}} presión; la arteria pulmonar es de baja presión.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Definición y fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.007"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la hemoptisis masiva se muere de {{c1::asfixia}} por inundación alveolar, no de shock hipovolémico.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.007",
+    "4.01.2.018"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Hemoptisis masiva: la prioridad es proteger la vía aérea; el error es {{c1::reponer volumen primero}}.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.007"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la hemoptisis masiva el paciente va en decúbito lateral con el lado que {{c1::sangra}} hacia abajo.",
+   "extra": "Protege al pulmón sano de la aspiración.",
+   "origen": "clase:4",
+   "fuente": "Clase · Hemoptisis amenazante: el orden importa",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.007",
+    "4.01.2.018"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Hemoptisis masiva del pulmón derecho: el error es poner el {{c1::lado sano abajo}} o Trendelenburg.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.007"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Para intubar en hemoptisis masiva se usa tubo grueso de ≥ {{c1::8,0 mm}}.",
+   "extra": "Permite pasar el broncoscopio.",
+   "origen": "clase:4",
+   "fuente": "Clase · Hemoptisis amenazante: el orden importa",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.007"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la hemoptisis masiva el error con el tubo es usar uno {{c1::delgado}}.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.007"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Procedimiento de elección para detener el sangrado masivo: {{c1::embolización de arterias bronquiales}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.007",
+    "4.01.2.018"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La embolización bronquial tiene éxito inicial > {{c1::90 %}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Hemoptisis amenazante: el orden importa",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.007"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Para detener la hemoptisis masiva el error es la {{c1::cirugía de entrada}}.",
+   "extra": "La resección se reserva si falla la embolización y es unilateral.",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.007"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cirugía de resección en hemoptisis masiva: solo si falla la embolización y el sangrado es {{c1::unilateral}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Manejo de emergencia",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.007"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hemoptisis leve: < {{c1::30 mL}} en 24 horas (estrías).",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Hemoptisis leve y mediana",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.019"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hemoptisis mediana: {{c1::30 a 150–200 mL}} en 24 horas.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Hemoptisis leve y mediana",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.019"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estudio de hemoptisis leve o mediana: radiografía, hemograma, coagulación, función renal y {{c1::TAC de tórax}} (idealmente con angio).",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Hemoptisis leve y mediana",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.019"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Además del TAC, la hemoptisis leve o mediana se estudia con {{c1::fibrobroncoscopia}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Hemoptisis leve y mediana",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.019"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En hemoptisis leve o mediana se indica reposo y {{c1::ácido tranexámico}}, además de tratar la causa.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Hemoptisis leve y mediana",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.019"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se hospitaliza la hemoptisis mediana, recurrente o con sospecha de {{c1::cáncer o TBC}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Hemoptisis leve y mediana",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.019"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si se sospecha TBC en la hemoptisis: aislamiento y {{c1::baciloscopía}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Hemoptisis leve y mediana",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.019"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las bronquiectasias son dilataciones {{c1::permanentes e irreversibles}} de bronquios de mediano calibre.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Bronquios que ya no vuelven atrás",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.004"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las bronquiectasias nacen del ciclo {{c1::infección–inflamación}} que destruye la pared elástica y muscular.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Bronquios que ya no vuelven atrás",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.004"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas de bronquiectasias: secuela de {{c1::TBC}} e infecciones infantiles (sarampión, coqueluche).",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Bronquios que ya no vuelven atrás",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.004"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otras causas de bronquiectasias: fibrosis quística, discinesia ciliar e {{c1::inmunodeficiencias}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Bronquios que ya no vuelven atrás",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.004"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Clínica clásica de bronquiectasias: tos con expectoración purulenta abundante diaria (broncorrea), infecciones a repetición y {{c1::hemoptisis}} recurrente.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Clínica, diagnóstico y manejo",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 119",
+    "EUNACOM Diciembre 2025 · Pregunta 9"
+   ],
+   "codigos": [
+    "1.05.1.004"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Examen de elección en bronquiectasias: {{c1::TACAR de tórax}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 87",
+    "EUNACOM Diciembre 2022 · Pregunta 107",
+    "EUNACOM Diciembre 2017 · Pregunta 18"
+   ],
+   "codigos": [
+    "1.05.1.004"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Broncorrea con infecciones a repetición: el error es quedarse con la {{c1::radiografía}}; se pide TACAR.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.004"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo tomográfico patognomónico de bronquiectasias: el {{c1::anillo de sello}} (bronquio más ancho que su arteria).",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Clínica, diagnóstico y manejo",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.004"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La falta de afilamiento bronquial periférico es el signo del {{c1::riel de tranvía}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Clínica, diagnóstico y manejo",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.004"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Manejo crónico de bronquiectasias: kinesioterapia respiratoria, antibióticos en exacerbaciones y vacunas {{c1::antiinfluenza y antineumocócica}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Clínica, diagnóstico y manejo",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.004"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El examen diagnóstico de la fibrosis quística es el {{c1::test del sudor}} (iontoforesis con pilocarpina).",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · El examen de la fibrosis quística",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 143",
+    "EUNACOM Julio 2019 · Pregunta 57"
+   ],
+   "codigos": [
+    "2.01.4.026",
+    "1.05.1.004"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el test del sudor, cloro > {{c1::60 mmol/L}} es diagnóstico en un cuadro compatible.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · El examen de la fibrosis quística",
+   "repaso": true,
+   "codigos": [
+    "2.01.4.026"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cloro en sudor de {{c1::30–59}} mmol/L es dudoso: se repite y se hace estudio genético CFTR.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · El examen de la fibrosis quística",
+   "repaso": false,
+   "codigos": [
+    "2.01.4.026"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El diagnóstico de fibrosis quística se confirma con {{c1::dos}} pruebas del sudor positivas.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · El examen de la fibrosis quística",
+   "repaso": false,
+   "codigos": [
+    "2.01.4.026"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se pide test del sudor ante íleo meconial, esteatorrea, mal desarrollo, sinusitis crónica, azoospermia o {{c1::tripsina inmunorreactiva}} neonatal positiva.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · El examen de la fibrosis quística",
+   "repaso": false,
+   "codigos": [
+    "2.01.4.026"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-20/01_bronquiectasias-tc__cto-neumo_p68.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Bronquiectasias",
+   "clave": "Bronquios más anchos que la arteria que los acompaña (anillo de sello)",
+   "conducta": "TACAR confirma; kinesioterapia, antibióticos en exacerbaciones y vacunas",
+   "fuente": "Manual CTO Neumología 14.ª ed., p. 68",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.007",
+    "4.01.2.018"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-20/10_bronquiectasias-tac__harrison_p2216.jpg",
+   "pregunta": "¿Qué muestra y qué buscas?",
+   "diagnostico": "Bronquiectasias graves",
+   "clave": "Dilatación bronquial marcada con falta de afilamiento periférico",
+   "conducta": "Buscar la causa (TBC, fibrosis quística, discinesia, inmunodeficiencia); en el joven, test del sudor",
+   "fuente": "Harrison, Principios de Medicina Interna, 21.ª ed., p. 2216",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.007",
+    "4.01.2.018"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Hemoptisis amenazante: ¿posición y vía aérea?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0.0",
+   "pista": "Para detener el sangrado masivo: ¿qué procedimiento?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1",
+   "pista": "Hemoptisis no amenazante: ¿qué estudio?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.0",
+   "pista": "Broncorrea crónica: ¿qué examen y manejo?"
+  }
+ ]
+}

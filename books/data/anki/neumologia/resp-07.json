@@ -1,0 +1,443 @@
+{
+  "classId": "resp-07",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la NAC el antibiótico empírico depende del {{c1::lugar de tratamiento}} (casa, sala o UCI).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · El lugar decide el antibiótico",
+      "repaso": true,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "NAC ambulatoria < 65 años sin comorbilidad: {{c1::amoxicilina}} 1 g cada 8 horas VO.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Menor de 65",
+      "repaso": true,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Amoxicilina ambulatoria en el sano: duración de {{c1::5 a 7 días}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Menor de 65",
+      "repaso": true,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el sano ambulatorio no se usan {{c1::cefalosporinas ni quinolonas}} de entrada.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · caso",
+      "repaso": true,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alergia a penicilina en el ambulatorio sano: azitromicina 500 mg/día por {{c1::3 a 5 días}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Alergia a penicilina",
+      "repaso": true,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Otro macrólido para la alergia a penicilina: {{c1::claritromicina}} 500 mg cada 12 horas.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Alergia a penicilina",
+      "repaso": false,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "NAC ambulatoria ≥ 65 años o comórbido (EPOC, diabetes, cardiopatía): {{c1::amoxicilina/clavulánico}} 875/125 mg.",
+      "extra": "Guía GES.",
+      "origen": "clase:3",
+      "fuente": "Clase · 65 o más",
+      "repaso": true,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Amoxicilina/clavulánico 875/125 mg se da cada {{c1::12 horas}} por 7 días.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · 65 o más",
+      "repaso": true,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El clavulánico cubre a H. influenzae y Moraxella, que producen {{c1::betalactamasa}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Por qué el clavulánico",
+      "repaso": true,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El clavulánico mejora la cobertura del neumococo de susceptibilidad {{c1::intermedia}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Por qué el clavulánico",
+      "repaso": false,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa ambulatoria ≥ 65 años: {{c1::cefuroximo axetilo}} 500 mg cada 12 horas.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Alternativas",
+      "repaso": true,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Levofloxacino 750 mg/día en NAC ambulatoria: {{c1::reservado}} para alergia grave o sospecha de gramnegativos.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Alternativas",
+      "repaso": false,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "NAC en sala general (CURB-65 = 2): {{c1::ceftriaxona}} 1–2 g/día EV.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Sala general",
+      "repaso": true,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa a ceftriaxona en sala: {{c1::ampicilina/sulbactam}} 1,5 g cada 6 horas EV.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Sala general",
+      "repaso": false,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Se suma macrólido en sala si hay infiltrado intersticial, disociación pulso-temperatura o {{c1::mialgias}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Cuándo sumar macrólido",
+      "repaso": true,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Ceftriaxona + {{c1::azitromicina}} 500 mg/día cubre los atípicos en sala.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Cuándo sumar macrólido",
+      "repaso": true,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alergia a penicilina en sala: levofloxacino 750 mg/día EV o {{c1::moxifloxacino}} 400 mg/día.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Alergia",
+      "repaso": false,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "NAC en UCI: ceftriaxona {{c1::2 g}} + levofloxacino 750 mg, ambos EV al día.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · UCI",
+      "repaso": true,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa en UCI: ceftriaxona + {{c1::azitromicina}} EV (betalactámico + atípico).",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · UCI",
+      "repaso": false,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Riesgo de Pseudomonas: bronquiectasias, fibrosis quística o {{c1::corticoides crónicos}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Situaciones especiales",
+      "repaso": true,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Con riesgo de Pseudomonas en UCI: {{c1::piperacilina/tazobactam}} o cefepime + ciprofloxacino.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Situaciones especiales",
+      "repaso": true,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Con riesgo de SAMR en UCI se suma {{c1::vancomicina}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Situaciones especiales",
+      "repaso": true,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Switch a vía oral: afebril por más de {{c1::48 horas}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Cuándo pasar a la vía oral",
+      "repaso": true,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Switch a oral: FR < {{c1::24}} y FC < 100.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Cuándo pasar a la vía oral",
+      "repaso": true,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Switch a oral: PAS ≥ {{c1::90}} mmHg y SatO2 > 90%.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Cuándo pasar a la vía oral",
+      "repaso": false,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Switch a oral además exige {{c1::tolerar la vía oral}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Cuándo pasar a la vía oral",
+      "repaso": false,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras el cambio a oral se completan {{c1::7 días}} totales.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Cuándo pasar a la vía oral",
+      "repaso": true,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "No es necesario completar {{c1::14 días}} EV ni esperar la Rx de control para el alta.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Cuándo pasar a la vía oral",
+      "repaso": true,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES de NAC en ≥ 65 años: tratamiento antibiótico en menos de {{c1::24 horas}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "UCI sin riesgo de Pseudomonas: ceftriaxona más levofloxacino o {{c1::azitromicina}}.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · NAC según el lugar",
+      "repaso": false,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El esquema antipseudomónico en UCI se usa {{c1::solo con factores de riesgo}}, no de rutina.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En sala general se suma azitromicina solo si hay sospecha de {{c1::atípicos}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": false,
+      "codigos": [
+        "1.05.1.028"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.1",
+      "pista": "≥ 65 años o comórbido ambulatorio: ¿qué antibiótico?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "NAC en sala general: ¿qué esquema?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2.0",
+      "pista": "UCI sin riesgo de Pseudomonas: ¿qué esquema?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.2.1",
+      "pista": "UCI con riesgo de Pseudomonas: ¿qué esquema?"
+    }
+  ]
+}

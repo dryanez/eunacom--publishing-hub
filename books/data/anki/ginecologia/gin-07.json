@@ -1,0 +1,667 @@
+{
+  "classId": "gin-07",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Infertilidad: {{c1::12 meses}} de búsqueda sin lograr embarazo en mujer menor de 35 años.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.020"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En mujer de 35 años o más el estudio se inicia a los {{c1::6 meses}}.",
+      "extra": "Declive acelerado de la reserva ovárica.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.020"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Mujer de 35 años o más: el error es esperar los {{c1::12 meses}} habituales.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.020"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La infertilidad se estudia siempre en {{c1::pareja}}, aunque alguno tenga hijos previos.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.020"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 109"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Factor masculino: causa de {{c1::35%}} de la infertilidad de pareja (libro); factor tuboperitoneal 30%.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.020",
+        "4.03.1.017"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causa anovulatoria más frecuente de infertilidad: {{c1::SOP}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Distribución",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.020"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Infertilidad sin causa aparente (ISCA): cuando el estudio básico completo resulta {{c1::normal}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Distribución",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.020"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El estudio básico inicial tiene cuatro pilares: masculino, ovulatorio, {{c1::tuboperitoneal}} y uterino.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Cuatro pilares",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.020"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Primer examen en el estudio de infertilidad de la pareja: {{c1::espermiograma}}.",
+      "extra": "Antes que cualquier examen de ella.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Dic 2017",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.020",
+        "4.03.1.017"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 75",
+        "EUNACOM Julio 2017 · Pregunta 43"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Primera consulta de la pareja: el error es empezar solo con {{c1::exámenes de ella}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.020"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Espermiograma: abstinencia previa de {{c1::3 a 5 días}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.020",
+        "4.03.1.017"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Espermiograma normal: concentración ≥ {{c1::15 a 16 millones/mL}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Espermiograma",
+      "repaso": false,
+      "codigos": [
+        "4.03.1.017"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Espermiograma normal: motilidad progresiva ≥ {{c1::30 a 32%}}.",
+      "extra": "Menor: astenozoospermia.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Espermiograma",
+      "repaso": false,
+      "codigos": [
+        "4.03.1.017"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Espermiograma normal: morfología normal (Kruger) ≥ {{c1::4%}}.",
+      "extra": "Menor: teratozoospermia.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Espermiograma",
+      "repaso": false,
+      "codigos": [
+        "4.03.1.017"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Espermiograma normal: volumen ≥ {{c1::1.4 a 1.5 mL}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Espermiograma",
+      "repaso": false,
+      "codigos": [
+        "4.03.1.017"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Espermiograma alterado: se {{c1::repite}} en una segunda muestra antes de diagnosticar infertilidad masculina.",
+      "extra": "El libro indica 4-12 semanas en una parte y 1-3 meses en otra.",
+      "origen": "clase:10",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "codigos": [
+        "4.03.1.017"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Progesterona en fase lútea media (día 21) > {{c1::3 a 5 ng/mL}} confirma ovulación.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Factor ovulatorio",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.020"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Marcador más fiable de reserva ovárica: {{c1::hormona antimülleriana (AMH)}}.",
+      "extra": "Se mide cualquier día del ciclo.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.020"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "AMH < {{c1::0.5-1.0 ng/mL}} indica baja reserva ovárica.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Reserva ovárica",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.020"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "FSH día 3 > {{c1::10-12 UI/L}} predice pobre respuesta ovárica.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Reserva ovárica",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.020",
+        "1.03.4.009"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Recuento de folículos antrales < {{c1::5 a 7}} indica baja reserva.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Reserva ovárica",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.020"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El factor tuboperitoneal se estudia con {{c1::histerosalpingografía}}, que evalúa la cavidad y la permeabilidad tubárica.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 HSG",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.020",
+        "3.01.4.001"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 146",
+        "EUNACOM Julio 2019 · Pregunta 109"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Prueba de Cotte positiva: paso libre del contraste al peritoneo = trompa {{c1::permeable}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Pilar tres y cuatro",
+      "repaso": true,
+      "codigos": [
+        "3.01.4.001"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La HSG se realiza en la {{c1::primera mitad}} del ciclo.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 HSG",
+      "repaso": false,
+      "codigos": [
+        "3.01.4.001"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Factor uterino: ecografía transvaginal y, si hay defectos de llene en la HSG, {{c1::histeroscopía}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Pilar tres y cuatro",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.020",
+        "3.01.4.001"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Inseminación intrauterina exige al menos {{c1::una trompa permeable}} y REM adecuado.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.020"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "REM post-capacitación para IIU: ≥ {{c1::3 a 5 millones}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 IIU",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.020",
+        "4.03.1.017"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Indicaciones de IIU: factor masculino leve a moderado, anovulación refractaria a orales, factor cervical o {{c1::esterilidad idiopática}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 IIU",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.020"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Éxito por ciclo de IIU: {{c1::12-18%}}; FIV/ICSI: 35-50%.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla técnicas",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.020"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Obstrucción tubárica bilateral: {{c1::fertilización in vitro}}.",
+      "extra": "La IIU tiene 0% de éxito.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz caso",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.020",
+        "3.01.4.001"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Obstrucción tubárica bilateral: el error es intentar {{c1::inseminación intrauterina}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.020"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "ICSI: inyección de un {{c1::único espermatozoide}} directamente en cada ovocito.",
+      "extra": "Indicada en factor masculino severo o azoospermia.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 FIV/ICSI",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.020",
+        "4.03.1.017"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "FIV/ICSI por edad materna avanzada: > {{c1::38-40 años}} o reserva ovárica críticamente baja.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 FIV/ICSI",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.020"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Fracaso de técnicas de baja complejidad: {{c1::3 a 4 intentos}} de IIU lleva a FIV.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 FIV/ICSI",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.020"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Infertilidad del SOP con anovulación: inductor de ovulación (clomifeno en preguntas reales; libro: {{c1::letrozol}} primera línea actual).",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Banco real · SOP",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.020"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 108",
+        "EUNACOM Diciembre 2017 · Pregunta 162"
+      ]
+    },
+    {
+      "id": "c36",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Infertilidad con ovulación confirmada y espermiograma normal: se solicita {{c1::histerosalpingografía}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Ago 2021",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.020",
+        "3.01.4.001"
+      ]
+    },
+    {
+      "id": "c37",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pico de LH en orina: ovulación en {{c1::24 a 36 horas}}.",
+      "extra": "Para programar relaciones o inseminación.",
+      "origen": "clase:4",
+      "fuente": "Clase · Trampas LH/FSH",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.009"
+      ]
+    },
+    {
+      "id": "c38",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Testosterona total en la mujer: normal 15 a 70 ng/dL; sospechar tumor sobre {{c1::150-200 ng/dL}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Trampas LH/FSH",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.009"
+      ]
+    },
+    {
+      "id": "c39",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Testosterona baja con LH y FSH altas: hipogonadismo {{c1::primario (testicular)}}.",
+      "extra": "Klinefelter, orquitis, criptorquidia.",
+      "origen": "clase:4",
+      "fuente": "Clase · Trampas LH/FSH",
+      "repaso": true,
+      "codigos": [
+        "1.03.4.009",
+        "4.03.1.017"
+      ]
+    },
+    {
+      "id": "c40",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Testosterona baja con LH y FSH bajas: hipogonadismo {{c1::central}}.",
+      "extra": "Hipopituitarismo, prolactinoma, Kallmann.",
+      "origen": "clase:4",
+      "fuente": "Clase · Trampas LH/FSH",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.009",
+        "4.03.1.017"
+      ]
+    },
+    {
+      "id": "c41",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Azoospermia con FSH elevada y testículos pequeños: falla {{c1::espermatogénica primaria}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Trampas LH/FSH",
+      "repaso": false,
+      "codigos": [
+        "4.03.1.017",
+        "1.03.4.009"
+      ]
+    },
+    {
+      "id": "c42",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Azoospermia con FSH normal y testículos normales: {{c1::obstrucción}} de la vía seminal.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Trampas LH/FSH",
+      "repaso": false,
+      "codigos": [
+        "4.03.1.017"
+      ]
+    },
+    {
+      "id": "c43",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Testículos pequeños y firmes, azoospermia, ginecomastia: {{c1::síndrome de Klinefelter}} (47,XXY).",
+      "extra": "LH y FSH elevadas.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "4.03.1.017",
+        "1.03.4.009"
+      ]
+    },
+    {
+      "id": "c44",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causa corregible más frecuente de infertilidad masculina: {{c1::varicocele}}, preferentemente izquierdo.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Factor masculino",
+      "repaso": true,
+      "codigos": [
+        "4.03.1.017"
+      ]
+    },
+    {
+      "id": "c45",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Azoospermia con espermatogénesis conservada: {{c1::extracción testicular (TESE) + ICSI}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Factor masculino",
+      "repaso": false,
+      "codigos": [
+        "4.03.1.017"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-07/01_histerosalpingografia-normal_1__cto-gyo_p50.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Histerosalpingografía normal",
+      "clave": "Contraste en ambas trompas con paso al peritoneo (Cotte positivo)",
+      "conducta": "Trompas permeables: IIU posible si REM adecuado",
+      "fuente": "Manual CTO Ginecología y Obstetricia 14.ª ed., p. 50",
+      "repaso": true,
+      "codigos": [
+        "3.01.4.001"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-07/02_hidrosalpinx-eco__us-obgyn_p272.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Hidrosálpinx",
+      "clave": "Trompa dilatada llena de líquido",
+      "conducta": "Obstrucción: salpingectomía y FIV; no IIU",
+      "fuente": "Ultrasound in Obstetrics and Gynecology: A Practical Approach, p. 272",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.020",
+        "3.01.4.001"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.2",
+      "pista": "Estudio tuboperitoneal: ¿qué prueba defines con la HSG?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.2.0.0",
+      "pista": "Una trompa permeable y REM ≥ 3 millones: ¿qué técnica?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2.1",
+      "pista": "Obstrucción bilateral: ¿qué técnica?"
+    }
+  ]
+}

@@ -1,0 +1,525 @@
+{
+ "classId": "cirugia-11",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el trauma abdominal cerrado el órgano más lesionado es el {{c1::bazo}} (40-55%), seguido del hígado (35-45%).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Mecanismos",
+   "repaso": true,
+   "imagen": "biblioteca/10_cirugia/cirugia-11/01_rotura-esplenica-tc__cto-cirugia_p69.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 31"
+   ],
+   "codigos": [
+    "4.01.2.010"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En trauma penetrante por arma blanca el órgano más lesionado es el {{c1::hígado}}; por arma de fuego, el {{c2::intestino delgado}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Mecanismos",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.010"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En heridas de bala transperitoneales la probabilidad de perforación visceral es > {{c1::90%}}, por lo que la laparotomía es casi mandatoria.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Mecanismos",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.010"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El signo de {{c1::Kehr}} es dolor en el hombro izquierdo por hemoperitoneo esplénico que irrita el diafragma.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Signos",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.010"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La equimosis transversa del cinturón de seguridad sugiere rotura de {{c1::intestino delgado}}, mesenterio o fractura lumbar de Chance.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Signos",
+   "repaso": true,
+   "imagen": "biblioteca/10_cirugia/cirugia-11/03_signo-cinturon-seguridad__sherman_p124.jpg",
+   "codigos": [
+    "4.01.2.010"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El signo de {{c1::Cullen}} es equimosis periumbilical; el de {{c2::Grey Turner}}, en los flancos: hemorragia retroperitoneal.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Signos",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-11/04_equimosis-flancos-cullen-grey-turner__knoop_p188.jpg",
+   "codigos": [
+    "4.01.2.010"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la desaceleración brusca se desgarran los puntos fijos: unión ileocecal y ángulo de {{c1::Treitz}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Mecanismos",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.010"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El Eco-FAST no caracteriza el órgano lesionado: busca {{c1::líquido libre}} abnormal.",
+   "extra": "Se hace en 2-3 minutos junto al ABC.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Eco-FAST",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.010",
+    "4.01.4.011"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las 4 ventanas del Eco-FAST: hepatorrenal, esplenorrenal, {{c1::pélvica}} y {{c2::pericárdica subxifoidea}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Eco-FAST",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-11/02_fast_ventanas__atls_p144.jpg",
+   "codigos": [
+    "4.01.4.011"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La ventana más sensible del abdomen es el espacio de {{c1::Morrison}} (hepatorrenal).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Eco-FAST",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-11/01_fast_morrison__atls_p144.jpg",
+   "codigos": [
+    "4.01.4.011"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El E-FAST agrega la evaluación pleural: ausencia de {{c1::deslizamiento pleural}} (neumotórax) y hemotórax en las bases.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Eco-FAST",
+   "repaso": false,
+   "codigos": [
+    "4.01.4.011"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El líquido libre no tiene pared y forma ángulos; la vesícula es {{c1::ovalada con pared propia}}.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Quiz líquido libre",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.010",
+    "4.01.4.011"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Paciente inestable: PAS < {{c1::90 mmHg}} sin buena respuesta a la reanimación inicial.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Algoritmo",
+   "repaso": true,
+   "codigos": [
+    "4.01.2.010"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Inestable con Eco-FAST positivo: {{c1::laparotomía exploradora urgente}}, nunca TAC.",
+   "extra": "El «viaje de la muerte» al escáner.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Algoritmo",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 31"
+   ],
+   "codigos": [
+    "4.01.2.010",
+    "4.01.4.011"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Inestable con Eco-FAST negativo: buscar otra fuente de shock, como {{c1::fractura de pelvis}}, hemotórax masivo o fémures.",
+   "extra": "Faja pélvica inmediata.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Algoritmo",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.010",
+    "4.01.4.011"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El paciente estable se estudia con {{c1::TAC de abdomen y pelvis con contraste IV}}, estándar de oro.",
+   "extra": "Gradúa según AAST y detecta blush arterial.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Algoritmo",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.010"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Indicaciones de laparotomía sin imágenes: peritonitis, {{c1::evisceración}}, neumoperitoneo, inestabilidad persistente o bala transperitoneal.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Laparotomía",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.010"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Herida por arma blanca que lacera el peritoneo en un paciente estable: {{c1::laparoscopía exploradora}}.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Quiz Julio 2015",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 31"
+   ],
+   "codigos": [
+    "4.01.2.010"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El manejo no operatorio de víscera sólida exige estabilidad, ausencia de {{c1::peritonitis}} y de lesión de víscera hueca.",
+   "extra": "Es estándar en > 80-90% de contusiones de bazo, hígado y riñón.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 MNO",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.010",
+    "4.03.2.008"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el MNO se requiere TAC, monitorización en UPC, hematocrito seriado y {{c1::pabellón disponible 24 horas}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 MNO",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.010"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si el TAC muestra extravasación de contraste (blush), se agrega {{c1::angioembolización}}.",
+   "extra": "Éxito > 95% en preservación esplénica y hepática.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 MNO",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.010"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "AAST grado V: estallido del órgano; el bazo requiere {{c1::esplenectomía}} y el hígado, packing, en laparotomía urgente.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla AAST",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.010"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el MNO se convierte a cirugía si hay caída de hematocrito > {{c1::3-4}} puntos o más de {{c2::2}} unidades de GR en 24 horas.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla AAST",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.010"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras esplenectomía total se vacuna contra bacterias capsuladas: neumococo, {{c1::meningococo}} y Hib.",
+   "extra": "Antes del alta.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.010"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En MNO estable se inicia tromboprofilaxis con {{c1::enoxaparina}} a las 24-48 horas de estabilidad del hematocrito.",
+   "extra": "No aumenta el resangrado.",
+   "origen": "clase:4",
+   "fuente": "Clase · MNO",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.010"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En herida penetrante toracoabdominal izquierda estable, el diafragma se descarta con {{c1::laparoscopía diagnóstica}}.",
+   "extra": "La lesión silente puede herniar vísceras tardíamente.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diafragma",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.010"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un hematoma retroperitoneal de la zona central (aorta, cava, duodeno) se {{c1::explora}} siempre; el pélvico, nunca se abre.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Retroperitoneo",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.008"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El órgano genitourinario más lesionado es el {{c1::riñón}}; en el paciente estable se pide TAC con fase tardía.",
+   "extra": "Casi todos se manejan sin cirugía.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Urológico",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.008"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Trauma lumbar con hematuria en paciente estable: examen de elección {{c1::UroTAC}}.",
+   "extra": "No confundir con lesión uretral, que se estudia con uretrografía.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Urológico",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 125",
+    "EUNACOM Diciembre 2024 · Pregunta 83"
+   ],
+   "codigos": [
+    "4.03.2.008"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La lesión vesical se estudia con {{c1::cistografía retrógrada (cistoTAC)}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Urológico",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.008"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Rotura vesical {{c1::intraperitoneal}}: cirugía; {{c2::extraperitoneal}}: sonda por 10 a 14 días.",
+   "extra": "Extravasación, ascitis urinaria, creatinina y potasio elevados.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Urológico",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.008"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Con sangre en el meato o próstata alta, prohibida la Foley a ciegas: {{c1::uretrografía retrógrada}} y cistostomía si hay retención.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Uretra",
+   "repaso": true,
+   "codigos": [
+    "4.03.2.008"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La uretra {{c1::posterior}} se lesiona con fractura de pelvis; la {{c2::bulbar}}, con caídas a horcajadas.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Uretra",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.008"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-11/01_fast_morrison__atls_p144.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Eco-FAST positivo en Morrison",
+   "clave": "Banda anecoica entre hígado y riñón derecho",
+   "conducta": "Inestable: laparotomía exploradora urgente; estable: TAC con contraste",
+   "fuente": "ATLS 10.ª ed., p. 144",
+   "repaso": false,
+   "codigos": [
+    "4.01.4.011"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-11/03_signo-cinturon-seguridad__sherman_p124.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Signo del cinturón de seguridad",
+   "clave": "Equimosis transversa en la pared abdominal",
+   "conducta": "Sospechar rotura de intestino delgado o mesenterio; estudiar con TAC si está estable",
+   "fuente": "Atlas of Clinical Emergency Medicine (Sherman), p. 124",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.010"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.1.0",
+   "pista": "Inestable que no responde y Eco-FAST positivo: ¿conducta?",
+   "codigos": [
+    "4.01.2.010",
+    "4.01.4.011"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.1",
+   "pista": "Se estabilizó tras la reanimación: ¿qué examen?",
+   "codigos": [
+    "4.01.2.010",
+    "4.01.4.011"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0",
+   "pista": "Peritonitis, evisceración o neumoperitoneo: ¿qué haces?",
+   "codigos": [
+    "4.01.2.010",
+    "4.01.4.011"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.3.0",
+   "pista": "Lesión de bazo o hígado estable sin víscera hueca: ¿manejo?",
+   "codigos": [
+    "4.01.2.010",
+    "4.01.4.011"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,468 @@
+{
+  "classId": "endo-22",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La acromegalia se debe en el {{c1::98%}} de los casos a un adenoma somatotropo.",
+      "extra": "Es un macroadenoma monoclonal benigno.",
+      "origen": "clase:1",
+      "fuente": "Clase · Demasiada GH",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El exceso de GH antes del cierre epifisario causa {{c1::gigantismo}}; después, acromegalia.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La GH estimula la síntesis hepática de {{c1::IGF-1}}, mediador del crecimiento.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Demasiada GH",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El diagnóstico de acromegalia suele demorar entre {{c1::8 y 10 años}} desde los síntomas.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Demasiada GH",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pista clásica del enunciado: cambia de {{c1::número de zapatos}} y no puede sacarse los anillos.",
+      "extra": "Prognatismo con diastema, macroglosia, nariz ancha.",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": true,
+      "imagen": "biblioteca/05_endocrinologia/endo-22/01_fenotipo-acromegalico__cto-endocrino_p33.jpg",
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 113"
+      ],
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La primera causa de muerte en acromegalia es {{c1::cardiovascular}}: hipertrofia concéntrica del VI e insuficiencia cardíaca diastólica.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El SAHOS severo ocurre en más del {{c1::70%}} de los pacientes con acromegalia.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La GH es antagonista de la insulina: causa intolerancia a la glucosa y {{c1::diabetes secundaria}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Demasiada GH",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Otras manifestaciones: artropatía degenerativa precoz y {{c1::síndrome del túnel carpiano}} bilateral.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La acromegalia exige buscar pólipos y cáncer colorrectal con {{c1::colonoscopía}} al diagnóstico.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Riesgo oncológico",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante sospecha de acromegalia, el error es medir {{c1::GH basal}}; es pulsátil y no sirve.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tamizaje de primera línea de acromegalia es la {{c1::IGF-1 sérica}} (somatomedina C), elevada para edad y sexo.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 113",
+        "EUNACOM Diciembre 2025 · Pregunta 32"
+      ],
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Una IGF-1 normal para edad y sexo descarta la acromegalia con {{c1::99%}} de certeza.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tres pasos",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La IGF-1 refleja la exposición integrada a GH de las últimas {{c1::semanas}} porque tiene vida media prolongada.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con IGF-1 elevada, el error es pedir RM y operar; falta la {{c1::PTGO con GH seriada}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La confirmación de acromegalia es la PTGO con {{c1::75 g de glucosa}} y GH seriada.",
+      "extra": "Medición a los 0, 30, 60, 90 y 120 minutos.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Diagnóstico",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En personas sanas la glucosa suprime la GH a menos de {{c1::1,0 mcg/L}} (0,4 con ensayos ultrasensibles).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Diagnóstico",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En acromegalia la GH {{c1::no se suprime}} tras la glucosa y persiste en 1,0 mcg/L o más.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tres pasos",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La RM de silla turca muestra un macroadenoma en más del {{c1::75%}} de los acromegálicos.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Localización",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras confirmar con PTGO se localiza con {{c1::RM de silla turca con gadolinio}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tres pasos",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 123",
+        "EUNACOM Diciembre 2018 · Pregunta 111"
+      ],
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tratamiento de primera línea de la acromegalia es la {{c1::cirugía transesfenoidal}}.",
+      "extra": "Cura y descomprime el quiasma.",
+      "origen": "clase:4",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En acromegalia confirmada el error es dar {{c1::cabergolina}} como en el prolactinoma.",
+      "extra": "Este adenoma sí se opera.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si persiste la enfermedad tras operar: análogos de somatostatina, {{c1::octreótido}} LAR 20-30 mg IM mensual.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Lanreótido autogel: {{c1::120 mg}} SC mensual.",
+      "extra": "Actúa sobre el receptor SSTR2 y suprime la GH en más del 60-70%.",
+      "origen": "clase:4",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El {{c1::pegvisomant}} bloquea el receptor de GH y la síntesis periférica de IGF-1.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La cabergolina en acromegalia solo es útil si hay {{c1::cosecreción de prolactina}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Meta de control: IGF-1 normal para edad y sexo y GH post-PTGO menor de {{c1::1,0 mcg/L}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Meta de control",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el seguimiento se piden IGF-1 y GH post-PTGO {{c1::una vez al año}}, más colonoscopía y ecocardiograma.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Seguimiento",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Masa selar con hemianopsia bitemporal y amenorrea-galactorrea: {{c1::macroadenoma hipofisiario}}.",
+      "extra": "Contraste con acromegalia.",
+      "origen": "clase:12",
+      "fuente": "Contraste · macroadenoma",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 24",
+        "EUNACOM Diciembre 2019 · Pregunta 138"
+      ],
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipoglicemia de ayuno con péptido C suprimido: {{c1::insulina exógena}} (hipoglicemia facticia).",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Pregunta real · hipoglicemia",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 39"
+      ],
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La acromegalia {{c1::no tiene GES}} directo; hay garantías por patología cardiovascular y neuroquirúrgica asociada.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Seguimiento",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/05_endocrinologia/endo-22/01_fenotipo-acromegalico__cto-endocrino_p33.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Fenotipo acromegálico",
+      "clave": "Manos grandes, nariz ancha, prognatismo y rasgos toscos",
+      "conducta": "IGF-1; confirmar con PTGO 75 g; RM selar y cirugía transesfenoidal",
+      "fuente": "Manual CTO Endocrinología 14.ª ed., p. 33",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.013"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "IGF-1 alta: ¿qué confirmas y cómo?",
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1.0",
+      "pista": "Acromegalia confirmada: ¿tratamiento y qué más buscas?",
+      "codigos": [
+        "1.03.1.013"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1.0.0",
+      "pista": "Persiste tras la cirugía: ¿qué fármaco?",
+      "codigos": [
+        "1.03.1.013"
+      ]
+    }
+  ]
+}

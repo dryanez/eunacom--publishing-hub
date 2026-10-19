@@ -1,0 +1,546 @@
+{
+ "classId": "oftal-18",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El reflejo fotomotor evalúa la vía aferente (II par) y la eferente ({{c1::III par}}, fibras parasimpáticas).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Vía pupilar",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.011"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Linterna oscilante: se alterna la luz entre los ojos cada {{c1::2 a 3 segundos}} en penumbra.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Linterna oscilante",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-18/01_linterna_oscilante_dpar__kanski_p820.jpg",
+   "codigos": [
+    "6.02.5.011"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "DPAR (Marcus Gunn): al pasar la luz al ojo enfermo, {{c1::ambas}} pupilas se dilatan paradójicamente.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 DPAR",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.011"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El DPAR es el signo objetivo más sensible de lesión {{c1::unilateral o asimétrica}} del nervio óptico o la retina.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 DPAR",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.011"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Si refiere no ver nada pero la exploración pupilar es normal y simétrica sin DPAR: sospechar {{c1::simulación}} o pérdida cortical bilateral.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Simulación",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.011"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La pupila de {{c1::Adie}} es grande y reacciona poco, pero sin lesión del nervio óptico.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Adie",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-18/02_pupila-de-adie__amir-oftalmo_p23.jpg",
+   "codigos": [
+    "6.02.5.011"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neuritis óptica: mujer de {{c1::20 a 40}} años; en cerca de la mitad se asocia a futura esclerosis múltiple (GES N.º 68).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Neuritis",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.016",
+    "1.10.1.008"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tríada: baja visual monocular subaguda, dolor con los {{c1::movimientos oculares}} y discromatopsia.",
+   "extra": "Antecedente de EM con dolor retroocular y defecto pupilar aferente.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tríada",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 5"
+   ],
+   "codigos": [
+    "6.02.1.016",
+    "1.10.1.008"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El dolor con el movimiento ocular está presente en más del {{c1::90%}} de los casos.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Dolor",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.016",
+    "1.10.1.008"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Discromatopsia severa: desaturación del color {{c1::rojo}}, que se ve rosado o café; puede adelantarse a la caída de la agudeza.",
+   "extra": "Paciente con EM, agudeza 0,9 y mala visión de colores.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Discromatopsia",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 82"
+   ],
+   "codigos": [
+    "6.02.1.016",
+    "1.10.1.008"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el {{c1::65%}} el fondo de ojo es normal (neuritis retrobulbar); en el 35%, edema papilar leve (papilitis).",
+   "extra": "Joven de 14 años con 20/200 y papilitis izquierda.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Fondo de ojo",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 17"
+   ],
+   "codigos": [
+    "6.02.1.016",
+    "1.10.1.008"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estudio de elección: {{c1::resonancia magnética}} de encéfalo y órbitas con gadolinio.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Estudio",
+   "repaso": false,
+   "imagen": "_verificadas/374_oftal_Neuritis_óptica__BrantHelms_p287.jpg",
+   "codigos": [
+    "6.02.1.016",
+    "1.10.1.008"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento agudo: pulsos de {{c1::metilprednisolona}} EV 1 g/día por 3 a 5 días y luego prednisona oral escalonada.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.016",
+    "1.10.1.008"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Prednisona oral sola a dosis estándar está contraindicada: el ensayo {{c1::ONTT}} mostró que duplica las recurrencias.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 ONTT",
+   "repaso": true,
+   "codigos": [
+    "6.02.1.016",
+    "1.10.1.008"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Papiledema: edema de papila {{c1::bilateral}} por elevación de la presión intracraneana.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Papiledema",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-18/01_papiledema__cto-oftalmo_p88.jpg",
+   "codigos": [
+    "1.10.1.019",
+    "1.10.5.001"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fondo de ojo: papilas hiperémicas de bordes borrados, sin pulso venoso y con hemorragias en {{c1::llama}} peripapilares.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fondo",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.019",
+    "1.10.5.001"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el papiledema inicial la agudeza visual está {{c1::conservada}} (20/20); hay oscurecimientos fugaces al agacharse.",
+   "extra": "Hombre de 38 años con cefalea matutina y borramiento papilar bilateral.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Agudeza",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.019",
+    "1.10.5.001"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Con papiledema: neuroimagen urgente {{c1::antes}} de cualquier punción lumbar, por riesgo de herniación.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Punción",
+   "repaso": true,
+   "codigos": [
+    "1.10.1.019",
+    "1.10.5.001"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neuritis: unilateral, con dolor y DPAR; papiledema: bilateral, sin dolor y {{c1::sin DPAR}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tabla",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.019",
+    "1.10.5.001"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Esclerosis múltiple: diseminación en {{c1::tiempo y espacio}}; neuritis, mielitis, oftalmoplejía internuclear o ataxia.",
+   "extra": "Mujer de 30 años con neuralgia del trigémino, hipoestesia del muslo y trastorno del equilibrio previo.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 EM",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 104"
+   ],
+   "codigos": [
+    "1.10.1.008"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estudio de la EM: RM cerebral y de médula con gadolinio y, si hay dudas, bandas {{c1::oligoclonales}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 EM estudio",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.008"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Con 1 o más lesiones en la RM basal, el riesgo de EM a 15 años supera el {{c1::70%}}; sin lesiones, cerca de 25%.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Riesgo",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.008"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Brote: metilprednisolona 1 g EV por {{c1::3 días}}; acelera la recuperación pero no cambia la visión final.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Brote",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.008"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hipertensión endocraneana: cefalea matutina que empeora con Valsalva, vómitos en proyectil y {{c1::papiledema}}.",
+   "extra": "Paciente de 45 años con cefalea de predominio matinal, náuseas y vómitos.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 HTE",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 169"
+   ],
+   "codigos": [
+    "1.10.1.019"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signos tardíos: tríada de {{c1::Cushing}} (hipertensión, bradicardia y respiración irregular).",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 HTE tardía",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.019"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La diplopía por parálisis del {{c1::VI par}} es un falso signo localizador.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Falso localizador",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.019"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el paciente neurológico con vigilancia pupilar el fondo de ojo se hace {{c1::sin dilatar}}.",
+   "extra": "Pulso venoso espontáneo presente en 80% de los normales.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Papiloscopía",
+   "repaso": false,
+   "codigos": [
+    "1.10.5.001"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los tumores del SNC infantil son mayoría de {{c1::fosa posterior}} (meduloblastoma, astrocitoma pilocítico, ependimoma).",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Tumores SNC niño",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.087"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Craneofaringioma escolar: hemianopsia {{c1::bitemporal}}, talla baja y pubertad alterada.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Craneofaringioma",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.087"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Glioma del nervio óptico: tumor de la vía óptica más frecuente en niños, asociado a {{c1::neurofibromatosis tipo 1}}.",
+   "extra": "Niño de 9 años con proptosis indolora de 6 meses y mala visión de colores.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Glioma óptico",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 96"
+   ],
+   "codigos": [
+    "6.02.1.026"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estigmas de NF1: manchas café con leche, pecas axilares y nódulos de {{c1::Lisch}} en el iris.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 NF1",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.026"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el adulto: meningioma de la vaina del nervio y tumores selares como adenoma hipofisario o {{c1::craneofaringioma}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Adulto",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.026"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-18/01_linterna_oscilante_dpar__kanski_p820.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Linterna oscilante: DPAR",
+   "clave": "Secuencia en que la pupila se dilata al pasar la luz al ojo enfermo",
+   "conducta": "Sospechar neuritis óptica y pedir RM con gadolinio",
+   "fuente": "Kanski's Clinical Ophthalmology, 8.ª ed., Fig. 19.33",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 5"
+   ],
+   "codigos": [
+    "6.02.5.011"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-18/01_papiledema__cto-oftalmo_p88.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Papiledema",
+   "clave": "Papilas hiperémicas de bordes difuminados",
+   "conducta": "Neuroimagen urgente antes de la punción lumbar",
+   "fuente": "Manual CTO Oftalmología 14.ª ed., p. 88",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 169"
+   ],
+   "codigos": [
+    "1.10.1.019",
+    "1.10.5.001"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-18/02_pupila-de-adie__amir-oftalmo_p23.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Pupila de Adie",
+   "clave": "Pupila grande que reacciona poco",
+   "conducta": "No es DPAR: el nervio óptico está sano",
+   "fuente": "Manual AMIR Oftalmología, p. 23",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.011"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Pérdida visual con signos neuroftalmológicos: ¿qué se examina primero?",
+   "codigos": [
+    "1.10.1.008",
+    "1.10.1.019"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "DPAR positivo: ¿qué se sospecha y qué examen se pide?",
+   "codigos": [
+    "1.10.1.008",
+    "1.10.1.019"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.0.0",
+   "pista": "Neuritis óptica: ¿tratamiento y qué no se da?",
+   "codigos": [
+    "1.10.1.008",
+    "1.10.1.019"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1",
+   "pista": "Edema bilateral sin DPAR: ¿conducta?",
+   "codigos": [
+    "1.10.1.008",
+    "1.10.1.019"
+   ]
+  }
+ ]
+}

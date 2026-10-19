@@ -6,6 +6,7 @@ while pgrep -f "batch_classes.sh" >/dev/null; do sleep 60; done          # esper
 while true; do
   c=$(grep -vxF -f "$DONE" "$Q" | head -1)
   if [ -z "$c" ]; then sleep 120; continue; fi
+  while [ "$(df -k / | awk 'NR==2{print $4}')" -lt 1500000 ]; do echo "$(date +%H:%M) disco < 1,5 GB: espero" >> "$D/out/batch.log"; sleep 600; done
   "$D/batch_classes.sh" "$c"
   if [ -f "$D/out/$c/${c}_clase.mp4" ]; then echo "$c" >> "$DONE"
   else echo "$(date +%H:%M) $c falló: se reintenta al final" >> "$D/out/batch.log"; grep -vxF "$c" "$Q" > "$Q.tmp"; cat "$Q.tmp" > "$Q"; rm -f "$Q.tmp"; echo "$c" >> "$Q"

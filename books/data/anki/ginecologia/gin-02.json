@@ -1,0 +1,510 @@
+{
+  "classId": "gin-02",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El SOP es la endocrinopatía más prevalente en la mujer en edad reproductiva y la principal causa de {{c1::anovulación crónica}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro · ¿Por qué?",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.015",
+        "3.01.1.022"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el SOP aumenta la frecuencia de pulsos de GnRH, lo que favorece {{c1::LH}} por sobre FSH.",
+      "extra": "La LH estimula la teca y produce exceso de andrógenos.",
+      "origen": "clase:1",
+      "fuente": "Clase · Dos engranajes",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.015"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Relación LH/FSH clásica en el SOP: > {{c1::2:1}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Pilar neuroendocrino",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.015"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hiperinsulinemia del SOP inhibe la síntesis hepática de {{c1::SHBG}}, con lo que sube la testosterona libre.",
+      "extra": "Presente incluso en mujeres no obesas.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.015",
+        "1.03.1.008"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La resistencia a la insulina está presente en el {{c1::70-80%}} de las pacientes con SOP.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Pilar metabólico",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.015"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Riesgo oncológico del SOP no tratado: {{c1::hiperplasia y cáncer de endometrio}} por estrógenos sin oposición.",
+      "extra": "No hay cuerpo lúteo, por lo tanto no hay progesterona.",
+      "origen": "clase:8",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.015",
+        "3.01.1.022"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Criterios de Rotterdam: se requieren {{c1::2 de 3}} criterios, tras excluir otras causas.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Rotterdam",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.015"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 115",
+        "EUNACOM Julio 2025 · Pregunta 157"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tres criterios de Rotterdam: oligo-anovulación, {{c1::hiperandrogenismo}} y ovario poliquístico en ecografía.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Rotterdam",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.015"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Oligomenorrea del criterio de Rotterdam: ciclos con intervalos > {{c1::35 días}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Rotterdam",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.015",
+        "3.01.1.022"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hirsutismo: escala de Ferriman-Gallwey ≥ {{c1::8}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Rotterdam",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.008"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio ecográfico de SOP: ≥ {{c1::20 folículos}} de 2 a 9 mm en al menos un ovario.",
+      "extra": "Imagen en 'collar de perlas'.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Rotterdam",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.015"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio ecográfico alternativo: volumen ovárico > {{c1::10 mL}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.015"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Descarte obligatorio de hiperplasia suprarrenal no clásica en sospecha de SOP: {{c1::17-hidroxiprogesterona}} matinal.",
+      "extra": "Es el diagnóstico diferencial más importante.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.015",
+        "1.03.1.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 115",
+        "EUNACOM Diciembre 2018 · Pregunta 110"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "17-OH-progesterona > {{c1::2 ng/mL}}: sospechar hiperplasia suprarrenal congénita no clásica (déficit de 21-hidroxilasa).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Descarte",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.008"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Además de la 17-OHP, antes de rotular SOP se descartan {{c1::TSH y prolactina}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Rotterdam",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.015",
+        "3.01.1.022"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hirsutismo con ciclos irregulares en adolescente: el error es {{c1::diagnosticar SOP de entrada}} sin pedir 17-OHP.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.008",
+        "3.01.3.015"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 115"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con SOP ya establecido por 2 criterios (oligomenorrea + hiperandrogenismo clínico), el {{c1::índice de andrógenos libres}} no es obligatorio para confirmar.",
+      "extra": "Pregunta Jul 2015: respuesta pedida fue índice de andrógenos libres.",
+      "origen": "clase:2",
+      "fuente": "Clase · Rotterdam",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.015",
+        "1.03.1.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 115"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El hirsutismo es un {{c1::signo}}, no un diagnóstico: el SOP explica 70-80% pero hay que descartar otras causas.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hirsutismo",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.008"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hirsutismo de inicio brusco, rápidamente progresivo y con virilización: sospechar {{c1::tumor secretor de andrógenos}}.",
+      "extra": "Imagen (ecografía/TAC) y derivación inmediata.",
+      "origen": "clase:4",
+      "fuente": "Clase · Hirsutismo",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.008"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Sospechar tumor secretor si testosterona total > {{c1::150-200 ng/dL}} o DHEA-S > {{c2::700 µg/dL}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Hirsutismo",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.008"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estudio básico del hirsutismo: testosterona total, DHEA-S, {{c1::17-OH-progesterona}}, TSH y prolactina.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hirsutismo",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.008"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pilar universal de primera línea en SOP: {{c1::estilo de vida}}; bajar 5 a 10% del peso restablece la ovulación en más del 50%.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.015"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "SOP sin deseo de embarazo: elección con {{c1::anticonceptivos orales combinados}} con progestágeno antiandrogénico.",
+      "extra": "Ciproterona, dienogest o drospirenona.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.015",
+        "3.01.1.022"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los ACO en SOP frenan la {{c1::LH}} y aumentan la SHBG, bajando la testosterona libre.",
+      "extra": "Además protegen el endometrio.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.015"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si no desea embarazo, el error clásico es dar {{c1::inductores de ovulación}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.015"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Espironolactona {{c1::50 a 100 mg/d}}: coadyuvante en hirsutismo severo si persiste tras 6 meses de ACO.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.008"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Metformina ({{c1::850 a 1.500 mg/d}}) se indica ante intolerancia a la glucosa, DMG previa o resistencia a la insulina comprobada.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.015"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "SOP con deseo de embarazo: inductor de primera línea actual {{c1::letrozol}}, inhibidor de la aromatasa.",
+      "extra": "Mayor tasa de ovulación y nacidos vivos que clomifeno.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.015",
+        "3.01.1.022"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Letrozol para inducir ovulación: {{c1::2.5 a 5 mg/día}} en los días 3 a 7 del ciclo.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.015"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa clásica inductora de ovulación: {{c1::citrato de clomifeno}}.",
+      "extra": "Aumenta la FSH hipofisaria.",
+      "origen": "clase:5",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.015",
+        "3.01.1.022"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si desea embarazo, el error es empezar con {{c1::anticonceptivos combinados}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.015"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Acantosis nigricans en cuello: marcador cutáneo de {{c1::resistencia a la insulina}}.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Libro · caso",
+      "repaso": false,
+      "imagen": "biblioteca/13_ginecologia/gin-02/02_acantosis-nigricans__amir-derma_p30.jpg",
+      "codigos": [
+        "3.01.3.015"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Adolescente con reglas regulares abundantes y quistes < 6 mm en la ecografía: no basta la imagen; se {{c1::solicita estudio endocrinológico}}.",
+      "extra": "Pregunta cuestionada: también hay hipermenorrea que estudiar.",
+      "origen": "clase:2",
+      "fuente": "Pregunta real Dic 2017",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.015"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 175"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-02/01_ovario-poliquistico-eco__cto-gyo_p35.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Ovario poliquístico",
+      "clave": "Múltiples folículos pequeños periféricos ('collar de perlas')",
+      "conducta": "Confirmar Rotterdam (2 de 3) tras descartar 17-OHP, TSH y PRL",
+      "fuente": "Manual CTO Ginecología y Obstetricia 14.ª ed., p. 35",
+      "repaso": true,
+      "codigos": [
+        "3.01.3.015"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-02/03_ferriman-gallwey__nelson_p4295.jpg",
+      "pregunta": "¿Qué mide y qué haces?",
+      "diagnostico": "Hirsutismo (escala de Ferriman-Gallwey)",
+      "clave": "Puntaje ≥ 8 en zonas andrógeno-dependientes",
+      "conducta": "Descartar otras causas; ACO y luego espironolactona",
+      "fuente": "Nelson Textbook of Pediatrics 22.ª ed., p. 4295",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.008"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Hiperandrogenismo con ciclos irregulares: ¿qué descartas primero?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.0",
+      "pista": "SOP sin deseo de embarazo: ¿tratamiento?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1",
+      "pista": "SOP con deseo de embarazo: ¿inductor de primera línea?"
+    }
+  ]
+}

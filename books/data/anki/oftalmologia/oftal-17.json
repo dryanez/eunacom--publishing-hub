@@ -1,0 +1,423 @@
+{
+ "classId": "oftal-17",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El septum orbitario es una lámina fibrosa del reborde óseo a las placas {{c1::tarsales}} que actúa como barrera.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Septum",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Celulitis preseptal: infección de tejidos blandos por {{c1::delante}} del septum; por picaduras, rasguños, orzuelo, dacriocistitis o impétigo.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Preseptal",
+   "repaso": true,
+   "imagen": "biblioteca/12_oftalmologia/oftal-17/01_celulitis-preseptal__amir-oftalmo_p43.jpg",
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Gérmenes de la preseptal: S. aureus y {{c1::S. pyogenes}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Gérmenes preseptal",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Celulitis orbitaria: detrás del septum; en más del {{c1::85-90%}} nace de una sinusitis, sobre todo etmoidal.",
+   "extra": "Niña de 4 años con cuadro catarral, dolor periocular y proptosis.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Orbitaria",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 122"
+   ],
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Gérmenes de la orbitaria: neumococo, S. aureus, {{c1::S. anginosus}} y anaerobios.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Gérmenes orbitaria",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tres signos de invasión orbitaria: oftalmoplejía dolorosa, {{c1::proptosis}} y baja de agudeza visual con DPAR.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tres signos",
+   "repaso": true,
+   "imagen": "biblioteca/12_oftalmologia/oftal-17/01_celulitis_orbitaria_TC__kanski_p100.jpg",
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Preseptal: movimientos oculares {{c1::libres e indoloros}}, sin proptosis y con visión normal (20/20).",
+   "extra": "Escolar con edema palpebral severo y fiebre de 38,8 °C.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Motilidad",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-17/01_celulitis-preseptal_alt1__cto-oftalmo_p30.jpg",
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Eritema, edema palpebral tenso y fiebre se ven en ambas, por lo que {{c1::no distinguen}} preseptal de orbitaria.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Comunes",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Basta {{c1::uno}} de los tres signos para pensar en celulitis orbitaria.",
+   "extra": "Conjuntivitis tratada con cloranfenicol que progresa con edema y quemosis.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Signo único",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Trombosis del seno cavernoso: se extiende por las venas oftálmicas {{c1::avalvuladas}} al seno cavernoso.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Seno cavernoso",
+   "repaso": false,
+   "imagen": "_verificadas/373_oftal_Trombosis_del_seno_cavernoso__KanskisCli_p100_1.jpg",
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Alarma de trombosis del seno cavernoso: {{c1::bilateralización}} del edema y proptosis, con oftalmoplejía completa.",
+   "extra": "Niña con celulitis orbitaria derecha que desarrolla proptosis izquierda.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Alarma",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se afectan los pares {{c1::III, IV y VI}} y las ramas V1 y V2 del trigémino (hipoestesia de frente y mejilla).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Pares",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Además: fiebre en agujas, cefalea frontal severa, alteración de conciencia y {{c1::papiledema}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Clínica",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otras complicaciones mayores: absceso subperióstico, absceso orbitario y {{c1::empiema o absceso cerebral}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Otras",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ante sospecha de celulitis orbitaria: TAC de órbita, senos y encéfalo {{c1::con contraste}} EV.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Imagen",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La TAC confirma la sinusitis, distingue flemón de absceso subperióstico y descarta {{c1::extensión intracraneana}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 TAC",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Preseptal estable: manejo ambulatorio con amoxicilina-clavulánico o cefadroxilo por 7 a 10 días y control a las {{c1::24 horas}}.",
+   "extra": "Niño con picadura de insecto y motilidad conservada.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Preseptal manejo",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Orbitaria: hospitalización inmediata y antibióticos EV: {{c1::ceftriaxona}} más vancomicina (± metronidazol).",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Orbitaria manejo",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se drena si hay absceso subperióstico mayor de {{c1::1 cm}}, deterioro visual o sin mejoría en 48 horas.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Cirugía",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Trampa en la preseptal: hospitalizar y pedir tomografía {{c1::de más}}; en la orbitaria, tratar en la casa con antibiótico oral.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tumores orbitarios: proptosis {{c1::progresiva e indolora}} (semanas a meses), sin fiebre ni signos inflamatorios.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Tumores",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.027"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primera causa de proptosis en el adulto: orbitopatía {{c1::tiroidea}} (Graves), bilateral y con retracción palpebral.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Adulto",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.027"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Proptosis de crecimiento rápido en menores de 10 años: {{c1::rabdomiosarcoma}}; urgencia oncológica.",
+   "extra": "Escolar de 7 años con proptosis de 3 semanas sin fiebre.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Niño",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.027"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tumor benigno orbitario más frecuente del adulto: {{c1::hemangioma cavernoso}}; en el niño, glioma del nervio óptico (NF1).",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Benignos",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.027"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tumor orbitario: medir agudeza, colores, pupilas y exoftalmometría; {{c1::TAC o RM}} y derivar.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Conducta",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.027"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-17/01_celulitis-preseptal__amir-oftalmo_p43.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Celulitis preseptal",
+   "clave": "Párpado rojo e hinchado con ojo móvil",
+   "conducta": "Amoxicilina-clavulánico oral y control a las 24 horas",
+   "fuente": "Manual AMIR Oftalmología, p. 43",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-17/01_celulitis_orbitaria_TC__kanski_p100.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Celulitis orbitaria en TAC",
+   "clave": "Infiltración orbitaria con sinusitis",
+   "conducta": "Hospitalizar; ceftriaxona + vancomicina",
+   "fuente": "Kanski's Clinical Ophthalmology, 8.ª ed., p. 100",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 122"
+   ],
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "_verificadas/373_oftal_Trombosis_del_seno_cavernoso__KanskisCli_p100_1.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Trombosis séptica del seno cavernoso",
+   "clave": "Proptosis y oftalmoplejía bilateral",
+   "conducta": "Unidad crítica y antibióticos EV a dosis altas",
+   "fuente": "Kanski's Clinical Ophthalmology, 8.ª ed., p. 100",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.005"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Párpado rojo e hinchado: ¿cuáles son los tres signos que buscas?",
+   "codigos": [
+    "2.01.1.005",
+    "6.02.1.027"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Al menos un signo orbitario: ¿conducta?",
+   "codigos": [
+    "2.01.1.005",
+    "6.02.1.027"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.0",
+   "pista": "Signos que se extienden al otro ojo: ¿qué se sospecha?",
+   "codigos": [
+    "2.01.1.005",
+    "6.02.1.027"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1",
+   "pista": "Ningún signo orbitario: ¿tratamiento?",
+   "codigos": [
+    "2.01.1.005",
+    "6.02.1.027"
+   ]
+  }
+ ]
+}

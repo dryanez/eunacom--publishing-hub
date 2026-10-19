@@ -1,0 +1,446 @@
+{
+  "classId": "nefro-22",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La metformina se elimina {{c1::sin cambios}} por filtración y secreción renal.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Metformina",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.001"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En falla renal la metformina inhibe el complejo {{c1::I mitocondrial}} y bloquea la gluconeogénesis desde lactato.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Por qué es peligrosa",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.001",
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La complicación de la metformina en falla renal es la acidosis {{c1::láctica}} (MALA).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Por qué es peligrosa",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.001",
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La MALA tiene mortalidad superior al {{c1::40 %}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Por qué es peligrosa",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.001",
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Metformina con TFG {{c1::45–59}} mL/min: mantener dosis y vigilar cada 6 meses.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cortes de filtración",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.001",
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Metformina con TFG {{c1::30–44}} mL/min: reducir al 50 %, máximo 1.000 mg/día.",
+      "extra": "No iniciar en pacientes sin tratamiento previo.",
+      "origen": "clase:2",
+      "fuente": "Clase · Cortes de filtración",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.001",
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Metformina con TFG < {{c1::30}} mL/min: contraindicación absoluta, suspender.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cortes de filtración",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.001",
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dosis máxima de metformina con TFG 30–44: {{c1::1.000 mg/día}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.001",
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Diabética con TFG 22–25 y metformina: la conducta es {{c1::suspenderla de inmediato}} y cambiar a alternativa segura.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · Caso",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.001",
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Metformina con TFG estable de 38: el error es suspenderla; se {{c1::reduce la dosis}} a máximo 1.000 mg/día.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Quiz caso",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.001",
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativas a la metformina con TFG < 30: {{c1::insulina o inhibidor de DPP-4}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cortes de filtración",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.001",
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "De los inhibidores de DPP-4, la {{c1::linagliptina}} no requiere ajuste renal.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cortes de filtración",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.001",
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Los AINE están contraindicados en cualquier grado de ERC o {{c1::IRA}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de ajuste",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.001",
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los AINE inhiben las prostaglandinas vasodilatadoras y cierran la arteriola {{c1::aferente}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Otros fármacos",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.001",
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Riesgo de los AINE en ERC: necrosis tubular isquémica e {{c1::hiperkalemia}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de ajuste",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.001",
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Adulta mayor hipertensa con insuficiencia cardíaca y dolor: el error es agregar {{c1::AINE}} (ibuprofeno, ketorolaco).",
+      "extra": "Riesgo de insuficiencia renal aguda; se prefiere tramadol.",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz Jul. 2016",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.001",
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Aminoglucósidos (amikacina): ajustar si la TFGe es < {{c1::60 mL/min}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de ajuste",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.001",
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Aminoglucósidos causan necrosis tubular tóxica y {{c1::ototoxicidad}}; se espacian los intervalos según clearance y niveles.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de ajuste",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.001",
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Enoxaparina se acumula con TFGe < {{c1::30 mL/min}} y causa hemorragia mayor.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de ajuste",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.001",
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Enoxaparina con TFG < 30: reducir la dosis al {{c1::50 %}} o usar heparina no fraccionada.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de ajuste",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.001",
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Nefropatía por contraste: creatinina ≥ {{c1::0,3 mg/dL}} o ≥ 50 % del basal en 48–72 horas.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Proteger el riñón",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.007",
+        "1.09.3.001"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Factores de riesgo de NIC: ERC, nefropatía diabética, {{c1::deshidratación}} e insuficiencia cardíaca.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 NIC",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La única profilaxis con alta evidencia de NIC es la {{c1::hidratación IV con cristaloides isotónicos}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 NIC",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2020 · Reconstrucción oficial"
+      ],
+      "codigos": [
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hidratación para NIC: {{c1::1,0 a 1,5 mL/kg/h}} durante 6 a 12 horas antes y 6 a 12 horas después.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 NIC",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antes del contraste yodado se suspenden AINE e {{c1::IECA/ARA-II}} 48 horas antes.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 NIC",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Se usa contraste iso-osmolar o de {{c1::baja osmolaridad}} a la menor dosis posible.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 NIC",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Para prevenir NIC, la furosemida y el manitol {{c1::no protegen}}: depletan volumen y agravan la isquemia.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Proteger el riñón",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.007",
+        "1.09.3.001"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La N-acetilcisteína {{c1::no ha demostrado}} beneficio superior a la hidratación isotónica para prevenir NIC.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.007",
+        "1.09.3.001"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los corticoides previenen la alergia al contraste, no la {{c1::nefropatía}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz contraste",
+      "repaso": false,
+      "codigos": [
+        "1.09.3.007",
+        "1.09.3.001"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Metformina: ¿cómo se decide según la TFG?",
+      "codigos": [
+        "1.09.3.001",
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.1",
+      "pista": "Metformina con TFG 30–44: ¿qué se hace?",
+      "codigos": [
+        "1.09.3.001",
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0.2",
+      "pista": "Metformina con TFG < 30: ¿qué conducta y qué alternativas?",
+      "codigos": [
+        "1.09.3.001",
+        "1.09.3.007"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.2",
+      "pista": "Contraste yodado: ¿qué prevención?",
+      "codigos": [
+        "1.09.3.007",
+        "1.09.3.001"
+      ]
+    }
+  ]
+}

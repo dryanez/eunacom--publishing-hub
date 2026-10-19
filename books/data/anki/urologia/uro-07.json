@@ -1,0 +1,409 @@
+{
+ "classId": "uro-07",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Una masa escrotal {{c1::intratesticular}} es sospechosa de malignidad; la extratesticular es casi siempre benigna.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Semiología",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.011"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La transiluminación {{c1::positiva}} indica contenido líquido seroso: hidrocele o espermatocele.",
+   "extra": "Sólidos, hematoceles y vasos no transiluminan.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Transiluminación",
+   "repaso": false,
+   "imagen": "_verificadas/367_uro_Masas_escrotales__ecmpdf_p405_1.jpg",
+   "codigos": [
+    "4.03.1.011",
+    "4.03.1.020"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si no se palpa el cordón por encima de la masa escrotal, se piensa en {{c1::hernia inguinoescrotal}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Hernia",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.011"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El hidrocele es líquido seroso entre las hojas de la {{c1::túnica vaginal}}; engloba al testículo y transilumina.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hidrocele",
+   "repaso": false,
+   "imagen": "biblioteca/19_urologia/uro-07/01_hidrocele-derecho-fotografia__bailey-love_p1524.jpg",
+   "codigos": [
+    "4.03.1.011"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El hidrocele del niño es {{c1::comunicante}} (conducto peritoneovaginal permeable); en el adulto es no comunicante.",
+   "extra": "En el adulto se pide ecografía.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hidrocele",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.011"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El hidrocele voluminoso o molesto se trata con {{c1::hidrocelectomía}} (Jaboulay o Lord); la punción está contraindicada.",
+   "extra": "Recidiva rápida e infección.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Hidrocele",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.011"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El espermatocele es un quiste de la cabeza del {{c1::epidídimo}} con líquido lechoso y espermatozoides, en el polo superior.",
+   "extra": "Se observa; se reseca si duele.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Espermatocele",
+   "repaso": true,
+   "imagen": "biblioteca/19_urologia/uro-07/02_ecografia-quiste-epididimo__bailey-love_p1525.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 82",
+    "EUNACOM Diciembre 2025 · Pregunta 124"
+   ],
+   "codigos": [
+    "4.03.1.020"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El varicocele es la dilatación del plexo {{c1::pampiniforme}}, con sensación de «bolsa de gusanos».",
+   "extra": "Aumenta con Valsalva y colapsa en decúbito.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Varicocele",
+   "repaso": false,
+   "imagen": "_verificadas/66_varicocele_izquierdo__nelsontextbo_p4260_1.jpg",
+   "codigos": [
+    "4.03.1.028"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El varicocele es izquierdo en el {{c1::85-90%}} de los casos porque la vena espermática izquierda drena en ángulo recto en la vena renal.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Varicocele",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.028"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El varicocele es la causa tratable más frecuente de infertilidad masculina: presente en el {{c1::40%}} con espermiograma alterado.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Varicocele",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.028"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se opera el varicocele (varicocelectomía) si hay infertilidad con espermiograma alterado, {{c1::atrofia testicular}} o dolor.",
+   "extra": "Adolescente con atrofia y dolor: ligadura del plexo.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Varicocele",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 148"
+   ],
+   "codigos": [
+    "4.03.1.028"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Varicocele de aparición brusca en > 40-50 años, {{c1::derecho}} o que no colapsa en decúbito: bandera roja.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Banderas rojas",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.028"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El varicocele sospechoso se estudia con {{c1::TAC de abdomen y pelvis}} para descartar carcinoma renal con trombo en la vena renal o cava.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Banderas rojas",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.028"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cáncer de testículo: masa intratesticular {{c1::pétrea}}, irregular, indolora y que no transilumina; ecografía, marcadores y orquiectomía inguinal.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla masas",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.088"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La criptorquidia afecta al {{c1::1-3%}} de los recién nacidos de término y hasta 30% de los prematuros.",
+   "extra": "La mayoría desciende sola en 3-6 meses.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Criptorquidia",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.088"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El testículo {{c1::retráctil}} baja con una maniobra suave por el reflejo cremastérico y no necesita cirugía, solo control anual.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Criptorquidia",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.088"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si no se palpa el testículo, la ecografía aporta poco y se prefiere la {{c1::laparoscopía}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Criptorquidia",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.088"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Si no ha descendido a los 6 meses, se deriva para {{c1::orquidopexia}} entre los 6 y 12 meses (máximo 18 meses).",
+   "extra": "El daño germinal empieza en el primer año.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Criptorquidia",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.088"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Criptorquidia bilateral impalpable con hipospadias o micropene: estudiar un trastorno del {{c1::desarrollo sexual}}.",
+   "extra": "Pregunta real: pene de 2 cm sin testículos palpables: cariograma.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Criptorquidia",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 116",
+    "EUNACOM Enero 2023 · Pregunta 20"
+   ],
+   "codigos": [
+    "2.01.1.088"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La criptorquidia aumenta el riesgo de cáncer testicular {{c1::4 a 10}} veces, que persiste tras la orquidopexia.",
+   "extra": "También infertilidad, torsión y hernia.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Criptorquidia",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.088"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el adulto con testículo intraabdominal no descendido se prefiere la {{c1::orquiectomía}}.",
+   "extra": "La hormonoterapia con hCG no se recomienda de rutina.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Criptorquidia",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.088"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Varicocele derecho que no colapsa: el error es {{c1::operar o tranquilizar}}; primero TAC.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.028"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Quiste de epidídimo asintomático: control ecográfico; el error es {{c1::orquiectomía o punción}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.020"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "_verificadas/66_varicocele_izquierdo__nelsontextbo_p4260_1.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Varicocele izquierdo",
+   "clave": "Venas dilatadas y tortuosas sobre el testículo («bolsa de gusanos»)",
+   "conducta": "Si es benigno y sintomático, varicocelectomía; derecho o que no colapsa: TAC",
+   "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 4260",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 148"
+   ],
+   "codigos": [
+    "4.03.1.028"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-07/01_hidrocele-derecho-fotografia__bailey-love_p1524.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Hidrocele derecho",
+   "clave": "Hemiescroto aumentado, liso, que engloba el testículo y transilumina",
+   "conducta": "Observar; hidrocelectomía si molesta; nunca puncionar",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 80.10",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.011"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-07/02_ecografia-quiste-epididimo__bailey-love_p1525.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Quiste de epidídimo",
+   "clave": "Lesión redonda anecoica en la cabeza del epidídimo",
+   "conducta": "Observar con control ecográfico; resecar solo si duele",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 80.13",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 124"
+   ],
+   "codigos": [
+    "4.03.1.020"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Masa intratesticular dura que no transilumina: ¿qué sospechas?",
+   "codigos": [
+    "4.03.1.028",
+    "2.01.1.088"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "Masa que engloba al testículo y transilumina: ¿diagnóstico y conducta?",
+   "codigos": [
+    "4.03.1.028",
+    "2.01.1.088"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.2.0",
+   "pista": "Varicocele izquierdo que colapsa: ¿cuándo se opera?",
+   "codigos": [
+    "4.03.1.028",
+    "2.01.1.088"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.2.1",
+   "pista": "Varicocele derecho o que no colapsa: ¿qué examen?",
+   "codigos": [
+    "4.03.1.028",
+    "2.01.1.088"
+   ]
+  }
+ ]
+}

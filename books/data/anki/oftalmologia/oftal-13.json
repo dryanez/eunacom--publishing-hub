@@ -1,0 +1,388 @@
+{
+ "classId": "oftal-13",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La microvasculatura retiniana responde a la HTA en {{c1::tres}} fases: vasoconstrictora, esclerótica y exudativa.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fases",
+   "repaso": true,
+   "codigos": [
+    "6.02.3.005"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fase esclerótica: la arteriola pasa de «hilo de {{c1::cobre}}» a «hilo de plata», por hialinización de la pared.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Esclerótica",
+   "repaso": true,
+   "imagen": "_verificadas/274_oftal_Retinopatía_hipertensiva_grado__KanskisCli_p570_1.jpg",
+   "codigos": [
+    "6.02.3.005"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fase exudativa: necrosis fibrinoide y rotura de la barrera hematorretiniana con {{c1::exudados algodonosos}}, hemorragias en llama y edema.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Exudativa",
+   "repaso": true,
+   "codigos": [
+    "6.02.3.005"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La retina es el único lugar donde la microcirculación se ve de forma {{c1::directa y no invasiva}}; refleja el daño en cerebro, corazón y riñón.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Utilidad",
+   "repaso": false,
+   "codigos": [
+    "6.02.1.027"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Keith-Wagener-Barker grado I: estrechamiento arteriolar leve, «hilos de {{c1::cobre}}»; asintomático.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Grado I",
+   "repaso": true,
+   "codigos": [
+    "6.02.3.005",
+    "6.02.5.010"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Grado II: estrechamiento marcado más {{c1::cruces arteriovenosos}} patológicos (Gunn y Salus).",
+   "extra": "Hilos cobrizos con afilamiento venoso y sin hemorragias.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Grado II",
+   "repaso": true,
+   "codigos": [
+    "6.02.3.005",
+    "6.02.5.010"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo de {{c1::Gunn}}: ocultamiento o afilamiento de la vénula en el cruce con la arteriola esclerosada.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Gunn",
+   "repaso": false,
+   "codigos": [
+    "6.02.3.005",
+    "6.02.5.010"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo de {{c1::Salus}}: deflexión de la vénula en ángulo recto o en S al cruzar la arteriola.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Salus",
+   "repaso": false,
+   "codigos": [
+    "6.02.3.005",
+    "6.02.5.010"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Grado III: grado II más hemorragias en {{c1::llama}} y exudados algodonosos, con o sin estrella macular.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Grado III",
+   "repaso": false,
+   "imagen": "biblioteca/12_oftalmologia/oftal-13/01_retinopatia-hipertensiva__cto-oftalmo_p69.jpg",
+   "codigos": [
+    "6.02.3.005",
+    "6.02.5.010"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Grado IV: todo lo anterior más {{c1::edema de papila bilateral}}.",
+   "extra": "Cefalea occipital, visión borrosa y PA 220/130.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Grado IV",
+   "repaso": false,
+   "codigos": [
+    "6.02.3.005",
+    "6.02.5.010"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los exudados algodonosos son blanquecinos de bordes difusos por {{c1::isquemia}}; los duros, depósitos lipídicos.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Exudados",
+   "repaso": false,
+   "codigos": [
+    "6.02.3.005",
+    "6.02.5.010"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Grados I y II: titular los antihipertensivos orales en {{c1::APS}}, sin urgencia.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Grados I y II",
+   "repaso": false,
+   "codigos": [
+    "6.02.3.005",
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Grado III: urgencia hipertensiva; ajuste farmacológico {{c1::rápido}} y control estrecho, sin ingreso a UCI.",
+   "extra": "Hemorragias y exudados sin edema de papila.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Grado III",
+   "repaso": false,
+   "codigos": [
+    "6.02.3.005",
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Grado IV: emergencia hipertensiva maligna, casi siempre con PA mayor de {{c1::200/120}} mmHg y encefalopatía o falla renal.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Grado IV",
+   "repaso": false,
+   "codigos": [
+    "6.02.3.005",
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Emergencia: UCI y fármacos EV en infusión continua, como {{c1::labetalol}} o nitroprusiato.",
+   "extra": "PA 230/140, cefalea, confusión y edema papilar bilateral.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "6.02.3.005",
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Reducir la PAM no más de {{c1::20-25%}} en las primeras 2 a 4 horas.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Descenso",
+   "repaso": true,
+   "codigos": [
+    "6.02.3.005",
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Nunca normalizar la PA de golpe (ni con {{c1::nifedipino sublingual}}): colapsa la autorregulación y causa infarto cerebral o neuropatía óptica isquémica.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Prohibido",
+   "repaso": true,
+   "codigos": [
+    "6.02.3.005",
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fondo de ojo del hipertenso: al diagnóstico y ante {{c1::crisis}} hipertensiva o cefalea.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Oftalmoscopía",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.010"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Orden de lectura: papila, vasos (cobre, plata, Gunn, Salus), retina (llamas y algodonosos) y {{c1::mácula}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Orden",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.010"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En una emergencia hipertensiva con compromiso neurológico se prefiere {{c1::no dilatar}}, para preservar el examen pupilar.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Pupila",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.010"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Oftalmoscopía: ojo derecho con ojo derecho, a {{c1::2 a 3 cm}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Distancia",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.010"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hemorragias en llama sectoriales distales a un cruce AV con vena tortuosa: oclusión de {{c1::rama venosa}}, no retinopatía hipertensiva.",
+   "extra": "Hipertenso de 66 años con visión borrosa súbita.",
+   "origen": "clase:11",
+   "fuente": "Clase · Diferencial",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.010"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Grado I: manejo ambulatorio ligado al {{c1::GES HTA N.º 3}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "6.02.3.005",
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "_verificadas/274_oftal_Retinopatía_hipertensiva_grado__KanskisCli_p570_1.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Hilo de cobre y cruces AV",
+   "clave": "Arteriolas cobrizas y vena afinada en los cruces",
+   "conducta": "Grado I-II: ajuste del antihipertensivo oral",
+   "fuente": "Kanski's Clinical Ophthalmology, 8.ª ed., p. 570",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.010"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/12_oftalmologia/oftal-13/01_retinopatia-hipertensiva__cto-oftalmo_p69.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Retinopatía hipertensiva",
+   "clave": "Hemorragias en llama y exudados algodonosos",
+   "conducta": "Grado III: urgencia hipertensiva; IV si hay edema papilar",
+   "fuente": "Manual CTO Oftalmología 14.ª ed., p. 69",
+   "repaso": false,
+   "codigos": [
+    "6.02.5.010"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Fondo de ojo del hipertenso: ¿qué se busca primero?",
+   "codigos": [
+    "6.02.3.005",
+    "6.02.5.010"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Edema de papila bilateral: ¿conducta?",
+   "codigos": [
+    "6.02.3.005",
+    "6.02.5.010"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.0",
+   "pista": "Solo cruces arteriovenosos: ¿manejo?",
+   "codigos": [
+    "6.02.3.005",
+    "6.02.5.010"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.1",
+   "pista": "Hemorragias y exudados sin edema papilar: ¿manejo?",
+   "codigos": [
+    "6.02.3.005",
+    "6.02.5.010"
+   ]
+  }
+ ]
+}

@@ -320,15 +320,27 @@ function quiz(s, idx, lt, a) {
   // enunciado → explicación
   const ks = out(seg(lt, tS, 0.5));
   ctx.save(); ctx.globalAlpha = a * ks * (1 - ans);
-  const hS = Math.max(wrap(s.stem, 1150, F(20)).length * 27 + 28, wrap(s.explanation, 1150, F(20)).length * 27 + 62);
-  rr(40, 140, 1200, hS, 16, C.CARD, C.LINE, 1.5);
-  para(s.stem, 64, 172, 1150, F(20), 27, C.INK);
+  // imagen de la pregunta (s.image = { src, credit, nota }): a la derecha del enunciado, con «Imagen representativa»
+  const qim = s.image && s.image.src ? photoImg(s.image.src) : null;
+  const IW = qim ? 330 : 0, BW = 1200 - (IW ? IW + 16 : 0), TW = BW - 50;
+  const hS = Math.max(wrap(s.stem, TW, F(20)).length * 27 + 28, wrap(s.explanation, TW, F(20)).length * 27 + 62, IW ? 200 : 0);
+  rr(40, 140, BW, hS, 16, C.CARD, C.LINE, 1.5);
+  para(s.stem, 64, 172, TW, F(20), 27, C.INK);
   ctx.restore();
+  if (qim) {
+    const ih = hS - 22, sc = Math.min(IW / qim.width, ih / qim.height), w = qim.width * sc, h = qim.height * sc;
+    const x = 1240 - IW + (IW - w) / 2, y = 140 + (ih - h) / 2;
+    ctx.save(); ctx.globalAlpha = a * ks;
+    rr(1240 - IW, 140, IW, hS, 16, C.CARD, C.LINE, 1.5);
+    ctx.save(); ctx.beginPath(); ctx.rect(1240 - IW + 4, 144, IW - 8, ih - 4); ctx.clip(); ctx.drawImage(qim, x, y + 2, w, h - 4); ctx.restore();
+    text('Imagen representativa', 1240 - IW / 2, 140 + hS - 6, F(12, 500), C.MUTED, 'center');
+    ctx.restore();
+  }
   if (ans > 0) {
     ctx.save(); ctx.globalAlpha = a * ans;
-    rr(40, 140, 1200, hS, 16, hexA(C.GREEN, 0.08), C.GREEN, 2);
+    rr(40, 140, BW, hS, 16, hexA(C.GREEN, 0.08), C.GREEN, 2);
     text(`Respuesta correcta: ${s.correct}`, 64, 174, F(20, 800), C.GREEN);
-    para(s.explanation, 64, 206, 1150, F(20), 27, C.INK);
+    para(s.explanation, 64, 206, TW, F(20), 27, C.INK);
     ctx.restore();
   }
   let y = 140 + hS + 46;
@@ -558,6 +570,7 @@ Promise.all([loadImg('../assets/neurona_alpha.png'), document.fonts.load('800 20
   document.fonts.load('400 20px Inter'), document.fonts.load('20px DMMono')]).then(() => document.fonts.ready)
   .then(() => Promise.all(D.slides.filter(s => s.type === 'image').flatMap(s => s.images).filter(i => !D.media[i.src])
     .concat(D.slides.flatMap(s => [...(s.cards || []).flatMap(c => c.items), ...(s.type === 'flow' ? s.steps : []), ...(s.rows || [])]).flatMap(photoList))
+    .concat(D.slides.filter(s => s.type === 'quiz' && s.image && s.image.src).map(s => s.image))
     .map(i => loadImg('../../../media/' + i.src).then(im => PH[i.src] = { im }).catch(() => {}))))
   .then(async () => { await window.render(0); window.READY = true; });
 </script>

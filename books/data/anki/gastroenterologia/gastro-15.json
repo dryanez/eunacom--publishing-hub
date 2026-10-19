@@ -1,0 +1,408 @@
+{
+  "classId": "gastro-15",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La cirrosis descompensa por dos vías: {{c1::hipertensión portal}} (várices, ascitis, hepatorrenal) e {{c2::insuficiencia hepática}} (encefalopatía, coagulopatía).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Dos vías",
+      "repaso": false
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "A todo cirrótico con ascitis que consulta por cualquier descompensación, lo primero es la {{c1::paracentesis diagnóstica}}.",
+      "extra": "Para descartar PBE antes de cualquier otra medida.",
+      "origen": "clase:28",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 159",
+        "EUNACOM Julio 2015 · Pregunta 117",
+        "EUNACOM Julio 2024 · Pregunta 175",
+        "EUNACOM Enero 2023 · Pregunta 78",
+        "EUNACOM Diciembre 2024 · Pregunta 39"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La PBE se diagnostica con {{c1::≥ 250 polimorfonucleares/mm³}} en el líquido ascítico.",
+      "extra": "Por eso lo que se pide es el recuento de PMN.",
+      "origen": "clase:7",
+      "fuente": "Clase · Diagrama PBE",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 115"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Agente más frecuente de la peritonitis bacteriana espontánea: {{c1::E. coli}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Diagrama PBE",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 129"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de la PBE: {{c1::cefotaxima o ceftriaxona}} endovenosa por {{c2::5–7 días}}, más albúmina.",
+      "extra": "Lo prioritario es iniciar antibiótico empírico de inmediato.",
+      "origen": "clase:7",
+      "fuente": "Clase · Diagrama PBE",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 98"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la PBE la albúmina se da el {{c1::día 1 y el día 3}} para prevenir el síndrome hepatorrenal.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Diagrama PBE",
+      "repaso": false
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la PBE, el error clásico es usar {{c1::aminoglucósidos}}.",
+      "extra": "Son nefrotóxicos en un paciente con riesgo de hepatorrenal.",
+      "origen": "clase:14",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tras una PBE, profilaxis secundaria con {{c1::ciprofloxacino}} indefinido mientras persista la ascitis.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Diagrama PBE",
+      "repaso": false
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Un gradiente albúmina sérica-ascítica {{c1::≥ 1,1 g/dL}} confirma que la ascitis es por hipertensión portal.",
+      "extra": "< 1,1 sugiere causa peritoneal: carcinomatosis, TBC, pancreatitis.",
+      "origen": "clase:6",
+      "fuente": "Clase · Líquido ascítico",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 125"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Albúmina en el líquido ascítico {{c1::< 1,5 g/dL}} indica alto riesgo de PBE (profilaxis primaria).",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Líquido ascítico",
+      "repaso": false
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Ascitis no complicada: restricción de sodio + {{c1::espironolactona ± furosemida}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Ascitis",
+      "repaso": false
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ascitis a tensión con PBE descartada: {{c1::paracentesis evacuadora + albúmina endovenosa}}.",
+      "extra": "Ascitis refractaria: paracentesis seriadas; considerar TIPS o trasplante.",
+      "origen": "clase:4",
+      "fuente": "Clase · Ascitis",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 99"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Paracentesis evacuadora de más de {{c1::5 L}}: reponer albúmina {{c2::6–8 g por litro}} extraído.",
+      "extra": "Previene la disfunción circulatoria posparacentesis.",
+      "origen": "clase:5",
+      "fuente": "Clase · Paracentesis",
+      "repaso": true
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La paracentesis se punciona en la {{c1::fosa ilíaca izquierda}}, 2–3 cm sobre y medial a la espina ilíaca anterosuperior.",
+      "extra": "Técnica en Z para que no filtre líquido.",
+      "origen": "clase:5",
+      "fuente": "Clase · Paracentesis",
+      "repaso": false
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Paracentesis diagnóstica: se extraen {{c1::30–60 mL}} para recuento celular, albúmina y cultivo en frascos de hemocultivo.",
+      "extra": "No se corrige el INR ni las plaquetas de rutina.",
+      "origen": "clase:5",
+      "fuente": "Clase · Paracentesis",
+      "repaso": false
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Profilaxis primaria de várices (nunca sangró): {{c1::betabloqueo no selectivo (propranolol o carvedilol)}}.",
+      "extra": "Si está contraindicado (asma, EPOC grave): ligadura.",
+      "origen": "clase:2",
+      "fuente": "Clase · Várices",
+      "repaso": true
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Profilaxis secundaria de várices (ya sangró): {{c1::propranolol + ligadura endoscópica}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Várices",
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hemorragia variceal masiva con hipotensión: la conducta inicial es {{c1::reponer volumen con cristaloides}}.",
+      "extra": "Primero estabilizar; luego terlipresina y endoscopía.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Julio 2019",
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hemorragia variceal activa: volumen + {{c1::terlipresina}} (o somatostatina/octreótido) + antibióticos + ligadura.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Hemorragia variceal",
+      "repaso": false
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la hemorragia variceal, el error clásico es omitir los {{c1::antibióticos (ceftriaxona)}}.",
+      "extra": "Son profilaxis de PBE.",
+      "origen": "clase:14",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En hemorragia variceal, la endoscopía con ligadura se hace en las primeras {{c1::12 h}}.",
+      "extra": "Tiamina si es alcohólico; refractaria → TIPS.",
+      "origen": "clase:3",
+      "fuente": "Clase · Hemorragia variceal",
+      "repaso": false
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Encefalopatía hepática: tratar el precipitante + {{c1::lactulosa}} titulada a 2–3 deposiciones blandas al día.",
+      "extra": "Agregar rifaximina; el precipitante más frecuente es la infección.",
+      "origen": "clase:8",
+      "fuente": "Clase · Encefalopatía",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 123"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El TIPS está contraindicado en la {{c1::encefalopatía hepática}}.",
+      "extra": "La sangre salta el hígado y llega más amonio al cerebro.",
+      "origen": "clase:14",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Síndrome hepatorrenal: {{c1::terlipresina + albúmina}} y trasplante hepático.",
+      "extra": "Falla renal funcional de muy mal pronóstico.",
+      "origen": "clase:9",
+      "fuente": "Clase · Hepatorrenal",
+      "repaso": false
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La coagulopatía del cirrótico se corrige {{c1::solo ante sangrado o procedimientos}}.",
+      "extra": "No para normalizar el examen.",
+      "origen": "clase:9",
+      "fuente": "Clase · Coagulopatía",
+      "repaso": false
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dieta del cirrótico con ascitis: sodio {{c1::< 2 g/día}}, sin restringir proteínas.",
+      "extra": "Trampa: restringir proteínas en la encefalopatía.",
+      "origen": "clase:14",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el cirrótico se restringen líquidos solo si hay hiponatremia {{c1::< 125 mEq/L}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Dieta",
+      "repaso": false
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Aporte proteico del cirrótico: {{c1::1,2–1,5 g/kg/día}}, incluso en la encefalopatía.",
+      "extra": "Más colación nocturna para evitar catabolismo.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Dieta",
+      "repaso": false
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La {{c1::creatinina}} no forma parte del Child-Pugh; sí del MELD.",
+      "extra": "Child-Pugh: bilirrubina, albúmina, INR, ascitis, encefalopatía.",
+      "origen": "clase:11",
+      "fuente": "Clase · Child-Pugh y MELD",
+      "repaso": false
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Child-Pugh C corresponde a {{c1::10–15 puntos}} (descompensado).",
+      "extra": "A: 5–6 · B: 7–9.",
+      "origen": "clase:11",
+      "fuente": "Clase · Child-Pugh y MELD",
+      "repaso": false
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se deriva a trasplante al aparecer una complicación mayor o un MELD {{c1::≥ 15}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Child-Pugh y MELD",
+      "repaso": false
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El parámetro que refleja más rápido la función de síntesis hepática es el {{c1::tiempo de protrombina / INR}}.",
+      "extra": "Factor VII con vida media ~6 horas; albúmina ~20 días.",
+      "origen": "clase:25",
+      "fuente": "Clase · Quiz función hepática",
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-15/05_varices-esofagicas-ligadura__atlas-eunacom.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Várice esofágica en endoscopía con ligadura",
+      "clave": "Cordón venoso abultado en el esófago distal, con banda elástica",
+      "conducta": "Sangrado activo: volumen + terlipresina + ceftriaxona + ligadura en las primeras 12 h",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": false
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-15/02_ascitis_tension_foto__commons.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Ascitis a tensión en un cirrótico",
+      "clave": "Abdomen globoso, tenso, con piel brillante",
+      "conducta": "Paracentesis diagnóstica primero; luego evacuadora + albúmina (~8 g por litro)",
+      "fuente": "Wikimedia Commons, James Heilman, MD (CC BY-SA 3.0)",
+      "repaso": false
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-15/01_aranas-vasculares__cto-digestivo_p211.jpg",
+      "pregunta": "¿Qué signo es y qué sugiere?",
+      "diagnostico": "Araña vascular: estigma de daño hepático crónico",
+      "clave": "Arteriola central con ramificaciones radiadas en la piel",
+      "conducta": "Estudiar cirrosis: función hepática (albúmina, INR, bilirrubina), ecografía y endoscopía de várices",
+      "fuente": "Manual CTO Digestivo 14.ª ed., p. 211",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Cirrótico con ascitis: ¿qué haces primero?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.0",
+      "pista": "PMN ≥ 250/mm³: ¿tratamiento?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2",
+      "pista": "Asterixis: ¿tratamiento?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.0",
+      "pista": "Hemorragia variceal: ¿conducta?"
+    }
+  ]
+}

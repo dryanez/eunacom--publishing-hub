@@ -1,0 +1,478 @@
+{
+  "classId": "nefro-11",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Acidosis metabólica: caída primaria del {{c1::bicarbonato}}, con hiperventilación compensadora (respiración de Kussmaul).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Qué es?",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Acidemia: pH < {{c1::7.35}}; el componente metabólico primario es HCO3 < 22 mEq/L.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Leer los gases",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Fórmula de Winter: pCO2 esperada = {{c1::1.5 × HCO3 + 8 ± 2}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con HCO3 10 mEq/L, la pCO2 esperada es {{c1::23 mmHg}} (rango 21 a 25).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Winter en la práctica",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "pCO2 medida mayor que la de Winter: acidosis {{c1::respiratoria}} agregada.",
+      "extra": "El pulmón se está cansando.",
+      "origen": "clase:3",
+      "fuente": "Clase · Winter en la práctica",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "pCO2 medida menor que la de Winter: alcalosis {{c1::respiratoria}} agregada.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Winter en la práctica",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Anion gap = Na − (Cl + HCO3); normal {{c1::8 a 12 mEq/L}}.",
+      "extra": "Lo forman sobre todo las cargas negativas de la albúmina.",
+      "origen": "clase:4",
+      "fuente": "Clase · Anion gap",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Corrección del AG por albúmina: sumar {{c1::2.5 mEq/L}} por cada 1 g/dL bajo 4.0.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Anion gap",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Sin corregir por albúmina, se esconde un AG alto que {{c1::parece normal}}.",
+      "extra": "Frecuente en críticos, nefróticos y cirróticos.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Acidosis con AG elevado (> 12): se {{c1::agregó un ácido}}, con cloro normal.",
+      "extra": "AG normal: se perdió bicarbonato (hiperclorémica).",
+      "origen": "clase:19",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "MUDPILES/KUSSMAUL: cetoacidosis, uremia, acidosis {{c1::láctica}}, salicilatos, metanol y etilenglicol.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · MUDPILES",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cetoacidosis: diabética, {{c1::alcohólica}} y por ayuno prolongado.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.002"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Intoxicación por salicilatos: acidosis metabólica con {{c1::alcalosis respiratoria}} precoz.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · MUDPILES",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Metanol: ácido fórmico con daño ocular y {{c1::ceguera}} ('tormenta de nieve').",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.002"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Etilenglicol: acidosis con ceguera y falla renal por {{c1::oxalato}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · MUDPILES",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causa más frecuente de acidosis con AG normal: {{c1::diarrea aguda profusa}} (pérdida digestiva de HCO3).",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Etiología",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.002"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pérdida digestiva de HCO3: anion gap urinario {{c1::negativo}}; en ATR es positivo.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla AG",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "ATR tipo 1 distal: orina pH > {{c1::5.5}}, hipokalemia y nefrocalcinosis.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Hiperclorémica",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "ATR tipo 4: hipoaldosteronismo con {{c1::hiperkalemia}}; tipo 2 proximal: síndrome de Fanconi.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Hiperclorémica",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Grandes volúmenes de {{c1::suero fisiológico 0.9%}} causan acidosis hiperclorémica por su cloro de 154 mEq/L.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Hiperclorémica",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "ERC etapa 3–4 con AG normal y HCO3 bajo: causa es la {{c1::menor amoniogénesis renal}}.",
+      "extra": "El error es pensar en acumulación de ácidos orgánicos.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Brecha osmolar = Osm medida − Osm calculada; > {{c1::10 mOsm/kg}} sugiere alcohol tóxico.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Brecha osmolar",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.002"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Osm calculada = 2 × Na + glicemia/18 + BUN/{{c1::2.8}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Alcohol tóxico",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "AG alto + brecha osmolar > 10 corresponde a {{c1::metanol o etilenglicol}}, no a cetoacidosis.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Metanol o etilenglicol: antídoto {{c1::fomepizol o etanol}} más hemodiálisis de urgencia.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Alcohol tóxico",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Bicarbonato IV genera acidosis {{c1::intracelular paradójica}}: el CO2 cruza al cerebro y el HCO3 no.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Peligros del bicarbonato",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Otros riesgos del bicarbonato: hipocalcemia iónica aguda y {{c1::sobrecarga de sodio}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Peligros del bicarbonato",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Bicarbonato IV solo si pH < {{c1::7.10}} o HCO3 < 6–8 mEq/L, con inestabilidad hemodinámica.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Cuándo usar bicarbonato",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta con bicarbonato: pH {{c1::7.20}}; no se busca normalizar el pH.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Cuándo usar bicarbonato",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Cetoacidosis diabética con pH 7.12: se tratan con {{c1::fluidos e insulina}}, no bicarbonato de rutina.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El bicarbonato (o citrato de K oral) sí está indicado en pérdidas puras de HCO3 como la {{c1::ATR}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Cuándo usar bicarbonato",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "Shock séptico y cetoacidosis se amparan en la {{c1::Ley de Urgencias}}; la acidosis metabólica no tiene GES específico.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Perfil · GES",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.070",
+        "4.01.4.014"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "AG normal: ¿qué mecanismo y causas?",
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.1.1",
+      "pista": "AG alto con brecha osmolar > 10: ¿qué diagnóstico y tratamiento?",
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0.1.0",
+      "pista": "AG alto sin brecha osmolar: ¿qué haces?",
+      "codigos": [
+        "1.09.1.002",
+        "1.09.4.008"
+      ]
+    }
+  ]
+}

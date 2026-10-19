@@ -1,0 +1,397 @@
+{
+  "classId": "gastro-24",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lactante que regurgita pero está contento, crece bien y tiene examen normal (\"lactante feliz\"): reflujo gastroesofágico {{c1::fisiológico}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla",
+      "repaso": true
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Conducta en el reflujo fisiológico del lactante: {{c1::educar y tranquilizar}}, medidas posturales y alimentación fraccionada, sin fármacos.",
+      "extra": "No se indican IBP, procinéticos ni estudios.",
+      "origen": "libro:caso",
+      "fuente": "Libro · caso",
+      "repaso": true
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El reflujo fisiológico del lactante tiene su pico a los {{c1::2–6 meses}} y cede hacia el año-año y medio.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Reflujo del lactante",
+      "repaso": false
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El reflujo del lactante es patológico si hay {{c1::mal incremento ponderal, síntomas respiratorios o sangre}}.",
+      "extra": "También irritabilidad, rechazo alimentario o episodios de aparente amenaza a la vida.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla",
+      "repaso": false
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Primera línea en el reflujo patológico del lactante: {{c1::IBP (omeprazol)}}.",
+      "extra": "La funduplicatura es la última opción.",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Es un lactante feliz?",
+      "repaso": true
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si hay duda de reflujo patológico en el lactante, el estudio es la {{c1::pH-metría/impedanciometría}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Reflujo del lactante",
+      "repaso": false
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Lactante tratado por reflujo con gotas que presenta trismus, nistagmus e hiperextensión del cuello: probable {{c1::metoclopramida}}.",
+      "extra": "Efecto extrapiramidal; también la domperidona, pero menos.",
+      "origen": "pregunta_real",
+      "fuente": "Pregunta real EUNACOM",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 147"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los vómitos de la estenosis hipertrófica del píloro aparecen entre la {{c1::2.ª y la 6.ª semana}} de vida, no desde el nacimiento.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 137"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lactante de 4 semanas con vómitos explosivos posprandiales y ávido por comer: sospechar {{c1::estenosis hipertrófica del píloro}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Píloro",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 137",
+        "EUNACOM Diciembre 2017 · Pregunta 130"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trastorno ácido-base de la estenosis hipertrófica del píloro: alcalosis metabólica {{c1::hipoclorémica e hipopotasémica}}.",
+      "extra": "Por la pérdida de ácido clorhídrico en los vómitos.",
+      "origen": "libro:caso",
+      "fuente": "Libro · pregunta",
+      "repaso": false
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Examen diagnóstico de elección en la estenosis hipertrófica del píloro: {{c1::ecografía abdominal}} (oliva pilórica).",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · píloro",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 155",
+        "EUNACOM Diciembre 2022 · Pregunta 76",
+        "EUNACOM Julio 2024 · Pregunta 79"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tratamiento de la estenosis hipertrófica del píloro: {{c1::pilorotomía de Ramstedt}}, tras corregir hidratación y electrolitos.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Píloro",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 130"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Lactante que vomita con acidosis e hiperpotasemia (en vez de alcalosis): pensar en {{c1::hiperplasia suprarrenal congénita}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Píloro",
+      "repaso": false
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dolor abdominal crónico del niño con signos de alarma (baja de peso, examen alterado, vómitos o sangre, fiebre recurrente, dolor que despierta): {{c1::estudiar}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Dolor abdominal crónico",
+      "repaso": false
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dolor periumbilical recurrente sin alarma, que aumenta con el estrés escolar y cede en vacaciones: dolor abdominal {{c1::funcional}}.",
+      "extra": "Lo más frecuente sin signos de alarma.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Dolor abdominal crónico",
+      "repaso": true
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el dolor abdominal funcional con examen físico normal, el error es {{c1::pedir exámenes o estudios invasivos innecesarios}}.",
+      "extra": "Se explica, se valida y se maneja el estrés.",
+      "origen": "clase:3",
+      "fuente": "Clase · Dolor abdominal crónico",
+      "repaso": false
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Somatización en el niño (dolor y cefalea en días de colegio, ausentismo): validar el síntoma, abordar estresores y {{c1::mantener la asistencia escolar}}.",
+      "extra": "El ausentismo refuerza el cuadro.",
+      "origen": "clase:4",
+      "fuente": "Clase · Somatización",
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el dolor funcional o la somatización, se deriva a salud mental si hay {{c1::deterioro funcional importante, ansiedad o depresión}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Somatización",
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Constipación funcional: menos de {{c1::3}} deposiciones por semana, duras y dolorosas.",
+      "extra": "Círculo vicioso: dolor → retención → más constipación.",
+      "origen": "clase:5",
+      "fuente": "Clase · Círculo vicioso",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 163"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa más frecuente de masa abdominal en pediatría es el {{c1::fecaloma}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño constipado que mancha la ropa interior: {{c1::pseudoincontinencia por rebosamiento}} alrededor de un fecaloma.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Constipación",
+      "repaso": false
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Constipación que no responde a lactulosa y aparece manchado fecal: la causa de la falta de respuesta es un {{c1::fecaloma}} (el laxante de mantención no desimpacta).",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 165"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El diagnóstico de fecaloma se hace con examen abdominal y {{c1::tacto rectal}} (con testigo y registro).",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Fecaloma",
+      "repaso": false
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fase 1 del manejo del fecaloma: desimpactar con {{c1::polietilenglicol oral}} (de elección; alternativa: enema).",
+      "extra": "Primero desimpactar, después mantener: el orden es obligatorio.",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento constipación",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 66",
+        "EUNACOM Diciembre 2024 · Pregunta 13"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Fase 2 de la constipación: laxante osmótico por al menos {{c1::4 semanas}}, más sentarse tras las comidas, fibra y agua.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento constipación",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 13"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Constipación con antecedente de retraso en la eliminación del meconio: descartar {{c1::enfermedad de Hirschsprung}}.",
+      "extra": "Sospechar con inicio neonatal y ampolla vacía.",
+      "origen": "clase:6",
+      "fuente": "Clase · Organicidad",
+      "repaso": false
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Enema evacuador en el niño: suero fisiológico tibio {{c1::10 mL/kg}}, por gravedad, en decúbito lateral izquierdo.",
+      "extra": "Sonda lubricada a 3–5 cm.",
+      "origen": "clase:7",
+      "fuente": "Clase · Enema evacuador",
+      "repaso": false
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el enema evacuador no se usa agua sola, por riesgo de {{c1::hiponatremia}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Enema evacuador",
+      "repaso": false
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El enema de fosfato se evita en menores de {{c1::2 años}} y en la enfermedad de Hirschsprung.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Enema evacuador",
+      "repaso": false
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La proctoclisis está contraindicada en la {{c1::neutropenia}} (riesgo de bacteriemia), además de obstrucción, abdomen agudo, enterocolitis y cirugía anorrectal reciente.",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz",
+      "repaso": false
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Encopresis: escape involuntario de deposición en un niño de {{c1::4 años}} o más, casi siempre retentiva.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Encopresis",
+      "repaso": false
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Manejo conductual de la encopresis: sentarlo en el baño {{c1::5–10 minutos}} tras las comidas, con apoyo para los pies y sin castigo.",
+      "extra": "Además desimpactar y laxante, como en la constipación.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Encopresis",
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-24/01_eco-piloro-ehp__cto-pediatria_p65.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Estenosis hipertrófica del píloro",
+      "clave": "Ecografía con píloro alargado y músculo engrosado (oliva pilórica)",
+      "conducta": "Corregir hidratación y electrolitos; luego pilorotomía de Ramstedt",
+      "fuente": "Manual CTO Pediatría 14.ª ed., p. 65",
+      "repaso": true
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_verificadas/037_gastro_Reflujo_del_lactante_píloro_co__ecmpdf_p753_1.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Fecaloma en un niño (constipación funcional)",
+      "clave": "Radiografía de abdomen con gran masa fecal",
+      "conducta": "Desimpactar con polietilenglicol oral; luego laxante de mantención ≥ 4 semanas",
+      "fuente": "Atlas of Clinical Emergency Medicine (Sherman), p. 753",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Vómitos explosivos 2.ª–6.ª semana: ¿diagnóstico y examen?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Lactante feliz que crece bien: ¿qué es y qué haces?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "No crece bien o tiene síntomas respiratorios: ¿tratamiento?"
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "classId": "psiq-13",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El SNM es una reacción idiosincrática por bloqueo {{c1::dopaminérgico (D2)}} agudo y masivo en ganglios basales e hipotálamo.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el SNM, el bloqueo D2 del {{c1::hipotálamo anterior}} altera la termorregulación y produce hipertermia.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el SNM, el bloqueo D2 de la vía {{c1::nigroestriada}} causa contracción tónica masiva y rigidez.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Además de antipsicóticos, el SNM puede gatillarse por el {{c1::retiro brusco de levodopa}} en Parkinson.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Factores de riesgo",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Factores de riesgo de SNM: antipsicótico de alta potencia (haloperidol), {{c1::formulación de depósito}} y dosis altas o subida rápida.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Factores de riesgo",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Mortalidad histórica del SNM: {{c1::10 a 20%}}, por falla multiorgánica y shock.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Factores de riesgo",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La tétrada del SNM se desarrolla en {{c1::24 a 72 horas}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tétrada",
+      "repaso": true,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tétrada del SNM: hipertermia, rigidez en caño de plomo, {{c1::inestabilidad autonómica}} y alteración de conciencia.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 141"
+      ],
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hipertermia del SNM: temperatura típicamente {{c1::> 38 °C}}, frecuentemente 39,5 a 41 °C.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tétrada",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La fiebre del SNM {{c1::no cede con antipiréticos}} convencionales; se enfría físicamente.",
+      "extra": "El error es insistir con paracetamol sin suspender el antipsicótico.",
+      "origen": "clase:13",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los reflejos en el SNM son {{c1::normales o disminuidos}} (sin hiperreflexia ni clonus).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tétrada",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El sello bioquímico del SNM es la {{c1::CPK}} marcadamente elevada por rabdomiólisis.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "CPK en SNM: habitualmente {{c1::> 1.000 UI/L}} y frecuentemente > 10.000 UI/L.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Laboratorio",
+      "repaso": true,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Leucocitosis neutrofílica del SNM: {{c1::15.000 a 30.000/mm³}} sin foco infeccioso.",
+      "extra": "Puede parecer sepsis.",
+      "origen": "clase:4",
+      "fuente": "Clase · Laboratorio",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La mioglobinuria del SNM tiñe la orina {{c1::pardo oscuro}} y amenaza con necrosis tubular aguda.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Laboratorio",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Gases en SNM grave: acidosis metabólica láctica con pH {{c1::< 7,25}}, riesgo de arritmias y paro.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Marcadores de gravedad",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "SNM vs serotoninérgico: hiperreflexia y clonus orientan a {{c1::síndrome serotoninérgico}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · SNM vs serotoninérgico",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Serotoninérgico: inicio en {{c1::horas}} tras coingesta; SNM: inicio en días a semanas.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla SNM vs serotoninérgico",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Serotoninérgico: pupilas con {{c1::midriasis}} y diarrea; SNM: pupilas normales y estreñimiento.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla SNM vs serotoninérgico",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento del síndrome serotoninérgico: {{c1::ciproheptadina}} y benzodiacepinas.",
+      "extra": "Antagonista 5-HT2A.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla SNM vs serotoninérgico",
+      "repaso": true,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipertermia maligna: aparece en pabellón con anestésicos halogenados o {{c1::succinilcolina}} (mutación RYR1).",
+      "extra": "Dantroleno; suspender el anestésico.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Diferencial",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante duda con infección del SNC, se realiza {{c1::punción lumbar}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Diferencial",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primera medida en el SNM: {{c1::suspender el antipsicótico}} (y la metoclopramida) y trasladar a UPC.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Protocolo",
+      "repaso": true,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En SNM el error mortal es {{c1::mantener o subir el antipsicótico}}.",
+      "extra": "El biperideno tampoco es útil.",
+      "origen": "clase:9",
+      "fuente": "Clase · Fármacos de rescate",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Soporte inicial del SNM: {{c1::enfriamiento físico activo}}, monitoreo hemodinámico y protección de vía aérea.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Protocolo",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hidratación en SNM: suero fisiológico {{c1::3 a 6 L/día}}.",
+      "extra": "Para arrastrar la mioglobina y proteger el riñón.",
+      "origen": "clase:8",
+      "fuente": "Clase · Primera hora",
+      "repaso": true,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta de diuresis en SNM: al menos {{c1::2 a 3 mL/kg/hora}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Primera hora",
+      "repaso": true,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Bromocriptina en SNM: {{c1::2,5 a 5 mg}} cada 8 horas, hasta 20 mg/día.",
+      "extra": "Agonista dopaminérgico D2.",
+      "origen": "clase:9",
+      "fuente": "Clase · Fármacos de rescate",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Amantadina en SNM: {{c1::100 a 200 mg}} cada 12 horas.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Fármacos de rescate",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Dantroleno EV en SNM: {{c1::1 a 2,5 mg/kg}}; máximo 10 mg/kg/día.",
+      "extra": "Bloquea la liberación de calcio del retículo sarcoplásmico; suspender si hay hepatotoxicidad.",
+      "origen": "clase:9",
+      "fuente": "Clase · Fármacos de rescate",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras un SNM, antes de reintroducir un antipsicótico se espera al menos {{c1::2 semanas}} con CPK y temperatura normales.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Reintroducción",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Reintroducción tras SNM: antipsicótico de baja afinidad D2, como {{c1::quetiapina o clozapina}}.",
+      "extra": "Dosis mínima eficaz y monitorizar CPK y temperatura.",
+      "origen": "clase:10",
+      "fuente": "Clase · Reintroducción",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El SNM se maneja como emergencia médica vital con traslado inmediato a {{c1::UPC}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro · GES",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.002"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.1",
+      "pista": "Rigidez en caño de plomo y CPK alta: ¿qué es y qué haces?",
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1.1",
+      "pista": "SNM grave o refractario: ¿qué fármacos?",
+      "codigos": [
+        "5.01.5.002"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0",
+      "pista": "Hiperreflexia y clonus: ¿qué síndrome?",
+      "codigos": [
+        "5.01.5.002"
+      ]
+    }
+  ]
+}

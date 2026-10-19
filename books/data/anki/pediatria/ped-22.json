@@ -1,0 +1,495 @@
+{
+  "classId": "ped-22",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La DDC afecta con más frecuencia al sexo {{c1::femenino}} (relación mujer:hombre 4:1) y a la cadera {{c2::izquierda}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro · Introducción",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.092",
+        "4.02.1.002"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Factor de riesgo de DDC: presentación {{c1::podálica (de nalgas)}}, por la cadera forzada en el útero.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Diagrama de riesgo",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.092"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La laxitud ligamentosa del sexo femenino en la DDC se explica por los {{c1::estrógenos maternos}}.",
+      "extra": "Otros factores: antecedente familiar de primer grado, primiparidad, oligoamnios.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Factores de riesgo",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.092"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El oligoamnios y la primiparidad predisponen a DDC por {{c1::compresión uterina}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Factores de riesgo",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.092"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Malformaciones posturales asociadas a DDC: {{c1::tortícolis congénita}}, pie bot o metatarso varo.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Factores de riesgo",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.092"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La maniobra de {{c1::Ortolani}} reduce la cadera luxada: se hace abducción y empuje hacia adelante, y se siente un resalto (clunk).",
+      "extra": "Ortolani reduce; Barlow luxa.",
+      "origen": "clase:2",
+      "fuente": "Clase · Ortolani y Barlow",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.092",
+        "4.02.1.002"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 34"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La maniobra de {{c1::Barlow}} luxa la cadera inestable: se hace aducción y empuje hacia atrás.",
+      "extra": "La cabeza femoral sale del acetábulo si es inestable.",
+      "origen": "clase:2",
+      "fuente": "Clase · Ortolani y Barlow",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.092",
+        "4.02.1.002"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el Ortolani, el 'clunk' palpable se siente cuando la cabeza femoral luxada {{c1::se reduce dentro del acetábulo}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Maniobras",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.092"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-22/01_ortolani__nelson_p5430.jpg"
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Para las maniobras de Ortolani y Barlow, las caderas y rodillas del lactante se flexionan a {{c1::90°}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Maniobras",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.092"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las maniobras de Ortolani y Barlow se usan en menores de {{c1::3 meses}}; después pierden sensibilidad por retracción capsular.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Signos clínicos",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.092",
+        "4.02.1.002"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En mayores de 3 meses, el signo más confiable de DDC es la abducción de caderas {{c1::< 60°}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Después de los 3 meses",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.092",
+        "4.02.1.002"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El signo de {{c1::Galeazzi}} es una rodilla más baja que la otra al flexionar las caderas a 90° con los pies apoyados.",
+      "extra": "Se debe al acortamiento aparente del fémur luxado.",
+      "origen": "clase:2",
+      "fuente": "Clase · Después de los 3 meses",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.092"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La asimetría de pliegues inguinales o glúteos en la DDC es un signo {{c1::tardío e inespecífico}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Signos clínicos",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.092"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El examen de elección para la cadera en menores de 3 meses es la {{c1::ecografía (método de Graf)}}.",
+      "extra": "El núcleo de osificación femoral aún es cartilaginoso y no se ve en la radiografía.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Imágenes",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.092",
+        "2.01.4.007"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 34"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la ecografía de Graf, un ángulo alfa {{c1::> 60°}} es normal.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Ecografía",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.092"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES N° 23: radiografía de pelvis anteroposterior a los {{c1::3 meses}} (entre los {{c2::80 y 120 días}}) a TODOS los lactantes.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave GES",
+      "repaso": true,
+      "codigos": [
+        "2.01.4.007",
+        "4.02.3.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 34"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La radiografía de pelvis a los 3 meses del GES N° 23 se toma aunque el examen físico sea normal y {{c1::no haya factores de riesgo}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.007",
+        "4.02.3.006"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La línea de {{c1::Hilgenreiner}} es la horizontal que une ambos cartílagos trirradiados.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · Líneas e índices",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.007"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-22/01_lineas-radiologicas-ddc_2__cto-trauma_p79.jpg"
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La línea de {{c1::Perkin}} es la vertical trazada desde el borde acetabular externo, perpendicular a Hilgenreiner.",
+      "extra": "Juntas delimitan los cuadrantes de Ombredanne.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · Líneas e índices",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.007"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En una cadera normal, el núcleo femoral está en el cuadrante {{c1::ínfero-interno}}; en la luxada, en el {{c2::súpero-externo}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · Cuadrantes de Ombredanne",
+      "repaso": true,
+      "codigos": [
+        "2.01.4.007",
+        "4.02.1.002"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "A los 3 meses, un índice acetabular {{c1::≤ 30°}} es normal; es displasia si es {{c2::> 30°}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · Índice acetabular",
+      "repaso": true,
+      "codigos": [
+        "2.01.4.007",
+        "4.02.3.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 7",
+        "EUNACOM Agosto 2021 · Pregunta 40",
+        "EUNACOM Enero 2023 · Pregunta 34"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Además de superar 30°, se considera displasia una asimetría del índice acetabular entre ambas caderas mayor de {{c1::5°}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Índice acetabular",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.007"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El arco de {{c1::Shenton}} (cuello femoral y rama iliopubiana) está roto o discontinuo en la DDC.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · Líneas e índices",
+      "repaso": false,
+      "codigos": [
+        "2.01.4.007"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-22/06_radiografia-ddc-lineas__nelson_p5432.jpg"
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ortolani positivo en menor de 3 meses: el error es {{c1::esperar la radiografía de los 3 meses}}.",
+      "extra": "Corresponde derivar y pedir ecografía de caderas.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.092",
+        "2.01.4.007"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 34"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con ángulo acetabular ≤ 30° a los 3 meses, el error es {{c1::indicar arnés de todos modos}}.",
+      "extra": "Se mantienen los controles habituales de niño sano.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "4.02.3.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 40",
+        "EUNACOM Enero 2023 · Pregunta 34"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En displasia confirmada menor de 6 meses, el error clásico es usar {{c1::doble pañal}}.",
+      "extra": "Es ineficaz y retrasa el diagnóstico; corresponde arnés de Pavlik.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "4.02.1.002"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de elección de la DDC en menores de 6 meses: {{c1::arnés o correas de Pavlik}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Correas de Pavlik",
+      "repaso": true,
+      "codigos": [
+        "4.02.1.002"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 137",
+        "EUNACOM Julio 2015 · Pregunta 7"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El arnés de Pavlik mantiene flexión de {{c1::90° a 100°}} y abducción moderada de {{c2::45° a 60°}}.",
+      "extra": "Permite el centrado espontáneo de la cabeza en el cotilo.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Pavlik",
+      "repaso": true,
+      "codigos": [
+        "4.02.1.002"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Abducción forzada {{c1::> 70°}} con Pavlik puede causar necrosis avascular de la cabeza femoral.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Complicaciones",
+      "repaso": true,
+      "codigos": [
+        "4.02.1.002"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Una flexión mayor de {{c1::110-120°}} con Pavlik puede causar parálisis del nervio femoral.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Complicaciones",
+      "repaso": false,
+      "codigos": [
+        "4.02.1.002"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En mayores de 6 meses o con fracaso de Pavlik se hace reducción bajo anestesia y {{c1::espica de yeso pelvipédico}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Si falla o llega tarde",
+      "repaso": false,
+      "codigos": [
+        "4.02.1.002"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-22/06_radiografia-ddc-lineas__nelson_p5432.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Displasia del desarrollo de la cadera",
+      "clave": "Núcleo femoral en cuadrante súpero-externo, índice acetabular > 30° y arco de Shenton roto",
+      "conducta": "Derivar a traumatología infantil; arnés de Pavlik si es menor de 6 meses",
+      "fuente": "Nelson Textbook of Pediatrics 22.ª ed., p. 5432",
+      "repaso": true,
+      "codigos": [
+        "2.01.4.007",
+        "4.02.1.002"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-22/05_arnes-pavlik__atlas-eunacom.jpg",
+      "pregunta": "¿Qué es y cuándo se indica?",
+      "diagnostico": "Arnés de Pavlik",
+      "clave": "Correas que mantienen la cadera flectada 90-100° con abducción moderada",
+      "conducta": "Tratamiento de elección en menor de 6 meses; evitar abducción forzada > 70°",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": false,
+      "codigos": [
+        "4.02.1.002"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Menor de 3 meses con Ortolani positivo: ¿qué haces?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1.0",
+      "pista": "Índice acetabular ≤ 30° a los 3 meses: ¿qué haces?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.1",
+      "pista": "Índice acetabular > 30°: ¿qué diagnóstico y tratamiento?"
+    }
+  ]
+}

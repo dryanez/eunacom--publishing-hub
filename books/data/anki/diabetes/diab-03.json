@@ -1,0 +1,479 @@
+{
+  "classId": "diab-03",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Desde las {{c1::20–24 semanas}} la placenta produce hormonas diabetogénicas: lactógeno placentario, progesterona, cortisol y prolactina.",
+      "extra": "Generan resistencia a la insulina para asegurar glucosa al feto.",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Por qué el embarazo produce diabetes?",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el embarazo {{c1::no existe la prediabetes}}: lo que sería GAA o ITG en una no gestante es diabetes gestacional.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Regla de oro",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dos glicemias de ayuno ≥ {{c1::100 mg/dL}} en días diferentes hacen el diagnóstico de DMG.",
+      "extra": "El corte no es 126.",
+      "origen": "clase:2",
+      "fuente": "Clase · Criterios",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 88",
+        "EUNACOM Diciembre 2019 · Pregunta 44"
+      ],
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "PTGO 75 g en el embarazo: basal ≥ {{c1::100}} o a las 2 horas ≥ {{c2::140 mg/dL}} diagnostica DMG.",
+      "extra": "Basta un solo valor alterado.",
+      "origen": "clase:2",
+      "fuente": "Clase · Criterios",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 133",
+        "EUNACOM Julio 2016 · Pregunta 38"
+      ],
+      "codigos": [
+        "1.02.1.002",
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La PTGO universal en el embarazo se hace entre las semanas {{c1::24 y 28}}.",
+      "extra": "Si el ayuno del primer trimestre fue normal.",
+      "origen": "clase:5",
+      "fuente": "Clase · Tamizaje",
+      "repaso": true,
+      "codigos": [
+        "1.02.4.024",
+        "1.02.1.002"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una glicemia casual ≥ 200 mg/dL con síntomas en la embarazada diagnostica {{c1::diabetes gestacional}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Criterios",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.002",
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el embarazo no existe intolerancia a la glucosa: PTGO con basal 98 y 2 h 147 mg/dL es {{c1::DMG}}.",
+      "extra": "Basta un valor alterado.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Julio 2017",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 133"
+      ],
+      "codigos": [
+        "1.02.1.002",
+        "1.02.4.024"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PTGO con basal 88 y 2 h 148 mg/dL a las 26 semanas: DMG; se deriva a {{c1::alto riesgo obstétrico}} y se inicia régimen nutricional.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro · pregunta Dic 2019",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.002",
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pregestacional es la diabetes previa o con criterios de no embarazada (≥ 126) en las primeras {{c1::12 semanas}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Regla de las 12 semanas",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.003",
+        "1.02.1.002"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Embarazada de 10 semanas con ayuno ≥ 126 mg/dL confirmado: {{c1::diabetes pregestacional}}.",
+      "extra": "Se confirma con una segunda glicemia ≥ 126.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Dic 2018",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 176",
+        "EUNACOM Diciembre 2019 · Pregunta 107",
+        "EUNACOM Diciembre 2017 · Pregunta 180"
+      ],
+      "codigos": [
+        "1.02.1.003",
+        "1.02.1.002"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ayuno 100–125 mg/dL en las primeras 12 semanas es {{c1::DMG}}, no pregestacional.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Regla de las 12 semanas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.003",
+        "1.02.1.002"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La diabetes pregestacional se asocia a {{c1::malformaciones congénitas}} (cardiopatías conotruncales, regresión caudal).",
+      "extra": "Por hiperglicemia durante la organogénesis.",
+      "origen": "clase:3",
+      "fuente": "Clase · Gestacional o pregestacional",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La DMG no aumenta malformaciones, pero causa {{c1::macrosomía, polihidramnios y distocia de hombros}}.",
+      "extra": "La organogénesis ya estaba completa.",
+      "origen": "clase:3",
+      "fuente": "Clase · Gestacional o pregestacional",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 9"
+      ],
+      "codigos": [
+        "3.01.1.004",
+        "1.02.1.002"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La diabetes pregestacional se asocia a malformaciones, RCIU por daño vascular y {{c1::muerte in utero}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla gestacional vs pregestacional",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la pregestacional, el ayuno es ≥ {{c1::126}} y la PTGO a las 2 horas ≥ {{c2::200 mg/dL}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.024",
+        "1.02.1.002"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Ayuno de ingreso < 100 mg/dL: se programa {{c1::PTGO a las 24–28 semanas}}.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · diabetes en el embarazo",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.024",
+        "1.02.1.002"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ayuno de ingreso 100–125 mg/dL: se {{c1::repite el ayuno}} de inmediato; el error es pedir PTGO.",
+      "extra": "Segunda ≥ 100: diabetes gestacional.",
+      "origen": "clase:18",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 88",
+        "EUNACOM Diciembre 2019 · Pregunta 44",
+        "EUNACOM Julio 2013 · Pregunta 60"
+      ],
+      "codigos": [
+        "1.02.1.002",
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Ayuno ≥ 126 mg/dL al ingreso: se repite y, si la segunda es ≥ 126, es {{c1::pregestacional}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Primer trimestre",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La PTGO se repite a las semanas {{c1::32–34}} si la de 24–28 fue normal y hay factor de alto riesgo.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tercer trimestre",
+      "repaso": true,
+      "codigos": [
+        "1.02.4.024",
+        "1.02.1.002"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Factores que indican repetir la PTGO a las 32–34 semanas: feto grande, {{c1::polihidramnios}} o DMG previa.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tercer trimestre",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.024",
+        "1.02.1.002"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "PTGO normal (basal 86, 2 h 139 mg/dL) sin factores de riesgo: {{c1::control normal}}, no repetir la PTGO.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Dic 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 81",
+        "EUNACOM Agosto 2021 · Pregunta 73"
+      ],
+      "codigos": [
+        "1.02.1.002",
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta de autocontrol en el embarazo: glicemia de ayuno entre {{c1::70 y 95 mg/dL}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Metas",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta postprandial en el embarazo: 1 hora < {{c1::140 mg/dL}} o 2 horas < {{c2::120 mg/dL}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Metas",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El primer pilar del tratamiento de la DMG es la {{c1::terapia nutricional}}, con 4 comidas y 2 colaciones de carbohidratos complejos.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Pilares del tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si no se logran metas en 1–2 semanas o hay macrosomía, se usa {{c1::insulina NPH y cristalina}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Pilares del tratamiento",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 133",
+        "EUNACOM Diciembre 2024 · Pregunta 108"
+      ],
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En DMG con glicemia de 200 mg/dL a las 2 horas, tras dieta, el fármaco de elección es {{c1::insulina}}, no glibenclamida.",
+      "extra": "Las sulfonilureas están contraindicadas.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Tratamiento",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 133",
+        "EUNACOM Diciembre 2024 · Pregunta 108"
+      ],
+      "codigos": [
+        "1.02.1.002",
+        "3.01.1.004"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras el parto de una DMG se hace {{c1::PTGO con 75 g}} a las 6–12 semanas.",
+      "extra": "En la pregestacional se mantiene el tratamiento.",
+      "origen": "clase:6",
+      "fuente": "Clase · Después del parto",
+      "repaso": true,
+      "codigos": [
+        "1.02.4.024",
+        "1.02.1.002"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hiperglicemia materna cruza la placenta y produce {{c1::hiperinsulinismo fetal}} y macrosomía.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Por qué el embarazo produce diabetes?",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Feto con percentil 93, PTGO 92 basal y 170 a las 2 h: causa es {{c1::DMG}}, no pregestacional.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Julio 2024",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 9"
+      ],
+      "codigos": [
+        "3.01.1.004",
+        "1.02.4.024"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Ayuno 100–125 al ingreso: ¿qué haces?",
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.2",
+      "pista": "Ayuno ≥ 126 en el primer trimestre: ¿qué haces?",
+      "codigos": [
+        "1.02.1.002",
+        "1.02.1.003"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0.0",
+      "pista": "PTGO alterada a las 24–28 semanas: ¿diagnóstico y conducta?",
+      "codigos": [
+        "1.02.4.024",
+        "1.02.1.002"
+      ]
+    }
+  ]
+}

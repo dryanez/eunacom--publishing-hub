@@ -1,0 +1,544 @@
+{
+  "classId": "diab-05",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El ejercicio capta glucosa por translocación de {{c1::GLUT-4}} vía AMPK, independiente de la insulina.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Mecanismo",
+      "repaso": true,
+      "codigos": [
+        "1.02.3.004",
+        "1.01.3.006"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El ejercicio y la terapia nutricional bajan la HbA1c entre {{c1::0,5 y 1,0 %}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Por qué baja la glicemia",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.004",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Prescripción aeróbica: al menos {{c1::150 minutos}} semanales de intensidad moderada.",
+      "extra": "Caminar a paso ligero, nadar, ciclismo.",
+      "origen": "clase:2",
+      "fuente": "Clase · Prescripción",
+      "repaso": true,
+      "codigos": [
+        "1.02.3.004",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El ejercicio aeróbico se reparte en al menos {{c1::3 días}} por semana, sin pasar más de {{c2::2 días}} seguidos sin actividad.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Prescripción",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.004",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se complementa con ejercicios de resistencia muscular {{c1::2 a 3 veces}} por semana.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Prescripción",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.004",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El ejercicio aumenta la sensibilidad a la insulina hasta por {{c1::24 a 48 horas}}.",
+      "extra": "Puede gatillar hipoglicemia tardía nocturna.",
+      "origen": "clase:1",
+      "fuente": "Clase · Por qué baja la glicemia",
+      "repaso": true,
+      "codigos": [
+        "1.02.3.004",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La hipoglicemia por ejercicio es un riesgo con {{c1::insulina y sulfonilureas (glibenclamida)}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Fármacos problema",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.006",
+        "1.02.3.004"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "{{c1::Metformina, iSGLT2 e iDPP4}} no causan hipoglicemia con el ejercicio.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Fármacos problema",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.006",
+        "1.02.3.004"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con insulina o glibenclamida y glicemia pre-ejercicio < {{c1::100 mg/dL}}, se come una colación antes de partir.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · La glicemia antes de empezar",
+      "repaso": true,
+      "codigos": [
+        "1.02.3.004",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La colación pre-ejercicio aporta {{c1::15 a 20 g}} de carbohidratos de absorción rápida o mixta.",
+      "extra": "Ejemplo: fruta o galletas de agua.",
+      "origen": "clase:3",
+      "fuente": "Clase · La glicemia antes de empezar",
+      "repaso": true,
+      "codigos": [
+        "1.02.3.004",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Glicemia capilar de 88 mg/dL con NPH matinal antes de trotar: se ingiere colación; el error es {{c1::suspender el ejercicio o salir igual}}.",
+      "extra": "El peak de la NPH matinal coincide con el ejercicio.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": true,
+      "codigos": [
+        "1.02.3.004",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Glicemia entre {{c1::100 y 250 mg/dL}} es zona segura para hacer ejercicio con hidratación.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · La glicemia antes de empezar",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.004",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En glicemia 100–250 mg/dL el error es {{c1::pedir exámenes antes}} de ejercitar.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.004",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En DM1 con glicemia > 250 mg/dL y {{c1::cetonas}}, se suspende el ejercicio, se hidrata y se da insulina rápida.",
+      "extra": "El ejercicio sin insulina lleva a cetoacidosis.",
+      "origen": "clase:3",
+      "fuente": "Clase · La glicemia antes de empezar",
+      "repaso": true,
+      "codigos": [
+        "1.02.3.004",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la neuropatía periférica se prefiere {{c1::natación, remo o bicicleta estática}} y se evita el trote y caminar descalzo.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Complicaciones",
+      "repaso": true,
+      "codigos": [
+        "1.02.3.004",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En neuropatía se recomienda inspección diaria de los pies y calzado {{c1::acolchado sin costuras internas}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Complicaciones",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.004",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En retinopatía proliferativa se evitan Valsalva, pesas máximas y saltos por riesgo de {{c1::hemorragia vítrea o desprendimiento de retina}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Complicaciones",
+      "repaso": true,
+      "codigos": [
+        "1.02.3.004",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El test de esfuerzo previo se pide al sedentario que quiere ejercicio {{c1::vigoroso}} y tiene un factor de riesgo asociado.",
+      "extra": "No a todo diabético que camina.",
+      "origen": "clase:6",
+      "fuente": "Clase · Test de esfuerzo",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.023",
+        "1.01.3.006"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Test de esfuerzo si edad > {{c1::40 años}} con DM de más de {{c2::10 años}}, entre otros factores.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Test de esfuerzo",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.023",
+        "1.02.3.004"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Se piden test de esfuerzo por {{c1::isquemia silente}}: el diabético puede no sentir la angina.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Test de esfuerzo",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.023",
+        "1.02.3.004"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Test de esfuerzo negativo suficiente: alcanza ≥ {{c1::85 %}} de la frecuencia máxima teórica (220 − edad).",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Test de esfuerzo",
+      "repaso": true,
+      "codigos": [
+        "1.02.4.023",
+        "1.02.3.004"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un test de esfuerzo positivo implica {{c1::no iniciar el ejercicio y derivar a cardiología}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Test de esfuerzo",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.023",
+        "1.02.3.004"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un test submáximo por betabloqueo o neuropatía autonómica {{c1::no descarta isquemia}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Test de esfuerzo",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.004",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La diabetes multiplica por {{c1::2 a 4}} el riesgo de infarto, ACV y enfermedad arterial periférica.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Riesgo cardiovascular",
+      "repaso": true,
+      "codigos": [
+        "1.02.3.004",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La principal causa de muerte del diabético es la {{c1::enfermedad cardiovascular}}.",
+      "extra": "El infarto puede ser sin dolor típico.",
+      "origen": "clase:7",
+      "fuente": "Clase · Riesgo cardiovascular",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.004",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta de PA en diabetes: < {{c1::130/80 mmHg}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Riesgo CV",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.003",
+        "7.01.3.032"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La aspirina {{c1::100 mg}} diaria se indica en prevención secundaria.",
+      "extra": "En primaria se individualiza por riesgo de sangrado.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Riesgo CV",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.003",
+        "7.01.3.032"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La diabetes mayor de 40 años es alto riesgo CV en el PSCV: se inicia {{c1::atorvastatina}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.004",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Programa de Salud Cardiovascular pesquisa con el {{c1::EMPA}} (Examen de Medicina Preventiva del Adulto).",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · En Chile",
+      "repaso": true,
+      "codigos": [
+        "1.02.3.004",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hipoglicemia a las 3 AM con NPH 30 U y 20 U: se {{c1::disminuye la NPH nocturna}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Julio 2017",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 149",
+        "EUNACOM Agosto 2021 · Pregunta 119"
+      ],
+      "codigos": [
+        "1.02.2.006",
+        "1.02.3.004"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Convulsiones en diabético de 78 años con glibenclamida 15 mg: sospechar {{c1::hipoglicemia}}.",
+      "extra": "El paciente mal controlado se autorrefuerza el tratamiento.",
+      "origen": "libro:caso",
+      "fuente": "Preguntas reales",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 72",
+        "EUNACOM Diciembre 2019 · Pregunta 86"
+      ],
+      "codigos": [
+        "1.02.2.006",
+        "1.02.3.004"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hipoglicemias con metformina más glibenclamida y HbA1c alta: se reemplaza la glibenclamida por {{c1::sitagliptina}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Dic 2017",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 40"
+      ],
+      "codigos": [
+        "1.02.2.006",
+        "1.02.3.004"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El dumping tardío es una hipoglicemia reactiva {{c1::1–3 h postprandial}}, exclusiva del bypass gástrico.",
+      "extra": "Se trata con comidas pequeñas y frecuentes.",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Julio 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 73"
+      ],
+      "codigos": [
+        "1.02.2.006",
+        "1.02.3.004"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El mejor indicador de que un programa de tamizaje de cáncer de mama es efectivo es la {{c1::tasa de mortalidad}} por cáncer de mama.",
+      "extra": "El tamizaje reduce mortalidad, no incidencia.",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Agosto 2021",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 6"
+      ],
+      "codigos": [
+        "7.01.3.032",
+        "1.02.3.004"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La exposición laboral a {{c1::anilinas}} se asocia a cáncer de vejiga.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Diciembre 2017",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 76"
+      ],
+      "codigos": [
+        "7.01.3.032",
+        "1.02.3.004"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Neuropatía periférica: ¿qué ejercicio?",
+      "codigos": [
+        "1.02.3.004",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.2.0",
+      "pista": "Glicemia < 100 con insulina: ¿qué haces?",
+      "codigos": [
+        "1.02.3.004",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2.2",
+      "pista": "Glicemia > 250 con cetonas: ¿qué haces?",
+      "codigos": [
+        "1.02.3.004",
+        "1.02.3.003"
+      ]
+    }
+  ]
+}

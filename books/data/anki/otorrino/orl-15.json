@@ -1,0 +1,425 @@
+{
+ "classId": "orl-15",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El anillo de Waldeyer alcanza su mayor desarrollo entre los {{c1::2 y 6 años}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Waldeyer",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.100",
+    "6.03.1.028"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Facies adenoidea: rostro alargado, boca entreabierta, paladar {{c1::ojival}}, maloclusión clase II y ojeras.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Facies adenoidea",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-15/02_facies-adenoidea__zitelli_p952.jpg",
+   "codigos": [
+    "2.01.1.100",
+    "6.03.1.028"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Niño de 6 años con epistaxis frecuente, respirador bucal, ronquido e infecciones altas repetidas: {{c1::hipertrofia adenoidea}}.",
+   "extra": "El enunciado del banco aparece truncado en el digest.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Respirador bucal",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2018 · Pregunta 141"
+   ],
+   "codigos": [
+    "4.01.2.004"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "SAHOS infantil: ronquido, pausas respiratorias con ronquido de rescate, sudoración nocturna y {{c1::enuresis secundaria}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 SAHOS",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.027"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los niños con SAHOS tienen {{c1::hiperactividad}} e irritabilidad diurna (a menudo mal diagnosticados como TDAH), no somnolencia.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diferencia",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.027"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El SAHOS causa retraso pondoestatural por mayor gasto calórico y menos {{c1::hormona de crecimiento}} nocturna.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Crecimiento",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.027"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hipoxemia e hipercapnia nocturnas llevan a vasoconstricción pulmonar y {{c1::cor pulmonale}} crónico.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cor pulmonale",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.027"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hipertrofia adenotonsilar es la causa más común de SAHOS en niños de {{c1::2 a 6 años}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Causa",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.027"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Brodsky grado 4: amígdalas que se tocan en la línea media («{{c1::amígdalas en beso}}»).",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Brodsky",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-15/01_hipertrofia-amigdalina-grado4__bull_p200.jpg",
+   "codigos": [
+    "2.01.1.100",
+    "6.03.1.027"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Brodsky grado 4: obstrucción mayor de {{c1::75%}} de la orofaringe.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Brodsky",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.100",
+    "6.03.1.028"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Brodsky grado 2: obstrucción de {{c1::25 a 50%}}, común en niños; se observa.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Brodsky",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.100",
+    "6.03.1.028"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Brodsky grado 3: obstrucción de {{c1::50 a 75%}}; evaluar SAHOS.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Brodsky",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.027"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Indicación absoluta número uno de adenoamigdalectomía: {{c1::SAHOS}} infantil o hipertrofia grado 4.",
+   "extra": "Niño de 5 años con pausas de 15 segundos, Brodsky 4 y retraso pondoestatural.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Absolutas",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.100",
+    "6.03.1.027"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otras indicaciones absolutas: sospecha de neoplasia amigdalina unilateral y {{c1::hemorragia amigdalina}} severa recurrente.",
+   "extra": "Asimetría, ulceración o dureza pétrea: linfoma o carcinoma.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Absolutas",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.100"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Criterios de Paradise: ≥ {{c1::7}} episodios en 1 año, ≥ 5 por año en 2 años o ≥ 3 por año en 3 años.",
+   "extra": "Episodios documentados, con fiebre > 38,3 °C y bien tratados.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Paradise",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.100",
+    "6.03.1.003"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otras indicaciones relativas: dos abscesos {{c1::periamigdalinos}} previos o amigdalitis hemorrágica.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Paradise",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.003"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La {{c1::caseosis}} (tonsilolitiasis) es benigna y no justifica amigdalectomía.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Caseosis",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.100"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Niño con 8 episodios de amigdalitis estreptocócica documentados en un año: derivar a ORL para evaluar {{c1::amigdalectomía}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Derivación",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.100",
+    "6.03.1.003"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La Rx lateral de cavum muestra la columna de aire nasofaríngea y la relación adenoides/nasofaringe (obstructiva si > {{c1::0,8}}).",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Radiografía de cavum",
+   "repaso": false,
+   "codigos": [
+    "2.01.4.004",
+    "6.03.4.002"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Preescolar con respiración bucal, roncopatía, rinorrea y otitis repetidas: examen inicial {{c1::radiografía de cavum}}.",
+   "extra": "La nasofibroscopía es más precisa, pero va en segunda línea.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Examen inicial",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 23"
+   ],
+   "codigos": [
+    "2.01.4.004",
+    "6.03.4.002"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el adulto con obstrucción nasal unilateral u OME unilateral no se pide radiografía: {{c1::endoscopía}} para descartar tumor de cavum.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Adulto",
+   "repaso": false,
+   "codigos": [
+    "2.01.4.004",
+    "6.03.4.002"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas del respirador bucal: adenoides, rinitis alérgica, desviación septal, pólipos y {{c1::atresia de coanas}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Respirador bucal",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.028"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Respirador bucal de 7 años sin apnea ni infecciones ni complicaciones: {{c1::observar}} y controlar.",
+   "extra": "Radiografía con 80% de obstrucción; amígdalas grado II. Pregunta discutida por los propios ORL.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Observar",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 48"
+   ],
+   "codigos": [
+    "6.03.1.028"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento del respirador bucal: corticoide nasal si es alérgico, adenoamigdalectomía si hay apnea, y rehabilitación {{c1::miofuncional}} y ortodoncia.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.028"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Derivar a ORL ante ronquido persistente, apnea del sueño u OME {{c1::recurrente}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Derivación",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.028"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-15/02_facies-adenoidea__zitelli_p952.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Facies adenoidea",
+   "clave": "Cara alargada, boca entreabierta y ojeras",
+   "conducta": "Buscar la causa de la obstrucción nasal",
+   "fuente": "Zitelli and Davis' Atlas of Pediatric Physical Diagnosis, p. 952",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2018 · Pregunta 141"
+   ],
+   "codigos": [
+    "2.01.1.100",
+    "6.03.1.028"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-15/01_hipertrofia-amigdalina-grado4__bull_p200.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Amígdalas grado 4",
+   "clave": "Amígdalas que se tocan en la línea media",
+   "conducta": "Adenoamigdalectomía si hay SAHOS",
+   "fuente": "Color Atlas of ENT Diagnosis (Bull), p. 200",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.100",
+    "6.03.1.027"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Niño que ronca con apneas, cor pulmonale o falla de crecimiento: ¿conducta?",
+   "codigos": [
+    "2.01.1.100",
+    "6.03.1.028"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1",
+   "pista": "Niño que ronca sin apneas: ¿qué se evalúa?",
+   "codigos": [
+    "2.01.1.100",
+    "6.03.1.028"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.0",
+   "pista": "Cumple criterios de Paradise: ¿conducta?",
+   "codigos": [
+    "2.01.1.100",
+    "6.03.1.028"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.1",
+   "pista": "No cumple Paradise ni complicaciones: ¿conducta?",
+   "codigos": [
+    "2.01.1.100",
+    "6.03.1.028"
+   ]
+  }
+ ]
+}

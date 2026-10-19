@@ -1,0 +1,538 @@
+{
+  "classId": "ob-18",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La hemorragia postparto inmediata es una pérdida acumulada ≥ {{c1::1.000 mL}} o sangrado con signos de hipovolemia en las primeras 24 horas.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Cuándo hablamos de código rojo",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Definición clásica de HPI: > {{c1::500 mL}} en parto vaginal y > {{c2::1.000 mL}} en cesárea.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definición",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el código rojo se canalizan dos vías periféricas gruesas de {{c1::14G o 16G}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Código Rojo",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la resucitación de la HPI el Ringer lactato se limita a un máximo de {{c1::1.500 a 2.000 mL}}.",
+      "extra": "Evita hemodilución e hipotermia.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Código Rojo",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La regla de las 4T de la HPI: Tono, Trauma, Tejido y {{c1::Trombina}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Las cuatro T",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La atonía uterina (Tono) causa el {{c1::70%}} de las HPI.",
+      "extra": "Es la causa más frecuente, de lejos.",
+      "origen": "clase:2",
+      "fuente": "Clase · Las cuatro T",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Trauma explica el {{c1::20%}} de las HPI y Tejido el {{c2::10%}}.",
+      "extra": "Trombina, solo el 1%.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de las 4T",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tono: el útero está {{c1::blando}}, supraumbilical y no se retrae tras el alumbramiento.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de las 4T",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2018 · Pregunta 144"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Útero duro y contraído que igual sangra rojo rutilante: es {{c1::trauma del canal}}; se inspecciona con valvas y se suturan los desgarros.",
+      "extra": "No es atonía: no se legra a ciegas.",
+      "origen": "clase:10",
+      "fuente": "Clase · Cómo diferenciar las cuatro T",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Placenta expulsada incompleta orienta a Tejido; se hace {{c1::revisión manual o instrumental}} de la cavidad bajo anestesia.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Cómo diferenciar las cuatro T",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "HPI con TP y TTPA alargados y fibrinógeno bajo (CID, la T de trombina): se repone con {{c1::plasma fresco congelado}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Diciembre 2017",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 54"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El primer paso ante una atonía uterina es el {{c1::masaje uterino bimanual}}.",
+      "extra": "En paralelo se inician los uterotónicos.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Julio 2018",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2018 · Pregunta 144"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Oxitocina en la atonía (primera línea): bolo lento de {{c1::5 a 10 UI}} EV en 2-3 minutos.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Uterotónicos",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras el bolo de oxitocina se pasa una infusión continua de {{c1::20 a 40 UI}} en 1.000 mL de suero.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Uterotónicos",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Ácido tranexámico en toda HPI: {{c1::1 g}} EV dentro de las primeras {{c2::3 horas}}.",
+      "extra": "Ensayo WOMAN: baja la mortalidad sin aumentar trombosis.",
+      "origen": "clase:3",
+      "fuente": "Clase · La escalera del tratamiento",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si el sangrado persiste a los 30 min, se repite una segunda dosis de {{c1::1 g}} de ácido tranexámico.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Uterotónicos",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Metilergonovina (ergometrina): {{c1::0.2 mg}} IM, de segunda línea.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Uterotónicos",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La metilergonovina está contraindicada en {{c1::hipertensas o preeclámpticas}}.",
+      "extra": "Riesgo de crisis hipertensiva, ACV y edema agudo de pulmón.",
+      "origen": "clase:4",
+      "fuente": "Clase · Lo que nunca puedes olvidar",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Misoprostol en HPI: {{c1::800 mcg}} sublingual o rectal; seguro en hipertensas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Uterotónicos",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Carboprost (PGF2α): {{c1::0.25 mg}} IM.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Uterotónicos",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El carboprost está contraindicado en {{c1::asmáticas}}.",
+      "extra": "Provoca broncoespasmo grave.",
+      "origen": "clase:4",
+      "fuente": "Clase · Lo que nunca puedes olvidar",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Atonía refractaria a masaje y uterotónicos: el rescate mecánico previo a la laparotomía es el {{c1::balón de Bakri}}.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Libro §3 Manejo mecánico",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.008"
+      ],
+      "imagen": "biblioteca/14_obstetricia/ob-18/01_balon_bakri__commons.jpg"
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El balón de Bakri se insufla con {{c1::300 a 500 mL}} de suero fisiológico.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo mecánico",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las suturas de compresión uterina ({{c1::B-Lynch}}) se hacen por laparotomía para conservar el útero.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo quirúrgico",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La histerectomía obstétrica es el {{c1::último recurso}} ante atonía refractaria con shock, acretismo o rotura irreparable.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · La escalera del tratamiento",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La inversión uterina se desencadena por {{c1::tracción forzada del cordón}} con el útero relajado.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Cuando el útero se da vuelta",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Inversión uterina: masa en vagina, útero ausente al palpar y {{c1::shock neurogénico}} (bradicardia con hipotensión).",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Inversión uterina",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la inversión uterina se suspenden los uterotónicos y se hace la reposición manual de {{c1::Johnson}}.",
+      "extra": "Después se reinicia oxitocina para mantener el útero contraído.",
+      "origen": "foto",
+      "fuente": "Clase · Cuando el útero se da vuelta",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.008"
+      ],
+      "imagen": "biblioteca/14_obstetricia/ob-18/302_inversion_uterina__openi.jpg"
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hemorragia genital aguda fuera del puerperio: tras los signos vitales, se descarta embarazo con {{c1::β-hCG}} en toda mujer fértil.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Sangrado genital agudo sin embarazo",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Metrorragia disfuncional aguda: ácido tranexámico {{c1::1 g}} cada 8 horas por 3-5 días.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Cómo detienes el sangrado",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Metrorragia grave anemizante o con inestabilidad que no cede a la hemostasia médica: {{c1::legrado uterino}} o histeroscopía.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Metrorragia disfuncional",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 99"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cervicorragia por cáncer cervicouterino avanzado: se contiene con {{c1::taponamiento vaginal}} compresivo.",
+      "extra": "Biopsia y derivación a Patología Cervical (GES).",
+      "origen": "clase:7",
+      "fuente": "Clase · Cómo detienes el sangrado",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 53"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Metrorragia de la segunda mitad del embarazo con gestante estable: se estudia con {{c1::ecografía obstétrica}}.",
+      "extra": "Diferencia placenta previa de DPPNI.",
+      "origen": "libro:sec:5",
+      "fuente": "Banco EUNACOM · metrorragia del embarazo",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 63",
+        "EUNACOM Diciembre 2017 · Pregunta 157"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hemorragia al romper membranas con bradicardia fetal, sin dolor ni compromiso materno: {{c1::rotura de vasa previa}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Banco EUNACOM · vasa previa",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 124"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-18/01_balon_bakri__commons.jpg",
+      "pregunta": "¿Qué muestra y cuándo lo usas?",
+      "diagnostico": "Balón de Bakri intrauterino",
+      "clave": "Balón lleno que ocupa toda la cavidad y comprime desde adentro",
+      "conducta": "Atonía refractaria a masaje y uterotónicos, antes de la laparotomía",
+      "fuente": "Wikimedia Commons «Bakri Balloon Hariadhi.svg», CC BY-SA 4.0",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-18/302_inversion_uterina__openi.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Inversión uterina puerperal",
+      "clave": "Masa roja que asoma por la vagina; el útero no se palpa en el abdomen",
+      "conducta": "Suspender uterotónicos y reponer manualmente (Johnson)",
+      "fuente": "Open-i (NLM), CC BY",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-18/S1_balon-b-lynch__propio.svg",
+      "pregunta": "¿Qué técnica quirúrgica ilustra?",
+      "diagnostico": "Sutura de compresión uterina de B-Lynch",
+      "clave": "Sutura transmural que envuelve el útero como tirantes",
+      "conducta": "Cirugía conservadora tras fracaso de uterotónicos y balón",
+      "fuente": "Dibujo propio (esquema)",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.008"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "Útero blando que no se retrae: ¿qué escalera inicias?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0.0",
+      "pista": "Si persiste: ¿ergometrina o misoprostol según qué?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0",
+      "pista": "Útero duro y placenta completa: ¿qué haces?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.1",
+      "pista": "Útero duro y placenta incompleta: ¿qué haces?"
+    }
+  ]
+}

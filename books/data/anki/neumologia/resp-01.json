@@ -1,0 +1,499 @@
+{
+ "classId": "resp-01",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La espirometría evalúa tres variables: VEF1, CVF y la relación {{c1::VEF1/CVF (índice de Tiffeneau)}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Tres números",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El VEF1 es el volumen espirado en el {{c1::primer segundo}} de la espiración forzada.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Tres números",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La CVF es {{c1::todo el aire que sale}} en la espiración forzada.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Tres números",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Una espirometría válida exige al menos {{c1::3 maniobras}} reproducibles con esfuerzo máximo.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Criterios de aceptabilidad",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Una prueba válida requiere meseta espiratoria ≥ {{c1::6 segundos}}.",
+   "extra": "El paciente sopla hasta vaciar.",
+   "origen": "clase:1",
+   "fuente": "Clase · Prueba válida",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El patrón obstructivo se define por VEF1/CVF < {{c1::0,70}} (o bajo el límite inferior de normalidad).",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · La relación define",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La severidad de la obstrucción se gradúa según el {{c1::VEF1 post-BD}}, no según la relación VEF1/CVF.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · El VEF1 gradúa",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con relación VEF1/CVF normal no hay obstrucción, {{c1::aunque el VEF1 esté bajo}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · La relación define",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Obstrucción leve: VEF1 post-BD ≥ {{c1::80%}} del predicho.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · El VEF1 gradúa",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Obstrucción moderada: VEF1 post-BD entre {{c1::50 y 79%}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · El VEF1 gradúa",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Obstrucción grave: VEF1 post-BD entre {{c1::30 y 49%}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · El VEF1 gradúa",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Obstrucción muy grave: VEF1 post-BD < {{c1::30%}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · El VEF1 gradúa",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "La prueba broncodilatadora se hace con {{c1::salbutamol 400 mcg}} con aerocámara.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Prueba de broncodilatación",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tras el salbutamol la maniobra se repite a los {{c1::15 minutos}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · ¿La obstrucción revierte?",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Respuesta BD positiva: aumento del VEF1 o la CVF ≥ {{c1::12%}} Y ≥ 200 mL respecto del basal.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la prueba BD positiva se exigen las dos condiciones: {{c1::porcentaje Y mililitros}}, no una sola.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · ¿La obstrucción revierte?",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Prueba BD positiva con normalización de la relación VEF1/CVF confirma {{c1::asma bronquial}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Reversibilidad",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Obstrucción que persiste post-BD en un fumador (relación < 0,70) confirma {{c1::EPOC}}.",
+   "extra": "Obstrucción fija.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Reversibilidad",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Un tercio de los EPOC puede tener reversibilidad parcial: el tabaco no decide, {{c1::decide la curva}}.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Relación VEF1/CVF ≥ 0,70 con CVF < 80% sugiere {{c1::restricción}} (defecto no obstructivo).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Sospecha de restricción",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La espirometría {{c1::nunca confirma}} restricción; solo la sugiere.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La restricción se confirma con {{c1::pletismografía corporal}} (volúmenes pulmonares estáticos).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Pletismografía",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Restricción confirmada: capacidad pulmonar total (CPT) < {{c1::80%}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Relación baja con CVF < 80% sugiere un patrón {{c1::mixto}}, que se confirma con pletismografía.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Espirometría sugiere",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Error frecuente: diagnosticar {{c1::fibrosis}} solo con la espirometría.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Espirometría sugiere",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Patrón normal: VEF1/CVF ≥ 0,70 y CVF ≥ {{c1::80%}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de patrones",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Obstructivo reversible: VEF1/CVF < 0,70 que mejora con BD; se confirma con {{c1::test broncodilatador}} (asma).",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de patrones",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Obstructivo fijo: VEF1/CVF < 0,70 post-BD; se confirma con {{c1::espirometría post-BD}} (EPOC).",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de patrones",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.005"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con sospecha de asma y espirometría normal, sin reversibilidad, se pide {{c1::prueba de provocación bronquial con metacolina}}.",
+   "extra": "Tos crónica, disnea o sibilancias intermitentes.",
+   "origen": "clase:5",
+   "fuente": "Clase · Provocación bronquial",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.012"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 24",
+    "EUNACOM Julio 2024 · Pregunta 163",
+    "EUNACOM Diciembre 2019 · Pregunta 64",
+    "EUNACOM Agosto 2021 · Pregunta 66"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La provocación con metacolina o histamina mide la {{c1::hiperreactividad bronquial}}.",
+   "extra": "Dosis crecientes con espirometría tras cada una.",
+   "origen": "clase:5",
+   "fuente": "Clase · Provocación bronquial",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.012"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La provocación es positiva si el VEF1 cae {{c1::20% o más}} (PC20/PD20).",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Cómo se lee",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.012"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La provocación bronquial tiene valor por su {{c1::valor predictivo negativo}}: negativa en paciente sin tratamiento descarta asma.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Cómo se lee",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.012"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Una provocación positiva sola {{c1::no confirma asma}}: también es positiva en rinitis alérgica, EPOC o tras infección viral.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Cómo se lee",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.012"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La provocación bronquial se hace solo en un {{c1::laboratorio de función pulmonar}}.",
+   "extra": "El especialista la hace; el médico general la interpreta.",
+   "origen": "clase:5",
+   "fuente": "Clase · Quién la hace",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.012"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Para la provocación se exige VEF1 basal sobre {{c1::70%}} y sin crisis reciente.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Quién la hace",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.012"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-01/S1_flujo-volumen__propio.svg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Las tres curvas flujo-volumen: normal, obstructiva y restrictiva",
+   "clave": "Obstrucción: curva cóncava con flujos bajos; restricción: curva pequeña y estrecha",
+   "conducta": "Definir obstrucción con VEF1/CVF < 0,70 y graduar con VEF1 post-BD; la restricción se confirma con pletismografía",
+   "fuente": "Dibujo propio (esquema)",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.005",
+    "1.05.4.012"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Obstrucción: ¿respuesta broncodilatadora positiva?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0.1",
+   "pista": "Obstrucción que persiste post-BD: ¿qué es?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.1",
+   "pista": "Relación normal con CVF < 80%: ¿qué se pide?"
+  }
+ ]
+}

@@ -1,0 +1,734 @@
+{
+ "classId": "resp-17",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El tabaquismo causa el {{c1::85–90%}} de los cánceres de pulmón.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clasificación",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.007",
+    "4.01.1.039"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El cáncer de células no pequeñas (CPCNP) representa el {{c1::85%}} de los casos.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clasificación",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.007"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fumador de más de 50 años con tos, hemoptisis, baja de peso y masa en radiografía: {{c1::cáncer pulmonar}}.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.007",
+    "4.01.1.039"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 71",
+    "EUNACOM Enero 2023 · Pregunta 90",
+    "EUNACOM Diciembre 2022 · Pregunta 144",
+    "EUNACOM Julio 2015 · Pregunta 136",
+    "EUNACOM Julio 2019 · Pregunta 9"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fumador con tos crónica y sospecha de cáncer en la radiografía: se solicita {{c1::TAC de tórax}}.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.007"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 11",
+    "EUNACOM Diciembre 2019 · Pregunta 7",
+    "EUNACOM Agosto 2021 · Pregunta 65"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Adenocarcinoma: {{c1::40–50%}} de los cánceres de pulmón.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla histológica",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.007"
+   ],
+   "imagen": "biblioteca/02_neumologia/resp-17/02_adenocarcinoma-epidermoide-histologia_1__cto-neumo_p125.jpg"
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El adenocarcinoma es el más frecuente en la población general, en {{c1::mujeres y no fumadores}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.007"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El adenocarcinoma es de localización {{c1::periférica}} y nace en bronquiolos terminales.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clasificación",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.007"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Carcinoma epidermoide: {{c1::25–30%}} de los casos.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla histológica",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.007"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El epidermoide es de localización {{c1::central}} y tiende a cavitar.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.007"
+   ],
+   "imagen": "biblioteca/02_neumologia/resp-17/02_adenocarcinoma-epidermoide-histologia_2__cto-neumo_p125.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 29"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Masa hiliar derecha irregular con atelectasia en fumador: {{c1::carcinoma epidermoide}}.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.007"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 29"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Carcinoma de células grandes: {{c1::10%}}, periférico, indiferenciado y agresivo.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Tipos histológicos",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.007"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cáncer de células pequeñas (microcítico): {{c1::15%}}, central y perihiliar.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Tipos histológicos",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.007"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El microcítico es una enfermedad {{c1::sistémica}} desde el diagnóstico.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clasificación",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.007"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El cáncer de células pequeñas {{c1::no tiene indicación quirúrgica}} de entrada.",
+   "extra": "Error clásico: operarlo.",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.007"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Metástasis precoces del microcítico: cerebro, {{c1::hígado y hueso}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clasificación",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.007"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Paraneoplásicos del microcítico: SIADH, {{c1::Cushing ectópico}} y Lambert-Eaton.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.08.1.016",
+    "1.05.1.007"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El SIADH paraneoplásico cursa con {{c1::hiponatremia hipotónica}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Paraneoplásicos",
+   "repaso": true,
+   "codigos": [
+    "1.08.1.016"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El Cushing ectópico por ACTH da {{c1::hipocalemia y alcalosis metabólica}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Paraneoplásicos",
+   "repaso": false,
+   "codigos": [
+    "1.08.1.016"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El síndrome de Lambert-Eaton se debe a anticuerpos anti-{{c1::canales de calcio}} dependientes de voltaje.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Paraneoplásicos",
+   "repaso": true,
+   "codigos": [
+    "1.08.1.016"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El carcinoma epidermoide causa {{c1::hipercalcemia}} por secreción de PTHrP.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.08.1.016"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la hipercalcemia por PTHrP la PTH está {{c1::suprimida}} y no hay metástasis óseas.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Firma a distancia",
+   "repaso": true,
+   "codigos": [
+    "1.08.1.016"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Hipercalcemia maligna: hidratación con SF 0,9% y {{c1::bifosfonatos EV (ácido zoledrónico)}}.",
+   "extra": "",
+   "origen": "libro:caso",
+   "fuente": "Libro · caso",
+   "repaso": false,
+   "codigos": [
+    "1.08.1.016"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El adenocarcinoma se asocia a {{c1::osteoartropatía hipertrófica}} pulmonar (Pierre-Marie Bamberger).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Paraneoplásicos",
+   "repaso": true,
+   "codigos": [
+    "1.08.1.016"
+   ],
+   "imagen": "biblioteca/02_neumologia/resp-17/03_acropaquias__amir-reuma_p113.jpg"
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La osteoartropatía hipertrófica: acropaquia (dedos en palillo de tambor) y {{c1::periostitis dolorosa}} bilateral.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Firma a distancia",
+   "repaso": false,
+   "codigos": [
+    "1.08.1.016"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El carcinoma de células grandes puede dar {{c1::ginecomastia}} por secreción de beta-HCG.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla histológica",
+   "repaso": false,
+   "codigos": [
+    "1.08.1.016"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tumor de Pancoast está en el {{c1::vértice pulmonar}} (surco superior).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Invasión local",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.034",
+    "1.05.1.007"
+   ],
+   "imagen": "biblioteca/02_neumologia/resp-17/03_rx_tumor_apical_derecho__cxr_p152.jpg"
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pancoast: dolor radicular en territorio {{c1::C8–T1}} (cara interna del brazo) por invasión del plexo braquial.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.034"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pancoast invade la cadena simpática y produce síndrome de {{c1::Horner}} ipsilateral.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Invasión local",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.034"
+   ],
+   "imagen": "biblioteca/02_neumologia/resp-17/02_sindrome_horner__kanski_p821.jpg"
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Síndrome de Horner: ptosis, miosis, enoftalmos y {{c1::anhidrosis facial}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Invasión local",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.034"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El síndrome de vena cava superior es la compresión mediastínica por tumor central (microcítico) o {{c1::adenopatías}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Invasión local",
+   "repaso": true,
+   "codigos": [
+    "1.08.2.008",
+    "1.05.1.034"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo clásico del SVCS: edema {{c1::en esclavina}} (cara, cuello y miembros superiores).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Invasión local",
+   "repaso": true,
+   "codigos": [
+    "1.08.2.008"
+   ],
+   "imagen": "biblioteca/02_neumologia/resp-17/10_sindrome-vena-cava-superior-torax__knoop_p193.jpg",
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 92"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "SVCS: cianosis facial, yugulares ingurgitadas y {{c1::venas torácicas colaterales}} dilatadas.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Invasión local",
+   "repaso": false,
+   "codigos": [
+    "1.08.2.008"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 92"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cáncer de células pequeñas con edema facial, cianosis y confusión: SVCS, y se indica {{c1::radioterapia}}.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo",
+   "repaso": true,
+   "codigos": [
+    "1.08.2.008"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 66",
+    "EUNACOM Julio 2024 · Pregunta 67"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Edema de cara y brazos con tos y desorientación en joven con fiebre y baja de peso: se pide {{c1::TAC de tórax con contraste}}.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo",
+   "repaso": false,
+   "codigos": [
+    "1.08.2.008"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 13"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Etapificación del CPCNP: {{c1::PET-CT + resonancia de cerebro}} (TNM).",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · De la sospecha al tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.007"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tipo se define con {{c1::biopsia e inmunohistoquímica}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · De la sospecha al tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.007"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "CPCNP en estadios I y II: tratamiento curativo es la {{c1::lobectomía}} con linfadenectomía mediastínica.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.007"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Microcítico: quimioterapia con {{c1::cisplatino + etopósido}} más radioterapia.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Manejo",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.007"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el microcítico se ofrece radioterapia torácica y {{c1::holocraneal profiláctica}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Metástasis cerebrales",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.007",
+    "1.10.1.029"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El cáncer de pulmón es la causa más frecuente de {{c1::metástasis cerebrales}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Metástasis cerebrales",
+   "repaso": true,
+   "codigos": [
+    "1.10.1.029"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Metástasis cerebrales: múltiples, en la unión de sustancia {{c1::gris y blanca}}, con edema perilesional.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Cerebro",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.029"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estudio de sospecha de metástasis cerebral: {{c1::resonancia con gadolinio}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Cerebro",
+   "repaso": true,
+   "codigos": [
+    "1.10.1.029"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Edema perilesional de metástasis cerebral: {{c1::dexametasona}} con protección gástrica.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Cerebro",
+   "repaso": true,
+   "codigos": [
+    "1.10.1.029"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Anticonvulsivante en metástasis cerebral solo si hay crisis: {{c1::no es profiláctico}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Cerebro",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.029"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Niño con múltiples manchas café con leche y padre con lesiones similares: {{c1::neurofibromatosis tipo 1}}.",
+   "extra": "Pregunta real de tumores del SNC; se detalla en el libro de neurología.",
+   "origen": "libro:sec:4",
+   "fuente": "Pregunta real · SNC",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.029"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 142"
+   ]
+  },
+  {
+   "id": "c46",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "El GES cubre el cáncer de pulmón en personas de {{c1::15 años y más}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro · Perfil GES",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.007",
+    "4.01.1.039"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-17/01_masa-pulmonar-tc__cto-neumo_p139.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Masa pulmonar sospechosa de cáncer",
+   "clave": "Masa en fumador con tos, hemoptisis y baja de peso",
+   "conducta": "Biopsia con inmunohistoquímica y etapificación PET-CT + RM de cerebro",
+   "fuente": "Manual CTO Neumología 14.ª ed., p. 139",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.007",
+    "4.01.1.039"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-17/03_rx_tumor_apical_derecho__cxr_p152.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Tumor apical (Pancoast)",
+   "clave": "Masa en el vértice pulmonar con dolor C8–T1",
+   "conducta": "Biopsia y etapificación; buscar síndrome de Horner",
+   "fuente": "The Chest X-Ray: A Survival Guide, Fig. 10.7",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.034",
+    "1.05.1.007"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-17/02_sindrome_horner__kanski_p821.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Síndrome de Horner",
+   "clave": "Ptosis y miosis ipsilaterales",
+   "conducta": "En fumador con dolor de brazo: Pancoast hasta demostrar lo contrario",
+   "fuente": "Kanski 8.ª ed., Fig. 19.35A",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.034"
+   ]
+  },
+  {
+   "id": "i04",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "../../books/figuras/atlas_eunacom_2026/171_media_resp_resp_17_cancer_pulmonar.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Síndrome de vena cava superior",
+   "clave": "Edema en esclavina y circulación colateral torácica",
+   "conducta": "TAC de tórax con contraste; en microcítico, radioterapia",
+   "fuente": "Atlas EUNACOM 2026",
+   "repaso": false,
+   "codigos": [
+    "1.08.2.008"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Masa en fumador: ¿qué define el siguiente paso?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0.0",
+   "pista": "Células pequeñas: ¿qué tratamiento?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.0",
+   "pista": "No microcítico etapa I–II: ¿qué tratamiento?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1",
+   "pista": "No microcítico: ¿qué etapificación?"
+  }
+ ]
+}

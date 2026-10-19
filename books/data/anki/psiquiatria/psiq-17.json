@@ -1,0 +1,499 @@
+{
+  "classId": "psiq-17",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un trastorno de la personalidad es un patrón perdurable, rígido y {{c1::egosintónico}}, de inicio en la adolescencia o adultez temprana.",
+      "extra": "La persona lo vive como parte de sí misma.",
+      "origen": "clase:1",
+      "fuente": "Clase · Concepto",
+      "repaso": true,
+      "codigos": [
+        "5.01.3.010"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El temperamento es la base {{c1::biológica y heredada}}; el carácter es lo aprendido en la historia y la cultura.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Personalidad",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.010"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Clúster A: {{c1::raros, excéntricos, distantes}} (paranoide, esquizoide, esquizotípico).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Clúster B: {{c1::dramáticos e impulsivos}} (límite, antisocial, histriónico, narcisista).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Clúster C: {{c1::ansiosos y temerosos}} (evitativo, dependiente, obsesivo-compulsivo).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Personalidad paranoide: suspicacia y {{c1::rencor}}; interpreta los motivos ajenos como malévolos.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clúster A",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Paranoide vs trastorno delirante: en la personalidad paranoide {{c1::no hay delirio fijo}}.",
+      "extra": "Desconfía, pero conserva el juicio de realidad.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla comparativa",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.016",
+        "5.01.3.010"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Personalidad esquizoide: {{c1::no desea}} relaciones íntimas, es frío e indiferente a elogios y críticas.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clúster A",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Esquizoide vs evitativo: el evitativo {{c1::sí desea}} tener amigos y el esquizoide no.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 84",
+        "EUNACOM Julio 2016 · Pregunta 58"
+      ],
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Personalidad esquizotípica: {{c1::pensamiento mágico}}, ideas de referencia y conducta excéntrica.",
+      "extra": "Sin psicosis franca, a diferencia de la esquizofrenia.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clúster A",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trastorno límite: esfuerzos frenéticos por evitar el {{c1::abandono}}, real o imaginado.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Trastorno límite",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 132",
+        "EUNACOM Julio 2015 · Pregunta 79",
+        "EUNACOM Julio 2024 · Pregunta 98",
+        "EUNACOM Diciembre 2017 · Pregunta 112"
+      ],
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trastorno límite: relaciones que oscilan entre {{c1::idealización y devaluación}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clúster B",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 132",
+        "EUNACOM Julio 2015 · Pregunta 79"
+      ],
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trastorno límite: autolesiones (cortes en muñecas), {{c1::vacío crónico}} e ira inapropiada.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Trastorno límite",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 98",
+        "EUNACOM Diciembre 2017 · Pregunta 112"
+      ],
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Límite vs bipolar: en el límite la labilidad afectiva dura {{c1::horas}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla comparativa",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la crisis del límite en urgencias se {{c1::cura sin moralizar}} y se evalúa el riesgo suicida real.",
+      "extra": "Actitud firme, empática y neutra, sin reforzar conductas desadaptativas.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Manejo en crisis",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Crisis con cortes en urgencias: el error es {{c1::castigar o hospitalizar siempre}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Psicoterapia de elección del trastorno límite: terapia {{c1::dialéctico-conductual (DBT)}}.",
+      "extra": "Marsha Linehan; reduce hospitalizaciones y suicidios.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "DBT enseña regulación emocional, tolerancia al malestar, efectividad interpersonal y {{c1::mindfulness}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 DBT",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En el trastorno límite los fármacos son solo de apoyo: {{c1::lamotrigina o valproato}} para impulsividad.",
+      "extra": "Atípicos en dosis bajas para disforia y micropsicosis.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Farmacoterapia",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Impulsividad persistente en el límite: psicoterapia con fármaco de apoyo; el error es {{c1::antipsicótico como único tratamiento}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Personalidad antisocial: viola los derechos ajenos, sin {{c1::remordimiento ni culpa}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clúster B",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Antisocial: la conducta de violación de normas se manifiesta desde los {{c1::15}} años.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Clúster B",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El diagnóstico de personalidad antisocial exige edad de al menos {{c1::18 años}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clúster B",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Antisocial exige antecedente de trastorno de conducta antes de los {{c1::15 años}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Personalidad histriónica: emotividad excesiva, {{c1::búsqueda de atención}} y seducción teatral.",
+      "extra": "Importa agradar; en el narcisista importa la admiración.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clúster B",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 122"
+      ],
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Personalidad narcisista: grandiosidad, necesidad de admiración y falta de {{c1::empatía}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clúster B",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Personalidad evitativa: hipersensibilidad a la evaluación negativa; desea amigos pero teme el {{c1::rechazo}}.",
+      "extra": "No confundir con fobia social ni esquizoide.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clúster C",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 84",
+        "EUNACOM Julio 2016 · Pregunta 58"
+      ],
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Personalidad dependiente: necesidad excesiva de que le cuiden, sumisión y miedo a la {{c1::separación}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clúster C",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Personalidad obsesivo-compulsiva (TPOC): perfeccionismo rígido, {{c1::egosintónico}}, sin obsesiones ni compulsiones.",
+      "extra": "A diferencia del TOC.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla comparativa",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El MMPI-2 (Minnesota) tiene {{c1::567}} ítems.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Medición",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.010"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El NEO-PI-R mide los {{c1::Cinco Grandes}}: neuroticismo, extraversión, apertura, amabilidad y responsabilidad.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Medición",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.010"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pruebas proyectivas: {{c1::Rorschach y TAT}}.",
+      "extra": "Las aplica el psicólogo; el médico las usa como apoyo.",
+      "origen": "clase:8",
+      "fuente": "Clase · Medición",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.010"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Modelo de Cloninger: búsqueda de novedad se liga a la {{c1::dopamina}}; evitación del daño, a la serotonina.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Teorías",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.010"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El trastorno límite se atiende con psicoterapia en la red secundaria ({{c1::COSAM}}) según la Norma Técnica de Salud Mental.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Manejo del límite",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.016"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.1.0",
+      "pista": "Miedo al abandono, cortes y vacío: ¿qué es y qué haces?",
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0",
+      "pista": "Aislado, no desea vínculos: ¿qué trastorno?",
+      "codigos": [
+        "5.01.1.016"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.2.0",
+      "pista": "Desea amigos y teme el rechazo: ¿qué trastorno?",
+      "codigos": [
+        "5.01.1.016"
+      ]
+    }
+  ]
+}

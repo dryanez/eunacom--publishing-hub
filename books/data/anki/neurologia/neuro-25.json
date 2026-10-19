@@ -1,0 +1,440 @@
+{
+  "classId": "neuro-25",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La HTA afecta a más del {{c1::70 %}} de los mayores de 65 años.",
+      "extra": "Principal factor de riesgo modificable de ACV.",
+      "origen": "clase:1",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.07.2.002",
+        "1.07.1.009"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el anciano predomina la hipertensión {{c1::sistólica aislada}} (PAS ≥ 140 con PAD < 90).",
+      "extra": "Rigidez arterial, pulso amplio.",
+      "origen": "clase:1",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": true,
+      "codigos": [
+        "1.07.1.009"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La hipertensión arterial primaria es la Garantía GES N° {{c1::1}} desde los 15 años.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.009"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el anciano la PA se mide también {{c1::de pie}} al minuto 1 y 3 para detectar hipotensión ortostática (~20 %).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Medir bien antes de tratar",
+      "repaso": true,
+      "codigos": [
+        "1.07.1.009"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La pseudohipertensión se debe a arterias calcificadas que no se colapsan; signo de {{c1::Osler}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Medir bien antes de tratar",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.009"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta de PA en adulto mayor autovalente: < {{c1::140/90}} mmHg.",
+      "extra": "En 65–79 años PAS 130–139 si lo tolera.",
+      "origen": "clase:3",
+      "fuente": "Clase · Metas individualizadas",
+      "repaso": true,
+      "codigos": [
+        "1.07.2.002",
+        "1.07.1.009"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta en > 80 años o frágil: PAS {{c1::140–150}}, sin bajar PAS < 120 ni PAD < 60.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Metas individualizadas",
+      "repaso": true,
+      "codigos": [
+        "1.07.1.009"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "85 años con PA 145/75 en tratamiento: {{c1::mantener}} el tratamiento; el error es intensificarlo.",
+      "extra": "Meta PAS 140–150.",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.07.1.009"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tratar la HTA reduce ACV, IC y mortalidad incluso después de los {{c1::80}} años (HYVET).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Metas individualizadas",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.009"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Principio de tratamiento geriátrico de la HTA: «start low, go slow», es decir {{c1::dosis baja y subir lento}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Metas individualizadas",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.009"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Medida no farmacológica: sal < {{c1::5 g}} al día y dieta DASH.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Fármacos",
+      "repaso": true,
+      "codigos": [
+        "1.07.1.009"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Primera línea en HTA del anciano: {{c1::tiazida, IECA/ARA II o amlodipino}} en dosis baja.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Fármacos",
+      "repaso": true,
+      "codigos": [
+        "1.07.1.009"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hidroclorotiazida {{c1::12,5–25 mg}}; riesgo de hiponatremia, hipopotasemia e hiperuricemia.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Fármacos",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.009"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con IECA o ARA II se controlan creatinina y potasio a las {{c1::1–2 semanas}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Fármacos",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.009"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Según Beers se evitan como primera línea los alfa-bloqueadores, la {{c1::clonidina}} y la metildopa.",
+      "extra": "Hipotensión y sedación.",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.009"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Seguimiento de HTA: control cada {{c1::1–3 meses}} hasta la meta y luego cada 3–6 meses.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Seguimiento y crisis",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.009"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "PA elevada sin síntomas ni daño agudo es urgencia: {{c1::fármacos orales en horas o días}}, no bajarla de golpe.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Seguimiento y crisis",
+      "repaso": true,
+      "codigos": [
+        "1.07.1.009"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hasta {{c1::1/3}} de los mayores de 75 años con infarto no tiene dolor torácico.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · El infarto que no duele",
+      "repaso": false,
+      "codigos": [
+        "1.07.2.002"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Presentación atípica del infarto en el anciano: disnea, síncope, caída o {{c1::delirium}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · El infarto que no duele",
+      "repaso": true,
+      "codigos": [
+        "1.07.2.002"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Ante síntoma sugerente: ECG de 12 derivaciones en menos de {{c1::10 minutos}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · ECG en menos de 10 minutos",
+      "repaso": true,
+      "codigos": [
+        "1.07.2.002"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el anciano la troponina puede estar crónicamente elevada: se interpreta el {{c1::delta}} seriado.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · ECG en menos de 10 minutos",
+      "repaso": false,
+      "codigos": [
+        "1.07.2.002"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Manejo inicial del SCA: aspirina {{c1::250–500 mg}} masticada, monitor y vía venosa.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Monitor, aspirina y traslado",
+      "repaso": true,
+      "codigos": [
+        "1.07.2.002"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Oxígeno en SCA solo si SatO₂ < {{c1::90 %}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Monitor, aspirina y traslado",
+      "repaso": false,
+      "codigos": [
+        "1.07.2.002"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Nitroglicerina sublingual no se da en IAM de {{c1::ventrículo derecho}}, hipotensión ni con sildenafilo.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.07.2.002"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "IAM con supradesnivel del ST (o BRI nuevo) es la Garantía GES N° {{c1::5}}: reperfusión urgente.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · IAM con SDST",
+      "repaso": true,
+      "codigos": [
+        "1.07.2.002"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Angioplastia primaria en menos de {{c1::90 minutos}} desde el primer contacto.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · IAM con SDST",
+      "repaso": true,
+      "codigos": [
+        "1.07.2.002"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Si no hay hemodinamia en {{c1::120 minutos}}, se hace trombólisis (tenecteplasa o estreptoquinasa).",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · IAM con SDST",
+      "repaso": false,
+      "codigos": [
+        "1.07.2.002"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "> 75 años en trombólisis: {{c1::mitad de dosis}} de tenecteplasa y sin bolo de enoxaparina.",
+      "extra": "Dosis plena: hemorragia intracraneal.",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.07.2.002"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Doble antiagregación posinfarto hasta {{c1::12 meses}} (más corta si hay riesgo de sangrado).",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Prevención secundaria",
+      "repaso": false,
+      "codigos": [
+        "1.07.2.002"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-25/02_ecg-iam-anterior-sdst__ecg_p188.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "IAM anterior con supradesnivel del ST",
+      "clave": "Supradesnivel del ST en derivaciones precordiales",
+      "conducta": "GES N° 5: aspirina y reperfusión urgente (angioplastia < 90 min o trombólisis)",
+      "fuente": "ECG from Basics to Essentials, ejemplo 28",
+      "repaso": true,
+      "codigos": [
+        "1.07.2.002"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-25/01_retinopatia_hipertensiva__harrison_p263.jpg",
+      "pregunta": "¿Qué muestra y por qué se busca?",
+      "diagnostico": "Retinopatía hipertensiva",
+      "clave": "Daño de órgano blanco visible en el fondo de ojo",
+      "conducta": "Se busca antes de tratar: fondo de ojo, ECG, creatinina y proteinuria",
+      "fuente": "Harrison 21.ª ed., p. 263",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.009"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Disnea, síncope, caída o delirium: ¿qué pides primero?",
+      "codigos": [
+        "1.07.1.009"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0",
+      "pista": "SDST o BRI nuevo: ¿qué conducta y plazo?",
+      "codigos": [
+        "1.07.1.009"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.1",
+      "pista": "HTA sin daño agudo: ¿qué estrategia de tratamiento?",
+      "codigos": [
+        "1.07.1.009"
+      ]
+    }
+  ]
+}

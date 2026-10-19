@@ -1,0 +1,512 @@
+{
+  "classId": "reuma-06",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la AR el sinovio inflamado forma el {{c1::pannus}}, que degrada cartílago y activa osteoclastos vía RANKL.",
+      "extra": "Citoquinas clave: TNF-alfa, IL-6, IL-1.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La AR predomina en mujeres (3:1) con pico de incidencia entre los {{c1::35 y 55 años}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Susceptibilidad genética de la AR: {{c1::HLA-DR4}} (epítopo compartido); gatillo ambiental clave: tabaquismo.",
+      "extra": "El tabaco induce citrulinación de proteínas en el pulmón.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La AR es una poliartritis simétrica y aditiva de {{c1::muñecas, MCF e IFP}}.",
+      "extra": "También MTF en los pies.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 132",
+        "EUNACOM Diciembre 2022 · Pregunta 130"
+      ],
+      "codigos": [
+        "1.11.1.019"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La AR respeta las interfalángicas {{c1::distales}} (territorio de artrosis) y el esqueleto axial dorsolumbar y sacroilíaco.",
+      "extra": "Nódulos de Heberden no son de AR.",
+      "origen": "clase:2",
+      "fuente": "Clase · Reglas anatómicas",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.003",
+        "1.11.1.019"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La única región axial comprometida en la AR es la columna {{c1::cervical}}, con riesgo de subluxación atloaxoidea C1-C2.",
+      "extra": "Cuidado al intubar: compresión medular fatal.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.003",
+        "1.11.1.019"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Síntoma cardinal de la AR: rigidez matinal > {{c1::45–60 minutos}} que mejora con la actividad.",
+      "extra": "A menudo > 2 horas.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Manifestaciones",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 20"
+      ],
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la AR avanzada el dedo en cuello de cisne es hiperextensión de la {{c1::IFP}} con flexión de la IFD.",
+      "extra": "En ojal (boutonnière): flexión de IFP, hiperextensión de IFD.",
+      "origen": "clase:3",
+      "fuente": "Clase · Secuelas anatómicas",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003",
+        "1.11.1.019"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Deformidades tardías de la AR: desviación {{c1::ulnar}} en ráfaga, cuello de cisne, ojal y pulgar en Z.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Deformidades",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "ACR/EULAR 2010: requiere sinovitis en ≥ 1 articulación y puntaje ≥ {{c1::6}} de 10.",
+      "extra": "Diseñado para diagnóstico precoz.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Criterios",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "ACR/EULAR, compromiso articular: 1–3 articulaciones pequeñas = {{c1::2}} puntos; 4–10 pequeñas = 3 puntos.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla ACR/EULAR",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003",
+        "1.11.1.019"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "ACR/EULAR: > 10 articulaciones (al menos 1 pequeña) suman {{c1::5}} puntos; 1 articulación grande suma 0.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla ACR/EULAR",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003",
+        "1.11.1.019"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "ACR/EULAR, serología: FR o anti-CCP bajos (≤ 3x VN) = {{c1::2}} puntos; altos (> 3x VN) = {{c2::3}} puntos.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla ACR/EULAR",
+      "repaso": true,
+      "codigos": [
+        "1.11.4.003"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "ACR/EULAR: VHS o PCR elevadas suman {{c1::1}} punto; síntomas ≥ 6 semanas suman 1 punto.",
+      "extra": "Basta una de las dos alteradas.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003",
+        "1.11.1.019"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Caso: 8 articulaciones pequeñas (3), anti-CCP alto (3), VHS/PCR elevadas (1) y 8 semanas (1) suman {{c1::8}} puntos: AR confirmada.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz ACR/EULAR",
+      "repaso": false,
+      "codigos": [
+        "1.11.4.003",
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El factor reumatoide tiene sensibilidad de 70–80% pero {{c1::baja especificidad}}: positivo en Sjögren, hepatopatías, endocarditis y 5% de ancianos sanos.",
+      "extra": "Un FR aislado sin artritis no hace diagnóstico.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Serología",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.003",
+        "1.11.4.003"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El anti-CCP tiene especificidad de {{c1::96–98%}} para AR y aparece años antes de la artritis.",
+      "extra": "Examen específico a pedir.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Serología",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 94",
+        "EUNACOM Julio 2019 · Pregunta 5"
+      ],
+      "codigos": [
+        "1.11.1.003",
+        "1.11.4.003"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El anti-CCP a títulos altos predice AR {{c1::erosiva y agresiva}}.",
+      "extra": "Marcador pronóstico.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Serología",
+      "repaso": false,
+      "codigos": [
+        "1.11.4.003"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los nódulos reumatoideos aparecen en el {{c1::20–30%}}, en zonas de presión como olécranon y tendón de Aquiles.",
+      "extra": "Histología: necrosis fibrinoide con histiocitos en empalizada.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Extraarticular",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La manifestación ocular más frecuente de la AR es la {{c1::queratoconjuntivitis seca}}.",
+      "extra": "Escleritis necrotizante: urgencia, dolor ocular intenso.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Julio 2025 P114",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El derrame pleural reumatoide tiene glucosa extremadamente baja, < {{c1::30 mg/dL}}.",
+      "extra": "LDH muy alta.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síndrome de Felty: AR + esplenomegalia + {{c1::neutropenia}}.",
+      "extra": "Infecciones piógenas graves recurrentes.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síndrome de Caplan: AR con {{c1::neumoconiosis}} y nódulos pulmonares múltiples.",
+      "extra": "Mineros expuestos a carbón o sílice.",
+      "origen": "clase:8",
+      "fuente": "Clase · Felty y Caplan",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La principal causa de muerte en la AR es la {{c1::aterosclerosis acelerada}} (infarto y ACV).",
+      "extra": "Riesgo equiparable a diabetes.",
+      "origen": "clase:9",
+      "fuente": "Clase · Morbimortalidad",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Para el mejor resultado, el FARME se inicia dentro de los primeros {{c1::3 a 6 meses}}: derivar sin esperar erosiones.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Conducta inicial",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "FARME de inicio en AR: {{c1::metotrexato semanal}} con ácido fólico.",
+      "extra": "Antes: hemograma, transaminasas, creatinina, hepatitis B y C.",
+      "origen": "clase:6",
+      "fuente": "Clase · Conducta inicial",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 160"
+      ],
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Puente de corticoide en AR: prednisona ≤ {{c1::10 mg/día}}; no modifica la evolución.",
+      "extra": "También AINEs con protección gástrica.",
+      "origen": "clase:6",
+      "fuente": "Clase · Conducta inicial",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta en AR: remisión o baja actividad (DAS28 < {{c1::3,2}}), con control cada 1–3 meses.",
+      "extra": "",
+      "origen": "libro:sec:6",
+      "fuente": "Libro §6 Conducta inicial",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES AR: confirmación y tratamiento completo en personas de {{c1::15 años y más}}.",
+      "extra": "",
+      "origen": "libro:sec:6",
+      "fuente": "Libro §6 · GES",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Un cuadro de AR clásica con marcadores negativos igual es {{c1::AR}}: los exámenes normales no la descartan.",
+      "extra": "Preguntas EUNACOM Julio 2013 P20 y 160, Julio 2016 P132.",
+      "origen": "clase:6",
+      "fuente": "Clase · Conducta inicial",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 20",
+        "EUNACOM Julio 2016 · Pregunta 132"
+      ],
+      "codigos": [
+        "1.11.1.003",
+        "1.11.4.003"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer de 50 años con poliartritis MCF/IFP/muñecas, Raynaud, ojo y boca secos, anti-CCP 200: {{c1::AR}} con Sjögren secundario.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Dic 2019 P128",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 96",
+        "EUNACOM Diciembre 2019 · Pregunta 128"
+      ],
+      "codigos": [
+        "1.11.1.019",
+        "1.11.4.003"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-06/01_ar-desviacion-cubital_alt1__amir-reuma_p49.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Desviación ulnar en ráfaga de AR avanzada",
+      "clave": "Subluxación palmar de las MCF, dedos desviados al lado ulnar",
+      "conducta": "Derivar a reumatología para FARME (metotrexato); no esperar erosiones",
+      "fuente": "Manual AMIR Reumatología, p. 49",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-06/02_rx-manos-ar-erosiones__cto-reuma_p27.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Radiografía de manos con erosiones de AR",
+      "clave": "Erosiones marginales y osteopenia yuxtaarticular",
+      "conducta": "Confirmar con anti-CCP/FR y ACR/EULAR; iniciar FARME",
+      "fuente": "Manual CTO Reumatología 14.ª ed., p. 27",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-06/03_escleritis__cto-oftalmo_p42.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Escleritis (extraarticular de AR)",
+      "clave": "Esclera enrojecida con dolor ocular sordo y profundo",
+      "conducta": "Urgencia oftalmológica: riesgo de perforación escleral",
+      "fuente": "Manual CTO Oftalmología, p. 42",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.003"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Compromete interfalángicas distales: ¿qué sospechas?",
+      "codigos": [
+        "1.11.1.003"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Respeta las IFD: ¿qué pides?",
+      "codigos": [
+        "1.11.4.003"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.0",
+      "pista": "Puntaje ≥ 6: ¿conducta?",
+      "codigos": [
+        "1.11.1.003"
+      ]
+    }
+  ]
+}

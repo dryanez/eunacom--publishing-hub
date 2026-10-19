@@ -1,0 +1,425 @@
+{
+  "classId": "psiq-04",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El puerperio es vulnerable por la caída de estrógeno y progesterona, la falta de {{c1::sueño}} y las demandas del recién nacido.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Vulnerabilidad del puerperio",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La tristeza materna o «baby blues» deja el vínculo con el bebé {{c1::preservado}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Tres cuadros, tres tiempos",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El baby blues afecta a {{c1::50 a 80%}} de las madres.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Tres cuadros, tres tiempos",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El baby blues comienza el día {{c1::3 a 5}} del posparto.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Tres cuadros, tres tiempos",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El baby blues remite en {{c1::10 a 14 días}}, con educación y apoyo, sin fármacos.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Tres cuadros, tres tiempos",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La depresión posparto afecta a {{c1::10 a 15%}} de las puérperas.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Tres cuadros, tres tiempos",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La depresión posparto comienza típicamente entre la semana {{c1::2 y 6}}, pudiendo aparecer hasta 1 año.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Tres cuadros, tres tiempos",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La depresión posparto es una depresión mayor con anhedonia, culpa y {{c1::desapego del bebé}}.",
+      "extra": "Insomnio aunque el bebé duerma.",
+      "origen": "clase:2",
+      "fuente": "Clase · Tres cuadros, tres tiempos",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 99"
+      ],
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Anhedonia y culpa a las 6 semanas del parto: el error es decir que es {{c1::el blues}}.",
+      "extra": "Más de 2 semanas ya no es blues.",
+      "origen": "clase:9",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Llanto fácil el día 5 con buen vínculo: se educa y apoya; el error es dar {{c1::antidepresivo}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La psicosis puerperal ocurre en {{c1::1 a 2 por 1.000}} partos.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Psicosis puerperal",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La psicosis puerperal tiene inicio hiperagudo en las primeras {{c1::1 a 2 semanas}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Psicosis puerperal",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la psicosis puerperal los delirios se centran en el bebé: hay riesgo de {{c1::infanticidio}} y suicidio.",
+      "extra": "Insomnio total, agitación y confusión.",
+      "origen": "clase:5",
+      "fuente": "Clase · Psicosis puerperal",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La psicosis puerperal con frecuencia es un {{c1::bipolar}} no diagnosticado.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Psicosis puerperal",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La psicosis puerperal se maneja con {{c1::hospitalización psiquiátrica urgente}}, idealmente en unidad madre-bebé.",
+      "extra": "Antipsicótico y estabilizador.",
+      "origen": "clase:5",
+      "fuente": "Clase · Psicosis puerperal",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Delirios sobre el bebé e insomnio total: el error es el {{c1::control ambulatorio}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La Escala de Edimburgo (EPDS) se aplica a todas las madres en los controles de niño sano de los {{c1::2 y 6 meses}}.",
+      "extra": "Chile Crece Contigo y GES 21.",
+      "origen": "clase:4",
+      "fuente": "Clase · Escala de Edimburgo",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Una EPDS de {{c1::10 o más}} es tamizaje positivo: confirmar el diagnóstico y tratar.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Escala de Edimburgo",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "EPDS menor de {{c1::10}}: bajo riesgo, se sigue con el control habitual.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Escala de Edimburgo",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La pregunta 10 de la EPDS evalúa {{c1::riesgo suicida}}; si es positiva se evalúa el mismo día.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Escala de Edimburgo",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con EPDS de 10 o más, el error es {{c1::dar el alta sin evaluar}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El antidepresivo de primera elección en depresión posparto con lactancia es la {{c1::sertralina}}.",
+      "extra": "Casi no pasa a la leche.",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento y lactancia",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 99"
+      ],
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La dosis de sertralina en depresión posparto es de {{c1::50 a 100 mg}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento y lactancia",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La paroxetina es una alternativa en lactancia: baja excreción, pero más {{c1::sedante y anticolinérgica}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento y lactancia",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La fluoxetina se evita iniciarla en lactancia por su {{c1::vida media larga}}; no se cambia si ya responde.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento y lactancia",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En depresión posparto el error es {{c1::suspender la lactancia}}; se trata con sertralina y se sigue amamantando.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Dato, decisión, error",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tratamiento de la depresión posparto es psicoterapia y apoyo a la díada, más fármaco si es {{c1::moderada o grave}}.",
+      "extra": "Control en 2 semanas.",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento y lactancia",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La depresión posparto entra al GES N° {{c1::21}} (depresión en mayores de 15 años).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Escala de Edimburgo",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En embarazo con depresión mayor sin psicosis ni ideación suicida se usa {{c1::sertralina}} (o fluoxetina).",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2018 · Pregunta 166"
+      ],
+      "codigos": [
+        "5.01.1.007"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Delirios sobre el bebé o confusión: ¿conducta?",
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Sin psicosis, menos de 2 semanas: ¿diagnóstico y manejo?",
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2",
+      "pista": "Sin psicosis, más de 2 semanas: ¿qué se confirma?",
+      "codigos": [
+        "5.01.1.007"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.2.0",
+      "pista": "Depresión posparto moderada o grave: ¿tratamiento?",
+      "codigos": [
+        "5.01.1.007"
+      ]
+    }
+  ]
+}

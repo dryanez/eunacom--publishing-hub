@@ -1,0 +1,647 @@
+{
+ "classId": "cardio-27",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La {{c1::CIA}} es la cardiopatía congénita que más se diagnostica en el adulto, más en mujeres.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 CIA",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 147",
+    "EUNACOM Diciembre 2019 · Pregunta 28",
+    "EUNACOM Julio 2018 · Pregunta 32"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El tipo más común de CIA es el ostium secundum ({{c1::70%}}), en la fosa oval.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · El cortocircuito",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El ostium primum se asocia a hendidura de la mitral y al síndrome de {{c1::Down}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 CIA",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la CIA la sangre pasa de la aurícula {{c1::izquierda a la derecha}}, sobrecargando el corazón derecho.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 CIA",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La CIA es asintomática hasta la {{c1::3.ª o 4.ª década}}; luego disnea, palpitaciones por FA o flutter.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · El cortocircuito",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 137",
+    "EUNACOM Julio 2017 · Pregunta 24",
+    "EUNACOM Enero 2023 · Pregunta 148"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Complicación neurológica de la CIA: {{c1::embolia paradójica}} (trombo venoso que pasa a la circulación sistémica).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 CIA",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Semiología patognomónica de la CIA: desdoblamiento amplio y {{c1::fijo}} de R2, que no varía con la respiración.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Semiología de la CIA",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 147",
+    "EUNACOM Diciembre 2019 · Pregunta 28",
+    "EUNACOM Julio 2018 · Pregunta 32",
+    "EUNACOM Julio 2016 · Pregunta 86",
+    "EUNACOM Julio 2015 · Pregunta 57",
+    "EUNACOM Julio 2019 · Pregunta 137",
+    "EUNACOM Julio 2017 · Pregunta 24",
+    "EUNACOM Enero 2023 · Pregunta 148"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la CIA el soplo eyectivo del foco pulmonar se debe al {{c1::hiperflujo}}, no al cortocircuito (silencioso).",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Semiología de la CIA",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 86",
+    "EUNACOM Julio 2015 · Pregunta 57"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "ECG de la CIA secundum: bloqueo incompleto de rama derecha (rSR' en V1) con eje {{c1::derecho}}.",
+   "extra": "El primum tiene eje izquierdo.",
+   "origen": "clase:2",
+   "fuente": "Clase · Semiología de la CIA",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 86",
+    "EUNACOM Julio 2015 · Pregunta 57",
+    "EUNACOM Diciembre 2019 · Pregunta 113",
+    "EUNACOM Diciembre 2017 · Pregunta 1"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Radiografía de la CIA: aumento del flujo pulmonar con {{c1::botón pulmonar}} y cardiomegalia derecha.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Semiología de la CIA",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La CIA se cierra, aun asintomática, si hay sobrecarga del VD o Qp:Qs > {{c1::1,5}}.",
+   "extra": "Con resistencia pulmonar normal.",
+   "origen": "clase:1",
+   "fuente": "Clase · El cortocircuito",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cierre de elección de la CIA ostium secundum con bordes adecuados: dispositivo percutáneo {{c1::Amplatzer}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de congénitas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los defectos grandes y los CIA primum, seno venoso y seno coronario se cierran con {{c1::cirugía}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Eco de la CIA",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Adulto con CIA y sobrecarga del VD: el error es {{c1::esperar a que dé síntomas}}; se cierra con Amplatzer.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "R2 desdoblado fijo + rSR' en V1: el error es diagnosticar {{c1::estenosis pulmonar}}; es CIA.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 86",
+    "EUNACOM Julio 2015 · Pregunta 57",
+    "EUNACOM Diciembre 2019 · Pregunta 113",
+    "EUNACOM Diciembre 2017 · Pregunta 1"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La CIV es el defecto acianótico más común en el niño; en el adulto persiste la pequeña (enfermedad de {{c1::Roger}}).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 CIV",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Soplo de CIV: {{c1::holosistólico}} rudo en barra en el borde esternal izquierdo bajo, con frémito.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · CIV y ductus",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la CIV restrictiva, el defecto pequeño suena {{c1::más fuerte}} (intensidad inversa al tamaño).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 CIV",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "CIV pequeña asintomática: solo {{c1::control}}; se cierra con Qp:Qs > 1,5 y sobrecarga del VI.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · CIV y ductus",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La CIV se cierra también si hay endocarditis previa o {{c1::insuficiencia aórtica}} por prolapso de valva.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · CIV y ductus",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Holosistólico en barra con frémito: el error es diagnosticar {{c1::ductus o CIA}}; es CIV.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ductus arterioso: soplo continuo «en maquinaria» de {{c1::Gibson}}, infraclavicular izquierdo.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · CIV y ductus",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 68"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el ductus de defecto mediano o grande hay pulso {{c1::saltón}} y presión de pulso amplia.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Ductus",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 68"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cierre del ductus en el adulto: dispositivo o {{c1::coils}} percutáneos, no ibuprofeno ni indometacina.",
+   "extra": "Esos fármacos cierran el ductus del prematuro.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Ductus",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ductus con Eisenmenger: cianosis {{c1::diferencial}} (pies cianóticos, manos rosadas).",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · CIV y ductus",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Ductus con pies cianóticos y manos rosadas: el error es {{c1::cerrar el ductus}}; es Eisenmenger.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Coartación: casi siempre {{c1::yuxtaductal}}, distal a la subclavia izquierda.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Coartación",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La coartación se asocia a válvula aórtica {{c1::bicúspide}}, síndrome de Turner y aneurismas del polígono de Willis.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Coartación",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Semiología de la coartación: HTA en los brazos, pulsos femorales {{c1::débiles y retardados}} (retraso radiofemoral).",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Coartación",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 17"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Coartación: gradiente de presión braquio-femoral > {{c1::20 mmHg}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Coartación",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Rx en coartación: muescas costales de {{c1::Roesler}} (costillas 3.ª a 8.ª) y signo del 3 en la aorta.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Coartación",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento de elección de la coartación en el adulto: angioplastía con {{c1::stent}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Tratamiento de la coartación",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "HTA en brazos con pulsos femorales débiles: el error es pensar en {{c1::feocromocitoma o hiperaldosteronismo}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Operado de coartación con soplo diastólico: el error es {{c1::recoartación}}; suele ser insuficiencia aórtica por bicúspide.",
+   "extra": "Pero la recoartación sigue siendo posible si hay disnea y gradiente: confirmar.",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 3"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras corregir una coartación persisten HTA y riesgo de aneurismas, recoartación y disección: control {{c1::de por vida}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Tratamiento de la coartación",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 3"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el síndrome de Eisenmenger el cortocircuito se invierte ({{c1::derecha-izquierda}}) con cianosis y eritrocitosis.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Eisenmenger",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En Eisenmenger el defecto {{c1::no se cierra}}; se usan vasodilatadores pulmonares (sildenafilo, bosentán).",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Eisenmenger",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El embarazo está contraindicado en Eisenmenger: mortalidad materna de {{c1::30 a 50%}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Eisenmenger",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un soplo funcional es eyectivo, suave y variable con la posición, sin {{c1::desdoblamiento fijo}} y con ECG normal.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Soplo funcional",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Joven con soplo sistólico paraesternal izquierdo y bloqueo de rama derecha en el ECG: {{c1::CIA}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Soplo funcional",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 113",
+    "EUNACOM Diciembre 2017 · Pregunta 1"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-27/01_cia-ostium-secundum-subcostal-doppler-color__harrison_p1898.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "CIA ostium secundum",
+   "clave": "Defecto en el septo interauricular con flujo al Doppler color y sobrecarga derecha",
+   "conducta": "Cierre percutáneo (Amplatzer) si hay sobrecarga del VD o Qp:Qs > 1,5",
+   "fuente": "Harrison, Principios de Medicina Interna, 21.ª ed., p. 1898",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-27/02_coartacion-adulto-rx-torax-muescas-costales__cxr_p365.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Coartación de la aorta",
+   "clave": "Muescas en el borde inferior de las costillas (signo de Roesler)",
+   "conducta": "Confirmar con eco/angioTAC; angioplastía con stent y control de por vida",
+   "fuente": "de Lacey y cols., The Chest X-Ray: A Survival Guide, p. 365",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-27/03_coartacion-aortografia-antes-y-despues-stent__nelson_p2795.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Coartación tratada con stent",
+   "clave": "Estrechez aórtica antes y arteria abierta tras el stent",
+   "conducta": "Angioplastía con stent de elección en el adulto; control de por vida",
+   "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 2795",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.003"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "R2 fijo, soplo pulmonar y rSR' en V1: ¿qué defecto y qué conducta?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1",
+   "pista": "Holosistólico con frémito o continuo: ¿qué criterio decide el cierre?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.2",
+   "pista": "HTA en brazos y pulsos femorales débiles: ¿qué estudio y qué tratamiento?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.3",
+   "pista": "Cianosis con hipertensión pulmonar fija: ¿se cierra el defecto?"
+  }
+ ]
+}

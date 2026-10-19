@@ -51,6 +51,7 @@ const bank = JSON.parse(fs.readFileSync(path.join(ROOT, 'books', 'data', 'real_q
 const codes = SEARCH ? Object.keys(bank) : classCodes(id);
 const seen = new Set();
 const qs = codes.flatMap(c => (bank[c] || []).map(q => ({ ...q, code: c })))
+  .filter(q => !(q.audit && q.audit.excluir))   // audit del banco: excluidas no se ofrecen
   .filter(q => (SEARCH ? SEARCH.test(q.stem + ' ' + q.explicacion) : q.confidence >= MIN) && !seen.has(q.key) && seen.add(q.key))
   .sort((a, b) => b.confidence - a.confidence || b.year - a.year);
 

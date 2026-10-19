@@ -1,0 +1,485 @@
+{
+ "classId": "trauma-05",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El politraumatismo es la lesión de al menos {{c1::tres sistemas}} u órganos que ponen en riesgo la vida.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Politrauma",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.014"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La causa principal de politraumatismo en Chile son los accidentes de {{c1::tránsito}}; el atropello en carretera es el más letal.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Epidemiología",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.014"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la C del ABCDE hay que {{c1::comprimir primero}} la hemorragia externa antes de buscar la vía venosa.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 ABCDE",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.014"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En C se instalan {{c1::2 vías venosas gruesas}}, cristaloides y compresión de hemorragias.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 ABCDE",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.014"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Todo politraumatizado tiene lesión de {{c1::columna cervical}} hasta demostrar lo contrario y lleva collar.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Columna",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.014"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La trilogía radiográfica del politrauma: columna cervical {{c1::lateral}}, tórax AP y pelvis AP.",
+   "extra": "Se piden aunque el paciente esté estable.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Trilogía",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.014",
+    "4.02.4.006"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La radiografía de pelvis AP es fundamental para detectar fracturas que causan {{c1::hemorragias masivas}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Trilogía",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.014",
+    "4.02.4.006"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La radiografía cervical lateral debe mostrar las {{c1::7 vértebras}} y la unión C7-T1; si no se ve, se pide TAC.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Interpretación",
+   "repaso": false,
+   "codigos": [
+    "4.02.4.006"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Mediastino ensanchado > {{c1::8 cm}} en el tórax AP sugiere lesión aórtica.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Interpretación",
+   "repaso": false,
+   "codigos": [
+    "4.02.4.006"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Una sínfisis del pubis ensanchada > {{c1::2,5 cm}} indica lesión pélvica.",
+   "extra": "También sacroilíacas asimétricas o línea de Shenton alterada.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Interpretación",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-05/21_pelvis-ramas-pubicas__sherman_p645.jpg",
+   "codigos": [
+    "4.02.4.006"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Espacio prevertebral > {{c1::7 mm}} en C2 o > {{c2::21 mm}} en C6 sugiere hematoma.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Interpretación",
+   "repaso": false,
+   "codigos": [
+    "4.02.4.006"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fractura de pelvis es una lesión de {{c1::alta energía}} con mortalidad elevada por complicaciones vasculares y viscerales.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pelvis",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.006"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En fractura de pelvis se hace tacto {{c1::rectal y vaginal}} para descartar fractura expuesta hacia la mucosa.",
+   "extra": "Si comunica: antibióticos y cirugía de urgencia.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pelvis",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.006"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En fractura de pelvis no se repiten maniobras de {{c1::estabilidad pélvica}}: pueden romper coágulos y reactivar el sangrado.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pelvis",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.006"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El shock hipovolémico es la causa principal de muerte inmediata en la fractura de pelvis; sangran los plexos {{c1::venosos}} pélvicos.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Shock",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.006"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En shock con pelvis inestable: reponer volumen y {{c1::estabilizar la pelvis}} precozmente.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Shock",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-05/01_pelvis-antes-de-faja__atls_p150.jpg",
+   "codigos": [
+    "4.02.2.006"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se estabiliza la pelvis con {{c1::sábana pélvica}}, hamaca, pantalón antichoque o tutores externos.",
+   "extra": "Sábana apretada sobre los trocánteres mayores.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Estabilización",
+   "repaso": true,
+   "imagen": "biblioteca/18_traumatologia/trauma-05/03_sabana-pelvica__atls_p150.jpg",
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 51",
+    "EUNACOM Julio 2016 · Pregunta 26"
+   ],
+   "codigos": [
+    "4.02.2.006"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La sábana pélvica se enrolla apretada alrededor de los {{c1::trocánteres mayores}} para cerrar el espacio pélvico.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Estabilización",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-05/02_pelvis-despues-de-faja__atls_p150.jpg",
+   "codigos": [
+    "4.02.2.006"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con shock y pelvis inestable, el reanimador inicial usa {{c1::suero fisiológico 0,9%}} y estabiliza la pelvis.",
+   "extra": "Pregunta real Dic 2024.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Estabilización",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 34"
+   ],
+   "codigos": [
+    "4.02.2.006"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Pelvis inestable con shock: el error es pedir {{c1::TAC}} antes de actuar.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.006"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La sección uretral es frecuente en fracturas de la {{c1::sínfisis del pubis}} (libro abierto).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Sección uretral",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.009"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sospecha de sección uretral: sangre en el meato, próstata {{c1::flotante}} y globo vesical.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Sección uretral",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.009"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El diagnóstico de sección uretral se hace con {{c1::uretrocistografía retrógrada}}.",
+   "extra": "Pregunta real Ago 2021 y Dic 2019.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Sección uretral",
+   "repaso": true,
+   "imagen": "biblioteca/18_traumatologia/trauma-05/04_uretrografia-lesion-uretral__bailey-love_p227.jpg",
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 61",
+    "EUNACOM Diciembre 2019 · Pregunta 90"
+   ],
+   "codigos": [
+    "4.03.2.009"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Ante sospecha de sección uretral está prohibida la {{c1::sonda Foley}}; se instala cistostomía suprapúbica.",
+   "extra": "Falsa vía y más daño.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Sección uretral",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 43"
+   ],
+   "codigos": [
+    "4.03.2.009"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Resumen del manejo de pelvis: ABCDE, estabilización de pelvis, {{c1::radiografía AP de pelvis}} y manejo de complicaciones.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Resumen",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.006",
+    "4.02.2.014"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Politraumatizado con disnea, shock y abolición del murmullo unilateral: neumotórax a tensión, {{c1::puncionar}} el espacio pleural sin esperar imágenes.",
+   "extra": "",
+   "origen": "clase:19",
+   "fuente": "Clase · Quiz Dic 2025",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 134"
+   ],
+   "codigos": [
+    "4.02.2.014",
+    "4.02.4.006"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En politrauma con neumotórax a tensión, hematoma subdural y fractura de pelvis, la medida más urgente es la {{c1::pleurostomía}}.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Quiz Jul 2024",
+   "repaso": false,
+   "codigos": [
+    "4.02.4.006"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En hemorragia masiva con pocas unidades O negativo, excepcionalmente se transfunde sangre {{c1::Rh positivo}}.",
+   "extra": "",
+   "origen": "clase:17",
+   "fuente": "Clase · Quiz Jul 2024",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.006"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Retención urinaria tras RTU de próstata con sonda Foley que no pasa: {{c1::ecografía pélvica}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic 2022",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 66"
+   ],
+   "codigos": [
+    "4.03.2.009"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-05/01_pelvis-antes-de-faja__atls_p150.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Fractura de pelvis inestable (libro abierto)",
+   "clave": "Alas ilíacas separadas y pelvis ancha",
+   "conducta": "Shock: volumen y sábana pélvica, hamaca o tutor externo antes que el TAC",
+   "fuente": "ATLS 10.ª ed., Fig. 5-9C",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 51"
+   ],
+   "codigos": [
+    "4.02.2.006"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-05/04_uretrografia-lesion-uretral__bailey-love_p227.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Lesión uretral en uretrografía",
+   "clave": "Escape de contraste fuera de la uretra tras fractura pélvica",
+   "conducta": "Prohibida la sonda Foley: cistostomía suprapúbica y reparación quirúrgica",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 14.28",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 61"
+   ],
+   "codigos": [
+    "4.03.2.009"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.2.0",
+   "pista": "Dolor pélvico con shock: ¿conducta?",
+   "codigos": [
+    "4.02.2.006",
+    "4.02.2.014"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.2.1",
+   "pista": "Sangre en el meato o globo vesical: ¿qué haces?",
+   "codigos": [
+    "4.02.2.006",
+    "4.02.2.014"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.2.2",
+   "pista": "Tacto con sangre o hueso en el recto: ¿conducta?",
+   "codigos": [
+    "4.02.2.006",
+    "4.02.2.014"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1",
+   "pista": "Hemorragia externa: ¿qué va primero?",
+   "codigos": [
+    "4.02.2.006",
+    "4.02.2.014"
+   ]
+  }
+ ]
+}

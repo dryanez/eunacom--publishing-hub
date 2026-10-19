@@ -1,0 +1,650 @@
+{
+ "classId": "infecto-02",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los dos agentes principales de la meningitis bacteriana comunitaria son {{c1::Streptococcus pneumoniae}} y Neisseria meningitidis.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Presentación",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tríada meníngea clásica: fiebre, cefalea y {{c1::rigidez de nuca}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Presentación",
+   "repaso": true,
+   "imagen": "biblioteca/07_infectologia/infecto-02/02_rigidez_nuca__bates_p906.jpg",
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La tríada clásica completa está presente en < {{c1::50 %}} de los casos.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo llega el paciente",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La ausencia de los {{c1::3}} elementos de la tríada descarta prácticamente la meningitis.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo llega el paciente",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los signos meníngeos al examen son {{c1::Kernig y Brudzinski}}.",
+   "extra": "Estiran las meninges inflamadas.",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo llega el paciente",
+   "repaso": false,
+   "imagen": "biblioteca/07_infectologia/infecto-02/01_signo_kernig__bates_p795.jpg",
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La inflamación masiva produce edema vasogénico, citotóxico e intersticial, con riesgo de {{c1::herniación e isquemia cerebral}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Por qué mata rápido",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antes de la punción lumbar se pide TAC si hay déficit neurológico {{c1::focal}} (paresia, asimetría facial, afasia).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Banderas rojas",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.006",
+    "1.04.5.002"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Bandera roja para TAC: crisis convulsiva de reciente inicio, hace < {{c1::1 semana}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Banderas rojas",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.006",
+    "1.04.5.002"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Bandera roja para TAC: compromiso de conciencia con Glasgow < {{c1::10}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Banderas rojas",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.006",
+    "1.04.5.002"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otras banderas rojas para TAC previo: {{c1::papiledema}} e inmunodepresión severa (VIH con CD4 bajo).",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · TAC antes de la PL",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Si hay indicación de TAC, el error es {{c1::esperar la imagen para tratar}}: primero hemocultivos, dexametasona y ATB.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · TAC antes de la PL",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Dexametasona EV en meningitis: {{c1::10 mg cada 6 h por 4 días}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La dexametasona se da {{c1::15–20 minutos}} antes o junto con la primera dosis de antibiótico.",
+   "extra": "Reduce secuelas auditivas y mortalidad en neumococo.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Esquema empírico estándar (3 meses a 50 años): {{c1::ceftriaxona}} 2 g cada 12 h EV + vancomicina.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 81",
+    "EUNACOM Julio 2025 · Pregunta 80"
+   ],
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Vancomicina en meningitis: {{c1::15–20 mg/kg}} cada 12 h EV.",
+   "extra": "Cubre neumococo resistente.",
+   "origen": "clase:4",
+   "fuente": "Clase · Tratamiento empírico",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En mayores de 50 años, embarazadas e inmunodeprimidos se agrega {{c1::ampicilina}} 2 g cada 4 h EV.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La ampicilina cubre {{c1::Listeria monocytogenes}}, intrínsecamente resistente a cefalosporinas.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Tratamiento empírico",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Ampicilina en meningitis por Listeria: {{c1::2 g cada 4 h}} EV.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Tratamiento empírico",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Meningitis bacteriana en lactante < 3 meses: hospitalizar, PL y ATB EV inmediato con ampicilina + {{c1::cefotaxima}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Tratamiento empírico",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 137"
+   ],
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "LCR bacteriano: predominio de {{c1::polimorfonucleares}} (> 80 %).",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla LCR",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 61"
+   ],
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "LCR viral: predominio mononuclear con glucosa {{c1::normal}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla LCR",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 61"
+   ],
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Glucosa LCR/suero en meningitis bacteriana: < {{c1::0,4}}.",
+   "extra": "Normal > 0,6.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla LCR",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Glucosa LCR/suero en meningitis tuberculosa o fúngica: < {{c1::0,3}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla LCR",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Proteínas del LCR en meningitis bacteriana: > {{c1::100–500 mg/dL}}.",
+   "extra": "Normal < 45 mg/dL.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla LCR",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Proteínas del LCR en meningitis viral: {{c1::50–100 mg/dL}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla LCR",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Leucocitos del LCR en meningitis viral: {{c1::50–500 /mm³}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla LCR",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Presión de apertura del LCR en meningitis bacteriana: > {{c1::25 cm H₂O}}.",
+   "extra": "Normal 10–20.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla LCR",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Leucocitos del LCR en meningitis bacteriana: {{c1::1.000–10.000}} o más por mm³.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Meningococcemia: petequias que progresan a equimosis y {{c1::púrpura fulminante}}, con hipotensión y CID.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Meningococcemia",
+   "repaso": true,
+   "imagen": "biblioteca/07_infectologia/infecto-02/01_purpura-meningococica__cto-infecto_p38.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 37",
+    "EUNACOM Julio 2015 · Pregunta 130"
+   ],
+   "codigos": [
+    "2.01.2.016",
+    "1.04.5.002"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hemorragia suprarrenal bilateral con shock refractario en meningococcemia: síndrome de {{c1::Waterhouse-Friderichsen}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Meningococcemia",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Ante sospecha de meningococcemia no se espera la PL: {{c1::hemocultivos y ceftriaxona 2 g EV}} inmediatos.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Meningococcemia",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Aislamiento por gotitas en meningococo hasta {{c1::24 h}} de tratamiento.",
+   "extra": "Además, notificación inmediata (ENO).",
+   "origen": "clase:6",
+   "fuente": "Clase · Meningococcemia",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Quimioprofilaxis de contactos íntimos: rifampicina {{c1::600 mg cada 12 h por 2 días}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Meningococcemia",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.016",
+    "1.04.5.002"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Quimioprofilaxis alternativa: ceftriaxona {{c1::250 mg IM}} dosis única.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Meningococcemia",
+   "repaso": false,
+   "codigos": [
+    "2.01.2.016",
+    "1.04.5.002"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Contraindicación de PL por coagulopatía: plaquetas < {{c1::50.000/mm³}} o INR > 1,5.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Punción lumbar",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El espacio de la PL (L3–L4) se ubica con la línea de {{c1::Tuffier}}, que une las crestas ilíacas.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Punción lumbar",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Presión de apertura normal del LCR: {{c1::10–20 cmH₂O}}; se recogen 4 tubos y una glicemia simultánea.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Punción lumbar",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El LCR para cultivo {{c1::no se refrigera}}: meningococo y Haemophilus son lábiles al frío.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Punción lumbar",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el Gram del LCR, diplococos grampositivos lanceolados indican {{c1::neumococo}}; gramnegativos, meningococo.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Cultivos",
+   "repaso": false,
+   "imagen": "biblioteca/07_infectologia/infecto-02/03_gram-lcr-diplococos__commons.jpg",
+   "codigos": [
+    "2.01.2.016",
+    "1.04.5.002"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tinta china en el LCR de un inmunodeprimido muestra levaduras encapsuladas: {{c1::criptococo}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Punción lumbar",
+   "repaso": false,
+   "imagen": "biblioteca/07_infectologia/infecto-02/02_tinta-china-criptococo__cto-infecto_p142.jpg",
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "El GES cubre las {{c1::infecciones del sistema nervioso central}} en adultos y pediatría.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · GES",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-02/01_purpura-meningococica__cto-infecto_p38.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Púrpura meningocócica (meningococcemia)",
+   "clave": "Petequias y equimosis extensas que progresan en horas, con fiebre alta",
+   "conducta": "Hemocultivos y ceftriaxona 2 g EV de inmediato, sin esperar la PL; volumen y UCI",
+   "fuente": "Manual CTO Infecciosas 14.ª ed., p. 38",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-02/03_gram-lcr-diplococos__commons.jpg",
+   "pregunta": "¿Qué muestra y qué orienta?",
+   "diagnostico": "Gram de LCR con neutrófilos y diplococos",
+   "clave": "Neutrófilos con cocos entre ellos; grampositivos lanceolados = neumococo",
+   "conducta": "Ceftriaxona + vancomicina con dexametasona; cultivo con antibiograma",
+   "fuente": "Wikimedia Commons, CC BY-SA 4.0",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Bandera roja: ¿qué haces antes de la TAC?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.0.1",
+   "pista": "Mayor de 50 o embarazada: ¿qué antibiótico se agrega?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.0.0",
+   "pista": "Menor de 50 sin riesgo: ¿esquema?"
+  }
+ ]
+}

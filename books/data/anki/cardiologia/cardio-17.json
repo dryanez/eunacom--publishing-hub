@@ -1,0 +1,656 @@
+{
+ "classId": "cardio-17",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los cuatro pilares que reducen la mortalidad en IC-FEr son ARNI/IECA/ARA II, betabloqueador con evidencia, espironolactona e {{c1::iSGLT2}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Qué alarga la vida y qué no",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 153",
+    "EUNACOM Diciembre 2017 · Pregunta 10",
+    "EUNACOM Julio 2025 · Pregunta 1",
+    "EUNACOM Diciembre 2018 · Pregunta 93",
+    "EUNACOM Diciembre 2017 · Pregunta 8"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La furosemida y otros diuréticos alivian {{c1::síntomas}} pero no reducen la mortalidad en IC.",
+   "extra": "Digoxina e isosorbide tampoco.",
+   "origen": "clase:2",
+   "fuente": "Clase · Qué alarga la vida y qué no",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Enalapril en IC: inicio {{c1::2,5 mg}} cada 12 h, meta 10-20 mg cada 12 h.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · IECA, ARA II o ARNI",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Si el IECA produce tos seca (bradicinina), se cambia a un {{c1::ARA II}} (losartán, candesartán).",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · IECA, ARA II o ARNI",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Nunca se combina IECA con {{c1::ARA II}} en IC.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pilar 1",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "IECA/ARA II están contraindicados en embarazo, angioedema previo, hiperkalemia grave y estenosis {{c1::bilateral de arterias renales}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · IECA, ARA II o ARNI",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "El ARNI (sacubitrilo/valsartán) combina un ARA II con un inhibidor de la {{c1::neprilisina}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pilar 1",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Al cambiar IECA por ARNI se deja un lavado de {{c1::36 horas}}.",
+   "extra": "Si se juntan se acumula bradicinina y hay angioedema grave.",
+   "origen": "clase:3",
+   "fuente": "Clase · IECA, ARA II o ARNI",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Cambio de IECA a ARNI: el error es el cambio {{c1::directo}}, sin los 36 horas de lavado.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Dosis del ARNI: inicio 24/26 o 49/51 mg cada 12 h, meta {{c1::97/103 mg}} cada 12 h.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Cuatro pilares",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El ARNI eleva el BNP; en el seguimiento se usa {{c1::NT-proBNP}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pilar 1",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Betabloqueadores con evidencia en IC-FEr: {{c1::bisoprolol, carvedilol y metoprolol succinato}}.",
+   "extra": "Atenolol y propranolol no tienen esa evidencia.",
+   "origen": "clase:4",
+   "fuente": "Clase · Betabloqueadores con evidencia",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 10"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Reemplazar carvedilol por atenolol en IC: {{c1::no se hace}}; no cualquier betabloqueador sirve.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "IC con hidroclorotiazida y sin betabloqueador: se agrega {{c1::carvedilol}}, no isosorbide ni más tiazida.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 10",
+    "EUNACOM Diciembre 2024 · Pregunta 109"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Carvedilol en IC: inicio 3,125 mg cada 12 h, meta {{c1::25 mg}} cada 12 h (50 mg si pesa más de 85 kg).",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Cuatro pilares",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Bisoprolol en IC: inicio {{c1::1,25 mg}} al día, meta 10 mg al día.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Betabloqueadores con evidencia",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El betabloqueador se parte en paciente euvolémico y estable (FC > {{c1::60 lpm}}, sin shock ni bloqueo AV avanzado).",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Cómo iniciarlo",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La dosis del betabloqueador se duplica cada {{c1::2 semanas}} si la presión y la frecuencia lo permiten.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Cómo iniciarlo",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si al iniciar el betabloqueador empeora la congestión leve, se sube el {{c1::diurético}} y no se suspende el betabloqueador.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Cómo iniciarlo",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En EPOC o asma, el betabloqueador mejor tolerado es el {{c1::bisoprolol}} (cardioselectivo).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Pilar 2",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 151"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "IECA + betabloqueador + furosemida con FEVI baja: se agrega {{c1::espironolactona}}, no losartán ni más diurético.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 153",
+    "EUNACOM Julio 2025 · Pregunta 1",
+    "EUNACOM Diciembre 2018 · Pregunta 93",
+    "EUNACOM Diciembre 2017 · Pregunta 8"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "La espironolactona reduce la mortalidad en IC y es la respuesta a «qué diurético agregar para mejorar el pronóstico», no la {{c1::hidroclorotiazida}}.",
+   "extra": "Tampoco indapamida, clortalidona ni torasemida.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Pilar 3",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 1",
+    "EUNACOM Diciembre 2018 · Pregunta 93"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Espironolactona en IC: inicio {{c1::12,5-25 mg}} al día, meta 25-50 mg.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Cuatro pilares",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Espironolactona: controlar potasio y creatinina a los 3 días, a la {{c1::semana}} y luego mensualmente.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Seguridad",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La espironolactona no se asocia con suplementos de {{c1::potasio}} ni con AINE.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Pilar 3",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "iSGLT2 en IC (dapagliflozina o empagliflozina): {{c1::10 mg}} al día, sin titulación.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · iSGLT2",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los iSGLT2 reducen hospitalización por IC y muerte cardiovascular en diabéticos y {{c1::no diabéticos}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · iSGLT2",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la IC con fracción preservada, el único grupo con beneficio demostrado son los {{c1::iSGLT2}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · iSGLT2",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Precauciones con iSGLT2: infección genital micótica, hipovolemia y cetoacidosis {{c1::euglicémica}}.",
+   "extra": "Suspender 3 días antes de una cirugía.",
+   "origen": "clase:6",
+   "fuente": "Clase · iSGLT2",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Furosemida en IC: {{c1::20-40 mg}} al día, la mínima dosis que mantenga el peso seco.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Diurético y los que suman",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En falla renal moderada el diurético de elección es el de {{c1::asa}}, no la tiazida.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Diurético y los que suman",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Enalapril + hidroclorotiazida en IC es un esquema {{c1::incompleto}}: la tiazida sola no mejora el pronóstico.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Diurético y los que suman",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 10"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Ivabradina en IC: ritmo sinusal, FC ≥ {{c1::70 lpm}} y FEVI ≤ 35% a pesar de dosis máxima tolerada de betabloqueador.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Otros fármacos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hidralazina + isosorbide en IC se usa en quien no tolera {{c1::IECA/ARA II/ARNI}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Otros fármacos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "IC con creatinina alta y digoxina: la digoxina es la {{c1::menos adecuada}} porque se acumula en falla renal.",
+   "extra": "No mejora la sobrevida; solo síntomas o control de FA.",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 13",
+    "EUNACOM Diciembre 2018 · Pregunta 5"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "IC descompensada, náuseas y digoxina: sospecha intoxicación digitálica y se piden {{c1::niveles plasmáticos de digoxina}}.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Otros fármacos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 5"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "IC con nifedipino: se {{c1::suspende el nifedipino}} (inotropo negativo); el error es suspender el IECA.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 135",
+    "EUNACOM Diciembre 2019 · Pregunta 123"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Además del nifedipino se suspenden en IC verapamilo, diltiazem, {{c1::AINE}} y pioglitazona.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Fármacos que empeoran",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 109"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El amlodipino es neutro en IC, pero produce {{c1::edema}} que se confunde con congestión.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Ojo con el amlodipino",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Secuencia práctica: un fármaco cada 1-2 semanas, con los cuatro pilares en {{c1::6-8 semanas}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Secuencia práctica",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En IC-FEmr (41-49%) se indica {{c1::iSGLT2}} y, según el caso, los otros pilares.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Secuencia práctica",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c46",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "DAI en prevención primaria: FEVI ≤ {{c1::35%}} tras 3 meses de terapia óptima, NYHA II-III y expectativa de vida > 1 año.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Desfibrilador y resincronizador",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c47",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "FEVI ≤ 35% medida recién: el error es implantar el DAI de inmediato; se {{c1::reevalúa a los 3 meses}} de tratamiento.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c48",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "TRC (resincronizador): ritmo sinusal, FEVI ≤ 35%, BCRI con QRS ≥ {{c1::150 ms}}.",
+   "extra": "Con QRS de 130-149 ms, considerar.",
+   "origen": "clase:11",
+   "fuente": "Clase · Desfibrilador y resincronizador",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  },
+  {
+   "id": "c49",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "IC en estadio D: derivar a trasplante, asistencia ventricular o {{c1::cuidados paliativos}}.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Dispositivos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.018"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "IC con congestión: ¿qué fármaco y qué dosis?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1",
+   "pista": "IC compensada: ¿qué se inicia?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.0.0",
+   "pista": "QRS ≥ 150 ms con BCRI: ¿qué dispositivo?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.0.1",
+   "pista": "FEVI ≤ 35% sin esa conducción: ¿qué dispositivo?"
+  }
+ ]
+}

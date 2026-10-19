@@ -1,0 +1,520 @@
+{
+ "classId": "uro-08",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El cáncer de próstata es la neoplasia maligna más frecuente y la segunda causa de {{c1::muerte por cáncer}} en hombres en Chile.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Epidemiología",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002",
+    "4.03.3.001"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Factores de riesgo demostrados: edad avanzada, etnia {{c1::afrodescendiente}} y antecedente familiar de primer grado.",
+   "extra": "Padre o hermano duplican o triplican el riesgo.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Factores de riesgo",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002",
+    "4.03.3.001"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cerca del {{c1::75%}} de los adenocarcinomas prostáticos nacen en la zona periférica.",
+   "extra": "Por eso no obstruyen temprano y son palpables al tacto.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Anatomía zonal",
+   "repaso": true,
+   "imagen": "biblioteca/19_urologia/uro-08/01_ecografia-transrectal-zonas-prostata__bailey-love_p1408.jpg",
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El cáncer de próstata precoz es {{c1::asintomático}} porque la zona periférica está lejos de la uretra.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Anatomía zonal",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La HPB nace en la zona de transición; el cáncer en la zona {{c1::periférica}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Anatomía zonal",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El APE es una serina proteasa que licúa el semen: es órgano-específico pero {{c1::no cáncer-específico}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 APE",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002",
+    "4.03.4.010"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El APE se eleva sin cáncer en HPB, {{c1::prostatitis aguda}}, retención urinaria, instrumentación o eyaculación reciente.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 APE",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.002",
+    "4.03.4.010"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El tamizaje con APE y tacto se inicia a los {{c1::50 años}}, o a los 45 si hay familiar de 1.er grado o raza negra.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tamizaje",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.002",
+    "4.03.3.005"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El punto de corte clásico del APE total es {{c1::4,0 ng/mL}}.",
+   "extra": "Bajo finasteride se multiplica por 2.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 APE",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002",
+    "4.03.3.005"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la «zona gris» (4-10 ng/mL) se confirma el APE a las 4-6 semanas descartando ITU y se pide el {{c1::APE libre/total}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Zona gris",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002",
+    "4.03.3.005"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Una fracción libre menor de {{c1::15%}} (o menor de 18%) se asocia a adenocarcinoma y justifica biopsia.",
+   "extra": "Pregunta modelo: APE 6,4 con libre/total 9%: biopsia.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Zona gris",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002",
+    "4.03.3.005"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Un APE total mayor de {{c1::10 ng/mL}} tiene más de 50% de probabilidad de cáncer de próstata.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla APE",
+   "repaso": false,
+   "codigos": [
+    "1.08.4.002"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Densidad del APE sospechosa: mayor de {{c1::0,15}} ng/mL/cc.",
+   "extra": "Distingue próstata grande benigna de tumor focal.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla APE",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Velocidad del APE sospechosa: aumento mayor de {{c1::0,75 ng/mL}} en 1 año.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla APE",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "APE alto durante una infección urinaria: {{c1::tratar y repetir}}; el error es biopsiar sin repetir.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.12.1.001"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hallazgos del tacto rectal sospechosos: nódulo indurado {{c1::pétreo}}, asimetría o pérdida del surco medio.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tacto rectal",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002",
+    "4.03.5.001"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Un nódulo pétreo al tacto es indicación de {{c1::biopsia}} aunque el APE sea normal (menor de 4,0 ng/mL).",
+   "extra": "Entre 15 y 25% de los cánceres relevantes tienen APE normal.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Regla de oro",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.002",
+    "4.03.5.001"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La biopsia prostática es guiada por ecografía {{c1::transrectal}} o fusión con resonancia multiparamétrica, con profilaxis antibiótica.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Biopsia",
+   "repaso": false,
+   "imagen": "_verificadas/368_uro_Cáncer_de_próstata__27thBailey_p1413_1.jpg",
+   "codigos": [
+    "4.03.1.002",
+    "4.03.5.001"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La biopsia toma de {{c1::10 a 12}} cilindros glandulares.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Biopsia",
+   "repaso": false,
+   "imagen": "biblioteca/19_urologia/uro-08/02_cilindros-biopsia-prostatica__bailey-love_p1408.jpg",
+   "codigos": [
+    "4.03.1.002",
+    "4.03.5.001"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "APE de 14,2 que baja a 12 tras tratar la ITU, con nódulo duro: conducta {{c1::biopsia prostática}}.",
+   "extra": "Tanto por el nódulo como por APE mayor de 4.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Biopsia",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 78"
+   ],
+   "codigos": [
+    "4.03.1.002",
+    "4.03.5.001"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Paciente de 85 años con APE de 7,5 sin nódulos: la pregunta oficial acepta {{c1::biopsia prostática}} (todo APE mayor de 4,0 se biopsia).",
+   "extra": "El propio comentario dice que a esa edad no debió pedirse el APE.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Biopsia",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 41"
+   ],
+   "codigos": [
+    "4.03.1.002",
+    "4.03.5.001"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Adenocarcinoma Gleason 3+3 en 0,3-0,5% de la muestra en un paciente de 83-85 años: {{c1::vigilancia activa}} u observar.",
+   "extra": "APE 10 y estudio de diseminación negativo.",
+   "origen": "clase:12",
+   "fuente": "Clase · Adulto muy mayor",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 103",
+    "EUNACOM Diciembre 2022 · Pregunta 82"
+   ],
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El Score de Gleason suma los {{c1::dos patrones}} predominantes, graduados del 1 al 5.",
+   "extra": "El primer número es el más abundante.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Gleason",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Gleason 3+4 y 4+3 suman 7, pero el {{c1::4+3}} tiene peor pronóstico por predominio del patrón 4.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Gleason",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Grupos ISUP: 1 = Gleason ≤ 6; 2 = 3+4; 3 = 4+3; 4 = Gleason 8; 5 = Gleason {{c1::9 y 10}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 ISUP",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Patrón primario 4 en 60% y secundario 3 en 40%: Gleason {{c1::4+3=7}}, grupo ISUP 3.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 ISUP",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "GES N.º 19 (cáncer de próstata, 15 años y más): biopsia dentro de {{c1::30 días}} desde la sospecha fundada.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 GES",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "GES: el tratamiento primario inicia dentro de {{c1::60 días}} desde la confirmación histológica.",
+   "extra": "La deprivación androgénica, en 30 días desde la indicación.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 GES",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La cintigrafía ósea con {{c1::tecnecio-99m}} detecta las metástasis osteoblásticas: focos hipercaptantes en columna, pelvis y costillas.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Cintigrafía",
+   "repaso": false,
+   "codigos": [
+    "1.08.4.002"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se indica en riesgo alto: APE sobre {{c1::20 ng/mL}}, Gleason 8 o más, cT3 o dolor óseo.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Cintigrafía",
+   "repaso": false,
+   "codigos": [
+    "1.08.4.002"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La cintigrafía con {{c1::galio-67}} sirve en inflamación, linfomas y sarcoidosis, no para etapificar la próstata.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Galio",
+   "repaso": true,
+   "codigos": [
+    "1.08.4.002"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-08/01_ecografia-transrectal-zonas-prostata__bailey-love_p1408.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Ecografía transrectal normal",
+   "clave": "Corte con las zonas prostáticas; la zona periférica concentra tres cuartos de los cánceres",
+   "conducta": "Tacto rectal y APE; biopsia ecoguiada si hay sospecha",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 75.17a",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "_verificadas/368_uro_Cáncer_de_próstata__27thBailey_p1413_1.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "RM con lesión periférica",
+   "clave": "Zona sospechosa de la zona periférica en resonancia con contraste",
+   "conducta": "Biopsia guiada por ecografía o fusión con RM",
+   "fuente": "Bailey & Love 27.ª ed., p. 1413",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002",
+    "4.03.5.001"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-08/02_cilindros-biopsia-prostatica__bailey-love_p1408.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Cilindros de biopsia",
+   "clave": "Cilindros en dos cajas, uno por cada lóbulo",
+   "conducta": "10 a 12 cilindros con profilaxis antibiótica",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 75.18b",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.002",
+    "4.03.5.001"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Tacto con nódulo pétreo: ¿qué se hace?",
+   "codigos": [
+    "4.03.1.002",
+    "4.03.5.001"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "APE persistente entre 4 y 10: ¿qué examen sigue?",
+   "codigos": [
+    "4.03.1.002",
+    "4.03.5.001"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.1",
+   "pista": "APE persistente sobre 10: ¿conducta?",
+   "codigos": [
+    "4.03.1.002",
+    "4.03.5.001"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.0",
+   "pista": "Tacto sospechoso: ¿qué estudio y en qué plazo?",
+   "codigos": [
+    "4.03.1.002",
+    "4.03.5.001"
+   ]
+  }
+ ]
+}

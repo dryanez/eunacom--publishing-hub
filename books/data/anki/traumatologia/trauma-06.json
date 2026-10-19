@@ -1,0 +1,385 @@
+{
+ "classId": "trauma-06",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el {{c1::retardo}} de consolidación la curación tarda más de lo esperado pero conserva la capacidad de consolidar sola.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Retardo",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El retardo de consolidación cursa con dolor {{c1::persistente}} en el foco y callo en maduración.",
+   "extra": "Tibia en yeso hace 4 meses: mejorar la inmovilización.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Retardo",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas de retardo: inmovilización inadecuada, uso de {{c1::AINEs}} y tabaquismo, diabetes o desnutrición.",
+   "extra": "Los AINE inhiben las prostaglandinas necesarias para el callo.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Retardo",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los micromovimientos por inmovilización inadecuada impiden que el {{c1::callo óseo}} se estabilice.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Retardo",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La {{c1::pseudoartrosis}} es el fracaso definitivo de la consolidación: no consolidará sin cirugía.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pseudoartrosis",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El signo patognomónico de la pseudoartrosis es la {{c1::movilidad anormal indolora}} en el foco (falsa articulación).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pseudoartrosis",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la pseudoartrosis hay {{c1::partes blandas}} (tejido fibroso o muscular) interpuestas entre los extremos óseos.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pseudoartrosis",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pseudoartrosis {{c1::hipertrófica}}: por mala inmovilización, extremos ensanchados en «pata de elefante».",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tipos",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pseudoartrosis {{c1::atrófica}}: por mala irrigación o hueso patológico, extremos en «punta de lápiz».",
+   "extra": "Tabaco y diabetes la favorecen.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tipos",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hipertrófica: hay vida pero falta {{c1::quietud}}; atrófica: «no hay vida» (isquemia, infección).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tipos",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tratamiento de la pseudoartrosis, de cualquier tipo, es {{c1::quirúrgico}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pseudoartrosis",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.020"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la consolidación {{c1::viciosa}} el hueso sí consolidó pero en posición incorrecta (angulación, rotación o acortamiento).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Mala unión",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La consolidación viciosa cursa con deformidad visible y {{c1::ausencia de dolor}} en el foco.",
+   "extra": "Puede dar dolor en articulaciones vecinas.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Mala unión",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas de la mala unión: mala reducción inicial o {{c1::pérdida de la reducción}} durante la inmovilización.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Mala unión",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La mala unión funcionalmente inaceptable se trata con {{c1::osteotomía correctora}} (cortar, reducir y fijar).",
+   "extra": "Cirugía de refractura.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Mala unión",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "No confundir {{c1::no-unión}} (pseudoartrosis) con {{c2::mala unión}} (hueso sólido en mala posición).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Mala unión",
+   "repaso": true,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "¿Duele? retardo. ¿Se mueve sin dolor? {{c1::pseudoartrosis}}. ¿Pegado y chueco? {{c2::mala unión}}.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La diáfisis (hueso {{c1::cortical}}, poco irrigada) consolida lento y es propensa a retardo y pseudoartrosis, sobre todo en la tibia.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Diáfisis",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-06/21_tibia-diafisis-espiroidea__sherman_p682.jpg",
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La metáfisis (hueso {{c1::esponjoso}}, bien vascularizado) consolida rápido y, si está impactada, es estable.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Metáfisis",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las diáfisis de fémur y tibia se fijan con {{c1::clavo endomedular}}; las del antebrazo del adulto, con placa y tornillos.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fractura de diáfisis de húmero suele tratarse con yeso colgante o férula funcional, vigilando el nervio {{c1::radial}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-06/22_humero-diafisis__sherman_p594.jpg",
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las fracturas metafisarias impactadas o poco desplazadas se tratan con {{c1::yeso}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fractura del tercio medio de la clavícula se inmoviliza con {{c1::cabestrillo}} o vendaje en 8; el tratamiento suele ser ortopédico.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real clavícula",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 100",
+    "EUNACOM Julio 2019 · Pregunta 179"
+   ],
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Caída en paracaídas con deformidad en valgo de rodilla: fractura del {{c1::platillo tibial lateral}}, confirmada con TAC.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic 2024",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 133"
+   ],
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-06/21_tibia-diafisis-espiroidea__sherman_p682.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Fractura espiroidea de la diáfisis tibial",
+   "clave": "Dos fragmentos con poca superficie de contacto en hueso cortical poco irrigado",
+   "conducta": "Clavo endomedular; vigilar retardo de consolidación y pseudoartrosis",
+   "fuente": "Sherman, Atlas of Clinical Emergency Medicine, p. 682",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-06/22_humero-diafisis__sherman_p594.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Fractura de la diáfisis del húmero",
+   "clave": "Trazo diafisario del húmero",
+   "conducta": "Yeso colgante o férula funcional y vigilar el nervio radial",
+   "fuente": "Sherman, Atlas of Clinical Emergency Medicine, p. 594",
+   "repaso": false,
+   "codigos": [
+    "4.02.2.007"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Retardo de consolidación: ¿qué haces?",
+   "codigos": [
+    "4.02.2.007",
+    "4.01.2.020"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "Pseudoartrosis con pata de elefante: ¿qué tipo y conducta?",
+   "codigos": [
+    "4.02.2.007",
+    "4.01.2.020"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.2.0",
+   "pista": "Mala unión inaceptable: ¿qué cirugía?",
+   "codigos": [
+    "4.02.2.007",
+    "4.01.2.020"
+   ]
+  }
+ ]
+}

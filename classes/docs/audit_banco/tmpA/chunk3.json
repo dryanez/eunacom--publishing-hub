@@ -1,0 +1,783 @@
+[
+ {
+  "recTag": "EUNACOM Diciembre 2025 · Pregunta 4",
+  "year": 2025,
+  "codes": [
+   "1.01.5.004 [cardio-03: Desfibrilación]"
+  ],
+  "stem": "Un paciente de 64 años, con antecedente de diabetes mellitus tipo 2 e hipertensión arterial mal controlados, consulta en el servicio de urgencia por dolor torácico opresivo EVA 9/10, asociado a disnea y malestar general. Durante su atención presenta un electrocardiograma que muestra a continuación: ¿Cuál es la conducta más adecuada?",
+  "options": "A) Cardioversión eléctrica | B) Desfibrilación eléctrica | C) Amiodarona endovenosa | D) Maniobras de reanimación cardiopulmonar | E) Coronariogra:a urgente",
+  "correcta": "B",
+  "explicacion": "El ECG corresponde a un síndrome coronario agudo con supradesnivel del ST (cara inferior), que evoluciona a fibrilación ventricular, lo que constituye un paro cardíaco presenciado en ritmo desfibrilable (fibrilación ventricular y taquicardia ventricular sin pulso). Por ser un paro presenciado, la conducta inmediata es la desfibrilación eléctrica. Las maniobras de RCP se inician de forma simultánea, pero no reemplazan la desfibrilación precoz. La cardioversión se realiza en las taquiarritmias con hemodinamia inestable, pero con pulso.",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2022 · Pregunta 158",
+  "year": 2022,
+  "codes": [
+   "1.01.5.006 [cardio-03: Resucitación cardiorespiratoria]"
+  ],
+  "stem": "Un paciente de 67 años, diabético, hipertenso y dislipidémico, fumador activo, consulta en el servicio de urgencia por dolor torácico opresivo e intenso, de 2 horas de evolución, irradiado al hombro derecho y asociado a disnea. Mientras estaba en la sala de reanimación presenta pérdida de conciencia y usted constata que no se mueve, no respira y no tiene pulso. Además de pedir ayuda y activar el código de paro, ¿cuál es la conducta inmediata?",
+  "options": "A) Instalar el monitor cardíaco en modo paletas | B) Realizar intubación orotraqueal | C) Solicitar electrocardiograma | D) Realizar compresiones torácicas | E) Administrar adrenalina endovenosa en bolo",
+  "correcta": "D",
+  "explicacion": "Conducta / Tratamiento indicado: **Realizar compresiones torácicas** (opción **D**). Según los consensos y guías clínicas del MINSAL, esta constituye la conducta estándar de primera línea recomendada para este nivel de atención.",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2025 · Pregunta 166",
+  "year": 2025,
+  "codes": [
+   "1.02.1.002 [diab-09: Diabetes gestacional]"
+  ],
+  "stem": "paciente con diabetes gestacional 28 semanas, con tto metformina pero con cifras elevadas de glicemia, se preguntaba cómo continuar tto",
+  "options": "A) Pioglitazona | B) agregar insulina | C) Glibenclamida | D) Sitagliptina | E) Metformina",
+  "correcta": "A",
+  "explicacion": "La alternativa correcta es la **A** (Pioglitazona). agregar insulina. Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh. Las opciones alternativas (agregar insulina, Glibenclamida) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente.",
+  "conf": 0.9,
+  "alertas": [
+   "enunciado_cortado_o_raro"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 108",
+  "year": 2024,
+  "codes": [
+   "1.02.1.002 [diab-09: Diabetes gestacional]"
+  ],
+  "stem": "Embarazada 24 semanas con glicemia post 75gr de glucosa en 200 ¿Cual es el manejo?",
+  "options": "A) Iniciar insulina | B) Metformina | C) Glibenclamida | D) Interrupción del embarazo | E) Maduración pulmonar y observación",
+  "correcta": "A",
+  "explicacion": "Conducta / Tratamiento indicado: **Iniciar insulina** (opción **A**). Frente a descompensación metabólica aguda, cetoacidosis o hiperglicemia severa refractaria, la insulinoterapia endovenosa continua con monitorización seriada de electrolitos (especialmente potasio) es la piedra angular del manejo.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 44",
+  "year": 2019,
+  "codes": [
+   "1.02.1.002 [diab-09: Diabetes gestacional]"
+  ],
+  "stem": "Una paciente de 30 años, acude a su primer control de un embarazo de 10 semanas. Sus partos anteriores fueron eutócicos, con recién nacidos de término de 4 kilogramos. Entre sus exámenes de control trae un Elisa VIH que resultó negativo, hematocrito de 38%, glicemia de ayuno de 112 mg/dL y urocultivo negativo. Su examen físico es normal. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Solicitar test de tolerancia a la glucosa oral | B) Iniciar metformina oral | C) Repetir glicemia de ayuno | D) Repetir el urocultivo | E) Mantener el control embarazo normal",
+  "correcta": "C",
+  "explicacion": "La sospecha es una diabetes gestacional (glicemia de ayuno mayor o igual a 100), por lo que se debe repetir. Si hubiese estado mayor o igual a 126 la sospecha sería una diabetes pregestacional, aunque la conducta sería la misma. Si no hubiese estado embarazada, se tendría que pedir un TTGO.",
+  "conf": 0.82,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 88",
+  "year": 2017,
+  "codes": [
+   "1.02.1.002 [diab-09: Diabetes gestacional]"
+  ],
+  "stem": "Una paciente de 22 años, acude a su primer control de un embarazo de 8 semanas. Entre sus exámenes trae un VDRL que resultó negativo, hematocrito de 39% y glicemia de ayuno de 112 mg/dL. Su examen físico es normal. ¿Cuál es la conducta más adecua- da?",
+  "options": "A) Solicitar test de tolerancia a la glucosa oral | B) Iniciar hipoglicemiantes orales | C) Repetir glicemia de ayuno | D) Solicitar insulinemia basal | E) Mantener el control embarazo normal",
+  "correcta": "C",
+  "explicacion": "Tiene una glicemia de ayuno mayor o igual 100, lo que en el embarazo, obliga a re- petir la glicemia de ayuno.",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 81",
+  "year": 2019,
+  "codes": [
+   "1.02.1.002 [diab-09: Diabetes gestacional]"
+  ],
+  "stem": "Una paciente de 29 años, cursando un embarazo de 28 semanas, se realiza una prueba de tolerancia a la glucosa oral, que muestra glicemia basal de 86 mg/dl y glicemia poscarga de 139 mg/dl. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Repetir la prueba de tolerancia a la glucosa a las 32 semanas | B) Iniciar metformina | C) Iniciar dieta hipoglucídica | D) Iniciar insulina | E) Mantener el control normal del embarazo",
+  "correcta": "E",
+  "explicacion": "Conducta / Tratamiento indicado: **Mantener el control normal del embarazo** (opción **E**). Tiene un TTGO normal (basal menor a 100 y postcarga menor a 140), por lo que se debe observar.. Según los consensos y guías clínicas del MINSAL, esta constituye la conducta estándar de primera línea recomendada para este nivel de atención.",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 133",
+  "year": 2017,
+  "codes": [
+   "1.02.1.002 [diab-09: Diabetes gestacional]"
+  ],
+  "stem": "Una paciente de 36 años, cursando su primer embarazo a las 28 semanas, se reali- za un test de tolerancia a la glucosa oral, con 75 gramos de glucos, que arroja una glice- mia basal de 98 mg/dl y una glicemia postcarga, a las 2 horas, de 147 mg/dl. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Resistencia a la insulina | B) Diabetes mellitus gestacional | C) Diabetes mellitus pregestacional | D) Intolerancia a la glucosa oral | E) Embarazo normal",
+  "correcta": "B",
+  "explicacion": "Diagnóstico: **Diabetes mellitus gestacional** (opción **B**). Tienen un TTGO mayor o igual a 140, lo que en una mujer embarazada es DMG.. El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL).",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 133",
+  "year": 2016,
+  "codes": [
+   "1.02.1.002 [diab-09: Diabetes gestacional]"
+  ],
+  "stem": "Una mujer de 34 años, cursando un embarazo de 24 semanas, se realiza un test de tolerancia a la glucosa oral, con 75 gramos de glucosa, que resulta 205 a las 2 horas. Además de dieta y ejercicio, el tratamiento de elección es:",
+  "options": "A) Acarbosa | B) Sitaglipina | C) Metformina | D) Insulina | E) Glibenclamida",
+  "correcta": "D",
+  "explicacion": "La diabetes gestacional se trata con dieta y ejercicios y luego insulina como fármacos de elección. Si bien los hipoglicemiantes orales hoy pueden darse en el embarazo, la insulina sigue siendo de elección.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2018 · Pregunta 176",
+  "year": 2018,
+  "codes": [
+   "1.02.1.003 [diab-09: Diabetes mellitus pregestacional]"
+  ],
+  "stem": "Una mujer cursa un embarazo de 10 semanas y se realiza una glicemia de ayuno, que resulta 128 mg/dl. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Prediabetes | B) Diabetes mellitus gestacional | C) Glicemia de ayuno alterado | D) Diabetes mellitus pregestacional | E) Intolerancia a la glucosa oral",
+  "correcta": "D",
+  "explicacion": "Si bien le falta otra glicemia de ayuno mayor o igual a 126, para confirmar el diagnóstico, sobre dicho valor se sospecha una diabetes pregestacional.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 107",
+  "year": 2019,
+  "codes": [
+   "1.02.1.003 [diab-09: Diabetes mellitus pregestacional]"
+  ],
+  "stem": "Una paciente embarazada de 10 semanas, se realiza una glicemia de ayuno en su control del embarazo, que resulta 130 mg/dl. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Glicemia normal para el embarazo | B) Intolerancia a la glucosa oral | C) Diabetes mellitus gestacional | D) Diabetes mellitus pregestacional | E) Resistencia a la insulina",
+  "correcta": "D",
+  "explicacion": "SI bien tiene solo una toma de glicemia, dos glicemias de ayuno mayores o iguales a 126, en un embarazo menor a 12 semanas es una DMPG. Si estuvieran entre 100 y 125 sería DMG.",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 180",
+  "year": 2017,
+  "codes": [
+   "1.02.1.003 [diab-09: Diabetes mellitus pregestacional]"
+  ],
+  "stem": "Una paciente embarazada de 9 semanas, se realiza una glicemia de ayuno en su control del embarazo, que resulta 130 mg/dl. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Glicemia normal para el embarazo | B) Intolerancia a la glucosa | C) Diabetes mellitus gestacional | D) Diabetes mellitus pregestacional | E) Prediabetes",
+  "correcta": "D",
+  "explicacion": "Es una mala pregunta, porque solo dan 1 glicemia, lo que no diagnostica nada. Sin embargo, se considera diabetes pregestacional que haya 2 glicemias de ayuno mayores o iguales a 126, a inicio del embarazo. Así mismo, se considera diabetes gestacional, si las dos glicemias son mayores o iguales a 100, pero menores a 126.",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 17",
+  "year": 2015,
+  "codes": [
+   "1.02.1.004 [diab-12: Diabetes Mellitus tipo 1]"
+  ],
+  "stem": "Un paciente de 12 años, diabético tipo 1, en tratamiento con una dosis de NPH matinal, despierta con glicemias de ayuno muy elevadas, asociadas a hipoglicemias frecuentes antes del almuerzo. Su hemoglobina glicosilada es de 11,7%. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Reemplazar el tratamiento por insulina glargina en la mañana | B) Dejar dos dosis de insulina NPH más tres refuerzos de insulina cristalina precomidas | C) Agregar insulina NPH nocturna | D) Reemplazar la insulina NPH matinal por insulina NPH nocturna | E) Agregar metformina al tratamiento",
+  "correcta": "B",
+  "explicacion": "La DM1 se debe tratar con esquema intensificado: idealmente insulina glargina basal, con refuerzos con insulina ultrarrápida. Se acepta también las dos dosis de NPH, con referzos con IC precomidas. Las demás opciones son claramente insuficientes.",
+  "conf": 0.78,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 113",
+  "year": 2019,
+  "codes": [
+   "1.02.1.004 [diab-12: Diabetes Mellitus tipo 1]"
+  ],
+  "stem": "Una paciente de 36 años, hipotiroidea y con antecedente de vitíligo fue diagnosticada de diabetes hace un año. Está en tratamiento con 2 gramos de metforminal al día y 20 mg de glibenclamida al día, más dieta. Su hemoglobina glicosilada es de 8,5% y su glicemia de ayuno resulta 196 mg/dl. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Diabetes mellitus 1 - LADA | B) Diabetes mellitus Mody | C) Diabetes mellitus secundaria | D) Diabetes mellitus 2 con tendencia a la cetosis | E) Diabetes mellitus controlada",
+  "correcta": "A",
+  "explicacion": "Tanto por los antecedentes de autoinmunidad, como por el mal control metabólico con altas dosis de HGO, se trata de una diabetes LADA (autoinmune del adulto). Además, tiene un síndrome poliglandular (reacción autoinmune contra múltiples glándulas).",
+  "conf": 0.7,
+  "alertas": [
+   "explicacion_de_otro_tema"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 34",
+  "year": 2013,
+  "codes": [
+   "1.02.1.004 [diab-12: Diabetes Mellitus tipo 1]"
+  ],
+  "stem": "Una paciente de 40 años, con antecedente de hipotiroidismo desde la adolescencia, vitíligo y diabetes diagnosticada hace un año, en tratamiento con régimen oral, acude a control con glicemia de ayuno en 250 mg/dL y hemoglobina glicosilada en 9,0%. El diagnóstico más probable es:",
+  "options": "A) Diabetes mellitus tipo 1 | B) Diabetes mellitus tipo 2 | C) Diabetes mellitus autoinmune | D) Hipopituitarismo autoinmune | E) Neoplasia endocrina múltiple tipo 1",
+  "correcta": "C",
+  "explicacion": "El diagnóstico es una diabetes LADA, que si bien es igual a la DM1, tiene un nombre distinto. Orientan el vitíligo, el hipotiroidismo (autoinmunes ambos) y la falta de respuesta.",
+  "conf": 0.68,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 16",
+  "year": 2015,
+  "codes": [
+   "1.02.1.004 [diab-12: Diabetes Mellitus tipo 1]"
+  ],
+  "stem": "Una paciente de 50 años, con diagnóstico de artritis reumatoide, en tratamiento con prednisona 15 mg/día, presenta glicemia de ayuno de 115, y glicemias prealmuerzo y precena de 230 y 295 mg/dl respectivamente. ¿Cuál es el mejor tratamiento para esta paciente?",
+  "options": "A) Dieta y ejercicio | B) Metformina | C) Glibenclamida | D) Pioglitazona | E) Insulina",
+  "correcta": "E",
+  "explicacion": "Probable diabetes LADA por el antecedente de AR y por la severidad. Se trata con insulina, igual a DM1. No parece una DM por corticoides.",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2018 · Pregunta 17",
+  "year": 2018,
+  "codes": [
+   "1.02.1.005 [diab-13: Diabetes mellitus tipo 2]"
+  ],
+  "stem": "Un hombre de 33 años, obeso, consulta por polidipsia y baja de peso de 6 kilogramos, en los últimos dos meses. Su examen físico no aporta mayor información. Se solicitan exámenes, entre los que destacan glicemia de ayuno de 245 mg/dl y hemoglobina glicosilada: 9,2%. El tratamiento inicial más adecuado es:",
+  "options": "A) Metformina | B) Sitagliptina | C) Insulina | D) Liraglutide | E) Glibenclamida",
+  "correcta": "C",
+  "explicacion": "Tanto por los síntomas de diabetes (baja de peso y polidipsia), como por la HbA1c mayor a 9%, está indicada la insulina.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2018 · Pregunta 107",
+  "year": 2018,
+  "codes": [
+   "1.02.1.005 [diab-13: Diabetes mellitus tipo 2]"
+  ],
+  "stem": "Un paciente de 72 años, con antecedente de un infarto miocárdico, hace 2 meses. Durante la hospitalización, se diagnosticó diabetes mellitus, iniciándose metformina 850 mg cada 12 horas. Sin embargo, desde entonces ha presentado diarrea. Sus glicemias de ayuno son cercanas a 140 mg/dl y su hemoglobina glicosilada resulta 8,2%. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Reemplazar la metformina por glibenclamida | B) Agregar insulina NPH | C) Reemplazar el tratamiento por metformina 750 mg XR | D) Reemplazar la metformina por sitagliptina | E) Aumentar la dosis de metformina",
+  "correcta": "D",
+  "explicacion": "Tiene efectos adversos, por lo que se debe suspender la metformina y cambiar a sitagliptina (por lo frágil: adulto mayor con infarto reciente, se prefiere la sitagliptina sobre la glibenclamida). No tenía indicaciones evidentes de insulina.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 105",
+  "year": 2017,
+  "codes": [
+   "1.02.1.005 [diab-13: Diabetes mellitus tipo 2]"
+  ],
+  "stem": "Un paciente de 59 años, con diagnóstico de diabetes mellitus tipo 2, en tratamiento con metformina 850mg dos veces al día y glibenclamida 5mg cada 12 horas, se realiza exámenes de control entre los que destaca una creatinina de 1,0 mg/dL y una hemoglo- bina glicosilada de 6,9%. Su examen físico no muestra alteraciones. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Suspender la glibenclamida | B) Aumentar dosis de glibenclamida | C) Suspender metformina | D) Aumentar dosis de metformina | E) Mantener el tratamiento sin cambios",
+  "correcta": "E",
+  "explicacion": "Si la hemoglobina glicosilada está bajo 7%, no es necesario hacer cambios en el tratamiento hipoglicemiante, aunque no sea el óptimo.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 132",
+  "year": 2019,
+  "codes": [
+   "1.02.1.005 [diab-13: Diabetes mellitus tipo 2]"
+  ],
+  "stem": "Un paciente de 45 años se realiza glicemias de ayuno que resultan 128 y 136 mg/dl. Se solicita hemoglobina glicosilada, que resulta 7,2%. ¿Cuál es el tratamiento de elección para iniciar el manejo de este paciente?",
+  "options": "A) Glibenclamida | B) Metformina | C) Pioglitazona | D) Sitagliptina | E) Repaglinida",
+  "correcta": "B",
+  "explicacion": "Tiene diagnóstico de diabetes (dos glicemias mayores o iguales a 126). Por la edad y por no tener mayores antecedentes, lo más probable es que sea tipo 2. Por no tener indicaciones de insulina (ej. HbA1c mayor a 9%), se debe iniciar con metformina.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 24",
+  "year": 2019,
+  "codes": [
+   "1.02.1.005 [diab-13: Diabetes mellitus tipo 2]"
+  ],
+  "stem": "Un paciente de 81 años, con antecedente de diabetes, en tratamiento con metformina 850 al día, se realiza exámenes de control, entre los que destaca una hemoglobina A1c de 7,5%. La conducta más adecuada es:",
+  "options": "A) Mantener el tratamiento | B) Agregar glibenclamida | C) Subir la dosis de metformina | D) Agregar insulina | E) Agregar sitagliptina",
+  "correcta": "A",
+  "explicacion": "Conducta / Tratamiento indicado: **Mantener el tratamiento** (opción **A**). Recordar que en el mayor de 75 años el objetivo de la HbA1c es menor a 8%. Por tanto, está bien.. Objetivo general de HbA1c <7%. En adultos mayores frágiles, <8%. En jóvenes sin comorbilidades, <6.5%. De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2022 · Pregunta 162",
+  "year": 2022,
+  "codes": [
+   "1.02.1.005 [diab-13: Diabetes mellitus tipo 2]"
+  ],
+  "stem": "Un paciente de 45 años, presenta polidipsia y poliuria de 4 semanas de evolución, asociado a baja de peso de 4 kilogramos en un mes. Al examen físico, se observa obeso con IMC: 35 y con presencia de acantosis nigricans en el cuello, sin otras alteraciones. Se solicita glicemia de ayuno, que resulta 318 mg/dl.",
+  "options": "A) Iniciar dieta y metformina | B) Iniciar dieta y controlar | C) Solicitar test de tolerancia a la glucosa oral | D) Repetir la glicemia de ayuno | E) Iniciar insulina",
+  "correcta": "A",
+  "explicacion": "La alternativa correcta es la **A** (Iniciar dieta y metformina). El tratamiento de la diabetes mellitus tipo 2 se basa en un enfoque escalonado que comienza siempre con cambios en el estilo de vida (dieta y ejercicio) más metformina como fármaco de primera línea. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 33",
+  "year": 2013,
+  "codes": [
+   "1.02.1.005 [diab-13: Diabetes mellitus tipo 2]"
+  ],
+  "stem": "Un paciente de 17 años, obeso, se realiza chequeo con glicemia de ayuno que resulta en 130, por lo que se repite este examen obteniendo 137, no ha presentado síntomas. En el examen físico destaca presencia de acantosis nígricans en pliegue cervical y acrocordones. El diagnóstico más probable es:",
+  "options": "A) Diabetes mellitus tipo 1 | B) Diabetes mellitus tipo 2 | C) Diabetes mellitus autoinmune | D) Intolerancia a la glucosa | E) Glicemia de ayuno alterada",
+  "correcta": "B",
+  "explicacion": "Si bien es un adolescente, la presencia de acantosis nigricans es muy sugerente de RI y por tanto de DM2. La obesidad también orienta a DM2, pero recordar que no basta, ya que un niño obeso con diabetes probablemente es tipo 1. Además al no estar tan altas las glicemias hace pensar más en DM2, porque la DM1 suelen debutar bastante descompensados.",
+  "conf": 0.82,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 125",
+  "year": 2013,
+  "codes": [
+   "1.02.1.005 [diab-13: Diabetes mellitus tipo 2]"
+  ],
+  "stem": "Un paciente de 55 años, diabético e hipertenso, en tratamiento con metformina 2000mg al día, glibenclamida 15mg al día y enalapril 20mg al día, acude a control con exámenes, donde destaca glicemia de ayuno de 180mg/dL y hemoglobina glicosilada de 8,8%. Se ha mantenido sin síntomas y su examen físico es normal. La conducta más adecuada en este caso es:",
+  "options": "A) Aumentar dosis de glibenclamida | B) Aumentar dosis de metformina | C) Iniciar insulina | D) Reemplazar metformina con rosiglitazona | E) Reemplazar glibenclamida con sitagliptina",
+  "correcta": "C",
+  "explicacion": "Pregunta muy capciosa: Aún se puede elevar algo la GBC (a 20) y la MTF (a 3.000), pero probablemente tendrá poco efecto, para lo mal controlado que está. Su HbA1c es 8,8%, por lo que es poco probable que baje a 7%, con esas medidas. No estoy 100% seguro de esta respuesta, pero yo marcaría insulina sin dudarlo mucho.",
+  "conf": 0.82,
+  "alertas": [
+   "explicacion_de_otro_tema"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Enero 2023 · Pregunta 151",
+  "year": 2023,
+  "codes": [
+   "1.02.1.005 [diab-13: Diabetes mellitus tipo 2]"
+  ],
+  "stem": "Diabético en tratamiento con metformina, Hb1Ac >9%. ¿Cuál es el tratamiento más adecuado?",
+  "options": "A) Agregar glibenclamida 5 mg/día | B) Agregar sitagliptina 100 mg/día | C) Agregar liraglutida 1,2 mg SC | D) Aumentar metformina al máximo | E) Insulina NPH",
+  "correcta": "E",
+  "explicacion": "Conducta / Tratamiento indicado: **Insulina NPH** (opción **E**). Insulina NPH. Frente a descompensación metabólica aguda, cetoacidosis o hiperglicemia severa refractaria, la insulinoterapia endovenosa continua con monitorización seriada de electrolitos (especialmente potasio) es la piedra angular del manejo.",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 118",
+  "year": 2021,
+  "codes": [
+   "1.02.1.005 [diab-13: Diabetes mellitus tipo 2]"
+  ],
+  "stem": "Un paciente de 85 años, con antecedente de deterioro funcional y cognitivo inicial y diagnóstico de diabetes mellitus tipo 2, en tratamiento con metformina 850 mg dos veces al día y glibenclamida 5 mg cada 12 horas, se realiza exámenes de control entre los que destaca una creatinina de 1,0 mg/dL y una hemoglobina glicosilada de 6,9%. Su examen físico no muestra alteraciones. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Suspender la glibenclamida | B) Disminuir la dosis de glibenclamida a 5 mg una vez al día | C) Suspender metformina | D) Disminuir dosis de metformina | E) Mantener el tratamiento sin cambios",
+  "correcta": "A",
+  "explicacion": "Diagnóstico: **Suspender la glibenclamida** (opción **A**). La glicemia de las 3 am está determinada por la insulina nocturna, cuyo peak de acción es a las 5. El tratamiento de la diabetes mellitus tipo 2 se basa en un enfoque escalonado que comienza siempre con cambios en el estilo de vida (dieta y ejercicio) más metformina como fármaco de primera línea. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2022 · Pregunta 149",
+  "year": 2022,
+  "codes": [
+   "1.02.1.005 [diab-13: Diabetes mellitus tipo 2]"
+  ],
+  "stem": "Un paciente de 82 años, diabético tipo 2, en tratamiento con metformina y dieta, acude a control, con glicemia de ayuno de 355 mg/dl, hemoglobina glicosilada de 9,5%. ¿Cuál es la conducta más adecuada para el manejo de su diabetes?",
+  "options": "A) Agregar glibenclamida | B) Agregar sitagliptina | C) Inicial insulina NPH | D) Iniciar insulina glargina | E) Iniciar liraglutide",
+  "correcta": "C",
+  "explicacion": "Conducta / Tratamiento indicado: **Inicial insulina NPH** (opción **C**). Frente a descompensación metabólica aguda, cetoacidosis o hiperglicemia severa refractaria, la insulinoterapia endovenosa continua con monitorización seriada de electrolitos (especialmente potasio) es la piedra angular del manejo.",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Enero 2023 · Pregunta 150",
+  "year": 2023,
+  "codes": [
+   "1.02.1.005 [diab-13: Diabetes mellitus tipo 2]"
+  ],
+  "stem": "Paciente con polidipsia, poliuria, baja de peso y glicemia >300 mg/dL. ¿Cuál es el tratamiento inicial más adecuado?",
+  "options": "A) Metformina 850 mg cada 12 horas | B) Iniciar insulina | C) Empagliflozina 10 mg/día | D) Liraglutida 0,6 mg subcutáneo | E) Sitagliptina 100 mg/día",
+  "correcta": "B",
+  "explicacion": "Conducta / Tratamiento indicado: **Iniciar insulina** (opción **B**). Iniciar insulina. Frente a descompensación metabólica aguda, cetoacidosis o hiperglicemia severa refractaria, la insulinoterapia endovenosa continua con monitorización seriada de electrolitos (especialmente potasio) es la piedra angular del manejo.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2025 · Pregunta 161",
+  "year": 2025,
+  "codes": [
+   "1.02.1.005 [diab-13: Diabetes mellitus tipo 2]"
+  ],
+  "stem": "Paciente de 65 años con DM2 en tratamiento con insulina NPH nocturna. Presenta hiperglicemias en ayuno de 200-240 mg/dL. Glicemias a las 3 AM: 65 mg/dL. ¿Cuál es el ajuste más adecuado?",
+  "options": "A) Agregar glibenclamida | B) Agregar sitagliptina | C) Agregar pioglitazona | D) Reducir dosis de insulina NPH nocturna | E) Cambiar a insulina basada en metformina",
+  "correcta": "D",
+  "explicacion": "Fenómeno de Somogyi: hipoglicemia nocturna (3 AM) → hiperglicemia de rebote en ayuno. La glicemia de 65 mg/dL a las 3 AM confirma hipoglicemia nocturna. La solución es REDUCIR la insulina NPH, no aumentarla. Confirmar midiendo glicemia a las 3 AM.",
+  "conf": 0.5,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 141",
+  "year": 2019,
+  "codes": [
+   "1.02.1.005 [diab-13: Diabetes mellitus tipo 2]"
+  ],
+  "stem": "Un paciente con antecedente de una angioplastia coronaria hace 6 meses, diabético e hipertenso, en tratamiento con metformina 2 gramos al día, presenta HbA1c de 8,2% y glicemia de ayuno de 180 mg/dl. ¿Cuál es el tratamiento más adecuada?",
+  "options": "A) Agregar glibenclamida | B) Iniciar empaglifozina | C) Iniciar saxagliptina | D) Agregar insulina NPH nocturna | E) Iniciar pioglitazona",
+  "correcta": "B",
+  "explicacion": "Pregunta ultra específica, pero si alguien tiene máximo riesgo cardiovascular, por enfermedad coronaria (además de la diabetes), los hipoglicemiantes de elección para agregarle a la metformina son la empaglifozina y el liraglutide, es decir, los análogos de las incretinas. Si no lo sabían, pues ahora ya lo saben.",
+  "conf": 0.5,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 94",
+  "year": 2017,
+  "codes": [
+   "1.02.1.005 [diab-13: Diabetes mellitus tipo 2]"
+  ],
+  "stem": "Un paciente 67 años, diabético en tratamiento con metformina 1,5 gramos al día, consulta por edema de extremidades inferiores asociado a orinas espumosas. Al exa- men físico se constata edema blando de extremidades inferiores. Se solicitan exámenes entre los que destaca una glicemia de ayuno de 215mg/dL, hemoglobina glicosilada de 12,5%, creatininemia 1,2mg/dL, proteinuria +++ y albuminemia 3,0g/dL. La conducta",
+  "options": "A) Aumentar dosis de metformina | B) Iniciar insulina NPH | C) Reemplezar la metformina por glimepiride | D) Agregar glibenclamida al tratamiento | E) Reemplazar la metformina por insulina cristalina",
+  "correcta": "B",
+  "explicacion": "Conducta / Tratamiento indicado: **Iniciar insulina NPH** (opción **B**). Tanto el síndrome nefrótico, como especialmente la HbA1c mayor a 9%, obligan a iniciar insulina.. Frente a descompensación metabólica aguda, cetoacidosis o hiperglicemia severa refractaria, la insulinoterapia endovenosa continua con monitorización seriada de electrolitos (especialmente potasio) es la piedra angular del manejo.",
+  "conf": 0.45,
+  "alertas": [
+   "enunciado_cortado_o_raro",
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2018 · Pregunta 114",
+  "year": 2018,
+  "codes": [
+   "1.02.1.005 [diab-13: Diabetes mellitus tipo 2]"
+  ],
+  "stem": "Pregunta 114 Sin contestar Puntúa como 1,00 Marcar pregunta Un paciente de 32 años, normopeso, diagnosticado de diabetes desde los 20 años, en tratamiento. Su padre, su hermano y su abuelo son diabéticos. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) DM tipo 1 | B) DM tipo 2 | C) DM LADA | D) DM Mody | E) DM mitocondrial",
+  "correcta": "D",
+  "explicacion": "La diabetes Mody se caracteriza por ser genética, produciendo resistencia a la insulina. Suele tener buen pronóstico. Las patologías mitocondriales se heredan por la madre a todos los hijos. La diabetes LADA por ser autoinmune no se repite tantas tan seguido en la familia, aunque sí hay un mayor riesgo.",
+  "conf": 0.3,
+  "alertas": [
+   "explicacion_de_otro_tema",
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2025 · Pregunta 24",
+  "year": 2025,
+  "codes": [
+   "1.02.1.006 [diab-13: Diabetes por corticoides]"
+  ],
+  "stem": "Mujer de 55 años con DM2 en tratamiento con metformina, requiere corticoterapia con prednisona 40 mg/día por enfermedad pulmonar. Sus glicemias de ayuno eran 130 mg/dL y post-prandiales suben a 280 mg/dL. ¿Cuál es el ajuste más adecuado?",
+  "options": "A) Iniciar insulina | B) Agregar metformina adicional | C) Pioglitazona | D) Glibenclamida | E) Sitagliptina",
+  "correcta": "A",
+  "explicacion": "Corticoides causan hiperglicemia postprandial marcada por resistencia a la insulina. La insulina es el tratamiento de elección en este contexto (flexibilidad de ajuste, control rápido). Los hipoglicemiantes orales no dan el control necesario con dosis altas de corticoides.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 106",
+  "year": 2024,
+  "codes": [
+   "1.02.1.006 [diab-13: Diabetes por corticoides]"
+  ],
+  "stem": "Asmática con crisis tratada con corticoides VO por 5 días, al 5to día se le solicita seguimiento con exámenes, presenta glicemia 130. Cuál es la conducta más apropiada",
+  "options": "A) Repetir glicemia en 1 semana | B) Pedir hemoglobina glicosilada | C) Solicitar PTGO | D) Hemograma y VHS | E) Ecografía",
+  "correcta": "B",
+  "explicacion": "Conducta / Tratamiento indicado: **Pedir hemoglobina glicosilada** (opción **B**). Según los consensos y guías clínicas del MINSAL, esta constituye la conducta estándar de primera línea recomendada para este nivel de atención.",
+  "conf": 0.8,
+  "alertas": [
+   "enunciado_cortado_o_raro"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2025 · Pregunta 93",
+  "year": 2025,
+  "codes": [
+   "1.02.1.006 [diab-13: Diabetes por corticoides]"
+  ],
+  "stem": "Un paciente de 35 años, con antecedente de obesidad y resistencia a la insulina, presenta una reacción alérgica severa relacionada con el uso de fármacos, por lo que es hospitalizado para manejo con soporte y corticoides sistémicos. Durante su hospitalización se realizan exámenes entre los que destaca glicemia de 180 mg/dL, que se mantiene en rangos similares en varias tomas. ¿Cuál es el examen de elección para confirmar el diagnóstico?",
+  "options": "A) Pép2do C | B) Test de tolerancia a la glucosa oral | C) Hemoglobina glicosilada | D) Índice de HOMA | E) Insulinemia postcarga de glucosa",
+  "correcta": "C",
+  "explicacion": "Si bien la regla general es que una glicemia mayor o igual a 126 se repite, esto cambia cuando hay un descompensante agudo (ej. infecciones, corticoides, la misma reacción alérgica), en que dio descompensante puede alterar tanto la glicemia, como la prueba de tolerancia a la glucosa. Por esto, en esos casos de elección es la hemoglobina glicosilada, que refleja las glicemias de los últimos 2 a 3 meses. El normal de la HbA1c es 4% a 6%. Desde 6,5% es diagnóstica de diabetes. Actualmente se considera un examen adecuado para el diagnóstico en pacientes estables también. Es el examen de elección para el seguimiento del control metabólico.",
+  "conf": 0.6,
+  "alertas": [
+   "texto_corrupto"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Enero 2023 · Pregunta 169",
+  "year": 2023,
+  "codes": [
+   "1.02.1.006 [diab-13: Diabetes por corticoides]"
+  ],
+  "stem": "Paciente hospitalizada con hidrocortisona endovenosa y glicemias elevadas persistentes. ¿Cuál es el examen para el diagnóstico?",
+  "options": "A) Glicemia en ayunas | B) Test de tolerancia oral a la glucosa | C) Insulinemia basal | D) Hemoglobina glicosilada (HbA1c) | E) Péptido C",
+  "correcta": "D",
+  "explicacion": "Diagnóstico: **Hemoglobina glicosilada (HbA1c)** (opción **D**). Hemoglobina glicosilada (HbA1c). El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL).",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2022 · Pregunta 95",
+  "year": 2022,
+  "codes": [
+   "1.02.1.006 [diab-13: Diabetes por corticoides]"
+  ],
+  "stem": "Un paciente de 53 años es hospitalizado por una reacción alérgica grave, recibiendo adrenalina e hidrocortisona endovenosa. Durante la hospitalización se realizan múltiples exámenes, entre los que destacan glicemias de ayuno muy elevadas, en rangos entre 160 y 180 mg/dl. ¿Qué examen es más adecuado para determinar la etiología de esta alteración?",
+  "options": "A) Péptido C | B) Anticuerpos anti GAD | C) Hemoglobina glicosilada | D) Test de tolerancia a la glucosa oral | E) Tomografía axial computada pancreática",
+  "correcta": "D",
+  "explicacion": "La alternativa correcta es la **D** (Test de tolerancia a la glucosa oral). Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh. Las opciones alternativas (Péptido C, Anticuerpos anti GAD) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente.",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Enero 2023 · Pregunta 152",
+  "year": 2023,
+  "codes": [
+   "1.02.1.007 [diab-24: Dislipidemias]"
+  ],
+  "stem": "Diabético con HbA1c en buen rango, LDL 135 mg/dL y TG 330 mg/dL. ¿Cuál es el tratamiento inicial más adecuado?",
+  "options": "A) Fenofibrato | B) Gemfibrozilo | C) Atorvastatina | D) Omega-3 en dosis farmacológica | E) Ezetimibe",
+  "correcta": "C",
+  "explicacion": "Conducta / Tratamiento indicado: **Atorvastatina** (opción **C**). Atorvastatina. El LDL es el principal objetivo terapéutico en dislipidemias De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.65,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 134",
+  "year": 2019,
+  "codes": [
+   "1.02.1.007 [diab-24: Dislipidemias]"
+  ],
+  "stem": "Un paciente de 35 años, en tratamiento con atorvastatina, por hipercolesterolemia y cuyo padre tuvo un infarto a los 40 años, presentó mialgias y artralgias, por lo que decidió suspender el medicamento, sin indicación médica. Se controla con exámenes, entre los que destaca colesterol total: 354 mg/dl, colesterol LDL: 244 mg/dl, colesterol HDL: 70 mg/dl, triglicéridos: 198 mg/dl, creatinfosfoquinasa: 254 UI/L. El tratamiento más adecuado es:",
+  "options": "A) Colestiramina | B) Dieta estricta | C) Rosuvastatina | D) Ezetimibe | E) Fenofibrato",
+  "correcta": "C",
+  "explicacion": "Si bien tiene todos los lípidos malos, tiene una hipercolesterolemia LDL muy elevada, por lo que requiere estatinas. Las mialgias, por lo general se estudian con CK. Si están normales, se evalúa mantener el tratamiento. Si están elevadas, se debe evaluar el riesgo / beneficio de la estatina. La rosuvastatina es de bajo riesgo de mialgias, al igual que la atorvastatina, por lo que, de las opciones, parece la más correcta, dado que los demás fármacos no son buenos para la hipercolesterolemia LDL.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 41",
+  "year": 2017,
+  "codes": [
+   "1.02.1.007 [diab-24: Dislipidemias]"
+  ],
+  "stem": "Un paciente dislipidémico, está en tratamiento con atorvastatina 10 mg/día y se realiza un perfil lipídico de control con colesterol total: 183 mg/dl, colesterol HDL: 32 triglicéridos: 860 mg/dl. ¿Cuál es la dosis más adecuada?",
+  "options": "A) Subir la dosis de la atorvastatina a 40 mg/día | B) Cambiar la atorvastatina por rosivastatina | C) Agregar gemfobrozilo 900 mg/día | D) Agregar ezetimibe al tratamiento | E) Reemplazar la atorvastatina por gemfibrozilo 900 mg/día",
+  "correcta": "E",
+  "explicacion": "La prioridad son los triglicéridos, por estar mayores a 500 mg/dl. No se pueden mezclar los fibratos con las estatinas, por el riesgo de rabdomiolisis (solo lo puede hacer el especialista).",
+  "conf": 0.55,
+  "alertas": [
+   "explicacion_de_otro_tema"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 110",
+  "year": 2013,
+  "codes": [
+   "1.02.1.007 [diab-24: Dislipidemias]"
+  ],
+  "stem": "Un paciente de 40 años de edad, con antecedentes de diabetes mellitus tipo 2 e hipertensión, asintomático, acude a control con perfil lipídico que muestra colesterol total 208, LDL 127, HDL 35, triglicéridos 230. El fármaco de elección para el tratamiento en este caso es:",
+  "options": "A) Ácido nicotínico | B) Gemfibrozilo | C) Ácidos grasos omega 3 | D) Colestiramina | E) Atorvastatina",
+  "correcta": "E",
+  "explicacion": "Por ser diabético, debe exigirse un LDL menor a 70. El LDL es la prioridad, si los TG están menores a 500. Si los TG hubiesen sido mayores a 500, ahí hubiese sido gemfibrozilo.",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 89",
+  "year": 2021,
+  "codes": [
+   "1.02.1.007 [diab-24: Dislipidemias]"
+  ],
+  "stem": "Paciente de 62 años, diabético diagnosticado hace 3 meses, en tratamiento con hipoglicemiantes orales, como parte de un chequeo se realiza exámenes de chequeo donde se aprecia creatinina de 0,9 mg/dL, hemoglobina glicosilada menor a 7% y un perfil lipídico que muestra triglicéridos: 250 mg/dL, colesterol total: 253 mg/dL, HDL: 51 mg/dL, LDL: 152 mg/dL. No presenta síntomas. El tratamiento más adecuado para disminuir su riesgo cardiovascular es:",
+  "options": "A) Fibratos | B) Estatinas | C) Dieta baja en ácidos grasos saturados | D) Ácido nicotínico | E) Ezetimibe",
+  "correcta": "B",
+  "explicacion": "Por ser diabético, su objetivo de LDL es menor a 100 o incluso menor a 70 según varias guías internacionales, por lo que está alto y se deben iniciar estatinas. Ademés, los TG está sobre 150, pero al ser menores a 500, no son la prioridad, sino que el LDL Lo es.",
+  "conf": 0.5,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 8",
+  "year": 2017,
+  "codes": [
+   "1.02.1.007 [diab-24: Dislipidemias]"
+  ],
+  "stem": "Paciente de 62 años, diabético diagnosticado hace 5 años en tratamiento con hipogli- cemiantes orales, como parte de un chequeo se realiza exámenes de chequeo donde se aprecia creatinina de 0,9mg/dL, hemoglobina glicosilada menor a 7% y un perfil lipídi- co que muestra triglicéridos de 250 mg/dL, colesterol total de 258 mg/dL, HDL 52 mg/dL, LDL 156 mg/dL. No presenta síntomas. El tratamiento más adecuado para disminuir su riesgo cardiovascular es:",
+  "options": "A) Fibratos | B) Estatinas | C) Dieta baja en ácidos grasos saturados | D) Ácido nicotínico | E) Ezetimibe",
+  "correcta": "B",
+  "explicacion": "Por ser diabético, se exige LDL menor a 100. Dado que los triglicéridos están meno- res a 500, el LDL es la prioridad.",
+  "conf": 0.5,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2025 · Pregunta 37",
+  "year": 2025,
+  "codes": [
+   "1.02.1.009 [diab-20: Insuficiencia renal y diabetes]"
+  ],
+  "stem": "Una paciente de 67 años, monorrena, es diagnosticada recientemente de diabetes mellitus tipo 2. Sus exámenes muestran HbA1c de 8,5%, glicemia de ayuno de 132 mg/dL, creatinina de 4,1 mg/dL, nitrógeno ureico de 68 mg/dL, potasio plasmático de 4,2 mEq/L y un clearance de creatinina estimado de 12 mL/min. Presenta una relación albuminuria/creatinuria de 1.100 mg/g. ¿Qué fármaco es el más adecuado para iniciar el tratamiento?",
+  "options": "A) Meeormina | B) Glibenclamida | C) Vildaglip2na | D) Dapagliflozina | E) Semaglu2da",
+  "correcta": "E",
+  "explicacion": "Por tener HbA1c mayor a 7%, se debe avanzar en el tratamiento. Además, por la IRC están contraindicados la mayoría de los hipoglicemiantes orales, siendo indicación de insulina. Como alternativa modera están los agonistas GLP-1, como la semaglutida, liraglutida y dulaglutida. Los inhibidores SGLT-2, como la empaglifozina y la dapaglifozina, en cambio, requieren de una función renal adecuada para funcionar, ya que justamente bajan los niveles de azúcar, mediante glucosuria. Ambos, GLP- 1 y SGLT-2 son útiles en riesgo cardiovascular elevado, siendo una alternativa a la insulina.",
+  "conf": 0.75,
+  "alertas": [
+   "texto_corrupto",
+   "explicacion_de_otro_tema"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 18",
+  "year": 2015,
+  "codes": [
+   "1.02.1.009 [diab-20: Insuficiencia renal y diabetes]"
+  ],
+  "stem": "Un paciente de 60 años, diabético tipo 2, en tratamiento con 500 mg de metformina al día, acude a control, con hemoglobina glicosilada de 8,8%, proteinuria (+) y claerence de creatinina de 50 ml/min. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Subir la dosis de metformina | B) Agregar glibenclamida | C) Agregar insulina NPH nocturna | D) Tratar con mezcla de insulinas | E) Agregar glipizida al tratamiento",
+  "correcta": "D",
+  "explicacion": "La insuficiencia renal contraindica los hipoglicemiantes orales: se debe dejar insulina. El tratamiento que tenía era pésimo.",
+  "conf": 0.72,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2025 · Pregunta 122",
+  "year": 2025,
+  "codes": [
+   "1.02.1.009 [diab-20: Insuficiencia renal y diabetes]"
+  ],
+  "stem": "Un paciente de 78 años, diabético tipo 2 e hipertenso, sin controles hace 5 años, en tratamiento con enalapril, hidroclorotiazida, amlodipino y me{ormina, Acude a control, con exámenes de laboratorio. Su presión arterial es de 152/96 mmHg y su frecuencia cardíaca de 68 latidos por minuto. Su examen cardiopulmonar y abdominal es normal. Entre sus exámenes destaca hemoglobina glicosilada: 6%, creatinina plasmática: 3,8 mg/dL, natremia: 140 mEq/L y potasemia: 4,8 mEq/L. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Mantener el tratamiento | B) Suspender la meeormina | C) Suspender el diuré2co | D) Suspender el enalapril | E) Suspender el amlodipino",
+  "correcta": "B",
+  "explicacion": "Hay dos formas de enfrentar esta pregunta. 1. Paciente mayor de 75 años, el objetivo de hemoglobina glicosilada es menor a 8%, por tanto, está sobretratado y se puede suspender la me~ormina. 2. Tiene una insuficiencia renal crónica avanzada (creatinina 3,8 mg/dl equivale a un clearence bajo 15 ml/min), por lo que está contraindicada la me~ormina. Los demás fármacos se pueden mantener, especialmente tomando en cuenta que su presión arterial sigue elevada (objetivo en mayores de 75 años suele ser <140-150/90 mmHg, en la mayoría de las fuentes) y que los electrolitos están normales.",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 78",
+  "year": 2013,
+  "codes": [
+   "1.02.1.009 [diab-20: Insuficiencia renal y diabetes]"
+  ],
+  "stem": "Un paciente de 45 años, diagnosticado de diabetes hace un mes, se le indicó tratamiento con metformina, la cual suspendió por que le producía diarrea, desde entonces ha estado asintomático. Acude a control con exámenes donde destaca hemoglobina glicosilada de 8,5%, glicemia de ayuno 180mg/dL, creatinina de 1,5 mg/dL. La conducta más adecuada en este caso es:",
+  "options": "A) Indicar Insulina | B) Indicar glibenclamida | C) Indicar rosiglitazona | D) Indicar acarbosa | E) Indicar metformina de acción prolongada",
+  "correcta": "A",
+  "explicacion": "Conducta / Tratamiento indicado: **Indicar Insulina** (opción **A**). Por la crea de 1,5. Frente a descompensación metabólica aguda, cetoacidosis o hiperglicemia severa refractaria, la insulinoterapia endovenosa continua con monitorización seriada de electrolitos (especialmente potasio) es la piedra angular del manejo.",
+  "conf": 0.5,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 20",
+  "year": 2015,
+  "codes": [
+   "1.02.1.012 [diab-25: Obesidad]"
+  ],
+  "stem": "Un adolescente de 16 años, con IMC de 33, se realiza una glicemia de ayuno, que resulta 96 mg/dl, más una insulina basal que resulta 23 UI/L. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Iniciar insulina | B) Iniciar dieta y ejercicio | C) Iniciar metformina | D) Solicitar un test de tolerancia a la glucosa | E) Iniciar metformina más glibenclamida",
+  "correcta": "B",
+  "explicacion": "Tiene obesidad y resistencia a la insulina (HOMA = 96 x 23 / 405 = 5,5). No tiene ni diabetes, ni intolerancia a la glucosa, ni glicemia alterada de ayuno, así que solo se deja dieta y ejercicio.",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 93",
+  "year": 2024,
+  "codes": [
+   "1.02.1.014 [orl-03: Pié diabético y otras infecciones en diabetes]"
+  ],
+  "stem": "DM con polineuropatía, dedos en garra, hiperqueratosis, con test de monofilamento alterado, pulsos disminuidos, conducta:",
+  "options": "A) Mejorar calzado | B) Electromiografia, realizar test de nuevo en unos meses (esta era RX para descartar osteomielitis) | C) Observación clínica | D) Derivar a urgencia | E) Control ambulatorio",
+  "correcta": "A",
+  "explicacion": "Conducta / Tratamiento indicado: **Mejorar calzado** (opción **A**). El tratamiento incluye descarga, debridamiento, antibióticos y control glicémico De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 15",
+  "year": 2016,
+  "codes": [
+   "1.02.1.014 [orl-03: Pié diabético y otras infecciones en diabetes]"
+  ],
+  "stem": "Paciente masculino, de 50 años de edad, consulta por prurito intenso en el glande y al examen físico se constata eritema y edema en el glande y el prepucio, asociado a un anillo fibrótico en el prepucio. Refiere que ha tenido varios episodios similares antes. ¿A qué enfermedad se puede atribuir el cuadro?",
+  "options": "A) Alcoholismo | B) Diabetes mellitus | C) VIH | D) Esclerodermia | E) Lupus",
+  "correcta": "B",
+  "explicacion": "La alternativa correcta es la **B** (Diabetes mellitus). Las balanopostitis candidiásicas se asocian a diabetes. También las candidiasis genitales femeninas.. El pie diabético es una de las complicaciones más devastadoras de la diabetes y la principal causa de amputación no traumática de extremidades inferiores. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 74",
+  "year": 2017,
+  "codes": [
+   "1.02.1.014 [orl-03: Pié diabético y otras infecciones en diabetes]"
+  ],
+  "stem": "Un paciente de 60 años consulta por eritema y prurito en el glande y el prepucio. Al examen físico se constatan signos inflamatorios en dicha zona. Además de tratar la enfermedad descrita, ¿qué enfermedad sistémica se debe descartar?",
+  "options": "A) Cáncer | B) Daño hepático crónico | C) Diabetes | D) Lupus | E) Insuficiencia renal",
+  "correcta": "C",
+  "explicacion": "La alternativa correcta es la **C** (Diabetes). La balanopostitis (en especial la candidiásica) se asocia a diabetes.. El pie diabético es una de las complicaciones más devastadoras de la diabetes y la principal causa de amputación no traumática de extremidades inferiores. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.5,
+  "alertas": [
+   "explicacion_de_otro_tema"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2025 · Pregunta 124",
+  "year": 2025,
+  "codes": [
+   "1.02.1.015 [oftal-12: Retinopatía diabética]"
+  ],
+  "stem": "pte diabetico con fondo de ojo alterado tenia buen control metabolico, cual era la medida mas adecuada",
+  "options": "A) Pioglitazona | B) Sitagliptina | C) Insulina NPH | D) Glibenclamida | E) subir metformina??",
+  "correcta": "D",
+  "explicacion": "La alternativa correcta es la **D** (Glibenclamida). subir metformina??. La retinopatía diabética es la principal causa de ceguera adquirida en adultos en edad laboral. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.85,
+  "alertas": [
+   "enunciado_cortado_o_raro"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 42",
+  "year": 2017,
+  "codes": [
+   "1.02.1.016 [diab-25: Síndrome metabólico]"
+  ],
+  "stem": "Un paciente de 30 años, con IMC: 30 Kg/m2 consulta por hoperpigmentación de la piel de las axilas y el cuello, asociado a aparición de acrocórdones en plieguen inglinales, cervicales y en las axilar. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Enfermedad de Cushing | B) Hipotiroidismo | C) Síndrome paraneoplásico | D) Insuficiencia suprarrenal | E) Resistencia a la insulina",
+  "correcta": "E",
+  "explicacion": "Diagnóstico: **Resistencia a la insulina** (opción **E**). Tiene acantosis nigricans, clásico de la RI.. El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL).",
+  "conf": 0.4,
+  "alertas": [
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 23",
+  "year": 2021,
+  "codes": [
+   "1.02.1.017 [endo-19: Síndromes carenciales de vitaminas y minerales]"
+  ],
+  "stem": "Una paciente de 64 años, con antecedente de by-pass gástrico, por obesidad mórbida, presenta un cuadro de dificultad a la marcha, asociado a astenia y malestar general. En sus exámenes destaca anemia macrocítica, plaquetas: 100.000 por mm3, blancos: 6.000 por mm3, ferritina 56 ug/dl y saturación de transferrina de 18%. ¿El déficit de qué nutriente explica mejor este caso?",
+  "options": "A) Fierro | B) Ácido fólico | C) Cianocobalamina | D) Zinc | E) Tiamina",
+  "correcta": "C",
+  "explicacion": "Tiene un déficit de B12, tanto por el antecedente de by-pass como por la macrocitosis y plaquetopenia. La ferritina está normal (VN: 15 a 300).",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 25",
+  "year": 2019,
+  "codes": [
+   "1.02.1.017 [endo-19: Síndromes carenciales de vitaminas y minerales]"
+  ],
+  "stem": "Una paciente de 34 años, con antecedente de by pass gástrico hace 2 años, por obesidad mórbida, consulta por astenia, disnea y marcada fatigabilidad y debilidad de extremidades inferiores. Al examen físico tiene paresia M4 de ambas extremidades inferiores, con disminución de la sensibilidad distal e hiporreflexia. Se solicita hemograma, que muestra hemoglobina: 7,0 g/dl, hematocrito: 20%, glóbulos blancos: 3.100 por mm3 y plaquetas: 93.000 por mm3. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Desnutrición proteica | B) Déficit de zinc | C) Déficit de fosfatos | D) Déficit de niacina | E) Déficit de cianocobalamina",
+  "correcta": "E",
+  "explicacion": "Es un déficit de B12 clásico. Recordar que el déficit de B6 (piridoxina) es el causado por el consumo crónico de isoniazida (ej. TBC o PFX TBC) y se presenta como una polineuropatía.",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 11",
+  "year": 2015,
+  "codes": [
+   "1.02.1.017 [endo-19: Síndromes carenciales de vitaminas y minerales]"
+  ],
+  "stem": "Una paciente de 25 años, vegetariana estricta, con antecedente de un hijo con mielomeningocele, presenta anemia. ¿Cuál es la indicación más adecuada?",
+  "options": "A) Vitamina B12 | B) Folatos | C) Tiamina | D) Ácidos grasos omega 3 | E) Aminoácidos esenciales",
+  "correcta": "B",
+  "explicacion": "Por ser vegetariana también debe recibir B12, pero los folatos son lo más importante por el mielomeningocele (defecto del tubo neural)",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2018 · Pregunta 16",
+  "year": 2018,
+  "codes": [
+   "1.02.2.002 [diab-19: Cetoacidosis]"
+  ],
+  "stem": "Un joven de 14 años, deportista de alto rendimiento, consulta por un cuadro de poldipsia y poliuria de 3 semanas de evolución, al que hace 7 días se agrega astenia, náuseas y malestar general. Refiere marcada debilidad, después de realizar ejercicio. Se solicitan exámenes, en las que destaca glicemia: 312 mg/dl, Na+: 132 mEq/L, K+: 5,0 mEq/L, pH sanguíneo: 7,26, bicarbonato plasmático: 11 mEq/L, exceso de base: -13. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Hiperglicemia secundaria al ejercicio | B) Cetoacidosis diabética | C) Debut de diabetes tipo 2 | D) Diabetes insípida descompensada | E) Coma hiperosmolar",
+  "correcta": "B",
+  "explicacion": "Diagnóstico: **Cetoacidosis diabética** (opción **B**). Es una cetoacidosis diabética clásica (acidosis metabólica y diabetes tipo 1).. Esta clase aborda la interpretación de la gasometría arterial enfocada en la función respiratoria, cubriendo tres parámetros fundamentales: la presión arterial de oxígeno (PaO2), la presión arterial de CO2 (PaCO2) y la diferencia alvéolo-arterial de oxígeno. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 101",
+  "year": 2024,
+  "codes": [
+   "1.02.2.002 [diab-19: Cetoacidosis]"
+  ],
+  "stem": "Cetoacidosis cetonas (+) pH 7.1 K 3 conducta inicial hidratar SF",
+  "options": "A) Observación clínica | B) Derivar a urgencia | C) Control ambulatorio | D) Solicitar exámenes complementarios | E) Hospitalizar para estudio",
+  "correcta": "A",
+  "explicacion": "Conducta / Tratamiento indicado: **Observación clínica** (opción **A**). PaO2 normal: 75-100 mmHg. Hipoxemia: < 75 mmHg. Insuficiencia respiratoria: < 60 mmHg (equivale aprox. a SatO2 90%). De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.9,
+  "alertas": null
+ }
+]

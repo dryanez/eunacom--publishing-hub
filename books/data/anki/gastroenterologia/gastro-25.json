@@ -1,0 +1,415 @@
+{
+  "classId": "gastro-25",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El principal factor de riesgo de la enterocolitis necrotizante es la {{c1::prematurez}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Enterocolitis necrotizante",
+      "repaso": false
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tríada de la enterocolitis necrotizante: retención gástrica/vómitos + {{c1::distensión abdominal}} + {{c2::hematoquecia}}.",
+      "extra": "En un prematuro, en los primeros días-semanas.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 30"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hallazgo patognomónico de la enterocolitis necrotizante en la radiografía de abdomen: {{c1::neumatosis intestinal}} (aire en la pared).",
+      "extra": "El examen inicial es la radiografía simple de abdomen; también puede verse gas portal.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 30",
+        "EUNACOM Diciembre 2024 · Pregunta 120"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la enterocolitis necrotizante, el {{c1::neumoperitoneo}} indica perforación y es indicación de cirugía.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Enterocolitis necrotizante",
+      "repaso": false
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de la enterocolitis necrotizante: régimen cero + nutrición parenteral + {{c1::antibióticos EV de amplio espectro}}.",
+      "extra": "Más sonda para descompresión; cirugía solo si perfora, hay necrosis o falla médica.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 146"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La invaginación intestinal es típica del lactante de {{c1::6–12 meses}}, previamente sano.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla",
+      "repaso": false
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lactante con crisis de llanto con flexión de piernas que van y vienen y deposiciones en {{c1::\"mermelada de grosella\"}}: invaginación intestinal.",
+      "extra": "Sangre y moco; a veces masa \"en salchicha\".",
+      "origen": "clase:2",
+      "fuente": "Clase · Invaginación",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 77"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Examen diagnóstico de la invaginación intestinal: {{c1::ecografía abdominal}} (signo de la dona o diana).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Invaginación",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 42"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tratamiento de primera línea de la invaginación intestinal estable: {{c1::reducción neumática (o hidrostática) guiada por imagen}}.",
+      "extra": "Cirugía si falla, hay perforación o causa anatómica.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz",
+      "repaso": true
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño pequeño con hemorragia digestiva baja abundante e indolora: sospechar {{c1::divertículo de Meckel}}.",
+      "extra": "Mucosa gástrica ectópica que ulcera el íleon vecino.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 40"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Examen de elección para el divertículo de Meckel: {{c1::cintigrafía con pertecnetato de Tc-99m}}.",
+      "extra": "Capta la mucosa gástrica ectópica; la colonoscopía no alcanza el íleon.",
+      "origen": "clase:3",
+      "fuente": "Clase · Meckel",
+      "repaso": true
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Regla de los 2 del Meckel: {{c1::2 %}} de la población, a 2 pies de la válvula ileocecal, 2 pulgadas de largo, hacia los 2 años.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Regla de los 2",
+      "repaso": false
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Joven con HDB masiva, sangre que fluye por la válvula ileocecal y dolores periumbilicales previos que cedían solos: piensa en {{c1::divertículo de Meckel}}.",
+      "extra": "La diverticulitis de Meckel imita una apendicitis.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 40"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Escolar sano con rectorragia escasa, en gotas, intermitente e indolora: {{c1::pólipo juvenil}} (hamartoma benigno).",
+      "extra": "Colonoscopía con polipectomía: diagnostica y trata.",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz",
+      "repaso": false
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Recién nacido con vómitos desde el primer día y radiografía con {{c1::doble burbuja}}: atresia duodenal.",
+      "extra": "Estómago y duodeno distendidos sin gas distal.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 33"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La atresia duodenal se asocia a {{c1::síndrome de Down}} (y polihidroamnios).",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Malformaciones",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 33"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Vómitos explosivos a las 48 h de vida en un RN con Down no son píloro (aparece a la 2.ª–6.ª semana): es {{c1::atresia duodenal}}.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz",
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Atresia esofágica: sialorrea desde el nacimiento y {{c1::sonda que no progresa al estómago}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Malformaciones",
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "RN con dificultad respiratoria grave, abdomen excavado y ruidos hidroaéreos en el tórax: {{c1::hernia diafragmática congénita}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla",
+      "repaso": false
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Conducta inicial en la hernia diafragmática congénita: {{c1::intubar y ventilar}}; la cirugía es diferida.",
+      "extra": "La mascarilla con presión positiva está contraindicada: distiende las asas en el tórax.",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 19",
+        "EUNACOM Julio 2015 · Pregunta 153"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La complicación grave de la hernia diafragmática congénita es la {{c1::hipoplasia pulmonar}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "Pregunta real EUNACOM",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 74"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Retraso en la eliminación del meconio de más de {{c1::48 h}} con distensión y constipación: sospechar enfermedad de Hirschsprung.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla",
+      "repaso": true
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La enfermedad de Hirschsprung se confirma con {{c1::biopsia rectal por succión}} (ausencia de células ganglionares).",
+      "extra": "Tratamiento: resección del segmento agangliónico.",
+      "origen": "clase:20",
+      "fuente": "Clase · Quiz",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 112",
+        "EUNACOM Diciembre 2017 · Pregunta 125"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Enema baritada en Hirschsprung: segmento distal estrecho, zona de transición en cono y retención del bario a las {{c1::24 horas}}.",
+      "extra": "Sin preparación previa; no reemplaza la biopsia rectal.",
+      "origen": "clase:8",
+      "fuente": "Clase · Estudios radiológicos",
+      "repaso": false
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el enema baritado, el íleo meconial o la atresia ileal muestran un {{c1::microcolon}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Estudios radiológicos",
+      "repaso": false
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El ano imperforado se diagnostica por {{c1::inspección}}: siempre examinar el ano del recién nacido.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Hirschsprung y ano imperforado",
+      "repaso": false
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Vómitos biliosos en un RN o lactante: descartar de urgencia {{c1::malrotación con vólvulo}} con radiografía de esófago-estómago-duodeno.",
+      "extra": "Duodeno que no cruza la línea media, Treitz a la derecha, aspecto en tirabuzón.",
+      "origen": "clase:22",
+      "fuente": "Clase · Quiz",
+      "repaso": true
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la radiografía de abdomen, un {{c1::abdomen sin gas}} puede indicar vólvulo o peritonitis.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Estudios radiológicos",
+      "repaso": false
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Megacolon tóxico: colon transverso > {{c1::6 cm}} con fiebre y shock; no se hace enema baritada ni colonoscopía.",
+      "extra": "Régimen cero, SNG, corticoides y antibióticos EV; cirugía si no mejora.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Megacolon",
+      "repaso": false
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Megacolon chagásico: adulto de zona endémica con constipación, fecaloma y {{c1::vólvulo del sigmoides}}.",
+      "extra": "Se descomprime por rectosigmoidoscopía y se opera.",
+      "origen": "clase:9",
+      "fuente": "Clase · Megacolon",
+      "repaso": false
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "RN con aumento de volumen y salida continua de líquido por el ombligo tras la caída del cordón: {{c1::persistencia del conducto onfalomesentérico}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "Pregunta real EUNACOM",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 10"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-25/01_neumatosis-ecn__cto-pediatria_p24.jpg",
+      "pregunta": "Prematuro con distensión y hematoquecia: ¿qué muestra y qué haces?",
+      "diagnostico": "Enterocolitis necrotizante",
+      "clave": "Neumatosis intestinal: aire dentro de la pared del intestino",
+      "conducta": "Régimen cero, NPT y antibióticos EV; cirugía si perfora",
+      "fuente": "Manual CTO Pediatría 14.ª ed., p. 24",
+      "repaso": true
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-25/01_doble_burbuja__bailey_p155.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Atresia duodenal",
+      "clave": "Doble burbuja (estómago y duodeno) sin gas distal",
+      "conducta": "SNG e hidratación; cirugía. Buscar síndrome de Down",
+      "fuente": "Bailey & Love 27.ª ed., Fig. 9.24",
+      "repaso": false
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-25/03_invaginacion-eco__cto-pediatria_p70.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Invaginación intestinal",
+      "clave": "Signo de la dona o diana en la ecografía",
+      "conducta": "Reducción neumática guiada por imagen; cirugía si falla",
+      "fuente": "Manual CTO Pediatría 14.ª ed., p. 70",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "Prematuro con neumatosis: ¿manejo?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Signo de la dona: ¿tratamiento de primera línea?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2",
+      "pista": "HDB indolora en niño: ¿qué examen?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.3",
+      "pista": "Meconio > 48 h: ¿cómo se confirma?"
+    }
+  ]
+}

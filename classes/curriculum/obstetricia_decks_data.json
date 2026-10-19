@@ -992,7 +992,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **Interrumpir por cesárea** (opción **A**). Interrumpir por cesárea. La resolución quirúrgica urgente constituye la única medida definitiva capaz de controlar el foco séptico, revertir la isquemia o evitar la muerte materna/fetal frente a este compromiso clínico severo."
+        "explanation": "Con RBNE no reactivo, oligoamnios y disminución de movimientos a las 36 semanas, con cesárea previa y cuello desfavorable, se interrumpe por cesárea, la inducción con misoprostol está contraindicada."
       },
       {
         "type": "bento",
@@ -1763,39 +1763,39 @@
       {
         "type": "question",
         "nav": "Pregunta Real EUNACOM",
-        "badge": "EUNACOM Julio 2025 · Pregunta 28",
-        "notes": "[SLIDE 10] Pregunta oficial del banco EUNACOM: EUNACOM Julio 2025 · Pregunta 28.",
+        "badge": "EUNACOM Julio 2024 · Pregunta 141",
+        "notes": "[SLIDE 10] Pregunta oficial del banco EUNACOM: EUNACOM Julio 2024 · Pregunta 141.",
         "number": 3,
-        "caseText": "paciente embarazada con hemograma patológico, enzimas hepáticas elevadas, litisis vesicular, hta, hipoglicemia, dolor y fiebre",
-        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "caseText": "Una paciente de 32 años con antecedente de síndrome hipertensivo del embarazo, a las 32 semanas no logra cifras tensionales normales a pesar de las medidas no farmacológicas.",
+        "question": "¿Cuál de los siguientes fármacos es más adecuado para continuar con el tratamiento?",
         "options": [
           {
             "id": "A",
-            "text": "sd hellp o higado graso agudo (en discusión)",
-            "isCorrect": true
+            "text": "Losartán",
+            "isCorrect": false
           },
           {
             "id": "B",
-            "text": "Hepatitis viral",
+            "text": "Enalapril",
             "isCorrect": false
           },
           {
             "id": "C",
-            "text": "Preeclampsia severa",
-            "isCorrect": false
+            "text": "Nifedipino",
+            "isCorrect": true
           },
           {
             "id": "D",
-            "text": "Colestasia intrahepática",
+            "text": "Espironolactona",
             "isCorrect": false
           },
           {
             "id": "E",
-            "text": "Hígado graso agudo del embarazo",
+            "text": "Doxazosina",
             "isCorrect": false
           }
         ],
-        "explanation": "Embarazada con HELLP + hígado graso agudo del embarazo (HGAE): ambas son emergencias obstétricas con laboratorio similar. En contexto de embarazo con hepatopatía grave, interrupción urgente es la conducta."
+        "explanation": "Antihipertensivos en el Embarazo: En el embarazo, la mayoría de los antihipertensivos están contraindicados. Los cuatro medicamentos que se pueden usar son alfametildopa, nifedipino (de liberación prolongada o XR), hidralazina y labetalol vía oral (más eficaz, pero su disponibilidad es limitada)."
       },
       {
         "type": "question",
@@ -1813,12 +1813,12 @@
           },
           {
             "id": "B",
-            "text": "Ecogra:a Doppler renal",
+            "text": "Ecografia Doppler renal",
             "isCorrect": false
           },
           {
             "id": "C",
-            "text": "Ecogra:a obstétrica con Doppler fetal",
+            "text": "Ecografia obstétrica con Doppler fetal",
             "isCorrect": false
           },
           {
@@ -4128,7 +4128,7 @@
           },
           {
             "id": "C",
-            "text": "Administrar an2bió2cos endovenosos y realizar curetaje de la cavidad uterina",
+            "text": "Administrar antibióticos endovenosos y realizar curetaje de la cavidad uterina",
             "isCorrect": true
           },
           {
@@ -6700,7 +6700,7 @@
           },
           {
             "id": "C",
-            "text": "Repe2r la gonadotropina coriónica en 48 horas",
+            "text": "Repetir la gonadotropina coriónica en 48 horas",
             "isCorrect": true
           },
           {
@@ -7634,7 +7634,7 @@
           },
           {
             "id": "C",
-            "text": "Mola hida2diforme",
+            "text": "Mola hidatidiforme",
             "isCorrect": true
           },
           {
@@ -7644,7 +7644,7 @@
           },
           {
             "id": "E",
-            "text": "Tumor del si2o de inserción placentaria",
+            "text": "Tumor del sitio de inserción placentaria",
             "isCorrect": false
           }
         ],
@@ -7653,39 +7653,39 @@
       {
         "type": "question",
         "nav": "Pregunta Real EUNACOM",
-        "badge": "EUNACOM Diciembre 2024 · Pregunta 90",
-        "notes": "[SLIDE 15] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2024 · Pregunta 90.",
+        "badge": "EUNACOM Diciembre 2018 · Pregunta 174",
+        "notes": "[SLIDE 15] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2018 · Pregunta 174.",
         "number": 6,
-        "caseText": "Mujer de 40 y tantos con aborto y a la especuloscopía se ve salida de vesículas: a.​ Enfermedad trofoblastica",
-        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "caseText": "Una mujer de 30 años, cursando un embarazo inicial, presenta un aborto espontáneo, que es manejado con legrado, con buen resultado y sin complicaciones. Se controla dos semanas después y la biopsia es informada como “mola hidatiforme”.",
+        "question": "La conducta más adecuada es:",
         "options": [
           {
             "id": "A",
-            "text": "Ninguna de las anteriores es correcta",
-            "isCorrect": true
-          },
-          {
-            "id": "B",
-            "text": "Todas las anteriores son correctas",
+            "text": "Indicar anticonceptivos orales por 12 meses",
             "isCorrect": false
           },
           {
+            "id": "B",
+            "text": "Controlar con beta-HCG seriada",
+            "isCorrect": true
+          },
+          {
             "id": "C",
-            "text": "No se dispone de información suficiente",
+            "text": "Controlar con ecografía transvaginal en 2 semanas",
             "isCorrect": false
           },
           {
             "id": "D",
-            "text": "Otra alternativa no descrita",
+            "text": "Quimioterapia profiláctica",
             "isCorrect": false
           },
           {
             "id": "E",
-            "text": "Otra alternativa no descrita",
+            "text": "Realizar histerectomía",
             "isCorrect": false
           }
         ],
-        "explanation": "La alternativa correcta es la **A** (Ninguna de las anteriores es correcta). Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh. Las opciones alternativas (Todas las anteriores son correctas, No se dispone de información suficiente) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente."
+        "explanation": "Lo más importante es la HCG seriada, para detectar precozmente la aparición de una neoplasia trofoblástica gestacional. Sin embargo, también deberá quedar con ACO, para evitar un embarazo que eleva la HCG y alterará el seguimiento."
       },
       {
         "type": "bento",
@@ -8976,22 +8976,22 @@
           },
           {
             "id": "B",
-            "text": "Solicitar ecogra:a pélvica",
+            "text": "Solicitar ecografia pélvica",
             "isCorrect": true
           },
           {
             "id": "C",
-            "text": "Solicitar resonancia magné2ca nuclear de pelvis",
+            "text": "Solicitar resonancia magnética nuclear de pelvis",
             "isCorrect": false
           },
           {
             "id": "D",
-            "text": "Solicitar niveles plasmá2cos de estrógeno, progesterona, FSH y LH",
+            "text": "Solicitar niveles plasmáticos de estrógeno, progesterona, FSH y LH",
             "isCorrect": false
           },
           {
             "id": "E",
-            "text": "Iniciar an2concep2vos orales",
+            "text": "Iniciar anticonceptivos orales",
             "isCorrect": false
           }
         ],

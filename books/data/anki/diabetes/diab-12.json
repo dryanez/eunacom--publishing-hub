@@ -1,0 +1,537 @@
+{
+  "classId": "diab-12",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En APS el esquema basal es metformina más {{c1::NPH al acostarse}} (22:00–23:00 h).",
+      "extra": "La metformina limita el peso y ahorra insulina.",
+      "origen": "clase:1",
+      "fuente": "Clase · Esquema basal",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dosis inicial de NPH bedtime: {{c1::10 UI}} o 0,1–0,2 UI/kg.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Esquema basal",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si se dispone de análogos prolongados (glargina o degludec) se dan {{c1::una vez al día}}, a la misma hora.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Esquema basal",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El ayuno se promedia cada {{c1::3 a 7 días}} para titular la basal.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Ajustar la basal",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Ayuno de 131–180 mg/dL: subir la basal {{c1::2 UI}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Ajustar la basal",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Ayuno > 180 mg/dL: subir la basal {{c1::4 UI}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Ajustar la basal",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Glicemia < 70 mg/dL o hipoglicemia: bajar la dosis responsable {{c1::10–20 % (2 a 4 UI)}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Ajustar la basal",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 119"
+      ],
+      "codigos": [
+        "1.02.2.006",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el ambulatorio no se sube más de {{c1::4 UI}} por ajuste.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Ajustar la basal",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El efecto Somogyi es hiperglicemia de {{c1::rebote}} tras una hipoglicemia inadvertida de madrugada.",
+      "extra": "Por exceso de insulina basal nocturna.",
+      "origen": "clase:3",
+      "fuente": "Clase · Somogyi",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.006",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En Somogyi el organismo libera {{c1::glucagón, adrenalina, cortisol y GH}}, que inducen glucogenólisis y gluconeogénesis.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Somogyi",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pistas de Somogyi: pesadillas, {{c1::sudor nocturno}} y cefalea matinal.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Somogyi",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Ante hiperglicemia matinal con basal nocturna, el primer paso obligatorio es medir la glicemia capilar a las {{c1::3 AM}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Somogyi vs alba",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 161"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.015"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Glicemia a las 3 AM < {{c1::70 mg/dL}}: Somogyi; se BAJA la basal o se agrega colación.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Somogyi vs alba",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 161"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Glicemia a las 3 AM > {{c1::100 mg/dL}}: fenómeno del alba; se SUBE la basal o se retrasa al acostarse.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Somogyi vs alba",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El fenómeno del alba es el alza fisiológica de {{c1::GH y cortisol}} entre las 4 y 8 AM.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Somogyi vs alba",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ayuno alto con 3 AM de 145 mg/dL: no es Somogyi; la basal es insuficiente y se {{c1::sube 4 UI}} (de 14 a 18 UI).",
+      "extra": "Ayunos de 179–195 mg/dL.",
+      "origen": "libro:caso",
+      "fuente": "Libro · pregunta Dic 2020",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Error típico del Somogyi: {{c1::subir la insulina nocturna}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Error típico del fenómeno del alba: {{c1::bajar la insulina nocturna}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hipoglicemia a las 3 AM con NPH 30 U mañana y 20 U noche: {{c1::disminuir la NPH nocturna}}.",
+      "extra": "No se suspende ni se tocan ambas dosis.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Agosto 2021",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 149",
+        "EUNACOM Agosto 2021 · Pregunta 119"
+      ],
+      "codigos": [
+        "1.02.2.006",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se pasa a basal-plus si el ayuno está en meta (80–130) pero la HbA1c sigue alta tras {{c1::3 a 6 meses}}.",
+      "extra": "O NPH sobre 0,5–0,7 UI/kg/día.",
+      "origen": "clase:5",
+      "fuente": "Clase · Del basal al basal-bolo",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Basal-plus: agregar {{c1::1 bolo}} de 4 UI o 10 % de la basal antes de la comida principal.",
+      "extra": "Habitualmente el almuerzo en Chile.",
+      "origen": "clase:5",
+      "fuente": "Clase · Del basal al basal-bolo",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Basal-bolo: 1–2 basales más {{c1::3 bolos}} prandiales; es el esquema obligatorio en toda DM1.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Del basal al basal-bolo",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 17"
+      ],
+      "codigos": [
+        "1.02.1.004",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "DM1 con una NPH matinal, hipoglicemia prealmuerzo y ayuno alto: {{c1::dos NPH más tres bolos de cristalina}}.",
+      "extra": "La NPH matinal hace su peak antes del almuerzo y se agota en la noche.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Julio 2015",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 17"
+      ],
+      "codigos": [
+        "1.02.1.004",
+        "1.02.2.006"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Glicemia alta tras el almuerzo: se sube la {{c1::rápida del almuerzo}}; el error es subir la NPH.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "DM1 con todo en meta salvo post-almuerzo 238 mg/dL: {{c1::aumentar la cristalina previa al almuerzo}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Post-desayuno o pre-almuerzo alta: se sube la rápida del {{c1::desayuno}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Ajuste prandial",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Post-cena o al acostarse alta: se sube la rápida de la {{c1::cena}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Ajuste prandial",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Ratio insulina:carbohidratos con la regla del {{c1::500}}: 500 / dosis total diaria.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Cálculo fino",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Factor de sensibilidad con la regla del {{c1::1800}}: 1800 / dosis total diaria.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Cálculo fino",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Esquema bifásico: mezcla {{c1::70/30}} NPH/cristalina dos veces al día, para horarios fijos y baja adherencia.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de esquemas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La glicemia en ayunas guía la dosis de {{c1::NPH nocturna o glargina}}; la preprandial guía la rápida.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Automonitoreo",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 78"
+      ],
+      "codigos": [
+        "1.02.4.015",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras cambiar una dosis se esperan {{c1::3 días}} antes de volver a ajustar.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Automonitoreo",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con NPH nocturna 10 UI, el control capilar más adecuado es a {{c1::primera hora en ayunas}}.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz Julio 2024",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 78"
+      ],
+      "codigos": [
+        "1.02.4.015",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/04_diabetes/diab-12/01_lipohipertrofia__openi.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Lipohipertrofia abdominal",
+      "clave": "Abultamiento de grasa fibrosa por pinchar siempre el mismo sitio",
+      "conducta": "Rotar sitios en cada control; reforzar técnica de inyección",
+      "fuente": "Open-i (NLM), CC BY",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Ayuno alto: ¿qué glicemia mides primero?",
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0",
+      "pista": "3 AM < 70 mg/dL: ¿qué conducta?",
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0",
+      "pista": "Postprandial alta sin insulina prandial: ¿qué esquema?",
+      "codigos": [
+        "1.02.1.005",
+        "1.02.1.004"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "classId": "psiq-15",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La dependencia al alcohol regula a la baja los receptores {{c1::GABA-A}} y sobrerregula los NMDA.",
+      "extra": "Al suspender: tormenta glutamatérgica y noradrenérgica.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Neurobiología",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.012"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Abstinencia leve (temblor, sudor, taquicardia): aparece a las {{c1::6 a 12 horas}} del último trago.",
+      "extra": "Paciente vigil y orientado.",
+      "origen": "clase:2",
+      "fuente": "Clase · Cronología",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.012",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Alucinosis alcohólica: aparece a las {{c1::12 a 24 horas}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cronología",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.012",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la alucinosis alcohólica el sensorio está {{c1::lúcido y orientado}}; si hay confusión es delirium tremens.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla abstinencia",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.012",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Convulsiones de abstinencia (tónico-clónicas): aparecen a las {{c1::12 a 48 horas}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cronología",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.012",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Las convulsiones de abstinencia se tratan con {{c1::benzodiacepinas}}; el error es fenitoína de mantención.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.012",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Delirium tremens: aparece a las {{c1::48 a 96 horas}} del último trago.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cronología",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 103"
+      ],
+      "codigos": [
+        "5.01.1.012",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Delirium tremens: confusión global, desorientación, fiebre, disautonomía y {{c1::zoopsias}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Cronología",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.012"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Mortalidad del delirium tremens sin tratamiento: {{c1::5 a 15%}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · DT",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.012",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Delirium tremens: se trata con {{c1::benzodiacepina}}; el error es haloperidol solo.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 103"
+      ],
+      "codigos": [
+        "1.10.2.004",
+        "1.02.2.004"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La abstinencia alcohólica se cuantifica con la escala {{c1::CIWA-Ar}} (puntaje 0-67).",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 CIWA-Ar",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.012"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "CIWA-Ar menor de {{c1::10}}: abstinencia leve, sin benzodiacepinas de rutina.",
+      "extra": "Ambulatorio con familiar.",
+      "origen": "clase:4",
+      "fuente": "Clase · CIWA-Ar",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.012"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "CIWA-Ar de {{c1::10 a 19}}: abstinencia moderada, benzodiacepina oral supervisada.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · CIWA-Ar",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.012"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "CIWA-Ar de {{c1::20 o más}}: abstinencia severa, hospitalizar.",
+      "extra": "Sobre 30 o delirium tremens: UPC.",
+      "origen": "clase:4",
+      "fuente": "Clase · CIWA-Ar",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.012",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Diazepam es la benzodiacepina de primera línea si el hígado está {{c1::conservado}}.",
+      "extra": "Inicio rápido y vida media larga: se autotitula y previene convulsiones de rebote.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 81",
+        "EUNACOM Julio 2019 · Pregunta 15"
+      ],
+      "codigos": [
+        "5.01.1.012"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Diazepam en CIWA-Ar de 10 a 19: {{c1::10-20 mg VO}} cada 1-2 h hasta CIWA < 10.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Benzodiacepina y destino",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.012"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En abstinencia con cirrosis, anciano o EPOC grave se elige {{c1::lorazepam}}.",
+      "extra": "No genera metabolitos activos, por eso no se acumula.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 51",
+        "EUNACOM Diciembre 2025 · Pregunta 72"
+      ],
+      "codigos": [
+        "5.01.1.012"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Lorazepam en abstinencia: {{c1::2 a 4 mg}} VO o SL cada 2 horas.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Fármacos",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.012"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Abstinencia en cirrótico: el error es dar {{c1::diazepam}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.012"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Antecedente de abstinencia con alucinaciones: desintoxicar en hospital; el error es {{c1::suspender en casa de golpe}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 72"
+      ],
+      "codigos": [
+        "5.01.1.012"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La encefalopatía de Wernicke se debe al déficit de {{c1::tiamina (vitamina B1)}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 22"
+      ],
+      "codigos": [
+        "1.02.2.004"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tríada de Wernicke: oftalmoplejía, ataxia y {{c1::confusión aguda}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.004",
+        "1.10.3.001"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La tríada completa de Wernicke aparece solo en el {{c1::30%}} de los casos.",
+      "extra": "Basta uno o dos signos en consumidor crónico para sospecharlo.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Wernicke",
+      "repaso": false,
+      "codigos": [
+        "1.10.3.001"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En todo alcohólico, la tiamina se da {{c1::antes de cualquier suero glucosado}}.",
+      "extra": "La glucosa consume la B1 y precipita daño irreversible.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 22"
+      ],
+      "codigos": [
+        "1.10.2.004",
+        "1.02.2.004"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Wernicke: tiamina {{c1::500 mg EV}}, 3 veces al día, por 2 a 3 días.",
+      "extra": "Luego 250 mg al día y 100 mg oral diarios.",
+      "origen": "clase:8",
+      "fuente": "Clase · Dosis de tiamina",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.004",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Profilaxis en alcohólico hospitalizado: tiamina {{c1::100 a 250 mg}} al día IM o EV.",
+      "extra": "La vía oral absorbe mal.",
+      "origen": "clase:8",
+      "fuente": "Clase · Dosis de tiamina",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.004",
+        "1.02.2.004"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síndrome de Korsakoff: amnesia {{c1::anterógrada}} profunda y confabulación.",
+      "extra": "Secuela irreversible del Wernicke no tratado; memoria remota conservada.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Korsakoff",
+      "repaso": true,
+      "codigos": [
+        "1.10.3.001"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el alcohólico confuso se pide {{c1::glicemia capilar}} de inmediato y se descartan encefalopatía hepática, hiponatremia y subdural.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Estado confusional",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 131"
+      ],
+      "codigos": [
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La EBBA es un instrumento de {{c1::tamizaje}}; no diagnostica por sí sola el trastorno por uso de alcohol.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 EBBA",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.001",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "AUDIT tiene {{c1::10}} preguntas y clasifica el riesgo de consumo en APS.",
+      "extra": "Menos de 8 bajo riesgo; 8 a 15 intervención breve; más de 16 derivar.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tamizaje",
+      "repaso": false,
+      "codigos": [
+        "5.01.5.001",
+        "1.10.2.004"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Etapas de Prochaska: precontemplación, contemplación, preparación, acción y {{c1::mantenimiento}}.",
+      "extra": "Se adapta la intervención a la etapa, sin confrontar.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Entrevista motivacional",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.012"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Naltrexona (antagonista opioide mu) reduce el {{c1::craving}}.",
+      "extra": "Contraindicada con opioides o falla hepática aguda.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Fármacos",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.012"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Disulfiram inhibe la {{c1::aldehído deshidrogenasa}}: acumula acetaldehído y da reacción aversiva.",
+      "extra": "Exige paciente motivado y supervisión.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Fármacos",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.012"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Acamprosato modula el glutamato NMDA y es seguro en insuficiencia hepática porque se excreta por vía {{c1::renal}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Fármacos",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.012"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES de consumo perjudicial o dependencia de alcohol y drogas en menores de {{c1::20 años}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro · GES",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.012"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.2.1",
+      "pista": "Abstinencia en cirrótico, anciano o EPOC: ¿qué benzodiacepina?",
+      "codigos": [
+        "5.01.1.012"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.2.2",
+      "pista": "CIWA 20 o más o delirium tremens: ¿destino?",
+      "codigos": [
+        "5.01.1.012"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.3",
+      "pista": "Confusión, oftalmoplejía y ataxia: ¿qué y con qué dosis?",
+      "codigos": [
+        "1.02.2.004"
+      ]
+    }
+  ]
+}

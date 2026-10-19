@@ -1,0 +1,516 @@
+{
+  "classId": "derma-02",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La lesión elemental obligatoria que define al acné vulgar es el {{c1::comedón}}.",
+      "extra": "Tapón queratínico del ostium folicular.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pilar 1 del acné: {{c1::hiperqueratinización folicular}} del infundíbulo, que forma el comedón.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Cuatro pilares",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pilar 2 del acné: hipersecreción sebácea estimulada por {{c1::andrógenos}} en la pubertad.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pilar 3 del acné: proliferación de {{c1::Cutibacterium acnes}} (antes Propionibacterium acnes).",
+      "extra": "Degrada triglicéridos a ácidos grasos libres proinflamatorios.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Comedón abierto = «punto negro», por {{c1::oxidación de melanina y queratina}}; el cerrado es el «punto blanco».",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clasificación",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El acné {{c1::comedoniano}} es la forma no inflamatoria: solo comedones abiertos y cerrados.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Formas clínicas",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El acné nódulo-quístico tiene alto riesgo de cicatrices atróficas «{{c1::en picahielo}}» o queloideas.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clasificación",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Acné comedoniano: tratamiento de elección = {{c1::retinoide tópico}} (adapaleno, tretinoína), aplicado de noche.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Escalamiento",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Adapaleno para acné comedoniano: concentración {{c1::0.1%}} en gel nocturno.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla acné",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El peróxido de benzoilo es queratolítico y bactericida y {{c1::no genera resistencia}} bacteriana.",
+      "extra": "Dosis 2.5-5%.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Escalamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Peróxido de benzoilo: concentración habitual de {{c1::2.5-5%}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Escalamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Acné pápulo-pustuloso leve: peróxido de benzoilo + {{c1::retinoide tópico}} ± antibiótico tópico.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo acné",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antibiótico tópico en acné: clindamicina al {{c1::1%}}.",
+      "extra": "Siempre asociada a peróxido de benzoilo.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla acné",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Regla de oro: el antibiótico tópico en acné {{c1::NUNCA se da en monoterapia}}; induce resistencia en semanas.",
+      "extra": "Se asocia siempre a peróxido de benzoilo.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Regla de oro",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Error clásico en acné pápulo-pustuloso leve a moderado: {{c1::clindamicina tópica en monoterapia}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Error clásico en acné comedoniano: {{c1::partir con antibiótico oral}}.",
+      "extra": "Corresponde retinoide tópico.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Acné moderado a severo o extenso (cara + tronco): antibiótico oral de elección = {{c1::tetraciclinas (doxiciclina)}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Escalamiento",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Doxiciclina en acné: {{c1::100 mg/día}}.",
+      "extra": "Minociclina: 50-100 mg/día.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla acné",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Duración de tetraciclinas orales en acné: {{c1::8 a 12 semanas}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Error con doxiciclina en acné: {{c1::suspender antes de las 8 semanas}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Efectos adversos de tetraciclinas: fotosensibilidad y {{c1::esofagitis}} (tomar con vaso lleno de agua, no acostarse).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Escalamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tetraciclinas están contraindicadas en el embarazo y en niños {{c1::< 8 años}} por tinción dental.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Escalamiento",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Isotretinoína oral (ácido 13-cis-retinoico): atrofia las glándulas sebáceas en un {{c1::90%}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Isotretinoína",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dosis de isotretinoína en acné severo: {{c1::0.5 a 1.0 mg/kg/día}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla acné",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Isotretinoína se indica en acné nódulo-quístico severo, cicatrizal o {{c1::refractario a antibiótico oral por 3 meses}}.",
+      "extra": "También gran impacto psicológico o dismorfofobia.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Indicaciones",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 78"
+      ],
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cara, pecho y espalda con pápulas, pústulas, quistes y cicatrices atróficas: tratamiento de elección {{c1::isotretinoína oral}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz Dic 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 78"
+      ],
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La isotretinoína es teratógena: exige {{c1::doble método anticonceptivo}} 1 mes antes, durante y 1 mes después.",
+      "extra": "Malformaciones craneofaciales, cardíacas y del SNC.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Seguridad",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antes de isotretinoína en mujer fértil: {{c1::2 test de embarazo negativos}} previos y luego control mensual.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Seguridad",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Monitorización de isotretinoína: perfil {{c1::lipídico y pruebas hepáticas}} basales y de control.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Seguridad",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Efecto adverso universal y predecible de isotretinoína: {{c1::queilitis descamativa}} y sequedad mucocutánea.",
+      "extra": "Si no tiene labios partidos, no la está tomando.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Seguridad",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Error grave con isotretinoína: {{c1::indicarla sin anticoncepción doble}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.001"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "No se combina isotretinoína con {{c1::tetraciclinas}} por riesgo de pseudotumor cerebri.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · pregunta isotretinoína",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-02/01_comedones__fitzpatrick_p66.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Acné comedoniano",
+      "clave": "Comedones abiertos y cerrados sin inflamación",
+      "conducta": "Retinoide tópico (adapaleno) de noche ± peróxido de benzoilo",
+      "fuente": "Fitzpatrick 7.ª ed., p. 66",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_verificadas/080_derma_Acné_nódulo_quístico__derm_pathp_p354_1.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Acné nódulo-quístico",
+      "clave": "Nódulos profundos, quistes y cicatrices atróficas",
+      "conducta": "Isotretinoína oral; doble anticoncepción y control lipídico/hepático",
+      "fuente": "Atlas of Dermatopathology, p. 354",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.001",
+        "2.01.1.104"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Pápulas y pústulas leves: ¿qué combinación?",
+      "codigos": [
+        "6.01.1.001"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.2",
+      "pista": "Pápulas y pústulas extensas: ¿qué tratamiento?",
+      "codigos": [
+        "6.01.1.001"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.3.0",
+      "pista": "Nódulos y quistes en mujer fértil: ¿qué es obligatorio?",
+      "codigos": [
+        "6.01.1.001"
+      ]
+    }
+  ]
+}

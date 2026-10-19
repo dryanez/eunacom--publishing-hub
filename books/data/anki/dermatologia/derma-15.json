@@ -1,0 +1,464 @@
+{
+  "classId": "derma-15",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La queratosis actínica es la lesión {{c1::premaligna}} cutánea más común y precursora del carcinoma espinocelular.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La queratosis actínica es biológicamente un carcinoma espinocelular {{c1::in situ incipiente}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La queratosis actínica se debe a mutaciones del gen {{c1::TP53}} inducidas por radiación UVB.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Aforismo: la queratosis actínica se {{c1::palpa antes de verse}}; es áspera como papel de lija.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Semiología",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lesión de la queratosis actínica: mácula eritematosa {{c1::mal delimitada}} con escama seca y muy adherente.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Semiología",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Localizaciones de queratosis actínica: cara, orejas, dorso de manos, antebrazos y {{c1::cuero cabelludo calvo}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Semiología",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cuerno cutáneo es una descripción {{c1::morfológica}}, no un diagnóstico histológico.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Cuerno cutáneo",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la base de un cuerno cutáneo hay una queratosis actínica en {{c1::60%}}.",
+      "extra": "El 20% esconde un CEC invasor.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Cuerno cutáneo",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante un cuerno cutáneo, el error es asumirlo benigno; se {{c1::biopsia la base}} siempre.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una queratosis actínica con {{c1::base indurada}}, dolor o crecimiento rápido obliga a biopsiar por sospecha de CEC invasor.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tratamiento focal de elección de lesiones aisladas: {{c1::crioterapia con nitrógeno líquido}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El nitrógeno líquido congela a {{c1::-196 °C}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El campo de cancerización es la piel fotoexpuesta alrededor de las lesiones con {{c1::alteraciones genéticas subclínicas}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Campo",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante múltiples lesiones en una zona, el error es {{c1::congelar lesión por lesión}} sin tratar el campo.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de campo de queratosis actínica: {{c1::imiquimod 5%}} en crema.",
+      "extra": "Agonista de TLR-7; el eritema intenso es señal de eficacia.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla modalidades",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Imiquimod 5% en queratosis actínica: {{c1::2-3 veces/sem}} por 4-6 semanas.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla modalidades",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El 5-fluorouracilo 5% es un antimetabolito que inhibe la {{c1::timidilato sintasa}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "5-fluorouracilo 5% en queratosis actínica: {{c1::2 veces/día}} por 3-4 semanas.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla modalidades",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La terapia fotodinámica usa {{c1::ácido metilaminolevulinato}} seguido de luz roja.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Una o dos lesiones aisladas: el error es iniciar {{c1::imiquimod}} en vez de crioterapia.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El nevo displásico es un {{c1::marcador de riesgo}} de melanoma, no una lesión maligna.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Nevo displásico",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Nevo displásico con atipia leve y estable: {{c1::fotografía seriada}}; el error es biopsiar todos de una vez.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La enfermedad de Bowen es un carcinoma espinocelular {{c1::in situ}}: la displasia compromete todo el espesor epidérmico.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Bowen",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 81"
+      ],
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Bowen clásico: placa eritematosa, escamosa, {{c1::solitaria}} y de crecimiento lento en piernas de mujeres, cabeza y cuello.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Bowen",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 81"
+      ],
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Placa solitaria que no responde a corticoides ni antifúngicos: el error es tratarla como eccema, psoriasis o tiña; se {{c1::biopsia}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 81"
+      ],
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causas de enfermedad de Bowen: UV, {{c1::arsénico}} (aguas del norte de Chile), VPH 16 e inmunosupresión.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Bowen",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La enfermedad de Bowen progresa a CEC invasor en hasta {{c1::3 a 5%}}, por eso se trata.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Bowen",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Eritroplasia de {{c1::Queyrat}}: Bowen del glande por VPH 16, con mayor riesgo de invasión.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Bowen",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-15/01_queratosis-actinica__cto-derma_p96.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Queratosis actínica",
+      "clave": "Mácula eritematosa con escama adherente áspera en zona fotoexpuesta",
+      "conducta": "Lesión aislada: crioterapia; múltiples: imiquimod o 5-FU; biopsia si hay induración",
+      "fuente": "Manual CTO Dermatología 14.ª ed., p. 96",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-15/01_cuerno_cutaneo__fitzpatrick_p66.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Cuerno cutáneo",
+      "clave": "Protrusión cónica hiperqueratósica compacta",
+      "conducta": "Biopsiar la base: puede esconder queratosis actínica o CEC",
+      "fuente": "Fitzpatrick 7.ª ed., p. 66",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_web/279_derma_Nevo_displásico__Commons_1.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Nevos displásicos",
+      "clave": "Nevos con asimetría, bordes poco definidos o varios tonos",
+      "conducta": "Marcador de riesgo; atipia leve, fotografía seriada; atipia marcada, biopsia excisional",
+      "fuente": "Wikimedia Commons, CC BY-SA 3.0",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "i04",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/19_dermatologia/derma-15/10_enfermedad-de-bowen__fitzpatrick_p2300.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Enfermedad de Bowen",
+      "clave": "Placa eritematosa escamosa solitaria en la pierna",
+      "conducta": "Biopsia; escisión, curetaje, 5-FU o imiquimod; control anual",
+      "fuente": "Fitzpatrick's Dermatology in General Medicine, p. 2300",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.029"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Mácula áspera fotoexpuesta: ¿qué buscas en la base?",
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Una o pocas lesiones sin induración: ¿tratamiento?",
+      "codigos": [
+        "6.01.1.029"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2",
+      "pista": "Múltiples lesiones en la misma zona: ¿tratamiento?",
+      "codigos": [
+        "6.01.1.029"
+      ]
+    }
+  ]
+}

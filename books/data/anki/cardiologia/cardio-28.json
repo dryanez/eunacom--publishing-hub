@@ -1,0 +1,688 @@
+{
+ "classId": "cardio-28",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fiebre + soplo nuevo o cambiante + fenómenos embólicos o inmunológicos: {{c1::endocarditis}} hasta demostrar lo contrario.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.007"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 70",
+    "EUNACOM Diciembre 2017 · Pregunta 63"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Endocarditis subaguda sobre válvula dañada, de origen dental: {{c1::Streptococcus viridans}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cuándo pensar en endocarditis",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.007",
+    "1.04.2.003"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Endocarditis aguda, en usuario de drogas EV y válvula tricúspide: {{c1::Staphylococcus aureus}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cuándo pensar en endocarditis",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.007",
+    "1.04.2.003"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Endocarditis de origen urinario o digestivo: {{c1::enterococo}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · El germen según el contexto",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.003"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antecedente de cáncer de colon con endocarditis: {{c1::S. gallolyticus (bovis)}}; obliga a hacer colonoscopia.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · El germen según el contexto",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.003"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Endocarditis protésica precoz (< 2 meses de la cirugía): {{c1::S. aureus o S. epidermidis}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · El germen según el contexto",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 136"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Prótesis con menos de 2 meses y fiebre: el error es pensar en {{c1::Streptococcus viridans}}.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 136"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Nódulos de Osler: {{c1::dolorosos}}, en la pulpa de los dedos; inmunológicos.",
+   "extra": "Osler duele, Janeway no.",
+   "origen": "clase:3",
+   "fuente": "Clase · Signos periféricos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.007"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Lesiones de Janeway: máculas {{c1::indoloras}} en palmas y plantas; embolias sépticas.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Signos periféricos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.007"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 123"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Manchas de Roth: hemorragias {{c1::retinianas}} de centro pálido; inmunológicas.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Signos periféricos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.007"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La primera causa de cirugía y de muerte en la endocarditis es la {{c1::insuficiencia cardíaca}} por disfunción valvular aguda.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Una vegetación sobre la válvula",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.007"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un PR que se alarga o un bloqueo AV nuevo en endocarditis sugiere {{c1::absceso perivalvular}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.007"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La glomerulonefritis de la endocarditis cursa con hematuria dismórfica y {{c1::C3 bajo}}.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Más allá de la válvula",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.007"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ante cefalea nueva en endocarditis se sospecha {{c1::aneurisma micótico}} y se pide angiografía.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Complicaciones",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.007"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El examen de elección para el diagnóstico etiológico de la endocarditis son los {{c1::hemocultivos}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.007"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 63"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se toman {{c1::tres}} hemocultivos de sitios distintos, antes de la primera dosis de antibiótico.",
+   "extra": "Sin esperar el peak febril.",
+   "origen": "clase:4",
+   "fuente": "Clase · Exámenes iniciales",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.007"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 63"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Ante fiebre prolongada con soplo nuevo, el error es dar {{c1::antibiótico empírico sin cultivos}}.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.007"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 63"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El ecocardiograma {{c1::transtorácico}} se pide a todo paciente con sospecha; el transesofágico si hay prótesis, duda o complicación.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Exámenes iniciales",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.007"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 70"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Un ecocardiograma normal no descarta endocarditis con alta sospecha: se repite en {{c1::7 a 10 días}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Exámenes iniciales",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.007"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Duke: la endocarditis es definida con 2 mayores, o 1 mayor + {{c1::3 menores}}, o 5 menores.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Definida, posible o descartada",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.007"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Duke: es posible con 1 mayor + {{c1::1 menor}}, o 3 menores.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Definida, posible o descartada",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.007"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Criterios mayores de Duke: hemocultivos típicos en ≥ 2 muestras y {{c1::compromiso endocárdico}} (vegetación, absceso, regurgitación nueva).",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de Duke",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.007"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Criterio menor de Duke: fiebre ≥ {{c1::38 °C}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla de Duke",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.007"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Para el médico general, Duke no es requisito para actuar: ante sospecha se piden hemocultivos, eco y se {{c1::deriva}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Definida, posible o descartada",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.007"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Endocarditis de válvula nativa comunitaria, empírico: ampicilina + cloxacilina + {{c1::gentamicina}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tratamiento inicial",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.003"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Endocarditis con prótesis o riesgo de SARM, empírico: {{c1::vancomicina}} + gentamicina.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tratamiento inicial",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.003"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "S. viridans sensible: penicilina o ceftriaxona por {{c1::4 semanas}} en válvula nativa y 6 en prótesis.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · El germen según el contexto",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 123",
+    "EUNACOM Julio 2016 · Pregunta 115"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "S. viridans en prótesis valvular: tratamiento por {{c1::6 semanas}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · El germen según el contexto",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 123"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "S. aureus sensible en endocarditis: {{c1::cloxacilina}} por 4 a 6 semanas.",
+   "extra": "SARM: vancomicina.",
+   "origen": "clase:8",
+   "fuente": "Clase · El germen según el contexto",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.003"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Endocarditis protésica precoz: vancomicina + gentamicina + {{c1::rifampicina}}, al menos 6 semanas.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · El germen según el contexto",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 136"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Enterococo: ampicilina + {{c1::ceftriaxona}} (o gentamicina) por 6 semanas.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · El germen según el contexto",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.003"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Subaguda con cocos en cadena: el error es tratar con {{c1::cloxacilina}}; corresponde penicilina o ceftriaxona.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 123"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cirugía urgente (en {{c1::24 horas}}) si hay shock o edema pulmonar refractario.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Cuándo se opera",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.007"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cirugía para prevenir embolias: vegetación > {{c1::10 mm}} con embolia, o > 15 mm.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Cuándo se opera",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.007"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cirugía por infección no controlada: absceso, bloqueo AV nuevo o fiebre persistente tras {{c1::7 a 10 días}} de tratamiento.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Cuándo se opera",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.007"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "ACV embólico en una endocarditis: el error es {{c1::trombolizar o anticoagular}}.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.007"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 115"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Endocarditis derecha del usuario de drogas: tricúspide, S. aureus y embolias sépticas {{c1::pulmonares}}; cloxacilina.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Más allá de la válvula",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.003"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Endocarditis no infecciosa (marántica, Libman-Sacks): hemocultivos negativos, se trata con {{c1::heparina}} y la causa.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Más allá de la válvula",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.007"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La profilaxis de endocarditis se indica solo a pacientes de {{c1::alto riesgo}} y solo en procedimientos dentales con manipulación gingival.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Solo alto riesgo y solo dentales",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.007"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Alto riesgo para profilaxis: prótesis valvular, endocarditis previa, congénita cianótica o con material, trasplante con {{c1::valvulopatía}}.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Solo alto riesgo y solo dentales",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.007"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Profilaxis de endocarditis: amoxicilina {{c1::2 g}} VO, 30-60 minutos antes, dosis única.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Esquema",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.007"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Alérgico a penicilina en profilaxis: azitromicina o claritromicina {{c1::500 mg}}; la clindamicina ya no.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Esquema",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.007"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Estenosis aórtica nativa y extracción dental: el error es dar {{c1::amoxicilina de rutina}}.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.007"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Prótesis y extracción dental: amoxicilina 2 g una vez; el error es un {{c1::curso de 7 días después}}.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.007"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-28/03_endocarditis-aortica-eco-vegetaciones-e-insuficiencia__nelson_p2853.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Endocarditis aórtica",
+   "clave": "Vegetaciones sobre la válvula aórtica con insuficiencia al Doppler",
+   "conducta": "Hemocultivos x3, eco transesofágico si prótesis, hospitalizar y derivar",
+   "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 2853",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.007"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-24/02_mancha-de-roth__harrison_p262.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Mancha de Roth (endocarditis subaguda)",
+   "clave": "Hemorragia retiniana de centro pálido",
+   "conducta": "Criterio menor de Duke (inmunológico): hemocultivos x3 y eco",
+   "fuente": "Harrison, Principios de Medicina Interna, 21.ª ed., p. 262",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.007"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-24/01_vegetaciones-endocarditis-mitral__harrison_p1064.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Vegetaciones por S. viridans en válvula mitral",
+   "clave": "Masas adheridas a las valvas en endocarditis subaguda",
+   "conducta": "Penicilina o ceftriaxona 4 semanas (prótesis 6); derivar",
+   "fuente": "Harrison's Principles of Internal Medicine, 21st ed., p. 1064",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.007",
+    "1.04.2.003"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Sospecha razonable de endocarditis: ¿qué pides y cuándo?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Duke definida o posible: ¿qué conducta?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.0",
+   "pista": "IC, absceso, embolias o germen difícil: ¿qué se indica?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1",
+   "pista": "Alto riesgo con procedimiento dental: ¿qué profilaxis?"
+  }
+ ]
+}

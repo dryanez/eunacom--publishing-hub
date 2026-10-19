@@ -1,0 +1,493 @@
+{
+  "classId": "neuro-22",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La fragilidad es la pérdida de {{c1::reserva homeostática}} ante estresores menores; es dinámica y reversible.",
+      "extra": "No es lo mismo que edad o discapacidad.",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Qué es ser frágil?",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.008"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El fenotipo de {{c1::Fried}} define fragilidad con 5 criterios.",
+      "extra": "Peso, agotamiento, debilidad, marcha lenta, baja actividad.",
+      "origen": "clase:2",
+      "fuente": "Clase · Fenotipo de Fried",
+      "repaso": true,
+      "codigos": [
+        "1.07.1.008"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Fried, pérdida de peso: ≥ {{c1::4,5 kg}} o ≥ 5 % del peso en un año.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Fenotipo de Fried",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.008"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Fried, debilidad: prensión < {{c1::27 kg}} en hombres y < 16 kg en mujeres.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Fenotipo de Fried",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 143"
+      ],
+      "codigos": [
+        "1.07.1.008"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Fried, marcha lenta: velocidad < {{c1::0,8 m/s}} (más de 5 s en 4 metros).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Fenotipo de Fried",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.008"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Fried: {{c1::1 a 2}} criterios es prefrágil; 3 o más es frágil; 0 es robusto.",
+      "extra": "El prefrágil es la mejor fase para prevenir.",
+      "origen": "clase:2",
+      "fuente": "Clase · Fenotipo de Fried",
+      "repaso": true,
+      "codigos": [
+        "1.07.1.008"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "1 o 2 criterios de Fried es {{c1::prefrágil}}, no frágil ni robusto.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.008"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El parámetro cardinal para sospechar sarcopenia (EWGSOP2) es la {{c1::fuerza muscular}}, no la masa.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 143"
+      ],
+      "codigos": [
+        "1.07.1.008"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cribado de sarcopenia: SARC-F ≥ {{c1::4}} puntos.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · EWGSOP2",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.008",
+        "1.02.1.001"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Sarcopenia probable: dinamometría baja o más de {{c1::15 segundos}} en 5 levantamientos de silla.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · EWGSOP2",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.008"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La sarcopenia se confirma con baja masa muscular medida por {{c1::DEXA}} o bioimpedancia.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · EWGSOP2",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.008"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con fuerza de prensión baja, sarcopenia probable: {{c1::tratar ya}}, sin esperar el DEXA.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.07.1.008",
+        "1.02.1.001"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La sarcopenia severa suma bajo rendimiento físico: marcha < 0,8 m/s o TUG ≥ {{c1::20 segundos}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Sarcopenia",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.008",
+        "1.02.1.001"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La Valoración Geriátrica Integral tiene {{c1::4}} esferas: funcional, mental, clínico-nutricional y social.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · VGI",
+      "repaso": false,
+      "codigos": [
+        "1.07.5.004",
+        "1.07.5.001"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Actividades básicas de la vida diaria: Barthel o {{c1::Katz}}; instrumentales: Lawton y Brody.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · VGI funcional y mental",
+      "repaso": false,
+      "codigos": [
+        "1.07.5.004",
+        "1.07.1.008"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Barthel: {{c1::100}} es independiente y < 20 dependencia total.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · VGI funcional y mental",
+      "repaso": false,
+      "codigos": [
+        "1.07.5.004"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En deterioro cognitivo incipiente cae primero la función {{c1::instrumental}} (Lawton), no la básica (Barthel).",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.07.1.008",
+        "1.07.5.004"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Olvida pagar cuentas y manejar sus remedios pero se baña y viste sola: escala de {{c1::Lawton y Brody}}.",
+      "extra": "",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "1.07.5.004",
+        "1.02.1.001"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Pfeiffer: ≥ {{c1::3}} errores indica deterioro cognitivo que requiere estudio.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · VGI funcional y mental",
+      "repaso": false,
+      "codigos": [
+        "1.07.5.004",
+        "1.07.3.009"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Yesavage GDS-15: ≥ {{c1::5}} sugiere depresión; preguntar siempre por suicidio.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Valoración funcional y afectiva",
+      "repaso": true,
+      "codigos": [
+        "1.07.5.004",
+        "1.07.5.001"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "MNA: < {{c1::17}} desnutrición establecida; 17 a 23,5 riesgo de desnutrición.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · VGI clínica, social y EMPAM",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.001"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El EMPAM en APS aplica el {{c1::EFAM-Chile}} anual desde los 65 años.",
+      "extra": "Sin riesgo, con riesgo o riesgo de dependencia.",
+      "origen": "clase:5",
+      "fuente": "Clase · VGI clínica, social y EMPAM",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.001",
+        "1.07.1.014"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pilar del tratamiento de fragilidad y sarcopenia: ejercicio {{c1::multicomponente}} (fuerza, equilibrio y marcha).",
+      "extra": "Vivifrail; sin fármacos ni suplementos solos.",
+      "origen": "clase:7",
+      "fuente": "Clase · Cómo se revierte",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 143"
+      ],
+      "codigos": [
+        "1.07.1.008",
+        "1.07.3.004"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Aporte proteico en fragilidad y sarcopenia: {{c1::1,2–1,5 g/kg/día}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Cómo se revierte",
+      "repaso": true,
+      "codigos": [
+        "1.07.1.008"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Colecalciferol {{c1::800–2000 UI/día}} si la vitamina D está baja.",
+      "extra": "Mejora fuerza y reduce caídas.",
+      "origen": "clase:7",
+      "fuente": "Clase · Cómo se revierte",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.001",
+        "1.07.1.014"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En desnutrición del adulto mayor chileno, IMC < {{c1::23}} es bajo peso.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Desnutrición",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.007",
+        "1.02.1.001"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Metas en desnutrición geriátrica: {{c1::25–30 kcal/kg/día}} y proteínas 1–1,2 g/kg.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Desnutrición",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.001"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tamizaje de malnutrición en el EMPAM se hace con el {{c1::MNA}}.",
+      "extra": "",
+      "origen": "clase:26",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.014"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Prevención de úlceras por presión: cambiar de posición cada {{c1::2 horas}} y colchón de alivio.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Úlceras e inmovilidad",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 82"
+      ],
+      "codigos": [
+        "1.07.1.007",
+        "1.07.1.013"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Úlcera por presión estadio I: eritema que {{c1::no blanquea}}; II ampolla; III grasa; IV músculo o hueso.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Úlceras e inmovilidad",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 162"
+      ],
+      "codigos": [
+        "1.07.1.007",
+        "1.07.1.013"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En maltrato al adulto mayor se entrevista al paciente {{c1::a solas}}, se registra y se denuncia.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Maltrato",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.007"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La denuncia obligatoria del personal de salud ante sospecha de delito es dentro de {{c1::24 horas}}.",
+      "extra": "Carabineros, PDI o Ministerio Público.",
+      "origen": "clase:10",
+      "fuente": "Clase · Maltrato",
+      "repaso": true,
+      "codigos": [
+        "5.01.3.007"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-22/01_ulcera_por_presion_sacra__bailey_p50.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Úlcera por presión sacra",
+      "clave": "Escara necrótica sobre prominencia ósea sacra",
+      "conducta": "Eliminar la presión (cambios cada 2 h, colchón de alivio), desbridar, cura húmeda, nutrición",
+      "fuente": "Bailey & Love 27.ª ed., p. 50",
+      "repaso": false,
+      "codigos": [
+        "1.07.1.007",
+        "4.01.1.052"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.2",
+      "pista": "EFAM con riesgo de dependencia: ¿qué sigue?",
+      "codigos": [
+        "1.07.1.008"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.2.0.1",
+      "pista": "1 a 2 criterios de Fried: ¿clasificación y conducta?",
+      "codigos": [
+        "1.07.3.004"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2.0.2",
+      "pista": "Tres o más criterios de Fried: ¿clasificación y tratamiento?",
+      "codigos": [
+        "1.07.3.004"
+      ]
+    }
+  ]
+}

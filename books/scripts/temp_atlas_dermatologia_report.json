@@ -1,0 +1,532 @@
+{
+ "report": {
+  "warnings": [],
+  "shrunk": [],
+  "pages": 68,
+  "where": {
+   "IMG-mancha": 4,
+   "IMG-purpura-palpable": 4,
+   "IMG-eritema-nudoso": 5,
+   "IMG-vesicula-herpes": 6,
+   "IMG-ampollas-tensas": 6,
+   "IMG-habones-cto": 7,
+   "IMG-pustulas": 7,
+   "IMG-papula-molusco": 8,
+   "IMG-liquenificacion": 8,
+   "IMG-ulcera-escara": 9,
+   "IMG-comedones": 9,
+   "IMG-acne-pp": 10,
+   "IMG-acne-nq": 10,
+   "IMG-rosacea": 11,
+   "IMG-rinofima": 11,
+   "IMG-areata": 12,
+   "IMG-hamilton": 12,
+   "IMG-psoriasis-placa": 13,
+   "IMG-psoriasis-gotas": 13,
+   "IMG-pitting": 14,
+   "IMG-koebner": 14,
+   "IMG-artritis-ps": 15,
+   "IMG-psoriasis-pustulosa": 15,
+   "IMG-liquen-oral": 16,
+   "IMG-kaposi": 16,
+   "IMG-eccema-atopico": 17,
+   "IMG-melicericas": 17,
+   "IMG-contacto-irritativa": 18,
+   "IMG-contacto-alergica": 18,
+   "IMG-seborreica": 19,
+   "IMG-fototoxicidad": 19,
+   "IMG-urticaria": 20,
+   "IMG-angioedema": 20,
+   "IMG-dianas-atipicas": 21,
+   "IMG-net-mucosas": 21,
+   "IMG-net-piel": 22,
+   "IMG-ssj-labios": 22,
+   "IMG-sspe": 23,
+   "IMG-exantema-mp": 23,
+   "IMG-dress-tronco": 24,
+   "IMG-dress-cara": 24,
+   "IMG-toxidermia-fija": 25,
+   "IMG-ifd-penfigo": 25,
+   "IMG-penfigo-piel": 26,
+   "IMG-penfigo-oral": 26,
+   "IMG-penfigoide": 27,
+   "IMG-em-pie": 28,
+   "IMG-em-manos": 28,
+   "IMG-molusco": 29,
+   "IMG-tzanck": 29,
+   "IMG-zoster": 30,
+   "IMG-verruga": 30,
+   "IMG-nevo": 31,
+   "IMG-melanoma-nodular": 31,
+   "IMG-melanoma": 32,
+   "IMG-melanoma-acral": 32,
+   "IMG-cbc": 33,
+   "IMG-cbc-rodent": 33,
+   "IMG-cec": 34,
+   "IMG-cec-labio": 34,
+   "IMG-nevos-displasicos": 35,
+   "IMG-cuerno": 35,
+   "IMG-queratosis-actinica": 36,
+   "IMG-bowen": 36,
+   "IMG-tina-capitis": 37,
+   "IMG-tina-cruris": 37,
+   "IMG-tina-corporis": 38,
+   "IMG-versicolor": 38,
+   "IMG-escabiosis": 39,
+   "IMG-pitiriasis-rosada": 39,
+   "IMG-tina-pedis": 40,
+   "IMG-queratosis-seborreica": 40,
+   "IMG-quiste": 41,
+   "IMG-lipomas": 41,
+   "IMG-dermatofibroma": 42,
+   "IMG-queloide": 42,
+   "IMG-hemangioma-superficial": 43,
+   "IMG-hemangioma-mixto": 43,
+   "IMG-hemangioma-periocular": 44,
+   "IMG-hemangioma-segmentario": 44,
+   "IMG-mancha-salmon": 45,
+   "IMG-vino-oporto": 45,
+   "IMG-arana": 46,
+   "IMG-loxo-placa": 46,
+   "IMG-loxo-escara": 47,
+   "IMG-loxo-ulcera": 47,
+   "PAIRS": 48,
+   "SIGNS": 55,
+   "TYPES": 57,
+   "AUTO": 58,
+   "SOL": 67
+  }
+ },
+ "tomo": [
+  {
+   "id": "mancha",
+   "p": 6,
+   "exact": true
+  },
+  {
+   "id": "eritema-nudoso",
+   "p": 6,
+   "exact": true
+  },
+  {
+   "id": "purpura-palpable",
+   "p": 6,
+   "exact": false
+  },
+  {
+   "id": "vesicula-herpes",
+   "p": 6,
+   "exact": false
+  },
+  {
+   "id": "ampollas-tensas",
+   "p": 6,
+   "exact": false
+  },
+  {
+   "id": "habones-cto",
+   "p": 6,
+   "exact": false
+  },
+  {
+   "id": "pustulas",
+   "p": 6,
+   "exact": false
+  },
+  {
+   "id": "papula-molusco",
+   "p": 6,
+   "exact": false
+  },
+  {
+   "id": "liquenificacion",
+   "p": 6,
+   "exact": false
+  },
+  {
+   "id": "ulcera-escara",
+   "p": 6,
+   "exact": false
+  },
+  {
+   "id": "comedones",
+   "p": 10,
+   "exact": true
+  },
+  {
+   "id": "acne-pp",
+   "p": 10,
+   "exact": true
+  },
+  {
+   "id": "acne-nq",
+   "p": 10,
+   "exact": true
+  },
+  {
+   "id": "rosacea",
+   "p": 14,
+   "exact": true
+  },
+  {
+   "id": "rinofima",
+   "p": 14,
+   "exact": true
+  },
+  {
+   "id": "areata",
+   "p": 18,
+   "exact": true
+  },
+  {
+   "id": "hamilton",
+   "p": 18,
+   "exact": true
+  },
+  {
+   "id": "psoriasis-placa",
+   "p": 26,
+   "exact": true
+  },
+  {
+   "id": "psoriasis-gotas",
+   "p": 25,
+   "exact": true
+  },
+  {
+   "id": "pitting",
+   "p": 26,
+   "exact": true
+  },
+  {
+   "id": "koebner",
+   "p": 26,
+   "exact": true
+  },
+  {
+   "id": "artritis-ps",
+   "p": 25,
+   "exact": true
+  },
+  {
+   "id": "psoriasis-pustulosa",
+   "p": 25,
+   "exact": true
+  },
+  {
+   "id": "liquen-oral",
+   "p": 27,
+   "exact": true
+  },
+  {
+   "id": "kaposi",
+   "p": 32,
+   "exact": true
+  },
+  {
+   "id": "eccema-atopico",
+   "p": 30,
+   "exact": true
+  },
+  {
+   "id": "melicericas",
+   "p": 30,
+   "exact": true
+  },
+  {
+   "id": "contacto-irritativa",
+   "p": 35,
+   "exact": true
+  },
+  {
+   "id": "contacto-alergica",
+   "p": 34,
+   "exact": false
+  },
+  {
+   "id": "seborreica",
+   "p": 35,
+   "exact": true
+  },
+  {
+   "id": "fototoxicidad",
+   "p": 34,
+   "exact": true
+  },
+  {
+   "id": "urticaria",
+   "p": 41,
+   "exact": true
+  },
+  {
+   "id": "angioedema",
+   "p": 39,
+   "exact": true
+  },
+  {
+   "id": "dianas-atipicas",
+   "p": 45,
+   "exact": true
+  },
+  {
+   "id": "net-mucosas",
+   "p": 46,
+   "exact": true
+  },
+  {
+   "id": "net-piel",
+   "p": 45,
+   "exact": true
+  },
+  {
+   "id": "ssj-labios",
+   "p": 46,
+   "exact": true
+  },
+  {
+   "id": "sspe",
+   "p": 47,
+   "exact": true
+  },
+  {
+   "id": "exantema-mp",
+   "p": 52,
+   "exact": true
+  },
+  {
+   "id": "dress-tronco",
+   "p": 50,
+   "exact": true
+  },
+  {
+   "id": "dress-cara",
+   "p": 49,
+   "exact": true
+  },
+  {
+   "id": "toxidermia-fija",
+   "p": 52,
+   "exact": true
+  },
+  {
+   "id": "ifd-penfigo",
+   "p": 54,
+   "exact": true
+  },
+  {
+   "id": "penfigo-piel",
+   "p": 54,
+   "exact": true
+  },
+  {
+   "id": "penfigoide",
+   "p": 54,
+   "exact": true
+  },
+  {
+   "id": "penfigo-oral",
+   "p": 54,
+   "exact": true
+  },
+  {
+   "id": "em-pie",
+   "p": 62,
+   "exact": true
+  },
+  {
+   "id": "em-manos",
+   "p": 62,
+   "exact": true
+  },
+  {
+   "id": "molusco",
+   "p": 61,
+   "exact": true
+  },
+  {
+   "id": "tzanck",
+   "p": 61,
+   "exact": true
+  },
+  {
+   "id": "zoster",
+   "p": 61,
+   "exact": true
+  },
+  {
+   "id": "verruga",
+   "p": 62,
+   "exact": true
+  },
+  {
+   "id": "nevo",
+   "p": 69,
+   "exact": true
+  },
+  {
+   "id": "melanoma-nodular",
+   "p": 68,
+   "exact": true
+  },
+  {
+   "id": "melanoma",
+   "p": 68,
+   "exact": true
+  },
+  {
+   "id": "melanoma-acral",
+   "p": 68,
+   "exact": false
+  },
+  {
+   "id": "cbc",
+   "p": 74,
+   "exact": true
+  },
+  {
+   "id": "cbc-rodent",
+   "p": 74,
+   "exact": true
+  },
+  {
+   "id": "cec",
+   "p": 74,
+   "exact": true
+  },
+  {
+   "id": "cec-labio",
+   "p": 74,
+   "exact": false
+  },
+  {
+   "id": "nevos-displasicos",
+   "p": 78,
+   "exact": true
+  },
+  {
+   "id": "cuerno",
+   "p": 78,
+   "exact": true
+  },
+  {
+   "id": "queratosis-actinica",
+   "p": 78,
+   "exact": true
+  },
+  {
+   "id": "bowen",
+   "p": 78,
+   "exact": false
+  },
+  {
+   "id": "tina-capitis",
+   "p": 82,
+   "exact": true
+  },
+  {
+   "id": "tina-cruris",
+   "p": 82,
+   "exact": false
+  },
+  {
+   "id": "tina-corporis",
+   "p": 82,
+   "exact": true
+  },
+  {
+   "id": "versicolor",
+   "p": 84,
+   "exact": true
+  },
+  {
+   "id": "escabiosis",
+   "p": 82,
+   "exact": true
+  },
+  {
+   "id": "pitiriasis-rosada",
+   "p": 82,
+   "exact": true
+  },
+  {
+   "id": "tina-pedis",
+   "p": 83,
+   "exact": true
+  },
+  {
+   "id": "queratosis-seborreica",
+   "p": 88,
+   "exact": true
+  },
+  {
+   "id": "quiste",
+   "p": 88,
+   "exact": true
+  },
+  {
+   "id": "lipomas",
+   "p": 88,
+   "exact": true
+  },
+  {
+   "id": "dermatofibroma",
+   "p": 90,
+   "exact": true
+  },
+  {
+   "id": "queloide",
+   "p": 87,
+   "exact": false
+  },
+  {
+   "id": "hemangioma-superficial",
+   "p": 90,
+   "exact": true
+  },
+  {
+   "id": "hemangioma-mixto",
+   "p": 87,
+   "exact": false
+  },
+  {
+   "id": "hemangioma-periocular",
+   "p": 102,
+   "exact": true
+  },
+  {
+   "id": "hemangioma-segmentario",
+   "p": 87,
+   "exact": false
+  },
+  {
+   "id": "mancha-salmon",
+   "p": 87,
+   "exact": false
+  },
+  {
+   "id": "vino-oporto",
+   "p": 87,
+   "exact": true
+  },
+  {
+   "id": "arana",
+   "p": 92,
+   "exact": true
+  },
+  {
+   "id": "loxo-placa",
+   "p": 92,
+   "exact": true
+  },
+  {
+   "id": "loxo-escara",
+   "p": 92,
+   "exact": true
+  },
+  {
+   "id": "loxo-ulcera",
+   "p": 92,
+   "exact": false
+  }
+ ]
+}

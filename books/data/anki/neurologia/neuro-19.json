@@ -1,0 +1,466 @@
+{
+  "classId": "neuro-19",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La frente se salva en la parálisis facial central porque la mitad superior de la cara tiene inervación cortical {{c1::bilateral}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Por qué la frente separa?",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.016"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Parálisis facial periférica: compromete {{c1::toda la hemicara ipsilateral}}, incluida la frente.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Parálisis periférica",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.016"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Parálisis facial central: respeta la {{c1::frente y el cierre ocular}}; solo cae el 2/3 inferior contralateral.",
+      "extra": "Piensa en ACV.",
+      "origen": "clase:3",
+      "fuente": "Clase · Parálisis central",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.016"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signo de Bell: al intentar cerrar el ojo, el globo sube y se ve la {{c1::esclerótica}} (lagoftalmos).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Parálisis periférica",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.016"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hiperacusia en la parálisis periférica se debe a la parálisis del músculo del {{c1::estribo}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Parálisis periférica",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.016"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La ageusia de los 2/3 anteriores de la lengua en la parálisis periférica se debe a la cuerda del {{c1::tímpano}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Parálisis periférica",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.016"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El dolor retroauricular precede a la parálisis de Bell en el {{c1::60 %}} de los casos.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Parálisis periférica",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.016"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La parálisis de Bell es el {{c1::70–80 %}} de las parálisis faciales agudas.",
+      "extra": "Edema del nervio, reactivación de VHS-1.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Manejo de Bell",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.016"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Parálisis facial que respeta la frente: {{c1::TAC de encéfalo urgente}}, no prednisona como Bell.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.016"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Parálisis de Bell: prednisona {{c1::60 mg/día}} (1 mg/kg) por 7 días, luego descenso.",
+      "extra": "El libro en puntos clave dice 7 a 10 días.",
+      "origen": "clase:4",
+      "fuente": "Clase · Bell: corticoide y ojo",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.016"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La prednisona en Bell se inicia antes de las {{c1::72 horas}} desde el debut.",
+      "extra": "Es la única intervención con evidencia clase I.",
+      "origen": "clase:4",
+      "fuente": "Clase · Bell: corticoide y ojo",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.016"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En Bell típica no se indica {{c1::aciclovir}} de rutina; el antiviral va solo en Ramsay Hunt.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.016"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Protección ocular obligatoria en Bell: lágrimas artificiales cada 1 a 2 horas, {{c1::ungüento y oclusión}} nocturna.",
+      "extra": "Evita queratitis por exposición.",
+      "origen": "clase:4",
+      "fuente": "Clase · Bell: corticoide y ojo",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.016"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Más del {{c1::85 %}} de los Bell mejora en 3 semanas; recuperación completa a los 3–6 meses.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Bell: corticoide y ojo",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.016"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Derivar una parálisis de Bell si no mejora en {{c1::3 semanas}}, afecta otros pares, es bilateral o hay masa parotídea.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Bell: corticoide y ojo",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.016"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ramsay Hunt: parálisis facial periférica + otalgia + {{c1::vesículas}} en conducto auditivo y concha (varicela zóster).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Central y Ramsay Hunt",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.016"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Ramsay Hunt: prednisona más {{c1::valaciclovir}} 1 g cada 8 horas por 7 a 10 días.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Central y Ramsay Hunt",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.016"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Parálisis facial bilateral: pensar en {{c1::Guillain-Barré}} y derivar; no llamarla Bell.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.016"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El túnel carpiano comprime el nervio {{c1::mediano}} bajo el retináculo flexor.",
+      "extra": "Es la mononeuropatía por atrapamiento más frecuente.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Atrapamientos",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.014"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Túnel carpiano: parestesias nocturnas en pulgar, índice, medio y mitad del anular, que alivian al {{c1::sacudir la mano}} (signo de Flick).",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Túnel carpiano",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 97",
+        "EUNACOM Julio 2013 · Pregunta 126",
+        "EUNACOM Julio 2024 · Pregunta 111"
+      ],
+      "codigos": [
+        "1.11.1.023"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Signo de Phalen: flexión forzada de ambas muñecas a 90° durante {{c1::60 segundos}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Atrapamientos",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.014"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El signo de Tinel es la {{c1::percusión}} sobre el túnel carpiano que reproduce la descarga eléctrica en los dedos.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Atrapamientos",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.014"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La atrofia de la eminencia tenar es un signo de {{c1::severidad}} del túnel carpiano.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Túnel carpiano",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.023"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Túnel carpiano leve a moderado: férula nocturna en posición neutra por {{c1::4 a 8 semanas}}.",
+      "extra": "Puede sumarse infiltración con corticoide.",
+      "origen": "clase:7",
+      "fuente": "Clase · Férula o cirugía",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.023",
+        "1.02.4.010"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Túnel carpiano con atrofia tenar: {{c1::cirugía descompresiva}}, previa EMG; no seguir solo con férula.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.023"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El examen que confirma el túnel carpiano es la {{c1::electromiografía}} con velocidad de conducción.",
+      "extra": "Un cuadro típico no la necesita.",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz EUNACOM Dic 2025",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.010",
+        "1.11.1.023"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Nervio cubital: parestesias del {{c1::4.º y 5.º dedo}}, con signo de Froment y garra cubital.",
+      "extra": "Segundo atrapamiento más frecuente, en el codo.",
+      "origen": "clase:7",
+      "fuente": "Clase · Férula o cirugía",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.014"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pie caído con estepaje tras cruzar las piernas: nervio {{c1::peroneo común}} en el cuello de la fíbula.",
+      "extra": "Conserva flexión plantar e inversión.",
+      "origen": "clase:7",
+      "fuente": "Clase · Férula o cirugía",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.010",
+        "1.10.1.014"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mano caída tras sueño profundo o ebriedad con tríceps conservado: nervio {{c1::radial}} (parálisis del sábado en la noche).",
+      "extra": "Mejora en semanas; férula en extensión.",
+      "origen": "clase:8",
+      "fuente": "Clase · Cubital, radial y cutáneo femoral",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 30",
+        "EUNACOM Julio 2015 · Pregunta 6"
+      ],
+      "codigos": [
+        "1.10.1.014"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-19/02_central-vs-periferica__cto-neuro_p14.jpg",
+      "pregunta": "¿Qué distingue central de periférica?",
+      "diagnostico": "Parálisis facial central vs periférica",
+      "clave": "Central respeta frente y cierre ocular; periférica toma toda la hemicara",
+      "conducta": "Central: TAC urgente; periférica sin signos atípicos: prednisona <72 h y protección ocular",
+      "fuente": "Manual CTO Neurología 14.ª ed., p. 14",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.016"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-19/03_vesiculas-en-concha-ramsay-hunt__bailey-love_p736.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Síndrome de Ramsay Hunt",
+      "clave": "Vesículas en la concha del pabellón con otalgia y parálisis facial periférica",
+      "conducta": "Prednisona más valaciclovir precoz",
+      "fuente": "Bailey & Love 27.ª ed., p. 736",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.016"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-19/05_mano_caida_radial__acd_p192.jpg",
+      "pregunta": "¿Qué muestra y qué nervio es?",
+      "diagnostico": "Mano caída por neuropatía radial",
+      "clave": "No extiende muñeca ni dedos; tríceps conservado",
+      "conducta": "Quitar la compresión y férula en extensión; buen pronóstico",
+      "fuente": "Atlas of Clinical Diagnosis, Fig. 9.136",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.014",
+        "1.02.4.010"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Puede arrugar la frente: ¿qué sospechas y qué pides?",
+      "codigos": [
+        "1.10.1.016"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Otalgia y vesículas con parálisis: ¿qué tratamiento?",
+      "codigos": [
+        "1.10.1.016"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.2",
+      "pista": "Parálisis sin otros signos: ¿qué indicas?",
+      "codigos": [
+        "1.10.1.016"
+      ]
+    }
+  ]
+}

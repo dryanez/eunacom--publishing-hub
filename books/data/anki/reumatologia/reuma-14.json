@@ -1,0 +1,437 @@
+{
+  "classId": "reuma-14",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El fenómeno de Raynaud es un episodio reversible de {{c1::vasoespasmo}} de arterias digitales gatillado por frío o estrés emocional.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fases del Raynaud: palidez (blanco), {{c1::cianosis}} (azul) y rubor (rojo).",
+      "extra": "No siempre se ven las 3 fases.",
+      "origen": "clase:1",
+      "fuente": "Clase · Tres fases",
+      "repaso": true,
+      "imagen": "biblioteca/08_reumatologia/reuma-14/01_raynaud-palidez-cianosis__amir-reuma_p98.jpg",
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La fase de {{c1::palidez}} es mandatoria para el diagnóstico de Raynaud.",
+      "extra": "Vasoespasmo con detención del flujo capilar digital.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fases",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La fase azul (cianosis) del Raynaud se debe a {{c1::estasis de sangre desoxigenada}} en los capilares.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fases",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La fase roja (rubor) del Raynaud corresponde a {{c1::reperfusión}} tras el cese del frío, con dolor pulsátil.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fases",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El Raynaud primario representa el {{c1::80-90%}} de los casos.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Primario vs secundario",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Raynaud primario: mujeres de {{c1::15 a 30 años}}, simétrico y bilateral, sin úlceras.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Primario vs Secundario",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Raynaud primario: ANA {{c1::negativos}}, VHS normal y capilaroscopía normal.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Primario vs Secundario",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Raynaud secundario: inicio típico después de los {{c1::30-40 años}}, frecuentemente asimétrico.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Primario vs Secundario",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Raynaud secundario: hay daño trófico con {{c1::úlceras digitales}} y cicatrices puntiformes (pitting scars).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Primario vs Secundario",
+      "repaso": false,
+      "imagen": "biblioteca/09_reumatologia/reuma-12/atlas_046_ulceras_digitales_de_pulpejos_.jpg",
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa más frecuente de Raynaud secundario es la {{c1::esclerosis sistémica}} (> 95%).",
+      "extra": "Luego LES (30%), Sjögren, dermatomiositis y vasculitis.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Secundario",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 31",
+        "EUNACOM Diciembre 2017 · Pregunta 45",
+        "EUNACOM Julio 2024 · Pregunta 16"
+      ],
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Raynaud intenso en mujer de 45 años con disfagia progresiva: {{c1::esclerodermia}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro · Pregunta AEE",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 31"
+      ],
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El examen no invasivo de elección para diferenciar Raynaud primario de secundario es la {{c1::capilaroscopía periungueal}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Capilaroscopía normal: asas capilares paralelas en {{c1::horquilla}}, regulares y uniformes.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Capilaroscopía",
+      "repaso": false,
+      "imagen": "biblioteca/08_reumatologia/reuma-14/02_capilaroscopia_alt1__cto-reuma_p94.jpg",
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Patrón esclerodérmico: megacapilares (asas gigantes) de más de {{c1::50 micras}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Capilaroscopía",
+      "repaso": false,
+      "imagen": "biblioteca/08_reumatologia/reuma-14/02_capilaroscopia__amir-reuma_p100.jpg",
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Capilaroscopía patológica: megacapilares, microhemorragias en empalizada y {{c1::áreas avasculares}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Capilaroscopía",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Medidas obligatorias en todo Raynaud: abrigo térmico y {{c1::cese absoluto del tabaco}}.",
+      "extra": "La nicotina es un potente vasoconstrictor.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En Raynaud están contraindicados los {{c1::betabloqueadores}}, descongestionantes adrenérgicos, ergotamina y triptanes.",
+      "extra": "Predomina el tono alfa vasoconstrictor.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz EUNACOM 2023",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento farmacológico de primera línea del Raynaud: {{c1::calcioantagonista dihidropiridínico}} (nifedipino).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Nifedipino de liberación prolongada: iniciar a {{c1::10-20 mg/día}} y titular hasta 30-60 mg/día.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa al nifedipino: amlodipino {{c1::5 a 10 mg/día}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En Raynaud severo con úlceras se usa sildenafil {{c1::20-50 mg cada 8 h}}.",
+      "extra": "También iloprost endovenoso o bosentán.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Para úlceras isquémicas activas graves se usa el prostanoide endovenoso {{c1::iloprost}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Manejo escalonado",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sospecha de esclerosis sistémica en Raynaud: ANA con patrón {{c1::nucleolar o anticentrómero}}.",
+      "extra": "También dedos tumefactos, telangiectasias, reflujo o disnea.",
+      "origen": "clase:5",
+      "fuente": "Clase · Sospecha de esclerosis sistémica",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "ACR/EULAR 2013: el engrosamiento cutáneo sobre las MCF da {{c1::9}} puntos y basta por sí solo.",
+      "extra": "Con 9 o más puntos se clasifica como esclerosis sistémica.",
+      "origen": "clase:5",
+      "fuente": "Clase · Criterios ACR/EULAR 2013",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Conducta inicial en APS ante Raynaud sospechoso: ANA, hemograma, creatinina, orina, {{c1::Rx de tórax}} y capilaroscopía.",
+      "extra": "Luego abrigo, calcioantagonista y derivar.",
+      "origen": "clase:5",
+      "fuente": "Clase · Conducta en APS",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síndrome de vibración mano-brazo (martillos neumáticos, motosierras) es una causa {{c1::ocupacional}} de Raynaud secundario.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Causas secundarias",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Mujer de 21 años con episodios simétricos trifásicos, sin úlceras, ANA (-) y capilaroscopía normal: el error es {{c1::tratar como conectivopatía}}; basta abrigo y educación.",
+      "extra": "Raynaud primario.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-14/01_raynaud-palidez-cianosis_alt1_1__cto-reuma_p91.jpg",
+      "pregunta": true,
+      "diagnostico": "Fase de palidez del Raynaud",
+      "clave": "Dedos blancos céreos por vasoespasmo tras el frío",
+      "conducta": "Abrigo, cese de tabaco y buscar causa secundaria (ANA, capilaroscopía)",
+      "fuente": "Manual CTO Reumatología 14.ª ed., p. 91",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-14/02_capilaroscopia__amir-reuma_p100.jpg",
+      "pregunta": true,
+      "diagnostico": "Capilaroscopía con megacapilares",
+      "clave": "Asas dilatadas gigantes, microhemorragias y áreas avasculares",
+      "conducta": "Raynaud secundario: ANA y derivar a reumatología por esclerosis sistémica",
+      "fuente": "Manual AMIR Reumatología, p. 100",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.009"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Raynaud con úlceras o inicio tardío: ¿qué sospechas y qué pides?",
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0.0",
+      "pista": "Úlcera isquémica activa o necrosis: ¿qué haces?",
+      "codigos": [
+        "1.11.1.009"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.0",
+      "pista": "Capilaroscopía normal y ANA negativos: ¿conducta?",
+      "codigos": [
+        "1.11.1.009"
+      ]
+    }
+  ]
+}

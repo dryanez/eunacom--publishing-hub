@@ -1,0 +1,570 @@
+{
+  "classId": "diab-06",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la DM2 recién diagnosticada se inicia {{c1::metformina}} junto con el estilo de vida, sin meses de «prueba de dieta».",
+      "extra": "Revierte la glucotoxicidad y protege la célula beta.",
+      "origen": "clase:1",
+      "fuente": "Clase · Punto de partida",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 132",
+        "EUNACOM Diciembre 2022 · Pregunta 162"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Pilar basal: bajar {{c1::5 a 10 %}} del peso y hacer 150 minutos semanales de ejercicio aeróbico.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Punto de partida",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La metformina es primera línea: barata, neutra en peso, sin hipoglicemia en monoterapia y con menos eventos CV (estudio {{c1::UKPDS}}).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Metformina",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La metformina se inicia con {{c1::500 u 850 mg}} una vez al día con la comida principal.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Metformina",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La metformina se sube cada {{c1::1 a 2 semanas}} hasta 1.700–2.550 mg/día.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Metformina",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dosis óptima de metformina: {{c1::1.700 a 2.550 mg/día}}.",
+      "extra": "Habitualmente 850 mg cada 12 h o cada 8 h.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Metformina",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Los efectos adversos más frecuentes de la metformina son {{c1::digestivos}} (20–30 %) y dependen de la dosis.",
+      "extra": "Se minimizan titulando lento y con alimentos.",
+      "origen": "clase:2",
+      "fuente": "Clase · Metformina",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "A largo plazo la metformina puede causar déficit de {{c1::vitamina B12}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Metformina",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Anciano post-IAM con diarrea por metformina: se reemplaza por {{c1::sitagliptina}}.",
+      "extra": "Se prefiere sobre glibenclamida por fragilidad.",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Dic 2018",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 107"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El control de HbA1c tras iniciar o ajustar el tratamiento se hace a los {{c1::3 meses}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Control a los tres meses",
+      "repaso": true,
+      "codigos": [
+        "1.02.4.017",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Si a los 3 meses con dosis plena de metformina la HbA1c es > {{c1::7 %}}, se pasa de inmediato a biterapia.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Control a los tres meses",
+      "repaso": true,
+      "codigos": [
+        "1.02.4.017",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "HbA1c > 7 % a los 3 meses con dosis plena: se mantiene metformina más {{c1::segundo fármaco}}; el error es esperar o cambiar la metformina.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.017",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En APS el segundo fármaco de la canasta GES es la {{c1::glibenclamida}} 2,5 a 5 mg/día antes del desayuno.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Control a los tres meses",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "HbA1c 8,3 % bajo metformina, asintomático: mantener metformina y asociar {{c1::glibenclamida}}; no insulina.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.017",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "HbA1c en meta con su tratamiento: se {{c1::mantiene sin cambios}}; el error es agregar o subir fármacos.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 105",
+        "EUNACOM Julio 2019 · Pregunta 24"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "DM2 con insuficiencia cardíaca o ERC: el segundo fármaco es un {{c1::iSGLT2}} (empagliflozina o dapagliflozina).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Segundo escalón",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En insuficiencia cardíaca se evita la {{c1::pioglitazona}} porque retiene líquido.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Segundo escalón",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "DM2 con IAM o ACV previo: se prefiere un {{c1::agonista GLP-1}} (liraglutida o semaglutida) o un iSGLT2.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Segundo escalón",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 141"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Coronariopatía con HbA1c 8,2 % bajo metformina: se agrega {{c1::empagliflozina}}.",
+      "extra": "Máximo riesgo CV: empagliflozina o liraglutida.",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Julio 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 141"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dos preguntas distintas: qué hay en APS (glibenclamida) frente a qué {{c1::protege el órgano}} (iSGLT2 o GLP-1).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Segundo escalón",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se inicia insulina de entrada con HbA1c ≥ {{c1::9–10 %}} o glicemia de ayuno > 250–300 mg/dL.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Insulinización",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 17",
+        "EUNACOM Enero 2023 · Pregunta 151"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Otras indicaciones de insulina: síntomas catabólicos, {{c1::cetonuria}}, falla de biterapia o enfermedad aguda grave.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Cuándo saltarse la escalera",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 150"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con HbA1c ≥ 9–10 %, baja de peso o cetonuria, el error es {{c1::agregar otro comprimido}}; se indica NPH más metformina.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 149",
+        "EUNACOM Julio 2017 · Pregunta 94"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Falla de biterapia a dosis máxima (metformina 2000 mg más glibenclamida 15 mg, HbA1c 8,8 %): {{c1::iniciar insulina}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Julio 2013",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 125"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síndrome nefrótico con HbA1c > 9 % en diabético obliga a {{c1::iniciar insulina NPH}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Julio 2017",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 94"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La NPH nocturna se inicia a {{c1::0,2 UI/kg}} a las 22:00 sumada a los orales.",
+      "extra": "El libro da 0,2–0,3 UI/kg en la tabla.",
+      "origen": "clase:6",
+      "fuente": "Clase · Insulina",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La NPH se sube {{c1::2 UI}} cada 3 a 4 días hasta glicemia de ayuno de 80–130 mg/dL.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Insulina",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Esquema intensificado: NPH {{c1::2 veces al día}} más cristalina antes de las comidas.",
+      "extra": "Dosis total 0,5 a 1,0 UI/kg/día.",
+      "origen": "clase:6",
+      "fuente": "Clase · Insulina",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "NPH nocturna con glicemia de 65 mg/dL a las 3 AM y ayuno alto: Somogyi, se {{c1::reduce la NPH}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Julio 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 161"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES DM2: confirmación diagnóstica en {{c1::45 días}} desde la sospecha.",
+      "extra": "Beneficiarios de 15 años y más.",
+      "origen": "clase:7",
+      "fuente": "Clase · GES",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES DM2: el tratamiento farmacológico se inicia dentro de {{c1::24 horas}} de la confirmación.",
+      "extra": "No confundir con los 45 días.",
+      "origen": "clase:7",
+      "fuente": "Clase · GES",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La canasta GES DM2 incluye metformina, glibenclamida, {{c1::insulina NPH y cristalina}}, jeringas, lancetas y glucómetro.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · GES",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Anciano de 85 años con deterioro y HbA1c 6,9 % con glibenclamida: {{c1::suspender la glibenclamida}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Agosto 2021",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 118"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La HbA1c 7,5 % en mayor de 75 años: mantener tratamiento; la meta se afloja a < {{c1::8 %}}.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Julio 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 24"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c35",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el hospitalizado con neumonía y glicemia 256 mg/dL, confirma diabetes la {{c1::HbA1c}} ≥ 6,5 %.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Pregunta real Dic 2018",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 106"
+      ],
+      "codigos": [
+        "1.02.4.017",
+        "1.02.1.005"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "¿Criterios de insulina de entrada?",
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.1",
+      "pista": "HbA1c sobre 7 % a los 3 meses: ¿qué conducta?",
+      "codigos": [
+        "1.02.4.017",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1.0",
+      "pista": "Falla de biterapia a los 3–6 meses: ¿qué sigue?",
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    }
+  ]
+}

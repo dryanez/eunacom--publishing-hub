@@ -1,0 +1,496 @@
+{
+  "classId": "endo-11",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa más frecuente de síndrome de Cushing en la práctica es la {{c1::exógena (corticoides)}}.",
+      "extra": "Orales, inyectables, tópicos o inhalados.",
+      "origen": "foto",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "imagen": "biblioteca/05_endocrinologia/endo-11/03_facies_luna_llena__commons.jpg",
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si el paciente cushingoide usa corticoides, el cuadro es {{c1::exógeno}}; no se suspenden bruscamente (eje atrófico).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Enfermedad de Cushing: {{c1::70–75%}} de las causas endógenas (microadenoma hipofisario productor de ACTH).",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Etiología",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-11/02_fenotipo-cushingoide__cto-endocrino_p76.jpg",
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La ACTH ectópica explica {{c1::10%}} de las causas endógenas.",
+      "extra": "Cáncer pulmonar microcítico y carcinoides.",
+      "origen": "clase:1",
+      "fuente": "Clase · Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Causas ACTH-independientes: {{c1::15–20%}}; adenoma suprarrenal 10% y carcinoma 5%.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un adenoma suprarrenal suprime la ACTH y deja la suprarrenal contralateral {{c1::atrófica}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · La ACTH delata el origen",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signos más discriminativos: equimosis fáciles, estrías violáceas anchas, {{c1::miopatía proximal}} y plétora facial.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Los signos que de verdad discriminan",
+      "repaso": true,
+      "imagen": "biblioteca/05_endocrinologia/endo-11/01_estrias-violaceas_2__cto-endocrino_p77.jpg",
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Las estrías del Cushing son violáceas y miden más de {{c1::1 cm}}.",
+      "extra": "Abdomen, flancos, mamas y muslos.",
+      "origen": "foto",
+      "fuente": "Clase · Los signos que de verdad discriminan",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-11/01_estrias_cushing__fitzpatrick_p1515.jpg",
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Obesidad central con giba de búfalo y cara de luna llena son frecuentes pero {{c1::poco específicas}}.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Los signos que de verdad discriminan",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-11/02_habito_cushing__bailey_p862.jpg",
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Otras manifestaciones: hipertensión resistente, diabetes, {{c1::osteoporosis con fracturas vertebrales}}, hirsutismo y depresión.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Los signos que de verdad discriminan",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el Cushing el error es pedir {{c1::ACTH o imágenes}} antes de demostrar el hipercortisolismo.",
+      "extra": "Primero 2 pruebas de primera línea alteradas.",
+      "origen": "clase:4",
+      "fuente": "Clase · Primero: demostrar el hipercortisolismo",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para confirmar hipercortisolismo se necesitan al menos {{c1::2 pruebas}} de primera línea alteradas.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Fase 1",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.006",
+        "1.03.4.007"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pruebas de primera línea: Nugent, {{c1::cortisol libre urinario 24 h}} y cortisol salival nocturno.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Pruebas de primera línea",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 18",
+        "EUNACOM Julio 2016 · Pregunta 169",
+        "EUNACOM Diciembre 2025 · Pregunta 159"
+      ],
+      "codigos": [
+        "1.03.4.007",
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Test de Nugent: dexametasona {{c1::1 mg a las 23 h}} y cortisol plasmático a las 8 h.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Pruebas de primera línea",
+      "repaso": true,
+      "codigos": [
+        "1.03.4.006",
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el Nugent normal el cortisol suprime a menos de {{c1::1,8 mcg/dL}}.",
+      "extra": "Si no suprime, hay hipercortisolismo.",
+      "origen": "clase:5",
+      "fuente": "Clase · Pruebas de primera línea",
+      "repaso": true,
+      "codigos": [
+        "1.03.4.006",
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cortisol libre urinario: idealmente {{c1::2 recolecciones}}; más de 3 veces el límite es muy sugerente.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Pruebas de primera línea",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.007",
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cortisol salival nocturno a las {{c1::23 h}}, en al menos 2 mediciones: en el Cushing no baja de noche.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Pruebas de primera línea",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.006",
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El cortisol plasmático matinal aislado {{c1::no sirve}} para diagnosticar Cushing.",
+      "extra": "Sirve en insuficiencia suprarrenal.",
+      "origen": "clase:5",
+      "fuente": "Clase · Pruebas de primera línea",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.006",
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con anticonceptivos (CBG elevada) el Nugent da falsos positivos: se pide {{c1::cortisol libre urinario}}.",
+      "extra": "",
+      "origen": "clase:20",
+      "fuente": "Clase · Quiz Perfil V3 CLU",
+      "repaso": false,
+      "codigos": [
+        "1.03.4.007",
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pseudo-Cushing: depresión severa, alcoholismo, {{c1::obesidad mórbida}} y anorexia pueden alterar las pruebas.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Fase 1",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.006",
+        "1.03.4.007"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer con estrías violáceas, equimosis y obesidad centrípeta: primera prueba {{c1::cortisol libre urinario}}.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Julio 2016",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 169"
+      ],
+      "codigos": [
+        "1.03.4.007",
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adolescente con obesidad, hipertensión, estrías, hirsutismo y acné: {{c1::síndrome de Cushing}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Julio 2013",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 27",
+        "EUNACOM Julio 2013 · Pregunta 43"
+      ],
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipercortisolismo confirmado: el paso obligatorio siguiente es la {{c1::ACTH plasmática}} de las 8 h.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Fase 2",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "ACTH menor de {{c1::5–10 pg/mL}}: Cushing ACTH-independiente, se pide TC de suprarrenales.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · La ACTH decide dónde buscar",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "ACTH sobre {{c1::15–20 pg/mL}}: ACTH-dependiente, se pide RM de silla turca.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · La ACTH decide dónde buscar",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Enfermedad de Cushing: dexametasona 8 mg {{c1::suprime más del 50%}} del cortisol basal; el ectópico no suprime.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cateterismo de senos petrosos inferiores se usa si la RM hipofisaria es {{c1::negativa o dudosa}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · La ACTH decide dónde buscar",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cushing ectópico: ACTH mayor de {{c1::100}}, hipokalemia con alcalosis, hiperpigmentación y sin fenotipo cushingoide.",
+      "extra": "Cáncer pulmonar de células pequeñas en fumador.",
+      "origen": "clase:7",
+      "fuente": "Clase · Ectópico y carcinoma suprarrenal",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Carcinoma suprarrenal: masa mayor de 4–6 cm, DHEA-S masivamente elevada y {{c1::virilización}}.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Ectópico y carcinoma suprarrenal",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-11/04_tac_masas_suprarrenales__openi.jpg",
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Enfermedad de Cushing: tratamiento con cirugía {{c1::transesfenoidal}} (éxito 80–90%).",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Cada origen tiene su cirugía",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adenoma suprarrenal: {{c1::suprarrenalectomía laparoscópica}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Cada origen tiene su cirugía",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Tras resecar un adenoma suprarrenal hay que dar {{c1::hidrocortisona 6 a 12 meses}}: la otra suprarrenal está atrófica.",
+      "extra": "",
+      "origen": "clase:22",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fármacos que bloquean la síntesis de cortisol: {{c1::ketoconazol, metirapona y osilodrostat}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Cada origen tiene su cirugía",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.006"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Paciente cushingoide sin corticoides: ¿qué haces primero?",
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Hipercortisolismo confirmado: ¿siguiente examen?",
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.0",
+      "pista": "ACTH suprimida: ¿imagen?",
+      "codigos": [
+        "1.03.1.006"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.0.1",
+      "pista": "ACTH alta o normal: ¿estudio?",
+      "codigos": [
+        "1.03.1.006"
+      ]
+    }
+  ]
+}

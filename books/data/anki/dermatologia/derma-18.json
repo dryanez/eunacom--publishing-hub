@@ -1,0 +1,491 @@
+{
+  "classId": "derma-18",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La araña de rincón es {{c1::Loxosceles laeta}}, con marca en forma de violín en el cefalotórax.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Biología",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 149"
+      ],
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Loxosceles laeta es {{c1::nocturna, sedentaria y no agresiva}}; vive en rincones oscuros de la vivienda.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Biología",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La araña muerde solo cuando es {{c1::aplastada contra la piel}}: en la cama o al vestirse y calzarse.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los accidentes ocurren dentro del domicilio, en la zona central y entre {{c1::verano y otoño}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Biología y epidemiología",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El veneno contiene {{c1::esfingomielinasa D}}, enzima dermonecrótica.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Mecanismo",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La toxina produce {{c1::trombosis microvascular}} con necrosis isquémica de piel y subcutáneo.",
+      "extra": "Activa complemento, neutrófilos y plaquetas.",
+      "origen": "clase:2",
+      "fuente": "Clase · De la toxina a la necrosis",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La forma cutánea representa {{c1::80 a 90%}} de los casos de loxoscelismo.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla cutáneo vs visceral",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.008",
+        "6.01.3.002"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La mordedura es casi {{c1::indolora}}; el dolor y el eritema aparecen a las 2 a 8 horas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Cutáneo",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "A las 6-12 horas aparece la placa {{c1::livedoide}} de bordes geográficos, con ampollas hemorrágicas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Cutáneo",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 89"
+      ],
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La lesión del loxoscelismo evoluciona a una {{c1::escara negra}} seca que se desprende dejando una úlcera de cicatrización lenta.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 149"
+      ],
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La escara se demarca en {{c1::7 a 14 días}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Cutáneo",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La lesión del loxoscelismo se extiende {{c1::hacia abajo, por gravedad}}, en 24 a 72 horas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Cutáneo",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El diagnóstico del loxoscelismo cutáneo es {{c1::clínico}}, apoyado en la captura de la araña.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Cutáneo",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El loxoscelismo cutáneo-visceral afecta a {{c1::1 a 15%}}, más a niños.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla cutáneo vs visceral",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.008",
+        "6.01.3.002"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los síntomas sistémicos del loxoscelismo visceral aparecen en las primeras {{c1::6 a 72 horas}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla cutáneo vs visceral",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Loxoscelismo visceral: hemólisis intravascular con {{c1::hemoglobinuria}} (orina oscura), ictericia y anemia.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Visceral",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Otras complicaciones del loxoscelismo visceral: CID con {{c1::trombocitopenia}} e insuficiencia renal aguda.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Visceral",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En toda mordedura sospechosa se piden hemograma, LDH, bilirrubina y creatinina, y se repiten en las primeras {{c1::48 horas}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Visceral",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Loxoscelismo cutáneo: reposo con zona elevada, {{c1::frío local}}, analgesia, antitetánica y curaciones.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En loxoscelismo cutáneo, el error es aplicar {{c1::calor local}} o hacer escisión precoz: empeoran la lesión.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La escara se debrida tardíamente, a las {{c1::2 a 4 semanas}}, cuando está demarcada.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El antibiótico en loxoscelismo cutáneo se usa solo si hay {{c1::infección secundaria}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Control diario las primeras {{c1::48 a 72 horas}} para detectar evolución sistémica.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Loxoscelismo cutáneo-visceral: {{c1::hospitalizar}} en unidad de monitoreo.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la forma visceral: hidratación endovenosa {{c1::forzada}} para proteger el riñón y corticoide endovenoso precoz.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Se dializa en loxoscelismo visceral si hay {{c1::falla renal}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El suero antiloxosceles se usa en las primeras {{c1::24 a 48 horas}}, con criterio del toxicólogo.",
+      "extra": "Su eficacia disminuye con el tiempo.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El {{c1::CITUC}} asesora toxicológicamente las 24 horas.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diferenciales de loxoscelismo cutáneo: pioderma gangrenoso, ectima, {{c1::fasceítis necrotizante}} y celulitis.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Cutáneo",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Prevención: separar la cama de la pared al menos {{c1::20 cm}} y sacudir ropa y calzado antes de usarlos.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Higiene de la vivienda",
+      "repaso": true,
+      "codigos": [
+        "6.01.3.002"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Prevención: aspirar los rincones {{c1::semanalmente}}, retirando telas y ootecas, y sellar grietas.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Higiene de la vivienda",
+      "repaso": false,
+      "codigos": [
+        "6.01.3.002"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/19_dermatologia/derma-18/01_arana-de-rincon-violin__nelson_p5752.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Loxosceles laeta (araña de rincón)",
+      "clave": "Marca en forma de violín en el cefalotórax",
+      "conducta": "Identificar; no manipular con la mano; prevenir en la vivienda",
+      "fuente": "Nelson 22.ª ed., Fig. 768.4",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.008",
+        "6.01.3.002"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/19_dermatologia/derma-18/02_loxoscelismo-placa-violacea__nelson_p5753.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Loxoscelismo cutáneo, placa livedoide",
+      "clave": "Placa violácea de bordes geográficos con zonas pálidas isquémicas",
+      "conducta": "Reposo, frío, analgesia; laboratorio y control en 48-72 h",
+      "fuente": "Nelson 22.ª ed., cap. 768",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/19_dermatologia/derma-18/05_loxoscelismo-escara-negra__sherman_p798.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Escara negra del loxoscelismo",
+      "clave": "Escara necrótica seca con borde violáceo y halo eritematoso",
+      "conducta": "No escisión precoz; debridar a las 2-4 semanas",
+      "fuente": "Atlas of Clinical Emergency Medicine (Sherman), p. 798",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.008"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Sin síntomas sistémicos: ¿qué controlas a las 48-72 h?",
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0",
+      "pista": "Laboratorio normal: ¿cuándo se debrida la escara?",
+      "codigos": [
+        "6.01.2.008"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.0",
+      "pista": "Fiebre, ictericia y orina oscura: ¿conducta?",
+      "codigos": [
+        "6.01.2.008"
+      ]
+    }
+  ]
+}

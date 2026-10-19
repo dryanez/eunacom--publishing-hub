@@ -1,0 +1,485 @@
+{
+  "classId": "endo-07",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El fármaco de primera elección en Graves es el {{c1::tiamazol}}.",
+      "extra": "Una toma al día, más potente y mejor tolerado que el PTU.",
+      "origen": "clase:1",
+      "fuente": "Clase · Tiamazol vs PTU",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tiamazol: {{c1::10 a 30 mg}} en una toma diaria.",
+      "extra": "Vida media larga.",
+      "origen": "clase:1",
+      "fuente": "Clase · Tiamazol vs PTU",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con tiamazol la remisión ocurre en {{c1::40 a 50%}}; la otra mitad recae.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Tiamazol vs PTU",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "PTU: {{c1::50 a 100 mg}} cada 8 horas, por su vida media corta.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Tiamazol vs PTU",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Escenarios exclusivos del PTU: primer trimestre del embarazo y {{c1::tormenta tiroidea}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El PTU en tormenta tiroidea sirve porque inhibe la conversión periférica de {{c1::T4 a T3}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Tiamazol vs PTU",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Riesgo propio del PTU: {{c1::hepatitis fulminante}}; ambas tionamidas dan agranulocitosis.",
+      "extra": "Por eso el PTU se limita a dos escenarios.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tiamazol: ventaja sobre PTU, menor riesgo de {{c1::falla hepática fulminante}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Tiamazol vs PTU",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El primer episodio de Graves en un joven se trata con tiamazol por {{c1::12 a 18 meses}}.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · ¿Quién necesita tratamiento definitivo?",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-07/02_gammagrafia-graves-captacion-difusa__amir-endocrino_p44.jpg",
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El bocio multinodular tóxico y el adenoma tóxico {{c1::no remiten con fármacos}}: se tratan de forma definitiva.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "imagen": "biblioteca/05_endocrinologia/endo-07/01_gammagrafia-adenoma-toxico-bmn__cto-endocrino_p57.jpg",
+      "codigos": [
+        "4.01.1.034",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cintigrama con varias áreas calientes y frías: {{c1::bocio multinodular tóxico}}.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Quién necesita tratamiento",
+      "repaso": false,
+      "imagen": "biblioteca/05_endocrinologia/endo-07/01_gammagrafia-adenoma-toxico-bmn_alt1_1__amir-endocrino_p44.jpg",
+      "codigos": [
+        "4.01.1.034",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tratamiento definitivo (radioyodo o cirugía) en Graves: tras una {{c1::recidiva}} luego de un ciclo completo de tionamidas.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · ¿Quién necesita tratamiento definitivo?",
+      "repaso": false,
+      "codigos": [
+        "4.01.1.034",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El radioyodo actúa con radiación {{c1::beta}} sobre los folículos, con efecto en 6 a 16 semanas.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Radioyodo",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Indicaciones del radioyodo: recidiva de Graves, {{c1::BMNT y adenoma tóxico}}, o contraindicación quirúrgica.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Radioyodo: contraindicación absoluta en {{c1::embarazo y lactancia}}.",
+      "extra": "Se exige beta-hCG negativa antes de la dosis.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras el radioyodo se asegura anticoncepción eficaz por al menos {{c1::6 meses}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": true,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Graves recidivado, sin orbitopatía, que planea embarazo: con radioyodo se exige {{c1::beta-hCG negativa y anticoncepción 6 meses}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras radioyodo, el hipotiroidismo permanente ocurre en más del {{c1::80 a 90%}}.",
+      "extra": "No es una falla: es el objetivo de la ablación.",
+      "origen": "clase:3",
+      "fuente": "Clase · Radioyodo",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Después del radioyodo o la tiroidectomía total se da {{c1::levotiroxina de por vida}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "4.01.1.034",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El radioyodo puede empeorar la orbitopatía activa, por lo que requiere {{c1::corticoide profiláctico}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Radioyodo",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cirugía de primera línea en bocio mayor de {{c1::80 g}} o con síntomas compresivos.",
+      "extra": "Disfagia, disfonía, estridor, compresión traqueal.",
+      "origen": "foto",
+      "fuente": "Clase · ¿Cuándo la cirugía va primero?",
+      "repaso": true,
+      "imagen": "biblioteca/05_endocrinologia/endo-07/atlas_100_bocio_compresivo_gigante_con_d.jpg",
+      "codigos": [
+        "4.01.1.034",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Nódulo sospechoso de cáncer (Bethesda {{c1::IV, V o VI}}) en hipertiroidismo: tiroidectomía total.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · ¿Cuándo la cirugía va primero?",
+      "repaso": false,
+      "codigos": [
+        "4.01.1.034",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Orbitopatía moderada a severa que rechaza o contraindica el radioyodo: {{c1::tiroidectomía total}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · ¿Cuándo la cirugía va primero?",
+      "repaso": false,
+      "codigos": [
+        "4.01.1.034",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Preparación de la tiroidectomía: eutiroidismo con tiamazol y {{c1::Lugol}} 7 a 10 días antes.",
+      "extra": "Evita tormenta intraoperatoria y reduce el sangrado.",
+      "origen": "clase:14",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "4.01.1.034",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Lugol preoperatorio: {{c1::3 a 5 gotas cada 8 horas}}.",
+      "extra": "Alternativa: SSKI (solución saturada de yoduro de potasio).",
+      "origen": "clase:5",
+      "fuente": "Clase · Antes de pabellón",
+      "repaso": false,
+      "codigos": [
+        "4.01.1.034",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Lugol actúa por el efecto {{c1::Wolff-Chaikoff}}: frena la secreción hormonal y la vascularización.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Antes de pabellón",
+      "repaso": false,
+      "codigos": [
+        "4.01.1.034",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Complicaciones de la tiroidectomía total: {{c1::hipoparatiroidismo}} (hipocalcemia) y lesión del nervio laríngeo recurrente (disfonía).",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Complicaciones y controles",
+      "repaso": false,
+      "codigos": [
+        "4.01.1.034",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El hipoparatiroidismo permanente tras tiroidectomía total ocurre en {{c1::1 a 2%}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Complicaciones y controles",
+      "repaso": false,
+      "codigos": [
+        "4.01.1.034",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tiroidectomía reciente con convulsión y calcemia 6,3 mg/dl: administrar {{c1::calcio endovenoso}}.",
+      "extra": "Hipoparatiroidismo postquirúrgico sintomático.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Julio 2024",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Control con tiamazol: perfil tiroideo con T4L a las {{c1::4 a 6 semanas}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Complicaciones y controles",
+      "repaso": false,
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras radioyodo o cirugía, se controla la TSH {{c1::anualmente}} para pesquisar hipotiroidismo.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Complicaciones y controles",
+      "repaso": false,
+      "codigos": [
+        "4.01.1.034",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipertiroidismo sin bocio ni exoftalmo: el examen para la causa es la {{c1::cintigrafía tiroidea}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "Banco de preguntas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 35"
+      ],
+      "codigos": [
+        "4.01.1.034",
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer de 35 años con exoftalmo, bocio difuso y TSH suprimida: {{c1::Graves-Basedow}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "Banco de preguntas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 149"
+      ],
+      "codigos": [
+        "4.01.1.034",
+        "1.03.1.003"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Primer episodio de Graves: ¿tratamiento y duración?",
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Recidiva con compresión, cáncer u orbitopatía severa: ¿qué haces?",
+      "codigos": [
+        "1.03.1.003"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "Recidiva o nodular sin compresión: ¿qué haces?",
+      "codigos": [
+        "1.03.1.003"
+      ]
+    }
+  ]
+}

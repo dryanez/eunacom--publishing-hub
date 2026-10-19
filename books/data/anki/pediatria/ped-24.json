@@ -1,0 +1,449 @@
+{
+  "classId": "ped-24",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El paro pediátrico suele ser secundario a {{c1::hipoxia o shock}}, rara vez de origen cardíaco primario.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Causas",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.020"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El ritmo más frecuente del paro pediátrico es no desfibrilable (asistolia o AESP): {{c1::85-90%}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Paro en el niño",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.020"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La FV o TV sin pulso (ritmo desfibrilable) explica solo el {{c1::5-15%}} de los paros pediátricos.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Paro en el niño",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.020"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Se inicia RCP si el niño no responde, no respira o solo jadea, y no tiene pulso central en {{c1::10 segundos}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Reconocimiento",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.012",
+        "2.01.2.020"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El pulso central se palpa en el {{c1::braquial}} en el lactante y en el {{c2::carotídeo o femoral}} en el niño.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Parámetros por edad",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.012"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La secuencia de la RCP pediátrica es {{c1::C-A-B}}: compresiones primero.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · C-A-B",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.012"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Frecuencia de compresiones en RCP pediátrica: {{c1::100 a 120/min}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Técnica",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.012"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Profundidad de las compresiones: al menos {{c1::un tercio}} del diámetro anteroposterior del tórax (~{{c2::4 cm}} en lactante, ~5 cm en niño).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Parámetros por edad",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.012"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las compresiones se hacen en la {{c1::mitad inferior del esternón}}, con reexpansión completa y pausas < 10 segundos.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Técnica",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.012"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el lactante, con dos reanimadores, la técnica de compresión es de {{c1::dos pulgares con las manos rodeando el tórax}}.",
+      "extra": "Con un reanimador: dos dedos. En el niño: talón de una o dos manos.",
+      "origen": "clase:3",
+      "fuente": "Clase · Parámetros por edad",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.012"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Relación compresiones:ventilaciones con un reanimador {{c1::30:2}}; con dos reanimadores {{c2::15:2}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Parámetros por edad",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.012"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La relación 3:1 es solo para el {{c1::recién nacido}} en sala de partos; no se usa en lactante ni niño.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Relación C:V",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.012"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dosis de adrenalina en el paro: {{c1::0,01 mg/kg}} ({{c2::0,1 mL/kg}} de la dilución 1:10.000), cada {{c3::3 a 5 minutos}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Ritmo y fármacos",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.020",
+        "2.01.5.012"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En FV/TV refractaria se da {{c1::amiodarona 5 mg/kg}} tras la tercera descarga.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Ritmo y fármacos",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.020"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Posparo: saturación objetivo de {{c1::94 a 99%}}, evitando la hiperoxia.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Posparo",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.020"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante un niño intoxicado, además del ABC y la glicemia capilar, se consulta al {{c1::CITUC}} (24 horas).",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Enfoque general",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.014"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Carbón activado: {{c1::1 g/kg}} si la ingestión fue hace < 1-2 h y la vía aérea está protegida.",
+      "extra": "No sirve para metales, hierro, litio, alcoholes ni cáusticos.",
+      "origen": "clase:8",
+      "fuente": "Clase · Enfoque general",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.014"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En una intoxicación, el error clásico es {{c1::inducir el vómito}}; el lavado gástrico tampoco es de rutina.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Enfoque general",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.014"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento del síndrome colinérgico: lavar la piel, {{c1::atropina}} hasta secar secreciones y {{c2::pralidoxima}}.",
+      "extra": "El personal debe protegerse del contacto.",
+      "origen": "clase:9",
+      "fuente": "Clase · Toxidromes",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.014"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 41",
+        "EUNACOM Julio 2025 · Pregunta 81"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Intoxicación por opioides (miosis, depresión respiratoria, coma): {{c1::naloxona}} 0,1 mg/kg (máx. 2 mg).",
+      "extra": "Puede haber renarcotización: su vida media es corta.",
+      "origen": "clase:9",
+      "fuente": "Clase · Toxidromes",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.014"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la intoxicación por paracetamol hay 24-72 h asintomático, y luego {{c1::hepatotoxicidad}} (ictericia y transaminasas altas).",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Paracetamol",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.014"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antídoto del paracetamol: {{c1::N-acetilcisteína}}, aun si ya hay daño hepático.",
+      "extra": "Idealmente en las primeras 8-10 h.",
+      "origen": "clase:10",
+      "fuente": "Clase · Paracetamol",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.014"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 108"
+      ]
+    },
+    {
+      "id": "c36",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tricíclicos (QRS ancho, convulsiones, arritmias): {{c1::bicarbonato de sodio}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Fármacos frecuentes",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.014"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 40"
+      ]
+    },
+    {
+      "id": "c37",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Salicilatos: taquipnea, {{c1::tinnitus}}, fiebre y acidosis metabólica; se alcaliniza la orina.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Fármacos frecuentes",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.014"
+      ]
+    },
+    {
+      "id": "c39",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante un cáustico: no se induce vómito ni se neutraliza; se deja en {{c1::ayuno}} y se pide {{c2::endoscopía digestiva alta}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Cáusticos",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.014"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-24/01_lesion-esofagica-endoscopia__nelson_p2927.jpg",
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 95"
+      ]
+    },
+    {
+      "id": "c41",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los accidentes son la {{c1::primera causa de muerte}} en los niños mayores de un año.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Prevención de accidentes",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.008"
+      ]
+    },
+    {
+      "id": "c42",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sueño seguro del lactante: posición {{c1::supina}}, colchón firme, sin almohadas ni peluches.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Sueño seguro",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.008"
+      ]
+    },
+    {
+      "id": "c44",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Transporte del lactante: silla de auto {{c1::mirando hacia atrás}}, en el asiento trasero, hasta los 2 años o más.",
+      "extra": "Nunca en brazos ni delante de un airbag activo.",
+      "origen": "clase:13",
+      "fuente": "Clase · Transporte",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.008"
+      ]
+    },
+    {
+      "id": "c45",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Prevención de ahogamiento a los 1-5 años: {{c1::cerco de piscina}} y supervisión directa; nunca solo en la tina.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · 1 a 5 años",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.008"
+      ]
+    },
+    {
+      "id": "c46",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Medicamentos, cloro y plaguicidas se guardan {{c1::bajo llave y en su envase original}}.",
+      "extra": "El teléfono del CITUC debe estar visible.",
+      "origen": "clase:13",
+      "fuente": "Clase · 1 a 5 años",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.008",
+        "2.01.2.014"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-24/01_lesion-esofagica-endoscopia__nelson_p2927.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Lesión esofágica grave por cáustico/pila de botón",
+      "clave": "Necrosis y escara del esófago en la endoscopía",
+      "conducta": "Sin vómito ni neutralizar; ayuno, endoscopía digestiva alta en 12-48 h",
+      "fuente": "Nelson Textbook of Pediatrics 22.ª ed., Fig. 373.3",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.014"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Asistolia o AESP: ¿qué fármaco y dosis?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0",
+      "pista": "Ritmo desfibrilable: ¿qué energía?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.0",
+      "pista": "Miosis y secreciones: ¿qué toxidrome y tratamiento?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.1.3",
+      "pista": "Sialorrea y dolor torácico tras cáustico: ¿qué haces?"
+    }
+  ]
+}

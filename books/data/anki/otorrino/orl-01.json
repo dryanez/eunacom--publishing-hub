@@ -1,0 +1,500 @@
+{
+ "classId": "orl-01",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La OMA nace de una disfunción de la {{c1::trompa de Eustaquio}}, habitualmente tras una infección respiratoria viral.",
+   "extra": "Rinovirus, VRS, influenza, adenovirus.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La obstrucción tubárica genera presión {{c1::negativa}} intratimpánica, trasudado seroso y colonización bacteriana retrógrada desde la nasofaringe.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Streptococcus pneumoniae causa el {{c1::35-40%}} de las OMA bacterianas: es el más frecuente.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Microbiología",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Haemophilus influenzae no tipificable causa el {{c1::30-35%}} y un 30-40% produce betalactamasas.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Microbiología",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Moraxella catarrhalis causa el 10-15% y más del {{c1::90%}} produce betalactamasas.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Microbiología",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras la vacuna neumocócica conjugada, aumentó la proporción relativa de {{c1::H. influenzae}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Vacuna",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El diagnóstico de OMA exige 3 criterios: inicio agudo, {{c1::efusión}} en oído medio y signos de inflamación timpánica.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El signo otoscópico más específico de OMA supurada es el {{c1::abombamiento}} de la membrana timpánica.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Otoscopía",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-01/02_otitis-media-aguda-timpano-abombado__bates_p318.jpg",
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El eritema aislado, sin abombamiento ni hipomovilidad, {{c1::no justifica}} antibióticos: puede ser llanto o fiebre viral.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Otoscopía",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La otorrea espontánea por perforación {{c1::alivia}} transitoriamente la otalgia.",
+   "extra": "Niño con otorrea purulenta y tímpano no visible: amoxicilina.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Otorrea",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 128"
+   ],
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primera línea de la OMA: {{c1::amoxicilina}} oral en dosis alta, cada 12 horas.",
+   "extra": "Tímpano abombado en niño de 3 años tras rinofaringitis: amoxicilina sola.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 175"
+   ],
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Dosis de amoxicilina en OMA: {{c1::80 a 90 mg/kg/día}} cada 12 horas.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Dosis",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Duración: {{c1::10 días}} en menores de 2 años o OMA severa; 5-7 días en mayores de 2 años con cuadros leves.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Duración",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La dosis alta supera al neumococo con susceptibilidad disminuida por mutación de las {{c1::PBP}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Dosis alta",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Falla a las 48-72 horas: cambiar a amoxicilina + {{c1::ácido clavulánico}} (relación 14:1).",
+   "extra": "Con amoxicilina 50 mg/kg sin mejoría a las 48 h: agregar clavulánico.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Falla",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 13"
+   ],
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "También se escala a clavulánico si recibió amoxicilina en los últimos 30 días o hay {{c1::conjuntivitis purulenta}} (otitis-conjuntivitis por H. influenzae).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Falla",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Las gotas óticas {{c1::no penetran}} un tímpano íntegro: no tratan la OMA.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Gotas",
+   "repaso": true,
+   "codigos": [
+    "4.02.4.016"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Alergia no anafiláctica a penicilina: cefalosporina oral como {{c1::cefuroxima}} o cefdinir.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Alergia",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Anafilaxia a penicilina: macrólido, como {{c1::azitromicina}} (10 mg/kg el día 1 y 5 mg/kg del día 2 al 5).",
+   "extra": "Resistencia neumocócica a macrólidos 25-30%.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Alergia",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Antihistamínicos, descongestionantes y corticoides orales {{c1::no sirven}} en OMA no complicada.",
+   "extra": "Siempre analgesia reglada con paracetamol o ibuprofeno.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fármacos",
+   "repaso": true,
+   "codigos": [
+    "4.02.4.016"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En menores de {{c1::6 meses}} toda sospecha de OMA se trata con antibiótico, sin período de observación.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Menores de 6 meses",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signos de complicación inminente: edema retroauricular, pabellón desplazado, parálisis facial o vértigo; se hospitaliza, TAC y {{c1::ceftriaxona}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Gravedad",
+   "repaso": false,
+   "codigos": [
+    "4.02.4.016"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "OMA con vómitos incoercibles: {{c1::ceftriaxona}} IM o EV durante 1 a 3 dosis.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Vómitos",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "OMA recurrente: ≥ {{c1::3 episodios en 6 meses}} o ≥ 4 en 12 meses, con resolución completa entre ellos.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 OMA recurrente",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La OMA recurrente se deriva a ORL para evaluar {{c1::tubos de ventilación}} y adenoidectomía.",
+   "extra": "Lactante de 11 meses con 3 episodios en 4 meses.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 OMA recurrente",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La quimioprofilaxis antibiótica prolongada en OMA recurrente está {{c1::contraindicada}} por generar resistencia.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Profilaxis",
+   "repaso": true,
+   "codigos": [
+    "4.02.4.016"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otitis media con efusión: tímpano retraído ámbar, sin fiebre ni dolor; {{c1::observar 3 meses}} sin antibióticos.",
+   "extra": "Colocar tubos si persiste y hay hipoacusia bilateral significativa.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla otoscópica",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Miringitis bulosa: ampollas en el tímpano; analgesia potente y {{c1::macrólido}} (Mycoplasma pneumoniae y virus).",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla otoscópica",
+   "repaso": false,
+   "codigos": [
+    "4.02.4.016"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otitis externa difusa: signo del {{c1::trago}} positivo y tímpano indemne; aseo y gotas de ciprofloxacino.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla otoscópica",
+   "repaso": false,
+   "codigos": [
+    "4.02.4.016"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Pseudomonas y S. aureus son de otitis externa o crónica supurada, no de la OMA no complicada: el agente más frecuente es el {{c1::neumococo}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Microorganismos",
+   "repaso": false,
+   "codigos": [
+    "4.02.4.016"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-01/01_timpano-normal__bates_p317.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Tímpano normal derecho",
+   "clave": "Rosado grisáceo, con el mango del martillo visible",
+   "conducta": "Referencia para comparar con la OMA",
+   "fuente": "Bates, Guía de exploración física, Tabla 7-20",
+   "repaso": false,
+   "codigos": [
+    "4.02.4.016"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-01/02_otitis-media-aguda-timpano-abombado__bates_p318.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "OMA: tímpano abombado",
+   "clave": "Rojo, abombado hacia el observador, sin referencias",
+   "conducta": "Amoxicilina 80-90 mg/kg/día por 7-10 días",
+   "fuente": "Bates, Guía de exploración física, Tabla 7-20",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 13"
+   ],
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Niño con otalgia y fiebre: ¿qué hay que mirar en el tímpano?",
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Líquido sin signos inflamatorios: ¿conducta?",
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1",
+   "pista": "Tímpano abombado: ¿tratamiento?",
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.1",
+   "pista": "Falla a las 48-72 horas: ¿cambio?",
+   "codigos": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ]
+  }
+ ]
+}

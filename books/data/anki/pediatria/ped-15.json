@@ -1,0 +1,501 @@
+{
+  "classId": "ped-15",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si las tres preguntas iniciales son sí, el recién nacido se mantiene {{c1::piel a piel con su madre}}.",
+      "extra": "No se separa ni se aspira de rutina.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Evaluación inicial",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.002"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 50"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si alguna de las tres preguntas es NO, el recién nacido va a la {{c1::cuna de calor radiante}} para los pasos iniciales.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Tres preguntas",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.011"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La aspiración de secreciones en los pasos iniciales se hace {{c1::solo si obstruyen la respiración o si requiere VPP}}.",
+      "extra": "No se aspira de rutina.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Pasos iniciales",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.011"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La normotermia que se debe mantener en el recién nacido es de {{c1::36.5 - 37.5°C}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Pasos iniciales",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.011",
+        "2.01.1.112"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "A los 60 segundos de vida (Minuto de Oro) se evalúan la {{c1::frecuencia cardíaca}} y el esfuerzo respiratorio.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Minuto de Oro",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.011"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La frecuencia cardíaca neonatal se ausculta durante {{c1::6 segundos}} y se multiplica por 10.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Minuto de oro",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.011"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se inicia ventilación a presión positiva si la FC al minuto de vida es menor de {{c1::100 lpm}} o hay apnea.",
+      "extra": "Es la intervención más eficaz y determinante.",
+      "origen": "clase:22",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.011"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 57"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el RN de término con FC < 100, la VPP se inicia con {{c1::aire ambiental (FiO2 21%)}}, nunca con O2 al 100%.",
+      "extra": "Error clásico: partir con oxígeno al 100%.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.011"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el RN < 35 semanas la VPP se inicia con FiO2 de {{c1::21-30%}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 FiO2 inicial",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.011"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La frecuencia de ventilación en la VPP neonatal es de {{c1::40 a 60}} respiraciones por minuto.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Técnica de la VPP",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.011"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El oxímetro de pulso se coloca en la {{c1::mano o muñeca derecha}} porque mide la saturación preductal.",
+      "extra": "La mano derecha recibe sangre antes del ductus arterioso.",
+      "origen": "clase:3",
+      "fuente": "Clase · Técnica de la VPP",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.011"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "Si el tórax no se expande con la VPP, la corrección se recuerda como {{c1::MR. SOPA}}.",
+      "extra": "Máscara, Reposicionar, Succión, Open mouth, Presión, Alternativa de vía aérea.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Corrección de la VPP",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.011"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si la VPP no expande el tórax, primero {{c1::se corrige la técnica (máscara, cabeza, succión)}} y no se salta directo al masaje.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.011"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El masaje cardíaco neonatal se indica si la FC persiste menor de {{c1::60 lpm}} tras 30 segundos de VPP efectiva.",
+      "extra": "",
+      "origen": "clase:22",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.011"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 59"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La técnica de elección del masaje neonatal es la de los {{c1::dos pulgares}} sobre el tercio inferior del esternón.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Masaje cardíaco",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.011"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La relación compresión-ventilación en el recién nacido es de {{c1::3:1}}.",
+      "extra": "90 compresiones y 30 ventilaciones por minuto.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.011"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Al iniciar el masaje cardíaco se sube la FiO2 al {{c1::100%}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Masaje y adrenalina",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.011"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La adrenalina neonatal se da si la FC sigue < 60 lpm tras {{c1::60 segundos}} de masaje coordinado con VPP al 100%.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Adrenalina",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.011"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La dosis de adrenalina EV neonatal es {{c1::0.01 a 0.03 mg/kg}} (0.1 a 0.3 mL/kg de solución 1:10.000).",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Adrenalina",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.011"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Recién nacido con meconio pero vigoroso: se queda {{c1::con la madre, sin aspirar la tráquea}}.",
+      "extra": "Error: aspirar de todas formas.",
+      "origen": "clase:5",
+      "fuente": "Clase · Meconio",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.011"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 49"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Recién nacido con meconio y no vigoroso: cuna radiante y {{c1::VPP de inmediato}}, sin intubar ni aspirar de rutina antes.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Meconio",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.011"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El Apgar se evalúa al minuto 1 y a los {{c1::5 minutos}}, y cada 5 minutos hasta los 20 min si a los 5 min es < 7.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 APGAR",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.002"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Apgar de {{c1::7 a 10}} es normal; 4 a 6 depresión moderada; 0 a 3 depresión severa.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 APGAR",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.002"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El Apgar {{c1::NO decide cuándo iniciar la reanimación}}; eso lo define la FC y la respiración.",
+      "extra": "El Apgar de los 5 min tiene valor pronóstico.",
+      "origen": "clase:6",
+      "fuente": "Clase · Test de Apgar",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.002"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En asfixia perinatal el pH de cordón es < {{c1::7,0}} con déficit de bases ≥ 12 mmol/L.",
+      "extra": "Un Apgar bajo aislado no define asfixia.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Asfixia",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.114"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La hipotermia terapéutica se hace a {{c1::33-34 °C por 72 horas}}, iniciada en las primeras 6 horas de vida.",
+      "extra": "Es el único tratamiento de neuroprotección eficaz.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 EHI",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.078",
+        "2.01.1.114"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En EHI moderada o severa en RN ≥ 36 semanas el error es {{c1::calentar al niño o esperar la evolución}}.",
+      "extra": "Corresponde hipotermia terapéutica.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.078"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La atresia de coanas bilateral da {{c1::cianosis cíclica}} que mejora con el llanto y empeora al mamar.",
+      "extra": "El RN respira obligadamente por la nariz.",
+      "origen": "clase:8",
+      "fuente": "Clase · Atresia de coanas",
+      "repaso": true,
+      "codigos": [
+        "6.03.2.005"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la atresia de coanas la sonda nasogástrica fina de 6 Fr no pasa más allá de {{c1::3 a 4 cm}}.",
+      "extra": "",
+      "origen": "libro:sec:6",
+      "fuente": "Libro §6 Atresia de coanas",
+      "repaso": false,
+      "codigos": [
+        "6.03.2.005"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Atresia de coanas bilateral: se asegura {{c1::una vía aérea oral}} y se deriva a ORL para corrección endoscópica.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Atresia de coanas",
+      "repaso": false,
+      "codigos": [
+        "6.03.2.005"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El contacto piel a piel para el vínculo debe ser ininterrumpido durante al menos {{c1::60 minutos}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Vínculo y termorregulación",
+      "repaso": false,
+      "codigos": [
+        "3.01.3.016"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hipotermia neonatal es temperatura axilar < {{c1::36,5 °C}}.",
+      "extra": "",
+      "origen": "libro:sec:8",
+      "fuente": "Libro §8 Termorregulación",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.112"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 100"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hipotermia neonatal moderada que no responde a medidas generales se trata con {{c1::incubadora precalentada y ajuste progresivo}}.",
+      "extra": "",
+      "origen": "clase:20",
+      "fuente": "Clase · Quiz hipotermia",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.112"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 100"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-15/01_algoritmo-reanimacion-neonatal__cto-pediatria_p8.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Algoritmo de reanimación neonatal",
+      "clave": "Secuencia: secar, estimular, posicionar; luego FC y respiración al minuto",
+      "conducta": "FC < 100 o apnea: VPP; FC < 60 tras VPP efectiva: masaje 3:1",
+      "fuente": "Manual CTO Pediatría 14.ª ed., p. 8",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.011"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-15/02_atresia-coanas-tac__nelson_p3188.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Atresia de coanas ósea bilateral",
+      "clave": "Obstrucción ósea de la fosa nasal posterior en corte axial de TAC",
+      "conducta": "Vía aérea oral y derivar a ORL",
+      "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 3188 (Fig. 425.1A)",
+      "repaso": false,
+      "codigos": [
+        "6.03.2.005"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Al minuto de vida: ¿qué decide si ventilas?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "FC < 100 o apnea: ¿qué conducta?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1",
+      "pista": "FC < 60 tras 30 s de VPP efectiva: ¿qué agregas?"
+    }
+  ]
+}

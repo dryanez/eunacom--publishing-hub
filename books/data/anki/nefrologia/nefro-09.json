@@ -1,0 +1,538 @@
+{
+  "classId": "nefro-09",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Potasio: {{c1::98%}} intracelular y 2% extracelular.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Por qué mata?",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hiperkalemia leve: K > {{c1::5.5}}; moderada: > 6.0; grave: > 6.5 mEq/L.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Por qué mata?",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hiperkalemia despolariza el miocito, inactiva canales de sodio y puede terminar en {{c1::fibrilación ventricular o asistolia}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Por qué mata?",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primer signo ECG de hiperkalemia (K 5.5–6.5): ondas T {{c1::altas, picudas, simétricas y de base angosta}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Progresión ECG",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hiperkalemia K 6.5–7.0: {{c1::PR prolongado y aplanamiento de la onda P}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Progresión ECG",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hiperkalemia K 7.0–8.0: {{c1::pérdida de la onda P y QRS ancho}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Progresión ECG",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En hiperkalemia extrema aparece el patrón {{c1::sinusoidal (sine-wave)}}, ritmo idioventricular y bloqueo AV avanzado.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 ECG",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Bradicardia con QRS ancho en un paciente renal crónico o dializado es {{c1::hiperkalemia}} hasta demostrar lo contrario.",
+      "extra": "",
+      "origen": "clase:20",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hiperkalemia grave puede dar {{c1::tetraparesia flácida ascendente}} con reflejos abolidos, simulando Guillain-Barré.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Clínica",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dializado que omite su sesión, con tetraparesia y FC de 40 lpm: diagnóstico {{c1::hiperkalemia}}.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Pregunta real",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 151"
+      ],
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Primera medida ante hiperkalemia con ECG alterado: {{c1::gluconato de calcio al 10% IV}}.",
+      "extra": "Incluso si solo hay T picudas.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 107",
+        "EUNACOM Diciembre 2024 · Pregunta 159"
+      ],
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Gluconato de calcio 10%: {{c1::10 mL}} IV en 2 a 5 minutos.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Primero el calcio",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Gluconato de calcio: inicia en {{c1::1–3 minutos}} y dura {{c2::30–60 minutos}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla arsenal",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El gluconato de calcio {{c1::no baja}} el potasio sérico: solo estabiliza la membrana.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Primero el calcio",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Si el ECG persiste alterado a los {{c1::5–10 minutos}} del calcio, se repite una segunda ampolla.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Primero el calcio",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En hiperkalemia con bradicardia, el marcapasos sin calcio {{c1::falla}}: el miocardio despolarizado no captura.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Marcapasos",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Insulina regular {{c1::10 UI}} IV con {{c2::50–100 mL de SG 30%}} desplaza el potasio a la célula.",
+      "extra": "Evita hipoglicemia; activa la Na-K ATPasa.",
+      "origen": "clase:7",
+      "fuente": "Clase · Redistribución",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Insulina + glucosa: inicia en {{c1::15–30 min}} y dura {{c2::4–6 h}}; baja K 0.5–1.0 mEq/L.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla arsenal",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Salbutamol nebulizado {{c1::10–20 mg}} para hiperkalemia: cuatro veces la dosis del asma.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Redistribución",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Salbutamol nebulizado: inicia en 15–30 min y dura {{c1::2–4 h}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla arsenal",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El bicarbonato se usa solo con acidosis metabólica {{c1::severa}} (pH < 7.1 o HCO3 < 12).",
+      "extra": "Es ineficaz en el anúrico y causa sobrecarga e hipocalcemia.",
+      "origen": "clase:7",
+      "fuente": "Clase · Redistribución",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hiperkalemia sin acidosis severa: insulina + glucosa; el error es el {{c1::bicarbonato de rutina}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Furosemida {{c1::40–80 mg IV}} elimina potasio, pero solo si el paciente orina.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Eliminación",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Quelantes intestinales de K: {{c1::Kayexalate, patiromer, ZS-9}}; de acción lenta (horas).",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Eliminación",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Para rescate agudo de la hiperkalemia, el error es usar {{c1::resinas de intercambio}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hemodiálisis de urgencia: indicada en anuria, dializado que omitió sesión, hiperkalemia {{c1::refractaria}} o con edema pulmonar.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Eliminación",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En dializado anúrico que omitió sesión, el error es dar {{c1::furosemida}}; corresponde hemodiálisis.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hiperkalemia con ECG revertido tras el calcio: el siguiente paso es {{c1::insulina + glucosa y salbutamol}}.",
+      "extra": "El error es creer que el problema está resuelto.",
+      "origen": "clase:14",
+      "fuente": "Pregunta real",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "K alto con paciente asintomático y ECG normal: sospechar {{c1::pseudohiperkalemia}} y repetir sin torniquete.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Pseudohiperkalemia",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Pseudohiperkalemia: causas son hemólisis, plaquetas > {{c1::500.000}} o leucocitos > {{c2::50.000}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Pseudohiperkalemia",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante K alto, asintomático y ECG normal, el error es {{c1::tratar el número}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Bradicardia de 40 lpm con síncope sin pródromo: el examen de elección es el {{c1::electrocardiograma}}.",
+      "extra": "",
+      "origen": "clase:18",
+      "fuente": "Pregunta real",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 180"
+      ],
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La hiperkalemia grave se enmarca en la garantía de {{c1::Urgencia Vital}} (Ley de Urgencias).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Perfil · GES",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "nefro-09/ecg_hiperk.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "ECG de hiperkalemia, antes y tras diálisis",
+      "clave": "P desaparece y QRS ancho con K alto; se normaliza tras diálisis",
+      "conducta": "Gluconato de calcio IV primero; luego shifting y eliminación",
+      "fuente": "Manual CTO Nefrología 14.ª ed.",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/03_nefrologia/nefro-09/01_ecg-hiperpotasemia-t-picudas-sinusoidal_alt1__cto-cardio_p19.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Hiperkalemia: T picudas y QRS ancho",
+      "clave": "T picudas simétricas y QRS ensanchado hasta patrón sinusoidal",
+      "conducta": "Gluconato de calcio 10% IV de inmediato",
+      "fuente": "Manual CTO Cardiología 14.ª ed., p. 19",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Asintomático y ECG normal con K alto: ¿qué sospechas?",
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "ECG alterado o K > 6,5 inestable: ¿qué das primero?",
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1",
+      "pista": "Anúrico o dializado: ¿qué eliminas con qué?",
+      "codigos": [
+        "1.09.2.005",
+        "1.01.4.007"
+      ]
+    }
+  ]
+}

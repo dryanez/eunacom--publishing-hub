@@ -1,0 +1,454 @@
+{
+ "classId": "orl-16",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Disfonía: alteración del tono, timbre, {{c1::intensidad}} o fatiga vocal.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Definición",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.009"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La disfonía aguda (< 2 semanas) suele ser laringitis viral o {{c1::fonotrauma}}, autolimitada.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Aguda",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.009"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Disfonía de más de {{c1::2 a 3 semanas}}: sospechar cáncer de laringe hasta demostrar lo contrario.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Regla de oro",
+   "repaso": true,
+   "imagen": "biblioteca/17_otorrino/orl-16/04_carcinoma-cuerda-vocal__kumar-clark_p640.jpg",
+   "codigos": [
+    "6.03.1.010",
+    "6.03.5.009"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Examen obligatorio: {{c1::nasofibroscopía}} flexible o telelaringoscopía rígida.",
+   "extra": "Fumador de 58 años con odinofagia y adenopatía; fumador de 61 años con adenopatía cervical.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Examen",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 2"
+   ],
+   "codigos": [
+    "6.03.1.010",
+    "6.03.5.009"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Factores de riesgo de máxima alarma: {{c1::tabaquismo}} y alcohol.",
+   "extra": "Fumador de 40 paquetes/año con 6 semanas: interconsulta prioritaria a ORL.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Riesgo",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.010",
+    "6.03.5.009"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Disfonía persistente tras atoro y maniobra de Heimlich: {{c1::nasofibrolaringoscopía}}.",
+   "extra": "Sospechar lesión laríngea, parálisis cordal o cuerpo extraño.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Evento laríngeo",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 149"
+   ],
+   "codigos": [
+    "4.02.5.004"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los nódulos vocales son los «callos de la voz»: lesión benigna más frecuente en {{c1::profesionales de la voz}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Nódulos",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.010"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Nódulos: {{c1::bilaterales y simétricos}}, en la unión del tercio anterior con los dos tercios posteriores del borde libre.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Nódulos",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-16/01_nodulos-vocales__bailey-love_p771.jpg",
+   "codigos": [
+    "6.03.1.010",
+    "6.03.5.009"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Impiden el cierre glótico («cierre en {{c1::reloj de arena}}») y dan voz soplada.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Nódulos",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.010",
+    "6.03.5.009"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primera línea de los nódulos: {{c1::rehabilitación fonoaudiológica}} e higiene vocal.",
+   "extra": "Profesora o educadora de párvulos, no fumadora.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.010"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En los nódulos la cirugía inicial está {{c1::contraindicada}}: recidivan si no se corrige la técnica de emisión.",
+   "extra": "Microcirugía solo en nódulos fibrosos antiguos refractarios.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cirugía",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.010"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pólipo vocal: casi siempre {{c1::unilateral}}, pediculado o sésil, tras un trauma vocal agudo (grito, tos violenta).",
+   "extra": "Disfonía tras un concierto de rock.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Pólipo",
+   "repaso": true,
+   "imagen": "biblioteca/17_otorrino/orl-16/02_polipo-vocal__bailey-love_p771.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 103"
+   ],
+   "codigos": [
+    "6.03.1.010"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El pólipo da voz bitonal (diplofonía), no responde a fonoaudiología y se opera con {{c1::microcirugía laríngea}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Pólipo",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.010"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El pólipo nace de un hematoma organizado por rotura de un capilar en el espacio de {{c1::Reinke}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Pólipo",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.010"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Edema de Reinke: líquido gelatinoso en el espacio de Reinke de {{c1::ambas}} cuerdas, en mujeres fumadoras con reflujo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Reinke",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-16/03_edema-de-reinke__bull_p229.jpg",
+   "codigos": [
+    "6.03.1.010"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Reinke: voz grave y áspera («voz de {{c1::tabernero}}»); en grados avanzados, disnea y estridor.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Reinke",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.010"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Reinke: abandono radical del {{c1::tabaco}} y decorticación quirúrgica de las cuerdas.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Reinke",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.010"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Granuloma de contacto: apófisis vocal del aritenoides tras intubación o reflujo; {{c1::omeprazol}} y reposo vocal.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.009"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Disfonía matinal que mejora durante el día y es intermitente: sospechar reflujo; prueba con {{c1::esomeprazol}}.",
+   "extra": "Pregunta oficial de diciembre 2018 (hombre de 36 años); lo mejor es pHmetría.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Reflujo",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.009"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Laringoscopía indirecta: espejo precalentado, luz frontal, lengua traccionada con gasa y paciente diciendo «{{c1::iii}}».",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Laringoscopía indirecta",
+   "repaso": false,
+   "codigos": [
+    "6.03.5.009"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Limitaciones de la laringoscopía indirecta: reflejo nauseoso y epiglotis en {{c1::omega}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Limitación",
+   "repaso": false,
+   "codigos": [
+    "6.03.5.009"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Derivar si la disfonía pasa de {{c1::3 a 4 semanas}}, o antes si hay tabaco, odinofagia, disfagia, hemoptisis o masa cervical.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Derivar",
+   "repaso": true,
+   "codigos": [
+    "6.03.5.009"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Disfonía aguda: reposo vocal relativo (evitar gritar y {{c1::susurrar}}), hidratación y sin antibióticos.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Manejo agudo",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.009"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hemorragia de cuerda vocal en un cantante: reposo vocal {{c1::absoluto}} y derivación.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Cantante",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.009"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Parálisis cordal unilateral paramediana: lesión del nervio laríngeo {{c1::recurrente}} (sospechar cáncer de tiroides o pulmón).",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Parálisis",
+   "repaso": false,
+   "codigos": [
+    "4.02.5.004"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-16/01_nodulos-vocales__bailey-love_p771.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Nódulos vocales",
+   "clave": "Dos engrosamientos enfrentados en el tercio anterior del borde libre",
+   "conducta": "Rehabilitación fonoaudiológica",
+   "fuente": "Bailey & Love 27.ª ed., p. 771",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.010",
+    "6.03.5.009"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-16/02_polipo-vocal__bailey-love_p771.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Pólipo vocal",
+   "clave": "Lesión unilateral pediculada en el borde libre",
+   "conducta": "Microcirugía laríngea y luego fonoaudiología",
+   "fuente": "Bailey & Love 27.ª ed., p. 771",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 103"
+   ],
+   "codigos": [
+    "6.03.1.010"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-16/03_edema-de-reinke__bull_p229.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Edema de Reinke",
+   "clave": "Cuerdas edematosas y translúcidas en una fumadora",
+   "conducta": "Dejar el tabaco y decorticación",
+   "fuente": "Color Atlas of ENT Diagnosis (Bull), p. 229",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.010"
+   ]
+  },
+  {
+   "id": "i04",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-16/04_carcinoma-cuerda-vocal__kumar-clark_p640.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Carcinoma de cuerda vocal",
+   "clave": "Lesión proliferativa o leucoplaquia en la laringoscopía",
+   "conducta": "Biopsia y estudio oncológico",
+   "fuente": "Kumar and Clark's Clinical Medicine, p. 640",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 2"
+   ],
+   "codigos": [
+    "6.03.1.010",
+    "6.03.5.009"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Disfonía de menos de 2 semanas: ¿qué es?",
+   "codigos": [
+    "6.03.1.010",
+    "6.03.5.009"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1",
+   "pista": "Disfonía de más de 2 a 3 semanas: ¿qué se hace?",
+   "codigos": [
+    "6.03.1.010",
+    "6.03.5.009"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.0",
+   "pista": "Nódulos bilaterales: ¿tratamiento?",
+   "codigos": [
+    "6.03.1.010",
+    "6.03.5.009"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.1",
+   "pista": "Pólipo unilateral: ¿tratamiento?",
+   "codigos": [
+    "6.03.1.010",
+    "6.03.5.009"
+   ]
+  }
+ ]
+}

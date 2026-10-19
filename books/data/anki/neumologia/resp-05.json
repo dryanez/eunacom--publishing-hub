@@ -1,0 +1,676 @@
+{
+ "classId": "resp-05",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La exacerbación de EPOC es el empeoramiento de disnea, tos o expectoración en < {{c1::14 días}} que obliga a ajustar la terapia.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Definición",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El {{c1::75–80%}} de las exacerbaciones se desencadena por infección bronquial.",
+   "extra": "El resto: contaminación o mala adherencia.",
+   "origen": "clase:1",
+   "fuente": "Clase · ¿Qué se descompensa?",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la exacerbación la hiperinsuflación dinámica deja al diafragma en {{c1::desventaja mecánica}} y sube el trabajo respiratorio.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · ¿Qué se descompensa?",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los tres síntomas cardinales de Anthonisen: más disnea, más esputo y {{c1::esputo purulento}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Tres síntomas cardinales",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Anthonisen tipo 1 (grave): presentes los {{c1::3 criterios}} cardinales.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Clasificación",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Anthonisen tipo 2 (moderada): presentes {{c1::2 criterios}} cardinales.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Clasificación",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Anthonisen tipo 3 (leve): 1 criterio cardinal más {{c1::1 criterio menor}} (tos, sibilancias, fiebre o infección alta) en 5 días.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Clasificación",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se indica antibiótico en Anthonisen tipo 1 o tipo 2 si uno de los criterios es {{c1::la purulencia}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Más disnea y más esputo sin purulencia: el error es {{c1::dar antibiótico}} por tener 2 criterios.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Anthonisen tipo 3: {{c1::no se indica antibiótico}} de rutina; se optimizan los broncodilatadores.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Anthonisen",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El germen más frecuente en la exacerbación de EPOC es {{c1::Haemophilus influenzae}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Qué gérmenes",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otros gérmenes clásicos: neumococo y {{c1::Moraxella catarrhalis}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Qué gérmenes",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "{{c1::Pseudomonas aeruginosa}} cobra relevancia en obstrucción muy severa o bronquiectasias.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Qué gérmenes",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Antibiótico de primera línea en Chile: {{c1::amoxicilina/clavulánico 875/125 mg}} cada 12 horas.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Qué gérmenes y con qué",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Amoxicilina/clavulánico en la exacerbación: por {{c1::5 a 7 días}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Qué gérmenes y con qué",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Alternativas al antibiótico de primera línea: azitromicina 500 mg/día por 3–5 días o {{c1::cefuroximo}} 500 mg c/12 h.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Qué gérmenes y con qué",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Meta de SatO2 en EPOC exacerbado: {{c1::88–92%}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Oxígeno controlado",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.006"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 13"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Meta de PaO2 en EPOC exacerbado: entre {{c1::55 y 65 mmHg}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Oxígeno controlado",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.010"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Oxígeno en EPOC exacerbado: cánula nasal a 1–2 L/min o mascarilla {{c1::Venturi}} al 24–28%.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Cómo se da",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.006"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 13"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En EPOC desaturado el error es usar {{c1::mascarilla con reservorio}} a alto flujo.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El oxígeno a alto flujo suprime la {{c1::vasoconstricción hipóxica}} y empeora el desbalance V/Q.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Por qué el oxígeno tiene techo",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El efecto {{c1::Haldane}}: la hemoglobina oxigenada suelta CO2 hacia el plasma.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Por qué el oxígeno tiene techo",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Exceso de oxígeno causa hipercapnia brusca y {{c1::narcosis hipercápnica}} (asterixis, sopor, coma).",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Por qué el oxígeno tiene techo",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "EPOC somnoliento tras subir el oxígeno: se baja la FiO2 y se da {{c1::VMNI}}; el error es sedar.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.5.012"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Broncodilatación: salbutamol + {{c1::ipratropio}}, 4 a 8 puff de cada uno con aerocámara.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Broncodilatador y corticoide",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Los broncodilatadores se repiten cada {{c1::20–30 minutos}} las primeras 2 horas; luego cada 2 a 4 horas.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Broncodilatador y corticoide",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Corticoide en la exacerbación: prednisona {{c1::40 mg/día}} oral por 5 días (estudio REDUCE).",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Corticoide sistémico",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La prednisona dura exactamente {{c1::5 días}}, sin pauta descendente.",
+   "extra": "14 días no dan beneficio y suman complicaciones.",
+   "origen": "clase:7",
+   "fuente": "Clase · Corticoide sistémico",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El error con el corticoide es dar {{c1::14 días o pauta descendente}}.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Exacerbación leve (Sat > 92%): manejo {{c1::ambulatorio}} con más broncodilatador.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Dónde se maneja",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Exacerbación moderada: FR > 24 sin acidosis; se trata con {{c1::doble broncodilatador}} y prednisona.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Dónde se maneja",
+   "repaso": false,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Exacerbación grave: pH entre {{c1::7,30 y 7,35}} con FR > 30 y tiraje: VMNI precoz.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Dónde se maneja",
+   "repaso": true,
+   "codigos": [
+    "1.05.5.012"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Exacerbación muy grave: pH < {{c1::7,25}} y sopor: VMNI de rescate o intubación en UCI.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Dónde se maneja",
+   "repaso": true,
+   "codigos": [
+    "1.05.5.012"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La VMNI (BiPAP) es la terapia de primera elección en EPOC con acidosis {{c1::respiratoria hipercápnica}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 VMNI",
+   "repaso": true,
+   "codigos": [
+    "1.05.5.012"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 159",
+    "EUNACOM Enero 2023 · Pregunta 145",
+    "EUNACOM Diciembre 2025 · Pregunta 163"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Indicación de VMNI: pH < {{c1::7,35}} y PaCO2 > 45 mmHg pese a tratamiento médico óptimo.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 VMNI",
+   "repaso": true,
+   "codigos": [
+    "1.05.5.012"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 145",
+    "EUNACOM Diciembre 2025 · Pregunta 163"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "EPOC con pH bajo y paciente vigil: VMNI; el error es {{c1::intubar de entrada o dar bicarbonato}}.",
+   "extra": "",
+   "origen": "clase:14",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.5.012"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 159"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La VMNI reduce la intubación en más de {{c1::50%}} y la mortalidad intrahospitalaria.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Qué logra",
+   "repaso": true,
+   "codigos": [
+    "1.05.5.012"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Parámetros BiPAP: IPAP {{c1::10–14}} y EPAP 4–6 cmH2O.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Qué logra",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.012"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Las sesiones de VMNI son de {{c1::2 a 4 horas}} continuas.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Qué logra",
+   "repaso": false,
+   "codigos": [
+    "1.05.5.012"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Contraindicaciones de VMNI: paro inminente, {{c1::Glasgow < 8}}, shock con drogas, vómitos incoercibles o trauma facial.",
+   "extra": "Se pasa directo a intubar.",
+   "origen": "clase:10",
+   "fuente": "Clase · Contraindicaciones",
+   "repaso": true,
+   "codigos": [
+    "1.05.5.012"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Edema, yugulares ingurgitadas, hepatomegalia y R2 fuerte en un EPOC: {{c1::cor pulmonale}} descompensado.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Cor pulmonale",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 115",
+    "EUNACOM Julio 2015 · Pregunta 58"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la exacerbación la hipoxemia y la acidosis suben la presión pulmonar y descompensan el {{c1::corazón pulmonar crónico}}.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Cor pulmonale",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.004"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el cor pulmonale el mejor tratamiento de la hipertensión pulmonar es {{c1::corregir la hipoxemia}}.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Manejo",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.004"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con congestión se agrega un {{c1::diurético de asa}} con cautela, vigilando potasio y bicarbonato.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Manejo",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.004"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la descompensación se descarta TEP y arritmia, como la {{c1::taquicardia auricular multifocal}}.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · No olvidar",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.004"
+   ]
+  },
+  {
+   "id": "c46",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La hipertensión pulmonar se confirma con {{c1::ecocardiograma}}.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Cor pulmonale",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 66"
+   ]
+  },
+  {
+   "id": "c47",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras el alta, el cor pulmonale indica {{c1::oxigenoterapia domiciliaria}} si cumple criterios.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · No olvidar",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.004"
+   ]
+  },
+  {
+   "id": "c48",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "El GES cubre el manejo de la {{c1::exacerbación aguda del EPOC}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "GES · Exacerbación de EPOC",
+   "repaso": true,
+   "codigos": [
+    "1.05.2.006"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "EPOC exacerbado: ¿qué dicen los gases?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "Sin acidosis: ¿esputo purulento?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.0",
+   "pista": "Acidosis sin contraindicación: ¿qué soporte?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.1",
+   "pista": "Acidosis con Glasgow < 8: ¿qué conducta?"
+  }
+ ]
+}

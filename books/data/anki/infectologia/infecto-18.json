@@ -1,0 +1,668 @@
+{
+ "classId": "infecto-18",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La brucelosis la causa un cocobacilo Gram negativo {{c1::intracelular}} del género Brucella.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Una bacteria intracelular",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.004"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Especie de Brucella más invasora y frecuente en Chile: {{c1::B. melitensis}} (cabras y ovejas).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Brucelosis",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.004"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Brucella abortus afecta a los {{c1::bovinos}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Brucelosis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.004"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Brucelosis: se contagia por leche cruda o {{c1::quesillos de cabra}} artesanales no pasteurizados.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Tres fiebres, tres exposiciones",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.004"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Brucelosis ocupacional: veterinarios y matarifes por contacto con {{c1::fetos abortados y placentas}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Una bacteria intracelular",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 6"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fiebre de la brucelosis: {{c1::ondulante}} (vespertina o nocturna), de ahí el nombre fiebre de Malta.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Una bacteria intracelular",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.004"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El sudor profuso de la brucelosis tiene olor a {{c1::paja húmeda}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Una bacteria intracelular",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.004"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Complicación focal más frecuente de la brucelosis: {{c1::sacroileítis}} y espondilodiscitis lumbar.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Una bacteria intracelular",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 6"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tamizaje serológico rápido de la brucelosis: {{c1::Rosa de Bengala}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Brucelosis, diagnóstico y tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.004"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En brucelosis, la aglutinación en tubo {{c1::confirma}} por títulos.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Brucelosis, diagnóstico y tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.004"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Gold standard de la brucelosis: {{c1::mielocultivo}} u hemocultivo en medio bifásico (Ruiz-Castañeda).",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Brucelosis, diagnóstico y tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.004"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Tratamiento de la brucelosis: doxiciclina + {{c1::rifampicina}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Brucelosis, diagnóstico y tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.004"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Doxiciclina en brucelosis: {{c1::100 mg}} cada 12 h oral.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Brucelosis, diagnóstico y tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.004"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Rifampicina en brucelosis: {{c1::600-900 mg/día}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Brucelosis, diagnóstico y tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.004"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El tratamiento de la brucelosis dura {{c1::6 semanas}} seguidas.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Brucelosis, diagnóstico y tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.004"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Alternativa en brucelosis: doxiciclina + {{c1::gentamicina}} las primeras 2 semanas.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Brucelosis, diagnóstico y tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.004"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En brucelosis, la monoterapia o el curso corto {{c1::recae}} porque la bacteria es intracelular.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Brucelosis, diagnóstico y tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.004"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La leptospirosis la causa la espiroqueta {{c1::Leptospira interrogans}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Leptospirosis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.017"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Leptospira coloniza los túbulos renales de {{c1::roedores}} y se elimina en su orina.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · De la orina de rata al Weil",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.017"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Leptospirosis: entra por piel erosionada o mucosas en {{c1::aguas estancadas}}, barro o inundaciones.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · De la orina de rata al Weil",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.017"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La forma anictérica es el {{c1::90%}} de las leptospirosis.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · De la orina de rata al Weil",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.017"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Leptospirosis anictérica: fiebre {{c1::bifásica}} con sufusión conjuntival.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · De la orina de rata al Weil",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.017"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signos de la leptospirosis: sufusión conjuntival sin secreción y dolor a la compresión de las {{c1::pantorrillas}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · De la orina de rata al Weil",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.017"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El síndrome de Weil (forma ictérica grave) es el {{c1::10%}} de las leptospirosis.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · De la orina de rata al Weil",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.017"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Síndrome de Weil: ictericia + falla renal con hipokalemia + {{c1::diátesis hemorrágica}} (hemorragia pulmonar letal).",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · De la orina de rata al Weil",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.017"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Diagnóstico de la leptospirosis: {{c1::microaglutinación (MAT)}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Leptospirosis, diagnóstico y tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.017"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Leptospirosis leve: {{c1::doxiciclina}} oral, ambulatorio.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Leptospirosis, diagnóstico y tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.017"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Síndrome de Weil: {{c1::penicilina G sódica}} EV (o ceftriaxona EV).",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Leptospirosis, diagnóstico y tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.017"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fiebre tifoidea: Salmonella Typhi tiene reservorio {{c1::exclusivamente humano}}; transmisión fecal-oral.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fiebre tifoidea",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.012",
+    "2.01.1.013"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La contaminación por Typhi se da por manipuladores portadores crónicos en la {{c1::vesícula biliar}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Una enfermedad que avanza por semanas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.012",
+    "2.01.1.013"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Semana 1 de la tifoidea: fiebre {{c1::en escalera}}, cefalea y constipación inicial.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Una enfermedad que avanza por semanas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.012",
+    "2.01.1.013"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Semana 2 de la tifoidea: meseta de 39-40 °C con {{c1::bradicardia relativa}} (signo de Faget).",
+   "extra": "Disociación esfigmotérmica.",
+   "origen": "clase:6",
+   "fuente": "Clase · Una enfermedad que avanza por semanas",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.012",
+    "2.01.1.013"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 57"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las manchas rosadas del abdomen en la tifoidea se llaman {{c1::roséola tífica}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Una enfermedad que avanza por semanas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.012",
+    "2.01.1.013"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 137"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La diarrea de la tifoidea es en {{c1::puré de arvejas}} y aparece en la semana 2.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Una enfermedad que avanza por semanas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.012",
+    "2.01.1.013"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Semana 3 de la tifoidea: perforación {{c1::ileal}} (placas de Peyer) y hemorragia digestiva baja.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Una enfermedad que avanza por semanas",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.012",
+    "2.01.1.013"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hemocultivo en la 1.ª semana de tifoidea es positivo en {{c1::80-90%}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · El cultivo depende de la semana",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.012",
+    "2.01.1.013"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la tifoidea, el examen inicial en la primera semana es el {{c1::hemocultivo}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · El cultivo depende de la semana",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.012",
+    "2.01.1.013"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 23",
+    "EUNACOM Diciembre 2025 · Pregunta 57"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Coprocultivo en tifoidea: positivo desde la semana {{c1::2-3}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · El cultivo depende de la semana",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.012",
+    "2.01.1.013"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El mielocultivo es el más sensible en tifoidea: {{c1::> 95%}}, aun con antibióticos previos.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · El cultivo depende de la semana",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.012",
+    "2.01.1.013"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Tifoidea: fármaco de elección {{c1::ceftriaxona}} 2 g/día EV.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · El cultivo depende de la semana",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.012",
+    "2.01.1.013"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Ceftriaxona en tifoidea se da por {{c1::7 a 14 días}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · El cultivo depende de la semana",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.012",
+    "2.01.1.013"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Alternativa oral en tifoidea: {{c1::azitromicina}} 1 g/día por 7 días.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · El cultivo depende de la semana",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.012",
+    "2.01.1.013"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En tifoidea, el test de {{c1::Widal}} no tiene valor confirmatorio actual.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · El cultivo depende de la semana",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.012",
+    "2.01.1.013"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Tifoidea en la primera semana: se piden hemocultivos y no se espera la {{c1::diarrea}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.012",
+    "2.01.1.013"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 23"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-18/02_leptospirosis-sufusion__commons.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Sufusión conjuntival de la leptospirosis",
+   "clave": "Conjuntiva roja bilateral sin secreción, con dolor de pantorrillas",
+   "conducta": "Doxiciclina oral si es leve; penicilina G o ceftriaxona EV si es Weil",
+   "fuente": "Wikimedia Commons, CC BY 4.0",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.017"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-18/01_roseola_tifica__cdc-phil-2215.jpg",
+   "pregunta": "¿Qué lesión es y qué enfermedad sugiere?",
+   "diagnostico": "Roséola tífica de la fiebre tifoidea",
+   "clave": "Manchas rosadas en el abdomen durante la semana 2",
+   "conducta": "Ceftriaxona EV 7-14 días; hemocultivo",
+   "fuente": "CDC PHIL 2215",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.012",
+    "2.01.1.013"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 137"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Lácteos de cabra: ¿qué enfermedad y qué prueba?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0.0",
+   "pista": "Brucelosis: ¿qué tratamiento y por cuánto?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.1",
+   "pista": "Agua estancada con ictericia y falla renal: ¿qué?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.2.1",
+   "pista": "Tifoidea en semana 3 con abdomen agudo: ¿qué?"
+  }
+ ]
+}

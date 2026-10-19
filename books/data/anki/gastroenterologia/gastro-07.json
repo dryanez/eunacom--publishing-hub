@@ -1,0 +1,278 @@
+{
+  "classId": "gastro-07",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los trastornos digestivos funcionales son síntomas digestivos crónicos o recurrentes {{c1::sin anomalía estructural ni bioquímica}} que los explique.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Concepto",
+      "repaso": false
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los trastornos digestivos funcionales son la {{c1::primera}} causa de consulta gastroenterológica.",
+      "extra": "También la principal causa de dolor abdominal, diarrea y constipación crónicos.",
+      "origen": "clase:1",
+      "fuente": "Clase · Concepto",
+      "repaso": false
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los trastornos funcionales son del eje cerebro-intestino: {{c1::hipersensibilidad visceral}} y alteración de la motilidad.",
+      "extra": "Gatillos: estrés, dieta, disbiosis.",
+      "origen": "clase:1",
+      "fuente": "Clase · Concepto",
+      "repaso": false
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El prototipo de los trastornos digestivos funcionales es el {{c1::síndrome de intestino irritable}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Concepto",
+      "repaso": false
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Roma IV para SII: dolor abdominal recurrente al menos {{c1::1 día por semana}} en los últimos {{c2::3 meses}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Roma IV",
+      "repaso": true
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Roma IV: el dolor se asocia a {{c1::2 o más}} de: relación con la defecación, cambio en la frecuencia o cambio en la consistencia de las deposiciones.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Roma IV",
+      "repaso": false
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El diagnóstico de SII es clínico y {{c1::positivo}}, no de descarte.",
+      "extra": "Criterios + sin alarma = SII, sin batería de exámenes.",
+      "origen": "clase:9",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En SII, de rutina se piden hemograma, PCR, TSH y {{c1::anticuerpos de enfermedad celíaca}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Roma IV",
+      "repaso": false
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el SII con diarrea, además de los básicos, se pide {{c1::calprotectina fecal}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Diagnóstico",
+      "repaso": false
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Paciente que cumple Roma IV sin signos de alarma y exámenes básicos normales: el error es pedir {{c1::colonoscopía o endoscopía}}.",
+      "extra": "Se diagnostica SII y se inicia manejo.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante cualquier signo de alarma se abandona la hipótesis funcional y se estudia con {{c1::endoscopía digestiva alta o colonoscopía}} según el síntoma.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · SII",
+      "repaso": true
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signos de alarma ABCDEFH: A = {{c1::anemia}}, B = {{c2::baja de peso}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · ABCDEFH",
+      "repaso": false
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signos de alarma ABCDEFH: C = {{c1::cambio reciente del hábito o del patrón de síntomas}}, D = disfagia.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · ABCDEFH",
+      "repaso": false
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Signo de alarma E: edad de inicio de los síntomas > {{c1::50}} años.",
+      "extra": "El funcional parte joven.",
+      "origen": "clase:3",
+      "fuente": "Clase · ABCDEFH",
+      "repaso": true
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signos de alarma ABCDEFH: F = {{c1::familiar de primer grado con cáncer digestivo}}, H = hemorragia.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · ABCDEFH",
+      "repaso": false
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Los síntomas {{c1::nocturnos que despiertan}} al paciente son signo de alarma y orientan a enfermedad orgánica.",
+      "extra": "En el SII están ausentes.",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Dolor de 1 año con diarrea/constipación + baja de peso, rectorragia y madre con cáncer de colon: la conducta es {{c1::colonoscopía}}.",
+      "extra": "El test de sangre oculta es tamizaje en asintomáticos, no estudio de sintomáticos.",
+      "origen": "libro:caso",
+      "fuente": "Libro · Reconstrucción EUNACOM 2018",
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Diarrea crónica que sube de 3 a 7 deposiciones diarias en 2 semanas es un {{c1::cambio reciente del patrón}}: descarta SII y obliga a estudio orgánico.",
+      "extra": "En el caso EUNACOM 2024, el diagnóstico era colitis ulcerosa.",
+      "origen": "clase:8",
+      "fuente": "Clase · Quiz EUNACOM 2024",
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dolor abdominal de meses que alivia al evacuar, con deposiciones duras (Bristol 2) y sin alarma: {{c1::SII con predominio de constipación}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 157"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La base del tratamiento del SII es la {{c1::educación}}: explicar que es benigno y descartar cáncer explícitamente.",
+      "extra": "Más manejo del estrés y ajuste dietético.",
+      "origen": "clase:4",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La dieta recomendada en el SII es la dieta baja en {{c1::FODMAP}}, con fibra soluble.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "SII con predominio de dolor: {{c1::antiespasmódicos}} (trimebutino, bromuro de pinaverio).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "SII con predominio de diarrea: {{c1::amitriptilina en dosis baja}} (antidepresivo tricíclico).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "SII con predominio de constipación: {{c1::polietilenglicol}} (laxante osmótico).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Paciente con gastrectomía longitudinal y colecistectomía con dolor cólico posprandial intermitente: la opción aceptada en EUNACOM fue {{c1::síndrome de dumping}}.",
+      "extra": "En rigor es un síndrome poscolecistectomía; la colecistectomía puede empeorarlo.",
+      "origen": "libro:puntos",
+      "fuente": "EUNACOM Diciembre 2019 · Pregunta 19",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 19"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Hay signo de alarma: ¿conducta?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.1",
+      "pista": "SII con predominio de diarrea: ¿fármaco?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.2",
+      "pista": "SII con predominio de constipación: ¿fármaco?"
+    }
+  ]
+}

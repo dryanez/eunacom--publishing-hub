@@ -1,0 +1,491 @@
+{
+  "classId": "ped-08",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El {{c1::80%}} de los accidentes por cuerpo extraño en vía aérea ocurre en menores de 3 años.",
+      "extra": "Exploración oral y falta de molares.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Epidemiología",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.003",
+        "2.01.2.018"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cuerpo extraño en vía aérea es más frecuente en el {{c1::árbol bronquial derecho}}.",
+      "extra": "Bronquio más ancho, más vertical y en continuidad con la tráquea.",
+      "origen": "clase:1",
+      "fuente": "Clase · A quién le pasa",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.003"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 127"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los cuerpos extraños más frecuentes en vía aérea son los {{c1::frutos secos (maní, nueces) y uvas enteras}}.",
+      "extra": "También trozos de salchicha y juguetes pequeños.",
+      "origen": "clase:1",
+      "fuente": "Clase · Con qué se atora",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.003"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las 3 fases del cuerpo extraño son: crisis asfíctica, {{c1::fase asintomática de latencia}} y complicaciones tardías.",
+      "extra": "El objeto se aloja distal y el niño parece sano.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fases",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.003"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Complicación tardía típica del cuerpo extraño: {{c1::neumonía recurrente en el mismo lóbulo}}, atelectasia persistente o absceso.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fases",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.003"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si el niño tose con fuerza y llora (obstrucción parcial), la conducta es {{c1::dejarlo toser sin intervenir}}.",
+      "extra": "Golpearlo podría convertir la obstrucción en completa.",
+      "origen": "clase:2",
+      "fuente": "Clase · Diagrama OVACE",
+      "repaso": true,
+      "codigos": [
+        "1.05.2.002",
+        "1.05.2.003",
+        "2.01.2.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante un niño que tose con fuerza y llora, el error clásico es {{c1::darle golpes en la espalda}}.",
+      "extra": "Puede movilizar el objeto y causar obstrucción completa.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.003",
+        "1.05.2.003"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Obstrucción completa consciente: el niño {{c1::no tose, no llora y no emite sonidos}}.",
+      "extra": "Cianosis y tiraje progresivos.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 OVACE",
+      "repaso": false,
+      "codigos": [
+        "1.05.2.002",
+        "2.01.2.003"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 35"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el lactante (< 1 año) con obstrucción completa, se alternan {{c1::5 golpes interescapulares}} y 5 compresiones torácicas.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla OVACE por edad",
+      "repaso": true,
+      "codigos": [
+        "1.05.2.002",
+        "2.01.2.003"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 35"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el lactante, los golpes se dan con el talón de la mano, con la cabeza {{c1::más baja que el tórax}}.",
+      "extra": "Boca abajo sobre el antebrazo, sujetando la mandíbula.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Lactante",
+      "repaso": false,
+      "codigos": [
+        "1.05.2.002"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el lactante, las compresiones torácicas se hacen con {{c1::dos dedos}} sobre el tercio inferior del esternón.",
+      "extra": "Igual que el masaje de RCP.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Lactante",
+      "repaso": false,
+      "codigos": [
+        "1.05.2.002"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La secuencia de 5 golpes + 5 compresiones en el lactante se repite hasta que {{c1::salga el objeto o pierda la conciencia}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Lactante",
+      "repaso": false,
+      "codigos": [
+        "1.05.2.002"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La maniobra de Heimlich está {{c1::contraindicada en menores de 1 año}}.",
+      "extra": "Riesgo de laceración hepática o esplénica.",
+      "origen": "clase:3",
+      "fuente": "Clase · Dos prohibiciones",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.004",
+        "1.05.2.002"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 35"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante obstrucción completa en un lactante, el error clásico es {{c1::aplicar la maniobra de Heimlich}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.004",
+        "1.05.2.002"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el niño mayor de 1 año y adulto con obstrucción completa, la maniobra de elección es {{c1::Heimlich (compresiones abdominales)}}.",
+      "extra": "Hacia adentro y arriba, rescatador por detrás.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla OVACE por edad",
+      "repaso": true,
+      "codigos": [
+        "2.01.5.004",
+        "1.05.2.002"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 73"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante obstrucción completa en mayor de 1 año, el error es usar {{c1::golpes en la espalda como única maniobra}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.004"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La posición del niño mayor para el Heimlich es de pie o sentado, {{c1::inclinado levemente hacia adelante}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla OVACE por edad",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.004"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El barrido digital a ciegas está {{c1::prohibido en todas las edades}}.",
+      "extra": "Puede empujar el objeto más profundo.",
+      "origen": "clase:3",
+      "fuente": "Clase · Dos prohibiciones",
+      "repaso": true,
+      "codigos": [
+        "1.05.2.002",
+        "2.01.2.018",
+        "2.01.2.003"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si el paciente pierde la conciencia, se inicia de inmediato {{c1::RCP}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Si pierde el conocimiento",
+      "repaso": true,
+      "codigos": [
+        "1.05.2.002"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antes de ventilar en la RCP por atoragantamiento, se debe {{c1::mirar la boca}} y retirar el objeto solo si está visible.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Si pierde el conocimiento",
+      "repaso": false,
+      "codigos": [
+        "1.05.2.002"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En lactante inconsciente por cuerpo extraño, la relación de RCP con 1 rescatador es {{c1::30:2}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla OVACE por edad",
+      "repaso": false,
+      "codigos": [
+        "1.05.2.002"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En lactante inconsciente por cuerpo extraño, la relación de RCP con 2 rescatadores es {{c1::15:2}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla OVACE por edad",
+      "repaso": false,
+      "codigos": [
+        "1.05.2.002"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La sospecha de cuerpo extraño bronquial subagudo es atragantamiento seguido de {{c1::sibilancias unilaterales fijas}} que no ceden con broncodilatadores.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Dx subagudo",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.003",
+        "1.05.2.003"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 85",
+        "EUNACOM Julio 2016 · Pregunta 127"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante sibilancias unilaterales semanas después de un atragantamiento, el error es {{c1::tratar como asma y repetir salbutamol}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.003"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La mayoría de los cuerpos extraños bronquiales son {{c1::radiolúcidos}} en la radiografía.",
+      "extra": "Se buscan signos indirectos.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Radiografía",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.003"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signo radiológico indirecto del cuerpo extraño: {{c1::hiperinsuflación unilateral}} por mecanismo valvular.",
+      "extra": "Entra aire pero no sale.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Radiografía",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.003"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 64"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la radiografía en espiración, el hemitórax afectado {{c1::no se vacía}} y empuja el mediastino hacia el lado sano.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Radiografía",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.003"
+      ],
+      "imagen": "biblioteca/15_pediatria/ped-08/03_mani-bronquio-derecho-espiracion__cxr_p210.jpg"
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tos que no mejora con amoxicilina, sibilancias derechas y atelectasia del lóbulo medio sugieren {{c1::cuerpo extraño bronquial}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Dic 2025",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.003"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 64"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El estándar de oro diagnóstico y terapéutico del cuerpo extraño bronquial es la {{c1::broncoscopía rígida}} bajo anestesia general.",
+      "extra": "La flexible puede ser diagnóstica, pero no es la extracción de elección.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.003",
+        "4.01.5.016"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 85",
+        "EUNACOM Diciembre 2025 · Pregunta 64",
+        "EUNACOM Julio 2025 · Pregunta 64"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-08/02_mani-bronquio-derecho-inspiracion__cxr_p210.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Cuerpo extraño (maní) en bronquio derecho",
+      "clave": "Placa en inspiración; el signo clave aparece en la espiración, con el pulmón afectado sin desinflarse",
+      "conducta": "Broncoscopía rígida bajo anestesia general",
+      "fuente": "CXR, Fig. 14.13",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.003",
+        "4.01.5.016"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-08/01_lactante_golpes_compresiones__commons.jpg",
+      "pregunta": "¿Qué maniobra muestra y a quién se aplica?",
+      "diagnostico": "Golpes interescapulares y compresiones torácicas en lactante",
+      "clave": "Lactante boca abajo sobre el antebrazo, cabeza más baja que el tórax",
+      "conducta": "Solo en menores de 1 año; Heimlich contraindicado",
+      "fuente": "Wikimedia Commons, Heimlich Infant (CC BY-SA 4.0)",
+      "repaso": false,
+      "codigos": [
+        "1.05.2.002",
+        "2.01.2.003"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/15_pediatria/ped-08/02_heimlich_adulto_nino__commons.jpg",
+      "pregunta": "¿Qué maniobra es y desde qué edad?",
+      "diagnostico": "Maniobra de Heimlich",
+      "clave": "Rescatador por detrás con compresiones abdominales hacia adentro y arriba",
+      "conducta": "Obstrucción completa en mayor de 1 año o adulto",
+      "fuente": "Wikimedia Commons, Heimlich Adult & Child (CC BY-SA 4.0)",
+      "repaso": false,
+      "codigos": [
+        "2.01.5.004",
+        "1.05.2.002"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Tose con fuerza y llora: ¿qué haces?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Obstrucción completa en menor de un año: ¿qué maniobra?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "Obstrucción completa en mayor de un año: ¿qué maniobra?"
+    }
+  ]
+}

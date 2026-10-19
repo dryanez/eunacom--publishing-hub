@@ -1,0 +1,361 @@
+{
+  "classId": "neuro-11",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sello histológico del Parkinson: cuerpos de {{c1::Lewy}} (alfa-sinucleína mal plegada).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Fisiopatología",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diagnóstico de Parkinson: es {{c1::clínico}}; ningún examen lo confirma por sí solo.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signo obligatorio del síndrome parkinsoniano: {{c1::bradicinesia}} con decremento progresivo.",
+      "extra": "Sin ella no es Parkinson.",
+      "origen": "clase:3",
+      "fuente": "Clase · Criterios MDS",
+      "repaso": true,
+      "imagen": "biblioteca/09_neurologia/neuro-11/S1_micrografia__propio.svg",
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Bradicinesia más al menos uno: {{c1::temblor de reposo o rigidez}} en rueda dentada.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Criterios MDS",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 22"
+      ],
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Temblor parkinsoniano: frecuencia de {{c1::4 a 6 Hz}}, de reposo, asimétrico y que cede al moverse.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Criterios MDS",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Temblor sin bradicinesia: {{c1::no es Parkinson}}; no iniciar levodopa.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signo temprano frecuente en Parkinson: pérdida del {{c1::braceo}} de un lado al caminar.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Criterios MDS",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Exclusión absoluta de Parkinson: signos cerebelosos, parálisis de la mirada vertical hacia abajo y uso reciente de {{c1::antidopaminérgicos}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Criterios MDS",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Bandera roja: caídas en los primeros {{c1::3 años}} o silla de ruedas antes de 5 años; pensar en Parkinson-plus (PSP, AMS).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Criterios MDS",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pródromos del Parkinson: hiposmia, constipación y trastorno conductual del sueño {{c1::REM}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · No motores",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.006",
+        "1.10.1.027"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trastorno conductual del sueño REM: el paciente {{c1::actúa sus sueños}} (grita, golpea) por pérdida de la atonía.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "EUNACOM Julio 2025 · Pregunta 98",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 98",
+        "EUNACOM Enero 2023 · Pregunta 122",
+        "EUNACOM Diciembre 2022 · Pregunta 84"
+      ],
+      "codigos": [
+        "1.10.1.027"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ludopatía, compras compulsivas o hipersexualidad tras iniciar tratamiento: sospechar el {{c1::agonista dopaminérgico}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.006",
+        "1.10.1.027"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Levodopa se asocia siempre a {{c1::carbidopa}} (o benserazida) para evitar náuseas, vómitos e hipotensión.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Inicio de levodopa/carbidopa: {{c1::100/25 mg}} cada 8 h, titulando de a poco.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Parkinson en mayor de 65 años: partir con {{c1::levodopa/carbidopa}}, no con agonista.",
+      "extra": "Mejor tolerancia psiquiátrica.",
+      "origen": "clase:13",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Luna de miel con levodopa: {{c1::3 a 5 años}}; luego más de la mitad fluctúa.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Complicaciones",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Wearing-off: fraccionar tomas y agregar {{c1::entacapona}} 200 mg con cada toma de levodopa.",
+      "extra": "Inhibidor de COMT.",
+      "origen": "clase:9",
+      "fuente": "Clase · Complicaciones",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Disquinesias de pico de dosis: bajar la dosis unitaria y agregar {{c1::amantadina}}.",
+      "extra": "Antagonista NMDA.",
+      "origen": "clase:9",
+      "fuente": "Clase · Complicaciones",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Movimientos coreicos en el pico de dosis: el error es {{c1::agregar más levodopa}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "DBS (subtalámico o pálido interno) solo en refractarios con {{c1::indemnidad cognitiva y psiquiátrica}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Terapias avanzadas",
+      "repaso": true,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES N° 67: Parkinson; diagnóstico por especialista dentro de {{c1::60 días}} desde la sospecha.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · GES",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Temblor de reposo asimétrico + bradicinesia en paciente con litio: Parkinson; apoya la {{c1::prueba con levodopa}}.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "EUNACOM Diciembre 2025 · Pregunta 99",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 99",
+        "EUNACOM Diciembre 2024 · Pregunta 40",
+        "EUNACOM Diciembre 2024 · Pregunta 171"
+      ],
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Insomnio crónico: ≥ {{c1::3}} noches por semana durante 3 meses; tratar con higiene del sueño y terapia cognitivo-conductual.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Sueño",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.027"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-11/01_postura-parkinsoniana__cto-neuro_p54.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Postura parkinsoniana",
+      "clave": "Flexión del tronco, hipomimia y pérdida de braceo asimétrica",
+      "conducta": "Diagnóstico clínico (bradicinesia + temblor/rigidez); ≥ 65 años: levodopa/carbidopa lejos de proteínas",
+      "fuente": "Manual CTO Neurología 14.ª ed., p. 54",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.006"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1.0.1.0",
+      "pista": "Parkinson idiopático ≥ 65 años: ¿tratamiento?",
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.1.1",
+      "pista": "Parkinson en menor de 65 años: ¿opción?",
+      "codigos": [
+        "1.10.1.006"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.0",
+      "pista": "Banderas rojas o fármacos: ¿conducta?",
+      "codigos": [
+        "1.10.1.006"
+      ]
+    }
+  ]
+}

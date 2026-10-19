@@ -1,0 +1,402 @@
+{
+  "classId": "gin-10",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las glándulas de Bartolino se ubican en el tercio posterior de los labios mayores, a las {{c1::4 y 8 horas}} del introito.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.2.002"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El quiste de Bartolino se produce por {{c1::oclusión aséptica}} del conducto excretor, con retención de moco estéril.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Quiste",
+      "codigos": [
+        "3.01.2.002"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Clínica del quiste de Bartolino: masa redondeada, lisa, móvil y {{c1::completamente indolora}}, sin eritema.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla patologías vulvares",
+      "codigos": [
+        "3.01.2.002"
+      ],
+      "repaso": true,
+      "imagen": "biblioteca/13_ginecologia/gin-10/02_quiste-bartolino__knoop_p269.jpg"
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Quiste de Bartolino asintomático: se indica {{c1::observación}}.",
+      "extra": "No se drena un quiste que no molesta.",
+      "origen": "clase:1",
+      "fuente": "Clase · Quiste",
+      "codigos": [
+        "3.01.2.002"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Quiste de Bartolino sintomático o recurrente: {{c1::marsupialización}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Quiste",
+      "codigos": [
+        "3.01.2.002"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Masa vulvar indolora y sin eritema: el error clásico es {{c1::drenar}} un quiste que no molesta.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.2.002"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El absceso de Bartolino es una sobreinfección {{c1::polimicrobiana}} del quiste o la glándula.",
+      "extra": "Aerobios y anaerobios: E. coli, Bacteroides, Staphylococcus; ocasionalmente gonococo o clamidia.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Absceso",
+      "codigos": [
+        "3.01.2.002"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Absceso de Bartolino: masa eritematosa, caliente, {{c1::fluctuante}} y exquisitamente dolorosa en el introito posterior.",
+      "extra": "Impide sentarse o caminar.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla patologías vulvares",
+      "codigos": [
+        "3.01.2.002"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 141"
+      ],
+      "imagen": "biblioteca/13_ginecologia/gin-10/01_absceso_bartolino__williams-gyn_p114.jpg"
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tratamiento de elección del absceso de Bartolino: drenaje quirúrgico con {{c1::marsupialización}}.",
+      "extra": "Crea un ostium permanente que evita la recidiva.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.2.002",
+        "3.01.5.004"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 168"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la marsupialización se suturan los bordes de la pared de la glándula a la {{c1::mucosa vestibular}} con puntos reabsorbibles.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Absceso",
+      "codigos": [
+        "3.01.5.004"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Alternativa a la marsupialización en el absceso: colocar un {{c1::catéter de Word}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Absceso",
+      "codigos": [
+        "3.01.2.002",
+        "3.01.5.004"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El catéter de Word se deja por {{c1::4 semanas}} para la epitelización del trayecto.",
+      "extra": "Su balón se insufla con 2-3 mL de suero.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Absceso",
+      "codigos": [
+        "3.01.5.004"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La simple punción del absceso de Bartolino recidiva en más del {{c1::80%}}.",
+      "extra": "Por eso está contraindicada.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.2.002"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Absceso de Bartolino fluctuante y doloroso: el error es la {{c1::punción simple con aguja}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.2.002"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Absceso de Bartolino con tres o más episodios previos drenados: conducta {{c1::marsupialización}} (bartholinocistostomía).",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Quiz Dic 2022",
+      "codigos": [
+        "3.01.2.002"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 111",
+        "EUNACOM Enero 2023 · Pregunta 52",
+        "EUNACOM Agosto 2021 · Pregunta 42"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antibióticos en el absceso de Bartolino solo si hay celulitis extensa, fiebre o inmunodepresión: {{c1::cefadroxilo o amoxicilina/clavulánico}}.",
+      "extra": "Complementan el drenaje, no lo reemplazan.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Absceso",
+      "codigos": [
+        "3.01.2.002"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 119"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El liquen escleroso vulvar es una dermatosis inflamatoria {{c1::autoinmune}} que afecta sobre todo a mujeres postmenopáusicas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Liquen escleroso",
+      "codigos": [
+        "3.01.2.002"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síntoma cardinal del liquen escleroso vulvar: {{c1::prurito crónico intratable}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Liquen escleroso",
+      "codigos": [
+        "3.01.2.002"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Liquen escleroso: placas blanco-nacaradas atróficas en {{c1::figura de ocho}} (cerradura) alrededor de vulva y ano.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Liquen escleroso",
+      "codigos": [
+        "3.01.2.002"
+      ],
+      "repaso": false,
+      "imagen": "biblioteca/13_ginecologia/gin-10/01_liquen-escleroso__cto-gyo_p106.jpg"
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con el tiempo el liquen escleroso borra los labios menores, entierra el clítoris y produce {{c1::estenosis del introito}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Liquen escleroso",
+      "codigos": [
+        "3.01.2.002"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El liquen escleroso vulvar tiene un {{c1::3 a 5%}} de riesgo de carcinoma epidermoide de vulva.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Liquen escleroso",
+      "codigos": [
+        "3.01.2.002"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de elección del liquen escleroso: propionato de {{c1::clobetasol}} al 0.05% en ungüento.",
+      "extra": "Corticoide ultrapotente tópico por la noche.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.2.002"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Pauta del clobetasol: cada noche por 4 semanas, luego noches alternas por {{c1::4 semanas}} y mantención 1-2 veces por semana.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Liquen escleroso",
+      "codigos": [
+        "3.01.2.002"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Liquen escleroso con área engrosada, ulcerada o sobreelevada: se hace {{c1::biopsia con sacabocados}}, no se aumenta el corticoide.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.2.002"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Prurito crónico con placas en cerradura: el error es tratarlo como {{c1::candidiasis}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.2.002"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-10/01_absceso_bartolino__williams-gyn_p114.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Absceso de Bartolino",
+      "clave": "Masa roja, caliente y fluctuante en la parte posterior del labio mayor",
+      "conducta": "Drenaje quirúrgico con marsupialización (o catéter de Word); nunca solo punción",
+      "fuente": "Williams Gynecology 4.ª ed., Fig. 3-18",
+      "codigos": [
+        "3.01.2.002",
+        "3.01.5.004"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-10/02_quiste-bartolino__knoop_p269.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Quiste de Bartolino",
+      "clave": "Masa redonda, móvil e indolora, sin eritema",
+      "conducta": "Observación si es asintomático; marsupialización si molesta o recidiva",
+      "fuente": "The Atlas of Emergency Medicine (Knoop), p. 269",
+      "codigos": [
+        "3.01.2.002"
+      ],
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Masa de Bartolino: ¿duele y fluctúa?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.1",
+      "pista": "Masa dolorosa y fluctuante: ¿qué conducta?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0",
+      "pista": "Placa blanca pruriginosa sin lesión sospechosa: ¿tratamiento?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.1",
+      "pista": "Placa con área sospechosa: ¿qué se hace?"
+    }
+  ]
+}

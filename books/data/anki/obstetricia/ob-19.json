@@ -1,0 +1,444 @@
+{
+  "classId": "ob-19",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Fiebre puerperal: temperatura axilar ≥ {{c1::38.0°C}} en dos tomas separadas por al menos {{c2::6 horas}}, desde el 2.º día hasta el día 42.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro · Introducción",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.006"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa más frecuente de morbilidad febril puerperal es la {{c1::endometritis}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.006"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El factor de riesgo más importante de endometritis puerperal es la {{c1::cesárea}} (sobre todo de urgencia).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · La causa más frecuente de fiebre",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.006"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La rotura prematura de membranas prolongada (> {{c1::12-18 horas}}) es factor de riesgo de endometritis.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Endometritis",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.006"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La endometritis es polimicrobiana; si no responde a penicilina + gentamicina, sospecha el anaerobio {{c1::Bacteroides fragilis}}.",
+      "extra": "Se agrega clindamicina.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Etiología",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 171"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La endometritis debuta típicamente entre el {{c1::2.° y 4.°}} día postparto.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Endometritis",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.006"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Endometritis: fiebre + dolor uterino + útero subinvolucionado + {{c1::loquios fétidos}}.",
+      "extra": "También puede haber aumento de la metrorragia.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 174",
+        "EUNACOM Diciembre 2019 · Pregunta 151",
+        "EUNACOM Julio 2015 · Pregunta 174"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La endometritis puerperal se maneja siempre {{c1::hospitalizada}}, nunca ambulatoria ni con antibióticos orales.",
+      "extra": "Riesgo de celulitis pelviana, peritonitis y shock séptico.",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento: siempre hospitalizada",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 152"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Esquema de elección de la endometritis: {{c1::clindamicina + gentamicina}} EV.",
+      "extra": "Cubre anaerobios y bacilos gram negativos.",
+      "origen": "clase:3",
+      "fuente": "Clase · Antibióticos endovenosos",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.006"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Clindamicina en endometritis: {{c1::900 mg}} EV cada 8 horas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.006"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Gentamicina en endometritis: {{c1::5 mg/kg/día}} EV en dosis única diaria.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.006"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si se sospecha Enterococcus o no hay respuesta en 48-72 h, se añade {{c1::ampicilina}} 2 g EV cada 6 h.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.006"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los antibióticos EV de la endometritis se mantienen hasta {{c1::48 horas}} afebril; no se continúa con antibióticos orales al alta.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Antibióticos endovenosos",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.006"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La congestión mamaria es {{c1::bilateral}}, sin fiebre, y aparece con la bajada de leche (2.° a 4.° día).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de cuadros mamarios",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.009"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La congestión mamaria se trata con vaciamiento, calor y lactancia libre, {{c1::sin antibióticos}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Congestión, no mastitis",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.009"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La mastitis infecciosa es {{c1::unilateral}} y aparece entre la 2.ª y 4.ª semana del puerperio.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de cuadros mamarios",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.009"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El agente de la mastitis es {{c1::Staphylococcus aureus}}, que entra por grietas del pezón.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Mastitis infecciosa",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.009"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mastitis: placa eritematosa, caliente e indurada, sectorial, típicamente en el cuadrante {{c1::superoexterno}}, con fiebre alta y calofríos.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Mastitis infecciosa",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.009"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Mastitis infecciosa: {{c1::cloxacilina}} 500 mg cada 6 h VO por 10 a 14 días.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Mastitis infecciosa",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.009"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 176",
+        "EUNACOM Diciembre 2019 · Pregunta 153"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa a la cloxacilina: {{c1::cefadroxilo}} 500 mg cada 12 h VO.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Mastitis infecciosa",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.009"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En alérgicas a penicilina con mastitis se usa {{c1::clindamicina o eritromicina}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Mastitis infecciosa",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.009"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En mastitis infecciosa NUNCA se {{c1::suspende la lactancia}}; vaciar la mama previene el absceso.",
+      "extra": "La estasis láctea es lo que lleva al absceso.",
+      "origen": "clase:5",
+      "fuente": "Clase · Nunca suspendas la lactancia",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.009"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 64"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En mastitis se inicia el amamantamiento por la mama {{c1::sana}} para estimular el reflejo de eyección.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Mastitis infecciosa",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.009"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El absceso mamario es una masa {{c1::fluctuante}} que no responde tras 48-72 horas de antibióticos.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Libro §3 Absceso mamario",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.020"
+      ],
+      "imagen": "biblioteca/14_obstetricia/ob-19/01_absceso_mamario__bailey_p887.jpg"
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El absceso mamario se confirma con {{c1::ecografía mamaria}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Cuando la mastitis no responde",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.020"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tratamiento del absceso mamario: {{c1::drenaje}} (quirúrgico o por punción ecoguiada) + antibióticos.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Cuando la mastitis no responde",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.020"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 51",
+        "EUNACOM Diciembre 2024 · Pregunta 73"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Absceso con piel comprometida y pus exteriorizado: se prefiere el drenaje {{c1::quirúrgico con incisión}} sobre la punción.",
+      "extra": "La punción se reserva para piel sana.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Diciembre 2025",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.020"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el absceso mamario se puede seguir amamantando del pecho {{c1::contralateral}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Absceso mamario",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.020"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-19/01_absceso_mamario__bailey_p887.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Absceso mamario puerperal",
+      "clave": "Zona roja con masa fluctuante; la ecografía muestra la colección líquida",
+      "conducta": "Drenaje (quirúrgico o punción ecoguiada) + antibióticos",
+      "fuente": "Bailey & Love 27.ª ed., Fig. 53.13",
+      "repaso": true,
+      "codigos": [
+        "3.01.2.020"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-19/02_absceso_mamario_puerperal_eco__williams-gyn_p314.jpg",
+      "pregunta": "¿Qué hallazgo confirma el diagnóstico?",
+      "diagnostico": "Absceso mamario puerperal en ecografía",
+      "clave": "Colección líquida con detritos en la mama",
+      "conducta": "Drenaje + antibióticos; mantener lactancia en la mama sana",
+      "fuente": "Williams Gynecology 4.ª ed., Fig. 13-8",
+      "repaso": false,
+      "codigos": [
+        "3.01.2.020"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "Útero doloroso con loquios fétidos: ¿qué conducta?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Ambas mamas, sin fiebre: ¿qué es y qué haces?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1.0",
+      "pista": "Una mama con fiebre, sin fluctuación: ¿qué tratamiento?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.1.1",
+      "pista": "Una mama con masa fluctuante: ¿qué haces?"
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+{
+  "classId": "hem-12",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la PTI hay autoanticuerpos IgG contra {{c1::GP IIb/IIIa e Ib/IX}} que opsonizan las plaquetas.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Fisiopatología",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la PTI los macrófagos del bazo destruyen las plaquetas por sus receptores {{c1::Fc-gamma}}.",
+      "extra": "La vida media baja de 7–10 días a horas.",
+      "origen": "clase:1",
+      "fuente": "Clase · Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La PTI es un diagnóstico de {{c1::exclusión}}: trombocitopenia aislada con examen físico normal.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante trombocitopenia aislada, primero pide {{c1::frotis}} o repite en tubo con citrato.",
+      "extra": "El error es diagnosticar PTI sin frotis.",
+      "origen": "clase:2",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La pseudotrombocitopenia por {{c1::EDTA}} agrupa las plaquetas en grumos que el contador no cuenta.",
+      "extra": "El paciente está sano.",
+      "origen": "clase:2",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": false,
+      "imagen": "biblioteca/06_hematologia/hem-12/atlas_328_pseudotrombocitopenia_por_edta.jpg",
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la PTI el único hallazgo físico es el púrpura mucocutáneo; el bazo {{c1::no}} se palpa.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": false,
+      "imagen": "biblioteca/06_hematologia/hem-12/01_petequias-purpura-en-eeii__amir-hemato_p89.jpg",
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Petequias con esplenomegalia, adenopatías o fiebre: el error es llamarlo PTI; busca {{c1::leucemia o linfoma}}.",
+      "extra": "También hiperesplenismo o cirrosis.",
+      "origen": "clase:3",
+      "fuente": "Clase · Lo que no calza",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PTI en niño: pico entre {{c1::2 y 6 años}}, inicio súbito, 1 a 3 semanas después de una virosis o vacuna.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · PTI niño",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.035"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La PTI del niño remite sola en > {{c1::80 %}} en 3 a 6 meses.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · PTI niño",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.035"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Niño post virosis sin sangrado de mucosas: {{c1::observar}}; el error es dar corticoides por el número.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PTI del adulto: mujer de {{c1::18 a 40 años}}, inicio insidioso y sin virosis previa.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · PTI adulto",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La PTI del adulto se hace crónica en más del {{c1::70 %}} de los casos.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · PTI adulto",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el adulto con PTI se busca causa secundaria: {{c1::LES, VIH, VHC y H. pylori}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · PTI adulto",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El objetivo del tratamiento no es 150.000: la meta es un recuento seguro sobre {{c1::30.000 a 50.000/µL}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Cuándo tratar",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Adulto asintomático con plaquetas > {{c1::30.000/µL}}: solo observar y evitar AINE; el error es iniciar corticoides.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Cuándo tratar",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se trata con plaquetas < {{c1::20.000 a 30.000/µL}} aunque esté asintomático, o con sangrado de mucosas con cualquier recuento.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Cuándo tratar",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Primera línea: prednisona {{c1::1 mg/kg/día}} por 2 a 4 semanas, con descenso en 4 a 6 semanas.",
+      "extra": "Responde el 70 a 80 % en 4 a 14 días.",
+      "origen": "clase:7",
+      "fuente": "Clase · Corticoides",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa de primera línea: dexametasona {{c1::40 mg/día por 4 días}}, ciclos cada 14 a 28 días.",
+      "extra": "Menor exposición a esteroides y respuesta más sostenida.",
+      "origen": "clase:7",
+      "fuente": "Clase · Corticoides",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "IgEV en PTI grave: {{c1::1 g/kg/día}} por 1 a 2 días.",
+      "extra": "Bloquea receptores Fc del bazo.",
+      "origen": "clase:8",
+      "fuente": "Clase · Inmunoglobulina",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.009"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con IgEV las plaquetas suben en {{c1::24–48 h}} y el efecto dura 2 a 4 semanas.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Inmunoglobulina",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.009"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Sangrado mucoso activo grave o cirugía urgente: {{c1::IgEV + corticoides}}; el error es esperar la respuesta a corticoides.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.009"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Las plaquetas se transfunden en PTI solo con {{c1::riesgo vital}} (hemorragia intracraneal), junto a IgEV y metilprednisolona.",
+      "extra": "",
+      "origen": "clase:18",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.009"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Segunda línea en PTI: eltrombopag oral o {{c1::romiplostim}} SC (agonistas de trombopoyetina).",
+      "extra": "Respuesta sostenida en > 80 %.",
+      "origen": "clase:9",
+      "fuente": "Clase · Segunda línea",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Rituximab en PTI es un anti-{{c1::CD20}} que elimina los linfocitos B productores del anticuerpo.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Segunda línea",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La esplenectomía cura más del 65 % de los adultos con PTI y se difiere al menos {{c1::12 meses}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Segunda línea",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En PTI refractaria el error es esplenectomizar antes de {{c1::12 meses}}; siempre vacunar contra encapsulados.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "PTI de 28 años con plaquetas 14.000 sin sangrado mucoso: {{c1::prednisona 1 mg/kg/día}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz caso",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.009"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño sano con petequias tras virosis y plaquetas 10.000: {{c1::PTI}}.",
+      "extra": "Sin anemia hemolítica ni falla renal: no es PTT ni SHU.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Julio 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 75",
+        "EUNACOM Diciembre 2025 · Pregunta 101",
+        "EUNACOM Diciembre 2018 · Pregunta 159",
+        "EUNACOM Julio 2016 · Pregunta 146",
+        "EUNACOM Julio 2013 · Pregunta 111"
+      ],
+      "codigos": [
+        "1.08.1.012",
+        "2.01.1.035"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adulto con PTI sin sangrado grave y plaquetas en 5.000: {{c1::corticoides 1 mg/kg}}.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Diciembre 2024",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 121",
+        "EUNACOM Julio 2013 · Pregunta 47",
+        "EUNACOM Diciembre 2025 · Pregunta 22"
+      ],
+      "codigos": [
+        "1.08.1.012",
+        "2.01.1.035"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Plaquetas 4.000 con epistaxis profusa y hematuria: hospitalizar, metilprednisolona EV, {{c1::IgEV}} y plaquetas.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.009"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Paciente asintomático con trombocitopenia aislada en control: lo primero es {{c1::repetir el hemograma}}.",
+      "extra": "Descarta pseudotrombocitopenia.",
+      "origen": "clase:2",
+      "fuente": "Banco · Diciembre 2024",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 167"
+      ],
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Plaquetas que bajan de 180.000 a 45.000 a los 5 días de heparina: {{c1::HIT}}; se suspende la heparina.",
+      "extra": "Se cambia a argatrobán.",
+      "origen": "libro:sec:3",
+      "fuente": "Banco · Julio 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 131"
+      ],
+      "codigos": [
+        "1.08.1.012",
+        "1.08.2.009"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cefalea, desorientación, ictericia, HTA y plaquetopenia con esquistocitos: {{c1::PTT}}, no PTI.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Banco · Julio 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 131",
+        "EUNACOM Agosto 2021 · Pregunta 107"
+      ],
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-12/atlas_328_pseudotrombocitopenia_por_edta.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Pseudotrombocitopenia por EDTA",
+      "clave": "Agregados plaquetarios en el frotis",
+      "conducta": "Repetir en tubo con citrato; paciente sano",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-12/01_petequias-purpura-en-eeii__amir-hemato_p89.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Petequias y púrpura de PTI",
+      "clave": "Petequias y equimosis en las piernas",
+      "conducta": "Hemograma, frotis y TP/TTPK; tratar si < 20.000 a 30.000 o mucosas",
+      "fuente": "Manual AMIR Hematología, p. 89",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.012"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1.0",
+      "pista": "Trombocitopenia con bazo palpable: ¿qué buscas?",
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1.1",
+      "pista": "Plaquetas < 20.000–30.000 o mucosas: ¿qué tratamiento?",
+      "codigos": [
+        "1.08.1.012"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1.2",
+      "pista": "Sangrado grave o SNC: ¿qué tratamiento?",
+      "codigos": [
+        "1.08.2.009"
+      ]
+    }
+  ]
+}

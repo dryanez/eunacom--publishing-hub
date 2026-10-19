@@ -1,0 +1,541 @@
+{
+  "classId": "reuma-19",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La artritis reactiva es una sinovitis {{c1::estéril}} inmunomediada gatillada por una infección a distancia.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.002"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La artritis reactiva aparece {{c1::1 a 4 semanas}} después de la infección urogenital o digestiva.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 116"
+      ],
+      "codigos": [
+        "1.11.1.002",
+        "1.04.1.010"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El HLA-B27 es positivo en el {{c1::60-80%}} de las artritis reactivas.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.002"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El gatillante más frecuente en hombres jóvenes es {{c1::Chlamydia trachomatis}}.",
+      "extra": "Segundo: Ureaplasma urealyticum.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Patógenos",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 100",
+        "EUNACOM Julio 2016 · Pregunta 110"
+      ],
+      "codigos": [
+        "1.11.1.002"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Gatillantes entéricos de artritis reactiva: Campylobacter, Salmonella, {{c1::Shigella}}, Yersinia y C. difficile.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Patógenos",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 116"
+      ],
+      "codigos": [
+        "1.11.1.002"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tríada de Reiter: uretritis, conjuntivitis y {{c1::artritis}} asimétrica.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.002"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La tríada de Reiter completa está presente en el {{c1::30-50%}} de los casos.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.002"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La artritis reactiva es una oligoartritis asimétrica y aditiva de {{c1::extremidades inferiores}} (rodillas, tobillos, pies).",
+      "extra": "Con entesitis aquiliana y dactilitis.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.002",
+        "1.11.1.016"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La afección urogenital de Reiter es uretritis {{c1::no gonocócica}} o cervicitis, que precede ~2 semanas a la artritis.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.002"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La afección ocular de Reiter es conjuntivitis bilateral no purulenta, presente en el {{c1::40-50%}}.",
+      "extra": "También puede haber uveítis anterior.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.002"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::balanitis circinada}} son erosiones serpiginosas indoloras en glande y meato.",
+      "extra": "Presente en 20-40% de los hombres.",
+      "origen": "foto",
+      "fuente": "Manual AMIR Reumatología, p. 83",
+      "repaso": false,
+      "imagen": "biblioteca/08_reumatologia/reuma-19/01_balanitis-circinada-queratodermia_1__amir-reuma_p83.jpg",
+      "codigos": [
+        "1.04.1.010",
+        "1.11.1.016"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::queratodermia blenorrágica}} son placas hiperqueratósicas en palmas y plantas, similares a psoriasis pustulosa.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Manual AMIR Reumatología, p. 83",
+      "repaso": true,
+      "imagen": "biblioteca/08_reumatologia/reuma-19/01_balanitis-circinada-queratodermia_2__amir-reuma_p83.jpg",
+      "codigos": [
+        "1.04.1.010",
+        "1.11.1.016"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Otras lesiones de Reiter: úlceras orales superficiales e {{c1::indoloras}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.002"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El líquido sinovial de la artritis reactiva es inflamatorio, pero el Gram y los cultivos son {{c1::negativos}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.002",
+        "1.04.1.010"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El líquido sinovial de la artritis reactiva tiene {{c1::2.000 a 50.000}} leucocitos/mm³ con predominio PMN.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.002"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Joven con derrame agudo de rodilla: antes de rotular \"reactiva\" hay que hacer {{c1::artrocentesis}} para descartar artritis séptica.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · Oligoartritis",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.016",
+        "1.04.1.010"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para buscar el patógeno primario se pide {{c1::PCR de Chlamydia}} en orina de primer chorro o frotis uretral/cervical.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Diagnóstico",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 52"
+      ],
+      "codigos": [
+        "1.11.1.002"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento articular de primera línea en artritis reactiva: {{c1::AINEs}} a dosis plenas continuas.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.002",
+        "1.04.1.010"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Indometacina en artritis reactiva: {{c1::50-75 mg cada 8-12 horas}}.",
+      "extra": "Naproxeno 500 mg cada 12 horas es la alternativa.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.002"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En monoartritis o oligoartritis resistente a AINEs se usan {{c1::corticoides intraarticulares}}.",
+      "extra": "Sulfasalazina si es crónica.",
+      "origen": "clase:5",
+      "fuente": "Clase · Manejo articular",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.016"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Chlamydia activa: doxiciclina 100 mg cada 12 h por {{c1::7 a 10 días}}.",
+      "extra": "Alternativa: azitromicina 1 g oral en dosis única.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.002"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa a doxiciclina para Chlamydia: azitromicina {{c1::1 g}} oral en dosis única.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.002"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Chlamydia confirmada: es obligatorio {{c1::tratar también a la pareja sexual}}.",
+      "extra": "Los antibióticos no curan la artritis ya instalada, erradican el foco y previenen recidivas.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.04.1.010",
+        "1.11.1.002"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pústulas hemorrágicas, tenosinovitis y poliartralgias migratorias en joven sexualmente activa: {{c1::infección gonocócica diseminada}}.",
+      "extra": "Se trata con ceftriaxona endovenosa.",
+      "origen": "foto",
+      "fuente": "Harrison, 21.ª ed., p. 1279",
+      "repaso": false,
+      "imagen": "_verificadas/349_reuma_Artritis_reactiva__HarrisonsP_p1279_1.jpg",
+      "codigos": [
+        "1.04.1.010",
+        "1.11.1.016"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La artritis reactiva puede prolongarse meses; en la gonocócica la respuesta a ceftriaxona se ve en {{c1::48 horas}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · IGD vs reactiva",
+      "repaso": false,
+      "codigos": [
+        "1.04.1.010",
+        "1.11.1.002"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Oligoartritis migratoria de grandes articulaciones tras faringitis: {{c1::fiebre reumática}} (criterios de Jones).",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.016",
+        "1.04.1.010"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Eritema nodoso con adenopatías hiliares y artritis de tobillos: síndrome de {{c1::Löfgren}} (sarcoidosis).",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Fitzpatrick, Fig. 68-4",
+      "repaso": false,
+      "imagen": "biblioteca/08_reumatologia/reuma-19/10_eritema-nodoso__fitzpatrick_p611.jpg",
+      "codigos": [
+        "1.04.1.010",
+        "1.11.1.016"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Flujo uretral o cervicitis: manejo sindrómico que cubre {{c1::gonorrea y clamidia}} en la primera consulta.",
+      "extra": "Ceftriaxona IM dosis única + azitromicina 1 g (o doxiciclina 100 mg c/12 h por 7 días).",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Manejo sindrómico de ITS",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 61",
+        "EUNACOM Julio 2025 · Pregunta 36",
+        "EUNACOM Julio 2019 · Pregunta 86"
+      ],
+      "codigos": [
+        "1.04.1.010"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Chancro de sífilis primaria: penicilina benzatina {{c1::2,4 millones UI}} IM en dosis única.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Manejo sindrómico de ITS",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 40",
+        "EUNACOM Diciembre 2022 · Pregunta 178",
+        "EUNACOM Agosto 2021 · Pregunta 112",
+        "EUNACOM Diciembre 2019 · Pregunta 136",
+        "EUNACOM Julio 2025 · Pregunta 37"
+      ],
+      "codigos": [
+        "1.04.1.010"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Primer episodio de herpes genital: aciclovir 400 mg cada 8 horas por {{c1::7-10 días}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Manejo sindrómico de ITS",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 169",
+        "EUNACOM Julio 2016 · Pregunta 145"
+      ],
+      "codigos": [
+        "1.04.1.010"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pilares de toda ITS: consejería, preservativo, tratar parejas de los últimos {{c1::2-3 meses}} y tamizar VIH, VDRL y hepatitis B.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Pilares de toda ITS",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 91"
+      ],
+      "codigos": [
+        "1.04.1.010"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras tratar una ITS se indica abstinencia sexual hasta {{c1::7 días}} después de completar el tratamiento.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Pilares de toda ITS",
+      "repaso": false,
+      "codigos": [
+        "1.04.1.010"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En sífilis se controla el VDRL a los 3, 6 y {{c1::12 meses}}.",
+      "extra": "Se espera caída de 4 veces o más en 6-12 meses.",
+      "origen": "clase:9",
+      "fuente": "Clase · Manejo sindrómico de ITS",
+      "repaso": false,
+      "codigos": [
+        "1.04.1.010",
+        "1.11.1.016"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-19/01_balanitis-circinada-queratodermia_1__amir-reuma_p83.jpg",
+      "pregunta": true,
+      "diagnostico": "Balanitis circinada (artritis reactiva)",
+      "clave": "Erosiones serpiginosas superficiales indoloras en glande",
+      "conducta": "Artrocentesis, AINEs, PCR de Chlamydia y tratar a la pareja",
+      "fuente": "Manual AMIR Reumatología, p. 83",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.002",
+        "1.04.1.010"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-19/01_balanitis-circinada-queratodermia_2__amir-reuma_p83.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Queratodermia blenorrágica",
+      "clave": "Placas hiperqueratósicas amarillentas con centro costroso en plantas",
+      "conducta": "AINEs; doxiciclina y pareja si hay Chlamydia activa",
+      "fuente": "Manual AMIR Reumatología, p. 83",
+      "repaso": false,
+      "codigos": [
+        "1.04.1.010",
+        "1.11.1.016"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Oligoartritis tras uretritis o diarrea: ¿qué procedimiento haces primero?",
+      "codigos": [
+        "1.11.1.002"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0.0",
+      "pista": "Líquido estéril con lesiones de Reiter: ¿manejo?",
+      "codigos": [
+        "1.11.1.002"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0.0.1",
+      "pista": "Gram positivo o cultivo bacteriano: ¿diagnóstico y conducta?",
+      "codigos": [
+        "1.11.1.002"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,600 @@
+{
+ "classId": "cardio-15",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La complicación temprana más frecuente del infarto son las {{c1::arritmias}}; la FV de las primeras horas es la principal causa de muerte prehospitalaria.",
+   "extra": "Por eso el desfibrilador debe estar al lado del paciente.",
+   "origen": "clase:1",
+   "fuente": "Clase · Arritmias, shock y reinfarto",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2018 · Pregunta 42"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El RIVA es una arritmia de {{c1::reperfusión}} benigna que no se trata.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Arritmias, shock y reinfarto",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el infarto inferior la bradicardia y el BAV son {{c1::transitorios}} y responden a atropina; en el anterior reflejan necrosis extensa y requieren marcapaso.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Arritmias, shock y reinfarto",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tras un infarto se corrige el potasio (> {{c1::4 mEq/L}}) y el magnesio (> 2 mg/dL); no se usan antiarrítmicos profilácticos.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Complicaciones precoces",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El shock cardiogénico (Killip IV) es la principal causa de muerte intrahospitalaria y se trata con {{c1::angioplastía urgente}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Arritmias, shock y reinfarto",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El dolor que reaparece tras un infarto indica reoclusión o estenosis residual: {{c1::coronariografía urgente}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Arritmias, shock y reinfarto",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ante deterioro hemodinámico post-infarto se pide ecocardiograma urgente para distinguir pérdida extensa de miocardio, infarto del VD y {{c1::complicación mecánica}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Shock",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.006"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 53"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un supradesnivel ST ≥ {{c1::1 mm}} en V4R confirma el infarto del ventrículo derecho.",
+   "extra": "Oclusión proximal de la coronaria derecha.",
+   "origen": "foto",
+   "imagen": "biblioteca/20_cardiologia/cardio-15/01_ecg-infarto-ventriculo-derecho-v3r-v4r__stroobandt-ecg_p172.jpg",
+   "fuente": "Libro §2 · Stroobandt p. 172",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tríada del infarto del VD: hipotensión, ingurgitación yugular y campos pulmonares {{c1::limpios}}.",
+   "extra": "Kussmaul positivo.",
+   "origen": "clase:2",
+   "fuente": "Clase · El ventrículo derecho",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El infarto del VD aparece en cerca de un {{c1::tercio}} de los infartos inferiores.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Infarto del VD",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tratamiento del infarto del VD es {{c1::volumen con suero fisiológico}} (bolos de 250-500 mL) más reperfusión urgente.",
+   "extra": "Si persiste el shock: dobutamina.",
+   "origen": "clase:2",
+   "fuente": "Clase · El ventrículo derecho",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el infarto del VD están prohibidos {{c1::nitratos, diuréticos y morfina}}, porque bajan la precarga.",
+   "extra": "Error típico: nitroglicerina o furosemida.",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Infarto inferior en un usuario de sildenafil con dolor: no se da {{c1::nitroglicerina}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 145"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las complicaciones mecánicas del infarto aparecen entre los días {{c1::3 y 7}}.",
+   "extra": "Necrosis transmural y debilidad máxima del miocardio.",
+   "origen": "clase:4",
+   "fuente": "Clase · Días tres a siete",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 125"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Rotura del músculo papilar: edema pulmonar súbito + shock + soplo {{c1::holosistólico apical}} nuevo que irradia a la axila.",
+   "extra": "Más frecuente en el infarto inferior (papilar posteromedial).",
+   "origen": "foto",
+   "imagen": "biblioteca/20_cardiologia/cardio-15/03_rotura-musculo-papilar-pieza__pathoma_p75.jpg",
+   "fuente": "Clase · Días tres a siete (Pathoma p. 75)",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La rotura del papilar se confirma con {{c1::ecocardiograma}} y se trata con BCPIAo y cirugía mitral urgente.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Días tres a siete",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.006"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Rotura del tabique (CIV): soplo {{c1::pansistólico rudo en barra}} en borde esternal izquierdo bajo con frémito.",
+   "extra": "Doppler color; BCPIAo; cirugía de cierre.",
+   "origen": "clase:4",
+   "fuente": "Clase · Días tres a siete",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El cateterismo de la CIV post-IAM muestra un «salto {{c1::oximétrico}}» en el ventrículo derecho.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 CIV",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La rotura de pared libre es la complicación mecánica más letal: mortalidad > {{c1::90%}}.",
+   "extra": "Mujer anciana, primer infarto anterior transmural.",
+   "origen": "foto",
+   "imagen": "biblioteca/20_cardiologia/cardio-15/02_rotura-pared-libre-pieza__pathoma_p75.jpg",
+   "fuente": "Libro §3 · Pathoma p. 75",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La rotura de pared libre da hemopericardio con taponamiento y {{c1::disociación electromecánica}} (AESP).",
+   "extra": "Pericardiocentesis y toracotomía de rescate.",
+   "origen": "clase:4",
+   "fuente": "Clase · Días tres a siete",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Edema pulmonar con soplo holosistólico apical en el día 3-7 de un infarto: el error es dar diurético y {{c1::esperar}}.",
+   "extra": "Corresponde ecocardiograma y cirugía.",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La pericarditis post-IAM precoz ocurre a los 1-3 días; el síndrome de {{c1::Dressler}} entre 2 y 8 semanas.",
+   "extra": "Aspirina en dosis altas o colchicina; evitar AINE y corticoides precoces.",
+   "origen": "clase:5",
+   "fuente": "Clase · Pericarditis, aneurisma y trombo",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Aneurisma ventricular verdadero: supradesnivel del ST persistente más allá de {{c1::4 a 6 semanas}}, cuello ancho y bajo riesgo de rotura.",
+   "extra": "",
+   "origen": "foto",
+   "imagen": "biblioteca/20_cardiologia/cardio-15/04_aneurisma-ventricular-pieza__pathoma_p75.jpg",
+   "fuente": "Clase · Pericarditis, aneurisma y trombo (Pathoma p. 75)",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El pseudoaneurisma tiene cuello {{c1::estrecho}}, está contenido por el pericardio y requiere cirugía urgente.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Pericarditis, aneurisma y trombo",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El trombo mural del infarto anterior extenso se busca con {{c1::ecocardiograma}} y se anticoagula 3 a 6 meses.",
+   "extra": "",
+   "origen": "foto",
+   "imagen": "biblioteca/20_cardiologia/cardio-15/05_eco-trombo-aneurisma-apical__harrison_p1897.jpg",
+   "fuente": "Libro §4 · Harrison Fig. 241-35",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.006"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras un infarto, DAI si la FEVI persiste ≤ {{c1::35%}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Complicaciones tardías",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La angina de Prinzmetal es un espasmo coronario focal con dolor de {{c1::reposo}}, de madrugada, y ST elevado transitorio.",
+   "extra": "Sin onda Q ni necrosis, salvo espasmo prolongado.",
+   "origen": "clase:6",
+   "fuente": "Clase · Espasmo, no placa",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 172"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Gatillantes de Prinzmetal: tabaco, cocaína, anfetaminas, {{c1::triptanes}}, alcohol y estrés; asociado a migraña y Raynaud.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Espasmo, no placa",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Prinzmetal dudoso se confirma con coronariografía y provocación con {{c1::acetilcolina o ergonovina}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Prinzmetal",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Tratamiento de Prinzmetal: {{c1::calcioantagonista}} (diltiazem, verapamilo, amlodipino) más nitrato.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Espasmo, no placa",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En Prinzmetal está contraindicado el betabloqueador {{c1::no selectivo}} (propranolol): deja sin oposición el efecto alfa-1 vasoconstrictor.",
+   "extra": "Mismo mecanismo en infarto por cocaína.",
+   "origen": "clase:6",
+   "fuente": "Clase · Espasmo, no placa",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 44"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "SCACEST en hospital sin hemodinamia, con angioplastía primaria posible en ≤ 120 minutos (p. ej., centro a 60 minutos): se {{c1::traslada para angioplastía primaria}}; la trombolisis inmediata es solo si el traslado supera 120 minutos.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul. 2025 P96",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 96"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "SCACEST con ECG inferior: la medida inicial más adecuada es la {{c1::reperfusión}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic. 2024 P157",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 157",
+    "EUNACOM Julio 2015 · Pregunta 60",
+    "EUNACOM Julio 2017 · Pregunta 60",
+    "EUNACOM Julio 2025 · Pregunta 52"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "BCRI reciente con SCA se maneja igual que un SCA con {{c1::supradesnivel del ST}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul. 2019 P3 / Jul. 2016 P55",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 3",
+    "EUNACOM Julio 2016 · Pregunta 55"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Doble antiagregación en el SCACEST fibrinolizado: aspirina más {{c1::clopidogrel}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic. 2017 P11",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 11",
+    "EUNACOM Julio 2017 · Pregunta 46",
+    "EUNACOM Julio 2024 · Pregunta 87"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El examen para evaluar disnea o dolor de esfuerzo con infarto previo y estudio de función ventricular es la {{c1::ecocardiografía}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul. 2013 P53 / P102",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.006"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 53",
+    "EUNACOM Julio 2013 · Pregunta 102",
+    "EUNACOM Diciembre 2025 · Pregunta 88",
+    "EUNACOM Julio 2024 · Pregunta 28"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hombre de 64 años, día 4 de un infarto inferior, shock, edema pulmonar y soplo holosistólico apical a la axila: {{c1::rotura del papilar}}.",
+   "extra": "No es infarto del VD (pulmón limpio) ni CIV (soplo esternal con frémito).",
+   "origen": "libro:caso",
+   "fuente": "Libro · Caso clínico",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-15/01_ecg-infarto-ventriculo-derecho-v3r-v4r__stroobandt-ecg_p172.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Infarto inferior con extensión al ventrículo derecho",
+   "clave": "ST elevado en DII, DIII, aVF (más en DIII) y en V3R-V4R (≥ 1 mm)",
+   "conducta": "Volumen EV y reperfusión; prohibidos nitratos, diuréticos y morfina",
+   "fuente": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials, p. 172",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-15/03_rotura-musculo-papilar-pieza__pathoma_p75.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Rotura del músculo papilar",
+   "clave": "Papilar posteromedial roto en un infarto inferior, con insuficiencia mitral aguda",
+   "conducta": "Ecocardiograma urgente, BCPIAo y cirugía mitral",
+   "fuente": "Pathoma (Sattar), Cardiac Pathology, p. 75, Fig. 8.5C",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-15/04_aneurisma-ventricular-pieza__pathoma_p75.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Aneurisma ventricular verdadero",
+   "clave": "Zona infartada adelgazada, fibrótica, de cuello ancho",
+   "conducta": "Anticoagular si hay trombo mural; cirugía solo si es sintomático",
+   "fuente": "Pathoma (Sattar), Cardiac Pathology, p. 75, Fig. 8.7",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.004"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Hipotensión + yugulares + pulmón limpio: ¿diagnóstico y conducta?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "Soplo apical a la axila: ¿qué se rompió?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.1",
+   "pista": "Soplo en barra con frémito: ¿qué complicación?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.3",
+   "pista": "Dolor nocturno con ST transitorio: ¿tratamiento?"
+  }
+ ]
+}

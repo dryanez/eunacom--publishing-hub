@@ -1,0 +1,462 @@
+{
+  "classId": "nefro-02",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La NTA representa el {{c1::85%}} de las IRA intrínsecas en pacientes hospitalizados.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Qué mata al túbulo?",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causas isquémicas de NTA: shock {{c1::séptico, cardiogénico o hipovolémico}} prolongado.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 NTA",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Nefrotóxicos que causan NTA: {{c1::aminoglucósidos}} (gentamicina, amikacina), contraste yodado, vancomicina y anfotericina B.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 NTA",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pigmentos endógenos que causan NTA: {{c1::mioglobina}} (rabdomiólisis) y hemoglobina (hemólisis intravascular masiva).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 NTA",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.004"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Rabdomiólisis: CPK > {{c1::5.000–10.000 U/L}} y orina color té o coca-cola.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Rabdomiólisis",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En rabdomiólisis, la tira reactiva marca sangre positiva pero el microscopio muestra {{c1::sin glóbulos rojos}}.",
+      "extra": "Detecta el grupo hemo de la mioglobina: es mioglobinuria, no hematuria.",
+      "origen": "clase:2",
+      "fuente": "Clase · Rabdomiólisis",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento inicial de la rabdomiólisis: {{c1::hidratación intravenosa agresiva con cristaloides isotónicos}}.",
+      "extra": "Mantiene diuresis alta y evita la precipitación de cilindros de mioglobina.",
+      "origen": "clase:2",
+      "fuente": "Clase · Rabdomiólisis",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras ejercicio intenso con mialgias, oliguria y falla renal, el examen que confirma rabdomiólisis es la {{c1::creatininkinasa (CPK)}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Pregunta real",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 96"
+      ],
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sedimento de la NTA: {{c1::cilindros granulosos pardos ('muddy brown')}}, con FeNa > 2% e isostenuria.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · ¿Qué mata al túbulo?",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El epitelio tubular tarda {{c1::1 a 3 semanas}} en regenerarse tras una NTA.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Esperar al túbulo",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tratamiento de la NTA es {{c1::conservador}}: suspender el tóxico, ajustar fármacos a la función renal y mantener balance neutro.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la fase poliúrica de recuperación de la NTA hay que vigilar {{c1::deshidratación e hipokalemia}}.",
+      "extra": "El túbulo regenerado aún no reconcentra la orina.",
+      "origen": "clase:4",
+      "fuente": "Clase · Esperar al túbulo",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los corticoides {{c1::no están indicados}} en la NTA.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla NTA vs NTIA",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La NTIA es una reacción de {{c1::hipersensibilidad}} mediada por células en el intersticio renal (tipo IV/III).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla NTA vs NTIA",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Más del {{c1::75%}} de las NTIA son desencadenadas por fármacos.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 NTIA",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.013",
+        "1.09.4.012"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fármacos clásicos de NTIA: {{c1::betalactámicos}}, AINEs, {{c2::IBP (omeprazol)}} y sulfas.",
+      "extra": "Los IBP son causa prevalente en adultos mayores.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La tríada fiebre + exantema + eosinofilia se ve solo en {{c1::10–15%}} de las NTIA.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Una alergia en el riñón",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si esperas la tríada completa para diagnosticar NTIA, {{c1::se te pasa el diagnóstico}}.",
+      "extra": "El hallazgo más constante es la piuria estéril con cilindros leucocitarios.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hallazgo más constante de la NTIA: {{c1::piuria estéril}} (leucocituria con urocultivo negativo) y cilindros leucocitarios.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 NTIA",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.013",
+        "1.09.4.012"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La eosinofiluria (tinción de Hansel) es {{c1::sugerente pero no específica}} de NTIA.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 NTIA",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.013",
+        "1.09.4.012"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fiebre, exantema, eosinofilia, leucocituria y falla renal tras cloxacilina (betalactámico) corresponden a {{c1::nefritis intersticial}}.",
+      "extra": "La lesión inicial era una erisipela o celulitis.",
+      "origen": "clase:10",
+      "fuente": "Pregunta real",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 133",
+        "EUNACOM Julio 2016 · Pregunta 167"
+      ],
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La NTIA puede ocurrir sin exantema: eosinofilia, leucocituria y falla renal tras un betalactámico bastan para sospecharla; {{c1::la tríada completa no es necesaria}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz 167",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Conducta obligatoria y curativa en NTIA: {{c1::suspender de inmediato el fármaco responsable}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante NTIA por cefazolina en un paciente hospitalizado, se suspende y se {{c1::rota a otra familia antibiótica}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Quiz caso",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En NTIA por omeprazol + naproxeno con Hansel positivo, la primera conducta es {{c1::suspender ambos fármacos}}.",
+      "extra": "La mayoría recupera solo con esto; los corticoides se reservan si no mejora.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro · pregunta Dic 2021",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Corticoide en NTIA: {{c1::prednisona 1 mg/kg/día}} por {{c2::2 a 4 semanas}}.",
+      "extra": "Para evitar fibrosis intersticial irreversible.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se indica prednisona en NTIA si no hay mejoría franca tras {{c1::5 a 7 días}} de suspender el fármaco, o si Cr > {{c2::3-4 mg/dL}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": true,
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hematuria dismórfica con cilindros hemáticos y C3 bajo no es nefritis intersticial: es {{c1::glomerulonefritis}} por complejos inmunes.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz 154",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/03_nefrologia/nefro-02/01_tipos-de-cilindros_alt1_2__cto-nefro_p34.jpg",
+      "pregunta": "¿Qué muestran y a qué orientan?",
+      "diagnostico": "Tipos de cilindros urinarios",
+      "clave": "Cilindros granulosos pardos en la NTA; leucocitarios en NTIA",
+      "conducta": "NTA: soporte y balance neutro; NTIA: suspender el fármaco",
+      "fuente": "Manual CTO Nefrología 14.ª ed., p. 34",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/03_nefrologia/nefro-02/02_sedimento-leucocituria-nia__cto-nefro_p33.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Leucocituria en nefritis intersticial aguda",
+      "clave": "Sedimento lleno de leucocitos con urocultivo negativo (piuria estéril)",
+      "conducta": "Suspender el fármaco culpable; prednisona si no mejora en 5–7 días",
+      "fuente": "Manual CTO Nefrología 14.ª ed., p. 33",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "Granulosos pardos + tira con sangre sin hematíes: ¿qué es?",
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Piuria estéril: ¿qué diagnóstico y qué haces?",
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1",
+      "pista": "Sin mejoría tras suspender el fármaco: ¿qué indicas?",
+      "codigos": [
+        "1.09.2.004",
+        "1.09.1.013"
+      ]
+    }
+  ]
+}

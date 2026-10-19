@@ -1,0 +1,527 @@
+{
+ "classId": "cirugia-14",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "ASA {{c1::I}}: paciente sano; ASA {{c2::II}}: enfermedad sistémica leve sin limitación funcional.",
+   "extra": "Ej. ASA II: fumador, HTA o DM bien controladas, embarazo, obesidad leve.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 ASA",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "ASA III: enfermedad sistémica {{c1::severa con limitación funcional}} pero no incapacitante.",
+   "extra": "Ej.: infarto antiguo (> 3 meses) con angina estable, EPOC moderado-severo.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 ASA",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "ASA IV: enfermedad severa que es una {{c1::amenaza constante para la vida}}.",
+   "extra": "IAM reciente (< 3 meses), ACV reciente, angina inestable, shock.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 ASA",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "ASA V: paciente moribundo que no sobrevive {{c1::24 horas}} sin cirugía; ASA VI: muerte encefálica donante.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 ASA",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El sufijo {{c1::E}} del ASA indica cirugía de urgencia vital.",
+   "extra": "Ej.: apendicitis aguda en sano = ASA IE.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 ASA",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Capacidad funcional ≥ {{c1::4 METs}} (subir dos pisos sin síntomas) autoriza operar sin pruebas cardíacas adicionales.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 METs",
+   "repaso": true,
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El score de Lee (RCRI) tiene {{c1::6}} factores de riesgo independientes, 1 punto cada uno.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Lee",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Factores de Lee: cirugía de alto riesgo, cardiopatía isquémica, ICC, enfermedad {{c1::cerebrovascular}}, DM con insulina y creatinina elevada.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Lee",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En Lee, la insuficiencia renal puntúa con creatinina > {{c1::2.0 mg/dL}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Lee",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Riesgo cardíaco según Lee: 0 factores {{c1::0.4%}}, 1 factor 0.9%, 2 factores 6.6%, ≥ 3 factores > 11%.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Lee",
+   "repaso": true,
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con Lee ≥ 3 factores se exige {{c1::evaluación cardiológica formal}} antes de la cirugía electiva.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Lee",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Diabético con buena capacidad funcional: se opera sin estudio cardíaco extra; el error es {{c1::pedir el score de Lee de todas formas}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Los {{c1::betabloqueadores}} nunca se suspenden: se toman con sorbo de agua la mañana de la cirugía.",
+   "extra": "La suspensión causa taquicardia de rebote e isquemia.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fármacos",
+   "repaso": true,
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Las {{c1::estatinas}}, la levotiroxina y los inhaladores se mantienen en el perioperatorio.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fármacos",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Corticoides orales crónicos (prednisona > 5 mg/día por > 3 semanas): mantener y dar dosis de estrés con {{c1::hidrocortisona EV}}.",
+   "extra": "Evita la crisis suprarrenal.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fármacos",
+   "repaso": true,
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "IECA y ARA-II se suspenden {{c1::24 horas}} antes, omitiendo la dosis de la mañana.",
+   "extra": "Evita hipotensión refractaria en la inducción.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fármacos",
+   "repaso": true,
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Metformina: suspender {{c1::24 a 48 horas}} antes de cirugía mayor o contraste yodado.",
+   "extra": "Previene acidosis láctica.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fármacos",
+   "repaso": true,
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Sulfonilureas como la {{c1::glibenclamida}}: omitir la dosis de la mañana por riesgo de hipoglicemia en ayunas.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fármacos",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "AAS 100 mg en prevención secundaria se {{c1::mantiene}} en cirugía general; se suspende 7 días antes solo en neurocirugía, cámara posterior ocular o RTU de próstata.",
+   "extra": "El riesgo de trombosis del stent supera el sangrado menor.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fármacos",
+   "repaso": true,
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Clopidogrel: suspender {{c1::5 a 7 días}} antes de cirugía electiva.",
+   "extra": "Inhibición plaquetaria irreversible.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fármacos",
+   "repaso": true,
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Warfarina o acenocumarol: suspender {{c1::5 días}} antes, con puente de HBPM en alto riesgo.",
+   "extra": "Se titula con INR.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fármacos",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Los DOACs (rivaroxabán, apixabán) se suspenden {{c1::48 horas}} antes sin terapia puente.",
+   "extra": "72 horas si VFG < 30 mL/min.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fármacos",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Betabloqueador crónico: el error es suspenderlo por prudencia; se {{c1::mantiene}} hasta la mañana de pabellón.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Aspirina por stent coronario: el error es suspenderla como cualquier antiagregante; en cirugía general se {{c1::mantiene}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cirugía ambulatoria: pacientes ASA {{c1::I-II}} (o III estable), cirugía corta y acompañante adulto las primeras 24 horas.",
+   "extra": "Ej.: hernioplastía, colelap, hemorroidectomía.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Ambulatoria",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.006"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se excluyen de la cirugía ambulatoria el ASA {{c1::IV}}, la apnea del sueño no tratada y quien no tiene acompañante.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Ambulatoria",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.006"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Alta ambulatoria: signos estables, dolor y náuseas controlados, deambula, tolera la vía oral y herida {{c1::sin sangrado}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Ambulatoria",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.006"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se sospecha desnutrición con pérdida de peso > {{c1::10%}} en 6 meses o IMC < {{c2::18,5}}.",
+   "extra": "Aumenta infección de herida, dehiscencia y fístulas.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Nutrición",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.014",
+    "1.02.5.002"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La valoración global subjetiva clasifica en A (bien nutrido), B (moderada) y {{c1::C}} (desnutrición grave).",
+   "extra": "Historia más examen físico.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Nutrición",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.014",
+    "1.02.5.002"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El desnutrido grave recibe soporte nutricional de {{c1::7 a 14 días}} antes de cirugía electiva, preferentemente enteral.",
+   "extra": "La cirugía de urgencia no se posterga.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Nutrición",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.014",
+    "1.02.5.002"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Al reiniciar la nutrición se vigila el síndrome de {{c1::realimentación}}: hipofosfemia, hipokalemia, hipomagnesemia.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Nutrición",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.014",
+    "1.02.5.002"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La albúmina normal es 3,5-5 g/dL y su vida media es de unos {{c1::20 días}}.",
+   "extra": "Refleja las semanas previas, no lo agudo.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Albúmina",
+   "repaso": false,
+   "codigos": [
+    "1.02.4.003"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Albúmina < {{c1::3 a 3,5 g/dL}} preoperatoria se asocia a más infección, dehiscencia y mortalidad.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Albúmina",
+   "repaso": false,
+   "codigos": [
+    "1.02.4.003"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Para monitorizar la respuesta a la nutrición se prefiere la {{c1::prealbúmina}} (vida media de 2 días).",
+   "extra": "La albúmina no se corrige infundiéndola.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Albúmina",
+   "repaso": false,
+   "codigos": [
+    "1.02.4.003"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Desnutrido grave con cirugía electiva: el error es operar de inmediato o {{c1::infundir albúmina}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.014",
+    "1.02.5.002"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.1.0",
+   "pista": "Lee con 3 factores o más: ¿qué haces?",
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0",
+   "pista": "Sube dos pisos sin angina ni disnea: ¿conducta?",
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.2",
+   "pista": "Fármacos que se mantienen en el perioperatorio: ¿cuáles?",
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.3",
+   "pista": "Fármacos que se suspenden: ¿cuáles?",
+   "codigos": [
+    "4.01.5.013",
+    "4.01.3.010"
+   ]
+  }
+ ]
+}

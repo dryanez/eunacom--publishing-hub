@@ -1,0 +1,482 @@
+{
+  "classId": "hem-24",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La estrategia transfusional {{c1::restrictiva}} (Hb < 7) es igual o mejor en sobrevida que la liberal (Hb < 9–10).",
+      "extra": "Ensayos TRICC, FOCUS y TRISS; menos infecciones, sobrecarga y aloinmunización.",
+      "origen": "clase:1",
+      "fuente": "Clase · Transfundir menos",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Paciente estable en sala o UCI: se transfunde glóbulos rojos con Hb < {{c1::7 g/dL}}.",
+      "extra": "Meta de 7 a 8.",
+      "origen": "clase:2",
+      "fuente": "Clase · Umbrales de glóbulos rojos",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Síndrome coronario agudo: umbral de Hb < {{c1::8–9}} g/dL.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Umbrales de glóbulos rojos",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cirugía ortopédica con antecedentes vasculares: umbral Hb < {{c1::8}} g/dL.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Umbrales de glóbulos rojos",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hospitalizado estable con Hb 7,5 y asintomático: el error es {{c1::transfundir}} para llegar a 10.",
+      "extra": "Se estudia la anemia y se trata su causa.",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Síndrome coronario agudo con Hb 7,8: el error es aplicar el umbral de {{c1::7}}.",
+      "extra": "Se transfunde (umbral 8–9).",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En hemorragia masiva la transfusión {{c1::no espera}} el laboratorio: proporción 1 GR : 1 plasma : 1 pool de plaquetas.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Umbrales de glóbulos rojos",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Una unidad de CGR sube la Hb en {{c1::1 g/dL}} y el hematocrito en {{c2::3 %}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Umbrales de glóbulos rojos",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Plaquetas: profilaxis en falla medular estable con menos de {{c1::10.000}}/µL.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Umbrales de plaquetas",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Plaquetas: con fiebre, infección grave o riesgo hemorrágico, umbral < {{c1::20.000}}/µL.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Umbrales de plaquetas",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Plaquetas: sangrado o procedimiento (punción lumbar, paracentesis, biopsia hepática), umbral < {{c1::50.000}}/µL.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Umbrales de plaquetas",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Plaquetas: neurocirugía o polo posterior ocular, umbral < {{c1::100.000}}/µL.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Umbrales de plaquetas",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Aplasia con plaquetas 15.000 sin fiebre: el error es transfundir por el número; el umbral es {{c1::10.000}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Punción lumbar con plaquetas 35.000: se {{c1::transfunde antes}} (umbral 50.000).",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Una aféresis o pool de 4–6 concentrados sube las plaquetas {{c1::30.000 a 50.000}}/µL en un adulto de 70 kg.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Umbrales de plaquetas",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la PTI con plaquetas 5.000 sin sangrado grave el tratamiento es {{c1::corticoides 1 mg/kg}}, no transfusión.",
+      "extra": "La transfusión se reserva para el sangrado con riesgo vital.",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz Diciembre 2024",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El plasma fresco congelado se da a {{c1::10–15 mL/kg}} y contiene todos los factores.",
+      "extra": "Pocas indicaciones justificadas.",
+      "origen": "clase:4",
+      "fuente": "Clase · Plasma y crioprecipitado",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Plasma fresco: sangrado con TP o TTPK > {{c1::1,5 veces}} el control, o transfusión masiva.",
+      "extra": "También plasmaféresis en PTT.",
+      "origen": "clase:4",
+      "fuente": "Clase · Plasma y crioprecipitado",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sangrado grave en paciente anticoagulado con cumarínico: se repone con {{c1::plasma fresco congelado}} (reversión inmediata).",
+      "extra": "El CCP es la primera elección si está disponible.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Julio 2024",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El crioprecipitado repone {{c1::fibrinógeno}} cuando está < 100–150 mg/dL con sangrado.",
+      "extra": "CID, hemorragia masiva, DPPNI o disfibrinogenemia.",
+      "origen": "clase:4",
+      "fuente": "Clase · Plasma y crioprecipitado",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El grupo AB es receptor universal de glóbulos rojos porque no tiene anticuerpos {{c1::anti-A ni anti-B}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Compatibilidad ABO",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El grupo O es el donante de glóbulos rojos porque no tiene antígenos {{c1::A ni B}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Compatibilidad ABO",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Grupo A que recibe glóbulos rojos AB: hemólisis en más del {{c1::95 %}}, por sus anti-B.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Compatibilidad ABO",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En hemorragia masiva con riesgo vital se puede transfundir Rh {{c1::positivo}} a un paciente Rh negativo.",
+      "extra": "No ocurre con ABO.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Julio 2024",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.005"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 14"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante cualquier reacción transfusional, lo primero es {{c1::detener la infusión}} y mantener la vía con suero fisiológico.",
+      "extra": "Luego verificar identidad y avisar al banco de sangre.",
+      "origen": "clase:6",
+      "fuente": "Clase · La regla de oro",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Fiebre y dolor lumbar durante la transfusión: el error es dar {{c1::paracetamol y seguir}}.",
+      "extra": "Se detiene la transfusión.",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hemólisis aguda ABO aparece en los primeros {{c1::10–15 minutos}} con fiebre, dolor lumbar, hipotensión y orina oscura.",
+      "extra": "Puede llevar a CID y shock.",
+      "origen": "clase:7",
+      "fuente": "Clase · Incompatibilidad ABO",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hemólisis ABO: soporte con suero y furosemida para diuresis forzada > {{c1::100 mL/h}}.",
+      "extra": "Protege los túbulos de la hemoglobina.",
+      "origen": "clase:7",
+      "fuente": "Clase · Incompatibilidad ABO",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La reacción febril no hemolítica es la más frecuente ({{c1::1–2 %}}); alza ≥ {{c2::1 °C}} sin hemólisis.",
+      "extra": "Se trata con paracetamol y se previene con desleucocitados.",
+      "origen": "clase:8",
+      "fuente": "Clase · Reacción febril no hemolítica",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "TRALI: edema pulmonar no cardiogénico dentro de las {{c1::6 horas}}, por anticuerpos anti-HLA del donante.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · TRALI vs TACO",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "TRALI cursa con {{c1::hipotensión}}, yugulares normales y BNP normal; los diuréticos no sirven.",
+      "extra": "Soporte ventilatorio.",
+      "origen": "clase:10",
+      "fuente": "Clase · TRALI vs TACO",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "TACO cursa con {{c1::hipertensión}}, ingurgitación yugular, R3 y BNP muy elevado.",
+      "extra": "Típico del anciano o cardiópata con transfusión rápida.",
+      "origen": "clase:10",
+      "fuente": "Clase · TRALI vs TACO",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "TACO: suspender la transfusión, sentar al paciente, oxígeno y furosemida {{c1::20–40 mg}} EV más restricción hídrica.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · TRALI vs TACO",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Disnea, hipotensión y yugulares normales tras transfusión es TRALI: el error es dar {{c1::furosemida}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.005"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-24/01_trali-infiltrado-bilateral__cto-neumo_p35.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Edema pulmonar del TRALI",
+      "clave": "Infiltrados alveolares bilaterales con corazón de tamaño normal",
+      "conducta": "Detener la transfusión; soporte ventilatorio, sin diuréticos",
+      "fuente": "Manual CTO Neumología 14.ª ed., p. 35",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.011"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.2.0",
+      "pista": "Disnea con hipotensión y yugulares normales: ¿qué es y qué se hace?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.2.1",
+      "pista": "Disnea con hipertensión e ingurgitación yugular: ¿qué se indica?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0.1",
+      "pista": "Dolor lumbar y orina oscura en transfusión: ¿qué reacción y qué conducta?"
+    }
+  ]
+}

@@ -1,0 +1,669 @@
+{
+ "classId": "infecto-07",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Precauciones {{c1::estándar}} (higiene de manos, EPP según riesgo, cortopunzantes) rigen para todo paciente hospitalizado.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Precauciones de aislamiento",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Aislamiento de contacto: {{c1::bata y guantes}} al entrar a la habitación.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Aislamiento",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Aislamiento de contacto para multirresistentes: SAMR, BLEE y {{c1::VRE}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Aislamientos",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En C. difficile el lavado de manos es con {{c1::agua y jabón}}: el alcohol gel no destruye las esporas.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Además de C. difficile, requieren aislamiento de contacto el rotavirus, la {{c1::sarna noruega}} y el impétigo.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Aislamiento",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Aislamiento por gotitas: partículas > {{c1::5 micrones}}, mascarilla quirúrgica al entrar.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Aislamiento",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Aislamiento por gotitas: camas separadas > {{c1::1 metro}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Aislamientos",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Patógenos de aislamiento por gotitas: meningococo, influenza, coqueluche, {{c1::parotiditis}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Aislamientos",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Meningococo: aislamiento por gotitas hasta cumplir {{c1::24 horas}} de antibióticos efectivos.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Aislamiento aéreo: mascarilla {{c1::N95 o FFP2}} y habitación individual con presión negativa.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Aislamiento",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Aislamiento aéreo: TBC bacilífera, {{c1::sarampión}} y varicela activa.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Aislamientos",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El aislamiento aéreo exige habitación con puerta {{c1::cerrada}} y presión negativa.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Aislamiento protector (inverso): presión {{c1::positiva}} con flujo laminar, para neutropenia o trasplante de médula.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Aislamientos",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El aislamiento protector se indica en neutropenia severa con RAN < {{c1::500}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Aislamientos",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La ITSCVC precoz (< 10 días) llega por la vía {{c1::extraluminal}}, desde la piel del sitio.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Bacteriemia por catéter",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La ITSCVC tardía (> 10 días) llega por la vía {{c1::intraluminal}}: conector e infusiones.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Bacteriemia por catéter",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El germen más frecuente de ITSCVC es {{c1::Staphylococcus epidermidis}} (coagulasa negativo, 40–50 %).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 ITSCVC",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.015"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "S. aureus causa cerca de {{c1::20 %}} de las infecciones de catéter.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 ITSCVC",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.015"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Diagnóstico de ITSCVC: hemocultivos {{c1::pareados}}, periférico y por cada lumen del CVC.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 ITSCVC",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.015"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se confirma si el CVC es positivo con diferencia de positividad (DTP) > {{c1::2 horas}} antes que el periférico.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Criterio cuantitativo: proporción CVC/periférico ≥ {{c1::3:1}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 ITSCVC",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.015"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Tratamiento empírico de ITSCVC: {{c1::vancomicina}} EV (cubre SAMR y coagulasa negativo).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Conducta",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.015"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Si el paciente está séptico o neutropénico se suma cobertura de bacilos gramnegativos: cefepime, {{c1::piperacilina-tazobactam}} o amikacina.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Bacteriemia por S. aureus o Candida asociada a CVC: el catéter se {{c1::retira siempre}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Retiro inmediato del CVC: shock séptico, infección del {{c1::túnel}}, pus en el sitio o complicación metastásica.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Conducta",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.015"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se retira el CVC si la bacteriemia o fiebre persiste tras {{c1::48 a 72 horas}} de antibiótico adecuado.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Conducta",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.015"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Bacteriemia por S. aureus en CVC: se agrega {{c1::ecocardiograma}} para descartar endocarditis.",
+   "extra": "Transtorácico o transesofágico.",
+   "origen": "clase:5",
+   "fuente": "Clase · S. aureus",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Bacteriemia por Candida en CVC: retiro, antifúngico sistémico y {{c1::fondo de ojo}}.",
+   "extra": "Descarta endoftalmitis.",
+   "origen": "clase:5",
+   "fuente": "Clase · S. aureus",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En coagulasa negativo se puede intentar, en casos seleccionados, el {{c1::sellado}} del catéter.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · S. aureus",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El CVC debe instalarse en yugular interna o subclavia, no en {{c1::femoral}} (más infección y trombosis).",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 CVC y Foley",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.003",
+    "1.08.5.004"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras instalar un CVC, la Rx de tórax confirma la punta en la {{c1::vena cava superior}} y descarta neumotórax.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Catéter y sonda",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Prevención de bacteriemia por CVC: barrera máxima estéril y clorhexidina {{c1::alcohólica}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 CVC y Foley",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.003",
+    "1.08.5.004"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La sonda Foley no se usa {{c1::por comodidad}}: retención urinaria, diuresis crítica, cirugía.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Catéter y sonda",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El balón de la Foley se infla con {{c1::10 mL}} de agua destilada, tras ver salir orina.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 CVC y Foley",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.003",
+    "1.08.5.004"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sospecha de lesión uretral (trauma pélvico, sangre en el meato): {{c1::no se instala sonda}}; se pide uretrografía.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 CVC y Foley",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.003",
+    "1.08.5.004"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cada día de sonda Foley aumenta {{c1::3–7 %}} el riesgo de ITU asociada.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 CVC y Foley",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.003",
+    "1.08.5.004"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Portador de sonda Foley asintomático con urocultivo positivo: {{c1::observar, no tratar}}.",
+   "extra": "Bacteriuria asintomática: no se tratan con antibióticos.",
+   "origen": "clase:6",
+   "fuente": "Clase · Catéter y sonda",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 122",
+    "EUNACOM Enero 2023 · Pregunta 102",
+    "EUNACOM Julio 2025 · Pregunta 33",
+    "EUNACOM Diciembre 2019 · Pregunta 114",
+    "EUNACOM Diciembre 2024 · Pregunta 69",
+    "EUNACOM Julio 2017 · Pregunta 124"
+   ],
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La bacteriuria asintomática solo se trata en el {{c1::embarazo}} o antes de cirugía urológica.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Uso racional",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 122",
+    "EUNACOM Enero 2023 · Pregunta 102",
+    "EUNACOM Julio 2025 · Pregunta 33",
+    "EUNACOM Diciembre 2019 · Pregunta 114",
+    "EUNACOM Diciembre 2024 · Pregunta 69",
+    "EUNACOM Julio 2017 · Pregunta 124"
+   ],
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Orina de mal olor o turbia sin síntomas urinarios no requiere {{c1::antibiótico}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Uso racional",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 69"
+   ],
+   "codigos": [
+    "1.01.5.003",
+    "1.08.5.004"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Uso racional de antibióticos: cultivos {{c1::antes}} de la primera dosis y reevaluar a las 48–72 h para desescalar.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Uso racional",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 2"
+   ],
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La mayoría de las infecciones se tratan con cursos cortos de {{c1::5–7 días}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Uso racional",
+   "repaso": false,
+   "codigos": [
+    "1.01.5.003",
+    "1.08.5.004"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Profilaxis quirúrgica: dentro de los {{c1::60 minutos}} previos a la incisión y máximo 24 h.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Uso racional",
+   "repaso": true,
+   "codigos": [
+    "1.01.5.003",
+    "1.08.5.004"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pielonefritis con riesgo de germen BLEE: el carbapenémico indicado es {{c1::ertapenem}}.",
+   "extra": "Verificar con el libro de ITU.",
+   "origen": "clase:7",
+   "fuente": "Clase · Uso racional",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 38"
+   ],
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Antituberculosos con vómitos y dolor abdominal al 7.º día: se sospecha hepatotoxicidad y se piden {{c1::pruebas hepáticas}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Uso racional",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 120"
+   ],
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "La Norma Técnica N.º {{c1::124}} MINSAL regula la prevención y control de las IAAS.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Norma técnica IAAS",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.015",
+    "1.04.3.005"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0.1",
+   "pista": "S. aureus en catéter: ¿conducta?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0.2",
+   "pista": "Candida en catéter: ¿conducta?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.3.0",
+   "pista": "Persiste a las 48–72 h: ¿qué haces?"
+  }
+ ]
+}

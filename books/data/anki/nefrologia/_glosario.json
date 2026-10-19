@@ -1,0 +1,1901 @@
+{
+ "_doc": "Glosario clicable del mazo Anki (popover en el reverso). 'def' se escribe a mano desde el libro (sin cifras nuevas) y se conserva al regenerar; pagina/clase/t/url los recalcula conceptos.py. Términos y alias: books/scripts/anki/vocab_*.txt.",
+ "libro": "nefrologia",
+ "pdf": "books/dist/Modulo_1_Medicina_Interna/Manual_EUNACOM_Nefrologia_Completo_2026.pdf",
+ "terminos": {
+  "Injuria_renal_aguda": {
+   "termino": "Injuria renal aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "injuria renal aguda",
+    "IRA",
+    "lesión renal aguda"
+   ],
+   "def": "Deterioro brusco de la función renal (horas a días) que retiene productos nitrogenados y altera el medio hidroelectrolítico. Se define por criterios KDIGO.",
+   "pagina": 5,
+   "clase": "nefro-01",
+   "claseTitulo": "1.1 Injuria Renal Aguda (KDIGO) y Diferenciación Prerrenal vs Intrínseca",
+   "diapositiva": 0,
+   "t": 5.2,
+   "mmss": "0:05",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-01&t=5&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-01&t=5",
+   "notas": 18
+  },
+  "Criterios_KDIGO": {
+   "termino": "Criterios KDIGO",
+   "tipo": "Concepto",
+   "alias": [
+    "KDIGO"
+   ],
+   "def": "IRA si hay ↑ Cr ≥ 0.3 mg/dL en 48 h, o ↑ Cr ≥ 1.5x el basal en 7 días, o caída de la diuresis. Basta un criterio.",
+   "pagina": 5,
+   "clase": "nefro-01",
+   "claseTitulo": "1.1 Injuria Renal Aguda (KDIGO) y Diferenciación Prerrenal vs Intrínseca",
+   "diapositiva": 1,
+   "t": 26.6,
+   "mmss": "0:27",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-01&t=26&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-01&t=26",
+   "notas": 11
+  },
+  "Injuria_prerrenal": {
+   "termino": "Injuria prerrenal",
+   "tipo": "Concepto",
+   "alias": [
+    "prerrenal",
+    "injuria prerrenal",
+    "azotemia prerrenal"
+   ],
+   "def": "IRA con túbulo íntegro: hipoperfusión renal, túbulo ávido de sodio que concentra la orina y retiene sodio. Responde a reponer volemia.",
+   "pagina": 5,
+   "clase": "nefro-01",
+   "claseTitulo": "1.1 Injuria Renal Aguda (KDIGO) y Diferenciación Prerrenal vs Intrínseca",
+   "diapositiva": 12,
+   "t": 756.8,
+   "mmss": "12:37",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-01&t=756&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-01&t=756",
+   "notas": 9
+  },
+  "Necrosis_tubular_aguda": {
+   "termino": "Necrosis tubular aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "necrosis tubular aguda",
+    "NTA"
+   ],
+   "def": "Causa de IRA intrínseca por daño tubular isquémico o nefrotóxico. Orina isostenúrica, cilindros granulosos pardos y FeNa sobre 2%.",
+   "pagina": 10,
+   "clase": "nefro-02",
+   "claseTitulo": "1.2 Necrosis Tubular Aguda (NTA) y Nefritis Túbulo-Intersticial Aguda (NTIA)",
+   "diapositiva": 1,
+   "t": 29.2,
+   "mmss": "0:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-02&t=29&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-02&t=29",
+   "notas": 15
+  },
+  "Nefritis_tubulo_intersticial_aguda": {
+   "termino": "Nefritis túbulo-intersticial aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "nefritis túbulo-intersticial",
+    "NTIA",
+    "nefritis intersticial"
+   ],
+   "def": "Reacción de hipersensibilidad en el intersticio renal, desencadenada sobre todo por fármacos (antibióticos, AINEs, IBP). Se trata suspendiendo el fármaco.",
+   "pagina": 10,
+   "clase": "nefro-02",
+   "claseTitulo": "1.2 Necrosis Tubular Aguda (NTA) y Nefritis Túbulo-Intersticial Aguda (NTIA)",
+   "diapositiva": 7,
+   "t": 380.9,
+   "mmss": "6:21",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-02&t=380&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-02&t=380",
+   "notas": 18
+  },
+  "Fraccion_de_excrecion_de_sodio": {
+   "termino": "Fracción de excreción de sodio",
+   "tipo": "Examen",
+   "alias": [
+    "FENa",
+    "fracción de excreción de sodio"
+   ],
+   "def": "Índice para diferenciar IRA prerrenal (FeNa < 1 %) de NTA (FeNa > 2 %). Se invalida con diuréticos de asa; ahí se usa FeUrea.",
+   "pagina": 6,
+   "clase": "nefro-01",
+   "claseTitulo": "1.1 Injuria Renal Aguda (KDIGO) y Diferenciación Prerrenal vs Intrínseca",
+   "diapositiva": 5,
+   "t": 343.1,
+   "mmss": "5:43",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-01&t=343&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-01&t=343",
+   "notas": 4
+  },
+  "Fraccion_de_excrecion_de_urea": {
+   "termino": "Fracción de excreción de urea",
+   "tipo": "Examen",
+   "alias": [
+    "FEUrea",
+    "fracción de excreción de urea"
+   ],
+   "def": "Alternativa al FeNa en pacientes con diuréticos de asa: < 35 % indica origen prerrenal y > 50 % orienta a NTA.",
+   "pagina": 5,
+   "clase": "nefro-01",
+   "claseTitulo": "1.1 Injuria Renal Aguda (KDIGO) y Diferenciación Prerrenal vs Intrínseca",
+   "diapositiva": 12,
+   "t": 756.8,
+   "mmss": "12:37",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-01&t=756&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-01&t=756",
+   "notas": 2
+  },
+  "Creatinina_plasmatica": {
+   "termino": "Creatinina plasmática",
+   "tipo": "Examen",
+   "alias": [
+    "creatinina",
+    "creatinina plasmática"
+   ],
+   "def": "Marcador de función renal usado en los criterios KDIGO. Su relación con el BUN orienta: > 20 en IRA prerrenal, < 15 en NTA.",
+   "pagina": 5,
+   "clase": "nefro-01",
+   "claseTitulo": "1.1 Injuria Renal Aguda (KDIGO) y Diferenciación Prerrenal vs Intrínseca",
+   "diapositiva": 1,
+   "t": 26.6,
+   "mmss": "0:27",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-01&t=26&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-01&t=26",
+   "notas": 23
+  },
+  "Nitrogeno_ureico": {
+   "termino": "Nitrógeno ureico",
+   "tipo": "Examen",
+   "alias": [
+    "BUN",
+    "nitrógeno ureico",
+    "uremia"
+   ],
+   "def": "BUN, producto nitrogenado retenido en la uremia. La cifra aislada de BUN o creatinina no indica diálisis urgente; lo hace la clínica de uremia grave.",
+   "pagina": 14,
+   "clase": "nefro-03",
+   "claseTitulo": "1.3 Síndrome Urémico y Urgencias Dialíticas (Criterios AEIOU)",
+   "diapositiva": 3,
+   "t": 121.4,
+   "mmss": "2:01",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-03&t=121&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-03&t=121",
+   "notas": 9
+  },
+  "Sedimento_urinario": {
+   "termino": "Sedimento urinario",
+   "tipo": "Examen",
+   "alias": [
+    "sedimento urinario",
+    "cilindros granulosos",
+    "cilindros hemáticos",
+    "cilindros"
+   ],
+   "def": "Examen que orienta la causa de IRA: cilindros granulosos pardos en NTA; piuria estéril y cilindros leucocitarios en nefritis intersticial.",
+   "pagina": 11,
+   "clase": "nefro-02",
+   "claseTitulo": "1.2 Necrosis Tubular Aguda (NTA) y Nefritis Túbulo-Intersticial Aguda (NTIA)",
+   "diapositiva": 7,
+   "t": 380.9,
+   "mmss": "6:21",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-02&t=380&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-02&t=380",
+   "notas": 19
+  },
+  "Ecografia_renal": {
+   "termino": "Ecografía renal",
+   "tipo": "Examen",
+   "alias": [
+    "ecografía renal"
+   ],
+   "def": "Se usa para descartar obstrucción urinaria antes de rotular una IRA como parenquimatosa. La hidronefrosis bilateral o el globo vesical orientan a causa postrenal.",
+   "pagina": 6,
+   "clase": "nefro-01",
+   "claseTitulo": "1.1 Injuria Renal Aguda (KDIGO) y Diferenciación Prerrenal vs Intrínseca",
+   "diapositiva": 3,
+   "t": 188.8,
+   "mmss": "3:09",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-01&t=188&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-01&t=188",
+   "notas": 2
+  },
+  "Indicaciones_de_dialisis": {
+   "termino": "Indicaciones de diálisis",
+   "tipo": "Concepto",
+   "alias": [
+    "AEIOU",
+    "indicaciones de diálisis",
+    "urgencia dialítica"
+   ],
+   "def": "Indicaciones universales de urgencia, recordadas con AEIOU. La cifra aislada de creatinina o BUN no es indicación; sí la uremia grave o la descompensación vital.",
+   "pagina": 14,
+   "clase": "nefro-03",
+   "claseTitulo": "1.3 Síndrome Urémico y Urgencias Dialíticas (Criterios AEIOU)",
+   "diapositiva": 1,
+   "t": 26.8,
+   "mmss": "0:27",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-03&t=26&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-03&t=26",
+   "notas": 4
+  },
+  "Hemodialisis": {
+   "termino": "Hemodiálisis",
+   "tipo": "Concepto",
+   "alias": [
+    "hemodiálisis",
+    "diálisis"
+   ],
+   "def": "Terapia de urgencia en las indicaciones AEIOU. Acceso de elección: catéter venoso central en yugular interna derecha, evitando la subclavia.",
+   "pagina": 14,
+   "clase": "nefro-03",
+   "claseTitulo": "1.3 Síndrome Urémico y Urgencias Dialíticas (Criterios AEIOU)",
+   "diapositiva": 8,
+   "t": 373.1,
+   "mmss": "6:13",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-03&t=373&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-03&t=373",
+   "notas": 25
+  },
+  "Pericarditis_uremica": {
+   "termino": "Pericarditis urémica",
+   "tipo": "Signo",
+   "alias": [
+    "pericarditis urémica",
+    "roce pericárdico"
+   ],
+   "def": "Roce pericárdico por uremia; es indicación urgente de hemodiálisis. Está contraindicada la heparina sistémica durante el procedimiento.",
+   "pagina": 14,
+   "clase": "nefro-03",
+   "claseTitulo": "1.3 Síndrome Urémico y Urgencias Dialíticas (Criterios AEIOU)",
+   "diapositiva": 2,
+   "t": 64.3,
+   "mmss": "1:04",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-03&t=64&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-03&t=64",
+   "notas": 2
+  },
+  "Sindrome_cardiorrenal": {
+   "termino": "Síndrome cardiorrenal",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome cardiorrenal"
+   ],
+   "def": "Disfunción bidireccional corazón-riñón, clasificada en 5 tipos. El tipo 1 se debe sobre todo a hipertensión venosa central retrógrada, no solo a bajo gasto.",
+   "pagina": 16,
+   "clase": "nefro-04",
+   "claseTitulo": "1.4 Síndrome Cardiorrenal y Síndrome Hepatorrenal",
+   "diapositiva": 1,
+   "t": 24.4,
+   "mmss": "0:24",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-04&t=24&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-04&t=24",
+   "notas": 2
+  },
+  "Sindrome_hepatorrenal": {
+   "termino": "Síndrome hepatorrenal",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome hepatorrenal",
+    "SHR"
+   ],
+   "def": "Falla renal funcional en cirrosis avanzada por vasodilatación esplácnica masiva y vasoconstricción renal refleja. Tratamiento: terlipresina + albúmina; definitivo, trasplante hepático.",
+   "pagina": 16,
+   "clase": "nefro-04",
+   "claseTitulo": "1.4 Síndrome Cardiorrenal y Síndrome Hepatorrenal",
+   "diapositiva": 4,
+   "t": 222.2,
+   "mmss": "3:42",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-04&t=222&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-04&t=222",
+   "notas": 11
+  },
+  "Albumina": {
+   "termino": "Albúmina",
+   "tipo": "Farmaco",
+   "alias": [
+    "albúmina"
+   ],
+   "def": "Expansor coloidal. En SHR se asocia a terlipresina (albúmina al 20%); en la prueba terapéutica se da 1 g/kg/día tras suspender diuréticos.",
+   "pagina": 16,
+   "clase": "nefro-04",
+   "claseTitulo": "1.4 Síndrome Cardiorrenal y Síndrome Hepatorrenal",
+   "diapositiva": 9,
+   "t": 448.9,
+   "mmss": "7:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-04&t=448&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-04&t=448",
+   "notas": 15
+  },
+  "Terlipresina": {
+   "termino": "Terlipresina",
+   "tipo": "Farmaco",
+   "alias": [
+    "terlipresina"
+   ],
+   "def": "Análogo de vasopresina IV que revierte la vasodilatación mesentérica y redistribuye el flujo al riñón. Tratamiento de elección del SHR junto con albúmina al 20%.",
+   "pagina": 16,
+   "clase": "nefro-04",
+   "claseTitulo": "1.4 Síndrome Cardiorrenal y Síndrome Hepatorrenal",
+   "diapositiva": 5,
+   "t": 268.9,
+   "mmss": "4:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-04&t=268&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-04&t=268",
+   "notas": 2
+  },
+  "Furosemida": {
+   "termino": "Furosemida",
+   "tipo": "Farmaco",
+   "alias": [
+    "furosemida",
+    "diuréticos de asa"
+   ],
+   "def": "Diurético de asa de elección en el edema, también con TFG baja, donde las tiazidas pierden eficacia.",
+   "pagina": 29,
+   "clase": "nefro-08",
+   "claseTitulo": "2.4 Fluidoterapia y Terapia Diurética en la Práctica Clínica",
+   "diapositiva": 3,
+   "t": 138.0,
+   "mmss": "2:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-08&t=138&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-08&t=138",
+   "notas": 23
+  },
+  "Diureticos_tiazidicos": {
+   "termino": "Diuréticos tiazídicos",
+   "tipo": "Farmaco",
+   "alias": [
+    "tiazidas",
+    "hidroclorotiazida",
+    "clortalidona"
+   ],
+   "def": "Hidroclorotiazida y clortalidona. Pierden potencia diurética con TFG < 30 mL/min; en ERC avanzada se usa furosemida para el edema.",
+   "pagina": 29,
+   "clase": "nefro-08",
+   "claseTitulo": "2.4 Fluidoterapia y Terapia Diurética en la Práctica Clínica",
+   "diapositiva": 3,
+   "t": 138.0,
+   "mmss": "2:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-08&t=138&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-08&t=138",
+   "notas": 11
+  },
+  "Espironolactona": {
+   "termino": "Espironolactona",
+   "tipo": "Farmaco",
+   "alias": [
+    "espironolactona"
+   ],
+   "def": "Se asocia al asa o a tiazida si hay resistencia al diurético. En cirrosis con ascitis es el fármaco de partida, con furosemida en proporción 100:40.",
+   "pagina": 29,
+   "clase": "nefro-08",
+   "claseTitulo": "2.4 Fluidoterapia y Terapia Diurética en la Práctica Clínica",
+   "diapositiva": 5,
+   "t": 270.0,
+   "mmss": "4:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-08&t=269&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-08&t=269",
+   "notas": 8
+  },
+  "Hiponatremia": {
+   "termino": "Hiponatremia",
+   "tipo": "Concepto",
+   "alias": [
+    "hiponatremia"
+   ],
+   "def": "Sodio bajo; la verdadera es siempre hipotónica. El primer paso es medir la osmolaridad plasmática para descartar pseudohiponatremia o causa hipertónica.",
+   "pagina": 21,
+   "clase": "nefro-05",
+   "claseTitulo": "2.1 Hiponatremia Hipotónica y Síndrome de Desmielinización Osmótica",
+   "diapositiva": 1,
+   "t": 30.7,
+   "mmss": "0:31",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-05&t=30&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-05&t=30",
+   "notas": 27
+  },
+  "Sindrome_de_desmielinizacion_osmotica": {
+   "termino": "Síndrome de desmielinización osmótica",
+   "tipo": "Concepto",
+   "alias": [
+    "desmielinización osmótica",
+    "mielinólisis pontina"
+   ],
+   "def": "Mielinolisis pontina central por corrección demasiado rápida del sodio: cuadriplejía flácida y disartria bulbar. No superar 8 a 10 mEq/L en 24 horas.",
+   "pagina": 21,
+   "clase": "nefro-05",
+   "claseTitulo": "2.1 Hiponatremia Hipotónica y Síndrome de Desmielinización Osmótica",
+   "diapositiva": 1,
+   "t": 30.7,
+   "mmss": "0:31",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-05&t=30&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-05&t=30",
+   "notas": 3
+  },
+  "Suero_hipertonico": {
+   "termino": "Suero hipertónico",
+   "tipo": "Farmaco",
+   "alias": [
+    "suero hipertónico",
+    "NaCl 3%",
+    "solución salina hipertónica"
+   ],
+   "def": "NaCl al 3%. En hiponatremia con convulsiones se da un bolo de 100–150 mL; un litro aporta 513 mEq de Na.",
+   "pagina": 22,
+   "clase": "nefro-05",
+   "claseTitulo": "2.1 Hiponatremia Hipotónica y Síndrome de Desmielinización Osmótica",
+   "diapositiva": 13,
+   "t": 807.0,
+   "mmss": "13:27",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-05&t=807&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-05&t=807",
+   "notas": 4
+  },
+  "SIADH": {
+   "termino": "SIADH",
+   "tipo": "Concepto",
+   "alias": [
+    "SIADH"
+   ],
+   "def": "Hiponatremia con euvolemia, orina inapropiadamente concentrada y sodio urinario elevado, con función tiroidea, suprarrenal y renal normales. Ej.: cáncer de pulmón.",
+   "pagina": 25,
+   "clase": "nefro-06",
+   "claseTitulo": "2.2 SIADH vs Síndrome Pierde Sal Cerebral y Polidipsia Primaria",
+   "diapositiva": 9,
+   "t": 455.1,
+   "mmss": "7:35",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-06&t=455&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-06&t=455",
+   "notas": 20
+  },
+  "Sindrome_pierde_sal_cerebral": {
+   "termino": "Síndrome pierde sal cerebral",
+   "tipo": "Concepto",
+   "alias": [
+    "pierde sal cerebral",
+    "síndrome pierde sal"
+   ],
+   "def": "Natriuresis por BNP en patología neuroquirúrgica con hipovolemia real. Se trata con suero fisiológico y fludrocortisona; la restricción hídrica es fatal.",
+   "pagina": 25,
+   "clase": "nefro-06",
+   "claseTitulo": "2.2 SIADH vs Síndrome Pierde Sal Cerebral y Polidipsia Primaria",
+   "diapositiva": null,
+   "t": 0,
+   "mmss": "0:00",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-06&t=0",
+   "notas": 3
+  },
+  "Polidipsia_primaria": {
+   "termino": "Polidipsia primaria",
+   "tipo": "Concepto",
+   "alias": [
+    "polidipsia primaria"
+   ],
+   "def": "Causa de hiponatremia con orina diluida por ingesta excesiva de agua.",
+   "pagina": 25,
+   "clase": "nefro-06",
+   "claseTitulo": "2.2 SIADH vs Síndrome Pierde Sal Cerebral y Polidipsia Primaria",
+   "diapositiva": 5,
+   "t": 266.7,
+   "mmss": "4:27",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-06&t=266&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-06&t=266",
+   "notas": 2
+  },
+  "Hipernatremia": {
+   "termino": "Hipernatremia",
+   "tipo": "Concepto",
+   "alias": [
+    "hipernatremia"
+   ],
+   "def": "Sodio > 145 mEq/L: déficit de agua libre con hiperosmolaridad plasmática obligada.",
+   "pagina": 27,
+   "clase": "nefro-07",
+   "claseTitulo": "2.3 Hipernatremia y Diabetes Insípida (Central vs Nefrogénica)",
+   "diapositiva": 1,
+   "t": 25.8,
+   "mmss": "0:26",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-07&t=25&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-07&t=25",
+   "notas": 14
+  },
+  "Diabetes_insipida": {
+   "termino": "Diabetes insípida",
+   "tipo": "Concepto",
+   "alias": [
+    "diabetes insípida"
+   ],
+   "def": "Poliuria con hipernatremia por falta de acción de la ADH. La prueba de desmopresina separa la central de la nefrogénica.",
+   "pagina": 27,
+   "clase": "nefro-07",
+   "claseTitulo": "2.3 Hipernatremia y Diabetes Insípida (Central vs Nefrogénica)",
+   "diapositiva": 3,
+   "t": 147.7,
+   "mmss": "2:28",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-07&t=147&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-07&t=147",
+   "notas": 3
+  },
+  "Desmopresina": {
+   "termino": "Desmopresina",
+   "tipo": "Farmaco",
+   "alias": [
+    "desmopresina",
+    "DDAVP"
+   ],
+   "def": "Análogo de ADH (DDAVP). Si la osmolaridad urinaria sube > 50% es DI central y se trata con ella; si no cambia es DI nefrogénica.",
+   "pagina": 27,
+   "clase": "nefro-07",
+   "claseTitulo": "2.3 Hipernatremia y Diabetes Insípida (Central vs Nefrogénica)",
+   "diapositiva": 8,
+   "t": 386.0,
+   "mmss": "6:26",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-07&t=386&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-07&t=386",
+   "notas": 8
+  },
+  "Osmolaridad_plasmatica": {
+   "termino": "Osmolaridad plasmática",
+   "tipo": "Examen",
+   "alias": [
+    "osmolaridad plasmática",
+    "osmolaridad urinaria",
+    "osmolaridad"
+   ],
+   "def": "Primer paso frente a un sodio bajo: Osm = 2 x [Na] + glicemia/18. Normal 280–295 mOsm/kg; hiponatremia verdadera es hipotónica.",
+   "pagina": 22,
+   "clase": "nefro-05",
+   "claseTitulo": "2.1 Hiponatremia Hipotónica y Síndrome de Desmielinización Osmótica",
+   "diapositiva": 2,
+   "t": 105.4,
+   "mmss": "1:45",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-05&t=105&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-05&t=105",
+   "notas": 17
+  },
+  "Fluidoterapia": {
+   "termino": "Fluidoterapia",
+   "tipo": "Concepto",
+   "alias": [
+    "fluidoterapia",
+    "cristaloides",
+    "Ringer lactato"
+   ],
+   "def": "En shock la prioridad es expandir el intravascular con cristaloides isotónicos: suero fisiológico 0.9% o Ringer lactato, que es más fisiológico.",
+   "pagina": 29,
+   "clase": "nefro-08",
+   "claseTitulo": "2.4 Fluidoterapia y Terapia Diurética en la Práctica Clínica",
+   "diapositiva": 2,
+   "t": 77.7,
+   "mmss": "1:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-08&t=77&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-08&t=77",
+   "notas": 7
+  },
+  "Hiperkalemia": {
+   "termino": "Hiperkalemia",
+   "tipo": "Concepto",
+   "alias": [
+    "hiperkalemia",
+    "hiperpotasemia"
+   ],
+   "def": "Trastorno electrolítico más letal de urgencia: despolariza el miocito y enlentece la conducción. Se estabiliza la membrana primero con calcio.",
+   "pagina": 34,
+   "clase": "nefro-09",
+   "claseTitulo": "3.1 Hiperkalemia Grave y Algoritmo de Estabilización de Membrana",
+   "diapositiva": 4,
+   "t": 191.7,
+   "mmss": "3:12",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-09&t=191&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-09&t=191",
+   "notas": 30
+  },
+  "Electrocardiograma": {
+   "termino": "Electrocardiograma",
+   "tipo": "Examen",
+   "alias": [
+    "ECG",
+    "electrocardiograma",
+    "ondas T picudas"
+   ],
+   "def": "En hiperkalemia muestra una progresión secuencial: T picudas, luego desaparece la P y el QRS se ensancha, hasta el paro. Define la urgencia.",
+   "pagina": 34,
+   "clase": "nefro-09",
+   "claseTitulo": "3.1 Hiperkalemia Grave y Algoritmo de Estabilización de Membrana",
+   "diapositiva": 5,
+   "t": 246.9,
+   "mmss": "4:07",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-09&t=246&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-09&t=246",
+   "notas": 17
+  },
+  "Gluconato_de_calcio": {
+   "termino": "Gluconato de calcio",
+   "tipo": "Farmaco",
+   "alias": [
+    "gluconato de calcio",
+    "calcio endovenoso"
+   ],
+   "def": "Estabiliza la membrana en hiperkalemia con bradicardia o QRS ancho; se da primero. Inicia en 1–3 min, dura 30–60 min y no baja el potasio.",
+   "pagina": 34,
+   "clase": "nefro-09",
+   "claseTitulo": "3.1 Hiperkalemia Grave y Algoritmo de Estabilización de Membrana",
+   "diapositiva": 16,
+   "t": 802.4,
+   "mmss": "13:22",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-09&t=802&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-09&t=802",
+   "notas": 10
+  },
+  "Salbutamol": {
+   "termino": "Salbutamol",
+   "tipo": "Farmaco",
+   "alias": [
+    "salbutamol"
+   ],
+   "def": "Beta-agonista nebulizado, sinérgico con insulina + glucosa en hiperkalemia. Redistribuye el potasio al interior de la célula.",
+   "pagina": 34,
+   "clase": "nefro-09",
+   "claseTitulo": "3.1 Hiperkalemia Grave y Algoritmo de Estabilización de Membrana",
+   "diapositiva": 15,
+   "t": 734.3,
+   "mmss": "12:14",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-09&t=734&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-09&t=734",
+   "notas": 5
+  },
+  "Resinas_de_intercambio": {
+   "termino": "Resinas de intercambio",
+   "tipo": "Farmaco",
+   "alias": [
+    "resina",
+    "resinas de intercambio",
+    "poliestireno sulfonato",
+    "patiromer"
+   ],
+   "def": "Poliestireno sulfonato, patiromer o ZS-9. Acción lenta (horas): se usan en manejo subagudo o ambulatorio, no en el rescate agudo.",
+   "pagina": 35,
+   "clase": "nefro-09",
+   "claseTitulo": "3.1 Hiperkalemia Grave y Algoritmo de Estabilización de Membrana",
+   "diapositiva": 8,
+   "t": 415.6,
+   "mmss": "6:56",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-09&t=415&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-09&t=415",
+   "notas": 3
+  },
+  "Bicarbonato_de_sodio": {
+   "termino": "Bicarbonato de sodio",
+   "tipo": "Farmaco",
+   "alias": [
+    "bicarbonato",
+    "bicarbonatoterapia"
+   ],
+   "def": "Indicado solo con pH muy bajo o en pérdidas puras de bicarbonato (ATR). En cetoacidosis o acidosis láctica moderada el tratamiento es insulina y fluidos.",
+   "pagina": 41,
+   "clase": "nefro-11",
+   "claseTitulo": "3.3 Acidosis Metabólica: Anion Gap, Brecha Osmolar y Bicarbonatoterapia",
+   "diapositiva": 1,
+   "t": 28.9,
+   "mmss": "0:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-11&t=28&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-11&t=28",
+   "notas": 16
+  },
+  "Hipokalemia": {
+   "termino": "Hipokalemia",
+   "tipo": "Concepto",
+   "alias": [
+    "hipokalemia",
+    "hipopotasemia"
+   ],
+   "def": "Potasio bajo; los diuréticos tiazídicos y de asa son su causa más frecuente en el paciente ambulatorio. Con HTA y sin diuréticos, pensar en hiperaldosteronismo primario.",
+   "pagina": 38,
+   "clase": "nefro-10",
+   "claseTitulo": "3.2 Hipokalemia y Reposición Segura de Potasio",
+   "diapositiva": 9,
+   "t": 417.9,
+   "mmss": "6:58",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-10&t=417&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-10&t=417",
+   "notas": 31
+  },
+  "Cloruro_de_potasio": {
+   "termino": "Cloruro de potasio",
+   "tipo": "Farmaco",
+   "alias": [
+    "cloruro de potasio",
+    "KCl",
+    "reposición de potasio"
+   ],
+   "def": "Reposición IV en hipokalemia severa bajo reglas de seguridad. Nunca diluirlo en suero glucosado, que libera insulina y empeora la hipokalemia.",
+   "pagina": 38,
+   "clase": "nefro-10",
+   "claseTitulo": "3.2 Hipokalemia y Reposición Segura de Potasio",
+   "diapositiva": 9,
+   "t": 417.9,
+   "mmss": "6:58",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-10&t=417&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-10&t=417",
+   "notas": 12
+  },
+  "Acidosis_metabolica": {
+   "termino": "Acidosis metabólica",
+   "tipo": "Concepto",
+   "alias": [
+    "acidosis metabólica"
+   ],
+   "def": "Descenso primario del bicarbonato con pH < 7,35. La compensación respiratoria se calcula con la fórmula de Winter.",
+   "pagina": 41,
+   "clase": "nefro-11",
+   "claseTitulo": "3.3 Acidosis Metabólica: Anion Gap, Brecha Osmolar y Bicarbonatoterapia",
+   "diapositiva": 1,
+   "t": 28.9,
+   "mmss": "0:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-11&t=28&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-11&t=28",
+   "notas": 6
+  },
+  "Anion_gap": {
+   "termino": "Anion gap",
+   "tipo": "Examen",
+   "alias": [
+    "anion gap",
+    "brecha aniónica"
+   ],
+   "def": "Separa acidosis con AG elevado (> 12 mEq/L, KUSSMAUL/MUDPILES) de AG normal hiperclorémica. Con hipoalbuminemia se corrige sumando 2.5 por cada 1.0 g/dL bajo 4.0.",
+   "pagina": 41,
+   "clase": "nefro-11",
+   "claseTitulo": "3.3 Acidosis Metabólica: Anion Gap, Brecha Osmolar y Bicarbonatoterapia",
+   "diapositiva": 6,
+   "t": 264.9,
+   "mmss": "4:25",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-11&t=264&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-11&t=264",
+   "notas": 6
+  },
+  "Brecha_osmolar": {
+   "termino": "Brecha osmolar",
+   "tipo": "Examen",
+   "alias": [
+    "brecha osmolar",
+    "gap osmolar"
+   ],
+   "def": "Con acidosis de AG elevado, una brecha osmolar > 10 mOsm/kg confirma intoxicación por metanol o etilenglicol y exige hemodiálisis.",
+   "pagina": 41,
+   "clase": "nefro-11",
+   "claseTitulo": "3.3 Acidosis Metabólica: Anion Gap, Brecha Osmolar y Bicarbonatoterapia",
+   "diapositiva": 7,
+   "t": 324.9,
+   "mmss": "5:25",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-11&t=324&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-11&t=324",
+   "notas": 2
+  },
+  "Acidosis_tubular_renal": {
+   "termino": "Acidosis tubular renal",
+   "tipo": "Concepto",
+   "alias": [
+    "acidosis tubular renal",
+    "ATR"
+   ],
+   "def": "Acidosis hiperclorémica con AG normal por pérdida renal de HCO3: tipo 1 distal, tipo 2 proximal y tipo 4 con hipoaldosteronismo e hiperkalemia.",
+   "pagina": 41,
+   "clase": "nefro-11",
+   "claseTitulo": "3.3 Acidosis Metabólica: Anion Gap, Brecha Osmolar y Bicarbonatoterapia",
+   "diapositiva": 6,
+   "t": 264.9,
+   "mmss": "4:25",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-11&t=264&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-11&t=264",
+   "notas": 4
+  },
+  "Cetoacidosis": {
+   "termino": "Cetoacidosis",
+   "tipo": "Concepto",
+   "alias": [
+    "cetoacidosis"
+   ],
+   "def": "Acidosis con AG elevado. Se trata con fluidos e insulina, no con bicarbonato de rutina.",
+   "pagina": 41,
+   "clase": "nefro-11",
+   "claseTitulo": "3.3 Acidosis Metabólica: Anion Gap, Brecha Osmolar y Bicarbonatoterapia",
+   "diapositiva": 12,
+   "t": 544.7,
+   "mmss": "9:05",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-11&t=544&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-11&t=544",
+   "notas": 5
+  },
+  "Alcalosis_metabolica": {
+   "termino": "Alcalosis metabólica",
+   "tipo": "Concepto",
+   "alias": [
+    "alcalosis metabólica"
+   ],
+   "def": "Aumento primario del bicarbonato (> 28 mEq/L) con pH > 7.45 e hipoventilación compensatoria. La sensible a cloro se corrige aportando cloro.",
+   "pagina": 45,
+   "clase": "nefro-12",
+   "claseTitulo": "3.4 Alcalosis Metabólica y Trastornos Ácido-Base Mixtos",
+   "diapositiva": 1,
+   "t": 25.1,
+   "mmss": "0:25",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-12&t=25&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-12&t=25",
+   "notas": 11
+  },
+  "Trastornos_acido_base_mixtos": {
+   "termino": "Trastornos ácido-base mixtos",
+   "tipo": "Concepto",
+   "alias": [
+    "ácido-base mixto",
+    "trastorno mixto",
+    "trastornos mixtos"
+   ],
+   "def": "Se sospechan con pH normal y HCO3 muy alterado, o cuando la compensación esperada no se cumple.",
+   "pagina": 45,
+   "clase": "nefro-12",
+   "claseTitulo": "3.4 Alcalosis Metabólica y Trastornos Ácido-Base Mixtos",
+   "diapositiva": 6,
+   "t": 274.0,
+   "mmss": "4:34",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-12&t=274&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-12&t=274",
+   "notas": 3
+  },
+  "Sindrome_nefrotico": {
+   "termino": "Síndrome nefrótico",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome nefrótico"
+   ],
+   "def": "Proteinuria > 3.5 g/24 h, hipoalbuminemia severa y edema, sin hematuria. En adulto joven la causa más frecuente es cambios mínimos.",
+   "pagina": 50,
+   "clase": "nefro-13",
+   "claseTitulo": "4.1 Síndrome Nefrótico y Complicaciones Trombóticas",
+   "diapositiva": 13,
+   "t": 791.8,
+   "mmss": "13:12",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-13&t=791&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-13&t=791",
+   "notas": 9
+  },
+  "Proteinuria": {
+   "termino": "Proteinuria",
+   "tipo": "Examen",
+   "alias": [
+    "proteinuria",
+    "proteinuria de 24 horas",
+    "relación proteína/creatinina"
+   ],
+   "def": "Excreción urinaria > 3.5 g en 24 horas define el rango nefrótico. El ejercicio intenso causa proteinuria funcional.",
+   "pagina": 50,
+   "clase": "nefro-13",
+   "claseTitulo": "4.1 Síndrome Nefrótico y Complicaciones Trombóticas",
+   "diapositiva": 2,
+   "t": 108.5,
+   "mmss": "1:49",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-13&t=108&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-13&t=108",
+   "notas": 16
+  },
+  "Edema": {
+   "termino": "Edema",
+   "tipo": "Signo",
+   "alias": [
+    "edema",
+    "anasarca"
+   ],
+   "def": "En el síndrome nefrótico es blando y con fóvea; en la mañana aparece en párpados y cara, y en la tarde baja a las piernas.",
+   "pagina": 50,
+   "clase": "nefro-13",
+   "claseTitulo": "4.1 Síndrome Nefrótico y Complicaciones Trombóticas",
+   "diapositiva": 8,
+   "t": 511.8,
+   "mmss": "8:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-13&t=511&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-13&t=511",
+   "notas": 33
+  },
+  "Enfermedad_de_cambios_minimos": {
+   "termino": "Enfermedad de cambios mínimos",
+   "tipo": "Concepto",
+   "alias": [
+    "cambios mínimos",
+    "enfermedad de cambios mínimos"
+   ],
+   "def": "Causa de síndrome nefrótico en el niño y adulto joven, con respuesta dramática a corticoides (> 80%).",
+   "pagina": 54,
+   "clase": "nefro-14",
+   "claseTitulo": "4.2 Glomerulopatías Primarias del Adulto: Cambios Mínimos, FSGS y Membranosa",
+   "diapositiva": 8,
+   "t": 380.7,
+   "mmss": "6:21",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-14&t=380&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-14&t=380",
+   "notas": 10
+  },
+  "Nefropatia_membranosa": {
+   "termino": "Nefropatía membranosa",
+   "tipo": "Concepto",
+   "alias": [
+    "membranosa",
+    "nefropatía membranosa",
+    "anti-PLA2R"
+   ],
+   "def": "Causa más común de síndrome nefrótico en adultos > 50 años.",
+   "pagina": 54,
+   "clase": "nefro-14",
+   "claseTitulo": "4.2 Glomerulopatías Primarias del Adulto: Cambios Mínimos, FSGS y Membranosa",
+   "diapositiva": 3,
+   "t": 136.7,
+   "mmss": "2:17",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-14&t=136&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-14&t=136",
+   "notas": 24
+  },
+  "Biopsia_renal": {
+   "termino": "Biopsia renal",
+   "tipo": "Examen",
+   "alias": [
+    "biopsia renal"
+   ],
+   "def": "En sospecha de GNRP es una urgencia y muestra semilunas en > 50% de los glomérulos. Si se retrasa, no se posterga la inmunosupresión.",
+   "pagina": 61,
+   "clase": "nefro-16",
+   "claseTitulo": "4.4 Glomerulonefritis Rápidamente Progresiva (GNRP) y Vasculitis ANCA",
+   "diapositiva": 12,
+   "t": 657.9,
+   "mmss": "10:58",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-16&t=657&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-16&t=657",
+   "notas": 7
+  },
+  "Corticoides": {
+   "termino": "Corticoides",
+   "tipo": "Farmaco",
+   "alias": [
+    "prednisona",
+    "corticoides",
+    "metilprednisolona"
+   ],
+   "def": "Tratamiento del síndrome nefrótico por cambios mínimos, con respuesta > 80%. La GEFS es resistente a corticoides.",
+   "pagina": 54,
+   "clase": "nefro-14",
+   "claseTitulo": "4.2 Glomerulopatías Primarias del Adulto: Cambios Mínimos, FSGS y Membranosa",
+   "diapositiva": 13,
+   "t": 544.1,
+   "mmss": "9:04",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-14&t=544&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-14&t=544",
+   "notas": 29
+  },
+  "Anticoagulantes": {
+   "termino": "Anticoagulantes",
+   "tipo": "Farmaco",
+   "alias": [
+    "anticoagulación",
+    "anticoagulantes",
+    "heparina"
+   ],
+   "def": "La heparina sistémica está contraindicada en la pericarditis urémica por riesgo de hemopericardio y taponamiento.",
+   "pagina": 14,
+   "clase": "nefro-03",
+   "claseTitulo": "1.3 Síndrome Urémico y Urgencias Dialíticas (Criterios AEIOU)",
+   "diapositiva": 8,
+   "t": 373.1,
+   "mmss": "6:13",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-03&t=373&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-03&t=373",
+   "notas": 4
+  },
+  "Estatinas": {
+   "termino": "Estatinas",
+   "tipo": "Farmaco",
+   "alias": [
+    "estatinas"
+   ],
+   "def": "Se usan para el control agresivo de la hipercolesterolemia en el síndrome nefrótico.",
+   "pagina": 51,
+   "clase": "nefro-13",
+   "claseTitulo": "4.1 Síndrome Nefrótico y Complicaciones Trombóticas",
+   "diapositiva": 7,
+   "t": 447.8,
+   "mmss": "7:28",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-13&t=447&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-13&t=447",
+   "notas": 2
+  },
+  "Sindrome_nefritico": {
+   "termino": "Síndrome nefrítico",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome nefrítico"
+   ],
+   "def": "Tríada de hematuria glomerular (dismórfica + cilindros hemáticos), hipertensión y edema.",
+   "pagina": 57,
+   "clase": "nefro-15",
+   "claseTitulo": "4.3 Síndrome Nefrítico y Glomerulonefritis Postestreptocócica (GNPE)",
+   "diapositiva": 2,
+   "t": 93.8,
+   "mmss": "1:34",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-15&t=93&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-15&t=93",
+   "notas": 5
+  },
+  "Glomerulonefritis_postestreptococica": {
+   "termino": "Glomerulonefritis postestreptocócica",
+   "tipo": "Concepto",
+   "alias": [
+    "GNPE",
+    "glomerulonefritis postestreptocócica",
+    "postestreptocócica"
+   ],
+   "def": "Enfermedad por inmunocomplejos tras cepas nefritogénicas de Streptococcus pyogenes. Cursa con C3 bajo y C4 normal; el tratamiento es soporte y diuréticos.",
+   "pagina": 57,
+   "clase": "nefro-15",
+   "claseTitulo": "4.3 Síndrome Nefrítico y Glomerulonefritis Postestreptocócica (GNPE)",
+   "diapositiva": 9,
+   "t": 479.6,
+   "mmss": "8:00",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-15&t=479&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-15&t=479",
+   "notas": 19
+  },
+  "Complemento_C3": {
+   "termino": "Complemento C3",
+   "tipo": "Examen",
+   "alias": [
+    "C3",
+    "complemento",
+    "hipocomplementemia"
+   ],
+   "def": "En GNPE está bajo (C4 normal) y se normaliza en 6 a 8 semanas; en nefropatía por IgA es normal. En lupus activo consume C3 y C4.",
+   "pagina": 57,
+   "clase": "nefro-15",
+   "claseTitulo": "4.3 Síndrome Nefrítico y Glomerulonefritis Postestreptocócica (GNPE)",
+   "diapositiva": 4,
+   "t": 191.3,
+   "mmss": "3:11",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-15&t=191&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-15&t=191",
+   "notas": 19
+  },
+  "ASO": {
+   "termino": "ASO",
+   "tipo": "Examen",
+   "alias": [
+    "ASO",
+    "antiestreptolisina"
+   ],
+   "def": "Antiestreptolisina O: su título elevado confirma infección estreptocócica previa en foco faríngeo. Anti-DNAsa B es más sensible en infecciones cutáneas.",
+   "pagina": 58,
+   "clase": "nefro-15",
+   "claseTitulo": "4.3 Síndrome Nefrítico y Glomerulonefritis Postestreptocócica (GNPE)",
+   "diapositiva": 3,
+   "t": 143.4,
+   "mmss": "2:23",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-15&t=143&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-15&t=143",
+   "notas": 1
+  },
+  "Nefropatia_por_IgA": {
+   "termino": "Nefropatía por IgA",
+   "tipo": "Concepto",
+   "alias": [
+    "nefropatía IgA",
+    "nefropatía por IgA",
+    "Berger"
+   ],
+   "def": "Enfermedad de Berger: hematuria simultánea con la infección respiratoria (24–48 h) y complemento normal.",
+   "pagina": 58,
+   "clase": "nefro-15",
+   "claseTitulo": "4.3 Síndrome Nefrítico y Glomerulonefritis Postestreptocócica (GNPE)",
+   "diapositiva": 9,
+   "t": 479.6,
+   "mmss": "8:00",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-15&t=479&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-15&t=479",
+   "notas": 4
+  },
+  "Glomerulonefritis_rapidamente_progresiva": {
+   "termino": "Glomerulonefritis rápidamente progresiva",
+   "tipo": "Concepto",
+   "alias": [
+    "GNRP",
+    "glomerulonefritis rápidamente progresiva"
+   ],
+   "def": "Pérdida rápida de más del 50% de la TFG en días a semanas, con síndrome nefrítico activo y semilunas en la biopsia. Requiere biopsia urgente.",
+   "pagina": 61,
+   "clase": "nefro-16",
+   "claseTitulo": "4.4 Glomerulonefritis Rápidamente Progresiva (GNRP) y Vasculitis ANCA",
+   "diapositiva": 12,
+   "t": 657.9,
+   "mmss": "10:58",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-16&t=657&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-16&t=657",
+   "notas": 12
+  },
+  "Vasculitis_ANCA": {
+   "termino": "Vasculitis ANCA",
+   "tipo": "Concepto",
+   "alias": [
+    "ANCA",
+    "vasculitis ANCA",
+    "granulomatosis con poliangeítis",
+    "poliangeítis microscópica"
+   ],
+   "def": "Poliangeítis microscópica se asocia a ANCA-p (anti-MPO) y granulomatosis con poliangeítis a ANCA-c (anti-PR3).",
+   "pagina": 61,
+   "clase": "nefro-16",
+   "claseTitulo": "4.4 Glomerulonefritis Rápidamente Progresiva (GNRP) y Vasculitis ANCA",
+   "diapositiva": 5,
+   "t": 260.8,
+   "mmss": "4:21",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-16&t=260&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-16&t=260",
+   "notas": 12
+  },
+  "Sindrome_de_Goodpasture": {
+   "termino": "Síndrome de Goodpasture",
+   "tipo": "Concepto",
+   "alias": [
+    "Goodpasture",
+    "anti-MBG",
+    "anti-membrana basal glomerular"
+   ],
+   "def": "GN con hemorragia alveolar por anti-MBG: depósito lineal de IgG en la MBG. Se trata con plasmaféresis.",
+   "pagina": 61,
+   "clase": "nefro-16",
+   "claseTitulo": "4.4 Glomerulonefritis Rápidamente Progresiva (GNRP) y Vasculitis ANCA",
+   "diapositiva": 16,
+   "t": 714.7,
+   "mmss": "11:55",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-16&t=714&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-16&t=714",
+   "notas": 5
+  },
+  "Creciente_glomerular": {
+   "termino": "Creciente glomerular",
+   "tipo": "Concepto",
+   "alias": [
+    "crecientes",
+    "semilunas"
+   ],
+   "def": "Semilunas epiteliales en > 50% de los glomérulos definen la GNRP. Las celulares son reversibles con tratamiento precoz; si se fibrosan, el daño es irreversible.",
+   "pagina": 61,
+   "clase": "nefro-16",
+   "claseTitulo": "4.4 Glomerulonefritis Rápidamente Progresiva (GNRP) y Vasculitis ANCA",
+   "diapositiva": 1,
+   "t": 30.0,
+   "mmss": "0:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-16&t=30&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-16&t=30",
+   "notas": 3
+  },
+  "Plasmaferesis": {
+   "termino": "Plasmaféresis",
+   "tipo": "Concepto",
+   "alias": [
+    "plasmaféresis",
+    "recambio plasmático"
+   ],
+   "def": "Primera línea en anti-MBG/Goodpasture y en vasculitis ANCA con hemorragia alveolar difusa o creatinina > 5.7 mg/dL.",
+   "pagina": 63,
+   "clase": "nefro-16",
+   "claseTitulo": "4.4 Glomerulonefritis Rápidamente Progresiva (GNRP) y Vasculitis ANCA",
+   "diapositiva": 6,
+   "t": 322.7,
+   "mmss": "5:23",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-16&t=322&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-16&t=322",
+   "notas": 4
+  },
+  "Ciclofosfamida": {
+   "termino": "Ciclofosfamida",
+   "tipo": "Farmaco",
+   "alias": [
+    "ciclofosfamida"
+   ],
+   "def": "Inmunosupresor de inducción en GNRP/vasculitis, junto a pulsos de corticoides, y en nefropatía lúpica severa (pauta Euro-Lupus).",
+   "pagina": 67,
+   "clase": "nefro-17",
+   "claseTitulo": "4.5 Nefropatía Lúpica: Clasificación ISN/RPS y Conducta Terapéutica",
+   "diapositiva": 8,
+   "t": 395.5,
+   "mmss": "6:36",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-17&t=395&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-17&t=395",
+   "notas": 8
+  },
+  "Rituximab": {
+   "termino": "Rituximab",
+   "tipo": "Farmaco",
+   "alias": [
+    "rituximab"
+   ],
+   "def": "Anticuerpo monoclonal anti-CD20, especialmente indicado en vasculitis ANCA recidivante.",
+   "pagina": 63,
+   "clase": "nefro-16",
+   "claseTitulo": "4.4 Glomerulonefritis Rápidamente Progresiva (GNRP) y Vasculitis ANCA",
+   "diapositiva": 11,
+   "t": 583.0,
+   "mmss": "9:43",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-16&t=582&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-16&t=582",
+   "notas": 7
+  },
+  "Nefropatia_lupica": {
+   "termino": "Nefropatía lúpica",
+   "tipo": "Concepto",
+   "alias": [
+    "nefropatía lúpica",
+    "nefritis lúpica"
+   ],
+   "def": "Principal determinante de morbimortalidad a largo plazo en LES. Cursa con anti-dsDNA elevado y consumo de C3 y C4.",
+   "pagina": 67,
+   "clase": "nefro-17",
+   "claseTitulo": "4.5 Nefropatía Lúpica: Clasificación ISN/RPS y Conducta Terapéutica",
+   "diapositiva": 10,
+   "t": 534.4,
+   "mmss": "8:54",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-17&t=534&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-17&t=534",
+   "notas": 6
+  },
+  "Clasificacion_ISN_RPS": {
+   "termino": "Clasificación ISN/RPS",
+   "tipo": "Concepto",
+   "alias": [
+    "ISN/RPS",
+    "clase IV",
+    "clase V"
+   ],
+   "def": "Clasifica la nefropatía lúpica por histología: clase I mesangial mínima, II mesangial proliferativa, III focal, V membranosa y VI esclerosante.",
+   "pagina": 67,
+   "clase": "nefro-17",
+   "claseTitulo": "4.5 Nefropatía Lúpica: Clasificación ISN/RPS y Conducta Terapéutica",
+   "diapositiva": 3,
+   "t": 138.3,
+   "mmss": "2:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-17&t=138&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-17&t=138",
+   "notas": 7
+  },
+  "Micofenolato": {
+   "termino": "Micofenolato",
+   "tipo": "Farmaco",
+   "alias": [
+    "micofenolato"
+   ],
+   "def": "MMF: inducción con pulsos de corticoides en nefropatía lúpica severa, y mantenimiento a largo plazo con MMF o azatioprina.",
+   "pagina": 67,
+   "clase": "nefro-17",
+   "claseTitulo": "4.5 Nefropatía Lúpica: Clasificación ISN/RPS y Conducta Terapéutica",
+   "diapositiva": 8,
+   "t": 395.5,
+   "mmss": "6:36",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-17&t=395&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-17&t=395",
+   "notas": 3
+  },
+  "Hidroxicloroquina": {
+   "termino": "Hidroxicloroquina",
+   "tipo": "Farmaco",
+   "alias": [
+    "hidroxicloroquina"
+   ],
+   "def": "Obligatoria en todo paciente lúpico salvo contraindicación oftalmológica: reduce los brotes y preserva la sobrevida renal.",
+   "pagina": 67,
+   "clase": "nefro-17",
+   "claseTitulo": "4.5 Nefropatía Lúpica: Clasificación ISN/RPS y Conducta Terapéutica",
+   "diapositiva": 9,
+   "t": 459.8,
+   "mmss": "7:40",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-17&t=459&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-17&t=459",
+   "notas": 1
+  },
+  "Enfermedad_renal_cronica": {
+   "termino": "Enfermedad renal crónica",
+   "tipo": "Concepto",
+   "alias": [
+    "enfermedad renal crónica",
+    "ERC"
+   ],
+   "def": "Pérdida sostenida de masa renal con TFG < 60. Genera anemia, trastorno mineral óseo y acidosis metabólica.",
+   "pagina": 72,
+   "clase": "nefro-18",
+   "claseTitulo": "5.1 Enfermedad Renal Crónica (KDIGO) y Garantías Explícitas en Salud (GES)",
+   "diapositiva": 1,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-18&t=28&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": null,
+   "notas": 30
+  },
+  "Estadios_de_ERC": {
+   "termino": "Estadios de ERC",
+   "tipo": "Concepto",
+   "alias": [
+    "estadio G",
+    "G3a",
+    "G3b",
+    "G4",
+    "G5",
+    "categorías de albuminuria"
+   ],
+   "def": "Se clasifican por TFGe (G1 a G5) y por albuminuria (A1 a A3). Desde G3 a G5 se pesquisan hemograma, hierro, Ca, P y PTH.",
+   "pagina": 77,
+   "clase": "nefro-19",
+   "claseTitulo": "5.2 Complicaciones de la ERC: Anemia, Trastorno Mineral Óseo (CKD-MBD) y Acidosis",
+   "diapositiva": 7,
+   "t": 325.1,
+   "mmss": "5:25",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-19&t=325&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-19&t=325",
+   "notas": 10
+  },
+  "Relacion_albumina_creatinina": {
+   "termino": "Relación albúmina/creatinina",
+   "tipo": "Examen",
+   "alias": [
+    "RAC",
+    "albuminuria",
+    "microalbuminuria"
+   ],
+   "def": "Marca la albuminuria: A1 < 30 mg/g, A2 30–300 mg/g y A3 > 300 mg/g. RAC ≥ 30 mg/g persistente es marcador de daño renal.",
+   "pagina": 72,
+   "clase": "nefro-18",
+   "claseTitulo": "5.1 Enfermedad Renal Crónica (KDIGO) y Garantías Explícitas en Salud (GES)",
+   "diapositiva": 18,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-18&t=1014&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Anemia_de_la_ERC": {
+   "termino": "Anemia de la ERC",
+   "tipo": "Concepto",
+   "alias": [
+    "anemia de la ERC",
+    "anemia renal"
+   ],
+   "def": "Normocítica normocrómica, por déficit de síntesis de eritropoyetina de las células peritubulares.",
+   "pagina": 77,
+   "clase": "nefro-19",
+   "claseTitulo": "5.2 Complicaciones de la ERC: Anemia, Trastorno Mineral Óseo (CKD-MBD) y Acidosis",
+   "diapositiva": 2,
+   "t": 77.7,
+   "mmss": "1:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-19&t=77&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-19&t=77",
+   "notas": 3
+  },
+  "Eritropoyetina": {
+   "termino": "Eritropoyetina",
+   "tipo": "Farmaco",
+   "alias": [
+    "eritropoyetina",
+    "EPO",
+    "agentes estimulantes de la eritropoyesis"
+   ],
+   "def": "Agente estimulante de la eritropoyesis (o darbepoetina). Antes se debe repletar el hierro: IST > 20% y ferritina > 100 ng/mL.",
+   "pagina": 77,
+   "clase": "nefro-19",
+   "claseTitulo": "5.2 Complicaciones de la ERC: Anemia, Trastorno Mineral Óseo (CKD-MBD) y Acidosis",
+   "diapositiva": 3,
+   "t": 106.3,
+   "mmss": "1:46",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-19&t=106&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-19&t=106",
+   "notas": 8
+  },
+  "Trastorno_mineral_oseo": {
+   "termino": "Trastorno mineral óseo",
+   "tipo": "Concepto",
+   "alias": [
+    "CKD-MBD",
+    "trastorno mineral óseo",
+    "hiperparatiroidismo secundario"
+   ],
+   "def": "CKD-MBD: hiperfosfatemia por retención y falta de calcitriol (déficit de 1-alfa-hidroxilasa) causan hiperparatiroidismo secundario.",
+   "pagina": 77,
+   "clase": "nefro-19",
+   "claseTitulo": "5.2 Complicaciones de la ERC: Anemia, Trastorno Mineral Óseo (CKD-MBD) y Acidosis",
+   "diapositiva": 1,
+   "t": 27.1,
+   "mmss": "0:27",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-19&t=27&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-19&t=27",
+   "notas": 3
+  },
+  "PTH": {
+   "termino": "PTH",
+   "tipo": "Examen",
+   "alias": [
+    "PTH",
+    "paratohormona"
+   ],
+   "def": "En ERC se eleva (hiperparatiroidismo secundario). Meta en G5D: 2 a 9 veces el límite normal, con calcitriol, paricalcitol o cinacalcet.",
+   "pagina": 78,
+   "clase": "nefro-19",
+   "claseTitulo": "5.2 Complicaciones de la ERC: Anemia, Trastorno Mineral Óseo (CKD-MBD) y Acidosis",
+   "diapositiva": 5,
+   "t": 236.8,
+   "mmss": "3:57",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-19&t=236&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-19&t=236",
+   "notas": 5
+  },
+  "Quelantes_de_fosforo": {
+   "termino": "Quelantes de fósforo",
+   "tipo": "Farmaco",
+   "alias": [
+    "quelantes de fósforo",
+    "carbonato de calcio",
+    "sevelámero"
+   ],
+   "def": "Carbonato de calcio o sevelamer, tomados estrictamente con las comidas para unir el fósforo de la dieta. Sevelamer si hay hipercalcemia o calcificaciones.",
+   "pagina": 78,
+   "clase": "nefro-19",
+   "claseTitulo": "5.2 Complicaciones de la ERC: Anemia, Trastorno Mineral Óseo (CKD-MBD) y Acidosis",
+   "diapositiva": 0,
+   "t": 5.2,
+   "mmss": "0:05",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-19&t=5&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-19&t=5",
+   "notas": 1
+  },
+  "Hiperfosfemia": {
+   "termino": "Hiperfosfemia",
+   "tipo": "Concepto",
+   "alias": [
+    "hiperfosfemia",
+    "hiperfosfatemia"
+   ],
+   "def": "Retención renal de fósforo en ERC. Se maneja con dieta baja en fósforo y quelantes.",
+   "pagina": 78,
+   "clase": "nefro-19",
+   "claseTitulo": "5.2 Complicaciones de la ERC: Anemia, Trastorno Mineral Óseo (CKD-MBD) y Acidosis",
+   "diapositiva": 4,
+   "t": 173.9,
+   "mmss": "2:54",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-19&t=173&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-19&t=173",
+   "notas": 3
+  },
+  "IECA": {
+   "termino": "IECA",
+   "tipo": "Farmaco",
+   "alias": [
+    "IECA",
+    "inhibidores de la enzima convertidora"
+   ],
+   "def": "Primera línea en HTA junto a ARA-II. Se vigila la creatinina: un aumento > 30% en las primeras dos semanas sugiere estenosis bilateral crítica o riñón único.",
+   "pagina": 80,
+   "clase": "nefro-20",
+   "claseTitulo": "5.3 Hipertensión Secundaria y Estenosis de la Arteria Renal",
+   "diapositiva": 7,
+   "t": 450.4,
+   "mmss": "7:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-20&t=450&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-20&t=450",
+   "notas": 21
+  },
+  "ARA_II": {
+   "termino": "ARA II",
+   "tipo": "Farmaco",
+   "alias": [
+    "ARA II",
+    "losartán"
+   ],
+   "def": "Primera línea en HTA y pilar del tratamiento de la IC con FEVI reducida. Bloquea la angiotensina II; con AINEs y deshidratación precipita IRA.",
+   "pagina": 16,
+   "clase": "nefro-04",
+   "claseTitulo": "1.4 Síndrome Cardiorrenal y Síndrome Hepatorrenal",
+   "diapositiva": null,
+   "t": 0,
+   "mmss": "0:00",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-04&t=0",
+   "notas": 1
+  },
+  "Trasplante_renal": {
+   "termino": "Trasplante renal",
+   "tipo": "Concepto",
+   "alias": [
+    "trasplante renal"
+   ],
+   "def": "El receptor, en los primeros meses, es una de las situaciones en que se trata la bacteriuria asintomática y se pide urocultivo.",
+   "pagina": 85,
+   "clase": "nefro-21",
+   "claseTitulo": "5.4 Pielonefritis Aguda e Infecciones Urinarias Altas en el Adulto",
+   "diapositiva": 4,
+   "t": 194.7,
+   "mmss": "3:15",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-21&t=194&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-21&t=194",
+   "notas": 3
+  },
+  "Hipertension_secundaria": {
+   "termino": "Hipertensión secundaria",
+   "tipo": "Concepto",
+   "alias": [
+    "hipertensión secundaria",
+    "HTA secundaria"
+   ],
+   "def": "5–10% de las HTA del adulto; se sospecha en pacientes jóvenes o con HTA severa. Incluye causa renal parenquimatosa y renovascular.",
+   "pagina": 80,
+   "clase": "nefro-20",
+   "claseTitulo": "5.3 Hipertensión Secundaria y Estenosis de la Arteria Renal",
+   "diapositiva": 1,
+   "t": 30.0,
+   "mmss": "0:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-20&t=29&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-20&t=29",
+   "notas": 2
+  },
+  "Estenosis_de_la_arteria_renal": {
+   "termino": "Estenosis de la arteria renal",
+   "tipo": "Concepto",
+   "alias": [
+    "estenosis de la arteria renal"
+   ],
+   "def": "HTA renovascular: se sospecha en HTA refractaria, soplo renal o alza de creatinina con IECA/ARA-II. Se estudia con ecografía Doppler de arterias renales.",
+   "pagina": 80,
+   "clase": "nefro-20",
+   "claseTitulo": "5.3 Hipertensión Secundaria y Estenosis de la Arteria Renal",
+   "diapositiva": 1,
+   "t": 30.0,
+   "mmss": "0:30",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-20&t=29&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-20&t=29",
+   "notas": 1
+  },
+  "Displasia_fibromuscular": {
+   "termino": "Displasia fibromuscular",
+   "tipo": "Concepto",
+   "alias": [
+    "displasia fibromuscular"
+   ],
+   "def": "Causa de estenosis de arteria renal en mujer joven; en la imagen da aspecto de collar de perlas.",
+   "pagina": 80,
+   "clase": "nefro-20",
+   "claseTitulo": "5.3 Hipertensión Secundaria y Estenosis de la Arteria Renal",
+   "diapositiva": 3,
+   "t": 176.3,
+   "mmss": "2:56",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-20&t=176&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-20&t=176",
+   "notas": 6
+  },
+  "Pielonefritis_aguda": {
+   "termino": "Pielonefritis aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "pielonefritis",
+    "pielonefritis aguda"
+   ],
+   "def": "Fiebre alta con calofríos, dolor lumbar con puñopercusión positiva y síntomas miccionales. En el embarazo siempre se hospitaliza con ceftriaxona IV.",
+   "pagina": 85,
+   "clase": "nefro-21",
+   "claseTitulo": "5.4 Pielonefritis Aguda e Infecciones Urinarias Altas en el Adulto",
+   "diapositiva": 1,
+   "t": 25.1,
+   "mmss": "0:25",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-21&t=25&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-21&t=25",
+   "notas": 2
+  },
+  "Infeccion_urinaria": {
+   "termino": "Infección urinaria",
+   "tipo": "Concepto",
+   "alias": [
+    "infección urinaria",
+    "ITU"
+   ],
+   "def": "ITU recurrente: ≥ 3 episodios al año o ≥ 2 en 6 meses. Los cilindros leucocitarios certifican que la infección está en el riñón.",
+   "pagina": 85,
+   "clase": "nefro-21",
+   "claseTitulo": "5.4 Pielonefritis Aguda e Infecciones Urinarias Altas en el Adulto",
+   "diapositiva": 4,
+   "t": 194.7,
+   "mmss": "3:15",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-21&t=194&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-21&t=194",
+   "notas": 3
+  },
+  "Urocultivo": {
+   "termino": "Urocultivo",
+   "tipo": "Examen",
+   "alias": [
+    "urocultivo"
+   ],
+   "def": "Se pide en cistitis complicada, en el hombre y si los síntomas persisten. No se solicita en bacteriuria asintomática salvo embarazo o en el trasplantado renal.",
+   "pagina": 85,
+   "clase": "nefro-21",
+   "claseTitulo": "5.4 Pielonefritis Aguda e Infecciones Urinarias Altas en el Adulto",
+   "diapositiva": 3,
+   "t": 136.7,
+   "mmss": "2:17",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-21&t=136&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-21&t=136",
+   "notas": 7
+  },
+  "Ceftriaxona": {
+   "termino": "Ceftriaxona",
+   "tipo": "Farmaco",
+   "alias": [
+    "ceftriaxona"
+   ],
+   "def": "Cefalosporina IV de elección en pielonefritis severa y en embarazo (1 g/día), nunca ciprofloxacino.",
+   "pagina": 85,
+   "clase": "nefro-21",
+   "claseTitulo": "5.4 Pielonefritis Aguda e Infecciones Urinarias Altas en el Adulto",
+   "diapositiva": 12,
+   "t": 664.5,
+   "mmss": "11:05",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-21&t=664&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-21&t=664",
+   "notas": 2
+  },
+  "Ciprofloxacino": {
+   "termino": "Ciprofloxacino",
+   "tipo": "Farmaco",
+   "alias": [
+    "ciprofloxacino",
+    "fluoroquinolonas"
+   ],
+   "def": "Opción oral en pielonefritis no complicada del adulto sano (500 mg c/12h). Contraindicado en todo el embarazo por toxicidad sobre el cartílago fetal.",
+   "pagina": 85,
+   "clase": "nefro-21",
+   "claseTitulo": "5.4 Pielonefritis Aguda e Infecciones Urinarias Altas en el Adulto",
+   "diapositiva": 14,
+   "t": 766.4,
+   "mmss": "12:46",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-21&t=766&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-21&t=766",
+   "notas": 2
+  },
+  "Ertapenem": {
+   "termino": "Ertapenem",
+   "tipo": "Farmaco",
+   "alias": [
+    "ertapenem",
+    "carbapenémicos"
+   ],
+   "def": "Carbapenémico (1 g/día) para pielonefritis con sospecha de BLEE o paciente crítico, según antibiograma.",
+   "pagina": 85,
+   "clase": "nefro-21",
+   "claseTitulo": "5.4 Pielonefritis Aguda e Infecciones Urinarias Altas en el Adulto",
+   "diapositiva": 7,
+   "t": 400.0,
+   "mmss": "6:40",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-21&t=400&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-21&t=400",
+   "notas": 1
+  },
+  "Absceso_renal": {
+   "termino": "Absceso renal",
+   "tipo": "Concepto",
+   "alias": [
+    "absceso renal",
+    "pielonefritis enfisematosa"
+   ],
+   "def": "Se sospecha si no hay respuesta al tratamiento; se descarta con ecografía o TAC renal. Hay que drenarlo.",
+   "pagina": 85,
+   "clase": "nefro-21",
+   "claseTitulo": "5.4 Pielonefritis Aguda e Infecciones Urinarias Altas en el Adulto",
+   "diapositiva": 9,
+   "t": 511.6,
+   "mmss": "8:32",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-21&t=511&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-21&t=511",
+   "notas": 1
+  },
+  "Nefrotoxicidad": {
+   "termino": "Nefrotoxicidad",
+   "tipo": "Concepto",
+   "alias": [
+    "nefrotoxicidad",
+    "nefrotóxicos"
+   ],
+   "def": "Daño renal por fármacos que se deben evitar o ajustar: AINEs, aminoglucósidos, contraste, vancomicina, anfotericina B y metformina en falla renal.",
+   "pagina": 90,
+   "clase": "nefro-22",
+   "claseTitulo": "5.5 Ajuste de Fármacos en Insuficiencia Renal y Nefrotoxicidad Prevenible",
+   "diapositiva": 4,
+   "t": 157.5,
+   "mmss": "2:37",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-22&t=157&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-22&t=157",
+   "notas": 3
+  },
+  "AINEs": {
+   "termino": "AINEs",
+   "tipo": "Farmaco",
+   "alias": [
+    "AINEs",
+    "antiinflamatorios no esteroidales",
+    "AINE"
+   ],
+   "def": "Contraindicados en ERC e IRA: inhiben las prostaglandinas vasodilatadoras aferentes y causan necrosis tubular isquémica e hiperkalemia.",
+   "pagina": 54,
+   "clase": "nefro-14",
+   "claseTitulo": "4.2 Glomerulopatías Primarias del Adulto: Cambios Mínimos, FSGS y Membranosa",
+   "diapositiva": 4,
+   "t": 198.0,
+   "mmss": "3:18",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-14&t=197&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-14&t=197",
+   "notas": 18
+  },
+  "Aminoglucosidos": {
+   "termino": "Aminoglucósidos",
+   "tipo": "Farmaco",
+   "alias": [
+    "aminoglucósidos",
+    "gentamicina",
+    "amikacina"
+   ],
+   "def": "Gentamicina y amikacina: nefrotóxicos que causan necrosis tubular aguda.",
+   "pagina": 10,
+   "clase": "nefro-02",
+   "claseTitulo": "1.2 Necrosis Tubular Aguda (NTA) y Nefritis Túbulo-Intersticial Aguda (NTIA)",
+   "diapositiva": 1,
+   "t": 29.2,
+   "mmss": "0:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-02&t=29&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-02&t=29",
+   "notas": 5
+  },
+  "Contraste_yodado": {
+   "termino": "Contraste yodado",
+   "tipo": "Farmaco",
+   "alias": [
+    "contraste yodado",
+    "nefropatía por contraste"
+   ],
+   "def": "Causa de NTA nefrotóxica. Se previene con hidratación con suero fisiológico 0.9% IV antes y después del examen.",
+   "pagina": 90,
+   "clase": "nefro-22",
+   "claseTitulo": "5.5 Ajuste de Fármacos en Insuficiencia Renal y Nefrotoxicidad Prevenible",
+   "diapositiva": 4,
+   "t": 157.5,
+   "mmss": "2:37",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-22&t=157&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-22&t=157",
+   "notas": 3
+  },
+  "Vancomicina": {
+   "termino": "Vancomicina",
+   "tipo": "Farmaco",
+   "alias": [
+    "vancomicina"
+   ],
+   "def": "Nefrotóxico que causa necrosis tubular aguda, junto a aminoglucósidos, contraste y anfotericina B.",
+   "pagina": 10,
+   "clase": "nefro-02",
+   "claseTitulo": "1.2 Necrosis Tubular Aguda (NTA) y Nefritis Túbulo-Intersticial Aguda (NTIA)",
+   "diapositiva": 1,
+   "t": 29.2,
+   "mmss": "0:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-02&t=29&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-02&t=29",
+   "notas": 1
+  },
+  "Litio": {
+   "termino": "Litio",
+   "tipo": "Farmaco",
+   "alias": [
+    "litio"
+   ],
+   "def": "Causa diabetes insípida nefrogénica, con osmolaridad urinaria < 300 mOsm/kg sin cambio con DDAVP. Se suspende y se usa hidroclorotiazida + amilorida.",
+   "pagina": 27,
+   "clase": "nefro-07",
+   "claseTitulo": "2.3 Hipernatremia y Diabetes Insípida (Central vs Nefrogénica)",
+   "diapositiva": 4,
+   "t": 218.7,
+   "mmss": "3:39",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-07&t=218&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-07&t=218",
+   "notas": 7
+  },
+  "Anfotericina_B": {
+   "termino": "Anfotericina B",
+   "tipo": "Farmaco",
+   "alias": [
+    "anfotericina"
+   ],
+   "def": "Fármaco nefrotóxico que causa necrosis tubular aguda.",
+   "pagina": 10,
+   "clase": "nefro-02",
+   "claseTitulo": "1.2 Necrosis Tubular Aguda (NTA) y Nefritis Túbulo-Intersticial Aguda (NTIA)",
+   "diapositiva": 1,
+   "t": 29.2,
+   "mmss": "0:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-02&t=29&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-02&t=29",
+   "notas": 1
+  },
+  "Metformina": {
+   "termino": "Metformina",
+   "tipo": "Farmaco",
+   "alias": [
+    "metformina"
+   ],
+   "def": "Se elimina por vía renal; con TFG < 30 mL/min se acumula y causa acidosis láctica (MALA), por lo que se suspende de inmediato.",
+   "pagina": 90,
+   "clase": "nefro-22",
+   "claseTitulo": "5.5 Ajuste de Fármacos en Insuficiencia Renal y Nefrotoxicidad Prevenible",
+   "diapositiva": 1,
+   "t": 25.9,
+   "mmss": "0:26",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-22&t=25&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-22&t=25",
+   "notas": 11
+  },
+  "Rabdomiolisis": {
+   "termino": "Rabdomiólisis",
+   "tipo": "Concepto",
+   "alias": [
+    "rabdomiólisis",
+    "CK"
+   ],
+   "def": "Causa NTA por mioglobinuria: CPK > 5.000–10.000 U/L y orina color té con dipstick positivo para sangre, pero sin glóbulos rojos al microscopio.",
+   "pagina": 10,
+   "clase": "nefro-02",
+   "claseTitulo": "1.2 Necrosis Tubular Aguda (NTA) y Nefritis Túbulo-Intersticial Aguda (NTIA)",
+   "diapositiva": 1,
+   "t": 29.2,
+   "mmss": "0:29",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-02&t=29&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-02&t=29",
+   "notas": 7
+  },
+  "Hematuria": {
+   "termino": "Hematuria",
+   "tipo": "Concepto",
+   "alias": [
+    "hematuria"
+   ],
+   "def": "En el síndrome nefrítico es glomerular (dismórfica con cilindros hemáticos). Con complemento normal orienta a nefropatía por IgA.",
+   "pagina": 57,
+   "clase": "nefro-15",
+   "claseTitulo": "4.3 Síndrome Nefrítico y Glomerulonefritis Postestreptocócica (GNPE)",
+   "diapositiva": 16,
+   "t": 661.0,
+   "mmss": "11:01",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-15&t=660&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-15&t=660",
+   "notas": 16
+  },
+  "Hipertension_arterial": {
+   "termino": "Hipertensión arterial",
+   "tipo": "Concepto",
+   "alias": [
+    "hipertensión arterial",
+    "HTA"
+   ],
+   "def": "PA ≥ 140/90 mmHg en dos o más mediciones en al menos dos visitas. La esencial explica 90–95% de los casos del adulto.",
+   "pagina": 80,
+   "clase": "nefro-20",
+   "claseTitulo": "5.3 Hipertensión Secundaria y Estenosis de la Arteria Renal",
+   "diapositiva": 8,
+   "t": 552.0,
+   "mmss": "9:12",
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Nefrolog%C3%ADa&clase=nefro-20&t=552&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_nefrologia",
+   "embed": "http://localhost:8770/embed/embed.html?c=nefro-20&t=552",
+   "notas": 24
+  }
+ }
+}

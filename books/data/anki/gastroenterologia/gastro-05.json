@@ -1,0 +1,360 @@
+{
+  "classId": "gastro-05",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El diagnóstico de los cánceres digestivos altos es siempre {{c1::endoscopía digestiva alta con biopsia}}.",
+      "extra": "La etapificación viene después, con TAC.",
+      "origen": "clase:1",
+      "fuente": "Clase · Lo común",
+      "repaso": false
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La etapificación de los cánceres digestivos altos se hace con {{c1::TAC de tórax, abdomen y pelvis}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Lo común",
+      "repaso": false
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El principal factor pronóstico de los cánceres digestivos es la {{c1::invasión transmural (profundidad en la pared)}}.",
+      "extra": "No las adenopatías ni las metástasis.",
+      "origen": "clase:20",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En los cánceres digestivos altos, el único tratamiento curativo es la {{c1::cirugía}}.",
+      "extra": "Quimio y radioterapia son adyuvantes.",
+      "origen": "clase:1",
+      "fuente": "Clase · Lo común",
+      "repaso": false
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cáncer de esófago se presenta con {{c1::disfagia lógica progresiva}} + baja de peso.",
+      "extra": "Lógica: primero sólidos, luego líquidos.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Cáncer de esófago",
+      "repaso": false
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El carcinoma escamoso de esófago se asocia a {{c1::tabaco y alcohol}} y se ubica en el {{c2::tercio medio}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Dos tipos, dos historias",
+      "repaso": false
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El adenocarcinoma de esófago nace sobre {{c1::ERGE crónica y esófago de Barrett}} y se ubica en el tercio distal.",
+      "extra": "La obesidad también es factor de riesgo; H. pylori no causa cáncer esofágico.",
+      "origen": "clase:2",
+      "fuente": "Clase · Dos tipos, dos historias",
+      "repaso": true
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En cáncer de esófago, además del TAC, la etapificación usa {{c1::endosonografía transesofágica}} para medir la invasión de la pared.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Cáncer de esófago",
+      "repaso": false
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el cáncer de esófago, la cirugía es la {{c1::esofagectomía}} y la radioterapia tiene rol destacado, a menudo {{c2::neoadyuvante}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Dos tipos, dos historias",
+      "repaso": false
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En Chile, el cáncer gástrico es la {{c1::primera}} causa de muerte por cáncer en hombres.",
+      "extra": "Segunda en mujeres, tras el de mama.",
+      "origen": "clase:3",
+      "fuente": "Clase · Cáncer gástrico",
+      "repaso": true
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa principal del cáncer gástrico es {{c1::H. pylori}}.",
+      "extra": "Otros: gastritis atrófica, metaplasia intestinal, familia, ahumados y sal.",
+      "origen": "clase:3",
+      "fuente": "Clase · Cáncer gástrico",
+      "repaso": false
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Vómitos posprandiales de retención, en aumento, en un adulto (síndrome pilórico) = {{c1::cáncer gástrico}} hasta demostrar lo contrario.",
+      "extra": "Se estudia con endoscopía digestiva alta.",
+      "origen": "clase:20",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La adenopatía supraclavicular izquierda en cáncer gástrico se llama {{c1::ganglio de Virchow}}.",
+      "extra": "Indica enfermedad metastásica: contraindica cirugía curativa.",
+      "origen": "libro:caso",
+      "fuente": "Libro · Caso",
+      "repaso": false
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La epigastralgia urente del cáncer gástrico es idéntica a la úlcera: el error es tratar empíricamente sin {{c1::endoscopía}}.",
+      "extra": "Siempre endoscopiar.",
+      "origen": "clase:3",
+      "fuente": "Clase · Cáncer gástrico",
+      "repaso": false
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Toda epigastralgia en ≥ {{c1::40}} años o con signo de alarma exige endoscopía digestiva alta con biopsias.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla EDA",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 121"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El GES garantiza {{c1::endoscopía digestiva alta}} en ≥ 40 años con dispepsia o signos de alarma, para pillar cáncer gástrico incipiente.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Incipiente vs avanzado",
+      "repaso": true
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Baja de peso + epigastralgia + {{c1::ictericia}} cambia la sospecha a cáncer de páncreas: se pide TAC de abdomen con contraste, no endoscopía.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Epigastralgia, inapetencia y baja de peso con melena orientan a {{c1::cáncer gástrico}}.",
+      "extra": "La úlcera no da baja de peso marcada; el de esófago da disfagia.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz EUNACOM 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 91"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Pirosis + gran baja de peso sin disfagia orienta a cáncer {{c1::gástrico}}, no de esófago.",
+      "extra": "El edema de EEII se explica por desnutrición proteica.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz EUNACOM 2013",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 133"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cáncer gástrico incipiente está limitado a {{c1::mucosa y submucosa}}, independiente de las adenopatías.",
+      "extra": "Buen pronóstico.",
+      "origen": "clase:4",
+      "fuente": "Clase · Incipiente vs avanzado",
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cáncer gástrico incipiente se trata con {{c1::resección (endoscópica en casos seleccionados o gastrectomía)}}.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · cáncer digestivo alto",
+      "repaso": false
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cáncer gástrico avanzado compromete la {{c1::muscular propia}} o más allá.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Incipiente vs avanzado",
+      "repaso": false
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El cáncer gástrico avanzado se trata con gastrectomía con {{c1::linfadenectomía D2}} + {{c2::quimioterapia perioperatoria}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": false
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Obstrucción de salida gástrica por cáncer incurable: la paliación es una {{c1::derivación gastroyeyunal}} (o prótesis endoscópica).",
+      "extra": "Menos agresiva que la gastrectomía paliativa; SNG y NPT no resuelven.",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz EUNACOM 2018",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 55"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El pólipo gástrico {{c1::adenomatoso}} es premaligno y obliga a resecarlo.",
+      "extra": "Hiperplásicos y de glándulas fúndicas: casi siempre benignos.",
+      "origen": "clase:5",
+      "fuente": "Clase · Tumores benignos",
+      "repaso": false
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un tumor submucoso gástrico (GIST, leiomioma, neuroendocrino) se ve como {{c1::abombamiento con mucosa normal}}, a veces con úlcera central que sangra.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tumores benignos",
+      "repaso": false
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El GIST (c-KIT positivo) se reseca quirúrgicamente, con {{c1::imatinib}} en los de alto riesgo.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Tumores benignos",
+      "repaso": false
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El cáncer de páncreas tiene sobrevida a 5 años menor de {{c1::10}} %.",
+      "extra": "El peor pronóstico de los digestivos.",
+      "origen": "clase:6",
+      "fuente": "Clase · Epidemiología",
+      "repaso": false
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Además del gástrico, el cáncer de {{c1::vesícula biliar}} tiene en Chile tasas de las más altas del mundo, sobre todo en mujeres.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Epidemiología",
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-05/01_borrmann_endoscopia__bailey_p1155.jpg",
+      "pregunta": "¿Qué muestra y qué implica?",
+      "diagnostico": "Cáncer gástrico avanzado: formas de Borrmann I a IV",
+      "clave": "I masa polipoide; II úlcera de bordes definidos; III úlcera infiltrante; IV infiltración difusa",
+      "conducta": "Biopsias, TAC de etapificación; gastrectomía + D2 + quimioterapia perioperatoria",
+      "fuente": "Bailey & Love 27.ª ed., Fig. 63.29",
+      "repaso": false
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-05/02_cancer-esofago-distal-obstructivo__harrison_p2460.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Cáncer de esófago distal",
+      "clave": "Lesión irregular y ulcerada que estrecha la luz del esófago distal",
+      "conducta": "Biopsia; etapificar con TAC + endosonografía; esofagectomía (radioterapia a menudo neoadyuvante)",
+      "fuente": "Harrison 21.ª ed., p. 2460",
+      "repaso": false
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/01_gastroenterologia/gastro-05/03_tumor-musculo-liso-gastrico__bailey_p1150.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Tumor gástrico de músculo liso (submucoso) ulcerado",
+      "clave": "Defecto de llene redondeado con ulceración central en estudio con bario",
+      "conducta": "Endoscopía, biopsia y ecoendoscopía; derivar para resección",
+      "fuente": "Bailey & Love 27.ª ed., p. 1150",
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "Cáncer de esófago confirmado: ¿cómo etapificas?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.1",
+      "pista": "Invade la muscular propia: ¿tratamiento?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2",
+      "pista": "Epigastralgia + baja de peso + ictericia: ¿examen?"
+    }
+  ]
+}

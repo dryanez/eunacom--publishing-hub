@@ -1,0 +1,782 @@
+[
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 54",
+  "year": 2016,
+  "codes": [
+   "1.02.2.002 [diab-19: Cetoacidosis]"
+  ],
+  "stem": "Un paciente de 20 años presenta un cuadro de poliuria y polidipsia, de 2 días de evolución, a lo que se ha agregado dolor abdominal y vómitos hace pocas horas. Se solicita una glicemia, que resulta 360 mg/dl. ¿Qué examen es más adecuado para proseguir con el estudio de este paciente?",
+  "options": "A) Cetonemia | B) Creatininemia | C) Perfil lipídico | D) Hemoglobina glicosilada | E) Hemograma",
+  "correcta": "A",
+  "explicacion": "Parece una cetoacidosis, así que lo más urgente es confirmar el diagnóstico, con la cetonemia (o cetonuria) y los gases venosos (para ver el estado ácido base). Los criterios son cetonas ++ en sangre u orina, pH menor a 7,3, bicarbonato menor a 16 mEq/L y glicemia mayor o igual a 200 o 250 mg/dl (niños y adultos, respectivamente).",
+  "conf": 0.5,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2025 · Pregunta 39",
+  "year": 2025,
+  "codes": [
+   "1.02.2.003 [diab-16: Coma hiperosmolar]"
+  ],
+  "stem": "Un paciente de 70 años presenta un cuadro de malestar general y poliuria de dos semanas de evolución, agregándose desorientación y compromiso de conciencia cuantitativo en las últimas 48 horas. En su examen, no presenta focalidad neurológica y sus laboratorios revelan glicemia: 950 mg/dL, pH venoso: 7,37, bicarbonato: 18 mEq/L, cetonemia (-), cetonuria (+), sodio plasmático: 149 mEq/L y potasio plasmático: 5,0 mEq/L. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Coma hiperosmolar no cetósico | B) Cetoacidosis diabé2ca | C) Síndrome hiperglicémico mixto (hiperosmolar + cetoacidosis) | D) Hipernatremia sintomá2ca | E) Edema cerebral",
+  "correcta": "A",
+  "explicacion": "Es un síndrome hiperglicémico hiperosmolar (Sd. HGHO) clásico, cuyo otro nombre es “coma hiperosmolar no cetósico”. No hay acidosis (cetoacidosis requiere pH < 7,3 y HCO3 < 15 mEq/L). Se puede estimar la osmolaridad con una fórmula (Osmolaridad = 2xfía + BUN/2,8 + glicemia/18, que en este caso, sin tomar en cuenta el BUN ya da 350 mOsm/L), sin embargo, suele bastar una glicemia mayor a 600 para que con altísima probabilidad cumpla el criterio de la osmolaridad > 320 mOsm/L, propio del Sd. HGHO).",
+  "conf": 0.5,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 22",
+  "year": 2024,
+  "codes": [
+   "1.02.2.004 [psiq-15: Déficit agudo de tiamina]"
+  ],
+  "stem": "Hombre con antecedente de cirugía bariátrica hace 1 año+consumo de OH desde hace 7 meses, deja de asistir a control médico, parte con 1 semana de evolución de ataxia, dificultad de la marcha, visión doble,confusión, somnolencia, cual es la deficiencia:",
+  "options": "A) Tiamina, Wernicke, llevaba solo un año desde la Cx y la presentación de síntomas era más aguda. Tenia triada de wernicke: encefalopatía, oftalmoplejía y ataxia (COCA como le dice Guevara). | B) Vitamina B12 | C) Vitamina C | D) Laparotomía exploratoria | E) Cirugía laparoscópica",
+  "correcta": "A",
+  "explicacion": "La alternativa correcta es la **A** (Tiamina, Wernicke, llevaba solo un año desde la Cx y la presentación de síntomas era más aguda. Tenia triada de wernicke: encefalopatía, oftalmoplejía y ataxia (COCA como le dice Guevara).). Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh.",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 77",
+  "year": 2024,
+  "codes": [
+   "1.02.2.005 [diab-24: Hipertrigliceridemia grave]"
+  ],
+  "stem": "Un paciente de 45 años, obeso (con IMC:35) y diabético, en tratamiento con metformina y empaglifozina y con antecedente de consumo de 4 cervezas diarias, acude a chequeo. Trae múltiples exámenes, entre los que destaca perfil lipídico con colesterol LDL: 135 mg/dl, colesterol HDL: 27 mg/dl y triglicéridos: 1.000 mg/dl. ¿Cuál es la conducta más adecuada para el manejo de este paciente en este momento?",
+  "options": "A) Enviar al servicio de urgencias | B) Iniciar gemfibrozilo 900 mg/día | C) Iniciar rosuvastatina 40 mg/día | D) Iniciar ezetimibe 10 mg/día | E) Iniciar dieta estricta",
+  "correcta": "E",
+  "explicacion": "Manejo de Hipertrigliceridemia Severa: En un paciente con dislipidemia mixta el objetivo suele ser bajar el colesterol LDL, a menos que los triglicéridos sean > 500 mg/dL, en que la prioridad es bajar los triglicéridos. Con niveles > 1000 mg/dL, hay alto riesgo de pancreatitis, por lo que se debe manejar urgentemente. Hace años incluso se recomendaba hospitalizarlos para el manejo, sin embargo esa recomendación actualmente está obsoleta (tal vez el Eunacom aún la considera). La medida más importante o urgente es la suspensión inmediata del consumo de alcohol y una dieta estricta baja en glúcidos y baja en grasas. En paralelo, se inician los fibratos (gemfibrozilo)..",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 149",
+  "year": 2017,
+  "codes": [
+   "1.02.2.006 [diab-14: Hipoglicemias]"
+  ],
+  "stem": "Un paciente de 60 años, con antecedente de diabetes mellitus 2 insulinodependien- te, en tratamiento con insulina NPH 30U en la mañana y 20 U en la noche. Presenta un cuadro de malestar, sudoración y palpitaciones intensas a las 3 de la madrugada, cons- tatándose un hemoglucotest de 50mg/dL. Su examen físico no muestra alteraciones. ¿Cuál",
+  "options": "A) Disminuir la insulina NPH matinal | B) Suspender la insulina NPH matinal | C) Disminuir la insulina NPH nocturna | D) Suspender la insulina NPH nocturna | E) Disminuir ambas dosis de insulina NPH",
+  "correcta": "C",
+  "explicacion": "Está con hipoglicemias por insulina. La NPH nocturna es la que determina las gli- cemias a las 3 a.m., por lo que se debe disminuir esa.",
+  "conf": 0.9,
+  "alertas": [
+   "enunciado_cortado_o_raro"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 72",
+  "year": 2021,
+  "codes": [
+   "1.02.2.006 [diab-14: Hipoglicemias]"
+  ],
+  "stem": "Un paciente de 78 años, diabético, en tratamiento con glibenclamida 15 mg/día, presenta convulsiones tónico-clónicas subintrantes desde hace algunos minutos. Hace 3 días se realizó control de exámenes, con glicemia de ayuno de 185 mg/dl y electrolitos plasmáticos dentro de rangos normales. ¿Cuál es la causa más probable de sus convulsiones?",
+  "options": "A) Hipomagnesemia | B) Hipernatremia | C) Hipoglicemia | D) Hipocalcemia | E) Cetoacidosis",
+  "correcta": "C",
+  "explicacion": "La glibenclamida tiene alto riesgo de hipoglicemia. Además, este es el típico caso en que el paciente mal controlado decide \"autorreforzar\" su tratamiento, después de que los exámenes le salen mal, produciendo hipoglicemias. Que haya tenido glicemia alta antes, no impide que ahora esté baja. De las demás opciones, solo la hiponatremia produce convulsiones con cierta frecuencia.",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 86",
+  "year": 2019,
+  "codes": [
+   "1.02.2.006 [diab-14: Hipoglicemias]"
+  ],
+  "stem": "Un paciente de 78 años, diabético, en tratamiento con glibenclamida, presenta convulsiones tónico- clónicas subintrantes hace algunos minutos. Hace 3 días se realizó control de exámenes, con glicemia de 185 mg/dl y electrolitos plasmáticos dentro de rangos normales. ¿Cuál es la causa más probable de sus convulsiones?",
+  "options": "A) Hipomagnesemia | B) Hipernatremia | C) Hipoglicemia | D) Hipocalcemia | E) Cetoacidosis (nota: subintrante significa que comienza una nueva crisis, antes de recuperarse por completo de la anterior)",
+  "correcta": "C",
+  "explicacion": "Tanto por la clínica, como por el antecedente de glibenclamida, lo más probable es que tenga hipoglicemias (probablemente se sintió mal de haber estado mal controlado e intentó arreglar sus glicemias subiendo la dosis de GBC).",
+  "conf": 0.78,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 119",
+  "year": 2021,
+  "codes": [
+   "1.02.2.006 [diab-14: Hipoglicemias]"
+  ],
+  "stem": "Un paciente de 60 años, con antecedente de diabetes mellitus 2 insulinodependiente, en tratamiento con insulina NPH 30 U en la mañana y 20 U en la noche, presenta un cuadro de malestar, sudoración y palpitaciones intensas a las 3 de la madrugada, que respondió a la ingesta de azúcar, constatándose un hemoglucotest de 50 mg/dL. Su examen físico no muestra alteraciones. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Disminuir la insulina NPH matinal | B) Modificar los horarios de las insulinas | C) Disminuir la insulina NPH nocturna | D) Suspender la insulina NPH nocturna | E) Disminuir ambas dosis de insulina NPH",
+  "correcta": "C",
+  "explicacion": "Conducta / Tratamiento indicado: **Disminuir la insulina NPH nocturna** (opción **C**). Frente a descompensación metabólica aguda, cetoacidosis o hiperglicemia severa refractaria, la insulinoterapia endovenosa continua con monitorización seriada de electrolitos (especialmente potasio) es la piedra angular del manejo.",
+  "conf": 0.78,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2025 · Pregunta 73",
+  "year": 2025,
+  "codes": [
+   "1.02.2.006 [diab-14: Hipoglicemias]"
+  ],
+  "stem": "Hombre de 50 años operado de bypass gástrico hace 1 año. Consulta por episodios de sudoración, temblor y mareo 2 horas después de las comidas. Glicemia capilar durante el episodio: 52 mg/dL. ¿Cuál es el diagnóstico?",
+  "options": "A) Úlcera marginal | B) Obstrucción de la anastomosis | C) Dumping tardío (hipoglicemia reactiva postprandial) | D) Hipoglicemia por insulinoma | E) Síndrome de asa aferente",
+  "correcta": "C",
+  "explicacion": "Dumping tardío: hipoglicemia 1-3h postprandial por liberación exagerada de insulina tras la hiperglicemia inicial del dumping precoz. Exclusivo del bypass gástrico. Tratamiento: comidas pequeñas y frecuentes, reducción de carbohidratos simples, acarbosa.",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 40",
+  "year": 2017,
+  "codes": [
+   "1.02.2.006 [diab-14: Hipoglicemias]"
+  ],
+  "stem": "Un paciente de 67 años, diabético, tipo 2, en tratamiento con metformina 1700 mg/día y glibenclamida 20 mg/día, ambos separados en dos dosis diarias consulta por episodios repetidos de mareos, malestar y sudoración, asociado a temblor, que ocurren al final de la mañana o antes de almuerzo. Han coincidido con glicemias capilares de 65 mg/dl. Su IMC es 32 Kg/m2. Su hemoglobina A1c resulta 8,1. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Suspender la glibenclamida | B) Agregar una colación con 25 gramos de hidrato de carbono antes del almuerzo | C) Suspender la glibenclamida | D) Reemplazar la glibenclamida por sitagliptina | E) Reemplazar la metformina por pioglitazona",
+  "correcta": "D",
+  "explicacion": "Tiene clínica de hipoglicemias, que probablemente son causadas por la glibenclamida. Por eso se debe cambiar por otro hipoglicemiante. Como tiene un mal control metabólico (HbA1c alta), no se debe agregar la colación",
+  "conf": 0.55,
+  "alertas": [
+   "alternativas_repetidas"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 4",
+  "year": 2017,
+  "codes": [
+   "1.02.3.002 [diab-25: Anorexia nerviosa]"
+  ],
+  "stem": "Una paciente de 25 años, con antecedente de anorexia nervosa desde hace 5 años. Ac- tualmente pesa 29 kilos y mide 1,68 metros, con IMC de 10,3. ¿Con cuantas kilocalorías diarias se debe iniciar su alimentación?",
+  "options": "A) 300 | B) 600 | C) 1200 | D) 1500 | E) 2400",
+  "correcta": "A",
+  "explicacion": "La alternativa correcta es la **A** (300). Para prevenir el síndrome de realimentación se debe iniciar con 10-15 Kcal/Kg/día. Pésima pregunta.. Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh.",
+  "conf": 0.45,
+  "alertas": [
+   "explicacion_de_otro_tema",
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2025 · Pregunta 30",
+  "year": 2025,
+  "codes": [
+   "1.02.3.006 [diab-25: Prevención de Diabetes Mellitus tipo 2]"
+  ],
+  "stem": "Hombre de 48 años con glicemia de ayuno de 115 mg/dL en dos ocasiones. IMC 28. Sin otros factores de riesgo. ¿Cuál es la intervención más importante para reducir la progresión a diabetes?",
+  "options": "A) Dieta estricta baja en carbohidratos | B) Metformina 500 mg dos veces al día | C) Ejercicio aeróbico 150 minutos por semana | D) Orlistat | E) Insulina basal",
+  "correcta": "C",
+  "explicacion": "Prediabetes (glucosa ayuno 100-125 mg/dL): la intervención más efectiva para prevenir progresión es el cambio de estilo de vida: ejercicio ≥150 min/semana de intensidad moderada + dieta saludable. Reduce riesgo de DM en 58% (estudio DPP). Metformina es segunda línea en pacientes de alto riesgo.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 78",
+  "year": 2024,
+  "codes": [
+   "1.02.4.015 [diab-14: Glicemia capilar]"
+  ],
+  "stem": "Un paciente de 57 años, diabético desde hace 15 años, en tratamiento con metformina 1 gramo cada 12 horas e insulina NPH nocturna 10 UI por vía subcutánea. Respecto al control con glicemias capilares, ¿cuál es el esquema de control más adecuado?",
+  "options": "A) Controlar dos horas después del desayuno | B) Controlar dos horas después del almuerzo | C) Controlar a primera hora en la mañana, en ayunas | D) Controlar antes de cada comida | E) Controlar antes de la administración de la insulina NPH nocturna",
+  "correcta": "C",
+  "explicacion": "Control de la Diabetes Tipo 2: La forma óptima de controlar la diabetes tipo 2 es con la hemoglobina glicosilada, aunque es útil conocer las glicemias pre y postprandiales para ajustar las dosis de insulina. En pacientes con insulina NPH nocturna, la glicemia de ayuno a primera hora de la mañana es el parámetro más importante a evaluar, aunque nunca está de más conocer los valores del resto de glicemias pre y post comidas.",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2018 · Pregunta 106",
+  "year": 2018,
+  "codes": [
+   "1.02.4.017 [diab-06: Hemoglobina glicosilada]"
+  ],
+  "stem": "Un paciente de 66 años es hospitalizado por una neumonía adquirida en la comunidad. En su hemoglucotest de ingreso, se constata una glicemia capilar de 256 mg/dl. ¿Cuál de los siguientes exámenes confirma el diagnóstico de diabetes?",
+  "options": "A) Glicemia de ayuno > 126 mg/dl | B) Prueba de tolerancia a la glucosa > 200 mg/dl, postcarga de glucosa | C) Hemoglobina glicosilada > 6,5% | D) Prueba HOMA > 2,6 | E) Albuminuria/creatininuria > 0,3",
+  "correcta": "C",
+  "explicacion": "Una glicemia capilar elevada durante una infección aguda no basta para diagnosticar diabetes, ya que el estrés puede alterarla. La hemoglobina glicosilada de 6,5% o más refleja el control de los últimos meses y no se altera por la neumonía, por lo que confirma el diagnóstico. La prueba de tolerancia a la glucosa puede alterarse por la enfermedad aguda, y el HOMA y la albuminuria no son criterios diagnósticos de diabetes.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 158",
+  "year": 2016,
+  "codes": [
+   "1.02.4.024 [diab-03: Test de tolerancia a la glucosa]"
+  ],
+  "stem": "Mujer asintomática de 46 años de edad, con IMC de 24. Tiene antecedente de diabetes gestacional con su último embarazo. Se practica una glicemia en ayunas que resulta en 112 mg/dl. La conducta más adecuada es:",
+  "options": "A) Repetir la glicemia en ayunas | B) Practicar niveles de hemoglobina glicosilada | C) Indicar metformina | D) Realizar control de glicemia en 6 meses | E) Solicitar curva de tolerancia a la glucosa",
+  "correcta": "E",
+  "explicacion": "Las glicemias de ayuno menores a 100, se observan; las entre 100 y 125 se solicita prueba de tolerancia a la glucosa. Las de 126 o más, se repiten. En el embarazo es distinto, así que siempre se debe leer si está o no embarazada, antes de contestar.",
+  "conf": 0.55,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2025 · Pregunta 104",
+  "year": 2025,
+  "codes": [
+   "1.02.4.024 [diab-03: Test de tolerancia a la glucosa]"
+  ],
+  "stem": "Un paciente de 37 años, obeso, acude a control. En su examen físico se observa acantosis y oscurecimiento de la piel del cuello y axilas. Se solicitan exámenes generales entre los que destaca glicemia de ayuno de 120 mg/dL y colesterol total de 230 mg/dL. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Iniciar meeormina | B) Iniciar atorvasta2na | C) Iniciar aspirina | D) Solicitar una prueba de tolerancia a la glucosa oral | E) Iniciar insulinoterapia",
+  "correcta": "D",
+  "explicacion": "Es una pregunta algo discutible. La glicemia entre 100 y 125 obliga a solicitar un TTGO (de 126 en adelante, se repite la glicemia). Si a las 2 horas el TTGO resulta 200 o más, se diagnostica una DM2; si está entre 140 y 199, se diagnostica una intolerancia a la glucosa; si solo muestra la glicemia basal entre 100 y 125, se diagnostica la glicemia de ayuno alterada. El colesterol en 230 obliga a solicitar un perfil lipídico, para saber cómo contribuyen el colesterol LDL, HDL y los triglicéridos. Además, probablemente sí cumple con criterios de síndrome metabólico, siendo adecuado iniciar la me~ormina, sin embargo, aún no está del todo claro y parece más razonable completar el estudio antes de iniciar tratamiento.",
+  "conf": 0.45,
+  "alertas": [
+   "texto_corrupto",
+   "explicacion_admite_duda",
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 95",
+  "year": 2019,
+  "codes": [
+   "1.02.4.024 [diab-03: Test de tolerancia a la glucosa]"
+  ],
+  "stem": "Un paciente de 39 años, con antecedente de obesidad, se realiza un test de tolerancia a la glucosa oral, que muestra una glicemia basal de 117 mg/dl y postcarga de 75 gramos de glucosa de 136 mg/dl. El diagnóstico más probable es:",
+  "options": "A) Normal | B) Diabetes mellitus 2 | C) Intolerancia a la glucosa oral | D) Diabetes mellitus 1 | E) Prediabetes",
+  "correcta": "E",
+  "explicacion": "Es una pregunta difícil, pero la glicemia de ayuno está en 117, es decir, tiene una glicemia de ayuno alterada (GGA). La glicemia poscarga está normal (menor a 140), por lo que no tiene intolerancia a la glucosa (IGO) ni diabetes (DM). La prediabetes se define como GAA, IGO o GAA + IGO, sin criterios de DM.",
+  "conf": 0.4,
+  "alertas": [
+   "confianza_baja"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 36",
+  "year": 2017,
+  "codes": [
+   "1.03.1.002 [endo-05: Hipotiroidismo]"
+  ],
+  "stem": "Un paciente se realiza una tiroidectomía total hace varios años, por un carcinoma tiroideo. Suspende el tratamiento con levotiroxina hace 6 meses. ¿Qué alteración tendrá con mayor probabilidad en su examem físico?",
+  "options": "A) Mixedema pretibial | B) Exoftalmo | C) Melanoplaquias | D) Piel seca | E) Acantosis nigricans",
+  "correcta": "D",
+  "explicacion": "El hipotiroidismo se caracteriza por la piel seca. El mixedema pretibial y exoftalmo son de la enfermedad de Basedow Graves, las melanoplaquias de la enfermedad de Addison y la acantosis nigricans, de la resistencia a la insulina.",
+  "conf": 0.92,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 15",
+  "year": 2021,
+  "codes": [
+   "1.03.1.002 [endo-05: Hipotiroidismo]"
+  ],
+  "stem": "Una paciente de 27 años, en amenorrea por lactancia, presenta un cuadro de astenia y malestar general, constipación y dificultades para concentrarse, asociado a intolerancia al frío. Además, refiere que no ha podido bajar de peso. Al examen físico tiene FC: 67x’, PA: 120/80 mmHg, se aprecia piel seca y cabello ralo, sin otras alteraciones en el examen físico segmentario. Se solicitan exámenes de laboratorio que muestran TSH: 14,7 UI/L, T4 libre: 0,6 ng/dl, T3: 46 ng/dl. ¿Cuál es la conducta más adecuada en este momento?",
+  "options": "A) Iniciar tratamiento con levotiroxina oral | B) Solicitar ecografía tiroidea | C) Solicitar cintigrafía tiroidea | D) Solicitar prueba de captación de yodo radiactivo | E) Repetir los exámenes en 6 semanas",
+  "correcta": "A",
+  "explicacion": "Tiene un hipotiroidismo clínico tanto por los síntomas como por la T4 libre baja (normal: 0,7 a 1,9), por lo que debe iniciar levotiroxina. Además, incluso si hubiese sido subclínico, la TSH sobre 10 obliga a iniciar la levotiroxina.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 173",
+  "year": 2024,
+  "codes": [
+   "1.03.1.002 [endo-05: Hipotiroidismo]"
+  ],
+  "stem": "Una paciente de 27 años consulta por un cuadro clínico de un año de evolución caracterizado por astenia, adinamia, malestar general. Además, ha aumentado 8 kg de peso y, en el último mes presenta sensación de frío, constipación y mialgias. Al examen físico presenta lentitud en el lenguaje verbal y razonamiento, piel seca y fría con vitíligo en la cara y manos y alopecia moderada en el cuero cabelludo. Su frecuencia cardíaca es de 60 latidos por minuto y su presión arterial, de 130/80 mmHg. Se constata edema bilateral de extremidades inferiores, sin fóvea. ¿Cuál es el examen de elección para iniciar el estudio?",
+  "options": "A) Hemograma - VHS | B) Colonoscopía | C) Niveles de cortisol | D) TAC de cerebro | E) TSH",
+  "correcta": "E",
+  "explicacion": "Evaluación del Hipotiroidismo Severo: En un paciente con sospecha de hipotiroidismo severo, la evaluación inicial debe incluir la medición de la hormona estimulante de la tiroides (TSH) y, idealmente, también la T4 libre. El manejo del coma mixedematoso (una complicación grave del hipotiroidismo) consiste en la administración de corticosteroides y levotiroxina intravenosos. En este caso, aún no tiene un coma mixedematoso.",
+  "conf": 0.85,
+  "alertas": [
+   "explicacion_de_otro_tema"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2018 · Pregunta 105",
+  "year": 2018,
+  "codes": [
+   "1.03.1.002 [endo-05: Hipotiroidismo]"
+  ],
+  "stem": "Un paciente de 84 años se realiza una TSH, que resulta 8,4 UI/L. La TSH se repita 3 meses después, resultando 9,2 UI/L. ¿Cuál es la conducta más adecuada?",
+  "options": "A) Iniciar propiltiouracilo oral | B) Iniciar levotiroxina oral 25 ug/día | C) Iniciar tiamazol | D) Iniciar corticoides orales | E) Iniciar levotiroxina oral 75 ug/día",
+  "correcta": "B",
+  "explicacion": "Tiene un hipotiroidismo subclínico o clínico (no daban la T4 libre, por lo que no se puede saber). Sin embargo, de las opciones, la única que tenía sentido era iniciar levotiroxina y, por ser una adulto mayor, se debe iniciar con una dosis más baja.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 110",
+  "year": 2015,
+  "codes": [
+   "1.03.1.002 [endo-05: Hipotiroidismo]"
+  ],
+  "stem": "Una paciente de 35 años presenta un cuadro de astenia importante. Al examen físico tiene FC: 59x’, PA: 110/70 mmHg, se aprecia palidez, ictericia, vitiligo, edema de EEII, piel seca, con pelo quebradizo. En sus exámenes tiene hematocrito: 27%, con VCM: 110. El diagnóstico más probable es:",
+  "options": "A) Depresión | B) Daño hepático crónico | C) Déficit de vitamina B12 | D) Enfermedad de Addison | E) Hipotiroidismo",
+  "correcta": "E",
+  "explicacion": "Diagnóstico: **Hipotiroidismo** (opción **E**). Cuadro clásico. El hipopituitarismo se define como la hipoproducción de hormonas hipofisiarias. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 172",
+  "year": 2024,
+  "codes": [
+   "1.03.1.002 [endo-05: Hipotiroidismo]"
+  ],
+  "stem": "Una paciente de 27 años consulta por astenia, adinamia, malestar general de un año de evolución, aumento de 8 kg de peso, sensación de frío, constipación y mialgias. Al examen: lentitud en lenguaje y razonamiento, piel seca y fría, vitíligo en cara y manos, alopecia moderada, FC 60 lpm, PA 130/80 mmHg, edema bilateral de extremidades inferiores sin fóvea. ¿Cuál es el examen de elección para iniciar el estudio?",
+  "options": "A) Hemograma - VHS | B) Colonoscopía | C) Niveles de cortisol | D) TAC de cerebro | E) TSH",
+  "correcta": "E",
+  "explicacion": "Hipotiroidismo severo: En sospecha de hipotiroidismo, el examen inicial es la TSH (idealmente con T4 libre). El cuadro clínico con bradicardia, mixedema, piel seca, constipación, aumento de peso y lentitud psicomotora es altamente sugerente de hipotiroidismo severo.",
+  "conf": 0.82,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2018 · Pregunta 21",
+  "year": 2018,
+  "codes": [
+   "1.03.1.002 [endo-05: Hipotiroidismo]"
+  ],
+  "stem": "Una paciente de 17 años, con hábitos de vida sedentarios y obesidad se realiza exámenes de control, en los que presenta TSH: 6,5 UI/L, T4 libre: 1,5 ng/dl (VN: 0,7 a 1,9 ng/dl) y T3 libre 300 pg/dl (VN: 130 a 450 pg/dl). La conducta más adecuada es:",
+  "options": "A) Inicial levotiroxina | B) Controlar hormonas tiroideas en 6 meses | C) Solicitar anticuerpos antiperoxidasa tiroidea | D) Solicitar ecografía tiroidea | E) Solicitar cintigrafía tiroidea con yodo radiactivo",
+  "correcta": "B",
+  "explicacion": "Tiene un hipotiroidismo subclínico, sin complicaciones, por lo que no requiere tratamiento y se debe observar.",
+  "conf": 0.82,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 136",
+  "year": 2016,
+  "codes": [
+   "1.03.1.002 [endo-05: Hipotiroidismo]"
+  ],
+  "stem": "Un paciente de 64 años consulta por astenia y mialgias de 3 meses de evolución. Se solicita TSH, que resulta 5,6 UI/L y T4 libre, que resulta 1,2 ug/ml (Valor Normal: 0,95 a 1,75 ug/ml). La conducta más adecuada es:",
+  "options": "A) Solicitar ecografía cervical | B) Iniciar levotiroxina | C) Solicitar TSH y T4 libre en 3 meses | D) Indicar punción tiroidea | E) Solicitar cintigrafía tiroidea",
+  "correcta": "C",
+  "explicacion": "Es una pregunta muy discutible, ya que el diagnóstico es un hipotiroidismo subclínico y el manejo de esta patología está llena de controversias. Los niveles de TSH y T4 libre de este paciente no justifican los síntomas. Lo más correcto sería seguir estudiando la causa de la astenia y mialgias. Dentro de las opciones, sería válida iniciar tratamiento, si la pregunta se refiere a un hipoT4 sintomático (y por lo tanto clínico), pero probablemente no se refiere a eso, por tener una TSH de apenas 5,6. Por el contrario, sería controlar con pruebas tiroideas, si se refiere a un hipotiroidismo subclínico propiamente tal y decidir el manejo con levotroxina solo si persiste con los niveles elevados de TSH en 3 meses y con los síntomas, o si se asocia algún otro factor de riesgo, como dislipidemia, depresión.",
+  "conf": 0.72,
+  "alertas": [
+   "explicacion_admite_duda"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 119",
+  "year": 2019,
+  "codes": [
+   "1.03.1.002 [endo-05: Hipotiroidismo]"
+  ],
+  "stem": "¿Cuál es la conducta más adecuada ante una paciente embarazada en el primer trimestre, que presenta una TSH de 4,5 UI/L?",
+  "options": "A) Iniciar propiltiouracilo | B) Solicitar T4 libre | C) Iniciar levotiroixina | D) Solicitar una nueva TSH en un mes | E) Solicitar cintigrafía tiroidea",
+  "correcta": "C",
+  "explicacion": "En el embarazo el objetivo de TSH en el primer trimestre es de 0,4 a 2,5 UI/L, y el hipotiroidismo subclínico se trata, por lo que con TSH de 4,5 UI/L corresponde iniciar levotiroxina. El propiltiouracilo se usa en hipertiroidismo, y la cintigrafía está contraindicada en el embarazo.",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2025 · Pregunta 149",
+  "year": 2025,
+  "codes": [
+   "1.03.1.003 [endo-08: Hipertiroidismo]"
+  ],
+  "stem": "Mujer de 35 años con exoftalmo bilateral, palpitaciones, pérdida de peso y temblor fino en manos. TSH suprimida, T4 libre elevada. Bocio difuso. ¿Cuál es el diagnóstico?",
+  "options": "A) Enfermedad de Graves-Basedow | B) Tiroiditis de Hashimoto | C) Bocio multinodular tóxico | D) Adenoma tóxico de tiroides | E) Tiroiditis subaguda de De Quervain",
+  "correcta": "A",
+  "explicacion": "Hipertiroidismo + exoftalmo (oftalmopatía de Graves) + bocio difuso en mujer joven = enfermedad de Graves-Basedow (autoinmune, anticuerpos anti-TSH-R). El exoftalmo es patognomónico.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 145",
+  "year": 2024,
+  "codes": [
+   "1.03.1.003 [endo-08: Hipertiroidismo]"
+  ],
+  "stem": "Era una clínica de ojo rojo, pero con temblor en las manos y baja de peso, al examen físico se observa retracción palpebral: a.​ TSH y T4 libre",
+  "options": "A) Accidente cerebrovascular | B) Epilepsia | C) Esclerosis múltiple | D) Enfermedad de Parkinson | E) Migraña",
+  "correcta": "A",
+  "explicacion": "La alternativa correcta es la **A** (Accidente cerebrovascular). Los trastornos ansiosos incluyen el trastorno de pánico (o angustia), el trastorno de ansiedad generalizada, la agorafobia, la fobia social, las fobias simples, el TOC, el trastorno de estrés postraumático (TEPT), el estrés agudo y el trastorno adaptativo. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.8,
+  "alertas": [
+   "enunciado_cortado_o_raro"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2017 · Pregunta 35",
+  "year": 2017,
+  "codes": [
+   "1.03.1.003 [endo-08: Hipertiroidismo]"
+  ],
+  "stem": "Una paciente presenta un cuadro de 2 meses de evolución de sensación de calor mayor al habitual y sudoración. Se palpa su tiroides de tamaño normal y no presenta exoftalmo. Se solicitan pruebas tiroideas que demuestran TSH: 0,01 UI/L y T4 libre: 3,9 ng/ml. ¿Cuál es el examen de elección para determinar el diagnóstico etiológico?",
+  "options": "A) Captación de yodo 131 | B) Ecografía de tiroides | C) Punción aspirativa con aguja fina de tiroides | D) Cintigrafía tiroidea | E) Anticuerpos antitiroglobulina",
+  "correcta": "D",
+  "explicacion": "Diagnóstico: **Cintigrafía tiroidea** (opción **D**). El hipertiroidismo se estudia con cintigrafía con I131 para determinar su etiología.. Los trastornos ansiosos incluyen el trastorno de pánico (o angustia), el trastorno de ansiedad generalizada, la agorafobia, la fobia social, las fobias simples, el TOC, el trastorno de estrés postraumático (TEPT), el estrés agudo y el trastorno adaptativo. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 30",
+  "year": 2019,
+  "codes": [
+   "1.03.1.005 [endo-05: Tiroiditis]"
+  ],
+  "stem": "Una paciente de 23 años, consulta por malestar general y sensación febril de una semana de evolución, asociado a artralgias y palpitaciones. Al examen físico destaca glándula tiroides del doble del tamaño normal, muy dolorosa a la palpación, frecuencia cardiaca de 90 latidos por minuto y presión arterial de 120/80 mm Hg. Se solicitan exámenes que muestran TSH: 0,01 UI/L (valor normal: 0,3-4,5 UI/L), T4L: 1,9 ng/mL (valor normal: 0,6-1,7 ng/mL), captación de yodo radioactivo de 2% (valor normal: 20% a 30%). ¿Cuál es el tratamiento de elección en esta paciente?",
+  "options": "A) Tiamazol | B) AINEs | C) Propiltiouracilo | D) Bloqueadores beta | E) Yodo radioactiivo en dosis terapéutica",
+  "correcta": "B",
+  "explicacion": "Tiene una tiroiditis subaguda de Quervain, cuyo tratamiento son los AINEs. No se usan las drogas antitiroideas y no sirve el yodo radiactivo (de hecho, no capta). El betabloqueo sí se usa cuando hay síntomas de hiperT4, pero lo más importante son los AINEs.",
+  "conf": 0.95,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 114",
+  "year": 2013,
+  "codes": [
+   "1.03.1.005 [endo-05: Tiroiditis]"
+  ],
+  "stem": "Una paciente de 30 años, usuaria de anticonceptivos orales, consulta por cuadro de 8 días de sudoración, palpitaciones e insomnio, que durante los últimos días se ha asociado a dolor en región cervical anterior. Al examen físico se aprecia con frecuencia cardiaca de 100 por minuto, presión arterial 140/90, dolor a la palpación cervical. Se solicitan exámenes donde destaca T4 y T4L aumentadas y TSH suprimida, electrocardiograma normal. El tratamiento de elección en este caso es:",
+  "options": "A) Propiltiouracilo | B) Paracetamol | C) Metimazol | D) Ketoprofeno | E) Enalapril",
+  "correcta": "D",
+  "explicacion": "Tiene una tiroiditis subaguda de Quervain, que se trata con AINEs. No se deben indicar drogas antitiroideas (PTU, metimazol) y sí se puede dar propanolol si hay muchos síntomas de hipertiroidismo. El paracetamol no es suficiente.",
+  "conf": 0.95,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 10",
+  "year": 2017,
+  "codes": [
+   "1.03.1.005 [endo-05: Tiroiditis]"
+  ],
+  "stem": "Una paciente de 33 años, consulta por dolor cervical intenso de una semana de evo- lución asociado a sensación febril. Al examen físico destaca glándula tiroides del doble del tamaño normal, muy dolorosa a la palpación, frecuencia cardiaca de 90 latidos por minuto y presión arterial de 120/80 mm Hg. Se solicitan exámenes que muestran TSH: 0,2 UI/L, T4L: 1,9 ng/mL (Valor normal: 0,6-1,7 ng/mL), captación de yodo radioactivo de 2% (Valor normal: mayor a 3%). ¿Cuál es el tratamiento de elección en esta paciente?",
+  "options": "A) Propiltiouracilo | B) Ibuprofeno | C) Prednisona | D) Levotiroxina | E) Yodo radioactiivo",
+  "correcta": "B",
+  "explicacion": "Conducta / Tratamiento indicado: **Ibuprofeno** (opción **B**). Es una tiroiditis subaguda de Quervain, que se trata con AINEs. Tratamiento de Quervain: AINEs + betabloqueo. NO metimazol. Corticoides solo si síntomas sistémicos graves. De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.",
+  "conf": 0.92,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2024 · Pregunta 115",
+  "year": 2024,
+  "codes": [
+   "1.03.1.005 [endo-05: Tiroiditis]"
+  ],
+  "stem": "Una paciente usuaria de anticonceptivos y con antecedentes familiares de hipotiroidismo, consulta por aumento de volumen en el cuello. Al examen físico, la tiroides se palpa aumentada de tamaño, sin nódulos. Los exámenes revelan una TSH: 2,0 UI/L, T4: 14,0 ug/dl (valor normal: 4,5 a 9,5), anticuerpos antitiroglobulina: 48 UI/ml (valor normal: <35) y anticuerpos antiperoxidasa tiroidea: 320 UI/ml (valor normal: <35). ¿Cuál es la conducta más adecuada?",
+  "options": "A) Solicitar T4 libre | B) Solicitar ecografía tiroidea | C) Solicitar una cintigrafía tiroidea | D) Realizar control de TSH y T4 en un año | E) Realizar biopsia tiroidea por punción",
+  "correcta": "D",
+  "explicacion": "Tiroiditis de Hashimoto Eutiroidea: El diagnóstico más probable en esta paciente es tiroiditis de Hashimoto, ya que presenta bocio y elevación de los anticuerpos antiperoxidasa tiroidea. Si bien la T4 está elevada, esto se debe al uso de anticonceptivos, que elevan la TBG. En las pacientes que utilizan anticonceptivos, se debe utilizar la T4 libre en lugar de la T4 total. El valor normal de la TSH descarta la presencia de hipertiroidismo. El manejo de la tiroiditis de Hashimoto eutiroidea, como en este caso, consiste en realizar un control frecuente con pruebas tiroideas anuales para detectar y tratar precozmente el eventual hipotiroidismo.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 160",
+  "year": 2019,
+  "codes": [
+   "1.03.1.005 [endo-05: Tiroiditis]"
+  ],
+  "stem": "Una paciente consulta por un cuadro de 3 semanas de evolución de fiebre, sudoración nocturna, temblor, malestar general y artralgias. Hace 7 días se agrega dolor en el cuello. Al examen físico tiene marcado dolor a la palpación de la glándula tiroides. Se solicitan exámenes que muestran TSH: 0,01 UI/L y T4 libre: 2,9 ng/dl, con captación de yodo radiactivo de 1% (VN: 2 a 40%). El tratamiento más adecuado es:",
+  "options": "A) Paracetamol | B) Antibióticos | C) Prednisona | D) Metimazol | E) Ketoprofeno",
+  "correcta": "E",
+  "explicacion": "Tiene una clásica tiroiditis subaguda o tiroiditis de Quervain, que se trata con AINEs. Solo si es que tiene muchos síntomas hipertiroideos se agrega el propanolol. No están indicadas las drogas antitiroideas (metimazol o propiltiouracilo).",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2018 · Pregunta 18",
+  "year": 2018,
+  "codes": [
+   "1.03.1.006 [endo-11: Síndrome de Cushing]"
+  ],
+  "stem": "Una paciente de 28 años aumento de peso de 5 meses de evolución, asociado a malestar general. Refiere importante astenia, que ha progresado y debilidad muscular. Al examen físico presenta PA: 150/100 mmHg, atrofia de las masas musculares de las extremidades, obesidad abdominal y piel con estrías vinosas en la pared abdominal e hirsutismo en cara, abdomen y pecho. ¿Cuál es el examen de elección para iniciar el estudio en este paciente?",
+  "options": "A) Niveles de ACTH plasmático matinal y vespertino | B) 17 hidroxiprogesterona | C) TAC de silla turca | D) Cortisol libre urinario de 24 horas | E) Prueba de estimulación con ACTH",
+  "correcta": "D",
+  "explicacion": "La alternativa correcta es la **D** (Cortisol libre urinario de 24 horas). El síndrome de Cushing se estudia de elección con el cortisol libre urinario de 24 horas.. El hipotiroidismo en el embarazo es importante porque se asocia a daño en el desarrollo cerebral del feto. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.95,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 27",
+  "year": 2013,
+  "codes": [
+   "1.03.1.006 [endo-11: Síndrome de Cushing]"
+  ],
+  "stem": "Una paciente de 13 años, sin antecedentes, consulta por cefalea e hirsutismo. Al examen físico se encuentra presión arterial en percentil 99 para su edad, índice de masa corporal mayor al percentil 95 para su edad, acné inflamatorio en su rostro y estrías abdominales. El diagnóstico más probable es:",
+  "options": "A) Diabetes mellitus tipo 2 | B) Síndrome de ovario poliquístico | C) Síndrome de Cushing | D) Hipotiroidismo | E) Hiperprolactinemia",
+  "correcta": "C",
+  "explicacion": "Diagnóstico: **Síndrome de Cushing** (opción **C**). De libro. El hipotiroidismo en el embarazo es importante porque se asocia a daño en el desarrollo cerebral del feto. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2025 · Pregunta 159",
+  "year": 2025,
+  "codes": [
+   "1.03.1.006 [endo-11: Síndrome de Cushing]"
+  ],
+  "stem": "Una paciente de 29 años consulta por aumento de peso de 10 kg en un año, a pesar de seguir una dieta. Refiere también que sus reglas se han vuelto irregulares y cada vez son menos frecuentes. En su examen físico se observa obesidad y estrías en el abdomen y los muslos, de color rojizo. Sus signos vitales muestran FC: 72 lpm y PA: 150/96 mmHg. ¿Cuál de los siguientes exámenes es más adecuado para iniciar el estudio de esta paciente?",
+  "options": "A) Cor2sol plasmá2co a las 7:00 y a las 23:00 horas | B) Cor2sol plasmá2co post-dexametasona | C) Niveles plasmá2cos de ACTH | D) Resonancia magné2ca nuclear de abdomen | E) Resonancia magné2ca nuclear de hipófisis",
+  "correcta": "B",
+  "explicacion": "Tiene un síndrome de Cushing, cuyo estudio sigue los siguientes pasos: Primero: Se inicia con cualquiera de 3 exámenes (algunas guías recomiendan pedir más de uno desde el inicio): 1. Cortisol libre urinario de 24 horas, 2. Prueba de supresión corta (mide cortisol basal y post dexametasona, con dosis baja) y 3. Cortisol en saliva. Segundo: Una vez confirmado el hipercortisolismo, se continúa el estudio con la prueba de supresión larga (más dosis de dexametasona) y niveles plasmáticos de ACTH. Tercero: Si los resultados orientan a un tumor hipofisiario (suprime y/o ACTH elevada), se solicitar una imagen hipofisiaria (RMN). En cambio, si orientan a una causa suprarrenal (no suprime y/o ACTH baja), se solicita una imagen suprarrenal (RMN o TAC).",
+  "conf": 0.82,
+  "alertas": [
+   "texto_corrupto"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 169",
+  "year": 2016,
+  "codes": [
+   "1.03.1.006 [endo-11: Síndrome de Cushing]"
+  ],
+  "stem": "Una mujer de 34 años, con amenorrea de 6 meses, presenta un cuadro de astenia y malestar general. Además refiere equimosis ante mínimos traumatismos. Actualmente tiene PA: 150/90 mmHg, acné facial, cuello ancho, obesidad centrípeta y estrías violáceas. Tiene prueba de embarazo negativa. ¿Cuál es la prueba a realizar en primer lugar?",
+  "options": "A) Cortisol plasmático basal | B) FSH y estradiol plasmático | C) Cortisol libre urinario | D) Prueba de estimulación con ACTH | E) Resonancia magnética de silla turca",
+  "correcta": "C",
+  "explicacion": "El síndrome de Cushing se estudia primeramente con cortisol libre urinario de 24 horas. También hubiese sido correcto un test de supresión corta con dexametasona o el cortisol en saliva, si es que no hubiese estado la opción del CLU 24 horas. Si están alterados, se prosigue el estudio con ACTH y prueba de supresión larga. La RMN de silla turca, se pide más adelante, en caso de que la ACTH sea alta y la prueba de supresión larga suprima parcialmente. La prueba de estimulación con ACTH sirve para la insuficiencia suprarrenal (ej. Addison).",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 43",
+  "year": 2013,
+  "codes": [
+   "1.03.1.006 [endo-11: Síndrome de Cushing]"
+  ],
+  "stem": "Una paciente de 16 años, obesa, consulta por astenia y debilidad de semanas de evolución, no asociado a otros síntomas. Al examen físico se corrobora obesidad en percentil 97 para la edad, se aprecia hirsutismo, acné inflamatorio y estrías abdominales. El diagnóstico más probable es:",
+  "options": "A) Resistencia insulínica | B) Síndrome de ovario poliquístico | C) Síndrome de Cushing | D) Diabetes Mellitus tipo 1 | E) Hiperprolactinoma",
+  "correcta": "C",
+  "explicacion": "Diagnóstico: **Síndrome de Cushing** (opción **C**). Es la misma pregunta de antes.. El hipotiroidismo en el embarazo es importante porque se asocia a daño en el desarrollo cerebral del feto. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 112",
+  "year": 2015,
+  "codes": [
+   "1.03.1.007 [endo-12: Insuficiencia suprarrenal crónica]"
+  ],
+  "stem": "Un paciente alcohólico, vagabundo, con antecedente de haber sido tratado por tuberculosis hace dos años, consulta por un cuadro de diarrea y baja de peso, malestar general de algunos meses de evolución. En su examen físico se aprecia IMC de 16, hiperpigmentación de pliegues y melanoplaquias. En sus exámenes tiene K: 5,5 mEq/L, Na: 132 mEq/L. El diagnóstico más probable es:",
+  "options": "A) Síndrome paraneoplásico | B) Desnutrición proteica | C) Enfermedad de Addison | D) Cáncer de sitio no precisado | E) Pancreatitis crónica",
+  "correcta": "C",
+  "explicacion": "Es una insuficiencia suprarrenal por TBC. Es la segunda causa de Addison, después de la causa autoinmune. En FB alguien puso K: 2,9 y en ese caso sería un síndrome de secreción ectópica de ACTH, que tiene una clínica totalmente distinta y que es un síndrome paraneoplásico.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 102",
+  "year": 2019,
+  "codes": [
+   "1.03.1.007 [endo-12: Insuficiencia suprarrenal crónica]"
+  ],
+  "stem": "Un paciente alcohólico, en situación de calle, con antecedente de una tuberculosis tratada hace 2 años, consulta por astenia de 3 meses de evolución, asociada a debilidad muscular, dolor abdominal y diarrea. Al examen físico tiene FC: 110x’, PA: 90/60 mmHg y presenta hiperpigmentación en los pliegues y melanoplaquias. Entre sus exámenes destaca creatinina: 1,0 mg/dl, sodio: 131 mEq/L, potasio: 5,6 mEq/l, cloro: 94 mEq/l, hematocrito: 35% y blancos: 7.500 por mm3. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Síndrome paraneoplásico | B) Cáncer de origen desconocido | C) Enfermedad de Addison | D) Daño hepático crónico | E) Tuberculosis renal",
+  "correcta": "C",
+  "explicacion": "Tiene una insuficiencia suprarrenal primaria clásica, probablemente secundaria a tuberculosis suprarrenal (segunda causa, después de la autoinmune). Tiene la hiperpigmentación, la hipotensión, la hipoNa+ y la hiperK+ clásicas.",
+  "conf": 0.75,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2018 · Pregunta 110",
+  "year": 2018,
+  "codes": [
+   "1.03.1.008 [gin-02: Hirsutismo]"
+  ],
+  "stem": "Una paciente de 17 años, con antecedente se haber tenido su menarquia a los 16 años, con reglas que ocurren cada 3 a 4 meses. Tiene hirsutismo en el mentón, los brazos, el pecho, los muslos y la línea media abdominal, tanto infraumbilical, como supraumbilical, con un índice de Ferriman-Gallwey > 15. ¿Cuál es el examen de elección para hacer el diagnóstico diferencial con el síndrome de ovario poliquístico?",
+  "options": "A) Relación FSH/LH | B) Cariograma | C) Curva de insulina | D) Prolactina | E) 17-hidroxi-progesterona",
+  "correcta": "E",
+  "explicacion": "[Pregunta disputada] No se entiende qué es lo que se quería pregunta. La 17-OH progesterona permite diagnosticar la hiperplasia suprarrenal congénita, que es el diagnóstico diferencial del SOP más importante y que también tiene mucho hirsutismo. Por otro lado, la relación LH/FSH elevada sugiere un SOP, aunque no se usa como criterio, por tener muchos falsos negativos.",
+  "conf": 0.62,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Agosto 2021 · Pregunta 115",
+  "year": 2021,
+  "codes": [
+   "1.03.1.008 [gin-02: Hirsutismo]"
+  ],
+  "stem": "Una paciente de 17 años, con antecedente se haber tenido su menarquia a los 16 años, con reglas que ocurren cada 3 a 4 meses. Tiene vello en el mentón, los brazos, el pecho, los muslos y la línea media abdominal, tanto infraumbilical, como supraumbilical, con un índice de Ferriman-Gallwey > 15. Su examen mamario y genital son normales. ¿Cuál es el examen de elección para hacer el diagnóstico diferencial con el síndrome de ovario poliquístico?",
+  "options": "A) Relación FSH/LH | B) Cariograma | C) Curva de insulina | D) Niveles plasmáticos de prolactina | E) 17-hidroxi-progesterona",
+  "correcta": "E",
+  "explicacion": "Diagnóstico: **17-hidroxi-progesterona** (opción **E**). El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL).",
+  "conf": 0.62,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 115",
+  "year": 2015,
+  "codes": [
+   "1.03.1.008 [gin-02: Hirsutismo]"
+  ],
+  "stem": "Una paciente de 17 años, con IMC de 34, presenta oligomenorrea, desde su primera mesntruación. Además tiene acné y se observa hirsutismo en la cara, los pezones e intermamario. ¿Qué examen es el más adecuado para confirmar el diagnóstico?",
+  "options": "A) Testosterona plasmática | B) Andrógenos totales | C) Prueba de progesterona | D) Índice de andrógenos libres | E) 17 hidroxiprogesterona",
+  "correcta": "D",
+  "explicacion": "Tiene un SOP ya diagnosticado (cumple 2 criterios: oligomenorrea y el hiperandrogenismo cínico), por tanto no es necesario pedir ningún examen. No aparecía como alternativa, así que hay que pedir índice de andrógenos libres, que es el examen de eleción para evaluar el hiperandrogenismo en el SOP).",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 59",
+  "year": 2016,
+  "codes": [
+   "1.03.1.009 [endo-15: Hipertensión arterial de origen endocrino]"
+  ],
+  "stem": "Una paciente de 60 años presenta cefalea, astenia y calambres en extremidades inferiores. Al examen físico destaca PA: 170/95 mmHg, FC: 80 lpm y en sus exámenes destaca Na: 150 mEq/L, K:2.6 mEq/L, Cl:90 mEq/L y TSH: 4.0 UI/L. La causa más probable de la hipertensión es:",
+  "options": "A) Hipertensión renovascular | B) Feocromocitoma | C) Hipotiroidismo | D) Hiperaldosteronismo | E) Hipertensión esencial",
+  "correcta": "D",
+  "explicacion": "Es un hiperaldosteronismo clásico. La hipertensión renovascular también puede presentar hipokalemia (porque produce un hiperaldosteronismo secundario, por activación de eje renina – angiotensina – aldosterona), pero el resto de la clínica calza mejor con hiperaldosteronismo primario (mucha debilidad, calambres y cefalea). En cambio, la HTA RV tiene soplo abdominal y algo de elevación de la creatininemia.",
+  "conf": 0.9,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 45",
+  "year": 2019,
+  "codes": [
+   "1.03.1.009 [endo-15: Hipertensión arterial de origen endocrino]"
+  ],
+  "stem": "Una paciente de 60 años presenta cefalea, astenia, debilidad muscular y calambres en extremidades inferiores. Al examen físico se observa obeso, con PA: 170/100 mmHg, FC: 70 lpm y en sus exámenes destaca Na: 150 mEq/L, K: 2.6 mEq/L, Cl:100 mEq/L y TSH: 4.0 UI/L. La causa más probable de la hipertensión es:",
+  "options": "A) Hipertensión renovascular | B) Feocromocitoma | C) Hipotiroidismo | D) Hiperaldosteronismo primario | E) Hipertensión esencial",
+  "correcta": "D",
+  "explicacion": "Es un HAP clásico, por la hipokalemia y la sintomatología asociada a dicha hipokalemia. Eso sí, la HTA RV también tiene hipokalemia, así que, si tuviera soplo, antecedentes CV (que den estenosis renal) o hubiese estado HAP en las opciones, la RV habría sido la respuesta.",
+  "conf": 0.85,
+  "alertas": [
+   "explicacion_de_otro_tema"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2022 · Pregunta 121",
+  "year": 2022,
+  "codes": [
+   "1.03.1.009 [endo-15: Hipertensión arterial de origen endocrino]"
+  ],
+  "stem": "Un paciente de 37 años es diagnosticado de hipertensión hace un año, en tratamiento con enalapril, atenolol e hidroclorotiazida, a pesar de lo cual ha presentado valores tensionales sobre el objetivo, con varias tomas sobre 160/110 mmHg. Además, aqueja astenia, debilidad de las extremidades inferiores y cefalea frecuente. Se solicitan exámenes generales, que muestran TSH: 6,0 UI/L, creatinina: 1,2 mg/dl, sodio: 142 mEq/L, potasio: 3,1 mEq/L, hemograma normal y glicemia de ayuno: 72 mg/dl. Se solicita TAC de abdomen, que muestra un tumor suprarrenal derecho, de 2 cm de diámetro, sólido y homogéneo. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Feocromocitoma | B) Hipertensión esencial | C) Hipertensión renovascular | D) Hipertensión asociada a insuficiencia renal | E) Hiperaldosteronismo primario",
+  "correcta": "E",
+  "explicacion": "Diagnóstico: **Hiperaldosteronismo primario** (opción **E**). Clase sobre diagnóstico, objetivos y pilares del tratamiento de la hipertensión arterial. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 32",
+  "year": 2019,
+  "codes": [
+   "1.03.1.009 [endo-15: Hipertensión arterial de origen endocrino]"
+  ],
+  "stem": "Un paciente de 35 años consulta por cefalea y debilidad muscular de algunos meses de evolución. Al examen físico presenta FC: 70x’, PA: 160/110 mmHg, sin otros hallazgos. Se solicitan exámenes que muestran creatininemia de 0,9 mg/dl, sodio: 138 mEq/l, potasio: 3,0 mEq/l y cloro: 98 mEq/l. ¿Cuál es el examen más adecuado para proseguir el estudio en este paciente?",
+  "options": "A) Doppler de arterias renales | B) Holter de presión arterial | C) Determinación de metanefrinas urinarias | D) Relación aldosterona / actividad de renina plasmática | E) Cortisol libre urinario de 24 horas",
+  "correcta": "D",
+  "explicacion": "Un paciente joven con hipertensión y cefalea, con hipopotasemia y debilidad muscular, tiene una hipertensión secundaria con sospecha de hiperaldosteronismo primario. El estudio de elección es la relación aldosterona/actividad de renina plasmática. Las metanefrinas se piden ante crisis adrenérgicas y el cortisol libre ante rasgos cushingoides, y el Doppler renal se reserva para sospecha de hipertensión renovascular.",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2024 · Pregunta 59",
+  "year": 2024,
+  "codes": [
+   "1.03.1.009 [endo-15: Hipertensión arterial de origen endocrino]"
+  ],
+  "stem": "Hipertensión renovascular ( yo vi 2 hiperaldosteronismos primarios, confirmo x2) habían 2, uno joven con muchos sintomas de hipokalemia (HAP)y la otra era adulto mayor con proteinuria (HTRV)? vs Hiperaldosteronismo primario",
+  "options": "A) Ninguna de las anteriores es correcta | B) Todas las anteriores son correctas | C) No se dispone de información suficiente | D) Otra alternativa no descrita | E) Otra alternativa no descrita",
+  "correcta": "A",
+  "explicacion": "La alternativa correcta es la **A** (Ninguna de las anteriores es correcta). Clase sobre diagnóstico, objetivos y pilares del tratamiento de la hipertensión arterial. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).",
+  "conf": 0.7,
+  "alertas": [
+   "alternativas_repetidas",
+   "enunciado_cortado_o_raro"
+  ]
+ },
+ {
+  "recTag": "EUNACOM Enero 2023 · Pregunta 82",
+  "year": 2023,
+  "codes": [
+   "1.03.1.009 [endo-15: Hipertensión arterial de origen endocrino]"
+  ],
+  "stem": "Paciente con HTA de difícil control, cefalea, palpitaciones y lesión suprarrenal derecha de 5 cm en TAC. ¿Diagnóstico más probable?",
+  "options": "A) Adenoma suprarrenal productor de aldosterona | B) Carcinoma suprarrenal | C) Feocromocitoma | D) Quiste suprarrenal simple | E) Hiperplasia suprarrenal nodular",
+  "correcta": "C",
+  "explicacion": "Diagnóstico: **Feocromocitoma** (opción **C**). Feocromocitoma. Clase sobre diagnóstico, objetivos y pilares del tratamiento de la hipertensión arterial. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.",
+  "conf": 0.6,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2018 · Pregunta 19",
+  "year": 2018,
+  "codes": [
+   "1.03.1.010 [gin-01: Amenorrea]"
+  ],
+  "stem": "Una paciente de 22 años consulta por amenorrea de 4 meses de evolución, sin otras alteraciones. Se realiza exámenes, que muestran test de embarazo negativo, TSH y prolactina, que están dentro de rangos normales. Se solicita prueba de progesterona, que resulta negativa y prueba de estrógeno y progesterona, que resulta positiva. Además, se solicita LH y FSH, que están normales, dentro del límite bajo. El diagnóstico más probable es:",
+  "options": "A) Prolactinoma | B) Falla ovárica primaria | C) Embarazo ectópico | D) Amenorrea hipotalámica | E) Síndrome de ovario poliquístico",
+  "correcta": "D",
+  "explicacion": "Tiene un hipogonadismo hipogonadotrófico (las gonadotropinas normales se consideran como hipogonadotrófico), por lo que es de causa hipotalámica o hipofisiaria (el hipo- hipo es hipo-hipo).",
+  "conf": 0.8,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2013 · Pregunta 153",
+  "year": 2013,
+  "codes": [
+   "1.03.1.010 [gin-01: Amenorrea]"
+  ],
+  "stem": "Una paciente de 16 años, sin antecedentes, es traída por no presentar aún menarquia, no asociado a otros síntomas. Al examen físico se aprecia talla de 1.53 metros y desarrollo puberal tanner 1, sin otros hallazgos. Se realiza test de progesterona que resulta negativo. El diagnóstico más probable en este caso es:",
+  "options": "A) Anovulación | B) Malformación uterina | C) Hipopituitarismo | D) Hipotiroidismo | E) Síndrome de turner",
+  "correcta": "E",
+  "explicacion": "Tiene retraso puberal, talla de 1,53 metros (no es talla baja propiamente tal, pero es una talla que no descarta Turner) y probablemente un hipogonadismo. No tiene clínica de hipopituitarismo (hipotiroidismo, insuficiencia suprarrenal), sino solo del hipogonadismo. Todo hipogonadismo en una niña es un Turner, hasta que se demuestre lo contrario, en particular si es baja.",
+  "conf": 0.7,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2016 · Pregunta 171",
+  "year": 2016,
+  "codes": [
+   "1.03.1.012 [endo-23: Hipogonadismo masculino]"
+  ],
+  "stem": "Un paciente de 32 años consulta por un cuadro de disfunción sexual asociado a disminución del vello facial. Al examen físico presenta disminución del vello corporal y disminución del tamaño testicular bilateral. ¿Cuál es el estudio más adecuado para proseguir el enfrentamiento de este paciente?",
+  "options": "A) Prolactina | B) Testosterona y LH | C) Espermiograma y FSH | D) Ecografía testicular | E) HCG y estradiol",
+  "correcta": "B",
+  "explicacion": "Es un hipogonadismo clínico (disminuición del vello corporal, astenia y disfunción sexual: impotencia y disminución del deseo sexual), que se estudia con gonadotropinas (LH) y hormonas sexuales (testosterona en el hombre).",
+  "conf": 0.88,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2025 · Pregunta 83",
+  "year": 2025,
+  "codes": [
+   "1.03.1.012 [endo-23: Hipogonadismo masculino]"
+  ],
+  "stem": "Hombre de 38 años con disminución de la libido, disfunción eréctil, fatiga y ginecomastia bilateral. Testículos de tamaño normal. ¿Cuál es el estudio de elección inicial?",
+  "options": "A) Testosterona total sérica matinal | B) Ecografía testicular | C) Espermograma | D) FSH y LH | E) Prolactina",
+  "correcta": "A",
+  "explicacion": "Hipogonadismo masculino: el estudio inicial es testosterona total sérica en la mañana (máxima entre 8-10 AM). Si está baja, se complementa con LH/FSH para clasificar en primario o secundario.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2017 · Pregunta 145",
+  "year": 2017,
+  "codes": [
+   "1.03.1.012 [endo-23: Hipogonadismo masculino]"
+  ],
+  "stem": "Un paciente de 35 años, padre de tres hijos consulta por disfunción eréctil progre- siva que inició hace 3 meses. Su examen físico no muestra alteraciones, y su examen ge- nital y testicular resulta normal. Se solicitan exámenes que muestran testosterona de 190 ng/dL (valor normal: 280-1100ng/dL) y LH de 1,8 UI/L (valor normal: 1,5-20 UI/L). ¿Cuál es el examen de elección para continuar el estudio de este paciente?",
+  "options": "A) Espermiograma | B) Ecografía testicular | C) Niveles plasmáticos de FSH | D) Resonancia magnética de hipófisis | E) Niveles plasmáticos de estrógeno y progesterona",
+  "correcta": "D",
+  "explicacion": "La alternativa correcta es la **D** (Resonancia magnética de hipófisis). Tiene un hipogonadismo hipogonadotrópico, por tanto probablemente es hipota- lámico o hipofisiario.. Esta conducta se sustenta en los criterios de práctica médica estándar y las exigencias del Perfil de Conocimientos V3 de ASOFAMECh.",
+  "conf": 0.85,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2019 · Pregunta 50",
+  "year": 2019,
+  "codes": [
+   "1.03.1.012 [endo-23: Hipogonadismo masculino]"
+  ],
+  "stem": "Un paciente de 35 años, desde hace un año, presenta debilidad muscular, disminución de la libido e impotencia sexual progresiva. Se realizan exámenes, que muestran prolactina normal, niveles de LH: 1,6 UI/L (valor normal: 1,8 a 8,6 UI/L) y de testosterona: 160 ng/dl (valor normal: 270 a 1.070 ng/dl). ¿Cuál es la conducta más adecuada para proseguir el estudio?",
+  "options": "A) Ecografía testicular | B) Niveles plasmáticos de estradiol | C) Niveles de FSH | D) Solicitar niveles de testosterona libre | E) Resonancia magnética de hipófisis",
+  "correcta": "E",
+  "explicacion": "Tiene un hipogonadismo (testosterona baja) hipogonadotrópico (LH baja), por lo que es de causa hipotalámica o hipofisiaria (\"el hipo hipo es hipo hipo\"). Se estudia con RMN de hipófisis. Vale la pena mencionar que, si la LH hubiese estado normal, en la zona \"baja\" del rango normal, igualmente sería un hipogonadismo hipogonadotrópico.",
+  "conf": 0.62,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Julio 2015 · Pregunta 113",
+  "year": 2015,
+  "codes": [
+   "1.03.1.013 [endo-22: Tumores hipofisiarios]"
+  ],
+  "stem": "Un paciente presenta astenia y aumento de tamaño de la mandíbula, con separación entre los dientes. Además refiere hipertrofia malar, de la nariz y las manos. También ha aumentado el número de sus zapatos. ¿Qué examen es más adecuado para continuar el estudio de este paciente?",
+  "options": "A) Niveles de hormona de crecimiento | B) Radiografías de pies y de la arcada dentaria | C) Radiografía de manos | D) Niveles de IGF-1 | E) Resonancia magnética de hipófisis",
+  "correcta": "D",
+  "explicacion": "La acromegalia se estudia primero con somatomedina 1 o IGF1 (son sinónimos). La GH es muy errática y no se pide.",
+  "conf": 0.95,
+  "alertas": null
+ },
+ {
+  "recTag": "EUNACOM Diciembre 2019 · Pregunta 138",
+  "year": 2019,
+  "codes": [
+   "1.03.1.013 [endo-22: Tumores hipofisiarios]"
+  ],
+  "stem": "Una paciente cefalea de 4 semanas de evolución, mayor en las mañanas, que se asocia a vómitos y, además, refiere alteraciones visuales. Al examen físico tiene fuerzas y sensibilidad conservada en las 4 extremidades y en el campo visual se constata hemianopsia bitemporal. ¿Cuál es el diagnóstico más probable?",
+  "options": "A) Tumor de la glándula pineal | B) Glioma del nervio óptico | C) Tumor de la base del lóbulo frontal | D) Hiperprolactinemia | E) Macroadenoma hipofisiario",
+  "correcta": "E",
+  "explicacion": "Tiene un síndrome de hipertensión endocraneana más compresión del quiasma óptico, por lo que se trata de un tumor hipofisiario compresivo.",
+  "conf": 0.85,
+  "alertas": null
+ }
+]

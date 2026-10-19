@@ -1,0 +1,459 @@
+{
+  "classId": "sp-05",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El MAIS se basa en tres principios: centrado en las personas, integralidad de la atención y {{c1::continuidad del cuidado}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Principios del MAIS",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.001"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El principio de {{c1::integralidad}} abarca promoción, prevención, curación, rehabilitación y cuidados paliativos.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Principios MAIS",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.001"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El {{c1::genograma}} grafica la estructura familiar, edades, patologías heredofamiliares y vínculos.",
+      "extra": "Mira hacia adentro de la familia.",
+      "origen": "clase:3",
+      "fuente": "Clase · Genograma y ecomapa",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.005"
+      ],
+      "imagen": "biblioteca/16_salud_publica/sp-05/01_genograma__meneghello_p38.jpg"
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El genograma representa como mínimo {{c1::3 generaciones}} de la familia.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.005"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El {{c1::ecomapa}} dibuja a la familia en su interacción con el entorno: trabajo, escuela, CESFAM, redes de apoyo.",
+      "extra": "Mira hacia afuera de la familia.",
+      "origen": "clase:3",
+      "fuente": "Clase · Genograma y ecomapa",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.005"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para graficar redes de apoyo social y aislamiento del grupo familiar, el instrumento es el {{c1::ecomapa}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz representativo",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.005"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Paciente que vive solo, con APGAR familiar normal pero aislamiento social: el instrumento que completa la evaluación es el {{c1::ecomapa}}.",
+      "extra": "El APGAR solo refleja la relación con el familiar cercano.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.005"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El {{c1::APGAR familiar}} (Smilkstein) mide la percepción del paciente sobre la funcionalidad de su familia.",
+      "extra": "Es autoadministrado, de 5 preguntas.",
+      "origen": "clase:4",
+      "fuente": "Clase · APGAR familiar",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.005",
+        "7.01.3.001"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "APGAR familiar de 7 a 10 puntos: {{c1::funcionalidad normal}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de instrumentos",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.005"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "APGAR familiar de 4 a 6 puntos: {{c1::disfunción familiar leve}}.",
+      "extra": "Un puntaje de 5 es disfunción leve.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de instrumentos",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.005"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "APGAR familiar de 0 a 3 puntos: {{c1::disfunción familiar severa}}.",
+      "extra": "Activa al equipo multidisciplinario.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de instrumentos",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.005"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La escala de {{c1::Zarit}} mide la sobrecarga del cuidador; el Duke-UNC evalúa el apoyo social percibido individual.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · pregunta banco",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.005"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El modelo de Duvall distingue {{c1::ocho}} etapas del ciclo vital familiar.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Ciclo vital",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.005"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los cambios de etapa del ciclo vital familiar son crisis {{c1::normativas}} (esperables); enfermedad grave o cesantía son no normativas.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Duvall y crisis",
+      "repaso": true,
+      "codigos": [
+        "2.01.3.005"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La salud, según la OMS (1948), es el estado de completo bienestar {{c1::físico, mental y social}}, no solo ausencia de enfermedad.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Conceptos base",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.001"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La salud pública tiene como objeto la {{c1::población}}; su ciencia básica es la epidemiología.",
+      "extra": "Winslow, 1920.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.001"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lalonde (1974) agrupó los determinantes en biología humana, medio ambiente, estilo de vida y {{c1::organización de la atención de salud}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Determinantes",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.006"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El modelo de {{c1::Dahlgren y Whitehead}} ordena los determinantes en capas, del individuo a las condiciones socioeconómicas.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Determinantes",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.006"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Según la Comisión de Determinantes Sociales de la OMS, el factor de mayor impacto en la salud es el {{c1::nivel educacional}}.",
+      "extra": "Condiciona ingreso, empleo y conductas.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Julio 2025",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 51"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La caída de la mortalidad infantil en Chile se atribuye sobre todo a {{c1::determinantes sociales}}: educación materna, condiciones socioeconómicas y agua potable.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Banco · mortalidad infantil",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 116"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El mesotelioma es la enfermedad laboral clásica por exposición a {{c1::asbesto}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Banco · enfermedad laboral",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 69",
+        "EUNACOM Diciembre 2019 · Pregunta 46"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Paciente encontrada con compromiso de conciencia junto a un calefón y SatO2 normal: el examen de elección es la {{c1::carboxihemoglobina}}.",
+      "extra": "El oxímetro no distingue la carboxihemoglobina.",
+      "origen": "libro:puntos",
+      "fuente": "Banco · intoxicación por CO",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 108"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La promoción de la salud (Carta de Ottawa, 1986) busca que las personas aumenten el {{c1::control sobre su salud}}.",
+      "extra": "Ejemplo: ciclovías, plazas activas, ferias saludables.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.005"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El {{c1::ASIS}} caracteriza el perfil epidemiológico, sociodemográfico y de determinantes de toda la población de un territorio.",
+      "extra": "No es un test individual.",
+      "origen": "clase:6",
+      "fuente": "Clase · ASIS",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.008",
+        "7.01.3.012"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "La primera etapa del diagnóstico comunitario es la {{c1::recolección y análisis de datos}} sociodemográficos y sanitarios.",
+      "extra": "Después viene el diagnóstico participativo y la priorización.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Etapas",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.010"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Algoritmo",
+      "texto": "En el diagnóstico participativo, la última fase es la {{c1::definición de estrategias de intervención priorizadas}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Diciembre 2018",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.010"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 136"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un diagnóstico de situación de salud debe {{c1::incorporar la participación de la comunidad}} e integrar información cuantitativa y cualitativa.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.012"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para identificar grupos de edad, sectores y períodos con más obesidad infantil se usa la epidemiología {{c1::descriptiva}} (persona, lugar y tiempo).",
+      "extra": "",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.017"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El método de {{c1::Hanlon}} prioriza problemas con la fórmula (A + B) × C × D.",
+      "extra": "A magnitud, B gravedad, C eficacia, D factibilidad.",
+      "origen": "clase:7",
+      "fuente": "Clase · Priorización",
+      "repaso": true,
+      "codigos": [
+        "7.01.3.030"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En Hanlon, si la factibilidad D es {{c1::0}}, el problema no es prioritario.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Priorización",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.030"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la priorización, la vulnerabilidad evalúa si existen {{c1::intervenciones eficaces}} capaces de modificar el problema.",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "7.01.3.030"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/16_salud_publica/sp-05/01_genograma__meneghello_p38.jpg",
+      "pregunta": "¿Qué instrumento muestra y qué evalúa?",
+      "diagnostico": "Genograma (familiograma)",
+      "clave": "Árbol con símbolos estandarizados (cuadrados hombres, círculos mujeres) de al menos tres generaciones",
+      "conducta": "Usarlo para ver estructura, patologías heredofamiliares y vínculos; el entorno se evalúa con el ecomapa",
+      "fuente": "Meneghello Pediatría, 6.ª ed., Fig. 3-1, p. 38",
+      "repaso": false,
+      "codigos": [
+        "2.01.3.005"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Estructura familiar: ¿qué instrumento?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Redes con el entorno y aislamiento: ¿qué instrumento?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.3",
+      "pista": "Todo el territorio del CESFAM: ¿qué proceso?"
+    }
+  ]
+}

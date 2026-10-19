@@ -1,0 +1,434 @@
+{
+  "classId": "hem-05",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La aplasia medular es en > 75 % autoinmune idiopática, mediada por linfocitos T {{c1::CD8+}} contra células madre CD34+.",
+      "extra": "Liberan interferón gamma y TNF.",
+      "origen": "clase:1",
+      "fuente": "Clase · Fisiopatología",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.008"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la biopsia de aplasia, la celularidad global es < {{c1::25 %}}, reemplazada por grasa.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": true,
+      "imagen": "biblioteca/06_hematologia/hem-05/01_medula-normal-vs-aplasia_alt1__amir-hemato_p26.jpg",
+      "codigos": [
+        "1.08.4.003"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El fármaco mielotóxico clásico del examen es el {{c1::cloranfenicol}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Etiología",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.003"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Los antitiroideos que inducen aplasia son {{c1::tiamazol y propiltiouracilo}}.",
+      "extra": "Mujer joven con Graves.",
+      "origen": "clase:2",
+      "fuente": "Clase · Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.003"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Otros fármacos que causan aplasia: carbamazepina, fenitoína, sulfas, {{c1::sales de oro}} y citostáticos.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.003"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tóxicos que dan aplasia: {{c1::benceno}}, organofosforados y radiación.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El parvovirus B19 produce una crisis aplásica {{c1::pura}}; también el virus de Epstein-Barr y hepatitis no A no B no C.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Etiología",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.008"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La aplasia cursa con tres síndromes: anémico, {{c1::purpúrico}} e infecciones graves.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.008"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El síndrome purpúrico de la aplasia aparece sobre todo con plaquetas < {{c1::20.000/µL}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "repaso": false,
+      "imagen": "biblioteca/06_hematologia/hem-05/01_petequias-purpura-en-eeii__amir-hemato_p89.jpg",
+      "codigos": [
+        "1.08.1.008",
+        "1.08.4.003"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La aplasia medular cursa {{c1::sin}} esplenomegalia ni adenopatías.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Clínica",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.008"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Pancitopenia con bazo palpable descarta aplasia: piensa en cirrosis, {{c1::leucemia, mielofibrosis}} o linfoma.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Algoritmo",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.008"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Para confirmar aplasia se requiere mielograma y {{c1::biopsia}} de cresta ilíaca.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.003"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una médula aplásica o fibrótica puede dar aspirado «seco»; por eso la {{c1::biopsia}} es indispensable.",
+      "extra": "También lo da la mielofibrosis.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Biopsia",
+      "repaso": false,
+      "codigos": [
+        "1.08.5.001",
+        "1.08.4.003"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Aplasia grave de Camitta: al menos {{c1::2 de 3}} criterios.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Camitta",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.008"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Camitta: neutrófilos < {{c1::500/µL}}, plaquetas < 20.000/µL o reticulocitos < 20.000/µL.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Camitta",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.008"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Aplasia muy grave: neutrófilos < {{c1::200/µL}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Camitta",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.008"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Primera medida ante sospecha de aplasia: {{c1::suspender todo fármaco mielotóxico}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Manejo inicial",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.003"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En aplasia se evita la vía {{c1::intramuscular}} por riesgo de hematomas profundos.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Manejo inicial",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.008"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La transfusión en aplasia es restrictiva con productos {{c1::desleucocitados e irradiados}}.",
+      "extra": "Evita la aloinmunización HLA en candidatos a trasplante.",
+      "origen": "clase:6",
+      "fuente": "Clase · Manejo inicial",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.008"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sospecha de aplasia en APS: derivar de inmediato a centro de {{c1::hematología terciario}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Manejo inicial",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.008"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tratamiento de elección en joven < 40–50 años con hermano HLA idéntico: {{c1::trasplante alogénico}} de progenitores.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.008"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En mayores o sin donante: inmunosupresión con {{c1::globulina antitimocito + ciclosporina + eltrombopag}}.",
+      "extra": "Eltrombopag es agonista del receptor de trombopoyetina.",
+      "origen": "clase:6",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.008"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mejor tratamiento de la aplasia medular idiopática: {{c1::trasplante de médula ósea}}.",
+      "extra": "La quimioterapia y radioterapia dañan más la médula.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz banco",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.003"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Leucemia aguda con pancitopenia: médula hipercelular con > {{c1::20 %}} de blastos.",
+      "extra": "Bastones de Auer en LMA.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.008"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mielofibrosis: punción seca, dacriocitos y bazo {{c1::masivo}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.008"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dolor óseo, anemia, VHS > 90 y creatinina alta: se confirma mieloma con {{c1::aspirado y biopsia de médula ósea con citogenético}}.",
+      "extra": "Plasmocitos clonales ≥ 10 %.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Enero 2023",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 171"
+      ],
+      "codigos": [
+        "1.08.4.003"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pancitopenia con aspirado escaso y sin visceromegalias: el examen confirmatorio es la {{c1::biopsia de médula ósea}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.003"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Usuaria de tiamazol con neutropenia febril: suspender, aislar y dar {{c1::ceftazidima o piperacilina/tazobactam}} EV.",
+      "extra": "Luego derivar a hematología para biopsia medular.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz caso",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.003",
+        "1.08.3.003"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-05/01_medula-normal-vs-aplasia_alt1__amir-hemato_p26.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Aplasia medular: médula grasa",
+      "clave": "Adipocitos maduros con celularidad < 25 %",
+      "conducta": "Suspender mielotóxicos, soporte y derivar a hematología",
+      "fuente": "Manual AMIR Hematología, p. 26",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.003",
+        "1.08.3.003"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-05/01_petequias-purpura-en-eeii__amir-hemato_p89.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Petequias y púrpura por trombocitopenia",
+      "clave": "Petequias y equimosis en piernas",
+      "conducta": "Hemograma; si pancitopenia sin bazo, sospechar aplasia",
+      "fuente": "Manual AMIR Hematología, p. 89",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.008"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Pancitopenia sin esplenomegalia: ¿qué sospechas y qué haces?",
+      "codigos": [
+        "1.08.1.008"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.0",
+      "pista": "Neutropenia febril: ¿qué conducta?",
+      "codigos": [
+        "1.08.1.008"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1",
+      "pista": "Sin fiebre: ¿soporte y derivación?",
+      "codigos": [
+        "1.08.1.008"
+      ]
+    }
+  ]
+}

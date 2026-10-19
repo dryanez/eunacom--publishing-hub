@@ -1,0 +1,530 @@
+{
+ "classId": "trauma-15",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El lumbago {{c1::mecánico}} aumenta con el movimiento y disminuye con el reposo; se maneja con AINE y kinesioterapia.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Lumbago",
+   "repaso": true,
+   "codigos": [
+    "4.02.1.005",
+    "1.10.1.010"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 95"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El lumbago {{c1::inflamatorio}} aumenta con el reposo y mejora con el ejercicio: sugiere espondilitis anquilosante.",
+   "extra": "Se estudia con imágenes y se deriva.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Lumbago",
+   "repaso": true,
+   "codigos": [
+    "4.02.1.005",
+    "1.10.1.010"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La lumbociática se maneja igual que el lumbago, salvo compromiso {{c1::neurológico}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Lumbago",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.005",
+    "1.10.1.010"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el lumbago mecánico sin alarma no se pide {{c1::resonancia}} ni se indica reposo prolongado.",
+   "extra": "Reposo laboral breve y analgesia.",
+   "origen": "clase:1",
+   "fuente": "Clase · Lumbago",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 29"
+   ],
+   "codigos": [
+    "4.02.1.005",
+    "1.10.1.010"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La cirugía de la hernia del núcleo pulposo se indica solo por {{c1::fracaso del tratamiento médico}} o compromiso neurológico agudo.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cirugía",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.006",
+    "1.10.1.011"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Anestesia perineal o vesical con lumbago: síndrome de {{c1::cauda equina}}, derivación urgente.",
+   "extra": "Silla de montar y disfunción sexual.",
+   "origen": "clase:2",
+   "fuente": "Clase · Banderas rojas",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 139"
+   ],
+   "codigos": [
+    "4.02.1.006",
+    "1.10.1.011"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fiebre y dolor vertebral a la presión en un diabético: {{c1::discitis}} (espondilodiscitis).",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Banderas rojas",
+   "repaso": false,
+   "codigos": [
+    "4.01.4.005",
+    "4.02.4.001"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor súbito en el adulto mayor tras esfuerzo: {{c1::fractura vertebral}} por fragilidad.",
+   "extra": "Acuñamiento en la radiografía.",
+   "origen": "clase:2",
+   "fuente": "Clase · Banderas rojas",
+   "repaso": false,
+   "codigos": [
+    "4.01.4.005",
+    "4.02.4.001"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La cervicobraquialgia sigue la lógica del lumbago: manejo médico con {{c1::AINE y kinesioterapia}} y RM solo con signos de alarma.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cervicalgia",
+   "repaso": false,
+   "codigos": [
+    "1.11.1.005",
+    "1.10.1.011"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La maniobra de {{c1::Spurling}} (extensión y rotación del cuello con compresión axial) reproduce el dolor radicular cervical.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Spurling",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-15/04_prueba-de-spurling__bailey-love_p461.jpg",
+   "codigos": [
+    "4.02.1.006",
+    "1.10.1.011"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cervicobraquialgia: {{c1::C6}} pulgar e índice, {{c2::C7}} dedo medio (la más afectada), C8 meñique.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Radiculopatía",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.006",
+    "1.10.1.011"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Lumbociática L5: cara lateral de la pierna y dorso del pie; {{c1::S1}}: planta y reflejo aquíleo disminuido.",
+   "extra": "Lasègue positivo.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Radiculopatía",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.006",
+    "1.10.1.011"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los signos de {{c1::mielopatía}} cervical (marcha torpe, hiperreflexia, Hoffmann) obligan a derivación urgente.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Radiculopatía",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.006",
+    "1.10.1.011"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el lumbago agudo inespecífico la radiografía {{c1::no está indicada}} de rutina; se pide con banderas rojas o dolor > 6 semanas.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Radiografía",
+   "repaso": false,
+   "codigos": [
+    "4.01.4.005",
+    "4.02.4.001"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Para escoliosis se usa la panorámica de columna total {{c1::de pie}}; para espondilólisis, las oblicuas.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Radiografía",
+   "repaso": false,
+   "codigos": [
+    "4.01.4.005",
+    "4.02.4.001"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El pedículo ausente («ojo de búho») sugiere {{c1::metástasis}}; la «columna en caña de bambú», espondilitis anquilosante.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Radiografía",
+   "repaso": false,
+   "codigos": [
+    "4.01.4.005",
+    "4.02.4.001"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Una radiografía normal no descarta una {{c1::hernia discal}}; con déficit neurológico se pide RM.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Radiografía",
+   "repaso": true,
+   "codigos": [
+    "4.01.4.005",
+    "4.02.4.001"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El síndrome de manguito rotador afecta sobre todo al tendón del {{c1::supraespinoso}} por movimientos repetitivos.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Manguito",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.008",
+    "1.11.1.011"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor de hombro nocturno que aumenta al acostarse sobre el hombro: {{c1::manguito rotador}}.",
+   "extra": "Pasiva conservada; limitación activa por dolor.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Manguito",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 82",
+    "EUNACOM Diciembre 2017 · Pregunta 101",
+    "EUNACOM Julio 2013 · Pregunta 141",
+    "EUNACOM Julio 2024 · Pregunta 119",
+    "EUNACOM Diciembre 2018 · Pregunta 140"
+   ],
+   "codigos": [
+    "4.02.1.008",
+    "1.11.1.011"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El arco doloroso del pinzamiento subacromial ocurre entre {{c1::60 y 120}} grados, con Neer y Hawkins positivos.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Maniobras",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-15/01_arco-doloroso-hombro__bailey-love_p471.jpg",
+   "codigos": [
+    "1.10.1.001"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La prueba de {{c1::Jobe}} explora el supraespinoso.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Maniobras",
+   "repaso": false,
+   "imagen": "biblioteca/18_traumatologia/trauma-15/02_prueba-de-jobe__bailey-love_p471.jpg",
+   "codigos": [
+    "4.02.1.008",
+    "1.11.1.011"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El examen de elección para objetivar la inflamación del manguito es la {{c1::ecografía}}, más costo-efectiva que la RM.",
+   "extra": "Pregunta real Jul 2025.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Manguito",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 127"
+   ],
+   "codigos": [
+    "4.02.1.008",
+    "1.11.1.011"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento del manguito rotador: reposo, AINE y kinesioterapia {{c1::motora}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Manguito",
+   "repaso": false,
+   "codigos": [
+    "4.02.1.008",
+    "1.11.1.011"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cabeza humeral ascendida con esclerosis del acromion: rotura completa del tendón del {{c1::supraespinoso}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Rotura",
+   "repaso": true,
+   "imagen": "biblioteca/18_traumatologia/trauma-15/03_rotura-manguito-rm__bailey-love_p511.jpg",
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 68"
+   ],
+   "codigos": [
+    "1.10.1.001"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la capsulitis adhesiva hay limitación {{c1::activa y pasiva}}; se trata con corticoides y kinesioterapia intensiva.",
+   "extra": "Hombro con dolor activo y pasivo que evoluciona a manguito: AINE y kinesioterapia.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Capsulitis",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 126"
+   ],
+   "codigos": [
+    "4.02.1.008",
+    "1.11.1.011"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tendinitis de {{c1::De Quervain}} duele en la zona lateral de la muñeca (extensor corto y abductor largo del pulgar).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tendinitis",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.001"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La bursitis {{c1::prepatelar}} inflama la zona sobre la rótula; la pertrocantérica, el trocánter mayor.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Bursitis",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.001"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fibromialgia cursa con dolor en puntos gatillo, fatiga y trastorno del sueño, con VHS y PCR {{c1::normales}}.",
+   "extra": "Primera línea: ejercicio y pregabalina o tricíclicos.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fibromialgia",
+   "repaso": false,
+   "codigos": [
+    "1.10.1.001"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor lumbar con claudicación al estar de pie, Lasègue negativo y pinzamiento discal: claudicación {{c1::neural}} intermitente.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic 2024",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 130"
+   ],
+   "codigos": [
+    "4.02.1.006",
+    "1.10.1.011"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-15/01_arco-doloroso-hombro__bailey-love_p471.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Arco doloroso del hombro",
+   "clave": "Dolor entre 60 y 120 grados de abducción",
+   "conducta": "Pinzamiento subacromial/manguito rotador: AINE y kinesioterapia motora",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 31.23 (b)",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 127"
+   ],
+   "codigos": [
+    "4.02.1.008",
+    "1.11.1.011"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-15/03_rotura-manguito-rm__bailey-love_p511.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Rotura del manguito rotador en RM",
+   "clave": "Tendón supraespinoso roto y retraído",
+   "conducta": "Cabeza humeral ascendida en la radiografía: derivar",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 34.6",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 68"
+   ],
+   "codigos": [
+    "4.02.1.008",
+    "1.11.1.011"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/18_traumatologia/trauma-15/21_compresion-l1__sherman_p692.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Fractura por compresión vertebral",
+   "clave": "Acuñamiento de L1 en TC sagital",
+   "conducta": "Dolor súbito en adulto mayor: estudiar con imágenes",
+   "fuente": "Sherman, Atlas of Clinical Emergency Medicine, p. 692",
+   "repaso": false,
+   "codigos": [
+    "4.01.4.005",
+    "4.02.4.001"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Lumbago sin alarma: ¿manejo?",
+   "codigos": [
+    "1.10.1.011",
+    "4.02.1.008"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.2",
+   "pista": "Anestesia perineal con lumbago: ¿diagnóstico y conducta?",
+   "codigos": [
+    "1.10.1.011",
+    "4.02.1.008"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.0",
+   "pista": "Hombro con pasiva conservada: ¿diagnóstico y tratamiento?",
+   "codigos": [
+    "1.10.1.011",
+    "4.02.1.008"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.1",
+   "pista": "Hombro con pasiva limitada: ¿diagnóstico y tratamiento?",
+   "codigos": [
+    "1.10.1.011",
+    "4.02.1.008"
+   ]
+  }
+ ]
+}

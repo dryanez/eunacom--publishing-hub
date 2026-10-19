@@ -1,0 +1,466 @@
+{
+  "classId": "hem-01",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Según la OMS, anemia en hombre adulto es Hb < {{c1::13 g/dL}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Definición",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Según la OMS, anemia en mujer adulta no embarazada es Hb < {{c1::12 g/dL}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Definición",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el embarazo se define anemia con Hb < {{c1::11 g/dL}}; en el segundo trimestre, < {{c2::10,5 g/dL}}.",
+      "extra": "El segundo trimestre baja por hemodilución fisiológica.",
+      "origen": "clase:1",
+      "fuente": "Clase · Definición",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La regla de tres dice que el hematocrito equivale aproximadamente a {{c1::3 × Hb}}.",
+      "extra": "Vale en glóbulos rojos de tamaño y color normal.",
+      "origen": "clase:1",
+      "fuente": "Clase · Regla de tres",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si hay discrepancia entre Hb y Hto, el valor que manda es la {{c1::hemoglobina}}.",
+      "extra": "La volemia plasmática distorsiona el hematocrito; en deshidratación el Hto se sobrestima.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Definición",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El rango normal del VCM es {{c1::80 a 100 fL}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · VCM",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una anemia microcítica (VCM < 80 fL) indica falla en la síntesis de {{c1::hemo o globina}} (ferropenia o talasemia).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Diagrama VCM",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una anemia macrocítica (VCM > 100 fL) apunta a falla de {{c1::síntesis de ADN}} (déficit de B12 o folato) o de membrana.",
+      "extra": "Membrana: hepatopatía, alcohol, hipotiroidismo.",
+      "origen": "clase:2",
+      "fuente": "Clase · Diagrama VCM",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la anemia normocítica (VCM 80 a 100 fL) piensa en {{c1::inflamación, ERC}} o ferropenia inicial.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Diagrama VCM",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La HCM normal es {{c1::27 a 33 pg}}.",
+      "extra": "Hemoglobina por glóbulo rojo.",
+      "origen": "clase:3",
+      "fuente": "Clase · Índices",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La CHCM normal es {{c1::32 a 36 g/dL}}; define normocromía o hipocromía.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Índices",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El RDW normal es {{c1::11,5 a 14,5 %}} y mide la anisocitosis.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Índices",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un RDW > 15 % orienta a {{c1::ferropenia}}; en la talasemia el RDW es normal.",
+      "extra": "En talasemia los glóbulos son parejos.",
+      "origen": "clase:3",
+      "fuente": "Clase · RDW",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El IRC se calcula como % retic × (Hto / {{c1::45}}) ÷ factor de maduración.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · IRC",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Un IRC > {{c1::2 %}} define anemia regenerativa: la médula responde.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · IRC",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anemia regenerativa significa que la pérdida es {{c1::periférica}}: hemólisis o hemorragia aguda reciente.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 IRC",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Un IRC < 2 % define anemia {{c1::arregenerativa}}: déficit de sustrato, daño medular o citocinas inflamatorias.",
+      "extra": "Carencias, aplasia, leucemia, mielodisplasia, enfermedad crónica, uremia.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 IRC",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El sangrado digestivo crónico es {{c1::arregenerativo}} porque se agota el hierro.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Trampas del IRC",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En la hemorragia aguda la anemia es regenerativa solo después de {{c1::reexpandir la volemia}}.",
+      "extra": "La médula necesita unos días.",
+      "origen": "clase:5",
+      "fuente": "Clase · Trampas del IRC",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En hemólisis intensa el VCM puede ser falsamente alto porque los reticulocitos son > {{c1::110 fL}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Trampas del IRC",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En anemia microcítica arregenerativa con RDW alto, la causa más probable es {{c1::ferropenia}}.",
+      "extra": "Frotis: microcitosis, hipocromía, poiquilocitosis.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla VCM e IRC",
+      "repaso": false,
+      "imagen": "biblioteca/06_hematologia/hem-01/01_frotis-microcitico-hipocromo__amir-hemato_p16.jpg",
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En anemia normocítica arregenerativa, los rouleaux en el frotis sugieren {{c1::mieloma múltiple}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla VCM e IRC",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Esquistocitos en el frotis de una anemia normocítica regenerativa sugieren {{c1::PTT o SHU}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla VCM e IRC",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los neutrófilos hipersegmentados y macroovalocitos indican anemia {{c1::megaloblástica}} (B12 o folato).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla VCM e IRC",
+      "repaso": false,
+      "imagen": "biblioteca/06_hematologia/hem-01/01_frotis-macroovalocitos-hipersegmentado__amir-hemato_p29.jpg",
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anemia con hematocrito 27 %, VCM 74 fL y reticulocitos 0,6 % en un adulto mayor: pedir {{c1::perfil de hierro y endoscopía alta más colonoscopía}}.",
+      "extra": "Se sospecha ferropenia por sangrado digestivo oculto; sin inestabilidad, no se transfunde.",
+      "origen": "libro:caso",
+      "fuente": "Libro · caso clínico",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En ferropenia, la trombocitosis reactiva se acompaña de {{c1::microcitosis}} en el hemograma.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Disnea, palidez, coluria, ictericia y esplenomegalia: el examen inicial de elección es {{c1::hemograma con reticulocitos}}.",
+      "extra": "Después se pide Coombs directo para la causa autoinmune.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz Julio 2013",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 87"
+      ],
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "VCM 110 con reticulocitos bajos en una mujer joven: el diagnóstico más probable es {{c1::anemia perniciosa}}.",
+      "extra": "Macrocítica arregenerativa; la causa más frecuente de déficit de B12.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Julio 2013",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 18"
+      ],
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anemia aguda grave con bilirrubina indirecta y LDH elevadas y microesferocitos: {{c1::hemólisis}}, probablemente autoinmune.",
+      "extra": "El Coombs directo confirma la causa.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Diciembre 2025",
+      "repaso": false,
+      "imagen": "biblioteca/06_hematologia/hem-01/01_frotis-esferocitos__amir-hemato_p34.jpg",
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 21"
+      ],
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fiebre a los 3 días tras quimioterapia: el examen inicial es el {{c1::hemograma}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Hemograma",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 168"
+      ],
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-01/01_frotis-microcitico-hipocromo__amir-hemato_p16.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Anemia microcítica hipocrómica",
+      "clave": "Glóbulos pequeños y pálidos; RDW alto sugiere ferropenia",
+      "conducta": "Perfil de hierro con ferritina",
+      "fuente": "Manual AMIR Hematología, p. 16",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-01/01_frotis-esferocitos__amir-hemato_p34.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Esferocitos: hemólisis",
+      "clave": "Glóbulos pequeños y redondos sin centro pálido",
+      "conducta": "Reticulocitos, LDH, bilirrubina y Coombs directo",
+      "fuente": "Manual AMIR Hematología, p. 34",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.008"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "Anemia regenerativa: ¿qué pides?",
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Arregenerativa microcítica: ¿qué estudias?",
+      "codigos": [
+        "1.08.4.008"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.2",
+      "pista": "Arregenerativa macrocítica: ¿qué estudias?",
+      "codigos": [
+        "1.08.4.008"
+      ]
+    }
+  ]
+}

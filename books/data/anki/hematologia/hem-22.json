@@ -1,0 +1,483 @@
+{
+  "classId": "hem-22",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síndrome de lisis tumoral aparece 12 a 72 horas tras la quimioterapia en tumores de recambio rápido: {{c1::Burkitt, LLA}} o leucocitos > 100.000.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Lisis tumoral",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.005"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 20",
+        "EUNACOM Julio 2025 · Pregunta 63"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cairo-Bishop: se requieren al menos {{c1::2 de 4}} alteraciones de laboratorio.",
+      "extra": "Tres suben (úrico, potasio, fósforo) y uno baja (calcio).",
+      "origen": "clase:2",
+      "fuente": "Clase · Cairo-Bishop",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.005"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cairo-Bishop: ácido úrico ≥ {{c1::8 mg/dL}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Cairo-Bishop",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.005"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cairo-Bishop: potasio ≥ {{c1::6 mEq/L}}.",
+      "extra": "Riesgo de arritmias ventriculares y paro.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Cairo-Bishop",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.005"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cairo-Bishop: fósforo ≥ {{c1::4,5 mg/dL}} en adultos y ≥ {{c2::6,5 mg/dL}} en niños.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cairo-Bishop",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.005"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cairo-Bishop: calcio corregido ≤ {{c1::7 mg/dL}}.",
+      "extra": "El fósforo en exceso precipita con el calcio.",
+      "origen": "clase:2",
+      "fuente": "Clase · Cairo-Bishop",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.005"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lisis tumoral clínica: criterios de laboratorio más IRA (creatinina {{c1::1,5 veces}} el basal), arritmias o convulsiones.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cairo-Bishop",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.005"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La prevención base de la lisis tumoral es la {{c1::hiperhidratación}} con suero fisiológico 24 a 48 h antes de la quimioterapia.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Prevención",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.005"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 106"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hiperhidratación: suero fisiológico {{c1::2,5–3 L/m²/día}}, con diuresis > {{c2::80–100 mL/m²/hora}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Prevención",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.005"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Riesgo bajo a intermedio de lisis: {{c1::alopurinol 300 mg/día}} VO.",
+      "extra": "Bloquea la xantina oxidasa; no degrada el urato ya acumulado.",
+      "origen": "clase:3",
+      "fuente": "Clase · Prevención",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.005"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 106"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alto riesgo de lisis: {{c1::rasburicasa 0,2 mg/kg}} EV.",
+      "extra": "Convierte el ácido úrico en alantoína hidrosoluble.",
+      "origen": "clase:3",
+      "fuente": "Clase · Prevención",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.005"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La rasburicasa está contraindicada en déficit de {{c1::G6PD}} por hemólisis y metahemoglobinemia; se usa alopurinol.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Prevención",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.005"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Para prevenir lisis tumoral no se {{c1::alcaliniza la orina}} con bicarbonato: precipita fosfato cálcico.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Prevención",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.005"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Burkitt o LLA > 100.000 antes de quimioterapia: el error es dar {{c1::solo alopurinol}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.005"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lisis con K 6,8 y QRS ancho: lo primero es {{c1::gluconato de calcio al 10 % EV}} lento.",
+      "extra": "Estabiliza la membrana cardíaca; no se espera la diálisis.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.005"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Para bajar el potasio: {{c1::insulina + glucosa}} y salbutamol, que meten el K a la célula.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Lisis establecida",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.005"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En lisis establecida, la hemodiálisis de urgencia se indica si hay {{c1::anuria o hiperkalemia refractaria}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Lisis establecida",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.005"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hipercalcemia maligna se produce por {{c1::PTHrP}} o metástasis osteolíticas (mama, pulmón, riñón, mieloma).",
+      "extra": "En cáncer, la PTH está suprimida.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Hipercalcemia",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.004"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Clínica de hipercalcemia: poliuria con deshidratación, constipación, confusión y QT {{c1::corto}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Hipercalcemia",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.004"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hipercalcemia sintomática: primero {{c1::suero fisiológico}}, no el bifosfonato.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.004"
+      ],
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 105",
+        "EUNACOM Julio 2016 · Pregunta 156",
+        "EUNACOM Julio 2015 · Pregunta 67"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hipercalcemia: suero fisiológico {{c1::3 a 4 L}} en 24 horas.",
+      "extra": "Favorece la calciuria.",
+      "origen": "clase:5",
+      "fuente": "Clase · Hipercalcemia",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.004"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Luego del suero se da {{c1::ácido zoledrónico 4 mg}} EV; su efecto aparece a las {{c2::48–72 horas}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Hipercalcemia",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.004"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Calcemia 14,4 con metástasis óseas en imágenes: para proseguir el estudio se pide {{c1::PTH}}.",
+      "extra": "PTH alta: hiperparatiroidismo primario; baja: origen neoplásico.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Agosto 2021",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.004"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La compresión medular neoplásica cursa con dolor raquídeo {{c1::progresivo y nocturno}}, paraparesia y nivel sensitivo.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Compresión medular",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.007"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La retención urinaria es un signo {{c1::tardío}} de compresión medular.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Compresión medular",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.007"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Ante la sospecha de compresión medular: {{c1::dexametasona 16–24 mg}} EV de inmediato.",
+      "extra": "Reduce el edema perimedular; no espera la resonancia.",
+      "origen": "clase:6",
+      "fuente": "Clase · Compresión medular",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.007"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Cáncer + dolor dorsal + paraparesia: el error es {{c1::esperar la resonancia}} para dar dexametasona.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.007"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El estudio de elección en compresión medular es la {{c1::RM de columna completa con gadolinio}}.",
+      "extra": "Puede haber varios niveles; se coordina radioterapia urgente.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Diciembre 2024",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.007"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Paraplejia con fiebre y dolor raquídeo: pensar en {{c1::absceso epidural}}, con RM urgente y traslado.",
+      "extra": "No dar por hecho compresión tumoral.",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.011"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El principal diferencial de la paraplejia aguda es el {{c1::Guillain-Barré}}: arreflexia ascendente sin nivel sensitivo.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Paraplejia aguda",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.011"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En paraplejia con trauma no se da dexametasona; se {{c1::inmoviliza la columna}}.",
+      "extra": "Dexametasona solo si se sospecha tumor.",
+      "origen": "clase:7",
+      "fuente": "Clase · Paraplejia aguda",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.011"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Un paciente parapléjico por más de {{c1::24 a 48 horas}} rara vez recupera la marcha: no se retrasa el traslado.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Paraplejia aguda",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.011"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-22/01_ecg-hiperpotasemia-t-picudas__cto-nefro_p23.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Hiperkalemia: ondas T picudas",
+      "clave": "T picudas y simétricas, con QRS ensanchado",
+      "conducta": "Gluconato de calcio 10 % EV lento; insulina + glucosa y salbutamol",
+      "fuente": "Manual CTO Nefrología 14.ª ed., p. 23",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.005"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-22/01_rm_compresion_medular__harrison_p3489.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Compresión medular por metástasis vertebral",
+      "clave": "Masa que comprime la médula en la RM",
+      "conducta": "Dexametasona EV de inmediato; RM de columna completa y radioterapia urgente",
+      "fuente": "Harrison, 21.ª ed., p. 3489",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.007"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "Lisis con hiperkalemia y ECG alterado: ¿qué va primero?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1",
+      "pista": "Calcio alto: ¿qué tratamiento y en qué orden?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2",
+      "pista": "Dolor dorsal con déficit neurológico en cáncer: ¿qué haces?"
+    }
+  ]
+}

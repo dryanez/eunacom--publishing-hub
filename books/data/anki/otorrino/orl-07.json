@@ -1,0 +1,499 @@
+{
+ "classId": "orl-07",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El VPPB es la causa más frecuente de vértigo {{c1::periférico}} y se debe a canalitiasis.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 VPPB",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fisiopatología del VPPB: otoconias de carbonato de calcio se desprenden del {{c1::utrículo}} hacia un canal semicircular.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 VPPB",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el {{c1::85-90%}} de los casos el VPPB afecta al canal semicircular posterior.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 VPPB",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Crisis de VPPB: vértigo de {{c1::10 a 60 segundos}} desencadenado por cambios posicionales de la cabeza; sin hipoacusia ni acúfeno.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 VPPB",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dix-Hallpike: cabeza rotada 45°, extendida 20°; tras latencia de {{c1::2 a 5 segundos}} aparece nistagmo torsional que se fatiga.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Dix-Hallpike",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El nistagmo del VPPB es torsional y vertical {{c1::geotrópico}}, con latencia y fatigabilidad.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Dix-Hallpike",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento de elección del VPPB: maniobra de {{c1::Epley}} (o Semont), sin fármacos.",
+   "extra": "Dix-Hallpike positivo para canal posterior izquierdo.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Tratamiento",
+   "repaso": true,
+   "imagen": "biblioteca/17_otorrino/orl-07/01_maniobra-de-epley-modificada__harrison_p202.jpg",
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 137"
+   ],
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Epley cura a más del {{c1::90%}} en la misma consulta.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el VPPB están desaconsejados los sedantes vestibulares y la {{c1::cinarizina}} o flunarizina: no corrigen la canalitiasis.",
+   "extra": "Causan somnolencia y parkinsonismo en adultos mayores.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fármacos",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Vértigo de segundos al girar la cabeza tras un traumatismo: VPPB postraumático; {{c1::maniobras de reposición}}.",
+   "extra": "Golpe en la cabeza hace 10 días y hace un mes.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Postraumático",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 7",
+    "EUNACOM Diciembre 2022 · Pregunta 168"
+   ],
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neuronitis vestibular: inflamación viral del nervio vestibular con vértigo continuo de {{c1::2 a 5 días}}, náuseas y vómitos.",
+   "extra": "Mujer de 43 años con vértigo de 5 días sin síntomas auditivos.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Neuronitis",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 88"
+   ],
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neuronitis: sin hipoacusia ni acúfeno; con hipoacusia súbita se llama {{c1::laberintitis}} aguda.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Neuronitis",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neuronitis: nistagmo horizontal unidireccional hacia el oído {{c1::sano}}, que aumenta al mirar hacia donde bate (Alexander).",
+   "extra": "Vértigo de 2 días con audición conservada y nistagmo a la derecha: parálisis vestibular periférica.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Nistagmo",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 101"
+   ],
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Los sedantes vestibulares (dimenhidrinato, lorazepam) solo por {{c1::48 horas}} para no frenar la compensación central.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Sedantes",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neuronitis: corticoides orales, prednisona {{c1::1 mg/kg/día}} por 7 días.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Corticoides",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ménière se debe a un {{c1::hidrops endolinfático}} por reabsorción deficiente en el saco endolinfático.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Ménière",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tríada de Ménière: vértigo de horas, hipoacusia sensorioneural {{c1::fluctuante}} y acúfeno con plenitud ótica.",
+   "extra": "Vértigo, tinnitus unilateral fluctuante e hipoacusia ipsilateral de horas.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tríada",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 154"
+   ],
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Crisis de Ménière: de {{c1::20 minutos a 12 horas}} (típica 2-4 horas).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Crisis",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ménière inicial: caída en frecuencias {{c1::graves y medias}} (250-1000 Hz).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Audiometría",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Prevención de Ménière: sodio menor de {{c1::2 g/día}}, sin cafeína ni tabaco.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Prevención",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ménière: diurético tiazídico (hidroclorotiazida) o {{c1::betahistina}} entre crisis.",
+   "extra": "Betahistina 16-24 mg cada 12 horas.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fármacos",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Ménière refractario: inyecciones intratimpánicas de corticoide o {{c1::gentamicina}} (laberintectomía química).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Refractarios",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el síndrome vestibular agudo lo primero es descartar un {{c1::ACV de fosa posterior}} (PICA o AICA).",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 HINTS",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El HINTS entrenado tiene sensibilidad 100%, mejor que una RM precoz con {{c1::12-20%}} de falsos negativos.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 HINTS",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Head Impulse: impulso {{c1::normal}} (sin sacada) con vértigo continuo orienta a causa central.",
+   "extra": "Sacada correctiva: periférico.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Impulso",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Nistagmo central: {{c1::bidireccional}} (cambia con la mirada), vertical u oscilatorio.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Nistagmo",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Test of Skew: desalineación vertical ocular es signo de lesión {{c1::central}} (troncoencefálica).",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Skew",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Regla INFARCT: Impulse normal, Fast-phase alternating y Refixation on Cover Test; cualquiera obliga a {{c1::hospitalizar}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 INFARCT",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Vértigo súbito con dismetría y nistagmo multidireccional en hipertenso de 67 años: {{c1::TAC de cerebro}}.",
+   "extra": "Sospecha de ACV cerebeloso en ventana de trombólisis.",
+   "origen": "clase:17",
+   "fuente": "Clase · Quiz",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tratamiento de la neuronitis: corticoides y sedantes máximo 48 h; del Ménière: sal < 2 g y {{c1::diurético o betahistina}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-07/01_maniobra-de-epley-modificada__harrison_p202.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Maniobra de Epley",
+   "clave": "Secuencia de posiciones de la cabeza para reposicionar las otoconias",
+   "conducta": "VPPB: reposición canalicular en la consulta",
+   "fuente": "Harrison 21.ª ed., Fig. 22-1",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 137"
+   ],
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Vértigo continuo con nistagmo: ¿qué se descarta primero?",
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1",
+   "pista": "HINTS periférico con vértigo de días: ¿diagnóstico?",
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.2.0",
+   "pista": "Crisis de segundos con cambios de posición: ¿conducta?",
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.2.1",
+   "pista": "Horas con hipoacusia y acúfeno: ¿diagnóstico y prevención?",
+   "codigos": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ]
+  }
+ ]
+}

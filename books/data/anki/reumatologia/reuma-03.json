@@ -1,0 +1,498 @@
+{
+  "classId": "reuma-03",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La gota se asocia a hiperuricemia crónica con ácido úrico sérico > {{c1::6.8 mg/dL}} (punto de saturación a 37 °C).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.11.2.002"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la gota, el {{c1::90%}} de los pacientes tiene hipoexcreción renal de urato y solo el 10% sobreproducción.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Por qué precipita",
+      "repaso": false,
+      "codigos": [
+        "1.11.2.002",
+        "1.11.1.007"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Gatillantes de crisis gotosa: alcohol, carnes y vísceras, deshidratación y {{c1::diuréticos (tiazidas, furosemida)}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.11.2.002"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La podagra es la artritis de la primera articulación {{c1::metatarsofalángica}} y ocurre en el 50–70% del primer ataque de gota.",
+      "extra": "Inicio nocturno, dolor que no tolera la sábana.",
+      "origen": "clase:2",
+      "fuente": "Clase · Podagra",
+      "repaso": true,
+      "codigos": [
+        "1.11.2.002",
+        "1.11.1.007"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la gota crónica se ven erosiones en sacabocado con bordes colgantes, el signo de {{c1::Martel}}, sin osteopenia periarticular.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Radiología",
+      "repaso": false,
+      "codigos": [
+        "1.11.2.002",
+        "1.11.1.007"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los tofos de la gota crónica aparecen en hélix auricular, bolsas olecraneanas, {{c1::tendón de Aquiles}} y dedos.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Gota tofácea",
+      "repaso": false,
+      "codigos": [
+        "1.11.2.002"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La pseudogota afecta típicamente la {{c1::rodilla}} (50%), muñecas y hombros, y es más prevalente en > 65 años.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Pseudogota",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 2"
+      ],
+      "codigos": [
+        "1.11.2.002"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causas secundarias de condrocalcinosis: hemocromatosis, hiperparatiroidismo primario, {{c1::hipomagnesemia}} e hipofosfatasia.",
+      "extra": "Se buscan si el paciente es < 60 años o hay poliartritis.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.11.2.002"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Radiografía de condrocalcinosis: calcificación lineal o punteada de {{c1::meniscos}} y fibrocartílago.",
+      "extra": "También ligamento triangular del carpo y sínfisis púbica.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla gota vs pseudogota",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 64"
+      ],
+      "codigos": [
+        "1.11.2.002",
+        "1.11.1.007"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cristales de urato: aguja fina con birrefringencia {{c1::negativa}} intensa; paralelos al compensador se ven amarillos.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla gota vs pseudogota",
+      "repaso": true,
+      "codigos": [
+        "1.11.2.002",
+        "1.11.1.007"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cristales de pirofosfato (CPPD): romboidales con birrefringencia {{c1::débilmente positiva}}; paralelos al compensador se ven azules.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla gota vs pseudogota",
+      "repaso": true,
+      "codigos": [
+        "1.11.2.002",
+        "1.11.1.007"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Un ácido úrico normal en plena crisis no descarta gota: ocurre en el {{c1::30–40%}} de las crisis agudas.",
+      "extra": "La inflamación aumenta la uricosuria (IL-6).",
+      "origen": "clase:5",
+      "fuente": "Clase · Trampas de laboratorio",
+      "repaso": true,
+      "codigos": [
+        "1.11.2.002",
+        "1.11.1.007"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Una pseudogota puede tener > {{c1::100.000}} GB sin ser séptica: sin bacterias al Gram ni cultivo, el cristal da la respuesta.",
+      "extra": "Cristales e infección coexisten en 5%.",
+      "origen": "clase:5",
+      "fuente": "Clase · Trampas de laboratorio",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 64"
+      ],
+      "codigos": [
+        "1.11.2.002",
+        "1.11.1.007"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Primera elección en la crisis gotosa de un adulto sin patología gástrica ni renal: {{c1::AINEs a dosis plenas}}.",
+      "extra": "Naproxeno, ibuprofeno o indometacina; diclofenaco en la pregunta real.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Ataque agudo",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 30"
+      ],
+      "codigos": [
+        "1.11.2.002"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Colchicina en crisis gotosa, dosis baja: {{c1::1 mg}} de inicio y 0.5 mg a la hora (máximo 1.5 mg el día 1).",
+      "extra": "Efectiva si se da en las primeras 24 horas.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Ataque agudo",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 55",
+        "EUNACOM Julio 2019 · Pregunta 112"
+      ],
+      "codigos": [
+        "1.11.2.002"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Los esquemas antiguos de colchicina con dosis horarias repetidas están proscritos por {{c1::toxicidad gastrointestinal}} (diarrea profusa).",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Ataque agudo",
+      "repaso": false,
+      "codigos": [
+        "1.11.2.002"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Gota aguda con insuficiencia renal crónica, úlcera péptica activa o anticoagulación: {{c1::prednisona 30–35 mg/día por 5 días}}.",
+      "extra": "Los AINEs están contraindicados en ERC.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Caso clínico",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 34"
+      ],
+      "codigos": [
+        "1.11.2.002"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Regla de oro: durante la crisis aguda de gota NUNCA se inicia {{c1::alopurinol}}; si ya lo tomaba, se mantiene la misma dosis.",
+      "extra": "La caída brusca de uricemia perpetúa la sinovitis.",
+      "origen": "clase:17",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "1.11.2.002"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El tratamiento hipouricemiante está indicado con ≥ {{c1::2 crisis al año}}, tofos, daño erosivo, urolitiasis o ERC.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Hipouricemiantes",
+      "repaso": false,
+      "codigos": [
+        "1.11.2.002"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El alopurinol se inicia {{c1::2 a 4 semanas}} después de resuelta la crisis, con 100 mg/día (50 mg en falla renal).",
+      "extra": "Se titula de 100 en 100 mg cada mes.",
+      "origen": "clase:8",
+      "fuente": "Clase · Hipouricemiantes",
+      "repaso": true,
+      "codigos": [
+        "1.11.2.002"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta de uricemia en gota: < {{c1::6.0 mg/dL}}; en pacientes con tofos palpables, < 5.0 mg/dL.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Hipouricemiantes",
+      "repaso": true,
+      "codigos": [
+        "1.11.2.002"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Al iniciar alopurinol se asocia {{c1::colchicina 0.5 mg/día}} por 3 a 6 meses para prevenir brotes por movilización de cristales.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Profilaxis",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 47"
+      ],
+      "codigos": [
+        "1.11.2.002"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si hay intolerancia, alergia o ineficacia al alopurinol, el fármaco de elección es {{c1::febuxostat}} (40–80 mg/día).",
+      "extra": "Inhibidor selectivo de la xantina oxidasa.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Hipouricemiante",
+      "repaso": false,
+      "codigos": [
+        "1.11.2.002"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Primera opción en crisis de pseudogota monoarticular, tras descartar infección: {{c1::artrocentesis evacuadora + corticoide intraarticular}}.",
+      "extra": "Metilprednisolona o triamcinolona.",
+      "origen": "clase:7",
+      "fuente": "Clase · Crisis de pseudogota",
+      "repaso": true,
+      "codigos": [
+        "1.11.2.002",
+        "1.11.1.007"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Pseudogota aguda con Gram negativo: reposo, hielo y {{c1::AINEs}} como medida inicial de las preguntas reales.",
+      "extra": "El alopurinol no actúa sobre el pirofosfato.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro · preguntas Perfil V3",
+      "repaso": true,
+      "codigos": [
+        "1.11.2.002"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Pseudogota con poliartritis o contraindicación de AINEs: {{c1::prednisona 30–40 mg/día}} por 3–5 días con pauta descendente.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Crisis de pseudogota",
+      "repaso": false,
+      "codigos": [
+        "1.11.2.002",
+        "1.11.1.007"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Para prevenir nuevas crisis de pseudogota recurrente se usa {{c1::colchicina 0.5 mg al día}}.",
+      "extra": "No existe fármaco que disuelva el CPPD.",
+      "origen": "clase:7",
+      "fuente": "Clase · Crisis de pseudogota",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 96"
+      ],
+      "codigos": [
+        "1.11.2.002",
+        "1.11.1.007"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La condrocalcinosis es la causa más frecuente de monoartritis aguda en el {{c1::adulto mayor}}, y puede gatillarse por reposo (p. ej. hospitalización).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "EUNACOM Julio 2017 · Pregunta 2",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 2"
+      ],
+      "codigos": [
+        "1.11.2.002"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si un paciente con artritis de rodilla y fiebre tiene líquido inflamatorio, se hace primero {{c1::estudio del líquido articular}}.",
+      "extra": "Distingue séptica, cristales y artrosis.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz EUNACOM Julio 2015",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2015 · Pregunta 8"
+      ],
+      "codigos": [
+        "1.11.4.002",
+        "1.11.2.002"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-03/03_condrocalcinosis-rx-rodilla__amir-reuma_p23.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Condrocalcinosis de rodilla",
+      "clave": "Calcificación lineal o punteada de meniscos y cartílago",
+      "conducta": "Artrocentesis (descartar infección); AINEs/reposo o corticoide intraarticular",
+      "fuente": "Manual AMIR Reumatología, p. 23",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.007",
+        "1.11.2.002"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-03/02_tofos-en-manos__amir-reuma_p19.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Gota tofácea crónica",
+      "clave": "Nódulos duros bajo la piel de las manos (tofos)",
+      "conducta": "Alopurinol titulado + colchicina profiláctica; meta < 5.0 mg/dL con tofos",
+      "fuente": "Manual AMIR Reumatología, p. 19",
+      "repaso": false,
+      "codigos": [
+        "1.11.2.002"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-03/01_cristales_pirofosfato_polarizada__commons.jpg",
+      "pregunta": "¿Qué cristal es y qué enfermedad?",
+      "diagnostico": "Cristales de pirofosfato de calcio (pseudogota)",
+      "clave": "Romboidales, birrefringencia débilmente positiva (azules paralelos)",
+      "conducta": "Reposo + AINEs o corticoide; sin hipouricemiantes",
+      "fuente": "Wikimedia Commons, CC0, M. Häggström",
+      "repaso": false,
+      "codigos": [
+        "1.11.2.002",
+        "1.11.1.007"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "Gota en crisis aguda: ¿tratamiento y qué está prohibido?",
+      "codigos": [
+        "1.11.2.002"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.1",
+      "pista": "≥ 2 crisis o tofos en intercrisis: ¿qué indicas?",
+      "codigos": [
+        "1.11.2.002"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "Cristales romboides birrefringencia (+): ¿manejo?",
+      "codigos": [
+        "1.11.2.002"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,651 @@
+{
+ "classId": "cardio-23",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La causa más frecuente de estenosis aórtica en Chile y en mayores de 70 años es la {{c1::degenerativa calcificada}} (senil).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Etiología",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La válvula aórtica {{c1::bicúspide}} congénita es la anomalía cardíaca congénita más prevalente (1 a 2% de la población).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Etiología",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Estenosis aórtica en menor de 65 años sin fiebre reumática: {{c1::válvula bicúspide}}; el error es degeneración senil.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.009"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 174",
+    "EUNACOM Julio 2019 · Pregunta 101",
+    "EUNACOM Diciembre 2024 · Pregunta 131"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La pared rígida de la estenosis aórtica depende de la contracción auricular: mal tolerada la {{c1::fibrilación auricular}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tríada de síntomas de la estenosis aórtica: angina, {{c1::síncope}} y disnea.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · La tríada y la sobrevida",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Sobrevida media sin cirugía tras la angina de esfuerzo: {{c1::5 años}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · La tríada y la sobrevida",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Sobrevida media sin cirugía tras el síncope de esfuerzo: {{c1::3 años}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · La tríada y la sobrevida",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Sobrevida media sin cirugía tras la disnea o insuficiencia cardíaca: {{c1::2 años}}.",
+   "extra": "Es la presentación de peor pronóstico.",
+   "origen": "clase:2",
+   "fuente": "Clase · La tríada y la sobrevida",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la estenosis aórtica asintomática el riesgo de muerte súbita es bajo, menos de {{c1::1% al año}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Historia natural",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Síncope de esfuerzo en estenosis aórtica: el gasto cardíaco {{c1::fijo}} no puede aumentar cuando el ejercicio dilata los vasos musculares.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tríada",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Síndrome de Heyde: estenosis aórtica con sangrado digestivo por {{c1::angiodisplasias}}; se resuelve al reemplazar la válvula.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Dato de examen",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Anciano con angina y soplo sistólico: primero {{c1::ecocardiograma Doppler}}; el error es prueba de esfuerzo o coronariografía.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.009"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 126",
+    "EUNACOM Julio 2016 · Pregunta 168",
+    "EUNACOM Julio 2015 · Pregunta 56",
+    "EUNACOM Julio 2017 · Pregunta 110",
+    "EUNACOM Julio 2015 · Pregunta 55"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El examen más adecuado en un adulto mayor con dolor torácico de esfuerzo y soplo sistólico irradiado al cuello es la {{c1::ecocardiografía Doppler}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.006"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 56",
+    "EUNACOM Julio 2013 · Pregunta 53"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pulso parvus et tardus: amplitud pequeña y ascenso {{c1::lento}}, mejor palpado en las carótidas.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Pulso, frémito, soplo y ruidos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Soplo de la estenosis aórtica: eyectivo en rombo en el foco aórtico (2.º EIC derecho) con irradiación a ambas {{c1::carótidas}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Pulso, frémito, soplo y ruidos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mientras más grave la estenosis aórtica, más {{c1::tardío}} es el pico del soplo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Semiología",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la estenosis aórtica el componente aórtico de R2 está {{c1::apagado o ausente}}; es frecuente un R4.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Pulso, frémito, soplo y ruidos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.009"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 168",
+    "EUNACOM Julio 2017 · Pregunta 110"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Válvula bicúspide con estenosis: se oye además un {{c1::clic eyectivo}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Semiología",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Esclerosis aórtica: soplo eyectivo con R2 y pulso {{c1::normales}}, sin obstrucción importante.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Pulso, frémito, soplo y ruidos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El soplo de la estenosis aórtica disminuye con Valsalva y {{c1::handgrip}}; el de la MCH aumenta con Valsalva.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Pulso, frémito, soplo y ruidos",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Soplo eyectivo, R2 apagado, parvus et tardus: estenosis aórtica; el error es {{c1::miocardiopatía hipertrófica}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.009"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 126",
+    "EUNACOM Julio 2015 · Pregunta 55"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Joven de 20 años con soplo en la infancia, opresión precordial al caminar, pulso débil y HTA sistólica: {{c1::estenosis aórtica}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Etiología",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.009"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 101",
+    "EUNACOM Diciembre 2025 · Pregunta 174"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Adulto mayor con síncope, soplo eyectivo irradiado al cuello y choque sostenido: {{c1::estenosis aórtica}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tríada",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.009"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 110",
+    "EUNACOM Diciembre 2019 · Pregunta 126",
+    "EUNACOM Julio 2015 · Pregunta 55",
+    "EUNACOM Julio 2016 · Pregunta 168"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Estenosis aórtica severa: velocidad pico ≥ {{c1::4,0 m/s}}.",
+   "extra": "La medida más reproducible.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Severidad",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Estenosis aórtica severa: gradiente medio ≥ {{c1::40 mmHg}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Severidad",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Estenosis aórtica severa: área valvular ≤ {{c1::1,0 cm²}} (indexada < 0,6 cm²/m²).",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Severidad",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Estenosis aórtica moderada: velocidad {{c1::3,0 a 3,9 m/s}}, gradiente 25 a 39 mmHg, AVA 1,0 a 1,5 cm².",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Severidad",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "AVA pequeña con gradiente bajo y FEVI reducida: se aclara con ecocardiograma de estrés con {{c1::dobutamina}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Casos difíciles",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "AVA pequeña con gradiente bajo y FEVI normal («paradójica»): se completa con {{c1::score de calcio}} valvular por tomografía.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Ecocardiografía",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "ECG de la estenosis aórtica: HVI con {{c1::sobrecarga}} (strain); la radiografía puede mostrar dilatación postestenótica de la aorta.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Casos difíciles y otros exámenes",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antes de la cirugía se estudian las coronarias con {{c1::coronariografía}} en hombres > 40 años, posmenopáusicas y pacientes con factores de riesgo o angina.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Exámenes",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La prueba de esfuerzo está {{c1::contraindicada}} en la estenosis aórtica severa sintomática.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Primero eco; esfuerzo contraindicado",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con BCRI no sirve la prueba de esfuerzo; para buscar isquemia se pide {{c1::ecocardiografía de estrés}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Pregunta real Jul. 2013 P102",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.006"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 102"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Las {{c1::estatinas}} no frenan la progresión de la estenosis aórtica; no hay tratamiento médico que cambie la historia natural.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · No hay tratamiento médico",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estenosis aórtica con hipertensión: IECA en dosis {{c1::bajas}} con cautela; evitar deshidratación y vasodilatadores potentes.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estenosis aórtica severa sintomática: {{c1::reemplazo valvular}} sin esperar.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Estenosis severa asintomática con FEVI < {{c1::50%}}: se reemplaza la válvula, no se espera síntomas.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "También hay indicación de reemplazo en el asintomático con prueba de esfuerzo anormal o que se opera de {{c1::otra cirugía cardíaca}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Reemplazo valvular",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cirugía (SAVR) en el menor de 65-75 años con bajo riesgo; la prótesis mecánica exige anticoagulación con {{c1::acenocumarol}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Cirugía o TAVI",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "TAVI es de elección en ≥ {{c1::75-80 años}}, frágiles o de riesgo quirúrgico intermedio o alto.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Cirugía o TAVI",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Anciano frágil de 80 años: TAVI; el error es {{c1::valvuloplastía con balón}} definitiva (solo puente o paliativa).",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c46",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Seguimiento por ecocardiograma: leve cada 3 a 5 años, moderada cada 1 a 2 años, severa asintomática cada {{c1::6 a 12 meses}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Seguimiento",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c47",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "La cirugía de las válvulas aórtica, mitral y tricúspide (lesiones crónicas) tiene garantía GES desde los {{c1::15 años}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro · GES",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "c48",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "No se indica profilaxis de endocarditis en la válvula {{c1::nativa}}; sí en la prótesis.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-23/01_estenosis-aortica-valvar-eco-domo-sistolico-y-regurgitacion__nelson_p2792.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Estenosis aórtica valvar con domo sistólico y regurgitación",
+   "clave": "Válvula que se abomba en sístole formando un domo",
+   "conducta": "Cuantificar velocidad pico, gradiente medio y AVA; derivar si es severa",
+   "fuente": "Nelson Textbook of Pediatrics, 22.ª ed., p. 2792",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.009"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.1",
+   "pista": "Eco con estenosis severa: ¿qué criterios la definen?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "Severa asintomática sin otros criterios: ¿qué control?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.1.0",
+   "pista": "Menor de 65-75 años y bajo riesgo: ¿qué modalidad?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.1.1",
+   "pista": "75-80 años o más y frágil: ¿qué modalidad?"
+  }
+ ]
+}

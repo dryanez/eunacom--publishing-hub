@@ -1,0 +1,495 @@
+{
+  "classId": "hem-03",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Etapa 1 de la ferropenia (prelatente): ferritina < {{c1::30 ng/mL}} con Hb y VCM normales.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Etapas",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Etapa 2 de la ferropenia (latente): ferremia e IST < {{c1::15 %}}, transferrina alta y RDW elevado.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Etapas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La coiloniquia (uñas en cuchara) es un signo propio de {{c1::ferropenia}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "imagen": "biblioteca/06_hematologia/hem-03/01_coiloniquia__commons.jpg",
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Queilitis angular y glositis atrófica son signos epiteliales de {{c1::ferropenia}}.",
+      "extra": "Lengua lisa y dolorosa, sin papilas.",
+      "origen": "clase:3",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "imagen": "biblioteca/06_hematologia/hem-03/01_glositis_ferropenia__commons.jpg",
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Diagnóstico de laboratorio: VCM < {{c1::80 fL}} y HCM < {{c2::27 pg}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con inflamación asociada, ferritina < {{c1::100 ng/mL}} más IST < 15 % también confirma ferropenia.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La ferropenia no es un diagnóstico final: es un {{c1::síntoma}} que exige encontrar el sangrado o la malabsorción.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer fértil con hipermenorrea y sin síntomas digestivos: causa {{c1::ginecológica}}, hierro oral sin endoscopía de rutina.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hombre o posmenopáusica con ferropenia: estudio con {{c1::EDA y colonoscopía total}}; el error es solo recetar hierro.",
+      "extra": "Cáncer de colon derecho o gástrico hasta demostrar lo contrario.",
+      "origen": "clase:13",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hombre de 64 años con cambio del hábito intestinal y anemia microcítica: pedir {{c1::colonoscopía}}.",
+      "extra": "La sangre oculta no aporta: la anemia ya prueba la pérdida.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Diciembre 2017",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Posmenopáusica ferropénica que usa aspirina y diclofenaco, con antecedente de úlcera duodenal: se estudia con {{c1::endoscopía digestiva alta}}.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Diciembre 2022",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con endoscopías negativas y malabsorción o falla del hierro oral, se descarta {{c1::enfermedad celíaca}}.",
+      "extra": "Anti-transglutaminasa IgA más biopsia duodenal.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Algoritmo",
+      "repaso": false,
+      "imagen": "biblioteca/06_hematologia/hem-03/02_atrofia-vellositaria-celiaca__pathoma_p114.jpg",
+      "codigos": [
+        "1.08.1.002",
+        "2.01.1.031"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hierro oral: {{c1::40 a 100 mg}} de hierro elemental al día o en días alternos.",
+      "extra": "Cada dosis sube la hepcidina 24–48 h y bloquea la siguiente.",
+      "origen": "clase:6",
+      "fuente": "Clase · Hierro oral",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El hierro oral se toma en ayunas con {{c1::vitamina C}} para mantenerlo en forma ferrosa soluble.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Hierro oral",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Al dar hierro hay que advertir que tiñe las deposiciones de {{c1::negro}} (falsa melena sin mal olor).",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Hierro oral",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Primer marcador objetivo de respuesta al hierro: pico de reticulocitos a los {{c1::5 a 7 días}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Cronología",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si la Hb se normaliza a los 2 meses, el error es {{c1::suspender el hierro}}.",
+      "extra": "Se sigue 3 a 6 meses más hasta ferritina > 50–100 ng/mL.",
+      "origen": "clase:7",
+      "fuente": "Clase · Cronología",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Indicación de hierro endovenoso: malabsorción como celiaquía, gastrectomía, {{c1::by-pass gástrico}} o EII activa.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Hierro endovenoso",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hierro EV también en ERC 4–5 o hemodiálisis con EPO y en embarazo ≥ {{c1::32 semanas}} con anemia grave.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Hierro endovenoso",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Carboximaltosa férrica o hierro sacarato: {{c1::500 a 1.000 mg}} en 15 a 30 minutos.",
+      "extra": "No tienen el riesgo del hierro dextrano, que requería dosis de prueba.",
+      "origen": "clase:8",
+      "fuente": "Clase · Hierro endovenoso",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En ferropenia estable sin criterios clínicos, el error es {{c1::transfundir por el número}} de Hb.",
+      "extra": "Se transfunde por inestabilidad, disnea CF IV o angina.",
+      "origen": "clase:10",
+      "fuente": "Clase · Transfusión",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Constipación que empezó {{c1::antes}} del hierro obliga a colonoscopía de inmediato.",
+      "extra": "Si empezó después: días alternos o laxante osmótico.",
+      "origen": "clase:10",
+      "fuente": "Clase · Constipación",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ferropenia en bypass gástrico con ferritina 9 ng/mL: se da hierro {{c1::endovenoso}}.",
+      "extra": "",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz Julio 2024",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 27"
+      ],
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anemia moderada tras hemorragia posparto controlada y sin inestabilidad: hierro {{c1::oral}}.",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz Julio 2024",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 166"
+      ],
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anemia microcítica en lactante de 6 a 24 meses: lo más probable es anemia {{c1::ferropriva}}.",
+      "extra": "Se confirma con ferritina y se trata con hierro oral.",
+      "origen": "clase:20",
+      "fuente": "Clase · Quiz Diciembre 2018",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 115"
+      ],
+      "codigos": [
+        "2.01.1.031"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "El GES cubre prevención y tratamiento integral de la anemia ferropénica en {{c1::niños y gestantes}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Perfil · GES",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.031"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adulto mayor ferropénico con hematocrito 23 %: la clave de la pregunta fue {{c1::transfundir glóbulos rojos}} (pregunta discutible).",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Banco · Diciembre 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 18"
+      ],
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lactante de 2 meses con Hb 10,2 g/dL y VCM normal, asintomático: es {{c1::anemia fisiológica}} y no requiere hierro.",
+      "extra": "Nadir fisiológico a los 2-3 meses.",
+      "origen": "libro:sec:5",
+      "fuente": "Banco · Julio 2025",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 69"
+      ],
+      "codigos": [
+        "2.01.1.031",
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño de madre vegana, solo pecho, con pancitopenia y macrocitosis: {{c1::déficit de vitamina B12}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Banco · Enero 2023",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 36"
+      ],
+      "codigos": [
+        "2.01.1.031",
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño con ictericia neonatal previa, ictericia, palidez, esplenomegalia y reticulocitos altos: {{c1::anemia hemolítica}}.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Banco · Agosto 2021 y Julio 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 106",
+        "EUNACOM Julio 2019 · Pregunta 154"
+      ],
+      "codigos": [
+        "2.01.1.031",
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-03/01_coiloniquia__commons.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Coiloniquia (uñas en cuchara)",
+      "clave": "Uñas cóncavas",
+      "conducta": "Ferritina; si < 30 buscar la causa de la pérdida",
+      "fuente": "Wikimedia Commons, Koilonychia",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-03/atlas_120_queilitis_angular_estomatitis_.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Queilitis angular",
+      "clave": "Grietas en las comisuras de la boca",
+      "conducta": "Perfil de hierro; buscar causa de la ferropenia",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-03/02_atrofia-vellositaria-celiaca__pathoma_p114.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Atrofia vellositaria de enfermedad celíaca",
+      "clave": "Vellosidades aplanadas en biopsia duodenal",
+      "conducta": "Anti-transglutaminasa IgA; hierro endovenoso si hay malabsorción",
+      "fuente": "Pathoma, Fig. 10.18",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.002"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Hombre o posmenopáusica con ferropenia: ¿qué estudio?",
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Endoscopías negativas: ¿qué descartas?",
+      "codigos": [
+        "1.08.1.002"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2",
+      "pista": "Malabsorción o intolerancia grave: ¿qué hierro?",
+      "codigos": [
+        "1.08.1.002"
+      ]
+    }
+  ]
+}

@@ -11,10 +11,12 @@
     "build:neumo": "node scripts/build_book.cjs neumologia",
     "build:respiratorio": "node scripts/build_book.cjs neumologia",
     "build:nefro": "node scripts/build_book.cjs nefrologia",
-    "build:nefrologia": "node scripts/build_book.cjs nefrologia"
+    "build:nefrologia": "node scripts/build_book.cjs nefrologia",
+    "repaso:gastro": "node scripts/build_repaso.cjs gastroenterologia"
   },
   "dependencies": {
-    "puppeteer": "^22.0.0"
+    "puppeteer": "^22.0.0",
+    "qrcode": "^1.5.4"
   },
   "keywords": [
     "eunacom",

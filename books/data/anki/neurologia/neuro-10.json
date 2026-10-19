@@ -1,0 +1,383 @@
+{
+  "classId": "neuro-10",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una crisis provocada (metabólica, tóxica, estructural aguda) {{c1::no es epilepsia}} y no requiere FAE crónico.",
+      "extra": "Se corrige la causa.",
+      "origen": "clase:1",
+      "fuente": "Clase · Enfrentamiento",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.003",
+        "1.10.2.015"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En toda primera crisis, el primer examen es la {{c1::glicemia capilar}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Causas provocadas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 72"
+      ],
+      "codigos": [
+        "1.10.2.003",
+        "1.10.2.015"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Crisis en diabético con glibenclamida y convulsiones subintrantes: la causa es {{c1::hipoglicemia}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "EUNACOM Agosto 2021 · Pregunta 72",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 72"
+      ],
+      "codigos": [
+        "1.10.2.003"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Crisis por hipoglicemia o hiponatremia: corregir la causa; el error es {{c1::antiepiléptico crónico}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.003"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primera crisis con lesión quística en TAC y eosinófilos en LCR: {{c1::neurocisticercosis}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "EUNACOM Diciembre 2019 · Pregunta 144",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 144"
+      ],
+      "codigos": [
+        "1.10.2.003"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síncope convulsivo: mioclonías {{c1::asincrónicas}} breves (< 15 s) tras el colapso, por hipoxia del tronco.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Síncope",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.053"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síncope vasovagal: pródromos {{c1::graduales}} (mareo, visión en túnel, palidez, sudor).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tabla síncope",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.053"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síncope cardiogénico: pródromos breves o ausentes, relación con {{c1::esfuerzo}} o palpitaciones.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "EUNACOM Julio 2019 · Pregunta 28",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.053"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síncope en reposo, sin pródromos y con FC de 40: examen inicial {{c1::electrocardiograma}}.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "EUNACOM Julio 2024 · Pregunta 180",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.053"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mordedura de lengua en el {{c1::borde lateral}} y profunda: crisis epiléptica.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tabla síncope",
+      "repaso": false,
+      "imagen": "_web/337_neuro_Primera_crisis_vs_síncope__Commons_1.jpg",
+      "codigos": [
+        "2.01.1.053"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Mordedura en la {{c1::punta}} de la lengua: golpe al caer, no se asume crisis epiléptica.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.003",
+        "2.01.1.053"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Color en síncope: palidez extrema y sudor; en crisis tónico-clónica: {{c1::cianosis}} peribucal.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tabla síncope",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.053"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Estado postictal tras crisis epiléptica: {{c1::15 a 60 minutos}} de confusión; en síncope la recuperación es inmediata.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tabla síncope",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.053"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una primera crisis no provocada se trata como epilepsia si el riesgo de recurrencia a 10 años es > {{c1::60 %}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Decisión de tratar",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.003",
+        "1.10.1.007"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dan riesgo > 60 %: lesión en neuroimagen, {{c1::EEG epileptiforme}}, crisis en el sueño o déficit focal permanente.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Decisión de tratar",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.003",
+        "1.10.2.015"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Primera crisis con examen, imagen y EEG normales: riesgo a 5 años de {{c1::30 a 40 %}}; no iniciar FAE.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Decisión de tratar",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.003"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "EEG interictal normal {{c1::no descarta}} epilepsia; repetir con privación de sueño.",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Quiz Perfil V3 1.10.4.005",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.007",
+        "1.10.2.015"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estudio de toda primera crisis: glicemia, electrolitos, función renal y hepática, ECG y {{c1::TAC sin contraste}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Estudio en urgencia",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.003",
+        "1.10.2.015"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "ECG en primera pérdida de conciencia busca QT largo, WPW, {{c1::Brugada}} y bloqueos.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Estudio en urgencia",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.015",
+        "1.10.2.003"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mioclonías matinales y convulsión al despertar tras privación de sueño en adolescente: tratamiento con {{c1::ácido valproico}} (epilepsia mioclónica juvenil).",
+      "extra": "",
+      "origen": "clase:18",
+      "fuente": "EUNACOM Diciembre 2019 · Pregunta 41",
+      "repaso": false,
+      "codigos": [
+        "1.10.1.007",
+        "1.10.2.015"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "BRUE de bajo riesgo: edad > {{c1::60 días}} y nacido a las ≥ 32 semanas, evento único sin RCP y examen normal.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · BRUE",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.017"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "BRUE de alto riesgo (< 60 días, prematuro, repetido o prolongado): {{c1::hospitalizar}} y estudiar.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · BRUE",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.017"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Máxima incidencia de muerte súbita del lactante: entre los {{c1::2 y 4 meses}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · SMSL",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.017"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Llanto seguido de apnea, cianosis y breve pérdida de conciencia entre 6 meses y 5 años: {{c1::espasmo del sollozo}}; educar a los padres.",
+      "extra": "",
+      "origen": "clase:21",
+      "fuente": "EUNACOM Julio 2016 · Pregunta 162",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 162",
+        "EUNACOM Julio 2019 · Pregunta 6"
+      ],
+      "codigos": [
+        "1.10.2.015",
+        "1.10.2.003"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_web/337_neuro_Primera_crisis_vs_síncope__Commons_1.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Mordedura del borde lateral de la lengua",
+      "clave": "Laceración profunda lateral de la lengua, casi patognomónica de crisis tónico-clónica",
+      "conducta": "Estudio de primera crisis: glicemia, electrolitos, ECG y TAC; evaluar riesgo de recurrencia > 60 % para decidir FAE",
+      "fuente": "Wikimedia Commons, CC BY-SA 3.0",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.053",
+        "1.10.2.003"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Pródromos y recuperación lúcida tras mioclonías breves: ¿diagnóstico?",
+      "codigos": [
+        "2.01.1.053"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "Crisis con causa aguda: ¿conducta?",
+      "codigos": [
+        "1.10.2.003"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1.1",
+      "pista": "Primera crisis, riesgo < 60 %: ¿qué se indica?",
+      "codigos": [
+        "1.10.2.003"
+      ]
+    }
+  ]
+}

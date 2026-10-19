@@ -1,0 +1,457 @@
+{
+  "classId": "hem-21",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Neutropenia febril: RAN < {{c1::500/µL}} (o < 1.000 con caída prevista).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Dos criterios",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Fiebre en neutropenia: ≥ {{c1::38,3 °C}} única, o ≥ {{c2::38 °C}} sostenida por 1 hora.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Dos criterios",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El nadir de la quimioterapia ocurre entre los días {{c1::7 y 14}} del ciclo.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Dos criterios",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Neutropenia profunda: RAN < {{c1::100/µL}}; riesgo de shock séptico por bacilos gramnegativos.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Dos criterios",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "RAN = leucocitos × (% segmentados + % baciliformes) / {{c1::100}}.",
+      "extra": "Ejemplo: 800 × 12 % = 96/µL.",
+      "origen": "clase:2",
+      "fuente": "Clase · Cálculo del RAN",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Leucocitos \"casi normales\" {{c1::no descartan}} neutropenia: hay que calcular el RAN.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cálculo del RAN",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sin neutrófilos no hay pus ni eritema: la {{c1::fiebre}} puede ser el único signo de una sepsis fulminante.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Sin neutrófilos no hay pus",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Más del {{c1::75 %}} de las infecciones de la neutropenia febril vienen de la flora endógena que transloca por la mucositis.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Sin neutrófilos no hay pus",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los patógenos más letales son los bacilos gramnegativos: {{c1::Pseudomonas}}, E. coli y Klebsiella.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Sin neutrófilos no hay pus",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El catéter venoso central favorece infecciones por cocos {{c1::grampositivos}}: S. epidermidis, S. aureus, viridans.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Sin neutrófilos no hay pus",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Score MASCC máximo: {{c1::26}} puntos; bajo riesgo si ≥ {{c2::21}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Score MASCC",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "MASCC suma puntos por síntomas leves, PAS > 90, sin EPOC, tumor sin hongos previos, sin deshidratación, ambulatorio y edad < {{c1::60}} años.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Score MASCC",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "MASCC ≥ 21: complicaciones < {{c1::5 %}} y mortalidad < {{c2::1 %}}; puede manejarse ambulatorio.",
+      "extra": "Requiere estabilidad, apoyo y acceso a reconsulta en < 1 hora.",
+      "origen": "clase:4",
+      "fuente": "Clase · Score MASCC",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "MASCC < 21 es alto riesgo: {{c1::hospitalización obligatoria}} en aislamiento protector o UPC.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Score MASCC",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Primera dosis de antibiótico EV en menos de {{c1::60 minutos}} desde la llegada (\"hora de oro\").",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Antibiótico en < 60 minutos",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 164"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En neutropenia febril sin foco, el error es {{c1::esperar radiografía o cultivos}} antes del antibiótico.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el neutropénico están prohibidos el {{c1::tacto rectal}} y el termómetro rectal; se inspecciona la zona perianal.",
+      "extra": "Riesgo de bacteriemia fatal por microtrauma.",
+      "origen": "clase:5",
+      "fuente": "Clase · Antibiótico en < 60 minutos",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antes del antibiótico se toman {{c1::2 sets de hemocultivos}}: periféricos y por cada lumen del CVC.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Antibiótico en < 60 minutos",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Fiebre 10 días post quimioterapia: se pide {{c1::hemograma con RAN}} urgente, no antipiréticos y control.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Esquema empírico de alto riesgo: monoterapia antipseudomónica con {{c1::cefepime 2 g c/8 h}} EV en infusión extendida.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Monoterapia antipseudomónica",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa al cefepime: {{c1::piperacilina/tazobactam 4,5 g c/6 h}} EV.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Monoterapia antipseudomónica",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Con shock o sospecha de BLEE se usa {{c1::meropenem 1 g c/8 h}} EV.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Monoterapia antipseudomónica",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En alto riesgo el error es sumar {{c1::amikacina o vancomicina}} de rutina.",
+      "extra": "Los aminoglucósidos son nefrotóxicos sin beneficio en sobrevida.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Bajo riesgo (MASCC ≥ 21): {{c1::ciprofloxacino 500–750 mg c/12 h}} VO + amoxicilina/clavulánico {{c2::875/125 mg c/8 h}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Monoterapia antipseudomónica",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Bajo riesgo estable: el error es {{c1::hospitalizar a todos}}.",
+      "extra": "Recontrol estrecho en 24 horas.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La vancomicina se agrega solo en shock, infección de catéter, colonización por {{c1::SAMR}}, mucositis grave o neumonía.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Vancomicina",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Si los cultivos no muestran grampositivos, se suspende la vancomicina a las {{c1::48–72 horas}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Vancomicina",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Febril pero estable a las 48–72 horas: {{c1::mantener}} el esquema, sin cambiar a ciegas.",
+      "extra": "Con deterioro: escalar a meropenem + vancomicina.",
+      "origen": "clase:8",
+      "fuente": "Clase · Cronograma de escalamiento",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Fiebre persistente entre el día {{c1::4 y 7}} con cultivos negativos: TC de tórax, galactomanano y antifúngico.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Cronograma de escalamiento",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Antifúngico empírico en neutropenia febril persistente: {{c1::anfotericina B liposomal}}, voriconazol o caspofungina.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Julio 2025",
+      "repaso": true,
+      "codigos": [
+        "1.08.2.006"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 61"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Neutropenia prolongada con imagen espiculada apical que no responde a antibióticos: {{c1::aspergilosis invasiva}}.",
+      "extra": "Se estudia con TC (signo del halo) y galactomanano; se trata con voriconazol.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Julio 2016",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Niño con leucemia que febrea 7 días tras iniciar quimioterapia: neutropenia febril, {{c1::antibióticos EV de amplio espectro}} en la primera hora.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Diciembre 2025",
+      "repaso": false,
+      "codigos": [
+        "1.08.2.006"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La neutropenia febril oncológica es una urgencia vital cubierta por el {{c1::GES}} del paciente oncológico.",
+      "extra": "Alto riesgo: aislamiento protector o UPC.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Hora de oro",
+      "repaso": false,
+      "codigos": [
+        "1.04.1.020"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Neutropenia febril confirmada: ¿qué se hace en la primera hora?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1",
+      "pista": "MASCC < 21: ¿qué lugar y qué antibiótico?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.2",
+      "pista": "Neutropenia febril con shock: ¿qué esquema?"
+    }
+  ]
+}

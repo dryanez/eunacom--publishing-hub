@@ -1,0 +1,526 @@
+{
+ "classId": "cirugia-19",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Un aneurisma es una dilatación arterial permanente de al menos {{c1::50%}} sobre el diámetro normal.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Aneurismas",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.044"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La causa más frecuente de aneurisma es la {{c1::aterosclerosis}}, con hipertensión y tabaquismo.",
+   "extra": "En aorta torácica: Marfan, Ehlers-Danlos, bicúspide, Takayasu, sífilis.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Aneurismas",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.044"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El aneurisma de aorta torácica suele ser asintomático y se ve como {{c1::ensanchamiento mediastínico}} en la radiografía.",
+   "extra": "Si crece: dolor, disfonía, disnea, disfagia.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Torácica",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.044"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El aneurisma de aorta torácica se confirma con {{c1::angioTAC}}; su complicación grave es la disección o rotura.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Torácica",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.044"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Aneurisma torácico: cirugía desde {{c1::5,5 cm}}, crecimiento > 0,5 cm/año o síntomas.",
+   "extra": "Antes en Marfan o bicúspide.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.044"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Manejo del aneurisma torácico pequeño: {{c1::betabloqueadores}}, control de la presión, sin tabaco e imágenes seriadas.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Torácica",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.044"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El aneurisma poplíteo se complica con {{c1::trombosis o embolia distal}}, no con rotura.",
+   "extra": "Isquemia aguda con riesgo de amputación.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.044"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El aneurisma poplíteo es el más frecuente de los periféricos y es {{c1::bilateral}} en cerca de la mitad de los casos.",
+   "extra": "Se asocia a aneurisma aórtico en un tercio.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Poplíteo",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.044"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El {{c1::seudoaneurisma}} femoral es una masa pulsátil con soplo tras una punción o cateterismo.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Femoral",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.044"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se repara el aneurisma poplíteo sintomático, con trombo o de {{c1::2 cm}} o más; los pequeños se vigilan con eco-Doppler.",
+   "extra": "Exclusión con puente de vena safena.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Poplíteo",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.044"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La isquemia aguda: dolor, palidez, ausencia de pulso, frialdad y {{c1::parestesias}}; se trata con heparina y revascularización.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Isquemia aguda",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.044"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La insuficiencia venosa crónica se debe a {{c1::incompetencia valvular}} con hipertensión venosa sostenida.",
+   "extra": "Mujer, embarazo, obesidad, bipedestación.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 IVC",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.048"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los síntomas venosos (pesadez, calambres, edema vespertino) {{c1::mejoran}} con elevar las piernas y la marcha.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 IVC",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.048"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El paciente con várices se examina {{c1::de pie}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 IVC",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-19/03_varices-extensas__fitzpatrick_p1719.jpg",
+   "codigos": [
+    "4.01.1.048"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La clasificación {{c1::CEAP}} va de C0 (sin signos) a C6 (úlcera activa).",
+   "extra": "C4: pigmentación, eczema, lipodermatoesclerosis.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 CEAP",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-19/02_lipodermatoesclerosis__bailey-love_p994.jpg",
+   "codigos": [
+    "4.01.1.048"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El diagnóstico de várices se confirma con {{c1::eco-Doppler venoso}}, que mapea el reflujo y descarta TVP.",
+   "extra": "Várices secundarias: síndrome postflebítico.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diagnóstico",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.048"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Várices simples: manejo {{c1::conservador}} con ejercicio, elevación, control del peso y medias de {{c2::20-30 mmHg}}.",
+   "extra": "Pregunta real Jul 2025.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tratamiento",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 26"
+   ],
+   "codigos": [
+    "4.01.1.048"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si fallan las medidas conservadoras, se deriva para ablación térmica, safenectomía, flebectomías o {{c1::escleroterapia}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.048"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tromboflebitis superficial se trata con {{c1::AINE}}, compresión y deambulación.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Complicaciones",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.048"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tromboflebitis superficial de {{c1::5 cm}} o más, o a menos de {{c2::3 cm}} de la unión safenofemoral: anticoagulación.",
+   "extra": "Riesgo de TVP.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.048"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La várice sangrante se controla con elevación y {{c1::compresión directa}}; se sutura si no cede.",
+   "extra": "Pregunta real Jul 2017.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Complicaciones",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 26"
+   ],
+   "codigos": [
+    "4.01.1.048"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La úlcera {{c1::venosa}} es la más frecuente ({{c2::70-80%}}).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Úlceras",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.050"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La úlcera venosa es {{c1::maleolar medial}}, poco dolorosa, con hiperpigmentación y pulsos presentes.",
+   "extra": "EUNACOM Jul 2024: oscurecimiento de piel y várices = úlcera venosa.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla úlceras",
+   "repaso": true,
+   "imagen": "biblioteca/10_cirugia/cirugia-19/01_ulcera-venosa__bailey-love_p995.jpg",
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 61"
+   ],
+   "codigos": [
+    "4.01.1.050"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La úlcera arterial está en dedos, talón y {{c1::maléolo lateral}}, «en sacabocados», muy dolorosa, con pulsos ausentes.",
+   "extra": "Alivia con la pierna colgando.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla úlceras",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.050"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "ITB > {{c1::0,8}} en la úlcera venosa; ITB < {{c2::0,9}} en la arterial.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla úlceras",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.050"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La úlcera neuropática aparece en la planta sobre puntos de presión, con {{c1::callo}} e indolora.",
+   "extra": "Pie diabético.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla úlceras",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.050"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La úlcera de {{c1::Martorell}} es hipertensiva: posterolateral, muy dolorosa y necrótica.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla úlceras",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.050"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El {{c1::pioderma gangrenoso}} tiene borde violáceo socavado y se asocia a enfermedad inflamatoria intestinal.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Específicas",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.050"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Toda úlcera que no cura en {{c1::3 meses}} o de bordes atípicos requiere biopsia para descartar carcinoma escamoso.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.050"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Antes de comprimir una úlcera se mide el {{c1::ITB}}; la compresión está contraindicada si es < 0,8.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.050"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Terapia compresiva multicapa de {{c1::30-40 mmHg}}, solo si el ITB es mayor de 0,8.",
+   "extra": "Pilar del tratamiento de la úlcera venosa.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Manejo",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.050"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La úlcera venosa se deriva para {{c1::corregir el reflujo}} porque la recidiva es muy frecuente.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Manejo",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.050"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La úlcera arterial no se comprime: se deriva a cirugía vascular para {{c1::revascularización}}, con antiagregante y estatina.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Manejo",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.050"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-19/01_ulcera-venosa__bailey-love_p995.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Úlcera venosa",
+   "clave": "Úlcera maleolar medial con piel hiperpigmentada",
+   "conducta": "Terapia compresiva multicapa si ITB > 0,8, curación húmeda y derivar para tratar el reflujo",
+   "fuente": "Bailey & Love 27.ª ed., p. 995",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 61"
+   ],
+   "codigos": [
+    "4.01.1.050"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-19/02_lipodermatoesclerosis__bailey-love_p994.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Lipodermatoesclerosis (CEAP C4)",
+   "clave": "Piel pigmentada, endurecida y con eczema en la pierna",
+   "conducta": "Compresión y derivación a cirugía vascular",
+   "fuente": "Bailey & Love 27.ª ed., p. 994",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.050"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-19/03_varices-extensas__fitzpatrick_p1719.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Várices extensas",
+   "clave": "Várices tronculares y telangiectasias en la pierna",
+   "conducta": "Várices simples: ejercicio, elevación, peso y medias de compresión",
+   "fuente": "Fitzpatrick, Dermatology in General Medicine, p. 1719",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 26"
+   ],
+   "codigos": [
+    "4.01.1.048"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Úlcera venosa con ITB > 0,8: ¿tratamiento?",
+   "codigos": [
+    "4.01.1.050",
+    "4.01.1.044"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1",
+   "pista": "Pulsos ausentes con ITB < 0,9: ¿qué úlcera y qué conducta?",
+   "codigos": [
+    "4.01.1.050",
+    "4.01.1.044"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.3",
+   "pista": "Úlcera que no cura en 3 meses: ¿qué haces?",
+   "codigos": [
+    "4.01.1.050",
+    "4.01.1.044"
+   ]
+  }
+ ]
+}

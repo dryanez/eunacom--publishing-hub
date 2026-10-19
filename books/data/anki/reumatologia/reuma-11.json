@@ -1,0 +1,455 @@
+{
+  "classId": "reuma-11",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El SAF es una trombofilia {{c1::autoinmune adquirida}} con anticuerpos contra fosfolípidos y sus cofactores (beta-2-GPI, protrombina).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "SAF secundario se asocia sobre todo a {{c1::LES}} (30–40% de los pacientes con LES); el primario es aislado.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El anticoagulante lúpico alarga el TTPK {{c1::in vitro}}, pero in vivo causa trombosis.",
+      "extra": "Paradoja del AL; el TTPA nunca está acortado en SAF.",
+      "origen": "clase:1",
+      "fuente": "Clase · Paradoja del AL",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.019",
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Prueba de mezclas del AL: el TTPK no corrige con plasma normal, pero sí al agregar exceso de {{c1::fosfolípidos}}.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz EUNACOM 2022",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 55"
+      ],
+      "codigos": [
+        "1.11.1.021",
+        "1.08.1.019"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sydney exige al menos {{c1::1 criterio clínico y 1 de laboratorio}}.",
+      "extra": "Clínico: trombosis o morbilidad obstétrica.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio obstétrico: ≥ 1 muerte fetal inexplicable de feto normal desde las {{c1::10 semanas}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Sydney",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio obstétrico: parto prematuro de neonato normal antes de la semana {{c1::34}} por preeclampsia severa, eclampsia o insuficiencia placentaria.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Sydney",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio obstétrico: ≥ {{c1::3}} abortos consecutivos inexplicados antes de la semana 10.",
+      "extra": "Descartadas causas anatómicas, endocrinas o cromosómicas.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Sydney",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Laboratorio de SAF: anticoagulante lúpico, anticardiolipina IgG/IgM y {{c1::anti-beta-2-glicoproteína I}}.",
+      "extra": "El AL es el de mayor riesgo trombótico.",
+      "origen": "clase:3",
+      "fuente": "Clase · Criterios de laboratorio",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los anticuerpos deben ser positivos en 2 tomas separadas por ≥ {{c1::12 semanas}}.",
+      "extra": "Descarta anticuerpos transitorios post-infecciosos.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Anticardiolipina significativa: títulos moderados o altos, > {{c1::40}} GPL/MPL (o > percentil 99).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Laboratorio",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Livedo reticularis: patrón violáceo en {{c1::malla}} de piernas y brazos, de microtrombosis capilar.",
+      "extra": "No es criterio de Sydney.",
+      "origen": "foto",
+      "fuente": "Clase · Livedo reticularis",
+      "repaso": false,
+      "imagen": "biblioteca/08_reumatologia/reuma-11/01_livedo-reticularis__amir-reuma_p39.jpg",
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La endocarditis de {{c1::Libman-Sacks}} (vegetaciones estériles en mitral y aórtica) es fuente de ACV embólico en SAF.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · No de criterio",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La trombocitopenia del SAF suele ser leve a moderada, entre {{c1::50.000 y 100.000}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · No de criterio",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Trombosis venosa en SAF: heparina de entrada y luego {{c1::acenocumarol o warfarina}} con INR 2.0–3.0.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 149"
+      ],
+      "codigos": [
+        "1.11.1.021",
+        "1.08.1.019"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La anticoagulación del SAF trombótico es {{c1::indefinida}}: el riesgo de retrombosis supera el 50% en 2 años.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Cumarínicos",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.021",
+        "1.08.1.019"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Los {{c1::DOACs}} (rivaroxabán, apixabán, dabigatrán) están contraindicados en SAF de triple positividad (ensayo TRAPS).",
+      "extra": "Más eventos arteriales recurrentes.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.021",
+        "1.08.1.019"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Trombosis arterial en SAF: cumarínicos (INR 2–3) más {{c1::aspirina 100 mg/día}}.",
+      "extra": "Libro: o INR 3–4 según guías.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.021",
+        "1.08.1.019"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "SAF obstétrico sin trombosis: {{c1::aspirina 100 mg/día + enoxaparina 40 mg/día SC}}.",
+      "extra": "AAS desde preconcepcional; HBPM al confirmar saco gestacional.",
+      "origen": "clase:6",
+      "fuente": "Clase · Protocolo gestacional",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En SAF obstétrico, la HBPM se mantiene hasta {{c1::6 semanas}} postparto; se suspende 12–24 horas antes del parto programado.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "SAF con trombosis previa y embarazo: AAS 100 mg + enoxaparina {{c1::1 mg/kg cada 12 horas}} (dosis terapéutica).",
+      "extra": "Cumarínicos de nuevo en el puerperio; compatibles con lactancia.",
+      "origen": "clase:6",
+      "fuente": "Clase · Protocolo gestacional",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Warfarina y acenocumarol están contraindicados en el embarazo: embriopatía entre las semanas {{c1::6 y 12}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Obstétrico",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "SAF catastrófico (Asherson): trombosis de ≥ {{c1::3 órganos}} en menos de 1 semana, con falla renal y distrés respiratorio.",
+      "extra": "< 1% de los casos de SAF.",
+      "origen": "clase:7",
+      "fuente": "Clase · Asherson",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "SAF catastrófico en UCI: heparina no fraccionada EV + pulsos de metilprednisolona + {{c1::plasmaféresis o IGEV}}.",
+      "extra": "Refractario: rituximab o eculizumab.",
+      "origen": "clase:7",
+      "fuente": "Clase · Asherson",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En SAF están contraindicados los {{c1::estrógenos}} (anticonceptivos orales combinados) por riesgo trombótico.",
+      "extra": "También en portadores asintomáticos.",
+      "origen": "clase:10",
+      "fuente": "Clase · Portadores asintomáticos",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.019",
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trombofilias hereditarias más frecuentes: factor V de Leiden y mutación {{c1::G20210A de la protrombina}}.",
+      "extra": "Más trombogénicas: déficit de antitrombina, proteína C y S.",
+      "origen": "clase:8",
+      "fuente": "Clase · Trombofilias hereditarias",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.019"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se sospecha trombofilia hereditaria ante trombosis sin causa antes de los {{c1::45 a 50 años}}, recurrente o en lugar inusual.",
+      "extra": "También necrosis cutánea por warfarina (déficit de C o S).",
+      "origen": "clase:8",
+      "fuente": "Clase · Trombofilias hereditarias",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.019"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Proteína C, proteína S y antitrombina se miden {{c1::fuera de la fase aguda}}: la warfarina baja C y S; la heparina, la antitrombina.",
+      "extra": "Los genéticos se piden en cualquier momento.",
+      "origen": "clase:8",
+      "fuente": "Clase · Trombofilias hereditarias",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.019"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "TVP en joven con TTPA alargado y VDRL reactivo: {{c1::síndrome antifosfolípido}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "EUNACOM Dic 2019 P54 / Dic 2017 P51",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 54",
+        "EUNACOM Diciembre 2017 · Pregunta 51",
+        "EUNACOM Diciembre 2019 · Pregunta 55"
+      ],
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES: anticoagulación y patología reumatológica asociada, con {{c1::manejo integral por especialista}}.",
+      "extra": "El digest no detalla más plazos.",
+      "origen": "libro:sec:3",
+      "fuente": "Perfil · GES",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-11/01_livedo-reticularis__amir-reuma_p39.jpg",
+      "pregunta": "¿Qué muestra y qué buscas?",
+      "diagnostico": "Livedo reticularis (SAF)",
+      "clave": "Red violácea en malla en piernas y brazos que no cede con el calor",
+      "conducta": "Perfil antifosfolípido (AL, aCL, anti-beta-2-GPI) y repetir a las 12 semanas",
+      "fuente": "Manual AMIR Reumatología, p. 39",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Criterio clínico presente: ¿qué solicitas?",
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.1.0.0",
+      "pista": "SAF confirmado con embarazo activo: ¿tratamiento y qué está prohibido?",
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1.0.1",
+      "pista": "SAF con trombosis y no gestante: ¿anticoagulante?",
+      "codigos": [
+        "1.11.1.021"
+      ]
+    }
+  ]
+}

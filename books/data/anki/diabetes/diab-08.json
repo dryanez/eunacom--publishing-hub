@@ -1,0 +1,495 @@
+{
+  "classId": "diab-08",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Los iSGLT2 inhiben el cotransportador sodio-glucosa 2 en el túbulo {{c1::contorneado proximal}}.",
+      "extra": "Causan glucosuria y natriuresis osmótica.",
+      "origen": "clase:1",
+      "fuente": "Clase · Gliflozinas",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Los iSGLT2 eliminan unos {{c1::60 a 80 g}} de glucosa al día por la orina.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Gliflozinas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Los iSGLT2 bajan la HbA1c {{c1::0,6 a 0,8 %}}, el peso 2–3 kg y la PA 4–6 mmHg.",
+      "extra": "Sin hipoglicemia.",
+      "origen": "clase:1",
+      "fuente": "Clase · Gliflozinas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Beneficio mayor de los iSGLT2: menos hospitalizaciones por {{c1::insuficiencia cardíaca}} y freno de la caída de la VFG en ERC con albuminuria.",
+      "extra": "Reducción > 30 %.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 iSGLT2",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El efecto adverso más frecuente de los iSGLT2 son las {{c1::micosis genitales}} (candidiasis vulvovaginal y balanitis).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Efectos adversos iSGLT2",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El efecto adverso grave de los iSGLT2 es la {{c1::cetoacidosis euglicémica}} (glicemia < 200–250 mg/dL).",
+      "extra": "Gatillada por cirugía o ayuno; no descartar CAD por la glicemia.",
+      "origen": "clase:2",
+      "fuente": "Clase · Efectos adversos iSGLT2",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con iSGLT2 y cirugía o ayuno prolongado, el error es {{c1::descartar cetoacidosis porque la glicemia es normal}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Efectos adversos iSGLT2",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Los iSGLT2 producen depleción de volumen e {{c1::hipotensión ortostática}} en ancianos.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Efectos adversos iSGLT2",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Los agonistas GLP-1 son liraglutida, semaglutida y {{c1::dulaglutida}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 GLP-1",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Los GLP-1 aumentan la insulina {{c1::glucosa-dependiente}}, suprimen el glucagón y enlentecen el vaciamiento gástrico.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Incretinas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Los GLP-1 bajan la HbA1c {{c1::1,0 a 1,8 %}} y el peso 5 a 15 %.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Incretinas",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Los GLP-1 reducen IAM, ACV y muerte CV, según los estudios {{c1::LEADER y SUSTAIN-6}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Incretinas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Liraglutida es subcutánea {{c1::diaria}}; semaglutida es subcutánea {{c2::semanal}} u oral diaria.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · GLP-1 cómo se usan",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Los GLP-1 causan náuseas, vómitos y diarrea al inicio: se {{c1::titulan lentamente}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · GLP-1 cómo se usan",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Los GLP-1 están contraindicados en antecedente personal o familiar de {{c1::carcinoma medular de tiroides o NEM 2}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · GLP-1 cómo se usan",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Las gliptinas son sitagliptina, vildagliptina y {{c1::linagliptina}}; inhiben la enzima DPP-4.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Gliptinas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Las gliptinas bajan la HbA1c {{c1::0,5 a 0,7 %}}, con peso neutro y sin hipoglicemia.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Gliptinas",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Efecto adverso raro de las gliptinas: {{c1::pancreatitis aguda}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Gliptinas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "La {{c1::linagliptina}} es de eliminación biliar y no requiere ajuste en ningún grado de falla renal.",
+      "extra": "De elección en hemodiálisis.",
+      "origen": "clase:5",
+      "fuente": "Clase · Gliptinas",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Anciano con infarto reciente y diarrea por metformina: cambiar a {{c1::sitagliptina}} (sin hipoglicemia).",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Dic 2018",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 107"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "DM2 con IC con FEVI reducida sobre metformina: segundo fármaco {{c1::iSGLT2}} (empagliflozina o dapagliflozina).",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En IC la {{c1::pioglitazona}} está contraindicada porque retiene líquido.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Coronariopatía con HbA1c 8,2 % bajo metformina: se inicia {{c1::empagliflozina}}.",
+      "extra": "También agonistas GLP-1.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Julio 2019",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 141"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Con ERC grave (clearance 12 mL/min) y albuminuria, la alternativa a la insulina es un agonista GLP-1 como la {{c1::semaglutida}}.",
+      "extra": "Metformina y glibenclamida contraindicadas; iSGLT2 necesitan filtración.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Dic 2025",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los iSGLT2 {{c1::necesitan filtración glomerular}} para actuar, no se inician con VFG muy baja.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Dic 2025",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Beneficio por familia: iSGLT2 en {{c1::IC y ERC}}; GLP-1 en {{c2::enfermedad aterosclerótica}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Peso: iSGLT2 baja 2–3 kg, GLP-1 baja 5–15 % y las gliptinas son {{c1::neutras}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adulto mayor con riesgo de hipoglicemia y sin falla de órgano: se prefiere {{c1::iDPP-4}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · ¿Qué órgano proteger?",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En APS el segundo fármaco GES disponible es la {{c1::glibenclamida}}; los nuevos fármacos no son GES.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · ¿Qué órgano proteger?",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con HbA1c > 9 % bajo metformina, ni gliptina ni GLP-1 alcanzan: se indica {{c1::insulina NPH}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 151",
+        "EUNACOM Diciembre 2018 · Pregunta 17"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Candidiasis genital por gliflozinas: vulvovaginitis candidiásica y {{c1::balanitis candidiásica}}.",
+      "extra": "Por la glucosa urinaria aumentada.",
+      "origen": "foto",
+      "fuente": "Atlas · candidiasis genital",
+      "repaso": false,
+      "imagen": "_verificadas/317_diab_iSGLT2_GLP_1_iDPP_4__KumarClark_p1587.jpg",
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/04_diabetes/diab-08/01_candidiasis-genital__kumar_p1587.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Candidiasis genital asociada a iSGLT2",
+      "clave": "Vulvovaginitis o balanitis candidiásica en usuario de gliflozina",
+      "conducta": "Es el efecto adverso más frecuente del iSGLT2; reconocerlo y reevaluar el fármaco",
+      "fuente": "Kumar and Clark, Clinical Medicine, p. 1587",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "¿IC o ERC con albuminuria? ¿Qué fármaco?",
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "IAM, ACV previo u obesidad: ¿qué fármaco?",
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1.0",
+      "pista": "Adulto mayor o hipoglicemias: ¿qué familia?",
+      "codigos": [
+        "1.02.1.005",
+        "1.02.3.003"
+      ]
+    }
+  ]
+}

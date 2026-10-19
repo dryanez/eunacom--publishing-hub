@@ -1,0 +1,364 @@
+{
+  "classId": "neuro-09",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Status convulsivo, t1: {{c1::5 minutos}}; hay que iniciar el rescate farmacológico ya.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Definición",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.017"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Status convulsivo, t2: {{c1::30 minutos}}; daño neuronal irreversible por excitotoxicidad.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Definición",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.017"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Definición de status convulsivo: crisis de ≥ 5 min o crisis repetidas {{c1::sin recuperar la conciencia}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.017",
+        "2.01.2.027"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Status focal con alteración de conciencia: t1 {{c1::10 minutos}}, t2 > 60 minutos.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Definición",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.017"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Primer fármaco del status epiléptico: una {{c1::benzodiacepina}} (lorazepam EV); nunca fenitoína de entrada.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.017",
+        "1.10.2.003"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Lorazepam EV en status: {{c1::4 mg}} (0.1 mg/kg) en bolo lento de 2 minutos.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Fase 1",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.017"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si el status persiste a los 5 minutos, el lorazepam se repite {{c1::una sola vez}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Fase 1",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.017"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Status sin vía venosa: {{c1::midazolam 10 mg IM}} (adulto > 40 kg); no retrasar buscando vía.",
+      "extra": "También intranasal o bucal.",
+      "origen": "clase:3",
+      "fuente": "Clase · Fase 1",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.017",
+        "1.10.2.003"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fase 2 (10 a 30 min): antiepiléptico EV; primera elección moderna {{c1::levetiracetam}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Fase 2",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.017",
+        "1.10.2.003"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Levetiracetam EV en status: {{c1::60 mg/kg}} (máx. 4.500 mg) en 10 minutos.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Fase 2",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.017"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fenitoína EV en status: {{c1::20 mg/kg}}, máximo 50 mg/min y con monitor ECG.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Fase 2",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.017"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La fenitoína EV se diluye solo en suero {{c1::fisiológico}}; en glucosado cristaliza.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.017",
+        "1.10.2.003"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Ácido valproico EV en status: {{c1::40 mg/kg}} (máx. 3.000 mg); útil si hay epilepsia generalizada previa.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Fase 2",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.017",
+        "1.10.2.003"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Status refractario: falla de benzodiacepina y antiepiléptico EV; se {{c1::intuba}} y se anestesia en UCI.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Fase 3",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.017"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Persiste tras fase 1 y 2: el error es dar un {{c1::tercer antiepiléptico}} en sala.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.017",
+        "1.10.2.003"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Propofol en status refractario: bolo de {{c1::2 mg/kg}} y luego 2–10 mg/kg/h.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Fase 3",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.017"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Oliguria y alza de creatinina tras un status prolongado: {{c1::rabdomiolisis}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Quiz Banco AEE",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.017"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Rabdomiolisis por status: suero fisiológico vigoroso para diuresis > {{c1::200 mL/h}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Complicaciones",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.017"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Acidosis láctica del status: se {{c1::corrige sola}} al cesar las convulsiones; sin bicarbonato de rutina.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Complicaciones",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.017"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Coma sin clonías tras un status: pedir {{c1::EEG continuo}}; puede seguir en status no convulsivo.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.017"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Status en el niño: midazolam IM {{c1::0.2 mg/kg}} (máx. 10 mg).",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Pediatría",
+      "repaso": true,
+      "codigos": [
+        "2.01.2.027",
+        "1.10.2.017"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hipoglicemia en niño con status: dextrosa al 10 % {{c1::2–5 mL/kg}} EV.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Pediatría",
+      "repaso": false,
+      "codigos": [
+        "2.01.2.027"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Convulsión en embarazada hipertensa (eclampsia): sulfato de {{c1::magnesio}}, no benzodiacepinas.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "EUNACOM Julio 2025 · Pregunta 40",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.017",
+        "1.10.2.003"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Desviación versiva inicial de cabeza y mirada seguida de convulsión: crisis {{c1::focal secundariamente generalizada}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "EUNACOM Diciembre 2022 · Pregunta 166",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 166"
+      ],
+      "codigos": [
+        "1.10.2.003",
+        "1.10.2.017"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "Crisis ≥ 5 min con vía venosa: ¿fármaco de fase 1?",
+      "codigos": [
+        "1.10.2.003"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.1",
+      "pista": "Status sin vía venosa: ¿fármaco?",
+      "codigos": [
+        "1.10.2.017"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0.0.0",
+      "pista": "Persiste tras benzodiacepina: ¿fase 2?",
+      "codigos": [
+        "1.10.2.017"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.0.0.0.1",
+      "pista": "Persiste tras fase 2: ¿conducta?",
+      "codigos": [
+        "2.01.2.027"
+      ]
+    }
+  ]
+}

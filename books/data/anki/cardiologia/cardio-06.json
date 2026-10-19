@@ -1,0 +1,586 @@
+{
+ "classId": "cardio-06",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La TPSV es una taquicardia regular de QRS {{c1::estrecho}} (< 120 ms), de inicio y término súbitos.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Taquicardia regular de QRS estrecho",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La frecuencia de la TPSV es de {{c1::150 a 220 lpm}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Taquicardia regular de QRS estrecho",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El {{c1::60%}} de las TPSV son por reentrada nodal (TRN) y el {{c2::30%}} por vía accesoria (TRAV).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Mecanismos",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la reentrada nodal el nodo AV tiene dos vías: la lenta (refractario corto) y la rápida (refractario {{c1::largo}}).",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Un circuito que gira",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el ECG de la TRN la P queda oculta en el QRS o se ve como {{c1::pseudo-r' en V1}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 ECG de la crisis",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La TRAV ortodrómica (la más frecuente) baja por el nodo AV y vuelve por la vía accesoria: QRS {{c1::estrecho}}.",
+   "extra": "En la antidrómica el QRS es ancho y regular.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 ECG de la crisis",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La taquicardia sinusal tiene inicio {{c1::gradual}}, P visible, rara vez supera 150-160 lpm y tiene una causa.",
+   "extra": "No termina con maniobras vagales.",
+   "origen": "clase:2",
+   "fuente": "Clase · Diferenciales",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Una taquicardia regular de {{c1::150 lpm}} exactos que muestra ondas de sierra con maniobra vagal o adenosina es un flutter 2:1.",
+   "extra": "No una TPSV.",
+   "origen": "clase:2",
+   "fuente": "Clase · Diferenciales",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 31"
+   ],
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "TPSV con paciente inestable: {{c1::cardioversión eléctrica sincronizada}} inmediata.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Manejo escalonado",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Energía de la cardioversión sincronizada en la TPSV: {{c1::50 a 100 J}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Manejo escalonado",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la TPSV estable la primera línea son las {{c1::maniobras vagales}} (Valsalva modificado).",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Manejo escalonado",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 69",
+    "EUNACOM Diciembre 2022 · Pregunta 87"
+   ],
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Valsalva modificado: soplar en una jeringa de 10 mL por {{c1::15 segundos}} y acostar con las piernas elevadas a 45° por 15 segundos.",
+   "extra": "Revierte cerca del 45% de los episodios.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Maniobras vagales",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La presión ocular está {{c1::contraindicada}}; el masaje carotídeo no se recomienda en adultos mayores ni niños.",
+   "extra": "En niños se prefiere la inmersión de la cara en agua fría.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Si fallan las maniobras vagales en la TPSV, se da {{c1::adenosina 6 mg EV}} en bolo ultrarrápido.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Manejo escalonado",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 3",
+    "EUNACOM Julio 2025 · Pregunta 44",
+    "EUNACOM Enero 2023 · Pregunta 141",
+    "EUNACOM Diciembre 2022 · Pregunta 59"
+   ],
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Si la adenosina 6 mg no revierte a los 2 minutos, se da un bolo de {{c1::12 mg}} (hasta 2 veces).",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Manejo escalonado",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La adenosina se pasa en {{c1::1 a 2 segundos}} seguida de 20 mL de suero fisiológico y elevación del brazo.",
+   "extra": "Su vida media es < 10 segundos.",
+   "origen": "clase:5",
+   "fuente": "Clase · Por qué en bolo rápido",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Adenosina «que no hace efecto»: el error típico es {{c1::pasarla lenta o sin suero}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Efectos de la adenosina: rubor facial, opresión torácica, disnea y {{c1::pausa o asistolia transitoria}}; hay que avisar al paciente.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Por qué en bolo rápido",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La adenosina está contraindicada en el {{c1::asma grave}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Con carbamazepina o dipiridamol se da una dosis menor de adenosina: {{c1::3 mg}}.",
+   "extra": "La teofilina y la cafeína bloquean su efecto.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Adenosina",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Tercera línea de la TPSV estable: verapamilo {{c1::5 a 10 mg EV lento}} en 2 minutos (o diltiazem).",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Manejo escalonado",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El verapamilo está contraindicado en hipotensión, IC con FEVI reducida, {{c1::QRS ancho de origen incierto}} y preexcitación.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Tercera línea",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La ablación por radiofrecuencia es curativa en más del {{c1::95%}} de la TPSV recidivante.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Tratamiento definitivo",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tríada de la preexcitación (WPW) es PR corto, {{c1::onda delta}} y QRS ancho.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Síndrome de WPW",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 134",
+    "EUNACOM Enero 2023 · Pregunta 140"
+   ],
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el WPW el PR es menor de {{c1::120 ms}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Síndrome de WPW",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La vía accesoria del WPW se llama haz de {{c1::Kent}} y comunica aurícula y ventrículo sin retraso.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Síndrome de WPW",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La preexcitación puede simular un infarto por {{c1::ondas Q falsas}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Síndrome de WPW",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El WPW se asocia a la anomalía de {{c1::Ebstein}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 WPW",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La FA preexcitada se ve como taquicardia ancha, {{c1::irregular}} y > 200 lpm, con QRS de morfología variable.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · FA preexcitada",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la FA preexcitada están prohibidos {{c1::adenosina, verapamilo, diltiazem, digoxina, betabloqueadores}} y amiodarona.",
+   "extra": "Derivan todos los impulsos por la vía accesoria y provocan FV.",
+   "origen": "clase:7",
+   "fuente": "Clase · FA preexcitada",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "FA preexcitada estable: {{c1::procainamida EV}}; si hay inestabilidad, cardioversión eléctrica sincronizada.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · FA preexcitada",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tratamiento curativo del WPW es la {{c1::ablación}} por radiofrecuencia de la vía accesoria.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · FA preexcitada",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Mujer de 24 años con QRS ancho, irregular, 220 lpm: el interno propone verapamilo y es un {{c1::error potencialmente mortal}}.",
+   "extra": "Corresponde cardioversión sincronizada o procainamida.",
+   "origen": "libro:caso",
+   "fuente": "Libro · Caso clínico",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la taquicardia auricular multifocal hay P de {{c1::3 o más}} morfologías (EPOC grave, hipoxemia); se trata la causa.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Otras TSV",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En la TRN el intervalo RP es corto (< {{c1::70 ms}}); en la TRAV la P aparece claramente después del QRS (RP > 70 ms).",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 TRN vs TRAV",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la TPSV de la embarazada, las maniobras vagales y la adenosina son {{c1::seguras}}.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Embarazo",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el niño la TPSV se maneja con la maniobra del buzo y adenosina; con shock, {{c1::cardioversión}}.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Niños",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un joven con palpitaciones súbitas que ceden con maniobras vagales tiene probable TPSV; la anamnesis y el ECG de crisis muestran QRS {{c1::estrecho}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic. 2022 P87",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 87"
+   ],
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-06/01_tpsv-reentrada-nodal-qrs-estrecho__stroobandt-ecg_p270.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "TPSV por reentrada nodal",
+   "clave": "Taquicardia regular de QRS estrecho con P ocultas en el QRS (r' en V1)",
+   "conducta": "Estable: Valsalva modificado, luego adenosina 6 mg en bolo rápido; inestable: cardioversión",
+   "fuente": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials, p. 270",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-06/03_wpw-pr-corto-onda-delta__stroobandt-ecg_p313.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Síndrome de Wolff-Parkinson-White en ritmo sinusal",
+   "clave": "PR corto (< 120 ms), onda delta y QRS ancho",
+   "conducta": "Derivar a ablación; evitar bloqueadores del nodo AV si hay FA",
+   "fuente": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials, p. 313",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-06/04_fa-preexcitada-wpw-rapida-irregular__stroobandt-ecg_p320.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Fibrilación auricular preexcitada en WPW",
+   "clave": "Taquicardia ancha, completamente irregular, con QRS de morfología variable y > 200 lpm",
+   "conducta": "Cardioversión eléctrica sincronizada o procainamida; NO adenosina, verapamilo ni digoxina",
+   "fuente": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials, p. 320",
+   "repaso": true,
+   "codigos": [
+    "1.01.1.024"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Taquicardia estrecha inestable: ¿qué conducta?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "Falla la maniobra vagal: ¿qué fármaco y dosis?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.0.0",
+   "pista": "Falla la adenosina: ¿qué fármaco queda?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.2",
+   "pista": "QRS ancho, irregular, > 200 lpm: ¿diagnóstico y conducta?"
+  }
+ ]
+}

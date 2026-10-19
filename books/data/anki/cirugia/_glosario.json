@@ -1,0 +1,2973 @@
+{
+ "_doc": "Glosario clicable del mazo Anki (popover en el reverso). 'def' se escribe a mano desde el libro (sin cifras nuevas) y se conserva al regenerar; pagina/clase/t/url los recalcula conceptos.py. Términos y alias: books/scripts/anki/vocab_*.txt.",
+ "libro": "cirugia",
+ "pdf": "books/dist/Modulo_2_Cirugia/Tomo_11_Cirugia_General_Completo_2026.pdf",
+ "terminos": {
+  "Apendicitis_aguda": {
+   "termino": "Apendicitis aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "apendicitis aguda",
+    "apendicitis"
+   ],
+   "def": "Obstrucción de la luz apendicular (fecalito, hiperplasia linfoide) con proliferación bacteriana, isquemia y perforación; es la urgencia quirúrgica más frecuente. Dx clínico en varón joven típico.",
+   "pagina": 5,
+   "clase": "cirugia-01",
+   "claseTitulo": "11.1 Apendicitis Aguda: Score de Alvarado, Diagnóstico Clínico & Apendicectomía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 12
+  },
+  "Score_de_Alvarado": {
+   "termino": "Score de Alvarado",
+   "tipo": "Signo",
+   "alias": [
+    "Alvarado",
+    "MANTRELS"
+   ],
+   "def": "Score MANTRELS de hasta 10 puntos: 0-3 improbable, 4-6 pedir imagen, 7-10 alta probabilidad; en varón joven con clínica típica permite operar sin TAC.",
+   "pagina": 5,
+   "clase": "cirugia-01",
+   "claseTitulo": "11.1 Apendicitis Aguda: Score de Alvarado, Diagnóstico Clínico & Apendicectomía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 8
+  },
+  "Signo_de_McBurney": {
+   "termino": "Signo de McBurney",
+   "tipo": "Signo",
+   "alias": [
+    "McBurney"
+   ],
+   "def": "Dolor exquisito en la unión del tercio externo con los dos tercios internos de la línea espino-umbilical derecha; signo de irritación peritoneal en FID.",
+   "pagina": 5,
+   "clase": "cirugia-01",
+   "claseTitulo": "11.1 Apendicitis Aguda: Score de Alvarado, Diagnóstico Clínico & Apendicectomía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Signo_de_Blumberg": {
+   "termino": "Signo de Blumberg",
+   "tipo": "Signo",
+   "alias": [
+    "Blumberg",
+    "rebote"
+   ],
+   "def": "Dolor al descomprimir bruscamente el abdomen; indica irritación peritoneal (en apendicitis, en FID).",
+   "pagina": 5,
+   "clase": "cirugia-01",
+   "claseTitulo": "11.1 Apendicitis Aguda: Score de Alvarado, Diagnóstico Clínico & Apendicectomía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 3
+  },
+  "Signo_de_Rovsing": {
+   "termino": "Signo de Rovsing",
+   "tipo": "Signo",
+   "alias": [
+    "Rovsing"
+   ],
+   "def": "Dolor en FID al comprimir la fosa ilíaca izquierda, por desplazamiento retrógrado de gas colónico.",
+   "pagina": 5,
+   "clase": "cirugia-01",
+   "claseTitulo": "11.1 Apendicitis Aguda: Score de Alvarado, Diagnóstico Clínico & Apendicectomía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Signo_del_psoas": {
+   "termino": "Signo del psoas",
+   "tipo": "Signo",
+   "alias": [
+    "signo del psoas",
+    "psoas"
+   ],
+   "def": "Dolor al hiperextender pasivamente la cadera derecha; característico del apéndice retrocecal.",
+   "pagina": 5,
+   "clase": "cirugia-01",
+   "claseTitulo": "11.1 Apendicitis Aguda: Score de Alvarado, Diagnóstico Clínico & Apendicectomía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Plastron_apendicular": {
+   "termino": "Plastrón apendicular",
+   "tipo": "Concepto",
+   "alias": [
+    "plastrón apendicular",
+    "plastrón"
+   ],
+   "def": "Perforación contenida por epiplón y asas: masa firme y dolorosa en FID con más de 5 días de evolución. Se trata con antibióticos EV y apendicectomía de intervalo a las 8-12 semanas.",
+   "pagina": 6,
+   "clase": "cirugia-01",
+   "claseTitulo": "11.1 Apendicitis Aguda: Score de Alvarado, Diagnóstico Clínico & Apendicectomía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 4
+  },
+  "Apendicectomia": {
+   "termino": "Apendicectomía",
+   "tipo": "Concepto",
+   "alias": [
+    "apendicectomía"
+   ],
+   "def": "Tratamiento de la apendicitis no complicada, de elección por vía laparoscópica. Profilaxis en dosis única; si hay perforación con peritonitis, antibióticos de 3 a 5 días.",
+   "pagina": 5,
+   "clase": "cirugia-01",
+   "claseTitulo": "11.1 Apendicitis Aguda: Score de Alvarado, Diagnóstico Clínico & Apendicectomía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 4
+  },
+  "Colecistitis_aguda": {
+   "termino": "Colecistitis aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "colecistitis aguda",
+    "colecistitis"
+   ],
+   "def": "Dolor continuo en hipocondrio derecho por más de 6 horas con Murphy, fiebre y leucocitosis; por cálculo impactado en el bacinete. Tratamiento: colecistectomía laparoscópica precoz.",
+   "pagina": 10,
+   "clase": "cirugia-02",
+   "claseTitulo": "11.2 Colecistitis Aguda: Guías de Tokio, Signo de Murphy Ecográfico & Colelap",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 14
+  },
+  "Colelitiasis": {
+   "termino": "Colelitiasis",
+   "tipo": "Concepto",
+   "alias": [
+    "colelitiasis",
+    "cálculos vesiculares",
+    "litiasis vesicular",
+    "litiasis biliar"
+   ],
+   "def": "Cálculos en la vesícula, asintomáticos en cerca del 80%. Si hay cólicos, colecistectomía laparoscópica electiva; la litiasis asintomática incidental solo se observa.",
+   "pagina": 10,
+   "clase": "cirugia-02",
+   "claseTitulo": "11.2 Colecistitis Aguda: Guías de Tokio, Signo de Murphy Ecográfico & Colelap",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 6
+  },
+  "Colico_biliar": {
+   "termino": "Cólico biliar",
+   "tipo": "Signo",
+   "alias": [
+    "cólico biliar"
+   ],
+   "def": "Dolor epigástrico o de hipocondrio derecho postprandial, de 30 minutos a 6 horas, sin fiebre ni leucocitosis y con Murphy negativo. Se maneja con AINE o hioscina y cirugía electiva.",
+   "pagina": 10,
+   "clase": "cirugia-02",
+   "claseTitulo": "11.2 Colecistitis Aguda: Guías de Tokio, Signo de Murphy Ecográfico & Colelap",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Signo_de_Murphy": {
+   "termino": "Signo de Murphy",
+   "tipo": "Signo",
+   "alias": [
+    "Murphy"
+   ],
+   "def": "Interrupción brusca de la inspiración profunda al palpar el punto cístico del reborde costal derecho; hallazgo cardinal de la colecistitis aguda.",
+   "pagina": 10,
+   "clase": "cirugia-02",
+   "claseTitulo": "11.2 Colecistitis Aguda: Guías de Tokio, Signo de Murphy Ecográfico & Colelap",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 5
+  },
+  "Guias_de_Tokio": {
+   "termino": "Guías de Tokio",
+   "tipo": "Concepto",
+   "alias": [
+    "Tokio",
+    "TG18"
+   ],
+   "def": "Diagnóstico de colecistitis: A (inflamación local) + B (sistémica) sospechoso; con C (imagen) definitivo. Grados I-II: cirugía precoz; grado III: colecistostomía.",
+   "pagina": 10,
+   "clase": "cirugia-02",
+   "claseTitulo": "11.2 Colecistitis Aguda: Guías de Tokio, Signo de Murphy Ecográfico & Colelap",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 6
+  },
+  "Sindrome_de_Mirizzi": {
+   "termino": "Síndrome de Mirizzi",
+   "tipo": "Concepto",
+   "alias": [
+    "Mirizzi"
+   ],
+   "def": "Compresión del conducto hepático común por un cálculo gigante impactado en el bacinete o el cístico; causa ictericia sin ser coledocolitiasis.",
+   "pagina": 10,
+   "clase": "cirugia-02",
+   "claseTitulo": "11.2 Colecistitis Aguda: Guías de Tokio, Signo de Murphy Ecográfico & Colelap",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Vision_critica_de_seguridad": {
+   "termino": "Visión crítica de seguridad",
+   "tipo": "Concepto",
+   "alias": [
+    "visión crítica de Strasberg",
+    "Strasberg",
+    "visión crítica"
+   ],
+   "def": "En la colecistectomía laparoscópica exige liberar el triángulo hepatocístico y ver solo dos estructuras entrando a la vesícula: cístico y arteria cística. Previene lesión de la vía biliar.",
+   "pagina": 13,
+   "clase": "cirugia-02",
+   "claseTitulo": "11.2 Colecistitis Aguda: Guías de Tokio, Signo de Murphy Ecográfico & Colelap",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Colecistostomia_percutanea": {
+   "termino": "Colecistostomía percutánea",
+   "tipo": "Concepto",
+   "alias": [
+    "colecistostomía"
+   ],
+   "def": "Drenaje de la vesícula guiado por imagen con antibióticos EV; conducta en colecistitis grado III o riesgo anestésico prohibitivo, difiriendo la colecistectomía.",
+   "pagina": 12,
+   "clase": "cirugia-02",
+   "claseTitulo": "11.2 Colecistitis Aguda: Guías de Tokio, Signo de Murphy Ecográfico & Colelap",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Cintigrafia_HIDA": {
+   "termino": "Cintigrafía HIDA",
+   "tipo": "Examen",
+   "alias": [
+    "HIDA",
+    "cintigrafía biliar"
+   ],
+   "def": "Estudio de mayor sensibilidad y especificidad (>97%) en colecistitis: la vesícula no se llena por obstrucción del cístico. Se reserva para ecografía no concluyente.",
+   "pagina": 11,
+   "clase": "cirugia-02",
+   "claseTitulo": "11.2 Colecistitis Aguda: Guías de Tokio, Signo de Murphy Ecográfico & Colelap",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-02&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Diverticulitis_aguda": {
+   "termino": "Diverticulitis aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "diverticulitis aguda",
+    "diverticulitis"
+   ],
+   "def": "Microperforación de un divertículo sigmoideo tras obstrucción por fecalito: dolor en FII, fiebre y Blumberg (+). Examen de elección: TAC de abdomen y pelvis con contraste.",
+   "pagina": 15,
+   "clase": "cirugia-03",
+   "claseTitulo": "11.3 Diverticulitis Aguda: TAC de Abdomen, Clasificación de Hinchey & Manejo Médico vs Cx",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 10
+  },
+  "Clasificacion_de_Hinchey": {
+   "termino": "Clasificación de Hinchey",
+   "tipo": "Concepto",
+   "alias": [
+    "Hinchey"
+   ],
+   "def": "Etapifica la diverticulitis: 0 y Ia sin absceso, Ib absceso pequeño (< 4 cm), II absceso a distancia, III peritonitis purulenta, IV peritonitis fecaloidea.",
+   "pagina": 15,
+   "clase": "cirugia-03",
+   "claseTitulo": "11.3 Diverticulitis Aguda: TAC de Abdomen, Clasificación de Hinchey & Manejo Médico vs Cx",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 11
+  },
+  "Operacion_de_Hartmann": {
+   "termino": "Operación de Hartmann",
+   "tipo": "Concepto",
+   "alias": [
+    "Hartmann"
+   ],
+   "def": "Sigmoidectomía con cierre del muñón rectal y colostomía terminal en FII; cirugía de urgencia en peritonitis diverticular (Hinchey III-IV).",
+   "pagina": 15,
+   "clase": "cirugia-03",
+   "claseTitulo": "11.3 Diverticulitis Aguda: TAC de Abdomen, Clasificación de Hinchey & Manejo Médico vs Cx",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 3
+  },
+  "Colostomia": {
+   "termino": "Colostomía",
+   "tipo": "Concepto",
+   "alias": [
+    "colostomía",
+    "colostomías"
+   ],
+   "def": "Exteriorización del colon a la pared abdominal para derivar el tránsito fecal. Puede ser terminal (Hartmann) o en asa (dos bocas, habitualmente temporal).",
+   "pagina": 16,
+   "clase": "cirugia-03",
+   "claseTitulo": "11.3 Diverticulitis Aguda: TAC de Abdomen, Clasificación de Hinchey & Manejo Médico vs Cx",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 5
+  },
+  "Ileostomia": {
+   "termino": "Ileostomía",
+   "tipo": "Concepto",
+   "alias": [
+    "ileostomía"
+   ],
+   "def": "A diferencia de la colostomía, elimina deposiciones líquidas y exige más reposición de agua y electrolitos.",
+   "pagina": 19,
+   "clase": "cirugia-03",
+   "claseTitulo": "11.3 Diverticulitis Aguda: TAC de Abdomen, Clasificación de Hinchey & Manejo Médico vs Cx",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Colonoscopia": {
+   "termino": "Colonoscopía",
+   "tipo": "Examen",
+   "alias": [
+    "colonoscopía"
+   ],
+   "def": "Contraindicada en la diverticulitis aguda por riesgo de perforación; es obligatoria a las 6-8 semanas del episodio para descartar cáncer de colon.",
+   "pagina": 15,
+   "clase": "cirugia-03",
+   "claseTitulo": "11.3 Diverticulitis Aguda: TAC de Abdomen, Clasificación de Hinchey & Manejo Médico vs Cx",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 7
+  },
+  "TAC_de_abdomen_y_pelvis": {
+   "termino": "TAC de abdomen y pelvis",
+   "tipo": "Examen",
+   "alias": [
+    "TAC de abdomen y pelvis",
+    "TAC de abdomen",
+    "TAC con contraste"
+   ],
+   "def": "Con contraste IV es el estándar de oro en diverticulitis, obstrucción, trauma abdominal estable y apendicitis atípica en adultos no embarazadas.",
+   "pagina": 15,
+   "clase": "cirugia-03",
+   "claseTitulo": "11.3 Diverticulitis Aguda: TAC de Abdomen, Clasificación de Hinchey & Manejo Médico vs Cx",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 8
+  },
+  "Obstruccion_intestinal": {
+   "termino": "Obstrucción intestinal",
+   "tipo": "Concepto",
+   "alias": [
+    "obstrucción intestinal",
+    "obstrucción de intestino delgado",
+    "obstrucción colónica"
+   ],
+   "def": "Dolor cólico, distensión, vómitos y detención de gases y heces. Causa más frecuente en delgado: bridas (60-70%); en colon: cáncer colorrectal (60%).",
+   "pagina": 21,
+   "clase": "cirugia-04",
+   "claseTitulo": "11.4 Obstrucción Intestinal Mecánica: Bridas vs Vólvulo Sigmoides vs Cáncer",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 5
+  },
+  "Bridas": {
+   "termino": "Bridas",
+   "tipo": "Concepto",
+   "alias": [
+    "bridas",
+    "adherencias"
+   ],
+   "def": "Adherencias postoperatorias; causa más frecuente de obstrucción de intestino delgado (60-70%). Sin estrangulación: régimen cero, SNG y fluidos EV por 24-48 horas.",
+   "pagina": 21,
+   "clase": "cirugia-04",
+   "claseTitulo": "11.4 Obstrucción Intestinal Mecánica: Bridas vs Vólvulo Sigmoides vs Cáncer",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 9
+  },
+  "Volvulo_de_sigmoides": {
+   "termino": "Vólvulo de sigmoides",
+   "tipo": "Concepto",
+   "alias": [
+    "vólvulo de sigmoides",
+    "vólvulo"
+   ],
+   "def": "Torsión del sigmoides con asa gigante en omega o grano de café en la radiografía. Sin necrosis: desvolvulación endoscópica y sigmoidectomía electiva.",
+   "pagina": 21,
+   "clase": "cirugia-04",
+   "claseTitulo": "11.4 Obstrucción Intestinal Mecánica: Bridas vs Vólvulo Sigmoides vs Cáncer",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 6
+  },
+  "Signo_del_grano_de_cafe": {
+   "termino": "Signo del grano de café",
+   "tipo": "Signo",
+   "alias": [
+    "grano de café"
+   ],
+   "def": "Asa sigmoidea masivamente distendida, en U invertida, que nace en la FII; signo radiológico clásico del vólvulo de sigmoides.",
+   "pagina": 21,
+   "clase": "cirugia-04",
+   "claseTitulo": "11.4 Obstrucción Intestinal Mecánica: Bridas vs Vólvulo Sigmoides vs Cáncer",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Estrangulacion_intestinal": {
+   "termino": "Estrangulación intestinal",
+   "tipo": "Concepto",
+   "alias": [
+    "estrangulación",
+    "sufrimiento de asa"
+   ],
+   "def": "Oclusión del aporte sanguíneo del asa: dolor continuo, peritonismo, fiebre, taquicardia, leucocitosis y lactato alto. Obliga a cirugía inmediata.",
+   "pagina": 21,
+   "clase": "cirugia-04",
+   "claseTitulo": "11.4 Obstrucción Intestinal Mecánica: Bridas vs Vólvulo Sigmoides vs Cáncer",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 8
+  },
+  "Radiografia_de_abdomen": {
+   "termino": "Radiografía de abdomen",
+   "tipo": "Examen",
+   "alias": [
+    "radiografía simple de abdomen",
+    "radiografía de abdomen"
+   ],
+   "def": "Estudio inicial de la obstrucción: en delgado, asas centrales con niveles hidroaéreos en escalera; en colon, marco dilatado con haustras.",
+   "pagina": 21,
+   "clase": "cirugia-04",
+   "claseTitulo": "11.4 Obstrucción Intestinal Mecánica: Bridas vs Vólvulo Sigmoides vs Cáncer",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Peritonitis": {
+   "termino": "Peritonitis",
+   "tipo": "Concepto",
+   "alias": [
+    "peritonitis"
+   ],
+   "def": "Primaria (PBE): cirrótico, monomicrobiana, manejo médico. Secundaria (>90%): perforación de víscera hueca, polimicrobiana, laparotomía urgente. Terciaria: persistente tras 48 horas.",
+   "pagina": 27,
+   "clase": "cirugia-05",
+   "claseTitulo": "11.5 Peritonitis Generalizada & Abdomen Perforativo (Neumoperitoneo)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 20
+  },
+  "Peritonitis_bacteriana_espontanea": {
+   "termino": "Peritonitis bacteriana espontánea",
+   "tipo": "Concepto",
+   "alias": [
+    "peritonitis bacteriana espontánea",
+    "PBE"
+   ],
+   "def": "Infección del líquido ascítico en cirróticos, con PMN ≥ 250/mm³. Se trata con cefotaxima o ceftriaxona EV; la cirugía está contraindicada.",
+   "pagina": 27,
+   "clase": "cirugia-05",
+   "claseTitulo": "11.5 Peritonitis Generalizada & Abdomen Perforativo (Neumoperitoneo)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 3
+  },
+  "Ulcera_perforada": {
+   "termino": "Úlcera perforada",
+   "tipo": "Concepto",
+   "alias": [
+    "úlcera perforada",
+    "úlcera péptica perforada",
+    "abdomen perforativo"
+   ],
+   "def": "Dolor en puñalada, abdomen en tabla y signo de Jobert. Radiografía de tórax de pie busca neumoperitoneo; tratamiento: laparotomía, lavado y parche de epiplón.",
+   "pagina": 27,
+   "clase": "cirugia-05",
+   "claseTitulo": "11.5 Peritonitis Generalizada & Abdomen Perforativo (Neumoperitoneo)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 5
+  },
+  "Neumoperitoneo": {
+   "termino": "Neumoperitoneo",
+   "tipo": "Signo",
+   "alias": [
+    "neumoperitoneo"
+   ],
+   "def": "Aire libre subdiafragmático en semiluna en la radiografía de tórax de pie; visible en más del 75-80% de las perforaciones.",
+   "pagina": 27,
+   "clase": "cirugia-05",
+   "claseTitulo": "11.5 Peritonitis Generalizada & Abdomen Perforativo (Neumoperitoneo)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 5
+  },
+  "Signo_de_Jobert": {
+   "termino": "Signo de Jobert",
+   "tipo": "Signo",
+   "alias": [
+    "Jobert"
+   ],
+   "def": "Desaparición de la matidez hepática a la percusión por gas libre interpuesto; indica neumoperitoneo.",
+   "pagina": 27,
+   "clase": "cirugia-05",
+   "claseTitulo": "11.5 Peritonitis Generalizada & Abdomen Perforativo (Neumoperitoneo)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Parche_de_Graham": {
+   "termino": "Parche de Graham",
+   "tipo": "Concepto",
+   "alias": [
+    "parche de Graham",
+    "Graham"
+   ],
+   "def": "Cierre de la perforación de una úlcera con parche de epiplón vascularizado, tras lavado peritoneal profuso.",
+   "pagina": 27,
+   "clase": "cirugia-05",
+   "claseTitulo": "11.5 Peritonitis Generalizada & Abdomen Perforativo (Neumoperitoneo)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Helicobacter_pylori": {
+   "termino": "Helicobacter pylori",
+   "tipo": "Concepto",
+   "alias": [
+    "Helicobacter pylori",
+    "H. pylori"
+   ],
+   "def": "Causa cerca del 90% de las úlceras duodenales y 70% de las gástricas. Erradicación por 14 días: IBP + amoxicilina 1 g + claritromicina 500 mg cada 12 horas.",
+   "pagina": 27,
+   "clase": "cirugia-05",
+   "claseTitulo": "11.5 Peritonitis Generalizada & Abdomen Perforativo (Neumoperitoneo)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 3
+  },
+  "Ulcera_peptica": {
+   "termino": "Úlcera péptica",
+   "tipo": "Concepto",
+   "alias": [
+    "úlcera péptica",
+    "úlcera gastroduodenal",
+    "úlcera duodenal",
+    "úlcera gástrica"
+   ],
+   "def": "Epigastralgia urente por H. pylori y AINE. Duodenal: calma con la comida; gástrica: empeora y se biopsia siempre. Cirugía solo en complicaciones.",
+   "pagina": 27,
+   "clase": "cirugia-05",
+   "claseTitulo": "11.5 Peritonitis Generalizada & Abdomen Perforativo (Neumoperitoneo)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 4
+  },
+  "Hernia_inguinal": {
+   "termino": "Hernia inguinal",
+   "tipo": "Concepto",
+   "alias": [
+    "hernia inguinal",
+    "hernias inguinales"
+   ],
+   "def": "Son el 75% de las hernias de pared. Indirecta (50%): congénita, lateral a los vasos epigástricos. Directa (25%): adquirida, en el triángulo de Hesselbach, medial.",
+   "pagina": 33,
+   "clase": "cirugia-06",
+   "claseTitulo": "11.6 Hernias de Pared Abdominal: Inguinal Directa/Indirecta, Crural & Complicaciones",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 4
+  },
+  "Hernia_crural": {
+   "termino": "Hernia crural",
+   "tipo": "Concepto",
+   "alias": [
+    "hernia crural",
+    "hernia femoral"
+   ],
+   "def": "Sale bajo el ligamento inguinal, medial a la vena femoral; más frecuente en mujeres multíparas añosas y con el mayor riesgo de estrangulación (30-40%).",
+   "pagina": 33,
+   "clase": "cirugia-06",
+   "claseTitulo": "11.6 Hernias de Pared Abdominal: Inguinal Directa/Indirecta, Crural & Complicaciones",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 7
+  },
+  "Triangulo_de_Hesselbach": {
+   "termino": "Triángulo de Hesselbach",
+   "tipo": "Concepto",
+   "alias": [
+    "Hesselbach"
+   ],
+   "def": "Delimitado por el ligamento inguinal, el borde lateral del recto anterior y los vasos epigástricos inferiores; por ahí protruye la hernia directa.",
+   "pagina": 33,
+   "clase": "cirugia-06",
+   "claseTitulo": "11.6 Hernias de Pared Abdominal: Inguinal Directa/Indirecta, Crural & Complicaciones",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Hernia_estrangulada": {
+   "termino": "Hernia estrangulada",
+   "tipo": "Concepto",
+   "alias": [
+    "hernia estrangulada",
+    "hernia atascada"
+   ],
+   "def": "Urgencia quirúrgica extrema: dolor exquisito, piel enrojecida y caliente, fiebre, íleo y leucocitosis. Está prohibido intentar reducirla.",
+   "pagina": 33,
+   "clase": "cirugia-06",
+   "claseTitulo": "11.6 Hernias de Pared Abdominal: Inguinal Directa/Indirecta, Crural & Complicaciones",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Taxis": {
+   "termino": "Taxis",
+   "tipo": "Concepto",
+   "alias": [
+    "taxis"
+   ],
+   "def": "Reducción manual de una hernia; está formalmente prohibida en la hernia estrangulada porque puede reintroducir un asa necrosada y causar peritonitis.",
+   "pagina": 33,
+   "clase": "cirugia-06",
+   "claseTitulo": "11.6 Hernias de Pared Abdominal: Inguinal Directa/Indirecta, Crural & Complicaciones",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Hernia_de_Richter": {
+   "termino": "Hernia de Richter",
+   "tipo": "Concepto",
+   "alias": [
+    "Richter"
+   ],
+   "def": "Atascamiento de solo una porción del borde antimesentérico del asa; puede necrosarse y perforarse sin obstrucción luminal completa.",
+   "pagina": 33,
+   "clase": "cirugia-06",
+   "claseTitulo": "11.6 Hernias de Pared Abdominal: Inguinal Directa/Indirecta, Crural & Complicaciones",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Tecnica_de_Lichtenstein": {
+   "termino": "Técnica de Lichtenstein",
+   "tipo": "Concepto",
+   "alias": [
+    "Lichtenstein"
+   ],
+   "def": "Estándar de oro de la hernioplastia inguinal abierta: malla de polipropileno libre de tensión; recidiva menor al 1-2%.",
+   "pagina": 34,
+   "clase": "cirugia-06",
+   "claseTitulo": "11.6 Hernias de Pared Abdominal: Inguinal Directa/Indirecta, Crural & Complicaciones",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 3
+  },
+  "Herniotomia": {
+   "termino": "Herniotomía",
+   "tipo": "Concepto",
+   "alias": [
+    "herniotomía"
+   ],
+   "def": "En menores de 15 años: disección y ligadura alta del saco herniario, sin malla (GES N° 58).",
+   "pagina": 36,
+   "clase": "cirugia-06",
+   "claseTitulo": "11.6 Hernias de Pared Abdominal: Inguinal Directa/Indirecta, Crural & Complicaciones",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Eventracion": {
+   "termino": "Eventración",
+   "tipo": "Concepto",
+   "alias": [
+    "eventración",
+    "hernia incisional"
+   ],
+   "def": "Protrusión por un defecto de la aponeurosis en la cicatriz de una laparotomía previa; ocurre en 10-20%. Se repara de forma electiva con malla.",
+   "pagina": 36,
+   "clase": "cirugia-06",
+   "claseTitulo": "11.6 Hernias de Pared Abdominal: Inguinal Directa/Indirecta, Crural & Complicaciones",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 4
+  },
+  "Evisceracion": {
+   "termino": "Evisceración",
+   "tipo": "Concepto",
+   "alias": [
+    "evisceración"
+   ],
+   "def": "Salida de vísceras (asas o epiplón) por una herida dehiscente. Cubrir con compresas húmedas tibias, no reintroducir y trasladar a pabellón.",
+   "pagina": 104,
+   "clase": "cirugia-17",
+   "claseTitulo": "11.17 Infección de Sitio Quirúrgico (ISQ), Dehiscencia de Herida & Evisceración Aguda",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 7
+  },
+  "Fisura_anal": {
+   "termino": "Fisura anal",
+   "tipo": "Concepto",
+   "alias": [
+    "fisura anal"
+   ],
+   "def": "Úlcera longitudinal del anodermo bajo la línea dentada, más del 90% en la línea media posterior. Dolor lacerante al defecar; tratamiento médico con fibra y diltiazem 2%.",
+   "pagina": 38,
+   "clase": "cirugia-07",
+   "claseTitulo": "11.7 Patología Orificial Benigna: Fisura Anal, Hemorroides Internas/Externas & Abscesos/Fístulas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 4
+  },
+  "Triada_de_Brodie": {
+   "termino": "Tríada de Brodie",
+   "tipo": "Concepto",
+   "alias": [
+    "Brodie"
+   ],
+   "def": "Fisura anal crónica: úlcera con fibras del esfínter interno, plicoma (papila hipertrófica) y hemorroide centinela.",
+   "pagina": 38,
+   "clase": "cirugia-07",
+   "claseTitulo": "11.7 Patología Orificial Benigna: Fisura Anal, Hemorroides Internas/Externas & Abscesos/Fístulas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Hemorroides": {
+   "termino": "Hemorroides",
+   "tipo": "Concepto",
+   "alias": [
+    "hemorroides",
+    "hemorroide",
+    "enfermedad hemorroidal"
+   ],
+   "def": "Almohadillas vasculares normales. Internas: sangrado rojo rutilante indoloro (grados I-IV). Externas: trombosis con nódulo violáceo muy doloroso.",
+   "pagina": 38,
+   "clase": "cirugia-07",
+   "claseTitulo": "11.7 Patología Orificial Benigna: Fisura Anal, Hemorroides Internas/Externas & Abscesos/Fístulas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 9
+  },
+  "Trombosis_hemorroidal": {
+   "termino": "Trombosis hemorroidal",
+   "tipo": "Concepto",
+   "alias": [
+    "trombosis hemorroidal"
+   ],
+   "def": "Hemorroide externa trombosada: nódulo violáceo y tenso. Antes de 72 horas, trombectomía bajo anestesia local; después, manejo conservador.",
+   "pagina": 38,
+   "clase": "cirugia-07",
+   "claseTitulo": "11.7 Patología Orificial Benigna: Fisura Anal, Hemorroides Internas/Externas & Abscesos/Fístulas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Absceso_anorrectal": {
+   "termino": "Absceso anorrectal",
+   "tipo": "Concepto",
+   "alias": [
+    "absceso perianal",
+    "absceso anorrectal"
+   ],
+   "def": "Dolor perianal pulsátil y continuo. Todo absceso se drena quirúrgicamente de inmediato, sin esperar fluctuación ni usar solo antibióticos.",
+   "pagina": 38,
+   "clase": "cirugia-07",
+   "claseTitulo": "11.7 Patología Orificial Benigna: Fisura Anal, Hemorroides Internas/Externas & Abscesos/Fístulas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Fistula_anorrectal": {
+   "termino": "Fístula anorrectal",
+   "tipo": "Concepto",
+   "alias": [
+    "fístula anorrectal",
+    "fístula perianal"
+   ],
+   "def": "Fase crónica del absceso criptoglandular (30-50% tras el drenaje): trayecto entre orificio interno y externo. La regla de Goodsall predice el trayecto.",
+   "pagina": 38,
+   "clase": "cirugia-07",
+   "claseTitulo": "11.7 Patología Orificial Benigna: Fisura Anal, Hemorroides Internas/Externas & Abscesos/Fístulas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Regla_de_Goodsall": {
+   "termino": "Regla de Goodsall",
+   "tipo": "Concepto",
+   "alias": [
+    "Goodsall"
+   ],
+   "def": "Predice el trayecto fistuloso: orificios externos anteriores siguen un trayecto recto; los posteriores, uno curvo hacia la línea media posterior.",
+   "pagina": 38,
+   "clase": "cirugia-07",
+   "claseTitulo": "11.7 Patología Orificial Benigna: Fisura Anal, Hemorroides Internas/Externas & Abscesos/Fístulas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Cancer_anal": {
+   "termino": "Cáncer anal",
+   "tipo": "Concepto",
+   "alias": [
+    "cáncer anal"
+   ],
+   "def": "Habitualmente carcinoma escamoso asociado a VPH 16 y 18 y VIH. Se trata con quimiorradioterapia (esquema de Nigro), no con cirugía primaria.",
+   "pagina": 39,
+   "clase": "cirugia-07",
+   "claseTitulo": "11.7 Patología Orificial Benigna: Fisura Anal, Hemorroides Internas/Externas & Abscesos/Fístulas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Prolapso_rectal": {
+   "termino": "Prolapso rectal",
+   "tipo": "Concepto",
+   "alias": [
+    "prolapso rectal"
+   ],
+   "def": "Protrusión del recto con todas sus capas, con pliegues concéntricos; típico de mujeres mayores multíparas. Reducir, fibra y derivar a cirugía.",
+   "pagina": 39,
+   "clase": "cirugia-07",
+   "claseTitulo": "11.7 Patología Orificial Benigna: Fisura Anal, Hemorroides Internas/Externas & Abscesos/Fístulas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 4
+  },
+  "Anoscopia": {
+   "termino": "Anoscopía",
+   "tipo": "Examen",
+   "alias": [
+    "anoscopía"
+   ],
+   "def": "Se indica ante rectorragia, prurito o dolor, siempre después del tacto rectal; permite ver hemorroides internas. Se difiere si hay dolor intenso.",
+   "pagina": 39,
+   "clase": "cirugia-07",
+   "claseTitulo": "11.7 Patología Orificial Benigna: Fisura Anal, Hemorroides Internas/Externas & Abscesos/Fístulas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 3
+  },
+  "Enfermedad_pilonidal": {
+   "termino": "Enfermedad pilonidal",
+   "tipo": "Concepto",
+   "alias": [
+    "pilonidal",
+    "quiste pilonidal",
+    "seno pilonidal"
+   ],
+   "def": "Invaginación de pelos en la hendidura interglútea de jóvenes. Absceso agudo: drenaje simple lateralizado; seno crónico: resección electiva.",
+   "pagina": 43,
+   "clase": "cirugia-08",
+   "claseTitulo": "11.8 Patología Pilonidal, Hidrosadenitis & Tumores Benignos de Partes Blandas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 7
+  },
+  "Hidrosadenitis_supurativa": {
+   "termino": "Hidrosadenitis supurativa",
+   "tipo": "Concepto",
+   "alias": [
+    "hidrosadenitis supurativa",
+    "hidrosadenitis"
+   ],
+   "def": "Enfermedad de Verneuil: glándulas apocrinas de axilas e ingles con nódulos, fístulas y cicatrices. Dejar el tabaco; doxiciclina o clindamicina + rifampicina en brotes.",
+   "pagina": 43,
+   "clase": "cirugia-08",
+   "claseTitulo": "11.8 Patología Pilonidal, Hidrosadenitis & Tumores Benignos de Partes Blandas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 4
+  },
+  "Lipoma": {
+   "termino": "Lipoma",
+   "tipo": "Concepto",
+   "alias": [
+    "lipoma"
+   ],
+   "def": "Tumor mesenquimático benigno más común: masa blanda, móvil e indolora en el subcutáneo, con signo del resbalamiento.",
+   "pagina": 43,
+   "clase": "cirugia-08",
+   "claseTitulo": "11.8 Patología Pilonidal, Hidrosadenitis & Tumores Benignos de Partes Blandas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Quiste_epidermico": {
+   "termino": "Quiste epidérmico",
+   "tipo": "Concepto",
+   "alias": [
+    "quiste epidérmico",
+    "quiste sebáceo"
+   ],
+   "def": "Quiste dérmico con poro central (punctum) adherido a la epidermis; se extirpa con la cápsula íntegra. Si está infectado, solo drenaje.",
+   "pagina": 43,
+   "clase": "cirugia-08",
+   "claseTitulo": "11.8 Patología Pilonidal, Hidrosadenitis & Tumores Benignos de Partes Blandas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 3
+  },
+  "Sarcoma_de_partes_blandas": {
+   "termino": "Sarcoma de partes blandas",
+   "tipo": "Concepto",
+   "alias": [
+    "sarcoma de partes blandas",
+    "sarcoma"
+   ],
+   "def": "Sospecha con masa > 5 cm, profunda, de crecimiento rápido y fija. Primero resonancia y biopsia tru-cut; prohibida la resección a ciegas.",
+   "pagina": 43,
+   "clase": "cirugia-08",
+   "claseTitulo": "11.8 Patología Pilonidal, Hidrosadenitis & Tumores Benignos de Partes Blandas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 3
+  },
+  "Granuloma_piogenico": {
+   "termino": "Granuloma piogénico",
+   "tipo": "Concepto",
+   "alias": [
+    "granuloma piogénico",
+    "granuloma piógeno"
+   ],
+   "def": "Hemangioma capilar lobulado: nódulo rojo brillante, friable y pediculado que sangra al roce. Tratamiento: curetaje con electrocoagulación y biopsia.",
+   "pagina": 43,
+   "clase": "cirugia-08",
+   "claseTitulo": "11.8 Patología Pilonidal, Hidrosadenitis & Tumores Benignos de Partes Blandas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 4
+  },
+  "Signos_de_Kanavel": {
+   "termino": "Signos de Kanavel",
+   "tipo": "Concepto",
+   "alias": [
+    "Kanavel"
+   ],
+   "def": "Dedo en semiflexión, edema fusiforme, dolor a la extensión pasiva y dolor a lo largo de la vaina: tenosinovitis supurada de los flexores, urgencia quirúrgica.",
+   "pagina": 43,
+   "clase": "cirugia-08",
+   "claseTitulo": "11.8 Patología Pilonidal, Hidrosadenitis & Tumores Benignos de Partes Blandas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Fascitis_necrotizante": {
+   "termino": "Fascitis necrotizante",
+   "tipo": "Concepto",
+   "alias": [
+    "fascitis necrotizante",
+    "fascitis necrosante"
+   ],
+   "def": "Dolor desproporcionado, crepitación, ampollas hemorrágicas y shock; urgencia con desbridamiento amplio y antibióticos de amplio espectro.",
+   "pagina": 104,
+   "clase": "cirugia-17",
+   "claseTitulo": "11.17 Infección de Sitio Quirúrgico (ISQ), Dehiscencia de Herida & Evisceración Aguda",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "ATLS": {
+   "termino": "ATLS",
+   "tipo": "Concepto",
+   "alias": [
+    "ATLS"
+   ],
+   "def": "Protocolo de atención del trauma: evaluación primaria A-B-C-D-E con reanimación simultánea, tratando primero lo que mata primero.",
+   "pagina": 61,
+   "clase": "cirugia-09",
+   "claseTitulo": "11.9 Evaluación Inicial del Politraumatizado: Protocolo ATLS (A-B-C-D-E)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 3
+  },
+  "Politraumatizado": {
+   "termino": "Politraumatizado",
+   "tipo": "Concepto",
+   "alias": [
+    "politraumatizado",
+    "politraumatismo"
+   ],
+   "def": "Se evalúa con ABCDE; en el politraumatizado hipotenso primero se descarta hemorragia. La mortalidad tiene tres picos y el ATLS actúa en la hora dorada.",
+   "pagina": 61,
+   "clase": "cirugia-09",
+   "claseTitulo": "11.9 Evaluación Inicial del Politraumatizado: Protocolo ATLS (A-B-C-D-E)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Triada_letal": {
+   "termino": "Tríada letal",
+   "tipo": "Concepto",
+   "alias": [
+    "tríada letal"
+   ],
+   "def": "Hipotermia, acidosis metabólica y coagulopatía; si aparece en pabellón se hace cirugía de control de daños.",
+   "pagina": 61,
+   "clase": "cirugia-09",
+   "claseTitulo": "11.9 Evaluación Inicial del Politraumatizado: Protocolo ATLS (A-B-C-D-E)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Cirugia_de_control_de_danos": {
+   "termino": "Cirugía de control de daños",
+   "tipo": "Concepto",
+   "alias": [
+    "control de daños"
+   ],
+   "def": "Procedimiento abreviado en el paciente crítico: packing, cierre temporal del abdomen y traslado a UPC; reintervención planificada a las 48-72 horas.",
+   "pagina": 63,
+   "clase": "cirugia-09",
+   "claseTitulo": "11.9 Evaluación Inicial del Politraumatizado: Protocolo ATLS (A-B-C-D-E)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Via_aerea_definitiva": {
+   "termino": "Vía aérea definitiva",
+   "tipo": "Concepto",
+   "alias": [
+    "vía aérea definitiva"
+   ],
+   "def": "Indicada con apnea, Glasgow ≤ 8, quemadura inhalatoria con estridor o volet con insuficiencia severa; intubación con control cervical.",
+   "pagina": 64,
+   "clase": "cirugia-09",
+   "claseTitulo": "11.9 Evaluación Inicial del Politraumatizado: Protocolo ATLS (A-B-C-D-E)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Cricotiroidotomia": {
+   "termino": "Cricotiroidotomía",
+   "tipo": "Concepto",
+   "alias": [
+    "cricotiroidotomía",
+    "cricoidostomía"
+   ],
+   "def": "Rescate cuando no se puede intubar ni ventilar: incisión de la membrana cricotiroidea. En menores de 12 años se usa punción con aguja gruesa.",
+   "pagina": 64,
+   "clase": "cirugia-09",
+   "claseTitulo": "11.9 Evaluación Inicial del Politraumatizado: Protocolo ATLS (A-B-C-D-E)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 3
+  },
+  "Traqueostomia": {
+   "termino": "Traqueostomía",
+   "tipo": "Concepto",
+   "alias": [
+    "traqueostomía"
+   ],
+   "def": "Procedimiento electivo o semiurgente del especialista, no la vía de rescate en urgencia; se indica en ventilación prolongada o estenosis subglótica.",
+   "pagina": 64,
+   "clase": "cirugia-09",
+   "claseTitulo": "11.9 Evaluación Inicial del Politraumatizado: Protocolo ATLS (A-B-C-D-E)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Shock_hemorragico": {
+   "termino": "Shock hemorrágico",
+   "tipo": "Concepto",
+   "alias": [
+    "shock hemorrágico",
+    "hemorragia clase III"
+   ],
+   "def": "En el trauma todo shock se considera hemorrágico hasta demostrar lo contrario. Clase III: pérdida de 30-40%, FC > 120, hipotensión y oliguria.",
+   "pagina": 64,
+   "clase": "cirugia-09",
+   "claseTitulo": "11.9 Evaluación Inicial del Politraumatizado: Protocolo ATLS (A-B-C-D-E)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Shock_neurogenico": {
+   "termino": "Shock neurogénico",
+   "tipo": "Concepto",
+   "alias": [
+    "shock neurogénico"
+   ],
+   "def": "Lesión medular sobre T6: hipotensión y bradicardia con piel tibia, a diferencia del hemorrágico (taquicardia, piel fría).",
+   "pagina": 64,
+   "clase": "cirugia-09",
+   "claseTitulo": "11.9 Evaluación Inicial del Politraumatizado: Protocolo ATLS (A-B-C-D-E)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Triage_START": {
+   "termino": "Triage START",
+   "tipo": "Concepto",
+   "alias": [
+    "START",
+    "triage"
+   ],
+   "def": "Clasifica en segundos: camina, verde; sin respirar tras abrir la vía aérea, negro; FR > 30, llene > 2 s o no obedece órdenes, rojo; el resto, amarillo.",
+   "pagina": 62,
+   "clase": "cirugia-09",
+   "claseTitulo": "11.9 Evaluación Inicial del Politraumatizado: Protocolo ATLS (A-B-C-D-E)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Acido_tranexamico": {
+   "termino": "Ácido tranexámico",
+   "tipo": "Farmaco",
+   "alias": [
+    "ácido tranexámico"
+   ],
+   "def": "Antifibrinolítico en trauma: 1 g EV en bolo en los primeros 10 minutos y siempre dentro de las 3 primeras horas.",
+   "pagina": 101,
+   "clase": "cirugia-16",
+   "claseTitulo": "11.16 Fiebre Postoperatoria: Cronología de las 5 'W' (Wind, Water, Wound, Walking, Wonder drugs)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Capnografia": {
+   "termino": "Capnografía",
+   "tipo": "Examen",
+   "alias": [
+    "capnografía"
+   ],
+   "def": "Es el estándar para confirmar el tubo traqueal; un tubo esofágico no da CO2.",
+   "pagina": 64,
+   "clase": "cirugia-09",
+   "claseTitulo": "11.9 Evaluación Inicial del Politraumatizado: Protocolo ATLS (A-B-C-D-E)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Neumotorax_a_tension": {
+   "termino": "Neumotórax a tensión",
+   "tipo": "Concepto",
+   "alias": [
+    "neumotórax a tensión",
+    "neumotórax hipertensivo"
+   ],
+   "def": "Válvula unidireccional: hipotensión, timpanismo, abolición del murmullo, yugulares ingurgitadas y tráquea desviada. Diagnóstico clínico: descompresión con aguja sin esperar radiografía.",
+   "pagina": 67,
+   "clase": "cirugia-10",
+   "claseTitulo": "11.10 Trauma Torácico Mayor: Neumotórax a Tensión, Hemotórax Masivo & Tórax Volante",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 11
+  },
+  "Neumotorax_abierto": {
+   "termino": "Neumotórax abierto",
+   "tipo": "Concepto",
+   "alias": [
+    "neumotórax abierto"
+   ],
+   "def": "Defecto parietal mayor a dos tercios del diámetro traqueal (herida soplante). Parche oclusivo sellado en tres lados.",
+   "pagina": 70,
+   "clase": "cirugia-10",
+   "claseTitulo": "11.10 Trauma Torácico Mayor: Neumotórax a Tensión, Hemotórax Masivo & Tórax Volante",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 3
+  },
+  "Hemotorax_masivo": {
+   "termino": "Hemotórax masivo",
+   "tipo": "Concepto",
+   "alias": [
+    "hemotórax masivo",
+    "hemotórax"
+   ],
+   "def": "Más de 1.500 mL de sangre en la pleura: matidez y yugulares colapsadas. Tubo pleural grueso y toracotomía si el débito inicial es ≥ 1.500 mL.",
+   "pagina": 67,
+   "clase": "cirugia-10",
+   "claseTitulo": "11.10 Trauma Torácico Mayor: Neumotórax a Tensión, Hemotórax Masivo & Tórax Volante",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 12
+  },
+  "Torax_volante": {
+   "termino": "Tórax volante",
+   "tipo": "Concepto",
+   "alias": [
+    "tórax volante",
+    "volet costal"
+   ],
+   "def": "Fractura de 3 o más costillas consecutivas en 2 o más sitios, con movimiento paradójico. La hipoxemia se debe a la contusión pulmonar; analgesia y fluidos restringidos.",
+   "pagina": 67,
+   "clase": "cirugia-10",
+   "claseTitulo": "11.10 Trauma Torácico Mayor: Neumotórax a Tensión, Hemotórax Masivo & Tórax Volante",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 4
+  },
+  "Taponamiento_cardiaco": {
+   "termino": "Taponamiento cardíaco",
+   "tipo": "Concepto",
+   "alias": [
+    "taponamiento cardíaco",
+    "taponamiento"
+   ],
+   "def": "Sangre en el saco pericárdico que impide el llenado ventricular. Tríada de Beck y pulso paradójico; se confirma con Eco-FAST subxifoideo.",
+   "pagina": 67,
+   "clase": "cirugia-10",
+   "claseTitulo": "11.10 Trauma Torácico Mayor: Neumotórax a Tensión, Hemotórax Masivo & Tórax Volante",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 5
+  },
+  "Triada_de_Beck": {
+   "termino": "Tríada de Beck",
+   "tipo": "Signo",
+   "alias": [
+    "Beck"
+   ],
+   "def": "Hipotensión, ruidos cardíacos apagados e ingurgitación yugular, con murmullo pulmonar normal: taponamiento cardíaco.",
+   "pagina": 70,
+   "clase": "cirugia-10",
+   "claseTitulo": "11.10 Trauma Torácico Mayor: Neumotórax a Tensión, Hemotórax Masivo & Tórax Volante",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Pleurostomia": {
+   "termino": "Pleurostomía",
+   "tipo": "Concepto",
+   "alias": [
+    "pleurostomía",
+    "tubo pleural",
+    "drenaje pleural"
+   ],
+   "def": "Tubo pleural de 28-32 Fr en el triángulo de seguridad (4°-5° EIC), por el borde superior de la costilla inferior.",
+   "pagina": 67,
+   "clase": "cirugia-10",
+   "claseTitulo": "11.10 Trauma Torácico Mayor: Neumotórax a Tensión, Hemotórax Masivo & Tórax Volante",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 10
+  },
+  "Eco_FAST": {
+   "termino": "Eco-FAST",
+   "tipo": "Examen",
+   "alias": [
+    "Eco-FAST",
+    "FAST"
+   ],
+   "def": "Ecografía de 4 ventanas (hepatorrenal, esplenorrenal, pélvica, pericárdica) que busca líquido libre. Inestable con FAST positivo va a laparotomía, no al TAC.",
+   "pagina": 72,
+   "clase": "cirugia-11",
+   "claseTitulo": "11.11 Trauma Abdominal: Cerrado vs Penetrante, Eco-FAST & Laparotomía de Urgencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 9
+  },
+  "Signo_de_Kehr": {
+   "termino": "Signo de Kehr",
+   "tipo": "Signo",
+   "alias": [
+    "Kehr"
+   ],
+   "def": "Dolor referido en el hombro izquierdo por irritación diafragmática debida a hemoperitoneo de origen esplénico.",
+   "pagina": 72,
+   "clase": "cirugia-11",
+   "claseTitulo": "11.11 Trauma Abdominal: Cerrado vs Penetrante, Eco-FAST & Laparotomía de Urgencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Signo_del_cinturon_de_seguridad": {
+   "termino": "Signo del cinturón de seguridad",
+   "tipo": "Signo",
+   "alias": [
+    "cinturón de seguridad"
+   ],
+   "def": "Equimosis transversa en la pared abdominal, asociada a rotura de intestino delgado, desgarro mesentérico o fractura vertebral lumbar de Chance.",
+   "pagina": 72,
+   "clase": "cirugia-11",
+   "claseTitulo": "11.11 Trauma Abdominal: Cerrado vs Penetrante, Eco-FAST & Laparotomía de Urgencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Manejo_no_operatorio": {
+   "termino": "Manejo no operatorio",
+   "tipo": "Concepto",
+   "alias": [
+    "manejo no operatorio",
+    "MNO"
+   ],
+   "def": "Estándar en contusiones de bazo, hígado y riñón con estabilidad hemodinámica, sin peritonitis ni lesión de víscera hueca; angioembolización si hay blush.",
+   "pagina": 73,
+   "clase": "cirugia-11",
+   "claseTitulo": "11.11 Trauma Abdominal: Cerrado vs Penetrante, Eco-FAST & Laparotomía de Urgencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 4
+  },
+  "Escala_AAST": {
+   "termino": "Escala AAST",
+   "tipo": "Concepto",
+   "alias": [
+    "AAST"
+   ],
+   "def": "Gradúa lesiones de bazo e hígado de I a V según el TAC; grado V es estallido del órgano y requiere laparotomía urgente.",
+   "pagina": 73,
+   "clase": "cirugia-11",
+   "claseTitulo": "11.11 Trauma Abdominal: Cerrado vs Penetrante, Eco-FAST & Laparotomía de Urgencia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Uretrografia_retrograda": {
+   "termino": "Uretrografía retrógrada",
+   "tipo": "Examen",
+   "alias": [
+    "uretrografía"
+   ],
+   "def": "Examen ante sospecha de lesión uretral (sangre en el meato, hematoma perineal, próstata alta); nunca pasar sonda Foley a ciegas.",
+   "pagina": 62,
+   "clase": "cirugia-09",
+   "claseTitulo": "11.9 Evaluación Inicial del Politraumatizado: Protocolo ATLS (A-B-C-D-E)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 4
+  },
+  "Cistostomia_suprapubica": {
+   "termino": "Cistostomía suprapúbica",
+   "tipo": "Concepto",
+   "alias": [
+    "cistostomía"
+   ],
+   "def": "Derivación urinaria percutánea ante lesión uretral con retención, cuando la sonda Foley está contraindicada.",
+   "pagina": 62,
+   "clase": "cirugia-09",
+   "claseTitulo": "11.9 Evaluación Inicial del Politraumatizado: Protocolo ATLS (A-B-C-D-E)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 3
+  },
+  "Traumatismo_encefalo_craneano": {
+   "termino": "Traumatismo encéfalo-craneano",
+   "tipo": "Concepto",
+   "alias": [
+    "TEC",
+    "traumatismo encéfalo-craneano",
+    "traumatismo encefalocraneano"
+   ],
+   "def": "Glasgow leve 13-15 (80%), moderado 9-12 y grave ≤ 8. El objetivo es evitar el daño secundario: hipotensión, hipoxemia e hipertensión endocraneana.",
+   "pagina": 78,
+   "clase": "cirugia-12",
+   "claseTitulo": "11.12 Traumatismo Encéfalo-Craneano (TEC): Clasificación, Criterios de TAC & PIC",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 15
+  },
+  "Escala_de_Glasgow": {
+   "termino": "Escala de Glasgow",
+   "tipo": "Concepto",
+   "alias": [
+    "Glasgow"
+   ],
+   "def": "Suma ocular (4), verbal (5) y motor (6). Glasgow ≤ 8 indica vía aérea en riesgo e intubación.",
+   "pagina": 78,
+   "clase": "cirugia-12",
+   "claseTitulo": "11.12 Traumatismo Encéfalo-Craneano (TEC): Clasificación, Criterios de TAC & PIC",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 8
+  },
+  "Hematoma_epidural": {
+   "termino": "Hematoma epidural",
+   "tipo": "Concepto",
+   "alias": [
+    "hematoma epidural"
+   ],
+   "def": "Rotura de la arteria meníngea media con fractura temporal: intervalo lúcido, lente biconvexa que no cruza suturas. Craneotomía urgente.",
+   "pagina": 78,
+   "clase": "cirugia-12",
+   "claseTitulo": "11.12 Traumatismo Encéfalo-Craneano (TEC): Clasificación, Criterios de TAC & PIC",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 5
+  },
+  "Hematoma_subdural": {
+   "termino": "Hematoma subdural",
+   "tipo": "Concepto",
+   "alias": [
+    "hematoma subdural"
+   ],
+   "def": "Rotura de venas puente en ancianos: semiluna cóncava que cruza suturas, con deterioro progresivo. Se opera si el espesor es > 10 mm o el desvío > 5 mm.",
+   "pagina": 78,
+   "clase": "cirugia-12",
+   "claseTitulo": "11.12 Traumatismo Encéfalo-Craneano (TEC): Clasificación, Criterios de TAC & PIC",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Hipertension_endocraneana": {
+   "termino": "Hipertensión endocraneana",
+   "tipo": "Concepto",
+   "alias": [
+    "hipertensión endocraneana",
+    "HTE"
+   ],
+   "def": "Cefalea matinal, vómitos en proyectil, edema de papila y diplopía. Contraindicada la punción lumbar; cabecera a 30°, TAC y neurocirugía.",
+   "pagina": 78,
+   "clase": "cirugia-12",
+   "claseTitulo": "11.12 Traumatismo Encéfalo-Craneano (TEC): Clasificación, Criterios de TAC & PIC",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 3
+  },
+  "Triada_de_Cushing": {
+   "termino": "Tríada de Cushing",
+   "tipo": "Signo",
+   "alias": [
+    "Cushing"
+   ],
+   "def": "Hipertensión con presión de pulso amplia, bradicardia y respiración irregular: signo tardío de enclavamiento.",
+   "pagina": 81,
+   "clase": "cirugia-12",
+   "claseTitulo": "11.12 Traumatismo Encéfalo-Craneano (TEC): Clasificación, Criterios de TAC & PIC",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Ojos_de_mapache": {
+   "termino": "Ojos de mapache",
+   "tipo": "Signo",
+   "alias": [
+    "ojos de mapache"
+   ],
+   "def": "Equimosis periorbitaria bilateral sin trauma directo; signo de fractura de base de cráneo. Obliga a TAC y a sonda orogástrica.",
+   "pagina": 79,
+   "clase": "cirugia-12",
+   "claseTitulo": "11.12 Traumatismo Encéfalo-Craneano (TEC): Clasificación, Criterios de TAC & PIC",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 4
+  },
+  "Signo_de_Battle": {
+   "termino": "Signo de Battle",
+   "tipo": "Signo",
+   "alias": [
+    "Battle"
+   ],
+   "def": "Equimosis retroauricular sobre la apófisis mastoides; signo de fractura de base de cráneo.",
+   "pagina": 78,
+   "clase": "cirugia-12",
+   "claseTitulo": "11.12 Traumatismo Encéfalo-Craneano (TEC): Clasificación, Criterios de TAC & PIC",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 3
+  },
+  "Fractura_de_base_de_craneo": {
+   "termino": "Fractura de base de cráneo",
+   "tipo": "Concepto",
+   "alias": [
+    "fractura de base de cráneo",
+    "fractura de peñasco"
+   ],
+   "def": "Se sospecha con ojos de mapache, signo de Battle, otorraquia, rinorraquia o hemotímpano. No irrigar ni taponar el oído y no pasar sonda por la nariz.",
+   "pagina": 78,
+   "clase": "cirugia-12",
+   "claseTitulo": "11.12 Traumatismo Encéfalo-Craneano (TEC): Clasificación, Criterios de TAC & PIC",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 5
+  },
+  "Manitol": {
+   "termino": "Manitol",
+   "tipo": "Farmaco",
+   "alias": [
+    "manitol"
+   ],
+   "def": "Terapia hiperosmolar al 20% (0.5-1.0 g/kg EV en 20 minutos) en herniación. Con hipotensión se prefiere salino hipertónico, pues el manitol causa hipovolemia.",
+   "pagina": 80,
+   "clase": "cirugia-12",
+   "claseTitulo": "11.12 Traumatismo Encéfalo-Craneano (TEC): Clasificación, Criterios de TAC & PIC",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 3
+  },
+  "Salino_hipertonico": {
+   "termino": "Salino hipertónico",
+   "tipo": "Farmaco",
+   "alias": [
+    "salino hipertónico",
+    "suero hipertónico"
+   ],
+   "def": "Salino al 3% en bolo de 250-500 mL en herniación o HTE; preferido sobre el manitol si hay hipotensión arterial.",
+   "pagina": 80,
+   "clase": "cirugia-12",
+   "claseTitulo": "11.12 Traumatismo Encéfalo-Craneano (TEC): Clasificación, Criterios de TAC & PIC",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Quemadura": {
+   "termino": "Quemadura",
+   "tipo": "Concepto",
+   "alias": [
+    "quemadura",
+    "quemaduras"
+   ],
+   "def": "Primer grado: no se cuenta. Segundo superficial: flictenas rosadas muy dolorosas. Segundo profundo: lecho pálido. Tercer grado: escara indolora.",
+   "pagina": 84,
+   "clase": "cirugia-13",
+   "claseTitulo": "11.13 Quemaduras Graves: Regla de Wallace, Reanimación Parkland & Criterios GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 12
+  },
+  "Regla_de_Wallace": {
+   "termino": "Regla de Wallace",
+   "tipo": "Concepto",
+   "alias": [
+    "Wallace",
+    "regla de los nueve"
+   ],
+   "def": "Regla de los nueve: cabeza 9%, tronco anterior 18%, posterior 18%, cada brazo 9%, cada pierna 18%. La palma del paciente equivale al 1%.",
+   "pagina": 84,
+   "clase": "cirugia-13",
+   "claseTitulo": "11.13 Quemaduras Graves: Regla de Wallace, Reanimación Parkland & Criterios GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Formula_de_Parkland": {
+   "termino": "Fórmula de Parkland",
+   "tipo": "Concepto",
+   "alias": [
+    "Parkland"
+   ],
+   "def": "4 mL × kg × % SCQ de Ringer lactato en 24 horas; la mitad en las primeras 8 horas contadas desde el accidente. Se titula por diuresis.",
+   "pagina": 84,
+   "clase": "cirugia-13",
+   "claseTitulo": "11.13 Quemaduras Graves: Regla de Wallace, Reanimación Parkland & Criterios GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 4
+  },
+  "Gran_quemado": {
+   "termino": "Gran quemado",
+   "tipo": "Concepto",
+   "alias": [
+    "gran quemado",
+    "índice de Garcés"
+   ],
+   "def": "GES N° 56: Garcés > 70, 2°-3° grado > 20% de SCQ en adultos (> 10% en niños y ancianos), 3° grado > 10%, vía aérea, alta tensión o zonas especiales.",
+   "pagina": 84,
+   "clase": "cirugia-13",
+   "claseTitulo": "11.13 Quemaduras Graves: Regla de Wallace, Reanimación Parkland & Criterios GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 5
+  },
+  "Injuria_inhalatoria": {
+   "termino": "Injuria inhalatoria",
+   "tipo": "Concepto",
+   "alias": [
+    "injuria inhalatoria",
+    "inhalación"
+   ],
+   "def": "Vibrisas chamuscadas, esputo carbonáceo, disfonía y estridor: intubación orotraqueal precoz antes de que el edema cierre la glotis.",
+   "pagina": 84,
+   "clase": "cirugia-13",
+   "claseTitulo": "11.13 Quemaduras Graves: Regla de Wallace, Reanimación Parkland & Criterios GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Intoxicacion_por_monoxido_de_carbono": {
+   "termino": "Intoxicación por monóxido de carbono",
+   "tipo": "Concepto",
+   "alias": [
+    "monóxido de carbono",
+    "carboxihemoglobina"
+   ],
+   "def": "Todo rescatado de incendio cerrado; el oxímetro es falsamente normal. Se mide carboxihemoglobina y se da oxígeno al 100% con mascarilla de no reinhalación.",
+   "pagina": 87,
+   "clase": "cirugia-13",
+   "claseTitulo": "11.13 Quemaduras Graves: Regla de Wallace, Reanimación Parkland & Criterios GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Escarotomia": {
+   "termino": "Escarotomía",
+   "tipo": "Concepto",
+   "alias": [
+    "escarotomía"
+   ],
+   "def": "Incisión longitudinal de la escara en quemaduras circulares de 3° grado de extremidad o tórax; urgente, sin anestesia porque la escara es insensible.",
+   "pagina": 87,
+   "clase": "cirugia-13",
+   "claseTitulo": "11.13 Quemaduras Graves: Regla de Wallace, Reanimación Parkland & Criterios GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 3
+  },
+  "Sulfadiazina_de_plata": {
+   "termino": "Sulfadiazina de plata",
+   "tipo": "Farmaco",
+   "alias": [
+    "sulfadiazina de plata"
+   ],
+   "def": "Cobertura tópica al 1% de quemaduras; se evita en alergia a sulfas, embarazo a término y recién nacidos.",
+   "pagina": 87,
+   "clase": "cirugia-13",
+   "claseTitulo": "11.13 Quemaduras Graves: Regla de Wallace, Reanimación Parkland & Criterios GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Injerto": {
+   "termino": "Injerto",
+   "tipo": "Concepto",
+   "alias": [
+    "injerto",
+    "injertos"
+   ],
+   "def": "Tejido trasplantado sin irrigación propia, prende por imbibición las primeras 48 horas. No prende sobre hueso, tendón o cartílago desnudos.",
+   "pagina": 84,
+   "clase": "cirugia-13",
+   "claseTitulo": "11.13 Quemaduras Graves: Regla de Wallace, Reanimación Parkland & Criterios GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 4
+  },
+  "Colgajo": {
+   "termino": "Colgajo",
+   "tipo": "Concepto",
+   "alias": [
+    "colgajo",
+    "colgajos"
+   ],
+   "def": "Tejido que lleva su propio pedículo vascular; cubre hueso, tendón, implantes y defectos profundos.",
+   "pagina": 87,
+   "clase": "cirugia-13",
+   "claseTitulo": "11.13 Quemaduras Graves: Regla de Wallace, Reanimación Parkland & Criterios GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Queloide": {
+   "termino": "Queloide",
+   "tipo": "Concepto",
+   "alias": [
+    "queloide"
+   ],
+   "def": "Cicatriz que sobrepasa los márgenes de la lesión y no regresa; más frecuente en piel oscura. Corticoide intralesional; la escisión simple recidiva.",
+   "pagina": 109,
+   "clase": "cirugia-18",
+   "claseTitulo": "11.18 Manejo de Heridas Traumáticas, Mordeduras Animales/Humanas & Profilaxis Antitetánica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 4
+  },
+  "Cicatriz_hipertrofica": {
+   "termino": "Cicatriz hipertrófica",
+   "tipo": "Concepto",
+   "alias": [
+    "cicatriz hipertrófica"
+   ],
+   "def": "Cicatriz elevada pero confinada a los límites de la lesión, que mejora con el tiempo.",
+   "pagina": 87,
+   "clase": "cirugia-13",
+   "claseTitulo": "11.13 Quemaduras Graves: Regla de Wallace, Reanimación Parkland & Criterios GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Ulcera_de_Marjolin": {
+   "termino": "Úlcera de Marjolin",
+   "tipo": "Concepto",
+   "alias": [
+    "Marjolin"
+   ],
+   "def": "Carcinoma escamoso sobre una cicatriz crónica de quemadura; se diagnostica con biopsia incisional.",
+   "pagina": 87,
+   "clase": "cirugia-13",
+   "claseTitulo": "11.13 Quemaduras Graves: Regla de Wallace, Reanimación Parkland & Criterios GES",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Escala_ASA": {
+   "termino": "Escala ASA",
+   "tipo": "Concepto",
+   "alias": [
+    "ASA"
+   ],
+   "def": "I sano; II enfermedad leve; III severa con limitación funcional; IV amenaza constante para la vida; V moribundo; VI muerte encefálica. El sufijo E indica urgencia.",
+   "pagina": 93,
+   "clase": "cirugia-14",
+   "claseTitulo": "11.14 Evaluación Preoperatoria: Escala ASA, Score Cardíaco de Lee & Fármacos Perioperatorios",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 7
+  },
+  "Capacidad_funcional": {
+   "termino": "Capacidad funcional",
+   "tipo": "Concepto",
+   "alias": [
+    "METs"
+   ],
+   "def": "Capacidad ≥ 4 METs (subir dos pisos sin síntomas) autoriza la cirugía sin pruebas cardíacas adicionales.",
+   "pagina": 93,
+   "clase": "cirugia-14",
+   "claseTitulo": "11.14 Evaluación Preoperatoria: Escala ASA, Score Cardíaco de Lee & Fármacos Perioperatorios",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Score_de_Lee": {
+   "termino": "Score de Lee",
+   "tipo": "Concepto",
+   "alias": [
+    "Lee",
+    "RCRI"
+   ],
+   "def": "Seis factores de riesgo cardíaco; 0 factores 0.4%, 1 factor 0.9%, 2 factores 6.6% y ≥ 3 factores > 11%, que obliga a evaluación cardiológica.",
+   "pagina": 93,
+   "clase": "cirugia-14",
+   "claseTitulo": "11.14 Evaluación Preoperatoria: Escala ASA, Score Cardíaco de Lee & Fármacos Perioperatorios",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 7
+  },
+  "Betabloqueadores": {
+   "termino": "Betabloqueadores",
+   "tipo": "Farmaco",
+   "alias": [
+    "betabloqueadores",
+    "betabloqueador"
+   ],
+   "def": "Nunca se suspenden en el perioperatorio: se toman con sorbo de agua la mañana de la cirugía para evitar taquicardia de rebote e isquemia.",
+   "pagina": 93,
+   "clase": "cirugia-14",
+   "claseTitulo": "11.14 Evaluación Preoperatoria: Escala ASA, Score Cardíaco de Lee & Fármacos Perioperatorios",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 5
+  },
+  "IECA_y_ARA_II": {
+   "termino": "IECA y ARA-II",
+   "tipo": "Farmaco",
+   "alias": [
+    "IECA",
+    "ARA-II",
+    "enalapril",
+    "losartán"
+   ],
+   "def": "Se suspenden 24 horas antes de la cirugía, omitiendo la dosis de la mañana, para evitar hipotensión refractaria en la inducción.",
+   "pagina": 93,
+   "clase": "cirugia-14",
+   "claseTitulo": "11.14 Evaluación Preoperatoria: Escala ASA, Score Cardíaco de Lee & Fármacos Perioperatorios",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Metformina": {
+   "termino": "Metformina",
+   "tipo": "Farmaco",
+   "alias": [
+    "metformina"
+   ],
+   "def": "Se suspende 24 a 48 horas antes de cirugía mayor o contraste yodado para prevenir acidosis láctica.",
+   "pagina": 93,
+   "clase": "cirugia-14",
+   "claseTitulo": "11.14 Evaluación Preoperatoria: Escala ASA, Score Cardíaco de Lee & Fármacos Perioperatorios",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Clopidogrel": {
+   "termino": "Clopidogrel",
+   "tipo": "Farmaco",
+   "alias": [
+    "clopidogrel"
+   ],
+   "def": "Se suspende 5 a 7 días antes de cirugía electiva por inhibición plaquetaria irreversible.",
+   "pagina": 94,
+   "clase": "cirugia-14",
+   "claseTitulo": "11.14 Evaluación Preoperatoria: Escala ASA, Score Cardíaco de Lee & Fármacos Perioperatorios",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Aspirina": {
+   "termino": "Aspirina",
+   "tipo": "Farmaco",
+   "alias": [
+    "AAS",
+    "ácido acetilsalicílico"
+   ],
+   "def": "AAS 100 mg en prevención secundaria se mantiene en cirugía general; se suspende 7 días antes solo en neurocirugía, cámara posterior ocular o RTU de próstata.",
+   "pagina": 93,
+   "clase": "cirugia-14",
+   "claseTitulo": "11.14 Evaluación Preoperatoria: Escala ASA, Score Cardíaco de Lee & Fármacos Perioperatorios",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Anticoagulantes_orales": {
+   "termino": "Anticoagulantes orales",
+   "tipo": "Farmaco",
+   "alias": [
+    "warfarina",
+    "acenocumarol",
+    "DOACs",
+    "rivaroxabán",
+    "apixabán"
+   ],
+   "def": "Warfarina o acenocumarol: suspender 5 días antes, con puente de HBPM. DOACs: suspender 48 horas antes, sin puente.",
+   "pagina": 78,
+   "clase": "cirugia-12",
+   "claseTitulo": "11.12 Traumatismo Encéfalo-Craneano (TEC): Clasificación, Criterios de TAC & PIC",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Cirugia_ambulatoria": {
+   "termino": "Cirugía ambulatoria",
+   "tipo": "Concepto",
+   "alias": [
+    "cirugía ambulatoria",
+    "cirugía mayor ambulatoria"
+   ],
+   "def": "Pacientes ASA I-II (o III estable), cirugía corta y acompañante adulto por 24 horas. Se excluyen ASA IV y apnea del sueño no tratada.",
+   "pagina": 93,
+   "clase": "cirugia-14",
+   "claseTitulo": "11.14 Evaluación Preoperatoria: Escala ASA, Score Cardíaco de Lee & Fármacos Perioperatorios",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Desnutricion": {
+   "termino": "Desnutrición",
+   "tipo": "Concepto",
+   "alias": [
+    "desnutrición",
+    "valoración global subjetiva"
+   ],
+   "def": "Se sospecha con baja de peso > 10% en 6 meses o IMC < 18,5. La valoración global subjetiva clasifica en A, B y C; el desnutrido grave recibe soporte por 7 a 14 días.",
+   "pagina": 94,
+   "clase": "cirugia-14",
+   "claseTitulo": "11.14 Evaluación Preoperatoria: Escala ASA, Score Cardíaco de Lee & Fármacos Perioperatorios",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 4
+  },
+  "Albumina_plasmatica": {
+   "termino": "Albúmina plasmática",
+   "tipo": "Examen",
+   "alias": [
+    "albúmina plasmática",
+    "albúmina"
+   ],
+   "def": "Normal 3,5-5 g/dL y vida media de unos 20 días; refleja las semanas previas. Albúmina baja se asocia a más infección y dehiscencia.",
+   "pagina": 94,
+   "clase": "cirugia-14",
+   "claseTitulo": "11.14 Evaluación Preoperatoria: Escala ASA, Score Cardíaco de Lee & Fármacos Perioperatorios",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 5
+  },
+  "Fiebre_postoperatoria": {
+   "termino": "Fiebre postoperatoria",
+   "tipo": "Concepto",
+   "alias": [
+    "fiebre postoperatoria"
+   ],
+   "def": "Las 5 W: Wind (atelectasia, días 1-2), Water (urinaria, día 3), Wound (herida, días 5-7), Walking (TVP, días 7-10) y Wonder drugs.",
+   "pagina": 100,
+   "clase": "cirugia-16",
+   "claseTitulo": "11.16 Fiebre Postoperatoria: Cronología de las 5 'W' (Wind, Water, Wound, Walking, Wonder drugs)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Atelectasia": {
+   "termino": "Atelectasia",
+   "tipo": "Concepto",
+   "alias": [
+    "atelectasia"
+   ],
+   "def": "Causa más frecuente de fiebre en las primeras 24-48 horas, con herida limpia y crepitaciones basales. Se trata con kinesiterapia y analgesia, sin antibióticos.",
+   "pagina": 100,
+   "clase": "cirugia-16",
+   "claseTitulo": "11.16 Fiebre Postoperatoria: Cronología de las 5 'W' (Wind, Water, Wound, Walking, Wonder drugs)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 7
+  },
+  "Trombosis_venosa_profunda": {
+   "termino": "Trombosis venosa profunda",
+   "tipo": "Concepto",
+   "alias": [
+    "trombosis venosa profunda",
+    "TVP"
+   ],
+   "def": "Fiebre postoperatoria hacia el día 7-10 con pantorrilla asimétrica y dolorosa. Eco-Doppler venoso y anticoagulación con HBPM.",
+   "pagina": 100,
+   "clase": "cirugia-16",
+   "claseTitulo": "11.16 Fiebre Postoperatoria: Cronología de las 5 'W' (Wind, Water, Wound, Walking, Wonder drugs)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 5
+  },
+  "Eco_Doppler": {
+   "termino": "Eco-Doppler",
+   "tipo": "Examen",
+   "alias": [
+    "eco-Doppler",
+    "Doppler"
+   ],
+   "def": "Confirma trombosis venosa profunda, reflujo en várices y aneurismas de arterias periféricas.",
+   "pagina": 47,
+   "clase": "cirugia-19",
+   "claseTitulo": "11.19 Patología Vascular Periférica: Aneurismas, Várices e Insuficiencia Venosa & Úlceras de las Piernas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 4
+  },
+  "Proteina_C_reactiva": {
+   "termino": "Proteína C reactiva",
+   "tipo": "Examen",
+   "alias": [
+    "proteína C reactiva",
+    "PCR"
+   ],
+   "def": "Sube a las 6 horas, máximo a las 36-50 horas, vida media de 19 horas. Un segundo ascenso después del día 3-4 sugiere complicación infecciosa.",
+   "pagina": 100,
+   "clase": "cirugia-16",
+   "claseTitulo": "11.16 Fiebre Postoperatoria: Cronología de las 5 'W' (Wind, Water, Wound, Walking, Wonder drugs)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 4
+  },
+  "Infeccion_del_sitio_quirurgico": {
+   "termino": "Infección del sitio quirúrgico",
+   "tipo": "Concepto",
+   "alias": [
+    "infección del sitio quirúrgico",
+    "ISQ"
+   ],
+   "def": "Dentro de 30 días (90 con implante), hacia el día 5-7. El pilar es abrir la herida y drenar; el antibiótico es un apoyo.",
+   "pagina": 104,
+   "clase": "cirugia-17",
+   "claseTitulo": "11.17 Infección de Sitio Quirúrgico (ISQ), Dehiscencia de Herida & Evisceración Aguda",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 10
+  },
+  "Fistula_del_intestino_delgado": {
+   "termino": "Fístula del intestino delgado",
+   "tipo": "Concepto",
+   "alias": [
+    "fístula enterocutánea",
+    "fístulas del intestino delgado",
+    "SNAP"
+   ],
+   "def": "75-85% son postoperatorias; salida de contenido entérico entre los días 5 y 10. Manejo SNAP: sepsis, nutrición, anatomía y cirugía diferida.",
+   "pagina": 105,
+   "clase": "cirugia-17",
+   "claseTitulo": "11.17 Infección de Sitio Quirúrgico (ISQ), Dehiscencia de Herida & Evisceración Aguda",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Cefazolina": {
+   "termino": "Cefazolina",
+   "tipo": "Farmaco",
+   "alias": [
+    "cefazolina"
+   ],
+   "def": "Profilaxis de elección en cirugía limpia-contaminada: 2 g EV, 30-60 minutos antes de la incisión; en apendicitis no perforada, dosis única.",
+   "pagina": 104,
+   "clase": "cirugia-17",
+   "claseTitulo": "11.17 Infección de Sitio Quirúrgico (ISQ), Dehiscencia de Herida & Evisceración Aguda",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 5
+  },
+  "Profilaxis_antibiotica": {
+   "termino": "Profilaxis antibiótica",
+   "tipo": "Concepto",
+   "alias": [
+    "profilaxis antibiótica",
+    "profilaxis quirúrgica"
+   ],
+   "def": "Cirugía limpia no la requiere salvo malla o prótesis; limpia-contaminada lleva cefazolina preincisional; la sucia requiere tratamiento antibiótico.",
+   "pagina": 7,
+   "clase": "cirugia-01",
+   "claseTitulo": "11.1 Apendicitis Aguda: Score de Alvarado, Diagnóstico Clínico & Apendicectomía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 3
+  },
+  "Asepsia_y_antisepsia": {
+   "termino": "Asepsia y antisepsia",
+   "tipo": "Concepto",
+   "alias": [
+    "asepsia",
+    "antisepsia"
+   ],
+   "def": "Asepsia evita la contaminación (autoclave, campo estéril); antisepsia reduce microorganismos en tejido vivo. El vello no se rasura, se corta con clipper.",
+   "pagina": 104,
+   "clase": "cirugia-17",
+   "claseTitulo": "11.17 Infección de Sitio Quirúrgico (ISQ), Dehiscencia de Herida & Evisceración Aguda",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-17&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Profilaxis_antitetanica": {
+   "termino": "Profilaxis antitetánica",
+   "tipo": "Concepto",
+   "alias": [
+    "antitetánica",
+    "toxoide",
+    "inmunoglobulina antitetánica"
+   ],
+   "def": "Esquema completo: refuerzo dT si pasaron > 10 años (limpia) o > 5 años (sucia), sin TIG. Incompleto o desconocido y herida sucia: dT + TIG 250 UI.",
+   "pagina": 108,
+   "clase": "cirugia-18",
+   "claseTitulo": "11.18 Manejo de Heridas Traumáticas, Mordeduras Animales/Humanas & Profilaxis Antitetánica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 5
+  },
+  "Mordeduras": {
+   "termino": "Mordeduras",
+   "tipo": "Concepto",
+   "alias": [
+    "mordedura",
+    "mordeduras"
+   ],
+   "def": "Gato: Pasteurella, mayor infección; perro: desgarro; humana: Eikenella. Irrigar a presión, no suturar y dar amoxicilina con ácido clavulánico.",
+   "pagina": 108,
+   "clase": "cirugia-18",
+   "claseTitulo": "11.18 Manejo de Heridas Traumáticas, Mordeduras Animales/Humanas & Profilaxis Antitetánica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 9
+  },
+  "Amoxicilina_con_acido_clavulanico": {
+   "termino": "Amoxicilina con ácido clavulánico",
+   "tipo": "Farmaco",
+   "alias": [
+    "amoxicilina con ácido clavulánico",
+    "amoxicilina/ácido clavulánico"
+   ],
+   "def": "Antibiótico de elección en mordeduras: 875/125 mg cada 12 horas por 5 a 7 días; en alérgicos, doxiciclina 100 mg cada 12 horas.",
+   "pagina": 108,
+   "clase": "cirugia-18",
+   "claseTitulo": "11.18 Manejo de Heridas Traumáticas, Mordeduras Animales/Humanas & Profilaxis Antitetánica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 3
+  },
+  "Rabia": {
+   "termino": "Rabia",
+   "tipo": "Concepto",
+   "alias": [
+    "profilaxis antirrábica",
+    "rabia"
+   ],
+   "def": "Se lava la herida 10-15 minutos y se notifica. Perro observable: 10 días; murciélago o animal no ubicable: vacuna en los días 0, 3, 7 y 14 y, si es grave, inmunoglobulina 20 UI/kg.",
+   "pagina": 108,
+   "clase": "cirugia-18",
+   "claseTitulo": "11.18 Manejo de Heridas Traumáticas, Mordeduras Animales/Humanas & Profilaxis Antitetánica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-18&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Anestesia_neuroaxial": {
+   "termino": "Anestesia neuroaxial",
+   "tipo": "Concepto",
+   "alias": [
+    "raquídea",
+    "epidural",
+    "neuroaxial"
+   ],
+   "def": "Raquídea: anestésico en el LCR (L3-L4 o L4-L5), bloqueo rápido y profundo. Epidural: fuera de la duramadre, permite catéter. Complicación frecuente: hipotensión.",
+   "pagina": 96,
+   "clase": "cirugia-15",
+   "claseTitulo": "11.15 Anestesiología General vs Neuroaxial & Toxicidad Sistémica por Anestésicos Locales",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 5
+  },
+  "Cefalea_post_puncion_dural": {
+   "termino": "Cefalea post-punción dural",
+   "tipo": "Concepto",
+   "alias": [
+    "cefalea post-punción dural",
+    "CPPD"
+   ],
+   "def": "Cefalea postural por fuga de LCR: empeora al sentarse y alivia acostado. Reposo, hidratación y cafeína; parche hemático si no cede en 48-72 horas.",
+   "pagina": 96,
+   "clase": "cirugia-15",
+   "claseTitulo": "11.15 Anestesiología General vs Neuroaxial & Toxicidad Sistémica por Anestésicos Locales",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 3
+  },
+  "Propofol": {
+   "termino": "Propofol",
+   "tipo": "Farmaco",
+   "alias": [
+    "propofol"
+   ],
+   "def": "Inductor estándar; causa hipotensión por vasodilatación y depresión miocárdica. Efecto antiemético y despertar rápido.",
+   "pagina": 96,
+   "clase": "cirugia-15",
+   "claseTitulo": "11.15 Anestesiología General vs Neuroaxial & Toxicidad Sistémica por Anestésicos Locales",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 3
+  },
+  "Etomidato": {
+   "termino": "Etomidato",
+   "tipo": "Farmaco",
+   "alias": [
+    "etomidato"
+   ],
+   "def": "Inductor que mantiene estabilidad hemodinámica; de elección en shock o cardiopatía severa, con riesgo de supresión suprarrenal transitoria.",
+   "pagina": 96,
+   "clase": "cirugia-15",
+   "claseTitulo": "11.15 Anestesiología General vs Neuroaxial & Toxicidad Sistémica por Anestésicos Locales",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Ketamina": {
+   "termino": "Ketamina",
+   "tipo": "Farmaco",
+   "alias": [
+    "ketamina"
+   ],
+   "def": "Anestésico disociativo, antagonista NMDA, simpaticomimético y broncodilatador; de elección en shock y crisis asmática grave.",
+   "pagina": 96,
+   "clase": "cirugia-15",
+   "claseTitulo": "11.15 Anestesiología General vs Neuroaxial & Toxicidad Sistémica por Anestésicos Locales",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Succinilcolina": {
+   "termino": "Succinilcolina",
+   "tipo": "Farmaco",
+   "alias": [
+    "succinilcolina"
+   ],
+   "def": "Relajante despolarizante de inicio ultrarrápido; causa hiperkalemia en gran quemado y denervación, y puede desencadenar hipertermia maligna.",
+   "pagina": 96,
+   "clase": "cirugia-15",
+   "claseTitulo": "11.15 Anestesiología General vs Neuroaxial & Toxicidad Sistémica por Anestésicos Locales",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Lidocaina": {
+   "termino": "Lidocaína",
+   "tipo": "Farmaco",
+   "alias": [
+    "lidocaína"
+   ],
+   "def": "Amida: sin epinefrina 4-5 mg/kg (máximo 300 mg); con epinefrina 7 mg/kg (máximo 500 mg). La solución al 1% contiene 10 mg/mL.",
+   "pagina": 96,
+   "clase": "cirugia-15",
+   "claseTitulo": "11.15 Anestesiología General vs Neuroaxial & Toxicidad Sistémica por Anestésicos Locales",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 6
+  },
+  "Bupivacaina": {
+   "termino": "Bupivacaína",
+   "tipo": "Farmaco",
+   "alias": [
+    "bupivacaína"
+   ],
+   "def": "Amida de larga duración; dosis máxima 2 mg/kg (150 mg). Tiene la mayor cardiotoxicidad de los anestésicos locales.",
+   "pagina": 96,
+   "clase": "cirugia-15",
+   "claseTitulo": "11.15 Anestesiología General vs Neuroaxial & Toxicidad Sistémica por Anestésicos Locales",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 4
+  },
+  "Toxicidad_sistemica_por_anestesicos_locales": {
+   "termino": "Toxicidad sistémica por anestésicos locales",
+   "tipo": "Concepto",
+   "alias": [
+    "LAST",
+    "toxicidad sistémica por anestésicos locales"
+   ],
+   "def": "Sabor metálico, parestesias periorales y tinnitus; luego convulsiones y colapso cardiovascular con QRS ancho. Suspender, oxígeno 100% y emulsión lipídica.",
+   "pagina": 96,
+   "clase": "cirugia-15",
+   "claseTitulo": "11.15 Anestesiología General vs Neuroaxial & Toxicidad Sistémica por Anestésicos Locales",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 8
+  },
+  "Emulsion_lipidica": {
+   "termino": "Emulsión lipídica",
+   "tipo": "Farmaco",
+   "alias": [
+    "emulsión lipídica",
+    "Intralipid"
+   ],
+   "def": "Antídoto de la LAST: bolo de 1.5 mL/kg en 1 minuto y luego infusión de 0.25 mL/kg/minuto; actúa como sumidero lipídico.",
+   "pagina": 96,
+   "clase": "cirugia-15",
+   "claseTitulo": "11.15 Anestesiología General vs Neuroaxial & Toxicidad Sistémica por Anestésicos Locales",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Insuficiencia_venosa_cronica": {
+   "termino": "Insuficiencia venosa crónica",
+   "tipo": "Concepto",
+   "alias": [
+    "insuficiencia venosa crónica",
+    "várices"
+   ],
+   "def": "Incompetencia valvular con hipertensión venosa. Várices simples: caminata, elevación, control del peso y medias de 20-30 mmHg; CEAP de C0 a C6.",
+   "pagina": 47,
+   "clase": "cirugia-19",
+   "claseTitulo": "11.19 Patología Vascular Periférica: Aneurismas, Várices e Insuficiencia Venosa & Úlceras de las Piernas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 6
+  },
+  "Aneurisma": {
+   "termino": "Aneurisma",
+   "tipo": "Concepto",
+   "alias": [
+    "aneurisma",
+    "aneurismas"
+   ],
+   "def": "Dilatación arterial permanente de al menos 50% sobre el diámetro normal; la causa más frecuente es la aterosclerosis con hipertensión y tabaquismo.",
+   "pagina": 47,
+   "clase": "cirugia-19",
+   "claseTitulo": "11.19 Patología Vascular Periférica: Aneurismas, Várices e Insuficiencia Venosa & Úlceras de las Piernas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 7
+  },
+  "Aneurisma_popliteo": {
+   "termino": "Aneurisma poplíteo",
+   "tipo": "Concepto",
+   "alias": [
+    "aneurisma poplíteo"
+   ],
+   "def": "El más frecuente de los periféricos; bilateral en la mitad. Se complica con trombosis o embolia distal, no con rotura. Se repara si es ≥ 2 cm, con trombo o sintomático.",
+   "pagina": 47,
+   "clase": "cirugia-19",
+   "claseTitulo": "11.19 Patología Vascular Periférica: Aneurismas, Várices e Insuficiencia Venosa & Úlceras de las Piernas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 3
+  },
+  "Isquemia_aguda_de_extremidad": {
+   "termino": "Isquemia aguda de extremidad",
+   "tipo": "Concepto",
+   "alias": [
+    "isquemia aguda"
+   ],
+   "def": "Dolor, palidez, ausencia de pulso, frialdad y parestesias; urgencia con heparina y revascularización.",
+   "pagina": 47,
+   "clase": "cirugia-19",
+   "claseTitulo": "11.19 Patología Vascular Periférica: Aneurismas, Várices e Insuficiencia Venosa & Úlceras de las Piernas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Ulcera_venosa": {
+   "termino": "Úlcera venosa",
+   "tipo": "Concepto",
+   "alias": [
+    "úlcera venosa"
+   ],
+   "def": "La más frecuente (70-80%): maleolar medial, poco dolorosa, con hiperpigmentación y pulsos presentes. Compresión multicapa si el ITB es > 0,8.",
+   "pagina": 47,
+   "clase": "cirugia-19",
+   "claseTitulo": "11.19 Patología Vascular Periférica: Aneurismas, Várices e Insuficiencia Venosa & Úlceras de las Piernas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 5
+  },
+  "Ulcera_arterial": {
+   "termino": "Úlcera arterial",
+   "tipo": "Concepto",
+   "alias": [
+    "úlcera arterial"
+   ],
+   "def": "Dedos, talón y maléolo lateral, en sacabocados, muy dolorosa, con pulsos ausentes e ITB < 0,9. No se comprime; derivar para revascularización.",
+   "pagina": 49,
+   "clase": "cirugia-19",
+   "claseTitulo": "11.19 Patología Vascular Periférica: Aneurismas, Várices e Insuficiencia Venosa & Úlceras de las Piernas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Indice_tobillo_brazo": {
+   "termino": "Índice tobillo-brazo",
+   "tipo": "Examen",
+   "alias": [
+    "índice tobillo-brazo",
+    "ITB"
+   ],
+   "def": "Se mide antes de comprimir una úlcera: > 0,8 permite compresión; < 0,9 sugiere úlcera arterial.",
+   "pagina": 48,
+   "clase": "cirugia-19",
+   "claseTitulo": "11.19 Patología Vascular Periférica: Aneurismas, Várices e Insuficiencia Venosa & Úlceras de las Piernas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-19&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 4
+  },
+  "Obesidad_morbida": {
+   "termino": "Obesidad mórbida",
+   "tipo": "Concepto",
+   "alias": [
+    "obesidad mórbida"
+   ],
+   "def": "IMC ≥ 40, o ≥ 35 con comorbilidades. Cirugía bariátrica si falla 6 meses de manejo médico supervisado, entre 18 y 65 años.",
+   "pagina": 53,
+   "clase": "cirugia-20",
+   "claseTitulo": "11.20 Obesidad Mórbida y Cirugía Bariátrica: Indicaciones, Técnicas y Complicaciones",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Cirugia_bariatrica": {
+   "termino": "Cirugía bariátrica",
+   "tipo": "Concepto",
+   "alias": [
+    "cirugía bariátrica",
+    "bypass gástrico",
+    "manga gástrica"
+   ],
+   "def": "Manga gástrica: restrictiva, la más realizada. Bypass en Y de Roux: mixto, más pérdida de peso, elección en reflujo y diabetes.",
+   "pagina": 53,
+   "clase": "cirugia-20",
+   "claseTitulo": "11.20 Obesidad Mórbida y Cirugía Bariátrica: Indicaciones, Técnicas y Complicaciones",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 10
+  },
+  "Sindrome_de_dumping": {
+   "termino": "Síndrome de dumping",
+   "tipo": "Concepto",
+   "alias": [
+    "dumping"
+   ],
+   "def": "Tras el bypass: precoz a los 10-30 minutos (palpitaciones, sudor, diarrea); tardío a las 1-3 horas (hipoglicemia reactiva). Comidas pequeñas y sin azúcares simples.",
+   "pagina": 53,
+   "clase": "cirugia-20",
+   "claseTitulo": "11.20 Obesidad Mórbida y Cirugía Bariátrica: Indicaciones, Técnicas y Complicaciones",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 4
+  },
+  "Fuga_anastomotica": {
+   "termino": "Fuga anastomótica",
+   "tipo": "Concepto",
+   "alias": [
+    "fuga anastomótica"
+   ],
+   "def": "Complicación precoz más temida; primer signo: taquicardia persistente > 120 lpm. TAC con contraste y reintervención.",
+   "pagina": 53,
+   "clase": "cirugia-20",
+   "claseTitulo": "11.20 Obesidad Mórbida y Cirugía Bariátrica: Indicaciones, Técnicas y Complicaciones",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-20&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 2
+  },
+  "Puncion_venosa": {
+   "termino": "Punción venosa",
+   "tipo": "Concepto",
+   "alias": [
+    "punción venosa"
+   ],
+   "def": "Torniquete 7-10 cm sobre el sitio por menos de 1 minuto, bisel arriba a 15-30°, soltar antes de retirar la aguja; evitar el brazo con mastectomía y disección axilar.",
+   "pagina": 113,
+   "clase": "cirugia-21",
+   "claseTitulo": "11.21 Procedimientos de Cirugía Menor: Punción Venosa, Manejo de Drenajes, Onicocriptosis & Onicectomía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 1
+  },
+  "Drenajes": {
+   "termino": "Drenajes",
+   "tipo": "Concepto",
+   "alias": [
+    "drenaje",
+    "drenajes",
+    "Penrose"
+   ],
+   "def": "Pasivos (Penrose) o aspirativos (Jackson-Pratt, Redon, Hemovac). Se retiran cuando el débito es seroso y < 30 a 50 mL en 24 horas.",
+   "pagina": 43,
+   "clase": "cirugia-08",
+   "claseTitulo": "11.8 Patología Pilonidal, Hidrosadenitis & Tumores Benignos de Partes Blandas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 22
+  },
+  "Gastrostomia": {
+   "termino": "Gastrostomía",
+   "tipo": "Concepto",
+   "alias": [
+    "gastrostomía"
+   ],
+   "def": "Si se sale la sonda con trayecto maduro (> 4 semanas), se repone de inmediato por el ostoma y se verifica aspirando contenido gástrico.",
+   "pagina": 113,
+   "clase": "cirugia-21",
+   "claseTitulo": "11.21 Procedimientos de Cirugía Menor: Punción Venosa, Manejo de Drenajes, Onicocriptosis & Onicectomía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 3
+  },
+  "Onicocriptosis": {
+   "termino": "Onicocriptosis",
+   "tipo": "Concepto",
+   "alias": [
+    "onicocriptosis",
+    "uña encarnada"
+   ],
+   "def": "Penetración del borde de la uña en el pliegue (Heifetz I-III). Estadio I: baños y elevar el borde; II-III o recidiva: onicectomía parcial con fenol al 88%.",
+   "pagina": 113,
+   "clase": "cirugia-21",
+   "claseTitulo": "11.21 Procedimientos de Cirugía Menor: Punción Venosa, Manejo de Drenajes, Onicocriptosis & Onicectomía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 3
+  },
+  "Onicectomia": {
+   "termino": "Onicectomía",
+   "tipo": "Concepto",
+   "alias": [
+    "onicectomía",
+    "matricectomía"
+   ],
+   "def": "Resección parcial de la uña bajo bloqueo digital con lidocaína sin adrenalina, con matricectomía química con fenol al 88%; recidiva < 5%.",
+   "pagina": 113,
+   "clase": "cirugia-21",
+   "claseTitulo": "11.21 Procedimientos de Cirugía Menor: Punción Venosa, Manejo de Drenajes, Onicocriptosis & Onicectomía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Cirug%C3%ADa&clase=cirugia-21&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_cirugia",
+   "embed": null,
+   "notas": 4
+  }
+ }
+}

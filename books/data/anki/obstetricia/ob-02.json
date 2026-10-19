@@ -1,0 +1,507 @@
+{
+  "classId": "ob-02",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La ecografía de 11 a 13+6 semanas se hace con una LCN entre {{c1::45 y 84 mm}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Ecografía 11–13+6",
+      "repaso": false,
+      "codigos": [
+        "3.01.4.003"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La ecografía del primer trimestre busca dos cosas: {{c1::aneuploidías}} (feto) y riesgo de {{c2::preeclampsia}} (madre, por Doppler uterino).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Un examen, dos marcadores",
+      "repaso": true,
+      "codigos": [
+        "3.01.4.003"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Translucencia nucal patológica: ≥ {{c1::3 mm}} (o > percentil 95 para la LCN).",
+      "extra": "Se asocia a trisomía 21, cardiopatías y síndromes como Turner y Noonan.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Translucencia nucal",
+      "repaso": true,
+      "codigos": [
+        "3.01.4.004"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Además de la TN aumentada, la {{c1::ausencia del hueso nasal}} eleva el riesgo de trisomía 21.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Hueso nasal",
+      "repaso": false,
+      "codigos": [
+        "3.01.4.004"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Marcadores ecográficos de aneuploidía del primer trimestre: TN, hueso nasal, {{c1::ductus venoso}} y {{c2::regurgitación tricuspídea}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Marcadores",
+      "repaso": false,
+      "codigos": [
+        "3.01.4.004"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Translucencia nucal ≥ 3 mm: conducta es {{c1::estudio genético invasivo}} (biopsia de vellosidad corial o amniocentesis).",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Un marcador, una conducta",
+      "repaso": true,
+      "codigos": [
+        "3.01.4.004"
+      ],
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 75",
+        "EUNACOM Diciembre 2025 · Pregunta 50"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante TN ≥ 3 mm, el error es {{c1::repetir la ecografía en unas semanas}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.4.004"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Biopsia de vellosidades coriales: examen invasivo de elección a las 12 semanas, ventana {{c1::10 a 14 semanas}}.",
+      "extra": "La amniocentesis se reserva para después de las 15 semanas.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Julio 2025 P133",
+      "repaso": true,
+      "codigos": [
+        "3.01.4.004"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 133"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Doppler de arterias uterinas evalúa la {{c1::invasión trofoblástica}} de las arterias espirales.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Doppler uterino",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.003"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Doppler uterino de alto riesgo de preeclampsia: IP medio sobre el percentil {{c1::95}} o notch bilateral persistente.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Doppler uterino",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.003"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Doppler uterino alterado: {{c1::aspirina 150 mg}} al día, por la noche.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Un marcador, una conducta",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.003"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La aspirina se inicia antes de la semana {{c1::16}} y se suspende a la semana {{c2::36}}.",
+      "extra": "Después de la semana 16 pierde efecto.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Aspirina",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.003"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Doppler alterado: el error es iniciar aspirina {{c1::después de la semana 20}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.003"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "TN normal con Doppler alterado: el riesgo es de {{c1::preeclampsia}}, no de trisomía; no se pide cariograma fetal.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.003"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La aspirina protege a la {{c1::placenta}} (preeclampsia); la progesterona protege al {{c2::cuello}} (parto prematuro).",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "3.01.4.003"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La ecografía de 20–24 semanas estudia la {{c1::anatomía fetal}} y mide la {{c2::longitud cervical}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Dos ecografías",
+      "repaso": false,
+      "codigos": [
+        "3.01.4.003"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La cervicometría se mide siempre por vía {{c1::transvaginal}} y con la vejiga {{c2::vacía}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Un marcador, una conducta",
+      "repaso": false,
+      "codigos": [
+        "3.01.4.003"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Cuello corto: longitud cervical < {{c1::25 mm}} antes de las 24 semanas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Cervicometría",
+      "repaso": true,
+      "codigos": [
+        "3.01.4.003"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Cuello corto asintomático: {{c1::progesterona micronizada vaginal 200 mg}} cada noche hasta la semana 36.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · La cervicometría decide",
+      "repaso": true,
+      "codigos": [
+        "3.01.4.003"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 155"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Cuello < 25 mm sin antecedentes: el error es indicar {{c1::cerclaje}} de entrada.",
+      "extra": "El cerclaje se reserva para incompetencia cervical (abortos tardíos o partos prematuros previos).",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "3.01.4.003"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En bajo riesgo se hacen ecografías de rutina a las {{c1::11 a 14, 22 a 24 y 30 a 34}} semanas.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Perfil V3 3.01.4.003",
+      "repaso": false,
+      "codigos": [
+        "3.01.4.003"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cuando la FUR no es confiable, se data con la {{c1::ecografía más precoz}} disponible; en el 1.er trimestre manda la {{c2::LCN}}.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Diciembre 2024 P98",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.005"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 98"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se redata por ecografía si la diferencia con la FUM supera {{c1::5 días}} antes de las 9 semanas.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Cuándo la ecografía corrige la fecha",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.005"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se redata si la diferencia supera {{c1::7 días}} entre las 9+0 y 15+6 semanas.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Cuándo la ecografía corrige la fecha",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.005"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Se redata si la diferencia supera {{c1::10 días}} entre las 16+0 y 21+6 semanas, y {{c2::14 días}} entre las 22+0 y 27+6.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Cuándo la ecografía corrige la fecha",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.005"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Desde las 28 semanas, se redata solo si la diferencia supera {{c1::21 días}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Cuándo la ecografía corrige la fecha",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.005"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Si la primera ecografía es tardía, la biometría fetal data con un error de {{c1::10 a 14 días}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Primera ecografía tardía",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.005"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Una vez fijada la fecha probable de parto, {{c1::no se cambia}} con ecografías posteriores: las diferencias de tamaño son alteraciones del crecimiento.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · La fecha no se mueve",
+      "repaso": true,
+      "codigos": [
+        "3.01.1.005"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si la edad gestacional no se puede precisar y hay dudas de crecimiento: ecografía seriada cada {{c1::2–3 semanas}} y derivar a {{c2::ARO}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · La fecha no se mueve",
+      "repaso": false,
+      "codigos": [
+        "3.01.1.005"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La amniocentesis se realiza desde las {{c1::15–16 semanas}}; antes aumenta la pérdida y el pie equino.",
+      "extra": "Se obtienen 15–20 mL de líquido.",
+      "origen": "clase:5",
+      "fuente": "Clase · Amniocentesis",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.001"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Indicaciones de amniocentesis: cariotipo o microarray, PCR por {{c1::infección fetal}} (CMV, toxoplasma, parvovirus) y búsqueda de {{c2::infección intraamniótica}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Amniocentesis",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.001"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El riesgo de pérdida fetal atribuible a la amniocentesis es de {{c1::0,1–0,3%}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Amniocentesis",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.001"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Amniocentesis en Rh(−) no sensibilizada: {{c1::inmunoglobulina anti-D 300 µg IM}} después del procedimiento.",
+      "extra": "El error es omitirla por ser un estudio y no un parto.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "3.01.5.001"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La amniocentesis la realiza el {{c1::especialista en medicina materno-fetal}}; el médico general indica y deriva.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Amniocentesis",
+      "repaso": false,
+      "codigos": [
+        "3.01.5.001"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-02/01_translucencia-nucal-normal-vs-patologica_alt2__cto-gyo_p28.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Translucencia nucal aumentada",
+      "clave": "Espacio sonolúcido engrosado detrás de la nuca fetal",
+      "conducta": "Si es ≥ 3 mm: estudio genético invasivo (biopsia de vellosidad corial o amniocentesis)",
+      "fuente": "Manual CTO Ginecología y Obstetricia 14.ª ed., p. 28",
+      "repaso": true,
+      "codigos": [
+        "3.01.4.004"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/14_obstetricia/ob-02/03_cervicometria__cto-gyo_p159.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Cervicometría transvaginal",
+      "clave": "Dos cruces que marcan el largo del canal cervical",
+      "conducta": "Si mide < 25 mm antes de las 24 semanas: progesterona vaginal 200 mg cada noche hasta la semana 36",
+      "fuente": "Manual CTO Ginecología y Obstetricia 14.ª ed., p. 159",
+      "repaso": true,
+      "codigos": [
+        "3.01.4.003"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "Translucencia nucal aumentada: ¿qué estudio sigue?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.1",
+      "pista": "Doppler de uterinas alterado: ¿qué fármaco y cuándo?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.0.0",
+      "pista": "Cuello menor a 25 mm: ¿qué se indica?"
+    }
+  ]
+}

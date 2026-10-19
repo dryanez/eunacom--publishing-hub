@@ -1809,7 +1809,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Diagnóstico: **Artritis reactiva** (opción **D**). Oligoartritis migratoria es probablemente una reactiva. En especial si la diarrea fue por Campilobacter.. El trastorno adaptativo es una respuesta psicológica a un evento estresante identificable (gatillante) que no cumple criterios de depresión ni de otro trastorno específico. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh."
+        "explanation": "Oligoartritis migratoria tras gastroenteritis (Campylobacter) = artritis reactiva."
       },
       {
         "type": "bento",
@@ -2137,7 +2137,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Diagnóstico: **Artritis reactiva** (opción **D**). Oligoartritis migratoria es probablemente una reactiva. En especial si la diarrea fue por Campilobacter.. El trastorno adaptativo es una respuesta psicológica a un evento estresante identificable (gatillante) que no cumple criterios de depresión ni de otro trastorno específico. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh."
+        "explanation": "Oligoartritis migratoria tras gastroenteritis (Campylobacter) = artritis reactiva."
       },
       {
         "type": "bento",
@@ -2671,39 +2671,39 @@
       {
         "type": "question",
         "nav": "Pregunta Real EUNACOM",
-        "badge": "EUNACOM Diciembre 2024 · Pregunta 145",
-        "notes": "[SLIDE 17] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2024 · Pregunta 145.",
+        "badge": "EUNACOM Diciembre 2017 · Pregunta 35",
+        "notes": "[SLIDE 17] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2017 · Pregunta 35.",
         "number": 6,
-        "caseText": "Era una clínica de ojo rojo, pero con temblor en las manos y baja de peso, al examen físico se observa retracción palpebral: a.​ TSH y T4 libre",
-        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "caseText": "Una paciente presenta un cuadro de 2 meses de evolución de sensación de calor mayor al habitual y sudoración. Se palpa su tiroides de tamaño normal y no presenta exoftalmo. Se solicitan pruebas tiroideas que demuestran TSH: 0,01 UI/L y T4 libre: 3,9 ng/ml.",
+        "question": "¿Cuál es el examen de elección para determinar el diagnóstico etiológico?",
         "options": [
           {
             "id": "A",
-            "text": "Accidente cerebrovascular",
-            "isCorrect": true
+            "text": "Captación de yodo 131",
+            "isCorrect": false
           },
           {
             "id": "B",
-            "text": "Epilepsia",
+            "text": "Ecografía de tiroides",
             "isCorrect": false
           },
           {
             "id": "C",
-            "text": "Esclerosis múltiple",
+            "text": "Punción aspirativa con aguja fina de tiroides",
             "isCorrect": false
           },
           {
             "id": "D",
-            "text": "Enfermedad de Parkinson",
-            "isCorrect": false
+            "text": "Cintigrafía tiroidea",
+            "isCorrect": true
           },
           {
             "id": "E",
-            "text": "Migraña",
+            "text": "Anticuerpos antitiroglobulina",
             "isCorrect": false
           }
         ],
-        "explanation": "La alternativa correcta es la **A** (Accidente cerebrovascular). Los trastornos ansiosos incluyen el trastorno de pánico (o angustia), el trastorno de ansiedad generalizada, la agorafobia, la fobia social, las fobias simples, el TOC, el trastorno de estrés postraumático (TEPT), el estrés agudo y el trastorno adaptativo. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES)."
+        "explanation": "Hipertiroidismo con TSH suprimida: cintigrafía/captación distingue Graves, nódulo tóxico y tiroiditis."
       },
       {
         "type": "bento",
@@ -3033,7 +3033,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Diagnóstico: **Nefropatía lúpica** (opción **A**). Es un lupus sistémico clásico, con afectación renal.. El trastorno de ansiedad generalizada (TAG) se caracteriza por expectación ansiosa constante sobre múltiples eventos o situaciones, con miedo generalizado a que algo malo ocurra, ya sea a la propia persona, a sus seres queridos o en el entorno. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh."
+        "explanation": "Mujer joven con fotosensibilidad, úlceras orales, HTA, sedimento nefrítico y C3 bajo: nefropatía lúpica."
       },
       {
         "type": "bento",
@@ -6590,12 +6590,12 @@
           },
           {
             "id": "D",
-            "text": "Realizar entrevista mo2vacional",
+            "text": "Realizar entrevista motivacional",
             "isCorrect": true
           },
           {
             "id": "E",
-            "text": "Derivar para psicoterapia cogni2vo-conductual",
+            "text": "Derivar para psicoterapia cognitivo-conductual",
             "isCorrect": false
           }
         ],
@@ -7950,39 +7950,39 @@
       {
         "type": "question",
         "nav": "Pregunta Real EUNACOM",
-        "badge": "EUNACOM Diciembre 2024 · Pregunta 85",
-        "notes": "[SLIDE 17] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2024 · Pregunta 85.",
+        "badge": "EUNACOM Agosto 2021 · Pregunta 163",
+        "notes": "[SLIDE 17] Pregunta oficial del banco EUNACOM: EUNACOM Agosto 2021 · Pregunta 163.",
         "number": 7,
-        "caseText": "Una joven que consulta por diarrea de meses, exige que la hospitalicen para estudio. Estudio normal. La pillan tomando laxantes, ella lo niega, no se sabe motivo por el que hace esto. ¿Cual es el diagnóstico? a.​ Trastorno facticio",
-        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "caseText": "Una paciente de 22 años es hospitalizada por un cuadro de diarrea, vómitos y dolor abdominal de difícil manejo. Durante la hospitalización es sorprendida ingiriendo laxantes, autoinduciéndose vómitos y adulterando la temperatura del termómetro. Se solicitan exámenes, descartándose patología orgánica. Además, luego de indagar, no se encuentra ninguna ganancia evidente con estos síntomas.",
+        "question": "¿Cuál es el diagnóstico más probable?",
         "options": [
           {
             "id": "A",
-            "text": "Hemograma y VHS",
-            "isCorrect": true
-          },
-          {
-            "id": "B",
-            "text": "Ecografía",
+            "text": "Trastorno conversivo",
             "isCorrect": false
           },
           {
+            "id": "B",
+            "text": "Trastorno facticio",
+            "isCorrect": true
+          },
+          {
             "id": "C",
-            "text": "Radiografía",
+            "text": "Trastorno delirante",
             "isCorrect": false
           },
           {
             "id": "D",
-            "text": "TAC con contraste",
+            "text": "Trastorno bipolar",
             "isCorrect": false
           },
           {
             "id": "E",
-            "text": "Resonancia magnética",
+            "text": "Trastorno de la conducta alimentaria",
             "isCorrect": false
           }
         ],
-        "explanation": "Diagnóstico: **Hemograma y VHS** (opción **A**). El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL)."
+        "explanation": "Tiene un trastorno facticio clásico, del tipo Múnchausen, ya que se autoprovoca síntomas (no solo los finge). No tiene ganancias económicas (así que no es simulación, sino facticio, cuya ganancia es afectiva, aunque no se muestre en la pregunta)."
       },
       {
         "type": "question",

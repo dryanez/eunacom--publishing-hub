@@ -1,0 +1,506 @@
+{
+  "classId": "reuma-21",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La arteritis de células gigantes es la vasculitis más común en mayores de {{c1::50}} años.",
+      "extra": "Es una emergencia por riesgo de ceguera.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La ACG afecta ramas extracraneales de la carótida: arteria temporal, {{c1::oftálmica}} y ciliares posteriores.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Histología de la ACG: panarteritis granulomatosa con células gigantes y fragmentación de la {{c1::lámina elástica}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Histología",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025",
+        "1.01.4.010"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La cefalea de nuevo inicio ocurre en más del {{c1::70-80%}} de las ACG.",
+      "extra": "Frontotemporal, unilateral y resistente a analgésicos.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 43"
+      ],
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hiperestesia del cuero cabelludo se nota al {{c1::peinarse}} o apoyar la cabeza en la almohada.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "A la palpación, la arteria temporal de la ACG es un cordón {{c1::indurado y sensible}}, con pulso disminuido o ausente.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síntoma más específico (> 90%) de ACG es la {{c1::claudicación mandibular}}.",
+      "extra": "Dolor y fatiga maseterina tras 1 a 2 minutos de masticar.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La polimialgia reumática coexiste en el {{c1::40-50%}} de las ACG.",
+      "extra": "Debilidad proximal, rigidez matinal en cinturas y VHS alta.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 157"
+      ],
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el adulto mayor la ACG es la causa reumatológica más frecuente de {{c1::fiebre de origen desconocido}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la ACG la VSG supera casi siempre {{c1::50 mm/h}}, con frecuencia > 80-100.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Diagnóstico",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la ACG, la {{c1::PCR}} tiene mayor sensibilidad que la VSG.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La ecografía Doppler de la ACG muestra el signo del {{c1::halo}} hipoecoico, no compresible.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Manual CTO Reumatología 14.ª ed., p. 72",
+      "repaso": false,
+      "imagen": "biblioteca/08_reumatologia/reuma-21/01_halo-ecografico-arteritis-temporal__cto-reuma_p72.jpg",
+      "codigos": [
+        "1.11.1.025",
+        "1.01.4.010"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El signo del halo tiene sensibilidad 75-80% y especificidad > {{c1::90%}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El estándar de oro confirmatorio de ACG es la {{c1::biopsia de arteria temporal}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Diagnóstico",
+      "repaso": true,
+      "imagen": "_web/227_reuma_Arteritis_de_células_gigante__Commons_1.jpg",
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La biopsia temporal debe medir al menos {{c1::1,5 a 2 cm}} por las lesiones saltonas.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.025",
+        "1.01.4.010"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Sospecha fundada de ACG: no postergar los corticoides {{c1::esperando la biopsia}}.",
+      "extra": "La histología sigue detectable 2 a 4 semanas bajo corticoides.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.025",
+        "1.01.4.010"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La complicación temida de la ACG es la neuropatía óptica isquémica anterior {{c1::arterítica}} (NOIAA).",
+      "extra": "Oclusión de ciliares posteriores cortas.",
+      "origen": "foto",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": true,
+      "imagen": "biblioteca/09_reumatologia/reuma-21/atlas_226_neuropatia_optica_isquemica_an.jpg",
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 156",
+        "EUNACOM Diciembre 2025 · Pregunta 170",
+        "EUNACOM Julio 2016 · Pregunta 153"
+      ],
+      "codigos": [
+        "6.02.1.017"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::amaurosis fugax}} (cortina que cae) es un pródromo de pérdida visual definitiva en ACG.",
+      "extra": "También visión borrosa o diplopía.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 NOIAA",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025",
+        "6.02.1.017"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la NOIAA el examen muestra defecto pupilar aferente relativo y papila {{c1::pálida y edematosa}} (en tiza).",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 NOIAA",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 170"
+      ],
+      "codigos": [
+        "1.11.1.025",
+        "6.02.1.017"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Sin tratamiento, {{c1::25% a 50%}} desarrolla compromiso del ojo contralateral en horas a semanas.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 NOIAA",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025",
+        "6.02.1.017"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "ACG con síntomas visuales: metilprednisolona EV {{c1::500 a 1.000 mg/día por 3 días}}.",
+      "extra": "Luego prednisona 1 mg/kg/día; hospitalizar.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.025",
+        "6.02.1.017"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "ACG sin compromiso visual: prednisona oral {{c1::1 mg/kg/día}} (40-60 mg) en toma única matinal.",
+      "extra": "Mejora a las 24-48 horas.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El descenso de corticoides en la ACG es lento, durante {{c1::12 a 24 meses}}.",
+      "extra": "Dosis plena 2 a 4 semanas tras resolución.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Ahorrador de corticoides de primera línea en ACG: {{c1::tocilizumab}} (anti-IL-6R).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.025",
+        "6.02.1.017"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tocilizumab en ACG: {{c1::162 mg}} subcutáneo semanal.",
+      "extra": "Ensayo GiACTA.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Adyuvante obligatorio en ACG: aspirina {{c1::100 mg/día}}.",
+      "extra": "Más calcio, vitamina D y protector gástrico.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La ACG puede dar aortitis torácica (15-20%); se vigila con angio-TC o RM cada {{c1::1 a 2 años}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Aortitis",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Takayasu: mujeres menores de {{c1::40}} años (15 a 30), con compromiso de cayado aórtico y troncos supraaórticos.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Takayasu",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Takayasu se llama la enfermedad {{c1::sin pulsos}}: asimetría de pulsos y de presión arterial entre brazos, soplos carotídeos.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Takayasu",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estudio de elección en Takayasu: {{c1::angio-resonancia}} toracoabdominal.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Takayasu",
+      "repaso": true,
+      "imagen": "biblioteca/08_reumatologia/reuma-21/02_angiografia-takayasu__cto-reuma_p73.jpg",
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de Takayasu: prednisona más {{c1::metotrexato o anti-TNF}}; cirugía solo en fase inactiva.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Takayasu",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025",
+        "6.02.1.017"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La glomerulonefritis {{c1::no}} es manifestación habitual del Takayasu.",
+      "extra": "",
+      "origen": "libro:caso",
+      "fuente": "Libro · Pregunta AEE",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-21/01_halo-ecografico-arteritis-temporal__cto-reuma_p72.jpg",
+      "pregunta": true,
+      "diagnostico": "Signo del halo en arteria temporal",
+      "clave": "Engrosamiento hipoecoico concéntrico de la pared, no compresible",
+      "conducta": "Corticoides de inmediato; biopsia temporal ≥ 1,5-2 cm",
+      "fuente": "Manual CTO Reumatología 14.ª ed., p. 72",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025",
+        "1.01.4.010"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_reumatologia/reuma-21/atlas_226_neuropatia_optica_isquemica_an.jpg",
+      "pregunta": true,
+      "diagnostico": "Neuropatía óptica isquémica arterítica",
+      "clave": "Papila pálida y edematosa con pérdida visual brusca indolora",
+      "conducta": "Hospitalizar y pulsos de metilprednisolona; oftalmología",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": false,
+      "codigos": [
+        "6.02.1.017"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0.0",
+      "pista": "ACG con amaurosis fugax o pérdida visual: ¿manejo inmediato?",
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0.1",
+      "pista": "ACG sin síntomas visuales: ¿tratamiento y biopsia?",
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "Mujer joven con asimetría de pulsos y soplos: ¿qué sospechas y qué pides?",
+      "codigos": [
+        "1.11.1.025"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,537 @@
+{
+  "classId": "diab-23",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En dislipidemias se trata primero el {{c1::riesgo cardiovascular global}}, no un valor aislado de colesterol.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Primero el riesgo",
+      "repaso": true,
+      "codigos": [
+        "1.02.3.013",
+        "1.09.3.002"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Riesgo cardiovascular muy alto: {{c1::enfermedad ateroesclerótica documentada}} (IAM, ACV, AIT, arteriopatía periférica).",
+      "extra": "Es la prevención secundaria.",
+      "origen": "clase:2",
+      "fuente": "Clase · Estratificación",
+      "repaso": true,
+      "codigos": [
+        "1.09.3.002",
+        "1.02.3.013"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "También es riesgo muy alto el diabético con daño de órgano blanco: {{c1::microalbuminuria o retinopatía}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Estratificación",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.013",
+        "1.09.3.002"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Riesgo muy alto: ERC avanzada con VFG menor de {{c1::45 ml/min}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Estratificación",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.013",
+        "1.09.3.002"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta de c-LDL en riesgo muy alto: < {{c1::55 mg/dL}} (o < 70 según guía MINSAL), con reducción de ≥ 50% del basal.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Estratificación",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.013",
+        "1.09.3.002"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Riesgo alto: diabético de más de {{c1::10 años}} sin daño, PA ≥ 160/100, ERC 3a o Framingham 10 a 19%.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Estratificación",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.013",
+        "1.09.3.002"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta de c-LDL en riesgo alto: < {{c1::70 mg/dL}} (o < 100).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Estratificación",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 110"
+      ],
+      "codigos": [
+        "1.02.3.013",
+        "1.09.3.002"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Riesgo moderado (DM de menos de 10 años o Framingham 5 a 9%): meta de c-LDL < {{c1::100 mg/dL}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Estratificación",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 89",
+        "EUNACOM Julio 2017 · Pregunta 8"
+      ],
+      "codigos": [
+        "1.02.3.013",
+        "1.09.3.002"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Riesgo bajo (Framingham < 5%): cambios de estilo de vida; meta < {{c1::116}} o 130 mg/dL.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Estratificación",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.013",
+        "1.09.3.002"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estatinas de alta intensidad: bajan el LDL ≥ {{c1::50%}}.",
+      "extra": "Solo atorvastatina 40–80 y rosuvastatina 20–40.",
+      "origen": "clase:4",
+      "fuente": "Clase · Alta vs moderada intensidad",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.007"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alta intensidad: {{c1::atorvastatina 40 a 80 mg}} o rosuvastatina 20 a 40 mg.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Alta vs moderada intensidad",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.007"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Moderada intensidad (baja el LDL 30 a 49%): atorvastatina {{c1::10 a 20 mg}}, rosuvastatina 5 a 10 mg o simvastatina 20 a 40 mg.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Alta vs moderada intensidad",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.007"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En prevención secundaria, el error es usar {{c1::rosuvastatina 10 mg o simvastatina}}, que son de intensidad moderada.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.007"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "IAM previo con LDL 118 y atorvastatina 10 mg: {{c1::subir a atorvastatina 40–80 mg}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Pregunta 157"
+      ],
+      "codigos": [
+        "1.02.1.007"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En ateroesclerosis documentada con LDL cercano a 90, el error es {{c1::no tratar porque el LDL está bajo 100}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 139"
+      ],
+      "codigos": [
+        "1.02.1.007"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si no se alcanza la meta con la dosis máxima de estatina, se agrega {{c1::ezetimiba 10 mg/día}}.",
+      "extra": "Baja un 15 a 20% adicional.",
+      "origen": "clase:4",
+      "fuente": "Clase · Alta vs moderada intensidad",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.007"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Sin meta con dosis máxima de estatina, el error es {{c1::cambiar a un fibrato}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.007"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con triglicéridos bajo {{c1::500 mg/dL}}, la prioridad del tratamiento es el LDL con estatina.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Diciembre 2022",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 152",
+        "EUNACOM Julio 2015 · Pregunta 53"
+      ],
+      "codigos": [
+        "1.02.1.007"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con triglicéridos sobre 500 mg/dL (por ejemplo 860) la prioridad pasa a bajarlos para prevenir {{c1::pancreatitis}}, con fibrato.",
+      "extra": "No se mezcla fibrato con estatina por riesgo de rabdomiólisis.",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz perfil lipídico",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 41"
+      ],
+      "codigos": [
+        "1.02.4.021",
+        "2.01.4.019"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Estatina más gemfibrozilo aumenta el riesgo de {{c1::miopatía y rabdomiólisis}}.",
+      "extra": "",
+      "origen": "clase:21",
+      "fuente": "Clase · Quiz Julio 2015",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.013",
+        "1.09.3.002"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El efecto adverso más frecuente de las estatinas son las {{c1::mialgias}}; ante su sospecha se pide CK.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 134"
+      ],
+      "codigos": [
+        "1.02.1.007"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante mialgias con estatina, el error es {{c1::suspender sin confirmar}} o pedir ANA; se mide CK.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.007"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Mialgia simple: CK {{c1::normal}}; ocurre en 5–10% de los pacientes.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Dolor muscular y CK",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.007"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Miositis: CK de {{c1::3 a 10 veces}} el límite normal; se suspende la estatina.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Dolor muscular y CK",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.007"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Rabdomiólisis: CK > {{c1::10 veces}} el límite normal, mioglobinuria (orina color coñac) y falla renal aguda.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Dolor muscular y CK",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.007"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras mialgias, se reintroduce con dosis menor o con estatina más hidrofílica (rosuvastatina o pravastatina) y se controla con {{c1::CK}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Diciembre 2018",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 108"
+      ],
+      "codigos": [
+        "1.09.3.002"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anciano con atorvastatina, mialgias proximales, debilidad y CK 1.320: {{c1::miopatía por estatinas}}.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Diciembre 2018",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.007"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los xantelasmas y xantomas tendinosos son depósitos de {{c1::colesterol}}; el xantelasma puede verse con colesterol normal.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Prevenir dislipidemias",
+      "repaso": false,
+      "imagen": "biblioteca/04_diabetes/diab-23/01_xantelasma__amir-endocrino_p120.jpg",
+      "codigos": [
+        "1.02.3.007",
+        "1.02.1.007"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/04_diabetes/diab-23/01_xantelasma__amir-endocrino_p120.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Xantelasma",
+      "clave": "Placas amarillas en el párpado",
+      "conducta": "Medir perfil lipídico y estimar el riesgo cardiovascular",
+      "fuente": "Manual AMIR Endocrinología, p. 120",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.013",
+        "1.02.4.021"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/04_diabetes/diab-23/01_xantomas_tendinosos__fitzpatrick_p1311.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Xantoma tendinoso",
+      "clave": "Nódulo en el tendón de Aquiles",
+      "conducta": "Sugiere hipercolesterolemia familiar: perfil lipídico y estatina según LDL",
+      "fuente": "Fitzpatrick 7.ª ed., Fig. 135-4",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.021",
+        "2.01.4.019"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antes de rotular una dislipidemia como primaria se corrigen las causas secundarias: {{c1::hipotiroidismo, síndrome nefrótico, colestasis}} y fármacos.",
+      "extra": "Tiazidas, betabloqueadores, corticoides, anticonceptivos.",
+      "origen": "clase:7",
+      "fuente": "Clase · Prevenir dislipidemias",
+      "repaso": true,
+      "codigos": [
+        "1.02.3.007",
+        "1.02.1.007"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con triglicéridos sobre {{c1::400 mg/dL}} la fórmula de Friedewald no es válida; se mide LDL directo o colesterol no HDL.",
+      "extra": "LDL = CT − HDL − TG/5.",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz perfil lipídico",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.021",
+        "2.01.4.019"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En niños con LDL ≥ {{c1::190 mg/dL}} persistente tras 6 meses de dieta: sospechar hipercolesterolemia familiar e iniciar estatina en dosis baja.",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Clase · Quiz niño",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.007"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En un niño de 5 años con padre con IAM precoz, se solicita {{c1::perfil lipídico en ayunas}}.",
+      "extra": "Tamizaje selectivo desde los 2 años.",
+      "origen": "clase:20",
+      "fuente": "Clase · Quiz niño",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.021",
+        "2.01.4.019"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La dislipidemia del diabético se asocia a la prevención secundaria cardiovascular y a HTA/DM, que son garantías {{c1::GES}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Digest · GES",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.013",
+        "1.02.1.007"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "Riesgo muy alto: ¿qué estatina?",
+      "codigos": [
+        "1.02.3.013",
+        "1.09.3.002"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0.0",
+      "pista": "Sin meta con dosis máxima: ¿qué se agrega?",
+      "codigos": [
+        "1.02.1.007"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "Riesgo alto: ¿qué meta de LDL?",
+      "codigos": [
+        "1.02.3.013",
+        "1.09.3.002"
+      ]
+    }
+  ]
+}

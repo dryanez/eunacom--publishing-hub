@@ -1,0 +1,557 @@
+{
+  "classId": "reuma-22",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las vasculitis asociadas a ANCA (GPA, PAM, EGPA) son {{c1::pauciinmunes}}: casi sin depósitos de inmunocomplejos.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Chapel Hill",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El prototipo de vasculitis por inmunocomplejos de vaso pequeño es la vasculitis por {{c1::IgA}} (Henoch-Schönlein).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Chapel Hill",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La GPA (Wegener) cursa con c-ANCA / anti-{{c1::PR3}}.",
+      "extra": "Positivo en 85-90%.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 44"
+      ],
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La vía aérea superior está comprometida en más del {{c1::90%}} de las GPA.",
+      "extra": "Rinosinusitis purulenta refractaria, epistaxis y costras.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 GPA",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La perforación del tabique nasal con \"nariz en silla de montar\" es patognomónica de {{c1::GPA}}.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Wikimedia Commons, CC BY-SA 4.0",
+      "repaso": false,
+      "imagen": "biblioteca/08_reumatologia/reuma-22/01_nariz_silla_montar__commons.jpg",
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pulmón en GPA: nódulos bilaterales con tendencia a la {{c1::cavitación}}.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Brant and Helms, p. 528",
+      "repaso": true,
+      "imagen": "_verificadas/228_reuma_Vasculitis_de_pequeño_vaso__BrantHelms_p528.jpg",
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El riñón en GPA y PAM: glomerulonefritis necrotizante con {{c1::semilunas}} pauciinmune (GNRP).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 GPA",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La PAM cursa con p-ANCA / anti-{{c1::MPO}} (70-80%).",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Patrones ANCA",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La PAM no tiene granulomas ni compromiso de {{c1::vía aérea superior}}.",
+      "extra": "Es la diferencia clave con GPA.",
+      "origen": "clase:3",
+      "fuente": "Clase · PAM",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 106"
+      ],
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "EGPA (Churg-Strauss): asma severa del adulto, eosinofilia y {{c1::mononeuritis múltiple}}.",
+      "extra": "Pie caído o mano caída.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En EGPA la eosinofilia es > {{c1::1.500}} eosinófilos/uL (o > 10%).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En EGPA la mononeuritis múltiple está presente en más del {{c1::70%}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 EGPA",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La principal causa de muerte en EGPA es la {{c1::miocardiopatía eosinofílica}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 EGPA",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síndrome riñón-pulmón: hemorragia alveolar difusa más {{c1::glomerulonefritis rápidamente progresiva}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Síndrome riñón-pulmón",
+      "repaso": true,
+      "imagen": "_verificadas/229_reuma_Vasculitis_de_pequeño_vaso__BrantHelms_p445.jpg",
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 106",
+        "EUNACOM Diciembre 2025 · Pregunta 164"
+      ],
+      "codigos": [
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hemorragia alveolar se confirma con lavado broncoalveolar: alícuotas cada vez más hemorrágicas y {{c1::siderófagos}} (> 20%).",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Síndrome riñón-pulmón",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con GNRP y vasculitis ANCA, la confirmación diagnóstica es la {{c1::biopsia renal}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 164"
+      ],
+      "codigos": [
+        "6.01.1.033",
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Inducción grave de vasculitis ANCA: metilprednisolona EV {{c1::500 a 1.000 mg}} por 3 días, luego prednisona 1 mg/kg/día.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Inducción de ANCA: asociar {{c1::rituximab o ciclofosfamida}}.",
+      "extra": "Rituximab no es inferior a ciclofosfamida (RAVE, RITUXVAS).",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La plasmaféresis se reserva para hemorragia alveolar con hipoxemia o falla renal severa (creatinina > {{c1::5,7 mg/dL}}).",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Profilaxis obligatoria durante la inducción: {{c1::cotrimoxazol}} 160/800 mg tres veces por semana.",
+      "extra": "Previene neumonía por Pneumocystis jirovecii.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Mantenimiento de remisión: azatioprina {{c1::2 mg/kg/día}} o rituximab 500 mg cada 6 meses, mínimo 24-36 meses.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Henoch-Schönlein es la vasculitis más frecuente en {{c1::niños}} (3 a 10 años), a menudo tras infección respiratoria.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Henoch-Schönlein",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 126"
+      ],
+      "codigos": [
+        "2.01.1.058"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tétrada de Henoch-Schönlein: púrpura palpable, artralgias, dolor abdominal cólico y {{c1::nefropatía IgA}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Henoch-Schönlein",
+      "repaso": false,
+      "imagen": "biblioteca/08_reumatologia/reuma-22/01_purpura-palpable__amir-reuma_p38.jpg",
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 135",
+        "EUNACOM Julio 2016 · Pregunta 53"
+      ],
+      "codigos": [
+        "2.01.1.058"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La púrpura de Henoch-Schönlein se ubica en piernas y {{c1::glúteos}}, respetando tronco y cara.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Henoch-Schönlein",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.058"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En Henoch-Schönlein las plaquetas son {{c1::normales}}; plaquetas bajas descartan el diagnóstico.",
+      "extra": "Pensar en PTI, PTT o SHU.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 165"
+      ],
+      "codigos": [
+        "2.01.1.058",
+        "1.08.1.013"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Complicación pronóstica del Henoch-Schönlein: la {{c1::nefritis}}; se controla con sedimento de orina y creatininemia.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Seguimiento renal",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 60",
+        "EUNACOM Julio 2019 · Pregunta 26",
+        "EUNACOM Julio 2016 · Pregunta 120"
+      ],
+      "codigos": [
+        "2.01.1.058",
+        "6.01.1.033"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Henoch-Schönlein pediátrico: manejo con reposo, {{c1::paracetamol}} y control ambulatorio de presión arterial y orina por 6 meses.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Manejo pediátrico en APS",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.058",
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Prednisona en Henoch-Schönlein se indica ante {{c1::dolor abdominal cólico severo}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Manejo pediátrico en APS",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 30"
+      ],
+      "codigos": [
+        "2.01.1.058",
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Kawasaki: fiebre ≥ {{c1::5 días}} más al menos 4 de 5 criterios.",
+      "extra": "Conjuntivitis, lengua en frutilla, exantema, edema de manos y pies, adenopatía cervical.",
+      "origen": "clase:11",
+      "fuente": "Clase · Kawasaki",
+      "repaso": true,
+      "imagen": "biblioteca/08_reumatologia/reuma-22/10_kawasaki-lengua-frutilla__nelson_p1967.jpg",
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 11",
+        "EUNACOM Diciembre 2017 · Pregunta 128"
+      ],
+      "codigos": [
+        "2.01.1.058",
+        "6.01.1.033"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La complicación del Kawasaki son los {{c1::aneurismas coronarios}}.",
+      "extra": "Hasta 25% sin tratamiento.",
+      "origen": "clase:11",
+      "fuente": "Clase · Kawasaki",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 17",
+        "EUNACOM Diciembre 2022 · Pregunta 49",
+        "EUNACOM Julio 2024 · Pregunta 12"
+      ],
+      "codigos": [
+        "2.01.1.058"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Kawasaki: inmunoglobulina EV {{c1::2 g/kg}} en dosis única más ácido acetilsalicílico.",
+      "extra": "Idealmente en los primeros 10 días.",
+      "origen": "clase:11",
+      "fuente": "Clase · Kawasaki",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 75"
+      ],
+      "codigos": [
+        "2.01.1.058",
+        "6.01.1.033"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Tras inmunoglobulina en Kawasaki se difieren las vacunas vivas unos {{c1::11 meses}} y se evita ibuprofeno.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Kawasaki",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.058",
+        "6.01.1.033"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "Las vasculitis ANCA con falla renal terminal tienen GES de {{c1::insuficiencia renal crónica terminal}} (GES N° 1).",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Perfil · GES",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.025",
+        "1.09.2.013"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-22/01_nariz_silla_montar__commons.jpg",
+      "pregunta": true,
+      "diagnostico": "Nariz en silla de montar (GPA)",
+      "clave": "Colapso del dorso nasal por perforación del tabique",
+      "conducta": "c-ANCA anti-PR3, TC de tórax y sedimento; inducción con rituximab o ciclofosfamida",
+      "fuente": "Wikimedia Commons, CC BY-SA 4.0",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.013",
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-22/01_purpura-palpable__amir-reuma_p38.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Púrpura palpable (Henoch-Schönlein)",
+      "clave": "Lesiones purpúricas sobreelevadas que no desaparecen a la vitropresión",
+      "conducta": "Plaquetas normales; reposo, paracetamol y control de PA y orina",
+      "fuente": "Manual AMIR Reumatología, p. 38",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.058",
+        "6.01.1.033"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1.0.0",
+      "pista": "Hemorragia alveolar o falla renal rápida: ¿tratamiento de inducción?",
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0",
+      "pista": "Niño con púrpura en nalgas, dolor cólico y plaquetas normales: ¿manejo?",
+      "codigos": [
+        "1.11.1.025"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "Adulto con síndrome riñón-pulmón o sinusitis: ¿qué solicitas?",
+      "codigos": [
+        "1.11.1.025"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+ "classId": "uro-05",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La torsión intravaginal se asocia a la deformidad en {{c1::badajo de campana}}, donde la túnica vaginal envuelve todo y el testículo gira libremente.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": true,
+   "imagen": "biblioteca/19_urologia/uro-05/01_badajo-de-campana-torsion__bailey-love_p1520.jpg",
+   "codigos": [
+    "4.03.2.007"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la torsión se ocluye primero el retorno {{c1::venoso}} (congestión y edema) y luego colapsa la perfusión arterial.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.007"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La tasa de salvamento testicular es > {{c1::90%}} si se opera en las primeras {{c2::6 horas}}.",
+   "extra": "Cae críticamente después.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Tiempo",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 94"
+   ],
+   "codigos": [
+    "4.03.2.007"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La torsión testicular es más frecuente a los {{c1::12-18 años}} (y en el período perinatal), con dolor súbito, a veces durmiendo.",
+   "extra": "Náuseas y vómitos, sin fiebre ni disuria.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Clínica",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 44"
+   ],
+   "codigos": [
+    "4.03.2.007",
+    "2.01.2.025"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El signo físico más sensible de torsión (> 95%) es el reflejo cremastérico {{c1::abolido}}.",
+   "extra": "Si está intacto, la probabilidad de torsión es muy baja.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Signos",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.007",
+    "2.01.2.025"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El signo de {{c1::Gouverneur}}: testículo ascendido, horizontalizado y rotado hacia adelante.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Signos",
+   "repaso": false,
+   "imagen": "_verificadas/065_uro_Torsión_testicular__ecmpdf_p419_1.jpg",
+   "codigos": [
+    "4.03.2.007",
+    "2.01.2.025"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la torsión el signo de Prehn es {{c1::negativo}}: elevar el testículo no alivia el dolor.",
+   "extra": "En la epididimitis es positivo.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Signos",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.007",
+    "2.01.2.025"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La torsión de la {{c1::hidátide de Morgagni}} es la causa más frecuente de escroto agudo en niños de 7 a 12 años.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Hidátide",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.007",
+    "2.01.2.025"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hidátide: dolor gradual en el polo superior, cremastérico {{c1::presente}} y signo del punto azul patognomónico.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Hidátide",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.007",
+    "2.01.2.025"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La torsión de hidátide se trata con {{c1::reposo y AINE}}; cirugía solo si hay duda con torsión del cordón.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Hidátide",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.007",
+    "2.01.2.025"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El Doppler en la torsión muestra {{c1::ausencia de flujo}} arterial y signo del remolino en el cordón.",
+   "extra": "Sensibilidad 85-90%, especificidad 95%.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Doppler",
+   "repaso": false,
+   "imagen": "_verificadas/064_uro_Torsión_testicular__Rumack_p1966.jpg",
+   "codigos": [
+    "4.03.2.007",
+    "4.03.4.008"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Con sospecha alta de torsión no se espera la ecografía: {{c1::exploración quirúrgica}} inmediata.",
+   "extra": "Todo testículo agudo se explora.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Doppler",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 158",
+    "EUNACOM Julio 2017 · Pregunta 97",
+    "EUNACOM Julio 2016 · Pregunta 91",
+    "EUNACOM Diciembre 2018 · Pregunta 137"
+   ],
+   "codigos": [
+    "4.03.2.007",
+    "4.03.4.008"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El Doppler testicular se usa como apoyo en sospecha {{c1::intermedia o atípica}}.",
+   "extra": "Flujo conservado con nódulo avascular en el polo superior: hidátide.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Doppler",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.007",
+    "4.03.4.008"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la cirugía de torsión se destuerce el cordón hacia {{c1::afuera}} («como abrir un libro») y se evalúa la reperfusión con compresas tibias.",
+   "extra": "Si es viable: orquidopexia.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Cirugía",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.007"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si el testículo no es viable se hace {{c1::orquiectomía}} para evitar necrosis y anticuerpos antiespermatozoides.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Cirugía",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.007"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En toda cirugía de torsión se fija también el testículo {{c1::contralateral}} (orquidopexia bilateral).",
+   "extra": "El badajo de campana es bilateral en más del 80%.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Cirugía",
+   "repaso": true,
+   "codigos": [
+    "4.03.2.007"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La destorsión manual se hace de medial a lateral y es solo un {{c1::puente}} a la cirugía.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Destorsión",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.007"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Epididimitis: adultos sexualmente activos, inicio progresivo, cremastérico presente, Prehn {{c1::positivo}}, Doppler con hiperemia.",
+   "extra": "Tratamiento: antibióticos y reposo.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla escroto agudo",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.007",
+    "2.01.2.025"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Adolescente con dolor brusco y vómitos: el error es pedir {{c1::ecografía}} primero.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.03.2.007",
+    "2.01.2.025"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/19_urologia/uro-05/01_badajo-de-campana-torsion__bailey-love_p1520.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Deformidad en badajo de campana",
+   "clave": "Testículo envuelto por la túnica vaginal, sin anclaje posterior",
+   "conducta": "Torsión: exploración inmediata, destorsión y orquidopexia bilateral",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 80.4",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 44"
+   ],
+   "codigos": [
+    "4.03.2.007"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "_verificadas/065_uro_Torsión_testicular__ecmpdf_p419_1.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Signo de Gouverneur",
+   "clave": "Hemiescroto alto con testículo horizontalizado",
+   "conducta": "Cremastérico abolido y Prehn negativo: pabellón, sin esperar imágenes",
+   "fuente": "Atlas of Clinical Emergency Medicine (Sherman), p. 419",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 158"
+   ],
+   "codigos": [
+    "4.03.2.007",
+    "2.01.2.025"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Sospecha alta de torsión: ¿conducta?",
+   "codigos": [
+    "4.03.2.007",
+    "2.01.2.025"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0.0",
+   "pista": "Testículo viable tras destorsión: ¿qué haces?",
+   "codigos": [
+    "4.03.2.007",
+    "2.01.2.025"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.1",
+   "pista": "Testículo no viable: ¿qué cirugía?",
+   "codigos": [
+    "4.03.2.007",
+    "2.01.2.025"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.0",
+   "pista": "Hidátide con punto azul: ¿manejo?",
+   "codigos": [
+    "4.03.2.007",
+    "2.01.2.025"
+   ]
+  }
+ ]
+}

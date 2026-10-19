@@ -1,0 +1,471 @@
+{
+  "classId": "gin-11",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La EIP es una infección canalicular {{c1::ascendente}} que va del endocérvix al endometrio, trompas, ovarios y peritoneo pélvico.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Una infección que sube",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Etiología de la EIP: polimicrobiana, iniciada por {{c1::Neisseria gonorrhoeae y Chlamydia trachomatis}}.",
+      "extra": "Luego se suman anaerobios y enterobacterias.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 152"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En usuarias de DIU de larga duración, un absceso pélvico con \"gránulos de azufre\" sugiere {{c1::Actinomyces israelii}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Etiología",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El DIU aumenta el riesgo de EIP solo durante el {{c1::primer mes}} tras la inserción.",
+      "extra": "Después no aumenta el riesgo: no retirarlo por precaución.",
+      "origen": "clase:6",
+      "fuente": "Clase · Complicaciones",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterios mayores de Hager: son obligatorios {{c1::los tres}} (hipogastrio, cuello uterino y anexos).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Criterios de Hager",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 80"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterio mayor de Hager: dolor a la movilización del cuello uterino, o signo de {{c1::Frenkel}} positivo.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Hager",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio menor de Hager: temperatura axilar > {{c1::38.3°C}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Hager",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterios menores de Hager: al menos {{c1::uno}} refuerza el diagnóstico (fiebre, leucorrea, PCR/VSG, leucocitosis o germen).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Criterios de Hager",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con los tres criterios mayores de Hager ya se diagnostica; el error es {{c1::pedir imágenes antes de tratar}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Monif I: salpingitis aguda {{c1::sin peritonitis ni masas}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Monif",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Monif II: salpingitis aguda con {{c1::pelviperitonitis localizada}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Monif",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Monif III: presencia de {{c1::absceso tubo-ovárico}} íntegro, palpable o visto en la ecografía.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Monif",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": true,
+      "imagen": "biblioteca/13_ginecologia/gin-11/01_absceso-tubarico-eco_alt1__amir-gyo_p107.jpg"
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Monif IV: absceso tubo-ovárico {{c1::roto}} con peritonitis generalizada y shock séptico.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Monif",
+      "codigos": [
+        "3.01.1.025",
+        "3.01.2.018"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante un absceso tubo-ovárico en la ecografía, la conducta es {{c1::hospitalización obligatoria}}.",
+      "extra": "El error es manejarlo ambulatorio.",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterios de hospitalización en EIP: absceso tubo-ovárico, {{c1::embarazo}}, no descartar apendicitis, cuadro severo, falla a 48-72 h o intolerancia oral.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Hospitalización",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "EIP ambulatoria: ceftriaxona {{c1::500 mg}} IM en dosis única (cubre gonococo).",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Ambulatorio",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "EIP ambulatoria: doxiciclina 100 mg cada 12 horas por {{c1::14 días}} (cubre Chlamydia).",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Ambulatorio",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "EIP ambulatoria: metronidazol 500 mg cada 12 horas por 14 días cubre {{c1::anaerobios}} pélvicos.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Ambulatorio",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El tratamiento ambulatorio de la EIP exige control a las {{c1::48 a 72 horas}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Ambulatorio",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "EIP hospitalizada, alternativa clásica ante absceso: {{c1::clindamicina más gentamicina}} EV.",
+      "extra": "Clindamicina 900 mg c/8h + gentamicina 5 mg/kg/día.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Hospitalizado",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Absceso tubo-ovárico: se inicia tratamiento EV por {{c1::48 a 72 horas}}; si no mejora, se opera.",
+      "extra": "El 70% responde favorablemente.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 ATO",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El absceso tubo-ovárico se opera si mide más de {{c1::8-10 cm}}, no mejora o se sospecha rotura.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 ATO",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Absceso tubo-ovárico roto con shock séptico: {{c1::laparotomía exploradora de urgencia}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Monif",
+      "codigos": [
+        "3.01.1.025",
+        "3.01.2.018"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síndrome de Fitz-Hugh-Curtis: EIP con dolor en {{c1::hipocondrio derecho}}, que simula colecistitis o pleuresía.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Complicaciones",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 174"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En Fitz-Hugh-Curtis la laparoscopía muestra adherencias en {{c1::cuerdas de violín}} entre el hígado y la pared.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": false,
+      "imagen": "biblioteca/13_ginecologia/gin-11/02_fitz-hugh-curtis-laparoscopia__goljan_p1202.jpg"
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Dolor en hipocondrio derecho en una paciente con EIP: piensa en {{c1::Fitz-Hugh-Curtis}}, no solo en colecistitis.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Secuelas de la EIP: dolor pélvico crónico, {{c1::embarazo ectópico}} e infertilidad tubárica.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Los contactos sexuales de los últimos {{c1::60 días}} deben tratarse en la EIP.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pelviperitonitis: dolor hipogástrico intenso con fiebre alta, defensa, Blumberg y fondo de saco de Douglas {{c1::abombado}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Pelviperitonitis",
+      "codigos": [
+        "3.01.2.018"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cuello con secreción purulenta, dolor cervical y anexial bilateral más Blumberg esbozado en usuaria de DIU: {{c1::pelviperitonitis}}.",
+      "extra": "El DIU no se retira de rutina.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Dic 2025",
+      "codigos": [
+        "3.01.2.018"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2025 · Pregunta 95"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ante sospecha de pelviperitonitis se pide {{c1::β-hCG}} para descartar un embarazo ectópico.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Pelviperitonitis",
+      "codigos": [
+        "3.01.2.018"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-11/01_absceso-tubarico-eco_1__cto-gyo_p102.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Absceso tubo-ovárico (Monif III)",
+      "clave": "Masa compleja que reemplaza el anexo en la ecografía",
+      "conducta": "Hospitalización obligatoria con antibióticos EV; cirugía si falla a 48-72 h o hay rotura",
+      "fuente": "Manual CTO Ginecología y Obstetricia 14.ª ed., p. 102",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-11/02_fitz-hugh-curtis-laparoscopia__goljan_p1202.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Síndrome de Fitz-Hugh-Curtis",
+      "clave": "Adherencias finas en cuerdas de violín entre cápsula hepática y pared",
+      "conducta": "Completar el esquema antibiótico de la EIP",
+      "fuente": "Goljan Rapid Review Pathology, Link 22-85",
+      "codigos": [
+        "3.01.1.025"
+      ],
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Tres criterios mayores presentes: ¿hay gravedad?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "EIP sin gravedad: ¿qué esquema?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "EIP con gravedad: ¿cómo se trata?"
+    }
+  ]
+}

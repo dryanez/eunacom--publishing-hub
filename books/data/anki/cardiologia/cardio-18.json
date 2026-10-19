@@ -1,0 +1,623 @@
+{
+ "classId": "cardio-18",
+ "cards": [
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el EAP la presión capilar pulmonar sube sobre {{c1::18-20 mmHg}} (edema intersticial) y sobre 25 mmHg (edema alveolar).",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Cómo el líquido llega al alvéolo",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Edema alveolar con presión capilar > 25 mmHg: en la radiografía se ve en {{c1::alas de mariposa}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Cómo el líquido llega al alvéolo",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Edema intersticial en la radiografía: líneas B de {{c1::Kerley}} y cefalización de los vasos.",
+   "extra": "Es la etapa previa a inundar el alvéolo.",
+   "origen": "clase:5",
+   "fuente": "Clase · Radiografía de tórax",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Clínica del EAP: disnea de reposo, ortopnea, sudor frío y esputo {{c1::rosado espumoso}} con crépitos hasta los ápices.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo se ve un EAP",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el EAP la frecuencia respiratoria es de {{c1::30-40/min}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo se ve un EAP",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El EAP más frecuente es el {{c1::hipertensivo}} (PA alta) y es el que mejor responde a los vasodilatadores.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · La presión manda",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "EAP con PA baja y extremidades frías es {{c1::shock cardiogénico}} (Tema 3.4).",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · La presión manda",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Forrester perfil B «caliente y húmedo» es el {{c1::EAP clásico}}: VNI + nitroglicerina + furosemida.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Forrester",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Forrester perfil C «frío y húmedo» es el {{c1::shock cardiogénico}}, el de peor pronóstico.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Forrester",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Forrester perfil L «frío y seco»: hipoperfusión sin congestión; se trata con {{c1::volumen con cautela}} y causa del bajo gasto.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Forrester",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Killip-Kimball clasifica la IC en el infarto: I sin IC, II crépitos o R3, III {{c1::edema pulmonar}}, IV shock.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Forrester y Killip",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La regla CHAMP de desencadenantes: Coronario, Hipertensiva, Arritmia, {{c1::Mecánica}}, Pulmonar (TEP).",
+   "extra": "Más infección, anemia y fármacos.",
+   "origen": "clase:4",
+   "fuente": "Clase · Por qué ahora: CHAMP",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "EAP por síndrome coronario agudo: la conducta específica es la {{c1::reperfusión}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Tratarlos cambia todo",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "EAP por FA con respuesta rápida inestable: {{c1::cardioversión eléctrica}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Tratarlos cambia todo",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "EAP por rotura valvular o septal: {{c1::cirugía urgente}} y estabilización con vasodilatadores.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Desencadenantes",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Un BNP < {{c1::100}} o NT-proBNP < 300 en urgencia descarta IC como causa de la disnea.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Exámenes y radiografía",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Edema pulmonar no cardiogénico (SDRA, sepsis): corazón de silueta normal, BNP {{c1::bajo}} y no mejora con diuréticos.",
+   "extra": "La presión capilar es normal; aumenta la permeabilidad.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Edema sin cardiomegalia y con BNP bajo: es edema {{c1::no cardiogénico}}; el error es dar más diurético.",
+   "extra": "",
+   "origen": "clase:15",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Anciano con disnea, PA 200/100, R3, yugulares y crépitos: el diagnóstico es {{c1::IC aguda}}, no SCA, disección ni neumonía.",
+   "extra": "",
+   "origen": "clase:15",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.005"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 88",
+    "EUNACOM Diciembre 2024 · Pregunta 152"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un tercer ruido en un paciente con disnea aguda orienta a {{c1::insuficiencia cardíaca descompensada}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Cómo se ve un EAP",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.005"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 152"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primer paso del EAP: sentar al paciente con las {{c1::piernas colgando}}, monitor y vía venosa.",
+   "extra": "Reduce el retorno venoso.",
+   "origen": "clase:7",
+   "fuente": "Clase · Los primeros diez minutos",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el EAP se da oxígeno solo si la SatO₂ es < {{c1::90%}} (meta 94-98%).",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Los primeros diez minutos",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La VNI (CPAP) en el EAP se usa a {{c1::5-10 cmH₂O}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Los primeros diez minutos",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La medida de primera línea que más evita la intubación en el EAP cardiogénico es la {{c1::VNI con presión positiva}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · VNI: la primera línea",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "EAP con SatO₂ 82%: se pone {{c1::CPAP}}; el error es cánula nasal o intubar de entrada.",
+   "extra": "",
+   "origen": "clase:15",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Nitroglicerina EV en EAP: inicio {{c1::10-20 mcg/min}}, subiendo cada 5 min hasta 200 mcg/min.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Nitroglicerina endovenosa",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La nitroglicerina EV se usa con PAS ≥ {{c1::110 mmHg}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Nitroglicerina endovenosa",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Contraindicaciones de la nitroglicerina: PAS < 90-100, infarto de VD, estenosis aórtica grave y {{c1::sildenafil o tadalafil}} reciente.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · No usarla si…",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Infarto de VD con edema: {{c1::sin nitratos}}; el error es dar nitroglicerina.",
+   "extra": "",
+   "origen": "clase:15",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Furosemida EV en el EAP: {{c1::20-40 mg}} en bolo, o 1-2,5 veces la dosis oral diaria.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Furosemida y lo que no se da",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La furosemida EV venodilata en 5-15 minutos antes de la {{c1::diuresis}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se reevalúa la furosemida a las {{c1::2 horas}} (diuresis > 100-150 mL/h); si no responde, se duplica la dosis.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Furosemida y lo que no se da",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Paciente ansioso con EAP: no se da {{c1::morfina}} de rutina (más intubación y mortalidad).",
+   "extra": "",
+   "origen": "clase:15",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "EAP con PA 190/100: nitroglicerina EV + furosemida; el error es {{c1::nifedipino o betabloqueador}}.",
+   "extra": "",
+   "origen": "clase:15",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El betabloqueador crónico se continúa en el EAP salvo {{c1::shock}} o bradicardia grave.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Lo que no se da",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "PAS < 90 con frío y congestión: {{c1::noradrenalina}} ± dobutamina; el error es nitroglicerina y furosemida.",
+   "extra": "",
+   "origen": "clase:15",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el shock cardiogénico la noradrenalina busca una PAM ≥ {{c1::65 mmHg}}.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Hipoperfusión y escalamiento",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Resistencia al diurético con falla renal en UCI: {{c1::ultrafiltración}}.",
+   "extra": "",
+   "origen": "clase:11",
+   "fuente": "Clase · Escalar",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Estenosis aórtica grave con EAP: el vasodilatador se da con mucha {{c1::cautela}} por riesgo de hipotensión grave.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Qué cambia según la causa",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la insuficiencia aórtica aguda está contraindicado el {{c1::betabloqueador}}.",
+   "extra": "Impide la taquicardia compensadora.",
+   "origen": "clase:12",
+   "fuente": "Clase · Qué cambia según la causa",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Embarazo con EAP: no se usan IECA, ARA II ni {{c1::espironolactona}}; sí hidralazina y nitratos.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Otros contextos",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antes del alta de una ICA se inician los {{c1::4 pilares}} y se fija el peso seco.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Alta y prevención de reingresos",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "c46",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Control tras el alta de una ICA a los {{c1::7-14 días}}; el primer mes es el de mayor riesgo.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Controles",
+   "repaso": true,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-18/01_edema-pulmonar-alveolar-florido__chest-xray-survival-guide_p160.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Edema alveolar florido (EAP cardiogénico)",
+   "clave": "Infiltrado alveolar bilateral desde los hilios, corazón agrandado y derrame",
+   "conducta": "Sentado, CPAP, nitroglicerina si PAS ≥ 110 y furosemida EV",
+   "fuente": "The Chest X-Ray: A Survival Guide, Fig. 11.26",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-18/02_edema-intersticial-florido__chest-xray-survival-guide_p160.jpg",
+   "pregunta": "¿Qué patrón es y qué significa?",
+   "diagnostico": "Edema intersticial",
+   "clave": "Engrosamiento bronquial, líneas septales y cefalización de los vasos del vértice",
+   "conducta": "Tratar la congestión antes de que inunde el alvéolo; buscar el desencadenante",
+   "fuente": "The Chest X-Ray: A Survival Guide, Fig. 11.25",
+   "repaso": false,
+   "codigos": [
+    "1.01.2.005"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "EAP: ¿qué se hace siempre en los primeros minutos?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0",
+   "pista": "PAS ≥ 110: ¿qué fármacos se dan?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.1",
+   "pista": "No mejora o se agota: ¿qué sigue?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1",
+   "pista": "PAS < 90 o frío: ¿qué diagnóstico y conducta?"
+  }
+ ]
+}

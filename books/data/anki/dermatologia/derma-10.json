@@ -1,0 +1,476 @@
+{
+  "classId": "derma-10",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síndrome DRESS es una reacción de hipersensibilidad {{c1::retardada}} a fármacos, potencialmente letal.",
+      "extra": "Mortalidad del 5 a 10%.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fármacos y mecanismo",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.013"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El DRESS tiene una mortalidad de {{c1::5-10%}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro · ¿Por qué?",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.013",
+        "6.01.1.025"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Latencia del DRESS desde el inicio del fármaco: {{c1::2 a 8 semanas}}.",
+      "extra": "Más larga de todas las farmacodermias; el paciente olvida mencionar el fármaco.",
+      "origen": "clase:1",
+      "fuente": "Clase · Latencia",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.013",
+        "6.01.1.025"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Latencia del SSJ/NET tras el fármaco: {{c1::1 a 3 semanas}}, más corta que el DRESS.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla DRESS vs SSJ/NET",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.013",
+        "6.01.1.025"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Los fármacos más frecuentes en DRESS son los {{c1::anticonvulsivantes aromáticos}} (carbamazepina, fenitoína, fenobarbital, lamotrigina).",
+      "extra": "Más de la mitad de los casos.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fármacos",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.013",
+        "6.01.1.025"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fuera de los anticonvulsivantes, un fármaco típico de DRESS en ancianos o con insuficiencia renal es el {{c1::alopurinol}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fármacos",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.013",
+        "6.01.1.025"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El DRESS se perpetúa por reactivación de {{c1::herpesvirus humano 6 (HHV-6)}}.",
+      "extra": "Explica las recaídas tardías aun sin el fármaco.",
+      "origen": "clase:1",
+      "fuente": "Clase · Latencia",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.013",
+        "6.01.1.025"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El hallazgo semiológico cardinal del DRESS en la inspección es el edema {{c1::periorbitario y malar}}.",
+      "extra": "Presente en más del 75%.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.013",
+        "6.01.1.025"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El exantema del DRESS es {{c1::morbiliforme}} y confluente, y parte en cara y tronco superior.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.013",
+        "6.01.1.025"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el DRESS el signo de Nikolsky es {{c1::negativo}} y no hay desprendimiento epidérmico difuso.",
+      "extra": "Lo distingue de SSJ/NET.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla DRESS vs SSJ/NET",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.013",
+        "6.01.1.025"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En SSJ/NET el signo de Nikolsky es {{c1::positivo}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla DRESS vs SSJ/NET",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.013",
+        "6.01.1.025"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Linfadenopatías del DRESS: ganglios palpables ≥ {{c1::1 cm}} en dos o más cadenas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clínica",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.013",
+        "6.01.1.025"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hematología en RegiSCAR: eosinofilia ≥ {{c1::700/uL}} o ≥ 10%, o linfocitos atípicos.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 RegiSCAR",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.013",
+        "6.01.1.025"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El órgano interno más afectado en el DRESS es el {{c1::hígado}} (75 a 90%).",
+      "extra": "Su falla fulminante es la principal causa de muerte.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.2.013"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cardíaco en DRESS: {{c1::miocarditis}} por hipersensibilidad, que puede debutar semanas después.",
+      "extra": "Disnea, arritmias, troponinas, shock.",
+      "origen": "clase:3",
+      "fuente": "Clase · Compromiso visceral",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.013"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Neumonitis intersticial en DRESS: {{c1::10 a 15%}} de los casos.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Compromiso visceral",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.013"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primera medida en DRESS: {{c1::retirar inmediatamente el fármaco culpable}} y registrarlo en la ficha.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.025",
+        "6.01.2.013"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de elección del DRESS con compromiso de órganos: {{c1::prednisona}} oral.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.025",
+        "6.01.2.013"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Prednisona en DRESS: {{c1::0,5 a 1,0 mg/kg/día}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.025"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En DRESS con hepatitis grave o miocarditis se usan pulsos de {{c1::metilprednisolona}} endovenosa 1 g/día por 3 días.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.025",
+        "6.01.2.013"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En DRESS refractario a corticoides se puede asociar {{c1::inmunoglobulina IV}} o ciclosporina A.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.025",
+        "6.01.2.013"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hay reactividad cruzada entre anticonvulsivantes aromáticos: tras DRESS por carbamazepina se prohíbe {{c1::fenitoína y fenobarbital}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.025",
+        "6.01.2.013"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Tras buena respuesta a corticoides a las 2 semanas, el error es {{c1::suspender la prednisona}} porque los exámenes se normalizaron.",
+      "extra": "Correcto: continuar descenso lento.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.025",
+        "6.01.2.013"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Edema facial con rash confluente sin ampollas: el error es confundirlo con {{c1::Stevens-Johnson o NET}}.",
+      "extra": "Piensa DRESS, Nikolsky negativo.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.025"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Disnea y arritmia semanas después de mejorar la piel: el error es atribuirlo a ansiedad; piensa en {{c1::miocarditis por hipersensibilidad}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "6.01.2.013"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El exantema morbiliforme por fármacos aparece a los {{c1::4 a 14 días}} y es la farmacodermia más frecuente.",
+      "extra": "",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Exantema simple",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.025"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Amoxicilina en un paciente con mononucleosis produce exantema casi siempre, sin que sea {{c1::alergia verdadera}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Exantema y toxidermia fija",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.025"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La toxidermia fija reaparece {{c1::siempre en el mismo sitio}} y deja mancha residual gris parda.",
+      "extra": "Causas: AINE, cotrimoxazol, tetraciclinas.",
+      "origen": "libro:sec:5",
+      "fuente": "Libro §5 Toxidermia fija",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.025"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fiebre, conjuntivitis, lesiones orales y rash a las 2 semanas de amoxicilina: {{c1::síndrome de Stevens-Johnson}}.",
+      "extra": "Latencia 1 a 3 semanas, mucosas afectadas; no es DRESS.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla DRESS vs SSJ/NET",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 104"
+      ],
+      "codigos": [
+        "6.01.1.025",
+        "6.01.2.013"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-10/02_dress_fenitoina_b__fitzpatrick_p395.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "DRESS (por fenitoína)",
+      "clave": "Edema facial periorbitario y malar con descamación",
+      "conducta": "Suspender fármaco; prednisona oral con descenso lento de 2 a 3 meses",
+      "fuente": "Fitzpatrick 7.ª ed., Fig. 40-3",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.025",
+        "6.01.2.013"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-10/01_dress_fenitoina_a__fitzpatrick_p395.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Exantema morbiliforme confluente de DRESS",
+      "clave": "Eritema fino y confluyente en tronco, sin ampollas",
+      "conducta": "Hemograma y perfil hepático; suspender fármaco y corticoide sistémico",
+      "fuente": "Fitzpatrick 7.ª ed., Fig. 40-2",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.025"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-10/04_toxidermia-fija__knoop_p392.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Toxidermia fija",
+      "clave": "Placa eritematovioláceo, redonda, bien delimitada, que deja mancha parda",
+      "conducta": "Suspender y evitar el fármaco; corticoide tópico potente por pocos días",
+      "fuente": "The Atlas of Emergency Medicine (Knoop), p. 392",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.025"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Latencia compatible: ¿qué buscas para confirmar?",
+      "codigos": [
+        "6.01.2.013"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.1",
+      "pista": "Score de 4 o más: ¿qué haces?",
+      "codigos": [
+        "6.01.2.013"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1.0",
+      "pista": "¿Cómo se baja el corticoide?",
+      "codigos": [
+        "6.01.2.013"
+      ]
+    }
+  ]
+}

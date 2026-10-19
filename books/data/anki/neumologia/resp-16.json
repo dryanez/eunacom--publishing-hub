@@ -1,0 +1,607 @@
+{
+ "classId": "resp-16",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El nódulo pulmonar solitario mide ≤ {{c1::30 mm (3 cm)}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Definición",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.038",
+    "4.01.1.038"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El NPS está rodeado de pulmón normal, sin {{c1::atelectasia, neumonía ni adenopatías}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Definición",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.038",
+    "4.01.1.038"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Una lesión de más de 3 cm es una {{c1::masa}} y se asume maligna hasta demostrar lo contrario.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Definición",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.038",
+    "4.01.1.038"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Primera conducta ante un NPS: {{c1::comparar con radiografías o TAC previas}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.038",
+    "4.01.1.038"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Nódulo sin cambios por ≥ {{c1::2 años}} se considera benigno y no requiere más estudio.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Primer paso",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.038"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Estabilidad por ≥ 2 años: benigno en el {{c1::99%}} de los casos.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.038"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sin imágenes previas o nódulo nuevo: examen de elección es la {{c1::TAC de tórax de cortes finos}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Imagen",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.002",
+    "1.05.1.038"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 139",
+    "EUNACOM Julio 2024 · Pregunta 165",
+    "EUNACOM Julio 2025 · Pregunta 58",
+    "EUNACOM Diciembre 2022 · Pregunta 14"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Masa hiliar en radiografía en paciente con tos y baja de peso: siguiente examen {{c1::TAC de tórax con contraste}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Imagen",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 58",
+    "EUNACOM Julio 2024 · Pregunta 165"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Nódulo en radiografía de tórax en fumadora con baja de peso: se solicita {{c1::TAC de tórax}}.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.038",
+    "1.05.4.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 139"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Sin previas, la TAC se pide {{c1::antes}} que PET o biopsia.",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.002"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hemoptisis en paciente con cirugía reciente y disnea: el examen es {{c1::angioTAC de tórax}} (sospecha de TEP).",
+   "extra": "Pregunta real tangencial al tema.",
+   "origen": "libro:sec:2",
+   "fuente": "Pregunta real · TAC",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 112"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Benignidad: diámetro < {{c1::6 mm}} con bordes lisos y netos.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Imagen",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.038"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Calcificación benigna: central, {{c1::concéntrica}} o difusa completa.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Imagen",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.038"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La calcificación en {{c1::popcorn (palomitas de maíz)}} es patognomónica de hamartoma.",
+   "extra": "Con grasa en el nódulo.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.038"
+   ],
+   "imagen": "_verificadas/028_resp_Nódulo_pulmonar_solitario__BrantHelms_p461.jpg"
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Malignidad: diámetro > {{c1::8–10 mm}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Imagen",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.038"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Bordes {{c1::espiculados}} o con corona radiada sugieren malignidad.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Imagen",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.038"
+   ],
+   "imagen": "biblioteca/02_neumologia/resp-16/01_masa-pulmonar-bordes-irregulares-tc__cto-neumo_p139.jpg"
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Densidad {{c1::en vidrio esmerilado parcial (subsólido)}} sugiere malignidad.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Imagen",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.038"
+   ],
+   "imagen": "_web/170_resp_Nódulo_pulmonar_solitario__Commons_2.jpg"
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Otros signos de malignidad: retracción de pleura visceral, broncograma aéreo con distorsión y calcio {{c1::asimétrico o punteado}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Imagen",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.038"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Localización sospechosa de cáncer: {{c1::lóbulos superiores}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla benigno vs maligno",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.038"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Factores de alto riesgo: edad > {{c1::50 años}}, tabaquismo, cáncer previo y lóbulo superior.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fleischner",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.038"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tabaquismo de alto riesgo: > {{c1::20–30 paquetes-año}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fleischner",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.038"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Nódulo < 6 mm de bajo riesgo: {{c1::sin seguimiento}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · El tamaño y el riesgo",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.038"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Nódulo < 6 mm de alto riesgo: TAC opcional a los {{c1::12 meses}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fleischner",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.038"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Nódulo de 6 a 8 mm: TAC de control a los {{c1::6–12 meses}} y luego a los 18–24 meses.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fleischner",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.038"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El control seriado del nódulo de 6 a 8 mm vigila la {{c1::duplicación de volumen}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fleischner",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.038"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Nódulo > 8 mm: se evalúa la {{c1::probabilidad pretest}} de cáncer.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fleischner",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.038"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Probabilidad intermedia de cáncer: {{c1::5–65%}}; se hace PET-CT.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fleischner",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.038"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Examen no invasivo de elección en nódulo > 8 mm de riesgo intermedio: {{c1::PET-CT con 18-FDG}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.038"
+   ],
+   "imagen": "_verificadas/343_resp_Nódulo_pulmonar_solitario__BrantHelms_p1547.jpg"
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Probabilidad alta de cáncer: > {{c1::65%}} o PET ávido.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fleischner",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.038"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Probabilidad alta o PET ávido: biopsia (percutánea o broncoscópica) o resección por {{c1::VATS}}.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.038"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Caso: fumador de 61 años con nódulo espiculado de 19 mm en lóbulo superior sin previas: {{c1::PET-CT o resección por VATS}}.",
+   "extra": "",
+   "origen": "libro:caso",
+   "fuente": "Libro · caso",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.038"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las metástasis pulmonares llegan por vía {{c1::hematógena}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Metástasis",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.025"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Metástasis: múltiples nódulos redondeados, bien delimitados, de predominio {{c1::periférico y basal}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Metástasis",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.025"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las metástasis grandes se describen como {{c1::en bala de cañón}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Metástasis",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.025"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primarios típicos de metástasis pulmonar: colon-recto, mama, riñón y {{c1::melanoma}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Metástasis",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.025"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Una metástasis {{c1::única}} puede imitar un NPS.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Metástasis",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.025",
+    "1.05.1.038"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La linfangitis carcinomatosa da {{c1::disnea y patrón reticular}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Metástasis",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.025"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Metástasis única o primario desconocido: se confirma con {{c1::biopsia}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Metástasis",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.025"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "El GES de este tema es {{c1::sospecha de cáncer pulmonar}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro · Perfil GES",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.038",
+    "4.01.1.038"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "_verificadas/028_resp_Nódulo_pulmonar_solitario__BrantHelms_p461.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Hamartoma pulmonar",
+   "clave": "Calcificación en popcorn con grasa",
+   "conducta": "Benigno: observar y comparar con previas",
+   "fuente": "Brant y Helms, p. 461",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.038"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-16/01_masa-pulmonar-bordes-irregulares-tc__cto-neumo_p139.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Nódulo con bordes irregulares sospechoso de cáncer",
+   "clave": "Espículas y corona radiada",
+   "conducta": "Comparar con previas; TAC; PET-CT o tejido si > 8 mm",
+   "fuente": "Manual CTO Neumología 14.ª ed., p. 139",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.038"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "_verificadas/343_resp_Nódulo_pulmonar_solitario__BrantHelms_p1547.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "PET-CT hipercaptante",
+   "clave": "Nódulo que consume glucosa como tumor",
+   "conducta": "Captación ávida: biopsia o resección por VATS",
+   "fuente": "Brant y Helms, p. 1547",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.038"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Nódulo hallado: ¿qué se hace primero?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.1",
+   "pista": "Nódulo de 6–8 mm: ¿qué conducta?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.2",
+   "pista": "Nódulo > 8 mm, riesgo intermedio: ¿qué examen?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.3",
+   "pista": "Probabilidad alta de cáncer: ¿qué conducta?"
+  }
+ ]
+}

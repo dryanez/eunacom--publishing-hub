@@ -1,0 +1,469 @@
+{
+ "classId": "orl-18",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La pila de botón en nariz, oído o esófago es una emergencia quirúrgica {{c1::absoluta}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Pila de botón",
+   "repaso": true,
+   "imagen": "biblioteca/17_otorrino/orl-18/04_pila-de-boton-esofago-rx__knoop_p490.jpg",
+   "codigos": [
+    "6.03.2.008"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La pila genera corriente que descompone el agua en iones {{c1::hidroxilo}}: quemadura alcalina por licuefacción.",
+   "extra": "Además fuga de hidróxido de potasio y necrosis por presión.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Mecanismo",
+   "repaso": true,
+   "codigos": [
+    "6.03.2.008"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La perforación del tabique o del tímpano puede ocurrir en solo {{c1::2 horas}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Tiempo",
+   "repaso": true,
+   "codigos": [
+    "6.03.2.008"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la Rx, la pila de botón muestra el signo del {{c1::doble contorno}} o halo.",
+   "extra": "Distingue la pila de una moneda.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Radiografía",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.008"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Con una pila de botón está prohibido {{c1::irrigar}} con agua o suero: el líquido conduce la corriente y acelera el daño.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Prohibición",
+   "repaso": true,
+   "codigos": [
+    "6.03.2.008"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pila de botón: extracción inmediata por ORL con {{c1::gancho romo}} o pabellón si no coopera.",
+   "extra": "Niña de 3 años con objeto metálico plano en la fosa nasal.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Extracción",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.008"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Preescolar con rinorrea purulenta, unilateral y fétida: {{c1::cuerpo extraño nasal}} hasta demostrar lo contrario.",
+   "extra": "Sin respuesta a la amoxicilina.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Nasal",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.010"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Extracción nasal: vasoconstrictor y gancho {{c1::romo}} pasado por detrás del objeto.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Técnica",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.010",
+    "6.03.5.007"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Las pinzas lisas en objetos esféricos están desaconsejadas: resbalan y el objeto se {{c1::aspira}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Pinzas",
+   "repaso": true,
+   "codigos": [
+    "6.03.2.010",
+    "6.03.5.007"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Semillas y legumbres en el oído (porotos, lentejas): prohibido el lavado porque absorben agua y se {{c1::hinchan}}.",
+   "extra": "Niño con poroto en el CAE: extracción en seco.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Semillas",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-18/01_cuerpo-extrano-conducto-auditivo__bailey-love_p728.jpg",
+   "codigos": [
+    "6.03.2.007",
+    "6.03.5.006"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las semillas se extraen con instrumental {{c1::seco}} (gancho romo o microaspirador).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Semillas",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.007",
+    "6.03.5.006"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Insecto vivo en el oído: primero {{c1::matarlo}} instilando vaselina líquida, aceite mineral o lidocaína 2%.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Insectos",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.007",
+    "6.03.5.006"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Después de inmovilizarlo, se extrae con lavado a {{c1::37 °C}} o pinza cocodrilo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Lavado",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.007",
+    "6.03.5.006"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Síndrome de penetración: tos asfíctica súbita, {{c1::cianosis}} y estridor mientras el niño come o juega.",
+   "extra": "Niña de 2 años con tos y cianosis que cede, luego sibilancias derechas.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Aspiración",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.009"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El cuerpo extraño se aloja más en el bronquio principal {{c1::derecho}}, más vertical y amplio.",
+   "extra": "Niña de 3 años con atelectasia del lóbulo medio y sibilancias derechas.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Localización",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.009"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hallazgos: asimetría auscultatoria con murmullo disminuido y {{c1::sibilancias unilaterales}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Examen",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.009"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los frutos secos son radiolúcidos: se ve {{c1::atrapamiento aéreo}} unilateral o atelectasia.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Radiografía",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-18/03_mani-bronquio-derecho-espiracion__cxr_p210.jpg",
+   "codigos": [
+    "6.03.2.009"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Diagnóstico y tratamiento de elección: {{c1::broncoscopía rígida}} urgente en pabellón bajo anestesia general.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tratamiento",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-18/02_mani-bronquio-derecho-inspiracion__cxr_p210.jpg",
+   "codigos": [
+    "6.03.2.009"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Daño cerebral con sialorrea, tos áfona, estridor inspiratorio y reticencia a comer: cuerpo extraño {{c1::laríngeo}}.",
+   "extra": "La explicación del banco admite que podría ser esofágico.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Laríngeo",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 94"
+   ],
+   "codigos": [
+    "6.03.2.009"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Lactante de 10 meses que se atora comiendo: {{c1::golpes en la espalda}}, luego compresiones torácicas; Heimlich desde el año.",
+   "extra": "Pregunta de julio 2013 fuera de este tema.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Lactante",
+   "repaso": false,
+   "codigos": [
+    "4.02.7.002"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El cuerpo extraño esofágico más frecuente del niño es la {{c1::moneda}}, en el esófago superior (cricofaríngeo).",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Esófago",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.008"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el adulto, la impactación de bolo de carne: descartar esofagitis eosinofílica, estenosis péptica o anillo de {{c1::Schatzki}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Esófago",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.008"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La moneda esofágica se ve de {{c1::frente}} en la proyección anteroposterior.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Radiografía",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.008"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Extracción inmediata: baterías de botón, imanes múltiples, objetos {{c1::cortopunzantes}} y obstrucción completa con sialorrea.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Urgencias",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.008"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Bolo alimentario: endoscopía dentro de {{c1::24 horas}} (6 si la obstrucción es completa).",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Bolo",
+   "repaso": true,
+   "codigos": [
+    "6.03.2.008"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En el cuerpo extraño esofágico no se induce {{c1::vómito}} ni se empuja el objeto: riesgo de perforación y mediastinitis.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Prohibido",
+   "repaso": true,
+   "codigos": [
+    "6.03.2.008"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Prevención: sin frutos secos, uvas enteras ni cabritas a menores de {{c1::5 años}}; comer sentado.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Prevención",
+   "repaso": false,
+   "codigos": [
+    "6.03.3.005"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los juguetes no deben tener piezas que pasen por un {{c1::rollo de papel higiénico}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Juguetes",
+   "repaso": false,
+   "codigos": [
+    "6.03.3.005"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-18/04_pila-de-boton-esofago-rx__knoop_p490.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Pila de botón: doble contorno",
+   "clave": "Imagen redonda con doble contorno en la radiografía",
+   "conducta": "Extracción urgente; no irrigar ni inducir vómito",
+   "fuente": "The Atlas of Emergency Medicine (Knoop), p. 490",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.008"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-18/01_cuerpo-extrano-conducto-auditivo__bailey-love_p728.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Objeto en el conducto",
+   "clave": "Objeto redondo en el CAE",
+   "conducta": "Extracción en seco; no lavar si es orgánico",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 46.10",
+   "repaso": false,
+   "codigos": [
+    "6.03.2.010",
+    "6.03.5.007"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-18/03_mani-bronquio-derecho-espiracion__cxr_p210.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Espiración: aire atrapado",
+   "clave": "Pulmón derecho que retiene aire en espiración",
+   "conducta": "Broncoscopía rígida urgente",
+   "fuente": "CXR, Fig. 14.13 (b)",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 94"
+   ],
+   "codigos": [
+    "6.03.2.009"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Pila de botón en nariz u oído: ¿qué se hace y qué se evita?",
+   "codigos": [
+    "6.03.2.008",
+    "6.03.2.009"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1",
+   "pista": "Rinorrea unilateral fétida en preescolar: ¿qué sospechas?",
+   "codigos": [
+    "6.03.2.008",
+    "6.03.2.009"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.2.0",
+   "pista": "Semilla vegetal en el oído: ¿conducta?",
+   "codigos": [
+    "6.03.2.008",
+    "6.03.2.009"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.3.1",
+   "pista": "Aspiración persistente con sibilancias unilaterales: ¿procedimiento?",
+   "codigos": [
+    "6.03.2.008",
+    "6.03.2.009"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,582 @@
+{
+ "classId": "cirugia-17",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Herida {{c1::limpia}} (Clase I): sin apertura de tubo digestivo, respiratorio, urinario ni biliar; no lleva profilaxis salvo prótesis o malla.",
+   "extra": "Ej.: hernioplastía electiva, tiroidectomía.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clasificación",
+   "repaso": true,
+   "codigos": [
+    "4.01.3.016",
+    "4.01.3.002"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Herida limpia-contaminada (Clase II): infección de {{c1::5-10%}}; ej. colecistectomía programada o apendicectomía no complicada.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clasificación",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.016",
+    "4.01.3.002"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Herida contaminada (Clase III): trauma reciente < {{c1::4 horas}} o derrame grosero; infección 15-20%.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clasificación",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.016",
+    "4.01.3.002"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Herida sucia (Clase IV): infección > {{c1::30-40%}}; requiere antibiótico terapéutico, no profilaxis.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Clasificación",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.016",
+    "4.01.3.002"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Profilaxis quirúrgica de elección en cirugía limpia-contaminada: {{c1::cefazolina 2 g EV}}.",
+   "extra": "Colecistectomía electiva: cefazolina.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 11"
+   ],
+   "codigos": [
+    "4.01.3.016",
+    "4.01.3.002"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La profilaxis se da {{c1::30-60 minutos}} antes de la incisión y se repite a las 4 horas si la cirugía se prolonga.",
+   "extra": "En limpia-contaminada no pasa de 24 horas.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Profilaxis",
+   "repaso": true,
+   "codigos": [
+    "4.01.3.016",
+    "4.01.3.002"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Hernioplastía con malla: sí lleva {{c1::profilaxis}} aunque sea cirugía limpia.",
+   "extra": "La infección de la malla obliga a explantarla.",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "4.01.3.016",
+    "4.01.3.002"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El error en colecistectomía electiva es dar la cefazolina {{c1::después de cerrar la piel}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.016",
+    "4.01.3.002"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El vello no se rasura con navaja: si molesta, se corta con {{c1::clipper}} inmediatamente antes de la cirugía.",
+   "extra": "La antisepsia de elección es clorhexidina alcohólica.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": true,
+   "codigos": [
+    "4.01.3.003"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Para reducir la ISQ se mantiene la glicemia < {{c1::180-200 mg/dL}}, además de normotermia y oxigenación.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Asepsia",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.003"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La {{c1::asepsia}} evita la contaminación (autoclave, campo estéril); la {{c2::antisepsia}} reduce microorganismos en tejido vivo.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Asepsia",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.003"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el campo estéril, las manos se mantienen sobre la cintura y bajo los {{c1::hombros}}; la espalda del equipo no es estéril.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Ayudantía",
+   "repaso": false,
+   "codigos": [
+    "4.01.5.004"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La ISQ ocurre dentro de {{c1::30 días}} de la cirugía (90 si hay implante).",
+   "extra": "Se manifiesta hacia el día 5-7.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 ISQ",
+   "repaso": true,
+   "codigos": [
+    "4.01.3.016"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "ISQ superficial compromete piel y subcutáneo; la {{c1::profunda}}, fascia y músculo; la de órgano o espacio, la cavidad manipulada.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla ISQ",
+   "repaso": true,
+   "imagen": "biblioteca/10_cirugia/cirugia-17/09_herida-infectada-abierta__knoop_p674.jpg",
+   "codigos": [
+    "4.01.3.016"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El pilar del tratamiento de la ISQ es {{c1::abrir la herida y drenar}}; el antibiótico es un apoyo.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.016"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El antibiótico en ISQ superficial solo se da con celulitis perilesional > {{c1::5 cm}} o respuesta inflamatoria sistémica.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.002"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La ISQ de órgano o espacio se maneja con {{c1::drenaje percutáneo guiado}} o relaparotomía de aseo.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla ISQ",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.016"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La fascitis necrotizante cursa con dolor {{c1::desproporcionado}}, crepitación, ampollas hemorrágicas y shock: desbridamiento amplio urgente.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 ISQ",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-17/01_fascitis-necrotizante-postoperatoria__cto-cirugia_p26.jpg",
+   "codigos": [
+    "4.01.3.016"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un {{c1::hematoma}} de herida es sangre, no pus, y puede avisar de una hemorragia postoperatoria.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · ISQ",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-17/02_hematoma-de-herida_1__cto-cirugia_p25.jpg",
+   "codigos": [
+    "4.01.1.011"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El cultivo de una herida se toma solo con infección clínica y la muestra útil es {{c1::pus aspirado o tejido profundo}}, no un torulado superficial.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Cultivo",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.002"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La flora mixta superficial en el cultivo es {{c1::colonización}}; se interpreta con la clínica.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Cultivo",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.002"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El líquido rosado abundante «en {{c1::agua de carne}}» entre el día 5 y 8 anuncia dehiscencia de fascia.",
+   "extra": "No es un seroma banal.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Dehiscencia",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.021",
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La evisceración aguda es la salida de {{c1::vísceras}} (asas o epiplón) por una herida dehiscente: urgencia quirúrgica mayor.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Evisceración",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-17/03_evisceracion_expuesta__usuario.jpg",
+   "codigos": [
+    "4.01.1.021",
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la evisceración se cubren las asas con compresas estériles húmedas con suero {{c1::tibio}} y se traslada a pabellón.",
+   "extra": "Evita desecación y necrosis.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Evisceración",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.021",
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la evisceración nunca se {{c1::reintroducen}} las asas en la cama o sala.",
+   "extra": "Riesgo de perforación y peritonitis.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Evisceración",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.021",
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Evisceración: reposo, rodillas flectadas, vía venosa, ayuno y {{c1::sonda nasogástrica}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Evisceración",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.021",
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La evisceración se repara en pabellón con puntos de retención o {{c1::malla de contención}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Evisceración",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.021",
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El {{c1::75-85%}} de las fístulas de intestino delgado son postoperatorias, por dehiscencia anastomótica o lesión inadvertida.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fístulas",
+   "repaso": false,
+   "imagen": "biblioteca/10_cirugia/cirugia-17/08_fistula-fecal-herida__bailey-love_p067.jpg",
+   "codigos": [
+    "4.01.1.011"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Fístula de alto débito: más de {{c1::500 mL/día}}; de bajo débito: menos de 200 mL/día.",
+   "extra": "Sospecha entre los días 5 y 10.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fístulas",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.011"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El manejo de la fístula sigue SNAP: {{c1::sepsis}}, nutrición, anatomía y procedimiento diferido.",
+   "extra": "Reoperar de entrada es un error.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Fístulas",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.011"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La {{c1::eventración}} es la secuela tardía de la dehiscencia y la ISQ: masa en la cicatriz que se repara con malla electiva.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Eventración",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.021"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Apendicectomizado hace 6 horas con peritonitis difusa y shock: {{c1::dehiscencia de la base apendicular}} (pregunta real).",
+   "extra": "",
+   "origen": "clase:13",
+   "fuente": "Clase · Quiz Ago 2021",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 123"
+   ],
+   "codigos": [
+    "4.01.3.016",
+    "4.01.3.002"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fiebre a las 24-48 horas con herida limpia y crepitaciones localizadas en la base: {{c1::atelectasia}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real fiebre postoperatoria",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 11",
+    "EUNACOM Diciembre 2019 · Pregunta 173",
+    "EUNACOM Julio 2015 · Pregunta 40"
+   ],
+   "codigos": [
+    "4.01.1.011"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Herida con abundante secreción serohemática a las 24 horas: {{c1::seroma}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Jul 2017",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 68"
+   ],
+   "codigos": [
+    "4.01.3.016",
+    "4.01.3.002"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Aumento de volumen bajo el ligamento inguinal con náuseas y dolor abdominal: {{c1::hernia femoral}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic 2018",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 144"
+   ],
+   "codigos": [
+    "4.01.1.011"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-17/03_evisceracion_expuesta__usuario.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Evisceración aguda",
+   "clave": "Asas intestinales protruyendo por la herida dehiscente",
+   "conducta": "Compresas húmedas tibias, no reintroducir y pabellón urgente",
+   "fuente": "Aportada por el usuario (licencia por verificar)",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.021",
+    "4.01.3.005"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-17/09_herida-infectada-abierta__knoop_p674.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Herida infectada abierta",
+   "clave": "Herida abierta con bordes rojos tras retirar puntos",
+   "conducta": "ISQ superficial: abrir, drenar y curación abierta; antibiótico solo si hay celulitis extensa",
+   "fuente": "The Atlas of Emergency Medicine (Knoop), p. 674",
+   "repaso": false,
+   "codigos": [
+    "4.01.3.016"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/10_cirugia/cirugia-17/08_fistula-fecal-herida__bailey-love_p067.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Fístula fecal por la herida",
+   "clave": "Salida de contenido entérico por la herida",
+   "conducta": "SNAP: control de sepsis, nutrición parenteral, anatomía y cirugía diferida",
+   "fuente": "Bailey & Love 27.ª ed., p. 67",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.011"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Herida limpia contaminada: ¿qué profilaxis y cuándo?",
+   "codigos": [
+    "4.01.3.016",
+    "4.01.3.002"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.2.0",
+   "pista": "ISQ superficial: ¿qué haces?",
+   "codigos": [
+    "4.01.3.016",
+    "4.01.3.002"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.3",
+   "pista": "Líquido en agua de carne: ¿qué sospechas?",
+   "codigos": [
+    "4.01.3.016",
+    "4.01.3.002"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.4",
+   "pista": "Asas visibles en la herida: ¿conducta?",
+   "codigos": [
+    "4.01.3.016",
+    "4.01.3.002"
+   ]
+  }
+ ]
+}

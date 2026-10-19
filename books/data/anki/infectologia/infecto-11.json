@@ -1,0 +1,639 @@
+{
+ "classId": "infecto-11",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "M. tuberculosis es un bacilo {{c1::ácido-alcohol resistente}} (BAAR) aerobio estricto.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Patogenia",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras la infección primaria, la TBC disemina por vía {{c1::linfohematógena}} y puede quedar latente por décadas.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Un bacilo que se disemina",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.028"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Las formas extrapulmonares son el 20–25 % de los casos en inmunocompetentes y más del {{c1::50 %}} en VIH.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Un bacilo que se disemina",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.028"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Pleuresía tuberculosa: derrame {{c1::exudativo unilateral linfocítico}} (linfocitos > 80 %).",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Pleura y ganglios",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.013"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En la pleuresía tuberculosa la ADA está sobre {{c1::40 UI/L}}.",
+   "extra": "Con clínica compatible, confirma.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.013"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Derrame linfocítico con ADA > 40: se trata con el {{c1::esquema estándar}} de TBC, sin esperar biopsia.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.013"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La localización extrapulmonar más frecuente es la {{c1::ganglionar (escrófula)}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Extrapulmonares",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.028"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La escrófula afecta ganglios {{c1::cervicales}} (supraclaviculares/yugulares): masas indoloras y frías que fistulizan a la piel.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Pleura y ganglios",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.028"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Meningitis tuberculosa: cuadro {{c1::subaguda}} en la base del encéfalo con parálisis de pares craneanos.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Meninges y columna",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.028"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 112",
+    "EUNACOM Julio 2013 · Pregunta 71"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la meningitis TBC se afectan los pares craneanos {{c1::III y VI}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Meninges y columna",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.028"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 112",
+    "EUNACOM Julio 2013 · Pregunta 71"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "LCR en meningitis tuberculosa: glucosa {{c1::muy baja}}, proteínas muy altas y pleocitosis linfocítica.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Meninges y columna",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.028"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 112",
+    "EUNACOM Julio 2013 · Pregunta 71"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En meningitis TBC las proteínas del LCR superan {{c1::200–500 mg/dL}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Meninges y columna",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.028"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El mal de Pott es la {{c1::espondilodiscitis}} tuberculosa de columna torácica o lumbar.",
+   "extra": "Cifosis angular y riesgo de compresión medular.",
+   "origen": "clase:3",
+   "fuente": "Clase · Meninges y columna",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.028"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 116"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Para evaluar un mal de Pott el estudio de imagen útil es la {{c1::resonancia magnética}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Meninges y columna",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.028"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 116"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La baciloscopía requiere > {{c1::5.000 bacilos/mL}} de muestra.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Baciloscopía, cultivo y GeneXpert",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El gold standard diagnóstico de TBC es el {{c1::cultivo}} (Lowenstein-Jensen o MGIT), que permite antibiograma.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Baciloscopía, cultivo y GeneXpert",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.036"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 91"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Baciloscopías negativas con cultivo MGIT positivo en VIH: se {{c1::inicia el tratamiento estándar}} de TBC.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Baciloscopía, cultivo y GeneXpert",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.036"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 91"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "GeneXpert MTB/RIF detecta el ADN de M. tuberculosis y la mutación {{c1::rpoB}} (resistencia a rifampicina).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diagnóstico molecular",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "GeneXpert da el resultado en menos de {{c1::2 horas}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "GeneXpert es prueba inicial en niños, VIH, contactos de casos {{c1::resistentes}} y personal de salud.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diagnóstico molecular",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Caso nuevo pansensible: esquema {{c1::2 RHZE / 4 RH}}, diario y directamente observado.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.036"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 21",
+    "EUNACOM Julio 2024 · Pregunta 105",
+    "EUNACOM Diciembre 2018 · Pregunta 8",
+    "EUNACOM Agosto 2021 · Pregunta 152"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Fase inicial del esquema TBC: {{c1::2 meses}} con 4 fármacos (RHZE), 50 dosis de lunes a viernes.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Esquema nacional",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.036"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 21"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Fase de continuación: {{c1::4 meses}} con rifampicina + isoniazida, 80 dosis.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Esquema nacional",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Los 4 fármacos de la fase inicial: rifampicina, isoniazida, pirazinamida y {{c1::etambutol}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Esquema nacional",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.036"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 21"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "TBC pulmonar con baciloscopías negativas y clínica/contacto compatible: se {{c1::inicia el tratamiento antituberculoso}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Esquema nacional",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.036"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 152",
+    "EUNACOM Julio 2024 · Pregunta 105",
+    "EUNACOM Diciembre 2018 · Pregunta 8"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Isoniazida: neuropatía periférica y hepatitis; se previene con {{c1::piridoxina (vitamina B6)}}.",
+   "extra": "Inhibe la síntesis de ácido micólico.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla farmacología antiTBC",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Rifampicina: orina y lágrimas {{c1::naranjas}}; benigno, se tranquiliza y se continúa.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "La rifampicina induce el {{c1::CYP450}}: reduce anticonceptivos, warfarina y antirretrovirales.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Toxicidades",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "La pirazinamida es el fármaco más {{c1::hepatotóxico}} del esquema y causa hiperuricemia.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Toxicidades",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Crisis de gota con ácido úrico alto en tratamiento antiTBC: responsable la {{c1::pirazinamida}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Etambutol: neuritis óptica retrobulbar con pérdida de visión de colores {{c1::rojo-verde}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Alteración visual rojo-verde por etambutol: {{c1::suspender de inmediato y definitivamente}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fracaso del tratamiento: baciloscopía o cultivo positivo desde el {{c1::5.º mes}} de un esquema bien tomado.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Fracaso y resistencia",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.037"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 118"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La causa más frecuente de fracaso del tratamiento antiTBC es la mala {{c1::adherencia}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Fracaso y resistencia",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.037"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En fracaso de tratamiento, el error es {{c1::agregar un solo fármaco}} al esquema que falla.",
+   "extra": "Se pide cultivo con sensibilidad y GeneXpert.",
+   "origen": "clase:7",
+   "fuente": "Clase · Fracaso y resistencia",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.037"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "TBC multirresistente (MDR): resistencia a {{c1::isoniacida y rifampicina}}; se trata en centro especializado.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Fracaso y resistencia",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.037"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "TBC genitourinaria: piuria ácida con {{c1::urocultivo corriente negativo}} (piuria estéril).",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Fracaso y resistencia",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.016"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la TBC renal el diagnóstico usa cultivo de Koch en orina de {{c1::3 días seguidos}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Fracaso y resistencia",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.016"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La TBC genitourinaria compromete epidídimo en el varón y {{c1::trompas}} en la mujer.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Fracaso y resistencia",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.016"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Paciente con corticoides y terapia biológica y PPD (+): se trata la TBC latente con {{c1::isoniazida}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Toxicidades",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.028"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 116"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-11/03_tbc-miliar-rx__cto-infecto_p66.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Tuberculosis miliar",
+   "clave": "Innumerables nódulos pequeños difusos en ambos campos (siembra linfohematógena masiva)",
+   "conducta": "Iniciar esquema 2 RHZE / 4 RH directamente observado",
+   "fuente": "Manual CTO Infecciosas 14.ª ed., p. 66",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.028"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-11/01_mal-de-pott__cto-infecto_p69.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Mal de Pott (espondilodiscitis tuberculosa)",
+   "clave": "Destrucción del disco y cuerpos vertebrales vecinos",
+   "conducta": "Esquema antiTBC y vigilar compresión medular",
+   "fuente": "Manual CTO Infecciosas 14.ª ed., p. 69",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.028"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-11/02_escrofula-adenitis-tbc__amir-infecto_p112.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Escrófula (TBC ganglionar)",
+   "clave": "Masas cervicales indoloras y frías que coalescen y fistulizan",
+   "conducta": "Esquema antiTBC estándar",
+   "fuente": "Manual AMIR Infecciosas, p. 112",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.028"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Grupo prioritario: ¿qué prueba inicial?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.0.1",
+   "pista": "GeneXpert con resistencia a rifampicina: ¿qué significa?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.0.0",
+   "pista": "Bacilo sensible: ¿qué esquema?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1",
+   "pista": "Fuera de grupos prioritarios: ¿qué estudio?"
+  }
+ ]
+}

@@ -1,0 +1,531 @@
+{
+ "classId": "cardio-32",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La crisis hipertensiva es la elevación aguda y severa de la presión arterial, habitualmente PAS ≥ {{c1::180}} mmHg y/o PAD ≥ 120 mmHg.",
+   "extra": "Algunas guías usan 180/110.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Definiciones",
+   "repaso": true,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Lo que define la gravedad de una crisis hipertensiva es {{c1::el daño agudo de órgano blanco}}, no la cifra tensional.",
+   "extra": "Un 230/130 asintomático es urgencia; un 170/100 con EAP es emergencia.",
+   "origen": "clase:1",
+   "fuente": "Clase · Definiciones",
+   "repaso": true,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Emergencia hipertensiva: PA ≥ 180/120 con {{c1::daño agudo de órgano blanco}}; riesgo vital inminente.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Definiciones",
+   "repaso": true,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Urgencia hipertensiva: PA ≥ 180/120 {{c1::sin}} daño agudo de órgano blanco.",
+   "extra": "El paciente está asintomático o con cefalea occipital leve, mareo o epistaxis.",
+   "origen": "clase:1",
+   "fuente": "Clase · Definiciones",
+   "repaso": true,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La emergencia hipertensiva se maneja en {{c1::UCI/UTI}} con fármacos endovenosos titulables.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Definiciones",
+   "repaso": false,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La urgencia hipertensiva se maneja con fármaco {{c1::oral}} y control ambulatorio en 24 a 48 horas.",
+   "extra": "Sin UCI ni fármacos EV.",
+   "origen": "clase:1",
+   "fuente": "Clase · Definiciones",
+   "repaso": true,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La presión alta por dolor, ansiedad, retención urinaria o abstinencia se llama {{c1::pseudocrisis}}.",
+   "extra": "Mejora al tratar la causa; antes de decidir se repite la medición en reposo y con brazalete adecuado.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Definiciones",
+   "repaso": false,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Órganos blanco de una emergencia hipertensiva: cerebro, corazón, riñón, ojo y, en la embarazada, {{c1::preeclampsia grave o eclampsia}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Definiciones",
+   "repaso": false,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En el normotenso el flujo cerebral se mantiene constante con una PAM entre aproximadamente {{c1::60 y 150 mmHg}}.",
+   "extra": "Es la autorregulación.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el hipertenso crónico la curva de autorregulación está desplazada hacia la {{c1::derecha}}.",
+   "extra": "El límite inferior sube a cerca de 100-110 mmHg de PAM: una presión normal para otros le da hipoperfusión.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Fisiopatología",
+   "repaso": true,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En una emergencia la PAM se baja como máximo {{c1::20 a 25%}} durante la primera hora.",
+   "extra": "Más que eso o más rápido cae bajo el límite de autorregulación.",
+   "origen": "clase:6",
+   "fuente": "Clase · A qué velocidad bajar",
+   "repaso": true,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tras la primera hora de una emergencia, la presión se lleva gradualmente hacia {{c1::160/100 mmHg}} en 2 a 6 horas.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · A qué velocidad bajar",
+   "repaso": true,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En una emergencia la presión se normaliza en las {{c1::24 a 48 horas}} siguientes.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Meta de descenso",
+   "repaso": false,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Bajar la presión demasiado rápido causa infarto {{c1::cerebral, miocárdico}} e injuria renal iatrogénicos.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Por qué no se baja de golpe",
+   "repaso": false,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Descenso de PAM > 25% en 1 hora: el riesgo es isquemia; el error es {{c1::bajar a 120/80 rápido}}.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la anamnesis de una crisis, la suspensión brusca de {{c1::clonidina}} o de betabloqueadores produce hipertensión de rebote.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Evaluación",
+   "repaso": false,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Una diferencia de presión entre ambos brazos o una insuficiencia aórtica nueva sugiere {{c1::disección aórtica}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Evaluación",
+   "repaso": false,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el fondo de ojo, el edema de papila (grado {{c1::IV}}) por sí solo hace de la crisis una emergencia.",
+   "extra": "Hemorragias en llama y exudados algodonosos son grado III.",
+   "origen": "clase:4",
+   "fuente": "Clase · Qué buscar en urgencias",
+   "repaso": true,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Exámenes mínimos en una crisis: ECG, troponina, creatinina y {{c1::orina completa}}.",
+   "extra": "Rx de tórax, TAC o angioTAC según la clínica.",
+   "origen": "clase:4",
+   "fuente": "Clase · Qué buscar en urgencias",
+   "repaso": false,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En el SCA con crisis hipertensiva el fármaco de elección es {{c1::nitroglicerina EV}} en infusión continua.",
+   "extra": "Error clásico: nifedipino sublingual.",
+   "origen": "clase:5",
+   "fuente": "Clase · Qué usar según el órgano",
+   "repaso": true,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En el edema agudo de pulmón hipertensivo se usa nitroglicerina EV más {{c1::furosemida}}.",
+   "extra": "Bajan precarga y poscarga.",
+   "origen": "clase:5",
+   "fuente": "Clase · Qué usar según el órgano",
+   "repaso": true,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En la disección aórtica el fármaco de elección es {{c1::labetalol o esmolol}} EV.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Qué usar según el órgano",
+   "repaso": true,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En la disección aórtica la meta es PAS < {{c1::120 mmHg}} y FC < 60 lpm en menos de 20 minutos.",
+   "extra": "El betabloqueo va siempre primero, para evitar la taquicardia refleja.",
+   "origen": "clase:5",
+   "fuente": "Clase · Qué usar según el órgano",
+   "repaso": true,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Disección con 220/120 y FC 110: el error es dar {{c1::hidralazina o enalapril oral}}; se usa labetalol.",
+   "extra": "La hidralazina aumenta la taquicardia.",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En la eclampsia se usa {{c1::sulfato de magnesio}} más labetalol, con resolución obstétrica.",
+   "extra": "El magnesio previene las convulsiones.",
+   "origen": "clase:5",
+   "fuente": "Clase · Qué usar según el órgano",
+   "repaso": true,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En el feocromocitoma el fármaco de elección es {{c1::fentolamina}}.",
+   "extra": "El betabloqueador sin alfabloqueo está contraindicado.",
+   "origen": "clase:5",
+   "fuente": "Clase · Qué usar según el órgano",
+   "repaso": false,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En la encefalopatía hipertensiva se usan labetalol o {{c1::nicardipino}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Qué usar según el órgano",
+   "repaso": false,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En la crisis renal esclerodérmica el tratamiento es {{c1::IECA}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Fármacos",
+   "repaso": false,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el ACV isquémico agudo no se baja la presión de rutina, salvo que supere {{c1::220/120 mmHg}} o vaya a recibir trombólisis.",
+   "extra": "La penumbra depende de la perfusión.",
+   "origen": "clase:5",
+   "fuente": "Clase · Qué usar según el órgano",
+   "repaso": true,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Antes de la trombólisis la presión se baja a menos de {{c1::185/110}} y durante 24 horas después a menos de 180/105.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Fármacos",
+   "repaso": false,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el ACV hemorrágico se busca una PAS cercana a {{c1::140 a 160 mmHg}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Fármacos",
+   "repaso": false,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "La crisis por cocaína se trata con benzodiacepinas y nitratos; el fármaco contraindicado es el {{c1::betabloqueador puro}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Fármacos",
+   "repaso": false,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "El nitroprusiato es el más potente, pero si se usa más de 24 a 48 horas o hay insuficiencia renal hay toxicidad por {{c1::tiocianato y cianuro}}.",
+   "extra": "Se asocia a un betabloqueador para evitar la taquicardia refleja.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Fármacos",
+   "repaso": false,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Urgencia hipertensiva: reposo en ambiente tranquilo durante {{c1::30 a 60 minutos}} antes de medicar.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · A qué velocidad bajar",
+   "repaso": true,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En la urgencia hipertensiva el fármaco oral clásico es {{c1::captopril 25 mg}}.",
+   "extra": "Alternativas: labetalol oral o amlodipino 5 a 10 mg.",
+   "origen": "clase:6",
+   "fuente": "Clase · A qué velocidad bajar",
+   "repaso": true,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En una urgencia hipertensiva el fármaco prohibido es el {{c1::nifedipino sublingual}}.",
+   "extra": "Descenso brusco e incontrolable con taquicardia refleja; ACV, infarto y muerte.",
+   "origen": "clase:12",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": true,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Presión 210/115 con cefalea leve y examen normal: el error es {{c1::UCI y nitroprusiato}}.",
+   "extra": "Es una urgencia: reposo, VO, control 24-48 h.",
+   "origen": "clase:8",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "La crisis hipertensiva no es GES en sí; la {{c1::HTA de base}} sí lo es (GES N.º 21).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Perfil · GES",
+   "repaso": false,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-32/01_retinopatia-hipertensiva-grave__harrison_p263.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Retinopatía hipertensiva grave (grado IV)",
+   "clave": "Hemorragias, exudados algodonosos y borramiento del disco óptico (edema de papila)",
+   "conducta": "Es emergencia hipertensiva: UCI y fármaco EV titulable",
+   "fuente": "Harrison 21.ª ed., p. 263",
+   "repaso": true,
+   "codigos": [
+    "1.09.2.002"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Presión ≥ 180/120 sin daño de órgano: ¿qué categoría y conducta?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "SCA o edema pulmonar con crisis: ¿qué fármaco?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.1",
+   "pista": "Disección aórtica: ¿qué fármaco y qué meta?"
+  }
+ ]
+}

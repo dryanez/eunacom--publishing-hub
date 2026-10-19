@@ -1,0 +1,497 @@
+{
+ "classId": "infecto-14",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El agente causal del síndrome pulmonar por hantavirus en Chile es el virus {{c1::Andes}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Epidemiología",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.008"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 7"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El reservorio es el ratón {{c1::colilargo}} (Oligoryzomys longicaudatus).",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.008"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 7"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El colilargo está presente desde {{c1::Coquimbo hasta Aysén}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Epidemiología",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El hantavirus se contagia por {{c1::inhalación de aerosoles}} de excretas secas en recintos cerrados.",
+   "extra": "Cabañas, bodegas, leñeras.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Epidemiología",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Mecanismo de contagio del hantavirus: el error es pensar en {{c1::mordedura o vector}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El virus infecta el {{c1::endotelio pulmonar}} y causa fuga capilar masiva.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Del ratón al pulmón",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El edema pulmonar del hantavirus es {{c1::no cardiogénico}}, con depresión miocárdica intrínseca severa.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Epidemiología",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La letalidad del síndrome cardiopulmonar por hantavirus es de {{c1::30–35 %}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Del ratón al pulmón",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La fase prodrómica del hantavirus dura {{c1::3–6 días}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Fases",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fase prodrómica: fiebre alta, cefalea y mialgias intensas en {{c1::muslos y región lumbar}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Fases",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.008"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 7"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la fase prodrómica del hantavirus no hay {{c1::coriza ni tos}}: no es una influenza.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Dos fases",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fase cardiopulmonar: tos seca, disnea rápidamente progresiva y {{c1::shock cardiogénico}} fulminante.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Fases",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tríada del hemograma en hantavirus: trombocitopenia, {{c1::hemoconcentración}} e inmunoblastos.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.008"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 7"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Trombocitopenia marcada en hantavirus: plaquetas < {{c1::100.000/mm³}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · La tríada cardinal",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.008"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 7"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Hemoconcentración en hantavirus: hematocrito > {{c1::45–50 %}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · La tríada cardinal",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Inmunoblastos (linfocitos atípicos) en el frotis: > {{c1::10 %}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · La tríada cardinal",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El hematocrito alto en hantavirus indica {{c1::fuga de plasma}}: los glóbulos rojos quedan concentrados.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · La tríada cardinal",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Fiebre, mialgias, Hto alto y plaquetas bajas: el error es pensar en {{c1::neumonía bacteriana}}.",
+   "extra": "En la neumonía el hematocrito es normal.",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.008"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 7"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Antecedente clave de hanta: ruralidad y {{c1::recinto cerrado}} con presencia del colilargo.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla comparativa",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.008"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 7"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hantavirus vs sepsis: en el hanta los fluidos se {{c1::restringen}}; en el shock séptico, carga agresiva de 30 mL/kg.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla comparativa",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El diagnóstico de hantavirus se confirma con {{c1::IgM específica}} (test rápido o ELISA del ISP).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Manejo",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En sospecha de hanta, el error es {{c1::esperar la IgM}} para notificar o actuar.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El síndrome pulmonar por hantavirus es una enfermedad de notificación obligatoria {{c1::inmediata}} (ENO).",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La ENO inmediata permite estudiar el {{c1::foco}}, es decir, el lugar de exposición.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Confirmar y notificar",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Regla de oro 1 en hanta: {{c1::restricción hídrica estricta}}.",
+   "extra": "Los cristaloides inundan los alvéolos.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Manejo",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Hipotensión en sospecha de hanta: el error es dar un {{c1::bolo de cristaloides 30 mL/kg}}.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Hipotensión en hantavirus: vasopresor precoz con {{c1::noradrenalina}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Manejo",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Soporte de rescate en hantavirus: {{c1::ECMO veno-arterial}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Se debe trasladar a centro con ECMO al inicio de la disnea; el error es {{c1::esperar el shock}} para derivar.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El traslado de un hanta con disnea se hace en {{c1::ambulancia medicalizada}} a centro de alta complejidad.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Tres reglas de oro",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hanta sin disnea ni hipotensión: {{c1::hospitalizar y vigilar}} con restricción hídrica y coordinar traslado.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo · Hantavirus",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fiebre, cefalea, mialgias, compromiso respiratorio progresivo, zona rural del sur, leucopenia y trombocitopenia: {{c1::hantavirus}}.",
+   "extra": "",
+   "origen": "libro:caso",
+   "fuente": "Libro · Caso clínico",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.008"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 7"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-14/02_rx_hanta_edema_intersticial__guia-hanta-2009.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Edema intersticial inicial del síndrome cardiopulmonar por hantavirus",
+   "clave": "Edema intersticial bilateral, sin cardiomegalia",
+   "conducta": "Notificar (ENO), restricción hídrica, oxígeno y traslado precoz a centro con ECMO",
+   "fuente": "Guía Clínica Hantavirus MINSAL 2009, Fig. 7",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-14/01_rx_hanta_cardiopulmonar__guia-hanta-2009.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Fase cardiopulmonar del hantavirus",
+   "clave": "Infiltrados alveolares bilaterales difusos por fuga capilar",
+   "conducta": "Noradrenalina si hipotensión, sin bolos de cristaloides; ECMO veno-arterial",
+   "fuente": "Guía Clínica Hantavirus MINSAL 2009, Fig. 11",
+   "repaso": false,
+   "codigos": [
+    "1.04.2.008"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.1",
+   "pista": "Tríada presente: ¿qué se hace de inmediato?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.0.0",
+   "pista": "Hanta sin disnea ni hipotensión: ¿qué conducta?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.0.1",
+   "pista": "Disnea o hipotensión: ¿qué conducta?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.0",
+   "pista": "Sin tríada: ¿qué conducta?"
+  }
+ ]
+}

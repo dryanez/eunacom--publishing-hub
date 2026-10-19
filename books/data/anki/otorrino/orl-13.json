@@ -1,0 +1,582 @@
+{
+ "classId": "orl-13",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Más del 70-85% de las faringitis del adulto y 50-70% de las del niño son {{c1::virales}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Etiología",
+   "repaso": true,
+   "imagen": "biblioteca/17_otorrino/orl-13/03_faringitis-sin-exudado__bates_p322.jpg",
+   "codigos": [
+    "6.03.1.002",
+    "6.03.1.017"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Orientan a virus: tos, coriza, disfonía, {{c1::conjuntivitis}}, aftas y diarrea.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Virus",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.002",
+    "6.03.1.017"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El estreptococo del grupo A causa {{c1::15-30%}} de las faringitis de 3 a 14 años y 5-10% de las del adulto.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 SBHGA",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.002",
+    "6.03.1.017"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En menores de 3 años la faringitis exudativa es casi siempre viral, por {{c1::adenovirus}}.",
+   "extra": "Niño de 2 años y 6 meses con exudado; niño de 18 meses con conjuntivitis; lactante de 10 meses con fiebre faringoconjuntival.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Menores de 3 años",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 75",
+    "EUNACOM Diciembre 2019 · Pregunta 110",
+    "EUNACOM Julio 2019 · Pregunta 144"
+   ],
+   "codigos": [
+    "6.03.1.002",
+    "6.03.1.017"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Niño de 2 años con fiebre, exudado y adenopatías (3 criterios de Centor) y test positivo: la pregunta oficial indica {{c1::amoxicilina}}.",
+   "extra": "Aunque es rara la bacteriana antes de los 3 años.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Excepción",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 107"
+   ],
+   "codigos": [
+    "6.03.1.002",
+    "6.03.1.017"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los criterios de Centor son fiebre > 38 °C, exudado amigdalino, adenopatías anteriores dolorosas y {{c1::ausencia de tos}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 McIsaac",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.002",
+    "6.03.1.017"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "McIsaac agrega la edad: 3-14 años {{c1::+1}}, 15-44 años 0, ≥ 45 años -1.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 McIsaac",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.002",
+    "6.03.1.017"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "McIsaac 0 a 1: {{c1::sin test ni antibiótico}}, solo manejo sintomático.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Puntaje",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.002",
+    "6.03.1.017"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "McIsaac 2 a 3: test rápido o cultivo y tratar {{c1::solo si es positivo}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Puntaje",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.002",
+    "6.03.1.017"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "McIsaac 4 a 5: probabilidad de {{c1::50-60%}}; test o tratamiento empírico.",
+   "extra": "Niño de 8 años con 5 puntos; niño de 8 años con dolor abdominal y vómitos.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Puntaje",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 107",
+    "EUNACOM Agosto 2021 · Pregunta 28"
+   ],
+   "codigos": [
+    "6.03.1.002",
+    "6.03.1.017"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Niño de 8 años con exudado y contacto con escarlatina confirmada: iniciar {{c1::amoxicilina}} empírica.",
+   "extra": "Alta probabilidad de estreptococo.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Escarlatina",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 131"
+   ],
+   "codigos": [
+    "6.03.1.002",
+    "6.03.1.017"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El estreptococo del grupo A tiene {{c1::100%}} de sensibilidad a la penicilina.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Penicilina",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.002",
+    "6.03.1.017"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Penicilina benzatina IM única: {{c1::1.200.000 UI}} si pesa más de 27 kg; 600.000 UI si menos.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Benzatina",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.002",
+    "6.03.1.017"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Amoxicilina {{c1::50 mg/kg/día}} (máximo 1 g/día) por 10 días completos.",
+   "extra": "Test rápido positivo en niño de 8 años.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Amoxicilina",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 143"
+   ],
+   "codigos": [
+    "6.03.1.002",
+    "6.03.1.017"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Se requieren {{c1::10 días}}: los esquemas de 5 o 7 días no aseguran prevención de carditis reumática.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Duración",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.002",
+    "6.03.1.017"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Alergia no anafiláctica a penicilina: cefalosporina de 1.ª generación ({{c1::cefadroxilo}}) por 10 días.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Alergia",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.002",
+    "6.03.1.017"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Anafilaxia a penicilina: {{c1::macrólido}} (azitromicina 5 días o claritromicina 10 días).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Anafilaxia",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.002",
+    "6.03.1.017"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El antibiótico previene la fiebre reumática y el absceso periamigdalino, pero {{c1::no}} la glomerulonefritis postestreptocócica.",
+   "extra": "Tras amigdalitis con tratamiento incompleto: HTA, edema y C3 bajo; tratamiento con diuréticos.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Complicaciones",
+   "repaso": true,
+   "codigos": [
+    "6.03.1.002",
+    "6.03.1.017"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Odinofagia severa, trismo y desviación de la úvula al lado contrario: {{c1::absceso periamigdalino}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Absceso",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.002"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mononucleosis por EBV: adolescentes, exudado, adenopatías cervicales incluso {{c1::posteriores}} y esplenomegalia.",
+   "extra": "Joven de 17 años con bazo aumentado; paciente de 23 años con fiebre de 7 días y linfocitosis; joven de 18 años con IgM VCA positiva.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Mononucleosis",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 164",
+    "EUNACOM Diciembre 2025 · Pregunta 54",
+    "EUNACOM Julio 2013 · Pregunta 152"
+   ],
+   "codigos": [
+    "1.04.1.025"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Esplenomegalia en {{c1::30 a 50%}}; hemograma con más de 10% de linfocitos atípicos.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Mononucleosis",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-13/04_amigdalitis-mononucleosica__cto-orl_p71.jpg",
+   "codigos": [
+    "1.04.1.025"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En mononucleosis la amoxicilina causa un {{c1::exantema}} máculo-papular pruriginoso en más del 90%.",
+   "extra": "Adolescente tras amoxicilina con exantema: solicitar IgM anti-VCA.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Amoxicilina",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 169"
+   ],
+   "codigos": [
+    "1.04.1.025"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Mononucleosis: soporte, sin amoxicilina y sin deporte de contacto por {{c1::3 a 4 semanas}} (rotura esplénica).",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Mononucleosis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.025"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Resfrío pediátrico: viral, 6 a 8 episodios al año, dura 7 a 10 días; manejo con lavados nasales y {{c1::paracetamol}}.",
+   "extra": "Niño de 3 años con rinorrea serosa: solución salina intranasal; niño de 2 años con tos y fiebre: la pregunta marcó ibuprofeno.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Resfrío",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 147",
+    "EUNACOM Julio 2017 · Pregunta 27"
+   ],
+   "codigos": [
+    "2.01.1.027"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En menores de 6 años no se usan antibióticos, antitusivos, descongestionantes ni {{c1::mucolíticos}} en el resfrío.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Antibióticos",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.027"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Niño de 10 años con tos, rinorrea y faringe eritematosa afebril: {{c1::rinofaringitis aguda}} viral.",
+   "extra": "Influenza en niño de 4 años: acetaminofeno.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 IVAS",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 166",
+    "EUNACOM Julio 2017 · Pregunta 130",
+    "EUNACOM Julio 2013 · Pregunta 74"
+   ],
+   "codigos": [
+    "2.01.1.027"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Niño de 11 años con 10 días de congestión, rinorrea mucopurulenta y fiebre: se trata con {{c1::amoxicilina}}.",
+   "extra": "Rinosinusitis bacteriana, no faringitis.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Sinusitis",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 134"
+   ],
+   "codigos": [
+    "2.01.1.027"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Halitosis con secreción caseosa de 5 mm en los surcos: {{c1::tonsilolitiasis}}; se enseña a retirarlos.",
+   "extra": "Niña de 8 años con odinofagia leve y halitosis de 6 meses.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Tonsilolitiasis",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 42"
+   ],
+   "codigos": [
+    "2.01.1.027"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Criterios de Jones: infección estreptocócica previa más {{c1::2 mayores}} o 1 mayor y 2 menores.",
+   "extra": "Mayores: carditis, poliartritis migratoria, corea, eritema marginado, nódulos.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Fiebre reumática",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.008"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Fiebre reumática: penicilina benzatina, AAS en la artritis y profilaxis secundaria cada {{c1::3 semanas}}.",
+   "extra": "Hasta los 21 años como mínimo.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Fiebre reumática",
+   "repaso": false,
+   "codigos": [
+    "1.01.1.008"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Test rápido de estreptococo: especificidad mayor de {{c1::95%}} y sensibilidad 70 a 90%.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Test rápido",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.014"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Test rápido negativo: adulto, se asume viral; niño con sospecha alta, {{c1::cultivo faríngeo}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Test rápido",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.014"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-13/03_faringitis-sin-exudado__bates_p322.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Faringe roja sin exudado",
+   "clave": "Faringe enrojecida sin placas",
+   "conducta": "Con tos o coriza: sintomático, sin antibiótico",
+   "fuente": "Bates, Guía de exploración física, Tabla 7-23",
+   "repaso": false,
+   "codigos": [
+    "4.01.2.002"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-13/01_amigdalitis-aguda-folicular__bailey-love_p756.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Placas en las criptas",
+   "clave": "Placas blancas en las criptas amigdalinas",
+   "conducta": "Igual en bacteriana y viral: usar McIsaac",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 47.21",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.014"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-13/02_amigdalitis-exudativa__bates_p322.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Garganta roja con exudado",
+   "clave": "Exudado blanco sobre amígdalas eritematosas",
+   "conducta": "McIsaac 4-5: test o tratamiento",
+   "fuente": "Bates, Guía de exploración física, Tabla 7-23",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.002",
+    "6.03.1.017"
+   ]
+  },
+  {
+   "id": "i04",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-13/04_amigdalitis-mononucleosica__cto-orl_p71.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Amigdalitis mononucleósica",
+   "clave": "Amígdalas con exudado extenso y membranas",
+   "conducta": "Soporte, sin amoxicilina",
+   "fuente": "Manual CTO Otorrinolaringología 14.ª ed., p. 71",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.002",
+    "6.03.1.017"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Odinofagia con tos, coriza o conjuntivitis: ¿qué se concluye?",
+   "codigos": [
+    "6.03.1.002",
+    "6.03.1.017"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "McIsaac 0 a 1: ¿conducta?",
+   "codigos": [
+    "6.03.1.002",
+    "6.03.1.017"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.1.0",
+   "pista": "McIsaac 2 a 3 con test positivo: ¿tratamiento?",
+   "codigos": [
+    "6.03.1.002",
+    "6.03.1.017"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.2",
+   "pista": "McIsaac 4 a 5: ¿conducta?",
+   "codigos": [
+    "6.03.1.002",
+    "6.03.1.017"
+   ]
+  }
+ ]
+}

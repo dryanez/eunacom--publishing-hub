@@ -2340,7 +2340,7 @@
         "options": [
           {
             "id": "A",
-            "text": "Anemia megaloblás2ca",
+            "text": "Anemia megaloblástica",
             "isCorrect": true
           },
           {
@@ -2350,7 +2350,7 @@
           },
           {
             "id": "C",
-            "text": "Anemia hemolí2ca",
+            "text": "Anemia hemolítica",
             "isCorrect": false
           },
           {
@@ -2360,7 +2360,7 @@
           },
           {
             "id": "E",
-            "text": "Mielop2sis",
+            "text": "Mieloptisis",
             "isCorrect": false
           }
         ],
@@ -5267,39 +5267,39 @@
       {
         "type": "question",
         "nav": "Pregunta Real EUNACOM",
-        "badge": "EUNACOM Diciembre 2024 · Pregunta 119",
-        "notes": "[SLIDE 14] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2024 · Pregunta 119.",
+        "badge": "EUNACOM Diciembre 2019 · Pregunta 130",
+        "notes": "[SLIDE 14] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2019 · Pregunta 130.",
         "number": 3,
-        "caseText": "Niño que consulta por sangrado post extracción dental (creo que tenía otros sangrados mucosos) con TTPA aumentado, plq normales, madre tenía reglas abundantes: a.​ Enfermedad de Von Willebrand (se había preguntado el mismo caso en otro Eunacom y esta era la respuesta) b.​ Hemofilia c.​ Déficit de Vitamina K Era hemofilia ??? - es una EVW EVW aumenta el ttpa si severa",
-        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "caseText": "Un paciente de 18 años presenta equimosis frecuente y tendencia a presentar petequias en las extremidades inferiores. Como antecedente, presentó hemorragia tardía, en relación a la extracción de un molar y hace algunos años sufrió un hematoma en el muslo izquierdo, en relación a un traumatismo, que requirió manejo hospitalizado. Se solicitan exámenes que muestran hemograma con 160.000 plaquetas por mm3, sin alteraciones de la serie roja ni blanca, TTPA de 45 segundos y TP de 100%.",
+        "question": "¿Cuál es el diagnóstico más probable?",
         "options": [
           {
             "id": "A",
-            "text": "Control sano habitual",
-            "isCorrect": true
-          },
-          {
-            "id": "B",
-            "text": "Derivar a especialista",
+            "text": "Enfermedad de Glanzmann",
             "isCorrect": false
           },
           {
+            "id": "B",
+            "text": "Enfermedad de von Willebrand",
+            "isCorrect": true
+          },
+          {
             "id": "C",
-            "text": "Hospitalizar",
+            "text": "Déficit de factor VII",
             "isCorrect": false
           },
           {
             "id": "D",
-            "text": "Observación domiciliaria",
+            "text": "Hemofilia",
             "isCorrect": false
           },
           {
             "id": "E",
-            "text": "Iniciar tratamiento empírico",
+            "text": "Púrpura trombopénica inmune",
             "isCorrect": false
           }
         ],
-        "explanation": "La alternativa correcta es la **A** (Control sano habitual). Esta clase cubre la hemofilia de manera breve. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES). Las opciones alternativas (Derivar a especialista, Hospitalizar) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente."
+        "explanation": "Es una EvW clásico (alteración de hemostasia primaria: petequias y alveolorragia), con plaquetas normales (es disfunción plaquetaria) y puede alargar levemente el TTPA. La hemofilia alarga el TTPA pero tendría muchos más síntomas y hematomas, además de hemartrosis y sin petequias."
       },
       {
         "type": "question",
@@ -6383,15 +6383,15 @@
           {
             "id": "D",
             "text": "Anemia megaloblástica",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": "E",
             "text": "Leucemia mieloide aguda",
-            "isCorrect": true
+            "isCorrect": false
           }
         ],
-        "explanation": "Diagnóstico: **Leucemia mieloide aguda** (opción **E**). La vejiga neurogénica es la pérdida de la función vesical normal por denervación, lo que impide que la vejiga se contraiga adecuadamente. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh."
+        "explanation": "Pancitopenia con VCM muy elevado, hemólisis intramedular y compromiso cognitivo en anciano: déficit de B12 (anemia megaloblástica)."
       },
       {
         "type": "question",
@@ -6428,7 +6428,7 @@
             "isCorrect": true
           }
         ],
-        "explanation": "Conducta / Tratamiento indicado: **Quimioterapia** (opción **E**). El tratamiento más importante de la vejiga neurogénica es el autocateterismo limpio intermitente con sonda nelaton, que es limpio pero no estéril, e intermitente pero no permanente De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+        "explanation": "LLA con hiperleucocitosis y riesgo de lisis tumoral: el tratamiento definitivo es la quimioterapia, junto a hidratación y medidas de lisis tumoral."
       },
       {
         "type": "bento",
@@ -7283,7 +7283,7 @@
           },
           {
             "id": "C",
-            "text": "Biopsia aspira2va de la adenopaaa",
+            "text": "Biopsia aspirativa de la adenopaaa",
             "isCorrect": false
           },
           {
@@ -7293,7 +7293,7 @@
           },
           {
             "id": "E",
-            "text": "Hemocul2vos",
+            "text": "Hemocultivos",
             "isCorrect": false
           }
         ],

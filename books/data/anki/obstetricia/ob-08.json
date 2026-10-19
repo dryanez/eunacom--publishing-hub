@@ -1,0 +1,419 @@
+{
+  "classId": "ob-08",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La colestasia intrahepática del embarazo (CIE) se debe a susceptibilidad genética de {{c1::transportadores biliares hepáticos}} exacerbada por estrógenos y progesterona del tercer trimestre.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síntoma cardinal de la CIE es el {{c1::prurito palmoplantar}} de predominio nocturno.",
+      "extra": "Parte en palmas y plantas y luego se generaliza.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clínica cardinal",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la CIE la piel está sana: solo hay {{c1::lesiones de rascado}} (escoriaciones lineales), sin lesiones primarias.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clínica cardinal",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Pápulas y placas eritematosas pruriginosas en estrías abdominales: pensar en {{c1::PEP/PUPPP}}, no en colestasia.",
+      "extra": "Error frecuente: diagnosticar colestasia igual.",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La ictericia aparece en el {{c1::10-15%}} de las CIE, 1 a 2 semanas después del inicio del prurito.",
+      "extra": "Se acompaña de coluria e hipocolia transitoria.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clínica cardinal",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras el parto, el prurito de la CIE desaparece en las primeras {{c1::24 a 48 horas}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Clínica cardinal",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El estándar de oro diagnóstico de la CIE es la medición de {{c1::ácidos biliares séricos totales}}.",
+      "extra": "Confirma y estratifica la severidad.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Nivel normal de ácidos biliares en el embarazo: {{c1::< 10 a 11 umol/L}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Diagnóstico",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "CIE leve a moderada: ácidos biliares entre {{c1::10 y 39 umol/L}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de estratificación",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "CIE severa: ácidos biliares {{c1::≥ 40 umol/L}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Con ácidos biliares {{c1::≥ 100 umol/L}} el riesgo de óbito fetal súbito es extremo.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de estratificación",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Las transaminasas se elevan en el {{c1::60-80%}} de las CIE, habitualmente entre 2 y 5 veces el límite superior.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Pruebas hepáticas",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la CIE la bilirrubina total suele ser {{c1::< 5 mg/dL}} y de predominio directo.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Pruebas hepáticas",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El fármaco de elección en la CIE es el {{c1::ácido ursodesoxicólico (UDCA)}}.",
+      "extra": "Alivia el prurito y normaliza las pruebas hepáticas.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 46"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Dosis de UDCA en la CIE: {{c1::10 a 15 mg/kg/día}} por vía oral.",
+      "extra": "Habitualmente 300 mg cada 8 a 12 horas.",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "El UDCA es un ácido biliar {{c1::hidrofílico no citotóxico}} que desplaza a los ácidos biliares tóxicos del hepatocito.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Mecanismo UDCA",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El UDCA cruza la placenta y {{c1::depura los ácidos biliares del compartimento fetal}}.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Coadyuvante para el sueño en la CIE: {{c1::clorfenamina}} oral por la noche.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Coadyuvantes",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El riesgo fetal mayor de la CIE es la {{c1::muerte intrauterina súbita}} por arritmia fetal inducida por ácidos biliares.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "El registro basal no estresante (RBNE) normal {{c1::no descarta}} el riesgo de óbito en la CIE.",
+      "extra": "Error frecuente: confiar en que el monitoreo protege al feto.",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la CIE el óbito se previene con la {{c1::interrupción programada}} del embarazo, no con el monitoreo.",
+      "extra": "El evento es súbito: arritmia o vasoespasmo placentario.",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz banco",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "CIE leve o moderada (< 40 umol/L): interrupción a las {{c1::37-38 semanas}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de estratificación",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "CIE severa (40 a 99 umol/L): interrupción a las {{c1::36 semanas}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de estratificación",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "CIE extrema (≥ 100 umol/L): interrupción a las {{c1::34 a 36 semanas}} previa maduración pulmonar con corticoides.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de estratificación",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 153"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con ácidos biliares en 110, la conducta es {{c1::interrumpir entre las 34 y 36 semanas}}, no solo subir la dosis de UDCA.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 153"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Multigesta de 34 semanas con prurito palmoplantar nocturno sin lesiones primarias: iniciar {{c1::UDCA}} y solicitar ácidos biliares y pruebas hepáticas.",
+      "extra": "Luego derivar a ARO para programar la interrupción.",
+      "origen": "libro:caso",
+      "fuente": "Libro · Caso clínico",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Prurito palmoplantar con patrón colestásico (FA y GGT altas, ictericia leve) en el tercer trimestre: {{c1::colestasia intrahepática}}.",
+      "extra": "El diagnóstico es clínico.",
+      "origen": "clase:8",
+      "fuente": "Clase · Quiz Ago 2021",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 46"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Examen de elección para confirmar la colestasia intrahepática del embarazo: {{c1::ácidos biliares séricos}}.",
+      "extra": "Las fosfatasas alcalinas suben también por la placenta: no sirven para el diagnóstico.",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Dic 2018 · P85",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 85"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Astenia, hipoglicemia, náuseas y dolor en hipocondrio derecho con PA normal en el tercer trimestre: {{c1::hígado graso agudo del embarazo}}.",
+      "extra": "No es HELLP por la PA normal.",
+      "origen": "pregunta_real",
+      "fuente": "EUNACOM Dic 2018 · P86",
+      "codigos": [
+        "3.01.1.003"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 86",
+        "EUNACOM Julio 2024 · Pregunta 53",
+        "EUNACOM Agosto 2021 · Pregunta 47"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Prurito palmoplantar nocturno sin lesiones: ¿qué examen estándar de oro?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.1",
+      "pista": "Ácidos biliares 40-99: ¿cuándo interrumpes?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0.2",
+      "pista": "Ácidos biliares ≥ 100: ¿qué conducta?"
+    }
+  ]
+}

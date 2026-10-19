@@ -1,0 +1,468 @@
+{
+  "classId": "hem-23",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trombofilias por ganancia de función (las más frecuentes): {{c1::factor V Leiden}} y {{c2::protrombina G20210A}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Dos formas de romper el equilibrio",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.019"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Las trombofilias por pérdida de inhibidores (más raras y más trombogénicas): déficit de {{c1::antitrombina, proteína C o proteína S}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Dos formas de romper el equilibrio",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.019"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El factor V Leiden causa {{c1::resistencia a la proteína C activada}}.",
+      "extra": "Es la trombofilia hereditaria más frecuente.",
+      "origen": "clase:2",
+      "fuente": "Clase · La más frecuente y la más grave",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.019"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El {{c1::3–5 %}} de los caucásicos son portadores de factor V Leiden.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · La más frecuente y la más grave",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.019"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En heterocigotos, el factor V Leiden da un riesgo de TEV {{c1::4 a 8}} veces mayor.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · La más frecuente y la más grave",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.019"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La trombofilia hereditaria más trombogénica es el déficit de {{c1::antitrombina}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · La más frecuente y la más grave",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.019"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El déficit de antitrombina produce {{c1::resistencia a la heparina}}.",
+      "extra": "La heparina actúa a través de la antitrombina.",
+      "origen": "clase:2",
+      "fuente": "Clase · La más frecuente y la más grave",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.019"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Déficit congénito de proteína C o S + acenocumarol sin puente de heparina: {{c1::necrosis cutánea}} por cumarínicos.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Necrosis cutánea por cumarínicos",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.019"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La proteína C cae primero con el cumarínico porque su vida media es de {{c1::6 horas}}.",
+      "extra": "Estado protrombótico transitorio; se previene con puente de heparina.",
+      "origen": "clase:3",
+      "fuente": "Clase · Necrosis cutánea por cumarínicos",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.019"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El SAF es la trombofilia {{c1::adquirida autoinmune}} más frecuente; puede ser primaria o secundaria a LES.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Criterios de Sydney",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "SAF, criterio clínico 1: trombosis {{c1::arterial, venosa o de pequeño vaso}} documentada objetivamente.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Criterios de Sydney",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "SAF obstétrico: {{c1::3 o más}} abortos consecutivos antes de la semana {{c2::10}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Criterios de Sydney",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "SAF obstétrico: una o más muertes fetales desde la semana {{c1::10}} en feto morfológicamente normal.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Criterios de Sydney",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "SAF obstétrico: parto prematuro antes de la semana {{c1::34}} por preeclampsia severa o insuficiencia placentaria.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Criterios de Sydney",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anticuerpos del SAF: {{c1::anticoagulante lúpico}}, anticardiolipina y anti-{{c2::β2-glicoproteína 1}}; basta uno.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Laboratorio de Sydney",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El anticuerpo del SAF debe ser positivo en 2 ocasiones separadas por al menos {{c1::12 semanas}}.",
+      "extra": "Descarta positividades transitorias posinfecciosas.",
+      "origen": "clase:6",
+      "fuente": "Clase · Laboratorio de Sydney",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Anticardiolipina del SAF: títulos moderados o altos, > {{c1::40 GPL o MPL}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Laboratorio de Sydney",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anticoagulante lúpico: TTPK largo {{c1::in vitro}} que no corrige con mezcla; in vivo produce trombosis, no sangrado.",
+      "extra": "Se normaliza con exceso de fosfolípidos.",
+      "origen": "clase:5",
+      "fuente": "Clase · TTPK largo que trombosa",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.021"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 55"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trombosis en un joven con TTPA prolongado y VDRL positivo: {{c1::síndrome antifosfolípido}}.",
+      "extra": "El VDRL falso positivo se debe a los anticuerpos antifosfolípidos.",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Diciembre 2019",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.021"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 54",
+        "EUNACOM Diciembre 2017 · Pregunta 51"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mujer joven con aborto previo y TVP: el estudio etiológico apunta a {{c1::SAF}}.",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.021"
+      ],
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 149"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tres abortos del primer trimestre: se pide el panel {{c1::anticoagulante lúpico, anticardiolipina y anti-β2-glicoproteína I}}.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Julio 2025",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Se estudia trombofilia en TEV no provocado en menor de {{c1::50 años}}, trombosis recurrentes o sitios atípicos.",
+      "extra": "Sitios atípicos: venas cerebrales, mesentéricas o suprahepáticas.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Cuándo estudiar",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.006"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Trombosis provocada (cirugía ortopédica, trauma, inmovilización): el error es {{c1::estudiar trombofilia}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · A quién sí y a quién no",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.006"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Proteína C, S y antitrombina no se miden en {{c1::fase aguda}} ni bajo anticoagulantes: dan falsos déficits.",
+      "extra": "Los cumarínicos bajan C y S; las heparinas bajan antitrombina.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Estudio",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.006"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El estudio funcional se difiere hasta {{c1::4 a 6 semanas}} tras suspender la anticoagulación.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Cuándo tomar la muestra",
+      "repaso": false,
+      "codigos": [
+        "1.08.4.006"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El estudio genético (factor V Leiden y protrombina por PCR) puede hacerse {{c1::en cualquier momento}}.",
+      "extra": "El ADN no cambia con la trombosis ni con anticoagulantes.",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz estudio de trombofilia",
+      "repaso": true,
+      "codigos": [
+        "1.08.4.006"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En el SAF trombótico el tratamiento es {{c1::acenocumarol o warfarina}} con INR {{c2::2 a 3}}, de por vida.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Con qué anticoagular",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.012"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el SAF, los {{c1::DOAC}} están contraindicados (triple positivo): más recurrencia trombótica arterial.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": true,
+      "codigos": [
+        "1.08.3.012"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "SAF con TVP aguda: HBPM como puente a {{c1::acenocumarol}}, y repetir anticuerpos a las 12 semanas.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.012"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En trombofilia hereditaria (factor V Leiden, déficit de antitrombina) se puede usar {{c1::DOAC o cumarínico}}.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.012"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "INR 7,8 sin sangrado con acenocumarol: suspender y dar vitamina K1 oral {{c1::2,5–5 mg}}.",
+      "extra": "No se revierte del todo, para no generar un estado protrombótico.",
+      "origen": "clase:18",
+      "fuente": "Clase · Quiz Julio 2025",
+      "repaso": false,
+      "codigos": [
+        "1.08.3.012"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 142"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-23/atlas_136_necrosis_cutanea_inducida_por_.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Necrosis cutánea inducida por cumarínicos",
+      "clave": "Piel necrótica negra rodeada de eritema",
+      "conducta": "Suspender el cumarínico, anticoagular con heparina y estudiar déficit de proteína C o S",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.019"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-23/02_livedo_saf__fitzpatrick_p1652.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Livedo reticularis en síndrome antifosfolípido",
+      "clave": "Patrón reticulado violáceo en la piel",
+      "conducta": "Pedir anticoagulante lúpico, anticardiolipina y anti-β2GP1 y repetir a las 12 semanas",
+      "fuente": "Fitzpatrick Dermatology, p. 1652",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.021"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1.0",
+      "pista": "Pérdidas fetales o TTPK largo: ¿qué se sospecha y qué se pide?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.0",
+      "pista": "SAF confirmado: ¿con qué se anticoagula?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "TEV venoso en menor de 50: ¿cuándo se piden estudios genético y funcional?"
+    }
+  ]
+}

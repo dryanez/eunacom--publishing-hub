@@ -1,0 +1,490 @@
+{
+  "classId": "reuma-15",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síndrome de Sjögren es una {{c1::exocrinopatía}} autoinmune que destruye glándulas salivales y lagrimales.",
+      "extra": "Infiltrado de linfocitos T CD4+ y B.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Sjögren",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.022"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El Sjögren afecta a mujeres en relación {{c1::9:1}}, sobre todo a los 40-60 años.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Sjögren",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.022"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El Sjögren secundario se asocia más a {{c1::artritis reumatoide}}, LES o esclerodermia.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Sjögren",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.022"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La xeroftalmia del Sjögren se manifiesta como sensación de {{c1::arenilla o cuerpo extraño}}, ardor y fotofobia.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Síndrome sicca",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 126"
+      ],
+      "codigos": [
+        "1.11.1.022"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La xerostomía del Sjögren causa caries {{c1::cervicales}} precoces y candidiasis orofaríngea recurrente.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Kanski, Clinical Ophthalmology, p. 134",
+      "repaso": false,
+      "imagen": "biblioteca/08_reumatologia/reuma-15/10_lengua-seca-sjogren__kanski_p134.jpg",
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 126"
+      ],
+      "codigos": [
+        "1.11.1.022",
+        "6.02.1.024"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Una xerostomía severa obliga a {{c1::beber agua para tragar}} alimentos secos como pan o galletas.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Síndrome sicca",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.022",
+        "6.02.1.024"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el Sjögren hay tumefacción indolora de las glándulas {{c1::parótidas}}, frecuentemente bilateral.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Manual AMIR Reumatología, p. 121",
+      "repaso": false,
+      "imagen": "biblioteca/08_reumatologia/reuma-15/01_parotida-en-sjogren__amir-reuma_p121.jpg",
+      "codigos": [
+        "1.11.1.022",
+        "6.02.1.024"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Manifestación renal del Sjögren: acidosis tubular renal distal tipo {{c1::I}} con hipocalemia y nefrocalcinosis.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Extraglandular",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.022"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En el Sjögren, el fenómeno de Raynaud está presente en el {{c1::30%}}.",
+      "extra": "También artritis no erosiva y neuropatía sensitiva.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Extraglandular",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.022"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El test de Schirmer es patológico si la impregnación del papel es < {{c1::5 mm}} en 5 minutos.",
+      "extra": "Tira de papel filtro en el fondo de saco conjuntival inferior.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "imagen": "_verificadas/224_reuma_Sjögren_y_EMTC__Kanski_p138.jpg",
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 114"
+      ],
+      "codigos": [
+        "1.11.1.022",
+        "6.02.1.024"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Schirmer positivo con hipolacrimia es característico de {{c1::Sjögren}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro · Pregunta AEE",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.022"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La tinción de superficie ocular con {{c1::verde de lisamina o rosa de Bengala}} detecta queratopatía puntiforme.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Kanski, Clinical Ophthalmology, p. 135",
+      "repaso": false,
+      "imagen": "biblioteca/08_reumatologia/reuma-15/11_tincion-rosa-bengala-ojo-seco__kanski_p135.jpg",
+      "codigos": [
+        "1.11.1.022",
+        "6.02.1.024"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El estándar de oro confirmatorio del Sjögren es la {{c1::biopsia de glándula salival menor}} del labio inferior.",
+      "extra": "Sialoadenitis linfocítica focal.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 126"
+      ],
+      "codigos": [
+        "1.11.1.022",
+        "6.02.1.024"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La biopsia labial en Sjögren muestra Focus Score ≥ {{c1::1}} (un foco de ≥ 50 células por 4 mm²).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.022"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El anti-Ro (SSA) es positivo en {{c1::70-80%}} de los Sjögren.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.022",
+        "1.11.4.003"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El anti-La (SSB) es positivo en {{c1::40-50%}} de los Sjögren.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.022",
+        "1.11.4.003"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El factor reumatoide es positivo en más del {{c1::75%}} de los Sjögren primarios.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Autoanticuerpos",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.022"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El Sjögren aumenta {{c1::40 veces}} el riesgo de linfoma no Hodgkin B (MALT).",
+      "extra": "Parótida o estómago.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.022",
+        "6.02.1.024"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Parótida unilateral dura y persistente, adenopatías o esplenomegalia en un Sjögren: sospechar {{c1::linfoma}} y biopsiar.",
+      "extra": "Púrpura palpable e hipocomplementemia (C4 bajo) también alertan.",
+      "origen": "clase:5",
+      "fuente": "Clase · Banderas de linfoma",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.022",
+        "6.02.1.024"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El anti-Ro/La atraviesa la placenta y puede causar lupus neonatal y {{c1::bloqueo cardíaco}} fetal.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Anti-Ro y anti-La",
+      "repaso": false,
+      "codigos": [
+        "1.11.4.003"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La EMTC combina rasgos de lupus, esclerodermia y {{c1::polimiositis}}.",
+      "extra": "También llamada síndrome de Sharp.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.022",
+        "6.02.1.024"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Clínica de la EMTC: Raynaud severo, manos tumefactas ({{c1::dedos en salchicha}}), artritis no erosiva y miositis.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 EMTC",
+      "repaso": false,
+      "codigos": [
+        "1.11.4.003"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El marcador patognomónico de la EMTC es el anticuerpo anti-{{c1::U1-RNP}} a títulos muy altos.",
+      "extra": "Anti-dsDNA y anti-Scl-70 negativos.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.4.003"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El anti-U1-RNP de la EMTC suele superar títulos de {{c1::1:1.000}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla Sjögren vs EMTC",
+      "repaso": false,
+      "codigos": [
+        "1.11.4.003",
+        "1.11.1.022"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Principal causa de muerte en la EMTC: {{c1::hipertensión arterial pulmonar}}.",
+      "extra": "Se tamiza con ecocardiograma Doppler anual.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.11.4.003"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La complicación mayor del Sjögren es el linfoma; la de la EMTC es la {{c1::HTP}}; la del LES es la nefritis lúpica.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.022",
+        "1.11.4.003"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ojo seco acuosodeficiente: Sjögren, menopausia y {{c1::fármacos anticolinérgicos}}.",
+      "extra": "El evaporativo es por disfunción de glándulas de Meibomio, blefaritis o pantallas.",
+      "origen": "clase:7",
+      "fuente": "Clase · Ojo seco",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.022",
+        "6.02.1.024"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Primera línea en ojo seco: lágrimas artificiales {{c1::sin conservantes}}, 4 a 6 veces al día.",
+      "extra": "Gel o ungüento lubricante de noche.",
+      "origen": "clase:7",
+      "fuente": "Clase · Ojo seco",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 114"
+      ],
+      "codigos": [
+        "6.02.1.024"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Si persiste el ojo seco, el oftalmólogo indica ciclosporina tópica {{c1::0,05%}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Ojo seco",
+      "repaso": false,
+      "codigos": [
+        "6.02.1.024"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ojo seco con dolor intenso, fotofobia, baja de visión u ojo rojo unilateral: {{c1::derivar a oftalmología}}.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Ojo seco",
+      "repaso": false,
+      "codigos": [
+        "6.02.1.024",
+        "1.11.1.022"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Sialogogo en xerostomía del Sjögren: pilocarpina {{c1::5 mg cada 8 horas}}.",
+      "extra": "Precaución en asma, glaucoma de ángulo estrecho y bradicardia.",
+      "origen": "clase:8",
+      "fuente": "Clase · Boca seca",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.022",
+        "6.02.1.024"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La candidiasis oral del Sjögren se trata de inmediato con {{c1::nistatina o fluconazol}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Xerostomía",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.022"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-15/01_parotida-en-sjogren__amir-reuma_p121.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Parotidomegalia en Sjögren",
+      "clave": "Aumento de volumen parotídeo indoloro",
+      "conducta": "Schirmer, ANA, anti-Ro/La; si es dura o asimétrica, biopsia por sospecha de linfoma",
+      "fuente": "Manual AMIR Reumatología, p. 121",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.022",
+        "1.11.4.003"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0.1",
+      "pista": "Sicca con Schirmer dudoso y anticuerpos negativos: ¿qué sigue?",
+      "codigos": [
+        "1.11.1.022"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.0",
+      "pista": "Raynaud, puffy fingers y anti-U1-RNP alto: ¿diagnóstico y tamizaje?",
+      "codigos": [
+        "1.11.4.003"
+      ]
+    }
+  ]
+}

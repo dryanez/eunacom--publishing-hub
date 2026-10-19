@@ -1,0 +1,1490 @@
+{
+ "_doc": "Glosario clicable del mazo Anki (popover en el reverso). 'def' se escribe a mano desde el libro (sin cifras nuevas) y se conserva al regenerar; pagina/clase/t/url los recalcula conceptos.py. Términos y alias: books/scripts/anki/vocab_*.txt.",
+ "libro": "urologia",
+ "pdf": "books/dist/Modulo_2_Cirugia/Tomo_13_Urologia_Completo_2026.pdf",
+ "terminos": {
+  "Hidrocele": {
+   "termino": "Hidrocele",
+   "tipo": "Concepto",
+   "alias": [
+    "hidrocele",
+    "hidroceles"
+   ],
+   "def": "Líquido seroso entre las hojas de la túnica vaginal; masa lisa que engloba el testículo y transilumina. En el niño es comunicante. Se observa o se opera si molesta; nunca se punciona.",
+   "pagina": 32,
+   "clase": "uro-07",
+   "claseTitulo": "13.7 Patología Escrotal No Dolorosa: Varicocele, Hidrocele, Espermatocele & Quistes",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Espermatocele": {
+   "termino": "Espermatocele",
+   "tipo": "Concepto",
+   "alias": [
+    "espermatocele"
+   ],
+   "def": "Quiste de la cabeza del epidídimo con líquido lechoso y espermatozoides; transilumina. Se observa con control ecográfico y se reseca solo si duele.",
+   "pagina": 32,
+   "clase": "uro-07",
+   "claseTitulo": "13.7 Patología Escrotal No Dolorosa: Varicocele, Hidrocele, Espermatocele & Quistes",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Varicocele": {
+   "termino": "Varicocele",
+   "tipo": "Concepto",
+   "alias": [
+    "varicocele"
+   ],
+   "def": "Dilatación del plexo pampiniforme («bolsa de gusanos»), izquierdo en 85-90%. Causa tratable de infertilidad. Derecho o que no colapsa en decúbito: bandera roja, pedir TAC.",
+   "pagina": 32,
+   "clase": "uro-07",
+   "claseTitulo": "13.7 Patología Escrotal No Dolorosa: Varicocele, Hidrocele, Espermatocele & Quistes",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Plexo_pampiniforme": {
+   "termino": "Plexo pampiniforme",
+   "tipo": "Concepto",
+   "alias": [
+    "pampiniforme"
+   ],
+   "def": "Red venosa del cordón espermático que drena el testículo; su dilatación es el varicocele. La vena espermática izquierda drena en ángulo recto en la vena renal.",
+   "pagina": 32,
+   "clase": "uro-07",
+   "claseTitulo": "13.7 Patología Escrotal No Dolorosa: Varicocele, Hidrocele, Espermatocele & Quistes",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Criptorquidia": {
+   "termino": "Criptorquidia",
+   "tipo": "Concepto",
+   "alias": [
+    "criptorquidia"
+   ],
+   "def": "Testículo no descendido (1-3% de los recién nacidos de término). Orquidopexia entre los 6 y 12 meses. Aumenta 4 a 10 veces el riesgo de cáncer testicular, aun operada.",
+   "pagina": 52,
+   "clase": "uro-10",
+   "claseTitulo": "13.10 Cáncer de Testículo: Masas Indoloras, Marcadores (AFP, b-hCG, LDH) & Orquiectomía Radical",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Orquidopexia": {
+   "termino": "Orquidopexia",
+   "tipo": "Concepto",
+   "alias": [
+    "orquidopexia"
+   ],
+   "def": "Fijación quirúrgica del testículo al escroto. En criptorquidia se hace entre los 6 y 12 meses de vida (máximo 18); en torsión, bilateral para prevenir recurrencia.",
+   "pagina": 26,
+   "clase": "uro-05",
+   "claseTitulo": "13.5 Torsión Testicular vs Torsión de Hidátide: Doppler Testicular & Exploración Quirúrgica <6h",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Transiluminacion": {
+   "termino": "Transiluminación",
+   "tipo": "Concepto",
+   "alias": [
+    "transiluminación"
+   ],
+   "def": "Se ilumina el escroto con una linterna: positiva en contenido líquido seroso (hidrocele, espermatocele); los tumores sólidos, hematoceles y vasos no transiluminan.",
+   "pagina": 32,
+   "clase": "uro-07",
+   "claseTitulo": "13.7 Patología Escrotal No Dolorosa: Varicocele, Hidrocele, Espermatocele & Quistes",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-07&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Cancer_de_prostata": {
+   "termino": "Cáncer de próstata",
+   "tipo": "Concepto",
+   "alias": [
+    "cáncer de próstata",
+    "adenocarcinoma prostático"
+   ],
+   "def": "Adenocarcinoma de la zona periférica (75%), asintomático al inicio. Se sospecha con APE y tacto rectal; se confirma con biopsia. Tratamiento según riesgo; GES N.º 19.",
+   "pagina": 44,
+   "clase": "uro-08",
+   "claseTitulo": "13.8 Cáncer de Próstata: Tamizaje APE, Tacto Rectal, Biopsia y Score de Gleason",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Antigeno_prostatico_especifico": {
+   "termino": "Antígeno prostático específico",
+   "tipo": "Examen",
+   "alias": [
+    "APE",
+    "PSA",
+    "antígeno prostático"
+   ],
+   "def": "Proteasa que licúa el semen; órgano-específica, no cáncer-específica. Corte clásico 4 ng/mL. En la zona gris (4-10) se pide APE libre/total: menor de 15% sugiere cáncer.",
+   "pagina": 44,
+   "clase": "uro-08",
+   "claseTitulo": "13.8 Cáncer de Próstata: Tamizaje APE, Tacto Rectal, Biopsia y Score de Gleason",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 28
+  },
+  "Tacto_rectal": {
+   "termino": "Tacto rectal",
+   "tipo": "Signo",
+   "alias": [
+    "tacto rectal"
+   ],
+   "def": "Palpación prostática: lisa y simétrica es normal. Un nódulo pétreo o asimetría obliga a biopsia aunque el APE sea normal. Contraindicado el masaje en prostatitis aguda.",
+   "pagina": 14,
+   "clase": "uro-03",
+   "claseTitulo": "13.3 Hiperplasia Prostática Benigna (HPB): IPSS, Tacto Rectal, Tamsulosina/Finasteride & RTUP",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Biopsia_prostatica": {
+   "termino": "Biopsia prostática",
+   "tipo": "Examen",
+   "alias": [
+    "biopsia prostática"
+   ],
+   "def": "Única confirmación del cáncer: transrectal guiada por ecografía o fusión con RM, 10-12 cilindros con profilaxis antibiótica. GES: dentro de 30 días desde la sospecha.",
+   "pagina": 44,
+   "clase": "uro-08",
+   "claseTitulo": "13.8 Cáncer de Próstata: Tamizaje APE, Tacto Rectal, Biopsia y Score de Gleason",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Score_de_Gleason": {
+   "termino": "Score de Gleason",
+   "tipo": "Concepto",
+   "alias": [
+    "Gleason"
+   ],
+   "def": "Suma de los dos patrones histológicos predominantes (1 a 5); el primero es el más abundante. Gleason 4+3 tiene peor pronóstico que 3+4, aunque ambos suman 7.",
+   "pagina": 44,
+   "clase": "uro-08",
+   "claseTitulo": "13.8 Cáncer de Próstata: Tamizaje APE, Tacto Rectal, Biopsia y Score de Gleason",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Grupos_ISUP": {
+   "termino": "Grupos ISUP",
+   "tipo": "Concepto",
+   "alias": [
+    "ISUP"
+   ],
+   "def": "Grado 1: Gleason ≤ 6; 2: 3+4; 3: 4+3; 4: Gleason 8; 5: Gleason 9 y 10. Cuanto mayor el grupo, peor el pronóstico.",
+   "pagina": 45,
+   "clase": "uro-08",
+   "claseTitulo": "13.8 Cáncer de Próstata: Tamizaje APE, Tacto Rectal, Biopsia y Score de Gleason",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Vigilancia_activa": {
+   "termino": "Vigilancia activa",
+   "tipo": "Concepto",
+   "alias": [
+    "vigilancia activa"
+   ],
+   "def": "Estándar en bajo riesgo (Gleason 6, APE menor de 10, T1c-T2a): APE cada 3 a 6 meses, tacto semestral y rebiopsia; se trata solo si progresa. También en adultos mayores con tumor mínimo.",
+   "pagina": 49,
+   "clase": "uro-09",
+   "claseTitulo": "13.9 Cáncer de Próstata: Tratamiento según Riesgo (Cirugía, Radioterapia, Hormonoterapia)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Prostatectomia_radical": {
+   "termino": "Prostatectomía radical",
+   "tipo": "Concepto",
+   "alias": [
+    "prostatectomía radical"
+   ],
+   "def": "Extirpa próstata, vesículas seminales y ganglios. Curativa en riesgo intermedio y alto con más de 10 años de vida. Secuelas: disfunción eréctil e incontinencia de esfuerzo.",
+   "pagina": 49,
+   "clase": "uro-09",
+   "claseTitulo": "13.9 Cáncer de Próstata: Tratamiento según Riesgo (Cirugía, Radioterapia, Hormonoterapia)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Terapia_de_deprivacion_androgenica": {
+   "termino": "Terapia de deprivación androgénica",
+   "tipo": "Concepto",
+   "alias": [
+    "deprivación androgénica",
+    "TDA"
+   ],
+   "def": "Pilar del cáncer de próstata metastásico: baja la testosterona a menos de 50 ng/dL con orquiectomía o agonistas GnRH. Efectos: sofocos, osteoporosis y baja de libido.",
+   "pagina": 49,
+   "clase": "uro-09",
+   "claseTitulo": "13.9 Cáncer de Próstata: Tratamiento según Riesgo (Cirugía, Radioterapia, Hormonoterapia)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Leuprolide": {
+   "termino": "Leuprolide",
+   "tipo": "Farmaco",
+   "alias": [
+    "leuprolide"
+   ],
+   "def": "Agonista de GnRH/LHRH para castración médica. Causa un brote inicial de testosterona (flare up) los primeros 7-14 días; se previene con bicalutamida.",
+   "pagina": 50,
+   "clase": "uro-09",
+   "claseTitulo": "13.9 Cáncer de Próstata: Tratamiento según Riesgo (Cirugía, Radioterapia, Hormonoterapia)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Bicalutamida": {
+   "termino": "Bicalutamida",
+   "tipo": "Farmaco",
+   "alias": [
+    "bicalutamida"
+   ],
+   "def": "Antiandrógeno periférico. Se da junto al inicio de un agonista GnRH para evitar el flare up y la compresión medular en metástasis vertebrales.",
+   "pagina": 49,
+   "clase": "uro-09",
+   "claseTitulo": "13.9 Cáncer de Próstata: Tratamiento según Riesgo (Cirugía, Radioterapia, Hormonoterapia)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Degarelix": {
+   "termino": "Degarelix",
+   "tipo": "Farmaco",
+   "alias": [
+    "degarelix"
+   ],
+   "def": "Antagonista puro de GnRH: suprime la testosterona de inmediato, sin efecto flare up. Alternativa en castración médica del cáncer de próstata.",
+   "pagina": 49,
+   "clase": "uro-09",
+   "claseTitulo": "13.9 Cáncer de Próstata: Tratamiento según Riesgo (Cirugía, Radioterapia, Hormonoterapia)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Flare_up": {
+   "termino": "Flare up",
+   "tipo": "Concepto",
+   "alias": [
+    "flare up",
+    "flare"
+   ],
+   "def": "Brote transitorio de LH y testosterona al iniciar un agonista GnRH (7-14 días). Puede empeorar el dolor óseo o comprimir la médula; se bloquea con bicalutamida.",
+   "pagina": 49,
+   "clase": "uro-09",
+   "claseTitulo": "13.9 Cáncer de Próstata: Tratamiento según Riesgo (Cirugía, Radioterapia, Hormonoterapia)",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-09&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Cintigrafia_osea": {
+   "termino": "Cintigrafía ósea",
+   "tipo": "Examen",
+   "alias": [
+    "cintigrafía ósea",
+    "cintigrama óseo"
+   ],
+   "def": "Con tecnecio-99m detecta metástasis osteoblásticas (focos hipercaptantes en columna, pelvis y costillas). Se pide en riesgo alto: APE sobre 20 o Gleason 8 o más. Poco específica.",
+   "pagina": 47,
+   "clase": "uro-08",
+   "claseTitulo": "13.8 Cáncer de Próstata: Tamizaje APE, Tacto Rectal, Biopsia y Score de Gleason",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-08&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Tumor_germinal_testicular": {
+   "termino": "Tumor germinal testicular",
+   "tipo": "Concepto",
+   "alias": [
+    "tumor germinal",
+    "células germinales"
+   ],
+   "def": "Más del 95% de los tumores testiculares: seminoma (50-55%) y no seminomas. Pico entre 20 y 35 años; la criptorquidia es el principal riesgo. Curación sobre 95%.",
+   "pagina": 52,
+   "clase": "uro-10",
+   "claseTitulo": "13.10 Cáncer de Testículo: Masas Indoloras, Marcadores (AFP, b-hCG, LDH) & Orquiectomía Radical",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Seminoma": {
+   "termino": "Seminoma",
+   "tipo": "Concepto",
+   "alias": [
+    "seminoma"
+   ],
+   "def": "Tumor germinal radiosensible; AFP siempre normal y b-hCG elevada en 15-20%. Si el «seminoma» tiene AFP elevada, se trata como no seminoma.",
+   "pagina": 52,
+   "clase": "uro-10",
+   "claseTitulo": "13.10 Cáncer de Testículo: Masas Indoloras, Marcadores (AFP, b-hCG, LDH) & Orquiectomía Radical",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Alfafetoproteina": {
+   "termino": "Alfafetoproteína",
+   "tipo": "Concepto",
+   "alias": [
+    "AFP",
+    "alfafetoproteína"
+   ],
+   "def": "Marcador del saco vitelino y carcinoma embrionario; vida media 5-7 días. El seminoma puro nunca la eleva. Se mide antes de la orquiectomía.",
+   "pagina": 52,
+   "clase": "uro-10",
+   "claseTitulo": "13.10 Cáncer de Testículo: Masas Indoloras, Marcadores (AFP, b-hCG, LDH) & Orquiectomía Radical",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Gonadotrofina_corionica": {
+   "termino": "Gonadotrofina coriónica",
+   "tipo": "Concepto",
+   "alias": [
+    "b-hCG",
+    "beta-hCG"
+   ],
+   "def": "Fracción beta (b-hCG), vida media de 24-36 horas; masiva en el coriocarcinoma y elevada en 15-20% de los seminomas. Se mide antes de operar.",
+   "pagina": 52,
+   "clase": "uro-10",
+   "claseTitulo": "13.10 Cáncer de Testículo: Masas Indoloras, Marcadores (AFP, b-hCG, LDH) & Orquiectomía Radical",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Orquiectomia_inguinal_radical": {
+   "termino": "Orquiectomía inguinal radical",
+   "tipo": "Concepto",
+   "alias": [
+    "orquiectomía"
+   ],
+   "def": "Cirugía diagnóstica y terapéutica del tumor testicular por vía inguinal con clampeo alto del cordón. La punción o vía escrotal están prohibidas por diseminación a ganglios inguinales.",
+   "pagina": 52,
+   "clase": "uro-10",
+   "claseTitulo": "13.10 Cáncer de Testículo: Masas Indoloras, Marcadores (AFP, b-hCG, LDH) & Orquiectomía Radical",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Esquema_BEP": {
+   "termino": "Esquema BEP",
+   "tipo": "Concepto",
+   "alias": [
+    "BEP"
+   ],
+   "def": "Quimioterapia con bleomicina, etopósido y cisplatino para no seminomas avanzados (y seminomas en estadio II-III). Ofrecer criopreservación de semen antes.",
+   "pagina": 53,
+   "clase": "uro-10",
+   "claseTitulo": "13.10 Cáncer de Testículo: Masas Indoloras, Marcadores (AFP, b-hCG, LDH) & Orquiectomía Radical",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-10&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Carcinoma_de_celulas_renales": {
+   "termino": "Carcinoma de células renales",
+   "tipo": "Concepto",
+   "alias": [
+    "carcinoma de células renales",
+    "cáncer renal",
+    "CCR"
+   ],
+   "def": "Neoplasia renal más común; 80-85% de células claras (gen VHL). Hoy incidentaloma en más del 65%. Se estudia con TAC trifásico; T1: nefrectomía parcial. GES N.º 76.",
+   "pagina": 57,
+   "clase": "uro-11",
+   "claseTitulo": "13.11 Cáncer Renal: Carcinoma de Células Claras, Tríada Clásica, TAC y Nefrectomía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Triada_de_Guyon": {
+   "termino": "Tríada de Guyon",
+   "tipo": "Concepto",
+   "alias": [
+    "Guyon"
+   ],
+   "def": "Dolor en flanco, hematuria macroscópica y masa palpable en el cáncer renal; solo 5-10% la presenta y denota enfermedad avanzada.",
+   "pagina": 57,
+   "clase": "uro-11",
+   "claseTitulo": "13.11 Cáncer Renal: Carcinoma de Células Claras, Tríada Clásica, TAC y Nefrectomía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Sindrome_de_Stauffer": {
+   "termino": "Síndrome de Stauffer",
+   "tipo": "Concepto",
+   "alias": [
+    "Stauffer"
+   ],
+   "def": "Paraneoplásico del cáncer renal: disfunción hepática colestásica sin metástasis, con fosfatasas alcalinas elevadas; revierte al extirpar el tumor.",
+   "pagina": 57,
+   "clase": "uro-11",
+   "claseTitulo": "13.11 Cáncer Renal: Carcinoma de Células Claras, Tríada Clásica, TAC y Nefrectomía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 1
+  },
+  "TAC_trifasico": {
+   "termino": "TAC trifásico",
+   "tipo": "Examen",
+   "alias": [
+    "TAC trifásico",
+    "trifásico"
+   ],
+   "def": "TAC de abdomen y pelvis con contraste en varias fases. Un realce mayor de 15-20 UH respecto a la fase simple indica malignidad de una masa renal; evita la biopsia.",
+   "pagina": 57,
+   "clase": "uro-11",
+   "claseTitulo": "13.11 Cáncer Renal: Carcinoma de Células Claras, Tríada Clásica, TAC y Nefrectomía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Nefrectomia_parcial": {
+   "termino": "Nefrectomía parcial",
+   "tipo": "Concepto",
+   "alias": [
+    "nefrectomía parcial"
+   ],
+   "def": "Reseca el tumor con margen sano y preserva el riñón. Estándar en tumores T1 (hasta 4 cm, idealmente 7), con igual sobrevida oncológica que la radical.",
+   "pagina": 57,
+   "clase": "uro-11",
+   "claseTitulo": "13.11 Cáncer Renal: Carcinoma de Células Claras, Tríada Clásica, TAC y Nefrectomía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Nefrectomia_radical": {
+   "termino": "Nefrectomía radical",
+   "tipo": "Concepto",
+   "alias": [
+    "nefrectomía radical"
+   ],
+   "def": "Extirpa el riñón en bloque dentro de la fascia de Gerota. Se reserva para tumores grandes (mayores de 7 cm), centrales o que infiltran el hilio.",
+   "pagina": 57,
+   "clase": "uro-11",
+   "claseTitulo": "13.11 Cáncer Renal: Carcinoma de Células Claras, Tríada Clásica, TAC y Nefrectomía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Angiomiolipoma": {
+   "termino": "Angiomiolipoma",
+   "tipo": "Concepto",
+   "alias": [
+    "angiomiolipoma"
+   ],
+   "def": "Tumor renal benigno con grasa macroscópica en el TAC; se asocia a esclerosis tuberosa y puede sangrar masivamente si mide más de 4 cm.",
+   "pagina": 57,
+   "clase": "uro-11",
+   "claseTitulo": "13.11 Cáncer Renal: Carcinoma de Células Claras, Tríada Clásica, TAC y Nefrectomía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Tumor_de_Wilms": {
+   "termino": "Tumor de Wilms",
+   "tipo": "Concepto",
+   "alias": [
+    "Wilms"
+   ],
+   "def": "Nefroblastoma: masa renal sólida del niño, con hematuria y masa en el flanco. Tumor renal pediátrico más frecuente; no se biopsia ni se palpa repetidamente.",
+   "pagina": 57,
+   "clase": "uro-11",
+   "claseTitulo": "13.11 Cáncer Renal: Carcinoma de Células Claras, Tríada Clásica, TAC y Nefrectomía",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-11&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Carcinoma_urotelial": {
+   "termino": "Carcinoma urotelial",
+   "tipo": "Concepto",
+   "alias": [
+    "carcinoma urotelial",
+    "urotelial"
+   ],
+   "def": "Más del 90-95% de los cánceres de vejiga. Principal riesgo: tabaco (3 a 4 veces). Se presenta con hematuria macroscópica indolora con coágulos.",
+   "pagina": 61,
+   "clase": "uro-12",
+   "claseTitulo": "13.12 Cáncer de Vejiga: Hematuria Macroscópica Silente, Cistoscopía & RTUV",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Cistoscopia": {
+   "termino": "Cistoscopía",
+   "tipo": "Examen",
+   "alias": [
+    "cistoscopía"
+   ],
+   "def": "Visualiza directamente la mucosa vesical. Examen de elección ante hematuria indolora en fumador, aunque el TAC sea normal; permite resección en el mismo acto.",
+   "pagina": 61,
+   "clase": "uro-12",
+   "claseTitulo": "13.12 Cáncer de Vejiga: Hematuria Macroscópica Silente, Cistoscopía & RTUV",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 10
+  },
+  "Reseccion_transuretral_de_vejiga": {
+   "termino": "Resección transuretral de vejiga",
+   "tipo": "Examen",
+   "alias": [
+    "RTUV",
+    "resección transuretral"
+   ],
+   "def": "RTUV: resección del tumor vesical hasta el músculo detrusor; diagnóstica y terapéutica. El patólogo debe certificar detrusor para definir la invasión.",
+   "pagina": 61,
+   "clase": "uro-12",
+   "claseTitulo": "13.12 Cáncer de Vejiga: Hematuria Macroscópica Silente, Cistoscopía & RTUV",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 5
+  },
+  "BCG_intravesical": {
+   "termino": "BCG intravesical",
+   "tipo": "Farmaco",
+   "alias": [
+    "BCG"
+   ],
+   "def": "Instilaciones de bacilo de Calmette-Guérin tras la RTUV en cáncer de vejiga no músculo invasivo (Ta, T1, Tis) para reducir la recidiva y progresión.",
+   "pagina": 61,
+   "clase": "uro-12",
+   "claseTitulo": "13.12 Cáncer de Vejiga: Hematuria Macroscópica Silente, Cistoscopía & RTUV",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Cistectomia_radical": {
+   "termino": "Cistectomía radical",
+   "tipo": "Concepto",
+   "alias": [
+    "cistectomía radical"
+   ],
+   "def": "Tratamiento del cáncer de vejiga músculo invasivo (T2 o más), con cisplatino neoadyuvante y derivación urinaria (Bricker o neovejiga). GES N.º 69.",
+   "pagina": 61,
+   "clase": "uro-12",
+   "claseTitulo": "13.12 Cáncer de Vejiga: Hematuria Macroscópica Silente, Cistoscopía & RTUV",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-12&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Prostatitis_aguda": {
+   "termino": "Prostatitis aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "prostatitis aguda",
+    "prostatitis"
+   ],
+   "def": "Infección grave por E. coli: fiebre, dolor perineal, disuria y próstata caliente y dolorosa. Sin masaje prostático. Ciprofloxacino de 3 a 4 semanas; retención: cistostomía.",
+   "pagina": 67,
+   "clase": "uro-13",
+   "claseTitulo": "13.13 Prostatitis Aguda y Crónica: Peligro de Sepsis, Antibióticos Prolongados & Prostatodinia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 14
+  },
+  "Masaje_prostatico": {
+   "termino": "Masaje prostático",
+   "tipo": "Signo",
+   "alias": [
+    "masaje prostático"
+   ],
+   "def": "Contraindicado en la prostatitis aguda: puede causar bacteriemia y shock séptico. Solo se usa en la crónica (test de Meares-Stamey).",
+   "pagina": 67,
+   "clase": "uro-13",
+   "claseTitulo": "13.13 Prostatitis Aguda y Crónica: Peligro de Sepsis, Antibióticos Prolongados & Prostatodinia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Cistostomia_suprapubica": {
+   "termino": "Cistostomía suprapúbica",
+   "tipo": "Concepto",
+   "alias": [
+    "cistostomía suprapúbica"
+   ],
+   "def": "Drenaje de la vejiga por punción suprapúbica. Se usa en retención con contraindicación o falla de la sonda: trauma uretral o prostatitis aguda.",
+   "pagina": 10,
+   "clase": "uro-02",
+   "claseTitulo": "13.2 Uropatía Obstructiva Aguda y Retención Urinaria: Sonda Foley vs Cistostomía",
+   "diapositiva": 13,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-02&t=639&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Ciprofloxacino": {
+   "termino": "Ciprofloxacino",
+   "tipo": "Farmaco",
+   "alias": [
+    "ciprofloxacino"
+   ],
+   "def": "Fluoroquinolona de elección en prostatitis por su liposolubilidad: 500 mg cada 12 horas por 3 a 4 semanas en la aguda y 6 a 12 en la crónica.",
+   "pagina": 67,
+   "clase": "uro-13",
+   "claseTitulo": "13.13 Prostatitis Aguda y Crónica: Peligro de Sepsis, Antibióticos Prolongados & Prostatodinia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Prostatodinia": {
+   "termino": "Prostatodinia",
+   "tipo": "Concepto",
+   "alias": [
+    "prostatodinia",
+    "dolor pélvico crónico"
+   ],
+   "def": "Síndrome de dolor pélvico crónico (categoría III) con más de 3 meses y cultivos estériles. Se trata con pregabalina y fisioterapia del piso pélvico, no con antibióticos.",
+   "pagina": 67,
+   "clase": "uro-13",
+   "claseTitulo": "13.13 Prostatitis Aguda y Crónica: Peligro de Sepsis, Antibióticos Prolongados & Prostatodinia",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-13&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Quiste_renal_simple": {
+   "termino": "Quiste renal simple",
+   "tipo": "Concepto",
+   "alias": [
+    "quiste simple",
+    "quistes simples"
+   ],
+   "def": "Dilatación adquirida y benigna, presente en más del 50% sobre 50 años. Anecogénico, de pared imperceptible y con refuerzo posterior: se da el alta sin control.",
+   "pagina": 70,
+   "clase": "uro-14",
+   "claseTitulo": "13.14 Quistes Renales Simples (Bosniak) & Riñón Poliquístico Autosómico Dominante",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Clasificacion_de_Bosniak": {
+   "termino": "Clasificación de Bosniak",
+   "tipo": "Concepto",
+   "alias": [
+    "Bosniak"
+   ],
+   "def": "Escala por TAC: I y II benignos sin control; IIF (5%) TAC a los 6 y 12 meses; III (50-60%) y IV (85-100%) se operan.",
+   "pagina": 70,
+   "clase": "uro-14",
+   "claseTitulo": "13.14 Quistes Renales Simples (Bosniak) & Riñón Poliquístico Autosómico Dominante",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Poliquistosis_renal_autosomica_dominante": {
+   "termino": "Poliquistosis renal autosómica dominante",
+   "tipo": "Concepto",
+   "alias": [
+    "PQRAD",
+    "poliquistosis"
+   ],
+   "def": "Hereditaria por PKD1 (85%, más severa) o PKD2. HTA precoz, nefromegalia, quistes hepáticos y falla renal. Control de PA con IECA o ARA-II.",
+   "pagina": 70,
+   "clase": "uro-14",
+   "claseTitulo": "13.14 Quistes Renales Simples (Bosniak) & Riñón Poliquístico Autosómico Dominante",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Aneurisma_de_Berry": {
+   "termino": "Aneurisma de Berry",
+   "tipo": "Concepto",
+   "alias": [
+    "aneurisma de Berry",
+    "aneurismas saculares"
+   ],
+   "def": "Aneurisma sacular del polígono de Willis en 8-10% de la poliquistosis renal. Su rotura causa hemorragia subaracnoidea: cefalea súbita, TAC de cerebro urgente.",
+   "pagina": 70,
+   "clase": "uro-14",
+   "claseTitulo": "13.14 Quistes Renales Simples (Bosniak) & Riñón Poliquístico Autosómico Dominante",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-14&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Hematuria": {
+   "termino": "Hematuria",
+   "tipo": "Concepto",
+   "alias": [
+    "hematuria"
+   ],
+   "def": "Microscópica: 3 o más eritrocitos por campo en 2 de 3 sedimentos. La tira positiva se confirma con sedimento. Distinguir origen glomerular de urológico.",
+   "pagina": 74,
+   "clase": "uro-15",
+   "claseTitulo": "13.15 Estudio Sistemático de la Hematuria: Glomerular vs Urológica & Banderas Rojas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 26
+  },
+  "Hematuria_glomerular": {
+   "termino": "Hematuria glomerular",
+   "tipo": "Concepto",
+   "alias": [
+    "glomerular"
+   ],
+   "def": "Orina color té o coca-cola, sin coágulos, con hematíes dismórficos sobre 80%, acantocitos sobre 5%, cilindros hemáticos y proteinuria. Se deriva a nefrología.",
+   "pagina": 74,
+   "clase": "uro-15",
+   "claseTitulo": "13.15 Estudio Sistemático de la Hematuria: Glomerular vs Urológica & Banderas Rojas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Hematies_dismorficos": {
+   "termino": "Hematíes dismórficos",
+   "tipo": "Signo",
+   "alias": [
+    "dismórficos",
+    "acantocitos"
+   ],
+   "def": "Glóbulos rojos deformados del sedimento (acantocitos si son más del 5%); indican sangrado glomerular. Los isomórficos sugieren origen urológico.",
+   "pagina": 74,
+   "clase": "uro-15",
+   "claseTitulo": "13.15 Estudio Sistemático de la Hematuria: Glomerular vs Urológica & Banderas Rojas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Cilindro_hematico": {
+   "termino": "Cilindro hemático",
+   "tipo": "Signo",
+   "alias": [
+    "cilindro hemático",
+    "cilindros hemáticos"
+   ],
+   "def": "Cilindro de glóbulos rojos en el sedimento; patognomónico de hematuria glomerular, que se deriva a nefrología y no a urología.",
+   "pagina": 74,
+   "clase": "uro-15",
+   "claseTitulo": "13.15 Estudio Sistemático de la Hematuria: Glomerular vs Urológica & Banderas Rojas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Sindrome_nefritico": {
+   "termino": "Síndrome nefrítico",
+   "tipo": "Concepto",
+   "alias": [
+    "síndrome nefrítico",
+    "nefrítico"
+   ],
+   "def": "Expresión clínica de la hematuria glomerular: hematuria dismórfica, HTA, edema, oliguria y creatinina elevada. Causas: glomerulonefritis postestreptocócica, IgA, lupus y ANCA.",
+   "pagina": 74,
+   "clase": "uro-15",
+   "claseTitulo": "13.15 Estudio Sistemático de la Hematuria: Glomerular vs Urológica & Banderas Rojas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Nefropatia_por_IgA": {
+   "termino": "Nefropatía por IgA",
+   "tipo": "Concepto",
+   "alias": [
+    "IgA"
+   ],
+   "def": "Hematuria 1 a 3 días después de una infección respiratoria, con complemento normal. A diferencia de la postestreptocócica, no tiene C3 bajo.",
+   "pagina": 74,
+   "clase": "uro-15",
+   "claseTitulo": "13.15 Estudio Sistemático de la Hematuria: Glomerular vs Urológica & Banderas Rojas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Hematuria_masiva": {
+   "termino": "Hematuria masiva",
+   "tipo": "Concepto",
+   "alias": [
+    "hematuria masiva"
+   ],
+   "def": "Sangrado con coágulos que causa inestabilidad, anemia o retención. Sonda Foley de 3 vías de 20-24 Fr, lavado manual e irrigación continua; luego cistoscopía y uro-TAC.",
+   "pagina": 74,
+   "clase": "uro-15",
+   "claseTitulo": "13.15 Estudio Sistemático de la Hematuria: Glomerular vs Urológica & Banderas Rojas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Uro_TAC": {
+   "termino": "Uro-TAC",
+   "tipo": "Concepto",
+   "alias": [
+    "uro-TAC",
+    "uroTAC"
+   ],
+   "def": "TAC con fase excretora para evaluar parénquima renal y urotelio superior. Parte del estudio de la hematuria urológica; en cólico se usa pielo-TAC sin contraste.",
+   "pagina": 74,
+   "clase": "uro-15",
+   "claseTitulo": "13.15 Estudio Sistemático de la Hematuria: Glomerular vs Urológica & Banderas Rojas",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-15&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Fimosis": {
+   "termino": "Fimosis",
+   "tipo": "Concepto",
+   "alias": [
+    "fimosis"
+   ],
+   "def": "Imposibilidad de retraer el prepucio. Fisiológica en el niño (observar); sintomática: betametasona tópica 4 a 8 semanas; cicatricial o liquen: circuncisión.",
+   "pagina": 36,
+   "clase": "uro-16",
+   "claseTitulo": "13.16 Patología Peneana: Fimosis, Parafimosis, Balanopostitis, Priapismo & Disfunción Eréctil",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Parafimosis": {
+   "termino": "Parafimosis",
+   "tipo": "Concepto",
+   "alias": [
+    "parafimosis"
+   ],
+   "def": "Prepucio retraído atrapado con anillo constrictor y glande edematoso: urgencia. Analgesia, compresión y reducción manual; si falla, incisión dorsal.",
+   "pagina": 36,
+   "clase": "uro-16",
+   "claseTitulo": "13.16 Patología Peneana: Fimosis, Parafimosis, Balanopostitis, Priapismo & Disfunción Eréctil",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Balanopostitis": {
+   "termino": "Balanopostitis",
+   "tipo": "Concepto",
+   "alias": [
+    "balanopostitis",
+    "balanitis"
+   ],
+   "def": "Inflamación de glande y prepucio, sin fiebre. En el adulto suele ser candidiásica: clotrimazol 7 a 14 días y glicemia. Sin respuesta en 4 a 6 semanas: biopsia.",
+   "pagina": 36,
+   "clase": "uro-16",
+   "claseTitulo": "13.16 Patología Peneana: Fimosis, Parafimosis, Balanopostitis, Priapismo & Disfunción Eréctil",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Priapismo": {
+   "termino": "Priapismo",
+   "tipo": "Concepto",
+   "alias": [
+    "priapismo"
+   ],
+   "def": "Erección de más de 4 horas sin estímulo sexual. Isquémico (95%): doloroso, urgencia; no isquémico: tras trauma perineal, indoloro, se observa.",
+   "pagina": 36,
+   "clase": "uro-16",
+   "claseTitulo": "13.16 Patología Peneana: Fimosis, Parafimosis, Balanopostitis, Priapismo & Disfunción Eréctil",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Priapismo_isquemico": {
+   "termino": "Priapismo isquémico",
+   "tipo": "Concepto",
+   "alias": [
+    "isquémico"
+   ],
+   "def": "Doloroso, cuerpos cavernosos rígidos y glande blando, sangre oscura y acidótica. Aspiración y fenilefrina intracavernosa; el hielo no sirve. Fibrosis tras 24 horas.",
+   "pagina": 36,
+   "clase": "uro-16",
+   "claseTitulo": "13.16 Patología Peneana: Fimosis, Parafimosis, Balanopostitis, Priapismo & Disfunción Eréctil",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Fenilefrina": {
+   "termino": "Fenilefrina",
+   "tipo": "Farmaco",
+   "alias": [
+    "fenilefrina"
+   ],
+   "def": "Agonista alfa-1 puro intracavernoso: 200 µg cada 3 a 5 minutos hasta 1 mg en una hora, con monitoreo de PA y FC. Primera medida en el priapismo isquémico.",
+   "pagina": 36,
+   "clase": "uro-16",
+   "claseTitulo": "13.16 Patología Peneana: Fimosis, Parafimosis, Balanopostitis, Priapismo & Disfunción Eréctil",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Disfuncion_erectil": {
+   "termino": "Disfunción eréctil",
+   "tipo": "Concepto",
+   "alias": [
+    "disfunción eréctil"
+   ],
+   "def": "Incapacidad persistente de al menos 3 meses. Causa orgánica más frecuente: vascular, y precede en 2 a 5 años a la enfermedad coronaria. Primera línea: iPDE5.",
+   "pagina": 36,
+   "clase": "uro-16",
+   "claseTitulo": "13.16 Patología Peneana: Fimosis, Parafimosis, Balanopostitis, Priapismo & Disfunción Eréctil",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 7
+  },
+  "Inhibidores_de_la_fosfodiesterasa_5": {
+   "termino": "Inhibidores de la fosfodiesterasa 5",
+   "tipo": "Farmaco",
+   "alias": [
+    "iPDE5",
+    "sildenafil",
+    "tadalafil"
+   ],
+   "def": "Sildenafil 50 mg una hora antes o tadalafil 10-20 mg a demanda. Contraindicados con nitratos (24 h tras sildenafil, 48 h tras tadalafil).",
+   "pagina": 39,
+   "clase": "uro-16",
+   "claseTitulo": "13.16 Patología Peneana: Fimosis, Parafimosis, Balanopostitis, Priapismo & Disfunción Eréctil",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Nitratos": {
+   "termino": "Nitratos",
+   "tipo": "Farmaco",
+   "alias": [
+    "nitratos",
+    "nitroglicerina"
+   ],
+   "def": "Nitroglicerina e isosorbide: contraindicación absoluta con iPDE5 por hipotensión grave. No se dan 24 horas tras sildenafil ni 48 horas tras tadalafil.",
+   "pagina": 36,
+   "clase": "uro-16",
+   "claseTitulo": "13.16 Patología Peneana: Fimosis, Parafimosis, Balanopostitis, Priapismo & Disfunción Eréctil",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-16&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Colico_renal": {
+   "termino": "Cólico renal",
+   "tipo": "Concepto",
+   "alias": [
+    "cólico renal",
+    "cólico nefrítico"
+   ],
+   "def": "Dolor por sobredistensión de cápsula y pelvis mediado por prostaglandinas. AINE endovenoso de primera línea, opioide de segunda; pielo-TAC sin contraste. Fiebre: pionefrosis.",
+   "pagina": 5,
+   "clase": "uro-01",
+   "claseTitulo": "13.1 Cólico Renal y Litiasis Urinaria: TAC sin Contraste, Manejo del Dolor & Expulsión Espontánea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 6
+  },
+  "Litiasis_urinaria": {
+   "termino": "Litiasis urinaria",
+   "tipo": "Concepto",
+   "alias": [
+    "litiasis",
+    "cálculo",
+    "cálculos"
+   ],
+   "def": "Menores de 5 mm expulsan solos en 80-90%; de 5 a 10 mm, tamsulosina 0,4 mg/día; mayores de 10 mm, LEOC o ureteroscopía. Prevención: más de 2,5 a 3 litros de agua al día.",
+   "pagina": 5,
+   "clase": "uro-01",
+   "claseTitulo": "13.1 Cólico Renal y Litiasis Urinaria: TAC sin Contraste, Manejo del Dolor & Expulsión Espontánea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 21
+  },
+  "TAC_sin_contraste": {
+   "termino": "TAC sin contraste",
+   "tipo": "Examen",
+   "alias": [
+    "pielo-TAC",
+    "TAC sin contraste"
+   ],
+   "def": "Pielo-TAC: examen de elección para dimensionar el cálculo en el cólico renal. Con contraste y fase excretora (uro-TAC) se estudia la hematuria.",
+   "pagina": 5,
+   "clase": "uro-01",
+   "claseTitulo": "13.1 Cólico Renal y Litiasis Urinaria: TAC sin Contraste, Manejo del Dolor & Expulsión Espontánea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Terapia_medica_expulsiva": {
+   "termino": "Terapia médica expulsiva",
+   "tipo": "Concepto",
+   "alias": [
+    "terapia expulsiva",
+    "expulsión espontánea"
+   ],
+   "def": "Tamsulosina 0,4 mg/día en cálculos de 5 a 10 mm para facilitar su expulsión. Los menores de 5 mm se eliminan espontáneamente en 80-90%.",
+   "pagina": 5,
+   "clase": "uro-01",
+   "claseTitulo": "13.1 Cólico Renal y Litiasis Urinaria: TAC sin Contraste, Manejo del Dolor & Expulsión Espontánea",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-01&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 1
+  },
+  "Retencion_urinaria_aguda": {
+   "termino": "Retención urinaria aguda",
+   "tipo": "Concepto",
+   "alias": [
+    "retención urinaria",
+    "retención aguda"
+   ],
+   "def": "Dolor hipogástrico con globo vesical. Sonda Foley 16-18 Fr; si hay uretrorragia, hematoma perineal o fractura pelviana, cistostomía suprapúbica. Más de 1.000 mL: vigilar poliuria.",
+   "pagina": 10,
+   "clase": "uro-02",
+   "claseTitulo": "13.2 Uropatía Obstructiva Aguda y Retención Urinaria: Sonda Foley vs Cistostomía",
+   "diapositiva": 0,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-02&t=5&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 5
+  },
+  "Sonda_Foley": {
+   "termino": "Sonda Foley",
+   "tipo": "Concepto",
+   "alias": [
+    "sonda Foley"
+   ],
+   "def": "Primera maniobra en retención aguda, de 16-18 Fr, si no hay signos de trauma. Contraindicada con uretrorragia, hematoma perineal en mariposa o fractura pelviana.",
+   "pagina": 10,
+   "clase": "uro-02",
+   "claseTitulo": "13.2 Uropatía Obstructiva Aguda y Retención Urinaria: Sonda Foley vs Cistostomía",
+   "diapositiva": 13,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-02&t=639&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 8
+  },
+  "Hiperplasia_prostatica_benigna": {
+   "termino": "Hiperplasia prostática benigna",
+   "tipo": "Concepto",
+   "alias": [
+    "HPB",
+    "hiperplasia prostática"
+   ],
+   "def": "Nace de la zona de transición. Tamsulosina relaja el músculo en 48-72 h; finasteride reduce 25% el volumen y 50% el APE. Cirugía: RTUP o adenomectomía; GES N.º 10.",
+   "pagina": 14,
+   "clase": "uro-03",
+   "claseTitulo": "13.3 Hiperplasia Prostática Benigna (HPB): IPSS, Tacto Rectal, Tamsulosina/Finasteride & RTUP",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 19
+  },
+  "IPSS": {
+   "termino": "IPSS",
+   "tipo": "Examen",
+   "alias": [
+    "IPSS"
+   ],
+   "def": "Escala de síntomas prostáticos que mide la intensidad de los síntomas urinarios en la HPB. El tamaño de la próstata no se correlaciona linealmente con los síntomas.",
+   "pagina": 14,
+   "clase": "uro-03",
+   "claseTitulo": "13.3 Hiperplasia Prostática Benigna (HPB): IPSS, Tacto Rectal, Tamsulosina/Finasteride & RTUP",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Tamsulosina": {
+   "termino": "Tamsulosina",
+   "tipo": "Farmaco",
+   "alias": [
+    "tamsulosina"
+   ],
+   "def": "Alfa-1 bloqueante: relaja el músculo liso prostático en 48-72 h sin cambiar el volumen ni el APE. También sirve en cálculos de 5 a 10 mm (0,4 mg/día).",
+   "pagina": 14,
+   "clase": "uro-03",
+   "claseTitulo": "13.3 Hiperplasia Prostática Benigna (HPB): IPSS, Tacto Rectal, Tamsulosina/Finasteride & RTUP",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 9
+  },
+  "Finasteride": {
+   "termino": "Finasteride",
+   "tipo": "Farmaco",
+   "alias": [
+    "finasteride"
+   ],
+   "def": "Inhibidor de la 5-alfa reductasa: reduce 25% el volumen tras 6 meses y disminuye el APE al 50% (multiplicar por 2 para interpretarlo).",
+   "pagina": 14,
+   "clase": "uro-03",
+   "claseTitulo": "13.3 Hiperplasia Prostática Benigna (HPB): IPSS, Tacto Rectal, Tamsulosina/Finasteride & RTUP",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 4
+  },
+  "RTUP": {
+   "termino": "RTUP",
+   "tipo": "Concepto",
+   "alias": [
+    "RTUP"
+   ],
+   "def": "Resección transuretral de próstata: de elección en próstatas pequeñas; mayores de 80 cc, adenomectomía o enucleación láser. Se previene el síndrome de RTUP con técnica bipolar.",
+   "pagina": 14,
+   "clase": "uro-03",
+   "claseTitulo": "13.3 Hiperplasia Prostática Benigna (HPB): IPSS, Tacto Rectal, Tamsulosina/Finasteride & RTUP",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-03&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Incontinencia_urinaria_de_esfuerzo": {
+   "termino": "Incontinencia urinaria de esfuerzo",
+   "tipo": "Concepto",
+   "alias": [
+    "incontinencia de esfuerzo"
+   ],
+   "def": "Escape con Valsalva sin deseo miccional. Primera línea: ejercicios de Kegel; segunda: cintas suburetrales (TOT/TVT).",
+   "pagina": 18,
+   "clase": "uro-04",
+   "claseTitulo": "13.4 Incontinencia Urinaria en el Adulto: Esfuerzo vs Urgencia vs Rebose & Vejiga Neurogénica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Incontinencia_urinaria_de_urgencia": {
+   "termino": "Incontinencia urinaria de urgencia",
+   "tipo": "Concepto",
+   "alias": [
+    "incontinencia de urgencia",
+    "vejiga hiperactiva"
+   ],
+   "def": "Vejiga hiperactiva: se trata con antimuscarínicos (oxibutinina) o mirabegrón. El mirabegrón, agonista beta-3, se prefiere en ancianos.",
+   "pagina": 18,
+   "clase": "uro-04",
+   "claseTitulo": "13.4 Incontinencia Urinaria en el Adulto: Esfuerzo vs Urgencia vs Rebose & Vejiga Neurogénica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Vejiga_neurogenica": {
+   "termino": "Vejiga neurogénica",
+   "tipo": "Concepto",
+   "alias": [
+    "vejiga neurogénica"
+   ],
+   "def": "Disfunción vesical de causa neurológica. La incontinencia por rebalse cursa con residuo postmiccional sobre 200 mL; nunca dar anticolinérgicos, que precipitan retención.",
+   "pagina": 18,
+   "clase": "uro-04",
+   "claseTitulo": "13.4 Incontinencia Urinaria en el Adulto: Esfuerzo vs Urgencia vs Rebose & Vejiga Neurogénica",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-04&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Torsion_testicular": {
+   "termino": "Torsión testicular",
+   "tipo": "Concepto",
+   "alias": [
+    "torsión testicular",
+    "torsión del cordón"
+   ],
+   "def": "Urgencia quirúrgica: viabilidad sobre 90% si se opera antes de 6 horas. Reflejo cremastérico abolido y Prehn negativo; se explora sin esperar la ecografía y se fija bilateral.",
+   "pagina": 24,
+   "clase": "uro-05",
+   "claseTitulo": "13.5 Torsión Testicular vs Torsión de Hidátide: Doppler Testicular & Exploración Quirúrgica <6h",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 2
+  },
+  "Torsion_de_hidatide": {
+   "termino": "Torsión de hidátide",
+   "tipo": "Concepto",
+   "alias": [
+    "hidátide"
+   ],
+   "def": "Torsión del apéndice testicular: reflejo cremastérico presente y punto azul; se maneja con reposo y AINE.",
+   "pagina": 24,
+   "clase": "uro-05",
+   "claseTitulo": "13.5 Torsión Testicular vs Torsión de Hidátide: Doppler Testicular & Exploración Quirúrgica <6h",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Signo_de_Prehn": {
+   "termino": "Signo de Prehn",
+   "tipo": "Signo",
+   "alias": [
+    "Prehn"
+   ],
+   "def": "Elevar el testículo alivia el dolor en la epididimitis (positivo) y no lo alivia en la torsión (negativo).",
+   "pagina": 29,
+   "clase": "uro-06",
+   "claseTitulo": "13.6 Orquiepididimitis Aguda: Etiología según Edad (<35 años ETS vs >35 años E. coli) & Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 4
+  },
+  "Reflejo_cremasterico": {
+   "termino": "Reflejo cremastérico",
+   "tipo": "Signo",
+   "alias": [
+    "reflejo cremastérico"
+   ],
+   "def": "Ascenso del testículo al rozar el muslo; abolido en la torsión testicular (signo más sensible, sobre 95%) y presente en la epididimitis y en la torsión de hidátide.",
+   "pagina": 24,
+   "clase": "uro-05",
+   "claseTitulo": "13.5 Torsión Testicular vs Torsión de Hidátide: Doppler Testicular & Exploración Quirúrgica <6h",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-05&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 3
+  },
+  "Orquiepididimitis": {
+   "termino": "Orquiepididimitis",
+   "tipo": "Concepto",
+   "alias": [
+    "orquiepididimitis",
+    "epididimitis"
+   ],
+   "def": "Inicio subagudo, Prehn positivo. Menores de 35 años: ETS (ceftriaxona IM + doxiciclina); mayores de 35: E. coli (ciprofloxacino). Suspensorio, reposo, frío y AINE.",
+   "pagina": 29,
+   "clase": "uro-06",
+   "claseTitulo": "13.6 Orquiepididimitis Aguda: Etiología según Edad (<35 años ETS vs >35 años E. coli) & Manejo",
+   "diapositiva": null,
+   "t": null,
+   "mmss": null,
+   "url": "https://www.eunacomapp.cl/mis-clases?subsystem=Urolog%C3%ADa&clase=uro-06&t=0&utm_source=anki&utm_medium=flashcard&utm_campaign=aee_v3_urologia",
+   "embed": null,
+   "notas": 10
+  }
+ }
+}

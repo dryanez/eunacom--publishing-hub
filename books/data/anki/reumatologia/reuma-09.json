@@ -1,0 +1,477 @@
+{
+  "classId": "reuma-09",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La nefritis lúpica afecta hasta al {{c1::50%}} de los pacientes con LES y es su principal causa de morbimortalidad.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.006"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Depósitos {{c1::subendoteliales}} de inmunocomplejos producen patrón proliferativo (clases III y IV), con síndrome nefrítico e hipocomplementemia.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Depósitos {{c1::subepiteliales}} producen patrón membranoso (clase V) con proteinuria masiva, sin proliferación.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La biopsia renal está indicada ante proteinuria persistente ≥ {{c1::0.5 g/24 horas}}, sedimento activo o deterioro inexplicable de función renal.",
+      "extra": "Es el patrón de oro.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 113"
+      ],
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Sedimento activo: ≥ {{c1::5}} hematíes por campo de origen glomerular, acantocitos o cilindros hemáticos.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clasificación",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Clase I de nefritis lúpica: {{c1::mesangial mínima}}; clase II: proliferativa mesangial.",
+      "extra": "Clase II: proteinuria < 1 g/24h; sin inmunosupresión agresiva.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla ISN/RPS",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Clase III (proliferativa focal): afecta < {{c1::50%}} de los glomérulos.",
+      "extra": "Síndrome nefrítico, hipertensión.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla ISN/RPS",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Clase IV (proliferativa difusa) afecta ≥ {{c1::50%}} de los glomérulos: la más frecuente (40–50%), más grave y de peor pronóstico.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clasificación",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.006"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Clase IV: asas en {{c1::alambre}}, necrosis fibrinoide, semilunas, anti-dsDNA alto y C3/C4 muy bajos.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Clase IV",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 113"
+      ],
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Clase V (membranosa): síndrome nefrótico {{c1::puro}}, riesgo de trombosis venosa/vena renal y complemento normal o levemente bajo.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz Clase V",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Clase VI (esclerosante avanzada): esclerosis de ≥ {{c1::90%}} de los glomérulos; no responde a inmunosupresores y se prepara diálisis.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Clasificación",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Inducción en clases III/IV: pulsos de {{c1::metilprednisolona}} 500–1.000 mg/día EV por 3 días.",
+      "extra": "Seguido de prednisona 0.5–1 mg/kg/día.",
+      "origen": "clase:5",
+      "fuente": "Clase · Inducción",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Inmunosupresor de primera elección en inducción: {{c1::micofenolato mofetilo}} 2–3 g/día VO en 2 tomas.",
+      "extra": "Menor toxicidad gonadal.",
+      "origen": "clase:5",
+      "fuente": "Clase · Inducción",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa al micofenolato: ciclofosfamida EV, con esquema Euro-Lupus de {{c1::500 mg}} cada 2 semanas por 6 dosis.",
+      "extra": "Toxicidad: cistitis hemorrágica (mesna), infertilidad, neoplasias.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Inducción",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La ciclofosfamida se prefiere en compromiso renal con {{c1::semilunas masivas}} rápidamente progresivo o compromiso neurológico.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Inducción",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Coadyuvantes obligatorios: hidroxicloroquina, {{c1::IECA o ARA-II}} y profilaxis de Pneumocystis con cotrimoxazol.",
+      "extra": "Cotrimoxazol tres veces por semana.",
+      "origen": "clase:5",
+      "fuente": "Clase · Inducción",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.014",
+        "1.09.1.006"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Mantenimiento de nefritis lúpica: micofenolato {{c1::1 a 2 g/día}}; alternativa azatioprina 2 mg/kg/día.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Mantenimiento",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.006"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Con deseo de embarazo se cambia micofenolato (teratogénico) por {{c1::azatioprina}}.",
+      "extra": "Suspender MMF al menos 6 semanas antes de la concepción.",
+      "origen": "clase:6",
+      "fuente": "Clase · Mantenimiento",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La inmunosupresión de mantenimiento dura un mínimo de {{c1::3 a 5 años}} antes de intentar desescalar.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "Clase · Quiz EUNACOM 2023",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En nefritis lúpica refractaria a los 6 meses se cambia a {{c1::ciclofosfamida EV o rituximab}}.",
+      "extra": "",
+      "origen": "algoritmo",
+      "fuente": "Algoritmo · Nefritis lúpica",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "LES con proteinuria 2.2 g, cilindros hemáticos y creatinina alta: el paso mandatorio es la {{c1::biopsia renal}} antes de definir la inmunosupresión.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz EUNACOM 2017",
+      "repaso": true,
+      "codigos": [
+        "1.11.1.014",
+        "1.09.1.006"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Clase V: prednisona + micofenolato o tacrolimus + IECA/ARA-II, y prevención de {{c1::trombosis}}.",
+      "extra": "Heparina profiláctica si albúmina < 2 g/dL.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla ISN/RPS",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Anticoagulación profiláctica en síndrome nefrótico lúpico grave: albúmina sérica < {{c1::2 g/dL}}.",
+      "extra": "Se pierde antitrombina III por orina.",
+      "origen": "clase:7",
+      "fuente": "Clase · Nefroprotección",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En lupus neuropsiquiátrico se excluyen antes infección del SNC, uremia, fármacos y la psicosis por {{c1::corticoides}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Neuropsiquiátrico",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Anemia hemolítica autoinmune del LES: Coombs directo (+), LDH alta y haptoglobina {{c1::baja}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Hematológico",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Trombocitopenia inmune con plaquetas < {{c1::30.000}} o sangrado: prednisona 1 mg/kg/día, a veces IgIV.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Hematológico",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Plaquetopenia con anemia y esquistocitos en LES: descartar {{c1::PTT y SAF catastrófico}}.",
+      "extra": "Microangiopatía trombótica.",
+      "origen": "clase:8",
+      "fuente": "Clase · Señal de alarma",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La manifestación torácica más frecuente del LES es la {{c1::serositis}} (pleuritis y pericarditis): responde a AINEs o prednisona.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Cardiopulmonar",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hemoptisis, anemia e infiltrados bilaterales en LES sugieren {{c1::hemorragia alveolar difusa}}, emergencia de alta mortalidad.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Cardiopulmonar",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La endocarditis verrucosa de {{c1::Libman-Sacks}} se asocia a síndrome antifosfolípido.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Cardiopulmonar",
+      "repaso": false,
+      "codigos": [
+        "1.11.1.014"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES nefritis lúpica: biopsia renal, {{c1::inducción y mantenimiento}} cubiertos.",
+      "extra": "",
+      "origen": "clase:19",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.006"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/08_reumatologia/reuma-09/01_sedimento-hematuria-glomerular__cto-nefro_p33.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Hematuria glomerular (hematíes dismórficos)",
+      "clave": "Sedimento activo con hematíes dismórficos o cilindros hemáticos",
+      "conducta": "En LES, biopsia renal urgente para clasificar ISN/RPS",
+      "fuente": "Manual CTO Nefrología, p. 33",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.006",
+        "1.11.1.014"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.1",
+      "pista": "Proteinuria ≥ 0.5 g/24h o sedimento activo: ¿procedimiento?",
+      "codigos": [
+        "1.09.1.006"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0.2",
+      "pista": "Clase III o IV: ¿inducción?",
+      "codigos": [
+        "1.09.1.006"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.1",
+      "pista": "Clase V membranosa: ¿tratamiento y prevención?",
+      "codigos": [
+        "1.09.1.006"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.1.0.2.0.1",
+      "pista": "Remisión a los 6 meses: ¿mantenimiento y duración?",
+      "codigos": [
+        "1.09.1.006"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+{
+  "classId": "psiq-19",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El diagnóstico psiquiátrico es {{c1::clínico y sindromático}}: no hay examen de laboratorio confirmatorio.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Clasificaciones",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.001"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La clasificación oficial en Chile para ficha, estadísticas, licencias y GES es la {{c1::CIE-10}} de la OMS.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "codigos": [
+        "5.01.3.001"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El {{c1::DSM-5}} aporta los criterios diagnósticos; es descriptivo, categorial y eliminó el sistema multiaxial.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Clasificaciones",
+      "repaso": true,
+      "codigos": [
+        "5.01.3.001"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Registrar el diagnóstico para licencia y GES: CIE-10; el error es {{c1::DSM-5 o una escala}}.",
+      "extra": "GAF y Hamilton miden gravedad, no clasifican.",
+      "origen": "clase:14",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.022"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "CIE-10: {{c1::F20-F29}} corresponde a esquizofrenia y trastornos delirantes.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Capítulos CIE-10",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.022",
+        "5.01.3.001"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "CIE-10: {{c1::F30-F39}} corresponde a los trastornos del ánimo.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Capítulos CIE-10",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.022",
+        "5.01.3.001"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "CIE-10: F40-F48 agrupa trastornos neuróticos, ligados al estrés y {{c1::somatomorfos}}.",
+      "extra": "Pánico, TOC, TEPT, disociativos.",
+      "origen": "clase:2",
+      "fuente": "Clase · Capítulos CIE-10",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.001",
+        "5.01.1.022"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "CIE-10: F10-F19 corresponde a trastornos por uso de {{c1::sustancias}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Capítulos CIE-10",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.022",
+        "5.01.3.001"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Insomnio crónico: al menos {{c1::3 noches por semana}} durante 3 meses, con repercusión diurna.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Insomnio",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.005"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Insomnio con despertar precoz sugiere {{c1::depresión}}.",
+      "extra": "Antes del hipnótico se descartan depresión, ansiedad, apnea, dolor y fármacos.",
+      "origen": "clase:3",
+      "fuente": "Clase · Insomnio",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.005"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La primera medida de todo insomnio, antes de cualquier hipnótico, es la {{c1::higiene del sueño}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 94"
+      ],
+      "codigos": [
+        "5.01.3.005"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Higiene del sueño: horarios fijos, incluso {{c1::fines de semana}}, y cama solo para dormir y para el sexo.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Higiene del sueño",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.005"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Higiene del sueño: evitar siestas de más de {{c1::30 minutos}} o después de las 15 horas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Higiene del sueño",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.005"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Higiene del sueño: no tomar cafeína en las {{c1::6-8 horas}} previas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Higiene del sueño",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.005"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Primera línea del insomnio crónico persistente: {{c1::TCC para el insomnio}} (control de estímulos y restricción del sueño).",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Insomnio",
+      "repaso": true,
+      "codigos": [
+        "5.01.3.005"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hipnótico de segunda línea: zolpidem o zopiclona por {{c1::2-4 semanas}} como máximo.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Insomnio",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.005"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En el insomnio simple se evitan benzodiacepinas de vida media larga y {{c1::quetiapina}}.",
+      "extra": "Insomnio leve: higiene del sueño; el error es zolpidem o quetiapina de entrada.",
+      "origen": "clase:5",
+      "fuente": "Clase · Insomnio",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 94"
+      ],
+      "codigos": [
+        "5.01.3.005"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Trastorno facticio: producir síntomas de forma {{c1::intencional}} para asumir el rol de enfermo, sin beneficio externo.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 163",
+        "EUNACOM Julio 2017 · Pregunta 47"
+      ],
+      "codigos": [
+        "5.01.1.022"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La forma crónica y grave del trastorno facticio es el síndrome de {{c1::Münchhausen}}.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Facticio",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.022"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sospecha de facticio: historia dramática pero inconsistente y {{c1::múltiples hospitalizaciones}}.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Facticio",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 102",
+        "EUNACOM Diciembre 2024 · Pregunta 85",
+        "EUNACOM Julio 2018 · Pregunta 131"
+      ],
+      "codigos": [
+        "5.01.1.022"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Facticio con insulina: glicemia baja con insulina alta y péptido C {{c1::bajo}}.",
+      "extra": "Insulina exógena.",
+      "origen": "clase:6",
+      "fuente": "Clase · Facticio",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 47"
+      ],
+      "codigos": [
+        "5.01.1.022"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Simulación: engaño consciente con {{c1::beneficio externo}} (licencia, dinero, drogas); no es enfermedad mental.",
+      "extra": "El facticio no tiene ganancia externa.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla facticio",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.022"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En somatomorfos y conversivos los síntomas son {{c1::involuntarios}}, sin engaño.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla facticio",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.022"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Facticio impuesto a otro (cuidador, casi siempre la madre): {{c1::proteger al menor y notificar}}; es abuso infantil.",
+      "extra": "El error es tratar a la madre en silencio.",
+      "origen": "clase:14",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "codigos": [
+        "5.01.1.022"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Manejo del facticio: no confrontar de modo acusatorio, mantener {{c1::ficha única}} y pedir interconsulta de psiquiatría.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Facticio",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.022"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Facticio: evitar exámenes y procedimientos {{c1::invasivos innecesarios}}.",
+      "extra": "El pronóstico es reservado.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Facticio",
+      "repaso": false,
+      "codigos": [
+        "5.01.1.022"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Imputabilidad: capacidad de comprender lo {{c1::ilícito del acto}} y actuar conforme a esa comprensión.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Forense",
+      "repaso": true,
+      "codigos": [
+        "5.01.3.009"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Psicosis con delirio y órdenes alucinatorias al momento del hecho: {{c1::inimputable}}, con medida de seguridad y no pena.",
+      "extra": "El error es pena de cárcel.",
+      "origen": "clase:14",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.009"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El alcohol, las drogas y los trastornos de personalidad {{c1::no eximen}} de responsabilidad penal.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Forense",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.009"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El perito psiquiátrico no es el {{c1::médico tratante}}; habitualmente es del Servicio Médico Legal.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Capacidad y peritaje",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.009"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La interdicción por demencia declara incapaz a quien no puede administrar sus {{c1::bienes}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Capacidad y peritaje",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.009"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La Ley {{c1::21.331}} reconoce los derechos en atención de salud mental: consentimiento informado y medio menos restrictivo.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Ley 21.331",
+      "repaso": true,
+      "codigos": [
+        "5.01.3.009"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hospitalización involuntaria: indicada por {{c1::psiquiatra}} ante riesgo cierto e inminente; el error es que la indique el médico general.",
+      "extra": "Se informa a la autoridad sanitaria y se revisa por comisión regional.",
+      "origen": "clase:14",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "5.01.3.009"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.2",
+      "pista": "Intencional sin beneficio externo: ¿qué es?",
+      "codigos": [
+        "5.01.3.001"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1",
+      "pista": "Intencional con beneficio externo: ¿qué es?",
+      "codigos": [
+        "5.01.3.001"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.2.0",
+      "pista": "Cuidador que enferma al niño: ¿qué haces?",
+      "codigos": [
+        "5.01.3.001"
+      ]
+    }
+  ]
+}

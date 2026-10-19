@@ -1,0 +1,482 @@
+{
+  "classId": "diab-04",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La meta estándar de HbA1c en el adulto con DM2 es < {{c1::7 %}}.",
+      "extra": "Expectativa de vida sobre 15 años; previene complicaciones microvasculares.",
+      "origen": "clase:2",
+      "fuente": "Clase · Metas",
+      "repaso": true,
+      "codigos": [
+        "1.02.4.017",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La glicemia preprandial meta en el adulto estándar es {{c1::80–130 mg/dL}} y la postprandial < {{c2::180 mg/dL}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Metas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En joven con diagnóstico reciente y sin daño cardiovascular la HbA1c meta puede ser < {{c1::6,5 %}}.",
+      "extra": "Solo con fármacos que no producen hipoglicemia: metformina, iSGLT2.",
+      "origen": "clase:2",
+      "fuente": "Clase · Metas",
+      "repaso": true,
+      "codigos": [
+        "1.02.4.017",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La meta estricta de HbA1c < 6,5 % solo se busca con fármacos sin hipoglicemia, como {{c1::metformina e iSGLT2}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Metas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El ensayo {{c1::ACCORD}} mostró que bajar la HbA1c a < 6 % en diabetes de larga data y alto riesgo CV aumenta la mortalidad.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 ACCORD",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En ACCORD el exceso de mortalidad se atribuyó a {{c1::hipoglicemias severas con arritmias}}.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Más bajo no siempre es mejor",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La HbA1c < 7 % previene la {{c1::nefropatía y la retinopatía}} (complicaciones microvasculares).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Más bajo no siempre es mejor",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.017",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta de HbA1c del adulto mayor funcional y activo: < {{c1::7,5 %}}.",
+      "extra": "Glicemia preprandial 90–140 mg/dL.",
+      "origen": "clase:3",
+      "fuente": "Clase · Adulto mayor",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 24"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta de HbA1c del adulto mayor frágil, con demencia o ERC 4–5: < {{c1::8,0–8,5 %}}.",
+      "extra": "Glicemia preprandial 100–150 mg/dL.",
+      "origen": "clase:3",
+      "fuente": "Clase · Adulto mayor",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 118"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Adulto mayor de 80 años con HbA1c 7,6–7,8 % y sin hipoglicemias: el error es {{c1::intensificar el tratamiento}}.",
+      "extra": "Se mantiene el esquema actual.",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Regla de oro",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 24"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.07.1.005"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hombre de 82 años con ERC 3b, HbA1c 7,7 % con NPH 14 UI: la conducta es {{c1::mantener el esquema}}, no subir insulina.",
+      "extra": "Intensificar aumenta hipoglicemia nocturna y caídas.",
+      "origen": "clase:8",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.017",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En mayor de 75 años con metformina y HbA1c 7,5 % se {{c1::mantiene el tratamiento}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz Julio 2019",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 24"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Adulto de 59 años con HbA1c 6,9 % bajo metformina y glibenclamida: {{c1::mantener el tratamiento sin cambios}}.",
+      "extra": "Está en meta.",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz Julio 2017",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 105"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Anciano de 85 años con deterioro cognitivo y HbA1c 6,9 % con glibenclamida: {{c1::suspender la glibenclamida}}.",
+      "extra": "Está sobretratado y en riesgo de hipoglicemia.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Agosto 2021",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 118"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Anciano con demencia, caídas, HbA1c 6,4 % y sudoración matinal: suspender {{c1::glibenclamida}} y aceptar una meta cercana a 8 %.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.017",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La sulfonilurea que produce hipoglicemias prolongadas en el anciano y debe retirarse al sobretratar es la {{c1::glibenclamida}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Agosto 2021",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Anciano con infarto reciente y diarrea por metformina: cambiar a {{c1::sitagliptina}}, preferible a glibenclamida.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Preguntas reales",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 107"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con NPH nocturna, glicemia de 65 mg/dL a las 3 AM y ayuno alto: fenómeno de Somogyi, {{c1::reducir la NPH}}.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Preguntas reales",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 161"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La HbA1c es el examen de control metabólico de los últimos {{c1::2–3 meses}}.",
+      "extra": "La fructosamina refleja 2–3 semanas.",
+      "origen": "clase:2",
+      "fuente": "Clase · Cómo se mide",
+      "repaso": true,
+      "codigos": [
+        "1.02.4.017",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::fructosamina}} refleja el control de las últimas 2–3 semanas.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Cómo se mide",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tras hemorragia aguda o transfusión reciente la HbA1c sale {{c1::falsamente baja}}; manda el registro de glicemias capilares.",
+      "extra": "Se repite la HbA1c en 2–3 meses.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz Perfil V3 HbA1c",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.017",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta de presión arterial en diabetes: < {{c1::130/80 mmHg}} si es bien tolerada.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Más allá de la glucosa",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta de LDL en diabéticos de alto riesgo: < {{c1::70 mg/dL}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Más allá de la glucosa",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Meta de LDL en diabético con enfermedad coronaria o daño renal: < {{c1::55 mg/dL}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Más allá de la glucosa",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tamizaje microvascular anual: albuminuria con {{c1::RAC en orina matinal}} y fondo de ojo con cámara no midriática.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Más allá de la glucosa",
+      "repaso": true,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Diabético con RAC 85 mg/g confirmada y PA normal: se indica {{c1::enalapril o losartán}}.",
+      "extra": "IECA o ARA II reducen la albuminuria y retrasan la nefropatía.",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La meta de HbA1c de la embarazada con diabetes gestacional es < {{c1::6,0 %}} sin hipoglicemia.",
+      "extra": "Glicemia preprandial < 90–95 mg/dL.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.017",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La HbA1c de 7 % equivale a una glicemia promedio estimada de {{c1::154 mg/dL}}.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Metas",
+      "repaso": false,
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante HbA1c < 7 % en adulto joven, el error es {{c1::buscar siempre metas más bajas}}: la meta se individualiza por riesgo de hipoglicemia.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": false,
+      "codigos": [
+        "1.02.4.017",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Si el diabético tiene HbA1c ≥ {{c1::9 %}} sintomático se inicia insulina.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Preguntas reales",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 17",
+        "EUNACOM Enero 2023 · Pregunta 151"
+      ],
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.2.0",
+      "pista": "Adulto mayor activo: ¿qué meta de HbA1c?",
+      "codigos": [
+        "1.02.4.017",
+        "1.02.1.005"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.2.1",
+      "pista": "Adulto mayor frágil sobretratado: ¿meta y conducta?",
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.0",
+      "pista": "Joven sin riesgo CV: ¿qué meta?",
+      "codigos": [
+        "1.02.1.005",
+        "1.02.4.017"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,569 @@
+{
+ "report": {
+  "topics": {
+   "T19.1": {
+    "steps": 10,
+    "split": false,
+    "algo": {
+     "scale": 0.89,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T19.2": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T19.3": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T19.4": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T19.5": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 2,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T19.6": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T19.7": {
+    "steps": 4,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T19.8": {
+    "steps": 3,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T19.9": {
+    "steps": 1,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 1,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T19.21": {
+    "steps": 21,
+    "split": false,
+    "algo": {
+     "scale": 0.81,
+     "orient": "td"
+    },
+    "algoH": 250,
+    "traps": 1,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T19.10": {
+    "steps": 9,
+    "split": false,
+    "algo": {
+     "scale": 0.95,
+     "orient": "lr"
+    },
+    "algoH": 245,
+    "traps": 0,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T19.11": {
+    "steps": 10,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T19.12": {
+    "steps": 15,
+    "split": false,
+    "algo": {
+     "scale": 0.83,
+     "orient": "lr"
+    },
+    "algoH": 300,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T19.13": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T19.14": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T19.15": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T19.16": {
+    "steps": 0,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T19.17": {
+    "steps": 7,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "grid",
+     "alt": true
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T19.18": {
+    "steps": 0,
+    "split": false,
+    "algo": {
+     "scale": 0.87,
+     "orient": "lr"
+    },
+    "algoH": 340,
+    "traps": 0,
+    "ask": 7,
+    "tight": false,
+    "overflow": false
+   },
+   "T19.19": {
+    "steps": 17,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 280,
+    "traps": 2,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T19.20": {
+    "steps": 6,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 300,
+    "traps": 2,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   }
+  },
+  "warnings": [],
+  "pages": 30,
+  "where": {
+   "COVER": 1,
+   "IDX": 2,
+   "T19.1": 3,
+   "T19.2": 4,
+   "T19.3": 5,
+   "T19.4": 6,
+   "T19.5": 7,
+   "T19.6": 8,
+   "T19.7": 9,
+   "T19.8": 10,
+   "T19.9": 11,
+   "T19.21": 12,
+   "T19.10": 13,
+   "T19.11": 14,
+   "T19.12": 15,
+   "T19.13": 16,
+   "T19.14": 18,
+   "T19.15": 19,
+   "T19.16": 20,
+   "T19.17": 21,
+   "T19.18": 22,
+   "T19.19": 23,
+   "T19.20": 24,
+   "NUM": 25,
+   "DRUG": 28,
+   "GES": 28,
+   "PLAN": 29,
+   "PRIO": 30
+  }
+ },
+ "stars": [
+  {
+   "t": "19.1",
+   "real": 16,
+   "stars": 3,
+   "lg": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "t": "19.2",
+   "real": 7,
+   "stars": 1,
+   "lg": [
+    5,
+    6
+   ]
+  },
+  {
+   "t": "19.3",
+   "real": 8,
+   "stars": 2,
+   "lg": [
+    7,
+    8
+   ]
+  },
+  {
+   "t": "19.4",
+   "real": 10,
+   "stars": 2,
+   "lg": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+   ]
+  },
+  {
+   "t": "19.5",
+   "real": 11,
+   "stars": 2,
+   "lg": [
+    20,
+    21,
+    22
+   ]
+  },
+  {
+   "t": "19.6",
+   "real": 11,
+   "stars": 2,
+   "lg": [
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+   ]
+  },
+  {
+   "t": "19.7",
+   "real": 7,
+   "stars": 1,
+   "lg": [
+    29,
+    30,
+    31,
+    32,
+    33
+   ]
+  },
+  {
+   "t": "19.8",
+   "real": 6,
+   "stars": 1,
+   "lg": [
+    34,
+    35,
+    36
+   ]
+  },
+  {
+   "t": "19.9",
+   "real": 16,
+   "stars": 3,
+   "lg": [
+    53,
+    54
+   ]
+  },
+  {
+   "t": "19.21",
+   "real": 7,
+   "stars": 1,
+   "lg": [
+    19
+   ]
+  },
+  {
+   "t": "19.10",
+   "real": 15,
+   "stars": 3,
+   "lg": [
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44
+   ]
+  },
+  {
+   "t": "19.11",
+   "real": 17,
+   "stars": 3,
+   "lg": [
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+   ]
+  },
+  {
+   "t": "19.12",
+   "real": 7,
+   "stars": 1,
+   "lg": [
+    51,
+    52
+   ]
+  },
+  {
+   "t": "19.13",
+   "real": 16,
+   "stars": 3,
+   "lg": [
+    55,
+    56,
+    57,
+    58,
+    59,
+    60
+   ]
+  },
+  {
+   "t": "19.14",
+   "real": 12,
+   "stars": 2,
+   "lg": [
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67
+   ]
+  },
+  {
+   "t": "19.15",
+   "real": 18,
+   "stars": 3,
+   "lg": [
+    68,
+    69,
+    70
+   ]
+  },
+  {
+   "t": "19.16",
+   "real": 1,
+   "stars": 1,
+   "lg": [
+    71,
+    72
+   ]
+  },
+  {
+   "t": "19.17",
+   "real": 27,
+   "stars": 3,
+   "lg": [
+    37,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79
+   ]
+  },
+  {
+   "t": "19.18",
+   "real": 8,
+   "stars": 2,
+   "lg": [
+    80,
+    81,
+    82,
+    83,
+    84
+   ]
+  },
+  {
+   "t": "19.19",
+   "real": 11,
+   "stars": 2,
+   "lg": [
+    85,
+    86,
+    87,
+    88
+   ]
+  },
+  {
+   "t": "19.20",
+   "real": 1,
+   "stars": 1,
+   "lg": [
+    89,
+    90
+   ]
+  }
+ ],
+ "lg": {
+  "name": "Obstetricia",
+  "file": "Libro_Gordo_Obstetricia_90Q.pdf",
+  "unassigned": [],
+  "byLabel": 87,
+  "byCode": 2,
+  "total": 90,
+  "byEditorial": 1
+ },
+ "stats": {
+  "numbers": 60,
+  "drugs": 15,
+  "ges": 2
+ }
+}

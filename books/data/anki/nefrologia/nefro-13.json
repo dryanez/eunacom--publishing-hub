@@ -1,0 +1,576 @@
+{
+  "classId": "nefro-13",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Síndrome nefrótico: proteinuria > {{c1::3,5 g/24 h}}.",
+      "extra": "O índice proteinuria/creatininuria > 3–3,5.",
+      "origen": "clase:2",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 26"
+      ],
+      "codigos": [
+        "1.09.1.022",
+        "1.02.4.022"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Síndrome nefrótico: albúmina plasmática < {{c1::3,0 g/dL}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síndrome nefrótico es una lesión del {{c1::podocito}} que rompe la barrera de filtración.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Todo parte en el podocito",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Edema nefrótico: blando, con fóvea, matinal en {{c1::párpados y cara}} y vespertino en {{c2::piernas}}.",
+      "extra": "Baja la presión oncótica por la hipoalbuminemia.",
+      "origen": "clase:2",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": false,
+      "imagen": "biblioteca/03_nefrologia/nefro-13/01_edema_fovea__bates_p559.jpg",
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 121"
+      ],
+      "codigos": [
+        "1.09.2.003",
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dislipidemia del nefrótico: colesterol total sobre {{c1::350–400 mg/dL}}.",
+      "extra": "El hígado hiperproduce VLDL/LDL.",
+      "origen": "clase:2",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La lipiduria del nefrótico muestra cuerpos ovales grasos con {{c1::cruz de Malta}} bajo luz polarizada.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Criterios",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2022 · Reconstrucción oficial"
+      ],
+      "codigos": [
+        "1.09.1.022",
+        "2.01.1.069"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Nefrótico puro: sin {{c1::hematuria}}, sin hipertensión y sin cilindros hemáticos.",
+      "extra": "Si hay hematuria dismórfica, piensa en cuadro nefrítico.",
+      "origen": "clase:2",
+      "fuente": "Clase · Diagnóstico",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 10",
+        "EUNACOM Julio 2016 · Pregunta 121",
+        "EUNACOM Julio 2015 · Pregunta 66"
+      ],
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Edema + proteinuria 8 g + albúmina 2,0 sin hematuria: es nefrótico puro; el error es llamarlo {{c1::nefrítico}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El nefrótico pierde por orina {{c1::antitrombina III}}, proteína C y proteína S: queda protrombótico.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Hipercoagulabilidad",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.022",
+        "2.01.1.069"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La complicación tromboembólica más frecuente del nefrótico es la trombosis de la {{c1::vena renal}}.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Hipercoagulabilidad",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.022",
+        "2.01.1.069"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La trombosis de vena renal ocurre hasta en el {{c1::30 %}} de los pacientes con nefropatía membranosa.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Hipercoagulabilidad",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Varicocele izquierdo nuevo que no se reduce en decúbito en un nefrótico: trombosis de {{c1::vena renal izquierda}}.",
+      "extra": "La vena espermática izquierda drena en la renal izquierda.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Nefrótico con disnea y dolor torácico pleurítico súbitos: {{c1::tromboembolismo pulmonar}}.",
+      "extra": "Por pérdida urinaria de antitrombina III.",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 3"
+      ],
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Nefrótico hospitalizado con derrame pleural hemorrágico, LDH 650 y disnea: es TEP; el error es pensar en {{c1::trasudado por hipoalbuminemia}}.",
+      "extra": "El derrame del TEP suele ser exudado hemorrágico.",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz TEP",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Anticoagulación profiláctica en membranosa si la albúmina es < {{c1::2,0–2,5 g/dL}}.",
+      "extra": "HBPM o antagonistas de vitamina K.",
+      "origen": "clase:3",
+      "fuente": "Clase · Hipercoagulabilidad",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Membranosa con albúmina < 2,0–2,5: el error es {{c1::esperar a que trombose}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En todo adulto con síndrome nefrótico primario la {{c1::biopsia renal}} es obligatoria.",
+      "extra": "Define la histología y la inmunosupresión.",
+      "origen": "clase:4",
+      "fuente": "Clase · Biopsia",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 14",
+        "EUNACOM Agosto 2021 · Pregunta 59"
+      ],
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Adulto con nefrótico primario: el error es dar {{c1::prednisona empírica}} como en el niño.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.069",
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el niño nefrótico, {{c1::90 %}} son cambios mínimos y se dan corticoides sin biopsiar.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Biopsia",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 22",
+        "EUNACOM Diciembre 2025 · Pregunta 60"
+      ],
+      "codigos": [
+        "2.01.1.069",
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Excepciones a la biopsia en el adulto: diabetes de más de {{c1::10–15 años}} con retinopatía proliferativa concordante, o amiloidosis ya demostrada.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Biopsia",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Diabética joven con mal control y nefrótico: el error es {{c1::asumir nefropatía diabética}}; se biopsia.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 59",
+        "EUNACOM Diciembre 2019 · Pregunta 14"
+      ],
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causa nº 1 de nefrótico en adultos sobre 50–60 años: {{c1::nefropatía membranosa}}, con anti-PLA2R.",
+      "extra": "IgG y C3 granular; espículas en la MBG.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla glomerulopatías",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 26",
+        "EUNACOM Julio 2015 · Pregunta 66"
+      ],
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Anti-PLA2R es positivo en {{c1::75 %}} de las nefropatías membranosas.",
+      "extra": "Se asocia a cáncer oculto, VHB y AINEs.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla glomerulopatías",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de la nefropatía membranosa: {{c1::rituximab o ciclosporina}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla glomerulopatías",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "GEFS: adulto joven o raza negra, asociada a VIH, obesidad mórbida y reflujo, con {{c1::pobre}} respuesta a corticoides.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla glomerulopatías",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cambios mínimos: borramiento de pedicelos en microscopía {{c1::electrónica}}, asociada a Hodgkin y AINEs; responde a prednisona.",
+      "extra": "Óptica normal.",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla glomerulopatías",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.069",
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Amiloidosis renal (> 65 años): depósito Rojo Congo positivo con birrefringencia {{c1::verde manzana}}.",
+      "extra": "Mieloma, gammapatía monoclonal o infecciones crónicas; Tx quimioterapia.",
+      "origen": "foto",
+      "fuente": "Goljan · Rojo Congo",
+      "repaso": false,
+      "imagen": "biblioteca/03_nefrologia/nefro-13/03_amiloide_rojo_congo_polarizada__goljan_p172.jpg",
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 64"
+      ],
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El nefrótico pierde {{c1::IgG y factor B}}, por lo que sufre infecciones por encapsulados como neumococo.",
+      "extra": "Clásica: peritonitis bacteriana espontánea por neumococo.",
+      "origen": "clase:6",
+      "fuente": "Clase · Infecciones",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antes de inmunosuprimir al nefrótico: vacuna antineumocócica {{c1::conjugada 13V + polisacárida 23V}} e influenza.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Infecciones",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Base antiproteinúrica del nefrótico: {{c1::IECA o ARA-II}} a dosis máxima tolerada, que dilatan la arteriola eferente.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Al IECA/ARA-II se asocia un {{c1::iSGLT2}} (dapagliflozina) y estatinas.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "c32",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Edema nefrótico: restricción de sodio < {{c1::2 g/día}} y furosemida 40–80 mg.",
+      "extra": "Meta: bajar 0,5–1 kg/día.",
+      "origen": "clase:7",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.003",
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c33",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Anasarca nefrótica (albúmina < 2 g/dL): furosemida IV {{c1::40–80 mg}} en bolo o infusión, con tiazida, metolazona o espironolactona.",
+      "extra": "Bloqueo secuencial de la nefrona.",
+      "origen": "clase:8",
+      "fuente": "Clase · Anasarca",
+      "repaso": false,
+      "codigos": [
+        "1.09.2.003",
+        "1.09.1.022"
+      ]
+    },
+    {
+      "id": "c34",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Proteinuria tras un triatlón es {{c1::funcional}} y desaparece en 24 a 48 horas.",
+      "extra": "",
+      "origen": "clase:22",
+      "fuente": "Clase · Quiz proteinuria",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 135"
+      ],
+      "codigos": [
+        "1.09.4.015",
+        "1.09.1.018"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/03_nefrologia/nefro-13/02_edema_facial_nino_nefrosis__cdc-phil-3894.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Edema facial y palpebral del síndrome nefrótico",
+      "clave": "Edema blando periorbitario matinal con orina espumosa",
+      "conducta": "Orina completa con proteinuria, índice proteinuria/creatininuria, albuminemia y perfil lipídico; en niño, prednisona oral en dosis alta",
+      "fuente": "Wikimedia Commons · CDC PHIL 3894",
+      "repaso": false,
+      "codigos": [
+        "1.09.1.022",
+        "1.02.4.022"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.1",
+      "pista": "Nefrótico puro: ¿hay alguna excepción a la biopsia?",
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1.1",
+      "pista": "Sin excepción en el adulto: ¿qué conducta?",
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.1.0",
+      "pista": "Albúmina < 2,0–2,5: ¿qué se indica?",
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.1.1.1",
+      "pista": "Albúmina mayor: ¿qué soporte para todos?",
+      "codigos": [
+        "1.09.1.022",
+        "1.09.4.015"
+      ]
+    }
+  ]
+}

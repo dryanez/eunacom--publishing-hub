@@ -1,0 +1,572 @@
+{
+ "classId": "cardio-10",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Ante todo dolor torácico agudo se toma e interpreta un ECG de 12 derivaciones en ≤ {{c1::10 minutos}}.",
+   "extra": "Meta de la garantía GES del infarto.",
+   "origen": "clase:1",
+   "fuente": "Clase · Primer contacto",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "El infarto agudo del miocardio es el problema GES N.º {{c1::5}}; el ECG ante la sospecha es parte de la garantía.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 / GES",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Una diferencia de presión entre ambos brazos mayor de {{c1::20 mmHg}} apunta a disección aórtica.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Primer contacto",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor opresivo, retroesternal, de más de {{c1::20 minutos}}, irradiado y con diaforesis es isquémico.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · La anamnesis",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor «desgarrante» a la espalda es una {{c1::disección aórtica}} hasta demostrar lo contrario.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · La anamnesis",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El dolor que mejora al inclinarse hacia adelante y empeora al acostarse es de {{c1::pericarditis}}.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Lo que imita al infarto",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor torácico tras vómitos intensos orienta a {{c1::rotura esofágica (Boerhaave)}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · La anamnesis",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el dolor torácico el ECG busca primero {{c1::supradesnivel del ST}} en ≥ 2 derivaciones contiguas o BCRI nuevo.",
+   "extra": "SCACEST: se reperfunde sin esperar la troponina.",
+   "origen": "clase:2",
+   "fuente": "Clase · El electrocardiograma",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Supradesnivel del ST con troponina pendiente: se {{c1::reperfunde ya}}; el error es esperar el resultado.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las ondas T {{c1::hiperagudas}} (altas, anchas y simétricas) pueden ser el primer signo de infarto: obligan a repetir el ECG.",
+   "extra": "",
+   "origen": "foto",
+   "imagen": "biblioteca/20_cardiologia/cardio-10/01_ecg-t-hiperagudas-v2-v4__stroobandt-ecg_p165.jpg",
+   "fuente": "Libro §2 · Stroobandt p. 165",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un ECG normal {{c1::no descarta}} un síndrome coronario agudo: se repite cada 15 a 30 minutos.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · El electrocardiograma",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con infradesnivel de V1-V3 y R altas se agregan las derivaciones posteriores {{c1::V7-V9}}; en el infarto inferior, las derechas V3R-V4R.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 ECG",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El supradesnivel del ST también lo imitan la repolarización precoz, la pericarditis, el aneurisma ventricular, el Brugada y la {{c1::hiperkalemia}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 ECG",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Síncope de un adulto mayor con FC de 40 y sin pródromo: el examen inicial es el {{c1::ECG}}, no el TAC de cerebro ni el Holter.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · El electrocardiograma",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 180",
+    "EUNACOM Diciembre 2024 · Pregunta 62"
+   ],
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La troponina ultrasensible es el biomarcador de elección de {{c1::necrosis miocárdica}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Troponina",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.009"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La troponina ultrasensible sube a las {{c1::1 a 3 horas}}, alcanza su máximo a las 12-24 horas y dura 7 a 14 días.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Troponina",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.009"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La CK-MB sube a las 4-6 horas y se normaliza en {{c1::48-72 horas}}; conserva uso para detectar reinfarto precoz.",
+   "extra": "CK-MB y LDH son obsoletas para el diagnóstico.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Troponina",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.009"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El infarto exige ascenso o descenso de troponina con al menos un valor sobre el percentil {{c1::99}} más evidencia de isquemia.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Troponina",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.009"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La troponina se interpreta por su {{c1::curva}} (algoritmos de 0 y 1 hora), no por un valor aislado.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Troponina ultrasensible",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.009"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Una troponina normal no descarta {{c1::angina inestable}}, que por definición no eleva biomarcadores.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Troponina ultrasensible",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.009"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Una troponina elevada estable, sin curva, sugiere daño {{c1::crónico}} (insuficiencia renal o cardíaca).",
+   "extra": "Con curva: miocarditis, TEP, sepsis, Takotsubo.",
+   "origen": "clase:4",
+   "fuente": "Clase · Troponina ultrasensible",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.009"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El infarto tipo 2 se debe a un desbalance entre {{c1::aporte y demanda de oxígeno}} (anemia grave, hipotensión, taquiarritmia).",
+   "extra": "El tipo 1 es aterotrombótico.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Troponina",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.009"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Los diagnósticos letales del dolor torácico son SCA, disección, TEP, neumotórax a tensión y {{c1::rotura esofágica}}; el taponamiento completa la lista.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Disección aórtica: examen de elección {{c1::angioTAC de aorta}} (ETE si está inestable).",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Disección y TEP",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la disección aórtica está prohibido {{c1::anticoagular o fibrinolizar}}.",
+   "extra": "Se hace betabloqueo EV (PAS 100-120); tipo A: cirugía.",
+   "origen": "clase:5",
+   "fuente": "Clase · Disección y TEP",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En la disección se controla la presión con betabloqueo EV hasta una PAS de {{c1::100-120 mmHg}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · Tabla 2.1.A",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Embolia pulmonar: se estima la probabilidad con {{c1::Wells}}; si es baja o intermedia, un dímero D normal la descarta.",
+   "extra": "Si es alta o el dímero elevado: angioTAC de arterias pulmonares.",
+   "origen": "clase:5",
+   "fuente": "Clase · Disección y TEP",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la embolia pulmonar el ECG suele mostrar solo {{c1::taquicardia sinusal}}; S1Q3T3 es específico pero poco sensible.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Disección y TEP",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Neumotórax a tensión: diagnóstico {{c1::clínico}}; se descomprime con aguja sin esperar la radiografía.",
+   "extra": "Luego tubo pleural.",
+   "origen": "clase:6",
+   "fuente": "Clase · Neumotórax, Boerhaave y taponamiento",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Descompresión con aguja: 2.º espacio intercostal línea {{c1::medioclavicular}} o 5.º espacio línea axilar anterior.",
+   "extra": "",
+   "origen": "foto",
+   "imagen": "biblioteca/20_cardiologia/cardio-10/02_rx-neumotorax-izquierdo__cxr-survival-guide_fig28-7.jpg",
+   "fuente": "Libro §4 · Rx neumotórax",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Rotura esofágica: dolor tras vómitos con enfisema subcutáneo y {{c1::crujido de Hamman}}.",
+   "extra": "Confirma TAC con contraste oral o esofagograma; ayuno, antibióticos y cirugía precoz.",
+   "origen": "clase:6",
+   "fuente": "Clase · Neumotórax, Boerhaave y taponamiento",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La tríada de Beck del taponamiento: hipotensión, ingurgitación yugular y {{c1::ruidos cardíacos apagados}}.",
+   "extra": "Pulso paradójico; eco y pericardiocentesis.",
+   "origen": "clase:6",
+   "fuente": "Clase · Neumotórax, Boerhaave y taponamiento",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La pericarditis muestra ST cóncavo y difuso con PR {{c1::descendido}} y sin imagen especular.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Lo que imita al infarto",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La respuesta a la nitroglicerina {{c1::no sirve}} como prueba diagnóstica: el espasmo esofágico también calma.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Dolor no letal",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el consumo de cocaína con dolor torácico los {{c1::betabloqueadores}} están contraindicados.",
+   "extra": "Vasoespasmo y trombosis.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Dolor no letal",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Puntuación HEART de {{c1::0 a 3}} permite alta precoz; 4 a 6 observación y estudio; 7 o más hospitalización.",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Estratificación",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Hipotensión + yugulares + sin murmullo: se descomprime con aguja; el error es {{c1::esperar la radiografía}}.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · Tabla de trampas",
+   "repaso": false,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hipertenso con dolor súbito a la espalda, PA asimétrica y soplo diastólico aórtico nuevo: se pide {{c1::angioTAC de aorta}} sin esperar la troponina.",
+   "extra": "",
+   "origen": "libro:caso",
+   "fuente": "Libro · Caso clínico",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-10/01_ecg-t-hiperagudas-v2-v4__stroobandt-ecg_p165.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Ondas T hiperagudas de V2 a V4",
+   "clave": "T altas, anchas y simétricas: posible primer signo de infarto",
+   "conducta": "Repetir el ECG cada 15-30 min, troponina seriada y monitorizar",
+   "fuente": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials, p. 165",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-10/02_rx-neumotorax-izquierdo__cxr-survival-guide_fig28-7.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Neumotórax izquierdo",
+   "clave": "Línea pleural visceral con ausencia de trama vascular periférica",
+   "conducta": "Si hay tensión (hipotensión, yugulares, tráquea desviada): descompresión con aguja y tubo pleural",
+   "fuente": "The Chest X-Ray: A Survival Guide, Fig. 28.7",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/20_cardiologia/cardio-10/03_rx-aire-mediastinal-boerhaave__cxr-survival-guide_fig27-4.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Aire mediastínico por rotura esofágica (Boerhaave)",
+   "clave": "Aire en el mediastino tras vómitos violentos, con enfisema subcutáneo y fiebre",
+   "conducta": "Ayuno, antibióticos, TAC con contraste oral y reparación quirúrgica precoz",
+   "fuente": "The Chest X-Ray: A Survival Guide, Fig. 27.4",
+   "repaso": true,
+   "codigos": [
+    "1.01.4.007"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Supradesnivel o BCRI nuevo: ¿qué conducta sin esperar troponina?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "Pulsos asimétricos y soplo diastólico: ¿qué es y qué examen?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.2",
+   "pista": "Hipotensión, yugulares y sin murmullo: ¿qué haces?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.2.2",
+   "pista": "ECG y troponina seriados normales, bajo riesgo: ¿destino?"
+  }
+ ]
+}

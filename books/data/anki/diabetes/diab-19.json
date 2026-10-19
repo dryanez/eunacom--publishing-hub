@@ -1,0 +1,400 @@
+{
+  "classId": "diab-19",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El edema cerebral es la principal causa de muerte en niños con CAD: {{c1::60–90%}} de la mortalidad pediátrica.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la CAD, las neuronas generan {{c1::osmoles endógenos}} para protegerse de la hiperosmolaridad plasmática.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Gradiente osmótico inverso",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.007"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Edema cerebral: si la osmolaridad extracelular cae rápido, se crea un {{c1::gradiente osmótico inverso}} y el agua entra al cerebro.",
+      "extra": "Riesgo de herniación uncal o amigdalina.",
+      "origen": "clase:1",
+      "fuente": "Clase · Gradiente osmótico inverso",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Una caída de glicemia > {{c1::100 mg/dL por hora}}, o exceso de fluidos hipotónicos, gatilla el edema cerebral.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002",
+        "1.02.2.007"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Factor de riesgo de edema cerebral: edad menor de {{c1::5 años}} o debut de DM1.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Factores de riesgo",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Factor de riesgo: acidosis inicial severa, con pH menor de {{c1::7,10}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Factores de riesgo",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Factor de riesgo del tratamiento: más de {{c1::4 L/m²}} de fluidos en las primeras 4 horas.",
+      "extra": "Señal de agua libre en exceso: el sodio corregido no sube.",
+      "origen": "clase:2",
+      "fuente": "Clase · Factores de riesgo",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El edema cerebral aparece típicamente entre las {{c1::4 y 12 horas}} de tratamiento.",
+      "extra": "Cuando los exámenes parecen mejorar.",
+      "origen": "clase:2",
+      "fuente": "Clase · Factores de riesgo",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signos de alarma del edema cerebral: cefalea intensa de inicio súbito, {{c1::vómitos explosivos}} que reaparecen e irritabilidad seguida de somnolencia.",
+      "extra": "También incontinencia urinaria.",
+      "origen": "clase:3",
+      "fuente": "Clase · Signos de alarma",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La tríada de Cushing es {{c1::bradicardia}}, {{c2::hipertensión}} y respiración irregular.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Signos de alarma",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El marcador clínico más sensible del edema cerebral es la caída del {{c1::Glasgow}}, que se controla en forma seriada.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Signos de alarma",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ante sospecha de edema cerebral, el error es {{c1::trasladar a TAC primero}} en vez de tratar al lado de la cama.",
+      "extra": "Se pierde tiempo y puede herniar.",
+      "origen": "clase:4",
+      "fuente": "Clase · Se trata al lado de la cama",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Edema cerebral: {{c1::manitol 20%}} 0,5 a 1,0 g/kg EV en 20 minutos.",
+      "extra": "Se repite a las 2 horas si no hay respuesta.",
+      "origen": "clase:4",
+      "fuente": "Clase · Se trata al lado de la cama",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Alternativa de primera línea en edema cerebral: {{c1::NaCl 3%}}, 5 ml/kg en 10 a 15 minutos.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Se trata al lado de la cama",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Medidas concomitantes del edema cerebral: fluidos al {{c1::50%}}, cabecera a {{c2::30°}} y asegurar vía aérea.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Se trata al lado de la cama",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adolescente en UCI, 6 horas de CAD, con cefalea, vómitos explosivos, PA 140/90 y FC 54: {{c1::manitol 20% o NaCl 3% y reducir los fluidos}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz edema cerebral",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La glicemia no debe descender más de {{c1::75–100 mg/dL por hora}} para prevenir el edema cerebral.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hipofosfemia en el tratamiento de la CAD se debe a que la insulina {{c1::introduce el fósforo a la célula}}, tras pérdidas por glucosuria.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Hipofosfemia",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "La hipofosfemia leve es asintomática y {{c1::no se trata}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Hipofosfemia",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hipofosfemia severa: fósforo < {{c1::1,0 mg/dL}}.",
+      "extra": "Debilidad diafragmática, falla ventilatoria, hemólisis y rabdomiólisis.",
+      "origen": "clase:5",
+      "fuente": "Clase · Hipofosfemia",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Falla ventilatoria con debilidad muscular durante la CAD y fósforo 0,8 mg/dL: {{c1::hipofosfemia severa}}.",
+      "extra": "El fósforo es necesario para el ATP y el 2,3-DPG.",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz hipofosfemia",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hipofosfemia severa: {{c1::fosfato de potasio EV}}, 20 a 30 mmol en los fluidos, en infusión lenta.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Hipofosfemia",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hipokalemia severa por insulina: suspender la insulina e infundir {{c1::KCl 20–30 mEq/h}}.",
+      "extra": "Signos: parálisis flácida, onda U, arritmias.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hipoglicemia durante la CAD: se produce por no agregar {{c1::SG 5%}} al llegar a 200 mg/dL manteniendo la insulina.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Hipoglicemia severa en CAD en tratamiento: {{c1::glucosa 30% EV en bolo (20–50 ml)}} y agregar SG 5%.",
+      "extra": "Sin Cushing: la PA es normal y la FC alta.",
+      "origen": "clase:9",
+      "fuente": "Clase · Quiz hipoglicemia",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Estado hiperosmolar en adulto mayor postrado: se agrega profilaxis de trombosis venosa con {{c1::heparina de bajo peso molecular}}.",
+      "extra": "Deshidratación, hiperviscosidad e inmovilidad: alto riesgo trombótico.",
+      "origen": "clase:12",
+      "fuente": "Clase · Quiz EHH",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.007"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Adolescente con poliuria, polidipsia y acidosis metabólica con hiperglicemia: {{c1::cetoacidosis diabética}}.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Pregunta real Diciembre 2018",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2018 · Pregunta 16"
+      ],
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "La CAD y el EHH pertenecen al GES N° {{c1::2}} (Diabetes Mellitus), urgencia vital.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Digest · GES",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.002",
+        "1.02.2.007"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.0",
+      "pista": "Cushing en CAD en tratamiento: ¿conducta?",
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.1",
+      "pista": "Sudoroso con glicemia baja: ¿qué se da?",
+      "codigos": [
+        "1.02.2.002"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.1",
+      "pista": "Debilidad muscular con K normal: ¿qué se repone?",
+      "codigos": [
+        "1.02.2.002"
+      ]
+    }
+  ]
+}

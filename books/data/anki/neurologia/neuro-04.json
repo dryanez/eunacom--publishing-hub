@@ -1,0 +1,441 @@
+{
+  "classId": "neuro-04",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La causa más frecuente de HSA espontánea es el aneurisma sacular ({{c1::85 %}}) en bifurcaciones del polígono de Willis.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Aneurisma",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.008"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Aneurisma más frecuente: arteria comunicante {{c1::anterior}} (30–35 %).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Anatomía",
+      "repaso": true,
+      "imagen": "biblioteca/09_neurologia/neuro-04/03_localizacion-de-aneurismas__cto-neuro_p43.jpg",
+      "codigos": [
+        "1.10.2.008",
+        "6.02.2.009"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cefalea en trueno: máxima intensidad en < {{c1::1 minuto}}, EVA 10/10, a menudo con esfuerzo o Valsalva.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Clínica",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 139"
+      ],
+      "codigos": [
+        "1.10.2.001",
+        "1.10.2.008"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Sin signos meníngeos en la primera hora: {{c1::no se descarta}} HSA; aparecen a las 6–12 h.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.008",
+        "1.10.2.001"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Parálisis del III par con midriasis fija, ptosis y cefalea súbita: aneurisma de la {{c1::comunicante posterior}}.",
+      "extra": "Ojo hacia abajo y afuera.",
+      "origen": "clase:4",
+      "fuente": "Clase · Signos",
+      "repaso": false,
+      "imagen": "_verificadas/023_neuro_Hemorragia_subaracnoidea__Talley_p546.jpg",
+      "codigos": [
+        "6.02.2.009",
+        "1.10.2.001"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Parálisis del III par con pupila respetada y dolor: causa {{c1::isquémica microvascular}} (diabetes, HTA).",
+      "extra": "Se observa; recupera en 3–6 meses.",
+      "origen": "clase:5",
+      "fuente": "Clase · Tercer par",
+      "repaso": false,
+      "codigos": [
+        "6.02.2.009"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Síndrome de Terson: hemorragias {{c1::subhialoideas}} en el fondo de ojo en HSA severa.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Signos",
+      "repaso": false,
+      "imagen": "_verificadas/335_neuro_Hemorragia_subaracnoidea__KanskisCli_p736_1.jpg",
+      "codigos": [
+        "1.10.2.008",
+        "1.10.2.001"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cefalea en trueno: primer examen {{c1::TAC de encéfalo sin contraste}} inmediato.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 139"
+      ],
+      "codigos": [
+        "1.10.2.001",
+        "1.10.4.007"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Cefalea en trueno con TAC normal: {{c1::punción lumbar}} a las 6–12 h; dar el alta es error grave.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.5.002",
+        "1.10.2.001"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La PL por HSA se hace a las 6–12 h del inicio para que aparezca la {{c1::xantocromía}}.",
+      "extra": "Pigmento por bilirrubina y oxihemoglobina.",
+      "origen": "clase:21",
+      "fuente": "Quiz Perfil V3 1.10.4.007",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.008",
+        "1.10.2.001"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Prueba de los 3 tubos: en HSA los glóbulos rojos son {{c1::iguales}} y el sobrenadante xantocrómico.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Punción lumbar",
+      "repaso": false,
+      "codigos": [
+        "1.10.5.002"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Punción traumática: los glóbulos rojos {{c1::bajan del tubo 1 al 3}} y el sobrenadante es transparente.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Punción lumbar",
+      "repaso": false,
+      "codigos": [
+        "1.10.5.002"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "HSA confirmada en el TAC: el siguiente examen es {{c1::AngioTAC o angiografía cerebral}}.",
+      "extra": "El estándar de referencia es la angiografía por sustracción digital.",
+      "origen": "clase:19",
+      "fuente": "EUNACOM Agosto 2021 · Pregunta 178",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 178"
+      ],
+      "codigos": [
+        "1.10.4.003",
+        "1.10.4.007"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cefalea súbita con signos meníngeos durante el ejercicio y TAC con sangre: {{c1::hemorragia subaracnoidea}}.",
+      "extra": "",
+      "origen": "clase:17",
+      "fuente": "EUNACOM Julio 2013 · Pregunta 136",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 136",
+        "EUNACOM Diciembre 2019 · Pregunta 139"
+      ],
+      "codigos": [
+        "1.10.2.008",
+        "1.10.2.001"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hunt y Hess valora el estado {{c1::clínico}}; Fisher modificada valora el {{c2::TAC}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Escalas",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.008"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hunt y Hess V: {{c1::coma}} con descerebración; mortalidad > 70 %.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Escalas",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.008"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Fisher modificada 4: coágulo grueso + hemorragia {{c1::intraventricular}}; riesgo máximo de vasoespasmo.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Escalas",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.008"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Antes de asegurar el aneurisma, mantener la PAS < {{c1::160 mmHg}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Manejo",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.008"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Vasoespasmo: días {{c1::4 a 14}}, pico entre los días 7 y 10.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Vasoespasmo",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.008"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Nimodipino {{c1::60 mg}} cada 4 horas VO por {{c2::21 días}} desde el ingreso.",
+      "extra": "Único fármaco que reduce isquemia tardía y mortalidad.",
+      "origen": "clase:11",
+      "fuente": "Clase · Vasoespasmo",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.008"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Para prevenir vasoespasmo se mantiene {{c1::euvolemia}} con suero fisiológico; no triple H.",
+      "extra": "",
+      "origen": "clase:15",
+      "fuente": "Clase · Trampas",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.008"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hidrocefalia aguda con deterioro de conciencia: {{c1::drenaje ventricular externo}}.",
+      "extra": "Ocurre en 20–30 %.",
+      "origen": "clase:12",
+      "fuente": "Clase · Complicaciones",
+      "repaso": false,
+      "imagen": "_verificadas/145_neuro_Hemorragia_subaracnoidea__HarrisonsP_p235_1.jpg",
+      "codigos": [
+        "1.10.2.008",
+        "1.10.2.001"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hiponatremia en HSA (pérdida de sal cerebral): {{c1::suero 0.9 % o hipertónico 3 %}}; nunca restricción hídrica.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Complicaciones",
+      "repaso": true,
+      "codigos": [
+        "1.10.2.008"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "GES",
+      "texto": "GES N° 37 / urgencias neuroquirúrgicas: HSA por aneurisma roto con confirmación con {{c1::angioTAC o panangiografía}} y exclusión (coils vs clip) urgente.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · GES",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.008"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Posición para PL: decúbito lateral, espacio {{c1::L3-L4 o L4-L5}}; la línea intercrestal cruza L4.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Punción lumbar",
+      "repaso": false,
+      "codigos": [
+        "1.10.5.002"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Presión de apertura normal: {{c1::10–20 cmH₂O}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Punción lumbar",
+      "repaso": false,
+      "codigos": [
+        "1.10.5.002"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Cefalea pospunción: aparece a las 24–72 h, mejora {{c1::acostado}}.",
+      "extra": "Si persiste 48–72 h: parche hemático epidural.",
+      "origen": "clase:8",
+      "fuente": "Clase · Punción lumbar",
+      "repaso": false,
+      "codigos": [
+        "1.10.5.002"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-04/01_tc_hsa__harrison_p3325.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Hemorragia subaracnoidea en TAC",
+      "clave": "Sangre hiperdensa en cisternas basales, cisura de Silvio y ventrículos",
+      "conducta": "Angio-TAC o angiografía; UPC, nimodipino, PAS < 160 y exclusión del aneurisma en 24–72 h",
+      "fuente": "Harrison, Principios de Medicina Interna, p. 3325",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.008",
+        "1.10.4.003"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/09_neurologia/neuro-04/02_aneurisma-sacular-arteriografia__cto-neuro_p45.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Aneurisma sacular en arteriografía",
+      "clave": "Saco en bifurcación arterial del polígono de Willis",
+      "conducta": "Exclusión precoz en 24–72 h: coils de elección, clipaje en cuello ancho de ACM",
+      "fuente": "Manual CTO Neurología 14.ª ed., p. 45",
+      "repaso": false,
+      "codigos": [
+        "1.10.2.008"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "TAC normal con cefalea en trueno: ¿conducta?",
+      "codigos": [
+        "1.10.5.002"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.1.0",
+      "pista": "HSA confirmada: ¿dónde se maneja y con qué?",
+      "codigos": [
+        "1.10.2.008"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0.0",
+      "pista": "¿Cómo se previene el resangrado?",
+      "codigos": [
+        "1.10.2.008"
+      ]
+    }
+  ]
+}

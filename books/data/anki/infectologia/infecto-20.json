@@ -1,0 +1,835 @@
+{
+ "classId": "infecto-20",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La erisipela compromete la dermis {{c1::superficial}} y los linfáticos; la celulitis, la dermis profunda y el subcutáneo.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · La profundidad explica el borde",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.006",
+    "6.01.2.003"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Agente casi exclusivo de la erisipela: {{c1::Streptococcus pyogenes}} (> 90%).",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · La profundidad explica el borde",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.006",
+    "6.01.2.003"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Agentes de la celulitis: {{c1::S. aureus}} y S. pyogenes.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · La profundidad explica el borde",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.006",
+    "6.01.2.003"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Erisipela: bordes {{c1::netos y sobreelevados}}, placa rojo brillante «en piel de naranja».",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Erisipela versus celulitis",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.006",
+    "6.01.2.003"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Celulitis: bordes {{c1::difusos}} y mal delimitados, no sobreelevados, con edema con fóvea.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Erisipela versus celulitis",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.006",
+    "6.01.2.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 106",
+    "EUNACOM Diciembre 2019 · Pregunta 137"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Erisipela: inicio {{c1::súbito}} con fiebre alta y calofríos precoces.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Erisipela versus celulitis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.006",
+    "6.01.2.003"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La erisipela facial se ve en las mejillas «en alas de {{c1::mariposa}}».",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Erisipela versus celulitis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.006",
+    "6.01.2.003"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Puerta de entrada más común de la celulitis de piernas: {{c1::tinea pedis}} interdigital.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Erisipela versus celulitis",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.006",
+    "6.01.2.003"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El {{c1::linfedema}} crónico predispone a erisipela.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Erisipela versus celulitis",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.006",
+    "6.01.2.003"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Ante celulitis o erisipela, la regla de oro es {{c1::marcar el borde con lápiz}} para evaluar a las 24 y 48 horas.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Tratamiento ambulatorio",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.006",
+    "6.01.2.003"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Primera línea oral en celulitis/erisipela en Chile: {{c1::cefadroxilo}}, cefalexina o flucloxacilina.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Tratamiento ambulatorio",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.006",
+    "6.01.2.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 106",
+    "EUNACOM Diciembre 2019 · Pregunta 137"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cefadroxilo en celulitis: {{c1::500 mg}} cada 12 h.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Tratamiento ambulatorio",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.006",
+    "6.01.2.003"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Cefalexina en celulitis: 500 mg cada {{c1::6 h}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Tratamiento ambulatorio",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.006",
+    "6.01.2.003"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Flucloxacilina en celulitis: 500 mg cada {{c1::8 h}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Tratamiento ambulatorio",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.006",
+    "6.01.2.003"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El tratamiento oral de celulitis/erisipela dura {{c1::7 a 10 días}}.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Tratamiento ambulatorio",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.006",
+    "6.01.2.003"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Celulitis con alergia a betalactámicos: {{c1::clindamicina}} 300 mg cada 8 h.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Tratamiento ambulatorio",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.006",
+    "6.01.2.003"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Sospecha de SAMR comunitario: {{c1::cotrimoxazol forte}} cada 12 h.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Tratamiento ambulatorio",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.006",
+    "6.01.2.003"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En celulitis/erisipela la amoxicilina {{c1::no}} es de primera línea; se usa cefadroxilo, cefalexina o flucloxacilina.",
+   "extra": "",
+   "origen": "clase:21",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.006",
+    "6.01.2.003"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hospitalizar con terapia EV si hay toxicidad sistémica, progresión a las {{c1::48 horas}} con antibiótico oral, comorbilidad descompensada o celulitis facial.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · ¿Cuándo pasar a la vía endovenosa?",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.006",
+    "6.01.2.003"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La celulitis facial se hospitaliza por riesgo de trombosis del {{c1::seno cavernoso}}.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · ¿Cuándo pasar a la vía endovenosa?",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.006",
+    "6.01.2.003"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Terapia EV de celulitis: {{c1::cefazolina}} 1 g cada 8 h o cloxacilina.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · ¿Cuándo pasar a la vía endovenosa?",
+   "repaso": true,
+   "codigos": [
+    "1.04.1.006",
+    "6.01.2.003"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Foliculitis: pústula indolora centrada en un {{c1::vello}}, casi siempre por S. aureus.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Infecciones del folículo",
+   "repaso": true,
+   "codigos": [
+    "6.01.1.021",
+    "6.01.2.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 55"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Foliculitis: aseo con clorhexidina o {{c1::mupirocina 2%}} tópica.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Infecciones del folículo",
+   "repaso": false,
+   "codigos": [
+    "6.01.1.021",
+    "6.01.2.002"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Foliculitis tras tina caliente o piscina: {{c1::Pseudomonas aeruginosa}}, autolimitada.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Infecciones del folículo",
+   "repaso": true,
+   "codigos": [
+    "6.01.1.021",
+    "6.01.2.002"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El forúnculo es un nódulo muy doloroso con necrosis central y salida de pus, el {{c1::clavo}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Infecciones del folículo",
+   "repaso": false,
+   "codigos": [
+    "6.01.1.021",
+    "6.01.2.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 74"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Forúnculo: calor local y drenaje; antibiótico solo si hay {{c1::celulitis perilesional o signos sistémicos}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Infecciones del folículo",
+   "repaso": true,
+   "codigos": [
+    "6.01.1.021",
+    "6.01.2.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 74"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El ántrax estafilocócico son forúnculos coalescentes, típico de la {{c1::nuca o espalda}} de diabéticos.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Infecciones del folículo",
+   "repaso": true,
+   "codigos": [
+    "6.01.1.021",
+    "6.01.2.002"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "El ántrax estafilocócico requiere drenaje quirúrgico y antibiótico; {{c1::no}} es el carbunco por B. anthracis (escara negra indolora).",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Ántrax, piodermias, cultivo y drenaje",
+   "repaso": true,
+   "codigos": [
+    "6.01.1.021",
+    "6.01.2.002"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Forúnculo por SAMR (clindamicina y cefalosporina resistentes): según el banco, tratamiento oral con {{c1::linezolid}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Piodermias",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.055",
+    "1.04.5.001"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 74"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Absceso superficial: el tratamiento principal es el {{c1::drenaje}}, con incisión sobre lo fluctuante.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Ántrax, piodermias, cultivo y drenaje",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.055",
+    "1.04.5.001"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Quiste epidérmico abscedado: antibiótico antiestafilocócico (cloxacilina) más {{c1::drenaje}}; la resección es después.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Drenaje de abscesos",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.055",
+    "1.04.5.001"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 90"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tras drenar un absceso se deja mecha o taponamiento por {{c1::24-48 h}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Ántrax, piodermias, cultivo y drenaje",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.055",
+    "1.04.5.001"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Se agrega antibiótico al drenaje si hay celulitis extensa mayor de {{c1::5 cm}}, SIRS o inmunosupresión.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Ántrax, piodermias, cultivo y drenaje",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.055",
+    "1.04.5.001"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Para el Gram/cultivo se toma muestra del {{c1::pus}} aspirado, no de una costra superficial.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Ántrax, piodermias, cultivo y drenaje",
+   "repaso": false,
+   "codigos": [
+    "4.01.1.055",
+    "1.04.5.001"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Dolor intenso, flictenas, áreas violáceas y crepitación en alcohólico: {{c1::fascitis necrosante}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Piodermias",
+   "repaso": true,
+   "codigos": [
+    "4.01.1.055",
+    "1.04.5.001"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 28"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Impétigo: costras {{c1::melicéricas}} (color miel) en la cara de niños; agente S. aureus.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Piodermias",
+   "repaso": true,
+   "codigos": [
+    "6.01.1.021",
+    "2.01.1.011"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 26",
+    "EUNACOM Julio 2013 · Pregunta 90",
+    "EUNACOM Enero 2023 · Pregunta 28",
+    "EUNACOM Agosto 2021 · Pregunta 29",
+    "EUNACOM Diciembre 2017 · Pregunta 86"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Impétigo localizado sin fiebre: {{c1::mupirocina tópica}}; si es extenso, cefadroxilo.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Piodermias",
+   "repaso": true,
+   "codigos": [
+    "6.01.1.021",
+    "2.01.1.011"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2025 · Pregunta 111"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Impétigo en niños con lesiones nasales o faciales extensas: {{c1::flucloxacilina}} por 7 días.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Piodermias",
+   "repaso": true,
+   "codigos": [
+    "6.01.1.021",
+    "2.01.1.011"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 26",
+    "EUNACOM Agosto 2021 · Pregunta 29"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Impétigo buloso del lactante: agente {{c1::Staphylococcus aureus}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Piodermias",
+   "repaso": false,
+   "codigos": [
+    "6.01.1.021",
+    "2.01.1.011"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 153"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Síndrome de piel escaldada estafilocócica: en niños, con signo de {{c1::Nikolsky}}.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Ántrax, piodermias, cultivo y drenaje",
+   "repaso": false,
+   "codigos": [
+    "6.01.1.021",
+    "2.01.1.011"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las piodermias estreptocócicas pueden complicarse con {{c1::glomerulonefritis}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Piodermias",
+   "repaso": false,
+   "codigos": [
+    "6.01.1.021",
+    "2.01.1.011"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Hidradenitis supurativa: nódulos dolorosos recurrentes en axila, ingle y submamario; tratamiento con clindamicina + {{c1::rifampicina}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Piodermias",
+   "repaso": false,
+   "codigos": [
+    "6.01.1.021",
+    "2.01.1.011"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Lesión paraungueal hiperqueratósica con puntos negros en un niño: {{c1::verruga vulgar}}.",
+   "extra": "Es un diferencial no bacteriano.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Piodermias",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.011",
+    "6.01.1.021"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 43"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Múltiples pápulas pequeñas, algunas agrupadas en línea, en manos y extremidades de un niño: {{c1::verrugas planas}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Piodermias",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.011",
+    "6.01.1.021"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 13"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Lesión rosada y brillante de bordes netos en el ombligo tras caída del cordón: {{c1::granuloma umbilical}}, tratado con nitrato de plata.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Piodermias",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.011",
+    "6.01.1.021"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 152"
+   ]
+  },
+  {
+   "id": "c46",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Lactante de 3 meses con lesiones en el área del pañal: según el banco, el agente es {{c1::virus herpes zóster}}.",
+   "extra": "Respuesta del banco; verificar.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Piodermias",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.011",
+    "6.01.1.021"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 60"
+   ]
+  },
+  {
+   "id": "c47",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Lesión de 10 cm de centro oscuro con dolor local: según el banco, agente {{c1::Pseudomonas aeruginosa}}.",
+   "extra": "Respuesta del banco; verificar.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Piodermias",
+   "repaso": false,
+   "codigos": [
+    "6.01.1.021",
+    "6.01.2.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 45"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-20/01_erisipela__cto-derma_p25.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Erisipela",
+   "clave": "Placa rojo brillante con borde neto y sobreelevado",
+   "conducta": "Marcar borde; cefadroxilo o flucloxacilina oral 7 a 10 días",
+   "fuente": "Manual CTO Dermatología 14.ª ed., p. 25",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.006",
+    "6.01.2.003"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-20/02_celulitis_1__amir-infecto_p67.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Celulitis",
+   "clave": "Eritema de bordes difusos, sin relieve",
+   "conducta": "Marcar borde, buscar puerta de entrada; cefadroxilo, cefalexina o flucloxacilina",
+   "fuente": "Manual AMIR Infecciosas, p. 67",
+   "repaso": false,
+   "codigos": [
+    "1.04.1.006",
+    "6.01.2.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 106",
+    "EUNACOM Diciembre 2019 · Pregunta 137"
+   ]
+  },
+  {
+   "id": "i03",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-20/03_foliculitis__atlas208.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Foliculitis",
+   "clave": "Pústulas indoloras centradas en un vello",
+   "conducta": "Aseo con clorhexidina o mupirocina 2%",
+   "fuente": "Atlas EUNACOM 2026",
+   "repaso": false,
+   "codigos": [
+    "6.01.1.021",
+    "6.01.2.002"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 55"
+   ]
+  },
+  {
+   "id": "i04",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-20/04_furunculo-antrax__fitzpatrick_p1739.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Ántrax estafilocócico (forúnculos coalescentes)",
+   "clave": "Varios forúnculos unidos bajo la piel, en nuca o espalda de diabético",
+   "conducta": "Drenaje quirúrgico y antibiótico",
+   "fuente": "Fitzpatrick's Dermatology in General Medicine, p. 1739",
+   "repaso": false,
+   "codigos": [
+    "6.01.1.021",
+    "6.01.2.002"
+   ]
+  },
+  {
+   "id": "i05",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/07_infectologia/infecto-20/03_impetigo__cto-derma_p25.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Impétigo",
+   "clave": "Costras color miel en la cara de un niño",
+   "conducta": "Mupirocina tópica si es localizado; cefadroxilo o flucloxacilina si es extenso",
+   "fuente": "Manual CTO Dermatología 14.ª ed., p. 25",
+   "repaso": false,
+   "codigos": [
+    "6.01.1.021",
+    "2.01.1.011"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2019 · Pregunta 26",
+    "EUNACOM Julio 2013 · Pregunta 90",
+    "EUNACOM Enero 2023 · Pregunta 28"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Sepsis, falla a 48 h, comorbilidad o cara: ¿qué haces?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.0",
+   "pista": "Borde neto y sobreelevado: ¿qué es?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.0.0",
+   "pista": "Erisipela ambulatoria: ¿qué antibiótico?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.1",
+   "pista": "Borde difuso: ¿qué es y qué buscas?"
+  }
+ ]
+}

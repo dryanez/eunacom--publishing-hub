@@ -7,6 +7,7 @@
 const fs = require('fs');
 const path = require('path');
 const { accentForSpecialty } = require('./specialty_colors.cjs');
+const QIMG = require('./quiz_images.cjs');   // q.imagen del banco → diapositiva de pregunta
 
 const ROOT = path.join(__dirname, '..', '..');
 const SPECIALTIES = [
@@ -543,7 +544,8 @@ function adaptDeckToSwiss(deck, specialtyName) {
         })),
         correct: correctOpt.id || 'A',
         explanation: stripEmojis(s.explanation || 'Justificación oficial según Perfil de Conocimientos ASOFAMECh.'),
-        ref: stripEmojis(s.ref || 'Guías Clínicas GES / MINSAL 2026')
+        ref: stripEmojis(s.ref || 'Guías Clínicas GES / MINSAL 2026'),
+        ...((im => im ? { image: loadImage(im) } : {})(QIMG.imageForTag(((s.badge || '') + ' ' + (s.notes || '')).match(/EUNACOM [A-Za-zé]+ \d{4} · Pregunta \d+/)?.[0])))
       };
     } else if (s.type === 'pathway') {
       slideObj = {
@@ -654,6 +656,7 @@ const LESSONS_DIR = path.join(ROOT, 'classes', 'lessons');
 const LESSONS = fs.existsSync(LESSONS_DIR)
   ? Object.fromEntries(fs.readdirSync(LESSONS_DIR).filter(f => f.endsWith('.cjs')).map(f => {
       const l = require(path.join(LESSONS_DIR, f));
+      QIMG.attachQuizImages(l.slides);   // imagen de la pregunta real (banco, q.imagen)
       return [l.id, l];
     }))
   : {};

@@ -1,0 +1,397 @@
+{
+ "classId": "uro-04",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La incontinencia de esfuerzo es la pérdida de orina {{c1::sincrónica}} con el aumento de presión intraabdominal (tos, risa, ejercicio).",
+   "extra": "Sin deseo miccional previo.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 IUE",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 76"
+   ],
+   "codigos": [
+    "4.03.1.014",
+    "1.07.1.012"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La IUE es frecuente en mujeres {{c1::multíparas}} por debilidad del suelo pélvico e hipermovilidad uretral.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 IUE",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.014",
+    "1.07.1.012"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La incontinencia de urgencia es la manifestación del síndrome de vejiga {{c1::hiperactiva}}: contracciones involuntarias del detrusor en el llenado.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 IUU",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.014",
+    "1.07.1.012"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Cuando coexisten esfuerzo y urgencia se denomina incontinencia {{c1::mixta}}.",
+   "extra": "Se trata la que predomina; no se opera de entrada.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Mixta",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 49"
+   ],
+   "codigos": [
+    "4.03.1.014",
+    "1.07.1.012"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la incontinencia por rebalse hay goteo {{c1::continuo}} «gota a gota» porque la vejiga está sobredistendida.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Rebalse",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.014",
+    "1.07.1.012"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Causas de rebalse: uropatía obstructiva severa (HPB, estenosis) y vejiga neurogénica {{c1::atónica}} (neuropatía diabética, lesión medular baja).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Rebalse",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.014",
+    "1.07.1.012"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El rebalse se confirma con un residuo postmiccional > {{c1::100-200 mL}} (ecografía o sondaje).",
+   "extra": "En esfuerzo y urgencia el residuo es normal (< 50 mL).",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Rebalse",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.014",
+    "1.07.1.012"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Nunca dar {{c1::anticolinérgicos}} en el rebalse: precipitan retención e hidronefrosis.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Rebalse",
+   "repaso": true,
+   "codigos": [
+    "4.03.1.014",
+    "1.07.1.012"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Diabética con vejiga de 930 cc y residuo de 750 cc: vejiga neurogénica tratada con {{c1::cateterismo limpio intermitente}}.",
+   "extra": "",
+   "origen": "clase:15",
+   "fuente": "Clase · Quiz Jul 2015",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2015 · Pregunta 48"
+   ],
+   "codigos": [
+    "4.03.1.014",
+    "1.07.1.012"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Diabético con goteo sin deseo de orinar: lo primero es medir el {{c1::residuo postmiccional}}.",
+   "extra": "Cistopatía diabética.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diabético",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.014",
+    "1.07.1.012"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primera línea de la IUE: ejercicios de {{c1::Kegel}} con kinesiólogo por 8 a 12 semanas.",
+   "extra": "Antes de operar se descarta infección.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 IUE",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 112"
+   ],
+   "codigos": [
+    "4.03.1.014",
+    "1.07.1.012"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Si la IUE fracasa o es severa: cinta suburetral {{c1::TVT o TOT}}, con éxito > 85-90%.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 IUE",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.014",
+    "1.07.1.012"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Anticolinérgicos en IUE son {{c1::ineficaces}}; cirugía con mallas en IUU es un error.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla incontinencia",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.014",
+    "1.07.1.012"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primera medida en la urgencia: {{c1::reentrenamiento vesical}} y evitar cafeína, edulcorantes y tabaco.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 IUU",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.014",
+    "1.07.1.012"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Urgencia: antimuscarínicos como {{c1::oxibutinina}} 5 mg cada 8-12 h o tolterodina.",
+   "extra": "Descartar ITU antes.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 IUU",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 79",
+    "EUNACOM Diciembre 2019 · Pregunta 101",
+    "EUNACOM Diciembre 2025 · Pregunta 121",
+    "EUNACOM Julio 2019 · Pregunta 71"
+   ],
+   "codigos": [
+    "4.03.1.014",
+    "1.07.1.012"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "El {{c1::mirabegrón}} (beta-3, 50 mg/día) es de elección en ancianos: sin efectos cognitivos ni sequedad bucal.",
+   "extra": "La tolterodina da menos boca seca que la oxibutinina.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 IUU",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 131"
+   ],
+   "codigos": [
+    "4.03.1.014",
+    "1.07.1.012"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Los {{c1::tricíclicos}} están contraindicados en el adulto mayor con incontinencia de urgencia.",
+   "extra": "",
+   "origen": "clase:12",
+   "fuente": "Clase · Quiz Dic 2017",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.014",
+    "1.07.1.012"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Enuresis de aparición reciente de 2 semanas en una adulta mayor: primero descartar {{c1::infección urinaria}}.",
+   "extra": "",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic 2025",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 7"
+   ],
+   "codigos": [
+    "4.01.1.025, 1.08.1.009"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Goteo urinario continuo tras histerectomía o cesárea: sospechar {{c1::fístula vesicovaginal}}.",
+   "extra": "La clave del banco publicada (amoxicilina) es dudosa.",
+   "origen": "pregunta_real",
+   "fuente": "Pregunta real Dic 2024",
+   "repaso": false,
+   "codigos": [
+    "4.03.1.014",
+    "1.07.1.012"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La urodinamia mide presiones en el llenado y vaciado: cistomanometría y estudio de {{c1::presión-flujo}}.",
+   "extra": "Examen de centro especializado.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Urodinamia",
+   "repaso": false,
+   "codigos": [
+    "4.03.4.012"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se pide urodinamia en incontinencia mixta o dudosa, falla del tratamiento, antes de {{c1::cirugía}} y en vejiga neurogénica.",
+   "extra": "No en la IUE no complicada.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Urodinamia",
+   "repaso": false,
+   "codigos": [
+    "4.03.4.012"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En la urodinamia la urgencia muestra contracciones del {{c1::detrusor}}; la IUE, pérdida con Valsalva sin contracción.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Urodinamia",
+   "repaso": false,
+   "codigos": [
+    "4.03.4.012"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Obstrucción: presión del detrusor {{c1::alta}} con flujo bajo; detrusor hipoactivo: presión y flujo bajos.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Urodinamia",
+   "repaso": false,
+   "codigos": [
+    "4.03.4.012"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Una presión del detrusor sostenida > {{c1::40 cm de agua}} en el llenado pone en riesgo el tracto urinario superior.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Urodinamia",
+   "repaso": false,
+   "codigos": [
+    "4.03.4.012"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Goteo continuo con residuo > 200 mL: ¿tipo y conducta?",
+   "codigos": [
+    "4.03.1.014",
+    "1.07.1.012"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1.0",
+   "pista": "IUE: ¿primera línea?",
+   "codigos": [
+    "4.03.1.014",
+    "1.07.1.012"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.1",
+   "pista": "IUE que fracasa o severa: ¿cirugía?",
+   "codigos": [
+    "4.03.1.014",
+    "1.07.1.012"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.2.1",
+   "pista": "IUU: ¿fármacos de primera línea?",
+   "codigos": [
+    "4.03.1.014",
+    "1.07.1.012"
+   ]
+  }
+ ]
+}

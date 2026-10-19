@@ -1,0 +1,492 @@
+{
+  "classId": "derma-16",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tiña del cuerpo: placa anular con {{c1::borde activo}} solevantado y centro que aclara.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Dermatofitosis",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.018",
+        "6.01.4.004"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tiña del cuerpo o del pie: {{c1::terbinafina}} tópica 1% cada 12 h por 2-3 semanas.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla infecciones",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.110"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La tiña inguinal {{c1::respeta el escroto}}; el intértrigo candidiásico lo compromete con lesiones satélite.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.018",
+        "6.01.4.004"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Intértrigo candidiásico en paciente con IRC y hepatopatía: se prefiere antimicótico {{c1::tópico}}, como ketoconazol.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "Pregunta real Dic 2017 · 85",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 85"
+      ],
+      "codigos": [
+        "6.01.4.004"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pliegues mamarios con eritema, rezumación y pústulas blanquecinas en una diabética obesa: {{c1::intértrigo candidiásico}}.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "Pregunta real Jul 2013 · 176",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 176"
+      ],
+      "codigos": [
+        "6.01.1.018",
+        "6.01.4.004"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La tiña de la cabeza es exclusiva de {{c1::niños}}: placa alopécica con pelos rotos en sacapuntas.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Tiña capitis",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 20"
+      ],
+      "codigos": [
+        "6.01.1.018",
+        "2.01.1.110"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El tratamiento de la tiña capitis es siempre {{c1::oral}}; los tópicos son ineficaces.",
+      "extra": "No llegan a la raíz del folículo.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.018",
+        "6.01.4.004"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fármaco de primera línea en tiña capitis: {{c1::griseofulvina}} oral.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla infecciones",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.110"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Griseofulvina en tiña capitis: {{c1::20-25 mg/kg/día}} por 6-8 semanas.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Tiña capitis",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.018",
+        "2.01.1.110"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Onicomicosis por Trichophyton rubrum confirmada: tratamiento de elección {{c1::terbinafina}} oral.",
+      "extra": "",
+      "origen": "pregunta_real",
+      "fuente": "Pregunta real Jul 2017 · 44",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 44"
+      ],
+      "codigos": [
+        "6.01.4.004",
+        "1.04.4.003"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pitiriasis versicolor: descamación fina al raspar, signo de la {{c1::uñada}} (Besnier).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.4.004",
+        "6.01.1.018"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "KOH de pitiriasis versicolor: hifas cortas y esporas, «{{c1::espaguetis con albóndigas}}».",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.018",
+        "6.01.4.004"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de pitiriasis versicolor: champú de {{c1::ketoconazol 2%}} por 2 semanas.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla infecciones",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.110"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Sello clínico de la escabiosis: prurito {{c1::nocturno}} que afecta a varios del grupo familiar.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 144"
+      ],
+      "codigos": [
+        "6.01.1.027",
+        "6.01.1.019"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Lesión patognomónica de la escabiosis: {{c1::surco acariano}} con vesícula perlada en su extremo.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Escabiosis",
+      "repaso": true,
+      "codigos": [
+        "2.01.1.109"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En hombres, la sarna da {{c1::nódulos}} pruriginosos en escroto y pene.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Escabiosis",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 17"
+      ],
+      "codigos": [
+        "2.01.1.109"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de elección de la escabiosis: {{c1::permetrina 5%}} en crema, del cuello a los pies.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.027",
+        "6.01.1.019"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Permetrina 5% en sarna: dejar actuar {{c1::8 a 12 horas}} y repetir a los 7 días.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Permetrina",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.027",
+        "6.01.1.019"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En escabiosis se debe tratar a {{c1::todos los convivientes}} de forma simultánea, tengan o no síntomas.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2025 · Pregunta 144"
+      ],
+      "codigos": [
+        "6.01.1.027",
+        "6.01.1.019"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Ivermectina oral en escabiosis: {{c1::200 mcg/kg}} dosis única; contraindicada en embarazadas.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Escabiosis",
+      "repaso": false,
+      "codigos": [
+        "2.01.1.109"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Sarna en embarazada de 23-30 semanas: la norma chilena indica {{c1::vaselina azufrada}}.",
+      "extra": "Pregunta discutible por norma antigua.",
+      "origen": "pregunta_real",
+      "fuente": "Pregunta real Jul 2013 · 108",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2013 · Pregunta 108",
+        "EUNACOM Diciembre 2025 · Pregunta 91"
+      ],
+      "codigos": [
+        "6.01.1.027",
+        "6.01.4.004"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Escabiosis con acarotest negativo: el error es descartarla; si clínica y epidemiología calzan, {{c1::se trata}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2024 · Pregunta 4"
+      ],
+      "codigos": [
+        "6.01.4.001"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Liendres adheridas a menos de {{c1::6 mm}} del cuero cabelludo, que no se desprenden al sacudirlas, hacen el diagnóstico.",
+      "extra": "La caspa sí cae.",
+      "origen": "clase:7",
+      "fuente": "Clase · Pediculosis",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 131"
+      ],
+      "codigos": [
+        "6.01.1.019"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Pediculosis capitis: {{c1::permetrina 1%}} loción 10 minutos, repetir a los 7-10 días.",
+      "extra": "No cortar pelo, ni fumigar, ni excluir de clases.",
+      "origen": "clase:7",
+      "fuente": "Clase · Pediculosis",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 131"
+      ],
+      "codigos": [
+        "6.01.1.019"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "No confundir: permetrina {{c1::1%}} para pediculosis y 5% para escabiosis.",
+      "extra": "",
+      "origen": "clase:24",
+      "fuente": "Clase · Reglas de oro",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.019"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Pitiriasis rosada: comienza con la placa {{c1::heráldica}} (medallón) y luego «árbol de Navidad» en la espalda.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Pitiriasis rosada",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2019 · Pregunta 121"
+      ],
+      "codigos": [
+        "6.01.1.022"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-16/01_tina-corporis__amir-derma_p62.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Tiña corporis",
+      "clave": "Placa anular con borde activo descamativo y centro que aclara",
+      "conducta": "Terbinafina tópica 1% por 2-3 semanas; evitar corticoide",
+      "fuente": "Manual AMIR Dermatología, p. 62",
+      "repaso": false,
+      "codigos": [
+        "6.01.4.004",
+        "6.01.1.018"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-16/04_tina-capitis__amir-derma_p63.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Tiña capitis",
+      "clave": "Placas alopécicas con descamación y pelos rotos en sacapuntas",
+      "conducta": "Griseofulvina oral 6-8 semanas; los tópicos no sirven",
+      "fuente": "Manual AMIR Dermatología, p. 63",
+      "repaso": false,
+      "codigos": [
+        "6.01.4.004",
+        "6.01.1.018"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-16/02_pitiriasis-versicolor__cto-derma_p21.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Pitiriasis versicolor",
+      "clave": "Máculas hipo o hiperpigmentadas con descamación furfurácea en tronco",
+      "conducta": "KOH (espaguetis con albóndigas); ketoconazol champú 2%",
+      "fuente": "Manual CTO Dermatología 14.ª ed., p. 21",
+      "repaso": false,
+      "codigos": [
+        "6.01.4.004",
+        "6.01.1.018"
+      ]
+    },
+    {
+      "id": "i04",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "_verificadas/084_derma_Escabiosis__AtlasClinDx_p176.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Escabiosis (surco acarino interdigital)",
+      "clave": "Surco con vesícula perlada en espacio interdigital",
+      "conducta": "Permetrina 5% a todos los convivientes; repetir a los 7 días",
+      "fuente": "Atlas of Clinical Diagnosis, p. 176",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.027",
+        "6.01.1.019"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Placa anular descamativa: ¿dónde está ubicada?",
+      "codigos": [
+        "6.01.1.018"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.1",
+      "pista": "Placa en cuero cabelludo de un niño: ¿tratamiento?",
+      "codigos": [
+        "6.01.1.018"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1",
+      "pista": "Prurito nocturno con surcos: ¿diagnóstico y tratamiento?",
+      "codigos": [
+        "6.01.1.018"
+      ]
+    },
+    {
+      "id": "o04",
+      "nodo": "r.0.2",
+      "pista": "Máculas con signo de la uñada: ¿tratamiento?",
+      "codigos": [
+        "6.01.4.004"
+      ]
+    }
+  ]
+}

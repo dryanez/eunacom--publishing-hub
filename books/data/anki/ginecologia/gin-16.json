@@ -1,0 +1,416 @@
+{
+  "classId": "gin-16",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La torsión anexial es una emergencia {{c1::isquémica}}: rotación del ovario y la trompa sobre el ligamento infundíbulo-pélvico.",
+      "extra": "Primero se ocluye la vena, luego la arteria.",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Fisiopatología",
+      "codigos": [
+        "3.01.2.019"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Factor predisponente principal de torsión: un quiste ovárico de {{c1::5 a 10 cm}}, sobre todo teratoma (dermoide).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.2.019"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 58"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Otros factores de torsión: hiperestimulación ovárica en reproducción asistida y {{c1::embarazo temprano}} (cuerpo lúteo quístico grande).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Factores",
+      "codigos": [
+        "3.01.2.019"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Clínica de la torsión: dolor pélvico unilateral {{c1::hiperagudo}} con paroxismos y masa anexial muy dolorosa.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Torsión anexial",
+      "codigos": [
+        "3.01.2.019",
+        "3.01.2.016"
+      ],
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 63",
+        "EUNACOM Diciembre 2022 · Pregunta 113",
+        "EUNACOM Diciembre 2018 · Pregunta 175"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la torsión anexial hay náuseas y vómitos profusos en más del {{c1::80%}} de los casos.",
+      "extra": "Reflejo vagal por isquemia visceral.",
+      "origen": "clase:2",
+      "fuente": "Clase · Torsión anexial",
+      "codigos": [
+        "3.01.2.019"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tríada de sospecha de torsión: dolor hiperagudo, masa anexial palpable y {{c1::vómitos profusos}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.2.019"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Dolor en fosa ilíaca derecha con vómitos y tumor anexial en la ecografía: no es apendicitis sino {{c1::tumor anexial torcido}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz Jul 2024",
+      "codigos": [
+        "3.01.2.019",
+        "3.01.2.016"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 58",
+        "EUNACOM Julio 2016 · Pregunta 51"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ecografía de la torsión: ovario aumentado y edematoso con folículos desplazados a la {{c1::periferia}}.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Torsión anexial",
+      "codigos": [
+        "3.01.2.019"
+      ],
+      "repaso": false,
+      "imagen": "biblioteca/13_ginecologia/gin-16/01_torsion_ovarica_eco__nelson_p4303.jpg"
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Signo ecográfico del pedículo en la torsión: el signo del {{c1::remolino}} (whirlpool).",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Diagnóstico",
+      "codigos": [
+        "3.01.2.019"
+      ],
+      "repaso": true,
+      "imagen": "biblioteca/13_ginecologia/gin-16/03_signo-remolino__pocket-us_p282.jpg"
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Flujo arterial detectable en el Doppler {{c1::no descarta}} la torsión; si la sospecha clínica es alta, se opera.",
+      "extra": "Hay doble irrigación (arteria uterina).",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.2.019"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tratamiento de elección de la torsión: {{c1::laparoscopía de urgencia}} con detorsión ovárica conservadora.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.2.019"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Ovario violáceo o negruzco en la cirugía de torsión: igual se {{c1::detorsiona y conserva}}.",
+      "extra": "La ooforectomía de entrada es obsoleta.",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.2.019"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tras la detorsión, más del {{c1::90%}} de los ovarios recupera su función hormonal y folicular.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tratamiento",
+      "codigos": [
+        "3.01.2.019"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La ooforectomía se reserva para mujeres {{c1::postmenopáusicas}} o necrosis gangrenosa irreversible.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tratamiento",
+      "codigos": [
+        "3.01.2.019"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La demora diagnóstica de más de {{c1::24-36 horas}} en la torsión condiciona la pérdida irreversible del ovario.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tratamiento",
+      "codigos": [
+        "3.01.2.019"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Si hay un quiste evidente en la torsión, se puede hacer {{c1::quistectomía}} en el mismo acto o diferirla.",
+      "extra": "",
+      "origen": "libro:sec:2",
+      "fuente": "Libro §2 Tratamiento",
+      "codigos": [
+        "3.01.2.019"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El quiste ovárico hemorrágico roto ocurre en la fase lútea tardía, días {{c1::20 a 26}} del ciclo.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Quiste hemorrágico",
+      "codigos": [
+        "3.01.2.016"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Gatillante clásico del quiste hemorrágico roto: dolor {{c1::postcoital}} o tras ejercicio vigoroso.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Quiste hemorrágico",
+      "codigos": [
+        "3.01.2.016"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Ecografía del quiste hemorrágico: patrón reticular en {{c1::red de pesca}} (fibrina) y líquido libre en el Douglas.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.2.016"
+      ],
+      "repaso": true,
+      "imagen": "biblioteca/13_ginecologia/gin-16/04_quiste-hemorragico-eco__us-obgyn_p260.jpg"
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el quiste hemorrágico, el coágulo interno no tiene flujo {{c1::Doppler}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Quiste hemorrágico",
+      "codigos": [
+        "3.01.2.016"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Torsión: vómitos profusos; quiste hemorrágico roto: casi {{c1::sin vómitos}}.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · Tabla de trampas",
+      "codigos": [
+        "3.01.2.019",
+        "3.01.2.016"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Quiste hemorrágico roto en paciente hemodinámicamente estable: manejo {{c1::médico conservador}} (reposo, analgesia y observación).",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · puntos clave",
+      "codigos": [
+        "3.01.2.016"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el manejo conservador se controlan signos vitales y {{c1::hematocrito}} seriados durante 24 horas.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Conducta",
+      "codigos": [
+        "3.01.2.016"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Quiste hemorrágico con hematocrito en caída o shock: {{c1::laparoscopía hemostática}} de urgencia.",
+      "extra": "Aspirar el hemoperitoneo y coagular el lecho ovárico.",
+      "origen": "clase:5",
+      "fuente": "Clase · Quiste hemorrágico",
+      "codigos": [
+        "3.01.2.016"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dolor en fosa ilíaca izquierda con FUR hace 20 días, lesión anexial mixta y líquido libre: {{c1::cuerpo lúteo hemorrágico}}.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Jul 2017",
+      "codigos": [
+        "3.01.2.016"
+      ],
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 169"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Antes de pensar en torsión o quiste roto, en el dolor pélvico agudo de una mujer fértil se descarta embarazo con {{c1::test de embarazo}}.",
+      "extra": "El metotrexato es para el ectópico, no para estos cuadros.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro · pregunta banco AEE",
+      "codigos": [
+        "3.01.2.016"
+      ],
+      "repaso": false
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-16/01_torsion_ovarica_eco__nelson_p4303.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Torsión ovárica",
+      "clave": "Ovario aumentado y edematoso con folículos en la periferia",
+      "conducta": "Laparoscopía de urgencia con detorsión conservadora",
+      "fuente": "Nelson 22.ª ed., Fig. 590.4",
+      "codigos": [
+        "3.01.2.019"
+      ],
+      "repaso": true
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/13_ginecologia/gin-16/04_quiste-hemorragico-eco__us-obgyn_p260.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Quiste ovárico hemorrágico",
+      "clave": "Contenido reticular en red de pesca y líquido libre en Douglas",
+      "conducta": "Si está estable: manejo médico conservador; laparoscopía si hay inestabilidad",
+      "fuente": "Ultrasound in Obstetrics and Gynecology, p. 260",
+      "codigos": [
+        "3.01.2.016"
+      ],
+      "repaso": false
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "Ovario aumentado sin flujo Doppler: ¿qué conducta?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.1",
+      "pista": "Red de pesca con líquido en Douglas: ¿qué decides primero?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.1.0",
+      "pista": "Quiste hemorrágico estable: ¿manejo?"
+    },
+    {
+      "id": "o04",
+      "nodo": "r.1.1",
+      "pista": "Quiste hemorrágico inestable: ¿qué se hace?"
+    }
+  ]
+}

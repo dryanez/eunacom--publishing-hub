@@ -1,0 +1,473 @@
+{
+  "classId": "hem-20",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "La policitemia vera tiene la mutación {{c1::JAK2 V617F}} en más del {{c2::95 %}} de los casos.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · JAK2",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.018"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En la PV el receptor de EPO queda siempre activo y la EPO sérica está {{c1::suprimida}} (< 2–4 mIU/mL).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · JAK2",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.018"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La PV es una proliferación {{c1::trilineal}}: rojos, blancos y plaquetas (panmielosis).",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · JAK2",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.018"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Facies pletórica, cefalea, mareos y acúfenos en la PV se deben a {{c1::hiperviscosidad}}.",
+      "extra": "La principal causa de morbimortalidad es la trombosis arterial y venosa.",
+      "origen": "clase:2",
+      "fuente": "Clase · Policitemia vera",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.018"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Prurito {{c1::acuagénico}}: aparece minutos después de ducharse con agua caliente; típico de la PV.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Policitemia vera",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.018"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La {{c1::eritromelalgia}} es dolor urente y eritema en manos y pies, por microtrombos plaquetarios.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Policitemia vera",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.018"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Esplenomegalia palpable en el {{c1::70 %}} de los pacientes con PV.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Policitemia vera",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.018"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Criterio OMS de PV: Hb > {{c1::16,5 g/dL}} en hombres (> 16 en mujeres) o Hto > {{c2::49 %}} en hombres (> 48 % en mujeres).",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Policitemia vera",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.018"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Criterios mayores de PV: eritrocitosis, médula con {{c1::panmielosis}} y mutación JAK2 V617F; la EPO baja es criterio menor.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Policitemia vera",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.018"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Poliglobulia secundaria: EPO {{c1::alta}} y JAK2 {{c2::negativo}}.",
+      "extra": "Causas: EPOC, apnea del sueño, tabaco, altura, cáncer renal.",
+      "origen": "clase:3",
+      "fuente": "Clase · Primaria o secundaria",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.018"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Hematocrito alto: primero descartar {{c1::deshidratación}} (policitemia relativa).",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Primaria o secundaria",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.018"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Fumador o EPOC con Hto alto, EPO alta y JAK2 negativo: el error es hacer {{c1::flebotomías de entrada}}; se trata la causa.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.018"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Tratamiento de la PV: flebotomías hasta Hto < {{c1::45 %}}.",
+      "extra": "400–500 mL, 1 a 2 veces por semana al inicio.",
+      "origen": "clase:4",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.018"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En la PV se asocia aspirina {{c1::100 mg/día}} a las sangrías.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.018"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "PV de bajo riesgo: el error es indicar {{c1::quimioterapia o anticoagulación oral}}; basta sangría y aspirina.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.018"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "PV en mayor de 60 años o con trombosis previa: se agrega {{c1::hidroxiurea}}.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.018"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hto alto + prurito tras ducha + esplenomegalia: {{c1::policitemia vera}}; se pide EPO y JAK2, no se piensa en hipoxemia.",
+      "extra": "Oxigenación normal (SatO2 98 %).",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.018"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Trombocitemia esencial: plaquetas > {{c1::450.000}}/µL sostenidas, a menudo > 1.000.000.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Trombocitemia esencial",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.018"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Mutaciones de la TE: JAK2 {{c1::60 %}}, CALR {{c2::25 %}}, MPL 5 %.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Trombocitemia esencial",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.018"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La TE puede sangrar (consumo de multímeros de {{c1::von Willebrand}}) o producir trombosis microvascular.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Trombocitemia esencial",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.018"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La mielofibrosis primaria: megacariocitos atípicos liberan {{c1::PDGF y TGF-beta}} y fibrosan la médula.",
+      "extra": "Es la NMC más agresiva.",
+      "origen": "clase:6",
+      "fuente": "Clase · Mielofibrosis",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.018"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Tríada de la mielofibrosis: bazo {{c1::gigante}}, {{c2::dacriocitos}} y aspirado medular seco.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.018"
+      ],
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 9"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Bazo gigante + dacriocitos + aspirado seco: se pide {{c1::biopsia ósea}}, no repetir el mielograma.",
+      "extra": "",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.018"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El síndrome leucoeritroblástico es la presencia de {{c1::mielocitos, metamielocitos y eritroblastos}} en sangre, casi siempre con dacriocitos.",
+      "extra": "Indica médula ocupada, fibrosada o estresada.",
+      "origen": "clase:7",
+      "fuente": "Clase · Leucoeritroblástico",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.015"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Causas de síndrome leucoeritroblástico: infiltración (mama, próstata, pulmón, riñón), mielofibrosis, {{c1::tuberculosis miliar}} y hemólisis o hemorragia masiva.",
+      "extra": "",
+      "origen": "clase:7",
+      "fuente": "Clase · Leucoeritroblástico",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.015"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Eritroblastos y mielocitos en sangre con cáncer conocido: se sospecha {{c1::invasión medular}}, no infección.",
+      "extra": "Se pide LDH, fosfatasa alcalina y calcio, y se deriva para mielograma y biopsia.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.015"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el síndrome mielodisplásico la médula es {{c1::hipercelular}} pero defectuosa: hematopoyesis ineficaz.",
+      "extra": "Sangre vacía, médula llena.",
+      "origen": "clase:8",
+      "fuente": "Clase · SMD",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.017"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Frotis del SMD: neutrófilos hipogranulares con núcleo bilobulado ({{c1::Pelger-Huët}}) y pancitopenia macrocítica.",
+      "extra": "",
+      "origen": "clase:8",
+      "fuente": "Clase · SMD",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.017"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El SMD aparece con mediana de {{c1::70 años}}; cerca de {{c2::un tercio}} evoluciona a LMA.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · SMD",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.017"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Anciano con pancitopenia macrocítica: se descarta primero {{c1::déficit de B12}} antes de diagnosticar mielodisplasia.",
+      "extra": "Y causas reversibles: hipotiroidismo, alcohol, hígado, fármacos.",
+      "origen": "clase:12",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.017"
+      ]
+    },
+    {
+      "id": "c31",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El SMD se confirma con {{c1::mielograma, biopsia y citogenética}}; quimioterapia, radioterapia y benceno previos dan SMD secundario.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · SMD",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.017"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-20/03_facies_pletorica_pv__goljan_p567.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Facies pletórica de policitemia vera",
+      "clave": "Rubicundez facial y conjuntivas rojas",
+      "conducta": "Pedir EPO y JAK2; flebotomías hasta Hto < 45 % más aspirina",
+      "fuente": "Rapid Review Pathology (Goljan), p. 567",
+      "repaso": true,
+      "codigos": [
+        "1.08.1.018"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-20/02_dacriocitos__commons.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Dacriocitos (hematíes en lágrima)",
+      "clave": "Glóbulos rojos con forma de gota por la fibrosis medular",
+      "conducta": "Mielofibrosis: biopsia ósea, porque el aspirado es seco",
+      "fuente": "Wikimedia Commons, CC BY-SA 4.0",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.018"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/06_hematologia/hem-20/atlas_332_neutrofilo_pseudo_pelger_huet_.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Neutrófilo pseudo-Pelger-Huët",
+      "clave": "Núcleo en dos lóbulos y pocos gránulos",
+      "conducta": "Descartar B12 y causas reversibles; derivar para mielograma, biopsia y citogenética",
+      "fuente": "Atlas EUNACOM 2026",
+      "repaso": false,
+      "codigos": [
+        "1.08.1.017"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0.1",
+      "pista": "Hto alto con EPO baja: ¿qué diagnóstico y conducta?"
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0",
+      "pista": "Hto alto con EPO alta: ¿qué se hace?"
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.2",
+      "pista": "Bazo gigante con dacriocitos: ¿qué diagnóstico y examen?"
+    }
+  ]
+}

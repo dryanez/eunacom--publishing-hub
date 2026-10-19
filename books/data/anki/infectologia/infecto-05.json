@@ -1,0 +1,610 @@
+{
+ "classId": "infecto-05",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La TBC se transmite por {{c1::aerosoles}} desde pacientes bacilíferos (BK+).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Quimioprofilaxis TBC",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En menores de 15 años y VIH hay riesgo alto de meningitis TBC y forma {{c1::miliar}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Quimioprofilaxis TBC",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Antes de dar profilaxis a un contacto de TBC, primero se {{c1::descarta TBC activa}} con radiografía y baciloscopías.",
+   "extra": "",
+   "origen": "clase:17",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 142",
+    "EUNACOM Diciembre 2022 · Pregunta 81"
+   ],
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Contacto intradomiciliario de TBC bacilífera: se solicita {{c1::radiografía de tórax y baciloscopías}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Contacto de TBC",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 142"
+   ],
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Todo menor de {{c1::15 años}} conviviente de TBC bacilífera recibe isoniazida de entrada.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Quimioprofilaxis TBC",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En menores de 15 años contacto de TBC, la isoniazida se da {{c1::sin esperar el PPD}}.",
+   "extra": "Aunque el PPD inicial sea 0 mm.",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla Quimioprofilaxis",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Isoniazida profiláctica en niños: {{c1::10 mg/kg/día}} oral.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Quimioprofilaxis TBC",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Si el PPD inicial es negativo, se repite al {{c1::3.er mes}}.",
+   "extra": "Si sigue negativo se suspende.",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Quimioprofilaxis TBC",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Menor de 15 años con PPD que positiviza: isoniazida {{c1::6 meses}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Contacto de TBC",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Menor de 15 años con PPD persistentemente negativo: isoniazida {{c1::3 meses}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En adultos contactos solo se trata si el PPD es > {{c1::10 mm}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Quimioprofilaxis TBC",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 16"
+   ],
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "En VIH el umbral de PPD para tratar es > {{c1::5 mm}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Quimioprofilaxis TBC",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Duración de la profilaxis en VIH con PPD > 5 mm: {{c1::9 meses}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Duración de la profilaxis en adultos con PPD > 10 mm: {{c1::6 meses}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El PPD de rutina se indica solo en menores de 15 años y pacientes {{c1::VIH}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En adultos sanos contacto de TBC el PPD {{c1::no se pide de rutina}} como estudio general.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Embarazada asintomática con baciloscopías negativas y marido bacilífero: se indica {{c1::profilaxis con isoniazida}}.",
+   "extra": "",
+   "origen": "clase:1",
+   "fuente": "Clase · Contacto de TBC",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 16"
+   ],
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "RN de madre con TBC activa bacilífera: {{c1::isoniazida}} oral por 6 meses.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 RN de madre con TBC",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.009"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Isoniazida en el RN de madre con TBC: durante {{c1::6 meses}}.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Hijo de madre con TBC",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "RN de madre con TBC: la BCG se {{c1::posterga}} hasta terminar la isoniazida.",
+   "extra": "Para no neutralizar el bacilo vacunal vivo.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 RN de madre con TBC",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.009"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "RN de madre con TBC: se mantiene la {{c1::lactancia}} con mascarilla quirúrgica materna.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Hijo de madre con TBC",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Profilaxis de meningococo a contactos que pernoctan bajo el mismo techo o con secreciones en los últimos {{c1::7 días}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Profilaxis respiratoria",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.010"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Profilaxis de meningococo: rifampicina {{c1::600 mg cada 12 h por 2 días}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Profilaxis respiratoria",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.010"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Alternativa en meningococo: ciprofloxacino {{c1::500 mg}} dosis única.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Profilaxis respiratoria",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.010"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Embarazada contacto de meningococo: {{c1::ceftriaxona 250 mg IM}} dosis única.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Profilaxis respiratoria",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.010"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La profilaxis de contactos de meningitis se hace solo para meningococo y {{c1::Haemophilus influenzae b}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Profilaxis del Hib: rifampicina por {{c1::4 días}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Profilaxis respiratoria",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Profilaxis de coqueluche: {{c1::azitromicina}} oral por 5 días.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Profilaxis respiratoria",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.010"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Coqueluche: se da a contactos sintomáticos, menores de {{c1::1 año}} o embarazadas.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Profilaxis respiratoria",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.010"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Tras un pinchazo con aguja hueca el VIH tarda {{c1::48 a 72 horas}} en llegar a los ganglios.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Cortopunzante",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.001"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La PEP de VIH debe iniciarse antes de las {{c1::72 horas}} (idealmente en 2–4 h).",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Cortopunzante",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.001"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La triterapia antirretroviral de PEP dura {{c1::28 días}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Cortopunzante",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.001"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primer paso tras un cortopunzante: lavado inmediato con {{c1::agua y jabón}}.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Cortopunzante",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.001"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Al trabajador accidentado se le toma un {{c1::ELISA basal}} para documentar que no estaba infectado.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Cortopunzante",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.001"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Controles serológicos del trabajador: día 0, {{c1::6 semanas}} y 3 meses.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En un cortopunzante el error es {{c1::esperar la serología o el consentimiento de la fuente}} para dar la PEP.",
+   "extra": "",
+   "origen": "clase:4",
+   "fuente": "Clase · Pinchazo laboral",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Punción venosa: torniquete < {{c1::1 minuto}} y aguja con bisel arriba a 15–30°.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Punción y PPD",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tras una punción venosa, las agujas {{c1::no se reencapuchan}} y van a un contenedor rígido.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Punción y PPD",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "PPD: 2 UT de tuberculina intradérmica, se lee a las {{c1::48–72 horas}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 PPD",
+   "repaso": false,
+   "codigos": [
+    "1.08.5.007",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En el PPD se mide la {{c1::induración}} (diámetro transversal), no el eritema.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Punción y PPD",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Un PPD positivo indica {{c1::infección}}, no enfermedad activa.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Punción y PPD",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "El GES cubre la prevención de la {{c1::transmisión vertical}} de VIH y sífilis y el Programa Nacional de TBC.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · GES",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.4.011"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0.0",
+   "pista": "Contacto menor de 15 años sin TBC: ¿qué se indica?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1",
+   "pista": "Contacto de meningococo: ¿profilaxis?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.2",
+   "pista": "Pinchazo con sangre: ¿qué conducta?"
+  }
+ ]
+}

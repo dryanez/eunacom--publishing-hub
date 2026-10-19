@@ -1,0 +1,473 @@
+{
+  "classId": "derma-12",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La causa más frecuente de eritema multiforme es el {{c1::virus herpes simple}} (VHS-1 y 2).",
+      "extra": "Más del 70% de los casos.",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.031",
+        "6.01.1.010"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Segunda causa infecciosa de eritema multiforme, sobre todo en niños: {{c1::Mycoplasma pneumoniae}}.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.010"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La lesión patognomónica del eritema multiforme es la diana típica o en {{c1::escarapela}}, con 3 zonas concéntricas.",
+      "extra": "",
+      "origen": "libro:puntos",
+      "fuente": "Libro · Puntos clave",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.010"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Zonas de la diana típica: centro oscuro, anillo intermedio {{c1::pálido y edematoso}}, halo exterior eritematoso.",
+      "extra": "",
+      "origen": "libro:sec:1",
+      "fuente": "Libro §1 Morfología",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.010"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El eritema multiforme se distribuye en zonas {{c1::acrales}} y simétricas: dorso de manos, codos, rodillas.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Del herpes a la diana",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.010",
+        "6.01.1.031"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Eritema multiforme minor: dianas acrales, sin mucosas o con {{c1::una sola mucosa leve}}, buen estado general.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Minor vs major",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.010"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Eritema multiforme major: compromiso de {{c1::2 o más mucosas}} con fiebre, pero sin desprendimiento epidérmico.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · Minor vs major",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.010"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "En el eritema multiforme el signo de Nikolsky es {{c1::negativo}} y no hay desprendimiento epidérmico.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla EM vs SSJ",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.010"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Diana del SSJ: {{c1::atípica}}, de 2 anillos, con centro purpúrico o ampollar.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla EM vs SSJ",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.010"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El eritema multiforme se resuelve solo en {{c1::2 a 4 semanas}} sin cicatrices.",
+      "extra": "",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.010"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Manejo sintomático del eritema multiforme: antihistamínicos orales y {{c1::corticoide tópico}}.",
+      "extra": "No hay indicación de corticoide sistémico.",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.010",
+        "6.01.1.031"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "En el brote agudo con herpes labial activo se usa {{c1::aciclovir}} oral.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.031",
+        "6.01.1.010"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Profilaxis de EM recurrente por VHS: aciclovir 400 mg cada 12 h por {{c1::6 meses}}.",
+      "extra": "Previene más del 80% de las recaídas.",
+      "origen": "libro:sec:3",
+      "fuente": "Libro §3 Manejo",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.010",
+        "6.01.1.031"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Verrugas vulgares y plantares: VPH tipos {{c1::1, 2 y 4}}.",
+      "extra": "Planas: 3 y 10; condilomas: 6 y 11.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Verrugas",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.031"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La verruga vulgar tiene {{c1::puntos negros}} (capilares trombosados) en una superficie hiperqueratósica rugosa.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz verruga",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2017 · Pregunta 86"
+      ],
+      "codigos": [
+        "6.01.1.031"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La verruga plantar duele a la compresión lateral e {{c1::interrumpe los dermatoglifos}}; el callo los conserva.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Verrugas y molusco",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 177"
+      ],
+      "codigos": [
+        "6.01.1.031"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de verrugas: {{c1::ácido salicílico}} con lijado y crioterapia con nitrógeno líquido.",
+      "extra": "Derivar si no responde en 3 meses o hay condilomas.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Verrugas",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.031"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El molusco contagioso lo causa un {{c1::poxvirus}}: pápulas perladas umbilicadas de 2 a 5 mm.",
+      "extra": "En adulto con muchas lesiones se descarta VIH.",
+      "origen": "clase:4",
+      "fuente": "Clase · Verrugas y molusco",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.031"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El molusco contagioso es autolimitado en {{c1::6 a 12 meses}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Molusco",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.031"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Aciclovir 400 mg cada 8 horas por {{c1::7 a 10 días}} en la primoinfección herpética.",
+      "extra": "En recurrencias, 5 días.",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Herpes simple",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.031"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Supresión del herpes simple con aciclovir 400 mg cada 12 h si hay {{c1::6 o más}} episodios al año.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Herpes simple",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.031"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El herpes zóster es unilateral, en un dermatoma, y {{c1::no cruza la línea media}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Herpes simple y zóster",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.031"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "El antiviral en zóster idealmente se inicia dentro de las {{c1::72 horas}} del inicio.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Herpes simple y zóster",
+      "repaso": true,
+      "codigos": [
+        "6.01.1.031"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Zóster: valaciclovir {{c1::1 g cada 8 horas}} por 7 días (o aciclovir 800 mg cinco veces al día).",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Herpes zóster",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Julio 2016 · Pregunta 43"
+      ],
+      "codigos": [
+        "6.01.1.031"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Zóster en un niño con lesiones dolorosas en la espalda: tratamiento {{c1::aciclovir oral}}.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Herpes zóster",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Agosto 2021 · Pregunta 30"
+      ],
+      "codigos": [
+        "6.01.1.031"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Vesículas en la punta de la nariz (signo de {{c1::Hutchinson}}) anuncian zóster oftálmico: derivar de urgencia.",
+      "extra": "",
+      "origen": "libro:sec:4",
+      "fuente": "Libro §4 Herpes zóster",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.031"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Test de Tzanck en herpes: células gigantes {{c1::multinucleadas}} en vidrio esmerilado.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Test de Tzanck",
+      "repaso": true,
+      "codigos": [
+        "6.01.4.006"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Sensibilidad del Tzanck: {{c1::60 a 70%}}; si es negativo no descarta herpes.",
+      "extra": "Confirmar con PCR, IFD o cultivo.",
+      "origen": "clase:6",
+      "fuente": "Clase · Test de Tzanck",
+      "repaso": false,
+      "codigos": [
+        "6.01.4.006"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-12/02_lesiones-en-diana__cto-derma_p15.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Eritema multiforme (dianas típicas)",
+      "clave": "Dianas de 3 zonas acrales; antecedente de herpes labial",
+      "conducta": "Manejo ambulatorio sintomático; aciclovir si herpes activo o recurrente",
+      "fuente": "Manual CTO Dermatología 14.ª ed., p. 15",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.010",
+        "6.01.1.031"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/19_dermatologia/derma-12/11_verruga-vulgar__fitzpatrick_p1955.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Verruga vulgar (VPH)",
+      "clave": "Pápula hiperqueratósica rugosa con puntos negros",
+      "conducta": "Ácido salicílico y crioterapia; derivar si no responde en 3 meses",
+      "fuente": "Fitzpatrick's Dermatology in General Medicine, p. 1955",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.031"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/11_dermatologia/derma-12/12_molusco-contagioso-periocular__kumar-clark_p1652.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Molusco contagioso",
+      "clave": "Pápulas perladas umbilicadas de 2 a 5 mm",
+      "conducta": "Observar o curetaje/crioterapia; evitar rascado",
+      "fuente": "Kumar & Clark, Clinical Medicine, Fig. 45.28",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.031"
+      ]
+    },
+    {
+      "id": "i04",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/19_dermatologia/derma-12/10_zoster-diseminado__harrison_p1522.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Herpes zóster (diseminado)",
+      "clave": "Vesículas agrupadas en dermatoma sobre base eritematosa",
+      "conducta": "Antiviral dentro de 72 h, analgesia; derivar si oftálmico o inmunosuprimido",
+      "fuente": "Harrison 21.ª ed., p. 1522",
+      "repaso": false,
+      "codigos": [
+        "6.01.1.031"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0",
+      "pista": "Dianas acrales: ¿qué evalúas primero?",
+      "codigos": [
+        "6.01.1.010"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0",
+      "pista": "2 anillos o Nikolsky positivo: ¿qué sospechas?",
+      "codigos": [
+        "6.01.1.010"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0",
+      "pista": "Diana típica sin mucosas: ¿qué manejo?",
+      "codigos": [
+        "6.01.1.010"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+{
+ "classId": "orl-10",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La rinosinusitis aguda dura menos de {{c1::4 semanas}} y exige al menos 2 síntomas: obstrucción, rinorrea purulenta, dolor facial o hiposmia.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Rinosinusitis",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.029",
+    "6.03.1.026"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Más del {{c1::98%}} de las rinosinusitis agudas son virales y autolimitadas.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Etiología",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.029",
+    "6.03.1.026"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Solo el {{c1::0,5 a 2%}} se sobreinfecta con bacterias.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Etiología",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.029",
+    "6.03.1.026"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El resfrío inflama el complejo {{c1::ostiomeatal}}, obstruye los ostium y detiene el transporte mucociliar.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Fisiopatología",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.029",
+    "6.03.1.026"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "RSBA se diagnostica si cumple al menos uno de {{c1::3 criterios}}: persistencia ≥ 10 días, doble caída o inicio severo.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Criterios",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.029",
+    "6.03.1.026"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Criterio de persistencia: síntomas sin mejoría por ≥ {{c1::10 días}}.",
+   "extra": "Niño con 10 días y fiebre reciente con rinorrea mucopurulenta.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Persistencia",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 14"
+   ],
+   "codigos": [
+    "2.01.1.029",
+    "6.03.1.026"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Doble caída: mejora tras un resfrío de 4-5 días y {{c1::recae}} con fiebre, cefalea y rinorrea purulenta.",
+   "extra": "Niño de 6 años con 10 días que mejoró y empeoró.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Doble caída",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2025 · Pregunta 67"
+   ],
+   "codigos": [
+    "2.01.1.029",
+    "6.03.1.026"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Inicio severo: fiebre ≥ {{c1::39 °C}} con rinorrea purulenta o dolor facial por 3-4 días seguidos.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Inicio severo",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.029",
+    "6.03.1.026"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "La secreción verde o purulenta {{c1::no}} indica por sí sola infección bacteriana (lisis de neutrófilos).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Mito",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.029",
+    "6.03.1.026"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "En la rinosinusitis aguda {{c1::no se pide}} radiografía de senos: baja especificidad y muchos falsos positivos.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Radiografía",
+   "repaso": true,
+   "codigos": [
+    "2.01.1.029",
+    "6.03.1.026"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Gérmenes de la RSBA, igual que la OMA: neumococo (30-40%), H. influenzae no tipificable y {{c1::Moraxella catarrhalis}} (10%).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Gérmenes",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.029",
+    "6.03.1.026"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Primera línea de la RSBA: {{c1::amoxicilina}} oral por 7 a 10 días.",
+   "extra": "Niño de 14 días con empeoramiento; adolescente de 12 días con fiebre y rinorrea purulenta.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 59",
+    "EUNACOM Diciembre 2022 · Pregunta 139"
+   ],
+   "codigos": [
+    "2.01.1.029",
+    "6.03.1.026"
+   ]
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Dosis: niños 80-90 mg/kg/día; adultos {{c1::1 g}} cada 12 horas (o 875/125 mg).",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Dosis",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.029",
+    "6.03.1.026"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Se agrega ácido clavulánico si hubo antibiótico en los últimos 30 días, enfermedad crónica o falla a las {{c1::48-72 horas}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Clavulánico",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.029",
+    "6.03.1.026"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Coadyuvantes: lavados nasales con suero fisiológico y {{c1::corticoides intranasales}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Coadyuvantes",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.029",
+    "6.03.1.026"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Mujer de 26 años con 5 días de rinorrea que se vuelve mucopurulenta: probablemente viral, pero la pregunta oficial marcó {{c1::amoxicilina}}.",
+   "extra": "Posible discrepancia del banco: lo correcto sería tratamiento sintomático.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Discrepancia",
+   "repaso": false,
+   "preguntaReal": [
+    "EUNACOM Julio 2016 · Pregunta 143"
+   ],
+   "codigos": [
+    "2.01.1.029",
+    "6.03.1.026"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El {{c1::etmoides}} origina el 80-90% de las complicaciones orbitarias en niños, por su delgada lámina papirácea.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Orbitarias",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Chandler I, celulitis {{c1::preseptal}}: edema palpebral con visión, motilidad y pupila normales y sin proptosis.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Chandler I",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-10/01_celulitis-periorbitaria-etmoiditis__bailey-love_p743.jpg",
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Chandler II, celulitis orbitaria: {{c1::proptosis}}, oftalmoplejía dolorosa y quemosis.",
+   "extra": "Niña de 4 años con cuadro catarral, eritema periocular y proptosis.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Chandler II",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 122"
+   ],
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Chandler III, absceso subperióstico: globo desplazado hacia {{c1::abajo y afuera}}, con diplopía.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Chandler III",
+   "repaso": false,
+   "imagen": "biblioteca/17_otorrino/orl-10/02_tac-absceso-subperiostico-orbita__bailey-love_p743.jpg",
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Chandler IV, absceso orbitario: deterioro visual y defecto pupilar {{c1::aferente}} relativo.",
+   "extra": "",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Chandler IV",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Chandler V, {{c1::trombosis del seno cavernoso}}: compromiso bilateral, pares III, IV, V1, V2 y VI, y sepsis.",
+   "extra": "UCI con ceftriaxona, vancomicina y heparina.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Chandler V",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Signo orbitario: hospitalizar, TAC de senos y órbitas {{c1::con contraste}} y ceftriaxona EV + vancomicina.",
+   "extra": "Drenaje quirúrgico urgente por ORL si hay colección.",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Conducta",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.005",
+    "6.03.4.003"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Niño con rinorrea purulenta, fiebre y edema periocular: la pregunta oficial marcó {{c1::absceso periorbitario}}.",
+   "extra": "Niño de 5 años con 7 días de rinorrea y edema y eritema periocular derecho; otra pregunta oficial lo marcó sinusitis maxilar (disputada).",
+   "origen": "libro:sec:4",
+   "fuente": "Libro §4 Absceso periorbitario",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2022 · Pregunta 118",
+    "EUNACOM Enero 2023 · Pregunta 13",
+    "EUNACOM Diciembre 2018 · Pregunta 66"
+   ],
+   "codigos": [
+    "4.02.4.012"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Rinosinusitis crónica: síntomas por {{c1::12 semanas}} o más, con inflamación demostrada por endoscopía o TAC.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Crónica",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.030"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Tríada de Samter: poliposis, asma e intolerancia a {{c1::AAS}}.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Samter",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.030"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Manejo inicial de la crónica: lavados salinos y {{c1::corticoide nasal}} diario; antibiótico solo en exacerbaciones.",
+   "extra": "Obstrucción nasal de 5 años con velamiento maxilar: fluticasona nasal.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Manejo crónica",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 69",
+    "EUNACOM Diciembre 2017 · Pregunta 117"
+   ],
+   "codigos": [
+    "6.03.1.030"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Derivar a ORL si falla a {{c1::8 a 12 semanas}}, enfermedad unilateral, sospecha de tumor o complicación.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Derivación",
+   "repaso": false,
+   "codigos": [
+    "6.03.1.030"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La {{c1::TAC}} de cavidades perinasales es el examen de elección en crónica refractaria, cirugía, enfermedad unilateral o complicación.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 TAC",
+   "repaso": false,
+   "codigos": [
+    "6.03.4.003"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La escala de {{c1::Lund-Mackay}} cuantifica la TAC de 0 a 24.",
+   "extra": "Los hallazgos son frecuentes en asintomáticos.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Lund-Mackay",
+   "repaso": false,
+   "codigos": [
+    "6.03.4.003"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En menores de 6 años el seno {{c1::frontal}} no está desarrollado; nivel hidroaéreo tras trauma sugiere hemosinus.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Radiografía",
+   "repaso": false,
+   "codigos": [
+    "2.01.4.008",
+    "6.03.4.001"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Las infecciones de vía aérea superior son virales y autolimitadas (7 a 10 días); se tratan con {{c1::paracetamol}}, hidratación y reposo.",
+   "extra": "Adulto de 38 años con fiebre, mialgias y tos seca.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 IVAS",
+   "repaso": true,
+   "preguntaReal": [
+    "EUNACOM Diciembre 2018 · Pregunta 10"
+   ],
+   "codigos": [
+    "1.05.1.022",
+    "6.03.1.026"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-10/01_celulitis-periorbitaria-etmoiditis__bailey-love_p743.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Celulitis preseptal por etmoiditis",
+   "clave": "Edema y eritema palpebral",
+   "conducta": "Antibiótico oral si la motilidad y la visión son normales",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 46.47",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.005"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/17_otorrino/orl-10/02_tac-absceso-subperiostico-orbita__bailey-love_p743.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "TAC: absceso subperióstico",
+   "clave": "Colección junto a la pared medial de la órbita que empuja el globo",
+   "conducta": "TAC con contraste y drenaje quirúrgico",
+   "fuente": "Bailey & Love 27.ª ed., Fig. 46.48",
+   "repaso": false,
+   "codigos": [
+    "2.01.1.005"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0",
+   "pista": "Rinosinusitis con proptosis o baja visual: ¿qué es y qué se hace?",
+   "codigos": [
+    "6.03.1.026",
+    "2.01.1.029"
+   ]
+  },
+  {
+   "id": "o02",
+   "nodo": "r.1",
+   "pista": "Rinosinusitis sin signos orbitarios: ¿qué criterios buscas?",
+   "codigos": [
+    "6.03.1.026",
+    "2.01.1.029"
+   ]
+  },
+  {
+   "id": "o03",
+   "nodo": "r.1.0",
+   "pista": "Sinusitis bacteriana: ¿tratamiento?",
+   "codigos": [
+    "6.03.1.026",
+    "2.01.1.029"
+   ]
+  },
+  {
+   "id": "o04",
+   "nodo": "r.1.1",
+   "pista": "Sinusitis probablemente viral: ¿tratamiento?",
+   "codigos": [
+    "6.03.1.026",
+    "2.01.1.029"
+   ]
+  }
+ ]
+}

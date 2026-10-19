@@ -1,0 +1,703 @@
+{
+ "classId": "resp-10",
+ "cards": [
+  {
+   "id": "c01",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Sintomático respiratorio: persona con tos y expectoración por {{c1::2 semanas (15 días)}} o más.",
+   "extra": "Se estudia de inmediato con examen bacteriológico y molecular.",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.036",
+    "1.05.3.003"
+   ]
+  },
+  {
+   "id": "c02",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La TBC en Chile tiene {{c1::GES}}: diagnóstico, tratamiento y seguimiento gratuitos para todos, independiente de la previsión.",
+   "extra": "",
+   "origen": "clase:2",
+   "fuente": "Clase · Una enfermedad de salud pública",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.036",
+    "1.05.3.003"
+   ]
+  },
+  {
+   "id": "c03",
+   "modelo": "cloze",
+   "tipo": "GES",
+   "texto": "La garantía GES de tuberculosis cubre {{c1::todas sus formas}} (acceso, diagnóstico y tratamiento).",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 GES",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.036",
+    "1.05.3.003"
+   ]
+  },
+  {
+   "id": "c04",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El programa de control de TBC del MINSAL se llama {{c1::PROCET}}.",
+   "extra": "",
+   "origen": "libro:sec:1",
+   "fuente": "Libro §1 Definición operativa",
+   "repaso": false,
+   "codigos": [
+    "1.05.3.003"
+   ]
+  },
+  {
+   "id": "c05",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El tratamiento se da bajo modalidad {{c1::DOTS / TAES}} (observado) en el centro de salud.",
+   "extra": "Asegura adherencia y previene resistencias.",
+   "origen": "clase:2",
+   "fuente": "Clase · Tratamiento observado",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.036",
+    "1.05.3.003"
+   ]
+  },
+  {
+   "id": "c06",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Método de elección inicial normado por MINSAL para diagnóstico de TBC: {{c1::GeneXpert MTB/RIF}} (PCR en tiempo real).",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diagnóstico molecular",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.004",
+    "1.04.4.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2024 · Pregunta 115"
+   ]
+  },
+  {
+   "id": "c07",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "El GeneXpert detecta M. tuberculosis en menos de {{c1::2 horas}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.015"
+   ]
+  },
+  {
+   "id": "c08",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "GeneXpert detecta mutaciones del gen {{c1::rpoB}}, que dan resistencia a rifampicina.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Tres exámenes",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.015"
+   ]
+  },
+  {
+   "id": "c09",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Con baciloscopías negativas y alta sospecha de TBC (hemoptisis, baja de peso), el siguiente examen es la {{c1::PCR para M. tuberculosis}}.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.015",
+    "1.05.4.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 92"
+   ]
+  },
+  {
+   "id": "c10",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Una baciloscopía negativa {{c1::no descarta}} TBC: se espera cultivo, TAC o broncoscopía.",
+   "extra": "",
+   "origen": "clase:24",
+   "fuente": "Clase · Reglas de oro",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Enero 2023 · Pregunta 92"
+   ]
+  },
+  {
+   "id": "c11",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "La baciloscopía se pide en {{c1::2 muestras}} de esputo: una inmediata y otra matinal en ayunas al día siguiente.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Baciloscopías",
+   "repaso": true,
+   "codigos": [
+    "1.05.4.004"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2013 · Pregunta 49",
+    "EUNACOM Julio 2017 · Pregunta 99",
+    "EUNACOM Julio 2016 · Pregunta 152",
+    "EUNACOM Diciembre 2017 · Pregunta 17",
+    "EUNACOM Diciembre 2019 · Pregunta 65"
+   ]
+  },
+  {
+   "id": "c12",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La baciloscopía (Ziehl-Neelsen o auramina) detecta {{c1::BAAR}} y cuantifica la baciliferia.",
+   "extra": "Estima cuánto contagia.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Baciloscopías",
+   "repaso": false,
+   "codigos": [
+    "1.05.4.004"
+   ],
+   "imagen": "_web/164_resp_Tuberculosis__Commons_2.jpg"
+  },
+  {
+   "id": "c13",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "El cultivo de Koch es el {{c1::estándar de oro}} y es obligatorio en todas las muestras.",
+   "extra": "Permite pruebas de susceptibilidad a drogas.",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Cultivo",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.007",
+    "1.05.4.004"
+   ]
+  },
+  {
+   "id": "c14",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Medios de cultivo: Löwenstein-Jensen o medio líquido {{c1::MGIT}}.",
+   "extra": "",
+   "origen": "clase:3",
+   "fuente": "Clase · Tres exámenes",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.007"
+   ]
+  },
+  {
+   "id": "c15",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Esquema primario del caso nuevo sensible: {{c1::2 RHZE + 4 RH}}.",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.036",
+    "1.05.3.003"
+   ]
+  },
+  {
+   "id": "c16",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Duración total del esquema primario en TBC pulmonar: {{c1::6 meses}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.036",
+    "1.05.3.003"
+   ]
+  },
+  {
+   "id": "c17",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Fase inicial: {{c1::2 meses}} (50 dosis diarias) con 4 fármacos.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.036",
+    "1.05.3.003"
+   ]
+  },
+  {
+   "id": "c18",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Fase de continuación (4 meses, 100 dosis): {{c1::rifampicina + isoniazida}}.",
+   "extra": "",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.036",
+    "1.05.3.003"
+   ]
+  },
+  {
+   "id": "c19",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "TBC meníngea u osteoarticular: tratamiento total de {{c1::12 meses}} (2 RHZE + 10 RH).",
+   "extra": "",
+   "origen": "libro:puntos",
+   "fuente": "Libro · Puntos clave",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.036",
+    "1.05.3.003"
+   ]
+  },
+  {
+   "id": "c20",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "En TBC meníngea se asocian {{c1::corticoides}} (dexametasona o prednisona) las primeras 6 a 8 semanas.",
+   "extra": "Disminuyen secuelas neurológicas y mortalidad.",
+   "origen": "clase:5",
+   "fuente": "Clase · Formas especiales",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c21",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "TBC pleural: {{c1::6 meses}} sin cambios de esquema; exudado linfocítico con ADA > 40.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Formas especiales",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c22",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "TBC miliar: patrón en {{c1::grano de mijo}}, se trata 6 a 12 meses.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Formas especiales",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.036"
+   ],
+   "imagen": "biblioteca/02_neumologia/resp-10/02_tbc-miliar__cto-radiologia_p13.jpg"
+  },
+  {
+   "id": "c23",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Dosis de rifampicina: {{c1::10 mg/kg}} (máximo 600 mg); isoniazida 5 mg/kg (máximo 300 mg).",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Dosis",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c24",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Pirazinamida {{c1::25 mg/kg}} y etambutol 15–20 mg/kg, solo en los 2 primeros meses.",
+   "extra": "",
+   "origen": "clase:5",
+   "fuente": "Clase · Dosis",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c25",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "La isoniazida produce {{c1::neuropatía periférica}} y hepatitis.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla fármacos",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c26",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "La neuropatía por isoniazida se previene con {{c1::piridoxina (vitamina B6)}} 25–50 mg/día.",
+   "extra": "Diabéticos, alcohólicos, desnutridos, embarazadas, IRC.",
+   "origen": "clase:6",
+   "fuente": "Clase · Isoniazida y rifampicina",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c27",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Parestesias en los pies durante RHZE: se agrega {{c1::piridoxina}} y {{c2::no se suspende}} el esquema.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Del síntoma al fármaco",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c28",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "La rifampicina tiñe orina, saliva y lágrimas de color {{c1::rojo-anaranjado}}: efecto benigno.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla fármacos",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c29",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Orina anaranjada en tratamiento con rifampicina: la conducta es {{c1::no suspender}} el fármaco.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Del síntoma al fármaco",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c30",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "La rifampicina es potente inductor del {{c1::citocromo P450}}: ojo con anticonceptivos, antirretrovirales y anticoagulantes.",
+   "extra": "",
+   "origen": "clase:6",
+   "fuente": "Clase · Isoniazida y rifampicina",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c31",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "El fármaco más hepatotóxico del esquema es la {{c1::pirazinamida}}.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla fármacos",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c32",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "La pirazinamida causa {{c1::hiperuricemia}} y puede gatillar crisis de gota.",
+   "extra": "",
+   "origen": "clase:7",
+   "fuente": "Clase · Pirazinamida y etambutol",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c33",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "El etambutol causa {{c1::neuritis óptica retrobulbar}} dosis-dependiente.",
+   "extra": "",
+   "origen": "libro:tabla",
+   "fuente": "Libro · tabla fármacos",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c34",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Si el paciente confunde el rojo y el verde (discromatopsia), se {{c1::suspende el etambutol}} de inmediato.",
+   "extra": "",
+   "origen": "clase:8",
+   "fuente": "Clase · Del síntoma al fármaco",
+   "repaso": true,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  },
+  {
+   "id": "c35",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "Contacto estrecho: convive o comparte ≥ {{c1::6 horas}} diarias con el caso bacilífero.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 Contactos",
+   "repaso": false,
+   "codigos": [
+    "1.05.3.003",
+    "1.04.3.009"
+   ]
+  },
+  {
+   "id": "c36",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Todo contacto estrecho recibe anamnesis, examen y {{c1::radiografía de tórax}} para descartar enfermedad activa.",
+   "extra": "",
+   "origen": "clase:9",
+   "fuente": "Clase · Estudio de contactos",
+   "repaso": true,
+   "codigos": [
+    "1.05.3.003",
+    "1.04.3.009"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2019 · Pregunta 142"
+   ]
+  },
+  {
+   "id": "c37",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La terapia preventiva (TPT) es obligatoria en contactos {{c1::menores de 5 años}} y personas con VIH, con Rx normal y asintomáticos.",
+   "extra": "Sin esperar PPD ni IGRA.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 TPT",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.009",
+    "1.05.3.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 21",
+    "EUNACOM Diciembre 2022 · Pregunta 81"
+   ]
+  },
+  {
+   "id": "c38",
+   "modelo": "cloze",
+   "tipo": "Farmaco",
+   "texto": "Esquema habitual de TPT: {{c1::isoniazida}} 10 mg/kg/día (máx. 300 mg) por 6 meses.",
+   "extra": "Alternativa: rifampicina por 4 meses.",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 TPT",
+   "repaso": true,
+   "codigos": [
+    "1.04.3.009"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2017 · Pregunta 21",
+    "EUNACOM Diciembre 2017 · Pregunta 16"
+   ]
+  },
+  {
+   "id": "c39",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "Embarazada asintomática, contacto de bacilífero y PPD positivo: se indica profilaxis con {{c1::isoniazida}} por 6 meses.",
+   "extra": "",
+   "origen": "libro:sec:5",
+   "fuente": "Libro §5 TPT",
+   "repaso": false,
+   "codigos": [
+    "1.04.3.009"
+   ],
+   "preguntaReal": [
+    "EUNACOM Diciembre 2017 · Pregunta 16"
+   ]
+  },
+  {
+   "id": "c40",
+   "modelo": "cloze",
+   "tipo": "Trampa",
+   "texto": "Contacto sintomático con baciloscopías negativas pero prueba de TBC positiva (quantiferón): {{c1::se inicia el tratamiento}} antituberculoso.",
+   "extra": "",
+   "origen": "algoritmo",
+   "fuente": "Algoritmo",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.036",
+    "1.05.3.003"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 152"
+   ]
+  },
+  {
+   "id": "c41",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "En TBC activa, es esperable que las baciloscopías sigan positivas hasta el {{c1::tercer mes}}; no implica fracaso.",
+   "extra": "El fracaso se define con cultivo positivo.",
+   "origen": "libro:sec:3",
+   "fuente": "Libro §3 Tratamiento",
+   "repaso": false,
+   "codigos": [
+    "1.04.4.007",
+    "1.05.1.036"
+   ],
+   "preguntaReal": [
+    "EUNACOM Julio 2024 · Pregunta 140"
+   ]
+  },
+  {
+   "id": "c42",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "VIH con tos mucopurulenta hemoptoica, baja de peso y fiebre: se solicita {{c1::PCR (GeneXpert) para TBC}}.",
+   "extra": "",
+   "origen": "libro:sec:2",
+   "fuente": "Libro §2 Diagnóstico molecular",
+   "repaso": true,
+   "codigos": [
+    "1.04.4.015"
+   ],
+   "preguntaReal": [
+    "EUNACOM Agosto 2021 · Pregunta 149",
+    "EUNACOM Agosto 2021 · Pregunta 26",
+    "EUNACOM Diciembre 2025 · Pregunta 132"
+   ]
+  },
+  {
+   "id": "c43",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La BCG protege las formas graves de la infancia: {{c1::meníngea y miliar}}.",
+   "extra": "No evita la TBC del adulto.",
+   "origen": "clase:10",
+   "fuente": "Clase · BCG",
+   "repaso": false,
+   "codigos": [
+    "1.05.3.005"
+   ]
+  },
+  {
+   "id": "c44",
+   "modelo": "cloze",
+   "tipo": "Cifra",
+   "texto": "BCG: una dosis al recién nacido de peso ≥ {{c1::2.000 g}}; no se revacuna.",
+   "extra": "",
+   "origen": "clase:10",
+   "fuente": "Clase · BCG",
+   "repaso": false,
+   "codigos": [
+    "1.05.3.005"
+   ]
+  },
+  {
+   "id": "c45",
+   "modelo": "cloze",
+   "tipo": "Concepto",
+   "texto": "La BCG está contraindicada en {{c1::inmunosuprimidos}} (VIH sintomático).",
+   "extra": "",
+   "origen": "libro:sec:6",
+   "fuente": "Libro §6 Vacunación",
+   "repaso": false,
+   "codigos": [
+    "1.05.3.005"
+   ]
+  },
+  {
+   "id": "i01",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-10/01_tbc-ghon-cavitacion__cto-radiologia_p14.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Tuberculosis pulmonar con cavitación",
+   "clave": "Cavidad en lóbulo superior en paciente sintomático respiratorio",
+   "conducta": "Estudio con GeneXpert, baciloscopía y cultivo; notificar; esquema 2 RHZE + 4 RH",
+   "fuente": "Manual CTO Radiología 14.ª ed., p. 14",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.036",
+    "1.05.3.003"
+   ]
+  },
+  {
+   "id": "i02",
+   "modelo": "imagen",
+   "tipo": "Imagen",
+   "imagen": "biblioteca/02_neumologia/resp-10/02_tbc-miliar_alt1__cto-infecto_p66.jpg",
+   "pregunta": "¿Qué muestra y qué haces?",
+   "diagnostico": "Tuberculosis miliar",
+   "clave": "Patrón micronodular difuso en grano de mijo",
+   "conducta": "Tratamiento de 6 a 12 meses según compromiso",
+   "fuente": "Manual CTO Infecciosas 14.ª ed., p. 66",
+   "repaso": false,
+   "codigos": [
+    "1.05.1.036"
+   ]
+  }
+ ],
+ "occlusion": [
+  {
+   "id": "o01",
+   "nodo": "r.0.0",
+   "pista": "Baciloscopía negativa con alta sospecha: ¿qué sigue?"
+  },
+  {
+   "id": "o02",
+   "nodo": "r.0.1.1",
+   "pista": "TBC meníngea u osteoarticular: ¿qué esquema?"
+  },
+  {
+   "id": "o03",
+   "nodo": "r.0.1.2",
+   "pista": "Contacto menor de 5 o VIH con Rx normal: ¿qué conducta?"
+  },
+  {
+   "id": "o04",
+   "nodo": "r.0.1.0",
+   "pista": "Forma pulmonar: ¿qué esquema?"
+  }
+ ]
+}

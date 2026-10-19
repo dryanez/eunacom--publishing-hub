@@ -1,0 +1,485 @@
+{
+  "classId": "diab-24",
+  "cards": [
+    {
+      "id": "c01",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La complicación más grave de la hipertrigliceridemia severa no es el infarto sino la {{c1::pancreatitis aguda}}.",
+      "extra": "Más necrosis que la biliar o alcohólica.",
+      "origen": "clase:1",
+      "fuente": "Clase · Triglicéridos y páncreas",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c02",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con triglicéridos muy elevados el suero se ve {{c1::lechoso (lactescente)}}.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Triglicéridos y páncreas",
+      "repaso": false,
+      "imagen": "biblioteca/04_diabetes/diab-24/01_plasma_lipemico__commons.jpg",
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "i01",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/04_diabetes/diab-24/01_plasma_lipemico__commons.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Plasma lipémico (lactescente)",
+      "clave": "Plasma blanco lechoso por exceso de triglicéridos",
+      "conducta": "TG sobre 500: fibrato, cero alcohol y dieta; vigilar pancreatitis",
+      "fuente": "Wikimedia Commons «Lipemic plasma.jpg», CC BY-SA 3.0",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c03",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Los quilomicrones y VLDL ocluyen los capilares pancreáticos y la lipasa libera {{c1::ácidos grasos libres}} citotóxicos.",
+      "extra": "",
+      "origen": "clase:1",
+      "fuente": "Clase · Triglicéridos y páncreas",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c04",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Triglicéridos 150–199 mg/dL: categoría {{c1::límite alto}}; manejo con estilo de vida.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de triglicéridos",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c05",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Triglicéridos 200–499 mg/dL: moderadamente alto; se da estatina si el riesgo CV es {{c1::alto}}.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de triglicéridos",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c06",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Triglicéridos {{c1::500–999 mg/dL}}: severo, con riesgo inminente de pancreatitis; fibrato.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de triglicéridos",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c07",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Triglicéridos ≥ {{c1::1.000 mg/dL}}: crítico, con quilomicronemia; fibrato inmediato, cero alcohol y dieta casi sin grasa.",
+      "extra": "",
+      "origen": "libro:tabla",
+      "fuente": "Libro · tabla de triglicéridos",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c08",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con TG sobre 500, la prioridad es {{c1::evitar la pancreatitis}}, no el LDL ni el riesgo cardiovascular.",
+      "extra": "",
+      "origen": "clase:2",
+      "fuente": "Clase · El nivel decide la prioridad",
+      "repaso": false,
+      "preguntaReal": [
+        "EUNACOM Julio 2024 · Pregunta 77"
+      ],
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c09",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con TG bajo 500 y LDL alto, la prioridad es el LDL y se indica {{c1::estatina}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Enero 2023 · Pregunta 152",
+        "EUNACOM Julio 2013 · Pregunta 110",
+        "EUNACOM Agosto 2021 · Pregunta 89",
+        "EUNACOM Julio 2017 · Pregunta 8"
+      ],
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c10",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En TG sobre 500–1.000 asintomático, el error es indicar {{c1::estatina de alta intensidad}} pensando en el infarto.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c11",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Fibrato de primera línea: {{c1::fenofibrato 160–200 mg/día}} o gemfibrozilo 600 mg cada 12 horas.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento urgente",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c12",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Junto al fibrato, el alcohol se {{c1::prohíbe por completo}}; aumenta la síntesis hepática de triglicéridos.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento urgente",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c13",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En TG severos la grasa de la dieta se restringe a < {{c1::15–20%}} de las calorías, sin azúcares simples ni fructosa.",
+      "extra": "",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento urgente",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c14",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "Si hay que combinar fibrato con estatina se usa {{c1::fenofibrato}}, nunca gemfibrozilo.",
+      "extra": "El gemfibrozilo multiplica el riesgo de rabdomiólisis por 15 a 20 veces.",
+      "origen": "clase:3",
+      "fuente": "Clase · Tratamiento urgente",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c15",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Usuario de atorvastatina con TG 860: se {{c1::reemplaza la estatina por gemfibrozilo}} en vez de agregarlo.",
+      "extra": "",
+      "origen": "clase:11",
+      "fuente": "Clase · Quiz Diciembre 2017",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2017 · Pregunta 41"
+      ],
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c16",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Obeso con 5 cervezas diarias, TG 1.450 y suero lactescente: fibrato, {{c1::suspender el alcohol}} y dieta muy baja en grasas.",
+      "extra": "",
+      "origen": "clase:14",
+      "fuente": "Clase · Quiz Perfil V3",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c17",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Con TG 650 en bebedor de alcohol, la medida dietética más importante es {{c1::suspender el alcohol y reducir azúcares simples}}.",
+      "extra": "",
+      "origen": "clase:16",
+      "fuente": "Clase · Quiz dieta",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.011"
+      ]
+    },
+    {
+      "id": "c18",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dolor epigástrico en faja tras alcohol, con íleo: {{c1::pancreatitis aguda}}.",
+      "extra": "Se confirma con lipasa o amilasa sobre 3 veces lo normal.",
+      "origen": "clase:15",
+      "fuente": "Clase · Quiz Julio 2017",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c19",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "La hipercolesterolemia familiar heterocigota es {{c1::autosómica dominante}}, 1 de cada 250 a 300 personas.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hipercolesterolemia familiar",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c20",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "En la hipercolesterolemia familiar la mutación es del receptor de LDL en más del {{c1::85%}} de los casos.",
+      "extra": "También APOB o ganancia de función de PCSK9.",
+      "origen": "clase:4",
+      "fuente": "Clase · Hipercolesterolemia familiar",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c21",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Hipercolesterolemia familiar: LDL entre {{c1::190 y 350 mg/dL}} con triglicéridos normales.",
+      "extra": "",
+      "origen": "clase:4",
+      "fuente": "Clase · Hipercolesterolemia familiar",
+      "repaso": true,
+      "preguntaReal": [
+        "EUNACOM Diciembre 2019 · Pregunta 134"
+      ],
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c22",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "El signo patognomónico de la hipercolesterolemia familiar son los {{c1::xantomas tendinosos}} (Aquiles y extensores de la mano).",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Estigmas",
+      "repaso": true,
+      "imagen": "biblioteca/04_diabetes/diab-24/02_xantomas-tendinosos__fitzpatrick_p1311.jpg",
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "i02",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/04_diabetes/diab-24/02_xantomas-tendinosos__fitzpatrick_p1311.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Xantoma tendinoso del Aquiles (hipercolesterolemia familiar)",
+      "clave": "Engrosamiento nodular indoloro del tendón de Aquiles",
+      "conducta": "LDL > 190 con TG normales: estatina máxima + ezetimiba ± iPCSK9, de por vida",
+      "fuente": "Fitzpatrick 7.ª ed., Fig. 135-4",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c23",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Arco corneal prematuro: anillo grisáceo en la periferia de la córnea antes de los {{c1::45 años}}.",
+      "extra": "",
+      "origen": "foto",
+      "fuente": "Clase · Estigmas",
+      "repaso": false,
+      "imagen": "biblioteca/04_diabetes/diab-24/03_arco-corneal__bates_p306.jpg",
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "i03",
+      "modelo": "imagen",
+      "tipo": "Imagen",
+      "imagen": "biblioteca/04_diabetes/diab-24/03_arco-corneal__bates_p306.jpg",
+      "pregunta": "¿Qué muestra y qué haces?",
+      "diagnostico": "Arco corneal prematuro",
+      "clave": "Anillo lipídico grisáceo en el borde de la córnea en menor de 45 años",
+      "conducta": "Sospechar hipercolesterolemia familiar: perfil lipídico e historia familiar",
+      "fuente": "Bates' Guide to Physical Examination, p. 306",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c24",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Coronaria precoz en familiar de 1.er grado: hombre menor de {{c1::55}} años o mujer menor de {{c2::65}}.",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Estigmas",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c25",
+      "modelo": "cloze",
+      "tipo": "Farmaco",
+      "texto": "Tratamiento de la hipercolesterolemia familiar: estatina de alta potencia a dosis máxima + {{c1::ezetimiba}} ± inhibidor de PCSK9 (evolocumab).",
+      "extra": "",
+      "origen": "clase:5",
+      "fuente": "Clase · Estigmas",
+      "repaso": true,
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c26",
+      "modelo": "cloze",
+      "tipo": "Trampa",
+      "texto": "En hipercolesterolemia familiar, el error es usar {{c1::dieta sola o estatina a dosis baja}}.",
+      "extra": "",
+      "origen": "clase:9",
+      "fuente": "Clase · Tabla de trampas",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c27",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Hombre de 34 años con nódulos en el Aquiles, LDL 266 y padre con IAM a los 41: {{c1::hipercolesterolemia familiar heterocigota}}.",
+      "extra": "",
+      "origen": "clase:10",
+      "fuente": "Clase · Quiz caso clínico",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c28",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Mialgias con atorvastatina en hipercolesterolemia familiar (LDL 244): se cambia a {{c1::rosuvastatina}}, no se abandona la estatina.",
+      "extra": "",
+      "origen": "clase:13",
+      "fuente": "Clase · Quiz Diciembre 2019",
+      "repaso": false,
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "c29",
+      "modelo": "cloze",
+      "tipo": "Cifra",
+      "texto": "Dieta en hipercolesterolemia: grasas saturadas < {{c1::7–10%}} de las calorías y trans cerca de cero.",
+      "extra": "",
+      "origen": "clase:6",
+      "fuente": "Clase · Régimen dietético",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.011"
+      ]
+    },
+    {
+      "id": "c30",
+      "modelo": "cloze",
+      "tipo": "Concepto",
+      "texto": "Dieta en hipertrigliceridemia: pescados grasos {{c1::2 veces por semana}} (omega-3) y bajar 5–10% del peso.",
+      "extra": "Bajar el peso reduce los TG cerca de 20%.",
+      "origen": "clase:6",
+      "fuente": "Clase · Régimen dietético",
+      "repaso": false,
+      "codigos": [
+        "1.02.3.011",
+        "1.02.2.005"
+      ]
+    }
+  ],
+  "occlusion": [
+    {
+      "id": "o01",
+      "nodo": "r.0.0",
+      "pista": "TG sobre 500: ¿cuál es la prioridad y la conducta?",
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "o02",
+      "nodo": "r.0.0.0",
+      "pista": "Usuario de estatina con TG severos: ¿qué fibrato?",
+      "codigos": [
+        "1.02.2.005"
+      ]
+    },
+    {
+      "id": "o03",
+      "nodo": "r.0.1.0",
+      "pista": "LDL > 190 con estigmas: ¿diagnóstico y tratamiento?",
+      "codigos": [
+        "1.02.2.005"
+      ]
+    }
+  ]
+}
