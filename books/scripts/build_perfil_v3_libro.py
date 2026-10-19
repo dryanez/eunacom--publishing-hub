@@ -1,7 +1,7 @@
 # Libro único «Perfil EUNACOM V3 · Código por código» (21 especialidades, 1.556 códigos) con el diseño de los manuales AEE.
 # Índice general + índice de códigos con número de página y enlace a cada código (dos pasadas: se rinde, se leen las páginas, se vuelve a rendir).
 # Uso (desde la raíz del repo): python3 -I books/scripts/build_perfil_v3_libro.py
-import json, html, subprocess, os, re, collections
+import json, html, subprocess, os, re, collections, base64
 R = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 V = os.path.expanduser('~/fotos_tools/v3')
 CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
@@ -34,6 +34,18 @@ CM = json.load(open(R + '/books/data/v3_codemap.json'))
 M = json.load(open(R + '/books/data/v3_topic_codes.json'))
 I = json.load(open(V + '/question_index.json'))
 BANK = json.load(open(R + '/books/data/real_questions_by_code.json'))
+# audit del banco: preguntas excluidas (q.audit.excluir) no se usan; clave/explicación corregidas mandan sobre las copias
+BTAG = {}
+for _qs in BANK.values():
+    for _q in _qs: BTAG.setdefault(_q.get('recTag'), _q)
+def excluded(t): return bool(((BTAG.get(t) or {}).get('audit') or {}).get('excluir'))
+def q_img(t):
+    im = (BTAG.get(t) or {}).get('imagen') or {}
+    f = os.path.join(R, 'classes', 'media', im.get('src', '') or '_')
+    if not im.get('src') or not os.path.exists(f): return ''
+    mime = 'image/png' if f.lower().endswith('.png') else 'image/jpeg'
+    return (f'<figure class="q-img"><img src="data:{mime};base64,{base64.b64encode(open(f, "rb").read()).decode()}" alt="">'
+            f'<figcaption>Imagen representativa</figcaption></figure>')
 O = {}
 for _, k, _, _ in SPECS:
     p = V + '/cb_out_%s.json' % k
@@ -92,14 +104,16 @@ def clean(t):
     parts = re.split(r'(?<=\.)\s+(?=[A-ZÁÉÍÓÚÑ¿(])', t.replace('..', '.'))
     return ' '.join(x for x in parts if not any(f in x for f in FILLER)).strip()
 
-def qbox(s, src, real):
+def qbox(s, src, real, tag=''):
     ok = str(s['correct']).strip().upper()[:1]
     opts = ''.join(f'<li><b>{E(str(o["letter"]))}</b><span>{E(o["text"])}</span></li>' for o in s['options'])
     expl = clean(str(s.get('explanation', '')).replace('**', ''))
     if len(expl) > 520: expl = expl[:500].rsplit(' ', 1)[0] + '…'
-    return (f'<div class="q{" real" if real else ""}"><div class="q-src">{E(src)}</div>'
-            f'<p class="q-stem">{E(s["stem"])} <b>{E(s.get("question", ""))}</b></p><ol class="q-opts">{opts}</ol>'
-            f'<p class="q-ans"><b>Respuesta {E(ok)}.</b> {E(expl)}</p></div>')
+    kind = 'Real EUNACOM' if real else 'Práctica AEE'
+    head = src.split(' · ', 1)[1] if ' · ' in src else src
+    return (f'<div class="q{" real" if real else ""}"><div class="q-h"><span>{E(head)}</span><em>{kind}</em></div><div class="q-b">'
+            f'<p class="q-stem">{E(s["stem"])} <b>{E(s.get("question", ""))}</b></p>{q_img(tag) if tag else ""}<ol class="q-opts">{opts}</ol>'
+            f'<p class="q-ans"><b>Respuesta {E(ok)}</b>{(" · " + E(expl)) if expl else ""}</p></div></div>')
 
 def questions(k):
     out, seen = [], set()
@@ -108,16 +122,22 @@ def questions(k):
         if key in seen: continue
         seen.add(key)
         real = bool(x.get('real'))
+        t = str(s.get('title', ''))
+        if real and excluded(t): continue
+        if real and t in BTAG:
+            a = BTAG[t].get('audit') or {}
+            if a.get('aplicado') and a.get('clave_original') and str(s.get('correct', '')).strip()[:1] == a['clave_original']:
+                s = dict(s, correct=BTAG[t]['correcta'], explanation=BTAG[t].get('explicacion', ''))
         src = ('Pregunta real · ' + s['title']) if real else ('Pregunta del libro · ' + s['title'] if x.get('libro') else 'Pregunta de práctica')
-        out.append(qbox(s, src, real))
+        out.append(qbox(s, src, real, t if real else ''))
     titles = {x['slide'].get('title') for x in I.get(k, [])}
     for b in BANK.get(k, []):
         if (b.get('confidence') or 0) < 0.6 or b['stem'][:60] in seen: continue
         t = str(b.get('recTag', ''))
-        if t in titles: continue
+        if t in titles or (b.get('audit') or {}).get('excluir'): continue
         seen.add(b['stem'][:60])
         out.append(qbox({'stem': b['stem'].replace('**', ''), 'question': '', 'options': [{'letter': o['id'], 'text': o['text']} for o in b['options']],
-                         'correct': b['correcta'], 'explanation': str(b.get('explicacion', ''))}, 'Pregunta real · ' + t, True))
+                         'correct': b['correcta'], 'explanation': str(b.get('explicacion', ''))}, 'Pregunta real · ' + t, True, t))
     o = O.get(k, {})
     if o.get('pregunta') and o['pregunta']['stem'][:60] not in seen: out.append(qbox(o['pregunta'], 'Pregunta de práctica', False))
     return out
@@ -133,7 +153,7 @@ def promo(ncodes):
     """Dos páginas de la app antes del índice. Requiere /tmp/promo/cov_XX.jpg (portadas de los 21 tomos) y vid_*.jpg (cuadros de clases)."""
     covs = sorted(_glob.glob(PROMO + '/cov_*.jpg'))
     vids = [PROMO + '/vid_%s.jpg' % x for x in ('endo-25', 'hem-05', 'infecto-02') if os.path.exists(PROMO + '/vid_%s.jpg' % x)]
-    stats = [('+11.000', 'preguntas reales EUNACOM', 'Todos los exámenes 2013 – 2026, con explicación'), ('+300', 'videos', 'Masterclasses con algoritmos y casos clínicos'),
+    stats = [('+11.000', 'preguntas reales EUNACOM', 'Todos los exámenes 2013 – 2026, con explicación'), ('+450', 'clases en video', 'Masterclasses con algoritmos, casos clínicos y animaciones'),
              ('Reconstrucciones', 'de cada examen', 'Las preguntas tal como se tomaron, ordenadas por fecha'), ('Simulacros', 'cronometrados', 'Practica en condiciones reales de examen'),
              ('21', 'manuales AEE', 'Un tomo por especialidad, alineado al Perfil V3'), (f'{ncodes:,}'.replace(',', '.'), 'códigos del Perfil', 'Cada uno con su clase y sus preguntas')]
     tiles = ''.join(f'<div class="pr-tile"><b>{a}</b><span>{b}</span><p>{c}</p></div>' for a, b, c in stats)
@@ -144,14 +164,74 @@ def promo(ncodes):
           f'<div class="pr-offer"><div class="pr-qr">{QR}</div><div class="pr-off-t"><div class="pr-pct">25<small>%</small></div><div><b>de descuento en todos los cursos</b>'
           f'<p>Escanea el código o entra a <a href="{SITE}/?utm_source=perfil_v3_pdf">eunacom-examen.cl</a> y usa el cupón</p><span class="pr-code">{CUPON}</span></div></div></div></div></section>')
     cov_html = ''.join(f'<img src="{b64(c)}">' for c in covs)
-    vid_html = ''.join(f'<img src="{b64(v)}">' for v in vids)
-    p2 = (f'<section class="page promo2"><div class="eyebrow">La colección AEE</div><h2>21 manuales, uno por especialidad</h2><div class="rule"></div>'
-          f'<p class="lead">Los manuales siguen el Perfil V3 tema por tema: cada párrafo marca el código que enseña, con algoritmos, tablas, fotos clínicas y preguntas reales. Disponibles en la plataforma.</p>'
-          f'<div class="pr-covers">{cov_html}</div>'
-          f'<h3 class="pr-h3">Masterclasses en video</h3><p class="lead">Cada tema tiene su clase: el profesor explica el porqué, el árbol de decisión se arma en pantalla y cerramos con preguntas reales del EUNACOM. Toca «Ver clase» en cualquier ficha de esta guía.</p>'
-          f'<div class="pr-vids">{vid_html}</div>'
-          f'<a class="pr-cta" href="{SITE}/?utm_source=perfil_v3_pdf">Entra a eunacom-examen.cl · cupón {CUPON} · 25 % de descuento</a></section>')
-    return p1 + p2
+    L = lambda n: b64(f'{PROMO}/lib/{n}.jpg') if os.path.exists(f'{PROMO}/lib/{n}.jpg') else ''
+    F = lambda n: b64(f'{PROMO}/fr/{n}.jpg') if os.path.exists(f'{PROMO}/fr/{n}.jpg') else ''
+    item = lambda img, big, lab, txt: (f'<div class="lb-it"><div class="lb-cv"><img src="{img}"></div><div><b>{big}</b><span>{lab}</span><p>{txt}</p></div></div>')
+    anki = ('<div class="lb-it"><div class="anki"><div class="ak-f"><em>Anki · Cardiología</em>¿Hiperkalemia en el ECG?</div>'
+            '<div class="ak-b">T alta y simétrica, luego QRS ancho; con QRS ancho, gluconato de calcio EV primero.</div><div class="ak-v">▶ Ver en la clase 1.1</div></div>'
+            '<div><b>+17.800</b><span>tarjetas Anki</span><p>23 mazos listos para importar, con cada concepto clave del Perfil V3 enlazado a su clase en video.</p></div></div>')
+    p2 = (f'<section class="promo lib"><div class="cv-grid"></div><div class="pr-in">'
+          f'<div class="pr-kick">TODA LA BIBLIOTECA AEE · INCLUIDA EN LA PLATAFORMA</div><h2 class="pr-h">Mucho más<br>que una <span>guía</span></h2>'
+          f'<p class="pr-lead">Cada código de esta guía se estudia a fondo en nuestros libros, se practica con preguntas reales y se repasa con resúmenes, fotos clínicas y tarjetas Anki.</p>'
+          f'<div class="lb-man"><div class="lb-man-t"><b>21</b><span>manuales AEE</span><p>Uno por especialidad, tema por tema según el Perfil V3, con algoritmos, tablas y fotos clínicas.</p></div><div class="pr-covers">{cov_html}</div></div>'
+          f'<div class="lb-grid">'
+          + item(L('rec'), '2.739', 'preguntas reconstruidas', 'El Gran Libro de Reconstrucciones: 16 exámenes EUNACOM 2013–2025 tal como se tomaron, con comentario razonado.')
+          + item(L('gordo'), '90', 'preguntas por tema', '24 Libros Gordos y el Gran Libro de 1.890 preguntas con explicación de cada alternativa.')
+          + item(L('repaso'), '21', 'repasos de última hora', 'Resúmenes de alto rendimiento por especialidad para la semana del examen.')
+          + item(L('atlas'), 'Atlas', 'de imágenes clínicas', 'Las fotos que el examen muestra: lo que tienes que ver y qué hacer después.')
+          + item(L('guia'), '1.556', 'códigos, uno por uno', 'Esta guía Perfil V3 código por código: nivel exigido, dónde se enseña y preguntas de cada código.')
+          + anki + '</div></div></section>')
+    vids = ''.join(f'<figure><img src="{F(n)}"><figcaption>{c}</figcaption></figure>' for n, c in
+                   [('anim_A1_hipertension_portal_3d', 'Hipertensión portal'), ('anim_A1_crisis_propagacion_3d', 'Crisis epiléptica'), ('anim_A1_podagra_3d', 'Gota: la podagra'), ('anim_A1_cierre_angulo_3d', 'Glaucoma agudo')])
+    p3 = (f'<section class="promo vid"><div class="cv-grid"></div><div class="pr-in">'
+          f'<div class="pr-kick">MASTERCLASSES EN VIDEO · ANIMACIONES 3D</div><h2 class="pr-h">Míralo<br><span>en movimiento</span></h2>'
+          f'<p class="pr-lead">Cada tema tiene su clase: el profesor explica el porqué, el árbol de decisión se arma en pantalla y la anatomía se mueve. Toca «Ver clase» en cualquier ficha de esta guía.</p>'
+          f'<div class="vd-main"><figure class="big"><img src="{F("title_10")}"><figcaption>Así empieza cada clase</figcaption></figure>'
+          f'<figure class="big"><img src="{b64(PROMO + "/vid_hem-05.jpg") if os.path.exists(PROMO + "/vid_hem-05.jpg") else ""}"><figcaption>Lo esencial, paso a paso</figcaption></figure></div>'
+          f'<div class="vd-k">ANIMACIONES 3D DE ANATOMÍA REAL</div><div class="vd-anim">{vids}</div>'
+          f'<div class="vd-stats"><div><b>+450</b><span>clases en video</span></div><div><b>472</b><span>animaciones</span></div><div><b>+11.000</b><span>preguntas reales</span></div></div>'
+          f'<a class="pr-cta" href="{SITE}/?utm_source=perfil_v3_pdf">Entra a eunacom-examen.cl · cupón {CUPON} · 25 % de descuento</a></div></section>')
+    return p1, p2 + p3
+
+def lvcell(v):
+    if v['section'] in ('situacion', 'urgencia'):
+        return ''.join(f'<td class="ct-l">{lv("", v[x])}</td>' for x in ('dx', 'tx', 'seg'))
+    return f'<td class="ct-l" colspan="3">{lv("Nivel", v.get("nivel")) or "—"}</td>'
+
+def comp_table(spk, title, color, codes, P):
+    rows = []
+    for lab_s, lab in SEC:
+        cs = [k for k in codes if CM[k]['section'] == lab_s]
+        if not cs: continue
+        rows.append(f'<tr class="ct-sec"><td colspan="6">{E(lab)} · {len(cs)} códigos</td></tr>')
+        rows += [f'<tr><td class="ct-k"><a href="#c-{k}">{k}</a></td><td class="ct-n"><a href="#c-{k}">{E(CM[k]["name"])}</a></td>{lvcell(CM[k])}<td class="ct-p">{P("C"+k)}</td></tr>' for k in cs]
+    return (f'<section class="comp" style="--c:{color}"><div class="gbar">Perfil V3 · {E(title)} · Competencias oficiales</div><div class="secbody">'
+            f'<div class="eyebrow" style="color:var(--c)">Perfil de Conocimientos V3 · ASOFAMECh</div><h2 class="ix-h">Competencias oficiales · {E(title)}</h2><div class="cp-rule"></div>'
+            f'<p class="lead">Nivel legal exigido en el EUNACOM para cada código. Toca el código para ir a su ficha.</p>'
+            f'<table class="ct"><thead><tr><th>Código V3</th><th>Situación clínica oficial</th><th>Dx</th><th>Tx</th><th>Seg</th><th>Pág.</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div></section>')
+
+def legal_page():
+    rows = [('Título', 'Perfil EUNACOM V3 · Código por código'), ('Autoría', 'Comité Médico Pedagógico de la Academia Examen EUNACOM (AEE)'),
+            ('Entidad editora', 'Wiackowska Group SpA (Santiago de Chile)'), ('Edición', 'Primera Edición · Año 2026'),
+            ('Estructura', f'{len(CM):,} códigos del Perfil V3 · 21 especialidades · 4 módulos'.replace(',', '.')),
+            ('Alineación', 'Perfil de Conocimientos EUNACOM V3 2026 (ASOFAMECh / MINSAL)'), ('Distribución', 'Guía gratuita · eunacom-examen.cl')]
+    ficha = ''.join(f'<tr><th>{a}</th><td>{E(b)}</td></tr>' for a, b in rows)
+    return (f'<section class="page legal"><div class="eyebrow">Ficha editorial &amp; propiedad intelectual</div><h2>Perfil EUNACOM V3 · Código por código</h2><div class="rule"></div>'
+            f'<div class="box" style="--c:#0e7490"><div class="box-h">Ficha técnica editorial</div><table class="lg-t">{ficha}</table></div>'
+            f'<h3>Marco legal y protección de derechos de autor</h3>'
+            f'<p><b>Aviso legal y uso permitido.</b> Esta guía es de distribución gratuita. Puede compartirse libremente en su forma original, completa y sin modificaciones, siempre sin fines comerciales. Queda prohibida su venta, reventa, alteración, extracción de su contenido o inclusión en bancos de preguntas no autorizados.</p>'
+            f'<p><b>Legislación de la República de Chile.</b> Esta publicación está protegida por las leyes de la República de Chile, en particular por la Ley N° 17.336 sobre Propiedad Intelectual, sus reglamentos y los convenios internacionales vigentes ratificados por el Estado de Chile.</p>'
+            f'<p><b>Propiedad intelectual.</b> Los textos, resúmenes, explicaciones, diseño y organización de esta obra son propiedad intelectual de Wiackowska Group SpA y la Academia Examen EUNACOM. Las preguntas reales EUNACOM se citan con fines educativos e indicando su examen de origen.</p>'
+            f'<p><b>Responsabilidad médica.</b> Este material es una herramienta de estudio para rendir el Examen Único Nacional de Conocimientos de Medicina (EUNACOM). No reemplaza el juicio clínico, las guías clínicas MINSAL vigentes ni la indicación de un médico tratante.</p>'
+            f'<div class="lg-foot"><span>© 2026 Academia Examen EUNACOM (AEE) · Wiackowska Group SpA</span><span>Santiago de Chile · Todos los derechos reservados</span></div></section>')
+
+# páginas de título/autores y ficha legal (diseño en mockups/legal/make.py), incrustadas a página completa
+import importlib.util as _il
+_sp = _il.spec_from_file_location('legal_make', R + '/mockups/legal/make.py'); LEGAL = _il.module_from_spec(_sp); _sp.loader.exec_module(LEGAL)
+def frame(kind):
+    html = LEGAL.titulo_autores() if kind == 'titulo' else LEGAL.s4b().replace('FOLIO PV3-2026 · PÁG. II', 'FOLIO PV3-2026')
+    f = f'/tmp/pv3_{kind}.html'; open(f, 'w').write(html)
+    return f'<section class="fullframe"><iframe src="file://{f}" scrolling="no"></iframe></section>'
 
 def build(pages):
     P = lambda key: str(pages.get(key, '000'))
@@ -164,17 +244,20 @@ def build(pages):
         cards = []
         nq = 0
         for s, lab, codes in secs:
-            cards.append(f'<h3 class="sec-h" id="s-{spk}-{s}" style="--c:{color}"><span>{E(lab)}</span><em>{len(codes)} códigos</em></h3>')
-            for k in codes:
+            for j, k in enumerate(codes):
                 v = CM[k]; qs = questions(k); nq += len(qs)
                 res = ''.join(f'<li>{E(b)}</li>' for b in O.get(k, {}).get('resumen', []))
+                band = f'Perfil V3 · {E(title)} · {E(lab)} · {j+1}/{len(codes)}'
                 cards.append(
-                    f'<article class="code" id="c-{k}" style="--c:{color}"><span class="pgmk">§C{k}§</span>'
-                    f'<header class="code-h"><a class="vc" href="{class_url(k)}">▶ Ver clase</a><a class="cd" href="#i-{k}">{k}</a><h4>{E(v["name"])}</h4><div class="lvs">{levels(v)}</div></header>'
-                    f'<div class="wh"><span class="lab">Dónde se enseña</span><span>{where(k)}</span></div>'
-                    + (f'<div class="sum"><div class="lab">Qué hay que saber</div><ul>{res}</ul></div>' if res else '')
-                    + (f'<div class="qs"><div class="lab">Preguntas · {len(qs)}</div>{"".join(qs)}</div>' if qs else '<div class="noq">Sin pregunta</div>')
-                    + '</article>')
+                    f'<section class="codepg" style="--c:{color}"{f" id=\"s-{spk}-{s}\"" if j == 0 else ""}><div class="gbar">{band}</div>'
+                    f'<div class="secbody"><article class="code" id="c-{k}"><span class="pgmk">§C{k}§</span>'
+                    f'<div class="cp-top"><a class="cd" href="#i-{k}">{k}</a><span class="cp-sec">{E(lab)}</span><a class="vc" href="{class_url(k)}">▶ Ver clase</a></div>'
+                    f'<h2 class="cp-title">{E(v["name"])}</h2><div class="cp-rule"></div>'
+                    f'<div class="cp-meta"><div class="box"><div class="box-h">Nivel exigido por el Perfil</div><div class="box-b lvs">{levels(v)}</div></div>'
+                    f'<div class="box"><div class="box-h">Dónde se enseña</div><div class="box-b wh">{where(k)}</div></div></div>'
+                    + (f'<h3 class="cp-h">1 · Qué hay que saber</h3><ul class="cp-sum">{res}</ul>' if res else '')
+                    + (f'<h3 class="cp-h">{2 if res else 1} · Preguntas EUNACOM <em>{len(qs)}</em></h3>{"".join(qs)}' if qs else '<p class="noq">Sin pregunta</p>')
+                    + '</article></div></section>')
         nq_total += nq
         sec_rows = ''.join(f'<a class="op-row" href="#s-{spk}-{s}"><span>{E(lab)}</span><b>{len(c)}</b></a>' for s, lab, c in secs)
         body.append(
@@ -182,8 +265,8 @@ def build(pages):
             f'<div class="op-in"><div class="op-kick">{E(MOD_OF[spk][0].upper())} · {E(MOD_OF[spk][1].upper())} · PERFIL V3 {spk}</div><div class="op-num">{n:02d}</div>'
             f'<h2 class="op-title">{E(title)}</h2><div class="op-stats"><div><b>{len(codes_all)}</b><span>códigos</span></div><div><b>{nq}</b><span>preguntas</span></div></div>'
             f'<div class="op-secs"><div class="op-row op-hd"><span>Sección del Perfil</span><b>Códigos</b></div>{sec_rows}</div></div></section>'
-            f'<table class="secwrap" style="--c:{color}"><thead><tr><td><div class="gbar">Perfil V3 · Código por código · {E(title)}</div></td></tr></thead>'
-            f'<tbody><tr><td class="secbody">{"".join(cards)}</td></tr></tbody></table>')
+            + comp_table(spk, title, color, codes_all, P)
+            + ''.join(cards))
         if not idx_gen or MOD_OF[spk] != MOD_OF[SPECS[n-2][0]] or n == 1:
             mo = MOD_OF[spk]; idx_gen.append(f'<div class="ig-mod"><span>{mo[0]}</span>{E(mo[1])}<em>{sum(1 for k,v in CM.items() if v["specKey"] in mo[2])} códigos</em></div>')
         idx_gen.append(f'<a class="ig" href="#sp-{spk}" style="--c:{color}"><span class="ig-n">{n:02d}</span><span class="ig-t">{E(title)}</span>'
@@ -205,12 +288,14 @@ def build(pages):
              '<tr><th>Seguimiento (Seg)</th><td>' + lv('', 'Completo') + ' controlar al paciente</td><td>' + lv('', 'Derivar') + ' derivar al especialista · ' + lv('', 'No requiere') + '</td></tr></table>'
              '<h3>Tipos de pregunta</h3><p class="lead"><span class="tag real">Pregunta real</span> examen EUNACOM con fecha y número. <span class="tag">Pregunta del libro</span> o <span class="tag">de práctica</span>: redactadas por AEE para los códigos sin pregunta oficial.</p></section>')
     igen = f'<section class="page"><div class="eyebrow">Contenido</div><h2>Índice general</h2><div class="rule"></div><div class="ig-list">{"".join(idx_gen)}</div><a class="ig ig-codes" href="#indice-codigos"><span class="ig-t">Índice de códigos</span><span class="dots"></span><span class="ig-p">{P("IDX")}</span></a></section>'
-    icod = f'<section class="page" id="indice-codigos"><span class="pgmk">§IIDX§</span><div class="eyebrow">Índice</div><h2>Índice de códigos</h2><div class="rule"></div><p class="lead">Toca el código para ir a su ficha y sus preguntas.</p><div class="ic-cols">{"".join(idx_codes)}</div></section>'
-    return f'<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Perfil V3 · Código por código</title><style>{CSS}</style></head><body>{cover}{promo(ncodes)}{howto}{igen}{icod}{"".join(body)}</body></html>'
+    icod = (f'<table class="secwrap" id="indice-codigos" style="--c:#0e7490"><thead><tr><td><div class="gbar">Perfil V3 · Índice de códigos</div></td></tr></thead><tbody><tr><td class="secbody">'
+            f'<span class="pgmk">§IIDX§</span><div class="eyebrow">Índice</div><h2 class="ix-h">Índice de códigos</h2><div class="rule"></div><p class="lead">Toca el código para ir a su ficha y sus preguntas.</p><div class="ic-cols">{"".join(idx_codes)}</div></td></tr></tbody></table>')
+    pr1, pr2 = promo(ncodes); pr1 = cover + pr1
+    return f'<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Perfil V3 · Código por código</title><style>{CSS}</style></head><body>{pr1}{frame('titulo')}{frame('legal')}{pr2}{howto}{igen}{icod}{"".join(body)}</body></html>'
 
 CSS = r'''
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@500;700&family=JetBrains+Mono:wght@500;700;800&family=Spectral:wght@600;700&display=swap');
-@page{size:A4;margin:13mm 0 14mm 0;@bottom-center{content:counter(page);font:600 8px 'JetBrains Mono',monospace;color:#64748b}
+@page{size:A4;margin:0 0 13mm 0;@bottom-center{content:counter(page);font:600 8px 'JetBrains Mono',monospace;color:#64748b}
  @bottom-left{content:'AEE · Perfil V3 código por código';font:500 7px 'IBM Plex Sans',sans-serif;color:#94a3b8;padding-left:42px}}
 @page full{margin:0;@bottom-center{content:none}@bottom-left{content:none}}
 *{box-sizing:border-box;margin:0;padding:0}
@@ -254,14 +339,70 @@ a{color:inherit;text-decoration:none}
 .pr-h3{font:700 16px/1.2 'Spectral',serif;margin:10px 0 6px}
 .pr-vids{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.pr-vids img{width:100%;display:block;border-radius:3px;box-shadow:0 2px 6px rgba(15,23,42,.3)}
 .pr-cta{display:block;margin-top:18px;background:#0b1420;color:#fff;text-align:center;padding:12px;font:700 12px/1 'JetBrains Mono',monospace;letter-spacing:.08em}
+/* biblioteca y videos */
+.lib .pr-h,.vid .pr-h{font-size:46px}.lib .pr-kick,.vid .pr-kick{margin-top:0}
+.lb-man{display:grid;grid-template-columns:150px 1fr;gap:16px;align-items:center;margin:20px 0 14px;padding:14px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.03)}
+.lb-man .pr-covers{grid-template-columns:repeat(7,1fr);gap:5px;margin:0}
+.lb-man-t b,.lb-it b{display:block;font:800 30px/1 'Barlow Condensed',sans-serif;color:#fff}.lb-man-t span,.lb-it span{display:block;font:700 9px/1.3 'IBM Plex Sans';letter-spacing:.1em;text-transform:uppercase;color:#0bd9e7;margin:3px 0 6px}
+.lb-man-t p,.lb-it p{font:400 9.6px/1.45 'IBM Plex Sans';color:#b6c1d0}
+.lb-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.lb-it{display:grid;grid-template-columns:96px 1fr;gap:14px;align-items:center;padding:12px;border:1px solid rgba(255,255,255,.14);border-top:3px solid #0bd9e7;background:rgba(255,255,255,.03)}
+.lb-cv img{width:96px;display:block;box-shadow:0 8px 18px -6px rgba(0,0,0,.7)}
+.lb-grid{gap:10px}.lb-it{padding:10px}.lb-grid .lb-it:last-child{grid-template-columns:150px 1fr}.lb-grid .anki{font-size:8px}.lb-grid .ak-f{font-size:9px}
+.anki{background:#fff;color:#0f172a;border-radius:6px;overflow:hidden;font-size:9px;box-shadow:0 8px 18px -6px rgba(0,0,0,.7)}
+.ak-f{padding:8px 10px;font-weight:700;font-size:10.5px;border-bottom:1px dashed #cbd5e1}.ak-f em{display:block;font:600 7px/1 'IBM Plex Mono',monospace;letter-spacing:.12em;text-transform:uppercase;color:#64748b;font-style:normal;margin-bottom:4px}
+.ak-b{padding:8px 10px;line-height:1.4;color:#334155}.ak-v{background:#0e7490;color:#fff;font:700 8px/1 'IBM Plex Mono',monospace;letter-spacing:.08em;padding:6px 10px}
+.vid figure{margin:0}.vid figure img{width:100%;display:block;border-radius:4px;box-shadow:0 10px 24px -8px rgba(0,0,0,.8);border:1px solid rgba(255,255,255,.12)}
+.vid figcaption{font:600 8.5px/1.3 'IBM Plex Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:#7dd3fc;margin-top:6px}
+.vd-main{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:22px}
+.vd-k{font:700 11px/1 'JetBrains Mono',monospace;letter-spacing:.16em;color:#0bd9e7;margin:22px 0 10px}
+.vd-anim{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.vd-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:22px 0 0}.vd-stats div{border-top:3px solid #0bd9e7;padding-top:8px}
+.vd-stats b{display:block;font:800 34px/1 'Barlow Condensed';color:#fff}.vd-stats span{font:600 9px/1.3 'IBM Plex Mono',monospace;letter-spacing:.12em;text-transform:uppercase;color:#b6c1d0}
+.vid .pr-cta{margin-top:auto;background:#0bd9e7;color:#0b1420}
 /* índice por módulos, ver clase */
 .ig-mod{display:flex;align-items:baseline;gap:10px;margin:16px 0 2px;padding:6px 10px;background:#0b1420;color:#fff;font:700 11px/1.2 'IBM Plex Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase}
 .ig-mod span{font:700 10px/1 'JetBrains Mono',monospace;color:#0bd9e7}.ig-mod em{margin-left:auto;font:600 9px/1 'JetBrains Mono',monospace;font-style:normal;color:#b6c1d0;text-transform:none}
 .ig{padding:3.2px 0}.ig .ig-n{font-size:19px}.ig-mod{margin-top:11px!important}
 .vc{font:700 7.6px/1 'IBM Plex Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:#0b1420;padding:4.5px 8px;border-radius:2px;white-space:nowrap}
 .op-hd{border-bottom:1.5px solid rgba(255,255,255,.4)!important;font:700 9.5px/1 'JetBrains Mono',monospace!important;letter-spacing:.14em;text-transform:uppercase;color:#0bd9e7!important}.op-hd b{font-size:9.5px!important;color:#0bd9e7!important}
+/* ficha = página de tema */
+.codepg{break-before:page}.codepg .secbody{padding:0 42px}.codepg .code{border:none;margin:0}
+.cp-top{display:flex;align-items:center;gap:10px}.cp-top .cd{font-size:10px;padding:5px 9px}
+.cp-sec{font:700 8.4px/1 'IBM Plex Sans',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--c)}.cp-top .vc{margin-left:auto;font-size:8.4px;padding:6px 11px}
+.cp-title{font:700 23px/1.2 'IBM Plex Sans',sans-serif;letter-spacing:-.01em;color:#0f172a;margin:9px 0 6px}
+.cp-rule{height:3px;background:var(--c);margin-bottom:14px}
+.cp-meta{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:12px;margin-bottom:16px}.box-b.wh{display:block;border:none;color:#334155;font-size:9.2px}.box-b.wh br{display:block;content:'';margin-bottom:3px}
+.box{border:1px solid #cbd5e1;border-top:3px solid var(--c);break-inside:avoid}
+.box-h{background:#f1f5f9;border-bottom:1px solid #cbd5e1;padding:6px 11px;font:700 8px/1.2 'IBM Plex Sans',sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#334155}
+.box-b{padding:9px 11px;font-size:9.6px;line-height:1.5}.box-b.lvs{display:flex;flex-wrap:wrap;gap:6px 0;align-items:center}
+.box-b.lvs .lvk:first-child{margin-left:0}
+.cp-h{font:700 9.6px/1.3 'IBM Plex Sans',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--c);margin:14px 0 8px;break-after:avoid;display:flex;align-items:center;gap:8px}
+.cp-h::after{content:'';flex:1;height:1px;background:#cbd5e1}.cp-h em{font-style:normal;background:var(--c);color:#fff;font:700 8px/1 'JetBrains Mono',monospace;padding:3px 6px;border-radius:2px;letter-spacing:0}
+.cp-sum{column-count:2;column-gap:24px;margin:0 0 4px 14px;font-size:10px;line-height:1.55}
+.cp-sum li{margin:0 0 6px;break-inside:avoid}.cp-sum li::marker{color:var(--c)}
+.codepg .q{background:#fff;border:1px solid #cbd5e1;border-left:1px solid #cbd5e1;padding:0;margin:0 0 10px;font-size:9.4px}
+.q-h{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:6px 11px;background:#f8fafc;border-bottom:1px solid #cbd5e1;font:700 8.4px/1.25 'IBM Plex Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#334155}
+.q-h em{font-style:normal;font:700 7.4px/1 'IBM Plex Sans',sans-serif;letter-spacing:.08em;padding:4px 7px;border-radius:2px;background:#fff;color:#64748b;border:1px solid #cbd5e1;white-space:nowrap}
+.q.real .q-h{background:#1e3a8a;color:#fff;border-bottom:none}.q.real .q-h em{background:#fff;color:#1e3a8a;border:none}
+.q-b{padding:8px 11px}.codepg .q-stem{line-height:1.5}
+.codepg .q-opts li{padding:2px 5px;border-bottom:1px solid #f1f5f9}.codepg .q-opts li:last-child{border-bottom:none}
+.codepg .q-ans{background:#f1f5f9;border:none;border-left:3px solid var(--c);padding:6px 9px;margin-top:6px;color:#334155}
+/* competencias y legal */
+.comp{break-before:page}.comp .secbody{padding:0 42px}
+.ct{width:100%;border-collapse:collapse;font-size:8.8px}
+.ct thead{display:table-header-group}.ct th{background:#0b1420;color:#fff;text-align:left;padding:6px 8px;font:700 7.6px/1.2 'IBM Plex Sans',sans-serif;letter-spacing:.1em;text-transform:uppercase}
+.ct td{padding:4.5px 8px;border-bottom:1px solid #e2e8f0;vertical-align:middle}.ct tr{break-inside:avoid}
+.ct-sec td{background:var(--c);color:#fff;font:700 8.4px/1.2 'IBM Plex Sans',sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:6px 8px}
+.ct-k a{font:700 8px/1 'JetBrains Mono',monospace;color:var(--c);white-space:nowrap}.ct-n{width:52%}.ct-n a{color:#0f172a}
+.ct-l{white-space:nowrap;text-align:center}.ct-p{font:700 8px/1 'JetBrains Mono',monospace;color:#1e3a8a;text-align:right}
+.legal h3{font:700 12px/1.3 'IBM Plex Sans',sans-serif;margin:20px 0 8px}.legal p{font-size:9.8px;line-height:1.6;color:#334155;margin-bottom:9px;max-width:680px}
+.lg-t{width:100%;border-collapse:collapse;font-size:9.6px}.lg-t th{text-align:left;width:150px;padding:6px 11px;font:700 8px/1.3 'IBM Plex Sans',sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#64748b}
+.lg-t td{padding:6px 11px;border-bottom:1px solid #f1f5f9}
+.lg-foot{margin-top:28px;padding-top:10px;border-top:1px solid #cbd5e1;display:flex;justify-content:space-between;font:500 8.6px/1.4 'IBM Plex Mono',monospace;color:#64748b}
+.fullframe{page:full;width:210mm;height:297mm;overflow:hidden;break-after:page}.fullframe iframe{border:0;width:794px;height:1123px;display:block}
 /* páginas de texto */
-.page{padding:6px 42px 0;break-after:page}
+.page{padding:44px 42px 0;break-after:page}.ix-h{font:700 27px/1.15 'Spectral',serif;margin-top:3px}
 .eyebrow{font:600 9px/1.3 'IBM Plex Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#0e7490}
 .page h2{font:700 27px/1.15 'Spectral',serif;margin-top:3px}
 .rule{height:3px;background:#0e7490;margin:8px 0 14px}
@@ -275,11 +416,11 @@ a{color:inherit;text-decoration:none}
 .lvk{font:700 6.8px/1 'IBM Plex Sans',sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#64748b;margin:0 3px 0 7px}.lvk:empty{display:none}
 .lv{display:inline-block;font:700 7.4px/1 'IBM Plex Sans',sans-serif;letter-spacing:.04em;text-transform:uppercase;padding:3px 6px;border-radius:2px;white-space:nowrap}
 .lv-sol{background:#1e3a8a;color:#fff}.lv-out{background:#fff;color:#1e3a8a;border:1px solid #93c5fd}.lv-ok{background:#047857;color:#fff}
-.lv-mid{background:#fef3c7;color:#92400e;border:1px solid #fcd34d}.lv-low{background:#f1f5f9;color:#334155;border:1px solid #cbd5e1}.lv-nil{background:#fff;color:#94a3b8;border:1px dashed #cbd5e1}
+.lv-mid{background:#fef3c7;color:#92400e;border:1px solid #fcd34d}.lv-low{background:#f1f5f9;color:#334155;border:1px solid #cbd5e1}.lv-nil{background:#fff;color:#94a3b8;border:1px solid #cbd5e1}
 /* índice general */
 .ig{display:flex;align-items:baseline;gap:12px;padding:7px 0;border-bottom:1px solid #f1f5f9}
 .ig-n{font:700 24px/1 'Barlow Condensed',sans-serif;color:var(--c);width:34px}.ig-t{font:700 12.5px/1.3 'IBM Plex Sans',sans-serif}
-.ig-c{font:500 9px/1 'IBM Plex Sans',sans-serif;color:#64748b}.dots{flex:1;border-bottom:1px dotted #cbd5e1;position:relative;top:-3px}
+.ig-c{font:500 9px/1 'IBM Plex Sans',sans-serif;color:#64748b}.dots{flex:1;border-bottom:1px solid #e2e8f0;position:relative;top:-3px}
 .ig-p{font:700 12px/1 'JetBrains Mono',monospace;color:#1e3a8a}.ig-codes{margin-top:14px;background:#f1f5f9;padding:9px 12px;border-left:3px solid #0e7490}
 /* índice de códigos */
 .ic-cols{column-count:2;column-gap:22px}
@@ -303,7 +444,7 @@ a{color:inherit;text-decoration:none}
 /* cuerpo */
 .secwrap{width:100%;border-collapse:collapse;table-layout:fixed;break-after:page}
 .secwrap thead{display:table-header-group}.secwrap td{padding:0}.secwrap td.secbody{padding:0 42px}
-.gbar{height:20px;margin:0 42px 10px;border-bottom:2px solid var(--c);display:flex;align-items:center;font:700 7.6px/1 'IBM Plex Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--c)}
+.gbar{height:22px;margin:0 0 16px;background:var(--c);display:flex;align-items:center;justify-content:center;font:700 8.2px/1 'IBM Plex Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#fff}
 .secbody{padding:0 42px}
 .sec-h{display:flex;justify-content:space-between;align-items:baseline;break-after:avoid;margin:14px 0 8px;padding:8px 12px;background:var(--c);color:#fff;font:700 13px/1.2 'IBM Plex Sans',sans-serif}
 .sec-h em{font:600 9px/1 'JetBrains Mono',monospace;font-style:normal;opacity:.85}
@@ -313,7 +454,7 @@ a{color:inherit;text-decoration:none}
 .code-h h4{flex:1;min-width:200px;font:700 11.6px/1.3 'IBM Plex Sans',sans-serif;color:#0f172a}
 .lvs{display:flex;align-items:center;flex-wrap:wrap}
 .lab{font:700 7.4px/1 'IBM Plex Sans',sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--c);margin-bottom:4px}
-.wh{display:flex;gap:10px;padding:6px 11px;font-size:8.6px;color:#475569;border-bottom:1px dashed #e2e8f0;break-inside:avoid}.wh .lab{flex:none;width:92px;margin:2px 0 0}
+.wh{display:flex;gap:10px;padding:6px 11px;font-size:8.6px;color:#475569;border-bottom:1px solid #e2e8f0;break-inside:avoid}.wh .lab{flex:none;width:92px;margin:2px 0 0}
 .wh-b{font-weight:700;color:#0f172a}.gap{color:#b91c1c;font-weight:700}
 .sum{padding:7px 11px 4px}.sum ul{margin:0 0 0 13px}.sum li{margin:0 0 2.5px;font-size:9.4px;line-height:1.45}.sum li::marker{color:var(--c)}
 .qs{padding:4px 11px 9px}
@@ -321,6 +462,7 @@ a{color:inherit;text-decoration:none}
 .q.real{border-left-color:#1e3a8a}
 .q-src{font:700 7.4px/1.2 'IBM Plex Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#64748b;margin-bottom:3px}.q.real .q-src{color:#1e3a8a}
 .q-stem{margin-bottom:4px;line-height:1.45}
+.q-img{margin:3px 0 5px;text-align:center;break-inside:avoid}.q-img img{max-width:60%;max-height:52mm;object-fit:contain;border:1px solid #e2e8f0;border-radius:3px}.q-img figcaption{font-size:6.5px;color:#94a3b8;margin-top:2px}
 .q-opts{list-style:none;display:flex;flex-direction:column;gap:1.5px;margin-bottom:4px}
 .q-opts li{display:flex;gap:6px;padding:1.5px 5px;border-radius:2px}.q-opts li b{font:700 8px/1.5 'JetBrains Mono',monospace;color:#64748b;flex:none;width:9px}
 
