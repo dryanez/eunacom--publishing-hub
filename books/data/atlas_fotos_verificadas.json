@@ -4671,5 +4671,1413 @@
   "cap": "Insuficiencia aórtica con Doppler color en el eje paraesternal largo (A) y corto (B)",
   "desc": "insuficiencia aórtica ecocardiograma Doppler color chorro regurgitante eje paraesternal largo corto",
   "credit": "Harrison's Principles of Internal Medicine, 21st ed., p. 1889"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-01"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-01/01_conduccion-normal-p-qrs-t-pr-160ms__stroobandt-ecg_p228.jpg",
+  "cap": "Conducción normal: onda P, complejo QRS y onda T con un intervalo PR de 160 ms",
+  "desc": "anatomía latido onda complejo intervalo despolarización auricular ventricular retraso nodo repolarización",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 228"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-02"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-02/01_rcp-compresiones-manos-sobre-esternon__blausen.jpg",
+  "cap": "Compresiones torácicas: talón de una mano sobre la otra, brazos rectos, en la mitad inferior del esternón",
+  "desc": "compresiones esternón mano brazos rectos superficie firme técnica mitad inferior",
+  "credit": "Blausen.com staff (2014). Blausen gallery 2014. Wikiversity Journal of Medicine, CC BY 3.0"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-03"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-03/01_fibrilacion-ventricular-ecg__stroobandt-ecg_p307.jpg",
+  "cap": "Fibrilación ventricular: oscilaciones caóticas sin complejos QRS identificables",
+  "desc": "fibrilación ventricular oscilaciones caóticas irregulares amplitud QRS identificables ritmo desfibrilable",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 307"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-03"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-03/02_fv-terminada-por-descarga-dai__stroobandt-ecg_p309.jpg",
+  "cap": "Una descarga termina la fibrilación ventricular y el ritmo vuelve a la normalidad (registro de un desfibrilador implantable)",
+  "desc": "descarga inmediata desfibrilación fibrilación ventricular sobrevida ritmo desfibrilables energía",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 309"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-04"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-04/01_fibrilacion-auricular-ecg-12-derivaciones__stroobandt-ecg_p253.jpg",
+  "cap": "Fibrilación auricular: R-R irregular, sin ondas P y con ondas f finas en V1",
+  "desc": "ausencia ondas sinusales oscilaciones basales irregulares intervalos irregulares diagnóstico electrocardiográfico fibrilación",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 253"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-04"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-04/02_flutter-auricular-2a1-150-lpm__stroobandt-ecg_p247.jpg",
+  "cap": "Flutter auricular a 300 por minuto con conducción 2:1 (frecuencia ventricular de 150 lpm)",
+  "desc": "flutter auricular típico dientes sierra conducción regulares frecuencia ventricular derivaciones inferiores",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 247"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-04"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-04/03_flutter-masaje-seno-carotideo__stroobandt-ecg_p247.jpg",
+  "cap": "Masaje del seno carotídeo en un flutter: aumenta el bloqueo AV y dejan ver las ondas F",
+  "desc": "maniobras vagales adenosina bloqueo ondas sierra flutter transitoriamente aumentan terminar",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 247"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-06"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-06/01_tpsv-reentrada-nodal-qrs-estrecho__stroobandt-ecg_p270.jpg",
+  "cap": "TPSV por reentrada nodal: taquicardia regular de QRS estrecho a 140 lpm sin ondas P visibles",
+  "desc": "taquicardia regular complejo estrecho reentrada nodal ondas ocultas pseudo derivaciones diagnóstico",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 270"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-06"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-06/02_wpw-sinusal-ortodromica-antidromica__stroobandt-ecg_p275.jpg",
+  "cap": "Un mismo paciente con vía accesoria: ritmo sinusal, taquicardia ortodrómica (QRS estrecho) y antidrómica (QRS ancho)",
+  "desc": "reentrada auriculoventricular vía accesoria ortodrómica antidrómica estrecho ancho taquicardia",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 275"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-06"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-06/03_wpw-pr-corto-onda-delta__stroobandt-ecg_p313.jpg",
+  "cap": "Síndrome de Wolff-Parkinson-White en ritmo sinusal: PR corto y onda delta",
+  "desc": "tríada electrocardiográfica preexcitación intervalo corto onda delta ensanchamiento complejo síndrome Wolff-Parkinson-White",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 313"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-06"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-06/04_fa-preexcitada-wpw-rapida-irregular__stroobandt-ecg_p320.jpg",
+  "cap": "Fibrilación auricular preexcitada: taquicardia de QRS ancho, irregular y a más de 200 lpm",
+  "desc": "fibrilación auricular preexcitada conducción anterógrada vía accesoria complejo ancho irregular frecuencias prohibidos",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 320"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-07"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-07/01_taquicardia-ventricular-tipo-bcrd__stroobandt-ecg_p283.jpg",
+  "cap": "Taquicardia ventricular con morfología de bloqueo de rama derecha: «orejas de conejo» en V1",
+  "desc": "taquicardia ventricular orejas conejo bloqueo rama datos favorecen aberrancia concordancia",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 283"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-07"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-07/02_taquicardia-ventricular-tipo-bcri__stroobandt-ecg_p283.jpg",
+  "cap": "Taquicardia ventricular con morfología de bloqueo de rama izquierda y conducción retrógrada 1:1",
+  "desc": "taquicardia ventricular complejo ancho asumir morfología bloqueo disociación aurículo-ventricular",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 283"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-07"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-07/03_torsada-de-puntas-qt-largo-adquirido__stroobandt-ecg_p301.jpg",
+  "cap": "Torsión de puntas en un QT largo adquirido: aparece tras una secuencia corto-largo-corto",
+  "desc": "torsión puntas polimorfa secuencia corto-largo-corto QT largo adquirido fármacos alargan magnesio",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 301"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-08"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-08/01_bav-primer-grado-pr-280ms__stroobandt-ecg_p228.jpg",
+  "cap": "Bloqueo AV de primer grado: PR constante de 280 ms y todas las P conducen",
+  "desc": "primer grado retraso constante conducción intervalo todas ondas conducen nodal benigno",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 228"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-08"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-08/02_bav-mobitz-i-wenckebach__stroobandt-ecg_p228.jpg",
+  "cap": "Mobitz I (Wenckebach): el PR se alarga hasta que una onda P no conduce",
+  "desc": "Mobitz Wenckebach prolongación progresiva intervalo onda bloquea ciclo reinicia nodal",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 228"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-08"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-08/03_bav-mobitz-ii-qrs-estrecho__stroobandt-ecg_p230.jpg",
+  "cap": "Mobitz II: PR constante con ondas P bloqueadas de manera súbita",
+  "desc": "Mobitz intervalos constantes falla intermitente impredecible infranodal progresar asistolia marcapaso",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 230"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-08"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-08/04_bav-completo-disociacion-av__stroobandt-ecg_p240.jpg",
+  "cap": "Bloqueo AV completo: las ondas P y los QRS laten en forma independiente (disociación AV)",
+  "desc": "tercer grado completo disociación aurículas ventrículos independientes escape lento interrupción",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 240"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-08"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-08/05_marcapasos-implantado-electrodo-vd__blausen.jpg",
+  "cap": "Marcapasos implantado: generador subcutáneo y electrodos en la aurícula y el ventrículo derechos",
+  "desc": "marcapaso generador subcutáneo electrodos auricular ventricular derecho implante definitivo complicaciones",
+  "credit": "Blausen.com staff (2014). Blausen gallery 2014. Wikiversity Journal of Medicine, CC BY 3.0"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-09"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-09/01_extrasistoles-ventriculares-bigeminismo-trigeminismo-parejas__stroobandt-ecg_p221.jpg",
+  "cap": "Extrasístoles ventriculares: bigeminismo, trigeminismo, cuadrigeminismo, parejas y tripletas",
+  "desc": "extrasístole ventricular latido prematuro bigeminismo trigeminismo parejas clasifican aisladas",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 221"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-09"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-09/02_holter-electrodos-y-registrador__blausen.jpg",
+  "cap": "Holter de ritmo: electrodos en el tórax y registrador portátil",
+  "desc": "Holter registro electrocardiográfico continuo horas diario síntomas electrodos portátil",
+  "credit": "Blausen.com staff (2014). Blausen gallery 2014. Wikiversity Journal of Medicine, CC BY 3.0"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-14"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-14/01_iam-anterior-sdst-v1-v5-especular-inferior__stroobandt-ecg_p178.jpg",
+  "cap": "IAM anterior agudo: supradesnivel del ST de V1 a V5 (descendente anterior) con infradesnivel especular en DIII y aVF",
+  "desc": "infarto anterior supradesnivel ST V1 V4 descendente anterior imagen especular infradesnivel derivaciones opuestas territorio",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 178"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-14"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-14/02_iam-inferior-sdst-ii-iii-avf-especular-i-avl__stroobandt-ecg_p169.jpg",
+  "cap": "IAM inferior agudo: supradesnivel del ST en DII, DIII y aVF (DIII > DII) con infradesnivel especular en DI y aVL: coronaria derecha",
+  "desc": "infarto inferior DII DIII aVF coronaria derecha imagen especular DI aVL pared inferior arteria culpable",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 169"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-10"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-10/01_ecg-t-hiperagudas-v2-v4__stroobandt-ecg_p165.jpg",
+  "cap": "Ondas T hiperagudas (altas, anchas y simétricas) de V2 a V4: primer signo de un infarto en los primeros minutos; el ECG se repite",
+  "desc": "electrocardiograma ondas T hiperagudas altas anchas simétricas primeros minutos infarto repetir cada minutos",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 165"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-10"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-10/02_rx-neumotorax-izquierdo__cxr-survival-guide_fig28-7.jpg",
+  "cap": "Neumotórax izquierdo: línea pleural visceral con ausencia de trama vascular periférica en el hemitórax izquierdo",
+  "desc": "neumotórax línea pleural visceral ausencia trama vascular hemitórax tensión descomprime aguja radiografía",
+  "credit": "The Chest X-Ray: A Survival Guide, Fig. 28.7"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-10"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-10/03_rx-aire-mediastinal-boerhaave__cxr-survival-guide_fig27-4.jpg",
+  "cap": "Aire en el mediastino (flechas) tras vómitos en un joven con dolor torácico: rotura esofágica (síndrome de Boerhaave)",
+  "desc": "rotura esofágica Boerhaave aire mediastínico vómitos enfisema subcutáneo radiografía mediastino",
+  "credit": "The Chest X-Ray: A Survival Guide, Fig. 27.4"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-11"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-11/01_ecg-postejercicio-infradesnivel-st__stroobandt-ecg_p166.jpg",
+  "cap": "ECG tras una prueba de esfuerzo: taquicardia sinusal de 125 lpm con infradesnivel marcado del ST y T en V2-V6, DI y aVL, y supradesnivel en aVR (isquemia)",
+  "desc": "ergometría test esfuerzo infradesnivel horizontal descendente segmento ST punto positiva isquemia criterio alto riesgo",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 166"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-11"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-11/02_spect-estres-reposo-defecto-anterior__harrison_p1876.jpg",
+  "cap": "Cintigrafía de perfusión (SPECT) de estrés y reposo: defecto grande de perfusión de las paredes anterior y anteroseptal",
+  "desc": "cintigrafía perfusión miocárdica SPECT defecto reversible isquemia radiotrazador esfuerzo reposo cicatriz",
+  "credit": "Harrison. Principios de Medicina Interna, 21.ª ed., Fig. 241-5"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-11"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-11/03_coronariografia-estenosis-tronco-circunfleja__harrison_p1883.jpg",
+  "cap": "Coronariografía: estenosis significativas del tronco izquierdo y de la circunfleja (flechas)",
+  "desc": "coronariografía informe estenosis significativa tronco coronario izquierdo circunfleja flujo TIMI vasos",
+  "credit": "Harrison. Principios de Medicina Interna, 21.ª ed., Fig. 241-10"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-11"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-11/04_ffr-0-78-estenosis-significativa__harrison_p1907.jpg",
+  "cap": "Reserva fraccional de flujo (FFR) de 0,78: estenosis intermedia funcionalmente significativa (≤ 0,80)",
+  "desc": "reserva fraccional flujo FFR lesiones intermedias estenosis significativa informe coronariografía",
+  "credit": "Harrison. Principios de Medicina Interna, 21.ª ed., Fig. 242-8"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-12"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-12/01_angioplastia-vs-bypass__harrison_p2086.jpg",
+  "cap": "Angioplastía con stent (arriba, trata la lesión culpable) frente a by-pass con injerto (abajo, trata el vaso proximal a las lesiones)",
+  "desc": "angioplastía stent farmacoactivo cirugía by-pass injerto arteria mamaria tronco vasos elección método revascularización",
+  "credit": "Harrison. Principios de Medicina Interna, 21.ª ed., Fig. 273-5"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-13"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-13/01_ecg-t-negativas-angina-inestable__stroobandt-ecg_p164.jpg",
+  "cap": "Angina inestable: inversión de la onda T en DI, aVL y V2-V6, con inversión terminal en V2-V3, por isquemia de la descendente anterior proximal",
+  "desc": "electrocardiograma inversión onda T infradesnivel angina inestable isquemia descendente anterior patrón Wellens",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 164"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-13"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-13/02_trombo-coronario-incompleto-vs-completo__pathoma_p75.jpg",
+  "cap": "Trombosis coronaria: oclusión incompleta (A, trombo suboclusivo del SCASEST) y completa (B, SCACEST)",
+  "desc": "trombo blanco plaquetario parcialmente oclusivo suboclusivo rotura erosión placa fibrinólisis contraindicada oclusión",
+  "credit": "Pathoma (Sattar), Cardiac Pathology, p. 75, Fig. 8.1"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-15"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-15/01_ecg-infarto-ventriculo-derecho-v3r-v4r__stroobandt-ecg_p172.jpg",
+  "cap": "Infarto inferior con infarto del ventrículo derecho: supradesnivel en DII, DIII y aVF (DIII > DII) y > 1 mm en V3R-V4R de las derivaciones precordiales derechas",
+  "desc": "infarto ventrículo derecho derivaciones derechas V3R V4R supradesnivel inferior coronaria derecha proximal",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 172"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-15"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-15/02_rotura-pared-libre-pieza__pathoma_p75.jpg",
+  "cap": "Rotura de la pared libre del ventrículo izquierdo (pieza anatomopatológica)",
+  "desc": "rotura pared libre ventrículo izquierdo hemopericardio taponamiento disociación electromecánica mortalidad",
+  "credit": "Pathoma (Sattar), Cardiac Pathology, p. 75, Fig. 8.5B"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-15"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-15/03_rotura-musculo-papilar-pieza__pathoma_p75.jpg",
+  "cap": "Rotura de un músculo papilar (pieza anatomopatológica)",
+  "desc": "rotura músculo papilar insuficiencia mitral aguda soplo holosistólico apical edema pulmonar",
+  "credit": "Pathoma (Sattar), Cardiac Pathology, p. 75, Fig. 8.5C"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-15"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-15/04_aneurisma-ventricular-pieza__pathoma_p75.jpg",
+  "cap": "Aneurisma ventricular izquierdo (pieza anatomopatológica): adelgazamiento fibrótico de la zona infartada",
+  "desc": "aneurisma ventricular verdadero cuello ancho supradesnivel persistente adelgazamiento fibrótico expansión paradójica",
+  "credit": "Pathoma (Sattar), Cardiac Pathology, p. 75, Fig. 8.7"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-15"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-15/05_eco-trombo-aneurisma-apical__harrison_p1897.jpg",
+  "cap": "Ecocardiograma apical: trombo en la zona aneurismática tras un infarto",
+  "desc": "trombo mural intracavitario ecocardiograma anticoagulación oral embolígeno aneurisma apical",
+  "credit": "Harrison. Principios de Medicina Interna, 21.ª ed., Fig. 241-35"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-16"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-16/01_cardiomegalia-derrame-bilateral-ic__chest-xray-survival-guide_p160.jpg",
+  "cap": "Radiografía de tórax en insuficiencia cardíaca izquierda: cardiomegalia y pequeños derrames pleurales bilaterales con borramiento de los senos costofrénicos",
+  "desc": "radiografía de tórax cardiomegalia cefalización trama vascular líneas B de Kerley derrame pleural bilateral insuficiencia cardíaca",
+  "credit": "The Chest X-Ray: A Survival Guide, Fig. 11.24, p. 160"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-18"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-18/01_edema-pulmonar-alveolar-florido__chest-xray-survival-guide_p160.jpg",
+  "cap": "Edema agudo de pulmón cardiogénico: cardiomegalia e infiltrado alveolar bilateral perihiliar «en alas de mariposa»",
+  "desc": "radiografía de tórax edema alveolar bilateral perihiliar alas de mariposa cardiomegalia derrame pleural edema agudo de pulmón",
+  "credit": "The Chest X-Ray: A Survival Guide, Fig. 11.26, p. 160"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-18"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-18/02_edema-intersticial-florido__chest-xray-survival-guide_p160.jpg",
+  "cap": "Edema intersticial florido de la insuficiencia ventricular izquierda: engrosamiento peribronquial y líneas septales (Kerley B)",
+  "desc": "edema intersticial líneas B de Kerley septos engrosamiento peribronquial presión capilar pulmonar líquido intersticio",
+  "credit": "The Chest X-Ray: A Survival Guide, Fig. 11.25, p. 160"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-20"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-20/01_mch-pieza-hipertrofia-septal__harrison_p2010.jpg",
+  "cap": "Miocardiopatía hipertrófica: corazón explantado con hipertrofia septal asimétrica (el septo es mucho más grueso que la pared libre)",
+  "desc": "miocardiopatía hipertrófica hipertrofia ventricular izquierda asimétrica septal septo engrosado movimiento sistólico anterior obstrucción tracto de salida",
+  "credit": "Harrison 21.ª ed., Fig. 259-15, p. 2010"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-20"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-20/02_mch-ecocardiograma-septo__harrison_p2011.jpg",
+  "cap": "Ecocardiograma de miocardiopatía hipertrófica: hipertrofia asimétrica del septo comparada con la pared lateral del ventrículo izquierdo",
+  "desc": "ecocardiograma Doppler hipertrofia asimétrica septo 15 mm movimiento sistólico anterior gradiente tracto de salida diagnóstico",
+  "credit": "Harrison 21.ª ed., Fig. 259-16, p. 2011"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-21"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-21/01_dilatada-pieza-dilatacion-vi__harrison_p1999.jpg",
+  "cap": "Miocardiopatía dilatada: corazón explantado con dilatación masiva del ventrículo izquierdo y moderada del derecho",
+  "desc": "miocardiopatía dilatada dilatación progresiva ventrículos forma esférica disfunción sistólica FEVI",
+  "credit": "Harrison 21.ª ed., Fig. 259-2, p. 1999"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-21"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-21/02_restrictiva-amiloidosis-pieza__harrison_p2009.jpg",
+  "cap": "Amiloidosis cardíaca: corazón firme y gomoso de superficie de corte cerosa con aurículas marcadamente dilatadas",
+  "desc": "amiloidosis cardíaca miocardiopatía restrictiva paredes engrosadas aurículas dilatadas rigidez infiltración",
+  "credit": "Harrison 21.ª ed., Fig. 259-12, p. 2009"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-21"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-21/03_restrictiva-amiloidosis-eco__harrison_p2009.jpg",
+  "cap": "Ecocardiograma en amiloidosis: paredes engrosadas de ambos ventrículos sin dilatación importante y aurículas muy dilatadas",
+  "desc": "ecocardiograma paredes engrosadas aspecto brillante granular dilatación biauricular FEVI normal patrón restrictivo",
+  "credit": "Harrison 21.ª ed., Fig. 259-13, p. 2009"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-21"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-21/04_miocarditis-rm-realce-tardio__harrison_p2001.jpg",
+  "cap": "Miocarditis: resonancia magnética con realce tardío de gadolinio de ubicación mesocárdica (flecha), patrón no isquémico",
+  "desc": "miocarditis resonancia magnética cardíaca realce tardío gadolinio subepicárdico mesocárdico edema Lake Louise",
+  "credit": "Harrison 21.ª ed., Fig. 259-6, p. 2001"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-23"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-23/01_estenosis-aortica-valvar-eco-domo-sistolico-y-regurgitacion__nelson_p2792.jpg",
+  "cap": "Estenosis aórtica valvar en eje paraesternal largo: la válvula se abomba (domo) en sístole; abajo, Doppler color con regurgitación aórtica asociada",
+  "desc": "estenosis aórtica válvula domo sistólico eco paraesternal regurgitación asociada soplo diastólico",
+  "credit": "Nelson Textbook of Pediatrics, 22nd ed., p. 2792 (Fig. 476.6)"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-25"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-25/01_estenosis-mitral-reumatica-eco-y-3d__harrison_p1890.jpg",
+  "cap": "Estenosis mitral reumática: valvas móviles fijas en las puntas (flecha) y aurícula izquierda dilatada; a la derecha, vista 3D del orificio en «boca de pez»",
+  "desc": "estenosis mitral reumática valvas aurícula izquierda dilatada ecocardiograma orificio",
+  "credit": "Harrison's Principles of Internal Medicine, 21st ed., p. 1890 (Fig. 241-24)"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-25"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-25/02_cardiopatia-reumatica-valva-mitral-palo-de-hockey__harrison_p2808.jpg",
+  "cap": "Cardiopatía reumática crónica: engrosamiento de las valvas y apertura en «palo de hockey» de la valva anterior mitral (flecha)",
+  "desc": "cardiopatía reumática crónica valva mitral engrosada palo de hockey ecocardiograma",
+  "credit": "Harrison's Principles of Internal Medicine, 21st ed., p. 2808 (Fig. 359-2)"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-26"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-26/01_prolapso-mitral-barlow-eco-y-doppler-insuficiencia__harrison_p2042.jpg",
+  "cap": "Prolapso mitral de Barlow: valvas mixomatosas que protruyen a la aurícula en sístole (izquierda) e insuficiencia mitral significativa en el Doppler color (derecha)",
+  "desc": "prolapso mitral Barlow valvas mixomatosas aurícula insuficiencia mitral Doppler color",
+  "credit": "Harrison's Principles of Internal Medicine, 21st ed., p. 2042 (Fig. 265-2)"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-26"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-26/02_prolapso-mitral-doppler-color-chorro-regurgitante__harrison_p1890.jpg",
+  "cap": "Doppler color de la insuficiencia mitral de un prolapso: chorro regurgitante hacia la aurícula izquierda en sístole",
+  "desc": "insuficiencia mitral chorro regurgitante Doppler color aurícula izquierda prolapso",
+  "credit": "Harrison's Principles of Internal Medicine, 21st ed., p. 1890 (Fig. 241-23 B)"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-27"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-27/01_cia-ostium-secundum-subcostal-doppler-color__harrison_p1898.jpg",
+  "cap": "CIA ostium secundum grande (flecha) en el eje subcostal, con flujo a través del defecto en el Doppler color (derecha)",
+  "desc": "comunicación interauricular ostium secundum defecto septal subcostal Doppler color cortocircuito",
+  "credit": "Harrison's Principles of Internal Medicine, 21st ed., p. 1898 (Fig. 241-41)"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-27"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-27/02_coartacion-adulto-rx-torax-muescas-costales__cxr_p365.jpg",
+  "cap": "Radiografía de tórax de un adulto con coartación: muescas en el borde inferior y posterior de las costillas",
+  "desc": "coartación aórtica adulto radiografía tórax muescas costales Roesler circulación colateral",
+  "credit": "de Lacey, Morley y Berman. The Chest X-Ray: A Survival Guide (Elsevier, 2008), Fig. 31.7, p. 365"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-27"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-27/03_coartacion-aortografia-antes-y-despues-stent__nelson_p2795.jpg",
+  "cap": "Aortografía de una coartación (izquierda) y tras el implante de un stent (derecha)",
+  "desc": "coartación aórtica angioplastía stent aortografía estrechez yuxtaductal tratamiento",
+  "credit": "Nelson Textbook of Pediatrics, 22nd ed., p. 2795 (Fig. 476.9)"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-28"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-28/03_endocarditis-aortica-eco-vegetaciones-e-insuficiencia__nelson_p2853.jpg",
+  "cap": "Endocarditis de la válvula aórtica: vegetaciones en las valvas (izquierda) y regurgitación aórtica grave en el Doppler color (derecha)",
+  "desc": "endocarditis aórtica vegetaciones ecocardiograma insuficiencia aórtica regurgitación Doppler",
+  "credit": "Nelson Textbook of Pediatrics, 22nd ed., p. 2853 (Fig. 486.2)"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-29"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-29/01_retinopatia-hipertensiva-estrella-macular__bates_t7-16.jpg",
+  "cap": "Retinopatía hipertensiva con exudados duros en estrella macular y hemorragias: daño de órgano blanco",
+  "desc": "fondo de ojo retinopatía hipertensiva grado III hemorragias exudados algodonosos duros daño de órgano blanco clasifica",
+  "credit": "Bates Guide to Physical Examination and History Taking (2017), Tabla 7-16"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-31"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-31/01_adenoma-suprarrenal-tc__ctmri-pocket-atlas_p382.jpg",
+  "cap": "TAC con contraste: nódulo suprarrenal izquierdo (flecha), adenoma productor de aldosterona o de catecolaminas",
+  "desc": "hiperaldosteronismo primario adenoma suprarrenal TAC de suprarrenales aldosteronoma síndrome de Conn lateralidad",
+  "credit": "CT & MRI Pathology: A Pocket Atlas, p. 382"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-31"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-31/02_feocromocitoma-gammagrafia-mibg__amir-endocrino_p58.jpg",
+  "cap": "Gammagrafía con MIBG: captación suprarrenal del feocromocitoma (prueba más específica)",
+  "desc": "feocromocitoma metanefrinas tumor catecolaminas gammagrafía MIBG localiza el tumor TAC o resonancia",
+  "credit": "AMIR Endocrinología, p. 58"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-32"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-32/01_retinopatia-hipertensiva-grave__harrison_p263.jpg",
+  "cap": "Retinopatía hipertensiva: borramiento del disco óptico, hemorragias y exudados algodonosos",
+  "desc": "fondo de ojo hemorragias en llama exudados algodonosos grado III edema de papila grado IV define una emergencia",
+  "credit": "Harrison, Principios de Medicina Interna, 21.ª ed., p. 263 (Fig. 32-7)"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-33"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-33/01_repolarizacion-precoz-st-concavo__stroobandt-ecg_p191.jpg",
+  "cap": "Repolarización precoz: ST cóncavo con muesca en J y T grandes, sin descenso del PR (imitador de la pericarditis)",
+  "desc": "repolarización precoz joven deportista ST cóncavo con muesca en el punto J ondas T grandes estable en el tiempo sin descenso del PR imitadores",
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 191"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-34"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-34/01_derrame-pericardico-eco__pocket-atlas-us_p146.jpg",
+  "cap": "Ecografía: derrame pericárdico anecoico (flecha) junto a la aurícula derecha; abajo, ventana subxifoidea",
+  "desc": "ecocardiograma derrame pericárdico anecoico colapso diastólico de la aurícula derecha ventana subxifoidea FAST trauma",
+  "credit": "Pocket Atlas of Emergency Ultrasound (Reardon y Ma), p. 146"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-34"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-34/02_pulso-paradojal-trazado__bates_p432.jpg",
+  "cap": "Pulso paradojal: la amplitud del pulso cae con la inspiración (caída de la PAS > 10 mmHg)",
+  "desc": "pulso paradojal caída de la presión arterial sistólica mayor de 10 mmHg durante la inspiración interdependencia ventricular signo de Kussmaul",
+  "credit": "Bates Guide to Physical Examination and History Taking (2017), pulso paradójico"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-35"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-35/01_diseccion-aortica-stanford-debakey__schwartz-absite_f22-1.jpg",
+  "cap": "Disección aórtica: Stanford A (tipos DeBakey I y II) y Stanford B (DeBakey III)",
+  "desc": "clasificación de Stanford tipo A compromete la aorta ascendente tipo B nace distal a la arteria subclavia izquierda DeBakey",
+  "credit": "Schwartz's Principles of Surgery ABSITE and Board Review, 11.ª ed., Fig. 22-1"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-37"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-37/01_angiotac-tep-defectos-de-llenado__medschoolbro-pulm_p15.jpg",
+  "cap": "AngioTAC pulmonar: defectos de llenado en las arterias pulmonares (émbolos)",
+  "desc": "angioTAC de arterias pulmonares con contraste confirmatorio defectos de llenado dilatación del ventrículo derecho infarto pulmonar",
+  "credit": "MedSchoolBro Pulmonology, p. 15"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "sec_cardio",
+  "clases": [
+   "cardio-38"
+  ],
+  "file": "biblioteca/20_cardiologia/cardio-38/01_tvp-pierna-derecha-edematosa__commons.jpg",
+  "cap": "TVP: pierna derecha edematosa y eritematosa (flecha) frente a la izquierda",
+  "desc": "trombosis venosa profunda pantorrilla asimétrica aumento de volumen empastamiento pierna dolorosa edematosa unilateral",
+  "credit": "Wikimedia Commons, CC BY-SA 3.0"
+ },
+ {
+  "case": "m1a-1",
+  "prio": "alta",
+  "clases": [
+   "endo-25"
+  ],
+  "file": "biblioteca/05_endocrinologia/endo-25/01_ginecomastia__talley_p503.jpg",
+  "cap": "Ginecomastia bilateral en un hombre (espironolactona)",
+  "desc": "ginecomastia bilateral con disco retroareolar",
+  "credit": "Talley & O'Connor, Clinical Examination, Fig. 29.14 (p. 503)"
+ },
+ {
+  "case": "m1a-2",
+  "prio": "alta",
+  "clases": [
+   "neuro-03"
+  ],
+  "file": "biblioteca/09_neurologia/neuro-03/02_hematoma_cerebeloso_tc__sherman_p142.jpg",
+  "cap": "Hematoma cerebeloso en TC",
+  "desc": "TC de hematoma cerebeloso grande con compresión del cuarto ventrículo",
+  "credit": "Sherman, Atlas of Clinical Emergency Medicine, p. 142"
+ },
+ {
+  "case": "m1a-3",
+  "prio": "alta",
+  "clases": [
+   "hem-17"
+  ],
+  "file": "biblioteca/06_hematologia/hem-17/02_llc_sombras_gumprecht__goljan_p580.jpg",
+  "cap": "Leucemia linfática crónica: linfocitos maduros y sombras de Gümprecht",
+  "desc": "frotis de LLC con sombras de Gümprecht",
+  "credit": "Goljan, Rapid Review Pathology, Link 13-19"
+ },
+ {
+  "case": "m1a-4",
+  "prio": "media",
+  "clases": [
+   "hem-18"
+  ],
+  "file": "biblioteca/06_hematologia/hem-18/06_adenopatia_supraclavicular__knoop_p193.jpg",
+  "cap": "Adenopatía supraclavicular",
+  "desc": "adenopatía supraclavicular (ganglio de Virchow)",
+  "credit": "Knoop, Atlas of Emergency Medicine, p. 193"
+ },
+ {
+  "case": "m1a-5",
+  "prio": "media",
+  "clases": [
+   "hem-01"
+  ],
+  "file": "biblioteca/06_hematologia/hem-01/02_reticulocitos_azul_metileno__harrison_p467.jpg",
+  "cap": "Recuento de reticulocitos con azul de metileno nuevo",
+  "desc": "reticulocitos con tinción supravital (azul de metileno nuevo)",
+  "credit": "Harrison's Principles of Internal Medicine, 21st ed., Fig. 62-2 (p. 467)"
+ },
+ {
+  "case": "m1a-6",
+  "prio": "baja",
+  "clases": [
+   "hem-20"
+  ],
+  "file": "biblioteca/06_hematologia/hem-20/05_trombocitemia_frotis__goljan_p634.jpg",
+  "cap": "Trombocitemia esencial: aumento de plaquetas en el frotis",
+  "desc": "frotis con trombocitosis en trombocitemia esencial",
+  "credit": "Goljan, Rapid Review Pathology, Link 15-14"
+ },
+ {
+  "case": "m1a-7",
+  "prio": "media",
+  "clases": [
+   "nefro-13"
+  ],
+  "file": "biblioteca/03_nefrologia/nefro-13/03_amiloide_rojo_congo_polarizada__goljan_p172.jpg",
+  "cap": "Amiloide con rojo Congo y luz polarizada",
+  "desc": "amiloidosis: rojo Congo con birrefringencia verde manzana (imagen genérica, no renal)",
+  "credit": "Goljan, Rapid Review Pathology, Link 4-35"
+ },
+ {
+  "case": "m1a-8",
+  "prio": "media",
+  "clases": [
+   "endo-15"
+  ],
+  "file": "biblioteca/05_endocrinologia/endo-15/02_adenoma_suprarrenal_tc__ctmri_p382.jpg",
+  "cap": "Adenoma suprarrenal en TC con contraste",
+  "desc": "TC de adenoma suprarrenal (masa pequeña, homogénea, bien delimitada)",
+  "credit": "CT & MRI Pathology: A Pocket Atlas, p. 382"
+ },
+ {
+  "case": "m1a-9",
+  "prio": "media",
+  "clases": [
+   "endo-10"
+  ],
+  "file": "biblioteca/05_endocrinologia/endo-10/02_eco_carcinoma_papilar__rumack_p738.jpg",
+  "cap": "Carcinoma papilar de tiroides en ecografía",
+  "desc": "ecografía de carcinoma papilar (nódulo hipoecogénico de bordes irregulares; sin microcalcificaciones ni adenopatía visibles)",
+  "credit": "Rumack, Diagnostic Ultrasound, Fig. 18-18 (p. 738)"
+ },
+ {
+  "case": "m1a-10",
+  "prio": "media",
+  "clases": [
+   "diab-20"
+  ],
+  "file": "biblioteca/04_diabetes/diab-20/01_glomeruloesclerosis_nodular_esquema__goljan_p1050.jpg",
+  "cap": "Esclerosis nodular glomerular (esquema)",
+  "desc": "glomeruloesclerosis nodular de Kimmelstiel-Wilson (esquema, no histología PAS)",
+  "credit": "Goljan, Rapid Review Pathology, Link 20-48"
+ },
+ {
+  "case": "m1a-11",
+  "prio": "alta",
+  "clases": [
+   "diab-17"
+  ],
+  "file": "biblioteca/04_diabetes/diab-17/02_ecg-hiperpotasemia-t-picudas__cto-cardio_p19.jpg",
+  "cap": "ECG de hiperpotasemia: T picudas",
+  "desc": "ECG con ondas T picudas (hiperkalemia)",
+  "credit": "Manual CTO Cardiología 14.ª ed., p. 19"
+ },
+ {
+  "case": "m1a-12",
+  "prio": "media",
+  "clases": [
+   "neuro-19"
+  ],
+  "file": "biblioteca/09_neurologia/neuro-19/05_mano_caida_radial__acd_p192.jpg",
+  "cap": "Mano caída por lesión del nervio radial",
+  "desc": "mano caída por parálisis del nervio radial",
+  "credit": "Atlas of Clinical Diagnosis (Mir), Fig. 9.136"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "media",
+  "clases": [
+   "resp-17"
+  ],
+  "file": "biblioteca/02_neumologia/resp-17/10_sindrome-vena-cava-superior-torax__knoop_p193.jpg",
+  "cap": "Circulación colateral torácica",
+  "desc": "síndrome de vena cava superior: circulación venosa colateral en el tórax",
+  "credit": "Knoop, Atlas of Emergency Medicine, p. 193"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "alta",
+  "clases": [
+   "gastro-03"
+  ],
+  "file": "biblioteca/01_gastroenterologia/gastro-03/10_diverticulo-zenker-esofagograma__harrison_p2459.jpg",
+  "cap": "Divertículo de Zenker",
+  "desc": "divertículo de Zenker en esofagograma con bario",
+  "credit": "Harrison 21.ª ed., Fig. 322-56"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "alta",
+  "clases": [
+   "gastro-04"
+  ],
+  "file": "biblioteca/01_gastroenterologia/gastro-04/10_esofagitis-caustica-endoscopia__knoop_p633.jpg",
+  "cap": "Esofagitis cáustica",
+  "desc": "esofagitis cáustica en endoscopía tras ingestión de cáustico",
+  "credit": "Knoop, Atlas of Emergency Medicine, p. 633"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "media",
+  "clases": [
+   "gastro-10"
+  ],
+  "file": "biblioteca/01_gastroenterologia/gastro-10/10_eritema-nodoso-piernas__knoop_p415.jpg",
+  "cap": "Eritema nodoso",
+  "desc": "eritema nodoso en las piernas (manifestación extraintestinal de EII)",
+  "credit": "Knoop, Atlas of Emergency Medicine, p. 415"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "media",
+  "clases": [
+   "gastro-10"
+  ],
+  "file": "biblioteca/01_gastroenterologia/gastro-10/11_pioderma-gangrenoso__knoop_p413.jpg",
+  "cap": "Pioderma gangrenoso",
+  "desc": "pioderma gangrenoso (manifestación extraintestinal de EII)",
+  "credit": "Knoop, Atlas of Emergency Medicine, p. 413"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "media",
+  "clases": [
+   "gastro-12"
+  ],
+  "file": "biblioteca/01_gastroenterologia/gastro-12/10_hemorroide-externo-trombosado__knoop_p258.jpg",
+  "cap": "Hemorroide trombosado",
+  "desc": "hemorroide externo trombosado / prolapsado",
+  "credit": "Knoop, Atlas of Emergency Medicine, p. 258"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "media",
+  "clases": [
+   "gastro-12"
+  ],
+  "file": "biblioteca/01_gastroenterologia/gastro-12/11_absceso-perianal__knoop_p257.jpg",
+  "cap": "Absceso perianal",
+  "desc": "absceso perianal: tumefacción eritematosa perianal",
+  "credit": "Knoop, Atlas of Emergency Medicine, p. 257"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "media",
+  "clases": [
+   "gastro-13"
+  ],
+  "file": "biblioteca/01_gastroenterologia/gastro-13/10_ictericia-escleral__knoop_p34.jpg",
+  "cap": "Ictericia escleral",
+  "desc": "ictericia: esclerótica amarilla",
+  "credit": "Knoop, Atlas of Emergency Medicine, p. 34"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "media",
+  "clases": [
+   "resp-25"
+  ],
+  "file": "biblioteca/02_neumologia/resp-25/10_ecg-hipotermia-ondas-j-osborn__knoop_p551.jpg",
+  "cap": "ECG: onda J de Osborn",
+  "desc": "ECG en hipotermia con ondas J de Osborn",
+  "credit": "Knoop, Atlas of Emergency Medicine, p. 551"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "media",
+  "clases": [
+   "resp-15"
+  ],
+  "file": "biblioteca/02_neumologia/resp-15/10_mesotelioma-tc-engrosamiento-pleural__ctmri-atlas_p242.jpg",
+  "cap": "Mesotelioma en la TC",
+  "desc": "mesotelioma pleural: engrosamiento pleural lobulado en TC de tórax",
+  "credit": "CT and MRI Pathology atlas, p. 242"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "media",
+  "clases": [
+   "gastro-26"
+  ],
+  "file": "biblioteca/01_gastroenterologia/gastro-26/05_taponamiento-eco-derrame-pericardico__knoop_p185.jpg",
+  "cap": "Derrame pericárdico (eco)",
+  "desc": "taponamiento cardíaco: derrame pericárdico en ecografía",
+  "credit": "Knoop, Atlas of Emergency Medicine, p. 185"
+ },
+ {
+  "case": 9001,
+  "prio": "alta",
+  "clases": [
+   "cirugia-07"
+  ],
+  "file": "biblioteca/10_cirugia/cirugia-07/02_prolapso-rectal-completo__knoop_p259.jpg",
+  "cap": "Prolapso rectal con pliegues concéntricos",
+  "desc": "prolapso rectal completo con pliegues mucosos concéntricos",
+  "credit": "The Atlas of Emergency Medicine (Knoop), p. 259"
+ },
+ {
+  "case": 9002,
+  "prio": "media",
+  "clases": [
+   "cirugia-09"
+  ],
+  "file": "biblioteca/10_cirugia/cirugia-09/03_cricotiroidotomia-esquema__sherman_p234.jpg",
+  "cap": "Esquema de la cricotiroidotomía",
+  "desc": "esquema del cuello con la incisión sobre el cartílago cricoides",
+  "credit": "Atlas of Clinical Emergency Medicine (Sherman), p. 234"
+ },
+ {
+  "case": 9003,
+  "prio": "baja",
+  "clases": [
+   "cirugia-12"
+  ],
+  "file": "biblioteca/10_cirugia/cirugia-12/05_fractura-deprimida-tac__knoop_p6.jpg",
+  "cap": "Fractura deprimida en TAC",
+  "desc": "TAC en ventana ósea con fractura de cráneo con hundimiento",
+  "credit": "The Atlas of Emergency Medicine (Knoop), p. 6"
+ },
+ {
+  "case": 9004,
+  "prio": "media",
+  "clases": [
+   "cirugia-16"
+  ],
+  "file": "biblioteca/10_cirugia/cirugia-16/03_infeccion-herida-operatoria__knoop_p673.jpg",
+  "cap": "Herida operatoria infectada",
+  "desc": "incisiones con puntos rodeadas de eritema (infección de herida)",
+  "credit": "The Atlas of Emergency Medicine (Knoop), p. 673"
+ },
+ {
+  "case": 9005,
+  "prio": "media",
+  "clases": [
+   "cirugia-17"
+  ],
+  "file": "biblioteca/10_cirugia/cirugia-17/09_herida-infectada-abierta__knoop_p674.jpg",
+  "cap": "Herida abierta con bordes eritematosos",
+  "desc": "herida abierta con fibrina y bordes rojos, curación abierta",
+  "credit": "The Atlas of Emergency Medicine (Knoop), p. 674"
+ },
+ {
+  "case": 9006,
+  "prio": "alta",
+  "clases": [
+   "cirugia-21"
+  ],
+  "file": "biblioteca/10_cirugia/cirugia-21/01_onicocriptosis-paso-a-paso__knoop_p361.jpg",
+  "cap": "Onicectomía parcial paso a paso",
+  "desc": "uña encarnada: bloqueo digital y onicectomía parcial paso a paso (rótulos en inglés)",
+  "credit": "The Atlas of Emergency Medicine (Knoop), p. 361"
+ },
+ {
+  "case": 9007,
+  "prio": "media",
+  "clases": [
+   "trauma-03"
+  ],
+  "file": "biblioteca/18_traumatologia/trauma-03/04_embolia-grasa-petequias__hy_p784.jpg",
+  "cap": "Petequias de la embolia grasa",
+  "desc": "petequias en la piel (embolia grasa tras fractura de fémur)",
+  "credit": "Mehlman Medical HY, p. 784"
+ },
+ {
+  "case": 9008,
+  "prio": "media",
+  "clases": [
+   "trauma-03"
+  ],
+  "file": "biblioteca/18_traumatologia/trauma-03/05_contractura-antebrazo-compartimental__knoop_p328.jpg",
+  "cap": "Contractura del antebrazo",
+  "desc": "antebrazo con dedos flectados y rígidos tras síndrome compartimental (tipo Volkmann)",
+  "credit": "The Atlas of Emergency Medicine (Knoop), p. 328"
+ },
+ {
+  "case": 9009,
+  "prio": "alta",
+  "clases": [
+   "trauma-04"
+  ],
+  "file": "biblioteca/12_traumatologia/trauma-04/22_supracondilea-rx-lateral__sherman_p770.jpg",
+  "cap": "Fractura supracondílea, Rx de codo",
+  "desc": "Rx lateral de codo infantil con almohadilla grasa posterior levantada (supracondílea)",
+  "credit": "Atlas of Clinical Emergency Medicine (Sherman), p. 770"
+ },
+ {
+  "case": 9010,
+  "prio": "media",
+  "clases": [
+   "trauma-07"
+  ],
+  "file": "biblioteca/18_traumatologia/trauma-07/23_quinto-metatarsiano-base-rx__knoop_p347.jpg",
+  "cap": "Fractura de la base del quinto metatarsiano",
+  "desc": "Rx del pie con fractura por avulsión de la base del quinto metatarsiano",
+  "credit": "The Atlas of Emergency Medicine (Knoop), p. 347"
+ },
+ {
+  "case": 9011,
+  "prio": "baja",
+  "clases": [
+   "trauma-07"
+  ],
+  "file": "biblioteca/18_traumatologia/trauma-07/24_maisonneuve__sherman_p615.jpg",
+  "cap": "Fractura de Maisonneuve",
+  "desc": "Rx de pierna y tobillo con fractura maleolar medial y fractura proximal del peroné",
+  "credit": "Atlas of Clinical Emergency Medicine (Sherman), p. 615"
+ },
+ {
+  "case": 9012,
+  "prio": "media",
+  "clases": [
+   "trauma-08"
+  ],
+  "file": "biblioteca/18_traumatologia/trauma-08/04_rm-menisco-medial-roto__ctmri-path_p484.jpg",
+  "cap": "RM: rotura del menisco medial",
+  "desc": "RM de rodilla con rotura compleja del cuerno posterior del menisco medial",
+  "credit": "CT & MRI Pathology: A Pocket Atlas, p. 484"
+ },
+ {
+  "case": 9013,
+  "prio": "media",
+  "clases": [
+   "trauma-10"
+  ],
+  "file": "biblioteca/18_traumatologia/trauma-10/22_luxacion-posterior-cadera-rx__sherman_p592.jpg",
+  "cap": "Luxación posterior de cadera",
+  "desc": "Rx de pelvis con luxación posterior de cadera derecha",
+  "credit": "Atlas of Clinical Emergency Medicine (Sherman), p. 592"
+ },
+ {
+  "case": 9014,
+  "prio": "alta",
+  "clases": [
+   "trauma-12"
+  ],
+  "file": "biblioteca/18_traumatologia/trauma-12/05_podagra-primer-ortejo__knoop_p963.jpg",
+  "cap": "Podagra",
+  "desc": "primer ortejo rojo, caliente e hinchado (podagra)",
+  "credit": "The Atlas of Emergency Medicine (Knoop), p. 963"
+ },
+ {
+  "case": 9015,
+  "prio": "media",
+  "clases": [
+   "trauma-14"
+  ],
+  "file": "biblioteca/18_traumatologia/trauma-14/06_displasia-cadera-indice-acetabular__bailey-love_p592.jpg",
+  "cap": "Displasia residual de cadera",
+  "desc": "Rx de pelvis con índice acetabular aumentado en la cadera izquierda",
+  "credit": "Bailey & Love 27.ª ed., Fig. 39.19"
+ },
+ {
+  "case": 9016,
+  "prio": "media",
+  "clases": [
+   "trauma-14"
+  ],
+  "file": "biblioteca/18_traumatologia/trauma-14/07_pie-bot-congenito__talley_p800.jpg",
+  "cap": "Pie bot congénito",
+  "desc": "pies equinovaros bilaterales en un niño pequeño",
+  "credit": "Talley, Clinical Examination, Fig. 38.24"
+ },
+ {
+  "case": 9017,
+  "prio": "media",
+  "clases": [
+   "uro-11"
+  ],
+  "file": "biblioteca/19_urologia/uro-11/03_angiomiolipoma-tac__ctmri-path_p345.jpg",
+  "cap": "Angiomiolipoma con grasa en TAC",
+  "desc": "TAC con masa renal izquierda con grasa macroscópica (angiomiolipoma)",
+  "credit": "CT & MRI Pathology: A Pocket Atlas, p. 345"
+ },
+ {
+  "case": 9018,
+  "prio": "media",
+  "clases": [
+   "uro-01"
+  ],
+  "file": "biblioteca/19_urologia/uro-01/04_nefrostomia-percutanea__kumar-clark_p185.jpg",
+  "cap": "Nefrostomía percutánea",
+  "desc": "hidronefrosis y colocación percutánea de guía para nefrostomía",
+  "credit": "Kumar & Clark, Clinical Medicine, Fig. 8.74"
+ },
+ {
+  "case": 9019,
+  "prio": "media",
+  "clases": [
+   "oftal-09"
+  ],
+  "file": "biblioteca/12_oftalmologia/oftal-09/56_esotropia-congenita__kanski_p770.jpg",
+  "cap": "Esotropía del lactante",
+  "desc": "lactante con esotropía del ojo derecho",
+  "credit": "Kanski, Clinical Ophthalmology 8.ª ed., Fig. 18.48"
+ },
+ {
+  "case": 9020,
+  "prio": "baja",
+  "clases": [
+   "oftal-03"
+  ],
+  "file": "biblioteca/12_oftalmologia/oftal-03/57_papiloma-conjuntival__kanski_p482.jpg",
+  "cap": "Papiloma conjuntival",
+  "desc": "masa rosada con vasos en penacho sobre la conjuntiva (papiloma)",
+  "credit": "Kanski, Clinical Ophthalmology 8.ª ed., Fig. 12.2"
+ },
+ {
+  "case": 9021,
+  "prio": "media",
+  "clases": [
+   "derma-05"
+  ],
+  "file": "biblioteca/11_dermatologia/derma-05/11_liquen-plano-gingival__knoop_p274.jpg",
+  "cap": "Líquen plano oral erosivo",
+  "desc": "encía eritematosa y erosionada por líquen plano oral",
+  "credit": "The Atlas of Emergency Medicine (Knoop), p. 274"
+ },
+ {
+  "case": 9022,
+  "prio": "media",
+  "clases": [
+   "derma-10"
+  ],
+  "file": "biblioteca/11_dermatologia/derma-10/04_toxidermia-fija__knoop_p392.jpg",
+  "cap": "Toxidermia fija",
+  "desc": "placa violácea redonda bien delimitada con mancha residual (toxidermia fija)",
+  "credit": "The Atlas of Emergency Medicine (Knoop), p. 392"
+ },
+ {
+  "case": 9023,
+  "prio": "media",
+  "clases": [
+   "derma-12"
+  ],
+  "file": "biblioteca/11_dermatologia/derma-12/12_molusco-contagioso-periocular__kumar-clark_p1652.jpg",
+  "cap": "Molusco contagioso",
+  "desc": "pápulas perladas periorbitarias de molusco contagioso en un niño",
+  "credit": "Kumar & Clark, Clinical Medicine, Fig. 45.28"
+ },
+ {
+  "case": 9024,
+  "prio": "baja",
+  "clases": [
+   "derma-12"
+  ],
+  "file": "biblioteca/11_dermatologia/derma-12/13_tzanck-celulas-gigantes__knoop_p947.jpg",
+  "cap": "Test de Tzanck",
+  "desc": "células gigantes multinucleadas en el extendido de Tzanck",
+  "credit": "The Atlas of Emergency Medicine (Knoop), p. 947"
+ },
+ {
+  "case": 9025,
+  "prio": "media",
+  "clases": [
+   "trauma-04"
+  ],
+  "file": "biblioteca/12_traumatologia/trauma-04/23_luxacion-hombro-charretera__sherman_p542.jpg",
+  "cap": "Luxación anterior de hombro: pérdida del contorno",
+  "desc": "hombro con pérdida del contorno redondeado por luxación anterior (signo de la charretera)",
+  "credit": "Atlas of Clinical Emergency Medicine (Sherman), p. 542"
+ },
+ {
+  "case": 9026,
+  "prio": "media",
+  "clases": [
+   "trauma-04"
+  ],
+  "file": "biblioteca/12_traumatologia/trauma-04/24_luxacion-hombro-rx-ap__sherman_p542.jpg",
+  "cap": "Luxación anterior de hombro en Rx AP",
+  "desc": "Rx AP de hombro con cabeza humeral desplazada por delante y abajo de la glenoides",
+  "credit": "Atlas of Clinical Emergency Medicine (Sherman), p. 542"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "alta",
+  "clases": [
+   "ob-21"
+  ],
+  "file": "biblioteca/14_obstetricia/ob-21/03_signo-lambda-eco__obgynus_p137.jpg",
+  "cap": "Gemelos bicoriales biamnióticos: signo lambda (twin-peak)",
+  "desc": "ecografía gemelar bicorial biamniótica con signo lambda o twin peak, membrana divisoria gruesa",
+  "credit": "Ultrasound in Obstetrics and Gynecology: A Practical Approach, Fig. 7.2 / p. 137"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "alta",
+  "clases": [
+   "ob-21"
+  ],
+  "file": "biblioteca/14_obstetricia/ob-21/04_signo-T-monocorial__obgynus_p81.jpg",
+  "cap": "Gemelos monocoriales biamnióticos: membrana delgada (signo T)",
+  "desc": "ecografía primer trimestre gemelar monocorial biamniótica con membrana divisoria delgada signo T y dos sacos vitelinos",
+  "credit": "Ultrasound in Obstetrics and Gynecology: A Practical Approach, Fig. 4.20 / p. 81"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "media",
+  "clases": [
+   "ob-21"
+  ],
+  "file": "biblioteca/14_obstetricia/ob-21/05_tttf-donante-receptor-eco__obgynus_p143.jpg",
+  "cap": "Transfusión feto-fetal en ecografía: receptor con polihidramnios, donante con oligohidramnios",
+  "desc": "síndrome de transfusión feto-fetal ecografía donante oligohidramnios receptor polihidramnios",
+  "credit": "Ultrasound in Obstetrics and Gynecology: A Practical Approach, p. 143"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "media",
+  "clases": [
+   "ob-20"
+  ],
+  "file": "biblioteca/14_obstetricia/ob-20/02_hidrops-fetal-eco__nelson_p1437.jpg",
+  "cap": "Hidrops fetal: ascitis y derrame pleural en ecografía",
+  "desc": "hidrops fetal ecografía ascitis derrame pleural",
+  "credit": "Nelson Textbook of Pediatrics, 22nd ed., Fig. 140.1 / p. 1437"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "baja",
+  "clases": [
+   "ob-07"
+  ],
+  "file": "biblioteca/14_obstetricia/ob-07/01_macrosomia-eco-circunferencia-abdominal__obgynus_p131.jpg",
+  "cap": "Feto macrosómico: capa de grasa subcutánea aumentada en el plano de la circunferencia abdominal",
+  "desc": "macrosomía fetal ecografía circunferencia abdominal grasa subcutánea aumentada",
+  "credit": "Ultrasound in Obstetrics and Gynecology: A Practical Approach, Fig. 6.10 / p. 131"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "media",
+  "clases": [
+   "gin-11"
+  ],
+  "file": "biblioteca/13_ginecologia/gin-11/02_fitz-hugh-curtis-laparoscopia__goljan_p1202.jpg",
+  "cap": "Síndrome de Fitz-Hugh-Curtis: adherencias perihepáticas en cuerdas de violín (laparoscopía)",
+  "desc": "Fitz-Hugh-Curtis perihepatitis adherencias en cuerdas de violín laparoscopía enfermedad pélvica inflamatoria",
+  "credit": "Goljan Rapid Review Pathology, Link 22-85 / p. 1202"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "media",
+  "clases": [
+   "gin-14"
+  ],
+  "file": "biblioteca/13_ginecologia/gin-14/05_quiste-simple-mama-eco__rumack_p821.jpg",
+  "cap": "Quiste simple de mama: anecoico, pared fina y refuerzo posterior",
+  "desc": "ecografía mamaria quiste simple anecoico refuerzo acústico posterior BIRADS 2",
+  "credit": "Diagnostic Ultrasound (Rumack), Fig. 20-40 / p. 821"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "media",
+  "clases": [
+   "ped-12"
+  ],
+  "file": "biblioteca/15_pediatria/ped-12/03_doble-burbuja-atresia-duodenal__bailey_p155.jpg",
+  "cap": "Doble burbuja de la atresia duodenal en radiografía neonatal",
+  "desc": "radiografía de abdomen neonatal doble burbuja atresia duodenal vómito bilioso",
+  "credit": "Bailey & Love's Short Practice of Surgery, 27th ed., Fig. 9.24 / p. 155"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "baja",
+  "clases": [
+   "ped-12"
+  ],
+  "file": "biblioteca/15_pediatria/ped-12/04_invaginacion-sangre-panal__knoop_p500.jpg",
+  "cap": "Invaginación intestinal: deposición con sangre en el pañal",
+  "desc": "invaginación intestinal ileocólica deposición con sangre jalea de grosella pañal lactante",
+  "credit": "The Atlas of Emergency Medicine (Knoop), p. 500"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "media",
+  "clases": [
+   "ped-12"
+  ],
+  "file": "biblioteca/15_pediatria/ped-12/05_invaginacion-enema-baritado__knoop_p501.jpg",
+  "cap": "Invaginación ileocólica en enema baritado: signo del menisco",
+  "desc": "invaginación intestinal enema baritado menisco cabeza de la invaginación",
+  "credit": "The Atlas of Emergency Medicine (Knoop), p. 501"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "media",
+  "clases": [
+   "ped-23"
+  ],
+  "file": "biblioteca/15_pediatria/ped-23/03_ecg-taquicardia-supraventricular__knoop_p809.jpg",
+  "cap": "ECG de taquicardia supraventricular: QRS estrecho, regular y rápido",
+  "desc": "ECG taquicardia supraventricular TSV QRS estrecho regular",
+  "credit": "The Atlas of Emergency Medicine (Knoop), p. 809"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "media",
+  "clases": [
+   "ped-23"
+  ],
+  "file": "biblioteca/15_pediatria/ped-23/04_ecg-wolff-parkinson-white__knoop_p809.jpg",
+  "cap": "ECG de Wolff-Parkinson-White: PR corto y onda delta",
+  "desc": "ECG Wolff-Parkinson-White onda delta PR corto preexcitación",
+  "credit": "The Atlas of Emergency Medicine (Knoop), p. 809"
+ },
+ {
+  "case": "NUEVA",
+  "prio": "media",
+  "clases": [
+   "ped-10"
+  ],
+  "file": "biblioteca/15_pediatria/ped-10/10_manchas-de-koplik__zitelli_p492.jpg",
+  "cap": "Manchas de Koplik en la mucosa yugal (sarampión)",
+  "desc": "manchas de Koplik sarampión mucosa oral",
+  "credit": "Zitelli & Davis' Atlas of Pediatric Physical Diagnosis, Fig. 12-1B / p. 492"
  }
 ]

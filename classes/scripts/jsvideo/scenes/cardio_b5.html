@@ -1,0 +1,293 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Cardiología, bloque 5 (HTA, pericardio y vascular), oct-2026. Gráficos de código (hemodinámica y ECG), sin órganos dibujados.
+//   ?v=mapa      cardio-29 A1: MAPA de 24 h, patrones dipper, non-dipper y riser con los cortes diurno y nocturno
+//   ?v=escalera  cardio-30 A1: tratamiento escalonado de la HTA y la meta de presión
+//   ?v=raas      cardio-31 A1: renina, aldosterona y potasio: normal, Conn y estenosis de arteria renal
+//   ?v=autorreg  cardio-32 A1: autorregulación cerebral y por qué no se baja la presión más de 20-25%
+//   ?v=pericarditis cardio-33 A1: ECG de pericarditis (ST cóncavo, PR descendido) frente al del infarto
+//   ?v=tapon     cardio-34 A1: curva presión-volumen del pericardio y pulso paradojal
+//   ?v=diseccion cardio-35 A1: onda de presión arterial antes y después del betabloqueo (dP/dt)
+//   ?v=aaa       cardio-36 A1: diámetro del aneurisma, riesgo de rotura y umbrales
+//   ?v=tep       cardio-37 A1: obstrucción pulmonar, presión pulmonar y shock obstructivo
+//   ?v=tvp       cardio-38 A1: eco-Doppler con compresión, vena normal frente a TVP
+const V = new URLSearchParams(location.search).get('v') || 'mapa';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const K = KIT(L), { seg, fade } = K;
+const g = (x, m, w) => Math.exp(-((x - m) * (x - m)) / (2 * w * w));
+const credG = n => `Gráfico propio · criterios del Manual EUNACOM de Cardiología, tema 5.${n}`;
+function frame(x, y, w, h, xl, yl) {            // marco de gráfico
+  rrect(x, y, w, h, 16, '#161B22');
+  if (xl) text(xl, x + w / 2, y + h - 12, 16, C.MUTED, '', 'center');
+  if (yl) { ctx.save(); ctx.translate(x + 20, y + h / 2); ctx.rotate(-Math.PI / 2); text(yl, 0, 0, 16, C.MUTED, '', 'center'); ctx.restore(); }
+}
+function hline(x1, x2, y, col, label, dash = true, side = 'right') {
+  ctx.save(); ctx.strokeStyle = col; ctx.lineWidth = 2; if (dash) ctx.setLineDash([8, 6]); ctx.beginPath(); ctx.moveTo(x1, y); ctx.lineTo(x2, y); ctx.stroke(); ctx.restore();
+  if (label) text(label, side === 'right' ? x2 - 6 : x1 + 6, y - 7, 15, col, 'bold', side === 'right' ? 'right' : 'left');
+}
+function dot(x, y, r, col) { ctx.fillStyle = col; ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.fill(); ctx.strokeStyle = '#0E1116'; ctx.lineWidth = 2; ctx.stroke(); }
+function line(pts, col, w = 4) { ctx.strokeStyle = col; ctx.lineWidth = w; ctx.lineJoin = 'round'; ctx.beginPath(); pts.forEach(([x, y], i) => i ? ctx.lineTo(x, y) : ctx.moveTo(x, y)); ctx.stroke(); }
+function BN(x, y, w, s, col, a) {                 // cartel con texto que se ajusta al ancho
+  if (a <= 0) return; let size = 20; ctx.font = `bold ${size}px "Liberation Sans", Arial, sans-serif`;
+  while (ctx.measureText(s).width > w - 36 && size > 11) { size--; ctx.font = `bold ${size}px "Liberation Sans", Arial, sans-serif`; }
+  ctx.save(); ctx.globalAlpha *= a; rrect(x, y, w, 50, 25, '#1B2230'); ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.roundRect(x, y, w, 50, 25); ctx.stroke();
+  text(s, x + w / 2, y + 25 + size * 0.35, size, C.INK, 'bold', 'center'); ctx.restore();
+}
+const A = (a, f) => { if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; f(); ctx.restore(); };
+
+// ============ cardio-29: MAPA de 24 horas ============
+function mapa(t) {
+  K.title('MAPA: la presión durante 24 horas', 'Promedios diurno y nocturno, y descenso nocturno de la presión sistólica', C.BLUE);
+  const X = 40, Y = 130, W = 800, H = 500; frame(X, Y, W, H, 'Hora del día (08:00 a 08:00)', 'PA sistólica (mmHg)');
+  const px = h => X + 70 + (W - 100) * h / 24, py = p => Y + H - 60 - (H - 120) * (p - 90) / 90;
+  // sueño 23:00-08:00 -> horas 15 a 24 desde las 08:00
+  ctx.fillStyle = 'rgba(79,163,255,0.10)'; ctx.fillRect(px(15), Y + 20, px(24) - px(15), H - 80); text('Sueño', (px(15) + px(24)) / 2, Y + 44, 17, C.BLUE, 'bold', 'center');
+  [100, 120, 140, 160, 180].forEach(p => { text(String(p), X + 62, py(p) + 5, 14, C.MUTED, '', 'right'); ctx.strokeStyle = '#222833'; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(X + 70, py(p)); ctx.lineTo(X + W - 30, py(p)); ctx.stroke(); });
+  [0, 4, 8, 12, 16, 20, 24].forEach(h => text(String((8 + h) % 24).padStart(2, '0') + ':00', px(h), Y + H - 36, 13, C.MUTED, '', 'center'));
+  hline(px(0), px(15), py(135), C.AMBER, 'Diurno ≥ 135', true, 'left'); hline(px(15), px(24), py(120), C.VIOLET, 'Nocturno ≥ 120', true, 'right');
+  const PAT = [{ n: 'Dipper', day: 138, night: 112, col: C.GREEN, t0: 1.0, d: 3.4, msg: 'Cae 10 a 20% de noche: patrón normal', pct: 18.8 },
+               { n: 'Non-dipper', day: 138, night: 130, col: C.AMBER, t0: 8.6, d: 3.4, msg: 'Cae menos de 10%: más riesgo cardiovascular', pct: 5.8 },
+               { n: 'Riser', day: 134, night: 142, col: C.RED, t0: 16.4, d: 3.4, msg: 'La presión sube de noche: buscar causa', pct: -6.0 }];
+  const f = (h, p) => { const night = clamp((h - 14) / 2, 0, 1) * (1 - clamp((h - 23.2) / 0.8, 0, 1)); const base = lerp(p.day, p.night, night); return base + 7 * Math.sin(h * 1.7) + 4 * Math.sin(h * 4.3 + 1) + (h > 1 && h < 5 ? 5 : 0); };
+  const cur = PAT.reduce((a, p, i) => t >= p.t0 ? i : a, -1);
+  PAT.forEach((p, i) => { if (i > cur) return; const prog = i < cur ? 1 : seg(t, p.t0, p.d);
+    A(i === cur ? 1 : 0.18, () => { const pts = []; for (let h = 0; h <= 24 * prog; h += 0.12) pts.push([px(h), py(f(h, p))]); line(pts, p.col, 4); if (prog < 1) dot(...pts[pts.length - 1], 7, p.col); }); });
+  // panel
+  const X2 = 870, p = PAT[Math.max(cur, 0)], a = seg(t, p.t0, 0.6);
+  rrect(X2, 130, 370, 250, 16, '#161B22'); text('Patrón', X2 + 22, 168, 18, C.MUTED);
+  A(cur >= 0 ? 1 : 0, () => { text(p.n, X2 + 22, 214, 38, p.col, 'bold'); text('Descenso nocturno', X2 + 22, 262, 18, C.MUTED);
+    text((p.pct * seg(t, p.t0 + 2.4, 1.2)).toFixed(0) + ' %', X2 + 22, 316, 50, C.INK, 'bold'); text(p.msg, X2 + 22, 358, 16, p.col, 'bold'); });
+  K.card(X2, 400, 370, 120, C.BLUE, 'Cortes del MAPA', ['24 h ≥ 130/80 · diurno ≥ 135/85', 'nocturno ≥ 120/70'], seg(t, 1, 0.6), 17);
+  BN(X2, 540, 370, 'Non-dipper o riser: SAHOS, ERC, aldosterona', C.AMBER, fade(t, 17, 30, 0.6));
+  BN(X2, 610, 370, 'Bata blanca: MAPA normal, sin fármaco', C.GREEN, fade(t, 20, 30, 0.6));
+}
+
+// ============ cardio-30: tratamiento escalonado ============
+function escalera(t) {
+  K.title('Tratamiento escalonado de la HTA', 'La presión baja con cada paso; la meta es menor de 130/80 mmHg', C.GREEN);
+  const ST = [{ t: 1, n: 'Diagnóstico', s: 168, d: 104, sub: 'Grado 2' }, { t: 6, n: 'Estilo de vida', s: 158, d: 98, sub: 'Sal, peso, ejercicio' },
+              { t: 11, n: 'Dos fármacos', s: 141, d: 90, sub: 'IECA o ARA II + CCB o tiazida' }, { t: 16, n: 'Triple terapia', s: 134, d: 85, sub: 'Dosis plenas' },
+              { t: 21, n: 'Resistente', s: 134, d: 85, sub: 'Falta la meta' }, { t: 25, n: '+ Espironolactona', s: 124, d: 77, sub: 'Cuarto fármaco' }];
+  const X = 40, Y = 130, W = 820, H = 520; frame(X, Y, W, H, '', 'Presión arterial (mmHg)');
+  const px = i => X + 110 + i * 130, py = p => Y + H - 70 - (H - 130) * (p - 70) / 110;
+  [80, 100, 120, 140, 160, 180].forEach(p => { text(String(p), X + 78, py(p) + 5, 14, C.MUTED, '', 'right'); ctx.strokeStyle = '#222833'; ctx.beginPath(); ctx.moveTo(X + 90, py(p)); ctx.lineTo(X + W - 20, py(p)); ctx.stroke(); });
+  ctx.fillStyle = 'rgba(61,220,132,0.10)'; ctx.fillRect(X + 90, py(130), W - 110, py(70) - py(130)); hline(X + 90, X + W - 20, py(130), C.GREEN, 'Meta sistólica < 130', true, 'left'); hline(X + 90, X + W - 20, py(80), C.GREEN, 'Meta diastólica < 80', true, 'left');
+  const cur = ST.reduce((a, s, i) => t >= s.t ? i : a, -1), k = cur < 0 ? 0 : ease(seg(t, ST[cur].t, 1.6));
+  [['s', C.RED, 'Sistólica'], ['d', C.BLUE, 'Diastólica']].forEach(([key, col, nm]) => {
+    const pts = []; for (let i = 0; i <= cur; i++) { const v = i === cur && cur > 0 ? lerp(ST[i - 1][key], ST[i][key], k) : ST[i][key]; pts.push([px(i), py(v)]); }
+    if (pts.length > 1) line(pts, col, 5); pts.forEach(([x, y], i) => dot(x, y, i === cur ? 9 : 6, col));
+    if (cur >= 0) text(Math.round(cur > 0 ? lerp(ST[cur - 1][key], ST[cur][key], k) : ST[cur][key]) + '', pts[cur][0] + 16, pts[cur][1] - 12, 20, col, 'bold'); });
+  ST.forEach((s, i) => A(seg(t, s.t, 0.5), () => { text(s.n, px(i), Y + H - 40, 15, i === cur ? C.INK : C.MUTED, i === cur ? 'bold' : '', 'center'); }));
+  const cards = [['Todos', C.GREEN, ['Sal < 5 g al día, bajar de peso,', 'DASH, ejercicio, no fumar']], ['Primera línea', C.BLUE, ['IECA o ARA II + calcioantagonista', 'o tiazida; dosis fija si PA ≥ 160/100']], ['HTA resistente', C.RED, ['3 fármacos con un diurético', 'y mala meta: espironolactona']]];
+  const ci = cur < 2 ? 0 : cur < 4 ? 1 : 2;
+  K.card(890, 140, 350, 125, cards[ci][1], cards[ci][0], cards[ci][2], 1, 17);
+  K.card(890, 285, 350, 150, C.AMBER, 'Antes de escalar', ['Adherencia, técnica de medición,', 'sal y fármacos que suben la PA', '(AINE, corticoides, ACO)'], seg(t, 12, 0.6), 17);
+  BN(890, 460, 350, 'IECA y ARA II no se combinan', C.VIOLET, fade(t, 13, 31, 0.6));
+  BN(890, 530, 350, 'Estudiar causa secundaria si resistente', C.AMBER, fade(t, 22, 31, 0.6));
+}
+
+// ============ cardio-31: renina, aldosterona y potasio ============
+function raas(t) {
+  K.title('Renina, aldosterona y potasio', 'Tres situaciones: normal, hiperaldosteronismo primario y estenosis de arteria renal', C.VIOLET);
+  const COL = [{ n: 'Normal', r: 5, a: 10, k: 4.2, arr: '2', col: C.GREEN, t0: 1, msg: 'Relación aldosterona / renina baja' },
+               { n: 'Hiperaldosteronismo primario', r: 0.6, a: 28, k: 3.0, arr: '47', col: C.AMBER, t0: 8, msg: 'ARR > 20-30: aldosterona alta con renina suprimida' },
+               { n: 'Estenosis de arteria renal', r: 18, a: 26, k: 3.4, arr: '1,4', col: C.RED, t0: 17, msg: 'Renina alta: hiperaldosteronismo secundario' }];
+  COL.forEach((c, i) => { const x = 40 + i * 410, w = 390, a = seg(t, c.t0, 0.6); if (a <= 0) return;
+    A(a, () => { rrect(x, 130, w, 400, 16, '#161B22'); ctx.fillStyle = c.col; ctx.fillRect(x, 130, w, 6); text(c.n, x + w / 2, 172, 21, c.col, 'bold', 'center'); });
+    const bars = [['Renina', c.r, 20, C.BLUE, ' UI'], ['Aldosterona', c.a, 30, C.VIOLET, ' ng/dL'], ['Potasio', c.k, 5, c.k < 3.6 ? C.RED : C.GREEN, ' mEq/L']];
+    bars.forEach(([nm, v, mx, col, u], j) => { const bx = x + 40 + j * 110, by = 480, bh = 230, k = ease(seg(t, c.t0 + 0.6 + j * 0.5, 1.4));
+      A(a, () => { rrect(bx, by - bh, 70, bh, 10, '#222833'); rrect(bx, by - bh * clamp(v * k / mx, 0, 1), 70, bh * clamp(v * k / mx, 0, 1), 10, col);
+        text((v * k).toFixed(v < 10 ? 1 : 0), bx + 35, by - bh - 10, 17, C.INK, 'bold', 'center'); text(nm, bx + 35, by + 24, 15, C.MUTED, '', 'center'); }); });
+    A(seg(t, c.t0 + 3, 0.6), () => { text('ARR ' + c.arr, x + w / 2, 560, 28, c.col, 'bold', 'center'); });
+    BN(x, 590, w, c.msg, c.col, fade(t, c.t0 + 3.4, c.t0 + 7.2, 0.5)); });
+  BN(40, 640, 1200, 'Potasio normal no descarta Conn (solo la mitad es hipopotasémica) · Creatinina ↑ tras IECA: sospechar estenosis renal', C.VIOLET, fade(t, 24, 33, 0.7));
+}
+
+// ============ cardio-32: autorregulación ============
+function autorreg(t) {
+  K.title('¿Por qué no se baja la presión de golpe?', 'Autorregulación del flujo cerebral en el hipertenso crónico', C.RED);
+  const X = 40, Y = 130, W = 820, H = 520; frame(X, Y, W, H, 'Presión arterial media (mmHg)', 'Flujo cerebral (%)');
+  const px = m => X + 90 + (W - 130) * (m - 40) / 170, py = f => Y + H - 70 - (H - 130) * f / 130;
+  const cb = (m, Lw, U) => m < Lw ? 30 + 70 * clamp((m - 40) / (Lw - 40), 0, 1) ** 1.4 : m > U ? 100 + (m - U) * 1.1 : 100;
+  [40, 80, 120, 160, 200].forEach(m => text(String(m), px(m), Y + H - 44, 14, C.MUTED, '', 'center'));
+  const curve = (Lw, U, col, a) => A(a, () => { const pts = []; for (let m = 40; m <= 210; m += 2) pts.push([px(m), py(cb(m, Lw, U))]); line(pts, col, 4); });
+  curve(60, 150, C.BLUE, seg(t, 0.5, 0.7)); text('Normotenso (límite inferior 60)', px(62), py(36), 15, C.BLUE, 'bold');
+  curve(100, 190, C.RED, seg(t, 3, 0.7)); A(seg(t, 3, 0.7), () => text('Hipertenso crónico (límite inferior ≈ 100)', px(104), py(26), 15, C.RED, 'bold'));
+  A(seg(t, 5, 0.6), () => { ctx.strokeStyle = C.AMBER; ctx.setLineDash([6, 6]); ctx.beginPath(); ctx.moveTo(px(100), py(0)); ctx.lineTo(px(100), py(125)); ctx.stroke(); ctx.setLineDash([]); });
+  // marcador: PAM 165 -> -22% (129) -> vuelve 165 -> -40% (99)
+  const path = [[8, 165], [11, 165], [14, 129], [19, 129], [21, 165], [24, 165], [27, 99]];
+  let m = 165; for (let i = 1; i < path.length; i++) if (t >= path[i - 1][0]) m = lerp(path[i - 1][1], path[i][1], ease(seg(t, path[i - 1][0], path[i][0] - path[i - 1][0])));
+  A(seg(t, 7, 0.5), () => { const f = cb(m, 100, 190), bad = m < 100; dot(px(m), py(f), 11, bad ? C.RED : C.GREEN); text(`PAM ${Math.round(m)}`, px(m), py(f) - 22, 17, C.INK, 'bold', 'center'); });
+  K.card(890, 140, 350, 140, C.AMBER, 'Emergencia hipertensiva', ['PAM ↓ máximo 20-25% en la 1.ª hora', 'Luego 160/100 en 2-6 horas'], seg(t, 8, 0.6), 17);
+  K.card(890, 300, 350, 130, C.GREEN, 'Descenso de 22%', ['PAM 165 → 129: sigue en la meseta', 'El flujo se mantiene'], fade(t, 14, 20, 0.5), 17);
+  K.card(890, 300, 350, 130, C.RED, 'Descenso de 40%', ['PAM 99: bajo el límite', 'Isquemia cerebral y miocárdica'], seg(t, 26.5, 0.5), 17);
+  BN(890, 460, 350, 'Excepciones: disección, EAP, eclampsia', C.VIOLET, fade(t, 28.5, 36, 0.6));
+  BN(890, 530, 350, 'Nunca nifedipino sublingual', C.RED, fade(t, 30, 36, 0.6));
+}
+
+// ============ cardio-33: ECG de la pericarditis ============
+const SMOOTH = u => u * u * (3 - 2 * u);
+function pbeat(u, p) {                         // p.stc: ST cóncavo; p.stx: ST convexo; p.pr: descenso del PR; p.sign: -1 en derivación opuesta
+  const s = p.sign || 1; let y = 0.10 * g(u, 0.14, 0.025) * s;
+  if (u > 0.17 && u < 0.28) y += -p.pr * 0.14 * s * Math.sin(Math.PI * clamp((u - 0.17) / 0.11, 0, 1)) ** 0.6;
+  y += -0.09 * g(u, 0.285, 0.008) * s + 1.0 * g(u, 0.31, 0.010) * s - 0.2 * g(u, 0.335, 0.009) * s;
+  const x = clamp((u - 0.34) / 0.30, 0, 1), inST = u > 0.34 && u < 0.64;
+  if (inST) { y += s * (p.stc * 0.5 * (0.35 + 0.65 * (2 * x - 1) ** 2) + p.stx * 0.36 * Math.pow(Math.sin(Math.PI * x), 0.7)); }
+  else if (u >= 0.64) y += s * (p.stc * 0.14 * Math.exp(-(u - 0.64) * 30) + p.stx * 0.0);
+  y += s * 0.28 * g(u, 0.76, 0.05);
+  return y;
+}
+function plead(x, y, w, h, t, p, label, col, a, notes = []) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; rrect(x, y, w, h, 16, '#161B22'); text(label, x + 20, y + 30, 18, C.MUTED, 'bold');
+  ctx.save(); ctx.beginPath(); ctx.rect(x + 12, y + 40, w - 24, h - 48); ctx.clip(); ctx.strokeStyle = '#2A1F25'; ctx.lineWidth = 1;
+  for (let gx = x + 12; gx < x + w; gx += 20) { ctx.beginPath(); ctx.moveTo(gx, y + 40); ctx.lineTo(gx, y + h); ctx.stroke(); }
+  for (let gy = y + 40; gy < y + h; gy += 20) { ctx.beginPath(); ctx.moveTo(x, gy); ctx.lineTo(x + w, gy); ctx.stroke(); }
+  const base = y + h * 0.62, amp = h * 0.42, bw = 250, off = (t * 60) % bw;
+  ctx.setLineDash([6, 6]); ctx.strokeStyle = '#3A4350'; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.moveTo(x + 12, base); ctx.lineTo(x + w - 12, base); ctx.stroke(); ctx.setLineDash([]);
+  ctx.strokeStyle = col; ctx.lineWidth = 3.2; ctx.lineJoin = 'round'; ctx.beginPath();
+  for (let px = -bw; px < w; px += 2) { const u = ((((px + off) % bw) + bw) % bw) / bw, X = x + 12 + px, Y = base - amp * pbeat(u, p); px === -bw ? ctx.moveTo(X, Y) : ctx.lineTo(X, Y); }
+  ctx.stroke(); ctx.restore(); ctx.restore();
+}
+function pericarditis(t) {
+  K.title('Pericarditis frente a infarto', 'ST cóncavo y difuso con PR descendido, sin imagen especular', C.AMBER);
+  const per = t < 15.5, p1 = per ? { stc: 1, stx: 0, pr: 1 } : { stc: 0, stx: 1, pr: 0 }, p2 = per ? { stc: 1, stx: 0, pr: 0, sign: -1 } : { stc: 0, stx: 1, pr: 0, sign: -0.6 };
+  const k = per ? 1 : 0;
+  plead(40, 130, 800, 270, t, p1, per ? 'DII · pericarditis aguda' : 'DII · infarto inferior (SDST convexo)', per ? C.AMBER : C.RED, seg(t, 0.3, 0.6));
+  plead(40, 420, 800, 210, t, p2, per ? 'aVR · imagen opuesta (ST bajo, PR alto)' : 'DI · imagen especular del infarto', per ? C.BLUE : C.BLUE, seg(t, 0.8, 0.6));
+  A(fade(t, 3, 15, 0.5), () => { tag('ST cóncavo («en batea»)', 640, 178, C.AMBER, 17); tag('PR descendido', 235, 345, C.VIOLET, 17); });
+  A(fade(t, 6, 15, 0.5), () => tag('Difuso: casi todas las derivaciones', 600, 262, C.GREEN, 16));
+  A(fade(t, 17, 30, 0.5), () => { tag('ST convexo, territorial', 640, 178, C.RED, 17); tag('Imagen especular', 640, 468, C.BLUE, 17); });
+  const rows = [['Dolor', 'Pleurítico; mejora al inclinarse', 'Opresivo, > 20 minutos'], ['ST', 'Cóncavo y difuso', 'Convexo y territorial'], ['PR', 'Descendido', 'Normal'], ['Espejo', 'No (salvo aVR)', 'Sí'], ['Ondas Q', 'No', 'Sí, si no se reperfunde']];
+  rrect(870, 130, 370, 360, 16, '#161B22'); text('Pericarditis', 960, 162, 16, C.AMBER, 'bold', 'center'); text('Infarto', 1170, 162, 16, C.RED, 'bold', 'center');
+  rows.forEach((r, i) => A(seg(t, 2 + i * 1.2, 0.5), () => { text(r[0], 884, 204 + i * 56, 15, C.MUTED, 'bold'); text(r[1], 960, 204 + i * 56 + 18, 13, C.INK, '', 'center'); text(r[2], 1170, 204 + i * 56 + 18, 13, C.INK, '', 'center'); }));
+  BN(870, 520, 370, 'AINE + colchicina 3 meses', C.GREEN, fade(t, 9, 31, 0.6));
+  BN(870, 590, 370, 'Infarto: reperfundir de inmediato', C.RED, fade(t, 17.5, 31, 0.6));
+}
+
+// ============ cardio-34: taponamiento y pulso paradojal ============
+function tapon(t) {
+  K.title('Taponamiento: presión, volumen y pulso paradojal', 'El pericardio no se estira si el líquido llega rápido', C.RED);
+  const X = 40, Y = 130, W = 600, H = 500; frame(X, Y, W, H, 'Volumen de líquido pericárdico (mL)', 'Presión intrapericárdica (mmHg)');
+  const px = v => X + 80 + (W - 110) * v / 1500, py = p => Y + H - 70 - (H - 120) * p / 30;
+  const fast = v => 2 + 26 * (1 - Math.exp(-v / 160)) ** 1.0 * (v > 80 ? 1 : v / 80) + v * 0.0008, slow = v => 2 + 26 * Math.pow(Math.max(v - 700, 0) / 800, 1.6) + v * 0.004;
+  [0, 500, 1000, 1500].forEach(v => text(String(v), px(v), Y + H - 44, 14, C.MUTED, '', 'center'));
+  hline(X + 80, X + W - 20, py(15), C.AMBER, 'Taponamiento (> presión de llenado)', true, 'right');
+  A(seg(t, 0.5, 0.7), () => { const pts = []; for (let v = 0; v <= 1500; v += 20) pts.push([px(v), py(Math.min(fast(v), 29))]); line(pts, C.RED, 4); text('Agudo', px(330), py(26), 17, C.RED, 'bold'); });
+  A(seg(t, 3, 0.7), () => { const pts = []; for (let v = 0; v <= 1500; v += 20) pts.push([px(v), py(Math.min(slow(v), 29))]); line(pts, C.BLUE, 4); text('Lento (días o semanas)', px(1050), py(8), 17, C.BLUE, 'bold'); });
+  const v1 = 220 * ease(seg(t, 6, 2.5)); A(seg(t, 6, 0.4), () => { dot(px(v1), py(fast(v1)), 9, C.RED); text('150-200 mL ya comprimen', px(v1) + 16, py(fast(v1)) + 28, 15, C.RED, 'bold'); });
+  const v2 = 1000 * ease(seg(t, 9, 3)); A(seg(t, 9, 0.4), () => { dot(px(v2), py(slow(v2)), 9, C.BLUE); text('Hasta 1-2 litros sin taponamiento', px(v2) - 40, py(slow(v2)) - 18, 15, C.BLUE, 'bold'); });
+  // pulso paradojal
+  const X2 = 670, W2 = 570; frame(X2, Y, W2, 300, '', 'PA (mmHg)'); text('Pulso paradojal', X2 + 40, Y + 30, 19, C.INK, 'bold');
+  const bx = X2 + 70, by = Y + 270, bw = W2 - 100, ay = a => by - 180 * (a - 60) / 90, T = 16;
+  A(seg(t, 13, 0.6), () => {
+    ctx.fillStyle = 'rgba(79,163,255,0.12)'; [0.125, 0.625].forEach(u0 => ctx.fillRect(bx + bw * u0, Y + 50, bw * 0.25, 220));
+    text('Inspiración', bx + bw * 0.25, Y + 70, 15, C.BLUE, 'bold', 'center'); text('Inspiración', bx + bw * 0.75, Y + 70, 15, C.BLUE, 'bold', 'center');
+    const pts = []; const n = Math.floor(240 * seg(t, 13, 6));
+    for (let i = 0; i <= n; i++) { const u = i / 240, beat = (u * 14) % 1, amp = 124 - 30 * (0.5 - 0.5 * Math.cos(2 * Math.PI * 2 * u));
+      const wave = beat < 0.12 ? beat / 0.12 : Math.exp(-(beat - 0.12) * 4); pts.push([bx + bw * u, ay(78 + (amp - 78) * wave)]); }
+    if (pts.length > 1) line(pts, C.RED, 3); });
+  K.card(X2, 450, W2, 100, C.RED, 'Caída de la PAS > 10 mmHg al inspirar', ['Interdependencia ventricular: el VD se llena a costa del VI'], seg(t, 18, 0.6), 17);
+  BN(X2, 570, W2, 'Tríada de Beck: hipotensión, yugulares, ruidos apagados', C.AMBER, fade(t, 22, 33, 0.6));
+  BN(X2, 635, W2, 'Pericardiocentesis; evitar diuréticos y vasodilatadores', C.GREEN, fade(t, 26, 33, 0.6));
+}
+
+// ============ cardio-35: onda de presión y dP/dt ============
+function diseccion(t) {
+  K.title('Disección aórtica: bajar el dP/dt primero', 'Onda de presión antes y después del betabloqueador endovenoso', C.RED);
+  const k = ease(seg(t, 9, 8)), sys = lerp(190, 112, k), fc = lerp(112, 58, k), dia = lerp(100, 66, k), steep = lerp(0.045, 0.16, k);
+  const X = 40, Y = 130, W = 820, H = 420; frame(X, Y, W, H, '', 'Presión arterial (mmHg)');
+  const py = p => Y + H - 50 - (H - 90) * (p - 40) / 170; [60, 100, 140, 180].forEach(p => { text(String(p), X + 66, py(p) + 5, 14, C.MUTED, '', 'right'); ctx.strokeStyle = '#222833'; ctx.beginPath(); ctx.moveTo(X + 76, py(p)); ctx.lineTo(X + W - 20, py(p)); ctx.stroke(); });
+  ctx.fillStyle = 'rgba(61,220,132,0.12)'; ctx.fillRect(X + 76, py(120), W - 96, py(100) - py(120)); text('Meta PAS 100-120', X + W - 30, py(120) - 8, 15, C.GREEN, 'bold', 'right');
+  const pts = []; const period = 60 / fc * 1.0; for (let px = 0; px < W - 110; px += 2) { const tt = t * 1.6 - px / 150, ph = ((tt % period) + period) % period / period;
+    const up = ph < steep ? ph / steep : 1, dec = ph < steep ? 1 : Math.exp(-(ph - steep) * 4.2); pts.push([X + 90 + px, py(dia + (sys - dia) * (ph < steep ? up : dec))]); }
+  pts.reverse(); line(pts, lerp(0, 1, k) > 0.5 ? C.GREEN : C.RED, 4);
+  A(fade(t, 1.5, 9, 0.5), () => tag('Pendiente muy empinada = dP/dt alto', 560, 190, C.RED, 18));
+  A(fade(t, 18, 31, 0.5), () => tag('Pendiente suave: menos cizallamiento', 560, 190, C.GREEN, 18));
+  // medidores
+  K.bar(890, 160, 350, 'PAS', sys, 200, 'mmHg', sys > 120 ? C.RED : C.GREEN, [[120, '120']]);
+  K.bar(890, 250, 350, 'Frecuencia cardíaca', fc, 130, 'lpm', fc > 60 ? C.RED : C.GREEN, [[60, '60']]);
+  K.bar(890, 340, 350, 'dP/dt (relativo)', 100 * (1 - k * 0.6), 100, '%', k > 0.7 ? C.GREEN : C.RED, []);
+  const min = Math.min(20, 20 * k); rrect(890, 430, 350, 100, 16, '#161B22'); text('Minutos desde el inicio', 912, 464, 17, C.MUTED); text(Math.round(min) + ' min', 1218, 470, 34, min < 20 ? C.AMBER : C.GREEN, 'bold', 'right'); text('Meta: PAS < 120 y FC < 60 en < 20 min', 912, 514, 15, C.MUTED);
+  BN(40, 580, 560, '1.º labetalol o esmolol EV; 2.º nitroprusiato', C.BLUE, fade(t, 5, 33, 0.6));
+  BN(620, 580, 620, 'Tipo A: cirugía de emergencia · Tipo B: manejo médico', C.AMBER, fade(t, 22, 33, 0.6));
+  BN(40, 645, 1200, 'Nunca aspirina, heparina ni fibrinolíticos: la sospecha de disección los contraindica', C.RED, fade(t, 26, 33, 0.6));
+}
+
+// ============ cardio-36: aneurisma de aorta abdominal ============
+function aaa(t) {
+  K.title('Aneurisma de aorta abdominal: diámetro y riesgo', 'La tensión de la pared crece con el radio (ley de Laplace)', C.AMBER);
+  const X = 40, Y = 130, W = 800, H = 500; frame(X, Y, W, H, 'Diámetro máximo (cm)', 'Riesgo anual de rotura (%)');
+  const px = d => X + 90 + (W - 130) * (d - 2) / 6.5, py = r => Y + H - 70 - (H - 120) * r / 40;
+  const risk = d => [[2, 0], [3, 0.1], [4, 0.5], [5, 3], [5.5, 6], [6, 10], [7, 22], [8, 38], [8.5, 40]].reduce((a, p, i, arr) => i && d >= arr[i - 1][0] && d <= p[0] ? lerp(arr[i - 1][1], p[1], (d - arr[i - 1][0]) / (p[0] - arr[i - 1][0])) : a, 0);
+  [2, 3, 4, 5, 6, 7, 8].forEach(d => text(String(d), px(d), Y + H - 44, 14, C.MUTED, '', 'center')); [0, 10, 20, 30, 40].forEach(r => text(String(r), X + 74, py(r) + 5, 14, C.MUTED, '', 'right'));
+  ctx.fillStyle = 'rgba(255,90,78,0.10)'; ctx.fillRect(px(5.5), Y + 20, px(8.5) - px(5.5), H - 90);
+  const ZN = [[3, '≥ 3 cm: aneurisma', C.BLUE], [5.5, '5,5 cm: reparar (mujer 5,0)', C.RED]];
+  ZN.forEach(([d, lab, col]) => { ctx.strokeStyle = col; ctx.setLineDash([6, 6]); ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(px(d), Y + 30); ctx.lineTo(px(d), Y + H - 70); ctx.stroke(); ctx.setLineDash([]); });
+  A(seg(t, 0.5, 0.8), () => { const pts = []; for (let d = 2; d <= 8.5; d += 0.1) pts.push([px(d), py(risk(d))]); line(pts, C.AMBER, 4); });
+  const d = lerp(2.4, 7.2, ease(seg(t, 3, 22)));
+  A(seg(t, 3, 0.5), () => { dot(px(d), py(risk(d)), 10, d < 3 ? C.GREEN : d < 5.5 ? C.AMBER : C.RED); text(d.toFixed(1) + ' cm', px(d), py(risk(d)) - 22, 18, C.INK, 'bold', 'center'); });
+  const ch = d < 3 ? ['Aorta normal', 'Sin aneurisma', C.GREEN] : d < 4 ? ['3,0 a 3,9 cm', 'Ecografía cada 3 años', C.BLUE] : d < 5 ? ['4,0 a 4,9 cm', 'Ecografía cada año', C.BLUE] : d < 5.5 ? ['5,0 a 5,4 cm', 'Ecografía cada 6 meses', C.AMBER] : ['≥ 5,5 cm', 'Reparar: EVAR o cirugía abierta', C.RED];
+  rrect(870, 140, 370, 150, 16, '#161B22'); ctx.fillStyle = ch[2]; ctx.fillRect(870, 140, 6, 150); text(ch[0], 896, 190, 30, ch[2], 'bold'); text(ch[1], 896, 236, 19, C.INK); text('Riesgo anual ≈ ' + risk(d).toFixed(risk(d) < 5 ? 1 : 0) + ' %', 896, 272, 17, C.MUTED);
+  K.card(870, 310, 370, 140, C.AMBER, 'También se repara si', ['Crece > 0,5 cm en 6 meses (1 cm/año)', 'Es sintomático (dolor)', 'Es sacular o infeccioso'], seg(t, 8, 0.6), 17);
+  BN(870, 470, 370, 'Rotura: dolor + masa pulsátil + shock', C.RED, fade(t, 23, 33, 0.6));
+  BN(870, 540, 370, 'Dejar de fumar es lo más importante', C.GREEN, fade(t, 26, 33, 0.6));
+}
+
+// ============ cardio-37: TEP y shock obstructivo ============
+function tep(t) {
+  K.title('Tromboembolismo pulmonar: del émbolo al shock', 'La obstrucción del lecho pulmonar sobrecarga al ventrículo derecho', C.RED);
+  const X = 40, Y = 130, W = 820, H = 470; frame(X, Y, W, H, 'Obstrucción del lecho vascular pulmonar (%)', '');
+  const px = o => X + 80 + (W - 120) * o / 100, py = v => Y + H - 70 - (H - 120) * v / 140;
+  const pap = o => o < 60 ? 15 + 0.55 * o : Math.max(48 - (o - 60) * 1.2, 20), pas = o => o < 55 ? 125 - o * 0.25 : Math.max(111 - (o - 55) * 2.2, 55), rv = o => o < 60 ? 100 - o * 0.1 : Math.max(94 - (o - 60) * 1.8, 25);
+  [0, 25, 50, 75, 100].forEach(o => text(String(o), px(o), Y + H - 44, 14, C.MUTED, '', 'center'));
+  [['Leve', 0, 30, C.GREEN], ['Moderada', 30, 60, C.AMBER], ['Masiva', 60, 100, C.RED]].forEach(([n, a, b, col]) => { ctx.fillStyle = col + '18'; ctx.fillRect(px(a), Y + 20, px(b) - px(a), H - 90); text(n, (px(a) + px(b)) / 2, Y + 44, 17, col, 'bold', 'center'); });
+  const o = lerp(0, 100, ease(seg(t, 2, 24)));
+  [[pap, C.VIOLET, 'Presión de la arteria pulmonar'], [pas, C.RED, 'PAS sistémica'], [rv, C.BLUE, 'Función del VD (%)']].forEach(([f, col, nm], i) => {
+    const pts = []; for (let v = 0; v <= o; v += 1) pts.push([px(v), py(f(v))]); if (pts.length > 1) line(pts, col, 4); dot(...pts[pts.length - 1], 8, col); text(nm, X + W - 30, Y + 80 + i * 24, 15, col, 'bold', 'right'); });
+  const st = o < 30 ? ['TEP leve', 'Estable, sPESI y troponina bajan el riesgo', C.GREEN] : o < 60 ? ['TEP intermedio', 'VD dilatado y troponina: vigilar', C.AMBER] : ['TEP masivo', 'PAS < 90: shock obstructivo', C.RED];
+  rrect(890, 130, 350, 140, 16, '#161B22'); ctx.fillStyle = st[2]; ctx.fillRect(890, 130, 6, 140); text(st[0], 914, 180, 30, st[2], 'bold'); text(st[1], 914, 224, 16, C.INK); text('Obstrucción ' + Math.round(o) + ' %', 914, 254, 16, C.MUTED);
+  K.card(890, 290, 350, 140, C.BLUE, 'Estable', ['Wells ≤ 4: dímero D · Wells > 4: angioTAC', 'Apixabán o rivaroxabán por 3+ meses'], seg(t, 4, 0.6), 17);
+  K.card(890, 450, 350, 140, C.RED, 'Inestable', ['Ecocardiograma: VD dilatado', 'Heparina + alteplasa 100 mg en 2 horas'], seg(t, 18, 0.6), 17);
+  BN(890, 610, 350, 'Hemodinamia, no el tamaño, define lo masivo', C.AMBER, fade(t, 27, 34, 0.6));
+}
+
+// ============ cardio-38: eco-Doppler con compresión ============
+function tvp(t) {
+  K.title('Eco-Doppler con compresión', 'La vena normal se colapsa; la vena con trombo, no (esquema en corte transversal)', C.BLUE);
+  function panel(x, y, w, h, thrombus, title, col, a) {
+    A(a, () => { rrect(x, y, w, h, 16, '#161B22'); text(title, x + w / 2, y + 34, 21, col, 'bold', 'center');
+      const cx = x + w / 2, cy = y + h - 50; ctx.save(); ctx.beginPath(); ctx.moveTo(cx, y + 56); ctx.arc(cx, y + 56, h - 90, Math.PI * 0.2, Math.PI * 0.8); ctx.closePath(); ctx.clip();
+      const gr = ctx.createLinearGradient(0, y + 56, 0, y + h); gr.addColorStop(0, '#2C323B'); gr.addColorStop(1, '#14181E'); ctx.fillStyle = gr; ctx.fillRect(x, y + 56, w, h - 56);
+      const press = ease(seg(t, thrombus ? 14.5 : 3.5, 3)) * (1 - ease(seg(t, thrombus ? 24 : 12, 2.5)));
+      const vx = cx - 55, vy = y + 150 + press * 8, vh = lerp(54, 3, thrombus ? press * 0.08 : press), vw = 78;
+      ctx.fillStyle = '#05070A'; ctx.beginPath(); ctx.ellipse(vx, vy + 64, vw, vh, 0, 0, 7); ctx.fill();
+      if (thrombus) { ctx.fillStyle = 'rgba(190,190,200,0.55)'; for (let i = 0; i < 60; i++) { const r1 = K.rnd(i), r2 = K.rnd(i + 99); ctx.fillRect(vx - 60 + r1 * 120, vy + 64 - 32 + r2 * 60, 3, 3); } }
+      const ay = y + 150 + 64 - press * 3 + 6 * Math.sin(t * 6); ctx.fillStyle = '#05070A'; ctx.beginPath(); ctx.ellipse(cx + 70, ay, 34, 30, 0, 0, 7); ctx.fill(); ctx.strokeStyle = '#8D95A0'; ctx.lineWidth = 3; ctx.stroke();
+      ctx.restore(); text('Vena', vx, y + h - 22, 16, C.BLUE, 'bold', 'center'); text('Arteria', cx + 70, y + h - 22, 16, C.RED, 'bold', 'center');
+      const pw = 140; ctx.fillStyle = '#9AA0A6'; ctx.fillRect(cx - pw / 2, y + 52 + press * 36 - 6, pw, 12); text('Transductor', cx + pw / 2 + 10, y + 52 + press * 36 + 4, 13, C.MUTED);
+      A(press > 0.6 ? 1 : 0, () => tag(thrombus ? 'No se colapsa: TVP' : 'Se colapsa: normal', cx, y + h - 70, thrombus ? C.RED : C.GREEN, 18)); });
+  }
+  panel(40, 130, 590, 400, false, 'Vena normal', C.GREEN, seg(t, 0.3, 0.7)); panel(650, 130, 590, 400, true, 'Trombosis venosa profunda', C.RED, seg(t, 12.5, 0.7));
+  BN(40, 560, 590, 'Probable (Wells ≥ 2): eco-Doppler directo', C.BLUE, fade(t, 6, 36, 0.6));
+  BN(650, 560, 590, 'Improbable (< 2): dímero D; negativo descarta', C.AMBER, fade(t, 9, 36, 0.6));
+  BN(40, 635, 590, 'Tratamiento: HBPM o DOAC y deambulación', C.GREEN, fade(t, 27, 36, 0.6));
+  BN(650, 635, 590, 'Flegmasia cerulea dolens: trombólisis o trombectomía', C.RED, fade(t, 30, 36, 0.6));
+}
+
+const SCN = { mapa: { f: mapa, dur: 31, n: 1 }, escalera: { f: escalera, dur: 32, n: 2 }, raas: { f: raas, dur: 34, n: 3 }, autorreg: { f: autorreg, dur: 36, n: 4 },
+  pericarditis: { f: pericarditis, dur: 32, n: 5 }, tapon: { f: tapon, dur: 34, n: 6 }, diseccion: { f: diseccion, dur: 34, n: 7 }, aaa: { f: aaa, dur: 34, n: 8 },
+  tep: { f: tep, dur: 34, n: 9 }, tvp: { f: tvp, dur: 36, n: 10 } };
+const TEMA = { mapa: 1, escalera: 2, raas: 3, autorreg: 4, pericarditis: 5, tapon: 6, diseccion: 7, aaa: 8, tep: 9, tvp: 10 };
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t);
+  ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(700, 696, 580, 24); text(credG(TEMA[V]), 1268, 712, 13, C.MUTED, '', 'right');
+};
+LOAD({});
+</script>
+</body></html>

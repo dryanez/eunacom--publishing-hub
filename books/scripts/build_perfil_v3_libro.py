@@ -6,7 +6,8 @@ R = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 V = os.path.expanduser('~/fotos_tools/v3')
 CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
 OUT = R + '/books/dist/Perfil_V3_Codigo_por_Codigo_Completo_2026.pdf'
-E = html.escape
+import re as _re
+E=lambda t: html.escape(_re.sub(r':::\w*\s*','',str(t)).replace('**',''))
 
 SPECS = [  # specKey, clave cb_out, título, color
  ('1.01','card','Cardiología','#b91c1c'),('1.02','diab','Diabetes y Nutrición','#c2410c'),('1.03','endo','Endocrinología','#a16207'),
@@ -41,7 +42,7 @@ for _, k, _, _ in SPECS:
 # títulos vivos de los temas (incluye los temas nuevos) leídos de los datasets de los libros
 NODE = r'''
 const fs=require('fs'),out={};
-for(const b of %s){let f='./books/scripts/dataset_'+b+'.cjs'; if(b==='cardiologia') f='./books/scripts/master_cardiology_23_full_dataset.cjs';
+for(const b of %s){let f='./books/scripts/dataset_'+b+'.cjs';
  if(!fs.existsSync(f)) continue; const m=require(f); const a=Array.isArray(m)?m:m[Object.keys(m).find(k=>Array.isArray(m[k]))];
  for(const c of a) out[c.classId||(b+':'+c.topicLabel)]={book:b,topic:c.topicLabel,title:c.title};}
 fs.writeFileSync('/tmp/perfil_v3_topics.json',JSON.stringify(out));''' % json.dumps(list(LIBRO))

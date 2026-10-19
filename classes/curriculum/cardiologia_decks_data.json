@@ -3899,9 +3899,9 @@
     "perfilCodes": [
       "1.01.2.004, 1.01.5.009, 1.01.4.007"
     ],
-    "tier": 2,
+    "tier": 3,
     "realQuestionCount": 17,
-    "slideCount": 12,
+    "slideCount": 23,
     "slides": [
       {
         "type": "cover",
@@ -3935,7 +3935,7 @@
           }
         ],
         "title": "SCA con Supradesnivel del ST: Diagnóstico Electrocardiográfico y Reperfusión GES",
-        "subtitle": "Frecuencia: Máxima Rentabilidad (Pregunta obligatoria en el 100% de los exámenes EUNACOM)"
+        "subtitle": "Frecuencia: Máxima · Criterios ECG del supradesnivel y sus equivalentes, territorio y arteria culpable, regla de los 120 minutos, dosis de tenecteplase, contraindicaciones de fibrinólisis y terapia coadyuvante"
       },
       {
         "type": "table",
@@ -3967,56 +3967,92 @@
       },
       {
         "type": "bento",
-        "nav": "Fisiopatología de la Oclusión Coronaria ",
-        "notes": "[SLIDE 3] El Síndrome Coronario Agudo con Supradesnivel del Segmento ST (SCACEST) es una emergencia médica tiempo-dependiente producida por la rotura de una placa aterosclerótica vulnerable sobre la cual se forma un trombo oclusivo total (100% de la luz / 'trombo rojo') rico en fibrina y hematíes, generando isquemia transmural aguda y necrosis miocárdica progresiva que avanza en 'frente de onda' desde el subendocardio hacia el subepicardio en las primeras 6 horas. Criterios Electrocardiográficos Oficiales (Medidos en el Punto J en ≥ 2 derivaciones contiguas): • En derivaciones V2 y V3: Supradesnivel del ST ≥ 2.0 mm (0.2 mV) en hombres ≥ 40 años; ≥ 2.5 mm en hombres ; y ≥ 1.5 mm en mujeres de cualquier edad. • En todas las demás derivaciones (DI, DII, DIII, aVF, aVL, V1, V4, V5, V6): Supradesnivel del ST ≥ 1.0 mm (0.1 mV). Equivalentes de SCACEST (Exigen Reperfusión Inmediata):1) Bloqueo Completo de Rama Izquierda (BCRI) nuevo o presumiblemente nuevo con criterios de Sgarbossa modificados por Smith: a) Elevación ST concordante ≥ 1 mm (sensibilidad 90%); b) Depresión ST concordante en V1-V3 ≥ 1 mm; c) Elevación ST discordante excesiva (> 25% de la amplitud de la onda S previa).2) IAM Posterior Aislado (Oclusión de la Arteria Circunfleja): Infradesnivel del ST horizontal prominente en V1-V3 con ondas R altas y T positivas (imagen en espejo). Exige tomar derivaciones posteriores V7, V8 y V9 (criterio: supra ST ≥ 0.5 mm).",
-        "title": "1. Fisiopatología de la Oclusión Coronaria Total y Criterios ECG Milimétricos",
+        "nav": "Fisiopatología: Oclusión Coronaria Total",
+        "notes": "[SLIDE 3] El Síndrome Coronario Agudo con Supradesnivel del Segmento ST (SCACEST) es una emergencia médica tiempo-dependiente producida por la rotura (o erosión) de una placa aterosclerótica vulnerable sobre la cual se forma un trombo oclusivo total (100% de la luz / «trombo rojo») rico en fibrina y hematíes, generando isquemia transmural aguda y necrosis miocárdica progresiva que avanza en «frente de onda» desde el subendocardio hacia el subepicardio en las primeras 6 horas. El beneficio de reperfundir es máximo en las primeras 2 a 3 horas y cae con cada minuto: «tiempo es músculo». La definición universal de infarto exige un ascenso y descenso de troponina con al menos un valor sobre el percentil 99, más evidencia de isquemia (síntomas, cambios nuevos del ECG, onda Q, alteración segmentaria nueva en la imagen o trombo en la angiografía). El infarto tipo 1 es el aterotrombótico (el SCACEST clásico); el tipo 2 se debe a un desbalance entre oferta y demanda de oxígeno (anemia grave, taquiarritmia, hipotensión, crisis hipertensiva). Pero el SCACEST se diagnostica con la clínica y el ECG: nunca se espera la troponina para reperfundir. Clínica típica: dolor retroesternal opresivo de más de 20 minutos, irradiado al brazo izquierdo, al cuello o a la mandíbula, que no cede con el reposo ni con la nitroglicerina, con diaforesis, náuseas y disnea. Los adultos mayores, las mujeres y los diabéticos pueden debutar sin dolor (disnea, síncope, confusión, epigastralgia), y ese infarto atípico es el que más se retrasa. En el joven con dolor torácico tras consumir cocaína (vasoespasmo más trombosis) los betabloqueadores están contraindicados: se tratan la agitación y la hipertensión con benzodiacepinas y nitratos.",
+        "title": "1. Fisiopatología: Oclusión Coronaria Total y «Tiempo es Músculo»",
         "tiles": [
           {
             "colSpan": 3,
             "gridColumns": 1,
             "bullets": [
-              "El Síndrome Coronario Agudo con Supradesnivel del Segmento ST (SCACEST) es una emergencia médica tiempo-dependiente producida por la rotura de una placa aterosclerótica vulnerable sobre la cual se forma un trombo oclusivo total (100% de la luz / 'trombo rojo') rico en fibrina y hematíes, generando isquemia transmural aguda y necrosis miocárdica progresiva que avanza en 'frente de onda' desde el subendocardio hacia el subepicardio en las primeras 6 horas.",
-              "Criterios Electrocardiográficos Oficiales (Medidos en el Punto J en ≥ 2 derivaciones contiguas):",
-              "• En derivaciones V2 y V3: Supradesnivel del ST ≥ 2.0 mm (0.2 mV) en hombres ≥ 40 años; ≥ 2.5 mm en hombres ; y ≥ 1.5 mm en mujeres de cualquier edad.",
-              "• En todas las demás derivaciones (DI, DII, DIII, aVF, aVL, V1, V4, V5, V6): Supradesnivel del ST ≥ 1.0 mm (0.1 mV).",
-              "Equivalentes de SCACEST (Exigen Reperfusión Inmediata):1) Bloqueo Completo de Rama Izquierda (BCRI) nuevo o presumiblemente nuevo con criterios de Sgarbossa modificados por Smith: a) Elevación ST concordante ≥ 1 mm (sensibilidad 90%); b) Depresión ST concordante en V1-V3 ≥ 1 mm; c) Elevación ST discordante excesiva (> 25% de la amplitud de la onda S previa).2) IAM Posterior Aislado (Oclusión de la Arteria Circunfleja): Infradesnivel del ST horizontal prominente en V1-V3 con ondas R altas y T positivas (imagen en espejo). Exige tomar derivaciones posteriores V7, V8 y V9 (criterio: supra ST ≥ 0.5 mm)."
+              "El Síndrome Coronario Agudo con Supradesnivel del Segmento ST (SCACEST) es una emergencia médica tiempo-dependiente producida por la rotura (o erosión) de una placa aterosclerótica vulnerable sobre la cual se forma un trombo oclusivo total (100% de la luz / «trombo rojo») rico en fibrina y hematíes, generando isquemia transmural aguda y necrosis miocárdica progresiva que avanza en «frente de onda» desde el subendocardio hacia el subepicardio en las primeras 6 horas. El beneficio de reperfundir es máximo en las primeras 2 a 3 horas y cae con cada minuto: «tiempo es músculo».",
+              "La definición universal de infarto exige un ascenso y descenso de troponina con al menos un valor sobre el percentil 99, más evidencia de isquemia (síntomas, cambios nuevos del ECG, onda Q, alteración segmentaria nueva en la imagen o trombo en la angiografía). El infarto tipo 1 es el aterotrombótico (el SCACEST clásico); el tipo 2 se debe a un desbalance entre oferta y demanda de oxígeno (anemia grave, taquiarritmia, hipotensión, crisis hipertensiva). Pero el SCACEST se diagnostica con la clínica y el ECG: nunca se espera la troponina para reperfundir.",
+              "Clínica típica: dolor retroesternal opresivo de más de 20 minutos, irradiado al brazo izquierdo, al cuello o a la mandíbula, que no cede con el reposo ni con la nitroglicerina, con diaforesis, náuseas y disnea. Los adultos mayores, las mujeres y los diabéticos pueden debutar sin dolor (disnea, síncope, confusión, epigastralgia), y ese infarto atípico es el que más se retrasa. En el joven con dolor torácico tras consumir cocaína (vasoespasmo más trombosis) los betabloqueadores están contraindicados: se tratan la agitación y la hipertensión con benzodiacepinas y nitratos."
             ]
           }
         ]
       },
       {
         "type": "bento",
-        "nav": "Garantía Explícita en Salud (GES #24) y ",
-        "notes": "[SLIDE 4] Bajo la ley GES en Chile, el diagnóstico de IAM debe certificarse mediante ECG de 12 derivaciones en los primeros 10 minutos desde el primer contacto médico (PCM). La decisión de la estrategia de reperfusión depende del tiempo estimado para realizar una Angioplastía Primaria (PCI): • VÍA 1: TIEMPO TRASLADO-ANGIOPLASTÍA  Se deriva de inmediato a un centro con hemodinamia 24/7 para Angioplastía Primaria (PCI con implante de Stent). Meta: Tiempo Puerta-Balón  (o < 60 minutos si consulta directamente en hospital con hemodinamia). • VÍA 2: TIEMPO TRASLADO-ANGIOPLASTÍA > 120 MINUTOS. Se realiza Fibrinólisis Farmacológica Inmediata en el centro de atención primaria o urgencia local (SAPU/SAR/Hospital comunitario). Meta GES: Tiempo Puerta-Aguja . • Fibrinolítico de Elección: Tenecteplase (TNK-tPA) en bolo endovenoso único ajustado por peso corporal:&bull; &bull; 60 a 69 kg: 35 mg (7.000 UI)&bull; 70 a 79 kg: 40 mg (8.000 UI)&bull; 80 a 89 kg: 45 mg (9.000 UI)&bull; ≥ 90 kg: 50 mg (10.000 UI). • Contraindicaciones Absolutas de Fibrinólisis: Antecedente de ACV hemorrágico previo de cualquier fecha; ACV isquémico en los últimos 6 meses; Malformación arteriovenosa o neoplasia intracraneal; Traumatismo craneoencefálico o cirugía mayor en el último mes; Sangrado digestivo activo en el último mes; Sospecha de Disección Aórtica aguda.",
-        "title": "2. Garantía Explícita en Salud (GES #24) y la 'Regla de los 120 Minutos'",
+        "nav": "Diagnóstico Electrocardiográfico: Criter",
+        "notes": "[SLIDE 4] Ante un dolor torácico se toma un ECG de 12 derivaciones interpretado en ≤ 10 minutos desde el primer contacto médico; si no es diagnóstico y el dolor persiste, se repite cada 15 a 30 minutos. El supradesnivel se mide en el punto J y debe estar presente en ≥ 2 derivaciones contiguas (del mismo territorio): • En derivaciones V2 y V3: supradesnivel del ST ≥ 2,0 mm (0,2 mV) en hombres ≥ 40 años; ≥ 2,5 mm en hombres &lt; 40 años; y ≥ 1,5 mm en mujeres de cualquier edad. • En todas las demás derivaciones (DI, DII, DIII, aVF, aVL, V1, V4, V5, V6): supradesnivel del ST ≥ 1,0 mm (0,1 mV). Equivalentes de SCACEST (exigen reperfusión inmediata): 1) Bloqueo completo de rama izquierda (BCRI) nuevo o presumiblemente nuevo en un paciente con clínica de infarto, apoyado por los criterios de Sgarbossa modificados por Smith: a) elevación del ST concordante ≥ 1 mm; b) depresión del ST concordante en V1-V3 ≥ 1 mm; c) elevación discordante excesiva (&gt; 25% de la amplitud de la onda S previa). Los mismos criterios sirven en el ritmo de marcapaso. 2) IAM posterior aislado (arteria circunfleja): infradesnivel horizontal del ST en V1-V3 con ondas R altas y T positivas (imagen en espejo); se confirma con las derivaciones posteriores V7, V8 y V9 (supradesnivel ≥ 0,5 mm). 3) Infradesnivel del ST ≥ 1 mm en ≥ 8 derivaciones con supradesnivel en aVR: sugiere lesión del tronco coronario izquierdo o enfermedad de tres vasos y obliga a coronariografía urgente. Evolución temporal del ECG del infarto: en los primeros minutos aparecen ondas T hiperagudas (altas, anchas y simétricas); en las primeras horas, el supradesnivel convexo del ST («onda de lesión»); entre las 6 y 12 horas, la onda Q de necrosis (≥ 40 ms) con pérdida de la onda R; en los días siguientes el ST vuelve a la línea de base y la onda T se invierte; la onda Q suele persistir para siempre. Un supradesnivel que persiste más de 4 semanas sugiere un aneurisma ventricular. La imagen especular (cambios recíprocos) es el infradesnivel del ST en las derivaciones opuestas al territorio infartado: en el infarto inferior aparece en DI y aVL; en el anterior, en DIII y aVF. Su presencia tiene alta especificidad para infarto y es la clave para separarlo de sus imitadores: la pericarditis aguda (supradesnivel cóncavo, difuso y no territorial, con infradesnivel del PR, sin imagen especular ni ondas Q), la repolarización precoz (joven, ST cóncavo con muesca en J, estable en ECG seriados), el aneurisma ventricular, la hipertrofia ventricular izquierda, el patrón de Brugada y la hiperkalemia. Ante la duda: ECG seriados, ecocardiograma (alteración segmentaria de la motilidad) y consulta precoz con el centro de hemodinamia.",
+        "title": "2. Diagnóstico Electrocardiográfico: Criterios, Equivalentes y Evolución",
         "tiles": [
           {
             "colSpan": 3,
             "gridColumns": 1,
             "bullets": [
-              "Bajo la ley GES en Chile, el diagnóstico de IAM debe certificarse mediante ECG de 12 derivaciones en los primeros 10 minutos desde el primer contacto médico (PCM).",
-              "La decisión de la estrategia de reperfusión depende del tiempo estimado para realizar una Angioplastía Primaria (PCI):",
-              "• VÍA 1: TIEMPO TRASLADO-ANGIOPLASTÍA  Se deriva de inmediato a un centro con hemodinamia 24/7 para Angioplastía Primaria (PCI con implante de Stent). Meta: Tiempo Puerta-Balón  (o < 60 minutos si consulta directamente en hospital con hemodinamia).",
-              "• VÍA 2: TIEMPO TRASLADO-ANGIOPLASTÍA > 120 MINUTOS. Se realiza Fibrinólisis Farmacológica Inmediata en el centro de atención primaria o urgencia local (SAPU/SAR/Hospital comunitario). Meta GES: Tiempo Puerta-Aguja .",
-              "• Fibrinolítico de Elección: Tenecteplase (TNK-tPA) en bolo endovenoso único ajustado por peso corporal:&bull; &bull; 60 a 69 kg: 35 mg (7.000 UI)&bull; 70 a 79 kg: 40 mg (8.000 UI)&bull; 80 a 89 kg: 45 mg (9.000 UI)&bull; ≥ 90 kg: 50 mg (10.000 UI).",
-              "• Contraindicaciones Absolutas de Fibrinólisis: Antecedente de ACV hemorrágico previo de cualquier fecha; ACV isquémico en los últimos 6 meses; Malformación arteriovenosa o neoplasia intracraneal; Traumatismo craneoencefálico o cirugía mayor en el último mes; Sangrado digestivo activo en el último mes; Sospecha de Disección Aórtica aguda."
+              "Ante un dolor torácico se toma un ECG de 12 derivaciones interpretado en ≤ 10 minutos desde el primer contacto médico; si no es diagnóstico y el dolor persiste, se repite cada 15 a 30 minutos. El supradesnivel se mide en el punto J y debe estar presente en ≥ 2 derivaciones contiguas (del mismo territorio):",
+              "• En derivaciones V2 y V3: supradesnivel del ST ≥ 2,0 mm (0,2 mV) en hombres ≥ 40 años; ≥ 2,5 mm en hombres &lt; 40 años; y ≥ 1,5 mm en mujeres de cualquier edad.",
+              "• En todas las demás derivaciones (DI, DII, DIII, aVF, aVL, V1, V4, V5, V6): supradesnivel del ST ≥ 1,0 mm (0,1 mV).",
+              "Equivalentes de SCACEST (exigen reperfusión inmediata): 1) Bloqueo completo de rama izquierda (BCRI) nuevo o presumiblemente nuevo en un paciente con clínica de infarto, apoyado por los criterios de Sgarbossa modificados por Smith: a) elevación del ST concordante ≥ 1 mm; b) depresión del ST concordante en V1-V3 ≥ 1 mm; c) elevación discordante excesiva (&gt; 25% de la amplitud de la onda S previa). Los mismos criterios sirven en el ritmo de marcapaso. 2) IAM posterior aislado (arteria circunfleja): infradesnivel horizontal del ST en V1-V3 con ondas R altas y T positivas (imagen en espejo); se confirma con las derivaciones posteriores V7, V8 y V9 (supradesnivel ≥ 0,5 mm). 3) Infradesnivel del ST ≥ 1 mm en ≥ 8 derivaciones con supradesnivel en aVR: sugiere lesión del tronco coronario izquierdo o enfermedad de tres vasos y obliga a coronariografía urgente.",
+              "Evolución temporal del ECG del infarto: en los primeros minutos aparecen ondas T hiperagudas (altas, anchas y simétricas); en las primeras horas, el supradesnivel convexo del ST («onda de lesión»); entre las 6 y 12 horas, la onda Q de necrosis (≥ 40 ms) con pérdida de la onda R; en los días siguientes el ST vuelve a la línea de base y la onda T se invierte; la onda Q suele persistir para siempre. Un supradesnivel que persiste más de 4 semanas sugiere un aneurisma ventricular.",
+              "La imagen especular (cambios recíprocos) es el infradesnivel del ST en las derivaciones opuestas al territorio infartado: en el infarto inferior aparece en DI y aVL; en el anterior, en DIII y aVF. Su presencia tiene alta especificidad para infarto y es la clave para separarlo de sus imitadores: la pericarditis aguda (supradesnivel cóncavo, difuso y no territorial, con infradesnivel del PR, sin imagen especular ni ondas Q), la repolarización precoz (joven, ST cóncavo con muesca en J, estable en ECG seriados), el aneurisma ventricular, la hipertrofia ventricular izquierda, el patrón de Brugada y la hiperkalemia. Ante la duda: ECG seriados, ecocardiograma (alteración segmentaria de la motilidad) y consulta precoz con el centro de hemodinamia."
             ]
           }
         ]
       },
       {
         "type": "bento",
-        "nav": "Criterios de Reperfusión Exitosa y Estra",
-        "notes": "[SLIDE 5] A los 60 a 90 minutos post-trombólisis se evalúa el éxito del procedimiento: 1) Criterios de Reperfusión Exitosa: Descenso del supradesnivel del ST > 50% en la derivación con mayor elevación; Desaparición o alivio marcado del dolor torácico; Aparición de arritmias de reperfusión típicas (Ritmo Idioventricular Acelerado - RIVA). Conducta: Traslado para coronariografía electiva en 2 a 24 horas (Estrategia Farmacoinvasiva). 2) Fibrinólisis Fallida (Descenso ST  Traslado de emergencia inmediata para Angioplastía de Rescate (Rescue PCI).",
-        "title": "3. Criterios de Reperfusión Exitosa y Estrategia Farmacoinvasiva",
+        "nav": "Territorios, Arteria Culpable e Infarto ",
+        "notes": "[SLIDE 5] Las derivaciones con supradesnivel identifican la pared y la arteria culpable (Tabla 2.5.A): V1-V4 → pared anterior y septal, arteria descendente anterior (DA); V1-V6 con DI y aVL → infarto anterior extenso por oclusión proximal de la DA (el de peor pronóstico); DI, aVL, V5-V6 → pared lateral, circunfleja o rama diagonal; DII, DIII y aVF → pared inferior, coronaria derecha en el 80-90% de los casos (si el supradesnivel es mayor en DIII que en DII y hay infradesnivel en DI y aVL, la culpable es la coronaria derecha; si es mayor en DII con supradesnivel en V5-V6, la circunfleja). Todo infarto inferior exige tomar las derivaciones derechas V3R y V4R: un supradesnivel ≥ 1 mm en V4R confirma el infarto del ventrículo derecho (oclusión proximal de la coronaria derecha). Su tríada es hipotensión, ingurgitación yugular y campos pulmonares limpios; se trata con volumen y están contraindicados los nitratos, los diuréticos y la morfina. La coronaria derecha irriga además el nodo AV, por lo que el infarto inferior se asocia a bradicardia sinusal y bloqueos AV, habitualmente transitorios (manejo completo en el Tema 2.6). El ecocardiograma muestra la alteración segmentaria de la motilidad del territorio y es útil cuando el ECG no es concluyente o se sospecha una complicación mecánica, pero nunca debe retrasar la reperfusión de un SCACEST evidente.",
+        "title": "3. Territorios, Arteria Culpable e Infarto del Ventrículo Derecho",
         "tiles": [
           {
             "colSpan": 3,
             "gridColumns": 1,
             "bullets": [
-              "A los 60 a 90 minutos post-trombólisis se evalúa el éxito del procedimiento:",
-              "1) Criterios de Reperfusión Exitosa: Descenso del supradesnivel del ST > 50% en la derivación con mayor elevación; Desaparición o alivio marcado del dolor torácico; Aparición de arritmias de reperfusión típicas (Ritmo Idioventricular Acelerado - RIVA). Conducta: Traslado para coronariografía electiva en 2 a 24 horas (Estrategia Farmacoinvasiva).",
-              "2) Fibrinólisis Fallida (Descenso ST  Traslado de emergencia inmediata para Angioplastía de Rescate (Rescue PCI)."
+              "Las derivaciones con supradesnivel identifican la pared y la arteria culpable (Tabla 2.5.A): V1-V4 → pared anterior y septal, arteria descendente anterior (DA); V1-V6 con DI y aVL → infarto anterior extenso por oclusión proximal de la DA (el de peor pronóstico); DI, aVL, V5-V6 → pared lateral, circunfleja o rama diagonal; DII, DIII y aVF → pared inferior, coronaria derecha en el 80-90% de los casos (si el supradesnivel es mayor en DIII que en DII y hay infradesnivel en DI y aVL, la culpable es la coronaria derecha; si es mayor en DII con supradesnivel en V5-V6, la circunfleja).",
+              "Todo infarto inferior exige tomar las derivaciones derechas V3R y V4R: un supradesnivel ≥ 1 mm en V4R confirma el infarto del ventrículo derecho (oclusión proximal de la coronaria derecha). Su tríada es hipotensión, ingurgitación yugular y campos pulmonares limpios; se trata con volumen y están contraindicados los nitratos, los diuréticos y la morfina. La coronaria derecha irriga además el nodo AV, por lo que el infarto inferior se asocia a bradicardia sinusal y bloqueos AV, habitualmente transitorios (manejo completo en el Tema 2.6).",
+              "El ecocardiograma muestra la alteración segmentaria de la motilidad del territorio y es útil cuando el ECG no es concluyente o se sospecha una complicación mecánica, pero nunca debe retrasar la reperfusión de un SCACEST evidente."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "Estrategia de Reperfusión: la Regla de l",
+        "notes": "[SLIDE 6] Indicación: todo SCACEST con menos de 12 horas de síntomas debe reperfundirse. Entre las 12 y 48 horas se indica angioplastía si persiste el dolor, hay inestabilidad hemodinámica o arritmias graves. Pasadas las 48 horas, en un paciente asintomático y estable, no se reperfunde de rutina la arteria ocluida (se estudia con coronariografía diferida). La decisión depende del tiempo estimado para realizar una angioplastía primaria desde el diagnóstico (primer contacto médico con ECG diagnóstico): • VÍA 1: ANGIOPLASTÍA PRIMARIA POSIBLE EN ≤ 120 MINUTOS. Se deriva de inmediato a un centro con hemodinamia 24/7 para angioplastía primaria (ACTP con implante de stent), la estrategia de elección. Meta: tiempo puerta-balón ≤ 90 minutos (≤ 60 minutos si el paciente consulta directamente en un hospital con hemodinamia). • VÍA 2: ANGIOPLASTÍA EN MÁS DE 120 MINUTOS. Se realiza fibrinólisis farmacológica inmediata en el centro donde está el paciente (SAPU, SAR u hospital comunitario), con meta GES de tiempo puerta-aguja ≤ 30 minutos (la guía europea recomienda iniciarla dentro de 10 minutos del diagnóstico), y se traslada después a un centro con hemodinamia. • La angioplastía primaria es preferida sin importar el tiempo en el shock cardiogénico o la insuficiencia cardíaca aguda grave, y cuando la fibrinólisis está contraindicada. • Fibrinolítico de elección: tenecteplase (TNK-tPA) en bolo endovenoso único ajustado por peso corporal (Tabla 2.5.C): &lt; 60 kg: 30 mg (6.000 UI) · 60 a 69 kg: 35 mg (7.000 UI) · 70 a 79 kg: 40 mg (8.000 UI) · 80 a 89 kg: 45 mg (9.000 UI) · ≥ 90 kg: 50 mg (10.000 UI). En los mayores de 75 años se usa la mitad de la dosis. Alternativas: alteplasa en esquema acelerado y estreptoquinasa 1,5 millones UI en 30 a 60 minutos (no fibrinoespecífica, produce hipotensión y alergia, y no se repite). • Contraindicaciones absolutas de fibrinólisis: antecedente de ACV hemorrágico de cualquier fecha; ACV isquémico en los últimos 6 meses; malformación arteriovenosa o neoplasia intracraneal; traumatismo craneoencefálico o cirugía mayor en el último mes; sangrado digestivo en el último mes; trastorno hemorrágico conocido; punciones no compresibles en las últimas 24 horas; sospecha de disección aórtica aguda. Las relativas (Tabla 2.5.B) obligan a ponderar el riesgo; si hay una contraindicación absoluta, el paciente va a angioplastía aunque el traslado supere los 120 minutos.",
+        "title": "4. Estrategia de Reperfusión: la Regla de los 120 Minutos",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "Indicación: todo SCACEST con menos de 12 horas de síntomas debe reperfundirse. Entre las 12 y 48 horas se indica angioplastía si persiste el dolor, hay inestabilidad hemodinámica o arritmias graves. Pasadas las 48 horas, en un paciente asintomático y estable, no se reperfunde de rutina la arteria ocluida (se estudia con coronariografía diferida).",
+              "La decisión depende del tiempo estimado para realizar una angioplastía primaria desde el diagnóstico (primer contacto médico con ECG diagnóstico):",
+              "• VÍA 1: ANGIOPLASTÍA PRIMARIA POSIBLE EN ≤ 120 MINUTOS. Se deriva de inmediato a un centro con hemodinamia 24/7 para angioplastía primaria (ACTP con implante de stent), la estrategia de elección. Meta: tiempo puerta-balón ≤ 90 minutos (≤ 60 minutos si el paciente consulta directamente en un hospital con hemodinamia).",
+              "• VÍA 2: ANGIOPLASTÍA EN MÁS DE 120 MINUTOS. Se realiza fibrinólisis farmacológica inmediata en el centro donde está el paciente (SAPU, SAR u hospital comunitario), con meta GES de tiempo puerta-aguja ≤ 30 minutos (la guía europea recomienda iniciarla dentro de 10 minutos del diagnóstico), y se traslada después a un centro con hemodinamia.",
+              "• La angioplastía primaria es preferida sin importar el tiempo en el shock cardiogénico o la insuficiencia cardíaca aguda grave, y cuando la fibrinólisis está contraindicada.",
+              "• Fibrinolítico de elección: tenecteplase (TNK-tPA) en bolo endovenoso único ajustado por peso corporal (Tabla 2.5.C): &lt; 60 kg: 30 mg (6.000 UI) · 60 a 69 kg: 35 mg (7.000 UI) · 70 a 79 kg: 40 mg (8.000 UI) · 80 a 89 kg: 45 mg (9.000 UI) · ≥ 90 kg: 50 mg (10.000 UI). En los mayores de 75 años se usa la mitad de la dosis. Alternativas: alteplasa en esquema acelerado y estreptoquinasa 1,5 millones UI en 30 a 60 minutos (no fibrinoespecífica, produce hipotensión y alergia, y no se repite).",
+              "• Contraindicaciones absolutas de fibrinólisis: antecedente de ACV hemorrágico de cualquier fecha; ACV isquémico en los últimos 6 meses; malformación arteriovenosa o neoplasia intracraneal; traumatismo craneoencefálico o cirugía mayor en el último mes; sangrado digestivo en el último mes; trastorno hemorrágico conocido; punciones no compresibles en las últimas 24 horas; sospecha de disección aórtica aguda. Las relativas (Tabla 2.5.B) obligan a ponderar el riesgo; si hay una contraindicación absoluta, el paciente va a angioplastía aunque el traslado supere los 120 minutos."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "Después de la Fibrinólisis: Reperfusión ",
+        "notes": "[SLIDE 7] A los 60 a 90 minutos de la trombólisis se evalúa el éxito del procedimiento: 1) Criterios de reperfusión exitosa: descenso del supradesnivel del ST &gt; 50% en la derivación con mayor elevación; desaparición o alivio marcado del dolor torácico; aparición de arritmias de reperfusión típicas (ritmo idioventricular acelerado, RIVA, benigno y que no se trata). Conducta: traslado para coronariografía en 2 a 24 horas (estrategia farmacoinvasiva). 2) Fibrinólisis fallida (descenso del ST &lt; 50% o persistencia del dolor a los 90 minutos): traslado de emergencia inmediato para angioplastía de rescate. La reoclusión, la isquemia recurrente, el shock o las arritmias graves después de una fibrinólisis exitosa también obligan a coronariografía urgente. Todo paciente fibrinolizado se traslada a un centro con hemodinamia.",
+        "title": "5. Después de la Fibrinólisis: Reperfusión Exitosa, Rescate y Estrategia Farmacoinvasiva",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "A los 60 a 90 minutos de la trombólisis se evalúa el éxito del procedimiento:",
+              "1) Criterios de reperfusión exitosa: descenso del supradesnivel del ST &gt; 50% en la derivación con mayor elevación; desaparición o alivio marcado del dolor torácico; aparición de arritmias de reperfusión típicas (ritmo idioventricular acelerado, RIVA, benigno y que no se trata). Conducta: traslado para coronariografía en 2 a 24 horas (estrategia farmacoinvasiva).",
+              "2) Fibrinólisis fallida (descenso del ST &lt; 50% o persistencia del dolor a los 90 minutos): traslado de emergencia inmediato para angioplastía de rescate. La reoclusión, la isquemia recurrente, el shock o las arritmias graves después de una fibrinólisis exitosa también obligan a coronariografía urgente. Todo paciente fibrinolizado se traslada a un centro con hemodinamia."
             ]
           }
         ]
@@ -4024,109 +4060,454 @@
       {
         "type": "bento",
         "nav": "Terapia Farmacológica Coadyuvante Inmedi",
-        "notes": "[SLIDE 6] • Doble Antiagregación Plaquetaria (DAPT): 1) Aspirina: Dosis de carga de 250 mg vía oral masticada (o 500 mg EV), seguida de 100 mg/día de mantención de por vida; 2) Segundo Antiagregante (Inhibidor P2Y12): Si el paciente va a Angioplastía Primaria (PCI), el fármaco de primera línea es Ticagrelor 180 mg carga (90 mg c/12h VO) o Prasugrel 60 mg. Si el paciente recibe Fibrinólisis con Tenecteplase, se usa Clopidogrel 300 mg carga (y solo 75 mg carga si tiene ≥ 75 años). Duración estándar de DAPT: 12 meses completos. • Anticoagulación Parenteral: Enoxaparina (bolo EV de 30 mg seguido de 1 mg/kg SC cada 12 horas; en mayores de 75 años omitir el bolo EV y dosificar 0.75 mg/kg SC c/12h) o Heparina No Fraccionada (HNF) ajustada por TTPA. • Estatina de Alta Potencia Precoz: Atorvastatina 80 mg/día VO iniciada en las primeras 24 horas independientemente de las cifras basales de colesterol (por sus efectos pleiotrópicos estabilizadores de la placa y antiinflamatorios).",
-        "title": "4. Terapia Farmacológica Coadyuvante Inmediata (DAPT, Anticoagulación & Estatinas)",
+        "notes": "[SLIDE 8] • Medidas generales: monitor y desfibrilador a mano, vía venosa y reposo. Oxígeno solo si la saturación es &lt; 90% (la hiperoxia no beneficia). Nitroglicerina sublingual o endovenosa para el dolor, la hipertensión o la congestión, contraindicada en el infarto del ventrículo derecho, con PAS &lt; 90 mmHg o tras usar sildenafil (24 horas) o tadalafil (48 horas). Morfina solo para el dolor refractario (retrasa la absorción de los antiagregantes orales). • Doble antiagregación plaquetaria: 1) Aspirina: dosis de carga de 250 mg vía oral masticada (o 500 mg EV), seguida de 100 mg/día de por vida; 2) Segundo antiagregante (inhibidor P2Y12): si el paciente va a angioplastía primaria, el de primera línea es ticagrelor 180 mg de carga (90 mg cada 12 horas) o prasugrel 60 mg; si recibe fibrinólisis, se usa clopidogrel 300 mg de carga (75 mg sin carga si tiene ≥ 75 años). Duración estándar: 12 meses. • Anticoagulación parenteral: con fibrinólisis, enoxaparina (bolo EV de 30 mg seguido de 1 mg/kg SC cada 12 horas; en mayores de 75 años se omite el bolo y se dosifica 0,75 mg/kg SC cada 12 horas); en la angioplastía primaria, heparina no fraccionada en bolo durante el procedimiento. • Estatina de alta potencia precoz: atorvastatina 80 mg/día iniciada en las primeras 24 horas, independientemente del colesterol basal. Betabloqueador oral en las primeras 24 horas si no hay insuficiencia cardíaca, shock, bradicardia ni bloqueo AV; IECA en las primeras 24 horas si la FEVI es ≤ 40%, hay insuficiencia cardíaca, diabetes o infarto anterior. Evitar los AINE (reinfarto y rotura cardíaca) y no usar antiarrítmicos profilácticos.",
+        "title": "6. Terapia Farmacológica Coadyuvante Inmediata",
         "tiles": [
           {
             "colSpan": 3,
             "gridColumns": 1,
             "bullets": [
-              "• Doble Antiagregación Plaquetaria (DAPT): 1) Aspirina: Dosis de carga de 250 mg vía oral masticada (o 500 mg EV), seguida de 100 mg/día de mantención de por vida; 2) Segundo Antiagregante (Inhibidor P2Y12): Si el paciente va a Angioplastía Primaria (PCI), el fármaco de primera línea es Ticagrelor 180 mg carga (90 mg c/12h VO) o Prasugrel 60 mg. Si el paciente recibe Fibrinólisis con Tenecteplase, se usa Clopidogrel 300 mg carga (y solo 75 mg carga si tiene ≥ 75 años). Duración estándar de DAPT: 12 meses completos.",
-              "• Anticoagulación Parenteral: Enoxaparina (bolo EV de 30 mg seguido de 1 mg/kg SC cada 12 horas; en mayores de 75 años omitir el bolo EV y dosificar 0.75 mg/kg SC c/12h) o Heparina No Fraccionada (HNF) ajustada por TTPA.",
-              "• Estatina de Alta Potencia Precoz: Atorvastatina 80 mg/día VO iniciada en las primeras 24 horas independientemente de las cifras basales de colesterol (por sus efectos pleiotrópicos estabilizadores de la placa y antiinflamatorios)."
+              "• Medidas generales: monitor y desfibrilador a mano, vía venosa y reposo. Oxígeno solo si la saturación es &lt; 90% (la hiperoxia no beneficia). Nitroglicerina sublingual o endovenosa para el dolor, la hipertensión o la congestión, contraindicada en el infarto del ventrículo derecho, con PAS &lt; 90 mmHg o tras usar sildenafil (24 horas) o tadalafil (48 horas). Morfina solo para el dolor refractario (retrasa la absorción de los antiagregantes orales).",
+              "• Doble antiagregación plaquetaria: 1) Aspirina: dosis de carga de 250 mg vía oral masticada (o 500 mg EV), seguida de 100 mg/día de por vida; 2) Segundo antiagregante (inhibidor P2Y12): si el paciente va a angioplastía primaria, el de primera línea es ticagrelor 180 mg de carga (90 mg cada 12 horas) o prasugrel 60 mg; si recibe fibrinólisis, se usa clopidogrel 300 mg de carga (75 mg sin carga si tiene ≥ 75 años). Duración estándar: 12 meses.",
+              "• Anticoagulación parenteral: con fibrinólisis, enoxaparina (bolo EV de 30 mg seguido de 1 mg/kg SC cada 12 horas; en mayores de 75 años se omite el bolo y se dosifica 0,75 mg/kg SC cada 12 horas); en la angioplastía primaria, heparina no fraccionada en bolo durante el procedimiento.",
+              "• Estatina de alta potencia precoz: atorvastatina 80 mg/día iniciada en las primeras 24 horas, independientemente del colesterol basal. Betabloqueador oral en las primeras 24 horas si no hay insuficiencia cardíaca, shock, bradicardia ni bloqueo AV; IECA en las primeras 24 horas si la FEVI es ≤ 40%, hay insuficiencia cardíaca, diabetes o infarto anterior. Evitar los AINE (reinfarto y rotura cardíaca) y no usar antiarrítmicos profilácticos."
             ]
           }
         ]
       },
       {
         "type": "bento",
-        "nav": "Garantías Explícitas en Salud (GES #24) ",
-        "notes": "[SLIDE 7] El Infarto Agudo del Miocardio es la Patología GES #24 en Chile, con garantías legalmente exigibles: 1) Acceso y Oportunidad Diagnóstica: Confirmación con ECG en ≤ 10 minutos desde el ingreso a cualquier centro asistencial. 2) Oportunidad Terapéutica: Fibrinólisis en ≤ 30 minutos (puerta-aguja) o Angioplastía primaria en ≤ 90 minutos (puerta-balón) / ≤ 120 minutos desde el contacto. 3) Terapia de Alta y Prevención Secundaria: Al alta hospitalaria, todo paciente con IAM debe recibir el régimen quintuple de prevención secundaria: 1) Aspirina 100 mg/día; 2) Ticagrelor / Clopidogrel por 12 meses; 3) Atorvastatina 80 mg/día (meta c-LDL .",
-        "title": "5. Garantías Explícitas en Salud (GES #24) y Prevención Secundaria Integral",
+        "nav": "Complicaciones Precoces y Clasificación ",
+        "notes": "[SLIDE 9] La clasificación de Killip-Kimball estratifica el pronóstico al ingreso según el examen físico: I sin signos de insuficiencia cardíaca; II crépitos basales, tercer ruido o ingurgitación yugular; III edema agudo de pulmón; IV shock cardiogénico. La mortalidad aumenta en forma escalonada de I a IV, y el shock cardiogénico es la principal causa de muerte intrahospitalaria: se trata con angioplastía urgente (Tema 3.4). La fibrilación ventricular de las primeras horas es la principal causa de muerte prehospitalaria y se trata con desfibrilación inmediata (Tema 1.3). La bradicardia y el bloqueo AV del infarto inferior suelen ser transitorios y responden a atropina; el bloqueo AV en el infarto anterior refleja una necrosis extensa y requiere marcapaso. Las complicaciones mecánicas (rotura de músculo papilar, comunicación interventricular y rotura de pared libre) aparecen entre los días 3 y 7 y se revisan en el Tema 2.6.",
+        "title": "7. Complicaciones Precoces y Clasificación de Killip-Kimball",
         "tiles": [
           {
             "colSpan": 3,
             "gridColumns": 1,
             "bullets": [
-              "El Infarto Agudo del Miocardio es la Patología GES #24 en Chile, con garantías legalmente exigibles:",
-              "1) Acceso y Oportunidad Diagnóstica: Confirmación con ECG en ≤ 10 minutos desde el ingreso a cualquier centro asistencial.",
-              "2) Oportunidad Terapéutica: Fibrinólisis en ≤ 30 minutos (puerta-aguja) o Angioplastía primaria en ≤ 90 minutos (puerta-balón) / ≤ 120 minutos desde el contacto.",
-              "3) Terapia de Alta y Prevención Secundaria: Al alta hospitalaria, todo paciente con IAM debe recibir el régimen quintuple de prevención secundaria: 1) Aspirina 100 mg/día; 2) Ticagrelor / Clopidogrel por 12 meses; 3) Atorvastatina 80 mg/día (meta c-LDL ."
+              "La clasificación de Killip-Kimball estratifica el pronóstico al ingreso según el examen físico: I sin signos de insuficiencia cardíaca; II crépitos basales, tercer ruido o ingurgitación yugular; III edema agudo de pulmón; IV shock cardiogénico. La mortalidad aumenta en forma escalonada de I a IV, y el shock cardiogénico es la principal causa de muerte intrahospitalaria: se trata con angioplastía urgente (Tema 3.4).",
+              "La fibrilación ventricular de las primeras horas es la principal causa de muerte prehospitalaria y se trata con desfibrilación inmediata (Tema 1.3). La bradicardia y el bloqueo AV del infarto inferior suelen ser transitorios y responden a atropina; el bloqueo AV en el infarto anterior refleja una necrosis extensa y requiere marcapaso. Las complicaciones mecánicas (rotura de músculo papilar, comunicación interventricular y rotura de pared libre) aparecen entre los días 3 y 7 y se revisan en el Tema 2.6."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "Garantías Explícitas en Salud (GES N.º 5",
+        "notes": "[SLIDE 10] El Infarto Agudo del Miocardio es el problema de salud GES N.º 5 en Chile, con garantías legalmente exigibles de acceso, oportunidad, calidad y protección financiera para el diagnóstico (ECG ante la sospecha), el tratamiento de reperfusión (fibrinólisis o angioplastía) y la prevención secundaria después del alta. Las metas de tiempo que se preguntan: ECG interpretado en ≤ 10 minutos, fibrinólisis en ≤ 30 minutos (puerta-aguja) y angioplastía primaria en ≤ 90 minutos (puerta-balón) / ≤ 120 minutos desde el primer contacto. Terapia de alta y prevención secundaria: todo paciente con IAM debe recibir el régimen de prevención secundaria: 1) aspirina 100 mg/día de por vida; 2) ticagrelor o clopidogrel por 12 meses; 3) atorvastatina 80 mg/día (meta c-LDL &lt; 55 mg/dL y reducción ≥ 50%); 4) betabloqueador (bisoprolol o carvedilol, obligatorio si FEVI &lt; 40%); 5) IECA (enalapril) o ARA II; más cesación del tabaco, control de la presión arterial y de la diabetes, rehabilitación cardíaca y un ecocardiograma antes del alta para medir la FEVI (si persiste ≤ 35% pese al tratamiento óptimo, se evalúa un desfibrilador implantable).",
+        "title": "8. Garantías Explícitas en Salud (GES N.º 5) y Prevención Secundaria Integral",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "El Infarto Agudo del Miocardio es el problema de salud GES N.º 5 en Chile, con garantías legalmente exigibles de acceso, oportunidad, calidad y protección financiera para el diagnóstico (ECG ante la sospecha), el tratamiento de reperfusión (fibrinólisis o angioplastía) y la prevención secundaria después del alta. Las metas de tiempo que se preguntan: ECG interpretado en ≤ 10 minutos, fibrinólisis en ≤ 30 minutos (puerta-aguja) y angioplastía primaria en ≤ 90 minutos (puerta-balón) / ≤ 120 minutos desde el primer contacto.",
+              "Terapia de alta y prevención secundaria: todo paciente con IAM debe recibir el régimen de prevención secundaria: 1) aspirina 100 mg/día de por vida; 2) ticagrelor o clopidogrel por 12 meses; 3) atorvastatina 80 mg/día (meta c-LDL &lt; 55 mg/dL y reducción ≥ 50%); 4) betabloqueador (bisoprolol o carvedilol, obligatorio si FEVI &lt; 40%); 5) IECA (enalapril) o ARA II; más cesación del tabaco, control de la presión arterial y de la diabetes, rehabilitación cardíaca y un ecocardiograma antes del alta para medir la FEVI (si persiste ≤ 35% pese al tratamiento óptimo, se evalúa un desfibrilador implantable)."
             ]
           }
         ]
       },
       {
         "type": "table",
-        "nav": "Dosificación de Fibrinólisis c",
-        "notes": "[SLIDE 8] Dosificación de Fibrinólisis con Tenecteplase (TNK-tPA) según Peso Corporal (Guía GES MINSAL).",
-        "title": "Dosificación de Fibrinólisis con Tenecteplase (TNK-tPA) según Peso Corporal (Guía GES MINSAL)",
+        "nav": "Territorios del IAM con Suprad",
+        "notes": "[SLIDE 11] Territorios del IAM con Supradesnivel del ST: Derivaciones, Imagen Especular y Arteria Culpable.",
+        "title": "Territorios del IAM con Supradesnivel del ST: Derivaciones, Imagen Especular y Arteria Culpable",
         "headers": [
-          "Rango de Peso Corporal",
-          "Dosis de Tenecteplase (UI)",
-          "Dosis en Miligramos (mg)",
-          "Volumen Endovenoso a Inyectar"
+          "Territorio",
+          "Derivaciones con supradesnivel",
+          "Imagen especular (infradesnivel)",
+          "Arteria culpable habitual"
         ],
         "rows": [
           {
             "cells": [
-              "< 60 kg",
-              "6.000 UI",
-              "30 mg en bolo EV",
-              "6.0 mL en 5-10 segundos"
+              "Anterior / anteroseptal",
+              "V1-V4",
+              "DIII, aVF",
+              "Descendente anterior (DA)"
             ]
           },
           {
             "cells": [
-              "60 a 69 kg",
-              "7.000 UI",
-              "35 mg en bolo EV",
-              "7.0 mL en 5-10 segundos"
+              "Anterior extenso",
+              "V1-V6, DI, aVL",
+              "DII, DIII, aVF",
+              "DA proximal (peor pronóstico)"
             ]
           },
           {
             "cells": [
-              "70 a 79 kg",
-              "8.000 UI",
-              "40 mg en bolo EV",
-              "8.0 mL en 5-10 segundos"
+              "Lateral (alto)",
+              "DI, aVL, V5-V6",
+              "DII, DIII, aVF",
+              "Circunfleja o rama diagonal"
             ]
           },
           {
             "cells": [
-              "80 a 89 kg",
-              "9.000 UI",
-              "45 mg en bolo EV",
-              "9.0 mL en 5-10 segundos"
+              "Inferior",
+              "DII, DIII, aVF (DIII > DII)",
+              "DI, aVL",
+              "Coronaria derecha (80-90%)"
             ]
           },
           {
             "cells": [
-              "≥ 90 kg",
-              "10.000 UI",
-              "50 mg en bolo EV (Máximo)",
-              "10.0 mL en 5-10 segundos"
+              "Posterior",
+              "V7-V9 (≥ 0,5 mm)",
+              "V1-V3 con R alta y T positiva",
+              "Circunfleja o coronaria derecha"
+            ]
+          },
+          {
+            "cells": [
+              "Ventrículo derecho",
+              "V3R-V4R (≥ 1 mm) + inferior",
+              "DI, aVL",
+              "Coronaria derecha proximal"
             ]
           }
+        ]
+      },
+      {
+        "type": "table",
+        "nav": "Contraindicaciones de la Fibri",
+        "notes": "[SLIDE 12] Contraindicaciones de la Fibrinólisis en el SCACEST.",
+        "title": "Contraindicaciones de la Fibrinólisis en el SCACEST",
+        "headers": [
+          "Tipo",
+          "Contraindicación",
+          "Conducta"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Absoluta",
+              "ACV hemorrágico previo (cualquier fecha) o ACV isquémico en los últimos 6 meses",
+              "Angioplastía aunque tarde > 120 min"
+            ]
+          },
+          {
+            "cells": [
+              "Absoluta",
+              "Malformación arteriovenosa o neoplasia intracraneal",
+              "Angioplastía aunque tarde > 120 min"
+            ]
+          },
+          {
+            "cells": [
+              "Absoluta",
+              "TEC o cirugía mayor en el último mes; sangrado digestivo en el último mes",
+              "Angioplastía aunque tarde > 120 min"
+            ]
+          },
+          {
+            "cells": [
+              "Absoluta",
+              "Trastorno hemorrágico conocido; punciones no compresibles en 24 h",
+              "Angioplastía aunque tarde > 120 min"
+            ]
+          },
+          {
+            "cells": [
+              "Absoluta",
+              "Sospecha de disección aórtica aguda",
+              "AngioTAC; nunca trombolizar"
+            ]
+          },
+          {
+            "cells": [
+              "Relativa",
+              "AIT en los últimos 6 meses; uso de anticoagulantes orales",
+              "Ponderar riesgo-beneficio"
+            ]
+          },
+          {
+            "cells": [
+              "Relativa",
+              "Embarazo o primera semana posparto",
+              "Ponderar riesgo-beneficio"
+            ]
+          },
+          {
+            "cells": [
+              "Relativa",
+              "HTA refractaria (PAS > 180 o PAD > 110 mmHg); hepatopatía avanzada; endocarditis; úlcera péptica activa",
+              "Controlar y ponderar"
+            ]
+          },
+          {
+            "cells": [
+              "Relativa",
+              "Reanimación cardiopulmonar prolongada o traumática",
+              "Ponderar riesgo-beneficio"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "nav": "Reperfusión y Terapia Coadyuva",
+        "notes": "[SLIDE 13] Reperfusión y Terapia Coadyuvante Inmediata en el SCACEST (Dosis del Adulto).",
+        "title": "Reperfusión y Terapia Coadyuvante Inmediata en el SCACEST (Dosis del Adulto)",
+        "headers": [
+          "Fármaco",
+          "Dosis",
+          "Con angioplastía primaria",
+          "Con fibrinólisis"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Aspirina",
+              "250 mg VO masticada (o 500 mg EV); luego 100 mg/día",
+              "Sí",
+              "Sí"
+            ]
+          },
+          {
+            "cells": [
+              "Ticagrelor / prasugrel",
+              "180 mg (90 mg c/12 h) / 60 mg de carga",
+              "De elección",
+              "No"
+            ]
+          },
+          {
+            "cells": [
+              "Clopidogrel",
+              "300 mg de carga (≥ 75 años: 75 mg sin carga); 600 mg si va a ACTP sin ticagrelor",
+              "Alternativa",
+              "De elección"
+            ]
+          },
+          {
+            "cells": [
+              "Enoxaparina",
+              "Bolo EV 30 mg + 1 mg/kg SC c/12 h (≥ 75 años: 0,75 mg/kg sin bolo)",
+              "Alternativa",
+              "De elección"
+            ]
+          },
+          {
+            "cells": [
+              "Heparina no fraccionada",
+              "Bolo EV ajustado por peso y TTPA",
+              "De elección",
+              "Alternativa"
+            ]
+          },
+          {
+            "cells": [
+              "Tenecteplase (TNK-tPA)",
+              "< 60 kg 30 mg · 60-69 kg 35 mg · 70-79 kg 40 mg · 80-89 kg 45 mg · ≥ 90 kg 50 mg (bolo único en 5-10 s; ½ dosis si ≥ 75 años)",
+              "No",
+              "De elección"
+            ]
+          },
+          {
+            "cells": [
+              "Estreptoquinasa",
+              "1,5 millones UI EV en 30-60 min",
+              "No",
+              "Alternativa"
+            ]
+          },
+          {
+            "cells": [
+              "Atorvastatina",
+              "80 mg/día desde las primeras 24 h",
+              "Sí",
+              "Sí"
+            ]
+          },
+          {
+            "cells": [
+              "Nitroglicerina / morfina / O₂",
+              "Solo dolor, HTA o congestión / dolor refractario / SatO₂ < 90%",
+              "Según clínica",
+              "Según clínica"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "figura",
+        "nav": "Algoritmo",
+        "notes": "[SLIDE 14] Algoritmo de reperfusión del IAM con supradesnivel del ST (Guía GES)",
+        "title": "Algoritmo de Reperfusión del IAM con Supradesnivel del ST (Regla de los 120 Minutos)",
+        "svg": "<svg viewBox=\"0 0 620 450\" width=\"100%\" style=\"max-width:620px;font-family:'IBM Plex Sans',system-ui,sans-serif\">\n  <defs><marker id=\"ar25\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#475569\"/></marker></defs>\n  <style>\n    .b{fill:#fff;stroke:#cbd5e1;stroke-width:1}\n    .t{font-size:10px;fill:#15181d}\n    .sub{font-size:8px;fill:#475569}.lbl{font-size:7.5px;fill:#64748b}\n    .acc{fill:var(--acc)}.accT{fill:#fff}.accS{font-size:8px;fill:#fff7ed}\n    .dec{fill:var(--acc-t);stroke:var(--acc-p);stroke-width:1}\n    .warn{fill:#fef2f2;stroke:#fecaca;stroke-width:1}.warnT{fill:#991b1b}\n    .ln{stroke:#475569;stroke-width:1.2;fill:none;marker-end:url(#ar25)}\n  </style>\n  <rect class=\"b\" x=\"100\" y=\"8\" width=\"420\" height=\"39\" rx=\"3\"/>\n  <text class=\"t\" x=\"310\" y=\"23\" text-anchor=\"middle\" font-weight=\"700\">Dolor torácico isquémico (opresivo, &gt; 20 minutos, no cede con reposo)</text>\n  <text class=\"sub\" x=\"310\" y=\"36\" text-anchor=\"middle\">ECG de 12 derivaciones interpretado en ≤ 10 minutos desde el primer contacto médico</text>\n  <path class=\"ln\" d=\"M310,47 V67\"/>\n  <rect class=\"dec\" x=\"90\" y=\"67\" width=\"440\" height=\"42\" rx=\"3\"/>\n  <text class=\"t\" x=\"310\" y=\"83\" text-anchor=\"middle\" font-weight=\"700\">¿SDST en ≥ 2 derivaciones contiguas o BCRI nuevo?</text>\n  <text class=\"sub\" x=\"310\" y=\"97\" text-anchor=\"middle\">Equivalentes: IAM posterior (V7-V9) · infradesnivel difuso con SDST en aVR · ritmo de marcapaso con Sgarbossa</text>\n  <text class=\"lbl\" x=\"20\" y=\"126\">No → ECG seriado cada 15-30 min y troponina (Temas 2.1 y 2.4)</text>\n  <text class=\"lbl\" x=\"318\" y=\"126\">Sí</text>\n  <path class=\"ln\" d=\"M310,109 V137\"/>\n  <rect class=\"acc\" x=\"70\" y=\"137\" width=\"480\" height=\"40\" rx=\"3\"/>\n  <text class=\"accT t\" x=\"310\" y=\"153\" text-anchor=\"middle\" font-weight=\"700\">SCACEST: activar la red de reperfusión (GES)</text>\n  <text class=\"accS\" x=\"310\" y=\"167\" text-anchor=\"middle\">AAS 250 mg masticada + inhibidor P2Y12 + anticoagulante · O₂ solo si SatO₂ &lt; 90%</text>\n  <path class=\"ln\" d=\"M310,177 V197\"/>\n  <rect class=\"dec\" x=\"90\" y=\"197\" width=\"440\" height=\"40\" rx=\"3\"/>\n  <text class=\"t\" x=\"310\" y=\"213\" text-anchor=\"middle\" font-weight=\"700\">¿Angioplastía primaria posible en ≤ 120 min desde el diagnóstico?</text>\n  <text class=\"sub\" x=\"310\" y=\"227\" text-anchor=\"middle\">Shock cardiogénico o contraindicación de fibrinólisis → angioplastía, sin importar el tiempo</text>\n  <path class=\"ln\" d=\"M310,237 V255 H158 V267\"/>\n  <path class=\"ln\" d=\"M310,255 H462 V267\"/>\n  <text class=\"lbl\" x=\"150\" y=\"251\" text-anchor=\"end\">Sí</text>\n  <text class=\"lbl\" x=\"470\" y=\"251\">No (&gt; 120 min)</text>\n  <rect class=\"acc\" x=\"12\" y=\"267\" width=\"292\" height=\"54\" rx=\"3\"/>\n  <text class=\"accT t\" x=\"158\" y=\"283\" text-anchor=\"middle\" font-weight=\"700\">ANGIOPLASTÍA PRIMARIA (de elección)</text>\n  <text class=\"accS\" x=\"158\" y=\"297\" text-anchor=\"middle\">Traslado directo a hemodinamia 24/7 con stent</text>\n  <text class=\"accS\" x=\"158\" y=\"309\" text-anchor=\"middle\">Meta ≤ 90 min (≤ 60 min si el centro tiene hemodinamia)</text>\n  <rect class=\"warn\" x=\"316\" y=\"267\" width=\"292\" height=\"54\" rx=\"3\"/>\n  <text class=\"warnT t\" x=\"462\" y=\"283\" text-anchor=\"middle\" font-weight=\"700\">FIBRINÓLISIS en ≤ 30 min (puerta-aguja)</text>\n  <text class=\"warnT sub\" x=\"462\" y=\"297\" text-anchor=\"middle\">Tenecteplase en bolo según peso (½ dosis si ≥ 75 años)</text>\n  <text class=\"warnT sub\" x=\"462\" y=\"309\" text-anchor=\"middle\">+ clopidogrel 300 mg y enoxaparina · traslado siempre</text>\n  <path class=\"ln\" d=\"M158,321 V341\"/>\n  <path class=\"ln\" d=\"M462,321 V341\"/>\n  <rect class=\"dec\" x=\"316\" y=\"341\" width=\"292\" height=\"40\" rx=\"3\"/>\n  <text class=\"t\" x=\"462\" y=\"357\" text-anchor=\"middle\" font-weight=\"700\">A los 60-90 min: ¿descendió el ST &gt; 50%?</text>\n  <text class=\"sub\" x=\"462\" y=\"370\" text-anchor=\"middle\">Alivio del dolor y RIVA acompañan a la reperfusión</text>\n  <path class=\"ln\" d=\"M462,381 V390 H387 V399\"/>\n  <path class=\"ln\" d=\"M462,390 H537 V399\"/>\n  <rect class=\"b\" x=\"316\" y=\"399\" width=\"142\" height=\"44\" rx=\"3\"/>\n  <text class=\"t\" x=\"387\" y=\"415\" text-anchor=\"middle\" font-weight=\"700\">Sí: farmacoinvasiva</text>\n  <text class=\"sub\" x=\"387\" y=\"429\" text-anchor=\"middle\">Coronariografía en 2-24 h</text>\n  <rect class=\"warn\" x=\"466\" y=\"399\" width=\"142\" height=\"44\" rx=\"3\"/>\n  <text class=\"warnT t\" x=\"537\" y=\"415\" text-anchor=\"middle\" font-weight=\"700\">No: ACTP de rescate</text>\n  <text class=\"warnT sub\" x=\"537\" y=\"429\" text-anchor=\"middle\">Traslado inmediato</text>\n  <rect class=\"dec\" x=\"12\" y=\"341\" width=\"292\" height=\"54\" rx=\"3\"/>\n  <text class=\"t\" x=\"158\" y=\"357\" text-anchor=\"middle\" font-weight=\"700\">Al alta: prevención secundaria (GES)</text>\n  <text class=\"sub\" x=\"158\" y=\"371\" text-anchor=\"middle\">AAS de por vida + P2Y12 por 12 meses · atorvastatina 80 mg</text>\n  <text class=\"sub\" x=\"158\" y=\"383\" text-anchor=\"middle\">Betabloqueador · IECA/ARA II · rehabilitación cardíaca</text>\n</svg>",
+        "steps": [
+          "1. Dolor torácico isquémico (opresivo, > 20 minutos, no cede con reposo)",
+          "2. ¿SDST en ≥ 2 derivaciones contiguas o BCRI nuevo?",
+          "3. SCACEST: activar la red de reperfusión (GES) · ¿Angioplastía primaria posible en ≤ 120 min desde el diagnóstico? · ANGIOPLASTÍA PRIMARIA (de elección)"
         ]
       },
       {
         "type": "question",
         "nav": "Caso Clínico 1",
         "badge": "Caso Clínico de Aplicación",
-        "notes": "[SLIDE 9] Caso clínico de aplicación número 1.",
+        "notes": "[SLIDE 15] Caso clínico de aplicación número 1.",
         "number": 1,
-        "caseText": "Hombre de 60 años consulta en hospital comunal sin hemodinamia por dolor precordial típico de 40 minutos de evolución. ECG revela supradesnivel del ST de 4 mm de V1 a V4. El centro terciario con capacidad de angioplastía está a 150 minutos de traslado. ¿Cuál es la conducta médica de elección?",
+        "caseText": "Un paciente de 62 años, con antecedentes de dislipidemia y diabetes en tratamiento con dieta e hipoglicemiantes orales, consulta por dolor toráxico opresivo irradiado a ambos hombros intenso EVA 9/10, asociado a disnea y sudoración. Al examen físico, su presión arterial es 140/70 mmHg con frecuencia cardiaca de 80 latidos por minuto. Presenta RR3T con presencia de R3, murmullo pulmonar presente con crépitos bibasales. Electrocardiagrama: SDST en V1-V4. La conducta más adecuada es:",
         "question": "¿Cuál es la conducta más adecuada?",
         "options": [
           {
             "id": "A",
-            "text": "Administrar Tenecteplase endovenoso en bolo inmediatamente en el hospital comunal",
+            "text": "Tratamiento anticoagulante",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Tratamiento antiplaquetario",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Solicitar AngioTAC de tórax",
+            "isCorrect": false
+          },
+          {
+            "id": "D",
+            "text": "Ecocardiograma bidimensional",
+            "isCorrect": false
+          },
+          {
+            "id": "E",
+            "text": "Coronariografía de urgencia",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "SCACEST anterior (supradesnivel V1-V4, territorio de la descendente anterior) con signos de insuficiencia cardíaca (tercer ruido y crépitos: Killip II). La conducta que cambia el pronóstico es la reperfusión: coronariografía de urgencia para angioplastía primaria. Los antiagregantes y la anticoagulación son coadyuvantes, no la conducta principal; el ecocardiograma y el angioTAC retrasan la reperfusión."
+      },
+      {
+        "type": "question",
+        "nav": "Caso Clínico 2",
+        "badge": "Caso Clínico de Aplicación",
+        "notes": "[SLIDE 16] Caso clínico de aplicación número 2.",
+        "number": 2,
+        "caseText": "Un paciente de 65 años, diabético e hipertenso, consulta por dolor precordial opresivo intenso, EVA: 9/10, asociado a malestar general y disnea. Al examen físico con frecuencia cardiaca de 90 por minuto, presión arterial de 150/90 mmHg, al examen cardiaco se ausculta un ritmo regular y tercer ruido. Se realiza estudio con electrocardiograma que muestra supradesnivel del segmento ST en DII, DIII y AVF. Diagnóstico más probable:",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Infarto de pared anterior",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Infarto de pared inferior",
+            "isCorrect": true
+          },
+          {
+            "id": "C",
+            "text": "Pericarditis",
+            "isCorrect": false
+          },
+          {
+            "id": "D",
+            "text": "Infarto de pared posterior",
+            "isCorrect": false
+          },
+          {
+            "id": "E",
+            "text": "Infarto de pared lateral",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "DII, DIII y aVF son las derivaciones inferiores: infarto de pared inferior, habitualmente por oclusión de la coronaria derecha. Obliga a tomar V3R-V4R para descartar compromiso del ventrículo derecho. La pericarditis da un supradesnivel difuso y cóncavo, no limitado a un territorio."
+      },
+      {
+        "type": "question",
+        "nav": "Caso Clínico 3",
+        "badge": "Caso Clínico de Aplicación",
+        "notes": "[SLIDE 17] Caso clínico de aplicación número 3.",
+        "number": 3,
+        "caseText": "Paciente de 63 años, fumador y diabético, que hace una hora comienza con dolor torácico opresivo, intenso, que se irradia a cuello, con diaforesis y sensación de angustia. Se solicita un electrocardiograma, que muestra ritmo sinusal, a 80 lpm, con bloqueo completo de rama izquierda, que no se había visualizado en electrocardiogramas previos. ¿Cuál es la conducta más adecuada?",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Solicitar enzimas cardíacas",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Solicitar angiografía pulmonar",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Solicitar ecocardiograma transesofágico",
+            "isCorrect": false
+          },
+          {
+            "id": "D",
+            "text": "Instalar marcapaso externo transitorio",
+            "isCorrect": false
+          },
+          {
+            "id": "E",
+            "text": "Iniciar terapia de reperfusión miocárdica precoz",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "El bloqueo completo de rama izquierda nuevo en un paciente con dolor típico es un equivalente de SCACEST: se reperfunde de inmediato (angioplastía primaria o fibrinólisis según el tiempo). Esperar las enzimas es el error que el examen castiga."
+      },
+      {
+        "type": "question",
+        "nav": "Caso Clínico 4",
+        "badge": "Caso Clínico de Aplicación",
+        "notes": "[SLIDE 18] Caso clínico de aplicación número 4.",
+        "number": 4,
+        "caseText": "Un paciente de 23 años consulta en el servicio de urgencia, por dolor torácico de 2 horas de evolución, intenso, asociado a diaforesis y palpitaciones, que inició algunos minutos después de haber inhalado cocaína. Al examen físico presenta FC: 120x’, PA: 190/120 mmHg, ritmo regular en dos tonos, sin soplos. Su electrocardiograma muestra supradesnivel de segmento ST en las derivaciones de la pared anterior. ¿Qué fármaco está contraindicado en el manejo de este paciente?",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Estreptoquinasa",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Clopidogrel",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Nitroglicerina",
+            "isCorrect": false
+          },
+          {
+            "id": "D",
+            "text": "Atenolol",
+            "isCorrect": true
+          },
+          {
+            "id": "E",
+            "text": "Diazepam",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "En el infarto asociado a cocaína el betabloqueador está contraindicado: deja sin oposición el efecto alfa-adrenérgico y agrava el vasoespasmo y la hipertensión. Se usan benzodiacepinas y nitratos, y se reperfunde como cualquier SCACEST."
+      },
+      {
+        "type": "question",
+        "nav": "Caso Clínico 5",
+        "badge": "Caso Clínico de Aplicación",
+        "notes": "[SLIDE 19] Caso clínico de aplicación número 5.",
+        "number": 5,
+        "caseText": "Hombre de 60 años consulta en hospital comunal sin hemodinamia por dolor precordial típico de 40 minutos de evolución. ECG revela supradesnivel del ST de 4 mm de V1 a V4. El centro terciario con capacidad de angioplastía está a 150 minutos de traslado. No tiene contraindicaciones de fibrinólisis. ¿Cuál es la conducta médica de elección?",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Administrar tenecteplase endovenoso en bolo inmediatamente en el hospital comunal y luego trasladar",
             "isCorrect": true
           },
           {
             "id": "B",
-            "text": "Derivar en ambulancia básica a angioplastía primaria sin trombolisis previa",
+            "text": "Derivar en ambulancia a angioplastía primaria sin trombólisis previa",
             "isCorrect": false
           },
           {
@@ -4145,14 +4526,51 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Cuando el tiempo para realizar una angioplastía primaria supera los 120 minutos, la guía GES y las normas internacionales obligan a realizar fibrinólisis farmacológica inmediata con Tenecteplase en menos de 30 minutos desde el ingreso para salvar miocardio y reducir la mortalidad."
+        "explanation": "Cuando la angioplastía primaria no puede realizarse en 120 minutos o menos, se indica fibrinólisis inmediata con tenecteplase (meta puerta-aguja ≤ 30 minutos) y traslado posterior a un centro con hemodinamia (estrategia farmacoinvasiva). Esperar troponinas o hacer un test de esfuerzo en un SCACEST está contraindicado."
+      },
+      {
+        "type": "question",
+        "nav": "Caso Clínico 6",
+        "badge": "Caso Clínico de Aplicación",
+        "notes": "[SLIDE 20] Caso clínico de aplicación número 6.",
+        "number": 6,
+        "caseText": "Mujer de 68 años, con antecedente de ACV isquémico hace 2 meses, consulta en un hospital sin hemodinamia por dolor torácico opresivo de 2 horas de evolución. El ECG muestra supradesnivel del ST de 3 mm en DII, DIII y aVF. PA 125/80 mmHg. El centro con angioplastía más cercano está a 150 minutos de traslado. ¿Cuál es la conducta más adecuada?",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tenecteplase a mitad de dosis y traslado",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Estreptoquinasa, por tener menor riesgo de hemorragia intracraneal",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Aspirina, clopidogrel y anticoagulación, y traslado inmediato para angioplastía primaria",
+            "isCorrect": true
+          },
+          {
+            "id": "D",
+            "text": "Aspirina y heparina, y coronariografía electiva en 48 a 72 horas",
+            "isCorrect": false
+          },
+          {
+            "id": "E",
+            "text": "Tenecteplase en dosis completa, porque el beneficio supera al riesgo",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "El ACV isquémico en los últimos 6 meses es una contraindicación absoluta de fibrinólisis (con cualquier fibrinolítico y en cualquier dosis). Con una contraindicación absoluta, el SCACEST se traslada a angioplastía primaria aunque el tiempo supere los 120 minutos, con doble antiagregación y anticoagulación desde el inicio."
       },
       {
         "type": "question",
         "nav": "Pregunta Real EUNACOM",
         "badge": "EUNACOM Julio 2025 · Pregunta 52",
-        "notes": "[SLIDE 10] Pregunta oficial del banco EUNACOM: EUNACOM Julio 2025 · Pregunta 52.",
-        "number": 2,
+        "notes": "[SLIDE 21] Pregunta oficial del banco EUNACOM: EUNACOM Julio 2025 · Pregunta 52.",
+        "number": 7,
         "caseText": "Hombre de 58 años llega a urgencias con dolor precordial opresivo intenso de 2 horas de evolución, irradiado al brazo izquierdo, sudoración profusa y disnea. ECG: supradesnivel del ST en V1-V4. ¿Cuál es el diagnóstico?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
@@ -4188,8 +4606,8 @@
         "type": "question",
         "nav": "Pregunta Real EUNACOM",
         "badge": "EUNACOM Julio 2025 · Pregunta 96",
-        "notes": "[SLIDE 11] Pregunta oficial del banco EUNACOM: EUNACOM Julio 2025 · Pregunta 96.",
-        "number": 3,
+        "notes": "[SLIDE 22] Pregunta oficial del banco EUNACOM: EUNACOM Julio 2025 · Pregunta 96.",
+        "number": 8,
         "caseText": "Paciente con IAM con SDST llega a hospital sin capacidad de angioplastia primaria. El centro con ICPP más cercano se encuentra a 60 minutos. ¿Cuál es la conducta más adecuada?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
@@ -4224,16 +4642,21 @@
       {
         "type": "bento",
         "nav": "Reglas de Oro",
-        "notes": "[SLIDE 12] Repasemos las reglas de oro de este tema para no fallar en el EUNACOM.",
+        "notes": "[SLIDE 23] Repasemos las reglas de oro de este tema para no fallar en el EUNACOM.",
         "title": "Reglas de Oro del Examen EUNACOM",
         "tiles": [
           {
             "colSpan": 3,
             "gridColumns": 1,
             "bullets": [
-              "ECG en los primeros 10 minutos es ley GES ante dolor torácico.",
-              "Si tiempo de traslado a Angioplastía > 120 min → Fibrinólisis con Tenecteplase < 30 min.",
-              "Criterio de reperfusión exitosa = Descenso del supradesnivel del ST > 50% a los 60-90 min."
+              "ECG de 12 derivaciones interpretado en ≤ 10 minutos ante todo dolor torácico; el SCACEST se reperfunde sin esperar la troponina.",
+              "Supradesnivel en ≥ 2 derivaciones contiguas: ≥ 1 mm en general; en V2-V3 ≥ 2 mm (hombre ≥ 40 años), ≥ 2,5 mm (hombre < 40) y ≥ 1,5 mm (mujer).",
+              "BCRI nuevo con clínica de infarto = equivalente de SCACEST: reperfusión inmediata. Infradesnivel V1-V3 con R alta = IAM posterior (pedir V7-V9).",
+              "DII, DIII y aVF = infarto inferior (coronaria derecha): tomar siempre V3R-V4R; en el infarto del VD, volumen y nada de nitratos, diuréticos ni morfina.",
+              "Angioplastía primaria si se puede hacer en ≤ 120 min desde el diagnóstico (meta puerta-balón ≤ 90 min); si no, fibrinólisis en ≤ 30 min y traslado.",
+              "Tenecteplase en bolo según peso (30 a 50 mg; 40 mg entre 70 y 79 kg) y la mitad de la dosis en ≥ 75 años; con fibrinólisis, clopidogrel 300 mg y enoxaparina.",
+              "Reperfusión exitosa = descenso del ST > 50% a los 60-90 min (con alivio del dolor y RIVA); si falla, angioplastía de rescate inmediata.",
+              "Shock cardiogénico o contraindicación de fibrinólisis (ACV hemorrágico previo, sospecha de disección aórtica) = angioplastía aunque tarde más de 120 min."
             ]
           }
         ]

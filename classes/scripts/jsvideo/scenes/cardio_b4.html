@@ -1,0 +1,292 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Cardiología, bloque 4 (valvulopatías, congénitas y endocarditis). Gráficos propios de código (ECG, fonocardiograma,
+// curvas de presión), sin órganos dibujados. Una variante por clase:
+//   ?v=soplos   cardio-22 A1: fonocardiograma de los 4 tipos de soplo y su respuesta a las maniobras
+//   ?v=ea       cardio-23 A1: curvas de presión VI/aorta, gradiente y tríada de síntomas
+//   ?v=ia       cardio-24 A1: presión aórtica (diastólica baja), pulso de Corrigan y signos periféricos
+//   ?v=em       cardio-25 A1: estenosis mitral: gradiente diastólico, ritmo de Duroziez y pérdida del refuerzo en FA
+//   ?v=prolapso cardio-26 A1: clic y soplo del prolapso mitral con Valsalva y cuclillas
+//   ?v=cia      cardio-27 A1: desdoblamiento fisiológico del R2 frente al fijo de la CIA
+//   ?v=duke     cardio-28 A1: criterios de Duke del caso clínico, uno a uno
+const V = new URLSearchParams(location.search).get('v') || 'soplos';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const K = KIT(L), { seg, fade } = K;
+const CRED = 'Gráfico propio · criterios del Manual EUNACOM de Cardiología, bloque 4';
+const g = (x, m, w) => Math.exp(-((x - m) * (x - m)) / (2 * w * w));
+const noise = x => Math.sin(x * 91.7) * 0.5 + Math.sin(x * 173.3 + 1.3) * 0.3 + Math.sin(x * 311.1 + 2.1) * 0.2;
+const T = 0.8;                                                      // duración del ciclo (s), 75 lpm
+
+// ---------- una franja que se desplaza: fn(u, tau) con u = fase del ciclo en [0,1) ----------
+function strip(x, y, w, h, label, t, fn, col, o = {}) {
+  const pps = o.pps || 330, base = y + h * (o.base ?? 0.55), amp = h * (o.amp ?? 0.4);
+  rrect(x, y, w, h, 14, '#161B22'); text(label, x + 16, y + 24, 16, C.MUTED, 'bold');
+  ctx.save(); ctx.beginPath(); ctx.rect(x + 8, y + 30, w - 16, h - 36); ctx.clip();
+  ctx.strokeStyle = '#242B35'; ctx.lineWidth = 1;
+  for (let gx = x + 8; gx < x + w; gx += 33) { ctx.beginPath(); ctx.moveTo(gx, y + 30); ctx.lineTo(gx, y + h); ctx.stroke(); }
+  ctx.setLineDash([5, 6]); ctx.strokeStyle = '#3A4350'; ctx.beginPath(); ctx.moveTo(x + 8, base); ctx.lineTo(x + w - 8, base); ctx.stroke(); ctx.setLineDash([]);
+  ctx.strokeStyle = col; ctx.lineWidth = o.lw || 2.6; ctx.lineJoin = 'round'; ctx.beginPath();
+  for (let px = 0; px <= w - 16; px += 1.5) {
+    const tau = t + px / pps, cyc = Math.floor(tau / T), u = tau / T - cyc, v = fn(u, tau, cyc);
+    const X = x + 8 + px, Y = base - amp * v; px === 0 ? ctx.moveTo(X, Y) : ctx.lineTo(X, Y);
+  }
+  ctx.stroke(); ctx.restore();
+  return { pps, x0: x + 8, base, amp };
+}
+// marcas verticales de R1 / R2 en una franja (posición en el ciclo)
+function marks(x, y, h, t, pps, list, a = 1) {
+  ctx.save(); ctx.globalAlpha = a;
+  for (let k = 0; k < 8; k++) for (const [u, s, col] of list) {
+    const px = ((Math.floor(t / T) + k) * T + u * T - t) * pps; if (px < 20 || px > 640) continue;
+    if (k > 3) continue; text(s, x + 8 + px, y + h - 8, 15, col || C.AMBER, 'bold', 'center');
+  }
+  ctx.restore();
+}
+const ecgBeat = u => 0.12 * g(u, 0.04, 0.012) - 0.12 * g(u, 0.095, 0.004) + 1.0 * g(u, 0.115, 0.005) - 0.2 * g(u, 0.14, 0.005) + 0.28 * g(u, 0.31, 0.03);
+// sonido amortiguado centrado en u0
+const snd = (u, u0, f, a = 1, d = 0.012) => { const x = u - u0; return x < 0 ? 0 : a * Math.exp(-x / d) * Math.sin(x * f); };
+const S1 = (u, a = 1) => snd(u, 0.06, 2100, 0.8 * a), S2 = (u, u0 = 0.40, a = 1) => snd(u, u0, 2600, 0.6 * a, 0.01);
+const rhomb = (u, a0, a1, pk) => u <= a0 || u >= a1 ? 0 : (u < pk ? Math.sin(((u - a0) / (pk - a0)) * Math.PI / 2) : Math.cos(((u - pk) / (a1 - pk)) * Math.PI / 2));
+function murmur(kind, u, tau) {
+  const n = noise(tau * 30);
+  if (kind === 'eyectivo') return 0.45 * rhomb(u, 0.09, 0.39, 0.25) * n;
+  if (kind === 'holosist') return (u > 0.07 && u < 0.395 ? 0.30 : 0) * n;
+  if (kind === 'diast') return (u > 0.41 && u < 0.92 ? 0.34 * Math.exp(-(u - 0.41) / 0.17) : 0) * n;
+  if (kind === 'continuo') { const e = u < 0.4 ? 0.12 + 0.30 * rhomb(u, 0.05, 0.4, 0.40) : 0.30 * Math.exp(-(u - 0.4) / 0.35); return (u > 0.05 ? e : 0) * n; }
+  return 0;
+}
+const pcg = (kind, extra) => (u, tau) => S1(u) + S2(u) + murmur(kind, u, tau) + (extra ? extra(u, tau) : 0);
+function bottomTag(s, col, a) { if (a > 0) { ctx.save(); ctx.globalAlpha = a; tag(s, 640, 664, col, 22); ctx.restore(); } }
+
+// ====================== cardio-22: los 4 tipos de soplo y las maniobras ======================
+const SOP = [
+  { k: 'eyectivo', name: 'Eyectivo (en rombo)', ex: 'Estenosis aórtica, estenosis pulmonar, MCH, CIA', t0: 1.5, col: C.AMBER },
+  { k: 'holosist', name: 'Holosistólico (en barra)', ex: 'Insuficiencia mitral o tricuspídea, CIV', t0: 8, col: C.RED },
+  { k: 'diast', name: 'Diastólico decreciente', ex: 'Insuficiencia aórtica o pulmonar (siempre patológico)', t0: 14.5, col: C.BLUE },
+  { k: 'continuo', name: 'Continuo (en maquinaria)', ex: 'Ductus arterioso persistente, fístula', t0: 21, col: C.VIOLET },
+];
+function soplos(t) {
+  K.title('Cuatro soplos, cuatro formas', 'Fonocardiograma: el momento del ciclo y la forma orientan el diagnóstico', C.AMBER);
+  let i = 0; SOP.forEach((s, k) => { if (t >= s.t0 - 0.2) i = k; });
+  const s = SOP[i];
+  if (t < 27.8) {
+    const a = seg(t, 0.2, 0.6);
+    ctx.save(); ctx.globalAlpha = a;
+    const e = strip(40, 134, 800, 150, 'ECG · derivación II', t, (u) => ecgBeat(u), C.GREEN, { amp: 0.34 });
+    const pc = strip(40, 300, 800, 240, 'Fonocardiograma', t, pcg(s.k), s.col, { amp: 0.9, base: 0.5, lw: 2.2 });
+    marks(40, 300, 240, t, pc.pps, [[0.06, 'R1'], [0.40, 'R2']], 1);
+    ctx.fillStyle = 'rgba(255,255,255,0.05)';
+    ctx.restore();
+    // panel derecho
+    rrect(870, 134, 370, 406, 16, '#161B22');
+    SOP.forEach((q, k) => { const on = k === i, y = 156 + k * 92;
+      if (on) rrect(880, y - 6, 350, 84, 12, '#232B37');
+      ctx.fillStyle = on ? q.col : '#3A4350'; ctx.beginPath(); ctx.arc(906, y + 28, 9, 0, 7); ctx.fill();
+      text(q.name, 928, y + 22, 19, on ? C.INK : '#7E8794', on ? 'bold' : '');
+      const ex = q.ex.split(': '); text(q.ex.length > 38 ? q.ex.slice(0, q.ex.lastIndexOf(' ', 38)) : q.ex, 928, y + 46, 14.5, on ? q.col : '#5B6573');
+      if (q.ex.length > 38) text(q.ex.slice(q.ex.lastIndexOf(' ', 38) + 1), 928, y + 64, 14.5, on ? q.col : '#5B6573'); });
+    bottomTag(s.name, s.col, fade(t, s.t0, s.t0 + 6));
+    if (i === 0) bottomTag('Más tarde y más largo = más grave', C.AMBER, fade(t, 5.5, 7.3));
+  } else {
+    // maniobras
+    const a = seg(t, 27.8, 0.6);
+    ctx.save(); ctx.globalAlpha = a;
+    const rows = [
+      ['Inspiración profunda', 'Soplos del corazón derecho ↑', C.GREEN, 'Rivero-Carvallo'],
+      ['Valsalva / de pie', 'Casi todos ↓ · solo MCH y prolapso ↑', C.AMBER, 'Menos precarga'],
+      ['Cuclillas', 'MCH ↓ · estenosis aórtica ↑ · clic del prolapso tardío', C.BLUE, 'Más precarga y poscarga'],
+      ['Handgrip', 'IM, IAo y CIV ↑ · EAo y MCH ↓', C.RED, 'Más poscarga'],
+    ];
+    rows.forEach((r, k) => { const y = 140 + k * 118, on = seg(t, 28.2 + k * 1.4, 0.6);
+      ctx.save(); ctx.globalAlpha = on; rrect(40, y, 1200, 100, 16, '#161B22'); ctx.fillStyle = r[2]; ctx.fillRect(40, y, 7, 100);
+      text(r[0], 70, y + 40, 28, r[2], 'bold'); text(r[3], 70, y + 76, 18, C.MUTED); text(r[1], 460, y + 60, 25, C.INK, 'bold'); ctx.restore(); });
+    ctx.restore();
+  }
+}
+
+// ====================== cardio-23: estenosis aórtica ======================
+function pressCurves(x, y, w, h, t, grad) {
+  // VI (rojo) y aorta (azul). Con estenosis el VI genera más presión que la aorta durante la sístole (gradiente).
+  const pk = 0.62 + grad;
+  const lv = u => (u > 0.07 && u < 0.41) ? 0.08 + (pk - 0.08) * Math.pow(Math.sin(Math.PI * (u - 0.07) / 0.34), 1.2) : (u >= 0.41 && u < 0.47 ? lerp(0.30, 0.08, (u - 0.41) / 0.06) : 0.08);
+  const ao = u => (u > 0.11 && u < 0.40) ? 0.46 + 0.16 * Math.pow(Math.sin(Math.PI * (u - 0.11) / 0.29), 0.9) : (u >= 0.40 ? 0.50 - 0.06 * Math.min(1, (u - 0.40) / 0.5) : 0.44 + 0.06 * (u / 0.11));
+  rrect(x, y, w, h, 14, '#161B22'); text('Presión (mmHg): ventrículo izquierdo y aorta', x + 16, y + 24, 16, C.MUTED, 'bold');
+  const base = y + h - 20, amp = (h - 70) / 1.15, pps = 330;
+  ctx.save(); ctx.beginPath(); ctx.rect(x + 8, y + 30, w - 16, h - 34); ctx.clip();
+  const draw = (fn, col, lw) => { ctx.strokeStyle = col; ctx.lineWidth = lw; ctx.beginPath(); for (let px = 0; px <= w - 16; px += 1.5) { const tau = t + px / pps, u = (tau / T) % 1; const X = x + 8 + px, Y = base - amp * fn(u); px === 0 ? ctx.moveTo(X, Y) : ctx.lineTo(X, Y); } ctx.stroke(); };
+  if (grad > 0.03) { ctx.fillStyle = 'rgba(255,90,78,0.30)'; const pts = []; for (let px = 0; px <= w - 16; px += 2) { const tau = t + px / pps, u = (tau / T) % 1, l = lv(u), a = ao(u); pts.push([x + 8 + px, base - amp * Math.max(l, a), base - amp * a, l > a + 0.005]); }
+    let run = []; const flush = () => { if (run.length > 1) { ctx.beginPath(); ctx.moveTo(run[0][0], run[0][1]); run.forEach(q => ctx.lineTo(q[0], q[1])); for (let i = run.length - 1; i >= 0; i--) ctx.lineTo(run[i][0], run[i][2]); ctx.closePath(); ctx.fill(); } run = []; };
+    pts.forEach(q => q[3] ? run.push(q) : flush()); flush(); }
+  draw(lv, C.RED, 3); draw(ao, C.BLUE, 3); ctx.restore();
+  text('VI', x + w - 56, y + 56, 18, C.RED, 'bold'); text('Aorta', x + w - 70, y + 80, 18, C.BLUE, 'bold');
+}
+function ea(t) {
+  K.title('Estenosis aórtica: la sobrecarga de presión', 'Del gradiente a los síntomas, y por qué hay que operar', C.RED);
+  const gr = ease(seg(t, 6.5, 3.5));
+  pressCurves(40, 134, 760, 300, t, 0.62 * gr);
+  ctx.save(); ctx.globalAlpha = fade(t, 1, 6.2); tag('Válvula normal: sin gradiente', 420, 392, C.GREEN, 19); ctx.restore();
+  ctx.save(); ctx.globalAlpha = seg(t, 10, 0.6); tag('Gradiente medio ≥ 40 mmHg = severa', 420, 392, C.RED, 19); ctx.restore();
+  // barras de severidad
+  const a2 = seg(t, 10.5, 0.7);
+  ctx.save(); ctx.globalAlpha = a2; rrect(830, 134, 410, 300, 16, '#161B22');
+  K.bar(856, 180, 360, 'Velocidad pico', 4.3 * gr, 6, 'm/s', C.RED, [[4, '≥ 4,0']], v => v.toFixed(1));
+  K.bar(856, 262, 360, 'Gradiente medio', 48 * gr, 80, 'mmHg', C.RED, [[40, '≥ 40']]);
+  K.bar(856, 344, 360, 'Área valvular', 3 - 2.3 * gr, 4, 'cm²', C.RED, [[1.0, '≤ 1,0']], v => v.toFixed(1));
+  ctx.restore();
+  // hipertrofia concéntrica: esquema de pared que engrosa (gráfico, no órgano)
+  const sy = 0;
+  // curva de sobrevida (derecha abajo → centro abajo)
+  const a3 = seg(t, 15, 0.8);
+  ctx.save(); ctx.globalAlpha = a3; rrect(40, 450, 1200, 200, 16, '#161B22');
+  text('Sobrevida media sin cirugía desde el primer síntoma', 64, 482, 18, C.MUTED, 'bold');
+  const ev = [['Angina', '5 años', C.AMBER, 17.2], ['Síncope', '3 años', C.RED, 20.4], ['Disnea / IC', '2 años', C.VIOLET, 23.6]];
+  ev.forEach(([n, yrs, col, ta], k) => { const a = seg(t, ta, 0.8), x = 64 + k * 400, w = 360 * [1, 0.6, 0.4][k];
+    ctx.save(); ctx.globalAlpha = a; text(n, x, 530, 26, col, 'bold'); text(yrs, x + 330, 530, 26, col, 'bold', 'right');
+    rrect(x, 548, 360, 18, 9, '#222833'); rrect(x, 548, w * seg(t, ta, 1.4), 18, 9, col); ctx.restore(); });
+  text('Pulso parvus et tardus · soplo eyectivo irradiado a las carótidas · R2 apagado', 640, 624, 19, C.INK, 'bold', 'center');
+  ctx.restore();
+  K.banner(340, 660, 600, 'Con síntomas: reemplazo valvular (TAVI o cirugía)', C.GREEN, fade(t, 26, 40));
+}
+
+// ====================== cardio-24: insuficiencia aórtica ======================
+function ia(t) {
+  K.title('Insuficiencia aórtica: presión de pulso amplia', 'La sangre vuelve al ventrículo en diástole: la diastólica cae', C.BLUE);
+  const sev = ease(seg(t, 7, 4));              // 0 normal → 1 insuficiencia
+  const sys = lerp(0.60, 0.80, sev), dia = lerp(0.46, 0.14, sev), tr = lerp(0.55, 0.12, sev);
+  const ao = u => { if (u < 0.4) { const k = u < 0.11 ? 0 : Math.min(1, (u - 0.11) / lerp(0.15, 0.06, sev)); const rise = dia + (sys - dia) * Math.sin(k * Math.PI / 2); return u < 0.11 ? dia : (u < 0.30 ? rise : lerp(rise, sys - 0.1, (u - 0.30) / 0.1)); } const d = (u - 0.4) / 0.6; return lerp(sys - 0.1, dia, 1 - Math.exp(-d / tr)); };
+  rrect(40, 134, 760, 300, 14, '#161B22'); text('Presión aórtica', 56, 158, 16, C.MUTED, 'bold');
+  ctx.save(); ctx.beginPath(); ctx.rect(48, 164, 744, 264); ctx.clip();
+  const base = 420, amp = 280; ctx.strokeStyle = C.BLUE; ctx.lineWidth = 3.4; ctx.beginPath();
+  for (let px = 0; px <= 744; px += 1.5) { const tau = t + px / 330, u = (tau / T) % 1, X = 48 + px, Y = base - amp * ao(u); px === 0 ? ctx.moveTo(X, Y) : ctx.lineTo(X, Y); } ctx.stroke(); ctx.restore();
+  const S = Math.round(lerp(120, 170, sev)), D = Math.round(lerp(80, 40, sev));
+  rrect(830, 134, 410, 300, 16, '#161B22');
+  text('Presión arterial', 856, 172, 19, C.MUTED, 'bold'); text(`${S}/${D}`, 856, 238, 62, sev > 0.5 ? C.RED : C.GREEN, 'bold');
+  text(`Presión de pulso: ${S - D} mmHg`, 856, 284, 24, C.INK, 'bold');
+  ctx.save(); ctx.globalAlpha = seg(t, 11.5, 0.6); text('Normal: 40 mmHg · aquí > 100', 856, 322, 19, C.AMBER, 'bold');
+  text('Pulso de Corrigan: sube rápido y colapsa', 856, 372, 19, C.INK); text('Signo de Hill: poplítea > braquial en > 60', 856, 402, 19, C.INK); ctx.restore();
+  // signos periféricos
+  const sg = [['Corrigan', 'Pulso saltón, «martillo de agua»'], ['Musset', 'Cabeceo con cada latido'], ['Quincke', 'Pulso capilar en la uña'], ['Müller', 'Pulsación de la úvula'], ['Traube', 'Ruido de pistoletazo femoral'], ['Duroziez', 'Doble soplo al comprimir la femoral']];
+  sg.forEach((s, k) => { const x = 40 + (k % 3) * 405, y = 454 + Math.floor(k / 3) * 100, a = seg(t, 14 + k * 1.7, 0.6);
+    ctx.save(); ctx.globalAlpha = a; rrect(x, y, 390, 88, 14, '#161B22'); ctx.fillStyle = C.BLUE; ctx.fillRect(x, y, 6, 88);
+    text(s[0], x + 22, y + 38, 25, C.BLUE, 'bold'); text(s[1], x + 22, y + 68, 18, C.INK); ctx.restore(); });
+  K.banner(340, 660, 600, 'Soplo diastólico decreciente + presión divergente', C.AMBER, fade(t, 25.5, 40));
+}
+
+// ====================== cardio-25: estenosis mitral ======================
+function em(t) {
+  K.title('Estenosis mitral: el ritmo de Duroziez', 'Un orificio estrecho: gradiente diastólico, chasquido y retumbo', C.VIOLET);
+  const af = ease(seg(t, 21, 1.2));                // 0 ritmo sinusal → 1 fibrilación auricular
+  const gr = ease(seg(t, 0.5, 2));                 // gradiente AI-VI
+  // curvas de presión AI y VI en diástole
+  const la = u => 0.40 + 0.34 * gr * (u > 0.42 && u < 1 ? Math.exp(-(u - 0.42) / 0.5) : 0.2) + (u > 0.9 ? 0.1 * (1 - af) : 0);
+  const lv = u => u < 0.07 ? 0.10 : u < 0.40 ? 0.10 + 0.55 * Math.sin(Math.PI * (u - 0.07) / 0.33) : 0.10 + 0.14 * (1 - Math.exp(-(u - 0.40) / 0.3));
+  rrect(40, 134, 800, 190, 14, '#161B22'); text('Presión diastólica: aurícula izquierda (violeta) y ventrículo izquierdo (rojo)', 56, 158, 16, C.MUTED, 'bold');
+  ctx.save(); ctx.beginPath(); ctx.rect(48, 166, 784, 150); ctx.clip();
+  const bs = 310, am = 150, curve = (fn, col) => { ctx.strokeStyle = col; ctx.lineWidth = 3; ctx.beginPath(); for (let px = 0; px <= 784; px += 2) { const tau = t + px / 330, u = (tau / T) % 1, X = 48 + px, Y = bs - am * fn(u); px === 0 ? ctx.moveTo(X, Y) : ctx.lineTo(X, Y); } ctx.stroke(); };
+  ctx.fillStyle = 'rgba(179,136,255,0.22)'; ctx.beginPath(); { const p = []; for (let px = 0; px <= 784; px += 3) { const tau = t + px / 330, u = (tau / T) % 1; if (u > 0.42) p.push([48 + px, bs - am * la(u), bs - am * lv(u)]); else p.push(null); }
+    let run = []; const flush = () => { if (run.length > 1) { ctx.moveTo(run[0][0], run[0][1]); run.forEach(q => ctx.lineTo(q[0], q[1])); for (let i = run.length - 1; i >= 0; i--) ctx.lineTo(run[i][0], run[i][2]); ctx.closePath(); } run = []; };
+    p.forEach(q => q ? run.push(q) : flush()); flush(); } ctx.fill();
+  curve(lv, C.RED); curve(la, C.VIOLET); ctx.restore();
+  ctx.save(); ctx.globalAlpha = seg(t, 3, 0.6); tag('Gradiente diastólico AI → VI', 600, 214, C.VIOLET, 19); ctx.restore();
+  // fonocardiograma de EM (con o sin refuerzo presistólico)
+  const kind = (u, tau, cyc) => {
+    const n = noise(tau * 30);
+    const out = S1(u, 1.7) + snd(u, 0.40, 2600, 0.45, 0.01) + snd(u, 0.475, 2200, 0.28, 0.008)                       // R1 intenso, R2 y chasquido de apertura
+      + (u > 0.5 && u < 0.92 ? 0.17 * Math.exp(-(u - 0.5) / 0.22) * n : 0)                                          // retumbo
+      + (u > 0.88 && u < 1.0 ? (1 - af) * 0.2 * Math.sin((u - 0.88) / 0.12 * Math.PI) * n : 0);                      // refuerzo presistólico
+    return out; };
+  const pcgS = strip(40, 340, 800, 210, 'Fonocardiograma', t, kind, C.AMBER, { amp: 0.9, base: 0.5, lw: 2.2 });
+  [[0.06, 'R1 intenso', 538], [0.40, 'R2', 538], [0.475, 'Chasquido', 520], [0.70, 'Retumbo', 538], [0.94, 'Refuerzo', 520]].forEach(([u, s, yy]) => {
+    for (let k = 0; k < 3; k++) { const px = (Math.floor(t / T) * T + k * T + u * T - t) * pcgS.pps; if (px > 60 && px < 740 && (px % 264 + 264) % 264 >= 0 && k === 1) { ctx.save(); ctx.globalAlpha = s === 'Refuerzo' ? 1 - af : 1; text(s, 48 + px, yy, 14, s === 'Retumbo' ? C.AMBER : C.INK, 'bold', 'center'); ctx.restore(); } } });
+  // panel derecho
+  rrect(870, 134, 370, 416, 16, '#161B22');
+  const pts = [['R1 brillante', 'Valvas rígidas pero móviles'], ['Sístole limpia', 'Sin soplo'], ['Chasquido de apertura', 'Más cerca de R2 = más grave'], ['Retumbo diastólico', 'Ápex, decúbito lateral izq.']];
+  pts.forEach((p, k) => { const a = seg(t, 4 + k * 2.4, 0.6); ctx.save(); ctx.globalAlpha = a; text(p[0], 892, 176 + k * 54, 21, C.VIOLET, 'bold'); text(p[1], 892, 200 + k * 54, 16, C.INK); ctx.restore(); });
+  ctx.save(); ctx.globalAlpha = seg(t, 21, 0.6); rrect(886, 380, 338, 150, 12, '#232B37');
+  text('Fibrilación auricular', 906, 414, 22, C.RED, 'bold'); text('Desaparece el refuerzo presistólico', 906, 446, 17, C.INK);
+  text('Pulso irregular y deficitario', 906, 472, 17, C.INK); text('Anticoagular con acenocumarol', 906, 498, 17, C.AMBER, 'bold'); text('(INR 2-3; no anticoagulantes directos)', 906, 520, 15, C.MUTED); ctx.restore();
+  K.banner(240, 640, 800, 'Wilkins ≤ 8, sin trombo ni IM: valvuloplastía con balón (Inoue)', C.GREEN, fade(t, 27.5, 40));
+}
+
+// ====================== cardio-26: prolapso mitral ======================
+function prolapso(t) {
+  K.title('Prolapso mitral: el clic que se mueve', 'Clic mesosistólico + soplo telesistólico; las maniobras lo desplazan', C.GREEN);
+  // fase: 0 base (0-7), Valsalva (7-16), cuclillas (16-25), cierre (25-)
+  const val = seg(t, 7, 1.5) * (1 - seg(t, 15.2, 1.5)), sq = seg(t, 16.5, 1.5) * (1 - seg(t, 24.2, 1.5));
+  const clic = 0.24 - 0.10 * val + 0.06 * sq, mEnd = 0.395;
+  const fn = (u, tau) => S1(u) + S2(u) + snd(u, clic, 3600, 0.9, 0.006) + (u > clic + 0.02 && u < mEnd ? 0.32 * (0.5 + 0.5 * Math.sin((u - clic) / (mEnd - clic) * Math.PI * 0.5)) * noise(tau * 30) : 0);
+  strip(40, 134, 800, 130, 'ECG', t, ecgBeat, C.GREEN, { amp: 0.34 });
+  const p = strip(40, 280, 800, 250, 'Fonocardiograma', t, fn, C.GREEN, { amp: 0.9, base: 0.5, lw: 2.2 });
+  [[0.06, 'R1', C.AMBER], [0.40, 'R2', C.AMBER]].forEach(([u, s, col]) => { for (let k = 0; k < 3; k++) { const px = (Math.floor(t / T) * T + k * T + u * T - t) * p.pps; if (px > 20 && px < 770) text(s, 48 + px, 520, 15, col, 'bold', 'center'); } });
+  for (let k = 0; k < 3; k++) { const px = (Math.floor(t / T) * T + k * T + clic * T - t) * p.pps; if (px > 20 && px < 770) tag('clic', 48 + px, 330, C.GREEN, 16); }
+  rrect(870, 134, 370, 396, 16, '#161B22');
+  const rows = [['Basal', 'Clic en la mitad de la sístole', C.INK, 0], ['Valsalva o de pie', 'Menos volumen del VI: el clic se ADELANTA y el soplo se alarga', C.AMBER, val], ['Cuclillas', 'Más volumen del VI: el clic se RETRASA y el soplo se acorta', C.BLUE, sq]];
+  rows.forEach((r, k) => { const y = 160 + k * 120, on = k === 0 ? 1 - Math.max(val, sq) : r[3];
+    rrect(884, y, 342, 106, 12, on > 0.5 ? '#232B37' : '#1B2029'); text(r[0], 902, y + 34, 22, on > 0.5 ? r[2] : '#7E8794', 'bold');
+    const w = r[1].match(/.{1,32}(\s|$)/g) || [r[1]]; w.slice(0, 3).forEach((l, i) => text(l.trim(), 902, y + 60 + i * 20, 16, on > 0.5 ? C.INK : '#5B6573')); });
+  K.banner(240, 560, 800, 'Mujer joven con palpitaciones: eco, tranquilizar; betabloqueador si hay síntomas', C.GREEN, fade(t, 25.5, 40));
+  ctx.save(); ctx.globalAlpha = fade(t, 8, 16); text('Igual que la miocardiopatía hipertrófica: aumenta con Valsalva', 640, 624, 20, C.AMBER, 'bold', 'center'); ctx.restore();
+}
+
+// ====================== cardio-27: desdoblamiento del R2 ======================
+function cia(t) {
+  K.title('CIA: el desdoblamiento que no cambia', 'R2 = cierre aórtico (A2) + cierre pulmonar (P2): la respiración los separa, salvo en la CIA', C.AMBER);
+  const resp = Math.sin(t * 2 * Math.PI / 4) * 0.5 + 0.5;       // 0 espiración, 1 inspiración (período 4 s)
+  const panel = (y, title, fixed, col, a) => {
+    ctx.save(); ctx.globalAlpha = a; rrect(40, y, 900, 196, 14, '#161B22'); text(title, 58, y + 28, 19, col, 'bold');
+    const sp = fixed ? 0.085 : 0.02 + 0.07 * resp;                // intervalo A2-P2 (fracción del ciclo)
+    const fn = (u, tau) => { const ph = Math.sin(tau * 2 * Math.PI / 4) * 0.5 + 0.5; const s = fixed ? 0.085 : 0.02 + 0.07 * ph; return S1(u) + snd(u, 0.40, 2600, 0.7, 0.01) + snd(u, 0.40 + s, 2000, 0.55, 0.01); };
+    strip(48, y + 36, 884, 152, '', t, fn, col, { amp: 0.8, base: 0.55, lw: 2.2 });
+    ctx.restore(); };
+  panel(130, 'Normal: se separan al inspirar (desdoblamiento fisiológico)', false, C.GREEN, seg(t, 0.2, 0.6));
+  panel(342, 'CIA: desdoblamiento amplio y FIJO (no varía con la respiración)', true, C.AMBER, seg(t, 5, 0.8));
+  // indicador de respiración
+  rrect(970, 130, 270, 196, 14, '#161B22'); text('Respiración', 990, 160, 19, C.MUTED, 'bold');
+  const ry = 280 - 90 * resp; ctx.fillStyle = C.BLUE; ctx.beginPath(); ctx.arc(1105, ry, 26, 0, 7); ctx.fill();
+  text(resp > 0.5 ? 'Inspiración' : 'Espiración', 1105, 316, 17, C.INK, 'bold', 'center');
+  // causa
+  rrect(970, 342, 270, 196, 14, '#161B22'); const a = seg(t, 9, 0.8);
+  ctx.save(); ctx.globalAlpha = a; text('Por qué', 990, 372, 19, C.AMBER, 'bold'); ['Más volumen en el VD:', 'P2 se retrasa. En la', 'inspiración el cortocircuito', 'baja y compensa el mayor', 'retorno: el intervalo', 'no cambia.'].forEach((l, i) => text(l, 990, 400 + i * 22, 16, C.INK)); ctx.restore();
+  const items = [['Soplo eyectivo en foco pulmonar', 'Por hiperflujo, no por el shunt'], ['ECG: rSR\' en V1', 'Bloqueo incompleto de rama derecha'], ['Cierre percutáneo', 'Amplatzer si hay sobrecarga o Qp:Qs > 1,5']];
+  items.forEach((it, k) => { const x = 40 + k * 405, tt = 14 + k * 3.2; ctx.save(); ctx.globalAlpha = seg(t, tt, 0.6); rrect(x, 560, 390, 90, 14, '#161B22'); ctx.fillStyle = C.AMBER; ctx.fillRect(x, 560, 6, 90);
+    text(it[0], x + 22, 598, 21, C.AMBER, 'bold'); text(it[1], x + 22, 630, 17, C.INK); ctx.restore(); });
+}
+
+// ====================== cardio-28: criterios de Duke del caso clínico ======================
+function duke(t) {
+  K.title('Endocarditis: los criterios de Duke, uno a uno', 'Portador de prótesis aórtica con fiebre de 3 semanas y soplo diastólico nuevo', C.RED);
+  const items = [
+    ['MAYOR', '3 hemocultivos positivos (cocáceas en cadena)', 'Tomados ANTES del antibiótico, de sitios distintos', C.RED, 3],
+    ['MAYOR', 'Regurgitación valvular nueva (soplo + eco)', 'Ecocardiograma: transtorácico y transesofágico', C.RED, 8],
+    ['menor', 'Predisposición: prótesis valvular', 'Alto riesgo de endocarditis', C.AMBER, 13],
+    ['menor', 'Fiebre ≥ 38 °C', 'Fiebre vespertina de 3 semanas', C.AMBER, 16],
+    ['menor', 'Fenómeno inmunológico: nódulos de Osler', 'Dolorosos, en la pulpa de los dedos', C.AMBER, 19],
+    ['menor', 'Fenómeno vascular: hemorragias en astilla', 'Subungueales', C.AMBER, 22],
+  ];
+  let mayor = 0, menor = 0;
+  items.forEach((it, k) => { const a = seg(t, it[4], 0.6); if (a > 0.5) (it[0] === 'MAYOR' ? mayor++ : menor++);
+    const y = 134 + k * 78; ctx.save(); ctx.globalAlpha = a; rrect(40, y, 800, 68, 14, '#161B22'); ctx.fillStyle = it[3]; ctx.fillRect(40, y, 7, 68);
+    text(it[0], 64, y + 28, 15, it[3], 'bold'); text(it[1], 64, y + 52, 21, C.INK, 'bold'); text(it[2], 830, y + 26, 15, C.MUTED, '', 'right'); ctx.restore(); });
+  rrect(870, 134, 370, 458, 16, '#161B22');
+  text('Criterios mayores', 892, 180, 20, C.MUTED, 'bold'); text(String(mayor), 892, 250, 80, C.RED, 'bold'); text('de 2', 960, 250, 28, C.MUTED);
+  text('Criterios menores', 892, 320, 20, C.MUTED, 'bold'); text(String(menor), 892, 390, 80, C.AMBER, 'bold'); text('de 5', 960, 390, 28, C.MUTED);
+  const done = seg(t, 24.5, 0.7);
+  ctx.save(); ctx.globalAlpha = done; rrect(886, 430, 338, 140, 12, '#232B37'); text('ENDOCARDITIS DEFINIDA', 905, 470, 22, C.GREEN, 'bold');
+  text('2 mayores (o 1 mayor + 3 menores,', 905, 502, 17, C.INK); text('o 5 menores)', 905, 524, 17, C.INK); text('Penicilina o ceftriaxona 6 semanas', 905, 554, 16, C.AMBER, 'bold'); ctx.restore();
+  K.banner(240, 612, 800, 'Pudo evitarse: amoxicilina 2 g, 30 a 60 min antes de la extracción dental', C.GREEN, fade(t, 27, 40));
+}
+
+const SCN = { soplos: { f: soplos, dur: 40 }, ea: { f: ea, dur: 32 }, ia: { f: ia, dur: 30 }, em: { f: em, dur: 34 }, prolapso: { f: prolapso, dur: 30 }, cia: { f: cia, dur: 28 }, duke: { f: duke, dur: 32 } };
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t);
+  ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(700, 696, 580, 24); text(CRED, 1268, 712, 13, C.MUTED, '', 'right');
+};
+LOAD({});
+</script>
+</body></html>

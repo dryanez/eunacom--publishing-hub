@@ -12,7 +12,7 @@ const fs = require('fs');
 const path = require('path');
 
 const SPECIALTIES = [
-  { key: 'cardiologia', ch: '01', title: 'Cardiología', file: 'master_cardiology_23_full_dataset.cjs', prop: 'master23ClassesFullData' },
+  { key: 'cardiologia', ch: '01', title: 'Cardiología', file: 'dataset_cardiologia.cjs', prop: 'cardiologiaClasses' },
   { key: 'infectologia', ch: '02', title: 'Infectología', file: 'dataset_infectologia.cjs', prop: 'infectologiaClasses' },
   { key: 'gastroenterologia', ch: '03', title: 'Gastroenterología', file: 'dataset_gastroenterologia.cjs', prop: 'gastroenterologiaClasses' },
   { key: 'neumologia', ch: '04', title: 'Respiratorio', file: 'dataset_neumologia.cjs', prop: 'neumologiaClasses' },

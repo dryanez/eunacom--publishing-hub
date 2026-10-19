@@ -1,0 +1,348 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Cardiología, bloque 1 «Arritmias y Paro» (cardio-01 … cardio-09). Gráficos de código (trazados ECG animados).
+//   ?v=lectura    cardio-01 A1: lectura de un latido normal, regla de los 300, intervalos PR / QRS / QT
+//   ?v=rcp        cardio-02 A1: compresiones de calidad (Blausen, rótulos propios), ciclo 30:2 y relevo cada 2 min
+//   ?v=acls       cardio-03 A1: FV → descarga 200 J → RCP 2 min → adrenalina → amiodarona; asistolia: no se descarga
+//   ?v=fa_flutter cardio-04 A1: ritmo sinusal vs fibrilación auricular vs flutter 2:1
+//   ?v=cha2ds2    cardio-05 A1: puntaje CHA2DS2-VASc de una paciente y elección del anticoagulante
+//   ?v=tpsv       cardio-06 A1: circuito de reentrada nodal, inicio y término de la TPSV con adenosina
+//   ?v=tv         cardio-07 A1: TV de QRS ancho, cardioversión sincronizada y torsión de puntas
+//   ?v=bav        cardio-08 A1: bloqueo AV de 1.º, Mobitz I, Mobitz II y completo
+//   ?v=holter     cardio-09 A1: Holter de 24 horas, carga de extrasístoles ventriculares
+const V = new URLSearchParams(location.search).get('v') || 'lectura';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const g = (x, m, w) => Math.exp(-((x - m) * (x - m)) / (2 * w * w));
+const cred = n => `Gráfico propio · criterios del Manual EUNACOM de Cardiología, tema 1.${n}`;
+
+// ---------- motor de ECG: una señal a partir de eventos auriculares (P) y ventriculares (QRS+T) ----------
+const evs = (a, b, rr) => { const r = []; for (let t = a; t <= b; t += rr) r.push(t); return r; };
+const irreg = (a, b, mean, seed) => { const r = []; let t = a, i = 0; while (t <= b) { r.push(t); t += mean * (0.55 + 0.9 * rnd(seed + i++)); } return r; };
+const P = (d, a = 1) => 0.13 * a * g(d, 0, 0.028);
+const QRS = d => 1.0 * g(d, 0, 0.010) - 0.12 * g(d, -0.030, 0.008) - 0.22 * g(d, 0.030, 0.010);
+const TW = (d, a = 1) => 0.30 * a * g(d, 0.22, 0.045);
+const WIDE = (d, s = 1) => s * (0.95 * g(d, 0, 0.040) - 0.40 * g(d, 0.085, 0.045) - 0.30 * g(d, 0.30, 0.075));
+function sig(tau, o) {                     // o: {A:[tP], V:[tR], W:[tR anchos], F: fn(tau) ondas de línea de base, pa}
+  let y = 0;
+  if (o.A) for (const t of o.A) { const d = tau - t; if (d > -0.15 && d < 0.15) y += P(d, o.pa == null ? 1 : o.pa); }
+  if (o.V) for (const t of o.V) { const d = tau - t; if (d > -0.1 && d < 0.5) y += QRS(d) + TW(d, o.ta == null ? 1 : o.ta); }
+  if (o.W) for (const t of o.W) { const d = tau - t; if (d > -0.2 && d < 0.6) y += WIDE(d, o.ws == null ? 1 : o.ws); }
+  if (o.F) y += o.F(tau);
+  return y;
+}
+function strip(x, y, w, h, t, o, opt = {}) {
+  const secs = opt.secs || 5, col = opt.col || C.GREEN, a = opt.a == null ? 1 : opt.a;
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  rrect(x, y, w, h, 14, '#161B22');
+  if (opt.label) text(opt.label, x + 18, y + 26, 17, opt.lcol || C.MUTED, 'bold');
+  ctx.save(); ctx.beginPath(); ctx.rect(x + 8, y + 34, w - 16, h - 40); ctx.clip();
+  ctx.strokeStyle = '#2A1F25'; ctx.lineWidth = 1;
+  const px = w / (secs / 0.04);                       // 1 mm = 0,04 s
+  for (let gx = x + 8; gx < x + w; gx += px * 5) { ctx.beginPath(); ctx.moveTo(gx, y + 34); ctx.lineTo(gx, y + h); ctx.stroke(); }
+  const base = y + 34 + (h - 40) * 0.64, amp = (h - 40) * 0.5;
+  for (let gy = base % (px * 5) + y + 34; gy < y + h; gy += px * 5) { ctx.beginPath(); ctx.moveTo(x, gy); ctx.lineTo(x + w, gy); ctx.stroke(); }
+  ctx.strokeStyle = col; ctx.lineWidth = 3; ctx.lineJoin = 'round'; ctx.beginPath();
+  const t0 = t - secs, step = 2;
+  for (let q = 8; q <= w - 8; q += step) {
+    const tau = t0 + (q - 8) / (w - 16) * secs;
+    const Y = base - amp * sig(tau, o) * (opt.gain || 1);
+    q === 8 ? ctx.moveTo(x + q, Y) : ctx.lineTo(x + q, Y);
+  }
+  ctx.stroke(); ctx.restore(); ctx.restore();
+  return { X: tau => x + 8 + (tau - (t - secs)) / secs * (w - 16), base, amp };
+}
+function flash(t, t0, col = '255,255,255') { const k = seg(t, t0, 0.12) * (1 - seg(t, t0 + 0.12, 0.5)); if (k > 0) { ctx.fillStyle = `rgba(${col},${0.5 * k})`; ctx.fillRect(0, 0, 1280, 720); } }
+function bracket(X1, X2, y, lab, col, a = 1) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.strokeStyle = col; ctx.lineWidth = 3;
+  ctx.beginPath(); ctx.moveTo(X1, y - 8); ctx.lineTo(X1, y + 8); ctx.moveTo(X1, y); ctx.lineTo(X2, y); ctx.moveTo(X2, y - 8); ctx.lineTo(X2, y + 8); ctx.stroke();
+  tag(lab, (X1 + X2) / 2, y + 28, col, 15); ctx.restore();
+}
+function arrowP(X, y, col, a = 1) { if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.fillStyle = col; ctx.beginPath(); ctx.moveTo(X, y + 12); ctx.lineTo(X - 8, y); ctx.lineTo(X + 8, y); ctx.closePath(); ctx.fill(); ctx.restore(); }
+function stepList(x, y, w, items, t, times, col) {
+  const cur = times.filter(a => t >= a).length - 1;
+  items.forEach((s, i) => {
+    const on = i === cur, done = i < cur, yy = y + i * 58;
+    ctx.save(); ctx.globalAlpha = seg(t, times[i] - 0.2, 0.5) * (t >= times[i] - 0.2 ? 1 : 0);
+    rrect(x, yy, w, 50, 12, on ? '#232B37' : '#161B22');
+    ctx.fillStyle = on ? col : (done ? '#5B6573' : '#343C48'); ctx.beginPath(); ctx.arc(x + 26, yy + 25, 11, 0, 7); ctx.fill();
+    text(String(i + 1), x + 26, yy + 31, 15, C.BG, 'bold', 'center');
+    text(s, x + 52, yy + 32, 18, on ? C.INK : '#7E8794', on ? 'bold' : '');
+    ctx.restore();
+  });
+}
+
+// ====================== cardio-01: lectura sistemática ======================
+const RR1 = 0.8;                                   // 75 lpm
+const N1 = { A: evs(-1, 40, RR1).map(t => t - 0.16 + 0.0), V: evs(-1, 40, RR1) };
+function lectura(t) {
+  K.title('Lectura sistemática del ECG', 'Siempre en el mismo orden: frecuencia, ritmo, eje, intervalos, ST-T', C.GREEN);
+  const sx = 40, sy = 135, sw = 780, sh = 330, secs = 4.4;
+  const S = strip(sx, sy, sw, sh, t + 3, N1, { secs, label: 'Derivación II · 25 mm/s', gain: 1.15 });
+  const tau = (tt) => tt;                             // helper
+  const now = t + 3, last = Math.floor((now - 0.45) / RR1) * RR1, prev = last - RR1;
+  const step = t < 4 ? 0 : t < 9 ? 1 : t < 14 ? 2 : t < 20 ? 3 : t < 26 ? 4 : 5;
+  const yb = S.base + 30;
+  // 1. frecuencia: R-R de 4 cuadros grandes
+  if (step === 1) {
+    bracket(S.X(prev), S.X(last), sy + 70, 'R-R = 4 cuadros grandes', C.AMBER, seg(t, 4.2, 0.5));
+    ctx.save(); ctx.globalAlpha = step === 1 ? seg(t, 6, 0.5) : 0; tag('300 ÷ 4 = 75 lpm', 640, 190, C.AMBER, 22); ctx.restore();
+  }
+  // 2. ritmo: una P por cada QRS
+  if (step === 2) { ctx.save(); ctx.globalAlpha = seg(t, 9.2, 0.5); [last, prev, last - 2 * RR1].forEach(tr => { arrowP(S.X(tr - 0.16), S.base - 70, C.BLUE); tag('P', S.X(tr - 0.16), S.base - 90, C.BLUE, 15); });
+    tag('Una P por cada QRS · R-R constante', 430, 190, C.BLUE, 20); ctx.restore(); }
+  // 3. eje
+  if (step === 3) { ctx.save(); ctx.globalAlpha = seg(t, 14.2, 0.5);
+    rrect(150, 150, 520, 120, 16, '#1B2230');
+    text('DI positivo  +  aVF positivo', 410, 195, 26, C.INK, 'bold', 'center'); text('Eje normal (−30° a +90°)', 410, 238, 22, C.GREEN, 'bold', 'center'); ctx.restore(); }
+  // 4. intervalos
+  if (step >= 4) { const a = step === 4 ? seg(t, 20.2, 0.5) : 0.9;
+    bracket(S.X(last - 0.20), S.X(last - 0.04), yb + 20, 'PR 160 ms', C.BLUE, a);
+    bracket(S.X(last - 0.04), S.X(last + 0.04), yb + 76, 'QRS 80 ms', C.VIOLET, a);
+    bracket(S.X(last - 0.04), S.X(last + 0.35), yb + 132, 'QT 380 ms · QTc 410 ms', C.AMBER, a); }
+  // 5. ST-T
+  if (step >= 5) { ctx.save(); ctx.globalAlpha = seg(t, 26.2, 0.5); tag('ST isoeléctrico · T positiva', S.X(last + 0.22), S.base - 150, C.GREEN, 17); ctx.restore(); }
+  stepList(850, 135, 390, ['1. Frecuencia', '2. Ritmo', '3. Eje del QRS', '4. Intervalos', '5. Segmento ST, T y onda Q'], t, [3.5, 8.5, 13.5, 19.5, 25.5], C.GREEN);
+  K.banner(850, 440, 390, 'PR 120-200 · QRS < 120 · QTc < 440/460', C.AMBER, seg(t, 20, 0.6));
+  ctx.save(); ctx.globalAlpha = fade(t, 1, 27, 0.6); text('1 cuadro pequeño = 0,04 s · 1 cuadro grande = 0,2 s', 40, 480, 19, C.MUTED); ctx.restore();
+  K.card(40, 600, 1200, 100, C.AMBER, 'No saltarse pasos', ['El error del examen: ir directo al infarto y no ver el QT largo, la hiperkalemia o la preexcitación.'], seg(t, 27.5, 0.6), 19);
+}
+
+// ====================== cardio-02: RCP de alta calidad ======================
+function rcp(t) {
+  K.title('RCP de alta calidad', 'Compresiones en la mitad inferior del esternón, sin pausas largas', C.RED);
+  const la = seg(t, 0, 0.6); ctx.save(); ctx.globalAlpha = la; rrect(34, 124, 724, 450, 18, '#FFFFFF');
+  ctx.beginPath(); ctx.roundRect(40, 130, 712, 438, 12); ctx.clip(); ctx.drawImage(window.IMGS.cpr, 40, 130, 712, 445); ctx.restore();
+  const per = 60 / 110, running = t > 2 && t < 24;                          // 110 por minuto
+  const ph = running ? ((t - 2) % per) / per : 0, dep = running ? Math.pow(Math.sin(Math.PI * Math.min(ph * 1.6, 1)), 2) : 0;
+  // flecha de compresión sobre el tórax
+  if (running) { ctx.save(); ctx.strokeStyle = C.RED; ctx.fillStyle = C.RED; ctx.lineWidth = 6; const ax = 440, ay = 205 + dep * 34;
+    ctx.beginPath(); ctx.moveTo(ax, ay - 70); ctx.lineTo(ax, ay - 8); ctx.stroke(); ctx.beginPath(); ctx.moveTo(ax - 16, ay - 14); ctx.lineTo(ax, ay + 6); ctx.lineTo(ax + 16, ay - 14); ctx.fill(); ctx.restore(); }
+  const n = running ? Math.floor((t - 2) / per) : 0, inCycle = n % 32, vent = inCycle >= 30;
+  // panel derecho
+  const x0 = 790;
+  K.card(x0, 124, 450, 120, C.RED, 'Frecuencia 100-120 / min', [`Ahora: 110 por minuto`], seg(t, 1.5, 0.5), 20);
+  // medidor de profundidad
+  ctx.save(); ctx.globalAlpha = seg(t, 2, 0.5);
+  rrect(x0, 260, 450, 150, 16, '#161B22'); text('Profundidad', x0 + 20, 292, 21, C.AMBER, 'bold'); const bx = x0 + 20, bw = 410;
+  rrect(bx, 312, bw, 22, 11, '#222833'); ctx.fillStyle = 'rgba(61,220,132,0.35)'; ctx.fillRect(bx + bw * 5 / 7, 312, bw * 1 / 7, 22);
+  rrect(bx, 312, bw * (running ? (vent ? 0 : 0.25 + 0.5 * dep) * 1 + (vent ? 0 : 0) : 0), 22, 11, dep > 0.7 ? C.GREEN : C.AMBER);
+  text('0', bx, 362, 15, C.MUTED); text('5 cm', bx + bw * 5 / 7, 362, 15, C.GREEN, 'bold', 'center'); text('6 cm', bx + bw * 6 / 7, 362, 15, C.MUTED, '', 'center');
+  text('Al menos 5 cm, sin pasar de 6; dejar re-expandir el tórax', x0 + 20, 392, 16, C.INK); ctx.restore();
+  // ciclo 30:2
+  ctx.save(); ctx.globalAlpha = seg(t, 3, 0.5); rrect(x0, 426, 450, 148, 16, '#161B22');
+  text('Ciclo 30 : 2', x0 + 20, 458, 21, C.BLUE, 'bold');
+  text(vent ? `Ventilar ×${inCycle - 29}` : `Compresión ${Math.min(inCycle + 1, 30)} / 30`, x0 + 430, 458, 21, vent ? C.GREEN : C.INK, 'bold', 'right');
+  for (let i = 0; i < 32; i++) { const cx = x0 + 22 + (i % 16) * 26, cy = 484 + Math.floor(i / 16) * 36; ctx.fillStyle = i < inCycle ? (i >= 30 ? C.GREEN : C.RED) : '#2A2F38'; ctx.beginPath(); ctx.arc(cx, cy, 9, 0, 7); ctx.fill(); }
+  text('Interrupciones < 10 s', x0 + 20, 556, 16, C.MUTED); ctx.restore();
+  // reloj de 2 minutos y DEA
+  const clk = t < 14 ? 0 : t < 24 ? (t - 14) / 10 : 1;
+  K.banner(40, 590, 360, `Relevo cada 2 min  ${Math.round(clk * 100)}%`, clk >= 1 ? C.GREEN : C.AMBER, seg(t, 13, 0.6));
+  K.banner(420, 590, 340, 'DEA: parches y analizar', C.BLUE, seg(t, 17, 0.6));
+  K.banner(790, 590, 450, 'Descarga y RCP de inmediato 2 min', C.RED, seg(t, 21, 0.6));
+  K.card(40, 640, 1200, 60, C.RED, '', [], 0, 1);
+}
+
+// ====================== cardio-03: ACLS ======================
+function fvSig(tau) { return 0.45 * Math.sin(tau * 31) * (0.6 + 0.4 * Math.sin(tau * 5.3)) + 0.25 * Math.sin(tau * 47 + 1.3) + 0.15 * Math.sin(tau * 19.7); }
+function acls(t) {
+  K.title('Ritmo desfibrilable: FV', 'Descarga → RCP 2 min → adrenalina → descarga → amiodarona', C.RED);
+  const shocks = [5, 15, 25], rce = 33;
+  let o;
+  if (t < shocks[0]) o = { F: fvSig };
+  else if (t < rce) o = { F: tau => fvSig(tau) * (tau < 0 ? 1 : 1) };
+  else o = { A: evs(rce - 2, 60, 0.85).map(a => a - 0.16), V: evs(rce - 2, 60, 0.85).filter(v => v > rce + 0.4) };
+  // los trazos después de una descarga mantienen FV hasta el RCE (compresiones = artefacto)
+  const comp = (tau) => { let a = 0; for (const [s0, s1] of [[shocks[0] + 0.7, shocks[1] - 1.2], [shocks[1] + 0.7, shocks[2] - 1.2], [shocks[2] + 0.7, rce - 1]]) if (tau > s0 && tau < s1) a += 0.55 * Math.pow(Math.sin(Math.PI * ((tau - s0) % 0.545) / 0.545), 2); return a; };
+  const fn = tau => tau < rce - 0.2 ? (tau > shocks[0] + 0.7 ? comp(tau) + 0.35 * fvSig(tau) : fvSig(tau)) : sig(tau, { A: evs(rce, 80, 0.85).map(a => a - 0.16), V: evs(rce, 80, 0.85) });
+  strip(40, 130, 1200, 250, t, { F: fn }, { secs: 6, col: t >= rce ? C.GREEN : C.RED, label: t >= rce ? 'Ritmo organizado con pulso: retorno de circulación' : (t < shocks[0] ? 'Fibrilación ventricular (sin pulso)' : 'Después de la descarga: compresiones continuas'), lcol: t >= rce ? C.GREEN : C.RED });
+  shocks.forEach(s => flash(t, s, '255,255,255'));
+  // línea de tiempo
+  const x0 = 40, w = 1200, y = 430; const X = tt => x0 + (tt / 40) * w;
+  rrect(x0, y - 36, w, 130, 16, '#161B22');
+  ctx.strokeStyle = '#3A4350'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x0 + 20, y + 30); ctx.lineTo(x0 + w - 20, y + 30); ctx.stroke();
+  [[shocks[0], 'Descarga 200 J', C.RED, ''], [shocks[1], 'Descarga + adrenalina 1 mg', C.AMBER, ''], [shocks[2], 'Descarga + amiodarona 300 mg', C.VIOLET, '']].forEach(([s, lab, col]) => {
+    const a = seg(t, s - 0.2, 0.4); ctx.save(); ctx.globalAlpha = a; ctx.fillStyle = col; ctx.beginPath(); ctx.arc(X(s), y + 30, 13, 0, 7); ctx.fill();
+    text(lab, X(s), y - 6, 17, col, 'bold', 'center'); text(`min ${Math.round(((s - 5) / 10) * 2)}`, X(s), y + 68, 15, C.MUTED, '', 'center'); ctx.restore(); });
+  ctx.save(); ctx.globalAlpha = seg(t, shocks[0] + 1, 0.5) * (t < rce ? 1 : 0.5); text('RCP 2 minutos entre cada análisis, sin buscar pulso', 640, y + 118, 20, C.INK, 'bold', 'center'); ctx.restore();
+  K.banner(40, 560, 580, 'Asistolia / AESP: NO se descarga', C.RED, seg(t, 36, 0.6));
+  K.banner(660, 560, 580, 'RCP + adrenalina 1 mg + causas (5H y 5T)', C.AMBER, seg(t, 36.8, 0.6));
+  K.banner(40, 626, 1200, 'Después del retorno: SpO₂ 92-98% · PAM ≥ 65 · ECG y coronariografía si hay SDST · pronóstico a las 72 h', C.GREEN, seg(t, 34, 0.6));
+}
+
+// ====================== cardio-04: FA y flutter ======================
+function fa_flutter(t) {
+  K.title('Tres ritmos, tres firmas', 'Ritmo sinusal · fibrilación auricular · flutter con conducción 2:1', C.AMBER);
+  const sin = { A: evs(-1, 60, 0.85).map(a => a - 0.16), V: evs(-1, 60, 0.85) };
+  const fa = { V: irreg(-1, 60, 0.46, 7), F: tau => 0.07 * Math.sin(tau * 61) + 0.05 * Math.sin(tau * 83 + 2) + 0.025 * Math.sin(tau * 37) };
+  const flF = tau => 0.30 * (((tau * 5) % 1) < 0.85 ? 1 - ((tau * 5) % 1) / 0.85 * 1.6 : -0.6 + ((tau * 5) % 1 - 0.85) / 0.15 * 0.6);   // dientes de sierra, 300/min
+  const fl = { V: evs(-1, 60, 0.4).map(a => a + 0.03), F: flF, ta: 0.4 };
+  const tt = t + 2;
+  strip(40, 130, 800, 150, tt, sin, { label: 'Ritmo sinusal: P antes de cada QRS, R-R regular', lcol: C.GREEN, col: C.GREEN, a: seg(t, 0.3, 0.6), gain: 1.1 });
+  strip(40, 296, 800, 150, tt, fa, { label: 'Fibrilación auricular: sin P, ondas f, R-R irregular', lcol: C.RED, col: C.RED, a: seg(t, 8, 0.6), gain: 1.1 });
+  strip(40, 462, 800, 150, tt, fl, { label: 'Flutter 2:1: dientes de sierra a 300/min, 150 lpm regular', lcol: C.AMBER, col: C.AMBER, a: seg(t, 16, 0.6), gain: 1.1 });
+  K.card(870, 130, 370, 150, C.GREEN, 'Sinusal', ['P positiva en DII', 'FC 70 · R-R constante'], seg(t, 1, 0.5), 18);
+  K.card(870, 296, 370, 150, C.RED, 'FA', ['Arritmia completa', 'Anticoagular · ritmo vs frecuencia'], seg(t, 9, 0.5), 18);
+  K.card(870, 462, 370, 150, C.AMBER, 'Flutter', ['Ondas F en DII, DIII, aVF', 'Maniobra vagal las deja ver'], seg(t, 17, 0.5), 18);
+  K.banner(40, 640, 1200, 'FC 150 regular con QRS estrecho: pensar en flutter 2:1, no en taquicardia sinusal', C.BLUE, seg(t, 23, 0.6));
+}
+
+// ====================== cardio-05: CHA2DS2-VASc ======================
+function cha2ds2(t) {
+  K.title('¿A quién se anticoagula?', 'Puntaje CHA₂DS₂-VASc de una paciente con FA no valvular', C.AMBER);
+  const items = [['C', 'Insuficiencia cardíaca', 1, false], ['H', 'Hipertensión arterial', 1, true], ['A₂', 'Edad ≥ 75 años (76)', 2, true], ['D', 'Diabetes mellitus', 1, true], ['S₂', 'ACV / AIT previo', 2, false], ['V', 'Enfermedad vascular', 1, false], ['A', 'Edad 65-74 años', 1, false], ['Sc', 'Sexo femenino', 1, true]];
+  const t0 = 2, dt = 2.2; let total = 0;
+  rrect(40, 130, 620, 520, 18, '#161B22');
+  text('Mujer de 76 años con FA crónica', 62, 166, 22, C.INK, 'bold');
+  items.forEach(([k, lab, pt, yes], i) => {
+    const y = 192 + i * 52, a = seg(t, t0 + i * dt, 0.5); if (a <= 0) return;
+    ctx.save(); ctx.globalAlpha = a; rrect(60, y, 580, 44, 10, yes ? '#1F2A22' : '#1B1F27');
+    tag(k, 100, y + 22, yes ? C.GREEN : '#4A5360', 17); text(lab, 140, y + 29, 19, yes ? C.INK : C.MUTED, yes ? 'bold' : '');
+    text(yes ? `+${pt}` : '0', 616, y + 30, 22, yes ? C.GREEN : '#5B6573', 'bold', 'right'); ctx.restore();
+    if (yes && t >= t0 + i * dt + 0.5) total += pt;
+  });
+  const big = Math.round(total);
+  rrect(700, 130, 540, 150, 18, '#161B22'); text('Puntaje', 730, 172, 24, C.MUTED, 'bold'); text(String(big), 1130, 262, 110, big >= 3 ? C.RED : C.AMBER, 'bold', 'right');
+  const dec = seg(t, 21, 0.6);
+  K.card(700, 300, 540, 120, C.GREEN, 'Mujer ≥ 3 · Hombre ≥ 2', ['Anticoagulación oral permanente'], dec, 20);
+  K.card(700, 436, 540, 120, C.BLUE, 'Elección: ACOD de 1.ª línea', ['Apixabán 5 mg c/12 h (ajustar si 2 criterios)'], seg(t, 23.5, 0.5), 19);
+  K.card(700, 572, 540, 108, C.RED, 'Válvula mecánica o estenosis mitral', ['Acenocumarol/warfarina, INR 2-3 (2,5-3,5 mitral mecánica)'], seg(t, 26, 0.5), 18);
+  ctx.save(); ctx.globalAlpha = seg(t, 28.2, 0.5); tag('La aspirina no previene el ACV de la FA', 960, 105, C.RED, 18); ctx.restore();
+}
+
+// ====================== cardio-06: TPSV ======================
+function tpsv(t) {
+  K.title('TPSV por reentrada nodal', 'Dos vías en el nodo AV: el impulso gira y la adenosina corta el circuito', C.VIOLET);
+  // esquema del circuito
+  const cx = 250, cy = 330; ctx.save(); rrect(40, 130, 440, 450, 18, '#161B22');
+  ctx.strokeStyle = '#4A5568'; ctx.lineWidth = 12; ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(cx, 170); ctx.lineTo(cx, 215); ctx.stroke();                          // entrada (aurícula)
+  ctx.beginPath(); ctx.moveTo(cx, 215); ctx.bezierCurveTo(cx - 130, 250, cx - 130, 380, cx, 420); ctx.stroke();   // vía lenta
+  ctx.beginPath(); ctx.moveTo(cx, 215); ctx.bezierCurveTo(cx + 130, 250, cx + 130, 380, cx, 420); ctx.stroke();   // vía rápida
+  ctx.beginPath(); ctx.moveTo(cx, 420); ctx.lineTo(cx, 470); ctx.stroke();                          // salida al His
+  text('Aurícula', cx, 160, 17, C.MUTED, '', 'center'); text('Haz de His / ventrículo', cx, 500, 17, C.MUTED, '', 'center');
+  text('Vía lenta', cx - 150, 320, 18, C.AMBER, 'bold', 'center'); text('Vía rápida', cx + 150, 320, 18, C.BLUE, 'bold', 'center');
+  const on = t > 5.5 && t < 20.5;
+  if (on) { const ph = ((t - 5.5) * 1.15) % 1, a = ph * Math.PI * 2;                                     // impulso girando por el circuito
+    const pt = (u, side) => { const k = u, x = cx + side * 130 * 1.5 * 0.75 * Math.sin(Math.PI * k), y = 215 + 205 * k; return [x, y]; };
+    const down = ph < 0.5, u = down ? ph * 2 : 1 - (ph - 0.5) * 2, [px, py] = pt(u, down ? -1 : 1);
+    K.glow(px, py, 40, down ? '255,194,71' : '79,163,255', 0.8); ctx.fillStyle = down ? C.AMBER : C.BLUE; ctx.beginPath(); ctx.arc(px, py, 9, 0, 7); ctx.fill(); }
+  if (t > 5.5) tag(t < 20.5 ? 'Reentrada: gira 180 veces por minuto' : 'Circuito interrumpido', 260, 540, t < 20.5 ? C.VIOLET : C.GREEN, 17);
+  ctx.restore();
+  // ECG
+  const sinA = evs(-1, 5.2, 0.85).map(a => a - 0.16), sinV = evs(-1, 5.2, 0.85);
+  const tach = evs(5.5, 20.4, 0.333);
+  const after = evs(21.8, 60, 0.9);
+  const o = { A: sinA.concat(after.map(a => a - 0.16)), V: sinV.concat(tach, after) };
+  strip(510, 130, 730, 230, t + 1, o, { secs: 6, col: C.GREEN, label: 'Derivación II', gain: 1.1 });
+  ctx.save(); ctx.globalAlpha = fade(t, 5.5, 20.4, 0.4); tag('Inicio súbito · QRS estrecho · 180 lpm', 870, 395, C.VIOLET, 18); ctx.restore();
+  K.card(510, 410, 730, 120, C.BLUE, '1.º maniobra vagal: Valsalva modificado', ['Soplar 15 s y acostar con las piernas arriba'], fade(t, 8, 16, 0.5), 19);
+  K.card(510, 410, 730, 120, C.RED, '2.º adenosina 6 mg en bolo rápido + 20 mL', ['Pausa breve y vuelve el ritmo sinusal'], fade(t, 16, 26, 0.5), 19);
+  flash(t, 20.5, '255,255,255');
+  K.banner(510, 548, 730, 'FA preexcitada (QRS ancho, irregular): NO adenosina ni verapamilo', C.RED, seg(t, 27, 0.6));
+  K.banner(510, 612, 730, 'Curación: ablación por radiofrecuencia', C.GREEN, seg(t, 29, 0.6));
+}
+
+// ====================== cardio-07: TV, cardioversión y torsión ======================
+function tv(t) {
+  K.title('Taquicardia de complejo ancho', 'TV hasta demostrar lo contrario · cardioversión sincronizada · torsión de puntas', C.RED);
+  const sinA = evs(-1, 60, 0.85).map(a => a - 0.16), sinV = evs(-1, 60, 0.85);
+  const T0 = 4, T1 = 14, T2 = 21;
+  const tvW = evs(T0, T1 - 0.1, 0.36);
+  const nsR = evs(T1 + 1.2, 60, 0.85);
+  const tdp = tau => 0;                            // la torsión se dibuja aparte
+  const o1 = { A: sinA.filter(a => a < T0 - 0.2).concat(nsR.map(a => a - 0.16)), V: sinV.filter(v => v < T0 - 0.3).concat(nsR), W: tvW, ws: 1 };
+  const s1 = strip(40, 130, 800, 220, t + 1, o1, { secs: 6, col: t > T0 && t < T1 ? C.RED : C.GREEN, label: 'Taquicardia ventricular monomorfa · 170 lpm · QRS ancho', lcol: C.RED, gain: 1.0 });
+  // marcas de sincronía sobre cada QRS durante la cardioversión
+  if (t > T0 + 4 && t < T1 + 0.2) { ctx.save(); ctx.fillStyle = C.AMBER; tvW.forEach(r => { if (r < t + 1 && r > t + 1 - 6) { const X = s1.X(r); ctx.beginPath(); ctx.moveTo(X, 170); ctx.lineTo(X - 6, 158); ctx.lineTo(X + 6, 158); ctx.fill(); } }); ctx.restore(); }
+  flash(t, T1, '255,255,255');
+  K.card(870, 130, 370, 100, C.RED, 'TV con pulso', ['QRS ≥ 120 ms, regular'], fade(t, 4.4, 8.5, 0.4), 18);
+  K.card(870, 130, 370, 100, C.AMBER, 'SYNC activado', ['Descarga sobre la R · 100 J'], fade(t, 8.5, 14, 0.4), 18);
+  K.card(870, 130, 370, 100, C.GREEN, 'Ritmo sinusal', ['Después: amiodarona y estudio'], seg(t, 14.5, 0.5), 18);
+  K.banner(870, 240, 370, 'Inestable: cardioversión', C.BLUE, seg(t, 6, 0.6));
+  K.banner(870, 296, 370, 'Estable: amiodarona', C.BLUE, seg(t, 7, 0.6));
+  K.banner(870, 352, 370, 'Verapamilo contraindicado', C.RED, seg(t, 10, 0.6));
+  // torsión de puntas
+  const qt = { A: sinA, V: sinV, ta: 0.7 };
+  const torsStart = 24, tdpF = tau => { if (tau < torsStart + 1 || tau > torsStart + 7) return 0; const u = tau - torsStart - 1; return 0.9 * Math.sin(u * 2 * Math.PI * 3.6) * Math.sin(Math.PI * (u % 3) / 3) ; };
+  const o2 = { A: sinA, V: sinV, F: tdpF, ta: 0.7 };
+  strip(40, 380, 800, 200, t + 1, o2, { secs: 6, col: C.VIOLET, label: 'QT largo (QTc 580 ms): torsión de puntas', lcol: C.VIOLET, a: seg(t, 18.5, 0.6) });
+  ctx.save(); ctx.globalAlpha = seg(t, 24, 0.5); tag('QRS que «giran» alrededor de la línea de base', 440, 612, C.VIOLET, 17); ctx.restore();
+  K.card(870, 420, 370, 190, C.VIOLET, 'QTc > 500 ms', ['Suspender macrólidos, quinolonas,', 'antipsicóticos, ondansetrón', 'Corregir K, Mg, Ca', 'Sulfato de magnesio 2 g EV'], seg(t, 25, 0.5), 17);
+  K.banner(40, 640, 1200, 'Sin pulso: desfibrilar (no sincronizar). Con pulso e inestable: cardioversión sincronizada.', C.AMBER, seg(t, 29, 0.6));
+}
+
+// ====================== cardio-08: bloqueos AV ======================
+function bav(t) {
+  K.title('Bloqueos aurículo-ventriculares', 'Mira dónde cae cada P (triángulos) respecto del QRS', C.BLUE);
+  const PA = 0.9;
+  const mk = (pr, extra) => {                                        // ritmo sinusal con PR fijo
+    const A = [], V = []; for (let tt = -1; tt < 60; tt += PA) { A.push(tt); V.push(tt + pr + 0.04); } return { A: A.map(a => a), V };
+  };
+  // 1.er grado: PR 0,28 s
+  const b1 = mk(0.28); b1.A = b1.A.map(a => a - 0.0);
+  // Mobitz I: PR 0,16,0,24,0,32, bloqueo
+  const m1 = { A: [], V: [] }; { let k = 0; for (let tt = -1; tt < 60; tt += PA, k++) { const c = k % 4; m1.A.push(tt); if (c < 3) m1.V.push(tt + [0.16, 0.26, 0.36][c] + 0.04); } }
+  // Mobitz II: PR 0,2 fijo, 1 de cada 4 bloqueada
+  const m2 = { A: [], V: [] }; { let k = 0; for (let tt = -1; tt < 60; tt += PA, k++) { m2.A.push(tt); if (k % 4 !== 3) m2.V.push(tt + 0.24); } }
+  // completo: P a 80/min, QRS a 36/min independientes, QRS ancho
+  const c3 = { A: evs(-1, 60, 0.75), W: evs(-0.6, 60, 1.65) };
+  const tt = t + 2, rows = [['1.er grado: PR 280 ms constante, todas conducen', b1, 4, C.GREEN], ['Mobitz I: el PR se alarga hasta que una P no conduce', m1, 11, C.AMBER], ['Mobitz II: PR constante y una P súbitamente bloqueada', m2, 18, C.RED], ['Completo: P y QRS independientes (disociación AV)', c3, 25, C.VIOLET]];
+  rows.forEach(([lab, o, st, col], i) => {
+    const y = 124 + i * 122, a = seg(t, st - 3, 0.6); if (a <= 0) return;
+    const S = strip(40, y, 820, 112, tt, Object.assign({}, o, { A: o.A.map(x => x - 0.0) }), { secs: 6, col, label: lab, lcol: col, a, gain: 0.85 });
+    ctx.save(); ctx.globalAlpha = a; (o.A || []).forEach(p => { if (p < tt && p > tt - 6 && p > -0.5) arrowP(S.X(p), y + 100 - 6, C.BLUE, 1); }); ctx.restore();
+  });
+  K.card(890, 124, 350, 112, C.GREEN, '1.er grado', ['Benigno, sin marcapaso'], seg(t, 4, 0.5), 18);
+  K.card(890, 246, 350, 112, C.AMBER, 'Mobitz I (nodal)', ['Se observa'], seg(t, 11, 0.5), 18);
+  K.card(890, 368, 350, 112, C.RED, 'Mobitz II (infranodal)', ['Marcapaso definitivo'], seg(t, 18, 0.5), 18);
+  K.card(890, 490, 350, 112, C.VIOLET, 'Completo', ['Marcapaso; Stokes-Adams'], seg(t, 25, 0.5), 18);
+  K.banner(40, 640, 1200, 'Bradicardia inestable: atropina 1 mg → marcapaso transcutáneo → adrenalina o dopamina', C.BLUE, seg(t, 31, 0.6));
+}
+
+// ====================== cardio-09: Holter ======================
+function holter(t) {
+  K.title('Holter de ritmo de 24 horas', 'Cuenta las extrasístoles y las correlaciona con los síntomas', C.GREEN);
+  const sinA = [], sinV = [], pvc = []; for (let tt = -1, k = 0; tt < 60; tt += 0.85, k++) { sinA.push(tt - 0.16); sinV.push(tt); }
+  const W = [], Vn = [], An = []; { let k = 0; for (let tt = -1; tt < 60; tt += 0.85, k++) { if (k % 7 === 5 || (k > 14 && k % 4 === 2)) { W.push(tt - 0.25); } else { Vn.push(tt); An.push(tt - 0.16); } } }
+  strip(40, 130, 800, 190, t + 2, { A: An, V: Vn, W }, { secs: 7, col: C.GREEN, label: 'Registro continuo (derivación CM5)', gain: 0.95 });
+  ctx.save(); ctx.globalAlpha = seg(t, 3, 0.5); tag('QRS ancho prematuro + pausa compensadora = EV', 440, 345, C.AMBER, 17); ctx.restore();
+  // tendencia de 24 h
+  const x0 = 40, y0 = 380, w = 800, h = 230; rrect(x0, y0, w, h, 14, '#161B22'); text('Frecuencia cardíaca en 24 horas', x0 + 18, y0 + 28, 17, C.MUTED, 'bold');
+  const prog = ease(seg(t, 6, 16));
+  ctx.save(); ctx.beginPath(); ctx.rect(x0 + 10, y0 + 40, (w - 20) * prog, h - 50); ctx.clip();
+  ctx.strokeStyle = C.BLUE; ctx.lineWidth = 3; ctx.beginPath();
+  for (let q = 0; q <= 100; q++) { const hr = 62 + 22 * Math.sin((q / 100) * 2 * Math.PI - 1.7) + 8 * rnd(q) - 14 * g(q, 10, 6); const X = x0 + 14 + q / 100 * (w - 28), Y = y0 + h - 22 - (hr - 40) * 1.7; q ? ctx.lineTo(X, Y) : ctx.moveTo(X, Y); }
+  ctx.stroke();
+  ctx.fillStyle = C.AMBER; for (let q = 0; q < 60; q++) { const X = x0 + 14 + (q / 60) * (w - 28); const hgt = 6 + 36 * rnd(q + 40) * (1 - 0.4 * (q > 40)); ctx.fillRect(X, y0 + h - 22 - hgt * 0.4 - 2, 5, hgt * 0.4); }
+  ctx.restore();
+  ['0 h', '6 h', '12 h', '18 h', '24 h'].forEach((s, i) => text(s, x0 + 14 + i * (w - 28) / 4, y0 + h - 4, 14, C.MUTED, '', 'center'));
+  ctx.save(); ctx.globalAlpha = seg(t, 20, 0.5); tag('Mín 48 · media 72 · máx 138 lpm', 430, y0 + 56, C.BLUE, 16); ctx.restore();
+  // carga de EV
+  K.card(870, 130, 370, 150, C.GREEN, 'Carga de EV: 3 %', ['Aisladas, monomorfas', 'Corazón sano: tranquilizar'], fade(t, 14, 24, 0.5), 18);
+  K.card(870, 130, 370, 150, C.RED, 'Carga de EV: 22 %', ['FEVI 40 % (antes normal)', 'Miocardiopatía por EV: derivar'], seg(t, 24.5, 0.5), 18);
+  const fill = t < 24 ? lerp(0, 3, ease(seg(t, 14, 4))) : lerp(3, 22, ease(seg(t, 24.5, 3)));
+  K.bar(870, 318, 370, 'Carga de extrasístoles', fill, 30, '%', fill > 10 ? C.RED : C.GREEN, [[10, '10 %']]);
+  K.card(870, 410, 370, 150, C.AMBER, 'Pausas > 3 s o BAV alto grado', ['Derivar para marcapaso'], seg(t, 19, 0.5), 17);
+  K.banner(870, 580, 370, 'Síntoma mensual: monitor de eventos', C.BLUE, seg(t, 28, 0.6));
+  K.banner(40, 640, 800, 'Sin antiarrítmicos clase I en cardiopatía (CAST)', C.RED, seg(t, 30, 0.6));
+}
+
+const SCN = {
+  lectura: { f: lectura, dur: 33, n: 1 }, rcp: { f: rcp, dur: 28, n: 2 }, acls: { f: acls, dur: 40, n: 3 }, fa_flutter: { f: fa_flutter, dur: 28, n: 4 },
+  cha2ds2: { f: cha2ds2, dur: 31, n: 5 }, tpsv: { f: tpsv, dur: 32, n: 6 }, tv: { f: tv, dur: 33, n: 7 }, bav: { f: bav, dur: 36, n: 8 }, holter: { f: holter, dur: 33, n: 9 },
+};
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t);
+  ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(560, 696, 720, 24);
+  text(V === 'rcp' ? 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' : cred(SCN[V].n), 1268, 712, 13, C.MUTED, '', 'right');
+};
+LOAD(V === 'rcp' ? { cpr: '../assets/blausen/cpr_adulto.png' } : {});
+</script>
+</body></html>

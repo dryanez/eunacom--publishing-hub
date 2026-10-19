@@ -35,9 +35,14 @@ function lessonImages(classId) {
   const seen = new Set();
   const out = [];
   let first = null;
+  // fotos en contexto: photo / photos dentro de ítems, pasos o filas (formato aprobado oct-2026)
+  const ctx = s => { const r = []; (function walk(o) { if (!o || typeof o !== 'object') return;
+    if (Array.isArray(o)) return o.forEach(walk);
+    if (o.photo) r.push(o.photo); if (Array.isArray(o.photos)) r.push(...o.photos);
+    for (const k of Object.keys(o)) if (k !== 'photo' && k !== 'photos') walk(o[k]); })(s); return r; };
   for (const s of L.slides || []) {
-    if (s.type !== 'image' || SKIP_KICKER.test(s.kicker || '')) continue;
-    for (const im of s.images || []) {
+    const list = s.type === 'image' ? (SKIP_KICKER.test(s.kicker || '') ? [] : s.images || []) : ctx(s);
+    for (const im of list) {
       if (!im.src || /\.(mp4|webm)$/i.test(im.src) || seen.has(im.src)) continue;
       const p = path.join(MEDIA, im.src);
       if (!fs.existsSync(p)) continue;

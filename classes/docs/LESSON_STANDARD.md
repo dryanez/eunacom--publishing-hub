@@ -16,7 +16,7 @@ se copia lo que hacen esas dos clases.
 ## Fuente clínica (no se inventa contenido)
 
 - El contenido sale del libro: `books/scripts/dataset_<especialidad>.cjs` (cardiología:
-  `master_cardiology_23_full_dataset.cjs`), el tema con el mismo `id`.
+  `dataset_cardiologia.cjs`, 38 temas cardio-01…38; el modelo es `classes/lessons/cardio-14.cjs`), el tema con el mismo `id`.
 - Las cifras, dosis, cortes GES y criterios deben coincidir con el libro.
 - Las preguntas reales EUNACOM salen del **banco real** (`books/data/real_questions_by_code.json`, 2.708 preguntas con examen y fecha):
   `node classes/scripts/class_questions.cjs <id>` lista las del código de la clase, y

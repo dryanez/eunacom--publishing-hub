@@ -74,7 +74,7 @@ function ecg_iam(t) {
   // rótulos sobre los trazados
   ctx.save(); ctx.globalAlpha = clamp((cur.st - 0.35) / 0.3, 0, 1); tag('Supradesnivel del ST', 712, 168, C.RED, 18);
   tag('Imagen especular: infradesnivel', 640, 476, C.BLUE, 17); ctx.restore();
-  ctx.save(); ctx.globalAlpha = clamp((cur.q - 0.4) / 0.4, 0, 1); tag('Onda Q de necrosis', 505, 168, C.VIOLET, 18); ctx.restore();
+  ctx.save(); ctx.globalAlpha = clamp((cur.q - 0.4) / 0.4, 0, 1); tag('Onda Q de necrosis', 712, 398, C.VIOLET, 18); ctx.restore();
   ctx.save(); ctx.globalAlpha = clamp((cur.h - 0.5) / 0.3, 0, 1) * (1 - clamp((cur.st - 0.5) / 0.3, 0, 1)); tag('T alta y picuda', 712, 168, C.AMBER, 18); ctx.restore();
   ctx.save(); ctx.globalAlpha = clamp((cur.tinv - 0.4) / 0.4, 0, 1); tag('T negativa', 712, 168, C.MUTED, 18); ctx.restore();
   // etapas (derecha)

@@ -11,13 +11,16 @@ Al volver: abrir esta sesión y decir «sigue» — o en una sesión nueva: «le
 - Nada en commit todavía (el usuario no lo ha pedido).
 
 ## En curso al cortar (retomar si no terminaron)
-1. **Cardiología → 38 temas** (libro + clases al estándar de los otros 20). Agente de diseño hace estructura + muestra SCACEST y deja
-   ~/fotos_tools/v3/sec/cardio_prompt.txt para 5 agentes (un bloque cada uno). Respaldo del cardio antiguo: books/scripts/_old_cardio/.
-   Para retomar: ver si existe books/scripts/dataset_cardiologia_bloque_*.cjs y cardio_prompt.txt; si no, relanzar el paso 1.
+1. **Cardiología → 38 temas — HECHO e integrado (19-oct-2026).** 38 clases cardio-NN con libro (204 págs) y clases; códigos fusionados (v3_section_codes/topic_codes), figspec 1.4/1.6/3.1/4.6 quitadas, verificar_codigos_cardio.cjs «Todo OK» (53 códigos antiguos asignados, todos con margen). Clases cardio-v1 ocultas en el reproductor.
+   Dudas médicas pendientes de cardio (resumen; confirmar con un médico antes de publicar):
+  - Bloque 1: 21 dudas (A · Posible error; B · El libro se contradice; C · Falta; Preguntas del banco descartadas) → detalle en REVISION_CONTENIDO.md, «Cardiología 38 temas: dudas por bloque».
+  - Bloque 2: 29 dudas (A · Posible error del libro (versión migrada); B · El libro se contradice; C · Falta información en el libro; Preguntas del banco con clave dudosa (anotar); Preguntas del banco descartadas; Fotos) → detalle en REVISION_CONTENIDO.md, «Cardiología 38 temas: dudas por bloque».
+  - Bloque 3: 14 dudas (A · Posible error; B · Se contradice; C · Falta; Posible retirada de figspec; Preguntas del banco descartadas) → detalle en REVISION_CONTENIDO.md, «Cardiología 38 temas: dudas por bloque».
+  - Bloque 4: 28 dudas (A · Posible error del libro (lo que se corrigió o conviene confirmar); B · El libro se contradice; C · Falta información en el libro; Para quien integra; Preguntas del banco descartadas) → detalle en REVISION_CONTENIDO.md, «Cardiología 38 temas: dudas por bloque».
+  - Bloque 5: 30 dudas (A · Posible error en el contenido migrado (ya corregido en la reescritura; confirmar); B · El libro se contradice o contradice el banco; C · Falta o conviene agregar; Preguntas del banco con clave dudosa (formato «Examen año Pn: …»); Preguntas del banco descartadas) → detalle en REVISION_CONTENIDO.md, «Cardiología 38 temas: dudas por bloque».
 2. **Fotos faltantes — TERMINADO (66 fotos nuevas)** (4 agentes: m1a endo/diab/nefro/hem/neuro · m1b resp/gastro/infecto/reuma · m2 cirugia/trauma/uro/orl/oftal/derma ·
    m3 ped/ob/gin/sp/psiq). Prompt: ~/fotos_tools/v3/sec/fotos_prompt.txt. Avance: filas marcadas ✅/❌ en
-   classes/docs/auditoria_imagenes/FALTANTES_<esp>.md. Fotos para libros en books/data/atlas_add/fotos_<grupo>.json → falta FUSIONAR
-   en atlas_fotos_verificadas.json y reconstruir los 21 libros (HACERLO cuando termine Cardiología, que también edita el atlas).
+   classes/docs/auditoria_imagenes/FALTANTES_<esp>.md. **FUSIÓN DE FOTOS HECHA**: 128 fotos nuevas (cardio 66 + m1a/m1b/m2/m3 62) en atlas_fotos_verificadas.json (420→548); atlas_add archivados en ~/fotos_tools/v3/sec/atlas_add_*.merged.json; 21 libros y guías Perfil V3 reconstruidos.
 3. **Otro computador:** rama `clases-v3-videos` en GitHub; instrucciones en classes/docs/OTRO_COMPUTADOR.md (Módulos 3–4: ped, ob, gin, sp; quitados de la cola de este Mac).
 
 ## Cola de videos (corre sola)
@@ -28,8 +31,14 @@ Al volver: abrir esta sesión y decir «sigue» — o en una sesión nueva: «le
 - Idea pendiente: repartir Módulos 3–4 a otro computador (requiere commit + push de rama nueva; el usuario no lo ha aprobado aún).
 
 ## Decisiones pendientes del usuario
+- cardio-29/30 HTA: meta única (<130/80 libro vs <140/90 GES vs <150/90 en ≥80 años del banco); hoy va por grupos.
+- cardio-17: examen pregunta el trío clásico; la clase enseña 4 pilares (ARNI, iSGLT2) con aviso.
+- cardio-37: alteplasa (libro) vs tenecteplase (clave Dic 2025 P8).
 - cirugia-13 quemaduras: ¿«agua corriente 10–20 min, sin hielo» (libro nuevo) en vez de «agua tibia»?
 - psiq-02: ¿unificar litio y valproato con los rangos del libro nuevo?
 - ped-05 / ped-10: ¿dejar 3 fotos de niños con torso descubierto (sin genitales)?
 - Claves del banco posiblemente erróneas: ver classes/docs/REVISION_CONTENIDO.md («Posibles claves erróneas del banco»).
 - Fotos en cuarentena (genitales de menores): ~/fotos_tools/cuarentena_fotos/ (no borradas).
+
+## Integración de Cardiología — HECHA (19-oct-2026)
+- Fusión sec/topics, figspec, atlas, libros (21 + 21 guías + libro único 1184 págs), reproductor (469 clases) y check_lesson (468/468 OK) completados.

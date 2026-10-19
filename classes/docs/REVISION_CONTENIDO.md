@@ -1166,6 +1166,33 @@ Contenido nuevo: neurologia_extra/a1.cjs (agente anterior, temas 10.1-10.11), a2
 - Los códigos 1.05.2.012, 1.05.5.010, 4.01.2.030 y 4.01.5.028 quedan también en 1.2; ver si siguen asignados a otros libros (neumología, cirugía) y quitar duplicados si se prefiere.
 - Cambio de compilador: books/scripts/figspec_clases.cjs mergeAtlas ahora usa c.classId || c.id (cardiología no tiene classId); el atlas usa ids cardio-NN.
 
+## Cardiología: rediseño en 38 temas (19-oct-2026)
+
+Los temas antiguos (1.1-5.5) pasaron a cardio-01…cardio-38 (`books/scripts/dataset_cardiologia_bloque_*.cjs`; traza en `_origen`).
+Las notas de arriba usan la numeración antigua: 1.2 → cardio-02/03, 1.6 → cardio-09, 4.2 → cardio-24/25, 4.5 → cardio-28.
+
+### A · Posible error del libro
+| Tema | El libro decía | Lo correcto (a verificar) | Qué se hizo |
+|---|---|---|---|
+| cardio-14 (antes 2.3) | IAM = «Patología GES #24» | El IAM es el problema GES N.º 5 | Corregido en cardio-14 |
+| 19 temas (`ges`) | «GES #24» para marcapaso, SCA, angina, IC, valvulopatías, TEP; «GES #24 y GES #20» en congénitas | El número 24 no corresponde a esos problemas (congénitas operables es el N.º 2; la IC y el TEP no son GES). HTA N.º 21 parece correcto | Pendiente: cada agente lo corrige en su bloque o deja el campo sin número |
+| 28 temas, 45 preguntas | `recTag` «Reconstrucción Oficial EUNACOM <mes> <año> • Pregunta #NN» | No coinciden con el banco real (p. ej. «Diciembre 2025 • Pregunta #60» es un síndrome nefrótico pediátrico; «Julio 2024 • #01» es lumbago). Son casos redactados, no preguntas reales | En cardio-14 pasó a «Banco Oficial AEE»; en el resto lo hace cada agente |
+
+### B · El libro se contradice
+- cardio-14: las metas GES. El libro decía «ECG en ≤ 10 minutos» como garantía legal; la guía clínica pide 10 minutos, pero el decreto GES podría fijar otro plazo para el ECG (y 30 días para la prevención secundaria). En cardio-14 se dejó «ECG interpretado en ≤ 10 minutos» como meta y no se citó el plazo legal. Verificar contra el decreto GES vigente.
+
+### C · Falta información en el libro / datos agregados en cardio-14 (verificar)
+- Tenecteplase a mitad de dosis en ≥ 75 años (ESC 2017, STREAM-2); clopidogrel 600 mg si va a angioplastía sin ticagrelor; heparina no fraccionada en la angioplastía; contraindicaciones relativas de fibrinólisis (lista ESC). Confirmar con la Guía Clínica GES de IAM con SDST.
+- Equivalente «infradesnivel en ≥ 8 derivaciones con supradesnivel en aVR» (ESC 2017/2023): no estaba en el libro.
+
+### Preguntas del banco real descartadas (cardio-14)
+- **Julio 2025 P96 (clave dudosa):** IAM con SDST sin angioplastía, centro con angioplastía «a 60 minutos»; clave «trombolisis inmediata y traslado». Con angioplastía posible en ≤ 120 minutos lo indicado es trasladar a angioplastía primaria (alternativa B); la propia explicación del banco habla de «> 120 min». No usada.
+- Julio 2015 P60, Julio 2024 P87 y Diciembre 2025 P4: dependen de un ECG que el banco no trae. Diciembre 2024 P157: alternativas rotas (son diagnósticos de otra pregunta). Diciembre 2017 P11 (BCRI → aspirina y clopidogrel): válida, no usada por repetir Julio 2016 P55.
+
+### Códigos y figuras (decisiones de estructura)
+- Códigos agregados a la lista aprobada porque el tema los enseña: 1.01.4.007 en cardio-14 (ECG del SDST); 1.01.2.004 en cardio-15 (complicaciones del IAM); 1.01.2.006 y 1.01.5.006 en cardio-03 (ACLS); 1.01.2.009 en cardio-08 (bradicardia inestable); 1.01.2.005 en cardio-19 (shock cardiogénico); 1.01.1.008 y 1.01.3.005 (fiebre reumática, también en orl-13) en cardio-25. Temas sin código en la lista: cardio-10 → 1.01.4.007 y 1.01.4.009; cardio-12 → 1.01.1.001; cardio-17 → 1.01.1.018; cardio-21 → 1.01.1.020; cardio-30 → 1.01.1.015.
+- Diagramas antiguos mal asignados: `algo_cad_ehh.svg` (cetoacidosis, de Diabetes) estaba en HTA → se quitó; `algo_tv.svg` (taquicardia de QRS ancho) estaba en miocardiopatías → cardio-07; `algo_dolor_toracico.svg` estaba en SCASEST y en EAP → cardio-10; `algo_urgencias.svg` (arritmia periparo) estaba en ECG y crisis HTA → cardio-03; `algo_congenitas.svg` es de cianosis neonatal y quedó en cardio-27 a falta de otro.
+
 
 ## obstetricia: dudas al completar el libro (18-oct-2026)
 
@@ -1210,3 +1237,193 @@ Contenido nuevo: neurologia_extra/a1.cjs (agente anterior, temas 10.1-10.11), a2
 - **ped-27 · C:** el banco real no tiene preguntas pediátricas de enuresis; se usó el caso del libro («Banco EUNACOM · Caso representativo»). La foto de sinequia vulvar de la biblioteca (ped-27/01, Nelson 580.5A) no se incluyó por mostrar genitales de una menor.
 - **ped-28 · B (banco):** Jul 2015 P150 (subdural, fracturas costales posteriores, equimosis): clave «fondo de ojo»; la propia explicación del banco dice que lo urgente es operar el hematoma y que es una pregunta mala. Se usó con la clave del libro y la voz aclara que la neurocirugía se resuelve en paralelo.
 - **ped-28 · C:** no hay preguntas reales pediátricas de entrevista (SPIKES), conductas de riesgo (CRAFFT) ni psiquiatría de enlace; se usaron los tres casos del libro con la etiqueta «Caso representativo». El libro indica examen físico completo «con el niño desnudo»; la voz dice «desvestido y con delicadeza».
+
+## Cardiología 38 temas: dudas por bloque
+
+### Dudas médicas · Cardiología bloque 1 (cardio-01 a cardio-09)
+
+#### A · Posible error
+- Libro antiguo 1.8 (cardio-08): decía «GES #24» para marcapasos en bloqueo AV; el N.º 24 es de valvulopatías. Se dejó el nombre del problema sin número. Confirmar el número GES de «Implante de marcapaso» antes de publicarlo.
+- Libro antiguo 1.3 (cardio-04/05): «Patología GES (Fibrilación Auricular y Prevención Secundaria de ACV)». No se conoce un problema GES propio de FA; se dejó `ges` vacío.
+- Libro antiguo 1.3§1 (cardio-05): INR 2,5-3,5 «en prótesis mecánicas aórticas/mitrales». Se corrigió a 2,0-3,0 en estenosis mitral y prótesis aórtica sin factores de riesgo, y 2,5-3,5 en prótesis mecánica mitral (o aórtica con factores). Confirmar con cardiología.
+- Pregunta Julio 2013 P69 (niño 10 años, TPSV, «primera medida»: masaje carotídeo, clave D): contradice la explicación de Diciembre 2025 P3 (masaje carotídeo no recomendado en niños; se prefiere el agua fría en la cara) y la presión ocular figura como opción. No usada.
+- Pregunta Diciembre 2022 P87 (TPSV paroxística que cede con maniobras vagales): clave C «bloqueo completo de rama izquierda», incoherente con el enunciado (necesita ECG que el banco no trae). No usada.
+- Pregunta Diciembre 2022 P104 (bradicardia 30 lpm, K 8,2, hipotensión): clave E «suero fisiológico»; el libro y Enero 2023 P107 indican gluconato de calcio como primera medida. No usada.
+- Pregunta Diciembre 2018 P96 (BAV 2:1 con ECG): clave B Mobitz I disputada (un 2:1 no se puede clasificar). No usada.
+- Pregunta Julio 2017 P25 (FA con hipotensión, «fármaco contraindicado»: verapamilo): el propio banco la llama discutible y necesita una foto. No usada.
+
+#### B · El libro se contradice
+- cardio-03 / cardio-02: el libro antiguo dejaba la dosis de adrenalina «tras la 2.ª descarga» en FV y «lo antes posible» en asistolia; se mantuvo así. Algunas guías dan adrenalina desde el primer ciclo en el ritmo no desfibrilable y tras la 2.ª descarga en el desfibrilable; coincide.
+- cardio-05 / pregunta Diciembre 2018 P92 (FA paroxística, CHADS2 2, clave acenocumarol): el libro indica ACOD como primera línea; la clave del banco prefiere acenocumarol. Se usó el texto del libro; la pregunta además necesita ECG. No usada.
+- Pregunta Julio 2019 P173 (FA < 48 h con soplo diastólico: «enoxiheparina y verapamilo»): hoy el soplo mitral sugiere FA valvular y se preferiría antagonista de vitamina K tras la fase aguda; no usada.
+- Pregunta Julio 2013 P45 (FA de 2 días: heparina de bajo peso y verapamilo): el banco mismo la critica por dudosa. No usada.
+
+#### C · Falta
+- Fibrinólisis y TEP en el paro (alteplasa): se menciona en las 5T, falta definir dosis en el libro de TEP (cardio-37).
+- cardio-07: el nivel del Perfil V3 de la cardioversión es «derivar a especialista»; se explicó la cardioversión del paciente inestable por ser la conducta preguntada. Revisar si debe quedar como competencia de realizar.
+- cardio-08: no hay pregunta real del banco (sin imagen) sobre BAV de 1.er grado ni Mobitz I; los trazados de varias preguntas reales (Julio 2019 P21, Agosto 2021 P138, Julio 2016 P163) dependen del ECG.
+- cardio-09: el banco tiene una sola pregunta real de Holter/extrasístoles (Diciembre 2017 P7); las otras 3 son del banco del libro (recTag «Banco Oficial AEE»).
+- Quitar entradas «1.4» y «1.6» de `figspec_cardiologia.cjs` (la clase y el libro ya traen ECG de FA, flutter y WPW de Stroobandt dentro del texto); la entrada «1.1» (intervalos del ECG) se puede mantener.
+
+#### Preguntas del banco descartadas
+- Dic 2025 P4: SCACEST inferior que degenera en FV (necesita el ECG; no se encontró uno verificado).
+- Dic 2025 P3, Dic 2022 P59, Dic 2022 P87, Ago 2021 P137, Dic 2018 P95, Dic 2019 P180, Jul 2019 P21, Ago 2021 P138, Dic 2018 P96, Jul 2016 P163, Jul 2013 P127, Jul 2024 P93, Ago 2021 P139: dependen de un ECG o foto que el banco no trae.
+- Dic 2024 P105 (alternativas duplicadas), Dic 2024 P31, Dic 2024 P62 y Dic 2024 P159 (texto roto).
+- Jul 2013 P1, Jul 2013 P150 (repite P1 de 2016), Ene 2023 P140 (repite Jul 2025 P134), Jul 2024 P47 (infectología), Dic 2019 P126 (estenosis aórtica: cardio-23).
+
+### Dudas médicas · Cardiología, bloque 2 (cardio-10, 11, 12, 13 y 15)
+
+#### A · Posible error del libro (versión migrada)
+- **cardio-12, Dosis del enalapril:** el texto decía «10-20 mg/día» y la tabla «10-20 mg c/12 h». Quedó «10-20 mg/día (hasta 20 mg cada 12 horas)»; que un médico confirme.
+- **cardio-13, Corte de GRACE para descartar:** el libro decía «GRACE < 140» para el descarte seguro (rule-out) y «< 109» para la estrategia selectiva. Se dejaron ambos tal como estaban; lo habitual es que < 109 sea bajo riesgo y > 140 alto, y que el descarte por troponina 0/1 h no use GRACE.
+- **cardio-13, «Aspirina 250 a 500 mg masticada»:** se conservó del libro; la dosis habitual de carga es 150-300 mg (el SCACEST de cardio-14 dice 250 mg o 500 mg EV). Confirmar la cifra.
+- **cardio-15, «ST persistente > 6 semanas» para el aneurisma:** cardio-14 dice «> 4 semanas». En cardio-15 quedó «> 4 a 6 semanas»; unificar.
+- **cardio-15, rotura de pared libre «Pericardiocentesis + toracotomía de rescate»:** conservado, aunque la pericardiocentesis en una rotura cardíaca es solo un puente.
+- **cardio-11, «Angina de reciente comienzo»:** se agregó que la clase III-IV en los últimos 2 meses se maneja como angina inestable (criterio de Braunwald) y que la estable se estudia ambulatoriamente; el libro antiguo solo decía «de reciente comienzo» sin conducta. Confirmar.
+
+#### B · El libro se contradice
+- **GES:** los 5 temas decían «Patología GES #24» (falso). cardio-13 y cardio-15 quedan con «GES N.º 5: Infarto Agudo del Miocardio» (cardio-15 aclara que Prinzmetal no es GES), cardio-10 con N.º 5 por el ECG ante la sospecha, y cardio-11 y cardio-12 con el campo vacío porque la angina estable no es un problema GES propio. Confirmar si la angina inestable entra en el N.º 5.
+- **cardio-13, Killip:** aparece en 2.4 y en 2.5 (cardio-14). Se mantuvo la tabla de mortalidades del libro en 2.4 y la definición en 2.5.
+
+#### C · Falta información en el libro
+- **Preguntas reales de SCASEST:** el banco no tiene ninguna pregunta de SCASEST, angina inestable, ticagrelor ni troponina con clave coherente. cardio-13 usa 4 preguntas del libro con la etiqueta «Banco Oficial AEE».
+- **Preguntas reales de tratamiento de la angina estable:** solo Diciembre 2019 P82, con clave dudosa (ver abajo). cardio-12 usa 4 preguntas del libro («Banco Oficial AEE»).
+- **cardio-15, Prinzmetal sin código en el Perfil.** Ver cardio_b2_topics.json.
+- **cardio-10:** el Perfil no pide los códigos de disección, TEP ni neumotórax en este tema; se enseñan solo como diagnósticos a descartar y se detallan en cardio-34, 35 y 37.
+- **Escalas HEART, CRUSADE, Wells y puntaje de Duke** se agregaron por completitud; no estaban en el libro migrado y no se preguntan con cifras exactas. Confirmar que se quieren.
+
+#### Preguntas del banco con clave dudosa (anotar)
+- **Diciembre 2019 P82:** «angina estable con lovastatina y aspirina, ¿qué fármaco agregar? (amlodipino / dinitrato de isosorbide / carvedilol / enalapril / hidroclorotiazida)». La clave del banco es **dinitrato de isosorbide**; la primera línea antianginosa es el betabloqueador (carvedilol es mixto y no es el de elección) y el amlodipino también sirve. No se usó.
+- **Julio 2015 P61:** «mejor examen para saber si una IC es isquémica»: clave **cintigrafía de perfusión**, pero la propia explicación del banco dice que el ecocardiograma también sirve. No se usó.
+- **Julio 2013 P172:** angina vasomotora (clave C) en un paciente con propranolol. Coherente; se usó en cardio-15.
+- **Julio 2019 P76:** el enunciado del banco trae «Al examen físico tiene. Su electrocardiograma…» (frase cortada); se copió tal cual.
+- **Diciembre 2025 P2:** alternativas A y B con caracteres rotos («Coronariogra:a», «Cin2gra:a»); se corrigieron a «Coronariografía» y «Cintigrafía miocárdica».
+- **Agosto 2021 P180:** la alternativa E trae «Nota: pregunta añadida a la reconstrucción»; se quitó.
+- **Julio 2017 P151 / Diciembre 2019 P118:** es la misma pregunta; la de 2017 viene con el enunciado cortado («El diag-»). Se usó la de 2019.
+- **Diciembre 2024 P155:** «Test de esfuerzo alterado, ¿cuál era el siguiente paso?» con alternativas que no corresponden (insuficiencia cardíaca, FA...). No usada.
+- **Diciembre 2018 P94 y Julio 2019 P81 (pericarditis), Julio 2015 P60 y Julio 2024 P87 (SCACEST/BCRI con ECG):** dependen de un ECG que el banco no trae. No usadas.
+
+#### Preguntas del banco descartadas
+- Julio 2024 P180 y Diciembre 2024 P62 (síncope y ECG): fuera de tema; el ECG como primer examen en el síncope con bradicardia se menciona en cardio-10.
+- Enero 2023 P157, Diciembre 2022 P98, Julio 2025 P22, Diciembre 2017 P12 y Diciembre 2019 P12 (disección aórtica): van en cardio-35.
+- Julio 2024 P28 (SCA con emergencia hipertensiva): cardio-32.
+- Julio 2013 P85 y Agosto 2021 P180: se usó solo la segunda en cardio-11 (la primera repite el test de esfuerzo).
+- Julio 2025 P96 (clave dudosa, trombólisis con angioplastía a 60 min): ver cardio-14.
+
+#### Fotos
+- **Quitar de figspec_cardiologia:** no hay entradas del bloque 2 en books/scripts/figspec_cardiologia.cjs (las suyas son 1.1, 1.4, 1.6, 3.1, 4.2, 4.6, 5.1, 5.5 y 5.7); nada que quitar.
+- Faltantes: classes/docs/auditoria_imagenes/FALTANTES_cardio_bloque_2.md.
+
+### Dudas médicas · Cardiología bloque 3 (cardio-16 a cardio-21)
+
+#### A · Posible error
+- Dic 2017 P13 («¿qué fármaco está contraindicado?», digoxina con creatinina 1,8 y K 3,8): la digoxina no está contraindicada de plano, es la «menos adecuada»; la clave E es defendible solo por exclusión. En clase se lee «la clave publicada es la E… discutible».
+- Banco real: Dic 2024 P88 trae la alternativa E rota («TEP f. Dolor torácico súbito, transfixiante, HTA y soplo diastólico»): se usó solo «TEP» (en el libro) y «Tromboembolismo pulmonar» (en la clase). Las explicaciones del banco de P88 y P152 son texto ajeno (equilibrio ácido-base).
+- Dosis inicial del ARNI: el libro antiguo decía 49/51 mg c/12 h; se escribió 24/26 o 49/51 según dosis previa de IECA/ARA II (ficha del fármaco).
+
+#### B · Se contradice
+- Las preguntas reales (2017-2025) responden con el «trío clásico» (IECA/ARA II + betabloqueador + espironolactona); el libro antiguo hablaba de «cuádruple terapia» (ARNI + BB + ARM + iSGLT2) de las guías ESC/AHA actuales. Se enseñan los cuatro pilares y se avisa que el examen pregunta sobre todo el trío. Revisar si el MINSAL ya incorporó ARNI e iSGLT2.
+- «GES #24» del libro antiguo: la IC no es problema GES; se puso «No es problema GES».
+- Libro antiguo: «nifedipino» solo en la pregunta, no en el texto; ahora está en la lista de fármacos a evitar (Ago 2021 P135, Dic 2019 P123).
+- El libro antiguo ponía el EAP «perfil B 80% de los casos» y usaba el nombre «Forrester» para el perfil clínico (caliente/frío): se mantuvo el nombre y se quitó el 80%.
+
+#### C · Falta
+- Cuánta es la dosis de DAI/TRC exacta en Chile (resincronizador QRS 130-149 ms): se dejó «considerar».
+- Chagas: no hay tema propio en cardiología; se dejó un resumen con remisión al código 1.04.4.016 (infectología).
+- Mavacamten y vericiguat: no están en el perfil ni en las guías MINSAL; se nombran solo como complemento.
+- No hay pregunta real de shock cardiogénico ni de EAP en el banco aparte de Dic 2024 P88; cardio-19 y una de cardio-18 usan «caso representativo».
+
+#### Posible retirada de figspec
+- Tema 3.1: la figura antigua de figspec_cardiologia (paciente sentado, ortopnea) sigue saliendo en el libro junto a la nueva Rx; si se quiere solo la foto nueva, «quitar entrada 3.1 de figspec_cardiologia».
+
+#### Preguntas del banco descartadas
+- Dic 2024 P151 (IC con sibilancias; enunciado resumido, clave «IC» sin contexto) · Dic 2024 P109 (alternativas rotas, «Diltiazem b. Losartán») · Dic 2024 P152 (enunciado de una línea, «IC aguda con R3») · Dic 2025 P115 (EPOC/cor pulmonale; depende de una radiografía que el banco no trae; solo se menciona en el texto de cardio-16) · Jul 2017 P25 (FA con ECG: «INSERTAR FOTO») · Jul 2017 P83 (nefrítico con R3; enunciado cortado) · Jul 2015 P59 y Jul 2019 P81 (pericarditis: van en cardio-33) · Dic 2019 P125 (rotura papilar: cardio-15) · Jul 2024 P153, Dic 2018 P93 (repiten «agregar espironolactona»: solo se usan Jul 2025 P1 y Dic 2017 P8) · Dic 2019 P123 (usada solo en el libro; repite el nifedipino de Ago 2021 P135).
+- Claves dudosas anotadas: «Dic 2017 P13: digoxina contraindicada (discutible)»; «Dic 2024 P88: opción E con texto de otra alternativa».
+
+### Dudas médicas · Cardiología bloque 4 (cardio-22 a cardio-28)
+
+#### A · Posible error del libro (lo que se corrigió o conviene confirmar)
+
+- **Fiebre reumática (cardio-25)**: el libro antiguo no la enseñaba. Se escribió con los criterios de Jones modificados de la AHA 2015 (umbrales de fiebre y de VHS distintos para poblaciones de bajo y de alto riesgo), penicilina benzatina 1.200.000 UI IM (600.000 si < 27 kg), aspirina 80-100 mg/kg/día, prednisona 1-2 mg/kg/día si carditis moderada o grave. Confirmar que coincide con la norma técnica chilena de MINSAL.
+- **Duración de la profilaxis secundaria (cardio-25)**: se puso lo de la AHA/OMS (sin carditis: 5 años o hasta los 21; carditis sin secuela: 10 años o hasta los 21; con secuela valvular: 10 años o hasta los 40, a veces de por vida), con penicilina benzatina cada 3-4 semanas. Confirmar el esquema del programa chileno (intervalo de 21 o 28 días y años de profilaxis).
+- **GES**: los campos antiguos decían «GES #24» y «GES #20» para todo: era falso y se quitaron. La cirugía de las válvulas aórtica, mitral y tricúspide (≥ 15 años) y las cardiopatías congénitas operables (< 15 años) tienen garantía GES, pero no escribí el número porque no lo tengo seguro. El libro antiguo decía además «TAVI - Garantía GES en Chile» (cardio-23): no hay respaldo, se eliminó y se dejó «su disponibilidad depende de cada centro».
+- **Estenosis mitral, área severa (cardio-25)**: el libro antiguo decía «severa < 1,5 cm²». Las guías actuales (AHA/ACC 2020) llaman significativa o severa a un área ≤ 1,5 cm²; la clasificación clásica es leve > 1,5, moderada 1,0-1,5, grave < 1,0. En el texto y la tabla se dejaron ambas.
+- **Edad de TAVI (cardio-23)**: el libro antiguo dice ≥ 75-80 años. ESC 2021: ≥ 75 años; AHA/ACC 2020: > 80 años, con decisión compartida entre 65 y 80. Se dejó «75-80 años o más, frágil o de riesgo alto».
+- **Insuficiencia aórtica, umbrales de cirugía (cardio-24)**: FEVI ≤ 55% (AHA/ACC) frente a ≤ 50% (ESC) y DFSVI > 50 mm (> 25 mm/m²). Se mantuvo el texto del libro antiguo (≤ 55% y > 50 mm).
+- **Endocarditis, esquema empírico (cardio-28)**: ampicilina + cloxacilina + gentamicina para válvula nativa comunitaria viene del texto antiguo (guía ESC 2015); la ESC 2023 cambió la recomendación (ampicilina o ceftriaxona con vancomicina según el contexto). Confirmar con infectología la práctica chilena.
+- **«Ritmo de Duroziez» frente a «signo de Duroziez»**: el libro antiguo llama «ritmo de Duroziez» al conjunto R1 intenso + chasquido + retumbo de la estenosis mitral (nombre clásico en la escuela chilena) y «signo de Duroziez» al doble soplo femoral de la insuficiencia aórtica. Se mantuvieron ambos (cardio-24 y cardio-25) y se aclara en el texto. Si el equipo prefiere evitar la confusión, usar «triple ritmo mitral».
+
+#### B · El libro se contradice
+
+- Umbral de estenosis mitral severa: el tema antiguo decía «severa < 1,5 cm²» y el texto sobre indicación de intervención usaba la misma cifra para la valvuloplastía; las guías separan «significativa» (≤ 1,5 cm²) de «grave» (< 1,0 cm²). Se unificó como se explica en A.
+- Dos temas hablaban de «soplo de Austin Flint» y de «estenosis mitral» en tablas comparativas distintas (4.3 y 4.4 antiguos); se unificó la explicación y la comparación quedó en el texto de cada tema.
+
+#### C · Falta información en el libro
+
+- El banco no trae ninguna pregunta de fiebre reumática, de criterios de Jones, de prolapso mitral con maniobras, de coartación con enunciado completo ni de profilaxis de endocarditis: las preguntas «Banco Oficial AEE» y el caso clínico de la clase son escritos por el autor.
+- Faltan cifras de seguimiento ecocardiográfico en el libro antiguo (se agregaron: severa cada 6-12 meses, moderada cada 1-2 años, leve cada 3-5 años).
+- No se encontraron fotos de eritema marginado, nódulos subcutáneos ni lesiones de Janeway (ver `FALTANTES_cardio_bloque_4.md`).
+
+#### Para quien integra
+
+- `figspec_cardiologia.cjs`: la entrada 4.6 (collage de coartación, ductus, Fallot y una radiografía) duplica la radiografía de coartación nueva (cardio-27 p. 365); conviene dejar solo una. La entrada 4.2 (válvula aórtica calcificada en eje corto) complementa la foto nueva (cardio-23); se puede dejar. Anotar: «quitar entrada 4.6 de figspec_cardiologia» solo si se prefieren las fotos nuevas con crédito completo.
+- Los números de las clases: cardio-25 y cardio-28 son tier 3 (4 páginas del libro cada uno). cardio-25 pasó de tier 2 a tier 3 porque ahora enseña fiebre reumática.
+- Los textos de «Síntesis operativa» (página final del bloque 4 del PDF) se generan desde las keyPoints: revisar que las abreviaturas no se corten en la tabla.
+
+#### Preguntas del banco descartadas
+
+- Diciembre 2022 P3: operado de coartación con soplo sistólico y soplo diastólico hasta el final de la diástole; la clave dice «recoartación aórtica», pero el cuadro es de insuficiencia aórtica por válvula bicúspide (misma historia que Diciembre 2018 P91, cuya clave es insuficiencia aórtica). La explicación del banco además es de asma (texto pegado por error).
+- Diciembre 2022 P17: el enunciado es una CIA clásica (soplo infantil, latido paraesternal derecho, soplo eyectivo con desdoblamiento fijo del segundo ruido y crepitaciones) y la clave marca «coartación aórtica» (E); parece desplazada (la CIA es la B). Explicación del banco también mezclada con asma.
+- Julio 2018 P32, Julio 2017 P24: CIA válidas pero con enunciados con palabras cortadas o encabezado del PDF; no aportan algo distinto de Julio 2025 P147 y Diciembre 2019 P28.
+- Diciembre 2019 P113 y Diciembre 2017 P1: un soplo sistólico III/VI paraesternal izquierdo en un joven asintomático con ECG normal; la clave marca CIA aunque la clínica es de soplo funcional («aparecía en las alternativas»).
+- Diciembre 2025 P174 (estenosis aórtica con soplo diastólico) y Diciembre 2025 P1: texto con «aór2ca» (artefacto de extracción de «ti»); en P1 se reparó, P174 se descartó por traer, además, un soplo diastólico que confunde.
+- Diciembre 2024 P131 y Diciembre 2024 P68: alternativas rotas («Ninguna de las anteriores…») y comentario del alumno dentro de la alternativa.
+- Julio 2017 P80: el banco trae el enunciado cortado (sin hallazgos de examen).
+- Julio 2015 P38 (rotura de papilar): va en cardio-15.
+- Julio 2016 P168, Julio 2017 P110, Julio 2015 P55 (estenosis aórtica clásica): válidas, repiten el patrón.
+- Diciembre 2018 P95, Diciembre 2019 P180, Agosto 2021 P137 (flutter): van en cardio-04 y necesitan el ECG.
+- Diciembre 2025 P150 (prótesis mecánica: acenocumarol): va en cardio-05.
+- Julio 2016 P115 (hemiparesia con soplo, endocarditis): válida, se dejó solo en el libro.
+
+### Cardiología · bloque 5 (cardio-29 a cardio-38) · dudas médicas
+
+#### A · Posible error en el contenido migrado (ya corregido en la reescritura; confirmar)
+- cardio-37 y cardio-38: el campo `ges` decía «GES #24 (Urgencia de Tromboembolismo)». No existe esa garantía: se dejó «No GES» (la HTA es el único problema GES del bloque: N.º 21).
+- cardio-30: el libro migrado decía «iniciar terapia dual desde el diagnóstico en grado 1 con riesgo moderado/alto o grado 2 (PA ≥ 150/95)». Se reescribió: dual (dosis fija) si PA ≥ 160/100 o riesgo alto; monoterapia razonable en grado 1 de riesgo bajo, frágiles y ≥ 80 años (coincide con Diciembre 2025 P177, que parte con un ARA II).
+- cardio-34: el libro migrado llamaba al pulso paradojal «Pulso Paradojal de Kussmaul». El signo de Kussmaul es otro (aumento de la presión yugular al inspirar, constricción); se corrigió y se explicó la diferencia.
+- cardio-31: el libro migrado ponía «ARR > 20-30» sin aclarar unidades; se dejó así y se agregó que solo la mitad de los Conn tiene potasio bajo.
+
+#### B · El libro se contradice o contradice el banco
+- Meta de PA (cardio-30): el migrado decía «< 130/80 en población general» y «PAS 130-139 a los 65-80 años», pero el banco real (Diciembre 2017 P65) usa «< 150/90 en un paciente de 85 años» y la norma GES usa < 140/90 (indicador de compensación). Se escribió por grupos: < 130/80 en diabéticos, coronarios, ERC y ACV (y < 65 años si se tolera); PAS 130-139 a los 65-79; < 150/90 en ≥ 80 años o frágiles; GES general < 140/90. Decidir si el libro debe fijar una sola meta general.
+- cardio-29: el migrado mezclaba «Grado 3 = ≥ 180/110» con «Grado 2 = PA ≥ 150/95». Se usó la clasificación 1: 140-159/90-99, 2: 160-179/100-109, 3: ≥ 180/110 (ESC); la norma MINSAL podría usar solo 2 etapas (confirmar).
+- cardio-37: Diciembre 2025 P8 (clave: trombólisis con tenecteplase) y el libro (alteplasa 100 mg en 2 h): se escribió alteplasa de elección y tenecteplase como alternativa aceptada. Coherente con resp-19.
+- Pregunta cardio-37 (Diciembre 2018 P99): la clave es ecocardiograma en el TEP masivo; resp-19 no lo menciona (se limita al angioTAC). No se contradicen, pero conviene agregar el ecocardiograma al libro de Respiratorio.
+
+#### C · Falta o conviene agregar
+- cardio-29: fuente y crédito de la figura del MAPA de `figspec_cardiologia` «5.1» (sin fuente anotada); tampoco hay fuente para las figuras «5.5» (ECG de pericarditis) y «5.7» (angioTAC de disección). No se pidió quitar ninguna: son útiles mientras no haya fotos con crédito (ver FALTANTES_cardio_bloque_5.md).
+- cardio-33: el banco real no trae un ECG de pericarditis utilizable (4 preguntas dependen de «el ECG que se muestra»); solo hay 1 pregunta real, más 1 del libro.
+- cardio-36: no hay foto de AAA con crédito (Blausen «Abdominal Aortic Aneurysm Location» está en assets3d pero con rótulos en inglés).
+- cardio-31 (topics): no se proponen cambios a v3_topic_codes.json. Una duda: los diagnósticos de hiperaldosteronismo y feocromocitoma tienen códigos propios de Endocrinología (1.03.1.009 ...) y aquí se enseñan al nivel «sospecha»; si Endocrinología los cubre, se podría mencionar.
+
+#### Preguntas del banco con clave dudosa (formato «Examen año Pn: …»)
+- Diciembre 2022 P105: diabético de 56 años, creatinina y RAC normales: clave atenolol (D). No es primera elección; esperaría ARA II/IECA (E: valsartán). Posible error de clave.
+- Diciembre 2022 P36: paciente con síntomas de IC y presión alta con carvedilol e hidroclorotiazida: clave doxazosina (E). Discutible (priorizaría IECA/ARA II).
+- Diciembre 2025 P86: AAA roto en poliquistosis renal con hipotensión: clave ecografía abdominal (A); en la práctica iría a eco FAST/angioTAC o pabellón. Se usó con la clave del banco.
+- Diciembre 2024 P150: ERC con TVP poplítea, mejor anticoagulante: clave enoxaparina (B); en ERC grave se prefiere heparina no fraccionada. Además el enunciado está pegado con otra pregunta. No usada.
+- Julio 2019 P30: embarazada con TVP previa por ACO: clave HBPM (D); la explicación admite vigilancia. No usada.
+- Julio 2017 P83: glomerulonefritis aguda con crisis hipertensiva: clave furosemida EV (B); la explicación dice que captopril también serviría. No usada.
+- Diciembre 2018 P7: clave captopril oral (D) coincide con el libro; la explicación del banco reconoce que la evidencia es errática.
+
+#### Preguntas del banco descartadas
+- cardio-29: Diciembre 2017 P65, Diciembre 2017 P9, Julio 2016 P14, Julio 2025 P32 (tratamiento: van en cardio-30); Diciembre 2022 P51 y Diciembre 2025 P171 (cardio-31); Diciembre 2024 P78 (alternativas rotas: «Amoxicilina, Ibuprofeno…»); Diciembre 2022 P105 y P36 (clave dudosa).
+- cardio-30: Diciembre 2025 P177 (cardio-29); Diciembre 2019 P122 y Enero 2023 P85 (repiten Julio 2019 P51); Julio 2016 P14 (repite Diciembre 2017 P9); Enero 2023 P86 y P180 (enunciados sin datos suficientes); Diciembre 2024 P78.
+- cardio-31: Enero 2023 P81 (repite Diciembre 2022 P51); Diciembre 2022 P121 y Enero 2023 P82 (diagnóstico por imagen suprarrenal); Diciembre 2024 P59 (sin enunciado utilizable); Diciembre 2018 P91 y Diciembre 2022 P3 (coartación operada: cardio-27).
+- cardio-32: Julio 2017 P83; Diciembre 2025 P48, Julio 2025 P115, Julio 2024 P109 y P141 (preeclampsia/eclampsia: ginecología); Agosto 2021 P144, Diciembre 2019 P12 y Julio 2025 P22 (disección: cardio-35).
+- cardio-33: Diciembre 2018 P94, Julio 2019 P81, Julio 2015 P59 y Diciembre 2022 P29 (dependen de un ECG que el banco no trae).
+- cardio-34: Diciembre 2024 P158 (enunciado roto).
+- cardio-35: Julio 2013 P16, Julio 2015 P37, Julio 2019 P143, Agosto 2021 P144, Diciembre 2017 P12, Enero 2023 P157 (diagnóstico clínico, repiten Diciembre 2019 P12 y Diciembre 2022 P98); Enero 2023 P163 (repite Diciembre 2022 P180).
+- cardio-36: ninguna otra pregunta utilizable.
+- cardio-37: Julio 2025 P86, Diciembre 2018 P97, Julio 2013 P83 (repiten diagnóstico/angioTAC); Agosto 2021 P147 (depende de una radiografía); Enero 2023 P4 y Diciembre 2022 P145 (certificado de defunción).
+- cardio-38: Diciembre 2017 P51 (repite Diciembre 2019 P54); Diciembre 2024 P149 y P150 (enunciados rotos); Julio 2019 P30; Julio 2013 P83.
+- Preguntas del libro migrado con recTag inventado («Reconstrucción Oficial EUNACOM … Pregunta #NN»): se cambiaron a «Banco Oficial AEE» (cardio-31 ×2, cardio-32 ×2, cardio-33, cardio-34, cardio-35, cardio-36, cardio-37 ×2 reemplazadas por preguntas reales).
+

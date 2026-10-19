@@ -1,0 +1,261 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Cardiología bloque 3 (IC y miocardio, cardio-16 a cardio-21). Gráficos de código (hemodinámica), sin órganos dibujados.
+//   ?v=pvloop   cardio-16 A1: asa presión-volumen del ventrículo izquierdo (normal, IC-FEr, IC-FEp)
+//   ?v=gdmt     cardio-17 A1: los cuatro pilares se inician y se titulan cada 2 semanas
+//   ?v=forrester cardio-18 A1: EAP hipertensivo, perfil de Forrester, tratamiento y respuesta
+//   ?v=shock4   cardio-19 A1: perfil hemodinámico de los cuatro shocks
+//   ?v=soplo    cardio-20 A1: soplo de la miocardiopatía hipertrófica según la maniobra
+//   ?v=restrictiva cardio-21 A1: presión ventricular en la diástole (normal, restrictiva) y FEVI por miocardiopatía
+const V = new URLSearchParams(location.search).get('v') || 'pvloop';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const K = KIT(L), { seg, fade } = K;
+const CRED = n => `Gráfico propio · criterios del Manual EUNACOM de Cardiología, tema ${n}`;
+const smooth = (t, a, d) => ease(seg(t, a, d));
+function line(pts, col, w, close) { ctx.strokeStyle = col; ctx.lineWidth = w; ctx.lineJoin = 'round'; ctx.beginPath(); pts.forEach((p, i) => i ? ctx.lineTo(p[0], p[1]) : ctx.moveTo(p[0], p[1])); if (close) ctx.closePath(); ctx.stroke(); }
+function arrowUD(x, y, up, col, a = 1, size = 20) { ctx.save(); ctx.globalAlpha *= a; ctx.fillStyle = col; ctx.beginPath(); if (up) { ctx.moveTo(x, y - size); ctx.lineTo(x - size * .8, y + size * .3); ctx.lineTo(x + size * .8, y + size * .3); } else { ctx.moveTo(x, y + size); ctx.lineTo(x - size * .8, y - size * .3); ctx.lineTo(x + size * .8, y - size * .3); } ctx.fill(); ctx.restore(); }
+
+// ============ cardio-16 A1: asas presión-volumen ============
+const PV = {
+  normal: { edv: 120, esv: 50, edp: 8, peak: 120, name: 'Normal', col: C.GREEN },
+  fer:    { edv: 210, esv: 155, edp: 24, peak: 95, name: 'IC-FEr', col: C.RED },
+  fep:    { edv: 105, esv: 48, edp: 26, peak: 150, name: 'IC-FEp', col: C.AMBER },
+};
+const GX = (v) => 110 + v * 2.55, GY = (p) => 610 - p * 3.0;
+function loopPts(s) {
+  const sv = s.edv - s.esv, pts = [];
+  const n = 40;
+  for (let i = 0; i <= n; i++) { const k = i / n; pts.push([s.esv + sv * k, 5 + (s.edp - 5) * Math.pow(k, 1.0 + (s.edp > 15 ? 1.8 : 0.6))]); }   // llenado (curva diastólica)
+  for (let i = 1; i <= n; i++) pts.push([s.edv, s.edp + (80 - s.edp) * (i / n)]);                                              // contracción isovolumétrica
+  for (let i = 1; i <= n; i++) { const k = i / n; pts.push([s.edv - sv * k, 80 + (s.peak - 80) * Math.sin(Math.PI * Math.min(k * 1.15, 1) * 0.5) - (k > 0.7 ? (k - 0.7) / 0.3 * (s.peak - s.peak * 0.85) : 0)]); } // eyección
+  for (let i = 1; i <= n; i++) pts.push([s.esv, lerp(s.peak * 0.85, 5, i / n)]);                                                // relajación isovolumétrica
+  return pts.map(([v, p]) => [GX(v), GY(p)]);
+}
+function mixState(a, b, k) { const o = {}; for (const key of ['edv', 'esv', 'edp', 'peak']) o[key] = lerp(a[key], b[key], k); return o; }
+function pvloop(t) {
+  K.title('El ventrículo en la insuficiencia cardíaca', 'Asa presión-volumen del ventrículo izquierdo', C.RED);
+  // ejes
+  ctx.strokeStyle = '#3A4350'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(GX(0), GY(0) + 4); ctx.lineTo(GX(0), GY(165)); ctx.moveTo(GX(0) - 4, GY(0)); ctx.lineTo(GX(260), GY(0)); ctx.stroke();
+  text('Volumen del ventrículo (mL)', GX(130), GY(0) + 34, 17, C.MUTED, '', 'center');
+  ctx.save(); ctx.translate(48, GY(80)); ctx.rotate(-Math.PI / 2); text('Presión (mmHg)', 0, 0, 17, C.MUTED, '', 'center'); ctx.restore();
+  // etapas: normal 1.5-8, FEr 9-18, FEp 19-29
+  let cur, name, col, ef;
+  const a = smooth(t, 9, 3), b = smooth(t, 19, 3);
+  cur = mixState(mixState(PV.normal, PV.fer, a), PV.fep, b);
+  col = t < 9 ? PV.normal.col : t < 19 ? PV.fer.col : PV.fep.col;
+  ef = Math.round(100 * (cur.edv - cur.esv) / cur.edv);
+  ctx.save(); ctx.globalAlpha = seg(t, 1, 1);
+  // asa normal de referencia (tenue) cuando no es la etapa 1
+  if (t > 8) { ctx.globalAlpha = 0.35 * seg(t, 8, 1); line(loopPts(PV.normal), C.GREEN, 3, true); text('normal', GX(112), GY(130), 16, C.GREEN, '', 'center'); ctx.globalAlpha = seg(t, 1, 1); }
+  const pts = loopPts(cur);
+  ctx.fillStyle = col + '2A'; ctx.beginPath(); pts.forEach((p, i) => i ? ctx.lineTo(p[0], p[1]) : ctx.moveTo(p[0], p[1])); ctx.fill();
+  line(pts, col, 5, true);
+  // punto que recorre el asa
+  const u = (t * 0.45) % 1, idx = Math.floor(u * (pts.length - 1)); const [px, py] = pts[idx];
+  ctx.fillStyle = '#fff'; ctx.beginPath(); ctx.arc(px, py, 8, 0, 7); ctx.fill();
+  ctx.restore();
+  // rótulos del asa
+  ctx.save(); ctx.globalAlpha = seg(t, 2, 1);
+  tag('Volumen sistólico (ancho del asa)', (GX(cur.edv) + GX(cur.esv)) / 2, GY(cur.peak * 0.45) + 0, col, 15);
+  ctx.restore();
+  // panel derecho
+  const x0 = 790, w = 460;
+  rrect(x0, 130, w, 150, 16, '#161B22');
+  const nm = t < 9 ? 'Ventrículo normal' : t < 19 ? 'IC con fracción reducida' : 'IC con fracción preservada';
+  text(nm, x0 + 22, 168, 24, col, 'bold');
+  text('FEVI', x0 + 22, 214, 20, C.MUTED); text(ef + ' %', x0 + w - 22, 222, 54, C.INK, 'bold', 'right');
+  rrect(x0 + 22, 236, w - 44, 14, 7, '#222833'); rrect(x0 + 22, 236, (w - 44) * clamp(ef / 80, 0, 1), 14, 7, col);
+  ctx.fillStyle = '#ddd'; ctx.fillRect(x0 + 22 + (w - 44) * 50 / 80, 230, 2, 26); ctx.fillRect(x0 + 22 + (w - 44) * 40 / 80, 230, 2, 26);
+  text('40', x0 + 22 + (w - 44) * 40 / 80, 272, 13, C.MUTED, '', 'center'); text('50', x0 + 22 + (w - 44) * 50 / 80, 272, 13, C.MUTED, '', 'center');
+  K.card(x0, 300, w, 120, C.GREEN, 'Normal', ['Llena fácil, expulsa más de la mitad'], fade(t, 1.6, 8.8), 18);
+  K.card(x0, 300, w, 170, C.RED, 'Fracción reducida (≤ 40%)', ['El asa se corre a la derecha: ventrículo', 'dilatado que no se contrae y expulsa poco', 'Remodelado excéntrico: isquemia, miocardiopatía'], fade(t, 9.4, 18.8), 18);
+  K.card(x0, 300, w, 170, C.AMBER, 'Fracción preservada (≥ 50%)', ['Cavidad normal, pared rígida: la presión de', 'llenado se dispara con poco volumen', 'Mujer añosa, hipertensa, diabética, obesa'], fade(t, 19.4, 31), 18);
+  K.banner(x0, 500, w, 'Los síntomas vienen de la presión de llenado', C.BLUE, fade(t, 22, 31));
+}
+
+// ============ cardio-17 A1: los cuatro pilares ============
+const PIL = [
+  { n: 'ARNI (sacubitrilo/valsartán)', col: C.BLUE, steps: [[0.6, '24/26 mg', 0.25], [2.6, '49/51 mg', 0.5], [4.6, '97/103 mg', 1]], note: 'Tras 36 h sin IECA' },
+  { n: 'Betabloqueador (bisoprolol)', col: C.GREEN, steps: [[0, '1,25 mg', 0.125], [2, '2,5 mg', 0.25], [4, '5 mg', 0.5], [6, '10 mg', 1]], note: 'Euvolémico, sin shock' },
+  { n: 'Espironolactona', col: C.AMBER, steps: [[1, '12,5 mg', 0.5], [3, '25 mg', 1]], note: 'K < 5,0 y VFG > 30' },
+  { n: 'iSGLT2 (dapagliflozina)', col: C.VIOLET, steps: [[0, '10 mg', 1]], note: 'Sin titulación' },
+];
+function gdmt(t) {
+  K.title('Cuatro pilares, titulados cada dos semanas', 'IC con fracción reducida: de la dosis inicial a la dosis meta', C.GREEN);
+  const wk = clamp((t - 3) / 2.8, 0, 8.4);   // 8 semanas en ~23 s
+  // línea de tiempo
+  const tx = 60, tw = 1160, ty = 150;
+  rrect(tx, ty, tw, 8, 4, '#222833'); rrect(tx, ty, tw * clamp(wk / 8, 0, 1), 8, 4, C.BLUE);
+  for (let w = 0; w <= 8; w += 2) { const X = tx + tw * w / 8; ctx.fillStyle = '#ddd'; ctx.fillRect(X - 1, ty - 6, 2, 20); text(w === 0 ? 'Inicio' : `Semana ${w}`, X, ty + 38, 16, C.MUTED, '', 'center'); }
+  text(`Semana ${Math.floor(wk)}`, 1240, 118, 26, C.INK, 'bold', 'right');
+  PIL.forEach((p, i) => {
+    const y = 230 + i * 100; const a = seg(t, 1.5 + i * 0.4, 0.6);
+    ctx.save(); ctx.globalAlpha = a;
+    text(p.n, 60, y, 22, p.col, 'bold');
+    let frac = 0, label = '—'; for (const [w, lab, f] of p.steps) if (wk >= w) { frac = f; label = lab; }
+    const target = p.steps[p.steps.length - 1];
+    rrect(60, y + 14, 760, 26, 13, '#222833');
+    let j = -1; p.steps.forEach(([w], q) => { if (wk >= w) j = q; });
+    const pf = j > 0 ? p.steps[j - 1][2] : 0, cf = j >= 0 ? p.steps[j][2] : 0;
+    const cur = j >= 0 ? lerp(pf, cf, ease(clamp((wk - p.steps[j][0]) / 0.5, 0, 1))) : 0;
+    rrect(60, y + 14, Math.max(0, 760 * cur), 26, 13, p.col);
+    text(label, 840, y + 36, 26, C.INK, 'bold');
+    text('meta: ' + target[1], 1240, y + 36, 20, C.MUTED, '', 'right');
+    text(p.note, 60, y + 66, 16, C.MUTED);
+    ctx.restore();
+  });
+  // controles
+  const ctrl = [[1, 'K + creatinina'], [3, 'K + creatinina'], [5, 'PA, FC, peso']];
+  ctrl.forEach(([w, s]) => { const X = tx + tw * w / 8; const aa = fade(t, 3 + w * 2.8 - 0.2, 3 + w * 2.8 + 2.4); if (aa > 0) tag(s, X, 190, C.BLUE, 15); });
+  K.banner(60, 640, 560, 'Furosemida: la mínima que mantenga el peso seco', C.AMBER, fade(t, 8, 31));
+  K.banner(660, 640, 560, 'A los 3 meses: ¿FEVI ≤ 35%? → DAI', C.RED, fade(t, 24, 33));
+}
+
+// ============ cardio-18 A1: EAP hipertensivo y su tratamiento ============
+function forrester(t) {
+  K.title('Edema agudo de pulmón hipertensivo', 'Perfil de Forrester y respuesta al tratamiento', C.RED);
+  const gx = 96, gy = 150, cw = 270, ch = 200;
+  const cells = [['A', 'Caliente y seco', 'Normal', 0, 0, C.GREEN], ['B', 'Caliente y húmedo', 'EAP clásico', 1, 0, C.AMBER], ['L', 'Frío y seco', 'Hipovolemia', 0, 1, C.BLUE], ['C', 'Frío y húmedo', 'Shock cardiogénico', 1, 1, C.RED]];
+  text('SECO', gx + cw * 0.5, gy - 12, 16, C.MUTED, 'bold', 'center'); text('HÚMEDO (congestión)', gx + cw * 1.5, gy - 12, 16, C.MUTED, 'bold', 'center');
+  cells.forEach(([k, a, b, cx, cy, col]) => {
+    const x = gx + cx * cw, y = gy + cy * ch; rrect(x + 4, y + 4, cw - 8, ch - 8, 14, '#161B22');
+    ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.roundRect(x + 4, y + 4, cw - 8, ch - 8, 14); ctx.stroke();
+    text(k, x + 24, y + 56, 40, col, 'bold'); text(a, x + 24, y + 100, 21, C.INK, 'bold'); text(b, x + 24, y + 130, 18, C.MUTED);
+  });
+  text('CALIENTE', 50, gy + ch * 0.5, 13, C.MUTED, 'bold', 'center'); text('FRÍO', 50, gy + ch * 1.5, 13, C.MUTED, 'bold', 'center');
+  // posición del paciente
+  const posB = [gx + cw * 1.5, gy + 165], posA = [gx + cw * 0.5, gy + 165], posC = [gx + cw * 1.5, gy + ch + 165];
+  let pos; const toA = smooth(t, 18, 3), toC = smooth(t, 25, 2.5);
+  pos = [lerp(posB[0], posA[0], toA), lerp(posB[1], posA[1], toA)]; if (t > 24) pos = [lerp(posA[0], posC[0], toC), lerp(posA[1], posC[1], toC)];
+  K.glow(pos[0], pos[1], 40, '255,255,255', 0.35); ctx.fillStyle = '#fff'; ctx.beginPath(); ctx.arc(pos[0], pos[1], 13, 0, 7); ctx.fill();
+  tag(t < 24 ? 'Paciente' : 'Otro paciente', pos[0], pos[1] - 34, '#fff', 15);
+  // monitores
+  const x0 = 700, w = 540;
+  const sat = t < 6 ? 78 : lerp(78, 95, smooth(t, 8, 5)), pa = t < 6 ? 210 : lerp(210, 140, smooth(t, 11.5, 5)) , pcp = lerp(32, 14, smooth(t, 15, 5)), fr = lerp(36, 20, smooth(t, 9, 8));
+  const down = t > 24;
+  rrect(x0, 130, w, 300, 16, '#161B22');
+  K.bar(x0 + 24, 172, w - 48, 'Saturación de O₂', down ? 88 : sat, 100, '%', sat < 90 ? C.RED : C.GREEN, [[90, '90']]);
+  K.bar(x0 + 24, 242, w - 48, 'Presión sistólica', down ? 78 : pa, 230, 'mmHg', down ? C.RED : (pa > 180 ? C.AMBER : C.GREEN), [[110, '110'], [90, '90']]);
+  K.bar(x0 + 24, 312, w - 48, 'Presión capilar pulmonar', down ? 28 : pcp, 40, 'mmHg', pcp > 20 || down ? C.RED : C.GREEN, [[18, '18']]);
+  K.bar(x0 + 24, 382, w - 48, 'Frecuencia respiratoria', down ? 30 : fr, 40, '/min', fr > 25 ? C.AMBER : C.GREEN, []);
+  // tratamiento
+  const acts = [[7, 'Sentado + CPAP', C.BLUE], [10.5, 'Nitroglicerina EV', C.AMBER], [14, 'Furosemida EV', C.GREEN]];
+  acts.forEach(([s, lab, col], i) => { const a = seg(t, s, 0.6) * (1 - seg(t, 23.5, 0.6)); if (a > 0) { ctx.save(); ctx.globalAlpha = a; rrect(x0 + i * 182, 456, 172, 60, 14, '#1B2230'); ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.roundRect(x0 + i * 182, 456, 172, 60, 14); ctx.stroke(); text(lab, x0 + i * 182 + 86, 492, 17, C.INK, 'bold', 'center'); ctx.restore(); } });
+  K.banner(x0, 540, w, 'Mejora: pasar a vía oral y buscar la causa', C.GREEN, fade(t, 20, 24));
+  K.card(x0, 456, w, 210, C.RED, 'Hipoperfusión: sin vasodilatadores', ['PAS < 90, piel fría: shock cardiogénico', 'Noradrenalina + dobutamina, UCI', 'Reperfusión si es un infarto'], seg(t, 25.5, 0.6), 19);
+  K.banner(60, 600, 600, 'La PA decide: vasodilatador o vasopresor', C.BLUE, fade(t, 3, 32));
+}
+
+// ============ cardio-19 A1: los cuatro shocks ============
+function shock4(t) {
+  K.title('Los cuatro shocks, en cuatro columnas', 'Gasto cardíaco, presión de llenado y resistencia', C.RED);
+  const x0 = 40, y0 = 140, rowH = 120, cw = [330, 200, 220, 200, 230];
+  const hdr = ['Tipo', 'Gasto', 'Presión de llenado', 'Resistencia', 'Piel y yugulares'];
+  let X = x0; const cx = [x0]; cw.forEach(w => { X += w; cx.push(X); });
+  hdr.forEach((h, i) => text(h, cx[i] + cw[i] / 2, y0 - 12, 18, C.MUTED, 'bold', 'center'));
+  const R = [
+    { n: 'Cardiogénico', sub: 'falla de bomba', col: C.RED, v: [['↓', 0], ['↑', 1], ['↑', 1]], skin: ['Fría, sudorosa', 'Yugulares altas, crépitos'] },
+    { n: 'Hipovolémico', sub: 'falta volumen', col: C.BLUE, v: [['↓', 0], ['↓↓', 0], ['↑', 1]], skin: ['Fría, mucosas secas', 'Yugulares planas'] },
+    { n: 'Distributivo', sub: 'séptico, anafiláctico', col: C.AMBER, v: [['↑', 1], ['↓', 0], ['↓↓', 0]], skin: ['Caliente, enrojecida', 'Yugulares bajas'] },
+    { n: 'Obstructivo', sub: 'TEP, taponamiento, neumotórax', col: C.VIOLET, v: [['↓', 0], ['PVC ↑', 1], ['↑', 1]], skin: ['Fría', 'Yugulares muy altas, pulmón limpio'] },
+  ];
+  R.forEach((r, i) => {
+    const a = seg(t, 2 + i * 5.2, 0.7), y = y0 + i * rowH; if (a <= 0) return;
+    ctx.save(); ctx.globalAlpha = a; rrect(x0, y, cx[5] - x0, rowH - 10, 14, '#161B22'); ctx.fillStyle = r.col; ctx.fillRect(x0, y, 7, rowH - 10);
+    text(r.n, x0 + 24, y + 48, 26, r.col, 'bold'); text(r.sub, x0 + 24, y + 80, 15, C.MUTED);
+    r.v.forEach(([s, up], j) => { const mx = cx[j + 1] + cw[j + 1] / 2; text(s, mx, y + 66, s.length > 2 ? 30 : 44, C.INK, 'bold', 'center'); });
+    text(r.skin[0], cx[4] + 14, y + 44, 18, C.INK, 'bold'); text(r.skin[1], cx[4] + 14, y + 74, 15, C.MUTED);
+    ctx.restore();
+  });
+  K.banner(40, 650, 560, 'Gasto bajo en tres de los cuatro', C.BLUE, fade(t, 23, 33));
+  K.banner(640, 650, 600, 'Solo el distributivo tiene resistencia baja', C.AMBER, fade(t, 26, 33));
+}
+
+// ============ cardio-20 A1: soplo de la MCH con las maniobras ============
+function soundWave(x, y, w, h, amp, col, t, label) {
+  ctx.save(); ctx.beginPath(); ctx.rect(x, y, w, h); ctx.clip();
+  rrect(x, y, w, h, 12, '#161B22'); ctx.strokeStyle = '#3A4350'; ctx.setLineDash([6, 6]); ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(x, y + h / 2); ctx.lineTo(x + w, y + h / 2); ctx.stroke(); ctx.setLineDash([]);
+  const T = 190, off = (t * 70) % T; const mid = y + h / 2;
+  ctx.strokeStyle = col; ctx.lineWidth = 2.5; ctx.beginPath();
+  for (let px = -T; px < w + T; px += 1.5) {
+    const u = ((px + off) % T + T) % T / T;
+    const s1 = Math.exp(-Math.pow((u - 0.05) / 0.012, 2)) * Math.sin(u * 900) * 0.8;
+    const s2 = Math.exp(-Math.pow((u - 0.45) / 0.012, 2)) * Math.sin(u * 900 + 1) * 0.7;
+    let m = 0; if (u > 0.09 && u < 0.43) { const k = (u - 0.09) / 0.34; m = amp * Math.sin(Math.PI * k) * Math.sin(u * 1300) * 0.9; }   // soplo en forma de rombo
+    const yy = mid - (s1 + s2 + m) * h * 0.4; px === -T ? ctx.moveTo(x + px, yy) : ctx.lineTo(x + px, yy);
+  }
+  ctx.stroke(); ctx.restore();
+  text(label, x + 14, y + 26, 17, col, 'bold'); text('S1', x + w * 0.0 + ((0.05 * T - off + T * 3) % T) + 20 + 30, y + h - 10, 13, C.MUTED);
+}
+function soplo(t) {
+  K.title('Soplo de la miocardiopatía hipertrófica', 'Cambia con el volumen del ventrículo: la maniobra lo delata', C.RED);
+  const M = [
+    { s: 2, e: 7, n: 'En reposo', mch: 1.0, ao: 1.0, vol: 0.6, col: C.MUTED },
+    { s: 7, e: 13, n: 'Valsalva', mch: 1.9, ao: 0.5, vol: 0.25, col: C.RED },
+    { s: 13, e: 19, n: 'De pie', mch: 1.8, ao: 0.55, vol: 0.28, col: C.RED },
+    { s: 19, e: 26, n: 'Cuclillas', mch: 0.35, ao: 1.5, vol: 0.9, col: C.BLUE },
+    { s: 26, e: 33, n: 'Handgrip', mch: 0.45, ao: 0.6, vol: 0.8, col: C.BLUE },
+  ];
+  let i = 0; M.forEach((m, k) => { if (t >= m.s) i = k; });
+  const m = M[i], pm = M[Math.max(i - 1, 0)], k = smooth(t, m.s, 1.2);
+  const amp = lerp(pm.mch, m.mch, k), aao = lerp(pm.ao, m.ao, k), vol = lerp(pm.vol, m.vol, k);
+  soundWave(40, 140, 800, 190, amp, C.RED, t, 'Miocardiopatía hipertrófica');
+  soundWave(40, 350, 800, 190, aao, C.BLUE, t, 'Estenosis aórtica (lo opuesto)');
+  // volumen del ventrículo
+  rrect(880, 140, 360, 400, 16, '#161B22'); text('Volumen del ventrículo izquierdo', 1060, 176, 18, C.MUTED, '', 'center');
+  rrect(1020, 200, 80, 270, 12, '#222833'); const hh = 270 * vol; rrect(1020, 200 + 270 - hh, 80, hh, 12, vol < 0.5 ? C.RED : C.GREEN);
+  text(vol < 0.5 ? 'Poco volumen: se estrecha la salida' : 'Más volumen: la salida se abre', 1060, 506, 16, C.INK, 'bold', 'center');
+  // maniobra
+  tag(m.n, 640, 590, m.col === C.MUTED ? '#9AA0A6' : m.col, 26);
+  text(i === 0 ? '' : (m.mch > 1 ? 'El soplo de la MCH AUMENTA' : 'El soplo de la MCH DISMINUYE'), 640, 640, 26, m.col, 'bold', 'center');
+  K.banner(40, 650, 520, 'Valsalva, de pie, nitratos: menos precarga', C.RED, fade(t, 3, 33) * 0);
+}
+
+// ============ cardio-21 A1: restrictiva ============
+function press(u, kind) {   // presión ventricular a lo largo del ciclo (u 0-1)
+  const sys = u < 0.38 ? 118 * Math.sin(Math.PI * clamp(u / 0.38, 0, 1)) ** 0.8 : 0;
+  let dia = 0;
+  if (u >= 0.38) {
+    const k = (u - 0.38) / 0.62;
+    if (kind === 'normal') dia = 6 + 4 * k + Math.max(0, 40 * Math.exp(-k * 14) * (1 - 0));
+    else dia = k < 0.1 ? lerp(38, 3, k / 0.1) : 3 + 25 * (1 - Math.exp(-(k - 0.1) * 22));
+  }
+  return sys + dia;
+}
+function restrictiva(t) {
+  K.title('Miocardiopatía restrictiva: un ventrículo que no se llena', 'Presión del ventrículo durante el ciclo', C.VIOLET);
+  const x = 60, y = 140, w = 700, h = 330;
+  rrect(x, y, w, h, 16, '#161B22'); ctx.strokeStyle = '#3A4350'; ctx.setLineDash([6, 6]); ctx.beginPath(); ctx.moveTo(x + 20, y + h - 40); ctx.lineTo(x + w - 20, y + h - 40); ctx.stroke(); ctx.setLineDash([]);
+  text('Sístole', x + 120, y + 30, 16, C.MUTED, '', 'center'); text('Diástole', x + 460, y + 30, 16, C.MUTED, '', 'center');
+  const drawC = (kind, col, a, upto) => { if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.strokeStyle = col; ctx.lineWidth = 4; ctx.lineJoin = 'round'; ctx.beginPath();
+    const n = 200; for (let i = 0; i <= n * upto; i++) { const u = i / n, X = x + 30 + u * (w - 60), Y = y + h - 40 - press(u, kind) * 2.0; i ? ctx.lineTo(X, Y) : ctx.moveTo(X, Y); } ctx.stroke(); ctx.restore(); };
+  drawC('normal', C.GREEN, seg(t, 1, 0.6) * (t > 14 ? 0.45 : 1), smooth(t, 1.5, 4));
+  drawC('rest', C.VIOLET, seg(t, 8, 0.6), smooth(t, 8.5, 4));
+  ctx.save(); ctx.globalAlpha = fade(t, 5, 12); tag('Normal: llenado suave, presión baja', x + 500, y + 200, C.GREEN, 16); ctx.restore();
+  ctx.save(); ctx.globalAlpha = seg(t, 13, 0.8); tag('Restrictiva: caída y meseta («raíz cuadrada»)', x + 440, y + 105, C.VIOLET, 16); ctx.restore();
+  // FEVI por miocardiopatía
+  const bx = 800, bw = 440; rrect(bx, 140, bw, 330, 16, '#161B22'); text('Fracción de eyección según el tipo', bx + bw / 2, 176, 18, C.MUTED, '', 'center');
+  [['Dilatada', 25, C.RED, 18], ['Restrictiva', 56, C.VIOLET, 21], ['Hipertrófica', 70, C.GREEN, 24]].forEach(([n, v, col, s], i) => { const yy = 206 + i * 80, a = seg(t, s - 3, 0.8) ; if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; text(n, bx + 24, yy + 18, 20, C.INK, 'bold'); text(v + ' %', bx + bw - 24, yy + 18, 22, col, 'bold', 'right'); rrect(bx + 24, yy + 30, bw - 48, 14, 7, '#222833'); rrect(bx + 24, yy + 30, (bw - 48) * v / 100 * smooth(t, s - 2.6, 1.5), 14, 7, col); ctx.restore(); });
+  K.card(60, 490, 380, 150, C.VIOLET, 'ECG de bajo voltaje', ['con paredes gruesas:', 'sospecha de amiloidosis'], seg(t, 17, 0.6), 18);
+  K.card(460, 490, 380, 150, C.AMBER, 'Aurículas gigantes', ['y ventrículos normales;', 'IC derecha, Kussmaul'], seg(t, 20, 0.6), 18);
+  K.card(860, 490, 380, 150, C.RED, 'Cuidado con', ['digoxina, betabloqueador y', 'diuréticos en exceso'], seg(t, 23, 0.6), 18);
+}
+
+const SCN = {
+  pvloop: { f: pvloop, dur: 32, cred: CRED('3.1') }, gdmt: { f: gdmt, dur: 34, cred: CRED('3.2') },
+  forrester: { f: forrester, dur: 33, cred: CRED('3.3') }, shock4: { f: shock4, dur: 34, cred: CRED('3.4') },
+  soplo: { f: soplo, dur: 34, cred: CRED('3.5') }, restrictiva: { f: restrictiva, dur: 30, cred: CRED('3.6') },
+};
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t);
+  ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(700, 696, 580, 24); text(SCN[V].cred, 1268, 712, 13, C.MUTED, '', 'right');
+};
+LOAD({});
+</script>
+</body></html>

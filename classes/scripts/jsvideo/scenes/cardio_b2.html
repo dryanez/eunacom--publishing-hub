@@ -1,0 +1,295 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Cardiología, bloque 2 «Coronario» (cardio-10, 11, 12, 13, 15; cardio-14 está en cardio_nuevas.html).
+//   ?v=troponina   cardio-10 A1: curva de la troponina ultrasensible y de la CK-MB, algoritmo 0/1 h y causas de elevación (gráfico de código)
+//   ?v=ergometria  cardio-11 A1: ergometría de Bruce, infradesnivel del ST en V5 y criterios de alto riesgo (gráfico de código)
+//   ?v=placa       cardio-12 A1: placa estable (≥ 70%), demanda y aporte de oxígeno en el esfuerzo, efecto del betabloqueador (Blausen)
+//   ?v=scasest     cardio-13 A1: trombo blanco suboclusivo, microembolización, ECG con infradesnivel y troponina (Blausen)
+//   ?v=mecanicas   cardio-15 A1: línea de tiempo del infarto y fonocardiograma de las roturas mecánicas (gráfico de código)
+//   ?v=prinzmetal  cardio-15 A2: espasmo de la descendente anterior, ST transitorio y tratamiento (Blausen)
+// Lámina: Blausen «Coronary Circulation (Anterior)», CC BY 3.0 (assets/blausen/coronarias_anterior.png, 1594x1413).
+const V = new URLSearchParams(location.search).get('v') || 'troponina';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const I = k => window.IMGS[k];
+const CRED_G = n => `Gráfico propio · criterios del Manual EUNACOM de Cardiología, tema 2.${n}`;
+const CRED_B = 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios';
+const g = (x, m, w) => Math.exp(-((x - m) * (x - m)) / (2 * w * w));
+const sg = x => 1 / (1 + Math.exp(-x));
+
+// ---------- latido con infra/supradesnivel horizontal del ST (d > 0 = infradesnivel; d < 0 = supradesnivel) ----------
+function beat2(u, d, tamp = 1) {
+  let y = 0.11 * g(u, 0.14, 0.025);                                                   // P
+  y += -0.10 * g(u, 0.285, 0.008) + 1.0 * g(u, 0.31, 0.010) - 0.20 * g(u, 0.335, 0.009); // QRS
+  const win = sg((u - 0.345) / 0.012) - sg((u - 0.62) / 0.03);                         // ventana ST-T
+  y += -0.34 * d * win;
+  y += 0.26 * tamp * g(u, 0.70, 0.05);                                                 // T
+  return y;
+}
+function lead(x, y, w, h, t, d, label, col, a = 1, tamp = 1, hr = 70) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  rrect(x, y, w, h, 16, '#161B22'); text(label, x + 20, y + 30, 18, C.MUTED, 'bold');
+  ctx.save(); ctx.beginPath(); ctx.rect(x + 12, y + 40, w - 24, h - 48); ctx.clip();
+  ctx.strokeStyle = '#2A1F25'; ctx.lineWidth = 1;
+  for (let gx = x + 12; gx < x + w; gx += 20) { ctx.beginPath(); ctx.moveTo(gx, y + 40); ctx.lineTo(gx, y + h); ctx.stroke(); }
+  for (let gy = y + 40; gy < y + h; gy += 20) { ctx.beginPath(); ctx.moveTo(x, gy); ctx.lineTo(x + w, gy); ctx.stroke(); }
+  const base = y + h * 0.60, amp = h * 0.40, bw = 230 * 70 / hr, off = (t * 60) % bw;
+  ctx.setLineDash([6, 6]); ctx.strokeStyle = '#3A4350'; ctx.lineWidth = 1.5;
+  ctx.beginPath(); ctx.moveTo(x + 12, base); ctx.lineTo(x + w - 12, base); ctx.stroke(); ctx.setLineDash([]);
+  ctx.strokeStyle = col; ctx.lineWidth = 3.2; ctx.lineJoin = 'round'; ctx.beginPath();
+  for (let px = -bw; px < w; px += 2) {
+    const u = ((((px + off) % bw) + bw) % bw) / bw, X = x + 12 + px, Y = base - amp * beat2(u, typeof d === 'function' ? d(px) : d, tamp);
+    px === -bw ? ctx.moveTo(X, Y) : ctx.lineTo(X, Y);
+  }
+  ctx.stroke(); ctx.restore(); ctx.restore();
+}
+
+// ====================== cardio-10 A1: troponina ======================
+const TICKS = [[0, '0'], [1, '1 h'], [3, '3 h'], [6, '6 h'], [12, '12 h'], [24, '24 h'], [72, '3 días'], [168, '7 días'], [336, '14 días']];
+function xOf(h, x0, w) {
+  for (let i = 1; i < TICKS.length; i++) if (h <= TICKS[i][0]) { const a = TICKS[i - 1][0], b = TICKS[i][0]; return x0 + w * ((i - 1) + (h - a) / (b - a)) / (TICKS.length - 1); }
+  return x0 + w;
+}
+const trop = h => 0.03 + 0.97 * sg((h - 4.5) / 2.6) * (h < 24 ? 1 : Math.exp(-(h - 24) / 120));
+const ckmb = h => 0.03 + 0.55 * sg((h - 9) / 4) * (h < 24 ? 1 : Math.exp(-(h - 24) / 20));
+function troponina(t) {
+  K.title('La troponina se lee por su curva', 'Troponina ultrasensible y CK-MB después del inicio de la necrosis', C.RED);
+  const X0 = 80, W = 660, Y0 = 520, H = 330, top = Y0 - H;
+  rrect(40, 130, 740, 440, 16, '#161B22');
+  ctx.strokeStyle = '#3A4350'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(X0, top - 10); ctx.lineTo(X0, Y0); ctx.lineTo(X0 + W + 10, Y0); ctx.stroke();
+  TICKS.forEach(([h, lab]) => { const x = xOf(h, X0, W); ctx.fillStyle = '#5B6573'; ctx.fillRect(x - 1, Y0, 2, 8); text(lab, x, Y0 + 28, 15, C.MUTED, '', 'center'); });
+  text('Horas desde el inicio del infarto', X0 + W / 2, Y0 + 54, 16, C.MUTED, '', 'center');
+  const yP99 = Y0 - H * 0.12;
+  ctx.setLineDash([8, 6]); ctx.strokeStyle = C.AMBER; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(X0, yP99); ctx.lineTo(X0 + W, yP99); ctx.stroke(); ctx.setLineDash([]);
+  text('Percentil 99', X0 + W - 6, yP99 - 8, 15, C.AMBER, 'bold', 'right');
+  const pr = ease(seg(t, 2, 11)), hMax = TICKS[TICKS.length - 1][0];
+  function curve(f, col, wid, lab, lx, ly, a0) {
+    ctx.strokeStyle = col; ctx.lineWidth = wid; ctx.lineJoin = 'round'; ctx.beginPath();
+    const n = 300; let last = null;
+    for (let i = 0; i <= n * pr; i++) { const k = i / n, h = k < 0.5 ? lerp(0, 24, k / 0.5) : lerp(24, hMax, (k - 0.5) / 0.5), x = xOf(h, X0, W), y = Y0 - H * f(h); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); last = [x, y]; }
+    ctx.stroke(); if (pr > a0) tag(lab, lx, ly, col, 17);
+  }
+  curve(ckmb, C.BLUE, 4, 'CK-MB (obsoleta)', 560, Y0 - H * 0.74, 0.5);
+  curve(trop, C.RED, 5, 'Troponina ultrasensible', 330, top + 20, 0.3);
+  // algoritmo 0/1 h
+  const a = seg(t, 14, 0.6);
+  if (a > 0) { ctx.save(); ctx.globalAlpha = a;
+    [[0, '0 h'], [1, '1 h']].forEach(([h, s]) => { const x = xOf(h, X0, W), y = Y0 - H * trop(h); ctx.fillStyle = C.AMBER; ctx.beginPath(); ctx.arc(x, y, 8, 0, 7); ctx.fill(); ctx.strokeStyle = C.AMBER; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(x, Y0); ctx.stroke(); });
+    tag('Valor basal y delta a la hora', 400, Y0 - 38, C.AMBER, 17); ctx.restore(); }
+  K.card(810, 130, 430, 170, C.RED, 'Infarto con supradesnivel', ['El ECG y la clínica bastan:', 'se reperfunde sin esperar la troponina'], fade(t, 3, 14), 19);
+  K.card(810, 130, 430, 210, C.AMBER, 'Algoritmo de 0 y 1 hora', ['Basal muy bajo o sin delta: descarta', 'Basal muy alto o delta marcado: confirma', 'Intermedio: repetir a las 3 horas'], seg(t, 14.5, 0.5), 18);
+  K.card(810, 355, 430, 215, C.VIOLET, 'Sube sin infarto coronario', ['Insuficiencia renal o cardíaca', 'Miocarditis · embolia pulmonar · sepsis', 'Taquiarritmia · disección · Takotsubo'], seg(t, 19, 0.5), 18);
+  K.banner(810, 596, 430, 'Normal al inicio no descarta angina inestable', C.GREEN, seg(t, 23.5, 0.5));
+  ctx.save(); ctx.globalAlpha = seg(t, 26, 0.5); text('Sube a las 1-3 h · pico 12-24 h · dura 7-14 días', 40, 622, 19, C.INK, 'bold'); ctx.restore();
+}
+
+// ====================== cardio-11 A1: ergometría ======================
+const BRUCE = [
+  { n: 'Reposo', met: '1', fc: 72, pa: 128 },
+  { n: 'Estadio 1', met: '4,6', fc: 112, pa: 150 },
+  { n: 'Estadio 2', met: '7', fc: 138, pa: 138 },
+  { n: 'Recuperación', met: '', fc: 104, pa: 130 },
+];
+function ergometria(t) {
+  K.title('Ergometría: cuándo el ST dice isquemia', 'Protocolo de Bruce en cinta rodante · derivación V5', C.AMBER);
+  const stg = t < 3 ? 0 : t < 12 ? 1 : t < 21 ? 2 : 3;
+  const dST = t < 3 ? 0 : t < 12 ? lerp(0, 1.4, ease(seg(t, 3.5, 8))) : t < 21 ? lerp(1.4, 2.6, ease(seg(t, 12, 8))) : lerp(2.6, 1.8, ease(seg(t, 22, 6)));
+  const hr = [BRUCE[0].fc, BRUCE[1].fc, BRUCE[2].fc, BRUCE[3].fc][stg];
+  const fcNow = t < 3 ? 72 : t < 12 ? lerp(72, 112, ease(seg(t, 3, 6))) : t < 21 ? lerp(112, 138, ease(seg(t, 12, 7))) : lerp(138, 100, ease(seg(t, 21, 8)));
+  lead(40, 130, 780, 300, t, dST, 'V5 · el infradesnivel se mide 80 ms después del punto J', dST >= 1 ? C.RED : C.GREEN, seg(t, 0.2, 0.6), 1, Math.max(60, fcNow));
+  // marcador J+80 ms
+  ctx.save(); ctx.globalAlpha = seg(t, 5, 0.5); tag('J + 80 ms', 712, 168, C.AMBER, 16); ctx.restore();
+  ctx.save(); ctx.globalAlpha = clamp((dST - 0.9) / 0.4, 0, 1) * (1 - seg(t, 12, 0.4)); tag('≥ 1 mm horizontal: positiva', 560, 405, C.RED, 18); ctx.restore();
+  ctx.save(); ctx.globalAlpha = fade(t, 15, 22); tag('≥ 2 mm: alto riesgo', 560, 405, C.RED, 18); ctx.restore();
+  // etapas
+  const x0 = 850, y0 = 130, rowH = 58; rrect(x0, y0, 390, 4 * rowH + 20, 16, '#161B22'); ctx.globalAlpha = seg(t, 0.6, 0.6);
+  BRUCE.forEach((s, k) => { const on = k === stg, y = y0 + 14 + k * rowH;
+    if (on) rrect(x0 + 10, y, 370, rowH - 8, 12, '#232B37');
+    ctx.fillStyle = on ? C.AMBER : '#343C48'; ctx.beginPath(); ctx.arc(x0 + 32, y + 24, 9, 0, 7); ctx.fill();
+    text(s.n, x0 + 56, y + 21, 18, on ? C.INK : '#7E8794', 'bold'); text(s.met ? `${s.met} METs` : 'sentado', x0 + 56, y + 40, 15, on ? C.AMBER : '#5B6573'); });
+  ctx.globalAlpha = 1;
+  K.bar(850, 400, 390, 'Frecuencia cardíaca', fcNow, 180, 'lpm', C.BLUE, [[150, '']]);
+  const pa = t < 3 ? 128 : t < 12 ? lerp(128, 152, ease(seg(t, 3, 8))) : t < 21 ? lerp(152, 138, ease(seg(t, 14, 6))) : lerp(138, 128, ease(seg(t, 22, 6)));
+  K.bar(850, 470, 390, 'Presión sistólica', pa, 200, 'mmHg', pa < 145 && t > 15 && t < 22 ? C.RED : C.GREEN, []);
+  K.banner(850, 556, 390, 'Cae la PAS > 10 mmHg: alto riesgo', C.RED, fade(t, 15.5, 22.5));
+  // textos inferiores
+  ctx.save(); ctx.globalAlpha = fade(t, 0.5, 11.5); text('Primera prueba si puede ejercitarse y el ECG basal se puede interpretar', 430, 470, 19, C.INK, 'bold', 'center'); ctx.restore();
+  ctx.save(); ctx.globalAlpha = fade(t, 12.5, 22.5); text('Aparece en el estadio 1 de Bruce (< 5 METs) = alto riesgo → coronariografía', 430, 470, 19, C.RED, 'bold', 'center'); ctx.restore();
+  ctx.save(); ctx.globalAlpha = seg(t, 23.5, 0.6); text('No sirve con BCRI, marcapaso, WPW, HVI con sobrecarga o digoxina', 430, 470, 19, C.AMBER, 'bold', 'center'); ctx.restore();
+  K.card(40, 500, 780, 180, C.GREEN, 'Con ECG basal no interpretable o sin poder ejercitarse', ['Ecocardiograma con dobutamina o cintigrafía de perfusión (SPECT)', 'Isquemia reversible = defecto que aparece en esfuerzo y se corrige en reposo'], seg(t, 26, 0.6), 19);
+}
+
+// ====================== Blausen: arteria descendente anterior ======================
+const DST = { x: 24, y: 122 }, S = 0.385, HW = 1594 * S, HH = 1413 * S;
+const P = (x, y) => [DST.x + x * S, DST.y + y * S];
+const LAD_IMG = [[885, 575], [878, 620], [872, 670], [868, 720], [878, 770], [897, 820], [912, 870], [918, 930], [922, 990], [930, 1050], [946, 1110], [975, 1150]];
+const LAD = poly(LAD_IMG.map(p => P(...p)));
+const TERR = [[865, 760], [960, 720], [1070, 740], [1135, 810], [1165, 920], [1160, 1040], [1120, 1160], [1050, 1225], [965, 1245], [915, 1210], [915, 1100], [890, 980], [872, 860]];
+const terrPath = () => { ctx.beginPath(); TERR.forEach((p, i) => { const [x, y] = P(...p); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }); ctx.closePath(); };
+const S_ST = 0.30;                                                  // posición de la estenosis en la arteria
+function drawHeart(t, la) {
+  ctx.save(); ctx.globalAlpha = la; rrect(DST.x - 6, DST.y - 6, HW + 12, HH + 12, 18, '#FFFFFF');
+  ctx.beginPath(); ctx.roundRect(DST.x, DST.y, HW, HH, 14); ctx.clip(); ctx.drawImage(I('cor'), DST.x, DST.y, HW, HH); ctx.restore();
+}
+function ischemia(a) {                                              // mancha oscura del territorio de la DA
+  if (a <= 0) return; ctx.save(); ctx.beginPath(); ctx.roundRect(DST.x, DST.y, HW, HH, 14); ctx.clip(); ctx.filter = 'blur(9px)'; terrPath();
+  const [cx, cy] = P(1040, 980); const gr = ctx.createRadialGradient(cx, cy, 10, cx, cy, 300 * S / 0.425);
+  gr.addColorStop(0, `rgba(70,20,70,${0.85 * a})`); gr.addColorStop(1, `rgba(110,40,90,${0.65 * a})`); ctx.fillStyle = gr; ctx.fill(); ctx.restore();
+}
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill(); tag(s, x, y, col, size); ctx.restore();
+}
+function flow(t, rate, passFrac, a = 1) {                           // glóbulos rojos: pasan solo passFrac de ellos por la estenosis
+  for (let i = 0; i < 12; i++) {
+    const u = ((t * rate) + i / 12) % 1; let s = u;
+    if (s > S_ST && rnd(i + Math.floor(t * rate + i / 12) * 13) > passFrac) continue;
+    const [x, y] = LAD.at(s); ctx.globalAlpha = Math.min(1, u * 6, (1 - u) * 6) * 0.95 * a; ctx.fillStyle = '#FF3B30'; ctx.beginPath(); ctx.arc(x, y, 3.8, 0, 7); ctx.fill();
+  }
+  ctx.globalAlpha = 1;
+}
+function stenosis(sev, col = '#E8C24A') {                           // placa amarilla con luz residual
+  if (sev <= 0) return; ctx.save(); ctx.lineCap = 'round';
+  LAD.stroke(ctx, S_ST - 0.05, S_ST + 0.05, 10 + 12 * sev, col); LAD.stroke(ctx, S_ST - 0.05, S_ST + 0.05, Math.max(2.5, 8 * (1 - sev)), '#B3261E'); ctx.restore();
+}
+function o2panel(x, y, w, dem, sup, a) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; rrect(x, y, w, 128, 16, '#161B22');
+  K.bar(x + 20, y + 34, w - 40, 'Demanda de O₂', dem, 100, '', C.AMBER, [], v => ''); K.bar(x + 20, y + 88, w - 40, 'Aporte de O₂', sup, 100, '', C.BLUE, [], v => ''); ctx.restore();
+}
+
+// ====================== cardio-12 A1: placa estable y esfuerzo ======================
+function placa(t) {
+  K.title('Placa estable: el dolor aparece con el esfuerzo', 'Estenosis fija ≥ 70% de la descendente anterior', C.BLUE);
+  drawHeart(t, seg(t, 0, 0.7));
+  const ex = ease(seg(t, 7, 3)) * (1 - ease(seg(t, 18, 2.5))) + ease(seg(t, 24, 3)) * 0.75 * (1 - ease(seg(t, 31.5, 1.5)));
+  const bb = t > 22 ? 1 : 0;
+  const fc = lerp(70, 135, ex) - (bb ? 28 * ex : 0);
+  const dem = 18 + 78 * ex * (bb ? 0.62 : 1);
+  const sup = Math.min(dem, 18 + 26 + (t > 28 ? 6 : 0));  // el aporte no sube más allá de la estenosis
+  const apo = Math.min(dem, 44 + (bb ? 4 : 0));
+  const isq = dem > apo + 4 ? clamp((dem - apo) / 40, 0, 1) : 0;
+  ischemia(isq * 0.9);
+  stenosis(ease(seg(t, 1.5, 1.5)) * 0.8);
+  flow(t, 0.16 + 0.1 * ex, 0.62);
+  label('Estenosis fija ≥ 70%', 430, 170, C.AMBER, ...LAD.at(S_ST), fade(t, 2.5, 7));
+  label('Isquemia en el esfuerzo', 480, 650, '#C79BFF', ...P(1050, 1010), clamp(isq * 3, 0, 1));
+  const d = isq > 0.15 ? 1.6 * isq : 0;
+  lead(660, 126, 580, 170, t, d, 'V5 · ECG durante la actividad', d > 1 ? C.RED : C.GREEN, seg(t, 1, 0.6), 1, Math.max(60, fc));
+  ctx.save(); ctx.globalAlpha = clamp((d - 0.8) / 0.4, 0, 1); tag('Infradesnivel del ST + angina', 1085, 160, C.RED, 16); ctx.restore();
+  K.bar(660, 332, 580, 'Frecuencia cardíaca', fc, 180, 'lpm', C.BLUE, []);
+  o2panel(660, 398, 580, dem, apo, seg(t, 3, 0.6));
+  K.card(660, 540, 580, 70, C.GREEN, 'Reposo o nitroglicerina: cede en < 5 min', [], fade(t, 18.5, 22.3), 17);
+  K.card(660, 540, 580, 70, C.BLUE, 'Betabloqueador: FC 55-60 y menos consumo', [], seg(t, 22.5, 0.6), 17);
+  K.card(660, 620, 580, 70, C.RED, 'Aspirina + estatina reducen infarto y muerte', [], seg(t, 30, 0.6), 17);
+  ctx.save(); ctx.globalAlpha = fade(t, 7.5, 17.5); tag('Al subir la demanda, el aporte no puede aumentar', 330, 150, C.AMBER, 15); ctx.restore();
+}
+
+// ====================== cardio-13 A1: SCASEST ======================
+function scasest(t) {
+  K.title('Trombo blanco: la arteria sigue parcialmente abierta', 'Síndrome coronario agudo sin supradesnivel del ST', C.AMBER);
+  drawHeart(t, seg(t, 0, 0.7));
+  const rup = ease(seg(t, 3, 1.5)), clot = ease(seg(t, 5, 3));
+  const emb = seg(t, 9, 6), isq = clamp(ease(seg(t, 10, 8)) * 0.55, 0, 0.55);
+  ischemia(isq);
+  stenosis(0.55 * seg(t, 0.8, 1), '#E8C24A');
+  if (clot > 0) { const [x, y] = LAD.at(S_ST); ctx.save(); ctx.globalAlpha = clot; ctx.fillStyle = '#F3EEF0'; ctx.strokeStyle = '#8D8590'; ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.ellipse(x - 14, y, 13 * clot + 3, 8 * clot + 2, 0.5, 0, 7); ctx.fill(); ctx.stroke(); ctx.restore(); }
+  flow(t, 0.15, 1 - 0.55 * clot);
+  // émbolos plaquetarios hacia distal
+  if (emb > 0) for (let i = 0; i < 5; i++) { const u = clamp(emb * 1.2 - i * 0.14, 0, 1), s = lerp(S_ST, 0.95, u); if (u <= 0 || u >= 1) continue; const [x, y] = LAD.at(s, (i - 2) * 3); ctx.fillStyle = '#F3EEF0'; ctx.beginPath(); ctx.arc(x, y, 3, 0, 7); ctx.fill(); }
+  label('Placa rota', 250, 330, C.AMBER, ...LAD.at(S_ST), fade(t, 2.5, 6));
+  label('Trombo plaquetario suboclusivo', 250, 330, '#F3EEF0', ...LAD.at(S_ST), fade(t, 6.2, 16));
+  label('Microembolia distal', 470, 560, C.VIOLET, ...LAD.at(0.8, 8), fade(t, 10, 20));
+  label('Isquemia subendocárdica', 470, 650, '#C79BFF', ...P(1050, 1010), fade(t, 12, 28));
+  const d = clamp(ease(seg(t, 8, 5)) * 1.8, 0, 1.8) * (1 - ease(seg(t, 27, 3)) * 0.0);
+  lead(660, 126, 580, 150, t, d, 'V5 · ECG durante el dolor', d > 0.6 ? C.AMBER : C.GREEN, seg(t, 1, 0.6), lerp(1, -1, ease(seg(t, 10, 4))));
+  ctx.save(); ctx.globalAlpha = clamp((d - 0.8) / 0.4, 0, 1); tag('Infradesnivel del ST y T negativa', 1060, 160, C.AMBER, 16); ctx.restore();
+  // troponina: dos escenarios
+  rrect(660, 290, 580, 190, 16, '#161B22'); text('Troponina ultrasensible', 680, 322, 20, C.INK, 'bold');
+  const a1 = seg(t, 15, 0.5);
+  if (a1 > 0) { ctx.save(); ctx.globalAlpha = a1;
+    rrect(690, 420, 120, 14, 7, '#222833'); rrect(690, 420, 120 * 0.15, 14, 7, C.GREEN); text('Angina inestable: normal', 690, 408, 17, C.GREEN, 'bold');
+    const v = ease(seg(t, 17, 2.5)); rrect(950, 420, 250, 14, 7, '#222833'); rrect(950, 420, 250 * (0.15 + 0.85 * v), 14, 7, C.RED); text('IAMSEST: sube y cae', 950, 408, 17, C.RED, 'bold');
+    ctx.fillStyle = '#ddd'; ctx.fillRect(950 + 250 * 0.2, 414, 2, 26); text('P99', 950 + 250 * 0.2, 458, 13, C.MUTED, '', 'center'); ctx.restore(); }
+  K.card(660, 496, 285, 118, C.BLUE, 'Tratamiento', ['AAS + ticagrelor', 'Fondaparinux o enoxaparina'], seg(t, 19, 0.6), 16);
+  K.card(955, 496, 285, 118, C.RED, 'Nunca fibrinólisis', ['El trombo es blanco:', 'solo suma sangrado'], seg(t, 21.5, 0.6), 16);
+  K.card(660, 624, 285, 76, C.RED, 'Coronariografía < 2 h', [], seg(t, 24, 0.6), 16);
+  K.card(955, 624, 285, 76, C.AMBER, '< 24 h si GRACE > 140', [], seg(t, 25.5, 0.6), 16);
+}
+
+// ====================== cardio-15 A1: complicaciones mecánicas ======================
+function pcg(x, y, w, h, t, kind, col, a) {                         // fonocardiograma / presión simplificado
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; rrect(x, y, w, h, 14, '#161B22');
+  ctx.save(); ctx.beginPath(); ctx.rect(x + 8, y + 8, w - 16, h - 16); ctx.clip();
+  const base = y + h * 0.52, bw = 250, off = (t * 70) % bw; ctx.strokeStyle = col; ctx.lineWidth = 2.2; ctx.beginPath();
+  for (let px = -bw; px < w; px += 1.5) {
+    const u = ((((px + off) % bw) + bw) % bw) / bw; let v = 0;
+    v += 1.0 * g(u, 0.10, 0.012) * Math.sin(u * 900);                  // S1
+    v += 0.8 * g(u, 0.42, 0.012) * Math.sin(u * 900);                  // S2
+    const sys = u > 0.12 && u < 0.40, dec = 1 - (u - 0.12) / 0.28;
+    if (kind === 'papilar') v += sys ? 0.55 * Math.sin(u * 1200) * (0.65 + 0.35 * dec) * (1 + 0.15 * Math.sin(u * 330)) : 0;  // holosistólico a la axila
+    if (kind === 'civ') v += sys ? 0.95 * Math.sin(u * 1500) * (0.8 + 0.2 * Math.sin(u * 200)) : 0;                        // rudo, en barra
+    if (kind === 'libre') v *= (t % 8 < 4 ? 1 : 0);                                                                          // se apaga
+    const X = x + 8 + px, Y = base - (h * 0.32) * v; px === -bw ? ctx.moveTo(X, Y) : ctx.lineTo(X, Y);
+  }
+  ctx.stroke(); ctx.restore(); ctx.restore();
+}
+function mecanicas(t) {
+  K.title('Complicaciones del infarto: cuándo y qué se oye', 'Línea de tiempo y fonocardiograma de las roturas mecánicas', C.RED);
+  const X0 = 80, X1 = 1200, Y = 190;
+  ctx.fillStyle = '#2A2F38'; ctx.fillRect(X0, Y, X1 - X0, 6);
+  const EV = [[0, 2.6, 'Horas', 'FV · bloqueo AV', C.RED], [3, 5.6, '1-3 días', 'Pericarditis', C.AMBER], [6, 9.4, 'Días 3-7', 'Roturas mecánicas', C.VIOLET], [9.6, 12, 'Semanas', 'Aneurisma · Dressler', C.BLUE]];
+  const px = d => X0 + (X1 - X0) * d / 12;
+  const play = ease(seg(t, 0.5, 8)); ctx.fillStyle = C.INK; ctx.beginPath(); ctx.arc(X0 + (X1 - X0) * play, Y + 3, 9, 0, 7); ctx.fill();
+  EV.forEach(([a, b, t1, t2, col], i) => { const on = play > a / 12 - 0.001; ctx.save(); ctx.globalAlpha = on ? 1 : 0.18;
+    rrect(px(a), Y - 60, px(b) - px(a) - 8, 44, 10, col); text(t1, px(a) + 10, Y - 40, 16, C.BG, 'bold'); text(t2, px(a) + 10, Y - 22, 14, C.BG, '', 'left'); ctx.restore(); });
+  const a1 = seg(t, 10, 0.6), a2 = seg(t, 17, 0.6), a3 = seg(t, 24, 0.6);
+  const colW = 380, gap = 30, Xs = [40, 40 + colW + gap, 40 + 2 * (colW + gap)];
+  pcg(Xs[0], 268, colW, 140, t, 'papilar', C.GREEN, a1); pcg(Xs[1], 268, colW, 140, t, 'civ', C.GREEN, a2); pcg(Xs[2], 268, colW, 140, t, 'libre', C.GREEN, a3);
+  [[a1, Xs[0], C.GREEN, 'Rotura de papilar', 'Soplo holosistólico apical a la axila'], [a2, Xs[1], C.AMBER, 'Rotura del tabique (CIV)', 'Soplo en barra + frémito esternal bajo'], [a3, Xs[2], C.RED, 'Rotura de pared libre', 'Sin soplo: colapso, AESP, taponamiento']].forEach(([a, x, col, t1, t2]) => {
+    if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; text(t1, x + 10, 432, 21, col, 'bold'); text(t2, x + 10, 458, 16, C.INK); ctx.restore(); });
+  K.card(40, 490, 380, 200, C.GREEN, 'Papilar posteromedial', ['Infarto inferior', 'Edema pulmonar + shock', 'BCPIAo y cirugía mitral'], seg(t, 11, 0.6), 17);
+  K.card(450, 490, 380, 200, C.AMBER, 'Comunicación interventricular', ['Anterior o inferior extenso', 'Shock biventricular', 'Doppler y cirugía de cierre'], seg(t, 18, 0.6), 17);
+  K.card(860, 490, 380, 200, C.RED, 'Pared libre', ['Mujer anciana, anterior', 'Mortalidad > 90%', 'Pericardiocentesis y toracotomía'], seg(t, 25, 0.6), 17);
+  ctx.save(); ctx.globalAlpha = seg(t, 30, 0.6); K.banner(300, 206, 680, 'Soplo nuevo tras un infarto = rotura hasta demostrar lo contrario', C.VIOLET, 1); ctx.restore();
+}
+
+// ====================== cardio-15 A2: Prinzmetal ======================
+function prinzmetal(t) {
+  K.title('Angina de Prinzmetal: espasmo, no placa', 'Dolor de reposo de madrugada con supradesnivel transitorio del ST', C.VIOLET);
+  drawHeart(t, seg(t, 0, 0.7));
+  const sp = ease(seg(t, 4, 1.6)) * (1 - ease(seg(t, 14, 1.2))) + ease(seg(t, 23, 1.6)) * (1 - ease(seg(t, 26.5, 1.2))) * 0.0;
+  const isq = clamp(sp * 0.9, 0, 0.9); ischemia(isq);
+  if (sp > 0.02) { ctx.save(); ctx.lineCap = 'round'; LAD.stroke(ctx, S_ST - 0.07, S_ST + 0.07, 8 + 6 * sp, '#E8C24A'); LAD.stroke(ctx, S_ST - 0.07, S_ST + 0.07, Math.max(1.5, 7 * (1 - sp)), '#B3261E'); ctx.restore(); }
+  flow(t, 0.16, 1 - 0.85 * sp);
+  const clock = t < 4 ? '02:40' : '03:10'; rrect(40, 130, 150, 56, 12, '#161B22'); text(clock, 115, 168, 30, C.AMBER, 'bold', 'center');
+  label('Espasmo focal de la arteria', 440, 170, C.VIOLET, ...LAD.at(S_ST), fade(t, 4.5, 14.5));
+  const d = -1.7 * sp;
+  lead(660, 126, 580, 190, t, d, 'V3 · ECG durante la crisis', sp > 0.4 ? C.RED : C.GREEN, seg(t, 1, 0.6), 1, 75);
+  ctx.save(); ctx.globalAlpha = clamp((sp - 0.5) / 0.3, 0, 1); tag('Supradesnivel del ST transitorio', 1060, 160, C.RED, 16); ctx.restore();
+  ctx.save(); ctx.globalAlpha = fade(t, 15.5, 22); tag('Se normaliza con nitroglicerina: sin necrosis', 950, 300, C.GREEN, 16); ctx.restore();
+  K.card(660, 334, 580, 100, C.GREEN, 'Tratamiento: calcioantagonista + nitrato', ['Diltiazem, verapamilo o amlodipino; dejar tabaco y cocaína'], seg(t, 17, 0.6), 17);
+  K.card(660, 450, 580, 120, C.RED, 'Prohibido: betabloqueador no selectivo', ['Propranolol deja sin freno a los receptores alfa-1:', 'vasoconstricción y espasmo masivo'], seg(t, 21, 0.6), 17);
+  K.card(660, 586, 580, 100, C.BLUE, 'Gatillos', ['Tabaco · cocaína · anfetaminas · triptanes'], seg(t, 25, 0.6), 17);
+}
+
+const SCN = {
+  troponina: { f: troponina, dur: 31, cred: CRED_G(1) }, ergometria: { f: ergometria, dur: 32, cred: CRED_G(2) },
+  placa: { f: placa, dur: 36, cred: CRED_B }, scasest: { f: scasest, dur: 30, cred: CRED_B },
+  mecanicas: { f: mecanicas, dur: 36, cred: CRED_G(6) }, prinzmetal: { f: prinzmetal, dur: 30, cred: CRED_B },
+};
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t);
+  ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(560, 696, 720, 24); text(SCN[V].cred, 1268, 712, 13, C.MUTED, '', 'right');
+};
+LOAD(['placa', 'scasest', 'prinzmetal'].includes(V) ? { cor: '../assets/blausen/coronarias_anterior.png' } : {});
+</script>
+</body></html>
