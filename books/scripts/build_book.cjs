@@ -425,17 +425,17 @@ const COVER_METADATA = {
   '08': { code: 'HO', title: 'Hematología', sub: '& Oncología Médica', color: '#be123c', chip: '#91092d', photo: '08_hematologia.jpg' },
   '09': { code: 'RI', title: 'Reumatología', sub: '& Inmunología Clínica', color: '#9f1239', chip: '#7c0e2d', photo: '09_reumatologia.jpg' },
   '10': { code: 'NR', title: 'Neurología', sub: '& Geriatría', color: '#6d28d9', chip: '#4c1d95', photo: '10_neurologia.jpg' },
-  '11': { code: 'CG', title: 'Cirugía General', sub: 'Abdomen Agudo & Anestesia', color: '#334155', chip: '#1f2937', photo: '11_cirugia.jpg' },
-  '12': { code: 'TO', title: 'Traumatología', sub: '& Ortopedia', color: '#b45309', chip: '#8a3f06', photo: '12_traumatologia.jpg' },
+  '11': { code: 'CG', title: 'Cirugía General', sub: 'Abdomen Agudo & Anestesia', color: '#334155', chip: '#1f2937', photo: '11_cirugia.jpg', dense: true },
+  '12': { code: 'TO', title: 'Traumatología', sub: '& Ortopedia', color: '#b45309', chip: '#8a3f06', photo: '12_traumatologia.jpg', pos: '35% 40%' },
   '13': { code: 'UR', title: 'Urología', sub: 'Urolitiasis, HPB & Cáncer', color: '#0369a1', chip: '#024e79', photo: '13_urologia.jpg' },
-  '14': { code: 'OR', title: 'Otorrinolaringología', sub: 'ORL', color: '#4338ca', chip: '#312a99', photo: '14_otorrino.jpg', dense: true },
+  '14': { code: 'OR', title: 'Otorrinolaringología', sub: 'ORL', color: '#4338ca', chip: '#312a99', photo: '14_otorrino.jpg' },
   '15': { code: 'OF', title: 'Oftalmología', sub: 'Ojo rojo, Glaucoma & Retina', color: '#0e7490', chip: '#0a5566', photo: '15_oftalmologia.jpg' },
   '16': { code: 'DE', title: 'Dermatología', sub: 'Psoriasis, Cáncer de piel & NET', color: '#a21caf', chip: '#79148a', photo: '16_dermatologia.jpg' },
-  '17': { code: 'PS', title: 'Psiquiatría General', sub: '& Salud Mental', color: '#7e22ce', chip: '#5d189c', photo: '17_psiquiatria.jpg', dense: true, filter: 'brightness(0.62) contrast(1.05)' },
+  '17': { code: 'PS', title: 'Psiquiatría General', sub: '& Salud Mental', color: '#7e22ce', chip: '#5d189c', photo: '17_psiquiatria.jpg', dense: true },
   '18': { code: 'PE', title: 'Pediatría General', sub: '& Neonatología', color: '#c2410c', chip: '#93300a', photo: '18_pediatria.jpg', dense: true, filter: 'brightness(0.7) contrast(1.05)' },
-  '19': { code: 'OB', title: 'Obstetricia', sub: '& Medicina Materno-Fetal', color: '#9d174d', chip: '#76103a', photo: '19_obstetricia.jpg', dense: true },
-  '20': { code: 'GO', title: 'Ginecología', sub: '& Oncología Ginecológica', color: '#be185d', chip: '#8f1246', photo: '20_ginecologia.jpg', dense: true, filter: 'brightness(0.62) contrast(1.05)' },
-  '21': { code: 'SP', title: 'Salud Pública', sub: 'Epidemiología & Bioética', color: '#166534', chip: '#0f4a26', photo: '21_saludpublica.jpg' },
+  '19': { code: 'OB', title: 'Obstetricia', sub: '& Medicina Materno-Fetal', color: '#9d174d', chip: '#76103a', photo: '19_obstetricia.jpg', pos: '50% 45%' },
+  '20': { code: 'GO', title: 'Ginecología', sub: '& Oncología Ginecológica', color: '#be185d', chip: '#8f1246', photo: '20_ginecologia.jpg', dense: true, pos: '12% 50%' },
+  '21': { code: 'SP', title: 'Salud Pública', sub: 'Epidemiología & Bioética', color: '#166534', chip: '#0f4a26', photo: '21_saludpublica.jpg', dense: true },
 };
 
 function coverPage(x) {
@@ -466,7 +466,7 @@ function coverPage(x) {
 
   return `
   <div class="cover-aee">
-    ${photoDataUri ? `<div class="cover-bg" style="background-image: url('${photoDataUri}'); filter: ${filter};"></div>` : ''}
+    ${photoDataUri ? `<div class="cover-bg" style="background-image: url('${photoDataUri}'); background-position: ${meta.pos || 'center'}; filter: ${filter};"></div>` : ''}
     <div class="cover-veil" style="background: ${veil};"></div>
     <div class="cover-stripe" style="background: ${meta.color};"></div>
     <div class="cover-content">
