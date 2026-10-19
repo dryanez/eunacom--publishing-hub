@@ -41,20 +41,20 @@
     "overflow": false
    },
    "T1.4": {
-    "steps": 8,
+    "steps": 9,
     "split": false,
     "algo": {
      "scale": 1,
-     "orient": "td"
+     "orient": "lr"
     },
-    "algoH": 290,
+    "algoH": 245,
     "traps": 1,
     "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T2.1": {
-    "steps": 4,
+    "steps": 5,
     "split": false,
     "algo": {
      "scale": 1,
@@ -63,17 +63,17 @@
     "algoH": 340,
     "traps": 0,
     "ask": 6,
-    "tight": false,
+    "tight": true,
     "overflow": false
    },
    "T2.2": {
-    "steps": 5,
+    "steps": 6,
     "split": false,
     "algo": {
-     "scale": 0.93,
+     "scale": 0.89,
      "orient": "td"
     },
-    "algoH": 340,
+    "algoH": 300,
     "traps": 0,
     "ask": 6,
     "tight": true,
@@ -83,10 +83,10 @@
     "steps": 6,
     "split": false,
     "algo": {
-     "scale": 0.95,
+     "scale": 0.89,
      "orient": "lr"
     },
-    "algoH": 320,
+    "algoH": 300,
     "traps": 0,
     "ask": 6,
     "tight": true,
@@ -162,10 +162,10 @@
     "steps": 17,
     "split": false,
     "algo": {
-     "scale": 0.88,
+     "scale": 0.81,
      "orient": "td"
     },
-    "algoH": 280,
+    "algoH": 260,
     "traps": 2,
     "ask": 5,
     "tight": true,
@@ -211,7 +211,7 @@
     "overflow": false
    },
    "T4.4": {
-    "steps": 0,
+    "steps": 1,
     "split": false,
     "algo": {
      "scale": 1,
@@ -290,7 +290,7 @@
     "overflow": false
    },
    "T5.4": {
-    "steps": 7,
+    "steps": 8,
     "split": false,
     "algo": {
      "scale": 0.82,
@@ -298,26 +298,26 @@
     },
     "algoH": 270,
     "traps": 0,
-    "ask": 6,
+    "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T5.5": {
-    "steps": 5,
+    "steps": 8,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "grid",
      "alt": true
     },
-    "algoH": 340,
+    "algoH": 270,
     "traps": 1,
-    "ask": 6,
+    "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T5.6": {
-    "steps": 0,
+    "steps": 1,
     "split": false,
     "algo": {
      "scale": 1,
@@ -390,7 +390,7 @@
   },
   {
    "t": "1.3",
-   "real": 6,
+   "real": 7,
    "stars": 2,
    "lg": [
     10,
@@ -415,7 +415,7 @@
   {
    "t": "2.1",
    "real": 3,
-   "stars": 2,
+   "stars": 1,
    "lg": [
     23,
     24,
@@ -435,7 +435,7 @@
   },
   {
    "t": "2.3",
-   "real": 9,
+   "real": 8,
    "stars": 3,
    "lg": [
     19,
@@ -450,7 +450,7 @@
   {
    "t": "2.4",
    "real": 3,
-   "stars": 2,
+   "stars": 1,
    "lg": [
     33,
     34,
@@ -470,7 +470,7 @@
   },
   {
    "t": "3.2",
-   "real": 10,
+   "real": 11,
    "stars": 3,
    "lg": [
     37,
@@ -481,7 +481,7 @@
   },
   {
    "t": "3.3",
-   "real": 9,
+   "real": 10,
    "stars": 3,
    "lg": [
     44,
@@ -501,7 +501,7 @@
   },
   {
    "t": "3.5",
-   "real": 15,
+   "real": 18,
    "stars": 3,
    "lg": [
     50,
@@ -543,7 +543,7 @@
   },
   {
    "t": "4.4",
-   "real": 6,
+   "real": 7,
    "stars": 2,
    "lg": [
     55,
@@ -573,7 +573,7 @@
   },
   {
    "t": "5.1",
-   "real": 18,
+   "real": 20,
    "stars": 3,
    "lg": [
     76,
@@ -583,7 +583,7 @@
   },
   {
    "t": "5.2",
-   "real": 17,
+   "real": 18,
    "stars": 3,
    "lg": [
     79,
@@ -593,7 +593,7 @@
   },
   {
    "t": "5.3",
-   "real": 37,
+   "real": 38,
    "stars": 3,
    "lg": [
     82,
@@ -623,7 +623,7 @@
   },
   {
    "t": "5.6",
-   "real": 3,
+   "real": 4,
    "stars": 2,
    "lg": [
     74

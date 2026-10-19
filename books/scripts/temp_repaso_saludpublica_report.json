@@ -15,13 +15,13 @@
     "overflow": false
    },
    "T21.2": {
-    "steps": 8,
+    "steps": 10,
     "split": false,
     "algo": {
-     "scale": 1,
+     "scale": 0.91,
      "orient": "td"
     },
-    "algoH": 270,
+    "algoH": 220,
     "traps": 3,
     "ask": 5,
     "tight": true,
@@ -41,33 +41,33 @@
     "overflow": false
    },
    "T21.4": {
-    "steps": 8,
-    "split": false,
+    "steps": 0,
+    "split": true,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
-    "algoH": 270,
-    "traps": 3,
-    "ask": 5,
-    "tight": true,
+    "algoH": 340,
+    "traps": 5,
+    "ask": 6,
+    "tight": false,
     "overflow": false
    },
    "T21.5": {
-    "steps": 14,
+    "steps": 16,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
     "algoH": 300,
-    "traps": 3,
+    "traps": 2,
     "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T21.15": {
-    "steps": 1,
+    "steps": 4,
     "split": false,
     "algo": {
      "scale": 1,
@@ -75,7 +75,7 @@
     },
     "algoH": 340,
     "traps": 0,
-    "ask": 7,
+    "ask": 6,
     "tight": false,
     "overflow": false
    },
@@ -93,16 +93,16 @@
     "overflow": false
    },
    "T21.7": {
-    "steps": 8,
-    "split": false,
+    "steps": 0,
+    "split": true,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
-    "algoH": 270,
-    "traps": 3,
-    "ask": 5,
-    "tight": true,
+    "algoH": 340,
+    "traps": 5,
+    "ask": 6,
+    "tight": false,
     "overflow": false
    },
    "T21.8": {
@@ -132,7 +132,7 @@
     "overflow": false
    },
    "T21.10": {
-    "steps": 10,
+    "steps": 12,
     "split": false,
     "algo": {
      "scale": 0.91,
@@ -198,7 +198,7 @@
    }
   },
   "warnings": [],
-  "pages": 22,
+  "pages": 24,
   "where": {
    "COVER": 1,
    "IDX": 2,
@@ -206,28 +206,28 @@
    "T21.2": 4,
    "T21.3": 5,
    "T21.4": 6,
-   "T21.5": 7,
-   "T21.15": 8,
-   "T21.6": 9,
-   "T21.7": 11,
-   "T21.8": 12,
-   "T21.9": 13,
-   "T21.10": 14,
-   "T21.11": 15,
-   "T21.12": 16,
-   "T21.13": 17,
-   "T21.14": 18,
-   "NUM": 19,
-   "DRUG": 20,
-   "GES": 20,
-   "PLAN": 21,
-   "PRIO": 22
+   "T21.5": 8,
+   "T21.15": 9,
+   "T21.6": 10,
+   "T21.7": 12,
+   "T21.8": 14,
+   "T21.9": 15,
+   "T21.10": 16,
+   "T21.11": 17,
+   "T21.12": 18,
+   "T21.13": 19,
+   "T21.14": 20,
+   "NUM": 21,
+   "DRUG": 22,
+   "GES": 22,
+   "PLAN": 23,
+   "PRIO": 24
   }
  },
  "stars": [
   {
    "t": "21.1",
-   "real": 12,
+   "real": 13,
    "stars": 3,
    "lg": [
     3,
@@ -265,7 +265,7 @@
   },
   {
    "t": "21.4",
-   "real": 18,
+   "real": 20,
    "stars": 3,
    "lg": [
     14,
@@ -279,7 +279,7 @@
   {
    "t": "21.5",
    "real": 6,
-   "stars": 2,
+   "stars": 1,
    "lg": [
     16,
     17,
@@ -294,8 +294,8 @@
   },
   {
    "t": "21.15",
-   "real": 12,
-   "stars": 3,
+   "real": 10,
+   "stars": 2,
    "lg": [
     55,
     73
@@ -303,7 +303,7 @@
   },
   {
    "t": "21.6",
-   "real": 17,
+   "real": 18,
    "stars": 3,
    "lg": [
     18,
@@ -319,7 +319,7 @@
   },
   {
    "t": "21.7",
-   "real": 30,
+   "real": 32,
    "stars": 3,
    "lg": [
     2,
@@ -330,7 +330,7 @@
   },
   {
    "t": "21.8",
-   "real": 6,
+   "real": 8,
    "stars": 2,
    "lg": [
     49,
@@ -340,7 +340,7 @@
   },
   {
    "t": "21.9",
-   "real": 7,
+   "real": 10,
    "stars": 2,
    "lg": [
     52,
@@ -350,7 +350,7 @@
   },
   {
    "t": "21.10",
-   "real": 16,
+   "real": 19,
    "stars": 3,
    "lg": [
     1,
@@ -365,7 +365,7 @@
   },
   {
    "t": "21.11",
-   "real": 3,
+   "real": 4,
    "stars": 1,
    "lg": [
     62,
@@ -407,7 +407,7 @@
   },
   {
    "t": "21.14",
-   "real": 8,
+   "real": 10,
    "stars": 2,
    "lg": [
     83,

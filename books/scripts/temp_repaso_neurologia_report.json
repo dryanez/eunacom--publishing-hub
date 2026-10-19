@@ -2,29 +2,29 @@
  "report": {
   "topics": {
    "T10.1": {
-    "steps": 4,
+    "steps": 6,
     "split": true,
     "algo": {
      "scale": 1,
      "orient": "lr"
     },
-    "algoH": 320,
+    "algoH": 310,
     "traps": 3,
-    "ask": 6,
+    "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T10.2": {
-    "steps": 21,
+    "steps": 24,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "grid",
      "alt": true
     },
-    "algoH": 230,
-    "traps": 2,
-    "ask": 5,
+    "algoH": 200,
+    "traps": 1,
+    "ask": 4,
     "tight": true,
     "overflow": false
    },
@@ -42,7 +42,7 @@
     "overflow": false
    },
    "T10.4": {
-    "steps": 0,
+    "steps": 1,
     "split": true,
     "algo": {
      "scale": 1,
@@ -55,15 +55,15 @@
     "overflow": false
    },
    "T10.5": {
-    "steps": 6,
+    "steps": 8,
     "split": false,
     "algo": {
      "scale": 0.87,
      "orient": "lr"
     },
-    "algoH": 300,
+    "algoH": 270,
     "traps": 0,
-    "ask": 6,
+    "ask": 5,
     "tight": true,
     "overflow": false
    },
@@ -121,7 +121,7 @@
     "overflow": false
    },
    "T10.10": {
-    "steps": 25,
+    "steps": 26,
     "split": false,
     "algo": {
      "scale": 0.87,
@@ -129,40 +129,40 @@
      "alt": true
     },
     "algoH": 200,
-    "traps": 1,
+    "traps": 0,
     "ask": 4,
     "tight": true,
     "overflow": false
    },
    "T10.11": {
-    "steps": 3,
+    "steps": 5,
     "split": true,
     "algo": {
-     "scale": 1,
+     "scale": 0.95,
      "orient": "grid",
      "alt": true
     },
-    "algoH": 340,
+    "algoH": 290,
     "traps": 3,
     "ask": 6,
     "tight": true,
     "overflow": false
    },
    "T10.12": {
-    "steps": 24,
+    "steps": 25,
     "split": false,
     "algo": {
-     "scale": 0.83,
+     "scale": 0.92,
      "orient": "lr"
     },
-    "algoH": 200,
+    "algoH": 220,
     "traps": 1,
     "ask": 4,
     "tight": true,
     "overflow": false
    },
    "T10.13": {
-    "steps": 23,
+    "steps": 24,
     "split": false,
     "algo": {
      "scale": 0.84,
@@ -170,7 +170,7 @@
     },
     "algoH": 220,
     "traps": 1,
-    "ask": 5,
+    "ask": 4,
     "tight": true,
     "overflow": false
    },
@@ -186,17 +186,17 @@
     "traps": 4,
     "ask": 6,
     "tight": true,
-    "overflow": false
+    "overflow": true
    },
    "T10.15": {
-    "steps": 24,
+    "steps": 25,
     "split": false,
     "algo": {
-     "scale": 0.89,
+     "scale": 1,
      "orient": "lr"
     },
-    "algoH": 240,
-    "traps": 1,
+    "algoH": 280,
+    "traps": 0,
     "ask": 4,
     "tight": true,
     "overflow": false
@@ -254,14 +254,14 @@
     "overflow": false
    },
    "T10.20": {
-    "steps": 25,
+    "steps": 26,
     "split": false,
     "algo": {
-     "scale": 0.82,
+     "scale": 1,
      "orient": "lr"
     },
-    "algoH": 200,
-    "traps": 1,
+    "algoH": 260,
+    "traps": 0,
     "ask": 4,
     "tight": true,
     "overflow": false
@@ -295,13 +295,13 @@
     "overflow": false
    },
    "T10.23": {
-    "steps": 26,
+    "steps": 27,
     "split": false,
     "algo": {
-     "scale": 0.85,
+     "scale": 0.75,
      "orient": "lr"
     },
-    "algoH": 260,
+    "algoH": 230,
     "traps": 0,
     "ask": 4,
     "tight": true,
@@ -348,7 +348,9 @@
    }
   },
   "warnings": [
-   "T10.14: algoritmo al 75 %"
+   "T10.14: se desborda 84 px",
+   "T10.14: algoritmo al 75 %",
+   "T10.23: algoritmo al 75 %"
   ],
   "pages": 52,
   "where": {
@@ -390,7 +392,7 @@
  "stars": [
   {
    "t": "10.1",
-   "real": 14,
+   "real": 15,
    "stars": 3,
    "lg": [
     3,
@@ -404,7 +406,7 @@
   },
   {
    "t": "10.2",
-   "real": 15,
+   "real": 16,
    "stars": 3,
    "lg": [
     9,
@@ -413,7 +415,7 @@
   },
   {
    "t": "10.3",
-   "real": 14,
+   "real": 15,
    "stars": 3,
    "lg": [
     1,
@@ -435,7 +437,7 @@
   },
   {
    "t": "10.5",
-   "real": 15,
+   "real": 16,
    "stars": 3,
    "lg": [
     18
@@ -495,7 +497,7 @@
   },
   {
    "t": "10.11",
-   "real": 8,
+   "real": 9,
    "stars": 3,
    "lg": [
     40,
@@ -508,7 +510,7 @@
   },
   {
    "t": "10.12",
-   "real": 5,
+   "real": 7,
    "stars": 2,
    "lg": [
     46,
@@ -557,7 +559,7 @@
   },
   {
    "t": "10.17",
-   "real": 5,
+   "real": 6,
    "stars": 2,
    "lg": [
     64,
@@ -594,7 +596,7 @@
   },
   {
    "t": "10.21",
-   "real": 13,
+   "real": 14,
    "stars": 3,
    "lg": [
     75,
@@ -607,7 +609,7 @@
   },
   {
    "t": "10.22",
-   "real": 4,
+   "real": 5,
    "stars": 2,
    "lg": [
     81,

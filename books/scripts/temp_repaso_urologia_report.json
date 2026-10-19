@@ -15,13 +15,13 @@
     "overflow": false
    },
    "T13.2": {
-    "steps": 8,
+    "steps": 12,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
-    "algoH": 270,
+    "algoH": 220,
     "traps": 3,
     "ask": 5,
     "tight": true,
@@ -80,13 +80,13 @@
     "overflow": false
    },
    "T13.7": {
-    "steps": 12,
+    "steps": 14,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
-    "algoH": 220,
+    "algoH": 300,
     "traps": 3,
     "ask": 5,
     "tight": true,
@@ -158,13 +158,13 @@
     "overflow": false
    },
    "T13.12": {
-    "steps": 12,
+    "steps": 14,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
-    "algoH": 220,
+    "algoH": 300,
     "traps": 3,
     "ask": 5,
     "tight": true,
@@ -345,7 +345,7 @@
   },
   {
    "t": "13.8",
-   "real": 4,
+   "real": 5,
    "stars": 2,
    "lg": [
     46,
@@ -358,8 +358,8 @@
   },
   {
    "t": "13.9",
-   "real": 2,
-   "stars": 1,
+   "real": 3,
+   "stars": 2,
    "lg": [
     52,
     53,
@@ -368,7 +368,7 @@
   },
   {
    "t": "13.10",
-   "real": 1,
+   "real": 2,
    "stars": 1,
    "lg": [
     19,
@@ -428,7 +428,7 @@
   },
   {
    "t": "13.15",
-   "real": 7,
+   "real": 8,
    "stars": 3,
    "lg": [
     86,
@@ -496,7 +496,7 @@
   ]
  },
  "stats": {
-  "numbers": 47,
+  "numbers": 48,
   "drugs": 14,
   "ges": 6
  }

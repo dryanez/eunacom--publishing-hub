@@ -81,7 +81,7 @@
     "overflow": false
    },
    "T15.7": {
-    "steps": 1,
+    "steps": 5,
     "split": false,
     "algo": {
      "scale": 1,
@@ -90,7 +90,7 @@
     "algoH": 340,
     "traps": 0,
     "ask": 6,
-    "tight": false,
+    "tight": true,
     "overflow": false
    },
    "T15.8": {
@@ -107,14 +107,13 @@
     "overflow": false
    },
    "T15.9": {
-    "steps": 12,
+    "steps": 17,
     "split": false,
     "algo": {
-     "scale": 0.98,
-     "orient": "grid",
-     "alt": true
+     "scale": 0.96,
+     "orient": "lr"
     },
-    "algoH": 220,
+    "algoH": 280,
     "traps": 0,
     "ask": 5,
     "tight": true,
@@ -147,20 +146,20 @@
     "overflow": false
    },
    "T15.12": {
-    "steps": 5,
+    "steps": 6,
     "split": false,
     "algo": {
-     "scale": 0.94,
-     "orient": "td"
+     "scale": 1,
+     "orient": "lr"
     },
-    "algoH": 340,
+    "algoH": 300,
     "traps": 0,
     "ask": 6,
     "tight": true,
     "overflow": false
    },
    "T15.13": {
-    "steps": 1,
+    "steps": 5,
     "split": false,
     "algo": {
      "scale": 1,
@@ -169,7 +168,7 @@
     "algoH": 340,
     "traps": 0,
     "ask": 6,
-    "tight": false,
+    "tight": true,
     "overflow": false
    },
    "T15.14": {
@@ -186,16 +185,16 @@
     "overflow": false
    },
    "T15.15": {
-    "steps": 10,
-    "split": false,
+    "steps": 0,
+    "split": true,
     "algo": {
-     "scale": 0.82,
+     "scale": 0.87,
      "orient": "lr"
     },
-    "algoH": 220,
+    "algoH": 340,
     "traps": 0,
-    "ask": 5,
-    "tight": true,
+    "ask": 7,
+    "tight": false,
     "overflow": false
    },
    "T15.16": {
@@ -227,13 +226,13 @@
     "overflow": false
    },
    "T15.18": {
-    "steps": 12,
+    "steps": 14,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "lr"
     },
-    "algoH": 220,
+    "algoH": 300,
     "traps": 2,
     "ask": 5,
     "tight": true,
@@ -241,7 +240,7 @@
    }
   },
   "warnings": [],
-  "pages": 26,
+  "pages": 27,
   "where": {
    "COVER": 1,
    "IDX": 2,
@@ -260,14 +259,14 @@
    "T15.13": 15,
    "T15.14": 16,
    "T15.15": 17,
-   "T15.16": 18,
-   "T15.17": 19,
-   "T15.18": 20,
-   "NUM": 21,
-   "DRUG": 23,
-   "GES": 23,
-   "PLAN": 25,
-   "PRIO": 26
+   "T15.16": 19,
+   "T15.17": 20,
+   "T15.18": 21,
+   "NUM": 22,
+   "DRUG": 24,
+   "GES": 24,
+   "PLAN": 26,
+   "PRIO": 27
   }
  },
  "stars": [
@@ -296,7 +295,7 @@
   },
   {
    "t": "15.3",
-   "real": 5,
+   "real": 6,
    "stars": 3,
    "lg": [
     12,
@@ -378,8 +377,8 @@
   },
   {
    "t": "15.10",
-   "real": 1,
-   "stars": 1,
+   "real": 2,
+   "stars": 2,
    "lg": [
     39,
     40,
@@ -461,8 +460,8 @@
   },
   {
    "t": "15.17",
-   "real": 1,
-   "stars": 1,
+   "real": 2,
+   "stars": 2,
    "lg": [
     78,
     79,

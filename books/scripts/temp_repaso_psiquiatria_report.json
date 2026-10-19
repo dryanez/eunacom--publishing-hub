@@ -15,16 +15,16 @@
     "overflow": false
    },
    "T17.2": {
-    "steps": 8,
-    "split": false,
+    "steps": 0,
+    "split": true,
     "algo": {
      "scale": 1,
-     "orient": "lr"
+     "orient": "td"
     },
-    "algoH": 270,
-    "traps": 3,
-    "ask": 5,
-    "tight": true,
+    "algoH": 340,
+    "traps": 5,
+    "ask": 7,
+    "tight": false,
     "overflow": false
    },
    "T17.3": {
@@ -80,15 +80,15 @@
     "overflow": false
    },
    "T17.7": {
-    "steps": 5,
+    "steps": 8,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
-    "algoH": 340,
+    "algoH": 270,
     "traps": 3,
-    "ask": 6,
+    "ask": 5,
     "tight": true,
     "overflow": false
    },
@@ -132,13 +132,13 @@
     "overflow": false
    },
    "T17.11": {
-    "steps": 10,
+    "steps": 12,
     "split": false,
     "algo": {
-     "scale": 0.97,
+     "scale": 1,
      "orient": "td"
     },
-    "algoH": 220,
+    "algoH": 240,
     "traps": 3,
     "ask": 5,
     "tight": true,
@@ -158,16 +158,16 @@
     "overflow": false
    },
    "T17.13": {
-    "steps": 10,
-    "split": false,
+    "steps": 0,
+    "split": true,
     "algo": {
-     "scale": 0.88,
-     "orient": "lr"
+     "scale": 1,
+     "orient": "td"
     },
-    "algoH": 220,
+    "algoH": 340,
     "traps": 3,
-    "ask": 5,
-    "tight": true,
+    "ask": 7,
+    "tight": false,
     "overflow": false
    },
    "T17.14": {
@@ -210,26 +210,26 @@
     "overflow": false
    },
    "T17.16": {
-    "steps": 20,
+    "steps": 23,
     "split": false,
     "algo": {
-     "scale": 0.86,
+     "scale": 0.82,
      "orient": "td"
     },
-    "algoH": 230,
-    "traps": 2,
-    "ask": 5,
+    "algoH": 220,
+    "traps": 1,
+    "ask": 4,
     "tight": true,
     "overflow": false
    },
    "T17.17": {
-    "steps": 13,
+    "steps": 15,
     "split": false,
     "algo": {
      "scale": 0.79,
      "orient": "td"
     },
-    "algoH": 220,
+    "algoH": 300,
     "traps": 0,
     "ask": 4,
     "tight": true,
@@ -266,41 +266,41 @@
   "warnings": [
    "T17.17: algoritmo al 79 %"
   ],
-  "pages": 31,
+  "pages": 33,
   "where": {
    "COVER": 1,
    "IDX": 2,
    "T17.1": 3,
    "T17.2": 5,
-   "T17.3": 6,
-   "T17.4": 7,
-   "T17.5": 8,
-   "T17.6": 9,
-   "T17.7": 10,
-   "T17.8": 11,
-   "T17.9": 12,
-   "T17.10": 13,
-   "T17.11": 15,
-   "T17.12": 16,
-   "T17.13": 17,
-   "T17.14": 18,
-   "T17.19": 19,
-   "T17.15": 20,
-   "T17.16": 22,
-   "T17.17": 23,
-   "T17.18": 24,
-   "T17.20": 25,
-   "NUM": 26,
-   "DRUG": 28,
-   "GES": 28,
-   "PLAN": 30,
-   "PRIO": 31
+   "T17.3": 7,
+   "T17.4": 8,
+   "T17.5": 9,
+   "T17.6": 10,
+   "T17.7": 11,
+   "T17.8": 12,
+   "T17.9": 13,
+   "T17.10": 14,
+   "T17.11": 16,
+   "T17.12": 17,
+   "T17.13": 18,
+   "T17.14": 20,
+   "T17.19": 21,
+   "T17.15": 22,
+   "T17.16": 24,
+   "T17.17": 25,
+   "T17.18": 26,
+   "T17.20": 27,
+   "NUM": 28,
+   "DRUG": 30,
+   "GES": 30,
+   "PLAN": 32,
+   "PRIO": 33
   }
  },
  "stars": [
   {
    "t": "17.1",
-   "real": 22,
+   "real": 25,
    "stars": 3,
    "lg": [
     3,
@@ -322,7 +322,7 @@
   },
   {
    "t": "17.2",
-   "real": 11,
+   "real": 12,
    "stars": 2,
    "lg": [
     18
@@ -330,7 +330,7 @@
   },
   {
    "t": "17.3",
-   "real": 1,
+   "real": 2,
    "stars": 1,
    "lg": [
     2
@@ -338,14 +338,14 @@
   },
   {
    "t": "17.4",
-   "real": 18,
+   "real": 19,
    "stars": 3,
    "lg": []
   },
   {
    "t": "17.5",
-   "real": 17,
-   "stars": 2,
+   "real": 19,
+   "stars": 3,
    "lg": [
     21,
     22
@@ -353,7 +353,7 @@
   },
   {
    "t": "17.6",
-   "real": 19,
+   "real": 20,
    "stars": 3,
    "lg": [
     23,
@@ -388,7 +388,7 @@
   },
   {
    "t": "17.9",
-   "real": 15,
+   "real": 16,
    "stars": 2,
    "lg": [
     47,
@@ -403,7 +403,7 @@
   },
   {
    "t": "17.10",
-   "real": 32,
+   "real": 34,
    "stars": 3,
    "lg": [
     38,
@@ -417,7 +417,7 @@
   },
   {
    "t": "17.11",
-   "real": 33,
+   "real": 35,
    "stars": 3,
    "lg": [
     45,
@@ -426,7 +426,7 @@
   },
   {
    "t": "17.12",
-   "real": 32,
+   "real": 34,
    "stars": 3,
    "lg": [
     56,
@@ -458,13 +458,13 @@
   },
   {
    "t": "17.19",
-   "real": 9,
+   "real": 8,
    "stars": 1,
    "lg": []
   },
   {
    "t": "17.15",
-   "real": 10,
+   "real": 12,
    "stars": 2,
    "lg": [
     67,
@@ -505,7 +505,7 @@
   },
   {
    "t": "17.18",
-   "real": 18,
+   "real": 19,
    "stars": 3,
    "lg": [
     55,

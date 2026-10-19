@@ -16,13 +16,13 @@
     "overflow": false
    },
    "T20.2": {
-    "steps": 10,
+    "steps": 12,
     "split": false,
     "algo": {
-     "scale": 0.98,
+     "scale": 1,
      "orient": "lr"
     },
-    "algoH": 300,
+    "algoH": 340,
     "traps": 3,
     "ask": 5,
     "tight": true,
@@ -42,15 +42,14 @@
     "overflow": false
    },
    "T20.4": {
-    "steps": 12,
+    "steps": 16,
     "split": false,
     "algo": {
-     "scale": 0.87,
-     "orient": "grid",
-     "alt": true
+     "scale": 1,
+     "orient": "lr"
     },
-    "algoH": 220,
-    "traps": 3,
+    "algoH": 300,
+    "traps": 2,
     "ask": 5,
     "tight": true,
     "overflow": false
@@ -149,13 +148,13 @@
     "overflow": false
    },
    "T20.12": {
-    "steps": 8,
+    "steps": 9,
     "split": false,
     "algo": {
-     "scale": 1,
+     "scale": 0.91,
      "orient": "lr"
     },
-    "algoH": 310,
+    "algoH": 265,
     "traps": 3,
     "ask": 5,
     "tight": true,
@@ -245,7 +244,7 @@
  "stars": [
   {
    "t": "20.1",
-   "real": 20,
+   "real": 22,
    "stars": 3,
    "lg": [
     3,
@@ -257,7 +256,7 @@
   },
   {
    "t": "20.2",
-   "real": 5,
+   "real": 6,
    "stars": 1,
    "lg": [
     8,
@@ -268,7 +267,7 @@
   },
   {
    "t": "20.3",
-   "real": 31,
+   "real": 33,
    "stars": 3,
    "lg": [
     11,
@@ -281,7 +280,7 @@
   },
   {
    "t": "20.4",
-   "real": 8,
+   "real": 9,
    "stars": 2,
    "lg": [
     17,
@@ -290,7 +289,7 @@
   },
   {
    "t": "20.5",
-   "real": 8,
+   "real": 10,
    "stars": 2,
    "lg": [
     1,
@@ -307,7 +306,7 @@
   },
   {
    "t": "20.6",
-   "real": 3,
+   "real": 4,
    "stars": 1,
    "lg": [
     30,
@@ -367,7 +366,7 @@
   },
   {
    "t": "20.11",
-   "real": 4,
+   "real": 5,
    "stars": 1,
    "lg": [
     2,
@@ -389,7 +388,7 @@
   },
   {
    "t": "20.13",
-   "real": 24,
+   "real": 25,
    "stars": 3,
    "lg": [
     62,
@@ -407,7 +406,7 @@
   },
   {
    "t": "20.14",
-   "real": 30,
+   "real": 32,
    "stars": 3,
    "lg": [
     20,
@@ -420,7 +419,7 @@
   },
   {
    "t": "20.15",
-   "real": 23,
+   "real": 24,
    "stars": 3,
    "lg": [
     73,

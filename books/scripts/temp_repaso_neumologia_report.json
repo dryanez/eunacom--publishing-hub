@@ -2,7 +2,7 @@
  "report": {
   "topics": {
    "T1.1": {
-    "steps": 0,
+    "steps": 5,
     "split": false,
     "algo": {
      "scale": 1,
@@ -11,7 +11,7 @@
     "algoH": 340,
     "traps": 0,
     "ask": 5,
-    "tight": false,
+    "tight": true,
     "overflow": false
    },
    "T1.2": {
@@ -28,7 +28,7 @@
     "overflow": false
    },
    "T1.3": {
-    "steps": 10,
+    "steps": 12,
     "split": false,
     "algo": {
      "scale": 0.91,
@@ -68,7 +68,7 @@
     "overflow": false
    },
    "T2.1": {
-    "steps": 4,
+    "steps": 5,
     "split": false,
     "algo": {
      "scale": 1,
@@ -77,7 +77,7 @@
     "algoH": 340,
     "traps": 0,
     "ask": 6,
-    "tight": false,
+    "tight": true,
     "overflow": false
    },
    "T2.2": {
@@ -94,13 +94,13 @@
     "overflow": false
    },
    "T2.3": {
-    "steps": 5,
+    "steps": 6,
     "split": false,
     "algo": {
      "scale": 1,
-     "orient": "td"
+     "orient": "lr"
     },
-    "algoH": 360,
+    "algoH": 300,
     "traps": 0,
     "ask": 5,
     "tight": true,
@@ -146,13 +146,13 @@
     "overflow": false
    },
    "T3.2": {
-    "steps": 8,
+    "steps": 9,
     "split": false,
     "algo": {
-     "scale": 0.92,
+     "scale": 0.83,
      "orient": "lr"
     },
-    "algoH": 270,
+    "algoH": 245,
     "traps": 1,
     "ask": 5,
     "tight": true,
@@ -185,13 +185,13 @@
     "overflow": false
    },
    "T3.5": {
-    "steps": 9,
+    "steps": 10,
     "split": false,
     "algo": {
-     "scale": 0.94,
-     "orient": "td"
+     "scale": 1,
+     "orient": "lr"
     },
-    "algoH": 245,
+    "algoH": 220,
     "traps": 1,
     "ask": 5,
     "tight": true,
@@ -211,26 +211,26 @@
     "overflow": false
    },
    "T4.2": {
-    "steps": 5,
+    "steps": 10,
     "split": false,
     "algo": {
      "scale": 1,
-     "orient": "td"
+     "orient": "lr"
     },
-    "algoH": 340,
+    "algoH": 220,
     "traps": 2,
     "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T4.3": {
-    "steps": 5,
+    "steps": 9,
     "split": false,
     "algo": {
      "scale": 1,
-     "orient": "td"
+     "orient": "lr"
     },
-    "algoH": 340,
+    "algoH": 245,
     "traps": 3,
     "ask": 5,
     "tight": true,
@@ -263,13 +263,13 @@
     "overflow": false
    },
    "T5.1": {
-    "steps": 5,
+    "steps": 6,
     "split": false,
     "algo": {
-     "scale": 0.93,
+     "scale": 0.82,
      "orient": "td"
     },
-    "algoH": 340,
+    "algoH": 300,
     "traps": 1,
     "ask": 6,
     "tight": true,
@@ -401,8 +401,8 @@
   },
   {
    "t": "1.4",
-   "real": 5,
-   "stars": 2,
+   "real": 7,
+   "stars": 3,
    "lg": [
     15,
     16
@@ -410,7 +410,7 @@
   },
   {
    "t": "1.5",
-   "real": 7,
+   "real": 8,
    "stars": 3,
    "lg": [
     17,
@@ -432,7 +432,7 @@
   },
   {
    "t": "2.2",
-   "real": 0,
+   "real": 1,
    "stars": 1,
    "lg": [
     25,
@@ -453,7 +453,7 @@
   {
    "t": "2.4",
    "real": 2,
-   "stars": 2,
+   "stars": 1,
    "lg": [
     31,
     32,
@@ -463,7 +463,7 @@
   },
   {
    "t": "2.5",
-   "real": 16,
+   "real": 17,
    "stars": 3,
    "lg": [
     35,
@@ -473,7 +473,7 @@
   {
    "t": "3.1",
    "real": 6,
-   "stars": 3,
+   "stars": 2,
    "lg": [
     38,
     39,
@@ -482,7 +482,7 @@
   },
   {
    "t": "3.2",
-   "real": 2,
+   "real": 3,
    "stars": 2,
    "lg": [
     41,
@@ -495,7 +495,7 @@
   },
   {
    "t": "3.3",
-   "real": 2,
+   "real": 3,
    "stars": 2,
    "lg": [
     47,
@@ -518,7 +518,7 @@
   {
    "t": "3.5",
    "real": 6,
-   "stars": 3,
+   "stars": 2,
    "lg": [
     54
    ]
@@ -534,7 +534,7 @@
   },
   {
    "t": "4.2",
-   "real": 14,
+   "real": 15,
    "stars": 3,
    "lg": [
     55,
@@ -611,7 +611,7 @@
   },
   {
    "t": "5.4",
-   "real": 3,
+   "real": 4,
    "stars": 2,
    "lg": [
     87,

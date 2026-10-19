@@ -5,10 +5,10 @@
     "steps": 22,
     "split": false,
     "algo": {
-     "scale": 1,
+     "scale": 0.97,
      "orient": "td"
     },
-    "algoH": 250,
+    "algoH": 230,
     "traps": 1,
     "ask": 5,
     "tight": true,
@@ -41,14 +41,14 @@
     "overflow": false
    },
    "T12.4": {
-    "steps": 12,
+    "steps": 16,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
-    "algoH": 220,
-    "traps": 3,
+    "algoH": 300,
+    "traps": 2,
     "ask": 5,
     "tight": true,
     "overflow": false
@@ -67,45 +67,32 @@
     "overflow": false
    },
    "T12.6": {
-    "steps": 8,
-    "split": false,
+    "steps": 0,
+    "split": true,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
-    "algoH": 270,
-    "traps": 3,
-    "ask": 5,
-    "tight": true,
+    "algoH": 340,
+    "traps": 4,
+    "ask": 6,
+    "tight": false,
     "overflow": false
    },
    "T12.7": {
-    "steps": 8,
+    "steps": 14,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
-    "algoH": 270,
+    "algoH": 300,
     "traps": 3,
     "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T12.8": {
-    "steps": 5,
-    "split": false,
-    "algo": {
-     "scale": 1,
-     "orient": "td"
-    },
-    "algoH": 340,
-    "traps": 3,
-    "ask": 6,
-    "tight": true,
-    "overflow": false
-   },
-   "T12.9": {
     "steps": 8,
     "split": false,
     "algo": {
@@ -116,6 +103,19 @@
     "traps": 3,
     "ask": 5,
     "tight": true,
+    "overflow": false
+   },
+   "T12.9": {
+    "steps": 0,
+    "split": true,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 5,
+    "ask": 6,
+    "tight": false,
     "overflow": false
    },
    "T12.10": {
@@ -132,14 +132,14 @@
     "overflow": false
    },
    "T12.11": {
-    "steps": 20,
+    "steps": 22,
     "split": false,
     "algo": {
      "scale": 0.82,
      "orient": "td"
     },
     "algoH": 230,
-    "traps": 2,
+    "traps": 1,
     "ask": 5,
     "tight": true,
     "overflow": false
@@ -200,7 +200,7 @@
   "warnings": [
    "T12.14: algoritmo al 79 %"
   ],
-  "pages": 26,
+  "pages": 28,
   "where": {
    "COVER": 1,
    "IDX": 2,
@@ -210,20 +210,20 @@
    "T12.4": 8,
    "T12.5": 9,
    "T12.6": 11,
-   "T12.7": 12,
-   "T12.8": 13,
-   "T12.9": 14,
-   "T12.10": 15,
-   "T12.11": 16,
-   "T12.12": 17,
-   "T12.13": 18,
-   "T12.14": 19,
-   "T12.15": 20,
-   "NUM": 22,
-   "DRUG": 24,
-   "GES": 24,
-   "PLAN": 25,
-   "PRIO": 26
+   "T12.7": 13,
+   "T12.8": 14,
+   "T12.9": 15,
+   "T12.10": 17,
+   "T12.11": 18,
+   "T12.12": 19,
+   "T12.13": 20,
+   "T12.14": 21,
+   "T12.15": 22,
+   "NUM": 24,
+   "DRUG": 26,
+   "GES": 26,
+   "PLAN": 27,
+   "PRIO": 28
   }
  },
  "stars": [
@@ -279,7 +279,7 @@
   },
   {
    "t": "12.5",
-   "real": 8,
+   "real": 7,
    "stars": 2,
    "lg": [
     20,
@@ -303,7 +303,7 @@
   {
    "t": "12.7",
    "real": 4,
-   "stars": 2,
+   "stars": 1,
    "lg": [
     43,
     44,
@@ -314,7 +314,7 @@
   {
    "t": "12.8",
    "real": 4,
-   "stars": 2,
+   "stars": 1,
    "lg": [
     59,
     60,
@@ -353,7 +353,7 @@
   },
   {
    "t": "12.11",
-   "real": 11,
+   "real": 12,
    "stars": 3,
    "lg": [
     19,
@@ -388,8 +388,8 @@
   },
   {
    "t": "12.14",
-   "real": 10,
-   "stars": 2,
+   "real": 11,
+   "stars": 3,
    "lg": [
     1,
     55,
@@ -407,7 +407,7 @@
   },
   {
    "t": "12.15",
-   "real": 4,
+   "real": 5,
    "stars": 2,
    "lg": [
     37,

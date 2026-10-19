@@ -54,13 +54,13 @@
     "overflow": false
    },
    "T1.5": {
-    "steps": 6,
+    "steps": 7,
     "split": false,
     "algo": {
-     "scale": 1,
+     "scale": 0.92,
      "orient": "lr"
     },
-    "algoH": 300,
+    "algoH": 270,
     "traps": 0,
     "ask": 6,
     "tight": true,
@@ -96,10 +96,10 @@
     "steps": 0,
     "split": false,
     "algo": {
-     "scale": 1,
+     "scale": 0.99,
      "orient": "td"
     },
-    "algoH": 360,
+    "algoH": 340,
     "traps": 0,
     "ask": 5,
     "tight": false,
@@ -119,16 +119,16 @@
     "overflow": false
    },
    "T2.4": {
-    "steps": 1,
+    "steps": 5,
     "split": false,
     "algo": {
-     "scale": 0.94,
+     "scale": 1,
      "orient": "td"
     },
-    "algoH": 340,
+    "algoH": 380,
     "traps": 0,
     "ask": 5,
-    "tight": false,
+    "tight": true,
     "overflow": false
    },
    "T2.5": {
@@ -145,7 +145,7 @@
     "overflow": false
    },
    "T2.6": {
-    "steps": 0,
+    "steps": 1,
     "split": false,
     "algo": {
      "scale": 1,
@@ -172,20 +172,20 @@
     "overflow": false
    },
    "T3.2": {
-    "steps": 6,
+    "steps": 8,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "lr"
     },
-    "algoH": 300,
+    "algoH": 270,
     "traps": 1,
-    "ask": 6,
+    "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T3.3": {
-    "steps": 7,
+    "steps": 8,
     "split": false,
     "algo": {
      "scale": 0.99,
@@ -193,7 +193,7 @@
     },
     "algoH": 270,
     "traps": 1,
-    "ask": 6,
+    "ask": 5,
     "tight": true,
     "overflow": false
    },
@@ -263,13 +263,13 @@
     "overflow": false
    },
    "T5.3": {
-    "steps": 8,
+    "steps": 10,
     "split": false,
     "algo": {
-     "scale": 1,
+     "scale": 0.94,
      "orient": "lr"
     },
-    "algoH": 270,
+    "algoH": 240,
     "traps": 3,
     "ask": 5,
     "tight": true,
@@ -289,7 +289,7 @@
     "overflow": false
    },
    "T6.1": {
-    "steps": 0,
+    "steps": 5,
     "split": false,
     "algo": {
      "scale": 1,
@@ -298,20 +298,20 @@
     "algoH": 340,
     "traps": 0,
     "ask": 6,
-    "tight": false,
+    "tight": true,
     "overflow": false
    },
    "T6.2": {
-    "steps": 1,
+    "steps": 7,
     "split": false,
     "algo": {
      "scale": 1,
-     "orient": "td"
+     "orient": "lr"
     },
-    "algoH": 340,
+    "algoH": 270,
     "traps": 0,
     "ask": 6,
-    "tight": false,
+    "tight": true,
     "overflow": false
    },
    "T6.3": {
@@ -392,7 +392,7 @@
   },
   {
    "t": "1.2",
-   "real": 12,
+   "real": 13,
    "stars": 2,
    "lg": [
     7,
@@ -403,7 +403,7 @@
   },
   {
    "t": "1.3",
-   "real": 11,
+   "real": 12,
    "stars": 2,
    "lg": [
     4,
@@ -413,7 +413,7 @@
   },
   {
    "t": "1.4",
-   "real": 13,
+   "real": 14,
    "stars": 3,
    "lg": [
     15,
@@ -462,7 +462,7 @@
   },
   {
    "t": "2.3",
-   "real": 14,
+   "real": 15,
    "stars": 3,
    "lg": [
     21,
@@ -484,7 +484,7 @@
   },
   {
    "t": "2.5",
-   "real": 10,
+   "real": 11,
    "stars": 2,
    "lg": [
     27
@@ -492,7 +492,7 @@
   },
   {
    "t": "2.6",
-   "real": 3,
+   "real": 4,
    "stars": 1,
    "lg": []
   },
@@ -509,7 +509,7 @@
   },
   {
    "t": "3.2",
-   "real": 11,
+   "real": 12,
    "stars": 2,
    "lg": [
     39,
@@ -524,7 +524,7 @@
   },
   {
    "t": "3.3",
-   "real": 12,
+   "real": 11,
    "stars": 2,
    "lg": [
     37,
@@ -538,7 +538,7 @@
   {
    "t": "3.4",
    "real": 13,
-   "stars": 3,
+   "stars": 2,
    "lg": [
     43,
     55,
@@ -548,7 +548,7 @@
   },
   {
    "t": "4.1",
-   "real": 18,
+   "real": 19,
    "stars": 3,
    "lg": [
     58,
@@ -576,7 +576,7 @@
   },
   {
    "t": "5.1",
-   "real": 14,
+   "real": 15,
    "stars": 3,
    "lg": [
     5,
@@ -597,7 +597,7 @@
   },
   {
    "t": "5.3",
-   "real": 14,
+   "real": 16,
    "stars": 3,
    "lg": [
     76,
@@ -617,7 +617,7 @@
   },
   {
    "t": "6.1",
-   "real": 19,
+   "real": 20,
    "stars": 3,
    "lg": [
     25,
@@ -636,8 +636,8 @@
   },
   {
    "t": "6.3",
-   "real": 13,
-   "stars": 3,
+   "real": 11,
+   "stars": 2,
    "lg": [
     89,
     90

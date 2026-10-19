@@ -404,34 +404,21 @@ function coverPage(x) {
   const ph = meta.photo && path.join(BOOKS, 'assets', 'covers', meta.photo);
   const bg = ph && fs.existsSync(ph) ? `data:image/jpeg;base64,${fs.readFileSync(ph).toString('base64')}` : '';
   const logo = fs.readFileSync(path.join(BOOKS, 'assets', 'aee-logo-7a-dark.svg'), 'utf8');
-  const veil = meta.dense
-    ? 'linear-gradient(180deg, rgba(11,20,32,0.86) 0%, rgba(11,20,32,0.62) 40%, rgba(11,20,32,0.92) 74%, rgba(11,20,32,0.98) 100%)'
-    : 'linear-gradient(180deg, rgba(11,20,32,0.74) 0%, rgba(11,20,32,0.22) 34%, rgba(11,20,32,0.88) 72%, rgba(11,20,32,0.97) 100%)';
   const n3 = topics.filter(t => t.stars === 3).length;
-  return `<section class="page cover-aee" data-id="COVER">
-    ${bg ? `<div class="cover-bg" style="background-image:url('${bg}');background-position:${meta.pos || 'center'};filter:${meta.filter || 'none'}"></div>` : ''}
-    <div class="cover-veil" style="background:${veil}"></div>
-    <div class="cover-stripe" style="background:${meta.color}"></div>
-    <div class="cover-content">
-      <div class="cover-top-row">
-        <div class="cover-logo">${logo}</div>
-        <div class="cover-badge"><span class="ed">1ª EDICIÓN · 2026</span><span class="subed">ASOFAMECh PERFIL V3</span></div>
-      </div>
-      <div class="cover-bottom-box">
-        <div class="cover-chip" style="background:${meta.chip}"><span>TOMO ${spec.ch} · ${meta.code} · REPASO</span></div>
-        <div class="cover-title-group">
-          <span class="repaso-kicker" style="color:${BB.mix(meta.color, '#ffffff', 0.55)}">Repaso de última hora ·</span>
-          <h1 class="main-title">${esc(meta.title)}</h1>
-          <span class="sub-title">${esc(meta.sub || '')}</span>
-        </div>
-        <div class="cover-facts">
-          <div><span class="n">${topics.length}</span><span class="t">temas · 1 página cada uno</span></div>
-          <div><span class="n">${n3}</span><span class="t">temas <span style="color:#fbbf24">★★★</span> según preguntas reales 2013–2025</span></div>
-          <div><span class="n">7</span><span class="t">días de plan de repaso al final</span></div>
-        </div>
-        <div class="cover-divider"></div>
-        <div class="cover-footer-row"><span class="foot-left">${esc(spec.module)} · para las últimas semanas antes del EUNACOM</span></div>
-      </div>
+  // portada opción 1 (título grande arriba), igual que los Libros Gordos y los Gran Libros
+  const t1 = meta.title.length <= 13 ? 104 : Math.floor(104 * 13 / meta.title.length);
+  return `<section class="page cover-aee o1" data-id="COVER" style="--a:${meta.color}">
+    ${bg ? `<div class="cover-bg" style="background-image:url('${bg}');background-position:${meta.pos || 'center'}"></div>` : ''}
+    <div class="cover-veil"></div><div class="cover-stripe"></div>
+    <div class="o1-w">
+      <div class="o1-top"><div class="cover-logo">${logo}</div><span class="o1-ed">1ª EDICIÓN · 2026</span></div>
+      <div class="o1-t0">Repaso de última hora</div>
+      <h1 class="o1-t1" style="font-size:${Math.max(t1, 64)}px">${esc(meta.title)}</h1>
+      <div class="o1-bar"></div>
+      <div><span class="o1-big">${topics.length}</span> <span class="o1-bl">temas · 1 página cada uno</span></div>
+      <div class="o1-sub">${esc((meta.sub || '').replace(/^&\s*/, ''))}</div>
+      <div class="o1-sub o1-sm">${n3} temas <span style="color:#fbbf24">★★★</span> según preguntas reales 2013–2025 · plan de repaso de 7 días</div>
+      <div class="o1-bot"><span>${esc(spec.module)} · Tomo ${spec.ch} · ${meta.code} · Repaso</span><span>Academia Examen EUNACOM</span></div>
     </div>
   </section>`;
 }
@@ -462,11 +449,19 @@ function lvTag(kind, v) {
   return `<span class="lv lv-${c}"><i>${kind}</i>${esc(v)}</span>`;
 }
 function codeChips(t) {
-  const MAXC = t.codeInfo.length > 6 ? 5 : 6;
-  const own = t.codeInfo.slice(0, MAXC);
-  const rest = t.codeInfo.slice(MAXC);
-  return `<div class="codes">${own.map(ci => `<div class="chip"><span class="chip-c">${ci.code}</span><span class="chip-n" title="${esc(ci.name)}">${esc(ci.name)}</span><span class="chip-l">${ci.dx || ci.tx || ci.seg ? `${lvTag('Dx', ci.dx || '—')}${lvTag('Tx', ci.tx || '—')}${lvTag('Seg', ci.seg || '—')}` : `<span class="lv lv-nil">${esc(ci.nivel || '—')}</span>`}</span></div>`).join('')}
-    ${rest.length ? `<div class="chip chip-more"><span class="chip-n">+ ${rest.length} código${rest.length > 1 ? 's' : ''} relacionado${rest.length > 1 ? 's' : ''}: ${rest.map(ci => `<span class="mono">${ci.code}</span>`).join(' · ')}</span></div>` : ''}
+  // la misma situación clínica aparece con varios códigos (uno por especialidad): un solo chip con todos los códigos
+  const norm = n => String(n || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/rr/g, 'r').replace(/[^a-z0-9]+/g, ' ').trim();
+  const groups = [];
+  t.codeInfo.forEach(ci => {
+    const k = `${norm(ci.name)}|${ci.dx}|${ci.tx}|${ci.seg}|${ci.nivel}`;
+    const g = groups.find(x => x.k === k);
+    if (g) g.codes.push(ci.code); else groups.push({ k, ci, codes: [ci.code] });
+  });
+  const MAXC = groups.length > 6 ? 5 : 6;
+  const own = groups.slice(0, MAXC);
+  const rest = groups.slice(MAXC).flatMap(g => g.codes);
+  return `<div class="codes">${own.map(({ ci, codes }) => `<div class="chip"><span class="chip-c">${codes.map(c => `<span>${c}</span>`).join('')}</span><span class="chip-n">${esc(ci.name)}</span><span class="chip-l">${ci.dx || ci.tx || ci.seg ? `${lvTag('Dx', ci.dx || '—')}${lvTag('Tx', ci.tx || '—')}${lvTag('Seg', ci.seg || '—')}` : `<span class="lv lv-nil">${esc(ci.nivel || '—')}</span>`}</span></div>`).join('')}
+    ${rest.length ? `<div class="chip chip-more"><span class="chip-n">+ ${rest.length} código${rest.length > 1 ? 's' : ''} relacionado${rest.length > 1 ? 's' : ''}: ${rest.map(c => `<span class="mono">${c}</span>`).join(' · ')}</span></div>` : ''}
     ${!t.codeInfo.length ? `<div class="chip chip-more"><span class="chip-n">Sin código Perfil V3 propio · tema de apoyo</span></div>` : ''}</div>`;
 }
 function askList(t) {
@@ -637,6 +632,18 @@ body{width:210mm;overflow-x:hidden;font-family:'IBM Plex Sans',system-ui,sans-se
 
 /* PORTADA (misma que los tomos) */
 .cover-aee{background:#0b1420}
+.o1 .cover-bg{filter:grayscale(.4) brightness(.45) contrast(1.1)}
+.o1 .cover-veil{background:linear-gradient(180deg,rgba(11,20,32,.85) 0%,rgba(11,20,32,.5) 35%,rgba(11,20,32,.92) 75%,rgba(11,20,32,.98) 100%)}
+.o1 .cover-stripe{background:var(--a)}
+.o1-w{position:absolute;inset:0;padding:56px 60px 56px 72px;display:flex;flex-direction:column;color:#fff}
+.o1-top{display:flex;justify-content:space-between;align-items:flex-start}.o1-top .cover-logo svg{height:96px;margin-left:-38px}
+.o1-ed{font:700 11px/1 'IBM Plex Mono',monospace;letter-spacing:.14em;color:var(--a);border:1px solid var(--a);padding:7px 11px;background:rgba(8,13,20,.6)}
+.o1-t0{font:600 22px/1 'IBM Plex Sans',sans-serif;color:#c6d0dd;margin-top:46px}
+.o1-t1{font:900 104px/.86 'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:-.02em;margin-top:6px;color:#fff}
+.o1-bar{height:6px;width:140px;background:var(--a);margin:22px 0 18px}
+.o1-big{font:800 46px/1 'Barlow Condensed',sans-serif;color:var(--a)}.o1-bl{font:600 18px/1.3 'IBM Plex Sans',sans-serif}
+.o1-sub{font:500 18px/1.3 'IBM Plex Sans',sans-serif;color:#c6d0dd;margin-top:6px}.o1-sm{font-size:14px;color:#aab6c6}
+.o1-bot{margin-top:auto;border-top:1px solid rgba(255,255,255,.35);padding-top:14px;display:flex;justify-content:space-between;font:600 11px/1 'IBM Plex Mono',monospace;letter-spacing:.12em;color:#b6c1d0;text-transform:uppercase}
 .cover-bg{position:absolute;inset:0;background-size:cover;background-position:center}
 .cover-veil{position:absolute;inset:0}
 .cover-stripe{position:absolute;left:0;top:0;width:14px;height:100%}
@@ -702,9 +709,9 @@ body{width:210mm;overflow-x:hidden;font-family:'IBM Plex Sans',system-ui,sans-se
 .codes{display:grid;grid-template-columns:1fr 1fr;gap:4px 6px;margin-top:9px}
 .chip{display:flex;align-items:center;gap:6px;border:1px solid var(--acc-p);background:#fff;border-radius:3px;padding:3px 5px 3px 0;overflow:hidden;min-width:0}
 .chip .chip-n{flex:1;min-width:0;max-width:none}
-.chip-c{font:700 9.5px/1 'JetBrains Mono',monospace;color:#fff;background:var(--acc-d);align-self:stretch;display:flex;align-items:center;padding:0 6px}
-.chip-n{font:600 9.5px/1.15 'IBM Plex Sans',sans-serif;color:#1e293b;max-width:168px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.chip-l{display:flex;gap:2px}
+.chip-c{font:700 9.5px/1 'JetBrains Mono',monospace;color:#fff;background:var(--acc-d);align-self:stretch;display:flex;flex-direction:column;justify-content:center;gap:3px;padding:3px 6px}
+.chip-n{font:600 9.5px/1.15 'IBM Plex Sans',sans-serif;color:#1e293b}
+.chip-l{display:flex;gap:2px;flex-shrink:0}
 .chip-more{padding:3px 8px;background:#f8fafc;border-color:#e2e8f0}.chip-more .chip-n{max-width:none;font-weight:500;color:#475569;white-space:normal;line-height:1.35;overflow:visible}
 .lv{font:600 8.5px/1 'IBM Plex Sans',sans-serif;padding:3px 4px;border-radius:2px;white-space:nowrap}
 .lv i{font-style:normal;font-weight:700;opacity:.7;margin-right:2px}
