@@ -52,7 +52,8 @@ module.exports = {
         { cells: ['Mnemotecnia', 'Impúdica: muestra la ingle', 'Púdica: se esconde'],
           say: 'Una forma de no confundirte. En la posición impúdica el paciente no tiene pudor, y al rotar la pierna hacia afuera muestra la zona inguinal. En la púdica, la pierna se cierra y se esconde, hacia adentro.' },
         { cells: ['Complicación asociada', 'Necrosis avascular', 'Lesión del nervio ciático'],
-          say: 'Cada una tiene su complicación estrella. La fractura de cuello desplazada puede dejar necrosis avascular de la cabeza femoral. La luxación posterior se asocia a lesión del nervio ciático.' },
+          say: 'Cada una tiene su complicación estrella. La fractura de cuello desplazada puede dejar necrosis avascular de la cabeza femoral. La luxación posterior se asocia a lesión del nervio ciático. Mira esta radiografía de pelvis: la cabeza femoral derecha salió del acetábulo, hacia arriba y atrás.',
+          photo: { src: 'biblioteca/18_traumatologia/trauma-10/22_luxacion-posterior-cadera-rx__sherman_p592.jpg', label: 'Luxación posterior de cadera', at: 'Mira esta radiografía', credit: 'Atlas of Clinical Emergency Medicine (Sherman), p. 592' } },
       ],
     },
 

@@ -96,7 +96,8 @@ module.exports = {
       cards: [
         { title: 'Mano en garra', tag: 'Semanas o meses', kind: 'criteria', items: [
           { t: 'Fibrosis muscular tras isquemia', d: 'No extiende dedos ni muñeca',
-            say: 'Si un síndrome compartimental no se resuelve a tiempo, la secuela es la fibrosis del músculo. Se ve en las fracturas supracondíleas de húmero y de antebrazo: aparece semanas o meses después, con la mano en garra, porque el paciente no puede extender los dedos ni la muñeca. Es la contractura isquémica de Volkmann.' },
+            say: 'Si un síndrome compartimental no se resuelve a tiempo, la secuela es la fibrosis del músculo. Se ve en las fracturas supracondíleas de húmero y de antebrazo: aparece semanas o meses después, con la mano en garra, porque el paciente no puede extender los dedos ni la muñeca. Es la contractura isquémica de Volkmann. Mira este antebrazo: los dedos quedan flectados y rígidos, en garra.',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-03/05_contractura-antebrazo-compartimental__knoop_p328.jpg', label: 'Dedos flectados y rígidos', at: 'Mira este antebrazo', credit: 'The Atlas of Emergency Medicine (Knoop), p. 328' } },
           { t: 'Kinesioterapia; luego cirugía', d: 'Liberación de fascias y tendones',
             say: 'Se trata primero con kinesioterapia motora, y si no responde, con cirugía para liberar fascias y tendones.' },
         ] },
@@ -149,7 +150,8 @@ module.exports = {
           { t: 'Huesos largos: fémur, tibia, húmero', d: 'Aparece en horas a 48 horas',
             say: 'La embolia grasa es una complicación grave, propia de las fracturas de huesos largos como fémur, tibia y húmero. Aparece rápido, entre horas y cuarenta y ocho horas después.' },
           { t: 'Tríada: distrés, conciencia, petequias', d: 'Rash en tórax superior, cuello y axilas',
-            say: 'Su tríada es distrés respiratorio, por edema pulmonar no cardiogénico, compromiso de conciencia, desde confusión hasta coma, y un rash petequial en tórax superior, cuello y axilas.' },
+            say: 'Su tríada es distrés respiratorio, por edema pulmonar no cardiogénico, compromiso de conciencia, desde confusión hasta coma, y un rash petequial en tórax superior, cuello y axilas. Mira esta piel: esas manchitas rojas puntiformes son las petequias.',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-03/04_embolia-grasa-petequias__hy_p784.jpg', label: 'Petequias', at: 'Mira esta piel', credit: 'Mehlman Medical HY, p. 784' } },
         ] },
       ],
     },

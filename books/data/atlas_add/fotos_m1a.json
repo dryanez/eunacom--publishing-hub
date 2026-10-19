@@ -1,0 +1,134 @@
+[
+ {
+  "case": "m1a-1",
+  "prio": "alta",
+  "clases": [
+   "endo-25"
+  ],
+  "file": "biblioteca/05_endocrinologia/endo-25/01_ginecomastia__talley_p503.jpg",
+  "cap": "Ginecomastia bilateral en un hombre (espironolactona)",
+  "desc": "ginecomastia bilateral con disco retroareolar",
+  "credit": "Talley & O'Connor, Clinical Examination, Fig. 29.14 (p. 503)"
+ },
+ {
+  "case": "m1a-2",
+  "prio": "alta",
+  "clases": [
+   "neuro-03"
+  ],
+  "file": "biblioteca/09_neurologia/neuro-03/02_hematoma_cerebeloso_tc__sherman_p142.jpg",
+  "cap": "Hematoma cerebeloso en TC",
+  "desc": "TC de hematoma cerebeloso grande con compresión del cuarto ventrículo",
+  "credit": "Sherman, Atlas of Clinical Emergency Medicine, p. 142"
+ },
+ {
+  "case": "m1a-3",
+  "prio": "alta",
+  "clases": [
+   "hem-17"
+  ],
+  "file": "biblioteca/06_hematologia/hem-17/02_llc_sombras_gumprecht__goljan_p580.jpg",
+  "cap": "Leucemia linfática crónica: linfocitos maduros y sombras de Gümprecht",
+  "desc": "frotis de LLC con sombras de Gümprecht",
+  "credit": "Goljan, Rapid Review Pathology, Link 13-19"
+ },
+ {
+  "case": "m1a-4",
+  "prio": "media",
+  "clases": [
+   "hem-18"
+  ],
+  "file": "biblioteca/06_hematologia/hem-18/06_adenopatia_supraclavicular__knoop_p193.jpg",
+  "cap": "Adenopatía supraclavicular",
+  "desc": "adenopatía supraclavicular (ganglio de Virchow)",
+  "credit": "Knoop, Atlas of Emergency Medicine, p. 193"
+ },
+ {
+  "case": "m1a-5",
+  "prio": "media",
+  "clases": [
+   "hem-01"
+  ],
+  "file": "biblioteca/06_hematologia/hem-01/02_reticulocitos_azul_metileno__harrison_p467.jpg",
+  "cap": "Recuento de reticulocitos con azul de metileno nuevo",
+  "desc": "reticulocitos con tinción supravital (azul de metileno nuevo)",
+  "credit": "Harrison's Principles of Internal Medicine, 21st ed., Fig. 62-2 (p. 467)"
+ },
+ {
+  "case": "m1a-6",
+  "prio": "baja",
+  "clases": [
+   "hem-20"
+  ],
+  "file": "biblioteca/06_hematologia/hem-20/05_trombocitemia_frotis__goljan_p634.jpg",
+  "cap": "Trombocitemia esencial: aumento de plaquetas en el frotis",
+  "desc": "frotis con trombocitosis en trombocitemia esencial",
+  "credit": "Goljan, Rapid Review Pathology, Link 15-14"
+ },
+ {
+  "case": "m1a-7",
+  "prio": "media",
+  "clases": [
+   "nefro-13"
+  ],
+  "file": "biblioteca/03_nefrologia/nefro-13/03_amiloide_rojo_congo_polarizada__goljan_p172.jpg",
+  "cap": "Amiloide con rojo Congo y luz polarizada",
+  "desc": "amiloidosis: rojo Congo con birrefringencia verde manzana (imagen genérica, no renal)",
+  "credit": "Goljan, Rapid Review Pathology, Link 4-35"
+ },
+ {
+  "case": "m1a-8",
+  "prio": "media",
+  "clases": [
+   "endo-15"
+  ],
+  "file": "biblioteca/05_endocrinologia/endo-15/02_adenoma_suprarrenal_tc__ctmri_p382.jpg",
+  "cap": "Adenoma suprarrenal en TC con contraste",
+  "desc": "TC de adenoma suprarrenal (masa pequeña, homogénea, bien delimitada)",
+  "credit": "CT & MRI Pathology: A Pocket Atlas, p. 382"
+ },
+ {
+  "case": "m1a-9",
+  "prio": "media",
+  "clases": [
+   "endo-10"
+  ],
+  "file": "biblioteca/05_endocrinologia/endo-10/02_eco_carcinoma_papilar__rumack_p738.jpg",
+  "cap": "Carcinoma papilar de tiroides en ecografía",
+  "desc": "ecografía de carcinoma papilar (nódulo hipoecogénico de bordes irregulares; sin microcalcificaciones ni adenopatía visibles)",
+  "credit": "Rumack, Diagnostic Ultrasound, Fig. 18-18 (p. 738)"
+ },
+ {
+  "case": "m1a-10",
+  "prio": "media",
+  "clases": [
+   "diab-20"
+  ],
+  "file": "biblioteca/04_diabetes/diab-20/01_glomeruloesclerosis_nodular_esquema__goljan_p1050.jpg",
+  "cap": "Esclerosis nodular glomerular (esquema)",
+  "desc": "glomeruloesclerosis nodular de Kimmelstiel-Wilson (esquema, no histología PAS)",
+  "credit": "Goljan, Rapid Review Pathology, Link 20-48"
+ },
+ {
+  "case": "m1a-11",
+  "prio": "alta",
+  "clases": [
+   "diab-17"
+  ],
+  "file": "biblioteca/04_diabetes/diab-17/02_ecg-hiperpotasemia-t-picudas__cto-cardio_p19.jpg",
+  "cap": "ECG de hiperpotasemia: T picudas",
+  "desc": "ECG con ondas T picudas (hiperkalemia)",
+  "credit": "Manual CTO Cardiología 14.ª ed., p. 19"
+ },
+ {
+  "case": "m1a-12",
+  "prio": "media",
+  "clases": [
+   "neuro-19"
+  ],
+  "file": "biblioteca/09_neurologia/neuro-19/05_mano_caida_radial__acd_p192.jpg",
+  "cap": "Mano caída por lesión del nervio radial",
+  "desc": "mano caída por parálisis del nervio radial",
+  "credit": "Atlas of Clinical Diagnosis (Mir), Fig. 9.136"
+ }
+]

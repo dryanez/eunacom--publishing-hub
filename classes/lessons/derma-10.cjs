@@ -148,7 +148,8 @@ module.exports = {
         ] },
         { title: 'Toxidermia fija', tag: 'Siempre el mismo sitio', kind: 'alert', items: [
           { t: 'Placa violácea que reaparece en el mismo lugar', d: 'Redonda, bien delimitada; deja mancha parda',
-            say: 'La toxidermia fija es una placa eritematoviolácea, redonda u oval, bien delimitada, a veces con una ampolla central, que reaparece siempre en el mismo sitio cada vez que se expone al fármaco y deja una mancha residual gris parda. Aparece entre treinta minutos y ocho horas después de tomar el medicamento.' },
+            say: 'La toxidermia fija es una placa eritematoviolácea, redonda u oval, bien delimitada, a veces con una ampolla central, que reaparece siempre en el mismo sitio cada vez que se expone al fármaco y deja una mancha residual gris parda. Aparece entre treinta minutos y ocho horas después de tomar el medicamento. Mira esta placa: redonda, violácea y bien delimitada, y queda una mancha residual.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-10/04_toxidermia-fija__knoop_p392.jpg', label: 'Toxidermia fija', at: 'Mira esta placa', credit: 'The Atlas of Emergency Medicine (Knoop), p. 392' } },
           { t: 'AINE, cotrimoxazol, tetraciclinas', d: 'Suspender, corticoide tópico potente, anotar el agente',
             say: 'Las causas más frecuentes son los AINE, el cotrimoxazol y otras sulfas, las tetraciclinas, el paracetamol y la carbamazepina. El diagnóstico es clínico, con una buena historia de fármacos. Suspendes y evitas el agente, das corticoide tópico potente por pocos días y lo dejas anotado. La forma ampollosa generalizada con más del diez por ciento de superficie se maneja como necrólisis.' },
         ] },

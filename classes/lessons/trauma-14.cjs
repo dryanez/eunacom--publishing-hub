@@ -32,7 +32,8 @@ module.exports = {
             say: 'Mira esta maniobra de Ortolani en el recién nacido: reduce una cadera luxada, y se siente un clic de entrada al abducir. El de Barlow luxa una cadera que estaba encajada. Ortolani es la que entra, Barlow es la que se sale.' },
         ] },
         { title: 'Radiografía', tag: 'Dato del libro', kind: 'criteria', items: [
-          { t: 'Núcleo arriba y afuera', d: 'Normal: ínfero-interno', say: 'En la radiografía, lo normal es que el núcleo de osificación esté abajo y adentro. En la displasia se desplaza hacia arriba y afuera, y el arco de Shenton se ve interrumpido.' },
+          { t: 'Núcleo arriba y afuera', d: 'Normal: ínfero-interno', say: 'En la radiografía, lo normal es que el núcleo de osificación esté abajo y adentro. En la displasia se desplaza hacia arriba y afuera, y el arco de Shenton se ve interrumpido. Mira esta pelvis: el techo del cotilo izquierdo, muy inclinado.',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-14/06_displasia-cadera-indice-acetabular__bailey-love_p592.jpg', label: 'Displasia: techo inclinado', at: 'Mira esta pelvis', credit: 'Bailey & Love 27.ª ed., Fig. 39.19' } },
           { t: 'Ángulo acetabular sobre 30', d: 'Más de 36 confirma la displasia', say: 'Un ángulo acetabular sobre treinta grados es sospechoso, y sobre treinta y seis grados confirma la displasia.' },
         ] },
       ],
@@ -79,7 +80,8 @@ module.exports = {
       title: 'Pie bot: cuatro deformidades',
       cards: [
         { title: 'Qué es', tag: 'Congénito', kind: 'key', items: [
-          { t: 'Pie equinovaro o zambo', d: 'Malformación congénita compleja', say: 'El pie bot, también llamado pie zambo o equinovaro, es una malformación congénita compleja.' },
+          { t: 'Pie equinovaro o zambo', d: 'Malformación congénita compleja', say: 'El pie bot, también llamado pie zambo o equinovaro, es una malformación congénita compleja. Mira estos pies: apuntan hacia abajo y adentro, en equino y varo.',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-14/07_pie-bot-congenito__talley_p800.jpg', label: 'Pie bot', at: 'Mira estos pies', credit: 'Talley, Clinical Examination, Fig. 38.24' } },
           { t: 'Varo, equino, cavo y aducto', d: 'Las cuatro deformidades', say: 'Combina cuatro deformidades: varo, equino, cavo y aducto.' },
         ] },
         { title: 'Tratamiento', tag: 'Ortopédico', kind: 'pharma', items: [

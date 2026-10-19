@@ -1,0 +1,179 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Cardiología, clases nuevas (38 temas, oct-2026).
+//   ?v=ecg_iam   cardio-14 A1: evolución del ECG en el IAM con supradesnivel del ST (T hiperaguda → SDST con imagen
+//                especular → onda Q → T negativa → Q persistente). Gráfico solo de código.
+//   ?v=oclusion  cardio-14 A2: oclusión de la descendente anterior, SDST y reperfusión sobre Blausen «Coronary Circulation
+//                (Anterior)», CC BY 3.0 (assets/blausen/coronarias_anterior.png, 1594x1413; misma lámina que neuro-25).
+const V = new URLSearchParams(location.search).get('v') || 'ecg_iam';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade } = K;
+const I = k => window.IMGS[k];
+const CRED_G = 'Gráfico propio · criterios del Manual EUNACOM de Cardiología, tema 2.5';
+const CRED_B = 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios';
+const g = (x, m, w) => Math.exp(-((x - m) * (x - m)) / (2 * w * w));
+
+// ====================== cardio-14 A1: evolución del ECG ======================
+// p: h = T hiperaguda, st = supradesnivel (negativo = infradesnivel), q = onda Q de necrosis, tinv = T negativa
+function beat(u, p) {
+  let y = 0.10 * g(u, 0.14, 0.025);                                                   // P
+  y += -(0.10 + 0.55 * p.q) * g(u, 0.285, 0.009 + 0.007 * p.q);                       // Q
+  y += (1.0 - 0.62 * p.q) * g(u, 0.31, 0.010);                                        // R
+  y += -0.22 * g(u, 0.335, 0.009) * (1 - 0.8 * Math.abs(p.st));                       // S
+  const x = clamp((u - 0.33) / 0.33, 0, 1);
+  y += 0.36 * p.st * Math.pow(Math.sin(Math.PI * x), 0.7);                            // segmento ST convexo («lápida»)
+  const tA = 0.26 * (1 + 1.5 * p.h) * (1 - 2 * p.tinv), tW = 0.045 + 0.02 * p.h;
+  y += tA * g(u, 0.68, tW);                                                           // T
+  return y;
+}
+const ST = [
+  { t: 0,  p: { h: 0,   st: 0,    q: 0, tinv: 0 },   name: 'ECG normal' },
+  { t: 3,  p: { h: 1,   st: 0.12, q: 0, tinv: 0 },   name: 'Minutos: onda T hiperaguda' },
+  { t: 9,  p: { h: 0.5, st: 1,    q: 0, tinv: 0 },   name: 'Horas: supradesnivel del ST' },
+  { t: 16, p: { h: 0.2, st: 0.8,  q: 1, tinv: 0 },   name: '6 a 12 horas: onda Q de necrosis' },
+  { t: 22, p: { h: 0,   st: 0.12, q: 1, tinv: 1 },   name: 'Días: el ST baja y la T se invierte' },
+  { t: 28, p: { h: 0,   st: 0.05, q: 1, tinv: 0.6 }, name: 'Semanas: queda la onda Q' },
+];
+const DUR_T = 3.2;                                            // segundos que dura cada transición
+function params(t) {                                           // transición hacia la etapa i durante [ST[i].t, ST[i].t + DUR_T]
+  let i = 0; while (i < ST.length - 1 && t >= ST[i + 1].t) i++;
+  const a = (ST[i - 1] || ST[i]).p, b = ST[i].p, k = i > 0 ? ease(seg(t, ST[i].t, DUR_T)) : 1;
+  const cur = {}; for (const key of Object.keys(a)) cur[key] = lerp(a[key], b[key], k);
+  return { cur, i: k > 0.5 ? i : Math.max(i - 1, 0) };
+}
+function lead(x, y, w, h, t, p, label, col, a) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  rrect(x, y, w, h, 16, '#161B22');
+  text(label, x + 20, y + 30, 18, C.MUTED, 'bold');
+  ctx.save(); ctx.beginPath(); ctx.rect(x + 12, y + 40, w - 24, h - 48); ctx.clip();
+  ctx.strokeStyle = '#2A1F25'; ctx.lineWidth = 1;
+  for (let gx = x + 12; gx < x + w; gx += 20) { ctx.beginPath(); ctx.moveTo(gx, y + 40); ctx.lineTo(gx, y + h); ctx.stroke(); }
+  for (let gy = y + 40; gy < y + h; gy += 20) { ctx.beginPath(); ctx.moveTo(x, gy); ctx.lineTo(x + w, gy); ctx.stroke(); }
+  const base = y + h * 0.62, amp = h * 0.42, bw = 230, off = (t * 60) % bw;
+  ctx.setLineDash([6, 6]); ctx.strokeStyle = '#3A4350'; ctx.lineWidth = 1.5;
+  ctx.beginPath(); ctx.moveTo(x + 12, base); ctx.lineTo(x + w - 12, base); ctx.stroke(); ctx.setLineDash([]);
+  ctx.strokeStyle = col; ctx.lineWidth = 3.2; ctx.lineJoin = 'round'; ctx.beginPath();
+  for (let px = -bw; px < w; px += 2) {
+    const u = ((((px + off) % bw) + bw) % bw) / bw, X = x + 12 + px, Y = base - amp * beat(u, p);
+    px === -bw ? ctx.moveTo(X, Y) : ctx.lineTo(X, Y);
+  }
+  ctx.stroke(); ctx.restore(); ctx.restore();
+}
+function ecg_iam(t) {
+  K.title('Así evoluciona el ECG del infarto', 'Derivación del territorio infartado y su derivación opuesta', C.RED);
+  const { cur, i } = params(t);
+  const elev = cur.st > 0.35;
+  lead(40, 130, 780, 290, t, cur, 'V2 · derivación sobre el territorio infartado', elev ? C.RED : (cur.h > 0.4 ? C.AMBER : C.GREEN), seg(t, 0.2, 0.6));
+  const mirror = { h: 0, st: -0.75 * cur.st, q: 0, tinv: -0.35 * cur.st };
+  lead(40, 440, 780, 190, t, mirror, 'DIII · derivación opuesta', elev ? C.BLUE : C.GREEN, seg(t, 0.6, 0.6));
+  // rótulos sobre los trazados
+  ctx.save(); ctx.globalAlpha = clamp((cur.st - 0.35) / 0.3, 0, 1); tag('Supradesnivel del ST', 712, 168, C.RED, 18);
+  tag('Imagen especular: infradesnivel', 640, 476, C.BLUE, 17); ctx.restore();
+  ctx.save(); ctx.globalAlpha = clamp((cur.q - 0.4) / 0.4, 0, 1); tag('Onda Q de necrosis', 505, 168, C.VIOLET, 18); ctx.restore();
+  ctx.save(); ctx.globalAlpha = clamp((cur.h - 0.5) / 0.3, 0, 1) * (1 - clamp((cur.st - 0.5) / 0.3, 0, 1)); tag('T alta y picuda', 712, 168, C.AMBER, 18); ctx.restore();
+  ctx.save(); ctx.globalAlpha = clamp((cur.tinv - 0.4) / 0.4, 0, 1); tag('T negativa', 712, 168, C.MUTED, 18); ctx.restore();
+  // etapas (derecha)
+  const x0 = 850, y0 = 130, rowH = 64;
+  ctx.save(); ctx.globalAlpha = seg(t, 0.6, 0.6);
+  rrect(x0, y0, 390, rowH * ST.length + 20, 16, '#161B22');
+  ST.forEach((s, k) => {
+    const on = k === i, done = k < i, y = y0 + 14 + k * rowH;
+    if (on) rrect(x0 + 10, y, 370, rowH - 8, 12, '#232B37');
+    ctx.fillStyle = on ? C.RED : (done ? '#5B6573' : '#343C48'); ctx.beginPath(); ctx.arc(x0 + 34, y + 28, 9, 0, 7); ctx.fill();
+    const [a1, a2] = s.name.split(': ');
+    if (a2) { text(a1, x0 + 56, y + 22, 15, on ? C.AMBER : C.MUTED, 'bold'); text(a2, x0 + 56, y + 44, 17, on ? C.INK : '#7E8794', on ? 'bold' : ''); }
+    else text(a1, x0 + 56, y + 34, 17, on ? C.INK : '#7E8794', on ? 'bold' : '');
+  });
+  ctx.restore();
+  // mensajes
+  K.banner(850, 556, 390, 'Reperfundir antes de la onda Q', C.GREEN, fade(t, 12.5, 40));
+  ctx.save(); ctx.globalAlpha = fade(t, 30, 40); text('Si el ST sigue elevado más de 4 semanas: pensar en aneurisma ventricular', 430, 662, 18, C.AMBER, 'bold', 'center'); ctx.restore();
+  ctx.save(); ctx.globalAlpha = fade(t, 11.5, 29.5); text('La imagen especular separa el infarto de la pericarditis', 430, 662, 18, C.BLUE, 'bold', 'center'); ctx.restore();
+}
+
+// ====================== cardio-14 A2: oclusión y reperfusión (lámina Blausen) ======================
+const DST = { x: 24, y: 122 }, S = 0.385;
+const HW = 1594 * S, HH = 1413 * S;
+const P = (x, y) => [DST.x + x * S, DST.y + y * S];
+const LAD_IMG = [[885, 575], [878, 620], [872, 670], [868, 720], [878, 770], [897, 820], [912, 870], [918, 930], [922, 990], [930, 1050], [946, 1110], [975, 1150]];
+const LAD = poly(LAD_IMG.map(p => P(...p)));
+const S_OCC = 0.3;
+const CATH = poly([[610, 0], [622, 200], [640, 380], [720, 500], [800, 545], [860, 565]].concat(LAD_IMG.slice(0, 4)).map(p => P(...p)));
+const TERR = [[865, 760], [960, 720], [1070, 740], [1135, 810], [1165, 920], [1160, 1040], [1120, 1160], [1050, 1225], [965, 1245], [915, 1210], [915, 1100], [890, 980], [872, 860]];
+const terrPath = () => { ctx.beginPath(); TERR.forEach((p, i) => { const [x, y] = P(...p); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }); ctx.closePath(); };
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill();
+  tag(s, x, y, col, size); ctx.restore();
+}
+function clockPanel(x, y, w, min, a) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  rrect(x, y, w, 118, 16, '#161B22');
+  text('Minutos desde el diagnóstico', x + 20, y + 30, 18, C.MUTED);
+  text(String(Math.round(min)) + ' min', x + w - 20, y + 36, 32, min > 90 ? C.RED : C.AMBER, 'bold', 'right');
+  const bx = x + 20, bw = w - 40, mx = 130;
+  rrect(bx, y + 56, bw, 14, 7, '#222833'); rrect(bx, y + 56, bw * clamp(min / mx, 0, 1), 14, 7, min > 90 ? C.RED : C.AMBER);
+  [[90, 'ACTP ≤ 90'], [120, 'Límite 120']].forEach(([m, lab]) => { const X = bx + bw * m / mx; ctx.fillStyle = '#ddd'; ctx.fillRect(X - 1, y + 50, 2, 26); text(lab, X, y + 98, 15, C.MUTED, '', 'center'); });
+  ctx.restore();
+}
+function oclusion(t) {
+  K.title('Oclusión total: el ST sube', 'Descendente anterior ocluida, angioplastía primaria y reperfusión', C.RED);
+  const la = seg(t, 0, 0.7);
+  ctx.save(); ctx.globalAlpha = la; rrect(DST.x - 6, DST.y - 6, HW + 12, HH + 12, 18, '#FFFFFF');
+  ctx.beginPath(); ctx.roundRect(DST.x, DST.y, HW, HH, 14); ctx.clip(); ctx.drawImage(I('cor'), DST.x, DST.y, HW, HH); ctx.restore();
+  const occ = ease(seg(t, 3.6, 1.4)), open = ease(seg(t, 20.2, 1.0));
+  const isc = clamp(ease(seg(t, 5.5, 14.5)) * 0.8, 0, 0.8) * (1 - open * 0.72);
+  const e = clamp(ease(seg(t, 6, 8)), 0, 1) * (1 - ease(seg(t, 21.0, 4.5)));
+  const min = t < 6 ? 0 : Math.min(88, (t - 6) * 5.9);
+  if (isc > 0) { ctx.save(); ctx.beginPath(); ctx.roundRect(DST.x, DST.y, HW, HH, 14); ctx.clip(); ctx.filter = 'blur(9px)'; terrPath();
+    const [cx, cy] = P(1040, 980); const gr = ctx.createRadialGradient(cx, cy, 10, cx, cy, 300 * S / 0.425);
+    gr.addColorStop(0, `rgba(70,20,70,${0.85 * isc})`); gr.addColorStop(1, `rgba(110,40,90,${0.65 * isc})`);
+    ctx.fillStyle = gr; ctx.fill(); ctx.restore(); }
+  const ha = fade(t, 1.2, 4.2, 0.6); if (ha > 0) { ctx.save(); ctx.globalAlpha = ha * 0.7; ctx.lineCap = 'round'; LAD.stroke(ctx, 0, 1, 11, 'rgba(255,230,120,0.9)'); ctx.restore(); }
+  label('Arteria descendente anterior', 430, 170, C.AMBER, ...P(878, 700), fade(t, 1.4, 4.4));
+  const sMax = occ < 0.1 || open > 0.5 ? 1 : S_OCC - 0.01;
+  if (t > 1.5) for (let i = 0; i < 10; i++) {
+    const u = ((t * 0.28) + i / 10) % 1, s = u * sMax; const [x, y] = LAD.at(s);
+    ctx.globalAlpha = Math.min(1, u * 6, (1 - u) * 6) * 0.95; ctx.fillStyle = '#FF3B30'; ctx.beginPath(); ctx.arc(x, y, 3.8, 0, 7); ctx.fill(); }
+  ctx.globalAlpha = 1;
+  const [tx, ty] = LAD.at(S_OCC), clot = occ * (1 - open);
+  if (clot > 0.02) { K.glow(tx, ty, 34 * clot, '120,10,40', 0.8 * clot);
+    ctx.save(); ctx.globalAlpha = clot; ctx.fillStyle = '#5A0F2E'; ctx.strokeStyle = '#2B0716'; ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.ellipse(tx, ty, 12 * clot + 2, 8 * clot + 2, 0.6, 0, 7); ctx.fill(); ctx.stroke(); ctx.restore(); }
+  label('Trombo oclusivo', 250, 330, C.RED, tx - 4, ty, fade(t, 4.4, 19.3));
+  label('Isquemia transmural', 470, 650, '#C79BFF', ...P(1050, 1010), fade(t, 9, 21));
+  const cA = seg(t, 15.2, 0.6), cS = ease(seg(t, 15.4, 4.4));
+  if (cA > 0) { ctx.save(); ctx.globalAlpha = cA; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+    CATH.stroke(ctx, 0, cS, 8, '#56616E'); CATH.stroke(ctx, 0, cS, 5, '#EEF2F5'); ctx.restore();
+    if (t > 19.4 && t < 21.4) { const r = 11 * Math.sin(Math.PI * clamp((t - 19.4) / 2, 0, 1)); const [bx, by] = CATH.at(cS);
+      ctx.save(); ctx.globalAlpha = 0.9; ctx.fillStyle = '#DDE7EE'; ctx.strokeStyle = '#56616E'; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.arc(bx, by, r, 0, 7); ctx.fill(); ctx.stroke(); ctx.restore(); }
+    if (t > 21.4) { ctx.save(); ctx.globalAlpha = cA * (1 - seg(t, 22.4, 0.8)); ctx.lineCap = 'round'; CATH.stroke(ctx, 0, cS, 8, '#56616E'); CATH.stroke(ctx, 0, cS, 5, '#EEF2F5'); ctx.restore(); } }
+  label('Angioplastía: balón y stent', 250, 330, C.GREEN, tx - 4, ty, seg(t, 19.9, 0.5) * (1 - seg(t, 22.8, 0.5)));
+  // ECG con imagen especular (derecha)
+  const p = { h: 0, st: e, q: 0, tinv: 0 }, m = { h: 0, st: -0.75 * e, q: 0, tinv: -0.3 * e };
+  const la2 = seg(t, 1, 0.6);
+  lead(660, 126, 580, 150, t, p, 'V2 · territorio de la descendente anterior', e > 0.3 ? C.RED : C.GREEN, la2);
+  lead(660, 284, 580, 110, t, m, 'DIII · derivación opuesta', e > 0.3 ? C.BLUE : C.GREEN, la2);
+  if (e > 0.3) { ctx.save(); ctx.globalAlpha = clamp((e - 0.3) / 0.3, 0, 1); tag('Supradesnivel del ST', 1150, 160, C.RED, 16); tag('Imagen especular', 1130, 318, C.BLUE, 15); ctx.restore(); }
+  clockPanel(660, 404, 580, min, seg(t, 5.5, 0.6));
+  K.card(660, 534, 580, 70, C.RED, 'SCACEST: reperfusión urgente (GES)', [], seg(t, 14.5, 0.5) * (1 - seg(t, 24.2, 0.5)), 17);
+  K.card(660, 534, 580, 70, C.GREEN, 'Reperfusión: el ST baja más de 50%', [], seg(t, 24.5, 0.5), 17);
+  K.card(660, 614, 580, 70, C.AMBER, 'ACTP ≤ 120 min; si no, fibrinólisis ≤ 30 min', [], seg(t, 16.5, 0.5), 17);
+}
+
+const SCN = { ecg_iam: { f: ecg_iam, dur: 34, cred: CRED_G }, oclusion: { f: oclusion, dur: 31, cred: CRED_B } };
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t);
+  ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(700, 696, 580, 24); text(SCN[V].cred, 1268, 712, 13, C.MUTED, '', 'right');
+};
+LOAD(V === 'oclusion' ? { cor: '../assets/blausen/coronarias_anterior.png' } : {});
+</script>
+</body></html>

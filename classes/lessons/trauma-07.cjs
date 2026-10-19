@@ -86,9 +86,11 @@ module.exports = {
           { t: 'Maléolos medial y lateral', d: 'Su fractura es la más común del tobillo',
             say: 'Palpa siempre los dos maléolos, el medial y el lateral. Su fractura es la más frecuente en el tobillo.' },
           { t: 'Base del quinto metatarsiano', d: 'Avulsión por el peroneo lateral corto',
-            say: 'Luego la base del quinto metatarsiano: el músculo peroneo lateral corto tracciona y puede arrancar un fragmento. Es la fractura por avulsión que se confunde con un esguince.' },
+            say: 'Luego la base del quinto metatarsiano: el músculo peroneo lateral corto tracciona y puede arrancar un fragmento. Es la fractura por avulsión que se confunde con un esguince. Mira esta radiografía del pie: el fragmento arrancado en la base del quinto metatarsiano.',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-07/23_quinto-metatarsiano-base-rx__knoop_p347.jpg', label: 'Base del quinto metatarsiano', at: 'Mira esta radiografía', credit: 'The Atlas of Emergency Medicine (Knoop), p. 347' } },
           { t: 'Cabeza del peroné', d: 'Fractura de Maisonneuve',
-            say: 'Y la cabeza del peroné. El golpe se transmite por la sindesmosis, que es la unión fibrosa entre tibia y peroné, y puede fracturar el peroné arriba, cerca de la rodilla. Eso se llama fractura de Maisonneuve. Si solo miras el tobillo, la pierdes.' },
+            say: 'Y la cabeza del peroné. El golpe se transmite por la sindesmosis, que es la unión fibrosa entre tibia y peroné, y puede fracturar el peroné arriba, cerca de la rodilla. Eso se llama fractura de Maisonneuve. Si solo miras el tobillo, la pierdes. Mira esta radiografía: el tobillo lesionado y, más arriba, el peroné fracturado.',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-07/24_maisonneuve__sherman_p615.jpg', label: 'Maisonneuve', at: 'Mira esta radiografía', credit: 'Atlas of Clinical Emergency Medicine (Sherman), p. 615' } },
         ] },
         { title: 'Cuándo pedir radiografía', tag: 'Reglas de Ottawa', kind: 'alert', items: [
           { t: 'Dolor óseo en esos puntos', d: 'Maléolos o base del quinto metatarsiano',

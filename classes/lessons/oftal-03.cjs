@@ -185,7 +185,8 @@ module.exports = {
       cards: [
         { title: 'Benignos', tag: 'Estables', kind: 'normal', items: [
           { t: 'Nevo, papiloma, quiste de inclusión', d: 'Papiloma rosado, con vasos en penacho, por VPH',
-            say: 'En la conjuntiva, una masa o placa cerca del limbo puede confundirse con un pterigión. Son benignos el nevo, pigmentado, con quistes internos y estable desde la infancia, el papiloma, una masa rosada con vasos en penacho asociada a virus papiloma humano, y el quiste de inclusión.' },
+            say: 'En la conjuntiva, una masa o placa cerca del limbo puede confundirse con un pterigión. Son benignos el nevo, pigmentado, con quistes internos y estable desde la infancia, el papiloma, una masa rosada con vasos en penacho asociada a virus papiloma humano, y el quiste de inclusión. Mira este papiloma: la masa rosada con vasos en penacho sobre la conjuntiva.',
+            photo: { src: 'biblioteca/12_oftalmologia/oftal-03/57_papiloma-conjuntival__kanski_p482.jpg', label: 'Papiloma conjuntival', at: 'Mira este papiloma', credit: 'Kanski, Clinical Ophthalmology 8.ª ed., Fig. 12.2' } },
         ] },
         { title: 'Malignos', tag: 'Los que no se pueden perder', kind: 'alert', items: [
           { t: 'Neoplasia escamosa de superficie', d: 'Placa blanquecina o gelatinosa en el limbo',

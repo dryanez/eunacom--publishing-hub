@@ -101,7 +101,8 @@ module.exports = {
         ] },
         { title: 'Molusco contagioso', tag: 'Poxvirus', kind: 'criteria', items: [
           { t: 'Pápulas perladas umbilicadas de 2 a 5 mm', d: 'Niños; en adultos, genital o VIH',
-            say: 'El molusco contagioso lo causa un poxvirus: pápulas perladas, color piel, de dos a cinco milímetros, con una depresión central y contenido caseoso. En niños se asocia a piscinas y atopia; en adultos, a transmisión sexual o, si son múltiples y gigantes, a VIH.' },
+            say: 'El molusco contagioso lo causa un poxvirus: pápulas perladas, color piel, de dos a cinco milímetros, con una depresión central y contenido caseoso. Mira estas pápulas perladas junto al ojo de un niño: son molusco contagioso. En niños se asocia a piscinas y atopia; en adultos, a transmisión sexual o, si son múltiples y gigantes, a VIH.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-12/12_molusco-contagioso-periocular__kumar-clark_p1652.jpg', label: 'Molusco contagioso', at: 'Mira estas pápulas perladas', credit: 'Kumar & Clark, Clinical Medicine, Fig. 45.28' } },
           { t: 'Autolimitado; curetaje o crioterapia', d: 'Evitar el rascado y compartir toallas',
             say: 'Se resuelve solo en seis a doce meses, y se puede observar o tratar con curetaje, crioterapia o hidróxido de potasio tópico. Evita el rascado, que autoinocula, y en un adulto con muchas lesiones descartas VIH.' },
         ] },
@@ -144,7 +145,8 @@ module.exports = {
         ] },
         { title: 'Qué se ve', tag: 'Dos patrones', kind: 'criteria', items: [
           { t: 'Herpes: células gigantes multinucleadas', d: 'Vidrio esmerilado; no distingue herpes simple de zóster',
-            say: 'En el herpes simple y en el zóster ves células gigantes multinucleadas, con núcleos en vidrio esmerilado y moldeamiento nuclear. Pero no distingue entre herpes simple, zóster y varicela.' },
+            say: 'En el herpes simple y en el zóster ves células gigantes multinucleadas, con núcleos en vidrio esmerilado y moldeamiento nuclear. Mira esta célula gigante multinucleada en el extendido. Pero no distingue entre herpes simple, zóster y varicela.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-12/13_tzanck-celulas-gigantes__knoop_p947.jpg', label: 'Célula gigante multinucleada', at: 'Mira esta célula gigante', credit: 'The Atlas of Emergency Medicine (Knoop), p. 947' } },
           { t: 'Pénfigo: queratinocitos acantolíticos aislados', d: 'Redondeados, sin multinucleación',
             say: 'En el pénfigo vulgar ves queratinocitos acantolíticos redondeados y aislados, sin multinucleación. Así orienta entre una erosión herpética y una enfermedad ampollar autoinmune.' },
         ] },

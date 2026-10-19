@@ -102,7 +102,8 @@ module.exports = {
         ] },
         { title: 'Los que se parecen', tag: 'Diferencial', kind: 'alert', items: [
           { t: 'Angiomiolipoma: grasa en el TAC', d: 'Esclerosis tuberosa; sangra si mide más de 4 cm',
-            say: 'El angiomiolipoma es benigno y se reconoce por la grasa macroscópica en el TAC. Se asocia a esclerosis tuberosa y puede sangrar masivamente si mide más de cuatro centímetros.' },
+            say: 'El angiomiolipoma es benigno y se reconoce por la grasa macroscópica en el TAC. Se asocia a esclerosis tuberosa y puede sangrar masivamente si mide más de cuatro centímetros. Mira este TAC: la masa del riñón izquierdo tiene grasa en su interior, y eso es el angiomiolipoma.',
+            photo: { src: 'biblioteca/19_urologia/uro-11/03_angiomiolipoma-tac__ctmri-path_p345.jpg', label: 'Angiomiolipoma con grasa', at: 'Mira este TAC', credit: 'CT & MRI Pathology: A Pocket Atlas, p. 345' } },
           { t: 'Oncocitoma', d: 'Benigno, indistinguible por imagen',
             say: 'El oncocitoma también es benigno, pero por imagen no se distingue del cáncer.' },
           { t: 'Metástasis, linfoma, urotelial', d: 'Absceso y xantogranulomatosa',

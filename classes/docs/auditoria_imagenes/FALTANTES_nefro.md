@@ -8,23 +8,23 @@ Ya cubiertos y excluidos: hidronefrosis eco/TC (nefro-01), lámina de cilindros,
 
 | clase | tema | imagen que falta | tipo | prioridad |
 |---|---|---|---|---|
-| nefro-02 | Necrosis tubular y nefritis intersticial | orina color té / oscura en rabdomiólisis (mioglobinuria) | foto clínica | media |
-| nefro-05 | Hiponatremia | RM de mielinólisis pontina central: hiperintensidad pontina en T2/FLAIR "en tridente / alas de murciélago" (síndrome de desmielinización osmótica) | RM | media |
-| nefro-13 | Síndrome nefrótico | lipiduria: cuerpos ovales grasos con "cruz de Malta" bajo luz polarizada en el sedimento urinario | histología | alta |
-| nefro-13 | Síndrome nefrótico | amiloidosis renal: tinción rojo Congo con birrefringencia verde manzana | histología | media |
-| nefro-14 | Membranosa, cambios mínimos, GEFS | biopsia real de glomerulopatía: nefropatía membranosa con tinción de plata ("spikes") y/o microscopía electrónica con borramiento de pedicelos (cambios mínimos) | histología | media |
-| nefro-15 | GN postestreptocócica | orina color coca-cola (hematuria macroscópica glomerular) | foto clínica | media |
-| nefro-16 | GN rápidamente progresiva | Rx/TC de tórax con infiltrados alveolares bilaterales por hemorragia alveolar (síndrome de Goodpasture) | Rx | alta |
-| nefro-16 | GN rápidamente progresiva | nódulos pulmonares cavitados en granulomatosis con poliangeítis (Wegener) | TAC | alta |
-| nefro-16 | GN rápidamente progresiva | biopsia renal con semiluna glomerular (crescent) | histología | media |
-| nefro-16 | GN rápidamente progresiva | inmunofluorescencia glomerular lineal (anti-MBG) vs granular (inmunocomplejos) | histología | media |
-| nefro-17 | Nefritis lúpica | nefritis lúpica clase IV: lesiones en "asas de alambre" (wire loops) | histología | media |
-| nefro-18 | ERC: KDIGO y GES | fístula arteriovenosa radiocefálica (Brescia-Cimino) para hemodiálisis | foto clínica | baja |
-| nefro-19 | Complicaciones de la ERC | calcifilaxis (arteriolopatía urémica calcificante): úlceras necróticas cutáneas | foto clínica | baja |
-| nefro-19 | Complicaciones de la ERC | osteodistrofia renal: columna "en camiseta de rugby" (rugger-jersey spine) | Rx | baja |
-| nefro-20 | Estenosis de arteria renal | displasia fibromuscular de arteria renal en "collar de perlas" | angiografía | alta |
-| nefro-20 | Estenosis de arteria renal | estenosis ateroesclerótica ostial de arteria renal | angiografía | baja |
-| nefro-21 | Pielonefritis aguda | absceso renal en TAC con contraste | TAC | media |
+| nefro-02 | Necrosis tubular y nefritis intersticial | orina color té / oscura en rabdomiólisis (mioglobinuria) — ❌ no hay en ninguna fuente | foto clínica | media |
+| nefro-05 | Hiponatremia | RM de mielinólisis pontina central: hiperintensidad pontina en T2/FLAIR "en tridente / alas de murciélago" (síndrome de desmielinización osmótica) — ✅ atlas_111_rm_de_mielinolisis_pontina (en la clase) | RM | media |
+| nefro-13 | Síndrome nefrótico | lipiduria: cuerpos ovales grasos con "cruz de Malta" bajo luz polarizada en el sedimento urinario — ❌ no hay en ninguna fuente | histología | alta |
+| nefro-13 | Síndrome nefrótico | amiloidosis renal: tinción rojo Congo con birrefringencia verde manzana — ✅ nefro-13/03_amiloide_rojo_congo_polarizada__goljan_p172.jpg (amiloide genérico, no renal) | histología | media |
+| nefro-14 | Membranosa, cambios mínimos, GEFS | biopsia real de glomerulopatía: nefropatía membranosa con tinción de plata ("spikes") y/o microscopía electrónica con borramiento de pedicelos (cambios mínimos) — ✅ nefro-14/01_biopsia-membranosa__nelson_p4100.jpg | histología | media |
+| nefro-15 | GN postestreptocócica | orina color coca-cola (hematuria macroscópica glomerular) — ❌ no hay en ninguna fuente | foto clínica | media |
+| nefro-16 | GN rápidamente progresiva | Rx/TC de tórax con infiltrados alveolares bilaterales por hemorragia alveolar (síndrome de Goodpasture) — ✅ atlas_014 (en la clase) | Rx | alta |
+| nefro-16 | GN rápidamente progresiva | nódulos pulmonares cavitados en granulomatosis con poliangeítis (Wegener) — ✅ atlas_015 (en la clase) | TAC | alta |
+| nefro-16 | GN rápidamente progresiva | biopsia renal con semiluna glomerular (crescent) — ✅ atlas_115 (en la clase) | histología | media |
+| nefro-16 | GN rápidamente progresiva | inmunofluorescencia glomerular lineal (anti-MBG) vs granular (inmunocomplejos) — ✅ atlas_116 (en la clase) | histología | media |
+| nefro-17 | Nefritis lúpica | nefritis lúpica clase IV: lesiones en "asas de alambre" (wire loops) — ❌ no hay en ninguna fuente | histología | media |
+| nefro-18 | ERC: KDIGO y GES | fístula arteriovenosa radiocefálica (Brescia-Cimino) para hemodiálisis — ✅ nefro-18/01_fistula_av_radiocefalica__kumar-clark_p886.jpg | foto clínica | baja |
+| nefro-19 | Complicaciones de la ERC | calcifilaxis (arteriolopatía urémica calcificante): úlceras necróticas cutáneas — ✅ atlas_323 (en la clase) | foto clínica | baja |
+| nefro-19 | Complicaciones de la ERC | osteodistrofia renal: columna "en camiseta de rugby" (rugger-jersey spine) — ❌ la imagen del atlas (Commons, 146×331 px) es demasiado chica; no se usó | Rx | baja |
+| nefro-20 | Estenosis de arteria renal | displasia fibromuscular de arteria renal en "collar de perlas" — ✅ atlas_016_fmd_collar_perlas__commons.jpg | angiografía | alta |
+| nefro-20 | Estenosis de arteria renal | estenosis ateroesclerótica ostial de arteria renal — ✅ atlas_325_estenosis_ostial__ctmri_p357.jpg | angiografía | baja |
+| nefro-21 | Pielonefritis aguda | absceso renal en TAC con contraste — ✅ nefro-21/05_absceso_renal_tac__nelson_p4209.jpg | TAC | media |
 
 ## Opcionales (la auditoría los marcó "opcional"; no se cuentan)
 

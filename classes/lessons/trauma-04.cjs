@@ -72,9 +72,11 @@ module.exports = {
       cards: [
         { title: 'Hombro', tag: 'Más del 95 % anterior', kind: 'key', items: [
           { t: 'Brazo en abducción y rotación externa', d: 'Signo de la charretera',
-            say: 'La luxación de hombro es la más frecuente, y en más del noventa y cinco por ciento es anterior: una caída sobre el brazo en abducción y rotación externa. El paciente llega con el brazo ligeramente separado, sosteniéndolo con la otra mano, sin poder aducirlo, y con el deltoides aplanado y el acromion prominente. Es el signo de la charretera.' },
+            say: 'La luxación de hombro es la más frecuente, y en más del noventa y cinco por ciento es anterior: una caída sobre el brazo en abducción y rotación externa. El paciente llega con el brazo ligeramente separado, sosteniéndolo con la otra mano, sin poder aducirlo, y con el deltoides aplanado y el acromion prominente. Es el signo de la charretera. Mira este hombro: pierde su contorno redondeado.',
+            photo: { src: 'biblioteca/12_traumatologia/trauma-04/23_luxacion-hombro-charretera__sherman_p542.jpg', label: 'Hombro sin contorno redondo', at: 'Mira este hombro', credit: 'Atlas of Clinical Emergency Medicine (Sherman), p. 542' } },
           { t: 'Axilar y pulso antes y después', d: 'Parche deltoideo',
-            say: 'Siempre examinas el nervio axilar, con la sensibilidad del parche deltoideo, y el pulso radial, antes y después de reducir. En la radiografía la cabeza queda subcoracoidea, y se buscan la lesión de Hill-Sachs en la cabeza humeral y la de Bankart en el rodete glenoideo.' },
+            say: 'Siempre examinas el nervio axilar, con la sensibilidad del parche deltoideo, y el pulso radial, antes y después de reducir. En la radiografía la cabeza queda subcoracoidea, y se buscan la lesión de Hill-Sachs en la cabeza humeral y la de Bankart en el rodete glenoideo. Mira esta radiografía: la cabeza del húmero salió por delante y abajo de la glenoides.',
+            photo: { src: 'biblioteca/12_traumatologia/trauma-04/24_luxacion-hombro-rx-ap__sherman_p542.jpg', label: 'Luxación anterior en la Rx', at: 'Mira esta radiografía', credit: 'Atlas of Clinical Emergency Medicine (Sherman), p. 542' } },
           { t: 'Reducción cerrada precoz', d: 'Cabestrillo 2 a 3 semanas',
             say: 'Se reduce de forma cerrada y precoz, con analgesia o sedación, y después radiografía de control y cabestrillo por dos a tres semanas. En menores de veinticinco años la recidiva es muy frecuente, y por eso se deriva a traumatología. La luxación posterior es rara y se asocia a convulsiones o electrocución.' },
         ] },
@@ -187,7 +189,8 @@ module.exports = {
         ] },
         { title: 'Supracondílea de húmero', tag: 'Niño de 5 a 8 años', kind: 'alert', items: [
           { t: 'Caída con la mano extendida', d: 'Codo doloroso, con edema y deformidad',
-            say: 'La fractura de codo más frecuente en el niño de cinco a ocho años es la supracondílea, por una caída con la mano extendida. La radiografía lateral muestra el fragmento distal desplazado hacia atrás.' },
+            say: 'La fractura de codo más frecuente en el niño de cinco a ocho años es la supracondílea, por una caída con la mano extendida. La radiografía lateral muestra el fragmento distal desplazado hacia atrás. Mira esta radiografía de codo: la flecha azul marca la almohadilla grasa posterior levantada, que delata la fractura.',
+            photo: { src: 'biblioteca/12_traumatologia/trauma-04/22_supracondilea-rx-lateral__sherman_p770.jpg', label: 'Supracondílea, codo infantil', at: 'Mira esta radiografía', credit: 'Atlas of Clinical Emergency Medicine (Sherman), p. 770' } },
           { t: 'Braquial, mediano y Volkmann', d: 'Mano fría y sin pulso',
             say: 'Es una urgencia porque se asocia a lesión de la arteria braquial, con mano fría y pulso ausente, a lesión del nervio mediano y a síndrome compartimental, con contractura de Volkmann.' },
           { t: 'No forzar la extensión: derivar ya', d: 'Clavos percutáneos; mala reducción: cúbito varo',

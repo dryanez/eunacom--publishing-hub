@@ -8,27 +8,27 @@ Ya cubiertos y excluidos: gammagrafías de Graves / adenoma tóxico / BMN (endo-
 
 | clase | tema | imagen que falta | tipo | prioridad |
 |---|---|---|---|---|
-| endo-05 | Tiroiditis | gammagrafía tiroidea "en blanco", sin captación (tiroiditis subaguda de De Quervain / tiroiditis silente o posparto) | gammagrafía | alta |
-| endo-05 | Tiroiditis | gammagrafía de Graves con captación difusa aumentada, para contrastar con la tiroiditis (existe en endo-07; falta en esta clase, requiere narración) | gammagrafía | alta |
-| endo-05 | Tiroiditis | eco Doppler tiroideo hipervascular en tirotoxicosis por amiodarona tipo 1 (candidata sin usar: `endo-06/03_eco-doppler-graves_2`) | eco | alta |
-| endo-05 | Tiroiditis | eco Doppler tiroideo avascular en tirotoxicosis por amiodarona tipo 2 | eco | alta |
-| endo-06 | Hipertiroidismo y Graves | lámina comparativa de cintigramas: Graves difuso, adenoma tóxico, bocio multinodular tóxico y captación nula (diapositiva "El cintigrama: un patrón para cada causa") | gammagrafía | media |
-| endo-07 | Tratamiento del hipertiroidismo | bocio compresivo gigante con desviación traqueal (Rx/TAC cervicotorácica o foto clínica) | Rx | media |
-| endo-09 | Nódulo tiroideo | ecografía demostrativa de nódulo tiroideo TI-RADS 5 (hipoecogénico, más alto que ancho, márgenes irregulares, microcalcificaciones); la actual es ilegible | eco | media |
-| endo-09 | Nódulo tiroideo | ecografía de nódulo tiroideo benigno: espongiforme / quiste simple | eco | media |
-| endo-10 | Cáncer de tiroides | ecografía de carcinoma papilar con microcalcificaciones y adenopatía cervical metastásica | eco | media |
-| endo-10 | Cáncer de tiroides | carcinoma anaplásico de tiroides: masa cervical pétrea de crecimiento rápido en adulto mayor | foto clínica | baja |
-| endo-11 | Síndrome de Cushing | TAC suprarrenal: adenoma (pequeño, homogéneo) vs carcinoma suprarrenal (> 4–6 cm) | TAC | baja |
-| endo-13 | Crisis suprarrenal | síndrome de Waterhouse-Friderichsen: púrpura fulminante meningocócica + hemorragia suprarrenal bilateral | foto clínica | media |
-| endo-14 | Hiperaldosteronismo primario | TAC suprarrenal: adenoma de Conn vs hiperplasia suprarrenal bilateral | TAC | media |
-| endo-16 | Hipercalcemia e hiperparatiroidismo | osteítis fibrosa quística: resorción subperióstica de falanges y cráneo en "sal y pimienta" | Rx | media |
-| endo-16 | Hipercalcemia e hiperparatiroidismo | gammagrafía con sestamibi-Tc99m mostrando adenoma paratiroideo | gammagrafía | media |
-| endo-18 | Osteoporosis | fractura de Colles (radio distal) por fragilidad | Rx | alta |
-| endo-18 | Osteoporosis | osteonecrosis mandibular por bifosfonatos | foto clínica | baja |
-| endo-18 | Osteoporosis | fractura atípica subtrocantérea de fémur por bifosfonatos | Rx | baja |
-| endo-19 | Vitamina D, osteomalacia y raquitismo | líneas de Looser-Milkman (seudofracturas) en cuello femoral / ramas del pubis en osteomalacia | Rx | alta |
-| endo-20 | Masas selares | craneofaringioma quístico y calcificado en RM/TAC | RM | media |
-| endo-24 | DI, SIADH y NEM | MEN 2B: neuromas mucosos en labios y lengua, hábito marfanoide | foto clínica | media |
+| endo-05 | Tiroiditis | gammagrafía tiroidea "en blanco", sin captación (tiroiditis subaguda de De Quervain / tiroiditis silente o posparto) — ✅ endo-05/02_gammagrafia_en_blanco__openi.jpg | gammagrafía | alta |
+| endo-05 | Tiroiditis | gammagrafía de Graves con captación difusa aumentada, para contrastar con la tiroiditis (existe en endo-07; falta en esta clase, requiere narración) — ✅ endo-05/04_cintigramas_panel_graves_vs_blanco__commons.jpg | gammagrafía | alta |
+| endo-05 | Tiroiditis | eco Doppler tiroideo hipervascular en tirotoxicosis por amiodarona tipo 1 (candidata sin usar: `endo-06/03_eco-doppler-graves_2`) — ✅ endo-05/03_doppler_amiodarona_tipo1__rumack_p1725.jpg | eco | alta |
+| endo-05 | Tiroiditis | eco Doppler tiroideo avascular en tirotoxicosis por amiodarona tipo 2 — ❌ no hay en ninguna fuente | eco | alta |
+| endo-06 | Hipertiroidismo y Graves | lámina comparativa de cintigramas: Graves difuso, adenoma tóxico, bocio multinodular tóxico y captación nula (diapositiva "El cintigrama: un patrón para cada causa") — ✅ endo-06/05_cintigramas_panel_causas__commons.jpg | gammagrafía | media |
+| endo-07 | Tratamiento del hipertiroidismo | bocio compresivo gigante con desviación traqueal (Rx/TAC cervicotorácica o foto clínica) — ✅ atlas_100_bocio_compresivo_gigante (Nelson p. 4381) | Rx | media |
+| endo-09 | Nódulo tiroideo | ecografía demostrativa de nódulo tiroideo TI-RADS 5 (hipoecogénico, más alto que ancho, márgenes irregulares, microcalcificaciones); la actual es ilegible — ✅ endo-09/04_nodulo_ti-rads_5__rumack_p738.jpg | eco | media |
+| endo-09 | Nódulo tiroideo | ecografía de nódulo tiroideo benigno: espongiforme / quiste simple — ❌ no hay ecografía de nódulo benigno en ninguna fuente (Rumack p. 733 solo trae histología) | eco | media |
+| endo-10 | Cáncer de tiroides | ecografía de carcinoma papilar con microcalcificaciones y adenopatía cervical metastásica — ✅ parcial: endo-10/02_eco_carcinoma_papilar__rumack_p738.jpg (nódulo hipoecogénico; sin microcalcificaciones ni ganglio) | eco | media |
+| endo-10 | Cáncer de tiroides | carcinoma anaplásico de tiroides: masa cervical pétrea de crecimiento rápido en adulto mayor — ❌ no hay en ninguna fuente | foto clínica | baja |
+| endo-11 | Síndrome de Cushing | TAC suprarrenal: adenoma (pequeño, homogéneo) vs carcinoma suprarrenal (> 4–6 cm) — ✅ endo-11/04_tac_masas_suprarrenales__openi.jpg | TAC | baja |
+| endo-13 | Crisis suprarrenal | síndrome de Waterhouse-Friderichsen: púrpura fulminante meningocócica + hemorragia suprarrenal bilateral — ✅ endo-13/atlas_104 + 02_waterhouse_friderichsen_pies__bailey_p619.jpg | foto clínica | media |
+| endo-14 | Hiperaldosteronismo primario | TAC suprarrenal: adenoma de Conn vs hiperplasia suprarrenal bilateral — ✅ endo-14/01_adenoma_suprarrenal_rm__ctmri_p383.jpg | TAC | media |
+| endo-16 | Hipercalcemia e hiperparatiroidismo | osteítis fibrosa quística: resorción subperióstica de falanges y cráneo en "sal y pimienta" — ✅ endo-16/03_osteitis_fibrosa_falanges__helms_p15.jpg | Rx | media |
+| endo-16 | Hipercalcemia e hiperparatiroidismo | gammagrafía con sestamibi-Tc99m mostrando adenoma paratiroideo — ✅ endo-16/04_sestamibi_adenoma_paratiroideo__brant_p1466.jpg | gammagrafía | media |
+| endo-18 | Osteoporosis | fractura de Colles (radio distal) por fragilidad — ✅ endo-18/03_fractura_colles__sherman_p569.jpg | Rx | alta |
+| endo-18 | Osteoporosis | osteonecrosis mandibular por bifosfonatos — ✅ endo-18/04_osteonecrosis_mandibular__commons.jpg | foto clínica | baja |
+| endo-18 | Osteoporosis | fractura atípica subtrocantérea de fémur por bifosfonatos — ✅ endo-18/05_fractura_atipica_femur__helms_p165.jpg | Rx | baja |
+| endo-19 | Vitamina D, osteomalacia y raquitismo | líneas de Looser-Milkman (seudofracturas) en cuello femoral / ramas del pubis en osteomalacia — ✅ endo-19/04_looser_milkman__commons.jpg | Rx | alta |
+| endo-20 | Masas selares | craneofaringioma quístico y calcificado en RM/TAC — ✅ endo-20/05_craneofaringioma_rm__kanski_p830.jpg | RM | media |
+| endo-24 | DI, SIADH y NEM | MEN 2B: neuromas mucosos en labios y lengua, hábito marfanoide — ✅ endo-24/02_neuromas_mucosos_men2b__nelson_p4054.jpg | foto clínica | media |
 
 ## Opcionales (la auditoría los marcó "opcional"; no se cuentan)
 
@@ -53,7 +53,7 @@ Sin imagen adecuada en `_candidatas` (buscar en Harrison/CTO/AMIR o hacer dibujo
 
 | clase | tema | imagen que falta | tipo | prioridad |
 |---|---|---|---|---|
-| endo-25 | Ginecomastia (tema nuevo 7.25) | ginecomastia bilateral con disco retroareolar, idealmente junto a seudoginecomastia (lipomastia) | foto clínica | alta |
+| endo-25 | Ginecomastia (tema nuevo 7.25) | ginecomastia bilateral con disco retroareolar, idealmente junto a seudoginecomastia (lipomastia) — ✅ endo-25/01_ginecomastia__talley_p503.jpg (falta la seudoginecomastia/lipomastia) | foto clínica | alta |
 | endo-20 | Campo visual por confrontación (6.02.5.002) | técnica: examinador frente al paciente, cada uno con el ojo opuesto tapado, estímulo en los cuatro cuadrantes | esquema / foto | media |
-| endo-13 | Hiperplasia suprarrenal congénita | vía de la esteroidogénesis con el bloqueo de 21-hidroxilasa (dibujo propio) o escala de Prader; no se usaron las fotos de genitales de menores de Nelson p. 4430 | esquema | media |
-| endo-15 | Incidentaloma suprarrenal | TC sin contraste de adenoma suprarrenal rico en lípidos (≤ 10 UH) frente a carcinoma; Harrison p. 3005 tiene 4 TC pero sin rótulos visibles en la imagen | TAC | media |
+| endo-13 | Hiperplasia suprarrenal congénita | vía de la esteroidogénesis con el bloqueo de 21-hidroxilasa (dibujo propio) o escala de Prader; no se usaron las fotos de genitales de menores de Nelson p. 4430 — ❌ no hay en ninguna fuente (dibujo propio pendiente; sin fotos de genitales de menores) | esquema | media |
+| endo-15 | Incidentaloma suprarrenal | TC sin contraste de adenoma suprarrenal rico en lípidos (≤ 10 UH) frente a carcinoma; Harrison p. 3005 tiene 4 TC pero sin rótulos visibles en la imagen — ✅ parcial: endo-15/02_adenoma_suprarrenal_tc__ctmri_p382.jpg (TC con contraste, adenoma; sin comparación con carcinoma) | TAC | media |

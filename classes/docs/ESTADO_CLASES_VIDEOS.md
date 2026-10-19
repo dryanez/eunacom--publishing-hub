@@ -14,10 +14,11 @@ Al volver: abrir esta sesión y decir «sigue» — o en una sesión nueva: «le
 1. **Cardiología → 38 temas** (libro + clases al estándar de los otros 20). Agente de diseño hace estructura + muestra SCACEST y deja
    ~/fotos_tools/v3/sec/cardio_prompt.txt para 5 agentes (un bloque cada uno). Respaldo del cardio antiguo: books/scripts/_old_cardio/.
    Para retomar: ver si existe books/scripts/dataset_cardiologia_bloque_*.cjs y cardio_prompt.txt; si no, relanzar el paso 1.
-2. **Fotos faltantes** (4 agentes: m1a endo/diab/nefro/hem/neuro · m1b resp/gastro/infecto/reuma · m2 cirugia/trauma/uro/orl/oftal/derma ·
+2. **Fotos faltantes — TERMINADO (66 fotos nuevas)** (4 agentes: m1a endo/diab/nefro/hem/neuro · m1b resp/gastro/infecto/reuma · m2 cirugia/trauma/uro/orl/oftal/derma ·
    m3 ped/ob/gin/sp/psiq). Prompt: ~/fotos_tools/v3/sec/fotos_prompt.txt. Avance: filas marcadas ✅/❌ en
    classes/docs/auditoria_imagenes/FALTANTES_<esp>.md. Fotos para libros en books/data/atlas_add/fotos_<grupo>.json → falta FUSIONAR
-   en atlas_fotos_verificadas.json y reconstruir los 21 libros.
+   en atlas_fotos_verificadas.json y reconstruir los 21 libros (HACERLO cuando termine Cardiología, que también edita el atlas).
+3. **Otro computador:** rama `clases-v3-videos` en GitHub; instrucciones en classes/docs/OTRO_COMPUTADOR.md (Módulos 3–4: ped, ob, gin, sp; quitados de la cola de este Mac).
 
 ## Cola de videos (corre sola)
 - Ver estado: `bash classes/scripts/jsvideo/estado_cola.sh` · log: classes/scripts/jsvideo/out/batch.log
