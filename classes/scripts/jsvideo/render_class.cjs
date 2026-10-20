@@ -16,7 +16,10 @@ const OUT = path.join(__dirname, 'out', id);
 const W = 1280, H = 720, FPS = 30;
 
 async function worker(w, f0, f1, file) {
-  const browser = await chromium.launch(process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH } : {});
+  // Chrome del sistema si no hay CHROME_PATH (el navegador de Playwright desaparece cuando se limpia ~/Library/Caches)
+  const SYS = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
+  const exe = process.env.CHROME_PATH || (require('fs').existsSync(SYS) ? SYS : null);
+  const browser = await chromium.launch(exe ? { executablePath: exe } : {});
   const page = await browser.newPage({ viewport: { width: W, height: H } });
   await page.goto('file://' + path.join(__dirname, 'scenes', process.env.CLASS_SCENE || 'clase.html') + '?c=' + id);   // CLASS_SCENE=clase_dev.html para probar cambios
   await page.waitForFunction(() => window.READY === true);
