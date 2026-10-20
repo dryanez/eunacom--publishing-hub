@@ -7,7 +7,7 @@ Método: se extrajo de cada `classes/lessons/hem-*.cjs` lo enseñado (títulos, 
 Leyenda de estado: **foto** = foto/figura real · **anim** = animación .mp4 · **svg** = esquema propio · **—** = no se muestra.
 "Necesita" = existe una imagen reconocible que EUNACOM puede mostrar o describir (frotis, RX, foto clínica). Dosis, umbrales, scores y algoritmos no necesitan imagen.
 
-Nota sobre el libro: `books/dist/Modulo_1_Medicina_Interna/Manual_EUNACOM_Hematologia_Completo_2026.pdf` (130 pp., 26 imágenes) usa **las mismas figuras que las clases** (Imagen 8.1 … 8.22). No aporta candidatos nuevos.
+Nota sobre el libro: `books/dist/01_Tomos/Modulo_1_Medicina_Interna/Manual_EUNACOM_Hematologia_Completo_2026.pdf` (130 pp., 26 imágenes) usa **las mismas figuras que las clases** (Imagen 8.1 … 8.22). No aporta candidatos nuevos.
 
 ## Resumen
 

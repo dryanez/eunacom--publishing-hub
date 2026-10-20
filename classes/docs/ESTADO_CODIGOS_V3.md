@@ -17,7 +17,7 @@
 - Libros: capa de fotos (`books/data/atlas_fotos_verificadas.json`, `books/scripts/figspec_clases.cjs`: fotos dentro del texto tras el párrafo que las menciona, solo pie de foto, sin fuente); diagramas sin cajas vacías ni rótulos tachados (37 copias de `flow`). Solo Tomo 14 (ORL) reconstruido: `CHROME_PATH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" node books/scripts/build_book.cjs otorrino`.
 
 ## Libro código por código — LISTOS LOS 21 (18-oct)
-- `books/dist/Perfil_V3_Codigo_por_Codigo_*.pdf` (21 PDF, 1.556 códigos; niveles verificados contra Perfil2026.pdf: 1.285 comprobados automáticamente, 0 discrepancias). derma, oftal y sp escritos con Sonnet (calidad equivalente).
+- `books/dist/04_Perfil_V3_Codigo_por_Codigo/Perfil_V3_Codigo_por_Codigo_*.pdf` (21 PDF, 1.556 códigos; niveles verificados contra Perfil2026.pdf: 1.285 comprobados automáticamente, 0 discrepancias). derma, oftal y sp escritos con Sonnet (calidad equivalente).
 - Explicaciones del banco: `bx_prompt.txt`, paquetes `bx_pkg_1/2.json` (274 preguntas) → agentes escriben `bx_out_1/2.json` (mantener / reescrita / clave_dudosa). HECHO: 45 reescritas aplicadas (campo explicacion_original guarda la anterior; respaldo /tmp/real_questions_by_code.before_bx.json); 7 claves dudosas al final de REVISION_CONTENIDO.md; 21 PDF reconstruidos.
 - Paquetes: `node ~/fotos_tools/js/cbpkg.cjs <specKey> <key>` → `~/fotos_tools/v3/cb_pkg_<key>.json` (ya generados los 21; incluye `temas_libro` si no hay clase).
 - Instrucciones de los agentes: `~/fotos_tools/v3/cb_prompt.txt` → escriben `cb_out_<key>.json` y dudas en `cb_dudas_<key>.md`.
@@ -32,13 +32,13 @@
 - Ojo: 20 códigos sin ninguna pregunta en ningún lado (14 de Cardio, 1.10.2.019, 3.01.2.020, 5.01.1.011/013, 5.01.5.001, 6.01.2.007): el agente escribe una en cb_out.
 
 ### Muestra ORL
-- `books/dist/Perfil_V3_Codigo_por_Codigo_Otorrinolaringología.pdf` (58 págs, 83 códigos, todas las preguntas por código). Resúmenes en `~/fotos_tools/v3/cb_out_orl.json`.
+- `books/dist/04_Perfil_V3_Codigo_por_Codigo/Perfil_V3_Codigo_por_Codigo_Otorrinolaringología.pdf` (58 págs, 83 códigos, todas las preguntas por código). Resúmenes en `~/fotos_tools/v3/cb_out_orl.json`.
 - Dudas del agente ORL: GES hipoacusia (<4 años vs <2), GES hipoacusia ≥65 años, dosis penicilina benzatina <27 kg, dosis amoxicilina en rinosinusitis adulto, antibiótico post drenaje periamigdalino, otohematoma sin clase, índice de Fujioka, PREXOR/Ley 16.744.
 
 ## Detalle técnico del libro código por código
 - Libro «Perfil V3 código por código», muestra ORL. Un agente escribe `~/fotos_tools/v3/cb_out_orl.json` (resumen por código + pregunta si falta) desde `~/fotos_tools/v3/cb_pkg_orl.json`.
   Cuando exista: `node ~/fotos_tools/js/qindex.cjs` (desde la raíz del repo) y luego
-  `python3 -I ~/fotos_tools/js/codebook.py 6.03 orl "Otorrinolaringología" "#4338ca"` → `books/dist/Perfil_V3_Codigo_por_Codigo_Otorrinolaringología.pdf`.
+  `python3 -I ~/fotos_tools/js/codebook.py 6.03 orl "Otorrinolaringología" "#4338ca"` → `books/dist/04_Perfil_V3_Codigo_por_Codigo/Perfil_V3_Codigo_por_Codigo_Otorrinolaringología.pdf`.
   Muestra TODAS las preguntas de cada código (clase, práctica, libro y banco real sin revisar). Mostrar al usuario antes de hacer las otras 20 especialidades
   (paquetes: copiar la función `pkg()` usada para ORL; specKey por especialidad en `v3_codemap.json`).
 

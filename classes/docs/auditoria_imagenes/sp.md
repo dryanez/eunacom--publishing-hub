@@ -1,6 +1,6 @@
 # Auditoría de imágenes — Salud Pública (sp-01 a sp-14)
 
-Fecha: 2026-10-12. Método: script de volcado de `classes/lessons/sp-*.cjs` (títulos, kickers, tarjetas, nodos de flujo, filas de tabla, diapositivas `image`), revisión visual de las cuatro imágenes de `16_salud_publica/` (los dos esquemas SVG se revisaron por su texto; las dos JPG del certificado de defunción se abrieron), búsqueda de candidatas en todo `classes/media/` y revisión del libro `books/dist/Modulo_4_Salud_Publica/Tomo_21_Salud_Publica_Completo_2026.pdf` (`pdfimages -list`: portada y las dos figuras del certificado de defunción, las mismas de sp-13).
+Fecha: 2026-10-12. Método: script de volcado de `classes/lessons/sp-*.cjs` (títulos, kickers, tarjetas, nodos de flujo, filas de tabla, diapositivas `image`), revisión visual de las cuatro imágenes de `16_salud_publica/` (los dos esquemas SVG se revisaron por su texto; las dos JPG del certificado de defunción se abrieron), búsqueda de candidatas en todo `classes/media/` y revisión del libro `books/dist/01_Tomos/Modulo_4_Salud_Publica/Tomo_21_Salud_Publica_Completo_2026.pdf` (`pdfimages -list`: portada y las dos figuras del certificado de defunción, las mismas de sp-13).
 
 Criterio estricto: salud pública se evalúa con leyes, garantías, plazos, fórmulas y diseños. Solo se marca como necesaria una imagen que el examen describe o que fija un concepto gráfico que la clase enseña (curva, esquema, formulario).
 

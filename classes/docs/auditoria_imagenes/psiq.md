@@ -1,6 +1,6 @@
 # Auditoría de imágenes — Psiquiatría (psiq-01 a psiq-12)
 
-Fecha: 2026-10-12. Método: script de volcado de `classes/lessons/psiq-*.cjs` (títulos, kickers, tarjetas, nodos de flujo, filas de tabla, diapositivas `image`), búsqueda en `classes/media/` (biblioteca y animaciones) de cualquier imagen afín (distonía, discinesia, parkinsonismo, litio, clozapina, catatonía…) y revisión del libro `books/dist/Modulo_2_Cirugia/Tomo_17_Psiquiatria_Completo_2026.pdf` (`pdfimages -list`: solo trae la imagen de portada).
+Fecha: 2026-10-12. Método: script de volcado de `classes/lessons/psiq-*.cjs` (títulos, kickers, tarjetas, nodos de flujo, filas de tabla, diapositivas `image`), búsqueda en `classes/media/` (biblioteca y animaciones) de cualquier imagen afín (distonía, discinesia, parkinsonismo, litio, clozapina, catatonía…) y revisión del libro `books/dist/01_Tomos/Modulo_2_Cirugia/Tomo_17_Psiquiatria_Completo_2026.pdf` (`pdfimages -list`: solo trae la imagen de portada).
 
 Criterio estricto: psiquiatría se evalúa por criterios diagnósticos, plazos, escalas y fármacos. Una foto solo se pide si existe un signo **visible y reconocible** que el EUNACOM describa o muestre. Ninguna clase tiene diapositivas de imagen ni animaciones, y **no existe carpeta** `classes/media/biblioteca/20_psiquiatria/` (no se creó, porque no se agregó nada).
 

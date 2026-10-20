@@ -21,7 +21,7 @@ const fs = require('fs');
 const path = require('path');
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
-const DIST_DIR = path.join(__dirname, '..', 'dist');
+const DIST_DIR = path.join(__dirname, '..', 'dist', '_datos_ensayos_90Q');
 
 function compileWeightedExam() {
   console.log('--- COMPILADOR ENSAYO MAESTRO PONDERADO POR FRECUENCIA (90 Q) ---');

@@ -16,13 +16,13 @@
     "overflow": false
    },
    "T19.2": {
-    "steps": 10,
+    "steps": 8,
     "split": false,
     "algo": {
-     "scale": 0.91,
+     "scale": 1,
      "orient": "lr"
     },
-    "algoH": 220,
+    "algoH": 270,
     "traps": 3,
     "ask": 5,
     "tight": true,
@@ -42,21 +42,21 @@
     "overflow": false
    },
    "T19.4": {
-    "steps": 9,
+    "steps": 8,
     "split": false,
     "algo": {
-     "scale": 0.99,
+     "scale": 1,
      "orient": "grid",
      "alt": true
     },
-    "algoH": 245,
+    "algoH": 270,
     "traps": 3,
     "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T19.5": {
-    "steps": 5,
+    "steps": 4,
     "split": false,
     "algo": {
      "scale": 1,
@@ -65,7 +65,7 @@
     "algoH": 340,
     "traps": 2,
     "ask": 6,
-    "tight": true,
+    "tight": false,
     "overflow": false
    },
    "T19.6": {
@@ -122,26 +122,26 @@
     "overflow": false
    },
    "T19.21": {
-    "steps": 22,
+    "steps": 21,
     "split": false,
     "algo": {
-     "scale": 0.8,
+     "scale": 0.81,
      "orient": "td"
     },
-    "algoH": 245,
-    "traps": 1,
+    "algoH": 250,
+    "traps": 2,
     "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T19.10": {
-    "steps": 10,
+    "steps": 8,
     "split": false,
     "algo": {
-     "scale": 0.93,
+     "scale": 1,
      "orient": "lr"
     },
-    "algoH": 240,
+    "algoH": 270,
     "traps": 0,
     "ask": 5,
     "tight": true,
@@ -188,15 +188,15 @@
     "overflow": false
    },
    "T19.14": {
-    "steps": 8,
+    "steps": 5,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
-    "algoH": 270,
+    "algoH": 340,
     "traps": 3,
-    "ask": 5,
+    "ask": 6,
     "tight": true,
     "overflow": false
    },
@@ -227,7 +227,7 @@
     "overflow": false
    },
    "T19.17": {
-    "steps": 8,
+    "steps": 7,
     "split": false,
     "algo": {
      "scale": 1,
@@ -236,12 +236,12 @@
     },
     "algoH": 270,
     "traps": 3,
-    "ask": 5,
+    "ask": 6,
     "tight": true,
     "overflow": false
    },
    "T19.18": {
-    "steps": 1,
+    "steps": 0,
     "split": false,
     "algo": {
      "scale": 0.87,
@@ -257,10 +257,10 @@
     "steps": 17,
     "split": false,
     "algo": {
-     "scale": 0.96,
+     "scale": 1,
      "orient": "lr"
     },
-    "algoH": 260,
+    "algoH": 280,
     "traps": 2,
     "ask": 5,
     "tight": true,

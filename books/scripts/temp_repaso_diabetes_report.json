@@ -15,30 +15,29 @@
     "overflow": false
    },
    "T1.2": {
-    "steps": 10,
+    "steps": 9,
     "split": false,
     "algo": {
-     "scale": 1,
-     "orient": "grid",
-     "alt": true
+     "scale": 0.8,
+     "orient": "td"
     },
-    "algoH": 220,
+    "algoH": 245,
     "traps": 3,
     "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T1.3": {
-    "steps": 8,
+    "steps": 4,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
-    "algoH": 290,
+    "algoH": 340,
     "traps": 1,
-    "ask": 5,
-    "tight": true,
+    "ask": 6,
+    "tight": false,
     "overflow": false
    },
    "T1.4": {
@@ -55,14 +54,14 @@
     "overflow": false
    },
    "T1.5": {
-    "steps": 22,
+    "steps": 10,
     "split": false,
     "algo": {
-     "scale": 0.93,
+     "scale": 0.81,
      "orient": "lr"
     },
-    "algoH": 250,
-    "traps": 1,
+    "algoH": 220,
+    "traps": 3,
     "ask": 5,
     "tight": true,
     "overflow": false
@@ -81,16 +80,16 @@
     "overflow": false
    },
    "T2.2": {
-    "steps": 7,
+    "steps": 1,
     "split": false,
     "algo": {
-     "scale": 0.99,
+     "scale": 1,
      "orient": "lr"
     },
-    "algoH": 290,
+    "algoH": 340,
     "traps": 1,
     "ask": 6,
-    "tight": true,
+    "tight": false,
     "overflow": false
    },
    "T2.3": {
@@ -120,13 +119,13 @@
     "overflow": false
    },
    "T2.5": {
-    "steps": 7,
+    "steps": 5,
     "split": false,
     "algo": {
      "scale": 1,
-     "orient": "lr"
+     "orient": "td"
     },
-    "algoH": 270,
+    "algoH": 340,
     "traps": 3,
     "ask": 6,
     "tight": true,
@@ -146,39 +145,39 @@
     "overflow": false
    },
    "T3.2": {
-    "steps": 0,
-    "split": true,
+    "steps": 10,
+    "split": false,
+    "algo": {
+     "scale": 0.85,
+     "orient": "td"
+    },
+    "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T3.3": {
+    "steps": 8,
+    "split": false,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
-    "algoH": 340,
-    "traps": 4,
-    "ask": 7,
-    "tight": false,
-    "overflow": false
-   },
-   "T3.3": {
-    "steps": 12,
-    "split": false,
-    "algo": {
-     "scale": 1,
-     "orient": "lr"
-    },
-    "algoH": 220,
+    "algoH": 270,
     "traps": 2,
     "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T3.4": {
-    "steps": 9,
+    "steps": 8,
     "split": false,
     "algo": {
      "scale": 1,
-     "orient": "lr"
+     "orient": "td"
     },
-    "algoH": 245,
+    "algoH": 270,
     "traps": 3,
     "ask": 5,
     "tight": true,
@@ -198,26 +197,26 @@
     "overflow": false
    },
    "T4.2": {
-    "steps": 0,
-    "split": true,
+    "steps": 6,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 300,
+    "traps": 1,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T4.3": {
+    "steps": 8,
+    "split": false,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
-    "algoH": 340,
-    "traps": 1,
-    "ask": 7,
-    "tight": false,
-    "overflow": false
-   },
-   "T4.3": {
-    "steps": 10,
-    "split": false,
-    "algo": {
-     "scale": 0.87,
-     "orient": "td"
-    },
-    "algoH": 220,
+    "algoH": 270,
     "traps": 3,
     "ask": 5,
     "tight": true,
@@ -250,26 +249,26 @@
     "overflow": false
    },
    "T5.1": {
-    "steps": 12,
+    "steps": 7,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "lr"
     },
-    "algoH": 260,
+    "algoH": 270,
     "traps": 2,
-    "ask": 5,
+    "ask": 6,
     "tight": true,
     "overflow": false
    },
    "T5.2": {
-    "steps": 12,
+    "steps": 9,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "lr"
     },
-    "algoH": 240,
+    "algoH": 245,
     "traps": 3,
     "ask": 5,
     "tight": true,
@@ -289,26 +288,26 @@
     "overflow": false
    },
    "T5.4": {
-    "steps": 20,
+    "steps": 10,
     "split": false,
     "algo": {
-     "scale": 0.82,
+     "scale": 0.86,
      "orient": "lr"
     },
-    "algoH": 230,
-    "traps": 2,
+    "algoH": 240,
+    "traps": 3,
     "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T5.5": {
-    "steps": 12,
+    "steps": 9,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "lr"
     },
-    "algoH": 220,
+    "algoH": 245,
     "traps": 3,
     "ask": 5,
     "tight": true,
@@ -329,7 +328,7 @@
    }
   },
   "warnings": [],
-  "pages": 39,
+  "pages": 37,
   "where": {
    "COVER": 1,
    "IDX": 2,
@@ -345,24 +344,24 @@
    "T2.5": 12,
    "T3.1": 13,
    "T3.2": 14,
-   "T3.3": 16,
-   "T3.4": 17,
-   "T4.1": 18,
-   "T4.2": 19,
-   "T4.3": 21,
-   "T4.4": 22,
-   "T4.5": 23,
-   "T5.1": 24,
-   "T5.2": 25,
-   "T5.3": 26,
-   "T5.4": 28,
-   "T5.5": 29,
-   "T5.6": 30,
-   "NUM": 32,
-   "DRUG": 35,
-   "GES": 36,
-   "PLAN": 38,
-   "PRIO": 39
+   "T3.3": 15,
+   "T3.4": 16,
+   "T4.1": 17,
+   "T4.2": 18,
+   "T4.3": 19,
+   "T4.4": 20,
+   "T4.5": 21,
+   "T5.1": 22,
+   "T5.2": 23,
+   "T5.3": 24,
+   "T5.4": 26,
+   "T5.5": 27,
+   "T5.6": 28,
+   "NUM": 30,
+   "DRUG": 33,
+   "GES": 34,
+   "PLAN": 36,
+   "PRIO": 37
   }
  },
  "stars": [

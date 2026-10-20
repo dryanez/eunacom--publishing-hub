@@ -17,6 +17,8 @@ const { qImageHtml, Q_IMG_CSS } = require('./question_image.cjs');   // q.imagen
 const _WIN_CHROME = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
 const CHROME_PATH = process.env.CHROME_PATH || [_WIN_CHROME, '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'].find(p => require('fs').existsSync(p));
 const DIST_DIR = path.join(__dirname, '..', 'dist');
+const ENS_DIR = path.join(DIST_DIR, '_datos_ensayos_90Q');
+const LG_DIR = path.join(DIST_DIR, '02_Libros_Gordos_90Q');
 const ASSETS_DIR = path.join(__dirname, '..', 'assets');
 
 const U = id => `https://images.unsplash.com/${id}?fm=jpg&q=80&w=1200&auto=format&fit=crop`;
@@ -297,7 +299,7 @@ function renderHtmlBook(specKey) {
   const spec = SPECIALTIES[specKey];
   if (!spec) throw new Error(`Especialidad no soportada: ${specKey}`);
 
-  const jsonFile = path.join(DIST_DIR, spec.inputFile);
+  const jsonFile = path.join(ENS_DIR, spec.inputFile);
   if (!fs.existsSync(jsonFile)) throw new Error(`Falta el archivo: ${jsonFile}`);
 
   const questions = JSON.parse(fs.readFileSync(jsonFile, 'utf8'));
@@ -1109,7 +1111,8 @@ async function buildPdf(specKey) {
   await page.goto('file://' + tempHtmlPath, { waitUntil: 'networkidle0', timeout: 90000 });
   await page.evaluateHandle('document.fonts.ready');
 
-  let outPdf = path.join(DIST_DIR, spec.outFile);
+  fs.mkdirSync(LG_DIR, { recursive: true });
+  let outPdf = path.join(LG_DIR, spec.outFile);
   let written = false;
   const candidates = [
     outPdf,

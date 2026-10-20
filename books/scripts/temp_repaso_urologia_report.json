@@ -2,26 +2,26 @@
  "report": {
   "topics": {
    "T13.1": {
-    "steps": 0,
-    "split": true,
-    "algo": {
-     "scale": 1,
-     "orient": "td"
-    },
-    "algoH": 340,
-    "traps": 3,
-    "ask": 7,
-    "tight": false,
-    "overflow": false
-   },
-   "T13.2": {
-    "steps": 12,
+    "steps": 8,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
-    "algoH": 220,
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T13.2": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 270,
     "traps": 3,
     "ask": 5,
     "tight": true,
@@ -80,13 +80,13 @@
     "overflow": false
    },
    "T13.7": {
-    "steps": 14,
+    "steps": 12,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
-    "algoH": 300,
+    "algoH": 220,
     "traps": 3,
     "ask": 5,
     "tight": true,
@@ -106,16 +106,16 @@
     "overflow": false
    },
    "T13.8": {
-    "steps": 0,
-    "split": true,
+    "steps": 8,
+    "split": false,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
-    "algoH": 340,
+    "algoH": 270,
     "traps": 3,
-    "ask": 7,
-    "tight": false,
+    "ask": 5,
+    "tight": true,
     "overflow": false
    },
    "T13.9": {
@@ -145,6 +145,19 @@
     "overflow": false
    },
    "T13.11": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T13.12": {
     "steps": 8,
     "split": false,
     "algo": {
@@ -152,19 +165,6 @@
      "orient": "td"
     },
     "algoH": 270,
-    "traps": 3,
-    "ask": 5,
-    "tight": true,
-    "overflow": false
-   },
-   "T13.12": {
-    "steps": 14,
-    "split": false,
-    "algo": {
-     "scale": 1,
-     "orient": "td"
-    },
-    "algoH": 300,
     "traps": 3,
     "ask": 5,
     "tight": true,
@@ -211,31 +211,31 @@
    }
   },
   "warnings": [],
-  "pages": 29,
+  "pages": 27,
   "where": {
    "COVER": 1,
    "IDX": 2,
    "T13.1": 3,
-   "T13.2": 5,
-   "T13.3": 6,
-   "T13.4": 8,
-   "T13.5": 9,
-   "T13.6": 11,
-   "T13.7": 12,
-   "T13.16": 13,
-   "T13.8": 15,
-   "T13.9": 17,
-   "T13.10": 18,
-   "T13.11": 19,
-   "T13.12": 20,
-   "T13.13": 21,
-   "T13.14": 22,
-   "T13.15": 23,
-   "NUM": 24,
-   "DRUG": 26,
-   "GES": 26,
-   "PLAN": 28,
-   "PRIO": 29
+   "T13.2": 4,
+   "T13.3": 5,
+   "T13.4": 7,
+   "T13.5": 8,
+   "T13.6": 10,
+   "T13.7": 11,
+   "T13.16": 12,
+   "T13.8": 14,
+   "T13.9": 15,
+   "T13.10": 16,
+   "T13.11": 17,
+   "T13.12": 18,
+   "T13.13": 19,
+   "T13.14": 20,
+   "T13.15": 21,
+   "NUM": 22,
+   "DRUG": 24,
+   "GES": 24,
+   "PLAN": 26,
+   "PRIO": 27
   }
  },
  "stars": [

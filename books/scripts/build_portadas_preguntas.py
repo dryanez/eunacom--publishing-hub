@@ -69,7 +69,8 @@ w.write(book + '.tmp')"""
 want = set(sys.argv[1:])
 for b in BOOKS:
     if want and b['k'] not in want: continue
-    book = f'{DIST}/{b["file"]}'
+    sub = '03_Reconstrucciones' if 'Reconstrucciones' in b['file'] else '02_Libros_Gordos_90Q'
+    book = f'{DIST}/{sub}/{b["file"]}'
     if not os.path.exists(book): print('falta', b['file']); continue
     h = tempfile.mktemp(suffix='.html'); pdf = h[:-5] + '.pdf'; open(h, 'w').write(cover(b))
     subprocess.run([CHROME, '--headless=new', '--disable-gpu', '--no-pdf-header-footer', '--virtual-time-budget=8000', f'--print-to-pdf={pdf}', 'file://' + h], capture_output=True, timeout=180)

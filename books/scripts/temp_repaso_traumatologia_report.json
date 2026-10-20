@@ -2,14 +2,14 @@
  "report": {
   "topics": {
    "T12.1": {
-    "steps": 22,
+    "steps": 12,
     "split": false,
     "algo": {
-     "scale": 0.97,
+     "scale": 0.92,
      "orient": "td"
     },
-    "algoH": 230,
-    "traps": 1,
+    "algoH": 220,
+    "traps": 2,
     "ask": 5,
     "tight": true,
     "overflow": false
@@ -41,14 +41,14 @@
     "overflow": false
    },
    "T12.4": {
-    "steps": 16,
+    "steps": 12,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
-    "algoH": 300,
-    "traps": 2,
+    "algoH": 220,
+    "traps": 3,
     "ask": 5,
     "tight": true,
     "overflow": false
@@ -61,32 +61,32 @@
      "orient": "td"
     },
     "algoH": 340,
-    "traps": 3,
-    "ask": 6,
-    "tight": false,
-    "overflow": false
-   },
-   "T12.6": {
-    "steps": 0,
-    "split": true,
-    "algo": {
-     "scale": 1,
-     "orient": "td"
-    },
-    "algoH": 340,
     "traps": 4,
     "ask": 6,
     "tight": false,
     "overflow": false
    },
-   "T12.7": {
-    "steps": 14,
+   "T12.6": {
+    "steps": 8,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
-    "algoH": 300,
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T12.7": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 270,
     "traps": 3,
     "ask": 5,
     "tight": true,
@@ -106,45 +106,6 @@
     "overflow": false
    },
    "T12.9": {
-    "steps": 0,
-    "split": true,
-    "algo": {
-     "scale": 1,
-     "orient": "td"
-    },
-    "algoH": 340,
-    "traps": 5,
-    "ask": 6,
-    "tight": false,
-    "overflow": false
-   },
-   "T12.10": {
-    "steps": 12,
-    "split": false,
-    "algo": {
-     "scale": 1,
-     "orient": "lr"
-    },
-    "algoH": 220,
-    "traps": 3,
-    "ask": 5,
-    "tight": true,
-    "overflow": false
-   },
-   "T12.11": {
-    "steps": 22,
-    "split": false,
-    "algo": {
-     "scale": 0.82,
-     "orient": "td"
-    },
-    "algoH": 230,
-    "traps": 1,
-    "ask": 5,
-    "tight": true,
-    "overflow": false
-   },
-   "T12.12": {
     "steps": 8,
     "split": false,
     "algo": {
@@ -154,6 +115,45 @@
     "algoH": 270,
     "traps": 3,
     "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T12.10": {
+    "steps": 9,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 245,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T12.11": {
+    "steps": 10,
+    "split": false,
+    "algo": {
+     "scale": 0.87,
+     "orient": "td"
+    },
+    "algoH": 245,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T12.12": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
     "tight": true,
     "overflow": false
    },
@@ -171,14 +171,14 @@
     "overflow": false
    },
    "T12.14": {
-    "steps": 12,
+    "steps": 6,
     "split": false,
     "algo": {
-     "scale": 0.79,
-     "orient": "td"
+     "scale": 0.87,
+     "orient": "lr"
     },
-    "algoH": 220,
-    "traps": 0,
+    "algoH": 320,
+    "traps": 1,
     "ask": 4,
     "tight": true,
     "overflow": false
@@ -197,10 +197,8 @@
     "overflow": false
    }
   },
-  "warnings": [
-   "T12.14: algoritmo al 79 %"
-  ],
-  "pages": 28,
+  "warnings": [],
+  "pages": 26,
   "where": {
    "COVER": 1,
    "IDX": 2,
@@ -210,20 +208,20 @@
    "T12.4": 8,
    "T12.5": 9,
    "T12.6": 11,
-   "T12.7": 13,
-   "T12.8": 14,
-   "T12.9": 15,
-   "T12.10": 17,
-   "T12.11": 18,
-   "T12.12": 19,
-   "T12.13": 20,
-   "T12.14": 21,
-   "T12.15": 22,
-   "NUM": 24,
-   "DRUG": 26,
-   "GES": 26,
-   "PLAN": 27,
-   "PRIO": 28
+   "T12.7": 12,
+   "T12.8": 13,
+   "T12.9": 14,
+   "T12.10": 15,
+   "T12.11": 16,
+   "T12.12": 17,
+   "T12.13": 18,
+   "T12.14": 19,
+   "T12.15": 20,
+   "NUM": 22,
+   "DRUG": 24,
+   "GES": 24,
+   "PLAN": 25,
+   "PRIO": 26
   }
  },
  "stars": [

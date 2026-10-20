@@ -6,7 +6,7 @@ Método: se extrajo de cada `classes/lessons/endo-XX.cjs` lo que la clase enseñ
 
 Leyenda: **foto** · **anim** (animación) · **NO** = no se muestra. "¿La necesita?": **sí** = existe una imagen reconocible que el EUNACOM pregunta; **no** = dosis, cortes, scores, algoritmos. En el resumen, "con foto" = número de fotos que muestra la clase.
 
-Nota sobre el libro: `books/dist/Modulo_1_Medicina_Interna/Manual_EUNACOM_Endocrinologia_Completo_2026.pdf` (Imagen 1.2–1.5 y 7.6–7.24) reproduce **las mismas figuras** que las clases (se extrajeron sus 32 imágenes grandes y se compararon). No aporta candidatas nuevas; además repite el mismo error de endo-15 (la RM de incidentaloma va como "Feocromocitoma en la imagen").
+Nota sobre el libro: `books/dist/01_Tomos/Modulo_1_Medicina_Interna/Manual_EUNACOM_Endocrinologia_Completo_2026.pdf` (Imagen 1.2–1.5 y 7.6–7.24) reproduce **las mismas figuras** que las clases (se extrajeron sus 32 imágenes grandes y se compararon). No aporta candidatas nuevas; además repite el mismo error de endo-15 (la RM de incidentaloma va como "Feocromocitoma en la imagen").
 
 ## Resumen
 

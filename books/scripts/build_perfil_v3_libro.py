@@ -5,7 +5,7 @@ import json, html, subprocess, os, re, collections, base64
 R = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 V = os.path.expanduser('~/fotos_tools/v3')
 CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
-OUT = R + '/books/dist/Perfil_V3_Codigo_por_Codigo_Completo_2026.pdf'
+OUT = R + '/books/dist/04_Perfil_V3_Codigo_por_Codigo/Perfil_V3_Codigo_por_Codigo_Completo_2026.pdf'
 import re as _re
 E=lambda t: html.escape(_re.sub(r':::\w*\s*','',str(t)).replace('**',''))
 

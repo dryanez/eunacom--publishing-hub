@@ -6,7 +6,7 @@ Método: igual que en `gastro.md`. Se extrajo de cada `classes/lessons/infecto-X
 
 Leyenda: **foto** · **anim** · **NO** = no se muestra. "¿La necesita?": **sí** = imagen reconocible que el EUNACOM pregunta; **no** = dosis, normas, algoritmos, scores.
 
-Nota sobre los libros: `books/dist/Modulo_1_Medicina_Interna/Manual_EUNACOM_Infectologia_Completo_2026.pdf` reproduce las mismas figuras de las clases (Imagen 1.2 … 5.4) más algoritmos propios ("FIGURA x.y"); **no aporta fotos nuevas**. Las candidatas útiles están en la biblioteca: variantes `_alt` sin usar y las carpetas `15_pediatria/ped-10`, `17_otorrino/orl-08`, `02_neumologia`, `13_ginecologia`, `11_dermatologia`.
+Nota sobre los libros: `books/dist/01_Tomos/Modulo_1_Medicina_Interna/Manual_EUNACOM_Infectologia_Completo_2026.pdf` reproduce las mismas figuras de las clases (Imagen 1.2 … 5.4) más algoritmos propios ("FIGURA x.y"); **no aporta fotos nuevas**. Las candidatas útiles están en la biblioteca: variantes `_alt` sin usar y las carpetas `15_pediatria/ped-10`, `17_otorrino/orl-08`, `02_neumologia`, `13_ginecologia`, `11_dermatologia`.
 
 ## Resumen
 

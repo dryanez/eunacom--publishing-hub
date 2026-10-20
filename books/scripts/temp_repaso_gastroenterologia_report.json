@@ -41,29 +41,29 @@
     "overflow": false
    },
    "T1.4": {
-    "steps": 7,
+    "steps": 5,
     "split": false,
     "algo": {
-     "scale": 0.92,
-     "orient": "lr"
+     "scale": 1,
+     "orient": "td"
     },
-    "algoH": 270,
+    "algoH": 340,
     "traps": 1,
     "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T1.5": {
-    "steps": 7,
+    "steps": 1,
     "split": false,
     "algo": {
-     "scale": 0.92,
-     "orient": "lr"
+     "scale": 0.99,
+     "orient": "td"
     },
-    "algoH": 270,
+    "algoH": 340,
     "traps": 0,
     "ask": 6,
-    "tight": true,
+    "tight": false,
     "overflow": false
    },
    "T1.6": {
@@ -96,39 +96,39 @@
     "steps": 0,
     "split": false,
     "algo": {
-     "scale": 0.99,
+     "scale": 1,
      "orient": "td"
     },
-    "algoH": 340,
+    "algoH": 360,
     "traps": 0,
     "ask": 5,
     "tight": false,
     "overflow": false
    },
    "T2.3": {
-    "steps": 6,
+    "steps": 5,
     "split": false,
     "algo": {
-     "scale": 0.87,
-     "orient": "lr"
+     "scale": 0.81,
+     "orient": "td"
     },
-    "algoH": 300,
+    "algoH": 340,
     "traps": 0,
     "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T2.4": {
-    "steps": 5,
+    "steps": 1,
     "split": false,
     "algo": {
-     "scale": 1,
+     "scale": 0.94,
      "orient": "td"
     },
-    "algoH": 380,
+    "algoH": 340,
     "traps": 0,
     "ask": 5,
-    "tight": true,
+    "tight": false,
     "overflow": false
    },
    "T2.5": {
@@ -145,7 +145,7 @@
     "overflow": false
    },
    "T2.6": {
-    "steps": 1,
+    "steps": 0,
     "split": false,
     "algo": {
      "scale": 1,
@@ -158,42 +158,41 @@
     "overflow": false
    },
    "T3.1": {
-    "steps": 7,
+    "steps": 5,
     "split": false,
     "algo": {
-     "scale": 1,
-     "orient": "grid",
-     "alt": true
+     "scale": 0.87,
+     "orient": "lr"
     },
-    "algoH": 270,
+    "algoH": 340,
     "traps": 1,
     "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T3.2": {
-    "steps": 8,
+    "steps": 6,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "lr"
     },
-    "algoH": 270,
+    "algoH": 300,
     "traps": 1,
-    "ask": 5,
+    "ask": 6,
     "tight": true,
     "overflow": false
    },
    "T3.3": {
-    "steps": 8,
+    "steps": 5,
     "split": false,
     "algo": {
-     "scale": 0.99,
-     "orient": "lr"
+     "scale": 1,
+     "orient": "td"
     },
-    "algoH": 270,
+    "algoH": 340,
     "traps": 1,
-    "ask": 5,
+    "ask": 6,
     "tight": true,
     "overflow": false
    },
@@ -211,7 +210,7 @@
     "overflow": false
    },
    "T4.1": {
-    "steps": 5,
+    "steps": 0,
     "split": false,
     "algo": {
      "scale": 1,
@@ -220,32 +219,32 @@
     "algoH": 340,
     "traps": 0,
     "ask": 5,
-    "tight": true,
+    "tight": false,
     "overflow": false
    },
    "T4.2": {
-    "steps": 6,
+    "steps": 5,
     "split": false,
     "algo": {
-     "scale": 0.87,
-     "orient": "lr"
+     "scale": 0.88,
+     "orient": "td"
     },
-    "algoH": 300,
+    "algoH": 360,
     "traps": 0,
     "ask": 6,
     "tight": true,
     "overflow": false
    },
    "T5.1": {
-    "steps": 8,
+    "steps": 7,
     "split": false,
     "algo": {
-     "scale": 1,
+     "scale": 0.96,
      "orient": "lr"
     },
-    "algoH": 290,
+    "algoH": 270,
     "traps": 3,
-    "ask": 5,
+    "ask": 6,
     "tight": true,
     "overflow": false
    },
@@ -263,20 +262,20 @@
     "overflow": false
    },
    "T5.3": {
-    "steps": 10,
+    "steps": 7,
     "split": false,
     "algo": {
-     "scale": 0.94,
+     "scale": 1,
      "orient": "lr"
     },
-    "algoH": 240,
+    "algoH": 270,
     "traps": 3,
-    "ask": 5,
+    "ask": 6,
     "tight": true,
     "overflow": false
    },
    "T5.4": {
-    "steps": 0,
+    "steps": 1,
     "split": false,
     "algo": {
      "scale": 0.96,
@@ -289,7 +288,7 @@
     "overflow": false
    },
    "T6.1": {
-    "steps": 5,
+    "steps": 0,
     "split": false,
     "algo": {
      "scale": 1,
@@ -298,20 +297,20 @@
     "algoH": 340,
     "traps": 0,
     "ask": 6,
-    "tight": true,
+    "tight": false,
     "overflow": false
    },
    "T6.2": {
-    "steps": 7,
+    "steps": 0,
     "split": false,
     "algo": {
      "scale": 1,
-     "orient": "lr"
+     "orient": "td"
     },
-    "algoH": 270,
+    "algoH": 340,
     "traps": 0,
     "ask": 6,
-    "tight": true,
+    "tight": false,
     "overflow": false
    },
    "T6.3": {

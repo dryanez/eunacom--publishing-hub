@@ -6,7 +6,7 @@ Método: se extrajo de cada `classes/lessons/diab-XX.cjs` lo que la clase enseñ
 
 Leyenda: **foto** · **anim** (animación) · **NO** = no se muestra. "¿La necesita?": **sí** = existe una imagen reconocible que el EUNACOM pregunta; **no** = dosis, cortes, criterios, algoritmos.
 
-Nota sobre el libro: `books/dist/Modulo_1_Medicina_Interna/Manual_EUNACOM_Diabetes_Completo_2026.pdf` trae solo 12 imágenes (Imagen 1.2, 4.3, 5.2–5.5) y son **las mismas** que ya usan las clases (acantosis, ECG hipokalemia, retina, pie, xantomas, plasma lipémico). No aporta candidatas nuevas.
+Nota sobre el libro: `books/dist/01_Tomos/Modulo_1_Medicina_Interna/Manual_EUNACOM_Diabetes_Completo_2026.pdf` trae solo 12 imágenes (Imagen 1.2, 4.3, 5.2–5.5) y son **las mismas** que ya usan las clases (acantosis, ECG hipokalemia, retina, pie, xantomas, plasma lipémico). No aporta candidatas nuevas.
 
 Diabetes es una especialidad mayoritariamente de criterios, cortes y fármacos: 13 de 24 clases no necesitan imágenes clínicas. Los vacíos reales se concentran en **retinopatía (diab-21)**, **pie diabético (diab-22)**, **nefropatía (diab-20)** y **dislipidemia familiar (diab-24)**.
 

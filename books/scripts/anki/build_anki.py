@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """build_anki.py <libro> [--force-media] [--solo gastro-01,gastro-02]
 
-Arma books/dist/Anki/AEE_EUNACOM_V3_<Libro>.apkg desde las tarjetas editables
+Arma books/dist/07_Anki/AEE_EUNACOM_V3_<Libro>.apkg desde las tarjetas editables
 books/data/anki/<libro>/<classId>.json.
 
 Pasos: (1) node extract_sources.cjs <libro>  → _fuentes/fuentes.json (meta, fotos, algoritmo, tiempos de video)

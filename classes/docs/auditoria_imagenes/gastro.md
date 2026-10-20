@@ -6,7 +6,7 @@ Método: se extrajo de cada `classes/lessons/gastro-XX.cjs` lo que la clase ense
 
 Leyenda de estado: **foto** · **anim** (animación) · **NO** = no se muestra. En "¿la necesita?": **sí** = existe una imagen reconocible que el EUNACOM pregunta; **no** = contenido de dosis, criterios, scores o conducta.
 
-Nota sobre los libros: los PDF `books/dist/Modulo_1_Medicina_Interna/Manual_EUNACOM_Gastroenterologia_Completo_2026.pdf` reproducen exactamente las mismas figuras de las clases ("Imagen 1.1 … 6.4", mismos títulos), así que **no aportan candidatas nuevas**. Las candidatas útiles están en la biblioteca: variantes `_alt` sin usar y carpetas de otras especialidades (`10_cirugia`, `15_pediatria`, `12_oftalmologia`, `08_reumatologia`, `07_infectologia`).
+Nota sobre los libros: los PDF `books/dist/01_Tomos/Modulo_1_Medicina_Interna/Manual_EUNACOM_Gastroenterologia_Completo_2026.pdf` reproducen exactamente las mismas figuras de las clases ("Imagen 1.1 … 6.4", mismos títulos), así que **no aportan candidatas nuevas**. Las candidatas útiles están en la biblioteca: variantes `_alt` sin usar y carpetas de otras especialidades (`10_cirugia`, `15_pediatria`, `12_oftalmologia`, `08_reumatologia`, `07_infectologia`).
 
 ## Resumen
 

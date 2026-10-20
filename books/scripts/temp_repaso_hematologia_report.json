@@ -2,7 +2,7 @@
  "report": {
   "topics": {
    "T8.1": {
-    "steps": 1,
+    "steps": 0,
     "split": false,
     "algo": {
      "scale": 1,
@@ -15,13 +15,13 @@
     "overflow": false
    },
    "T8.2": {
-    "steps": 9,
+    "steps": 8,
     "split": false,
     "algo": {
-     "scale": 0.86,
+     "scale": 0.95,
      "orient": "lr"
     },
-    "algoH": 245,
+    "algoH": 270,
     "traps": 3,
     "ask": 5,
     "tight": true,
@@ -41,20 +41,20 @@
     "overflow": false
    },
    "T8.4": {
-    "steps": 6,
+    "steps": 5,
     "split": false,
     "algo": {
      "scale": 1,
-     "orient": "lr"
+     "orient": "td"
     },
-    "algoH": 300,
+    "algoH": 360,
     "traps": 0,
     "ask": 6,
     "tight": true,
     "overflow": false
    },
    "T8.5": {
-    "steps": 1,
+    "steps": 0,
     "split": false,
     "algo": {
      "scale": 0.87,
@@ -67,15 +67,15 @@
     "overflow": false
    },
    "T8.6": {
-    "steps": 8,
+    "steps": 6,
     "split": false,
     "algo": {
      "scale": 0.87,
      "orient": "lr"
     },
-    "algoH": 270,
+    "algoH": 300,
     "traps": 0,
-    "ask": 5,
+    "ask": 6,
     "tight": true,
     "overflow": false
    },
@@ -119,28 +119,28 @@
     "overflow": false
    },
    "T8.10": {
-    "steps": 14,
+    "steps": 10,
     "split": false,
     "algo": {
-     "scale": 1,
+     "scale": 0.86,
      "orient": "lr"
     },
-    "algoH": 300,
+    "algoH": 220,
     "traps": 2,
     "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T8.11": {
-    "steps": 8,
+    "steps": 6,
     "split": false,
     "algo": {
-     "scale": 0.86,
+     "scale": 0.89,
      "orient": "td"
     },
-    "algoH": 290,
+    "algoH": 300,
     "traps": 0,
-    "ask": 5,
+    "ask": 6,
     "tight": true,
     "overflow": false
    },
@@ -171,13 +171,13 @@
     "overflow": false
    },
    "T8.14": {
-    "steps": 9,
+    "steps": 8,
     "split": false,
     "algo": {
-     "scale": 0.86,
+     "scale": 1,
      "orient": "td"
     },
-    "algoH": 245,
+    "algoH": 290,
     "traps": 3,
     "ask": 5,
     "tight": true,
@@ -197,45 +197,32 @@
     "overflow": false
    },
    "T8.16": {
-    "steps": 0,
-    "split": true,
-    "algo": {
-     "scale": 1,
-     "orient": "td"
-    },
-    "algoH": 340,
-    "traps": 3,
-    "ask": 7,
-    "tight": false,
-    "overflow": false
-   },
-   "T8.17": {
     "steps": 10,
     "split": false,
     "algo": {
-     "scale": 0.87,
+     "scale": 1,
      "orient": "lr"
     },
     "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T8.17": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 270,
     "traps": 3,
     "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T8.18": {
-    "steps": 0,
-    "split": true,
-    "algo": {
-     "scale": 1,
-     "orient": "td"
-    },
-    "algoH": 340,
-    "traps": 3,
-    "ask": 7,
-    "tight": false,
-    "overflow": false
-   },
-   "T8.19": {
     "steps": 10,
     "split": false,
     "algo": {
@@ -248,15 +235,28 @@
     "tight": true,
     "overflow": false
    },
-   "T8.20": {
-    "steps": 17,
+   "T8.19": {
+    "steps": 8,
     "split": false,
     "algo": {
-     "scale": 0.91,
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T8.20": {
+    "steps": 15,
+    "split": false,
+    "algo": {
+     "scale": 0.97,
      "orient": "lr"
     },
-    "algoH": 280,
-    "traps": 2,
+    "algoH": 300,
+    "traps": 3,
     "ask": 5,
     "tight": true,
     "overflow": false
@@ -278,10 +278,10 @@
     "steps": 10,
     "split": false,
     "algo": {
-     "scale": 0.82,
+     "scale": 0.89,
      "orient": "lr"
     },
-    "algoH": 220,
+    "algoH": 240,
     "traps": 3,
     "ask": 5,
     "tight": true,
@@ -301,21 +301,21 @@
     "overflow": false
    },
    "T8.24": {
-    "steps": 14,
+    "steps": 16,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "lr"
     },
     "algoH": 300,
-    "traps": 3,
+    "traps": 2,
     "ask": 5,
     "tight": true,
     "overflow": false
    }
   },
   "warnings": [],
-  "pages": 41,
+  "pages": 39,
   "where": {
    "COVER": 1,
    "IDX": 2,
@@ -335,19 +335,19 @@
    "T8.14": 21,
    "T8.15": 22,
    "T8.16": 23,
-   "T8.17": 25,
-   "T8.18": 26,
-   "T8.19": 28,
-   "T8.20": 29,
-   "T8.21": 30,
-   "T8.22": 31,
-   "T8.23": 32,
-   "T8.24": 33,
-   "NUM": 34,
-   "DRUG": 37,
-   "GES": 38,
-   "PLAN": 40,
-   "PRIO": 41
+   "T8.17": 24,
+   "T8.18": 25,
+   "T8.19": 26,
+   "T8.20": 27,
+   "T8.21": 28,
+   "T8.22": 29,
+   "T8.23": 30,
+   "T8.24": 31,
+   "NUM": 32,
+   "DRUG": 35,
+   "GES": 36,
+   "PLAN": 38,
+   "PRIO": 39
   }
  },
  "stars": [

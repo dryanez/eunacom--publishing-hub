@@ -2,7 +2,7 @@
  "report": {
   "topics": {
    "T21.1": {
-    "steps": 8,
+    "steps": 7,
     "split": false,
     "algo": {
      "scale": 1,
@@ -10,20 +10,20 @@
     },
     "algoH": 270,
     "traps": 3,
-    "ask": 5,
+    "ask": 6,
     "tight": true,
     "overflow": false
    },
    "T21.2": {
-    "steps": 10,
+    "steps": 5,
     "split": false,
     "algo": {
-     "scale": 0.91,
+     "scale": 1,
      "orient": "td"
     },
-    "algoH": 220,
+    "algoH": 340,
     "traps": 3,
-    "ask": 5,
+    "ask": 6,
     "tight": true,
     "overflow": false
    },
@@ -41,33 +41,33 @@
     "overflow": false
    },
    "T21.4": {
-    "steps": 0,
-    "split": true,
-    "algo": {
-     "scale": 1,
-     "orient": "td"
-    },
-    "algoH": 340,
-    "traps": 5,
-    "ask": 6,
-    "tight": false,
-    "overflow": false
-   },
-   "T21.5": {
-    "steps": 16,
+    "steps": 8,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
-    "algoH": 300,
-    "traps": 2,
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T21.5": {
+    "steps": 12,
+    "split": false,
+    "algo": {
+     "scale": 0.91,
+     "orient": "td"
+    },
+    "algoH": 220,
+    "traps": 3,
     "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T21.15": {
-    "steps": 4,
+    "steps": 1,
     "split": false,
     "algo": {
      "scale": 1,
@@ -75,7 +75,7 @@
     },
     "algoH": 340,
     "traps": 0,
-    "ask": 6,
+    "ask": 7,
     "tight": false,
     "overflow": false
    },
@@ -93,16 +93,16 @@
     "overflow": false
    },
    "T21.7": {
-    "steps": 0,
-    "split": true,
+    "steps": 5,
+    "split": false,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
     "algoH": 340,
-    "traps": 5,
+    "traps": 3,
     "ask": 6,
-    "tight": false,
+    "tight": true,
     "overflow": false
    },
    "T21.8": {
@@ -132,19 +132,6 @@
     "overflow": false
    },
    "T21.10": {
-    "steps": 12,
-    "split": false,
-    "algo": {
-     "scale": 0.91,
-     "orient": "td"
-    },
-    "algoH": 220,
-    "traps": 2,
-    "ask": 5,
-    "tight": true,
-    "overflow": false
-   },
-   "T21.11": {
     "steps": 8,
     "split": false,
     "algo": {
@@ -152,8 +139,21 @@
      "orient": "td"
     },
     "algoH": 270,
-    "traps": 3,
+    "traps": 2,
     "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T21.11": {
+    "steps": 5,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
     "tight": true,
     "overflow": false
    },
@@ -171,20 +171,20 @@
     "overflow": false
    },
    "T21.13": {
-    "steps": 8,
+    "steps": 5,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
-    "algoH": 270,
+    "algoH": 340,
     "traps": 1,
-    "ask": 5,
+    "ask": 6,
     "tight": true,
     "overflow": false
    },
    "T21.14": {
-    "steps": 1,
+    "steps": 0,
     "split": false,
     "algo": {
      "scale": 1,
@@ -198,7 +198,7 @@
    }
   },
   "warnings": [],
-  "pages": 24,
+  "pages": 22,
   "where": {
    "COVER": 1,
    "IDX": 2,
@@ -206,22 +206,22 @@
    "T21.2": 4,
    "T21.3": 5,
    "T21.4": 6,
-   "T21.5": 8,
-   "T21.15": 9,
-   "T21.6": 10,
-   "T21.7": 12,
-   "T21.8": 14,
-   "T21.9": 15,
-   "T21.10": 16,
-   "T21.11": 17,
-   "T21.12": 18,
-   "T21.13": 19,
-   "T21.14": 20,
-   "NUM": 21,
-   "DRUG": 22,
-   "GES": 22,
-   "PLAN": 23,
-   "PRIO": 24
+   "T21.5": 7,
+   "T21.15": 8,
+   "T21.6": 9,
+   "T21.7": 11,
+   "T21.8": 12,
+   "T21.9": 13,
+   "T21.10": 14,
+   "T21.11": 15,
+   "T21.12": 16,
+   "T21.13": 17,
+   "T21.14": 18,
+   "NUM": 19,
+   "DRUG": 20,
+   "GES": 20,
+   "PLAN": 21,
+   "PRIO": 22
   }
  },
  "stars": [

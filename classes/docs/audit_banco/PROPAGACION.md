@@ -37,8 +37,8 @@ Video a rehacer (la pregunta cambiada es la que sale en el video): ped-01
 
 - books/data/atlas_392_enriched.json: EUNACOM Diciembre 2025 · Pregunta 78 excluida y sin reemplazo OK en 6.01.1.001
 - books/data/atlas_392_enriched.json: EUNACOM Julio 2013 · Pregunta 42 excluida y sin reemplazo OK en 2.01.2.019
-- books/dist/ENSAYO_90Q_NEUROLOGIA.json: EUNACOM Diciembre 2022 · Pregunta 99 excluida y sin reemplazo OK en 1.10.2.006
-- books/dist/ENSAYO_90Q_OTORRINO.json: EUNACOM Julio 2018 · Pregunta 141 excluida y sin reemplazo OK en 6.03.1.028
+- books/dist/_datos_ensayos_90Q/ENSAYO_90Q_NEUROLOGIA.json: EUNACOM Diciembre 2022 · Pregunta 99 excluida y sin reemplazo OK en 1.10.2.006
+- books/dist/_datos_ensayos_90Q/ENSAYO_90Q_OTORRINO.json: EUNACOM Julio 2018 · Pregunta 141 excluida y sin reemplazo OK en 6.03.1.028
 - classes/curriculum/cirugia_decks_data.json: EUNACOM Diciembre 2022 · Pregunta 99 excluida y sin reemplazo OK en 1.10.2.006
 - classes/lessons/derma-02.cjs: EUNACOM Diciembre 2025 · Pregunta 78 excluida y sin reemplazo OK en 6.01.1.001
 
@@ -139,14 +139,14 @@ Revisadas a mano: ver `PROPAGACION_ANKI_MANUAL.md` (las que enseñaban la clave 
 | Datos auxiliares | books/data/atlas_392_enriched.json | EUNACOM Diciembre 2022 · Pregunta 166 | EXPLICACIÓN | EXPLICACION_AJENA: reemplazada por la corregida |
 | Datos auxiliares | books/data/atlas_392_enriched.json | EUNACOM Enero 2023 · Pregunta 77 | EXPLICACIÓN | EXPLICACION_AJENA: reemplazada por la corregida |
 | Datos auxiliares | books/data/atlas_392_enriched.json | EUNACOM Diciembre 2025 · Pregunta 112 | TEXTO | ligaduras reparadas en 4 campo(s) |
-| Libros Gordos (ENSAYO_90Q) | books/dist/ENSAYO_90Q_INFECTOLOGIA.json | EUNACOM Diciembre 2024 · Pregunta 45 | REEMPLAZADA | → EUNACOM Enero 2023 · Pregunta 76 (1.04.1.026) |
-| Libros Gordos (ENSAYO_90Q) | books/dist/ENSAYO_90Q_NEFROLOGIA.json | EUNACOM Diciembre 2024 · Pregunta 70 | REEMPLAZADA | → EUNACOM Diciembre 2018 · Pregunta 138 (1.09.1.016) |
-| Libros Gordos (ENSAYO_90Q) | books/dist/ENSAYO_90Q_OTORRINO.json | EUNACOM Diciembre 2022 · Pregunta 44 | CLAVE | A → D |
-| Libros Gordos (ENSAYO_90Q) | books/dist/ENSAYO_90Q_OTORRINO.json | EUNACOM Diciembre 2022 · Pregunta 44 | EXPLICACIÓN | corregida (clave nueva) |
-| Libros Gordos (ENSAYO_90Q) | books/dist/ENSAYO_90Q_PSIQUIATRIA.json | EUNACOM Diciembre 2022 · Pregunta 30 | CLAVE | E → D |
-| Libros Gordos (ENSAYO_90Q) | books/dist/ENSAYO_90Q_PSIQUIATRIA.json | EUNACOM Diciembre 2022 · Pregunta 30 | EXPLICACIÓN | corregida (clave nueva) |
-| Libros Gordos (ENSAYO_90Q) | books/dist/ENSAYO_90Q_PSIQUIATRIA.json | EUNACOM Diciembre 2022 · Pregunta 148 | CLAVE | A → C |
-| Libros Gordos (ENSAYO_90Q) | books/dist/ENSAYO_90Q_PSIQUIATRIA.json | EUNACOM Diciembre 2022 · Pregunta 148 | EXPLICACIÓN | corregida (clave nueva) |
+| Libros Gordos (ENSAYO_90Q) | books/dist/_datos_ensayos_90Q/ENSAYO_90Q_INFECTOLOGIA.json | EUNACOM Diciembre 2024 · Pregunta 45 | REEMPLAZADA | → EUNACOM Enero 2023 · Pregunta 76 (1.04.1.026) |
+| Libros Gordos (ENSAYO_90Q) | books/dist/_datos_ensayos_90Q/ENSAYO_90Q_NEFROLOGIA.json | EUNACOM Diciembre 2024 · Pregunta 70 | REEMPLAZADA | → EUNACOM Diciembre 2018 · Pregunta 138 (1.09.1.016) |
+| Libros Gordos (ENSAYO_90Q) | books/dist/_datos_ensayos_90Q/ENSAYO_90Q_OTORRINO.json | EUNACOM Diciembre 2022 · Pregunta 44 | CLAVE | A → D |
+| Libros Gordos (ENSAYO_90Q) | books/dist/_datos_ensayos_90Q/ENSAYO_90Q_OTORRINO.json | EUNACOM Diciembre 2022 · Pregunta 44 | EXPLICACIÓN | corregida (clave nueva) |
+| Libros Gordos (ENSAYO_90Q) | books/dist/_datos_ensayos_90Q/ENSAYO_90Q_PSIQUIATRIA.json | EUNACOM Diciembre 2022 · Pregunta 30 | CLAVE | E → D |
+| Libros Gordos (ENSAYO_90Q) | books/dist/_datos_ensayos_90Q/ENSAYO_90Q_PSIQUIATRIA.json | EUNACOM Diciembre 2022 · Pregunta 30 | EXPLICACIÓN | corregida (clave nueva) |
+| Libros Gordos (ENSAYO_90Q) | books/dist/_datos_ensayos_90Q/ENSAYO_90Q_PSIQUIATRIA.json | EUNACOM Diciembre 2022 · Pregunta 148 | CLAVE | A → C |
+| Libros Gordos (ENSAYO_90Q) | books/dist/_datos_ensayos_90Q/ENSAYO_90Q_PSIQUIATRIA.json | EUNACOM Diciembre 2022 · Pregunta 148 | EXPLICACIÓN | corregida (clave nueva) |
 | Reproductor (decks_data) | classes/curriculum/cardiologia_decks_data.json | EUNACOM Enero 2023 · Pregunta 120 | EXPLICACIÓN | EXPLICACION_AJENA: reemplazada por la corregida |
 | Reproductor (decks_data) | classes/curriculum/cardiologia_decks_data.json | EUNACOM Diciembre 2025 · Pregunta 2 | TEXTO | ligaduras reparadas en 2 campo(s) |
 | Reproductor (decks_data) | classes/curriculum/cardiologia_decks_data.json | EUNACOM Agosto 2021 · Pregunta 180 | EXPLICACIÓN | EXPLICACION_AJENA: reemplazada por la corregida |
@@ -269,12 +269,12 @@ Revisadas a mano: ver `PROPAGACION_ANKI_MANUAL.md` (las que enseñaban la clave 
 | Clases (guiones) | classes/lessons/ped-01.cjs | EUNACOM Diciembre 2017 · Pregunta 126 | REEMPLAZADA | → EUNACOM Diciembre 2018 · Pregunta 72 (2.01.3.003) |
 | Clases (guiones) | classes/lessons/psiq-08.cjs | EUNACOM Agosto 2021 · Pregunta 11 | EXPLICACIÓN | EXPLICACION_AJENA: reemplazada por la corregida |
 | Clases (guiones) | classes/lessons/uro-16.cjs | EUNACOM Diciembre 2017 · Pregunta 74 | EXPLICACIÓN | EXPLICACION_AJENA: reemplazada por la corregida |
-| Libros Gordos (ENSAYO_90Q) | books/dist/ENSAYO_90Q_OFTALMOLOGIA.json | EUNACOM Diciembre 2024 · Pregunta 71 | REEMPLAZADA | → EUNACOM Julio 2018 · Pregunta 172 (6.02.2.003) |
+| Libros Gordos (ENSAYO_90Q) | books/dist/_datos_ensayos_90Q/ENSAYO_90Q_OFTALMOLOGIA.json | EUNACOM Diciembre 2024 · Pregunta 71 | REEMPLAZADA | → EUNACOM Julio 2018 · Pregunta 172 (6.02.2.003) |
 | Datos auxiliares | books/data/atlas_392_enriched.json | EUNACOM Diciembre 2025 · Pregunta 78 | SIN REEMPLAZO | excluida (Ligaduras perdidas (Neuri2s óp2ca, re2na), clave A correcta.); no hay otra OK en 6.01.1.001 — se deja |
 | Datos auxiliares | books/data/atlas_392_enriched.json | EUNACOM Julio 2013 · Pregunta 42 | SIN REEMPLAZO | excluida (Ligadura perdida (ac2va), clave B queloide correcta (sobrepasa bordes).); no hay otra OK en 2.01.2.019 — se deja |
 | Datos auxiliares | books/data/banco_preguntas_v3.json | EUNACOM Julio 2024 · Pregunta 171 | EXCLUIDA SIN TOCAR | FALTA_IMAGEN: El antibiograma no está en el enunciado, la clave vancomicina asume SARM sin poder verific |
-| Libros Gordos (ENSAYO_90Q) | books/dist/ENSAYO_90Q_NEUROLOGIA.json | EUNACOM Diciembre 2022 · Pregunta 99 | SIN REEMPLAZO | excluida (Enunciado cortado («examen de elección para...»), en intoxicación por CO (calefont) el exa); no hay otra OK en 1.10.2.006 — se deja |
-| Libros Gordos (ENSAYO_90Q) | books/dist/ENSAYO_90Q_OTORRINO.json | EUNACOM Julio 2018 · Pregunta 141 | SIN REEMPLAZO | excluida (Enunciado cortado y alternativa E fusionada con el texto del caso, clave E fuera de opcion); no hay otra OK en 6.03.1.028 — se deja |
+| Libros Gordos (ENSAYO_90Q) | books/dist/_datos_ensayos_90Q/ENSAYO_90Q_NEUROLOGIA.json | EUNACOM Diciembre 2022 · Pregunta 99 | SIN REEMPLAZO | excluida (Enunciado cortado («examen de elección para...»), en intoxicación por CO (calefont) el exa); no hay otra OK en 1.10.2.006 — se deja |
+| Libros Gordos (ENSAYO_90Q) | books/dist/_datos_ensayos_90Q/ENSAYO_90Q_OTORRINO.json | EUNACOM Julio 2018 · Pregunta 141 | SIN REEMPLAZO | excluida (Enunciado cortado y alternativa E fusionada con el texto del caso, clave E fuera de opcion); no hay otra OK en 6.03.1.028 — se deja |
 | Reproductor (decks_data) | classes/curriculum/cirugia_decks_data.json | EUNACOM Diciembre 2022 · Pregunta 99 | SIN REEMPLAZO | excluida (Enunciado cortado («examen de elección para...»), en intoxicación por CO (calefont) el exa); no hay otra OK en 1.10.2.006 — se deja |
 | Reproductor (decks_data) | classes/curriculum/diabetes_decks_data.json | EUNACOM Julio 2024 · Pregunta 171 | EXCLUIDA SIN TOCAR | FALTA_IMAGEN: El antibiograma no está en el enunciado, la clave vancomicina asume SARM sin poder verific |
 | Clases (guiones) | classes/lessons/cirugia-09.cjs | EUNACOM Julio 2016 · Pregunta 26 | EXCLUIDA SIN TOCAR | FALTA_IMAGEN: Requiere Rx de pelvis; la clave "reposo en hamaca" (estabilización externa) es la sustenta |

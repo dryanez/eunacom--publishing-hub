@@ -18,8 +18,8 @@
  *        <libro> = clave de build_book.cjs (gastroenterologia, cardiologia, nefrologia…)
  *        --html  = solo escribe el HTML intermedio (books/scripts/temp_repaso_<libro>.html)
  *        --out <carpeta> = otra carpeta de salida (pruebas)
- * Salida: books/dist/Repaso/Repaso_Final_<Título>_2026.pdf
- *         books/dist/Repaso/Anki_<Título>.csv
+ * Salida: books/dist/05_Repaso_Final/Repaso_Final_<Título>_2026.pdf
+ *         books/dist/05_Repaso_Final/Anki_<Título>.csv
  *
  * Fuentes (no se inventa contenido; solo se selecciona y compacta):
  *   books/scripts/dataset_<libro>*.cjs      tema, keyPoints, tabla, svg/diagram, GES, frecuencia
@@ -50,7 +50,7 @@ const { applyV3, V3_MAP } = require('./v3_codes.cjs');
 const BOOKS = path.join(__dirname, '..');
 const REPO = path.join(BOOKS, '..');
 const DIST = path.join(BOOKS, 'dist');
-const OUT_DIR = path.join(DIST, 'Repaso');
+const OUT_DIR = path.join(DIST, '05_Repaso_Final');
 const LESSONS = path.join(REPO, 'classes', 'lessons');
 const PATHWAYS = path.join(REPO, 'classes', 'pathways');
 const MEDIA = path.join(REPO, 'classes', 'media');
@@ -116,7 +116,7 @@ function loadPathways() {
 function libroGordoFiles(key) {
   const s = fs.readFileSync(path.join(__dirname, 'build_libro_gordo_pdf.cjs'), 'utf8');
   const re = /^\s{2}(\w+):\s*\{[\s\S]*?name:\s*'([^']+)'[\s\S]*?inputFile:\s*'([^']+)',\s*outFile:\s*'([^']+)'/gm; let m;
-  while ((m = re.exec(s))) if (m[1] === key) return { name: m[2], json: path.join(DIST, m[3]), pdf: path.join(DIST, m[4]), file: m[4] };
+  while ((m = re.exec(s))) if (m[1] === key) return { name: m[2], json: path.join(DIST, '_datos_ensayos_90Q', m[3]), pdf: path.join(DIST, '02_Libros_Gordos_90Q', m[4]), file: m[4] };
   return null;
 }
 // página (1-based) de cada «PREGUNTA N» en el cuadernillo y en el solucionario del Libro Gordo
@@ -456,12 +456,13 @@ function codeChips(t) {
     const g = groups.find(x => x.k === k);
     if (g) g.codes.push(ci.code); else groups.push({ k, ci, codes: [ci.code] });
   });
-  const MAXC = groups.length > 6 ? 5 : 6;
-  const own = groups.slice(0, MAXC);
-  const rest = groups.slice(MAXC).flatMap(g => g.codes);
-  return `<div class="codes">${own.map(({ ci, codes }) => `<div class="chip"><span class="chip-c">${codes.map(c => `<span>${c}</span>`).join('')}</span><span class="chip-n">${esc(ci.name)}</span><span class="chip-l">${ci.dx || ci.tx || ci.seg ? `${lvTag('Dx', ci.dx || '—')}${lvTag('Tx', ci.tx || '—')}${lvTag('Seg', ci.seg || '—')}` : `<span class="lv lv-nil">${esc(ci.nivel || '—')}</span>`}</span></div>`).join('')}
-    ${rest.length ? `<div class="chip chip-more"><span class="chip-n">+ ${rest.length} código${rest.length > 1 ? 's' : ''} relacionado${rest.length > 1 ? 's' : ''}: ${rest.map(c => `<span class="mono">${c}</span>`).join(' · ')}</span></div>` : ''}
-    ${!t.codeInfo.length ? `<div class="chip chip-more"><span class="chip-n">Sin código Perfil V3 propio · tema de apoyo</span></div>` : ''}</div>`;
+  // Repaso Final: un chip con la situación principal (y sus niveles); lo demás que cubre el tema va en una línea «También: …»
+  const [main, ...rest] = groups;
+  const also = [...new Set(rest.map(g => g.ci.name).filter(Boolean))];
+  if (!main) return `<div class="codes"><div class="chip chip-more"><span class="chip-n">Sin código Perfil V3 propio · tema de apoyo</span></div></div>`;
+  const { ci, codes } = main;
+  return `<div class="codes codes-main"><div class="chip"><span class="chip-c">${codes.map(c => `<span>${c}</span>`).join('')}</span><span class="chip-n">${esc(ci.name)}</span><span class="chip-l">${ci.dx || ci.tx || ci.seg ? `${lvTag('Dx', ci.dx || '—')}${lvTag('Tx', ci.tx || '—')}${lvTag('Seg', ci.seg || '—')}` : `<span class="lv lv-nil">${esc(ci.nivel || '—')}</span>`}</span></div>
+    ${also.length ? `<div class="also"><b>También:</b> ${also.map(esc).join(' · ')}</div>` : ''}</div>`;
 }
 function askList(t) {
   return t.ask.map((k, i) => {
@@ -505,7 +506,7 @@ function algoCard(t) {
 }
 
 function topicPages(t, x) {
-  const tierTag = t.tier === 3 ? '<span class="tier">Tier 3</span>' : '';
+  const tierTag = '';
   const head = `
     <header class="th">
       <div class="th-l">
@@ -515,15 +516,14 @@ function topicPages(t, x) {
       </div>
       <div class="th-r">
         <div class="prio p${t.stars}"><span class="stars">${STARS(t.stars)}</span><span class="prio-t">${PRIO_TXT[t.stars]}</span><span class="prio-n">${t.real} pregunta${t.real === 1 ? '' : 's'} real${t.real === 1 ? '' : 'es'} 2013–2025</span></div>
-        ${t.isGes ? `<div class="ges-pill"><b>GES</b>${esc(t.ges.replace(/^GES:\s*/i, '').replace(/^./, m => m.toUpperCase()))}</div>` : ''}
       </div>
     </header>
     ${codeChips(t)}`;
   const askCard = `<div class="card ask"><div class="sh acc"><span>Lo que te preguntan</span></div><ul class="ask-l">${askList(t)}</ul></div>`;
   const photo = photoFig(t.photo, x, 'fx-photo');
   const row1 = photo ? `<div class="row1">${askCard}<div class="side">${photo}</div></div>` : askCard;
-  const tbl = t.table ? `<div class="card tbl fx-tbl"><div class="sh navy"><span>Tabla ${t.label} · ${esc(strip(t.table.title))}</span>${t.trapsSame ? `<span class="sh-pill">= tabla de Trampas EUNACOM de la clase ${esc(t.c.classId || '')}</span>` : ''}</div>${dtable(t.table)}</div>` : '';
-  const tr = t.traps && t.traps.rows.length ? `<div class="card traps fx-traps"><div class="sh red"><span>Trampas EUNACOM${t.trapsSame ? ' · además de la tabla' : ''}</span><span class="sh-note">clase ${esc(t.c.classId || '')}</span></div>${dtable({ headers: t.traps.head, rows: t.traps.rows }, 'trap-t')}</div>` : '';
+  const tbl = t.table ? `<div class="card tbl fx-tbl"><div class="sh navy"><span>Tabla ${t.label} · ${esc(strip(t.table.title))}</span></div>${dtable(t.table)}</div>` : '';
+  const tr = t.traps && t.traps.rows.length ? `<div class="card traps fx-traps"><div class="sh red"><span>Trampas EUNACOM${t.trapsSame ? ' · además de la tabla' : ''}</span></div>${dtable({ headers: t.traps.head, rows: t.traps.rows }, 'trap-t')}</div>` : '';
   const gold = t.gold ? `<div class="gold fx-gold"><span class="gold-k">Regla de oro</span><span class="gold-t"><b>${esc(t.gold.t)}</b>${t.gold.d ? ` — ${esc(t.gold.d)}` : ''}</span></div>` : '';
   const foot = `<footer class="pfoot">${practice(t, x)}<div class="qr"><div class="qr-svg">${qrSvg(t.url)}</div><div class="qr-t"><b>Clase ${t.label} en video</b><span>Escanea para verla</span><span class="qr-u">eunacom-examen.cl</span></div></div></footer>`;
   // continuación (solo se usa si el tema no cabe en 1 página): se rellena con lo que se mueve + extras
@@ -708,6 +708,8 @@ body{width:210mm;overflow-x:hidden;font-family:'IBM Plex Sans',system-ui,sans-se
 .ges-pill{display:flex;gap:6px;align-items:baseline;font:500 9.5px/1.3 'IBM Plex Sans',sans-serif;color:var(--navy);background:#eff6ff;border:1px solid #bfdbfe;padding:4px 7px;max-width:250px;text-align:right}
 .ges-pill b{font-weight:700;color:#fff;background:var(--navy);padding:1px 4px;border-radius:2px;flex:none}
 .codes{display:grid;grid-template-columns:1fr 1fr;gap:4px 6px;margin-top:9px}
+.codes-main{grid-template-columns:1fr}.codes-main .chip-n{font-size:10.5px}
+.also{font:500 9px/1.4 'IBM Plex Sans',sans-serif;color:#475569;padding:0 2px}.also b{color:var(--acc-d)}
 .chip{display:flex;align-items:center;gap:6px;border:1px solid var(--acc-p);background:#fff;border-radius:3px;padding:3px 5px 3px 0;overflow:hidden;min-width:0}
 .chip .chip-n{flex:1;min-width:0;max-width:none}
 .chip-c{font:700 9.5px/1 'JetBrains Mono',monospace;color:#fff;background:var(--acc-d);align-self:stretch;display:flex;flex-direction:column;justify-content:center;gap:3px;padding:3px 6px}

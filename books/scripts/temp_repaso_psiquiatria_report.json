@@ -2,29 +2,29 @@
  "report": {
   "topics": {
    "T17.1": {
-    "steps": 0,
-    "split": true,
+    "steps": 9,
+    "split": false,
     "algo": {
      "scale": 1,
-     "orient": "td"
+     "orient": "lr"
     },
-    "algoH": 340,
-    "traps": 4,
-    "ask": 7,
-    "tight": false,
+    "algoH": 245,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
     "overflow": false
    },
    "T17.2": {
-    "steps": 0,
-    "split": true,
+    "steps": 7,
+    "split": false,
     "algo": {
      "scale": 1,
-     "orient": "td"
+     "orient": "lr"
     },
-    "algoH": 340,
-    "traps": 5,
-    "ask": 7,
-    "tight": false,
+    "algoH": 270,
+    "traps": 3,
+    "ask": 6,
+    "tight": true,
     "overflow": false
    },
    "T17.3": {
@@ -41,19 +41,45 @@
     "overflow": false
    },
    "T17.4": {
-    "steps": 17,
+    "steps": 8,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "lr"
     },
-    "algoH": 260,
-    "traps": 2,
+    "algoH": 270,
+    "traps": 3,
     "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T17.5": {
+    "steps": 4,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "td"
+    },
+    "algoH": 340,
+    "traps": 3,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T17.6": {
+    "steps": 8,
+    "split": false,
+    "algo": {
+     "scale": 1,
+     "orient": "lr"
+    },
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
+    "overflow": false
+   },
+   "T17.7": {
     "steps": 5,
     "split": false,
     "algo": {
@@ -63,32 +89,6 @@
     "algoH": 340,
     "traps": 3,
     "ask": 6,
-    "tight": true,
-    "overflow": false
-   },
-   "T17.6": {
-    "steps": 7,
-    "split": false,
-    "algo": {
-     "scale": 1,
-     "orient": "lr"
-    },
-    "algoH": 270,
-    "traps": 3,
-    "ask": 6,
-    "tight": true,
-    "overflow": false
-   },
-   "T17.7": {
-    "steps": 8,
-    "split": false,
-    "algo": {
-     "scale": 1,
-     "orient": "td"
-    },
-    "algoH": 270,
-    "traps": 3,
-    "ask": 5,
     "tight": true,
     "overflow": false
    },
@@ -119,55 +119,56 @@
     "overflow": false
    },
    "T17.10": {
-    "steps": 0,
-    "split": true,
+    "steps": 10,
+    "split": false,
     "algo": {
-     "scale": 0.93,
-     "orient": "td"
+     "scale": 0.86,
+     "orient": "grid",
+     "alt": true
     },
-    "algoH": 340,
-    "traps": 5,
-    "ask": 7,
-    "tight": false,
+    "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
     "overflow": false
    },
    "T17.11": {
-    "steps": 12,
+    "steps": 5,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
-    "algoH": 240,
+    "algoH": 340,
     "traps": 3,
-    "ask": 5,
+    "ask": 6,
     "tight": true,
     "overflow": false
    },
    "T17.12": {
-    "steps": 8,
+    "steps": 5,
     "split": false,
-    "algo": {
-     "scale": 1,
-     "orient": "td"
-    },
-    "algoH": 270,
-    "traps": 3,
-    "ask": 5,
-    "tight": true,
-    "overflow": false
-   },
-   "T17.13": {
-    "steps": 0,
-    "split": true,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
     "algoH": 340,
     "traps": 3,
-    "ask": 7,
-    "tight": false,
+    "ask": 6,
+    "tight": true,
+    "overflow": false
+   },
+   "T17.13": {
+    "steps": 10,
+    "split": false,
+    "algo": {
+     "scale": 0.88,
+     "orient": "lr"
+    },
+    "algoH": 220,
+    "traps": 3,
+    "ask": 5,
+    "tight": true,
     "overflow": false
    },
    "T17.14": {
@@ -210,53 +211,53 @@
     "overflow": false
    },
    "T17.16": {
-    "steps": 23,
+    "steps": 8,
     "split": false,
     "algo": {
-     "scale": 0.82,
+     "scale": 0.93,
      "orient": "td"
     },
-    "algoH": 220,
-    "traps": 1,
-    "ask": 4,
+    "algoH": 270,
+    "traps": 3,
+    "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T17.17": {
-    "steps": 15,
+    "steps": 13,
     "split": false,
     "algo": {
      "scale": 0.79,
      "orient": "td"
     },
-    "algoH": 300,
+    "algoH": 220,
     "traps": 0,
     "ask": 4,
     "tight": true,
     "overflow": false
    },
    "T17.18": {
-    "steps": 22,
+    "steps": 12,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "td"
     },
-    "algoH": 230,
-    "traps": 1,
+    "algoH": 220,
+    "traps": 3,
     "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T17.20": {
-    "steps": 12,
+    "steps": 8,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "grid",
      "alt": true
     },
-    "algoH": 220,
+    "algoH": 270,
     "traps": 3,
     "ask": 5,
     "tight": true,
@@ -266,35 +267,35 @@
   "warnings": [
    "T17.17: algoritmo al 79 %"
   ],
-  "pages": 33,
+  "pages": 29,
   "where": {
    "COVER": 1,
    "IDX": 2,
    "T17.1": 3,
-   "T17.2": 5,
-   "T17.3": 7,
-   "T17.4": 8,
-   "T17.5": 9,
-   "T17.6": 10,
-   "T17.7": 11,
-   "T17.8": 12,
-   "T17.9": 13,
-   "T17.10": 14,
-   "T17.11": 16,
-   "T17.12": 17,
-   "T17.13": 18,
-   "T17.14": 20,
-   "T17.19": 21,
-   "T17.15": 22,
-   "T17.16": 24,
-   "T17.17": 25,
-   "T17.18": 26,
-   "T17.20": 27,
-   "NUM": 28,
-   "DRUG": 30,
-   "GES": 30,
-   "PLAN": 32,
-   "PRIO": 33
+   "T17.2": 4,
+   "T17.3": 5,
+   "T17.4": 6,
+   "T17.5": 7,
+   "T17.6": 8,
+   "T17.7": 9,
+   "T17.8": 10,
+   "T17.9": 11,
+   "T17.10": 12,
+   "T17.11": 13,
+   "T17.12": 14,
+   "T17.13": 15,
+   "T17.14": 16,
+   "T17.19": 17,
+   "T17.15": 18,
+   "T17.16": 20,
+   "T17.17": 21,
+   "T17.18": 22,
+   "T17.20": 23,
+   "NUM": 24,
+   "DRUG": 26,
+   "GES": 26,
+   "PLAN": 28,
+   "PRIO": 29
   }
  },
  "stars": [

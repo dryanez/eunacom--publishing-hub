@@ -5,10 +5,10 @@
     "steps": 7,
     "split": false,
     "algo": {
-     "scale": 0.94,
+     "scale": 0.83,
      "orient": "lr"
     },
-    "algoH": 330,
+    "algoH": 290,
     "traps": 0,
     "ask": 6,
     "tight": true,
@@ -41,27 +41,27 @@
     "overflow": false
    },
    "T1.4": {
-    "steps": 8,
+    "steps": 6,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "lr"
     },
-    "algoH": 270,
+    "algoH": 300,
     "traps": 0,
-    "ask": 5,
+    "ask": 6,
     "tight": true,
     "overflow": false
    },
    "T1.5": {
-    "steps": 12,
+    "steps": 9,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "grid",
      "alt": true
     },
-    "algoH": 240,
+    "algoH": 245,
     "traps": 1,
     "ask": 5,
     "tight": true,
@@ -120,15 +120,15 @@
     "overflow": false
    },
    "T7.10": {
-    "steps": 8,
+    "steps": 6,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "lr"
     },
-    "algoH": 270,
+    "algoH": 300,
     "traps": 0,
-    "ask": 5,
+    "ask": 6,
     "tight": true,
     "overflow": false
    },
@@ -159,15 +159,15 @@
     "overflow": false
    },
    "T7.13": {
-    "steps": 8,
+    "steps": 6,
     "split": false,
     "algo": {
      "scale": 0.87,
      "orient": "lr"
     },
-    "algoH": 270,
+    "algoH": 300,
     "traps": 3,
-    "ask": 5,
+    "ask": 6,
     "tight": true,
     "overflow": false
    },
@@ -185,13 +185,13 @@
     "overflow": false
    },
    "T7.15": {
-    "steps": 10,
+    "steps": 8,
     "split": false,
     "algo": {
-     "scale": 0.97,
+     "scale": 1,
      "orient": "lr"
     },
-    "algoH": 220,
+    "algoH": 270,
     "traps": 3,
     "ask": 5,
     "tight": true,
@@ -211,26 +211,27 @@
     "overflow": false
    },
    "T7.17": {
-    "steps": 6,
+    "steps": 8,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "lr"
     },
-    "algoH": 300,
+    "algoH": 270,
     "traps": 3,
-    "ask": 6,
+    "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T7.18": {
-    "steps": 12,
+    "steps": 10,
     "split": false,
     "algo": {
-     "scale": 0.83,
-     "orient": "td"
+     "scale": 0.85,
+     "orient": "grid",
+     "alt": true
     },
-    "algoH": 350,
+    "algoH": 325,
     "traps": 1,
     "ask": 4,
     "tight": true,
@@ -250,27 +251,27 @@
     "overflow": false
    },
    "T7.20": {
-    "steps": 12,
+    "steps": 10,
     "split": false,
     "algo": {
      "scale": 0.87,
      "orient": "lr"
     },
-    "algoH": 300,
-    "traps": 3,
+    "algoH": 260,
+    "traps": 1,
     "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T7.21": {
-    "steps": 12,
+    "steps": 10,
     "split": false,
     "algo": {
-     "scale": 0.83,
+     "scale": 0.93,
      "orient": "grid",
      "alt": true
     },
-    "algoH": 260,
+    "algoH": 290,
     "traps": 3,
     "ask": 5,
     "tight": true,
@@ -303,7 +304,7 @@
     "overflow": false
    },
    "T7.24": {
-    "steps": 5,
+    "steps": 4,
     "split": false,
     "algo": {
      "scale": 1,
@@ -312,7 +313,7 @@
     "algoH": 340,
     "traps": 3,
     "ask": 6,
-    "tight": true,
+    "tight": false,
     "overflow": false
    },
    "T7.25": {

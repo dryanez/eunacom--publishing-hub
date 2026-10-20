@@ -6,7 +6,7 @@ Método: se extrajo de cada `classes/lessons/nefro-XX.cjs` lo que la clase ense�
 
 Leyenda: **foto** · **anim** (animación) · **NO** = no se muestra. "¿La necesita?": **sí** = existe una imagen reconocible que el EUNACOM pregunta; **no** = fórmulas, cortes, dosis, algoritmos. En el resumen, "con foto" = número de fotos o esquemas estáticos que muestra la clase. La secuencia de 5 SVG de nefro-09 cuenta como animación.
 
-Nota sobre el libro: `books/dist/Modulo_1_Medicina_Interna/Manual_EUNACOM_Nefrologia_Completo_2026.pdf` trae 10 imágenes (Imagen 1.1–5.4) y son **exactamente las mismas** que usan las clases (se extrajeron y compararon). No aporta candidatas nuevas. Las candidatas útiles están en carpetas de otras especialidades (`19_urologia`, `08_reumatologia`, `07_infectologia`) y en variantes `_alt` sin usar.
+Nota sobre el libro: `books/dist/01_Tomos/Modulo_1_Medicina_Interna/Manual_EUNACOM_Nefrologia_Completo_2026.pdf` trae 10 imágenes (Imagen 1.1–5.4) y son **exactamente las mismas** que usan las clases (se extrajeron y compararon). No aporta candidatas nuevas. Las candidatas útiles están en carpetas de otras especialidades (`19_urologia`, `08_reumatologia`, `07_infectologia`) y en variantes `_alt` sin usar.
 
 Nefrología es una especialidad con mucho contenido de fórmulas y electrolitos (nefro-03 a nefro-12 casi no necesitan fotos). Los vacíos reales están en **glomerulopatías (nefro-13 a nefro-17)**, **estenosis de arteria renal (nefro-20)** y la **IRA postrenal (nefro-01)**.
 

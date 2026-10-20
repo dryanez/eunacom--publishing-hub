@@ -38,7 +38,7 @@ TAG_RE = re.compile(r"EUNACOM [A-Za-zé]+ \d{4} · Pregunta \d+")
 GLOBS = [
     "classes/lessons/*.cjs",
     "books/scripts/dataset_*.cjs",
-    "books/dist/ENSAYO*.json",
+    "books/dist/_datos_ensayos_90Q/ENSAYO*.json",
     "classes/curriculum/*_decks_data.json",
     "books/data/banco_preguntas_v3.json",
     "books/data/preguntas_practica_v3.json",
@@ -390,7 +390,7 @@ def product_of(rel):
         return "Clases (guiones)"
     if rel.startswith("books/scripts/dataset_"):
         return "Libros (datasets)"
-    if rel.startswith("books/dist/ENSAYO"):
+    if rel.startswith("books/dist/_datos_ensayos_90Q/ENSAYO"):
         return "Libros Gordos (ENSAYO_90Q)"
     if rel.startswith("classes/curriculum/"):
         return "Reproductor (decks_data)"
@@ -622,7 +622,7 @@ def replace_copy(ed, doc, cp, old, new, rel, is_lesson):
     ef = next((k for k in EXP_F if k in p), None)
     if ef:
         cur = doc.str_at(p[ef]) or ""
-        if rel.startswith("books/dist/ENSAYO") and cur.startswith("Pregunta oficial"):
+        if rel.startswith("books/dist/_datos_ensayos_90Q/ENSAYO") and cur.startswith("Pregunta oficial"):
             exp = cur.replace(old["recTag"], new["recTag"])
             exp = re.sub(r"Evalúa el manejo clínico de .*$", "", exp).strip() + " " + (new.get("explicacion") or "")
         else:
@@ -678,7 +678,7 @@ def main():
         if ttags and str(f).endswith(".cjs") and "/classes/lessons/" in str(f):
             lessons_changed.append((f.stem, sorted(ttags)))
     # Libros Gordos: las que quedaron sin reemplazo (o con falta de imagen) se marcan en el JSON para revisión
-    for f in sorted(glob.glob(str(ROOT / "books/dist/ENSAYO*.json"))):
+    for f in sorted(glob.glob(str(ROOT / "books/dist/_datos_ensayos_90Q/ENSAYO*.json"))):
         d = json.loads(Path(f).read_text())
         ch = False
         for q in d:

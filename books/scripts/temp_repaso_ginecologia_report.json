@@ -16,7 +16,7 @@
     "overflow": false
    },
    "T20.2": {
-    "steps": 12,
+    "steps": 10,
     "split": false,
     "algo": {
      "scale": 1,
@@ -42,13 +42,13 @@
     "overflow": false
    },
    "T20.4": {
-    "steps": 16,
+    "steps": 17,
     "split": false,
     "algo": {
-     "scale": 1,
+     "scale": 0.93,
      "orient": "lr"
     },
-    "algoH": 300,
+    "algoH": 260,
     "traps": 2,
     "ask": 5,
     "tight": true,
@@ -148,15 +148,15 @@
     "overflow": false
    },
    "T20.12": {
-    "steps": 9,
+    "steps": 7,
     "split": false,
     "algo": {
-     "scale": 0.91,
+     "scale": 0.92,
      "orient": "lr"
     },
-    "algoH": 265,
+    "algoH": 270,
     "traps": 3,
-    "ask": 5,
+    "ask": 6,
     "tight": true,
     "overflow": false
    },

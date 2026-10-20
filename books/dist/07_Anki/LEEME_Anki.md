@@ -77,9 +77,9 @@ uv pip install --target ~/fotos_tools/pylib genanki      # Pillow, playwright (p
 
 python3 books/scripts/anki/validate_cards.py gastroenterologia      # valida esquema + cifras vs. libro
 python3 books/scripts/anki/conceptos.py gastroenterologia           # (re)arma _glosario.json (páginas del PDF, clase, minuto, URL)
-python3 books/scripts/anki/build_anki.py gastroenterologia          # arma books/dist/Anki/AEE_EUNACOM_V3_Gastroenterologia.apkg
+python3 books/scripts/anki/build_anki.py gastroenterologia          # arma books/dist/07_Anki/AEE_EUNACOM_V3_Gastroenterologia.apkg
 python3 books/scripts/anki/build_anki.py gastroenterologia --force-media   # rehace capturas
-python3 books/scripts/anki/verify_apkg.py books/dist/Anki/AEE_EUNACOM_V3_Gastroenterologia.apkg --muestra 10 --png /tmp/muestra
+python3 books/scripts/anki/verify_apkg.py books/dist/07_Anki/AEE_EUNACOM_V3_Gastroenterologia.apkg --muestra 10 --png /tmp/muestra
 ```
 
 `build_anki.py` hace cuatro pasos:

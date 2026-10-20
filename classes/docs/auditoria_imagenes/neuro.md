@@ -6,7 +6,7 @@ Método: se extrajo de cada `classes/lessons/neuro-*.cjs` lo enseñado (títulos
 
 Leyenda: **foto** = foto/figura real · **anim** = animación .mp4 · **svg** = esquema propio · **—** = no se muestra. "Necesita" = hay una imagen reconocible que EUNACOM muestra o describe (TC, RM, foto clínica, EEG). Dosis, escalas y algoritmos no necesitan imagen.
 
-Nota sobre el libro: `books/dist/Modulo_1_Medicina_Interna/Manual_EUNACOM_Neurologia_Completo_2026.pdf` (137 pp., 26 imágenes) usa las mismas figuras que las clases (Imagen 10.1 … 10.24). No aporta candidatos nuevos.
+Nota sobre el libro: `books/dist/01_Tomos/Modulo_1_Medicina_Interna/Manual_EUNACOM_Neurologia_Completo_2026.pdf` (137 pp., 26 imágenes) usa las mismas figuras que las clases (Imagen 10.1 … 10.24). No aporta candidatos nuevos.
 
 ## Resumen
 

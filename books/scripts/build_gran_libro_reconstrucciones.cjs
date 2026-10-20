@@ -707,7 +707,7 @@ async function main() {
 
   // 5. Ensamblar todo con pypdf
   console.log('>>> [5/5] Ensamblando El Gran Libro EUNACOM de Reconstrucciones...');
-  const outFinalPdf = path.join(DIST_DIR, 'El_Gran_Libro_EUNACOM_Reconstrucciones_2013_2025.pdf');
+  const outFinalPdf = path.join(DIST_DIR, '03_Reconstrucciones', 'El_Gran_Libro_EUNACOM_Reconstrucciones_2013_2025.pdf');
 
   const mergeScript = `
 import pypdf

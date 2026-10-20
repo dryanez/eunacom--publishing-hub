@@ -44,7 +44,7 @@ const { CLASS_URL } = require('./build_repaso.cjs'); // misma constante «por co
 const BOOKS = path.join(__dirname, '..');
 const REPO = path.join(BOOKS, '..');
 const DIST = path.join(BOOKS, 'dist');
-const OUT_DIR = path.join(DIST, 'Atlas');
+const OUT_DIR = path.join(DIST, '06_Atlas');
 const MEDIA = path.join(REPO, 'classes', 'media');
 const LESSONS = path.join(REPO, 'classes', 'lessons');
 const CODEMAP = JSON.parse(fs.readFileSync(path.join(BOOKS, 'data', 'v3_codemap.json'), 'utf8'));
@@ -113,7 +113,7 @@ function prepare(key, spec) {
   const LIDX = lessonPhotoIndex(A.prefix);
 
   // tomo: rango de páginas de cada tema (encabezado «T E M A  1 6 . 5») y búsqueda de rótulos
-  const tomoPdf = path.join(DIST, spec.moduleDir, spec.out);
+  const tomoPdf = path.join(DIST, '01_Tomos', spec.moduleDir, spec.out);
   const P = fs.existsSync(tomoPdf) ? tomoPages(tomoPdf) : null;
   const PN = P ? P.map(norm) : null;
   const range = {};

@@ -17,6 +17,7 @@ const puppeteer = require('puppeteer');
 const _WIN_CHROME = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
 const CHROME_PATH = process.env.CHROME_PATH || [_WIN_CHROME, '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'].find(p => require('fs').existsSync(p));
 const DIST_DIR = path.join(__dirname, '..', 'dist');
+const LG_DIR = path.join(DIST_DIR, '02_Libros_Gordos_90Q');
 const ASSETS_DIR = path.join(__dirname, '..', 'assets');
 
 const TOMOS = [
@@ -467,7 +468,7 @@ async function main() {
   console.log('>>> [2/3] Verificando los 21 tomos monográficos individuales...');
   const pdfList = [coverPdf];
   for (const t of TOMOS) {
-    const p = path.join(DIST_DIR, t.file);
+    const p = path.join(LG_DIR, t.file);
     if (!fs.existsSync(p)) {
       console.log(`[AVISO] Compilando tomo faltante: ${t.key}...`);
       execSync(`node scripts/build_libro_gordo_pdf.cjs ${t.key}`, { stdio: 'inherit' });
@@ -477,8 +478,8 @@ async function main() {
 
   // 3. Unir los PDFs en el Gran Libro Gordo con pypdf
   console.log('>>> [3/3] Ensamblando el Gran Libro Gordo Completo (1.890 Preguntas)...');
-  const outMegaPdf = path.join(DIST_DIR, 'El_Gran_Libro_Gordo_EUNACOM_1890Q.pdf');
-  const outMegaPdfAct = path.join(DIST_DIR, 'El_Gran_Libro_Gordo_EUNACOM_1890Q_Actualizado.pdf');
+  const outMegaPdf = path.join(LG_DIR, 'El_Gran_Libro_Gordo_EUNACOM_1890Q.pdf');
+  const outMegaPdfAct = path.join(LG_DIR, 'El_Gran_Libro_Gordo_EUNACOM_1890Q_Actualizado.pdf');
 
   const mergeScript = `
 import pypdf

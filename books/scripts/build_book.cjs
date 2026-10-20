@@ -1298,7 +1298,7 @@ async function buildBook(spec, browser) {
   }
 
   const outMain = spec.moduleDir
-    ? path.join(DIST_DIR, spec.moduleDir, spec.out || `Manual_EUNACOM_${spec.title.replace(/\s+/g, '_')}_Completo_2026.pdf`)
+    ? path.join(DIST_DIR, '01_Tomos', spec.moduleDir, spec.out || `Manual_EUNACOM_${spec.title.replace(/\s+/g, '_')}_Completo_2026.pdf`)
     : path.join(DIST_DIR, spec.out || `Manual_EUNACOM_${spec.title.replace(/\s+/g, '_')}_Completo_2026.pdf`);
   fs.mkdirSync(path.dirname(outMain), { recursive: true });
   let savedPath = null;

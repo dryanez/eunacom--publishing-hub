@@ -6,7 +6,7 @@ Método: igual que en `gastro.md`. Se extrajo de cada `classes/lessons/reuma-XX.
 
 Leyenda: **foto** · **anim** · **NO** = no se muestra. "¿La necesita?": **sí** = imagen reconocible que el EUNACOM pregunta; **no** = criterios, dosis, scores, conducta.
 
-Nota sobre los libros: `books/dist/Modulo_1_Medicina_Interna/Manual_EUNACOM_Reumatologia_Completo_2026.pdf` reproduce las mismas fotos de las clases (Imagen 9.1 … 9.24) más algoritmos propios ("FIGURA 9.x"); **no aporta fotos nuevas**. Las candidatas útiles están en la biblioteca: variantes `_alt` sin usar y las carpetas `11_dermatologia/derma-05`, `12_oftalmologia`, `05_endocrinologia/endo-18`, `09_neurologia/neuro-23`, `03_nefrologia/nefro-01`.
+Nota sobre los libros: `books/dist/01_Tomos/Modulo_1_Medicina_Interna/Manual_EUNACOM_Reumatologia_Completo_2026.pdf` reproduce las mismas fotos de las clases (Imagen 9.1 … 9.24) más algoritmos propios ("FIGURA 9.x"); **no aporta fotos nuevas**. Las candidatas útiles están en la biblioteca: variantes `_alt` sin usar y las carpetas `11_dermatologia/derma-05`, `12_oftalmologia`, `05_endocrinologia/endo-18`, `09_neurologia/neuro-23`, `03_nefrologia/nefro-01`.
 
 Observación general: reumatología es la especialidad con menos imágenes por clase. Siete clases (reuma-05, 08, 10, 12, 13, 15, 16) tienen una sola foto, varias de ellas son clases largas (8–10 diapositivas de contenido) y no hay **ninguna foto de uveítis** en toda la especialidad, pese a que se enseña en AIJ, EA y Behçet.
 

@@ -18,7 +18,7 @@ const fs = require('fs');
 const path = require('path');
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
-const DIST_DIR = path.join(__dirname, '..', 'dist');
+const DIST_DIR = path.join(__dirname, '..', 'dist', '_datos_ensayos_90Q');
 const FULL_CURRICULUM_FILE = path.join(__dirname, '..', '..', 'classes', 'curriculum', 'perfil_v3_full.json');
 
 const SPECIALTY_REGISTRY = {

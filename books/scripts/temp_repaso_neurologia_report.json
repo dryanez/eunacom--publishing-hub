@@ -2,29 +2,29 @@
  "report": {
   "topics": {
    "T10.1": {
-    "steps": 6,
+    "steps": 2,
     "split": true,
     "algo": {
      "scale": 1,
-     "orient": "lr"
+     "orient": "td"
     },
-    "algoH": 310,
+    "algoH": 360,
     "traps": 3,
-    "ask": 5,
-    "tight": true,
+    "ask": 6,
+    "tight": false,
     "overflow": false
    },
    "T10.2": {
-    "steps": 24,
+    "steps": 17,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "grid",
      "alt": true
     },
-    "algoH": 200,
-    "traps": 1,
-    "ask": 4,
+    "algoH": 260,
+    "traps": 2,
+    "ask": 5,
     "tight": true,
     "overflow": false
    },
@@ -42,7 +42,7 @@
     "overflow": false
    },
    "T10.4": {
-    "steps": 1,
+    "steps": 0,
     "split": true,
     "algo": {
      "scale": 1,
@@ -55,15 +55,15 @@
     "overflow": false
    },
    "T10.5": {
-    "steps": 8,
+    "steps": 6,
     "split": false,
     "algo": {
      "scale": 0.87,
      "orient": "lr"
     },
-    "algoH": 270,
+    "algoH": 300,
     "traps": 0,
-    "ask": 5,
+    "ask": 6,
     "tight": true,
     "overflow": false
    },
@@ -82,14 +82,14 @@
     "overflow": false
    },
    "T10.7": {
-    "steps": 21,
+    "steps": 20,
     "split": false,
     "algo": {
      "scale": 0.83,
      "orient": "lr"
     },
     "algoH": 250,
-    "traps": 2,
+    "traps": 1,
     "ask": 5,
     "tight": true,
     "overflow": false
@@ -121,7 +121,7 @@
     "overflow": false
    },
    "T10.10": {
-    "steps": 26,
+    "steps": 24,
     "split": false,
     "algo": {
      "scale": 0.87,
@@ -129,23 +129,23 @@
      "alt": true
     },
     "algoH": 200,
-    "traps": 0,
+    "traps": 1,
     "ask": 4,
     "tight": true,
     "overflow": false
    },
    "T10.11": {
-    "steps": 5,
+    "steps": 0,
     "split": true,
     "algo": {
-     "scale": 0.95,
+     "scale": 1,
      "orient": "grid",
      "alt": true
     },
-    "algoH": 290,
+    "algoH": 340,
     "traps": 3,
     "ask": 6,
-    "tight": true,
+    "tight": false,
     "overflow": false
    },
    "T10.12": {
@@ -162,42 +162,41 @@
     "overflow": false
    },
    "T10.13": {
-    "steps": 24,
+    "steps": 22,
     "split": false,
     "algo": {
-     "scale": 0.84,
+     "scale": 0.88,
      "orient": "lr"
     },
-    "algoH": 220,
+    "algoH": 230,
     "traps": 1,
-    "ask": 4,
+    "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T10.14": {
-    "steps": 5,
+    "steps": 0,
     "split": true,
     "algo": {
-     "scale": 0.75,
-     "orient": "grid",
-     "alt": true
-    },
-    "algoH": 270,
-    "traps": 4,
-    "ask": 6,
-    "tight": true,
-    "overflow": true
-   },
-   "T10.15": {
-    "steps": 25,
-    "split": false,
-    "algo": {
-     "scale": 1,
+     "scale": 0.87,
      "orient": "lr"
     },
-    "algoH": 280,
-    "traps": 0,
-    "ask": 4,
+    "algoH": 360,
+    "traps": 3,
+    "ask": 6,
+    "tight": false,
+    "overflow": false
+   },
+   "T10.15": {
+    "steps": 23,
+    "split": false,
+    "algo": {
+     "scale": 0.96,
+     "orient": "lr"
+    },
+    "algoH": 260,
+    "traps": 1,
+    "ask": 5,
     "tight": true,
     "overflow": false
    },
@@ -228,20 +227,20 @@
     "overflow": false
    },
    "T10.18": {
-    "steps": 4,
+    "steps": 0,
     "split": true,
     "algo": {
      "scale": 1,
-     "orient": "lr"
+     "orient": "td"
     },
-    "algoH": 300,
+    "algoH": 360,
     "traps": 3,
     "ask": 6,
-    "tight": true,
+    "tight": false,
     "overflow": false
    },
    "T10.19": {
-    "steps": 24,
+    "steps": 23,
     "split": false,
     "algo": {
      "scale": 0.88,
@@ -249,19 +248,19 @@
     },
     "algoH": 200,
     "traps": 1,
-    "ask": 4,
+    "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T10.20": {
-    "steps": 26,
+    "steps": 24,
     "split": false,
     "algo": {
-     "scale": 1,
+     "scale": 0.91,
      "orient": "lr"
     },
-    "algoH": 260,
-    "traps": 0,
+    "algoH": 220,
+    "traps": 1,
     "ask": 4,
     "tight": true,
     "overflow": false
@@ -281,28 +280,28 @@
     "overflow": false
    },
    "T10.22": {
-    "steps": 24,
+    "steps": 21,
     "split": false,
     "algo": {
      "scale": 1,
      "orient": "grid",
      "alt": true
     },
-    "algoH": 200,
-    "traps": 1,
-    "ask": 4,
+    "algoH": 230,
+    "traps": 2,
+    "ask": 5,
     "tight": true,
     "overflow": false
    },
    "T10.23": {
-    "steps": 27,
+    "steps": 23,
     "split": false,
     "algo": {
-     "scale": 0.75,
+     "scale": 0.91,
      "orient": "lr"
     },
-    "algoH": 230,
-    "traps": 0,
+    "algoH": 280,
+    "traps": 1,
     "ask": 4,
     "tight": true,
     "overflow": false
@@ -334,25 +333,22 @@
     "overflow": false
    },
    "T10.26": {
-    "steps": 0,
-    "split": true,
+    "steps": 8,
+    "split": false,
     "algo": {
      "scale": 1,
-     "orient": "td"
+     "orient": "grid",
+     "alt": true
     },
-    "algoH": 360,
+    "algoH": 270,
     "traps": 0,
-    "ask": 7,
-    "tight": false,
+    "ask": 5,
+    "tight": true,
     "overflow": false
    }
   },
-  "warnings": [
-   "T10.14: se desborda 84 px",
-   "T10.14: algoritmo al 75 %",
-   "T10.23: algoritmo al 75 %"
-  ],
-  "pages": 52,
+  "warnings": [],
+  "pages": 51,
   "where": {
    "COVER": 1,
    "IDX": 2,
@@ -382,11 +378,11 @@
    "T10.24": 39,
    "T10.25": 40,
    "T10.26": 42,
-   "NUM": 44,
-   "DRUG": 47,
-   "GES": 48,
-   "PLAN": 51,
-   "PRIO": 52
+   "NUM": 43,
+   "DRUG": 46,
+   "GES": 47,
+   "PLAN": 50,
+   "PRIO": 51
   }
  },
  "stars": [
